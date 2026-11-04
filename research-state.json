@@ -160650,5 +160650,55 @@
       "Pitch ranges and tracking performance"
     ],
     "active_inventory_unchanged": 402
+  },
+  "gp180_menu_census_completion_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://www.kirstein.de/docs/manuals/00120133/manual_EN.pdf",
+    "revision": "firmware V1.0.0,printed44–62",
+    "DST": {
+      "count": 26,
+      "rows_by_printed_page": {
+        "44": 2,
+        "45": 5,
+        "46": 5,
+        "47": 5,
+        "48": 5,
+        "49": 4
+      }
+    },
+    "AMP": {
+      "count": 58,
+      "rows_by_printed_page": {
+        "49": 1,
+        "50": 5,
+        "51": 4,
+        "52": 5,
+        "53": 7,
+        "54": 6,
+        "55": 5,
+        "56": 4,
+        "57": 5,
+        "58": 6,
+        "59": 5,
+        "60": 5
+      }
+    },
+    "CAB": {
+      "count": 35,
+      "rows_by_printed_page": {
+        "61": 25,
+        "62": 10
+      },
+      "excluded_user_IR_slots": 20
+    },
+    "total_noncapture_menu_rows": 196,
+    "categories_counted": 11,
+    "twelfth_module": "N→S sampleloader;Empty1–50 not50additionalalgorithms",
+    "unresolved": [
+      "Current200+headline reconciliation",
+      "Current firmware category equivalence",
+      "Unique algorithm total and loaded-file counts"
+    ],
+    "active_inventory_unchanged": 402
   }
 }

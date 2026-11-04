@@ -1485,7 +1485,7 @@ Current comparison uses the dated table below plus the explicitly qualified foll
 | Weight | 843 g |
 | Used IDR observation | ? |
 | New / retail IDR observation | **Rp3.250.000**, Galeri Musik Indonesia, checked2026-10-14; seller displayed available, not checkout-confirmed. Delivery, taxes, warranty and bundle unverified. [Dated source](VALETON.md#gp-180). |
-| Simultaneous blocks / categories and choices | 12 reorderable modules, DSP-limited; advertised200+ effects. Own V1.0.0 counted NR3, PRE23, WAH4, EQ4, MOD17, DLY14, RVB11, VOL1; DST/AMP/CAB and current-firmware census pending. Choices are not extra slots. [Counting basis](#gp-180--creative-algorithms-and-partial-category-census). |
+| Simultaneous blocks / categories and choices | 12 reorderable modules, DSP-limited. V1.0.0: NR3, PRE23, WAH4, DST26, AMP58, CAB35, EQ4, MOD17, DLY14, RVB11, VOL1 =196 menu rows; N→S sample slots and20 user IR slots separate. Not unique algorithm or simultaneous-instance counts. Current200+ headline reconciliation remains open. [Completed historical census](#gp-180--completed-v100-menu-row-census). |
 | Presets and user storage | 200 total / 100 factory-filled |
 | Synth / acoustic functions | Own V1.0.0: OCTA/Pitch/P-Bend polyphonic, Hammy mono, Detune ±50 cents. AC Sim and pickup simulators; Step Filter is not a verified synth engine. Ring Mod, Hold/Freeze and Shimmer. [Algorithms and menu census](#gp-180--creative-algorithms-and-partial-category-census). |
 | Third-party IR | 20, 1024/2048 samples |
@@ -1561,6 +1561,20 @@ Counted original menu rows, excluding None/Off and parameter modes:
 | VOL |1| Volume |
 
 DST/AMP/CAB census remains pending. These counts neither prove the advertised total nor unlimited concurrency; effect loading is DSP-limited. V1.1.1 source-access limits above remain.
+
+### GP-180 — completed V1.0.0 menu-row census
+
+Checked **2026-11-04** in the [manufacturer GP-180 V1.0.0 manual](https://www.kirstein.de/docs/manuals/00120133/manual_EN.pdf), original printed pp44–62. This completes the previously pending DST/AMP/CAB row counts for that revision; current firmware remains unverified.
+
+| Menu | Printed-page row counts | Total / boundary |
+|---|---|---|
+| DST |44:2;45:5;46:5;47:5;48:5;49:4| **26**; repeated names in PRE remain separate menu entries, not unique algorithms |
+| AMP |49:1;50:5;51:4;52:5;53:7;54:6;55:5;56:4;57:5;58:6;59:5;60:5| **58**, including five bass entries and AC Pre; clean/drive/channel versions count separately |
+| CAB |61:25;62:10| **35 built-in**, including five acoustic-body entries; **20 user IR locations excluded** |
+
+Together with the eight categories counted above, this is **196 menu rows in 11 categories**. The twelfth module, **N→S**, is a sample-loading block; its Empty1–50 row is not 50 additional effect algorithms. The separate 100-slot/50-supplied SnapTone claim and native A2 Lite firmware qualification remain intact. Counting loaded files, user locations and menu choices together would not establish a unique algorithm total. The advertised200+ headline remains unreconciled; no missing entries are invented.
+
+**AC Pre** processes acoustic instruments; the CAB acoustic-body entries differ from PRE’s electric-to-acoustic AC Sim. Neither establishes tracking synthesis. Current-firmware equivalence, tracking performance and remaining expression/price qualifications stay open.
 
 ## GP-200
 

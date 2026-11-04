@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(valeton): document GP-180 creative algorithms and category counts'
+        message='research(valeton): complete GP-180 historical menu census'
     print(git('commit','-m',message))
