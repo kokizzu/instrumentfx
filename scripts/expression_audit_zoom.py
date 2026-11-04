@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fender): qualify compound-switch shared settings and strip labels'
+        message='research(fractal): qualify FM9 Pitch filter and clock warning revisions'
     print(git('commit','-m',message))

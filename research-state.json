@@ -159766,5 +159766,15 @@
     "next": "Requestedseparatescreenshortlist;newprimaryGuideH/categorycensus,stripdimensions/color/touch,page2MIDIandglobalanalogvolumeunresolved;no unchangedblockerretry.",
     "market": "KnownMalangexactShopeeitem27020240400 remainsinaccessible;no newprice/stockclaim.",
     "inventory_count_unchanged": 402
+  },
+  "fm9_pitch_filter_clock_warning_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fractal Audio FM9 MKII Turbo",
+    "source": "https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf",
+    "revision": "OriginalFM9history11.00 Jan19,2026 PDF4–5;12.00Jul7 covermatchesmanufacturerlisting",
+    "finding": "Pitchupper~Fsharp6;HighCutmin200Hz,existingpresetsnotautomaticupdate. Mini-tunergraphicwarnsmissing/not48kHzexternalSPDIFclock.",
+    "qualification": "FiltercutoffnotlowesttrackednoteorSynthpolyphony;warningnotextraphysicalLCDorverifiedoneachstrip;installed/currentequivalenceuntested.",
+    "next": "PreserveGEQ18vs16gap,globalEXPendpoints/recall/fullcoverage,exactMKIIphysicalandqualifiedIDR;continue requestedshortlistnew evidence.",
+    "inventory_count_unchanged": 402
   }
 }

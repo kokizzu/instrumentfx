@@ -1713,6 +1713,17 @@ This follow-up used original text only; no panel image was visually inspected, d
 
 Checked **2026-11-04**, [manufacturer FM9 owner’s manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf), **August2022,firmware3.x,Original/Turbo**, printedpp73,101. The Utilities reset restores SETUP parameters while preserving presets, but clears footswitch layouts; a separate command erases all presets. Both destructive scopes require confirmation and are described as irreversible. The FC Controllers/Onboard Switches menu separately restores factory layouts. Thus preserved preset memory does not mean preserved customized switch layouts or labels. Current MKII/12.0 equivalence,IR/reset coverage and automatic backup availability are not established. No reset,device operation,local download orsoftware installation performed.
 
+### FM9 MKII Turbo — firmware11 Pitch filter and clock-warning scope
+
+Checked **2026-11-04**, [manufacturer-authored FM9 release-history PDF,11.00 January19,2026,PDFpp4–5](https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf). Original41-page FM9 history;12.00 July7,2026 heading matches the preserved manufacturer listing. Mirror-generated summaries excluded.
+
+| Field | Revision-qualified finding / limitation |
+|---|---|
+| Pitch /11.00 detector and filter | Notes raise the pitch-detector upper range to approximately **F♯6** andextend **High Cut down to200Hz**. Existing presets do **not** update automatically for that filter change. High Cut shapes processed tone;it is not a lowest tracked note,latency measurement orSynth-polyphony specification. The separately recorded12.00 ~2500Hz detector claim remains later evidence. |
+| Display /11.00 clock warning | A new **mini-tuner graphic warning** reports an external S/PDIF clock that is absent ornot48kHz;the notes direct users to I/O→Audio→Word Clock. This is a clock-status graphic,not an extra physical LCD,verified text on every switch strip orproof of sample-rate conversion. |
+
+Installed behavior andfull current-firmware equivalence remain untested. Graphic-EQ18-versus16 documentation gap,global volume endpoints/recall/output coverage,exact MKII body corroboration andcondition-qualified Shopee offers remain unresolved. No local download ordevice operation.
+
 ## FM9 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from Turbo and MKII Turbo. Not fully verified; no ownership or live-stock assertion. The complete discovery body follows under its old anchor. Earlier outside-inventory statements are historical checkpoints, not the current admission status.
