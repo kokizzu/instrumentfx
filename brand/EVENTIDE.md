@@ -201,10 +201,12 @@ Checked 2026-10-17; partial. Separate from original H9 Max and H9 Gen 2. Ownersh
 | Knobs / footswitches / buttons | **5 rotary /3 physical footswitches /7 buttons**, text-derived: Select, Perform, three Quick Knobs; Programs, Routing, Presets, Parameters, P/A/B. Push encoders counted once. Product’s six programmable footswitch functions are not six physical switches. [Top][H90-T] |
 | Display | OLED; diagonal, resolution, monochrome/color and touchscreen unverified. [Top][H90-T] |
 | Processing / choices | Current product headline **74=52 H9-derived+22 newer algorithms**; **Manual1.12.5 reconciles74 effects**, excluding Mute/Thru utilities; release1.12.5 introduces the four granular algorithms. Installed firmware unknown. [Guide][H90-G],[Release][H90-F] **Two algorithms per Program**, series/parallel, with spillover. Two mono inserts or one stereo insert; Dual mode can process two stereo instruments. [P][H90-P] |
+| Processing / granular controls | [Four algorithm-specific distinctions](#h90--granular-trigger-capture-and-dry-path-distinctions): Cosmic Web reverb Freeze differs from infinite voice repeats; Glitch/Stutter Interrupt affects dry audio; GrainMod modulates grain timing, duration and filter. Requires 1.12.5; two-algorithm Program limit remains. |
 | Memory / reset scope | **Clear Current State preserves saved Lists,Programs andPresets**,but clears theloaded Program andresets System/Tempo settings. **Factory Reset erases all user Lists,Programs andPresets** andresets System/Tempo;it doesnot downgrade installedsoftware. Neither operation was performed. These are different recovery scopes,not proof of factory-fill counts. [Own1.12.5 Startup](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/appendix/startup.html) |
 | Editor / library load and overwrite | H90 Control Library auto-load selects aProgram immediately whenenabled;withitoff,selection previews anddouble-click/Enter loads. Dragging aProgram to aPlaylist location overwrites thatlocation;locked Factory Programs cannotbeoverwritten. Duplicate filtering/UseCount concern repeatedlist memberships,not additionalunique Programs. [Own1.12.5 Library](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/h90-control/program-library.html) |
 | Factory / user memory | **Up to99 Programs per List**; editable User Lists and read-only Factory Lists, first User List factory-populated. Total list count, total capacity and exact factory fill unresolved. A Preset is one algorithm’s settings; a Program contains two. Only User Lists can be the active Playlist; Factory Lists remain searchable. Library Use Count tracks reuse across lists, so list memberships are not automatically distinct stored sounds. [Global][H90-B],[Library][H90-U] [Terminology][H90-M] |
 | Synth / acoustic | **PolySynth:** SIFT polyphonic guitar-to-synth, up to3 synth voices; Playstyle trades pure mono tone against polyphonic tracking. **HotSawz:**6 saw oscillators follow mono pitch tracking. **Synthonizer:**additive A/subtractive B voices with reverb. Acoustic simulation and Synthonizer input/tempo restrictions unverified. [Synth manual1.12.5][H90-Y] [P][H90-P] |
+| Synth / filter and envelope controls | [Own 1.12.5 parameter distinctions](#h90--synth-envelope-and-filter-control-distinctions): HotSawz gate has no release stage; PolySynth Freeze Release is separate; Synthonizer Sweep B changes filter mode across its range. Note handling remains algorithm-specific. |
 | Dimensions / mass | Product: **170W×136D×68Hmm;0.84kg**, also6.5W×5.25D×2.5Hin. Manual1.11.4: **179W×136D×65Hmm;1.36kg**, also1.85lb. Retain conflicting metric axes/mass and inch/metric mismatch; do not silently convert or choose. [P][H90-P],[Specs][H90-S] |
 | Memory / routing-mode compatibility | **Insert and Dual routing use alternate Program/List sets**; a Program/List created in one cannot directly serve the other. H90 Control export/reimport offers conversion after changing modes. This is a compatibility boundary, not evidence of erased lists or doubled physical memory. [Routing manual1.12.5](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/edit-modes/routing.html) |
 | Routing / insert compensation | Each insert has send/return levels,mix,normal/inverted polarity,**0–512 samples latency compensation** andTails. Tails On permits inserted effects to decay on bypass;Off immediately mutes the insert. Compensation is additional to the documented3.8ms insert latency,not latency removal or a measured external-device value. [Own1.12.5 routing](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/edit-modes/routing.html) |
@@ -341,6 +343,27 @@ Checked **2026-11-04**, [manufacturer H90 manual1.12.5,Harmonizer chapter](https
 | Pitch / Polyphony mode trade-off | Percussive mode prioritizes transients andlower latency andmay suit small fully-wet retuning;Pitched is preferred forlarger intervals. No numeric latency oruniversal tracking-quality result established. |
 
 Two algorithms per Program remains the architecture boundary. No source confirms exact release dates here;earlier version-introduction evidence anddate uncertainty remain. No software/device operation orlocal download.
+
+### H90 — granular trigger, capture and dry-path distinctions
+
+Checked **2026-11-04** against the [manufacturer Granular chapter, manual 1.12.5](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/granular.html). These are documented controls, not measured performance or installed-firmware verification.
+
+- **Cosmic Web:** AutoRetrig 0dB makes triggering manual-only. **Repeat A/B** independently engage infinite voice feedback; **Freeze** holds reverb; **Dump** clears both voices. These are different capture/hold targets.
+- **Glitch:** Burst/Alias/Clock types can combine. Trigger mode chooses Chance, Envelope or Manual; **Interrupt pauses dry audio during glitches**. Glitch Time spans 60–8000ms or tempo-sync values.
+- **GrainMod:** separate LFOs target Trigger Rate, Grain Duration and Filter. Grain duration 20–2000ms; LFO rate 0.01–20Hz or tempo-sync. Retrigger resets all three LFO cycles, not a recorded loop transport.
+- **Stutter:** Length sets burst duration; Rate sets individual-stutter spacing. Smear 25–300% of Rate changes stutter duration. Chance/Envelope/Manual triggering and Interrupt dry-path behavior are distinct from a dedicated synth or full looper.
+
+The four choices require 1.12.5; only two algorithms fit a Program, including multi-component algorithms. The manufacturer’s [granular explainer](https://www.eventideaudio.com/blog/exploring-granular-effects-in-the-h90-and-h9000/), dated **March 11, 2026** in its [own archive](https://www.eventideaudio.com/blog/tag/eventide-h90/), says they are available. That later article date is **not** established as the firmware release date. Exact release dates remain unresolved. No additions are transferred to H9 Max or H9 Gen 2; no local download or device operation.
+
+### H90 — synth envelope and filter-control distinctions
+
+Checked **2026-11-04**, [manufacturer Synth chapter, manual 1.12.5](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/synth.html):
+
+- **HotSawz:** gate Attack/Decay each span 0–3000ms, but are inactive when Gate is Off. The gate has no release stage; this differs from an ordinary ADSR envelope.
+- **PolySynth:** Attack 5–1000ms or tempo-based; Freeze Release is separate. The manual intends no new notes during freeze release. Its neck-pickup tracking tip is manufacturer advice, not a measured guarantee.
+- **Synthonizer:** Shape A offers Sine, Triangle, Sawtooth, Organ 1 and Organ 2; **Sweep B 0–50 is low-pass, 50–100 high-pass**. **Flex raises both voices one octave**. These voices/filter choices do not prove chord tracking; Synthonizer input-note polyphony remains unverified.
+
+The synths remain alternatives within two algorithm positions. No installed firmware, playing test or extra simultaneous slot is inferred.
 
 ## Incoming capability evidence, 2026-10-18
 

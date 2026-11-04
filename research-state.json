@@ -160314,5 +160314,24 @@
     "qualification": "Historical correctedfaults,notnewalgorithms orcurrentbug assertion;input-note polyphony,physicalscreen specifications andinstalled firmware remain unverified.",
     "active_inventory_unchanged": 402,
     "next": "Continue requested individual-switch-display model gaps with exact primary evidence;preserve independent GT-Pro/expression queues;Stadium power label unresolved."
+  },
+  "h90_granular_capture_trigger_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Eventide H90",
+    "revision": "Manual1.12.5; introduction version distinct from exact release date",
+    "sources": [
+      "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/granular.html",
+      "https://www.eventideaudio.com/blog/exploring-granular-effects-in-the-h90-and-h9000/",
+      "https://www.eventideaudio.com/blog/tag/eventide-h90/"
+    ],
+    "finding": "CosmicWeb reverbFreeze/pervoiceRepeat/Dump distinct;Glitch/Stutter dryInterrupt;GrainMod3LFOs andtimingcontrols;StutterLength/Rate/Smear distinct.",
+    "chronology": "Manufacturer archive dates explanatory article2026-03-11; availability stated then,not proven firmware release date.",
+    "active_inventory_unchanged": 402,
+    "next": "Keep exact release dates andother source gaps unresolved;resume requested individual-display model fields,GT-Pro andexpression queues independently.",
+    "synth_followup": {
+      "source": "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/synth.html",
+      "revision": "1.12.5",
+      "finding": "HotSawz Gate Off disables Attack/Decay and gate has no release; PolySynth Freeze Release separate; Synthonizer Sweep B low/high-pass regions and octave Flex; no polyphony inference from voices."
+    }
   }
 }
