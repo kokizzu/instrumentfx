@@ -851,3 +851,5 @@ Stadium Floor [looper retention follow-up](brand/LINE6.md#stadium-floor--named-c
 Stadium Floor [firmware recall qualification](brand/LINE6.md#stadium-floor--firmware-specific-recall-and-play-view-corrections): independent per-pedal Global/Per Preset position settings date to1.4. Hardware1.4.1/1.4.2 address separate snapshot/setlist recall faults;Native1.4.1 is plugin-only. These do not establish global volume assignment ortested installed behavior.
 
 EX-4 [memory-transition qualification](brand/BOSS.md#ex-4--memory-gap-direct-sound-and-noise-detection): SEAM’s direct replacement during a memory gap is separate from CARRYOVER decay. Attenuation of transition audio by the system OUT LEVEL target remains unverified; neither setting proves global full-route mute.
+
+Chocolate’s [current named-product ratings and mixed-offer exclusion](brand/M-VAVE.md#chocolate--current-named-product-ratings-and-mixed-offer-exclusion) now separate manufacturer body/battery data from an unresolved Chocolate/Plus Shopee variation. These do not resolve analog wiring or global processor-volume assignment.

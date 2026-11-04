@@ -164480,5 +164480,45 @@
       "Global-volume endpoints/coverage"
     ],
     "next": "Continue requested display-priority profiles andexactShopee research;preserve GT-Pro,GP-200JR → Prime → GE300,expression andconsolidationqueues"
+  },
+  "chocolate_named_product_ratings_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/M-VAVE.md#chocolate--current-named-product-ratings-and-mixed-offer-exclusion",
+    "manufacturer": "https://www.cuvave.com/product?id=chocolate",
+    "access": "Three-week manufacturer search snapshot; direct site shell",
+    "scope": "Current named Chocolate only;not universal historical orPlus identity",
+    "dimensions_mm": {
+      "length": 212,
+      "width": 36,
+      "height": 17
+    },
+    "mass_g": 280,
+    "battery": {
+      "capacity_mAh": 300,
+      "nominal_V": 3.7,
+      "cell": "602030",
+      "advertised_charge_h": 2.5,
+      "advertised_use_h": 12,
+      "test_conditions": "unverified"
+    },
+    "mixed_offer": {
+      "shop": "130137603",
+      "item": "15709396542",
+      "seller": "HAWILA MUSIK INDONESIA",
+      "region": "Kota Surabaya",
+      "ask_idr": 560000,
+      "variations": 2,
+      "price_assignment": "unresolved Chocolate versusPlus;excluded exact-revision price",
+      "access": "Five-day search snapshot;directcachemiss",
+      "condition_stock_bundle_checkout": "unverified"
+    },
+    "remaining": [
+      "Exact controller identity",
+      "Analog pinout/resistance/taper",
+      "Continuous CC endpoints",
+      "Simultaneous transport andhost capability"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue accessible display-priority processor gaps andexactShopee hardware;preserve GT-Pro,GP-200JR → Prime → GE300,expression andconsolidation queues"
   }
 }

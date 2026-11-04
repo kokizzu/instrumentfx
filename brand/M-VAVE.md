@@ -243,6 +243,20 @@ The visible Pedal Jack label provides no tip/ring/sleeve roles, potentiometer re
 
 **Deferred until stronger evidence:** exact offered/owned controller identity, manufacturer electrical specification or reproducible identified-hardware sweep. Continue other inventory and primary-document tasks meanwhile;the overall research is not blocked. No download,installation,rewiring ordevice operation.
 
+### Chocolate — current named-product ratings and mixed-offer exclusion
+
+Checked **2026-11-04**. The [manufacturer Chocolate product page](https://www.cuvave.com/product?id=chocolate) supplies a **three-week-old search snapshot**; direct reopening returns the site shell. These are ratings for the currently named Chocolate product, not proof that every historical Chocolate, Plus or offered unit is identical.
+
+| Field | Manufacturer snapshot / boundary |
+|---|---|
+| Body / controls | **212L ×36W ×17H mm;280g;four footswitches**. It describes a command-feedback display without establishing LCD/OLED technology, pixel dimensions or individual screens. Controller dimensions do not enter processor footprint comparisons. |
+| Battery / charging | **300mAh,3.7V,cell602030**; USB-C charging. Advertised **2.5h charge/up to12h use** lacks test conditions or external-device load. This is an explicit capacity unit for this page, not a correction of the differently identified Plus manual’s mislabelled table. |
+| Software / transport | Bluetooth/USB MIDI; CubeSuite desktop/mobile, SincoOTA updater and Windows Sinco Connector links. The page lists FootCtrl2025_6_6 firmware. Linked software and a firmware label do not prove simultaneous transports, USB-host operation or identity with FootCtrlPlus. |
+
+Analog tip/ring/sleeve roles, resistance, taper and continuous CC endpoints remain unverified. No safe adapter or wiring prescription follows from these physical ratings. This MIDI controller does not satisfy direct analog pedal-to-processor volume by itself. No local download, installation or hardware test.
+
+**Mixed Shopee offer, excluded from exact-revision prices:** [HAWILA MUSIK INDONESIA,shop130137603/item15709396542](https://shopee.co.id/M-Vave-Chocolate---Chocolate-Plus-Wireless-Midi-Controller-Programmable-Design-Midi-System-i.130137603.15709396542),Kota Surabaya, **Rp560.000**, five-day search snapshot. Title mixes Chocolate/Chocolate Plus and exposes **two variations** without their selection or price mapping; direct reopening missed cache. Condition, working state, actual revision, stock, cables, pedal inclusion, bundle, warranty, shipping/tax, vouchers and checkout total remain unknown. November1–2 delivery is stale; up-to-Rp10.000 late compensation is not deducted. This is not a qualified original-Chocolate or Plus price, live stock or completed sale. Existing exact-title Plus offers retain their own qualifications. Outside active audio-processor counts.
+
 ## CUBE BABY AC
 
 <!-- comparison evidence begins -->
