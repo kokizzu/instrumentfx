@@ -1008,14 +1008,14 @@ Shared guitar/bass multi-effects;not PANDORA mini/PX5D. Checked2026-10-17;partia
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression / K/F/B | **K/F/B: 2 / 1 / 7** from the complete named-control enumeration: VOLUME/Value dials, one footswitch, three mode buttons and A–D. Power switch additional. Built-in/external/toe expression unverified. | [Manual pp9–10][PS-MJ] |
+| Expression / K/F/B | **K/F/B: 2 / 1 / 7** from the complete named-control enumeration: VOLUME/Value dials, one footswitch, three mode buttons and A–D. Power switch additional. No built-in treadle or analog EXP input in the complete numbered connector inventory; toe N/A. Later direct-expression audit below supersedes the earlier unknown. | [Manual pp9–10][PS-MJ] |
 | Display | Backlit LCD plus independent tuner LED meter/note indicator. Published diagonal,color depth andtouch unverified. | [Features][PS-F] |
 | Dimensions / mass | 70W×123D×48H mm including protrusions;511g including battery. Small footprint. | [Specifications][PS-S] |
 | Simultaneous effects | Maximum7;158 types. Fixed-category versusfreely assignable/routing limits require manual verification. | [Specifications][PS-S] |
-| Categories / choices | Dynamics/pickup27,amp26,cab23,mod/filter46,delay25,reverb10;noise reduction separately listed. Do not confuse158 choices with simultaneous capacity. | [Effect list][PS-E] |
-| Factory / user memory | 200 preset plus200 user programs;400 total by addition. User000–199 rewritable; preset200–399. A–D are four favourite assignments, not extra memories. Preset slots cannot be overwritten; edits require WRITE before changing programs/powering off. Factory reload overwrites user programs/settings. Initial user-bank fill unverified. | [Specifications][PS-S]; [Manual pp13,19,23,26–27][PS-MJ] |
+| Categories / choices | Dynamics/pickup27,amp26,cab23,mod/filter46,delay25,reverb10;noise reduction separately listed. Arithmetic reconciliation: the six category counts sum157;counting NR once gives158. This is inferred list arithmetic,not an explicit manufacturer explanation or158 simultaneous effects. | [Effect list][PS-E] |
+| Factory / user memory | 200 preset plus200 user programs;400 total by addition. User000–199 rewritable; preset200–399. A–D are four favourite assignments, not extra memories. Preset slots cannot be overwritten; edits require WRITE before changing programs/powering off. Factory reload overwrites user programs/settings. Manual reload explicitly restores factory programs into user memory;exact initial slot-by-slot contents remain unverified. | [Specifications][PS-S]; [Manual pp13,19,23,26–27][PS-MJ] |
 | Synth / acoustic | AC SIM in dynamics/pickup;SYNTH in amp category. Manufacturer describes guitar synth/acoustic simulator. Bass-specific amps/cabs/effects explicitly marked;not inferred from EQ. Synth and intelligent pitch harmony require single notes, not chords. | [Effects][PS-E]; [Features][PS-F]; [Manual pp31,34][PS-MJ] |
-| I/O | Guitar/bass quarter-inch INPUT,stereo mini AUX;quarter-inch line OUTPUT,stereo mini PHONES. USB power/editor documented;connector subtype,output stereo/control sockets pending. Mono OUTPUT cable carries left only; AUX level is adjusted at its source. | [Specifications][PS-S]; [Support][PS-D]; [Manual p12][PS-MJ] |
+| I/O | Guitar/bass quarter-inch INPUT,stereo mini AUX;quarter-inch line OUTPUT,stereo mini PHONES. USB power/editor documented; connector subtype andline-output stereo behavior pending. Complete connector inventory excludes analogEXP; no newcontrol socket inferred. Mono OUTPUT cable carries left only; AUX level is adjusted at its source. | [Specifications][PS-S]; [Support][PS-D]; [Manual p12][PS-MJ] |
 | Power / battery / USB | One 9V 6LR61 alkaline or F6F22 carbon-zinc battery; approximately5h alkaline. USB bus power or optional **9V DC** adapter; current/polarity and draw unverified. Some computers need another power source or powered hub. Adapter-only Power Save starts after ≥4h inactivity; can be disabled. | [Specifications][PS-S]; [Manual pp8–12][PS-MJ] |
 | USB audio / MIDI | Korg USB-MIDI driver accompanies USB patch editing/library management. General MIDI control/message scope and USB audio remain unverified. | [Support][PS-D]; [Manual p27][PS-MJ] |
 | IR / NAM / capture | User IR,native/converted NAM andcapture import unestablished;REMS factory modeling is not import proof. | Unresolved |
@@ -1074,3 +1074,14 @@ Remaining: expression,published display details,full connector inventory,adapter
 
 [PS-EW]: https://www.korg.com/us/support/download/software/0/246/1464/
 [PS-EM]: https://www.korg.com/us/support/download/software/0/246/1465/
+### PANDORA stomp — level ranges and rhythm persistence
+
+Checked **2026-11-04**, [manufacturer EFGS2 manual,English printedpp16–17,22,24,26–27](https://cdn.korg.com/us/support/download/files/db0e40ab6d793d1df3c83dd801e5657c.pdf). Original text has reversed word order;read bychapter context,no visual inspection ordevice test.
+
+**Program Level0.0–10.0** belongs to each program; **Utility OUTPUT level0–10** controls the line jack andis retained across power-off. Neither is a dB scale oranalog expression assignment;the headphone VOLUME dial remains separate.
+
+Rhythm volume/reverb use0.0–10.0. Rhythm reverb uses the program’s existing reverb andhas no effect if that program has no reverb orits effect level iszero. Rhythm-setting changes must return toPlay before power-off to persist. No independent extra reverb processor isestablished.
+
+Factory reload replaces user programs plusRhythm/Utility settings;the manual explicitly loads factory programs into usermemory. It doesnot certify all200initial user names orcurrent used-unit contents. Tuner reference resets to440Hz after power-off,unlike Utility settings. No reset orsave performed.
+
+The [current manufacturer category list](https://www.korg.com/us/products/effects/pandora_stomp/page_2.php) supports the summary’s157+NR arithmetic,not a newalgorithm inventory. Fresh Shopee results repeat the already recorded sold-out ivory ask andunresolved pedal_kabul variant;no newstock/condition claim. Remaining adapter,USBprotocol,screen andimport uncertainties stayopen.
