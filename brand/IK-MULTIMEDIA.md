@@ -93,6 +93,18 @@ Checked **2026-11-04**, [manufacturer-authored User Manual v1.0.0, updated2026/0
 
 Partial model remains outside active counts. Exact Shopee Indonesia offer still unverified; no adapter connected, calibration performed, file downloaded locally or device operated. Global assignment is now documented; numeric range,recall andcomplete signal coverage remain open.
 
+### TONEX Board — documented controls and mode-dependent preset navigation
+
+Checked **2026-11-04** in the manufacturer **v1.0.0 manual,2026-09-02**, original [pp10–11](https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=11), [17](https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=17), [28](https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=28) and [36](https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=36). Exact72-page IK000200 reproduction matches the previously inspected revision. Host FAQs excluded; PDF panel rendering failed.
+
+| Field | Documented / derived scope |
+|---|---|
+| Rotaries / footswitches / buttons | **7 /4 /4**, text-derived: five parameter rotaries from [manufacturer Home instructions](https://ikmultimedia.com/products/tonexboard), plus manual BROWSE and VOLUME; A/B/C/CTRL; HOME/EDIT/LIVE/SAVE. Encoder pushes counted once. Five parameter encoders are not the complete rotary total. Earlier five/six headline wording remains preserved; no successful visual panel count or built-in-pedal confirmation. |
+| Onboard preset down/up | **A+B=previous;C+CTRL=next preset in Scene and Stomp modes**. In Preset mode the same pairs move banks instead. These are combinations, not dedicated down/up switches. Retain the quick-start Release-setting requirement for bank browsing; mode and press/release behavior matter. |
+| Processing / total slot boundary | Manualpp17,28 specify **12 total**, either serial or two six-slot branches. This strengthens the total12 interpretation; the product’s12-per-chain wording remains a source conflict, not permission to claim24. Split/Mix additions are confined to Path A in the slot menu. |
+
+No slot/preset was changed or file downloaded locally. Exact Shopee stock, electrical contradiction, visual hardware corroboration, current firmware and global-volume endpoints/recall/all-route attenuation remain unresolved. Partial lead stays outside active counts.
+
 ## TONEX ONE
 
 Standard TONEX ONE guitar/bass processor, not TONEX ONE+, Bass Edition or an artist variant. Consolidated and partially refreshed **2026-10-17**; no additional active model.

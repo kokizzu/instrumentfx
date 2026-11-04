@@ -160929,5 +160929,33 @@
     ],
     "active_inventory_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "tonex_board_controls_routing_20261104": {
+    "checked_date": "2026-11-04",
+    "sources": [
+      "https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=11",
+      "https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=17",
+      "https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=28",
+      "https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=36",
+      "https://ikmultimedia.com/products/tonexboard"
+    ],
+    "revision": "Manufacturer manual1.0.0 2026-09-02,72pages;exact IK000200;originaltext not host summaries",
+    "controls": {
+      "rotaries": 7,
+      "footswitches": 4,
+      "buttons": 4,
+      "basis": "Five parameter rotaries plus Browse/Volume;four named footswitches/four named buttons;not visually confirmed"
+    },
+    "navigation": "A+B previous/C+CTRL next preset in Scene/Stomp;bank movement in Preset mode;press/release qualifications retained",
+    "routing": "12 total slots or6+6;Split/Mix PathA only;product12-per-chain conflict remains",
+    "remaining": [
+      "Visual panel/treadle verification",
+      "Exact electrical rating conflict",
+      "Qualified exact Shopee hardware",
+      "Global-volume range/recall/bypass/tail/loop coverage",
+      "Current firmware andsoftware minima"
+    ],
+    "active_inventory_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }
