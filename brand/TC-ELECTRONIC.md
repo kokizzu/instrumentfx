@@ -75,6 +75,16 @@ Checked **2026-11-04**, manufacturer **G-System Addendum for Software4.0,E605200
 
 Keep these4.0 additions separate from the original38-entry census. Current complete inventory,installed version andfull output coverage remain unverified;no firmware introduction date inferred from a video upload. Partial lead stays outside active counts.
 
+### G-System — revision2.04 harmony availability and scale census
+
+Checked **2026-11-04**, [manufacturer-authored English manual reproduction](https://manualzz.com/doc/17306115/tc-electronic-g-system-pedal-manual), **revision2.04,SW2.01,E60504713**, printedpp3,68–69. Exact G-System/GFX01 identity; original document text, not the host’s translated title or generated summary.
+
+**Intelligent Pitch Shifter** is documented by this revision: two harmony voices,12keys and **18 scale choices**: Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, Locrian, Pentatonic Minor/Major, Blues, Diminished Half/Whole, Wholetone, Melodic Minor, Harmonic Minor, Super Locrian, Lydian b7 and Phrygian Major. Do not transfer NOVA System’s13-scale count.
+
+Each voice spans **−13…Unison…+13 scale steps**, not semitones; level−100…0dB and independent pan±50. Two voices/stereo do not establish input-note polyphony. This expands the earlier four-choice pitch list for the documented later revision, without rewriting the originalSW1.05 census.
+
+SW2.01 is an availability checkpoint, not a verified feature-introduction version or latest/installed firmware. Software4.0 addendum remains separate; a current combined menu census and tracking performance are unverified. No download or device operation; partial lead remains outside active counts.
+
 ## M100
 
 Checked 2026-10-17; partial. Guitar/vocal instrument and mixer-path processor; direct microphone preamp/phantom and bass suitability unverified. Ownership unknown.

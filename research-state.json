@@ -163502,5 +163502,44 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue accessible G-System latermanual/currentrevision andmarket evidence;preserve individual-footdisplay priority andindependent GT-Pro/expressionqueues."
+  },
+  "gsystem_204_harmony_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://manualzz.com/doc/17306115/tc-electronic-g-system-pedal-manual",
+    "revision": "Manual2.04/SW2.01/E60504713 printed3,68–69",
+    "canonical": "brand/TC-ELECTRONIC.md#g-system--revision204-harmony-availability-and-scale-census",
+    "algorithm": "Intelligent Pitch Shifter",
+    "scale_count": 18,
+    "scales": [
+      "Ionian",
+      "Dorian",
+      "Phrygian",
+      "Lydian",
+      "Mixolydian",
+      "Aeolian",
+      "Locrian",
+      "Pentatonic Minor",
+      "Pentatonic Major",
+      "Blues",
+      "Diminished Half",
+      "Diminished Whole",
+      "Wholetone",
+      "Melodic Minor",
+      "Harmonic Minor",
+      "Super Locrian",
+      "Lydian b7",
+      "Phrygian Major"
+    ],
+    "voice_range": "Two voices each−13…Unison…+13scalesteps;notsemitones orinputpolyphony",
+    "firmware_scope": "DocumentedbySW2.01;notverifiedintroduction/latest/installedversion",
+    "remaining": [
+      "Currentcombinedcategorycensus",
+      "IntelligentPitch introductionversion/inputpolyphony",
+      "QualifiedexactShopeeoffers",
+      "Currenteditor/OS",
+      "Output/bypassvolume coverage"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue remaining G-System physical/currentsoftware/market gaps whenaccessible;preserve separate-footdisplaypriority andindependent GT-Pro/expressionqueues."
   }
 }
