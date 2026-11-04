@@ -163691,5 +163691,25 @@
     "market": "ExactShopeeIDNv3 search noqualifieditem;foreign offers notconverted",
     "next": "Continue other accessible unfinished model gaps ifRK5visual/market sources remain inaccessible;preserve footdisplay priority,GTPro general andexpression queues",
     "active_inventory_unchanged": 402
+  },
+  "axom_english_usb_editor_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Melofty/EN/MEL_AXOM_MAX_Manual_EN.pdf",
+    "revision": "V1.7.4 2026-08-31,58pages;printed34–36,54",
+    "canonical": "brand/MELOFTY.md#axom-max--english-usb-conflict-and-editor-preset-operations",
+    "findings": [
+      "English original repeats German USB7/8 input/output wording contradiction;not established translation-only error",
+      "Editor preset reorder inserts;import confirmation documented butoverwrite andembedded sample dependencies unspecified"
+    ],
+    "access": "AlternateEnglishPDF textreadable;panel screenshotcachemiss;no qualifiedShopeeIDN hardware found",
+    "remaining": [
+      "Manufacturer physicalmini-screen census/technology",
+      "GlobalEXP3 coverage",
+      "Currentfirmware/category census",
+      "QualifiedIndonesiaoffers",
+      "ActualUSB7/8 circuit behavior"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue other accessible priority display model gaps;preserve independent GTPro/expression/consolidation queues"
   }
 }
