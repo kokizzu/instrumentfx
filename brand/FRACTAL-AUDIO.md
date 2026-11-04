@@ -1875,6 +1875,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | New IDR | No original-revision,condition-confirmed Shopee offer established. |
 | IDR revision-unverified hardware | **Rp36.000.000**,Bersih Jaya Cleaning,KotaSurabaya,[shop1354606623/item43322190869](https://shopee.co.id/Fractal-Audio-Systems-FM9-MKI-i.1354606623.43322190869),four-month index checked2026-11-01;service unavailable. Same item has conflicting FM3-MKII-Turbo URL slug,two-month FM9MKI snapshot andstaleAugust6–8 delivery. Original/Turbo revision,condition,stock,working state,bundle,warranty,adapter andcheckout unknown. Excluded fromexact-revision new/used ranges;voucher compensation notdeducted. [Full conflict](#fm9-original--partial-lcd-discovery). |
 | Categories / Megatap | [November guide limits](#fm9-original--november-megatap-limits-and-texture-controls): 64 taps per block on FM9; two instances subject to DSP. Distinct from Multi-Delay and Plex; 22-type headline is not a complete named census. |
+| Categories / Graphic EQ | [November guide count conflict](#fm9-original--november-graphic-eq-count-conflict): 18 advertised versus16 variants described; four FM9 blocks, DSP permitting. Two variants remain unidentified. |
 
 <!-- comparison evidence ends -->
 
@@ -2099,6 +2100,12 @@ These are preset-block capabilities. Current installed equivalence, introduction
 Checked **2026-11-05**, [manufacturer Blocks Guide, November 2026](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), printed pp3,57–58. FM9 permits **two Megatap blocks**, subject to CPU; each uses **1–64 taps** over a **four-second** delay line, with up to **one-second predelay**. The 128-tap specification belongs to Axe-Fx III. The table advertises **22 types** but these pages do not enumerate their names; no complete named census is claimed.
 
 Time, amplitude and pan patterns shape the repeats; random timing/level variation, input diffusion and an envelope follower create dense textures or swells. Feedback can restart before the preceding pattern finishes. Near-zero Stereo Spread settings can cancel some taps. These are delay processes, not tracked synthesis. Spillover depends on the owner-manual configuration; installed-firmware equivalence and introduction version remain unverified.
+
+### FM9 original — November Graphic EQ count conflict
+
+Checked **2026-11-05**, [manufacturer November 2026 Blocks Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), printed pp3,53. The comparison advertises **18 Graphic EQ types** and permits **four FM9 instances**, subject to CPU. The detailed prose accounts for **16 variants**: eight combinations of 10/8/7/5 bands with Constant/Variable Q; five passive choices (5-band Mark,5-band,4-band,3-band,3-band Console); 4-Band JMPre-1; 7 Band Pedal; and 7 Band Bass Pedal. The two additional advertised types are not identified here; this is not a complete 18-name census or proof they are absent.
+
+Bands permit ±12dB adjustment. Master Q changes bandwidth across bands; this is a block parameter, not global volume assignment. These EQ choices do not establish synthesis. Current installed-version equivalence and introduction firmware remain unverified. Older category evidence is preserved.
 
 ## FM9 Turbo
 
