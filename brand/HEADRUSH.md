@@ -369,6 +369,9 @@ Checked **2026-10-17**. Original HeadRush Pedalboard, distinct from Prime and Gi
 |---|---|
 | Built-in / external / toe expression | Built-in pedal with toe switch; external ¼″ TRS sweep. External pedal controls B while internal controls A. Advanced mode assigns up to4 parameters per A/B; Classic switches one parameter each. [FAQ][PB-Q] |
 | Knobs / footswitches / buttons | **7 /12 /0 separate front buttons**: master,phones,aux,data encoder,3 parameter encoders. Encoder push counted once; rear power and ground-lift buttons,amp/line andrack/stomp selectors additional. [Manual,pp.4–6,40][PB-M] |
+| Display / brightness and hands-free controls | [Own2.1.2 manual,pp28,32](#pedalboard--hands-free-controls-and-monitoring-boundaries): LCD Brightness **1–5 applies to main screen**; OLED brightness linkage unverified. Hold a model switch over1second to edit; top six select parameters, pedal changes value, lower-right pair fine-tunes. No additional physical displays. |
+| Audio / AUX volume exception | [Same manual,p4](#pedalboard--hands-free-controls-and-monitoring-boundaries): AUX goes directly to outputs without modeling and is **unaffected by Master and Phones volume knobs**; use its separate AUX control. This does not establish expression attenuation of AUX. |
+| USB / exact channel map and rate conflict | [Same manual,pp33,38](#pedalboard--hands-free-controls-and-monitoring-boundaries): computer recording1/2=processed L/R;3/4=duplicate mono dry guitar. Computer playback1/2=direct master/phones;3=reamp;4 unused in that scenario. p33 lists44.1/48/96kHz; p38 lists48/96 only. Revision discrepancy retained; installed capability untested. |
 | Display | Main **6.9-inch/176 mm color touchscreen** in manual versus advertised7-inch. Twelve **1.2-inch/30 mm monochrome OLED** strips, one per footswitch. Exact-model manufacturer page independently confirms twelve individual OLED assignments2026-10-31; strip touch support **?** [Manual,p.40][PB-M], [Comparison][PB-C] |
 | Dimensions / weight | Manual **609.6 W×304.8 D×79.2 H mm,pedal fully forward;7.50 kg**. Comparison instead **599.4×284.4×73.7 mm;7.12 kg**. FAQ rounds height79 mm and agrees7.5kg. Revision/mass-basis discrepancy unresolved. [Manual,p.40][PB-M], [Comparison][PB-C], [FAQ][PB-Q] |
 | Simultaneous processing | **11 rig slots**, dual amp/cab exceptions; Three signal layouts:series,two split/rejoin arrangements. Tails unavailable with FX loop or USB audio in2.1.2. DSP ceiling model-dependent, exact maximum independent effects **?** [Manual,pp.9–10][PB-M] [Manual,p.14][PB-M] |
@@ -416,6 +419,14 @@ Own User Guide2.1.2 read via web text,not downloaded. Conflicting dimensions,lay
 Manual2.1.2 pp.29–30 supersedes the unqualified FAQ100-layer assertion for that documented revision: **50 layers,20 minutes aggregate**. The FAQ is retained as a conflict,not erased. Insert replaces the topmost layer segment;loop-length halving is reversible. Global Rig Input can use rightFXreturn,which disables stereo return;XLR,¼″ andphones independently select rig/alternate taps (p.32). These routing options do not add microphone input or vocal eligibility. [Manual][PB-M]
 
 Own2.7 cumulative notes,p.4: feedback affects recording/overdub rather than playback;below100%,one evolving layer replaces itself;peeling it restores underlying levels,and Insert is disabled if it is topmost. Ownnotes,p.2 document two scenes per switch from2.5 andtap-tempo calculation overthree presses from2.6. These are firmware-qualified changes,not new hardware controls. [Firmware][PB-F]
+
+### Pedalboard — hands-free controls and monitoring boundaries
+
+Checked **2026-11-04** in the [original manufacturer User Guide2.1.2,pp4,28,32–33,38](https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf), read remotely without downloading. This is the original Pedalboard, not Prime.
+
+Hands-free editing uses a model-switch hold over one second. Top six switches select parameters; the expression pedal adjusts their values. Lower-right −/+ fine-tunes; lower-middle switches page parameters or audition IRs when editing an IR. Lower-left exits; the next switch saves. Main LCD brightness has five levels; OLED linkage remains unverified.
+
+AUX bypasses modeling and both Master/Phones volume knobs. The separate AUX control matters for monitoring; rig-volume changes do not establish all-source attenuation. USB channel routing and the manual’s **44.1/48/96 versus48/96kHz** wording conflict are retained in the current table. These are documented routing distinctions, not a hardware test or certification of every2.7 behavior. Existing dimensions,category counts,looper-layer conflicts and condition-unverified Shopee offer remain unchanged.
 
 ## Prime
 

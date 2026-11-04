@@ -150590,5 +150590,18 @@
     "finding": "Hold label preview is separate from activation;Hold assignment moves Tap torelease;timeout0.25–2.00s/default0.5s;SWITCH UP delays Hold untilrelease;global override-disable documented.",
     "limits": "Current12.x/MKII equivalence andinstalled settings untested;not audio latency orpedal recall.",
     "next": "Continue individual footswitch LCD priority andexact Shopee offers;preserve GT-Pro general cursor andindependent expression queue."
+  },
+  "pedalboard_display_monitoring_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "HeadRush::Pedalboard",
+    "source": "https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf",
+    "revision": "User Guide2.1.2,printed4,28,32–33,38",
+    "findings": [
+      "Hands-free parameter selection,pedal adjustment,fine-tuning,paging,IR audition,save/exit documented.",
+      "Main LCD brightness1–5; OLED linkage unverified.",
+      "AUX bypasses modeling andMaster/Phones knobs.",
+      "Explicit USB record/playback channel map;44.1/48/96 versus48/96kHz intra-manual discrepancy retained."
+    ],
+    "next": "Continue separate-display model gaps andqualified Shopee offers;independent general GT-Pro andexpression queues preserved."
   }
 }
