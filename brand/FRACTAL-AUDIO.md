@@ -1874,6 +1874,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Used IDR | No original-revision,condition-confirmed Shopee offer established. |
 | New IDR | No original-revision,condition-confirmed Shopee offer established. |
 | IDR revision-unverified hardware | **Rp36.000.000**,Bersih Jaya Cleaning,KotaSurabaya,[shop1354606623/item43322190869](https://shopee.co.id/Fractal-Audio-Systems-FM9-MKI-i.1354606623.43322190869),four-month index checked2026-11-01;service unavailable. Same item has conflicting FM3-MKII-Turbo URL slug,two-month FM9MKI snapshot andstaleAugust6–8 delivery. Original/Turbo revision,condition,stock,working state,bundle,warranty,adapter andcheckout unknown. Excluded fromexact-revision new/used ranges;voucher compensation notdeducted. [Full conflict](#fm9-original--partial-lcd-discovery). |
+| Categories / Megatap | [November guide limits](#fm9-original--november-megatap-limits-and-texture-controls): 64 taps per block on FM9; two instances subject to DSP. Distinct from Multi-Delay and Plex; 22-type headline is not a complete named census. |
 
 <!-- comparison evidence ends -->
 
@@ -2092,6 +2093,12 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide, printed pp3,93�
 
 These are preset-block capabilities. Current installed equivalence, introduction firmware, global pedal attenuation and complete reverb-name inventory remain unresolved. Older evidence is retained; no device operation or local download.
 
+
+### FM9 original — November Megatap limits and texture controls
+
+Checked **2026-11-05**, [manufacturer Blocks Guide, November 2026](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), printed pp3,57–58. FM9 permits **two Megatap blocks**, subject to CPU; each uses **1–64 taps** over a **four-second** delay line, with up to **one-second predelay**. The 128-tap specification belongs to Axe-Fx III. The table advertises **22 types** but these pages do not enumerate their names; no complete named census is claimed.
+
+Time, amplitude and pan patterns shape the repeats; random timing/level variation, input diffusion and an envelope follower create dense textures or swells. Feedback can restart before the preceding pattern finishes. Near-zero Stereo Spread settings can cancel some taps. These are delay processes, not tracked synthesis. Spillover depends on the owner-manual configuration; installed-firmware equivalence and introduction version remain unverified.
 
 ## FM9 Turbo
 

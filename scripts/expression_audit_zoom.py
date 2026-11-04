@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(mooer): reconcile GE300 USB MIDI evidence and source link'
+        message='research(fractal): distinguish FM9 Megatap limits and textures'
     print(git('commit','-m',message))
