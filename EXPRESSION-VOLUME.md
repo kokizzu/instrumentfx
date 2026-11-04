@@ -803,6 +803,9 @@ FM3 MKII Turbo [digital source andEQ qualifications](brand/FRACTAL-AUDIO.md#fm3-
 
 SY-300 [firmware1.03 assignment correction](brand/BOSS.md#sy-300--firmware-assignment-fixes-and-named-supply-evidence) is relevant to its documented SYSTEM control mode, but does not verify installed firmware or complete volume coverage. Named PSA-230S mapping establishes supply requirements independently of pedal wiring.
 
+[Output-off and pedal-travel limits](brand/BOSS.md#sy-300--expression-travel-and-output-off-boundaries) qualify this candidate further; all-route volume remains unverified.
+
+
 ### BOSS SY-1000 — partial shared-volume assignment lead
 
 [Reference-manual follow-up](brand/BOSS.md#sy-1000--shared-volume-targets-controls-and-revision-boundaries) identifies EXP1/EXP2 **PATCH LEVEL100/200 (0–100/0–200)** and FV1/FV2 targets. With **PREFERENCE=SYSTEM**, this documents shared volume assignment across patches, separately from conditional HOLD recall. Current-firmware equivalence, bypass/USB/headphone/tail/loop coverage and M-VAVE wiring remain unverified. Headphones use MAIN L/PHONES with R/MONO empty; onboard bank down/up and patch switches are separate navigation facts. No built-in treadle;345W×245Dmm exceeds preference. Partial lead remains outside active counts.

@@ -4818,6 +4818,16 @@ Checked **2026-11-04**, [Using BOSS TONE STUDIO for SY-300 e03,©2015,pp2,4–8,
 
 Next: defer unestablished import/capture and onboard practice support; investigate USB stream formats and expression endpoints/route coverage when exact primary evidence is available. Preserve independent priority queues and all earlier sources.
 
+### SY-300 — expression travel and output-off boundaries
+
+Checked **2026-11-04**, [Parameter Guide e02,©2015,pp11,13,17–18,20](https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf). Partial lead outside402.
+
+**ACT RANGE MIN0–126/MAX1–127** restricts pedal travel; normal full travel uses0/127. Outside that window the target stays at its endpoint. Target MIN/MAX are parameter-dependent; reversing their order reverses response. Changing target requires rechecking endpoints. This does not establish numeric volume limits or pedal wiring.
+
+**MAINOUT OFFMOD:** BYPASS removes synth/effects and passes dry guitar; SYNTH OFF retains FX/routing and external-return processing. **SUBOUT OFFMOD:** MUTE,BYPASS,ALWAYS ON; even ALWAYS ON loses synth when MAIN uses SYNTH OFF. Continuous EXP attenuation in these states remains unverified.
+
+SUBOUT SYS CTL overrides patch SUB settings; THRU can feed SUB only with that system control enabled. OUTPUT LEVEL MODE assigns the physical knob to MAIN+SUB,MAIN,SUB or neither; it does not assign EXP. Headphone,USB,tail andrecorded-loop coverage remain unresolved. No hardware operation.
+
 
 ## SY-1000 — partial discovery lead
 

@@ -162224,5 +162224,15 @@
     "status": "Patch-library and computer-player paths distinguished; partial outside402",
     "next": "USB stream and expression signal coverage; defer unestablished imports/onboard practice. Continue priority/Shopee research rather than repeat these editor checks; independent queues unchanged.",
     "inventory_changed": false
+  },
+  "sy300_expression_offmode_20261104": {
+    "model": "BOSS SY-300",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/BOSS.md#sy-300--expression-travel-and-output-off-boundaries",
+    "source": "https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf",
+    "revision": "e02 copyright2015 pp11,13,17–18,20",
+    "status": "Travel and off-state limits qualified; partial outside402",
+    "next": "Defer numeric volume endpoints/USB streams/all-route proof until new exact evidence. Continue saved priority displays or fresh Shopee leads; independent GT-Pro and expression queues retained.",
+    "inventory_changed": false
   }
 }
