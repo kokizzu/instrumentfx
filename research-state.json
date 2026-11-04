@@ -167421,5 +167421,44 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue individual-footdisplay priority and qualified Shopee discovery; preserve GP-200JR->Prime->GE300,GT-Pro,expression/consolidation queues. Legacy redirects retain old anchors; prior source-body audits already complete within their scopes."
+  },
+  "g1u_partial_discovery_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/ZOOM.md#g1u--partial-no-treadle-discovery",
+    "status": "Partial lead outside active inventory;not ownership ormarket availability confirmation",
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_G1u.pdf",
+      "https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g1u/",
+      "https://zoomcorp.com/en/jp/multi-effects/guitar-effects/g1u/g1u-support/"
+    ],
+    "revision": "Original indexed manual Specifications,G1u-5000-5,pp18–19;fullPDF readeroversize",
+    "facts": {
+      "effect_types": 67,
+      "max_modules": 8,
+      "user_patches": 100,
+      "preset_patches": 100,
+      "dimensions_mm": {
+        "w": 136,
+        "d": 155,
+        "h": 52
+      },
+      "mass_without_batteries_g": 350
+    },
+    "expression": "Per-patch function;always volume inbypass;global assignment/endpoints/recall/routecoverage unverified",
+    "market": {
+      "query": "site:shopee.co.id \"Zoom\" \"G1u\"",
+      "qualified_hardware": false,
+      "reason": "Accessory result only;notmarketabsence",
+      "used_idr": null,
+      "new_idr": null
+    },
+    "remaining": [
+      "Complete controls/expression/I-O andpower",
+      "Full named algorithms,imports andeditorplatforms",
+      "Factoryfilled census,looper/rhythms",
+      "Qualified hardware/used-new IDR"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue LCD-first priorities andfresh Shopee discovery;preserve GP-200JR->Prime->GE300,GT-Pro andexpression/consolidation queues."
   }
 }

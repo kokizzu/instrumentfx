@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): clarify FM3 swell, rotary and feedback routing'
+        message='research(zoom): record exact G1u partial discovery'
     print(git('commit','-m',message))

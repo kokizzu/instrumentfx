@@ -872,3 +872,5 @@ Chocolate’s [current named-product ratings and mixed-offer exclusion](brand/M-
 VG-800’s [routing follow-up](brand/BOSS.md#vg-800--bypass-and-computer-audio-routing-boundaries) names approved EV-30/FV-500L/FV-500H/EV-5 pedals andseparates FX BYPASS,tuner modes,USB playback/recording andSerial GK Audio. None establishes universal output mute;the global assignment finding remains qualified.
 
 VG-800 [firmware1.50,July2026](brand/BOSS.md#vg-800--published-firmware-editor-and-ir-format-scope) fixes ASSIGN,expression MIDI transmission andintermittent output-level changes. Older manual assignment evidence mustretain this firmware qualification;installed-version equivalence andall-output control remain unverified.
+
+[Zoom G1u partial discovery](brand/ZOOM.md#g1u--partial-no-treadle-discovery): exact manual documents external FP01/FP02 control and per-patch assignment,with volume inbypass. Global every-preset setup remains unverified;136W×155Dmm exceeds the preferred depth. Separate from G1/G1on;outside active inventory pending full profile andqualified hardware evidence.

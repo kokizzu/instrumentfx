@@ -34,6 +34,7 @@ Canonical root-level brand document. New research is added here, not to dated fi
 - [G1 FOUR](#g1-four)
 - [G1 original](#g1-original)
 - [G1on](#g1on)
+- [G1u — partial no-treadle discovery](#g1u--partial-no-treadle-discovery)
 - [G1X FOUR](#g1x-four)
 - [G1Xnext](#g1xnext)
 - [G1Xon](#g1xon)
@@ -2659,6 +2660,27 @@ The expanded manufacturer list labels starred additions **“Ver1.2”**. [Offic
 **Z-Organ** simulates organ tone,withUpper/Lower/Dry levels andHPF/LPF;note polyphony unverified. **BendCho** bends from input-note triggers;**BitCrush** provides lo-fi;**Bomber** pick-triggers HndGn/Arm/Bomb/Thndr sounds. **Step,RndmFLTR,fCycle** are stepped,random andcyclic processing. They are not additional verified synth-tracking engines. The full25-name/current-category census andinstalled firmware remain unverified;no model-file ordevice test.
 
 Earlierbaseline algorithm findings remain dated,not invalidated. G1Xon’s separate80/100 headline remains outside thisG1on reconciliation. No localdownload,dependency orfirmware installation.
+
+## G1u — partial no-treadle discovery
+
+Checked **2026-11-05**. Exact G1u,not G1/G1X or G1on. **Partial lead outside active inventory**; ownership unverified. [Manufacturer product](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g1u/) marks it discontinued.
+
+The [manufacturer English Operation Manual](https://zoomcorp.com/media/documents/E_G1u.pdf),identifier **G1u-5000-5**,was available as indexed original Specifications andpp18–19 text;full15,998,054-byte PDF exceeded the reader limit. No local download or visual inspection.
+
+| Field | Evidence / limitation |
+|---|---|
+| Processing | **67 effect types;max8 simultaneous modules**. Full named/category census remains unchecked. |
+| Memory | **100 User +100 Preset =200**,each10banks×10patches. Factory-filled User census unverified. |
+| Dimensions / mass | **136W×155D×52H mm;350g without batteries**. Width fits200mm,depth exceeds140mm;plugs add clearance. |
+| Display | **Two-digit seven-segment LED**,not individual footswitch LCDs. Physical dimensions unverified. |
+| Input / output | Mono phone input;stereo phone output doubles as headphones. Phones20+20mW into32Ω is a test-load rating,not a universal minimum load. |
+| USB audio | **16-bit stereo recording/playback,32/44.1/48kHz**. Internal processing sampling96kHz is separate. |
+| Power | AD-0006/AD-16 adapter,fourAA batteries orUSB bus power. Approximately10h alkaline operation is manufacturer-stated;adapter voltage/current/polarity andUSB current remain unchecked. |
+| External control / volume | CONTROL IN supportsFP01/FP02 orFS01. Expression function saves perpatch;inbypass it always controls volume. This doesnot proveevery-preset globalassignment,endpoint range,held-position recall ortail/loop coverage. |
+
+[Exact support listing](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/g1u/g1u-support/) separately lists firmware1.20 packages forWindows/Mac andZFX Editing Tool forMac;these are listing evidence,not current OS certification orinstalled firmware.
+
+Remaining:built-in/toe expression confirmation,K/F/B census,full I/O/power details,factory filling,algorithms/synth/acoustic/IR-NAM/capture/editor-platform limits,looper/rhythms andcondition-qualified Indonesian hardware. Limited Shopee search found anadapter listing,not G1u hardware;used/new IDR,stock,seller/item,bundle,warranty,voucher andcheckout remain unknown. Do not copy sibling specifications oradmit thislead asfully verified.
 
 ## G1X FOUR
 
