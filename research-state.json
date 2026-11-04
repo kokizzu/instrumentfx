@@ -160768,5 +160768,23 @@
       "reason": "OriginalbodyalsoincludesSYHTHchapterand30minlooperclaim;modelconsistencyrequiresreconciliation;countnotadopted"
     },
     "active_inventory_unchanged": 402
+  },
+  "gtpro_global_corrections_patch_extent_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "revision": "Original GT-PRO manual,printed94,98;indexed manufacturer page bodies",
+    "findings": [
+      "Total NS −20…+20dB and Total Reverb0–200% preserve patch data but do not enable bypassed effects",
+      "Patch Extent upper selectable address1-1…40-10;FC-200 display bank offset−1"
+    ],
+    "unresolved": [
+      "Patch-navigation edge wrapping",
+      "Global Foot Volume versus patch FV precedence/coverage",
+      "Other USB mode channel counts",
+      "13-versus15 simultaneous counting basis",
+      "Qualified exact Shopee hardware"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Priority individual-footdisplay source gaps remain deferred where inaccessible;continue GT-Pro/compact expression/qualified market evidence without replacing independent queues."
   }
 }

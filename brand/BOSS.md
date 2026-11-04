@@ -1879,6 +1879,7 @@ Current comparison summary, reviewed 2026-10-28. Discontinued rack guitar multi-
 | Practical / Japanese repair status | **BOSS Japan, October2026: repair acceptance ended (×)**. Exact GT-PRO row lists release2005, production completion2010 and six-year performance-parts retention period; not a worldwide service ruling or exact repair-end date. [Regional source qualification](#gt-pro--japanese-manufacturer-repair-acceptance-status). |
 | Synth / Auto Riff phrase editing | Original p49: **IN** selects the input note, **STEP** the phrase step, **OUT** its output note. Guitar notes can supply input-note detection andadvance the step. A **tie carries the preceding note**; **end makes the preceding step the final step**. These are programmed note sequences,not stored audio,additional synth polyphony orextra patch memories. Existing30 prepared/10 User phrase counts andsingle-note input restriction remain. [Indexed manufacturer original](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),checked2026-11-04. |
 | Live / tuner reference | Original p102: reference **A4=435–445Hz**,factory440Hz. This sets the tuner reference,not transposition,tracking range ormeasured accuracy. Current mode retains the documented pitch-detection-effect warning;global FV bypass qualifications remain separate. [Matching original English reproduction](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-102.html),checked2026-11-04. |
+| Live / global corrections and patch range | Original pp94,98: Total NS −20…+20dB and Total Reverb0–200% leave patch data intact but do not enable bypassed effects. Patch Extent limits selectable addresses through a configurable upper bound1-1…40-10;FC-200 mode shifts displayed banks down one. [Exact scope](#gt-pro--global-corrections-and-selectable-patch-range). |
 | Looper / drums / live | Hold delay **2.8 seconds**, overdub, mode/patch-change erasure restrictions. Solo and picking-dynamics amp switching. Smooth patch changes offer conditional delay/reverb decay, with chain/parameter restrictions and possible switching delay; not universal spillover. Drums/scenes unverified. |
 | Expression / recall and coverage | Patch FV endpoints **0–100**, four curves; Assign Hold has target-dependent recall. Global-role interaction remains unknown. EXP1/FC-200 volume documented in mono tuner bypass; other bypass, headphone, tail and recorded-Hold attenuation unverified. |
 | IDR verified used | Unknown; no condition-qualified exact hardware offer established. |
@@ -2477,6 +2478,14 @@ Checked **2026-11-04** against the [original manufacturer GT-PRO owner manual,in
 - **Patch Level Inc1/Inc2** adds **10/20 units**;**Dec1/Dec2** subtracts10/20. These are patch-level steps,not dB,percentages,master-output endpoints orcontinuous pedal-volume assignments. Persistence andheld-switch repetition are not established bythis table.
 
 Global Foot Volume versus patch FV enable/range precedence,other USB channel modes,13-versus15 simultaneous-effect counting andqualified Shopee hardware remain unresolved. No download,controller message ordevice operation performed.
+
+### GT-Pro — global corrections and selectable patch range
+
+Checked **2026-11-04**, indexed original [manufacturer owner manual,printedpp94,98](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf). Original page bodies,not host-generated advice;full PDF exceeds the reader limit.
+
+**Total NS** adjusts patch thresholds by **−20…+20dB**,neutral0dB;**Total Reverb** scales patch reverb levels **0–200%**,neutral100%. Neither affects patches where its effect is off. These global corrections preserve stored patch settings;they do not establish global Foot Volume precedence orenable effects universally.
+
+**Patch Extent** sets an upper selectable patch limit **1-1…40-10**. With FC-200 mode enabled,displayed banks shift down one (**U0-1…P39-10**). This restricts selection,not storage capacity,anddoes not resolve edge wrapping oroverride the separate within-bank Patch Num.Inc/Dec rule. No device operation;existing firmware,USB,expression andmarket uncertainties remain.
 
 ## GX-1
 
