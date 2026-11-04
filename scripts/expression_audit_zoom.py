@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(headrush): document Prime Bluetooth gain and routing scope'
+        message='research(mooer): document GE300 preset filename collision limits'
     print(git('commit','-m',message))

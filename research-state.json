@@ -167799,5 +167799,24 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "OriginalGE300 next independentcycle; individualfootdisplay priority,GP-200JR,GT-Pro,expression andconsolidationqueues preserved"
+  },
+  "ge300_preset_addressing_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/MOOER.md#ge300--historical-preset-filenames-and-export-collisions",
+    "source": "https://manuals.plus/m/a11d8dafe0e17eb234277900110a0139de3eb3611a2de0b3343e721fb78068f4_optim.pdf",
+    "revision": "Original GE300 Studio guide printedp7; matchingEN_V01_2020.04.28 structure; predates5.1redesign",
+    "findings": [
+      ".mo filename address syntax controls placement",
+      "Duplicate serialnumbers: guide saysonlylastpreset exported",
+      "Batchexport isnotproof ofcompletebackup undercollision"
+    ],
+    "remaining": [
+      "CurrentStudio5.1 format/collisionequivalence",
+      "Completecurrentlibrary/factoryoccupancy",
+      "GlobalEXP2 andoutputcoverage",
+      "Qualifiednew/usedShopee stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Generalcycle resumes GP-200JR→Prime→originalGE300; individualfootdisplay priority andindependent GT-Pro/expression/consolidationqueues retained"
   }
 }
