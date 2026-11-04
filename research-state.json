@@ -159814,5 +159814,15 @@
     "qualification": "Globalchanneldefault1/customBypassControl2configurable. Notcontinuousglobalvolume,absolutemutestate,physicalanalogtoecertificationornewmemorycapacity.",
     "next": "Powerprimaryunverified;requestedseparatescreenshortlistnew evidence,stripdetailsandqualifiedhardwareoffersremain. Preserveindependentqueues.",
     "inventory_count_unchanged": 402
+  },
+  "fm9_turbo_output_stage_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fractal Audio FM9 Turbo (pre-MKII)",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022firmware3.x explicitlyOriginalandTURBO,printed95",
+    "finding": "Output3BoostPad0/6/12/18dB pairsdigitalboostandoutputcut,no netlevelchange;higherboostreducesD/Aheadroom. Output1–3PhaseNormal/Invertis polarity,notdelay.",
+    "qualification": "Notmastervolume/EXPendpoints;current12andactualnoise/headroomunverified;nottransferredfromMKIIsibling.",
+    "next": "Requestedseparatescreenshortlist;exactcondition-qualifiedpreMKIITurbooffers,globalEXPendpoints/recall/fullcoverageandcurrentinventoryremainopen.",
+    "inventory_count_unchanged": 402
   }
 }
