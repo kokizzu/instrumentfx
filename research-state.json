@@ -164566,5 +164566,34 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue display-priority processor gaps andexactShopee hardware;preserve GT-Pro, GP-200JR → Prime → GE300,expression andconsolidationqueues"
+  },
+  "gp50_mode_salomo_offer_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/VALETON.md#gp-50--mode-switch-indications-and-salomo-voucher-offer",
+    "sources": [
+      "https://www.hotone.jp/manuals/valeton/GP-50.pdf",
+      "https://www.valeton.net/wpfd_file/gp-50_online-manual_en_firmware-v1-1-0-pdf/",
+      "https://shopee.co.id/Valeton-GP50-Multi-Effects-Processor-Original-i.1776275.47804610896"
+    ],
+    "revision": "Japanese regional59-page manual firmware1.0.5 printed10–11;1.1.0 body inaccessible",
+    "controls": "HoldB togglesPatch/Pedal;bluePatch versusred/greenPedal;no numeric-color on/off mapping inferred",
+    "offer": {
+      "shop": "1776275",
+      "item": "47804610896",
+      "seller": "Salomo Musik",
+      "region": "Kota Jakarta Utara",
+      "ask_idr": 2254000,
+      "voucher": "DenganVoucher;spend10000IDR,10%display;eligibility/cap/mathunknown",
+      "stock": "Habis inthree-week directsnapshot;searchthree-month snapshot differs",
+      "condition_bundle_checkout": "unverified"
+    },
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "1.1.0 manual contents",
+      "Global analog-volume assignment/range/recall/coverage",
+      "Exact onboard presetdirection",
+      "Condition/stock-qualified offers"
+    ],
+    "next": "Continue display-priority andcompact expression profiles plusexactShopee hardware;preserve GT-Pro,GP-200JR → Prime → GE300 andconsolidation queues"
   }
 }
