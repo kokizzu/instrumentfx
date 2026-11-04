@@ -161005,5 +161005,21 @@
     ],
     "active_inventory_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "h8_modulation_preset_volume_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "CUVAVE::H8",
+    "source": "https://manuals.plus/sinco-intelligent-technology/h8-multi-effects-headphone-guitar-amplifier-manual",
+    "revision": "Sinco FCC2ARCP-H8 numbered manual, March2022 mirror; sections PRESET/EDIT and4–8; current firmware equivalence unknown",
+    "finding": "One mutually exclusive MOD selector with opposite indicator sweeps; delay indicator units not physical ranges; preset VOL separate from master; Store fixed to selected slot.",
+    "canonical": "brand/CUVAVE.md#h8--shared-modulation-selector-and-preset-volume-scope",
+    "remaining": [
+      "Original-image mass and connector verification",
+      "Battery capacity, USB channels and IR limits",
+      "Master recall and all-source attenuation",
+      "Qualified current Shopee hardware stock"
+    ],
+    "inventory_count_unchanged": 402,
+    "next": "Return to accessible requested footswitch-display model gaps; defer inaccessible Prime storage/screens/portable-power evidence. Preserve independent GT-Pro and expression-volume queues."
   }
 }

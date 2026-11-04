@@ -87,7 +87,7 @@ Original individual finding commit: 8c0bb751797bb3dfeca61849245a79393c032b63. So
 | Screen | No graphical/numeric screen: parameter, module, tuning and status **LED indicators**, including a ten-position indicator bank. Diagonal/color-display N/A; touchscreen No [M] |
 | Dimensions / weight | **81 W ×85 D ×29 H mm**, compact. Weight unverified: the older text extraction renders the mass as 1219, and the original image/PDF did not load; do not turn a garbled value into a confirmed measurement [M] |
 | Processing | Fixed **amp → modulation → delay → reverb → cabinet** chain, plus tuner and gain/tone/volume parameters. Parameter menus are not additional independent processing blocks [M] |
-| Choices | **10 preamps,2 modulation types (chorus/phaser),1 tape delay,1 hall reverb,10 cabinet IRs**. This is not24 simultaneous effects [M] |
+| Choices | **10 preamps,2 mutually exclusive MOD choices (chorus/phaser); [selector and preset-volume limits](#h8--shared-modulation-selector-and-preset-volume-scope),1 tape delay,1 hall reverb,10 cabinet IRs**. This is not24 simultaneous effects [M] |
 | Presets | **10 factory-filled, overwriteable memories total**. Edits are saved back to the selected preset location; no extra10-user bank [M] |
 | Synth / acoustic sim | Neither identified in the enumerated amp/effect library; modulation and ordinary amp tones are not synthesis or electric-to-acoustic conversion [M] |
 | Input/output | **6.35-mm male guitar plug;3.5-mm headphone output; USB2.0 data/charging connection and separate phone-recording data connection**. Exact USB connector subtypes and headphone stereo/mono behavior remain unverified; do not infer from a generated illustration description [M] |
@@ -127,3 +127,11 @@ Checked **2026-10-28** against the [Sinco-authored numbered H8 manual](https://m
 **Onboard preset footswitch down/up: No. Hand-button down/up: Yes in PRESET mode**, using short On/Off and Store presses respectively. Separate short Bypass−/Tuner+ presses change master volume; that does not establish remote expression assignment. Dedicated3.5mm headphones and81W×85Dmm preferred fit retain their earlier evidence; stereo/mono and garbled mass remain unresolved.
 
 The [current manufacturer product URL](https://www.cuvave.com/product?id=h8) returned navigation only in this reader; no current specification or firmware guarantee is inferred. Older sources and price qualifications above remain intact.
+
+### H8 — shared modulation selector and preset-volume scope
+
+Checked **2026-11-04**, [Sinco-authored H8 manual](https://manuals.plus/sinco-intelligent-technology/h8-multi-effects-headphone-guitar-amplifier-manual), FCC2ARCP-H8, PRESET/EDIT and effect sections4–8. Original numbered text on mirror; no generated FAQ or visual inspection used. Firmware equivalence is unverified.
+
+Chorus and phaser occupy **one MOD selector**: chorus increases toward indicator1 from5; phaser increases toward10 from6. Between5/6, MOD is off. These are mutually exclusive choices, not two simultaneous blocks or ten modulation algorithms. Delay has separate Time, feedback and Mix controls; Mix also controls bypass. Their1–10 indicators do not establish milliseconds or decibels.
+
+EDIT-mode **VOL changes the selected tone**; PRESET-mode Bypass−/Tuner+ changes master volume. Neither establishes external expression support or complete source attenuation. Long Store writes only the preset slot selected before editing; the documented operation cannot move it to another slot. Current firmware, master recall and Bluetooth/USB/bypass coverage remain unknown. Earlier hardware, price and garbled-mass qualifications are retained.
