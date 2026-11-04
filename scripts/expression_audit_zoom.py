@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(neural): document Nano Cortex factory reset content scope'
+        message='research(boss): document GT-Pro selective restoration scope'
     print(git('commit','-m',message))

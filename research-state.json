@@ -159616,5 +159616,26 @@
     "market": "Fresh exactShopee search repeatedrecordedSevenStereo/HAWILA/behaviouristy asks;adaptor excluded;no newstock/price adopted.",
     "next": "Continue LCD-priority currenthardware fields andqualifiedoffers;defer Nano globalassignment pendingnewqualifiedmanufacturer clarification. Preserve independentGT-Pro/compactexpression queues.",
     "inventory_changed": false
+  },
+  "gt_pro_selective_factory_restoration_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/BOSS.md#gt-pro--selective-factory-restoration-and-shared-data-scope",
+    "sources": [
+      {
+        "url": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+        "revision": "Original GT-PRO owner manual, printed p103, indexed manufacturer text; full-file reader size limit retained"
+      },
+      {
+        "url": "https://support.roland.com/hc/en-us/articles/201959429-GT-PRO-Initializing-Restoring-the-Factory-Settings",
+        "revision": "Updated2024-10-22"
+      }
+    ],
+    "finding": "Selective System, Quick and user patch1-1–20-10 ranges;System includes shared custom definitions,scales andphrases.Full span System→20-10.Factory EXP1/CC7 Auto andAssignHold On do not establish global-volume scope.",
+    "limitations": [
+      "No device reset or software installation",
+      "Current used-unit data unknown",
+      "USB mode channels,13/15 counting basis,global FV precedence andqualified IDR remain unresolved"
+    ],
+    "inventory_count_unchanged": 402
   }
 }
