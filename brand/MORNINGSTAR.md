@@ -143,3 +143,11 @@ Checked **2026-11-04**, [manufacturer MC8 PRO manual](https://help.morningstar.i
 - **Editor platforms:** manufacturer documents Bluetooth editing onmacOS/Windows desktop,iPhone/iPad app,andAndroid Chrome. OS/build minimums remain unspecified;this narrows the earlier platform unknown without certifying every device.
 
 Four displays remain shared across eight switches. Controller stays outside active audio inventory;actual M-VAVE wiring,global processor-volume coverage andqualified Shopee stock remain unresolved. No connection,software installation ordevice operation.
+
+### MC8 PRO — published mass and LCD refresh trade-off
+
+Checked **2026-11-05**. The [manufacturer shop,exact MC8 PRO itemp751377518](https://shop.morningstar.io/products/MC8-PRO-p751377518), last-month indexed text, lists **940g (33.1oz)**,260×123×52mm,controller plus USB-C cable,with power supply excluded. This narrows the earlier mass unknown;it is a published rating,not a measured sample orverified Indonesian bundle.
+
+The [manufacturer Fast Step Mode (Beta) article,updated28May2026](https://help.morningstar.io/en/article/fast-step-mode-beta-1en4rpc/) says ordinary MC8 PRO operation refreshes LCDs after each press;rapid consecutive presses may be missed while that work occurs. **Fast Step Mode** is a **Preset Utility** option that postpones display refresh to prioritize switch detection. Labels can therefore lag the presses. The article specifies no numerical detection latency,refresh delay orminimum firmware;its beta status is retained. It does not add physical screens orprove identical behavior on MC6 PRO/original MC8. No device test.
+
+Separately,the [manufacturer post dated16July2025,updated18August2025](https://www.morningstar.io/post/mc8-pro-post-launch-updates-and-user-reviews) dates MC8 PRO launch to **21May2025**,with **firmware3.13** at launch. That doesnot establish the Fast Step introduction version,current firmware orinstalled firmware. Pixel count,diagonal,touch,expression pinout andqualified exact Shopee stock remain unresolved. Controller stays outside the402active audio models;no downloads orconnection.
