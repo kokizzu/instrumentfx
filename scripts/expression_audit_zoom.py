@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): verify SY-1000 shared volume targets and FX choices'
+        message='research(boss): distinguish SY-1000 creative note handling and power'
     print(git('commit','-m',message))

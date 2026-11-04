@@ -25786,6 +25786,19 @@
         "firmware": "1.07 October 2021: Dynamic Synth improvement; 1.08/1.10: ALT TUNE. Support lists 1.20 April 2025: AUTO OFF change.",
         "editor": "Tone Studio 1.1.0 April 2025: Windows 11/10/8.1; Mac Exclusive Application matrix unresolved; drivers separate.",
         "next": "Continue exact creative parameters and note handling,remaining categories/concurrency,named power supply,imports/practice features,currentMac matrix andvolume route coverage;partial outside402;preserve independent queues."
+      },
+      "parameter_followup": {
+        "checked_date": "2026-11-04",
+        "sources": [
+          "https://static.roland.com/assets/media/pdf/SY-1000_reference_eng01_W.pdf",
+          "https://static.roland.com/assets/media/pdf/SY-1000_reference_eng02_W.pdf",
+          "https://gr300.com/owners/Boss_SY-1000_Reference_Manual.pdf",
+          "https://static.roland.com/assets/media/pdf/roland_ac_adaptor_information.pdf?lang=nl-NL"
+        ],
+        "revision": "Indexed original reference eng01 pp47,50; eng02 pp29,48,52; English mirror pp47,49; full-reader size limits retained",
+        "finding": "Harmonist/Pedal Bend/Sound Hold single-note restrictions verified. Pitch-shifter MONO differs from audio-channel labels. OSC Synth MONO/POLY stays GK-dependent; Dynamic Synth normal-input chord handling unresolved. See canonical for ranges and special-effect parameters.",
+        "power": "2025-07-15 manufacturer table explicitly SY-1000→PSB-1U: 9V DC 2A supply; device800mA separate; polarity/connector and seller bundle unresolved.",
+        "next": "Partial outside402. Complete remaining category/concurrency census, normal-input synth polyphony, power polarity, imports/practice features, current macOS editor matrix and universal-volume signal coverage. Preserve individual-switch-screen, GT-Pro and compact-expression queues."
       }
     }
   ],
@@ -160458,6 +160471,19 @@
       "firmware": "1.07 October 2021: Dynamic Synth improvement; 1.08/1.10: ALT TUNE. Support lists 1.20 April 2025: AUTO OFF change.",
       "editor": "Tone Studio 1.1.0 April 2025: Windows 11/10/8.1; Mac Exclusive Application matrix unresolved; drivers separate.",
       "next": "Continue exact creative parameters and note handling,remaining categories/concurrency,named power supply,imports/practice features,currentMac matrix andvolume route coverage;partial outside402;preserve independent queues."
+    },
+    "parameter_followup": {
+      "checked_date": "2026-11-04",
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/SY-1000_reference_eng01_W.pdf",
+        "https://static.roland.com/assets/media/pdf/SY-1000_reference_eng02_W.pdf",
+        "https://gr300.com/owners/Boss_SY-1000_Reference_Manual.pdf",
+        "https://static.roland.com/assets/media/pdf/roland_ac_adaptor_information.pdf?lang=nl-NL"
+      ],
+      "revision": "Indexed original reference eng01 pp47,50; eng02 pp29,48,52; English mirror pp47,49; full-reader size limits retained",
+      "finding": "Harmonist/Pedal Bend/Sound Hold single-note restrictions verified. Pitch-shifter MONO differs from audio-channel labels. OSC Synth MONO/POLY stays GK-dependent; Dynamic Synth normal-input chord handling unresolved. See canonical for ranges and special-effect parameters.",
+      "power": "2025-07-15 manufacturer table explicitly SY-1000→PSB-1U: 9V DC 2A supply; device800mA separate; polarity/connector and seller bundle unresolved.",
+      "next": "Partial outside402. Complete remaining category/concurrency census, normal-input synth polyphony, power polarity, imports/practice features, current macOS editor matrix and universal-volume signal coverage. Preserve individual-switch-screen, GT-Pro and compact-expression queues."
     }
   }
 }
