@@ -1727,6 +1727,8 @@ Checked2026-11-03 against the [original manufacturer parameter guide,printedp13]
 
 ### GT-1000CORE — supporting comparison facts
 
+Historical source observations are retained verbatim below. The later exact-model PSB-1U mapping establishes 9 V DC and 2 A adapter capacity, not 2 A unit draw; the current record above and dated supply follow-up below retain that correction. Polarity and USB bus operation remain unverified. Restored2026-11-04 after the preservation audit detected that the historical power cell had been replaced by the newer wording.
+
 | Required field | Retained observation |
 |---|---|
 | Screen type and resolution | Graphic LCD,256×80 |
@@ -1746,7 +1748,7 @@ Checked2026-11-03 against the [original manufacturer parameter guide,printedp13]
 | Synth / acoustic functions | Exact algorithms ? |
 | User IR / NAM | 16WAV slots;NAM not established |
 | Audio / controller ports | Stereo1/4-inch in/out;L output shared with phones;2mono FX loops;2CTL/EXP;3.5mmTRS MIDI IN/OUT;microUSB |
-| Power and USB operation | 670 mA draw; exact-model PSB-1U mapping establishes 9 V DC and 2 A adapter capacity, not 2 A unit draw. Polarity and USB bus operation unverified. |
+| Power and USB operation | Supplied DC adapter;670mA draw;USB bus operation not listed |
 | Configuration | ToneStudio Windows/macOS |
 | Additional features | 96kHz;serial/parallel;USB audio/reamp;38smono/19sstereo looper;documented fast switching/carryover |
 | Follow-up commit | `d6cd8de524a2e8770d7b5aeb7fcdd244593f71d2` |

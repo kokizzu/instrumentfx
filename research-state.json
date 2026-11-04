@@ -162254,5 +162254,16 @@
     "status": "Historical Scene assignment and multi-IR corrections; current behavior untested",
     "next": "Continue priority screen models or fresh Shopee leads; defer current Model Guide parameter census until readable source. Preserve expression and independent GT-Pro queues.",
     "inventory_changed": false
+  },
+  "gtcore_preservation_power_repair_20261104": {
+    "model": "BOSS::GT-1000CORE",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/BOSS.md#gt-1000core--supporting-comparison-facts",
+    "finding": "Source-history audit failed because historical supporting power cell was rewritten. Restore exact registered observation; retain newer named-supply evidence separately.",
+    "source": "effects/guitar-boss.md",
+    "manifest": "consolidation_and_price_findings[23]",
+    "validation": "Both consolidation checks now pass the GT-1000CORE supporting-cell assertion, then fail at a separate original-body mismatch for effects/findings/2026-10-14-mooer-ge100-pro.md. This repair is not a full preservation pass.",
+    "next": "Commit validated BOSS restoration before inspecting the MOOER GE100 Pro body mismatch. Preserve all priority research queues.",
+    "inventory_changed": false
   }
 }
