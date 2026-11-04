@@ -2488,3 +2488,7 @@ research-stage-yamaha:
 .PHONY: expression-audit-stage-behringer
 expression-audit-stage-behringer:
 	python3 scripts/expression_audit_behringer.py stage
+
+.PHONY: expression-audit-stage-lexicon
+expression-audit-stage-lexicon:
+	python3 scripts/expression_audit_lexicon.py stage

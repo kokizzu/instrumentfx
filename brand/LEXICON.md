@@ -305,6 +305,17 @@ Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-1
 | Memory / archive versus program file | **.MX300p** stores a program; **.mx300a** archives all presets and global settings. Restoring an archive replaces hardware data; Factory Restore resets all user programs and system settings. Factory locations cannot be overwritten; edited factory sounds must save to a user location or file. Initial user-slot contents remain unverified. |
 | MIDI / tempo and switch assignment | With MIDI Clock Sync enabled, incoming clock sets delay tempo and disables the front Tempo button while messages arrive. Footswitch ring/tip assignments are global, not per-program scene memories. Existing input functions remain separate from continuous expression. |
 
+### MX300 — chromatic pitch, note handling and pitched repeats
+
+Checked **2026-11-04** in [own Rev E18-0473V-E manual,©2018,printed pp28–29][M300-E]. This is document applicability, not installed firmware or tracking measurement.
+
+| Field | Finding / qualification |
+|---|---|
+| Synth / pitch distinctions | Pitch Shift uses fixed chromatic intervals; Detune thickens the source with slight pitch offsets. The Shift1/2 description recommends individual notes. That wording does not prove either chord support or a strict monophonic-input prohibition; stereo is channel format. |
+| Processing / pitched feedback | Pitch Shift/Detune Delay1/2 postpone the shifted signal; Feedback1/2 recirculate it for cascading arpeggio-like repeats. This is pitched delay processing, not evidence of a note-detecting arpeggiator or synth engine. |
+
+Route5 uses one effect with expanded controls, while routes1–4 use two. The route5 MIDI map groups families; its grouped rows do not resolve the outstanding exact selector census. Dedicated synth/acoustic simulation and tracking latency remain unverified. No download or device operation.
+
 <!-- comparison evidence ends -->
 
 The used listing is a cached asking price, not a completed sale or current-stock certification. “Ori” and working-condition wording are seller claims. Actual voltage revision, adapter/mains cable,bundle,warranty,shipping/tax,variant and checkout availability remain unknown. Rp10,000 late-arrival compensation is not a purchase discount. No foreign price conversion.
