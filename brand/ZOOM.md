@@ -51,6 +51,7 @@ Canonical root-level brand document. New research is added here, not to dated fi
 - [G5n](#g5n)
 - [G6](#g6)
 - [G7.1ut](#g71ut)
+- [G9.2tt — partial discovery lead](#g92tt--partial-discovery-lead)
 - [G11](#g11)
 - [GFX-1 — partial discovery lead](#gfx-1--partial-discovery-lead)
 - [GFX-3](#gfx-3)
@@ -4319,7 +4320,6 @@ Checked **2026-11-04** in the [manufacturer original G5 operation manual, printe
 |---|---|
 | USB audio / monitor and record controls | **Original G5 manualp22:** Effect3 knob1 adjusts USB monitoring balance **0–100**:0 only processed direct input,100 only computer/DAW return. Effect3 knob2 adjusts the signal level sent to the DAW by **±6dB**. This recording trim is distinct from monitor balance, analog output level and global expression assignment; these numeric ranges do not establish expression endpoints or control over XLR PRE, headphones, bypass, tails or recorded loops. |
 
-
 ## G5n
 
 Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalogue record, no ownership assertion. Discontinued according to Zoom; reseller offers can remain historical. Partial: no software, firmware, manual file or dependency downloaded or installed. Official manual evidence below is search-indexed text, not a fresh PDF/image inspection.
@@ -4792,6 +4792,32 @@ Category count checked2026-10-17 against printedpp55–66. WAH11 includesAutoWah
 | Factory / store and reset | Individual patches or whole banks can be stored/swapped within user memory. Preset sources cannot be swapped; their default store destination is the first user patch. All Initialize restores factory patches and overwrites edits. Energizer settings are not patch-stored. | [Manual pp27–29][G71-M] |
 | Processing / converters | Internal **96 kHz**, **24-bit A/D at 64×** and **24-bit D/A at 128× oversampling**, with **32-bit processing**. Published response: **20 Hz–40 kHz, +1/−3 dB at 10 kΩ**. Separate from USB streaming formats. | [Manual p69][G71-M] |
 | I/O / input ratings | Guitar rated **−10 dBm, 1 MΩ**; AUX **−10 dBm, 10 kΩ**. Line nominal level switches **−10/+4 dBm**; maximum remains the separately recorded +19 dBm. | [Manual p69][G71-M] |
+
+## G9.2tt — partial discovery lead
+
+Checked2026-11-04;**outside active inventory**. Distinct fromG7.1ut;ownership/bass/vocal applicability unverified. [Manufacturer manual](https://zoomcorp.com/media/documents/E_G92tt.pdf),51PDFpages with paired printed pages;firmware applicability unstated.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Expression | Two built-in pedals;right Z-Pedal moves vertically/horizontally. Pedal2:four targets peraxis;toe switching verticalonly. Assignments stored perpatch,notglobalvolume. ExternalEXP unverified. pp31–35 |
+| K/F/B | Complete separate control census unverified. |
+| Display | Shared16-character×2line backlitLCD plus2-digitLED;diagonal/color/touch unknown. Not individual footswitch screens. p77 |
+| Processing | 106types;10simultaneous modules;category census pending. p77 |
+| Memory | 100read-only+100writable=200patches;initial userfill unknown. p77 |
+| Synth / acoustic | Acoustic simulator inPREAMP;dedicated synth unverified. pp65–66 |
+| Body | 595W×235D×85H mm;5.5kg. p77 |
+| I/O | Guitar,stereo-miniAUX,monoSend/Return,two mono-line outputs,stereophones,MIDI IN/OUT,USB,power. p77 |
+| Power | **Conflict:** safety p2 says15VDC1.5A;specificationp77 says15VAC1.5A;both nameAD-0012. Polarity/draw/battery/USBpower unknown;replacement compatibility unresolved. |
+| USB | Stereo16-bit record/play;32/44.1/48kHz. Internal96kHz conversion isseparate. p77 |
+| Bypass | Accelerator/Energizer remain active inbypass. p76 |
+| IR / NAM / capture | Import support unverified. |
+| Looper / drums / scenes | Unverified;Hold Delay isnot automatically aphraselooper. |
+
+[Exact manufacturer support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g92tt/g92tt-support/) lists **firmware1.08**,Mac/Windows editor-librarians andlegacy WindowsASIO packages. [Japanese support](https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g92tt/g92tt-support/) explicitly labelsMac OS X10.2–10.8. CurrentOS compatibility andinstalledfirmware unverified;no packages fetched.
+
+**Used/newIDR unknown.** ExactShopee searches found no qualified processor offer. [HopeMusic shopcache](https://shopee.co.id/hopemusik) lists“LCD Efek Zoom G7 & Zoom G9”Rp220.000:replacementpart,**not processorhardware**,andno exactseller/item recovered. Searchfailure isnot marketabsence. Condition,stock,revision,bundle,region,warranty,voucher andcheckout remainunknown.
+
+Next:panel census,category algorithms,exacthardwareoffer,powerconflict andcoverage. No localdownloads,deviceoperation oractiveadmission.
 
 ## G11
 
