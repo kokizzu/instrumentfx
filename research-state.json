@@ -163933,5 +163933,21 @@
     ],
     "next": "Continue accessible priority footdisplay andcompact model gaps;preserve GTPro/general andconsolidation queues",
     "active_inventory_unchanged": 402
+  },
+  "mc6pro_control_connections_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://help.morningstar.io/en/article/mc6-pro-user-manual-psevjy/",
+    "revision": "Updated23September2026;firmware applicability unstated",
+    "canonical": "brand/MORNINGSTAR.md#mc6-pro--navigation-and-connector-specific-control-boundaries",
+    "scope": "Exact-model navigation and connector roles checked;not transferred from MC8 PRO",
+    "market": "Exact Shopee MC6 PRO hardware search returned no qualified offer;not proof of absence",
+    "remaining": [
+      "Manufacturer specification-panel conflict",
+      "EXP wiper pinout",
+      "Display diagonal/pixels/touch",
+      "Qualified current Shopee condition/stock"
+    ],
+    "inventory_changed": false,
+    "next": "Continue requested display-priority models and exact Shopee hardware gaps;preserve independent GT-Pro and expression-volume queues"
   }
 }

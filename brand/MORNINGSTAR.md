@@ -68,6 +68,17 @@ Checked **2026-11-04**, [manufacturer manual,updated23September2026](https://hel
 
 The existing three-screen/six-switch evidence,conflicting product specification panel andcalibration-switch typo remain unresolved; MC8 PRO instructions are not substituted. No download,backplate removal,reset,update orMIDI transmission performed.
 
+### MC6 PRO — navigation and connector-specific control boundaries
+
+Checked **2026-11-04** in the [manufacturer manual,updated 23 September 2026](https://help.morningstar.io/en/article/mc6-pro-user-manual-psevjy/), Navigation, TRS MIDI Out, Aux Switches, Relay Ports and USB Host. Firmware applicability unstated.
+
+- **Navigation:** B+C bank up, A+B bank down; E+F page up, D+E page down. Held pairs scroll; D+F opens system settings. These operate controller banks/pages, not guaranteed connected-processor preset changes.
+- **MIDI wiring:** dedicated 3.5 mm ports use **Type A/TRS**. Omniports separately list Standard, Tip Active, Ring Active and Type B—four entries despite the three-configuration heading. Omniports cannot send SysEx.
+- **Aux versus relay:** aux requires normally-open momentary switches grounding Tip, Ring, or both. Relay Tip/Ring default states are independently normally open/closed;messages support momentary orlatched behavior. Aux wiring does not establish EXP pinout. Omniports are not amp-switching, CV or analog-tap outputs.
+- **USB host:** up to four USB-MIDI devices via hub; multiple powered devices need a powered hub. Compatibility is qualified; HDMI/SD hubs generally unsupported. WIDI uHost works through Host, not the high-speed Device port.
+
+No wiring or device test. Existing product-panel conflict, EXP pinout, display specifications and qualified Shopee stock remain unresolved. Controller stays outside active audio inventory.
+
 ## MC8 PRO
 
 Checked2026-10-31: [current manufacturer manual](https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/) identifies **eight footswitches A–H and four LCD screens**. Each switch maps to the nearest displayed preset name. Its [exact product page](https://www.morningstar.io/mc8-pro) confirms color feedback and improved resolution/brightness; these relative claims do not provide an absolute pixel count or diagonal. Four screens for eight switches is not one independent display per switch.

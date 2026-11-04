@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(tech21): qualify RK5 v3 analog path and level controls'
+        message='research(morningstar): document MC6 PRO navigation and connector roles'
     print(git('commit','-m',message))
