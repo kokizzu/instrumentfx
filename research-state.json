@@ -161142,5 +161142,22 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requested separate-footdisplay model gaps;controller scope remains outsideaudioinventory;preserve GT-Pro/expression queues."
+  },
+  "mc6pro_backup_reset_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Morningstar MC6 PRO controller",
+    "source": "https://help.morningstar.io/en/article/mc6-pro-user-manual-psevjy/",
+    "revision": "Updated23September2026; firmware unstated",
+    "canonical": "brand/MORNINGSTAR.md#mc6-pro--backup-reset-and-recovery-boundaries",
+    "finding": "Bank/full restore and current-profile factory reset distinct from non-erasing bootloader recovery; Safe Mode suppresses messages.",
+    "remaining": [
+      "All-profile backup coverage and cross-model conversion limits",
+      "Manufacturer physical specification conflict andcalibration typo",
+      "Firmware applicability",
+      "Qualified exact Shopee stock"
+    ],
+    "market": "Targetedsearch returned recorded Rp6250000 waitlisted SweeLee andforeignShopee;no qualified IndonesianShopee offer orcurrencyconversion.",
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested separate-footdisplay hardware/specification gaps andbroader eligible inventory;preserve GT-Pro/expression queues."
   }
 }

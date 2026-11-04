@@ -58,6 +58,16 @@ Checked **2026-11-04**. Exact Shopee PRO hardware was **not recovered** in the i
 
 No firmware,editor ormanual downloaded;no device orMIDI operation. The controller remains outside402active multi-effects models. Remaining:manufacturer correction,exact firmware scope,pixels/diagonal/touch,fullcontrols,pedal pinout andqualified Shopee stock/condition.
 
+### MC6 PRO — backup, reset and recovery boundaries
+
+Checked **2026-11-04**, [manufacturer manual,updated23September2026](https://help.morningstar.io/en/article/mc6-pro-user-manual-psevjy/), Backing Up, Factory Reset and Troubleshooting. Firmware applicability unstated; no device action.
+
+**Current Bank** backup is distinct from **All Banks**,which includes controller settings. Restoring a bank file replaces the current bank; restoring a full-controller file overwrites controller data. The manual doesnot clarify whether an All Banks file spans all eight profiles or guarantees lossless cross-model conversion.
+
+**Factory Reset→Reset Current Profile** is separate from the internal **hard-reset button**,which loads the bootloader without erasing data. **Safe Mode**,entered by holding B during power-up, suppresses message execution so a programmed loop can be corrected. Neither recovery path establishes restoration of an erased profile or backup completeness.
+
+The existing three-screen/six-switch evidence,conflicting product specification panel andcalibration-switch typo remain unresolved; MC8 PRO instructions are not substituted. No download,backplate removal,reset,update orMIDI transmission performed.
+
 ## MC8 PRO
 
 Checked2026-10-31: [current manufacturer manual](https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/) identifies **eight footswitches A–H and four LCD screens**. Each switch maps to the nearest displayed preset name. Its [exact product page](https://www.morningstar.io/mc8-pro) confirms color feedback and improved resolution/brightness; these relative claims do not provide an absolute pixel count or diagonal. Four screens for eight switches is not one independent display per switch.
