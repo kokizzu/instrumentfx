@@ -324,6 +324,16 @@ A slowly blinking SAVE ring marks an edited preset. **Holding SAVE for2seconds o
 
 Installed behavior and current factory filling remain untested. No device setting changed, MIDI sent, software installed or manual downloaded locally.
 
+### Nano Cortex — 2.0 pitch and expression-fix scope
+
+Checked **2026-11-04** against the [manufacturer NanOS2.0.0 release notes,April23,2025](https://neuraldsp.com/nano-cortex-updates/nanos-2-0-0-is-now-available). This historical release is not the latest orinstalled firmware.
+
+- **Transpose** gains **Pitch Fine**,while its placement is restricted to **pre-effects slot1**. Fine-control units/range andinput-note polyphony are not established bythese notes. This dates the control/placement change without adding another simultaneous pitch slot.
+- A fix addresses **AMOUNT ring dimming immediately attoe** when expression-bypass assignment should respect Switch Delay. Another addresses incorrect enabled-state indication with **momentary switches andLatch Emulation**. These are reported indication/timing fixes,not proof ofglobalLEVEL assignment,output attenuation orcompatibility withan unidentified controller.
+- The release also fixes **physical LEVEL pickup inCapture Volume mode afterapp adjustment**,andreported delayed LEDs/multi-parameter expression response while audio ispresent. These are manufacturer fix claims,not measured latency,universal defect resolution orheld-pedal recall acrosspresets.
+
+The existing2.2manual/setup-article target discrepancy remains. Bypass,headphone,tail andrecorded-loop volume coverage remain unresolved. No firmware downloaded,installed ordevice tested;active inventory unchanged.
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.

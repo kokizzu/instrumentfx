@@ -163813,5 +163813,24 @@
     "manual": "ExactV2.2PDF timeout;globalEXPvolume unresolved",
     "next": "Continue accessible separate-footdisplay/compact profile gaps;preservegeneralGTPro/consolidation queues",
     "active_inventory_unchanged": 402
+  },
+  "nano_200_pitch_expression_fixes_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://neuraldsp.com/nano-cortex-updates/nanos-2-0-0-is-now-available",
+    "release": "NanOS2.0.0 April23,2025;historicalnotlatest/installed",
+    "canonical": "brand/NEURAL-DSP.md#nano-cortex--20-pitch-and-expression-fix-scope",
+    "findings": [
+      "PitchFine introduced;Transpose restrictedpre1",
+      "Toe bypassdelay andmomentaryLatchLEDfixes",
+      "PhysicalLEVELCaptureVolumepickup andloaded multiEXP responsefixes"
+    ],
+    "remaining": [
+      "GlobaldirectEXPvolume",
+      "PitchFineunits/range/polyphony",
+      "Measuredlatency",
+      "Alloutput/bypass/tail/loop coverage"
+    ],
+    "next": "Continue accessible individualfootdisplay andcompactprofile gaps;preservegeneralGTPro/consolidation queues",
+    "active_inventory_unchanged": 402
   }
 }
