@@ -166428,5 +166428,19 @@
     ],
     "next": "Continue remaining field gaps;preserve GT-Pro,individual-foot-display andindependent GP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "axom_retailer_oled_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/MELOFTY.md#axom-max--retailer-oled-lead-and-specification-conflicts",
+    "source": "https://www.essemusic.it/en/shop/1024423-melofty-axom-max-162704",
+    "evidence_grade": "Retailer claim; not manufacturer specification",
+    "finding": "Explicit OLED wording retained with conflicting seller specifications; no screen-tech promotion",
+    "remaining": [
+      "Manufacturer mini-screen technology and physical census",
+      "Exact qualified Shopee Indonesia hardware",
+      "Current firmware and external global-expression coverage"
+    ],
+    "next": "Continue other accessible requested footswitch-display profiles; retain AXOM primary-confirmation task and independent GT-Pro/general queues",
+    "active_inventory_unchanged": 402
   }
 }
