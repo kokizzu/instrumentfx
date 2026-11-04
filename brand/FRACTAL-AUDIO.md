@@ -1865,6 +1865,12 @@ Send passes audio unchanged andcannot bypass. Return Level determines recirculat
 
 Manufacturer warns unstable feedback canclip orproduce excessive output;its setup starts Return Level atzero. No preset wasbuilt ortested. Installed-MKII equivalence,tail/loop attenuation andall-output global volume remain unverified. Earlier guide revisions and Shopee qualifications preserved.
 
+### FM9 MKII Turbo — Rotary motion and input-channel scope
+
+Checked **2026-11-05**, [manufacturer Blocks Guide,November2026,printedpp3,5,98](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). The FM9 reference permits **two Rotary blocks**,CPU permitting; no numerical subtype census is supplied. Installed MKII equivalence and introduction firmware remain unverified.
+
+Rotary models a rotating speaker,not an organ generator or tracking synth. Rate can follow tempo or a modifier;0.0 parks rotation. Low Rate Multi changes drum speed relative to the horn; separate low/high time constants govern acceleration/deceleration. Rotor Length affects Doppler movement. Mic Spacing zero models one mono microphone. Input Select defaults to summed L+R but can choose Left or Right; stereo output width does not imply preservation of independent stereo inputs. These controls do not establish global expression-volume assignment.
+
 ## FM9 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from Turbo and MKII Turbo. Not fully verified; no ownership or live-stock assertion. The complete discovery body follows under its old anchor. Earlier outside-inventory statements are historical checkpoints, not the current admission status.

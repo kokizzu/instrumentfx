@@ -167307,5 +167307,19 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue otherrequestedindividualdisplay model gaps andgeneralPrime→GE300queue;preserve GP200JRcursor,GT-Pro,expression/consolidationqueues"
+  },
+  "fm9mkii_rotary_scope_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 pp3,5,98;FM9 column",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--rotary-motion-and-input-channel-scope",
+    "finding": "Two CPU-limited Rotary instances;motion controls and mono-summed default distinguished from synthesis and independent stereo processing",
+    "remaining": [
+      "Installed MKII equivalence and introduction firmware",
+      "Current primary physical ratings and qualified Shopee offers",
+      "Global expression endpoints,recall and output coverage"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue individual footswitch-display models and exact Shopee discovery;preserve GT-Pro,expression and GP-200JR->Prime->GE300 queues."
   }
 }
