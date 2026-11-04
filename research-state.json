@@ -167248,5 +167248,25 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "OriginalMOOERGE300 nextinindependent GP200JR→Prime→GE300queue;preserve requesteddisplaypriority,GT-Pro,expressionandconsolidationqueues"
+  },
+  "ge300_curve_startup_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/MOOER.md#ge300--volume-curve-fix-and-sample-dependent-startup-scope",
+    "source": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+    "revision": "3.0.1curvefix;2.0.6startup/micwarning;B2.0.0mictonaldescription",
+    "findings": [
+      "3.0.1Linear/Exponentialvolumeexpressionfix",
+      "2.0.6~26secondswith50loadedsamplesnotcurrentbenchmark",
+      "ChangedCABmicmodelsaffectoldpresettone"
+    ],
+    "qualification": "No globalEXPscopeorcurrentperformanceinference;regional/reset/capacityconflictspreserved",
+    "remaining": [
+      "Currentcategorycensus/factoryfill",
+      "GlobalEXP2/outputcoverage",
+      "ExactNAMarchitecturevariants",
+      "QualifiedShopeeoffers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Generalqueuecycle GE300 checkpointpublished;resume GP200JR thenPrime thenoriginalGE300 atusefulgaps,withindividualdisplaypriority andexactShopee hardware first;preserve GT-Pro/expression/consolidationqueues"
   }
 }

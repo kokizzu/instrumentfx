@@ -174,3 +174,5 @@ This index reuses existing canonical evidence and its original revision/date qua
 - MG-300 MKII Harmonist/Detune illustration content, ranges and note handling need an inspectable manufacturer image or exact-model parameter list; original MG-300 Pitch Bender is not substituted as evidence.
 
 HeadRush Prime [BBD Delay5.1 modes andblock-mix Phase Invert](brand/HEADRUSH.md#prime--bbd-delay-revision-and-block-mix-phase-control) qualify processing behavior without adding algorithms orsimultaneous slots. Compressor reduction metering isseparate fromphysical displays.
+
+Original GE300 [volume-curve correction andsample-dependent startup warning](brand/MOOER.md#ge300--volume-curve-fix-and-sample-dependent-startup-scope) retain historical firmware scope;they do not establish current boot performance orglobal expression assignment.

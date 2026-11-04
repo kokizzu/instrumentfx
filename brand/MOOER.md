@@ -2097,6 +2097,16 @@ The manual first selects the physical **Guitar/Line input setting** for the conn
 
 The screen’s **0dB is an example**;the passage doesnot publish the adjustment endpoints or establish whether trim acts before/after conversion. It is input gain,not preset Patch Level,output trim or expression-volume assignment. No source was connected ordevice setting changed.
 
+### GE300 — volume-curve fix and sample-dependent startup scope
+
+Checked **2026-11-05** in the [manufacturer original-GE300 release history](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html),not GE300 Lite.
+
+- **3.0.1** reports fixing Linear/Exponential volume-expression modes. The original manual’s curve options therefore need this later behavior qualification;the note doesnot identify every affected earlier build orquantify the fault. It doesnot establish external global volume assignment,endpoints oroutput coverage.
+- **2.0.6** warns that boot time grows with loaded sample files,giving **approximately26seconds with50loaded files**. This is a historical conditional estimate,not measured current5.1.4 startup time,a limit of50total presets,orproof oflinear scaling tolarger later libraries.
+- The same entry says changed **CAB microphone models may alter older presets’ tone** andmay require adjustment. The B2.0.0 text describes relatively greater bass andless treble afterthe microphone-model correction. Neither guarantees identical sound across revisions orimplies a new cabinet algorithm.
+
+Keep the separate reset/backup,80MNRS/50IR capacity andregional release-label qualifications. Current installed firmware remains unknown;no update,calibration,download ordevice operation. Targeted Shopee used/Melodia searches yielded no new qualified offer;the existing dated asks remain unchanged.
+
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.
