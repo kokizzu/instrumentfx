@@ -783,3 +783,5 @@ Original FM9 [conditional output copies](brand/FRACTAL-AUDIO.md#fm9-original--co
 [Original-manual findings](brand/BOSS.md#se-70--patch-assignments-effects-off-behavior-and-parallel-routing): documented **PER PATCH** controller mapping; global override **UNVERIFIED**. Master Level example endpoints are not certified mute limits. Direct/Mute effects-off is separate from continuous volume. Dedicated phones; no identified onboard preset up/down footswitch;218W×240Dmm exceeds preference. Held-position,bypass/tail/sample coverage remain unresolved. Partial lead outside active counts.
 
 Pre-MKII [FM9 Turbo Output3 Boost/Pad](brand/FRACTAL-AUDIO.md#fm9-turbo) is a paired converter boost/output cut that preserves net level inits3.x manual;its0/6/12/18dB choices are not global pedal-volume endpoints. Current-version andsignal-coverage qualifications remain unchanged.
+
+GT-Pro [external navigation andpatch-level steps](brand/BOSS.md#gt-pro--external-patch-navigation-and-level-steps) distinguish within-bank patch movement from bank commands and10/20-unit level changes. These do not resolve continuous global-FV assignment precedence oradd onboard preset footswitches.

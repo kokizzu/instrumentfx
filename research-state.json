@@ -159860,5 +159860,24 @@
     "market": "Existing FM3 exact Shopee asks resurfaced without changed stock/condition evidence;no new offer claimed",
     "inventory_count_unchanged": 402,
     "next": "Continue requested individual-footdisplay hardware andqualified Shopee gaps;Fender GuideH reader failure deferred;independent general/expression queues retained."
+  },
+  "gtpro_external_navigation_steps_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "revision": "Original GT-PRO printedp63,indexed manufacturer text;fullPDF reader size limit",
+    "finding": [
+      "PatchNumInc/Dec stay in currentbank;separate PatchBankInc/Dec",
+      "PatchLevel steps±10/20units are not dB orcontinuousexpression"
+    ],
+    "unknown": [
+      "Bank-edge wrapping",
+      "Step persistence/repeat",
+      "Global FV versuspatch enable/range precedence",
+      "Other USBmode channel counts",
+      "13vs15 simultaneous basis",
+      "Qualified exact Shopee hardware"
+    ],
+    "active_inventory_changed": false,
+    "next": "Keep independent GT-Pro cursor;requested separate-footdisplay source blockers deferred while other accessible model/market gaps proceed."
   }
 }
