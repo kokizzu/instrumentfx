@@ -166065,5 +166065,23 @@
     ],
     "next": "Check FM9 individual-LCD processor software/driver listings for fresh manufacturer changes; preserve GT-Pro, expression and general GP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "fm9_original_driver_bundle_20261105": {
+    "checked": "2026-11-05",
+    "model": "Fractal Audio::FM9 original",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--november-driver-listing-and-usb-firmware-separation",
+    "sources": [
+      "https://www.fractalaudio.com/fm9-downloads/",
+      "https://www.fractalaudio.com/fm9-edit/"
+    ],
+    "finding": "November4 Windows USB6.20 supersedes June6.16; exact Original applicability; Windows10+ x86/x64/ARM, USB audio and MIDI",
+    "distinct_versions": "USB firmware1.04 optional over1.03 per listing; processing12.0; editor1.03.22",
+    "limits": [
+      "No inferred bug fix or channel change",
+      "No native ARM editor inference",
+      "No download/installation/device operation"
+    ],
+    "next": "Continue FM9 Turbo as its own exact model checkpoint; check MKII applicability without importing sibling physical specifications. Preserve individual-LCD priority, GT-Pro, expression and GP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }
