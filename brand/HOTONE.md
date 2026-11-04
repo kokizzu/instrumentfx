@@ -587,7 +587,7 @@ Reviewed **2026-10-15**. Guitar/bass multi-effects; **medium**, no built-in expr
 | Knobs / footswitches / buttons | **5 / 3 / 1**: volume, MENU/VALUE, three quick-access knobs; three assignable footswitches; screen-lock button. Power switch separate; encoder pushes counted once. Verified through the manufacturer's numbered manual text, not a successfully rendered panel photograph [M] |
 | Dimensions / weight | **185 W × 145 D × 58 H mm; 1050 g**. Medium: depth exceeds the 140 mm compact limit by 5 mm. Plug clearance additional [P] |
 | Display | **4-inch, 800×480, color touchscreen** [P] |
-| Processing | **12 simultaneous slots**, DSP-limited, with flexible serial/parallel dual chains. The numerical product specification lists **16 module types**, not 16 simultaneous effects [P,M] |
+| Processing | **12 simultaneous slots**, DSP-limited, with flexible serial/parallel dual chains. The numerical product specification lists **16 module types**, not 16 simultaneous effects; the [V2.5.0 manual lists18](#ampero-ii-stomp--v250-usb-and-bypass-source-boundaries), with revision mapping unresolved [P,M] |
 | Categories / library | Numerical product specification **460 effects including global EQ**; marketing says 400+, with 87 amps, 68 cabs, 100+ modeled pedals and 60+ original effects. These overlapping classifications are not added together. Full current category subtotals remain unverified [P] |
 | Presets | **300 editable locations = 100 banks × 3**. Older V1.0.2 manual says reset restores 99 preloaded factory patches; current factory-filled subset remains unverified. The 99 are not additional read-only slots [M,O] |
 | Scenes / practice | **Three scenes per patch** and drum machine documented in V2.0.0 manual; **60-second stereo looper**, undo/redo, tuner, analog/DSP bypass and trails. Drum-pattern count unverified. Old descriptions saying no drums predate this firmware [M,P] |
@@ -605,7 +605,7 @@ Reviewed **2026-10-15**. Guitar/bass multi-effects; **medium**, no built-in expr
 | Data / control | Two separate five-pin DIN MIDI IN/OUT sockets; USB-C; one EXP/CTRL socket. No Stage-style pair of EXP sockets or XLR outputs [P,M] |
 | Power | **9–18 V DC center-negative; 800 mA maximum at 9 V**. Internal battery and USB-powered operation not established; USB Audio 2.0 does not imply bus power [P] |
 | Editing | Full **Windows/macOS editor**, firmware/patch/IR management. Android/iOS/Linux full editing not established for MP-300; do not copy Stage's mobile application support [P,M] |
-| USB audio | **8-in/8-out**, reamp supported. Internal effect processing 24-bit/44.1 kHz; exact current host sample-rate options not transcribed in this pass [P] |
+| USB audio | **8-in/8-out**, reamp supported. Internal effect processing 24-bit/44.1 kHz; [V2.5 USB channel and driver/firmware boundaries](#ampero-ii-stomp--v250-usb-and-bypass-source-boundaries) now recorded; exact host-rate options remain unverified [P] |
 
 ### IDR evidence
 
@@ -673,6 +673,17 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Commit** (Individual findings commits): `117a5aaa2e58a39fb9e2160ed68f09e9f8f617ea`
 
 Sources: [effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md](HOTONE.md#ampero-ii-stomp-mp-300)<!-- historical-link:hotone-012 -->, [effects/shopee-multifx-7.md](../research-state.json)<!-- historical-link:hotone-013 -->. No legacy file was deleted.
+
+### Ampero II Stomp — V2.5.0 USB and bypass source boundaries
+
+Checked **2026-11-05**, [manufacturer-authored V2.5.0 manual reproduction](https://www.scribd.com/document/1074310624/Ampero-II-Stomp-Online-Manual-EN-Firmware-V2-5-0-1785405982280), printedpp60–66,88. Cover and exact-model hardware match; original text only. Existing copied-socket/About-version inconsistencies remain qualified.
+
+- **Bypass:** DSP routes audio to main outputs and headphones. Analog connects corresponding inputs/outputs directly and disables headphones and tails. The guide says USB audio is also bypassed during unit bypass; it does not enumerate every USB channel’s resulting state.
+- **USB recording:** host inputs1/2 receive chainA afterA6;3/4 receive active chainB afterB6, matching1/2 when serial;5/6 receive loop returns;7/8 receive dry instrument inputs. Playback1/2 feeds main outputs/phones; other pairs are assignable. These are host-channel labels, not physical connectors.
+- **USB sample-rate setup:** Windows uses Hotone Generic USB ASIO; if only44100Hz appears, the guide specifies separate **USB Audio firmwareV2.01+**. Mac uses Audio MIDI Setup. This is distinct from processor firmware2.5.0; exact rate choices remain unverified.
+- **Count conflict:** V2.5.0’s specification says18 module types versus earlier product16; both retain12 simultaneous slots. No installed census or feature-introduction date is inferred.
+
+No files downloaded, drivers installed or device operated. Global expression-volume assignment and surviving-signal attenuation remain unresolved.
 
 ## Ampero Mini MP-50
 Current comparison summary, reconciled 2026-10-28 from the exact-model sources retained below. This does not certify current stock or every technical field. Earlier observations, revision conflicts and source bodies remain unchanged below.

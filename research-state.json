@@ -165933,5 +165933,21 @@
     ],
     "next": "Ampero II Stomp MP-300 full canonical profile and unresolved source-backed fields; preserve LCD-first andindependent queues",
     "active_inventory_unchanged": 402
+  },
+  "ampero_stomp_usb_bypass_20261105": {
+    "checked": "2026-11-05",
+    "model": "Hotone::Ampero II Stomp MP-300",
+    "source": "https://www.scribd.com/document/1074310624/Ampero-II-Stomp-Online-Manual-EN-Firmware-V2-5-0-1785405982280",
+    "revision": "Manufacturer V2.5.0 body, printed60–66,88; original only",
+    "finding": "USB source map, bypass phones/tail boundary and separate USB firmware requirement; module-type conflict retained",
+    "remaining": [
+      "Exact current host rates",
+      "18/16 revision mapping",
+      "Per-channel USB bypass behavior",
+      "Global expression assignment/coverage",
+      "Current qualified offers"
+    ],
+    "next": "Continue exact Stomp effect-list and drum-pattern sources when accessible;defer failed officialmanual endpoint andpreserve independent queues/LCD priority",
+    "active_inventory_unchanged": 402
   }
 }
