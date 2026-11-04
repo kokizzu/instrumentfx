@@ -165601,5 +165601,22 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requested individualdisplayprocessor profiles first;retain expression,GT-Pro,general andconsolidationqueues"
+  },
+  "px5_toneprint_tempo_primary_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/TC-ELECTRONIC.md#plethora-x5--toneprint-tempo-recall-and-primary-modifier-corroboration",
+    "source": "https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf",
+    "revision": "Cumulative1.4.3 PDF6,11;X5-specific1.3.6/1.1.43 entries",
+    "finding": "1.1.43 tappedtempo preservedwithin sameeffect TonePrint changes;notBoard/powercycle guarantee. Direct primary corroborates previouslymirrored modifierpriority/cleanup.",
+    "market": "KnownNEOMUSIC158235298/27271818642 Rp9105200 four-monthcache;category Rp11367000 andchillshoppingBMJ repeats;no newqualified offer",
+    "remaining": [
+      "Global volume assignment/endpoints/coverage",
+      "Primary LCDcolor/diagonal/touch",
+      "Current firmware library andcapacity reconciliation",
+      "Dimensionaxis conflict",
+      "Qualified hardware condition/stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue individual-footdisplay processor gaps andexactShopee sources;preserve GT-Pro,expression,general andconsolidationqueues"
   }
 }

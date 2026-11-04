@@ -1002,6 +1002,17 @@ Checked **2026-11-01**, [ELECTORI TonePrint App/Editor V4 Reference Manual,JP Re
 
 Fresh exactShopee item18280216311 was inaccessible anditem27271818642 returned cache miss. Preserve older qualified asks;no current condition,stock orvariation contents established. All-Board analog-volume scope,held-position recall andbypass/tail/loop attenuation remain unresolved. No local download,app installation ordevice operation.
 
+### PLETHORA X5 — TonePrint tempo recall and primary modifier corroboration
+
+Checked **2026-11-05**, [direct manufacturer-hosted cumulative1.4.3 history](https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf),PDFpp6,11. Original X5-specific entries,not borrowed fromX3;installed equivalence untested.
+
+| Field | Revision-qualified boundary |
+|---|---|
+| Live / TonePrint tempo recall | **1.1.43,15April2020:** tapped tempo no longer resets when changing TonePrint **within the same effect**. This doesnot establish Board-change/power-cycle retention,unchanged delay buffers orgapless audio. Later per-slot Tempo Sync remains a separate feature. |
+| Expression / primary-source corroboration | **1.3.6,13January2022:** directly readable manufacturer PDF confirms **EXP > MASH/Ramp > Hot Knobz > knobs**,with effect parameters returning to normal when live modifiers disengage/unplug. It also records the EXP-modifier→volume Hot Knobz reset fix. This corroborates the retained mirror evidence;it doesnot establish global all-Board volume assignment orheld-position recall. |
+
+Exact Shopee searches again returned known cachedNEO MUSIC/category/storefront leads only;no newly qualified condition,variant orlive stock. Historical asks andaccess failures remain preserved. No local download,device/MIDI operation orupdate.
+
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.
