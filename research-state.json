@@ -162389,5 +162389,23 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue unresolved exact hardware leads; keep individual-display and independent GT-Pro queues intact."
+  },
+  "zoom4040_pitch_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://zoomcorp.com/media/documents/E_4040.pdf",
+    "revision": "Undated original English pp16–18; panel legendp4",
+    "canonical": "brand/ZOOM.md#4040--pitch-controls-and-conflicting-range-descriptions",
+    "resolved": [
+      "Pitch table/prose conflicts preserved",
+      "Balance target distinguished from pitch sweep",
+      "STEP not certified as tracked synthesis"
+    ],
+    "remaining": [
+      "Chord handling and actual ranges",
+      "Full controls/electrical fields",
+      "Exact Indonesian hardware offer"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Move to another unresolved market/profile lead; retain independent queues."
   }
 }

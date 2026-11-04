@@ -136,6 +136,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [BOSS VF-1](brand/BOSS.md#vf-1--original-algorithm-census-and-creative-note-handling) is a **partial lead outside active counts and the additional-record index**. Guitar Synth requires single notes;SQR/SAW synthesis differs fromBRASS/BOW input shaping. Harmonist FAST/MEDIUM/SLOW accept chords;MONO/HARMONY require single notes. Acoustic/bass simulators andSFX alternatives are documented. Original36 algorithms are combinations,not concurrent slots;Speaker Modeling is a separate addendum. Hardware/market profile remains incomplete.
 
+[Zoom 4040](brand/ZOOM.md#4040--pitch-controls-and-conflicting-range-descriptions) remains a **partial lead outside active counts**: pedal-pitch modes and STEP processing are documented; range conflicts and chord handling remain unresolved.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

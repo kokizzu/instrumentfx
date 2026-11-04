@@ -610,6 +610,17 @@ Checked **2026-11-04**, [manufacturer operation manual,printedpp21–22,25](http
 
 By contrast, **EXP.SELECT0–5 is per patch**:Off/PRE/EQ/MODULATION/DELAY/REVERB,andunavailable/off modules cannot be chosen. TOTAL therefore contains both global andpatch parameters. These are built-in treadle functions,not a verified direct external-volume role. VOL remains before modulation/delay/reverb;global range does not establish tail,phone,bypass orlooper muting. No device test.
 
+### 4040 — pitch controls and conflicting range descriptions
+
+Checked **2026-11-04**, [original manufacturer manual, printed pp16–18](https://zoomcorp.com/media/documents/E_4040.pdf), undated edition; installed firmware untested.
+
+- **PIT:** table lists 0–24 semitones with separate UP/dn direction; introduction describes two octaves, but parameter prose says one octave. FINE likewise differs: panel legend −5…+5 versus parameter table −10…+10. These remain source conflicts, not measured ranges.
+- **PDL PIT:** 16 endpoint modes include −2→+2 octaves, downward infinity bend and dry-plus-shifted harmony. Mode count does not establish input polyphony.
+- **PIT expression controls BAL**, rather than transposition: mode0 sweeps minimum→stored balance, mode1 stored balance→maximum. BAL0 is dry,10 shifted-only.
+- **STEP** produces random pitch changes with optional portamento and an arpeggio-like result; this does not establish a note-tracking synthesizer. These alternatives share MODULATION.
+
+Chord handling remains unverified. Partial lead stays outside active counts; no physical test or local download.
+
 ## A1 FOUR
 
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.
