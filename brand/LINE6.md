@@ -1313,6 +1313,15 @@ Checked **2026-11-03**, [manufacturer reset reference,HX Effects subsection](htt
 
 Existing HX Edit full-backup contents remain documented separately. None ofthese reset/recovery operations establishes global expression-volume assignment,normal installed firmware ornew display specifications.
 
+### HX Effects — snapshot topology and shared-switch states
+
+Checked **2026-11-04**, [manufacturer3.80 RevD manual,printedp31](https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf).
+
+| Field | Practical limit |
+|---|---|
+| Processing / snapshot topology | Snapshots cannot reorder blocks or exchange an effect for another model. Both alternatives must already exist in the preset;four snapshots do not multiply the nine-block/DSP budget or bypass heavy-poly instance limits. This matters when combining synth,pitch and special processing. |
+| Controls / shared-switch state | The guide warns that snapshots can change the relationship between blocks assigned to one footswitch: an alternating delay-on/reverb-off pair can become both-on,then toggle together. A label/ring alone does not guarantee every assigned block’s state. Snapshot Bypass exclusion remains a separate per-block choice. No hardware behavior was tested. |
+
 <!-- comparison evidence ends -->
 
 ### Preserved original shared-source HX Effects fields

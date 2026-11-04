@@ -162234,5 +162234,15 @@
     "status": "Travel and off-state limits qualified; partial outside402",
     "next": "Defer numeric volume endpoints/USB streams/all-route proof until new exact evidence. Continue saved priority displays or fresh Shopee leads; independent GT-Pro and expression queues retained.",
     "inventory_changed": false
+  },
+  "hxe_snapshot_topology_20261104": {
+    "model": "Line 6::HX Effects",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/LINE6.md#hx-effects--snapshot-topology-and-shared-switch-states",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "revision": "3.80 RevD printed31",
+    "status": "Snapshot topology and shared-switch state constraints recorded; no inventory change",
+    "next": "Continue priority display models or fresh Shopee leads. AXOM/MAX quick-guide new German endpoint inaccessible; Stadium offers duplicate recorded cache conflict; no new stock/price assertion. Preserve GT-Pro and expression queues.",
+    "inventory_changed": false
   }
 }
