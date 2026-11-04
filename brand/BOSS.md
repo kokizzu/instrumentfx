@@ -598,7 +598,7 @@ Checked **2026-11-05**. **Outside active402 models** pending complete profile an
 
 | Creative capability | Algorithm distinction / limitation |
 |---|---|
-| Synth |GR-300 models a polyphonic guitar synth;OSC SYNTH uses DSP oscillators;WAVE SYNTH directly processes divided-string audio. Two OSC oscillators do not establish input-note polyphony. |
+| Synth |GR-300 models a polyphonic guitar synth;OSC SYNTH uses DSP oscillators;WAVE SYNTH directly processes divided-string audio. Two oscillators alone do not establish polyphony;the explicit Poly/Mono setting is verified below. |
 | Pitch |FX PITCH SHIFTER,HARMONIST,PEDAL BEND;individual input-note restrictions unresolved. Alternate tuning,12-string andString Bend are unavailable with SYNTH/POLY FX modeling. |
 | Instrument tones |Manufacturer names acoustic,bass,sitar,banjo andfretless modeling;GK requirement retained. Not ordinary-input acoustic-IR evidence. |
 | Special |Poly FX:DISTORTION,CRYSTAL,RICH MODULATION,SLOW PAD,TOUCH WAH. Alternatives,not five simultaneous algorithms;Slow Pad isnot proof ofanother synth engine. |
@@ -614,6 +614,22 @@ Checked **2026-11-05**, [manufacturer owner manual e02,printedpp2–4,11,13](htt
 - **Output interaction:** plugging in headphones forces LINE/PHONES output mode,also affecting OUTPUT sound. This is output-system selection,not measured volume attenuation. GUITAR OUT carries normal-pickup audio.
 
 External EXP orCTL3/4 uses one shared socket;simultaneous independent expression plus two switches isnot established. Voltage/polarity,complete knob/button census andcurrent qualified Indonesian offers remain open. No pedal,wiring,settings ordevice operation.
+
+### GP-10 — named instrument models and explicit OSC poly mode
+
+Checked **2026-11-05**, [manufacturer owner manual e02,printedpp6–8](https://cdn.roland.com/assets/media/pdf/GP-10_e02_W.pdf). Historical named inventory;current installed content unverified.
+
+| Modeling group | Exact manual names |
+|---|---|
+| Electric12 |CLA ST;MOD ST;TE;LP;P90;335;L4;RICK;LIPS;WIDE RANGE;BRIGHT HUM;FRETLESS |
+| Acoustic9 |MA28;TRP-0;GB45;GB SML;GLD40;NYLON;RESO;BANJO;SITAR |
+| Bass3 |JB;PB;FRETLESS |
+
+These are alternative GK instrument models,not24 simultaneous tones or24 acoustic IRs. Bass modeling doesnot establish bass-input compatibility. Fretless guitar andbass are separate choices.
+
+**OSC SYNTH explicitly offers Poly/Mono.** MONO sounds one note even with chord input;POLY supports per-string orlast-note-on-any-string portamento. This directly documents a poly mode;it isnot inferred fromtwo oscillators. Tracking quality,latency andexact note ceiling remain unmeasured.
+
+OSC Hold modes separately accept-and-hold new notes,ignore new notes,oraccept new notes onalready-held strings. These are performance behaviors,not stored loops. WAVE SYNTH’s SAW/SQUARE waveform choices andlower-octave option do not independently establish its note ceiling. Existing GK andalternate-tuning restrictions remain. No device operation ordownload.
 
 
 ## GS-10

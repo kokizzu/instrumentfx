@@ -166854,5 +166854,53 @@
     "inventory_unchanged": 402,
     "status": "Partialoutsideactive;builtintreadle excludedfromno-treadle",
     "next": "Complete missing GP10 hardware/algorithm profile ifaccessible;preserve individual-displaypriority andindependent queues"
+  },
+  "boss_gp10_named_models_poly_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#gp-10--named-instrument-models-and-explicit-osc-poly-mode",
+    "source": "https://cdn.roland.com/assets/media/pdf/GP-10_e02_W.pdf",
+    "revision": "e02 printed6–8",
+    "models": {
+      "electric": [
+        "CLA ST",
+        "MOD ST",
+        "TE",
+        "LP",
+        "P90",
+        "335",
+        "L4",
+        "RICK",
+        "LIPS",
+        "WIDE RANGE",
+        "BRIGHT HUM",
+        "FRETLESS"
+      ],
+      "acoustic": [
+        "MA28",
+        "TRP-0",
+        "GB45",
+        "GB SML",
+        "GLD40",
+        "NYLON",
+        "RESO",
+        "BANJO",
+        "SITAR"
+      ],
+      "bass": [
+        "JB",
+        "PB",
+        "FRETLESS"
+      ]
+    },
+    "osc": "ExplicitPoly/Mono;MONOone notechord;POLYperstring/anystringlastnoteportamento;3Holdmodesdistinctfromsavedloops",
+    "remaining": [
+      "Current firmware applicability",
+      "Tracking performance/noteceiling",
+      "WAVE notehandling",
+      "Power/control census",
+      "Qualified Indonesian offers"
+    ],
+    "status": "Partialoutsideactive402;69existingadditionalindexunchanged",
+    "next": "Continue GP10 missing hardware/software andexact parameter guide;preserve LCDpriority,expression,general andconsolidationqueues"
   }
 }
