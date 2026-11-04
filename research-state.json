@@ -168699,5 +168699,27 @@
     ],
     "continuation": "Prioritize remaining individual-foot LCD hardware gaps; preserve general GP-200JR → Prime → original GE300 cycle and independent expression queue.",
     "inventory_change": 0
+  },
+  "axom_max_midi_transport_clock_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "MELOFTY AXOM MAX",
+    "status": "partial_lead_outside_active_counts",
+    "source": {
+      "url": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Melofty/EN/MEL_AXOM_MAX_Manual_EN.pdf",
+      "revision": "Manufacturer V1.7.4, 2026-08-31",
+      "printed_pages": "36–37,42–45"
+    },
+    "finding": "Separated USB MIDI receive/send, external clock following/current-BPM transmission, channel defaults and direction-specific OMNI wording.",
+    "canonical": "brand/MELOFTY.md#axom-max--midi-transport-and-clock-roles",
+    "unverified": [
+      "MIDI Start/Stop and Song Position",
+      "Looper phase alignment",
+      "Bluetooth MIDI",
+      "DeepSynth MIDI-note triggering",
+      "Manufacturer mini-screen count/technology",
+      "Qualified exact Shopee Indonesia hardware"
+    ],
+    "next": "Continue other accessible requested display-model gaps; preserve expression and GP-200JR → Prime → original GE300 queues.",
+    "inventory_change": 0
   }
 }

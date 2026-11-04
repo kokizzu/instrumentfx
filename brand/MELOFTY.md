@@ -25,6 +25,7 @@ Consolidated **2026-11-04** from the revision-qualified findings below; this is 
 | USB / documentation conflict | [English and German USB7/8 wording](#axom-max--english-usb-conflict-and-editor-preset-operations) both permit reamp input yet contain an input-node prohibition in the dry-output paragraph. Actual routing remains untested. |
 | Routing / output levels | [Manufacturer V1.7.4 global outputs](#axom-max--output-level-linkage-and-eq-destinations): UNBAL, BAL and PHONES have separate menus, global EQ and linkable L/R levels. Numeric range, recall and EXP3 assignment remain unverified. |
 | Software / editor continuity | [Editor save prompts and Tail-Spill](#axom-max--editor-save-prompts-and-tail-spill-scope): global setting documented; effect/preset continuity and pedal coverage remain unverified. |
+| MIDI / transport and tempo | [V1.7.4 receive/transmit settings](#axom-max--midi-transport-and-clock-roles) document USB MIDI in both directions, clock following versus clock output, and separate channel settings. Bluetooth audio/control does not establish Bluetooth MIDI. |
 | Software / network services | [V1.7.4 network and Cloud scope](#axom-max--cloud-object-types-and-update-source-details): Wi-Fi login, five separate sound-file categories and an on-device update checker. These do not establish private/full backups, NAM export or current firmware availability. |
 | Indonesia hardware | No qualified exact Shopee offer, live stock or separate new/used IDR established. Seller/accessory/bundle identity must be checked before adding a price. |
 
@@ -486,3 +487,14 @@ Checked **2026-11-05** in the [manufacturer English V1.7.4 manual,2026-08-31,pri
 - Deselecting a parameter removes its expression assignment;the expanded DELETE control clears the controls together. The abbreviated text doesnot define that clear operation across other controllers,presets orscenes. Keep its scope unresolved rather than assuming a device-wide reset.
 
 These assignment operations differ from clearing audio samples,factory reset orpedal calibration. They do not establish external global master-volume assignment,all-source mute,mini-display technology orcurrent firmware equivalence. Partial lead remains outside402;the already-recorded app1.9 notes addno new verified hardware revision here.
+
+
+### AXOM MAX — MIDI transport and clock roles
+
+Checked **2026-11-05**, [manufacturer English V1.7.4 manual,2026-08-31,printed36–37,42–45](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Melofty/EN/MEL_AXOM_MAX_Manual_EN.pdf). Original prose,not a connection test.
+
+MIDI IN settings separately enable external-clock following and USB MIDI reception; MIDI OUT settings enable clock transmission from the current BPM and USB MIDI sending. These are documented transport/tempo roles,not confirmation of MIDI Start/Stop,Song Position,looper phase alignment orBluetooth MIDI.
+
+Receive andtransmit channels default to1. Receive OMNI accepts commands regardless ofsender channel. The OUT chapter describes OMNI as transmitting on all channels;that wording doesnot establish any ability to override the receiver’s channel configuration. Enabled MIDI THRU forwards incoming MIDI toOUT;forwarding is distinct from generating new note messages.
+
+This extends the retained note-receive-only matrix,not evidence ofguitar-to-MIDI output orDeepSynth MIDI-note triggering. USB audio andmobile Bluetooth editing remain separate functions. Current-firmware equivalence,mini-screen hardware andqualified Indonesian stock remain unresolved. Partial lead remains outside402 active records;no download,MIDI transmission ordevice operation.
