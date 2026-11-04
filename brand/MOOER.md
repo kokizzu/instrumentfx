@@ -226,7 +226,7 @@ Reviewed **2026-10-14**. **Partial**, eligible guitar multi-effects; original GE
 
 | Condition / market | Amount | Qualification |
 |---|---:|---|
-| Shopee retail listing, detailed condition unknown | **Rp2.103.300** | LOBAJET, shop70636842/item54064319398 [MOOER-GE100-PRO-S1], indexed page. Earlier repository evidence gave Rp3.019.000 and voucher wording; the current excerpt does not resolve base versus conditional price. **Not a verified active lower bound** |
+| Shopee retail listing, detailed condition unknown | **Rp2.103.300** | LOBAJET, shop70636842/item54064319398 [MOOER-GE100-PRO-S1], indexed page. Earlier repository evidence gave Rp3.019.000 and voucher wording; the current excerpt does not resolve base versus conditional price. **Not a verified active lower bound**. **2026-11-04:** direct two-month cache explicitly says **Dengan Voucher**;eligibility,base price,current condition/stock andcheckout remain unknown;see dated follow-up below |
 | Shopee preorder, detailed condition unknown | **Rp5.729.000** | SakaSentosa_77, shop1807023911/item50560296600 [MOOER-GE100-PRO-S2], explicitly30-day preorder; selected variant/region, accessories and delivered cost unverified |
 | Indonesian retailer, historical | **Rp1.750.000** | GP Music white model, explicitly sold out [MOOER-GE100-PRO-R] |
 | Used | **?** | No condition-verified used quote obtained |
@@ -282,6 +282,20 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Findings commit** (Immediate model commits): `e048a3c9f0e4b1ff77023757ee3730604487e4d6`
 
 [Original shared source](../research-state.json)<!-- historical-link:mooer-011 -->,retained pending complete navigation/provenance audits.
+
+### GE100 Pro — versioned expression, practice and offer qualifications
+
+Checked **2026-11-04**, [exact manufacturer download/release page](https://www.mooeraudio.com/Downloads_xq/12.html). Page creation2026-09-01 is distinct from its individual release dates;package labels do not establish installed firmware.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / release behavior | **MS_For_GE100_Pro1.3.3,2026-08-20:** disabling expression returns its assigned parameter to the default. The note doesnot define that default,zero-volume behavior,held-position recall orglobal assignment. |
+| Loading / A2 release scope | Same1.3.3 notes add **NAM A2** support. Retain the separately documented **conversion** path;this doesnot establish native execution,all A2 architectures,onboard capture orPro Li equivalence. |
+| Looper / drums and persistence | **1.3.0,2026-04-27:** first-recording count-in when drums are enabled;drum parameters persist after power-off andBPM no longer resets. This doesnot prove saved loops. Notes also fix volume-pedal/Bluetooth playback issues andCAB SIM THRU indication;exact failure conditions unspecified. |
+| Editor / historical fixes | **1.3.2,2026-06-12:** improves editor-triggered preset switching andtuner detection atA4=440–450Hz;fixes Bluetooth noise. These are release claims,not measured gapless switching ortracking performance. |
+| Price / conditional exact Shopee recheck | **Rp2.103.300,with voucher** explicitly shown by [LOBAJET70636842/54064319398](https://shopee.co.id/MOOER-GE100-Pro-AI-Powered-Multi-Effects-Processor-Amp-Modeler-i.70636842.54064319398),KotaJakartaBarat,two-month cache. Eligibility,base price,condition,stock,variant,regional hardware,bundle,warranty,shipping/tax andcheckout unknown. Same-day delivery andlate compensation are not stock proof oradditional discounts. EarlierRp3.019.000 observation remains unreconciled. |
+
+No package downloaded ordevice operated. Older sources andunknown current category/IR/USB/display specifications remain;no Pro Li field oractive membership changed.
 
 ## GE100 Pro Li
 

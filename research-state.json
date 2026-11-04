@@ -161992,5 +161992,17 @@
     "status": "Regional labels preserved; package equivalence and installed firmware unverified",
     "next": "Resolve numbering only with exact manufacturer evidence; preserve regional package boundaries and independent queues",
     "inventory_changed": false
+  },
+  "ge100pro_release_offer_20261104": {
+    "model": "MOOER::GE100 Pro",
+    "checked_date": "2026-11-04",
+    "sources": [
+      "https://www.mooeraudio.com/Downloads_xq/12.html",
+      "https://shopee.co.id/MOOER-GE100-Pro-AI-Powered-Multi-Effects-Processor-Amp-Modeler-i.70636842.54064319398"
+    ],
+    "canonical_section": "brand/MOOER.md#ge100-pro--versioned-expression-practice-and-offer-qualifications",
+    "status": "Exact-model release labels and voucher condition checked; installed behavior/current stock unknown",
+    "next": "Full manual/category census,IR slots,USB routing,display/axis specifications andqualified condition-specific IDR remain;priority and independent queues unchanged",
+    "inventory_changed": false
   }
 }
