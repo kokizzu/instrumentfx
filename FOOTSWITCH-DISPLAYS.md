@@ -160,6 +160,7 @@ These match the separate-display layout, with OLED technology rather than LCD.
 
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
+| Line 6 **Helix Stadium Floor** — partial lead | **Shared8-inch color touchscreen; no XL OLED strips** | [Exact non-XL record](brand/LINE6.md#helix-stadium-floor--partial-no-treadle-lead). Home > Play provides labels for12switches;no built-in treadle. Outside active counts pending complete profile;XL offers/specifications remain separate. |
 | Morningstar **MC6 MKII** — partial controller lead | **One shared24×2-character LCD for six switches**;distinct from MC6 PRO | [Manufacturer source and two exact sold-out Shopee offers](brand/MORNINGSTAR.md#mc6-mkii--shared-screen-controller-lead). Character cells are not pixels;generic MC6 offer revision unresolved. Outside individual-screen matches andprocessor counts. |
 
 ### Additional screen technology / layout pending

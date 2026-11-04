@@ -837,3 +837,7 @@ HX Effects [external-loop tail qualification](brand/LINE6.md#hx-effects--externa
 G-System [connection and navigation follow-up](brand/TC-ELECTRONIC.md#g-system--connections-preset-selection-and-paired-pedal-roles): bank stepping plus five preset selectors; no dedicated headphones in the recorded complete connector inventory. Its four pedal sockets pair the Vol/Exp roles across the two units. Always-running loop sends are not proven to follow the post-loop volume control. Partial status and the large-footprint qualification remain.
 
 G-System [software4.0 parallel-path qualification](brand/TC-ELECTRONIC.md#g-system--software40-additions-and-parallel-dry-path-boundary): Kill Dry removes the processor’s direct component, while an external parallel rig can retain an unprocessed branch outside G-System. Global pedal assignment isnot proof of whole-rig silence.
+
+### Helix Stadium Floor — partial no-treadle discovery
+
+[Exact non-XL record](brand/LINE6.md#helix-stadium-floor--partial-no-treadle-lead): no built-in treadle;up to two external pedals viaControl A/B. Volume/Pan auto-assignment requires adding the block;it doesnot establish all-preset assignment. Footprint,exact pedal wiring,headphones,preset down/up settings,range/recall andbypass/tail/looper coverage remain unverified. Shared main-screen labels do not qualify asindividual OLEDs. Partial lead outside402;XL offers andphysical profile are not transferred.

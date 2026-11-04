@@ -12,6 +12,7 @@ Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless and POD Exp
 - [Helix Floor](#helix-floor)
 - [Helix LT](#helix-lt)
 - [Helix Rack — partial no-treadle discovery](#helix-rack--partial-no-treadle-discovery)
+- [Helix Stadium Floor — partial no-treadle lead](#helix-stadium-floor--partial-no-treadle-lead)
 - [Helix Stadium XL Floor](#helix-stadium-xl-floor)
 - [HX Effects](#hx-effects)
 - [HX One](#hx-one)
@@ -757,6 +758,24 @@ Checked **2026-11-03**, [original Rack/Control3.80 manual][HRK-R], **90-20-0370-
 | External Control / navigation and labels | FS1/FS7 can select **Banks, Presets or Snapshots**, with direction swap. Snapshot labels allow **10 characters** and require preset save. These are optional Control functions, not onboard Rack footswitches or global expression-volume assignment. |
 
 Partial lead remains outside active counts; factory fill, editor requirements, physical conflicts and qualified offers remain unresolved.
+
+## Helix Stadium Floor — partial no-treadle lead
+
+Checked **2026-11-04**. Exact **non-XL** model; partial discovery outside the402 active inventory. No ownership inferred. [Manufacturer product](https://line6.com/helix-stadium/) and [live Quick Start](https://manuals.line6.com/en/helix-stadium/live/quick-start), navigation labelled v1.4/Rev D, distinguish it from Stadium XL. Installed firmware is untested.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Display / built-in expression | **8-inch color touchscreen; no individual OLED scribble strips or built-in treadle.** [Top-panel chapter](https://manuals.line6.com/en/helix-stadium/live/top-panel-and-footswitches) displays switch labels on **Home > Play**; Home toggles Edit/Play. XL's strips and onboard toe switch are not transferred. LCD panel technology and pixel resolution unverified. |
+| Controls | Top-panel text: **11 rotaries /12 footswitches /13 separate front buttons**. Rotary sum: eight parameter encoders,Volume,Upper,Lower. Button sum: three output selectors,three transport,Home,Song,Amp,Save,XY,two page buttons. Encoder presses counted once; rear power separate. Text-derived census,not visual inspection. |
+| External expression / navigation | Top-panel chapter: **up to two pedals via Control A/B**; external pedal+switch orEX2 can toggle EXP1/2. Adding Volume/Pan auto-assigns EXP2;this requires the block anddoesnot establish all-preset volume. Preset mode exists separately from controller assignment. Exact pedal wiring anddedicated up/down settings remain pending. |
+| I/O / advertised scope | Product: one variable-impedance instrument input,XLR mic preamp,S/PDIF in/out,up to two effects loops,two external amp-control outputs andtwo trigger inputs;Nexus,USB-C,USB-A,removable32GB microSD. These are functional maxima,not independently verified socket counts orsimultaneous Control A/B configurations. Complete analog output/headphone connector profile pending. |
+| Power / body | Product identifies internal **IEC power supply**. Input voltage/frequency/wattage,battery/USB operation,dimensions andmass remain unverified;no XL measurements borrowed. Preferred200W×140Dmm fit remains unknown. |
+| Processing / software | Quick Start explicitly shares the model library,Showcase,Proxy cloning,USB audio/MIDI andcomputer-app support withXL. It documents macOS/Windows editor use and8-in/8-out24-bit USB audio. This is manufacturer-stated shared scope,not a fresh algorithm/concurrency audit. IR/Proxy are distinct from unverified NAM import. |
+| Factory / user / other | Numeric factory/user/total preset capacity,simultaneous block ceiling,category census,synth/instrument algorithm details,looper/drums andfull editor requirements remain pending. No model counts orcapacities inherited fromXL. |
+
+**Package-source conflict:** current Quick Start lists Floor,AC cable andCheat Sheet; [RevB/v1.2 Quick Start](https://manuals.line6.com/en/helix-stadium/rev-b-v1.2/quick-start) additionally lists a pre-inserted microSD. The product advertises removable32GB storage. These establish differing documentation,not the contents ofa current Indonesian bundle.
+
+**IDR hardware:** exact Shopee searches fornon-XL returned no qualified seller/item. XL's Rp41.22m offers remain XL-only;no conversion ormarket-absence claim. New/used asks,condition,stock,region,bundle,warranty andvouchers remain unverified. No local download,connection ordevice test. Global analog volume assignment,position/range/recall,bypass/headphone/tail/looper coverage remain open.
 
 ## Helix Stadium XL Floor
 

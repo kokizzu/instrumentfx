@@ -163966,5 +163966,38 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue requested display-priority model evidence and exact Shopee hardware;preserve independent GT-Pro/general and expression-volume queues"
+  },
+  "stadium_floor_partial_discovery_20261104": {
+    "checked": "2026-11-04",
+    "model": "Line 6 Helix Stadium Floor",
+    "sources": [
+      "https://line6.com/helix-stadium/",
+      "https://manuals.line6.com/en/helix-stadium/live/quick-start",
+      "https://manuals.line6.com/en/helix-stadium/live/top-panel-and-footswitches",
+      "https://manuals.line6.com/en/helix-stadium/rev-b-v1.2/quick-start"
+    ],
+    "revision": "Live navigation v1.4/RevD;older RevB1.2 package compared;installed firmware untested",
+    "canonical": "brand/LINE6.md#helix-stadium-floor--partial-no-treadle-lead",
+    "active": false,
+    "fully_verified": false,
+    "controls": {
+      "rotaries": 11,
+      "footswitches": 12,
+      "front_buttons": 13,
+      "basis": "Manufacturer text enumeration;not visual census"
+    },
+    "market": "No qualified exact non-XL Shopee item;XL offers excluded",
+    "remaining": [
+      "Dimensions/mass andpower label",
+      "Complete connectors andpedal wiring",
+      "Global direct EXP volume assignment androute/endpoints/recall coverage",
+      "Preset capacity/category andsimultaneous census",
+      "Exact creative algorithm inventory",
+      "Headphones/navigation details",
+      "Qualified exact new/used IDR hardware"
+    ],
+    "package_conflict": "Current quick start omits preinsertedmicroSD listedinRevB1.2;notproof ofcurrentbundle",
+    "active_inventory_unchanged": 402,
+    "next": "Finish non-XL physical/power/connectors andcontrol scope whenaccessible;requested individual-display models retain priority;preserve GT-Pro/general andexpression queues"
   }
 }

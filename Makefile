@@ -2508,3 +2508,9 @@ brand-sort-plan-tc-electronic:
 	python3 scripts/brand_sort.py plan brand/TC-ELECTRONIC.md
 brand-sort-apply-tc-electronic:
 	python3 scripts/brand_sort.py apply brand/TC-ELECTRONIC.md
+
+.PHONY: brand-sort-plan-line6 brand-sort-apply-line6
+brand-sort-plan-line6:
+	python3 scripts/brand_sort.py plan brand/LINE6.md
+brand-sort-apply-line6:
+	python3 scripts/brand_sort.py apply brand/LINE6.md
