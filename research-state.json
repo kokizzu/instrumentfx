@@ -165004,5 +165004,20 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Independent general queue:original MOOER GE300;preserve individual-footdisplay priority,compactexpression audit andGT-Pro technical cursor."
+  },
+  "ge300_usb_evidence_reconciliation_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "MOOER::GE300",
+    "source": "https://cn.mooeraudio.com/news/%E9%AD%94%E8%80%B3%E4%B8%93%E4%B8%9A%E7%BA%A7%E5%90%89%E4%BB%96%E9%9F%B3%E8%89%B2%E5%A4%84%E7%90%86%E5%99%A8-GE300%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81-350.html",
+    "retained_previous_url_spelling": "https://cn.mooeraudio.com/news/%C3%A9%C2%AD%C2%94%C3%A8%C2%80%C2%B3%C3%A4%C2%B8%C2%93%C3%A4%C2%B8%C2%9A%C3%A7%C2%BA%C2%A7%C3%A5%C2%90%C2%89%C3%A4%C2%BB%C2%96%C3%A9%C2%9F%C2%B3%C3%A8%C2%89%C2%B2%C3%A5%C2%A4%C2%84%C3%A7%C2%90%C2%86%C3%A5%C2%99%C2%A8-GE300%C3%A6%C2%AD%C2%A3%C3%A5%C2%BC%C2%8F%C3%A5%C2%8F%C2%91%C3%A5%C2%B8%C2%83%C3%AF%C2%BC%C2%81-350.html",
+    "download_index": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+    "change": "Reconciled three open-question summaries with already-established exact-model USB-MIDI evidence;fixed malformed source URL. Surfaced separately-versioned USB driver5.70.0 versus Studio5.1.4.",
+    "remaining": [
+      "Current USB-MIDI routing/driver/host capabilities",
+      "OS/architecture requirements andinstalled versions",
+      "Current category census,factory fill,touch,power,IR/NAM limits andqualifiedhardware offers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Independent GP-200JR→Prime→originalGE300 checkpoint cycle completed with remaining gaps preserved. Resume accessible requested individual-footdisplay andcompactexpression sources;preserve GT-Pro cursor andfresh exactShopee discovery."
   }
 }
