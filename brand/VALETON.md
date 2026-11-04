@@ -1911,6 +1911,7 @@ Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200
 | Choices per category | **Firmware1.8.0 complete named-table census:** PRE31,WAH6,DST38,AMP71,NR4,CAB70,EQ6,MOD27,DLY22,RVB12,VOL1. **288 category-menu entries**,including cabinet/body choices andcross-category repeats;not288 unique algorithms orsimultaneous blocks. Excludes five AMP/five DST SnapTone import slots and20 userIR slots. AMP splits18Clean/26Drive/20HiGain/5Bass/2Acoustic;CAB60speaker+10Acoustic. Marketing240+,140+amp/cab and100+stomp figures retain their separate,overlapping scope. Earlier PRE27 was incomplete;31 is the corrected count. [Complete census below](#gp-200jr--complete-firmware180-category-census). |
 | Memory | **255 editable slots, first 99 factory-filled, 156 remaining**. Manual p.5 agrees on 255/99 but also says reset “100”; p.19 retains incompatible 01-A–25-D reset wording. Do not substitute LT's 256/100 layout. [JR-P, JR-M pp.5,12,19,75] |
 | Synth / acoustic | PRE has AC Sim with four modes; acoustic preamps and acoustic/body CAB choices are separate. Step Filter offers synth-like timbres; dedicated synthesizer architecture not established. [JR-M pp.27,50–54] |
+| Processing / special-delay and Trail scope | [Own1.5.0 manual,pp44–46](#gp-200jr--special-delay-roles-and-bypass-trail-scope): Ring Echo modulates repeats;Rev Echo uses reversed feedback;M-Echo has12 head variations. Trail wording covers effect bypass,not proven preset-change spillover;newer1.8.0 equivalence remains unverified. |
 | Processing / Hold versus Freeze | Hold loops a short segment from before activation;Freeze sustains the sound at activation. Activate can be assigned to EXP; with Activate enabled,CTRL can instead toggle the module. These do not establish another general looper,polyphonic synthesizer orwhole-rig scene count. |
 | Synth / acoustic detail | AC Sim modes:Standard,Jumbo,Enhanced,Piezo. AC Refiner instead processes acoustic instruments. Step Filter is a four-step filter with synth-like timbres, not proof of a dedicated synth engine. Harmonizer1/2 are monophonic single/dual-voice harmonizers, unlike the polyphonic Pitch/P-Bend entries. |
 | IR / capture | Twenty user WAV IR locations, 1024-sample processing; appendix says 44 kHz while recording specification says 44.1 kHz. Import conversion/bit-depth rules unresolved. Firmware 1.8.0 documents NAM-format import into AMP/DST via SnapTone; the regional notice specifies **NAM A2 conversion through desktop software 1.8.1+**, not unrestricted native NAM. Architecture support and concurrent capture limits unresolved. [JR-M pp.37,51,55,69; JR-N] |
@@ -2142,6 +2143,14 @@ Version0.8.1 removes the JR write lock left in0.8.0. The README claims live USB-
 
 Its shared305-model catalogue derives fromanother GP-200 project orimported editor data;it doesnot replace the JR manual’s288-menu-entry census. App conversion claims do not establish nativeNAM oradditional hardware effects. Official editor,firmware andmemory evidence above remain separate. Exact compatibility andbackup integrity are untested;no software downloaded,run ordevice connected.
 
+
+### GP-200JR — special-delay roles and bypass Trail scope
+
+Checked **2026-11-05**, [manufacturer-authored GP-200JR manual reproduction](https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149),printed pp44–46. The document body identifies **firmware1.5.0** despite host metadata saying1.4.0;original table text only. These older descriptions do not certify the separately recorded1.8.0 library orinstalled firmware.
+
+**Ring Echo** applies ring modulation to repeats,with separate Ring Mix/frequency controls;**Sweep Echo** filters repeats withindependent sweep/delay sync. **Rev Echo** describes reversed feedback,not necessarily reversed dry audio. **M-Echo** models four-head tape echo with **12 head variations**;these are internal modes,not12 processing blocks. **Lofi Echo** processes repeats;it doesnot establish a standalone global bitcrusher.
+
+The repeated **Trail** definition explicitly concerns **bypassing the effect**. This doesnot prove cross-preset spillover,universal continuity when algorithms change,orEXP attenuation ofsurviving tails. Retain these distinctions alongside the newer Hold/Freeze andcomplete category census. No download ordevice test.
 
 ## GP-200LT
 

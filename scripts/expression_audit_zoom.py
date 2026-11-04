@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(darkglass): qualify Anagram preset navigation and loop retention'
+        message='research(valeton): qualify GP-200JR delay and Trail behavior'
     print(git('commit','-m',message))
