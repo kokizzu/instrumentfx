@@ -150548,5 +150548,38 @@
     "expression": "SharedEffectRemote/ExpPedalselection;Control2/3PCS31white/red;globalvolumeandpinoutunverified",
     "active_inventory_changed": false,
     "next": "Per-algorithm parameter/routing andglobalvolume,connector diameters,visualcorroboration,qualifiedIDR;LCD-first andindependentqueues preserved"
+  },
+  "se70_assignment_routing_20261104": {
+    "checked": "2026-11-04",
+    "model": "BOSS SE-70",
+    "destination": "brand/BOSS.md#se-70--patch-assignments-effects-off-behavior-and-parallel-routing",
+    "sources": [
+      "https://cdn.roland.com/assets/media/pdf/SE-70_OM.pdf",
+      "https://cdn.roland.com/assets/media/pdf/SE-70_PA.pdf"
+    ],
+    "owner_pages": [
+      18,
+      32,
+      33
+    ],
+    "algorithm_section": "Algorithms Geared for Use With a Mixer",
+    "assignment_classification": "PER PATCH for documented mapping;global overrideUNVERIFIED",
+    "range_recall": "Target-specific reversibleMinMax;example notcertifiedmute;temporarychanges revert;heldpositionunverified",
+    "routing": "Fixed140–145Mono+Mono/StereoMix",
+    "separate_checks": {
+      "headphone": "Dedicated socket;attenuation coverageunknown",
+      "preset_footsteps": "Noneidentifiedonboard;handCONTROLencoder",
+      "footprint": "Exceeds200W×140Dpreference"
+    },
+    "active_inventory_changed": false,
+    "remaining": [
+      "Globaloverride",
+      "Volumeplacement/endpoints/heldposition",
+      "Bypass/tail/sample/phonecoverage",
+      "Connector diameters",
+      "Visualcorroboration",
+      "QualifiedIDR"
+    ],
+    "queues_preserved": true
   }
 }

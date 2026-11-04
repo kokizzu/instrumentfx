@@ -775,3 +775,7 @@ Original FM9 [conditional output copies](brand/FRACTAL-AUDIO.md#fm9-original--co
 ### Korg PANDORA PX4D — partial compact exclusion
 
 [Exact-model manual lead](brand/KORG.md#pandora-px4d--partial-discovery-lead): no built-in treadle and76W×112Dmm body,but no documented EXP input. Shared line/headphone output;hand program buttons are not foot preset stepping. Fails direct analog external-volume criterion;not a calibration question. Outside active counts;no qualified Shopee Indonesia hardware offer established.
+
+### BOSS SE-70 — partial assignment-scope check
+
+[Original-manual findings](brand/BOSS.md#se-70--patch-assignments-effects-off-behavior-and-parallel-routing): documented **PER PATCH** controller mapping; global override **UNVERIFIED**. Master Level example endpoints are not certified mute limits. Direct/Mute effects-off is separate from continuous volume. Dedicated phones; no identified onboard preset up/down footswitch;218W×240Dmm exceeds preference. Held-position,bypass/tail/sample coverage remain unresolved. Partial lead outside active counts.

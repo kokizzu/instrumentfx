@@ -4531,6 +4531,21 @@ Indexed [original owner manual,p9](https://cdn.roland.com/assets/media/pdf/SE-70
 
 Partial lead remains outsideactivecounts. Original named-algorithm census is now documented;full parameter/routing checks,connector diameters,visual corroboration,qualified IDR andall-preset volume remain open. No local download ordevice operation.
 
+### SE-70 — patch assignments, effects-off behavior and parallel routing
+
+Checked **2026-11-04** against indexed [original owner manual, pp18,32–33](https://cdn.roland.com/assets/media/pdf/SE-70_OM.pdf), and [original algorithm guide, Algorithms Geared for Use With a Mixer](https://cdn.roland.com/assets/media/pdf/SE-70_PA.pdf). Firmware applicability remains unstated; no hardware test.
+
+| Field | Documented scope |
+|---|---|
+| Expression / assignment | **Four assignments per patch**; targets depend on the algorithm. Sources include Exp Pedal, Control1–3 and MIDI. The common targets listed for all algorithms are Tuner, Metronome, Metronome Level and Effect On/Off. This is the documented **PER PATCH** path; a global volume override remains **UNVERIFIED**. |
+| Expression / range and recall | Min/Max are target-specific and may be reversed. The illustrated Master Level range is0–100,not a certified mute/dB specification. Live controller changes are temporary and revert on patch change; held-position recall is unverified. |
+| Bypass / effects-off | **Direct** outputs dry sound; **Mute** silences effects-off output. The manual recommends Mute for mixer send/return use to avoid adding dry signal. This switch behavior doesnot establish continuous pedal attenuation or tail/recorded-sample coverage. |
+| Routing / algorithms140–145 | **Mono+Mono** keeps the two channel effects as independent mono outputs; **Stereo Mix** preserves each effect in stereo and mixes them at output. These are six fixed mixer-oriented algorithms,not arbitrary duplicate blocks or two independently stereo output pairs. |
+
+The earlier global-expression uncertainty is narrowed to a documented per-patch assignment scheme,not converted into proof that a global override is absent. Dedicated headphones are already listed; their pedal/bypass coverage remains unverified. The front CONTROL encoder selects patches by hand; no onboard preset down/up footswitch is identified. **218W×240Dmm** exceeds the preferred200×140 footprint. SE-70 remains a partial lead outside active counts.
+
+Next: verify parameter-level volume placement andminimum/maximum behavior,connector diameters,visual corroboration andqualified IDR;preserve LCD-first andindependent research queues. No local download, MIDI transmission ordevice operation.
+
 ## VE-1
 
 Vocal multi-effects:echo,double,pitch correction and enhance. Consolidated/researched2026-10-16;partial verification. Seller Harmonist/Guitar Pedal titles do not establish guitar processing or intelligent harmony.
