@@ -166394,5 +166394,23 @@
     ],
     "next": "Continue systematic remaining no-treadle records;Mini/Nano sources rechecked withoutglobal-volume resolution. Preserve individual footswitch-display priority,GT-Pro andgeneral queues",
     "active_inventory_unchanged": 402
+  },
+  "g2_original_performance_20261105": {
+    "checked": "2026-11-05",
+    "model": "Zoom::G2 original",
+    "canonical": "brand/ZOOM.md#original-g2--tuner-rhythm-and-delay-hold-performance-limits",
+    "source": "https://zoomcorp.com/media/documents/E_G2.pdf",
+    "revision": "G2-5000-2 printed4,10–13,18–19;date unstated",
+    "findings": [
+      "Tuner reset andfootswitch timing caveat recorded",
+      "Rhythm availability distinguished fromREVERB availability",
+      "Conditional delay hold distinguished frompersistent looper"
+    ],
+    "remaining": [
+      "Exact qualified Indonesian hardware",
+      "Expression attenuation ofheld audio andtails"
+    ],
+    "next": "Continue remaining no-treadle field gaps;preserve requested individual-display priority,GT-Pro andGP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }

@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): document original G2 connector and audio limits'
+        message='research(zoom): qualify original G2 tuner rhythm and delay hold'
     print(git('commit','-m',message))

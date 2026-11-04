@@ -3078,6 +3078,18 @@ Published input: **−20dBm,1MΩ**. Line output maximum **+5dBm into≥10kΩ**;p
 
 Existing per-patch VL assignment andbypass-volume exception remain. All-output/tail coverage andqualified exact Indonesian hardware remain unresolved;partial lead stays outside active counts. No download ordevice operation.
 
+### Original G2 — tuner, rhythm and delay-hold performance limits
+
+Checked **2026-11-05**, [manufacturer G2-5000-2 Operation Manual,printedpp4,10–13,18–19](https://zoomcorp.com/media/documents/E_G2.pdf);publication date unstated.
+
+Chromatic tuning requires bypass ormute. Both onboard switches briefly select bypass;holding≥1second selects mute. Uneven switch timing can momentarily select another patch before activation;the original patch returns on exit. Reference **435–445Hz resets to440Hz atpower-on**.
+
+**40 rhythm patterns,40–250BPM**,available inPlay andbypass/mute;rhythm playback disables REVERB. TAP instructions specify≥3presses;rhythm level0–30.
+
+External FS01 selects bypass/mute,tap,bank-up,rhythm start/stop,delay hold ordelay-input mute. Its function applies across patches,but hold requires a compatible effect ineach patch. Hold repeats current delay audio; a second press cancels hold and resumes decay. This does not establish a separate persistent performance looper. FS01 andFP01/FP02 share CONTROL IN.
+
+Manufacturer patch-change mute claim **<5ms** is not a hardware measurement orproof ofzero-gap switching,tail spillover orexpression attenuation ofheld audio. Those coverage questions andexact qualified Indonesian offers remain unresolved;active inventory unchanged.
+
 ## G2.1Nu
 
 Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [own support page][ZNU-S]. Checked2026-10-18; partial. Ownership and bass/vocal suitability unverified.
