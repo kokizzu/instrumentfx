@@ -162913,5 +162913,47 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue fresh Shopee discovery andpriority separate-display gaps;preserve independentGT-Pro andexpression queues."
+  },
+  "gp50_additional_market_identity_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/VALETON.md#gp-50--three-additional-hardware-items-with-separate-shop-identities",
+    "offers": [
+      {
+        "shop": "66742362",
+        "item": "47505948493",
+        "seller": "quinnguitarwarehouse",
+        "region": "Kota Medan",
+        "idr": 2250000,
+        "access": "two-month direct/search",
+        "stock": "unknown"
+      },
+      {
+        "shop": "270383239",
+        "item": "45058298385",
+        "seller": "Suryaputra Musik",
+        "region": "Kota Semarang",
+        "idr": 2255000,
+        "access": "three-month search;direct cache miss",
+        "stock": "unknown"
+      },
+      {
+        "shop": "440477624",
+        "item": "51005183806",
+        "seller": "ROCKPIZZ MUSIC",
+        "region": "Kota Denpasar",
+        "idr": 2255000,
+        "access": "two-month direct",
+        "stock": "Habis cached"
+      }
+    ],
+    "condition": "unknown for all;not new/used bounds",
+    "manufacturer_source_status": "Third-party source index points to same inaccessible1.1.0 redirects;no new parameter adoption",
+    "remaining": [
+      "Current condition-qualified checkout stock",
+      "Current firmware manual/globalEXPscope",
+      "Controller wiring andoutput coverage"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue other unresolved priority display/no-treadle models andfreshShopee discovery;defer unchanged1.1.0 redirects. Preserve independentGT-Proqueue."
   }
 }
