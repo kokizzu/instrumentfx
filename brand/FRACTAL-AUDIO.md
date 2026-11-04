@@ -963,6 +963,16 @@ The separate [FM3-Edit page](https://www.fractalaudio.com/fm3-edit/) still lists
 
 The downloads page still lists firmware13.0 for Original and Mark II Turbo, and the7.x owner manual. No software, firmware or documents downloaded or run; installed versions and physical behavior remain unverified.
 
+### FM3 MKII Turbo — Rotary, Volume-Pan and internal feedback scope
+
+Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, printed pp3,98,100–101,109](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). FM3 reference ceilings: two Rotary, two Volume/Pan and two matched Send/Return pairs; CPU limits apply. Installed MKII equivalence and introduction firmware remain unverified.
+
+- **Rotary** processes rotating-speaker motion rather than generating organ notes. Rate accepts tempo/modifiers; zero parks rotation. Drum/horn acceleration is separately adjustable.
+- **Volume/Pan** offers ordinary volume and Auto-Swell. Threshold/attack/release/hysteresis shape automatic attacks. Volume accepts a modifier; Output Level is separate. Input Select preserves stereo or selects one channel. Bypass can pass or mute audio. This does not establish universal analog-pedal assignment or headphone/tail/loop coverage.
+- **Send/Return** pairs route internally, including feedback or extended chains; they are not physical effects-loop jacks or phrase-loop storage. Send1 matches Return1, Send2 matches Return2; both members are required. Send cannot bypass. Return Level controls recirculation separately from Output Level. The manufacturer starts Return Level at zero to avoid unstable feedback.
+
+No preset built or device tested; older revisions, global-volume gaps and Shopee qualifications remain intact.
+
 ## FM3 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from MKII Turbo; not fully verified and no ownership assertion. The earlier discovery heading and complete body follow as historical evidence. Their outside-inventory statements describe pre-admission checkpoints. This admission does not settle hardware variants, market availability or remaining specifications.

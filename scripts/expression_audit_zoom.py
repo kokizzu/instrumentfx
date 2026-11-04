@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(line6): qualify POD 2.0 firmware generations and support'
+        message='research(fractal): clarify FM3 swell, rotary and feedback routing'
     print(git('commit','-m',message))

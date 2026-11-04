@@ -167401,5 +167401,25 @@
     "deferred": "Power chartunreadable,shopinaccessible;dimensiondata spreadsheetonly,nodownload",
     "inventory_unchanged": 402,
     "next": "Defer inaccessiblepower/dimensions;continue individual-footdisplay priorities andfresh qualifiedShopee discovery. Preserve GP-200JR->Prime->GE300,GT-Pro,expression/consolidation queues."
+  },
+  "fm3mkii_rotary_volume_feedback_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--rotary-volume-pan-and-internal-feedback-scope",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 pp3,98,100–101,109; FM3 column",
+    "instances": {
+      "rotary": 2,
+      "volume_pan": 2,
+      "send_return_pairs": 2
+    },
+    "qualification": "CPU-limited reference, not installed-library or global analog-volume certification",
+    "remaining": [
+      "Global volume endpoints, recall and headphone/tail/loop coverage",
+      "Complete current category census",
+      "Qualified Shopee condition and stock",
+      "Installed firmware and practical DSP"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue individual-footdisplay priority and qualified Shopee discovery; preserve GP-200JR->Prime->GE300,GT-Pro,expression/consolidation queues. Legacy redirects retain old anchors; prior source-body audits already complete within their scopes."
   }
 }
