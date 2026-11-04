@@ -38,6 +38,16 @@ Checked **2026-11-05**, [Donner exact product page, SKU EC6928](https://us.donne
 
 The [manufacturer-linked APL manual](https://storage.donnermusic.com/official-user/202503/APL_MANUAL.pdf) returned unsupported application/octet-stream;body/revision unverified. Editor, NAM/capture and note-tracking capabilities remain unknown. No local download or hardware operation.
 
+### APL — original-manual recovery and rejected guide evidence
+
+Checked **2026-11-05**. A [document-specific mirror index](https://device.report/m/7cd544626237fc0ac7714e652387d3edaafd2d828a9014e6325ab4a2b92d059d) identifies **说明书-APL 20241122**,72pages,62.55MB,with a matching Acoustic Preamp Loop control-panel excerpt and Donner Music source attribution. Its [original-file candidate](https://device.report/m/7cd544626237fc0ac7714e652387d3edaafd2d828a9014e6325ab4a2b92d059d.pdf) is **65,585,175 bytes**,over the web reader limit. [Same-hash alternate index](https://manuals.plus/m/7cd544626237fc0ac7714e652387d3edaafd2d828a9014e6325ab4a2b92d059d) has matching metadata but no readable full body. Date/title are retrieval clues,not a verified manual revision or firmware requirement. This adds recovery paths without resolving ports,controls or EXP.
+
+The [ASIN-based rewritten guide](https://manuals.plus/asin/B0DQ4W5GYT.pdf) is **not authenticated manufacturer documentation**. Its prose even substitutes1000Amps for the mA rating. Do not import its XLR,RGB,control-count orIR-loading claims,or treat them as an established manufacturer-source conflict. The separately surfaced DT-10/product-guide document is likewise not an authenticated exact APL manual.
+
+[Official support-category index](https://official.donnermusic.com/support/downloads/detail?first=GUITAR_PEDAL&second=GUITAR_MULTIPLE_EFFECTS) search text lists Donner APL with a manual link andsoftware dash;direct retrieval instead returned no results. This is an access discrepancy,not proof of no editor. Manufacturer product-image links returned no inspectable pixels,and no browser surface was available;no visual control census claimed. No local files downloaded.
+
+Defer this large-file recovery until readable original pages become available;continue other models. APL remains outside active counts,with existing technical and Shopee uncertainties preserved.
+
 ## Arena2000
 
 Eligible guitar/shared-bass multi-effects with built-in expression. Not a dedicated single-effect pedal. Partial technical record; consolidation does not make remaining unknowns verified.

@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(donner): record exact APL acoustic multi-effects lead'
+        message='research(donner): preserve APL original-manual recovery and source limits'
     print(git('commit','-m',message))
