@@ -883,6 +883,7 @@ Desktop guitar/vocal processor; distinct from GT-1/GT-100. Checked 2026-10-17; p
 | Field | Verified behavior / limit |
 |---|---|
 | USB audio / routing | [Official parameter guide, p. 34](https://cdn.roland.com/assets/media/pdf/GT-001_r_e01W.pdf), indexed original text: PRIMARY sends effects; its computer return mixes at the final stage. SECONDARY sends dry input; its return enters the effect-chain beginning for reamping. Both outputs are available together. Four recording channels are corroborated below; exact playback count remains unverified. |
+| USB / level controls | [Own p34](#gt-001--usb-level-controls-and-aux-monitoring-boundary): PRIMARY MIX.LVL/EFX.OUT and SECONDARY DRY.OUT each0–200%;SECONDARY TO.EFX−20…+20dB. These have separate routing roles,not a common expression-master range. |
 | USB / monitoring | PRIMARY LOOP BACK sends computer playback back with processed sound. DIRECT MONITOR resets ON at startup and cannot be saved. Loopback is an audio-routing function, not a phrase looper. |
 | Power / adapter identity | [GT-001-specific BOSS support notice](https://www.boss.info/jp/support/by_product/gt-001/support_documents/36a0d74b-856b-417a-862c-ae72c8f9e0bf/) specifies **PSA-100**. Its [current manufacturer specification](https://www.boss.info/jp/products/psa-100/) gives **9 V DC, 500 mA maximum output**, 100–240 V AC, 50–60 Hz input. Adapter capacity differs from GT-001’s 240 mA draw. Polarity remains unverified; do not assume an old adapter shares the current mains range. |
 
@@ -969,6 +970,14 @@ Owner manual p4 calls A–D **buttons** for immediate favorite recall; holding o
 
 Product PHONES **44Ω output impedance**, **recommended load≥44Ω**, and **−10dBu nominal level** are distinct specifications. They do not establish milliwatts, maximum level or volume-pedal coverage. Main line outputs have their own2kΩ/≥10kΩ ratings. Older sources and the shop-card ask remain qualified; no current stock, firmware or measured performance claim. No download, connection or device operation.
 
+
+### GT-001 — USB level controls and AUX monitoring boundary
+
+Checked **2026-11-04**. [Manufacturer2014 Parameter Guide,printedp34,indexed original text](https://cdn.roland.com/assets/media/pdf/GT-001_r_e01W.pdf): **PRIMARY MIX.LVL0–200%** controls computer-return audio mixed at the final stage; **EFX.OUT0–200%** controls processed recording level. **SECONDARY TO.EFX−20…+20dB** controls computer audio entering the effect chain; **DRY.OUT0–200%** controls dry recording output. These are distinct taps/gains,not four published expression-pedal ranges. Parameter coverage doesnot resolve the directional playback-channel census orfull-output EXP attenuation. Full original PDF,including alternate GT-001_PG endpoint,exceeds reader size limit;no download.
+
+The manufacturer-authored [English owner manual,p2](https://manualzz.com/doc/4573509/boss-gt-001-guitar-effects-processor-owner-manual),©2014 withmatching GT-001 chapters, directs **AUX playback volume to the player’s own controller**. That instruction doesnot prove a particular internal AUX tap orcoverage by OUTPUT LEVEL,FV,headphones orUSB recording. Host-generated FAQs andother-model compliance boilerplate excluded.
+
+Exact Shopee searching surfaced the retained Standard Music shop-card only;no refreshed condition/stock ornewitem claim. Existing global-FV assignment evidence remains;range-storage,placement,recall andtail coverage remain qualified. No device,driver orsignal test.
 
 ## GT-1B
 
