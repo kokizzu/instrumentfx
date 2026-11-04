@@ -384,6 +384,8 @@ Checked **2026-10-17**. Original HeadRush Pedalboard, distinct from Prime and Gi
 | Factory / user memory | **270 factory presets**; total user storage and factory-filled versus writable capacity **?**. File backup Mac/PC. [FAQ][PB-Q] |
 | Synth / acoustic simulation | Acoustic Sim listed; independent synth engine **?**. Bass amps include66 Flip Bass/69 Blue Line Bass; these are models, not ownership proof. [Product][PB-P] |
 | IR / NAM / captures | WAV/AIFF imports,up to192kHz/32-bit source files; storage capacity **?**. Firmware2.6 adds **two IRs in one block**. Native/converted NAM and proprietary capture loading **?**, not inferred from Prime/Core. [FAQ][PB-Q], [Firmware,p.2][PB-F] |
+| IR / reduced-DSP option | [Own guide2.1.2,p14](#pedalboard--ir-truncation-saving-and-file-transfer): **IR 1024** truncates the loaded response to1024 samples to reduce DSP demand. Normal-mode processed length and total IR-file capacity remain unverified;source-file sample rate is separate. |
+| Memory / edit and transfer behavior | [Same guide,pp15–16,37](#pedalboard--ir-truncation-saving-and-file-transfer): rig asterisk omits knob/pedal andbypass changes;USB transfer changes take effect immediately. Not autosave or a full-system backup guarantee. |
 | Audio/control I/O | ¼″ TS instrument in;3.5mm stereo AUX;external¼″TRS EXP;two XLR outs with ground lift;two¼″TRS mains;¼″stereo phones;two¼″sends/two returns;DIN MIDI in/out-thru;USB-B;IEC. No amp-control out per comparison. FAQ/appendix reverse send/return directions; manual rear-panel text correctly identifies sends as outputs and returns as inputs. [Manual,pp.5–6][PB-M], [Comparison][PB-C] |
 | Power / battery / USB | **100–240 V AC,50/60Hz,1.2 A IEC input rating**, not measured consumption; DC barrel polarity N/A. Battery/USB-powered operation **?** [Manual,p.40][PB-M] |
 | Editor / Windows11 hardware qualification | [Manufacturer Windows11 matrix](https://support.headrushfx.com/en/support/solutions/articles/69000804015-headrush-windows-11-compatibility),checked2026-11-03: **Pedalboard Supported,audio driver1.0.6**. Test scope:file transfer,USB recording,firmware update;exact firmware/build unstated. **WindowsARM andInsider/Preview builds unsupported**. This is not certification ofa full editor,third-party firmware bridge orevery DAW. |
@@ -446,6 +448,14 @@ Checked **2026-11-04**, [own manufacturer guide2.1.2, printedpp20,23,32](https:/
 - **Routing:** XLR,quarter-inch andPhones independently selectRig orAlt. The13 listed Alt taps span input,amp,cab andIR positions,including second-model variants;defaultAmp Input. Early taps can omit later processing. This isnot proof ofglobal expression attenuation across outputs.
 
 Preserve the separately documented AUX volume exception,USB-mode output restrictions andfirmware-qualified tail limits. No device,software orsignal measurement.
+
+### Pedalboard — IR truncation, saving and file transfer
+
+Checked **2026-11-05**, [manufacturer User Guide2.1.2,printed pp14–16,37](https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf), original Pedalboard only. **IR 1024** truncates responses to1024 samples, reducing DSP use. Normal-mode processed length andstorage capacity remain unresolved;this is not a source-file rate specification.
+
+The rig’s unsaved-change asterisk covers topology,model-preset andHardware Assign changes, but does not appear merely for bypass,knob orpedal changes. Absence ofthe marker therefore doesnot prove every value is saved. Save/New Rig/Discard remain explicit operations.
+
+USB Transfer supports individual rig,setlist,model-preset,loop andIR files;folders andarchives are not transferable throughthis documented workflow. Changes to the exposed drive are immediate andcannot be cancelled. Eject before Sync;Sync then analyzes/imports files. This is file management,not a full editor orproof that a file copy preserves all global settings. Current2.7 equivalence remains untested. No files transferred,downloaded ordevice operated.
 
 
 ## Prime

@@ -164944,5 +164944,27 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue accessible individual-footswitch-display profiles and exact Shopee gaps;retain GT-Pro technical cursor,GP-200JR→Prime→GE300 general queue,and compact expression audit."
+  },
+  "pedalboard_ir_save_transfer_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "HeadRush::Pedalboard",
+    "source": "https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf",
+    "revision": "Manufacturer guide2.1.2 printed14–16,37",
+    "canonical": "brand/HEADRUSH.md#pedalboard--ir-truncation-saving-and-file-transfer",
+    "findings": [
+      "IR1024 is a reduced-DSP truncation option,not import-rate/storage limit",
+      "Rig dirty marker does not cover every live edit",
+      "USB Transfer immediate changes,ejection thenSync;individualfiles rather than folders/archives"
+    ],
+    "market_check": "Prime,FM9,ToneMasterPro andPedalboard searches repeated known cached asks;no new stock orcondition claim. HXEffects replacementLCD excluded asaccessory.",
+    "deferred": "Mini2.2 global-volume source timedout;mirror candidates expose cover only. CalineC300 remains known unverified lead;no primary specs or exactShopee recovered.",
+    "remaining": [
+      "Normal-mode IR length andfile/rig storage ceilings",
+      "Current2.7 equivalence",
+      "Condition-qualified exacthardware offers",
+      "Display/control andpower source conflicts"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue accessible individual-footswitch-display profiles and exactShopee discovery;retain compactexpression audit andindependent GP-200JR→Prime→GE300/GT-Pro queues."
   }
 }
