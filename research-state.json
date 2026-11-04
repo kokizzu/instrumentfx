@@ -154604,11 +154604,11 @@
       {
         "key": "Zoom::B6",
         "canonical": "brand/ZOOM.md#b6",
-        "synth": "Bass Standard Synth; Bass Synth Talk",
-        "pitch": "See retained effect list",
-        "instrument": "Acoustic conversion unverified",
-        "qualification": "Dual-input/piezo support does not establish simulation",
-        "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index."
+        "synth": "BaStdSyn;BaSynTlk;Z-Syn;inputpolyphonyunverified",
+        "pitch": "BaPlShiftchords−24…+12;BaMnPitchsingle-note;PitchSHFT;HPS",
+        "instrument": "Defret;piezo supportnotacousticconversion",
+        "qualification": "LoopRollsamplehold/Bomberdistinct;2021effectlist,six-effectDSP",
+        "evidence_basis": "Focused ownmanufacturer effectlist_2 printed13–16;notfullfresh audit"
       },
       {
         "key": "Korg::PANDORA stomp",
@@ -163178,6 +163178,22 @@
       "Screen/controlvisualgaps",
       "QualifiedcurrentShopeeoffers"
     ],
+    "inventory_changed": false,
+    "independent_queues_preserved": true
+  },
+  "b6_creative_tracking_checkpoint_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://zoomcorp.com/media/documents/E_B6_FX-list_2.pdf",
+    "revision": "Copyright2021,filename_2,printed13–16;current exactsupport link",
+    "canonical": "brand/ZOOM.md#b6--chord-pitch-versus-synth-tracking",
+    "finding": "BaPlShiftchord supportdistinctfromBaMnPitchsingle-note;Z-Synbeyondtwo-synthsummary;Defret/LoopRoll/Bomber roles",
+    "remaining": [
+      "Synthinputpolyphony",
+      "Completecurrent/installedcategorycensus",
+      "GlobalEXPcoverage",
+      "QualifiedcurrentShopeeoffers"
+    ],
+    "creative_index_unchanged": 65,
     "inventory_changed": false,
     "independent_queues_preserved": true
   }

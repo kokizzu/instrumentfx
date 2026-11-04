@@ -2266,7 +2266,7 @@ Bass multi-effects; large body, external-only expression. Consolidated and refre
 | New USD observation | $359 [P1] |
 | Maximum simultaneous blocks; categories / choices | **6**, DSP-limited; 13 amps; 12 cabinet models ×3 mic positions; 4 DI models; detailed effect-category totals ? |
 | Factory / user memory | 240 editable patch memories total |
-| Synth / acoustic | Bass Standard Synth / Bass Synth Talk; dual-input piezo support |
+| Synth / acoustic | Bass Standard Synth / Bass Synth Talk; dual-input piezo support. [Own effect-list clarification](#b6--chord-pitch-versus-synth-tracking) also names Z-Syn,Defret andalgorithm-specific pitch limits;piezo support isnot acoustic simulation. |
 | Third-party IR | Yes, WAV import; user-slot count ? |
 | NAM | Not established |
 | Audio / control ports | 2×¼″ selectable inputs, 1M/10MΩ; mono FX loop; 3.5 mm aux; combined ¼″ TRS line/phones; mono XLR DI; EXP; micro-USB; SD; BTA-1 port |
@@ -2329,6 +2329,12 @@ Remaining:current category inventory,factory preset subset,IR length/overwrite r
 | Condition | Evidence | Source |
 |---|---|---|
 | Unknown | **Rp6,800,000; Habis**, Imagination Music Store, Kota Jakarta Pusat; shop19576516/item14745371582. Checked2026-10-18; four-month search cache with8June delivery, direct open failed. Condition, working state, variant, adapter/bundle, warranty and current stock unknown. Rp10,000 late compensation is not discount; shipping/tax/checkout unknown. Sold-out indexed ask, not a used/new range. | [Indexed exact item](https://shopee.co.id/Zoom-B6-Bass-Multi-effects-Processor-i.19576516.14745371582) |
+
+### B6 — chord pitch versus synth tracking
+
+Checked **2026-11-04**, [manufacturer B6 effect list](https://zoomcorp.com/media/documents/E_B6_FX-list_2.pdf),©2021,printed13–16;currently linked from exact B6 support. **BaPlShift explicitly supports chords**,with−24…+12 semitones. **BaMnPitch explicitly targets single bass notes**,with−12…+12 or+24 semitones and±25-cent fine adjustment. **PitchSHFT** has the latter range;**HPS** uses key/scale harmony. Their input polyphony remains unspecified.
+
+The sheet names **BaStdSyn, BaSynTlk andZ-Syn**;the earlier two-synth product summary is not exhaustive for this document. Synth chord tracking remains unverified. **Defret** is fretless processing;piezo-input support is not acoustic conversion. **LoopRoll** is footswitch sample/hold,10–4000ms,with LATCH/UnLATCH;not the separate phrase looper. **Bomber** explosive sounds use LATCH/TRGGR. These choices remain subject to six-effect/DSP limits;the dated sheet doesnot certify installed/current app contents. No local download ordevice test.
 
 ## Existing ZOOM research — consolidation still pending
 
