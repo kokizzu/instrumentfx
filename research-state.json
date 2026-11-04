@@ -160047,5 +160047,14 @@
     "additional_creative_records": 54,
     "active_inventory_unchanged": 402,
     "next": "Requested individual-footdisplay source gaps remain deferred when inaccessible. Continue other accessible model/profile and exact Shopee gaps; preserve independent GT-Pro and expression-volume queues."
+  },
+  "h90_automatic_relay_boundary_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Eventide::H90",
+    "source": "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/system-menu/global.html",
+    "revision": "H90 manual1.12.5 section7.1",
+    "finding": "Dual Routing automatically enables Path1 relay when no Presets use Path1;Path2 cannot use relay. Relay physically connects inputs to outputs,distinct from DSP bypass.",
+    "qualification": "Global P Out Gain assignment is established separately;automatic relay attenuation,pedal-position recall,tails andrecorded-loop scope remain unverified.No device operation orinstalled/latest firmware claim.",
+    "next": "Verify global gain endpoints/range customization androuting-specific pedal behavior;preserve independent GT-Pro cursor andrequested footswitch-display priority."
   }
 }

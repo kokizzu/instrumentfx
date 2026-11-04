@@ -787,3 +787,5 @@ Pre-MKII [FM9 Turbo Output3 Boost/Pad](brand/FRACTAL-AUDIO.md#fm9-turbo) is a pa
 GT-Pro [external navigation andpatch-level steps](brand/BOSS.md#gt-pro--external-patch-navigation-and-level-steps) distinguish within-bank patch movement from bank commands and10/20-unit level changes. These do not resolve continuous global-FV assignment precedence oradd onboard preset footswitches.
 
 EX-4 [named PSA-S power evidence](brand/BOSS.md#ex-4--named-psa-s-power-requirements) now establishes9V DC centre-negative,500mA supply capacity versus300mA device draw. This narrows its compact profile;USB/battery operation,qualified Shopee hardware andall-route volume coverage remain unverified.
+
+H90 [automatic relay boundary](brand/EVENTIDE.md#h90): manual1.12.5 says Dual Routing automatically enables Path1 relay when no Presets use that path. Global P Out Gain assignment is documented, but attenuation of this physical bypass route remains unverified; it is not an unconditional all-routing volume guarantee.
