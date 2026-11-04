@@ -253,6 +253,7 @@ Checked2026-10-28: the [manufacturer’s own FAQ](https://www.sonicake.com/produ
 |---|---|
 | USB audio / second-source corroboration,2026-10-18 | The [official QME-200 page](https://www.sonicake.com/products/matribox-ii-pro) explicitly advertises multiple virtual USB interfaces,Loopback andRe-Amp,plusAUX recording. This corroborates those general Pro functions independently of the Japanese manual’s sibling-name wording;it does not confirm exact channel assignments or minimum firmware. The linked [English firmware1.2.2 manual](https://sonicake.oss-accelerate.aliyuncs.com/res/JIyz39IVZe/Matribox_II_PRO_Online_Manual_EN_Firmware_V1.2.2.pdf) could not be inspected:reader rejected38,640,860bytes as too large. No local download attempted;its contents remain unverified. |
 | Software / Windows11 notice conflict | The same page’s update notice requires a driver update first,while its FAQ describes an update/restoration hang after a Windows11 update,recommends Windows10/Mac/Windows10VM,and says avoid reconnecting to Windows11 until fixed. Preserve both instructions;no resolved fix,current OS-build compatibility or V5.57.1 driver cure is established. Driver version is a listing,not proof that either instruction is obsolete. No driver/update executed. |
+| Software / Windows11 linked driver procedure | Checked2026-11-04: the [exact QME-200 support page](https://www.sonicake.com/pages/matribox-ii-pro-software-firmware-1) links a [manufacturer eight-page Windows11 guide](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Windows_11_Stuck_Fix_Optimized.pdf?v=1779245787). It attributes update/restore,NAM/IR import andediting freezes toUSB-MIDI communication afterWindows updates. Device Manager→Sound,video andgame controllers→Update driver→manual selection→**USB Audio Device**,then reopen Manager/reconnect,isthe documented procedure. It explicitly covers Matribox-series devices while illustrating Pocket Master;not an inspected Pro screenshot. No exact Windowsbuild,driver-provider version,ASIO/DAW side-effect matrix orguaranteed cure supplied. Older FAQ workaround remains dated/conflicting copy;this narrows the previously unread driver guidance,not its compatibility scope. No setting changed ordriver/software downloaded. |
 
 
 | Field | Evidence / qualification |
@@ -299,6 +300,10 @@ New prices are individual official-store observations checked **2026-10-14**, no
 - **Power / battery / USB-powered** (Connections, power, applications and live use): **9V DC**, current/polarity ?; battery/USB bus operation not established
 - **Configuration apps** (Connections, power, applications and live use): Full editor **Windows/macOS**; USB audio Windows/macOS/iOS/Android
 - **Other practical features** (Connections, power, applications and live use): 90 s looper; 100 rhythms; **single linear chain, no scenes, not compatible with Matribox II presets**
+
+### Matribox II Pro — regional download revision boundary
+
+Checked **2026-11-04**: [global exact QME-200 index](https://www.sonicake.com/pages/matribox-ii-pro-software-firmware-1) labels firmware**1.2.2**,editor**1.3.1** andASIO**5.57.1**;the [German exact-model index](https://de.sonicake.com/pages/matribox-ii-pro-software-firmware-1) still labels firmware**1.1.4**,editor**1.1.0** andmanual**1.1.1** aslatest. These are conflicting regional index states,not installed-version evidence orproof ofdistinct compatible hardware. Preserve the original1.0.0-updater sequence andcover/body contradictions. No package retrieved. The fresh GeandPedalStore Shopee lead185899831/53119605320 has an exactPro title butno readable price/condition/stock;it isnot added asaqualified offer.
 
 ## Matribox II QME-100
 

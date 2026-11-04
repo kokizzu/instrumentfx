@@ -164741,5 +164741,25 @@
       "Current firmware/library,NAM import workflow,qualified hardware stock"
     ],
     "next": "Continue requested individual footswitch-display processors andcompact expression-volume unresolved sources;preserve GT-Pro andindependent general-model queues."
+  },
+  "matribox_ii_pro_win11_procedure_20261104": {
+    "checked_date": "2026-11-04",
+    "sources": [
+      "https://www.sonicake.com/pages/matribox-ii-pro-software-firmware-1",
+      "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Windows_11_Stuck_Fix_Optimized.pdf?v=1779245787",
+      "https://de.sonicake.com/pages/matribox-ii-pro-software-firmware-1"
+    ],
+    "finding": "Exact Pro index links family guide:Windows11 USB-MIDI freeze duringupdate/import/editing;manual genericUSB Audio Device selection. CoversMatribox series,illustratesPocketMaster;no fixperformed.",
+    "regional_conflict": "Globalfirmware1.2.2/editor1.3.1 vsGerman1.1.4/1.1.0/manual1.1.1;not hardware equivalence orinstalledversion.",
+    "market_lead": {
+      "url": "https://shopee.co.id/Sonicake-Matribox-II-Pro-Multi-Effects-Processor-i.185899831.53119605320",
+      "status": "ExactPro title indexed;clean directpageinaccessible;price,condition,bundle,stockunknown;notqualifiedoffer"
+    },
+    "remaining": [
+      "Exact Windowsbuild andASIO/DAW compatibility afterdriverchange",
+      "Currentmanualrevision/contents conflict",
+      "Qualifiedhardwarestock andprice"
+    ],
+    "next": "Continue requested display-first andcompactexpression modelgaps;preserve technicalGT-Pro andgeneralGP200JR/Prime/GE300 queues."
   }
 }
