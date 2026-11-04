@@ -590,7 +590,7 @@ Reviewed **2026-10-15**. Guitar/bass multi-effects; **medium**, no built-in expr
 | Processing | **12 simultaneous slots**, DSP-limited, with flexible serial/parallel dual chains. The numerical product specification lists **16 module types**, not 16 simultaneous effects; the [V2.5.0 manual lists18](#ampero-ii-stomp--v250-usb-and-bypass-source-boundaries), with revision mapping unresolved [P,M] |
 | Categories / library | Numerical product specification **460 effects including global EQ**; marketing says 400+, with 87 amps, 68 cabs, 100+ modeled pedals and 60+ original effects. These overlapping classifications are not added together. Full current category subtotals remain unverified [P] |
 | Presets | **300 editable locations = 100 banks × 3**. Older V1.0.2 manual says reset restores 99 preloaded factory patches; current factory-filled subset remains unverified. The 99 are not additional read-only slots [M,O] |
-| Scenes / practice | **Three scenes per patch** and drum machine documented in V2.0.0 manual; **60-second stereo looper**, undo/redo, tuner, analog/DSP bypass and trails. Drum-pattern count unverified. Old descriptions saying no drums predate this firmware [M,P] |
+| Scenes / practice | **Three scenes per patch** and drum machine documented in V2.0.0 manual; **60-second stereo looper**, undo/redo, tuner, analog/DSP bypass and trails. Drum-pattern count unverified. Old descriptions saying no drums predate this firmware [M,P]. [V2.5.0 global tempo and Initial/Wait bank recall](#ampero-ii-stomp--global-tempo-and-bank-selection-behavior) retain sync prerequisites and external/onboard control distinctions. |
 | Synth / acoustic | Acoustic effects/presets advertised; exact electric-to-acoustic and synth algorithm names not independently verified. An acoustic input mode is not itself an acoustic simulator [P] |
 | IR import | **50 user IR locations**, mono WAV, 24-bit/44.1 kHz, 1024/2048 samples. Twenty supplied Celestion IRs are separate from user capacity [P] |
 | NAM | **Native NAM A2 Lite with firmware 2.5.0 or later**, explicitly architecture-qualified in Hotone Japan's dated compatibility announcement. Do not describe this as arbitrary A2 Full or unrestricted NAM support [N] |
@@ -684,6 +684,17 @@ Checked **2026-11-05**, [manufacturer-authored V2.5.0 manual reproduction](https
 - **Count conflict:** V2.5.0’s specification says18 module types versus earlier product16; both retain12 simultaneous slots. No installed census or feature-introduction date is inferred.
 
 No files downloaded, drivers installed or device operated. Global expression-volume assignment and surviving-signal attenuation remain unresolved.
+
+### Ampero II Stomp — global tempo and bank-selection behavior
+
+Checked **2026-11-05**, manufacturer-authored [V2.5.0 manual body](https://www.scribd.com/document/1074310624/Ampero-II-Stomp-Online-Manual-EN-Firmware-V2-5-0-1785405982280), printed pp67–71; mirror text, not its generated description. Feature-introduction versions and installed behavior remain unverified.
+
+- **Live / tempo:** GLOBAL TEMPO replaces patch tempos, survives patch changes and is saved on shutdown. Effects need their Sync enabled; drums need DRUM SYNC. This does not establish global volume assignment.
+- **Live / bank selection:** default Initial recalls a patch immediately on bank change; Wait retains the current patch until a confirmation tap. The setting covers built-in and external switches.
+- **External control:** the shared EXP/CTRL socket accepts EXP1/2, Single FS or Dual FS modes. Single defaults to Tap Tempo; dual defaults to Bank−/Bank+. Assignable external Patch+/Patch− commands do not prove equivalent onboard sequential navigation.
+- **Clock limits:** Mixed accepts the latest internal/external clock; DIN Only or USB Only disables local Tap Tempo. Clock output ignores external clock input; DIN/USB-only input mode prevents clock output.
+
+No hardware operated. Drum-pattern count, global expression-volume scope and condition-qualified current hardware offers remain unresolved.
 
 ## Ampero Mini MP-50
 Current comparison summary, reconciled 2026-10-28 from the exact-model sources retained below. This does not certify current stock or every technical field. Earlier observations, revision conflicts and source bodies remain unchanged below.

@@ -165949,5 +165949,20 @@
     ],
     "next": "Continue exact Stomp effect-list and drum-pattern sources when accessible;defer failed officialmanual endpoint andpreserve independent queues/LCD priority",
     "active_inventory_unchanged": 402
+  },
+  "ampero_stomp_tempo_navigation_20261105": {
+    "checked": "2026-11-05",
+    "model": "Hotone::Ampero II Stomp MP-300",
+    "canonical": "brand/HOTONE.md#ampero-ii-stomp--global-tempo-and-bank-selection-behavior",
+    "source": "https://www.scribd.com/document/1074310624/Ampero-II-Stomp-Online-Manual-EN-Firmware-V2-5-0-1785405982280",
+    "revision": "Manufacturer V2.5.0 original body, printed67–71; no installed test or introduction-version claim",
+    "finding": "Global tempo persistence and sync prerequisites; Initial/Wait bank recall; external patch commands distinct from onboard navigation; MIDI clock input/output limits",
+    "remaining": [
+      "Drum-pattern count and current named effect census",
+      "Global expression assignment and output coverage",
+      "Current condition-qualified Shopee hardware offers"
+    ],
+    "next": "Continue exact Stomp drum/effect sources when accessible; prioritize new individual-footswitch-display evidence and preserve GT-Pro, expression-volume and independent general queues",
+    "active_inventory_unchanged": 402
   }
 }
