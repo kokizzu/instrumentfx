@@ -161038,5 +161038,27 @@
     ],
     "inventory_count_unchanged": 402,
     "next": "Continue requested separate-footdisplay models and accessible exact Shopee/profile gaps; preserve independent GT-Pro and expression-volume queues."
+  },
+  "stadium_song_cue_tempo_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Line 6::Helix Stadium XL Floor",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/performing-songs",
+      "https://manuals.line6.com/en/helix-stadium/live/global-settings",
+      "https://kb.line6.com/helix-stadium-1-4-release-notes"
+    ],
+    "revision": "Live1.4 mixed navigation; release page hardware1.4.2 Oct27 and Native1.4.1 Oct29 are separate; no installed firmware claim",
+    "canonical": "brand/LINE6.md#stadium-xl--song-cue-load-and-tempo-boundaries",
+    "finding": "Song cue and Play/Load/Load+Preset have distinct recall/playback semantics; song tempo following differs from storage; Count In remains future in manual despite controls/CC entries.",
+    "remaining": [
+      "Count In explicit shipped-status confirmation",
+      "Primary mains voltage/frequency/draw",
+      "Actual global analog-volume target and coverage",
+      "Auxiliary OLED numeric specifications",
+      "Qualified current exact XL hardware stock"
+    ],
+    "market": "Search repeats recorded Rockpizz XL asks; no new qualified offer.",
+    "inventory_count_unchanged": 402,
+    "next": "Continue accessible requested separate-footdisplay profiles and exact Shopee hardware; preserve GT-Pro and expression-volume queues."
   }
 }

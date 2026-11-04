@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): clarify FM9 bypass dry-path and mix controls'
+        message='research(line6): distinguish Stadium song cue and tempo scopes'
     print(git('commit','-m',message))
