@@ -150619,5 +150619,14 @@
       "Current2.7 equivalence"
     ],
     "next": "Next priority: exact separate-footswitch-display gaps and fresh Shopee hardware discovery;general GT-Pro andexpression queues preserved."
+  },
+  "m13_display_scene_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Line 6::M13",
+    "source": "https://line6.com/data/l/0a0600729b4f4af8b8d2e9557/application/pdf/M13_Advanced_Users_Guide.pdf",
+    "revision": "M13 v2.0 Advanced Guide ©2009,1•3/2•5/4•1;April2009 firmware1.07 introduction",
+    "finding": "Scene-specific setup fields versusGlobal Noise Gate heading preserved;LCD contrast suggestion versusrange;Dim affects LEDs;Latch Scene view sacrifices individual FX editing/bypass.",
+    "limits": "Grouped four-screen layout,not individualLCDperswitch;no current firmware certification,physical screen dimensions,global volume ornew IDR evidence.",
+    "next": "Continue priority separate-footswitch-display models andexact Shopee discovery;general GT-Pro andexpression-volume queues remain independent."
   }
 }
