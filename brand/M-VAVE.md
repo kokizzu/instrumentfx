@@ -229,6 +229,20 @@ Checked **2026-11-03** in the [manufacturer-hosted Chocolate Plus Software Instr
 
 These switch-message options establish neither continuous expression sweep norpotentiometer resistance,pinout orsimultaneous transport. No app,extension,firmware ordevice operation;controller remains outside active audio counts.
 
+### Chocolate — receiver routing is separate from wiring verification
+
+Checked **2026-10-28**: [Kemper administrator Burkhard,official post#5,19December2025](https://forum.kemper-amps.com/forum/thread/67053-kemper-player-m-vave-chocolate-and-lehle-dual-expression/),responding to a Player/Chocolate/Lehle Dual Expression setup,states that **DI Analog andDI Low output sources exclude the Volume Pedal path**. Location Off orRange0 also prevent its effect;the reply recommends checking MIDI channels andtesting the pedal directly atPlayer before diagnosing the sending controller. This is receiver-manufacturer control-path evidence,not M-VAVE electrical documentation.
+
+The user reported a50kΩ direct connection working butChocolate-mediated control failing;thethread provides no verified Chocolate pinout,calibration function orcontinuous CC sweep. Resolved status does not certify the complete setup. Do not recommend tip/ring swaps orassign resistance fromthe Lehle output labels. Current Chocolate manufacturer page again exposes onlya shell. Original/Plus revision,analog direction,pinout,resistance andsimultaneous transports remain unknown. MIDI conversion is still separate fromthe requested direct analog processor path.
+
+### Chocolate Plus — ten-page reseller-manual provenance boundary
+
+Checked 2026-11-03. A new [ten-page document reproduction](https://www.manualslib.com/manual/4522584/M-Vave-Chocolate-Plus.html) bears an exact Chocolate Plus title and host-equipped panel, but its software instructions point to **hoerevmusic.com**, and page10 identifies **Goods First Ltd / AISURPRISE Hong Kong** contact details. Manufacturer authorization, document revision and match to the user’s actual unit are not established. It must not be silently substituted for the previously recovered manufacturer-hosted hardware/software guides.
+
+The visible Pedal Jack label provides no tip/ring/sleeve roles, potentiometer resistance/taper or measured continuous CC range. Host-generated ASIN manuals and generic diagrams are also not electrical certification. The [current Sinco exact-product URL](https://www.sincoaudio.com/product?id=chocolate-plus) still exposes only a site shell in this reader. No new supported wiring or adapter conclusion follows.
+
+**Deferred until stronger evidence:** exact offered/owned controller identity, manufacturer electrical specification or reproducible identified-hardware sweep. Continue other inventory and primary-document tasks meanwhile;the overall research is not blocked. No download,installation,rewiring ordevice operation.
+
 ## CUBE BABY AC
 
 <!-- comparison evidence begins -->
@@ -1417,17 +1431,3 @@ Englishpp2–4 distinguish hand MASTER,covering instrument/drums/loop but exclud
 ### TANK-PRO — recovered revision and volume algorithm,2026-10-28
 
 The same39-page original mirror,Chinese printedp16 (PDFp36),explicitly gives **revision2026-06-12**,matching the date cited for the older70-page source;page-count/content identity remains unproven. Chinese printedp15 lists **Exp_Vol / Exp_Pan inside FX1/FX2**,supporting the documented preset-bound effect route rather than a universal master assignment. The dated copy therefore narrows source provenance without resolving newer PT/IP1/IP2 behavior. Manufacturer product search still gives only those labels;release-note endpoint remains inaccessible. Earlier uncertainty and70-page source retained.
-
-### Chocolate — receiver routing is separate from wiring verification
-
-Checked **2026-10-28**: [Kemper administrator Burkhard,official post#5,19December2025](https://forum.kemper-amps.com/forum/thread/67053-kemper-player-m-vave-chocolate-and-lehle-dual-expression/),responding to a Player/Chocolate/Lehle Dual Expression setup,states that **DI Analog andDI Low output sources exclude the Volume Pedal path**. Location Off orRange0 also prevent its effect;the reply recommends checking MIDI channels andtesting the pedal directly atPlayer before diagnosing the sending controller. This is receiver-manufacturer control-path evidence,not M-VAVE electrical documentation.
-
-The user reported a50kΩ direct connection working butChocolate-mediated control failing;thethread provides no verified Chocolate pinout,calibration function orcontinuous CC sweep. Resolved status does not certify the complete setup. Do not recommend tip/ring swaps orassign resistance fromthe Lehle output labels. Current Chocolate manufacturer page again exposes onlya shell. Original/Plus revision,analog direction,pinout,resistance andsimultaneous transports remain unknown. MIDI conversion is still separate fromthe requested direct analog processor path.
-
-### Chocolate Plus — ten-page reseller-manual provenance boundary
-
-Checked 2026-11-03. A new [ten-page document reproduction](https://www.manualslib.com/manual/4522584/M-Vave-Chocolate-Plus.html) bears an exact Chocolate Plus title and host-equipped panel, but its software instructions point to **hoerevmusic.com**, and page10 identifies **Goods First Ltd / AISURPRISE Hong Kong** contact details. Manufacturer authorization, document revision and match to the user’s actual unit are not established. It must not be silently substituted for the previously recovered manufacturer-hosted hardware/software guides.
-
-The visible Pedal Jack label provides no tip/ring/sleeve roles, potentiometer resistance/taper or measured continuous CC range. Host-generated ASIN manuals and generic diagrams are also not electrical certification. The [current Sinco exact-product URL](https://www.sincoaudio.com/product?id=chocolate-plus) still exposes only a site shell in this reader. No new supported wiring or adapter conclusion follows.
-
-**Deferred until stronger evidence:** exact offered/owned controller identity, manufacturer electrical specification or reproducible identified-hardware sweep. Continue other inventory and primary-document tasks meanwhile;the overall research is not blocked. No download,installation,rewiring ordevice operation.
