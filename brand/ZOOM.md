@@ -2168,6 +2168,18 @@ Checked **2026-11-01** in the [manufacturer B3n manual,©2016,Z2I-2783-01,printe
 
 No patch was saved orswapped. The known sold-out used listing remains historical;no newstock assertion. Exact-model searches didnot resolve the complete control census,physical headphone layout orOutputVP all-preset assignment. Generated image descriptions were excluded because the original manufacturer rear image could not be inspected;USB audio andpedal-wiring claims remain unchanged. No download ordevice operation.
 
+
+### B3n — firmware-qualified encoder, library and USB fixes
+
+Checked **2026-11-04** in the [manufacturer B3n firmware history](https://zoomcorp.com/documents/3428/B3n_System_Firmware_Version_History_ver220_en.pdf), **Z2I-3324-03**, one page. Exact B3n document, not the separately published G3n/G3Xn history.
+
+| Field | Release-specific finding / limit |
+|---|---|
+| Firmware / encoder and library | **2.00,April2018:** improves encoder operation and incorporates effects previously distributed online, alongside Guitar Lab3 and OutputVP support. It does not enumerate that incorporated set or establish the current installed total. No particular2017 starred effect is assigned an introduction version by inference. |
+| USB / editor connection fixes | **2.20,May2019:** fixes Guitar Lab EDITOR view sometimes being unavailable and USB connection becoming disabled after a period. These are manufacturer bug-fix claims, not measured host stability, USB audio support, a new audio-channel count or automatic compatibility with every later Guitar Lab version. |
+
+Startup displays the installed system version; no unit was inspected. OutputVP retained volume still does not prove all-preset insertion or output coverage. Primanada’s exact Shopee item remainsRp2.792.400,sold out,in a two-month cache;no new price/stock evidence. The used-item reopening failed,so its older historical observation remains. Panel counts and headphone-layout conflicts stay unresolved; no file downloaded or hardware operated.
+
 <!-- comparison evidence ends -->
 
 ### B3n — ambiguous B3/B3n hardware-title exclusion
