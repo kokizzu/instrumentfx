@@ -3457,6 +3457,21 @@ Checked **2026-11-04**. Exact bass multi-effects,distinct from ME-8;**outside th
 
 The [manufacturer-authored Spanish manual copy](https://www.casaveerkamp.net/archivos/ME-8B.pdf), ©1996 BOSS,38PDFpages,labels the relevant section as English-manual p24 (PDF27). **WAVE1–4** use an internal source following bass pitch/attack: saw orsquare,each with an octave-down variant. The manual explicitly requires single notes,muting other strings andthe preceding note,with a clear attack. **WAVE5–9** directly reshape the incoming waveform;their chord handling is unverified. **WAVE10** is volume-responsive touch wah,not a separate tracking synth. This readable original-body mirror supplements the unreadable primary English scan;translation/revision equivalence andinstalled firmware remain unverified.
 
+### ME-8B — original-manual hardware and pedal scope
+
+Checked2026-11-04 against the same [©1996 original-body Spanish copy](https://www.casaveerkamp.net/archivos/ME-8B.pdf), English-page references4,13–14,30,32–35. These findings supersede the corresponding earlier unknowns;translation equivalence remains qualified.
+
+| Field | Manual evidence / limit |
+|---|---|
+| Dimensions / mass | **422W×206D×55H mm;2.2kg excluding adapter**. |
+| Power | **14V AC,500mA**,supplied BRC-120/230/240 family. Not a9VDC specification;DC center polarity is inapplicable to this AC supply. Battery/USB operation unverified. |
+| Ports | INPUT;OUTPUT L(MONO)/R;stereo mini headphones;MANUAL REMOTE;TUNER REMOTE;EXPRESSION PEDAL;TEMPO IN;AC ADAPTOR. USB/MIDI/editor support unverified. |
+| Memory / processing | **32User+32Preset+Manual settings**;User groups initially duplicate Preset groups. Manual advertises23effects,up to13simultaneous;not a reconciled subtype census. |
+| Display | **Three-character,seven-segment LED**;not anLCD specification. Diagonal/color/touch unverified. |
+| External expression | EV-5 orFV-300L+PCS-33;ASSIGN(EXP.) saved per patch. FOOT VOLUME is before delay/reverb andpreserves their decay;heel-up can silence. Global assignment,adjustable range,headphone/bypass coverage andtoe switching remain unverified. |
+
+Remaining: separate control counts,built-in treadle confirmation,full processing census,IR/NAM/capture/editor evidence andqualified new/used Indonesian hardware offers. ExactShopee ME-8B/ME8B queries found no qualified offer;not proof ofabsence.
+
 No local download,dependency/software installation ordevice operation. Next: inspect originalmanual sections andfind exactIndonesian hardware offers before considering active admission;independent LCD/expression/general queues remain unchanged.
 
 ## ME-20

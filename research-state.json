@@ -159711,6 +159711,30 @@
       "finding": "WAVE1–4 pitch/attack-following internal source requires single notes/muting/clear attack;5–9 incoming waveform processing,chord handling unverified;10 touch wah.",
       "qualification": "Original manual body,not generated FAQ;primary English scan unreadable;translation equivalence/installed firmware unverified;partial lead remains outside402.",
       "next": "Complete remaining hardware/control/power profile andexact Indonesian hardware evidence;preserve independent queues."
+    },
+    "hardware_followup": {
+      "checked_date": "2026-11-04",
+      "source": "https://www.casaveerkamp.net/archivos/ME-8B.pdf",
+      "revision": "©1996 original-body Spanish copy;English reference pages4,13–14,30,32–35",
+      "dimensions_mm": {
+        "width": 422,
+        "depth": 206,
+        "height": 55
+      },
+      "mass_kg_excluding_adapter": 2.2,
+      "power": {
+        "voltage": 14,
+        "type": "AC",
+        "current_ma": 500,
+        "adapter": "BRC-120/230/240",
+        "dc_polarity": "inapplicable to AC supply"
+      },
+      "memory": "32User+32Preset+Manual settings;User factoryfilled duplicatesPreset",
+      "processing": "23headline/up to13simultaneous,not reconciled subtypecensus",
+      "display": "3character7segmentLED;diagonal/color/touch unverified",
+      "expression": "EV5/FV300L+PCS33;perpatchASSIGNEXP;FOOTVOLUMEpreDelayReverb preservesdecay;heelzero. Globalassignment/range/phones/bypass/toeunverified.",
+      "market": "ExactShopeeME-8B/ME8Bqueriesnoqualifiedoffer;noabsenceorpriceinference",
+      "next": "Separatecontrols,builtintreadle,fullcensus,IR/NAM/capture/editor,qualifiedIndonesianhardware;do notpromote partiallead. IndependentLCD/expression/GTProqueuespreserved."
     }
   }
 }

@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): distinguish ME-8B tracking synth and waveform modes'
+        message='research(boss): verify ME-8B AC power memory and pedal scope'
     print(git('commit','-m',message))
