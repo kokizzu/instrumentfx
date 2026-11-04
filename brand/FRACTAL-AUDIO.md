@@ -1876,6 +1876,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | IDR revision-unverified hardware | **Rp36.000.000**,Bersih Jaya Cleaning,KotaSurabaya,[shop1354606623/item43322190869](https://shopee.co.id/Fractal-Audio-Systems-FM9-MKI-i.1354606623.43322190869),four-month index checked2026-11-01;service unavailable. Same item has conflicting FM3-MKII-Turbo URL slug,two-month FM9MKI snapshot andstaleAugust6–8 delivery. Original/Turbo revision,condition,stock,working state,bundle,warranty,adapter andcheckout unknown. Excluded fromexact-revision new/used ranges;voucher compensation notdeducted. [Full conflict](#fm9-original--partial-lcd-discovery). |
 | Categories / Megatap | [November guide limits](#fm9-original--november-megatap-limits-and-texture-controls): 64 taps per block on FM9; two instances subject to DSP. Distinct from Multi-Delay and Plex; 22-type headline is not a complete named census. |
 | Categories / Graphic EQ | [November guide count conflict](#fm9-original--november-graphic-eq-count-conflict): 18 advertised versus16 variants described; four FM9 blocks, DSP permitting. Two variants remain unidentified. |
+| Categories / Ten-Tap Delay | [Two named types](#fm9-original--november-ten-tap-pattern-and-timing-boundaries): Ten-Tap Delay andRhythm Tap Delay;two FM9 blocks,DSP permitting. Repeat count,Decay andpattern feedback have different roles. |
 
 <!-- comparison evidence ends -->
 
@@ -2106,6 +2107,14 @@ Time, amplitude and pan patterns shape the repeats; random timing/level variatio
 Checked **2026-11-05**, [manufacturer November 2026 Blocks Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), printed pp3,53. The comparison advertises **18 Graphic EQ types** and permits **four FM9 instances**, subject to CPU. The detailed prose accounts for **16 variants**: eight combinations of 10/8/7/5 bands with Constant/Variable Q; five passive choices (5-band Mark,5-band,4-band,3-band,3-band Console); 4-Band JMPre-1; 7 Band Pedal; and 7 Band Bass Pedal. The two additional advertised types are not identified here; this is not a complete 18-name census or proof they are absent.
 
 Bands permit ±12dB adjustment. Master Q changes bandwidth across bands; this is a block parameter, not global volume assignment. These EQ choices do not establish synthesis. Current installed-version equivalence and introduction firmware remain unverified. Older category evidence is preserved.
+
+### FM9 original — November Ten-Tap pattern and timing boundaries
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed pp3,103–104](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). The complete type list is **Ten-Tap Delay;Rhythm Tap Delay**. FM9 permits **two instances**,subject to CPU;this is separate from Delay,Multi-Delay,Megatap andPlex.
+
+Ten-Tap sets **one toten echoes**,using Decay andindividual tap levels (**−80…+20dB**) rather than ordinary feedback toshape their level progression. Rhythm Tap uses the same algorithm with custom timing: milliseconds,rhythmic divisions,or**Learn** via ENTER. Its feedback repeats the whole pattern. It omits Ten-Tap’s Delay Time/Tempo,Number ofTaps,Shuffle andRatio controls. Tap times refer to the preceding tap,not ten absolute positions measured fromthe dry attack;the first Learn press represents the dry event. Mono mode permits twice the per-tap delay ofstereo,withoutan absolute maximum specified here.
+
+These are rhythmic delay capabilities,not tracking synthesis. Spillover remains configuration-qualified;introduction firmware,installed-version equivalence andglobal expression/tail coverage remain unverified. Older evidence preserved;no downloads ordevice test.
 
 ## FM9 Turbo
 

@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(sonicake): reconcile Pocket Master expression and USB levels'
+        message='research(fractal): document FM9 Ten-Tap pattern and timing limits'
     print(git('commit','-m',message))
