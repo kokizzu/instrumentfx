@@ -379,3 +379,13 @@ Checked **2026-11-04** against the [recovered manufacturer quick-guide PDF,Engli
 The extracted **EFFECT BLOCKS** portion names **19 processing entries**,excluding **NONE**: INST.SIM; SYNTH; OD; DYNAMIC; FILTER; AMP&CAB; AMP; DUAL CAB; MOD; FX; EQ; PITCH; DELAY; SPECIAL DELAY; REVERB; HQ REVERB; LEVEL; FX LOOP; CAB. This reconciles a named-entry list with the preserved19-module headline;it doesnot enumerate models within each category orcertify the current firmware menu. The separate **SAMPLE** label occurs elsewhere in the extraction;its relation to this list is unverified,andit isnot silently counted as a twentieth processing category. No **LOADER** label is established by this portion;that isnot a claim that current firmware lacks one.
 
 Inst.Sim/Synth remain distinct from amp/cab/sample workflows. Physical mini-screen census/technology,exact algorithms andnote handling,qualified Shopee hardware andcurrent-firmware equivalence remain unresolved. German panel rendering andthe maker page were inaccessible again;the earlier successful textual evidence remains. Partial lead stays outside active counts;no local download ordevice operation.
+
+### AXOM MAX — learned MIDI output controls and switch access
+
+Checked **2026-11-04**, [manufacturer German V1.7.4 manual,PDFpp40–43](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347). Original text;English endpoint inaccessible thispass.
+
+- Separate learned targets **Unbal Out Level,Phones Out Level,Bal Out Level** accept documented values0–127. Each corresponding **Global EQ** target enables/disables that output EQ;it doesnot edit every EQ band. Addresses are user-learned,not fixed CC numbers;the default learn list is empty.
+- **FS1–FS9** targets simulate the corresponding footswitch functions;separate RIG/SUBPATCH/STOMP/HYBRID andsix STOMP targets are documented. This extends remote control access without adding physical switches ormini displays. Numeric0–127 entries do not establish trigger thresholds,latching semantics orMIDI feedback.
+- Output MIDI targets are distinct from EXP1/EXP2/EXP3 parameter targets. They do **not** prove direct analog EXP3 global assignment,full-mute endpoints,source/tail/recorded-loop coverage,power-cycle recall orscreen technology. Those questions remain open.
+
+Partial lead remains outside active counts. No qualified exact Shopee hardware surfaced;no device operation,software download orMIDI command transmission occurred. Requested separate-screen research remains first priority.

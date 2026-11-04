@@ -183,3 +183,5 @@ Original FC-12 [switch timing and external-control details](brand/FRACTAL-AUDIO.
 AXOM MAX [manufacturer body/electrical ratings](brand/MELOFTY.md#axom-max--manufacturer-body-and-electrical-ratings) now supplement its partial profile;mini-screen technology remains unresolved.
 
 Helix Rack/Control [snapshot labels and navigation](brand/LINE6.md#helix-rack--spillover-trade-offs-and-snapshot-controls): ten-character snapshot names and selectable FS1/FS7 stepping do not add onboard Rack displays or switches.
+
+AXOM MAX [learned MIDI output andswitch targets](brand/MELOFTY.md#axom-max--learned-midi-output-controls-and-switch-access) address UNBAL/BAL/PHONES levels andsimulate FS1–FS9. They do not add physical displays orverify direct analog global-volume assignment;screen technology remains unresolved.
