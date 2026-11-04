@@ -160498,5 +160498,18 @@
     "scope": "Prime only; no firmware/device operations or local downloads. Shared main-screen labels are not additional OLEDs.",
     "active_inventory_unchanged": 402,
     "next": "Continue requested individual-switch-display physical fields and exact-model profile gaps; preserve GT-Pro/general,compact-expression andShopee queues. Prime auxiliary dimensions/current installed kits and numeric rig ceiling remain unverified."
+  },
+  "fm9_effect_switch_migration_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fractal Audio FM9 MKII Turbo",
+    "sources": [
+      "https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf",
+      "https://www.fractalaudio.com/fm9-downloads/"
+    ],
+    "revision": "Original cumulative12.00 notes,July7,2026; PDFp9 firmware9.0 andp26 firmware4.01",
+    "finding": "Conditional FC Effect-switch mapping migration and separate system-settings backward-compatibility boundary documented in canonical record.",
+    "scope": "Family software history; no MKII shipping-version inference, physical display specification or device test.",
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested individual-switch-display and exact-model gaps; GraphicEQ18-versus16 names unresolved. Preserve GT-Pro/general,compact-expression and exact-Shopee queues."
   }
 }
