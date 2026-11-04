@@ -165892,5 +165892,27 @@
     ],
     "next": "Continue MK-300 or Ampero II Stomp complete profile gaps; preserve individual-display priority and independent GT-Pro/general/expression queues",
     "active_inventory_unchanged": 402
+  },
+  "mk300_memory_sync_nam_20261105": {
+    "checked": "2026-11-05",
+    "model": "M-VAVE::MK-300",
+    "sources": [
+      "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf",
+      "https://www.cuvave.com/product?id=mk-300",
+      "https://www.cuvave.com/news-article?id=mefcs-tone3000"
+    ],
+    "findings": [
+      "Manual160 locations versus indexed product200 user;revision conflict retained",
+      "Built-in-only Sync;external position recall unsupported by this setting",
+      "Exact manufacturer NAM A2 support announcement;implementation/variants unverified"
+    ],
+    "next": "Continue MK-300 USB/looper/global-EQ and power details from current manual;Ampero II Stomp remaining full-profile gaps afterward. Preserve individual-display priority andindependent queues.",
+    "remaining": [
+      "160/200 firmware mapping",
+      "A2 variants/minimum firmware/concurrency/native-converted distinction",
+      "External global-volume assignment and output coverage",
+      "Current qualified offers"
+    ],
+    "active_inventory_unchanged": 402
   }
 }

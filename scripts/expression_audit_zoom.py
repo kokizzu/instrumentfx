@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(m-vave): document Cube Baby live groups and IR overwrite limits'
+        message='research(m-vave): qualify MK-300 memory, pedal Sync and NAM A2 claims'
     print(git('commit','-m',message))

@@ -817,14 +817,14 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 
 | Field | Preserved evidence / uncertainty |
 |---|---|
-| Expression / controls | Built-in pressure-operated A/B switching;external EXP. **8/4/16**,toe/rear power separate. |
+| Expression / controls | Built-in pressure-operated A/B switching;external EXP. [Sync is built-in Pedal1-only](#mk-300--memory-conflict-pedal-sync-and-nam-support-scope), not global assignment. **8/4/16**,toe/rear power separate. |
 | Screen / body | **3.5-inch color LCD**,touch ?. **330×175×55mm;approximately1550g**,large. |
 | Architecture / choices | **11 movable,DSP-limited;320+ models**. **120amps=85guitar+30bass+5acoustic;40drives;100cabs=65guitar+25bass+10acoustic**. Other category counts ?. |
-| Presets | **160 editable, 80 factory-filled**, not 240. |
+| Presets | Manual: **160 editable, 80 factory-filled**, not 240. Newer product page says **200 user presets**; [unresolved revision conflict](#mk-300--memory-conflict-pedal-sync-and-nam-support-scope). |
 | Synth / acoustic | Synth unverified; documented acoustic amps/cabs do not prove electric-to-acoustic simulation. |
 | Ports | 6.35mm TS input,two6.35mm outs,twoXLR outs,3.5mm phones/phone-recording,EXP,DINMIDI IN,USB-C. |
 | Power | **5000mAh/3.7V battery;USB5V/2A;350mA draw**. Charging versus battery-bypass operation unverified. |
-| IR / NAM | Mono WAV 24-bit/44.1 kHz, 1024/2048-point IR; proprietary AMP/DS import. Native NAM, converted NAM architecture limits and firmware-specific import workflow remain unverified. Do not transfer MK20 A2 announcements to MK300. |
+| IR / NAM | Mono WAV 24-bit/44.1 kHz, 1024/2048-point IR; proprietary AMP/DS import. Manufacturer’s October15,2026 announcement explicitly names **MK-300 NAM A2 support**; [exact scope below](#mk-300--memory-conflict-pedal-sync-and-nam-support-scope). Native/converted architecture variants, minimum firmware and concurrency remain unverified; do not transfer MK20 limits. |
 | Editor / firmware | M-EFCS Windows/macOS/iOS/Android; [official index](https://www.cuvave.com/appdownload), checked 2026-10-17, explicitly lists MK300 in desktop and mobile support. M-UPGRADE is a separate updater. Index retains v75 dated 2026-10-12 and warns that updating to v73 resets GLOB settings; preserve this update consequence. |
 | Firmware / routing limits | [Developer iOS changelog](https://apps.apple.com/us/app/m-efcs/id6470352068), v1.3.24 (2025-07-31), explicitly names an MK300 stereo-function addition. This is app evidence; device firmware threshold, affected modules and stereo USB/output routing remain unverified. The [MK300 firmware notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt) failed web retrieval with a Unicode decoding error on 2026-10-17. Updated algorithm counts, snapshots and native NAM cannot be inferred from the version number. |
 | Extras | **150s looper,128 rhythms**,USB audio/MIDI,loopback/reamp,Bluetooth audio/MIDI. |
@@ -832,6 +832,16 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 [Seven16879370/28884989446](https://shopee.co.id/M-VAVE-MK300-Effect-Digital-M-Vave-MK-300-Original-MVAVE-i.16879370.28884989446): **Rp2.699.000 body versus Rp2.830.000 snippet**,a conflict,not a range. [GITARO1458451429/24443292196](https://shopee.co.id/Efek-Gitar-Mvave-MK300-Effect-Digital-M-Vave-MK-300-Original-New-i.1458451429.24443292196),explicit New title,**Rp2.700.000** indexed. Used **?**;variant/color/stock/checkout unverified. Very lowRp239.500/Rp267.982 hits were excluded because hardware/accessory selection and legitimacy were unresolved;low amount alone does not prove fraud.
 
 Sources: [manufacturer manual](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf),original panel/spec checks printed3,9,20;[downloads](https://www.cuvave.com/appdownload),which listedV75 dated2026-10-12. A newer firmware entry does not re-certify every older manual value. Current model counts/import architectures,touch,power and prices remain to reconcile.
+
+### MK-300 — memory conflict, pedal Sync and NAM support scope
+
+Checked **2026-11-05**. The [manufacturer manual](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf),41 PDF pages, revision unstated, printedpp10,15–16,20, specifies **160 locations:1–60 guitar,61–80 bass,81–160 empty**. The factory80 can be reset separately from all160. These are contents within160 locations.
+
+The [manufacturer product page](https://www.cuvave.com/product?id=mk-300),three-week indexed snapshot, instead says **200 user presets**. Direct opening returns only the site shell. No firmware threshold or factory split reconciles this; do not silently replace160 oradd80 to200. Older320+ versus newer300+ headlines likewise do not certify an installed census.
+
+**Pedal Sync:** the manual limits immediate position reading after preset changes to **built-in Pedal1**,default Off;external **Pedal2 lacks Sync**. With Sync off, movement is needed before reading. This is position recall,not global target assignment. **Pedal State A/B**,although shown in Global Settings,is explicitly preset-specific. External global volume andoutput/tail/looper coverage remain unverified.
+
+The [maker’s October15,2026 TONE3000 announcement](https://www.cuvave.com/news-article?id=mefcs-tone3000),last-week indexed text, explicitly names MK-300 among NAM A2-supported devices anddescribes M-EFCS browsing/downloading/auditioning models. Direct page returns only the shell. This is stronger than borrowing a sibling announcement,but supplies no exact supported A2 variants,native-versus-converted implementation,minimum firmware/editor version,block allocation orsimultaneous-model limit. V75’s listing alone cannot fill those gaps. No software/model downloaded ordevice operated.
 
 <!-- comparison evidence ends -->
 
