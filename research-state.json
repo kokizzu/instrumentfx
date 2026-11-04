@@ -154493,11 +154493,11 @@
       {
         "key": "BOSS::GS-10",
         "canonical": "brand/BOSS.md#gs-10",
-        "synth": "Guitar Synth",
-        "pitch": "Tracking/polyphony unresolved",
-        "instrument": "Bass Simulator",
-        "qualification": "Electric-to-acoustic remains unverified",
-        "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index."
+        "synth": "Single-note Guitar Synth;Square/Saw generators vsBrass/Bow inputprocessing",
+        "pitch": "Pitch ShifterFast/Medium/Slow chords;Mono/Harmonist single-note",
+        "instrument": "ToneModify S→AC/H→AC electrictoacoustic;P→ACpiezo;BassSimulator avoidchords",
+        "qualification": "FX2alternatives;ToneModifyFX1;focusedoriginalmanualcheck,notfullmodelaudit",
+        "evidence_basis": "Original03342912,03-8-1N,©2003 BOSS manualbody,printed37,43–44,50–52;checked2026-11-04"
       },
       {
         "key": "Roland::GR-55",
@@ -161841,5 +161841,28 @@
     "market": "Same DailyMusicHabis andpedal_kabul unresolvedvariant;no newoffer",
     "active_inventory_unchanged": 402,
     "next": "Continue systematicno-treadle/profilegaps anddisplay-prioritynewprimaryevidence;preserveGTPro/general andconsolidationqueues"
+  },
+  "gs10_creative_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "BOSS::GS-10",
+    "source": "https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual",
+    "revision": "03342912,03-8-1N,©2003 BOSS;37,43–44,50–52",
+    "resolved": [
+      "Synthsingle-note;Square/Sawinternal vsBrass/Bowshaping;HoldSquare/Sawonly",
+      "ToneModifyelectrictoacoustic verified;piezo separate",
+      "BassSimulatoravoidchords",
+      "PitchShifterFastMediumSlowchords;Mono/Harmonistsinglenote",
+      "FX2alternativesnotallconcurrent"
+    ],
+    "remaining": [
+      "Currentfirmware/trackingperformance",
+      "GlobalFVrange/recall/routecoverage",
+      "InitialUserfill",
+      "Remainingcategorycensus",
+      "QualifiedexactIDR"
+    ],
+    "active_inventory_unchanged": 402,
+    "additional_index_unchanged": 59,
+    "next": "Continue accessible displaypriority andsystematicprofilegaps;preserveGTPro/general,expression andconsolidationqueues"
   }
 }

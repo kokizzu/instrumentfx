@@ -572,7 +572,8 @@ Normal-pickup OUTPUT MODE support from1.10 andGK Audio introduction1.20 remain d
 | Processing | **Up to11 simultaneous effects**, manufacturer brochure. Fixed COMP,OD/DS,PREAMP/SPEAKER,EQ,NS,FV,DELAY,CHORUS,REVERB plusFX1/FX2. Reorderable; alternatives do not add slots. |
 | Processing / category choices | **FX1:11;FX2:18**, full names below. Brochure **45 named preamps**,including Mic Preamp;manual Custom1–3 gives48 selectable definitions,consistent numerically with website48 but counting/revision basis not proved. **OD/DS22;WAH7** brochure;remaining subtype census unverified. |
 | Memory | **100 writable User U001–U100 +100 protected Preset P101–P200 =200**. Edited preset can save to User;initial User fill unverified. Unsaved edits lost on patch change. |
-| Synth / acoustic | Guitar Synth and Bass Simulator documented; normal guitar/bass input. Tracking/polyphony and electric-to-acoustic capability unverified. Mic input and Mic Preamp do not alone complete vocal-category qualification. |
+| Synth / acoustic | Guitar Synth explicitly single-note: Square/Saw internal generation versus Brass/Bow input processing. Tone Modify includes electric-to-acoustic S→AC/H→AC and separate P→AC piezo processing;Bass Simulator advises avoiding chords. [Exact original source scope](#gs-10--creative-tracking-and-instrument-simulation-boundaries). Normal guitar/bass input. Mic input and Mic Preamp do not alone complete vocal-category qualification. |
+| Pitch / note handling | Original manual: Pitch Shifter Fast/Medium/Slow accept chords; Mono uses single notes. Harmonist is single-note;two generated voices/stereo do not establish chord tracking. Guitar Synth,Bass Simulator andpitch alternatives share FX2,not simultaneous independent instances. |
 | Audio I/O | Guitar/bass input; alternative balanced XLR/¼-inch TRS mic sockets, **no phantom**; stereo RCA AUX and RCA output; guitar-amp out; PHONES; coax S/PDIF. |
 | Data / control | EXP/CTL1,2;MIDI IN/OUT;USB;AC input. Advanced USB exposes GS-10 Control and separate MIDI In/Out for DIN bridging. Do not transfer GT-Pro’s different MIDI restriction. |
 | Output ratings | Website nominal main/amp outputs **0dBu** versus manual/brochure **−10dBu**. Main impedance1kΩ,amp out1.5kΩ agree. No published headphone power/load established. |
@@ -661,6 +662,18 @@ Checked 2026-10-28 against the retained [original manufacturer manual](https://m
 | Standard-mode MIDI boundary | Factory Standard configuration is audio-only. P80 offers **Std.Drv Func=Audio&MIDI** only with a compatible OS driver,while warning of unsupported/problematic manual-era Windows/Mac drivers. Later installation tables require Special mode for MIDI. Conditional menu availability is not a guarantee that Standard MIDI works on a current host. |
 
 Historical instructions only;no current-driver certification,installation,download orhardware test. Preset backup/control messages do not establish IR,NAM orcapture imports. Those import capabilities and modern host support remain unverified. GS-10 remains outside active counts.
+
+### GS-10 — creative tracking and instrument-simulation boundaries
+
+Checked **2026-11-04**, [manufacturer-authored original manual reproduction](https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual), **03342912,03-8-1N,©2003 BOSS**,printedpp37,43–44,50–52. Exact title/copyright/chapter identity verified;host-generated overview/FAQ excluded. Official static PDF endpoint inaccessible;no installed-firmware ortracking-quality test.
+
+**Guitar Synth requires single notes**,with other strings muted andclear attacks. **Square/Saw** generate internal waveforms fromdetected pitch/attack;**Brass/Bow** shape inputaudio. Hold applies only toSquare/Saw;four waveform choices are notfour-note tracking.
+
+**Tone Modify S→AC/H→AC** processes single-coil/humbucker electric tones into acoustic-guitar tones;**P→AC** separately treats piezo input. Hollow-body modes andBass Simulator aredistinct;the latter advises avoiding chords. These are effects,not acoustic IR loading.
+
+**Pitch Shifter Fast/Medium/Slow accepts chords;Mono doesnot. Harmonist requires single notes** despite one/two-voice mono/stereo outputs. Synth,Harmonist,PitchShifter andBassSimulator compete forFX2;ToneModify occupiesFX1. Availability isnot simultaneous access toallthesechoices. Older sourceunknowns are superseded only forthese exact capabilities.
+
+Shopee searches yieldedno qualified exact GS-10 hardware;no absence orprice claim. Global FV endpoints/recall/outputcoverage,initialUserfill,modernsoftware andremaining subtypecensus stayopen. No download,device operation orownership assertion.
 
 ## GT-1
 
