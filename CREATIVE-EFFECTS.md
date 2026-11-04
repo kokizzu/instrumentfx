@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **62 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **63 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -108,6 +108,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [Behringer Bass V-AMP PRO](brand/BEHRINGER.md#bass-v-amp-pro) | SYNTH three-voice/nine variants;MIDI SYNTH separate | ULTRABASS sub-octave;chord handling unverified | PIEZO SIM electric-to-acoustic;pickup EQ separate | [Focused v1.2 synth check](brand/BEHRINGER.md#bass-v-amp-pro--audio-synthesis-versus-midi-triggering);VOICE BOX,VCF+Flanger;shared post-effect choices;not full fresh audit |
 | [Lexicon MX300](brand/LEXICON.md#mx300) | Dedicated synth unverified | Chromatic Pitch Shift;Detune;individual-note recommendation | Dedicated acoustic simulation unverified | [Rev E pitched-feedback distinctions](brand/LEXICON.md#mx300--chromatic-pitch-note-handling-and-pitched-repeats);Repeat Hold separate;route-dependent engine limits;not full fresh audit |
 | [Zoom RFX-1000](brand/ZOOM.md#rfx-1000) | External-carrier Vocoder; internal synth unverified | Discrete detune/pitch through ±1octave; chord support unknown | Mic/Cabinet simulation is distinct from acoustic conversion | [Original pitch controls](brand/ZOOM.md#rfx-1000--pitch-intervals-and-additional-exact-hardware-offer); Ring Mod,Resonance,Lo-Fi; one bank selection,not full fresh audit |
+| [Zoom B2](brand/ZOOM.md#b2--creative-algorithms-and-synth-routing) | STDSYN;SYNTLK;single-note MONO SYN | Pitch Shifter;Pedal Pitch;Harmonized Pitch | DEFRET | Ring/filter/Step; synth-specific dry-path routing; original manual,not full fresh audit |
 
 ## Separately recorded partial leads
 

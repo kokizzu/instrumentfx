@@ -1327,7 +1327,7 @@ Original bass multi-effects; partial, checked2026-10-18. Distinct fromB2.1u/B2 F
 | Display | Two-digit7-segmentLED plusparameterLEDs;diagonal/color/touch unverified. |
 | Processing / categories | **47 types;maximum9 simultaneous modules**. Manual-derived category count: **COMP/LIMIT2,WAH/EFX8,DRIVE/SYNTH16,ZNR/MIX1,LO EQ2,HI EQ2,MOD/SFX10,DELAY3,REVERB3=47**. Drive/synth comprises13 amp/stomp simulations+3synth types. Counts exclude Off andparameter variations;one selected type per module,not47 simultaneous. [Own manual pp23–29](https://zoomcorp.com/media/documents/E_B2.pdf). |
 | Memory | **40 user+40 read-only presets=80**. UserA0–d9 initially duplicates preset00–39; all40 user slots factory-filled. All Initialize overwrites user edits with originals. [Own manual p20](https://zoomcorp.com/media/documents/E_B2.pdf). |
-| Synth / acoustic | StandardSynth,SynthTalk andmonophonic MonoSynth documented. **ACOUSTIC models the Acoustic360 bass amplifier**,not acoustic-guitar simulation. Dedicated acoustic simulation remains unverified. [Own manual pp25–26](https://zoomcorp.com/media/documents/E_B2.pdf). |
+| Synth / acoustic | StandardSynth,SynthTalk andmonophonic MonoSynth documented;other synth chord handling unverified. [Creative pitch and synth routing limits](#b2--creative-algorithms-and-synth-routing) distinguish MOD/SFX alternatives andoriginal-signal processing. **ACOUSTIC models the Acoustic360 bass amplifier**,not acoustic-guitar simulation. Dedicated acoustic simulation remains unverified. [Own manual pp25–26](https://zoomcorp.com/media/documents/E_B2.pdf). |
 | Dimensions / mass | **156W×162D×65H mm;700g without batteries**. |
 | I/O | Mono input,shared stereo line/headphone output,CONTROL IN,DC: complete rear-panel inventory inown manualpp6–7. Stereo output can feed headphones or twoamps viaYcable. **No USB orMIDI socket listed**;B2.1u connectivity mustnotbe borrowed. [Manual](https://zoomcorp.com/media/documents/E_B2.pdf). |
 | Power | AD-0006 **9VDC300mA center-negative** supply rating;drawunknown.4AA alkaline approximately7.5h;USBpower unverified. |
@@ -1344,6 +1344,19 @@ Original bass multi-effects; partial, checked2026-10-18. Distinct fromB2.1u/B2 F
 ### B2 — patch assignment and bypass-volume exception
 
 Checked 2026-10-19 against [own original manual p19](https://zoomcorp.com/media/documents/E_B2.pdf). CONTROL → parameter knob1 selects VL for volume; expression function is saved individually in each patch. No global expression override established. The footswitch function applying to all patches is a separate FS01 setting. **During bypass, expression always controls volume regardless of target.** Position, minimum/maximum and recall remain unknown; headphone, tail and rhythm/looper attenuation are unverified. Shared stereo OUTPUT accepts headphones. Existing 156 W ×162 D mm dimensions fail the depth preference. Bass is documented; guitar suitability remains unclassified. Onboard patch selection exists; exact numerical down/up mapping not reverified. B2.1u and B2 FOUR behavior is not transferred.
+
+### B2 — creative algorithms and synth routing
+
+Checked2026-11-04: [original manufacturer English manual](https://zoomcorp.com/media/documents/E_B2.pdf),undated,printed21,24–29;not B2.1u/B2 FOUR or installed-firmware certification.
+
+| Capability | Exact-model distinction |
+|---|---|
+| Synth | **STDSYN**,**SYNTLK**,**MONO SYN**. Mono Synth explicitly tracks single notes;its saw/square/PWM variations are not voice counts. Other synth input polyphony remains unverified. |
+| Pitch | **PITCH SHIFTER** offers −12…−1,detune,+1…+12,+24 semitones;not a continuous range through+24. **PEDAL PITCH** and key/scale-based **HARMONIZED PITCH SHIFTER** are alternatives in MOD/SFX;their chord handling remains unverified. |
+| Instrument / special | **DEFRET** gives fretless-like processing;**OCTAVE**,**RING MODULATOR**,**AUTO RESONANCE FILTER** and **STEP** are distinct effects,not additional synth engines. Acoustic360 remains amp modeling. |
+| Synth routing | With any of the three synths selected,**COMP/LIMIT and WAH/EFX at bF affect only the original signal after DRIVE/SYNTH,not the synth sound**. Do not assume ordinary serial processing of the synthesized signal. |
+
+Tracking quality and latency remain unmeasured. Existing expression,hardware and exact used/new Shopee gaps remain open;inventory and instrument membership are unchanged.
 
 ## B2 FOUR
 
