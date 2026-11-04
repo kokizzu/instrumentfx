@@ -711,6 +711,14 @@ Checked 2026-10-28: [original manufacturer manual 18-6360-A](https://digitech.co
 
 Compressor attack 1–3 and AutoSwell A1–A9 are parameter variants, not extra independently usable blocks. Acoustic simulation is in the amp/guitar selector. No dedicated synth identified in this complete named menu; import/editor support remains unverified. Shopee searches for RP100/RP 100 yielded no qualified exact Indonesian offer; availability remains unknown.
 
+### RP100 — pitch modes and expression trade-offs
+
+Checked **2026-11-04**, [original manufacturer18-6360-A,August2000,printedpp19,22–25](https://digitech.com/wp-content/uploads/2025/07/Digitech_RP100_UsersGuide.pdf); originalRP100 only,not Artist/RP100A.
+
+**Pitch Shift (Pt)** mixes shifted anddry audio;displayed interval **−12…+24**,effect level0–99. **Detune (dt)** has displayed Amount **−12…+12**,without an explicit cents unit in this passage;do not label it semitones. **Whammy (bd)** has **15 selections: eight wet-only bends andseven dry-added Harmony Bends**. Wet-only includes upward one/two octaves,downward intervals throughsix octaves,andone reversed-pedal-action choice. These are mode choices,not15 simultaneous voices orscale-aware harmony. Input-note polyphony andtracking quality remain unverified.
+
+All three share the single FX row. AutoYah combines wah/flanger-like vowel processing;Envelope Filter follows attack strength. Neither establishes a tracking synthesizer. Enabling Whammy redirects external control away fromvolume;Wah also haspriority when enabled. No fixed all-preset volume lock is established. Passive-volume-pedal output connection doesnot establish resistance orTRS pinout. Fresh exact Shopee searching yielded no qualified RP100 hardware;partial lead stays outside402. No download ordevice operation.
+
 ## RP150
 
 Guitar multi-effects;partial,checked2026-10-18. Distinct fromRP155/RP250. [Manufacturer product](https://digitech.com/dp/rp150/),[own manual RevB](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf),printedpp6–11,38–39.

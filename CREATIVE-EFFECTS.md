@@ -143,6 +143,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Zoom G9.2tt](brand/ZOOM.md#g92tt--original-category-reconciliation-and-creative-pitch-limits) is a **partial lead outside active counts and the additional-record index**. Its original pitch, acoustic-simulation and special-processing distinctions are recorded; dedicated synthesis and general chord handling remain unverified.
 
+[DigiTech RP100](brand/DIGITECH.md#rp100--pitch-modes-and-expression-trade-offs) remains a **partial lead outside active counts and the additional-record index**. Its own manual distinguishes Pitch Shift,Detune and15 Whammy modes;polyphony is unverified. Acoustic simulation shares the amp selector;AutoYah/filter processing is distinct from synthesis. External-volume control yields toWah/Whammy.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.
