@@ -64,6 +64,17 @@ Derived **38 type/mode entries**, excluding boost, volume, tuner and external lo
 
 **Pitch Shifter:** two voices, each±1200cents, independent0–350ms delay. Octaver adds one voice one or two octaves up/down; Whammy offers one- or two-octave ranges. Voice counts do not prove chord tracking. Resonant/formant filtering is not verified synthesis; dedicated synth/acoustic simulation remains unverified. Current-firmware census/performance untested. Partial lead stays outside active counts; no download or device operation.
 
+### G-System — software4.0 additions and parallel dry-path boundary
+
+Checked **2026-11-04**, manufacturer **G-System Addendum for Software4.0,E60520011**, [Music Tribe CDN original, four pages](https://cdn.mediavalet.com/aunsw/musictribe/JfPLzmU3k0CqC-CT7YHkug/PQ4M2SccGE-ENfZX_RRZZQ/Original/tc_electronic_g-system_manual_addendum_english.pdf). The older service-host link failed502. No firmware installed or downloaded.
+
+- **Vintage Univibe (MOD)** and **Modern Univibe** have distinct voicing. Attack/Release each0.05–5s; Direct bypass stops immediately, Delayed slows according to Release. The printed Speed range **150Hz–10kHz** is anomalous; actual rate/units remain unresolved, not silently corrected.
+- **Doubler (PITCH)** uses3–60ms delay on selectedL/R andPitch−20…+20 (unit unstated). This simulates timing/pitch differences, not another synthesizer or verified chord tracker.
+- **Kill Dry** removes G-System’s direct component and changes algorithmMix controls toWet. In an external parallel setup, an unprocessed branch can bypass G-System; processor volume doesnot establish attenuation ofthat branch.
+- **Serial2** applies modulation to delay repeats only, preserving the dry signal from that modulation. This is routing, not another simultaneous MOD block.
+
+Keep these4.0 additions separate from the original38-entry census. Current complete inventory,installed version andfull output coverage remain unverified;no firmware introduction date inferred from a video upload. Partial lead stays outside active counts.
+
 ## M100
 
 Checked 2026-10-17; partial. Guitar/vocal instrument and mixer-path processor; direct microphone preamp/phantom and bass suitability unverified. Ownership unknown.

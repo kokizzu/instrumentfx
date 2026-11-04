@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(tc-electronic): inventory original G-System processing choices'
+        message='research(tc-electronic): qualify G-System 4.0 effects and dry routing'
     print(git('commit','-m',message))

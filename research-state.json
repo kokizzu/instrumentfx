@@ -163480,5 +163480,27 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue accessible G-System profile/currentrevision andmarket gaps;preserve individual-footdisplay priority andgeneralGT-Pro/expressionqueues."
+  },
+  "gsystem_40_addendum_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/JfPLzmU3k0CqC-CT7YHkug/PQ4M2SccGE-ENfZX_RRZZQ/Original/tc_electronic_g-system_manual_addendum_english.pdf",
+    "revision": "Software4.0 addendum,E60520011,fourpages",
+    "canonical": "brand/TC-ELECTRONIC.md#g-system--software40-additions-and-parallel-dry-path-boundary",
+    "findings": [
+      "Vintage/ModernUnivibe separate fromoriginalcensus;Direct/Delayed bypass",
+      "DoublerPITCH3–60ms;Pitchunitsunstated",
+      "KillDry andSerial2routing;externalparallel drybranch notglobalvolume proof"
+    ],
+    "source_anomaly": "Univibe Speed printed150Hz–10kHz;notcorrected orvalidated",
+    "remaining": [
+      "Currentcompletefirmwareinventory",
+      "IntelligentPitch additionversion",
+      "Univiberateunits",
+      "Currenteditor/OS",
+      "QualifiedexactShopeeoffers",
+      "Everyroutevolumeattenuation"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue accessible G-System latermanual/currentrevision andmarket evidence;preserve individual-footdisplay priority andindependent GT-Pro/expressionqueues."
   }
 }
