@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(line6): qualify Stadium Floor dimensions and shared pedal controls'
+        message='research(line6): resolve Stadium Floor user storage and connector scope'
     print(git('commit','-m',message))

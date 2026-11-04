@@ -792,6 +792,22 @@ Checked **2026-11-04**. [Yamaha Singapore’s exact Floor table](https://shop.sg
 
 The controller page’s introductory EXP2-to-EXP2 phrase conflicts with its detailed EXP1/EXP2 setup;the latter is quoted here without silently correcting the source. Global Settings separately labels Main LCD Brightness. Exact power input rating,full connector profile,creative/category census,volume endpoints/bypass/tails/looper coverage andqualified IDR offers remain open. No download,wiring ordevice test;partial lead stays outside402 active models.
 
+### Stadium Floor — user storage and rear-panel scope
+
+Checked **2026-11-04**, exact family manual with explicit non-XL distinctions; live navigation v1.4/Rev D. These primary chapters narrow the earlier partial unknowns. Installed firmware and physical operation remain untested.
+
+| Field | Manufacturer documentation / practical boundary |
+|---|---|
+| Memory / factory versus user | [Presets chapter](https://manuals.line6.com/en/helix-stadium/live/presets): **512 initially empty USER PRESETS locations**, plus a separate read-only FACTORY PRESETS folder whose count can change with firmware. Factory presets can be copied into user locations. Therefore512 is not a verified combined factory+user total. |
+| Memory / setlists | Same chapter: **up to122 setlists,1–128 aliases each**. They point to existing user presets; edits propagate, deleting the user preset clears its aliases, while clearing an alias leaves the original intact. The earlier Yamaha128-setlist parenthetical remains a source conflict, not extra independent storage. |
+| Processing / simultaneous ceiling | [Dynamic DSP](https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp): four12-location branches total **48**, limited by DSP. Each primary Path1/2 has its own DSP. Up to four Amp/Preamp, four Cab and four Clone blocks per preset, each group maximum two per primary path. Cab blocks can each hold two cabs/IRs. These ceilings are not a guarantee all fit together. |
+| Processing / special limits | Same chapter: combined Feedbacker,Poly Sustain,Poly Detune,Poly Pitch/Wham/Capo and12 String group **two per preset,one per primary path**; **one Looper of any type**. Do not transfer this Stadium rule to HX Effects. |
+| I/O / non-XL analog connectors | [Rear panel](https://manuals.line6.com/en/helix-stadium/live/rear-panel): one instrument input;XLR mic input with48V phantom andvariable low-cut;two quarter-inch Sends andtwo Returns;XLR andquarter-inch Main L/Mono+R pairs;stereo Phones;one Control A/B. Sends are impedance-balanced,Returns unbalanced. Returns1/2 can instead be always-on Aux inputs,unprocessed by the current preset. Normal analog instrument input is supported. |
+| I/O / digital and power connectors | Same rear chapter: RCA S/PDIF In/Out uses75Ω coax;5-pin MIDI In andOut/Thru;Nexus;microSD;USB-A forEthernet adapter;USB-C forcomputer audio/MIDI/editor/updates;grounded IEC AC inlet andpower switch. Security lock is separate. No USB-powered operation orpower-voltage rating established. |
+| Storage / microSD requirement | Rear chapter explicitly says **sold separately**,required andformatted forShowcase Songs/Backups,inserted before power-on andkept inserted. This strengthens the current-manual side ofthe earlier included-card conflict;it doesnot identify a seller bundle. |
+
+Aux audio outside the current preset is not proven tofollow a Volume block. Phones has its own selected output-volume control;analog EXP coverage ofeither path remains unverified. Full electrical specifications,power label,creative/category census,current factory filling andqualified Shopee hardware remain open. Partial lead remains outside active counts;no download,import,formatting ordevice test.
+
 ## Helix Stadium XL Floor
 
 <!-- comparison evidence begins -->

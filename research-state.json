@@ -164034,5 +164034,35 @@
     "market": "Exact Shopee non-XL search returned no qualified offer;not market absence",
     "active_inventory_unchanged": 402,
     "next": "Prioritize checking Yamaha-table XL OLED diagonal against current XL evidence,then remaining non-XL fields;preserve GT-Pro/general andexpression queues"
+  },
+  "stadium_floor_storage_io_20261104": {
+    "checked": "2026-11-04",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/presets",
+      "https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp",
+      "https://manuals.line6.com/en/helix-stadium/live/rear-panel"
+    ],
+    "revision": "Live v1.4/RevD navigation;explicit non-XL connector distinctions",
+    "canonical": "brand/LINE6.md#stadium-floor--user-storage-and-rear-panel-scope",
+    "user_slots": 512,
+    "user_initial_state": "Empty;factory folder separate,variable count",
+    "setlists": {
+      "maximum": 122,
+      "aliases_each": "1–128",
+      "independent_preset_copies": false
+    },
+    "block_capacity": 48,
+    "scope": "DSP ceilings andconnector roles documented,not measured concurrency",
+    "remaining": [
+      "Exact electrical power/input-output specifications",
+      "Creative algorithm/category census",
+      "Current factory content count",
+      "Global direct EXP target/endpoints/recall/output/bypass/tail/looper coverage",
+      "Qualified exact Shopee new/used hardware"
+    ],
+    "known_xl_check": "Nominal1.75in/4.45cm strip size already recorded;axis remains unspecified,not a newly solved diagonal",
+    "market": "No qualified exact non-XL Shopee result;not market absence",
+    "active_inventory_unchanged": 402,
+    "next": "Continue remaining non-XL creative/current-library andpower evidence whenaccessible;preserve requested individual-display priority andGT-Pro/general/expression queues"
   }
 }
