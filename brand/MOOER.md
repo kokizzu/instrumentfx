@@ -1756,7 +1756,7 @@ Official Japanese PDFs failed to load or exceeded the retrieval limit; the mirro
 | External expression |One EXP2 TRS socket; manual supports 10k–100k pedals. The same socket alternatively switches an external compatible amplifier; do not count two simultaneous connections |
 | Expression / external toe boundary | Original manual pp89–90: **EXP2 has the same assignment functions asEXP1 butdoes not support its toe-down switch**. TRS cable and10k–100k pedal required;calibration precedes assignment. No tip/ring/wiper pinout orglobal volume scope is specified here. |
 | I/O / amplifier-control compatibility | EXP2 instead becomes **EXT CTRL output** witha mono cable;assign CTRL toEXT CTRL andselect latching/momentary for the amp. Maker restricts it to **short-to-sleeve inputs ontraditional dual-channel amps**,warns other inputs can damage both devices,anddoes not guarantee all compatible-looking amps. This is switching output,not analog expression input inparallel,an audio port orMIDI. [Original manual pp89–90][M] |
-| I/O / USB MIDI and driver provenance | Rechecked **2026-11-05**: [exact GE300 manufacturer launch article](#ge300--chinese-manufacturer-usb-midi-and-display-evidence) explicitly supports MIDI overUSB;this feature is documented,whilecurrent message routing andUSB-host behavior remain unverified. [Exact-model download index](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) lists **MOOER_USBAudio5.70.0**,separate fromStudio5.1.4 Win/Mac packages;OS/architecture requirements andinstalled versions unverified. |
+| I/O / USB MIDI and driver provenance | Rechecked **2026-11-05**: [exact GE300 manufacturer launch article](#ge300--chinese-manufacturer-usb-midi-and-display-evidence) explicitly supports MIDI overUSB;this feature is documented,whilecurrent message routing andUSB-host behavior remain unverified. [Exact-model download index](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) lists **MOOER_USBAudio5.70.0**,separate fromStudio5.1.4 Win/Mac packages;[Regional driver-list mismatch](#ge300--regional-usb-driver-list-mismatch) remains unresolved; OS/architecture requirements andinstalled versions unverified. |
 | Rotary knobs |**9**: three independent master output knobs (XLR/headphone/jack), SELECT encoder, five parameter knobs |
 | Footswitches |**10**: four CTRL, four A–D and bank up/down; assignable LED colors |
 | Buttons |**23** separate front buttons: 15 module, six menu (DISPLAY/GLB-EQ/CTRL/SYSTEM/SAVE/EXP), two page arrows. SELECT push and rear power switch are separate |
@@ -2068,6 +2068,14 @@ Checked **2026-11-05**, [original manufacturer manual,2019,printed15,53](https:/
 | I/O / loop mixing | Send/Return levels each **−60…+6dB**;Parallel Dry/Wet **0–100**. Fully wet follows theexternal loop;fully dry bypasses it. Output mode **Mono/Stereo/Auto**;Auto selects stereo wheneither right Send orReturn isconnected. Send/Return positions save per preset. These are loop controls,not global expression-volume assignment orproof ofall-output mute. |
 | Routing / contradictory loop order | Printed53 says **Return before Send**;printed15’s four-cable example instead places **Send before AMP andReturn after CAB**. Preserve the internal contradiction;neither establishes a universal current ordering rule. The Send Level explanation also incorrectly describes low-frequency tone,whileits parameter name anddB range identify alevel control. No hardware resolution inferred. |
 
+
+### GE300 — regional USB-driver list mismatch
+
+Checked **2026-11-05**, exact original GE300 manufacturer downloads, not Lite. The [Chinese page](https://cn.mooeraudio.com/companyfile/GE300-%E4%B8%8B%E8%BD%BD%E4%B8%AD%E5%BF%83-31.html) was readable as indexed original text; direct reopening failed. Its file list names **MOOER_UsbAudio_V5.58.0**, while its recording-driver guidance names **MOOER_USBAudio_V5.70.0_Setup**. The [English exact-model page](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) separately lists **5.70.0**.
+
+This is a regional page/content mismatch, not evidence that either archive was inspected, that5.58.0 is required for a particular firmware, or that5.70.0 is the newest compatible release. The Chinese guidance distinguishes the USB audio driver from recording software: audio recording still requires a separate recording application. It does not establish a new editor function or driver support for every OS/architecture.
+
+Preserve the older Win7/8/10 and macOS10.10–10.15 listing as historical qualification; no current OS certification follows. Exact package contents,checksums,installed versions andregional-build equivalence remain unverified. No file downloaded,driver installed ordevice operated.
 
 ## GE300 Lite
 

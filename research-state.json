@@ -166264,5 +166264,23 @@
     ],
     "next": "Original MOOER GE300 next in independent GP-200JR→Prime→GE300 queue; preserve requested footswitch-display, expression and GT-Pro priorities",
     "active_inventory_unchanged": 402
+  },
+  "ge300_regional_driver_mismatch_20261105": {
+    "checked": "2026-11-05",
+    "model": "MOOER::GE300",
+    "canonical": "brand/MOOER.md#ge300--regional-usb-driver-list-mismatch",
+    "sources": [
+      "https://cn.mooeraudio.com/companyfile/GE300-%E4%B8%8B%E8%BD%BD%E4%B8%AD%E5%BF%83-31.html",
+      "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html"
+    ],
+    "access": "Chinese indexed original text readable; direct reopening failed. English current exact-model index readable.",
+    "finding": "Chinese file list5.58.0 vs recording guidance5.70.0; English lists5.70.0. Packages not inspected; no required/latest compatibility inference.",
+    "remaining": [
+      "Package contents and OS/architecture compatibility",
+      "Current factory fill, Sub-Patch count and firmware-qualified category census",
+      "Qualified current Shopee condition/stock"
+    ],
+    "next": "Independent GP-200JR→Prime→GE300 follow-up cycle published; continue unresolved requested footswitch-display models and fresh exact Shopee discovery, preserving expression-volume and GT-Pro queues",
+    "active_inventory_unchanged": 402
   }
 }
