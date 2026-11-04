@@ -209,7 +209,7 @@ Reviewed **2026-10-14**. **Partial**, eligible guitar multi-effects; original GE
 | Screen | **3.5-inch color**. Explicit touchscreen specification **?**; knob navigation is not conclusive negative evidence [P,Q] |
 | Dimensions / weight | Published **255.7 × 144 × 53.5 mm; 760 g**. Width/depth labels and maximum pedal-up height not established in retrieved text. Fails the200×140 compact test in either horizontal orientation; strict medium/large classification remains pending axis confirmation [MOOER-GE100-PRO-P] |
 | Blocks / library | **9 modules**; flexible order and repeated module loading advertised. Page says **200+** in specifications and **240+** in introduction, not an exact counted library. April2026 appendix counts246 filled entries separately from40 empty sample positions; see [revision-qualified census](#ge100-pro--april-manual-library-and-import-capacity). Detailed simultaneous/DSP exceptions **?** [MOOER-GE100-PRO-P] |
-| Categories / choices | Published material establishes drive, preamp, cabinet and a broader effects library; April2026 per-category counts documented in the [appendix census](#ge100-pro--april-manual-library-and-import-capacity); current installed library unverified. Retailer lists are not substituted for the unread detailed effect list [P,Q] |
+| Categories / choices | Published material establishes drive, preamp, cabinet and a broader effects library; April2026 per-category counts documented in the [appendix census](#ge100-pro--april-manual-library-and-import-capacity); current installed library unverified. Manufacturer appendix takes precedence over retailer counts; earlier unread-list qualification is superseded by the dated census [P,Q] |
 | Presets | **150 locations =50 banks×3**; saving supported. Factory-filled versus dedicated factory/user split **?**; not150+150 [P,Q] |
 | Synth / acoustic sim | Pitch Shift, Detune, Octave and special processing documented in the [appendix census](#ge100-pro--april-manual-library-and-import-capacity); dedicated tracking synth/acoustic simulator remain unverified |
 | Audio connections | 1×¼-inch unbalanced mono input; 2×¼-inch unbalanced mono L/R outputs; 1×3.5mm stereo headphones. No XLR/mic, analog aux, FX-loop or DIN/TRS MIDI socket in the complete quick-guide connector inventory [MOOER-GE100-PRO-Q] |
@@ -308,7 +308,7 @@ Checked **2026-11-04** against the manufacturer-authored shared GE100 Pro/Pro Li
 | USB / routing | OTG supports stereo mobile recording/playback; full host-channel inventory, MIDI and loopback remain unverified. CAB SIM THRU independently bypasses left/right cabinet processing across line outputs, headphones and OTG. Unequal L/R settings force CAB to the chain end. |
 | Practice / spillover | Delay/reverb tails require SYSTEM SPILL-OVER plus switching between a preset and its saved copy, allowing block toggles/parameter edits. This is conditional, not arbitrary-preset spillover or proof of gapless switching. |
 
-Shared-manual battery instructions explicitly concern Pro Li and are not transferred here. IR capacity, category census, touchscreen and dimension-axis labels remain unresolved.
+Shared-manual battery instructions explicitly concern Pro Li and are not transferred here. At this checkpoint IR capacity and category census were unresolved; the April-manual census below now documents their historical values. Touchscreen and dimension-axis labels remain unresolved.
 
 ### GE100 Pro — April manual library and import capacity
 
@@ -320,6 +320,17 @@ Checked **2026-11-04** in the manufacturer-authored [V01_2026.04.24 manual](http
 | IR / sample capacity | CAB68–87 provides **20 shared GIR/third-party IR positions**, not20 of each. AMP73–92 provides20 GNR positions. Historical capacity; later NAM conversion support remains separately versioned. |
 | Synth / pitch and special | MOD contains Pitch Shift, Detune, Octave, Ring Modulator, Slow Gear and Lo-Fi. Tracking polyphony/ranges unspecified. Slow-Gear Delay creates swelled repeats; Shimmer adds octave-up reverb. Neither proves a tracking synth. Dedicated acoustic simulation remains unverified; CAB names are not acoustic-instrument simulation. |
 | Audio connections / specification conflict | Input2.2MΩ; line output100Ω; phones47Ω; A/D44.1kHz/24bit. The extracted dynamic-range rows repeat dBu level values; do not reinterpret them as valid dynamic-range specifications. Dimension axes and touchscreen remain unspecified. |
+
+### GE100 Pro — editor imports, backup and mobile scope
+
+Checked **2026-11-04**, [shared V01_2026.04.24 manufacturer manual](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE100_Pro-_Pro_li_Manual_EN_V01_2026.04.24.pdf), printed pp49–55,57–58. Static font decoding only; no installation or device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| IR / proprietary loading workflow | Studio Manager→MNRS→DEVICE→CAB SAMPLE imports WAV. MNRS distinguishes DRIVE, PREAMP and ENTIRE GNR captures from CAB GIR captures. Import support does not establish onboard capture. The appendix does not separately enumerate DRIVE import capacity. |
+| NAM / historical editor path | Install the built-in plugin in Manager, then choose NAM File in DRIVE SAMPLE or AMP SAMPLE. The April manual names neither A2 architecture nor unrestricted native execution. Preserve August1.3.3 A2 support and manufacturer conversion classification separately; AMP SAMPLE is not silently mapped to PREAMP/ENTIRE. |
+| Editor / backup coverage | Studio backup/restore explicitly includes presets, loaded GNR/GIR/IR and global settings. Firmware, calibration and recorded-loop inclusion are not individually established. Cloud access requires account login. |
+| Editor / mobile revision | Cloud edits parameters and exchanges presets/GNR/GIR over Bluetooth. April minimums:iOS11+/Android5+, historical; retain newer App Store iOS15.6+ requirement. Current Android minimum unverified. App touch gestures do not establish a touchscreen on the processor. |
 
 ## GE100 Pro Li
 

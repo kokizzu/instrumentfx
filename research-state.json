@@ -162052,5 +162052,15 @@
     "qualification": "Historical category entries, not deduplicated algorithms/current installed census or simultaneous blocks. Font-decoded original manual, no images/device test.",
     "next": "Current firmware census, preset factory fill, touchscreen/dimension axes, condition-qualified used IDR remain; no transfer to Pro Li without its own checkpoint. Independent queues preserved.",
     "inventory_changed": false
+  },
+  "ge100pro_editor_import_backup_20261104": {
+    "model": "MOOER::GE100 Pro",
+    "checked_date": "2026-11-04",
+    "source": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE100_Pro-_Pro_li_Manual_EN_V01_2026.04.24.pdf",
+    "revision": "V01_2026.04.24",
+    "canonical_section": "brand/MOOER.md#ge100-pro--editor-imports-backup-and-mobile-scope",
+    "scope": "Historical import/backup/mobile documentation, statically font-decoded; no downloaded package or device test",
+    "next": "Move next useful checkpoint to exact Pro Li evidence from explicitly shared manual, preserving its own battery/region/price distinctions. Defer GE100 Pro current census, factory fill, touchscreen/axis labels and condition-specific offers until stronger evidence. Independent queues unchanged.",
+    "inventory_changed": false
   }
 }
