@@ -987,6 +987,18 @@ Checked **2026-11-01** in the [manufacturer 7.x manual](https://www.fractalaudio
 
 No numeric global-volume endpoint, held-pedal recall or independent-copy-path mute guarantee follows. The two global controls—audio copying and pedal assignment—must remain distinct. No pedal connected, preset edited, local file downloaded or hardware test performed.
 
+
+### FM3 original — factory LCD views and Master Layout exception
+
+Checked **2026-11-04** in the [manufacturer7.x manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf), cover expressly including Standard, printed pp78–80,82,85. Historical factory layout evidence; current firmware13 or installed layouts untested.
+
+| Field | Exact-model documented behavior |
+|---|---|
+| Display / physical versus virtual | Eight editable layouts contain12 switch definitions each; views expose subsets on three physical footswitch LCDs. Preset layout displays three presets; outer holds bank down/up. Scene views expose1–3,4–6,then7–8 plus tuner. Virtual definitions do not add physical screens. |
+| Footswitch / middle-hold exception | Factory layouts1–6 use middle hold for Master Layout Menu; **example Layout7 has no MLM-return switch**. Home knobE can change layout, or the user can add a return assignment. The manual’s broad middle-hold wording is therefore qualified by its explicit example exception. |
+| Memory / placeholders and layout backup | Per-Preset layout exposes12 placeholders through views, requiring saved per-preset definitions. Layouts are included in SYSTEM backup and can be managed separately through FM3-Edit. This does not create additional presets or establish global volume. |
+| Live / independent connected controller | FM3 and connected FC can use different views/layouts; Layout Links can coordinate them. Optional FC hardware is separate from the three onboard screens. |
+
 <!-- comparison evidence ends -->
 
 ### FM3 original — partial historical LCD discovery

@@ -162089,5 +162089,15 @@
     "status": "Historical shared routing/trails and looper controls verified; live V02 filename confirmed but body/link unavailable",
     "next": "Defer V02 retrieval until a new accessible source appears; continue priority individual-footswitch displays or saved Shopee lead, preserving independent GT-Pro cursor and all unknowns",
     "inventory_changed": false
+  },
+  "fm3_original_factory_views_20261104": {
+    "model": "Fractal Audio::FM3 original",
+    "checked_date": "2026-11-04",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "Standard-covered firmware7.x manual printed78–80,82,85",
+    "canonical_section": "brand/FRACTAL-AUDIO.md#fm3-original--factory-lcd-views-and-master-layout-exception",
+    "scope": "Three physical LCDs versus virtual views; explicit Layout7 MLM-return exception; placeholders and layout backup; connected FC independent",
+    "next": "Current factory-layout equivalence, early headphone variants, exact-revision Shopee offers and mini-LCD specifications remain; continue another priority model if sources remain unavailable. Independent general GT-Pro cursor unchanged.",
+    "inventory_changed": false
   }
 }
