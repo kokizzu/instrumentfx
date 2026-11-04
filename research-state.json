@@ -166643,5 +166643,25 @@
     ],
     "inventory_unchanged": 402,
     "next": "Preserve GT-Pro and general research queues; continue remaining exact-model evidence."
+  },
+  "donner_apl_discovery_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/DONNER.md#apl--partial-acoustic-multi-effects-discovery",
+    "status": "partial discovery lead; outside active inventory",
+    "sources": [
+      "https://us.donnermusic.com/products/donner-apl-multi-effects",
+      "https://storage.donnermusic.com/official-user/202503/APL_MANUAL.pdf",
+      "https://shopee.co.id/donner.id"
+    ],
+    "revision": "Manufacturer product EC6928; HTML undated; linked manual body inaccessible",
+    "finding": "Exact acoustic multi-effects identity and effect-mode list recovered; distinct from Alpha models.",
+    "remaining": [
+      "Recover original manual revision and complete ports; resolve input/output wording",
+      "Verify no-treadle/direct analog EXP status and screen/control census",
+      "Establish qualified exact Shopee hardware offer and separate new/used IDR",
+      "Resolve simultaneous architecture, memory, loading and software fields"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue Shopee-first discovery; retain priority separate-display models and independent GP-200JR -> Prime -> GE300 and GT-Pro queues."
   }
 }

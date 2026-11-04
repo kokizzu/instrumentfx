@@ -23,6 +23,21 @@
 
 Alpha Cruncher is not counted yet; Triple Threat is counted once through its canonical section below. Ordinary amplifiers,controllers and dedicated one-purpose pedals remain outside the guitar multi-effects list. Arena2000 remains one model despite consolidation and the new dimensional finding.
 
+### APL — partial acoustic multi-effects discovery
+
+Checked **2026-11-05**, [Donner exact product page, SKU EC6928](https://us.donnermusic.com/products/donner-apl-multi-effects). Manufacturer HTML specification, no firmware/revision date stated. **Partial lead outside active inventory.** Separate from Alpha FX/Force/Cruncher.
+
+| Field | Manufacturer evidence / boundary |
+|---|---|
+| Processing | Six body IRs; eight modes: Chorus, Tremolo, Phase, Overdrive, Echo, Hall Reverb, Plate Reverb, Delay & Reverb. Simultaneous architecture and user-IR loading unverified. Body IRs do not establish electric-to-acoustic simulation. |
+| Live | Eight-minute loop; automatic notch feedback suppression; tuner bypass/mute. Loop memory, overdub/tail behavior and presets unresolved. |
+| Power / body | 9VDC, listed current draw1000mA;140×210×57mm, axes unlabeled;1100g. Polarity, battery/USB power and preferred footprint unresolved. |
+| Display / controls | High-brightness display claimed; technology, size, separate switch screens, complete control/treadle census and analog EXP unresolved. |
+| I/O | Page inconsistently labels TRS input versus TRS audio output; also phones,AUX,OTG. Full inventory, jack sizes and directional USB channels unverified. |
+| Price | US page says sold out; no qualified exact Shopee Indonesia hardware offer. New/used IDR unknown. |
+
+The [manufacturer-linked APL manual](https://storage.donnermusic.com/official-user/202503/APL_MANUAL.pdf) returned unsupported application/octet-stream;body/revision unverified. Editor, NAM/capture and note-tracking capabilities remain unknown. No local download or hardware operation.
+
 ## Arena2000
 
 Eligible guitar/shared-bass multi-effects with built-in expression. Not a dedicated single-effect pedal. Partial technical record; consolidation does not make remaining unknowns verified.
