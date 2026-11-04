@@ -166375,5 +166375,24 @@
     ],
     "next": "Continue requested footswitch-display priority andsystematic no-treadle gaps; preserve GT-Pro andGP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "g2_original_io_audio_20261105": {
+    "checked": "2026-11-05",
+    "model": "Zoom::G2 original",
+    "canonical": "brand/ZOOM.md#original-g2--complete-connector-and-audio-format-boundaries",
+    "source": "https://zoomcorp.com/media/documents/E_G2.pdf",
+    "revision": "G2-5000-2 printed6–7,31;date unstated",
+    "findings": [
+      "Complete connector inventory andshared output/phones recorded",
+      "Internal96kHz converter/processing distinct fromunestablished USB format",
+      "Electrical ratings retained withload qualification"
+    ],
+    "remaining": [
+      "Exact qualified Indonesian hardware",
+      "Full source/tail volume coverage",
+      "Modern software/import support not established"
+    ],
+    "next": "Continue systematic remaining no-treadle records;Mini/Nano sources rechecked withoutglobal-volume resolution. Preserve individual footswitch-display priority,GT-Pro andgeneral queues",
+    "active_inventory_unchanged": 402
   }
 }

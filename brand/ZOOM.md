@@ -3068,6 +3068,16 @@ Checked 2026-10-28 against [own G2-5000-2 manual](https://zoomcorp.com/media/doc
 
 DRIVE has live/direct variants selected through the cabinet setting;these do not increase simultaneous slots. Acoustic explicitly converts electric-guitar tone. Factory user40 patches duplicate protected40;earlier factory-fill uncertainty is resolved for this manual. Rhythm playback disables reverb. Global MASTER LEVEL is separate from per-patch expression destination. Still unadmitted;exact offer andremaining profile gaps persist.
 
+### Original G2 — complete connector and audio-format boundaries
+
+Checked **2026-11-05**, [manufacturer G2 Operation Manual,G2-5000-2,printedpp6–7,31](https://zoomcorp.com/media/documents/E_G2.pdf). Original G2,not G2Nu/G2.1u/G2 FOUR; publication date unstated.
+
+The complete connector inventory is **mono¼-inch INPUT,stereo¼-inch OUTPUT/PHONES,CONTROL IN andDC IN**. No USB,MIDI,AUX orsend/return connector appears inthat inventory;USB audio/power,computer editing andIR/NAM import are not established. A Y cable can feed two amplifiers fromthe shared stereo output;headphones use that same socket.
+
+Published input: **−20dBm,1MΩ**. Line output maximum **+5dBm into≥10kΩ**;phones **20+20mW into32Ω**,a rating/test load,not a verified minimum headphone impedance. Internal sampling is **96kHz**,AD24-bit/64× oversampling,DA24-bit/128×,processing32-bit;response20Hz–40kHz,+1/−3dB at10kΩ. These are internal/analog specifications,not a USB recording format.
+
+Existing per-patch VL assignment andbypass-volume exception remain. All-output/tail coverage andqualified exact Indonesian hardware remain unresolved;partial lead stays outside active counts. No download ordevice operation.
+
 ## G2.1Nu
 
 Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [own support page][ZNU-S]. Checked2026-10-18; partial. Ownership and bass/vocal suitability unverified.
