@@ -47435,26 +47435,21 @@
     },
     "metadata_source_history_audit_20261104": {
       "checked_date": "2026-11-04",
-      "source_head": "c365836332793fd9ca7e0b67d36ee953bd45024e",
+      "source_head": "e24065af1f4e8a381e1692ca4a026b6512b74672",
       "target": "make metadata-history-audit",
       "test": "make metadata-history-test",
       "sources": 16,
       "variants": 60,
       "counts": {
         "verified-registered-source-alias": 4,
-        "verified-historical-metadata-content": 17,
+        "verified-historical-metadata-content": 18,
         "verified-compatibility-redirect": 13,
         "verified-registered-original": 16,
-        "historical-variant-needs-review": 7,
-        "verified-retired-json-pointer": 3
+        "verified-retired-json-pointer": 3,
+        "historical-variant-needs-review": 6
       },
       "complete": false,
       "pending": [
-        {
-          "source": "effects/MIGRATION.md",
-          "blob": "786af6d919aad61dba829457ef4c287e1ef8d30b",
-          "sha256": "c83a35d0cadfe55c811a1cd709502bde95d6fc0cf56964a8a217b045b1f10df9"
-        },
         {
           "source": "effects/research-state.json",
           "blob": "222b20bb2eb4f31a2964074a3eac33449fd95e5d",
@@ -47517,7 +47512,7 @@
         }
       ],
       "method": "Enumerate both old/new Git blobs across HEAD-reachable full merge history for13Markdown+3JSON paths;exact registered originals/aliases are backed by metadata verifier;current redirects independently verified;all other variants require review.",
-      "next": "Review the remaining MIGRATION Markdown revision and six JSON snapshots in full. JSON needs typed-value preservation. Preserve independent display, expression and GT-Pro queues; historical instructions and cursors are not active.",
+      "next": "Review six remaining historical JSON snapshots with typed-value preservation and exact reconstruction tests. Preserve current root ownership, counts and independent display/expression/general queues; historical instructions are not active.",
       "limitations": "Exact registered-original/alias equality relies on metadata-verify; current Markdown redirects are independently checked by source-retirement verify before byte comparisons. Retired JSON pointers require exact bytes plus independent typed-content/removal verification; historical metadata content requires complete parsed-source equality to the pinned Git blob. All other HEAD-reachable variants require review. Pending is not proven loss; no source deletion or full migration certification.",
       "reviewed_variants": [
         {
@@ -52742,6 +52737,173 @@
             ]
           },
           "qualification": "Historical source wording, counts, coverage and queues; current root inventory, ownership corrections and cursors take precedence. No new purchase verification or active model admission. Historical effects-directory instructions, totals, commit references and next-model queues are preserved as historical context only. Current root layout, ownership corrections, 402 active models, six specialist exclusions and independent display/expression/general queues take precedence. Earlier gaps retain their original dates and do not undo later resolutions; recovery commits are not reset instructions."
+        },
+        {
+          "kind": "historical-metadata-markdown-v1",
+          "source": "effects/MIGRATION.md",
+          "blob": "786af6d919aad61dba829457ef4c287e1ef8d30b",
+          "sha256": "c83a35d0cadfe55c811a1cd709502bde95d6fc0cf56964a8a217b045b1f10df9",
+          "historical": true,
+          "not_active_instructions": true,
+          "content": {
+            "source": "effects/MIGRATION.md",
+            "sha256": "c83a35d0cadfe55c811a1cd709502bde95d6fc0cf56964a8a217b045b1f10df9",
+            "historical": true,
+            "not_active_instructions": true,
+            "nonblank_lines": 25,
+            "blocks": [
+              {
+                "kind": "heading",
+                "level": 1,
+                "text": "Repository correction audit — 2026-10-14",
+                "context": "Repository correction audit — 2026-10-14",
+                "line": 1,
+                "end_line": 1
+              },
+              {
+                "kind": "paragraph",
+                "text": "**Working repository: `kokizzu/instrumentfx`.** The user clarified that `kokizzu/edrums` was a formatting reference, not the destination for instrument-effects research.",
+                "context": "Repository correction audit — 2026-10-14",
+                "line": 3,
+                "end_line": 3
+              },
+              {
+                "kind": "heading",
+                "level": 2,
+                "text": "Completed transfer",
+                "context": "Completed transfer",
+                "line": 5,
+                "end_line": 5
+              },
+              {
+                "kind": "paragraph",
+                "text": "All **13 original effects files** are now present under `effects/` in instrumentfx. The **eight comparison pages, 51 partial model records, methodology and coverage backlog** were preserved byte-for-byte, verified using matching Git blob SHAs. The comparison index, resume instructions and progress JSON were deliberately updated to point to instrumentfx; their model inventory, next-batch cursor and pending research requirements were retained.",
+                "context": "Completed transfer",
+                "line": 7,
+                "end_line": 7
+              },
+              {
+                "kind": "paragraph",
+                "text": "Each comparison category has its own commit. A root README and AGENTS.md additionally identify the correct repository and require separate commits/checkpoints for completed research parts.",
+                "context": "Completed transfer",
+                "line": 9,
+                "end_line": 9
+              },
+              {
+                "kind": "paragraph",
+                "text": "Verified target snapshot before this audit: `c21d79d6bd5422ca511df45349ae97f5364197ea`.",
+                "context": "Completed transfer",
+                "line": 11,
+                "end_line": 11
+              },
+              {
+                "kind": "paragraph",
+                "text": "Source snapshot: `kokizzu/edrums@bcc8d39507b445a3b708c4bb9706d1fb45db925d`.",
+                "context": "Completed transfer",
+                "line": 13,
+                "end_line": 13
+              },
+              {
+                "kind": "heading",
+                "level": 2,
+                "text": "Matching source and destination blobs",
+                "context": "Matching source and destination blobs",
+                "line": 15,
+                "end_line": 15
+              },
+              {
+                "kind": "table",
+                "headers": [
+                  "File under effects/",
+                  "Matching Git blob SHA"
+                ],
+                "alignment": "|---|---|",
+                "rows": [
+                  {
+                    "File under effects/": "guitar-compact.md",
+                    "Matching Git blob SHA": "843998022f85297d63fc4285df0d583c6c159d1d"
+                  },
+                  {
+                    "File under effects/": "guitar-boss.md",
+                    "Matching Git blob SHA": "fe18d0eb11fa64fbd3766ad60c0537925f919eea"
+                  },
+                  {
+                    "File under effects/": "guitar-nux.md",
+                    "Matching Git blob SHA": "01c12be78d929e4ced06d13bbf3a2d4fa59e7cc7"
+                  },
+                  {
+                    "File under effects/": "guitar-floorboards.md",
+                    "Matching Git blob SHA": "4394e367d3744ee519829bac4bc98cb60e40e89f"
+                  },
+                  {
+                    "File under effects/": "bass.md",
+                    "Matching Git blob SHA": "aeccc111f415aa882b97e8b5bb82099ef9f36d5d"
+                  },
+                  {
+                    "File under effects/": "vocal.md",
+                    "Matching Git blob SHA": "ed1089a3cacd5f58d609cbe8f8b3493a05581223"
+                  },
+                  {
+                    "File under effects/": "specialist.md",
+                    "Matching Git blob SHA": "836245f7e1bc66b872afb43f330b46337cdb776c"
+                  },
+                  {
+                    "File under effects/": "advanced-modelers.md",
+                    "Matching Git blob SHA": "f4ecc7b15636ab477803031d34bf280afa9b98dc"
+                  },
+                  {
+                    "File under effects/": "METHODOLOGY.md",
+                    "Matching Git blob SHA": "f8f425e4c7e133b58365a9938661d1e792392ec7"
+                  },
+                  {
+                    "File under effects/": "COVERAGE.md",
+                    "Matching Git blob SHA": "885aa55914406833245ad516fb947774a8576817"
+                  }
+                ],
+                "context": "Matching source and destination blobs",
+                "line": 17,
+                "end_line": 28
+              },
+              {
+                "kind": "heading",
+                "level": 2,
+                "text": "Old-repository cleanup: blocked, not completed",
+                "context": "Old-repository cleanup: blocked, not completed",
+                "line": 30,
+                "end_line": 30
+              },
+              {
+                "kind": "paragraph",
+                "text": "An attempted deletion of only the 13 misplaced `effects/` files from edrums was blocked by the tool's safety checks. No cleanup commit or branch update was made. **The old copies remain in edrums.** Do not claim they were removed, retry through a different mechanism to bypass the block, or make further effects-research commits there. Any future cleanup needs an appropriately authorised operation.",
+                "context": "Old-repository cleanup: blocked, not completed",
+                "line": 32,
+                "end_line": 32
+              },
+              {
+                "kind": "paragraph",
+                "text": "The edrums root README and `gotro-projects.md` were not changed during this correction. Their inspected blob SHAs were `3f3c626c47db0c08a90935ffa1847139bb9e3fca` and `1a8158501505114aea77b5b210f820aa7099f258` respectively.",
+                "context": "Old-repository cleanup: blocked, not completed",
+                "line": 34,
+                "end_line": 34
+              },
+              {
+                "kind": "heading",
+                "level": 2,
+                "text": "Research remains resumable, not finished",
+                "context": "Research remains resumable, not finished",
+                "line": 36,
+                "end_line": 36
+              },
+              {
+                "kind": "paragraph",
+                "text": "Continue from [RESUME.md](RESUME.md) and [research-state.json](research-state.json) in **instrumentfx**. The next model is still Valeton GP-100 on the compact page. Screen-size/color/touchscreen backfill and IDR price migration are still pending; this repository transfer did not complete them.",
+                "context": "Research remains resumable, not finished",
+                "line": 38,
+                "end_line": 38
+              }
+            ]
+          },
+          "qualification": "Historical source wording, counts, coverage and queues; current root inventory, ownership corrections and cursors take precedence. No new purchase verification or active model admission. The earlier blocked edrums cleanup was subsequently completed by the user as recorded in the registered later migration audit. This is historical provenance, not an active cleanup task, authorization to retry deletion or an instruction to research GP-100 again. Transfer hashes identify historical baselines; current root layout, inventory and independent research queues remain authoritative."
         }
       ],
       "previous_checkpoints": [

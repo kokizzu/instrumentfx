@@ -415,7 +415,7 @@ def commit(stage=False):
         assert review['head'] == research_tools.git('rev-parse','HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff','--cached'))
         assert not research_tools.git('diff','--cached','--check').strip()
-        print(research_tools.git('commit','-m','audit: preserve historical resume evidence and superseded queues'))
+        print(research_tools.git('commit','-m','audit: preserve historical repository transfer qualifications'))
 
 if __name__ == '__main__':
     {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'stage':lambda:commit(stage=True),'audit-history':audit_history,'test-history':test_history,'plan-history':plan_history_preservation,'plan-history-source':lambda:plan_history_preservation(True)}[sys.argv[1]]()
