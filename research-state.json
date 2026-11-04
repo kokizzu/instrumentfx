@@ -160900,5 +160900,34 @@
     ],
     "active_inventory_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "tonex_board_global_master_manual_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://manuals.plus/m/05d9cce1be1e8918b1882c754ebc82803ef2ec70e44cb6a9b442ab0368c86838_optim.pdf",
+    "identity": "IK000200;User Manual1.0.0 updated2026-09-02;72pages;exact cover/copyright/revision",
+    "pages": "9,31,49–52,54–57,72",
+    "global_assignment": "Documented:Global system-wide External Expression Pedal Master Volume;distinct pathA/B andMacro options",
+    "destinations": [
+      "XLR1–2",
+      "quarter-inch3–4",
+      "HEADPHONES"
+    ],
+    "memory": "12×40×3=1440;PC0–119 per setlist;product60-bank conflict retained",
+    "power_conflict": {
+      "manual": "5V DC centre-negative ≥1.5A",
+      "product": "9V ≥1.5A",
+      "source": "https://ikmultimedia.com/products/tonexboard",
+      "status": "Unresolved;no revision explanation;check exact unit label/adapter",
+      "product_access": "Three-week manufacturer search snapshot;current direct response lacks voltage instruction"
+    },
+    "remaining": [
+      "Volume endpoints,recall,bypass/USB/sends/tail/recorded-loop coverage",
+      "Complete hardware/control census",
+      "Power contradiction",
+      "Exact Shopee hardware",
+      "Current firmware mapping andinitial preset census"
+    ],
+    "active_inventory_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

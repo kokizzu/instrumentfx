@@ -804,3 +804,7 @@ SY-300 [firmware1.03 assignment correction](brand/BOSS.md#sy-300--firmware-assig
 ### BOSS SY-1000 — partial shared-volume assignment lead
 
 [Reference-manual follow-up](brand/BOSS.md#sy-1000--shared-volume-targets-controls-and-revision-boundaries) identifies EXP1/EXP2 **PATCH LEVEL100/200 (0–100/0–200)** and FV1/FV2 targets. With **PREFERENCE=SYSTEM**, this documents shared volume assignment across patches, separately from conditional HOLD recall. Current-firmware equivalence, bypass/USB/headphone/tail/loop coverage and M-VAVE wiring remain unverified. Headphones use MAIN L/PHONES with R/MONO empty; onboard bank down/up and patch switches are separate navigation facts. No built-in treadle;345W×245Dmm exceeds preference. Partial lead remains outside active counts.
+
+### IK Multimedia TONEX Board — partial system-wide master assignment
+
+[Own manual v1.0.0,2026-09-02](brand/IK-MULTIMEDIA.md#tonex-board--manual-backed-global-master-assignment-and-supply-conflict) documents Global EXP→Master Volume, with XLR, quarter-inch andheadphone destinations. Numeric endpoints,held-position recall,bypass/USB/tail/loop coverage remain unverified. Calibration andpreset macros are separate. Dedicated headphones are documented;complete built-in control screening remains pending. Partial lead stays outside active counts;exact Shopee hardware unknown. The manual/product **5V versus9V supply conflict** is preserved in the canonical record.

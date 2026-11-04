@@ -80,6 +80,19 @@ The [official product quick start](https://ikmultimedia.com/products/tonexboard)
 
 Exact Shopee search still produced no qualified Board hardware offer. Power ratings, built-in treadle status, remaining hardware/software fields and current firmware remain open. Partial lead stays outside active counts; no downloads or device operations.
 
+### TONEX Board — manual-backed global master assignment and supply conflict
+
+Checked **2026-11-04**, [manufacturer-authored User Manual v1.0.0, updated2026/09/02](https://manuals.plus/m/05d9cce1be1e8918b1882c754ebc82803ef2ec70e44cb6a9b442ab0368c86838_optim.pdf),72pages. Cover, IK copyright, exact model **IK000200** and final revision page establish identity; generated host summaries excluded. Documentation version is not a firmware prerequisite or installed-version certification.
+
+| Field | Revision-qualified evidence / limitation |
+|---|---|
+| Expression / assignment scope | **pp49–52:** Global contains system-wide settings. External Expression Pedal offers **Master Volume**, explicitly equivalent to the hand Volume knob; Preset Output Level A/B and Macro are separate choices. This documents a shared master assignment without editing each preset. Calibration is separate. |
+| Expression / output coverage | Master Volume destinations are **XLR OUT1–2,OUTPUT3–4,HEADPHONES**. Selection combinations, MIN/MAX, full silence, held-position recall, bypass, USB, sends andtail/recorded-loop attenuation remain unverified. A destination list is not measured all-source coverage. |
+| Memory / manual allocation | **pp31,54–57:** **12setlists×40banks×3presets=1,440**; PC00–119 maps01A–40C within a setlist. This reconciles manual arithmetic, while the product page’s60-bank wording remains contradictory. Factory address filling remains unverified. |
+| Power / unresolved voltage conflict | **p9 says5V DC,centre-negative,≥1.5A**. The [manufacturer product-page search snapshot](https://www.ikmultimedia.com/products/tonexboard/), three weeks old, instead specifies **9V,≥1.5A**; the current direct response does not expose that voltage instruction. No hardware revision orcorrection explains the difference. Check the exact unit/supplied adapter;neither value is silently treated as the universal rating. Barrel dimensions,actual draw,battery andUSB-powered operation remain unverified. |
+
+Partial model remains outside active counts. Exact Shopee Indonesia offer still unverified; no adapter connected, calibration performed, file downloaded locally or device operated. Global assignment is now documented; numeric range,recall andcomplete signal coverage remain open.
+
 ## TONEX ONE
 
 Standard TONEX ONE guitar/bass processor, not TONEX ONE+, Bass Edition or an artist variant. Consolidated and partially refreshed **2026-10-17**; no additional active model.
