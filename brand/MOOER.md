@@ -1921,7 +1921,7 @@ Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no si
 | Power | Manual requires **9VDC2A,center-negative** supply;capacity requirement,not measured draw. Battery/USBpower,barrel dimensions unverified. |
 | Editor / platforms | Mac/Windows editing,preset transfer,IR loading,firmware updates andUSB audio documented;Manual: USB **24-bit44.1kHz**;Windows ASIO driver required,Mac needs noextra driver. Normal/Re-Amp modes andper-side dry/processed sends documented. CurrentOS/channel limits unverified. |
 | IR / NAM / capture | **V01 manual:20 userIR slots;V5.0.2 notes:50 slots withdual third-party IR loading**,independent/blendedL/R. Third-party IR≤2048samples inoldmanual;Tone Capture AMP/GUITAR/CAB modes. [Own downloads](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html): **V5.0.3,2026-08-04**,NAM A1/A2 load throughconverter intoAMP only;not evidence ofnativeNAM execution. |
-| Looper / practical | **30-second stereo looper**,storable sessions;adjustable tuner. Manual: loop continues throughpreset changes andautomatically survivespower-off;undo/redo,reverse,half-speed,once andstop/clear documented. Half-speed lowers pitch oneoctave;no doubled recording capacity inferred. Drum/scenes/spillover unverified. |
+| Looper / practical | **30-second stereo looper**,storable sessions;adjustable tuner. Manual: loop continues throughpreset changes andautomatically survivespower-off;undo/redo,reverse,half-speed,once andstop/clear documented. Half-speed lowers pitch oneoctave;no doubled recording capacity inferred. Drums/scenes unverified; historical conditional trails documented below. |
 | IDR price | Noqualified exactShopeehardwareoffer fromGE300Lite/GE300 Lite queries. Used/new,seller/item,condition,stock,bundle,warranty/voucher unknown. |
 
 ### GE300 Lite — later library and memory qualifications
@@ -1934,6 +1934,10 @@ Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no si
 | IR / MNRS capacity | **V5.0.2:80 AMP MNRS slots,50 CAB IR slots**,dual third-party IR loading. **V2.0.2** fixes CAB at2048points andremoves POINT selection,qualifying theolder manual’sadjustable setting. |
 | Memory / Sub-Patch | **V5.0.2 explicitly doesnot support Sub-Patch parameter memory**,citing hardware limits;PATCH LEVEL added. Notes requirebackup becauseupdate erases userdata. |
 | Live / version limits | V5.0.2 expands tuner to**430–450Hz** andMonoPitch to**±24semitones**;older presets mayneed adjustment. V2.0.2 FS-mode text namesA–D/CTRL1–4 plusBankcontrols,unlikeLite manual;do notinfer extrafoot hardware fromthis conflicting wording. |
+
+| Field | Revision-qualified evidence / limit |
+|---|---|
+| Live / conditional trails | Own V01 manual,p78: seven delay and seven reverb types support trails. Same eligible type and Trail On required across patches; destination preset governs. Enabled trails move effects to chain end, permit only VOL/CAB afterward and consume DSP even when effects are off. Not universal gapless switching or global EXP tail attenuation. [Exact limits](#ge300-lite--conditional-trails-routing-and-dsp-boundaries). |
 
 <!-- comparison evidence ends -->
 
@@ -1962,6 +1966,16 @@ Checked **2026-11-04** in the manufacturer-authored **V02-2020.09.08** [GE300 LI
 The readable [Lite V01-2020.07.22 manual, printed p50](https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf) gives **Mono Pitch/Poly Pitch ±12 semitones**, **Detune ±100 cents**, and **Lofi1.5–44.1kHz/1–16bit** controls. Names do not independently certify tracking quality or unrestricted chord handling. Preserve the separate V5.0.2 MonoPitch±24 change; do not extend it to Poly Pitch by assumption. Dedicated synth remains unverified.
 
 V01/V02 panel text, printedp4, identifies SELECT plus five parameter knobs and three independent master controls: **nine rotaries**, text-derived. Six named menu buttons and two page arrows exclude the additional effect-block keys; total separate buttons remains unresolved. No visual census or device operation.
+
+### GE300 Lite — conditional trails, routing and DSP boundaries
+
+Checked **2026-11-04** in the [manufacturer Lite V01-2020.07.22 manual, printed p78](https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf), original Trail Function chapter. Historical documentation, not a hardware test or current-firmware certification.
+
+- Supported delays: **Digital, Analog, Dynamic, Real, Tape, Mod, PingPong**. Supported reverbs: **Room, Hall, Plate, Fl-Reverb, Swell-Reverb, Spring, Mod**. Seven eligible types in each list are not complete category inventories.
+- For preset changes, use matching eligible delay/reverb types with Trail enabled; behavior depends on the **destination preset**. The stated carryover is a few seconds, not a measured duration or a guarantee of gapless switching.
+- Trail-enabled effects move to the chain end; only **VOL and CAB** may follow them. Trail consumes DSP even when the delay/reverb effects are off. This constrains routing and available processing.
+
+The routing exception does not settle the existing VOL-documentation conflict, global EXP assignment or attenuation of phones/USB/recorded loops/tails. The older spillover uncertainty is narrowed to these conditional documented trails. Delay-category census remains unresolved; no total is derived by subtracting other category headlines from164. No device setting, local download or firmware operation.
 
 ## GE1000
 

@@ -160734,5 +160734,39 @@
       "Qualified exactShopee hardware"
     ],
     "active_inventory_unchanged": 402
+  },
+  "ge300lite_trail_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf",
+    "revision": "V01-2020.07.22,printed78",
+    "eligible_delay": [
+      "Digital",
+      "Analog",
+      "Dynamic",
+      "Real",
+      "Tape",
+      "Mod",
+      "PingPong"
+    ],
+    "eligible_reverb": [
+      "Room",
+      "Hall",
+      "Plate",
+      "Fl-Reverb",
+      "Swell-Reverb",
+      "Spring",
+      "Mod"
+    ],
+    "conditions": "Matchingeligibletypes,TrailOn,destinationpresetgoverns",
+    "routing": "Eligibleeffectsmovetoend;onlyVOL/CABmayfollow",
+    "DSP": "TrailconsumesDSPevenwithdelay/reverboff",
+    "coverage": "GlobalEXPattenuationremainsunknown",
+    "delay_count": "Unresolved;notderivedfrom164headline",
+    "rejected_census_lead": {
+      "url": "https://manuals.plus/m/e1fd5f10e6a6e64b427b8dae634bcacfbb3fd651f583feb371f110eb274a2032",
+      "claim": "GermanLite-labelledmanual14delays",
+      "reason": "OriginalbodyalsoincludesSYHTHchapterand30minlooperclaim;modelconsistencyrequiresreconciliation;countnotadopted"
+    },
+    "active_inventory_unchanged": 402
   }
 }
