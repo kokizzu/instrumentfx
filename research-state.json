@@ -155165,6 +155165,15 @@
         "instrument": "ACOUSTIC,HOLLOW andpickup transformations distinct",
         "qualification": "VOICE;RING MOD explicitly single-note;shared pedal assignment",
         "evidence_basis": "Manufacturer original ©2002 manual;printed9,11,13,19;2026-11-05 focused check"
+      },
+      {
+        "key": "BOSS::GT-8",
+        "canonical": "brand/BOSS.md#gt-8--creative-algorithms-and-chord-input-boundaries",
+        "synth": "Wave Synth;single-note Guitar Synth",
+        "pitch": "Normal PitchShifter chords±24semi;Mono/harmony/bend restricted",
+        "instrument": "Existing GuitarSimulator acoustic,AcousticProcessor,sitar/defret records",
+        "qualification": "FX2slot;AutoRiff/SoundHold single-note",
+        "evidence_basis": "Focused original manual/transcript check2026-11-05;notfull current-firmware audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -171696,5 +171705,38 @@
       "Simultaneous ceiling,connector subtypes/polarity,software/import gaps"
     ],
     "next": "Requested footswitch-screen sources andShopee first;next unindexedcreative BOSS GT-8. Preserve independent GT-Pro,generalGP200JR→Prime→GE300,expression-volume andconsolidation queues."
+  },
+  "gt8_creative_index_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#gt-8--creative-algorithms-and-chord-input-boundaries",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-8_OM.pdf",
+      "https://manualzilla.com/doc/7445272/roland-gt-8-owner-s-manual",
+      "https://www.boss.info/global/products/gt-8/"
+    ],
+    "revision": "©2004 G6047002R2/2006-07-25;indexedp44/transcript42–49;fullPDF11849520bytes exceedsreader",
+    "finding": "Mode-specific chord acceptance andsynth mechanisms distinguished",
+    "offer": {
+      "url": "https://shopee.co.id/BOSS-GT-8-Pedal-Multi-Effect-i.270699909.18550074460",
+      "shop": "270699909",
+      "item": "18550074460",
+      "seller": "Toko Assobirin",
+      "region": "Kab.Pasuruan",
+      "ask_idr": 2800000,
+      "stock": "Habis cached4weeksold",
+      "condition": "unverified",
+      "delivery": "10–11Oct cachednotlive",
+      "voucher": "10000latecompensationnotdeducted",
+      "change": "Samehistoricalask;notnewqualifiedstock"
+    },
+    "priority_search": "PrimeHOLYMUSIC945642322/52161712736 alreadyrecorded;AXOMnonewqualifieditem",
+    "additional_records": 84,
+    "active_inventory": 402,
+    "remaining": [
+      "Practicaltracking/latency andinstalledfirmware",
+      "Initialuserfill andfullcategory accounting",
+      "Visualcontrols/imports/software/qualifiedoffers"
+    ],
+    "next": "LCD/Shopee first;next existingcreative gap BOSS GT-6;preserve GT-Pro,generalGP200JR→Prime→GE300,expression-volume andconsolidation queues"
   }
 }

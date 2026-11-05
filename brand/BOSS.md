@@ -1472,6 +1472,16 @@ Guitar multi-effects; distinct from GT-6/GT-10. Checked2026-10-17; partial. Bass
 | Used | Unknown; exact listing does not state condition. | — |
 | New | Unknown; exact listing does not state condition. | — |
 
+### GT-8 — creative algorithms and chord-input boundaries
+
+Checked 2026-11-05: [indexed manufacturer manual p44][G8-M] and [manufacturer-authored transcript pp42–49][G8-R], ©2004, G6047002R2/2006-07-25. Full official PDF still exceeds reader limits; no download or unit test.
+
+| Field | Finding / qualification |
+|---|---|
+| Pitch / mode-specific chords | Pitch Shifter ±24 semitones accepts chords in normal modes. Fast→Medium→Slow trades response speed for reduced modulation; Mono requires single notes. Generated voice/channel counts do not establish input polyphony. Harmonist and Pedal Bend reject chords. |
+| Synth / distinct mechanisms | Guitar Synth Square/Saw use a pitch/attack-driven generator; Brass/Bow process guitar audio directly and decay with it despite Release. All retain the documented single-note restriction. Wave Synth Saw/Square is a separate input-processing algorithm; manufacturer demo calls its synth monophonic, without an algorithm-wide performance guarantee. |
+| Processing / special and slot limits | Auto Riff and Sound Hold require single notes. Slicer, Humanizer, Ring Modulator, Slow Gear and Feedbacker are distinct processing choices. FX-2-only choices compete for that slot. |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified sold-out Shopee hardware

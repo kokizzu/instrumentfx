@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **83 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **84 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -129,6 +129,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [BOSS GT-1B](brand/BOSS.md#gt-1b--creative-index-and-algorithm-specific-note-handling) | SAW/SQUARE Bass Synth, explicitly single-note | Pitch Shifter ±24 semitones; single-note Harmonist/Pedal Bend; Octave | Defretter; pickup/body and acoustic-bass simulation | Overtone harmonics, Humanizer, Ring Mod (Intelli single-note), Slow Gear; FX1/FX2 alternatives, not full fresh audit |
 | [BOSS ME-50B](brand/BOSS.md#me-50b) | SAW LEAD; MILD FILTER; DEEP FILTER; SQUARE—all single-note | Octave up/down and pedal bends single-note | DEFRETTER; HOLLOW acoustic-bass body | [Own original-manual check](brand/BOSS.md#me-50b--creative-index-scope); Sound Hold versus HOLD DLY; shared category slots, not all simultaneous |
 | [BOSS ME-50](brand/BOSS.md#me-50) | SQUARE distortion + RESONANCE recipe; dedicated tracking engine unverified | Single-note Harmonist and pedal octave bends; detuning | ACOUSTIC; HOLLOW; pickup transformations | [Original-manual limits](brand/BOSS.md#me-50--creative-index-and-algorithm-specific-tracking-limits); VOICE and single-note RING MOD; shared pedal assignment |
+| [BOSS GT-8](brand/BOSS.md#gt-8) | Wave Synth; single-note Guitar Synth with generated/direct-processed modes | Chord-capable normal Pitch Shifter ±24; mono harmony/bend | Guitar Simulator acoustic choices; Acoustic Processor; sitar/defret | [Algorithm-specific limits](brand/BOSS.md#gt-8--creative-algorithms-and-chord-input-boundaries); Slicer/Auto Riff/Sound Hold; FX-slot competition |
 
 ## Separately recorded partial leads
 
