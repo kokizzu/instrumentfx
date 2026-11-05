@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs(sonicake): expose Smart Box controls and creative comparison fields'
+        message='research(nux): index MG-30 creative effects and comparison fields'
     print(git('commit','-m',message))

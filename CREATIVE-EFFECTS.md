@@ -42,10 +42,11 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **105 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **106 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
+| [NUX MG-30](brand/NUX.md#mg-30--creative-index-and-note-handling-boundaries) | Dedicated synth unverified; filters distinct | Harmonist; Detune; Octave-Shift; GEN2 Mono Octave; note handling/ranges unverified | Three acoustic IRs/two acoustic amps; separate simulator unverified | Reverse/Pan/Phi delay; Shimmer reverb; base/GEN2 distinctions; focused check, not full fresh audit |
 | [Korg AX1000G](brand/KORG.md#ax1000g--creative-pitch-and-filter-boundaries) | Dedicated synth unverified;TALK/RINGMOD distinct | ±24semi shifter/bend;restricted octave-down | ACOUSTIC | [Hold Delay versus volatile sample loops](brand/KORG.md#ax1000g--pedal-ambience-and-sample-loop-boundaries);shared-slot exclusions;original E1;not complete fresh audit |
 | [NUX MG-20](brand/NUX.md#mg-20--creative-algorithms-and-named-processing-menu) | Dedicated synth unverified;ROTARY SPK distinct | Harmonist;Detune;pedal Whammy;note handling unverified | Acoustic simulation unverified | Reverse/Pan/modulated delay;shared MOD alternatives;original©2014 manual transcription,not full fresh audit |
 | [Tech 21 Bass Fly Rig v2](brand/TECH21.md#bass-fly-rig-v2--creative-index-and-detuned-voice-boundary) | Octave/filter/fuzz synth-style processing | Monophonic octave divider;chorus detuning | Acoustic simulation unverified | Compression sustain differs fromfreeze;own©2021 manual;not acomplete freshaudit |

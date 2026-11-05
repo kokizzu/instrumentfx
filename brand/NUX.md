@@ -587,10 +587,12 @@ Existing modulation/delay/reverb names remain above. Reverse,Pan Delay andmodula
 
 | Field | Preserved finding / unresolved detail |
 |---|---|
-| Expression / controls | Built-in;external EXP or NMP-2 Lite. **6/3/10**,toe and rear switches separate. |
+| Expression | Built-in; external EXP or NMP-2 Lite. |
+| Knobs / footswitches / buttons | **6 rotaries /3 footswitches /10 front buttons**, retained V2-manual review; toe and rear switches separate. No new visual census. |
 | Body / screen | **313×166×55mm;1.5kg**,large. **4-inch color LCD** confirmed2026-10-17 from exact manufacturer page;touch and pixel specification unresolved. |
 | Blocks / library | **11 movable**;base categories wah5,comp3,gate1,EFX14,EQ4,MOD13,delay8,reverb5. Product lists **35 amps =28 guitar+2 acoustic+5 bass**. Category overlap/firmware differences prevent an invented total. |
-| Memory / sound | **128 factory-filled,editable/savable locations in32banks** per [Chinese manufacturer](https://cn.nuxaudio.com/product/mg30/),checked2026-10-17. Factory contents occupy the user-editable locations;do not add another128. Separate protected factory bank unestablished. Three Pro Scenes;three acoustic IRs plus two acoustic amps;true synth ?. |
+| Memory | **128 factory-filled,editable/savable locations in32banks** per [Chinese manufacturer](https://cn.nuxaudio.com/product/mg30/),checked2026-10-17. Factory contents occupy the user-editable locations;do not add another128. Separate protected factory bank unestablished. Three Pro Scenes. |
+| Synth / pitch / acoustic | [Exact-model creative boundaries](#mg-30--creative-index-and-note-handling-boundaries): Harmonist/Detune, Octave-Shift and GEN2 Mono Octave; note handling/ranges unverified. Three acoustic IRs plus two acoustic amps form the advertised acoustic recipe; dedicated synth and separate acoustic-simulator block unverified. |
 | Loading | **128 per-patch user IRs,1024 samples**. GEN2 adds10 NAM slots;**native A2 Lite**,not all arbitrary NAM architectures. |
 | Ports | 6.35 mm input,two main outs,mono SEND/RETURN;3.5 mm AUX/phones;EXP1;USB;DC. |
 | Power | **9V center-negative,<400mA draw**. USB/battery operation not established. |
@@ -711,6 +713,17 @@ Checked **2026-11-04**. [NUX’s distributor directory](https://nuxaudio.com/dis
 Global downloads explicitly target English hardware;Chinese downloads explicitly target Chinese hardware. Both require the matching GEN2 editor and warn against cross-region firmware. Shared dates/editor numbers do not establish cross-region package compatibility. No firmware,editor orbinary downloaded orrun;no device updated. Existing historical versions,category counts,USB format,touchscreen andqualified IDR uncertainties remain.
 
 <!-- comparison evidence ends -->
+
+### MG-30 — creative index and note-handling boundaries
+
+Checked **2026-11-06** against the [exact manufacturer product page](https://nuxaudio.com/product/mg30/), retaining its base-library versus GEN2 distinction. This focused check does not certify the current installed library or every model field.
+
+The base list places **Harmonist and Detune in MOD**, and **Octave-Shift in WAH**. GEN2 separately adds **MONO OCTAVE** to MOD. Names and block placement are documented; pitch ranges, scale choices and input-note polyphony remain unverified. Do not transfer MG-300, MG-300 MKII or MG-50Li parameters. The name Mono Octave is not a measured tracking result.
+
+NUX advertises **three acoustic IRs and two acoustic amp models** as a way to create acoustic-guitar sound from electric guitar. This is an IR/amp recipe, not proof of a separately named acoustic-simulator block or synthesized instrument engine. Dedicated tracking synthesis remains unverified. **Reverse, Pan and Phi** are Delay choices; **Shimmer** is Reverb. Their presence does not create extra slots or guarantee coexistence with every pitch effect.
+
+The GEN2 page lists firmware1.0.5 and matching editor requirements separately; it does not date each older algorithm’s introduction. Preserve the documented regional numbering/library conflicts and older source tables. No installed-firmware, playing, visual or checkout test; no download. Existing qualified historical Shopee asks, ownership status and active membership remain unchanged.
+
 
 ### Preserved shared-source MG-30 fields
 

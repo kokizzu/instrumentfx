@@ -89416,7 +89416,16 @@
     "source": "https://nuxaudio.com/product/mg30/",
     "checked_date": "2026-10-18",
     "finding": "Named base WAH,CMP,GATE,EFX,EQ,MOD,DLY,RVB choices retained;GEN2 additions kept separate. Category availability not confused with simultaneous block ceiling.",
-    "remaining": "Exact current library by firmware,loop persistence,USB formats,display touch/pixels andnew/used offer conditions unresolved."
+    "remaining": "Exact current library by firmware,loop persistence,USB formats,display touch/pixels andnew/used offer conditions unresolved.",
+    "creative_projection_followup": {
+      "checked_date": "2026-11-06",
+      "canonical": "brand/NUX.md#mg-30--creative-index-and-note-handling-boundaries",
+      "scope": "Separated existing control/memory/creative fields;indexed existing active model using own base/GEN2 manufacturer names,with unknown note handling andseparate acoustic IR/amp recipe.",
+      "active_inventory_change": 0,
+      "additional_index_count": 106,
+      "remaining": "Ranges/note handling,dedicated synth orseparate simulator,current installed library,display/power/market qualifications remain open.",
+      "next": "Continue full-body inspection of remaining field-audit hits;accessible individual footswitch-display andShopee evidence first;preserve GT-Pro,expression andgeneral queues."
+    }
   },
   "vlt2_loop_followup_20261018": {
     "source": "https://manualzz.com/doc/9506742/tc-helicon-voicelive-touch-2-reference-manual",
@@ -157298,6 +157307,15 @@
         "instrument": "ACOUSTICsimulator",
         "qualification": "Pedal/modulation/ambience exclusions;originalE1,partialaudit",
         "evidence_basis": "Exactmanufacturer E1printed18–21;checked2026-11-06"
+      },
+      {
+        "key": "NUX::MG-30",
+        "canonical": "brand/NUX.md#mg-30--creative-index-and-note-handling-boundaries",
+        "synth": "Dedicated tracking synth unverified; filter processing separate",
+        "pitch": "Harmonist;Detune;Octave-Shift;GEN2 Mono Octave;note handling/ranges unverified",
+        "instrument": "Three acoustic IRs andtwo acoustic amps;separate simulator unverified",
+        "qualification": "Reverse/Pan/Phi delay;Shimmer reverb;base/GEN2 library distinctions;not complete fresh audit",
+        "evidence_basis": "Existing exact-model category records andfocused2026-11-06 manufacturer product-text check;no installed-firmware equivalence ortracking-quality certification."
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
