@@ -149011,7 +149011,25 @@
     "destination": "brand/ZOOM.md#g11--independent-historical-control-count-corroboration",
     "qualification": "Original hands-on review supports historical27/11 count;not manufacturer visual verification. Launch-era memory andIR figures remain superseded.",
     "next": "Confirmed individual-LCD gaps;do not repeat unchanged inaccessible panel screenshots.",
-    "g5n_recheck": "No new power/display proof from exact-model searches;V2 screenshot returned no inspectable image. Existing unknowns retained."
+    "g5n_recheck": "No new power/display proof from exact-model searches;V2 screenshot returned no inspectable image. Existing unknowns retained.",
+    "panel_followup": {
+      "checked": "2026-11-06",
+      "front": {
+        "url": "https://zoomcorp.com/media/original_images/G11_top.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+        "bytes": 91477,
+        "sha256": "74409c7227218bf21a8c79bfbe1b9129022985e11f3049602793120d50c10ef6"
+      },
+      "rear": {
+        "url": "https://zoomcorp.com/media/original_images/G11_Rear.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+        "bytes": 27799,
+        "sha256": "32893d2ea6a3d764fbbc5dd97f5cacf86d5c90e986d02adac5faff7fab2d4a43"
+      },
+      "verified": "27rotaries=20effect+6amp+rearMASTER;11chassisFS=5effect+6navigation;1AMPLIFIERbutton;6auxiliaryLCDs+maincolor touch",
+      "scope": "Exact manufacturer photographs visually inspected;toe/rearPOWER separate. Auxiliary monochrome appearance isnot published diagonal/color/touch specification.",
+      "market": "Existing TOKOAUDIOPRO Rp11200000 snapshots remain cached;Serenata/Eleven service unavailable andcamera_islands Habis. No new stock,condition,bundle or checkout proof.",
+      "remaining": "Auxiliary display physical specifications;current installed library;qualified current hardware offers;other unresolved expression/electrical fields retain own sources",
+      "next": "Continue individual-display model gaps;preserve independent GP200JR→Prime→GE300,GTPro andexpression queues"
+    }
   },
   "plethora_x3_own_bypass_history_20261101": {
     "status": "partial;historical manufacturer-authored source",
@@ -176648,7 +176666,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://zoomcorp.com/media/original_images/Zoom_G5n_rear1.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+    "requested_url": "https://zoomcorp.com/media/original_images/G11_Rear.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
     "cache_policy": "One rolling working photograph and receipt in/tmp; URLs and hashes retained with model findings. Retrieval alone is not visual verification.",
     "frame": 0
   }
