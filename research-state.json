@@ -170485,5 +170485,20 @@
       "Remaining category-name inventories"
     ],
     "next": "Continue requested FM3/FM9 remaining primary profile gaps;preserve independent general,expression andconsolidation queues"
+  },
+  "fm3_original_resonator_ring_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--resonator-and-ring-mod-processing-boundaries",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,92,97",
+    "qualification": "Two Resonator/one Ring Mod FM3 instances,CPU permitting;selected chord resonances not input-chord recognition,ring tracking polyphony unverified.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Formant/Rotary exact processing distinctions",
+      "Reverb/Megatap names andGraphicEQ count discrepancy",
+      "Original hardware revision andqualified market evidence",
+      "Global analog-volume coverage"
+    ],
+    "next": "Continue remaining requested FM3/FM9 profile gaps;preserve independent general,expression andconsolidation queues"
   }
 }
