@@ -169309,5 +169309,57 @@
     ],
     "next": "Resolve mass, charging duration, full exact-variant manual andexpression before admission; retain general/display queues",
     "inventory_change": 0
+  },
+  "flamma_fx200b_body_charge_conflicts_20261105": {
+    "model": "Flamma FX200b",
+    "status": "partial discovery evidence; indexed manufacturer originals",
+    "checked": "2026-11-05",
+    "canonical": "brand/FLAMMA.md#fx200b--mass-charge-duration-and-power-source-conflict",
+    "sources": [
+      {
+        "url": "https://flammainnovation.com.cn/file/pdf?fileName=FX200_%E5%AE%8C%E6%95%B4%E7%89%88%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf&url=group1%2FM00%2F00%2F15%2FwKgAK2YMymKAF63nABklA15OWds299.pdf",
+        "revision": "CN_V03_2024.04.02",
+        "printed_page": 72
+      },
+      {
+        "url": "https://device.report/m/64e0972b006fa5bc5339d81a9d1f35d054e7f82dbc7aba16b42e311a33b9b7c6.pdf",
+        "revision": "EN_V02_2025.07.11 quick guide",
+        "access": "indexed body; full reader oversized"
+      }
+    ],
+    "body": {
+      "mass_g": 1799,
+      "standard_fx200_mass_g": 1780,
+      "dimensions_mm": [
+        343,
+        170,
+        55
+      ],
+      "axes": "length width height"
+    },
+    "battery": {
+      "charge_hours_approx": 2.5,
+      "runtime_hours_approx": 5,
+      "store_runtime_hours_up_to": 5.5,
+      "conditions": "unstated"
+    },
+    "conflicts": [
+      "Shared English quick guide9V1A versus Chinese explicit battery-model9V3A; no confirmed revision resolution"
+    ],
+    "ir": {
+      "format": "WAV",
+      "rate_hz": 44100,
+      "bits": 24,
+      "points": 1024,
+      "conversion": "unverified"
+    },
+    "remaining": [
+      "Full exact manual/current firmware",
+      "Control census andexpression wiring/scope",
+      "Synth/acoustic andper-category named detail",
+      "Qualified exact Shopee hardware"
+    ],
+    "next": "Continue FX200b control/expression evidence where accessible, then other catalogue gaps; preserve display priority and general cycle",
+    "inventory_change": 0
   }
 }

@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(flamma): document FX200b supply charging and connector scope'
+        message='research(flamma): reconcile FX200b mass charge and supply documentation'
     print(git('commit','-m',message))

@@ -60,6 +60,22 @@ Checked **2026-11-05**. [Manufacturer Chinese FX200/FX200b Manual_CN_V03_2024.04
 
 The [exact manufacturer FX200b store page](https://www.flamma.shop/products/%F0%9F%8E%B8flamma-fx200b-guitar-multi-effects-battery-powered) additionally claims **up to5.5hours** runtime,without test conditions. This narrows the earlier runtime unknown,not guaranteed endurance. Mass,charging duration,expression wiring,current firmware andqualified Shopee offers remain open;still outside active counts. No files downloaded ordevice operated.
 
+### FX200b — mass, charge duration and power-source conflict
+
+<a id="fx200b--mass-charge-duration-and-power-source-conflict"></a>
+
+Checked **2026-11-05**, manufacturer-authored indexed passages from the [Chinese FX200/FX200b manual,CN_V03_2024.04.02,printed72](https://flammainnovation.com.cn/file/pdf?fileName=FX200_%E5%AE%8C%E6%95%B4%E7%89%88%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf&url=group1%2FM00%2F00%2F15%2FwKgAK2YMymKAF63nABklA15OWds299.pdf) and [English FX200/FX200B quick guide,EN_V02_2025.07.11](https://device.report/m/64e0972b006fa5bc5339d81a9d1f35d054e7f82dbc7aba16b42e311a33b9b7c6.pdf). Matching [Thomann-hosted file](https://images.static-thomann.de/pics/atg/atgdata/document/manual/551272_fx200_551272_fx200b_579552_qsg_en_v02_2025.pdf) is oversized for the reader;indexed original text only,no full-body/visual inspection.
+
+| Field | Variant-qualified evidence |
+|---|---|
+| Body | Both tables separate **FX200b1,799g** fromFX2001,780g. Shared dimensions **343×170×55mm**;Chinese table labels length×width×height. Do not replace battery-model mass withstandard-model mass. |
+| Charge / endurance | Chinese manual: **about2.5hours charging,about5hours runtime**. Manufacturer-store **up to5.5hours** remains a separate claim;conditions andbattery-aging effects unstated. Neither proves USB charging orplay-while-charging. |
+| Supply conflict | English shared quick guide prints **9V/1A,center-negative** without separating variants;Chinese specification explicitly gives **FX200b9V/3A**. Preserve the conflict,not a proven revision change orpermission tosubstitute1A. |
+| External control / MIDI | English guide explicitly requires **TRS** for EXP2. The single DIN port is configurable **MIDI IN orMIDI OUT**,not two simultaneous sockets. Pedal wiring/resistance range andUSB MIDI remain unverified. |
+| IR format | Shared guide lists **WAV,44.1kHz,24bit,1024points**. This is the documented IR table,not ADC rate,proof ofautomatic format conversion orNAM support. |
+
+These narrow the prior unknowns without completing admission. Full manual/current firmware,knob/button/toe census,expression assignment,synth/acoustic/category detail andqualified Shopee hardware remain open. Outside active counts;no downloads,connections ordevice tests.
+
 ## Consolidation provenance
 
 Existing FX100 blob `0a366c17163ad26d646d48bc4a2b174c55a4e802` and FX200 blob `bb326bf057dcb3d0da29d3bd9c70e4579ba784a0` supplied all preserved model fields,source URLs,prices and qualifications above. Stale next-batch instructions are replaced by root research-state.json,not treated as technical facts. FX150 is one new model;the two consolidations add none. Shared legacy comparison links still require retirement validation;old sources were not deleted by this commit.
