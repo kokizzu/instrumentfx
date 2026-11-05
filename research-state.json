@@ -150685,7 +150685,25 @@
     "qualification": "Indexed original review text;40.3MB direct reader limit;no visual inspection/local download. Do nottransfer launch counts/editor claims tocurrent firmware.",
     "root": "brand/ZOOM.md#g5n--independent-historical-panel-control-lead",
     "remaining": "Manufacturer separate-button census/visual corroboration,LCD diagonal/color/touch,current library andqualified new-condition offers",
-    "inventory_change": false
+    "inventory_change": false,
+    "panel_followup": {
+      "checked": "2026-11-06",
+      "front": {
+        "url": "https://zoomcorp.com/media/original_images/Zoom_G5n_Top1.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+        "bytes": 55121,
+        "sha256": "d47c6a44212415d3575ebcd5c08194465e1d57c9536f7bdf4e774badc867e272"
+      },
+      "rear": {
+        "url": "https://zoomcorp.com/media/original_images/Zoom_G5n_rear1.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+        "bytes": 17964,
+        "sha256": "5565b55fad96a595c21e73165313503c1f5df21584900a4820b47dd481bb05cb"
+      },
+      "verified": "20 rotaries;9 chassis footswitches;9 buttons;4 effect LCDs plus Overview;separate PHONES;USB Type-B visual identification",
+      "limits": "Treadle switch and rear POWER separate;appearance isnot hardware color/touch/diagonal specification;USB connector isnot bus-power/protocol/routing proof",
+      "market": "Existing used item148185983/10348658140 Rp3000000 remains two-month snapshot;no new stock/condition/bundle/checkout proof",
+      "remaining": "Display physical specifications;current installed library;primary USB routing/channel evidence;power alternatives;qualified current offers",
+      "next": "Continue individual-display gaps;preserve GP200JR→Prime→GE300,GTPro andexpression queues"
+    }
   },
   "spark_pedal_backup_looper_scope_20261101": {
     "checked": "2026-11-01",
@@ -176630,7 +176648,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://zoomcorp.com/media/original_images/B3nREAR1.png.0x800_q80_crop-%2Cscale_size_canvas.png",
+    "requested_url": "https://zoomcorp.com/media/original_images/Zoom_G5n_rear1.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
     "cache_policy": "One rolling working photograph and receipt in/tmp; URLs and hashes retained with model findings. Retrieval alone is not visual verification.",
     "frame": 0
   }
