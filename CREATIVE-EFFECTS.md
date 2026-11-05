@@ -42,10 +42,11 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **103 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **104 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
+| [Tech 21 Bass Fly Rig v2](brand/TECH21.md#bass-fly-rig-v2--creative-index-and-detuned-voice-boundary) | Octave/filter/fuzz synth-style processing | Monophonic octave divider;chorus detuning | Acoustic simulation unverified | Compression sustain differs fromfreeze;own©2021 manual;not acomplete freshaudit |
 | [Sonicake Smart Box](brand/SONICAKE.md#smart-box--named-fx-inventory-and-creative-capabilities) | Synth unverified;filters distinct | Polyphonic Octave/Pitch;Detune | AC G | [Delay/reverb roles](brand/SONICAKE.md#smart-box--drive-eq-delay-and-reverb-inventory);V1.0.1;current-equivalence unverified |
 | [Zoom GFX-3](brand/ZOOM.md#gfx-3--named-menu-and-discrete-pitch-intervals) | Dedicated synth unverified; SFX/filter processing | PITCH; PDL-PIT; chord support unverified | ACFAT; AC BRI | Shared MOD slot; full menu and source conflicts retained |
 | [Zoom GFX-5](brand/ZOOM.md#gfx-5--complete-named-menu-and-pitch-source-conflict) | Dedicated synth unverified; ARRM/filter/envelope processing distinct | PITCH prose/table range conflict; P-PIT16 modes; chord handling unverified | AC FAT; AC STD; AC BRI | STEP; FILTER; RING M; SLOW-A; T-TRIP; RINVIB; hold delay distinct from sampler; shared slots |

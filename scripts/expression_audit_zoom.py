@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(nux): retain MG-50Li variation lead without price-floor claim'
+        message='research(tech21): index Bass Fly Rig v2 creative processing'
     print(git('commit','-m',message))

@@ -68,7 +68,7 @@ Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and gui
 | Dimensions / mass | **12.5L×2.75W×1.25H inches;20.7oz**. Long strip; no v1 dimensions borrowed. | [Product][BFR2-P] |
 | Processing / categories | Analog FET compression; SansAmp with two Character voicings; interacting octave/filter/fuzz plus chorus. Two Drive/Level pairs switch channels. Choice counts are not a verified simultaneous-processing ceiling. | [Product][BFR2-P] |
 | Factory / user memory | Two channel control pairs are documented; programmable factory/user/total preset storage unverified. | [Manual pp3–4][BFR2-M] |
-| Synth / acoustic | Octafilter provides synth-style tones; octave divider is monophonic. Acoustic simulation unverified. | [Product][BFR2-P]; [Manual p5][BFR2-M] |
+| Synth / acoustic | [Octafilter andchorus mechanism](#bass-fly-rig-v2--creative-index-and-detuned-voice-boundary):monophonic octave-divider/filter/fuzz synth-style processing;chorus detunedvoice. Dedicatedinstrument synthesis/acoustic simulation unverified. | [Product][BFR2-P]; [Manual p5][BFR2-M] |
 | I/O | Quarter-inch 4.7Mohm input with pad; unbalanced quarter-inch low-Z out; balanced XLR low-Z out with ground-connect. Both outs usable together. Send/Return after SansAmp. Complete digital/control/headphone audit pending. | [Manual pp1–2,6][BFR2-M] |
 | Power / battery / USB | **9V DC, centre-negative; approx 100mA maximum consumption**. Manual DC9 supply 200mA versus product DC9 supply 250mA; adapter-rating discrepancy retained, not device draw. Universal 100–240V input; manual also permits older DC4. Battery/USB operation unverified. | [Manual cover][BFR2-M]; [Product][BFR2-P] |
 | IR / NAM / capture | Analog cabinet simulation; defeat affects quarter-inch only, not XLR. External downstream IR suggestion does not establish onboard user IR, native/converted NAM or capture loading. | [Product][BFR2-P]; [Manual p4][BFR2-M] |
@@ -139,6 +139,14 @@ Next: physical control census, precise full signal order, preset-storage/import/
 ### Bass Fly Rig v2 — qualified expression and headphone screen
 
 Checked2026-10-28 in [own ©2021 v2 manual][BFR2-M],Ins and Outs/Effect Loop. Bass use documented;ordinary guitar remains unclassified. Instrument input,quarter-inch output,XLR,Send/Return andpower are described;no EXP/headphone connection is established by that text. Full visual absence audit remains incomplete,so these stay **unverified**. The original Bass Fly Rig’s headphone button is not transferred to v2. Audio Send/Return and channel Drive/Level pairs do not establish global expression assignment or programmable preset browsing. Position/endpoints/recall,bypass/phones/tail/recorded-loop attenuation remain unknown. Published12.5×2.75inch footprint converts to317.5×69.85mm andfails either preferred orientation. No local download orhardware test.
+
+### Bass Fly Rig v2 — creative index and detuned-voice boundary
+
+Checked **2026-11-06**, exact [©2021 v2 owner manual,printed5–7][BFR2-M]. Octafilter combines a **monophonic octave divider**,dynamic filter andoptional gated fuzz. Its digital square-wave division isnot proof ofpolyphonic tracking or a sampled-instrument engine.
+
+CHORUS adds a detuned voice to the analog path;the manufacturer’s multiple-instrument analogy describes the resulting sound,not input-note tracking. Adding compression for keyboard-bass-like sustain doesnot establish freeze/hold capture orrecorded-loop memory. The already documented dynamic-filter/Mix interactions remain.
+
+This existing bass record isnow linked fromthe creative index;no guitar membership orownership inferred. EXP,headphone support,fullcontrols andqualifiedShopee offers remain unresolved. The current screenshot response supplied no inspectable image;no visual confirmation,download ordevice operation claimed.
 
 ## Fly Rig 5 v2
 
