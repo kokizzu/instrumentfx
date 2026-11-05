@@ -436,6 +436,8 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Practical / tail continuity | **Own7.x manual pp99,133:** preset spillover is globally OFF by default; options enable Delay, Reverb or both. Matching numbered blocks must exist in both presets (Delay1→Delay1, etc.). Settings, placement and bypass modes can alter the tail. For individual-block bypass, MUTE FX IN preserves tails; parallel routing uses MUTE IN. Scene spillover is not controlled by that global preset-spillover switch. This does not establish loop continuity, seamless preset changes or position recall for global volume. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) |
 | Practical features | Looper,tuner,programmable tap/hold footswitches,eight layouts; FASLINK II supports up to two FC6/FC12 controllers. [June2023 Blocks Guide pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) explicitly names FM3: **stereo looper,120s maximum**; The [November2026 guide follow-up](#fm3-mkii-turbo--november-looper-speed-and-recording-controls) documents **FULL/HALF playback;HALF lowers pitch one octave**. Recording-quality basis,capacity atHALF andfirmware13 equivalence remain unverified. Undo/redo,reverse,one-shot,threshold recording,beat quantization and loop-end crossfade documented. Playback/Dry/Overdub levels are separate; playback filters do not affect recording. Drum machine remains unresolved. [Product](https://www.fractalaudio.com/fm3/) |
 | Bass capability | Manufacturer explicitly describes guitar/bass processing; shared bass model, not equal low-end performance certification. [Product](https://www.fractalaudio.com/fm3/) |
+| Display / label destinations and ring states | [Current versus destination labels and Smart Bypass](#fm3-mkii-turbo--mini-label-destinations-and-bank-loading) have distinct meanings; long effect names can hide channel text. April2022 shared-guide behavior, not a current firmware13 test. |
+| Live / bank-load choices | [None, First and Current](#fm3-mkii-turbo--mini-label-destinations-and-bank-loading) distinguish selecting a bank from loading a preset. Global bank limits require enabling; these functions do not add switches or global expression coverage. |
 
 ### FM3 MKII Turbo — shared-jack expression and switch exclusion
 
@@ -1005,6 +1007,20 @@ Checked **2026-11-05**, [manufacturer Blocks Guide,November2026,printedpp3,94–
 - **Ducker:** input above Threshold reduces wet volume by Attenuation;Release controls recovery. Zero Attenuation disables ducking. This is automatic wet-path behavior,not a continuous pedal target orall-output mute.
 
 Retain the FM3-specific exclusion ofintegrated Reverb pitch shifting andthe Plate/Spring parameter exceptions already recorded. No complete79-name census,held-position recall orpreset/power-cycle tail persistence follows. Display specifications andqualified exact-revision Shopee stock remain open;no local download ordevice operation.
+
+### FM3 MKII Turbo — mini-label destinations and bank loading
+
+Checked **2026-11-05**, [manufacturer Footswitch Functions Guide v1.3, April2022, pp2–6,8–9](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf). It explicitly covers FM3 onboard switches and remains linked by the [current FM3 downloads page](https://www.fractalaudio.com/fm3-downloads/). The previously verified7.x owner manual includes MKII Turbo and refers to this guide. Shared-reference behavior is not an installed firmware13 test or physical display specification.
+
+| Field | Documented distinction |
+|---|---|
+| Display / current and destination | Preset labels can show the current or destination name/number. Name modes show the first ten characters; custom-label capacity is unspecified. A destination label does not mean that preset is loaded. |
+| Display / effect-label truncation | Long effect-name formats can hide instance/channel identifiers. Short Name + Channel avoids that name-length problem. This is formatting, not screen resolution. |
+| Display / Channel Select ring states | With Smart Bypass, dim can mean another channel or bypass; off means the block is absent. With second-press Off/Previous Channel, off can mean bypass or absence. These rules concern Channel Select, not every switch function. LED color does not establish mini-LCD color. |
+| Live / bank selection | None waits for preset selection; First loads the first preset; Current keeps the within-bank position. Global bank size1–12 changes grouping, not capacity. Bank Inc/Dec limits require global enabling and are disabled by default in this guide. |
+
+The fresh Shopee search repeated the three existing exact MKII items; no new condition/stock-qualified offer was established. Gapless switching and global pedal-volume coverage do not follow from these navigation options. Existing prices and qualifications remain intact. No download or device operation.
+
 
 ## FM3 original
 

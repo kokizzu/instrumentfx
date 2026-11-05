@@ -171576,5 +171576,31 @@
     ],
     "qualification": "Ordinal condition-unverified offers stayotherpricecolumn;explicit sellerlabels areevidence,notindependentconditionverification;sourceamounts/caveats retained",
     "active_inventory_unchanged": 402
+  },
+  "fm3_mkii_labels_bankload_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Fractal Audio::FM3 MKII Turbo",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--mini-label-destinations-and-bank-loading",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf",
+      "https://www.fractalaudio.com/fm3-downloads/"
+    ],
+    "revision": "Guide1.3 April2022 pp2–6,8–9;sharedFM3 reference;7.xMKIIownerreferenceseparate;firmware13untested",
+    "findings": {
+      "labels": "Current/destination preset names first10characters;customcapacityunknown;long effectnames canhideinstance/channel",
+      "rings": "ChannelSelect only:SmartBypass dim includes bypass;offabsent. SecondPressOff/PreviousChannel offbypassorabsent;notminiLCDcolor",
+      "bank_loading": "None/First/Current;bank1–12 grouping notcapacity;banklimitsdisabledgloballybydefault"
+    },
+    "market": "Same11170212/27200713719 and182719800/55801628505 soldout/voucher asks plus1653859734/54450336270 cached hardwaretitle;no newqualifiedoffer. TMP/AXOM searches no newpriorityoffer.",
+    "remaining": [
+      "Firmware13 equivalence",
+      "Mini-screen diagonal/pixels/color/touch",
+      "Currentcategorycensus/factoryoccupancy",
+      "GlobalEXP endpoints/heldposition/USB/bypass/tails/loopcoverage",
+      "Condition/revision-qualified exactShopee stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "additional_creative_records_unchanged": 80,
+    "next": "Continue priority separate-display primarysources andexactShopee discovery;preserve independent GT-Pro,GP-200JR → Prime → GE300,expression andlossless consolidation queues"
   }
 }
