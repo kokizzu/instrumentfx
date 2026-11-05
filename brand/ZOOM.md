@@ -4324,6 +4324,17 @@ Checked **2026-11-03** in the [support-linked shared effects list](https://zoomc
 
 This focused check adds the existing model to the creative index;membership,seven-slot/DSP limits and older source conflicts remain unchanged. No download orhardware test.
 
+### G3Xn — revision-qualified control distinctions
+
+Checked **2026-11-06** against Zoom’s exact-model [firmware history Z2I-3323-03](https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf),one page,explicitly G3n/G3Xn,andindexed original [owner manual printed18](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf). Full ownerPDF exceeds reader limits;indexed original patch-setting text was readable. No installed-version ordevice test.
+
+| Field | Documented revision / practical limit |
+|---|---|
+| Editor / firmware reliability history | **1.10,November2016:** fixes looper recording sometimes failing during simultaneous rhythm use. **2.00,April2018:** supports Guitar Lab3,improves encoder operation,adds OutputVP carryover andpreviously distributed effects. **2.20,May2019:** fixes Guitar Lab EDITOR View sometimes unavailable andUSB connection becoming disabled after aperiod. These are historical firmware fixes,not USB-audio support,current OS compatibility orguaranteed defect-free operation. Startup displays the system-firmware version. |
+| Memory / patch level and naming | PATCH SETTINGS LEVEL spans **0–120**. This is aper-patch control,not dB,a documented percentage scale,global master-volume range orOutputVP endpoints. Naming uses encoder character selection/editing;holding it changes character type. The indexed passage doesnot establish maximum name length ormini-LCD physical specifications. Existing Auto Save/manual-save rules remain. |
+
+Existing individual LCDs,7-slot/100-point budget,OutputVP assignment uncertainty anddated Shopee observations remain unchanged. No software downloaded,USB connected orsettings changed.
+
 <!-- comparison evidence ends -->
 
 ### G3Xn sources and next verification

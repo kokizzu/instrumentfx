@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): index SE-50 creative and expression boundaries'
+        message='research(zoom): qualify G3Xn firmware and patch level controls'
     print(git('commit','-m',message))

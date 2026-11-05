@@ -147641,7 +147641,17 @@
     "finding": "Effect-level range and cross-patch carryover distinguished; firmware and web publication dates kept separate.",
     "remaining": "Every-patch assignment, startup recall and output coverage unverified; no external CONTROL IN inferred.",
     "downloads": false,
-    "hardware_test": false
+    "hardware_test": false,
+    "firmware_patch_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/ZOOM.md#g3xn--revision-qualified-control-distinctions",
+      "source": "https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf",
+      "revision": "Z2I-3323-03;1.10Nov2016,2.00Apr2018,2.20May2019",
+      "additional_source": "https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf",
+      "scope": "Looper/rhythm recording,encoder andUSB/editor reliability fixes;patchLEVEL0–120 distinctfromglobal/pedal volume",
+      "remaining": "Installed version,modernhostsupport,USBpower applicability,physicaldisplay/ports,qualifiedcurrentoffers;independentqueuesunchanged",
+      "inventory_changed": false
+    }
   },
   "g3x_auto_targets_chain_window_20261101": {
     "model": "G3X",
