@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify GCE-3 emulation utilities and software support'
+        message='research(tc-electronic): qualify Plethora X5 tuner and tempo readouts'
     print(git('commit','-m',message))

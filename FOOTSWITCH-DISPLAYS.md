@@ -221,3 +221,5 @@ Prime [doubled-block selection qualification](brand/HEADRUSH.md#prime--stereo-do
 [Sheeran Looper X](brand/SHEERAN-LOOPERS.md#looper-x--partial-discovery-lead) is a shared-screen partial discovery, outside active counts and the requested individual-screen shortlist. Status LEDs do not establish separate footswitch displays.
 
 Looper X [firmware-qualified status corrections](brand/SHEERAN-LOOPERS.md#firmware-qualified-display-midi-and-preset-preview-behavior) concern its shared screen and pedal LEDs; they do not establish individual footswitch screens.
+
+PLETHORA X5 [historical tempo/tuner display boundary](brand/TC-ELECTRONIC.md#plethora-x5--tuner-resource-and-tempo-display-limits): regional1.3.11 manual offers BPM/ms readouts andan independent hidden tuner;the later1.4.3 Tap/Tuner utility’s slotcost remains unverified. Neither adds physical LCDs orresolves their diagonal/touch specifications.
