@@ -294,6 +294,16 @@ Checked2026-10-18 against [Korg’s four-page AX5 Series EasyStart](https://cdn.
 | Memory / factory reload destination | Guide p2 explicitly loads factory programs into **user01–40**,overwriting allcustom entries,then recalls01. This corroborates reload occupancy;it does not document exact initial factory-to-user patch mapping orcurrent used-unit contents. |
 | Live / bank navigation and editing display | WRITE/CANCEL jump banks inProgram mode. In the guide’s MOD parameter-edit example,ProgramUp displays currentvalue;ProgramDown displays type/parameter. These mode-dependent functions are not extra physical controls. |
 | Routing / sibling-only restriction | Guide p3 labels **Amp/Line Setting AX5G-only**. Its A1/A2/A3/Ln output profiles are not transferred toAX5B. Same page’s strayAX3-Series header andunrelated parameter labels remain source inconsistencies,not evidence of more AX5B categories. |
+### AX5B — pitch controls and synth gain-staging limits
+
+Checked2026-11-05 against original manufacturer EFG1 manual,printed13,52,54. Revision identity is not a firmware or installed-version claim. [Own manual][AX5B-M]
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Pitch / editable parameters | MOD F7 Pitch Shifter lists PITCH−12…12,EFFECT0–10,DIRECT0–10,FINE−15…15 andTRACKING1–10. The table does not specify PITCH/FINE units;semitones/cents are not inferred. A TRACKING parameter does not establish monophonic orpolyphonic input handling. |
+| Synth / distortion troubleshooting | English troubleshooting directs users of SYNTH to check excessive DRIVE/AMP VOLUME orPROGRAM LEVEL. This is patch-level gain-staging advice,not a documented input-trim setting,tracking-quality measurement orproof of chord support. |
+| Memory / synth examples | Factory41–80 chart includes48 70’ZSYNT and64 SYNTH,each assigning thepedal toPRE FX SYNTH RESO. These are preset examples,not additional synth engines,voice counts orglobal pedal assignments. |
+
 <!-- comparison evidence ends -->
 
 [AX5B-F]: https://www.korg.com/de/products/effects/ax5b/page_1.php
