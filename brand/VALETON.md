@@ -869,6 +869,7 @@ Current comparison summary, reconciled2026-10-28 from the exact-model sources re
 | Audio I/O |¼-inch TS input,1MΩ;separate L/R¼-inch unbalanced TS outputs,100Ω;dedicated3.5mm stereo TRS phones,22Ω. Impedance is not headphone power/load guidance. BT audio supports playback/USB recording;no AUX jack inferred. |
 | USB / independent recording and monitor levels | [Own regional manual,firmware1.0.5,p20](https://www.hotone.jp/manuals/valeton/GP-50.pdf),checked2026-11-03: **REC Level,BT REC andMonitor Level each−20…+20dB,default0dB**. **REC Mode L/R independently selects Dry orWet**,defaultWet. Dry is unprocessed;Wet includes effects. These are USB routing/gain controls,not verified analogEXP targets,extra recording channels ora guarantee that all USB/headphone audio follows pedal volume. |
 | I/O / global input andcabinet scope | Same manualp20: **Input Level−20…+20dB,default0dB**. **No CAB Mode** forces cabinet bypass without changing the patch,defaultOff. This documented global cabinet override doesnot establish a global volume-target override. Historical1.0.5 only;current1.1.0 equivalence andactual output coverage remain unverified. Remote original text,no download ordevice operation. |
+| I/O / automatic cabinet matching | [Own firmware1.0.5 manual,printedp23](#gp-50--automatic-cabinet-matching-and-user-ir-exception): **Auto CAB Match defaults On**,pairing/adjusting CAB when AMP changes. It **does not take effect with an IR file loaded in CAB**. Separate from global No CAB bypass,IR import capacity andanalog EXP assignment;current1.1.0 equivalence unverified. |
 | Data / control |USB-C audio/MIDI;separate3.5mm TRS MIDI IN andTHRU;TRS EXP/FS. MIDI TypeA/B,host ability andcontroller pinout unverified. Earlier1.0.5 ordinary Bluetooth-MIDI limitation must not be assumed current1.1.0. |
 | Power |**1450mAh rechargeable;9V DC center-negative orUSB5V operation/charging**,5.5×2.1mm DC. Manufacturer labels500mA DC/1A USB as Current Consumption;not measured draw. SAVE+GLOBAL battery power toggle. |
 | Editor / USB audio |iOS/Android editing;Windows/macOS file/firmware management. [Unofficial VLTN Tone Studio lead](#gp-50--unofficial-desktop-editor-and-experimental-expression-commands) is separate anduntested. Suite2.1.0 supports GP-50 firmware1.1.0;iOS/iPadOS14+. Mobile app’s M1/macOS11 availability is marked not verified for macOS,not desktop-suite requirements. **USB2-in/2-out,reamp;24-bit converters/44.1kHz** do not certify every USB stream format. |
@@ -1247,6 +1248,12 @@ Checked **2026-11-05**, [regional manufacturer-hosted Japanese manual,firmware1.
 
 The official1.1.0 PDF remains inaccessible. Retain unknown all-preset analog-volume assignment andall older source qualifications. No download,software ordevice operation.
 
+
+### GP-50 — automatic cabinet matching and user-IR exception
+
+Checked **2026-11-05** against the [manufacturer-authored English manual,firmware1.0.5,printedp23/PDFpage26](https://manuals.plus/m/62ee73765be68fba94241219c8e998d6763ec022993418a85a41cc932830b64d.pdf). The cover explicitly names1.0.5;the GP-50 panel and59-page structure match the established original. **Auto CAB Match** automatically pairs/adjusts CAB following AMP changes,defaults **On**,and **does not take effect if CAB has an IR file loaded**. This is a documented exception to automatic cabinet selection,not proof of preserving every IR setting through every preset change,extra CAB blocks oradditional import slots.
+
+The separate **No CAB Mode** bypasses the cabinet without rewriting the patch;do not conflate bypass with automatic matching. Neither function establishes a global analog expression-volume target orresolves current1.1.0 applicability. The original PDF text was read remotely;no local download,software installation ordevice operation. Existing sources,prices and112-algorithm census remain unchanged.
 
 ## GP-100
 
