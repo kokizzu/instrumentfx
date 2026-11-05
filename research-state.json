@@ -158748,7 +158748,28 @@
       "Qualified exact Shopee hardware"
     ],
     "active_count_unchanged": 402,
-    "independent_queues_preserved": true
+    "independent_queues_preserved": true,
+    "scope_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/BOSS.md#ex-4--play-screen-lock-scope-and-bulk-load-feedback",
+      "sources": [
+        "https://static.roland.com/manuals/ex-4_reference/en-US/581587723589801227.html",
+        "https://static.roland.com/manuals/ex-4_reference/en-US/580587531589803275.html"
+      ],
+      "revision": "©2026 original HTML;minimumfirmware unstated",
+      "finding": "DedicatedLOCK page play-screen knobs versusbroaderpanelwording;SysExreceipt indicator andbufferfull transferpacing remedy",
+      "access": "LOCK directcachemiss,indexed original readable;bulkload manufacturer original indexed body",
+      "summary_reconciliation": "Opening summary now reflects retained46-family/120reconstruction,single-note synths,globalOUTLEVEL0–200 andEXP HOLD;older dated evidence preserved",
+      "remaining": [
+        "Lock button/footswitch/EXP exceptions",
+        "Qualified exact Shopee hardware",
+        "Bypass/tail/send volume coverage",
+        "Power-on pedal state",
+        "Software/power profile gaps"
+      ],
+      "inventory_changed": false,
+      "next": "Continue requested individual-screen profiles andexactShopee discovery whereaccessible;preserve independentGT-Pro,expression andGP200JR→Prime→GE300 queues"
+    }
   },
   "ax3g_creative_scope_20261103": {
     "source": "https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf?response-content-disposition=inline%3Bfilename%3DAX3GFXParamGuideE1.pdf&response-content-type=application%2Fpdf%3B",

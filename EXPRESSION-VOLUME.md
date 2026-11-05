@@ -857,6 +857,8 @@ Stadium Floor [firmware recall qualification](brand/LINE6.md#stadium-floor--firm
 
 EX-4 [memory-transition qualification](brand/BOSS.md#ex-4--memory-gap-direct-sound-and-noise-detection): SEAM’s direct replacement during a memory gap is separate from CARRYOVER decay. Attenuation of transition audio by the system OUT LEVEL target remains unverified; neither setting proves global full-route mute.
 
+EX-4 [current summary andlock/restore scope](brand/BOSS.md#ex-4--play-screen-lock-scope-and-bulk-load-feedback): SYSTEM settings belong to documented SysEx backup;play-screen knob lock isnot assignment protection orproof ofEXP mute coverage. Startup state andall-route attenuation remain unverified.
+
 Chocolate’s [current named-product ratings and mixed-offer exclusion](brand/M-VAVE.md#chocolate--current-named-product-ratings-and-mixed-offer-exclusion) now separate manufacturer body/battery data from an unresolved Chocolate/Plus Shopee variation. These do not resolve analog wiring or global processor-volume assignment.
 
 ### Donner Pocket X — partial direct-expression exclusion
