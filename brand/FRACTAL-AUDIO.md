@@ -2148,6 +2148,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Categories / Multi-Delay special effects | **39 reference choices: six core types plus33 variants;two FM9 instances**, DSP permitting. [Named inventory and type limits](#fm9-original--november-multi-delay-choices-and-internal-processing): internal comb/ring/filter/chorus processing is type-specific, not extra blocks or synth tracking. |
 | Categories / Plex special effects | **45 reference choices: five core algorithms plus40 variants; one FM9 Plex block**, DSP permitting. [Named inventory and capture limits](#fm9-original--november-plex-choices-and-voice-count-boundaries) distinguish internal delay lines, pitch effects and held tails from synth tracking. |
 | Categories / Pitch names and tracking | **16 reference types;one FM9 Pitch instance**, DSP-limited. ChromaticNotes/Chords;VirtualCapo polyphonic;Diatonic monophonic. [Named November2026 limits](#fm9-original--november-pitch-types-and-note-handling-scope);Synth remains separately monophonic. |
+| Categories / Reverb naming and internal echoes | [November reference follow-up](#fm9-original--reverb-families-and-pre-delay-routing) distinguishes nine naming families from the advertised79 types, and documents internal pre-delay echo routing. Not a completed named census or additional free Delay block. |
 | Categories / Reverb and Ring Mod | November2026 reference: **79 advertised Reverb types, not a named census; two FM9 instances. Ring Mod: three modes, one instance.** [Hold/Stack and pitch-processing limits](#fm9-original--november-reverb-and-ring-mod-scope);DSP and installed-firmware qualifications apply. |
 | Preset memory | **512 editable presets**,including overwritable factory entries; **eight scenes each**. [Current manufacturer FM9-family default:384](#fm9-original--family-factory-preset-default-and-version-scope);original-revision shipping allocation andcurrent unit contents remain unverified. These occupy the512 locations,not extra protected presets. Four preset-bank backups are separate fromSystem/UserCabs; [range typo andbackup scope](#fm9-original--preset-bank-backups-and-source-range-error). [Own memory](#fm9-original--global-volume-memory-and-cpu-scope). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**;notthree-note polyphony. Acoustic input support does not establish electric-to-acoustic simulation,which remains unverified. [Original manual evidence](#fm9-original--dated-processing-census-synth-and-looper). |
@@ -2489,6 +2490,15 @@ Checked **2026-11-05**, [manufacturer FM9 Original/Turbo owner manual,August2022
 Out1,Out2 andOut3 have independent global EQs, selectable Graphic/Parametric/disabled, each with master Level. They alter all presets and cover analog signals at balanced/unbalanced jacks and headphones, **not USB or digital outputs**. The manual cautions that Level can cause clipping or reduce signal-to-noise performance. This EQ scope doesnot establish analog-pedal assignment, volume endpoints or tail/looper behavior.
 
 Custom Shifter has **32 global custom scales**, each mapping the12 chromatic notes to offsets of **−24…+24semitones**. Edits take effect immediately without STORE; soft controls reset one orall values tozero. FM9-Edit supports scale editing/import/export. These are global pitch maps,not preset slots,simultaneous generated voices orproof of chord tracking. Historical scope and existing tracking/firmware uncertainties remain. No settings changed ordevice operated.
+
+### FM9 original — Reverb families and pre-delay routing
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,93–95](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). **Chamber,Cloud,Echo,Hall,Huge,Plate,Room,SFX,Spring** are nine naming families, not nine algorithms or the complete79-name inventory.
+
+Pre-Delay Tempo/Feedback/Mix permit echo processing inside Reverb. At **Pre-Delay Mix100%**, discrete echoes can be heard without reverb. **Pre-Delay Tap OUTPUT** feeds reverb after pre-delay; **INPUT** starts reverb directly while pre-delay echoes run separately. This is internal routing, not another freely placeable Delay block.
+
+**ECONOMY,NORMAL,HIGH,ULTRA-HIGH** trade reverb complexity against CPU. Plate types omit early-reflection controls and Pitch Position; Spring omits pitch/modulation. These distinctions qualify the general parameter list rather than adding simultaneous instances. FM9’s two Reverb instances remain DSP-limited. Installed equivalence, introduction versions and full named census remain unresolved; no device operation or local download.
+
 
 ## FM9 Turbo
 
