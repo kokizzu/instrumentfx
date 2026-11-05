@@ -42,10 +42,11 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **104 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **105 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
+| [Korg AX1000G](brand/KORG.md#ax1000g--creative-pitch-and-filter-boundaries) | Dedicated synth unverified;TALK/RINGMOD distinct | ±24semi shifter/bend;restricted octave-down | ACOUSTIC | Shared-slot exclusions;original E1;not complete fresh audit |
 | [NUX MG-20](brand/NUX.md#mg-20--creative-algorithms-and-named-processing-menu) | Dedicated synth unverified;ROTARY SPK distinct | Harmonist;Detune;pedal Whammy;note handling unverified | Acoustic simulation unverified | Reverse/Pan/modulated delay;shared MOD alternatives;original©2014 manual transcription,not full fresh audit |
 | [Tech 21 Bass Fly Rig v2](brand/TECH21.md#bass-fly-rig-v2--creative-index-and-detuned-voice-boundary) | Octave/filter/fuzz synth-style processing | Monophonic octave divider;chorus detuning | Acoustic simulation unverified | Compression sustain differs fromfreeze;own©2021 manual;not acomplete freshaudit |
 | [Sonicake Smart Box](brand/SONICAKE.md#smart-box--named-fx-inventory-and-creative-capabilities) | Synth unverified;filters distinct | Polyphonic Octave/Pitch;Detune | AC G | [Delay/reverb roles](brand/SONICAKE.md#smart-box--drive-eq-delay-and-reverb-inventory);V1.0.1;current-equivalence unverified |

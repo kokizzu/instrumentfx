@@ -696,6 +696,7 @@ Guitar multi-effects;distinct fromAX1500G/AX100G. Checked2026-10-17;partial. Kor
 | Processing / category choices | **56types;maximum8effects**,with pedal/block exclusions. Manual-derived five selector categories×11 choices(DRIVE-AMP,CABINET,MODULATION,PEDAL,AMBIENCE)=55;NR adds1. DRIVE includes3bandEQ;compositeeffects are not independent extra slots. | [Manual pp3,15–22][AX1000-M] |
 | Factory / user memory | **80=40preset+40user**,factory user copies presets. Presets read-only;WRITE twice with destination. Reload overwrites users/settings. | [Manual pp7,13–14][AX1000-M] |
 | Synth / acoustic | ACOUSTIC electric-to-acoustic simulator includes compressor. TALK vowel processing andRINGMOD do not establish synthesizer architecture. | [Manual pp16,20–21][AX1000-M] |
+| Processing / creative pitch | PITCH SHIFTER/PITCH BEND **±24semitones,fine±15cents**;OCTAVE addsonebelow,butmanual warns against multiple/lowstrings. Note handling ofshifter/bend remains unverified;[exact-model creative scope](#ax1000g--creative-pitch-and-filter-boundaries). | [Own E1 pp18–21][AX1000-M] |
 | I/O | Mono¼guitar;stereo⅛AUX;L/mono+R¼outputs;stereo⅛headphones;DC9V. Inserting headphones mutes main outputs. Rear inventory lists no USB/MIDI/external-control socket. | [Manual pp6,8,15][AX1000-M] |
 | Power / battery / USB | **DC9V**,included adapter;connection powers unit. Polarity,current,battery andUSB power unverified. | [Manual pp6,15][AX1000-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture imports unverified;factory cabinet models do not establish imports. | Unresolved |
@@ -736,6 +737,16 @@ In Play mode,the current program footswitch held0.5s bypasses andheld1s mutes. T
 | Looper / trainer transport | Cursor controls provide momentary double-speed or reverse playback while held. Program1 rewinds while held; Program4 toggles Hold of the current sound. During Hold, cursors move backward/forward; Program1 jumps back one second, cancels Hold and resumes. These trainer operations do not establish overdubbing or persistent phrase storage. | [Manual p11][AX1000-M] |
 | Editing / trainer restrictions | Trainer permits DRIVE-AMP and CABINET editing, but not operations needing the name/value display, cursor or MASTER/VALUE keys. Quick editing is unavailable while bypassed, muted or recording. Attempting an incompatible MOD/PEDAL or PEDAL/AMBIENCE combination automatically disables the previously enabled block. | [Manual p12][AX1000-M] |
 | Expression / calibration | Power on holding EXIT+PEDAL block select. At MIN, move fully back by hand, release and press WRITE; at MAX, move fully forward, release and press WRITE. EXIT cancels; ERROR returns to MIN. No hardware action performed. | [Manual p14][AX1000-M] |
+
+### AX1000G — creative pitch and filter boundaries
+
+Checked **2026-11-06**,[own E1 manual,printed18–21][AX1000-M]. **PITCH SHIFTER** and **PITCH BEND** span±24semitones,fine±15cents;chord handling unverified. **OCTAVE** generates oneoctave down;Korg warns multiple strings orlow notes may mistrack. **TALK** selectsA/E/I/O/U vowels atthreepedal positions;**RING MOD** multiplies input byasinewave,not atracking synth. Pedalmodulation choices disableMOD;pedaldelay/sample choices disableAMBIENCE. Existing ACOUSTIC simulator isdistinct fromcabinet modeling.
+
+| Category | Original named choices |
+|---|---|
+| MODULATION | CLASSIC CHORUS;STEREO CHORUS;CLASSIC FLANGER;MOD DELAY;BLACK PHASER;ORANGE PHASER;TEXTREM;PITCH SHIFTER;FILTRON;AUTO WAH;OCTAVE |
+
+[Same manual][AX1000-M]:filter,rotary-style andsampling effects donot establish dedicated synthesis. Original E1 availability doesnot certify tracking quality,current hardware condition orall-choice concurrency. No download/device test;existing counts,membership anddatedoffers retained.
 
 ## AX1500G
 
