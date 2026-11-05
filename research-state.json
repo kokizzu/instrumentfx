@@ -172262,5 +172262,28 @@
     ],
     "market": "Fresh exact separate-screen queries returned existing Holy Prime andother knownleads;no new condition-qualified offer adopted.",
     "next": "Continue requested individual-screen/Shopee priority;preserve GT-Pro,GP200JR→Prime→GE300,expression-volume andconsolidation queues."
+  },
+  "chroma_creative_routing_20261105": {
+    "checked": "2026-11-05",
+    "root": "brand/HOLOGRAM.md#creative-processing-and-bypass-routing-qualifications",
+    "status": "Existing partial lead; no active inventory or membership change",
+    "sources": {
+      "product": "https://www.hologramelectronics.com/pages/chroma-console",
+      "manual_mirror": "https://images.equipboard.com/uploads/item/manual/114096/hologram-electronics-chroma-console-manual.pdf",
+      "identity": "Manufacturer-authored 50-page firmware1.04 cover and matching original section structure; printed41,44"
+    },
+    "findings": [
+      "HOWL resonant-filter fuzz; PITCH ±1octave; REVERSE playback pitch/speed; COLLAGE granular delay, not verified tracking synthesis",
+      "True bypass disables automatic mono/stereo routing; buffered trails apply to DIFFUSION without new input",
+      "Maximum input+8dBu;24bit48kHz;input1MΩ;output<1kΩ"
+    ],
+    "remaining": [
+      "Input-note polyphony and acoustic simulation",
+      "Dimension axes/mass; panel visual confirmation",
+      "Expression output, bypass, tail and loop attenuation coverage",
+      "Qualified exact Shopee Indonesia hardware offers"
+    ],
+    "next": "Continue requested individual-footdisplay gaps when accessible; preserve independent GT-Pro, expression-volume and general research queues",
+    "downloads": false
   }
 }

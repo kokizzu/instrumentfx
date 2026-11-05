@@ -40,6 +40,14 @@ From the exact manufacturer product page [P]; one choice per module, not additio
 | Diffusion | Cascade; Reels; Space; Collage; Reverse |
 | Texture | Filter; Squash; Cassette; Broken; Interference |
 
+### Creative processing and bypass-routing qualifications
+
+Checked **2026-11-05**. The current manufacturer product page [P] identifies HOWL as resonant-filter fuzz, SWELL as envelope-controlled volume, and PITCH as shifting **−1 to +1 octave**. REVERSE changes delay playback speed/pitch over that octave range; COLLAGE combines delay, granular loops, pitch bends and glitches. These descriptions establish neither a dedicated tracking synth nor input-note polyphony. FILTER offers low-pass, high-pass and tilt alternatives, not three simultaneous filters.
+
+The original manufacturer-authored **firmware1.04,50-page manual**, readable on an [Equipboard mirror](https://images.equipboard.com/uploads/item/manual/114096/hologram-electronics-chroma-console-manual.pdf), matches the previously recorded cover revision and section structure. Printed pp41,44 distinguish buffered bypass (with or without trails) from relay true bypass: **automatic mono-to-stereo/stereo-to-mono routing does not apply while true-bypassed**; each output connects to its corresponding input. Buffered trails preserve DIFFUSION decay without accepting new audio. This does not establish expression-volume attenuation of tails or loops.
+
+Printed p44 specifies **maximum input +8dBu;24-bit/48kHz conversion;1MΩ input;output impedance <1kΩ**. These ratings do not establish USB audio, a headphone amplifier or measured latency. No current-device or installed-firmware test was performed. Existing expression, physical-display, dimension-axis, mass and Indonesia-offer gaps remain open.
+
 ### Sources and next checks
 
 [M] [Manufacturer-hosted original manual](https://cdn.shopify.com/s/files/1/0920/2928/8752/files/CC_manual_WEB.pdf?v=1758823440),50 PDF pages, firmware1.04 cover, linked directly from the [manufacturer manual page](https://www.hologramelectronics.com/pages/chroma-console-manual). Selected original sections inspected; no complete visual audit claimed.
