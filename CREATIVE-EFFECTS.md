@@ -196,6 +196,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Hologram Chroma Console](brand/HOLOGRAM.md#creative-processing-and-bypass-routing-qualifications) remains a **partial lead outside active counts and the additional-record index**. HOWL is resonant-filter fuzz; PITCH shifts ±1 octave; REVERSE changes playback pitch/speed; COLLAGE supplies granular/glitch delay. Dedicated synthesis, input-note polyphony and acoustic simulation remain unverified. Four module positions do not make every named effect simultaneous. [Presets save Gesture automation, not Capture audio](brand/HOLOGRAM.md#capture-audio-versus-saved-gesture-automation).
 
+[Hologram Microcosm](brand/HOLOGRAM.md#microcosm--partial-discovery-lead) is a **new partial lead outside active counts and the additional-record index**. Its sample-based granular/pitch processing, filter, modulation, reverb and looper are documented; dedicated tracking synthesis and acoustic simulation remain unverified.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

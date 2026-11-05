@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(hologram): distinguish saved gestures from Capture audio'
+        message='research(hologram): record Microcosm partial creative processor lead'
     print(git('commit','-m',message))

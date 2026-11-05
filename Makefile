@@ -2534,3 +2534,9 @@ preservation-review-ampero-ii-stomp:
 .PHONY: preservation-review-trident
 preservation-review-trident:
 	python3 scripts/preservation_review.py effects/findings/2026-10-15-nux-trident.md
+
+.PHONY: brand-sort-plan-hologram brand-sort-apply-hologram
+brand-sort-plan-hologram:
+	python3 scripts/brand_sort.py plan brand/HOLOGRAM.md
+brand-sort-apply-hologram:
+	python3 scripts/brand_sort.py apply brand/HOLOGRAM.md

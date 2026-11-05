@@ -6,6 +6,7 @@
 **Model and section index — A–Z, natural numeric order**
 
 - [Chroma Console — partial discovery lead](#chroma-console--partial-discovery-lead)
+- [Microcosm — partial discovery lead](#microcosm--partial-discovery-lead)
 <!-- brand-index ends -->
 
 ## Chroma Console — partial discovery lead
@@ -65,3 +66,15 @@ Checked **2026-11-05** in the [manufacturer-authored firmware1.04 manual,printed
 [F] [Manufacturer firmware history](https://www.hologramelectronics.com/pages/chroma-console-firmware). Listed version is not proof of installed firmware.
 
 Next: establish dimension axes/mass, complete electrical/control verification and exact qualified Indonesia offers; resolve outstanding output-coverage fields before any global-volume claim. No local downloads, software installation, device operation or GitHub Actions.
+
+## Microcosm — partial discovery lead
+
+Checked **2026-11-05**. Partial candidate outside active counts; ownership unknown. Its combined granular processor, modulation, filter, reverb and independent phrase looper merit further multi-effects eligibility review; this is not active admission.
+
+[Manufacturer overview](https://www.hologramelectronics.com/pages/microcosm): **11 effects/44 variations**, not44 simultaneous blocks; **16 user slots** save settings and loops. Four reverb styles, pitch modulation, resonant low-pass, Hold sampler and60-second phrase looper are separate functions. Granular playback does not establish tracking synthesis, chord-aware pitch shifting or acoustic simulation. Named choices: Mosaic, Seq, Glide; Haze, Tunnel, Strum; Blocks, Interrupt, Arp; Pattern, Warp. Arp sequences samples, not proof of a note-tracking synth.
+
+[Original manufacturer manual](https://cdn.shopify.com/s/files/1/0920/2928/8752/files/MC_manual_WEB.pdf?v=1758908696),25 PDF pages, linked from the [manual page](https://www.hologramelectronics.com/pages/microcosm-manual); no explicit revision stamp established. Printed pp2–6: ordinary instrument/line input; mono/stereo TRS input, L/R outputs, EXP, MIDI IN/OUT-THRU and9VDC. No treadle documented. EXP: tip0–3V input/ring3V/sleeve0V, recommended >10kΩ; targets Activity, Shape, Filter, Mix, Repeats, Space, Loop Level. Mapping survives power cycling; global all-source volume remains unverified. Supply:9V center-negative2.1mm,minimum400mA capability,not measured draw. Text-derived controls: nine rotaries including selector,three footswitches; button census pending. Dedicated headphones,USB power/audio,editor,IR/NAM/capture support unverified. Indicator lights documented; screen specifications unverified.
+
+[Manufacturer shop](https://www.hologramelectronics.com/products/microcosm): **7.1×4.7×2in**, axes unlabeled;180.34×119.38×50.8mm exact conversion. Preferred W×D fit andmass unverified.
+
+Exact Shopee Indonesia item,condition-specific new/used IDR,seller,stock,bundle,warranty,region andvoucher remain unknown; searches yielded no qualified item. No absence claim. Next: physical controls/display,algorithm concurrency,expression range/bypass/phones/tail/loop coverage,preset stepping,factory allocation,current firmware andexact Indonesia offers. Existing independent queues remain; no local downloads ordevice operations.
