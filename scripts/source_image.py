@@ -12,7 +12,7 @@ PLAN = Path('/tmp/instrumentfx-source-image-plan.json')
 RECEIPT = Path('/tmp/instrumentfx-source-image-receipt.json')
 IMAGE = Path('/tmp/instrumentfx-source-image.jpg')
 LIMIT = 10 * 1024 * 1024
-HOSTS = {'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
+HOSTS = {'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
          'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 

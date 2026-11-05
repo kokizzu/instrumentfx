@@ -148717,6 +148717,25 @@
       "scope": "Guitar/bass/voice explicitlymanufacturer-backed;notoneLCDperfootconfirmed",
       "historical_body_preserved": true,
       "remaining": "LCDplacement/sizeconflict,exactplugin/NAMcompatibility,categorycensus,allmemorycounts,power/clock/storageconflicts,USBscope andqualifiedIDR"
+    },
+    "visual_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/MOD-AUDIO.md#duo--manufacturer-photograph-confirms-two-display-columns",
+      "source": "https://mod.audio/wp-content/uploads/2023/06/MOD-Duo-Banner-.jpg",
+      "manufacturer_page": "https://mod.audio/mod-duo/",
+      "guide_revision": "https://wiki.mod.audio/index.php?title=MOD_Duo_User_Guide&oldid=16689",
+      "bytes": 87188,
+      "sha256": "f793e15c271aa6bcceaa0721d0168e5ae0cc37470ac0a4a17e7bc9d3b2fc94e1",
+      "pixels": [
+        1920,
+        1012
+      ],
+      "finding": "Actually viewed:twoLCDpanels oneaboveeachknob/footswitchcolumn;two knobs,twoFS,no separatefrontbuttonsvisible;guideLCD+menu/tunerrolesnotexclusiveswitchlabels",
+      "classification": "Moved exact pending row toindividualLCDlayouts withhybridactuatorqualification;addedno-treadle summary. No inventory/instrumentmembership change.",
+      "retained": "2.7vs2.8inch conflict,color/touch/resolutionunknown;rearbuttoncensusunknown;noanalogEXP;bothfootprintsfail;phones/navigationdistinct",
+      "shopee": "ExactDuoqueries noqualifiedIndonesiaoffer;searchabsence notmarketabsence",
+      "next": "Continue accessible requestedindividual-display andqualifiedShopee evidence;retainDuo sourceconflicts/plugincompatibility/census/market gaps andindependentexpression/GTPro/GP200JR→Prime→GE300queues",
+      "active_inventory_unchanged": 402
     }
   },
   "zoom_g5_additional_shopee_20261101": {
@@ -176838,7 +176857,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn-media.empowertribe.com/5cbd51128c1b4a839038cecfdd8aa161/Image_TE_0709-AJN_PLETHORA-X1_Right_XL.png",
+    "requested_url": "https://mod.audio/wp-content/uploads/2023/06/MOD-Duo-Banner-.jpg",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0
   }
