@@ -2247,7 +2247,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Controls / utility andvolume-save scope | [Original/Turbo3.x utilities](#fm9-original--utility-display-and-volume-save-boundaries):mainLCD contrast isseparate frommini specifications;systemreset preservespresets butclears layouts. Output1/2 VolumeInc/Dec auto-saves preset edits;not continuous globalvolume. |
 | Categories / Resonator modes | [Manual/Chordal controls andchannel routing](#fm9-original--resonator-chord-modes-and-channel-routing): four internal resonators do not establish four blocks orinput-note polyphony. |
 | Categories / Drive special processing | [Drive lo-fi and EQ scope](#fm9-original--drive-lo-fi-controls-and-eq-scope): bit reduction and sample-rate aliasing are processing controls, not converter specifications or tracked synthesis. Three FM9 Drive instances remain CPU-limited. |
-
+| Display / mini-screen adjustment | [Original/Turbo3.x controls](#fm9-original--mini-display-contrast-brightness-and-inversion) distinguish contrast,shared screen/ring brightness andtext inversion;physical specifications andcurrent-version equivalence remain unverified. |
 <!-- comparison evidence ends -->
 
 ### FM9 original — partial LCD discovery
@@ -2568,6 +2568,13 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,93–95
 Pre-Delay Tempo/Feedback/Mix permit echo processing inside Reverb. At **Pre-Delay Mix100%**, discrete echoes can be heard without reverb. **Pre-Delay Tap OUTPUT** feeds reverb after pre-delay; **INPUT** starts reverb directly while pre-delay echoes run separately. This is internal routing, not another freely placeable Delay block.
 
 **ECONOMY,NORMAL,HIGH,ULTRA-HIGH** trade reverb complexity against CPU. Plate types omit early-reflection controls and Pitch Position; Spring omits pitch/modulation. These distinctions qualify the general parameter list rather than adding simultaneous instances. FM9’s two Reverb instances remain DSP-limited. Installed equivalence, introduction versions and full named census remain unresolved; no device operation or local download.
+
+
+### FM9 original — mini-display contrast, brightness and inversion
+
+Checked **2026-11-05**, [manufacturer Original/Turbo owner manual,August2022,firmware3.x,printedp90](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). **Mini-Display Contrast** adjusts onboard mini screens;**Mini-Display + Ring Brightness** jointly sets their master brightness andLED rings. **Invert Mini Displays On** gives light text on a dark background. No numeric range is supplied for those three settings.
+
+The adjacent Ring Intensity Bright/Dim entry gives **25–100% /1–50%**,but describes **FC** switches;do not silently assign those ranges to onboard mini screens. Message Hold concerns main-display/connected-FC messages,not a mini-screen refresh specification. Physical size,resolution,color/touch andcurrent12.x equivalence remain unresolved. No settings changed ordevice tested.
 
 
 ## FM9 Turbo
