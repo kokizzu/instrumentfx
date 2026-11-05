@@ -155246,6 +155246,15 @@
         "instrument": "See canonical record",
         "qualification": "Revision12; partial audit",
         "evidence_basis": "Official index and matching manufacturer-authored transcript;2026-11-05"
+      },
+      {
+        "key": "BOSS::GT-100",
+        "canonical": "brand/BOSS.md#gt-100--original-creative-effects-and-single-note-synth",
+        "synth": "See original guide qualifications",
+        "pitch": "Algorithm-specific restrictions",
+        "instrument": "See canonical record",
+        "qualification": "Original/version2 boundaries",
+        "evidence_basis": "Original©2012 guide and separate official version2 preset list;2026-11-05"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -171995,5 +172004,26 @@
       "Qualified used/live Shopee offer"
     ],
     "next": "Prioritize separate footswitch displays and exact Shopee leads; preserve GT-Pro, GP200JR→Prime→GE300, expression-volume and consolidation queues; next creative gap GT-100"
+  },
+  "gt100_creative_index_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#gt-100--original-creative-effects-and-single-note-synth",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-100_parameter_e02.pdf",
+      "https://manualzilla.com/doc/7433788/boss-audio-systems-gt-100-owner-s-manual",
+      "https://static.roland.com/assets/media/pdf/GT-100_v2_patch_e01_W.pdf",
+      "https://shopee.co.id/leorachmatwidodo"
+    ],
+    "revision": "Original©2012 parameter transcript, exact-model official indexed section identity; separate version2 preset evidence; fullPDF12989482bytes rejected by reader size limit",
+    "market": "LeoMusicShop search snapshot GT100SecondNormalFullSet Rp4.1m; reopened shop does not expose item or seller/item IDs. Discovery only, not accepted condition-verified offer. Older offers preserved.",
+    "additional_records": 93,
+    "active_inventory": 402,
+    "remaining": [
+      "Current firmware parameter equivalence",
+      "Unspecified chord support",
+      "Original hardware/software gaps",
+      "Exact Shopee item and condition/stock"
+    ],
+    "next": "Return to separate-foot-switch-screen and exact Shopee priority; preserve GT-Pro, GP200JR→Prime→GE300, expression-volume and consolidation queues; next optional creative gap ME-80"
   }
 }

@@ -1749,6 +1749,18 @@ Technical table source: [BOSS product specifications and version-2 notes][GT100-
 
 Remaining:complete original manual and parameter guide,independent controls/toe,block ceiling/category subtotals,power polarity/operation,display properties,IR/NAM/capture,looper/drums/USB routing and condition-verified offers. Bass suitability stays unclassified until exact-model evidence is established.
 
+### GT-100 — original creative effects and single-note synth
+
+Checked **2026-11-05**. Original ©2012 Parameter Guide [manufacturer-authored transcript](https://manualzilla.com/doc/7433788/boss-audio-systems-gt-100-owner-s-manual),pp12–17,21,23, matches exact-model parameter names/sections in the [official e02 indexed PDF](https://static.roland.com/assets/media/pdf/GT-100_parameter_e02.pdf); full official extraction rejected the12,989,482-byte file as too large. Original and [version2 factory lists](https://static.roland.com/assets/media/pdf/GT-100_v2_patch_e01_W.pdf) separately label Wave Synth patches single-note. Current installed firmware and full version2 parameter equivalence are unverified.
+
+| Required field | Focused evidence and limits |
+|---|---|
+| Synth / tracking | WAVE SYNTH:SAW/SQUARE,input-tracking,single-note; mute other strings and use clear attacks. Oscillator waveform choices do not establish polyphony. |
+| Pitch / note handling | Pitch Shifter±24semitones; MONO mode single-note,other mode chord support unverified. Harmonist and Pedal Bend single-note. Original Harmonist explicitly excludes USB-input audio; current firmware equivalence unverified. |
+| Synth / instrument distinction | Acoustic simulation,Guitar Simulator,Sitar Sim and Defretter differ from AC. PROCESSOR for acoustic-electric pickups. |
+| Processing / special alternatives | Slicer,Ring Mod,Humanizer,Slow Gear,Sound Hold; ACCEL FX separately lists S-Bend,Laser Beam,Ring Mod,Twist,Warp,Feedbacker. Existing FX2-only version2 additions retained; no simultaneous-all claim. |
+| Looper / held-note recall | Sound Hold single-note,saves HOLD Off; separate from phrase looping. Rise Time0–100 is a parameter scale,not a stated millisecond duration. |
+
 [GT100-P]: https://www.boss.info/global/products/gt-100/
 [GT100-M]: https://cdn.roland.com/assets/media/pdf/GT-100_OM.pdf
 [GT100-S1]: https://shopee.co.id/BOSS-GT-100-i.266296121.3068716612

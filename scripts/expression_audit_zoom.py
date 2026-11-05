@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): document GT-1000 creative algorithms and bass pitch mode'
+        message='research(boss): qualify GT-100 single-note synth and creative effects'
     print(git('commit','-m',message))

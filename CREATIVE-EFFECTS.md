@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **92 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **93 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -138,6 +138,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [BOSS GX-10](brand/BOSS.md#gx-10--creative-algorithms-and-poly-octave-boundary) | Overtone harmonics; synth unverified | Poly Octave down; ±24 pitch; single-note harmony | Acoustic simulation; sitar; defret | Algorithm-specific note limits; S-Bend trigger saves OFF; DSP-limited |
 | [BOSS GX-100](brand/BOSS.md#gx-100--creative-index-and-source-revision-boundaries) | Overtone harmonics; synth unverified | Poly Octave; earlier ±24 pitch/single-note harmony | Acoustic/sitar/defret distinctions | Version2 availability versus earlier parameter details; S-Bend recall; DSP limits |
 | [BOSS GT-1000](brand/BOSS.md#gt-1000--revision12-creative-effects-and-bass-pitch-mode) | Harmonic/vowel/modulation processing; synth unverified | Poly octave; algorithm-specific single-note limits | Acoustic/sitar/defret | Revision12; four FX slots; held sound/looper distinct; bass pitch mode |
+| [BOSS GT-100](brand/BOSS.md#gt-100--original-creative-effects-and-single-note-synth) | Saw/Square Wave Synth,single-note | ±24 pitch; algorithm-specific restrictions | Acoustic/pickup/body/sitar/defret | Original guide; USB harmony limitation; held sound and ACCEL FX distinct |
 
 ## Separately recorded partial leads
 
