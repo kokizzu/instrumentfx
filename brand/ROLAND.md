@@ -104,17 +104,17 @@ Original finding commit: 2b637fb61c243776b1a0a9d192ce17848295eeac; correction: d
 | Field | Evidence and qualification |
 |---|---|
 | Instrument/function | Guitar and bass synthesis, instrument/amp modeling and multi-effects |
-| Built-in expression | **Yes**; published raised-pedal height confirms pedal travel. Toe-switch details need the matching control manual |
+| Built-in expression | **Yes,including toe switching**,confirmed by the original manual p20;patch-dependent volume/wah/other roles. [Control census](#gr-55--control-census-routing-and-modeled-instrument-inventory) |
 | External expression | No dedicated EXP socket in the complete published connector list; MIDI controller such as FC-300 is supported. MIDI control is not an included expression pedal |
-| Rotary / footswitch / button count | **? / ? / ?** pending a visually checked control diagram; do not count from a related Roland device |
+| Rotary / footswitch / button count | **2 /4 /17**,text-derived from original p20;toe switch additional,power separate. Panel-image corroboration pending. [Count basis](#gr-55--control-census-routing-and-modeled-instrument-inventory) |
 | Dimensions / weight / size | **405 × 244 × 78 mm W×D×H**, maximum pedal-up height **106 mm**, **3.3 kg**; **large**. Pickup, PSU and cables add installed space/weight |
 | Screen | **240 × 64-dot graphic LCD**. Diagonal **?**; monochrome/color **? pending explicit or visual evidence**; touch **?**. Pixel resolution is not screen size |
 | Sound architecture | Up to **four source layers**: two PCM tones, one modeled tone, normal pickup. This is not four freely assignable effect blocks |
-| Effect architecture / choices | Published categories: **MFX 20, preamp 42, MOD 14, delay 7, reverb 5, chorus 4, EQ 1**. Exact simultaneously enabled routing constraints remain **?** until the signal-flow manual is checked Roland US page rechecked2026-10-17 corroborates these counts; four source layers remain distinct from effect blocks. |
+| Effect architecture / choices | Published categories: **MFX 20, preamp 42, MOD 14, delay 7, reverb 5, chorus 4, EQ 1**. Two selectable fixed structures andper-tone connection choices are documented;[routing boundaries below](#gr-55--control-census-routing-and-modeled-instrument-inventory). Four source layers remain distinct from effect blocks;not unrestricted duplicate blocks. |
 | Sound choices | **910 PCM tones**; instrument modeling **23 guitar-mode / 17 bass-mode** types. These are not additional effect algorithms |
 | Presets / user memory | Base published spec: guitar **270 factory + 297 user**; bass **90 factory + 297 user**. **Firmware 1.50 adds 90 guitar and 18 bass presets**: updated factory totals are **360 guitar / 108 bass**. Do not present launch-page counts as the only firmware counts, or add alternative mode banks as simultaneous capacity v1.50 release page rechecked2026-10-17 corroborates90 guitar/18 bass additions; MIDI program changes may select different patches after updating. No actual unit update performed. |
 | Synth | **Yes**, two PCM synth sources plus modeled instruments |
-| Acoustic simulation algorithms | Instrument-modeling capability is documented; exact acoustic model names/counts **?** pending tone/manual verification. PCM acoustic sounds and modeled acoustic guitars must be distinguished |
+| Acoustic simulation algorithms | [Five guitar-mode acoustic modeling choices andsix modeled synth types](#gr-55--control-census-routing-and-modeled-instrument-inventory) documented separately from PCM samples. Bass-mode acoustic availability isnot inferred. |
 | Inputs / outputs | **13-pin GK IN**; ¼-inch GUITAR OUT; 2 × ¼-inch main outputs L/MONO,R; ¼-inch stereo headphones; 5-pin DIN MIDI IN/OUT; USB COMPUTER; USB MEMORY; DC IN. No ordinary ¼-inch guitar input, microphone input, aux input or FX loop in published list |
 | Required pickup | Compatible divided-pickup/GK system; owner used GK-3 and 13-pin cable. Do not substitute GM-800 Serial GK cabling |
 | Power | **DC 9 V, 700 mA draw**, supplied PSB-1U family adapter. Polarity **?** in checked specification; battery and USB bus powering **not established** |
@@ -122,7 +122,7 @@ Original finding commit: 2b637fb61c243776b1a0a9d192ce17848295eeac; correction: d
 | NAM/captures | Native NAM, converted NAM and proprietary user amp-capture loading **not established** |
 | Official configuration software | **GR-55 Librarian Windows/macOS** downloads documented. Full tone-parameter editing was **not verified** in this pass; do not promote the download listing alone to full-editor support. Drivers and updater are separate |
 | Other editor platforms | Third-party editor availability/platforms **not verified in this pass**; do not claim unsupported Linux/mobile compatibility |
-| USB audio / other relevant features | USB MIDI and USB audio documented; **44.1 kHz** device sampling. USB memory player accepts WAV/AIFF; looper present, duration **?** in checked page |
+| USB audio / other relevant features | USB MIDI and USB audio documented; **44.1 kHz** device sampling. USB memory player accepts WAV/AIFF; **20-second looper** in manufacturer Training Guide p9;[historical revision scope](#gr-55--control-census-routing-and-modeled-instrument-inventory) |
 | Used IDR | **Rp7.500.000**, seller-labelled SECOND GR-55 **with GK3 pickup**: [HUTAURUK MUSIC exact offer](https://shopee.co.id/ROLAND-GR-55-DENGAN-PICK-UP-GK3-SECOND-ORIGINAL-i.190993829.22101819979),shop190993829/item22101819979,Kota Bekasi,indexed2026-10-17;stale21July delivery. Detailed condition,functionality,13-pin cable/adapter inclusion,warranty region,delivered charges,vouchers and current checkout stock unverified. Historical used-bundle ask,not a completed sale or bare-processor price. |
 | New IDR | **?** — no verifiable current public offer obtained in this pass; owner purchase evidence is not a present market quote |
 
@@ -192,6 +192,24 @@ The manufacturer still publishes a launch-era 270-guitar-preset specification al
 
 Inspect the original control/signal-flow manual for controls, toe switch, screen mode/touch, acoustic model names, simultaneous processing and power polarity. Find separate dated Indonesian used/new offers with and without GK pickup. Do not assume an unavailable listing means the owner never owned it. **Next owned-model addition: Zoom B1Xon.**
 <!-- ROLAND-GR55-EARLY source ends -->
+
+### GR-55 — control census, routing and modeled-instrument inventory
+
+<a id="gr-55--control-census-routing-and-modeled-instrument-inventory"></a>
+
+Checked **2026-11-05** against indexed original [manufacturer owner manual](https://static.roland.com/assets/media/pdf/GR-55_OM.pdf),p20 andEffect Settings→Structure. FullPDF exceeds reader limits;no image inspection orlocal download. No firmware revision identified;installed behavior untested.
+
+- **Control count:** OUTPUT LEVEL andvalue dial =2rotaries;1/2/3/CTL =4footswitches. Button table totals13:V-LINK,three sound styles,USER,EZ EDIT,two PAGE,EXIT,ENTER,EDIT,WRITE,AUDIO PLAYER;four cursor buttons bring the total to17. Toe switch andpower remain separate.
+- **Routing:** Structure1 places AMP+MOD parallel toMFX;Structure2 puts them inseries. Each tone selects BYPS,AMP orMFX. BYPS excludes those three processors;it doesnot establish bypass ofevery downstream effect orvolume control. These are fixed routing choices,not four arbitrary effect chains.
+
+The [manufacturer Training Guide,PDFpp9–11](https://cdn.roland.com/assets/media/pdf/GR-55_Training_Guide.pdf),revision/date unstated,documents **20seconds total loop recording** andthe following modeling inventory:
+
+| Guitar-mode category | Named choices / distinction |
+|---|---|
+| AC —5 | STEEL,NYLON,SITAR,BANJO,RESO. STEEL has five underlying guitar examples;these are not five extra category entries. The owner-manual p30 independently corroborates the five AC names. |
+| SYNTH —6 | ANALOG GR,WAVE SYNTH,FILTER BASS,CRYSTAL,ORGAN,BRASS. Separate fromthe two PCM sources andtheir sampled instrument tones;names do not establish input-note polyphony. |
+
+The Training Guide’s launch-era memory/bundle statements do not replace firmware1.50 totals orprove included pickups in every offer. Current library changes,polarity,display physical specifications,tracking quality andqualifiedcurrentstock remain unresolved. Existing dated IDR offers retained;fresh Shopee query returned the same HUTAURUK item,not a newoffer orcheckoutstock confirmation. No device operation.
 
 ## VT-4
 

@@ -2608,3 +2608,9 @@ brand-sort-plan-digitech:
 	python3 scripts/brand_sort.py plan brand/DIGITECH.md
 brand-sort-apply-digitech:
 	python3 scripts/brand_sort.py apply brand/DIGITECH.md
+
+.PHONY: research-stage-roland research-commit-roland
+research-stage-roland:
+	python3 scripts/research_audit_roland.py stage
+research-commit-roland:
+	python3 scripts/research_audit_roland.py commit

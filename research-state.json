@@ -173960,5 +173960,28 @@
     ],
     "inventory_change": 0,
     "next": "Requested separate-footdisplay models remain first priority; preserve GT-Pro and independent expression/general queues."
+  },
+  "gr55_controls_modeling_routing_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/ROLAND.md#gr-55--control-census-routing-and-modeled-instrument-inventory",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GR-55_OM.pdf",
+      "https://cdn.roland.com/assets/media/pdf/GR-55_Training_Guide.pdf"
+    ],
+    "scope": "Original exact-model indexed manual p20/Effect Structure and Training Guide pp9–11;firmware applicability unstated; no visual ordevice test",
+    "resolved": [
+      "Text-derived controls andtoe role",
+      "Fixed routing structures andper-tone destinations",
+      "Named AC andmodeled synth inventory distinct fromPCM",
+      "Documented looper duration"
+    ],
+    "remaining": [
+      "Physical panel corroboration",
+      "Current firmware changes",
+      "Power polarity andphysical display gaps",
+      "Qualified current hardware stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Resume requested separate-footdisplay andqualifiedShopee priority; preserve GT-Pro andindependent expression/general queues."
   }
 }
