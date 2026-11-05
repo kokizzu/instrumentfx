@@ -170615,5 +170615,24 @@
       "GlobalEXPvolumeandoutputcoverage"
     ],
     "next": "Continue requestedseparate-screenprofileandmarketgaps;preserveGT-Pro/general,expressionandconsolidationqueues."
+  },
+  "ms50gplus_tempo_tuner_memory_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#ms-50g--tempo-slot-cost-tuner-access-and-patch-reversion",
+    "source": "https://zoomcorp.com/manuals/ms-50gplus-en/",
+    "revision": "Online manual ©2023; exact Plus model; narrower firmware applicability unspecified",
+    "findings": [
+      "BPM tap module occupies one of six slots; one module per patch; 40–250 BPM",
+      "Selected effect special footswitch function can prevent tuner access",
+      "PREVIOUS reversion means state at selection; FACTORY is per-patch factory restoration"
+    ],
+    "remaining": [
+      "Physical control census and exact numeric patch-direction mapping",
+      "Factory occupancy beyond documented85",
+      "Installed effect-library reconciliation",
+      "Qualified current exact Shopee condition/stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue systematic missing fields and requested separate-screen hardware/profile gaps. Retain compatibility redirects for historical anchors; preserve GT-Pro/general, expression and consolidation queues."
   }
 }

@@ -6042,6 +6042,8 @@ MS-50G+ guitar multi-effects; distinct from original MS-50G. Checked 2026-10-17;
 | Power / battery / USB | AD-16:9VDC,500mA,center-negative supply rating, not measured draw. TwoAA: alkaline~7h,NiMH1900mAh~6.5h,lithium~14h; conditions affect duration. USB bus power supported. | [Manual][Z50P-M] |
 | IR / NAM / capture | Factory preamps use Multi-Layer IR technology; user IR import, native/converted NAM and capture support unverified. | [Product][Z50P-P] |
 | Editor / software | Handy Guitar Lab for MS-50G+ on iOS/iPadOS manages patches and edits/adds effects. App supports individual/all-patch backup to Pool, restore and .zptc import, effect deletion/restoration, effect-property version/power/slot-count display and VoiceOver. Windows/Mac firmware1.40 listed; desktop editor unverified. | [Manual][Z50P-M]; [App manual pp4–21][Z50P-A]; [Support][Z50P-U] |
+| Live / tap-tempo slot and tuner access | **BPM module uses one of six slots; one per patch; 40–250 BPM.** Special footswitch assignments can prevent tuner access. [Exact manual scope](#ms-50g--tempo-slot-cost-tuner-access-and-patch-reversion). | Manufacturer online manual, ©2023; checked 2026-11-05 |
+| Memory / patch reversion | **PREVIOUS** restores the state immediately after selection; **FACTORY** restores that patch’s factory state. Separate from full reset and total memory capacity. [Source and limits](#ms-50g--tempo-slot-cost-tuner-access-and-patch-reversion). | Manufacturer online manual |
 | Looper / drums / live | Chromatic tuner supports open/drop tunings. LOOP ROLL samples/holds10–4000ms; HOLD DELAY also holds sound by footswitch. These do not establish an overdubbing performance looper. Selected reverbs and HOLD DELAY offer TAIL after effect bypass; patch-change spillover, drums and scenes unverified. LINE SELECTOR can route input onward or to outputs. | [Product][Z50P-P]; [Effects list pp24–26][Z50P-E] |
 
 ### Separate IDR hardware offers
@@ -6067,6 +6069,17 @@ No dependencies, firmware, apps or source documents downloaded to the filesystem
 ### MS-50G+ — direct expression and preset screening
 
 Checked 2026-10-19 against the exact-model [manufacturer manual][Z50P-M]. Guitar input, two mono outputs, USB-C and DC comprise its connector inventory: no direct analog EXP path. The retained master-volume setting is not pedal assignment. Direct-expression position, range and bypass/headphone/tail/looper coverage are inapplicable; digital control coverage remains unknown. The 79 W ×133 D mm chassis fits. Foot-operable direction buttons select patches; exact numerical down/up mapping remains unverified because control icons are images. PRESELECT separates selection from activation. Older effect counts, firmware and offer qualifications remain unchanged.
+
+### MS-50G+ — tempo-slot cost, tuner access and patch reversion
+
+Checked **2026-11-05** in the [manufacturer online Operation Manual](https://zoomcorp.com/manuals/ms-50gplus-en/), ©2023, sections Tapping to change the tempo, Activating the tuner, and Restoring patch memories to original settings. Exact Plus model; live document has no more specific firmware revision here.
+
+- **Tempo:** 40–250 BPM, stored per patch and shared by its effects. Tap operation requires the **BPM module**, limited to one per patch and consuming one of the six effect positions. A full six-effect patch needs a deletion before adding it. MENU-based numerical tempo editing is also documented.
+- **Tuner:** unavailable when the selected effect has a special footswitch function, such as press-and-hold-only engagement. BYPASS and MUTE output options remain distinct.
+- **Memory:** REVERT PATCH→PREVIOUS restores the state immediately after patch selection; FACTORY restores the factory state. This is per-patch restoration, not a complete device reset or an extra memory bank.
+
+These are documented operating constraints, not device tests. Control images remained inaccessible; no new physical button count or numerical patch-direction mapping is certified. No local download or device operation.
+
 
 ## MS-60B
 

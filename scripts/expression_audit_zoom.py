@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(line6): expand M9 creative parameter distinctions'
+        message='research(zoom): document MS-50G Plus tempo and tuner constraints'
     print(git('commit','-m',message))
