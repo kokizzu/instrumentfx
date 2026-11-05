@@ -155219,6 +155219,15 @@
         "instrument": "Existingacousticbass/pickup/body/defret",
         "qualification": "SoundHoldsingle-note/savedOff;PhraseLoopseparate",
         "evidence_basis": "Original2008manual111–113;focused2026-11-05;existingcanonicalqualifications"
+      },
+      {
+        "key": "BOSS::GX-10",
+        "canonical": "brand/BOSS.md#gx-10--creative-algorithms-and-poly-octave-boundary",
+        "synth": "Overtone; dedicated engine unverified",
+        "pitch": "Poly Octave down; algorithm-specific note handling",
+        "instrument": "Acoustic/sitar/defret",
+        "qualification": "S-Bend recall and DSP limits",
+        "evidence_basis": "English01©2024; focused2026-11-05; partial audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -171906,5 +171915,24 @@
       "QualifiedShopeepriceconditionstock"
     ],
     "next": "LCD/Shopee first;next unindexedcreative lead BOSS GX-10;preserve GT-Pro,generalGP200JR→Prime→GE300,expression-volume andconsolidation queues"
+  },
+  "gx10_creative_index_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#gx-10--creative-algorithms-and-poly-octave-boundary",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GX-10_Parameter_eng01_W-pdf.pdf",
+      "https://manualzz.com/doc/81521753/boss-gx-10-guitar-effects-processor-owner-manual",
+      "https://static.roland.com/manuals/gx-10_parameter/en-US/91004939158773131.html"
+    ],
+    "revision": "English01©2024; official403; exact-model manufacturer transcript",
+    "additional_records": 90,
+    "active_inventory": 402,
+    "market": "Older exact Shopee offers preserved, not freshly verified stock or condition",
+    "remaining": [
+      "Dedicated synth and unspecified pitch input polyphony",
+      "Tracking performance and installed firmware",
+      "Existing hardware/software gaps and qualified current offers"
+    ],
+    "next": "LCD/Shopee first; next creative gap GX-100; preserve GT-Pro, GP200JR→Prime→GE300, expression-volume and consolidation queues"
   }
 }

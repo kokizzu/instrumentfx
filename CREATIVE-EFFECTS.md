@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **89 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **90 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -135,6 +135,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [BOSS Pocket GT](brand/BOSS.md#pocket-gt) | Overtone harmonics; dedicated synth unverified | Pitch Shifter ±24; octave-down; single-note harmony/bend | Acoustic Guitar Simulator; Guitar Simulator; Acoustic Processor | [Own English02 check](brand/BOSS.md#pocket-gt--creative-index-and-held-ambience-limits); Feedbacker/Slow Gear/Tera Echo Hold; saves Hold Off |
 | [BOSS KATANA:GO](brand/BOSS.md#katanago) | Guitar Wave Synth/Bass Synth Saw/Square, single-note | Heavy Octave supports chords; ±24 Pitch Shifter; single-note harmony | Guitar acoustic simulation/processing; bass body/defret treatments | [Mode-specific manual check](brand/BOSS.md#katanago--synth-tracking-and-heavy-octave-scope); Slicer/Humanizer/Ring Mod/Slow Gear; octave overview/detail discrepancy |
 | [BOSS GT-10B](brand/BOSS.md#gt-10b) | Saw/Square Bass Synth, single-note | Pitch Shifter ±24; single-note Harmonist | Acoustic-bass and pickup/body simulation; Defretter | [Sound Hold saves Off](brand/BOSS.md#gt-10b--creative-index-and-sound-hold-recall), distinct from Phrase Loop; Slicer/Humanizer/Ring Mod/Slow Gear; shared FX slots |
+| [BOSS GX-10](brand/BOSS.md#gx-10--creative-algorithms-and-poly-octave-boundary) | Overtone harmonics; synth unverified | Poly Octave down; ±24 pitch; single-note harmony | Acoustic simulation; sitar; defret | Algorithm-specific note limits; S-Bend trigger saves OFF; DSP-limited |
 
 ## Separately recorded partial leads
 

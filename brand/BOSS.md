@@ -3304,6 +3304,18 @@ Checked **2026-10-16**; cached exact hardware bodies, not live checkout/stock. N
 | Historical only / Red Musik Bali | Earlier Rp7.948.000 Habis; direct reopen cache miss, not fresh price verification. | [198150809 /26419884836](https://shopee.co.id/Boss-GX-10-Efek-Gitar-Proccesor-GX10-Guitar-Effect-Proccesor-GX-10-i.198150809.26419884836) |
 
 
+### GX-10 — creative algorithms and poly-octave boundary
+
+Checked **2026-11-05** against GX-10 Parameter Guide English01,©2024: printed27–30,41–46,60–64. [Official PDF](https://static.roland.com/assets/media/pdf/GX-10_Parameter_eng01_W-pdf.pdf) returned403; [manufacturer-authored transcript](https://manualzz.com/doc/81521753/boss-gx-10-guitar-effects-processor-owner-manual) matches the exact-model [official contents](https://static.roland.com/manuals/gx-10_parameter/en-US/91004939158773131.html). Mirror summaries/FAQs are excluded. This is not installed-firmware or tracking-performance verification.
+
+| Required field | Focused evidence and limits |
+|---|---|
+| Synth / tracking | OVERTONE adds harmonics; dedicated synth engine unverified. |
+| Pitch / note handling | POLY OCTAVE explicitly accepts chords for one-octave-down. PITCH SHIFTER:±24semitones; its other input-note handling remains unverified. Guitar/Bass HARMONIST and BASS PEDAL BEND explicitly require single notes; no sibling restriction transferred to guitar PEDAL BEND. |
+| Pitch / S-BEND recall | Guitar S-BEND:−3/−2/−1/+1/+2/+3/+4oct; trigger saves OFF. Rise/fall0–100 are parameter units,not milliseconds. Input polyphony unverified. |
+| Synth / instrument simulation | AC GUITAR SIMULATOR differs from AC RESONANCE for acoustic-electric pickups. Sitar Simulator and guitar/bass Defretter are separate processing choices. |
+| Processing / special choices | Slicer,Humanizer,Ring Modulator,Feedbacker,Slow Gear,Shimmer Delay/Reverb,Tera Echo,Twist and Warp are listed; existing DSP/instance limits apply. |
+
 <!-- comparison evidence ends -->
 
 [GX10-IR]: https://static.roland.com/manuals/gx-10_bts_pc/en-US/141904267164166795.html
