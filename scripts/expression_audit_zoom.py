@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(sheeran): document exact Looper X hardware and creative effects'
+        message='research(neural): complete Nano Cortex named effects and placement inventory'
     print(git('commit','-m',message))

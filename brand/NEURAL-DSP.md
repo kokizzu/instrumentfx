@@ -101,6 +101,7 @@ The [complete original comparison](../MULTI-EFFECTS.md)<!-- historical-link:neur
 | W×D×H; weight | **144×103×62mm;620g**. [M] |
 | Size class | Compact. |
 | Blocks / category choices | **Five effects slots**, two pre/three post, plus capture/IR and separate input gate. Slots have placement restrictions; not54 simultaneous effects. [M,D] |
+| Processing / named inventory | [Complete manufacturer names and placement](#nano-cortex--complete-named-effects-and-placement-inventory); current-library and concurrency qualifications retained. |
 | Controls / preset recall timing | NanOS2.2.0 manual: preset recall occurs on **footswitch release**, not initial press; holding invokes secondary functions. This is not measured switching latency or general next/previous browsing. [Save/undo scope](#nano-cortex--release-triggered-recall-and-unsaved-edits). |
 | Memory / save and undo | NanOS2.2.0 manual: hold SAVE2s to overwrite the current preset;[undated manufacturer guide instead says3s](#nano-cortex--conflicting-manufacturer-save-hold-times). Slowly blinking SAVE indicates unsaved changes. EXIT undoes unsaved preset changes in the documented performance workflow. This does not establish global expression assignment. |
 | Preset storage | **64 presets**, four hardware assignments. [M] Capture storage separate: **25 factory plus up to256 additional**; cloud library is not internal memory. [P] |
@@ -354,6 +355,26 @@ Checked **2026-11-05**, author-maintained [Electron editor README](https://githu
 | Editing / connection | Author describes64-preset editing,four footswitch-slot assignments and **per-preset expression** heel/toe/bypass controls. Only one pedal Bluetooth connection atatime;official phone app must release it. This doesnot establish global analog volume orresolve the disputed LEVEL menu. |
 
 The retrieved [Electron v1.2.1 release](https://github.com/AJs-Creations/nano-cortex-editor/releases/tag/v1.2.1),displayed **October24,commit35fa72c**,reports preview/audition cleanup andBluetooth disconnect/reconnect fixes. README observations above aredated current-main claims,not verified asidentical tothat tag. No package integrity,code security orsave/restore behavior was tested. Official Cortex Cloud mobile editing remains a separate supported path.
+
+### Nano Cortex — complete named effects and placement inventory
+
+Checked **2026-11-05**, [manufacturer device list](https://neuraldsp.com/nano-cortex-device-list), including NanOS2.2.0 Tremolo. M/ST compressor pairs each represent two entries.
+
+| Category | Count | Slots | Complete names |
+|---|---:|---|---|
+| Guitar drive | 9 | pre | Chief BD2; Chief OD1; Exotic; Exotic Z Boost; Facial Fuzz; Green 808; Obsessive Drive; OD250; Rodent Drive |
+| Bass drive | 2 | pre | Exotic Bass Z Boost; Microtubes B3K |
+| Delay | 6 | post2 | Analog Delay (ST); Circular Delay; Digital Delay (ST); Dual Delay; Dual Reverse Delay; Tape Delay (ST) |
+| Reverb | 6 | post3 | Ambience; Cave; Hall; Mind Hall; Modulated; Room |
+| Compressor | 8 | M:pre; ST:post | Legendary 87 (M)/(ST); Opto Comp (M)/(ST); Solid State Comp (M)/(ST); VCA Comp (M)/(ST) |
+| Pitch | 1 | pre1 | Transpose |
+| Modulation | 8 | post1 | Chief CE2W (ST); Chief DC2W (ST); Chorus 229T; Dream Chorus (ST); MX Flanger; MX Phase 95; MX Vibes; Tremolo |
+| Filter | 2 | pre | Envelope Filter; Love Meat |
+| EQ | 3 | pre/post | Graphic-9; Low-High Cut; Parametric-3 |
+| Wah | 4 | pre | Bass Wah; Bubba Wah; Crying Clyde Wah; Crying Wah |
+| Utility | 5 | mixed | Adaptive Gate; Doubler; Input Gate; Utility Gate; Volume |
+
+**54 entries;53 selectable.** Input Gate is fixed;Doubler uses post1;remaining utilities use pre slots. Pre/post compressor variants count separately. Five slots remain the concurrency boundary; named availability does not prove installed contents, synthesis or global volume. Earlier source/release qualifications remain.
 
 ## Quad Cortex
 

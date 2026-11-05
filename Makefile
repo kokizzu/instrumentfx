@@ -2633,3 +2633,9 @@ brand-sort-plan-sheeran:
 	python3 scripts/brand_sort.py plan brand/SHEERAN-LOOPERS.md
 brand-sort-apply-sheeran:
 	python3 scripts/brand_sort.py apply brand/SHEERAN-LOOPERS.md
+
+.PHONY: brand-sort-plan-neural brand-sort-apply-neural
+brand-sort-plan-neural:
+	python3 scripts/brand_sort.py plan brand/NEURAL-DSP.md
+brand-sort-apply-neural:
+	python3 scripts/brand_sort.py apply brand/NEURAL-DSP.md
