@@ -792,7 +792,11 @@ def price_cells(record):
         if not re.search(r'\bIDR\b', label, re.I) and not ('Rp' in value or '?' in value):
             continue
         entry='**'+clean(label).replace('**','')+':** '+value
-        if re.search(r'\b(?:used|preloved|bekas|second)\b',label,re.I) and not re.search(r'new|retail',label,re.I):
+        # 'Second offer' is ordinal; require an affirmative second-hand label.
+        # 'Like new' describes used condition and must not trigger the new-price guard.
+        condition_label = re.sub(r'\blike[-\s]+new\b', '', label, flags=re.I)
+        used_label = re.search(r'\b(?:used|preloved|bekas|second[-\s]+hand|second\s+like[-\s]+new)\b|\bexplicit(?:ly)?\s*(?:\*\*)?second\b', label, re.I)
+        if used_label and not re.search(r'new|retail',condition_label,re.I):
             used.append(entry)
         else:
             other.append(entry)
@@ -917,6 +921,17 @@ def test_comparison_selection():
 
 
 def test_field_projection():
+    ordinal = {'facts': [{'field': 'IDR / second condition-unverified sold-out offer', 'value': 'Rp4.350.000; used/new condition unknown.', 'context': ''}]}
+    used_cell, other_cell = price_cells(ordinal)
+    assert used_cell.startswith('?'), 'Ordinal second was misread as second-hand condition'
+    assert 'Rp4.350.000' in other_cell, 'Condition-unverified ordinal offer lost'
+    secondhand = {'facts': [{'field': 'Second-hand IDR', 'value': 'Rp3.000.000; seller explicitly labels second-hand.', 'context': ''}]}
+    assert 'Rp3.000.000' in price_cells(secondhand)[0], 'Explicit second-hand evidence lost'
+    ordinal_cached = {'facts': [{'field': 'IDR Second condition-unverified cached ask', 'value': 'Rp28.980.000; condition unknown.', 'context': ''}]}
+    assert price_cells(ordinal_cached)[0].startswith('?'), 'Ordinal cached ask became used evidence'
+    for label in ('IDR Explicit **Second like new**, stock unconfirmed', 'IDR Explicit SECOND'):
+        record = {'facts': [{'field': label, 'value': 'Rp2.400.000; seller condition label, not inspected.', 'context': ''}]}
+        assert 'Rp2.400.000' in price_cells(record)[0], ('Explicit second-hand condition lost', label)
     # Condition words in caveats or retailer prose are not used-price evidence.
     for caveat in (
         'Rp18.910.000 sold out. Not an available new/used price. Late compensation Rp10.000.',

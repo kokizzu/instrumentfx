@@ -272,6 +272,20 @@ Checked2026-10-28: the [manufacturer’s own FAQ](https://www.sonicake.com/produ
 
 Primary [product/download/FAQ](https://www.sonicake.com/products/matribox-ii-pro) supports both the capability statements and unresolved MIDI contradiction. Preserve each rather than choosing a convenient interpretation. Further manual work and exact regional hardware offers remain needed.
 
+### Matribox II Pro — original MIDI control map and indexed Geand offer
+
+Checked **2026-11-05**. The recovered [manufacturer-authored English manual](https://device.report/m/0ca12b8c01aec1ae5dde88fc9d74f5e8d1c4b6c1781ba47fb52a861c6c539a7e_optim.pdf) explicitly targets **firmware1.0.1**,63 PDF pages,printed55–57. Its Pro title, panel controls and menu text match the [manufacturer-hosted original-file search entry](https://sonicake.oss-cn-shenzhen.aliyuncs.com/res/QME-200/Matribox%20II%20PRO_Online%C2%A0Manual_EN_Firmware%20V1.0.1.pdf); direct primary retrieval timed out. This is the original PDF body, not a generated FAQ. It does not certify firmware1.2.2 mappings.
+
+| Field | Revision-qualified evidence / limitation |
+|---|---|
+| MIDI / preset addressing | CC0=0 selects01A–30D;CC0=1 selects31A–60D,each with printedPC1–120. Preserve that numbering;raw zero-based Program Change translation is unverified. |
+| Expression / MIDI targets | CC7 controls **Preset Volume**,CC11 controlsEXP1,both0–100. CC13 selectsEXP1 A/B at0–63/64–127. These are MIDI controls,not direct analog wiring or an all-preset volume assignment. |
+| MIDI / numbered module bypass | CC43–54 address modules1–12:0–63 off,64–127 on. These are chain positions,not twelve fixed effect categories orproof every combination fits DSP. |
+| MIDI / BPM source conflict | CC68 allows0–2 withCC69. The table usesCC68=1 for both128–255BPM and256–300BPM. Do not silently correct the latter to2;the intended high-bank value remains unresolved. |
+| IDR / indexed Geand hardware ask | **Rp3.995.000**, [GeandPedalStore,shop185899831/item53119605320](https://shopee.co.id/Sonicake-Matribox-II-Pro-Multi-Effects-Processor-i.185899831.53119605320),Kab.Sleman. Yesterday-crawled search result identifies exactPro hardware;direct base and variation URLs fail. The search URL contains display_model_id366640369306,not verified selected-variant contents. Condition,working state,variant,bundle,adapter,warranty,stock,shipping/tax andcheckout remain unknown. November6–7 delivery isnot stock confirmation;late-delivery compensation up toRp10.000 isnot deducted. This supplies the price missing from the2026-11-04 lead;older Faja/MICKEY asks andtheir unavailable status remain separate. |
+
+The existing manual/FAQ **MIDI-output conflict** remains unresolved;incoming controls do not prove outgoing MIDI. No MIDI transmission,software download ordevice test.
+
 <!-- comparison evidence ends -->
 
 ### Matribox II Pro shared floorboard provenance

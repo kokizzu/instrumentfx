@@ -171524,5 +171524,57 @@
     "active_inventory_unchanged": 402,
     "additional_creative_records_unchanged": 80,
     "next": "Continue exactShopee leads andpriority individual-display profiles;preserve GT-Pro,GP-200JR → Prime → GE300,expression andlossless consolidation queues"
+  },
+  "matriboxpro_midi_offer_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Sonicake::Matribox II Pro QME-200",
+    "canonical": "brand/SONICAKE.md#matribox-ii-pro--original-midi-control-map-and-indexed-geand-offer",
+    "source": "https://device.report/m/0ca12b8c01aec1ae5dde88fc9d74f5e8d1c4b6c1781ba47fb52a861c6c539a7e_optim.pdf",
+    "revision": "Manufacturer English original firmware1.0.1,63PDFpages,printed55–57",
+    "identity": "Pro title/controls/menu text matchmanufacturer original-file indexedbody;primarydirecttimeout. NotgeneratedmirrorFAQ.",
+    "facts": {
+      "preset_banks": "CC0 0/1;printedPC1–120 each;zero-basedtranslationunverified",
+      "volume": "CC7PresetVolume0–100,notglobalanalogassignment",
+      "expression": "CC11EXP1 0–100;CC13A/B0–63/64–127",
+      "module_bypass": "CC43–54→positions1–12;0–63off/64–127on",
+      "tempo_conflict": "CC68range0–2,butsourceprints1forboth128–255and256–300BPM;notcorrected"
+    },
+    "offer": {
+      "url": "https://shopee.co.id/Sonicake-Matribox-II-Pro-Multi-Effects-Processor-i.185899831.53119605320",
+      "shop": "185899831",
+      "item": "53119605320",
+      "seller": "GeandPedalStore",
+      "region": "Kab.Sleman",
+      "ask_idr": 3995000,
+      "access": "Yesterday-indexedsearch;directbase/variationfailed",
+      "display_model_id": "366640369306;contentsnotverified",
+      "condition_stock_bundle_checkout": "unknown;notclassifiednew/used",
+      "voucher": "latearrivalcompensationnotdeducted"
+    },
+    "remaining": [
+      "Current1.2.2mappingandNAMarchitecture/concurrency",
+      "MIDIoutputconflict/typeA-B",
+      "BPMhighbank/PCnumberingclarification",
+      "USBbattery-powerandphysicalconnectornotationconflicts",
+      "Condition/stock-qualifiedexactoffers"
+    ],
+    "active_inventory_unchanged": 402,
+    "additional_creative_records_unchanged": 80,
+    "next": "Continue exactShopee discovery andpriority separate-screen profiles;preserve GT-Pro,GP-200JR → Prime → GE300,expression-volume andlossless consolidation queues"
+  },
+  "idr_ordinal_condition_projection_20261105": {
+    "checked_date": "2026-11-05",
+    "scope": "Price presentation only; no new condition/stock verification or inventory change",
+    "bug": "Bare second in field headings confused ordinal offers withsecond-hand condition; like-new condition also triggerednew-price exclusion",
+    "regression_target": "make comparison-test-fields",
+    "red": "Ordinal second condition-unverified sold-out offer failedbeforefix",
+    "green": "Regression passedafter affirmativecondition matching;explicitSecond-hand/Secondlike-new/SECOND andused labels retained",
+    "affected_records": [
+      "Sonicake::Matribox II Pro QME-200",
+      "Kemper::PROFILER Head MK2",
+      "MOOER::GE150 Pro Li"
+    ],
+    "qualification": "Ordinal condition-unverified offers stayotherpricecolumn;explicit sellerlabels areevidence,notindependentconditionverification;sourceamounts/caveats retained",
+    "active_inventory_unchanged": 402
   }
 }
