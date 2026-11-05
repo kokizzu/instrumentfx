@@ -2670,7 +2670,7 @@ The [manufacturer English Operation Manual](https://zoomcorp.com/media/documents
 | Field | Evidence / limitation |
 |---|---|
 | Processing | **67 effect types;max8 simultaneous modules**. [Named original-manual census](#g1u--named-effect-inventory-and-creative-boundaries) reconciles67;current1.20 equivalence remains unchecked. |
-| Memory | **100 User +100 Preset =200**,each10banks×10patches. Factory-filled User census unverified. |
+| Memory | **100 User +100 Preset =200**,each10banks×10patches. Original supplied-bank duplication is documented in the follow-up below; installed contents unverified. |
 | Dimensions / mass | **136W×155D×52H mm;350g without batteries**. Width fits200mm,depth exceeds140mm;plugs add clearance. |
 | Display | **Two-digit seven-segment LED**,not individual footswitch LCDs. Physical dimensions unverified. |
 | Input / output | Mono phone input;stereo phone output doubles as headphones. Phones20+20mW into32Ω is a test-load rating,not a universal minimum load. |
@@ -2725,6 +2725,18 @@ The historical OS list names **Windows XP SP2/Vista andMac OS X10.4.6/10.5**,wit
 **OUTPUT mixes DAW playback withdirect processed guitar.** The manual says todisable DAW echo-back monitoring toavoid flanger-like doubling;this is routing behavior,not an added effect. USB supplies power when theadapter isabsent. Cables longer than3m may trigger low-voltage indication,not a universal measured cable-length limit. Expression attenuation ofcomputer playback remains unverified.
 
 **ZFX Tools includes editor/librarian andrecording functions**,importing device patch data forcomputer editing/storage. This doesnot establish IR/NAM import,current OS/architecture support orcomplete backup integrity. No software downloaded,recording made ordevice operated;partial lead remains outside402 active models.
+
+### G1u — supplied-bank duplication and master-level scope
+
+Checked **2026-11-05** against the manufacturer-authored **G1u-5000-4** manual,printed pp3,6–7,16–17, and its separately identified **G1u-PatchList-E-1** supplement in the [original-text reproduction](https://manuzoid.com/manuals/w02mA-Zoom%20G1U%20User%20manual). The host also appends other products’ patch material; only the explicitly G1u-labelled supplement is used. Current1.20/installed equivalence remains unverified.
+
+| Field | Finding / qualification |
+|---|---|
+| Memory / original supplied banks | G1u-PatchList-E-1 says preset banks **0–9 contain the same patches as A–J**. With100 locations per area, the factory bank duplication is not200 distinct supplied sounds. This documents original filling,not a used unit’s present contents. |
+| Memory / write protection | Numeric banks are read-only; only A–J can receive Store/Copy. Saving from a preset defaults the destination toA0. All Initialize overwrites edited User contents; no reset performed. |
+| Volume / hand control versus pedal | Play-mode VALUE adjusts master level across patches: displayed **0–98,1.0**, resets to80 at power-on, and controls headphone listening level. This is a hand control,not proof of a global expression target or USB-playback/recorded-loop attenuation. Per-patch expression assignments remain separately qualified. |
+
+Shopee exact-name/spelling searches again found accessories and sibling models,not a seller/item-qualified G1u processor. New/used IDR andstock remain unknown. Partial lead remains outside402 active models;no ownership inferred.
 
 ## G1X FOUR
 

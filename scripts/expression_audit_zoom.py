@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(hotone): reconcile Stage module counts and qualify preorder offer'
+        message='research(zoom): document G1u supplied banks and master-level scope'
     print(git('commit','-m',message))
