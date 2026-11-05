@@ -5733,7 +5733,7 @@ Guitar multi-effects;distinct fromGFX-3/GFX-5. Checked2026-10-17;partial. Manufa
 | Dimensions / mass | 397W×183D×60Hmm;1.4kg. | [Manual p29][GFX4-M] |
 | Processing / category choices | Up to8;44programs=42effects+ZNR+amp simulator. COMP/OD/ENV5,DRIVE13,EQ1,MOD13,DELAY/REVERB10=42. PEDAL has two settings pages,explicitly not an effect. Amp3/cab4 alternatives excludeOFF. | [Manual pp4,7,21,23,29][GFX4-M] |
 | Factory / user memory | 120=60user+60read-onlypreset;Store/Swap. Edits lost on patch change unless stored. Preset edits default to matching user destination;SWAP unavailable from preset. All60 user slots initially duplicate presets (p30). | [Manual pp3–4,12–13,30][GFX4-M] |
-| Synth / acoustic | ACOSIM converts electric toward acoustic character;RINGMD is not established synthesis. | [Manual pp21–22][GFX4-M] |
+| Synth / acoustic | ACOSIM converts electric toward acoustic character;RINGMD is not established synthesis. [Named42-choice census and exact pitch limits](#gfx-4--complete-named-menu-and-pitch-boundaries);input-note polyphony remains unverified. | [Manual pp21–26][GFX4-M] |
 | I/O | Mono¼input,mono¼output,stereo¼line/phones,ACadapter;ACTIVE/NORMAL switch. USB/MIDI/external-control sockets absent from listed rear inventory. | [Manual pp5,29][GFX4-M] |
 | Power / battery / USB | **12V AC500mA**,suppliedAD-0008;not9VDC. DCpolarity inapplicable. Measured draw,battery andUSBpower unverified. | [Manual p29][GFX4-M] |
 | IR / NAM / capture | UserIR,nativeNAM,convertedNAM andcapture imports unverified. | Unresolved |
@@ -5787,6 +5787,24 @@ Checked **2026-11-04**, [original English manual, printed pp4–7,23][GFX4-M].
 | Processing / global settings | Stored amp/cab simulator configuration applies across patches; this global scope does not extend to EXPVOL. | [Manual p7][GFX4-M] |
 
 Normal passive pickups use NORMAL; active/high-output pickups use ACTIVE. No external analog EXP connector appears in the complete rear inventory. Existing mono-versus-stereo bypass-volume distinction remains applicable. No physical test, firmware installation or local download.
+
+### GFX-4 — complete named menu and pitch boundaries
+
+Checked **2026-11-05**, [manufacturer English operation manual,printed21–26](https://zoomcorp.com/media/documents/E_GFX4.pdf),32PDFpages;firmware version unstated. Original text,not installed-unit verification.
+
+| Category | Complete named choices |
+|---|---|
+| COMP/OD/ENV —5 | COMP; VINCMP; OD BST; A-WAH; SLOW-A |
+| DRIVE —13 | ACOSIM; SCREAM; OD; DIST +; DIST; FUZZ P; LEAD; METALZ; ZMD-1; USBLUE; BRDRV; DRFMTL; EVHDRV |
+| EQUALIZER —1 | 3BAND EQ |
+| MODULATION —13 | CHORUS; CE-CHO; FLANGE; VIBRAT; STEP; TREMOL; DELAY; PHASE; RINGMD; PITCH; DETUNE; PDLWAH; PDLPIT |
+| DELAY/REVERB —10 | HALL; ARENA; ROOM; GARAGE; DLYHAL; DLYROM; PP DLY; ECHO; REVERS; ST CHO |
+
+These42 selections exclude PEDAL’s VOL-SW/RTMSET settings,ZNR andamp simulation. **PITCH** selects−12…−1,+1…+12,+24semitones;not every interval through+24. **DETUNE** Depth−10…−1/+1…+10 has no printed cents unit. **PDLPIT** offers10 internal modes,not10blocks;input-note polyphony remains unverified.
+
+**STEP** moves filter cutoff in steps;**RINGMD** amplitude-modulates input. Neither establishes tracking synthesis. ACOSIM remains acoustic tonal simulation. DELAY inMODULATION reaches500ms,distinct fromthe other block’s longer delays;fixed DLYHAL/DLYROM combine delay/reverb. Shared-module alternatives cannot all run together. Existing bypass andhold-delay restrictions remain.
+
+Shopee search repeats the older HopeMusicRp2,499,000 teaser;reopened shop omits the exact item. Adapter listings are accessories,not processor prices. No qualified condition/stock update orlocal download.
 
 ## GFX-5
 
