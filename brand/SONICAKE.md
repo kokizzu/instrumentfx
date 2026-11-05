@@ -738,10 +738,12 @@ Checked2026-10-28 against the [manufacturer product page][RS-P]. Ordinary electr
 
 | Field | Preserved finding / uncertainty |
 |---|---|
-| Expression / controls | No built-in expression; **EXP/FS input**. **1/2/13**,rear power separate. |
+| Expression | No built-in expression; **EXP/FS input**. |
+| Knobs / footswitches / buttons | **1 rotary /2 footswitches /13 front buttons**; rear power separate. Retains the [original2026-10-14 manual visual review](#preserved-original-smart-box-finding); no new visual census. |
 | Screen / dimensions | **1.77-inch color LCD**,pixel resolution/touch unverified. **135 W ×114 D ×51 H mm;378 g**,compact. |
 | Processing | **Nine simultaneous modules** NR,FX1,DRV,AMP,IR,EQ,FX2,DLY,RVB. [Complete V1.0.1 menu census](#smart-box--ampir-inventory-and-counting-boundary):NR1,sharedFX30,DRV7,AMP38,stockIR16,EQ3,DLY18,RVB10=123;five userIR slots separate. Marketing130+ counting unresolved. |
-| Memory / sound | **100 locations,50 factory-filled**. [V1.0.1 FX inventory](#smart-box--named-fx-inventory-and-creative-capabilities):30 sharedFX choices;polyphonic Octave/Pitch,Detune,AC G. Dedicated synth unverified. |
+| Memory | **100 locations,50 factory-filled**; retained prior evidence, not a new installed-content check. |
+| Synth / pitch / acoustic | [Own V1.0.1 FX inventory](#smart-box--named-fx-inventory-and-creative-capabilities):30 shared FX choices; **polyphonic Octave/Pitch**, Detune and **AC G** acoustic simulation. Dedicated synth unverified. Rechecked printed18–19 on2026-11-06; current1.0.6 equivalence unverified. |
 | IDR / separate simamura ask | **Rp1.995.000**, [shop1552936594/item57458607880](#smart-box--separate-simamura-hardware-ask),KotaTangerangSelatan,checked2026-11-06,two-day openedcache. Condition,variant,bundle,batteryhealth,warranty,stock anddeliveredtotal unverified;not a new/used range. OlderRp1.840.000 remainsseparate. |
 | Bass capability | Manufacturer explicitly advertises guitar/bass-optimized presets; included in the shared bass comparison. Bass-specific model inventory and low-end performance remain unverified. [Product,checked2026-10-17](https://www.sonicake.com/products/smart-box) |
 | IR / NAM | **Five user IR slots**. Official Japan notice2026-08-18 explicitly identifies **NAM A2 conversion** using mobile app**1.7.2+** or desktop software**1.5.2+**;not native A2 loading. Accepted architecture/size restrictions and conversion fidelity remain unverified. [Regional notice,checked2026-10-17](https://www.hotone.jp/announcements/nama2allbrand) |
