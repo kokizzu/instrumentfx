@@ -137,6 +137,20 @@ Checked **2026-11-05**, [IK manufacturer announcement,October2,2026](https://ikm
 
 TONEX Rig is an optional software upgrade included forregisteredBoard owners;not proof every TONEXPlayer user receives thewholeBoard chain. Future effects promised forlateOctober are not certified shipped bythat promise. Preserve the separately dated76-effect and233-factory-preset censuses. Hardware supply conflict,full global-expression coverage,physical verification andqualified Indonesian stock remain open. Partial lead stays outside active counts;no downloads ordevice operation.
 
+### TONEX Board — DIN MIDI routing and external-switch polarity
+
+<a id="tonex-board--din-midi-routing-and-external-switch-polarity"></a>
+
+Checked **2026-11-05**, manufacturer-authored **User Manualv1.0.0,2026-09-02**, [printed51](https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=51) and [52](https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=52). Exact72-page IK000200 reproduction;original manual body only,not host FAQs. Historical documented behavior,not tested firmware1.1.0.
+
+| Control | Documented boundary |
+|---|---|
+| MIDI Output type | **Off** disables output;**Internal** sends generated messages;**Thru** forwards received messages;**Merge** combines received/internal messages. Forwarding doesnot generate new control assignments orprove every MIDI message type ishandled. |
+| Clock / receive filtering | Clock modes listed are **Master** and **Slave DIN**. Input Filter accepts both PC/CC,PC only orCC only. This isnot an audio filter orproof ofUSB-clock slave support;the later1.1.0 USB MIDI addition remains separately sourced. |
+| External double switch | Each switch independently selects Preset±,Bank±,Mode Cycling,Tuner orTap Tempo. **Normally Open/Normally Closed** configurations are offered. Contact polarity isnot tip/ring pinout orcertification ofa specific M-VAVE controller. |
+
+The already documented Master Volume target andoutput destinations remain separate fromthese controls. No numeric master endpoints,held-position recall,bypass/tail coverage,USB-host operation orMIDI-note synthesis is established here. Partial lead remains outside active counts;no messages sent,controllers connected orfiles downloaded.
+
 ## TONEX ONE
 
 Standard TONEX ONE guitar/bass processor, not TONEX ONE+, Bass Edition or an artist variant. Consolidated and partially refreshed **2026-10-17**; no additional active model.
