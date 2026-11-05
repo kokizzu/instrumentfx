@@ -503,7 +503,7 @@ Reviewed 2026-10-14. Guitar/bass/vocal multi-effects, **large**, no built-in exp
 | Size/weight | **301 W × 180 D × 58 H mm; 1895 g**, hence large under the 300 mm medium-width boundary. Cable clearance additional [P] |
 | Display | **5-inch, 800×480, color touchscreen**. LED strip is not a second graphical screen [P,M] |
 | Memory | **300 fully editable locations = 60 banks × 5**, five scenes per patch. Factory-filled subset not established [M,P] |
-| Routing/blocks | **12 simultaneous slots**, dual serial/parallel chains, DSP-limited. Product specification lists 16 module types; the older V1.0.4 manual lists 13. These are library categories, not additional simultaneous slots [M,P] |
+| Routing/blocks | **12 simultaneous slots**, dual serial/parallel chains, DSP-limited. Product specification lists 16 module types; V1.0.4 prose lists 13 effects plus three FX-loop modules, while its specification also says16. See the later count-basis reconciliation; these are categories, not additional simultaneous slots [M,P] |
 
 ### Processing and loading
 
@@ -553,7 +553,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **K/F/B** (Hardware and displays): 5/8/1
 - **Published dimensions, mm; weight** (Hardware and displays): W301×D180×H58; 1895 g
 - **Main display** (Hardware and displays): 5-inch color, 800×480, touchscreen
-- **Processing and memory** (Processing, storage and loading): 12 simultaneous slots, dual routing; 300 editable locations with 5 scenes; older and newer category inventories differ
+- **Processing and memory** (Processing, storage and loading): 12 simultaneous slots, dual routing; 300 editable locations with 5 scenes; historical category-count shorthand qualified by the later13+3 reconciliation
 - **IR / NAM / captures** (Processing, storage and loading): 50 IR slots, 1024/2048 samples; native A2 Lite from specified Stage firmware; proprietary capture separate
 - **Connection / software highlights** (Connections, power and apps): Instrument/mic input with phantom, stereo loop, XLR/quarter-inch outs, 3.5 mm TRS MIDI IN/OUT, 2 EXP/CTRL; Windows/macOS/iOS/Android editor; 8-in/8-out USB
 - **Documented power** (Connections, power and apps): 9–18 V center-negative; maximum 1.4 A at 9 V; USB/battery operation unverified
@@ -570,6 +570,22 @@ Sources: [effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md](HOTONE.md
 [Manufacturer-authored V1.6.4 mirror body](https://www.scribd.com/document/1049631457/Ampero-II-Stage-Online-Manual-EN-Firmware-V1-6-4-1780283715558) independently retains patch-scoped controls and reversible target ranges; identity matches Stage title and numbered structure. [Hotone support](https://cdn.hotoneaudio.com/support/1) lists **V1.7.0**; its exact assignment behavior remains unverified. No V1.7.0 guarantee is inferred from older manuals. No local download,PDF-image inspection or hardware test.
 
 [Exact manufacturer Stage specification](https://www.hotone.com/products/multi-effects/Ampero%20II%20Stage) rechecked: **301 W×180 Dmm**,outside preferred size;normal guitar input,two TRS EXP/CTRL and3.5mm headphones. Exact [Seven Stereo shop16879370/item25819354504](https://shopee.co.id/Hotone-MP-380-Ampero-II-Stage-Multieffects-Pedal-i.16879370.25819354504) failed retrieval2026-10-19. Preserve olderRp13.685.000 as dated indexed evidence;current stock,condition,bundle,warranty,shipping andused price remain unknown.
+
+### Ampero II Stage — module accounting, bypass and preorder evidence
+
+Checked **2026-11-05**. The manufacturer-authored [V1.0.4 manual reproduction](https://manualzz.com/doc/80504206/hotone-ampero-ii-stage-user-manual) retains the Stage cover/revision and original numbered body; generated host summaries/FAQs excluded. [Current support](https://cdn.hotoneaudio.com/support/1) lists V1.7.0 manual/effects list, but the product’s manual link timed out; current-version equivalence is unverified.
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / module-count basis | Printed pp30–31 list **13 effect categories plus FX SND,FX RTN,FX LOOP**. This reconciles arithmetically with the same manual’s16-module specification(p89) and current product table; not evidence of three added firmware categories. Twelve chain slots remain a separate DSP-limited capacity. Earlier13/16 observations are preserved with this qualification. |
+| I/O / input and bypass scope | Printed pp61–62: TS inputs offer E.GT/A.GT/Line; XLR R offers Line/Mic. Phantom power resets **off** at startup. **Analog Bypass disables phones,XLR input/outputs and tails**, supporting mono-in/mono-out or stereo-in/out only. DSP Bypass supports mono-in/stereo-out; the manual also says USB Audio is bypassed. No inference about global EXP attenuation coverage. |
+| I/O / electrical loading | [Exact Stage product specifications](https://www.hotone.com/products/multi-effects/Ampero%20II%20Stage): TS E.GT1MΩ,A.GT4.7MΩ,Line10kΩ;XLR5kΩ;return100kΩ;AUX10kΩ. Main balanced/unbalanced outputs andsend1kΩ;phones47Ω. Output impedance is not a recommended headphone-load minimum. Firmware unstated. |
+
+| Condition / seller | IDR asking evidence and qualifications | Exact hardware |
+|---|---|---|
+| Condition/variant unresolved — FireWorX Music Gear, Kota Surabaya | **Rp12,700,000–14,150,000**,two unselected variations; **preorder,dispatch within30days**. Direct opened cache two weeks old; search last-week snapshot has different November delivery estimates. Neither is live checkout stock. Bundle/adapter,condition,warranty/import region,shipping/tax anddelivered total unknown. Range is within one listing,not used/new endpoints; late-delivery voucher up toRp10,000 is not an immediate discount. | [shop72439811/item56202249780](https://shopee.co.id/Hotone-MP-380-Ampero-II-Stage-Multieffects-Pedal-2-i.72439811.56202249780) |
+
+Earlier Seven Stereo Rp13,685,000 observation remains separately dated; no purchase or seller contact. Factory fill,current full effect census,exact synth/acoustic algorithms,NAM/capture capacities,global EXP-volume scope and explicit battery/USB power remain unresolved.
 
 ## Ampero II Stomp MP-300
 
