@@ -740,7 +740,7 @@ Checked2026-10-28 against the [manufacturer product page][RS-P]. Ordinary electr
 |---|---|
 | Expression / controls | No built-in expression; **EXP/FS input**. **1/2/13**,rear power separate. |
 | Screen / dimensions | **1.77-inch color LCD**,pixel resolution/touch unverified. **135 W ×114 D ×51 H mm;378 g**,compact. |
-| Processing | **Nine simultaneous modules** NR,FX1,DRV,AMP,IR,EQ,FX2,DLY,RVB;130+ choices,individual subcounts ?. |
+| Processing | **Nine simultaneous modules** NR,FX1,DRV,AMP,IR,EQ,FX2,DLY,RVB. [V1.0.1 named groups](#smart-box--drive-eq-delay-and-reverb-inventory):DRV7,EQ3,DLY18,RVB10;sharedFX30 separately. Marketing130+ counting unresolved;AMP/IR transcription pending. |
 | Memory / sound | **100 locations,50 factory-filled**. [V1.0.1 FX inventory](#smart-box--named-fx-inventory-and-creative-capabilities):30 sharedFX choices;polyphonic Octave/Pitch,Detune,AC G. Dedicated synth unverified. |
 | IDR / separate simamura ask | **Rp1.995.000**, [shop1552936594/item57458607880](#smart-box--separate-simamura-hardware-ask),KotaTangerangSelatan,checked2026-11-06,two-day openedcache. Condition,variant,bundle,batteryhealth,warranty,stock anddeliveredtotal unverified;not a new/used range. OlderRp1.840.000 remainsseparate. |
 | Bass capability | Manufacturer explicitly advertises guitar/bass-optimized presets; included in the shared bass comparison. Bass-specific model inventory and low-end performance remain unverified. [Product,checked2026-10-17](https://www.sonicake.com/products/smart-box) |
@@ -827,6 +827,20 @@ This is a separately identified hardware listing,not a preset pack. New/used con
 Checked **2026-11-06**, [manufacturer V1.0.1 manual,printed15–19](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf). **FX1/FX2 share30 choices:** COMP 1; COMP 2; Touch Wah; Auto Wah; C-Wah; Boost; A-Chorus; B-Chorus; Crystal Chorus; Whirlcho; Fullchor; Flanger; Jet; Flanger ST; Flanser; Phaser; Phaser M; BBD Phaser; Phaser ST; Vibe; Vibrato; Lofi Vibrato; Vibrato ST; Tremolo; Sine Trem; Bias Trem; Octave; Pitch; Detune; AC G. Counts are choices,not simultaneous blocks.
 
 Octave andPitch explicitly support polyphonic processing;Detune spans±50cents. AC G modes are Standard,Jumbo,Enhanced,Piezo. Touch Wah is envelope filtering;Auto Wah is periodic filtering. Neither proves synth tracking. The EXP column assigns algorithm-specific parameters,not universal volume. Current1.0.6 equivalence unverified;remaining category census pending. No download/device operation.
+
+
+### Smart Box — drive, EQ, delay and reverb inventory
+
+Checked **2026-11-06**, [manufacturer V1.0.1 manual,printed19,25–29](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf).
+
+| Category | Count | Names |
+|---|---:|---|
+| DRV | 7 | Scream; Butter OD; JP Dist; Shark; Dark Mouse; Grey Fuzz; Red Fuzz |
+| EQ | 3 | GT EQ 1; GT EQ 2; Bass EQ |
+| DLY | 18 | Pure; Slap; Warm; Mag; Tube; Reverse; Analog; Sweep; Ping Pong; Echo; Shiny; Dark; Float; Damage; Flash; Shake; Glost; Flutter |
+| RVB | 10 | Air; Room; Hall; Church; Plate 1; Plate 2; Spring; Light; Ocean; Dream |
+
+**Trail** concerns effect bypass,not proven preset-change spillover. Reverse reverses feedback;Sweep filters repeats;Float choruses feedback;Damage/Flutter detune it;Shake adds tremolo. These are processing descriptions,not synth tracking. Preserve **Glost** spelling. Lists are category choices,not extra simultaneous blocks;current1.0.6 retention and130+ counting remain unverified. AMP/IR transcription isnext. No download/device operation.
 
 ### Preserved original Smart Box finding
 

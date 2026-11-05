@@ -83453,9 +83453,21 @@
       "canonical": "brand/SONICAKE.md#smart-box--named-fx-inventory-and-creative-capabilities",
       "count": 30,
       "revision": "V1.0.1 printed15–19",
-      "remaining": "DRV/AMP/IR/EQ/DLY/RVB completecensus;currentfirmware andglobalEXP scope",
+      "remaining": "AMP/IR fullnamedtranscription and130+ counting;currentfirmware/globalEXP coverage",
       "inventory_unchanged": 402,
-      "next": "LCD/Shopeepriority;continueSmartBox remainingcensus;preserve independentqueues"
+      "next": "LCD/Shopeepriority;finishSmartBox AMP/IR census before choosing next systematic profile;preserve independentqueues",
+      "additional_named_groups": {
+        "checked": "2026-11-06",
+        "canonical": "brand/SONICAKE.md#smart-box--drive-eq-delay-and-reverb-inventory",
+        "revision": "V1.0.1 printed19,25–29",
+        "counts": {
+          "DRV": 7,
+          "EQ": 3,
+          "DLY": 18,
+          "RVB": 10
+        },
+        "qualification": "BypassTrail distinctfrompresetspillover"
+      }
     }
   },
   "matribox_ii_pro_display_offer_20261017": {

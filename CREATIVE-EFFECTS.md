@@ -46,7 +46,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
-| [Sonicake Smart Box](brand/SONICAKE.md#smart-box--named-fx-inventory-and-creative-capabilities) | Synth unverified;filters distinct | Polyphonic Octave/Pitch;Detune | AC G | V1.0.1;current-equivalence unverified |
+| [Sonicake Smart Box](brand/SONICAKE.md#smart-box--named-fx-inventory-and-creative-capabilities) | Synth unverified;filters distinct | Polyphonic Octave/Pitch;Detune | AC G | [Delay/reverb roles](brand/SONICAKE.md#smart-box--drive-eq-delay-and-reverb-inventory);V1.0.1;current-equivalence unverified |
 | [Zoom GFX-3](brand/ZOOM.md#gfx-3--named-menu-and-discrete-pitch-intervals) | Dedicated synth unverified; SFX/filter processing | PITCH; PDL-PIT; chord support unverified | ACFAT; AC BRI | Shared MOD slot; full menu and source conflicts retained |
 | [Zoom GFX-5](brand/ZOOM.md#gfx-5--complete-named-menu-and-pitch-source-conflict) | Dedicated synth unverified; ARRM/filter/envelope processing distinct | PITCH prose/table range conflict; P-PIT16 modes; chord handling unverified | AC FAT; AC STD; AC BRI | STEP; FILTER; RING M; SLOW-A; T-TRIP; RINVIB; hold delay distinct from sampler; shared slots |
 | [Zoom GFX-4](brand/ZOOM.md#gfx-4--complete-named-menu-and-pitch-boundaries) | Dedicated synth unverified; STEP/RINGMD filtering/modulation | PITCH discrete−12…−1,+1…+12,+24; DETUNE; PDLPIT; chord support unverified | ACOSIM | Complete original42-choice menu; shared slots,conditional hold-delay/bypass limits retained |
