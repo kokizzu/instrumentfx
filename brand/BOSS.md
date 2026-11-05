@@ -4763,6 +4763,16 @@ Handheld guitar multi-effects;distinctfromLine6PocketPOD/BOSSGT1. Checked2026-10
 | Editor / software | ToneStudioiOS/Android/macOS/Windows;1.3.4desktoplinks listed. CurrentOSdetails pending;drivers separate. USBaudio,YouTubepractice/automatedmemoryswitching documented,notself-containedhardwarelooprecorder. | [Product][PGT-P] |
 | Looper / drums / live | Tuner,CenterCancel forAUX/Bluetooth/USBaudio;maynotfullyremoveoff-centerparts. VideoABrepeat notproofaudio looper. Hardwarelooper/drums/scenes pending. | [Product][PGT-P];[Manual][PGT-M] |
 
+### Pocket GT — creative-index and held-ambience limits
+
+Checked 2026-11-05 against [own Parameter Guide English02,©2020][PGT-G],19 PDF pages,printed pp3,5–6,9,11–12. Published algorithms, not installed-firmware or tracking tests.
+
+| Field | Finding / qualification |
+|---|---|
+| Pitch / algorithm limits | Pitch Shifter spans ±24 semitones; Octave adds one/two octaves down. Their input polyphony remains unverified. Harmonist and Pedal Bend explicitly reject chords. |
+| Synth / distinct roles | Overtone adds harmonics; no dedicated tracking synth is established. Acoustic Guitar Simulator, Guitar Simulator and acoustic-pickup Acoustic Processor remain separate. |
+| Processing / special and slot scope | Slow Gear swells, Feedbacker generates feedback, and Tera Echo provides dynamic ambience with Hold. Hold saves Off. FX1/FX2 alternatives and separate delay compete for their respective positions. |
+
 ### Separate IDR hardware offers
 
 | Condition | Evidence / qualification | Source |
@@ -4770,6 +4780,7 @@ Handheld guitar multi-effects;distinctfromLine6PocketPOD/BOSSGT1. Checked2026-10
 | Used | Unknown;no condition-verified used offer. | — |
 | New | Unknown;no condition-verified new offer. | — |
 | Condition-unverified historical ask | **Rp4,446,000**,TokoAlatMusikNADA,KotaBandung,shop236930016/item4957668257. Checked2026-10-17,fourmonthindex;directretrievalfailed. Condition,stock,batteryhealth,revision,cable/bundle,warranty,shipping/tax/voucherunknown. Notliveofferorcompleted sale. | [Exactitem][PGT-O] |
+| Condition unverified; indexed sold out | **Rp5,700,000**, Boss Official Shop, Kota Tangerang Selatan, shop341882414/item6364121705. Checked2026-11-05; five-month search index marks **Habis**, direct cache miss. Condition, selected variant, bundle/cable, battery health, warranty, checkout/shipping/tax unknown. Advertised 4% cashback on Rp3million spending is conditional and not deducted; authenticity/15-day-return claims are seller wording, not verification. Older NADA ask retained. | [Exact indexed item](https://shopee.co.id/BOSS-POCKET-GT-Effects-Processor-Multi-Efek-Gitar-i.341882414.6364121705) |
 
 ### Source-access provenance
 
