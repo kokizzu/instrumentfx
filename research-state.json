@@ -170067,5 +170067,30 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue remaining requested separate-screen profile categories;preserve independent general/expression/GT-Pro queues"
+  },
+  "fm9_turbo_tremolo_enhancer_gate_census_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--named-tremolo-enhancer-and-gate-reference",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,44,52,106–107",
+    "reference_choices": {
+      "tremolo_panner": 7,
+      "enhancer": 3,
+      "gate_expander": 4
+    },
+    "fm9_instances": {
+      "tremolo_panner": 2,
+      "enhancer": 2,
+      "gate_expander": 4
+    },
+    "qualification": "CPU-limited reference inventories;installed equivalence and introduction firmware unverified. Gate Hold is not captured-audio freeze.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Remaining category inventories",
+      "Exact pre-MKII Turbo Shopee hardware",
+      "Installed firmware equivalence",
+      "Global expression endpoints,recall and route coverage"
+    ],
+    "next": "Continue display-priority profiles;preserve independent general,expression and consolidation queues"
   }
 }
