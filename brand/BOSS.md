@@ -1409,6 +1409,8 @@ Checked2026-10-17;partial. Guitar multi-effects; bass/vocal suitability and owne
 | Processing / categories | Up to13 simultaneous effects;programmable order;28effects total. Per-category choices and shared restrictions pending. COSM amp/speaker/mic modeling. | [Product][GT5-P] |
 | Preset memory | 150presets+100user patches=250locations;initial user contents unverified. | [Product][GT5-P] |
 | Synth / acoustic | Monophonic HRM synth-like processing and acoustic-guitar simulation documented;not evidence of polyphonic synthesis. | [Product][GT5-P] |
+| Synth / waveform-specific creative scope | [Own-manual distinctions](#gt-5--creative-index-and-waveform-specific-synthesis): Square/Saw tracking oscillators versus Brass/Bow audio shaping; monophonic input warning. Acoustic simulation andsynth share MOD. | [GT5-M][GT5-M];[GT5-E][GT5-E] |
+| Pitch / mode-specific chord handling | Fast/Medium/Slow accept chords;Mono requires single notes. Harmony input polyphony unverified;one/two generated voices are separate. [Creative source details](#gt-5--creative-index-and-waveform-specific-synthesis). | [GT5-M][GT5-M] p37 |
 | I/O | Guitar input;L/MONO+R outputs;stereo mini-jack headphones;send/return;EXP/CTL1+2;MIDI IN/OUT. English specification confirms the mini-jack wording;other jack diameters still unverified. | [Polish manual p58][GT5-M] |
 | Power / battery / USB | Regional117/230/240VAC,14W;not established universal voltage. DC polarity inapplicable to listed AC supply. Memory backup battery is not operating battery power. USB operation unverified. | [Polish manual pp4,58][GT5-M] |
 | Dimensions / mass | **520W×221D×113.5H mm;4.7kg**,confirmed by English specification. | [Polish manual p58][GT5-M];[English manual p73][GT5-E] |
@@ -1442,6 +1444,20 @@ Working state,authenticity,bundle,mains variant,warranty,shipping,tax and vouche
 [GT5-O]: https://shopee.co.id/EFEK-GUITAR-boss-GT-5-i.205502204.41251758346
 
 [GT5-E]: https://cdn.roland.com/assets/media/pdf/GT-5_OM.pdf
+
+
+### GT-5 — creative index and waveform-specific synthesis
+
+Checked **2026-11-06** against the [Roland-hosted Polish translation][GT5-M], **©1996 BOSS,printed35–41**, published by the named official Polish representative. The [English original][GT5-E] is80PDFpages butreturned no readable full-body text;its indexed **printed44** parameter table corroborates names/ranges. Original document text only; no screenshot orinstalled-firmware verification. The [exact product](https://www.boss.info/us/products/gt-5/support/) explicitly calls HRM monophonic.
+
+| Capability | Exact distinction / limitation |
+|---|---|
+| Synth / waveform architecture | **Guitar Synth:Square,Saw,Brass,Bow**. Polishp40 says Square/Saw detect note pitch/articulation anddrive internal oscillators;Brass/Bow directly reshape guitar audio. It warns against chords andoverlapping strings. This is more specific than a generic synth-like filter label. |
+| Synth / sustain controls | Englishp44 restricts **Chromatic,Octave Shift0…−2 andHold** toSquare/Saw;PWM isSquare-only. Polishp41 says muting the guitar stops Brass/Bow regardless ofRelease. Hold is not saved phrase-loop storage. |
+| Pitch / Harmonist modes | **Fast/Medium/Slow accept chords**,with response/modulation trade-offs;**Mono requires single notes** (Polishp37). Englishp44 lists chromatic **±24semitones,fine±50**,andseparate **Harmony** key/scale processing. 1-Voice/2-Mono/2-Stereo describe generated voices/channels,not input-note polyphony. Harmony chord support remains unverified. |
+| Instrument / special processing | **Acoustic Guitar Simulator** hasTop/Body/Level. **Humanizer** offersPicking/Auto/Random vowel processing. **Ring Modulator** Normal usesan oscillator;Intelligent follows detected pitch andrequires clean single notes (Polishp39). These are distinct fromthe Guitar Synth andsampled instrument tones. |
+
+All these alternatives occupy **one MOD selector**;synth,acoustic simulation andHarmonist are not independently concurrent there. Existing Feedbacker/Slow Gear andReverse/Sound On Sound remain separately documented. Introduction firmware,tracking quality/latency andcurrent installed behavior remain unverified. Both retained exact Shopee offers reopened ascache misses;older prices andqualifications are unchanged. No download,software run ordevice operation. Active inventory andguitar-only membership unchanged.
 
 ## GT-6
 
