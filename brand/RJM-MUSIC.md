@@ -80,8 +80,8 @@ Checked 2026-10-31 against the [exact manufacturer page](https://rjmmusic.com/pr
 |---|---|
 | Displays | **16 individual LCDs, one above each switch**, plus main LCD. Diagonal, resolution and touch unknown. |
 | Power / body | **12VDC/1.2A, center-positive, 2.1mm ID/5.5mm OD**; MIDI-output phantom powering. **19.4W×11.1D×3.25H inches /49.3×28.2×8.3cm;8lb/3.6kg**. Ratings, not measured draw. |
-| Connections | Four TRS EXP inputs, linear/log, high/low impedance; two TRS momentary-switch sockets supporting four switches;7-pin MIDI IN/OUT;USB-A storage/USB-B computer;two9VDC auxiliary outputs. Exact EXP wiper wiring unverified. |
-| Memory / software | Product384 presets versus [Manual4.1](https://newsite.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf)768: revision conflict retained.16 button pages;Mac/PC editor, minimum OS unknown. |
+| Connections | Four TRS EXP inputs, linear/log, high/low impedance; two TRS momentary-switch sockets supporting four switches;7-pin MIDI IN/OUT;USB-A storage/USB-B computer;two9VDC auxiliary outputs. Historical wiper-on-ring wiring below; current-hardware equivalence unverified. |
+| Memory / software | Product384 presets versus [Manual4.1](https://newsite.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf)768: revision conflict retained.16 button pages;Mac/PC editor, version-qualified requirements below. |
 | Remaining | Complete current profile and exact Shopee Indonesia condition, stock, bundle and used/new IDR evidence pending. No sibling specifications substituted. |
 
 ### GT/16 — revision-qualified LCD controls and power
@@ -95,6 +95,19 @@ Checked2026-10-31 against [manufacturer Manual4.1,2018-09-11](https://docs.rjmmu
 - USB-B presents a MIDI interface; this does not establish audio or bus power. Historical768-preset versus product384 conflict remains.
 
 The [exact GT/16 product page](https://rjmmusic.com/products/mastermind-gt-16-midi-foot-controller) additionally specifies16 connected devices, one-tap PC transmission to all16 and IA sequences of up to20 CC/PC/Note messages. These are MIDI limits, not audio-effect capacity. Page says sold out; that is manufacturer-store status, not Indonesian availability. Exact Shopee GT16/GT/16 searches returned no indexed hardware item on this pass. Used/new IDR, seller, condition, bundle and local stock remain unverified. No download or hardware test.
+
+### GT/16 — expression endpoints and editor revision boundaries
+
+Checked **2026-11-05**. [Manufacturer manual4.1, dated2018-09-11](https://docs.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf), explicitly covers GT/16. Printedpp39–40,69 document TRS expression with **wiper on ring** and separate heel/toe CC endpoints. Global settings can be overridden per preset; a second CC destination supports crossfades. **SndOnPrst** transmits the current pedal value on preset changes; calibration and value transmission do not establish the receiving processor’s volume assignment. This is MIDI control, with no demonstrated analog audio-volume, bypass, headphone, tail or looper coverage. The exact GT/16 product page omits wiper contacts; current-hardware wiring equivalence remains unverified.
+
+The [manufacturer version history](https://docs.rjmmusic.com/books/other-mastermind-information/page/mastermind-version-history-log), revision18 as checked, separately establishes:
+
+- **5.5.0+ editor requires macOS12 Monterey or later**, with universal Mac binaries. **5.5.1 is PBC/LT-editor-only**; the history directs GT editor and GT/LT/PBC firmware users to5.5.0. These are documented versions, not the owner’s installed version.
+- **5.3.0** permits preset numbers and scene names together on the main screen, but removes non-bold main-display fonts. **5.4.0** corrects GT song-name display and bank-selection preset colors; those are firmware-qualified display behaviors, not additional screens.
+
+The older [editor requirements](https://docs.rjmmusic.com/books/mastermind-editor-manual/page/system-requirements) list Windows7+32/64-bit, macOS10.13+64-bit and2GB RAM. They do not certify5.5 Windows compatibility or supersede its newer Mac minimum. No release calendar date is established here.
+
+Exact Shopee Indonesia GT/16 and GT16 searches produced no indexed hardware offer on this pass. That does not establish absence; new/used IDR, condition, bundle and stock remain unknown. The384-versus768 preset and1.2A-versus1.0A power conflicts remain open. No local download, installation, wiring or device operation.
 
 ## Mastermind GT/22
 

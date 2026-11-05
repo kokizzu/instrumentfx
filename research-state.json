@@ -174087,5 +174087,33 @@
     },
     "active_inventory_unchanged": 402,
     "next": "Use audit findings as inspection leads only. Continue requested individual-footdisplay/Shopee research;preserve independent GT-Pro,expression andGP200JR→Prime→GE300 queues."
+  },
+  "rjm_gt16_expression_editor_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/RJM-MUSIC.md#gt16--expression-endpoints-and-editor-revision-boundaries",
+    "sources": [
+      "https://docs.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf",
+      "https://docs.rjmmusic.com/books/other-mastermind-information/page/mastermind-version-history-log",
+      "https://docs.rjmmusic.com/books/mastermind-editor-manual/page/system-requirements",
+      "https://rjmmusic.com/products/mastermind-gt-16-midi-foot-controller"
+    ],
+    "revisions": "Manual4.1 2018-09-11 pp39–40,69; version-history revision18, release calendar dates unstated",
+    "findings": [
+      "Historical TRS wiper-ring; global CC endpoints with per-preset overrides and second destination; SndOnPrst transmits position, not processor assignment",
+      "GT editor5.5.0, macOS12+ universal; 5.5.1 PBC/LT editor only",
+      "5.3 main-screen scene/preset combination and bold-only fonts; 5.4 song-name/bank-color fixes"
+    ],
+    "market": "Exact GT/16 andGT16 Shopee Indonesia queries yielded no indexed hardware; absence not established",
+    "remaining": [
+      "Current hardware wiring equivalence",
+      "384 versus768 presets",
+      "1.2A versus1.0A ratings",
+      "Display pixels/diagonal/touch",
+      "Exact condition-qualified Shopee stock",
+      "Receiving processor volume/output coverage"
+    ],
+    "active_inventory_unchanged": 402,
+    "controller_only": true,
+    "next": "Resume requested separate-screen audio-processor gaps and exact Shopee hardware; preserve independent GT-Pro, general GP-200JR → Prime → GE300 and expression queues"
   }
 }

@@ -13,7 +13,7 @@ if sys.argv[1:] in (["stage-collection"], ["collection"]):
     import hashlib
     import json
     from pathlib import Path
-    allowed = {"CREATIVE-EFFECTS.md", "brand/NEURAL-DSP.md", "brand/IK-MULTIMEDIA.md", "brand/MORNINGSTAR.md", "brand/MELOFTY.md", "FOOTSWITCH-DISPLAYS.md", "MULTI-EFFECTS.md", "README.md", "research-state.json", "scripts/display_audit_melofty.py", "Makefile"}
+    allowed = {"brand/RJM-MUSIC.md", "CREATIVE-EFFECTS.md", "brand/NEURAL-DSP.md", "brand/IK-MULTIMEDIA.md", "brand/MORNINGSTAR.md", "brand/MELOFTY.md", "FOOTSWITCH-DISPLAYS.md", "MULTI-EFFECTS.md", "README.md", "research-state.json", "scripts/display_audit_melofty.py", "Makefile"}
     changed = set(git("diff", "--name-only").splitlines()) | set(git("ls-files", "--others", "--exclude-standard").splitlines())
     staged = set(git("diff", "--cached", "--name-only").splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -37,7 +37,7 @@ if sys.argv[1:] in (["stage-collection"], ["collection"]):
         assert review["head"] == git("rev-parse", "HEAD").strip()
         assert review["sha256"] == hashlib.sha256(git("diff", "--cached").encode()).hexdigest()
         assert not git("diff", "--cached", "--check").strip()
-        message = "docs: repair remaining canonical links with reversible provenance" if "brand/IK-MULTIMEDIA.md" in staged else "research(morningstar): qualify MC6 PRO profile and manufacturer conflicts" if "brand/MORNINGSTAR.md" in staged else "research(melofty): reconcile recovered AXOM processing categories" if "brand/MELOFTY.md" in staged else "docs: restore requested separate-screen processor priority"
+        message = "research(rjm): qualify GT16 expression and editor revisions" if "brand/RJM-MUSIC.md" in staged else "docs: repair remaining canonical links with reversible provenance" if "brand/IK-MULTIMEDIA.md" in staged else "research(morningstar): qualify MC6 PRO profile and manufacturer conflicts" if "brand/MORNINGSTAR.md" in staged else "research(melofty): reconcile recovered AXOM processing categories" if "brand/MELOFTY.md" in staged else "docs: restore requested separate-screen processor priority"
         print(git("commit", "-m", message))
     raise SystemExit(0)
 
