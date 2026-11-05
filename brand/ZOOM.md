@@ -6160,6 +6160,19 @@ Checked 2026-10-19 against [own manufacturer manual, pp4–5,11,31](https://zoom
 
 Normal bass input requires no divided pickup; guitar voicing remains unclassified. Existing77.5W×130.3Dmm fits preferred chassis, excluding plugs. Direct analog volume fails; its position/range and bypass/headphone/tail/loop attenuation are not applicable. Footswitch recall cycles a configured patch list, not separate preset-down/up. Headphone driving through line outputs and USB controller workarounds remain unverified. All older sources, IDR observations and technical qualifications remain preserved. No downloads or hardware operation.
 
+### MS-60B — original Version 2 synth and note-handling boundaries
+
+Checked **2026-11-05**, [manufacturer Ver.2 list](https://zoomcorp.com/media/documents/E_MS-60B_FX-list_v2.pdf), ©2017, **Z2I-1668-02**, pp2,5,13–16,27. Original model only.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Creative / synth processing | **Ba Synth** explicitly tracks single notes; Saw/Pulse/PWM. **4VoiceSyn** generates harmony from single bass notes,with9Modes×2Scale variations; generated voices are not input-note polyphony. **StdSyn, SynTlk, V-Syn, Z-Syn** are additional synth choices; chord tracking unverified. No B1on or Plus inventory transferred. | Ver.2 pp15–16,27 |
+| Creative / pitch processing | **PitchSHFT** and single-note **Ba Pitch** span −12…+12/+24semitones,±25-cent fine adjustment. PitchSHFT chord support unverified. **Ba Octave** adds one octave down; note handling unverified. | Ver.2 p13 |
+| Creative / instrument and special processing | **Z-Organ** organ simulation; **Defret** fretless-bass processing. **SeqFLTR**2–8steps/8patterns; RndmFLTR random filtering; **RingMod** metallic modulation; **BitCrush**4–16-bit effect control,not converter resolution. **Bomber** picking-triggered explosion,not pitched synthesis. Acoustic conversion remains unverified. | Ver.2 pp2,5,14–16 |
+
+Preserve **four simultaneous effects/DSP**,older58-effect marketing andunresolved V2 category census. Documented library doesnot verify installed firmware,individual introduction versions ortracking quality. Fresh Shopee searches recovered no new condition-qualified original-model offer;Neewer MS60B lighting andPlus listings excluded. Older hardware asks remain dated;no downloads ordevice operation.
+
+
 ## MS-60B Plus
 
 Manufacturer model **MS-60B+**,catalogued with the word Plus to distinguish it from the original MS-60B. Reviewed **2026-10-17** following exact Shopee discovery. Bass-focused multi-effects;not classified as guitar/vocal from a seller title. No ownership assertion. Partial research using official HTML andindexed manufacturer text;no dependencies,manual files,software orfirmware downloaded to the workspace.
