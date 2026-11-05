@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(flamma): enumerate original FG200 effects and live switch roles'
+        message='research(flamma): enumerate FB200 bass effects and preserve switch conflict'
     print(git('commit','-m',message))

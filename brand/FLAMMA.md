@@ -110,6 +110,7 @@ Checked **2026-10-17**; partial. Bass-focused combined multi-effects; distinct f
 | Display | Three-character numeric display; diagonal,color and touch unverified. Ambient RGB strip is not a color screen. [Product][FB2-P] |
 | Dimensions / weight | **311×67.5×49.7 mm;578 g**; axes/accessory inclusion unspecified. [Manual][FB2-M], p22 |
 | Simultaneous processing / routing | Named fixed modules:Gate,Comp,Amp,Cab,Mod,Reverb,Master. Maximum simultaneous processing/routing flexibility unverified. [Manual][FB2-M], pp10–11 |
+| Processing / named effect inventory | [Own V01 menu](#fb200--named-effects-and-counting-scope): CS Comp,12 modulation choices and5 reverbs;gate separate. Ring Modulator,Stutter Tremolo andFilter are not synth-tracking proof. No live-switch conflict is resolved by these names. |
 | Categories / choices | **10 amps,10 cabinets,1 compressor,12 modulation,5 reverb**,plus gate. Product's20 AMP/CAB combines10+10,not20 each. Its19 effects reconcile arithmetically as gate1+comp1+mod12+reverb5; arithmetic is not DSP capacity. [Manual][FB2-M], pp18–21; [Product][FB2-P] |
 | Factory / user / total presets | **40 writable slots**; factory-filled subset unverified,not40 factory plus40 user. [Product][FB2-P] |
 | Synth / acoustic simulation | Dedicated synth/acoustic simulator each unverified; ring modulation/filter do not establish either. |
@@ -144,6 +145,20 @@ Remaining: verify footswitch/panel discrepancy,complete simultaneous processing/
 Checked **2026-10-28**,own manufacturer **FB200 V01/2025-05-22** manual [FB2-M],pp05–07: complete controls/connections contain no treadle oranalog EXP;dedicated3.5mm stereo phones. **Documented direct analog volume path fails**. Manufacturer product explicitly describes bass-specific processing;ordinary-guitar suitability remains unverified. Keep this existing bass model outside the main normal-guitar capability table.
 
 Manualp12 describes A/B/C/D preset selection andA+B/C+D group navigation,followed bysingle-switch selection within that group. It doesnot textually identify which combination is down versus up. The page mistakenly labels the unit FG200;retain that inconsistency,not sibling substitution. No unrestricted sequential preset down/up claim. MASTER andAMP VOL knobs do not provide pedal control;position/range/recall N/A for this connector inventory,whilebypass/headphone/tail/drum attenuation remains unverified. Existing311×67.5×49.7mm axes andlive-switch conflict stay unresolved. No downloads orhardware test.
+
+### FB200 — named effects and counting scope
+
+Checked **2026-11-05** in the [manufacturer FB200 manual](https://flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf), **V01/2025-05-22**,25 PDF pages,printed18,20–21. This is the bass model’s own table,not a transferred FG200 library or an installed-firmware check.
+
+| Group | Complete named choices in this guide |
+|---|---|
+| Compressor —1 | CS Comp |
+| Modulation —12 | Phaser;Step Phaser;Flanger;Jet Flanger;Tremolo;Stutter Tremolo;Vibrato;Rotary;Analog Chorus;Multi Chorus;Ring Modulator;Filter |
+| Reverb —5 | Room;Hall;Plate;Spring;Modulated Reverb |
+
+These **18 named choices plus the separately described Gate** support the existing19-effect arithmetic,not19 concurrent blocks. The manual identifies CS Comp with BOSS CS-3;this is modeling attribution,not hardware circuitry. No dedicated delay category appears in this guide. Ring modulation,stutter andmodulated filtering are special processing;Vibrato doesnot establish a conventional transposer. Tracking synthesis,pitch-shifter note handling andacoustic conversion remain unverified.
+
+The conflicting **C** assignment toAMP/CAB andMOD onprinted10–11 remains unresolved. Do not borrow FG200’s switch mapping or infer all three FB200 modules toggle together. The existing NEO MUSIC158235298/49952333845Rp1.427.580 ask remains a three-month cached offer,not newly verified condition orstock. Firmware/current-library equivalence andremaining hardware/software gaps stay open. No download ordevice test.
 
 ## FG200
 

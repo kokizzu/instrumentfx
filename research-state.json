@@ -156724,6 +156724,15 @@
         "instrument": "Acoustic simulation unverified",
         "qualification": "RingModulator/StutterTremolo/StepPhaser/Filter;original27choice subset;laterBoost additions separate",
         "evidence_basis": "Focused2026-11-05 exact-model manufacturer manualV02.05.06 printed10–13,18,25–27;not completefreshfour-categoryaudit"
+      },
+      {
+        "key": "Flamma::FB200",
+        "canonical": "brand/FLAMMA.md#fb200--named-effects-and-counting-scope",
+        "synth": "Tracking synthesis unverified",
+        "pitch": "Dedicated pitch shifting unverified;Vibrato separate",
+        "instrument": "Acoustic simulation unverified",
+        "qualification": "RingModulator/StutterTremolo/StepPhaser/Filter;own bass V01;switch conflict unresolved",
+        "evidence_basis": "Focused2026-11-05 exact FB200 manufacturer V01/2025-05-22 manual printed18,20–21;notcompletefreshfourcategoryaudit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -175197,5 +175206,24 @@
     "additional_index_records": 100,
     "active_inventory_unchanged": 402,
     "next": "Prioritize requested separate-footdisplay sources andqualifiedShopee;continue remaining required-field gaps. Preserve GT-Pro,GP-200JR→Prime→GE300 andexpression-volume queues."
+  },
+  "fb200_named_effects_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FLAMMA.md#fb200--named-effects-and-counting-scope",
+    "source": "https://flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf",
+    "revision": "V01/2025-05-22;25PDFpages;printed18,20–21",
+    "named_counts": {
+      "Compressor": 1,
+      "Modulation": 12,
+      "Reverb": 5
+    },
+    "named_total": 18,
+    "gate_separate": true,
+    "scope": "19arithmetic includingGate;notconcurrency/currentinstalledcensus",
+    "switch_conflict": "C assigned toAMP/CAB andMOD;notresolved orborrowed fromFG200",
+    "market": "ExistingNEOMUSIC158235298/49952333845 Rp1427580 three-monthcache;no newconditionstockproof",
+    "additional_index_records": 101,
+    "active_inventory_unchanged": 402,
+    "next": "Requested separate-footdisplay andShopee first;continue remaining required-field/market gaps. New FLAMMA TONE GO source surfaced inofficialindex;deduplicate ledger before researching/admitting. Preserve GT-Pro,GP-200JR→Prime→GE300 andexpression-volume queues."
   }
 }
