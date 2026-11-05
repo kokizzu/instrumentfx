@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify original G2 creative pitch and preset names'
+        message='research(zoom): compare MS-50G Plus creative processing'
     print(git('commit','-m',message))

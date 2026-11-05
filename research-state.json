@@ -155057,6 +155057,15 @@
         "instrument": "Fretless Simulator; acoustic conversion unverified",
         "qualification": "Exact Plus ©2024 list; Sequence Filter/Loop Roll/Bomber/Phaser+Distortion; six-slot/DSP ceiling; bass only",
         "evidence_basis": "Focused2026-11-05 manufacturer effects list pp5,15–17,21 plus retained exact-model record; not full fresh catalogue audit"
+      },
+      {
+        "key": "Zoom::MS-50G Plus",
+        "canonical": "brand/ZOOM.md#ms-50g-plus",
+        "synth": "Dedicated tracking synth unverified; Bomber explosive generation separate",
+        "pitch": "Polyphonic Octaver/Pitch Shifter chord-capable; Detune; Harmony chord handling unverified",
+        "instrument": "Acoustic Simulator; Sitar Simulator",
+        "qualification": "Exact Plus Z2I-5046-02; sequenced/random/vowel filters,Ring Modulator,Slicer,Loop Roll;six-slot/DSP andapp-librarylimits",
+        "evidence_basis": "Focused2026-11-05 manufacturer effects list pp5–6,11,17,19–20,26 plus retained model record;not full fresh audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -170714,5 +170723,21 @@
     ],
     "access_followup": "MS-50G Plus panel imagery still unavailable: no browser surfaces;web PDF screenshots exposed no inspectable image. No visual census claimed.",
     "next": "Resume requested separate-display andsystematicfield/marketresearch;retain originalG2aspartial. PreserveGT-Pro/general,expressionandconsolidationqueues."
+  },
+  "ms50gplus_creative_pitch_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#ms-50g--polyphonic-pitch-instrument-simulation-and-triggered-generation",
+    "source": "https://zoomcorp.com/media/documents/E_MS-50Gplus_EffectsList.pdf",
+    "revision": "©2024,Z2I-5046-02;pp5–6,11,17,19–20,26",
+    "finding": "Explicit chordpitch versus unverifiedsynth;acoustic/sitar andspecialalgorithm distinction;Bomber input/footswitch trigger.",
+    "additional_creative_records": 72,
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Dedicated synth architecture andHarmony chordhandling",
+      "Installed/app-added library and128-versus129document/headline discrepancy",
+      "Physicalpanel confirmation andqualifiedcurrentoffers"
+    ],
+    "other_priority_check": "TMP currentUS history still1.8.58 July15;surfacedShopeeIDs allalreadyrecorded. No duplicate update.",
+    "next": "Continue requested individual-display profiles andsystematic missingfields/marketdiscovery;preserve GT-Pro/general,expressionandconsolidationqueues."
   }
 }

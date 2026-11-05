@@ -6048,6 +6048,7 @@ MS-50G+ guitar multi-effects; distinct from original MS-50G. Checked 2026-10-17;
 | Processing / category choices | Six simultaneous effects; 102 advertised base effects across drive, modulation, delay, reverb, compressor, filter and special categories. PDF entry counts, including additions/utilities, are below; base-only and installed per-category counts remain unresolved. Product announces 27 additional effects: 24 November2024, OverDrive December2025, Modulation Delay2 January2026, Stereo Guitar Graphic EQ7 June2026. Installed content/capacity unverified; do not assume129 installed. | [Product][Z50P-P]; [Manual][Z50P-M] |
 | Category choices / document inventory | Agent-counted entries in effects-list revision Z2I-5046-02: **Dynamics10; Filter16; Drive26; Preamp22; Modulation25; Delay16; Reverb7; SFX6 —128 total**. Count each named effect/utility once; ignore parameter modes and the overview example. SFX includes BPM, not six independent sound-processing algorithms. The PDF marks Handy Guitar Lab additions with stars; text extraction does not reliably associate every star with its row. This document inventory does not reconcile to102+27 announced effects and does not prove installed content or simultaneous capacity. | [Effects list pp2–26][Z50P-E] |
 | Factory / user memory | 100 user patch memories. Official preset list documents001–085 (Krampus Drive through Hound Dog); remaining slot initialization and firmware-specific factory contents unresolved. Automatic saving can be disabled; factory reset overwrites settings and patches. | [Manual][Z50P-M]; [Preset list][Z50P-L] |
+| Creative / pitch and special processing | **Polyphonic Octaver/Pitch Shifter support chords; Pitch Shifter ±24semitones; Detune ±25cents.** Harmony chord handling unknown. Acoustic/Sitar simulation, sequenced/random filters and triggered Bomber are distinct. [Exact Plus source and limits](#ms-50g--polyphonic-pitch-instrument-simulation-and-triggered-generation). | Own effects list Z2I-5046-02; checked 2026-11-05 |
 | Synth / acoustic | ACOUSTIC SIMULATOR explicitly reshapes electric guitar toward acoustic tone. Sitar simulation, talking filters and BOMBER sound generation are distinct effects; no dedicated synth architecture established. | [Effects list pp5,11,26][Z50P-E] |
 | I/O | Mono¼-inch input,470kΩ; separate mono¼-inch L/R outputs; USB-C and DC9V. Firmware1.30 adds USB MIDI program-change reception with selectable channel or OMNI. No dedicated headphone socket in the complete connector inventory; USB audio and further digital control unverified. | [Manual specifications][Z50P-M]; [v1.30 supplement pp3–4][Z50P-S] |
 | Power / battery / USB | AD-16:9VDC,500mA,center-negative supply rating, not measured draw. TwoAA: alkaline~7h,NiMH1900mAh~6.5h,lithium~14h; conditions affect duration. USB bus power supported. | [Manual][Z50P-M] |
@@ -6090,6 +6091,16 @@ Checked **2026-11-05** in the [manufacturer online Operation Manual](https://zoo
 - **Memory:** REVERT PATCH→PREVIOUS restores the state immediately after patch selection; FACTORY restores the factory state. This is per-patch restoration, not a complete device reset or an extra memory bank.
 
 These are documented operating constraints, not device tests. Control images remained inaccessible; no new physical button count or numerical patch-direction mapping is certified. No local download or device operation.
+
+### MS-50G+ — polyphonic pitch, instrument simulation and triggered generation
+
+Checked **2026-11-05**, [manufacturer effects list](https://zoomcorp.com/media/documents/E_MS-50Gplus_EffectsList.pdf), ©2024, **Z2I-5046-02**, printed5–6,11,17,19–20,26. Exact Plus model; list includes Handy Guitar Lab additions, not proof every effect is installed or a feature-introduction firmware map.
+
+- **Pitch:** Polyphonic Octaver and Polyphonic Pitch Shifter explicitly accept chords; the latter spans **−24…+24 semitones**. Detune spans **±25cents**. Harmony Pitch Shifter uses scale/key; its chord handling remains unverified.
+- **Instrument processing:** Acoustic Simulator reshapes electric-guitar tone with TOP/BODY controls. Sitar Simulator supplies bend, buzz and upper-octave level. Neither is an acoustic-IR import claim.
+- **Special:** Sequence Filter (**2–8steps,8patterns**), Random Filter, Cry Filter, Ring Modulator and Slicer (**20patterns**) are distinct processing choices. Bomber generates explosive sounds, triggered by **INPUT or FOOT SW**; this is not verified pitched synthesis. Loop Roll remains short sample-and-hold.
+
+Dedicated tracking-synth architecture remains unverified. The existing **six-slot/DSP limits** and app-addition qualifications remain; effect names do not guarantee concurrent availability or tracking quality. No download or device test.
 
 
 ## MS-60B
