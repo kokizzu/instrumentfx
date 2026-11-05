@@ -5204,6 +5204,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Display / independent adjustments | V2 manual **p97** separates touchscreen brightness from **contrast controls for LCD1–5 and AMP**. Dragging controls adjusts these separately; numeric ranges are not supplied in the text. Contrast adjustment does not establish monochrome/color, touch or auxiliary diagonal. **p98 ECO mode** optionally powers off after10 unused hours; not display-only sleep. **p18 explicitly establishes defaultON**,resolving the earlier default uncertainty. Checked2026-10-31, text only. [Own manual](https://zoomcorp.com/documents/461/E_G11v2.pdf) |
 | Dimensions / weight | **495 W ×253 D ×64 H mm;2.8 kg**. Large by the project's size bins. Pedal-up maximum height and cable clearance are additional/unverified. [G11-M p.104] |
 | Simultaneous processing | Specification: **one amplifier plus nine effects**, DSP-limited. Operation pp.26,32 also describes up to ten freely combined effects; preserve that wording rather than assuming ten arbitrary high-load engines or unlimited duplicate amps. Overflow bypasses the excess effect. [G11-M] |
+| Processing / named modulation and SFX | [Complete historical category names](#g11--named-v2-modulation-and-sfx-inventory):33 Modulation and9 SFX choices. GEMINOS doubling modes andDuo Phase internal routing do not add blocks orprove synth input polyphony;current installed census remains unverified. |
 | Categories / choices | V2 effect list: Dynamics, Filter, Drive, Amp, Cabinet, Modulation, SFX, Delay, Reverb, Pedal, Send/Return and IR. The preserved2026-10-15 V2-list finding records **15 Dynamics choices**; Additional V2 table-entry counts checked2026-10-31:**Modulation33,Cabinet35,Amp34,Drive45,Filter25,Delay17,SFX9,Reverb17,Pedal21,Send/Return9,IR1**;see [partial census](ZOOM.md#g11--partial-v2-category-census-and-volume-controls). All twelve V2 category counts are now transcribed;current installed totals remain unverified. This historical count is not a reconciled installed-library census. V2 added one guitar amp, nine bass amps and57 bass effects; additional OverDrive, BitCrush and DynaDelay were distributed in2025–2026. Do not sum the site's overlapping/launch-era totals as a current installed inventory. [G11-E,G11-F,G11-P] |
 | Presets / user memory | **500 editable patch memories,125 banks×4** in V2. This replaces the earlier240 total. V2 patch-listp2 establishes **300 factory-filled and200 empty**;see [allocation](#g11--v2-factory-allocation-and-usb-level-controls). Current unit contents remain unverified;500 is not500 factory plus500 user. The V2 release added200 supplied patches. [G11-M pp.4,8,104; G11-F] |
 | Memory / creation and bank deletion | **V2 printedpp42–50:** deleting a patch leaves an **Empty** location;new-patch creation requires an opening andis unavailable when all500 are occupied. New-bank setup assigns selected existing patch memories. **Deleting a bank also deletes its patches**,andlater banks move up. Bank management is therefore not just display-only grouping;shared-assignment behavior andrecovery remain unverified. [Own manual](https://zoomcorp.com/documents/461/E_G11v2.pdf),checked2026-11-01;no deletion ordevice operation performed. |
@@ -5640,6 +5641,23 @@ Checked **2026-11-05**, [ZOOM V2 manual,©2021,printed40–45](https://zoomcorp.
 
 The save screen also permits selecting a destination inanother bank andsaving there. This is destination selection within500 locations,not additional memory orexternal backup. The existing AUTOSAVE/default andunsaved toe-state qualifications remain unchanged. No patch created,overwritten,downloaded ordevice operated.
 
+
+### G11 — named V2 modulation and SFX inventory
+
+Checked **2026-11-05**, [manufacturer V2.0 effects list,©2021,printed27–32](https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf). This completes names for two previously counted categories,not a fresh entire-library audit.
+
+| Printed page / category | Named choices |
+|---|---|
+| 27 / Modulation | Tremolo;Chorus;StereoCho;Phaser;VinFLNGR;TheVibe;Vibrato;SwellVibe |
+| 28 / Modulation | Octave;RingMod;Detune;PitchSHFT;PolyShift;MonoPitch;HPS |
+| 29 / Modulation | Kick FLNG;Slicer;CloneCho;SuperCho;StonePha;CoronaTri;BendCho |
+| 30 / Modulation | AnalogCho;WarpPhase;Duo Phase;GEMINOS;BassStCho;BaVinFLNG;Ba Octave;Ba Detune |
+| 31 / Modulation | BaMnPitch;BassPhase;Ba AnaOct |
+| 31–32 / SFX | Bomber;AutoPan;LoopRoll;HotSpice;Z-Syn;Defret;PH+Dist;BaStdSyn;BaSynTlk |
+
+**33+9=42 choices**,not simultaneous blocks. GEMINOS offers MN-1/2/3 andST-1/2/3 doubling modes;track counts are not input-note polyphony. Duo Phase has SERI/PARA/STR routing inside one effect. BendCho bends triggered notes individually;that wording doesnot establish chord tracking. LoopRoll Duty25–100 andLATCH/UnLATCH apply toits short sample/hold,not the phrase looper.
+
+Use the source’s **V2.0/Ver2.00** scope. Extracted text joins the cover’s version with the following printedpage2;the older ledger spelling Ver2.002 doesnot establish a separate firmware/document release. Post-V2 downloadable additions andcurrent2.10 firmware retain separate qualifications. Current rotary census,mini-LCD physical specifications,installed contents andqualified live Shopee stock remain unresolved. No local download ordevice operation;inventory/membership unchanged.
 
 ## GFX-1 — partial discovery lead
 

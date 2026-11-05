@@ -156161,7 +156161,26 @@
         "pitch": "PolyShift chords;MonoPitch/BaMnPitch andpedal mono variants single-note;HPS scale/key,polyphony unverified",
         "instrument": "Aco.Sim;HotSpice sitar;Defret bass",
         "qualification": "Slicer/LoopRoll/Bomber are DSP-limited choices;V2 availability is not current installed census",
-        "evidence_basis": "Exact manufacturer V2 effects Ver2.002 ©2021,printed28–32,38,40;focused follow-up"
+        "evidence_basis": "Exact manufacturer V2 effects Ver2.002 ©2021,printed28–32,38,40;focused follow-up",
+        "named_inventory": {
+          "checked_date": "2026-11-05",
+          "canonical": "brand/ZOOM.md#g11--named-v2-modulation-and-sfx-inventory",
+          "source": "https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf",
+          "revision": "V2.0/Ver2.00 ©2021,printed27–32;legacyVer2.002 is page-boundary extraction,not confirmedrelease",
+          "counts": {
+            "modulation": 33,
+            "sfx": 9
+          },
+          "scope": "Category names now complete;notcurrentinstalledlibrary orsimultaneouscapacity",
+          "distinctions": "GEMINOSdoubling modes;DuoPhaseinternalrouting;BendChonotehandling;LoopRollDuty/switchmode",
+          "market": "TargetedShopeesearch no new qualified exact G11 hardware offer",
+          "remaining": [
+            "Full remaining named categories/current effect pool reconciliation",
+            "Complete rotary census andmini-LCD physicalspecs",
+            "Installedfirmware andqualifiedliveShopeestock"
+          ],
+          "next": "Continue individual-footdisplay models andexactShopee;preserve independent expression-volume,GT-Pro andGP-200JR→Prime→GE300 queues"
+        }
       },
       {
         "key": "Zoom::G5n",
