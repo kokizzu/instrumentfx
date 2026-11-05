@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(harley-benton): qualify Advanced preset and editor scope'
+        message='research(harley-benton): clarify Advanced live utility and volume boundaries'
     print(git('commit','-m',message))

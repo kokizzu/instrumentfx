@@ -19,7 +19,7 @@ Checked **2026-11-06**. Exact Advanced, item578765; separate from Core, original
 
 Product body: **273×148×32.8mm**, axes unlabeled; **1.3kg**. Included **9V DC 300mA** supply. Ports: mono6.3mm input, dual mono outputs, balanced XLR L/R, ground lift, stereo3.5mm AUX/headphones, **micro-USB OTG and USB-C computer port**. Digital audio44.1kHz/24-bit. PC/Mac editing, DAW recording and updates; mobile OTG recording/streaming. Exact OS, drivers and channel counts unverified.
 
-Practice: **80-second looper, 40 drum patterns plus10 metronome rhythms**, tap tempo and435–445Hz tuner. Third-party IR support advertised. Native NAM, conversion and proprietary capture unverified; factory filling/write protection, scenes, trails and loop retention unknown.
+Practice: **80-second looper, 40 drum patterns plus10 metronome rhythms**, tap tempo and435–445Hz tuner reference calibration. Third-party IR support advertised. Native NAM, conversion and proprietary capture unverified; factory filling/write protection, scenes, trails and loop retention unknown.
 
 ### Advanced — exact V2 manual and source conflicts
 
@@ -63,6 +63,14 @@ This is **not evidence of150 protected factory +50 user memories**. SAVE selects
 [Manufacturer Soundlab article, dated04.11.2026](https://harleybenton.com/backstage/geartalk/dnafx-software-editor/), demonstrates Advanced specifically: editor changes update the connected unit, presets can be created/named/saved, and the processor works standalone. The article advertises assignable expression and third-party IR loading but establishes neither global-volume persistence nor new synth/pitch algorithms. Its default-preset wording gives no numerical factory census. Video not inspected.
 
 The exact [Advanced product page](https://harleybenton.com/product/dnafx-git-advanced/) exposes separate Mac andWindows **editor/firmware-update** links. Link labels alone establish no installed/current firmware version, OS minimum, driver compatibility or USB-channel count. No software/archive downloaded or installed; existing connector andbody conflicts remain unresolved.
+
+### Advanced — live utilities and volume boundaries
+
+Exact V2 manual above, printedpp33–37; checked **2026-11-06**. B hold opens tuner; **Mute/Bypass** are tuner modes, and any footswitch exits. **435–445Hz is the A-reference calibration setting**; the wording does not establish the lowest/highest detectable note.
+
+C hold opens looper; A handles Record/Play/Dub, B stops, and B hold1second clears all tracks. PLAY VOL controls loop playback. At80seconds recording changes to playback automatically. Preset editing leaves recorded sound unchanged, but power-cycle storage, preset-change continuity and expression/tuner attenuation of playback remain unverified.
+
+SYSTEM separates **INPUT LEVEL −∞…+6dB**, SCREEN brightness, CAB SIM TRHU output options, OTG OUT level and RESET. These are distinct controls; their names do not establish one global final-output volume assignment. The guide gives no complete CAB SIM TRHU option list or numerical OTG OUT bounds. No reset, recording, clear operation or device test performed.
 
 ### Advanced — market and continuation
 
