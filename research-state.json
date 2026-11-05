@@ -170167,5 +170167,24 @@
       "Global expression endpoints,recall androute coverage"
     ],
     "next": "Continue display-priority profiles;preserve independent general,expression andconsolidation queues"
+  },
+  "fm9_turbo_formant_ring_rotary_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--formant-ring-mod-and-rotary-distinctions",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,51,97–98",
+    "fm9_instances": {
+      "formant": 2,
+      "ring_mod": 1,
+      "rotary": 2
+    },
+    "qualification": "CPU-limited reference;Ring Mod input-note polyphony,installed equivalence andintroduction versions unverified.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Drive,Reverb,Megatap named census andremaining category inventories",
+      "Exact pre-MKII Turbo Shopee hardware",
+      "Global expression endpoints,recall androute coverage"
+    ],
+    "next": "Continue display-priority profiles;preserve independent general,expression andconsolidation queues"
   }
 }

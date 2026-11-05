@@ -2528,6 +2528,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | Categories / Multi-Delay reference | [39 named choices](#fm9-turbo--named-multi-delay-types-and-internal-processing):six core algorithms plus33 variants;two FM9 blocks,CPU permitting. Internal processing is not extra block capacity. |
 | Categories / Plex reference | [45 named choices](#fm9-turbo--named-plex-types-and-held-tail-boundaries):five core algorithms plus40 variants;one FM9 block,CPU permitting. Held tails do not establish persistent loop storage. |
 | Categories / Megatap andMixer reference | [Tap-texture andgrid-row boundaries](#fm9-turbo--megatap-texture-and-mixer-row-boundaries);two Megatap/four Mixer blocks,CPU permitting. Advertised22 Megatap types remain unnamed here. |
+| Categories / Formant,Ring Mod andRotary reference | [Vowel,modulation andspeaker distinctions](#fm9-turbo--formant-ring-mod-and-rotary-distinctions);FM9 block limits2/1/2,CPU permitting. Ring Mod note polyphony remains unverified. |
 | Preset memory | **512 editable locations**,including overwritable factory entries; **eight scenes each**. [Manufacturer FM9-family default:384](#fm9-turbo--family-factory-default-and-backup-scope);exact pre-MKII Turbo shipping allocation andcurrent unit contents remain unverified. Not extra protected locations. [Shared manual p39](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**; [manual/envelope/pitch tracking modes](#fm9-turbo--synth-tracking-versus-manual-generation) are distinct. Voice count is not note polyphony. Acoustic input documented separately; electric-to-acoustic simulation remains unknown. [Own-applicable manual p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Audio I/O | Mono unbalanced¼-inch Input1; stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR and same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Manual p21](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
@@ -2682,6 +2683,17 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,57–59
 **Megatap:** two FM9 blocks,CPU permitting;4s line,up to64 taps. Time Shape choices: **EXP/LOG,SIGMOID,COSINE,SINE**. Feedback Tap controls where a pattern feeds back;near-zero Stereo Spread can cancel taps. The input envelope shapes effect feed,not global pedal volume. The advertised22 types are not a completed named census. Taps do not establish synth polyphony orpersistent loop storage.
 
 **Mixer:** four FM9 blocks,CPU permitting;six stereo inputs tied to preceding grid rows,including empty rows. Each row has gain,balance andup to64samples alignment delay;output may sum to mono. Mixer cannot be bypassed. These are routing controls,not extra physical inputs. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
+
+
+### FM9 Turbo — Formant, Ring Mod and Rotary distinctions
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,51,97–98](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf);Original/Turbo applicability as qualified above.
+
+**Formant:** one reference type,two FM9 blocks. Ten vowel choices: **AAA,EEE,III,OHH,OOO,EHH,AHH,AWW,UHH,ERR**. Start/Middle/End morphing is filtering,not synthesized vocal performance;stereo channels do not establish note polyphony.
+
+**Ring Mod:** one FM9 block;**CLASSIC,SSB UPPER,SSB LOWER**. Optional pitch tracking has GUITAR/BASS ranges;input-note polyphony remains unverified. Carrier2–2,000Hz with0.25–4× multiplier is modulation,not proof ofa polyphonic synth engine.
+
+**Rotary:** two FM9 blocks;drum/rotor speed andacceleration controls. Rate0 parks rotation;zero Mic Spacing models one mono microphone. Speaker simulation is distinct fromgenerated organ tones. All instance limits are CPU-dependent. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
 
 
 ## VP4
