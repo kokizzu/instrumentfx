@@ -178,6 +178,12 @@ Checked2026-10-19 using the [manufacturer-leaflet transcription on a mirror](htt
 
 Checked2026-10-28: the [manufacturer’s own FAQ](https://www.sonicake.com/products/levitate) explicitly supports **mono headphone use but does not recommend it**; a dedicated headphone socket is not established. It also confirms delay tails survive bypass and REVERB hold engages trails for both effects. This independently corroborates the earlier qualified leaflet transcription; it does not prove expression attenuation of those tails. Direct analog EXP/global volume, position/endpoints/recall, headphone/recorded-loop coverage and preset down/up remain **unverified**. Independent dry/wet controls are not a global master assignment. Both published90×124mm axis interpretations fit the preferred rectangle; the axis conflict remains. English and Japanese manual images exposed no readable content; no visual inspection, local download or hardware test claimed.
 
+### Levitate — mixed-model Shopee variation exclusion
+
+Checked2026-11-05: [Koleksi_Tua,shop1789283436/item42435576584](https://shopee.co.id/Pedal-Efek-Gitar-NUX-Amp-Academy-Boss-VD400-Vintage-Delay-Blackstar-LT-Dual-Electro-Harmonix-Soul-Food-TC-Electronic-PolyTune-3-Sonicake-Levitate-Warped-Dimension-i.1789283436.42435576584?extraParams=%7B%22display_model_id%22%3A416675142669%2C%22model_selection_logic%22%3A3%7D),Kab.Tangerang,search-indexed today;direct reopening failed with a cache miss. The search body advertises **Rp264.850 with voucher** across several unrelated pedals. Visible variation labels are Nux/Amp Academy/Blackstar/LT Dual;the Levitate variant and its price are not established. **Reject this amount as a Levitate hardware quote**;condition,bundle andstock remain unknown. Delivery7–9Nov andlate-delivery compensation do not establish stock or an additional discount. Earlier exact-model asks remain separately qualified above.
+
+The matching QDS-02 leaflet transcription was rechecked:no complete connector census or EXP pinout was established;external expression/global volume remain unknown.
+
 ## Matribox II Pro QME-200
 
 <!-- comparison evidence begins -->
