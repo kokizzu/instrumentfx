@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify G5n display behavior and hardware offers'
+        message='research(valeton): document GP-180 USB modes and sold-out offer'
     print(git('commit','-m',message))

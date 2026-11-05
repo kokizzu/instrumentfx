@@ -171033,5 +171033,34 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requested separate-screen models where primary gaps areaccessible;preserve GT-Pro,expression andconsolidation queues."
+  },
+  "gp180_usb_modes_offer_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/VALETON.md#gp-180--usb-channel-modes-and-power-direction",
+    "sources": [
+      "https://www.kirstein.de/docs/manuals/00120133/manual_EN.pdf",
+      "https://www.valeton.net/wpfd_file/gp-180_online-manual_en_firmware-v1-1-1-pdf/",
+      "https://shopee.co.id/Valeton-GP-180-GP180-Multieffect-Multi-Effect-Processor-Guitar-Gitar-Bass-HD-Modelling-i.57337068.56620028439"
+    ],
+    "revision": "Manufacturer V1.0.0,p22;V1.1.1 endpoint remains inaccessible",
+    "finding": "USB mode/routing/power boundaries documented;not actual enumeration orcurrent-firmware testing.",
+    "offer": {
+      "seller": "Hanip Hobbies",
+      "shop": "57337068",
+      "item": "56620028439",
+      "idr": 3000000,
+      "region": "Kota Tasikmalaya",
+      "stock": "Habis in yesterday search snapshot",
+      "condition": "Unknown",
+      "access": "Direct cache miss"
+    },
+    "remaining": [
+      "Current V1.1.1 manual/effect inventory",
+      "Global analog volume coverage/recall",
+      "Physical display/touch specifications",
+      "Current condition-qualified hardware stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue fresh exact-model evidence after source-blocked separate-screen priorities;retain GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues."
   }
 }

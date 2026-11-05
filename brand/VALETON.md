@@ -1662,6 +1662,8 @@ Current comparison uses the dated table below plus the explicitly qualified foll
 | Expression / position and coverage | VOL placement determines tail cutoff: last cuts tails, earlier preserves downstream decay. Position recall, analog/DSP-bypass attenuation, headphone/USB/recorded-loop coverage and current-firmware equivalence remain unverified. |
 | Headphones / preset navigation | Dedicated3.5mm TRRS PHONES/MIC; Patch mode A/B cycle patches. This does not establish EXP attenuation of every headphone source. |
 | IDR unresolved Shopee variation | CLOUD MUSIC seller1751522918/item47962277077, Kota Jakarta Utara: Rp3.606.400–Rp4.370.000, two unresolved variations, indexed five days before2026-11-04. Neither endpoint is a verified hardware price; condition, bundle, stock and warranty unknown. [Exact lead](#gp-180--unresolved-shopee-variation-offer). |
+| Software / mode qualification | [V1.0.0 mode/channel map and power options](#gp-180--usb-channel-modes-and-power-direction):historical manufacturer documentation,not current-firmware ordevice-tested behavior. |
+| IDR / separate sold-out hardware | [Hanip Hobbies,57337068/56620028439](#gp-180--sold-out-tasikmalaya-hardware-offer),**Rp3.000.000**,yesterday index checked2026-11-05;condition unknown,Habis,direct cache miss. Not a used/new floor orlive stock. |
 <!-- comparison evidence ends -->
 
 Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.
@@ -1737,6 +1739,21 @@ Checked **2026-11-04** in the [manufacturer GP-180 V1.0.0 manual](https://www.ki
 Together with the eight categories counted above, this is **196 menu rows in 11 categories**. The twelfth module, **N→S**, is a sample-loading block; its Empty1–50 row is not 50 additional effect algorithms. The separate 100-slot/50-supplied SnapTone claim and native A2 Lite firmware qualification remain intact. Counting loaded files, user locations and menu choices together would not establish a unique algorithm total. The advertised200+ headline remains unreconciled; no missing entries are invented.
 
 **AC Pre** processes acoustic instruments; the CAB acoustic-body entries differ from PRE’s electric-to-acoustic AC Sim. Neither establishes tracking synthesis. Current-firmware equivalence, tracking performance and remaining expression/price qualifications stay open.
+
+### GP-180 — USB channel modes and power direction
+
+Checked **2026-11-05**, [manufacturer V1.0.0 manual on identified mirror,printedp22](https://www.kirstein.de/docs/manuals/00120133/manual_EN.pdf). Exact GP-180 identity andpanel match the existing record. **Normal:6-in/4-out;Legacy:2-in/2-out**,default Normal. Manufacturer USB direction uses the computer’s perspective:
+
+- Record1/2:selectable wet/dry chain plus microphone;3/4:wet chain only;5/6:computer loopback. Playback1/2:output/phones monitoring;3/4:dry return for reprocessing.
+- Legacy excludes MIDI transmission andcomputer-companion connection;mobile OTG compatibility is qualified asmost systems.
+- USB power choices:Charge,No Power(data only),Reverse Power. Off-state defaults Charge;reverse requires DC9V andmay have device-compatibility limits. No reverse-current rating supplied.
+
+The [official V1.1.1 entry](https://www.valeton.net/wpfd_file/gp-180_online-manual_en_firmware-v1-1-1-pdf/),updated2026-08-26,redirects to an inaccessible [manufacturer file endpoint](https://res.diversitone.com/Uploads/wp/download/1787706377421.GP-180_Online%20Manual_EN_Firmware%20V1.1.1.pdf). Current equivalence,USB source-specific EXP attenuation andactual enumeration remain untested. No local download,connection ordevice operation.
+
+### GP-180 — sold-out Tasikmalaya hardware offer
+
+Checked **2026-11-05**: [Hanip Hobbies,shop57337068/item56620028439](https://shopee.co.id/Valeton-GP-180-GP180-Multieffect-Multi-Effect-Processor-Guitar-Gitar-Bass-HD-Modelling-i.57337068.56620028439),**Kota Tasikmalaya,Rp3.000.000,Habis**. Yesterday’s search snapshot gives the exact GP-180 hardware title;direct reopen returned cache miss. Relative next-day delivery isnot current availability. Condition,working state,variant,bundle/adapter,firmware,warranty,authenticity,shipping/tax,voucher andcheckout total remain unverified. Historical unavailable ask,not a used/new range orcompleted sale;older independent offers retained. Seller’s guitar/bass wording isnot manufacturer instrument-suitability evidence.
+
 
 ## GP-200
 
