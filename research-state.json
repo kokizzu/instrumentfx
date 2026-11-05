@@ -169107,5 +169107,25 @@
       "Existing count conflicts and independent queues preserved; not complete model audit"
     ],
     "next": "Continue remaining exact-model evidence gaps; retain general GP-200JR -> Prime -> GE300 cycle and footswitch-display priority"
+  },
+  "prime_named_time_eq_dynamics_20261105": {
+    "model": "HeadRush Prime",
+    "status": "partial named inventory",
+    "checked": "2026-11-05",
+    "source": "https://www.headrushfx.com/products/prime/",
+    "categories": {
+      "EQ": 9,
+      "Compressor": 6,
+      "Delay": 14,
+      "Reverb": 7,
+      "Chorus": 7
+    },
+    "named_choices": 43,
+    "limitations": [
+      "Revision unstated; firmware introduction and installed contents unverified",
+      "Graphic Bass EQ discrepancy preserved; not an absence claim",
+      "Not concurrency or note-polyphony evidence"
+    ],
+    "next": "Finish remaining named Drive inventory; then resume original GE300 general cycle with separate display/expression priorities preserved"
   }
 }

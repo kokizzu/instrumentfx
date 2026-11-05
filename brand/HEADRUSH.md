@@ -473,6 +473,7 @@ The article retains Eleven Rack/Pro Tools wording despite its explicit HeadRush 
 
 | Required field | Model-specific finding / qualification |
 |---|---|
+| Processing / named delay, reverb, chorus, EQ and compression | [43 listed choices](#prime--named-delay-reverb-chorus-eq-and-compressor-choices):14 Delay,7 Reverb,7 Chorus,9 EQ,6 Compressor. Website grouping is retained;not simultaneous capacity or a certified current-firmware inventory. |
 | Processing / named modulation, filters and utility | [27 manufacturer-listed choices](#prime--named-filter-modulation-and-utility-choices):10 Phaser/Flanger,6 Vib/Trem/Rotary,8 Wah/Filter,3 Utility. Names are library choices,not simultaneous blocks or synth-tracking proof;per-effect firmware introduction unverified. |
 | Memory / MIDI-preset list | [4.1.1 visibility and Scene-copy fixes](#prime--saved-midi-preset-visibility-and-scene-portability):15 visible MIDI Out presets was a dropdown defect,not a documented capacity ceiling. Current storage maximum remains unverified. |
 | Expression | Built-in with toe switch; one external 6.35 mm TRS EXP plus separate TS toe-switch input. Banks of assignments and multiple-parameter control documented. [PR-M pp.7–9] |
@@ -1011,6 +1012,22 @@ Exact-model [manufacturer product page](https://www.headrushfx.com/products/prim
 | Utility —3 | Gate;Kaften Gate;Noise Filter |
 
 These **27 named choices** are not27 simultaneous blocks. Ring modulation,filtering androtary processing do not establish a tracking synth orinput-note polyphony. No per-effect introduction version,latency ortracking quality is established bythis table. Preserve earlier category-count conflicts;this subset isnot a complete current-firmware census. No hardware test.
+
+### Prime — named delay, reverb, chorus, EQ and compressor choices
+
+<a id="prime--named-delay-reverb-chorus-eq-and-compressor-choices"></a>
+
+Exact Prime [manufacturer product list](https://www.headrushfx.com/products/prime/), checked **2026-11-05**; no revision stamp on this table.
+
+| Published group | Names |
+|---|---|
+| EQ —9 | Acoustic Sim; Acoustic Pre; Auto Q 8 Band EQ; BASS EQ; G EQ; GRAPHIC EQ; PARA EQ; Promise EQ; 10 Freq EQ |
+| Compressor —6 | Budda Comp; DynIII Comp; Gray Comp; Pressor; Side Comp; Slammer |
+| Delay —14 | Again Delay; AIR DELAY; BBD DELAY; Budda Samsara Delay; DYN DELAY; M104 Analog Delay; PITCH DELAY; RESO DELAY; REVERSE DELAY; STEREO DOUBLER; TAPE ECHO; Time Warp; Multi Delay; Grain Delay |
+| Reverb —7 | AIR REVERB; ELEVEN REVERB; Party Verb; SHIMMER; SPRING REVERB; Spring Guru; C Verb |
+| Chorus —7 | Budda Karma Chorus; C2 Bass Chorus; C2 Chorus; Chorus; Detune; Dim Chorus; Multi Chorus |
+
+These **43 choices** retain the website’s categories: Acoustic Sim and Acoustic Pre are distinct; Detune is listed under Chorus. This does not establish note polyphony or simultaneous capacity. Graphic Bass EQ’s firmware-history evidence and the conflicting detailed-card heading remain preserved above; absence from this compact list does not prove firmware absence. Per-effect introduction dates and installed contents remain unverified.
 
 ## VX5
 
