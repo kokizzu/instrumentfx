@@ -155264,7 +155264,30 @@
       "Current editor OS support",
       "Qualified Indonesian used/new hardware"
     ],
-    "next": "Continue no-treadle inventory and requested individual-display priorities; keep general GP-200JR -> Prime -> GE300 queue independent."
+    "next": "Continue no-treadle inventory and requested individual-display priorities; keep general GP-200JR -> Prime -> GE300 queue independent.",
+    "storage_practice_driver_followup": {
+      "checked_date": "2026-11-06",
+      "canonical": "brand/KORG.md#pandora-mini--storage-aux-pitch-and-windows-midi-qualification",
+      "sources": [
+        "https://www.korg.com/us/support/download/driver/0/313/3541/",
+        "https://www.korg.com/us/news/2026/0312/",
+        "https://cdn.korg.com/us/support/download/files/5ab0d5134486ee0d26e427ea48263a24.pdf"
+      ],
+      "revision": "Original EFGS1 English29–33;driver1.15r63e Jan20,2026;noticeMarch12/April8,2026",
+      "memory": "000–199 writable/200–399 read-only;reload replaces user area and rhythm/utility settings;initial userfill not verified",
+      "aux_pitch": "±octave;10cent steps inside±3semitones/100cent beyond;mono AUX result;utility settings persistent",
+      "windows": "Exact-model driver page advises no KORG USB-MIDI driver onWin11 24H2+;Windows MIDI Services guidance does not establish old editor compatibility",
+      "market": "No qualified exact Shopee mini item recovered",
+      "remaining": [
+        "Current editor OS/architecture compatibility",
+        "USB audio and IR/NAM/capture capability",
+        "Initial user factory allocation",
+        "Physical display specifications",
+        "Qualified new/used Shopee hardware"
+      ],
+      "next": "Continue compact no-treadle discovery and display-priority gaps;preserve GT-Pro and GP-200JR→Prime→GE300 queues",
+      "active_inventory_unchanged": 402
+    }
   },
   "pandora_mini_category_census_20261103": {
     "model": "Korg PANDORA mini",

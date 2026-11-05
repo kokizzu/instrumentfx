@@ -1070,6 +1070,20 @@ The two manufacturer [Windows](https://www.korg.com/us/support/download/software
 [PM-M]: https://cdn.korg.com/us/support/download/files/5ab0d5134486ee0d26e427ea48263a24.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27PANDORAmini_OM_EFGS1.pdf&response-content-type=application%2Fpdf%3B
 [PM-S]: https://www.korg.com/us/support/download/product/0/313/
 
+### PANDORA mini — storage, AUX pitch and Windows MIDI qualification
+
+Checked **2026-11-06**; existing partial lead, outside active counts. [Original EFGS1 manual][PM-M], English pp29–33:
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / write and reset scope | **000–199 writable;200–399 read-only**. Writing overwrites the destination. Factory reload restores programs into the user area and resets rhythm/utility settings; no reset performed. Exact initial user-fill allocation remains unresolved. |
+| Pitch / AUX practice path | AUX pitch: **±one octave**,10-cent steps within±3semitones,100-cent steps beyond. **AUX becomes mono**; this is a backing-track utility, not extra guitar pitch blocks or synth tracking. Utility settings persist across power-off. |
+| USB / documented role | Manual documents editor/library communication and bus power, not USB audio streaming. USB-audio capability remains unverified; USB-MIDI driver naming alone proves no audio channels. |
+
+**Windows driver qualification:** the [exact PANDORA mini driver page](https://www.korg.com/us/support/download/driver/0/313/3541/) still lists **1.15r63e,2026-01-20**, but explicitly says **do not install it on Windows11 24H2 or later** and links the [manufacturer notice dated2026-03-12,updated2026-04-08](https://www.korg.com/us/news/2026/0312/). Korg reports conflict with Windows MIDI Services and recommends that service instead. Its notice warns against following older editor/updater prompts to install the driver; MIDI port names may change. This supersedes a blanket interpretation of the historical manual’s driver-install instruction, not the existence of the old package. **Current PANDORA mini editor compatibility is not established by this general driver guidance.** No driver installed/uninstalled,device connected orcomputer configuration changed.
+
+Exact Shopee searches still yielded no qualified mini hardware offer; no IDR,condition orstock inferred. Preserve older editor/version evidence and remaining import/display/factory-fill gaps.
+
 ## PANDORA PX4D — partial discovery lead
 
 Checked2026-11-04 against the [manufacturer owner manual EFG1](https://cdn.korg.com/us/support/download/files/ec6a5d2611af7916e943d17ccbbfa1ff.pdf),146PDF pages,English printed1–48. Undated document;firmware applicability and installed version unknown. Exact PX4D,not PANDORA mini orstomp. Guitar/bass handheld multi-effects;ownership not established. **Partial discovery outside the402 active models.**

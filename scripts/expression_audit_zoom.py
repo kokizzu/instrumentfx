@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(mooer): verify GE300 Lite USB channels and routing controls'
+        message='research(korg): qualify PANDORA mini memory AUX and Windows driver scope'
     print(git('commit','-m',message))
