@@ -772,6 +772,8 @@ H90 [Kill Dry inheritance](brand/EVENTIDE.md#h90): its1.12.5 Global setting appl
 
 [Exact manual-backed lead](brand/ZOOM.md#gfx-1--partial-discovery-lead), outside active counts: FP01/FP02 volume is conditional on patch effect selections, not established universal assignment. Width268mm fails preference; line/headphone output is shared. Endpoint, recall and bypass/tail/loop coverage remain unverified. No exact Shopee Indonesia hardware offer established; a Thai listing is not Indonesian stock or IDR evidence.
 
+GFX-1 [pedal-target roles](brand/ZOOM.md#gfx-1--pedal-target-roles-and-selective-factory-recall) distinguish wet-effect mixing from overall volume; no global assignment is established.
+
 GFX-1 [control and navigation follow-up](brand/ZOOM.md#gfx-1--controls-selector-census-and-live-navigation): paired footswitches change banks; four individual switches select patches. Hand master resets at startup and adjusts headphones, but does not establish global analog-pedal assignment. Partial lead remains outside active counts.
 
 ### Zoom 4040 — partial built-in-pedal exclusion

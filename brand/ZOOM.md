@@ -5669,6 +5669,25 @@ These patterns share MOD/PITCH;they are not additional blocks orverified chord t
 
 Exact Indonesian hardware,headphone power,external toe wiring,global assignment/recall andcomplete bypass/tail coverage remain unverified. Partial lead stays outside active inventory;no files downloaded locally ordevice operated.
 
+### GFX-1 — pedal-target roles and selective factory recall
+
+Checked **2026-11-05**, [manufacturer manual GFX-1 - 5000-1, printed pp18–25,30–36](https://zoomcorp.com/media/documents/E_GFX1.pdf). No firmware version stated.
+
+| Pedal-controlled selection | Controlled property |
+|---|---|
+| DRIVE gain=dP | Gain, for every DRIVE type |
+| PEDAL AUTO WAH / PEDAL WAH | Input sensitivity / emphasized frequency |
+| PEDAL CHORUS / PEDAL DOUBLING | Effect depth |
+| PEDAL FLANGER / PHASE SHIFT / TREMOLO / STEP | Modulation speed |
+| PEDAL CRY / PEDAL RING MOD / PEDAL SLOW ATTACK | Input sensitivity / modulation frequency / attack rise time |
+| PEDAL DELAY / ECHO / HALL / ROOM | Wet-effect mixing amount |
+
+The last row is **not overall-volume control**. Patch programming selects pedal behavior; no-pedal-icon volume fallback remains conditional. The text does not establish simultaneous control of every listed target, adjustable global endpoints, bypass/headphone/tail attenuation or position recall. Connect the named FP01/FP02 before power-on per the manual; no connection performed.
+
+**Factory Recall** restores one selected patch; **All Initialize** replaces all patch settings. Both start with STORE held at power-on, but only selective recall chooses an address before confirmation. These are documented recovery options, not operations performed or proof of restoring every global/calibration setting. User-created patch data is not recovered.
+
+Exact Indonesian hardware condition, stock and bundle remain unresolved. This partial profile stays outside active counts; no local download or device operation.
+
 ## GFX-3
 
 Guitar multi-effects;distinct from GFX-5/G3. Checked2026-10-17;partial. Manufacturer discontinued. Bass/vocal suitability and ownership unverified.
