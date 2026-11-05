@@ -174810,5 +174810,28 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continueaccessiblepriority separate-footdisplays andShopee;do not repeatproductheadlineconflicts alreadydocumented. Preserveexpression-volume,GT-Pro andGP200JR→Prime→GE300queues"
+  },
+  "gt16_incoming_display_feedback_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/RJM-MUSIC.md#gt16--incoming-midi-feedback-and-bank-address-qualifications",
+    "sources": [
+      "https://docs.rjmmusic.com/books/mastermind-editor-manual/page/external-midi-control",
+      "https://docs.rjmmusic.com/books/mastermind-editor-manual",
+      "https://rjmmusic.com/products/mastermind-gt-16-midi-foot-controller"
+    ],
+    "revision": "ExternalMIDIrevision3,editor5.2.x;notcurrent5.5hardwareverification",
+    "findings": [
+      "CCLinkfirstactionmatching andsuppressedtrigger-retransmission",
+      "RemoteControlvisible state changes onlywithincomingCCs;localactionsstilltransmit",
+      "GTCC117/118bank,119page,receivechannelrequired"
+    ],
+    "conflicts": [
+      "Online768versusproduct384 persists",
+      "OnlineCC0/32MSB/LSBlabels inconsistent withexamples/Swapwording;no wiringrecipe"
+    ],
+    "market": "ExactGT16/GT/16Shopee queries noqualifiedhardware;notabsence",
+    "active_inventory_unchanged": 402,
+    "priority_deferrals": "FM9NovemberguideReverb79headline lacksfullnamedlist;do notinvent. GT4.3PDF oversized;indexedidentity isnotfullmanualinspection.",
+    "next": "Continue accessible requested individual-footdisplay/Shopee sources first;systematic inventory remainsopen. Preserve Mini/Nano expression scope,M-VAVEidentity/wiring,GT-Pro andGP200JR→Prime→GE300queues"
   }
 }

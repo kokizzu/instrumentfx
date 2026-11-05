@@ -109,6 +109,18 @@ The older [editor requirements](https://docs.rjmmusic.com/books/mastermind-edito
 
 Exact Shopee Indonesia GT/16 and GT16 searches produced no indexed hardware offer on this pass. That does not establish absence; new/used IDR, condition, bundle and stock remain unknown. The384-versus768 preset and1.2A-versus1.0A power conflicts remain open. No local download, installation, wiring or device operation.
 
+### GT/16 — incoming MIDI feedback and bank-address qualifications
+
+Checked **2026-11-05**, manufacturer [External MIDI Control, revision 3](https://docs.rjmmusic.com/books/mastermind-editor-manual/page/external-midi-control), within the [editor 5.2.x manual](https://docs.rjmmusic.com/books/mastermind-editor-manual). GT explicitly included; current 5.5 equivalence and hardware behavior untested.
+
+| Function | Documentation boundary |
+|---|---|
+| CC Link | Matches the first action’s device/channel/CC; values 0–63 select Off, 64–127 On. **Ignore Incoming CCs** disables this per device. Incoming activation executes other actions but omits the triggering first action, limiting feedback loops. |
+| Remote Control | Local presses still send actions, but only incoming CCs update the button’s visible state. Displayed state can therefore differ from the latest local press; this adds no LCDs or physical display specifications. |
+| Remote navigation | GT-specific **CC 117 = Bank Down, 118 = Bank Up**, any value;**CC 119** selects page 0 → page 1, etc. Requires configured MIDI Receive Channel, not None. Bank/page navigation is not receiving-processor preset or volume control. |
+
+The online manual supports 768 presets/bank LSB 0–5; the [exact GT/16 product](https://rjmmusic.com/products/mastermind-gt-16-midi-foot-controller) still says 384. Its online bank section also reverses CC 0/32 MSB/LSB labels relative to its examples/Swap wording. Keep these source conflicts; no universal bank recipe or capacity correction inferred. Shopee GT16/GT/16 searches yielded no qualified item, not market absence. Controller remains outside audio counts; no download or MIDI transmission.
+
 ## Mastermind GT/22
 
 Checked 2026-10-31 against the [exact manufacturer page](https://rjmmusic.com/products/mastermind-gt-22-midi-foot-controller). MIDI controller, outside active audio processor/brand counts. GT/10 and GT/16 specifications are not substituted.
