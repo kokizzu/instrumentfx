@@ -54,6 +54,7 @@ Canonical root-level brand document. New research is added here, not to dated fi
 - [G7.1ut](#g71ut)
 - [G9.2tt — partial discovery lead](#g92tt--partial-discovery-lead)
 - [G11](#g11)
+- [GCE-3 — partial computer-controlled discovery](#gce-3--partial-computer-controlled-discovery)
 - [GFX-1 — partial discovery lead](#gfx-1--partial-discovery-lead)
 - [GFX-3](#gfx-3)
 - [GFX-4](#gfx-4)
@@ -3202,7 +3203,6 @@ Checked **2026-11-05**, [manufacturer G2-5000-2 Operation Manual](https://zoomco
 
 MOD/SFX choices share one module; they are not all concurrently available. Current firmware, tracking performance and exact Indonesian hardware offers remain unresolved. Partial lead stays outside active counts and the additional-record index. No download or device operation.
 
-
 ## G2.1Nu
 
 Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [own support page][ZNU-S]. Checked2026-10-18; partial. Ownership and bass/vocal suitability unverified.
@@ -4991,7 +4991,6 @@ Checked **2026-11-05**;both exact hardware titles below appear in three-week sea
 
 No download,transaction ordevice operation.
 
-
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
@@ -5704,6 +5703,38 @@ Checked **2026-11-05**, [manufacturer V2.0 effects list,©2021,printed3–14](ht
 
 This completes those historical category names,not current Effect Pool reconciliation,installed firmware orDSP fit. Rotary census,mini-LCD physical specifications andqualified live Indonesian stock remain unresolved. Earlier facts,sources andindependent queues preserved;no download ordevice operation.
 
+## GCE-3 — partial computer-controlled discovery
+
+Checked **2026-11-06**. **Partial lead outside active402**; ownership unverified. Exact GCE-3, not an emulated floor processor.
+
+[Zoom product page](https://zoomcorp.com/en/gb/audio-interface/audio-interfaces/gce-3/) marks it discontinued. Built-in DSP processes guitar/bass effects; Guitar Lab on Mac/Windows controls it. **Top-panel controls are decorative**, not working pedal knobs/switches. The separate headphone-volume control is functional. AUX backing tracks reach headphones without being recorded with guitar. G5n/G3Xn/B3n emulation does not establish one simultaneous combined library. Clipboard stores four effect settings for copying, not four extra processing blocks. Manufacturer package: unit, non-slip pad, USB-A–C cable and manual; seller contents unverified. “Near zero latency” is marketing, not a measurement.
+
+### GCE-3 — original manual inventory
+
+[English Operation Manual](https://zoomcorp.com/media/documents/E_GCE-3_1.pdf), **©2019, Z2I-3553-02**, all8 PDF pages read as text; no panel-image inspection. Document revision is not firmware.
+
+| Field | Exact-model evidence / limitation |
+|---|---|
+| Dimensions / mass | **106W×80D×29H mm;90g**; fits preferred chassis footprint before cables. |
+| I/O | Mono6.35mm instrument input; stereo3.5mm AUX IN and PHONES; USB-C computer port; separate Micro-B5V supply. Input470kΩ; AUX1kΩ; phones15+15mW typical into32Ω. |
+| Conversion | 44.1kHz;24-bit A/D and D/A;32-bit processing. USB2.0; stream channel count unverified. |
+| Power | USB-C bus power or5V Micro-B; AD-17 recommended when bus power is inadequate. Supply current, battery operation and standalone processing unverified. USB power is not standalone-control proof. |
+| Controls / display | One functional VOLUME dial and POWER indicator named; no functional footswitches, buttons, treadle or display in the complete parts inventory. Decorative controls excluded. |
+| Expression / volume | No analog EXP connector in the complete inventory: documented revision does not meet direct external-expression requirement. Pedal position, endpoints, recall, bypass and tail/loop attenuation not established. Hand volume is not global pedal assignment. |
+| Software | Original manual requires Windows driver; Mac audio needs no additional driver. Guitar Lab separately required for editing. Modern OS compatibility unverified. |
+
+### GCE-3 — firmware and unresolved capabilities
+
+[Manufacturer history through1.20](https://zoomcorp.com/documents/3334/GCE-3_System_Software_Version_History_120_en.pdf): **1.00 February2019** production; **1.10 September2019** adds A1 FOUR/A1X FOUR emulation; **1.20 December2020** fixes initialization-related patch-memory corruption/app termination and unusable additional effects. This establishes introduction/fix history, not current or installed firmware. Support-page fetch timed out; nothing installed or initialized.
+
+Unresolved: exact simultaneous ceiling/category-name census per emulation, factory/User/total memory, synth/pitch note handling, acoustic simulation, IR/NAM/capture imports, looper/drums/scenes/routing, toe switching, current editor/driver platforms and power-current details. Do not inherit floor-model capacities or count a shared library as simultaneous effects. No dedicated synth or import absence inferred from missing evidence.
+
+### GCE-3 — Shopee Indonesia hardware lead
+
+[Over Sound exact item](https://shopee.co.id/Zoom-GCE-3-Guitar-Lab-Circuit-Emulator-USB-Audio-Interface-i.2345287.2443051875), shop**2345287**, item**2443051875**, Kota Pekanbaru: **Rp1.400.000**, checked2026-11-06 from a **two-month-old cache**. Seller marked **Toko Sedang Libur**; shipping unavailable. Not live stock, checkout availability or a completed sale. New/used condition, working state, exact variant, cable/adapter bundle, warranty, firmware, shipping/tax and checkout total unverified. Return/protection badges do not establish condition or warranty; no voucher deduction or photo inspection. No seller contacted.
+
+Next: verify emulation-specific processing/memory from manufacturer Guitar Lab documentation and current exact-model support; seek condition-qualified hardware. Keep outside active inventory until admission is separately justified.
+
 ## GFX-1 — partial discovery lead
 
 Checked **2026-11-04**; outside active inventory, not fully verified or owner-confirmed. Exact [manufacturer operation manual](https://zoomcorp.com/media/documents/E_GFX1.pdf), footer **GFX-1 - 5000-1**,40PDF pages; no firmware applicability stated. Printed pages20–23,27,37 inspected as text.
@@ -6257,7 +6288,6 @@ Checked **2026-11-05**, [original manufacturer operation manual](https://zoomcor
 
 The existing50-memory/30-factory-filled distinction,six-effect/DSP limit,V3 library qualifications anddated hardware offers remain. No manual/updater/software downloaded locally ordevice operated. Remaining actual V3 save behavior,qualified current stock andother hardware fields stay open.
 
-
 ## MS-50G Plus
 
 MS-50G+ guitar multi-effects; distinct from original MS-50G. Checked 2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
@@ -6325,7 +6355,6 @@ Checked **2026-11-05**, [manufacturer effects list](https://zoomcorp.com/media/d
 
 Dedicated tracking-synth architecture remains unverified. The existing **six-slot/DSP limits** and app-addition qualifications remain; effect names do not guarantee concurrent availability or tracking quality. No download or device test.
 
-
 ## MS-60B
 
 Checked **2026-10-17**. Original discontinued bass multi-effects,distinct from MS-60B+. No ownership assertion. Primary page/indexed manual text only;no files or dependencies downloaded. Partial record.
@@ -6387,7 +6416,6 @@ Checked **2026-11-05**: exact-model [System Firmware Version History](https://zo
 | Firmware / release versus notice date | History dates **2.10 toOctober2019**,fixing audio output sometimes stopping with certain effects. Earlier **2020-01-01** is the [manufacturer news-page date](https://zoomcorp.com/en/us/news/firmware-update-v21-ms-60b-and-ms-70cdr/),not proof of first release that day. Preserve both dates with their scopes. History’s2.10 andsupport’s2.1 use different formatting;no separate release inferred. | Exact-model history;dated news notice |
 
 History supplies no per-algorithm introduction mapping orinstalled-version check. Current qualified stock,remaining note-handling/hardware fields andV2 category subtotals remain open. No updater/manual files downloaded ordevice operated.
-
 
 ## MS-60B Plus
 
@@ -6473,7 +6501,6 @@ Checked **2026-11-05**, [manufacturer effects list](https://zoomcorp.com/media/d
 
 All choices retain the **six-slot/DSP ceiling**. No ownership, guitar membership, tracking quality or simultaneous availability of every listed effect is inferred. No download or device test.
 
-
 ## MS-70CDR
 
 Reviewed **2026-10-17**, following exact Shopee hardware discovery. **Original MS-70CDR,not MS-70CDR+**. Guitar/bass multi-effects;no ownership claim. Partial research using official HTML and indexed manufacturer manual/effect-list text;no dependencies,manual files,firmware or software downloaded to the workspace. The manufacturer marks this original model discontinued;that does not establish seller stock.
@@ -6530,7 +6557,6 @@ Ver.2 availability is not installed-firmware verification or an individual intro
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Used IDR | **Rp1.205.000;Habis/sold out**. **Alma udati**,Kab.Siak,shop90278865/item54819829527; title “efek suling ZOOM MS70CDR preloved second” declares used original-model hardware. Checked2026-11-05 through search snapshot crawled last week;direct reopen cache miss.1–3November arrival text is stale. Seller’s flute-use wording does not establish a microphone/vocal input or change guitar/bass membership. Working condition,authenticity,firmware,adapter/bundle,warranty,region,current stock,shipping/tax/voucher eligibility andcheckout total unverified. Late-deliveryRp10.000 compensation is not a price discount. Historical ask,not a completed sale or current buyable range;older condition-unclassified offer preserved. | [Exact Shopee listing](https://shopee.co.id/efek-suling-ZOOM-MS70CDR-preloved-second-i.90278865.54819829527) |
-
 
 ## MS-70CDR Plus
 

@@ -25987,6 +25987,30 @@
         "navigation": "Paired A/B,C/D,E/F;pendinghold1s;notunrestrictedpresetup/down",
         "next": "Resolvefiled/retailrevision,readfulloriginalmanualandcategory/NAMconversiondetails;qualifiedIndonesianhardwarestillunknown."
       }
+    },
+    {
+      "model": "Zoom GCE-3",
+      "checked_date": "2026-11-06",
+      "status": "Partial computer-controlled DSP processor lead outside active inventory",
+      "canonical": "brand/ZOOM.md#gce-3--partial-computer-controlled-discovery",
+      "sources": {
+        "manual": "https://zoomcorp.com/media/documents/E_GCE-3_1.pdf",
+        "product": "https://zoomcorp.com/en/gb/audio-interface/audio-interfaces/gce-3/",
+        "firmware": "https://zoomcorp.com/documents/3334/GCE-3_System_Software_Version_History_120_en.pdf"
+      },
+      "revision": "Manual Z2I-3553-02 ©2019,all8pages;text only;history through1.20 December2020",
+      "market": {
+        "url": "https://shopee.co.id/Zoom-GCE-3-Guitar-Lab-Circuit-Emulator-USB-Audio-Interface-i.2345287.2443051875",
+        "seller": "Over Sound",
+        "shop": "2345287",
+        "item": "2443051875",
+        "region": "Kota Pekanbaru",
+        "ask_idr": 1400000,
+        "access": "Two-month cache;holiday;shipping unavailable;condition/bundle/stock/checkout unverified"
+      },
+      "findings": "Decorative top controls,computer-controlled onboard DSP;no analog EXP in complete manual inventory;canonical table holds specifications",
+      "next": "Verify emulation-specific processing/memory and current support;qualified exact hardware condition. Preserve independent GT-Pro,GP200JR→Prime→GE300,expression-volume and LCD-priority queues.",
+      "active_inventory_unchanged": 402
     }
   ],
   "inventory_by_brand": {
