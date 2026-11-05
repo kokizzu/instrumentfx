@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(mooer): expose GE150 Plus ports and qualify output routing'
+        message='research(line6): index HD400 creative algorithms and shared FX1 limits'
     print(git('commit','-m',message))

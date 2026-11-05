@@ -3052,6 +3052,7 @@ Checked **2026-10-17**; partial. Discontinued floor multi-effects, distinct from
 | Historical count conflict | Manufacturer FAQ advertises16 amps and90 HD400 effects; older FAQ totals are not substituted for Flash2.0 tables. Full library reconciliation open. [FAQ][HD4-F] |
 | Factory / user / total presets | **128 overwriteable slots**,32×4; handbook says minimum128 factory presets. Factory and user are not additive capacities. [Guide][HD4-M], chapter3; [Handbook][HD4-Q] |
 | Synth / acoustic simulation | Attack Synth,Synth String,Growler,Synth-O-Matic documented. Dedicated acoustic simulator unverified. [Guide][HD4-M], p6•3 |
+| Synth / pitch / special scope | [Named creative choices and restrictions](#pod-hd400--creative-algorithms-and-shared-fx1-limit): four synths; single-note Smart Harmony; Pitch Glide; Bass Octaver; Particle Verb, ring/frequency modulation, vowel/filter processing and Reverse Delay. FX1 choices compete for one slot; synth input polyphony remains unverified. |
 | IR / NAM / capture | Factory cab modeling established; user IR,native NAM,converted NAM and proprietary capture loading individually unverified. |
 | Audio / control I/O | Guitar in; CD/MP3 in; unbalanced quarter-inch L/Mono,R; balanced XLR L,R with ground lift; phones; stereo send/return pairs; Pedal2; USB; L6 LINK; power. L6 LINK is proprietary audio/control, not microphone input. [Handbook][HD4-Q] |
 | USB / audio restrictions | Stereo record/playback,24-bit,native48k with rate conversion. **Active L6 LINK mutes USB audio.** MIDI SysEx backup documented; general CC support unverified. [Guide][HD4-M], chapters8,B |
@@ -3082,6 +3083,19 @@ Remaining: verify body/polarity/barrel/draw,control image,screen,maximum simulta
 [HD4-E]: https://l6c-acdn2.line6.net/data/6/0a06434dfd3f5005ada360213/application/pdf/POD%20HD400%20Edit%20Pilot%27s%20Guide%20%28%20Rev%20A%20%29.pdf
 [HD4-F]: https://kb.line6.com/pod-hd300-400-500-amp-model-and-fx-list
 [HD4-C]: https://kb.line6.com/macos-11-big-sur-silicon-m1-chip-compatibility
+
+### POD HD400 — creative algorithms and shared FX1 limit
+
+Checked **2026-11-06** against the [manufacturer Advanced Guide](https://line6.com/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf?locale=de_DE), **Rev A, ©2012, Flash2.0+**, pp6•2–3,6•6–11,6•14. Explicit HD400-only markers are retained; no sibling-model transfer.
+
+| Block / choices | Distinction |
+|---|---|
+| FX1 synths | Attack Synth (**HD400-only**), Synth String, Growler, Synth-O-Matic. Input-note polyphony is unspecified. Attack Synth’s Speed controls attack; String/Growler Speed controls pulse-width modulation. Synth-O-Matic’s eight waveforms are not eight input voices. |
+| FX1 pitch | Smart Harmony explicitly tracks **single notes** with key/scale harmony. Pitch Glide has separate heel/toe shifts and preset-saved pedal assignment; polyphony and numeric bounds remain unverified. Bass Octaver is separate octave processing. |
+| FX1 special | Particle Verb (**HD400-only**) provides Stable/Critical/Hazard pad-like reverb, not proof of tracking synthesis. Ring Modulator, Frequency Shifter and V-Tron are separate modulation/vowel processing. |
+| FX2 / FX3 special | FX2: Seeker, Throbber, Spin Cycle, Obi-Wah, Voice Box, Pattern Tremolo. FX3: Reverse Delay, Low Res Delay, Dynamic Delay and Auto Volume Echo. |
+
+Synths, harmony and Particle Verb are **alternative FX1 selections**, not simultaneously available engines. Dedicated acoustic conversion remains unverified. This focused check adds an existing model to the creative index; it does not certify installed firmware, tracking performance or the whole catalogue. Existing sources and qualifications remain; no download or device test.
 
 ## POD HD500
 
