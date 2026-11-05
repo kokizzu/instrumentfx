@@ -20,7 +20,7 @@ Distinct guitar/acoustic/bass multi-effects; checked 2026-10-18, partial. [Own p
 | Field | Finding / qualification |
 |---|---|
 | Expression | Built-in/external/toe support unverified. |
-| K/F/B | Separate complete rotary/footswitch/button counts unverified; no sibling counts borrowed. |
+| K/F/B | Own ©2017 manual names **14 rotary functions**: COMP/Level, Boost, seven SansAmp and four EFX controls; text-derived census, not a complete physical inspection. Separate footswitch/button counts remain unverified; no sibling counts borrowed. |
 | Display | Chromatic tuner with muted tuning via held TAP/TUNER; diagonal, color, technology and touch unverified. |
 | Processing / categories | SansAmp, FET compressor, independent boost and reverb; DLA/CH selects delay or chorus. Maximum simultaneous count unverified; alternatives are not independent slots. Reverb selects small room or large hall; DLA/CH chorus disables Time and Repeats controls (manual pp5–6). |
 | Effects / active EQ | Own manual pp3–4: Low/High shelving **±18dB**, 1kHz pivot, noon flat. Mid is **±15dB**, with Mid Shift selecting **150Hz–3.2kHz**. These are parameter ranges, not additional effect slots. |
@@ -48,7 +48,15 @@ Distinct guitar/acoustic/bass multi-effects; checked 2026-10-18, partial. [Own p
 
 <!-- comparison evidence ends -->
 
-[Own manual,©2017](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf), text read; no device/software operation or file download. Product low-pass endpoint **16kHz** differs from manual **20kHz**; both extend down to 1.5kHz. Revision reason unresolved. Physical controls, full ports, memory and software require further verification.
+[Own manual,©2017](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf), text read; no device/software operation or file download. Product low-pass endpoint **16kHz** differs from manual **20kHz**; both extend down to 1.5kHz. Revision reason unresolved. Named rotary functions are documented below; physical control census, full ports, memory and software require further verification.
+
+### Acoustic Fly Rig — named rotary controls and independent boost
+
+Checked2026-11-06 against [own ©2017 manual,printedpp1–6](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf). The function descriptions name **14 rotary controls**: COMP and its LEVEL (2); BOOST (1); SansAmp NOTCH,VOLUME,LOW,HIGH,MID,MID SHIFT,LOW PASS FILTER (7); EFX REVERB,TIME,REPEATS,E. LEVEL (4). This is a named-function census derived from text,not a verified photograph/physical audit of every actuator. Push switches and footswitches are separate and their complete counts remain unverified.
+
+BOOST is independent and supplies **up to approximately12dB**,including a broad midrange boost for clarity;this does not establish a flat clean gain curve or measured headroom. The manual explicitly presents its sections in signal-flow order: Phase Flip → COMP → BOOST → SansAmp → EFX. This ordering does not prove independently reorderable blocks or an additional simultaneous delay/chorus position. The EFX level applies only to that section;the SansAmp VOLUME remains conditional on SansAmp engagement,not a global expression assignment.
+
+The input is specified as instrument-level **1MΩ**,with normal input close to a standard guitar,approximately **−10dBm /250mV** in the manual's own notation. This nominal operating guidance is not a maximum input/headroom measurement. TIME is approximately **200ms at noon** within its documented1–750ms range. No installed firmware,hardware behavior or complete visual absence audit was tested.
 
 ### Acoustic Fly Rig — expression and headphone scope
 

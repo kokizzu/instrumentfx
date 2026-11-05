@@ -139967,7 +139967,26 @@
     "identity": "copyright2017 original manual printed1–6",
     "finding": "Shared quarterinch headphone mode confirmed;both sides not stereo processing proof. PhysicalVolume conditional onSansAmp engaged,notglobalEXP. EXP unverified,no completevisualabsence audit.",
     "footprint": "317.5x69.85mm converted fails either orientation",
-    "next": "Continue remaining no-treadle exactmodels including Anagram/QuadCortex; priorityMini/Nano/GP50 and independentGTPro retained."
+    "next": "Continue remaining no-treadle exactmodels including Anagram/QuadCortex; priorityMini/Nano/GP50 and independentGTPro retained.",
+    "control_followup": {
+      "checked": "2026-11-06",
+      "source": "https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf",
+      "revision": "Own©2017 manual printed1–6",
+      "canonical": "brand/TECH21.md#acoustic-fly-rig--named-rotary-controls-and-independent-boost",
+      "named_rotary_functions": 14,
+      "scope": "Text-derived named census;physical completeness,footswitch/button counts unverified",
+      "boost": "Independent;up to approximately12dB;wide midrange boost,not flat-gain/headroom measurement",
+      "signal_flow": "PhaseFlip→COMP→BOOST→SansAmp→EFX;not reorderability orseparateDLA/CH slots",
+      "nominal_input": "Manufacturer notation −10dBm/250mV,not maximum",
+      "remaining": [
+        "Physical actuator census",
+        "Full ports/software/memory",
+        "DirectEXP andglobal attenuation coverage",
+        "Qualified exact Shopee Indonesia hardware offers"
+      ],
+      "inventory_changed": false,
+      "next": "Continue priority individual-foot-switch LCD profiles andexact Shopee hardware;preserve independent GT-Pro,GP200JR→Prime→GE300 andexpression queues."
+    }
   },
   "anagram_expression_screen_20261028": {
     "source": "https://api.darkglass.com/static/Anagram-Manual.pdf",
