@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): distinguish GT-8 pitch modes and synth mechanisms'
+        message='research(boss): document GT-6 creative modes and shared-slot limits'
     print(git('commit','-m',message))

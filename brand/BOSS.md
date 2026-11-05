@@ -1397,6 +1397,17 @@ Discontinued guitar multi-effects;not GT-6B. Checked2026-10-17;partial. Ownershi
 | Editor / software | Current official editor/platforms unverified;MIDI bulk backup documented. | [Manual pp67–68][GT6-M] |
 | Looper / drums / live | Manual stomp control,tuner;patch changes cut delay/reverb tails. External loop replacesOD/DS,not additional independent driveblock;chainorder editable. Looper,drums,scenes unverified. | [Manual pp15,21,56–60][GT6-M] |
 
+### GT-6 — creative-index and shared-slot limits
+
+Checked 2026-11-05 against the [original 2001 manufacturer manual][GT6-M],84 PDF pages,printed pp32–44. No installed-firmware or tracking-performance test.
+
+| Field | Finding / qualification |
+|---|---|
+| Pitch / mode boundaries | Pitch Shifter ±24 semitones: Fast/Medium/Slow accept chords, trading response speed for reduced modulation; Mono requires individual notes. Pedal Bend input polyphony remains unverified here. |
+| Synth / hold scope | Guitar Synth Square/Saw use generated waveforms; Brass/Bow process input audio. Hold is restricted to Square/Saw; Brass/Bow decay follows the guitar despite Release. No separate GT-8 Sound Hold is transferred. |
+| Synth / acoustic distinction | Acoustic Guitar Simulator uses Top/Body controls; Pickup Simulator and Defretter are distinct treatments. These compete within FX-1. |
+| Processing / special and source qualification | Slicer, Humanizer, Ring Modulator, Auto Riff, pitch and synth compete within FX-2. Intelligent Ring Mod requires single notes. Its introductory vibrato sentence conflicts with its ring-modulation controls; retain that source inconsistency. |
+
 ### Separate IDR hardware offers
 
 | Condition | Evidence / qualification | Source |
