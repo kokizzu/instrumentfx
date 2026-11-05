@@ -168994,5 +168994,33 @@
     ],
     "next": "Continue remaining original FM3 inventories and accessible display-model gaps; preserve expression and GP-200JR → Prime → original GE300 queues.",
     "inventory_change": 0
+  },
+  "fm3_original_named_multidelay_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Fractal Audio FM3 original",
+    "source": {
+      "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "November 2026",
+      "pages": "3,62–68"
+    },
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--named-multi-delay-types-and-internal-processing",
+    "counts": {
+      "core": 6,
+      "variants": 33,
+      "total": 39,
+      "fm3_instances": 1
+    },
+    "finding": "Named all reference choices and preserved Quad Parallel/Series ring/comb versus Quad Tape chorus-subsection exclusion.",
+    "qualification": "CPU-limited family reference, not extra independent blocks, input-polyphony evidence or installed verification. VP4-specific types not transferred.",
+    "remaining": [
+      "Drive, Megatap, Reverb and Graphic EQ named inventories",
+      "Volume mode exact UI label",
+      "Original headphone hardware variants",
+      "Physical display details",
+      "Global-volume endpoints, recall and coverage",
+      "Qualified current Indonesian stock"
+    ],
+    "next": "Continue remaining original FM3 inventories and accessible display-model gaps; preserve expression and GP-200JR → Prime → original GE300 queues.",
+    "inventory_change": 0
   }
 }

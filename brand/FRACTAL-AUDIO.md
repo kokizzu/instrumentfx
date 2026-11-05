@@ -1005,6 +1005,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Exceeds preferred200W×140D footprint. [Standard-covered7.x specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Processing / simultaneous limits | **12×4 grid**,DSP-limited. June2023 exactFM3 inventory:36 available classes,63 summed instance allowances including routing/control;not63 simultaneous effects. Historical1.x CPU limit approximately80%,overload mutes processing. Current13.0 equivalence untested. [Inventory](#fm3-original--dated-block-inventory-and-looper);[CPU](#fm3-original--initial-memory-dsp-and-current-support). |
 | Categories / November reference | [November2026 FM3 column](#fm3-original--november-reference-category-and-instance-comparison): 36 supported rows,63 summed allowances including utilities, **not63 simultaneous effects**. Delay shared29 becomes27 after two explicit FM3 exclusions. Reference counts are not installed certification or completed named censuses. |
+| Processing / named Multi-Delay choices | [39 types](#fm3-original--named-multi-delay-types-and-internal-processing): six core plus33 variants, one FM3 block, CPU permitting. Quad Parallel/Series include ring/comb processing; Quad Tape lacks the separate chorus subsection. Internal processing is not additional block capacity or synth-polyphony proof. November2026 reference; installed equivalence untested. |
 | Processing / named Plex choices | [45 Plex types](#fm3-original--named-plex-types-and-sustained-tail-processing): five core plus40 variants, one FM3 block, CPU permitting. Detune±50cents; Shift±24semitones. Internal voices and held tails do not establish tracking-synth polyphony or separate looper storage. November2026 reference, installed equivalence untested. |
 | Processing / further category inventories | [Phaser19, Tremolo/Panner7, Ten-Tap2, Gate4, Enhancer3; Volume/Pan2 described modes](#fm3-original--remaining-modulation-dynamics-and-utility-types). Two instances each except Ten-Tap one, CPU permitting. Auto-Swell is envelope processing, not global pedal assignment; Volume mode UI label and installed equivalence remain unverified. |
 | Processing / named filter and wah | [20 Filter and nine Wah choices](#fm3-original--named-filter-wah-and-envelope-distinctions), November2026 reference; four Filter/two Wah instances, CPU permitting. Touch-Wah follows level; Auto-Wah uses an LFO; Ladder self-oscillation is not note-tracking synthesis. Installed equivalence untested. |
@@ -1290,6 +1291,18 @@ Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,87–89](h
 | Variants:40 | Ambient Depths; Bronze Harps; Cacophonizer; Celestial Shimmer; Critters; Dancing Detune; Delay Swell; Demi-Semi Delay; Detuned Space; Detuned Space 2; Discrete Echoes; Dissolving 16ths; Echo Hall; Econo Shimmer; Econo Shimmer 2; Ganymede; Gnome Shifter; Gold Harps; Golden Delay; Golden Detune; Golden Shimmer; Granular Echoes; Gritty Shimmer; Helium Shimmer; Intrigue; Lunar Detuner; Melting Delays; Mod Wash; Occult Verb 1; Occult Verb 2; Ping-Pong Reverse; Plex Tape Echoes; Reverse Oct 4; Reverse Oct 8; Reverse Plex; Sample/Hold Delay; Scintillation; Sirocco; Subtone Shimmer; The Cytherians |
 
 **One FM3 Plex block**, CPU permitting. Plex Detune offers **±50cents/voice**; Plex Shift adds **±24semitones/voice**. Eight internal delay/shifter voices are not eight blocks or input-note polyphony. HOLD closes input while sustaining the tail; STACK admits new audio. These process audio, not a separate tracking synth or phrase-loop memory. Other inventories and hardware gaps remain open. No download or device operation.
+
+
+### FM3 original — named Multi-Delay types and internal processing
+
+Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,62–68](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf); [Original support](https://www.fractalaudio.com/fm3-downloads/). Family reference; installed equivalence untested.
+
+| Group | Named choices |
+|---|---|
+| Core:6 | Quad-Tap Delay; Quad Parallel Delay; Quad Series Delay; Quad Diffusor; Quad Tape Delay; Quad Tap Band Delay |
+| Variants:33 | 1210; A.H. Clean Long; A.H. Clean Short; A.H. Lead Long; A.H. Lead Short; A.H. Swell Long; A.H. Swell Short; Aerosol; Ambient Quad Tape; Ambient Tape Delay; Aurora Delay; Camera Obscura; Centaurus X-3; Circular Delays; Comb Filter Delay; Dub Echo; Filtered Mod Band Delay; Kilimanjaro; L-C-R-C; Matterhorn; MD Chorus; Mono Diffuser; PCM Circular; PCM Pan; Pealing Bells; Quad Chorus; Rhythmic Bands; Shadows Taps; Space Tape; Stereo Shadows; Strange Things; Swing Ping; Ya-Ya Delay |
+
+FM3 allows **one Multi-Delay block**, CPU permitting. Quad Parallel and Quad Series include ring modulation and comb filtering; Quad Parallel also includes diffusion/bandpass processing. **Quad Tape excludes the separate chorus subsection**. Internal taps/processors are not separate blocks or proof of synth-note polyphony. VP4-specific variants/renames are not transferred. Other inventories and hardware gaps remain open. No download or device operation.
 
 
 ## FM9 MKII Turbo
