@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(headrush): distinguish Prime MIDI vocal pitch controls'
+        message='research(mooer): clarify GE300 MERGE activation and endpoints'
     print(git('commit','-m',message))

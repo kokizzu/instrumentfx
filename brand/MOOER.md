@@ -1751,6 +1751,7 @@ Official Japanese PDFs failed to load or exceeded the retrieval limit; the mirro
 |---|---|
 | Built-in expression |One EXP1 pedal; forward toe press switches its assignment on/off. Toe actuation is separate from the ten main footswitches |
 | Expression / conditional volume role | [Original VOL andtuner rules](#ge300--conditional-volume-role-and-tuner-source-details): active VOL makes EXP1 a volume pedal while its EXP1 LED isoff. Position/heel/toe0–100;Log/Linear/Exponential curves. Not established global EXP2 assignment orall-output muting. |
+| Expression / MERGE activation | [Original pp88–89](#ge300--merge-activation-and-opposite-direction-endpoints): EXP1 MERGE requires its toe switch activated and LED illuminated. Multiple parameters can move in opposite directions between learned heel/toe values; no numeric target ceiling is specified. Distinct from LED-off conditional volume and global EXP2 assignment. |
 | External expression |One EXP2 TRS socket; manual supports 10k–100k pedals. The same socket alternatively switches an external compatible amplifier; do not count two simultaneous connections |
 | Expression / external toe boundary | Original manual pp89–90: **EXP2 has the same assignment functions asEXP1 butdoes not support its toe-down switch**. TRS cable and10k–100k pedal required;calibration precedes assignment. No tip/ring/wiper pinout orglobal volume scope is specified here. |
 | I/O / amplifier-control compatibility | EXP2 instead becomes **EXT CTRL output** witha mono cable;assign CTRL toEXT CTRL andselect latching/momentary for the amp. Maker restricts it to **short-to-sleeve inputs ontraditional dual-channel amps**,warns other inputs can damage both devices,anddoes not guarantee all compatible-looking amps. This is switching output,not analog expression input inparallel,an audio port orMIDI. [Original manual pp89–90][M] |
@@ -2178,6 +2179,12 @@ Checked **2026-11-05**, [manufacturer-authored original manual on distributor mi
 | 36–40 | FXA only | 808 OD; Tube Drive; BB Drive; Pure Boost; Flex Boost |
 
 The40 numbered rows yield **40 FXA selections and35 FXB selections**, not40 shared types orsimultaneous instances. Row35 changes by block. Later documented additions remain separately version-qualified; current5.1.4 retention is unverified. EQ,filter,rotary andSlow Gear processing do not establish additional tracking synthesizers. Existing stereo-collapse andnote-handling qualifications remain.
+
+### GE300 — MERGE activation and opposite-direction endpoints
+
+Checked **2026-11-06**, original2019 manufacturer manual withV1.1.0 screen examples, [printed88–89](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf). MERGE learns heel/toe parameter values across effect blocks. Its five-parameter drive example raises Gain15→60 andMid23→60 while lowering Bass75→35,Treble60→25 andOutput50→35. These are displayed parameter values,not dB or a maximum of five targets. The text allows as many parameters as desired without specifying a numeric ceiling.
+
+For **EXP1**, the manual expressly requires activating the toe switch and illuminating its LED. EXP2 supports the same assignment functions but lacks that toe-switch function. Preserve this alongside the separate **LED-off conditional VOL role**; neither state alone proves universal bypass or silence. Current5.1.4 equivalence,global EXP2 assignment,recall andall-source attenuation remain unverified. No calibration,assignment ordevice operation performed.
 
 ## GE300 Lite
 
