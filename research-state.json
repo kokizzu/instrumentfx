@@ -156576,6 +156576,15 @@
         "instrument": "AC SIM;Defretter;pickup-character conversion",
         "qualification": "Original named categories; shared slots; press-heldFreeze/OSCDelay/RingMod/SlowGear/Voice distinct",
         "evidence_basis": "Focused2026-11-05 exact-model manufacturer-authored English owner-manual reproduction pp5–11;not completefreshcatalogue audit"
+      },
+      {
+        "key": "HeadRush::Flex Prime",
+        "canonical": "brand/HEADRUSH.md#flex-prime--52-documentation-and-creative-evidence",
+        "synth": "Hybrid Synth;Electric Piano;DB-33 Organ;input polyphony unverified",
+        "pitch": "Detailed note handling unverified",
+        "instrument": "Acoustic Sim separate fromAcoustic Pre/IRs",
+        "qualification": "Own4.0.0 arpeggiator controls,Kill Seq/Splicer;4.1.0 Grain Delay;notfullfreshfour-category audit",
+        "evidence_basis": "Exact-model product and cumulative5.2.0 release notes checked2026-11-05"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -174351,5 +174360,39 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Defer unreconciledSP1contacts;continueotheraccessiblepriority-model technical/marketgaps andsystematicinventory;preserve independentqueues"
+  },
+  "flex_prime_documentation_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/HEADRUSH.md#flex-prime--52-documentation-and-creative-evidence",
+    "sources": [
+      "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Flex%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+      "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Flex%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf",
+      "https://www.headrushfx.com/products/flex-prime/index.html"
+    ],
+    "findings": [
+      "Text-census2rotaries/3footswitches/0separatefrontbuttons;visualpending",
+      "Full-color multi-touch;TypeA MIDI;AUX bypass/Main-volume exception",
+      "Named creative availability andexactintroductionversions;no polyphonyinference"
+    ],
+    "offer": {
+      "shop": "1030145984",
+      "item": "25788811880",
+      "ask_idr": 9080000,
+      "stock": "Habis",
+      "seller": "GALERI MUSIK SIMFONI_PIM",
+      "region": "KotaJakartaSelatan",
+      "access": "Two-month-old directcache;28Augustdelivery",
+      "condition": "unverified",
+      "conflicting_prior_search": "Rp8807600 conditional3percentvoucher;different seller/locationlabel;not refreshed"
+    },
+    "remaining": [
+      "Manual phones-volume naming conflict",
+      "Product1.59kg versus retained1.57kg",
+      "Fullcategory/pitchtracking/presetcapacity/powerfields",
+      "Current condition-qualified hardware stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "additional_creative_records": 95,
+    "next": "Return to individual-footdisplay/Shopee priority;retain GT-Pro,expression-volume andGP200JR→Prime→GE300 independentqueues."
   }
 }

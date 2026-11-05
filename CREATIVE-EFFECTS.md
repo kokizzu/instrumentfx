@@ -42,10 +42,11 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **94 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **95 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
+| [HeadRush Flex Prime](brand/HEADRUSH.md#flex-prime--52-documentation-and-creative-evidence) | Hybrid Synth; Electric Piano; DB-33 Organ; input polyphony unverified | Detailed note handling unverified | Acoustic Sim distinct from Acoustic Pre/IRs | Own4.0.0 arpeggiator controls and Kill Seq/Splicer;4.1.0 Grain Delay; retained DSP limits |
 | [Line 6 HX Stomp](brand/LINE6.md#hx-stomp) | 3 OSC Synth; legacy synths; input-independent generators | Poly Pitch / Wham / Capo | Acoustic Sim; 12 String | DSP-heavy poly models; own3.80 record |
 | [Line 6 HX Stomp XL](brand/LINE6.md#hx-stomp-xl) | 3 Osc Synth | Pitch/Synth library; exact restrictions retained in record | Acoustic Sim | Ordinary input; no chord-synth inference |
 | [Line 6 Helix LT](brand/LINE6.md#helix-lt) | 3 OSC Synth;Legacy synths;input-independent generators separate | Poly Pitch/Wham/Capo;12 String;harmony/octaves | Acoustic Sim under EQ | [Own3.80 RevF29-entry inventory](brand/LINE6.md#helix-lt--380-creative-algorithms-and-dsp-boundaries);Feedbacker/Poly Sustain;one-per-path combined group,DSP-limited;synth-note polyphony unknown |
@@ -199,7 +200,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Hologram Microcosm](brand/HOLOGRAM.md#microcosm--partial-discovery-lead) is a **new partial lead outside active counts and the additional-record index**. Its sample-based granular/pitch processing, filter, modulation, reverb and looper are documented; dedicated tracking synthesis and acoustic simulation remain unverified. [Hold/Looper exclusion and Burst storage limits](brand/HOLOGRAM.md#microcosm--looper-concurrency-and-preset-storage-exceptions) qualify simultaneous use and saving.
 
-[DigiTech EX-7 Expression Factory](brand/DIGITECH.md#ex-7-expression-factory--partial-discovery-lead) is a newly recorded **partial lead outside active counts and the 94-record index**. Its canonical record retains the manufacturer’s processing, volume-mode and evidence limitations; it is not part of the seven-model fresh comparison.
+[DigiTech EX-7 Expression Factory](brand/DIGITECH.md#ex-7-expression-factory--partial-discovery-lead) is a newly recorded **partial lead outside active counts and the 95-record index**. Its canonical record retains the manufacturer’s processing, volume-mode and evidence limitations; it is not part of the seven-model fresh comparison.
 
 ## What remains uncertain
 

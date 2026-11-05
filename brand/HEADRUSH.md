@@ -176,15 +176,16 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 | Required field | Existing source-backed result / unresolved value |
 |---|---|
-| Expression and physical controls | Built-in expression with toe switch; separate TRS external EXP. **Knobs ? /3 main footswitches /buttons ?**; unknown counts not filled from MX5 despite similar dimensions |
-| Display | **4-inch touchscreen**; explicit resolution and color specification were not separately recorded in the original pass and remain unverified here |
-| Size/mass | **295 W×150 D×70 H mm;1.57 kg**; medium, with plug/pedal clearance additional |
+| Expression and physical controls | Built-in expression with toe switch; separate TRS external EXP. **2 rotaries /3 main footswitches /0 separate front-panel buttons**, from the5.2 manual text census; encoder push counted once, toe and rear power separate; visual census pending |
+| Display | **4-inch full-color multi-touch screen** (product diagonal +5.2 manual); pixel resolution unverified |
+| Size/mass | **295 W×150 D×70 H mm;1.57 kg** retained; current product prose says **1.59 kg**, unresolved mass discrepancy; medium, clearance additional |
 | Processing | **14 DSP blocks,5 routing types**. Product page advertises600+ amps/cabs/mics/effects,100+ effects,100+ amps,80+ cabs,360+ cab IRs. Overlapping totals are not summed |
 | Presets | Older FAQ says **40 factory rigs**; current factory count and total user capacity ? |
-| Synth / acoustic | Guitar/bass processing documented; exact synth/electric-to-acoustic algorithms remain unverified in the original record |
+| Synth / acoustic | Hybrid Synth, Electric Piano, DB-33 Organ; Acoustic Sim separate from Acoustic Pre. See [creative evidence and limits](#flex-prime--52-documentation-and-creative-evidence) |
 | IR | Third-party **WAV/AIFF**,two IRs can share one block; exact slot/sample capacity not established |
 | NAM | **Native**,current firmware: A2 Full/Lite and supported legacy formats. Two A2 Full captures simultaneously or four A2 Lite captures within two NAM blocks; architecture/DSP restrictions retained |
 | Proprietary captures | HeadRush/ReValver clones and SuperClones separate from NAM. Creating captures uses the documented external software/interface workflow, not an inferred onboard capture microphone path |
+| Audio/control ports | TS guitar input; TRS main outs and stereo FX send/return; EXP; AUX/phones; Type-A3.5mm MIDI; USB-B. AUX ignores Main and cannot loop; [routing qualifications below](#flex-prime--52-documentation-and-creative-evidence) |
 | Power | **12 V/3 A center-positive adapter**; battery/USB-powered operation not established |
 | Software | Wi-Fi **browser Remote Editor Windows/macOS/iOS/Android**; Linux full editor unverified |
 | USB audio | **4-in/4-out**,up to24-bit/96 kHz; manufacturer's interface direction convention retained |
@@ -206,6 +207,18 @@ The earlier comparison had no dependable used or new price. These later indexed 
 | Condition-verified used offer | **?** | Not established; no automatic used-price discount applied |
 
 Do not call these an authenticated active range. Exact condition,variant,bundle,region,warranty,shipping and stock remain unverified. A seller name is not authentication. An amplifier speaker output requires a suitable load/interface, not direct connection to a signal input.
+
+### Flex Prime — 5.2 documentation and creative evidence
+
+Checked **2026-11-05**. [Own User Guide5.2.0](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Flex%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf), printed6–8: Main and push-encoder are the two rotaries. The rear phones paragraph inconsistently names a phones-volume knob; no third rotary inferred. **Type-A** adapters serve both3.5mm MIDI ports. FX Send is output; Return input; stereo loop operation needs global stereo settings. **AUX bypasses effects, cannot enter the looper, and ignores Main volume**. Main otherwise controls main/phones. These are document statements, not a measured mute test.
+
+The [exact-model product library](https://www.headrushfx.com/products/flex-prime/index.html) lists **Hybrid Synth, Electric Piano, DB-33 Organ**, plus **Ambi-Verb** under Synth. Category placement alone does not prove tracking architecture or input polyphony. **Acoustic Sim** and **Acoustic Pre** are separate EQ choices; IRs remain distinct. **Hold, Feedback, Autoswell, Ring Mod, Kill Seq and Splicer** are named special-processing choices. No effect simultaneity or tracking-quality guarantee follows from this list.
+
+[Own cumulative5.2 release notes](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Flex%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf),4.0.0 section printed8–9, introduce **arpeggiator controls** for Hybrid Synth/DB-33 Organ/Electric Piano, and Kill Seq/Splicer. Version4.1.0 adds Grain Delay/Multi Delay/C-Verb. Version5.0.0 adds drums: **16 kits,134 styles,15 genres**. These introduction versions differ from the October2026 5.2.0 document and unknown installed firmware. Full category census, pitch-note handling, user-memory capacity, power gaps and qualified current offers remain unresolved.
+
+### Flex Prime — additional historical Shopee hardware ask
+
+Checked **2026-11-05**: [GALERI MUSIK SIMFONI_PIM,shop1030145984/item25788811880](https://shopee.co.id/HEADRUSH-FLEX-PRIME-Guitar-Amp-and-Multieffect-Modelling-Processor-i.1030145984.25788811880), Kota Jakarta Selatan: **Rp9.080.000, Habis**, shop holiday. Direct reader exposes a **two-month-old cache**, delivery28August, not live availability. Condition, variant, bundle, warranty and checkout costs unverified; not a condition-verified new/used floor. Late-delivery voucher up toRp10.000 is compensation, not deducted. Earlier offers above remain unchanged. A prior search snapshot for the same IDs showed Rp8.807.600 with a3% voucher and a different seller/location label; retain that conflict as an unrefreshed lead, not a current offer or confirmed checkout discount.
 
 ### Flex Prime sources and preserved provenance
 
