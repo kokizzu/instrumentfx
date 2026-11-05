@@ -170411,5 +170411,47 @@
     },
     "active_inventory_unchanged": 402,
     "next": "Technical source-history audit passed;continue shared/metadata consolidation audit andrequested display research,retaining independent expression andgeneral queues"
+  },
+  "metadata_and_field_audit_20261105": {
+    "checked": "2026-11-05",
+    "audited_head": "8f726dce1c171141393612dc0abf36265149b153",
+    "metadata_history": {
+      "target": "make metadata-history-audit",
+      "result": "pass",
+      "sources": 16,
+      "reachable_variants": 60,
+      "pending_variants": 0,
+      "scope": "Registered13Markdown/3JSON source content,redirects,typed snapshots andreachable historical metadata;not full migration certification"
+    },
+    "historical_core_flex": {
+      "target": "make consolidation-audit-historical",
+      "result": "pass",
+      "matched_original_blobs": 2
+    },
+    "field_audit": {
+      "target": "make research-field-audit",
+      "models": 402,
+      "scope": "Heading-based triage only;recorded fields still require source review. Not a specification verifier.",
+      "no_heading_match": {
+        "physical_controls": 74,
+        "processing_choices": 9,
+        "memory": 71,
+        "synth_instrument": 5,
+        "ports": 4,
+        "ir_capture": 3,
+        "software": 4,
+        "used_idr": 81,
+        "new_retail_idr": 88,
+        "practice_live": 41
+      }
+    },
+    "source_followup": {
+      "model": "Fender Tone Master Pro",
+      "manufacturer_guide": "https://www.fmicassets.com/Damroot/Original/10146/OM_2274900000_Tone-Master-Pro-Model-Guide-H_EN.pdf",
+      "access": "Web reader rejects document/pdf;no local download. Secondary168-effect census not promoted to manufacturer-verified inventory.",
+      "market": "Exact HX Effects/StadiumXL/TMP searches resurfaced recorded offers orparts;no qualified new hardware offer."
+    },
+    "next": "Continue requested FM3/FM9 exact-revision hardware andprimary profile gaps;defer unchanged TMP guide-access gap. Preserve general,expression anddisplay queues.",
+    "active_inventory_unchanged": 402
   }
 }
