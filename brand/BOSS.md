@@ -765,6 +765,19 @@ Checked **2026-11-06**. [Manufacturer original manual reproduction](https://manu
 
 GS-10 remains an **active partial record**;older lead-stage outside-count wording is historical. Exact Shopee hardware remains unqualified. No download,driver change,reset,pedal connection orMIDI operation.
 
+
+### GS-10 — named drive and wah source inventory
+
+Checked **2026-11-06** in the [original manufacturer manual reproduction](https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual),03342912,03-8-1N,©2003 BOSS,printedpp32,36,57,117. Original effect tables and MIDI enumeration,not generated FAQs.
+
+| Field | Historical named inventory / qualification |
+|---|---|
+| Categories / OD-DS names | **22:** Blues OD;Turbo OD;Booster;OD-1;T-Scream;Natural OD;Bass OD;Distortion;RAT;GUV DS;Mild DS;Solid DS;DST+;Metal Zone;R-MAN;Heavy Metal;Loud;Sharp;Mechanical;’60s FUZZ;Oct FUZZ;MUFF FUZZ. **Custom1–3** are separate selectable definitions. |
+| Categories / Pedal Wah names | **7:** CRY Wah;VO Wah;Fat Wah;Light Wah;7String Wah;Reso Wah;Bass Wah,plus **Custom1–3**. Editing a custom definition affects patches using it; these are not extra processing slots. |
+| Categories / preamp enumeration basis | MIDI table indexes **00–2F:48 selections**,with **2D–2F=Custom1–3**,leaving45 base entries. This establishes the manual’s selectable-definition count;the website’s48 headline counting basis/current equivalence is not independently proved. |
+
+These complete the named drive/wah menus,not every FX subtype orcurrent installed census. Existing eleven-effect ceiling,source conflicts andglobal-volume uncertainties remain. No download,device operation orownership inference.
+
 <!-- comparison evidence ends -->
 
 ### GS-10 — partial lead

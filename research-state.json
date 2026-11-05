@@ -164042,7 +164042,56 @@
       "QualifiedexactShopeeoffers"
     ],
     "active_inventory_unchanged": 402,
-    "next": "Continue source-backedmodelprofile gaps;individualfootdisplaypriority retained,independentGTPro/general/consolidationqueuesunchanged"
+    "next": "Continue source-backedmodelprofile gaps;individualfootdisplaypriority retained,independentGTPro/general/consolidationqueuesunchanged",
+    "named_menu_followup": {
+      "checked_date": "2026-11-06",
+      "canonical": "brand/BOSS.md#gs-10--named-drive-and-wah-source-inventory",
+      "source": "https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual",
+      "revision": "Original03342912,03-8-1N©2003 printed32,36,57,117",
+      "od_ds": [
+        "Blues OD",
+        "Turbo OD",
+        "Booster",
+        "OD-1",
+        "T-Scream",
+        "Natural OD",
+        "Bass OD",
+        "Distortion",
+        "RAT",
+        "GUV DS",
+        "Mild DS",
+        "Solid DS",
+        "DST+",
+        "Metal Zone",
+        "R-MAN",
+        "Heavy Metal",
+        "Loud",
+        "Sharp",
+        "Mechanical",
+        "60s FUZZ",
+        "Oct FUZZ",
+        "MUFF FUZZ"
+      ],
+      "wah": [
+        "CRY Wah",
+        "VO Wah",
+        "Fat Wah",
+        "Light Wah",
+        "7String Wah",
+        "Reso Wah",
+        "Bass Wah"
+      ],
+      "custom_definitions": "Three selectable custom definitions per OD/DS andWah family;editing affects patches using the definition;not extra slots",
+      "preamp": "MIDI00–2F=48 includingCustom2D–2F;45base+3custom;websiteheadlinebasis notproved",
+      "remaining": [
+        "Other FX subtype censuses",
+        "Global volume endpoints/recall/outputcoverage",
+        "Modern software compatibility",
+        "Qualified exactShopee hardware"
+      ],
+      "next": "Continue outstanding model fields andfresh hardware discovery;preserve LCD-first andindependent GT-Pro/GP200JR→Prime→GE300 queues",
+      "active_inventory_unchanged": 402
+    }
   },
   "mg30_usb_navigation_scope_20261104": {
     "model": "NUX::MG-30",

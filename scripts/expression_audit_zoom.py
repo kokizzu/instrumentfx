@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): reconcile GS-10 global level roles and legacy software'
+        message='research(boss): enumerate GS-10 drive wah and custom choices'
     print(git('commit','-m',message))
