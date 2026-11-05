@@ -6,6 +6,7 @@ from pathlib import Path
 import re
 import subprocess
 import sys
+sys.dont_write_bytecode = True
 import urllib.parse
 import urllib.request
 
@@ -33,6 +34,90 @@ def read_preserved_source(path):
     original = git('show',entry['source_commit']+':'+key)
     assert hashlib.sha256(original.encode()).hexdigest() == entry['source_sha256'], 'Pinned evidence hash mismatch: '+key
     return original
+
+
+
+def read_compatibility_redirect(path, state=None, read_current=None, read_blob=None, exists=None):
+    """Reconstruct only explicitly removed redirects; never hide accidental absence."""
+    import hashlib
+    key = str(path)
+    assert key.startswith('effects/') and '..' not in Path(key).parts and key.endswith('.md'), 'Invalid compatibility path'
+    if state is None:
+        state = json.loads((ROOT/'research-state.json').read_text())
+    migration = state.get('migration', {})
+    retired = migration.get('retired_sources', {})
+    assert key in retired, 'Unregistered compatibility path: '+key
+    removed = migration.get('removed_technical_redirects', {}).get(key)
+    read_current = read_current or (lambda: (ROOT/key).read_text())
+    if removed is None:
+        return read_current()
+    exists = exists or (lambda: (ROOT/key).exists() or (ROOT/key).is_symlink())
+    assert not exists(), 'Removed redirect unexpectedly present: '+key
+    assert re.fullmatch(r'[0-9a-f]{40}', removed['redirect_commit']), 'Invalid redirect commit'
+    assert removed['redirect_sha256'] == retired[key]['redirect_sha256'], 'Removal hash differs from registered redirect'
+    read_blob = read_blob or (lambda obj: git('show', obj))
+    text = read_blob(removed['redirect_commit']+':'+key)
+    assert hashlib.sha256(text.encode()).hexdigest() == removed['redirect_sha256'], 'Removed redirect hash mismatch: '+key
+    return text
+
+def test_compatibility_redirect_reader():
+    import copy
+    import hashlib
+    body = '# retained redirect\n'
+    sha = hashlib.sha256(body.encode()).hexdigest()
+    path = 'effects/old.md'
+    state = {'migration': {'retired_sources': {path: {'redirect_sha256': sha}}}}
+    def missing():
+        raise FileNotFoundError(path)
+    def no_blob(_):
+        raise AssertionError('Unexpected Git fallback')
+    assert read_compatibility_redirect(path, state, lambda: body, no_blob, lambda: True) == body
+    try:
+        read_compatibility_redirect(path, state, missing, no_blob, lambda: False)
+    except FileNotFoundError:
+        pass
+    else:
+        raise AssertionError('Accidental missing redirect accepted')
+    removed = copy.deepcopy(state)
+    removed['migration']['removed_technical_redirects'] = {path: {'redirect_commit': 'a'*40, 'redirect_sha256': sha}}
+    def pinned(obj):
+        assert obj == 'a'*40+':'+path
+        return body
+    assert read_compatibility_redirect(path, removed, missing, pinned, lambda: False) == body
+    for change in ('wrong-body', 'present-file', 'bad-commit', 'wrong-hash', 'unregistered'):
+        fixture = copy.deepcopy(removed)
+        if change == 'bad-commit':
+            fixture['migration']['removed_technical_redirects'][path]['redirect_commit'] = 'HEAD'
+        if change == 'wrong-hash':
+            fixture['migration']['removed_technical_redirects'][path]['redirect_sha256'] = '0'*64
+        if change == 'unregistered':
+            fixture['migration']['retired_sources'] = {}
+        try:
+            read_compatibility_redirect(path, fixture, missing,
+                                        lambda obj: body+'changed' if change == 'wrong-body' else body,
+                                        lambda: change == 'present-file')
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('Invalid removal accepted: '+change)
+    try:
+        read_compatibility_redirect('effects/../outside.md', removed, missing, no_blob, lambda: False)
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('Traversal accepted')
+    print('PASS: registered removed redirects reconstruct exactly; accidental absence, drift, invalid provenance and traversal fail')
+
+
+def verify_compatibility_readers():
+    """Exercise the current redirect reader against every exact technical redirect."""
+    from technical_retirement import SOURCES, redirect
+    state = json.loads((ROOT/'research-state.json').read_text())
+    records = state['migration']['retired_sources']
+    for path in SOURCES:
+        text = read_compatibility_redirect(path, state)
+        assert text == redirect(path, read_preserved_source(path), records[path]['source_commit']), path
+    print('PASS: '+str(len(SOURCES))+' live technical redirect reads match exact generated content; no files mutated')
 
 def verify_continuation_state(state):
     assert 'resume_cursor' not in state, 'Deprecated live resume_cursor conflicts with authoritative cursor; preserve it as history instead'
@@ -133,7 +218,11 @@ def gp200jr():
 def main():
     identity()
     mode = sys.argv[1]
-    if mode == 'status':
+    if mode == 'test-compatibility-reader':
+        test_compatibility_redirect_reader()
+    elif mode == 'verify-compatibility-readers':
+        verify_compatibility_readers()
+    elif mode == 'status':
         print(git('status', '--short', '--branch'))
         print(git('diff', '--cached', '--stat'))
         print(git('log', '-5', '--oneline'))

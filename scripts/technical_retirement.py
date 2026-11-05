@@ -178,12 +178,15 @@ def verify():
         shared.validate_target(destination)
         if path in records:
             entry=records[path]
-            current=(ROOT/path).read_text()
+            current=research.read_compatibility_redirect(path,state)
             assert current==redirect(path,original,entry['source_commit']),path
             assert shared.digest(current)==entry['redirect_sha256'],path
             assert shared.headings(current)==entry['original_headings'],path
             retired+=1
     links=incoming()
+    removed=state['migration'].get('removed_technical_redirects',{})
+    assert set(removed)<=set(SOURCES), 'Removal outside technical source scope'
+    assert not [link for link in links if link['target'] in removed], 'Link points to removed redirect'
     for link in links:
         assert not link['fragment'] or link['fragment'] in shared.anchors((ROOT/link['target']).read_text()),str(link)
     print('PASS: '+str(len(SOURCES))+' technical sources; '+str(retired)+' retired; '+str(len(links))+' incoming link occurrences; every original heading/root destination preserved.')

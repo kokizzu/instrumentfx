@@ -172437,5 +172437,27 @@
     },
     "qualification": "History covers HEAD-reachable revisions of99enumerated technical paths; metadata/specialist andmanufacturer truth remain separate. Literal scan doesnot certify dynamic dependency coverage.",
     "next": "Inspect/adapt five literal consumers andgeneric file-existence readers,then implement hash-guarded preview/apply with rollback before deleting exact reviewed technical paths. Preserve root evidence,402inventory andindependent research queues."
+  },
+  "compatibility_reader_preparation_20261105": {
+    "checked": "2026-11-05",
+    "component": "Explicit removed technical compatibility reader",
+    "schema": "migration.removed_technical_redirects[path]: redirect_commit(full40hex),redirect_sha256 matching retired_sources; live path must be absent",
+    "tests": [
+      "make research-test-compatibility-reader: failed before implementation,passed after; rejects accidental absence,wrong body/hash/commit,present supposedly removed file,unregistered path,traversal",
+      "make research-verify-compatibility-readers: exact live99-source integration"
+    ],
+    "consumers": {
+      "adapted": [
+        "scripts/technical_retirement.py verification",
+        "scripts/consolidation_tools.py source-history audit"
+      ],
+      "unchanged": [
+        "scripts/research_tools.py original-evidence reader already uses pinned originals",
+        "scripts/canonical_links.py reads canonical root documents",
+        "scripts/comparison_views.py prefers root model records; verify outputs before actual removal"
+      ]
+    },
+    "next": "Implement reviewed hash-guarded apply/rollback andupdate retirement preview for removed paths; then test exact removal selection before deleting. Existing historical consolidation plan routines are not rerun on already-consolidated models.",
+    "qualification": "No removed-path entries added,no files deleted,no migration-complete claim; inventory402 andindependent queues unchanged"
   }
 }

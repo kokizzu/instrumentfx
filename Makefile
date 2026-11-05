@@ -2548,3 +2548,11 @@ technical-compatibility-removal-preview:
 .PHONY: technical-compatibility-preview-test
 technical-compatibility-preview-test:
 	python3 scripts/technical_retirement.py compatibility-preview-test
+
+.PHONY: research-test-compatibility-reader
+research-test-compatibility-reader:
+	python3 scripts/research_tools.py test-compatibility-reader
+
+.PHONY: research-verify-compatibility-readers
+research-verify-compatibility-readers:
+	python3 scripts/research_tools.py verify-compatibility-readers
