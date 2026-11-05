@@ -146957,7 +146957,43 @@
     "scope": "PDF page6of8;manufacturer G3/G3X spread expressly discussing G3v2.0;regional original copy;reversed word-order extraction",
     "finding": "Nine parameter-knob subtotal fromthree panels×three knobs;historical manufacturer1ms patch-change claim,not measurement orspillover proof.",
     "limits": "Complete rotary/button census andvisual corroboration unresolved;bank-switch overlap warning preserved;no download ordevice test.",
-    "next": "Continue individual-foot-LCD processor gaps andqualified Shopee discovery;independent BOSS GT-Pro cursor unchanged."
+    "next": "Continue individual-foot-LCD processor gaps andqualified Shopee discovery;independent BOSS GT-Pro cursor unchanged.",
+    "panel_followup": {
+      "checked": "2026-11-06",
+      "front": {
+        "url": "https://zoomcorp.com/media/original_images/G3_top.jpg",
+        "bytes": 2630532,
+        "sha256": "15b283bbc33cc7b0ea55c79398ffe8d581890a827ab375e2141c3b8be534af07"
+      },
+      "front_verified": "9rotaries;3chassisFS;16keys=9TYPE/PAGE+7upperkeys;3monochrome-appearingLCDs withorange illumination",
+      "rear_documentary": {
+        "source": "https://zoomcorp.com/media/documents/G3_OperationManual_English.pdf",
+        "location": "Printed5,indexed original exact G3 text",
+        "selectors": [
+          "ACTIVE/PASSIVE",
+          "PRE/POST",
+          "GROUND"
+        ],
+        "scope": "Pushed/not-pushed documented;not rear visual orpinout proof"
+      },
+      "counting": "19non-footpushcontrols=16frontkeys+3rearselectors;POWER/eco separate;no built-in treadle",
+      "market": {
+        "additional": {
+          "seller": "RD Music",
+          "shop": "3086066",
+          "item": "22890272",
+          "idr": 1570000,
+          "condition": "Unknown",
+          "stock": "Habis;service unavailable in four-month snapshot",
+          "region": "Kota Tangerang Selatan",
+          "access": "Indexed original item text;direct reopen cache miss",
+          "unknown": "Working state,firmware,adapter/bundle,warranty,region,shipping/tax,voucher,checkout;not live availability"
+        },
+        "existing": "preztomusic used noadapter Rp1300000 remains four-month Habis snapshot;no fresh stock/condition/bundle proof"
+      },
+      "remaining": "Rear visual;USB/control subtype;display physicalspecifications;globalpedalcoverage;qualified current offers",
+      "next": "Continue individual-display gaps;preserve GP200JR→Prime→GE300,GTPro andexpression queues"
+    }
   },
   "g3x_exact_display_patch_scope_20261031": {
     "sources": [
@@ -176689,7 +176725,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://zoomcorp.com/media/original_images/G5_top.jpg",
+    "requested_url": "https://zoomcorp.com/media/original_images/G3_top.jpg",
     "cache_policy": "One rolling working photograph and receipt in/tmp; URLs and hashes retained with model findings. Retrieval alone is not visual verification.",
     "frame": 0
   }

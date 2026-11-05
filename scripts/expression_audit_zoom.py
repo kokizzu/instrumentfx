@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): verify original G5 front and rear control breakdown'
+        message='research(zoom): verify original G3 control breakdown'
     print(git('commit','-m',message))
