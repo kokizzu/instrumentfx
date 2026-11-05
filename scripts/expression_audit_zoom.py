@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): distinguish G11 component versions and reset scope'
+        message='research(zoom): clarify G11 creation template and save scope'
     print(git('commit','-m',message))

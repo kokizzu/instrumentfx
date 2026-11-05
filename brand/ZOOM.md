@@ -5138,6 +5138,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | USB audio | **4-in/4-out,44.1kHz/32-bit USB interface**; two dry and two processed recording channels, reamp. Internal A/D and D/A24-bit,processing32-bit. Windows ASIO driver; Mac/iOS/iPadOS do not require a dedicated driver. [G11-M pp.89–91,104] [July2025 tested Mac/iOS/iPadOS audio-software combinations](#g11--dated-usb-audio-software-compatibility) are separate from Handy Guitar Lab editor compatibility. |
 | Practice / stage | **Stereo looper:5min maximum,2min30s withUndo enabled**;independent of effect slots. Loop playback can continue while selecting patches;AUX is not recorded. PRE/POST,68 rhythms,autosave/preselection;see [V2 limits](#g11--v2-looper-capacity-and-playback-boundaries). Do not infer a measured preset-change latency or global spillover guarantee. [G11-M,G11-P] |
 | Practice / tuner and mute scope | V2 printed pp57–59 document **A4 calibration 435–445 Hz**, chromatic or six named guitar/open-tuning modes, and **one to three semitones of flat tuning except in CHROMATIC mode**. The tuner screen has a sound-mute control; the text does not specify separate headphones, USB, AUX or recorded-loop coverage, nor establish an all-effects bypass or global expression-volume role. Earlier tuner-page extraction omitted switch icons; the same manual’s explicit parts text on **printed p12** resolves the gesture: hold **BANK ▼ for tuner**, **BANK ▲ for tap tempo**. This does not establish mute coverage. Rechecked2026-11-03. [Manufacturer V2 manual](https://zoomcorp.com/documents/461/E_G11v2.pdf), checked2026-11-01; no device test or local download. |
+| Memory / creation template andsave destination | [Initial groups versus full library](#g11--creation-template-versus-library-and-save-destination);other categories are added after creation. Saving elsewhere doesnot add storage capacity. |
 | Memory / version andreset scope | [Four component identifiers;ALL INITIALIZE boundaries](#g11--component-version-identifiers-and-factory-reset-scope). Reset overwrites settings including patches;not a backup orverified firmware downgrade. |
 | Firmware / status | Support page lists **system2.10** at this check. V2 memory changes are explicitly documented. ZOOM's UK page labels G11 discontinued; this does not prove no Indonesian retailer has remaining stock. [G11-D,G11-F,G11-UK] |
 
@@ -5544,6 +5545,13 @@ No app or firmware downloaded, IR transferred, update performed or hardware oper
 Checked **2026-11-05**, [ZOOM V2 Operation Manual,©2021,printed99–102](https://zoomcorp.com/documents/461/E_G11v2.pdf). **VERSION/INFO** distinguishes **G11 firmware,DSP,Preset andBOOT versions**. The support listing’s system2.10 therefore doesnot establish identical component numbers orthe versions installed ona particular unit. LICENSE/INFO is separate licensing information,not an installed-effect census.
 
 **ALL INITIALIZE** restores factory settings andoverwrites settings including patch memories,then restarts. The manual doesnot establish user-IR retention,rollback ofall firmware components orrestoration froma backup bythis action. Preserve the separate Guitar Lab patch-backup procedure andV2 factory-allocation evidence;reset is not an extra memory bank. No reset,update,download ordevice operation performed.
+
+
+### G11 — creation template versus library and save destination
+
+Checked **2026-11-05**, [ZOOM V2 manual,©2021,printed40–45](https://zoomcorp.com/documents/461/E_G11v2.pdf). CREATE PATCH MEMORY starts with **DYNMCS/FILTER,DRIVE,MOD,DELAY/REVERB**,plus amp andspeaker-cabinet selectors. Categories absent fromthis screen remain accessible through the later Add Effects procedure;these four groups are not the full effect inventory orfixed final routing. Creation requires anempty location,as already qualified above.
+
+The save screen also permits selecting a destination inanother bank andsaving there. This is destination selection within500 locations,not additional memory orexternal backup. The existing AUTOSAVE/default andunsaved toe-state qualifications remain unchanged. No patch created,overwritten,downloaded ordevice operated.
 
 
 ## GFX-1 — partial discovery lead
