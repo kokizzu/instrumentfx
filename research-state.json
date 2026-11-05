@@ -172332,5 +172332,14 @@
     "finding": "One exact manufacturer page says15 in descriptive body and13 in specification table; regional difference is insufficient explanation",
     "unresolved": "Counting basis; no inferred external-loop ordual-amp arithmetic",
     "next": "Other USB modes,global FVprecedence,panel corroboration andqualified offers; retain independent queues"
+  },
+  "microcosm_looper_exceptions_20261105": {
+    "checked": "2026-11-05",
+    "root": "brand/HOLOGRAM.md#microcosm--looper-concurrency-and-preset-storage-exceptions",
+    "source": "https://www.zikinf.com/manuels/hologram-electronics-microcosm-manuel-utilisateur-en-79235.pdf",
+    "identity": "25page original matches manufacturer-linked contents/controls/pagination; unstamped revision",
+    "findings": "Hold/Looper mutually exclusive; Burst save exception; overdubs flattened; global settings excluded",
+    "next": "Physical census,firmware applicability,expression coverage andqualified Indonesia offers; preserve independent queues",
+    "inventory": "Existing partial outside active counts"
   }
 }

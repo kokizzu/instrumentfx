@@ -86,3 +86,9 @@ Checked **2026-11-05**. The [current manufacturer FAQ](https://www.hologramelect
 The same FAQ requires **greater than450mA** supply capability; the manual gives **400mA minimum**. Both specify9V center-negative. Preserve both source requirements; no measured draw orhardware revision inferred. FAQ Effect Volume changes wet output only, excluding dry audio; this is not universal volume.
 
 The [manufacturer firmware page](https://www.hologramelectronics.com/pages/microcosm-firmware) lists **v1.13,May2022** as current; updates use MIDI with browser orSysEx transfer. Listed current firmware is not installed-version evidence. No updater opened,download ordevice operation performed. Remaining all-preset assignment,range,bypass,phones,tail/loop attenuation andqualified Indonesia offers stay unresolved.
+
+### Microcosm — looper concurrency and preset-storage exceptions
+
+Checked **2026-11-05**, [manufacturer-authored manual on Zikinf](https://www.zikinf.com/manuels/hologram-electronics-microcosm-manuel-utilisateur-en-79235.pdf),25 PDF pages matching the manufacturer-linked original’s contents,controls andpagination; revision unstamped. Original endpoint was inaccessible this check.
+
+Printed pp13–18: **Phrase Looper clears Hold Sampler material and disables Hold access**. Looper Only retains pitch modulation,reverb andfilter; it is not total processing bypass. **Burst disables overdubbing; its audio is not preset-saved unless Burst is deselected after recording**. Normal preset saving mixes overdubs into one loop file; Global Configuration is excluded. Thus the earlier loop-saving headline has mode-specific limits. No loop-retention orall-source expression test performed;partial status andremaining hardware/market gaps unchanged.
