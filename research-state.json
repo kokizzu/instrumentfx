@@ -150021,7 +150021,25 @@
     "finding": "Original text explicitly reports six footswitches;three displays eachwithfour knobs. Independent review observation,not manufacturer specification orour visual census.",
     "access": "Targeted indexed original text read;full39.8MB PDF exceeds readerlimit;no localdownload.",
     "remaining": "Exact publication date/firmware andmanufacturer/visual switch census unresolved;separate buttons stillunknown. No change to globalvolume orUSB capability.",
-    "active_counts_changed": false
+    "active_counts_changed": false,
+    "panel_followup": {
+      "checked": "2026-11-06",
+      "front": {
+        "url": "https://zoomcorp.com/media/original_images/B3n_top.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+        "bytes": 70685,
+        "sha256": "a1d4bcd3de2781b948d271ecc117f1b2c75207a77e4c3f6e4eb3d98c9225f129"
+      },
+      "rear": {
+        "url": "https://zoomcorp.com/media/original_images/B3nREAR1.png.0x800_q80_crop-%2Cscale_size_canvas.png",
+        "bytes": 2727092,
+        "sha256": "40abd4a010bd48f95014444ae0e7224ce6ba82710f7fe278d37532941c2bb4cf"
+      },
+      "verified": "13 rotaries;6 chassis footswitches;7 buttons;3 monochrome-appearing LCDs;PHONES shares L/MONO socket",
+      "limits": "Exact-model visual evidence,not screen dimensions/hardware color/touch,pinout or global-volume proof. Dedicated-headphone wording preserved as source discrepancy.",
+      "market": "Existing used Rp2125000 Habis item1165451985/26184677935 still five-month snapshot;no fresh stock/condition/bundle proof",
+      "remaining": "OutputVP all-preset assignment/endpoints/bypass/phones/tail/loop;display physical specifications;qualified current offers",
+      "next": "Continue individual-display model gaps;preserve independent GP200JR→Prime→GE300,GTPro andexpression queues"
+    }
   },
   "hx_effects_dc3h_regional_replacement_20261101": {
     "checked": "2026-11-01",
@@ -176612,7 +176630,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://zoomcorp.com/media/original_images/Zoom_G3n_TopSlant.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+    "requested_url": "https://zoomcorp.com/media/original_images/B3nREAR1.png.0x800_q80_crop-%2Cscale_size_canvas.png",
     "cache_policy": "One rolling working photograph and receipt in/tmp; URLs and hashes retained with model findings. Retrieval alone is not visual verification.",
     "frame": 0
   }
