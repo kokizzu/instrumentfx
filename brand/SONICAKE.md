@@ -333,14 +333,17 @@ Checked **2026-11-04**: [global exact QME-200 index](https://www.sonicake.com/pa
 
 | Field | Preserved finding / uncertainty |
 |---|---|
-| Expression / controls | Built-in plus external EXP/FS;**5/3/?**,toe/rear power separate. |
+| Expression | Built-in plus external EXP/FS; toe function separate. |
+| Knobs / footswitches / buttons | **5 rotaries /3 footswitches /front-button count unverified**, retained manual-panel review. Earlier rear-power shorthand is qualified by the manufacturer FAQ below; no new visual census. |
 | Dimensions / display | **276 W ×164 D ×55.8 H mm;1.54kg**,medium. Own product explicitly specifies **color screen**;diagonal,touch andpixel resolution remain unverified. [Product](https://www.sonicake.com/products/matribox-ii). |
 | Expression / assignment details | Own firmware1.3.0 manual pp3,9:**toe press switches built-in pedal function**;EXP1A,EXP1B andexternalEXP2 each control **three effect parameters**. Do not infer an external toe switch from EXP2. [Manual,checked2026-10-17](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623) |
 | Bass capability | Own Matribox II product explicitly lists **guitar/bass/acoustic effects**;shared bass inclusion. Exact bass algorithm census/low-end performance remain unverified. [Manufacturer](https://www.sonicake.com/products/matribox-ii) |
-| Processing / presets | **Ten movable modules;63 amps,61 cabs,93+ pedal effects**;**198 locations,99 factory-filled**. Exact acoustic/synth algorithms unverified despite acoustic-related marketing. |
+| Processing / library | **Ten movable modules;63 amps,61 cabs,93+ pedal effects**. Firmware additions and unresolved category totals remain below. |
+| Memory | **198 locations,99 factory presets** per [current manufacturer page](https://www.sonicake.com/products/matribox-ii), checked2026-11-06. Writable/protected allocation unverified; no additional99 slots inferred. |
+| Synth / pitch / acoustic | [Own1.3.0 creative inventory](#matribox-ii--creative-algorithms-and-power-switch-correction): polyphonic Octaver/Pitch/Dual Melody/Digi Octa; monophonic Pitch S/Harmony D; **AC Sim**. Four-step Filter is synth-like filtering; dedicated synth unverified. |
 | Loading | **15 user IRs**;Official Japan2026-08-18 notice identifies **NAM A2 conversion through desktop1.3.0+**;accepted architectures/size limits remain unverified. [Notice](https://www.hotone.jp/announcements/nama2allbrand). |
 | Ports | 6.35 mm TS input;**two balanced mono6.35 mm TRS outputs**;mono TS FX send/return;3.5 mm AUX/phones;EXP/FS;3.5 mm TRS MIDI IN/OUT;USB-C. Two balanced outputs are not one stereo headphone socket. |
-| Power | **9V/1000mA center-negative**;battery/USB-powered operation not established. |
+| Power | **9V/1000mA center-negative**; battery/USB-powered operation not established. [Manufacturer FAQ](https://www.sonicake.com/products/matribox-ii), checked2026-11-06, explicitly says **no physical on/off switch**; power-off by unplugging. This qualifies earlier rear-power shorthand. |
 | Apps / recording | Windows/macOS full editor;USB audio Windows/macOS/iOS/Android,not proof of mobile editing;loopback/reamp. |
 | Practice | **90-second looper;100 rhythms**;matched firmware/editor1.3.0 at original check. |
 | USB / recording mode limits | Firmware1.3.0 manual p13:**6-in/4-out includes MIDI;2-in/2-out omits MIDI and cannot connect to desktop software**,intended for most mobile OTG systems. L/R recording independentlyDry/Wet;AUXToUSB selectable. Re-amp uses DAWoutput3–4/input3–4;loopback captures5–6. These are host-channel directions,not six physical inputs. [Manual,checked2026-10-17](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623) |
@@ -365,6 +368,17 @@ Checked2026-10-17. These are sold-out asks,not completed sales or a verified use
 Sources: [official model](https://www.sonicake.com/products/matribox-ii); [firmware1.3.0 original manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623). Original review visually checked panels and printed p.45 specifications;this consolidation is not a fresh image inspection. Earlier official-store **USD229.99** retained as2026-10-14 foreign provenance,excluding destination tax/shipping.
 
 <!-- comparison evidence ends -->
+
+### Matribox II — creative algorithms and power-switch correction
+
+Checked **2026-11-06**, exact QME-100, not Matribox II Pro. Manufacturer-linked [manual for firmware1.3.0,printed22,24–26,33](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623); original48-page document, readable through the current product link after direct-reader failures.
+
+**FX1/FX2:** Octaver, Dual Melody and Pitch explicitly use polyphonic processing; Pitch S and Harmony D are monophonic. Harmony D has two generated voices and maximum one-octave shifting; Digi Octa is polyphonic octave-up/down. **AC Sim** offers Standard/Jumbo/Enhanced/Piezo; AC Woody instead targets acoustic instruments. **Filter** sequences four filter steps, not a verified tracking synth. Ring Mod and Tape Mod are separate processing. CAB-list Mandolin/Fretless Bass/Double Bass names do not establish a separate synthesized-instrument engine.
+
+The [four-page firmware history](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705) introduces Pitch S/Harmony D in **1.1.1,2024-11-30**, and Digi Octa in **1.3.0,2026-06-03**. Auto Swell’s violin-like attack is an envelope effect, not violin synthesis. Introduction dates for the other named choices remain unverified. **Combo Spring** is in the1.3.0 manual’s **RVB** list, while1.1.1 release notes assign it to **DLY**; preserve both revision-specific statements. Shared FX choices and the ten-module ceiling do not guarantee every combination; tracking quality/latency were not measured.
+
+**Power correction:** the [current manufacturer FAQ](https://www.sonicake.com/products/matribox-ii) explicitly states no physical on/off switch. The older “toe/rear power separate” shorthand was not proof of a rear switch; the earlier historical provenance remains preserved. Front-button count still needs visual verification. No hardware, update, import or checkout operation; no local download. The same previously recorded Shopee item still surfaced only as an old sold-out ask, not new condition-qualified stock.
+
 
 ### Matribox II shared floorboard provenance
 
