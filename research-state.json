@@ -169942,5 +169942,22 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue individual footswitch-display profiles and exact Shopee evidence; preserve independent GT-Pro/general/expression queues"
+  },
+  "axom_max_primary_editor_driver_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/MELOFTY.md#axom-max--editor-platforms-versus-usb-audio-drivers",
+    "source": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Melofty/EN/MEL_AXOM_MAX_Manual_EN.pdf",
+    "revision": "Manufacturer English V1.7.4,2026-08-31,printed33,51,55",
+    "finding": "AXOM Controller Windows10+/macOS10.11+ manufacturer corroborated; Windows dedicated ASIO for low-latency audio and Mac driver-free audio are separate. Manual iOS11+/Android5+ historical minima do not override newer developer listing.",
+    "remaining": [
+      "Current installers and architecture",
+      "Audio driver version and current host support",
+      "Current Android OS minimum",
+      "Manufacturer mini-screen census/technology",
+      "Exact algorithm census",
+      "Qualified Shopee Indonesia hardware"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue substantive priority-model gaps and exact Shopee discovery; preserve independent general/expression/GT-Pro queues"
   }
 }

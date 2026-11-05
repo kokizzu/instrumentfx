@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(tc): distinguish X3 edit selection and LED status'
+        message='research(melofty): separate editor platform requirements from audio drivers'
     print(git('commit','-m',message))
