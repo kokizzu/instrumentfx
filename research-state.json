@@ -170395,5 +170395,21 @@
     "finding": "Seven later changed/added table rows had altered the protected original body. Restore exact baseline and retain all seven outside markers;underlying detailed findings unchanged.",
     "active_inventory_unchanged": 402,
     "next": "Continue source-history audit from next concrete failure;preserve requested display research andindependent queues"
+  },
+  "trident_preservation_repair_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/NUX.md#trident--later-primanada-hardware-evidence",
+    "source": "effects/findings/2026-10-15-nux-trident.md",
+    "source_sha256": "12123fa17710d9b2e2edeee24acfbf4dc1903d05450b75db1f0bb04e07b9908b",
+    "finding": "Relocated later Primanada Rp7.500.000 observation outside protected baseline;entire offer qualification andall earlier evidence retained.",
+    "validation": {
+      "target": "make consolidation-audit-source-history",
+      "result": "pass",
+      "sources": 99,
+      "reachable_variants": 295,
+      "scope": "HEAD-reachable technical source revisions;shared/metadata documents andmanufacturer truth remain separate audits"
+    },
+    "active_inventory_unchanged": 402,
+    "next": "Technical source-history audit passed;continue shared/metadata consolidation audit andrequested display research,retaining independent expression andgeneral queues"
   }
 }

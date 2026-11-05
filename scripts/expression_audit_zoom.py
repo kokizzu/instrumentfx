@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs(hotone): preserve Ampero II Stomp baseline and later findings'
+        message='docs(nux): preserve Trident baseline and later hardware offer'
     print(git('commit','-m',message))

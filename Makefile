@@ -2530,3 +2530,7 @@ research-field-audit-test:
 .PHONY: preservation-review-ampero-ii-stomp
 preservation-review-ampero-ii-stomp:
 	python3 scripts/preservation_review.py effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md
+
+.PHONY: preservation-review-trident
+preservation-review-trident:
+	python3 scripts/preservation_review.py effects/findings/2026-10-15-nux-trident.md

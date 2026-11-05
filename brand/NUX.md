@@ -1806,7 +1806,6 @@ Reviewed **2026-10-15**. Guitar multi-effects; **large**, no built-in expression
 |---|---:|---|
 | Retail listing; detailed condition and checkout stock unconfirmed | **Rp5.880.000** | [RedMusikBali, Shopee shop581205434/item23880941679](https://shopee.co.id/Efek-Gitar-Nux-Trident-NME-5-Guitar-Multi-Effects-Processor-i.581205434.23880941679). Indexed with older July delivery text; direct reopening failed |
 | Condition-unconfirmed, sold-out historical ask | **Rp4.750.000** | [Mc Garage Store, shop1011216793/item27722797315](https://shopee.co.id/Nux-Trident-NME-5-Modeler-Effects-Digital-Multi-Effects-Nux-Trident-i.1011216793.27722797315), explicitly sold out. Not assigned to used merely because cheaper |
-| Condition-unverified indexed hardware ask, checked **2026-11-05** | **Rp7.500.000** | [Primanada,shop15931156/item29810818444](https://shopee.co.id/Nux-NME5-NME-5-Trident-Multi-Efek-Guitar-Processor-Effect-Gitar-Pedal-i.15931156.29810818444),Kota Jakarta Utara. Four-month-old search snapshot; direct page returned cache miss. Exact TRIDENT NME-5 processor title. New/used condition,working state,selected variant,bundle,adapter/MIDI adapters,warranty/import region,voucher,shipping/tax andcheckout stock unknown. Relative next-day delivery is stale; late-delivery compensation up toRp10.000 is not deducted. Not a live offer or completed sale. |
 | Independently established used offer | **?** | No condition-verified used offer obtained |
 
 These are not a current market range, authenticated seller status or completed-sale statistics. Accessories, warranty, region and final delivery cost remain separate.
@@ -1821,6 +1820,15 @@ These are not a current market range, authenticated seller status or completed-s
 
 The V1 manual is not an independent test of firmware2.0.1. Remaining: published screen diagonal/color/touch, complete current algorithm inventory, IR formats, USB channel/power specifications and current condition-specific price evidence. **Next Shopee-first model: Zoom G6.**
 <!-- NUX-TRIDENT source ends -->
+
+### TRIDENT — later Primanada hardware evidence
+
+This 2026-11-05 observation is retained separately from the unchanged original source body above. Its price and limitations are unchanged; moving it does not refresh the offer.
+
+| Condition / evidence | IDR ask | Seller / qualification |
+|---|---:|---|
+| Condition-unverified indexed hardware ask, checked **2026-11-05** | **Rp7.500.000** | [Primanada,shop15931156/item29810818444](https://shopee.co.id/Nux-NME5-NME-5-Trident-Multi-Efek-Guitar-Processor-Effect-Gitar-Pedal-i.15931156.29810818444),Kota Jakarta Utara. Four-month-old search snapshot; direct page returned cache miss. Exact TRIDENT NME-5 processor title. New/used condition,working state,selected variant,bundle,adapter/MIDI adapters,warranty/import region,voucher,shipping/tax andcheckout stock unknown. Relative next-day delivery is stale; late-delivery compensation up toRp10.000 is not deducted. Not a live offer or completed sale. |
+
 
 ### Preserved seventh Shopee expansion shared comparison
 
