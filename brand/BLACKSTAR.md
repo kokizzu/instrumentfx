@@ -124,3 +124,32 @@ Checked **2026-11-01**;new partial lead,**outside active model counts andinstrum
 | IDR offers | Verified new/used unknown. ExactTwo Shopee Indonesia search surfacedOne/Three only;not proof ofabsence. No sibling price copied. |
 
 Next:complete Two-specific control census,expression/toe/range/recall,shared-operation applicability,appendix category conflict,initial memory,I/O/USB,imports/synth,editor andlooper/tail evidence;seek exact qualified hardware offer before catalogue admission. No device orsoftware operation.
+
+### ID:X Floor Two — manual control and routing profile
+
+Checked **2026-11-05**, manufacturer-authored [family manual](https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84),**256401M-VA-1 01/26**,cover and Two panel p3, shared controls pp11–23. This is direct documentation covering Two; no visual panel census or installed-firmware test.
+
+| Field | Documented scope / qualification |
+|---|---|
+| Controls | **10 rotary / 3 footswitches / 9 buttons**, text-derived: Voice, Gain, Volume, Bass, Middle, Treble, ISF, Master, Type, Page; Patch−/+, Tap; Voice Mode, Manual, Shift, CabRig, Pre FX, Mod, Dly, Rev, EXP Mode. Push encoders count once; three-position Response and pedal toe switch separate. No separate Save button: Manual+Shift saves. |
+| Expression | Built-in **toe switch** engages/disengages pedal. VOL offers Pre before the preamp or Post at the chain end; WAH offers Classic/Modern. CUSTOM takes the first turned continuous amp/effect parameter; discrete and all CabRig controls are excluded. An already-active effect requires crossing its saved value before pedal takeover. This is parameter pickup, not universal held-volume recall. |
+| Audio connectors | **¼-inch instrument input, To Amp output, stereo headphone/line output; two XLR outs; 3.5mm Line In/Streaming**, also accepting a TRRS phone-recording connection. To Amp bypasses CabRig and has no speaker-power stage. Complete listed Two inventory contains no external EXP or FX loop; Three-only ports are not transferred. |
+| Data / USB | **USB-C, MIDI In, DC**. Four device→host channels: CabRig L/R, dry guitar, preamp-only. Two host→device playback channels: L/R. Windows driver required; sample formats, host minima and current driver support remain unverified. |
+| Memory / live | **99 writable = 33 banks × 3**, initial factory occupancy unknown. Master is not patch-stored. Delay/Mod store separate tap values; effect-bypass delay/reverb tails default On and can be disabled in Architect. This does not establish preset-change spillover. |
+
+No numerical pedal endpoints, external toe compatibility, headphone power or all-source attenuation established. Built-in treadle keeps Two outside the no-treadle audit. Existing power/body source qualifications and qualified IDR gaps remain. Partial lead remains outside active counts; no download, calibration or device operation.
+
+### ID:X Floor Two — named manual effect choices and category conflict
+
+Same **January2026 family manual, pp19,27–29**: four independent effect blocks, one choice per block; **35 named choices**, not 35 simultaneous effects. Amp, CabRig, gate and pedal wah are separate.
+
+| Category | Choices | Exact names |
+|---|---:|---|
+| Pre FX | 15 | VALVE BST; RED DRIVE; TS DRIVE; K DRIVE; BLUE DRIVE; YEL DRIVE; OG DIST; RODENT; PIE FUZZ; SMILE FUZZ; COMPRESSOR; RED SQUASH; ENV FILTER; AUTO WAH; OG FUZZ |
+| Modulation | 10 | CHORUS; FLANGER; ECLT FLNGR; PHASER; VINT PHASE; VIBE; BIAS TREM; HARM TREM; OPTO TREM; VIBRATO |
+| Delay | 5 | ANALOG DLY; DIGI DELAY; TAPE ECHO; MULTI TAP DLY; SHIMMR DLY |
+| Reverb | 5 | HALL; PLATE; SPRING; CHAMBER; CATHEDRAL |
+
+The exact Two [manufacturer US table](https://blackstaramps.us/en-intl/products/id-x-floor) instead assigns **14 Pre FX / 10 Mod / 6 Delay / 5 Reverb**. Both total 35; no revision or firmware explanation reconciles the allocation. Do not remove OG FUZZ or invent a sixth delay. **SHIMMR DLY** pitches repeats upward; ENV FILTER/AUTO WAH are dynamic filters, not synth tracking. ACOUSTIC SIM is separately documented electric-to-acoustic processing; ACOUSTIC 1/2 are acoustic voices. Dedicated synth, conventional pitch-shifter/chord tracking, NAM/user IR imports and looper/drums remain unverified.
+
+Exact Two Shopee Indonesia search still supplied no qualified item; One/Three offers and foreign prices are not copied. Next: current firmware/editor compatibility, visual hardware, initial memory, exact local offers and remaining ranges/coverage.

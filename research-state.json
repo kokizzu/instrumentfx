@@ -169703,5 +169703,78 @@
       "Editor/import support"
     ],
     "next": "Continue priority footswitch-display gaps and fresh Shopee discovery;retain deferred GT-Pro USB-mode counts/globalFV and GP-200JR → Prime → originalGE300 queues"
+  },
+  "blackstar_floor_two_control_library_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BLACKSTAR.md#idx-floor-two--manual-control-and-routing-profile",
+    "source": "https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
+    "revision": "256401M-VA-1 01/26,Two panelp3,sharedpp11–23,appendix27–29",
+    "controls": {
+      "rotary": 10,
+      "footswitches": 3,
+      "buttons": 9,
+      "separate": "Response3position andpedaltoe;pushencoders countedonce"
+    },
+    "expression": "Built-in toe engages/disengages;Pre/Post volume;Classic/Modernwah;continuousCUSTOM excludingdiscrete/CabRig;active-effectpickup crosses savedvalue. Not globalvolume/heldposition proof.",
+    "usb": "4device-to-host CabRigL/R,dry,preamp;2playback returns;Windowsdriverseparate;formatunknown",
+    "groups": {
+      "Pre FX": [
+        "VALVE BST",
+        "RED DRIVE",
+        "TS DRIVE",
+        "K DRIVE",
+        "BLUE DRIVE",
+        "YEL DRIVE",
+        "OG DIST",
+        "RODENT",
+        "PIE FUZZ",
+        "SMILE FUZZ",
+        "COMPRESSOR",
+        "RED SQUASH",
+        "ENV FILTER",
+        "AUTO WAH",
+        "OG FUZZ"
+      ],
+      "Modulation": [
+        "CHORUS",
+        "FLANGER",
+        "ECLT FLNGR",
+        "PHASER",
+        "VINT PHASE",
+        "VIBE",
+        "BIAS TREM",
+        "HARM TREM",
+        "OPTO TREM",
+        "VIBRATO"
+      ],
+      "Delay": [
+        "ANALOG DLY",
+        "DIGI DELAY",
+        "TAPE ECHO",
+        "MULTI TAP DLY",
+        "SHIMMR DLY"
+      ],
+      "Reverb": [
+        "HALL",
+        "PLATE",
+        "SPRING",
+        "CHAMBER",
+        "CATHEDRAL"
+      ]
+    },
+    "total_manual_choices": 35,
+    "conflict": "Manual15/10/5/5 versusUS exactTwo14/10/6/5;firmwarebasisunknown",
+    "status": "Expanded partial,outsideactiveinventory",
+    "active_inventory_unchanged": 402,
+    "market": "ExactTwo ShopeeIndonesia notestablished;noOne/Three price orforeigncurrency transferred",
+    "remaining": [
+      "Current firmware andArchitectminimumrelease/OS",
+      "Initialfactoryoccupancy",
+      "Visualcontrols andOLEDparameters",
+      "Numericalpedalendpoints/recall/outputcoverage",
+      "QualifiedexactIndonesianhardware",
+      "IR/NAM/imports andlooper/drums"
+    ],
+    "next": "Continue requested individual-foot-display gaps and freshexactShopee discovery;preserve GT-Pro,GP-200JR → Prime → originalGE300 andexpression/consolidationqueues"
   }
 }
