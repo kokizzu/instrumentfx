@@ -172324,5 +172324,13 @@
     "firmware": "v1.13 May2022 listed current; installed unknown",
     "next": "Resolve source/firmware applicability; global volume coverage and qualified Indonesia offers remain; preserve independent priority queues",
     "inventory": "Existing partial lead outside active counts"
+  },
+  "gtpro_internal_count_conflict_20261105": {
+    "checked": "2026-11-05",
+    "root": "brand/BOSS.md#gt-pro--simultaneous-count-conflict-within-one-manufacturer-page",
+    "source": "https://www.boss.info/jp/products/gt-pro/support/",
+    "finding": "One exact manufacturer page says15 in descriptive body and13 in specification table; regional difference is insufficient explanation",
+    "unresolved": "Counting basis; no inferred external-loop ordual-amp arithmetic",
+    "next": "Other USB modes,global FVprecedence,panel corroboration andqualified offers; retain independent queues"
   }
 }
