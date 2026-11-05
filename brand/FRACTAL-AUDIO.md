@@ -1005,6 +1005,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Exceeds preferred200W×140D footprint. [Standard-covered7.x specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Processing / simultaneous limits | **12×4 grid**,DSP-limited. June2023 exactFM3 inventory:36 available classes,63 summed instance allowances including routing/control;not63 simultaneous effects. Historical1.x CPU limit approximately80%,overload mutes processing. Current13.0 equivalence untested. [Inventory](#fm3-original--dated-block-inventory-and-looper);[CPU](#fm3-original--initial-memory-dsp-and-current-support). |
 | Categories / November reference | [November2026 FM3 column](#fm3-original--november-reference-category-and-instance-comparison): 36 supported rows,63 summed allowances including utilities, **not63 simultaneous effects**. Delay shared29 becomes27 after two explicit FM3 exclusions. Reference counts are not installed certification or completed named censuses. |
+| Processing / further category inventories | [Phaser19, Tremolo/Panner7, Ten-Tap2, Gate4, Enhancer3; Volume/Pan2 described modes](#fm3-original--remaining-modulation-dynamics-and-utility-types). Two instances each except Ten-Tap one, CPU permitting. Auto-Swell is envelope processing, not global pedal assignment; Volume mode UI label and installed equivalence remain unverified. |
 | Processing / named filter and wah | [20 Filter and nine Wah choices](#fm3-original--named-filter-wah-and-envelope-distinctions), November2026 reference; four Filter/two Wah instances, CPU permitting. Touch-Wah follows level; Auto-Wah uses an LFO; Ladder self-oscillation is not note-tracking synthesis. Installed equivalence untested. |
 | Processing / named delay and flanger | [27 Delay/31 Flanger names](#fm3-original--named-delay-flanger-and-held-repeat-boundaries), November2026 reference; two instances each, CPU permitting. FM3 Delay maximum8s; Diffused Delay/Zephyr excluded. HOLD closes input, STACK keeps it open; not separate looper memory or tested retention. |
 | Processing / named chorus and compressor | [27 Chorus and 19 Compressor choices](#fm3-original--named-chorus-and-compressor-reference), November2026 reference; two instances each, CPU permitting. Chorus voice count is not synth polyphony; compressor Look-Ahead 0–2ms delays wet and dry. Original-model installed equivalence remains untested. |
@@ -1260,6 +1261,22 @@ Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,45–46,11
 | Wah:9 | FAS Wah; Clyde; Cry Babe; VX846; Color-Tone; Funk Wah; Mortal; VX845; Paragon |
 
 FM3 ceilings are **four Filter and two Wah instances**, CPU permitting. Envelope Filter responds to note attacks; Touch-Wah follows input level through decay. Auto-Wah instead uses an LFO. Ladder Filter offers low-pass/band-pass and12/24dB-per-octave modes; high resonance can self-oscillate. Touch-Ladder substitutes envelope control. These are filtering behaviors, not proof of tracked synth-note polyphony. Null retains gain/phase/pan controls without changing frequency response. Other inventories and hardware gaps remain open. No download or device operation.
+
+
+### FM3 original — remaining modulation, dynamics and utility types
+
+Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,44,52,73,103,106,109](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf); [Original support](https://www.fractalaudio.com/fm3-downloads/). Family reference; installed equivalence untested.
+
+| Category / FM3 ceiling, CPU permitting | Choices |
+|---|---|
+| Phaser:19; two instances | Digital Mono; Digital Stereo; Script 45; Script 90; Block 90; Classic Vibe; Stereo 8-Stage; Barber Pole; Stripe 90; Naughty Rock; FAS Vibe; Treadle Phaser; Virtuoso Phaser; Borg Phaser; Ultra-Super-Mega Phaser; Mutated Twin-Phaser; Modern Vibe; Hoodoo Vibe; RT Vibe |
+| Tremolo/Panner:7; two instances | Tremolo; Bias Trem; Harmonic Trem; Optical Trem 1; Optical Trem 2; Neon Trem; Panner |
+| Ten-Tap:2; one instance | Ten-Tap Delay; Rhythm Tap Delay |
+| Gate/Expander:4; two instances | Classic Expander; Classic Gate; Modern Expander; Modern Gate |
+| Enhancer:3; two instances | Modern Enhancer; Classic Enhancer; Stereoizer |
+| Volume/Pan:2 described modes; two instances | Simple volume control (exact UI type label unverified); Auto-Swell |
+
+Ten-Tap uses **one to ten echoes and Decay rather than feedback**; Rhythm Tap adds custom timing. Modern Gate and Auto-Swell can create slow attacks; neither establishes global expression-volume assignment. Classic Enhancer’s channel delay can cause cancellation on mono summing. Remaining category names and hardware gaps stay open. No download or device operation.
 
 
 ## FM9 MKII Turbo

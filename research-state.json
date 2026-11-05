@@ -168931,5 +168931,35 @@
     ],
     "next": "Continue accessible requested display-model gaps and remaining original FM3 named categories; preserve expression and GP-200JR → Prime → original GE300 queues.",
     "inventory_change": 0
+  },
+  "fm3_original_modulation_utility_types_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Fractal Audio FM3 original",
+    "source": {
+      "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "November 2026",
+      "pages": "3,44,52,73,103,106,109"
+    },
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--remaining-modulation-dynamics-and-utility-types",
+    "counts": {
+      "phaser": 19,
+      "tremolo_panner": 7,
+      "ten_tap": 2,
+      "gate_expander": 4,
+      "enhancer": 3,
+      "volume_pan_described_modes": 2
+    },
+    "instances": "Two each except Ten-Tap one; CPU permitting",
+    "qualification": "35 explicit names plus two described Volume/Pan modes; exact simple-volume UI type label remains unverified. No global-expression or installed-firmware inference.",
+    "remaining": [
+      "Original FM3 other named category inventories",
+      "Simple-volume exact UI type label",
+      "Headphone hardware variants",
+      "Display physical details",
+      "Global-volume endpoints, recall and coverage",
+      "Qualified current Indonesian stock"
+    ],
+    "next": "Continue remaining original FM3 inventories and accessible display-model gaps; preserve expression and GP-200JR → Prime → original GE300 queues.",
+    "inventory_change": 0
   }
 }
