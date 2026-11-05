@@ -4177,6 +4177,17 @@ Checked 2026-10-18 against [original manual printed pp.7, 16–17][M50B-M]. Text
 | Memory / master level | **MASTER LEVEL is saved per patch**. With all effects off, its midpoint provides matching input/output levels; excessive level can distort. Do not treat this knob as a necessarily global volume independent of patch recall. |
 | Looper / preparation and quantization | HOLD DLY requires **2.8 seconds** to enter recording standby after selection or restart. With Kick Drum running, tap/record length is quantized and the kick is recorded into HOLD DLY; pedal movement cannot subsequently change that recorded kick level. |
 
+### ME-50B — creative-index scope
+
+Checked 2026-11-05 against the [manufacturer’s original ©2003 manual][M50B-M], printed pp10–13,18–19 (40 PDF pages); no device operation.
+
+| Field | Finding / qualification |
+|---|---|
+| Synth / named choices | SAW LEAD, MILD FILTER, DEEP FILTER and SQUARE require single notes; filter character differs. These are DRIVE/SYNTH alternatives, not four concurrent voices. |
+| Pitch / note handling | FILTER/TONE OCTAVE UP/DOWN and pedal ±1 OCTAVE require single notes. Pedal bends vary pitch continuously; ordinary octave effects add a shifted signal. |
+| Synth / acoustic-bass distinction | DEFRETTER and HOLLOW are separate fretless and acoustic-electric-body treatments. Neither establishes acoustic-guitar simulation. |
+| Looper / separate special mechanisms | SOUND HOLD sustains a note with pedal-controlled level; HOLD DLY records/layers audio. SLOW GEAR shapes attack. These are different mechanisms, not additional synth engines. |
+
 <!-- comparison evidence ends -->
 
 Searches for ME-50B, ME50B and ME 50B on 2026-10-17 did not resolve exact Shopee Indonesia hardware. Foreign accessory matches do not establish a hardware price or Indonesian stock. Seller/item, condition, variant, region, bundle, warranty, voucher and current availability remain unknown. This is a search limitation, not proof of market absence.

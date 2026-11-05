@@ -155147,6 +155147,15 @@
         "instrument": "Defretter;pickup/body andacoustic-bass simulation",
         "qualification": "Overtone/Humanizer/RingMod/SlowGear distinct;IntelliRingMod single-note;FX1/FX2 alternatives;bass only",
         "evidence_basis": "Existing canonical record plusfocused2026-11-05 official English02 parameter check;notcompletefreshfour-categoryaudit"
+      },
+      {
+        "key": "BOSS::ME-50B",
+        "canonical": "brand/BOSS.md#me-50b--creative-index-scope",
+        "synth": "Four single-note synth choices",
+        "pitch": "Single-note octaves and pedal bends",
+        "instrument": "DEFRETTER;HOLLOW acoustic-bass body",
+        "qualification": "Shared slots;SoundHold distinct from HOLD DLY",
+        "evidence_basis": "Original manufacturer manual ©2003 pp10–13,18–19;checked2026-11-05"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -171640,5 +171649,22 @@
       "Condition-qualified hardware stock"
     ],
     "next": "PriorityLCD/Shopee remainingprofiles first;nextunindexedcreative lead BOSS ME-50B. Preserve GT-Pro,GP-200JR → Prime → GE300,expression andconsolidation queues"
+  },
+  "me50b_creative_index_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#me-50b--creative-index-scope",
+    "source": "https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf",
+    "revision": "Original ©2003;40PDFpages;printed10–13,18–19",
+    "finding": "Creative index gap closed;algorithm-specific single-note restrictions retained",
+    "shopee_search": "ME-50B/ME50B exact searches yielded no qualified item;not market absence. AXOMMAX/FM9 LCD-priority searches yielded no new usable lead.",
+    "additional_records": 82,
+    "active_inventory": 402,
+    "remaining": [
+      "Exact condition-qualified Shopee hardware",
+      "Visual controls",
+      "Simultaneous-capacity accounting",
+      "Remaining connector sizes"
+    ],
+    "next": "LCD/Shopee evidence first;next unindexed creative lead BOSS ME-50. Preserve independent GT-Pro,GP-200JR→Prime→GE300,expression-volume and consolidation queues."
   }
 }

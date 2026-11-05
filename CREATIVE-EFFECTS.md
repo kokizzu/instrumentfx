@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **81 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **82 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -127,6 +127,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [Korg AX5G](brand/KORG.md#ax5g--original-prefx-inventory-and-regional-count-boundary) | Keyed DRONE; tracking synth unverified | Pitch Shifter; Octave; input polyphony unverified | AC Simulator; Pickup Simulator | Slow Attack; Ring Modulator; Random Step Filter; original EFG2; 57/58 source qualifications retained |
 | [Korg AX5B](brand/KORG.md#ax5b--pitch-controls-and-synth-gain-staging-limits) | SYNTH; input-note polyphony unverified | Pitch Shifter with TRACKING; single-note Octave | Fretless explicitly single-note; acoustic conversion unverified | Ring Modulator; Random Step Filter; Filtron; Slow Attack; original EFG1 limits, not full fresh audit |
 | [BOSS GT-1B](brand/BOSS.md#gt-1b--creative-index-and-algorithm-specific-note-handling) | SAW/SQUARE Bass Synth, explicitly single-note | Pitch Shifter ±24 semitones; single-note Harmonist/Pedal Bend; Octave | Defretter; pickup/body and acoustic-bass simulation | Overtone harmonics, Humanizer, Ring Mod (Intelli single-note), Slow Gear; FX1/FX2 alternatives, not full fresh audit |
+| [BOSS ME-50B](brand/BOSS.md#me-50b) | SAW LEAD; MILD FILTER; DEEP FILTER; SQUARE—all single-note | Octave up/down and pedal bends single-note | DEFRETTER; HOLLOW acoustic-bass body | [Own original-manual check](brand/BOSS.md#me-50b--creative-index-scope); Sound Hold versus HOLD DLY; shared category slots, not all simultaneous |
 
 ## Separately recorded partial leads
 
