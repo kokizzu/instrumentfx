@@ -196,6 +196,7 @@ Checked 2026-10-17; partial. Separate from original H9 Max and H9 Gen 2. Ownersh
 
 | Field | Evidence / qualifications |
 |---|---|
+| Editor / MIDI and converted control mappings | [Release-specific control boundaries](#h90--midi-stepping-and-converted-control-mappings): firmware1.7.5 fixes DIN MIDI stepping; Eventide Control2.2.3 preserves H9 Gen2 auxiliary mappings when converting to H90 Programs. These are different software components, not tracking-quality or global-volume guarantees. |
 | Instrument scope | Guitar; vocal path requires external MixingLink in the manufacturer example. No direct XLR mic/phantom input. **Bass capability verified:** own Source Type settings include Bass(Tenor) and Sub(Bass), adjusting pitch tracking, filters and tone controls. [Global1.12.5][H90-B] [P][H90-P] |
 | Expression | No built-in pedal; two TRS EXP/CTL inputs accept 10–25kΩ pedals, 0–5V CV on tip, or 1–3 normally-open momentary switches. Toe support unverified. [Rear][H90-R] |
 | Knobs / footswitches / buttons | **5 rotary /3 physical footswitches /7 buttons**, text-derived: Select, Perform, three Quick Knobs; Programs, Routing, Presets, Parameters, P/A/B. Push encoders counted once. Product’s six programmable footswitch functions are not six physical switches. [Top][H90-T] |
@@ -365,6 +366,16 @@ Checked **2026-11-04**, [manufacturer Synth chapter, manual 1.12.5](https://cdn.
 - **Synthonizer:** Shape A offers Sine, Triangle, Sawtooth, Organ 1 and Organ 2; **Sweep B 0–50 is low-pass, 50–100 high-pass**. **Flex raises both voices one octave**. These voices/filter choices do not prove chord tracking; Synthonizer input-note polyphony remains unverified.
 
 The synths remain alternatives within two algorithm positions. No installed firmware, playing test or extra simultaneous slot is inferred.
+
+### H90 — MIDI stepping and converted control mappings
+
+Checked **2026-11-06** against manufacturer release notes; no software installed or device tested.
+
+- **H90 firmware1.7.5** explicitly fixes **DIN MIDI stepping** and requires H90 Control1.7.6+ for that release. The [staff-published release history](https://www.eventideaudio.com/forums/topic/h90-software-latest-2/) distinguishes this from PolySynth’s1.6.11 introduction. It is a historical controller-response fix, not measured pitch latency, polyphonic tracking quality, direct-analog EXP calibration or global-volume coverage. The associated [support thread](https://www.eventideaudio.com/forums/topic/midi-expression-issue-and-bricking/) discusses pitch sweeps and confirms the MIDI fix; it does not certify every reported analog-pedal problem resolved.
+- **Eventide Control2.2.0** adds H9 Gen2 Preset/List import to H90. **2.2.3** specifically fixes preservation of H9 Gen2 auxiliary-switch mappings in converted H90 Programs. Its opposite-direction fix preserves H90 Performance Footswitch assignments when converting to H9 Gen2; these are destination-specific mapping fixes. The [current desktop release notes](https://www.eventideaudio.com/downloads/?product=H90) require **H90 firmware1.9.4+**, independently of the editor’s2.2.3 version. Import compatibility does not transfer all algorithms, guarantee a lossless round trip, add simultaneous slots or establish control of original H9 Max hardware.
+
+Installed versions, exact calendar introduction dates, tracking performance and current condition-qualified Shopee stock remain unverified. Existing source revisions, routing-mode conversion qualifications and two-algorithm Program limit remain. Active inventory and independent queues are unchanged.
+
 
 ## Incoming capability evidence, 2026-10-18
 

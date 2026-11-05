@@ -153196,7 +153196,17 @@
     "conversion": "1.8.16 auto-converts imported Program/List routing to current pedal mode; distinct storage sets remain",
     "mapping_fix": "2.2.3 preserves H9Gen2 auxiliary-switch mappings into H90 Program; reverse performance assignment fix is destination-specific",
     "drag": "1.9.13 copy/swap choice and overwrite/last-copy warnings qualify older manual overwrite behavior",
-    "global_range": "No current range fix established by these editor notes"
+    "global_range": "No current range fix established by these editor notes",
+    "followup_20261106": {
+      "checked_date": "2026-11-06",
+      "canonical": "brand/EVENTIDE.md#h90--midi-stepping-and-converted-control-mappings",
+      "firmware_source": "https://www.eventideaudio.com/forums/topic/h90-software-latest-2/",
+      "support_source": "https://www.eventideaudio.com/forums/topic/midi-expression-issue-and-bricking/",
+      "new_evidence": "Firmware1.7.5 DIN MIDI stepping fix,distinct from direct analog problems;H90 Control1.7.6+ required for that release. Published current editor conversion/mapping scope reconciled with canonical record.",
+      "remaining": "Exact calendar introduction dates,current installed performance,qualified condition-specific stock;no market refresh from repeated old item",
+      "inventory_change": 0,
+      "next": "Continue accessible individual footswitch-display processor gaps or systematic Shopee research;preserve GT-Pro,expression audit and independent GP-200JR -> Prime -> GE300."
+    }
   },
   "beebo_screening_20261103": {
     "status": "partial discovery outside active counts",
@@ -156103,7 +156113,8 @@
           "https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/",
           "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/terminology.html",
           "https://www.eventideaudio.com/forums/reply/176030/",
-          "https://www.eventideaudio.com/forums/topic/h90-software-latest/"
+          "https://www.eventideaudio.com/forums/topic/h90-software-latest/",
+          "https://www.eventideaudio.com/forums/topic/h90-software-latest-2/"
         ],
         "synth": "PolySynth explicitly polyphonic guitar-to-synth, up to three generated voices, not a three-note input ceiling. HotSawz: six saw oscillators, mono tracker. Synthonizer: additive A/subtractive B; input-note polyphony unverified.",
         "pitch": "Polyphony polyphonic shifts/delays/freeze; PolyFlex polyphonic bends/freeze. Prism Shift separates chord intervals into arpeggiated voices. Diatonic uses monophonic note tracking; stereo channels do not change that.",
@@ -156132,7 +156143,8 @@
             "Wide Pulse"
           ],
           "qualification": "Three generated voices and stereo spread do not define input-note polyphony; no hardware or installed-firmware test. Exact calendar introduction dates remain unresolved."
-        }
+        },
+        "performance_followup": "brand/EVENTIDE.md#h90--midi-stepping-and-converted-control-mappings"
       },
       "MOOER::GE300": {
         "key": "MOOER::GE300",

@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(digitech): record original RP300 partial discovery'
+        message='research(eventide): qualify H90 MIDI and converted control mappings'
     print(git('commit','-m',message))
