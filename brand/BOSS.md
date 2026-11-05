@@ -4071,6 +4071,17 @@ Effects-only guitar multi-effects, distinct from ME-50B. Checked2026-10-17; part
 | Used | Unknown; no condition-verified exact ask. | — |
 | New | Unknown; no condition-verified exact ask. | — |
 
+### ME-50 — creative-index and algorithm-specific tracking limits
+
+Checked 2026-11-05 against the [original ©2002 manufacturer manual][M50-M], 36 PDF pages, printed pp9,11,13,19. Availability is not a tracking-quality test.
+
+| Field | Finding / qualification |
+|---|---|
+| Synth / distortion versus filter | SQUARE belongs to OD/DS. RESONANCE is a pedal-controlled synth-filter treatment; their combination is recommended. A separate tracking synth engine and SQUARE chord handling remain unverified. |
+| Pitch / harmony limits | HARMONIST uses a selected key, reaches an octave above/below, and rejects chords. Its zero setting provides detuning. Pedal ±1 OCTAVE also rejects chords. These are algorithm-specific limits. |
+| Synth / acoustic distinctions | ACOUSTIC converts electric-guitar tone; HOLLOW adds full-acoustic body resonance. SH, HS and H HF instead alter pickup character. These share TONE MODIFY. |
+| Processing / special effects | VOICE provides vowel-like modulation. RING MOD combines an internal oscillator with guitar audio; pedal movement changes oscillator frequency. The manual explicitly rejects chords here too. One pedal assignment is selected at a time. |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified Shopee observation

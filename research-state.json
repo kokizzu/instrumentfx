@@ -155156,6 +155156,15 @@
         "instrument": "DEFRETTER;HOLLOW acoustic-bass body",
         "qualification": "Shared slots;SoundHold distinct from HOLD DLY",
         "evidence_basis": "Original manufacturer manual ©2003 pp10–13,18–19;checked2026-11-05"
+      },
+      {
+        "key": "BOSS::ME-50",
+        "canonical": "brand/BOSS.md#me-50--creative-index-and-algorithm-specific-tracking-limits",
+        "synth": "SQUARE distortion/RESONANCE recipe;separate tracking engine unverified",
+        "pitch": "Single-note Harmonist and pedal bends;zero-setting detune",
+        "instrument": "ACOUSTIC,HOLLOW andpickup transformations distinct",
+        "qualification": "VOICE;RING MOD explicitly single-note;shared pedal assignment",
+        "evidence_basis": "Manufacturer original ©2002 manual;printed9,11,13,19;2026-11-05 focused check"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -171666,5 +171675,26 @@
       "Remaining connector sizes"
     ],
     "next": "LCD/Shopee evidence first;next unindexed creative lead BOSS ME-50. Preserve independent GT-Pro,GP-200JR→Prime→GE300,expression-volume and consolidation queues."
+  },
+  "me50_creative_index_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#me-50--creative-index-and-algorithm-specific-tracking-limits",
+    "source": "https://static.roland.com/assets/media/pdf/ME-50_OM.pdf",
+    "revision": "©2002 original36PDFpages;printed9,11,13,19",
+    "finding": "Index added;RingMod single-note restriction andharmony detune clarified",
+    "market": {
+      "existing_item": "185899831/46762119595",
+      "access": "Direct inaccessible;oldRp1425000 retainedwithoutrefresh",
+      "other_results": "HopeMusic mixedME70/ME50/ME25/ME20;noallocatedME50price",
+      "lcd_priority": "StadiumXL twoexistingRockpizz asks unchanged;AXOM noqualifiednewlead"
+    },
+    "additional_records": 83,
+    "active_inventory": 402,
+    "remaining": [
+      "SQUARE input polyphony/tracking engine architecture",
+      "Exact condition-qualified hardware stock",
+      "Simultaneous ceiling,connector subtypes/polarity,software/import gaps"
+    ],
+    "next": "Requested footswitch-screen sources andShopee first;next unindexedcreative BOSS GT-8. Preserve independent GT-Pro,generalGP200JR→Prime→GE300,expression-volume andconsolidation queues."
   }
 }
