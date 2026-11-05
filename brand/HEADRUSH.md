@@ -344,6 +344,17 @@ The [product page](https://www.headrushfx.com/products/looperboard/) specifies *
 
 [Legato Music Center, shop158413015/item6044136876](https://shopee.co.id/Headrush-Looperboard-Multi-Effects-i.158413015.6044136876), **Kota Jakarta Pusat**, cached ask **Rp24,585,000**. Direct page retrieved2026-11-05 was indexed last month. New/used condition, variant/bundle, live stock, warranty, shipping/taxes and checkout price remain unverified. Missing Habis text and relative delivery promises are not stock confirmation. Rp10,000 late-delivery compensation is not deducted. No condition-verified used ask recovered.
 
+### Looperboard — storage limits, measured display specification and routing scope
+
+Checked **2026-11-05**, [manufacturer User Guide2.0.0](https://cdn.inmusicbrands.com/HeadRush/looperboard/Looperboard-User-Guide-v2_0_0%5B0805%5D.pdf), printed19,25–28,32,37,46. No local download or device operation.
+
+| Field | Revision-qualified finding |
+|---|---|
+| Display | Appendix: **6.9-inch/176mm diagonal**,150×93mm,full-color LED-backlit touch display. Preserve nominal7-inch product wording; these are not separate footswitch screens. |
+| Storage | Appendix lists **FAT16/FAT32/exFAT**; older FAQ lists FAT32/EXT4. Preserve revision difference; current EXT4 support unverified. Guide caps saved WAV files at **4GB (~6h11m)** on exFAT/FAT32 and **2GB** on FAT16. Removing loop-length limits does not remove file-size/storage limits. |
+| Routing / expression | Audio Routing is **global, not per loop**; this does not establish global analog-volume assignment. Incoming MIDI **CC7 Main Level**,**CC9 Phones Level**,**CC93 Expression Pedal**,all0–127,are separate targets—not proof the analog socket controls Main. Endpoint/recall and all-source coverage remain unknown. |
+| Bounce / tails | **As Loop enabled** retains delay/reverb across the bounce loop point; disabled cuts them there. This concerns bounced audio,not universal pedal attenuation or preset spillover. |
+
 ## MX5
 
 Guitar/bass multi-effects; **medium** footprint; first-pass record with outstanding fields.

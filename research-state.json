@@ -25882,7 +25882,14 @@
         "Global expression assignment, recall, endpoints and bypass/headphone/tail coverage",
         "Qualified live new/used offers"
       ],
-      "next": "Complete remaining profile before active admission. Preserve individual-footdisplay priority, Mini/Nano global volume, actual M-VAVE wiring, GT-Pro and GP-200JR → Prime → GE300 queues."
+      "next": "Complete remaining profile before active admission. Preserve individual-footdisplay priority, Mini/Nano global volume, actual M-VAVE wiring, GT-Pro and GP-200JR → Prime → GE300 queues.",
+      "storage_routing_followup": {
+        "checked_date": "2026-11-05",
+        "canonical_record": "brand/HEADRUSH.md#looperboard--storage-limits-measured-display-specification-and-routing-scope",
+        "revision": "UserGuide2.0.0 printed19,25–28,32,37,46",
+        "status": "Partial; source conflicts and expression coverage retained",
+        "next": "Full named choices/memory census, software/import and current exact-offer qualifications; preserve independent queues."
+      }
     }
   ],
   "inventory_by_brand": {
@@ -175024,5 +175031,11 @@
       "Display diagonal/touch and qualified used/live hardware"
     ],
     "next": "Continue new accessible individual-footdisplay/Shopee sources and systematic required-field gaps. Preserve Mini/Nano, actual M-VAVE wiring, GT-Pro and GP-200JR → Prime → GE300 queues."
+  },
+  "looperboard_continuation_20261105": {
+    "canonical": "brand/HEADRUSH.md#looperboard--storage-limits-measured-display-specification-and-routing-scope",
+    "active_inventory_unchanged": 402,
+    "priority": "Requested individual-footdisplay sources first; repeated FM9/AXOM results yielded no new qualified hardware evidence",
+    "next": "Continue Looperboard complete named choices/memory/software fields when accessible, then systematic Shopee inventory; preserve Mini/Nano, M-VAVE wiring, GT-Pro and GP-200JR → Prime → GE300."
   }
 }

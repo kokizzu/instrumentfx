@@ -902,3 +902,7 @@ PX5D [phrase/storage and software qualification](brand/KORG.md#px5d--phrase-stor
 [Exact-model profile](brand/FLAMMA.md#fx10--partial-headphone-multi-effects-discovery),outside402 active models: normal guitar input,dedicated3.5mm TRS headphones; complete manual connector inventory has no analog EXP socket. Hand volume excludes Bluetooth/USB playback. Manual40W×82Dmm footprint fits the preference,but product dimensions conflict and plug clearance matters. No onboard footswitch pair or individual footswitch display. Exact Shopee hardware remains unknown.
 
 VG-800 [volume-target and detector distinctions](brand/BOSS.md#vg-800--volume-target-and-detector-distinctions) separate INST/NOR MIX from global Memory Level. FV+tuner atminimum isnot verified mute;NS detector choice affects swell/tail behavior,andASSIGN Rise/Fall excludes analog EXP sources. Partialoutside402;all-output coverage andactual controller wiring remain unresolved.
+
+### HeadRush Looperboard — partial large-footprint candidate
+
+[Routing versus assignment](brand/HEADRUSH.md#looperboard--storage-limits-measured-display-specification-and-routing-scope): global routing and MIDI targets do not prove direct analog global volume. Partial outside active counts; existing canonical expression, headphone and footprint qualifications apply.
