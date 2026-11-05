@@ -1249,6 +1249,22 @@ Checked 2026-10-18; original owner manual, printed pages 2, 3, 9, 11 and 12.
 | Power / battery backup | Manual recommends leaving batteries installed during adapter operation so performance can continue if the adapter disconnects. | [GT1B-M] |
 | I/O / headphone load conflict | Manual printed p12 text states recommended PHONES load **44 kΩ or greater**; current official specifications state **44 Ω or greater**. Both list output impedance 44 Ω. Retain the source discrepancy; no measurement or visual symbol check was performed. | [GT1B-M]; [GT1B-S] |
 
+### GT-1B — creative index and algorithm-specific note handling
+
+Checked **2026-11-05**, [manufacturer Parameter Guide/Sound List, English02, printed pp6,8–9,11–12](https://static.roland.com/assets/media/pdf/GT-1B_parameter_eng02_W.pdf),29 PDF pages. This supplements the existing record; it is not a complete fresh profile or an installed-firmware test. The previously recorded1.02 tracking improvements remain separately firmware-qualified.
+
+| Field | Exact-model creative evidence |
+|---|---|
+| Synth / note handling | BASS SYNTH offers SAW and SQUARE. It requires single notes, muting previous/unused strings and clear attacks; sensitivity varies with pickup and bass-tone settings. These are two waveforms within one algorithm, not two-note polyphony. |
+| Pitch / separate algorithms | PITCH SHIFTER spans **−24…+24 semitones**. HARMONIST and PEDAL BEND explicitly reject chords. OCTAVE adds one/two octaves below; chord handling for Octave and Pitch Shifter remains unverified. |
+| Synth / processing distinctions | OVERTONE adds harmonics; HUMANIZER switches vowels by picking or automatically. RING MOD has Normal/Intelli modes; **Intelli requires single notes**. These are not additional Bass Synth engines. SLOW GEAR shapes attacks. |
+| Synth / acoustic-bass distinction | DEFRETTER simulates fretless bass. BASS SIMULATOR has seven pickup/body transformations, including single-coil/humbucker to acoustic bass. Acoustic-bass processing is not acoustic-guitar simulation. |
+| Processing / selection limits | These FX families are alternatives in FX1/FX2; PEDAL FX is separate. Listing available effects does not promise simultaneous access to all of them or measured tracking performance. |
+| IDR / additional CH MUSIC hardware ask | **Rp4.550.000**, [CH MUSIC,shop195817632/item25052166296](https://shopee.co.id/BOSS-GT-1B-Bass-Effects-Processor-Efek-Pedal-Bass-BOSS-GT1B-i.195817632.25052166296), KotaJakartaPusat. Last-week indexed exact GT-1B hardware title; direct page cache-missed. Condition, selected variant, working state, firmware, bundle/adapter, warranty, stock, shipping/tax and checkout total remain unknown. Cached same-day delivery is not stock confirmation; up-to-Rp10.000 late compensation is not deducted. Separate from the older Hurtrock/Cityland/Rockpizz observations. |
+
+Bass-only membership and ownership status are unchanged. No preset, firmware or software downloaded; no audio/controller test. The broader creative index reuses existing catalogue evidence and does not certify every recorded processor.
+
+
 ## GT-3
 
 Checked 2026-10-17; partial. Guitar/acoustic-electric multi-effects; bass/vocal suitability and ownership unverified.

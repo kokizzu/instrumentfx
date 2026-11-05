@@ -155138,6 +155138,15 @@
         "instrument": "Fretless single-note; acoustic conversion unverified",
         "qualification": "Original EFG1; Ring Modulator,Random Step Filter,Filtron,Slow Attack; bass only",
         "evidence_basis": "Focused2026-11-05 official manual printed13,52,54 plus retained exact-model record;not full fresh audit"
+      },
+      {
+        "key": "BOSS::GT-1B",
+        "canonical": "brand/BOSS.md#gt-1b--creative-index-and-algorithm-specific-note-handling",
+        "synth": "SAW/SQUARE Bass Synth explicitly single-note",
+        "pitch": "Pitch Shifter±24semitones;Harmonist/PedalBend single-note;Octave",
+        "instrument": "Defretter;pickup/body andacoustic-bass simulation",
+        "qualification": "Overtone/Humanizer/RingMod/SlowGear distinct;IntelliRingMod single-note;FX1/FX2 alternatives;bass only",
+        "evidence_basis": "Existing canonical record plusfocused2026-11-05 official English02 parameter check;notcompletefreshfour-categoryaudit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -171602,5 +171611,34 @@
     "active_inventory_unchanged": 402,
     "additional_creative_records_unchanged": 80,
     "next": "Continue priority separate-display primarysources andexactShopee discovery;preserve independent GT-Pro,GP-200JR → Prime → GE300,expression andlossless consolidation queues"
+  },
+  "gt1b_creative_index_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "BOSS::GT-1B",
+    "canonical": "brand/BOSS.md#gt-1b--creative-index-and-algorithm-specific-note-handling",
+    "source": "https://static.roland.com/assets/media/pdf/GT-1B_parameter_eng02_W.pdf",
+    "revision": "English02,29pages,printed6,8–9,11–12;currentinstalledmappinguntested",
+    "finding": "BassSynthSAW/SQUARE single-note;Harmonist/PedalBend/IntelliRingMod single-note restrictions independent;PitchShifter±24semi;BassSimacousticbass distinctfromguitaracoustic",
+    "offer": {
+      "url": "https://shopee.co.id/BOSS-GT-1B-Bass-Effects-Processor-Efek-Pedal-Bass-BOSS-GT1B-i.195817632.25052166296",
+      "shop": "195817632",
+      "item": "25052166296",
+      "seller": "CH MUSIC",
+      "region": "KotaJakartaPusat",
+      "ask_idr": 4550000,
+      "access": "Lastweekindex/directcachemiss",
+      "condition_stock_bundle_checkout": "unknown;notclassifiednew/used",
+      "voucher": "latecompensationnotdeducted"
+    },
+    "active_inventory_unchanged": 402,
+    "additional_creative_records": 81,
+    "discovery_method": "Existingactivecanonicalcapability heading scan minus selected7/additionalindex;leadselection only,not verificationofallcandidates",
+    "remaining": [
+      "PitchShifter/Octave notehandling",
+      "Trackingquality/latency/currentfirmwareequivalence",
+      "Fullsimultaneous ceiling/currentOS/physicaldisplay/powergaps",
+      "Condition-qualified hardware stock"
+    ],
+    "next": "PriorityLCD/Shopee remainingprofiles first;nextunindexedcreative lead BOSS ME-50B. Preserve GT-Pro,GP-200JR → Prime → GE300,expression andconsolidation queues"
   }
 }
