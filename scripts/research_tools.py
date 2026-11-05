@@ -172,6 +172,8 @@ def verify_compatibility_readers():
     import copy
     import source_retirement
     head = git('rev-parse', 'HEAD').strip()
+    tracked = set(git('ls-tree', '-r', '--name-only', head).splitlines())
+    pins = state['migration'].get('metadata_compatibility_removal', {}).get('redirect_pins', {})
     simulated = copy.deepcopy(state)
     entries = simulated['migration'].setdefault('removed_metadata_redirects', {})
     for path in source_retirement.SOURCES:
@@ -179,7 +181,7 @@ def verify_compatibility_readers():
         assert read_compatibility_redirect(path, state) == expected
         if path not in entries:
             import hashlib
-            entries[path] = {'redirect_commit': head, 'redirect_sha256': hashlib.sha256(expected.encode()).hexdigest()}
+            entries[path] = {'redirect_commit': head if path in tracked else pins[path]['redirect_commit'], 'redirect_sha256': hashlib.sha256(expected.encode()).hexdigest()}
         actual = read_compatibility_redirect(path, simulated,
                                              lambda: (_ for _ in ()).throw(AssertionError('Disk fallback')),
                                              exists=lambda: False)

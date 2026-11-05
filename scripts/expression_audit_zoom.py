@@ -59,5 +59,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs: remove fully preserved metadata compatibility redirects'
+        message='build: verify metadata restoration after deletion commit'
     print(git('commit','-m',message))

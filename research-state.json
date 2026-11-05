@@ -173427,7 +173427,12 @@
       "make comparison-plan: allfive generated outputs unchanged",
       "make research-verify:402root canonical,linksresolve,no workflows"
     ],
-    "postcommit_rollback": "Pending actual drill at deletion commit before push",
-    "next": "Verify actual restoration/re-removal after deletion commit; audit specialist/FV01 history andreaders separately before deleting. Continue individual-footdisplay/Shopee research,GT-Pro,expression-volume andGP200JR→Prime→GE300 queues."
+    "postcommit_rollback": {
+      "deletion_commit": "be1bb4d2deef8fb117163bf4d87f3950830ea727",
+      "actual": "Restored exact13 after deletion commit plus five-reference list; metadata-history audit60versions zero pending; reconstructed exact Git-backed13reads; removed exact same13 again from retained b40b9ba0 pins.",
+      "regression": "Integration simulation initially used currentHEAD for restored/untracked paths and failed; changed to retainedmetadata pin when absentfromHEAD; actualrestored-state integration then passed.",
+      "remaining": "Only specialist andFV01 legacy redirects remain; all402active models andindependent queues unchanged."
+    },
+    "next": "Audit full reachable history andconsumers for effects/specialist.md andFV01 redirect before further removal; continue LCD/Shopee priority,GT-Pro,expression-volume andGP200JR→Prime→GE300 queues."
   }
 }
