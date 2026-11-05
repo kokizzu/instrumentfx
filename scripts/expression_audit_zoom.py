@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): document GFX-8 shared custom memory boundaries'
+        message='research(nux): qualify TRIDENT electrical ratings and hardware offers'
     print(git('commit','-m',message))

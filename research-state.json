@@ -169829,5 +169829,34 @@
     "market": "FreshShopee searches surfaced existing sensor accessory,excluded;known194831039/45418107210 remains historical unqualifiedhardware lead",
     "inventory_unchanged": 402,
     "next": "Continue substantive required-field gaps andnew exactShopee discovery;prioritizeindividual-footdisplays;preserve expression/GT-Pro/generalqueues"
+  },
+  "trident_electrical_primanada_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/NUX.md#trident--electrical-ratings-and-separate-primanada-offer",
+    "source": "https://nuxaudio.com/product/trident/",
+    "revision": "Unversioned exact-model specification;not installed firmware test",
+    "market": {
+      "seller": "Primanada",
+      "shop": "15931156",
+      "item": "29810818444",
+      "idr": 7500000,
+      "basis": "Four-month search index;direct cache miss;condition/stock/variant/bundle/checkout unverified"
+    },
+    "excluded_variation": {
+      "shop": "785734870",
+      "item": "21753514167",
+      "idr": 5850000,
+      "reason": "Two variations;selected price-to-hardware mapping unresolved"
+    },
+    "remaining": [
+      "USB channel count",
+      "Display diagonal/color/touch",
+      "Current library",
+      "IR acceptance limits",
+      "Global expression coverage",
+      "Qualified condition/live stock"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue individual-footdisplay priorities andsystematic required-field gaps;retain general GP-200JR→Prime→GE300,GT-Pro andexpression queues"
   }
 }
