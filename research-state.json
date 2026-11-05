@@ -57418,7 +57418,555 @@
         "effects/shopee-indonesia.md"
       ],
       "content_status_before": "All117 original legacy paths accounted for;three JSON pointers removed after typed root reconstruction;114 Markdown compatibility files retained for historical anchors. Overall migration and technical research remain incomplete."
-    }
+    },
+    "archive_history_preservation": [
+      {
+        "source": "effects/specialist.md",
+        "blob": "836245f7e1bc66b872afb43f330b46337cdb776c",
+        "sha256": "9acbbed1c4a741b2bf7ec1ca5fc22a4bbd0cccd9e5fb4c621a57bbec8fd324ba",
+        "destination": "single-guitar.md",
+        "historical": true,
+        "not_active_instructions": true,
+        "content": {
+          "source": "effects/specialist.md",
+          "sha256": "9acbbed1c4a741b2bf7ec1ca5fc22a4bbd0cccd9e5fb4c621a57bbec8fd324ba",
+          "historical": true,
+          "not_active_instructions": true,
+          "nonblank_lines": 51,
+          "blocks": [
+            {
+              "kind": "heading",
+              "level": 1,
+              "text": "Dedicated synth, acoustic, vocoder and pitch pedals",
+              "context": "Dedicated synth, acoustic, vocoder and pitch pedals",
+              "line": 1,
+              "end_line": 1
+            },
+            {
+              "kind": "paragraph",
+              "text": "[Home](README.md) · [Methodology](METHODOLOGY.md) · [Multi-effects](guitar-floorboards.md) · [Vocals](vocal.md)",
+              "context": "Dedicated synth, acoustic, vocoder and pitch pedals",
+              "line": 3,
+              "end_line": 3
+            },
+            {
+              "kind": "paragraph",
+              "text": "Research snapshot **2026-10-14**. **Partial records**: `?` means unverified, not No. These are specialist tools, not interchangeable replacements for complete amp/effect processors. Dimensions are **W×D×H, mm**; pedal travel and plugs need extra clearance.",
+              "context": "Dedicated synth, acoustic, vocoder and pitch pedals",
+              "line": 5,
+              "end_line": 5
+            },
+            {
+              "kind": "heading",
+              "level": 2,
+              "text": "Hardware, expression and prices",
+              "context": "Hardware, expression and prices",
+              "line": 7,
+              "end_line": 7
+            },
+            {
+              "kind": "paragraph",
+              "text": "K/F/B = independently adjustable rotary controls / main footswitches / separate buttons. Concentric controls are explained explicitly; expression toe switches and small power/mode switches are additional. Prices are single **USD US-market new-price observations**, checked 2026-10-14, not delivered Indonesian prices. No dependable used-price observation was established for these rows.",
+              "context": "Hardware, expression and prices",
+              "line": 9,
+              "end_line": 9
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "No built-in expression pedal",
+              "context": "No built-in expression pedal",
+              "line": 11,
+              "end_line": 11
+            },
+            {
+              "kind": "table",
+              "headers": [
+                "Model / technical source",
+                "External expression",
+                "K/F/B",
+                "W×D×H; weight",
+                "Size class",
+                "Used USD",
+                "New USD"
+              ],
+              "alignment": "|---|---|---|---|---|---|---|",
+              "rows": [
+                {
+                  "Model / technical source": "[BOSS SY-1][sy1]",
+                  "External expression": "Yes, EXP/CTL",
+                  "K/F/B": "**6/1/0**; four knob positions, two concentric pairs",
+                  "W×D×H; weight": "73×129×59; 450 g incl. battery",
+                  "Size class": "Compact",
+                  "Used USD": "?",
+                  "New USD": "$184.98 sale [P1]"
+                },
+                {
+                  "Model / technical source": "[BOSS SY-200][sy200]",
+                  "External expression": "Yes, EXP or up to 2 external switches",
+                  "K/F/B": "**8/2/2**",
+                  "W×D×H; weight": "101×138×63, H65 with feet; 630 g /700 g incl. batteries",
+                  "Size class": "Compact",
+                  "Used USD": "?",
+                  "New USD": "$337.99 [P2]"
+                },
+                {
+                  "Model / technical source": "[BOSS AC-3][ac3]",
+                  "External expression": "No controller socket listed",
+                  "K/F/B": "**5/1/0**; four knob positions, Level/Reverb concentric",
+                  "W×D×H; weight": "73×129×59; 425 g incl. battery",
+                  "Size class": "Compact",
+                  "Used USD": "?",
+                  "New USD": "$181.99 [P3]"
+                },
+                {
+                  "Model / technical source": "[BOSS VO-1][vo1]",
+                  "External expression": "No controller socket listed",
+                  "K/F/B": "**5/1/0**; four knob positions, Level/Blend concentric",
+                  "W×D×H; weight": "73×129×59; 430 g incl. battery",
+                  "Size class": "Compact",
+                  "Used USD": "?",
+                  "New USD": "$259.00 [P4]"
+                },
+                {
+                  "Model / technical source": "[BOSS GM-800][gm800]",
+                  "External expression": "**2 CTL/EXP sockets**, up to 4 external switches",
+                  "K/F/B": "**6/4/10**",
+                  "W×D×H; weight": "246×134×63, H65 with feet; 1.2 kg excl. adapter",
+                  "Size class": "Medium",
+                  "Used USD": "?",
+                  "New USD": "?"
+                }
+              ],
+              "context": "No built-in expression pedal",
+              "line": 13,
+              "end_line": 19
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Built-in expression pedal",
+              "context": "Built-in expression pedal",
+              "line": 21,
+              "end_line": 21
+            },
+            {
+              "kind": "table",
+              "headers": [
+                "Model / technical source",
+                "External expression",
+                "K/F/B",
+                "W×D×H; weight",
+                "Size class",
+                "Used USD",
+                "New USD"
+              ],
+              "alignment": "|---|---|---|---|---|---|---|",
+              "rows": [
+                {
+                  "Model / technical source": "[BOSS XS-100][xs100]",
+                  "External expression": "Yes, CTL1,2/EXP2",
+                  "K/F/B": "**1/2/2 + expression toe switch**",
+                  "W×D×H; weight": "147×230×72, max H96; 1.7 kg",
+                  "Size class": "Large by the defined depth limit",
+                  "Used USD": "?",
+                  "New USD": "?"
+                }
+              ],
+              "context": "Built-in expression pedal",
+              "line": 23,
+              "end_line": 25
+            },
+            {
+              "kind": "heading",
+              "level": 2,
+              "text": "Processing, categories and memory",
+              "context": "Processing, categories and memory",
+              "line": 27,
+              "end_line": 27
+            },
+            {
+              "kind": "table",
+              "headers": [
+                "Model",
+                "Architecture and available choices",
+                "Factory / user memory",
+                "Synth / acoustic function",
+                "Third-party IR / NAM"
+              ],
+              "alignment": "|---|---|---|---|---|",
+              "rows": [
+                {
+                  "Model": "SY-1",
+                  "Architecture and available choices": "One selected polyphonic synth engine; **121 sounds =11 types×11 variations**; independent dry/synth blend and parallel loop",
+                  "Factory / user memory": "Panel settings; no stored user-preset bank",
+                  "Synth / acoustic function": "**Guitar/bass synth**, standard instrument input; no special pickup",
+                  "Third-party IR / NAM": "No digital file-import connection listed"
+                },
+                {
+                  "Model": "SY-200",
+                  "Architecture and available choices": "One selected polyphonic synth engine; **171 sounds across 12 categories**; counts within each category not yet transcribed",
+                  "Factory / user memory": "**128 editable memories**; factory-filled subset ?",
+                  "Synth / acoustic function": "**Guitar/bass synth**, standard instrument input; no special pickup",
+                  "Third-party IR / NAM": "Micro-USB is documented for firmware updates, not IR/NAM import"
+                },
+                {
+                  "Model": "AC-3",
+                  "Architecture and available choices": "**4 acoustic simulation modes**: Standard, Jumbo, Enhanced, Piezo; reverb alongside the selected simulation",
+                  "Factory / user memory": "Panel settings; no stored user-preset bank",
+                  "Synth / acoustic function": "**Electric-guitar-to-acoustic simulator**; not merely an acoustic amp model",
+                  "Third-party IR / NAM": "No digital file-import connection listed"
+                },
+                {
+                  "Model": "VO-1",
+                  "Architecture and available choices": "**4 modes**: Advanced, Vintage, Talk Box, Choir; one selected mode with direct/effect blending",
+                  "Factory / user memory": "Panel settings; no stored user-preset bank",
+                  "Synth / acoustic function": "**Vocoder** for guitar/bass; Choir can operate without a microphone; not an intelligent vocal harmonizer",
+                  "Third-party IR / NAM": "No digital file-import connection listed"
+                },
+                {
+                  "Model": "GM-800",
+                  "Architecture and available choices": "**4 Tone parts +1 Rhythm part**; 1200+ tones, 70+ drum kits; each part has MFX with **93 types** and EQ; scene has **2 MFX**, each 93 types, plus reverb **7** and chorus/delay **9** types",
+                  "Factory / user memory": "**150 editable Scenes, 100 factory-filled**; separate import-tone memory",
+                  "Synth / acoustic function": "**ZEN-Core instrument synth**, including sampled/instrument-style tones; special pickup connection required",
+                  "Third-party IR / NAM": "Roland Cloud sound expansions are proprietary tone content; IR/NAM loading not established"
+                },
+                {
+                  "Model": "XS-100",
+                  "Architecture and available choices": "Dedicated polyphonic pitch processing, **±4 octaves**, detune ±50 cents, fixed retuning/drop/capo and pedal shifting; assignable block count N/A",
+                  "Factory / user memory": "**30 saved memories**; factory-filled subset ?",
+                  "Synth / acoustic function": "Pitch shifter, **not** a synth or acoustic simulator",
+                  "Third-party IR / NAM": "USB is documented for system updates; IR/NAM loading not established"
+                }
+              ],
+              "context": "Processing, categories and memory",
+              "line": 29,
+              "end_line": 36
+            },
+            {
+              "kind": "paragraph",
+              "text": "SY-1 categories are Lead 1/2, Pad, Bass, Strings, Organ, Bell, SFX 1/2 and Seq 1/2. SY-200 adds a different category structure: Lead, Pad, String, Bell, Organ, Bass, Dual, Sweep, Noise, SFX, Seq and Arpeggio. Category names describe available choices, not simultaneously active independent blocks.",
+              "context": "Processing, categories and memory",
+              "line": 38,
+              "end_line": 38
+            },
+            {
+              "kind": "heading",
+              "level": 2,
+              "text": "Connections, power and apps",
+              "context": "Connections, power and apps",
+              "line": 40,
+              "end_line": 40
+            },
+            {
+              "kind": "table",
+              "headers": [
+                "Model",
+                "Audio / control connections",
+                "Power; USB-powered?",
+                "Configuration apps / other digital functions",
+                "Important limitations"
+              ],
+              "alignment": "|---|---|---|---|---|",
+              "rows": [
+                {
+                  "Model": "SY-1",
+                  "Audio / control connections": "¼″ input/output, send/return, TRS EXP/CTL, DC",
+                  "Power; USB-powered?": "**9 V battery or PSA adapter; 115 mA**; no USB",
+                  "Configuration apps / other digital functions": "No computer editor connection listed",
+                  "Important limitations": "Hold function; parallel dry/effect routing; no headphone output listed"
+                },
+                {
+                  "Model": "SY-200",
+                  "Audio / control connections": "¼″ input/output/send/return; TRS EXP/CTL; 3.5 mm TRS MIDI IN/OUT; micro-USB; DC",
+                  "Power; USB-powered?": "**3 AA or PSA adapter; 230 mA**; USB power not listed",
+                  "Configuration apps / other digital functions": "No full editor established; Windows/macOS update tools are **not** a full editor",
+                  "Important limitations": "USB is **program-update only**; no headphone output listed"
+                },
+                {
+                  "Model": "AC-3",
+                  "Audio / control connections": "¼″ input; separate ¼″ **G.AMP OUT and LINE OUT**; DC",
+                  "Power; USB-powered?": "**9 V battery or PSA adapter; 70 mA**; no USB",
+                  "Configuration apps / other digital functions": "No computer editor connection listed",
+                  "Important limitations": "Its two outputs are **different destinations, not a stereo pair**"
+                },
+                {
+                  "Model": "VO-1",
+                  "Audio / control connections": "¼″ instrument input/output/send/return; XLR mic; DC",
+                  "Power; USB-powered?": "**9 V battery or PSA adapter; 70 mA**; no USB",
+                  "Configuration apps / other digital functions": "No computer editor connection listed",
+                  "Important limitations": "XLR does **not** establish phantom-power support; phantom voltage unverified"
+                },
+                {
+                  "Model": "GM-800",
+                  "Audio / control connections": "**Serial GK IN/OUT**; 2×¼″ audio outputs, L shared with phones; 2×CTL/EXP; DIN MIDI IN/OUT; USB-B computer; USB-memory port; DC",
+                  "Power; USB-powered?": "Supplied **PSB-1U adapter; 840 mA**; battery/USB bus power not listed",
+                  "Configuration apps / other digital functions": "BOSS Tone Studio **Windows/macOS**; USB audio/MIDI, guitar-to-MIDI and re-synthesis",
+                  "Important limitations": "**GK-5/GK-5B or compatible conversion required for guitar input**; Serial GK is not an ordinary analog guitar jack"
+                },
+                {
+                  "Model": "XS-100",
+                  "Audio / control connections": "¼″ input, thru and output; TRS CTL/EXP; 3.5 mm MIDI IN/OUT; USB-C; DC",
+                  "Power; USB-powered?": "Supplied adapter; **160 mA draw**; voltage/polarity, USB bus and battery operation not established here",
+                  "Configuration apps / other digital functions": "Full editor not established; USB system-update capability alone is not editing/audio",
+                  "Important limitations": "Built-in expression has A/B assignment and toe switching; preserve pedal-travel clearance"
+                }
+              ],
+              "context": "Connections, power and apps",
+              "line": 42,
+              "end_line": 49
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "GM-800 cabling matters",
+              "context": "GM-800 cabling matters",
+              "line": 51,
+              "end_line": 51
+            },
+            {
+              "kind": "paragraph",
+              "text": "The Serial GK connection uses the manufacturer's **BGK cable** and the appropriate divided pickup/interface. Its connector shape does not make it a standard analog instrument input. Older 13-pin GK equipment requires the appropriate **GKC-AD** conversion; a standard guitar cable is not a substitute. MIDI keyboards/controllers can also drive the sound engine. This differs fundamentally from SY-1/SY-200's ordinary guitar/bass input.",
+              "context": "GM-800 cabling matters",
+              "line": 53,
+              "end_line": 53
+            },
+            {
+              "kind": "heading",
+              "level": 2,
+              "text": "Sources",
+              "context": "Sources",
+              "line": 55,
+              "end_line": 55
+            },
+            {
+              "kind": "paragraph",
+              "text": "[sy1]: https://www.boss.info/global/products/sy-1/specifications/\n[sy200]: https://www.boss.info/global/products/sy-200/specifications/\n[ac3]: https://www.boss.info/global/products/ac-3/specifications/\n[vo1]: https://www.boss.info/global/products/vo-1/specifications/\n[gm800]: https://www.boss.info/global/products/gm-800/\n[xs100]: https://www.boss.info/global/products/xs-100/specifications/",
+              "context": "Sources",
+              "line": 57,
+              "end_line": 62
+            },
+            {
+              "kind": "paragraph",
+              "text": "- Control arrangements: manufacturer specifications above, [AC-3 top photo](https://static.roland.com/assets/images/products/main/ac_3_top_main.jpg), [VO-1 top photo](https://static.roland.com/products/vo-1/image/vo-1_top.png). Independently adjustable concentric rings are counted separately and explicitly disclosed.\n- P1: [Sweetwater SY-1](https://www.sweetwater.com/store/detail/SY1--boss-sy-1-guitar-synthesizer-pedal).\n- P2: [Sweetwater SY-200](https://www.sweetwater.com/store/detail/SY200--boss-sy-200-guitar-synthesizer-pedal).\n- P3: [Sweetwater AC-3](https://www.sweetwater.com/store/detail/AC3--boss-ac-3-acoustic-simulator-pedal).\n- P4: [Sweetwater VO-1](https://www.sweetwater.com/store/detail/VO1--boss-vo-1-vocoder-pedal).",
+              "context": "Sources",
+              "line": 64,
+              "end_line": 68
+            },
+            {
+              "kind": "paragraph",
+              "text": "The wider universe of dedicated distortion, fuzz, delay, modulation, compressor, EQ, looper and acoustic-body pedals is **not yet exhaustively covered**. See the [coverage backlog](COVERAGE.md).",
+              "context": "Sources",
+              "line": 70,
+              "end_line": 70
+            }
+          ]
+        }
+      },
+      {
+        "source": "effects/findings/2026-10-14-flamma-fv01.md",
+        "blob": "9de0ef838ef935a3f8904588eb636e5b8288e5ad",
+        "sha256": "ccd0ffea9d5a34dc308610e13d2f8147aff5c88b37a69f1c44af38a7fa5513fe",
+        "destination": "single-vocal.md",
+        "historical": true,
+        "not_active_instructions": true,
+        "content": {
+          "source": "effects/findings/2026-10-14-flamma-fv01.md",
+          "sha256": "ccd0ffea9d5a34dc308610e13d2f8147aff5c88b37a69f1c44af38a7fa5513fe",
+          "historical": true,
+          "not_active_instructions": true,
+          "nonblank_lines": 35,
+          "blocks": [
+            {
+              "kind": "heading",
+              "level": 1,
+              "text": "Flamma FV01 Corrector — Shopee-first research",
+              "context": "Flamma FV01 Corrector — Shopee-first research",
+              "line": 1,
+              "end_line": 1
+            },
+            {
+              "kind": "paragraph",
+              "text": "Checked **2026-10-14**. **Partial record**. Compact vocal multi-effect with a separate guitar-reverb path; not a general guitar amp modeler or harmony generator. Next queued model: **Donner Arena2000**.",
+              "context": "Flamma FV01 Corrector — Shopee-first research",
+              "line": 3,
+              "end_line": 3
+            },
+            {
+              "kind": "heading",
+              "level": 2,
+              "text": "IDR asking-price evidence",
+              "context": "IDR asking-price evidence",
+              "line": 5,
+              "end_line": 5
+            },
+            {
+              "kind": "table",
+              "headers": [
+                "Condition",
+                "Amount",
+                "Exact Shopee evidence"
+              ],
+              "alignment": "|---|---:|---|",
+              "rows": [
+                {
+                  "Condition": "Retail listing; condition/stock unconfirmed",
+                  "Amount": "**Rp2.145.000**",
+                  "Exact Shopee evidence": "[Tokosound Proaudio, shop59331526/item20283837190](https://shopee.co.id/FLAMMA-FV01-FV-01-CORRECTOR-Vocal-Pitch-Correction-Effect-Pedal-i.59331526.20283837190)"
+                },
+                {
+                  "Condition": "Older cached retail listing; stock unconfirmed",
+                  "Amount": "**Rp1.816.920**",
+                  "Exact Shopee evidence": "[NEO MUSIC, shop158235298/item14463857534](https://shopee.co.id/Flamma-FV01-Correcior-Vocal-Pitch-Correction-Effect-Pedal-i.158235298.14463857534)"
+                },
+                {
+                  "Condition": "Used",
+                  "Amount": "**?**",
+                  "Exact Shopee evidence": "No verified offer obtained"
+                }
+              ],
+              "context": "IDR asking-price evidence",
+              "line": 7,
+              "end_line": 11
+            },
+            {
+              "kind": "paragraph",
+              "text": "Both pages identify FV01 hardware. The NEO MUSIC response still contains August delivery text and is not promoted to a current purchasable lower bound. These are separate asks, not a verified live market range. Accessories, selected variation, warranty and final shipping cost remain unknown; late-delivery compensation is not an applied price discount.",
+              "context": "IDR asking-price evidence",
+              "line": 13,
+              "end_line": 13
+            },
+            {
+              "kind": "heading",
+              "level": 2,
+              "text": "Manufacturer-backed comparison",
+              "context": "Manufacturer-backed comparison",
+              "line": 15,
+              "end_line": 15
+            },
+            {
+              "kind": "paragraph",
+              "text": "The [official store][shop] establishes vocal correction, delay/reverb, three vocal-tone settings, independent guitar reverb, 48 V phantom, line-level mode and mixed/separate output modes. The [V03 manufacturer manual dated 2024-01-06][manual] supplies the detailed controls, algorithms and specifications. Printed pp.3,7,8 were visually checked, including the otherwise garbled effect table.",
+              "context": "Manufacturer-backed comparison",
+              "line": 17,
+              "end_line": 17
+            },
+            {
+              "kind": "table",
+              "headers": [
+                "Required field",
+                "Finding"
+              ],
+              "alignment": "|---|---|",
+              "rows": [
+                {
+                  "Required field": "Built-in/external expression",
+                  "Finding": "**None** on documented hardware; no EXP/control socket"
+                },
+                {
+                  "Required field": "Rotary/footswitch/buttons",
+                  "Finding": "**4/1/1**: three front knobs plus rear GAIN trim; one footswitch and TONE button. Three rear switches (LINE IN, 48V, LIFT/GND) counted separately"
+                },
+                {
+                  "Required field": "Display size/color/touch",
+                  "Finding": "**No screen; N/A/N/A/No**. Colored LEDs are status indicators, not a color display"
+                },
+                {
+                  "Required field": "Processing",
+                  "Finding": "Fixed vocal tone + correction + delay + reverb, with separate guitar reverb; not freely assignable blocks"
+                },
+                {
+                  "Required field": "Category choices",
+                  "Finding": "Reverb **3**: Room/Hall/Plate; delay **3**: Tape/Digital/Slap; vocal tone **3**: Normal/Warm/Bright; continuously adjustable correction amount"
+                },
+                {
+                  "Required field": "Factory/user presets",
+                  "Finding": "No selectable patch bank documented; panel/hidden-menu operation, dedicated P/U storage **N/A**"
+                },
+                {
+                  "Required field": "Synth/acoustic simulator",
+                  "Finding": "Neither documented; pitch correction is not synthesis, and guitar reverb is not acoustic simulation"
+                },
+                {
+                  "Required field": "Dimensions/weight",
+                  "Finding": "Published **86.6×125×60 mm**, **371 g**; axes not explicitly labelled in the specification. Compact under either horizontal orientation. Older indexed product copy says86 mm rather than86.6"
+                },
+                {
+                  "Required field": "Audio I/O",
+                  "Finding": "6.35 mm mono guitar IN/OUT; balanced XLR mic IN and XLR OUT; **48 V phantom**; no dedicated headphones/aux/FX-loop listed"
+                },
+                {
+                  "Required field": "USB/MIDI",
+                  "Finding": "No USB or MIDI connection on the complete panel diagram"
+                },
+                {
+                  "Required field": "Power",
+                  "Finding": "**9 V DC, center-negative**; current requirement **conflicts**, see below. Battery operation not established; no USB-power connection"
+                },
+                {
+                  "Required field": "IR/NAM/capture loading",
+                  "Finding": "No file-import path on documented hardware; no supported loader/capture workflow established"
+                },
+                {
+                  "Required field": "Configuration apps",
+                  "Finding": "No editor/updater/librarian connection or app documented; onboard controls only"
+                },
+                {
+                  "Required field": "Looper/drums/tempo",
+                  "Finding": "No looper/drums documented; delay tap-tempo and hidden-menu feedback adjustment supported"
+                }
+              ],
+              "context": "Manufacturer-backed comparison",
+              "line": 19,
+              "end_line": 34
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sources: [manual][manual], [manufacturer store][shop].",
+              "context": "Manufacturer-backed comparison",
+              "line": 36,
+              "end_line": 36
+            },
+            {
+              "kind": "heading",
+              "level": 2,
+              "text": "Important qualifications",
+              "context": "Important qualifications",
+              "line": 38,
+              "end_line": 38
+            },
+            {
+              "kind": "paragraph",
+              "text": "**Power conflict:** the manual's precautions say **500 mA**, while its rear-panel drawing and printed specification page say **1.5 A**. The older indexed [manufacturer page][product] also says500mA. The conflict is inside manufacturer evidence; it is not silently resolved by calling one value measured draw and the other adapter rating. Confirm the actual unit's label and supplied adapter. Generic battery warnings in the manual are not evidence of an internal battery compartment.",
+              "context": "Important qualifications",
+              "line": 40,
+              "end_line": 40
+            },
+            {
+              "kind": "paragraph",
+              "text": "**Routing:** in individual mode, guitar goes to GUITAR OUT and vocals to XLR OUT. Mixed mode sends their mixture to both. These are different destinations, not a stereo-output pair. The guitar input is not documented as intelligent-harmony detection. [Store][shop], [manual][manual].",
+              "context": "Important qualifications",
+              "line": 42,
+              "end_line": 42
+            },
+            {
+              "kind": "paragraph",
+              "text": "Remaining work: reconcile current/power revision and dimensions, confirm state retention/no preset memory explicitly, obtain current used offers and live seller/accessory confirmation. Do not add unsupported synth, IR, NAM, headphones or USB features from a different FV-series pedal.",
+              "context": "Important qualifications",
+              "line": 44,
+              "end_line": 44
+            },
+            {
+              "kind": "paragraph",
+              "text": "[manual]: https://flammainnovation.com/file/pdf?fileName=FV01_Manual_EN_V03_2024.01.06.pdf&url=group1/M00/00/0B/wKgA0GWbj16AZDlgAAftrNONrK0446.pdf\n[shop]: https://www.flamma.shop/products/flamma-fv01-pitch-correction-effect\n[product]: https://flammainnovation.com/single.html?id=54",
+              "context": "Important qualifications",
+              "line": 46,
+              "end_line": 48
+            }
+          ]
+        }
+      }
+    ]
   },
   "deferred_work": {
     "original_display_idr_pages_remaining": [
@@ -173434,5 +173982,32 @@
       "remaining": "Only specialist andFV01 legacy redirects remain; all402active models andindependent queues unchanged."
     },
     "next": "Audit full reachable history andconsumers for effects/specialist.md andFV01 redirect before further removal; continue LCD/Shopee priority,GT-Pro,expression-volume andGP200JR→Prime→GE300 queues."
+  },
+  "archive_history_review_20261105": {
+    "head": "3842747b5ce33abe12bfcfe4bfd9997bfb3855e2",
+    "sources": 2,
+    "variants": 9,
+    "newly_preserved": 2,
+    "scope": "Original pre-exclusion wording retained in existing root specialist archives; exclusion and current research queues unchanged.",
+    "next": "Reaudit allnine variants andreaders before any final redirect removal; technical research andexactShopee/display gaps remain.",
+    "verification": {
+      "variants": 9,
+      "pending": 0,
+      "counts": {
+        "registered-original": 1,
+        "verified-superseded-original-archive": 2,
+        "pre-archive-original": 2,
+        "pre-layout-redirect": 2,
+        "current-redirect": 2
+      },
+      "tests": [
+        "make archive-history-test: exact-body classification; archive mutation checks reject changed price,heading andextra claim",
+        "make archive-preservation-verify: both Git-pinned original bodies match full rendered archive andparsednonblank sourcecontent",
+        "make archive-history-audit:9versions zero pending; earlierGM800/context prefix exactly equals registered specialist source",
+        "make comparison-plan: allfive generated outputs unchanged",
+        "make specialist-retirement-verify: registeredGM800 section,originalexcludedarchive,scopecontext andincominganchors retained"
+      ],
+      "scope": "This completes review of HEAD-reachable revisions for these two paths,not manufacturer verification,finalredirectremoval orfullgoal completion."
+    }
   }
 }

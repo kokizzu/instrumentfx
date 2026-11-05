@@ -228,12 +228,14 @@ def verify():
         preserved=preservation_text('brand/ZOOM.md').split('<!-- B1Xon preserved source begins -->\n',1)[1].split('<!-- B1Xon preserved source ends -->',1)[0]
         assert preserved.replace('\n### ','\n## ').replace('(effects/OWNERSHIP.md)','(../OWNERSHIP.md)')==original,'B1Xon consolidation lost source material'
     if state.get('separate_specialist_archives'):
+        from archive_retirement import verify_history, without_archive_appendix
+        verify_history(state)
         original=git('show','9c8d296:effects/specialist.md')
         marker='## Excluded archive — not part of the multi-effects comparison'
-        preserved=preservation_text('single-guitar.md').split(marker,1)[1].replace('[SCOPE.md](effects/SCOPE.md)','[SCOPE.md](SCOPE.md)')
+        preserved=without_archive_appendix('single-guitar.md',preservation_text('single-guitar.md'),state).split(marker,1)[1].replace('[SCOPE.md](effects/SCOPE.md)','[SCOPE.md](SCOPE.md)')
         assert original.split(marker,1)[1]==preserved,'Guitar archive lost original material'
         original_fv=git('show','9c8d296:effects/findings/2026-10-14-flamma-fv01.md')
-        body=preservation_text('single-vocal.md').split('## Flamma FV01 Corrector\n',1)[1]
+        body=without_archive_appendix('single-vocal.md',preservation_text('single-vocal.md'),state).split('## Flamma FV01 Corrector\n',1)[1]
         shared_boundary = '\n### Preserved pre-exclusion shared comparison wording\n'
         if shared_boundary in body:
             assert body.count(shared_boundary) == 1, 'Duplicate FV01 shared archive'

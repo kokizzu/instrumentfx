@@ -2572,3 +2572,17 @@ metadata-compatibility-remove-plan:
 	python3 scripts/compatibility_removal.py metadata-remove-plan
 metadata-compatibility-restore-plan:
 	python3 scripts/compatibility_removal.py metadata-restore-plan
+
+.PHONY: archive-history-test archive-history-audit
+archive-history-test:
+	python3 scripts/archive_retirement.py test
+archive-history-audit:
+	python3 scripts/archive_retirement.py audit
+
+.PHONY: archive-preservation-plan archive-preservation-apply archive-preservation-verify
+archive-preservation-plan:
+	python3 scripts/archive_retirement.py preservation-plan
+archive-preservation-apply:
+	python3 scripts/archive_retirement.py preservation-apply
+archive-preservation-verify:
+	python3 scripts/archive_retirement.py verify
