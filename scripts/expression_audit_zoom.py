@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(hologram): qualify Microcosm looper and storage limits'
+        message='docs(line6): restore HX Stomp XL preserved source power row'
     print(git('commit','-m',message))
