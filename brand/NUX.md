@@ -1349,6 +1349,8 @@ The saved used Shopee18622131/41630242050 still appears **Rp2.600.000,Habis** in
 | Loading / original IR source rate | [Exact-model product follow-up](#mg-300-original--ir-source-format-creative-boundaries-and-used-offer):48kHz WAV,512samples;bit depth/length conversion rules unverified. Original NAM remains unestablished;MKII support not transferred. |
 | IR / NAM | Third-party WAV IR,**512 samples**. Original-hardware NAM support not established;MKII GEN2 support does not apply automatically. |
 | Ports | 6.35 mm mono input;one6.35 mm shared main/phones output;3.5 mm AUX;micro-USB;DC. |
+| Power / dated regional requirement | [ARAI exact-model page](#mg-300-original--regional-power-requirement-and-source-provenance) specifies9V center-negative,at least350mA supply capacity (500mA recommended);device draw remains unmeasured. Regional publication,not MKII specification. |
+| Processing / regional historical counts | [ARAI original-model scope](#mg-300-original--regional-power-requirement-and-source-provenance):13 pre-effects=11drives+compressor+pitch;23 post-effects=13MOD+6DLY+4RVB. Not a current V4 census orsimultaneous-block count;community-origin sheet retained only asqualified lead. |
 | Power | **9V center-negative**,required current unverified;battery/USB operation not established. Input cable required for power-on per manual. |
 | Software / audio / practice | QuickTone **Windows/macOS**,USB audio/reamp;60s looper;56 rhythms. |
 | IDR / additional historical used-title offer | [Kain Bintik Bandung238337682/41252521244](#mg-300-original--ir-source-format-creative-boundaries-and-used-offer),Rp1.350.000,Habis;directone-monthcache withSep25delivery. TitleclaimsSecond/FullSet/LikeNew;revision,workingstate andcontents unverified. Notcurrentstock orqualifiedmarketfloor. |
@@ -1421,6 +1423,18 @@ The previously identified [manufacturer Version1.0 manual reproduction](https://
 [Exact Shopee item238337682/41252521244](https://shopee.co.id/Efek-Gitar-Effect-Guitar-Nux-MG300-Seken-Second-Full-Set-Mulus-Like-New-i.238337682.41252521244),seller **Kain Bintik Bandung,Kab.Bandung**: **Rp1.350.000,Habis**. Search snapshot wasfour months old;direct reopenedbody one month old,with**25Sep** delivery text. Title explicitly saysSeken/Second/FullSet/Mulus/LikeNew,butoriginal-versus-MKII/regionalrevision,condition,adapter/bundle contents,firmware,warranty,shipping/tax/voucher andcheckout remain unverified. Eight listing photos were not visually inspected. This is a historical used-title asking price,not a completed sale,currentstock,verifiedoriginal-hardware price ormarket lower bound. Late-delivery compensation isnot deducted. Older unresolvedLikeNew listing retained.
 
 Currentfirmware/library equivalence,exactpresetcapacity,fullcategorycensus,pedal toe behavior andother retainedgaps remain open. No local download,software/device operation orownership assertion.
+
+### MG-300 original — regional power requirement and source provenance
+
+Checked **2026-11-05** against [ARAI’s exact original-model page](https://www.ariaguitars.com/jp/items/other-brands/nux/multi-effects/mg-300/). This is the Japanese distributor’s own publication,not a new manufacturer measurement orproof of Indonesian hardware revision. It specifies **9V center-negative; supply capacity at least350mA,500mA recommended**. Capacity is not measured device consumption. Its link dates V4.02.23 to **2023-05-15**;the global manufacturer’s undated package listing remains separately preserved. Regional discontinued status doesnot establish worldwide availability.
+
+The page’s historical inventory partitions **13 pre-effects into11drives,onecompressor andonepitch effect**,and **23 post-effects into13modulation,sixdelay andfourreverb choices**. EQ/noise reduction are separate;these counts do not establish concurrency,current V4 equivalence orMKII contents. The distributor also counts63 rhythm patterns including metronomes,consistent with the retained manufacturer56beats+7metronome sounds.
+
+Its [five-page parameter sheet](https://www.ariaguitars.com/jp/items/docs/mg300_parameters.pdf),linked as**2020-10-28**,lists original-model HARMONY major/minor,key,interval andmix controls,andDETUNE left/right delay andmix. Crucially,the page directs readers to manufacturer **User Sharing Files** for the parameter sheet;hosting on a distributor domain doesnot establish manufacturer authorship. Treat this as a historical community-origin lead,not independently verified algorithm controls,input polyphony orcurrent-firmware census. The sheet’s EQ frequencies differ from the retained Version1.0 manual;no revision resolution inferred.
+
+A separate [mirror labeled User Manual](https://www.manualslib.com/manual/4335428/Nux-Mg-300.html?page=14) matches the [explicitly unofficial Version1.3 guide](https://www.scribd.com/document/637019772/Music-chart):Danny Bartel,firmware V3.10.13 scope,with effects list based on Steve Conrad’s spreadsheet. Its36+36 preset and30s-loop claims are **not adopted as manufacturer specifications**;the latter also differs from the maker’s60s product claim. Preserve exact preset capacity,toe behavior,current library andtracking limits as unresolved. This doesnot invalidate the separately identity-checked manufacturer Version1.0 reproduction.
+
+No new qualified Shopee hardware offer,software installation,device operation orlocal download. Active inventory andinstrument membership unchanged.
 
 ## MG-400
 

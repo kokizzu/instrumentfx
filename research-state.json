@@ -175372,5 +175372,27 @@
     "additional_index_records": 102,
     "active_inventory_unchanged": 402,
     "next": "LCD/Shopeepriority thenremainingrequiredfields;originalMG300presetcapacity/currenteffectcensus/toe/output gaps remain. PreserveGT-Pro,GP-200JR→Prime→GE300 andexpression-volume queues."
+  },
+  "mg300_original_regional_provenance_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/NUX.md#mg-300-original--regional-power-requirement-and-source-provenance",
+    "sources": [
+      "https://www.ariaguitars.com/jp/items/other-brands/nux/multi-effects/mg-300/",
+      "https://www.ariaguitars.com/jp/items/docs/mg300_parameters.pdf",
+      "https://www.manualslib.com/manual/4335428/Nux-Mg-300.html?page=14",
+      "https://www.scribd.com/document/637019772/Music-chart"
+    ],
+    "source_grades": "ARAI first-party distributor publication;parameter sheet User Sharing Files/community-origin,not established manufacturer-authored;unofficial1.3 mirror rejected asprimary specs",
+    "power": "9V center-negative supply minimum350mA,recommended500mA;notmeasured draw;regional qualification",
+    "inventory": "Regional historical13pre/23post partition;notcurrentfirmware concurrency",
+    "not_adopted": [
+      "Unofficial36+36preset capacity",
+      "Unofficial30sloop",
+      "Community HARMONY/DETUNE parameters asmanufacturer-verified",
+      "EQfrequency revision inference"
+    ],
+    "market": "No new qualified Shopee offer",
+    "active_inventory_unchanged": 402,
+    "next": "Requested separate-footdisplay/Shopee priority;continue unresolved manufacturer algorithm/firmware evidence. PreserveGT-Pro,GP-200JR→Prime→GE300 andexpression-volume queues."
   }
 }
