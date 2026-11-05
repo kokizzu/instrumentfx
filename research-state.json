@@ -170470,5 +170470,20 @@
       "Remaining named-category censuses"
     ],
     "next": "Continue requested FM3/FM9 exact-revision profile andhardware gaps;preserve independent expression,general andconsolidation queues"
+  },
+  "fm3_original_synth_modes_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--synth-tracking-and-generator-modes",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,102",
+    "qualification": "Direct FM3 family-reference check;monophonic three-oscillator engine,not chord tracking. Installed equivalence andintroduction versions unverified.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Exact original-FM3 Shopee hardware revision",
+      "Headphone hardware variant",
+      "Global analog-volume endpoint/recall/coverage",
+      "Remaining category-name inventories"
+    ],
+    "next": "Continue requested FM3/FM9 remaining primary profile gaps;preserve independent general,expression andconsolidation queues"
   }
 }
