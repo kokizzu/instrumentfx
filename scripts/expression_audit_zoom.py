@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(flamma): qualify TONE GO filed controls and battery revision conflict'
+        message='research(flamma): enumerate FX50 original menu and practice controls'
     print(git('commit','-m',message))

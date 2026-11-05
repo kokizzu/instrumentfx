@@ -574,6 +574,7 @@ Checked **2026-10-17**; partial. Portable guitar multi-effects; no bass/vocal cl
 | Display | LED operation display;diagonal,color/touch/resolution unverified. [Manual transcription][F50-M] |
 | Dimensions / weight | **128 W×85 D×47 H mm;121 g** in manufacturer-manual transcription; accessory/battery inclusion unspecified. Primary PDF visual check pending. [Manual transcription][F50-M] |
 | Simultaneous processing / choices | Advertised **5 modules,15 effect types**; simultaneous maximum/chain mapping unverified. Documented choices:Drive6,Mod4,combined Delay/Reverb4,Cab1 =15 by arithmetic. Shared Dly/Rev selector does not establish independent delay and reverb. [Product][F50-P]; [Manual transcription][F50-M] |
+| Processing / complete named original menu | [Own manual-transcription menu](#fx50--named-menu-and-practice-control-limits):6Drive,4Mod,4alternativeDly/Rev andCab simulator. No dedicated synth/pitch/acoustic algorithm established;the5-module headline isnot a proven concurrent-block count. |
 | Factory / user / total presets | **16 factory +16 user =32 locations**; user slots writable,factory slots protected. Factory-filled user subset unverified. [Product][F50-P]; [Manual transcription][F50-M] |
 | Synth / acoustic simulation | Each unverified; Clean drive position is not evidence of acoustic simulation. |
 | IR / NAM / capture | Cab simulator documented;user IR,native NAM,converted NAM and proprietary capture loading each unverified. |
@@ -608,6 +609,23 @@ Remaining: original PDF/revision and visual-panel verification,precise module/co
 [F50-O]: https://drive.google.com/file/d/1LI5yhmRi2RcL11uutGhTCeX7k6KgW6nh/view?usp=drive_link
 [F50-D]: https://flammainnovation.com/download.html
 [F50-E]: https://www.flammainnovation.com/single.html?id=147
+
+### FX50 — named menu and practice-control limits
+
+Checked **2026-11-05** in the [manufacturer-manual transcription](https://manuals.plus/m/73e3ec7d0ea3fef78ff36424166808448005effadf28230eea4ac09b131d7d22),Panel Instruction & Basic Operation andDetailed Functions. ExactFX50 title,numbered1–18 controls/connectors andspecification sequence match the previously qualified19-page manual. Original PDF/revision reconciliation andvisual inspection remain pending;use original body text,not generated FAQs.
+
+| Selector / family | Complete choices in this source |
+|---|---|
+| Drive —6 | Clean;Overdrive;Distortion;Crunch;Fuzz;Metal |
+| Mod —4 | Chorus;Flanger;Phaser;Tremolo |
+| Dly/Rev —4 alternatives | Digital Delay;Echo Delay;Room Reverb;Hall Reverb |
+| Cabinet —1 | Cabinet Simulator,on/off |
+
+This reconciles the**15-type** arithmetic butdoesnot resolve why theheadline says**five modules** orprove all choices concurrent. MOD also adjusts rate;DLY/REV adjusts delay time orreverb level. Separate delay-plus-reverb blocks are not documented. These names establish neither a dedicated synth norpitch-shifter/acoustic-conversion engine;unverified capabilities remain unverified.
+
+The rhythm tempo isdocumented as**60–270BPM**,witha per-pattern default. The transcription loses several displayed parameter symbols/ranges,so do not reconstruct their numeric encoding orvolume endpoints. HoldDRUM/VALUE**2s** toenterTuner;press it toreturn tothe prior state. This isnot a muting/output-coverage specification. Drum type/volume/tempo editing sharethe encoder,not three added physical controls. Existing Patch-mode editing restrictions remain.
+
+The existingNEOMUSIC158235298/52052193549Rp609.760 ask again appears with**two unidentified variations**,four-month searchcache;do not allocate it toeither color/bundle orclaim currentstock/newcondition. Source-format,software/power/runtime andother retainedgaps remain open. No local download ordevice operation.
 
 ## FX100
 
