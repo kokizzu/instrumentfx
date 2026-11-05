@@ -13,7 +13,7 @@ RECEIPT = Path('/tmp/instrumentfx-source-image-receipt.json')
 IMAGE = Path('/tmp/instrumentfx-source-image.jpg')
 LIMIT = 8 * 1024 * 1024
 HOSTS = {'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
-         'line6.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
+         'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 
 def check_url(url):
