@@ -169638,5 +169638,27 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue remaining individual-foot-display profiles and exact Shopee discovery; preserve GP-200JR → Prime → GE300 and independent expression/consolidation queues"
+  },
+  "prime_unpeel_quantize_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/HEADRUSH.md#prime--unpeel-recovery-and-tempo-qualified-loop-edits",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf",
+    "revision": "Cumulative firmware5.2.0 release history,October2026,printed10,Firmware4.0.0 subsection",
+    "findings": [
+      "Hold Peel restores removed layers in removal order; not Insert-overwrite recovery",
+      "Threshold supports level-triggered recording arming; numeric range not provided",
+      "Quantize Changes quantizes Speed Change to next measure downbeat only with Global Tempo Sync enabled",
+      "Rig Out routes loop guitar/vocal to XLR and quarter-inch together"
+    ],
+    "qualification": "Introduction version distinct from current/installed operation; no unconditional all-action quantization, persistence or expression coverage inference.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Insert recovery and power-cycle loop retention",
+      "Unspecified threshold range",
+      "Synth input polyphony",
+      "Qualified live exact Shopee offer",
+      "Remaining display/electrical verification"
+    ],
+    "next": "Continue remaining individual-foot-display profiles and fresh exact Shopee discovery; preserve general GP-200JR → Prime → original GE300 and expression/consolidation queues"
   }
 }
