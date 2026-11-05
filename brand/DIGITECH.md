@@ -21,6 +21,7 @@ Manufacturer-backed partial profiles;unknown does not mean No.
 - [RP200](#rp200)
 - [RP250](#rp250)
 - [RP255](#rp255)
+- [RP300 — partial discovery lead](#rp300--partial-discovery-lead)
 - [RP350](#rp350)
 - [RP355](#rp355)
 - [RP360 — partial capability lead](#rp360--partial-capability-lead)
@@ -1026,6 +1027,30 @@ Official56-page manual viewed through browser text; no file/software/driver/depe
 [R255-M]: https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf
 [R255-P]: https://digitech.com/dp/rp255/
 [R255-F]: https://digitech.com/faqs/
+
+## RP300 — partial discovery lead
+
+Checked **2026-11-06**. Exact original RP300, **not RP300A**. Manufacturer-authored [User’s Guide18-6383-A,01/2001][RP300-M],27 PDF pages, identifies RP300 in its declaration and footer. Retailer-hosted original, not seller specifications or a generated summary. Firmware applicability beyond this revision is unverified.
+
+| Field | Finding / qualification |
+|---|---|
+| Controls / navigation | **5 rotaries / 3 footswitches / 3 buttons** (Select,Rhythm,Store), text-derived; toe V-Switch additional. Up/down presets and Amp A/B. Shared display; technology, diagonal, color and touch unverified. |
+| Expression | Built-in treadle; V-Switch alternates assigned target/Wah. VOLPRE follows amp, precedes effects; VOLPST ends chain. Assignment saved per preset; volume excludes programmable min/max. External EXP absent from port inventory. |
+| Processing / memory | Up to **12 simultaneous**; **40 protected factory+40 writable copies**,80 slots; user slots initially duplicate factory presets. Complete category census pending. |
+| Creative / note handling | SynthTalk responds to playing dynamics; dedicated pitch-tracking synthesis unverified. Pitch Shift **−12…+24 semitones**; Detune and Whammy separate; chord support unknown. YaYa/AutoYa combine wah/flanging. |
+| I/O | Quarter-inch TS instrument input and L/R outputs; 3.5mm stereo auxiliary/phones; power. No USB/MIDI/FX-loop socket listed. |
+| Body / power | **13W×8.5L×2.25H inches;3.76lb**; preserve published axes. Manual:9VAC,1.3A supply,10W consumption. |
+| Practice / live | Learn-A-Lick records10s auxiliary audio, slows to quarter speed without pitch change;30 drum patterns. Overdub, persistence, tails and scenes unverified. |
+| Imports / software | IR,NAM,capture and editor support unverified; connector absence alone is not a format audit. |
+
+[Current manufacturer supply list][RP300-P] independently assigns RP300 to **PS0913B:9VAC,1.3A maximum**,2.5mm pin/5.5mm barrel width/9.5mm length. Its120VAC60Hz input/Type-A plug describes that listed supply variant,not every regional adapter. AC output has no DC center polarity. Supply capacity is not measured device draw; battery/portable-power operation unverified.
+
+**New IDR: unknown. Used IDR: unknown.** Exact RP300/RP300A Shopee Indonesia searches yielded no qualified hardware offer; this does not establish market absence. Seller/item,condition,stock,region,bundle,warranty,voucher,shipping andtax remain unverified. No RP300A specifications orprices transferred; ownership unknown.
+
+**Partial lead outside402 active records andthe additional creative index.** Next: qualified exact-model Shopee hardware,visual controls/display,full category inventory,acoustic-simulation details and current-revision evidence. Preserve independent display,expression,GT-Pro andgeneral queues. No local download,installation ordevice operation.
+
+[RP300-M]: https://c3.zzounds.com/media/DGTRP300-241715cd795ca4d34bbd4919777769f1.pdf
+[RP300-P]: https://digitech.com/support/powersupplylist/
 
 ## RP350
 

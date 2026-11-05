@@ -240,3 +240,5 @@ Looperboard’s [complete historical rack inventory](brand/HEADRUSH.md#looperboa
 Sheeran Looper X’s [complete FAQ rack inventory](brand/SHEERAN-LOOPERS.md#complete-faq-rack-inventory-and-source-conflicts) keeps repeated rack positions separate from Single FX choices and concurrent processing. Partial status and the additional-record index remain unchanged.
 
 Original GE300’s [complete original FXA/FXB menu](brand/MOOER.md#ge300--complete-original-fxa-and-fxb-named-inventory) now names every original row, retaining block-specific pitch choices, FXA-only drives and later-firmware qualifications. This does not change the selected comparison’s scope or active inventory.
+
+[DigiTech RP300](brand/DIGITECH.md#rp300--partial-discovery-lead) is a partial discovery outside active counts and the additional-record index. Its own original manual separates dynamics-responsive SynthTalk, wah/flanger vowel effects, Pitch Shift and Whammy; tracking-synth architecture and input-note polyphony remain unverified. RP300A is a different record, not a specification source.

@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(korg): document AX1500G menu and reverse label conflict'
+        message='research(digitech): record original RP300 partial discovery'
     print(git('commit','-m',message))

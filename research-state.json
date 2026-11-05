@@ -176129,5 +176129,31 @@
     "active_inventory_unchanged": 402,
     "remaining": "LCDdiagonal/pixels/touch,exactfirmware,expressionpinout,qualifiedstock",
     "next": "Accessibleindividual-footdisplay processor sources orexactShopee hardware;preserveGT-Pro,GP200JR→Prime→GE300,expression-volume queues"
+  },
+  "rp300_partial_discovery_20261106": {
+    "checked_date": "2026-11-06",
+    "canonical": "brand/DIGITECH.md#rp300--partial-discovery-lead",
+    "status": "New partial original RP300; outside active inventory and creative index; ownership unknown",
+    "sources": [
+      "https://c3.zzounds.com/media/DGTRP300-241715cd795ca4d34bbd4919777769f1.pdf",
+      "https://digitech.com/support/powersupplylist/"
+    ],
+    "source_identity": "Manufacturer-authored 18-6383-A,01/2001; RP300 declaration/footer; retailer-hosted PDF,not RP300A",
+    "market": {
+      "queries": [
+        "site:shopee.co.id Digitech RP300",
+        "DigiTech RP300 Shopee",
+        "Digitech RP300A shopee.co.id"
+      ],
+      "result": "No qualified exact hardware item; not evidence of market absence"
+    },
+    "remaining": [
+      "Qualified exact Shopee hardware",
+      "Visual display/control verification",
+      "Full category inventory and acoustic processing",
+      "Revision/firmware and other canonical unknowns"
+    ],
+    "inventory_change": 0,
+    "next": "Requested individual footswitch displays first when new primary evidence is accessible; otherwise continue systematic discovery. Preserve GT-Pro, expression audit and GP-200JR -> Prime -> GE300."
   }
 }
