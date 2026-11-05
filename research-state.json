@@ -153701,7 +153701,21 @@
       "https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346"
     ],
     "result": "Manufacturer shell andunavailable manual endpoint;no new certified screen count/technology orqualified Shopee offer. Existing importer-backed nine-screen evidence unchanged.",
-    "resume_when": "New accessible original panel/specification evidence; do not repeat unchanged source blocker as whole-goal block"
+    "resume_when": "New accessible original panel/specification evidence; do not repeat unchanged source blocker as whole-goal block",
+    "visual_followup": {
+      "checked": "2026-11-06",
+      "source": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Melofty/EN/MEL_AXOM_MAX_Manual_EN.pdf",
+      "revision": "Manufacturer English V1.7.4,2026-08-31,58pages",
+      "bytes": 8651943,
+      "sha256": "43757986717ee8a204b24af6fdd23b9574da5aaaa9ea1506bf66a5dd9a58e660",
+      "access": "Downloaded under reviewed10MiB bound;localPoppler pages4–5 visually inspected;web panel screenshot failed",
+      "corroborated": "4rotaries,9FS,4namedbuttons+powerlock;9switch-associatedreadoutpositions+separatepedalreadout",
+      "not_established": "Independent physical display panel count,LCD/OLED,mini-screen dimensions/color/touch;no hardware test",
+      "market": "Targeted ShopeeIndonesia exact-name searches noqualified hit;not marketabsence",
+      "active": false,
+      "inventory_unchanged": 402,
+      "next": "Independent display technology/panel evidence,exact Shopee hardware andremaining capability gaps;preserve independent queues"
+    }
   },
   "pod_express_dimension_queue_reconciliation_20261103": {
     "completed_scope": "Guitar andBass: manufacturer92W130D56H mm350g;source explicitly names both",
@@ -176779,8 +176793,8 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://zoomcorp.com/media/original_images/zoom_b3_usbComputer.jpg",
-    "cache_policy": "One rolling working photograph and receipt in/tmp; URLs and hashes retained with model findings. Retrieval alone is not visual verification.",
-    "frame": 0
+    "requested_url": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Melofty/EN/MEL_AXOM_MAX_Manual_EN.pdf",
+    "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
+    "frame": 4
   }
 }

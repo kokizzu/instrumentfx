@@ -1,4 +1,4 @@
-"""Preview and retrieve one bounded manufacturer photograph for visual research."""
+"""Preview and retrieve one bounded manufacturer visual source for research."""
 import hashlib
 import json
 from pathlib import Path
@@ -11,16 +11,16 @@ from research_tools import ROOT, identity
 PLAN = Path('/tmp/instrumentfx-source-image-plan.json')
 RECEIPT = Path('/tmp/instrumentfx-source-image-receipt.json')
 IMAGE = Path('/tmp/instrumentfx-source-image.jpg')
-LIMIT = 8 * 1024 * 1024
+LIMIT = 10 * 1024 * 1024
 HOSTS = {'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
-         'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
+         'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 
 def check_url(url):
     parsed = urllib.parse.urlsplit(url)
     if (parsed.scheme != 'https' or parsed.hostname not in HOSTS
             or parsed.username or parsed.password or parsed.port not in (None, 443)):
-        raise ValueError('Expected an HTTPS manufacturer image URL')
+        raise ValueError('Expected an HTTPS reviewed visual-source URL')
     return url
 
 
@@ -32,10 +32,10 @@ class ManufacturerRedirect(urllib.request.HTTPRedirectHandler):
 
 def validate_image(data):
     if len(data) > LIMIT:
-        raise ValueError('Image exceeds 8 MiB limit')
+        raise ValueError('Visual source exceeds 10 MiB limit')
     if not (data.startswith(b'\xff\xd8\xff') or data.startswith(b'\x89PNG\r\n\x1a\n')
-            or data.startswith((b'GIF87a', b'GIF89a'))):
-        raise ValueError('Response is not a JPEG, PNG or GIF image')
+            or data.startswith((b'GIF87a', b'GIF89a', b'%PDF-'))):
+        raise ValueError('Response is not a JPEG, PNG, GIF or PDF visual source')
     return hashlib.sha256(data).hexdigest()
 
 
@@ -46,13 +46,36 @@ def atomic_write(path, data):
     pending.replace(path)
 
 
+def source_path(url):
+    return IMAGE.with_suffix('.pdf') if urllib.parse.urlsplit(url).path.lower().endswith('.pdf') else IMAGE
+
+
+def previous_source():
+    if RECEIPT.exists():
+        previous = Path(json.loads(RECEIPT.read_text())['output'])
+        assert previous in (IMAGE, IMAGE.with_suffix('.pdf')), 'Unexpected cache path'
+        return previous if previous.exists() else None
+    return IMAGE if IMAGE.exists() else None
+
+
 def plan():
     identity()
     state = json.loads((ROOT / 'research-state.json').read_text())
     url = check_url(state['source_image_inspection']['requested_url'])
-    value = {'url': url, 'output': str(IMAGE), 'limit_bytes': LIMIT,
-             'replaces_existing_working_image': IMAGE.exists(),
-             'previous_sha256': hashlib.sha256(IMAGE.read_bytes()).hexdigest() if IMAGE.exists() else None}
+    output = source_path(url)
+    previous = previous_source()
+    assert output == previous or not output.exists(), 'Unexpected destination collision'
+    value = {'url': url, 'output': str(output), 'limit_bytes': LIMIT,
+             'previous_output': str(previous) if previous else None,
+             'retire_previous_working_file': str(previous) if previous and previous != output else None,
+             'previous_sha256': hashlib.sha256(previous.read_bytes()).hexdigest() if previous else None}
+    if urllib.parse.urlsplit(url).path.lower().endswith('.pdf'):
+        opener = urllib.request.build_opener(ManufacturerRedirect())
+        request = urllib.request.Request(url, method='HEAD',
+            headers={'User-Agent': 'InstrumentFX-source-review/1.0'})
+        with opener.open(request, timeout=20) as response:
+            length = response.headers.get('Content-Length', '')
+            value['reported_source_bytes'] = int(length) if length.isdigit() else None
     atomic_write(PLAN, (json.dumps(value, indent=2) + '\n').encode())
     print(json.dumps(value, indent=2))
 
@@ -60,24 +83,43 @@ def plan():
 def apply():
     identity()
     value = json.loads(PLAN.read_text())
-    assert value['output'] == str(IMAGE) and value['limit_bytes'] == LIMIT
     url = check_url(value['url'])
+    output = source_path(url)
+    assert value['output'] == str(output) and value['limit_bytes'] == LIMIT
     state = json.loads((ROOT / 'research-state.json').read_text())
     assert state['source_image_inspection']['requested_url'] == url, 'Request changed; rerun plan'
-    previous = hashlib.sha256(IMAGE.read_bytes()).hexdigest() if IMAGE.exists() else None
-    assert previous == value['previous_sha256'], 'Working image changed; rerun plan'
+    previous = previous_source()
+    assert (str(previous) if previous else None) == value['previous_output'], 'Cache path changed'
+    digest_before = hashlib.sha256(previous.read_bytes()).hexdigest() if previous else None
+    assert digest_before == value['previous_sha256'], 'Working source changed; rerun plan'
+    assert output == previous or not output.exists(), 'Unexpected destination collision'
+    retire = str(previous) if previous and previous != output else None
+    assert retire == value['retire_previous_working_file']
     opener = urllib.request.build_opener(ManufacturerRedirect())
     request = urllib.request.Request(url, headers={'User-Agent': 'InstrumentFX-source-review/1.0'})
     with opener.open(request, timeout=40) as response:
         final_url = check_url(response.geturl())
         data = response.read(LIMIT + 1)
     digest = validate_image(data)
-    atomic_write(IMAGE, data)
-    receipt = {'url': url, 'final_url': final_url, 'output': str(IMAGE),
+    atomic_write(output, data)
+    if retire:
+        assert hashlib.sha256(previous.read_bytes()).hexdigest() == digest_before
+        assert hashlib.sha256(output.read_bytes()).hexdigest() == digest
+        previous.unlink()  # Only the exact generated cache path/hash reviewed by plan.
+    receipt = {'url': url, 'final_url': final_url, 'output': str(output),
                'bytes': len(data), 'sha256': digest,
                'visual_inspection': 'Not established by retrieval; inspect image separately'}
     atomic_write(RECEIPT, (json.dumps(receipt, indent=2) + '\n').encode())
     print(json.dumps(receipt, indent=2))
+
+
+def render_pdf(source, output, page):
+    import subprocess
+    assert isinstance(page, int) and 0 <= page < 128
+    assert output.suffix == '.png'
+    subprocess.run(['pdftoppm', '-f', str(page + 1), '-l', str(page + 1),
+                    '-singlefile', '-scale-to', '1600', '-png', str(source),
+                    str(output.with_suffix(''))], check=True, timeout=30)
 
 
 def render():
@@ -86,13 +128,24 @@ def render():
     identity()
     state = json.loads((ROOT / 'research-state.json').read_text())['source_image_inspection']
     receipt = json.loads(RECEIPT.read_text())
-    data = IMAGE.read_bytes()
+    working = Path(receipt['output'])
+    assert working == source_path(state['requested_url']), 'Rerun reviewed retrieval for source format'
+    data = working.read_bytes()
     assert receipt['url'] == state['requested_url'], 'Source changed; retrieve reviewed source'
     assert validate_image(data) == receipt['sha256'], 'Source bytes changed'
     frame = state.get('frame', 0)
     assert isinstance(frame, int) and 0 <= frame < 128
     Image.MAX_IMAGE_PIXELS = 8 * 1024 * 1024
-    with Image.open(IMAGE) as source:
+    if data.startswith(b'%PDF-'):
+        output = Path('/tmp/instrumentfx-source-image-view.png')
+        render_pdf(working, output, frame)
+        with Image.open(output) as rendered:
+            assert rendered.width * rendered.height <= Image.MAX_IMAGE_PIXELS
+            print(json.dumps({'url': receipt['url'], 'sha256': receipt['sha256'],
+                              'pdf_page_zero_based': frame, 'size': rendered.size,
+                              'rendered': str(output)}))
+        return
+    with Image.open(working) as source:
         assert source.width * source.height <= Image.MAX_IMAGE_PIXELS
         frames = getattr(source, 'n_frames', 1)
         assert frames <= 128 and frame < frames
@@ -115,6 +168,8 @@ def test():
         else:
             raise AssertionError('Unsafe source accepted')
     check_url('https://zoomcorp.com/media/example.jpg')
+    assert source_path('https://zoomcorp.com/a.jpg') == IMAGE
+    assert source_path('https://cdn.rockboard.de/a.pdf?revision=1').suffix == '.pdf'
     for bad in (b'<html>error</html>', b'\xff\xd8\xff' + bytes(LIMIT)):
         try:
             validate_image(bad)
@@ -134,7 +189,20 @@ def test():
         assert decoded.n_frames == 2
         decoded.seek(1)
         assert decoded.convert('RGB').getpixel((0, 0)) == (0, 0, 255)
-    print('PASS: HTTPS host restrictions, credentials, image signatures, size limit and animated GIF frame decoding')
+    import shutil
+    import tempfile
+    assert shutil.which('pdftoppm'), 'Poppler pdftoppm is required for PDF visual review'
+    with tempfile.TemporaryDirectory(prefix='instrumentfx-pdf-test-') as directory:
+        source = Path(directory) / 'fixture.pdf'
+        output = Path(directory) / 'fixture.png'
+        Image.new('RGB', (32, 24), 'red').save(source, format='PDF')
+        assert validate_image(source.read_bytes())
+        render_pdf(source, output, 0)
+        with Image.open(output) as decoded:
+            assert decoded.width > decoded.height
+            red, green, blue = decoded.convert('RGB').getpixel((0, 0))
+            assert red > 200 and green < 30 and blue < 30
+    print('PASS: HTTPS host restrictions, size limits, GIF frames and actual PDF-to-PNG rendering')
 
 
 if __name__ == '__main__':
