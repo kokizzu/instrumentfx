@@ -486,6 +486,7 @@ The article retains Eleven Rack/Pro Tools wording despite its explicit HeadRush 
 
 | Required field | Model-specific finding / qualification |
 |---|---|
+| MIDI / physical-port forwarding and clock | [Guide5.0 MIDI scope](#prime--physical-midi-forwarding-and-clock-boundaries): Thru forwards DIN input to output; disabling Thru permits own output. Receive Clock Off uses internal tempo without transmitting that clock. Program-change Send/Recv and Omni/1–16 are separate settings; USB hosting and current5.2 equivalence unverified. |
 | Processing / named drive and volume-dynamics | [34 named choices](#prime--named-drive-and-volume-dynamics-choices):18 overdrives beneath a16 header,11 distortion/fuzz,5 volume/dynamics. Source conflicts retained;not simultaneous block capacity. |
 | Processing / named delay, reverb, chorus, EQ and compression | [43 listed choices](#prime--named-delay-reverb-chorus-eq-and-compressor-choices):14 Delay,7 Reverb,7 Chorus,9 EQ,6 Compressor. Website grouping is retained;not simultaneous capacity or a certified current-firmware inventory. |
 | Processing / named modulation, filters and utility | [27 manufacturer-listed choices](#prime--named-filter-modulation-and-utility-choices):10 Phaser/Flanger,6 Vib/Trem/Rotary,8 Wah/Filter,3 Utility. Names are library choices,not simultaneous blocks or synth-tracking proof;per-effect firmware introduction unverified. |
@@ -1100,6 +1101,17 @@ Do not extend this older amp/cab/IR description toNAM automatically. The separat
 Checked **2026-11-05**, [manufacturer Prime/Core v3.2 announcement](https://support.headrushfx.com/en/support/solutions/articles/69000858120-headrush-prime-and-core-what-s-new-in-firmware-v3-2-). The maker reports correcting wrong LED colors when changing between rigs with dual-state scenes. It separately identifies two **Prime-only** fixes: holding Looper View **FS6** incorrectly changed the looper switch view; and selecting between two instances of the same effect did not correctly refresh parameter-knob values. These are historical interface defects,not additional effects,OLED specifications or proof that the displayed values reflected audible parameter changes. Current firmware behavior remains untested.
 
 The same release adds contextual **i** dialogs for Sustain,Hybrid Synth,Electric Piano,DB-33 Organ andSide Comp. Their availability isnot a published synth polyphony specification. No device operation ordownload.
+
+### Prime — physical MIDI forwarding and clock boundaries
+
+Checked **2026-11-05**, indexed original [manufacturer Prime User Guide5.0.0,§4.22.8,printed71](https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf). Full PDF exceeds reader size limits; exact-model original indexed text inspected,not a screenshot or device test. Current5.2 equivalence unverified.
+
+- The chapter explicitly limits these settings to **MIDI Input and MIDI Output**. It does not establish USB MIDI hosting,USB forwarding orBluetooth MIDI.
+- **MIDI Thru On** forwards incoming messages to MIDI Output; **Off** permits Prime-generated output. This is not documentation of merging both streams simultaneously.
+- **Receive MIDI Clock Off** selects internal clock,which the passage says is not transmitted. Receive-clock support therefore does not establish master-clock output orMIDI transport/looper phase synchronization.
+- **Prog Change Send** enables messages from upper/lower-left rig stepping; **Recv** separately enables incoming program changes. **MIDI Channel** offers Omni or1–16. This does not define Omni transmission behavior,bank-select mapping ortotal rig capacity;retain the separate PC1–128 qualification.
+
+No MIDI messages sent,device settings changed orfiles downloaded. Exact Shopee searches returned already-recorded offers,not freshly qualified stock. OLED hardware,storage andglobal-expression gaps remain open;independent general queue proceeds tooriginalGE300.
 
 ## VX5
 

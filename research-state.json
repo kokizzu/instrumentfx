@@ -174624,5 +174624,24 @@
     "current_manual_access": "Official1.8.0 redirects to res.valeton.net PDF;both original andredirect failed reader;no local download",
     "inventory_unchanged": 402,
     "next": "Independent general queue proceeds to HeadRush Prime;retain GP-200JR touch/toe,currentUSB/GlobalEQ andqualifiedoffer gaps;individual-footdisplay andShopee priorities remain first"
+  },
+  "prime_midi_forwarding_clock_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/HEADRUSH.md#prime--physical-midi-forwarding-and-clock-boundaries",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf",
+    "revision": "5.0.0§4.22.8p71,indexed original text;fullPDF exceedsreader;current5.2 equivalence unknown",
+    "findings": [
+      "DIN-port setting scope;Thru versus own output distinguished",
+      "Internal clock not transmitted per ReceiveClock Off wording",
+      "Program-change Send/Recv and Omni/1–16 distinct from capacity"
+    ],
+    "market": "Search results duplicate retained exact Prime hardware offers;no refreshed qualified stock",
+    "remaining": [
+      "Current-firmware equivalence",
+      "Clock/transport/USB routing andOmni transmission not independently established",
+      "OLED dimensions,storage ceiling,globalEXP coverage,qualified current hardware"
+    ],
+    "inventory_unchanged": 402,
+    "next": "GeneralGP-200JR→Prime checkpoint saved;continueoriginalGE300 while keepingindividual-footdisplay/Shopee priority,GT-Pro andexpression-volume queues"
   }
 }
