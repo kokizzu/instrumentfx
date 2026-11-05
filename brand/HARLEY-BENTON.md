@@ -47,6 +47,23 @@ Exact V2 manual above, printedpp39–41,47–50; checked2026-11-06. **70 non-amp
 
 Choices share their respective block. DLY/REV MOD names are distinct. ROTARY and SLOW GEAR do not establish synthesis. Pitch ranges/chord handling remain unverified. AMP55/CAB26 names remain untranscribed.
 
+### Advanced — preset allocation and editor evidence
+
+Checked **2026-11-06**. Exact V2 manual above, printedpp24–27, distinguishes connection-oriented groups:
+
+| Slots | Documented configuration / intended connection |
+|---|---|
+| P001–P050 | AMP+CAB enabled; full-range equipment, including headphones |
+| P051–P100 | AMP enabled; guitar-amp RETURN |
+| P101–P150 | AMP+CAB disabled; guitar-amp INPUT |
+| P151–P200 | Individually configurable presets |
+
+This is **not evidence of150 protected factory +50 user memories**. SAVE selects a destination/name; the text does not settle complete initial filling or write protection. The preset-selection sentence repeats B (A/B/B), while panel descriptions identify A/B/C; bank-up/down pairing remains unverified.
+
+[Manufacturer Soundlab article, dated04.11.2026](https://harleybenton.com/backstage/geartalk/dnafx-software-editor/), demonstrates Advanced specifically: editor changes update the connected unit, presets can be created/named/saved, and the processor works standalone. The article advertises assignable expression and third-party IR loading but establishes neither global-volume persistence nor new synth/pitch algorithms. Its default-preset wording gives no numerical factory census. Video not inspected.
+
+The exact [Advanced product page](https://harleybenton.com/product/dnafx-git-advanced/) exposes separate Mac andWindows **editor/firmware-update** links. Link labels alone establish no installed/current firmware version, OS minimum, driver compatibility or USB-channel count. No software/archive downloaded or installed; existing connector andbody conflicts remain unresolved.
+
 ### Advanced — market and continuation
 
 Exact-brand/Advanced Shopee Indonesia searches found no seller/item-qualified hardware. Used/new IDR, condition, stock, region, variant, bundle, adapter, warranty, vouchers, shipping/tax and checkout remain unknown. Foreign prices and preset/accessory downloads are not substituted.
