@@ -822,7 +822,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 | Architecture / choices | **11 movable,DSP-limited;320+ models**. **120amps=85guitar+30bass+5acoustic;40drives;100cabs=65guitar+25bass+10acoustic**. Other category counts ?. |
 | Presets | Manual: **160 editable, 80 factory-filled**, not 240. Newer product page says **200 user presets**; [unresolved revision conflict](#mk-300--memory-conflict-pedal-sync-and-nam-support-scope). |
 | Synth / acoustic | Synth unverified; documented acoustic amps/cabs do not prove electric-to-acoustic simulation. |
-| Ports | 6.35mm TS input,two6.35mm outs,twoXLR outs,3.5mm phones/phone-recording,EXP,DINMIDI IN,USB-C. |
+| Ports | 6.35mm TS input, two 6.35mm outputs, two XLR outputs, **separate 3.5mm headphone and phone-recording sockets**, TRS expression, DIN MIDI IN and USB-C. [Exact socket and control distinctions](#mk-300--separate-phone-sockets-and-preset-control-scope). |
 | Power | **5000mAh/3.7V battery;USB5V/2A;350mA draw**. Charging versus battery-bypass operation unverified. |
 | IR / NAM | Mono WAV 24-bit/44.1 kHz, 1024/2048-point IR; proprietary AMP/DS import. Manufacturer’s October15,2026 announcement explicitly names **MK-300 NAM A2 support**; [exact scope below](#mk-300--memory-conflict-pedal-sync-and-nam-support-scope). Native/converted architecture variants, minimum firmware and concurrency remain unverified; do not transfer MK20 limits. |
 | Editor / firmware | M-EFCS Windows/macOS/iOS/Android; [official index](https://www.cuvave.com/appdownload), checked 2026-10-17, explicitly lists MK300 in desktop and mobile support. M-UPGRADE is a separate updater. Index retains v75 dated 2026-10-12 and warns that updating to v73 resets GLOB settings; preserve this update consequence. |
@@ -852,6 +852,25 @@ Checked **2026-11-05**, [manufacturer manual](https://manualf.oss-cn-hongkong.al
 - **Looper:** HEAD records dry audio for later preset processing; TAIL records effects. The manual claims automatic audio saving at power-off. Enable Drum Sync before the first layer; ON2 pauses drums with the loop, ON1 does not. No hardware test verifies persistence.
 
 The USB paragraph’s **13 modules** conflicts with the manual’s **11-module** chain/specification; do not infer extra blocks. Re-amping labels and firmware mapping remain unresolved. No download, recording or device operation.
+
+### MK-300 — separate phone sockets and preset-control scope
+
+Checked **2026-11-05** in the [manufacturer manual](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf), printed pp5–9,16–17,20. Revision and current-firmware equivalence remain unverified.
+
+| Field | Exact-model qualification |
+|---|---|
+| I/O / separate phone sockets | Headphones and phone recording are **two separate 3.5mm TRS sockets**. The recording connection also supports playback to headphones. The two unbalanced main outputs are TS; the earlier rear-panel phrase “stereo audio output jack” does not establish balanced TRS main outputs. |
+| Expression / assignment storage | CTRL functions are saved **with each preset**. Each pedal has A/B targets and adjustable extremes. This does not establish a global assignment override or numeric volume endpoints. |
+| Expression / A-B module state | First Toe Switch mode leaves module states unchanged. **Resume** enables the destination and restores the former module’s saved state; **Disable** turns the former module off. These are module-state rules, not global volume or external toe-wiring proof. |
+| Live / switch timing | Tap acts on release within1.5s; Hold acts at1.5s. Single-switch assignments are customizable; combination gestures are fixed. |
+
+### MK-300 — separate Kurnia hardware offer
+
+| Price class | IDR ask | Exact offer and limitations |
+|---|---|
+| Condition-unverified hardware, checked2026-11-05 | **Rp2.600.000** | [Kurnia Musik Jogja, shop276974853/item40070733690](https://shopee.co.id/M-VAVE-MK-300-Multi-Effects-Processor-i.276974853.40070733690), Kab.Sleman. Today-crawled direct page and two-month search snapshot agree on ask. Direct delivery says6November; search says4September. Neither establishes current stock. Condition, working state, selected variant, bundle, accessories, firmware, warranty, shipping/tax and checkout total remain unknown. Up-to-Rp10.000 late-delivery compensation is not deducted. Separate from the older Seven/GITARO observations; no used/new classification inferred. |
+| Historical condition-unverified retail, checked2026-10-14 | **Rp2.699.000 body / Rp2.830.000 snippet** | [Seven Stereo, shop16879370/item28884989446](https://shopee.co.id/M-VAVE-MK300-Effect-Digital-M-Vave-MK-300-Original-MVAVE-i.16879370.28884989446). Preserved price conflict, not a range or refreshed offer. Condition, selected variant/color, bundle, stock, warranty and checkout remain unverified. |
+| Historical New-title retail, checked2026-10-14 | **Rp2.700.000** | [GITARO STORE JAKARTA, shop1458451429/item24443292196](https://shopee.co.id/Efek-Gitar-Mvave-MK300-Effect-Digital-M-Vave-MK-300-Original-New-i.1458451429.24443292196). Indexed title explicitly says New; actual condition, selected variant/color, bundle, stock, warranty and checkout remain unverified. Not refreshed in this pass. |
 
 <!-- comparison evidence ends -->
 
