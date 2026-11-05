@@ -157546,7 +157546,20 @@
         "Visualcorroboration",
         "Qualified currentnew/usedShopeeoffers"
       ],
-      "next": "Continue requestedindividualdisplaypriority andcompactexpression gaps wherenewprimaryevidence exists;otherwise systematiccatalogue fields. PreserveGT-Pro/GP200JR→Prime→GE300 queues."
+      "next": "Continue requestedindividualdisplaypriority andcompactexpression gaps wherenewprimaryevidence exists;otherwise systematiccatalogue fields. PreserveGT-Pro/GP200JR→Prime→GE300 queues.",
+      "delay_sampler": {
+        "checked": "2026-11-06",
+        "canonical": "brand/KORG.md#ax1000g--pedal-ambience-and-sample-loop-boundaries",
+        "revision": "Original E1printed20–22",
+        "named_choices": {
+          "PEDAL": 11,
+          "AMBIENCE": 11
+        },
+        "boundary": "Held-delay input versusvolatile0.5–8s sample;LP1stop/LP2finish;sample erasedpoweroff/PhraseTrainer",
+        "time_scope": "Delay0–3s;dualECHOreverb0–2s;reverb1–10notseconds",
+        "inventory_changed": false,
+        "remaining": "Power/current,visualcorroboration,tracking polyphony,currentcondition-qualified Shopee;independentpriorityqueues retained"
+      }
     }
   },
   "hxstomp_own_category_census_20261103": {

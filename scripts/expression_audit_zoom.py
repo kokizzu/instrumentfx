@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(korg): index AX1000G creative pitch and filter limits'
+        message='research(korg): document AX1000G pedal and sample loop limits'
     print(git('commit','-m',message))

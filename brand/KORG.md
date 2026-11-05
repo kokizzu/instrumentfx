@@ -702,6 +702,7 @@ Guitar multi-effects;distinct fromAX1500G/AX100G. Checked2026-10-17;partial. Kor
 | IR / NAM / capture | UserIR,native/convertedNAM,capture imports unverified;factory cabinet models do not establish imports. | Unresolved |
 | Editor / software | Editor/platform support unverified;onboard editing documented. | [Manual p12][AX1000-M] |
 | Looper / drums / live | Sample&Play**8s**;PhraseTrainer**up to16s**,slower playback without pitch change;metronome40–208BPM. Individual mode toggles blocks but prevents patch switching and bypass/mute. Trainer:SHT8s high-quality/LNG16s extended,mono;disablesMOD/PEDAL/AMBIENCE,restores them onexit;guitar muted duringrecording. Exit/power-off erases phrase. Trainer disables metronome. Overdub,drumkit,scenes,trails unverified. | [Manual pp3,7,10–11,15][AX1000-M] |
+| Live / held delay versus sample loops | HOLD DELAY usespedal-controlled input andtoe-triggered hold;SAMPLE&PLAY loops arevolatile,LP1 stops onpedal return whileLP2 finishesthephrase. [Exact E1 scope](#ax1000g--pedal-ambience-and-sample-loop-boundaries). | [Own manual pp20–22][AX1000-M] |
 
 ### Separate IDR hardware offers
 
@@ -747,6 +748,19 @@ Checked **2026-11-06**,[own E1 manual,printed18–21][AX1000-M]. **PITCH SHIFTER
 | MODULATION | CLASSIC CHORUS;STEREO CHORUS;CLASSIC FLANGER;MOD DELAY;BLACK PHASER;ORANGE PHASER;TEXTREM;PITCH SHIFTER;FILTRON;AUTO WAH;OCTAVE |
 
 [Same manual][AX1000-M]:filter,rotary-style andsampling effects donot establish dedicated synthesis. Original E1 availability doesnot certify tracking quality,current hardware condition orall-choice concurrency. No download/device test;existing counts,membership anddatedoffers retained.
+
+### AX1000G — pedal, ambience and sample-loop boundaries
+
+Checked **2026-11-06**,[own E1 manual,printed20–22][AX1000-M];original-menu evidence,not adevice/current-firmware test.
+
+| Category | Named choices |
+|---|---|
+| PEDAL:11 | VOLUME;VOX WAH;TRAVELER;TALK;CHORUS/FLANGER;U-VIBE;PITCH BEND;RING MOD;HOLD DELAY;TAP DELAY;SAMPLE&PLAY |
+| AMBIENCE:11 | ECHO PLUS;MULTI HEAD ECHO;STEREO DELAY;PING-PONG DELAY;ROOM;HALL;PLATE;SPRING;ECHO+ROOM;ECHO+HALL;ECHO+PLATE |
+
+**HOLD DELAY** normally delays;toe-switching holds itsdelay sound,andpedal movement controls delay input. ItsTIME0–3s isdelay timing,not persistent phrase capacity. **SAMPLE&PLAY** has0.5–8s recording:toe arms,playing above threshold starts. Returningthepedal reverses atx1–x8 whenselected. **LP1** stops onreturn;**LP2** plays totheend thenstops. Advancingagain restarts fromthebeginning. Power-off orenteringPhraseTrainer erases thissample. These differ fromcompression sustain andPhraseTrainer's separate16s mode;overdub/persistent storage remain unverified.
+
+Stereo/Ping-Pong delay allows0–3s;dualECHO+reverb choices allow0–2s delay. Their1–10 reverbTIME values arenot publishedseconds. ExistingPEDAL/AMBIENCE exclusions remain;named dual effects donot create extra freely routable blocks.
 
 ## AX1500G
 
