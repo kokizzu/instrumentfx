@@ -170515,5 +170515,20 @@
       "Global analog-volume endpoints,recall andcoverage"
     ],
     "next": "Defer unchanged name/market gaps;continue requested separate-screen profiles andremaining useful fields,preserving independent general andexpression queues"
+  },
+  "fm3_original_eq_mixer_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--graphic-eq-accounting-and-four-input-mixer",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,53,59",
+    "qualification": "GEQ chapter reconstructs16 choices against18 headline;two remain unidentified. FM3 Mixer hasfour stereo inputs,not generic six.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Two unidentified GEQ choices",
+      "Named Reverb/Megatap censuses",
+      "Exact original hardware market revision",
+      "Expression output coverage"
+    ],
+    "next": "Defer unchanged FM3 name/market gaps;continue other requested separate-screen processors andShopee discovery,retaining independent general andexpression queues"
   }
 }

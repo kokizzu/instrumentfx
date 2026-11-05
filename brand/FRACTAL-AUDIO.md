@@ -1041,6 +1041,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Processing / named pitch | [16 named reference types](#fm3-original--november-named-pitch-and-note-handling); Chromatic NOTES/CHORDS, monophonic Diatonic, polyphonic Virtual Capo ±24semitones; one CPU-limited Pitch block. November2026 reference, not installed verification. |
 | Special processing / vowel and speaker effects | [Formant ten-vowel morphing and Rotary drum/rotor controls](#fm3-original--formant-vowels-and-rotary-speaker-controls); two instances each on FM3, CPU permitting. Filtering/speaker simulation remain distinct from synthesis. |
 | Special processing / resonator and ring modulation | [Manual/chordal comb filtering and three Ring Mod types](#fm3-original--resonator-and-ring-mod-processing-boundaries), November2026 reference; two Resonator and one Ring Mod blocks, CPU permitting. These are not certified polyphonic synth trackers. |
+| Processing / EQ and mixing boundaries | [Graphic EQ18 headline versus16 described choices; Mixer four stereo inputs](#fm3-original--graphic-eq-accounting-and-four-input-mixer). FM3 allows two GEQ and four Mixer blocks, CPU permitting; input/band counts are not extra blocks. |
 | Categories / choices | Includes amp,cab,drive,modulation,pitch,dynamics,EQ,delay,reverb,synth,looper androuting/control. Exact FM3 per-category choice census remains unverified;shared guide TYPES column not treated as current FM3 totals. Dated table excludes Crossover,Dynamic Distortion,IR Player,RTA,Tone Match,Vocoder. [Exact-column census](#fm3-original--dated-block-inventory-and-looper). |
 | Processing / firmware10 migration | **10.0,May30,2025:** older factory presets may exceed80% CPU,especially Standard/non-Turbo;Plate Reverb Echo Density can reduce load. Replacement factory presets are separate,not automatically installed. Current support dates the firmware10-or-newer banks June4,2025. This is a dated migration qualification,not a measured firmware13 failure. [Manufacturer-authored release history,PDFp7](https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf);[current manufacturer preset listing](https://www.fractalaudio.com/fm3-downloads/),checked2026-11-01. |
 | Expression / firmware-qualified controller fixes | **11.0,October1,2025:** reduced rear-pedal filtering for faster response andcorrected External-controller activity sensing/FC-pedal modifier startup. **12.0,January19,2026:** fixed Pedal1/2 MIDI-CC control broken in11.0. These distinct local/FC/MIDI paths do not establish global analog-volume endpoints,held-position recall orall-output coverage. Installed behavior untested. [Manufacturer-authored release history,PDFpp5–7](https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf),checked2026-11-01. |
@@ -1232,7 +1233,7 @@ Checked **2026-11-05**, [manufacturer Blocks Guide,November2026,printed pp3,31](
 | Filter | 20 | 4 |
 | Flanger | 31 | 2 |
 | Gate/Expander | 4 | 2 |
-| Graphic EQ | 18 headline; named census unresolved | 2 |
+| Graphic EQ | 18 headline; [16 chapter-described choices](#fm3-original--graphic-eq-accounting-and-four-input-mixer), two unidentified | 2 |
 | Megatap | 22 | 1 |
 | Multi-Delay | 39 | 1 |
 | Phaser | 19 | 2 |
@@ -1419,6 +1420,14 @@ Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, printed3,51,98
 **Formant** filters audio through vowel resonances, morphing between Start/Middle/End selections: **AAA, EEE, III, OHH, OOO, EHH, AHH, AWW, UHH, ERR**. A modifier can control the morph; stereo channels process independently. Three morph positions are not three oscillators or tracked notes. FM3 permits two Formant blocks, CPU permitting.
 
 **Rotary** models drum and horn motion. Rate0 parks rotation; Low Rate Multi changes relative drum speed, and separate low/high time constants govern acceleration/deceleration. Minimum Hi Depth gives drum-only modulation. Mic Spacing0 simulates one mono microphone; Stereo Spread0 makes the effect mono. FM3 permits two Rotary blocks, CPU permitting. This processes an existing tone; it does not generate an organ instrument by itself or establish synth-note polyphony. No local download or device test.
+
+### FM3 original — Graphic EQ accounting and four-input Mixer
+
+Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, printed3,53,59](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). FM3 family reference; installed equivalence and introduction versions remain unverified.
+
+**Graphic EQ:** the chapter describes **16 choices**: 10/8/7/5-band Constant-Q or Variable-Q (eight); passive 5-band Mark,5-band,4-band,3-band and3-band Console (five);4-Band JMPre-1 (one);7 Band Pedal and7 Band Bass Pedal (two). Each band spans ±12dB. The comparison headline remains **18**; two choices are unidentified, not invented or assigned from another model. FM3 permits two GEQ instances, CPU permitting.
+
+**Mixer:** explicitly **four stereo inputs on FM3**, tied to the four grid rows immediately left of the block, including empty rows. Four instances are allowed, CPU permitting. Per-input alignment delay reaches64samples; output can be stereo or summed mono. Mixer cannot be bypassed. The generic six-row labels do not add FM3 inputs, physical ports or simultaneous blocks. No local download or device test.
 
 
 ## FM9 MKII Turbo
