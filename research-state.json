@@ -174581,5 +174581,33 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Return to accessible requested footswitch-screen priorities;nextsystematicheadphone lead FX10. PreserveGT-Pro,expression-volume andGP200JR→Prime→GE300queues."
+  },
+  "fx10_partial_discovery_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FLAMMA.md#fx10--partial-headphone-multi-effects-discovery",
+    "status": "Partial outside active inventory",
+    "sources": [
+      "https://www.flamma.shop/products/fx10-portable-modeling-headphone-amps",
+      "https://cdn.shopifycdn.net/s/files/1/0260/4476/0127/files/FX10_Manual_EN.pdf?v=1677446484"
+    ],
+    "source_access": "Product readable; earlier manual inspection retained, reopen failed; title V01_2022.10.11,18 pages; not firmware version",
+    "controls": {
+      "rotary": 1,
+      "footswitch": 0,
+      "buttons": 6,
+      "basis": "Text census; separate slider; visual unverified"
+    },
+    "dimensions_conflict": "Manual40W82D30H; product82×40×32 axes unspecified;59g",
+    "market": "No qualified exact Shopee hardware surfaced; not absence; new/used IDR unknown",
+    "active_inventory_unchanged": 402,
+    "additional_creative_records_unchanged": 96,
+    "remaining": [
+      "Qualified exact Shopee hardware",
+      "Visual controls",
+      "Preset factory/user allocation and DSP ceiling",
+      "USB formats/editor platforms/current firmware",
+      "Tracking synth/pitch/import evidence"
+    ],
+    "next": "Return to requested individual-footdisplay/Shopee priorities and systematic remaining no-treadle inventory; preserve GT-Pro, expression-volume and GP-200JR→Prime→GE300 queues"
   }
 }

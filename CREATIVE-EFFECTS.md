@@ -215,3 +215,5 @@ This index reuses existing canonical evidence and its original revision/date qua
 HeadRush Prime [BBD Delay5.1 modes andblock-mix Phase Invert](brand/HEADRUSH.md#prime--bbd-delay-revision-and-block-mix-phase-control) qualify processing behavior without adding algorithms orsimultaneous slots. Compressor reduction metering isseparate fromphysical displays.
 
 Original GE300 [volume-curve correction andsample-dependent startup warning](brand/MOOER.md#ge300--volume-curve-fix-and-sample-dependent-startup-scope) retain historical firmware scope;they do not establish current boot performance orglobal expression assignment.
+
+[Flamma FX10](brand/FLAMMA.md#fx10--partial-headphone-multi-effects-discovery) remains a **partial lead outside active counts and the96-record additional index**: its own manual identifies acoustic-guitar simulation and fixed reverse-delay/modulation/reverb combinations. Tracking synthesis and pitch shifting remain unverified. This does not expand the seven-model fresh comparison.

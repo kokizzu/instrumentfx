@@ -894,3 +894,7 @@ PX5D [phrase/storage and software qualification](brand/KORG.md#px5d--phrase-stor
 ### Flamma FX11 Bass — partial direct-expression exclusion
 
 [Exact-model screening](brand/FLAMMA.md#fx11-bass--partial-headphone-multi-effects-discovery),outside402 active records. Bass tone/effect processor;guitar scope unverified. Complete manual inventory hasnoanalogEXP oronboardfootswitches. Body40W×82Dmm fits;dedicated3.5mmstereo phones. Handvolume excludesBluetooth/USBplayback anddoesnot establishglobalpedalvolume. ExactShopee hardware andremainingprofile gaps remainopen;not an individual-foot-display candidate.
+
+### Flamma FX10 — partial direct-expression exclusion
+
+[Exact-model profile](brand/FLAMMA.md#fx10--partial-headphone-multi-effects-discovery),outside402 active models: normal guitar input,dedicated3.5mm TRS headphones; complete manual connector inventory has no analog EXP socket. Hand volume excludes Bluetooth/USB playback. Manual40W×82Dmm footprint fits the preference,but product dimensions conflict and plug clearance matters. No onboard footswitch pair or individual footswitch display. Exact Shopee hardware remains unknown.

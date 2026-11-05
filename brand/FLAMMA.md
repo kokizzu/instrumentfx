@@ -17,6 +17,7 @@ The [official multi-effects collection](https://www.flamma.shop/collections/mult
 - [FV03 Character](#fv03-character)
 - [FV04 Harmony](#fv04-harmony)
 - [FV05 Recorder](#fv05-recorder)
+- [FX10 — partial headphone multi-effects discovery](#fx10--partial-headphone-multi-effects-discovery)
 - [FX11 Bass — partial headphone multi-effects discovery](#fx11-bass--partial-headphone-multi-effects-discovery)
 - [FX20](#fx20)
 - [FX50](#fx50)
@@ -385,6 +386,28 @@ PLAY LEVEL controls recorded playback (p09),andguitar reverb in hidden mode (p07
 | Condition unresolved:Rp6,790,000 |[Exact Shopee item1753862723/29944964032](https://shopee.co.id/FLAMMA-FV05-Recorder-Vocal-Guitar-Effects-Pedal-70-Minutes-Recording-Capacity-Noise-Gate-Reverb-i.1753862723.29944964032),link recovered from [Vocal Recorder category](https://shopee.co.id/list/Vocal/Recorder),checked2026-10-17,last-month body. Direct cache miss;seller name,region,condition,working state,stock,revision,variant,adapter/bundle,warranty,voucher,shipping/tax/final total unknown. Not live stock or completed sale. |
 
 A category search also showedRp4,502,768 for another FV05 title without an exact item link;not accepted as this item's price or a verified hardware offer. No downloads or dependency installation.
+
+## FX10 — partial headphone multi-effects discovery
+
+Checked **2026-11-05**. [Exact manufacturer product page](https://www.flamma.shop/products/fx10-portable-modeling-headphone-amps); [original English manual](https://cdn.shopifycdn.net/s/files/1/0260/4476/0127/files/FX10_Manual_EN.pdf?v=1677446484), document title FX10_Manual_EN_V01_2022.10.11.cdr,18 PDF pages. Earlier readable manual inspection is retained; reopening now fails. Document revision is not installed firmware. **Partial lead outside active counts**, not an FX20 revision.
+
+| Field | Exact-model evidence and limitation |
+|---|---|
+| Interface | Manual text census: **1 rotary,0 footswitches,6 buttons**, plus power/Bluetooth slider. LED indications; screen specifications and visual confirmation unverified. Complete connector inventory has no analog EXP socket; no built-in treadle. |
+| Connections | Rotating instrument plug,3.5mm TRS headphones,USB-C charge/OTG record/playback; Bluetooth receives accompaniment. Hand volume covers guitar/drums,not Bluetooth/USB playback. No global pedal-volume assignment established. |
+| Memory / processing | AMP-associated saves include tone and EFX settings. AMP/TONE/one EFX choice; combination effects are fixed choices,not independently inserted blocks. Initial factory/user allocation and numerical DSP ceiling unverified. |
+| Creative effects | Manual AMP entry3 is acoustic-guitar simulation,not an acoustic IR. EFX includes reverse delay,modulation and reverb combinations. Tracking synth,pitch shifting,IR import,NAM and capture unverified. |
+| Software | Mobile OTG cable separate; Windows DAW recording calls for third-party ASIO and warns of compatibility limits. Editor,OS minima,USB channel/rate/bit formats and current firmware unknown; FX20 app not inherited. |
+| Body / power | Manual **40W×82D×30Hmm,59g**; product **82×40×32mm**,axes unspecified: conflict retained. 270° plug needs instrument clearance.720mAh,up to4h;5V/1A USB charging,about2.5h. Supply rating is not measured draw. |
+| Practice / navigation |28 grooves; manual tempo40–260BPM. Buttons select AMP/TONE/EFX/DRUM; no onboard preset down/up footswitch pair. |
+
+### FX10 — named EFX menu
+
+Manual printed9–10: Room Reverb; Hall Reverb; Church Reverb; Plate Reverb; Spring Reverb; Mod Reverb; Slapback Delay; Tape Dly+Hall; Reverse Dly+ModReverb; PingPong Dly+Church; Chorus+Hall; Phaser+Church; Flanger+Plate; Tremolo+ModReverb. Ten-step hidden adjustment: choices1–6 reverb level,7–8 delay level,9–10 delay time,11–12 modulation depth,13–14 modulation rate. Numeric endpoints are not supplied. Five TONE choices: Darker,Dark,Flat,Bright,Brighter.
+
+### FX10 — market boundary
+
+Exact Shopee Indonesia search returned no qualified hardware offer; this does not prove market absence. Separate new/used IDR,seller/item,condition,stock,variant,bundle,warranty,voucher and checkout remain unknown. Manufacturer USD79 is a foreign ask,not Indonesian pricing. Product-page photography testimonials are unrelated template content and excluded. Colors do not establish separate models. No software,firmware or manual files downloaded locally; no device operated.
 
 ## FX11 Bass — partial headphone multi-effects discovery
 
