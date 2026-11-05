@@ -170971,5 +170971,20 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Return to requested individual-footdisplay profiles and exact Shopee hardware leads; preserve GT-Pro, expression and consolidation queues."
+  },
+  "stadiumxl_maintenance_feedback_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/LINE6.md#stadium-xl--maintenance-entry-and-shutdown-indication",
+    "source": "https://manuals.line6.com/en/helix-stadium/live/helix-stadium-maintenance",
+    "revision": "Live navigation v1.4 RevD/v1.3 RevB/v1.2",
+    "finding": "Maintenance control/LED behavior and source hardware-name anomaly documented separately from strip hardware.",
+    "market_check": "Shopee query resurfaced only recorded440477624/53707848703 and440269597/42029627291;no qualified new offer.",
+    "remaining": [
+      "Primary power ratings",
+      "OLED physical specifications",
+      "Current condition-qualified hardware stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested individual-footdisplay priorities with exact Shopee and manufacturer evidence;preserve independent GT-Pro,expression andconsolidation queues."
   }
 }

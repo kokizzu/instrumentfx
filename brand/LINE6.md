@@ -982,6 +982,7 @@ Checked **2026-11-04** in the [manufacturer Tap/Tuner chapter](https://manuals.l
 | Field | Evidence / qualification |
 |---|---|
 | MIDI / channel separation and snapshot commands | Live1.4: defaults Global1, Bypass/Control2, Matrix¼-inch3/XLR4/Phones5; channels are configurable, but Global and Bypass/Control must differ. **CC69 values0–7 select eight snapshots;8=Next,9=Previous**, not ten stored snapshots. [Exact source scope](#stadium-xl--midi-channel-separation-and-snapshot-navigation). |
+| Display / Maintenance feedback | [Home+Song entry and FS1 LED shutdown cue](#stadium-xl--maintenance-entry-and-shutdown-indication) are distinct from OLED-strip content;approximate timing and source wording remain qualified. |
 <!-- comparison evidence ends -->
 
 Recheck2026-10-31: the original Denpasar offer remainsRp41.220.000, but search reports a six-day crawl/delivery29October–1November while direct reopening returns three-month-old text/delivery18July. These are conflicting snapshots,not verified current stock; the original dated observations above remain intact.
@@ -1257,6 +1258,13 @@ Checked **2026-11-05**, [manufacturer Stadium model list](https://line6.com/heli
 | EQ:5 mono/stereo | Parametric; Tilt; 10 Band Graphic; Cali Q Graphic; Acoustic Sim |
 
 The ten named category inventories now reconcile: **65+45+25+57+19+5+29+15+11+5=276**. Three loopers are separate. Mono/stereo counts once; Legacy is not a channel specification. Names do not establish synth tracking orsimultaneous capacity. Installed firmware,power,OLED physical details andqualified stock remain unverified.
+
+
+### Stadium XL — Maintenance entry and shutdown indication
+
+Checked **2026-11-05**, [manufacturer live Maintenance chapter](https://manuals.line6.com/en/helix-stadium/live/helix-stadium-maintenance),navigation **v1.4 RevD/v1.3 RevB/v1.2**. Hold **Home+Song while powering on for approximately10seconds**,until the main display lights,to enter Maintenance. For its shutdown procedure,use the onscreen Shutdown command,wait for **FS1’s LED to go dark**,then switch off. This is an LED cue,not verified OLED-strip text,touch sensing ora measured timing threshold.
+
+Selected Internal System Data actions delete/reset selected types;Restore Factory Defaults clears all internal user data/settings. Existing backup andcard-copy qualifications remain. The backup paragraph mistakenly says **Helix Native rear-panel microSD slot**;Native is not adopted as hardware. Current-card bundle andpower ratings remain unresolved. No reset,download ordevice operation.
 
 
 ## HX Effects
