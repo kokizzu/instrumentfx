@@ -2668,6 +2668,16 @@ Checked **2026-11-05**, [manufacturer Original/TURBO manual,August2022,firmware3
 | Display / connected-FC boundary | Show Preset Numbers,Show Scene Numbers andMain LCD Display Mode concern a connected FC; they do not establish onboard-strip formats. Ring Intensity Bright25–100%/Dim1–50% is described for FC rings,not an onboard LCD brightness range. |
 | Display / main-screen adjustment | Utilities Display separately adjusts built-in LCD contrast/viewing angle. It does not establish strip dimensions orcolor depth. |
 
+### FM9 Turbo — preset-dependent mini-display definitions
+
+Checked **2026-11-05**, [manufacturer August2022 Original/TURBO manual,firmware3.x,printed80,90](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). Explicit cover applicability;current firmware12 equivalence untested.
+
+| Required field | Evidence and limits |
+|---|---|
+| Display / per-preset definitions | Each preset has24 numbered definitions with Tap/Hold functions,LED color,mini-display settings andlayout links. They are virtual definitions,not24 physical screens;pre-MKII Turbo retains nine LCDs. Save the preset to retain edits. |
+| Display / placeholders versus overrides | Placeholders request a numbered definition anddo nothing if it is empty. Overrides replace a designated switch’s global-layout function with a preset definition. Either can make the loaded preset’s switch behavior/label differ. |
+| Display / override disable scope | Global Per-Preset Overrides can be disabled to prevent presets taking over essential switches. The documented option addresses overrides;it doesnot establish removal ofplaceholders,restoration ofevery custom label orglobal analog-volume coverage. |
+
 <!-- comparison evidence ends -->
 
 No files,software,firmware,IRs ordependencies downloaded; no device operation. Partial admission does not certify current installed behavior, stock, ownership or complete market coverage. Older source tables, prices and revision qualifications remain unchanged.
