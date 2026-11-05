@@ -5818,7 +5818,7 @@ Guitar multi-effects;distinct from GFX-3/G5. Checked2026-10-17;partial. Zoom dis
 | Dimensions / mass | **390W×220D×75H mm;2.8kg without batteries**. | [Manual p35][GFX5-M] |
 | Processing / category choices | **8 simultaneous modules;74 types**. Manual-derived inventory:BOOST1,ISO/COMP2,DRIVE33(30amp/distortion+3acoustic),EQ1,ZNR/Gate2,CAB7,MOD20,REV8 =74. BOOST gain levels and parameter modes not extra algorithms. DRIVE prose says30;intro33distortion;table includes3acoustic. | [Manual pp28–35][GFX5-M] |
 | Factory / user memory | **120=60user+60preset**,ready-to-use. Presets read-only;store edits in users. Factory-filled user memories included,not120rewritable. | [Manual pp3,17–19][GFX5-M] |
-| Synth / acoustic | ACFAT/ACSTD/ACBRI electric-to-acoustic simulations. ARRM modulation andfilters do not prove synthesis. | [Manual pp20–22,30][GFX5-M] |
+| Synth / acoustic | ACFAT/ACSTD/ACBRI electric-to-acoustic simulations. ARRM modulation andfilters do not prove synthesis. [Complete74-choice menu and PITCH prose/table conflict](#gfx-5--complete-named-menu-and-pitch-source-conflict);input-note polyphony remains unverified. | [Manual pp20–22,28–33][GFX5-M] |
 | I/O | Mono¼guitar470kΩ;stereo⅛AUX20kΩ;L/mono+R¼outputs;¼stereoPHONES;DC. No USB/MIDI/external-control socket listed. | [Manual pp4,35][GFX5-M] |
 | Power / battery / USB | **9VDC center-negative,AD0006 300mA supply**,not draw. FourAA alkaline~10h;no charging. USB power unverified. | [Manual pp2,35][GFX5-M] |
 | IR / NAM / capture | UserIR,native/convertedNAM and capture imports unverified. Factory cabinets do not establish imports. | Unresolved |
@@ -5877,6 +5877,23 @@ Printedpp4–5 name all21buttons;the nine rotary total includes the rear LEVEL c
 |---|---|
 | Expression / calibration and switching point | Power on holding ASSIGN: MIN. With pedal fully raised, press STORE: MAX. Depress pedal, release it, then press STORE to finish. The chosen forward position also sets the target-module on/off point; a somewhat higher position allows lighter activation. ERROR requires repeating from the raised-pedal step. This is a documented calibration-dependent switching point, not a separately published numeric toe-pressure threshold. |
 | Memory / factory reset | Power on holding STORE: ALINIT; another STORE restores patches to factory defaults and returns to play mode. EDIT/EXIT cancels before confirmation. The section specifically describes restoring user-group patches; it does not establish reset behavior for pedal calibration, all global settings, or an external backup mechanism. Existing60user/60preset counts remain unchanged. |
+
+### GFX-5 — complete named menu and pitch source conflict
+
+Checked **2026-11-05**, [manufacturer English manual,printed28–33](https://zoomcorp.com/media/documents/E_GFX5.pdf),19paired-page PDF;firmware unstated. Original menu text,not installed-unit verification.
+
+| Category | Complete named selections |
+|---|---|
+| BOOST —1 | BOOST;two gain levels are settings |
+| ISO/COMP —2 | COMP; ISOLTR |
+| DRIVE —33 | FD BLU; FD CLN; FD DRV; MS OLD; MS CRU; MS DRV; BG OLD; BG DRV; BG MTL; VX CRU; JAZZ C; MACH; MP 1; PV DRV; SL DRV; 9002; Z LEAD; Z PWR; V-OD; OD; PD 1; V-DIST; TB DST; HP DST; WILDFZ; FUZZ; UF 1; MTZ; METAL; MT 7TH; AC FAT; AC STD; AC BRI |
+| EQ —1 | EQUALIZER |
+| ZNR —2 | ZNR; D GATE |
+| CABINET —7 | BOX; Z BOX; BR CMB; CMB; CMB+EV; STK; STK+EV |
+| MOD —20 | CHORUS; V-CHO; FLANGE; PHASE; TREMOL; A-PAN; A-WAH; P-WAH; STEP; PITCH; P-PIT; RING M; SLOW-A; FILTER; DELAY; ECHO; T-TRIP; TRMCHO; RINVIB; VIBE |
+| REV —8 | HALL; ROOM; SPRING; MN-DLY; PP-DLY; DLYHAL; DLYROM; HLDDLY |
+
+**PITCH conflict:** prose says+1/−2octaves;SHIFT table instead lists−12…−1,dt,+1…+12,+24semitones. Preserve both. **P-PIT** has16modes;chord handling remains unverified. STEP/FILTER process filtering;SLOW-A shapes attack;T-TRIP varies delay with picking;RINVIB combines ring modulation/vibrato. None proves tracking synthesis. AC FAT/STD/BRI are acoustic simulations. MOD alternatives share one module;74 choices are not74simultaneous blocks. Existing hold-delay/sampler restrictions remain.
 
 ## GFX-8 — partial discovery lead
 

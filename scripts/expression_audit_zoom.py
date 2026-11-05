@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): complete GFX-4 named effects and pitch boundaries'
+        message='research(zoom): complete GFX-5 menu and preserve pitch-range conflict'
     print(git('commit','-m',message))

@@ -156603,6 +156603,15 @@
         "instrument": "ACOSIM",
         "qualification": "Original42-choice census;sharedslots andconditionalhold/bypass limits",
         "evidence_basis": "Manufacturer English operation manual21–26;focused2026-11-05,notcompletefreshfourcategoryaudit"
+      },
+      {
+        "key": "Zoom::GFX-5",
+        "canonical": "brand/ZOOM.md#gfx-5--complete-named-menu-and-pitch-source-conflict",
+        "synth": "Dedicated engine unverified;ARRM/filter/envelope distinction",
+        "pitch": "PITCHprose+1/−2octaves conflicts withSHIFT−12…−1,dt,+1…+12,+24;P-PIT16modes;polyphonyunknown",
+        "instrument": "ACFAT/ACSTD/ACBRI",
+        "qualification": "Complete74-selectionmenu;sharedslots;hold/samplerrestrictions",
+        "evidence_basis": "Manufacturer English19PDFpages,printed28–33;focused2026-11-05,notfullfreshfourcategoryaudit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -174730,5 +174739,33 @@
       "Inputpolyphony,software/import andscreen gaps"
     ],
     "next": "Continue accessible individual-footdisplay/Shopee priorities;nextsystematic existingprofile GFX-5 namedmenu;preserve Mini/Nano globalvolume,M-VAVEwiring,GT-Pro andgeneralGP200JR→Prime→GE300 queues"
+  },
+  "gfx5_named_census_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/ZOOM.md#gfx-5--complete-named-menu-and-pitch-source-conflict",
+    "source": "https://zoomcorp.com/media/documents/E_GFX5.pdf",
+    "revision": "English19pairedPDFpages,printed28–33;firmware unstated",
+    "category_counts": {
+      "BOOST": 1,
+      "ISO_COMP": 2,
+      "DRIVE": 33,
+      "EQ": 1,
+      "ZNR": 2,
+      "CAB": 7,
+      "MOD": 20,
+      "REV": 8,
+      "total": 74
+    },
+    "finding": "Complete named menu andPITCHprose/table direction-rangeconflict preserved;no chord/synthinference",
+    "market": "Exact240675127/41070755630 repeatRp1200000Habis4monthcache;category443709115/45515017847 repeatRp1120000;no newqualifiedconditionstock",
+    "additional_creative_records": 98,
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "PITCHprose/tablecorrection andinputpolyphony",
+      "Visualcontrols/displaytechnicalspecs",
+      "QualifiedShopeeconditionstockbundle",
+      "Software/import andexternal-control gaps"
+    ],
+    "next": "Returntoaccessibleindividual-footdisplay/Shopee priorities andsystematicremainingcatalogue;preserve Mini/Nano globalvolume,M-VAVEwiring,GT-Pro andGP200JR→Prime→GE300queues"
   }
 }
