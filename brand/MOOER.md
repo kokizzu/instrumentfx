@@ -2216,6 +2216,20 @@ Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no si
 |---|---|
 | Live / conditional trails | Own V01 manual,p78: seven delay and seven reverb types support trails. Same eligible type and Trail On required across patches; destination preset governs. Enabled trails move effects to chain end, permit only VOL/CAB afterward and consume DSP even when effects are off. Not universal gapless switching or global EXP tail attenuation. [Exact limits](#ge300-lite--conditional-trails-routing-and-dsp-boundaries). |
 
+
+### GE300 Lite — manufacturer-confirmed Lite omissions and named additions
+
+Checked **2026-11-06**. [MOOER’s Chinese exact-model product page](https://cn.mooeraudio.com/product/48.html), unstamped product revision, explicitly says Lite omits the original GE300’s built-in expression pedal and synthesizer module. This resolves those two earlier unknowns for the documented Lite architecture; it does not certify every later installed effect or establish global volume. Its sibling-comparison prose is not used to copy any other GE300 specifications.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Expression / built-in correction | **No built-in treadle**, explicitly manufacturer-stated; two external EXP inputs remain. External toe compatibility, global assignment, range and signal coverage remain unresolved. |
+| Synth / exact Lite architecture | **Original GE300 synthesizer module omitted**, explicitly manufacturer-stated. Do not present Lite as having the original three-layer engine. Mono/Poly Pitch, acoustic simulators and tonal capture remain separate capabilities. This is not a universal claim about all synth-like recipes or future firmware. |
+| Display / panel technology | **5-inch IPS** stated by the exact Lite page; manual’s color LCD854×480 remains independent evidence. Touch remains unverified; no panel specification inferred merely from the original GE300 comparison. |
+| Categories / V5.0.2 named additions | [Own release notes](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html), heading **2026-01-05**: DS/OD **ROD881, RED AT, ODR1, BE OD**; FXA **Noise Reducer**; FXB **Auto Pan, Stereo Enhancer, Stereo Rotary, Doubling**; Delay **Studio Delay, Morph PingPong**; Reverb **Theater, Cathedral, Chorus Reverb**. These name the previously counted additions, not a new total or simultaneous-block increase. |
+
+The product page retains historical20IR wording; V5.0.2’s50-slot qualification above remains. Release dates are the page’s headings, not independently established first-release or installed versions. No exact Shopee hardware offer emerged from this pass; no IDR or stock inferred. No local download, installation or device operation.
+
 <!-- comparison evidence ends -->
 
 Firmware qualification: own downloads labels **V5.0.2,2026-01-05** as a factory-resetting major update,with startup black-screen andEXP FXloop-mix fixes. Backups are required by those notes; no update performed. Installed firmware andpreset compatibility remain unverified.

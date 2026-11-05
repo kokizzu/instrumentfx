@@ -156442,11 +156442,58 @@
       {
         "key": "MOOER::GE300 Lite",
         "canonical": "brand/MOOER.md#ge300-lite",
-        "synth": "Dedicatedengineunverified;originalGE300nottransferred",
+        "synth": "Manufacturer explicitly omits original GE300 synth module; no original three-layer engine transfer",
         "pitch": "MonoPitch/PolyPitch;Detune;ownrevisionlimits",
         "instrument": "Acoustic1/2/3occupyAMP;ToneCaptureseparate",
         "qualification": "V01/V02historicalmanuals;currentequivalenceunverified",
-        "evidence_basis": "FocusedexactLitemanufacturertext;notfullfreshfourcategoryaudit"
+        "evidence_basis": "FocusedexactLitemanufacturertext;notfullfreshfourcategoryaudit",
+        "architecture_followup": {
+          "checked_date": "2026-11-06",
+          "canonical": "brand/MOOER.md#ge300-lite--manufacturer-confirmed-lite-omissions-and-named-additions",
+          "sources": [
+            "https://cn.mooeraudio.com/product/48.html",
+            "https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html"
+          ],
+          "revision": "Unstamped exact Lite product; own V5.0.2 heading2026-01-05",
+          "built_in_expression": false,
+          "original_ge300_synth_module": false,
+          "screen": "5-inch IPS; color854x480 independently retained from manual; touch unknown",
+          "named_v502_additions": {
+            "DS/OD": [
+              "ROD881",
+              "RED AT",
+              "ODR1",
+              "BE OD"
+            ],
+            "FXA": [
+              "Noise Reducer"
+            ],
+            "FXB": [
+              "Auto Pan",
+              "Stereo Enhancer",
+              "Stereo Rotary",
+              "Doubling"
+            ],
+            "Delay": [
+              "Studio Delay",
+              "Morph PingPong"
+            ],
+            "Reverb": [
+              "Theater",
+              "Cathedral",
+              "Chorus Reverb"
+            ]
+          },
+          "remaining": [
+            "Full current category census and DSP limits",
+            "External toe wiring/global volume endpoints/coverage",
+            "Touchscreen status and complete button census",
+            "Qualified exact Shopee hardware new/used offers"
+          ],
+          "market": "No qualified exact GE300 Lite Shopee offer recovered; original GE300 offers not reused",
+          "next": "Continue unresolved display-priority and no-treadle profiles; preserve GT-Pro and GP-200JR→Prime→GE300 queues",
+          "active_inventory_unchanged": 402
+        }
       },
       {
         "key": "Behringer::Bass V-AMP PRO",
