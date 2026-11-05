@@ -1849,7 +1849,7 @@ Reviewed 2026-10-14. Guitar/bass multi-effects, **large**, no built-in expressio
 | NAM / capture | Native NAM, converted NAM and user amp-capture loading **not established** in the checked3.80 documentation. Helix amp modeling and IR import are not NAM support |
 | Audio I/O | Two¼-inch instrument/line inputs; two¼-inch balanced TRS/unbalanced TS main outs; one¼-inch stereo TRS send; two¼-inch returns that can become aux inputs; dedicated¼-inch stereo headphones. No XLR mic/phantom or3.5mm aux socket [M] |
 | MIDI / USB | Five-pin DIN MIDI IN/OUT-THRU,USB-B for audio/MIDI/editor; shared external-controller socket as above [M] |
-| Power | Supplied DC-3 family adapter; panel specifies **9V DC/3A**. This is a supply specification, not measured consumption. Polarity not independently resolved from the parsed panel; USB bus/battery operation not established for XL in this pass. Use the supplied adapter [M,F] |
+| Power | **Supplied DC-3H:9V,up to3A,center-negative**, cross-checked in the exact [Japan XL DC In description](https://line6.jp/hx-stomp-xl/) and [named adapter specification](https://line6.jp/effects-pedals/accessories/),2026-11-05. Adapter rating,not measured XL draw. The product page says use only the included adapter; the [XL FAQ](https://kb.line6.com/hx-stomp-xl-faq) permits compatible third-party supplies. Preserve this guidance difference. Plug dimensions,mains-label verification and USB/battery operation remain unverified. Earlier panel9V/3A and unknown-polarity findings retained below [M,F]. |
 | Apps | **HX Edit Windows/macOS**, full editing/IR/preset management. iPad/iPhone USB audio/MIDI via appropriate adapter is documented, not a mobile editor. Linux full editor not established [M,P] |
 | USB audio | **8 recording channels into the computer,6 active playback channels to hardware**,24-bit/up to96kHz; reamp. Host output7/8 are reserved in the3.80 manual. State direction rather than misreporting eight active playback channels [M,C] |
 | Live/practice | Three looper algorithms; full-speed60s mono/30s stereo,half-speed120s mono/60s stereo where supported. Looper occupies a block. Analog or DSP bypass/trails,Command Center,Pedal Edit. No onboard drum-machine claim established [M,C] |
@@ -1903,7 +1903,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Processing and memory** (Processing, storage and loading): 8 DSP-limited blocks; 128 editable presets, 4 snapshots each. Manual 3.80 transcription: 274 named effects across 10 categories, plus looper and separate amps/cabs. Acoustic Sim and synth algorithms documented
 - **IR / NAM / captures** (Processing, storage and loading): 128 IR-library locations, 1024/2048 samples; no NAM/capture support established in checked 3.80 evidence
 - **Connection / software highlights** (Connections, power and apps): Stereo inputs/outs, stereo-send/two-return loop, dedicated phones, DIN MIDI, USB-B; HX Edit Windows/macOS. Manual distinguishes 8 recording and 6 active playback channels
-- **Documented power** (Connections, power and apps): Supplied DC-3-family supply; panel 9 V/3 A, not measured draw; polarity/USB-operation gap retained
+- **Documented power** (Connections, power and apps): DC-3H identity and center-negative9V/up-to3A adapter rating now manufacturer cross-checked; USB operation and measured draw remain unverified
 - **Used IDR** (IDR observations and original commits): ?
 - **Retail observation** (IDR observations and original commits): Rp14.900.000, cached indexed ask; not active-stock proof
 - **Original model commit** (IDR observations and original commits): `b4ba5b5559dcdd33b196153d4557408d71cbb89f`
@@ -1956,6 +1956,13 @@ Checked **2026-11-05**, [exact-model manufacturer FAQ](https://kb.line6.com/hx-s
 | Software / Windows ARM | The FAQ answers negatively but explains that ARM/Snapdragon drivers have **not been tested**. Treat this as unverified manufacturer support, not proof every Windows ARM audio/MIDI operation is impossible. No current driver-build certification is established. | Exact XL FAQ, driver question |
 
 The FAQ also permits Stomp-compatible third-party supplies for XL, but supplies no numerical polarity or current rating there. Exact XL adapter polarity and USB/battery operation remain unresolved. Existing firmware, preset-import qualifications and source conflicts remain intact. No software installed or device operated.
+
+
+### HX Stomp XL — supplied DC-3H identity and regional polarity evidence
+
+Checked **2026-11-05**. The [exact XL Japanese product page,DC In](https://line6.jp/hx-stomp-xl/) explicitly names the included **DC-3H**. The [same manufacturer’s accessory specification](https://line6.jp/effects-pedals/accessories/) names **DC-3h**,9V,up to3000mA,center-negative,120–240VAC50/60Hz auto-ranging. This is named-part cross-checking,not borrowing a sibling processor specification. Letter-case variants do not establish separate electrical revisions.
+
+The current power row supersedes earlier unknown-polarity observations above,which remain as dated research history. These sources do not measure consumption,verify a particular used unit’s adapter label,establish connector dimensions or100V mains support,or prove USB/battery-powered operation. The regional product’s included-adapter-only instruction differs from the FAQ’s compatible-third-party statement; neither is silently discarded. No connection,measurement ordevice operation performed.
 
 
 ## M5

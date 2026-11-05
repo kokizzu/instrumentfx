@@ -170952,5 +170952,24 @@
       "Factory-fill and qualified current offers"
     ],
     "next": "Continue manufacturer-backed requested footswitch-display profiles and exact Shopee leads; retain independent GT-Pro, expression and consolidation queues."
+  },
+  "hxstompxl_dc3h_polarity_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/LINE6.md#hx-stomp-xl--supplied-dc-3h-identity-and-regional-polarity-evidence",
+    "sources": [
+      "https://line6.jp/hx-stomp-xl/",
+      "https://line6.jp/effects-pedals/accessories/",
+      "https://kb.line6.com/hx-stomp-xl-faq"
+    ],
+    "revision": "Undated manufacturer regional product and accessory pages",
+    "finding": "Exact XL page names included DC-3H; named adapter entry gives9V/up to3000mA/center-negative/120–240VAC50–60Hz. Supply rating not device draw. Included-only versus third-party guidance difference preserved.",
+    "supersedes": "Earlier unknown XL supplied-adapter polarity; historical observations retained",
+    "remaining": [
+      "Plug dimensions and actual adapter label",
+      "Measured draw and USB/battery operation",
+      "Factory-fill and qualified current offers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Return to requested individual-footdisplay profiles and exact Shopee hardware leads; preserve GT-Pro, expression and consolidation queues."
   }
 }
