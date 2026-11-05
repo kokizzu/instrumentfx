@@ -168766,5 +168766,38 @@
     ],
     "next": "Finish other accessible Stadium named inventories; keep requested display hardware gaps queued and preserve GP-200JR → Prime → GE300 and expression queues.",
     "inventory_change": 0
+  },
+  "stadium_xl_named_modulation_reverb_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Line 6 Helix Stadium XL Floor",
+    "source": {
+      "url": "https://line6.com/helix-stadium-models/?locale=en_US",
+      "sections": "Modulation and Reverb",
+      "version_scope": "Essex Vibe and Dimension W 1.4; remaining listed entries 1.0"
+    },
+    "counts": {
+      "modulation": {
+        "mono_stereo": 26,
+        "stereo": 5,
+        "mono": 1,
+        "legacy": 25,
+        "total": 57
+      },
+      "reverb": {
+        "mono_stereo": 13,
+        "legacy": 12,
+        "total": 25
+      }
+    },
+    "canonical": "brand/LINE6.md#stadium-xl--named-modulation-and-reverb-inventories",
+    "qualification": "Channel formats are distinct from tracking; preserves Poly Detune versus Pitch Sustain footnote conflict and DSP/installed-version limits.",
+    "remaining": [
+      "Named Distortion, Dynamics and EQ inventories",
+      "Primary power ratings",
+      "OLED physical specifications",
+      "Qualified current Indonesian hardware stock"
+    ],
+    "next": "Complete remaining Stadium effect names; keep display hardware and stock gaps queued while preserving expression and GP-200JR → Prime → original GE300 queues.",
+    "inventory_change": 0
   }
 }

@@ -878,6 +878,7 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Display / brightness and dimming | [Live v1.4 global settings](https://manuals.line6.com/en/helix-stadium/live/global-settings): XL strip brightness **0% is the lowest setting; strips cannot be completely switched off**. Idle dimming affects main screen and strips after the documented input/activity conditions. Brightness and LED-ring settings do not establish OLED pixel color or diagonal. Checked **2026-11-01**; no device test. |
 | Preset down / up | Same [global settings](https://manuals.line6.com/en/helix-stadium/live/global-settings) assigns **FS1/FS7** to Bank, Preset, Snapshot, Song or Marker up/down in Preset/Snapshot/Combo modes; direction can be swapped. Stomp-mode use requires Command Center assignment. This verifies configurable onboard preset stepping, not a dedicated unchangeable pair or global volume. |
 | Dimensions / weight | **498 W × 257 D × 92 H mm; 5.25 kg**. Manufacturer also lists 19.4 W × 10.1 D × 3.6 H inches and 11.5 lb; rounded mixed units retained as published. [Support tips][SX-K] |
+| Processing / named modulation and reverb | [57 Modulation and25 Reverb choices](#stadium-xl--named-modulation-and-reverb-inventories); Essex Vibe/Dimension W introduced1.4, other listed entries1.0. Five current modulation entries stereo-only, Poly Detune mono;13 current reverbs mono/stereo. Legacy channel format unverified. DSP andinstalled firmware remain separate. |
 | Processing / named delay choices | [45 named Delay entries](#stadium-xl--named-delay-inventory-and-channel-formats): 28 current and17 Legacy. Five current entries are stereo-only; Poly Sustain is mono. Source appearance1.0 is separate from installed firmware and DSP-limited concurrency. |
 | Processing / named filter and pedal effects | [31 named choices](#stadium-xl--named-filter-wah-and-volume-pan-inventory): Filter15, Wah11, Volume/Pan5. Four filters and all wahs list mono/stereo; Pan/Stereo Width/Stereo Imager are stereo. Model-list appearance1.0 is not installed-firmware proof; filter processing does not establish synth tracking or global volume assignment. |
 | Simultaneous blocks | Manual describes **46 processing positions in Super Serial template**; exact DSP/model limits remain separate. Do not assume46 heavy amps. Agoura amp models and HX-compatible effects; official list row counts: distortion **65**, delay **45**, reverb **25**, modulation **57**, dynamics **19**, EQ **5**, pitch/synth **29**, filter **15**, wah **11**, volume/pan **5**, looper **3**. These include Legacy rows and count each named mono/stereo entry once, not simultaneous blocks. Amp-table audit: **142 distinct name/subcategory entries** after removing one repeated Cali 2C+ row: guitar 24 Agoura + 66 Guitar + 28 Legacy; bass 6 Agoura + 11 Bass + 6 Legacy; 1 mic preamp. Same names across Agoura/Legacy remain separate. **46 cabinets: 38 guitar + 8 bass**; **12 mic choices per cab family**. These are derived table counts, not expanded channel options. [Model list][SX-ML], [Presets][SX-M], [Blocks][SX-B] |
@@ -1223,6 +1224,22 @@ Checked **2026-11-05**, [manufacturer Stadium model list, Delay table](https://l
 | Legacy:17 | Ping Pong; Dynamic; Stereo; Digital; Dig w/Mod; Reverse; Lo Res; Tube Echo; Tape Echo; Sweep Echo; Echo Platter; Analog Echo; Analog w/Mod; Auto-Volume Echo; Multi-Head; Bubble Echo; Phaze Eko |
 
 Count each mono/stereo row once. Identical names in current andLegacy groups remain separate entries. Legacy is not a channel specification. Availability does not establish synth tracking,tracking quality orsimultaneous capacity. Poly Sustain retains the [combined-group DSP limits](https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp). Other named inventories,power andOLED hardware gaps remain open. No download ordevice operation.
+
+
+### Stadium XL — named modulation and reverb inventories
+
+Checked **2026-11-05**, [manufacturer Stadium model list](https://line6.com/helix-stadium-models/?locale=en_US). **Essex Vibe/Dimension W:1.4; other entries below:1.0.**
+
+| Source group / format | Named choices |
+|---|---|
+| Modulation:26 mono/stereo | Optical Trem; 60s Bias Trem; Essex Vibe; Tremolo; Harmonic Tremolo; Bleat Chop Trem; Script Mod Phase; Pebble Phaser; Ubiquitous Vibe; FlexoVibe; Deluxe Phaser; Gray Flanger; Harmonic Flanger; Courtesan Flange; Dynamix Flanger; Chorus; 70s Chorus; PlastiChorus; Ampeg Liquifier; 4-Voice Chorus; Dimension W; Bubble Vibrato; Triple Rotary; Retro Reel; Double Take; AM Ring Mod |
+| Modulation:5 stereo | Trinity Chorus; Vibe Rotary; 122 Rotary; 145 Rotary; Pitch Ring Mod |
+| Modulation:1 mono | Poly Detune |
+| Modulation:25 Legacy | Pattern Tremolo; Panner; Bias Tremolo; Opto Tremolo; Script Phase; Panned Phaser; Barberpole; Dual Phaser; U-Vibe; Phaser; Pitch Vibrato; Dimension; Analog Chorus; Tri Chorus; Analog Flanger; Jet Flanger; AC Flanger; 80A Flanger; Frequency Shift; Ring Modulator; Rotary Drum; Rotary Drum/Horn; Tape Eater; Warble-Matic; Random S&H |
+| Reverb:13 mono/stereo | Dynamic Hall; Dynamic Plate; Dynamic Room; Dynamic Ambience; Dynamic Bloom; Shimmer; Hot Springs; Nonlinear; Glitz; Ganymede; Searchlights; Plateaux; Double Tank |
+| Reverb:12 Legacy | Plate; Room; Chamber; Hall; Echo; Tile; Cave; Ducking; Octo; ‘63 Spring; Spring; Particle Verb |
+
+Totals: **57 Modulation,25 Reverb**. Formats describe audio channels,not tracking polyphony. Legacy format,installed library andsimultaneous DSP fit remain unverified. Existing Poly Detune/source-footnote conflict is preserved. No download ordevice operation.
 
 
 ## HX Effects
