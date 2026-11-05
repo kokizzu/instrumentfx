@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): qualify KATANA GO synth tracking and octave scope'
+        message='research(boss): index GT-10B creative effects and Sound Hold recall'
     print(git('commit','-m',message))

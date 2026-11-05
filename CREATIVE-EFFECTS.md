@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **88 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **89 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -134,6 +134,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [BOSS GT-3](brand/BOSS.md#gt-3) | Guitar Synth Square/Saw/Brass/Bow; note polyphony unverified | HR fixed-shift modes accept chords; Mono/Harmony single-note | Acoustic Guitar Simulator; Pickup Simulator; separate AC Guitar preamp | [Combined HR mode check](brand/BOSS.md#gt-3--combined-harmonist-modes-and-creative-index-scope); Humanizer/Ring Mod/Slicer/Auto Riff; shared MOD/SFX limits |
 | [BOSS Pocket GT](brand/BOSS.md#pocket-gt) | Overtone harmonics; dedicated synth unverified | Pitch Shifter ±24; octave-down; single-note harmony/bend | Acoustic Guitar Simulator; Guitar Simulator; Acoustic Processor | [Own English02 check](brand/BOSS.md#pocket-gt--creative-index-and-held-ambience-limits); Feedbacker/Slow Gear/Tera Echo Hold; saves Hold Off |
 | [BOSS KATANA:GO](brand/BOSS.md#katanago) | Guitar Wave Synth/Bass Synth Saw/Square, single-note | Heavy Octave supports chords; ±24 Pitch Shifter; single-note harmony | Guitar acoustic simulation/processing; bass body/defret treatments | [Mode-specific manual check](brand/BOSS.md#katanago--synth-tracking-and-heavy-octave-scope); Slicer/Humanizer/Ring Mod/Slow Gear; octave overview/detail discrepancy |
+| [BOSS GT-10B](brand/BOSS.md#gt-10b) | Saw/Square Bass Synth, single-note | Pitch Shifter ±24; single-note Harmonist | Acoustic-bass and pickup/body simulation; Defretter | [Sound Hold saves Off](brand/BOSS.md#gt-10b--creative-index-and-sound-hold-recall), distinct from Phrase Loop; Slicer/Humanizer/Ring Mod/Slow Gear; shared FX slots |
 
 ## Separately recorded partial leads
 

@@ -1692,6 +1692,16 @@ Checked2026-10-18 in the manufacturer-authored2008 manual G6027127R0, printedp13
 | I/O / XLR wet-direct split | SUB OUTPUT mode L/R sends stereo normally. **Effect/Direct sends the processed stereo mix as mono to XLR L,and pre-effect mono to XLR R**. INPUT SELECT,INPUT LEVEL andPRES. still affect the direct path;it is not necessarily untouched pickup signal. DIGITAL OUT andUSB send the same digital audio source (p68),not proof of the USB bit depth. |
 | Looper / live patch-change trails | **Fast discards the previous delay/reverb decay; Smooth can retain it**. Conditions include matching effect-chain placement,identical delay type/time,and compatible other-effect states/parameters. The manual warns tails may still fail in some cases. Smooth switching may be delayed **one tempo beat**;this is not unconditional gapless switching or a fixed millisecond latency. |
 
+### GT-10B — creative-index and Sound Hold recall
+
+Checked 2026-11-05 against [manufacturer-authored manual G6027127R0,©2008][G10B-T],printed pp111–113;[official indexed p113](https://cdn.roland.com/assets/media/pdf/GT-10B_OM.pdf) corroborates Sound Hold. Full official PDF exceeds reader limits;no download or unit test.
+
+| Field | Finding / qualification |
+|---|---|
+| Pitch / range and note handling | Pitch Shifter spans ±24 semitones;Mono is single-note. Fast/Medium/Slow chord behavior remains unverified here. Harmonist requires single notes;generated voices and stereo outputs do not establish input polyphony. |
+| Looper / held-note recall | Sound Hold requires single notes and saves Hold Off. It sustains a bass note while further playing continues;this is separate from Phrase Loop recording. Rise Time0–100 is a displayed range,not milliseconds. |
+| Synth / creative scope | Existing Saw/Square Bass Synth and acoustic-bass/defret records remain distinct from Slicer,Humanizer,Ring Mod andSlow Gear. FX1/FX2 selections compete within their slots. Acoustic-bass processing is not acoustic-guitar simulation. |
+
 <!-- comparison evidence ends -->
 
 GT10B Shopee searches surfaced adapter listings and foreign retailers rather than an accepted Indonesian unit. Seller/item,condition,stock,region,bundle,warranty,voucher anddelivered total remain unknown. Manufacturer manual support entry found;direct expected PDF URL inaccessible. No license acceptance,downloads,installation ordevice operation.
