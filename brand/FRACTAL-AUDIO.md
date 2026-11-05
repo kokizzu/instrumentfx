@@ -1006,6 +1006,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Processing / simultaneous limits | **12×4 grid**,DSP-limited. June2023 exactFM3 inventory:36 available classes,63 summed instance allowances including routing/control;not63 simultaneous effects. Historical1.x CPU limit approximately80%,overload mutes processing. Current13.0 equivalence untested. [Inventory](#fm3-original--dated-block-inventory-and-looper);[CPU](#fm3-original--initial-memory-dsp-and-current-support). |
 | Categories / November reference | [November2026 FM3 column](#fm3-original--november-reference-category-and-instance-comparison): 36 supported rows,63 summed allowances including utilities, **not63 simultaneous effects**. Delay shared29 becomes27 after two explicit FM3 exclusions. Reference counts are not installed certification or completed named censuses. |
 | Processing / Drive named census | [87-choice reconciliation and full shared names](#fm3-original--drive-census-and-lo-fi-processing), November2026 reference. Two FM3 Drive instances, CPU permitting. Bit Reduce/Sample Rate are lo-fi processing; Shimmer Drive is a boost, not shimmer reverb. Installed equivalence/introduction versions unverified. |
+| Processing / Megatap texture controls | [Spacing, diffusion and stereo limits](#fm3-original--megatap-texture-and-stereo-control-boundaries):four Time Shape patterns;near-zero Spread can cancel taps. Envelope follower acts on effect input,not global pedal volume. Named22-type census remains incomplete. |
 | Processing / Megatap and Reverb limits | [November reference](#fm3-original--megatap-limits-and-reverb-pitch-exclusion): Megatap4s/64 FM3 taps; Reverb integrated pitch unavailable on FM3. One instance each, CPU permitting. Headline22 Megatap/79 Reverb choices are not completed named inventories; sustained tails do not establish phrase-loop retention. |
 | Processing / named Multi-Delay choices | [39 types](#fm3-original--named-multi-delay-types-and-internal-processing): six core plus33 variants, one FM3 block, CPU permitting. Quad Parallel/Series include ring/comb processing; Quad Tape lacks the separate chorus subsection. Internal processing is not additional block capacity or synth-polyphony proof. November2026 reference; installed equivalence untested. |
 | Processing / named Plex choices | [45 Plex types](#fm3-original--named-plex-types-and-sustained-tail-processing): five core plus40 variants, one FM3 block, CPU permitting. Detune±50cents; Shift±24semitones. Internal voices and held tails do not establish tracking-synth polyphony or separate looper storage. November2026 reference, installed equivalence untested. |
@@ -1327,6 +1328,18 @@ The source reconciles **87 choices:21+42+24**, expanding Timothy Up/Down/Mid int
 
 **Bit Crusher**, Bit Reduce and Sample Rate establish lo-fi processing. Bit Reduce subtracts from24-bit resolution;20 produces4-bit effect processing. Sample Rate deliberately adds aliasing. Neither specifies the hardware converters or establishes synthesis. **Shimmer Drive is a boost**, not shimmer reverb. NoAmp Bass Pre removes NoAmp Bass DI’s modeled speaker emulation; these names add no physical DI connector. Other category-list and hardware gaps remain open. No download or device operation.
 
+
+### FM3 original — Megatap texture and stereo-control boundaries
+
+<a id="fm3-original--megatap-texture-and-stereo-control-boundaries"></a>
+
+Checked **2026-11-05**, [manufacturer Blocks Guide,November2026,p58](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), explicitly covering FM3. This is a shared reference,not an installed-firmware test orintroduction-version claim.
+
+- **Time Shape:** EXP/LOG,SIGMOID,COSINE,SINE. Time Alpha50% evenly spaces taps;lower values shorten successive gaps,higher values lengthen them. Time Randomize scatters tap positions. Amplitude shaping separately changes tap levels.
+- With **Pan Shape CONSTANT**, Pan Alpha0% is left and100% right. Megatap’s **Stereo Spread0%** follows the selected pan pattern;unlike a generic width control,it does not inherently mean mono. Values close to zero can cancel some taps,according to the guide.
+- **Diffusion Mix/Time** soften the input before the tap network;diffuser LFO modulation adds chorus-like movement. These are controls inside Megatap,not extra Reverb/Chorus block instances. The input envelope follower creates swells rather than universal analog expression-volume control.
+
+Retain the FM3’s separate64-tap/four-second limits,one-block CPU ceiling andunresolved22-name inventory. Actual phase behavior,preset spillover andall-output pedal coverage remain untested.
 
 ## FM9 MKII Turbo
 

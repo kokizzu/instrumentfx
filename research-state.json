@@ -169169,5 +169169,29 @@
       "No new qualified Shopee offer found; OLX category snippets insufficient for seller/item/condition qualification"
     ],
     "next": "General cycle returns to Valeton GP-200JR; preserve individual-foot-display and expression queues; pursue remaining substantive exact-model gaps"
+  },
+  "fm3_original_megatap_texture_20261105": {
+    "model": "Fractal Audio FM3 original",
+    "status": "partial source-backed texture controls; named census incomplete",
+    "checked": "2026-11-05",
+    "source": {
+      "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "November2026",
+      "page": 58
+    },
+    "findings": [
+      "Four Time Shape patterns; Alpha50 evenly spaced",
+      "Spread0 follows Pan Shape, not generic mono-width semantics; nearzero tap cancellation warning",
+      "Diffusion before taps and internal LFO do not add blocks"
+    ],
+    "remaining": [
+      "22 complete Megatap names",
+      "79 complete Reverb names",
+      "Original display specifications and headphone variants",
+      "Global expression endpoint/recall/output coverage",
+      "Qualified current Indonesian hardware offers"
+    ],
+    "next": "Continue individual-display model gaps; general GP-200JR -> Prime -> GE300 cycle preserved",
+    "inventory_change": 0
   }
 }

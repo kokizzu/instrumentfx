@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(mooer): clarify original GE300 filter envelope and stereo limits'
+        message='research(fractal): clarify original FM3 Megatap texture and stereo controls'
     print(git('commit','-m',message))
