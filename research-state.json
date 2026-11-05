@@ -165739,7 +165739,18 @@
     ],
     "creative_index_unchanged": 64,
     "inventory_changed": false,
-    "independent_queues_preserved": true
+    "independent_queues_preserved": true,
+    "japanese_special_followup": {
+      "checked": "2026-11-06",
+      "source": "https://zoomcorp.com/media/documents/J_G5_s9RBOUt.pdf",
+      "revision": "Japanese original operation manual,entries083–089;date/firmware unstated",
+      "canonical": "brand/ZOOM.md#g5--picking-responsive-pitch-and-special-processing",
+      "finding": "Picking-responsive pitch contours,relative ring-mod/sampling controls andtriggered effects distinguished fromMonoSynth;HPS chord handling unverified.",
+      "remaining": "Current installed/edition equivalence,measured tracking,display/control inspection,output coverage andqualified hardware offers",
+      "next": "Continue individual-footdisplay processors andnew exact Shopee evidence;defer unchanged access gaps. Preserve GT-Pro,expression and GP-200JR→Prime→GE300 queues.",
+      "active_inventory_unchanged": 402,
+      "additional_creative_index_unchanged": 107
+    }
   },
   "b3n_creative_trigger_checkpoint_20261104": {
     "checked_date": "2026-11-04",
