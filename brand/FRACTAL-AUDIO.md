@@ -2533,6 +2533,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | Categories / Resonator andParametric EQ reference | [Comb-filter modes andband-specific EQ](#fm9-turbo--resonator-modes-and-parametric-eq-bands);FM9 block limits2/4,CPU permitting. Resonator chords do not establish chord tracking. |
 | Categories / Drive reference | [87-choice reconciliation andshared names](#fm9-turbo--drive-census-and-lo-fi-processing);three FM9 blocks,CPU permitting. Lo-fi controls are distinct from synthesis;Shimmer Drive is a boost. |
 | Categories / Crossover,Multiband andMultiplexer reference | [Frequency splitting,dynamics andsource selection](#fm9-turbo--crossover-multiband-and-multiplexer-scope);two FM9 instances each,CPU permitting. Generic source menus do not add physical inputs. |
+| Categories / November Synth reference | [Four Track modes including QUANTIZE](#fm9-turbo--november-synth-quantize-and-monophonic-scope);one FM9 Synth block,CPU permitting. Three oscillators remain monophonic;introduction firmware unverified. |
 | Preset memory | **512 editable locations**,including overwritable factory entries; **eight scenes each**. [Manufacturer FM9-family default:384](#fm9-turbo--family-factory-default-and-backup-scope);exact pre-MKII Turbo shipping allocation andcurrent unit contents remain unverified. Not extra protected locations. [Shared manual p39](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**; [manual/envelope/pitch tracking modes](#fm9-turbo--synth-tracking-versus-manual-generation) are distinct. Voice count is not note polyphony. Acoustic input documented separately; electric-to-acoustic simulation remains unknown. [Own-applicable manual p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Audio I/O | Mono unbalanced¼-inch Input1; stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR and same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Manual p21](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
@@ -2736,6 +2737,15 @@ FM9 permits **two instances each**,CPU permitting. **Crossover** uses fourth-ord
 **Multiband Compressor** splits low/mid/high with independent compression;crossovers50–5,000Hz and100–10,000Hz,12/24dB-octave slopes. Bands recombine;they are not three independent effect slots.
 
 **Multiplexer** selects one source at a time rather than mixing sources. Input modes:STEREO,LEFT,RIGHT,SUM L+R. It has Level/Balance but no bypass. The generic Inputs1–4 listing does not prove anFM9 Input4 connector;exact model menu availability remains unverified. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
+
+
+### FM9 Turbo — November Synth QUANTIZE and monophonic scope
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,102](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf);Original/Turbo companion-reference applicability as qualified above. This dated primary section supplements the older undatedp91 evidence;no feature is borrowed from MKII hardware.
+
+Four **Track** modes: **OFF,ENV ONLY,PITCH+ENV,QUANTIZE**. QUANTIZE follows pitch/envelope while snapping pitch to the nearest note. **Tracking Mode GUITAR/BASS** changes tracking range,not note polyphony;BASS reaches approximatelyF#0. The three-oscillator engine remains explicitly **monophonic**,with one FM9 Synth block,CPU permitting. Turning a voice OFF conserves CPU.
+
+The older decision not totransfer QUANTIZE remains historical;this check establishes its presence in the November reference,not its introduction version orinstalled firmware12 behavior. Tracking quality,latency andfull current-library equivalence remain unverified. No local download ordevice operation.
 
 
 ## VP4
