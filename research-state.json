@@ -150010,6 +150010,22 @@
         "status": "Unverifiedfirstpartylink;Architectmanufacturerpage403. Notadoptedminimumversion/OSspec."
       },
       "next": "Seek exactqualifiedShopeehardware andmanufacturer-linkedArchitect provenance;retainbody/categoryconflicts andpartialoutside402 status."
+    },
+    "live_control_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/BLACKSTAR.md#idx-floor-two--patch-pickup-tuner-and-midi-scope",
+      "source": "https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
+      "revision": "256401M-VA-1 01/26 printed23–26",
+      "finding": "Knob pickup, tuner and exact patch/tail/tap/CabRig MIDI scopes recorded; CabRigGLOBAL is notglobalvolume.",
+      "remaining": [
+        "Editor provenance/current OS",
+        "Initial factory memory occupancy",
+        "Physical/category source conflicts",
+        "Qualified exact Shopee offer",
+        "Unspecified expression endpoints/output coverage"
+      ],
+      "active_inventory_unchanged": 402,
+      "next": "Keep FloorTwo partial; return to new LCD/Shopee evidence and remaining required profiles; preserve independent queues."
     }
   },
   "m13_legacy_usage_support_20261101": {
