@@ -155102,6 +155102,15 @@
         "instrument": "Dread/Jumbo Acoustic AMP simulations",
         "qualification": "Original5041674-B;Step Filter/Swell distinct;XP only",
         "evidence_basis": "Focused2026-11-05 manufacturer-authored manual recheck;not full fresh audit"
+      },
+      {
+        "key": "DigiTech::RP500",
+        "canonical": "brand/DIGITECH.md#rp500--creative-algorithms-and-placement-conflict",
+        "synth": "SynthTalk dynamic voices;architecture/polyphony unverified",
+        "pitch": "Pitch Shift±24semitones;Detune±24cents;Harmony/Whammy/Octaver",
+        "instrument": "Dreadnought/Jumbo acoustic simulations",
+        "qualification": "Sample Hold random pitch;Step Filter distinct;one Chorus/FX choice;Whammy placement conflict",
+        "evidence_basis": "Focused2026-11-05 exact-model official18-0710-B manual;not full fresh audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -171181,5 +171190,22 @@
       "Condition-verified live Shopee hardware"
     ],
     "next": "Continue remaining exact-model and Shopee research; preserve GT-Pro technical cursor, expression/display queues and independent GP-200JR → Prime → GE300"
+  },
+  "rp500_creative_placement_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/DIGITECH.md#rp500--creative-algorithms-and-placement-conflict",
+    "source": "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
+    "revision": "18-0710-B printed18,22–24",
+    "finding": "Sample Hold random pitch versus Step Filter;SynthTalk release infinity/editor balance;Whammy placement conflict",
+    "market_recheck": "Same four historical seller/item asks;three Habis,one service-unavailable;no verified live stock",
+    "additional_creative_records": 77,
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Whammy placement override",
+      "Input-note polyphony/synth architecture",
+      "Installed firmware",
+      "Condition-qualified Shopee stock"
+    ],
+    "next": "Continue exact Shopee and unresolved model research;preserve separate-display priorities,GT-Pro technical cursor,expression and GP-200JR → Prime → GE300 queues"
   }
 }

@@ -1499,6 +1499,19 @@ Checked 2026-10-18 from original text in the [manufacturer manual,printed pp25�
 | Category choices / named reverbs6 | Twin Reverb spring,Lexicon Ambience,Lexicon Studio,Lexicon Room,Lexicon Hall,EMT240 Plate. These are the six choices already counted,not additional effects. Spring exposes reverb level;the other five list predelay,decay,liveliness andlevel. Numerical time ranges are not supplied here. |
 | Editor / bundle provenance | [Current past-product page](https://digitech.com/dp/rp500/) lists a Cubase LE4 DVD in the original package. This historical bundle does not prove current license activation,modern OS compatibility or inclusion with any used seller unit. USB setup guide was referenced in the manual but not established from the inspected current product links. |
 
+### RP500 — creative algorithms and placement conflict
+
+Checked 2026-11-05 against the official [RP500 manual][RP5-M], **18-0710-B**, printed pp18,22–24 (PDF pp21,25–27). Historical documentation; installed firmware untested.
+
+| Field | Finding / qualification |
+|---|---|
+| Synth / voice controls | SynthTalk responds to playing dynamics; RELEASE offers 0–99 plus infinity. Stereo BALANCE is X-Edit-only, not wet/dry mix. Architecture and input-note polyphony remain unverified. |
+| Pitch / named choices | Pitch Shift ±24 semitones; Detune ±24 cents. Harmony follows key/scale; Octaver separately levels one/two octaves down and dry. Whammy distinguishes wet-only bends from dry-added harmony bends. Chord handling remains unverified. |
+| Processing / special distinctions | **Sample Hold randomly shifts pitch**; Step Filter provides random-wah-style filtering. Neither proves a tracking synth or an audio-freeze buffer. Chorus/FX permits only one selected effect: these are alternatives. |
+| Routing / Whammy source conflict | Page23 says Whammy automatically precedes internal amps, then lists Pre/Post placement. Actual override behavior remains unresolved; do not promise both positions or transfer RP1000 behavior. |
+
+Shopee search recheck 2026-11-05 returned the same four historical asks: Rp1,700,000 service-unavailable; Rp2,400,000, Rp2,485,000 and Rp2,750,000 sold out. Existing seller/item links and dates remain above; no new condition-verified stock established. Bass suitability remains unclassified.
+
 ## RP1000
 
 Discontinued guitar multi-effects/switching system;notRP500. Checked2026-10-17;partial. Ownership,bass/vocal suitability unverified.

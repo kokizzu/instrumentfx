@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **76 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **77 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -122,6 +122,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [TC Electronic NOVA System](brand/TC-ELECTRONIC.md#nova-system--pitch-choices-and-scale-step-boundaries) | Dedicated synthesis unverified | Detune;Whammy;Octaver;Pitch Shifter;Intelligent Pitch Shifter | Acoustic simulation unverified | Two generated harmony voices do not prove chord tracking;scale-step intervals andfixed-pitch range conflict retained;focused original-manual check |
 | [M-VAVE TANK MINI](brand/M-VAVE.md#tank-mini) | Dedicated synth unverified;Autofilter is filtering | Shimmer wet-reverb pitch;conventional shifter unverified | SWELL violin-like envelope recipe,not certified simulation | [Named manual choices](brand/M-VAVE.md#tank-mini--named-effect-choices-and-revision-qualified-power);Lofi/Dual Delay;shared-module andfirmware limits;not full fresh audit |
 | [DigiTech RP360XP](brand/DIGITECH.md#rp360xp--creative-pitch-and-vowel-processing-boundaries) | Synth Talk dynamics-driven vowels;tracking architecture unverified | Pitch±24semitones;Detune±24cents;Harmony;Whammy;Octave;chord handling unverified | Dread/Jumbo Acoustic AMP choices | Original5041674-B;Step Filter/Swell distinct;XP only;not full fresh audit |
+| [DigiTech RP500](brand/DIGITECH.md#rp500--creative-algorithms-and-placement-conflict) | SynthTalk dynamic voices; architecture/polyphony unverified | Pitch Shift ±24 semitones; Detune ±24 cents; Harmony; Whammy; Octaver | Dreadnought/Jumbo acoustic simulations | Sample Hold random pitch versus Step Filter; one Chorus/FX choice; Whammy placement conflict; original 18-0710-B |
 
 ## Separately recorded partial leads
 
