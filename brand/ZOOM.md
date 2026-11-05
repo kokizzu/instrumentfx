@@ -5138,6 +5138,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | USB audio | **4-in/4-out,44.1kHz/32-bit USB interface**; two dry and two processed recording channels, reamp. Internal A/D and D/A24-bit,processing32-bit. Windows ASIO driver; Mac/iOS/iPadOS do not require a dedicated driver. [G11-M pp.89–91,104] [July2025 tested Mac/iOS/iPadOS audio-software combinations](#g11--dated-usb-audio-software-compatibility) are separate from Handy Guitar Lab editor compatibility. |
 | Practice / stage | **Stereo looper:5min maximum,2min30s withUndo enabled**;independent of effect slots. Loop playback can continue while selecting patches;AUX is not recorded. PRE/POST,68 rhythms,autosave/preselection;see [V2 limits](#g11--v2-looper-capacity-and-playback-boundaries). Do not infer a measured preset-change latency or global spillover guarantee. [G11-M,G11-P] |
 | Practice / tuner and mute scope | V2 printed pp57–59 document **A4 calibration 435–445 Hz**, chromatic or six named guitar/open-tuning modes, and **one to three semitones of flat tuning except in CHROMATIC mode**. The tuner screen has a sound-mute control; the text does not specify separate headphones, USB, AUX or recorded-loop coverage, nor establish an all-effects bypass or global expression-volume role. Earlier tuner-page extraction omitted switch icons; the same manual’s explicit parts text on **printed p12** resolves the gesture: hold **BANK ▼ for tuner**, **BANK ▲ for tap tempo**. This does not establish mute coverage. Rechecked2026-11-03. [Manufacturer V2 manual](https://zoomcorp.com/documents/461/E_G11v2.pdf), checked2026-11-01; no device test or local download. |
+| Memory / version andreset scope | [Four component identifiers;ALL INITIALIZE boundaries](#g11--component-version-identifiers-and-factory-reset-scope). Reset overwrites settings including patches;not a backup orverified firmware downgrade. |
 | Firmware / status | Support page lists **system2.10** at this check. V2 memory changes are explicitly documented. ZOOM's UK page labels G11 discontinued; this does not prove no Indonesian retailer has remaining stock. [G11-D,G11-F,G11-UK] |
 
 ### G11 — IDR price evidence
@@ -5537,6 +5538,13 @@ Checked **2026-11-01**. The [original Handy Guitar Lab for G11 manual](https://z
 | Firmware / historical IR display recovery | **December 28, 2020 V1.4 notice:** IRs could appear EMPTY while data remained in memory. The documented update restored visibility; user-imported locations were renamed “IR_71”, with manual renaming available. This is historical recovery behavior, not a current 2.10 defect, universal recovery guarantee or replacement for the V2 slot map. | [Dated manufacturer notice](https://zoomcorp.com/en/gb/news/g11_update/) |
 
 No app or firmware downloaded, IR transferred, update performed or hardware operated.
+
+### G11 — component version identifiers and factory-reset scope
+
+Checked **2026-11-05**, [ZOOM V2 Operation Manual,©2021,printed99–102](https://zoomcorp.com/documents/461/E_G11v2.pdf). **VERSION/INFO** distinguishes **G11 firmware,DSP,Preset andBOOT versions**. The support listing’s system2.10 therefore doesnot establish identical component numbers orthe versions installed ona particular unit. LICENSE/INFO is separate licensing information,not an installed-effect census.
+
+**ALL INITIALIZE** restores factory settings andoverwrites settings including patch memories,then restarts. The manual doesnot establish user-IR retention,rollback ofall firmware components orrestoration froma backup bythis action. Preserve the separate Guitar Lab patch-backup procedure andV2 factory-allocation evidence;reset is not an extra memory bank. No reset,update,download ordevice operation performed.
+
 
 ## GFX-1 — partial discovery lead
 

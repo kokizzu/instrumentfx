@@ -170324,5 +170324,20 @@
       "Global analog-expression coverage"
     ],
     "next": "Continue requested separate-screen profiles andexact Shopee discovery;preserve deferred FM9 andindependent queues"
+  },
+  "g11_version_reset_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#g11--component-version-identifiers-and-factory-reset-scope",
+    "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+    "revision": "V2 ©2021 printed99–102",
+    "qualification": "Separate component identities;reset scope documented,no operation performed.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "User-IR reset behavior",
+      "Exact installed component versions",
+      "Complete physical control census",
+      "Qualified current Shopee stock"
+    ],
+    "next": "Continue confirmed individual-LCD profiles andexact hardware discovery;preserve independent expression,general anddeferred FM9 queues"
   }
 }
