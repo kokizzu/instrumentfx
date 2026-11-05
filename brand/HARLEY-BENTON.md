@@ -5,8 +5,39 @@
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
+- [DNAfx GiT Advanced — partial discovery lead](#dnafx-git-advanced--partial-discovery-lead)
 - [DNAfx GiT Core](#dnafx-git-core)
 <!-- brand-index ends -->
+
+## DNAfx GiT Advanced — partial discovery lead
+
+Checked **2026-11-06**. Exact Advanced, item578765; separate from Core, original GiT and Pro. **Partial lead outside 402 active models**. Ownership and bass/vocal suitability are unverified. No specifications inherited from purported OEM relatives.
+
+### Advanced — manufacturer product baseline
+
+[Exact manufacturer page](https://harleybenton.com/product/dnafx-git-advanced/): **nine simultaneous effect types, 200 patch locations, 55 amps, 26 cabinet IR simulations, 151 effects**. Their overlap is reconciled below. Built-in expression; shared color display labelled **LED**, not individual footswitch LCDs. Diagonal, touch and underlying panel technology remain unverified.
+
+Product body: **273×148×32.8mm**, axes unlabeled; **1.3kg**. Included **9V DC 300mA** supply. Ports: mono6.3mm input, dual mono outputs, balanced XLR L/R, ground lift, stereo3.5mm AUX/headphones, **micro-USB OTG and USB-C computer port**. Digital audio44.1kHz/24-bit. PC/Mac editing, DAW recording and updates; mobile OTG recording/streaming. Exact OS, drivers and channel counts unverified.
+
+Practice: **80-second looper, 40 drum patterns plus10 metronome rhythms**, tap tempo and435–445Hz tuner. Third-party IR support advertised. Native NAM, conversion and proprietary capture unverified; factory filling/write protection, scenes, trails and loop retention unknown.
+
+### Advanced — exact V2 manual and source conflicts
+
+[Manufacturer manual](https://images.static-thomann.de/pics/atg/atgdata/document/manual/578765_v2_en_online.pdf), **04.04.2025, ID578765(V2)**, printedpp19–52; text only. Document revision is not firmware.
+
+**Controls: 3 rotaries /3 footswitches /6 buttons**: MODE, VALUE, MASTER; A/B/C; SYSTEM, SAVE, PLAY, EXP, TAP, RHYTHM. Ground-lift toggle additional. Pedal calibration includes toe pressure; targets Level/Volume/MST or FUNCTION; EXP VOL prints MIN000…MST100.
+
+Manual **273W×141D×60H mm; 925g** conflicts with product body/mass. **USB-B computer/USB-C OTG** conflicts with product connectors. **9V minimum300mA, center-negative; no battery**. Editor requires external supply. Complete connector inventory has no external EXP, MIDI or FX-loop socket; MIDI interface explicitly absent.
+
+IR: **WAV44.1kHz/24-bit/512samples**. Derived census: **FXCOMP8, DS/OD20, AMP55, CAB26, NS3, EQ4, MOD19, DLY9, REV7 =151**, including amps/cabinets. **ACOUSTIC1/2/3** are AMP simulators; ACOUSTIC112 is a cabinet. **PITCH SHIFT, DETUNE, STUTTER, RING MOD, SLOW GEAR, LOFI** share MOD; **REVERSE** is DLY. Preset editing leaves recorded-loop sound unchanged.
+
+### Advanced — market and continuation
+
+Exact-brand/Advanced Shopee Indonesia searches found no seller/item-qualified hardware. Used/new IDR, condition, stock, region, variant, bundle, adapter, warranty, vouchers, shipping/tax and checkout remain unknown. Foreign prices and preset/accessory downloads are not substituted.
+
+Remaining: full named algorithm transcription, current firmware/editor OS, USB channels, initial patch filling and exact navigation; expression assignment persistence, endpoints, toe implementation and output/headphone/bypass/tail/loop coverage; USB-only power and physical revision reconciliation. Pitch polyphony and dedicated synthesis remain unverified. Built-in treadle excludes this from the no-treadle shortlist. No visual inspection, local download, installation, device operation or seller contact.
+
+Next: complete accessible exact-model fields or resume qualified Shopee/LCD priorities; preserve GP-200JR→Prime→GE300 and GT-Pro queues.
 
 ## DNAfx GiT Core
 

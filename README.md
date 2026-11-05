@@ -132,3 +132,5 @@ Incoming expression-volume sources from origin/main87c7d38 are preserved in the 
 [Sheeran Looper X](brand/SHEERAN-LOOPERS.md#looper-x--partial-discovery-lead) is a partial live-input/loop multi-effects lead outside active counts, with an exact cached Shopee offer and unresolved manufacturer rack-count discrepancy.
 
 [Flamma TONE GO](brand/FLAMMA.md#tone-go--partial-no-treadle-discovery) is a partial no-treadle, speaker-equipped guitar multi-effects lead outside active counts; NAM A2 conversion claims, incomplete expression inventory and unverified Indonesian availability remain qualified.
+
+[Harley Benton DNAfx GiT Advanced](brand/HARLEY-BENTON.md#dnafx-git-advanced--partial-discovery-lead) is a partial discovery outside active counts; exact-model manual/product body and USB conflicts remain unresolved, and qualified Shopee Indonesia hardware is unverified.

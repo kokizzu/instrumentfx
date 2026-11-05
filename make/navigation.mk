@@ -219,3 +219,9 @@ brand-sort-plan-mooer:
 .PHONY: brand-sort-apply-mooer
 brand-sort-apply-mooer:
 	python3 scripts/brand_sort.py apply brand/MOOER.md
+
+.PHONY: brand-sort-plan-harley-benton brand-sort-apply-harley-benton
+brand-sort-plan-harley-benton:
+	python3 scripts/brand_sort.py plan brand/HARLEY-BENTON.md
+brand-sort-apply-harley-benton:
+	python3 scripts/brand_sort.py apply brand/HARLEY-BENTON.md

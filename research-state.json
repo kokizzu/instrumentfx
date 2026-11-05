@@ -26022,6 +26022,21 @@
         "remaining": "Per-emulation counts/memory andeffect census,import support,current hardware condition,USB streams,current,tracking",
         "downloads": false
       }
+    },
+    {
+      "model": "Harley Benton DNAfx GiT Advanced",
+      "checked_date": "2026-11-06",
+      "status": "Partial built-in-treadle discovery outside active inventory",
+      "canonical": "brand/HARLEY-BENTON.md#dnafx-git-advanced--partial-discovery-lead",
+      "sources": {
+        "product": "https://harleybenton.com/product/dnafx-git-advanced/",
+        "manual": "https://images.static-thomann.de/pics/atg/atgdata/document/manual/578765_v2_en_online.pdf"
+      },
+      "revision": "04.04.2025 ID578765(V2);documentnotfirmware",
+      "findings": "Own-model profile and151-category reconciliation;body/mass andUSB-connector conflicts retained;no externalEXP/MIDI/loop socket in completeinventory",
+      "market": "No seller/item-qualified exactShopeeIndonesia hardware recovered;IDR/condition/stockunknown",
+      "active_inventory_unchanged": 402,
+      "next": "Fullnamedcensus,currentsoftware/USB,presetfilling andphysicalrevision;continueLCD/Shopeepriority;preserveGT-Pro andGP200JR→Prime→GE300"
     }
   ],
   "inventory_by_brand": {
