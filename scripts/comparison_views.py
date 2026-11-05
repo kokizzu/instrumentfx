@@ -1180,16 +1180,16 @@ def test_validation_counts():
 # Heading coverage is a research navigation aid, never technical certification.
 RESEARCH_FIELDS = {
     'expression': r'expression|external control',
-    'physical_controls': r'knobs|rotar|buttons|k/f/b|physical controls|control count',
+    'physical_controls': r'knobs|rotar|buttons|k/f/b|physical controls|control count|^controls$|^k\s*/\s*f\s*/\s*b$',
     'display': r'display|screen',
     'dimensions_mass': r'dimension|weight|mass|body',
-    'processing_choices': r'processing|categor|simultaneous|concurrent|blocks',
-    'memory': r'memory|memories|preset storage|presets and user',
+    'processing_choices': r'processing|categor|simultaneous|concurrent|blocks|architecture|^choices$',
+    'memory': r'memory|memories|preset storage|presets and user|^presets?$',
     'synth_instrument': r'synth|acoustic|instrument sim',
-    'ports': r'i/o|ports|connections|audio/control|connectors',
+    'ports': r'i/o|ports|connections|audio/control|connectors|^inputs? / outputs?$|^instrument / loop$|^outputs / aux$|^(?:control / data|data / control)$',
     'power': r'power|battery|voltage',
-    'ir_capture': r'ir /|ir import|ir loading|ir support|capture|nam',
-    'software': r'editor|software|apps|platform|configuration',
+    'ir_capture': r'ir /|ir import|ir loading|ir support|capture|nam|^ir$',
+    'software': r'editor|software|apps|platform|configuration|^editing(?: /|$)|^applications$',
     'used_idr': r'used.*idr|idr.*used|used offer|used price',
     'new_retail_idr': r'new.*idr|idr.*new|retail|new price',
     'practice_live': r'looper|drum|rhythm|scenes|live|practice',
@@ -1232,6 +1232,22 @@ def test_research_field_report():
     assert report['model_count'] == 1
     assert all(sum(counts.values()) == 1 for counts in report['field_counts'].values())
     assert report['models']['Brand::Exact']['fields']['power']['status'] == 'no_heading_match'
+    aliases = {
+        'processing_choices': ['Architecture', 'Choices', 'Sound architecture'],
+        'ports': ['Inputs / outputs', 'Instrument / loop', 'Outputs / aux', 'Control / data', 'Data / control'],
+        'memory': ['Presets'],
+        'software': ['Editing', 'Editing / mobile-versus-desktop versions', 'Applications'],
+        'ir_capture': ['IR'],
+        'physical_controls': ['Controls', 'K / F / B'],
+    }
+    for field, headings in aliases.items():
+        for heading in headings:
+            for value, expected in [('Documented', 'recorded_needs_source_review'),
+                                    ('Unknown', 'recorded_with_uncertainty')]:
+                actual, matched = research_field_status([{'field': heading, 'value': value}], RESEARCH_FIELDS[field])
+                assert actual == expected and matched, (field, heading, actual)
+    for field in aliases:
+        assert research_field_status([{'field': 'Unrelated', 'value': 'Architecture; Presets; Inputs / outputs; Editing; IR; Controls'}], RESEARCH_FIELDS[field])[0] == 'no_heading_match'
     print('PASS: research heading audit preserves Unknown versus No, excludes URL queries, and never certifies a specification.')
 
 def audit_research_fields():

@@ -174009,5 +174009,83 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue individual-footdisplay andShopee priority;preserve independent GT-Pro,expression andGP200JR→Prime→GE300 queues."
+  },
+  "research_heading_alias_correction_20261105": {
+    "checked_date": "2026-11-05",
+    "scope": "Heading recognition only; no new model/specification/market certification. Existing FX150 comparisons already contained its architecture andport facts.",
+    "regressions": "Explicit Architecture/Choices,Inputs/Outputs andcontrol/data,Presets,Editing/Applications,bareIR,Controls/K / F / B aliases; Unknown retained; values alone cannot supply a heading match.",
+    "checks": [
+      "make research-field-audit-test: demonstrated failure on Architecture before fix,then passed",
+      "make research-field-audit:402 exact models"
+    ],
+    "field_counts": {
+      "expression": {
+        "recorded_needs_source_review": 153,
+        "recorded_with_uncertainty": 249
+      },
+      "physical_controls": {
+        "recorded_needs_source_review": 183,
+        "recorded_with_uncertainty": 180,
+        "no_heading_match": 39
+      },
+      "display": {
+        "recorded_with_uncertainty": 328,
+        "recorded_needs_source_review": 74
+      },
+      "dimensions_mass": {
+        "recorded_needs_source_review": 293,
+        "recorded_with_uncertainty": 109
+      },
+      "processing_choices": {
+        "recorded_with_uncertainty": 252,
+        "recorded_needs_source_review": 149,
+        "no_heading_match": 1
+      },
+      "memory": {
+        "recorded_needs_source_review": 177,
+        "recorded_with_uncertainty": 208,
+        "no_heading_match": 17
+      },
+      "synth_instrument": {
+        "recorded_with_uncertainty": 304,
+        "recorded_needs_source_review": 93,
+        "no_heading_match": 5
+      },
+      "ports": {
+        "recorded_needs_source_review": 210,
+        "recorded_with_uncertainty": 191,
+        "no_heading_match": 1
+      },
+      "power": {
+        "recorded_with_uncertainty": 338,
+        "recorded_needs_source_review": 64
+      },
+      "ir_capture": {
+        "recorded_with_uncertainty": 333,
+        "recorded_needs_source_review": 66,
+        "no_heading_match": 3
+      },
+      "software": {
+        "recorded_with_uncertainty": 321,
+        "recorded_needs_source_review": 81
+      },
+      "used_idr": {
+        "recorded_with_uncertainty": 238,
+        "recorded_needs_source_review": 84,
+        "no_heading_match": 80
+      },
+      "new_retail_idr": {
+        "recorded_with_uncertainty": 225,
+        "recorded_needs_source_review": 90,
+        "no_heading_match": 87
+      },
+      "practice_live": {
+        "recorded_with_uncertainty": 296,
+        "no_heading_match": 39,
+        "recorded_needs_source_review": 67
+      }
+    },
+    "active_inventory_unchanged": 402,
+    "next": "Use audit findings as inspection leads only. Continue requested individual-footdisplay/Shopee research;preserve independent GT-Pro,expression andGP200JR→Prime→GE300 queues."
   }
 }

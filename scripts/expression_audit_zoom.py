@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs: verify complete legacy consolidation and current navigation'
+        message='fix: recognize existing canonical research field headings'
     print(git('commit','-m',message))
