@@ -147002,7 +147002,43 @@
     ],
     "finding": "Exact G3X dot-matrixLCD wording,quarter-inch monoR/stereoL-MONO-PHONES formats,andexplicit patch-specific pedal range/TOTAL persistence.",
     "limits": "No globalpedal override established;USB/control connector subtypes,displaydiagonal/color/touch,toemechanics andmodernOSsupport unresolved. No download orhardware test.",
-    "next": "Continue individual-LCD processor gaps andexactShopee offers;BOSS GT-Pro independentcursor retained."
+    "next": "Continue individual-LCD processor gaps andexactShopee offers;BOSS GT-Pro independentcursor retained.",
+    "panel_followup": {
+      "checked": "2026-11-06",
+      "front": {
+        "url": "https://zoomcorp.com/media/original_images/G3X_top.jpg",
+        "bytes": 3847037,
+        "sha256": "d6b1c870c46347ffce887d6b3ec4de5504fab6a6b12921be9fa87a64906b8ba5"
+      },
+      "front_verified": "9rotaries;3chassisFS;16keys=9TYPE/PAGE+7upperkeys;3monochrome-appearingLCDs withorange illumination",
+      "rear_documentary": {
+        "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+        "location": "Printed5,indexed original explicitly G3X",
+        "selectors": [
+          "ACTIVE/PASSIVE",
+          "PRE/POST",
+          "GROUND"
+        ],
+        "scope": "Pushed/not-pushed documentary;not rear visual orpinout proof"
+      },
+      "counting": "19non-footpushcontrols=16frontkeys+3rearselectors;treadle andPOWER/eco separate",
+      "market": {
+        "additional": {
+          "seller": "Eka Oke",
+          "shop": "185345167",
+          "item": "23774990987",
+          "idr": 2000000,
+          "condition": "Unknown",
+          "stock": "Habis in one-month direct cache",
+          "seller_region": "Kab. Tulungagung",
+          "access": "Five-month search versus one-month direct;stale17–18September delivery",
+          "unknown": "Working state,repairs,firmware,adapter/bundle,warranty region,quantity,shipping/tax,checkout;late voucher compensation not discount"
+        },
+        "rechecks": "LintangRp1950000Habis two-month cache;NaminRp1700000indexed/directmiss;no currentstockproof"
+      },
+      "remaining": "Rear visual;USB/control subtype;LCD physicalspecifications;toe mechanics;expressioncoverage;qualified current offers",
+      "next": "Continue individual-display gaps;preserve GP200JR→Prime→GE300,GTPro andexpression queues"
+    }
   },
   "g11_v2_midi_directions_20261031": {
     "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
@@ -176725,7 +176761,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://zoomcorp.com/media/original_images/G3_top.jpg",
+    "requested_url": "https://zoomcorp.com/media/original_images/G3X_top.jpg",
     "cache_policy": "One rolling working photograph and receipt in/tmp; URLs and hashes retained with model findings. Retrieval alone is not visual verification.",
     "frame": 0
   }
