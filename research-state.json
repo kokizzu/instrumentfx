@@ -156172,20 +156172,25 @@
             "sfx": 9,
             "delay": 17,
             "reverb": 17,
-            "pedal_including_output_control": 21
+            "pedal_including_output_control": 21,
+            "dynamics": 15,
+            "filter": 25,
+            "drive": 45
           },
           "scope": "Category names now complete;notcurrentinstalledlibrary orsimultaneouscapacity",
           "distinctions": "GEMINOSdoubling modes;DuoPhaseinternalrouting;BendChonotehandling;LoopRollDuty/switchmode",
           "market": "Rechecked exact saved G11 Shopee offers12356205/28560180011,1524946106/42551006222,969726322/20786758023,27104501/23812457555,253483262/23270125641;no new condition/stock qualification",
           "remaining": [
-            "Dynamics,Filter andDrive full names;current effect-pool reconciliation",
+            "Current effect-pool reconciliation andinstalledfirmware",
             "Complete rotary census andmini-LCD physicalspecs",
-            "Installedfirmware andqualifiedliveShopeestock"
+            "QualifiedliveShopee hardware stock"
           ],
           "next": "Continue individual-footdisplay models andexactShopee;preserve independent expression-volume,GT-Pro andGP-200JR→Prime→GE300 queues",
           "supplementary_canonical": "brand/ZOOM.md#g11--named-v2-delay-reverb-and-pedal-inventory",
-          "named_category_entries": 97,
-          "additional_distinctions": "Pedal delay/reverb inputlevel versusoutput;OSC Echodelayoscillation;P-BitCRSH effectresolution;ICE Delay slices;HoldVerbextractioncolumnsnotreconstructed"
+          "named_category_entries": 182,
+          "additional_distinctions": "Pedal delay/reverb inputlevel versusoutput;OSC Echodelayoscillation;P-BitCRSH effectresolution;ICE Delay slices;HoldVerbextractioncolumnsnotreconstructed",
+          "remaining_categories_canonical": "brand/ZOOM.md#g11--remaining-named-v2-effects-and-counting-scope",
+          "completed_scope": "Eight historical V2 effect-category name lists;routing/IR andAmp/Cab separate;notcurrentinstalled census"
         }
       },
       {
