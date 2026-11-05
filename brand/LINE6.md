@@ -2006,6 +2006,7 @@ Effects-only guitar/shared-bass multi-effects; distinct from M5/M13. Checked2026
 | Display | Category-colored LCD;diagonal,touch unknown. | [Pilot PDF pp4–5][M9-M] |
 | Processing / category choices | **3 simultaneous FX**,one of A/B per FXunit;additional setup gate. Firmware2.01 FAQ:109=30DIST/comp/EQ/volume+22mod+26filter/pitch+19delay+12reverb. | [Pilot PDF pp4,8][M9-M];[FAQ][M9-Q] |
 | Factory / user memory | **24 scenes=4folders×6** with2.01;each stores6FX memories,3active. Factory examples;manual/autosave available. Not24user+24preset. | [FAQ][M9-Q];[Pilot PDF pp5–7][M9-M] |
+| Creative / pitch and special processing | **Smart Harmony;Pitch Glide;Seeker2–9steps;Obi-Wah;Voice Box/V Tron;Lo Res Delay6–24bit control**. [Own covered RevB source andlimits](#m9--named-creative-choices-and-parameter-boundaries);input polyphony unverified,three FXunits remain separate. | Manufacturer RevB2011 |
 | Synth / acoustic | Shared guide explicitly covers M9:Octisynth,Synth-O-Matic,AttackSynth,SynthString,Growler;BassOctaver expressly suitable for bass. Acoustic simulator unverified. | [FXParameters §§3•6,4•8–10][M9-F] |
 | Dimensions / mass | FAQ:**10.5L×7W×3H inches;2.3lb**. Axes/weight retained exactly as manufacturer claim;physical corroboration pending. | [FAQ][M9-Q] |
 | I/O | Unbalanced instrument-level¼-inch mono L/R input/output pairs,2¼-inchEXP,MIDI IN/OUT,power. SysEx scenes;MIDI PC0–23 selects scenes,CCs toggle loaded A/B effects;individual model selection/assignment via MIDI not implemented. Looper levels are expression-only,not MIDI CC. Other ports unverified. | [FAQ][M9-Q];[Pilot PDF p4][M9-M];[Advanced §§A•1–4][M9-A] |
@@ -2109,6 +2110,17 @@ Checked 2026-10-18 against the manufacturer v2.0 Advanced Guide, printed §§4�
 [Own v2.0 Advanced Guide RevA][M9-A], §§2•3,3•3,4•1: FX pedal assignments and heel/toe settings belong to each Scene. Only **looper pedal control** is explicitly global; that is not global live-guitar volume assignment. No independent all-scene volume override is established. Volume-effect placement and bypass matter; exact volume endpoints, held-position recall, tail and recorded-loop attenuation remain unverified. Existing true-bypass conditions route around processing, so an FX-based attenuator must not be claimed to cover relay bypass.
 
 [Exact-model FAQ][M9-Q] specifies passive10kΩ linear with mono¼-inch cable. Its I/O inventory gives no dedicated headphone socket. Existing manufacturer footprint claims both exceed the preferred width; retain their conflicting axes and mass. Scene selection is six direct footswitch choices plus hand-selected folders, not verified sequential preset down/up. No hardware testing performed.
+
+### M9 — named creative choices and parameter boundaries
+
+Checked **2026-11-05**, [manufacturer FX Parameters RevB,©2011](https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5%20FX%20Parameters%20-%20English%20(%20Rev%20B%20).pdf),explicitly covering M9;§§1•5,4•1–3,4•9–12. Historical availability,not installed-firmware ortracking-quality verification.
+
+- **Pitch:** Smart Harmony selects scale,key andinterval;Pitch Glide uses heel/toe pitch settings. Algorithm-specific chord handling remains unverified.
+- **Synth:** Attack Synth selects Square/PWM/Ramp,with two-octave pitch control;Synth String uses attack andpulse-width modulation;Growler combines synth pitch/PWM with filter processing. Their pitch ranges do not establish input-note polyphony.
+- **Special:** Seeker sequences **2–9 filter steps**;Obi-Wah randomizes filter changes;Voice Box/V Tron process vowels. **Lo Res Delay resolution6–24bits** is an effect parameter,not converter resolution. Acoustic conversion remains unverified.
+
+These choices share the existing **three simultaneous FX-unit ceiling**,with A/B alternatives per unit. Model selection does not addslots. No current hardware offer was established by fresh Shopee searches;no price orstock inferred. No download ordevice operation.
+
 
 ## M13
 

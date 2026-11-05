@@ -155039,6 +155039,15 @@
         "instrument": "Aco.Sim;Z-Organ",
         "qualification": "Original shared G3/G3X manual;not G3Xn;six-effect/DSP limits",
         "evidence_basis": "Focused manufacturer manual printed50–52,56;not full fresh audit"
+      },
+      {
+        "key": "Line 6::M9",
+        "canonical": "brand/LINE6.md#m9",
+        "synth": "Octisynth;Synth O Matic;Attack Synth;Synth String;Growler",
+        "pitch": "Smart Harmony;Pitch Glide",
+        "instrument": "Acoustic conversion unverified",
+        "qualification": "RevB2011 explicitlycoversM9;threeFXunits;sequenced/random/vowel filters andLoResDelay;polyphony unverified",
+        "evidence_basis": "Focused2026-11-05 manufacturer parameter check plusretainedM9 sources;not completefreshfour-categoryaudit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -170589,5 +170598,22 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requested separate-display hardware/profile gaps andsystematic missing fields;defer unchanged headphone-original-post access gap. Preserve GT-Pro/general,expression andconsolidationqueues."
+  },
+  "m9_creative_parameter_check_20261105": {
+    "checked": "2026-11-05",
+    "source": "https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5%20FX%20Parameters%20-%20English%20(%20Rev%20B%20).pdf",
+    "revision": "RevB©2011;1•5,4•1–3,4•9–12",
+    "canonical": "brand/LINE6.md#m9--named-creative-choices-and-parameter-boundaries",
+    "finding": "Namedpitch,synthandsequenced/random/vowelprocessing added;LoRes6–24effectbits distinctfromconverter.",
+    "additional_creative_records": 70,
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Algorithm-specificinputpolyphony",
+      "Fullnamedcategorycensus",
+      "Physicalbutton/displayconfirmation",
+      "QualifiedexactShopeeoffers",
+      "GlobalEXPvolumeandoutputcoverage"
+    ],
+    "next": "Continue requestedseparate-screenprofileandmarketgaps;preserveGT-Pro/general,expressionandconsolidationqueues."
   }
 }
