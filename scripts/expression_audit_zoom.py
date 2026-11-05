@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(korg): qualify AX5B pitch tracking and synth levels'
+        message='research(fractal): enumerate FM9 reference Drive variants'
     print(git('commit','-m',message))

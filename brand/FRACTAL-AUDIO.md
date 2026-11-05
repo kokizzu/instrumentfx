@@ -2248,6 +2248,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Categories / Resonator modes | [Manual/Chordal controls andchannel routing](#fm9-original--resonator-chord-modes-and-channel-routing): four internal resonators do not establish four blocks orinput-note polyphony. |
 | Categories / Drive special processing | [Drive lo-fi and EQ scope](#fm9-original--drive-lo-fi-controls-and-eq-scope): bit reduction and sample-rate aliasing are processing controls, not converter specifications or tracked synthesis. Three FM9 Drive instances remain CPU-limited. |
 | Display / mini-screen adjustment | [Original/Turbo3.x controls](#fm9-original--mini-display-contrast-brightness-and-inversion) distinguish contrast,shared screen/ring brightness andtext inversion;physical specifications andcurrent-version equivalence remain unverified. |
+| Categories / Drive named inventory | **87 reference variants**:85 printed rows withTimothy Up/Down/Mid expanded tothree. FM9 allows **three Drive instances**,CPU permitting. [Named source inventory](#fm9-original--november-drive-name-census-and-counting-basis);not87 simultaneous effects orinstalled-library verification. |
 <!-- comparison evidence ends -->
 
 ### FM9 original — partial LCD discovery
@@ -2575,6 +2576,19 @@ Pre-Delay Tempo/Feedback/Mix permit echo processing inside Reverb. At **Pre-Dela
 Checked **2026-11-05**, [manufacturer Original/Turbo owner manual,August2022,firmware3.x,printedp90](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). **Mini-Display Contrast** adjusts onboard mini screens;**Mini-Display + Ring Brightness** jointly sets their master brightness andLED rings. **Invert Mini Displays On** gives light text on a dark background. No numeric range is supplied for those three settings.
 
 The adjacent Ring Intensity Bright/Dim entry gives **25–100% /1–50%**,but describes **FC** switches;do not silently assign those ranges to onboard mini screens. Message Hold concerns main-display/connected-FC messages,not a mini-screen refresh specification. Physical size,resolution,color/touch andcurrent12.x equivalence remain unresolved. No settings changed ordevice tested.
+
+
+### FM9 original — November Drive name census and counting basis
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,39–41](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). The exact FM9 column allows **three Drive instances**,CPU permitting. The85 printed type rows account for **87 variants** when the combined Timothy Up/Down/Mid row is expanded tothree. This reconciles the reference-table arithmetic;it is not a device-library census orproof of current installed availability. Introduction firmware remains unverified.
+
+| Printed page | Named reference choices |
+|---|---|
+| 39 | 77 Custom OD; Angry Chuck; BB Pre; BB Pre AT; Bender Fuzz; Bit Crusher; Blackglass 7K; Blues OD; Bosom Boost; Box o’ Crunch; Colortone Booster; Colortone OD; Compulsion Dist HP; Compulsion Dist LP; DS1 Distortion; DS1 Distortion Mod; Esoteric ACB; Esoteric Bass RCB; Esoteric RCB; Eternal Love; Face Fuzz |
+| 40 | FAS Boost; FAS LED-Drive; Fat Rat; FET Boost; FET Preamp; Full OD; Gauss Drive; Griddle Cake; Guardian Photon Speed; Hard Fuzz; Heartpedal 11; Hoodoo Drive; Horizon Precision Drive; Integral Pre; Jam Ray; Klone Chiron; M-Zone Distortion; Master Fuzz; Maxoff 808; MCMLXXXI Drive; Micro Boost; Mid Boost; MOSFET Distortion; NoAmp Bass DI; NoAmp Bass Pre; Nobelium OVD-1; Octave Distortion; OD 250; OD 250 Gray; OD-One Overdrive; Paradigm Shifter; PI Fuzz; PI Fuzz - Bass; PI Fuzz - Ram’s Head; PI Fuzz - Russian; PI Fuzz - Triangle; Plus Distortion; Rat Distortion; Royal Bass DI; SDD Preamp; Shimmer Drive; Shred Distortion |
+| 41 | Sonic Drive; Suhr Riot Ge; Suhr Riot LED; Suhr Riot LED/Si; Sunrise Splendor; Sunrise Splendor Hi-Cut; Super Fuzz; Super OD; Swedish Metal; T808 Mod; T808 OD; Tape Distortion; Timothy Up; Timothy Down; Timothy Mid; Tone of Kings; Treble Boost; TS9DX +; TS9DX Hot; Tube Drive 3-Knob; Tube Drive 4-Knob; Tube Drive 5-Knob; Valve Screamer VS9; Zen Master |
+
+**Shimmer Drive is a boost**,not pitch-shifted reverb. Octave Distortion is a drive type,not proof of clean polyphonic transposition. Bit Crusher andthe separately documented Bit Reduce/Sample Rate controls retain their lo-fi role. These names do not establish tracking synthesis oradditional independently placeable blocks. Older sources,global-expression questions andShopee condition/revision qualifications remain intact. No software downloaded ordevice tested.
 
 
 ## FM9 Turbo
