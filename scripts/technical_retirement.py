@@ -192,6 +192,8 @@ def verify():
     print('PASS: '+str(len(SOURCES))+' technical sources; '+str(retired)+' retired; '+str(len(links))+' incoming link occurrences; every original heading/root destination preserved.')
 
 def plan(rollback=False):
+    state=json.loads((ROOT/'research-state.json').read_text())
+    assert not state['migration'].get('removed_technical_redirects'), 'Use make technical-compatibility-restore-plan for removed compatibility files'
     verify()
     state=json.loads((ROOT/'research-state.json').read_text())
     records=state['migration'].setdefault('retired_sources',{})
@@ -378,6 +380,8 @@ def compatibility_removal_preview():
     scripts = {str(p.relative_to(ROOT)): p.read_text() for p in sorted((ROOT/'scripts').glob('*.py'))}
     rows = []
     for index, (path, destination) in enumerate(sorted(SOURCES.items()), 1):
+        if path in state['migration'].get('removed_technical_redirects', {}):
+            continue
         original = research.read_preserved_source(path)
         record = records[path]
         current = (ROOT/path).read_text()

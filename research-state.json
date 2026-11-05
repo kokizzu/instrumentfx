@@ -56384,6 +56384,511 @@
         }
       ],
       "completion_scope": "Metadata preservation only: all 60 HEAD-reachable variants of the 16 enumerated legacy metadata paths are verified as registered originals, aliases, redirects, retired pointers or reviewed typed historical content. This does not certify manufacturer facts, current offers, ownership completeness, all compatibility-path retirement or the overall migration."
+    },
+    "removed_technical_redirects": {
+      "effects/advanced-modelers.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "de4534179143d6fe6fa82f50f3658b03bb1f10dbadb6d96e3a43c192471385af"
+      },
+      "effects/audota.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "0224861ac49d949e174c6f32ed510561b7bb6de512fc388a3970ae282a8cea02"
+      },
+      "effects/bass.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "7cf09e7496d3d23ac88b02e9c35754b851c5e9ad2d7621a09f8a43a205fd033f"
+      },
+      "effects/cube-baby.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "86893d5a40402bacb0583fa1b1a0a32d59afb637c3a757b7b3caa5e75fef4c55"
+      },
+      "effects/findings/2026-10-14-boin-audio-bg300.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "3fd031c646423569d993c96660c9c5d85793560b11e9cd320557a9109ae1fbe0"
+      },
+      "effects/findings/2026-10-14-donner-arena2000.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "766ca38786e6cd503cf00cfaa6a3dfbbf60f6d54bbc7e0836ec5717775cfa5b9"
+      },
+      "effects/findings/2026-10-14-flamma-fx100.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "b3561e59dbdbdfbe31e6d0f16561b0d4c96a6671f7a7cd98efa940101e9bf95b"
+      },
+      "effects/findings/2026-10-14-flamma-fx200.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "47c99ff6092e8fbdba10df43d0eb52faddd1804d02cf148fee5494b187a8b988"
+      },
+      "effects/findings/2026-10-14-headrush-core.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "f375c5014306335fd11408f4e15a3facf4087f6e6518b41c11f55d9d28a210bc"
+      },
+      "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "c07e581f7fabc5b805a2e400c049d5d2c9356fabf896b1acef2a2c45d7a3c2ee"
+      },
+      "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "8d85e13a2a3250a399c9cb93149130dc5eaf8de31de63afb37b07ee679165e7b"
+      },
+      "effects/findings/2026-10-14-hotone-ampero-mini.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "6f9c167a96b16e7575d5b7514bbc8bea1ecad227a9fceb14f3ff963112947603"
+      },
+      "effects/findings/2026-10-14-hotone-ampero-mp100.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "04dea27852ef65c7a466de8f7710d6b0ac5798aef7cf4b766db1566a05609f18"
+      },
+      "effects/findings/2026-10-14-joyo-gembox-ii.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "3e934ce26322cf876f922462a70264a23ef568434030d1c12cc9fd216e1e7109"
+      },
+      "effects/findings/2026-10-14-joyo-gembox-iii.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "46edd3fde6c82584c51154dbe1fbcca85a11a13c9e76f10551d29c700a16a04f"
+      },
+      "effects/findings/2026-10-14-line6-hx-stomp-xl.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "a5f8860275c94f32e88706498bc597cd73ce80a7d034f098dd7d85af7bff6de1"
+      },
+      "effects/findings/2026-10-14-mooer-ge100-pro-li.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "45b963e34cd8342a4af481d920d9ba427cabcb54a67f450f88e63f9f6d4856cc"
+      },
+      "effects/findings/2026-10-14-mooer-ge100-pro.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "5f9030e3bfdc5ffe094ea209d04984b4794cebc25f08b117e7868f5ba504bb19"
+      },
+      "effects/findings/2026-10-14-mooer-ge100.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "f1c4d998e0fd5511b2f6f7d5f77a3fa93b7f08c16b754e425dbdd20bc5a510bc"
+      },
+      "effects/findings/2026-10-14-mooer-ge1000.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "7070db06c8c7b311b14671a17bf22b9bca60949488255a5f3d32a71511934015"
+      },
+      "effects/findings/2026-10-14-mooer-ge150-pro-li.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "cb790140a0030717011b09656b762ba7fefba06eeeb4b7d8c945578a1d20f97d"
+      },
+      "effects/findings/2026-10-14-mooer-ge150-pro.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "a9cb79fd85034e035d0566259e1c3b1549d23e6fc364c03db2000f4be8ffa61e"
+      },
+      "effects/findings/2026-10-14-mooer-ge150.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "b471182fcdea38e8e5953bc2b9b5a4d556c1e596e25decf2c4deffcbd98498f3"
+      },
+      "effects/findings/2026-10-14-mooer-ge200-pro-li.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "17383b70bc9331b77927f77fc1dc6e2b041d364d3fbe9a79a36107fda2ae5db1"
+      },
+      "effects/findings/2026-10-14-mooer-ge200-pro.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "15225975efb1c6f46a48ad17cf64c1173ac9f4212aa6ff6948cba695818e9327"
+      },
+      "effects/findings/2026-10-14-mooer-ge200.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "7ca92273cb84d226cd33b0d535c599d8ee3b1395c9a0f0eb59ddc1ce6139f759"
+      },
+      "effects/findings/2026-10-14-mvave-ann-blackbox.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "cedd777795c095c091c0b25058be215c3b8f21b8961e0c9a2aabb5c87836b7a3"
+      },
+      "effects/findings/2026-10-14-mvave-mk-20.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "fc76153af9d2998ca4bfe146c050b64d7c9153d3992e1be8c31cb2314ba363d7"
+      },
+      "effects/findings/2026-10-14-mvave-mk-300.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "a2dd76d406d9f09592ee4ec6c7bf45a97711467466a2a027ed2e271abc5bbc04"
+      },
+      "effects/findings/2026-10-14-mvave-tank-b.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "e3fd99b34a7512d2f04773b28af8054ecb4bb3e36711c7fedf58dae96b427ce5"
+      },
+      "effects/findings/2026-10-14-mvave-tank-g.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "a29a0e065f6fbdb7acca6bbb99ab3051098528baf8528036fc98d1dfd7d58144"
+      },
+      "effects/findings/2026-10-14-mvave-tank-mini.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "6c7e0bc0cd640e99724fbd5ed78af75cebcc972c9a40d69a3cc8f61550cce7db"
+      },
+      "effects/findings/2026-10-14-mvave-tank-pro.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "751e289bb852d2533f8b1d2d91fd72bc3f546720e6d9c218ff6b7caaa665e816"
+      },
+      "effects/findings/2026-10-14-nux-mg-100.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "7bdfe21fe6a9238ecc64ba7360129bad6ac90d594835747c1a8424302c269c12"
+      },
+      "effects/findings/2026-10-14-nux-mg-200.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "a69d32dc1c13efa9ce87385443ca05f88728eb8fc5a445822d028c4f430c1abb"
+      },
+      "effects/findings/2026-10-14-roland-gr-55.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "1abf8c433c5f9eb3d9515989f0c91b2f9d301475475365493c748e5144788ab6"
+      },
+      "effects/findings/2026-10-14-scorpion-kmf-10.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "d0c206afb282513e8aeb1014820da5eb00551580040045e6b49856f4ab6ce0ff"
+      },
+      "effects/findings/2026-10-14-sonicake-matribox.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "f5af4d016816b12c6caba3c71d62accb0821f4da392439e31af5389f2e6ef845"
+      },
+      "effects/findings/2026-10-14-sonicake-pocket-master.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "a7d2183ad1d80896d7e97943ec1e405f1559aefd3e0d86cb1f09b54bb4ec9442"
+      },
+      "effects/findings/2026-10-14-sonicake-smart-box.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "6f2db96e6e84be620262491a17e2397e189bbe3f8b0fbc9461b4f53d925a7fdc"
+      },
+      "effects/findings/2026-10-14-tchelicon-play-acoustic.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "06d7b4aee78df1e4c8b8a027b74e884d77123ec411c453d131ce9a94e591d0f2"
+      },
+      "effects/findings/2026-10-14-tchelicon-voicelive-play.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "fbdacdfe336bfe3857d7e1a72d75a2c0875f90324a32df63984e3058f1672048"
+      },
+      "effects/findings/2026-10-14-valeton-gp-100.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "285d8f71499036180f363670d8686ba3efa5775c89dce7db1171ac549ea12de5"
+      },
+      "effects/findings/2026-10-14-valeton-gp-150.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "3da0cf25d9c69e89903882c1a5888ee03f95f897aa509ae1ce60f8bb7fce5d95"
+      },
+      "effects/findings/2026-10-14-valeton-gp-180.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "8bdb5e1a00fbde2610788cb86b1adbe41e8caec417955cf0d95e1d2382467273"
+      },
+      "effects/findings/2026-10-14-valeton-gp-5.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "badac5609790d8a001d616ab562e04a36e54d8eadb02c7907230d43c58c9b78c"
+      },
+      "effects/findings/2026-10-14-valeton-gp-50.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "3fcf12a125b3ad729a7b23af922c3117143ff10309b14e453e243371e8e45b42"
+      },
+      "effects/findings/2026-10-14-zoom-b1xon.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "e8f91dfc1c0d61c0444aedf91d2fabcaefef00a44adc08a029f698d2b79ef0ab"
+      },
+      "effects/findings/2026-10-14-zoom-g1-four.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "737238731d719fd8b261ad621c138183bfd3d05ff21716d1b64679b7a365a5c3"
+      },
+      "effects/findings/2026-10-14-zoom-g1x-four.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "0c54ca5fea40ef597ee896e0de0a88de2817b97610e0d707adeb83c4b8c8f02e"
+      },
+      "effects/findings/2026-10-14-zoom-g2-four.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "2d1950a44e2fa3de8af9962ea47cfc03bcaa0699b5a75f0cb30eea9438dace61"
+      },
+      "effects/findings/2026-10-14-zoom-g2x-four.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "5be233f527d7c578c8668a6211d4cd5b1afe8c815cd10b018c2277f5c4c9ab9c"
+      },
+      "effects/findings/2026-10-15-audota-ace-100.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "9d5b50b04dfa6577b0305a0a57dfb99abe7e54e965ff046eca699f1972e1828b"
+      },
+      "effects/findings/2026-10-15-audota-ame-100.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "d04165230f2440cf3b677204b3f04fde25f49c861abcafd252710cf9b49724e0"
+      },
+      "effects/findings/2026-10-15-audota-ame-200-pro.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "76a838ea367c1279c8244f4df5f17f609fc76dfa0393859d264095c897c89b82"
+      },
+      "effects/findings/2026-10-15-audota-ame-200.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "b73688adfaa8baf08ca38e828846bf4eb3599e25e2de32074d222c5d5405aa4d"
+      },
+      "effects/findings/2026-10-15-audota-ave-100.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "3f526a5d83d92967bd04f45e7ed4dee1ce019921b1743b7cfc34c21c6d92a3b0"
+      },
+      "effects/findings/2026-10-15-boss-gt1-display-idr.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "d6feddd043e52c709abebfc4a785b24ecb6f720d497467809cb54db423850430"
+      },
+      "effects/findings/2026-10-15-boss-gt1000-display-idr.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "a8a91baa00b0bf914a239e4161706aa4a14db9e3d7428c7f058c86bb755cc532"
+      },
+      "effects/findings/2026-10-15-boss-gt1000core-display-idr.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "94977934d2a649b74562ec5e82e547501e05a923214246c340c133a3b7fc2fce"
+      },
+      "effects/findings/2026-10-15-boss-gx1-display-idr.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "3cf74fe8c789b042d022fac8977f756a41815b0a1d705e0113c48948043b2aab"
+      },
+      "effects/findings/2026-10-15-boss-gx10-display-idr.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "b4e03bd63d9b02e44b2922abb722e1fcc95621c1f007ebeee895a062d2c60380"
+      },
+      "effects/findings/2026-10-15-boss-gx100-display-idr.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "aec68f6ff7f335ee678abb49f62a747054ce40e83f6cb3320237a4c30ad37ee1"
+      },
+      "effects/findings/2026-10-15-boss-me90-display-idr.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "7a18aa6f5f8727336467527928807bf7a4dfa9b8ec1a7e7a51dabe19d5f0deed"
+      },
+      "effects/findings/2026-10-15-cuvave-h8.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "8d931798d4b5b47028777ef8656c6e61dfac172b0ea8e670b457281a7f83bce5"
+      },
+      "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "e41a93be02fa9b2c1f3e4dcc51008a54a01d8d3fe3701ea0c1ea2533e0fca9cc"
+      },
+      "effects/findings/2026-10-15-joyo-gembox-original.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "d1c1f743fd2a17e786b4aaa0451d55e964b818c954b49dc2d914407616b31f1e"
+      },
+      "effects/findings/2026-10-15-line6-pod-express-bass.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "f46372de56376371928bf0a2c83f66a64e8561483c70744300c4e64a71bb9a3f"
+      },
+      "effects/findings/2026-10-15-line6-pod-express-guitar.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "3b83e3445a55c3854e80722966dc131931b96aca47432d92dba5edb28cc5b2f6"
+      },
+      "effects/findings/2026-10-15-line6-pod-go-wireless.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "9c98e9ddae09758bd410fd6d224e08ae29dd26ebcab2374556a07a908493a9a8"
+      },
+      "effects/findings/2026-10-15-line6-pod-go.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "e55c4e301c9817b97bb36b5ced9ca4f814bc78f4941dee0751b44834dfce2cc1"
+      },
+      "effects/findings/2026-10-15-mooer-ge1000-li.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "23b05c9ef1183724c0bae7fb95480e5c668c4241026ebe616d2bb38c7734eda5"
+      },
+      "effects/findings/2026-10-15-mooer-ge150-max-li.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "05e5909d870a0e4dee00adc202473b0554b92bb627c8432dcdb0e9afc704fed9"
+      },
+      "effects/findings/2026-10-15-mooer-ge150-max.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "c0a2307c440b29997e9ccb32730549c27f0365fd6b4bdf6e3117285dcff00b83"
+      },
+      "effects/findings/2026-10-15-mooer-ge150-plus-li.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "abeecd22e8ff54d286dfb47332cf10837fd08ab52f975264ad1e9a2fb5cbcf4f"
+      },
+      "effects/findings/2026-10-15-mooer-ge150-plus.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "2bf111b7776c6c686cdd3719111a342b71cfbbf5b4b022ef3b079ac8a68938c2"
+      },
+      "effects/findings/2026-10-15-mvave-cube-baby-ac.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "c0a55cd15830d8b4f710e157a25c62c7edfa1bfa45bdf4c1049962a5a85d559e"
+      },
+      "effects/findings/2026-10-15-mvave-cube-baby-bass.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "c3a30e92e673e39602ccc5e19d8e3014dd2293b81fde9138617dd85b62c7a4fe"
+      },
+      "effects/findings/2026-10-15-mvave-cube-baby.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "4ecbe99b85ba83cf6327b950c211cfe01e82ec2cf304229cfda487555b14fea3"
+      },
+      "effects/findings/2026-10-15-mvave-mini-x.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "dfe5e96ced4d7352c18af69554df90f6d653e3fd7af8b7129eb944eb04056f5b"
+      },
+      "effects/findings/2026-10-15-mvave-pocket-amp.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "7a0332aef740188f98dbada0c47d27419a478fe7ede50355b5d8b62ec059c33e"
+      },
+      "effects/findings/2026-10-15-nux-trident.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "e2f1279a0361d883f2e0b81865678322864fb306dfe87a95b85ad066d9189255"
+      },
+      "effects/findings/2026-10-15-ving-fb100.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "0ae3f85f0c4e62bd7b228d51cf77c334615643cbb98a324df15e37c1dc3c71c3"
+      },
+      "effects/findings/2026-10-15-zoom-g11.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "fb5ff3a6eb455626448d580b392a1556b908c7605a7ded26c9f50a3c2a10841d"
+      },
+      "effects/findings/2026-10-15-zoom-g6.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "e90a6dd3bb9927e538dafcddc9b79ee0a24d551a5bffb96409e084f2d53ef107"
+      },
+      "effects/guitar-boss.history-2026-10-14.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "f2de869036709eac76b876350c470c5e7c84c94ebc241b89e7f9b47d09f2fe48"
+      },
+      "effects/guitar-boss.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "f9f2c17a6166465ab952e909537373683791b8637b33076ad21389c08fe6f647"
+      },
+      "effects/guitar-compact.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "34844cd85390a15f315ad08a4f10df7352b0f2020cb6f835d53a9f02aa49539b"
+      },
+      "effects/guitar-floorboards.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "23472284f277f4ccaf451e6e9d0cc0de4cd9b9cd19a075541b695c35819b1928"
+      },
+      "effects/guitar-nux.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "24dfac6d2ace691c9687f2fc7ceb736200dd8ddc9beaf964eeaec590b0378767"
+      },
+      "effects/owned-multifx.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "04a84ab2d55cb9d2641c8951de626b6e9c14b0a49d903a23f70ee078c17b7686"
+      },
+      "effects/shopee-multifx-2.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "8e5f4ce22a6cf3b991e7be69a370f54fa1611d585eb02c744ebb019a570e54ab"
+      },
+      "effects/shopee-multifx-3.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "cc51d25caf891fab567fafd10062fae9b34eee7a02a6a386606e5b46d454829d"
+      },
+      "effects/shopee-multifx-4.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "386bf3e3b1bd1eb70eb84d507aee5555cfd5869779d7ab689fea61de9005bc46"
+      },
+      "effects/shopee-multifx-5.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "31c9fc0ed6f95996c1be06440e1674c27a67021860ca9a9e47586d3a1bc13791"
+      },
+      "effects/shopee-multifx-6.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "2ff39272d7c753f1bfcf029b56ed18e6d7d720c1b9153d6d4df815964686ab89"
+      },
+      "effects/shopee-multifx-7.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "8536a8492b7cc3d28044bed01ff3a5007c4d95a88f75a4b9050fb99300dabbf9"
+      },
+      "effects/shopee-multifx.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "58d9d2b2d15be7606c942871fa5e4cf4f3c880ebe752fa54eefcfa8a029caf92"
+      },
+      "effects/vocal.md": {
+        "redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+        "redirect_sha256": "5665de4c32ae5e7a4cc0c439b192da3556303fb2f324c2581dea7400f738f087"
+      }
+    },
+    "technical_compatibility_removal": {
+      "status": "partial",
+      "removed_paths": [
+        "effects/advanced-modelers.md",
+        "effects/audota.md",
+        "effects/bass.md",
+        "effects/cube-baby.md",
+        "effects/findings/2026-10-14-boin-audio-bg300.md",
+        "effects/findings/2026-10-14-donner-arena2000.md",
+        "effects/findings/2026-10-14-flamma-fx100.md",
+        "effects/findings/2026-10-14-flamma-fx200.md",
+        "effects/findings/2026-10-14-headrush-core.md",
+        "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md",
+        "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md",
+        "effects/findings/2026-10-14-hotone-ampero-mini.md",
+        "effects/findings/2026-10-14-hotone-ampero-mp100.md",
+        "effects/findings/2026-10-14-joyo-gembox-ii.md",
+        "effects/findings/2026-10-14-joyo-gembox-iii.md",
+        "effects/findings/2026-10-14-line6-hx-stomp-xl.md",
+        "effects/findings/2026-10-14-mooer-ge100-pro-li.md",
+        "effects/findings/2026-10-14-mooer-ge100-pro.md",
+        "effects/findings/2026-10-14-mooer-ge100.md",
+        "effects/findings/2026-10-14-mooer-ge1000.md",
+        "effects/findings/2026-10-14-mooer-ge150-pro-li.md",
+        "effects/findings/2026-10-14-mooer-ge150-pro.md",
+        "effects/findings/2026-10-14-mooer-ge150.md",
+        "effects/findings/2026-10-14-mooer-ge200-pro-li.md",
+        "effects/findings/2026-10-14-mooer-ge200-pro.md",
+        "effects/findings/2026-10-14-mooer-ge200.md",
+        "effects/findings/2026-10-14-mvave-ann-blackbox.md",
+        "effects/findings/2026-10-14-mvave-mk-20.md",
+        "effects/findings/2026-10-14-mvave-mk-300.md",
+        "effects/findings/2026-10-14-mvave-tank-b.md",
+        "effects/findings/2026-10-14-mvave-tank-g.md",
+        "effects/findings/2026-10-14-mvave-tank-mini.md",
+        "effects/findings/2026-10-14-mvave-tank-pro.md",
+        "effects/findings/2026-10-14-nux-mg-100.md",
+        "effects/findings/2026-10-14-nux-mg-200.md",
+        "effects/findings/2026-10-14-roland-gr-55.md",
+        "effects/findings/2026-10-14-scorpion-kmf-10.md",
+        "effects/findings/2026-10-14-sonicake-matribox.md",
+        "effects/findings/2026-10-14-sonicake-pocket-master.md",
+        "effects/findings/2026-10-14-sonicake-smart-box.md",
+        "effects/findings/2026-10-14-tchelicon-play-acoustic.md",
+        "effects/findings/2026-10-14-tchelicon-voicelive-play.md",
+        "effects/findings/2026-10-14-valeton-gp-100.md",
+        "effects/findings/2026-10-14-valeton-gp-150.md",
+        "effects/findings/2026-10-14-valeton-gp-180.md",
+        "effects/findings/2026-10-14-valeton-gp-5.md",
+        "effects/findings/2026-10-14-valeton-gp-50.md",
+        "effects/findings/2026-10-14-zoom-b1xon.md",
+        "effects/findings/2026-10-14-zoom-g1-four.md",
+        "effects/findings/2026-10-14-zoom-g1x-four.md",
+        "effects/findings/2026-10-14-zoom-g2-four.md",
+        "effects/findings/2026-10-14-zoom-g2x-four.md",
+        "effects/findings/2026-10-15-audota-ace-100.md",
+        "effects/findings/2026-10-15-audota-ame-100.md",
+        "effects/findings/2026-10-15-audota-ame-200-pro.md",
+        "effects/findings/2026-10-15-audota-ame-200.md",
+        "effects/findings/2026-10-15-audota-ave-100.md",
+        "effects/findings/2026-10-15-boss-gt1-display-idr.md",
+        "effects/findings/2026-10-15-boss-gt1000-display-idr.md",
+        "effects/findings/2026-10-15-boss-gt1000core-display-idr.md",
+        "effects/findings/2026-10-15-boss-gx1-display-idr.md",
+        "effects/findings/2026-10-15-boss-gx10-display-idr.md",
+        "effects/findings/2026-10-15-boss-gx100-display-idr.md",
+        "effects/findings/2026-10-15-boss-me90-display-idr.md",
+        "effects/findings/2026-10-15-cuvave-h8.md",
+        "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md",
+        "effects/findings/2026-10-15-joyo-gembox-original.md",
+        "effects/findings/2026-10-15-line6-pod-express-bass.md",
+        "effects/findings/2026-10-15-line6-pod-express-guitar.md",
+        "effects/findings/2026-10-15-line6-pod-go-wireless.md",
+        "effects/findings/2026-10-15-line6-pod-go.md",
+        "effects/findings/2026-10-15-mooer-ge1000-li.md",
+        "effects/findings/2026-10-15-mooer-ge150-max-li.md",
+        "effects/findings/2026-10-15-mooer-ge150-max.md",
+        "effects/findings/2026-10-15-mooer-ge150-plus-li.md",
+        "effects/findings/2026-10-15-mooer-ge150-plus.md",
+        "effects/findings/2026-10-15-mvave-cube-baby-ac.md",
+        "effects/findings/2026-10-15-mvave-cube-baby-bass.md",
+        "effects/findings/2026-10-15-mvave-cube-baby.md",
+        "effects/findings/2026-10-15-mvave-mini-x.md",
+        "effects/findings/2026-10-15-mvave-pocket-amp.md",
+        "effects/findings/2026-10-15-nux-trident.md",
+        "effects/findings/2026-10-15-ving-fb100.md",
+        "effects/findings/2026-10-15-zoom-g11.md",
+        "effects/findings/2026-10-15-zoom-g6.md",
+        "effects/guitar-boss.history-2026-10-14.md",
+        "effects/guitar-boss.md",
+        "effects/guitar-compact.md",
+        "effects/guitar-floorboards.md",
+        "effects/guitar-nux.md",
+        "effects/owned-multifx.md",
+        "effects/shopee-multifx-2.md",
+        "effects/shopee-multifx-3.md",
+        "effects/shopee-multifx-4.md",
+        "effects/shopee-multifx-5.md",
+        "effects/shopee-multifx-6.md",
+        "effects/shopee-multifx-7.md",
+        "effects/shopee-multifx.md",
+        "effects/vocal.md"
+      ],
+      "original_evidence": "Pinned original sources and canonical brand/shared evidence remain unchanged.",
+      "remaining": "Metadata/specialist compatibility and independent technical research remain unfinished.",
+      "rollback": "make technical-compatibility-restore-plan; review exact preview; make technical-compatibility-operation-apply"
     }
   },
   "deferred_work": {
@@ -57273,117 +57778,91 @@
       "source_files": [
         "brand/AUDOTA.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-audota-ame-100.md"
-      ]
+      "finding_files": []
     },
     "Audota::AME-200": {
       "link": "brand/AUDOTA.md#ame-200",
       "source_files": [
         "brand/AUDOTA.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-audota-ame-200.md"
-      ]
+      "finding_files": []
     },
     "Audota::AME-200 Pro": {
       "link": "brand/AUDOTA.md#ame-200-pro",
       "source_files": [
         "brand/AUDOTA.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-audota-ame-200-pro.md"
-      ]
+      "finding_files": []
     },
     "Audota::ACE-100": {
       "link": "brand/AUDOTA.md#ace-100",
       "source_files": [
         "brand/AUDOTA.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-audota-ace-100.md"
-      ]
+      "finding_files": []
     },
     "Audota::AVE-100": {
       "link": "brand/AUDOTA.md#ave-100",
       "source_files": [
         "brand/AUDOTA.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-audota-ave-100.md"
-      ]
+      "finding_files": []
     },
     "Boin Audio::BG300": {
       "link": "brand/BOIN-AUDIO.md#bg300",
       "source_files": [
         "brand/BOIN-AUDIO.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-boin-audio-bg300.md"
-      ]
+      "finding_files": []
     },
     "BOSS::GT-1000CORE": {
       "link": "brand/BOSS.md#gt-1000core",
       "source_files": [
         "brand/BOSS.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-boss-gt1000core-display-idr.md"
-      ]
+      "finding_files": []
     },
     "BOSS::GX-10": {
       "link": "brand/BOSS.md#gx-10",
       "source_files": [
         "brand/BOSS.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-boss-gx10-display-idr.md"
-      ]
+      "finding_files": []
     },
     "BOSS::GT-1": {
       "link": "brand/BOSS.md#gt-1",
       "source_files": [
         "brand/BOSS.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-boss-gt1-display-idr.md"
-      ]
+      "finding_files": []
     },
     "BOSS::GX-1": {
       "link": "brand/BOSS.md#gx-1",
       "source_files": [
         "brand/BOSS.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-boss-gx1-display-idr.md"
-      ]
+      "finding_files": []
     },
     "BOSS::ME-90": {
       "link": "brand/BOSS.md#me-90",
       "source_files": [
         "brand/BOSS.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-boss-me90-display-idr.md"
-      ]
+      "finding_files": []
     },
     "BOSS::GX-100": {
       "link": "brand/BOSS.md#gx-100",
       "source_files": [
         "brand/BOSS.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-boss-gx100-display-idr.md"
-      ]
+      "finding_files": []
     },
     "BOSS::GT-1000": {
       "link": "brand/BOSS.md#gt-1000",
       "source_files": [
         "brand/BOSS.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-boss-gt1000-display-idr.md"
-      ]
+      "finding_files": []
     },
     "BOSS::GT-1B": {
       "link": "brand/BOSS.md#gt-1b",
@@ -57656,18 +58135,14 @@
       "source_files": [
         "brand/CUVAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-cuvave-h8.md"
-      ]
+      "finding_files": []
     },
     "Donner::Arena2000": {
       "link": "brand/DONNER.md#arena2000",
       "source_files": [
         "brand/DONNER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-donner-arena2000.md"
-      ]
+      "finding_files": []
     },
     "Donner::Triple Threat": {
       "link": "brand/DONNER.md#triple-threat",
@@ -57702,18 +58177,14 @@
       "source_files": [
         "brand/FLAMMA.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-flamma-fx100.md"
-      ]
+      "finding_files": []
     },
     "Flamma::FX200": {
       "link": "brand/FLAMMA.md#fx200",
       "source_files": [
         "brand/FLAMMA.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-flamma-fx200.md"
-      ]
+      "finding_files": []
     },
     "Flamma::FX150": {
       "link": "brand/FLAMMA.md#fx150",
@@ -57790,9 +58261,7 @@
       "source_files": [
         "brand/HEADRUSH.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-headrush-core.md"
-      ]
+      "finding_files": []
     },
     "HeadRush::Flex Prime": {
       "link": "brand/HEADRUSH.md#flex-prime",
@@ -57841,45 +58310,35 @@
       "source_files": [
         "brand/HOTONE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-hotone-ampero-mini.md"
-      ]
+      "finding_files": []
     },
     "Hotone::Ampero MP-100": {
       "link": "brand/HOTONE.md#ampero-mp-100",
       "source_files": [
         "brand/HOTONE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-hotone-ampero-mp100.md"
-      ]
+      "finding_files": []
     },
     "Hotone::Ampero II MP-350": {
       "link": "brand/HOTONE.md#ampero-ii-mp-350",
       "source_files": [
         "brand/HOTONE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md"
-      ]
+      "finding_files": []
     },
     "Hotone::Ampero II Stage MP-380": {
       "link": "brand/HOTONE.md#ampero-ii-stage-mp-380",
       "source_files": [
         "brand/HOTONE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md"
-      ]
+      "finding_files": []
     },
     "Hotone::Ampero II Stomp MP-300": {
       "link": "brand/HOTONE.md#ampero-ii-stomp-mp-300",
       "source_files": [
         "brand/HOTONE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md"
-      ]
+      "finding_files": []
     },
     "Hotone::Ampero One MP-80": {
       "link": "brand/HOTONE.md#ampero-one-mp-80",
@@ -57907,27 +58366,21 @@
       "source_files": [
         "brand/JOYO.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-joyo-gembox-original.md"
-      ]
+      "finding_files": []
     },
     "JOYO::GEM BOX II": {
       "link": "brand/JOYO.md#gem-box-ii",
       "source_files": [
         "brand/JOYO.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-joyo-gembox-ii.md"
-      ]
+      "finding_files": []
     },
     "JOYO::GEM BOX III": {
       "link": "brand/JOYO.md#gem-box-iii",
       "source_files": [
         "brand/JOYO.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-joyo-gembox-iii.md"
-      ]
+      "finding_files": []
     },
     "JOYO::R-16 Vocal Lab": {
       "link": "brand/JOYO.md#r-16-vocal-lab",
@@ -57969,47 +58422,35 @@
       "source_files": [
         "brand/LINE6.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-line6-hx-stomp-xl.md"
-      ]
+      "finding_files": []
     },
     "Line 6::POD Go": {
       "link": "brand/LINE6.md#pod-go-and-pod-go-wireless",
       "source_files": [
         "brand/LINE6.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-line6-pod-go-wireless.md",
-        "effects/findings/2026-10-15-line6-pod-go.md"
-      ]
+      "finding_files": []
     },
     "Line 6::POD Go Wireless": {
       "link": "brand/LINE6.md#pod-go-and-pod-go-wireless",
       "source_files": [
         "brand/LINE6.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-line6-pod-go-wireless.md",
-        "effects/findings/2026-10-15-line6-pod-go.md"
-      ]
+      "finding_files": []
     },
     "Line 6::POD Express Guitar": {
       "link": "brand/LINE6.md#pod-express-guitar",
       "source_files": [
         "brand/LINE6.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-line6-pod-express-guitar.md"
-      ]
+      "finding_files": []
     },
     "Line 6::POD Express Bass": {
       "link": "brand/LINE6.md#pod-express-bass",
       "source_files": [
         "brand/LINE6.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-line6-pod-express-bass.md"
-      ]
+      "finding_files": []
     },
     "Line 6::Helix LT": {
       "link": "brand/LINE6.md#helix-lt",
@@ -58128,135 +58569,105 @@
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mooer-ge100.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE150 original": {
       "link": "brand/MOOER.md#ge150-original",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mooer-ge150.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE150 Pro Li": {
       "link": "brand/MOOER.md#ge150-pro-li",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mooer-ge150-pro-li.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE200 original": {
       "link": "brand/MOOER.md#ge200-original",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mooer-ge200.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE100 Pro": {
       "link": "brand/MOOER.md#ge100-pro",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mooer-ge100-pro.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE100 Pro Li": {
       "link": "brand/MOOER.md#ge100-pro-li",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mooer-ge100-pro-li.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE200 Pro": {
       "link": "brand/MOOER.md#ge200-pro",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mooer-ge200-pro.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE200 Pro Li": {
       "link": "brand/MOOER.md#ge200-pro-li",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mooer-ge200-pro-li.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE1000": {
       "link": "brand/MOOER.md#ge1000",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mooer-ge1000.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE150 Pro": {
       "link": "brand/MOOER.md#ge150-pro",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mooer-ge150-pro.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE150 Plus": {
       "link": "brand/MOOER.md#ge150-plus",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-mooer-ge150-plus.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE150 Plus Li": {
       "link": "brand/MOOER.md#ge150-plus-li",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-mooer-ge150-plus-li.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE150 Max": {
       "link": "brand/MOOER.md#ge150-max",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-mooer-ge150-max.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE150 Max Li": {
       "link": "brand/MOOER.md#ge150-max-li",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-mooer-ge150-max-li.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE1000 Li": {
       "link": "brand/MOOER.md#ge1000-li",
       "source_files": [
         "brand/MOOER.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-mooer-ge1000-li.md"
-      ]
+      "finding_files": []
     },
     "MOOER::GE250": {
       "link": "brand/MOOER.md#ge250",
@@ -58382,108 +58793,84 @@
       "source_files": [
         "brand/M-VAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mvave-tank-g.md"
-      ]
+      "finding_files": []
     },
     "M-VAVE::TANK-B": {
       "link": "brand/M-VAVE.md#tank-b",
       "source_files": [
         "brand/M-VAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mvave-tank-b.md"
-      ]
+      "finding_files": []
     },
     "M-VAVE::TANK MINI": {
       "link": "brand/M-VAVE.md#tank-mini",
       "source_files": [
         "brand/M-VAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mvave-tank-mini.md"
-      ]
+      "finding_files": []
     },
     "M-VAVE::MK-20": {
       "link": "brand/M-VAVE.md#mk-20",
       "source_files": [
         "brand/M-VAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mvave-mk-20.md"
-      ]
+      "finding_files": []
     },
     "M-VAVE::MK-300": {
       "link": "brand/M-VAVE.md#mk-300",
       "source_files": [
         "brand/M-VAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mvave-mk-300.md"
-      ]
+      "finding_files": []
     },
     "M-VAVE::TANK-PRO": {
       "link": "brand/M-VAVE.md#tank-pro",
       "source_files": [
         "brand/M-VAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mvave-tank-pro.md"
-      ]
+      "finding_files": []
     },
     "M-VAVE::ANN Blackbox": {
       "link": "brand/M-VAVE.md#ann-blackbox",
       "source_files": [
         "brand/M-VAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-mvave-ann-blackbox.md"
-      ]
+      "finding_files": []
     },
     "M-VAVE::MINI-X": {
       "link": "brand/M-VAVE.md#mini-x",
       "source_files": [
         "brand/M-VAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-mvave-mini-x.md"
-      ]
+      "finding_files": []
     },
     "M-VAVE::Pocket Amp": {
       "link": "brand/M-VAVE.md#pocket-amp",
       "source_files": [
         "brand/M-VAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-mvave-pocket-amp.md"
-      ]
+      "finding_files": []
     },
     "M-VAVE::CUBE BABY electric": {
       "link": "brand/M-VAVE.md#cube-baby-electric",
       "source_files": [
         "brand/M-VAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-mvave-cube-baby.md"
-      ]
+      "finding_files": []
     },
     "M-VAVE::CUBE BABY AC": {
       "link": "brand/M-VAVE.md#cube-baby-ac",
       "source_files": [
         "brand/M-VAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-mvave-cube-baby-ac.md"
-      ]
+      "finding_files": []
     },
     "M-VAVE::CUBE BABY BASS": {
       "link": "brand/M-VAVE.md#cube-baby-bass",
       "source_files": [
         "brand/M-VAVE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-mvave-cube-baby-bass.md"
-      ]
+      "finding_files": []
     },
     "Neural DSP::Nano Cortex": {
       "link": "brand/NEURAL-DSP.md#nano-cortex",
@@ -58546,27 +58933,21 @@
       "source_files": [
         "brand/NUX.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-nux-mg-100.md"
-      ]
+      "finding_files": []
     },
     "NUX::MG-200": {
       "link": "brand/NUX.md#mg-200",
       "source_files": [
         "brand/NUX.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-nux-mg-200.md"
-      ]
+      "finding_files": []
     },
     "NUX::TRIDENT NME-5": {
       "link": "brand/NUX.md#trident-nme-5",
       "source_files": [
         "brand/NUX.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-nux-trident.md"
-      ]
+      "finding_files": []
     },
     "NUX::Cerberus NME-3": {
       "link": "brand/NUX.md#cerberus-nme-3",
@@ -58636,9 +59017,7 @@
       "source_files": [
         "brand/ROLAND.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-roland-gr-55.md"
-      ]
+      "finding_files": []
     },
     "Roland::VT-4": {
       "link": "brand/ROLAND.md#vt-4",
@@ -58652,36 +59031,28 @@
       "source_files": [
         "brand/SCORPION.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-scorpion-kmf-10.md"
-      ]
+      "finding_files": []
     },
     "Sonicake::Matribox QME-50": {
       "link": "brand/SONICAKE.md#matribox-qme-50",
       "source_files": [
         "brand/SONICAKE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-sonicake-matribox.md"
-      ]
+      "finding_files": []
     },
     "Sonicake::Smart Box QME-20": {
       "link": "brand/SONICAKE.md#smart-box-qme-20",
       "source_files": [
         "brand/SONICAKE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-sonicake-smart-box.md"
-      ]
+      "finding_files": []
     },
     "Sonicake::Pocket Master QME-10": {
       "link": "brand/SONICAKE.md#pocket-master-qme-10",
       "source_files": [
         "brand/SONICAKE.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-sonicake-pocket-master.md"
-      ]
+      "finding_files": []
     },
     "Sonicake::Matribox II QME-100": {
       "link": "brand/SONICAKE.md#matribox-ii-qme-100",
@@ -58744,18 +59115,14 @@
       "source_files": [
         "brand/TC-HELICON.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-tchelicon-voicelive-play.md"
-      ]
+      "finding_files": []
     },
     "TC-Helicon::Play Acoustic": {
       "link": "brand/TC-HELICON.md#play-acoustic",
       "source_files": [
         "brand/TC-HELICON.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-tchelicon-play-acoustic.md"
-      ]
+      "finding_files": []
     },
     "TC-Helicon::VoiceLive 3 Extreme": {
       "link": "brand/TC-HELICON.md#voicelive-3-extreme",
@@ -58839,45 +59206,35 @@
       "source_files": [
         "brand/VALETON.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-valeton-gp-100.md"
-      ]
+      "finding_files": []
     },
     "Valeton::GP-150": {
       "link": "brand/VALETON.md#gp-150",
       "source_files": [
         "brand/VALETON.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-valeton-gp-150.md"
-      ]
+      "finding_files": []
     },
     "Valeton::GP-5": {
       "link": "brand/VALETON.md#gp-5",
       "source_files": [
         "brand/VALETON.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-valeton-gp-5.md"
-      ]
+      "finding_files": []
     },
     "Valeton::GP-50": {
       "link": "brand/VALETON.md#gp-50",
       "source_files": [
         "brand/VALETON.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-valeton-gp-50.md"
-      ]
+      "finding_files": []
     },
     "Valeton::GP-180": {
       "link": "brand/VALETON.md#gp-180",
       "source_files": [
         "brand/VALETON.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-valeton-gp-180.md"
-      ]
+      "finding_files": []
     },
     "Valeton::GP-200": {
       "link": "brand/VALETON.md#gp-200",
@@ -58989,9 +59346,7 @@
       "source_files": [
         "brand/VING.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-ving-fb100.md"
-      ]
+      "finding_files": []
     },
     "Zoom::B1 FOUR": {
       "link": "brand/ZOOM.md#b1-four",
@@ -59040,63 +59395,49 @@
       "source_files": [
         "brand/ZOOM.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-zoom-g1-four.md"
-      ]
+      "finding_files": []
     },
     "Zoom::G1X FOUR": {
       "link": "brand/ZOOM.md#g1x-four",
       "source_files": [
         "brand/ZOOM.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-zoom-g1x-four.md"
-      ]
+      "finding_files": []
     },
     "Zoom::G2 FOUR": {
       "link": "brand/ZOOM.md#g2-four",
       "source_files": [
         "brand/ZOOM.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-zoom-g2-four.md"
-      ]
+      "finding_files": []
     },
     "Zoom::G2X FOUR": {
       "link": "brand/ZOOM.md#g2x-four",
       "source_files": [
         "brand/ZOOM.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-zoom-g2x-four.md"
-      ]
+      "finding_files": []
     },
     "Zoom::B1Xon": {
       "link": "brand/ZOOM.md#b1xon",
       "source_files": [
         "brand/ZOOM.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-14-zoom-b1xon.md"
-      ]
+      "finding_files": []
     },
     "Zoom::G6": {
       "link": "brand/ZOOM.md#g6",
       "source_files": [
         "brand/ZOOM.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-zoom-g6.md"
-      ]
+      "finding_files": []
     },
     "Zoom::G11": {
       "link": "brand/ZOOM.md#g11",
       "source_files": [
         "brand/ZOOM.md"
       ],
-      "finding_files": [
-        "effects/findings/2026-10-15-zoom-g11.md"
-      ]
+      "finding_files": []
     },
     "Zoom::G3Xn": {
       "link": "brand/ZOOM.md#g3xn",
@@ -172459,5 +172800,41 @@
     },
     "next": "Implement reviewed hash-guarded apply/rollback andupdate retirement preview for removed paths; then test exact removal selection before deleting. Existing historical consolidation plan routines are not rerun on already-consolidated models.",
     "qualification": "No removed-path entries added,no files deleted,no migration-complete claim; inventory402 andindependent queues unchanged"
+  },
+  "technical_compatibility_removal_completed_20261105": {
+    "checked": "2026-11-05",
+    "pinned_redirect_commit": "f90bc9a4495ac12f9ce40fbb0cf9970cd2c8f244",
+    "removed_count": 99,
+    "remaining_legacy_markdown": [
+      "effects/COVERAGE.history-2026-10-14.md",
+      "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+      "effects/COVERAGE.md",
+      "effects/METHODOLOGY.md",
+      "effects/MIGRATION.md",
+      "effects/OWNERSHIP.history-2026-10-14.md",
+      "effects/OWNERSHIP.md",
+      "effects/README.md",
+      "effects/RESUME.md",
+      "effects/SCOPE.md",
+      "effects/findings/2026-10-14-flamma-fv01.md",
+      "effects/shopee-indonesia.history-2026-10-14.md",
+      "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+      "effects/shopee-indonesia.md",
+      "effects/specialist.md"
+    ],
+    "tests": {
+      "make technical-compatibility-operation-test": "PASS; drift,scope,accidental absence,replay andatomic collision-safe restore",
+      "make technical-retirement-verify": "PASS after removal;99sources,all shared unions,0incoming links",
+      "make research-verify-compatibility-readers": "PASS after removal,actual99-file restoration,then final removal",
+      "actual_rollback_drill": "Restored99 exact redirects,verified all,removed same reviewed selection again",
+      "completed_operation_replay": "PASS;no additional paths selected orchanged",
+      "make metadata-retirement-verify": "PASS after removal",
+      "make json-retirement-verify": "PASS after removal",
+      "make specialist-retirement-verify": "PASS after removal",
+      "make comparison-verify": "PASS;337guitar/178bass/72vocal rows; generated comparison outputs unchanged"
+    },
+    "scope": "Technical compatibility files only. Canonical evidence,original Git source pins,402active models,ownership,specialist exclusions andindependent queues preserved.",
+    "rollback": "make technical-compatibility-restore-plan;inspect exact JSON preview;make technical-compatibility-operation-apply. Never overwrite changed existing files.",
+    "next": "Review13metadata compatibility pages,specialist redirect andFV01 original archive separately before removal;preserve complete typed history andexact archival body. Broader display/Shopee,expression-volume andGP200JR→Prime→GE300 research remains unfinished."
   }
 }

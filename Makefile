@@ -2556,3 +2556,13 @@ research-test-compatibility-reader:
 .PHONY: research-verify-compatibility-readers
 research-verify-compatibility-readers:
 	python3 scripts/research_tools.py verify-compatibility-readers
+
+.PHONY: technical-compatibility-operation-test technical-compatibility-remove-plan technical-compatibility-restore-plan technical-compatibility-operation-apply
+technical-compatibility-operation-test:
+	python3 scripts/compatibility_removal.py test
+technical-compatibility-remove-plan:
+	python3 scripts/compatibility_removal.py remove-plan
+technical-compatibility-restore-plan:
+	python3 scripts/compatibility_removal.py restore-plan
+technical-compatibility-operation-apply:
+	python3 scripts/compatibility_removal.py apply
