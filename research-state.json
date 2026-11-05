@@ -171991,7 +171991,16 @@
       "Qualified condition/live stock"
     ],
     "inventory_unchanged": 402,
-    "next": "Continue individual-footdisplay priorities andsystematic required-field gaps;retain general GP-200JR→Prime→GE300,GT-Pro andexpression queues"
+    "next": "Continue individual-footdisplay priorities andsystematic required-field gaps;retain general GP-200JR→Prime→GE300,GT-Pro andexpression queues",
+    "output_tuner_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/NUX.md#trident--output-modes-tuner-reference-and-parameter-follow-scope",
+      "source": "https://manuals.plus/m/9fa23ef5c7df7f63f573dc5049c51a33dced2701ef830b913cfe656ba0dcaa6f",
+      "revision": "FirmwareV1©2022,QuickOperation/GlobalSetting",
+      "finding": "Output modes/tuner reference/parameter-follow limits;notglobalEXP proof.",
+      "inventory_unchanged": 402,
+      "next": "Individual-footdisplay/Shopee priority;continue systematic incomplete profiles;preserve GT-Pro,generaltrio andexpression-volume queues."
+    }
   },
   "lf12_controller_memory_20261105": {
     "checked": "2026-11-05",
