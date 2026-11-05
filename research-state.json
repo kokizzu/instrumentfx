@@ -172368,5 +172368,13 @@
     "repair": "Restore exact historical comparison shorthand; retain later manufacturer DC-3H correction in separate dated section",
     "audit": "Metadata andtypedJSON checks pass; technical/specialist verification found this exact-value failure",
     "next": "Commit XL repair then restore Stage supporting comparison value andrerun full preservation dispatch; no compatibility deletion yet"
+  },
+  "ampero_stage_supporting_value_repair_20261105": {
+    "checked": "2026-11-05",
+    "root": "brand/HOTONE.md#ampero-ii-stage-mp-380",
+    "source": "effects/shopee-multifx-5.md",
+    "field": "Processing and memory",
+    "repair": "Restore exact historical comparison value; keep current13+3 count reconciliation separately",
+    "next": "Rerun technical/specialist coverage after this repair; metadata andJSON already verified; no legacy deletion orinventory changes"
   }
 }

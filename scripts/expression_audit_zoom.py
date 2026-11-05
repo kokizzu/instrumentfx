@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs(line6): retain original HX Stomp XL comparison wording'
+        message='docs(hotone): retain original Stage comparison wording'
     print(git('commit','-m',message))

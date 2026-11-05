@@ -553,7 +553,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **K/F/B** (Hardware and displays): 5/8/1
 - **Published dimensions, mm; weight** (Hardware and displays): W301×D180×H58; 1895 g
 - **Main display** (Hardware and displays): 5-inch color, 800×480, touchscreen
-- **Processing and memory** (Processing, storage and loading): 12 simultaneous slots, dual routing; 300 editable locations with 5 scenes; historical category-count shorthand qualified by the later13+3 reconciliation
+- **Processing and memory** (Processing, storage and loading): 12 simultaneous slots, dual routing; 300 editable locations with 5 scenes; older and newer category inventories differ
 - **IR / NAM / captures** (Processing, storage and loading): 50 IR slots, 1024/2048 samples; native A2 Lite from specified Stage firmware; proprietary capture separate
 - **Connection / software highlights** (Connections, power and apps): Instrument/mic input with phantom, stereo loop, XLR/quarter-inch outs, 3.5 mm TRS MIDI IN/OUT, 2 EXP/CTRL; Windows/macOS/iOS/Android editor; 8-in/8-out USB
 - **Documented power** (Connections, power and apps): 9–18 V center-negative; maximum 1.4 A at 9 V; USB/battery operation unverified
