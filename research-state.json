@@ -169275,5 +169275,39 @@
     ],
     "next": "Finish exact FX200b manual andvariant power conflict before considering admission; preserve individual-display,expression and GP-200JR -> Prime -> GE300 queues",
     "inventory_change": 0
+  },
+  "flamma_fx200b_power_io_20261105": {
+    "model": "Flamma FX200b",
+    "status": "partial discovery lead; indexed manufacturer passages",
+    "checked": "2026-11-05",
+    "canonical": "brand/FLAMMA.md#fx200b--power-charging-and-connector-evidence",
+    "source": {
+      "url": "https://flammainnovation.com.cn/file/pdf?fileName=FX200_%E5%AE%8C%E6%95%B4%E7%89%88%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf&url=group1%2FM00%2F00%2F15%2FwKgAK2YMymKAF63nABklA15OWds299.pdf",
+      "revision": "Manual_CN_V03_2024.04.02",
+      "printed_pages": [
+        51,
+        71
+      ],
+      "access": "Readable indexed passages; direct glyphs garbled; no complete or visual inspection"
+    },
+    "supply": {
+      "volts": 9,
+      "amps": 3,
+      "polarity": "center negative",
+      "standard_fx200_amps": 1
+    },
+    "runtime": {
+      "hours_up_to": 5.5,
+      "source": "https://www.flamma.shop/products/%F0%9F%8E%B8flamma-fx200b-guitar-multi-effects-battery-powered",
+      "conditions": "unstated"
+    },
+    "limitations": [
+      "No USB charging inferred",
+      "EXP2 table10kOhm not permitted-pedal range orpinout",
+      "Phones47Ohm output impedance not load",
+      "Single Send/Return andsingle MIDI socket do not prove stereo loop or simultaneous DIN I/O"
+    ],
+    "next": "Resolve mass, charging duration, full exact-variant manual andexpression before admission; retain general/display queues",
+    "inventory_change": 0
   }
 }

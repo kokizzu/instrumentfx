@@ -45,6 +45,21 @@ Checked **2026-11-05**. **Discovery lead outside active counts**,not the standar
 
 Manufacturer-authored **FX200/FX200B Quick Guide,EN_V02_2025.07.11** is indexed at [Thomann](https://images.static-thomann.de/pics/atg/atgdata/document/manual/551272_fx200_551272_fx200b_579552_qsg_en_v02_2025.pdf). Its full body was not inspected here;do not borrow standardFX200 mass,power orports. Remaining:full exact-variant manual,power/charging,completeI/O,expression,synth/acoustic,editorOS,per-category choices andqualified Shopee hardware. No downloads ordevice operation.
 
+### FX200b — power, charging and connector evidence
+
+<a id="fx200b--power-charging-and-connector-evidence"></a>
+
+Checked **2026-11-05**. [Manufacturer Chinese FX200/FX200b Manual_CN_V03_2024.04.02](https://flammainnovation.com.cn/file/pdf?fileName=FX200_%E5%AE%8C%E6%95%B4%E7%89%88%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf&url=group1%2FM00%2F00%2F15%2FwKgAK2YMymKAF63nABklA15OWds299.pdf),76 PDFpages. **Readable indexed original passages**,printed51/71;direct extraction has garbled glyphs. No complete-text orvisual inspection claimed.
+
+| Field | Source-qualified finding |
+|---|---|
+| Power | Specification explicitly separates **FX200b9V/3A,center-negative** fromFX2009V/1A. This is the documented supply rating,not measured draw;do not borrow1A for the battery model. |
+| Depleted battery | At low charge,a warning appears;exhaustion shuts theunit down. The guide instructs switching power **Off before connecting theadapter forcharging** after exhaustion. USB charging andcharge duration remain unverified. |
+| Analog connections | ¼-inch mono unbalanced instrument input,Send,Return;two¼-inch unbalanced main outputs;two balancedXLR outputs;⅛-inch stereoAUX andheadphones. One TRS EXP2 andone5-pin MIDI socket. This doesnot establish a stereo send/return pair orsimultaneous MIDI IN/OUT. |
+| Electrical scope | Phones47Ω is output impedance,not recommended headphone load. EXP2 table’s10kΩ entry doesnot independently specify permitted pedal resistance orpinout. USB-C supports data/audio;power orcharging doesnot follow fromthat connector. |
+
+The [exact manufacturer FX200b store page](https://www.flamma.shop/products/%F0%9F%8E%B8flamma-fx200b-guitar-multi-effects-battery-powered) additionally claims **up to5.5hours** runtime,without test conditions. This narrows the earlier runtime unknown,not guaranteed endurance. Mass,charging duration,expression wiring,current firmware andqualified Shopee offers remain open;still outside active counts. No files downloaded ordevice operated.
+
 ## Consolidation provenance
 
 Existing FX100 blob `0a366c17163ad26d646d48bc4a2b174c55a4e802` and FX200 blob `bb326bf057dcb3d0da29d3bd9c70e4579ba784a0` supplied all preserved model fields,source URLs,prices and qualifications above. Stale next-batch instructions are replaced by root research-state.json,not treated as technical facts. FX150 is one new model;the two consolidations add none. Shared legacy comparison links still require retirement validation;old sources were not deleted by this commit.
