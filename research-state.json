@@ -154913,7 +154913,7 @@
         "key": "Fractal Audio::FM9 original",
         "canonical": "brand/FRACTAL-AUDIO.md#fm9-original",
         "synth": "Three-voice monophonic Synth",
-        "pitch": "ChromaticNotes/Chords;polyphonicVirtualCapo±24;monophonicDiatonic;detune/whammy",
+        "pitch": "ChromaticNotes/Chords;polyphonicVirtualCapo±24;single-noteDiatonic/OctaveDivider;WhammyNotes/Chords",
         "instrument": "Acoustic input is not verified simulation",
         "qualification": "November2026 16-type reference;onePitchblock/DSP;2022Synth/Resonator scope retained;installed equivalenceunknown",
         "evidence_basis": "Existingcanonical plusfocusedmanufacturerNovember2026 Pitch follow-up;notfullfreshfourcategoryaudit",
@@ -169993,5 +169993,21 @@
     "active_inventory_unchanged": 402,
     "additional_creative_records_unchanged": 69,
     "next": "Continue priority LCD/OLED profiles andexactShopee evidence;preserve independent general/expression/GT-Pro queues"
+  },
+  "fm9_original_octave_whammy_note_handling_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--november-pitch-types-and-note-handling-scope",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed83",
+    "finding": "Algorithm-specific Octave Divider andWhammy qualifications synchronized withcanonical/creative/instrument summaries.",
+    "remaining": [
+      "Installed firmware equivalence",
+      "Other category inventories",
+      "Exact original-revision Shopee stock",
+      "Global EXP endpoints/coverage"
+    ],
+    "active_inventory_unchanged": 402,
+    "additional_creative_records_unchanged": 69,
+    "next": "Continue priority profiles andShopee discovery without transferring hardware revisions;preserve independent general/expression/GT-Pro queues"
   }
 }
