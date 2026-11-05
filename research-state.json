@@ -176215,5 +176215,20 @@
     ],
     "inventory_change": 0,
     "next": "Requested individual footswitch displays first when new primary evidence is accessible; otherwise continue systematic discovery. Preserve GT-Pro, expression audit and GP-200JR -> Prime -> GE300."
+  },
+  "joyo_original_gembox_creative_source_check": {
+    "checked": "2026-11-06",
+    "canonical": "brand/JOYO.md#original-gem-box--creative-source-lead-not-verified-algorithms",
+    "manufacturer": "https://www.joyoaudio.com/product/83.html",
+    "manual_listing": "GEM BOX I -Manual.pdf;2020-06-18;rendered download target was an image, not original manual text",
+    "translation_lead": {
+      "url": "https://www.forte.hu/uploads/6876_gemboxihu.pdf",
+      "pages": "18–19 of23",
+      "scope": "Explicit DeepL translation; original source revision,manufacturer authorship andfirmware applicability unverified; named algorithms remain leads,not verified capabilities"
+    },
+    "deferred": "Original JOYO effects appendix unavailable;Mans.io reader returned non-retryable robots restriction. Do not repeat equivalent blocked paths or borrow MOOER/sibling manuals.",
+    "next": "Obtain accessible manufacturer original GEM BOX I appendix before promoting algorithm claims; continue other useful source/market gaps while deferred. Preserve individual-footdisplay,expression,GT-Pro and GP-200JR→Prime→GE300 queues.",
+    "inventory_unchanged": 402,
+    "additional_creative_index_unchanged": 107
   }
 }

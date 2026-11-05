@@ -240,6 +240,7 @@ JOYO's [Chinese product page](https://www.joyochina.cn/product/83.html) explicit
 | Size / weight | **237 W ×158 D ×63 H mm; 730 g excluding batteries**. Medium; cables and pedal travel additional. |
 | Processing / choices | **Up to eight modules; 60 effect types**. Complete category subtotals and exact synth/acoustic algorithms remain unverified. |
 | Memory | **40 factory +40 user =80 total**, each group four banks of ten. |
+| Synth / pitch / instrument simulation / special | Dedicated synthesis, exact pitch algorithms, acoustic simulation and special-effect inventory remain **unverified against the original JOYO manual**. The newly located machine translation is a [source lead requiring original-manual corroboration](#original-gem-box--creative-source-lead-not-verified-algorithms), not a verified capability list. |
 | Audio | 6.35 mm mono input, **470 kΩ**; one 6.35 mm stereo output shared between line and headphones. No separate headphones socket established. |
 | Remaining I/O | Complete rear panel not inspected; aux, loops, mic/phantom and external-control sockets remain unverified rather than presumed absent. |
 | Power | **9 V DC, 300 mA, center-negative, or four AA batteries**. Manufacturer accessories list a 9 V adapter; this does not prove an individual seller includes it. |
@@ -259,6 +260,14 @@ Supplementary original-manual [feature page](https://mans.io/files/viewer/258084
 Open fields: complete controls/readout, full I/O, effects appendix, synth/acoustic functions, editor/import evidence and active condition-specific Indonesian quotes.
 
 <!-- comparison evidence ends -->
+
+### Original GEM BOX — creative source lead, not verified algorithms
+
+**Source check: 2026-11-06.** JOYO’s English product page still lists **GEM BOX I -Manual.pdf**, dated2020-06-18; the page’s rendered download link exposed an image rather than the manual body. The manufacturer page therefore establishes exact-model/manual identity, not the algorithms below.
+
+A [23-page Hungarian GEM BOX I document](https://www.forte.hu/uploads/6876_gemboxihu.pdf) explicitly says it was translated with **DeepL**. Its pp18–19 name Acoustic Simulator, Pitch Shift, Ring Mod, Filter and Step Phaser. These are **unverified leads**: the retrieved document does not establish manufacturer authorship, original source revision or firmware applicability. Do not promote its translated descriptions, category counts, pitch range or note handling into verified JOYO specifications. Pitch processing, resonant filtering and ring modulation would not by themselves establish a tracking synthesizer.
+
+The original JOYO manual’s inaccessible effects appendix remains the next required evidence. The separate MOOER-labelled GEMBOX manual is still excluded, and GEM BOX II/III/K8 algorithms are not transferred. This model is not added to the positive creative-capability index on the strength of this translation. No local file, dependency or firmware was downloaded; no hardware test or panel-image inspection was performed. Earlier technical and market qualifications below remain intact.
 
 ### Original GEM BOX — verification and complete dated finding
 
