@@ -154904,9 +154904,9 @@
         "key": "Fractal Audio::FM9 Turbo",
         "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo",
         "synth": "Three-oscillator monophonic Synth;manual/envelope/pitch modes",
-        "pitch": "Detune;harmony;whammy;virtual capo",
+        "pitch": "November16-type reference;chromatic/capo polyphonic;Diatonic andOctaveDivider single-note",
         "instrument": "Acoustic input is not verified simulation",
-        "qualification": "Own Original/Turbo manual plusindexed companionSynth section;revisionunstated,currentfirmwareunverified",
+        "qualification": "Original/Turbo own manual;older Synth source undated;November2026 Pitch reference qualified separately;installed equivalence unknown",
         "evidence_basis": "Existingcanonicalmodel plusfocusedmanufacturerSynthcheck;notfullfreshfourcategoryaudit"
       },
       {
@@ -169975,5 +169975,23 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue substantive priority-model gaps and fresh exact Shopee discovery;preserve independent general/expression/GT-Pro queues"
+  },
+  "fm9_turbo_november_pitch_census_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--november-pitch-census-and-note-handling",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "applicability": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "November2026 printed3,76–77,83;August2022 Original/Turbo companion-guide link",
+    "finding": "Named reference census andalgorithm-specific note restrictions added;not current-installed certification.",
+    "remaining": [
+      "Other category censuses",
+      "Introduction firmware and installed equivalence",
+      "Exact pre-MKII Turbo Shopee hardware",
+      "Global EXP endpoints/coverage"
+    ],
+    "market": "Targeted Shopee search returned MKII offer11170212/25331147281,not an exact pre-MKII Turbo quote.",
+    "active_inventory_unchanged": 402,
+    "additional_creative_records_unchanged": 69,
+    "next": "Continue priority LCD/OLED profiles andexactShopee evidence;preserve independent general/expression/GT-Pro queues"
   }
 }
