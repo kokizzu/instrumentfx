@@ -2993,6 +2993,7 @@ Checked2026-10-17;partial;ownership unverified. Own RevC handbook;HD400-only fea
 | Editor / preset incompatibility | Official FAQ states XT/X3 tones do not work with HD architecture. HD500/500X tones also do not translate to HD300/400 because routing differs. Model-specific editor/preset files must not be treated as universally interchangeable. IR/NAM/capture remains separately unverified. [Official tone FAQ][HD300-T] |
 | Preset memory | 32banks×ABCD=128locations,preloaded and overwritable. Rear Master unsaved. Additional factory library unverified. [Manual][HD300-M] |
 | Synth / acoustic | Synth and firmware-qualified bass evidence below;acoustic simulation unverified. |
+| Synth / pitch / special scope | [HD300-specific creative index](#pod-hd300--creative-algorithms-and-hd400-only-exclusions): Synth String, Growler, Synth-O-Matic; single-note Smart Harmony; Pitch Glide; Bass Octaver; ring/frequency modulation, vowel/filter processing and reverse/lo-res/dynamic delay. Attack Synth and Particle Verb are HD400-only in this guide. |
 | I/O | GuitarIn,CD/MP3,¼inch unbalanced outs,XLR balanced outs,phones,L6LINK,USB,power. Remaining socket sizes/channel details pending. [Manual][HD300-M] |
 | I/O / routing | Studio cab/mic simulation;Live guitar-amp voicing. **Dual sends Live left and Studio right on both output pairs**; Live retains its voiced cab processing without mic simulation,not raw bypass. XLR groundlift;unbalanced AMP/LINE switch. L6LINK carries audio/control. [Handbook][HD300-M];[Advanced guide][HD300-A] |
 | I/O / advanced USB restrictions | Flash2.0+ shared guide applies to HD300 unless explicitly excepted. **24-bit;native48kHz**,converted44.1/88.2/96kHz. Stereo1–2 MainOut recording send is processed;computer playback mixes with direct monitoring to analog outputs. **All USB audio mutes while L6LINK is active**. Dry USB recording not established. [Advanced guide][HD300-A] |
@@ -3034,6 +3035,18 @@ Historical indexed asks checked2026-10-17,not livecheckout. Conditions,stock,bun
 
 [HD300-D]: https://kb.line6.com/do-all-pod-hd-modelers-sport-dual-tone-functionality
 [HD300-T]: https://kb.line6.com/are-pod-hd-tones-compatible-with-older-pods
+
+### POD HD300 — creative algorithms and HD400-only exclusions
+
+Checked **2026-11-06** in the [manufacturer shared HD300/HD400 Advanced Guide](https://line6.com/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf?locale=de_DE), **Rev A, ©2012, Flash2.0+**, pp6•2–3,6•7–11,6•14. The guide expressly covers HD300; its HD400-only markers govern exclusions.
+
+| Scope | Documented choices and limits |
+|---|---|
+| FX1 synth | **Synth String, Growler, Synth-O-Matic**. String/Growler Speed controls pulse-width modulation; Synth-O-Matic has eight waveform choices, not eight input voices. Input-note polyphony remains unverified. |
+| FX1 pitch | **Smart Harmony** explicitly detects single notes for key/scale harmony. **Pitch Glide** has separately set heel/toe shifts and preset-saved pedal assignment; numeric bounds and chord handling remain unverified. **Bass Octaver** is separate octave processing. |
+| Special processing | FX1 **Ring Modulator, Frequency Shifter, V-Tron**; FX2 **Seeker, Throbber, Spin Cycle, Obi-Wah, Voice Box, Pattern Tremolo**; FX3 **Reverse Delay, Low Res Delay, Dynamic Delay, Auto Volume Echo**. Filtering/vowel processing alone does not establish synthesis. |
+
+**Attack Synth and Particle Verb are excluded from HD300 by the guide.** FX1 synth, pitch and special choices compete for one FX1 slot. Dedicated acoustic conversion, installed-firmware equivalence and tracking quality remain unverified. This indexes an existing catalogue model, not a complete fresh audit. Earlier inventory/source conflicts and market qualifications remain; no download or device test.
 
 ## POD HD400
 
