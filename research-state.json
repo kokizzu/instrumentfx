@@ -26078,12 +26078,21 @@
         "https://jetpedals.com/collections/midi-control/products/unity6",
         "https://docs.jetpedals.com/books/unity6/page/description-features",
         "https://docs.jetpedals.com/books/unity6/page/dimensions-power-requirements",
-        "https://jetpedals.com/pages/unity6-firmware-updates"
+        "https://jetpedals.com/pages/unity6-firmware-updates",
+        "https://docs.jetpedals.com/books/unity6/page/uniports",
+        "https://docs.jetpedals.com/books/unity6/page/expression-pedals"
       ],
       "finding": "Per-switchstrips,technology/countunknown;sharedtouchscreen;6analogloops;bank-savedexpressionvolume. Firmware/date/physicalpowerqualifiedincanonical.",
       "remaining": "Exactstripcount/technology,completecontrols/connectors,mass,presetfilling,globalvolume/outputcoverage andqualifiedShopeehardware.",
       "active_inventory_unchanged": 402,
-      "next": "Secondarycontrollerqueue;resumeindividualLCDaudioprocessor/Shopeepriority,independentGT-Pro/general/expressionqueuespreserved."
+      "next": "Secondarycontrollerqueue;resumeindividualLCDaudioprocessor/Shopeepriority,independentGT-Pro/general/expressionqueuespreserved.",
+      "wiring_followup": {
+        "checked": "2026-11-06",
+        "canonical": "brand/JET-PEDALS.md#uniport-wiring-and-bank-scoped-expression",
+        "revisions": "UniPorts10;ExpressionPedals2;not firmware identifiers",
+        "finding": "EXP1/2 restricted to ports1/2;TRS tip-receive/ring-return manufacturer wording. Eight MIDI messages/pedal bank-saved;MIDI endpoints not analog attenuation proof.",
+        "remaining": "Resistance/taper/sleeve/toe,calibration/recall,analog-volume outputs/tails andstrip specifications remain unverified. Resume primaryLCDprocessor/Shopeequeue."
+      }
     }
   ],
   "inventory_by_brand": {
