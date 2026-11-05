@@ -3137,6 +3137,24 @@ Checked **2026-11-05**, [manufacturer Effects List](https://zoomcorp.com/media/d
 
 Earlier offers and revision qualifications remain unchanged. Exact installed library, universal expression assignment/coverage and manufacturer display diagonal/touch specification remain open. No local download, installation or device operation.
 
+### G2 FOUR — preselection, saving and looper stop behavior
+
+Checked **2026-11-06**, [manufacturer HTML Operation Manual][ZOOM-G2-FOUR-M],©2023,sections PRESELECT,Copying and saving patch memories,andSetting the stop mode. The live HTML supplies nofirmware-introduction version;installed behavior untested. Only G2 FOUR updated here.
+
+| Field | Finding / qualification |
+|---|---|
+| Memory / preselection and edit persistence | PRESELECT ON stages direction-button navigation while the current patch remains active;the blinking corresponding footswitch confirms recall. AUTO SAVE defaults ON. OFF requires manual saving,changes the COPY menu label toSAVE,andmarks edits differing from saved settings. These are recall/save rules,not extra memory slots orglobal expression assignment. |
+| Looper / stop behavior and level | INSTANT stops immediately;FINISH plays toloop end;FADE OUT fades before stopping. Looper level0–100 isseparate from master volume andpedal mapping. Numeric fade duration andexpression attenuation remain unverified. Existing stop/erase-on-transition restrictions remain. |
+
+### G2 FOUR — separate Eleven Music indexed offer
+
+| Field | Exact offer / limitations |
+|---|---|
+| IDR / condition-unverified Eleven Music hardware | Checked **2026-11-06**: **Rp3,600,000**, [Eleven Music,shop12356205/item28207460866](https://shopee.co.id/Zoom-G2-Four-Multi-Effect-Processor-Pedal-Zoom-G-2-Four-i.12356205.28207460866),Kota Jakarta Pusat. Exact G2 FOUR processor title,last-month search snapshot;direct item timed out. New/used condition,working state,stock,selected variant,adapter/bundle,warranty region,shipping/tax andcheckout total unverified. Relative tomorrow delivery isstale;up-toRp10,000 late compensation isnot deducted. Separate fromother recorded sellers,not acondition-qualified market price orcompleted sale. |
+
+No download,installation,setting change ordevice operation. Universal output-pedal coverage,display diagonal/touch,current installed library andqualified current new/used stock remain open.
+
+
 ## G2 original — partial capability lead
 
 Outside active inventory and main capability table; distinct from G2Nu, G2.1u and G2 FOUR. Checked 2026-10-28 against [own manufacturer Operation Manual](https://zoomcorp.com/media/documents/E_G2.pdf), printed pp18–19,30–31, document code G2-5000-2. No hardware test or download.
