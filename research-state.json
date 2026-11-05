@@ -155757,7 +155757,23 @@
           "Organ/Theremin-like synthesized tones; acoustic sim unverified",
           "Granular quartet (1.12.5); freeze; resonator; arpeggiators"
         ],
-        "qualification": "Two algorithms per Program. HotSawz’s six oscillators do not provide chord tracking; granular quartet requires 1.12.5. Installed firmware and tracking performance untested."
+        "qualification": "Two algorithms per Program. HotSawz’s six oscillators do not provide chord tracking; granular quartet requires 1.12.5. Installed firmware and tracking performance untested.",
+        "pitch_controls": {
+          "checked_date": "2026-11-06",
+          "source": "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/synth.html",
+          "revision": "H90 manual 1.12.5, PolySynth parameters",
+          "canonical": "brand/EVENTIDE.md#h90--synth-envelope-and-filter-control-distinctions",
+          "per_voice_shift": "Discrete named intervals −Oct through Uni to +Oct",
+          "pitch_wheel": "Separate externally mappable ±1200 cents",
+          "waveforms": [
+            "Saw",
+            "Square",
+            "Triangle",
+            "Narrow Pulse",
+            "Wide Pulse"
+          ],
+          "qualification": "Three generated voices and stereo spread do not define input-note polyphony; no hardware or installed-firmware test. Exact calendar introduction dates remain unresolved."
+        }
       },
       "MOOER::GE300": {
         "key": "MOOER::GE300",

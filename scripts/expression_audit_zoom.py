@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): finish G11 historical effect category names'
+        message='research(eventide): distinguish H90 synth interval and pitch-wheel controls'
     print(git('commit','-m',message))

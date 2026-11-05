@@ -361,6 +361,7 @@ Checked **2026-11-04**, [manufacturer Synth chapter, manual 1.12.5](https://cdn.
 
 - **HotSawz:** gate Attack/Decay each span 0–3000ms, but are inactive when Gate is Off. The gate has no release stage; this differs from an ordinary ADSR envelope.
 - **PolySynth:** Attack 5–1000ms or tempo-based; Freeze Release is separate. The manual intends no new notes during freeze release. Its neck-pickup tracking tip is manufacturer advice, not a measured guarantee.
+- **PolySynth pitch and waveform controls, checked 2026-11-06:** each voice has discrete **Shift** intervals from −Oct through Uni to +Oct, and **Saw, Square, Triangle, Narrow Pulse or Wide Pulse** waveform choices. A separate **Pitch Wheel ±1200 cents** parameter can map to MIDI or expression; it is not the same control as the discrete per-voice Shift. Spread places voices 1/3 left/right while voice 2 remains central. These generated voices and stereo positions do not set an input-note ceiling.
 - **Synthonizer:** Shape A offers Sine, Triangle, Sawtooth, Organ 1 and Organ 2; **Sweep B 0–50 is low-pass, 50–100 high-pass**. **Flex raises both voices one octave**. These voices/filter choices do not prove chord tracking; Synthonizer input-note polyphony remains unverified.
 
 The synths remain alternatives within two algorithm positions. No installed firmware, playing test or extra simultaneous slot is inferred.
