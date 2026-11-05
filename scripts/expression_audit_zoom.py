@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): verify V6-SP named effects and patch memory'
+        message='research(hotone): verify Ampero Mini creative parameters in V2.2'
     print(git('commit','-m',message))

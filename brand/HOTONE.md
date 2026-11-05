@@ -771,6 +771,7 @@ Current comparison summary, reconciled 2026-10-28 from the exact-model sources r
 | Processing | **9 simultaneous modules**, subject to processor overload limits. V2.2 says **200+ effects**; older 199 remains historical. V2.2 tables: NR2, EQ7, DLY17, RVB11; CAB50 factory cabinets +10 factory acoustic IRs, with10 user slots separately. AMP55 named choices (11 Clean/19 Drive/18 HiGain/5 Bass/2 Acoustic); Combined FX table59 (8 Dynamic/17 Frequency/17 OD-DS/17 Modulation); **211 reviewed table entries;209 after counting Smart Gate/Fast Gate once** (both repeat in FX andNR). This includes50cabinet choices and10factory acoustic IRs,excludes10user IR slots and10Sound Clone locations,andis not209conventional effects orunique DSP algorithms. Per-slot restrictions remain qualified. V2.2 adds Precise Attack and Match30 Clean; do not derive a new total by adding to199. [V1.2 release boundaries](#ampero-mini--12-effect-and-control-introduction-boundaries) date2290 Mod/Cloud andmodule dragging separately. |
 | Presets | **99 factory +99 user**:V2.2 defines33factory banks×3,temporarily adjustable **butnot saveable**,and33editable user banks×3. Thus198 selectable locations are not198 writable user memories. FactoryVOLUME-enable defaults remain unverified. [Own manual,p3](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf),checked2026-11-01. |
 | Synth / acoustic | Electric-to-acoustic steel/nylon examples; five documented bass amp/preamp choices justify shared bass membership. Pitch Shift is polyphonic, ±24 semitones; Classic PS monophonic. Sweller is an automatic envelope, not global EXP volume. Dedicated synth engine remains unverified. |
+| Processing / V2.2 creative recheck | [Direct current-revision parameter check](#ampero-mini--v22-creative-parameter-source-recheck) confirms Clean Octa/Harmony polyphony, four-step Path Filter and normalized lo-fi controls; Harmony Hi/Low wording conflict persists. No global EXP guarantee. |
 | Audio I/O | ¼-inch TS instrument input; ⅛-inch stereo AUX; single ¼-inch stereo TRS main output; dedicated ⅛-inch headphones. English evidence: **unbalanced, tip=L/ring=R**; Japanese indexed balanced-stereo wording conflicts. AUX bypasses effects and USB audio. |
 | Data / control | USB-C; one ¼-inch TRS EXP/FS input. No MIDI function inferred from USB connector. Input 4.7 MΩ, AUX 10 kΩ, main out 1 kΩ, headphones 22 Ω; these are impedances, not headphone power or load ratings. |
 | Power | **9 V DC, center-negative, 500 mA maximum**. Battery/USB-powered operation unverified; adapter bundles are separate offers. |
@@ -1132,6 +1133,20 @@ Checked **2026-11-04**. These newly recovered seller/item records supplement old
 All three leave **actual condition,working state,installedfirmware,selectedcolor/variant,bundle,adapter,warranty,dispatch,shipping/tax andcheckout** unverified. No qualified new/used range orlive-stock claim. Up-toRp10.000 late-arrival compensation isnot deducted asan upfront discount. Seller locations are cached labels,not dispatch verification.
 
 The exactV2.2 original manual timedout again;earlier primary findings remain dated evidence. GlobalEXPvolume assignment,position/endpoints andbypass/headphone/tail/recorded-loop coverage stay unresolved. No file downloaded,seller contacted ordevice operated.
+
+
+### Ampero Mini — V2.2 creative-parameter source recheck
+
+Checked **2026-11-06**: the [original manufacturer firmware V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf) is readable again. Printed28–30 directly narrow the older V1.0-only qualification; prior access failures remain historical. This is documentation applicability, not installed-firmware or tracking certification.
+
+| Field | V2.2 evidence / qualification |
+|---|---|
+| Pitch / Clean Octa and Harmony recheck | Both explicitly **polyphonic**. Harmony retains Hi0…+24 andLow0…−24 semitone ranges with reversed lower/higher descriptions. The contradiction persists; scale-aware harmony is not established. |
+| Synth / Path Filter recheck | Four frequency steps,Rate andTap sync. This remains filter sequencing, not verified pitch-tracking synthesis. |
+| Processing / lo-fi and Ring Mod recheck | Bit Krusher’s Krush/Bit are normalized0–100, not literal Hz/bits. Ring Mod has Freq0–100 andFine−50…+50 with1Hz steps; absolute carrier range remains unspecified. Telephone Line noise/shake andSatisfaction tape saturation remain separate choices. |
+| Synth / acoustic conversion recheck | AC Sim offers Standard,Jumbo,Enhanced,Piezo modes. Acoustic Refiner is for acoustic instruments; neither preamps nor acoustic-body IRs establish a separate synth engine. |
+
+V2.2 printed14,16 still places EXP targets under patch-changing control settings. Its VOLUME switch has fixed heel/toe endpoints; this does not resolve a global override or attenuation of headphones,bypass,tails andrecorded loops. The earlier per-patch finding is unchanged. Current exact Shopee condition/stock evidence remains open; no price refresh,local download ordevice test.
 
 ## Ampero MP-100
 

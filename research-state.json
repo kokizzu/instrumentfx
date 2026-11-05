@@ -156630,10 +156630,10 @@
         "key": "Hotone::Ampero Mini MP-50",
         "canonical": "brand/HOTONE.md#ampero-mini-mp-50",
         "synth": "Path Filter four-step filtering;dedicated synth unverified",
-        "pitch": "Clean Octa/Harmony polyphonic inV1.0;newer Pitch Shift/Classic PS distinctions retained",
+        "pitch": "Clean Octa/Harmony explicitly polyphonic inV2.2; Pitch Shift poly/Classic PS mono separately documented",
         "instrument": "AC Sim;Acoustic Refiner,acoustic IRs andpreamp roles separate",
-        "qualification": "V1.0 historical parameter check,not current certification;V2.2 menu evidence separate;Harmony wording conflict retained",
-        "evidence_basis": "Manufacturer V1.0 manual reproduction exact Mini cover/connector identity;V2.2 direct file timeout;existingcanonicalV2.2 findings retained"
+        "qualification": "Focused manufacturer V2.2 parameter confirmation; installed equivalence untested; Harmony wording conflict andhistorical V1.0 source retained",
+        "evidence_basis": "Focused direct manufacturer V2.2 printed28–30 recheck on2026-11-06; prior V1.0 evidence and conflicts preserved; not complete fresh audit"
       },
       {
         "key": "Harley Benton::DNAfx GiT Core",
@@ -158567,7 +158567,25 @@
     ],
     "deferred": "V2.2 manual timed out;global EXP assignment andoutput/headphone/bypass/tail/looper coverage unresolved",
     "next": "Continue priority individual-footdisplay andcompact expression evidence;preserve independent general queue",
-    "inventory_unchanged": 402
+    "inventory_unchanged": 402,
+    "v22_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/HOTONE.md#ampero-mini--v22-creative-parameter-source-recheck",
+      "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+      "revision": "FirmwareV2.2 cover; printed14,16,28–30; 54PDFpages",
+      "access": "Original now readable; prior timeout preserved as historical",
+      "finding": "Current-revision confirmation of prior polyphonic octave/harmony, filter-sequencing and lo-fi distinctions; Harmony Hi/Low prose conflict persists; Ring Mod Fine1Hz step qualified separately from normalized carrier",
+      "expression": "Patch-changing control scope unchanged; global override and output/tail/looper coverage not established",
+      "market": "Fresh exact Shopee search yields no new condition/stock-qualified offer; old asks unchanged",
+      "remaining": [
+        "Harmony label contradiction/current physical mapping",
+        "Global analog volume override, held-pedal recall and output coverage",
+        "Measured tracking/current installed firmware",
+        "Exact condition/stock-qualified hardware offers"
+      ],
+      "next": "Continue requested separate-footdisplay evidence and catalogue gaps; preserve GT-Pro, GP-200JR→Prime→GE300 and expression queues",
+      "inventory_unchanged": 402
+    }
   },
   "dnafx_git_core_creative_scope_20261103": {
     "checked": "2026-11-03",
