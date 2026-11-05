@@ -170092,5 +170092,26 @@
       "Global expression endpoints,recall and route coverage"
     ],
     "next": "Continue display-priority profiles;preserve independent general,expression and consolidation queues"
+  },
+  "fm9_turbo_tentap_volume_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--ten-tap-patterns-and-volume-block-scope",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,103–104,109",
+    "ten_tap_named_types": 2,
+    "volume_pan_described_modes": 2,
+    "fm9_instances": {
+      "ten_tap": 2,
+      "volume_pan": 4
+    },
+    "qualification": "Reference only;simple Volume menu label,installed equivalence and introduction versions unverified.",
+    "market": "Search returned MKII Turbo;no price transferred to pre-MKII Turbo.",
+    "active_inventory_unchanged": 402,
+    "next": "Continue remaining FM9 Turbo category inventories andqualified exact Shopee discovery;preserve independent general,expression andconsolidation queues",
+    "remaining": [
+      "Drive,Reverb,Multi-Delay,Plex,Megatap andremaining category inventories",
+      "Exact pre-MKII Turbo Shopee hardware",
+      "Global expression endpoints,recall androute coverage"
+    ]
   }
 }

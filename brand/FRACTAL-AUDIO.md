@@ -2524,6 +2524,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | Categories / Filter,Phaser andWah reference | [20/19/9 named choices](#fm9-turbo--named-filter-phaser-and-wah-reference),respectively;FM9 instance limits4/2/2,CPU permitting. Filtering is distinct from Synth tracking. |
 | Categories / Delay andCompressor reference | [29 Delay/19 Compressor choices](#fm9-turbo--named-delay-and-compressor-reference),two FM9 instances each,CPU permitting. Hold/Stack capture repeats;they do not add persistent looper storage. |
 | Categories / Tremolo,Enhancer andGate reference | [7/3/4 named choices](#fm9-turbo--named-tremolo-enhancer-and-gate-reference),respectively;FM9 block limits2/2/4,CPU permitting. Gate Hold is not audio freeze. |
+| Categories / Ten-Tap andVolume-Pan reference | [Two Ten-Tap types;two described Volume/Pan modes](#fm9-turbo--ten-tap-patterns-and-volume-block-scope). FM9 permits2/4 blocks respectively,CPU permitting. Auto-Swell does not establish global pedal assignment. |
 | Preset memory | **512 editable locations**,including overwritable factory entries; **eight scenes each**. [Manufacturer FM9-family default:384](#fm9-turbo--family-factory-default-and-backup-scope);exact pre-MKII Turbo shipping allocation andcurrent unit contents remain unverified. Not extra protected locations. [Shared manual p39](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**; [manual/envelope/pitch tracking modes](#fm9-turbo--synth-tracking-versus-manual-generation) are distinct. Voice count is not note polyphony. Acoustic input documented separately; electric-to-acoustic simulation remains unknown. [Own-applicable manual p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Audio I/O | Mono unbalanced¼-inch Input1; stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR and same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Manual p21](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
@@ -2638,6 +2639,15 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,44,52,1
 | Gate/Expander —4 | Classic Expander; Classic Gate; Modern Expander; Modern Gate |
 
 FM9 block limits are **2/2/4**,CPU permitting. Tremolo Trigger Threshold restarts modulation;it does not track pitch. Classic Enhancer can cancel frequencies when summed to mono. Modern Gate permits swells;Gate Hold sustains the open gate,not captured audio. Detector filters do not EQ the output. Reference choices do not certify installed firmware,introduction versions ormeasured performance. No local download ordevice operation.
+
+
+### FM9 Turbo — Ten-Tap patterns and Volume block scope
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,103–104,109](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf);Original/Turbo companion-reference applicability as qualified above.
+
+**Ten-Tap Delay / Rhythm Tap Delay:** two types;two FM9 blocks,CPU permitting. Ten-Tap sets1–10 echoes with Decay andindividual levels. Rhythm Tap accepts millisecond,quantized orlearned timing;its Feedback repeats the pattern. Internal taps are not extra blocks orphrase-loop storage.
+
+**Volume/Pan:** four FM9 blocks,CPU permitting;simple volume control versus **Auto-Swell**,with the exact simple-mode menu label unverified. Pedal operation requires a Volume modifier. Auto-Swell shapes note attack,not synth tracking. Bypass can pass ormute input;Output Level is independent ofVolume. These block-local controls do not establish global pedal endpoints,recall orroute coverage. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
 
 
 ## VP4
