@@ -144285,7 +144285,16 @@
       ],
       "result": "No newexact-model primary resolution forUSBchannels,power orseparatebuttons;G5FAQ andGCE3 claims excluded aswronghardware",
       "visual": "Current CUA apps[]/browsers[];physical count remainspending",
-      "next": "Revisit whennew primaryevidence orvisualsurface exists;independentgeneralGT-Pro cursor retained"
+      "next": "Revisit whennew primaryevidence orvisualsurface exists;independentgeneralGT-Pro cursor retained",
+      "tap_indicator_followup": {
+        "checked": "2026-11-06",
+        "canonical": "brand/ZOOM.md#g5n--tap-indicator-visibility-and-tempo-synchronization",
+        "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+        "revision": "V2.0 ©2016 printedpp47–49",
+        "finding": "Two TAP LED visibility modes andnote-valued sync conditions recorded;not LCDspecification/MIDIclock/independenttempo proof.",
+        "market_recheck": "KnownexactDestinySoundandusedBogoroffersrepeatrecordedcacheevidence;LamonganRp3.5msearchleadlacksitemidentityandisnotqualifiedpriceevidence.",
+        "remaining": "PrimaryUSBchannels,poweralternatives,physicalbuttoncensus andLCDsize/color/touch unresolved;deferunchangedblockers."
+      }
     },
     "plethora_x3_recheck_20261101": {
       "sources": [

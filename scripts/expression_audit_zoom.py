@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(harley-benton): clarify Advanced live utility and volume boundaries'
+        message='research(zoom): document G5n TAP indicator and synchronization scope'
     print(git('commit','-m',message))
