@@ -174249,7 +174249,20 @@
     "source": "https://www.boss.info/jp/products/gt-pro/support/",
     "finding": "One exact manufacturer page says15 in descriptive body and13 in specification table; regional difference is insufficient explanation",
     "unresolved": "Counting basis; no inferred external-loop ordual-amp arithmetic",
-    "next": "Other USB modes,global FVprecedence,panel corroboration andqualified offers; retain independent queues"
+    "next": "Other USB modes,global FVprecedence,panel corroboration andqualified offers; retain independent queues",
+    "acoustic_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/BOSS.md#gt-pro--acoustic-processor-types-and-translation-boundary",
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+        "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-50.html",
+        "https://www.manualslib.es/manual/12527/Boss-Gt-Pro.html?page=50"
+      ],
+      "revision": "03899334 05-3-1N printed50;Spanish wording retained separately",
+      "finding": "Four AC choices andcontrol ranges;English acoustic-electric versusSpanish electric wording preserved.",
+      "active_inventory_unchanged": 402,
+      "next": "LCD/Shopee priority;continue unresolved GT-Pro subtypes,globalFV,USBmode counts andcondition-qualifiedmarket evidence;preserve generalGP200JR→Prime→GE300 andexpression queues."
+    }
   },
   "microcosm_looper_exceptions_20261105": {
     "checked": "2026-11-05",
