@@ -109,6 +109,7 @@ The [complete original comparison](../MULTI-EFFECTS.md)<!-- historical-link:neur
 | NAM / proprietary capture | **Proprietary Neural Capture**, onboard V1 creation; NanOS2.2.0 adds **V2 playback**. That release explicitly restricts V2 creation to Quad Cortex and describes Nano creation as future development; not an available Nano feature. Native/converted NAM compatibility unverified. [R] |
 | Audio/control ports | ¼-inch instrument in; XLR/¼-inch combo capture in; two balanced ¼-inch outs; 3.5mm phones; shared TRS EXP/MIDI Type A; USB-C; DC. **Output2R doubles as capture send**,1L monitors; no separate capture-out jack. [M] |
 | Power / battery / USB | **9–12V DC≥600mA,center-negative,2.1/5.5mm**, or **USB-C5V/1.5A**. USB-A supports data but insufficient operating power. Internal battery unverified; external USB battery-pack support is not an internal battery. [M,P] |
+| Editors / additional unofficial desktop lead | [AJs-Creations Mac/Windows/Linux claims](#nano-cortex--additional-community-editor-platform-and-test-boundaries):nativeMac14+ orElectron Mac12+/Win10–11/64-bitLinux;author says Windows/Linux not pedal-tested. Expression remains per-preset;no manufacturer support orglobal-volume proof. |
 | Configuration apps and USB functions | **Cortex Cloud iOS/Android**, Bluetooth editing/update workflow;manufacturer2.8.1 release dated2026-07-22. **Unofficial community Mac/Web-Bluetooth editor identified**,not manufacturer-supported or locally tested;[scope andlimits](#nano-cortex--official-mobile-app-and-community-desktop-editor). Official desktop full editor remains unverified. **USB4-in/3-out,24-bit/48kHz**; Windows driver, macOS class-compliant. [M] |
 | Display | LED interface; published graphical-screen diagonal, color technology and touch specifications unverified. |
 | Other relevant features | Tuner. Capture mic connector does not prove live vocal processing. **Own2.2.0 Capture Mode text supports dynamic microphones andrequires an external powered preamp for condensers**;[capture-input qualification](#nano-cortex--capture-microphone-and-gain-boundaries). [M] **2-Preset Mode:** FS I recalls A/B; FS II global bypass. **4-Preset Mode:** both switches recall four assignments. Delay/reverb bypass Trails works outside 4-Preset Mode; not preset spillover or EXP tail coverage. NanOS2.2 adds Tremolo, optional mono summing, offline app mode, five cloud backups and capture auditioning. [R] Looper, drums, scenes and parallel routing remain unverified. |
@@ -339,6 +340,20 @@ Checked **2026-11-04** against the [manufacturer NanOS2.0.0 release notes,April2
 - The release also fixes **physical LEVEL pickup inCapture Volume mode afterapp adjustment**,andreported delayed LEDs/multi-parameter expression response while audio ispresent. These are manufacturer fix claims,not measured latency,universal defect resolution orheld-pedal recall acrosspresets.
 
 The existing2.2manual/setup-article target discrepancy remains. Bypass,headphone,tail andrecorded-loop volume coverage remain unresolved. No firmware downloaded,installed ordevice tested;active inventory unchanged.
+
+### Nano Cortex — additional community editor platform and test boundaries
+
+<a id="nano-cortex--additional-community-editor-platform-and-test-boundaries"></a>
+
+Checked **2026-11-05**, author-maintained [Electron editor README](https://github.com/AJs-Creations/nano-cortex-editor) and [nativeMac README](https://github.com/AJs-Creations/nano-cortex-editor-mac). Separate from the previously recorded DrD85 project. **Unofficial,not affiliated with orendorsed byNeural DSP**;source reading only,no clone,download,installation orBluetooth connection.
+
+| Edition | Author-stated compatibility and limits |
+|---|---|
+| Native SwiftUI | **macOS14+**,Intel/AppleSilicon;author lists Nano firmware2.2.1 testing. This doesnot certify other firmware ormacOS releases. |
+| Electron | **macOS12+,Windows10/11 64bit,Linux x86-64/ARM64 withBlueZ andBLE4.0+**. Author explicitly says **Windows/Linux builds have not been tested with a pedal**. Build availability isnot verified hardware compatibility. |
+| Editing / connection | Author describes64-preset editing,four footswitch-slot assignments and **per-preset expression** heel/toe/bypass controls. Only one pedal Bluetooth connection atatime;official phone app must release it. This doesnot establish global analog volume orresolve the disputed LEVEL menu. |
+
+The retrieved [Electron v1.2.1 release](https://github.com/AJs-Creations/nano-cortex-editor/releases/tag/v1.2.1),displayed **October24,commit35fa72c**,reports preview/audition cleanup andBluetooth disconnect/reconnect fixes. README observations above aredated current-main claims,not verified asidentical tothat tag. No package integrity,code security orsave/restore behavior was tested. Official Cortex Cloud mobile editing remains a separate supported path.
 
 ## Quad Cortex
 

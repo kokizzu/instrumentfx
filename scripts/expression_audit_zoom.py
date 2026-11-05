@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(flamma): qualify FX200b shared-manual expression volume roles'
+        message='research(neural): qualify community Nano editor platform and test scope'
     print(git('commit','-m',message))

@@ -169385,5 +169385,34 @@
     ],
     "next": "Continue other accessible catalogue gaps; retain FX200b admission andremaining current-manual/control/synth/category/Shopee tasks,individual-display priority andgeneral cycle",
     "inventory_change": 0
+  },
+  "nano_aj_editor_platform_scope_20261105": {
+    "model": "Neural DSP Nano Cortex",
+    "checked": "2026-11-05",
+    "status": "unofficial software author claims; no execution ordevice validation",
+    "canonical": "brand/NEURAL-DSP.md#nano-cortex--additional-community-editor-platform-and-test-boundaries",
+    "sources": [
+      "https://github.com/AJs-Creations/nano-cortex-editor",
+      "https://github.com/AJs-Creations/nano-cortex-editor-mac",
+      "https://github.com/AJs-Creations/nano-cortex-editor/releases/tag/v1.2.1"
+    ],
+    "release_observed": {
+      "tag": "v1.2.1",
+      "commit": "35fa72c",
+      "display_date": "October24"
+    },
+    "platforms": {
+      "native": "macOS14+ Intel/AppleSilicon",
+      "electron": "macOS12+,Windows10/11 64bit,Linux x86-64/ARM64 BlueZ BLE4+"
+    },
+    "limitations": [
+      "README explicitly says Windows/Linux not tested with pedal",
+      "Author test firmware2.2.1; not localverification",
+      "Per-preset expression does not resolve globalvolume orLEVEL conflict",
+      "Currentmain README not certified tag-equivalent",
+      "No clone download code execution security audit orhardwareoperation"
+    ],
+    "next": "Global-volume manufacturer clarification remains open;continue other substantive priority-display/catalogue gaps without repeating failed MiniPDF fetches",
+    "inventory_change": 0
   }
 }
