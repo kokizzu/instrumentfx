@@ -172351,5 +172351,13 @@
     "audit": "82 complete-source bodies inspected; HX Stomp XL and Ampero II Stage mismatches found",
     "next": "Commit XL repair first; separately restore Ampero II Stage original routing row while retaining newer reconciliation; compatibility retirement remains incomplete",
     "inventory": "No membership change; independent queues preserved"
+  },
+  "ampero_stage_preservation_repair_20261105": {
+    "checked": "2026-11-05",
+    "source": "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md",
+    "marker": "HOTONE-AMPERO-MP380",
+    "root": "brand/HOTONE.md#ampero-ii-stage-mp-380",
+    "repair": "Restored exact original routing/category-count row; later13effect+3loop reconciliation retained outside archive",
+    "next": "82-body audit now reports0mismatches;92other ledger entries outside its scope. Next separately verify shared/history/metadata coverage before compatibility deletion; independent queues andactive inventory unchanged"
   }
 }

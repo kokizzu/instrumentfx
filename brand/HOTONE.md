@@ -503,7 +503,7 @@ Reviewed 2026-10-14. Guitar/bass/vocal multi-effects, **large**, no built-in exp
 | Size/weight | **301 W × 180 D × 58 H mm; 1895 g**, hence large under the 300 mm medium-width boundary. Cable clearance additional [P] |
 | Display | **5-inch, 800×480, color touchscreen**. LED strip is not a second graphical screen [P,M] |
 | Memory | **300 fully editable locations = 60 banks × 5**, five scenes per patch. Factory-filled subset not established [M,P] |
-| Routing/blocks | **12 simultaneous slots**, dual serial/parallel chains, DSP-limited. Product specification lists 16 module types; V1.0.4 prose lists 13 effects plus three FX-loop modules, while its specification also says16. See the later count-basis reconciliation; these are categories, not additional simultaneous slots [M,P] |
+| Routing/blocks | **12 simultaneous slots**, dual serial/parallel chains, DSP-limited. Product specification lists 16 module types; the older V1.0.4 manual lists 13. These are library categories, not additional simultaneous slots [M,P] |
 
 ### Processing and loading
 

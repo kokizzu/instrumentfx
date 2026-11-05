@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs(line6): restore HX Stomp XL preserved source power row'
+        message='docs(hotone): restore Ampero Stage preserved routing row'
     print(git('commit','-m',message))
