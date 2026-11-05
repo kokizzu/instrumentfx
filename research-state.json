@@ -171136,5 +171136,26 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue other accessible exact-model evidence;preserve requestedfootdisplay priorities and independent GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues."
+  },
+  "mg50li_quickguide_live_usb_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/NUX.md#mg-50li--quick-guide-live-controls-and-usb-modes",
+    "sources": [
+      "https://www.manualslib.com/manual/4376681/Nux-Mg-50li.html?page=5",
+      "https://www.ariaguitars.com/jp/items/other-brands/nux/multi-effects/mg50li-sm/",
+      "https://www.ariaguitars.com/jp/items/docs/mg50li_qsg_ja.pdf"
+    ],
+    "revision": "English manufacturerV1 nine-page quick guide,©2025,p5;undated two-page ARIA regional guide",
+    "finding": "Looper/tuner entry,InputTrim memory,USB modes andpatch-control context;not current installed testing.",
+    "source_limits": "OfficialEnglishtimeout;PDFcopyunreadable. RegionalDIout copied-loop text and3DeepImage figure qualified,not silentlynormalized.",
+    "remaining": [
+      "Looper duration,formats,retention anddrums",
+      "USB channel map andsource coverage",
+      "Full manual/pitch ranges/polyphony",
+      "Regional memory/count andphysical conflicts",
+      "Currentcondition-qualifiedhardware"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue other accessible exact-model gaps;preserve separate-footdisplay priorities,GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues."
   }
 }

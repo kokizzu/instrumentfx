@@ -783,6 +783,10 @@ Queries for Shopee Indonesia **NUX MG-30 MKII**, **MG30 MK2** and **MG30 MKII** 
 | Prices | Verified used/new IDR remain unknown. **Rp7.510.000** condition/stock-unverified exact Shopee asks,including separately indexedBandung item16879370/53759194739;variations/bundles unresolved;[offer qualifications below](#mg-50li--exact-shopee-hardware-offers). Foreign quotes remain separate. |
 | Memory / named bank additions | [Six named presets inBanks41/42](#mg-50li--firmware111-factory-bank-additions) establish added content,not six extra storage slots orreconciliation ofregional factory/user counts. |
 | IDR / additional seller cache conflicts | [CH MUSIC andSEVEN STEREO Malang](#mg-50li--additional-seller-caches-and-item-slug-conflict):CH item shows **Rp6.830.000 opened versusRp7.510.000 indexed**,two unresolved variations andCerberus slug conflict;Malang **Rp7.510.000,service unavailable**. Condition/checkout unknown;not new/used floors. |
+| Live / looper and tuner entry | [Exact quick-guide controls](#mg-50li--quick-guide-live-controls-and-usb-modes):hold Down+Up for Looper; hold CTRL for Tuner. Duration, retention and drums unverified. |
+| Software / USB workflow | [Original quick-guide Normal/Reamp modes](#mg-50li--quick-guide-live-controls-and-usb-modes) distinguish recording and reprocessing; no channel totals inferred. |
+| Memory / instrument trim storage | Same guide saves **up to 6 instrument-input trim settings**, not 6 additional patches or inputs. |
+| Expression / quick-guide assignment context | CTRL/EXP setup explicitly addresses **the current patch**; global analog volume remains unverified. [Source and regional qualifications](#mg-50li--quick-guide-live-controls-and-usb-modes). |
 
 The previous review used official [front](https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400) photos to verify controls,XLR and two send/return pairs. Checked English firmware1.1.1 was a dated snapshot. Domestic/Mandarin firmware and global/English firmware must not be interchanged by assumption.
 <!-- comparison evidence ends -->
@@ -912,6 +916,20 @@ Checked **2026-11-05**. Older independent offers above remain dated evidence. Th
 | IDR / separate Malang unavailable cache | [SEVEN STEREO Malang,shop1408254222/item46961722145](https://shopee.co.id/NUX-MG-50Li-%E2%80%93-Multi-Effects-Processor-MG50Li-MG50-Li-MG-50-Li-i.1408254222.46961722145),KotaMalang: **Rp7.510.000**,four-month search snapshot,**Layanan Tidak Tersedia**,White/Blue labels. Direct reopen cachemiss. Distinct fromBandung16879370/53759194739;do not transfer its chosen variant orstock. Not a live buying floor. |
 
 No transaction,download ordevice operation;unknown isnot No.
+
+
+### MG-50Li — quick-guide live controls and USB modes
+
+Checked **2026-11-05**. [Manufacturer English V1 Quick Start,original page5 reproduction](https://www.manualslib.com/manual/4376681/Nux-Mg-50li.html?page=5),nine-page guide; the cover names MG-50Li/Cherub and copyright 2025. The [official English endpoint](https://nux.cherubtechnology.com/download/Otherguide/MG50Li/NUX_MG50Li_QuickStartGuideV1_English.pdf) timed out; another PDF copy has no readable text. Host-generated summaries/Q&A excluded. [ARIA’s exact-model product page](https://www.ariaguitars.com/jp/items/other-brands/nux/multi-effects/mg50li-sm/) directly links its [two-page regional Japanese quick guide](https://www.ariaguitars.com/jp/items/docs/mg50li_qsg_ja.pdf); this does not certify a hardware revision.
+
+| Field | Source-qualified operation |
+|---|---|
+| Live / Looper and Tuner | ARIA guide PDF p1: hold Down+Up simultaneously for Looper; hold CTRL for Tuner. A Down+Up press enters STOMP in English p5. Exact hold time, loop duration, stereo/mono, undo, power/preset retention and drum support remain unverified. |
+| Memory / Input Trim | English p5 and ARIA p1: Knob 3 opens instrument trim; **six saved settings**. These are not six physical inputs, preset locations or simultaneously processed instruments. |
+| Software / Output Console | English p5: Knob 4 opens the console; corresponding knob presses mute outputs; EDIT/PARA opens USB stream setup. **USB NORMAL records; USB REAMP reprocesses**. Channel pairs and USB-source EXP attenuation remain unspecified. |
+| Expression / patch andgroup scope | English p5: Knob 1 configures CTRL/EXP **for the current patch**; a Stomp switch can control two or more blocks. This does not establish global volume assignment or additional DSP capacity. |
+
+**Regional wording anomalies:** ARIA p1 repeats Send/Return instructions under the DI-out heading; this is not adopted as XLR loop functionality. Its p2 specification prints **3 DeepImage amps**, versus the retained global 30/US 33; the revision basis is unresolved. Earlier preset/IR/converter/headphone/battery conflicts remain. Current firmware equivalence is untested. No download, connection or device operation.
 
 
 ## MG-100

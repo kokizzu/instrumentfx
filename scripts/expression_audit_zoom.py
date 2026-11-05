@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(nux): qualify MG-50Li factory banks and seller offers'
+        message='research(nux): document MG-50Li live and USB quick-guide scope'
     print(git('commit','-m',message))
