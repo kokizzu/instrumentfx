@@ -175234,7 +175234,19 @@
       "OLED dimensions,storage ceiling,globalEXP coverage,qualified current hardware"
     ],
     "inventory_unchanged": 402,
-    "next": "GeneralGP-200JR→Prime checkpoint saved;continueoriginalGE300 while keepingindividual-footdisplay/Shopee priority,GT-Pro andexpression-volume queues"
+    "next": "GeneralGP-200JR→Prime checkpoint saved;continueoriginalGE300 while keepingindividual-footdisplay/Shopee priority,GT-Pro andexpression-volume queues",
+    "vocal_note_control": {
+      "checked": "2026-11-06",
+      "canonical": "brand/HEADRUSH.md#prime--midi-keyboard-control-of-vocal-pitch-and-harmony",
+      "sources": [
+        "https://support.headrushfx.com/en/support/solutions/articles/69000864096-prime-and-core-how-to-control-the-auto-tune-pedal-using-a-midi-keyboard",
+        "https://support.headrushfx.com/en/support/solutions/articles/69000864097-prime-and-core-how-to-control-the-vocal-harmony-effect-using-a-midi-keyboard"
+      ],
+      "revision": "Undated support instructions;firmware mapping unverified",
+      "finding": "Distinct correction/harmony MIDI controls andvoice restrictions;not synthesis/polyphonic audio proof.",
+      "inventory_unchanged": 402,
+      "next": "Continue LCD/Shopee priority; originalGE300 next in independent GP200JR→Prime→GE300 queue; preserve expression andGT-Pro tasks."
+    }
   },
   "ge300_original_delay_reverb_census_20261105": {
     "checked_date": "2026-11-05",

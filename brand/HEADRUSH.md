@@ -535,6 +535,7 @@ The article retains Eleven Rack/Pro Tools wording despite its explicit HeadRush 
 
 | Required field | Model-specific finding / qualification |
 |---|---|
+| Processing / MIDI-directed vocal pitch | [Exact Prime/Core support recipes](#prime--midi-keyboard-control-of-vocal-pitch-and-harmony): Auto-Tune Key/Scale=MIDI; Vocal Harmony Auto Src=MIDI with restricted voice modes/pitch choices. MIDI note control is not instrument-tone synthesis or proof of audio-input polyphony; firmware applicability unstated. |
 | MIDI / physical-port forwarding and clock | [Guide5.0 MIDI scope](#prime--physical-midi-forwarding-and-clock-boundaries): Thru forwards DIN input to output; disabling Thru permits own output. Receive Clock Off uses internal tempo without transmitting that clock. Program-change Send/Recv and Omni/1–16 are separate settings; USB hosting and current5.2 equivalence unverified. |
 | Processing / named drive and volume-dynamics | [34 named choices](#prime--named-drive-and-volume-dynamics-choices):18 overdrives beneath a16 header,11 distortion/fuzz,5 volume/dynamics. Source conflicts retained;not simultaneous block capacity. |
 | Processing / named delay, reverb, chorus, EQ and compression | [43 listed choices](#prime--named-delay-reverb-chorus-eq-and-compressor-choices):14 Delay,7 Reverb,7 Chorus,9 EQ,6 Compressor. Website grouping is retained;not simultaneous capacity or a certified current-firmware inventory. |
@@ -1161,6 +1162,14 @@ Checked **2026-11-05**, indexed original [manufacturer Prime User Guide5.0.0,§4
 - **Prog Change Send** enables messages from upper/lower-left rig stepping; **Recv** separately enables incoming program changes. **MIDI Channel** offers Omni or1–16. This does not define Omni transmission behavior,bank-select mapping ortotal rig capacity;retain the separate PC1–128 qualification.
 
 No MIDI messages sent,device settings changed orfiles downloaded. Exact Shopee searches returned already-recorded offers,not freshly qualified stock. OLED hardware,storage andglobal-expression gaps remain open;independent general queue proceeds tooriginalGE300.
+
+### Prime — MIDI keyboard control of vocal pitch and harmony
+
+Checked **2026-11-06**, exact Prime/Core manufacturer support articles: [Auto-Tune keyboard control](https://support.headrushfx.com/en/support/solutions/articles/69000864096-prime-and-core-how-to-control-the-auto-tune-pedal-using-a-midi-keyboard) and [Vocal Harmony keyboard control](https://support.headrushfx.com/en/support/solutions/articles/69000864097-prime-and-core-how-to-control-the-vocal-harmony-effect-using-a-midi-keyboard). Neither exposes a firmware introduction/revision; do not certify5.2 equivalence or installed firmware from these undated instructions.
+
+Both describe a USB-MIDI or five-pin keyboard connection and global MIDI Channel **Omni**. For **Vocal→Auto-Tune**, set **Key and Scale to MIDI**; held keyboard notes then direct correction. This is vocal-audio pitch processing controlled by notes, not proof of an onboard piano engine or polyphonic audio correction.
+
+For **Vocal→Vocal Harmony→Auto High**, set **Auto Src=MIDI**. Per-voice **Mode** must be **Auto, Auto Root or Root & Scl**; **Pitch** must be **High/Higher/Highest or Low/Lower/Lowest**. Other voices have separate settings pages. The recipe does not establish that every mode responds identically, the keyboard chord-recognition limit, USB-B host behavior or simultaneous use with every other effect. No MIDI transmitted or device settings changed.
 
 ## VX5
 
