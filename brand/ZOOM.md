@@ -6035,6 +6035,24 @@ Checked 2026-10-19 against [original manufacturer manual, pp4–5,11,30](https:/
 
 Existing77.5W×130.3Dmm fits preferred chassis, excluding plugs. Direct analog volume fails; position/range and expression bypass/headphone/tail/loop attenuation are not applicable. The single footswitch cycles a configured patch list; this is not separate preset-down/up. USB controller workarounds and headphone driving through line outputs remain unverified. Older prices, revision conflicts and remaining technical fields stay preserved. No downloads or device operation.
 
+### MS-50G — original Version 3 creative processing
+
+Checked **2026-11-05**: [manufacturer Ver.3 effects list](https://zoomcorp.com/media/documents/E_MS-50G_FX-list_v3.pdf), ©2017, pp4–7,15,19; linked by [exact-model support](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-50g/ms-50g-support/).
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Creative / synth and pitch processing | **MonoSynth** explicitly tracks single notes; Sine/Tri/SawUp/SawDn waveforms, Speed controls pitch-change smoothness. **MonoPitch** is single-note; PitchSHFT and HPS chord handling remain unverified. PitchSHFT/MonoPitch span −12…+12 and +24 semitones with ±25-cent fine adjustment; HPS uses key/scale settings. | Ver.3 pp15,19 |
+| Creative / instrument simulation and special processing | **Aco.Sim** electric-to-acoustic; **Z-Organ** organ simulation. **Slicer** has20patterns; **SeqFLTR**2–8steps/8patterns; RndmFLTR random filtering. **BitCrush**4–16-bit effect control, not converter resolution. **Bomber** is picking-triggered explosive generation, not pitched synthesis. | Ver.3 pp4–7,15,19 |
+
+Version3 library availability does not establish installed effects, introduction version of each algorithm, or measured tracking quality. Retain six-effect/DSP ceiling and older55/100/172 source distinctions; no Plus algorithms transferred.
+
+### MS-50G — exact used IDR observation
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Used IDR | **Rp1.180.000; Habis/sold out**. VINTERN, Kab.Malang; shop7092438/item55611139676; title “ZOOM MS50G Bekas” identifies seller-declared used original hardware. Checked2026-11-05 through cached page crawled last month;11–12September arrival estimate is stale. Working condition, authenticity, installed firmware, adapter/bundle, warranty, region, live stock, shipping/tax and checkout total unverified. Late-delivery voucher up toRp10.000 is compensation, not a product-price discount. This is a historical ask, not a completed sale or current buyable range; earlier condition-unclassified offer retained. | [Exact Shopee item](https://shopee.co.id/ZOOM-MS50G-Bekas-i.7092438.55611139676) |
+
+
 ## MS-50G Plus
 
 MS-50G+ guitar multi-effects; distinct from original MS-50G. Checked 2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
