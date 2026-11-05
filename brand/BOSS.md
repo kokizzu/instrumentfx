@@ -4372,6 +4372,7 @@ Guitar multi-effects; distinct from ME-90. Checked2026-10-17; partial verificati
 | Simultaneous processing / categories | Eight simultaneous categories;NS additionally documented as global. PREAMP9,OD/DS11,MOD11,DELAY11 selector positions including Phrase Loop,EQ/FX2 six,REVERB3,PEDAL FX10. Training overview says COMP/FX1 eleven but its end list only enumerates nine;owner manual lists eleven including RING MOD and AC SIM. These are choices,not freely assignable blocks. | [ME80-T][ME80-T] [ME80-M][ME80-M] [ME80-CHAIN][ME80-CHAIN] |
 | Memory | 36 permanent factory presets plus36 user locations=72;factory-filled user subset not established. Manual mode individual effects;Memory mode whole patches. | [ME80-MEM][ME80-MEM] |
 | Synth / acoustic | AC SIM converts electric guitar toward acoustic sound in COMP/FX1;separate AC preamp serves acoustic/electric guitar. Ring modulation,Overtone,Freeze andVoice pedal effects documented;dedicated guitar-synth engine unverified. Synth-style demo titles alone do not establish one. | [ME80-M][ME80-M] [ME80-PR][ME80-PR] [ME80-T][ME80-T] |
+| Synth / note handling | PITCH SHIFT ±2 octaves; input polyphony unverified. HARMONIST and pedal octave bends require single notes; OVERTONE explicitly accepts chords but is harmonic processing, not a verified tracking-synth engine. FREEZE is press-held; VOICE, RING MOD and SLOW GEAR have separate roles. | [Original named census and limits](#me-80--named-original-categories-and-creative-tracking-limits), checked2026-11-05 |
 | Complete I/O | Quarter-inch mono GUITAR INPUT;quarter-inch Gt.AMP OUTPUT L/MONO,R;stereo3.5mm REC OUT/PHONES;stereo3.5mm AUX IN;USB-B COMPUTER;DC IN. No FX loop,XLR,DIN MIDI or externalEXP socket listed. | [ME80-S][ME80-S] |
 | Power / current / battery / USB | Six alkalineLR6 orcarbon-zincR6 AA,or optionalPSA adapter;200mA draw. Approx7h alkaline/2h carbon-zinc,conditions vary. Voltage,polarity andUSB bus operation not established here. Adapter rating is not draw. | [ME80-S][ME80-S] [ME80-PWR][ME80-PWR] |
 | USB audio / MIDI | Audio recording/playback andMIDI documented. Driver required for supportedOS;Win10/11 driver auto-install needsinternet. USB LEVEL,direct monitor,loopback,dry-record settings available. AUX input does not reachUSB output. | [ME80-USB][ME80-USB] [ME80-AUX][ME80-AUX] |
@@ -4385,6 +4386,29 @@ Guitar multi-effects; distinct from ME-90. Checked2026-10-17; partial verificati
 | Looper / rhythms / scenes | PhraseLoop38s inDELAY selector,unlimited overdubs;delaypedal records/plays/overdubs,doubletapstops. Loops cannot be saved onunit. Polish manual p15 says stopping playback,changing DELAY type or powering off erases the recording;doubletap interval within1s. Undo,stereo limits,trails,drums andsnapshot-style scenes unverified. | [ME80-T][ME80-T] [ME80-LOOP][ME80-LOOP] [ME80-PL][ME80-PL] |
 | Routing / live | Category order fixed:COMP/FX1→OD/DS→PREAMP→PedalFX(off)→MOD→EQ/FX2→DELAY→REVERB;activatedPedalFX moves beforeOD/DS. NS global. Taptempo andchromatic tuner documented. | [ME80-CHAIN][ME80-CHAIN] [ME80-T][ME80-T] |
 
+### ME-80 — named original categories and creative tracking limits
+
+Checked **2026-11-05** in the manufacturer-authored [English owner-manual reproduction](https://manuzoid.com/manuals/GgkXv-Boss%20ME-80%20Owner%27s%20manual), printedpp5–11. The21-page document identifies ME-80; cover, chapter names, numbered tables and pagination correspond to the official multilingual manual’s English section. Exact firmware applicability and reproduction byte identity are not established. Original document body only; host chatbot guidance excluded. The official70.8MB PDF exceeded the web reader limit; no local download.
+
+| Category | Named original selections |
+|---|---|
+| COMP/FX1 (11) | COMP; T.WAH UP; T.WAH DOWN; OCTAVE; SLOW GEAR; DEFRETTER; RING MOD; AC SIM; Single > Hum; Hum > Single; SOLO |
+| OD/DS (11) | BOOST; OVERDRIVE; T-SCREAM; BLUES; TURBO OD; DISTORTION; TURBO DS; METAL DS; CORE; FUZZ; OCT FUZZ |
+| MOD (11) | PHASER; FLANGER; TREMOLO; CHORUS; VIBRATO; PITCH SHIFT; HARMONIST; ROTARY; UNI-V; DELAY; OVERTONE |
+| DELAY (11) | 1–99 ms; 100–600 ms; 500–6000 ms; ANALOG; TAPE; MODULATE; REVERSE; CHO + DELAY; TEMPO; TERA ECHO; PHRASE LOOP |
+| PREAMP (9) | AC; CLEAN; TWEED; CRUNCH; COMBO; LEAD; DRIVE; STACK; METAL |
+| EQ/FX2 (6) | PHASER; TREMOLO; BOOST; DELAY; CHORUS; EQ |
+| REVERB (3) | ROOM; HALL; SPRING |
+| PEDAL FX (10) | WAH; VOICE; +1 OCTAVE; +2 OCTAVE; -1 OCTAVE; FREEZE; OSC DELAY; OD/DS; MOD RATE; DELAY LEV |
+
+These are selector positions, not unique algorithms or freely duplicable blocks. PEDAL FX OD/DS, MOD RATE and DELAY LEV control parameters of existing categories. PHRASE LOOP occupies the DELAY choice; three delay-time ranges are separate positions, not three independent delays. The training guide’s nine-name COMP/FX1 ending list remains historical evidence; the owner table supplies eleven, including RING MOD and AC SIM.
+
+**Pitch and note handling:** PITCH SHIFT spans two octaves up/down; chord handling is unverified. HARMONIST and the three pedal octave-bend modes explicitly require single notes. OVERTONE explicitly permits chords and mixes octave-up/down harmonics with dry signal; this does not establish a dedicated polyphonic tracking synth.
+
+**Instrument and special processing:** AC SIM converts electric-guitar audio toward acoustic sound; AC PREAMP instead serves an acoustic-electric input. DEFRETTER and Single>Hum/Hum>Single transform instrument character. RING MOD uses an internal oscillator to modulate audio; SLOW GEAR removes attack. VOICE is a vocal-like pedal effect, not a microphone vocoder. FREEZE sustains only while the pedal is pressed; OSC DELAY manipulates delay feedback/time. None establishes a separate sampled-instrument engine, input-note polyphony for every mode or unlimited simultaneous availability.
+
+Installed behavior, latest-firmware equivalence and measured tracking remain untested. This closes the original named-category census; current Shopee stock, user-bank initial filling, portable-power details and other retained gaps remain open.
+
 ### ME-80 — separate IDR asking-price evidence
 
 | Condition / seller | IDR evidence and qualifications | Exact item |
@@ -4392,7 +4416,7 @@ Guitar multi-effects; distinct from ME-90. Checked2026-10-17; partial verificati
 | Used | Unknown;no condition-verified used IDR offer established. | — |
 | Retail-style;condition unverified / Awlind Music Official,Kota Bandung | Rp4,992,000 indexed asking price,checked2026-10-17;cache approximately2months old with3–8August delivery. Stock,selected variant,bundle/adapter,warranty region,shipping,tax,voucher anddeliveredtotal unverified. Rp10,000 late-delivery compensation is not a product discount. Seller name does not authenticate the store. Not a verified new-condition orlive-stock price. | [78230612 /2847274757](https://shopee.co.id/ALAT-MUSIK-Boss-ME-80-Multi-Effects-Pedal-i.78230612.2847274757) |
 
-Remaining:full manual category reconciliation,user preset initialization,display details,power voltage/polarity/USB,import capabilities,dedicated synth,rhythm/scenes/looper details,current installed editor/driver behavior andqualifiedused/newoffers. Official multilingual manual open exceeded browser file-size limit;indexed manufacturer text inspected without saving a file. No software installed.
+Remaining:current firmware/category equivalence,user preset initialization,display details,power voltage/polarity/USB,import capabilities,dedicated synth,rhythm/scenes/looper details,current installed editor/driver behavior andqualifiedused/newoffers. Official multilingual manual open exceeded browser file-size limit;indexed manufacturer text inspected without saving a file. No software installed.
 
 [ME80-P]: https://www.boss.info/us/products/ME-80/
 [ME80-S]: https://www.boss.info/fi/products/me-80/

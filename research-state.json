@@ -156567,6 +156567,15 @@
         "instrument": "See canonical record",
         "qualification": "Original/version2 boundaries",
         "evidence_basis": "Original©2012 guide and separate official version2 preset list;2026-11-05"
+      },
+      {
+        "key": "BOSS::ME-80",
+        "canonical": "brand/BOSS.md#me-80--named-original-categories-and-creative-tracking-limits",
+        "synth": "Overtone chord-capable harmonic processing; dedicated synth unverified",
+        "pitch": "PitchShift ±2octaves;Harmonist/pedal octave bends single-note",
+        "instrument": "AC SIM;Defretter;pickup-character conversion",
+        "qualification": "Original named categories; shared slots; press-heldFreeze/OSCDelay/RingMod/SlowGear/Voice distinct",
+        "evidence_basis": "Focused2026-11-05 exact-model manufacturer-authored English owner-manual reproduction pp5–11;not completefreshcatalogue audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -174172,5 +174181,129 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue accessible individual-screen processor gaps andsystematic remaining field audits; preserve independent GT-Pro,expression andGP-200JR→Prime→GE300 queues"
+  },
+  "me80_named_categories_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#me-80--named-original-categories-and-creative-tracking-limits",
+    "sources": [
+      "https://manuzoid.com/manuals/GgkXv-Boss%20ME-80%20Owner%27s%20manual",
+      "https://static.roland.com/assets/media/pdf/ME-80_egfispd03_W.pdf",
+      "https://www.manualslib.com/manual/940683/Boss-Me-80.html?page=5",
+      "https://www.manualslib.com/manual/940683/Boss-Me-80.html?page=7",
+      "https://www.manualslib.com/manual/940683/Boss-Me-80.html?page=8",
+      "https://www.manualslib.com/manual/940683/Boss-Me-80.html?page=9"
+    ],
+    "identity": "21-page English original body;exactmodel cover/tables/pagination matchofficialEnglishsection;firmware/document revision unstated;notbytecompared;hostFAQs excluded",
+    "categories": {
+      "COMP/FX1": [
+        "COMP",
+        "T.WAH UP",
+        "T.WAH DOWN",
+        "OCTAVE",
+        "SLOW GEAR",
+        "DEFRETTER",
+        "RING MOD",
+        "AC SIM",
+        "Single > Hum",
+        "Hum > Single",
+        "SOLO"
+      ],
+      "OD/DS": [
+        "BOOST",
+        "OVERDRIVE",
+        "T-SCREAM",
+        "BLUES",
+        "TURBO OD",
+        "DISTORTION",
+        "TURBO DS",
+        "METAL DS",
+        "CORE",
+        "FUZZ",
+        "OCT FUZZ"
+      ],
+      "MOD": [
+        "PHASER",
+        "FLANGER",
+        "TREMOLO",
+        "CHORUS",
+        "VIBRATO",
+        "PITCH SHIFT",
+        "HARMONIST",
+        "ROTARY",
+        "UNI-V",
+        "DELAY",
+        "OVERTONE"
+      ],
+      "DELAY": [
+        "1–99 ms",
+        "100–600 ms",
+        "500–6000 ms",
+        "ANALOG",
+        "TAPE",
+        "MODULATE",
+        "REVERSE",
+        "CHO + DELAY",
+        "TEMPO",
+        "TERA ECHO",
+        "PHRASE LOOP"
+      ],
+      "PREAMP": [
+        "AC",
+        "CLEAN",
+        "TWEED",
+        "CRUNCH",
+        "COMBO",
+        "LEAD",
+        "DRIVE",
+        "STACK",
+        "METAL"
+      ],
+      "EQ/FX2": [
+        "PHASER",
+        "TREMOLO",
+        "BOOST",
+        "DELAY",
+        "CHORUS",
+        "EQ"
+      ],
+      "REVERB": [
+        "ROOM",
+        "HALL",
+        "SPRING"
+      ],
+      "PEDAL FX": [
+        "WAH",
+        "VOICE",
+        "+1 OCTAVE",
+        "+2 OCTAVE",
+        "-1 OCTAVE",
+        "FREEZE",
+        "OSC DELAY",
+        "OD/DS",
+        "MOD RATE",
+        "DELAY LEV"
+      ]
+    },
+    "counts": {
+      "COMP/FX1": 11,
+      "OD/DS": 11,
+      "MOD": 11,
+      "DELAY": 11,
+      "PREAMP": 9,
+      "EQ/FX2": 6,
+      "REVERB": 3,
+      "PEDAL FX": 10
+    },
+    "qualification": "Choices include parameter-control modes,shared names andloop/time positions;notuniquealgorithmtotal orsimultaneouscapacity",
+    "additional_creative_records": 94,
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Current-firmware equivalence",
+      "Other input-note polyphony",
+      "User initial occupancy",
+      "Portable-power details",
+      "Exact current Shopee hardware"
+    ],
+    "next": "Continue accessible individual-footdisplay models andsystematicremainingprofiles;preserve independent GT-Pro,expression andGP200JR→Prime→GE300 queues"
   }
 }
