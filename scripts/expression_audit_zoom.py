@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(sonicake): complete original Smart Box menu census'
+        message='research(nux): retain MG-50Li variation lead without price-floor claim'
     print(git('commit','-m',message))

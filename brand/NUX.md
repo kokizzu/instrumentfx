@@ -780,6 +780,7 @@ Queries for Shopee Indonesia **NUX MG-30 MKII**, **MG30 MK2** and **MG30 MKII** 
 | Firmware / USB and tails | **English1.1.1,2026-07-31**: USB audio can reach XLR;Patch Tail Off cuts preset-change tails. Not proof of global EXP coverage. [Revision-qualified follow-up](#mg-50li--current-display-firmware-and-creative-choices). |
 | Editor / current support listing | Opened global page: NUX Audio **1.1.7.1,2026-09-14**;NUX IMAGE **1.1.0.1,2026-08-06**;Windows10+ ASIO **5.72.0**. These versions are distinct from hardware firmware;older indexed listings retained separately. |
 | Synth / pitch / special | Manufacturer names Harmonist,Detune,Octave-Shift,Reverse andShimmer. Input-note polyphony/ranges,dedicated synth andinstrument simulator remain unverified. [Exact palette](#mg-50li--current-display-firmware-and-creative-choices). |
+| IDR / unresolved Kurnia variation lead | **Rp6.860.000**, [shop32743136/item57010827569](#mg-50li--kurnia-three-variation-lead),KotaSemarang,last-week searchcache. Three variations unresolved;direct cachemiss. **Excluded from qualified hardware/new/used price bounds**;condition,bundle,stock andcheckout unknown. |
 | Prices | Verified used/new IDR remain unknown. **Rp7.510.000** condition/stock-unverified exact Shopee asks,including separately indexedBandung item16879370/53759194739;variations/bundles unresolved;[offer qualifications below](#mg-50li--exact-shopee-hardware-offers). Foreign quotes remain separate. |
 | Memory / named bank additions | [Six named presets inBanks41/42](#mg-50li--firmware111-factory-bank-additions) establish added content,not six extra storage slots orreconciliation ofregional factory/user counts. |
 | IDR / additional seller cache conflicts | [CH MUSIC andSEVEN STEREO Malang](#mg-50li--additional-seller-caches-and-item-slug-conflict):CH item shows **Rp6.830.000 opened versusRp7.510.000 indexed**,two unresolved variations andCerberus slug conflict;Malang **Rp7.510.000,service unavailable**. Condition/checkout unknown;not new/used floors. |
@@ -931,6 +932,12 @@ Checked **2026-11-05**. [Manufacturer English V1 Quick Start,original page5 repr
 
 **Regional wording anomalies:** ARIA p1 repeats Send/Return instructions under the DI-out heading; this is not adopted as XLR loop functionality. Its p2 specification prints **3 DeepImage amps**, versus the retained global 30/US 33; the revision basis is unresolved. Earlier preset/IR/converter/headphone/battery conflicts remain. Current firmware equivalence is untested. No download, connection or device operation.
 
+
+### MG-50Li — Kurnia three-variation lead
+
+Checked **2026-11-06**: [Kurnia Musik Semarang exact MG-50Li listing](https://shopee.co.id/Nux-MG50LI---Multi-Efek-Gitar-Elektrik---Modeler--Profiler-Nux-MG50Li-i.32743136.57010827569),shop**32743136**,item**57010827569**,KotaSemarang. Last-week indexed body shows **Rp6.860.000** and **three variations**;direct opening returned cache miss. The30October delivery banner is stale,not stock confirmation;late-delivery voucher up toRp10.000 isnot subtracted. Selected variation,hardware-to-price mapping,condition,working state,bundle/adapter/NBT-1,warranty/import region,shipping/tax andcheckout total are unverified. This remains a discovery lead,not an accepted hardware floor ornew/used range;older seller observations remain separate.
+
+The [current manufacturer product](https://nuxaudio.com/product/mg50li/) links an [English full user manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG50Li/NUX_MG50Li_UserManual_English.pdf);the reader rejected its13,127,706-byte response. No contents orrevision inferred;the previously checked quick guide remains separate. No file downloaded,seller contacted ordevice operated.
 
 ## MG-100
 

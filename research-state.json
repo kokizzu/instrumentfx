@@ -173296,7 +173296,23 @@
       "Physical display/touch andUSB-power statements"
     ],
     "active_inventory_unchanged": 402,
-    "next": "Continue other accessible exact-model evidence;preserve requestedfootdisplay priorities and independent GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues."
+    "next": "Continue other accessible exact-model evidence;preserve requestedfootdisplay priorities and independent GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues.",
+    "kurnia_variation_lead": {
+      "checked": "2026-11-06",
+      "canonical": "brand/NUX.md#mg-50li--kurnia-three-variation-lead",
+      "url": "https://shopee.co.id/Nux-MG50LI---Multi-Efek-Gitar-Elektrik---Modeler--Profiler-Nux-MG50Li-i.32743136.57010827569",
+      "shop": "32743136",
+      "item": "57010827569",
+      "seller": "Kurnia Musik Semarang",
+      "region": "KotaSemarang",
+      "indexed_ask_idr": 6860000,
+      "variations": 3,
+      "accepted_hardware_price": false,
+      "access": "Last-weeksearch;directcachemiss",
+      "full_manual": "Manufacturerlinked13,127,706bytes exceedsreader;no contentsadopted",
+      "inventory_unchanged": 402,
+      "next": "Resolvevariation onlywithexactsource evidence;continueLCD/Shopee andremainingprofiles;preserve independentqueues."
+    }
   },
   "mg50li_quickguide_live_usb_20261105": {
     "checked": "2026-11-05",
