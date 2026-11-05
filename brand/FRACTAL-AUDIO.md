@@ -2999,6 +2999,7 @@ Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer
 | Used IDR | No qualified exact Shopee offer. [Carousell 1451552917](https://id.carousell.com/p/efek-gitar-fractal-vp4-1451552917/), cached Rp12m negotiable, Seperti baru, Depok; unit/adapter/converter/box claimed, MIDI/USB cables missing. Seller zaidanalla64732 versus containerx identity conflict; three-month cache, direct miss; not current stock orcondition-tested value. |
 | New / retail IDR | Verified new unknown; no exact Shopee hardware. [Melodia](https://www.melodiamusik.com/product/fractal-vp4-virtual-pedalboard/), Rp14m, crossed Rp20.7m, last-week cache, direct miss; condition/stock/bundle/adapter/warranty/region/voucher/shipping/tax unknown. Seller’s 15m new claim is not independent price evidence. |
 | Expression / modifier capacity and switch priority | v1.06 p38: **16 modifiers/preset**, shared across channels; Auto-Engage overrides normal effect on/off switching. Preset ranges are separate from global volume. [Scope](#vp4--modifier-capacity-channel-sharing-and-switch-priority). |
+| Routing / mono and digital source conflict | SUM L+R can cancel phase-inverted wet effects; COPY L→R differs. USB/S/PDIF Output Mode scope conflicts internally. [Source details and factory-address census](#vp4--summed-mono-cancellation-and-documented-preset-occupancy). |
 <!-- comparison evidence ends -->
 
 ### VP4 — partial discovery lead, outside active inventory
@@ -3127,3 +3128,16 @@ Checked **2026-11-03** against the [manufacturer Owner’s Manual v1.06, 2024-10
 A preset supports **16 modifiers total**, not 16 per effect/channel. One source can control multiple target parameters, each with its own range; modifiers are shared across block channels, and a controlled parameter cannot also be manually adjusted. **Auto-Engage disables normal ON/OFF footswitch control** of that effect. Fast update rate can sound smoother but uses additional CPU.
 
 These are preset modifier limits, separate from global Input/Output Volume. They do not resolve analog held-position recall, global endpoints or bypass/headphone/tail/loop coverage. Historical revision only; current4.04 equivalence and real response remain untested.
+
+
+### VP4 — summed-mono cancellation and documented preset occupancy
+
+Checked **2026-11-05**, [manufacturer Owner’s Manual v1.06, 2024-10-23](https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf), printed pp10–11,24,45,59–61. Historical evidence, not a firmware4.04 or installed-unit certification.
+
+| Field | Finding / qualification |
+|---|---|
+| Routing / summed mono | **SUM L+R** combines channels into both analog outputs. Phase-inverted wet signals can cancel: the manual identifies **2290 w/Modulation, Warm Stereo Delay, 80s Style Chorus, Triangle Chorus and Warm Stereo Chorus**. **COPY L→R** instead duplicates left; it does not retain both channels. These are channel-routing distinctions, not input-note polyphony. |
+| I/O / output-mode scope | **Internal source conflict:** p10 says USB/S/PDIF are tapped after Output Mode and may carry mono content; p45 says USB/S/PDIF are stereo and unaffected by it. Digital behavior stays unresolved. **4CM overrides** normal modes: PRE→Output L, POST→Output R, both mono. No expression-coverage inference. |
+| Memory / documented factory names | The complete appendix names **80 addresses, A1–T4**. The overview marks **V–Z blank:20 slots**. **U1–U4 remain unspecified**, so neither80 nor84 is certified as the exact initial-filled total. All104 locations remain writable; the later downloadable preset package is a separate revision. |
+
+Shopee searches produced no qualified VP4 hardware item; not proof of unavailability. Other historical asks remain unchanged. No download, installation or device operation.

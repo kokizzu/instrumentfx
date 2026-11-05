@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): distinguish GFX-1 pedal targets and patch recovery'
+        message='research(fractal): qualify VP4 mono routing and factory occupancy'
     print(git('commit','-m',message))
