@@ -2521,6 +2521,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | Categories / choices | June2023 exactFM9 column has37 available classes,84 summed allowances including routing/control; not84 simultaneous effects. Shared TYPES column and290+/309+ amp conflict preserved; current exact Turbo choice census unknown. [Retained dated table](#fm9--historical-block-inventory);[manufacturer guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). |
 | Categories / Pitch reference | [November16-type census and note restrictions](#fm9-turbo--november-pitch-census-and-note-handling). One FM9 Pitch block,CPU permitting;not an installed-library certification. |
 | Categories / Chorus and Flanger reference | [27 Chorus/31 Flanger named choices](#fm9-turbo--named-chorus-and-flanger-reference),two FM9 instances each,CPU permitting. Cross-category repeats and internal voices do not add independent algorithms orblocks. |
+| Categories / Filter,Phaser andWah reference | [20/19/9 named choices](#fm9-turbo--named-filter-phaser-and-wah-reference),respectively;FM9 instance limits4/2/2,CPU permitting. Filtering is distinct from Synth tracking. |
 | Preset memory | **512 editable locations**,including overwritable factory entries; **eight scenes each**. [Manufacturer FM9-family default:384](#fm9-turbo--family-factory-default-and-backup-scope);exact pre-MKII Turbo shipping allocation andcurrent unit contents remain unverified. Not extra protected locations. [Shared manual p39](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**; [manual/envelope/pitch tracking modes](#fm9-turbo--synth-tracking-versus-manual-generation) are distinct. Voice count is not note polyphony. Acoustic input documented separately; electric-to-acoustic simulation remains unknown. [Own-applicable manual p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Audio I/O | Mono unbalanced¼-inch Input1; stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR and same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Manual p21](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
@@ -2597,6 +2598,19 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,25,48](
 | Flanger —31 | Analog Mono; Analog Stereo; BBF-2; Binary Flange; Cancel Flange; Count of Flanging; Cuda Flange; D/AD 185; Deluxe Mystery; Digital Mono; Digital Stereo; Electric Mystery; FAS Flanger; Harmonoflange; Hemisflange; Lofty Flange; Manual Thru-Zero Flanger; Melodic Flange; MXF-117; Pop Flanger; Scion Stereo Flange; Spirit Flange; Starship Flanger; Step Flanger; Stereo Jet; Thru-Zero; Trippy Flanger; Tubular; Vowel Flanger; Zero Flanger; 80’s Rack Flanger |
 
 Dimension1/2/3 count separately. Each category permits **two FM9 blocks**,CPU permitting;these58 menu choices are not58 simultaneous effects orunique DSP algorithms. Names,voices andstereo formats do not establish synth tracking. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
+
+
+### FM9 Turbo — named Filter, Phaser and Wah reference
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,45–46,73,110](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf);Original/Turbo companion-reference applicability as qualified above.
+
+| Category | Named reference choices |
+|---|---|
+| Filter —20 | All-Pass; Auto-Wah; Band-Pass; Envelope Filter; Feedback Comb; Feedforward Comb; High-Pass; High-Shelf; High-Shelf 2; Ladder Filter; Low-Pass; Low-Shelf; Low-Shelf 2; Notch; Null; Peaking; Peaking 2; Tilt EQ; Touch-Ladder; Touch-Wah |
+| Phaser —19 | Digital Mono; Digital Stereo; Script 45; Script 90; Block 90; Classic Vibe; Stereo 8-Stage; Barber Pole; Stripe 90; Naughty Rock; FAS Vibe; Treadle Phaser; Virtuoso Phaser; Borg Phaser; Ultra-Super-Mega Phaser; Mutated Twin-Phaser; Modern Vibe; Hoodoo Vibe; RT Vibe |
+| Wah —9 | FAS Wah; Clyde; Cry Babe; VX846; Color-Tone; Funk Wah; Mortal; VX845; Paragon |
+
+FM9 permits **four Filter,two Phaser,two Wah blocks**,CPU permitting. Envelope/Touch types follow playing;Auto-Wah uses an LFO. Ladder resonance can self-oscillate;this doesnot establish tracked synthesis. Null retains gain/pan functions without frequency-response shaping. Counts describe reference choices,not concurrent algorithms orinstalled firmware. Introduction versions andmeasured behavior remain unverified. No local download ordevice operation.
 
 
 ## VP4
