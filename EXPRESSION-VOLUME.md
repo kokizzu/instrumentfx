@@ -910,3 +910,7 @@ VG-800 [volume-target and detector distinctions](brand/BOSS.md#vg-800--volume-ta
 ### Sheeran Looper X — partial large-footprint candidate
 
 [Exact-model record](brand/SHEERAN-LOOPERS.md#looper-x--partial-discovery-lead): expression target/range documentation does not establish global master assignment or complete output coverage. Outside active counts; footprint, headphones and navigation qualifications are retained canonically.
+
+### Flamma TONE GO — partial speaker-equipped discovery
+
+[Exact-model product evidence](brand/FLAMMA.md#tone-go--partial-no-treadle-discovery),outside402 active models: normal guitar input,stereo phones,5rotaries/3footswitches andshared2-inch color screen are advertised. Analog EXP/toe inventory,global volume andonboard sequential preset−/+ remain unverified;do not interpret an incomplete port list asNo. Manufacturer dimensions164×185×62mm have unlabeled axes anddo not establish the preferred footprint. NAM A2 conversion isseparate fromglobal pedal assignment. No qualified Shopee hardware yet.

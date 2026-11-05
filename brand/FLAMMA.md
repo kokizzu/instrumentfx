@@ -25,6 +25,7 @@ The [official multi-effects collection](https://www.flamma.shop/collections/mult
 - [FX150](#fx150)
 - [FX150b](#fx150b)
 - [FX200](#fx200)
+- [TONE GO — partial no-treadle discovery](#tone-go--partial-no-treadle-discovery)
 <!-- brand-index ends -->
 
 ## Additional Flamma families to research
@@ -954,3 +955,27 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Other documented functions** (5. Power, software and practice/live features): USB audio;52 s stereo pre/post looper;80 drum variations+10 metronomes; spillover
 
 [Original shared source](../research-state.json)<!-- historical-link:flamma-002 -->,retained pending complete navigation/provenance audits.
+
+## TONE GO — partial no-treadle discovery
+
+Checked **2026-11-05**. Manufacturer-backed guitar multi-effects/portable-speaker lead, **outside the402 active models**. No ownership, bass/vocal membership or Indonesian availability assertion. The earlier catalogue-only mention remains historical provenance.
+
+Sources: [manufacturer shop’s exact product page](https://www.flamma.shop/en-au/products/flamma-tone-go) (readable body,revision unstated); [manufacturer product183](https://www.flammainnovation.com/single.html?id=183) (indexed technical body;direct opening exposed only an empty shell); [official download index](https://flammainnovation.com/download.html). These are product claims,not a checked full manual ordevice test. The shop page also contains unrelated clothing testimonials;those template entries provide no product evidence.
+
+| Required field | Partial finding / limitation |
+|---|---|
+| Expression / toe | No built-in treadle documented in the product description. Analog EXP/toe connectors and global volume assignment remain unverified;incomplete connector text doesnot establish absence. |
+| Controls | Manufacturer advertises **5 rotaries,3 footswitches**;separate button count,encoder presses andcomplete panel census unverified. |
+| Display | **2-inch color** main screen. Pixel resolution,touch andindividual footswitch displays unverified;HD supplies no numeric resolution. |
+| Dimensions / mass | **164×185×62mm;760g**,axes unspecified. Preferred≤200W×140D fit isnot established;both listed first axes exceed140mm. |
+| Processing / memory | **9 customizable blocks,up to8 models simultaneously,170+choices**;category names/counts,duplication andDSP limits unverified. **6 preset channels A–F**;initial factory filling/protection andadditional storage unverified. |
+| Synth / pitch / instrument simulation | Each unverified. AI text prompting,amp profiles andIRs do not establish synthesis,pitch algorithms oracoustic conversion. |
+| NAM / capture / IR | Shop explicitly says **NAM A2 conversion profiles** and **AMP Profile Modeling: NAM A2 Profile Conversion & Support**. Generic full-support wording doesnot certify native execution ofarbitrary.nam files. Conversion workflow,architectures,profile capacity andonboard capture unverified. User cabinet IR import advertised: **WAV,24-bit/44.1kHz,512points**;slot count andother source formats unresolved. |
+| Ports / audio | Mono¼-inch input **1MΩ**;two unbalanced mono¼-inch outputs **600Ω**;⅛-inch stereo headphones;dualUSB-C forpower/OTG andBluetooth input. Exact socket roles,USBchannels/driver,physicalMIDI,aux/loop/EXP inventory remain incomplete. **24-bit/44.1kHz** processing claim doesnot certify every USBstream format. |
+| Electrical-label caution | Shop lists input5.74dBu,output9.8dBu,andphones4.8Ω/4.8dBu without full testconditions. Product183 instead labels **+9.8dBu as Dynamic Range**. Do not treat that absolute level asa measured dynamic-range ratio,minimum headphone load oroutput-power specification. |
+| Power / speakers | Shop claims **7.4V/2600mAh**,about5h use/3h charge at**5V2A**;no measured draw,USB-only/charge-while-playing orbarrel polarity established. **10W stereo** speaker system,two2-inch full-range drivers anddualpassive radiators;per-channel power/testconditions unverified. |
+| Software | FLAMMA Manager **iOS/Android** Bluetooth editing/cloud;TONE GO **Windows/macOS** software claimed. Index lists desktop1.3.0 andAndroid1.6.6 separately;exactOS/architecture,firmware pairing,AIaccount/network requirements andoffline behavior unverified. |
+| Practice / navigation | **80s stereo looper,40 drum patterns,10 metronome types**,sync alignment,tuner andtap advertised. Retention/overdub/tails,globalvolume coverage andonboard sequential preset−/+ unverified. |
+| IDR / used / new | No qualified exact Shopee item found inTONE GO/Tonego searches. Seller,item,condition,stock,variant,bundle,voucher,region andIDR ask remain unknown;no foreign-price conversion orabsence claim. |
+
+The official index’s manual filename **FLAMMA TONE GO_Manual_EN_V01_2020.08.06.pdf** is recorded only as a filename,not a verified release date orread document. Next: recover/read the original manual,resolve complete connectors/globalanalog-volume scope,panel/preset details,NAM conversion andcategory inventory,andfind exact Indonesian hardware. Do not promote this lead into active comparisons before admission checks. No downloads,installation,account sign-in ordevice operation.

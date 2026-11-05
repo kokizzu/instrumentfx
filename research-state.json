@@ -25950,6 +25950,29 @@
         "status": "Complete named FAQ racks; current count basis/storage conflict and installed behavior unresolved",
         "next": "Resolve source arithmetic/storage, preset/user capacity, physical controls and imports; global analog volume and qualified offers remain open; preserve independent queues."
       }
+    },
+    {
+      "model": "Flamma TONE GO",
+      "checked_date": "2026-11-05",
+      "status": "partial exact-model discovery outside active counts",
+      "canonical_record": "brand/FLAMMA.md#tone-go--partial-no-treadle-discovery",
+      "active_inventory_changed": false,
+      "sources": [
+        "https://www.flamma.shop/en-au/products/flamma-tone-go",
+        "https://www.flammainnovation.com/single.html?id=183",
+        "https://flammainnovation.com/download.html"
+      ],
+      "revision": "Unstampedproductpages;manualfilenameV01_2020.08.06 notread oracceptedreleasedate",
+      "access": "Shop technicalbodyread;manufacturer183 indexedbody/directempty shell;irrelevantclothingtestimonials excluded",
+      "findings": [
+        "9blocks/up to8simultaneous/170+choices;6preset channels",
+        "2inch color,5rotaries/3footswitches;button/EXP/toecensus pending",
+        "NAM A2 conversion explicitlyclaimed;native arbitraryNAM notestablished",
+        "WAV24/44.1/512 IRimport;slotcapacityunknown",
+        "Headphones/dualUSB-C/Bluetooth,stereospeakers;globalvolumeunknown"
+      ],
+      "market": "TONE GO/Tonego exactShopeequeries noqualifieditem;no IDR/condition/stockclaim",
+      "next": "Readoriginalmanual;verifycompletepanel/connector/preset/categoryinventory,NAMconversion,globalanalogvolume,qualifiedShopee andsource-labelconflicts beforeadmission."
     }
   ],
   "inventory_by_brand": {
@@ -175225,5 +175248,17 @@
     "additional_index_records": 101,
     "active_inventory_unchanged": 402,
     "next": "Requested separate-footdisplay andShopee first;continue remaining required-field/market gaps. New FLAMMA TONE GO source surfaced inofficialindex;deduplicate ledger before researching/admitting. Preserve GT-Pro,GP-200JR→Prime→GE300 andexpression-volume queues."
+  },
+  "tone_go_discovery_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FLAMMA.md#tone-go--partial-no-treadle-discovery",
+    "active_inventory_unchanged": 402,
+    "status": "Partial manufacturer-backed multi-effects lead;notactive/owned;no qualifiedIndonesianoffer",
+    "source_conflicts": [
+      "Product183 +9.8dBu labeledDynamicRange versusshoplineoutputlevel",
+      "GenericNAMfullsupport versusexplicitA2conversion",
+      "Manualfilename2020dateunverified"
+    ],
+    "next": "Requestedseparatefootdisplay/Shopee remainspriority;readTONEGOmanualandcompleteconnector/globalvolume/NAMcategorychecks. Preserve GT-Pro,GP-200JR→Prime→GE300,expression-volume andhistoricalconsolidation queues."
   }
 }

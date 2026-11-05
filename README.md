@@ -130,3 +130,5 @@ Incoming expression-volume sources from origin/main87c7d38 are preserved in the 
 [Fractal Axe-Fx III Mark II Turbo](brand/FRACTAL-AUDIO.md#axe-fx-iii-mark-ii-turbo--partial-no-treadle-discovery) is a partial no-treadle rack discovery outside active counts; direct global volume documented with output/recall gaps, shared screen and external FC displays kept separate.
 
 [Sheeran Looper X](brand/SHEERAN-LOOPERS.md#looper-x--partial-discovery-lead) is a partial live-input/loop multi-effects lead outside active counts, with an exact cached Shopee offer and unresolved manufacturer rack-count discrepancy.
+
+[Flamma TONE GO](brand/FLAMMA.md#tone-go--partial-no-treadle-discovery) is a partial no-treadle, speaker-equipped guitar multi-effects lead outside active counts; NAM A2 conversion claims, incomplete expression inventory and unverified Indonesian availability remain qualified.
