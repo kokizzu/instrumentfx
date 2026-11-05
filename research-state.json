@@ -174516,5 +174516,70 @@
     "deferred_priority": "RequestedLCD/OLED sourcesyieldedknownoffers/repeatedretrievallimits;noresolvednewclaim. GP200JRqueriesrepeatknownsources;no copied-LTEQreconciliation.",
     "next": "Return to accessible individual-footdisplay gaps;preserve GT-Pro,expression-volume andGP200JR→Prime→GE300 queues;next systematic headphone lead FX10/FX11,not sibling-spec transfer.",
     "additional_creative_records": 96
+  },
+  "fx11_partial_discovery_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FLAMMA.md#fx11-bass--partial-headphone-multi-effects-discovery",
+    "status": "Partialoutsideactiveinventory",
+    "sources": [
+      "https://www.flamma.shop/products/flamma-fx11-bass-guitar-portable-modeling-headphone-amps",
+      "https://www.flamma.shop/pages/manual",
+      "https://cdn.shopifycdn.net/s/files/1/0260/4476/0127/files/FX11_Manual_EN_V01_2023.06.27-G.pdf?v=1692239869"
+    ],
+    "revision": "V01filename2023-06-27-G;17pages;firmwareunspecified;textnotvisual",
+    "categories": {
+      "AMP": [
+        "Clean",
+        "Slap",
+        "Jazz",
+        "Metal Rhythm",
+        "Solo Time",
+        "Dyna Wah",
+        "Fuzz"
+      ],
+      "EFX": [
+        "Flanger",
+        "Phaser",
+        "Echo",
+        "Room Reverb",
+        "Hall Reverb",
+        "AnaDly+PlateRev",
+        "Chorus+PlateRev"
+      ],
+      "TONE": [
+        "Darker",
+        "Dark",
+        "Flat",
+        "Bright",
+        "Brighter"
+      ]
+    },
+    "controls": {
+      "rotaries": 1,
+      "footswitches": 0,
+      "buttons": 6,
+      "basis": "Completemanualtextcensus;power/BTtoggleseparate"
+    },
+    "direct_analog_EXP": "Absentfromcompleteconnectorinventory;guitarscopeunverified",
+    "headphones": "Dedicated3.5mmTRS",
+    "body": "40W×82D×30Hmm;59g",
+    "conflicts": [
+      "Manualp5says14ampsversus7rowtable/spec/product",
+      "DrumprosenamesFX10;productindependently28grooves"
+    ],
+    "market": {
+      "shopee": "ExactFX11/FX-11/bass-headphonequeriesnoqualifiedhardware;notabsence",
+      "idr_new": null,
+      "idr_used": null
+    },
+    "remaining": [
+      "ExactShopeehardware andconditionstock",
+      "Visualpanel/displayconfirmation",
+      "FullDSP/presetfactory-useraccounting",
+      "Synth/pitch/acoustic/importarchitecture",
+      "USBformats/editorOS/currentfirmware"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Return to accessible requested footswitch-screen priorities;nextsystematicheadphone lead FX10. PreserveGT-Pro,expression-volume andGP200JR→Prime→GE300queues."
   }
 }

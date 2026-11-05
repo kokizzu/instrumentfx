@@ -2614,3 +2614,10 @@ research-stage-roland:
 	python3 scripts/research_audit_roland.py stage
 research-commit-roland:
 	python3 scripts/research_audit_roland.py commit
+
+.PHONY: brand-sort-plan-flamma brand-sort-apply-flamma
+brand-sort-plan-flamma:
+	python3 scripts/brand_sort.py plan brand/FLAMMA.md
+
+brand-sort-apply-flamma:
+	python3 scripts/brand_sort.py apply brand/FLAMMA.md

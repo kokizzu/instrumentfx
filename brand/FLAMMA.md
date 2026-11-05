@@ -17,6 +17,7 @@ The [official multi-effects collection](https://www.flamma.shop/collections/mult
 - [FV03 Character](#fv03-character)
 - [FV04 Harmony](#fv04-harmony)
 - [FV05 Recorder](#fv05-recorder)
+- [FX11 Bass — partial headphone multi-effects discovery](#fx11-bass--partial-headphone-multi-effects-discovery)
 - [FX20](#fx20)
 - [FX50](#fx50)
 - [FX100](#fx100)
@@ -384,6 +385,30 @@ PLAY LEVEL controls recorded playback (p09),andguitar reverb in hidden mode (p07
 | Condition unresolved:Rp6,790,000 |[Exact Shopee item1753862723/29944964032](https://shopee.co.id/FLAMMA-FV05-Recorder-Vocal-Guitar-Effects-Pedal-70-Minutes-Recording-Capacity-Noise-Gate-Reverb-i.1753862723.29944964032),link recovered from [Vocal Recorder category](https://shopee.co.id/list/Vocal/Recorder),checked2026-10-17,last-month body. Direct cache miss;seller name,region,condition,working state,stock,revision,variant,adapter/bundle,warranty,voucher,shipping/tax/final total unknown. Not live stock or completed sale. |
 
 A category search also showedRp4,502,768 for another FV05 title without an exact item link;not accepted as this item's price or a verified hardware offer. No downloads or dependency installation.
+
+## FX11 Bass — partial headphone multi-effects discovery
+
+Checked **2026-11-05**. Bass processor;**outside active inventory**,pending complete profile andqualified Shopee hardware. Ownership,guitar/vocal membership andcurrent firmware not inferred.
+
+Primary evidence: [maker product](https://www.flamma.shop/products/flamma-fx11-bass-guitar-portable-modeling-headphone-amps),[maker manual index](https://www.flamma.shop/pages/manual),andits linked [FX11 V01,filename2023-06-27-G,17-page original](https://cdn.shopifycdn.net/s/files/1/0260/4476/0127/files/FX11_Manual_EN_V01_2023.06.27-G.pdf?v=1692239869). Text inspected,not panel pixels;filename date isnot firmware introduction.
+
+| Required field | Exact-model evidence / qualification |
+|---|---|
+| Controls / expression | Text census **1 rotary/0 footswitches/6 buttons**:AMP,TONE,EFX,DRUM,−,+;separate three-way power/Bluetooth switch. No treadle/analogEXP socket incomplete inventory(pp3–4);toe unverified. |
+| Display | Color-coded LEDs;no screen specified. Diagonal/resolution/touch unverified;not an individual-foot-display match. |
+| Body | **40W×82D×30Hmm;59g;270° instrument connector**,p15. Body fits preferred rectangle;instrument-mounted clearance separate. |
+| Processing / named AMP choices | **7:** Clean,Slap,Jazz,Metal Rhythm,Solo Time,Dyna Wah,Fuzz(pp7–8). These are complete amp/cab/mic tone recipes,notseven independent cabinet blocks. |
+| Processing / named EFX choices | **7:** Flanger,Phaser,Echo,Room Reverb,Hall Reverb,AnaDly+PlateRev,Chorus+PlateRev(pp9–10). One selectedEFX;twochoices combine effects. FullDSP ceiling unverified. |
+| Tone / memory | FiveTONE settings:Darker,Dark,Flat,Bright,Brighter. AMP-associated saving retainsTONE,EFXtype/bypass/hiddenparameter(p6);protectedfactory/user split unknown. EFXhidden control has10levels,not extra algorithms. |
+| Synth / pitch / instrument simulation | No tracking-synth,pitch-shift oracoustic-simulator evidence established. Dyna Wah is a tone recipe;do not infer a synth engine fromits name. IR/NAM/capture loading unverified. |
+| I/O / volume | ¼-inch instrument connector,3.5mmTRS phones,USB-C;Bluetooth playback(pp4,13–14). Knob controls instrument/drums;Bluetooth/USB playback level comesfromsource. No documented direct analog EXP path;pedal assignment/range/recall/output coverage inapplicable tothat absent path. |
+| Power | **720mAh,up to4h;5V/1A charging,about2.5h**(pp1,15). USB-Ccharging;5VUSB-Aadapter instruction isadapter-end wording. Barrelpolarity unverified;noDCbarrel listed. Supplycapacity isnot measured consumption. |
+| USB / software | MobileOTG recording/playback;WindowsDAW requires third-partyASIO withcompatibility warning(pp13–14). Channels/rates/bitdepth,editor/import app andminimumOS unverified;FX20 app support not transferred. |
+| Practice / controls | **28grooves,40–260BPM**,pp6–7. Hand−/+ are contextcontrols,not footpreset down/up. Looper/scenes anddrum/pedal continuity unverified. |
+
+**Document conflicts:** p5says14amps,butfeatures/specification andseven-row AMPtable say7. Drum prose p6namesFX10 inside theFX11 document;productindependently confirms28grooves. Preserve these errors ratherthan claim14FX11amps orborrowFX10 specifications.
+
+**Shopee/IDR:** renewed exactFX11/FX-11/bass-headphone queries yieldednoqualified hardwareitem. Used/newIDR,seller/item,condition,stock,region,bundle,warranty,voucher andcheckout remainunknown;not proof ofmarketabsence. Maker’sUSD79 page containsbothSoldout/Addtocart;notconverted toIDR orlive-stock evidence. No download,installation,checkout ordevice operation.
 
 ## FX20
 
