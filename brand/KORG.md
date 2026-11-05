@@ -1154,7 +1154,7 @@ Checked **2026-11-05**; partial, **outside the 402 active records**. Ownership n
 | Processing / memory | 180 variations; seven simultaneous; 100 User + 100 Preset programs. Category counts reconciled below; initial User filling pending. |
 | Synth | G SYNTH1–3: chromatic guitar synth, single notes required. B SYNTH1–3: bass synth; chords become muddy. Three variants change resonance, not note polyphony. |
 | Dimensions / power | 118W×75D×20H mm;154g without batteries. Two AA alkalines, USB bus power or optional DC4.5V adapter. Claimed battery duration:7h backlight off/5h on. Current/polarity unresolved. |
-| Software / imports | USB audio/MIDI and editor documented; current OS/platform support, IR/NAM/capture import unknown. |
+| Software / imports | USB audio/MIDI; legacy Windows Editor1.02 and Mac Editor1.0 listed. [Current driver warning and scope below](#px5d--phrase-storage-and-legacy-software-boundaries). Current editor compatibility and IR/NAM/capture import unverified. |
 | IDR used / new | Neither established. Exact Shopee searches found no qualified item; not evidence of market absence. Seller/item,condition,stock,variant,bundle,region,warranty,voucher and delivered total remain unknown. |
 
 The footprint fits the preferred rectangle before cables, but **direct analog expression eligibility fails**. A MIDI/editor route is a different setup. Headphones are independently supported; onboard preset footswitch down/up is unavailable. Button selection and optional external switches are separate controls. Global pedal range/recall, bypass, tail and recorded-loop attenuation are not established. Named creative distinctions and category counts are supplemented below; complete expanded-name transcription, phrase-trainer/rhythm details and software versions remain open.
@@ -1184,6 +1184,20 @@ Checked **2026-11-05**, [same original E/F/G/J1 manual](https://cdn.korg.com/jp/
 - **External navigation:** FOOTSW **Ud** traverses User/Preset memory; **PG** cycles A–D favourites. Neither adds onboard footswitches or analog expression.
 
 Partial status, exact Shopee/IDR and remaining physical/software gaps stay open; active inventory unchanged. No local download or device operation.
+
+### PX5D — phrase storage and legacy software boundaries
+
+Checked **2026-11-05**. [Original E/F/G/J1 manual](https://cdn.korg.com/jp/support/download/files/15052c0ed1667834d5c3bb64a91d16c5.pdf), English pp25–27,29,31,36:
+
+- **Phrase Trainer:** mono recording/playback;20/40/80-second settings, with reduced quality at40/80. Slowing playback preserves pitch. Only **one phrase** can be saved; saving replaces it, and unsaved audio disappears at power-off. This is not a multi-track looper.
+- **Memory:** P00–P99 cannot be overwritten; factory reload fills User memory and resets retained settings. Present secondhand contents remain unverified.
+- **Source conflict:** p29 calls the guitar AMP range15 types, while the expanded table and p6 headline support18. Retain that inconsistency; the reconciled34 AMP entries include18 guitar,10 bass and6 synth variants.
+
+**Legacy editor versus current driver:** [Korg’s exact PX5D support index](https://www.korg.com/us/support/download/product/1/171/) lists Windows **Sound Editor1.02**, Mac **1.0**, separate Windows/Mac **Song Updater1.0**, and Windows **USB-ASIO1.0**, with US listing dates2015-06-01. These are listing dates, not proof of recent development. The [Windows editor page](https://www.korg.com/us/support/download/software/1/171/1410/) and [Mac editor page](https://www.korg.com/us/support/download/software/1/171/1411/) identify their separate packages; the Mac description confusingly says “PC Version.” The platform-labelled package establishes Mac distribution, not current-macOS compatibility.
+
+The [PX5D USB-MIDI driver page](https://www.korg.com/us/support/download/driver/1/171/3541/) lists **1.15r63e,2026-01-20**, but explicitly says **do not install it on Windows11 24H2 or later**. Its linked [manufacturer advisory,2026-03-12,addendumApr8](https://www.korg.com/us/news/2026/0312/) attributes the conflict to Windows MIDI Services and directs using the Windows service instead; it also warns against following older editor/updater prompts to install the driver. This supersedes the old manual’s driver-install requirement for that OS scope, not every historical host. It does not certify legacy editor, ASIO audio or all PX5D functions on current Windows. No software was downloaded, installed or removed.
+
+Remaining: complete expanded-name transcription, initial User slot-by-slot filling, current editor/ASIO compatibility, power polarity/current, display physical specifications and qualified exact Shopee hardware. Partial status and402 active count remain unchanged.
 
 ## PANDORA stomp
 

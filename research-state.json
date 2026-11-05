@@ -172203,5 +172203,28 @@
       "Qualified exact Shopee hardware"
     ],
     "next": "Continue requested separate-screen/Shopee research and unresolved no-treadle profiles;preserve GT-Pro,GP200JR→Prime→GE300 andconsolidation queues."
+  },
+  "px5d_phrase_software_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/KORG.md#px5d--phrase-storage-and-legacy-software-boundaries",
+    "sources": [
+      "https://cdn.korg.com/jp/support/download/files/15052c0ed1667834d5c3bb64a91d16c5.pdf",
+      "https://www.korg.com/us/support/download/product/1/171/",
+      "https://www.korg.com/us/support/download/software/1/171/1410/",
+      "https://www.korg.com/us/support/download/software/1/171/1411/",
+      "https://www.korg.com/us/support/download/driver/1/171/3541/",
+      "https://www.korg.com/us/news/2026/0312/"
+    ],
+    "revision": "Original E/F/G/J1 manual;current manufacturer software listings andMarch12/April8,2026 MIDI advisory",
+    "status": "Partial outside active inventory",
+    "active_inventory": 402,
+    "remaining": [
+      "Full expanded-name transcription",
+      "Initial User slot-by-slot filling",
+      "Current editor andASIO compatibility",
+      "Power polarity/current,display diagonal/color/touch",
+      "Qualified exact Shopee hardware"
+    ],
+    "next": "Return to priority separate-screen processors andfresh Shopee discovery;preserve independent GT-Pro,GP200JR→Prime→GE300,expression-volume andconsolidation queues."
   }
 }

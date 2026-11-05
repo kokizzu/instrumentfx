@@ -884,3 +884,5 @@ FM3 MKII Turbo [bank-loading and label options](brand/FRACTAL-AUDIO.md#fm3-mkii-
 [Exact-model manual record](brand/KORG.md#pandora-px5d--partial-no-treadle-discovery): normal guitar/bass input, shared stereo headphones, USB bus power and118W×75Dmm footprint. Complete connector inventory has **no analog EXP**; FOOT SW is for switches. No built-in treadle or onboard preset footswitch down/up. This fails the requested direct analog path; USB MIDI does not establish an equivalent setup. Partial discovery outside402; exact Shopee hardware/IDR and remaining profile fields are unresolved.
 
 PX5D [control/navigation follow-up](brand/KORG.md#px5d--category-reconciliation-and-creative-boundaries): external Ud memory stepping differs from PG favourites; neither provides direct analog expression. Partial status and active counts remain unchanged.
+
+PX5D [phrase/storage and software qualification](brand/KORG.md#px5d--phrase-storage-and-legacy-software-boundaries): the saved mono phrase and legacy editor are separate facilities; the current Windows MIDI-driver advisory does not create an analog EXP path.
