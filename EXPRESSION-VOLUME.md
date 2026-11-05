@@ -878,3 +878,7 @@ VG-800 [firmware1.50,July2026](brand/BOSS.md#vg-800--published-firmware-editor-a
 FM3 MKII Turbo [modifier recall qualification](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--modifier-recall-versus-global-volume): PC Reset loads a saved preset parameter until controller movement; modifier Min/Max and its0–10 example do not establish global-volume endpoints orheld-position recall. Avoid duplicate global Volume/External pedal assignments.
 
 FM3 MKII Turbo [bank-loading and label options](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--mini-label-destinations-and-bank-loading) distinguish bank selection from preset loading: None waits, First loads the first preset, Current retains the within-bank position. April2022 shared-guide behavior remains revision-qualified; these navigation options do not establish global expression-volume coverage.
+
+### Korg PANDORA PX5D — partial direct-expression exclusion
+
+[Exact-model manual record](brand/KORG.md#pandora-px5d--partial-no-treadle-discovery): normal guitar/bass input, shared stereo headphones, USB bus power and118W×75Dmm footprint. Complete connector inventory has **no analog EXP**; FOOT SW is for switches. No built-in treadle or onboard preset footswitch down/up. This fails the requested direct analog path; USB MIDI does not establish an equivalent setup. Partial discovery outside402; exact Shopee hardware/IDR and remaining profile fields are unresolved.

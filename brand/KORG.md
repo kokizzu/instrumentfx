@@ -18,6 +18,7 @@
 - [AX3000G](#ax3000g)
 - [PANDORA mini — partial no-treadle discovery](#pandora-mini--partial-no-treadle-discovery)
 - [PANDORA PX4D — partial discovery lead](#pandora-px4d--partial-discovery-lead)
+- [PANDORA PX5D — partial no-treadle discovery](#pandora-px5d--partial-no-treadle-discovery)
 - [PANDORA stomp](#pandora-stomp)
 <!-- brand-index ends -->
 
@@ -1141,6 +1142,24 @@ Checked **2026-11-04**, [manufacturer EFG1 manual,English pp14–19,24,28](https
 | Practice / reverb dependency | Rhythm/bass reverb shares the program reverb;its level control has no effect when that model is unused orits effect level iszero. |
 
 Defer remaining electrical,label/display andsoftware/import gaps until new exact evidence. Continue priority individual-switch-screen orfresh Shopee research;no hardware operated orfile downloaded.
+
+## PANDORA PX5D — partial no-treadle discovery
+
+Checked **2026-11-05**; partial, **outside the 402 active records**. Ownership not established. [Korg’s original E/F/G/J1 manual](https://cdn.korg.com/jp/support/download/files/15052c0ed1667834d5c3bb64a91d16c5.pdf), 220 PDF pages; English printed pp6–12,41–42,55. Exact PX5D title/panel identifies this model; firmware applicability is unstated. Not PX4D, mini or stomp.
+
+| Field | Verified evidence / remaining qualification |
+|---|---|
+| Expression / ports | No treadle or analog EXP in the complete inventory: instrument INPUT, stereo mini AUX, shared stereo line/headphone OUTPUT, FOOT SW, USB and DC4.5V. FOOT SW accepts two switches through the supplied cable; not an expression socket. |
+| Controls / display | Control dials, Value encoder and buttons; no onboard footswitches. Exact rotary/button census pending. Shared backlit LCD; diagonal, color and touch unknown. |
+| Processing / memory | 180 variations; seven simultaneous; 100 User + 100 Preset programs. Full category census and initial User filling pending. |
+| Synth | G SYNTH1–3: chromatic guitar synth, single notes required. B SYNTH1–3: bass synth; chords become muddy. Three variants change resonance, not note polyphony. |
+| Dimensions / power | 118W×75D×20H mm;154g without batteries. Two AA alkalines, USB bus power or optional DC4.5V adapter. Claimed battery duration:7h backlight off/5h on. Current/polarity unresolved. |
+| Software / imports | USB audio/MIDI and editor documented; current OS/platform support, IR/NAM/capture import unknown. |
+| IDR used / new | Neither established. Exact Shopee searches found no qualified item; not evidence of market absence. Seller/item,condition,stock,variant,bundle,region,warranty,voucher and delivered total remain unknown. |
+
+The footprint fits the preferred rectangle before cables, but **direct analog expression eligibility fails**. A MIDI/editor route is a different setup. Headphones are independently supported; onboard preset footswitch down/up is unavailable. Button selection and optional external switches are separate controls. Global pedal range/recall, bypass, tail and recorded-loop attenuation are not established. Acoustic simulation, named pitch/special inventory, per-category choices, phrase-trainer/rhythm details and software versions remain to be checked.
+
+No active membership or catalogue count changed. The original was read remotely; no local download, software installation or device operation.
 
 ## PANDORA stomp
 

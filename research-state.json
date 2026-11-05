@@ -172144,5 +172144,31 @@
     ],
     "deferred": "Separate-screen Shopee queries returned existing items;GT-Pro new page retrievals failed. Do not infer absence or clear those queues.",
     "next": "Continue requested separate-screen exact-model fields and qualified Shopee discovery;preserve GT-Pro,GP200JR→Prime→GE300,expression-volume andconsolidation queues."
+  },
+  "px5d_partial_discovery_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/KORG.md#pandora-px5d--partial-no-treadle-discovery",
+    "sources": [
+      "https://cdn.korg.com/jp/support/download/files/15052c0ed1667834d5c3bb64a91d16c5.pdf"
+    ],
+    "revision": "Korg E/F/G/J1 manufacturer original,220PDFpages,English printed6–12,41–42,55;firmware unspecified",
+    "status": "Partial discovery only;outside active inventory",
+    "active_inventory": 402,
+    "findings": [
+      "Normal guitar/bass input;compact118W×75Dmm",
+      "Complete connector inventory excludes analogEXP;FOOTSW is for two switches",
+      "Six synth variants retain guitar single-note andbass chord-muddiness qualifications",
+      "Shared headphones andUSB power separate from analogexpression eligibility"
+    ],
+    "market": "Exact Shopee PX5D/PX-5D queries returned no qualified hardware item;no price/absence inference.",
+    "remaining": [
+      "Exact rotary/button census",
+      "Full category andpitch/acoustic/special inventory",
+      "Initial User filling,phrase trainer andrhythm details",
+      "Current software platforms,power polarity/current,display diagonal/color/touch",
+      "Qualified exact Shopee hardware offers"
+    ],
+    "deferred": "Current TMP GuideH/ownerPDF again unsupported by reader;unofficial model guide andolder1.2 mirror not promoted tocurrent manufacturer evidence.",
+    "next": "Continue separate-screen/Shopee priorities andpartial no-treadle inventory;preserve GT-Pro,GP200JR→Prime→GE300,expression-volume andconsolidation queues."
   }
 }
