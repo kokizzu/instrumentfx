@@ -2627,3 +2627,9 @@ brand-sort-plan-headrush:
 	python3 scripts/brand_sort.py plan brand/HEADRUSH.md
 brand-sort-apply-headrush:
 	python3 scripts/brand_sort.py apply brand/HEADRUSH.md
+
+.PHONY: brand-sort-plan-sheeran brand-sort-apply-sheeran
+brand-sort-plan-sheeran:
+	python3 scripts/brand_sort.py plan brand/SHEERAN-LOOPERS.md
+brand-sort-apply-sheeran:
+	python3 scripts/brand_sort.py apply brand/SHEERAN-LOOPERS.md

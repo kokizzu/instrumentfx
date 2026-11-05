@@ -25906,6 +25906,31 @@
         "scope": "Historical repeated positions; not unique algorithms, concurrency or complete current firmware",
         "next": "Verify later rack full inventory, preset counts, current software/import support, expression coverage and qualified market offers before active admission; preserve independent queues."
       }
+    },
+    {
+      "model": "Sheeran Looper X",
+      "checked_date": "2026-11-05",
+      "status": "partial exact-model discovery outside active counts",
+      "canonical_record": "brand/SHEERAN-LOOPERS.md#looper-x--partial-discovery-lead",
+      "active_inventory_changed": false,
+      "sources": [
+        "https://www.sheeranloopers.com/looper-x.html",
+        "https://cdn.inmusicbrands.com/sheeran/looper-x/Sheeran%20Looper%20X%20-%20User%20Guide%20-%20v1.0.0.pdf",
+        "https://support.headrushfx.com/en/support/solutions/articles/69000852044-sheeran-looper-x-frequently-asked-questions",
+        "https://www.sheeranloopers.com/support-x.html",
+        "https://shopee.co.id/Sheeran-LOOPER-X-MULTI-TRACK-LOOPER-WORKSTATION-i.1177693291.25179898660"
+      ],
+      "revision": "Guide1.0.0;FAQ1.0;support lists1.0.2;product revision unstated",
+      "market": {
+        "seller": "chics musik official",
+        "shop": "1177693291",
+        "item": "25179898660",
+        "region": "Kota Jakarta Timur",
+        "ask_idr": 27500000,
+        "access": "Two-month search cache; stale August delivery; direct cache miss",
+        "condition_stock_variant_bundle_checkout": "unverified"
+      },
+      "next": "Complete fields and contradictions retained in canonical continuation before active admission. Preserve requested individual displays and independent queues."
     }
   ],
   "inventory_by_brand": {
@@ -149371,6 +149396,7 @@
     "brand/POLY-EFFECTS.md",
     "brand/POSITIVE-GRID.md",
     "brand/RJM-MUSIC.md",
+    "brand/SHEERAN-LOOPERS.md",
     "brand/SINGULAR-SOUND.md",
     "brand/STRYMON.md",
     "brand/WALRUS-AUDIO.md"
@@ -175054,5 +175080,11 @@
     "priority": "Requested individual-footdisplay sources first; repeated FM9/AXOM results yielded no new qualified hardware evidence",
     "next": "Verify later rack full inventory, preset counts, current software/import support, expression coverage and qualified market offers before active admission; preserve independent queues.",
     "latest": "brand/HEADRUSH.md#looperboard--complete-historical-rack-inventory-and-software-boundaries"
+  },
+  "sheeran_x_continuation_20261105": {
+    "canonical": "brand/SHEERAN-LOOPERS.md#looper-x--partial-discovery-lead",
+    "active_inventory_unchanged": 402,
+    "priority_deferral": "Stadium exact offers repeated; primary power rating unresolved. No AXOM qualified offer.",
+    "next": "Requested separate-footdisplay sources first; otherwise complete accessible Sheeran X gaps and systematic Shopee inventory; retain Mini/Nano, M-VAVE wiring, GT-Pro and GP-200JR → Prime → GE300."
   }
 }

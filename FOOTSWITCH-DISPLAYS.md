@@ -217,3 +217,5 @@ AXOM MAX [assignment removal and controller indicators](brand/MELOFTY.md#axom-ma
 Stadium XL [Aux return trade-off andUSB recording-source selection](brand/LINE6.md#stadium-xl--aux-return-trade-off-and-usb-recording-source-selection) qualify its I/O profile;they do not addphysical displays orprove global expression-volume coverage.
 
 Prime [doubled-block selection qualification](brand/HEADRUSH.md#prime--stereo-doubling-versus-four-option-switch-selection): the4.0.0 guide distinguishes stereo simultaneous operation from a switch-controlled four-option cycle across split-path alternatives. This changes control access,not the twelve physical OLEDs;exact per-option labels andcurrent5.2 equivalence remain unverified.
+
+[Sheeran Looper X](brand/SHEERAN-LOOPERS.md#looper-x--partial-discovery-lead) is a shared-screen partial discovery, outside active counts and the requested individual-screen shortlist. Status LEDs do not establish separate footswitch displays.

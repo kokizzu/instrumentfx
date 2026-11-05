@@ -906,3 +906,7 @@ VG-800 [volume-target and detector distinctions](brand/BOSS.md#vg-800--volume-ta
 ### HeadRush Looperboard — partial large-footprint candidate
 
 [Routing versus assignment](brand/HEADRUSH.md#looperboard--storage-limits-measured-display-specification-and-routing-scope): global routing and MIDI targets do not prove direct analog global volume. Partial outside active counts; existing canonical expression, headphone and footprint qualifications apply.
+
+### Sheeran Looper X — partial large-footprint candidate
+
+[Exact-model record](brand/SHEERAN-LOOPERS.md#looper-x--partial-discovery-lead): expression target/range documentation does not establish global master assignment or complete output coverage. Outside active counts; footprint, headphones and navigation qualifications are retained canonically.
