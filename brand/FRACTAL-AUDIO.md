@@ -2535,6 +2535,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | Categories / Crossover,Multiband andMultiplexer reference | [Frequency splitting,dynamics andsource selection](#fm9-turbo--crossover-multiband-and-multiplexer-scope);two FM9 instances each,CPU permitting. Generic source menus do not add physical inputs. |
 | Categories / November Synth reference | [Four Track modes including QUANTIZE](#fm9-turbo--november-synth-quantize-and-monophonic-scope);one FM9 Synth block,CPU permitting. Three oscillators remain monophonic;introduction firmware unverified. |
 | Categories / internal Send-Return andScene MIDI | [Two internal pairs;one Scene MIDI block](#fm9-turbo--internal-send-return-and-scene-midi-boundaries). Utilities do not add physical loops orindependent audio effects. |
+| Categories / November full block table | [37 available classes,84 summed allowances](#fm9-turbo--november-block-class-and-instance-reconciliation),including I/O/utilities;not simultaneous effect capacity orcompleted named-type coverage. |
 | Preset memory | **512 editable locations**,including overwritable factory entries; **eight scenes each**. [Manufacturer FM9-family default:384](#fm9-turbo--family-factory-default-and-backup-scope);exact pre-MKII Turbo shipping allocation andcurrent unit contents remain unverified. Not extra protected locations. [Shared manual p39](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**; [manual/envelope/pitch tracking modes](#fm9-turbo--synth-tracking-versus-manual-generation) are distinct. Voice count is not note polyphony. Acoustic input documented separately; electric-to-acoustic simulation remains unknown. [Own-applicable manual p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Audio I/O | Mono unbalanced¼-inch Input1; stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR and same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Manual p21](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
@@ -2756,6 +2757,55 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,99–10
 **Send/Return:** two numbered pairs;Return1 receives Send1,Return2 receives Send2. Both blocks are required. Send behaves as a shunt,with no parameters orbypass. Return has separate Return Level,Output Level,Balance andbypass controls. These internal routes can extend chains orcreate feedback;they add no physical effects-loop jacks orCPU capacity. Feedback can become unstable;the guide directs starting Return Level at0%.
 
 **Scene MIDI:** one FM9 block,manually placed onthe grid;up toeight PC/CC messages per scene via MIDI OUT. It processes no audio,has no channels andcannot be bypassed;individual scenes may transmit nothing. Message slots are not extra scenes oraudio algorithms. Installed equivalence andintroduction firmware remain unverified. No MIDI transmitted,local download ordevice operation.
+
+
+### FM9 Turbo — November block-class and instance reconciliation
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf);Original/Turbo companion applicability as qualified above.
+
+The exact **FM9 column has37 available classes and84 summed instance allowances**,including I/O andutilities;not84 simultaneous effects. CPU andgrid limits still apply. Source abbreviations retained for an auditable column transcription:
+
+| Block | FM9 instances |
+|---|---|
+| AMP | 2 |
+| CAB | 2 |
+| CHO | 2 |
+| CMP | 2 |
+| XVR | 2 |
+| DLY | 2 |
+| DRV | 3 |
+| ENH | 2 |
+| FIL | 4 |
+| FLG | 2 |
+| FRM | 2 |
+| GTE | 4 |
+| GEQ | 4 |
+| IN | 4 |
+| LPR | 1 |
+| MGT | 2 |
+| MIX | 4 |
+| MTD | 2 |
+| MBC | 2 |
+| MUX | 2 |
+| OUT | 3 |
+| PEQ | 4 |
+| PHA | 2 |
+| PIT | 1 |
+| PLX | 1 |
+| RES | 2 |
+| RTN | 2 |
+| REV | 2 |
+| RNG | 1 |
+| ROT | 2 |
+| MIDI | 1 |
+| SND | 2 |
+| SYN | 1 |
+| TTD | 2 |
+| TRM | 2 |
+| VOL | 4 |
+| WAH | 2 |
+
+Dynamic Distortion,IR Player,RTA,Tone Match andVocoder show0 forFM9;NAM Player is identified forAxe-Fx III only. This describes this reference,not a universal claim about allfuture firmware orimport workflows. Reverb79/Megatap22 named censuses andGEQ18-versus16 discrepancy remain unresolved. OlderJune2023 inventory remains historical. Installed equivalence andintroduction versions unverified. No local download ordevice operation.
 
 
 ## VP4
