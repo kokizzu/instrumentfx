@@ -1,4 +1,4 @@
-"""Validate and commit the reviewed Zoom expression audit locally."""
+"""Validate and commit reviewed research with inventory and preservation checks."""
 import sys
 import hashlib
 import json
@@ -6,6 +6,7 @@ from pathlib import Path
 sys.dont_write_bytecode = True
 from research_tools import git, verify
 import comparison_views
+import consolidation_tools
 
 if __name__ == '__main__':
     assert sys.argv[1:] in (['stage'], ['commit'], ['commit-505'], ['commit-606'], ['commit-607'])
@@ -17,6 +18,8 @@ if __name__ == '__main__':
     natural = lambda text: tuple((0, int(p)) if p.isdigit() else (1, p) for p in re.split(r"(\d+)", text.casefold()))
     assert headers == sorted(headers, key=natural), "Zoom model sections are not naturally sorted"
     verify()
+    # New findings must not rewrite registered historical bodies or comparison values.
+    consolidation_tools.verify_preserved(json.loads(Path("research-state.json").read_text()))
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
@@ -54,5 +57,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs(hotone): retain original Stage comparison wording'
+        message='build: require source preservation before research publication'
     print(git('commit','-m',message))
