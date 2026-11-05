@@ -147088,7 +147088,34 @@
     ],
     "finding": "Newrootpartiallead:manufacturer-confirmedmulti-effects,oneMASHswitch/display;74W122D50H;7A/Bboards;analogEXPsocketabsentfromcompleteinventory.",
     "limits": "LCDtechnologyandplacementnotconfirmed;qualifiedShopeeIndonesiaofferunfound;notfullyverifiedoractiveadmission;Neoseparate.",
-    "next": "FinishX1exactcurrenttypecensus,displayproof,powerandmass,concurrency,qualifiedShopeeoffersbeforeadmission. OtherLCDprioritiesandindependentBOSSGT-Procursorpreserved."
+    "next": "FinishX1exactcurrenttypecensus,displayproof,powerandmass,concurrency,qualifiedShopeeoffersbeforeadmission. OtherLCDprioritiesandindependentBOSSGT-Procursorpreserved.",
+    "visual_followup": {
+      "checked": "2026-11-06",
+      "manufacturer_page": "https://www.tcelectronic.com/en/products/0709-AJN",
+      "source": "https://cdn-media.empowertribe.com/443d2809bbb34308a7f80f183d4bf6ed/Image_TE_0709-AJN_PLETHORA-X1_Left_XL.png",
+      "bytes": 754295,
+      "sha256": "6e016fae0b3f4278be741ab38e6d451f1ef48a14a7364fb89b4124bc7f997a40",
+      "pixels": [
+        1988,
+        2000
+      ],
+      "finding": "Manufacturer left-angle image visually confirms fourrotaries,oneMASHswitch andtoggle;onefrontdisplay above solefootswitch withBrainwavesPitchShifter/pinkbar artwork. CONNECT/rearpanel notvisible.",
+      "limits": "Physicalplacement confirmed forwhite0709AJN;imagecannotcertify LCD/OLED,diagonal,touch,currentfirmware,screenresolution orcompletehiddencontrols",
+      "status": "Partialoutside402;regional1inchIPS LCD evidence retained,not silentlymanufacturer-certified",
+      "shopee": "ExactIndonesiaX1search noqualifiedresult;absenceisnotmarketabsence",
+      "next": "PrimaryLCD/OLED/diagonal certification,currenttypecensus andqualifiedIDR;rearCONNECT/USB/DCvisuallyunconfirmed. Preserve independentexpression,GTPro andGP200JR→Prime→GE300queues.",
+      "right_angle": {
+        "source": "https://cdn-media.empowertribe.com/5cbd51128c1b4a839038cecfdd8aa161/Image_TE_0709-AJN_PLETHORA-X1_Right_XL.png",
+        "bytes": 780151,
+        "sha256": "d4a7d5fbe7b347a7013b76ab9f0af21f6ee4ba97f4ccce324493648ed451122a",
+        "pixels": [
+          1988,
+          2000
+        ],
+        "finding": "Actual rightview visuallyinspected:fourrotaries,oneMASHswitch,toggle,frontdisplayaboveFS,twoINsockets MONO/STEREO;leftshowsmatchingtwoOUTsockets"
+      },
+      "canonical": "brand/TC-ELECTRONIC.md#plethora-x1--manufacturer-panel-layout-visually-confirmed"
+    }
   },
   "plethora_x1_firmware_regional_display_20261031": {
     "sources": [
@@ -176811,8 +176838,8 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Melofty/EN/MEL_AXOM_MAX_Manual_EN.pdf",
+    "requested_url": "https://cdn-media.empowertribe.com/5cbd51128c1b4a839038cecfdd8aa161/Image_TE_0709-AJN_PLETHORA-X1_Right_XL.png",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 4
+    "frame": 0
   }
 }

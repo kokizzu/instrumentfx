@@ -520,8 +520,8 @@ Checked **2026-10-31**. Exact **0709-AJN**, manufacturer-described multi-effects
 
 | Field | Partial exact-model evidence / boundary |
 |---|---|
-| Controls / expression | Three parameter knobs plus BOARD SELECTOR knob; one MASH footswitch, one CONNECT button and separate two-way toggle. No treadle in inventory. MASH pressure expression is not an analog external pedal. Visual corroboration pending. |
-| Display | Shows effect, bypass, parameter values, MASH/RAMP animation and BPM. Manufacturer says DISPLAY; LCD/OLED, diagonal, color, touch and placement remain unverified. |
+| Controls / expression | Three parameter knobs plus BOARD SELECTOR knob; one MASH footswitch, one CONNECT button and separate two-way toggle. No treadle in inventory. MASH pressure expression is not an analog external pedal. [Manufacturer left/right images](#plethora-x1--manufacturer-panel-layout-visually-confirmed) now visually corroborate four rotaries,one MASH switch andtoggle;CONNECT remains manual-backed,not visible inthose angles. |
+| Display | Shows effect, bypass, parameter values, MASH/RAMP animation and BPM. Manufacturer says DISPLAY; [exact white-X1 images](#plethora-x1--manufacturer-panel-layout-visually-confirmed) confirm one front display above the sole footswitch. LCD/OLED,diagonal andtouch remain primary-unverified;the artwork depicts colored content,not a panel measurement. |
 | Body / footprint | **74 W ×122 D ×50 H mm**, from labelled H×W×D 50×74×122 mm; fits the 200 W ×140 D preference. Regional 0.34 kg evidence appears below; [2026-11-04 manufacturer-table recheck](#plethora-x1--primary-mass-and-latency-specification) now independently corroborates it. |
 | I/O | Two quarter-inch TS inputs, **1 MΩ**; two quarter-inch TS outputs, USB-C, DC. Ordinary guitar uses MONO input. No EXP, headphone or DIN MIDI socket in published inventory; USB audio/MIDI unknown. |
 | Power | **9 V DC centre-negative, ≥250 mA supply**, 5.5/2.1 mm; adapter not included. Not measured draw; USB/battery operation unresolved. |
@@ -622,6 +622,14 @@ Checked **2026-11-04** via the [current exact0709-AJN manufacturer page](https:/
 | Dimensions / mass corroboration | Exact original X1 manufacturer table: **50H×74W×122Dmm;0.34kg**. This closes direct manufacturer mass corroboration for the white0709-AJN record, previously regional-only. No sibling specification needed; earlier regional provenance retained. |
 | Processing / published latency | Manufacturer gives **0.8–2.3ms**, qualified by **look-ahead dynamics enabled**. Measurement method, algorithm-by-algorithm values, bypass/host roundtrip latency and actual device performance remain unverified; do not generalize one fixed latency to all modes. |
 | USB / intended connector roles | Table identifies USB-C for **firmware updates and TonePrints**. It does not certify USB audio/MIDI or bus-powered operation. Primary LCD technology/size/placement and qualified Shopee Indonesia hardware remain unresolved; this partial lead stays outside active counts. |
+
+### PLETHORA X1 — manufacturer panel layout visually confirmed
+
+Checked **2026-11-06**, exact white **0709-AJN** [manufacturer product page](https://www.tcelectronic.com/en/products/0709-AJN) and its original [left-angle](https://cdn-media.empowertribe.com/443d2809bbb34308a7f80f183d4bf6ed/Image_TE_0709-AJN_PLETHORA-X1_Left_XL.png) / [right-angle](https://cdn-media.empowertribe.com/5cbd51128c1b4a839038cecfdd8aa161/Image_TE_0709-AJN_PLETHORA-X1_Right_XL.png) images. Both1988×2000 sources were retrieved under the bounded visual-source workflow andactually inspected. Left754295bytes,SHA-256 `6e016fae0b3f4278be741ab38e6d451f1ef48a14a7364fb89b4124bc7f997a40`;right780151bytes,SHA-256 `d4a7d5fbe7b347a7013b76ab9f0af21f6ee4ba97f4ccce324493648ed451122a`.
+
+**One front display is directly above the sole MASH footswitch.** Both views show four rotaries andone separate toggle. Left shows two OUT sockets;right shows two IN sockets,each pair labelled MONO/STEREO. CONNECT,USB andDC are not exposed inthese angles;their existing manual-backed inventory isretained,not claimed visually confirmed. The display artwork says **BRAINWAVES PITCH SHIFTER** witha pink bar;this establishes depicted content,not LCD/OLED technology,screen resolution,diagonal,touch capability orcurrent installed firmware. Regional1-inch IPS LCD evidence remains separately attributed;no Neo specification istransferred.
+
+This resolves earlier physical-placement uncertainty only. Exact Shopee Indonesia X1 search returned no qualified hardware result;that doesnot prove market absence. Partial lead stays outside402 active records;full-profile,library-count andmarket gaps remain. No device operation,dependency installation orfirmware change.
 
 ## PLETHORA X3
 
