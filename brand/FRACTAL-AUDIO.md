@@ -2530,6 +2530,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | Categories / Megatap andMixer reference | [Tap-texture andgrid-row boundaries](#fm9-turbo--megatap-texture-and-mixer-row-boundaries);two Megatap/four Mixer blocks,CPU permitting. Advertised22 Megatap types remain unnamed here. |
 | Categories / Formant,Ring Mod andRotary reference | [Vowel,modulation andspeaker distinctions](#fm9-turbo--formant-ring-mod-and-rotary-distinctions);FM9 block limits2/1/2,CPU permitting. Ring Mod note polyphony remains unverified. |
 | Categories / Reverb andGraphic EQ reference | [Nine Reverb families;GEQ count discrepancy](#fm9-turbo--reverb-families-and-graphic-eq-count-conflict). Advertised79/18 types are not completed named censuses;FM9 block limits2/4,CPU permitting. |
+| Categories / Resonator andParametric EQ reference | [Comb-filter modes andband-specific EQ](#fm9-turbo--resonator-modes-and-parametric-eq-bands);FM9 block limits2/4,CPU permitting. Resonator chords do not establish chord tracking. |
 | Preset memory | **512 editable locations**,including overwritable factory entries; **eight scenes each**. [Manufacturer FM9-family default:384](#fm9-turbo--family-factory-default-and-backup-scope);exact pre-MKII Turbo shipping allocation andcurrent unit contents remain unverified. Not extra protected locations. [Shared manual p39](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**; [manual/envelope/pitch tracking modes](#fm9-turbo--synth-tracking-versus-manual-generation) are distinct. Voice count is not note polyphony. Acoustic input documented separately; electric-to-acoustic simulation remains unknown. [Own-applicable manual p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Audio I/O | Mono unbalanced¼-inch Input1; stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR and same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Manual p21](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
@@ -2704,6 +2705,15 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,53,93�
 **Reverb:** two FM9 blocks,CPU permitting. Nine naming families: **Chamber,Cloud,Echo,Hall,Huge,Plate,Room,SFX,Spring**;not a79-name census. Pre-Delay Mix100% permits echoes without reverb. HOLD closes input;STACK accepts more audio while sustaining tails. Plate lacks early-reflection controls andPitch Position;Spring lacks modulation/pitch controls. These controls do not establish persistent loop storage ortracking-synth polyphony.
 
 **Graphic EQ:** four FM9 blocks,CPU permitting. Detailed prose describes **16 variants versus18 advertised**:10/8/7/5-band×Constant/VariableQ=8;passive5-band Mark/5/4/3-band=4;3-band Console,4-Band JMPre-1,7 Band Pedal,7 Band Bass Pedal=4. Two types remain unidentified. Bands permit±12dB;outer bands shelf. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
+
+
+### FM9 Turbo — Resonator modes and Parametric EQ bands
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,71,92](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf);Original/Turbo applicability as qualified above.
+
+**Resonator:** two FM9 blocks,CPU permitting;four parallel resonant comb filters each. MANUAL sets100–10,000Hz;CHORDAL uses nine chord qualities with50–5,000Hz root. MONO sums input toall four;STEREO sends left to1/2,right to3/4. Generated chords do not establish input-note tracking polyphony.
+
+**Parametric EQ:** four FM9 blocks,CPU permitting;five bands. Outer bands allow Shelving,Shelving2,Peaking,Peaking2,Blocking;bands2/4 omit Blocking;band3 permits only Peaking/Peaking2. Frequency ranges:band1=20–2,000Hz,bands2–4=100–10,000Hz,band5=200–20,000Hz. Q0.1–10,gain±20dB;outer Blocking replaces gain with6–36dB/octave slope. These are band controls,not separate effect algorithms. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
 
 
 ## VP4

@@ -170204,5 +170204,23 @@
       "Global expression endpoints,recall androute coverage"
     ],
     "next": "Continue display-priority profiles;preserve independent general,expression andconsolidation queues"
+  },
+  "fm9_turbo_resonator_peq_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--resonator-modes-and-parametric-eq-bands",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,71,92",
+    "fm9_instances": {
+      "resonator": 2,
+      "parametric_eq": 4
+    },
+    "qualification": "CPU-limited reference;installed equivalence andintroduction versions unverified.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Drive,Reverb,Megatap named censuses;GEQ missing two types;remaining category inventories",
+      "Exact pre-MKII Turbo Shopee hardware",
+      "Global expression endpoints,recall androute coverage"
+    ],
+    "next": "Continue display-priority profiles;preserve independent general,expression andconsolidation queues"
   }
 }
