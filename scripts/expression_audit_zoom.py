@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): document original FM3 delay and flanger limits'
+        message='research(fractal): name original FM3 filter and wah choices'
     print(git('commit','-m',message))

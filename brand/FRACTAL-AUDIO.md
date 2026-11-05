@@ -1005,6 +1005,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Exceeds preferred200W×140D footprint. [Standard-covered7.x specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Processing / simultaneous limits | **12×4 grid**,DSP-limited. June2023 exactFM3 inventory:36 available classes,63 summed instance allowances including routing/control;not63 simultaneous effects. Historical1.x CPU limit approximately80%,overload mutes processing. Current13.0 equivalence untested. [Inventory](#fm3-original--dated-block-inventory-and-looper);[CPU](#fm3-original--initial-memory-dsp-and-current-support). |
 | Categories / November reference | [November2026 FM3 column](#fm3-original--november-reference-category-and-instance-comparison): 36 supported rows,63 summed allowances including utilities, **not63 simultaneous effects**. Delay shared29 becomes27 after two explicit FM3 exclusions. Reference counts are not installed certification or completed named censuses. |
+| Processing / named filter and wah | [20 Filter and nine Wah choices](#fm3-original--named-filter-wah-and-envelope-distinctions), November2026 reference; four Filter/two Wah instances, CPU permitting. Touch-Wah follows level; Auto-Wah uses an LFO; Ladder self-oscillation is not note-tracking synthesis. Installed equivalence untested. |
 | Processing / named delay and flanger | [27 Delay/31 Flanger names](#fm3-original--named-delay-flanger-and-held-repeat-boundaries), November2026 reference; two instances each, CPU permitting. FM3 Delay maximum8s; Diffused Delay/Zephyr excluded. HOLD closes input, STACK keeps it open; not separate looper memory or tested retention. |
 | Processing / named chorus and compressor | [27 Chorus and 19 Compressor choices](#fm3-original--named-chorus-and-compressor-reference), November2026 reference; two instances each, CPU permitting. Chorus voice count is not synth polyphony; compressor Look-Ahead 0–2ms delays wet and dry. Original-model installed equivalence remains untested. |
 | Processing / named pitch | [16 named reference types](#fm3-original--november-named-pitch-and-note-handling); Chromatic NOTES/CHORDS, monophonic Diatonic, polyphonic Virtual Capo ±24semitones; one CPU-limited Pitch block. November2026 reference, not installed verification. |
@@ -1247,6 +1248,18 @@ Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,31–32,48
 | Flanger:31 | Analog Mono; Analog Stereo; BBF-2; Binary Flange; Cancel Flange; Count of Flanging; Cuda Flange; D/AD 185; Deluxe Mystery; Digital Mono; Digital Stereo; Electric Mystery; FAS Flanger; Harmonoflange; Hemisflange; Lofty Flange; Manual Thru-Zero Flanger; Melodic Flange; MXF-117; Pop Flanger; Scion Stereo Flange; Spirit Flange; Starship Flanger; Step Flanger; Stereo Jet; Thru-Zero; Trippy Flanger; Tubular; Vowel Flanger; Zero Flanger; 80’s Rack Flanger |
 
 **Diffused Delay and Zephyr are unavailable on FM3**. Delay maximum is **8seconds**, not Axe-Fx III/FM9’s16. Two instances per category remain CPU-limited. Repeat HOLD closes input; STACK leaves input open. Their feedback100% sustains repeats; lower values fade them. This is held delay audio, not separate looper memory or proven preset/power retention. Other inventories and hardware gaps remain open. No download or device operation.
+
+
+### FM3 original — named filter, wah and envelope distinctions
+
+Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,45–46,110](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf); [Original support](https://www.fractalaudio.com/fm3-downloads/). Family reference, not an introduction date or installed-firmware test.
+
+| Category | Named choices |
+|---|---|
+| Filter:20 | All-Pass; Auto-Wah; Band-Pass; Envelope Filter; Feedback Comb; Feedforward Comb; High-Pass; High-Shelf; High-Shelf 2; Ladder Filter; Low-Pass; Low-Shelf; Low-Shelf 2; Notch; Null; Peaking; Peaking 2; Tilt EQ; Touch-Ladder; Touch-Wah |
+| Wah:9 | FAS Wah; Clyde; Cry Babe; VX846; Color-Tone; Funk Wah; Mortal; VX845; Paragon |
+
+FM3 ceilings are **four Filter and two Wah instances**, CPU permitting. Envelope Filter responds to note attacks; Touch-Wah follows input level through decay. Auto-Wah instead uses an LFO. Ladder Filter offers low-pass/band-pass and12/24dB-per-octave modes; high resonance can self-oscillate. Touch-Ladder substitutes envelope control. These are filtering behaviors, not proof of tracked synth-note polyphony. Null retains gain/phase/pan controls without changing frequency response. Other inventories and hardware gaps remain open. No download or device operation.
 
 
 ## FM9 MKII Turbo

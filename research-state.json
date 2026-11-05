@@ -168904,5 +168904,32 @@
     ],
     "next": "Continue accessible display-priority gaps; preserve expression and GP-200JR → Prime → original GE300 queues.",
     "inventory_change": 0
+  },
+  "fm3_original_named_filter_wah_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Fractal Audio FM3 original",
+    "source": {
+      "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "November 2026",
+      "pages": "3,45–46,110"
+    },
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--named-filter-wah-and-envelope-distinctions",
+    "counts": {
+      "filter": 20,
+      "wah": 9,
+      "filter_instances": 4,
+      "wah_instances": 2
+    },
+    "finding": "Named inventories and envelope versus LFO versus Ladder/self-oscillation roles; not note-tracking or polyphony evidence.",
+    "qualification": "CPU-limited family reference; original-model installed equivalence and introduction versions unverified.",
+    "remaining": [
+      "Other named original FM3 category inventories",
+      "Original headphone hardware variants",
+      "Physical display details",
+      "Global-volume endpoints, recall and coverage",
+      "Qualified current Indonesian stock"
+    ],
+    "next": "Continue accessible requested display-model gaps and remaining original FM3 named categories; preserve expression and GP-200JR → Prime → original GE300 queues.",
+    "inventory_change": 0
   }
 }
