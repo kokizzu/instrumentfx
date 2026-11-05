@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify exact MS-60B Plus Shopee offers'
+        message='research(zoom): distinguish MS-60B Plus synth and chord pitch'
     print(git('commit','-m',message))

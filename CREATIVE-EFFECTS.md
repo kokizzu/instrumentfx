@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **70 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **71 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -77,6 +77,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [Zoom B1Xon](brand/ZOOM.md#b1xon) | Ba Synth; StdSyn; SynTlk; V-Syn; 4VoiceSyn; Z-Syn | Own pedal/effect list, not B1on assumptions | Z-Organ; Defret | Ba Synth/4VoiceSyn single notes; exact firmware qualifications retained |
 | [Zoom G6](brand/ZOOM.md#g6) | Dedicated synth unverified | Pitch/SFX processing does not establish synth | Aco.Sim | DRIVE-category acoustic simulator recorded |
 | [Zoom B6](brand/ZOOM.md#b6) | BaStdSyn;BaSynTlk;Z-Syn;chord tracking unverified | BaPlShift chords−24…+12;BaMnPitch single-note;PitchSHFT/HPS | Defret;acoustic conversion unverified | [LoopRoll/Bomber and algorithm limits](brand/ZOOM.md#b6--chord-pitch-versus-synth-tracking);dated2021 sheet;not full fresh audit |
+| [Zoom MS-60B Plus](brand/ZOOM.md#ms-60b-plus) | Bass Synthesizer; Z-Synthesizer; Bass Talk Synthesizer; note polyphony unverified | Polyphonic Octaver/Pitch Shifter support chords; Bass Mono Pitch Shifter single-note; Harmony separate | Fretless Simulator; acoustic conversion unverified | [Exact Plus effects list](brand/ZOOM.md#ms-60b--chord-pitch-versus-synth-note-handling): Sequence Filter, Loop Roll, Bomber, Phaser+Distortion; six-slot/DSP ceiling; bass membership retained |
 | [Korg PANDORA stomp](brand/KORG.md#pandora-stomp) | SYNTH, single-note input | Intelligent harmony, single-note input | AC SIM | Oscillator settings are variants, not simultaneous voices |
 | [Korg AX3000G](brand/KORG.md#ax3000g) | Synth square/saw/sine | Octave single-note only | Acoustic body/top simulation | Synth chord tracking not established by waveform count |
 | [GFI System Synesthesia](brand/GFI-SYSTEM.md#synesthesia) | Dedicated synth unverified | Octave/arpeggiator processing | Acoustic simulation unverified | Two algorithms; sequenced/filter processing distinguished from synthesis |
