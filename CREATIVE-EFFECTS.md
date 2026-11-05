@@ -166,6 +166,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Zoom G1u partial lead](brand/ZOOM.md#g1u--named-effect-inventory-and-creative-boundaries) remains **outside active counts andthe additional-record index**. Its original-manual67-choice census includes ACO.SIM,pitch/harmony andRingMod/Step/Slow Attack. Mono Pitch is explicitly single-note;other pitch chord handling anddedicated synth capability remain unverified.
 
+[Zoom GFX-1 partial pitch follow-up](brand/ZOOM.md#gfx-1--pitch-patterns-filter-distinctions-and-audio-ratings) remains **outside active counts and the additional-record index**. Its manual names nine fixed pitch patterns,0…−2-octave Pedal Pitch Down and0…+1-octave Pedal Pitch Up. STEP is random filtering;Harpsichord Guitar is a preset name. Neither establishes dedicated synthesis ornote polyphony.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

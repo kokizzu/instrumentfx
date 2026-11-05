@@ -5568,6 +5568,28 @@ Checked **2026-11-04** in the same [manufacturer manual](https://zoomcorp.com/me
 
 The manual’s **34types/8modules/9effects** headline remains separate. Its counting method is not established by this63-form census. Patch Level,Contour andTime are parameters,not added effect modules. Complete live-control coverage,global endpoints,recall andqualified Indonesian hardware remain unresolved. Partial lead stays outside active comparisons;no ownership inferred. No download or device operation.
 
+### GFX-1 — pitch patterns, filter distinctions and audio ratings
+
+Checked **2026-11-05**, exact [manufacturer operation manual](https://zoomcorp.com/media/documents/E_GFX1.pdf),footer **GFX-1 - 5000-1**,printed32–37,39. No firmware version stated;not device-tested.
+
+| Pitch choice | Documented interval / mix |
+|---|---|
+| P1 | −1 octave plus dry |
+| P2 /P3 | Perfect fifth down plus dry;P3 adds chorus |
+| P4 /P5 | Perfect fourth up plus dry;P5 adds chorus |
+| P6 | +1 octave plus dry |
+| P7 | Slight detune plus dry |
+| P8 | Perfect fourth up and down plus dry |
+| P9 | Octave up and down plus dry |
+| PEDAL PITCH DOWN |0 to−2 octaves;dry mix not specified |
+| PEDAL PITCH UP |0 to+1 octave,mixed with dry |
+
+These patterns share MOD/PITCH;they are not additional blocks orverified chord tracking. SLOW ATTACK→PITCH SHIFT fixes pitch at+1octave. **STEP** randomly changes filtering;**CRY1/2** give talking-like processing. Neither establishes a tracking synth. FactoryA2 **Harpsichord Guitar** is a preset name,not proof ofan instrument engine. Delay/Echo time is **10–370ms in10ms steps**;Reverb Time1–10 hasno seconds mapping here.
+
+**Audio ratings,p37:** mono standard-phone input,**−20dBm nominal/470kΩ**;shared stereo standard-phone line/headphone output,**+3dBm maximum/10kΩ-or-higher load**. Retain manufacturer units/reference **0dBm=0.775Vrms**. The load figure is not established as a headphone-load recommendation orpower rating. Sampling **31.25kHz**;20-bit A/D64× andD/A8× oversampling. No USB/editor,NAM,global-volume endpoint orlatency conclusion follows.
+
+Exact Indonesian hardware,headphone power,external toe wiring,global assignment/recall andcomplete bypass/tail coverage remain unverified. Partial lead stays outside active inventory;no files downloaded locally ordevice operated.
+
 ## GFX-3
 
 Guitar multi-effects;distinct from GFX-5/G3. Checked2026-10-17;partial. Manufacturer discontinued. Bass/vocal suitability and ownership unverified.

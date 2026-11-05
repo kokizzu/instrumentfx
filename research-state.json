@@ -169660,5 +169660,48 @@
       "Remaining display/electrical verification"
     ],
     "next": "Continue remaining individual-foot-display profiles and fresh exact Shopee discovery; preserve general GP-200JR → Prime → original GE300 and expression/consolidation queues"
+  },
+  "gfx1_pitch_electrical_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#gfx-1--pitch-patterns-filter-distinctions-and-audio-ratings",
+    "source": "https://zoomcorp.com/media/documents/E_GFX1.pdf",
+    "revision": "GFX-1 - 5000-1,printed32–37,39",
+    "pitch_patterns": {
+      "P1": "-1octave+dry",
+      "P2": "perfect fifth down+dry",
+      "P3": "P2+chorus",
+      "P4": "perfect fourth up+dry",
+      "P5": "P4+chorus",
+      "P6": "+1octave+dry",
+      "P7": "slight detune+dry",
+      "P8": "perfect fourth up/down+dry",
+      "P9": "octave up/down+dry",
+      "pedal_down": "0to-2octaves,drymixunspecified",
+      "pedal_up": "0to+1octave+dry"
+    },
+    "distinctions": [
+      "Pitch patterns share MOD/PITCH;input polyphony unverified",
+      "STEP random filter;CRY1/2 talking processing;Harpsichord Guitar factorypreset not engine evidence",
+      "Delay/Echo10–370ms in10ms steps;Reverb Time1–10 not seconds"
+    ],
+    "electrical": {
+      "input": "standard mono phone,-20dBm nominal,470kohm",
+      "output": "standard stereo phone line/headphones,+3dBm maximum,10kohm-or-higher load;not certified headphone recommendation",
+      "reference": "manufacturer0dBm=0.775Vrms",
+      "sampling": "31.25kHz",
+      "conversion": "20bit ADC64x/DAC8x oversampling"
+    },
+    "status": "Partial outside active inventory/additional creative-record index",
+    "active_inventory_unchanged": 402,
+    "market": "Fresh exactShopee Indonesia search didnot establish hardware;prior Thai offer not transferred.",
+    "remaining": [
+      "Qualified Indonesian condition/stock/bundle/warranty offer",
+      "Headphone power/load",
+      "Toe wiring",
+      "Global volume override/endpoints/recall",
+      "Bypass/tail coverage",
+      "Editor/import support"
+    ],
+    "next": "Continue priority footswitch-display gaps and fresh Shopee discovery;retain deferred GT-Pro USB-mode counts/globalFV and GP-200JR → Prime → originalGE300 queues"
   }
 }
