@@ -169216,5 +169216,28 @@
     ],
     "next": "Continue unresolved individual-display models and market discovery; preserve general cycle and expression queues",
     "inventory_change": 0
+  },
+  "fm3_original_display_action_scope_20261105": {
+    "model": "Fractal Audio FM3 original",
+    "checked": "2026-11-05",
+    "source": {
+      "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf",
+      "revision": "v1.3 April2022",
+      "pages": "9–10"
+    },
+    "status": "historical function documentation; no device test",
+    "findings": [
+      "Long Name +Channel may hide suffix; short format recommended",
+      "Reveal Hold momentary/latching/Sticky modes distinguish label display from action access",
+      "Level & Save utilities persist entire preset including unrelated unsaved edits; not temporary trim"
+    ],
+    "remaining": [
+      "Current firmware behavior",
+      "Physical display specifications",
+      "Exact-revision qualified Indonesian stock",
+      "Complete unresolved category-name inventories"
+    ],
+    "next": "Move to other requested individual-display models and remaining catalogue evidence; preserve independent general and expression queues",
+    "inventory_change": 0
   }
 }

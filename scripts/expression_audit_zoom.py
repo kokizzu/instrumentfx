@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): document original FM3 mini-display label formats'
+        message='research(fractal): qualify FM3 display actions and whole-preset save scope'
     print(git('commit','-m',message))
