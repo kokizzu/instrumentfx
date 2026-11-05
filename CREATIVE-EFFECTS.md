@@ -194,7 +194,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Original Zoom G2](brand/ZOOM.md#original-g2--creative-pitch-restrictions-and-synth-preset-distinction) remains a **partial lead outside active counts and the additional-record index**. Mono Pitch Shifter is single-note; general Pitch Shifter and Harmonized Pitch Shifter chord handling remain unverified. Acoustic is documented electric-to-acoustic processing; the SynthDaze preset name does not establish a synth engine. MOD/SFX choices are alternatives within one module.
 
-[Hologram Chroma Console](brand/HOLOGRAM.md#creative-processing-and-bypass-routing-qualifications) remains a **partial lead outside active counts and the additional-record index**. HOWL is resonant-filter fuzz; PITCH shifts ±1 octave; REVERSE changes playback pitch/speed; COLLAGE supplies granular/glitch delay. Dedicated synthesis, input-note polyphony and acoustic simulation remain unverified. Four module positions do not make every named effect simultaneous.
+[Hologram Chroma Console](brand/HOLOGRAM.md#creative-processing-and-bypass-routing-qualifications) remains a **partial lead outside active counts and the additional-record index**. HOWL is resonant-filter fuzz; PITCH shifts ±1 octave; REVERSE changes playback pitch/speed; COLLAGE supplies granular/glitch delay. Dedicated synthesis, input-note polyphony and acoustic simulation remain unverified. Four module positions do not make every named effect simultaneous. [Presets save Gesture automation, not Capture audio](brand/HOLOGRAM.md#capture-audio-versus-saved-gesture-automation).
 
 ## What remains uncertain
 

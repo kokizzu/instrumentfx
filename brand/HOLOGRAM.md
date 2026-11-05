@@ -24,7 +24,7 @@ Checked **2026-11-01**. Genuine multi-effects processor; **partial lead outside 
 | Synth / acoustic / captures | HOWL is described as producing synth-like sounds [P]; this does not establish a dedicated synthesizer. Acoustic simulation, user IR, native/converted NAM and amp-capture support unverified. CAPTURE below is a phrase function, not amp profiling. |
 | Audio / data inventory | Two quarter-inch inputs, two quarter-inch outputs, EXP, DIN MIDI IN/OUT, USB-C MIDI,9VDC. No dedicated phones socket listed; shared phones mode unknown. USB audio/editor support unverified [M,pp43–45]. |
 | Power | **9VDC,center-negative,2.1mm,at least500mA supply**; not measured draw. Battery/USB-powered operation unverified [M,p44]. |
-| Practice / stage | **CAPTURE up to30s**, pre/post routing; GESTURE records knob movement; Tap Tempo; true/buffered bypass and trails; selected-module bypass saved per preset [P]. Numeric tempo range, drums/scenes and loop retention still unverified. |
+| Practice / stage | **CAPTURE up to30s**, pre/post routing; GESTURE records knob movement; Tap Tempo; true/buffered bypass and trails; selected-module bypass saved per preset [P]. Numeric tempo range, drums/scenes and preset-change loop continuity still unverified; Capture audio is not saved in presets (see below). |
 | Preset down / up | Browser: left/right footswitch moves one slot backward/forward; hold either to load. Audition behavior is global [M,pp34–36]. Separate from ordinary bypass/tap operation. |
 | Software / firmware | Manufacturer lists **v1.04,May5,2025**, browser MIDI updater [F]. Desktop/mobile full-editor platforms unverified. No updater opened or device connected. |
 | Shopee Indonesia / IDR | Exact-title searches returned no qualified hardware item. Seller/item ID, new/used IDR, condition, stock, bundle, warranty, region, voucher and delivered total remain unknown; search failure is not market absence. US shop price not converted. |
@@ -47,6 +47,10 @@ Checked **2026-11-05**. The current manufacturer product page [P] identifies HOW
 The original manufacturer-authored **firmware1.04,50-page manual**, readable on an [Equipboard mirror](https://images.equipboard.com/uploads/item/manual/114096/hologram-electronics-chroma-console-manual.pdf), matches the previously recorded cover revision and section structure. Printed pp41,44 distinguish buffered bypass (with or without trails) from relay true bypass: **automatic mono-to-stereo/stereo-to-mono routing does not apply while true-bypassed**; each output connects to its corresponding input. Buffered trails preserve DIFFUSION decay without accepting new audio. This does not establish expression-volume attenuation of tails or loops.
 
 Printed p44 specifies **maximum input +8dBu;24-bit/48kHz conversion;1MΩ input;output impedance <1kΩ**. These ratings do not establish USB audio, a headphone amplifier or measured latency. No current-device or installed-firmware test was performed. Existing expression, physical-display, dimension-axis, mass and Indonesia-offer gaps remain open.
+
+### Capture audio versus saved Gesture automation
+
+Checked **2026-11-05** in the [manufacturer-authored firmware1.04 manual,printed pp24–26,31](https://images.equipboard.com/uploads/item/manual/114096/hologram-electronics-chroma-console-manual.pdf). Presets retain Gesture recordings and Capture routing, **not Capture audio**. Holding TAP records; release starts playback. Recording again replaces the previous phrase; one TAP stops/deletes it. Short phrases receive overlapping fades. Gesture repeats primary-knob movements and can follow tap/MIDI-clock speed changes. These are different recording functions; preset-change continuity and power-cycle audio retention remain unverified.
 
 ### Sources and next checks
 
