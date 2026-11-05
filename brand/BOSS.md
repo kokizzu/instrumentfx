@@ -751,6 +751,20 @@ FX Chain permits reordering. **Foot Volume cannot be turned off**; it has heel/t
 | IDR verified used | Unknown;no exact condition-qualified Shopee hardware offer established. |
 | IDR verified new | Unknown;no exact condition-qualified Shopee hardware offer established. |
 | IDR market qualification | Seller/item,condition,working state,firmware,adapter/bundle,stock,warranty region,shipping/tax,voucher andcheckout total remain unknown. Search non-results do not establish absence. |
+
+### GS-10 — global Patch Level, external switches and legacy software
+
+Checked **2026-11-06**. [Manufacturer original manual reproduction](https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual),03342912,03-8-1N,©2003 BOSS,printedpp54,58–59;original body only.
+
+| Field | Exact-model finding / limit |
+|---|---|
+| Expression / alternative global level target | SYSTEM **EXP PDL Func→Patch Level** is documented alongside Foot Volume. The chapter explicitly defines these fixed roles as global rather than per-patch Assign1–8. **Patch Level parameter0–200** differs from Foot Volume0–100; neither parameter range independently proves the fixed pedal sweep endpoints,range precedence orrecall. Headphone,USB,bypass andtail coverage remain unverified. |
+| Live / external patch navigation | Global CTL functions include **Patch Up/Down**,separate from Direct Patch Up/Down. One switch uses CTL1;two use **PCS-31:white→CTL1,red→CTL2**. Manual specifies momentary switches such asFS-5U. These are external controls,not onboard footswitches orproof an arbitrary splitter permits simultaneous EXP+CTL. |
+| Editor / historical Windows scope | [Exact Windows editor page](https://www.boss.info/global/support/by_product/gs-10/updates_drivers/56a4a002-4344-43fc-8032-b07a12291f2e/) explicitly names **Windows98SE,ME,2000Professional,XP**. The [manufacturer index](https://www.boss.info/global/support/by_product/gs-10/updates_drivers/) separately lists USB drivers **1.0.0 forWindows7 x86/x64 andVista32-bit**;newer driver targets do not certify editor compatibility. |
+| Editor / historical Mac scope | Same index names editor **MacOS8.6+ / OSX10.2+**,separate from drivers **1.0 forOSX10.6**,**2.21 for10.5 andearlier**,andOS9. Historical open-ended minimum wording is not current macOS/Apple Silicon support. No modern host test orpackage inspection. |
+
+GS-10 remains an **active partial record**;older lead-stage outside-count wording is historical. Exact Shopee hardware remains unqualified. No download,driver change,reset,pedal connection orMIDI operation.
+
 <!-- comparison evidence ends -->
 
 ### GS-10 — partial lead

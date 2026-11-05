@@ -141391,7 +141391,31 @@
       "qualification": "No exact item established; not market absence"
     },
     "next": "Full model-specific profile; exact Shopee hardware; volume coverage/range/recall; do not transfer GT-Pro specs.",
-    "downloads": false
+    "downloads": false,
+    "global_role_software_followup": {
+      "checked_date": "2026-11-06",
+      "canonical": "brand/BOSS.md#gs-10--global-patch-level-external-switches-and-legacy-software",
+      "sources": [
+        "https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual",
+        "https://www.boss.info/global/support/by_product/gs-10/updates_drivers/",
+        "https://www.boss.info/global/support/by_product/gs-10/updates_drivers/56a4a002-4344-43fc-8032-b07a12291f2e/"
+      ],
+      "revision": "Original03342912,03-8-1N©2003 pp54,58–59;current support index listings are legacy packages",
+      "global_role": "SYSTEM EXP PDL Func→Patch Level as alternative toFoot Volume;0–200 parameter range is not certified physical-pedal endpoints",
+      "external_switches": "PatchUp/Down vsDirectPatchUp/Down;momentary;PCS31 whiteCTL1/redCTL2;no onboard footswitches orproven EXP+CTL coexistence",
+      "editor": "Win98SE/ME/2000Pro/XP;MacOS8.6+/OSX10.2+ historical",
+      "drivers": "Win7x86/x64,Vista32 1.0.0;MacOSX10.6 1.0/10.5earlier2.21/OS9;not editor ormodernhost guarantee",
+      "category_status": "EXPRESSION-VOLUME now reflects existing active admission;historical lead evidence retained",
+      "market": "No qualified exact Shopee item recovered",
+      "remaining": [
+        "Fixed global volume endpoints andrecall precedence",
+        "Headphone/USB/bypass/tail coverage",
+        "Modern editor/driver compatibility",
+        "Remaining subtype census andqualified Shopee hardware"
+      ],
+      "next": "Continue unresolved no-treadle fields anddisplay-priority profiles;preserve GT-Pro andGP200JR→Prime→GE300 queues",
+      "active_inventory_unchanged": 402
+    }
   },
   "gs10_hardware_memory_20261028": {
     "checked": "2026-10-28",

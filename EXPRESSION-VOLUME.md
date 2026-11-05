@@ -582,7 +582,7 @@ Nano Cortex [historical support-report qualification](brand/NEURAL-DSP.md#nano-c
 
 Manufacturer-filed [Chocolate Plus model-name declaration](brand/M-VAVE.md#chocolate-plus--manufacturer-filed-model-name-equivalence-limited-to-the-filing) relates CHOCOLATE PLUS/chocolate/ChocⅡ within its January2025 filing only. It does not identify every older or offered controller, and supplies no verified analog pinout or processor-volume scope.
 
-[BOSS GS-10 partial lead](brand/BOSS.md#gs-10--partial-lead): own manual explicitly supports a global Foot Volume role;329×231mm exceeds preferred size. Range/recall and output coverage remain unverified. Outside active model counts pending full profile and exact Shopee evidence.
+[BOSS GS-10 active partial profile](brand/BOSS.md#gs-10): own manual explicitly supports global Foot Volume and [separate Patch Level roles](brand/BOSS.md#gs-10--global-patch-level-external-switches-and-legacy-software);329×231mm exceeds preferred size. Fixed pedal range/recall and output coverage remain unverified. The older outside-count lead status was superseded by active admission; exact Shopee hardware remains unqualified.
 
 GS-10 [Assign Hold and tuner qualifications](brand/BOSS.md#gs-10--assign-hold-recall-and-tuner-bypass-boundary): ordinary Assign recall is target-dependent; fixed global Foot Volume recall and output coverage remain unverified. Tuner bypass does not inherit GT-Pro’s separately documented volume behavior.
 
