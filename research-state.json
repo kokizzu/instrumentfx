@@ -169022,5 +169022,36 @@
     ],
     "next": "Continue remaining original FM3 inventories and accessible display-model gaps; preserve expression and GP-200JR → Prime → original GE300 queues.",
     "inventory_change": 0
+  },
+  "fm3_original_megatap_reverb_limits_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Fractal Audio FM3 original",
+    "source": {
+      "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "November 2026",
+      "pages": "3,57–58,93–95"
+    },
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--megatap-limits-and-reverb-pitch-exclusion",
+    "limits": {
+      "megatap_delay_seconds": 4,
+      "fm3_megatap_taps": 64,
+      "megatap_predelay_max_seconds": 1,
+      "instances_each": 1,
+      "reverb_integrated_pitch": "Unavailable on FM3 in this guide"
+    },
+    "census_status": "Megatap22/Reverb79 are table headlines; chapters do not enumerate every name. Nine reverb groups are not nine algorithms.",
+    "qualification": "CPU-limited family reference, installed equivalence untested; Reverb pitch exclusion does not remove separate Pitch/Plex blocks.",
+    "remaining": [
+      "Drive named inventory",
+      "Megatap/Reverb complete names from a primary list",
+      "Graphic EQ count/names reconciliation",
+      "Volume mode exact UI label",
+      "Original headphone hardware variants",
+      "Physical display details",
+      "Global-volume endpoints, recall and coverage",
+      "Qualified current Indonesian stock"
+    ],
+    "next": "Continue accessible original FM3 Drive inventory and other display-model gaps; retain unresolved name-list questions without certifying them complete, and preserve expression/general queues.",
+    "inventory_change": 0
   }
 }

@@ -1005,6 +1005,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Exceeds preferred200W×140D footprint. [Standard-covered7.x specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Processing / simultaneous limits | **12×4 grid**,DSP-limited. June2023 exactFM3 inventory:36 available classes,63 summed instance allowances including routing/control;not63 simultaneous effects. Historical1.x CPU limit approximately80%,overload mutes processing. Current13.0 equivalence untested. [Inventory](#fm3-original--dated-block-inventory-and-looper);[CPU](#fm3-original--initial-memory-dsp-and-current-support). |
 | Categories / November reference | [November2026 FM3 column](#fm3-original--november-reference-category-and-instance-comparison): 36 supported rows,63 summed allowances including utilities, **not63 simultaneous effects**. Delay shared29 becomes27 after two explicit FM3 exclusions. Reference counts are not installed certification or completed named censuses. |
+| Processing / Megatap and Reverb limits | [November reference](#fm3-original--megatap-limits-and-reverb-pitch-exclusion): Megatap4s/64 FM3 taps; Reverb integrated pitch unavailable on FM3. One instance each, CPU permitting. Headline22 Megatap/79 Reverb choices are not completed named inventories; sustained tails do not establish phrase-loop retention. |
 | Processing / named Multi-Delay choices | [39 types](#fm3-original--named-multi-delay-types-and-internal-processing): six core plus33 variants, one FM3 block, CPU permitting. Quad Parallel/Series include ring/comb processing; Quad Tape lacks the separate chorus subsection. Internal processing is not additional block capacity or synth-polyphony proof. November2026 reference; installed equivalence untested. |
 | Processing / named Plex choices | [45 Plex types](#fm3-original--named-plex-types-and-sustained-tail-processing): five core plus40 variants, one FM3 block, CPU permitting. Detune±50cents; Shift±24semitones. Internal voices and held tails do not establish tracking-synth polyphony or separate looper storage. November2026 reference, installed equivalence untested. |
 | Processing / further category inventories | [Phaser19, Tremolo/Panner7, Ten-Tap2, Gate4, Enhancer3; Volume/Pan2 described modes](#fm3-original--remaining-modulation-dynamics-and-utility-types). Two instances each except Ten-Tap one, CPU permitting. Auto-Swell is envelope processing, not global pedal assignment; Volume mode UI label and installed equivalence remain unverified. |
@@ -1303,6 +1304,18 @@ Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,62–68](h
 | Variants:33 | 1210; A.H. Clean Long; A.H. Clean Short; A.H. Lead Long; A.H. Lead Short; A.H. Swell Long; A.H. Swell Short; Aerosol; Ambient Quad Tape; Ambient Tape Delay; Aurora Delay; Camera Obscura; Centaurus X-3; Circular Delays; Comb Filter Delay; Dub Echo; Filtered Mod Band Delay; Kilimanjaro; L-C-R-C; Matterhorn; MD Chorus; Mono Diffuser; PCM Circular; PCM Pan; Pealing Bells; Quad Chorus; Rhythmic Bands; Shadows Taps; Space Tape; Stereo Shadows; Strange Things; Swing Ping; Ya-Ya Delay |
 
 FM3 allows **one Multi-Delay block**, CPU permitting. Quad Parallel and Quad Series include ring modulation and comb filtering; Quad Parallel also includes diffusion/bandpass processing. **Quad Tape excludes the separate chorus subsection**. Internal taps/processors are not separate blocks or proof of synth-note polyphony. VP4-specific variants/renames are not transferred. Other inventories and hardware gaps remain open. No download or device operation.
+
+
+### FM3 original — Megatap limits and Reverb pitch exclusion
+
+Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,57–58,93–95](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf); [Original support](https://www.fractalaudio.com/fm3-downloads/). Family reference; installed equivalence untested.
+
+| Block | Exact FM3 boundary |
+|---|---|
+| Megatap | **Four-second line,1–64 taps on FM3**, plus up to1s predelay. The last tap defines Delay Time; Feedback Tap selects the feedback point. One instance, CPU permitting. Table headline22; chapter says20+ settings without listing their names. |
+| Reverb | **Integrated pitch shifting unavailable on FM3** because of CPU limits; some types consequently differ. One instance, CPU permitting. Headline79 is not a completed named census. Nine groups: Chamber,Cloud,Echo,Hall,Huge,Plate,Room,SFX,Spring; groups are not individual algorithms. |
+
+Reverb HOLD closes input while sustaining the tail; STACK admits new audio. This does not establish phrase-loop memory or preset/power retention. Reverb’s exclusion doesnot remove the separate Pitch or Plex processing. Other categories and hardware gaps remain open. No download or device operation.
 
 
 ## FM9 MKII Turbo

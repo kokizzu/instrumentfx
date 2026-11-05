@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): name original FM3 Multi-Delay choices'
+        message='research(fractal): qualify original FM3 Megatap and reverb limits'
     print(git('commit','-m',message))
