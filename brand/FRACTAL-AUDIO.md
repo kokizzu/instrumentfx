@@ -407,6 +407,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Categories / Formant, Resonator and Ring Mod | [November source distinctions](#fm3-mkii-turbo--formant-resonator-and-ring-mod-source-details): vowel morphing, tuned comb-filter chords and Classic/SSB modulation are separate capabilities. FM3 ceilings two/two/one, CPU permitting; neither stereo nor generated harmonies establish polyphonic Synth tracking. |
 | Categories / named Plex Delay | [45 reference choices](#fm3-mkii-turbo--named-plex-delay-source-details), one FM3 block, CPU permitting. Detune/shift and sustained-tail processing are distinct from tracking synthesis; installed equivalence unverified. |
 | Categories / named Multi-Delay | [39 reference choices](#fm3-mkii-turbo--named-multi-delay-source-details), one FM3 block, CPU permitting; type-specific filtering/modulation is distinct from tracking synthesis. Installed equivalence unverified. |
+| Processing / Reverb quality and wet path | [November guide controls](#fm3-mkii-turbo--reverb-quality-and-wet-path-controls): quality versus CPU,wet-only EQ andinput-triggered wet ducking. These are controls within the existing Reverb block,not extra algorithms or global expression volume;FM3 pitch exclusion retained. |
 | Categories / Reverb and rhythmic processing | [November source limits](#fm3-mkii-turbo--reverb-exclusions-and-rhythmic-processing-source-details): Reverb79/one block excludes integrated pitch shifting on FM3; seven Tremolo choices/two blocks and two Ten-Tap choices/one block, CPU permitting. Tail holds and rhythmic delays are distinct from tracking synthesis or saved loops. |
 | Categories / Gate, Enhancer and Graphic EQ | [November census qualifications](#fm3-mkii-turbo--gate-enhancer-and-graphic-eq-source-details): four Gate and three Enhancer choices; Graphic EQ headlines18 but chapter explains16 configurations. Two FM3 instances each, CPU permitting; widening/swells differ from synthesis. |
 | Categories / Drive and lo-fi processing | [87 shared-reference choices](#fm3-mkii-turbo--drive-inventory-and-lo-fi-source-details), **two FM3 instances**, CPU permitting. Bit/sample reduction is distinct from synthesis; Shimmer Drive is a boost. Historical counts and installed-version uncertainty retained. |
@@ -994,6 +995,16 @@ Modifier **Min/Max** restrict the assigned parameter range. The volume example u
 With modifier **PC Reset ON**,a preset loads the parameter value saved in that preset,overriding the external controller until it moves or updates. This documents per-preset modifier recall,not held-position recall for the separate global Input/Output Volume assignments. Do not apply that rule to every controller path.
 
 The global-volume setup separately warns against assigning the same pedal to both Volume and an External Controller. Such a duplicate mapping can control preset parameters as well as global volume; calibration doesnot remove those assignments. Global volume remains documented without individual preset editing;its endpoints and analog-position recall remain unresolved. Existing Shopee offers remain dated/unconfirmed;no new qualified offer found. No downloads ordevice operation.
+
+### FM3 MKII Turbo — reverb quality and wet-path controls
+
+Checked **2026-11-05**, [manufacturer Blocks Guide,November2026,printedpp3,94–96](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). FM3 has one Reverb instance,CPU permitting. Shared controls below are reference descriptions,not an installed firmware13 orMKII menu test.
+
+- **Quality:** ECONOMY,NORMAL,HIGH,ULTRA-HIGH balance processing complexity against CPU use. These are not four additional reverb algorithms;the passage does not specify FM3’s default orbenchmark CPU percentages.
+- **EQ:** its page shapes reverb without changing dry sound. Low/High Cut offer6/12dB-per-octave slopes andresonance Q;separate low/high-mid bands shape the wet spectrum.
+- **Ducker:** input above Threshold reduces wet volume by Attenuation;Release controls recovery. Zero Attenuation disables ducking. This is automatic wet-path behavior,not a continuous pedal target orall-output mute.
+
+Retain the FM3-specific exclusion ofintegrated Reverb pitch shifting andthe Plate/Spring parameter exceptions already recorded. No complete79-name census,held-position recall orpreset/power-cycle tail persistence follows. Display specifications andqualified exact-revision Shopee stock remain open;no local download ordevice operation.
 
 ## FM3 original
 

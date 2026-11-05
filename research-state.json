@@ -169909,5 +169909,22 @@
       "Qualifiedcurrenthardwarecondition/stock"
     ],
     "next": "Continue requested individual-footdisplay priorities andsystematic exactShopee profiles;preserve general/GT-Pro/expression/consolidationqueues"
+  },
+  "fm3_reverb_quality_wetpath_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--reverb-quality-and-wet-path-controls",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,94–96;shared-reference scope,installedfirmware13 untested",
+    "finding": "Reverb quality/CPU controls,wet-only EQ andthreshold ducking distinguished fromalgorithms/globalexpression;FM3 pitch exclusion preserved",
+    "inventory_unchanged": 402,
+    "remaining": [
+      "79 exactReverb names",
+      "GraphicEQ18-versus16 reconciliation",
+      "Currentfirmware equivalence",
+      "MiniLCDphysical specifications",
+      "QualifiedexactrevisionShopee stock",
+      "GlobalEXP endpoints/recall/coverage"
+    ],
+    "next": "Continue substantive individual-display profile gaps andfresh exactShopee discovery;preserve allindependentqueues"
   }
 }
