@@ -170049,5 +170049,23 @@
     "active_inventory_unchanged": 402,
     "additional_creative_records_unchanged": 69,
     "next": "Continue remaining priority-profile categories andfresh exactShopee hardware;preserve independent general/expression/GT-Pro queues"
+  },
+  "fm9_turbo_delay_compressor_census_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--named-delay-and-compressor-reference",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,27–29,31–32;Original/Turbo companion-guide applicability",
+    "named_delay_choices": 29,
+    "named_compressor_choices": 19,
+    "qualification": "Reference inventories andspecific hold/look-ahead boundaries,not installed-firmware certification.",
+    "market": "Targeted Shopee search still returned MKII item11170212/25331147281;not a pre-MKII Turbo quote.",
+    "remaining": [
+      "Remaining category censuses",
+      "Installed firmware equivalence and introduction versions",
+      "Exact pre-MKII Turbo Shopee condition/stock",
+      "Global EXP endpoints/coverage"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue remaining requested separate-screen profile categories;preserve independent general/expression/GT-Pro queues"
   }
 }
