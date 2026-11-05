@@ -1319,6 +1319,16 @@ Checked 2026-10-17; partial. Guitar/acoustic-electric multi-effects; bass/vocal 
 
 Checked2026-10-18. [Hope Music storefront](https://shopee.co.id/hopemusik),four-month searchcache,showed a combined GT100/GT3/GT5 hardware title at **Rp2.398.000**. Selectedmodel,exactitem,condition,stock andbundle unresolved;not accepted asGT-3 used/newprice. Reopened last-month storefront omits thislisting. The existing shop168736454/item52302189094 directroute remains inaccessible;Rp1.900.000 categoryask remains historical/unverified. Clothing,adapter,LCDparts andcase hits excluded. This limitedpass doesnot prove marketabsence;no livecheckout orsale verified.
 
+### GT-3 — combined Harmonist modes and creative-index scope
+
+Checked 2026-11-05 against [manufacturer manual indexed printed pp46–47][GT3-M] (80 PDF pages). Full open returned no readable lines; exact indexed passages supplied this focused check. Installed firmware and tracking performance untested.
+
+| Field | Finding / qualification |
+|---|---|
+| Pitch / combined HR modes | HR includes Fast, Medium, Slow, Mono and Harmony. Fast/Medium/Slow accept chords; slower response reduces modulation. Mono and scale-based Harmony require single notes. Fixed pitch spans ±24 semitones. This is not proof of chordal scale harmony. |
+| Synth / qualified inventory | Guitar Synth selects Square, Saw, Brass or Bow; Hold, Chromatic and octave shift apply only to Square/Saw. Input-note polyphony remains unverified in this focused check. Four waveform choices are not four input notes. |
+| Processing / creative alternatives | Humanizer, Ring Modulator, Slicer, Auto Riff and Guitar Synth share MOD selection. Acoustic Guitar Simulator and Pickup Simulator share SFX; AC Guitar preamp is separate. Existing exact-model qualifications remain. |
+
 <!-- comparison evidence ends -->
 
 Bundle, adapter, working state, authenticity, warranty, shipping, tax and vouchers unverified. Historical ask is not live stock or a completed sale. No sibling specifications adopted, file download or visual inspection claimed.

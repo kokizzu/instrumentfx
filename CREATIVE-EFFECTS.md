@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **85 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **86 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -131,6 +131,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [BOSS ME-50](brand/BOSS.md#me-50) | SQUARE distortion + RESONANCE recipe; dedicated tracking engine unverified | Single-note Harmonist and pedal octave bends; detuning | ACOUSTIC; HOLLOW; pickup transformations | [Original-manual limits](brand/BOSS.md#me-50--creative-index-and-algorithm-specific-tracking-limits); VOICE and single-note RING MOD; shared pedal assignment |
 | [BOSS GT-8](brand/BOSS.md#gt-8) | Wave Synth; single-note Guitar Synth with generated/direct-processed modes | Chord-capable normal Pitch Shifter ±24; mono harmony/bend | Guitar Simulator acoustic choices; Acoustic Processor; sitar/defret | [Algorithm-specific limits](brand/BOSS.md#gt-8--creative-algorithms-and-chord-input-boundaries); Slicer/Auto Riff/Sound Hold; FX-slot competition |
 | [BOSS GT-6](brand/BOSS.md#gt-6) | Single-note Guitar Synth; Square/Saw Hold separate from Brass/Bow | Chord-capable normal Pitch Shifter ±24; mono mode/harmony restrictions | Acoustic Guitar Simulator; Pickup Simulator; Defretter | [Own manual check](brand/BOSS.md#gt-6--creative-index-and-shared-slot-limits); Slicer/Humanizer/Ring Mod/Auto Riff; FX-2 competition; no inherited Sound Hold |
+| [BOSS GT-3](brand/BOSS.md#gt-3) | Guitar Synth Square/Saw/Brass/Bow; note polyphony unverified | HR fixed-shift modes accept chords; Mono/Harmony single-note | Acoustic Guitar Simulator; Pickup Simulator; separate AC Guitar preamp | [Combined HR mode check](brand/BOSS.md#gt-3--combined-harmonist-modes-and-creative-index-scope); Humanizer/Ring Mod/Slicer/Auto Riff; shared MOD/SFX limits |
 
 ## Separately recorded partial leads
 
