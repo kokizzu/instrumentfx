@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(sonicake): enumerate Smart Box drive delay and reverb'
+        message='research(sonicake): complete original Smart Box menu census'
     print(git('commit','-m',message))

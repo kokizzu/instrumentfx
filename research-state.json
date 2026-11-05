@@ -83453,9 +83453,9 @@
       "canonical": "brand/SONICAKE.md#smart-box--named-fx-inventory-and-creative-capabilities",
       "count": 30,
       "revision": "V1.0.1 printed15–19",
-      "remaining": "AMP/IR fullnamedtranscription and130+ counting;currentfirmware/globalEXP coverage",
+      "remaining": "Currentfirmware/130+ counting,NAM restrictions,globalEXP scope,displaytouch andqualified offers",
       "inventory_unchanged": 402,
-      "next": "LCD/Shopeepriority;finishSmartBox AMP/IR census before choosing next systematic profile;preserve independentqueues",
+      "next": "ReturntoLCD/Shopeepriority andnext systematic no-treadle profile;SmartBox originalnamedcensus complete,otherfields partial;preserve independentqueues",
       "additional_named_groups": {
         "checked": "2026-11-06",
         "canonical": "brand/SONICAKE.md#smart-box--drive-eq-delay-and-reverb-inventory",
@@ -83467,6 +83467,24 @@
           "RVB": 10
         },
         "qualification": "BypassTrail distinctfrompresetspillover"
+      },
+      "complete_original_census": {
+        "checked": "2026-11-06",
+        "canonical": "brand/SONICAKE.md#smart-box--ampir-inventory-and-counting-boundary",
+        "revision": "V1.0.1 printed15–29",
+        "counts": {
+          "NR": 1,
+          "sharedFX": 30,
+          "DRV": 7,
+          "AMP": 38,
+          "stockIR": 16,
+          "EQ": 3,
+          "DLY": 18,
+          "RVB": 10
+        },
+        "stock_entries": 123,
+        "user_ir_slots": 5,
+        "scope": "Completeoriginalnamedtables;marketing130+ andcurrentequivalence unresolved"
       }
     }
   },

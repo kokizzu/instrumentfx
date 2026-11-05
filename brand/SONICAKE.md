@@ -740,7 +740,7 @@ Checked2026-10-28 against the [manufacturer product page][RS-P]. Ordinary electr
 |---|---|
 | Expression / controls | No built-in expression; **EXP/FS input**. **1/2/13**,rear power separate. |
 | Screen / dimensions | **1.77-inch color LCD**,pixel resolution/touch unverified. **135 W ×114 D ×51 H mm;378 g**,compact. |
-| Processing | **Nine simultaneous modules** NR,FX1,DRV,AMP,IR,EQ,FX2,DLY,RVB. [V1.0.1 named groups](#smart-box--drive-eq-delay-and-reverb-inventory):DRV7,EQ3,DLY18,RVB10;sharedFX30 separately. Marketing130+ counting unresolved;AMP/IR transcription pending. |
+| Processing | **Nine simultaneous modules** NR,FX1,DRV,AMP,IR,EQ,FX2,DLY,RVB. [Complete V1.0.1 menu census](#smart-box--ampir-inventory-and-counting-boundary):NR1,sharedFX30,DRV7,AMP38,stockIR16,EQ3,DLY18,RVB10=123;five userIR slots separate. Marketing130+ counting unresolved. |
 | Memory / sound | **100 locations,50 factory-filled**. [V1.0.1 FX inventory](#smart-box--named-fx-inventory-and-creative-capabilities):30 sharedFX choices;polyphonic Octave/Pitch,Detune,AC G. Dedicated synth unverified. |
 | IDR / separate simamura ask | **Rp1.995.000**, [shop1552936594/item57458607880](#smart-box--separate-simamura-hardware-ask),KotaTangerangSelatan,checked2026-11-06,two-day openedcache. Condition,variant,bundle,batteryhealth,warranty,stock anddeliveredtotal unverified;not a new/used range. OlderRp1.840.000 remainsseparate. |
 | Bass capability | Manufacturer explicitly advertises guitar/bass-optimized presets; included in the shared bass comparison. Bass-specific model inventory and low-end performance remain unverified. [Product,checked2026-10-17](https://www.sonicake.com/products/smart-box) |
@@ -841,6 +841,18 @@ Checked **2026-11-06**, [manufacturer V1.0.1 manual,printed19,25–29](https://s
 | RVB | 10 | Air; Room; Hall; Church; Plate 1; Plate 2; Spring; Light; Ocean; Dream |
 
 **Trail** concerns effect bypass,not proven preset-change spillover. Reverse reverses feedback;Sweep filters repeats;Float choruses feedback;Damage/Flutter detune it;Shake adds tremolo. These are processing descriptions,not synth tracking. Preserve **Glost** spelling. Lists are category choices,not extra simultaneous blocks;current1.0.6 retention and130+ counting remain unverified. AMP/IR transcription isnext. No download/device operation.
+
+
+### Smart Box — amp/IR inventory and counting boundary
+
+Checked **2026-11-06**, [V1.0.1 manual,printed15,19–25](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf).
+
+| Category | Names |
+|---|---|
+| AMP38 | TWDDeluxe; B-ManN; DarkTwin; Voks30N; Jazz120; Calif Star CL; Superb CL; Bog SV CL; Doctor CL; Brit45; Brit 50; Brit 50JP; Brit 800; B-Man B; Voks 30TB; Sol 100 OD; Supero 2 OD; Calif IIC+; Superb OD; Doctor OD; Flyman B1; Brit 900; DizzyVH; Dizzy VH+; Eng120; Halen51; Sol100LD; Calif IV LD; CalifDualV; CalifDualM; EngPower; FlymanB1+; Bog XT V; Bog XT M; Tanger R100; A BassVT; Voks Bass; Calif Bass |
+| Stock IR16 | TWD 1x8; TWD-P 1x10; Viblux 1x12; Voks 1x12; TWD 2x12; Double 2x12; Star 2x12; Jazz 2x12; Brit GN 2x12; Brit GN 4x12; Bog 4x12; Dizzy 4x12; Halen 4x12; Sol 4x12; Dual 4x12; Bass 4x10 |
+
+NR has one **Gate**. SharedFX counted once: **1+30+7+38+16+3+18+10=123**,or128including five userIR slots. This is menu arithmetic,not a manufacturer130+ formula orsimultaneous capacity. NAM slots excluded. **TWD 2x12** describes2x10;**Star 2x12** describes1x12. Preserve both conflicts. Original named tables complete;current1.0.6 equivalence remains unverified.
 
 ### Preserved original Smart Box finding
 
