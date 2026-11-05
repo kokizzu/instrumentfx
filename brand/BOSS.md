@@ -778,6 +778,24 @@ Checked **2026-11-06** in the [original manufacturer manual reproduction](https:
 
 These complete the named drive/wah menus,not every FX subtype orcurrent installed census. Existing eleven-effect ceiling,source conflicts andglobal-volume uncertainties remain. No download,device operation orownership inference.
 
+
+### GS-10 — additional FX subtype source inventory
+
+Checked **2026-11-06**, [original manufacturer manual reproduction](https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual),03342912,03-8-1N,©2003 BOSS,printedpp36–42,48. These are menus inside FX1/FX2,not additional blocks.
+
+| Field | Documented subtype choices / limitation |
+|---|---|
+| Categories / Auto Wah | **2:** LPF,BPF; filtering,not a tracking synth. |
+| Categories / Tone Modify | **13:** Fat,Presence,Mild,Tight,Enhance,S→H,H→S,H→HF,S→Hollow,H→Hollow,S→AC,H→AC,P→AC. Acoustic,pickup andbody processing remain distinct. |
+| Categories / Advanced Compressor | **3:** Stereo Comp,BOSS Comp,D-Comp. |
+| Categories / Limiter | **3:** Stereo LM,Rack 160D,Vtg Rack U. |
+| Categories / Phaser | **4:** 4 Stage,8 Stage,12 Stage,Bi-Phase;stages are not extra blocks. |
+| Processing / Ring Mod modes | **2:** Normal,Intelligent. **Intelligent requires single notes** for its pitch-following oscillator;Normal doesnot establish synth tracking. |
+| Processing / Feedbacker modes | **2:** OSC,Natural;manual requires single,clean notes. |
+| Processing / Humanizer modes | **3:** Picking,Auto,Random. Vowel choices a/e/i/o/u are parameters,not five independent engines. |
+
+Historical menus only;not a complete subtype census orcurrent-firmware/tracking-quality audit. Existing FX1/FX2 alternatives andeleven-effect ceiling remain. No local download ordevice operation.
+
 <!-- comparison evidence ends -->
 
 ### GS-10 — partial lead

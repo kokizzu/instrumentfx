@@ -156062,7 +156062,8 @@
         "pitch": "Pitch ShifterFast/Medium/Slow chords;Mono/Harmonist single-note",
         "instrument": "ToneModify S→AC/H→AC electrictoacoustic;P→ACpiezo;BassSimulator avoidchords",
         "qualification": "FX2alternatives;ToneModifyFX1;focusedoriginalmanualcheck,notfullmodelaudit",
-        "evidence_basis": "Original03342912,03-8-1N,©2003 BOSS manualbody,printed37,43–44,50–52;checked2026-11-04"
+        "evidence_basis": "Original03342912,03-8-1N,©2003 BOSS manualbody,printed37,43–44,50–52;checked2026-11-04",
+        "note_handling_followup": "Original manual40: Intelligent RingMod andFeedbacker require single notes;Humanizer hasPicking/Auto/Random;2026-11-06 canonical subtype link in named_menu_followup"
       },
       {
         "key": "Roland::GR-55",
@@ -164090,7 +164091,25 @@
         "Qualified exactShopee hardware"
       ],
       "next": "Continue outstanding model fields andfresh hardware discovery;preserve LCD-first andindependent GT-Pro/GP200JR→Prime→GE300 queues",
-      "active_inventory_unchanged": 402
+      "active_inventory_unchanged": 402,
+      "fx_subtypes": {
+        "checked_date": "2026-11-06",
+        "canonical": "brand/BOSS.md#gs-10--additional-fx-subtype-source-inventory",
+        "revision": "Original03342912,03-8-1N©2003 printed36–42,48",
+        "qualification": "IntelligentRingMod andFeedbacker explicitly single-note;vowels/stages/filtering not extra synth engines orblocks;partialsubtype audit",
+        "remaining": "Other FX2submenus,globalvolume endpoints/recall/coverage,currentsoftware andqualifiedhardware remain open",
+        "menu_counts": {
+          "AutoWah": 2,
+          "ToneModify": 13,
+          "AdvancedCompressor": 3,
+          "Limiter": 3,
+          "Phaser": 4,
+          "RingMod": 2,
+          "Feedbacker": 2,
+          "Humanizer": 3
+        },
+        "named_choices": "Maintained once in the linked canonical brand table;counts here do not sum tosimultaneous effects"
+      }
     }
   },
   "mg30_usb_navigation_scope_20261104": {

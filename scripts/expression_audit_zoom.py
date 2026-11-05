@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): enumerate GS-10 drive wah and custom choices'
+        message='research(boss): verify GS-10 FX subtypes and single-note special effects'
     print(git('commit','-m',message))
