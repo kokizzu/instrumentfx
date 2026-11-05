@@ -26009,8 +26009,19 @@
         "access": "Two-month cache;holiday;shipping unavailable;condition/bundle/stock/checkout unverified"
       },
       "findings": "Decorative top controls,computer-controlled onboard DSP;no analog EXP in complete manual inventory;canonical table holds specifications",
-      "next": "Verify emulation-specific processing/memory and current support;qualified exact hardware condition. Preserve independent GT-Pro,GP200JR→Prime→GE300,expression-volume and LCD-priority queues.",
-      "active_inventory_unchanged": 402
+      "next": "Per-emulation capacity evidence if accessible;otherwise defer behind accessible individual-footdisplay/Shopee leads. Preserve GT-Pro,GP200JR→Prime→GE300 andexpression-volume queues.",
+      "active_inventory_unchanged": 402,
+      "software_emulation_followup": {
+        "checked_date": "2026-11-06",
+        "canonical": "brand/ZOOM.md#gce-3--emulation-and-computer-audio-restrictions",
+        "guide": "https://zoomcorp.com/media/documents/E_GuitarLab_v7.0.pdf",
+        "revision": "7.0 ©2020 Z2I-2592-06 pp6,32–35",
+        "support": "https://zoomcorp.com/en/jp/audio-interface/audio-interfaces/gce-3/gce-3-support/",
+        "compatibility": "https://zoomcorp.com/documents/1333/AIF_DAW_compatibility_2025AUG_E.pdf",
+        "resolved": "Ten named emulations with model-specific limits;six FOUR emulations exclude rhythm/looper;monitor/record/loopback distinctions;current listed editor/driver platforms;conditional IR view not GCE3 proof",
+        "remaining": "Per-emulation counts/memory andeffect census,import support,current hardware condition,USB streams,current,tracking",
+        "downloads": false
+      }
     }
   ],
   "inventory_by_brand": {

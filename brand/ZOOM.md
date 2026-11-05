@@ -5735,6 +5735,29 @@ Unresolved: exact simultaneous ceiling/category-name census per emulation, facto
 
 Next: verify emulation-specific processing/memory from manufacturer Guitar Lab documentation and current exact-model support; seek condition-qualified hardware. Keep outside active inventory until admission is separately justified.
 
+
+### GCE-3 — emulation and computer-audio restrictions
+
+Checked **2026-11-06**. [Guitar Lab Reference Guide7.0](https://zoomcorp.com/media/documents/E_GuitarLab_v7.0.pdf), **©2020,Z2I-2592-06**, printedpp6,32–35; text inspection, not installed-software testing.
+
+| Field | Documented behavior / boundary |
+|---|---|
+| Rhythm / looper | GCE-3 emulation of **G1 FOUR,G1X FOUR,B1 FOUR,B1X FOUR,A1 FOUR,A1X FOUR does not support rhythm or looper**. Do not borrow their hardware utilities;other emulations are not certified by omission. |
+| Monitoring | Monitor Balance blends processor and computer outputs. With DAW monitoring, the guide specifies DAW balance to prevent doubled/flanger-like sound. |
+| Recording / loopback | Recording Gain adjusts the signal sent to computer;Loopback mixes processor and computer audio back to computer. Loopback is not a phrase looper or proof AUX is recorded. |
+| Tuner | Separate Bypass passes guitar without effects;Mute suppresses guitar. Calibration435–445Hz;guitar/bass tunings andflat offsets are tuner functions,not pitch-shift algorithms orproof every source is muted. |
+| Reset / imports | All Initialize overwrites settings including patches;not performed. Generic Import IR view is explicitly conditional on hardware support;its presence in this shared guide doesnot establish GCE-3 IR import. |
+
+[Exact-model Japanese product page](https://zoomcorp.com/ja/jp/audio-interface/audio-interfaces/gce-3/) names **G5n,G3n,G3Xn,B3n,G1 FOUR,G1X FOUR,B1 FOUR,B1X FOUR,A1 FOUR,A1X FOUR** emulations. Its **200+** effects/amps headline is an aggregate library,not a per-patch capacity. It explicitly restricts simultaneous counts/combinations by emulated model: G5n emulation cannot use B3n bass effects. It also explicitly calls the apparent LCDs dummy displays. No functional individual-foot LCDs or physical screen-size estimate follow.
+
+### GCE-3 — retrieved support and audio compatibility
+
+[Exact GCE-3 support page](https://zoomcorp.com/en/jp/audio-interface/audio-interfaces/gce-3/gce-3-support/),checked2026-11-06,now accessible after the earlier US-route timeout. It lists **system1.20** forWindows/Mac, **Windows10/11 64-bit driver**, **Guitar Lab7.3 forWindows8.1/10/11** and **macOS10.13–26**. These are distinct firmware,driver andeditor listings;driver version/build andinstalled compatibility remain unchecked. No packages downloaded.
+
+The linked [manufacturer audio-interface compatibility matrix](https://zoomcorp.com/documents/1333/AIF_DAW_compatibility_2025AUG_E.pdf), **August2025**, marks GCE-3 compatible with **OBS Studio29.0.2 onWindows11**, andthe listed applications onmacOS15. Sonoma14 ProTools remains “under testing.” These are dated audio-app results,not blanket support for every current app/OS, mobile compatibility orGuitar Lab editor testing. GCE-3 is absent fromthe matrix’s mobile model lists;that alone doesnot prove universal mobile incompatibility.
+
+Remaining: exact per-emulation capacity,initial memory filling andcurrent effect-name census;IR/NAM/capture support,USB stream counts,power current,real tracking/latency andcondition-qualified current Shopee hardware. Earlier price/cache/source qualifications remain;partial lead staysoutside402. Next useful step: exact-model support documentation for per-emulation capacity;otherwise move this gap behind accessible LCD-priority orShopee leads ratherthan repeat the same unavailable evidence.
+
 ## GFX-1 — partial discovery lead
 
 Checked **2026-11-04**; outside active inventory, not fully verified or owner-confirmed. Exact [manufacturer operation manual](https://zoomcorp.com/media/documents/E_GFX1.pdf), footer **GFX-1 - 5000-1**,40PDF pages; no firmware applicability stated. Printed pages20–23,27,37 inspected as text.

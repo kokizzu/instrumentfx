@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): document GCE-3 computer-control and Shopee hardware lead'
+        message='research(zoom): qualify GCE-3 emulation utilities and software support'
     print(git('commit','-m',message))

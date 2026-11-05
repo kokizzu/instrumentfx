@@ -920,3 +920,5 @@ TONE GO’s [manufacturer-filed Quick Guide follow-up](brand/FLAMMA.md#tone-go--
 ### Zoom GCE-3 — partial direct-expression exclusion
 
 [Exact-model discovery](brand/ZOOM.md#gce-3--partial-computer-controlled-discovery), outside402: complete2019 manual inventory has no analog EXP socket or working onboard footswitches. It fails the documented direct analog pedal-volume path, despite its106W×80Dmm body and dedicated headphones. The side VOLUME dial is a hand control; top-panel controls are decorative and computer editing is required. Global pedal position/range/recall, bypass and headphone/tail/loop coverage are not established. Shopee Rp1.4m is a cached condition-unverified ask with seller holiday and shipping unavailable.
+
+GCE-3 [computer-audio follow-up](brand/ZOOM.md#gce-3--emulation-and-computer-audio-restrictions) distinguishes monitor balance,recording gain andloopback. Tuner Mute describes guitar only;none supplies analog expression orproves all-source/tail attenuation. Six FOUR-series emulations explicitly lack rhythm/looper.
