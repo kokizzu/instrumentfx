@@ -1777,6 +1777,7 @@ Numbered original panel and rear descriptions (printed pp3–5) were read; PDF p
 
 | Field | Evidence |
 |---|---|
+| Processing / filter and envelope distinctions | [Original FX shaping limits](#ge300--static-filters-envelope-speed-and-stereo-boundaries):static Q/low-pass/high-pass filters differ from Touch/Auto Wah;Slow Gear Attack100 is fastest. Downstream mono blocks can collapse a stereo FX setting. Current-firmware equivalence untested. |
 | Processing blocks |15 category blocks, CPU-limited, movable except input-side SYNTH; two FX categories do not make every category freely duplicable |
 | Processing / power-amp count conflict | [Manufacturer Chinese GE300 launch article](https://cn.mooeraudio.com/news/魔耳专业级吉他音色处理器-GE300正式发布！-350.html), rechecked2026-11-03, advertises **11 sampled power amps**. The saved original manual instead lists **ten selectable power-amp voicings plus Off**, as retained below; Off disables modeling and is not an eleventh modeled amp. Preserve the discrepancy rather than silently equate those inventories. These are AMP parameters, not eleven simultaneous power-amp blocks or additions to the108 amp-menu choices. Neither source establishes current5.1.4 contents. |
 | Live / global versus preset tempo | [Original TAP setting](#ge300--global-tempo-override-versus-preset-recall): PRESET follows recalled tempo; GLOBAL overrides preset tempo. SELECT or an assigned CTRL tap edits BPM. No global EXP-volume or looper-sync inference. |
@@ -2135,6 +2136,19 @@ The A/B example places Send and Return around **AMP** in serial mode. **FX LOOP 
 The preceding stereo-reverb example’s prose specifies **Parallel/Stereo**, with the external reverb fully wet and internal Dry/Wet setting its blend. Its illustrated fields instead say **Series/Mono**. Keep that internal conflict; do not present the screen as an independently verified parallel setup. The separate Return-before-Send versus four-cable-order contradiction remains unresolved.
 
 Existing output-tap,CAB andreturn-level restrictions still apply. No hardware connection,setting change,download oraudio measurement. Factory occupancy,qualified offers andremaining firmware/format gaps remain open.
+
+### GE300 — static filters, envelope speed and stereo boundaries
+
+<a id="ge300--static-filters-envelope-speed-and-stereo-boundaries"></a>
+
+Checked **2026-11-05**, [manufacturer original2019 manual, printed pp26–30](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf). Exact original GE300; current5.1.4 equivalence untested.
+
+- FXA/FXB **Low pass filter,High pass filter andQ filter** are static processing; Q filter is described as a notch/half-cocked-wah sound. They do not establish tracking synthesis. Separately, **Touch Wah** follows input dynamics, while **Auto Wah** uses an LFO with triangular,sine,stepped orrandom waveforms.
+- **Slow Gear Attack0–100** controls swell time, with **100 fastest**; Touch Wah Attack uses the same stated direction. Neither value is milliseconds orproof ofanalog expression-volume assignment.
+- FX **Output Mode** selects mono/stereo; the manual warns that subsequent mono modules make stereo FX sound mono. This is routing dependence,not note polyphony ormeasured channel separation.
+- The Phaser Sweep description calls its range “six-octave or twelve-octave,” although the model names say **6 Stage/12 Stage Analog Phaser**. Preserve that wording conflict;do not convert stage counts into a verified frequency span.
+
+No device operation ornew local download. Current library,qualified stock andthe other saved verification gaps remain open.
 
 ## GE300 Lite
 

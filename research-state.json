@@ -169145,5 +169145,29 @@
       "Names do not establish global volume, concurrency, freeze behavior or introduction firmware"
     ],
     "next": "Resume original MOOER GE300 general queue; retain individual-display priority, exact Shopee availability and independent expression audit"
+  },
+  "ge300_original_fx_shaping_20261105": {
+    "model": "original MOOER GE300",
+    "status": "partial original-revision FX clarification",
+    "checked": "2026-11-05",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "printed_pages": [
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "findings": [
+      "Static low/high/Q filters separate from envelope and LFO wah",
+      "Slow Gear and Touch Wah Attack100 fastest; not milliseconds",
+      "Downstream mono blocks limit stereo FX",
+      "Phaser stage names versus octave-range prose conflict preserved"
+    ],
+    "limitations": [
+      "Current5.1.4 equivalence and actual device behavior untested",
+      "No new qualified Shopee offer found; OLX category snippets insufficient for seller/item/condition qualification"
+    ],
+    "next": "General cycle returns to Valeton GP-200JR; preserve individual-foot-display and expression queues; pursue remaining substantive exact-model gaps"
   }
 }
