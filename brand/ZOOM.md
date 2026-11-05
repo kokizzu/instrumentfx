@@ -5205,6 +5205,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Dimensions / weight | **495 W ×253 D ×64 H mm;2.8 kg**. Large by the project's size bins. Pedal-up maximum height and cable clearance are additional/unverified. [G11-M p.104] |
 | Simultaneous processing | Specification: **one amplifier plus nine effects**, DSP-limited. Operation pp.26,32 also describes up to ten freely combined effects; preserve that wording rather than assuming ten arbitrary high-load engines or unlimited duplicate amps. Overflow bypasses the excess effect. [G11-M] |
 | Processing / named modulation and SFX | [Complete historical category names](#g11--named-v2-modulation-and-sfx-inventory):33 Modulation and9 SFX choices. GEMINOS doubling modes andDuo Phase internal routing do not add blocks orprove synth input polyphony;current installed census remains unverified. |
+| Processing / named delay, reverb and pedal | [55 historical category entries](#g11--named-v2-delay-reverb-and-pedal-inventory):17 Delay,17 Reverb,21 Pedal includingOutput VP. PDL Delay/Rev control effect input;OSC Echo isdelay oscillation andP-BitCRSH islo-fi processing. These do not establish global volume orsynth polyphony. |
 | Categories / choices | V2 effect list: Dynamics, Filter, Drive, Amp, Cabinet, Modulation, SFX, Delay, Reverb, Pedal, Send/Return and IR. The preserved2026-10-15 V2-list finding records **15 Dynamics choices**; Additional V2 table-entry counts checked2026-10-31:**Modulation33,Cabinet35,Amp34,Drive45,Filter25,Delay17,SFX9,Reverb17,Pedal21,Send/Return9,IR1**;see [partial census](ZOOM.md#g11--partial-v2-category-census-and-volume-controls). All twelve V2 category counts are now transcribed;current installed totals remain unverified. This historical count is not a reconciled installed-library census. V2 added one guitar amp, nine bass amps and57 bass effects; additional OverDrive, BitCrush and DynaDelay were distributed in2025–2026. Do not sum the site's overlapping/launch-era totals as a current installed inventory. [G11-E,G11-F,G11-P] |
 | Presets / user memory | **500 editable patch memories,125 banks×4** in V2. This replaces the earlier240 total. V2 patch-listp2 establishes **300 factory-filled and200 empty**;see [allocation](#g11--v2-factory-allocation-and-usb-level-controls). Current unit contents remain unverified;500 is not500 factory plus500 user. The V2 release added200 supplied patches. [G11-M pp.4,8,104; G11-F] |
 | Memory / creation and bank deletion | **V2 printedpp42–50:** deleting a patch leaves an **Empty** location;new-patch creation requires an opening andis unavailable when all500 are occupied. New-bank setup assigns selected existing patch memories. **Deleting a bank also deletes its patches**,andlater banks move up. Bank management is therefore not just display-only grouping;shared-assignment behavior andrecovery remain unverified. [Own manual](https://zoomcorp.com/documents/461/E_G11v2.pdf),checked2026-11-01;no deletion ordevice operation performed. |
@@ -5658,6 +5659,25 @@ Checked **2026-11-05**, [manufacturer V2.0 effects list,©2021,printed27–32](h
 **33+9=42 choices**,not simultaneous blocks. GEMINOS offers MN-1/2/3 andST-1/2/3 doubling modes;track counts are not input-note polyphony. Duo Phase has SERI/PARA/STR routing inside one effect. BendCho bends triggered notes individually;that wording doesnot establish chord tracking. LoopRoll Duty25–100 andLATCH/UnLATCH apply toits short sample/hold,not the phrase looper.
 
 Use the source’s **V2.0/Ver2.00** scope. Extracted text joins the cover’s version with the following printedpage2;the older ledger spelling Ver2.002 doesnot establish a separate firmware/document release. Post-V2 downloadable additions andcurrent2.10 firmware retain separate qualifications. Current rotary census,mini-LCD physical specifications,installed contents andqualified live Shopee stock remain unresolved. No local download ordevice operation;inventory/membership unchanged.
+
+### G11 — named V2 delay, reverb and pedal inventory
+
+Checked **2026-11-05**, [manufacturer V2.0 effects list,©2021,printed33–40](https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf). Historical category names;post-V2 additions andinstalled contents remain separate.
+
+| Printed page / category | Named choices |
+|---|---|
+| 33 / Delay | Delay;AnalogDly;TapeEcho;ReverseDL;ModDelay;Hold DLY;P-P Delay |
+| 34 / Delay | FilterDly;Dual DLY;Pitch DLY;SlapBackD;A-Pan DLY;PhaseDly |
+| 35 / Delay | TapeEcho3;ICE Delay;SlwAtkDly;SoftEcho |
+| 35–36 / Reverb | Air;Room;BrghtRoom;Hall;BrghtHall;HD Hall;Spring;FD Spring;Plate;EarlyRef;SpaceHole;Church |
+| 37 / Reverb | Ambience;ParticleR;Chamber;GateRev;HoldVerb |
+| 38 / Pedal | PDL Vol;BlackWah;ChromeWah;WAH100;PDL Pitch;PDL MnPit;PDL Vibe;PDL Drive;PDL PHSR |
+| 39 / Pedal | PDL Delay;PDL Rev;OSC Echo;VoiceWah;PDL Roto;P-BitCRSH;PDL FLNGR;BassWah;PDL Reso |
+| 40 / Pedal | Ba PDLPit;Ba PDLMnP;Output VP |
+
+**17+17+21=55 entries**;Output VP is a retained output-control entry,not another independently established audio processor. PDL Delay/Rev vary effect-input level,not final all-source volume. OSC Echo controls delay time/feedback,with19–500ms endpoints;VoiceWah isvowel processing. Neither establishes tracking synthesis. P-BitCRSH’s4–32bit setting belongs tothe effect,not converters. ICE Delay pitch-processes audio slices;input-note polyphony remains unverified.
+
+HoldVerb’s extracted parameter-description columns are shifted;no corrected mapping is invented. Existing bypass-tail,PDL Vol endpoints,Output VP recall andsingle-note-pitch qualifications remain. Names add no physical LCDs orsimultaneous slots. Remaining categories,current-library reconciliation,rotary count,mini-display specifications andqualified live Shopee stock stay open. No download ordevice operation.
 
 ## GFX-1 — partial discovery lead
 
