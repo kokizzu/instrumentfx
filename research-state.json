@@ -170369,5 +170369,22 @@
       "Current installed-library equivalence"
     ],
     "next": "Continue confirmed individual-LCD profiles andexact hardware discovery;preserve independent expression,general anddeferred FM9/G11 gaps"
+  },
+  "g5n_windows_playback_matrix_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#g5n--dated-windows-daw-playback-exclusions",
+    "sources": [
+      "https://zoomcorp.com/media/documents/EFX_DAW_compatibility_2025JUL_E.pdf",
+      "https://zoomcorp.com/documents/3445/EFX_DAW_compatibility_2024AUG_E_mverUdk.pdf"
+    ],
+    "qualification": "Windows11 Pro Tools2022.4+ andDaVinci Resolve18.5 playback exclusions in dated tests;not universal future-version orrecording failure.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Primary USB channel/power scope",
+      "Complete visual/button census",
+      "Qualified current Shopee stock",
+      "Current driver/firmware andapplication retest"
+    ],
+    "next": "Continue confirmed individual-LCD profiles andexact hardware discovery;preserve general,expression,consolidation anddeferred FM9/G11 queues"
   }
 }
