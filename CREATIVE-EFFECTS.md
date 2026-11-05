@@ -230,3 +230,5 @@ Looperboard’s [complete historical rack inventory](brand/HEADRUSH.md#looperboa
 [Sheeran Looper X](brand/SHEERAN-LOOPERS.md#looper-x--partial-discovery-lead) is a partial lead outside active counts and the additional-record index. Its named pitch/special effects remain distinct from unverified synthesis, input polyphony and acoustic simulation.
 
 Sheeran Looper X’s [complete FAQ rack inventory](brand/SHEERAN-LOOPERS.md#complete-faq-rack-inventory-and-source-conflicts) keeps repeated rack positions separate from Single FX choices and concurrent processing. Partial status and the additional-record index remain unchanged.
+
+Original GE300’s [complete original FXA/FXB menu](brand/MOOER.md#ge300--complete-original-fxa-and-fxb-named-inventory) now names every original row, retaining block-specific pitch choices, FXA-only drives and later-firmware qualifications. This does not change the selected comparison’s scope or active inventory.

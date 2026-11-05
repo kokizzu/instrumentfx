@@ -2639,3 +2639,9 @@ brand-sort-plan-neural:
 	python3 scripts/brand_sort.py plan brand/NEURAL-DSP.md
 brand-sort-apply-neural:
 	python3 scripts/brand_sort.py apply brand/NEURAL-DSP.md
+
+.PHONY: brand-sort-plan-mooer brand-sort-apply-mooer
+brand-sort-plan-mooer:
+	python3 scripts/brand_sort.py plan brand/MOOER.md
+brand-sort-apply-mooer:
+	python3 scripts/brand_sort.py apply brand/MOOER.md

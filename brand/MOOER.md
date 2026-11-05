@@ -372,7 +372,6 @@ Primary document identity: [manufacturer-submitted quick guide metadata](https:/
 Next: **GE100 Pro Li**, with its own battery/accessory/price evidence; shared quick guide explicitly covers both models. Resolve exact effect counts, IR slots, touchscreen, USB routing, dimension labels and firmware/region before full verification. Preserve the existing owner-history work and scope exclusions.
 <!-- MOOER-GE100-PRO source ends -->
 
-
 ## GE100 Pro Li
 
 <!-- comparison evidence begins -->
@@ -526,7 +525,6 @@ All three were available as indexed text in this pass; direct opens returned cac
 
 Next: **MOOER GE200 Pro**, then **GE200 Pro Li**. Keep each hardware variant and its battery, mass, software/region and condition-specific price evidence separate. Missing fields remain explicit rather than inherited from original GE200.
 <!-- MOOER-GE100-PRO-LI source ends -->
-
 
 ## GE150 Max
 
@@ -1836,6 +1834,7 @@ Read the saved original manual’s complete named tables on printed pp23,25,28,3
 | Field | Revision-qualified finding |
 |---|---|
 | Category choices / original FXA versus FXB | **40 FXA selections,35 FXB selections** in the original table. Rows1–34 share names;row35 is **Mono Pitch for FXA / Poly Pitch for FXB**;rows36–40 are FXA-only drives/boosts. Thus40 numbered rows do not prove40 unique algorithms shared by both blocks. Repeated drive/boost names also occur inDS/OD. |
+| Processing / complete original FX names | [Full FXA/FXB named menu](#ge300--complete-original-fxa-and-fxb-named-inventory), retaining block-specific and firmware qualifications. |
 | Category choices / later additions | V3.0.1: **Intelligent Harmony→FXA;60s Vibe→FXB**. V4.0.1: **four DS/OD models;Noise Reducer→FXA;Auto Pan/Stereo Enhancer→FXB**. V5.1.0: **Stereo Rotary/Doubling→FXB;Studio/Morph PingPong→DELAY;Theater/Cathedral/Chorus Reverb→REVERB**. These are additions documented for GE300,not borrowed from Lite. |
 | Processing / provisional arithmetic | Assuming every original selection and documented addition remains: **FXA42,FXB40,DS/OD35,DELAY16,REVERB14**. These are derived retention-dependent totals,not certified installed5.1.4 counts. Do not add sharedFXA/FXB choices together as unique algorithms. COMP10/WAH10 original tables remain revision-qualified. |
 | Looper / trails | V1.2.0 documents patch-change and effect-off tails for **seven delays** (Digital,Analog,Dynamic,Real,Tape,Mod,PingPong) and **seven reverbs** (Room,Hall,Plate,Fl-Reverb,Swell-Reverb,Spring,Mod). No duration or blanket all-model guarantee;later added models need their own evidence. Latency fix language is not a measured zero-gap result. |
@@ -2165,6 +2164,20 @@ Checked **2026-11-05**, [manufacturer original2019 manual,printed58–61](https:
 Dual Delay has two internal delays;Multi Tap Delay four. These are not extra selectable blocks. Vintage Delay reduces repeat fidelity;Galaxy swells/modulates repeats;Fuzz Delay distorts repeats;Crystal combines harmonization/modulation. Reverse-Reverb reverses ambience;Swell-Reverb fades it in;Filter-Reverb applies filtering. None establishes input-tracking synthesis.
 
 Delay Time **20–2000ms**;reverb Pre Delay **0–200ms**. Both Mix controls span **0–100,dry to wet-only**. Listed stereo output modes cost more CPU;reverb High quality also increases CPU use. Internal wet/dry mix is not global expression assignment orcross-preset spillover. Keep later Studio/Morph Pingpong andTheater/Cathedral/Chorus Reverb additions separate;no current retention guarantee.
+
+### GE300 — complete original FXA and FXB named inventory
+
+Checked **2026-11-05**, [manufacturer-authored original manual on distributor mirror](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf), printed28;2019 document,V1.1.0 examples. Original GE300 only.
+
+| Rows | Blocks | Complete original names |
+|---|---|---|
+| 1–12 | Both | 3-Band EQ; 5-BAND EQ; Studio EQ; Slow Gear; Octave; Phaser; Step Phaser; Fat Phaser; 6 Stage Analog Phaser; 12 Stage Analog Phaser; Dual Phaser; Modern Phaser |
+| 13–24 | Both | Flanger; Jet-Flanger; Flanger Pro; Triple Flanger; Modern Flanger; Tremolo; Optical Tremolo; 60s Tremolo; Stutter; Vibrato; Rotary; Modern Rotary |
+| 25–34 | Both | Ana-Chorus; 70’s Chorus; Tri-Chorus; Ring Mod; Delay; Detune; Lofi; Low pass filter; High pass filter; Q filter |
+| 35 | FXA / FXB respectively | Mono Pitch / Poly Pitch |
+| 36–40 | FXA only | 808 OD; Tube Drive; BB Drive; Pure Boost; Flex Boost |
+
+The40 numbered rows yield **40 FXA selections and35 FXB selections**, not40 shared types orsimultaneous instances. Row35 changes by block. Later documented additions remain separately version-qualified; current5.1.4 retention is unverified. EQ,filter,rotary andSlow Gear processing do not establish additional tracking synthesizers. Existing stereo-collapse andnote-handling qualifications remain.
 
 ## GE300 Lite
 
