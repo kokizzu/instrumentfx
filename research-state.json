@@ -147533,7 +147533,30 @@
     ],
     "finding": "English original manufacturer explicitly four backlit dot-matrix LCDs, each effect display paired with switch/knobs. English response +1/-6dB versus Japanese +1/-3dB, both20Hz-20kHz at10kohm; discrepancy preserved.",
     "access": "Search-indexed original bodies; English direct502. No download, visual inspection or hardware test.",
-    "remaining": "LCD diagonal/color/touch; complete physical control census; global pedal mapping coverage; qualified condition offers."
+    "remaining": "LCD diagonal/color/touch; complete physical control census; global pedal mapping coverage; qualified condition offers.",
+    "panel_followup": {
+      "checked": "2026-11-06",
+      "front": {
+        "url": "https://zoomcorp.com/media/original_images/G5_top.jpg",
+        "bytes": 614863,
+        "sha256": "1ae8a14e3f3590d6083655b046183de086f9966f263d5fe90284ac00a001ca6d"
+      },
+      "front_verified": "14rotaries;5chassisFS;21buttons=12TYPE/PAGE+9upperkeys;4monochrome-appearingLCDs",
+      "rear_documentary": {
+        "source": "https://zoomcorp.com/media/documents/G5_operationManual_english.pdf",
+        "location": "Printed5,indexed original text;full40.5MB reader limit",
+        "selectors": [
+          "ACTIVE/PASSIVE",
+          "PRE/POST",
+          "GROUND"
+        ],
+        "state": "Allthree described pushed/not-pushed;not a visualrear census"
+      },
+      "counting": "24non-footpushcontrols=21frontkeys+3rearselectors;POWER/eco andtreadleswitch separate",
+      "market": "Existing exact G5 offers remain stale Habis snapshots;no refreshed stock,condition,bundle or checkout proof",
+      "remaining": "Rear visual corroboration;LCD diagonal/hardwarecolor/touch;globalpedalcoverage;qualified current offers;retained source/firmware conflicts",
+      "next": "Continue individual-display gaps;preserve GP200JR→Prime→GE300,GTPro andexpression queues"
+    }
   },
   "g3_primary_display_tuner_20261101": {
     "source": "https://www.zoom.co.jp/node/49",
@@ -176666,7 +176689,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://zoomcorp.com/media/original_images/G11_Rear.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+    "requested_url": "https://zoomcorp.com/media/original_images/G5_top.jpg",
     "cache_policy": "One rolling working photograph and receipt in/tmp; URLs and hashes retained with model findings. Retrieval alone is not visual verification.",
     "frame": 0
   }
