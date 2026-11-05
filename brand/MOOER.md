@@ -893,7 +893,21 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 
 [Original shared source](../research-state.json)<!-- historical-link:mooer-026 -->,retained pending complete navigation/provenance audits.
 
+| Field | Finding / qualification |
+|---|---|
+| Ports / physical inventory | Mono6.35mm instrument input; two unbalanced6.35mm L/R outputs; separate3.5mm stereo AUX IN and PHONES; USB-C OTG/data and9VDC input. No XLR, FX loop, external EXP or physical MIDI connector in the documented panel inventory. This exposes existing evidence in the comparison without changing hardware claims. |
+| I/O / cabinet-channel coverage | CAB SIM THRU selects L/R treatment across main outputs, headphones and OTG audio. **ON applies CAB; THRU bypasses it.** With differing L/R states, CAB is placed last by default. These are channel settings, not independently selectable settings for every socket or global-volume assignment. [Source scope](#ge150-plus--io-comparison-and-output-channel-scope). |
+| USB / OTG level scope | Mobile playback input level is adjusted on the mobile device; SYSTEM OTG LEVEL adjusts USB OTG output volume. Numeric range, audio channels, driver requirements and USB power remain unverified. |
+
 <!-- comparison evidence ends -->
+
+### GE150 Plus — I/O comparison and output-channel scope
+
+Checked **2026-11-06** against the retained manufacturer-authored [Plus/Plus Li manual transcription](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416), Connections, OTG Function and System Settings. Exact-model title, numbered ports and architecture match the preserved original. Original text only; generated diagram descriptions excluded. No revision date or current-firmware equivalence established; PDF retrieval failed.
+
+This fixes comparison coverage, not the preserved physical-size/mass conflict or mixed-variant market gap. No local download, visual inspection or device operation.
+
+
 
 ### GE150 Plus — first-pass display uncertainty and later correction
 

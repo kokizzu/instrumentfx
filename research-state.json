@@ -88822,7 +88822,23 @@
       "Cabinet / parameter limits",
       "Manual / revision conflicts"
     ],
-    "scope": "Projection repair only; no new technical claims or model membership changes."
+    "scope": "Projection repair only; no new technical claims or model membership changes.",
+    "ge150_plus_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/MOOER.md#ge150-plus--io-comparison-and-output-channel-scope",
+      "source": "https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416",
+      "source_scope": "Preserved manufacturer-authored33page manual transcription;Connections/OTG/System text;notgenerated diagrams;PDF retrieval failed;revision/firmware unspecified",
+      "projection": "Existing physical ports were hidden by Audio/Data-control headings;explicit Ports row synchronizes comparison without rewriting historical bodies.",
+      "new_scope": "Cabinet L/R treatment also covers headphones/OTG;OTG output-level control distinct frommobile playback input.",
+      "remaining": [
+        "USB audio channels/driver/power",
+        "Physical dimensions/mass conflict",
+        "Touch specification",
+        "Current condition-qualified exact Shopee standard-model hardware"
+      ],
+      "next": "Continue individual-footdisplay priority when new evidence isaccessible;otherwise remaining required-field andShopee gaps. Preserve GT-Pro,expression and GP-200JR→Prime→GE300 queues.",
+      "inventory_unchanged": 402
+    }
   },
   "comparison_remaining_labels_20261018": {
     "status": "current unmatched technical labels repaired",
