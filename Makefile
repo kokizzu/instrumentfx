@@ -2540,3 +2540,11 @@ brand-sort-plan-hologram:
 	python3 scripts/brand_sort.py plan brand/HOLOGRAM.md
 brand-sort-apply-hologram:
 	python3 scripts/brand_sort.py apply brand/HOLOGRAM.md
+
+.PHONY: technical-compatibility-removal-preview
+technical-compatibility-removal-preview:
+	python3 scripts/technical_retirement.py compatibility-preview
+
+.PHONY: technical-compatibility-preview-test
+technical-compatibility-preview-test:
+	python3 scripts/technical_retirement.py compatibility-preview-test

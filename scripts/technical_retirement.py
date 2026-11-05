@@ -341,5 +341,62 @@ def specialist_commit():
     print(research.git('diff','--cached','--stat'))
     print(research.git('commit','-m','docs(boss): complete specialist scope consolidation and legacy redirects'))
 
+
+
+def literal_compatibility_consumer(body, path):
+    """Find path-bearing Python literals without confusing bass.md with all-bass.md."""
+    import ast
+    literals = [node.value for node in ast.walk(ast.parse(body))
+                if isinstance(node, ast.Constant) and isinstance(node.value, str)]
+    return any(path in value or value == Path(path).name for value in literals)
+
+
+def test_compatibility_consumers():
+    path = 'effects/bass.md'
+    assert not literal_compatibility_consumer("name = 'all-bass.md'", path)
+    assert not literal_compatibility_consumer("# effects/bass.md\nname = 'brand/BOSS.md'", path)
+    assert literal_compatibility_consumer("name = 'effects/bass.md'", path)
+    assert literal_compatibility_consumer("name = 'bass.md'", path)
+    assert literal_compatibility_consumer("name = 'HEAD:effects/bass.md'", path)
+    print('PASS: literal consumers exclude longer filenames/comments and retain exact/basename/pinned paths')
+
+def compatibility_removal_preview():
+    """Preview exact technical redirect paths and consumers without deleting files."""
+    research.identity()
+    head = research.git('rev-parse', 'HEAD').strip()
+    history = json.loads(Path('/tmp/instrumentfx-source-history-audit.json').read_text())
+    assert history['head'] == head, 'Rerun make consolidation-audit-source-history for current HEAD'
+    assert history['sources'] == len(SOURCES)
+    assert not history['counts'].get('historical-variant-needs-review', 0), 'Unreviewed historical variants'
+    state = json.loads((ROOT/'research-state.json').read_text())
+    consolidation.verify_preserved(state)
+    records = state['migration']['retired_sources']
+    links = incoming()
+    scripts = {str(p.relative_to(ROOT)): p.read_text() for p in sorted((ROOT/'scripts').glob('*.py'))}
+    rows = []
+    for index, (path, destination) in enumerate(sorted(SOURCES.items()), 1):
+        original = research.read_preserved_source(path)
+        record = records[path]
+        current = (ROOT/path).read_text()
+        assert current == redirect(path, original, record['source_commit']), path
+        assert shared.digest(current) == record['redirect_sha256'], path
+        shared.validate_target(destination)
+        rows.append(dict(id='technical-'+str(index).zfill(3), path=path,
+                         redirect_sha256=shared.digest(current), destination=destination,
+                         source_commit=record['source_commit'], source_sha256=shared.digest(original),
+                         incoming_links=[x for x in links if x['target']==path],
+                         literal_script_consumers=[name for name, body in scripts.items()
+                                                   if literal_compatibility_consumer(body, path)],
+                         rollback_source=head+':'+path))
+    report = dict(head=head, mode='read-only-removal-preview', candidates=rows,
+                  remaining='No deletion performed. Review literal consumers and generic file-existence readers; adapt verifiers before apply. Metadata/specialist paths are outside this selection.',
+                  consumer_scope='Python string literals containing the full path or equal to its basename in top-level scripts/*.py only; not complete dynamic dependency coverage.')
+    preview = Path('/tmp/instrumentfx-technical-compatibility-removal-preview.json')
+    preview.write_text(json.dumps(report, indent=2)+'\n')
+    print(json.dumps(dict(preview=str(preview), candidates=len(rows),
+                          incoming_links=sum(len(x['incoming_links']) for x in rows),
+                          script_consumers=sorted({name for x in rows for name in x['literal_script_consumers']}),
+                          deleted=0), indent=2))
+
 if __name__=='__main__':
-    {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'rollback-plan':lambda:plan(True),'specialist-plan':specialist_plan,'specialist-apply':specialist_apply,'specialist-verify':specialist_verify,'specialist-commit':specialist_commit}[sys.argv[1]]()
+    {'compatibility-preview-test':test_compatibility_consumers,'compatibility-preview':compatibility_removal_preview,'plan':plan,'apply':apply,'verify':verify,'commit':commit,'rollback-plan':lambda:plan(True),'specialist-plan':specialist_plan,'specialist-apply':specialist_apply,'specialist-verify':specialist_verify,'specialist-commit':specialist_commit}[sys.argv[1]]()
