@@ -146175,7 +146175,25 @@
       "Separate button count,USB power andglobal volume assignment unresolved",
       "No downloaded files,software installation ordevice operation"
     ],
-    "next": "G3Xn exact catalogue column;commit this model before next;individualLCD models remain priority;BOSS GT-Pro independent general cursor unchanged"
+    "next": "G3Xn exact catalogue column;commit this model before next;individualLCD models remain priority;BOSS GT-Pro independent general cursor unchanged",
+    "panel_followup": {
+      "checked": "2026-11-06",
+      "front": {
+        "url": "https://zoomcorp.com/media/original_images/Zoom_G3n_TopSlant.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+        "bytes": 68808,
+        "sha256": "00abe89368ed30b15f6d5473b19a0f53742052126b891a406f4f19966a45478f"
+      },
+      "rear": {
+        "url": "https://zoomcorp.com/media/original_images/Zoom_G3n_Rear.jpg.800x482_q70_crop_size_canvas.jpg",
+        "bytes": 17992,
+        "sha256": "b28ff5df47f3e650c4adfb8d492996ab610c30c2b4248d6877cb6efab950a5b6"
+      },
+      "verified": "13rotaries,6chassisFS,7buttons;sameL/MONO/PHONESsocket;3monochrome-appearingdisplays",
+      "scope": "ExactG3n photographs inspected;not hardware test,globalvolumeproof,pinout ordisplaydiagonal/color/touchspecification",
+      "market": "Existing two Habis snapshots unchanged;no new stock/condition/bundle/checkout proof",
+      "remaining": "Published screen diagonal/color/touch;OutputVP globalassignment/endpoints/bypass/phones/tails/loop;qualified current offers",
+      "next": "Continue individualdisplay gaps;preserve GP200JR→Prime→GE300,GTPro andexpression queues"
+    }
   },
   "g3xn_catalogue_controls_usb_20261031": {
     "checked": "2026-10-31",
@@ -176594,8 +176612,8 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/04/MG-300MKII_D_39.gif",
+    "requested_url": "https://zoomcorp.com/media/original_images/Zoom_G3n_TopSlant.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
     "cache_policy": "One rolling working photograph and receipt in/tmp; URLs and hashes retained with model findings. Retrieval alone is not visual verification.",
-    "frame": 1
+    "frame": 0
   }
 }
