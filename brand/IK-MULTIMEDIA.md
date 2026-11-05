@@ -151,6 +151,22 @@ Checked **2026-11-05**, manufacturer-authored **User Manualv1.0.0,2026-09-02**, 
 
 The already documented Master Volume target andoutput destinations remain separate fromthese controls. No numeric master endpoints,held-position recall,bypass/tail coverage,USB-host operation orMIDI-note synthesis is established here. Partial lead remains outside active counts;no messages sent,controllers connected orfiles downloaded.
 
+### TONEX Board — complete manual connector inventory and preset import
+
+<a id="tonex-board--complete-manual-connector-inventory-and-preset-import"></a>
+
+Checked **2026-11-05** in the manufacturer-authored **User Manual v1.0.0, 2026-09-02**, exact IK000200 72-page reproduction: [p9 connector inventory](https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=9) and [p8 import overview](https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=8). Original manual text, not host FAQs; no visual panel census or device test.
+
+| Connection group | Documented connectors and levels |
+|---|---|
+| Audio inputs | **Two ¼-inch TS instrument inputs** and **two ¼-inch TS Return inputs**. Stereo operation uses paired sockets, not one stereo guitar jack. |
+| Audio outputs | **Two TS instrument-level Sends**; **two XLR line outputs (1–2)**; **two TRS line outputs (3–4)**; **mini-TRS headphone output**. The sends are not documented here as interchangeable line-level outputs. |
+| Control / data | Separate **5-pin DIN MIDI In and Out**; **two TRS EXT.CTRL ports**, each configurable for single/double switch or expression; **USB-C** for Tone Model, preset and IR transfer and firmware updates. Later USB audio/MIDI requires the separately documented firmware scope. |
+
+This completes the manual’s listed audio/control connector groups, not numerical impedances, maximum levels, headphone power or USB-host compatibility. Preserve the same page’s unresolved **5V** supply instruction against the separately retained **9V** product claim.
+
+The overview explicitly permits importing presets from previous TONEX products and **automatically converts them into the Board preset format**. It does not specify every accepted source revision, reverse export, complete dependency embedding or identical sound after conversion. No presets imported or files downloaded. This remains a partial lead outside active inventory; current firmware, power conflict, full expression coverage and qualified Indonesian hardware remain open.
+
 ## TONEX ONE
 
 Standard TONEX ONE guitar/bass processor, not TONEX ONE+, Bass Edition or an artist variant. Consolidated and partially refreshed **2026-10-17**; no additional active model.

@@ -169467,5 +169467,41 @@
     ],
     "next": "Continue remaining exacthardware/globalvolume/currenteffects andIndonesian offer gaps;preserve general anddisplay queues",
     "inventory_change": 0
+  },
+  "tonex_board_connector_import_scope_20261105": {
+    "model": "IK Multimedia TONEX Board",
+    "checked": "2026-11-05",
+    "status": "partial model; complete listed audio/control connector groups",
+    "canonical": "brand/IK-MULTIMEDIA.md#tonex-board--complete-manual-connector-inventory-and-preset-import",
+    "sources": [
+      {
+        "url": "https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=9",
+        "revision": "User Manual v1.0.0 2026-09-02"
+      },
+      {
+        "url": "https://www.manualslib.com/manual/4599364/Ik-Multimedia-Tonex-Board.html?page=8",
+        "revision": "same manual"
+      }
+    ],
+    "ports": {
+      "instrument_inputs": "2 x quarter-inch TS",
+      "returns": "2 x quarter-inch TS",
+      "sends": "2 x TS instrument level",
+      "main_outputs": "2 x XLR line, 2 x TRS line",
+      "phones": "mini TRS",
+      "control": "2 x TRS EXT.CTRL",
+      "midi": "separate DIN In and Out",
+      "usb": "USB-C; later audio/MIDI release scope separate"
+    },
+    "import": "Previous TONEX presets automatically converted to Board format; reverse compatibility and dependencies unverified",
+    "remaining": [
+      "Numerical electrical ratings and headphone power",
+      "Supply conflict",
+      "Expression endpoints/recall/all-route coverage",
+      "Exact Indonesian hardware offer",
+      "Current source/firmware equivalence"
+    ],
+    "next": "Continue other substantive catalogue gaps and Indonesian discovery; retain Board remaining questions, display priority and general cycle",
+    "inventory_change": 0
   }
 }
