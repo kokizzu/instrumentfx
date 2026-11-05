@@ -170149,5 +170149,23 @@
       "Global expression endpoints,recall androute coverage"
     ],
     "next": "Continue display-priority profiles;preserve independent general,expression andconsolidation queues"
+  },
+  "fm9_turbo_megatap_mixer_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--megatap-texture-and-mixer-row-boundaries",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,57–59",
+    "fm9_instances": {
+      "megatap": 2,
+      "mixer": 4
+    },
+    "qualification": "Reference scope only;22 Megatap type names,installed equivalence andintroduction versions remain unverified.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Drive,Reverb,Megatap named census andremaining category inventories",
+      "Exact pre-MKII Turbo Shopee hardware",
+      "Global expression endpoints,recall androute coverage"
+    ],
+    "next": "Continue display-priority profiles;preserve independent general,expression andconsolidation queues"
   }
 }
