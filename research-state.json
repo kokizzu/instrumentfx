@@ -156492,7 +156492,15 @@
           ],
           "market": "No qualified exact GE300 Lite Shopee offer recovered; original GE300 offers not reused",
           "next": "Continue unresolved display-priority and no-treadle profiles; preserve GT-Pro and GP-200JR→Prime→GE300 queues",
-          "active_inventory_unchanged": 402
+          "active_inventory_unchanged": 402,
+          "usb": {
+            "checked_date": "2026-11-06",
+            "source": "https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf",
+            "revision": "Lite V01-2020.07.22 printed29–30,81",
+            "specification": "USB2.0 Type-B,2IN/2OUT,24bit44.1kHz",
+            "controls": "Rec Vol to computer;Play Vol return;Left/Right independently Direct/Effect;Re-Amp computer→effects;Normal afterward",
+            "qualification": "Historical documented count;not extra stereo dry/wet pairs,current driver equivalence,loopback channel,latency orUSB power proof"
+          }
         }
       },
       {

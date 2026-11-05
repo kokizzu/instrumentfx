@@ -2230,6 +2230,12 @@ Checked **2026-11-06**. [MOOER’s Chinese exact-model product page](https://cn.
 
 The product page retains historical20IR wording; V5.0.2’s50-slot qualification above remains. Release dates are the page’s headings, not independently established first-release or installed versions. No exact Shopee hardware offer emerged from this pass; no IDR or stock inferred. No local download, installation or device operation.
 
+
+| Field | Historical USB specification / qualification |
+|---|---|
+| USB audio / exact channel count | [Own Lite V01-2020.07.22 manual, printed p81](https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf), checked **2026-11-06**, explicitly specifies **USB2.0,2 IN/2 OUT,44.1kHz,24bit**, with Type-B connector. This establishes the documented historical channel count, not measured latency, current-driver/firmware equivalence or USB power. |
+| USB audio / recording versus playback controls | Same manual, printed29–30: **Rec Vol** adjusts audio sent to the computer; **Play Vol** adjusts returned playback. Left/Right Out independently select **Direct** (unprocessed) or **Effect**. Re-Amp feeds computer playback into the effect chain; return to Normal afterward to avoid muted guitar during ordinary recording. These two channels are not extra independent stereo dry and stereo wet pairs; no additional loopback channel is established. |
+
 <!-- comparison evidence ends -->
 
 Firmware qualification: own downloads labels **V5.0.2,2026-01-05** as a factory-resetting major update,with startup black-screen andEXP FXloop-mix fixes. Backups are required by those notes; no update performed. Installed firmware andpreset compatibility remain unverified.
