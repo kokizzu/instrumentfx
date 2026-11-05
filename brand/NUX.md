@@ -526,6 +526,8 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Preset / unsaved edits | Preset-mode module and CTRL/EXP changes require saving; selecting another preset abandons unsaved edits. Factory restore resets user presets and settings. [Manual preset/restore sections][MG20-T2] |
 | Live / practice | **60-second looper;81 rhythm patterns**. Drum part cannot enter looper. SD playback supports MP3 and most WAV/WMA; tempo changes preserve key. [Manual transcription][MG20-T] |
 | Live / routing | MOD can precede EFX or follow EQ; pre-EFX position disables stereo. Position stored per preset. [Manual transcription][MG20-T] |
+| Expression / heel minimum | [Own-manual transcription follow-up](#mg-20--heel-minimum-loop-recovery-and-separate-sold-out-offer): MIN VOLUME sets heel-down volume; numerical endpoints andinitial held-position behavior unverified. Original V1 visual equivalence remains unverified. |
+| Live / loop recovery and editing | Same [exact-model follow-up](#mg-20--heel-minimum-loop-recovery-and-separate-sold-out-offer): Undo/Redo use two-second holds; CTRL double-press within one second returns to Preset/Edit while looping. Clear-all recovery is not established. |
 
 ### Separate IDR hardware offers
 
@@ -537,12 +539,21 @@ Used and new condition-confirmed offers: **not established**. These are historic
 | Unverified | **Rp1.800.000**, AXL STUDIO, shop349012190/item15997732084, Kab.Lamongan [item][MG20-O2] | **Habis**, two-month crawl; Aug7–9 arrival text. Seller title mentions bass; not capability proof. |
 | Unverified | **Rp4.395.000**, UniSeffia, shop318196983/item20795236543, Kota Jakarta Timur [item][MG20-O3] | Two-month crawl; Aug3–6 arrival text. Stock unverified. |
 | Unverified | **Rp2.816.940**, SR Music Square, shop178818236/item7950066014, Kota Bekasi [item][MG20-O4] | **Habis**, two-month crawl; Aug18 arrival text. |
+| Condition unverified; separate sold-out ask, checked2026-11-06 | **Rp3.000.000**, SUMBER REJEQI, shop24983008/item423236161, Kab.Pasuruan [item](https://shopee.co.id/efek-gitar-nux-MG20-i.24983008.423236161) | **Habis**, two-month search/direct snapshots. Not current stock orcondition-qualified new/used range; [full limits andexcluded unresolved low ask](#mg-20--heel-minimum-loop-recovery-and-separate-sold-out-offer). |
 
 <!-- comparison evidence ends -->
 
 Variant, bundle, adapter inclusion, warranty, authenticity, working state, shipping/tax and vouchers unresolved. No condition inferred from seller activity or sold-out status.
 
 Own [NUX legacy product page][MG20-P] links the [English V1 PDF][MG20-M]. Browser reports seven pages but no text; screenshot calls yielded no viewable images. Technical evidence above is the manufacturer-authored MG-20 owner's-manual body transcribed on a mirror, identified by exact model, Cherub copyright2014 and NUX attribution. Mirror FAQ/generated summary excluded. Revision equivalence with current official V1 PDF remains unverified; original visual corroboration still required. No filesystem download or software execution.
+
+### MG-20 — heel minimum, loop recovery and separate sold-out offer
+
+Checked **2026-11-06**. The [manufacturer-authored manual transcription][MG20-T2] identifies exact MG-20 and ©2014 Cherub. **MIN VOLUME** sets fully heel-down volume; numerical endpoints and position recall are unstated. CTRL/EXP function and on/off states save per preset; calibration is separate from assignment. Looper Undo requires a **two-second hold**,with another two-second hold for Redo. Double-press CTRL within one second exits to Preset/Edit while looping,permitting tone changes and return to the loop page. Clear-all is separately described,without an explicit Undo guarantee. SD-player A–B repeat selects start,end,then cancels on the third press;this is backing-track practice,not another recorded loop track. The current official V1 PDF still yields no readable text or inspectable screenshot;revision equivalence remains unverified. No device operation or download.
+
+A separate [SUMBER REJEQI hardware item,shop24983008/item423236161](https://shopee.co.id/efek-gitar-nux-MG20-i.24983008.423236161),Kab.Pasuruan,shows **Rp3.000.000,Habis** in both search and opened **two-month-old snapshots**. Historical sold-out ask,not current stock or a completed sale. Condition,working state,variant,bundle,adapter,warranty,shipping/tax andcheckout remain unverified. August19–22 delivery is stale;late-delivery compensation up toRp10.000 isnot deducted.
+
+The [gogoShop21 item1805980095/49619538349](https://shopee.co.id/EFEK-GITAR-NUX-MG20-NUX-MG-20-MULTI-EFEK-EFECT-GUITAR-MODELING-PROCESSOR-i.1805980095.49619538349) surfaced **Rp468.500** in a four-day search snapshot withNovember3–4 delivery;direct retrieval failed. The indexed link included selected-model metadata,but no readable variant,condition orbundle details. **Excluded from qualified hardware price bounds** until the purchasable item is resolved;the low number alone proves neither an accessory nor fraud.
 
 [MG20-P]: https://nuxaudio.com/product/mg20/
 [MG20-M]: https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf

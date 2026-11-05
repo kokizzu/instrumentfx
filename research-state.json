@@ -78801,7 +78801,37 @@
       "IR/NAM/capture and synth/acoustic engine evidence",
       "Bass/vocal suitability",
       "Qualified condition-specific current hardware prices"
-    ]
+    ],
+    "followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/NUX.md#mg-20--heel-minimum-loop-recovery-and-separate-sold-out-offer",
+      "manual": "https://manuals.plus/nux/mg-20-guitar-modeling-processor-manual",
+      "revision": "Manufacturer-authored ©2014 Cherub MG20 body;official V1 visual equivalence unverified",
+      "finding": "MINVOLUME heel setting;2s Undo/Redo;CTRL double-press exits while looping;SD A-B repeat separate",
+      "offers": [
+        {
+          "shop": "24983008",
+          "item": "423236161",
+          "seller": "SUMBER REJEQI",
+          "region": "Kab.Pasuruan",
+          "asking_idr": 3000000,
+          "stock": "Habis in two-month search/direct snapshots",
+          "condition": "unknown",
+          "qualification": "Historical sold-out ask;variant,bundle,adapter,warranty,workingstate anddelivered total unknown;no voucher deducted"
+        },
+        {
+          "shop": "1805980095",
+          "item": "49619538349",
+          "seller": "gogoShop21",
+          "region": "Kab.Tangerang",
+          "asking_idr": 468500,
+          "access": "Four-day search only;direct inaccessible",
+          "qualification": "Selected-model metadata butvariant unresolved;excluded fromqualifiedhardware bounds;not proof ofaccessory/fraud"
+        }
+      ],
+      "remaining": "Original visual/revision corroboration,complete controls,electrical/software limits,condition-qualified current offers;independentpriority display/GTPro/expression/general queues retained",
+      "inventory_changed": false
+    }
   },
   "discovery_mfx10_20261017": {
     "checked": "2026-10-17",
