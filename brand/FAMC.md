@@ -18,6 +18,7 @@ Partial controller lead,checked **2026-10-31**. [Manufacturer-authored LF+ serie
 |---|---|
 | Display / layout | **LCD above each button** on12+ (p76);p18 numbers buttons1–12,supporting twelve switch displays. Separate main LCD. Diagonal,pixel resolution,touch and pixel-color depth unknown;colored backgrounds do not establish full-color graphics. |
 | Display / controls | Main and button-LCD contrast controls are separate. Button readouts can devote line2 to a second function;an option clears inactive IA labels. Adjustment endpoints unverified. |
+| Memory / controller structures | [Archived library and page conflict](#liquid-foot12--archived-controller-memory-structure):384 presets,254 songs,128 setlists;180 IA slots with60 available per preset through IA-MAP. These are controller records,not audio processing capacity. |
 | Expression / wiring | Four external ports;TRS,5–25kΩ potentiometer;**tip=wiper,ring=toe end,sleeve=heel end**. This converts pedal movement into MIDI control;it does not supply analog audio-volume processing. |
 
 Not an audio multi-effects processor;excluded from active model/brand counts. Dimensions,weight,dedicated supply requirements,complete controls/current editor support andqualified Shopee hardware offers remain unresolved. No files downloaded ordevice operated.
@@ -32,6 +33,20 @@ Same archived manufacturer guide,printed pp9,41:
 - **EXP PDL Resend defaults No** and is a per-preset option to retransmit current continuous-controller pedal values. It does not establish automatic host volume assignment across presets.
 
 No powered connection orhardware test performed;current firmware behavior remains unverified.
+
+### Liquid Foot12+ — archived controller-memory structure
+
+Checked **2026-11-05**, [manufacturer LF+ series guide reproduction,printedpp5,7,16–17](https://manualzz.com/doc/27981410/famc-pro--user-manual). Body explicitly discusses12+; host Pro+ title is not the applicability basis. Undated archived guide,not current-firmware verification.
+
+| Controller object | Documented capacity / boundary |
+|---|---|
+| Presets and songs | **384 presets;254 songs**,each song ordering up to24 presets. Factory occupancy unknown. |
+| Setlists | **128**,each grouping up to60 songs. These organize controller selections,not independent audio rigs. |
+| IA library | **180 stored slots**,but a preset accesses **60** through the selected IA-MAP. Not180 simultaneous effects or physical switches. |
+| Pages | Introduction says **50**,summary **60**; revision/model mapping unresolved. Each page supports60 logical button positions withtwo functions each,including external access;not60 chassis switches. |
+| SysEx library | **254 messages,16bytes each**,linkable. Not audio storage or capture loading. |
+
+The confirmed twelve switch-LCD layout is unchanged. Physical specifications,current editor/firmware andqualified exact Shopee hardware remain unresolved;no download,MIDI transmission ordevice operation.
 
 ## Liquid Foot JR+ — pending controller lead
 
