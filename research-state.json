@@ -170530,5 +170530,24 @@
       "Expression output coverage"
     ],
     "next": "Defer unchanged FM3 name/market gaps;continue other requested separate-screen processors andShopee discovery,retaining independent general andexpression queues"
+  },
+  "fm3_original_headphone_attribution_lead_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--headphone-variant-attribution-still-requires-original-posts",
+    "source": "https://wiki.fractalaudio.com/wiki/index.php?title=Axe-Fx_III%2C_FM9%2C_FM3",
+    "source_class": "Community secondary lead;not primary-authenticated specification",
+    "references": [
+      82,
+      87,
+      91
+    ],
+    "finding": "Indexed attributed statements differ on headphone circuitry scope;original posts/authors/dates not retrieved because direct wiki access returns403.",
+    "unresolved": [
+      "Original manufacturer posts and context",
+      "Exact original-unit production or serial boundaries",
+      "Circuit identity and retrofit support"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Defer unchanged headphone-primary access gap;continue other requested separate-screen hardware/profile gaps,then independent GT-Pro/general queue. Preserve expression andconsolidation queues."
   }
 }

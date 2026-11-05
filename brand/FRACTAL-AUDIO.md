@@ -1429,6 +1429,12 @@ Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, printed3,53,59
 
 **Mixer:** explicitly **four stereo inputs on FM3**, tied to the four grid rows immediately left of the block, including empty rows. Four instances are allowed, CPU permitting. Per-input alignment delay reaches64samples; output can be stereo or summed mono. Mixer cannot be bypassed. The generic six-row labels do not add FM3 inputs, physical ports or simultaneous blocks. No local download or device test.
 
+### FM3 original — headphone-variant attribution still requires original posts
+
+Checked **2026-11-05**: the community-maintained [Fractal Audio Wiki, FM3 specifications](https://wiki.fractalaudio.com/wiki/index.php?title=Axe-Fx_III%2C_FM9%2C_FM3) supplies a more specific secondary lead, not manufacturer-authenticated hardware evidence. Its reference **82** qualifies headphone availability by production batch; attributed quote **87** describes the first run as lacking both jack and headphone circuitry, while quote **91** describes the circuit as unchanged between headphone variants. Their scope cannot be reconciled from the indexed text alone.
+
+The search index exposed these passages, but direct page access returned403, preventing inspection of the linked original posts, authors, dates and context. Preserve all three reference numbers for recovery; do not infer serial-number boundaries, production dates, retrofit capability or identical circuitry. The existing manual describes a headphone-equipped configuration and does not establish every original unit has that socket. **Primary confirmation remains unresolved**; no new Yes/No headphone classification, stock claim or active-inventory change. No download or device operation.
+
 
 ## FM9 MKII Turbo
 

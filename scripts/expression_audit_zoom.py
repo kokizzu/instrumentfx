@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): qualify original FM3 EQ and Mixer inventory'
+        message='research(fractal): retain unresolved FM3 headphone attribution sources'
     print(git('commit','-m',message))
