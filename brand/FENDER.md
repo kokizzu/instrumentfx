@@ -205,6 +205,7 @@ Original11-page PR6171 owner-manual pages corroborate the mirrored guide's effec
 | Controls | **2 ordinary rotary encoders plus 10 rotary footswitch encoders / 10 footswitches / 0 separate front buttons**. Encoder pushes are not counted again; rear ground-lift, update, reset and power controls are separate. [M3,M4] |
 | Memory / historical editing corrections | **1.6.48,2025-08-27:** fixes PAGE-footswitch saving breaking PAGE behavior,Base Preset amp controls following Scene settings during preset changes,and some4×12 British Alnico100 IRs failing toload. These are revision-specific fixes,not independent Scene chains orcurrent hardware failures. [Details](#tone-master-pro--historical-page-save-scene-and-ir-corrections). |
 | Controls / assignment pages | Firmware **1.8.45 (2026-06-03)** adds a second footswitch-assignment page: **16 assignments per preset**, maximum **8 scenes**. These are paged functions,not16 physical switches or LCDs. Blank assignment switches can be held for assignment selection. New looper assignments operate the existing global looper,not another effect block. [Release notes][R],rechecked2026-10-31. |
+| Display / meter andEQ labels | [1.8.58 interface corrections](#tone-master-pro--firmware-qualified-meter-and-eq-label-corrections) cover Seventy Sixer startup metering andEQ-5 Band5 labeling;not added displays orverified audio-algorithm changes. |
 | Live / tuner and mixer controls | [Firmware-qualified strobe/exit policy and strip-level mixer readouts](#tone-master-pro--tuner-mode-and-encoder-operated-mixer-readouts); encoder control is separate from global analog expression. |
 | Main display | **7-inch color touchscreen**. Resolution not established in checked primary text. [P,M3] |
 | Auxiliary displays | **Ten dedicated LCD scribble strips, one per footswitch/rotary encoder**, confirmed by exact manufacturer page2026-10-31. Navigation/master readouts remain separate; do not count them as additional footswitches. Strip diagonals and color/touch properties unverified; LED ring colors are not LCD color specifications. [M3];[Current manufacturer](https://www.fender.com/products/tone-master-pro) |
@@ -803,3 +804,12 @@ Checked **2026-11-05** in the [manufacturer firmware1.5 owner manual reproductio
 The cabinet editor offers **32 microphone placements**: cap,cap edge,cone andcone edge,each ateight distances. Selecting a matrix location loads the corresponding IR. **On-axis** and**45-degree off-axis** are separate orientation choices;off-axis is described as reducing treble. Low/High Cut controls further shape the result. Combo/half-stack cabinet editing andstandalone cabinet blocks expose this workflow.
 
 These selections explain variation within cabinet/microphone libraries;they do not establish32 cabinet models,32 user-import slots,extra simultaneous blocks or a resolved20,000-versus6000 factory total. External Cabinet instead concerns an external non-FR speaker/power-amp path andits Speaker Impedance Curve; it is not another microphone position oracoustic-instrument simulator. Current1.8 behavior andphysical results remain untested;no file downloaded ordevice operated.
+
+### Tone Master Pro — firmware-qualified meter and EQ-label corrections
+
+Checked **2026-11-05**, [manufacturer release history,firmware1.8.58,July15,2026](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates).
+
+- **Seventy Sixer Compressor:** Fender reports correcting a VU meter that initially did not move after replacing another effect. This identifies a display-update correction,not evidence that compression previously failed.
+- **EQ-5:** Fender reports correcting the Band5 label when neither Low Cut norHigh Cut was selected. The note doesnot establish changed filter response,gain range orband count.
+
+These revision-specific claims do not establish which physical screen showed the issue,installed firmware ormeasured behavior. They add no LCDs orfootswitches anddo not resolve global analog-expression coverage. No software downloaded ordevice operated.

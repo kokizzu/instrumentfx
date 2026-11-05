@@ -170308,5 +170308,21 @@
       "Installed-firmware applicability"
     ],
     "next": "Defer unresolved FM9 exact-name andmarket gaps while continuing other requested separate-screen profiles;preserve independent general,expression andconsolidation queues"
+  },
+  "tmp_meter_eq_label_corrections_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FENDER.md#tone-master-pro--firmware-qualified-meter-and-eq-label-corrections",
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "revision": "Firmware1.8.58,July15,2026",
+    "qualification": "Manufacturer-reported interface corrections;not tested hardware oraudio changes.",
+    "active_inventory_unchanged": 402,
+    "source_access": "Current1.8 Model Guide-H endpoint returned unsupported document/pdf;no file downloaded.",
+    "remaining": [
+      "Current complete effect census",
+      "Qualified exact Shopee hardware andstock",
+      "Strip color/touch/diagonal",
+      "Global analog-expression coverage"
+    ],
+    "next": "Continue requested separate-screen profiles andexact Shopee discovery;preserve deferred FM9 andindependent queues"
   }
 }
