@@ -149986,7 +149986,31 @@
     "physical_conflict": "Manual315x68x173mm2.07kgvsUS8.35Wx16.14Lx5.31Hin5.57lb;axes/packagebasisunresolved",
     "shopee": "ExactTwo search returnedOne/Three;noqualifiedoffer,noavailabilitynegative",
     "next": "CompleteTwo-specificrequired-fieldprofile andqualifiedmarket evidencebeforeactiveadmission;LCDmatchesfirstwhennewprimaryevidenceavailable. GeneralBOSSGT-Procursorunchanged.",
-    "downloads": false
+    "downloads": false,
+    "retailer_and_editor_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/BLACKSTAR.md#idx-floor-two--indonesian-retailer-ask-and-editor-release-lead",
+      "offer": {
+        "url": "https://nafiriguitar.com/id/products/blackstar-id-x-floor-two-floorboard-multi-fx-pedal",
+        "corroboration": "https://nafiriguitar.com/id/collections/id-x-collection",
+        "seller": "Nafiri Guitar",
+        "seller_part": "IDXFLOOR2",
+        "ask_idr": 4210000,
+        "crossed_idr": 4552000,
+        "access": "Month-old openedcache;Habis;carttextnotstockproof",
+        "condition": "Unverified",
+        "scope": "NonShopee historicalask;shippingcalculatedatcheckout,otherbundle/tax/warranty/stockunknown;no range"
+      },
+      "editor_lead": {
+        "url": "https://github.com/BlackstarDigitalTeam/KetteringReleases/releases",
+        "versions": [
+          "2.1.2",
+          "2.1.3"
+        ],
+        "status": "Unverifiedfirstpartylink;Architectmanufacturerpage403. Notadoptedminimumversion/OSspec."
+      },
+      "next": "Seek exactqualifiedShopeehardware andmanufacturer-linkedArchitect provenance;retainbody/categoryconflicts andpartialoutside402 status."
+    }
   },
   "m13_legacy_usage_support_20261101": {
     "checked": "2026-11-01",
