@@ -166203,7 +166203,17 @@
     "status": "provisional-originalPDFcorroborationpending",
     "finding": "Transcription mapsFXREC/DUB,MODPLAY/STOP,DELAYUNDO/REDO,REVERBCLEAR;shortclearerases,holdexits,poweroffclearsloop. DoNotcertifycurrenthardware.",
     "next": "Originalpassagecorroboration;USBchannels/globalFVstillunknown. Continueothermodelgapsratherthanunchangedfailures.",
-    "active_count_unchanged": 402
+    "active_count_unchanged": 402,
+    "manufacturer_followup": {
+      "checked": "2026-11-06",
+      "source": "https://nux.cherubtechnology.com/download/Manual/Effects/Integrated_Effects/Trident(NME-5)/NUX_Trident_UserManual_German.pdf",
+      "revision": "Manufacturer-hosted Firmwarev1©2022,22PDFpages;PDF5overview/PDF7operation",
+      "canonical": "brand/NUX.md#trident--manufacturer-looper-controls-and-duration-conflict",
+      "status": "Earlier control transcription corroborated against German manufacturer original;current2.0.1 hardware untested",
+      "duration_conflict": "Same original overview60s versus operation30s;current product30s. No expansion/correction inferred.",
+      "remaining": "USBchannels,globalEXPcoverage,display,currentlibrary/IRformats andqualifiedstock remain unresolved.",
+      "next": "Continue priority individual-footdisplay processors withnew accessible evidence orsystematic required-field/market gaps;preserve independent GT-Pro and GP-200JR→Prime→GE300 queues."
+    }
   },
   "rk5_v3_discovery_20261104": {
     "source": "https://www.tech21nyc.com/wp-content/uploads/2026/01/RK5_v3_OM2.pdf",
@@ -172318,6 +172328,17 @@
       "finding": "Output modes/tuner reference/parameter-follow limits;notglobalEXP proof.",
       "inventory_unchanged": 402,
       "next": "Individual-footdisplay/Shopee priority;continue systematic incomplete profiles;preserve GT-Pro,generaltrio andexpression-volume queues."
+    },
+    "additional_gh_offer": {
+      "checked": "2026-11-06",
+      "url": "https://shopee.co.id/NUX-Trident-NME5-Guitar-Multi-Effect-Pedal-Efek-Gitar-i.71552895.24359154482",
+      "seller": "GH MUSIC STORE",
+      "shop": "71552895",
+      "item": "24359154482",
+      "region": "Kota Tangerang Selatan",
+      "idr": 6790000,
+      "access": "Four-week direct-reader cache;exact hardware title;not live stock",
+      "qualification": "Condition,working state,variation,bundle,adapter/MIDI adapters,warranty/import region,firmware,purchase vouchers,shipping/tax/total unknown;late compensation not deducted"
     }
   },
   "lf12_controller_memory_20261105": {
