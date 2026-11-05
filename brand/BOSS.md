@@ -5033,12 +5033,12 @@ Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. M
 
 | Required field | Verified evidence / unresolved detail |
 |---|---|
-| Expression | External pedal control through FC-50→MIDI documented below;direct analog EXP,built-in pedal andtoe support remain unverified. FC-50 sockets are notSE-50 sockets. |
+| Expression | **No direct analog EXP socket** in the complete documented rear inventory;EFFECT REMOTE/NUMBER SHIFT are switch inputs. FC-50→MIDI is an indirect expression path. No onboard footswitches;toe support unverified. [Connector audit](#se-50--direct-expression-capability-screen). |
 | Knobs / footswitches / buttons | **Two independent input-level rotaries confirmed**;complete K/F/B totals andvisual audit remainunverified. See input-control evidence below. [French manual][SE50-FR] |
 | Display | Diagonal,color,touch andcharacter count unverified from inspectable primary evidence. |
 | Processing / category choices | **28 named algorithms** are grouped below;maximum concurrency andcomplete chain topology remainunverified. Vocal Multi combines limiter,enhancer,noise suppression,delay,chorus,reverb. Catalogue transcription remainsqualified. [Manufacturer history][SE50-H];[French manual][SE50-FR] |
 | Factory / user / total memory | **100 writable locations1–100 +28 protected presets101–128 =128total**. Preset edits must be written to1–100. This is not128user memories. [Roland support][SE50-M]. |
-| Synth / acoustic | Vocoder requirements are documented below;onboard synthesis andacoustic simulation remainunverified. |
+| Synth / acoustic | External-carrier seven-band Vocoder;onboard synthesis/acoustic simulation unverified. Stereo Pitch Shifter±12semitones;input-note polyphony unknown. [Creative scope](#se-50--creative-index-and-midi-control-boundaries). |
 | I/O | **INPUT L(MONO)/R,OUTPUT L(MONO)/R,MIDI IN/OUT,EFFECT REMOTE,NUMBER SHIFT,AC-adapter connection** documented. Control jacks are not an audio loop. Connector sizes,balancing andcomplete electrical limits remainunverified;phones/USB are not listed. Not every algorithm is proven stereo. [French manual][SE50-FR] |
 | Power / battery / USB | Roland recommends **BRB-100/120/220/230/240**,withregional mains/plug compatibility. Exact outputvoltage/current,connector,operatingbattery andUSBpower remain unverified here. Do not substitutePSA based on BOSSbranding. [Power support][SE50-P]. |
 | Dimensions / weight | Unit axes,mass andrevision-dependent differences await readable originalspecifications. |
@@ -5148,7 +5148,7 @@ Checked2026-10-18 using the original©1991 BOSS FC-50 manual: [manufacturer PDF]
 
 | Required field | Evidence / qualification |
 |---|---|
-| Expression / external MIDI path | FC-50 documentation explicitly names **SE-50** as a connected MIDI target. The controller accepts **two external expression pedals**,specifies **Roland EV-5 or BOSS EV-10**,and sends real-time Control Change messages. This documents an indirect pedal→controller→MIDI path;pedal sockets belong to FC-50,not SE-50. Exact CC mapping and target assignment must match the SE-50 algorithm;two independently controllable SE-50 destinations are not established. Direct analog EXP and toe-switch support remain unverified. |
+| Expression / external MIDI path | FC-50 documentation explicitly names **SE-50** as a connected MIDI target. The controller accepts **two external expression pedals**,specifies **Roland EV-5 or BOSS EV-10**,and sends real-time Control Change messages. This documents an indirect pedal→controller→MIDI path;pedal sockets belong to FC-50,not SE-50. Exact CC mapping and target assignment must match the SE-50 algorithm;two independently controllable SE-50 destinations are not established. Direct analog EXP and toe-switch support were unverified atthat check;the later complete-inventory audit establishes no directEXP socket. Toe support remains unverified. |
 | Live / controller MIDI channel | FC-50 defaults to channel1;manual explicitly tells SE-50 users to set its MIDI channel to1 for that setup. This is a controller setup requirement,not proof that SE-50 is restricted to channel1. |
 
 ### SE-50 — stereo pitch and gated flanger behavior
@@ -5166,6 +5166,15 @@ Checked2026-10-18 against the original©1990 [French BOSS manual][SE50-FR],Stere
 Checked2026-10-28 against the original©1990 [French BOSS manual][SE50-FR],external descriptions andfoot-control sections. Complete rear inventory has no analog EXP input: EFFECT REMOTE accepts a bypass switch;NUMBER SHIFT accepts program-step switches. This resolves the earlier direct-input uncertainty for that documented inventory. FC-50 expression-to-MIDI remains an indirect path,not a processor EXP socket.
 
 Guitar/bass connection is explicit. No dedicated headphone socket is listed;front NUMBER controls are hand buttons,not onboard footswitches. Direct analog volume assignment/range/recall are inapplicable. MIDI-volume placement,endpoints,recall,bypass/tail/loop attenuation andchassis fit remain unverified. DIRECT/MUTE effects-off choices are not continuous pedal-volume control. No SE-70 orSE-50A dimensions transferred.
+
+### SE-50 — creative index and MIDI-control boundaries
+
+Checked **2026-11-06** in the [manufacturer-authored French manual][SE50-FR],©1990,printed48–51,with retained exact-model vocoder/keyboard evidence above. Original OCR text,not host-generated advice;official scanned EnglishPDF stillhas no readable text andits screenshot supplied no inspectable image. Installed firmware andaudio behavior untested.
+
+Stereo Pitch Shifter separates left/right pitch,feedback,cross-feedback andwet/dry levels;stereo channels do not establish chord tracking. Its MIDI target is **PITCH FINE L or MASTER LEVEL**;STEREO LINK mustbe ON forfine-pitch control ofboth channels. Readable MIDI receive choices include aftertouch andCC0–31/64–95;one intervening OCR token is unresolved. These are algorithm-specific MIDI controls,not aphysical EXP input oruniform global master assignment.
+
+The existing seven-band Vocoder needs anexternal sustained keyboard carrier;it isnot proof ofan onboard synth. Stereo Flanger’s rhythmicGate,Rotary andcombined reverb/delay algorithms remain distinct special processing. Acoustic-instrument conversion andinput-note pitch polyphony remain unverified. Direct analogEXP isNo perthe retained complete connector audit,correcting the stale summary without transferring SE-70/SE-50A hardware facts.
+
 
 ## SE-70 — partial discovery lead
 
