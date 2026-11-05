@@ -169621,5 +169621,22 @@
       "Global master endpoints, held-position recall and bypass/USB/tail/looper coverage"
     ],
     "next": "Continue remaining display-priority profiles and exact Shopee hardware; preserve GP-200JR → Prime → original GE300, expression and consolidation queues"
+  },
+  "fm3_mkii_modifier_recall_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--modifier-recall-versus-global-volume",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "Firmware7.x owner manual covers Standard/MKII Turbo,printed13,70–71",
+    "finding": "Modifier PC Reset ON uses preset-saved value until external movement/update; modifier Min/Max and 0–10 volume example are not global volume endpoint evidence. Global setup warns against duplicate Volume/External controller mapping.",
+    "qualification": "No global held-position recall, installed firmware13 equivalence or device behavior inferred.",
+    "market": "Exact FM3 MKII Shopee search rediscovered already-recorded Hurtrock/ikarinistore offers; no new qualified hardware price or stock evidence.",
+    "remaining": [
+      "Global numeric endpoints and analog position recall",
+      "Bypass/USB playback and complete route attenuation",
+      "Current installed equivalence",
+      "Qualified live Shopee hardware"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue remaining individual-foot-display profiles and exact Shopee discovery; preserve GP-200JR → Prime → GE300 and independent expression/consolidation queues"
   }
 }
