@@ -169193,5 +169193,28 @@
     ],
     "next": "Continue individual-display model gaps; general GP-200JR -> Prime -> GE300 cycle preserved",
     "inventory_change": 0
+  },
+  "fm3_original_mini_label_formats_20261105": {
+    "model": "Fractal Audio FM3 original",
+    "checked": "2026-11-05",
+    "status": "historical manufacturer-backed mini-display content; physical specs partial",
+    "source": {
+      "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf",
+      "revision": "v1.3 April2022",
+      "pages": "6–10"
+    },
+    "findings": [
+      "Preset/scene Name shows first10 characters; not universal custom-label ceiling",
+      "Effect current versus destination channel labels differ",
+      "TempoBPM label separate from flashing LEDring; no LCD-color inference"
+    ],
+    "remaining": [
+      "Mini LCD dimensions/resolution/color andtouch",
+      "Full custom-label character capacity",
+      "Installed firmware13 equivalence",
+      "Qualified exact-revision Indonesian stock"
+    ],
+    "next": "Continue unresolved individual-display models and market discovery; preserve general cycle and expression queues",
+    "inventory_change": 0
   }
 }

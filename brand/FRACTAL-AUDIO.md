@@ -998,6 +998,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Expression / global volume / range / recall | Global Input1/2 or Output1/2 Volume can use local PEDAL1/2 without preset blocks. Input changes drive;output scales tails. Endpoints,held-position recall,bypass/USB/phones/recorded-loop coverage unknown. Calibration and modifier defaults are separate. [MIDI startup fallback excludes local pedals](#fm3-original--pedal-wiring-and-startup-value-boundary). [Standard-applicable manual](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Knobs / footswitches / buttons | **8 rotary /3 footswitches /12 separate buttons**;the five rotary push functions are counted with their knobs,not added to the12 buttons. [Named-button census](#fm3-original--separate-button-count-and-knob-push-functions). Manufacturer text,not visual census. Power andground-lift controls separate. [Physical evidence](#fm3-original--shared-manual-global-volume-and-hardware-scope);[original panel](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
 | Display | Three individual mini LCDs,one perfoot;separate **800×480 color main display**. Mini size,resolution,color andtouch;main diagonal/touch unknown. MKII larger strips are not transferred. [Original discovery](#fm3-original--partial-historical-lcd-discovery);[panel](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
+| Display / mini-label contents | [Preset/scene names and channel labels](#fm3-original--mini-display-name-and-channel-label-options):name mode shows first10 characters;effect labels can show current or destination channel. These are label formats,not pixel dimensions,touch orLCD-color specifications. |
 | Display / large-font preview | **7.x Standard-covered manual,p4:** Home knobB selects Large Fonts. VALUE previews a preset;ENTER commits. During preview,NAV left/right steps1 andup/down10;afterloading,NAV selects scenes. This is a main-screen mode,not added mini LCDs orproof ofdiagonal/touch. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf),checked2026-11-01. |
 | Live / original-model pedal tuner and LED cues | Manufacturer-authored [cumulative release notes, PDF pp25–27](https://manuals.plus/m/5df87c9e777003d2c13a4831b33fdc4a826978d563b7b25933897a3a2c79b3b0.pdf), checked **2026-11-05**: **3.00, December 18, 2020** adds **Tuner on Heel Down** under MIDI/Remote→Other; the selected controller value **below 5%** opens the tuner. Reusing a volume controller is suggested, not automatic assignment or guaranteed silence. **3.02, March 10, 2021** adds onboard LED-ring tuning cues via Footswitch Tuner Mode and fixes tuner Hold on a TEMPO switch changing tempo. LED rings remain separate from mini-LCD technology. Tuner mute mode retains its own rules; current behavior and exit threshold are untested. |
 | Live / tuner mute scope | **Standard-covered 7.x owner’s manual, p93:** tuner Mute OFF passes audio;OUTPUT silences tails;INPUT mutes atnoise gate whiletails decay. Source selects aphysical input. This doesnot establish global EXP volume endpoints,USB/headphone/recorded-loop coverage orwhole-device bypass. |
@@ -1340,6 +1341,20 @@ Checked **2026-11-05**, [manufacturer Blocks Guide,November2026,p58](https://www
 - **Diffusion Mix/Time** soften the input before the tap network;diffuser LFO modulation adds chorus-like movement. These are controls inside Megatap,not extra Reverb/Chorus block instances. The input envelope follower creates swells rather than universal analog expression-volume control.
 
 Retain the FM3’s separate64-tap/four-second limits,one-block CPU ceiling andunresolved22-name inventory. Actual phase behavior,preset spillover andall-output pedal coverage remain untested.
+
+### FM3 original — mini-display name and channel-label options
+
+<a id="fm3-original--mini-display-name-and-channel-label-options"></a>
+
+Checked **2026-11-05**, [manufacturer Footswitch Functions Guide,v1.3,April2022,pp6–10](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf), explicitly covering FM3 onboard functions. Historical function documentation;current installed behavior untested.
+
+| Label role | Documented display behavior |
+|---|---|
+| Preset/Scene Name | First **10 characters** of the target name;number andcustom-label alternatives are offered selectively. This is not a universal10-character custom-label limit. |
+| Effect labels | Long Name combines a10-character effect-name version andinstance;Short Name uses a3-character abbreviation andinstance. Channel variants can show the **current** channel or **destination** channel. Toggle labels bracket the selected channel;neither selected uses a slash. |
+| Tempo | Can show function,currentBPM orcustom text. Its LED ring flashes tempo;this doesnot establish LCD color. Tap timing registers onpress even with aHold assignment. |
+
+These options change content on theexisting three mini LCDs,not their count,size,resolution ortouch capability. Firmware13 equivalence andfull custom-label character capacity remain unverified. No layout edited ordevice operated.
 
 ## FM9 MKII Turbo
 
