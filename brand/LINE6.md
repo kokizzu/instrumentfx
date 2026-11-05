@@ -1946,6 +1946,18 @@ Checked **2026-11-05**, [manufacturer Helix/HX3.50 release notes](https://kb.lin
 No MIDI sent,controller configured orsoftware downloaded. Installed firmware,current regression status,originalXL power polarity/USB operation,factory-fill andqualified current used/new offers remain unresolved;the earlier8-block/128-preset/4-snapshot anddatedmarket qualifications remain intact.
 
 
+### HX Stomp XL — backup transfer and Windows ARM qualification
+
+Checked **2026-11-05**, [exact-model manufacturer FAQ](https://kb.line6.com/hx-stomp-xl-faq); no revision date, firmware floor or driver build is supplied.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Software / backup portability | Full HX Stomp and HX Stomp XL backup files are **not interchangeable**. Export/import individual presets and IRs instead. HX Edit can open both devices and drag files between their windows; the FAQ requires matching device firmware for that operation. This does not establish unrestricted cross-family preset compatibility. | Exact XL FAQ, backup question |
+| Software / Windows ARM | The FAQ answers negatively but explains that ARM/Snapdragon drivers have **not been tested**. Treat this as unverified manufacturer support, not proof every Windows ARM audio/MIDI operation is impossible. No current driver-build certification is established. | Exact XL FAQ, driver question |
+
+The FAQ also permits Stomp-compatible third-party supplies for XL, but supplies no numerical polarity or current rating there. Exact XL adapter polarity and USB/battery operation remain unresolved. Existing firmware, preset-import qualifications and source conflicts remain intact. No software installed or device operated.
+
+
 ## M5
 
 Effects-only multi-category processor; one selected model plus gate,not a chain processor. Eligible under multi-category scope; distinct from dedicated single-purpose pedals and M9/M13. Checked2026-10-17;partial. Ownership and vocal suitability unverified. Bass suitability documented for Bass Octaver;not every model is certified equally suitable.
