@@ -16,7 +16,7 @@ This category compares the effects themselves: synthesis, harmony/transposition,
 
 Source checks: **2026-11-03**. Each linked canonical brand record contains exact algorithms, revisions, sources and limitations. This is a selected capability comparison, not a fresh certification of every one of the catalogue's 402 active models, current stock, installed firmware or tracking quality.
 
-Owner-confirmed: **HX Effects, GT-1000CORE, GM-800, B1on and MG-300 MKII**. Ownership of H90 and GE300 is not inferred. MG-300 MKII Detune was visually verified2026-11-06;the Harmonist illustration lead remains explicitly unverified.
+Owner-confirmed: **HX Effects, GT-1000CORE, GM-800, B1on and MG-300 MKII**. Ownership of H90 and GE300 is not inferred. MG-300 MKII Harmonist andDetune were visually verified2026-11-06;input-note polyphony andcomplete ranges remain unverified.
 
 | Model | Synth | Pitch | Instrument simulation or tones | Special processing |
 |---|---|---|---|---|
@@ -26,7 +26,7 @@ Owner-confirmed: **HX Effects, GT-1000CORE, GM-800, B1on and MG-300 MKII**. Owne
 | [Original MOOER GE300](brand/MOOER.md#ge300) | Three-layer polyphonic SYNTH; normal pickup | Mono Pitch / Poly Pitch; single-note Intelligent Harmony (3.0.1) | Acoustic1/2/3; separate guitar Tone Capture | Synth arpeggiators; Stutter; Lofi; Ring Mod |
 | [Zoom B1on](brand/ZOOM.md#b1on) | Ba Synth; StdSyn; SynTlk; V-Syn; 4VoiceSyn; Z-Syn | PitchSHFT; mono Ba Pitch; Ba Octave; HPS | Z-Organ; Defret; acoustic simulation unverified | Slicer; sequenced/random filters; RingMod; BitCrush; Bomber |
 | [BOSS GM-800](brand/BOSS.md#gm-800) | ZEN-Core tone engine; divided-pickup/GK or MIDI | PitchShiftr; 2V PShifter; separate note/tuning controls | Piano; organ; orchestral/synth instrument tones | Slicer; Step Filter; ring/vowel; short-loop; bit/vinyl effects |
-| [NUX MG-300 MKII](brand/NUX.md#mg-300-mkii) | Synth unverified; Octave + Rotary organ-like recipe | Octave; Detune visually verified; Harmonist lead unverified | Acoustic IRs; electric-to-acoustic simulator unverified | Shimmer; dual-delay block substitution |
+| [NUX MG-300 MKII](brand/NUX.md#mg-300-mkii) | Synth unverified; Octave + Rotary organ-like recipe | Octave; Harmonist scale harmony; Detune | Acoustic IRs; electric-to-acoustic simulator unverified | Shimmer; dual-delay block substitution |
 
 ## Limits that change the choice
 
@@ -36,7 +36,7 @@ Owner-confirmed: **HX Effects, GT-1000CORE, GM-800, B1on and MG-300 MKII**. Owne
 - **[Original MOOER GE300](brand/MOOER.md#ge300):** Original GE300 only. Synth tracking stays first; FXA mono and FXB poly pitch differ. [Touch/LFO filtering and arpeggiator speeds](brand/MOOER.md#ge300--synth-topology-and-expression-revision-limits-2026-10-28) have distinct controls and units. Original manual: Detune±100 cents; Lofi1.5–44.1kHz/1–16bit controls. Harmony requires 3.0.1 and single-note playing; NAM conversion into AMP does not expand the synth engine.
 - **[Zoom B1on](brand/ZOOM.md#b1on):** Ba Synth and 4VoiceSyn explicitly require single notes; other synth chord support is unverified. Some effects require 1.2; B1Xon pedal-pitch algorithms are excluded.
 - **[BOSS GM-800](brand/BOSS.md#gm-800):** Requires compatible divided-pickup/Serial GK for guitar/bass synthesis; MIDI triggering is separate. Firmware-qualified normal-pickup routing and [separate inter-device stereo GK Audio](brand/BOSS.md#gm-800--gk-audio-is-a-separate-serial-stereo-path) exist, but no direct analog guitar input. Audio MFX polyphony and normal-pickup/GK Audio effects coverage remain unverified.
-- **[NUX MG-300 MKII](brand/NUX.md#mg-300-mkii):** Detune is visually verified in the manufacturer palette;Harmonist GIF,input polyphony,ranges andintroduction firmware remain unverified. Block substitution does not create additional positions. Pitch Bender is not borrowed from original MG-300.
+- **[NUX MG-300 MKII](brand/NUX.md#mg-300-mkii):** Harmonist scale-harmony controls andDetune are visually verified in exact-model manufacturer illustrations;input-note polyphony,complete ranges,introduction firmware andinstalled content remain unverified. Block substitution does not create additional positions. Pitch Bender is not borrowed from original MG-300.
 
 The tables describe available algorithms, not a claim that every listed effect runs simultaneously. Dedicated single-purpose pedals remain in the [separate guitar archive](single-guitar.md); they do not increase active multi-effects counts.
 

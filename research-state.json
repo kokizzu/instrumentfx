@@ -156417,17 +156417,17 @@
           "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_English.pdf"
         ],
         "synth": "Dedicated tracking synth unverified. Manufacturer’s Octave + Rotary example is an organ-like processing recipe, not evidence of an oscillator/instrument-tone engine.",
-        "pitch": "Octave explicitly named in current manufacturer text. Detune is now visually verified in the exact-model manufacturer effects palette (2026-11-06); its input polyphony,range and introduction firmware remain unverified. Harmonist/scale-harmony GIF remains an unverified illustration lead. Original MG-300 Pitch Bender is not inherited.",
+        "pitch": "Octave explicitly named in current manufacturer text. Detune palette and Harmonist block-substitution illustration visually verified2026-11-06. Harmonist artwork shows key selection,MAJOR/MINOR mode,BALANCE andHARMONY controls;input-note polyphony,numeric ranges,introduction firmware andinstalled content remain unverified. Original MG-300 Pitch Bender is not inherited.",
         "instrument": "Three acoustic IRs documented; dedicated electric-to-acoustic simulator unverified. Organ-like Octave + Rotary recipe is separate from acoustic IR processing.",
         "special": "Shimmer Reverb; RVB→DLY substitution permits dual delays. CMP→EFX and EFX→MOD are substitutions, not added block positions.",
-        "limits": "GEN2 release listing does not establish installed firmware or algorithm introduction. Detune palette visually verified2026-11-06;Harmonist GIF anddetailed controls remain unresolved. No dedicated synth inferred from NAM.",
+        "limits": "GEN2 release listing does not establish installed firmware oralgorithm introduction. Exact-model Harmonist frame confirms scale-harmony controls,not chord tracking ormeasured performance. No dedicated synth inferred from NAM.",
         "matrix": [
           "Synth unverified; Octave + Rotary organ-like recipe",
-          "Octave; Detune visually verified; Harmonist lead unverified",
+          "Octave; Harmonist scale harmony; Detune",
           "Acoustic IRs; electric-to-acoustic simulator unverified",
           "Shimmer; dual-delay block substitution"
         ],
-        "qualification": "Detune is visually verified in the exact-model palette; Harmonist GIF,input polyphony,ranges andintroduction firmware remain unverified. Block substitution does not create additional positions. Pitch Bender is not borrowed from original MG-300.",
+        "qualification": "Harmonist andDetune are visually verified in exact-model manufacturer illustrations;input-note polyphony,complete numeric ranges,introduction firmware andinstalled content remain unverified. Block substitution does not create additional positions. Original MG-300 Pitch Bender is not inherited.",
         "owned": true,
         "visual_followup": {
           "checked": "2026-11-06",
@@ -156435,7 +156435,20 @@
           "sha256": "e05300d01b7d20bfee007155d638e08f3e8d4c8f182c9eac7446ede45ebdb163",
           "bytes": 133677,
           "verified": "Detune artwork andcaption",
-          "remaining": "HarmonistGIF;numeric controls;input-note polyphony;introduction firmware"
+          "remaining": "Complete numeric controls;input-note polyphony;introduction firmware;installed content",
+          "harmonist": {
+            "url": "https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/04/MG-300MKII_D_39.gif",
+            "sha256": "106ac5e175e32d7b6582ec3f933cae6ddc695eac4d6f96f3f521a0683fea54cb",
+            "bytes": 638482,
+            "frame": 1,
+            "total_frames": 3,
+            "size": [
+              1000,
+              995
+            ],
+            "verified": "Harmonist name,key selection,MAJOR/MINOR,BALANCE,HARMONY;EFX→MOD substitution",
+            "limits": "Artwork doesnot establish note-handling polyphony,range,tracking quality orfirmware introduction. All3frames inspected;substitution isnot extra block capacity."
+          }
         }
       }
     },
@@ -176581,7 +176594,8 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/04/MG-300MKII_D_02_1.jpg",
-    "cache_policy": "One rolling working photograph and receipt in/tmp; URLs and hashes retained with model findings. Retrieval alone is not visual verification."
+    "requested_url": "https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/04/MG-300MKII_D_39.gif",
+    "cache_policy": "One rolling working photograph and receipt in/tmp; URLs and hashes retained with model findings. Retrieval alone is not visual verification.",
+    "frame": 1
   }
 }

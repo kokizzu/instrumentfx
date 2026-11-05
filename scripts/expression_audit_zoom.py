@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(nux): verify MG-300 MKII Detune illustration'
+        message='research(nux): resolve MG-300 MKII Harmonist illustration'
     print(git('commit','-m',message))

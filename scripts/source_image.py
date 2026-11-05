@@ -33,8 +33,9 @@ class ManufacturerRedirect(urllib.request.HTTPRedirectHandler):
 def validate_image(data):
     if len(data) > LIMIT:
         raise ValueError('Image exceeds 8 MiB limit')
-    if not (data.startswith(b'\xff\xd8\xff') or data.startswith(b'\x89PNG\r\n\x1a\n')):
-        raise ValueError('Response is not a JPEG or PNG photograph')
+    if not (data.startswith(b'\xff\xd8\xff') or data.startswith(b'\x89PNG\r\n\x1a\n')
+            or data.startswith((b'GIF87a', b'GIF89a'))):
+        raise ValueError('Response is not a JPEG, PNG or GIF image')
     return hashlib.sha256(data).hexdigest()
 
 
@@ -79,6 +80,30 @@ def apply():
     print(json.dumps(receipt, indent=2))
 
 
+def render():
+    """Decode a reviewed source into one bounded frame; never execute its content."""
+    from PIL import Image
+    identity()
+    state = json.loads((ROOT / 'research-state.json').read_text())['source_image_inspection']
+    receipt = json.loads(RECEIPT.read_text())
+    data = IMAGE.read_bytes()
+    assert receipt['url'] == state['requested_url'], 'Source changed; retrieve reviewed source'
+    assert validate_image(data) == receipt['sha256'], 'Source bytes changed'
+    frame = state.get('frame', 0)
+    assert isinstance(frame, int) and 0 <= frame < 128
+    Image.MAX_IMAGE_PIXELS = 8 * 1024 * 1024
+    with Image.open(IMAGE) as source:
+        assert source.width * source.height <= Image.MAX_IMAGE_PIXELS
+        frames = getattr(source, 'n_frames', 1)
+        assert frames <= 128 and frame < frames
+        source.seek(frame)
+        output = Path('/tmp/instrumentfx-source-image-view.png')
+        source.convert('RGB').save(output, format='PNG')
+        print(json.dumps({'url': receipt['url'], 'sha256': receipt['sha256'],
+                          'frame': frame, 'total_frames': frames,
+                          'size': source.size, 'rendered': str(output)}))
+
+
 def test():
     for bad in ('http://zoomcorp.com/a.jpg', 'https://localhost/a.jpg',
                 'https://zoomcorp.com.evil.example/a.jpg',
@@ -98,8 +123,19 @@ def test():
         else:
             raise AssertionError('Invalid image accepted')
     assert validate_image(b'\xff\xd8\xffexample')
-    print('PASS: HTTPS host restrictions, credentials, image signatures and size limit')
+    from PIL import Image
+    from io import BytesIO
+    fixture = BytesIO()
+    Image.new('RGB', (2, 2), 'red').save(fixture, format='GIF', save_all=True,
+        append_images=[Image.new('RGB', (2, 2), 'blue')], duration=100)
+    assert validate_image(fixture.getvalue())
+    fixture.seek(0)
+    with Image.open(fixture) as decoded:
+        assert decoded.n_frames == 2
+        decoded.seek(1)
+        assert decoded.convert('RGB').getpixel((0, 0)) == (0, 0, 255)
+    print('PASS: HTTPS host restrictions, credentials, image signatures, size limit and animated GIF frame decoding')
 
 
 if __name__ == '__main__':
-    {'plan': plan, 'apply': apply, 'test': test}[sys.argv[1]]()
+    {'plan': plan, 'apply': apply, 'test': test, 'render': render}[sys.argv[1]]()
