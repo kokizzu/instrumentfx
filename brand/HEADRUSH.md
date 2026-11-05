@@ -473,6 +473,7 @@ The article retains Eleven Rack/Pro Tools wording despite its explicit HeadRush 
 
 | Required field | Model-specific finding / qualification |
 |---|---|
+| Processing / named modulation, filters and utility | [27 manufacturer-listed choices](#prime--named-filter-modulation-and-utility-choices):10 Phaser/Flanger,6 Vib/Trem/Rotary,8 Wah/Filter,3 Utility. Names are library choices,not simultaneous blocks or synth-tracking proof;per-effect firmware introduction unverified. |
 | Memory / MIDI-preset list | [4.1.1 visibility and Scene-copy fixes](#prime--saved-midi-preset-visibility-and-scene-portability):15 visible MIDI Out presets was a dropdown defect,not a documented capacity ceiling. Current storage maximum remains unverified. |
 | Expression | Built-in with toe switch; one external 6.35 mm TRS EXP plus separate TS toe-switch input. Banks of assignments and multiple-parameter control documented. [PR-M pp.7–9] |
 | Expression / assignment modes | [Prime FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions), checked 2026-11-03: Classic mode assigns one parameter per A/B bank and bypasses the previous target on toe change. Advanced mode assigns up to four per bank; switching leaves previous parameters active at maximum. External EXP controls C/D; without a toe switch only C is accessible. Momentary/latching toe type is configurable. These bank behaviors do not establish global volume assignment or numeric endpoints. |
@@ -995,6 +996,21 @@ Quarter-inch main **Line** is listed **+18dBu**, **Amp +6dBu**. Setup recommends
 **FX Loop Level** lists **Rack +18dBu**, **Stomp +6dBu**, but calls the setting a return-input level before describing output levels. Keep that direction ambiguity; it does not resolve input sensitivity or maximum send/return headroom. **Send and Return stereo switches are independent**, allowing their stereo/mono configuration separately. Existing right-return input-selection restrictions remain.
 
 Storage capacity, drive filesystem limits and qualified current Shopee stock were not resolved. No files downloaded, settings changed or device tested.
+
+### Prime — named filter, modulation and utility choices
+
+<a id="prime--named-filter-modulation-and-utility-choices"></a>
+
+Exact-model [manufacturer product page](https://www.headrushfx.com/products/prime/),checked **2026-11-05**;the effects table is not revision-stamped.
+
+| Manufacturer category | Named choices |
+|---|---|
+| Phaser/Flanger —10 | Air Flanger;Analog Flanger;Digital Flanger;Flanger;Orange Phaser;Ring Mod;Square-Phase;Stone Phaser;Tron Phaser;Vibe Phaser |
+| Vib/Trem/Rotary —6 | AIR Vibrato;Panner;Rotary;Tremolo;Tube Tremolo;Vibrato |
+| Wah/Filter —8 | Air Filter;Black Wah;Budda BudWah;Env Filter;More Wah;Shine Wah;Tron Filter;White Bass Wah |
+| Utility —3 | Gate;Kaften Gate;Noise Filter |
+
+These **27 named choices** are not27 simultaneous blocks. Ring modulation,filtering androtary processing do not establish a tracking synth orinput-note polyphony. No per-effect introduction version,latency ortracking quality is established bythis table. Preserve earlier category-count conflicts;this subset isnot a complete current-firmware census. No hardware test.
 
 ## VX5
 

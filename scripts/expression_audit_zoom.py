@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): reconcile original FM3 Drive inventory and lo-fi roles'
+        message='research(headrush): enumerate Prime filter modulation and utility choices'
     print(git('commit','-m',message))

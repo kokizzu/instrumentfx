@@ -169088,5 +169088,24 @@
     ],
     "next": "Continue accessible display-model gaps; keep unresolved FM3 list/hardware questions queued and preserve expression and GP-200JR → Prime → original GE300 queues.",
     "inventory_change": 0
+  },
+  "prime_named_filter_modulation_utility_20261105": {
+    "status": "partial manufacturer-backed named inventory",
+    "model": "HeadRush Prime",
+    "checked": "2026-11-05",
+    "source": "https://www.headrushfx.com/products/prime/",
+    "categories": {
+      "Phaser/Flanger": 10,
+      "Vib/Trem/Rotary": 6,
+      "Wah/Filter": 8,
+      "Utility": 3
+    },
+    "total_named_choices": 27,
+    "limitations": [
+      "Effects table not revision-stamped; per-effect introduction firmware unverified",
+      "Library choices do not establish concurrency, synth tracking, note polyphony, latency or quality",
+      "Existing count conflicts and independent queues preserved; not complete model audit"
+    ],
+    "next": "Continue remaining exact-model evidence gaps; retain general GP-200JR -> Prime -> GE300 cycle and footswitch-display priority"
   }
 }
