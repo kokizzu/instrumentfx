@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro200User census,original15simultaneous claim,Windows endpoints andeight MAIN/SUB output-device choices documented. Continue13vs15countingbasis,otherUSBmodechannelcounts,visualcontrols,globalFVprecedence andqualifiedIDR independently;individual LCD-at-footswitch models takepriority.",
+    "task": "GT-Pro front photograph now corroborates12rotaries/29pushbuttons/noonboardFS;200User census,original15simultaneous claim,Windows endpoints andeight MAIN/SUB output-device choices documented. Continue13vs15countingbasis,otherUSBmodechannelcounts,globalFVprecedence andqualifiedIDR independently;individual LCD-at-footswitch models retainpriority.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -166752,7 +166752,42 @@
     "revision": "OriginalEnglish164pageedition,printedpp11–12;indexed originalbody",
     "finding": "12rotaries/0onboardFS/29pushbuttons. Fivepreampbuttons includeoneCHANNELswitchA/B;24othersp12. Correctcurrent30summary;retainhistoricalevidence. POWER/groundliftseparate.",
     "next": "Visualcorroboration,otherUSBmodechannels,13vs15basis,globalFV andqualifiedIDR. PreserveLCDfirstqueue.",
-    "active_count_unchanged": 402
+    "active_count_unchanged": 402,
+    "visual_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/BOSS.md#gt-pro--manufacturer-front-photograph-control-corroboration",
+      "manufacturer_page": "https://www.boss.info/hu/products/gt-pro/",
+      "source": "https://static.roland.com/assets/images/products/main/gtpro_main.jpg",
+      "bytes": 26282,
+      "sha256": "33f514ec48f87e75328350bf31d0a7eb5822b59a4a742488d19200cdd30f988b",
+      "pixels": [
+        600,
+        146
+      ],
+      "rotaries": {
+        "total": 12,
+        "input_main_sub": 3,
+        "preamp": 7,
+        "patch_value": 1,
+        "patch_level": 1
+      },
+      "pushbuttons": {
+        "total": 29,
+        "preamp": 5,
+        "upper": 10,
+        "lower": 14
+      },
+      "footswitches": 0,
+      "limits": "Actualfrontphoto inspected;fine labels rely onoriginalmanual11–12;POWERseparate;rear ground-lift notvisible;no screenphysicalsize/color/touch inference",
+      "shopee": "ExactGTProquery noqualifiedhardware result;notmarketabsence",
+      "remaining": [
+        "13vs15countbasis",
+        "OtherUSBmodechannelcounts",
+        "GlobalFVprecedence/coverage",
+        "QualifiedIDRhardware"
+      ],
+      "active_inventory_unchanged": 402
+    }
   },
   "gtpro_virtual_pedal_20261104": {
     "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
@@ -176884,7 +176919,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://images.ctfassets.net/8puu65w27ud0/4ZPV99X3f0yEWl6PgJrwQ9/31b0707cae5bd6d54300a55db4b88464/usb-matrix-v4.svg",
+    "requested_url": "https://static.roland.com/assets/images/products/main/gtpro_main.jpg",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0
   }
