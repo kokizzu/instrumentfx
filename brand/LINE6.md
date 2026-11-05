@@ -1926,6 +1926,15 @@ This narrows prior all-bypass uncertainty using XL-specific documentation,not St
 
 Checked2026-10-28 in [manufacturer-authored3.80 manual mirror](https://device.report/m/7e506bff9341be7f9712b0e10533b9bdee5aaf9de1a0a08688b58130ea5d5e35),40-00-0500 RevD,©2024Yamaha,printedpp41–42. Preset changes stop playback unless the destination contains the **same looper algorithm and mono/stereo type**. Playback controls recorded-loop level; Overdub controls repeated-pass decay,with90% reducing the previous loop10% per overdub pass. These are different controls,not universal master-volume assignment. Loop continuity does not establish EXP attenuation; coverage still depends on the preset’s Volume block and signal path and remains untested. Original manual body/identity read as text;no visual audit,local download ordevice operation.
 
+### HX Stomp XL — exact e-one Shopee hardware offer
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| IDR / condition-unverified hardware | Checked **2026-11-05**: **Rp12.000.000**, **e-one music store**,KotaTangerangSelatan,shop117789230/item57319190902. Exact title **Line6 HX Stomp XL Digital Effects Guitar**;six-day search snapshot. URL carries display-model ID416609451190;actual selected variant,processor/bundle contents,adapter,condition,warranty,authenticity,installed firmware,current stock,shipping/tax,voucher eligibility andcheckout total remain unknown. Search has noHabis marker;that isnot stock verification. Search-category “Produk Baru” doesnot establish unused condition. Relative same-day arrival andlate-deliveryRp10.000 compensation are not current availability orpurchase discounts. Clean andparameterized direct reopens failed. Keep separate from Seven Stereo’s olderRp14.900.000 offer;not a verified used/new range orcompleted sale. | [Exact item](https://shopee.co.id/Line6-HX-Stomp-XL-Digital-Effects-Guitar-i.117789230.57319190902); [search selection](https://shopee.co.id/Line6-HX-Stomp-XL-Digital-Effects-Guitar-i.117789230.57319190902?extraParams=%7B%22display_model_id%22%3A416609451190%2C%22model_selection_logic%22%3A3%7D) |
+
+OriginalXL identity andtechnical qualifications remain in the manufacturer-backed record above;this market observation adds no sibling specifications,ownership orseparate-footdisplay claim. Current used/new-condition offers andother technical gaps remain open. No download,transaction ordevice operation.
+
+
 ## M5
 
 Effects-only multi-category processor; one selected model plus gate,not a chain processor. Eligible under multi-category scope; distinct from dedicated single-purpose pedals and M9/M13. Checked2026-10-17;partial. Ownership and vocal suitability unverified. Bass suitability documented for Bass Octaver;not every model is certified equally suitable.
