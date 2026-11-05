@@ -169414,5 +169414,31 @@
     ],
     "next": "Global-volume manufacturer clarification remains open;continue other substantive priority-display/catalogue gaps without repeating failed MiniPDF fetches",
     "inventory_change": 0
+  },
+  "tonex_board_110_release_scope_20261105": {
+    "model": "IK Multimedia TONEX Board",
+    "checked": "2026-11-05",
+    "status": "partial model; firmware-release confirmation",
+    "canonical": "brand/IK-MULTIMEDIA.md#tonex-board--firmware-110-usb-and-scene-release-confirmation",
+    "source": {
+      "url": "https://ikmultimedia.com/en-us/blogs/news/ik-releases-new-tonex-2-player",
+      "date": "2026-10-02",
+      "hardware_firmware": "1.1.0",
+      "software": "TONEX2Player2.1"
+    },
+    "findings": [
+      "Explicit release ofUSB4in2out audio andUSB MIDI supersedes earlier announcement uncertainty without claiming tested operation",
+      "Input Output Split Mix sceneassignable",
+      "Compatible-preset spillover preference not globalvolume",
+      "SAFE MODE andnewtuner shortcuts; exactunlock procedure unverified"
+    ],
+    "limitations": [
+      "No installedfirmware test",
+      "USB streamindices formats drivers hostmode unverified",
+      "No futureeffect availability inferred fromlateOctober promise",
+      "Supply conflict andglobalvolume endpoints/coverage unresolved"
+    ],
+    "next": "Continue Board remaining exacthardware/globalvolume/currenteffects gaps andqualified Indonesian offer search; preserve individual-display priority andgeneral cycle",
+    "inventory_change": 0
   }
 }

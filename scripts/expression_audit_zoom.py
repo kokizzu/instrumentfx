@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(neural): qualify community Nano editor platform and test scope'
+        message='research(ik): confirm TONEX Board firmware USB and scene additions'
     print(git('commit','-m',message))

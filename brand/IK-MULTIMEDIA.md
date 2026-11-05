@@ -122,6 +122,21 @@ The Instrument column labels **160 Electric Guitar,15 Acoustic Guitar,58 Electri
 
 Current firmware/library equivalence, exact Shopee stock, supply-voltage conflict and complete expression-volume coverage remain open. Partial profile remains outside active counts; no preset files downloaded or device operated.
 
+### TONEX Board — firmware1.1.0 USB and scene release confirmation
+
+<a id="tonex-board--firmware-110-usb-and-scene-release-confirmation"></a>
+
+Checked **2026-11-05**, [IK manufacturer announcement,October2,2026](https://ikmultimedia.com/en-us/blogs/news/ik-releases-new-tonex-2-player). **Board firmware1.1.0** and **TONEX2Player2.1** are separate hardware/software releases. This provides explicit release confirmation beyond the earlier future-tense October1 wording;installed versions andoperation remain untested.
+
+| Area | Release-specific finding / limit |
+|---|---|
+| USB | Adds **4-input/2-output USB audio**:two effected andtwo DI channels,withassignable stereo return routed tophysical outputs. Adds **USB MIDI**. Exact stream indices,host modes,sample formats anddriver/OS requirements need separate documentation;not every controller’s compatibility. |
+| Scene control | **Input,Output,Split,Mix parameters** become scene-assignable. Improved audio-bypass behavior andlowerCPU are manufacturer claims,not measured seamless switching orproof every combination fits. |
+| Spillover | New **Global Preset Spillover Bypass** preference controls behavior between **compatible presets**. Compatibility rules andEXP attenuation oftails remain unverified;global spillover isnot global volume assignment. |
+| Live control | Double-tap gear bypass;time effects defaultSyncOn. Tuner available fromSettings orholding theactiveScene switch inSceneMode. HoldingHOME entersSAFE MODE andlocks functions;unlock details are not supplied here. |
+
+TONEX Rig is an optional software upgrade included forregisteredBoard owners;not proof every TONEXPlayer user receives thewholeBoard chain. Future effects promised forlateOctober are not certified shipped bythat promise. Preserve the separately dated76-effect and233-factory-preset censuses. Hardware supply conflict,full global-expression coverage,physical verification andqualified Indonesian stock remain open. Partial lead stays outside active counts;no downloads ordevice operation.
+
 ## TONEX ONE
 
 Standard TONEX ONE guitar/bass processor, not TONEX ONE+, Bass Edition or an artist variant. Consolidated and partially refreshed **2026-10-17**; no additional active model.
