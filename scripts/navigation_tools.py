@@ -27,14 +27,18 @@ def audit():
     special='effects/findings/2026-10-14-flamma-fv01.md'
     unclassified=[p for p in legacy if p not in records and p!=special]
     for path,entry in records.items():
-        if (ROOT/path).is_file():
+        if path.endswith('.md'):
+            current=research.read_compatibility_redirect(path,state)
+            if shared.digest(current)!=entry['redirect_sha256']:
+                errors.append(dict(source=path,error='redirect hash drift'))
+        elif (ROOT/path).is_file():
             if shared.digest((ROOT/path).read_text())!=entry['redirect_sha256']:
                 errors.append(dict(source=path,error='redirect hash drift'))
         else:
             removed=state['migration'].get('json_pointer_removal',{})
             assert removed.get('status')=='removed' and path in removed.get('records',{}), path
         research.read_preserved_source(path)
-    report=dict(scope='Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.',markdown_files=len(paths),local_link_occurrences=len(links),legacy_files=len(legacy),registered_redirects=len(records),separately_verified_archival_redirect=[special],unclassified_legacy_files=unclassified,errors=errors,root_to_legacy_links=sum(l['source'].find('/')<0 and l['target'].startswith('effects/') for l in links))
+    report=dict(scope='Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.',markdown_files=len(paths),local_link_occurrences=len(links),legacy_files=len(legacy),registered_redirects=len(records),separately_verified_archival_redirect=[special] if special not in records else [],unclassified_legacy_files=unclassified,errors=errors,root_to_legacy_links=sum(l['source'].find('/')<0 and l['target'].startswith('effects/') for l in links))
     # Keep an exact remaining-link census so retirement is based on callers, not model counts.
     from collections import Counter
     boundary = [link for link in links if '/' not in link['source'] and link['target'].startswith('effects/')]

@@ -373,11 +373,16 @@ def archive_outputs(files):
     bass='# Single-purpose bass effects — separate archive\n\n[All bass multi-effects](all-bass.md) · [Single guitar](single-guitar.md) · [Repository](README.md)\n\nDedicated pedals are not promoted to bass multi-effects merely because they have multiple sounds or memories. These are shared records, not new active catalogue entries. No new price or specification verification is claimed.\n\n| Dedicated model | Bass-related function | Complete preserved comparison |\n|---|---|---|\n| BOSS SY-1 | Standard-input guitar/bass synthesizer; one selected engine, 121 sounds | [Controls, memory, I/O, power, historical prices and sources](single-guitar.md#archived-hardware-and-expression) |\n| BOSS SY-200 | Standard-input guitar/bass synthesizer; one selected engine, 171 sounds and 128 memories | [Full archive](single-guitar.md#archived-processing-and-memory) |\n\nOther dedicated bass-effect records have not been researched here. Absence is not a negative capability claim or market-coverage claim.\n'
     return {'single-guitar.md':guitar,'single-vocal.md':vocal,'single-bass.md':bass,path:specialist,fvpath:fvredirect}
 
+def ensure_specialist_archive_metadata(state, input_hashes):
+    if 'separate_specialist_archives' not in state:
+        state['separate_specialist_archives'] = {'single-guitar.md':['BOSS SY-1','BOSS SY-200','BOSS AC-3','BOSS VO-1','BOSS XS-100'],'single-bass.md':['BOSS SY-1','BOSS SY-200'],'single-vocal.md':['Flamma FV01','BOSS VO-1 (cross-reference)'],'counted_as_active':False,'moved_on':'2026-10-16','legacy_anchor_redirects_preserved':True,'source_before_move_sha256':{p:input_hashes[p] for p in ('effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md')}}
+
+
 def migration_counts(state, membership):
     """Derive live resume summaries without touching dated preservation evidence."""
     return {
         'root_category_and_instrument_views': f"Four-table comparisons: {len(membership['all-guitar.md'])} guitar, {len(membership['all-bass.md'])} documented bass-capable, {len(membership['all-vocal.md'])} vocal; technical and market verification remain incomplete.",
-        'warning': f"{state['canonical_root_model_count']} root-canonical models;{state['legacy_only_model_count']} legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+        'warning': f"{state['canonical_root_model_count']} root-canonical models;{state['legacy_only_model_count']} legacy-only. Specification and market research remain incomplete.",
     }
 
 
@@ -404,7 +409,7 @@ def apply_plan():
     state['instrument_views']['all-guitar.md']={'record_count':len(payload['view_membership']['all-guitar.md']),'scope':'All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only','technical_refresh':False}
     state['instrument_views']['all-bass.md']={'record_count':len(payload['view_membership']['all-bass.md']),'bass_focused_record_count':len(BASS_FOCUSED),'shared_bass_capable_count':len(BASS_SHARED),'scope':'All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved','technical_refresh':False}
     state['instrument_views']['all-vocal.md']={'record_count':len(payload['view_membership']['all-vocal.md']),'vocal_only_count':len(VOCAL_ONLY),'combined_instrument_count':len(VOCAL_SHARED),'scope':'All retained vocal/live-mic records across four comparison tables','technical_refresh':False}
-    state.setdefault('separate_specialist_archives',{'single-guitar.md':['BOSS SY-1','BOSS SY-200','BOSS AC-3','BOSS VO-1','BOSS XS-100'],'single-bass.md':['BOSS SY-1','BOSS SY-200'],'single-vocal.md':['Flamma FV01','BOSS VO-1 (cross-reference)'],'counted_as_active':False,'moved_on':'2026-10-16','legacy_anchor_redirects_preserved':True,'source_before_move_sha256':{p:payload['input_hashes'][p] for p in ('effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md')}})
+    ensure_specialist_archive_metadata(state, payload['input_hashes'])
     state['validation'].update(validation_counts(state, payload['view_membership']))
     (ROOT/'research-state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
     print('Applied reviewed plan: '+', '.join(payload['outputs']))
@@ -1119,6 +1124,10 @@ def test_field_extraction():
 
 
 def test_readme_brand_counts():
+    retained = {'separate_specialist_archives': {'source_before_move_sha256': {'old-path': 'retained-pin'}}}
+    before_archive_metadata = json.dumps(retained, sort_keys=True)
+    ensure_specialist_archive_metadata(retained, {})
+    assert json.dumps(retained, sort_keys=True) == before_archive_metadata, 'Existing archive provenance must not require deleted input files'
     state = json.loads((ROOT/'research-state.json').read_text())
     text = (ROOT/'README.md').read_text()
     fixture = json.loads(json.dumps(state))

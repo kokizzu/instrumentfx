@@ -49,12 +49,19 @@ def read_compatibility_redirect(path, state=None, read_current=None, read_blob=N
     assert key in retired, 'Unregistered compatibility path: '+key
     technical_removed = migration.get('removed_technical_redirects', {})
     metadata_removed = migration.get('removed_metadata_redirects', {})
-    assert not set(technical_removed).intersection(metadata_removed), 'Duplicate removal scopes'
+    archive_removed = migration.get('removed_archive_redirects', {})
+    groups = [set(technical_removed), set(metadata_removed), set(archive_removed)]
+    assert sum(map(len, groups)) == len(set().union(*groups)), 'Duplicate removal scopes'
+    if key in archive_removed:
+        from archive_retirement import SOURCES as archive_sources
+        assert key in archive_sources, 'Unknown archive removal path'
+        expected_kind = 'retired_specialist_redirect' if key == archive_sources[0] else 'retired_archive_redirect'
+        assert retired[key].get('status') == expected_kind, 'Wrong archive redirect kind'
     if key in metadata_removed:
         from metadata_consolidation import SOURCES as metadata_sources
         assert key in metadata_sources, 'Unknown metadata removal path'
         assert retired[key].get('status') == 'retired_metadata_redirect', 'Wrong metadata redirect kind'
-    removed = technical_removed.get(key) if key in technical_removed else metadata_removed.get(key)
+    removed = next((group[key] for group in (technical_removed, metadata_removed, archive_removed) if key in group), None)
     read_current = read_current or (lambda: (ROOT/key).read_text())
     if removed is None:
         return read_current()
@@ -157,10 +164,29 @@ def test_compatibility_redirect_reader():
             pass
         else:
             raise AssertionError('Invalid metadata removal accepted: '+change)
+    archive_path = 'effects/specialist.md'
+    archive = {'migration': {'retired_sources': {archive_path: {'redirect_sha256': sha, 'status': 'retired_specialist_redirect'}},
+               'removed_archive_redirects': {archive_path: {'redirect_commit': 'c'*40, 'redirect_sha256': sha}}}}
+    assert read_compatibility_redirect(archive_path, archive, missing, lambda obj: body if obj == 'c'*40+':'+archive_path else '', lambda: False) == body
+    for change in ('wrong-kind', 'duplicate', 'wrong-body', 'present-file'):
+        fixture = copy.deepcopy(archive)
+        if change == 'wrong-kind':
+            fixture['migration']['retired_sources'][archive_path]['status'] = 'retired_metadata_redirect'
+        if change == 'duplicate':
+            fixture['migration']['removed_technical_redirects'] = fixture['migration']['removed_archive_redirects']
+        try:
+            read_compatibility_redirect(archive_path, fixture, missing,
+                                       lambda obj: body+'changed' if change == 'wrong-body' else body,
+                                       lambda: change == 'present-file')
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('Invalid archive removal accepted: '+change)
     print('PASS: technical/metadata removed redirects reconstruct exactly; missing intent, drift, wrong kind, duplicate scopes and invalid provenance fail')
 
 
 def verify_compatibility_readers():
+    import hashlib
     """Exercise the current redirect reader against every exact technical redirect."""
     from technical_retirement import SOURCES, redirect
     state = json.loads((ROOT/'research-state.json').read_text())
@@ -187,6 +213,16 @@ def verify_compatibility_readers():
                                              exists=lambda: False)
         assert actual == expected, path
     print('PASS: 13 metadata live/intended-removal reads match generated redirects and exact Git pins; no files mutated')
+    import archive_retirement
+    archive_pins = state['migration'].get('archive_compatibility_removal', {}).get('redirect_pins', {})
+    entries = simulated['migration'].setdefault('removed_archive_redirects', {})
+    for path in archive_retirement.SOURCES:
+        expected = archive_retirement.redirect(path, read_preserved_source(path), records[path]['source_commit'])
+        assert read_compatibility_redirect(path, state) == expected
+        if path not in entries:
+            entries[path] = {'redirect_commit': head if path in tracked else archive_pins[path]['redirect_commit'], 'redirect_sha256': hashlib.sha256(expected.encode()).hexdigest()}
+        assert read_compatibility_redirect(path, simulated, lambda: '', exists=lambda: False) == expected
+    print('PASS: two specialist/archive live and intended-removal reads match exact generated content and Git pins')
 
 def verify_continuation_state(state):
     assert 'resume_cursor' not in state, 'Deprecated live resume_cursor conflicts with authoritative cursor; preserve it as history instead'

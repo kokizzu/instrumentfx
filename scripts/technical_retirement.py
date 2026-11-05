@@ -297,8 +297,10 @@ def specialist_verify():
         boss=preservation_text('brand/BOSS.md')
         body=boss.split(SPECIALIST_MARKER+'\n',1)[1].split('<!-- specialist page context ends -->',1)[0]
         assert body==specialist_context(original)
-        assert (ROOT/SPECIALIST).read_text()==specialist_stub(original,record['source_commit'])
-        assert shared.digest((ROOT/SPECIALIST).read_text())==record['redirect_sha256']
+        current=research.read_compatibility_redirect(SPECIALIST,state)
+        assert current==specialist_stub(original,record['source_commit'])
+        assert shared.digest(current)==record['redirect_sha256']
+        assert not (SPECIALIST in state['migration'].get('removed_archive_redirects',{}) and specialist_incoming()), 'Link to removed specialist redirect'
     for link in specialist_incoming():
         assert not link['fragment'] or link['fragment'] in shared.anchors((ROOT/SPECIALIST).read_text()),str(link)
     print('PASS: GM-800 complete section, excluded original archive, specialist context and incoming anchors;retired='+str(bool(record)))

@@ -8,6 +8,7 @@ sys.dont_write_bytecode = True
 import research_tools as research
 import technical_retirement as technical
 import source_retirement as shared
+import archive_retirement as archive
 
 ROOT = research.ROOT
 PLAN = Path('/tmp/instrumentfx-compatibility-operation.json')
@@ -15,7 +16,9 @@ CHECKPOINT = Path('/tmp/instrumentfx-compatibility-operation-checkpoint.json')
 
 
 def scope_info(scope):
-    assert scope in ('technical', 'metadata'), 'Unknown operation scope'
+    assert scope in ('technical', 'metadata', 'archive'), 'Unknown operation scope'
+    if scope == 'archive':
+        return dict(sources=archive.SOURCES, removed='removed_archive_redirects', record='archive_compatibility_removal', module=archive, history=str(archive.REPORT), history_sources=2)
     return dict(sources=technical.SOURCES if scope == 'technical' else shared.SOURCES,
                 removed='removed_'+scope+'_redirects', record=scope+'_compatibility_removal',
                 module=technical if scope == 'technical' else shared,
@@ -46,7 +49,7 @@ def validate_observations(before, live, after, resuming=False):
 
 
 def operation_paths(extra=(), names=None):
-    assert set(extra) <= set(technical.SOURCES) | set(shared.SOURCES), 'Unknown compatibility operation path'
+    assert set(extra) <= set(technical.SOURCES) | set(shared.SOURCES) | set(archive.SOURCES), 'Unknown compatibility operation path'
     if names is None:
         names = research.git('ls-files', '-z', '--cached', '--others', '--exclude-standard').split('\0')
     return sorted(set(filter(None, names)) | set(extra))
@@ -93,7 +96,8 @@ def build_outputs(before, action, items, scope='technical'):
     old = 'Historical link spellings remain recoverable through mappings in `research-state.json`; legacy compatibility files preserve old anchors and pinned-source provenance. Their continued presence means the overall migration remains incomplete.'
     new = 'Historical link spellings and pinned-source provenance remain recoverable through `research-state.json` and Git. Remaining legacy compatibility files mean the overall migration is still incomplete.'
     if action == 'remove':
-        assert old in readme or new in readme, 'README navigation paragraph changed'
+        revised = 'Historical link spellings and pinned-source provenance remain recoverable through '+chr(96)+'research-state.json'+chr(96)+' and Git. Original legacy content is consolidated in root documents and the ledger; final migration verification and technical research remain incomplete.'
+        assert old in readme or new in readme or revised in readme, 'README navigation paragraph changed'
         readme = readme.replace(old, new)
     return {'research-state.json': json.dumps(state, ensure_ascii=False, indent=2)+'\n', 'README.md': readme}
 
@@ -145,6 +149,7 @@ def restore_missing(target, text):
     """Publish a complete restored file atomically, refusing an existing path."""
     import os
     import tempfile
+    target.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.NamedTemporaryFile('w', dir=target.parent, prefix='.'+target.name+'.', delete=False) as stream:
         stream.write(text)
         temporary = Path(stream.name)
@@ -218,6 +223,8 @@ def apply():
 
 
 def test():
+    assert scope_info('archive')['sources'] == archive.SOURCES
+    assert set(archive.SOURCES).isdisjoint(set(technical.SOURCES) | set(shared.SOURCES))
     assert scope_info('metadata')['sources'] == shared.SOURCES
     assert set(scope_info('metadata')['sources']).isdisjoint(scope_info('technical')['sources'])
     assert operation_paths(['effects/SCOPE.md'], ['README.md']) == ['README.md', 'effects/SCOPE.md']
@@ -246,6 +253,9 @@ def test():
         target = Path(directory)/'redirect.md'
         restore_missing(target, 'exact redirect\n')
         assert target.read_text() == 'exact redirect\n'
+        nested = Path(directory)/'effects'/'findings'/'redirect.md'
+        restore_missing(nested, 'nested exact redirect\n')
+        assert nested.read_text() == 'nested exact redirect\n'
         try:
             restore_missing(target, 'overwrite attempt')
         except FileExistsError:
@@ -281,6 +291,8 @@ if __name__ == '__main__':
         plan(mode.split('-')[0])
     elif mode in ('metadata-remove-plan', 'metadata-restore-plan'):
         plan(mode.split('-')[1], 'metadata')
+    elif mode in ('archive-remove-plan', 'archive-restore-plan'):
+        plan(mode.split('-')[1], 'archive')
     elif mode == 'apply':
         apply()
     else:

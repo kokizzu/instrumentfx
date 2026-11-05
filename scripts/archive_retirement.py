@@ -16,6 +16,53 @@ REPORT = Path('/tmp/instrumentfx-archive-history-audit.json')
 def digest(body):
     return hashlib.sha256(body.encode()).hexdigest()
 
+def redirect(path, original, commit):
+    import technical_retirement
+    if path == SOURCES[0]:
+        return technical_retirement.specialist_stub(original, commit)
+    assert path == SOURCES[1]
+    text = original.split('\n',1)[0]+'\n\nThe complete archived record is now [single-vocal.md](../../single-vocal.md#flamma-fv01-corrector). It remains explicitly excluded; no facts or sources were discarded.\n\n'
+    for heading in re.findall(r'^## (.+)$', original, re.M):
+        from comparison_views import slug
+        text += '## '+heading+'\n\n[Preserved section](../../single-vocal.md#'+slug(heading)+').\n\n'
+    return text
+
+def incoming():
+    import source_retirement
+    return [link for path in sorted(ROOT.glob('*.md'))+sorted((ROOT/'brand').glob('*.md'))+sorted((ROOT/'effects').rglob('*.md'))
+            for link in source_retirement.local_links(str(path.relative_to(ROOT)), path.read_text()) if link['target'] in SOURCES]
+
+REGISTRATION_PLAN = Path('/tmp/instrumentfx-archive-registration-plan.json')
+
+def registration_plan():
+    research.identity()
+    research.verify()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    path = SOURCES[1]
+    assert path not in state['migration']['retired_sources']
+    commit = research.git('rev-parse', '9c8d296').strip()
+    original = research.git('show', commit+':'+path)
+    assert digest(original) == state['separate_specialist_archives']['source_before_move_sha256'][path]
+    current = (ROOT/path).read_text()
+    assert current == redirect(path, original, commit)
+    import source_retirement
+    state['migration']['retired_sources'][path] = dict(source_commit=commit, source_sha256=digest(original),
+        redirect_sha256=digest(current), destination='single-vocal.md#flamma-fv01-corrector',
+        original_headings=source_retirement.headings(original), status='retired_archive_redirect')
+    before = (ROOT/'research-state.json').read_text()
+    REGISTRATION_PLAN.write_text(json.dumps(dict(head=research.git('rev-parse','HEAD').strip(),
+        input_sha256=digest(before), output=json.dumps(state,ensure_ascii=False,indent=2)+'\n'),ensure_ascii=False,indent=2)+'\n')
+    print(json.dumps(state['migration']['retired_sources'][path],indent=2))
+
+def registration_apply():
+    import source_retirement
+    research.identity()
+    plan = json.loads(REGISTRATION_PLAN.read_text())
+    assert research.git('rev-parse','HEAD').strip() == plan['head']
+    assert digest((ROOT/'research-state.json').read_text()) == plan['input_sha256']
+    source_retirement.atomic_write(ROOT/'research-state.json',plan['output'])
+    print('PASS: exact FV01 original and current redirect registered; no files removed')
+
 def classify(body, known):
     for kind, text in known.items():
         if body == text:
@@ -168,7 +215,7 @@ def audit():
     reviewed = {(e['source'], e['blob']): e for e in state['migration'].get('archive_history_preservation', [])}
     rows = []
     for path in SOURCES:
-        current = (ROOT/path).read_text()
+        current = research.read_compatibility_redirect(path,state) if path in state['migration']['retired_sources'] else (ROOT/path).read_text()
         original = research.git('show', '9c8d296:'+path)
         assert digest(original) == state['separate_specialist_archives']['source_before_move_sha256'][path]
         known = {'pre-archive-original': original, 'current-redirect': current,
@@ -207,5 +254,9 @@ if __name__ == '__main__':
         preservation_apply()
     elif sys.argv[1:] == ['verify']:
         verify_history()
+    elif sys.argv[1:] == ['registration-plan']:
+        registration_plan()
+    elif sys.argv[1:] == ['registration-apply']:
+        registration_apply()
     else:
         raise SystemExit('Use test or audit')

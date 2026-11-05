@@ -26889,7 +26889,7 @@
     "root_category_and_instrument_views": "Four-table comparisons: 337 guitar, 178 documented bass-capable, 72 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "402 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "402 root-canonical models;0 legacy-only. Specification and market research remain incomplete.",
     "legacy_reference_files": [],
     "stale_cursors_not_to_repeat": [
       "Audota AME-100",
@@ -43559,6 +43559,19 @@
           }
         ],
         "redirect_sha256": "60a28449789479af6ea5c9b84b253564de79dcd6e62b4244def2dce137c6ef68"
+      },
+      "effects/findings/2026-10-14-flamma-fv01.md": {
+        "source_commit": "9c8d2966bd4a47f970078a4e61abc23791cd7147",
+        "source_sha256": "9bbda590bdf6aa656bafb4c4ba675b658142bfce34e571f082e9ca8247ebf38a",
+        "redirect_sha256": "f00430aa33d89945997e3de28f37878f3d8bfab417eedef051c1159c984973da",
+        "destination": "single-vocal.md#flamma-fv01-corrector",
+        "original_headings": [
+          "# Flamma FV01 Corrector — excluded specialist reference",
+          "## Historical IDR asking-price evidence",
+          "## Preserved manufacturer evidence — not an active comparison row",
+          "## Unresolved archival qualifications"
+        ],
+        "status": "retired_archive_redirect"
       }
     },
     "metadata_retirement": {
@@ -57966,7 +57979,49 @@
           ]
         }
       }
-    ]
+    ],
+    "removed_archive_redirects": {
+      "effects/findings/2026-10-14-flamma-fv01.md": {
+        "redirect_commit": "589c27c1f4c297832672fe9a668e50662cb6007c",
+        "redirect_sha256": "f00430aa33d89945997e3de28f37878f3d8bfab417eedef051c1159c984973da"
+      },
+      "effects/specialist.md": {
+        "redirect_commit": "589c27c1f4c297832672fe9a668e50662cb6007c",
+        "redirect_sha256": "c8dfed64e3b1e7517a361bcdda35bd851c69933d037a759f98ea11ea625f79c8"
+      }
+    },
+    "archive_compatibility_removal": {
+      "redirect_pins": {
+        "effects/findings/2026-10-14-flamma-fv01.md": {
+          "redirect_commit": "589c27c1f4c297832672fe9a668e50662cb6007c",
+          "redirect_sha256": "f00430aa33d89945997e3de28f37878f3d8bfab417eedef051c1159c984973da"
+        },
+        "effects/specialist.md": {
+          "redirect_commit": "589c27c1f4c297832672fe9a668e50662cb6007c",
+          "redirect_sha256": "c8dfed64e3b1e7517a361bcdda35bd851c69933d037a759f98ea11ea625f79c8"
+        }
+      },
+      "status": "partial",
+      "removed_paths": [
+        "effects/findings/2026-10-14-flamma-fv01.md",
+        "effects/specialist.md"
+      ],
+      "original_evidence": "Pinned original sources and canonical brand/shared evidence remain unchanged.",
+      "remaining": "Metadata/specialist compatibility and independent technical research remain unfinished.",
+      "rollback": "make archive-compatibility-restore-plan; review exact preview; make technical-compatibility-operation-apply"
+    },
+    "legacy_file_retirement": {
+      "original_paths": 117,
+      "markdown": {
+        "technical": 99,
+        "metadata": 13,
+        "archive": 2
+      },
+      "json_pointers": 3,
+      "files_remaining": 0,
+      "aggregate_verification": "Pending fresh combined history/preservation audit at final published checkpoint",
+      "research_complete": false
+    }
   },
   "deferred_work": {
     "original_display_idr_pages_remaining": [
@@ -174009,5 +174064,24 @@
       ],
       "scope": "This completes review of HEAD-reachable revisions for these two paths,not manufacturer verification,finalredirectremoval orfullgoal completion."
     }
+  },
+  "archive_compatibility_removal_completed_20261105": {
+    "checked": "2026-11-05",
+    "redirect_pin": "589c27c1f4c297832672fe9a668e50662cb6007c",
+    "removed": 2,
+    "original_paths_registered": 117,
+    "legacy_files_remaining": 0,
+    "tests": [
+      "make research-test-compatibility-reader failed before archive support,passed after; disjointscopes andexactkind/hash/Gitpin checks",
+      "make technical-compatibility-operation-test: archive scope separation andrestoration into missing parentdirectories plus existingcollision/drift/replay cases",
+      "make navigation-audit failed at old Markdown-removal assumption,passed after adaptation:117registered originals,0legacyfiles,0broken links,0root-to-legacy links",
+      "Actual remove2→reader andarchive-history checks→restore exact2→reader checks→remove same2again",
+      "make archive-history-audit:9reachable versions,zero pending",
+      "make comparison-plan:allfive outputs unchanged",
+      "make comparison-apply initially failed on eagerly evaluated archive-default hashes; lazy initialization retains existing original pins without missing input files; freshplan/apply thenpassed; regression in README count tests"
+    ],
+    "postcommit_rollback": "Pending actual test after deletion commit before push",
+    "remaining": "Final aggregate migration verification andbroader technical/market research remain incomplete;402active models,6exclusions andindependent queues unchanged.",
+    "next": "Testpostcommit restoration/re-removal; publish checkpoint;run fullaggregate source-history/preservation audit,then resume LCD/Shopee priority andpreserved GT-Pro,expression-volume andGP200JR→Prime→GE300 queues."
   }
 }

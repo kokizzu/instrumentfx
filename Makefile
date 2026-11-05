@@ -2586,3 +2586,15 @@ archive-preservation-apply:
 	python3 scripts/archive_retirement.py preservation-apply
 archive-preservation-verify:
 	python3 scripts/archive_retirement.py verify
+
+.PHONY: archive-registration-plan archive-registration-apply
+archive-registration-plan:
+	python3 scripts/archive_retirement.py registration-plan
+archive-registration-apply:
+	python3 scripts/archive_retirement.py registration-apply
+
+.PHONY: archive-compatibility-remove-plan archive-compatibility-restore-plan
+archive-compatibility-remove-plan:
+	python3 scripts/compatibility_removal.py archive-remove-plan
+archive-compatibility-restore-plan:
+	python3 scripts/compatibility_removal.py archive-restore-plan
