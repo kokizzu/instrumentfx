@@ -2022,6 +2022,17 @@ Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200
 | I/O / global cabinet bypass scope | Saved [manufacturer JR1.8.0 manual,printedp13](https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf),checked2026-11-03: **No CAB mode L/R defaults Off** and removes CAB processing from the corresponding **analog output** when enabled. The text does not establish USB-recording orseparate headphone treatment;do not extend its scope from other models. |
 | Processing / automatic cabinet matching | Same manual **p17**: **Auto CAB Match On** changes CAB selection along with AMP selection. This is a global selection-coupling option,not another slot,userIR conversion,or a requirement that CAB always remain enabled. |
 | Editor / Global EQ source conflict | Same **p18** describes four parametric bands plus Low/High Cut,but repeatedly names **GP-200LT**,including “won’t affect USB audio output”. Preserve this copied-model warning:the JR manual contains that statement,but JR USB-EQ coverage needs an exact-model correction orindependent evidence. Numeric EQ level is not global expression assignment. |
+| I/O / gain and headphone-control qualification | [Own1.5.0 manual](#gp-200jr--input-gain-and-headphone-control-conflict): input gain−20…+20dB,default0dB; electric input default. Recording example names a PHONES knob absent from verified panel census; independent physical headphone level remains unverified. Current1.8.0 equivalence unknown. |
+
+### GP-200JR — input gain and headphone-control conflict
+
+Checked **2026-11-05**, [manufacturer-authored JR manual reproduction](https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149), printed11,20. Body identifies **firmware1.5.0**, despite host title1.4.0; current1.8.0 equivalence unverified.
+
+Input Level spans **−20…+20dB,default0dB**. Electric-guitar input is default; acoustic mode explicitly accommodates piezo pickups, and Line mode accommodates external synthesizers. External synth input support does not establish an internal synth engine.
+
+The recording example claims separate **MASTER and PHONES knobs**. The retained panel census instead identifies PARA,MASTER andthree quick knobs,with no separate PHONES rotary. Preserve this apparent copied-control conflict; independent physical headphone-level control is not established. Do not add a sixth knob or infer headphone attenuation from the MASTER description,which names quarter-inch outputs.
+
+The same example says ASIO is required before Windows10 and describes plug-and-play after Windows10; Windows10 itself is not clearly classified. These historical audio-host statements do not certify present drivers,editor/updater operation orWindows11 compatibility. The newer family advisory andregional driver listing remain separate. No device,driver orsoftware operation.
 
 ### GP-200JR — I/O, routing and practical features
 
