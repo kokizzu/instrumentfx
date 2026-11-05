@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): retain unresolved FM3 headphone attribution sources'
+        message='research(tc-electronic): qualify X5 tap and encoder tempo controls'
     print(git('commit','-m',message))

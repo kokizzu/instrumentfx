@@ -170549,5 +170549,21 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Defer unchanged headphone-primary access gap;continue other requested separate-screen hardware/profile gaps,then independent GT-Pro/general queue. Preserve expression andconsolidation queues."
+  },
+  "plethora_x5_tap_encoder_controls_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/TC-ELECTRONIC.md#plethora-x5--instant-tap-utility-and-encoder-tempo-adjustment",
+    "source": "https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf",
+    "revision": "1.4.3,19October2023,PDF2–3",
+    "finding": "Immediate Tap/Tuner tap versus hold-tuner;either encoder adjusts last tapped tempo. Not additional controls orproof ofglobal tempo retention.",
+    "remaining": [
+      "Utility-slot cost",
+      "Fine-adjustment step andBPM limits",
+      "Clock transition andBoard/power-cycle retention",
+      "Global analog expression-volume scope andcoverage",
+      "Condition-qualified current Shopee offers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested separate-screen profile andexactmarket gaps;keep unchanged X5 firmware-download/EXP uncertainties deferred. Preserve GT-Pro,general,expression andconsolidation queues."
   }
 }
