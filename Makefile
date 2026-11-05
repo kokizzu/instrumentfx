@@ -2566,3 +2566,9 @@ technical-compatibility-restore-plan:
 	python3 scripts/compatibility_removal.py restore-plan
 technical-compatibility-operation-apply:
 	python3 scripts/compatibility_removal.py apply
+
+.PHONY: metadata-compatibility-remove-plan metadata-compatibility-restore-plan
+metadata-compatibility-remove-plan:
+	python3 scripts/compatibility_removal.py metadata-remove-plan
+metadata-compatibility-restore-plan:
+	python3 scripts/compatibility_removal.py metadata-restore-plan

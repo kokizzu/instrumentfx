@@ -26890,13 +26890,7 @@
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
     "warning": "402 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
-    "legacy_reference_files": [
-      "effects/RESUME.md",
-      "effects/SCOPE.md",
-      "effects/OWNERSHIP.md",
-      "effects/METHODOLOGY.md",
-      "effects/shopee-indonesia.md"
-    ],
+    "legacy_reference_files": [],
     "stale_cursors_not_to_repeat": [
       "Audota AME-100",
       "CUBE BABY family",
@@ -43954,7 +43948,7 @@
       "status": "passed",
       "remaining": "Compatibility paths and preserved historical links intentionally remain;this audit does not certify external offers or full model specifications."
     },
-    "content_consolidation_status": "All117 original legacy paths accounted for;three JSON pointers removed after typed root reconstruction;114 Markdown compatibility files retained for historical anchors. Overall migration and technical research remain incomplete.",
+    "content_consolidation_status": "Original legacy content remains reconstructed in root documents/ledger and pinned Git. 99 technical and 13 metadata redirects removed. Specialist/archive compatibility and technical research remain unfinished.",
     "preservation_repair_20261017": {
       "model": "Zoom::B1 FOUR",
       "source": "effects/bass.md",
@@ -57287,6 +57281,143 @@
       "original_evidence": "Pinned original sources and canonical brand/shared evidence remain unchanged.",
       "remaining": "Metadata/specialist compatibility and independent technical research remain unfinished.",
       "rollback": "make technical-compatibility-restore-plan; review exact preview; make technical-compatibility-operation-apply"
+    },
+    "removed_metadata_redirects": {
+      "effects/COVERAGE.history-2026-10-14.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "4b41aebfd255450f361b493dceb2c8d0a1c84f99817842b2afa4c16a5166d814"
+      },
+      "effects/COVERAGE.history-2026-10-15-pre-boss.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "58794868ff98245ef415cfe3c36524e17835c4d95b0fb4a0acc087c18beb57ba"
+      },
+      "effects/COVERAGE.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "140515ad800da5ac457b759c6e386e3881c7cd321a82eed81dc0ed5a639de6b8"
+      },
+      "effects/METHODOLOGY.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "e4b73a78a21d33a2ec6b310df0916c4e49c5416cb4246253b670e49aafa9af3b"
+      },
+      "effects/MIGRATION.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "a258acb655ca14d0886f59aa7b94769d2e77c8f5df4bfd59180cbc9dc3a0f0cf"
+      },
+      "effects/OWNERSHIP.history-2026-10-14.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "8eba6e63fb178a2c431642b5430c5bf1d6029cb1bfbcfea33aa3926e9ad0468a"
+      },
+      "effects/OWNERSHIP.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "479f2425e8bb2831ea76faf00b35b1f732793a5fd37b21cf7511a8482d2aac68"
+      },
+      "effects/README.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "c5cd69ce14139ce42297baa0fa7bc9720cb1e9e479c58c4ae711d916f8640ebc"
+      },
+      "effects/RESUME.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "840e7ca15e176d2ad26085788d0b68fe638b74da265229ba63366d8e48562f52"
+      },
+      "effects/SCOPE.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "a6e3b41949ed63094c822217753a02c0f8dd12b54c88ea294adc275c278c15fe"
+      },
+      "effects/shopee-indonesia.history-2026-10-14.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "14db1145b111fe761109f82a970108f5a54b1b4395bedff167ebcbca5531c38d"
+      },
+      "effects/shopee-indonesia.history-2026-10-15-pre-boss.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "3f0787ae0ccfd7aa44a839737ce7fb1b269534e2de7630f4ec9f552d30a7b4d5"
+      },
+      "effects/shopee-indonesia.md": {
+        "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+        "redirect_sha256": "4834ebcb1089c7a68647aeefb92751d80c1e1dce9d0ce31c9ed46ed214fea731"
+      }
+    },
+    "metadata_compatibility_removal": {
+      "redirect_pins": {
+        "effects/COVERAGE.history-2026-10-14.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "4b41aebfd255450f361b493dceb2c8d0a1c84f99817842b2afa4c16a5166d814"
+        },
+        "effects/COVERAGE.history-2026-10-15-pre-boss.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "58794868ff98245ef415cfe3c36524e17835c4d95b0fb4a0acc087c18beb57ba"
+        },
+        "effects/COVERAGE.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "140515ad800da5ac457b759c6e386e3881c7cd321a82eed81dc0ed5a639de6b8"
+        },
+        "effects/METHODOLOGY.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "e4b73a78a21d33a2ec6b310df0916c4e49c5416cb4246253b670e49aafa9af3b"
+        },
+        "effects/MIGRATION.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "a258acb655ca14d0886f59aa7b94769d2e77c8f5df4bfd59180cbc9dc3a0f0cf"
+        },
+        "effects/OWNERSHIP.history-2026-10-14.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "8eba6e63fb178a2c431642b5430c5bf1d6029cb1bfbcfea33aa3926e9ad0468a"
+        },
+        "effects/OWNERSHIP.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "479f2425e8bb2831ea76faf00b35b1f732793a5fd37b21cf7511a8482d2aac68"
+        },
+        "effects/README.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "c5cd69ce14139ce42297baa0fa7bc9720cb1e9e479c58c4ae711d916f8640ebc"
+        },
+        "effects/RESUME.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "840e7ca15e176d2ad26085788d0b68fe638b74da265229ba63366d8e48562f52"
+        },
+        "effects/SCOPE.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "a6e3b41949ed63094c822217753a02c0f8dd12b54c88ea294adc275c278c15fe"
+        },
+        "effects/shopee-indonesia.history-2026-10-14.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "14db1145b111fe761109f82a970108f5a54b1b4395bedff167ebcbca5531c38d"
+        },
+        "effects/shopee-indonesia.history-2026-10-15-pre-boss.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "3f0787ae0ccfd7aa44a839737ce7fb1b269534e2de7630f4ec9f552d30a7b4d5"
+        },
+        "effects/shopee-indonesia.md": {
+          "redirect_commit": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+          "redirect_sha256": "4834ebcb1089c7a68647aeefb92751d80c1e1dce9d0ce31c9ed46ed214fea731"
+        }
+      },
+      "status": "partial",
+      "removed_paths": [
+        "effects/COVERAGE.history-2026-10-14.md",
+        "effects/COVERAGE.history-2026-10-15-pre-boss.md",
+        "effects/COVERAGE.md",
+        "effects/METHODOLOGY.md",
+        "effects/MIGRATION.md",
+        "effects/OWNERSHIP.history-2026-10-14.md",
+        "effects/OWNERSHIP.md",
+        "effects/README.md",
+        "effects/RESUME.md",
+        "effects/SCOPE.md",
+        "effects/shopee-indonesia.history-2026-10-14.md",
+        "effects/shopee-indonesia.history-2026-10-15-pre-boss.md",
+        "effects/shopee-indonesia.md"
+      ],
+      "original_evidence": "Pinned original sources and canonical brand/shared evidence remain unchanged.",
+      "remaining": "Metadata/specialist compatibility and independent technical research remain unfinished.",
+      "rollback": "make metadata-compatibility-restore-plan; review exact preview; make technical-compatibility-operation-apply",
+      "legacy_references_before": [
+        "effects/RESUME.md",
+        "effects/SCOPE.md",
+        "effects/OWNERSHIP.md",
+        "effects/METHODOLOGY.md",
+        "effects/shopee-indonesia.md"
+      ],
+      "content_status_before": "All117 original legacy paths accounted for;three JSON pointers removed after typed root reconstruction;114 Markdown compatibility files retained for historical anchors. Overall migration and technical research remain incomplete."
     }
   },
   "deferred_work": {
@@ -173280,5 +173411,23 @@
     },
     "scope": "Preparation only; no metadata removal records added,no source files deleted;15legacyMarkdown remain,402active inventory andindependent research queues unchanged.",
     "next": "Implement scope-separated metadata hash-guarded preview/apply/restore,inspect incoming links and live_reference_files,then verify actual13removal plus postcommit rollback beforepublication. Audit specialist/FV01 separately; continue LCD/Shopee,GT-Pro,expression-volume andGP200JR→Prime→GE300 queues."
+  },
+  "metadata_compatibility_removal_completed_20261105": {
+    "checked": "2026-11-05",
+    "pin": "b40b9ba02e4678dffdfc6c7feef84dd3b0701cd7",
+    "removed": 13,
+    "remaining": [
+      "effects/specialist.md",
+      "effects/findings/2026-10-14-flamma-fv01.md"
+    ],
+    "scope": "Metadata redirects only; original parsed and historical typed evidence preserved in root ledger/Git;99technical removals and402active inventory unchanged.",
+    "tests": [
+      "make technical-compatibility-operation-test: scope separation,unchangedtechnical map,retainedpins,live-reference roundtrip andexisting drift/collision/resume cases",
+      "Actual remove13→metadata-history-audit60versions zero pending→restore13 andexact five-reference list→reader verification→remove same13 again",
+      "make comparison-plan: allfive generated outputs unchanged",
+      "make research-verify:402root canonical,linksresolve,no workflows"
+    ],
+    "postcommit_rollback": "Pending actual drill at deletion commit before push",
+    "next": "Verify actual restoration/re-removal after deletion commit; audit specialist/FV01 history andreaders separately before deleting. Continue individual-footdisplay/Shopee research,GT-Pro,expression-volume andGP200JR→Prime→GE300 queues."
   }
 }
