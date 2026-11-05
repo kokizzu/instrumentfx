@@ -169803,5 +169803,20 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requested individual-foot-display profiles and fresh exact Shopee discovery; preserve GT-Pro,GP-200JR → Prime → originalGE300 and independent expression/consolidation queues"
+  },
+  "gp200jr_bank_confirmation_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/VALETON.md#gp-200jr--switch-mode-assignment-reset",
+    "source": "https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149",
+    "revision": "Manufacturer body firmware1.5.0 printed12–13;host1.4.0 title rejected",
+    "finding": "Mode-specific switch-assignment reset separate from factory reset;bank navigation already recorded under1.8.0,not a new finding",
+    "remaining": [
+      "Current1.8.0 equivalence",
+      "Scenes andlive spillover",
+      "IRconversion andNAM concurrency",
+      "Exactcondition/stock-qualified offers"
+    ],
+    "inventory_unchanged": 402,
+    "next": "HeadRush Prime then original MOOER GE300;preserve independent display/expression/GT-Pro queues"
   }
 }
