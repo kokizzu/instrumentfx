@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(headrush): enumerate Prime time EQ and compressor choices'
+        message='research(headrush): finish Prime named drive and dynamics inventory'
     print(git('commit','-m',message))

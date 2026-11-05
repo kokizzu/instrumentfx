@@ -473,6 +473,7 @@ The article retains Eleven Rack/Pro Tools wording despite its explicit HeadRush 
 
 | Required field | Model-specific finding / qualification |
 |---|---|
+| Processing / named drive and volume-dynamics | [34 named choices](#prime--named-drive-and-volume-dynamics-choices):18 overdrives beneath a16 header,11 distortion/fuzz,5 volume/dynamics. Source conflicts retained;not simultaneous block capacity. |
 | Processing / named delay, reverb, chorus, EQ and compression | [43 listed choices](#prime--named-delay-reverb-chorus-eq-and-compressor-choices):14 Delay,7 Reverb,7 Chorus,9 EQ,6 Compressor. Website grouping is retained;not simultaneous capacity or a certified current-firmware inventory. |
 | Processing / named modulation, filters and utility | [27 manufacturer-listed choices](#prime--named-filter-modulation-and-utility-choices):10 Phaser/Flanger,6 Vib/Trem/Rotary,8 Wah/Filter,3 Utility. Names are library choices,not simultaneous blocks or synth-tracking proof;per-effect firmware introduction unverified. |
 | Memory / MIDI-preset list | [4.1.1 visibility and Scene-copy fixes](#prime--saved-midi-preset-visibility-and-scene-portability):15 visible MIDI Out presets was a dropdown defect,not a documented capacity ceiling. Current storage maximum remains unverified. |
@@ -1028,6 +1029,20 @@ Exact Prime [manufacturer product list](https://www.headrushfx.com/products/prim
 | Chorus —7 | Budda Karma Chorus; C2 Bass Chorus; C2 Chorus; Chorus; Detune; Dim Chorus; Multi Chorus |
 
 These **43 choices** retain the website’s categories: Acoustic Sim and Acoustic Pre are distinct; Detune is listed under Chorus. This does not establish note polyphony or simultaneous capacity. Graphic Bass EQ’s firmware-history evidence and the conflicting detailed-card heading remain preserved above; absence from this compact list does not prove firmware absence. Per-effect introduction dates and installed contents remain unverified.
+
+### Prime — named drive and volume-dynamics choices
+
+<a id="prime--named-drive-and-volume-dynamics-choices"></a>
+
+Exact Prime [manufacturer list](https://www.headrushfx.com/products/prime/), checked **2026-11-05**; table revision unstated.
+
+| Published group | Names |
+|---|---|
+| Overdrive —18 visible names; header16 | Jimmy OD; Palace OD; Anxiety OD; Anxiety OD V2; B2 Drive; Budda OM OD; Budda ZenMan; D250 Drive; Green JRC-OD; Greener; Greener Lite; Grinder Bass OD; K Drive; S1 Drive; Sher'ff; Treble Booster; White Boost; Glorious Drive |
+| Distortion/Fuzz —11 | 8-BIT CRUSH; B DIST 7000; Black Death; BLACK OP; D1 Distortion; DC DISTORT; MX Dist; OCT FUZZ; Round Fuzz; Slab O Meat; TRI FUZZ |
+| Volume/Dynamics —5 | Autoswell; Feedback; Hold; Volume; Sustain |
+
+These **34 names** complete the remaining compact-list groups alongside the separately recorded vocal, synth, rhythmic, pitch and other named inventories. The compact pitch list still repeats Octaves; its detailed cards distinguish Octaves Up. Preserve both representations rather than declare a resolved installed-library total. These choices do not establish concurrent capacity, global expression assignment, freeze behavior, or per-effect introduction firmware. The earlier firmware-qualified Sustain behavior remains authoritative over an inference from its name.
 
 ## VX5
 

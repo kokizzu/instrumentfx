@@ -169127,5 +169127,23 @@
       "Not concurrency or note-polyphony evidence"
     ],
     "next": "Finish remaining named Drive inventory; then resume original GE300 general cycle with separate display/expression priorities preserved"
+  },
+  "prime_named_drive_volume_20261105": {
+    "model": "HeadRush Prime",
+    "status": "remaining compact-list names recorded; model still partial",
+    "checked": "2026-11-05",
+    "source": "https://www.headrushfx.com/products/prime/",
+    "named_choices": 34,
+    "categories": {
+      "Overdrive_visible": 18,
+      "Overdrive_header": 16,
+      "Distortion/Fuzz": 11,
+      "Volume/Dynamics": 5
+    },
+    "limitations": [
+      "Count conflicts remain; no installed-library certification",
+      "Names do not establish global volume, concurrency, freeze behavior or introduction firmware"
+    ],
+    "next": "Resume original MOOER GE300 general queue; retain individual-display priority, exact Shopee availability and independent expression audit"
   }
 }
