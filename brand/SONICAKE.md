@@ -742,6 +742,7 @@ Checked2026-10-28 against the [manufacturer product page][RS-P]. Ordinary electr
 | Screen / dimensions | **1.77-inch color LCD**,pixel resolution/touch unverified. **135 W ×114 D ×51 H mm;378 g**,compact. |
 | Processing | **Nine simultaneous modules** NR,FX1,DRV,AMP,IR,EQ,FX2,DLY,RVB;130+ choices,individual subcounts ?. |
 | Memory / sound | **100 locations,50 factory-filled**. Exact synth/electric-to-acoustic algorithms unverified. |
+| IDR / separate simamura ask | **Rp1.995.000**, [shop1552936594/item57458607880](#smart-box--separate-simamura-hardware-ask),KotaTangerangSelatan,checked2026-11-06,two-day openedcache. Condition,variant,bundle,batteryhealth,warranty,stock anddeliveredtotal unverified;not a new/used range. OlderRp1.840.000 remainsseparate. |
 | Bass capability | Manufacturer explicitly advertises guitar/bass-optimized presets; included in the shared bass comparison. Bass-specific model inventory and low-end performance remain unverified. [Product,checked2026-10-17](https://www.sonicake.com/products/smart-box) |
 | IR / NAM | **Five user IR slots**. Official Japan notice2026-08-18 explicitly identifies **NAM A2 conversion** using mobile app**1.7.2+** or desktop software**1.5.2+**;not native A2 loading. Accepted architecture/size restrictions and conversion fidelity remain unverified. [Regional notice,checked2026-10-17](https://www.hotone.jp/announcements/nama2allbrand) |
 | I/O | 6.35 mm instrument input;**one6.35 mm TRS stereo output**;separate3.5 mm stereo headphones;EXP/FS;USB-C. |
@@ -809,7 +810,16 @@ Historical source key: `FSB` means the [original Smart Box finding](SONICAKE.md#
 
 Exact Shopee item1563832992/54263539629 could not be reopened on2026-10-28. Earlier Rp1.840.000 remains historical, with current condition, stock, bundle and vouchers unverified. Global analog volume and bypass/headphone/tail/recorded-loop coverage remain unresolved.
 
+
 <!-- comparison evidence ends -->
+
+### Smart Box — separate simamura hardware ask
+
+Checked **2026-11-06**. [Exact QME-20 item,shop1552936594/item57458607880](https://shopee.co.id/SONICAKE-QME-20-Smart-Box-Multi-Effects-Pedal-for-Guitar-with-130-Effects-NAM-IR-Support-Looper-Built-in-Tuner-Metronome-Portable-Effects-Processor-with-USB-Audio-Interface-Stereo-Output-i.1552936594.57458607880), **simamura shop,Kota Tangerang Selatan**, asks **Rp1.995.000**. Opened two-day cache shows5November delivery;four-month search snapshot instead says next-day delivery. These banners do not establish current stock. Late-delivery voucher up toRp10.000 is compensation,not deducted from the hardware ask.
+
+This is a separately identified hardware listing,not a preset pack. New/used condition,working state,selected variant,adapter/cables,battery health,warranty/import region,shipping/tax andcheckout total remain unverified. No stock quantity orcompleted sale is established;do not derive a new/used range. Preserve the older sonicakeindonesia Rp1.840.000 observation separately. Seller specifications are not hardware authority;the [exact manufacturer product](https://www.sonicake.com/products/smart-box) remains the specification source. Global analog-volume andother technical gaps stay open. No checkout,seller contact,download ordevice operation.
+
+
 
 ### Preserved original Smart Box finding
 
