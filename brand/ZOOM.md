@@ -4364,7 +4364,7 @@ Original guitar multi-effects; distinct from G5n. Manufacturer marks discontinue
 
 | Condition | Evidence | Source |
 |---|---|---|
-| Used | Unknown; title does not establish condition. | — |
+| Used | Earlier Shopee titles do not establish condition; a separate seller-labelled lightly-used Carousell offer is qualified [below](#g5--separately-identified-used-carousell-offer). | — |
 | New | Unknown; title does not establish condition. | — |
 | Conditional historical offer | **Rp2,200,000;Habis**, li6uaqeksv,Kab.Bangkalan,shop399486960/item9425818528. Checked2026-10-17; month-old rendered cache with stale September delivery. Full set is seller wording, not verified contents. Condition, working state, adapter, revision, warranty and voucher eligibility unknown. Late-delivery voucher is not an immediate hardware discount. Not current stock or a completed sale. | [Exact G5 item][ZG5-O] |
 
@@ -4612,6 +4612,13 @@ Checked **2026-11-05**, [original Japanese manufacturer manual](https://zoomcorp
 - **SIGNAL PATH** selects signal-flow direction globally. Extracted text lacks the diagram/options, so exact direction choices and physical-port reversal remain unverified.
 
 No local download, visual control inspection or device operation. External expression assignment across presets, recall and path coverage remain unresolved.
+
+### G5 — separately identified used Carousell offer
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / seller-labelled lightly used; non-Shopee | **Rp2.700.000**, [Efek Gitar Zoom G5,item1453646165](https://id.carousell.com/p/efek-gitar-zoom-g5-1453646165/),seller **yepisetiadii**,stated **Cipulir,Jakarta Selatan**;checked **2026-11-06**. The [Carousell category cache](https://id.carousell.com/musik-media/zoom/q-14/) identifies the seller/item and lightly-used condition;description claims good cosmetic condition andincluded hardcase. Search/opened snapshots differ (today/two months old);relative listing ages are not reliable publication dates. Exact item reopen returned cache miss. Current availability,working state,firmware/revision,adapter,other accessories,warranty,authenticity,vouchers,shipping/tax andcheckout total remain unknown. Historical asking evidence only;not a Shopee offer,completed sale orlive used-price floor. Prior condition-unverified/ex-display Shopee asks remain independent. |
+
 
 ## G5n
 

@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): document G5n TAP indicator and synchronization scope'
+        message='research(zoom): qualify original G5 used Carousell offer'
     print(git('commit','-m',message))
