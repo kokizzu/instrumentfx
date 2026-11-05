@@ -2689,6 +2689,16 @@ Checked **2026-11-05**, [manufacturer August2022 Original/TURBO manual,firmware3
 | USB / DI automation boundary | Reamp tutorial records raw DI onhost Input5 andprocessed audio on1/2;it says expression/footswitch actions are not recorded. Do not assume a DI recording preserves performance automation orrecreates it during reamping. |
 | USB / MIDI wording conflict | pp22–23 describe DAW-visible MIDI-over-USB remote control; p119 FAQ instead says a third-party MIDI interface is required for DAW control. Preserve this internal contradiction;editor communication alone doesnot resolve supported MIDI directions orcurrent firmware behavior. |
 
+### FM9 Turbo — versioned USB MIDI clock and device visibility
+
+Checked **2026-11-05**. [Manufacturer-authored release-notes PDF on mirror](https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf),41pages,through12.00/July7,2026;title/version/date match the [official Original/Turbo support listing](https://www.fractalaudio.com/fm9-downloads/). Use original PDF pp9,13,15,not the host’s simplified summary. Main firmware,USB firmware anddrivers are separate;installed versions untested.
+
+| Required field | Evidence and limits |
+|---|---|
+| USB / versioned MIDI clock | **8.01,October11,2024:** Send MIDI Clock selects MIDI,USB,both orOff;default MIDI. Receive selects MIDI,USB orOff;default MIDI. USB clock transmission requires **USB firmware1.03+**. Clock transport doesnot certify arbitrary outgoing PC/CC orDIN-to-USB forwarding. |
+| USB / clock-transfer fix | **9.0,April23,2025:** notes fix USB MIDI clock interrupting Fractal-Bot file transfer. This historical fix is not a device test orpermission to install/update anything. |
+| USB / manufacturer MIDI-device visibility | [Current manufacturer support](https://support.fractalaudio.com/en-US/mac-os-audio-midi-setup-utility-286553),relative update label9months,explicitly expects FM9 in macOS Audio Devices **and MIDI Studio**. This corroborates MIDI-device enumeration,not every message direction. The older3.x FAQ contradiction remains qualified rather than silently deleted. |
+
 <!-- comparison evidence ends -->
 
 No files,software,firmware,IRs ordependencies downloaded; no device operation. Partial admission does not certify current installed behavior, stock, ownership or complete market coverage. Older source tables, prices and revision qualifications remain unchanged.

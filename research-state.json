@@ -172075,5 +172075,22 @@
       "Exact pre-MKII hardware offer and other recorded gaps"
     ],
     "next": "Continue requested separate-screen/Shopee research; preserve GT-Pro,GP200JR→Prime→GE300,expression-volume and consolidation queues"
+  },
+  "fm9_turbo_usb_midi_clock_versions_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--versioned-usb-midi-clock-and-device-visibility",
+    "sources": [
+      "https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf",
+      "https://www.fractalaudio.com/fm9-downloads/",
+      "https://support.fractalaudio.com/en-US/mac-os-audio-midi-setup-utility-286553"
+    ],
+    "revision": "Manufacturer-authored41page releasePDF through12.00 July7,2026; official Original/Turbo listing corroborates identity; originalPDFonly, no simplified host summary used",
+    "active_inventory": 402,
+    "remaining": [
+      "Arbitrary PC/CC USB transmission and forwarding",
+      "Current device/installed versions",
+      "Other retained USB diagram/global-volume and hardware/offer gaps"
+    ],
+    "next": "Return to requested separate-screen exact hardware fields and Shopee leads; preserve GT-Pro, GP200JR→Prime→GE300, expression-volume and consolidation queues"
   }
 }
