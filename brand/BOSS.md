@@ -6148,3 +6148,16 @@ Checked **2026-11-05** against the exact-model rows;these are published statuses
 These names/version labels are reproduced fromthe manufacturer matrix. “Under Testing” isnot certified compatibility or“No”. Download status requires dedicated software;it doesnot certify all future OS releases orindividual machines. Existing Windows ARM/VM/Mac exclusions andTone Studio1.1.0/firmware1.50 requirements stillapply.
 
 [Roland’s Windows10 support notice](https://www.roland.com/global/support/support_news/2509161000/) discontinues related drivers/updates,operation guarantees andusage/troubleshooting support from **2025-10-14**. Downloads mayremain available;availability isnot ongoing support. This qualifies the older Windows10/11 driver headline rather than erasing it. Mac driver detail page stilltimes out;the matrix resolves the listed OS statuses withoutestablishing its full driver-specific restrictions.
+
+### VG-800 — volume target and detector distinctions
+
+Checked **2026-11-05**, [manufacturer Parameter Guide eng01,©2025,printed4,34,37–40](https://static.roland.com/assets/media/pdf/VG-800_parameter_eng01_W.pdf). Current/installed-firmware equivalence unverified.
+
+| Function | Practical boundary |
+|---|---|
+| Volume target selection | **INST LEVEL** controls the modeled instrument;**NOR MIX100/200** controls the INST normal-pickup mix within0–100/0–200. These are not interchangeable with overall **MEMORY LEVEL100/200**,whose SYSTEM preference was already documented above. |
+| FV+tuner | **FV1+TUNER/FV2+TUNER** displays the tuner atminimum pedal setting. Displaying the tuner doesnot establish MUTE mode,all-output silence orUSB/headphone coverage. |
+| Noise-suppressor detection | For Foot Volume behaving like an instrument’s volume control,the manual requires **DETECT=FV OUT**;listed sources distinguish **FV1 OUT/FV2 OUT**. Detecting **NS INPUT** is separately recommended toavoid suppressing preceding spatial-effect tails. These are sidechain choices,not proof the pedal attenuates every tail. |
+| Assignment timing | **RISE TIME/FALL TIME are disabled for EXP1,EXP2,GK VOL andMIDI CC sources**. Do not promise that those transition controls smooth an analog pedal sweep. MIN/MAX andACT LOW/HIGH remain distinct target/source ranges. |
+
+Normal-input routing,final-output mute,startup position,held-position recall andbypass/USB/GK/headphone/tail/loop coverage remain unresolved. Exact-controller wiring also remains unverified. No settings changed,device operated orfile downloaded;partial lead stays outside402 active records.
