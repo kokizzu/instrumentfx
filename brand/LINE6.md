@@ -1911,7 +1911,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Processing and memory** (Processing, storage and loading): 8 DSP-limited blocks; 128 editable presets, 4 snapshots each. Manual 3.80 transcription: 274 named effects across 10 categories, plus looper and separate amps/cabs. Acoustic Sim and synth algorithms documented
 - **IR / NAM / captures** (Processing, storage and loading): 128 IR-library locations, 1024/2048 samples; no NAM/capture support established in checked 3.80 evidence
 - **Connection / software highlights** (Connections, power and apps): Stereo inputs/outs, stereo-send/two-return loop, dedicated phones, DIN MIDI, USB-B; HX Edit Windows/macOS. Manual distinguishes 8 recording and 6 active playback channels
-- **Documented power** (Connections, power and apps): DC-3H identity and center-negative9V/up-to3A adapter rating now manufacturer cross-checked; USB operation and measured draw remain unverified
+- **Documented power** (Connections, power and apps): Supplied DC-3-family supply; panel 9 V/3 A, not measured draw; polarity/USB-operation gap retained
 - **Used IDR** (IDR observations and original commits): ?
 - **Retail observation** (IDR observations and original commits): Rp14.900.000, cached indexed ask; not active-stock proof
 - **Original model commit** (IDR observations and original commits): `b4ba5b5559dcdd33b196153d4557408d71cbb89f`

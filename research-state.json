@@ -172359,5 +172359,14 @@
     "root": "brand/HOTONE.md#ampero-ii-stage-mp-380",
     "repair": "Restored exact original routing/category-count row; later13effect+3loop reconciliation retained outside archive",
     "next": "82-body audit now reports0mismatches;92other ledger entries outside its scope. Next separately verify shared/history/metadata coverage before compatibility deletion; independent queues andactive inventory unchanged"
+  },
+  "hx_stomp_xl_supporting_value_repair_20261105": {
+    "checked": "2026-11-05",
+    "root": "brand/LINE6.md#hx-stomp-xl",
+    "source": "effects/shopee-multifx-5.md",
+    "field": "Documented power",
+    "repair": "Restore exact historical comparison shorthand; retain later manufacturer DC-3H correction in separate dated section",
+    "audit": "Metadata andtypedJSON checks pass; technical/specialist verification found this exact-value failure",
+    "next": "Commit XL repair then restore Stage supporting comparison value andrerun full preservation dispatch; no compatibility deletion yet"
   }
 }
