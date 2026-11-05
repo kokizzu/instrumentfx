@@ -228,3 +228,5 @@ Original GE300 [complete original delay/reverb names](brand/MOOER.md#ge300--comp
 Looperboard’s [complete historical rack inventory](brand/HEADRUSH.md#looperboard--complete-historical-rack-inventory-and-software-boundaries) now separates repeated rack positions from unique algorithms and later additions. It remains a partial lead outside active counts and the additional-record index.
 
 [Sheeran Looper X](brand/SHEERAN-LOOPERS.md#looper-x--partial-discovery-lead) is a partial lead outside active counts and the additional-record index. Its named pitch/special effects remain distinct from unverified synthesis, input polyphony and acoustic simulation.
+
+Sheeran Looper X’s [complete FAQ rack inventory](brand/SHEERAN-LOOPERS.md#complete-faq-rack-inventory-and-source-conflicts) keeps repeated rack positions separate from Single FX choices and concurrent processing. Partial status and the additional-record index remain unchanged.

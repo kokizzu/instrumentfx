@@ -53,3 +53,31 @@ These include pitch, harmony/tuning, rhythmic, lo-fi and filtering effects; inpu
 ### Continuation
 
 Verify remaining full rack inventories/current count basis, preset storage, control census, exact software/import support and global-expression coverage; seek condition-qualified current hardware. Preserve independent footswitch-display, compact-expression, GT-Pro and GP-200JR → Prime → GE300 queues.
+
+### Complete FAQ rack inventory and source conflicts
+
+Checked **2026-11-05**, [manufacturer FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000852044-sheeran-looper-x-frequently-asked-questions), firmware1.0 qualification retained.
+
+| Rack | Positions | Complete names |
+|---|---:|---|
+| Ed’s | 9 | OCTAVE; WAH; COMPRESSOR; OVERDRIVE; AMP; CHORUS; DELAY; REVERB; 4-BAND EQ |
+| Vocal | 7 | HP/GATE; PITCH; DOUBLER; DELAY; REVERB; COMP; EQ |
+| Guitar | 7 | WHAM; OVERDRIVE; WAH; AMP; MOD; SPRING; DELAY |
+| Lo-Fi | 6 | LPF; VINYL; DEGRADE; DISTORT; PARA EQ; DELAY |
+| Dub | 6 | DOUBLER; DELAY; DUB-VERB; AMB-VERB; COMP; PARA EQ |
+| Drum | 5 | TRANSIENT; DELAY; REVERB; PARA EQ; COMP |
+| Studio | 7 | PITCH; DIST; MOD; DELAY; REVERB; COMP; EQ |
+| Rhythmic | 6 | LPF; SLICER; PUMPER; EQ; DELAY; REVERB |
+| Vocal-Tuner | 8 | HP/GATE; SMART TUNE; VOCAL HARMONY; DOUBLER; DELAY; REVERB; COMP; EQ |
+
+**61 repeated positions across nine named racks**, not61 unique/simultaneous effects. Single FX’s26 alternatives remain separate; the source’s nine/ten counting discrepancy is unresolved.
+
+FAQ computer-audio requirements: **Windows11;macOS12–14**, not standalone-editor certification. Its **9h7m/~5.8GB** storage claim conflicts with the product’s **over7h/~5.1GB**; actual usable capacity remains unverified.
+
+### Firmware-qualified display, MIDI and preset-preview behavior
+
+[Manufacturer release history1.0.2](https://cdn.inmusicbrands.com/sheeran/looper-x/Sheeran%20Looper%20X%20-%20Firmware%20Update%20v1.0.2.pdf), **October2024**, printed1,3–4. Updater minimum **Windows10 or macOS11,USB2.0** is a different scope from the FAQ’s audio requirements. Neither establishes current editor support.
+
+**1.0.2** fixes display/green-LED mute-state mismatch, restores the last performance page when loading a loop, and corrects unreliable external-MIDI track selection. It also addresses external beat-clock alignment when replacing a Multi-mode loop and specified Band-mode stop/play glitches. These are documented corrections, not measured sync/latency guarantees or separate footswitch screens.
+
+Earlier changes **since1.0.0** add navigation-wheel browsing of FX presets for preview while playing, rename Input Monitor to Live Signal, and fix pedal bank navigation with exactly six available loops. Wheel preview is not documented foot-controlled FX-preset down/up or automatic saving. Installed firmware, current behavior, global analog volume and output coverage remain unverified. No software downloaded or device operated.

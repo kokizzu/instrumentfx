@@ -219,3 +219,5 @@ Stadium XL [Aux return trade-off andUSB recording-source selection](brand/LINE6.
 Prime [doubled-block selection qualification](brand/HEADRUSH.md#prime--stereo-doubling-versus-four-option-switch-selection): the4.0.0 guide distinguishes stereo simultaneous operation from a switch-controlled four-option cycle across split-path alternatives. This changes control access,not the twelve physical OLEDs;exact per-option labels andcurrent5.2 equivalence remain unverified.
 
 [Sheeran Looper X](brand/SHEERAN-LOOPERS.md#looper-x--partial-discovery-lead) is a shared-screen partial discovery, outside active counts and the requested individual-screen shortlist. Status LEDs do not establish separate footswitch displays.
+
+Looper X [firmware-qualified status corrections](brand/SHEERAN-LOOPERS.md#firmware-qualified-display-midi-and-preset-preview-behavior) concern its shared screen and pedal LEDs; they do not establish individual footswitch screens.

@@ -25930,7 +25930,26 @@
         "access": "Two-month search cache; stale August delivery; direct cache miss",
         "condition_stock_variant_bundle_checkout": "unverified"
       },
-      "next": "Complete fields and contradictions retained in canonical continuation before active admission. Preserve requested individual displays and independent queues."
+      "next": "Complete fields and contradictions retained in canonical continuation before active admission. Preserve requested individual displays and independent queues.",
+      "rack_release_followup": {
+        "checked_date": "2026-11-05",
+        "canonical": "brand/SHEERAN-LOOPERS.md#complete-faq-rack-inventory-and-source-conflicts",
+        "release_source": "https://cdn.inmusicbrands.com/sheeran/looper-x/Sheeran%20Looper%20X%20-%20Firmware%20Update%20v1.0.2.pdf",
+        "rack_positions": {
+          "Ed’s": 9,
+          "Vocal": 7,
+          "Guitar": 7,
+          "Lo-Fi": 6,
+          "Dub": 6,
+          "Drum": 5,
+          "Studio": 7,
+          "Rhythmic": 6,
+          "Vocal-Tuner": 8
+        },
+        "total_repeated_positions": 61,
+        "status": "Complete named FAQ racks; current count basis/storage conflict and installed behavior unresolved",
+        "next": "Resolve source arithmetic/storage, preset/user capacity, physical controls and imports; global analog volume and qualified offers remain open; preserve independent queues."
+      }
     }
   ],
   "inventory_by_brand": {
@@ -175084,8 +175103,9 @@
   "sheeran_x_continuation_20261105": {
     "canonical": "brand/SHEERAN-LOOPERS.md#looper-x--partial-discovery-lead",
     "active_inventory_unchanged": 402,
-    "priority_deferral": "Stadium exact offers repeated; primary power rating unresolved. No AXOM qualified offer.",
-    "next": "Requested separate-footdisplay sources first; otherwise complete accessible Sheeran X gaps and systematic Shopee inventory; retain Mini/Nano, M-VAVE wiring, GT-Pro and GP-200JR → Prime → GE300."
+    "priority_deferral": "Stadium exact offers repeated; primary power rating unresolved. No AXOM qualified offer. FM9 controls require unavailable browser/image access; current Reverb guide lacks full79-name list. Regional connector and versioned contrast findings already recorded; no duplicates appended.",
+    "next": "Resolve source arithmetic/storage, preset/user capacity, physical controls and imports; global analog volume and qualified offers remain open; preserve independent queues.",
+    "latest": "brand/SHEERAN-LOOPERS.md#complete-faq-rack-inventory-and-source-conflicts"
   },
   "nano_named_inventory_20261105": {
     "checked_date": "2026-11-05",
