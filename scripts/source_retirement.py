@@ -169,16 +169,19 @@ def verify():
     for path in SOURCES:
         entry = records[path]
         original = research_tools.read_preserved_source(path)
-        current = (ROOT/path).read_text()
+        current = research_tools.read_compatibility_redirect(path,state)
         assert digest(current) == entry['redirect_sha256'], 'Redirect changed: '+path
         assert current == redirect(path,original,entry['source_commit'])
         assert headings(current) == entry['original_headings']
         validate_target(entry['destination'])
     links = incoming()
+    removed = state['migration'].get('removed_metadata_redirects', {})
+    assert set(removed) <= set(SOURCES), 'Removal outside metadata scope'
+    assert not [link for link in links if link['target'] in removed], 'Link points to removed metadata redirect'
     for link in links:
         assert not link['fragment'] or link['fragment'] in anchors((ROOT/link['target']).read_text()), 'Incoming anchor lost: '+str(link)
     metadata_consolidation.verify()
-    print('PASS:13 metadata redirects;all original headings/incoming anchors and root destinations resolve;complete pinned originals match root metadata;no source deletion.')
+    print('PASS:13 metadata redirects reconstructed; headings, live incoming anchors, root destinations and complete pinned originals match root metadata.')
 
 def rollback_plan():
     research_tools.identity()

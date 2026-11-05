@@ -173244,5 +173244,41 @@
     "persistent_pins": "migration.technical_compatibility_removal.redirect_pins survives restoration, allowing re-removal even when paths are absent from HEAD.",
     "remaining": "15 metadata/specialist/archive Markdown paths and broader research remain; inventory402 and independent queues unchanged.",
     "next": "Audit remaining metadata/specialist history and consumers before any further retirement; continue separate-footdisplay/Shopee priority and preserve GT-Pro,GP-200JR→Prime→GE300,expression-volume queues."
+  },
+  "metadata_compatibility_reader_preparation_20261105": {
+    "checked": "2026-11-05",
+    "base_commit": "2f0697e1361da9d4f88e3bf5f89f4d365f151e62",
+    "history": {
+      "sources": 16,
+      "variants": 60,
+      "pending": 0,
+      "counts": {
+        "verified-registered-source-alias": 4,
+        "verified-historical-metadata-content": 24,
+        "verified-compatibility-redirect": 13,
+        "verified-registered-original": 16,
+        "verified-retired-json-pointer": 3
+      },
+      "scope": "HEAD-reachable13Markdown/3JSON metadata paths,not specialist/FV01 or manufacturer truth."
+    },
+    "schema": "migration.removed_metadata_redirects exact13-source subset,full40hex redirect commit and registered redirect SHA; status retired_metadata_redirect; no overlap with technical removals.",
+    "tests": [
+      "make research-test-compatibility-reader failed before implementation,passed after; metadata absent without intent,unknown path,wrong kind,overlapping scope,changed body/hash/commit and present removed-file rejected",
+      "make research-verify-compatibility-readers:99actual technical reads and13metadata live plus simulated missing-file Git-backed reads match exact generated redirects",
+      "make metadata-retirement-verify and make metadata-history-audit pass after consumer adaptation"
+    ],
+    "consumers": {
+      "adapted": [
+        "scripts/source_retirement.py metadata verifier",
+        "scripts/metadata_consolidation.py metadata history auditor"
+      ],
+      "reviewed": [
+        "scripts/comparison_views.py andscripts/consolidation_tools.py preserve historical link spellings as comparison text,notlive metadata readers",
+        "scripts/canonical_links.py metadata override maps canonical destination",
+        "scripts/json_pointer_removal.py live legacy_reference_files check must remain satisfied by filtering actual removals only; historical fixture paths are not live references"
+      ]
+    },
+    "scope": "Preparation only; no metadata removal records added,no source files deleted;15legacyMarkdown remain,402active inventory andindependent research queues unchanged.",
+    "next": "Implement scope-separated metadata hash-guarded preview/apply/restore,inspect incoming links and live_reference_files,then verify actual13removal plus postcommit rollback beforepublication. Audit specialist/FV01 separately; continue LCD/Shopee,GT-Pro,expression-volume andGP200JR→Prime→GE300 queues."
   }
 }

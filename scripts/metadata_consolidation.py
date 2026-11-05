@@ -489,7 +489,7 @@ def audit_history():
         preserved = originals[path]
         redirects = set()
         if path in SOURCES:
-            current = (ROOT / path).read_text()
+            current = research_tools.read_compatibility_redirect(path,state)
             assert current.startswith('# '), 'Unexpected compatibility file: ' + path
             redirects.update((current, original_namespace(current, path)))
         for blob in sorted(blobs):
@@ -497,6 +497,8 @@ def audit_history():
                 cache[blob] = research_tools.git('cat-file', '-p', blob)
             body = cache[blob]
             status = history_status(body, preserved, redirects, aliases)
+            if status == 'verified-compatibility-redirect' and path in state['migration'].get('removed_metadata_redirects', {}):
+                status = 'verified-removed-metadata-redirect'
             if status == 'historical-variant-needs-review' and path in pointers and body == pointers[path]['pointer_text']:
                 status = 'verified-retired-json-pointer'
             if status == 'historical-variant-needs-review' and (path, blob) in reviewed:

@@ -47,7 +47,14 @@ def read_compatibility_redirect(path, state=None, read_current=None, read_blob=N
     migration = state.get('migration', {})
     retired = migration.get('retired_sources', {})
     assert key in retired, 'Unregistered compatibility path: '+key
-    removed = migration.get('removed_technical_redirects', {}).get(key)
+    technical_removed = migration.get('removed_technical_redirects', {})
+    metadata_removed = migration.get('removed_metadata_redirects', {})
+    assert not set(technical_removed).intersection(metadata_removed), 'Duplicate removal scopes'
+    if key in metadata_removed:
+        from metadata_consolidation import SOURCES as metadata_sources
+        assert key in metadata_sources, 'Unknown metadata removal path'
+        assert retired[key].get('status') == 'retired_metadata_redirect', 'Wrong metadata redirect kind'
+    removed = technical_removed.get(key) if key in technical_removed else metadata_removed.get(key)
     read_current = read_current or (lambda: (ROOT/key).read_text())
     if removed is None:
         return read_current()
@@ -106,7 +113,51 @@ def test_compatibility_redirect_reader():
         pass
     else:
         raise AssertionError('Traversal accepted')
-    print('PASS: registered removed redirects reconstruct exactly; accidental absence, drift, invalid provenance and traversal fail')
+    metadata_path = 'effects/SCOPE.md'
+    metadata = {'migration': {
+        'retired_sources': {metadata_path: {'redirect_sha256': sha, 'status': 'retired_metadata_redirect'}},
+        'removed_metadata_redirects': {metadata_path: {'redirect_commit': 'b'*40, 'redirect_sha256': sha}}}}
+    def metadata_blob(obj):
+        assert obj == 'b'*40+':'+metadata_path
+        return body
+    assert read_compatibility_redirect(metadata_path, metadata, missing, metadata_blob, lambda: False) == body
+    no_intent = copy.deepcopy(metadata)
+    del no_intent['migration']['removed_metadata_redirects']
+    try:
+        read_compatibility_redirect(metadata_path, no_intent, missing, no_blob, lambda: False)
+    except FileNotFoundError:
+        pass
+    else:
+        raise AssertionError('Unrecorded metadata absence accepted')
+    unknown_path = 'effects/not-metadata.md'
+    unknown = copy.deepcopy(metadata)
+    unknown['migration']['retired_sources'][unknown_path] = unknown['migration']['retired_sources'][metadata_path]
+    unknown['migration']['removed_metadata_redirects'][unknown_path] = unknown['migration']['removed_metadata_redirects'][metadata_path]
+    try:
+        read_compatibility_redirect(unknown_path, unknown, missing, no_blob, lambda: False)
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('Non-metadata path accepted in metadata removal scope')
+    for change in ('wrong-body', 'present-file', 'bad-commit', 'wrong-hash', 'wrong-kind', 'duplicate'):
+        fixture = copy.deepcopy(metadata)
+        if change == 'bad-commit':
+            fixture['migration']['removed_metadata_redirects'][metadata_path]['redirect_commit'] = 'HEAD'
+        if change == 'wrong-hash':
+            fixture['migration']['removed_metadata_redirects'][metadata_path]['redirect_sha256'] = '0'*64
+        if change == 'wrong-kind':
+            fixture['migration']['retired_sources'][metadata_path]['status'] = 'retired_technical_redirect'
+        if change == 'duplicate':
+            fixture['migration']['removed_technical_redirects'] = fixture['migration']['removed_metadata_redirects']
+        try:
+            read_compatibility_redirect(metadata_path, fixture, missing,
+                                       lambda obj: body+'changed' if change == 'wrong-body' else body,
+                                       lambda: change == 'present-file')
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('Invalid metadata removal accepted: '+change)
+    print('PASS: technical/metadata removed redirects reconstruct exactly; missing intent, drift, wrong kind, duplicate scopes and invalid provenance fail')
 
 
 def verify_compatibility_readers():
@@ -118,6 +169,22 @@ def verify_compatibility_readers():
         text = read_compatibility_redirect(path, state)
         assert text == redirect(path, read_preserved_source(path), records[path]['source_commit']), path
     print('PASS: '+str(len(SOURCES))+' live technical redirect reads match exact generated content; no files mutated')
+    import copy
+    import source_retirement
+    head = git('rev-parse', 'HEAD').strip()
+    simulated = copy.deepcopy(state)
+    entries = simulated['migration'].setdefault('removed_metadata_redirects', {})
+    for path in source_retirement.SOURCES:
+        expected = source_retirement.redirect(path, read_preserved_source(path), records[path]['source_commit'])
+        assert read_compatibility_redirect(path, state) == expected
+        if path not in entries:
+            import hashlib
+            entries[path] = {'redirect_commit': head, 'redirect_sha256': hashlib.sha256(expected.encode()).hexdigest()}
+        actual = read_compatibility_redirect(path, simulated,
+                                             lambda: (_ for _ in ()).throw(AssertionError('Disk fallback')),
+                                             exists=lambda: False)
+        assert actual == expected, path
+    print('PASS: 13 metadata live/intended-removal reads match generated redirects and exact Git pins; no files mutated')
 
 def verify_continuation_state(state):
     assert 'resume_cursor' not in state, 'Deprecated live resume_cursor conflicts with authoritative cursor; preserve it as history instead'
