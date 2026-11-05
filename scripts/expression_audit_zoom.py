@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(blackstar): expand Floor Two controls routing and named effects'
+        message='research(fractal): qualify FM9 Megatap patterns and envelope routing'
     print(git('commit','-m',message))

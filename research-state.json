@@ -169776,5 +169776,32 @@
       "IR/NAM/imports andlooper/drums"
     ],
     "next": "Continue requested individual-foot-display gaps and freshexactShopee discovery;preserve GT-Pro,GP-200JR → Prime → originalGE300 andexpression/consolidationqueues"
+  },
+  "fm9_mkii_megatap_texture_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--megatap-pattern-and-envelope-boundaries",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 Blocks Guide pp3,5,57–58",
+    "fm9_limits": {
+      "taps": 64,
+      "instances": 2,
+      "qualification": "CPU permitting; installed MKII equivalence unverified"
+    },
+    "findings": [
+      "EXP/LOG,SIGMOID,COSINE,SINE Time Shapes;Alpha50 evenly spaces taps",
+      "Constant PanAlpha0 left/100 right;Spread0 follows existing tap panning,near-zero offsets can cancel taps",
+      "Input diffusion/LFO and envelope follower shape effect feed;shared Input Gain leaves dry audio unchanged",
+      "Feedback Tap below tap count overlaps patterns;not persistent phrase-loop storage"
+    ],
+    "market": "Existing FM9 MKII Hurtrock11170212/25331147281 snapshot rediscovered;no new stock/condition evidence.",
+    "remaining": [
+      "22 exact type names not enumerated in chapter",
+      "Current installed equivalence",
+      "Qualified live exact-revision Indonesian hardware",
+      "Global EXP endpoints/recall and complete output coverage",
+      "Display and electrical gaps"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested individual-foot-display profiles and fresh exact Shopee discovery; preserve GT-Pro,GP-200JR → Prime → originalGE300 and independent expression/consolidation queues"
   }
 }
