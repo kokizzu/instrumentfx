@@ -3645,6 +3645,16 @@ Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Curre
 | Unverified | **Rp2.635.000**,Vin’s Music Store,shop31173885/item21487560393,Kota Depok;three monthsindexedcrawl. sellerGO2label. | [Item][KTGO-O2] |
 | Unverified | **Rp2.635.000–6.370.000**,4variations;unallocated,Boss Official Shop,shop341882414/item24872406480,Kota Tangerang Selatan;five monthsindexedcrawl. unassigned;variation/bundleunresolved. | [Item][KTGO-O3] |
 
+### KATANA:GO — synth tracking and Heavy Octave scope
+
+Checked 2026-11-05 against [own Parameter Guide English01,©2024][KTGO-G],118 PDF pages;guitar pp38–43 and bass pp93–98 checked separately. Installed-version equivalence and performance untested.
+
+| Field | Finding / qualification |
+|---|---|
+| Synth / guitar versus bass | Guitar WAVE SYNTH and BASS SYNTH each offer Saw/Square and explicitly reject chords. Mute unused/previous strings and articulate attacks. Two waveform choices do not establish two-note tracking. |
+| Pitch / chord and range distinctions | Both modes explicitly support chords in HEAVY OCTAVE. Detailed sections provide one/two-octave-down levels,while overview prose mentions one;retain the discrepancy. PITCH SHIFTER spans ±24 semitones;MONO requires single notes. FAST/MEDIUM/SLOW chord behavior remains unverified here. HARMONIST requires single notes in both modes. |
+| Processing / creative category scope | Slicer,Humanizer,Ring Mod andSlow Gear remain distinct from synth tracking. Guitar acoustic simulation/processing andbass body/defret treatments retain their own lists;MOD/FX alternatives are not all simultaneous. |
+
 <!-- comparison evidence ends -->
 
 Historical indexed asks,notlivecheckout. Condition/stock/variant/bundle/authenticity/warranty/shipping/tax/vouchers unresolved;no qualifiedused/newallocation. Fourvariationrange is not a singlehardwareprice.

@@ -155201,6 +155201,15 @@
         "instrument": "Three distinct existing simulator/processor records",
         "qualification": "Slotlimits;heldambience notsynth",
         "evidence_basis": "Own English02 ©2020guide;focused2026-11-05"
+      },
+      {
+        "key": "BOSS::KATANA:GO",
+        "canonical": "brand/BOSS.md#katanago--synth-tracking-and-heavy-octave-scope",
+        "synth": "Guitar/Bass single-noteSaw/Square",
+        "pitch": "HeavyOctavechords;Pitch±24;Monoharmonylimits",
+        "instrument": "Ownseparateguitar/basslists",
+        "qualification": "Overview/detailoctaveconflict;slotlimits",
+        "evidence_basis": "English01©2024;focused2026-11-05;notfullfresh audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -171846,5 +171855,26 @@
       "Currentqualifiedstock"
     ],
     "next": "LCD/Shopee first;nextexistingcreative gap BOSS KATANA:GO;preserve GT-Pro,generalGP200JR→Prime→GE300,expression-volume andconsolidation queues"
+  },
+  "katanago_creative_index_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#katanago--synth-tracking-and-heavy-octave-scope",
+    "source": "https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf",
+    "revision": "English01©2024;118pages;guitar38–43/bass93–98separatelychecked",
+    "finding": "Creativeindex andmode-specifictracking/HeavyOctave contradiction",
+    "additional_records": 88,
+    "active_inventory": 402,
+    "market": "No newcondition-qualifiedShopee ask;older offersretainedunrefreshed",
+    "remaining": [
+      "PitchShifterFAST/MEDIUM/SLOWchordbehavior",
+      "HeavyOctaveoverview/detaildiscrepancy",
+      "Physicalrevision/currentfirmwareequivalence",
+      "ExactShopeeconditionstockandbundle"
+    ],
+    "priority_lead": {
+      "url": "https://play.google.com/store/apps/details?id=com.melofty.axommax",
+      "basis": "Manufacturer-published app listing surfaced;deduplicate againstAXOMrecordbeforeadopting;noappdownload"
+    },
+    "next": "ChecknewAXOMmanufacturerapp lead forLCD-prioritymodel;thenunindexedcreativeBOSS GT-10B. Preserve GT-Pro,generalGP200JR→Prime→GE300,expression-volume/consolidation queues"
   }
 }
