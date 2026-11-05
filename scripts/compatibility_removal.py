@@ -92,6 +92,14 @@ def build_outputs(before, action, items, scope='technical'):
         selected = {item['path'] for item in items}
         state['migration']['legacy_reference_files'] = [p for p in refs if p not in selected] if action == 'remove' else list(dict.fromkeys(original_refs+refs))
         state['migration']['content_consolidation_status'] = 'Original legacy content remains reconstructed in root documents/ledger and pinned Git. '+str(len(state['migration'].get('removed_technical_redirects', {})))+' technical and '+str(len(removed))+' metadata redirects removed. Specialist/archive compatibility and technical research remain unfinished.'
+    accounting = state['migration'].get('legacy_file_retirement')
+    if accounting is not None:
+        removed_paths = set().union(*(set(state['migration'].get('removed_'+kind+'_redirects', {})) for kind in ('technical','metadata','archive')))
+        json_removal = state['migration'].get('json_pointer_removal', {})
+        if json_removal.get('status') == 'removed':
+            removed_paths.update(json_removal['records'])
+        accounting['files_remaining'] = accounting['original_paths'] - len(removed_paths)
+        assert accounting['files_remaining'] >= 0, 'Removal accounting exceeds original paths'
     readme = before['README.md']
     old = 'Historical link spellings remain recoverable through mappings in `research-state.json`; legacy compatibility files preserve old anchors and pinned-source provenance. Their continued presence means the overall migration remains incomplete.'
     new = 'Historical link spellings and pinned-source provenance remain recoverable through `research-state.json` and Git. Remaining legacy compatibility files mean the overall migration is still incomplete.'
@@ -232,14 +240,16 @@ def test():
     assert select_redirect_commit('effects/bass.md', 'a'*40, set(), {'effects/bass.md': {'redirect_commit': 'b'*40}}) == 'b'*40
     assert select_redirect_commit('effects/bass.md', 'a'*40, {'effects/bass.md'}, {}) == 'a'*40
     item = dict(path='effects/SCOPE.md', redirect_commit='a'*40, redirect_sha256='b'*64)
-    sample = {'migration': {'legacy_reference_files': ['effects/SCOPE.md', 'effects/specialist.md'], 'removed_technical_redirects': {'effects/bass.md': {}}, 'content_consolidation_status': 'original status'}}
+    sample = {'migration': {'legacy_reference_files': ['effects/SCOPE.md', 'effects/specialist.md'], 'removed_technical_redirects': {'effects/bass.md': {}}, 'content_consolidation_status': 'original status', 'legacy_file_retirement': {'original_paths': 3, 'files_remaining': 2}}}
     before_text = {'research-state.json': json.dumps(sample), 'README.md': 'Historical link spellings and pinned-source provenance remain recoverable through '+chr(96)+'research-state.json'+chr(96)+' and Git. Remaining legacy compatibility files mean the overall migration is still incomplete.'}
     removed_output = build_outputs(before_text, 'remove', [item], 'metadata')
     removed_state = json.loads(removed_output['research-state.json'])
     assert removed_state['migration']['legacy_reference_files'] == ['effects/specialist.md']
+    assert removed_state['migration']['legacy_file_retirement']['files_remaining'] == 1
     assert removed_state['migration']['removed_technical_redirects'] == sample['migration']['removed_technical_redirects']
     restored_state = json.loads(build_outputs(removed_output, 'restore', [item], 'metadata')['research-state.json'])
     assert restored_state['migration']['legacy_reference_files'] == sample['migration']['legacy_reference_files']
+    assert restored_state['migration']['legacy_file_retirement']['files_remaining'] == 2
     assert restored_state['migration']['metadata_compatibility_removal']['content_status_before'] == 'original status'
     assert restored_state['migration']['metadata_compatibility_removal']['redirect_pins'][item['path']]['redirect_commit'] == 'a'*40
     try:

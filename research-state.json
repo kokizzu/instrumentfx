@@ -26888,7 +26888,7 @@
     "new_effects_directory_documents_created": false,
     "root_category_and_instrument_views": "Four-table comparisons: 337 guitar, 178 documented bass-capable, 72 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
-    "old_sources_deleted_this_session": false,
+    "old_sources_deleted_this_session": true,
     "warning": "402 root-canonical models;0 legacy-only. Specification and market research remain incomplete.",
     "legacy_reference_files": [],
     "stale_cursors_not_to_repeat": [
@@ -43961,7 +43961,7 @@
       "status": "passed",
       "remaining": "Compatibility paths and preserved historical links intentionally remain;this audit does not certify external offers or full model specifications."
     },
-    "content_consolidation_status": "Original legacy content remains reconstructed in root documents/ledger and pinned Git. 99 technical and 13 metadata redirects removed. Specialist/archive compatibility and technical research remain unfinished.",
+    "content_consolidation_status": "All117 registered original legacy paths retain root/Git-backed evidence;114 Markdown redirects and3 JSON pointers removed;0legacy files remain. Finalaggregate verification andtechnical/market research remain incomplete.",
     "preservation_repair_20261017": {
       "model": "Zoom::B1 FOUR",
       "source": "effects/bass.md",
@@ -174080,8 +174080,13 @@
       "make comparison-plan:allfive outputs unchanged",
       "make comparison-apply initially failed on eagerly evaluated archive-default hashes; lazy initialization retains existing original pins without missing input files; freshplan/apply thenpassed; regression in README count tests"
     ],
-    "postcommit_rollback": "Pending actual test after deletion commit before push",
+    "postcommit_rollback": {
+      "deletion_commit": "74fa73e0719ca8ce8ca8c5f84124d49e19e7bcd8",
+      "actual": "Restored exact two redirects from589c27c1 after deletion commit;114-reader integration passed on restored state;9-version archive audit at deletion HEAD passed withzero pending; removed same two again fromretainedpins.",
+      "live_counter": "Actual restoration counted2 remaining files; re-removal counted0. Scoped operation test covers counter roundtrip andmissing parent directory creation.",
+      "files_remaining": 0
+    },
     "remaining": "Final aggregate migration verification andbroader technical/market research remain incomplete;402active models,6exclusions andindependent queues unchanged.",
-    "next": "Testpostcommit restoration/re-removal; publish checkpoint;run fullaggregate source-history/preservation audit,then resume LCD/Shopee priority andpreserved GT-Pro,expression-volume andGP200JR→Prime→GE300 queues."
+    "next": "Publish verifiedcheckpoint,thenfresh aggregate history/preservation/navigation audit for117registered paths;resume individual-footdisplay/Shopee priority whilepreserving GT-Pro,expression-volume andGP200JR→Prime→GE300 queues."
   }
 }
