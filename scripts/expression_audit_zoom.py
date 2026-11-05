@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): document SP1 cable requirements without resolving contact conflict'
+        message='research(flamma): enumerate FX20 effects and qualify exact Shopee lead'
     print(git('commit','-m',message))

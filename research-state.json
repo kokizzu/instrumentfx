@@ -156585,6 +156585,15 @@
         "instrument": "Acoustic Sim separate fromAcoustic Pre/IRs",
         "qualification": "Own4.0.0 arpeggiator controls,Kill Seq/Splicer;4.1.0 Grain Delay;notfullfreshfour-category audit",
         "evidence_basis": "Exact-model product and cumulative5.2.0 release notes checked2026-11-05"
+      },
+      {
+        "key": "Flamma::FX20",
+        "canonical": "brand/FLAMMA.md#fx20--complete-named-effect-menu-and-usb-playback-volume-scope",
+        "synth": "Tracking synthesis unverified",
+        "pitch": "Pitch shifting unverified",
+        "instrument": "Acoustic simulation unverified",
+        "qualification": "RING/LOFI/SLOWGEAR/STAMMER/modulatedFilter;V01 menu24positions;duplicateandtypo preserved",
+        "evidence_basis": "Exact-model manufacturer V01manual printed21–24 checked2026-11-05;notfullcurrentfour-categoryaudit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -174443,5 +174452,69 @@
       "RecordedpathVOLcoverage"
     ],
     "next": "Resume requested individual-footdisplay technical/marketgaps;preserve GT-Pro,expression-volume andGP200JR→Prime→GE300 queues."
+  },
+  "fx20_named_menu_market_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FLAMMA.md#fx20--complete-named-effect-menu-and-usb-playback-volume-scope",
+    "source": "https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX20_Manual_EN_V01_2023.12.08.pdf?v=1710160252",
+    "revision": "V01filename2023-12-08,printed15–16,21–24;firmwareunknown",
+    "menus": {
+      "MOD": [
+        "PHASER",
+        "STEP PHASER",
+        "ANA FLANGER",
+        "JET FLANGER",
+        "TREMOLO",
+        "STAMMER",
+        "TREMOLO",
+        "VIBE ROTARY",
+        "Analog Chorus",
+        "TRI CHORUS",
+        "RING",
+        "Filter",
+        "LOFI",
+        "SLOW GEAR"
+      ],
+      "DELAY": [
+        "DIGHITAL",
+        "ANALOG",
+        "REAL",
+        "TAPE",
+        "MOD"
+      ],
+      "REVERB": [
+        "Room",
+        "Hall",
+        "Plate",
+        "Spring",
+        "Mod"
+      ]
+    },
+    "qualification": "24positions;duplicateTREMOLO andDIGHITALdescriptionconflict retained;notunique/concurrent count",
+    "usb": "Mobile-sourcelevelcontrolsUSBplayback;knobguitar/drumsonly",
+    "offer": {
+      "shop": "1716269141",
+      "item": "58062124200",
+      "ask_idr": 1330000,
+      "region": "JakartaPusat",
+      "access": "Two-monthcategorycache exactlink;selected/baseiteminaccessible",
+      "variant": "display_model_id426053857134 contentsunknown",
+      "seller": "BMJtitletextnotconfirmedseller",
+      "condition": "unverified",
+      "status": "Discoveryonly;excludedfromqualifiedpricefloor"
+    },
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Visualcontrol/displaycensus",
+      "Memory/factory/usercapacity",
+      "Simultaneousrouting",
+      "Synth/pitch/acoustic architecture",
+      "IR/NAM/captureimports",
+      "Powerinstructioncontradiction",
+      "Qualifiedexacthardwareconditionstock"
+    ],
+    "deferred_priority": "RequestedLCD/OLED sourcesyieldedknownoffers/repeatedretrievallimits;noresolvednewclaim. GP200JRqueriesrepeatknownsources;no copied-LTEQreconciliation.",
+    "next": "Return to accessible individual-footdisplay gaps;preserve GT-Pro,expression-volume andGP200JR→Prime→GE300 queues;next systematic headphone lead FX10/FX11,not sibling-spec transfer.",
+    "additional_creative_records": 96
   }
 }

@@ -461,6 +461,24 @@ Alternate PDF still includes9V500mA precautions alongside5V1A charging;its avail
 
 Existing40W×82Dmm body dimensions fit the preferred rectangle; dedicated3.5mm stereo output is documented. Onboard footswitch down/up is not established by hand PRESET control. This partial screening does not resolve the preserved9V versus5V charging contradiction or certify every port. No download, app installation or hardware test.
 
+### FX20 — complete named effect menu and USB-playback volume scope
+
+Checked **2026-11-05** in the manufacturer-index-linked [FX20 V01 manual,2023-12-08](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX20_Manual_EN_V01_2023.12.08.pdf?v=1710160252),printed21–24. Firmware applicability unspecified;no installed-menu test.
+
+| Field | Complete names / qualification |
+|---|---|
+| Processing / MOD menu | **14 numbered positions:** PHASER; STEP PHASER; ANA FLANGER; JET FLANGER; TREMOLO; STAMMER; TREMOLO; VIBE ROTARY; Analog Chorus; TRI CHORUS; RING; Filter; LOFI; SLOW GEAR. Duplicate TREMOLO5/7 retained,not14 verified unique algorithms. |
+| Processing / DELAY menu | **5:** DIGHITAL; ANALOG; REAL; TAPE; MOD. DIGHITAL’s description incorrectly says digital reverb;not silently corrected orcounted as another reverb. |
+| Processing / REVERB menu | **5:** Room; Hall; Plate; Spring; Mod. These24 menu positions are choices,not simultaneous capacity. |
+| Synth / special-processing distinction | RING modulates sound;Filter is modulation filtering;LOFI reduces sample rate;SLOW GEAR shapes attack;STAMMER is square-wave shutter processing. These do not establish tracking synthesis,polyphonic pitch oracoustic simulation. |
+| I/O / USB playback volume | Printed15–16 explicitly leaves **USB playback** volume to the mobile source;FX20’s knob controls guitar/drums. This extends the previously documented Bluetooth exception,not an all-source master mute. |
+
+### FX20 — previously unresolved BMJ item identity
+
+Checked **2026-11-05**: the [Shopee FX20 category](https://shopee.co.id/search?keyword=fx20),two-month cache,links **FLAMMA FX20 HEADPHONE AMP WITH APP CONTROL. BMJ**,**Rp1.330.000**,Jakarta Pusat,to **shop1716269141/item58062124200**, [exact item](https://shopee.co.id/FLAMMA-FX20-HEADPHONE-AMP-WITH-APP-CONTROL.-BMJ-i.1716269141.58062124200). Original link selects display_model_id426053857134;selected contents unresolved. Direct selected andbaseitem URLs fail. BMJ is title text,not independently confirmed seller identity.
+
+This resolves the earlier missing item identifier,**not condition,variant contents orlive availability**. New/used,working state,bundle,cable,warranty,voucher,shipping/tax andcheckout total remain unknown. Keep it a **discovery ask excluded from condition-qualified price floors**. The older Rp3.026.800 item andall source dates remain unchanged. Full controls/display/memory/IR-import/power conflicts remain open;no download,app installation,checkout ordevice operation.
+
 ## FX50
 
 Checked **2026-10-17**; partial. Portable guitar multi-effects; no bass/vocal classification established. Floor switches and amp modeling are not inclusion requirements.
