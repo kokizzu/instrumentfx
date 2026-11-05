@@ -2520,6 +2520,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | Processing / concurrency | **14×6 grid**,DSP-limited; Turbo10+% DSP advantage, not additional guaranteed block instances. Historical meter recommendation about80%; dedicated Amp/Delay/Reverb cores barely reflected. [Manual pp39,48](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Categories / choices | June2023 exactFM9 column has37 available classes,84 summed allowances including routing/control; not84 simultaneous effects. Shared TYPES column and290+/309+ amp conflict preserved; current exact Turbo choice census unknown. [Retained dated table](#fm9--historical-block-inventory);[manufacturer guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). |
 | Categories / Pitch reference | [November16-type census and note restrictions](#fm9-turbo--november-pitch-census-and-note-handling). One FM9 Pitch block,CPU permitting;not an installed-library certification. |
+| Categories / Chorus and Flanger reference | [27 Chorus/31 Flanger named choices](#fm9-turbo--named-chorus-and-flanger-reference),two FM9 instances each,CPU permitting. Cross-category repeats and internal voices do not add independent algorithms orblocks. |
 | Preset memory | **512 editable locations**,including overwritable factory entries; **eight scenes each**. [Manufacturer FM9-family default:384](#fm9-turbo--family-factory-default-and-backup-scope);exact pre-MKII Turbo shipping allocation andcurrent unit contents remain unverified. Not extra protected locations. [Shared manual p39](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**; [manual/envelope/pitch tracking modes](#fm9-turbo--synth-tracking-versus-manual-generation) are distinct. Voice count is not note polyphony. Acoustic input documented separately; electric-to-acoustic simulation remains unknown. [Own-applicable manual p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Audio I/O | Mono unbalanced¼-inch Input1; stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR and same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Manual p21](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
@@ -2584,6 +2585,18 @@ Checked **2026-11-05** in [November2026 Blocks Guide,printed3,76–77,83](https:
 **16 reference types:** Dual Detune;Dual Detune Delay;Quad Detune;Dual Chromatic;Quad Chromatic;Quad Chromatic Delay;Dual Diatonic;Quad Diatonic;Quad Diatonic Delay;Custom Shifter;Arpeggiator;Classic Whammy;Advanced Whammy;Octave Divider;Crystal Echoes;Virtual Capo.
 
 Chromatic modes optimize for NOTES/CHORDS;Diatonic is monophonic. **Octave Divider requires single notes** for intended behavior. Virtual Capo is polyphonic. Stereo channels/generated voices do not establish input-note polyphony. FM9 allows one Pitch block,CPU permitting. Introduction versions,installed content andtracking performance remain unverified;VP4-specific additions are excluded. No local download ordevice operation.
+
+
+### FM9 Turbo — named Chorus and Flanger reference
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,25,48](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). The Original/Turbo manual’s companion-guide applicability remains as qualified above.
+
+| Reference category | Named choices |
+|---|---|
+| Chorus —27 | Digital Mono; Digital Stereo; Analog Mono; Analog Stereo; Japan CE-2; Warm Stereo; 80’S Style; Triangle Chorus; 8-Voice Stereo; Tape Chorus; Dimension 1; Dimension 2; Dimension 3; 4-Voice Analog; 8-Voice Analog; Stereo Tri-Chorus; Dual Chorus; Tape Flanger; Japan CE-1 Chorus; Japan CE-1 Vibrato; Japan CH-1; MX234; Small Copy; Japan CE-2 Bass; Vibrato; Rockguy; MX134 Stereo |
+| Flanger —31 | Analog Mono; Analog Stereo; BBF-2; Binary Flange; Cancel Flange; Count of Flanging; Cuda Flange; D/AD 185; Deluxe Mystery; Digital Mono; Digital Stereo; Electric Mystery; FAS Flanger; Harmonoflange; Hemisflange; Lofty Flange; Manual Thru-Zero Flanger; Melodic Flange; MXF-117; Pop Flanger; Scion Stereo Flange; Spirit Flange; Starship Flanger; Step Flanger; Stereo Jet; Thru-Zero; Trippy Flanger; Tubular; Vowel Flanger; Zero Flanger; 80’s Rack Flanger |
+
+Dimension1/2/3 count separately. Each category permits **two FM9 blocks**,CPU permitting;these58 menu choices are not58 simultaneous effects orunique DSP algorithms. Names,voices andstereo formats do not establish synth tracking. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
 
 
 ## VP4
