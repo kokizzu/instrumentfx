@@ -1388,7 +1388,9 @@ The saved used Shopee18622131/41630242050 still appears **Rp2.600.000,Habis** in
 | Field | Preserved finding / unresolved detail |
 |---|---|
 | Expression / controls | Built-in;no external EXP socket in manual. **4/2/8**,toe details ?. |
-| Dimensions / screen | **230×160×58mm;754g**,medium. Published screen diagonal,color/touch evidence pending in this record. |
+| Dimensions / screen | **230×160×58mm;754g**,medium. Earlier color uncertainty is narrowed by the German cover below;published diagonal,pixels andtouch remain unverified. |
+| Display / original color evidence | [Cherub-authored German manual](#mg-300-original--german-manual-display-and-conversion-evidence),cover: **color LCD**. Diagonal,pixel resolution andtouch capability remain unverified;not an MKII specification. |
+| I/O / original conversion specifications | Same manual specifications: **48kHz;32-bit A/D;20Hz–20kHz±1dB;THD+N<0.03%;dynamic range110dB**. No float-conversion orUSB word-length inference;test conditions unstated. [Source scope](#mg-300-original--german-manual-display-and-conversion-evidence). |
 | Processing / presets | Exact concurrent limit,firmware-specific per-category totals,factory/user split ?. Current firmware adds bass processing; do not borrow MKII counts. |
 | Creative / original pitch and reverse processing | [Version1.0 scope](#mg-300-original--ir-source-format-creative-boundaries-and-used-offer): EFX Pitch Bender andDLY Reverse Delay;numeric pitch range/input polyphony unresolved. These do not establish a dedicated synth oracoustic simulator. |
 | Acoustic / synth | Pitch bender and wah documented;dedicated synth/acoustic simulator ?. |
@@ -1481,6 +1483,17 @@ Its [five-page parameter sheet](https://www.ariaguitars.com/jp/items/docs/mg300_
 A separate [mirror labeled User Manual](https://www.manualslib.com/manual/4335428/Nux-Mg-300.html?page=14) matches the [explicitly unofficial Version1.3 guide](https://www.scribd.com/document/637019772/Music-chart):Danny Bartel,firmware V3.10.13 scope,with effects list based on Steve Conrad’s spreadsheet. Its36+36 preset and30s-loop claims are **not adopted as manufacturer specifications**;the latter also differs from the maker’s60s product claim. Preserve exact preset capacity,toe behavior,current library andtracking limits as unresolved. This doesnot invalidate the separately identity-checked manufacturer Version1.0 reproduction.
 
 No new qualified Shopee hardware offer,software installation,device operation orlocal download. Active inventory andinstrument membership unchanged.
+
+
+### MG-300 original — German manual display and conversion evidence
+
+Checked **2026-11-06** against the [German manufacturer-authored manual hosted by Algam](https://cdn.algam.net/pub/collections/documents_AE/NUX/MG-300_OM_D.pdf),eight PDF pages. The cover identifies Cherub as designer/manufacturer with©2019;the introduction carries©2020 Cherub andexplicit NUX/MG-300 identity. Panel,connections andchapter sequence match the previously checked original Version1.0 English reproduction. This is an original-model regional document,not MKII or the unofficial expanded guide;no byte-equivalence orinstalled-firmware claim.
+
+- **PDF1 cover:** explicitly labels a color LCD. Screen diagonal,pixels andtouch remain unspecified;no visual inspection orphoto-derived measurement is claimed.
+- **PDF8 specification panel:**48kHz sampling,32-bit A/D,20Hz–20kHz±1dB,THD+N<0.03%,dynamic range110dB. Converter wording doesnot establish32-bit float,all USB stream formats orloop-recording word length. Measurement conditions are unstated.
+- **PDF2 features:** global three-band EQ is distinct from the patch six-band EQ retained above. Its existence doesnot establish an analog expression-volume assignment.
+
+The inspected manufacturer material doesnot settle total/factory/user preset capacity. The prior36+36 unofficial-guide lead remains unverified. The fresh Shopee result repeats Kain Bintik Bandung238337682/41252521244 atRp1.350.000,Habis,in a four-month snapshot;no price orstock refresh. A newly surfaced title explicitly naming **MK2** is excluded from this original-model offer evidence. Current firmware equivalence,full named effect census,toe operation,qualified stock andother retained gaps remain. No local download,installation ordevice operation.
 
 ## MG-400
 

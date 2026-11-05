@@ -176299,7 +176299,26 @@
     },
     "additional_index_records": 102,
     "active_inventory_unchanged": 402,
-    "next": "LCD/Shopeepriority thenremainingrequiredfields;originalMG300presetcapacity/currenteffectcensus/toe/output gaps remain. PreserveGT-Pro,GP-200JR→Prime→GE300 andexpression-volume queues."
+    "next": "LCD/Shopeepriority thenremainingrequiredfields;originalMG300presetcapacity/currenteffectcensus/toe/output gaps remain. PreserveGT-Pro,GP-200JR→Prime→GE300 andexpression-volume queues.",
+    "german_manual_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/NUX.md#mg-300-original--german-manual-display-and-conversion-evidence",
+      "source": "https://cdn.algam.net/pub/collections/documents_AE/NUX/MG-300_OM_D.pdf",
+      "identity": "Cherub-authored German originalMG300 manual;©2019cover/©2020intro;8PDFpages;matching original-model panel/connections/sequence",
+      "finding": "Explicit cover color LCD; specification conversion/electrical limits; global3band versus patch6band EQ separated",
+      "memory": "Manufacturer capacity still unverified;do not adopt unofficial36+36",
+      "access": "Original English manufacturer PDF zero readable lines;screenshot returned reference withoutinspectable image. German document original text only,no visual claim",
+      "market": "Known238337682/41252521244 repeats oldRp1350000,Habis;MK2offer not assigned tooriginal",
+      "remaining": [
+        "Preset total/factory/user split",
+        "Display diagonal/pixels/touch",
+        "Current firmware equivalence/full named census",
+        "Toe operation/current software/power gaps",
+        "Exact condition-stock-qualified offers"
+      ],
+      "next": "Commit/push originalMG300 finding before researching MKII title offer;continue individual-footdisplay priority when newevidence exists;preserve GT-Pro,GP200JR→Prime→GE300 andexpression queues",
+      "inventory_unchanged": 402
+    }
   },
   "mg300_original_regional_provenance_20261105": {
     "checked_date": "2026-11-05",
