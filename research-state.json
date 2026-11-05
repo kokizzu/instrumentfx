@@ -168799,5 +168799,44 @@
     ],
     "next": "Complete remaining Stadium effect names; keep display hardware and stock gaps queued while preserving expression and GP-200JR → Prime → original GE300 queues.",
     "inventory_change": 0
+  },
+  "stadium_xl_named_census_completion_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Line 6 Helix Stadium XL Floor",
+    "source": {
+      "url": "https://line6.com/helix-stadium-models/?locale=en_US",
+      "new_sections": "Distortion, Dynamics and EQ",
+      "new_14": [
+        "Rock Box Dist",
+        "Rock Box Boost",
+        "PortaBox 424",
+        "Mercator Dist"
+      ]
+    },
+    "counts": {
+      "Distortion": 65,
+      "Delay": 45,
+      "Reverb": 25,
+      "Modulation": 57,
+      "Dynamics": 19,
+      "EQ": 5,
+      "Pitch/Synth": 29,
+      "Filter": 15,
+      "Wah": 11,
+      "Volume/Pan": 5
+    },
+    "ten_category_total": 276,
+    "loopers_separate": 3,
+    "canonical": "brand/LINE6.md#stadium-xl--remaining-named-effects-and-census-completion",
+    "status": "Named ten-category reference census complete; model remains partially verified",
+    "qualification": "One count per mono/stereo row; current/Legacy entries remain separate. No installed firmware or simultaneous-fit certification.",
+    "remaining": [
+      "Primary voltage/frequency/power rating",
+      "OLED physical specifications",
+      "Condition-qualified current hardware stock",
+      "Other unresolved hardware and routing fields retained in canonical record"
+    ],
+    "next": "Return to accessible display-model hardware and exact Indonesian offer gaps; preserve expression and GP-200JR → Prime → original GE300 queues.",
+    "inventory_change": 0
   }
 }

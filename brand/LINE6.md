@@ -878,6 +878,7 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Display / brightness and dimming | [Live v1.4 global settings](https://manuals.line6.com/en/helix-stadium/live/global-settings): XL strip brightness **0% is the lowest setting; strips cannot be completely switched off**. Idle dimming affects main screen and strips after the documented input/activity conditions. Brightness and LED-ring settings do not establish OLED pixel color or diagonal. Checked **2026-11-01**; no device test. |
 | Preset down / up | Same [global settings](https://manuals.line6.com/en/helix-stadium/live/global-settings) assigns **FS1/FS7** to Bank, Preset, Snapshot, Song or Marker up/down in Preset/Snapshot/Combo modes; direction can be swapped. Stomp-mode use requires Command Center assignment. This verifies configurable onboard preset stepping, not a dedicated unchangeable pair or global volume. |
 | Dimensions / weight | **498 W × 257 D × 92 H mm; 5.25 kg**. Manufacturer also lists 19.4 W × 10.1 D × 3.6 H inches and 11.5 lb; rounded mixed units retained as published. [Support tips][SX-K] |
+| Processing / completed named effect census | [Ten categories:276 entries](#stadium-xl--remaining-named-effects-and-census-completion), including65 Distortion,19 Dynamics and5 EQ. Three loopers separate. Rows count mono/stereo once, retain current/Legacy distinctions andintroduction versions; not276 simultaneous blocks orinstalled-firmware verification. |
 | Processing / named modulation and reverb | [57 Modulation and25 Reverb choices](#stadium-xl--named-modulation-and-reverb-inventories); Essex Vibe/Dimension W introduced1.4, other listed entries1.0. Five current modulation entries stereo-only, Poly Detune mono;13 current reverbs mono/stereo. Legacy channel format unverified. DSP andinstalled firmware remain separate. |
 | Processing / named delay choices | [45 named Delay entries](#stadium-xl--named-delay-inventory-and-channel-formats): 28 current and17 Legacy. Five current entries are stereo-only; Poly Sustain is mono. Source appearance1.0 is separate from installed firmware and DSP-limited concurrency. |
 | Processing / named filter and pedal effects | [31 named choices](#stadium-xl--named-filter-wah-and-volume-pan-inventory): Filter15, Wah11, Volume/Pan5. Four filters and all wahs list mono/stereo; Pan/Stereo Width/Stereo Imager are stereo. Model-list appearance1.0 is not installed-firmware proof; filter processing does not establish synth tracking or global volume assignment. |
@@ -1240,6 +1241,22 @@ Checked **2026-11-05**, [manufacturer Stadium model list](https://line6.com/heli
 | Reverb:12 Legacy | Plate; Room; Chamber; Hall; Echo; Tile; Cave; Ducking; Octo; ‘63 Spring; Spring; Particle Verb |
 
 Totals: **57 Modulation,25 Reverb**. Formats describe audio channels,not tracking polyphony. Legacy format,installed library andsimultaneous DSP fit remain unverified. Existing Poly Detune/source-footnote conflict is preserved. No download ordevice operation.
+
+
+### Stadium XL — remaining named effects and census completion
+
+Checked **2026-11-05**, [manufacturer Stadium model list](https://line6.com/helix-stadium-models/?locale=en_US). **Rock Box Dist,Rock Box Boost,PortaBox 424,Mercator Dist:1.4; other entries below:1.0.**
+
+| Category / format | Named choices |
+|---|---|
+| Distortion:48 mono/stereo | Kinky Boost; Deranged Master; Minotaur; Teemah!; Heir Apparent; Tone Sovereign; Rock Box Dist; Rock Box Boost; Alpaca Rogue; Compulsive Drive; Dhyana Drive; Horizon Drive; Valve Driver; Top Secret OD; PortaBox 424; Prize Drive; Scream 808; Pillars; Hedgehog D9; Stupor OD; Deez One Vintage; Deez One Mod; Ratatoullie Dist; Vermin Dist; Vital Dist; Vital Boost; KWB; Mercator Dist; Legendary Drive; Swedish Chainsaw; Arbitrator Fuzz; Pocket Fuzz; Bighorn Fuzz; Triangle Fuzz; Dark Dove Fuzz; Ballistic Fuzz; Industrial Fuzz; Tycoctavia Fuzz; Wringer Fuzz; Thrifter Fuzz; Xenomorph Fuzz; Megaphone; Bitcrusher; Ampeg Scrambler; ZeroAmp Bass DI; Regal Bass DI; Obsidian 7000; Clawthorn Drive |
+| Distortion:17 Legacy | Tube Drive; Screamer; Overdrive; Classic Dist; Heavy Dist; Colordrive; Buzz Saw; Facial Fuzz; Jumbo Fuzz; Fuzz Pi; Jet Fuzz; L6 Drive; L6 Distortion; Sub Oct Fuzz; Octave Fuzz; Bronze Master; Killer Z |
+| Dynamics:11 mono/stereo | Deluxe Comp; Red Squeeze; Kinky Comp; Ampeg Opto Comp; Rochester Comp; LA Studio Comp; 3-Band Comp; Noise Gate; Hard Gate; Horizon Gate; Autoswell |
+| Dynamics:1 mono | Feedbacker |
+| Dynamics:7 Legacy | Tube Comp; Red Comp; Blue Comp; Blue Comp Treb; Vetta Comp; Vetta Juice; Boost Comp |
+| EQ:5 mono/stereo | Parametric; Tilt; 10 Band Graphic; Cali Q Graphic; Acoustic Sim |
+
+The ten named category inventories now reconcile: **65+45+25+57+19+5+29+15+11+5=276**. Three loopers are separate. Mono/stereo counts once; Legacy is not a channel specification. Names do not establish synth tracking orsimultaneous capacity. Installed firmware,power,OLED physical details andqualified stock remain unverified.
 
 
 ## HX Effects

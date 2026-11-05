@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(line6): name Stadium XL modulation and reverb choices'
+        message='research(line6): complete Stadium XL named effect census'
     print(git('commit','-m',message))
