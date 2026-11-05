@@ -155228,6 +155228,15 @@
         "instrument": "Acoustic/sitar/defret",
         "qualification": "S-Bend recall and DSP limits",
         "evidence_basis": "English01©2024; focused2026-11-05; partial audit"
+      },
+      {
+        "key": "BOSS::GX-100",
+        "canonical": "brand/BOSS.md#gx-100--creative-index-and-source-revision-boundaries",
+        "synth": "Overtone; engine unverified",
+        "pitch": "Version2 poly octave; earlier algorithm-specific parameters",
+        "instrument": "Existing acoustic/sitar/defret; AC Resonance distinct",
+        "qualification": "Revision boundaries and DSP limits",
+        "evidence_basis": "Official version2©2024 and earlier English HTML; focused2026-11-05"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -171934,5 +171943,28 @@
       "Existing hardware/software gaps and qualified current offers"
     ],
     "next": "LCD/Shopee first; next creative gap GX-100; preserve GT-Pro, GP200JR→Prime→GE300, expression-volume and consolidation queues"
+  },
+  "gx100_creative_index_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#gx-100--creative-index-and-source-revision-boundaries",
+    "sources": [
+      "https://static.roland.com/manuals/gx-100_parameter_v200/en-US/9100493995834507.html",
+      "https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/9123943595998731.html",
+      "https://static.roland.com/manuals/gx-100_parameter/eng/25630065.html",
+      "https://static.roland.com/manuals/gx-100_parameter/eng/25630055.html",
+      "https://static.roland.com/manuals/gx-100_parameter/eng/25630189.html",
+      "https://static.roland.com/manuals/gx-100_parameter/eng/25630430.html",
+      "https://static.roland.com/manuals/gx-100_parameter/eng/25630257.html"
+    ],
+    "revision": "Version2©2024 availability; earlier English parameter details explicitly separate; eng02PDF403",
+    "market": "Imagination19576516/16623915464 reopen cache miss; no qualified new used offer; unrelated motorcycle results rejected; older prices preserved",
+    "additional_records": 91,
+    "active_inventory": 402,
+    "remaining": [
+      "Current English parameter equivalence",
+      "Unspecified input polyphony and installed firmware",
+      "Existing hardware/software and exact offer gaps"
+    ],
+    "next": "LCD/Shopee priority; next creative index lead BOSS GT-1000; preserve independent GT-Pro, GP200JR→Prime→GE300, expression-volume and consolidation queues"
   }
 }

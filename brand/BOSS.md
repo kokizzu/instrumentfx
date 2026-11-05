@@ -3450,6 +3450,18 @@ Checked **2026-10-16**; cached asking evidence, not live checkout/stock. New con
 | Historical local retail / Melodia | **Rp13.685.000**, branch stock observed2026-10-15; not reopened or Shopee checkout evidence. | [Melodia](https://www.melodiamusik.com/product/boss-gx-100-guitar-multi-effects-pedal/) |
 | Historical local preorder / Swee Lee | **Rp13.985.000,PREORDER**, observed2026-10-15; not reopened,not equivalent to in-stock. | [Swee Lee](https://www.sweelee.co.id/en/products/boss-gx-100-guitar-multi-effects-pedal) |
 
+### GX-100 — creative index and source revision boundaries
+
+Checked **2026-11-05**. The [version2 English contents](https://static.roland.com/manuals/gx-100_parameter_v200/en-US/9100493995834507.html) and [Japanese Poly Octave page](https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/9123943595998731.html),©2024, are separate from the earlier English guide linked below. Current PDF eng02 returned403; older parameter details are not certified as unchanged in version2 or installed firmware.
+
+| Required field | Focused evidence and limits |
+|---|---|
+| Synth / tracking | [OVERTONE](https://static.roland.com/manuals/gx-100_parameter/eng/25630257.html) adds harmonics; dedicated tracking synth remains unverified. |
+| Pitch / note handling | Version2 POLY OCTAVE explicitly accepts polyphonic input; [earlier English page](https://static.roland.com/manuals/gx-100_parameter/eng/25630247.html) specifies one octave down. [PITCH SHIFTER](https://static.roland.com/manuals/gx-100_parameter/eng/25630065.html):±24semitones; voices/stereo are not input polyphony. Indexed [HARMONIST](https://static.roland.com/manuals/gx-100_parameter/eng/25630055.html) explicitly requires single notes; direct reopen403. Other pitch chord support unverified. |
+| Pitch / trigger recall | Earlier [S-BEND](https://static.roland.com/manuals/gx-100_parameter/eng/25630189.html):−3/−2/−1/+1/+2/+3/+4oct; trigger saves OFF; rise/fall0–100 are parameter units,not milliseconds. |
+| Synth / instrument distinction | Existing acoustic/sitar/defret choices retained. [AC RESONANCE](https://static.roland.com/manuals/gx-100_parameter/eng/25630430.html) treats acoustic-electric pickup sound; it is distinct from acoustic simulation. |
+| Processing / special choices | Version2 lists Slicer,Humanizer,Ring Modulator,Feedbacker,Slow Gear,Shimmer Delay/Reverb,Tera Echo,Twist and Warp. Availability does not override existing DSP/instance limits. |
+
 <!-- comparison evidence ends -->
 
 [GX100-P]: https://www.boss.info/global/products/gx-100/
