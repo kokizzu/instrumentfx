@@ -174115,5 +174115,30 @@
     "active_inventory_unchanged": 402,
     "controller_only": true,
     "next": "Resume requested separate-screen audio-processor gaps and exact Shopee hardware; preserve independent GT-Pro, general GP-200JR → Prime → GE300 and expression queues"
+  },
+  "ge300_v510_editing_recall_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/MOOER.md#ge300--processing-and-memory",
+    "source": "https://mooer.jp/pages/mooer-ge300v510",
+    "revision": "Regional V5.1.0 overview explicitly as of December2025",
+    "findings": [
+      "Chain-view parameter editing via knobs1–5/page buttons; unsaved edits lost on preset change",
+      "Selected VOL parameter follows built-in volume pedal visually",
+      "Preset CTRL latching/momentary/colors and seven-module group limit corroborated for5.1.0",
+      "SELECT in Preset Display accesses Patch Level"
+    ],
+    "remaining": [
+      "Patch Level range/output coverage",
+      "Current5.1.4 menu equivalence",
+      "Factory/user occupancy split",
+      "External global-volume scope",
+      "Qualified Shopee hardware stock"
+    ],
+    "source_blocked_deferred": [
+      "AXOM MAX panel screenshot still unavailable; maker site has no readable body; no browser surfaces available",
+      "Stadium XL exact Shopee440477624/53707848703 repeats already-recorded three-month cache, no refreshed condition/stock"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue accessible requested individual-screen audio-processor gaps, then saved general queue and fresh Shopee discovery; preserve independent GT-Pro and expression cursors"
   }
 }
