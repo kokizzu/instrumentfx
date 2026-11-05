@@ -1806,7 +1806,7 @@ Numbered original panel and rear descriptions (printed pp3–5) were read; PDF p
 | NS |3 original gates/reducers |
 | TONE CAP |GUIT instrument EQ matching,AMP&STOMP capture,IR cabinet capture; proprietary capture separate from NAM |
 | EQ |8 models; original Mooer B is described as guitar and its stated six bands conflict with five printed frequency values; not proof of bass compatibility |
-| DELAY / REVERB |14 /11 original models |
+| DELAY / REVERB |14 /11 original models;[complete25-name inventory and creative roles](#ge300--complete-original-delay-and-reverb-inventory). Later additions and current-firmware retention remain separately qualified. |
 | FX LOOP / VOL |Routing and volume categories, not extra independent algorithm inventories |
 
 ### GE300 — remaining original tables, checked 2026-11-03
@@ -2152,6 +2152,19 @@ Checked **2026-11-05**, [manufacturer original2019 manual, printed pp26–30](ht
 - The Phaser Sweep description calls its range “six-octave or twelve-octave,” although the model names say **6 Stage/12 Stage Analog Phaser**. Preserve that wording conflict;do not convert stage counts into a verified frequency span.
 
 No device operation ornew local download. Current library,qualified stock andthe other saved verification gaps remain open.
+
+### GE300 — complete original delay and reverb inventory
+
+Checked **2026-11-05**, [manufacturer original2019 manual,printed58–61](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),V1.1.0 screen examples. Original table text,not current installed-library certification.
+
+| Category | Complete original names |
+|---|---|
+| DELAY —14 | Digital; Analog; Dynamic; Real; Tape; Mod; Reverse; Dual Delay; Multi Tap Delay; Ping Pong; Vintage Delay; Galaxy Delay; Fuzz Delay; Crystal Delay |
+| REVERB —11 | Room; Hall; Plate; Filter-Reverb; Fl-Reverb; Reverse-Reverb; Swell-Reverb; Spring; Mod; Shimmer; Dist-Reverb |
+
+Dual Delay has two internal delays;Multi Tap Delay four. These are not extra selectable blocks. Vintage Delay reduces repeat fidelity;Galaxy swells/modulates repeats;Fuzz Delay distorts repeats;Crystal combines harmonization/modulation. Reverse-Reverb reverses ambience;Swell-Reverb fades it in;Filter-Reverb applies filtering. None establishes input-tracking synthesis.
+
+Delay Time **20–2000ms**;reverb Pre Delay **0–200ms**. Both Mix controls span **0–100,dry to wet-only**. Listed stereo output modes cost more CPU;reverb High quality also increases CPU use. Internal wet/dry mix is not global expression assignment orcross-preset spillover. Keep later Studio/Morph Pingpong andTheater/Cathedral/Chorus Reverb additions separate;no current retention guarantee.
 
 ## GE300 Lite
 

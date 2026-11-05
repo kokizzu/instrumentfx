@@ -217,3 +217,5 @@ HeadRush Prime [BBD Delay5.1 modes andblock-mix Phase Invert](brand/HEADRUSH.md#
 Original GE300 [volume-curve correction andsample-dependent startup warning](brand/MOOER.md#ge300--volume-curve-fix-and-sample-dependent-startup-scope) retain historical firmware scope;they do not establish current boot performance orglobal expression assignment.
 
 [Flamma FX10](brand/FLAMMA.md#fx10--partial-headphone-multi-effects-discovery) remains a **partial lead outside active counts and the96-record additional index**: its own manual identifies acoustic-guitar simulation and fixed reverse-delay/modulation/reverb combinations. Tracking synthesis and pitch shifting remain unverified. This does not expand the seven-model fresh comparison.
+
+Original GE300 [complete original delay/reverb names](brand/MOOER.md#ge300--complete-original-delay-and-reverb-inventory) distinguish reverse,low-bit,fuzz,shimmer andswell processing from tracking synthesis. These25 original selections do not addblocks orcertify current installed contents.

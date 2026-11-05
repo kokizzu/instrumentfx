@@ -174643,5 +174643,54 @@
     ],
     "inventory_unchanged": 402,
     "next": "GeneralGP-200JR→Prime checkpoint saved;continueoriginalGE300 while keepingindividual-footdisplay/Shopee priority,GT-Pro andexpression-volume queues"
+  },
+  "ge300_original_delay_reverb_census_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/MOOER.md#ge300--complete-original-delay-and-reverb-inventory",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "revision": "Original2019,V1.1.0 screen examples;printed58–61;notcurrentfirmware",
+    "delay": [
+      "Digital",
+      "Analog",
+      "Dynamic",
+      "Real",
+      "Tape",
+      "Mod",
+      "Reverse",
+      "Dual Delay",
+      "Multi Tap Delay",
+      "Ping Pong",
+      "Vintage Delay",
+      "Galaxy Delay",
+      "Fuzz Delay",
+      "Crystal Delay"
+    ],
+    "reverb": [
+      "Room",
+      "Hall",
+      "Plate",
+      "Filter-Reverb",
+      "Fl-Reverb",
+      "Reverse-Reverb",
+      "Swell-Reverb",
+      "Spring",
+      "Mod",
+      "Shimmer",
+      "Dist-Reverb"
+    ],
+    "findings": [
+      "Complete original14/11 namedtables",
+      "Internaldelaycounts andspecial processing distinguished fromsynthesis",
+      "Delay20–2000ms;reverbpredelay0–200ms;Mix0–100dry/wet;stereo/highquality CPUqualifications"
+    ],
+    "market": "Exact used/bekas queries noqualifiednewoffer;Vin31173885/29362925028 repeatedretainedRp11928000;notcurrentstock",
+    "inventory_unchanged": 402,
+    "remaining": [
+      "Currentlibrary retention andfactoryfill",
+      "Displaytouch/resolution",
+      "NAMsubvariant/currentUSB routing",
+      "Condition/stockqualifiedShopee offers"
+    ],
+    "next": "GeneralGP-200JR→Prime→GE300 checkpoint saved;continue accessible individual-footdisplay/Shopee priority and systematic remaining inventory;preserve GT-Pro andexpression-volume queues"
   }
 }
