@@ -159335,7 +159335,27 @@
     "remaining": "Pitchinputpolyphony,trackingquality,currentbehavior,fullprofile andqualifiedcurrenthardwarestock.",
     "additional_creative_records": 37,
     "active_count_unchanged": 402,
-    "independent_queues_preserved": true
+    "independent_queues_preserved": true,
+    "menu_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/KORG.md#ax1500g--named-creative-choices-and-reverse-label-conflict",
+      "revision": "Exact E2printed18–22",
+      "counts": {
+        "MODULATION": 11,
+        "PEDAL": 11,
+        "AMBIENCE": 11
+      },
+      "new_scope": "Individualprogram2 hold/tap/samplearm roles;E2reverse table1–8 versusproseA/b groups,unresolved mapping",
+      "remaining": [
+        "Reverse-label mapping/current behavior",
+        "Pitch polyphony",
+        "Visualdisplay/control verification",
+        "Power/current/polarity",
+        "Qualified live condition-specific hardware"
+      ],
+      "inventory_changed": false,
+      "next": "Continue priorityindividualdisplay gaps andsystematiccatalogue;preserve GT-Pro,expression andGP200JR→Prime→GE300 queues"
+    }
   },
   "ax3000b_creative_scope_20261103": {
     "source": "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf",

@@ -778,6 +778,7 @@ Guitar multi-effects; distinct from AX1000G/AX3000G. Checked 2026-10-17; partial
 | Category choices / total reconciliation | **11 each** in DRIVE-AMP, CABINET, MODULATION, PEDAL and AMBIENCE: **55 selectable block choices**. Separate noise reduction may explain advertised56; counting method unconfirmed. DRIVE-AMP includes acoustic/compressor choices, not11 amp models. | [Manual pp13,16–22][AX15-M] |
 | Routing / pedal sharing | VOX WAH through RING MOD replace MODULATION; HOLD DELAY through SAMPLE&PLAY replace AMBIENCE. VOLUME stays enabled; pedal on/off state is not stored per program. AUTO WAH and VOX WAH precede DRIVE-AMP. | [Manual pp10,19–21][AX15-M] |
 | Looper / phrase storage | Phrase Trainer clears on exit/power-off; Sample & Play clears on entering Trainer/power-off. Trainer AUX recording temporarily mutes guitar input; playback25–100% without pitch change. Hold/Tap delays reach3s; Sample & Play has threshold-triggered recording and pedal-controlled loop/reverse modes. | [Manual pp11,21][AX15-M] |
+| Live / delay and sampler switch | In Individual mode, program switch 2 can hold delay, tap delay tempo or arm Sample & Play, depending on PEDAL choice. Sample reverse labels conflict between E2 table/prose; [named choices and scope](#ax1500g--named-creative-choices-and-reverse-label-conflict). | [Own E2 pp20–22][AX15-M] |
 | Factory / user memory | **96=48 protected preset+48 writable user**; user programs initially duplicate the preset data. A/B channels change drive/cab combinations within each program,not the96-slot count. Reverified2026-10-18;supersedes the earlier initial-fill unknown. | [Manual pp3,7,13][AX15-M] |
 | Synth / acoustic | **ACOUSTIC** electric-to-acoustic;TALK is vowel filtering. Dedicated synth unverified. [Creative limits](#ax1500g--creative-algorithms-and-shared-block-trade-offs). | [Own E2 manual pp16,19–21][AX15-M] |
 | Pitch / special | **PITCH SHIFTER/PITCH BEND±24semitones**,fine±15cents;OCTAVE warns against chords/low strings. Ring Mod,Hold Delay,Sample&Play separate. | [Own E2 manual pp18–21][AX15-M] |
@@ -829,6 +830,20 @@ Checked2026-11-04 in [manufacturer E2 manual,printedpp7–10][AX15-M];installed 
 <!-- comparison evidence ends -->
 
 Manual E2 viewed as browser text; controls not visually certified. No manual/software/dependency saved or installed. Multi-model shop offers and accessories excluded from prices. Advertised56 counting method, display details, power limits, imports, software and live restrictions remain open.
+
+### AX1500G — named creative choices and reverse-label conflict
+
+Checked **2026-11-06**,[own E2 manual,printed18–22][AX15-M];exact AX1500G,not AX1000G transfer.
+
+| Category | Original named choices |
+|---|---|
+| MODULATION:11 | CLASSIC CHORUS;STEREO CHORUS;CLASSIC FLANGER;MOD DELAY;BLACK PHASER;ORANGE PHASER;TEXTREM;PITCH SHIFTER;FILTRON;AUTO WAH;OCTAVE |
+| PEDAL:11 | VOLUME;VOX WAH;TRAVELER;TALK;CHORUS/FLANGER;U-VIBE;PITCH BEND;RING MOD;HOLD DELAY;TAP DELAY;SAMPLE&PLAY |
+| AMBIENCE:11 | ECHO PLUS;MULTI HEAD ECHO;STEREO DELAY;PING-PONG DELAY;ROOM;HALL;PLATE;SPRING;ECHO+ROOM;ECHO+HALL;ECHO+PLATE |
+
+In **Individual mode,program switch2** holdsHOLD DELAY,tapsTAP DELAY orarmsSAMPLE&PLAY,depending onselection;these arealternate functions,not additional switches. HoldDelay’s LED blinks whileheld. TapDelay’s pedal controls delayinput.
+
+**Source conflict:** thep20 sampleREVERSE table listsOFF,1–8,LP1,LP2;thep21 prose instead uses **A-1…A-4/b-1…b-4**. Thelatter distinguishes ordinaryforward/reverse fromrestarting atbeginning/end. Numeric-to-A/b mapping remains unverified;do notborrow AX1000G’s x1–x8 wording. LP1 stops onpedal return;LP2 finishesthephrase. Existingvolatile-storage/shared-block limits remain. No download/device test;current condition,polyphony andotherprofile gaps remain open.
 
 [AX15-M]: https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf
 [AX15-P]: https://www.korg.com/de/products/effects/ax1500g/
