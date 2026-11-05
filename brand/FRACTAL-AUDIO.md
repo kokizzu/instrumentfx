@@ -1005,6 +1005,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Exceeds preferred200W×140D footprint. [Standard-covered7.x specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Processing / simultaneous limits | **12×4 grid**,DSP-limited. June2023 exactFM3 inventory:36 available classes,63 summed instance allowances including routing/control;not63 simultaneous effects. Historical1.x CPU limit approximately80%,overload mutes processing. Current13.0 equivalence untested. [Inventory](#fm3-original--dated-block-inventory-and-looper);[CPU](#fm3-original--initial-memory-dsp-and-current-support). |
 | Categories / November reference | [November2026 FM3 column](#fm3-original--november-reference-category-and-instance-comparison): 36 supported rows,63 summed allowances including utilities, **not63 simultaneous effects**. Delay shared29 becomes27 after two explicit FM3 exclusions. Reference counts are not installed certification or completed named censuses. |
+| Processing / named Plex choices | [45 Plex types](#fm3-original--named-plex-types-and-sustained-tail-processing): five core plus40 variants, one FM3 block, CPU permitting. Detune±50cents; Shift±24semitones. Internal voices and held tails do not establish tracking-synth polyphony or separate looper storage. November2026 reference, installed equivalence untested. |
 | Processing / further category inventories | [Phaser19, Tremolo/Panner7, Ten-Tap2, Gate4, Enhancer3; Volume/Pan2 described modes](#fm3-original--remaining-modulation-dynamics-and-utility-types). Two instances each except Ten-Tap one, CPU permitting. Auto-Swell is envelope processing, not global pedal assignment; Volume mode UI label and installed equivalence remain unverified. |
 | Processing / named filter and wah | [20 Filter and nine Wah choices](#fm3-original--named-filter-wah-and-envelope-distinctions), November2026 reference; four Filter/two Wah instances, CPU permitting. Touch-Wah follows level; Auto-Wah uses an LFO; Ladder self-oscillation is not note-tracking synthesis. Installed equivalence untested. |
 | Processing / named delay and flanger | [27 Delay/31 Flanger names](#fm3-original--named-delay-flanger-and-held-repeat-boundaries), November2026 reference; two instances each, CPU permitting. FM3 Delay maximum8s; Diffused Delay/Zephyr excluded. HOLD closes input, STACK keeps it open; not separate looper memory or tested retention. |
@@ -1277,6 +1278,18 @@ Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,44,52,73,1
 | Volume/Pan:2 described modes; two instances | Simple volume control (exact UI type label unverified); Auto-Swell |
 
 Ten-Tap uses **one to ten echoes and Decay rather than feedback**; Rhythm Tap adds custom timing. Modern Gate and Auto-Swell can create slow attacks; neither establishes global expression-volume assignment. Classic Enhancer’s channel delay can cause cancellation on mono summing. Remaining category names and hardware gaps stay open. No download or device operation.
+
+
+### FM3 original — named Plex types and sustained-tail processing
+
+Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,87–89](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf); [Original support](https://www.fractalaudio.com/fm3-downloads/). Family reference; installed equivalence untested.
+
+| Group | Named choices |
+|---|---|
+| Core:5 | Plex Delay; Plex Detune; Plex Shift; Plex Verb; Shimmer Verb |
+| Variants:40 | Ambient Depths; Bronze Harps; Cacophonizer; Celestial Shimmer; Critters; Dancing Detune; Delay Swell; Demi-Semi Delay; Detuned Space; Detuned Space 2; Discrete Echoes; Dissolving 16ths; Echo Hall; Econo Shimmer; Econo Shimmer 2; Ganymede; Gnome Shifter; Gold Harps; Golden Delay; Golden Detune; Golden Shimmer; Granular Echoes; Gritty Shimmer; Helium Shimmer; Intrigue; Lunar Detuner; Melting Delays; Mod Wash; Occult Verb 1; Occult Verb 2; Ping-Pong Reverse; Plex Tape Echoes; Reverse Oct 4; Reverse Oct 8; Reverse Plex; Sample/Hold Delay; Scintillation; Sirocco; Subtone Shimmer; The Cytherians |
+
+**One FM3 Plex block**, CPU permitting. Plex Detune offers **±50cents/voice**; Plex Shift adds **±24semitones/voice**. Eight internal delay/shifter voices are not eight blocks or input-note polyphony. HOLD closes input while sustaining the tail; STACK admits new audio. These process audio, not a separate tracking synth or phrase-loop memory. Other inventories and hardware gaps remain open. No download or device operation.
 
 
 ## FM9 MKII Turbo

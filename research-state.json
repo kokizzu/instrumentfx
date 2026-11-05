@@ -168961,5 +168961,38 @@
     ],
     "next": "Continue remaining original FM3 inventories and accessible display-model gaps; preserve expression and GP-200JR → Prime → original GE300 queues.",
     "inventory_change": 0
+  },
+  "fm3_original_named_plex_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Fractal Audio FM3 original",
+    "source": {
+      "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "November 2026",
+      "pages": "3,87–89"
+    },
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--named-plex-types-and-sustained-tail-processing",
+    "counts": {
+      "core": 5,
+      "variants": 40,
+      "total": 45,
+      "fm3_instances": 1
+    },
+    "limits": {
+      "detune_cents": 50,
+      "shift_semitones": 24,
+      "hold": "input closed; tail sustained",
+      "stack": "input open; tail sustained"
+    },
+    "qualification": "Internal voices do not establish block count or tracked note polyphony; CPU-limited family reference, installed equivalence untested.",
+    "remaining": [
+      "Drive, Multi-Delay, Megatap, Reverb and Graphic EQ named inventories",
+      "Volume mode exact UI label",
+      "Original headphone hardware variants",
+      "Physical display details",
+      "Global-volume endpoints, recall and coverage",
+      "Qualified current Indonesian offers"
+    ],
+    "next": "Continue remaining original FM3 inventories and accessible display-model gaps; preserve expression and GP-200JR → Prime → original GE300 queues.",
+    "inventory_change": 0
   }
 }
