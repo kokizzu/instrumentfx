@@ -900,6 +900,17 @@ Checked **2026-11-04**: [current manufacturer GP-50 product page](https://www.va
 
 This documents maintenance scope,not a global analog-volume assignment orcurrent1.1.0 equivalence. The separately recorded1.1.0 PDF remains unreadable;the older product-linked manual does not settle its expression behavior.
 
+### GP-50 — additional exact Indonesian hardware asks
+
+Checked **2026-11-05**. Distinct seller/item IDs,not new models. The [exact manufacturer GP-50 page](https://www.valeton.net/product/gp-50/) corroborates processor/SnapTone/IR identity;seller titles do not certify firmware,accessories orall-preset volume assignment. Earlier asks andstock conflicts remain unchanged.
+
+| Condition / seller | IDR evidence and limits | Exact item |
+|---|---|---|
+| Condition unknown / BANGBONGMUSICBEKASI,Kab.Bekasi | **Rp2.282.750,Habis** in five-month search snapshot with stale12May delivery. Direct reopen supplies only JavaScript shell;historical sold-out ask,not confirmed stock. | [1149776042/57005077115](https://shopee.co.id/Valeton-GP-50-Multi-Effects-Processor-i.1149776042.57005077115) |
+| Condition unknown / Seven Stereo Music & Audio Store,KotaBandung | **Rp2.255.000**;three-week direct snapshot with stale13–15Oct delivery. Canonical URL failed butindexed variant URL opened;display-model395426369409 doesnot establish selected variation. No exposed Habis is not availability proof. | [16879370/27244025417](https://shopee.co.id/Valeton-GP50-GP-50-Multi-Effects-Processor-SnapTone-IR-Loader-i.16879370.27244025417?extraParams=%7B%22display_model_id%22%3A395426369409%2C%22model_selection_logic%22%3A3%7D) |
+
+Neither is a verified new/used quote orcompleted sale. Working condition,selected bundle,adapter,warranty region,authenticity,shipping/tax,voucher eligibility andcheckout total remain unknown. Late-delivery compensation is not deducted. Firmware1.1.0 global-volume scope remains unverified;offer availability cannot resolve it.
+
 <!-- comparison evidence ends -->
 
 
