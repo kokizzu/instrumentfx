@@ -145183,7 +145183,25 @@
     ],
     "rotary_subtotal": 9,
     "basis": "Text-derived three sections × three parameter knobs; no visual count",
-    "remaining": "Complete buttons, screen details, global-volume endpoint/recall and bypass coverage; LCD models prioritized."
+    "remaining": "Complete buttons, screen details, global-volume endpoint/recall and bypass coverage; LCD models prioritized.",
+    "panel_followup": {
+      "checked": "2026-11-06",
+      "front": {
+        "url": "https://zoomcorp.com/media/original_images/B3_top.jpg",
+        "bytes": 987000,
+        "sha256": "14da15e67098c3c90a4e60bd34a874b8767de2fb149794b672677d432d7b9dff"
+      },
+      "rear": {
+        "url": "https://zoomcorp.com/media/original_images/zoom_b3_usbComputer.jpg",
+        "bytes": 240209,
+        "sha256": "2f542f7f72efdd6105d71162228a99215dccc6ac6b19072c3692854e7334c0e3"
+      },
+      "verified": "9rotaries;3chassisFS;16frontkeys+3rearselectors=19non-footpushcontrols;sharedL/MONO/PHONES;3monochrome-appearingLCDs",
+      "limits": "POWER/eco separate;occupied USB doesnot establish subtype/pinout;photo nothardware test,screen diagonal/color/touch orglobalvolume proof",
+      "market": "Known jakartamusicstore Rp1750000 Habis four-week direct cache;used item1220839369/41075001096 inaccessible/exact-ID empty;no refreshed condition/bundle/stock/checkout proof",
+      "remaining": "USB/control subtype/pinout;display physicalspecifications;globalvolume coverage;qualified current offers",
+      "next": "Requested individual-display model gaps next where new evidence accessible;preserve GP200JR→Prime→GE300,GTPro andexpression queues"
+    }
   },
   "g3xn_chart_census_20261031": {
     "checked": "2026-10-31",
@@ -176761,7 +176779,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://zoomcorp.com/media/original_images/G3X_top.jpg",
+    "requested_url": "https://zoomcorp.com/media/original_images/zoom_b3_usbComputer.jpg",
     "cache_policy": "One rolling working photograph and receipt in/tmp; URLs and hashes retained with model findings. Retrieval alone is not visual verification.",
     "frame": 0
   }
