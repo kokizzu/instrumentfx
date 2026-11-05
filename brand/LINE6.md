@@ -878,6 +878,7 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Display / brightness and dimming | [Live v1.4 global settings](https://manuals.line6.com/en/helix-stadium/live/global-settings): XL strip brightness **0% is the lowest setting; strips cannot be completely switched off**. Idle dimming affects main screen and strips after the documented input/activity conditions. Brightness and LED-ring settings do not establish OLED pixel color or diagonal. Checked **2026-11-01**; no device test. |
 | Preset down / up | Same [global settings](https://manuals.line6.com/en/helix-stadium/live/global-settings) assigns **FS1/FS7** to Bank, Preset, Snapshot, Song or Marker up/down in Preset/Snapshot/Combo modes; direction can be swapped. Stomp-mode use requires Command Center assignment. This verifies configurable onboard preset stepping, not a dedicated unchangeable pair or global volume. |
 | Dimensions / weight | **498 W × 257 D × 92 H mm; 5.25 kg**. Manufacturer also lists 19.4 W × 10.1 D × 3.6 H inches and 11.5 lb; rounded mixed units retained as published. [Support tips][SX-K] |
+| Processing / named delay choices | [45 named Delay entries](#stadium-xl--named-delay-inventory-and-channel-formats): 28 current and17 Legacy. Five current entries are stereo-only; Poly Sustain is mono. Source appearance1.0 is separate from installed firmware and DSP-limited concurrency. |
 | Processing / named filter and pedal effects | [31 named choices](#stadium-xl--named-filter-wah-and-volume-pan-inventory): Filter15, Wah11, Volume/Pan5. Four filters and all wahs list mono/stereo; Pan/Stereo Width/Stereo Imager are stereo. Model-list appearance1.0 is not installed-firmware proof; filter processing does not establish synth tracking or global volume assignment. |
 | Simultaneous blocks | Manual describes **46 processing positions in Super Serial template**; exact DSP/model limits remain separate. Do not assume46 heavy amps. Agoura amp models and HX-compatible effects; official list row counts: distortion **65**, delay **45**, reverb **25**, modulation **57**, dynamics **19**, EQ **5**, pitch/synth **29**, filter **15**, wah **11**, volume/pan **5**, looper **3**. These include Legacy rows and count each named mono/stereo entry once, not simultaneous blocks. Amp-table audit: **142 distinct name/subcategory entries** after removing one repeated Cali 2C+ row: guitar 24 Agoura + 66 Guitar + 28 Legacy; bass 6 Agoura + 11 Bass + 6 Legacy; 1 mic preamp. Same names across Agoura/Legacy remain separate. **46 cabinets: 38 guitar + 8 bass**; **12 mic choices per cab family**. These are derived table counts, not expanded channel options. [Model list][SX-ML], [Presets][SX-M], [Blocks][SX-B] |
 | Processing / DSP limits | **48 block locations**,12 each on1A/1B/2A/2B;not guaranteed loaded capacity. [Hardware Dynamic DSP](https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp),checked2026-11-03: Amp/Preamp **4 total,2 per primary path**;Cab **4 total,2 per primary path**,each holds up to2 cab/IR choices;Clone **4 total,2 per primary path**;Poly/high-DSP effects **2 total,1 per primary path**;Looper **1 total**. These ceilings do not guarantee simultaneous combinations. Paths1/2 have independent DSP;1A/1B sharePath1 resources. Stereo effects typically need about twice mono DSP. Existing46-processing-block SuperSerial template figure remains separately documented,not replaced by48 freely serial heavy blocks. Exact accounting for the two-position difference is not explained by these sections. |
@@ -1208,6 +1209,20 @@ Checked **2026-11-05**, [manufacturer Stadium model list,Filter/Wah/Volume-Pan t
 | Volume/Pan:3 stereo | Pan; Stereo Width; Stereo Imager |
 
 Count **31 named choices**,counting each mono/stereo row once. Legacy is the source’s subcategory label,not proof ofstereo support. Filters andwahs process incoming audio;this table doesnot establish synth-note polyphony. Volume-block availability doesnot create every-preset pedal assignments. DSP andexisting routing limits remain;power rating,OLED physical specifications andqualified current stock stay unresolved. No local download ordevice operation.
+
+
+### Stadium XL — named delay inventory and channel formats
+
+Checked **2026-11-05**, [manufacturer Stadium model list, Delay table](https://line6.com/helix-stadium-models/?locale=en_US). All45 rows list initial appearance1.0; not an installed-firmware check.
+
+| Source group / channel format | Named choices |
+|---|---|
+| Current:22 mono/stereo | Simple Delay; Mod/Chorus Echo; Sweep Echo; Ducked Delay; Reverse Delay; Vintage Digital; Vintage Swell; Pitch Echo; Transistor Tape; Cosmos Echo; Bucket Brigade; Adriatic Delay; Adriatic Swell; Elephant Man; Multi Pass; Heliosphere; Glitch Delay; Euclidean Delay; ADT; Crisscross; Tesselator; Ratchet |
+| Current:5 stereo | Dual Delay; Multitap 4; Multitap 6; Ping Pong; Harmony Delay |
+| Current:1 mono | Poly Sustain |
+| Legacy:17 | Ping Pong; Dynamic; Stereo; Digital; Dig w/Mod; Reverse; Lo Res; Tube Echo; Tape Echo; Sweep Echo; Echo Platter; Analog Echo; Analog w/Mod; Auto-Volume Echo; Multi-Head; Bubble Echo; Phaze Eko |
+
+Count each mono/stereo row once. Identical names in current andLegacy groups remain separate entries. Legacy is not a channel specification. Availability does not establish synth tracking,tracking quality orsimultaneous capacity. Poly Sustain retains the [combined-group DSP limits](https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp). Other named inventories,power andOLED hardware gaps remain open. No download ordevice operation.
 
 
 ## HX Effects

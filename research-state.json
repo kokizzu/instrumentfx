@@ -168740,5 +168740,31 @@
     ],
     "next": "Continue accessible display-priority gaps; preserve independent expression and GP-200JR → Prime → original GE300 queues.",
     "inventory_change": 0
+  },
+  "stadium_xl_named_delay_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Line 6 Helix Stadium XL Floor",
+    "source": {
+      "url": "https://line6.com/helix-stadium-models/?locale=en_US",
+      "section": "Delay",
+      "initial_appearance": "1.0 on all 45 rows"
+    },
+    "counts": {
+      "current_mono_stereo": 22,
+      "current_stereo": 5,
+      "current_mono": 1,
+      "legacy": 17,
+      "total": 45
+    },
+    "canonical": "brand/LINE6.md#stadium-xl--named-delay-inventory-and-channel-formats",
+    "qualification": "Exact Stadium family list; Legacy label is not a channel format, current/Legacy duplicate names remain separate, installed firmware and simultaneous fit untested.",
+    "remaining": [
+      "Named Modulation, Reverb, Distortion, Dynamics and EQ inventories",
+      "Primary power ratings",
+      "OLED physical specifications",
+      "Qualified current hardware stock"
+    ],
+    "next": "Finish other accessible Stadium named inventories; keep requested display hardware gaps queued and preserve GP-200JR → Prime → GE300 and expression queues.",
+    "inventory_change": 0
   }
 }
