@@ -161305,7 +161305,34 @@
     "finding": "Manufacturer documents iPhone/iPad USB recording,TRS-input-to-USB-output MIDI Thru,andclock sourceOff/USB/TRSMIDI.",
     "qualification": "Not Bluetooth editing,desktop editor,USB-host mode orverified accessory/power/OS matrix. No all-preset volume assignment established.",
     "next": "Seek firmware/app-qualified manufacturer clarification of LEVEL/global volume;inspect original USB matrix toresolve recordingchannel2 without QuadCortex transfer;exact accessory andhost power remain open.",
-    "active_inventory_changed": false
+    "active_inventory_changed": false,
+    "matrix_visual_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/NEURAL-DSP.md#nano-cortex--manufacturer-usb-matrix-visually-resolved",
+      "manual": "https://neuraldsp.com/manual/nano-cortex",
+      "revision": "NanOS2.2.0 online manual;USB MATRIX V4 asset",
+      "source": "https://images.ctfassets.net/8puu65w27ud0/4ZPV99X3f0yEWl6PgJrwQ9/31b0707cae5bd6d54300a55db4b88464/usb-matrix-v4.svg",
+      "bytes": 385530,
+      "sha256": "c22ca4392439280b3380f4199a302c0bc06f066ff189d85b1ac208e66f257e2e",
+      "rendered": [
+        1600,
+        1509
+      ],
+      "method": "ExistingCairoSVG;strictstatic/self-containedXMLvalidation beforePNG;webreaderSVGunsupported;actuallyviewed",
+      "to_host": {
+        "1": "DryanalogINPUT",
+        "2": "DryCAPTUREINPUT",
+        "3": "ProcessedOUTPUT1L",
+        "4": "ProcessedOUTPUT2R"
+      },
+      "from_host": {
+        "3": "Inputforreamping",
+        "1/2": "PlaybackOUTPUT1L/2RandHP OUT"
+      },
+      "limits": "No universalEXPassignment orLEVELavailability/phones/bypass/tail/loop attenuation proof;notindependentlivevocalprocessororunitmeasurement",
+      "next": "Retain unresolved globalvolume andactualM-VAVEwiring;continuepriorityindividualdisplays/qualifiedShopee andindependentgeneral/GTProqueues",
+      "active_inventory_unchanged": 402
+    }
   },
   "prime_remote_authorization_20261104": {
     "checked_date": "2026-11-04",
@@ -176857,7 +176884,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://mod.audio/wp-content/uploads/2023/06/MOD-Duo-Banner-.jpg",
+    "requested_url": "https://images.ctfassets.net/8puu65w27ud0/4ZPV99X3f0yEWl6PgJrwQ9/31b0707cae5bd6d54300a55db4b88464/usb-matrix-v4.svg",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0
   }

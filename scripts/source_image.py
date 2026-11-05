@@ -12,7 +12,7 @@ PLAN = Path('/tmp/instrumentfx-source-image-plan.json')
 RECEIPT = Path('/tmp/instrumentfx-source-image-receipt.json')
 IMAGE = Path('/tmp/instrumentfx-source-image.jpg')
 LIMIT = 10 * 1024 * 1024
-HOSTS = {'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
+HOSTS = {'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
          'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 
@@ -30,12 +30,50 @@ class ManufacturerRedirect(urllib.request.HTTPRedirectHandler):
         return super().redirect_request(req, fp, code, msg, headers, newurl)
 
 
+def svg_root(data):
+    """Accept only static self-contained SVG; never retrieve linked resources."""
+    import re
+    import xml.etree.ElementTree as ET
+    if not data.lstrip().startswith((b'<svg', b'<?xml')):
+        return None
+    lowered = data.lower()
+    assert b'<!doctype' not in lowered and b'<!entity' not in lowered, 'SVG entities forbidden'
+    root = ET.fromstring(data)
+    assert root.tag.split('}')[-1] == 'svg', 'Expected SVG root'
+    for item in root.iter():
+        assert item.tag.split('}')[-1].lower() not in ('script', 'foreignobject', 'image'), 'Non-static SVG element'
+        for key, value in item.attrib.items():
+            local = key.split('}')[-1].lower()
+            assert not local.startswith('on'), 'SVG event handler'
+            if local in ('href', 'src'):
+                assert value.startswith('#'), 'External SVG reference'
+    text = data.decode('utf-8')
+    assert '@import' not in text.lower(), 'External SVG stylesheet'
+    for reference in re.findall(r'url\s*\(([^)]*)\)', text, re.I):
+        assert reference.strip(' \"\'').startswith('#'), 'External SVG resource'
+    return root
+
+
+def render_svg(data, output):
+    import cairosvg
+    root = svg_root(data)
+    assert root is not None
+    viewbox = [float(value) for value in root.attrib['viewBox'].replace(',', ' ').split()]
+    assert len(viewbox) == 4
+    width, height = viewbox[2:]
+    assert width > 0 and height > 0 and 0.1 <= width / height <= 10
+    factor = 1600 / max(width, height)
+    cairosvg.svg2png(bytestring=data, write_to=str(output),
+                    output_width=max(1, round(width * factor)),
+                    output_height=max(1, round(height * factor)), unsafe=False)
+
+
 def validate_image(data):
     if len(data) > LIMIT:
         raise ValueError('Visual source exceeds 10 MiB limit')
     if not (data.startswith(b'\xff\xd8\xff') or data.startswith(b'\x89PNG\r\n\x1a\n')
-            or data.startswith((b'GIF87a', b'GIF89a', b'%PDF-'))):
-        raise ValueError('Response is not a JPEG, PNG, GIF or PDF visual source')
+            or data.startswith((b'GIF87a', b'GIF89a', b'%PDF-')) or svg_root(data) is not None):
+        raise ValueError('Response is not a JPEG, PNG, GIF, PDF or static SVG visual source')
     return hashlib.sha256(data).hexdigest()
 
 
@@ -145,6 +183,14 @@ def render():
                               'pdf_page_zero_based': frame, 'size': rendered.size,
                               'rendered': str(output)}))
         return
+    if svg_root(data) is not None:
+        output = Path('/tmp/instrumentfx-source-image-view.png')
+        render_svg(data, output)
+        with Image.open(output) as rendered:
+            assert rendered.width * rendered.height <= Image.MAX_IMAGE_PIXELS
+            print(json.dumps({'url': receipt['url'], 'sha256': receipt['sha256'],
+                              'static_svg': True, 'size': rendered.size, 'rendered': str(output)}))
+        return
     with Image.open(working) as source:
         assert source.width * source.height <= Image.MAX_IMAGE_PIXELS
         frames = getattr(source, 'n_frames', 1)
@@ -202,7 +248,25 @@ def test():
             assert decoded.width > decoded.height
             red, green, blue = decoded.convert('RGB').getpixel((0, 0))
             assert red > 200 and green < 30 and blue < 30
-    print('PASS: HTTPS host restrictions, size limits, GIF frames and actual PDF-to-PNG rendering')
+    with tempfile.TemporaryDirectory(prefix='instrumentfx-svg-test-') as directory:
+        output = Path(directory) / 'fixture.png'
+        fixture = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24"><rect width="32" height="24" fill="red"/></svg>'
+        assert validate_image(fixture)
+        render_svg(fixture, output)
+        with Image.open(output) as decoded:
+            assert decoded.size == (1600, 1200)
+            assert decoded.convert('RGB').getpixel((0, 0)) == (255, 0, 0)
+        for bad in (fixture.replace(b'<rect', b'<script/><rect'),
+                    fixture.replace(b'<rect', b'<image href="https://example.com/a.png"/><rect'),
+                    fixture.replace(b'fill="red"', b'fill="url(https://example.com/a)"'),
+                    fixture.replace(b'<rect', b'<style>@import "https://example.com/a";</style><rect')):
+            try:
+                validate_image(bad)
+            except AssertionError:
+                pass
+            else:
+                raise AssertionError('Active/external SVG accepted')
+    print('PASS: bounded image/PDF/static-SVG rendering; active and external SVG resources rejected')
 
 
 if __name__ == '__main__':

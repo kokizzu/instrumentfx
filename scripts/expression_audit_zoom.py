@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(mod-audio): verify original Duo LCD layout'
+        message='research(neural-dsp): resolve Nano Cortex USB channel matrix'
     print(git('commit','-m',message))

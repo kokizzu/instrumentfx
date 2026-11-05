@@ -115,6 +115,7 @@ The [complete original comparison](../MULTI-EFFECTS.md)<!-- historical-link:neur
 | Display | LED interface; published graphical-screen diagonal, color technology and touch specifications unverified. |
 | Other relevant features | Tuner. Capture mic connector does not prove live vocal processing. **Own2.2.0 Capture Mode text supports dynamic microphones andrequires an external powered preamp for condensers**;[capture-input qualification](#nano-cortex--capture-microphone-and-gain-boundaries). [M] **2-Preset Mode:** FS I recalls A/B; FS II global bypass. **4-Preset Mode:** both switches recall four assignments. Delay/reverb bypass Trails works outside 4-Preset Mode; not preset spillover or EXP tail coverage. NanOS2.2 adds Tremolo, optional mono summing, offline app mode, five cloud backups and capture auditioning. [R] Looper, drums, scenes and parallel routing remain unverified. |
 | Routing / mono summing and IR bypass | NanOS2.2.0 Device Settings: **Auto-Sum to Mono** sums when only one cable is in **either1L or2R**,affecting stereo effects,panning andtime-effect trails. **IR Bypass** selects1L,2R orGlobal Bypass;this is cabinet-loader bypass,not whole-device bypass orglobal pedal-volume assignment. Headphone/USB application unverified. [Own manual](https://neuraldsp.com/manual/nano-cortex). |
+| USB / complete channel matrix | [Manufacturer SVG visually inspected](#nano-cortex--manufacturer-usb-matrix-visually-resolved), NanOS2.2.0: DAW Input1=dry instrument,Input2=dry Capture Input,Inputs3/4=processed1L/2R. DAW Outputs1/2 play through mains andHP OUT;Output3 feeds input for reamping. No expression-coverage orsimultaneous live-vocal-processing claim. |
 | USB / mobile audio and MIDI forwarding | [NanOS 2.2.0 manual](#nano-cortex--mobile-audio-and-midi-source-details) documents iPhone/iPad USB recording separately from Bluetooth editing; MIDI Thru forwards TRS input to USB output. Clock source: Off, USB or TRS MIDI. Adapter/power compatibility and global pedal coverage remain qualified. |
 | USB / separate playback level | Same manual lists **USB Playback Volume default−6.0dB**. Slider endpoints andEXP assignment are unspecified here;it is not the Capture Volume−24…+12dB range orproof ofall-source mute. [Own manual](https://neuraldsp.com/manual/nano-cortex). |
 | Used IDR | ? — no dependable condition-qualified used offer established. |
@@ -375,6 +376,14 @@ Checked **2026-11-05**, [manufacturer device list](https://neuraldsp.com/nano-co
 | Utility | 5 | mixed | Adaptive Gate; Doubler; Input Gate; Utility Gate; Volume |
 
 **54 entries;53 selectable.** Input Gate is fixed;Doubler uses post1;remaining utilities use pre slots. Pre/post compressor variants count separately. Five slots remain the concurrency boundary; named availability does not prove installed contents, synthesis or global volume. Earlier source/release qualifications remain.
+
+### Nano Cortex — manufacturer USB matrix visually resolved
+
+Checked **2026-11-06**, [NanOS2.2.0 manual,Computer Integration→USB Channels](https://neuraldsp.com/manual/nano-cortex) and its [USB MATRIX V4 SVG](https://images.ctfassets.net/8puu65w27ud0/4ZPV99X3f0yEWl6PgJrwQ9/31b0707cae5bd6d54300a55db4b88464/usb-matrix-v4.svg). Static local rendering succeeded after the web reader rejected SVG. Source385530bytes,SHA-256 `c22ca4392439280b3380f4199a302c0bc06f066ff189d85b1ac208e66f257e2e`;rendered1600×1509 andactually inspected.
+
+The diagram expressly identifies **DAW Input2 as dry Capture Input**;Input1 is dry instrument,3/4 processed1L/2R. **Host playback1/2 reaches1L,2R andHP OUT**;Output3 feeds the processing input for reamping. Channel names use the host perspective. This resolves the previously uninspected matrix andchannel2 gap,not a stereo instrument-input claim orproof ofindependent live vocal processing.
+
+These routes do not prove global expression assignment,LEVEL availability,headphone attenuation,bypass/tail/loop coverage oractual-device behavior. Older inaccessible-diagram notes remain historical;no device connection,driver installation orfirmware update. Existing instrument membership and402-model total unchanged.
 
 ## Quad Cortex
 
