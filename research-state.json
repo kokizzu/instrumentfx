@@ -172025,5 +172025,22 @@
       "Exact Shopee item and condition/stock"
     ],
     "next": "Return to separate-foot-switch-screen and exact Shopee priority; preserve GT-Pro, GP200JR→Prime→GE300, expression-volume and consolidation queues; next optional creative gap ME-80"
+  },
+  "fm9_turbo_mini_display_controls_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--onboard-mini-lcd-adjustments-and-fc-boundary",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf"
+    ],
+    "revision": "August2022,3.x,Original/TURBO explicit cover; printed90,101; current12 equivalence untested",
+    "market": "ExactShopee search returned existing MKII item11170212/25331147281; no pre-MKII price orspec transfer",
+    "active_inventory": 402,
+    "remaining": [
+      "Mini-LCD numeric ranges/resolution/color/touch",
+      "Current firmware equivalence",
+      "Exact pre-MKII Shopee offer",
+      "Global expression route coverage and other preserved gaps"
+    ],
+    "next": "Continue requested separate-screen processors and exact Shopee leads; preserve GT-Pro, GP200JR→Prime→GE300, expression-volume and consolidation queues"
   }
 }

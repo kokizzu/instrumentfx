@@ -2658,6 +2658,16 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | Used IDR | No exact pre-MKII Turbo condition-confirmed Shopee offer established by2026-11-01 search. |
 | New IDR | No exact pre-MKII Turbo condition-confirmed Shopee offer established. Search returned MKII Turbo hardware;its ask is not transferred. Original/MKI title withconflictingFM3slug remains revision-unresolved,not a Turbo quote. [Existing full offer qualification](#fm9-original--partial-lcd-discovery). Unknown is not unavailable. |
 
+### FM9 Turbo — onboard mini-LCD adjustments and FC boundary
+
+Checked **2026-11-05**, [manufacturer Original/TURBO manual,August2022,firmware3.x,printed90,101](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). Explicit Turbo cover applicability; current firmware12 equivalence and device behavior untested.
+
+| Required field | Evidence and limits |
+|---|---|
+| Display / onboard mini-LCD adjustments | Mini-Display Contrast adjusts onboard strips; Mini-Display + Ring Brightness jointly sets their master brightness and LED rings. Invert Mini Displays ON gives light text on dark background. Numeric mini-LCD ranges,colors,touch andresolution remain unverified. |
+| Display / connected-FC boundary | Show Preset Numbers,Show Scene Numbers andMain LCD Display Mode concern a connected FC; they do not establish onboard-strip formats. Ring Intensity Bright25–100%/Dim1–50% is described for FC rings,not an onboard LCD brightness range. |
+| Display / main-screen adjustment | Utilities Display separately adjusts built-in LCD contrast/viewing angle. It does not establish strip dimensions orcolor depth. |
+
 <!-- comparison evidence ends -->
 
 No files,software,firmware,IRs ordependencies downloaded; no device operation. Partial admission does not certify current installed behavior, stock, ownership or complete market coverage. Older source tables, prices and revision qualifications remain unchanged.
