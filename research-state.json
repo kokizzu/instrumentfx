@@ -170113,5 +170113,23 @@
       "Exact pre-MKII Turbo Shopee hardware",
       "Global expression endpoints,recall androute coverage"
     ]
+  },
+  "fm9_turbo_multidelay_census_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--named-multi-delay-types-and-internal-processing",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,62–68",
+    "core_algorithms": 6,
+    "variants": 33,
+    "reference_choices": 39,
+    "fm9_instances": 2,
+    "active_inventory_unchanged": 402,
+    "qualification": "CPU-limited reference;installed equivalence and introduction firmware unverified.",
+    "remaining": [
+      "Drive,Reverb,Plex,Megatap andremaining category inventories",
+      "Exact pre-MKII Turbo Shopee hardware",
+      "Global expression endpoints,recall androute coverage"
+    ],
+    "next": "Continue display-priority profiles;preserve independent general,expression andconsolidation queues"
   }
 }

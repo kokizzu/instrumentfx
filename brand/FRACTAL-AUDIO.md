@@ -2525,6 +2525,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | Categories / Delay andCompressor reference | [29 Delay/19 Compressor choices](#fm9-turbo--named-delay-and-compressor-reference),two FM9 instances each,CPU permitting. Hold/Stack capture repeats;they do not add persistent looper storage. |
 | Categories / Tremolo,Enhancer andGate reference | [7/3/4 named choices](#fm9-turbo--named-tremolo-enhancer-and-gate-reference),respectively;FM9 block limits2/2/4,CPU permitting. Gate Hold is not audio freeze. |
 | Categories / Ten-Tap andVolume-Pan reference | [Two Ten-Tap types;two described Volume/Pan modes](#fm9-turbo--ten-tap-patterns-and-volume-block-scope). FM9 permits2/4 blocks respectively,CPU permitting. Auto-Swell does not establish global pedal assignment. |
+| Categories / Multi-Delay reference | [39 named choices](#fm9-turbo--named-multi-delay-types-and-internal-processing):six core algorithms plus33 variants;two FM9 blocks,CPU permitting. Internal processing is not extra block capacity. |
 | Preset memory | **512 editable locations**,including overwritable factory entries; **eight scenes each**. [Manufacturer FM9-family default:384](#fm9-turbo--family-factory-default-and-backup-scope);exact pre-MKII Turbo shipping allocation andcurrent unit contents remain unverified. Not extra protected locations. [Shared manual p39](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**; [manual/envelope/pitch tracking modes](#fm9-turbo--synth-tracking-versus-manual-generation) are distinct. Voice count is not note polyphony. Acoustic input documented separately; electric-to-acoustic simulation remains unknown. [Own-applicable manual p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Audio I/O | Mono unbalanced¼-inch Input1; stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR and same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Manual p21](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
@@ -2648,6 +2649,17 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,103–1
 **Ten-Tap Delay / Rhythm Tap Delay:** two types;two FM9 blocks,CPU permitting. Ten-Tap sets1–10 echoes with Decay andindividual levels. Rhythm Tap accepts millisecond,quantized orlearned timing;its Feedback repeats the pattern. Internal taps are not extra blocks orphrase-loop storage.
 
 **Volume/Pan:** four FM9 blocks,CPU permitting;simple volume control versus **Auto-Swell**,with the exact simple-mode menu label unverified. Pedal operation requires a Volume modifier. Auto-Swell shapes note attack,not synth tracking. Bypass can pass ormute input;Output Level is independent ofVolume. These block-local controls do not establish global pedal endpoints,recall orroute coverage. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
+
+
+### FM9 Turbo — named Multi-Delay types and internal processing
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,62–68](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf);Original/Turbo applicability as qualified above.
+
+**Six core algorithms:** Quad-Tap Delay; Quad Parallel Delay; Quad Series Delay; Quad Diffusor; Quad Tape Delay; Quad Tap Band Delay.
+
+**33 variants:** 1210; A.H. Clean Long; A.H. Clean Short; A.H. Lead Long; A.H. Lead Short; A.H. Swell Long; A.H. Swell Short; Aerosol; Ambient Quad Tape; Ambient Tape Delay; Aurora Delay; Camera Obscura; Centaurus X-3; Circular Delays; Comb Filter Delay; Dub Echo; Filtered Mod Band Delay; Kilimanjaro; L-C-R-C; Matterhorn; MD Chorus; Mono Diffuser; PCM Circular; PCM Pan; Pealing Bells; Quad Chorus; Rhythmic Bands; Shadows Taps; Space Tape; Stereo Shadows; Strange Things; Swing Ping; Ya-Ya Delay.
+
+**39 reference choices;two FM9 blocks**,CPU permitting. Quad Parallel/Series include comb filtering andring modulation;Quad Tape lacks the separate chorus subsection. Internal taps are not extra blocks orinput-note polyphony. VP4-only additions are excluded. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
 
 
 ## VP4
