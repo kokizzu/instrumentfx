@@ -170186,5 +170186,23 @@
       "Global expression endpoints,recall androute coverage"
     ],
     "next": "Continue display-priority profiles;preserve independent general,expression andconsolidation queues"
+  },
+  "fm9_turbo_reverb_geq_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--reverb-families-and-graphic-eq-count-conflict",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,53,93–96",
+    "fm9_instances": {
+      "reverb": 2,
+      "graphic_eq": 4
+    },
+    "qualification": "Reference only;Reverb79-name census andGEQ18-versus16 conflict unresolved;installed equivalence unverified.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Drive,Reverb,Megatap named censuses;GEQ missing two types;remaining category inventories",
+      "Exact pre-MKII Turbo Shopee hardware",
+      "Global expression endpoints,recall androute coverage"
+    ],
+    "next": "Continue display-priority profiles;preserve independent general,expression andconsolidation queues"
   }
 }

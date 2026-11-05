@@ -2529,6 +2529,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | Categories / Plex reference | [45 named choices](#fm9-turbo--named-plex-types-and-held-tail-boundaries):five core algorithms plus40 variants;one FM9 block,CPU permitting. Held tails do not establish persistent loop storage. |
 | Categories / Megatap andMixer reference | [Tap-texture andgrid-row boundaries](#fm9-turbo--megatap-texture-and-mixer-row-boundaries);two Megatap/four Mixer blocks,CPU permitting. Advertised22 Megatap types remain unnamed here. |
 | Categories / Formant,Ring Mod andRotary reference | [Vowel,modulation andspeaker distinctions](#fm9-turbo--formant-ring-mod-and-rotary-distinctions);FM9 block limits2/1/2,CPU permitting. Ring Mod note polyphony remains unverified. |
+| Categories / Reverb andGraphic EQ reference | [Nine Reverb families;GEQ count discrepancy](#fm9-turbo--reverb-families-and-graphic-eq-count-conflict). Advertised79/18 types are not completed named censuses;FM9 block limits2/4,CPU permitting. |
 | Preset memory | **512 editable locations**,including overwritable factory entries; **eight scenes each**. [Manufacturer FM9-family default:384](#fm9-turbo--family-factory-default-and-backup-scope);exact pre-MKII Turbo shipping allocation andcurrent unit contents remain unverified. Not extra protected locations. [Shared manual p39](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**; [manual/envelope/pitch tracking modes](#fm9-turbo--synth-tracking-versus-manual-generation) are distinct. Voice count is not note polyphony. Acoustic input documented separately; electric-to-acoustic simulation remains unknown. [Own-applicable manual p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Audio I/O | Mono unbalanced¼-inch Input1; stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR and same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Manual p21](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
@@ -2694,6 +2695,15 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,51,97�
 **Ring Mod:** one FM9 block;**CLASSIC,SSB UPPER,SSB LOWER**. Optional pitch tracking has GUITAR/BASS ranges;input-note polyphony remains unverified. Carrier2–2,000Hz with0.25–4× multiplier is modulation,not proof ofa polyphonic synth engine.
 
 **Rotary:** two FM9 blocks;drum/rotor speed andacceleration controls. Rate0 parks rotation;zero Mic Spacing models one mono microphone. Speaker simulation is distinct fromgenerated organ tones. All instance limits are CPU-dependent. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
+
+
+### FM9 Turbo — Reverb families and Graphic EQ count conflict
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,53,93–96](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf);Original/Turbo applicability as qualified above.
+
+**Reverb:** two FM9 blocks,CPU permitting. Nine naming families: **Chamber,Cloud,Echo,Hall,Huge,Plate,Room,SFX,Spring**;not a79-name census. Pre-Delay Mix100% permits echoes without reverb. HOLD closes input;STACK accepts more audio while sustaining tails. Plate lacks early-reflection controls andPitch Position;Spring lacks modulation/pitch controls. These controls do not establish persistent loop storage ortracking-synth polyphony.
+
+**Graphic EQ:** four FM9 blocks,CPU permitting. Detailed prose describes **16 variants versus18 advertised**:10/8/7/5-band×Constant/VariableQ=8;passive5-band Mark/5/4/3-band=4;3-band Console,4-Band JMPre-1,7 Band Pedal,7 Band Bass Pedal=4. Two types remain unidentified. Bands permit±12dB;outer bands shelf. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
 
 
 ## VP4
