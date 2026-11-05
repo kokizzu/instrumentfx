@@ -174330,5 +174330,26 @@
     "market": "Fresh FM3second/FM9 andHXEffectsbekas queries yielded accessory/unrelated results,notnewqualifiedhardware",
     "active_inventory_unchanged": 402,
     "next": "Continue requested individual-screen audio-modelgaps;deferunpublishedMegatap22/Reverb79names ratherthaninvent them;preserve independentGT-Pro,expression andGP200JR→Prime→GE300 queues"
+  },
+  "fm3_original_sp1_cable_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--switching-expression-accessory-and-stand-in-scope",
+    "source": "https://missionengineering.com/wp-content/uploads/2022/06/Mission-EP1_SP1_QS-Guide.pdf",
+    "source_access": "Indexed original manufacturer quick-start prose; directendpoint service-providererror; guideundated,URLpathnotrevisiondate",
+    "findings": [
+      "OUT1expression,OUT2switch;OUT2optional",
+      "BothrequireTRS-to-TRScables;TSandmixedTS/TRSinsert explicitlyexcluded",
+      "Passiveexpression,noaccessorybattery/externalpower;notaudio-volume mode"
+    ],
+    "resolution": "Cable-type gap narrowed;tip/ringexpression conflict andswitchcontactmap notresolved",
+    "remaining": [
+      "Expression-wiper contradiction",
+      "Switch contacts",
+      "Installedcurrentfirmware equivalence",
+      "Globalvolume endpoints/recall/coverage",
+      "QualifiedShopee stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Defer unreconciledSP1contacts;continueotheraccessiblepriority-model technical/marketgaps andsystematicinventory;preserve independentqueues"
   }
 }
