@@ -1005,6 +1005,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Exceeds preferred200W×140D footprint. [Standard-covered7.x specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Processing / simultaneous limits | **12×4 grid**,DSP-limited. June2023 exactFM3 inventory:36 available classes,63 summed instance allowances including routing/control;not63 simultaneous effects. Historical1.x CPU limit approximately80%,overload mutes processing. Current13.0 equivalence untested. [Inventory](#fm3-original--dated-block-inventory-and-looper);[CPU](#fm3-original--initial-memory-dsp-and-current-support). |
 | Categories / November reference | [November2026 FM3 column](#fm3-original--november-reference-category-and-instance-comparison): 36 supported rows,63 summed allowances including utilities, **not63 simultaneous effects**. Delay shared29 becomes27 after two explicit FM3 exclusions. Reference counts are not installed certification or completed named censuses. |
+| Processing / named delay and flanger | [27 Delay/31 Flanger names](#fm3-original--named-delay-flanger-and-held-repeat-boundaries), November2026 reference; two instances each, CPU permitting. FM3 Delay maximum8s; Diffused Delay/Zephyr excluded. HOLD closes input, STACK keeps it open; not separate looper memory or tested retention. |
 | Processing / named chorus and compressor | [27 Chorus and 19 Compressor choices](#fm3-original--named-chorus-and-compressor-reference), November2026 reference; two instances each, CPU permitting. Chorus voice count is not synth polyphony; compressor Look-Ahead 0–2ms delays wet and dry. Original-model installed equivalence remains untested. |
 | Processing / named pitch | [16 named reference types](#fm3-original--november-named-pitch-and-note-handling); Chromatic NOTES/CHORDS, monophonic Diatonic, polyphonic Virtual Capo ±24semitones; one CPU-limited Pitch block. November2026 reference, not installed verification. |
 | Categories / choices | Includes amp,cab,drive,modulation,pitch,dynamics,EQ,delay,reverb,synth,looper androuting/control. Exact FM3 per-category choice census remains unverified;shared guide TYPES column not treated as current FM3 totals. Dated table excludes Crossover,Dynamic Distortion,IR Player,RTA,Tone Match,Vocoder. [Exact-column census](#fm3-original--dated-block-inventory-and-looper). |
@@ -1234,6 +1235,18 @@ Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,25–29](h
 | Compressor:19 | Modern VCA Compressor; Classic VCA Compressor; VCA FF Sustainer; VCA Bus Compressor; VCA FB Sustainer; Analog Compressor; Analog Sustainer; Compander; Dynami-Comp Classic; Dynami-Comp Modern; Dynami-Comp Soft; Dynamics Processor; JFET Studio Compressor; JFET Pedal Compressor; Optical Compressor; Econo-Dyno-Comp; Vari-Mu Tube Compressor; Rockguy Compressor; Citrus Juicer |
 
 Dimension1/2/3 count separately. FM3 permits **two instances of each block**, CPU permitting. Chorus voices are delayed audio copies, not synth-note polyphony. More than two require a sine LFO; selecting another waveform resets voices to two. Compressor **Look-Ahead 0–2ms delays wet and dry**. Other inventories and hardware gaps remain open. No download or device operation.
+
+
+### FM3 original — named delay, flanger and held-repeat boundaries
+
+Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,31–32,48](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf); [Original support](https://www.fractalaudio.com/fm3-downloads/). Family reference, not installed verification.
+
+| Category | Named choices |
+|---|---|
+| Delay:27 | Digital Mono; Digital Stereo; Analog Mono; Analog Stereo; Mono Tape; Stereo Tape; Ping-Pong; Dual Delay; Reverse Delay; Sweep Delay; Ducking Delay; Vintage Digital; 2290 w/ Modulation; Ambient Stereo; Deluxe Mind Guy; Mono BBD; Stereo BBD; Lo-Fi Tape; Stereo Mind Guy; Graphite Copy Delay; Worn Tape; DM-Two Delay; Stereo Trem Delay; Wandering Delays; Pan Delay; Dual Head Tape; Surround Delay |
+| Flanger:31 | Analog Mono; Analog Stereo; BBF-2; Binary Flange; Cancel Flange; Count of Flanging; Cuda Flange; D/AD 185; Deluxe Mystery; Digital Mono; Digital Stereo; Electric Mystery; FAS Flanger; Harmonoflange; Hemisflange; Lofty Flange; Manual Thru-Zero Flanger; Melodic Flange; MXF-117; Pop Flanger; Scion Stereo Flange; Spirit Flange; Starship Flanger; Step Flanger; Stereo Jet; Thru-Zero; Trippy Flanger; Tubular; Vowel Flanger; Zero Flanger; 80’s Rack Flanger |
+
+**Diffused Delay and Zephyr are unavailable on FM3**. Delay maximum is **8seconds**, not Axe-Fx III/FM9’s16. Two instances per category remain CPU-limited. Repeat HOLD closes input; STACK leaves input open. Their feedback100% sustains repeats; lower values fade them. This is held delay audio, not separate looper memory or proven preset/power retention. Other inventories and hardware gaps remain open. No download or device operation.
 
 
 ## FM9 MKII Turbo

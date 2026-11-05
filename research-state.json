@@ -168870,5 +168870,39 @@
     ],
     "next": "Continue accessible display-priority gaps; preserve independent expression and GP-200JR → Prime → original GE300 queues.",
     "inventory_change": 0
+  },
+  "fm3_original_named_delay_flanger_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Fractal Audio FM3 original",
+    "source": {
+      "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "November 2026",
+      "pages": "3,31–32,48"
+    },
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--named-delay-flanger-and-held-repeat-boundaries",
+    "counts": {
+      "delay": 27,
+      "flanger": 31,
+      "instances_each": 2
+    },
+    "specific_limits": {
+      "excluded_delays": [
+        "Diffused Delay",
+        "Zephyr"
+      ],
+      "fm3_max_delay_seconds": 8,
+      "repeat_hold": "closes input",
+      "repeat_stack": "keeps input open"
+    },
+    "qualification": "CPU-limited family reference; held repeats not separate looper storage or proven recall/retention; installed firmware untested.",
+    "remaining": [
+      "Other named original FM3 category inventories",
+      "Original headphone hardware variants",
+      "Display physical specifications",
+      "Global-volume endpoints, recall and coverage",
+      "Qualified exact Indonesian offers"
+    ],
+    "next": "Continue accessible display-priority gaps; preserve expression and GP-200JR → Prime → original GE300 queues.",
+    "inventory_change": 0
   }
 }
