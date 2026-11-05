@@ -26036,7 +26036,23 @@
       "findings": "Own-model profile and151-category reconciliation;body/mass andUSB-connector conflicts retained;no externalEXP/MIDI/loop socket in completeinventory",
       "market": "No seller/item-qualified exactShopeeIndonesia hardware recovered;IDR/condition/stockunknown",
       "active_inventory_unchanged": 402,
-      "next": "Fullnamedcensus,currentsoftware/USB,presetfilling andphysicalrevision;continueLCD/Shopeepriority;preserveGT-Pro andGP200JR→Prime→GE300"
+      "next": "NamedAMP/CAB census,currentsoftware/USB,presetfilling andphysicalrevision;continueLCD/Shopeepriority;preserveGT-Pro andGP200JR→Prime→GE300",
+      "named_effect_followup": {
+        "checked_date": "2026-11-06",
+        "canonical": "brand/HARLEY-BENTON.md#advanced--named-non-amp-effects",
+        "source_revision": "04.04.2025 ID578765(V2), printedpp39–41,47–50;not installed firmware",
+        "counts": {
+          "FXCOMP": 8,
+          "DS/OD": 20,
+          "NS": 3,
+          "EQ": 4,
+          "MOD": 19,
+          "DLY": 9,
+          "REV": 7
+        },
+        "total": 70,
+        "scope": "Non-amp/cab choices;shared-block andpitch/synth uncertainty retained. AMP55/CAB26 names pending. Noactiveadmission."
+      }
     }
   ],
   "inventory_by_brand": {

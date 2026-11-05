@@ -31,11 +31,27 @@ Manual **273W×141D×60H mm; 925g** conflicts with product body/mass. **USB-B co
 
 IR: **WAV44.1kHz/24-bit/512samples**. Derived census: **FXCOMP8, DS/OD20, AMP55, CAB26, NS3, EQ4, MOD19, DLY9, REV7 =151**, including amps/cabinets. **ACOUSTIC1/2/3** are AMP simulators; ACOUSTIC112 is a cabinet. **PITCH SHIFT, DETUNE, STUTTER, RING MOD, SLOW GEAR, LOFI** share MOD; **REVERSE** is DLY. Preset editing leaves recorded-loop sound unchanged.
 
+### Advanced — named non-amp effects
+
+Exact V2 manual above, printedpp39–41,47–50; checked2026-11-06. **70 non-amp/cab choices**, preserving printed names, including RIET. Firmware equivalence unverified.
+
+| Block | Choices | Names |
+|---|---:|---|
+| FXCOMP | 8 | CRY WAH; 535 WAH; AUTO WAH; TALK WAH AH; TALK WAH OH; TOUCH WAH; YELLOW COMP; BLUE COMP |
+| DS/OD | 20 | TUBE DR; 808; PURE BOOST; FLEX BOOST; DDRIVE; BLACKRAT; GREY FAZE; MUFFY; MTL ZONE; MTL MASTER; OBSESSIVE DIST; JIMMY OD; FULL DRV; SHRED; BEEBEE PRE; BEEBEE +; RIET; TIGHT DS; FULL DS; GOLD CLON |
+| NS | 3 | NOISE KILLER; INTEL REDUCER; NOISE GATE |
+| EQ | 4 | GUITAR EQ; METAL EQ; 6 BAND EQ G-6; CUSTOM EQ |
+| MOD | 19 | PHASER; STEP PHASER; FAT PHASER; FLANGER; JET-FLANGER; TREMOLO; STUTTER; VIBRATO; PITCH SHIFT; DETUNE; ROTARY; ANA-CHORUS; TRI-CHORUS; RING MOD; Q-FILTER; HIGH PASS; LOW PASS; SLOW GEAR; LOFI |
+| DLY | 9 | DIGITAL; ANALOG; REAL; TAPE; MOD; REVERSE; PINGPONG; DYNAMIC; DUAL DELAY |
+| REV | 7 | ROOM; HALL; CHURCH; PLATE; SPRING; MOD; CAVE |
+
+Choices share their respective block. DLY/REV MOD names are distinct. ROTARY and SLOW GEAR do not establish synthesis. Pitch ranges/chord handling remain unverified. AMP55/CAB26 names remain untranscribed.
+
 ### Advanced — market and continuation
 
 Exact-brand/Advanced Shopee Indonesia searches found no seller/item-qualified hardware. Used/new IDR, condition, stock, region, variant, bundle, adapter, warranty, vouchers, shipping/tax and checkout remain unknown. Foreign prices and preset/accessory downloads are not substituted.
 
-Remaining: full named algorithm transcription, current firmware/editor OS, USB channels, initial patch filling and exact navigation; expression assignment persistence, endpoints, toe implementation and output/headphone/bypass/tail/loop coverage; USB-only power and physical revision reconciliation. Pitch polyphony and dedicated synthesis remain unverified. Built-in treadle excludes this from the no-treadle shortlist. No visual inspection, local download, installation, device operation or seller contact.
+Remaining: named AMP/CAB transcription, current firmware/editor OS, USB channels, initial patch filling and exact navigation; expression assignment persistence, endpoints, toe implementation and output/headphone/bypass/tail/loop coverage; USB-only power and physical revision reconciliation. Pitch polyphony and dedicated synthesis remain unverified. Built-in treadle excludes this from the no-treadle shortlist. No visual inspection, local download, installation, device operation or seller contact.
 
 Next: complete accessible exact-model fields or resume qualified Shopee/LCD priorities; preserve GP-200JR→Prime→GE300 and GT-Pro queues.
 

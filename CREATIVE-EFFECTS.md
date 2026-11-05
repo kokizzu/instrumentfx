@@ -151,6 +151,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 ## Separately recorded partial leads
 
+[Harley Benton DNAfx GiT Advanced](brand/HARLEY-BENTON.md#advanced--named-non-amp-effects) remains a **partial lead outside active counts and the additional-record index**. Its exact V2 manual names PITCH SHIFT/DETUNE and special processing in shared MOD; acoustic simulators occupy AMP. Dedicated synth and input polyphony remain unverified. The canonical table records70 non-amp/cab choices, not70 simultaneous effects.
+
 [Korg PANDORA PX4D](brand/KORG.md#pandora-px4d--partial-discovery-lead) remains outside active counts and the additional-record index. Its own EFG1 manual documents single-note AMP SYNTH, single-note intelligent harmony, AC SIM, ring modulation, feedback and random filters. Sixteen oscillator settings are choices, not simultaneous voices. Hardware/software and market checks remain incomplete.
 
 [BOSS EX-4](brand/BOSS.md#ex-4--pitch-note-handling-and-composite-organ-preset) remains **outside active counts and the additional-record index above**. Its guide documents single-note Guitar/Bass Synth and Harmonist, chord-capable Heavy Oct, Pitch Shift±24 semitones, acoustic/instrument simulation and special effects. MONO ORGAN is a composite effect recipe. This focused pitch check does not complete its hardware/market profile. Its [qualified120-type reconstruction](brand/BOSS.md#ex-4--qualified-reconstruction-of-the-120-type-headline) counts selected subtype/mode/stage choices,not120 independent algorithms orsimultaneous effects.

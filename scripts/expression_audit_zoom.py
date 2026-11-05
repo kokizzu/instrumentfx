@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(harley-benton): document exact Advanced processor and source conflicts'
+        message='research(harley-benton): record Advanced non-amp effect choices'
     print(git('commit','-m',message))
