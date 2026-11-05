@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fender): distinguish cabinet mic IR variations from model counts'
+        message='research(boss): clarify SY1000 normal-input effects and patch-type scope'
     print(git('commit','-m',message))

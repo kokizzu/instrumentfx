@@ -5082,6 +5082,7 @@ Checked **2026-11-04**. Partial candidate **outside the 402 active models**; own
 | Field | Evidence / qualification |
 |---|---|
 | Synth / pickup boundary | [Exact product page](https://www.boss.info/uk/products/sy-1000/): three instrument parts; Dynamic Synth offers ten waveforms, six filters, two LFOs and two 16-step sequencers. Ordinary guitar/bass input supports Dynamic Synth; full synth/modeling access requires compatible 13-pin GK. Three parts do not establish an input-note ceiling or chord tracking. Manufacturer tracking claims are not measurements. |
+| Normal input / effects availability | [Roland clarification](#sy-1000--normal-input-effects-access-and-saved-patch-type): normal-pickup restrictions concern INST; the EFFECT block has no additional input-related restriction. Dynamic Synth sounds differ between normal/GK patches. PATCH TYPE is saved per patch,not a global input override. |
 | Normal patches / independent effects | [Owner manual eng01, ©2019, p12](https://static.roland.com/assets/media/pdf/SY-1000_eng01_W.pdf): normal patches accept conventional pickups but **only DYNAMIC SYNTH** as INST TYPE. Three INST blocks and a separately configurable effects chain are documented. Do not transfer OSC Synth, GR-300, individual-string tuning or guitar modeling to normal-input patches. FX1–FX3 choice census is documented in the follow-up below; complete concurrency limits remain unverified. |
 | Memory / body / display | Same owner manual p20: each guitar/bass mode has 200 preset plus 200 user patches. Body 345W×245D×67H mm; exceeds preferred 200W×140D. Backlit 512×160 LCD; diagonal, color and touch remain unverified. No individual switch screens established. |
 | Controls / navigation | Product page: eight assignable footswitches. Owner p12: bank down/up and four numbered patch switches; reassignment may alter navigation. Separate-button/rotary census is resolved below; toe support remains unverified. No built-in treadle established by the documented control inventory. |
@@ -5134,6 +5135,14 @@ These alternatives share FX1–FX3; their presence does not establish unlimited 
 ### SY-1000 — named power-supply mapping
 
 [Roland/BOSS adapter table, updated **2025-07-15**, PDF pp1,4](https://static.roland.com/assets/media/pdf/roland_ac_adaptor_information.pdf?lang=nl-NL) explicitly maps **SY-1000→PSB-1U**. That supply is **9V DC,2A/18W**, with **100–240V AC50/60Hz** input. Supply capacity is separate from the recorded **800mA device draw**. Polarity, connector dimensions, seller-included supply and regional mains cable remain unverified; do not borrow PSA-S polarity or another device’s battery-adapter instructions. No hardware operation or local download performed.
+
+### SY-1000 — normal-input effects access and saved patch type
+
+Checked **2026-11-05**, Roland’s [GUITAR INPUT limitations article,updated October21,2022](https://support.roland.com/hc/en-us/articles/360039752331-SY-1000-Are-there-limitations-on-the-functionality-if-my-guitar-bass-is-connected-only-the-GUITAR-INPUT-jack). Conventional input uses NORMAL patches;selecting a GK patch leaves its synth INST silent. Only Dynamic Synth is selectable as INST TYPE in NORMAL patches,andRoland explicitly says its sound differs between NORMAL andGK patches. The **EFFECT block has no additional restriction from using GUITAR INPUT**. This does not remove individual algorithm note-handling rules orestablish unlimited concurrency.
+
+The [patch-type procedure,updated July27,2023](https://support.roland.com/hc/en-us/articles/360040631111-SY-1000-How-To-Change-Patch-Type-To-Normal-Patch-For-Guitar-Input) selects MST→page2→PATCH TYPE,then confirms NORMAL. The GK icon disappears;the change requires **WRITE/SAVE for that patch**. This is not automatic conversion ofevery stored patch orglobal volume assignment. Firmware applicability is unstated;no change was made onhardware.
+
+This narrows ordinary-pickup usability whileleaving Dynamic Synth chord handling andfull current category/concurrency verification unresolved. Existing Shopee cache-price conflict is unchanged;partial lead remains outsideactive counts. No download,device connection orsave operation.
 
 ## VE-1
 

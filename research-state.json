@@ -169890,5 +169890,24 @@
     "market": "GH71552895/40320736069 unchanged two-month Rp41360000 snapshot;not refreshed availability",
     "inventory_unchanged": 402,
     "next": "Continue individual-footdisplay required fields andfresh exactShopee leads;retain independent expression,GT-Pro andgeneralqueues"
+  },
+  "sy1000_normal_effects_access_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#sy-1000--normal-input-effects-access-and-saved-patch-type",
+    "sources": [
+      "https://support.roland.com/hc/en-us/articles/360039752331-SY-1000-Are-there-limitations-on-the-functionality-if-my-guitar-bass-is-connected-only-the-GUITAR-INPUT-jack",
+      "https://support.roland.com/hc/en-us/articles/360040631111-SY-1000-How-To-Change-Patch-Type-To-Normal-Patch-For-Guitar-Input"
+    ],
+    "revision": "Support updates2022-10-21 and2023-07-27;firmware unstated",
+    "finding": "Normal-input limitation belongs toINST;EFFECT unrestricted byinput choice;DynamicSynth sounds differ;patch-type change requires saving perpatch",
+    "inventory_unchanged": 402,
+    "status": "Partial outsideactive inventory and69additional index",
+    "remaining": [
+      "Normal-input DynamicSynth chord handling",
+      "Remaining currentcategories/concurrency",
+      "Normal/GK routed pedalcoverage",
+      "Qualifiedcurrenthardwarecondition/stock"
+    ],
+    "next": "Continue requested individual-footdisplay priorities andsystematic exactShopee profiles;preserve general/GT-Pro/expression/consolidationqueues"
   }
 }
