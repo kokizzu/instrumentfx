@@ -6052,6 +6052,19 @@ Version3 library availability does not establish installed effects, introduction
 |---|---|---|
 | Used IDR | **Rp1.180.000; Habis/sold out**. VINTERN, Kab.Malang; shop7092438/item55611139676; title “ZOOM MS50G Bekas” identifies seller-declared used original hardware. Checked2026-11-05 through cached page crawled last month;11–12September arrival estimate is stale. Working condition, authenticity, installed firmware, adapter/bundle, warranty, region, live stock, shipping/tax and checkout total unverified. Late-delivery voucher up toRp10.000 is compensation, not a product-price discount. This is a historical ask, not a completed sale or current buyable range; earlier condition-unclassified offer retained. | [Exact Shopee item](https://shopee.co.id/ZOOM-MS50G-Bekas-i.7092438.55611139676) |
 
+### MS-50G — original save, update and initialization scope
+
+Checked **2026-11-05**, [original manufacturer operation manual](https://zoomcorp.com/media/documents/MS-50G_operationManual_English.pdf),printedpp10,20–23,28. This is the55-effect edition; exact revision/date not exposed in the retrieved text. CurrentV3 behavior is not device-tested.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Memory / Auto Save and destination save | **Auto Save ON is the factory default**;parameter edits save automatically. **OFF requires manual saving**. MEMORY workflow supports editing the patch name andselecting a destination before saving. This narrows the earlier unknown;the excerpt doesnot establish a departure prompt,undo,cancel/overwrite confirmation,write protection orpower-loss recovery. | Manual pp10,20 |
+| Memory / update versus initialization | Firmware-update instructions explicitly retain **saved patch memories**. **All Initialize restores all settings,including patch memories,to factory defaults**. These are distinct operations;neither establishes recovery ofunsaved edits,selective restoration ofone factory patch orretention duringEffectManager library changes. No update/reset performed. | Manual pp23,28 |
+| Display / backlight andcontrast | SETTINGS separately adjusts backlight-dimming delay andLCD contrast. Numeric choices,physical diagonal,resolution,color andtouch remain unverified. These controls do not add afoot-switch display. | Manual p21 |
+| Power / manual-text discrepancy | Retrieved safety text onp3 says4AA,while retained exact-model product/specification evidence identifies2AA. Some extracted digits are malformed. Preserve this as a source-text discrepancy pending visual/edition confirmation;do not replace the established2AA specification orassume another hardware variant. | Original manual p3 versusretained product/p30 sources |
+
+The existing50-memory/30-factory-filled distinction,six-effect/DSP limit,V3 library qualifications anddated hardware offers remain. No manual/updater/software downloaded locally ordevice operated. Remaining actual V3 save behavior,qualified current stock andother hardware fields stay open.
+
 
 ## MS-50G Plus
 

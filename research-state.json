@@ -170887,5 +170887,20 @@
       "Revision/condition/stock-qualified hardware offers"
     ],
     "next": "Continue requested separate-footdisplay gaps where accessible,then systematic missingfields andShopee discovery;retain general GT-Pro,expression andconsolidationqueues."
+  },
+  "ms50g_original_memory_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#ms-50g--original-save-update-and-initialization-scope",
+    "source": "https://zoomcorp.com/media/documents/MS-50G_operationManual_English.pdf",
+    "revision": "Original55-effect operation manual printed10,20–23,28;exactdate/codeunexposed",
+    "finding": "AutoSave defaultON/OFFmanual;name/destination save;firmware retains savedpatches;AllInitialize restores allsettings/patches;separate backlightdelay/contrast controls.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "CurrentV3 save behavior anddeparture/overwrite/cancel prompts",
+      "Original manual extracted4AA safety wording versus retained2AA specification;visual/edition confirmation",
+      "Unsaved-edit recovery andEffectManager library-change retention",
+      "Display numericchoices/physicalspecs andcurrent qualified offers"
+    ],
+    "next": "Continue requested individual-footdisplay gaps where accessible andsystematic remaining fields/discovery;preserve general GT-Pro,expression andconsolidationqueues."
   }
 }
