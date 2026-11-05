@@ -42,10 +42,11 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **98 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **99 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
+| [Zoom GFX-3](brand/ZOOM.md#gfx-3--named-menu-and-discrete-pitch-intervals) | Dedicated synth unverified; SFX/filter processing | PITCH; PDL-PIT; chord support unverified | ACFAT; AC BRI | Shared MOD slot; full menu and source conflicts retained |
 | [Zoom GFX-5](brand/ZOOM.md#gfx-5--complete-named-menu-and-pitch-source-conflict) | Dedicated synth unverified; ARRM/filter/envelope processing distinct | PITCH prose/table range conflict; P-PIT16 modes; chord handling unverified | AC FAT; AC STD; AC BRI | STEP; FILTER; RING M; SLOW-A; T-TRIP; RINVIB; hold delay distinct from sampler; shared slots |
 | [Zoom GFX-4](brand/ZOOM.md#gfx-4--complete-named-menu-and-pitch-boundaries) | Dedicated synth unverified; STEP/RINGMD filtering/modulation | PITCH discrete−12…−1,+1…+12,+24; DETUNE; PDLPIT; chord support unverified | ACOSIM | Complete original42-choice menu; shared slots,conditional hold-delay/bypass limits retained |
 | [Flamma FX20](brand/FLAMMA.md#fx20--complete-named-effect-menu-and-usb-playback-volume-scope) | Tracking synthesis unverified | Pitch shifting unverified | Acoustic simulation unverified | RING; LOFI; SLOW GEAR; STAMMER; modulated Filter; ownV01 menu andduplicate/typo qualifications |

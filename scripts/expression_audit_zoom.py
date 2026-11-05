@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(rjm): document GT16 incoming feedback and display-state scope'
+        message='research(zoom): complete GFX-3 menu and qualify discrete pitch intervals'
     print(git('commit','-m',message))

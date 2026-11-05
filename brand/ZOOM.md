@@ -5721,6 +5721,24 @@ Checked 2026-10-18 using official manual text and indexed Shopee pages. No files
 
 GFX-3 market follow-up2026-10-18: exact used-title offer above is separate from HIKARI’s condition-unverified Rp700,000 offer. Category title “Seken Bagus” atRp1,000,000 has no established item/seller and is not another qualified observation. Searches for new GFX-3 returned accessories and other models;new condition remains unverified. No files downloaded or transactions performed.
 
+### GFX-3 — named menu and discrete pitch intervals
+
+Checked **2026-11-05**, [original English manual, pp17–22][GFX3-M]; firmware unspecified. The following **56 menu entries** include DRIVE variants and cabinets; they do not reconcile the preserved 50-effect headline or module-count conflict.
+
+| Section | Named entries |
+|---|---|
+| COMP/ISO — 2 | COMP; ISOLATOR |
+| ZNR — 2 | ZNR; D GATE |
+| DRIVE — 22 | FD BLU; FD CLN; MS OLD; MS DRV; BG OLD; BG DRV; VX CRU; JAZZ C; MP 1; PV DRY; 9002; Z PWR; V-OD; PD 1; V-DIST; HP DST; WILDFZ; UF1; MTZ; MT 7TH; ACFAT; AC BRI |
+| EQ — 1 | EQUALIZER |
+| CABINET — 7 | BOX; Z BOX; BR CMB; CMB; CMB+EV; STK; STK+EV |
+| MOD — 11 | CHORUS; FLANGE; PHASE (table typo PAHSE); WAH; TREM/PAN; VIBE; PITCH; SFX; SLOW-A; RING; PDL-PIT |
+| REV/DLY — 11 | HALL; ROOM; SPRING; MN-DLY; PP-DLY; ECHO; PP-ECHO; REVERSE; DLY+HALL (table DLYHAL); DLY+ROOM; DLY+SPRING |
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Synth / pitch and special processing | PITCH intervals are **−12…−1, +1…+12, +24 semitones**, plus **dt**; not every interval through +24. PDL-PIT has eight COLOR choices with UP/dn directions. Chord handling remains unverified. SFX is random/envelope processing; SLOW-A combines attack/filter processing. These alternatives share MOD, rather than proving a tracking synthesizer. | [Original manual pp20–21][GFX3-M]; checked 2026-11-05 |
+
 ## GFX-4
 
 Guitar multi-effects;distinct fromGFX-3/GFX-5. Checked2026-10-17;partial. Manufacturer confirms discontinued. Bass/vocal applicability and ownership unresolved.
