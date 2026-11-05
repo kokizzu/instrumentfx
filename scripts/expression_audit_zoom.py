@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(korg): qualify PX5D phrase storage and legacy software'
+        message='research(korg): qualify PANDORA stomp current MIDI driver guidance'
     print(git('commit','-m',message))

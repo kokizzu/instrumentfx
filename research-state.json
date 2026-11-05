@@ -172226,5 +172226,24 @@
       "Qualified exact Shopee hardware"
     ],
     "next": "Return to priority separate-screen processors andfresh Shopee discovery;preserve independent GT-Pro,GP200JR→Prime→GE300,expression-volume andconsolidation queues."
+  },
+  "pandora_stomp_driver_boundaries_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/KORG.md#pandora-stomp--current-driver-advisories-and-editor-boundary",
+    "sources": [
+      "https://www.korg.com/us/support/download/driver/0/246/3541/",
+      "https://www.korg.com/us/news/2026/0312/",
+      "https://www.korg.com/us/support/download/driver/0/246/1357/",
+      "https://www.korg.com/us/support/download/software/0/246/1464/",
+      "https://www.korg.com/us/support/download/software/0/246/1465/"
+    ],
+    "active_inventory": 402,
+    "scope": "Exact-model Windows andMac MIDI-driver guidance;legacy editor compatibility remains separate andunverified oncurrenthosts.",
+    "remaining": [
+      "Current Sound Editor compatibility/mobile scope",
+      "USB audio andgeneral MIDI-message scope",
+      "Other retained display,power,software/import andoffer gaps"
+    ],
+    "next": "Return to requested individual-screen/Shopee priorities;preserve GT-Pro,GP200JR→Prime→GE300,expression-volume andconsolidation queues."
   }
 }
