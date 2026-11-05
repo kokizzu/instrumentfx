@@ -171100,5 +171100,41 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue other accessible exact-model gaps;defer GP180 V1.1.1 body until retrievable. Preserve footdisplay priorities,GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues."
+  },
+  "mg50li_factory_banks_offers_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/NUX.md#mg-50li--firmware111-factory-bank-additions",
+    "sources": [
+      "https://nuxaudio.com/product/mg50li/",
+      "https://shopee.co.id/Nux-MG-50-LI-Multi-Effects-Processor-for-Guitar-and-Bass-Nux-MG50Li-Multi-Efek-Gitar-i.195817632.8306275370",
+      "https://shopee.co.id/NUX-MG-50Li-%E2%80%93-Multi-Effects-Processor-MG50Li-MG50-Li-MG-50-Li-i.1408254222.46961722145"
+    ],
+    "revision": "Global manufacturerV1.1.1 section;two-/four-month seller caches",
+    "finding": "Six named factory additions;regional filling conflict remains. Separate seller identities/cache-price discrepancy documented.",
+    "offers": [
+      {
+        "shop": "195817632",
+        "item": "8306275370",
+        "opened_idr": 6830000,
+        "indexed_idr": 7510000,
+        "variation": "Two unresolved",
+        "identity": "Cerberus slug/MG50Li title conflict"
+      },
+      {
+        "shop": "1408254222",
+        "item": "46961722145",
+        "idr": 7510000,
+        "stock": "Service unavailable in cache",
+        "variation": "White/Blue;selectedunknown"
+      }
+    ],
+    "remaining": [
+      "Regional factory/user split",
+      "Exact manual/pitch ranges/polyphony",
+      "Current condition-qualified stock andvariant identity",
+      "Physical display/touch andUSB-power statements"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue other accessible exact-model evidence;preserve requestedfootdisplay priorities and independent GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues."
   }
 }

@@ -781,6 +781,8 @@ Queries for Shopee Indonesia **NUX MG-30 MKII**, **MG30 MK2** and **MG30 MKII** 
 | Editor / current support listing | Opened global page: NUX Audio **1.1.7.1,2026-09-14**;NUX IMAGE **1.1.0.1,2026-08-06**;Windows10+ ASIO **5.72.0**. These versions are distinct from hardware firmware;older indexed listings retained separately. |
 | Synth / pitch / special | Manufacturer names Harmonist,Detune,Octave-Shift,Reverse andShimmer. Input-note polyphony/ranges,dedicated synth andinstrument simulator remain unverified. [Exact palette](#mg-50li--current-display-firmware-and-creative-choices). |
 | Prices | Verified used/new IDR remain unknown. **Rp7.510.000** condition/stock-unverified exact Shopee asks,including separately indexedBandung item16879370/53759194739;variations/bundles unresolved;[offer qualifications below](#mg-50li--exact-shopee-hardware-offers). Foreign quotes remain separate. |
+| Memory / named bank additions | [Six named presets inBanks41/42](#mg-50li--firmware111-factory-bank-additions) establish added content,not six extra storage slots orreconciliation ofregional factory/user counts. |
+| IDR / additional seller cache conflicts | [CH MUSIC andSEVEN STEREO Malang](#mg-50li--additional-seller-caches-and-item-slug-conflict):CH item shows **Rp6.830.000 opened versusRp7.510.000 indexed**,two unresolved variations andCerberus slug conflict;Malang **Rp7.510.000,service unavailable**. Condition/checkout unknown;not new/used floors. |
 
 The previous review used official [front](https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400) photos to verify controls,XLR and two send/return pairs. Checked English firmware1.1.1 was a dated snapshot. Domestic/Mandarin firmware and global/English firmware must not be interchanged by assumption.
 <!-- comparison evidence ends -->
@@ -895,6 +897,22 @@ Both list input/return **1MΩ**, AUX **10kΩ**, unbalanced outputs and sends **1
 Both pages describe **24-bit AD/DA** in feature text but **32-bit AD/DA** in specifications; global prose also says32-bit converters. **32-bit floating-point processing** and **24-bit/48kHz USB audio** are separate claims and do not resolve the converter discrepancy. Global input-to-unbalanced-output dynamic range is listed110dB, not independently measured.
 
 The global page additionally rates a full battery recharge at **5hours**, distinct from its6-hour runtime and the retained US5-hour runtime. Charging conditions and USB-powered operation remain unverified. Earlier preset/IR/amp-count,latency and battery conflicts remain intact. No download,firmware installation or device test.
+
+### MG-50Li — firmware1.1.1 factory-bank additions
+
+Checked **2026-11-05**, [exact global manufacturer page,V1.1.1 New Preset Banks](https://nuxaudio.com/product/mg50li/). It explicitly names **41A GY Clean LGain;41B GY Rock;41C GY RnB Funk;42A JL-1987x Pack;42B JL-VH4 Pack;42C JL-Vib King**. Two banks,six presets are content additions,not increased297-location capacity. Their numbering doesnot independently establish total factory filling orresolve the preserved global96+201 versusUS150+147 split. Installed contents andregional equivalence remain untested;no firmware downloaded ordevice operated.
+
+### MG-50Li — additional seller caches and item-slug conflict
+
+Checked **2026-11-05**. Older independent offers above remain dated evidence. These additional processor listings do not establish sale condition,working state,selected variation,bundle/adapter,NBT-1 inclusion,region/firmware,warranty,authenticity,shipping/tax orcheckout totals. Late-arrival compensation isnot deducted.
+
+| Field | Exact asking evidence / qualification |
+|---|---|
+| IDR / CH MUSIC cache andidentity conflict | [CH MUSIC,shop195817632/item8306275370](https://shopee.co.id/Nux-MG-50-LI-Multi-Effects-Processor-for-Guitar-and-Bass-Nux-MG50Li-Multi-Efek-Gitar-i.195817632.8306275370),KotaJakartaPusat: **Rp6.830.000** inopened two-month snapshot,versus **Rp7.510.000** infour-month search snapshot. Both MG-50Li titles show **two variations**,contents unresolved. Same item also appears under an [older Cerberus NME-3 URL slug](https://shopee.co.id/NUX-Cerberus-%28NME-3%29-Integrated-Effects-Pedal-Controller-i.195817632.8306275370),with MG-50Li body. Preserve identity/cache conflict;not a verified price change,selected hardware variant orCerberus price. NoHabis marker orrelative delivery proves stock. |
+| IDR / separate Malang unavailable cache | [SEVEN STEREO Malang,shop1408254222/item46961722145](https://shopee.co.id/NUX-MG-50Li-%E2%80%93-Multi-Effects-Processor-MG50Li-MG50-Li-MG-50-Li-i.1408254222.46961722145),KotaMalang: **Rp7.510.000**,four-month search snapshot,**Layanan Tidak Tersedia**,White/Blue labels. Direct reopen cachemiss. Distinct fromBandung16879370/53759194739;do not transfer its chosen variant orstock. Not a live buying floor. |
+
+No transaction,download ordevice operation;unknown isnot No.
+
 
 ## MG-100
 
