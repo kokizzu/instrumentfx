@@ -78783,7 +78783,28 @@
       "reverb": 3
     },
     "qualification": "Counted transcription table entries; cabinet/mic preamp parameters do not establish separate simultaneous blocks. Original PDF/current revision corroboration still pending.",
-    "remaining": "Full physical control counts, current/polarity, firmware/editor platforms, connector sizes/balancing, current qualified used/new prices; bass/vocal unclassified."
+    "remaining": "Full physical control counts, current/polarity, firmware/editor platforms, connector sizes/balancing, current qualified used/new prices; bass/vocal unclassified.",
+    "creative_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/NUX.md#mg-20--creative-algorithms-and-named-processing-menu",
+      "source": "https://manuals.plus/nux/mg-20-guitar-modeling-processor-manual",
+      "named_groups": [
+        "Gate/compression",
+        "EFX",
+        "EQ"
+      ],
+      "creative_index_records": 104,
+      "remaining": [
+        "Pitch ranges/polyphony",
+        "Original V1 visual/revision corroboration",
+        "Physical census",
+        "Electrical/software limits",
+        "Current condition-qualified Shopee offers"
+      ],
+      "inventory_changed": false,
+      "next": "Continue display-priority gaps whereaccessible,otherwise systematic remaining model fields;preserve GT-Pro,GP200JR→Prime→GE300 andglobal-volume queues",
+      "index_reconciliation": "Added MG20;merged two pre-existing GT100 entries/rows retaining original andfocused source qualifications;104 uniqueadditional models,402 active unchanged."
+    }
   },
   "mg20_support_checkpoint_20261017": {
     "checked": "2026-10-17",
@@ -156330,12 +156351,13 @@
       },
       {
         "key": "BOSS::GT-100",
-        "canonical": "brand/BOSS.md#gt-100",
+        "canonical": "brand/BOSS.md#gt-100--original-creative-effects-and-single-note-synth",
         "synth": "WAVE SYNTH",
-        "pitch": "See retained parameter record",
+        "pitch": "See retained parameter record;algorithm-specific restrictions",
         "instrument": "AC.GUITAR SIM; separate AC.PROCESSOR",
-        "qualification": "Algorithm note handling not freshly checked",
-        "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index."
+        "qualification": "Earlier index note handling not freshly checked;original/version2 boundaries retained in focused follow-up;not complete current audit",
+        "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index. Focused follow-up: Original©2012 guide and separate official version2 preset list;2026-11-05.",
+        "retained_parameter_record": "brand/BOSS.md#gt-100"
       },
       {
         "key": "BOSS::GT-001",
@@ -157140,15 +157162,6 @@
         "evidence_basis": "Official index and matching manufacturer-authored transcript;2026-11-05"
       },
       {
-        "key": "BOSS::GT-100",
-        "canonical": "brand/BOSS.md#gt-100--original-creative-effects-and-single-note-synth",
-        "synth": "See original guide qualifications",
-        "pitch": "Algorithm-specific restrictions",
-        "instrument": "See canonical record",
-        "qualification": "Original/version2 boundaries",
-        "evidence_basis": "Original©2012 guide and separate official version2 preset list;2026-11-05"
-      },
-      {
         "key": "BOSS::ME-80",
         "canonical": "brand/BOSS.md#me-80--named-original-categories-and-creative-tracking-limits",
         "synth": "Overtone chord-capable harmonic processing; dedicated synth unverified",
@@ -157246,6 +157259,15 @@
         "instrument": "Acousticsimulation unverified",
         "qualification": "Bassonly;no inputpolyphony inference",
         "evidence_basis": "Existingcanonical evidence plusexact©2021manual5–7 rechecked2026-11-06"
+      },
+      {
+        "key": "NUX::MG-20",
+        "canonical": "brand/NUX.md#mg-20--creative-algorithms-and-named-processing-menu",
+        "synth": "Dedicated engine unverified;ROTARY SPK modulation distinct",
+        "pitch": "Harmonist,Detune,pedalWhammy;range/note handling unverified",
+        "instrument": "Acoustic simulation unverified",
+        "qualification": "Shared MOD alternatives;original menu,not complete fresh audit",
+        "evidence_basis": "Exact-model manufacturer-authored ©2014 transcription;checked2026-11-06;officialV1 equivalence unresolved"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",

@@ -516,7 +516,8 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Expression / assignment | Standard wah, adjustable-Q wah, Whammy, or EFX drive/amp gain/MOD rate/delay time control. CTRL and EXP function/on-off status save per preset. [Manual control section][MG20-T2] |
 | Live / output modes | Stack/Combo guitar-input or power-amp modes; Mixer Out enables speaker simulation. Output mode is global, not saved per preset. [Manual output section][MG20-T2] |
 | Preset memory | **36 factory +36 user =72** locations; initial user contents unresolved. [Manual transcription][MG20-T] |
-| Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified; ROTARY SPK is modulation,not an instrument-tone engine. [Creative evidence](#mg-20--creative-algorithms-and-named-processing-menu). |
+| Processing / creative pitch | HARMONIST: MODE,KEY,HARMONY,BALANCE; DETUNE: SHIFT L/R,MIX,LEVEL; pedal WHAMMY distinct. Pitch ranges,input-note polyphony andtracking performance unverified; shared MOD alternatives. [Exact manual scope](#mg-20--creative-algorithms-and-named-processing-menu). |
 | I/O | Guitar input, stereo L/Mono and R outputs, AUX, headphones, EXT.PEDAL, SD card, USB update, DC. Connector sizes/balancing pending. [Manual transcription][MG20-T] |
 | Power / battery / USB | **9V DC**; supplied or ACD-008 adapter. Current/polarity/battery/USB operation unverified; OCR500mA marking not yet corroborated. [Manual transcription][MG20-T] |
 | Dimensions / mass | **330L×210W×83Hmm;3.15kg**. Axis labels retained. [Manual transcription][MG20-T] |
@@ -554,6 +555,20 @@ Checked **2026-11-06**. The [manufacturer-authored manual transcription][MG20-T2
 A separate [SUMBER REJEQI hardware item,shop24983008/item423236161](https://shopee.co.id/efek-gitar-nux-MG20-i.24983008.423236161),Kab.Pasuruan,shows **Rp3.000.000,Habis** in both search and opened **two-month-old snapshots**. Historical sold-out ask,not current stock or a completed sale. Condition,working state,variant,bundle,adapter,warranty,shipping/tax andcheckout remain unverified. August19–22 delivery is stale;late-delivery compensation up toRp10.000 isnot deducted.
 
 The [gogoShop21 item1805980095/49619538349](https://shopee.co.id/EFEK-GITAR-NUX-MG20-NUX-MG-20-MULTI-EFEK-EFECT-GUITAR-MODELING-PROCESSOR-i.1805980095.49619538349) surfaced **Rp468.500** in a four-day search snapshot withNovember3–4 delivery;direct retrieval failed. The indexed link included selected-model metadata,but no readable variant,condition orbundle details. **Excluded from qualified hardware price bounds** until the purchasable item is resolved;the low number alone proves neither an accessory nor fraud.
+
+### MG-20 — creative algorithms and named processing menu
+
+Checked **2026-11-06**, [manufacturer-authored ©2014 MG-20 manual transcription][MG20-T2],effects table andCTRL/EXP section;current official V1 visual equivalence andinstalled firmware remain unverified. **HARMONIST** exposes MODE,KEY,HARMONY,BALANCE; **DETUNE** exposes SHIFT L.,SHIFT R.,MIX,LEVEL. **WHAMMY** appears separately as a pedal function;the table spells it **WAHMMY** andlabels OCTAVE. Neither wording supplies a numeric pitch range orinput-note polyphony. Independent left/right shifts are not proof ofchord tracking. Harmonist andDetune share MOD,so their availability doesnot establish simultaneous operation. ROTARY SPK remains modulation,not a dedicated organ/synth engine.
+
+Additional named menu choices,with spacing normalized butambiguous lettering retained:
+
+| Category | Named choices |
+|---|---|
+| Gate / compression | NOISE GATE;REDCOMP |
+| EFX | DISTORTION +;DIST ONE;S.CREAMER;MODERN DIST;HEAVY METAL;TUBE DRIVE;FUZZ;MUFF PI (transcription “Pl”) |
+| EQ | 7-BAND EQ;PARAMETRIC EQ |
+
+Existing modulation/delay/reverb names remain above. Reverse,Pan Delay andmodulated delay are distinct choices,not granular/freeze/synthesis evidence. These are original-menu names,not verified current-firmware additions,extra blocks ortracking-quality measurements.
 
 [MG20-P]: https://nuxaudio.com/product/mg20/
 [MG20-M]: https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf

@@ -32,6 +32,13 @@ def main():
             subprocess.run(['git','merge-base','--is-ancestor',sha,'HEAD'], cwd=ROOT, check=True)
             published = git('show',sha+':CREATIVE-EFFECTS.md')
             assert audit['models'][key]['label'] in published
+        additional = audit['additional_catalogue_matches']
+        keys = [item['key'] for item in additional]
+        assert len(keys) == len(set(keys)), 'Duplicate additional creative model'
+        additional_doc = doc.split('## Additional matches already recorded in the catalogue', 1)[1].split('## Separately recorded partial leads', 1)[0]
+        rows = [line for line in additional_doc.splitlines() if line.startswith('| [')]
+        assert len(rows) == len(keys), 'Additional index row/ledger count differs'
+        assert f'**{len(keys)} records' in additional_doc, 'Additional index heading count differs'
         previous = json.loads(git('show','HEAD:research-state.json'))
         assert {k:v for k,v in state.items() if k != 'creative_effects_comparison'} == {k:v for k,v in previous.items() if k != 'creative_effects_comparison'}, 'Unrelated queue changed'
         print('PASS: seven selected rows, explicit ownership, published model commits, 402 inventory and independent queues')
