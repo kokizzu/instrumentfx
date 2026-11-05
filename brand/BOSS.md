@@ -4811,7 +4811,7 @@ Summary reconciled **2026-11-04** with the retained dated findings below. Earlie
 
 | Field | Finding / qualification |
 |---|---|
-| Expression / toe | No built-in pedal; two TRS EXP/CTL inputs. Documented PREF EXP=SYSTEM with FUNC=FV shares the assignment across patches. [Eng03 conditional recall](#ms-3--eng03-pedal-hold-and-noise-detector-scope): EXP1/2 HLD=ON retains position when FUNCTION matches. Global FV range/placement, competing ASSIGNs and bypass/tail coverage remain unresolved; toe behavior unverified. [MS3-M] |
+| Expression / toe | No built-in pedal; two TRS EXP/CTL inputs. Documented PREF EXP=SYSTEM with FUNC=FV shares the assignment across patches. [Eng03 conditional recall](#ms-3--eng03-pedal-hold-and-noise-detector-scope): EXP1/2 HLD=ON retains position when FUNCTION matches. [Application-guide EXP restriction](#ms-3--system-sharing-versus-multiple-expression-assignments): simultaneous additional EXP1 ASSIGN control requires PREF=PATCH in its wah example. Global FV range/placement,other-source ASSIGN priority and bypass/tail coverage remain unresolved; toe behavior unverified. [MS3-M] |
 | Knobs / footswitches / buttons | **3/5/5**: knobs1–3; number1–4 plus MEMORY/MANUAL switches; ON/OFF,MENU,EDIT,EXIT,ENTER buttons. POWER switch separate. [MS3-P] |
 | Display | Backlit132×32-dot graphic LCD; eng03 p40 documents CONTRAST1–16. Diagonal, color and touch unverified; contrast is not a physical display specification. [MS3-P] |
 | Dimensions / mass | **W275×D97×H68mm;1.1kg**, mass basis unstated. [MS3-P] |
@@ -4935,6 +4935,13 @@ Checked **2026-11-04**, [manufacturer Parameter Guide eng03, ©2017, printedpp25
 **EXP1 HLD / EXP2 HLD=ON** carries controller-operation state across patch changes **when FUNCTION matches**. The guide explicitly illustrates FOOT VOLUME in both patches: pedal position at the switch continues controlling the arriving patch. OFF does not apply that state. This resolves conditional documented recall; it does not establish global FV endpoints, chain placement, immunity to other assignments or measured glitch-free recall. PREF SYSTEM sharing remains a separate setting.
 
 **NS DETECT** selects INPUT, NS INPUT or FV OUT. The guide recommends FV OUT when using Foot Volume like a guitar volume control, and NS INPUT for its illustrated delay-before-NS arrangement to avoid cutting the spatial effect. Detector selection changes the control path, not the FV audio position or universal tail muting. Display CONTRAST is1–16; the existing FV curve-table/diagram ambiguity remains in eng03. No screenshot, download, pedal test or setting change.
+
+### MS-3 — system sharing versus multiple expression assignments
+
+Checked **2026-11-06**, manufacturer [Application Guide eng01,©2017,printed10](https://static.roland.com/assets/media/pdf/MS-3_Application_Guide_eng01_W.pdf). Its external-wah example says adding an ASSIGN for simultaneous multiple-parameter control requires **PREFERENCE EXP1=PATCH**. This limits what the example establishes alongside the separately documented SYSTEM/FUNC=FV assignment;do not promise a shared global FV function plus arbitrary per-patch EXP1 targets. The same guide’s CURRENT NUMBER example,printed9,explicitly says SYSTEM operates only its single function. It doesnot prove immunity from every other controller source targeting FV.
+
+The [Parameter Guide eng03,printed3,28,32](https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng03_W.pdf) separately documents consecutive patch selection with **knob1**,onboard bank-pair/number selection,and **external CTL IN PATCH+/PATCH−** functions. External switch functions are not proof of onboard sequential footswitches. Global FV placement/range,bypass,tails andother-source assignment precedence remain unresolved;position hold retains its separate matching-FUNCTION condition. No device orpedal test,setting change ordownload.
+
 
 ## Pocket GT
 
