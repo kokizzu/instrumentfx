@@ -371,6 +371,18 @@ Checked2026-10-18 against [own manual,printed pp.52–54][AX5-M]. Text only;no d
 | Processing / delay-reverb shared slot | **F0–F9**: Echo+,Multi Head Echo,Modulation Delay,Stereo Delay,Pingpong Delay,Slap,Spring,Plate,Room,Hall. These occupy one DELAY/REVERB category;five delays plusfive reverbs do not mean independent simultaneous delay andreverb blocks. |
 | Expression / pitch and filter limits | Pitch Shifter pitch −12…+12,with separate Fine −15…+15 whose units are unspecified here. At DEPTH10,MANUAL hasno effect forClassic Chorus,Classic Flanger andFiltron. ForFiltron MANUAL pedal control,the guide recommends DEPTH0 ornear0. |
 
+### AX5G — original PreFX inventory and regional-count boundary
+
+Checked **2026-11-05**, official **AX5G_OM_EFG2** [manual,printed pp50–51][AX5-M]. Historical document; installed-unit equivalence untested.
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / named PreFX | **F0–F9:** Compressor;Pickup Simulator;AC Simulator;Slow Attack;Auto Wah;U-Vibe/Phaser;Chorus/Flanger;Octave;Ring Modulator;Drone. **Pedal WAH** is separately tabulated. These are10+1 choices,not11 simultaneous effects. |
+| Processing / count reconciliation | Original tables give **11+16+10+10+10+1=58**:Pre/Wah,Drive-Amp,Cab,Mod,Delay-Reverb,NR. The [regional ten-entry PreFX list][AX5-F] includes WAH but omits Slow Attack. This explains a listing difference,not a verified hardware/firmware revision or confirmed manufacturer counting policy;regional57 remains qualified. |
+| Synth / instrument-processing controls | **AC Simulator:** Top,Body,Type1–4,Mix. **Drone:** selectable key A–G♯,Mix,Resonance. Pickup Simulator offers HS/SH modes. These controls distinguish acoustic/pickup processing and keyed drone from a proven note-tracking synth;input polyphony andtracking quality remain unknown. |
+
+The new search again found Henry’s existing **Rp1,250,000 secondhand,Habis** ask;no live-stock claim. A separate [Hope Music703817770/24255940541 listing](https://shopee.co.id/Efek-Korg-Ax5G-atau-AX100G-Rare-Item-i.703817770.24255940541),Bandung,has **AX5G orAX100G**,two unresolved variations,**Rp999,999–1,499,000,Habis**,last-week index. No endpoint is assigned to AX5G;condition,bundle,adapter,warranty andcheckout remain unverified. Earlier offers,dimension conflicts andremaining power/display gaps are preserved.
+
 ## AX10B
 
 Checked2026-10-17. Partial **bass multi-effects** record; distinct from AX10G/AX10A. No qualified Indonesian offer established.
