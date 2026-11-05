@@ -1877,6 +1877,18 @@ Checked **2026-10-16**; cached exact hardware asking evidence,not live checkout/
 | Voucher-conditional sold out / Boss Official Shop | **Rp26.800.000 Dengan Voucher,Habis**; exact cached body reopened. Voucher eligibility/undiscounted price unexposed; separate BelanjaRp30RB Diskon99% banner not accepted as another hardware discount. EarlierRp24.150.000 Habis retained as older snapshot. | [341882414 /19973873164](https://shopee.co.id/BOSS-GT-1000-Guitar-Effects-Processor-i.341882414.19973873164) |
 | Historical local retail / Melodia | **Rp22.814.000**,selected-branch available label observed2026-10-15; not reopened or Shopee checkout evidence. | [Melodia](https://www.melodiamusik.com/product/boss-gt-1000-guitar-multi-effects-pedal/) |
 
+### GT-1000 — revision12 creative effects and bass pitch mode
+
+Checked **2026-11-05**. [Official eng12 PDF](https://static.roland.com/assets/media/pdf/GT-1000_parameter_eng12_W.pdf) returned403; its indexed contents match the revision12,©2020 [manufacturer-authored transcript](https://manualzz.com/doc/79537839/boss-gt-1000-guitar-effects-processor-owner-manual): pp12–25,29. Host summaries/FAQs excluded; installed firmware and tracking performance untested.
+
+| Required field | Focused evidence and limits |
+|---|---|
+| Synth / instrument choices | Overtone harmonics,Humanizer vowels and Ring Mod oscillator modulation are distinct from an unverified dedicated synth. Acoustic Guitar Simulator,Sitar Sim,Defretter/Bass are listed; AC Resonance treats acoustic pickups. |
+| Pitch / note handling | OCTAVE POLY explicitly supports polyphonic one-octave-down. Pitch Shifter±24semitones; MONO mode single-note,other modes chord support unverified. Harmonist and Pedal Bend require single notes. |
+| Processing / architecture | FX1–FX4 select alternatives; PEDAL FX and MASTER DELAY are separate. Slicer,Feedbacker,Slow Gear,Sound Hold and MASTER DELAY Glitch are documented. No guarantee all choices run together. |
+| Looper / held sound distinction | Sound Hold requires single notes and saves HOLD Off; it is distinct from phrase looping. Rise Time0–100 is not milliseconds. |
+| Pitch / bass optimization | MASTER BASS MODE optimizes pitch-affecting effects for bass; it does not establish polyphonic harmony. |
+
 <!-- comparison evidence ends -->
 
 [GT1000-P]: https://www.boss.info/global/products/gt-1000/

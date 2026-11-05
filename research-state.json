@@ -155237,6 +155237,15 @@
         "instrument": "Existing acoustic/sitar/defret; AC Resonance distinct",
         "qualification": "Revision boundaries and DSP limits",
         "evidence_basis": "Official version2©2024 and earlier English HTML; focused2026-11-05"
+      },
+      {
+        "key": "BOSS::GT-1000",
+        "canonical": "brand/BOSS.md#gt-1000--revision12-creative-effects-and-bass-pitch-mode",
+        "synth": "See qualified canonical record",
+        "pitch": "Algorithm-specific limits",
+        "instrument": "See canonical record",
+        "qualification": "Revision12; partial audit",
+        "evidence_basis": "Official index and matching manufacturer-authored transcript;2026-11-05"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -171966,5 +171975,25 @@
       "Existing hardware/software and exact offer gaps"
     ],
     "next": "LCD/Shopee priority; next creative index lead BOSS GT-1000; preserve independent GT-Pro, GP200JR→Prime→GE300, expression-volume and consolidation queues"
+  },
+  "gt1000_creative_index_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#gt-1000--revision12-creative-effects-and-bass-pitch-mode",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-1000_parameter_eng12_W.pdf",
+      "https://manualzz.com/doc/79537839/boss-gt-1000-guitar-effects-processor-owner-manual",
+      "https://shopee.co.id/BOSS-GT-1000-Guitar-Effects-Processor-i.341882414.19973873164"
+    ],
+    "revision": "12©2020; matched numbered cover and indexed contents; official403; no installed-firmware certification",
+    "market": "Exact Boss-shop body still Rp26.8m Dengan Voucher Habis, same old qualified offer; no new current-stock claim",
+    "additional_records": 92,
+    "active_inventory": 402,
+    "remaining": [
+      "Input polyphony of unspecified pitch modes",
+      "Installed firmware/tracking performance",
+      "Existing category census and hardware/software gaps",
+      "Qualified used/live Shopee offer"
+    ],
+    "next": "Prioritize separate footswitch displays and exact Shopee leads; preserve GT-Pro, GP200JR→Prime→GE300, expression-volume and consolidation queues; next creative gap GT-100"
   }
 }
