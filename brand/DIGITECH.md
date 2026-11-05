@@ -1397,6 +1397,18 @@ Checked2026-10-18. No PDF download,visual inspection or electrical measurement.
 | Live / tuner mode access | In Preset/Stomp modes,hold **FS1+FS2 about2seconds**; in Bank mode,hold the currently active preset switch about2seconds. Any footswitch exits. These controls depend on mode,not an additional dedicated tuner switch. [Manual copy p27][RPXP-MZ] |
 | Display / contrast | [Original manual,indexed p48][RPXP-M] documents SYSTEM page2/4→EDIT3 LCD CONTRAST. Adjustable contrast does not establish monochrome,color,touch,resolution or diagonal; the example8 is not a verified range. Current linked CDN manual also exceeds reader size limit; no visual inspection or download. |
 
+### RP360XP — creative pitch and vowel-processing boundaries
+
+Checked2026-11-05 against the manufacturer-authored RP360/RP360XP manual **5041674-B,©2014**, matched by cover and final imprint in the [original-text mirror][RPXP-MZ]; generated FAQs excluded. Historical documentation does not establish installed/current-firmware equivalence.
+
+| Field | Finding / qualification |
+|---|---|
+| Synth / vowel processing | **Synth Talk** responds to playing dynamics with vowel-like voices; ATTACK, RELEASE, VOX and SENSITIVITY each0–99. BALANCE positions the wet signal in stereo, not wet/dry mix. A tracking oscillator architecture and input-note polyphony remain unverified (p98). |
+| Pitch / interval and units | **Pitch:−24…+24 semitones;Detune:−24…+24 cents**. **Harmony** uses key/scale-dependent intervals through an octave up/down;Whammy provides pedal-controlled pitch/harmony modes. **Octave** has independently leveled one-/two-octave-down signals and dry level. None of these descriptions independently establishes chord handling (pp99–102). |
+| Processing / distinct special processes | Step Filter provides patterned/random-wah-style frequency motion;Swell is an envelope/gate effect (pp98,103). Neither establishes note-tracking synthesis. Existing Dread/Jumbo Acoustic AMP simulations remain separate. |
+
+Shopee recheck2026-11-05 found the same [Sluper Shop109749191/43917060054 cached Rp2,500,000 ask](https://shopee.co.id/Digitech-RP360XP-FX-Gitar-i.109749191.43917060054); last-month cache and old delivery text do not establish present stock or condition. Earlier dated evidence is preserved. Bass suitability remains unclassified.
+
 ## RP500
 
 Guitar multi-effects, distinct from RP255/RP360XP/RP1000. Manufacturer lists past product. Checked2026-10-17; partial. Ownership and bass/vocal suitability unestablished.

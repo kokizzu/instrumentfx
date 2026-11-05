@@ -155093,6 +155093,15 @@
         "instrument": "Z-Organ;Defret;acoustic conversion unverified",
         "qualification": "Original Ver.2 Z2I-1668-02;SeqFLTR,RndmFLTR,RingMod,BitCrush,Bomber;four-effect/DSP ceiling;bass only",
         "evidence_basis": "Focused2026-11-05 original manufacturer list pp2,5,13–16,27;not full fresh audit"
+      },
+      {
+        "key": "DigiTech::RP360XP",
+        "canonical": "brand/DIGITECH.md#rp360xp--creative-pitch-and-vowel-processing-boundaries",
+        "synth": "Synth Talk dynamic vowels;tracking architecture unverified",
+        "pitch": "Pitch±24semitones;Detune±24cents;Harmony/Whammy/Octave;chord handling unverified",
+        "instrument": "Dread/Jumbo Acoustic AMP simulations",
+        "qualification": "Original5041674-B;Step Filter/Swell distinct;XP only",
+        "evidence_basis": "Focused2026-11-05 manufacturer-authored manual recheck;not full fresh audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -171157,5 +171166,20 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue other accessible exact-model gaps;preserve separate-footdisplay priorities,GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues."
+  },
+  "rp360xp_creative_boundaries_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/DIGITECH.md#rp360xp--creative-pitch-and-vowel-processing-boundaries",
+    "source": "https://manualzz.com/doc/2522393/digitech-rp360-xp-owner-s-manual",
+    "revision": "5041674-B ©2014 pp98–103",
+    "market_recheck": "Same Sluper Shop109749191/43917060054 last-month Rp2500000 cache;condition/live stock unknown",
+    "additional_creative_records": 76,
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Input-note polyphony and synth architecture",
+      "Installed/current firmware equivalence",
+      "Condition-verified live Shopee hardware"
+    ],
+    "next": "Continue remaining exact-model and Shopee research; preserve GT-Pro technical cursor, expression/display queues and independent GP-200JR → Prime → GE300"
   }
 }
