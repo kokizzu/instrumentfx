@@ -169361,5 +169361,29 @@
     ],
     "next": "Continue FX200b control/expression evidence where accessible, then other catalogue gaps; preserve display priority and general cycle",
     "inventory_change": 0
+  },
+  "flamma_fx200b_expression_scope_20261105": {
+    "model": "Flamma FX200b",
+    "status": "partial shared-manual indexed evidence",
+    "checked": "2026-11-05",
+    "canonical": "brand/FLAMMA.md#fx200b--shared-manual-expression-and-volume-role",
+    "source": {
+      "url": "https://flammainnovation.com.cn/file/pdf?fileName=FX200_%E5%AE%8C%E6%95%B4%E7%89%88%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf&url=group1%2FM00%2F00%2F15%2FwKgAK2YMymKAF63nABklA15OWds299.pdf",
+      "revision": "CN_V03_2024.04.02",
+      "printed_page": 29,
+      "scope": "Shared FX200/FX200b document; chapter abbreviates FX200"
+    },
+    "findings": [
+      "Built-in Volume mode has0–100 endpoints andEXP light off",
+      "Firm forward press toggles internal expression/volume role",
+      "95CRY/535CRY frequency assignable tointernal/external expression; save required"
+    ],
+    "limitations": [
+      "No universal external-volume assignment orall-output coverage",
+      "No toe mechanism census,pinout,resistance range orheld-position recall",
+      "English2022 support manual andFX2002.0.0 history do not independently establish battery variant applicability"
+    ],
+    "next": "Continue other accessible catalogue gaps; retain FX200b admission andremaining current-manual/control/synth/category/Shopee tasks,individual-display priority andgeneral cycle",
+    "inventory_change": 0
   }
 }

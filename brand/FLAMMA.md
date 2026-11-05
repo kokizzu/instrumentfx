@@ -76,6 +76,21 @@ Checked **2026-11-05**, manufacturer-authored indexed passages from the [Chinese
 
 These narrow the prior unknowns without completing admission. Full manual/current firmware,knob/button/toe census,expression assignment,synth/acoustic/category detail andqualified Shopee hardware remain open. Outside active counts;no downloads,connections ordevice tests.
 
+### FX200b — shared-manual expression and volume role
+
+<a id="fx200b--shared-manual-expression-and-volume-role"></a>
+
+Checked **2026-11-05**, readable indexed original text from [manufacturer FX200/FX200b Chinese manual,CN_V03_2024.04.02,printed29](https://flammainnovation.com.cn/file/pdf?fileName=FX200_%E5%AE%8C%E6%95%B4%E7%89%88%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf&url=group1%2FM00%2F00%2F15%2FwKgAK2YMymKAF63nABklA15OWds299.pdf). The shared document names both variants;this chapter abbreviates the device asFX200. Not a current-firmware orhardware test.
+
+| Control | Documented role / limit |
+|---|---|
+| Built-in volume mode | Select Pedal1→Volume;EXP light turns off. Set heel/toe range **0–100**;the manual describes0 asfully closed and100 asmaximum effect-module output. This is a parameter-level statement,not measured silence ofAUX,USB,headphones,tails orrecorded loops. |
+| Forward press | A firm forward press switches built-in expression/volume roles. This documents pedal-actuated switching,not a separate physical toe-switch census orforce threshold. |
+| Wah assignment | Select active **95 CRY or535 CRY** inComp/Wah andassign its frequency parameter tointernal/external expression. Built-in forward press can enable/bypass that module. This doesnot prove the external pedal has a toe switch. |
+| Save / scope | The instructions explicitly require saving expression assignments. No global external-volume lock,held-position recall,pinout orpermitted resistance range is established here. |
+
+The [manufacturer support page](https://www.flamma.shop/pages/manual) currently links an **English2022 FX200-only manual**;do not transfer its detail toFX200b without applicability evidence. Its FX200 V2.0.0 history adds PRE/POST volume placement,but doesnot explicitly nameFX200b. Keep battery-model firmware applicability open. Still a partial lead outside active counts;no downloads ordevice operations.
+
 ## Consolidation provenance
 
 Existing FX100 blob `0a366c17163ad26d646d48bc4a2b174c55a4e802` and FX200 blob `bb326bf057dcb3d0da29d3bd9c70e4579ba784a0` supplied all preserved model fields,source URLs,prices and qualifications above. Stale next-batch instructions are replaced by root research-state.json,not treated as technical facts. FX150 is one new model;the two consolidations add none. Shared legacy comparison links still require retirement validation;old sources were not deleted by this commit.
