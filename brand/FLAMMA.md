@@ -394,7 +394,7 @@ Primary evidence: [maker product](https://www.flamma.shop/products/flamma-fx11-b
 
 | Required field | Exact-model evidence / qualification |
 |---|---|
-| Controls / expression | Text census **1 rotary/0 footswitches/6 buttons**:AMP,TONE,EFX,DRUM,−,+;separate three-way power/Bluetooth switch. No treadle/analogEXP socket incomplete inventory(pp3–4);toe unverified. |
+| Controls / expression | Text census **1 rotary/0 footswitches/6 buttons**:AMP,TONE,EFX,DRUM,−,+;separate three-way power/Bluetooth switch. No treadle/analogEXP socket in the complete inventory (pp3–4);toe unverified. |
 | Display | Color-coded LEDs;no screen specified. Diagonal/resolution/touch unverified;not an individual-foot-display match. |
 | Body | **40W×82D×30Hmm;59g;270° instrument connector**,p15. Body fits preferred rectangle;instrument-mounted clearance separate. |
 | Processing / named AMP choices | **7:** Clean,Slap,Jazz,Metal Rhythm,Solo Time,Dyna Wah,Fuzz(pp7–8). These are complete amp/cab/mic tone recipes,notseven independent cabinet blocks. |

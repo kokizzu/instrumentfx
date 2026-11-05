@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(flamma): document exact FX11 bass processor as partial discovery'
+        message='docs(flamma): clarify complete FX11 connector-inventory wording'
     print(git('commit','-m',message))
