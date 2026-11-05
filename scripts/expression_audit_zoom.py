@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify original MS-70CDR creative effects and used offer'
+        message='research(headrush): qualify Prime software support and voucher scope'
     print(git('commit','-m',message))

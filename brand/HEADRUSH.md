@@ -1056,6 +1056,19 @@ Checked **2026-11-05**, [manufacturer cumulative5.2.0 release history,printedp10
 
 Existing5-minute loop/20-minute overdubbed-audio/50-layer limits remain separate. Current operation,Insert recovery andqualified live Indonesian hardware remain unverified;no recording,device connection ordownload performed.
 
+### Prime — standalone-software OS scope and voucher conditions
+
+Checked **2026-11-05**; these supplement, not replace, the earlier hardware-driver and firmware-updater qualifications.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Software / separate desktop compatibility | Manufacturer **macOS26 Tahoe software table** explicitly lists **ReValver5.1.2 and Amp Cloner5.1.2**, both Intel/AppleSilicon supported. Windows11 table separately lists **ReValver5.0.4+ and Amp Cloner5.1.0+**. These are standalone software qualifications,not Prime firmware versions or Remote browser-editor certification. Hardware’s Tahoe updater entry remains5.0.1;5.2-updater compatibility is not established by either software row. WindowsARM and Preview limitations remain. | [Tahoe software table](https://support.headrushfx.com/en/support/solutions/articles/69000872801-headrush-macos-26-tahoe-compatibility); [Windows11 table](https://support.headrushfx.com/en/support/solutions/articles/69000804015/) |
+| Software / activation distinction | Getting Started links **ReValver5.1.2** Windows64-bit/macOS packages and describes inMusic sign-in,then licensed activation or **Use Free Version** without a license. This does not establish that every paid feature,SuperClone workflow orPrime entitlement is included free. No account sign-in,package download,installation orhardware operation performed. | [Manufacturer setup article](https://support.headrushfx.com/en/support/solutions/articles/69000867482-revalver-5-getting-started) |
+| IDR / existing conditional offer | Existing **HOLY MUSIC945642322/52161712736** remains **Rp22.789.000,Dengan Voucher** in a three-month cached page. Banner specifies **spendRp2.000.000,discountRp10.000**. Eligibility,unconditional base andcheckout total remain unknown;do not deductRp10.000 again from the displayed amount. Separate late-delivery compensation is not this purchase voucher. No current-stock,new-condition,bundle orwarranty confirmation;earlier asking-price evidence retained. | [Same exact Prime hardware item](https://shopee.co.id/HEADRUSH-PRIME-%E2%80%93-Next-Generation-Guitar-FX-Amp-Modeler-and-Vocal-Processor-Touchscreen-Pedalboard-Original-i.945642322.52161712736) |
+
+Remaining OLED specifications,storage ceilings,global-expression coverage,installed-library certification andcurrent qualified offers stay open. No additional active model or ownership assertion.
+
+
 ## VX5
 
 <!-- comparison evidence begins -->
