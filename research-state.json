@@ -25972,7 +25972,21 @@
         "Headphones/dualUSB-C/Bluetooth,stereospeakers;globalvolumeunknown"
       ],
       "market": "TONE GO/Tonego exactShopeequeries noqualifieditem;no IDR/condition/stockclaim",
-      "next": "Readoriginalmanual;verifycompletepanel/connector/preset/categoryinventory,NAMconversion,globalanalogvolume,qualifiedShopee andsource-labelconflicts beforeadmission."
+      "next": "Readoriginalmanual;verifycompletepanel/connector/preset/categoryinventory,NAMconversion,globalanalogvolume,qualifiedShopee andsource-labelconflicts beforeadmission.",
+      "filed_guide_followup": {
+        "checked_date": "2026-11-05",
+        "source": "https://device.report/m/a3a39096a7acbb3f8ff1a28a3bcaaaa995fb46eb3e6b5940c352ea92c75c194b.pdf",
+        "filing": "https://fccid.io/2BA4I-TONEGO/User-Manual/Users-Manual-9555951",
+        "revision": "9pageQuickGuide;2BA4I-TONEGO;available2026-08-13;no firmware;draftID/UIplaceholders",
+        "expression": "Complete numbered connectors lackanalogEXP;documentedpathfailsfiledrevision;currentretailidentityunverified",
+        "battery_mass_conflict": {
+          "filed": "7.4V4000mAh,6h/4h,880g",
+          "shop": "7.4V2600mAh,5h/3h,760g"
+        },
+        "controls": "Textcensus5rotaries/3footswitches/0separatefrontbuttons;oneknobheadingnotextracted;visualpending",
+        "navigation": "Paired A/B,C/D,E/F;pendinghold1s;notunrestrictedpresetup/down",
+        "next": "Resolvefiled/retailrevision,readfulloriginalmanualandcategory/NAMconversiondetails;qualifiedIndonesianhardwarestillunknown."
+      }
     }
   ],
   "inventory_by_brand": {
@@ -175260,5 +175274,19 @@
       "Manualfilename2020dateunverified"
     ],
     "next": "Requestedseparatefootdisplay/Shopee remainspriority;readTONEGOmanualandcompleteconnector/globalvolume/NAMcategorychecks. Preserve GT-Pro,GP-200JR→Prime→GE300,expression-volume andhistoricalconsolidation queues."
+  },
+  "tone_go_filed_guide_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FLAMMA.md#tone-go--filed-guide-connectors-and-battery-and-mass-conflicts",
+    "source": "https://device.report/m/a3a39096a7acbb3f8ff1a28a3bcaaaa995fb46eb3e6b5940c352ea92c75c194b.pdf",
+    "findings": [
+      "FiledinventoryhasnoanalogEXP/toe;retailrevisionunverified",
+      "DistinctOTGdata/audioandpowerchargingports",
+      "Presetpair/pendingoperationversussequentialnavigation",
+      "Phones4.8ohm isoutputimpedance;102/110dBdynamicrangeslisted",
+      "4000mAh880gconflictswithshop2600mAh760g;placeholderdraftscope"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Prioritize requested separate-footdisplay/Shopee;TONEGOpartialrevision/fullmanual/NAMandcategorygaps remainopen. Preserve GT-Pro,GP-200JR→Prime→GE300 andexpression-volume queues."
   }
 }

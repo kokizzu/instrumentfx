@@ -964,6 +964,7 @@ Sources: [manufacturer shop’s exact product page](https://www.flamma.shop/en-a
 
 | Required field | Partial finding / limitation |
 |---|---|
+| Manual / filed-revision follow-up | [Manufacturer-filed Quick Guide](#tone-go--filed-guide-connectors-and-battery-and-mass-conflicts) supplies complete connector text,paired preset operation andseparate USB roles. Battery/mass differ fromthe shop;guide hasdraft placeholders andno firmware revision. |
 | Expression / toe | No built-in treadle documented in the product description. Analog EXP/toe connectors and global volume assignment remain unverified;incomplete connector text doesnot establish absence. |
 | Controls | Manufacturer advertises **5 rotaries,3 footswitches**;separate button count,encoder presses andcomplete panel census unverified. |
 | Display | **2-inch color** main screen. Pixel resolution,touch andindividual footswitch displays unverified;HD supplies no numeric resolution. |
@@ -979,3 +980,19 @@ Sources: [manufacturer shop’s exact product page](https://www.flamma.shop/en-a
 | IDR / used / new | No qualified exact Shopee item found inTONE GO/Tonego searches. Seller,item,condition,stock,variant,bundle,voucher,region andIDR ask remain unknown;no foreign-price conversion orabsence claim. |
 
 The official index’s manual filename **FLAMMA TONE GO_Manual_EN_V01_2020.08.06.pdf** is recorded only as a filename,not a verified release date orread document. Next: recover/read the original manual,resolve complete connectors/globalanalog-volume scope,panel/preset details,NAM conversion andcategory inventory,andfind exact Indonesian hardware. Do not promote this lead into active comparisons before admission checks. No downloads,installation,account sign-in ordevice operation.
+
+### TONE GO — filed guide connectors and battery and mass conflicts
+
+Checked **2026-11-05** in the manufacturer-authored [nine-page Quick Guide PDF](https://device.report/m/a3a39096a7acbb3f8ff1a28a3bcaaaa995fb46eb3e6b5940c352ea92c75c194b.pdf), read completely. Title **FLAMMA TONE GO Quick Guide**; [filing identity2BA4I-TONEGO,Users Manual exhibit9555951](https://fccid.io/2BA4I-TONEGO/User-Manual/Users-Manual-9555951),Shenzhen Flamma Innovation Co.,Ltd.,417.6KB,corroborates exact-model manufacturer origin. Filing availability is2026-08-13;mirror updateJuly29 isnot a product-release date. No firmware revision is printed,and **ID Image Update / UI Image Update** placeholders limit retail-revision certainty. This is an original filed document,not host-generated FAQ advice or a visual panel inspection.
+
+| Field | Filed-guide evidence / retained limits |
+|---|---|
+| Expression / complete connector inventory | Numbered1–19 descriptions,PDFpp2–4: instrument input,two main outputs,stereo phones,OTGUSB-C andpowerUSB-C;no analog EXP/toe socket orbuilt-in treadle listed. **Documented direct analog global-volume path fails for this filed inventory**;later retail-revision equivalence isunverified. MASTER hand control isnot pedal assignment. |
+| Controls / text census | **5 rotaries /3 footswitches /0 separately listed front buttons**,power switch separate. GAIN,VOL,MASTER,VALUE andthe fifth delay/reverb-level rotary;its numbered heading ismissing fromextracted prose. Rotary presses are notadditional buttons. Text-derived,not a complete rendered-panel count. |
+| Preset navigation | Three switches recallpairs **A/B,C/D,E/F**. A switch toggles within its active pair;holding1s when outside that pair marks a pending selection. This isnot an unrestricted previous/next preset pair. Dim indicator means pending,bright active. No universal footstep-to-load timing inferred. |
+| USB roles | **OTG** handles desktop preset management,NAM/IR import,full-device backup/restore,updates andmobile audio. **Power** accepts5V2A USB-A adapter orcomputerUSB forcharging. This separates the two sockets;USB-only operation,simultaneous charge/play,stream channels anddrivers remain unresolved. |
+| Electrical interpretation | SpecificationPDFpp6–7 explicitly labelsinput maximum**5.74dBu**,main maximum**9.8dBu/600Ω**,phones maximum**4.8dBu/4.8Ω output impedance**. Phones4.8Ω isnot a minimum load. ListedA/D dynamic range**102dB**,D/A**110dB**,SNR**110dB**;not independent measurements. This clarifies the earlier shop wording without deleting product183’s erroneousDynamicRange+9.8dBu label. |
+| Battery / weight conflict | Filed guidePDFpp7–8: **7.4V4000mAh,~6h use/~4h charge,880g**. Shop: **7.4V2600mAh,~5h/~3h,760g**. Both give164×185×62mm and5V2A. No confirmed hardware revision,bundle ormeasurement basis reconciles them;do not selectone asuniversally current. |
+| NAM / IR scope | OTG NAM-file import isdocumented butdoesnot specify native execution,A2subvariants orconversion steps. Preserve the shop’s explicitA2conversion wording. Guide listsWAV24-bit/44.1kHz/512points butno user-slot capacity. |
+
+Looper-mode A/B records/plays/overdubs,double-press stops,hold1s clears;C/D controls drums andtap;E/F exits. HoldingA/B+C/D1s opensTuner;holdingC/D+E/F1s opensLooper. These controls do not establish loop power-cycle retention,headphone/tail attenuation orindividual footswitch screens. Dedicated synth/pitch/acoustic algorithms,full current library/firmware andqualified Shopee offers remain unverified. Earlier product-page statements andmanual-filename uncertainty are preserved;this Quick Guide isnot proven identical tothe named2020-indexfile. No local download,software install ordevice operation.
