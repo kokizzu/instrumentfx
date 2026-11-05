@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): enumerate FM9 Turbo multi-delay choices'
+        message='research(fractal): enumerate FM9 Turbo Plex choices and hold scope'
     print(git('commit','-m',message))

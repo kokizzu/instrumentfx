@@ -2526,6 +2526,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | Categories / Tremolo,Enhancer andGate reference | [7/3/4 named choices](#fm9-turbo--named-tremolo-enhancer-and-gate-reference),respectively;FM9 block limits2/2/4,CPU permitting. Gate Hold is not audio freeze. |
 | Categories / Ten-Tap andVolume-Pan reference | [Two Ten-Tap types;two described Volume/Pan modes](#fm9-turbo--ten-tap-patterns-and-volume-block-scope). FM9 permits2/4 blocks respectively,CPU permitting. Auto-Swell does not establish global pedal assignment. |
 | Categories / Multi-Delay reference | [39 named choices](#fm9-turbo--named-multi-delay-types-and-internal-processing):six core algorithms plus33 variants;two FM9 blocks,CPU permitting. Internal processing is not extra block capacity. |
+| Categories / Plex reference | [45 named choices](#fm9-turbo--named-plex-types-and-held-tail-boundaries):five core algorithms plus40 variants;one FM9 block,CPU permitting. Held tails do not establish persistent loop storage. |
 | Preset memory | **512 editable locations**,including overwritable factory entries; **eight scenes each**. [Manufacturer FM9-family default:384](#fm9-turbo--family-factory-default-and-backup-scope);exact pre-MKII Turbo shipping allocation andcurrent unit contents remain unverified. Not extra protected locations. [Shared manual p39](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**; [manual/envelope/pitch tracking modes](#fm9-turbo--synth-tracking-versus-manual-generation) are distinct. Voice count is not note polyphony. Acoustic input documented separately; electric-to-acoustic simulation remains unknown. [Own-applicable manual p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Audio I/O | Mono unbalanced¼-inch Input1; stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR and same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Manual p21](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
@@ -2660,6 +2661,17 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,62–68
 **33 variants:** 1210; A.H. Clean Long; A.H. Clean Short; A.H. Lead Long; A.H. Lead Short; A.H. Swell Long; A.H. Swell Short; Aerosol; Ambient Quad Tape; Ambient Tape Delay; Aurora Delay; Camera Obscura; Centaurus X-3; Circular Delays; Comb Filter Delay; Dub Echo; Filtered Mod Band Delay; Kilimanjaro; L-C-R-C; Matterhorn; MD Chorus; Mono Diffuser; PCM Circular; PCM Pan; Pealing Bells; Quad Chorus; Rhythmic Bands; Shadows Taps; Space Tape; Stereo Shadows; Strange Things; Swing Ping; Ya-Ya Delay.
 
 **39 reference choices;two FM9 blocks**,CPU permitting. Quad Parallel/Series include comb filtering andring modulation;Quad Tape lacks the separate chorus subsection. Internal taps are not extra blocks orinput-note polyphony. VP4-only additions are excluded. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
+
+
+### FM9 Turbo — named Plex types and held-tail boundaries
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,87–90](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf);Original/Turbo applicability as qualified above.
+
+**Five core algorithms:** Plex Delay; Plex Detune; Plex Shift; Plex Verb; Shimmer Verb.
+
+**40 variants:** Ambient Depths; Bronze Harps; Cacophonizer; Celestial Shimmer; Critters; Dancing Detune; Delay Swell; Demi-Semi Delay; Detuned Space; Detuned Space 2; Discrete Echoes; Dissolving 16ths; Echo Hall; Econo Shimmer; Econo Shimmer 2; Ganymede; Gnome Shifter; Gold Harps; Golden Delay; Golden Detune; Golden Shimmer; Granular Echoes; Gritty Shimmer; Helium Shimmer; Intrigue; Lunar Detuner; Melting Delays; Mod Wash; Occult Verb 1; Occult Verb 2; Ping-Pong Reverse; Plex Tape Echoes; Reverse Oct 4; Reverse Oct 8; Reverse Plex; Sample/Hold Delay; Scintillation; Sirocco; Subtone Shimmer; The Cytherians.
+
+**45 reference choices;one FM9 block**,CPU permitting. More delay lines increase CPU. HOLD closes input;STACK accepts further audio while sustaining the tail. Detune±50cents;Shift±24semitones. Internal voices andheld tails do not establish synth-input polyphony orpersistent loop storage. Installed equivalence andintroduction firmware remain unverified. No local download ordevice operation.
 
 
 ## VP4
