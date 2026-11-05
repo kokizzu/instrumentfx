@@ -5146,10 +5146,10 @@ Checked2026-11-04;**outside active inventory**. Distinct fromG7.1ut;ownership/ba
 | Field | Exact-model evidence / qualification |
 |---|---|
 | Expression | Two built-in pedals;right Z-Pedal moves vertically/horizontally. Pedal2:four targets peraxis;toe switching verticalonly. Assignments stored perpatch,notglobalvolume. ExternalEXP unverified. pp31–35 |
-| K/F/B | Complete separate control census unverified. |
+| K/F/B | **17 rotaries/9 footswitches**,text-derived below. Complete hand-button count andvisual corroboration remain unverified;[named-key lower bound](#g92tt--factory-patch-fill-and-unsaved-analog-controls). |
 | Display | Shared16-character×2line backlitLCD plus2-digitLED;diagonal/color/touch unknown. Not individual footswitch screens. p77 |
-| Processing | 106types;10simultaneous modules;category census pending. p77 |
-| Memory | 100read-only+100writable=200patches;initial userfill unknown. p77 |
+| Processing | **106types;10simultaneous modules**. Original module-choice census isreconciled below;not106 distinct simultaneous algorithms orcurrent-firmware certification. p77 |
+| Memory | **100read-only+100writable=200patches**;original p28 says userU/u initially duplicate presetA/b contents. Analog Accelerator/Energizer settings arenot stored withpatches;[exact scope](#g92tt--factory-patch-fill-and-unsaved-analog-controls). p77/28–29 |
 | Synth / acoustic | Acoustic simulator inPREAMP;dedicated synth unverified. pp65–66 |
 | Body | 595W×235D×85H mm;5.5kg. p77 |
 | I/O | Guitar,stereo-miniAUX,monoSend/Return,two mono-line outputs,stereophones,MIDI IN/OUT,USB,power. p77 |
@@ -5163,7 +5163,7 @@ Checked2026-11-04;**outside active inventory**. Distinct fromG7.1ut;ownership/ba
 
 **Used/newIDR unknown.** ExactShopee searches found no qualified processor offer. [HopeMusic shopcache](https://shopee.co.id/hopemusik) lists“LCD Efek Zoom G7 & Zoom G9”Rp220.000:replacementpart,**not processorhardware**,andno exactseller/item recovered. Searchfailure isnot marketabsence. Condition,stock,revision,bundle,region,warranty,voucher andcheckout remainunknown.
 
-Next:panel census,category algorithms,exacthardwareoffer,powerconflict andcoverage. No localdownloads,deviceoperation oractiveadmission.
+Current next:complete button/visual census,exacthardwareoffer,powerconflict,currentsoftware/firmware andcoverage;original category arithmetic isdocumented below. No localdownloads,deviceoperation oractiveadmission.
 
 ### G9.2tt — control inventory and exact Japanese power corroboration
 
@@ -5201,6 +5201,14 @@ Derived sum **106**;repeated names in different modules count separately. TOTAL 
 **Aco.Sim** is electric-to-acoustic. **RingModulate,SlowAttack,Step,Cry,CombFilter**,reverse delays anddelay Hold are special processing,not proof oftracking synthesis. SlowAttack's violin-like attack isnot a sampled-instrument engine. Dedicated synth remains unverified.
 
 Partial lead outside active counts;power discrepancy,visual controls,software/current firmware andqualified Shopee hardware remain open. No downloads/device operation.
+
+### G9.2tt — factory patch fill and unsaved analog controls
+
+Checked **2026-11-06**,[original manufacturer manual,printedpp7,28–29](https://zoomcorp.com/media/documents/E_G92tt.pdf),51PDFpages containingpaired printedpages;firmware applicability unstated. Usergroups **U/u initially contain the same patches asread-only A/b**,so the200 locations do not imply200 unique factory sounds. Storing accepts user destinations;when starting froma preset,the default destination isthe first user patch. Preset sources cannot be swapped. **Accelerator andEnergizer settings are explicitly notstored aspart ofthepatch**;patch save/recall therefore doesnot reproduce every analog control setting. No save,reset orhardware operation.
+
+The p7 control text names **seven control-section keys**:PEDAL1SETTING,PEDAL2SETTING,EXIT,BYPASS/TUNER,AMPSELECT/SYSTEM,STORE/SWAP,PAGE;plus **two CHANNEL A/B keys**. This establishes at leastnine hand-buttons,excluding the separately named effect-module keys whose complete physical count remains unverified. Existing17rotary/ninefootswitch text census remains;no visual panel audit claimed.
+
+Current summary now reflects the already reconciled106-choice module census. Exact Shopee processor,complete button census,power erratum/adapter label,currentOS androute coverage remain unresolved;partial lead staysoutside active402.
 
 ## G11
 

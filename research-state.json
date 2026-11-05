@@ -165214,7 +165214,25 @@
       "CurrentOS/import/coverage"
     ],
     "inventory_unchanged": 402,
-    "next": "Continue systematic discovery andpriorityindividualscreens;do not repeat unchangedpowerconflict withoutnewevidence. PreserveGT-Pro/expressionqueues."
+    "next": "Continue systematic discovery andpriorityindividualscreens;do not repeat unchangedpowerconflict withoutnewevidence. PreserveGT-Pro/expressionqueues.",
+    "memory_control_followup": {
+      "checked": "2026-11-06",
+      "canonical": "brand/ZOOM.md#g92tt--factory-patch-fill-and-unsaved-analog-controls",
+      "source": "https://zoomcorp.com/media/documents/E_G92tt.pdf",
+      "revision": "Original printed7,28–29;firmware applicability unstated",
+      "factory_fill": "UserU/u initially mirrorPresetA/b;200locations not200unique sounds",
+      "patch_exclusions": "Accelerator/Energizer analogsettings notsaved",
+      "named_hand_buttons_minimum": 9,
+      "scope": "Sevencontrolkeys+twoCHANNELkeys;effectmodulekeys additional,total/visualpending",
+      "remaining": [
+        "Complete buttons/visual corroboration",
+        "Exact Shopee processor",
+        "Powererratum/adapterlabel",
+        "CurrentOS/firmware androutecoverage"
+      ],
+      "inventory_changed": false,
+      "next": "Continue priorityindividualscreen evidence andsystematic hardware discovery;preserve GT-Pro,expression andGP200JR→Prime→GE300 queues"
+    }
   },
   "g92tt_category_census_20261104": {
     "model": "Zoom G9.2tt",
