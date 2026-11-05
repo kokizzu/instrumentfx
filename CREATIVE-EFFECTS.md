@@ -224,3 +224,5 @@ Original GE300 [volume-curve correction andsample-dependent startup warning](bra
 Original GE300 [complete original delay/reverb names](brand/MOOER.md#ge300--complete-original-delay-and-reverb-inventory) distinguish reverse,low-bit,fuzz,shimmer andswell processing from tracking synthesis. These25 original selections do not addblocks orcertify current installed contents.
 
 [HeadRush Looperboard](brand/HEADRUSH.md#looperboard--partial-discovery-lead) is a **partial lead outside active counts and the additional-record index**. Its independent input/track FX racks include WHAM/PITCH, Lo-Fi processing and firmware2.x Vocal Tuner/Rhythmic additions. Recorded-loop transposition is separate from live pitch processing; input polyphony, tracking synthesis and acoustic simulation remain unverified.
+
+Looperboard’s [complete historical rack inventory](brand/HEADRUSH.md#looperboard--complete-historical-rack-inventory-and-software-boundaries) now separates repeated rack positions from unique algorithms and later additions. It remains a partial lead outside active counts and the additional-record index.

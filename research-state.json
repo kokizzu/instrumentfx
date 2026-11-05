@@ -25889,6 +25889,22 @@
         "revision": "UserGuide2.0.0 printed19,25–28,32,37,46",
         "status": "Partial; source conflicts and expression coverage retained",
         "next": "Full named choices/memory census, software/import and current exact-offer qualifications; preserve independent queues."
+      },
+      "historical_inventory_followup": {
+        "checked_date": "2026-11-05",
+        "canonical_record": "brand/HEADRUSH.md#looperboard--complete-historical-rack-inventory-and-software-boundaries",
+        "revision": "FAQ1.0.1;UserGuide2.0.0 printed10,16,33,35–36,43",
+        "rack_positions": {
+          "Vocal": 7,
+          "Guitar": 7,
+          "Lo-Fi": 6,
+          "Dub": 6,
+          "Drum": 5,
+          "Studio": 6,
+          "total": 37
+        },
+        "scope": "Historical repeated positions; not unique algorithms, concurrency or complete current firmware",
+        "next": "Verify later rack full inventory, preset counts, current software/import support, expression coverage and qualified market offers before active admission; preserve independent queues."
       }
     }
   ],
@@ -175036,6 +175052,7 @@
     "canonical": "brand/HEADRUSH.md#looperboard--storage-limits-measured-display-specification-and-routing-scope",
     "active_inventory_unchanged": 402,
     "priority": "Requested individual-footdisplay sources first; repeated FM9/AXOM results yielded no new qualified hardware evidence",
-    "next": "Continue Looperboard complete named choices/memory/software fields when accessible, then systematic Shopee inventory; preserve Mini/Nano, M-VAVE wiring, GT-Pro and GP-200JR → Prime → GE300."
+    "next": "Verify later rack full inventory, preset counts, current software/import support, expression coverage and qualified market offers before active admission; preserve independent queues.",
+    "latest": "brand/HEADRUSH.md#looperboard--complete-historical-rack-inventory-and-software-boundaries"
   }
 }

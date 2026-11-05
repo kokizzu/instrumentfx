@@ -355,6 +355,23 @@ Checked **2026-11-05**, [manufacturer User Guide2.0.0](https://cdn.inmusicbrands
 | Routing / expression | Audio Routing is **global, not per loop**; this does not establish global analog-volume assignment. Incoming MIDI **CC7 Main Level**,**CC9 Phones Level**,**CC93 Expression Pedal**,all0–127,are separate targets—not proof the analog socket controls Main. Endpoint/recall and all-source coverage remain unknown. |
 | Bounce / tails | **As Loop enabled** retains delay/reverb across the bounce loop point; disabled cuts them there. This concerns bounced audio,not universal pedal attenuation or preset spillover. |
 
+### Looperboard — complete historical rack inventory and software boundaries
+
+Checked **2026-11-05**. The [manufacturer FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000801163-headrush-looperboard-frequently-asked-questions) explicitly dates this list to **firmware1.0.1**:
+
+| Rack | Listed positions | Complete names in that FAQ |
+|---|---:|---|
+| Vocal | 7 | HP/GATE; PITCH; DOUBLER; DELAY; REVERB; COMP; EQ |
+| Guitar | 7 | WHAM; OVERDRIVE; WAH; AMP; MOD; SPRING; DELAY |
+| Lo-Fi | 6 | LPF; VINYL; DEGRADE; DISTORT; PARA EQ; DELAY |
+| Dub | 6 | DOUBLER; DELAY; DUB-VERB; AMB-VERB; COMP; PARA EQ |
+| Drum | 5 | TRANSIENT; DELAY; REVERB; PARA EQ; COMP |
+| Studio | 6 | PITCH; DIST; MOD; DELAY; REVERB; COMP |
+
+**37 listed rack positions**, calculated7+7+6+6+5+6; repeated names are not counted as unique algorithms. Four simultaneous racks do not establish37 simultaneous effects. Later Vocal Tuner/Rhythmic additions remain separately version-qualified above; this is not a complete2.x census. FAQ also identifies **302 supplied drum/percussion loops**, not302 FX presets.
+
+[User Guide2.0.0](https://cdn.inmusicbrands.com/HeadRush/looperboard/Looperboard-User-Guide-v2_0_0%5B0805%5D.pdf), printed10,16,33,35–36,43: each track allows **99 layers**. FX-rack presets can be saved/loaded; factory-filled/user capacity remains unspecified. Foot-controlled Loop Select is limited to the current folder/device, with bank stepping; it is not documented next/previous FX-rack-preset control. USB transfer handles audio and rack-preset files; this is not an editor. USB audio is24-bit at44.1/48/88.2/96kHz. **Live** feeds device outputs and computer; **DAW** disables device outputs while sending computer audio. Do not infer analog EXP coverage from these modes. Current standalone editor platforms remain unverified; driver/updater support is separate. No software installed, media transferred or hardware operated.
+
 ## MX5
 
 Guitar/bass multi-effects; **medium** footprint; first-pass record with outstanding fields.
