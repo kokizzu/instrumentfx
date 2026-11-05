@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify dated G5n Windows playback exclusions'
+        message='docs(hotone): preserve Ampero II Stomp baseline and later findings'
     print(git('commit','-m',message))

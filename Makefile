@@ -2526,3 +2526,7 @@ research-field-audit:
 	python3 scripts/comparison_views.py research-field-audit
 research-field-audit-test:
 	python3 scripts/comparison_views.py research-field-audit-test
+
+.PHONY: preservation-review-ampero-ii-stomp
+preservation-review-ampero-ii-stomp:
+	python3 scripts/preservation_review.py effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md

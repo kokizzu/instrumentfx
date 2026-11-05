@@ -170386,5 +170386,14 @@
       "Current driver/firmware andapplication retest"
     ],
     "next": "Continue confirmed individual-LCD profiles andexact hardware discovery;preserve general,expression,consolidation anddeferred FM9/G11 queues"
+  },
+  "ampero_ii_stomp_preservation_repair_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/HOTONE.md#ampero-ii-stomp--current-revision-cross-references-outside-preserved-baseline",
+    "source": "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md",
+    "source_sha256": "28a59b4051f3fdf185e2d57827de975d04f0e0ff7bb0c54cd88a48b04b2737f0",
+    "finding": "Seven later changed/added table rows had altered the protected original body. Restore exact baseline and retain all seven outside markers;underlying detailed findings unchanged.",
+    "active_inventory_unchanged": 402,
+    "next": "Continue source-history audit from next concrete failure;preserve requested display research andindependent queues"
   }
 }
