@@ -7503,3 +7503,19 @@ Checked2026-10-18. Direct Shopee bodies are JavaScript-limited cached extracts; 
 | Condition unknown / Toko Alat Musik NADA,KotaBandung | **Rp5.859.600;Habis**. Title explicitly V6-SP. Last-month direct cache;stale21–22Aug delivery. Page taxonomy says computer processor;hardware identity rests on title,not taxonomy. | [236930016/3969082198](https://shopee.co.id/Zoom-V6-Introducing-The-V6-SP-Vocal-Processor-i.236930016.3969082198) |
 | Condition unknown / nusantaramusic,KotaPekanbaru | **Rp4.400.000;Habis**. Title says V6 withoutSP;package revision unresolved. Two-week direct cache versus two-month search;stale5–7Oct delivery. | [88823786/5918943265](https://shopee.co.id/Zoom-V6-Vocal-Effects-Pedal-with-Voice-Processing-Processor-i.88823786.5918943265) |
 | Storefront snapshot / Zoom Official Shop | [Shop348182890](https://shopee.co.id/shop/348182890) last-month index displays V6-SP **Rp5.806.350**,versus recorded exact-item Rp6.633.000. The shop also shows1% voucher,minRp1.5m,expiry2026-10-01. Selected variant,base-price relation andcurrent eligibility unresolved;not a revised unconditional item price orlive-stock proof. | Existing exact-item link retained above |
+
+
+### V6-SP — named choices and patch-memory scope
+
+Checked **2026-11-06**. The [V6-SP support page][V6SP-S] links the [shared V6 manual][V6SP-M], **©2020, printed16–23,25–27,32,35**, and [one-page Patch Memory List](https://zoomcorp.com/media/documents/E_V6_Patchlist.pdf). This establishes SP applicability, not the earlier microphone bundle or installed firmware. Support still lists1.20; no update performed.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Memory / capacity and recall | **100 locations** save VOICE/HARMONY/EFFECT settings; power-on recalls the last-used patch. STORE indicates edits requiring saving. Initialization overwrites settings/patches; documented firmware updating retains saved patches. [Manual][V6SP-M] |
+| Factory / user memory | [SP product][V6SP-P]: **40 preloaded**. Linked patch list explicitly leaves **40–99 empty**, but names only00–19;20–39 are unenumerated here. Do not invent their names or add100 extra user slots. |
+| Processing / VOICE choices | **12:** PITCH CORRECT–KEY, PITCH CORRECT–CHROMATIC, OCTAVE UP, OCTAVE DOWN, CHILD, DEEP, UNISON, ROBOT, WHISTLE, TALKBOX, BASS VOCODER, VOCODER. One selected alternative. [Manual17–18][V6SP-M] |
+| Processing / EFFECT choices | **10:** DISTORTION, TELEPHONE, BEAT BOX, PLATE, ROOM, HALL, CHORUS, DELAY+REVERB, ECHO, DELAY. TIME/FEEDBACK/MIX are DELAY controls, not three algorithms. [Manual21–22][V6SP-M] |
+| Pitch / voice distinctions | ROBOT fixes output to the selected key root; WHISTLE offers+2/+3 octaves. CHILD/DEEP also correct to key. Note-handling polyphony and measured tracking remain unverified. [Manual17–18][V6SP-M] |
+| Live / delay and stereo scope | DELAY reaches2seconds. PLATE/ROOM/HALL/DELAY+REVERB are explicitly stereo through PHONES; mono XLR remains separate. Looper automatically plays on reaching its recording limit. [Manual21–22,25][V6SP-M] |
+
+These fill named-choice and memory gaps without changing the fixed processing stages or vocal-only membership. FP02M still changes EFFECT ADJUST, not established global output volume; its movements are not patch-stored. Looper power-off retention, current installed behavior, import/editor support and display specifications remain unresolved. Existing Shopee searches repeat recorded offers; no fresh condition/stock confirmation or price update is claimed. No file downloaded or hardware operated.

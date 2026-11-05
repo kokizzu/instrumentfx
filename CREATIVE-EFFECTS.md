@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **109 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **110 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -155,6 +155,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [BOSS GX-100](brand/BOSS.md#gx-100--creative-index-and-source-revision-boundaries) | Overtone harmonics; synth unverified | Poly Octave; earlier ±24 pitch/single-note harmony | Acoustic/sitar/defret distinctions | Version2 availability versus earlier parameter details; S-Bend recall; DSP limits |
 | [BOSS GT-1000](brand/BOSS.md#gt-1000--revision12-creative-effects-and-bass-pitch-mode) | Harmonic/vowel/modulation processing; synth unverified | Poly octave; algorithm-specific single-note limits | Acoustic/sitar/defret | Revision12; four FX slots; held sound/looper distinct; bass pitch mode |
 | [BOSS GT-100](brand/BOSS.md#gt-100--original-creative-effects-and-single-note-synth) | Saw/Square WAVE SYNTH,single-note | ±24 pitch;algorithm-specific restrictions;[retained parameter record](brand/BOSS.md#gt-100) | AC.GUITAR SIM;separate AC.PROCESSOR;pickup/body/sitar/defret | Original/version2 boundaries;USB harmony limitation;held sound andACCEL FX distinct. Earlier index didnot freshly check note handling;focused follow-up isnot acomplete current audit. |
+| [Zoom V6-SP](brand/ZOOM.md#v6-sp--named-choices-and-patch-memory-scope) | Vocal ROBOT/TALKBOX/VOCODER/BASS VOCODER; input-note polyphony unverified | Key/chromatic correction; octave up/down; WHISTLE+2/+3; key harmony | Vocal formant/character changes; acoustic simulation unverified | Telephone lo-fi, Beat Box, voice doubling and210s looper; one VOICE plus one EFFECT choice; vocal-only membership; SP support-linked ©2020 manual, not full current audit |
 
 ## Separately recorded partial leads
 
