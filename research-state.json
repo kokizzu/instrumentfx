@@ -142009,7 +142009,239 @@
         "Qualifiednew/usedShopeehardware"
       ],
       "active_inventory_unchanged": 402,
-      "next": "Continue accessible requestedindividualdisplays,Shopeepriority andsystematicno-treadleinventory;retainGP200JR→Prime→GE300andGTProqueues"
+      "next": "Continue accessible requestedindividualdisplays,Shopeepriority andsystematicno-treadleinventory;retainGP200JR→Prime→GE300andGTProqueues",
+      "effects_110": {
+        "checked": "2026-11-06",
+        "canonical": "brand/VALETON.md#gp-50--complete-110-effects-list-and-creative-boundaries",
+        "source": "https://res.diversitone.com/Uploads/wp/download/1787706039757.GP-50_Effect%20List_EN_Firmware%20V1.1.0.pdf",
+        "bytes": 313897,
+        "sha256": "37cd5336f8b857f5cf79a1aa5e4d5ed86446bc95f0b32fae843dd7b015031559",
+        "pages": 23,
+        "revision": "CoverEffectListForFirmwareV1.1.0;PDFmetadata2026-07-27 notreleaseproof",
+        "inspection": "Complete23pagestextread;cover/p2rendered andactuallyviewed",
+        "counts": {
+          "NR": 1,
+          "PRE": 12,
+          "DST": 10,
+          "AMP": 32,
+          "CAB": 21,
+          "EQ": 5,
+          "MOD": 11,
+          "DLY": 10,
+          "RVB": 10
+        },
+        "categories": {
+          "NR": [
+            "Gate"
+          ],
+          "PRE": [
+            "COMP",
+            "COMP4",
+            "Boost",
+            "Micro Boost",
+            "B-Boost",
+            "Toucher",
+            "Crier",
+            "C-Wah",
+            "OCTA",
+            "Pitch",
+            "Detune",
+            "AC Sim"
+          ],
+          "DST": [
+            "Green OD",
+            "Yellow OD",
+            "Super OD",
+            "SM Dist",
+            "Plustortion",
+            "La Charger",
+            "Darktale",
+            "Sora Fuzz",
+            "Red Haze",
+            "Bass OD"
+          ],
+          "AMP": [
+            "Tweedy",
+            "Bellman 59N",
+            "Dark Twin",
+            "Foxy 30N",
+            "J-120 CL",
+            "Match CL",
+            "L-Star CL",
+            "UK 45",
+            "UK 50JP",
+            "UK 800",
+            "Bellman 59B",
+            "Foxy 30TB",
+            "SUPDual OD",
+            "Solo100 OD",
+            "Z38 OD",
+            "Bad-KT OD",
+            "Juice R100",
+            "Dizz VH",
+            "Dizz VH+",
+            "Eagle 120",
+            "EV 51",
+            "Solo100 LD",
+            "Mess DualV",
+            "Mess DualM",
+            "Power LD",
+            "Flagman+",
+            "Bog RedV",
+            "Classic Bass",
+            "Foxy Bass",
+            "Mess Bass",
+            "AC Pre1",
+            "AC Pre2"
+          ],
+          "CAB": [
+            "TWD CP 1x8",
+            "Dark VIT 1x12",
+            "Foxy 1x12",
+            "L-Star 1x12",
+            "Dark CS 2x12",
+            "Dark Twin 2x12",
+            "SUP Star 2x12",
+            "J-120 2x12",
+            "Foxy 2x12",
+            "UK GRN 2x12",
+            "UK GRN 4x12",
+            "Bog 4x12",
+            "Dizz 4x12",
+            "EV 4x12",
+            "Solo 4x12",
+            "Mess 4x12",
+            "Eagle 4x12",
+            "Juice 4x12",
+            "Bellman 2x12",
+            "AMPG 4x10",
+            "AC"
+          ],
+          "EQ": [
+            "Guitar EQ 1",
+            "Guitar EQ 2",
+            "Bass EQ 1",
+            "Bass EQ 2",
+            "Mess EQ"
+          ],
+          "MOD": [
+            "A-Chorus",
+            "B-Chorus",
+            "Jet",
+            "N-Jet",
+            "O-Phase",
+            "M-Vibe",
+            "V-Roto",
+            "Vibrato",
+            "O-Trem",
+            "Sine Trem",
+            "Bias Trem"
+          ],
+          "DLY": [
+            "Pure",
+            "Analog",
+            "Slapback",
+            "Sweet Echo",
+            "Tape",
+            "Tube",
+            "Rev Echo",
+            "Ring Echo",
+            "Sweep Echo",
+            "Ping Pong"
+          ],
+          "RVB": [
+            "Air",
+            "Room",
+            "Hall",
+            "Church",
+            "Plate L",
+            "Plate",
+            "Spring",
+            "N-Star",
+            "Deepsea",
+            "Sweet Space"
+          ]
+        },
+        "derived_named_choices": 112,
+        "excludes": [
+          "N→SEmptyplaceholder",
+          "20userIRlocations",
+          "SnapTonefiles"
+        ],
+        "factory_snaptone": {
+          "pedal": [
+            "14 DST",
+            "Force OCD",
+            "Revolt DST",
+            "SweetDrive",
+            "FlagmanDST"
+          ],
+          "clean": [
+            "Foxy 30",
+            "Twin RVB",
+            "Match 30",
+            "MessStar S",
+            "MessJP CH1",
+            "Rock2 CL",
+            "Lany LH20",
+            "SUPDual",
+            "BJ3 CL",
+            "UK BB CL"
+          ],
+          "overdrive": [
+            "BJ3 OD",
+            "UK BB OD",
+            "UK 410 OD",
+            "Rock2 OD",
+            "HW100",
+            "Juice CR N"
+          ],
+          "distortion": [
+            "Foxy 30JMI",
+            "Bog DST",
+            "CV XV",
+            "MessJP CH2",
+            "MessJP CH3",
+            "UK 800",
+            "UK SLP",
+            "UK410 DST1",
+            "UK410 DST2",
+            "UK 900",
+            "UK 2000",
+            "UK DSL"
+          ],
+          "high_gain": [
+            "Dizz VH",
+            "Mess TriV",
+            "Mess TriM",
+            "Mess 2C+",
+            "Eagle Iron",
+            "H&K BLK200",
+            "JuiceCRMAX"
+          ],
+          "bass": [
+            "AGL DB BS",
+            "AMPG 6 BS",
+            "EB Faf BS",
+            "HACK BS",
+            "PV BS",
+            "MATT BS",
+            "H&K BS",
+            "Juice ODBS"
+          ],
+          "acoustic_sim": [
+            "AC SIM",
+            "Piezo SIM"
+          ]
+        },
+        "factory_count": 50,
+        "creative": "PolyphonicOCTA/Pitch;Detune±50cents;fourmodeACSim distinctfromACPre/CABAC/SnapToneacousticcaptures;Ring/Sweep/RevEcho processing;dedicatedsynthunknown",
+        "source_conflict": "English1.1DizzVH=DiezelVH4CH3,DizzVH+=CH4;oldregionalOrangecopyretained;notannouncedtonechange",
+        "limits": "Notinstalledlibrary,uniqueDSPcount,trackingmeasurement orconcurrent112;Pitchranges/scaleharmony/globalEXPcoverage andactualM-VAVEwiring remainunknown",
+        "market": "Fresh used/bekassearch returned retainedGitarisGendut34702407/47862332300Rp1800000Habis2monthsnapshot;no newqualifiedstock",
+        "active_inventory_unchanged": 402,
+        "next": "Continue requestedindividualfootdisplays,qualifiedShopeeoffers andremainingno-treadle/globalexpression scope;preserveindependentGP200JR→Prime→GE300andGTProqueues"
+      }
     }
   },
   "gt1000core_current_comparison_20261028": {
@@ -157435,8 +157667,8 @@
         "synth": "Dedicated synth unverified;envelope/cyclicfilters distinct",
         "pitch": "OCTA/Pitch explicitlypolyphonic;Detune±50cents",
         "instrument": "AC Sim fourmodes;AC Pre1/2 andCAB AC separate",
-        "qualification": "Firmware1.0.5 PREchoices shareoneblock;1.1.0 equivalence,range/latency unverified",
-        "evidence_basis": "Manufacturer-hosted regional1.0.5 manual printed32–33,focused2026-11-05 check,not complete freshaudit"
+        "qualification": "Complete1.1.0effectslist112namedchoices;PREsharedslot;pitchendpoints/scaleharmony/trackingunknown;specialRing/Sweep/RevEcho",
+        "evidence_basis": "Manufacturer-linked1.1.0EffectList23pages fullyread2026-11-06;cover/p2rendered;oldregional1.0.5sources andcontradictionsretained;notfullfreshcatalogueaudit"
       },
       {
         "key": "M-VAVE::TANK MINI",
@@ -176942,12 +177174,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://res.diversitone.com/Uploads/wp/download/1787705999178.GP-50_Online%C2%A0Manual_EN_Firmware%20V1.1.0.pdf",
+    "requested_url": "https://res.diversitone.com/Uploads/wp/download/1787706039757.GP-50_Effect%20List_EN_Firmware%20V1.1.0.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 10,
+    "frame": 3,
     "text_pages": [
-      24,
-      30
+      20,
+      22
     ]
   }
 }

@@ -869,7 +869,7 @@ For both: working state,condition grade,variant,bundle/adapter,regional warranty
 
 ## GP-50
 
-Current comparison summary, reconciled2026-10-28 andupdated2026-11-06 after recovery ofthe manufacturer firmware1.1.0 manual. Selected1.1.0 control/global/hardware findings are checked directly;the named effect census retains its1.0.5 qualification. All original bodies, prices, URLs and historical unknowns remain below this selected summary.
+Current comparison summary, reconciled2026-10-28 andupdated2026-11-06 after recovery ofthe manufacturer firmware1.1.0 manual. Selected1.1.0 control/global/hardware findings andthe separate1.1.0 effect-list census are checked directly;older1.0.5 evidence remains revision-qualified. All original bodies, prices, URLs and historical unknowns remain below this selected summary.
 
 <!-- comparison evidence begins -->
 | Field | Current evidence / qualification |
@@ -880,10 +880,10 @@ Current comparison summary, reconciled2026-10-28 andupdated2026-11-06 after reco
 | Controls / mode switching | [Own1.1.0 manual,p8](#gp-50--manufacturer-110-manual-recovered-and-control-scope): **hold B** toggles Patch/Pedal modes. Patch rings blue and flash on selection; Pedal rings red/green follow module switching. Specific red/green on/off mapping remains unverified. |
 | Display | **1.77-inch full-color LCD**; pixels/touch unknown. Own1.1.0 pp5,18 recheck: sleep5min/30min/Always (default), brightnessI/II/III (defaultIII); sleeping display leaves audio I/O unaffected. [Revision-qualified details](#gp-50--display-sleep-and-audio-continuity). Knob navigation does not prove no touchscreen. |
 | Dimensions / weight | **122 W×82 D×54 H mm;430g**;fits preferred200×140mm,excluding cable clearance. |
-| Categories / creative pitch andfilters | [Firmware1.0.5 exact-model distinctions](#gp-50--polyphonic-pitch-and-filter-versus-instrument-simulation):OCTA andPitch explicitly polyphonic;Detune±50cents;Toucher envelope/Crier automatic wah separate fromtracking synthesis. Current1.1.0 equivalence unverified. |
-| Processing / categories | **1.1.0 pp5,28:9 simultaneous**;**1.0.5:112 named algorithms:** NR1,PRE12,DST10,AMP32,CAB21,EQ5,MOD11,DLY10,RVB10. Excludes user IR/SnapTone files. N→S disables AMP/CAB. NR/PRE/MOD/DLY/RVB reorderable;DST/N→S/AMP/CAB/EQ fixed. Exact1.1.0 named effect inventory unverified;the31-page user manual doesnot include its effects list. |
+| Categories / creative pitch andfilters | [Firmware1.1.0 effect-list recheck](#gp-50--complete-110-effects-list-and-creative-boundaries):OCTA andPitch explicitly polyphonic;Detune±50cents;Toucher envelope/Crier automatic wah separate fromtracking synthesis. 1.1.0 documentation directly checked;installed content andtracking performance untested. |
+| Processing / categories | **1.1.0 pp5,28:9 simultaneous**;**1.1.0 effect list:112 named choices:** NR1,PRE12,DST10,AMP32,CAB21,EQ5,MOD11,DLY10,RVB10. Excludes user IR/SnapTone files. N→S disables AMP/CAB. NR/PRE/MOD/DLY/RVB reorderable;DST/N→S/AMP/CAB/EQ fixed. [Complete separate1.1.0 list](#gp-50--complete-110-effects-list-and-creative-boundaries) directly checked;counts are menu choices,not unique DSP implementations orsimultaneous slots. |
 | Memory | **100 total,55 factory-filled,45 remaining slots**;factory fill is a subset,not100+55. Own1.1.0 p7 explicitly identifies factory addresses00–54. |
-| Synth / acoustic |1.0.5 PRE AC Sim:Standard/Jumbo/Enhanced/Piezo;CAB AC:dreadnought simulation. AC Pre1/2 are separate acoustic preamps. Classic/Foxy/Mess Bass andBass OD support shared bass membership. Dedicated synth unverified. Dizz VH regional description copies Orange text;conflict retained. |
+| Synth / acoustic |1.1.0 PRE AC Sim:Standard/Jumbo/Enhanced/Piezo;CAB AC:dreadnought simulation. AC Pre1/2 are separate acoustic preamps. Classic/Foxy/Mess Bass andBass OD support shared bass membership. Dedicated synth unverified. Older1.0.5 regionalDizzVH/Orange-copy conflict retained;English1.1.0 explicitly names DiezelVH4 CH3,andDizzVH+ CH4. No tonal/firmware-change inference. |
 | IR / NAM / capture | **20 user IR slots;80 SnapTone slots/50 supplied**,converted NAM. **NAM A2 conversion:GP-50 firmware1.1.0+ andmobile2.1.0+**,regional manufacturer notice. Native NAM andunrestricted A2 architectures unverified;not onboard capture creation. |
 | Audio I/O |¼-inch TS input,1MΩ;separate L/R¼-inch unbalanced TS outputs,100Ω;dedicated3.5mm stereo TRS phones,22Ω. Impedance is not headphone power/load guidance. BT audio supports playback/USB recording;no AUX jack inferred. |
 | USB / independent recording and monitor levels | [Own1.1.0 manual,p16](#gp-50--manufacturer-110-manual-recovered-and-control-scope),checked2026-11-06: **REC Level,BT REC andMonitor Level each−20…+20dB,default0dB**. **REC Mode L/R independently selects Dry orWet**,defaultWet. Dry is unprocessed;Wet includes effects. These are USB routing/gain controls,not verified analogEXP targets,extra recording channels ora guarantee that all USB/headphone audio follows pedal volume. |
@@ -895,7 +895,7 @@ Current comparison summary, reconciled2026-10-28 andupdated2026-11-06 after reco
 | Looper / drum tempo andsync | [Own1.1.0 manual,p10](#gp-50--manufacturer-110-manual-recovered-and-control-scope),checked2026-11-06: drum **BPM40–260,VOL0–100**;Sync follows the current preset tempo. This is tempo synchronization,not looper beat-aligned recording or proof of100 onboard drum styles. 10 onboard metronomes versus app patterns distinction remains. |
 | Looper / drums / live |Own1.1.0 pp9–11 recheck: **20s looper**,Pre dry mono/Post effected stereo;screen exit retains state,recording not saved. Record/playback0–100. **10 onboard metronomes**;additional patterns require app/BT,not100onboard. Analog/DSP tuner bypass;USB interface also bypassed in documented Bypass mode,EXP coverage unknown. |
 | Editor / Suite feature scope | The [developer App Store history](https://apps.apple.com/us/app/valeton-suite/id6739420888),checked **2026-11-01**,lists **Stem Splitter** among Suite **2.1.0** additions alongside GP-50 firmware1.1.0 support andconverted NAM A2 loading. This is an app feature,not an onboard GP-50 effect block,a looper track-count increase or native NAM playback. Stem counts,accepted files,offline operation andexport behavior are not specified in the retrieved notes;no app was installed or tested. |
-| Firmware / documentation |**Manufacturer1.1.0 manual recovered2026-11-06**,31pages;cover andprinted8/13 rendered andactually inspected,complete body read. [Source/revision andlimits](#gp-50--manufacturer-110-manual-recovered-and-control-scope). Listing date2026-08-26 isnot firmware release/installed-version proof;separate1.1.0 effects list remains uninspected. Suite2.1.0 compatibility retains prior sources. |
+| Firmware / documentation |**Manufacturer1.1.0 manual recovered2026-11-06**,31pages;cover andprinted8/13 rendered andactually inspected,complete body read. [Source/revision andlimits](#gp-50--manufacturer-110-manual-recovered-and-control-scope). Listing date2026-08-26 isnot firmware release/installed-version proof;the separate1.1.0 effects list is now recovered andcounted;older access failures remain historical. Suite2.1.0 compatibility retains prior sources. |
 | Used IDR |**Rp1.800.000,Habis**, [Gitaris Gendut34702407/47862332300](https://shopee.co.id/-used-Valeton-GP-50-GP50-Second-Like-New-i.34702407.47862332300),Probolinggo;checked2026-10-28,two-month cache,staleAug29–Sep1 delivery. Seller says used/Second Like New;working state uninspected. Historical sold-out ask,not current stock. |
 | New IDR |Historical **Rp1.985.000,new,Sold out**, [Smosyu](https://smosyumusic.com/products/valeton-gp-50),checked2026-10-14. Separate Indonesian retailer,not Shopee orcurrent availability. Bundle/warranty/delivered cost unknown. |
 | IDR / Nafiri conflicting stock signals | **Rp1.985.000**, [exact GP-50 product](https://nafiriguitar.com/products/valeton-gp-50-multi-effects-processor),checked2026-11-03,three-day snapshot. Product page exposes **Sold out** alongside Add to cart;[ready-stock collection](https://nafiriguitar.com/id/collections/all-ready-stock-collections) indexed yesterday includes the unit atsame ask,and[Valeton sale collection](https://nafiriguitar.com/collections/valeton-sale) shows10 in-stock/0 out-of-stock aggregate. Preserve the conflict;collection membership/cart control do not certify available stock. Separate non-Shopee retailer,not the older Smosyu offer. Condition,selected variation,bundle,adapter,warranty,shipping/tax andcheckout unknown;shipping calculated atcheckout. |
@@ -1284,6 +1284,30 @@ Checked **2026-11-06**: [official1.1.0 listing](https://www.valeton.net/wpfd_fil
 - **Hardware/live rechecks,pp5–12,16–21,28:**9simultaneous maximum,100slots/55factory00–54,20s volatile looper,10onboard metronomes,1.77-inch colorLCD,USBgain/dry-wet settings andpublished body/power values corroborate the qualified existing records. No new effect census,tracking measurement orsimultaneousNAM/AMP/CAB claim;SnapTone stilldisablesAMP/CAB.
 
 The complete31-page manual omits the separate named effects list;the112-choice census stays1.0.5. No software/firmware installed,device operated ornew qualified Shopee offer established. Inventory andinstrument membership unchanged.
+
+### GP-50 — complete 1.1.0 effects list and creative boundaries
+
+Checked **2026-11-06** in the [manufacturer-linked Effect List for firmware V1.1.0](https://res.diversitone.com/Uploads/wp/download/1787706039757.GP-50_Effect%20List_EN_Firmware%20V1.1.0.pdf), reached from the [saved official entry](https://www.valeton.net/wpfd_file/gp-50_effect-list_en_firmware-v1-1-0-pdf/). **23 PDF pages, 313897 bytes**, SHA-256 `37cd5336f8b857f5cf79a1aa5e4d5ed86446bc95f0b32fae843dd7b015031559`. Complete text read; cover and printed p2 rendered and visually inspected. The PDF metadata date, 2026-07-27, is not a firmware release date.
+
+| Category | Named choices | Printed pages | Names / counting boundary |
+|---|---:|---|---|
+| NR | 1 | 1 | Gate |
+| PRE | 12 | 1–3 | COMP; COMP4; Boost; Micro Boost; B-Boost; Toucher; Crier; C-Wah; OCTA; Pitch; Detune; AC Sim |
+| DST | 10 | 3–5 | Green OD; Yellow OD; Super OD; SM Dist; Plustortion; La Charger; Darktale; Sora Fuzz; Red Haze; Bass OD |
+| AMP | 32 | 5–11 | 7 clean / 9 drive / 11 high-gain / 3 bass / 2 acoustic preamp choices |
+| CAB | 21 | 11–12 | 20 speaker cabinets + AC dreadnought simulation; user IR slots 1–20 excluded |
+| EQ | 5 | 12–13 | Guitar EQ 1; Guitar EQ 2; Bass EQ 1; Bass EQ 2; Mess EQ |
+| MOD | 11 | 13–15 | A-Chorus; B-Chorus; Jet; N-Jet; O-Phase; M-Vibe; V-Roto; Vibrato; O-Trem; Sine Trem; Bias Trem |
+| DLY | 10 | 15–16 | Pure; Analog; Slapback; Sweet Echo; Tape; Tube; Rev Echo; Ring Echo; Sweep Echo; Ping Pong |
+| RVB | 10 | 17–18 | Air; Room; Hall; Church; Plate L; Plate; Spring; N-Star; Deepsea; Sweet Space |
+
+The derived **112 named choices** agree with the older 1.0.5 category totals. This does not prove identical processing or installed contents. N→S Empty is a loader placeholder. The appendix (pp19–21) separately names **50 factory SnapTone files**: 5 pedals, 10 clean, 6 overdrive, 12 distortion, 7 high-gain, 8 bass and 2 acoustic-simulator captures. These supplied files occupy the 80-location library; they are not 50 extra effects or simultaneous blocks. Exact AMP, CAB and factory-file names are retained in research-state.json.
+
+**Creative distinctions:** OCTA and Pitch explicitly process polyphonic input; Detune is ±50 cents. Pitch endpoints and scale-intelligent harmony remain unspecified. Toucher is an envelope filter, Crier is cyclic wah, and C-Wah is expression-controlled wah. None establishes tracking synthesis. Four-mode AC Sim, AC Pre1/2 acoustic preamps, CAB AC dreadnought simulation, and the AC SIM/Piezo SIM SnapTone files use distinct processing paths.
+
+Ring Echo ring-modulates repeats. Sweep Echo has separate filter/delay sync; Rev Echo reverses feedback. DLY/RVB Trail describes effect-bypass decay, not preset spillover or global EXP attenuation. Sweet Echo’s 20–300 ms description concerns its modeled original, not a verified GP-50 range. English 1.1.0 describes Dizz VH as Diezel CH3 and Dizz VH+ as CH4; the older regional copy-error evidence remains, without an inferred firmware sound change.
+
+Global analog volume, held-position/output coverage, actual M-VAVE wiring and qualified current Shopee offers remain unresolved. No device or software operation.
 
 ## GP-100
 
