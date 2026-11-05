@@ -2678,6 +2678,17 @@ Checked **2026-11-05**, [manufacturer August2022 Original/TURBO manual,firmware3
 | Display / placeholders versus overrides | Placeholders request a numbered definition anddo nothing if it is empty. Overrides replace a designated switch’s global-layout function with a preset definition. Either can make the loaded preset’s switch behavior/label differ. |
 | Display / override disable scope | Global Per-Preset Overrides can be disabled to prevent presets taking over essential switches. The documented option addresses overrides;it doesnot establish removal ofplaceholders,restoration ofevery custom label orglobal analog-volume coverage. |
 
+### FM9 Turbo — USB playback mapping and digital-output boundaries
+
+Checked **2026-11-05**, [manufacturer August2022 Original/TURBO manual,firmware3.x,printed22–26,94,117,119](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). Current firmware12 equivalence untested. Screenshot retrieval returned no inspectable image;the remaining diagram is not visually certified.
+
+| Required field | Evidence and limits |
+|---|---|
+| USB / playback-pair mapping | USB Output Mapping sends computer playback1/2→Out1 and3/4→Out2,or swaps those output pairs. This is playback routing,not recording-source selection. Existing recording7/8 source andUSB5/6 digital-input qualifications remain separate. |
+| I/O / S-PDIF source | Select Output1 grid block,Output2 grid block,unprocessed Input1 instrument jack,or incoming computerUSB7/8 directly. Raw/direct selections do not establish passage through preset effects oranalog EXP attenuation. S/PDIF still requires synchronized48kHz clocking. |
+| USB / DI automation boundary | Reamp tutorial records raw DI onhost Input5 andprocessed audio on1/2;it says expression/footswitch actions are not recorded. Do not assume a DI recording preserves performance automation orrecreates it during reamping. |
+| USB / MIDI wording conflict | pp22–23 describe DAW-visible MIDI-over-USB remote control; p119 FAQ instead says a third-party MIDI interface is required for DAW control. Preserve this internal contradiction;editor communication alone doesnot resolve supported MIDI directions orcurrent firmware behavior. |
+
 <!-- comparison evidence ends -->
 
 No files,software,firmware,IRs ordependencies downloaded; no device operation. Partial admission does not certify current installed behavior, stock, ownership or complete market coverage. Older source tables, prices and revision qualifications remain unchanged.
