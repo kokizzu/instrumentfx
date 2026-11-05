@@ -5791,6 +5791,7 @@ Checked **2026-11-03** in [Zoom’s original operation manual](https://zoomcorp.
 | Controls | **11 rotaries /6 chassis footswitches /9 panel buttons**, text-derived. Power and treadle switch separate; visual corroboration pending. See dated census below. |
 | Display | Eight-character alphanumeric LED plus two-digit seven-segment LED;not individual footswitch LCDs. Diagonal,color/touch unverified. |
 | Processing | **69 programs:67effects+amp simulator+ZNR**;four effect modules plus amp simulator/ZNR. **English introductionp3:up to nine simultaneous effects**,a different counting basis from module slots. DRIVE,MOD,DLY/REV each22choices;SFX disablesMOD. Complete named selector census below; nested parameter variants are not extra selector positions. |
+| Memory / custom definitions | [Shared distortion character and module recalls](#gfx-8--shared-custom-distortion-memory): DRIVE parameters9–12 affect all patches using that custom type; MOD/DLY custom memories have separate save operations. Not extra patch capacity orcapture import. |
 | Memory | **80 writable User +160 protected Preset =240 patches**; all addresses have initial names in the English appendix,PDFpp45–46. Current unit contents unverified. |
 | Synth / acoustic | Named creative choices now checked below; tracking architecture and note polyphony remain unresolved. |
 | Dimensions / mass | Englishp42 text: **455W×203H×80Dmm;3.6kg**. [Japanese own manualp42](https://zoomcorp.com/media/documents/J_GFX8.pdf): **455W×203D×80Hmm;3.6kg**. Language/extraction axis discrepancy preserved;no usable page image returned,no physical measurement. Width exceeds preference under either reading. |
@@ -5887,6 +5888,16 @@ Checked **2026-11-04**, [original GFX-8-5000-2 manufacturer manual, printedp28](
 | TWIN PIT | Two independent shift controls,each−12…−1,Off,+1…+12,+24 semitones;**Mn/St** selects audio-channel operation. Two shifters andstereo do not establish chord tracking. |
 
 These SFX choices occupy DLY/REV anddisable MOD under the existing documented rule. Each supports momentary effect bypass whileCONTROL is held;this isnot universal tuner bypass,tail preservation orall-source volume. Firmware equivalence andperformance untested;partiallead stays outside activecounts. No local download ordevice operation.
+
+### GFX-8 — shared custom-distortion memory
+
+Checked **2026-11-05**, [original manufacturer English GFX-8-5000-2 manual,printedpp17–18](https://zoomcorp.com/media/documents/E_GFX8.pdf).
+
+DRIVE CUSTOM1/2 occupy11A/11B. Parameters9–12 control overall,high,mid andlow distortion character. Saving their changes affects **every patch using that custom type**; they are global definitions,not independent copies perpatch. This is unrelated to global expression assignment oruser amp capture.
+
+MOD andDLY/REV instead store two custom effect/parameter settings each,selected asC1/C2 andsubsequently recalled via11A/11B. Their save procedure differs fromcustom DRIVE creation. These selectors do not add processing blocks orpatch addresses. Ordinary patch edits require storing;protected preset groups cannot be overwritten,while storing toUser overwrites the destination. Factory recall is not recovery ofa user’s previous edit.
+
+Partial lead remains outside active counts. Exacthardware condition/stock,dimension-axis conflict,visual controls andcurrent software support remain unresolved. No download,store/reset,MIDI transfer ordevice operation.
 
 ## GFX-707
 

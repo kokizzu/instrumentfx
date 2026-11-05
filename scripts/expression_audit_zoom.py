@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(valeton): qualify JR switch-mode assignment reset'
+        message='research(zoom): document GFX-8 shared custom memory boundaries'
     print(git('commit','-m',message))

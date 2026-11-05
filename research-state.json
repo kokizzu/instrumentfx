@@ -169818,5 +169818,16 @@
     ],
     "inventory_unchanged": 402,
     "next": "HeadRush Prime then original MOOER GE300;preserve independent display/expression/GT-Pro queues"
+  },
+  "gfx8_custom_memory_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#gfx-8--shared-custom-distortion-memory",
+    "source": "https://zoomcorp.com/media/documents/E_GFX8.pdf",
+    "revision": "GFX-8-5000-2 printed17–18",
+    "finding": "DRIVE custom parameters9–12 shared byall patches usingcustom type;MOD/DLY C1/C2 saves separate;not captures oradditional patch slots",
+    "status": "Partial outside active inventory",
+    "market": "FreshShopee searches surfaced existing sensor accessory,excluded;known194831039/45418107210 remains historical unqualifiedhardware lead",
+    "inventory_unchanged": 402,
+    "next": "Continue substantive required-field gaps andnew exactShopee discovery;prioritizeindividual-footdisplays;preserve expression/GT-Pro/generalqueues"
   }
 }
