@@ -476,6 +476,7 @@ The article retains Eleven Rack/Pro Tools wording despite its explicit HeadRush 
 | Processing / named drive and volume-dynamics | [34 named choices](#prime--named-drive-and-volume-dynamics-choices):18 overdrives beneath a16 header,11 distortion/fuzz,5 volume/dynamics. Source conflicts retained;not simultaneous block capacity. |
 | Processing / named delay, reverb, chorus, EQ and compression | [43 listed choices](#prime--named-delay-reverb-chorus-eq-and-compressor-choices):14 Delay,7 Reverb,7 Chorus,9 EQ,6 Compressor. Website grouping is retained;not simultaneous capacity or a certified current-firmware inventory. |
 | Processing / named modulation, filters and utility | [27 manufacturer-listed choices](#prime--named-filter-modulation-and-utility-choices):10 Phaser/Flanger,6 Vib/Trem/Rotary,8 Wah/Filter,3 Utility. Names are library choices,not simultaneous blocks or synth-tracking proof;per-effect firmware introduction unverified. |
+| Display / firmware-qualified feedback | [v3.2 switch/parameter feedback fixes](#prime--firmware-qualified-switch-and-parameter-feedback):dual-state LED colors,Prime-only Looper FS6 view andduplicate-effect parameter readouts. Historical fixes,not OLED hardware specifications orcurrent-device verification. |
 | Memory / MIDI-preset list | [4.1.1 visibility and Scene-copy fixes](#prime--saved-midi-preset-visibility-and-scene-portability):15 visible MIDI Out presets was a dropdown defect,not a documented capacity ceiling. Current storage maximum remains unverified. |
 | Expression | Built-in with toe switch; one external 6.35 mm TRS EXP plus separate TS toe-switch input. Banks of assignments and multiple-parameter control documented. [PR-M pp.7–9] |
 | Expression / assignment modes | [Prime FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions), checked 2026-11-03: Classic mode assigns one parameter per A/B bank and bypasses the previous target on toe change. Advanced mode assigns up to four per bank; switching leaves previous parameters active at maximum. External EXP controls C/D; without a toe switch only C is accessible. Momentary/latching toe type is configurable. These bank behaviors do not establish global volume assignment or numeric endpoints. |
@@ -1077,6 +1078,15 @@ Checked **2026-11-05** in the manufacturer-authored [Prime User Guide4.0.0 repro
 **Stereo-Doubling** puts two amps,cabs orIRs left/right in one slot andkeeps both active. **Switch-Doubling** instead alternates the top/bottom choices after a footswitch assignment under **Signal Chain → Doubling:A↔B**. With two switch-doubled blocks,one on each side ofa split path, **Both:A-B-C-D** cycles their four options inround-robin order. This is selection among alternatives,not four simultaneous models,additional rig slots orfour physical displays. Exact per-option mini-OLED text andcurrent5.2 equivalence are unverified.
 
 Do not extend this older amp/cab/IR description toNAM automatically. The separately checked5.2 NAM-quality,tail andDSP restrictions retain their own scope. Individual switch OLED count remains12;physical screen gaps,capacity ceilings andqualified stock remain open. No local download,rig edit ordevice operation.
+
+
+### Prime — firmware-qualified switch and parameter feedback
+
+<a id="prime--firmware-qualified-switch-and-parameter-feedback"></a>
+
+Checked **2026-11-05**, [manufacturer Prime/Core v3.2 announcement](https://support.headrushfx.com/en/support/solutions/articles/69000858120-headrush-prime-and-core-what-s-new-in-firmware-v3-2-). The maker reports correcting wrong LED colors when changing between rigs with dual-state scenes. It separately identifies two **Prime-only** fixes: holding Looper View **FS6** incorrectly changed the looper switch view; and selecting between two instances of the same effect did not correctly refresh parameter-knob values. These are historical interface defects,not additional effects,OLED specifications or proof that the displayed values reflected audible parameter changes. Current firmware behavior remains untested.
+
+The same release adds contextual **i** dialogs for Sustain,Hybrid Synth,Electric Piano,DB-33 Organ andSide Comp. Their availability isnot a published synth polyphony specification. No device operation ordownload.
 
 ## VX5
 

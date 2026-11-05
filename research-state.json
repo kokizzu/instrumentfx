@@ -173927,5 +173927,19 @@
     },
     "remaining": "Final aggregate migration verification andbroader technical/market research remain incomplete;402active models,6exclusions andindependent queues unchanged.",
     "next": "Publish verifiedcheckpoint,thenfresh aggregate history/preservation/navigation audit for117registered paths;resume individual-footdisplay/Shopee priority whilepreserving GT-Pro,expression-volume andGP200JR→Prime→GE300 queues."
+  },
+  "prime_switch_parameter_feedback_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/HEADRUSH.md#prime--firmware-qualified-switch-and-parameter-feedback",
+    "source": "https://support.headrushfx.com/en/support/solutions/articles/69000858120-headrush-prime-and-core-what-s-new-in-firmware-v3-2-",
+    "revision": "v3.2 announcement; historical fixes, current behavior untested",
+    "findings": [
+      "Dual-state scene LED feedback fix",
+      "Prime-only FS6 looper view fix",
+      "Prime-only duplicate-effect parameter display refresh fix",
+      "Named contextual info dialogs do not establish synth polyphony"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested separate-footdisplay processors and exact Shopee hardware; preserve independent GT-Pro, expression-volume and GP200JR→Prime→GE300 queues."
   }
 }
