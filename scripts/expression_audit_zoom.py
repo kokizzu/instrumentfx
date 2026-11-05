@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): index GT-1 creative and pitch feedback boundaries'
+        message='research(fender): qualify legacy Song footswitch assignment fix'
     print(git('commit','-m',message))

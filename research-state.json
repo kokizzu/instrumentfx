@@ -164805,7 +164805,14 @@
     "revision": "1.6.48 August27,2025; current retrieved heading1.8.58 July15,2026",
     "canonical_section": "brand/FENDER.md#tone-master-pro--historical-page-save-scene-and-ir-corrections",
     "next": "Retain current model-guide reader limitation,physical mini-screen gaps,global expression andqualified-market questions;independent queues unchanged",
-    "inventory_changed": false
+    "inventory_changed": false,
+    "legacy_song_followup": {
+      "checked": "2026-11-06",
+      "revision": "1.8.58 July15,2026",
+      "canonical": "brand/FENDER.md#tone-master-pro--legacy-song-assignment-correction",
+      "scope": "Pre1.8-created Songs;editing preset could remove its Song footswitch assignment;not documented preset deletion orrecovery",
+      "remaining": "Installed regression status,older assignment recovery,physicalLCD specs,globalEXP andqualifiedstock;independent queues unchanged"
+    }
   },
   "mg30_regional_gen2_numbering_20261104": {
     "model": "NUX::MG-30",
