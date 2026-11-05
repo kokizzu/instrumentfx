@@ -169503,5 +169503,123 @@
     ],
     "next": "Continue other substantive catalogue gaps and Indonesian discovery; retain Board remaining questions, display priority and general cycle",
     "inventory_change": 0
+  },
+  "tonex_board_complete_named_effects_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/IK-MULTIMEDIA.md#tonex-board--complete-named-76-effect-reference",
+    "source": "https://cdn.shopify.com/s/files/1/1052/1303/4828/files/TONEX_Board_Effects_List.pdf?v=1791982179",
+    "revision": "Effects List v1.0.0,2026/09/02,pp1–4,rows1–76",
+    "groups": {
+      "Drive": [
+        "Ambass’dor",
+        "AmpLess",
+        "Big Pig",
+        "Booster",
+        "Crusher",
+        "Distortion",
+        "Fuzz Age",
+        "Fuzz One",
+        "Metal Distortion",
+        "Metal Distortion 2",
+        "Octa-V",
+        "OctoBlue",
+        "OctoDist",
+        "ODX",
+        "Overdrive",
+        "OverScream",
+        "Power Core",
+        "Pro Drive",
+        "RightFuzz",
+        "Treble Booster",
+        "Tube Overdrive",
+        "VariDiode+"
+      ],
+      "Modulation": [
+        "Auto Pan",
+        "Chorus-1",
+        "Electric Flanger",
+        "Flanger Doubler",
+        "FOX Phaser",
+        "Metal Flanger",
+        "Opto Tremolo",
+        "Phazer 9",
+        "Phazer10",
+        "Small Phazer",
+        "TX Chorus",
+        "TX Flanger",
+        "TX Phaser",
+        "TX Rotary",
+        "TX Tremolo",
+        "Uni-V"
+      ],
+      "Pitch": [
+        "Pitch Shifter Mono",
+        "Pitch Shifter Stereo",
+        "Octav"
+      ],
+      "EQ": [
+        "Parametric EQ 3 Mono",
+        "Parametric EQ 3 Stereo",
+        "10 Band Graphic"
+      ],
+      "Filter": [
+        "Bass Wah",
+        "Envelope Filter",
+        "NU-Tron III",
+        "Wah",
+        "WahDist"
+      ],
+      "Reverb": [
+        "63 Reverb",
+        "TX Spring 1",
+        "TX Spring 2",
+        "TX Spring 3",
+        "TX Spring 4",
+        "TX Plate",
+        "TX Room",
+        "Hall",
+        "Shimmer 1",
+        "Shimmer 2"
+      ],
+      "Dynamics": [
+        "Dcomp",
+        "TX Comp",
+        "TX Noise Gate",
+        "Parallel Comp (ST)"
+      ],
+      "Delay": [
+        "Analog Delay",
+        "Arctic",
+        "Duck",
+        "EchoMan",
+        "EP Tape Echo",
+        "Harm Delay",
+        "Slap Back",
+        "Twin Repeat",
+        "TX Digital Delay",
+        "TX Tape Delay"
+      ],
+      "Utility": [
+        "Swiss Tool",
+        "Volume",
+        "FX Loop"
+      ]
+    },
+    "total_choices": 76,
+    "source_labels": {
+      "AMPLITUBE": 51,
+      "TONEX": 15,
+      "NEW": 10
+    },
+    "qualification": "Dated named choices, not simultaneous slots, current firmware certification or NEW introduction-version mapping; pitch channel names do not establish note polyphony.",
+    "active_inventory_unchanged": 402,
+    "status": "Partial lead outside active inventory",
+    "remaining": [
+      "Qualified exact Shopee Indonesia hardware",
+      "Supply voltage conflict",
+      "Current library equivalence",
+      "Global master endpoints, held-position recall and bypass/USB/tail/looper coverage"
+    ],
+    "next": "Continue remaining display-priority profiles and exact Shopee hardware; preserve GP-200JR → Prime → original GE300, expression and consolidation queues"
   }
 }

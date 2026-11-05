@@ -167,6 +167,28 @@ This completes the manual’s listed audio/control connector groups, not numeric
 
 The overview explicitly permits importing presets from previous TONEX products and **automatically converts them into the Board preset format**. It does not specify every accepted source revision, reverse export, complete dependency embedding or identical sound after conversion. No presets imported or files downloaded. This remains a partial lead outside active inventory; current firmware, power conflict, full expression coverage and qualified Indonesian hardware remain open.
 
+### TONEX Board — complete named 76-effect reference
+
+<a id="tonex-board--complete-named-76-effect-reference"></a>
+
+Checked **2026-11-05**, manufacturer [Effects List v1.0.0,2026/09/02,all four pages](https://cdn.shopify.com/s/files/1/1052/1303/4828/files/TONEX_Board_Effects_List.pdf?v=1791982179), numbered rows1–76. This expands the earlier category census; it is not a current-firmware library certification or simultaneous-block count.
+
+| Category | Choices | Exact names |
+|---|---:|---|
+| Drive | 22 | Ambass’dor; AmpLess; Big Pig; Booster; Crusher; Distortion; Fuzz Age; Fuzz One; Metal Distortion; Metal Distortion 2; Octa-V; OctoBlue; OctoDist; ODX; Overdrive; OverScream; Power Core; Pro Drive; RightFuzz; Treble Booster; Tube Overdrive; VariDiode+ |
+| Modulation | 16 | Auto Pan; Chorus-1; Electric Flanger; Flanger Doubler; FOX Phaser; Metal Flanger; Opto Tremolo; Phazer 9; Phazer10; Small Phazer; TX Chorus; TX Flanger; TX Phaser; TX Rotary; TX Tremolo; Uni-V |
+| Pitch | 3 | Pitch Shifter Mono; Pitch Shifter Stereo; Octav |
+| EQ | 3 | Parametric EQ 3 Mono; Parametric EQ 3 Stereo; 10 Band Graphic |
+| Filter | 5 | Bass Wah; Envelope Filter; NU-Tron III; Wah; WahDist |
+| Reverb | 10 | 63 Reverb; TX Spring 1; TX Spring 2; TX Spring 3; TX Spring 4; TX Plate; TX Room; Hall; Shimmer 1; Shimmer 2 |
+| Dynamics | 4 | Dcomp; TX Comp; TX Noise Gate; Parallel Comp (ST) |
+| Delay | 10 | Analog Delay; Arctic; Duck; EchoMan; EP Tape Echo; Harm Delay; Slap Back; Twin Repeat; TX Digital Delay; TX Tape Delay |
+| Utility | 3 | Swiss Tool; Volume; FX Loop |
+
+The source labels total **51 AMPLITUBE,15 TONEX,10 NEW**. NEW identifies source lineage here, not firmware1.1.0 introduction or proof that later promised additions shipped. Octave fuzz and rotary/filter processing do not establish tracking synthesis; mono/stereo names do not establish input-note polyphony. Keep the separately documented12-total-slot boundary.
+
+Exact Shopee Indonesia hardware, supply-voltage conflict, current library equivalence and complete global-volume coverage remain unresolved. This partial lead stays outside active inventory and comparison counts.
+
 ## TONEX ONE
 
 Standard TONEX ONE guitar/bass processor, not TONEX ONE+, Bass Edition or an artist variant. Consolidated and partially refreshed **2026-10-17**; no additional active model.

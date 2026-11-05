@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(ik): complete Board connector inventory and qualify preset imports'
+        message='research(ik): enumerate TONEX Board dated 76-effect library'
     print(git('commit','-m',message))
