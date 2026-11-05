@@ -42,13 +42,14 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **99 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **100 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
 | [Zoom GFX-3](brand/ZOOM.md#gfx-3--named-menu-and-discrete-pitch-intervals) | Dedicated synth unverified; SFX/filter processing | PITCH; PDL-PIT; chord support unverified | ACFAT; AC BRI | Shared MOD slot; full menu and source conflicts retained |
 | [Zoom GFX-5](brand/ZOOM.md#gfx-5--complete-named-menu-and-pitch-source-conflict) | Dedicated synth unverified; ARRM/filter/envelope processing distinct | PITCH prose/table range conflict; P-PIT16 modes; chord handling unverified | AC FAT; AC STD; AC BRI | STEP; FILTER; RING M; SLOW-A; T-TRIP; RINVIB; hold delay distinct from sampler; shared slots |
 | [Zoom GFX-4](brand/ZOOM.md#gfx-4--complete-named-menu-and-pitch-boundaries) | Dedicated synth unverified; STEP/RINGMD filtering/modulation | PITCH discrete−12…−1,+1…+12,+24; DETUNE; PDLPIT; chord support unverified | ACOSIM | Complete original42-choice menu; shared slots,conditional hold-delay/bypass limits retained |
+| [Flamma FG200](brand/FLAMMA.md#fg200--named-original-effects-and-live-switch-boundaries) | Tracking synthesis unverified | Dedicated pitch shifting unverified;Vibrato separate | Acoustic simulation unverified | Ring Modulator;Stutter Tremolo;Step Phaser;Filter;original27-effect subset andlaterBoost additions kept separate |
 | [Flamma FX20](brand/FLAMMA.md#fx20--complete-named-effect-menu-and-usb-playback-volume-scope) | Tracking synthesis unverified | Pitch shifting unverified | Acoustic simulation unverified | RING; LOFI; SLOW GEAR; STAMMER; modulated Filter; ownV01 menu andduplicate/typo qualifications |
 | [HeadRush Flex Prime](brand/HEADRUSH.md#flex-prime--52-documentation-and-creative-evidence) | Hybrid Synth; Electric Piano; DB-33 Organ; input polyphony unverified | Detailed note handling unverified | Acoustic Sim distinct from Acoustic Pre/IRs | Own4.0.0 arpeggiator controls and Kill Seq/Splicer;4.1.0 Grain Delay; retained DSP limits |
 | [Line 6 HX Stomp](brand/LINE6.md#hx-stomp) | 3 OSC Synth; legacy synths; input-independent generators | Poly Pitch / Wham / Capo | Acoustic Sim; 12 String | DSP-heavy poly models; own3.80 record |
@@ -219,7 +220,7 @@ HeadRush Prime [BBD Delay5.1 modes andblock-mix Phase Invert](brand/HEADRUSH.md#
 
 Original GE300 [volume-curve correction andsample-dependent startup warning](brand/MOOER.md#ge300--volume-curve-fix-and-sample-dependent-startup-scope) retain historical firmware scope;they do not establish current boot performance orglobal expression assignment.
 
-[Flamma FX10](brand/FLAMMA.md#fx10--partial-headphone-multi-effects-discovery) remains a **partial lead outside active counts and the98-record additional index**: its own manual identifies acoustic-guitar simulation and fixed reverse-delay/modulation/reverb combinations. Tracking synthesis and pitch shifting remain unverified. This does not expand the seven-model fresh comparison.
+[Flamma FX10](brand/FLAMMA.md#fx10--partial-headphone-multi-effects-discovery) remains a **partial lead outside active counts and the additional-record index**: its own manual identifies acoustic-guitar simulation and fixed reverse-delay/modulation/reverb combinations. Tracking synthesis and pitch shifting remain unverified. This does not expand the seven-model fresh comparison.
 
 Original GE300 [complete original delay/reverb names](brand/MOOER.md#ge300--complete-original-delay-and-reverb-inventory) distinguish reverse,low-bit,fuzz,shimmer andswell processing from tracking synthesis. These25 original selections do not addblocks orcertify current installed contents.
 

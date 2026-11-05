@@ -156715,6 +156715,15 @@
         "instrument": "ACFAT/ACSTD/ACBRI",
         "qualification": "Complete74-selectionmenu;sharedslots;hold/samplerrestrictions",
         "evidence_basis": "Manufacturer English19PDFpages,printed28–33;focused2026-11-05,notfullfreshfourcategoryaudit"
+      },
+      {
+        "key": "Flamma::FG200",
+        "canonical": "brand/FLAMMA.md#fg200--named-original-effects-and-live-switch-boundaries",
+        "synth": "Tracking synthesis unverified",
+        "pitch": "Dedicated pitch shifting unverified;Vibrato separate",
+        "instrument": "Acoustic simulation unverified",
+        "qualification": "RingModulator/StutterTremolo/StepPhaser/Filter;original27choice subset;laterBoost additions separate",
+        "evidence_basis": "Focused2026-11-05 exact-model manufacturer manualV02.05.06 printed10–13,18,25–27;not completefreshfour-categoryaudit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -175164,5 +175173,29 @@
     "heading_audit": "No-heading matches were extraction limitations;existing technical facts preserved andfield headings clarified",
     "active_inventory_unchanged": 402,
     "next": "Continue requested separate-footdisplay andremaining required-field/qualifiedShopee research;preserve GP-200JR→Prime→GE300 andGT-Pro independent queues. Battery/dimensions,IRformat,USBchannels andportwiring unresolved."
+  },
+  "fg200_named_effects_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FLAMMA.md#fg200--named-original-effects-and-live-switch-boundaries",
+    "source": "https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf",
+    "revision": "FG200_Manual_EN_V02.05.06.cdr;31PDFpages;notfirmwareversion",
+    "named_original_counts": {
+      "Boost": 5,
+      "Modulation": 12,
+      "Delay": 5,
+      "Reverb": 5
+    },
+    "total_subset": 27,
+    "live_mapping": {
+      "A": "Reverb",
+      "B": "Delay",
+      "C": "Mod",
+      "D": "Boost"
+    },
+    "scope": "Original named subset;later14Boost/Gatecompression notenumerated;notcurrent/simultaneouscensus",
+    "market": "ExactAsiaProSound703046367/49152335867 repeatRp1386000Habis,three-monthindex;notrefreshedcondition/stock",
+    "additional_index_records": 100,
+    "active_inventory_unchanged": 402,
+    "next": "Prioritize requested separate-footdisplay sources andqualifiedShopee;continue remaining required-field gaps. Preserve GT-Pro,GP-200JR→Prime→GE300 andexpression-volume queues."
   }
 }

@@ -158,6 +158,7 @@ Checked **2026-10-17**; partial. Guitar multi-effects strip; distinct from FB200
 | Display | Three-character numeric display; diagonal,color,touch unverified. Ambient RGB strip is not a color screen. [Manual][FG2-M], p03 |
 | Dimensions / weight | **311×67.5×49.7 mm;578 g**; axes/accessory inclusion unspecified. [Manual][FG2-M], p27 |
 | Simultaneous processing / categories | Seven named fixed modules:Gate,Boost,Amp,Cab,Mod,Delay,Reverb; maximum simultaneous processing/reordering unverified. Original library **5 Boost,52 Amp,16 Cab,12 Mod,5 Delay,5 Reverb**. Model choices are not simultaneous blocks. [Product][FG2-P] |
+| Processing / named effects and live switching | [Original27-choice menu andswitch mapping](#fg200--named-original-effects-and-live-switch-boundaries):5Boost,12Mod,5Delay,5Reverb;later14Boost additions remain separate. Ring Modulator,Stutter Tremolo andFilter are not tracking-synth proof. |
 | Firmware-qualified model changes | Index notes **v1.2.1 adds14 Boost models and preset-mode delay tap**; **v1.2.5 adds compression to Gate**. Do not present original5 Boost as firmware-current total or infer every installed unit is updated. Download index separately lists1.2.6 installers; full reconciliation pending. [Software index][FG2-I]; [Download index][FG2-D] |
 | Factory / user / total presets | **40 writable slots**; factory-filled subset unverified,not40 factory plus40 user. [Product][FG2-P] |
 | Synth / acoustic simulation | Each unverified; modulation/filter/amp names do not establish either. |
@@ -192,6 +193,23 @@ Remaining: visual controls,simultaneous/order,firmware library reconciliation,fa
 Checked **2026-10-28** against [manufacturer-hosted FG200 manual](https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf),PDF title **FG200_Manual_EN_V02.05.06.cdr**,31pages. This is distinct fromthe preserved V01/2025-03-12 copy;the title doesnot establish aninstalled firmware version orcomplete calendar date. Own panel/connector inventorypp05–07 confirms no treadle oranalog EXP,ordinary instrument input anddedicated3.5mm stereo phones. **Fails the documented direct analog volume path**.
 
 Printedp12 describes A/B/C/D preset slots andA+B/C+D group navigation,then a singleswitch toload a slot;exact down/up pairing is not textually identified. Printedp16 explicitly excludes Bluetooth audio fromMASTER;its source-device level remains separate. No pedal range/position/recall applies tothis connector set;no headphone/bypass/tail/loop pedal-attenuation claim. Dimensions311×67.5×49.7mm retain unlabeled axes,so preferred W×Dfit stays unverified. Older firmware-library andcharging qualifications remain;no FB200 substitutions,downloads orhardware test.
+
+### FG200 — named original effects and live-switch boundaries
+
+Checked **2026-11-05** in the [manufacturer FG200 manual](https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf), title **FG200_Manual_EN_V02.05.06.cdr**,31 PDFpages,printed18,25–27. Revision label does not establish firmware or a complete date.
+
+| Group | Complete original named choices |
+|---|---|
+| Boost —5 | Smooth Boost;Clean Boost;Gold Box;SCREAMER808;ML ZONE |
+| Modulation —12 | Phaser;Step Phaser;Flanger;Jet Flanger;Tremolo;Stutter Tremolo;Vibrato;Rotary;Analog Chorus;Multi Chorus;Ring Modulator;Filter |
+| Delay —5 | Digital Delay;Analog Delay;Echo;Tape Delay;Modulated Delay |
+| Reverb —5 | Room;Hall;Plate;Spring;Modulated Reverb |
+
+**27 choices**,excluding amps/cabs,not simultaneous blocks or a current installed census. The separately dated14Boost additions andGate compression are not enumerated here. Ring modulation,stutter andfilter processing do not establish a tracking synth;Vibrato is not conventional pitch transposition.
+
+Printed10–13 map LIVE **A=Reverb,B=Delay,C=Mod,D=Boost**;other modules use knobs. Startup selects PRESET;B+C changes mode. Delay TIME spans40ms–1s. These are controls,not freely assignable switches orspillover proof.
+
+The existing exact Shopee item703046367/49152335867 remains a cachedRp1.386.000 **Habis** ask;no new condition/stock confirmation. Current Boost names,simultaneous ceiling,initial factory filling,USB channels andeditor OS remain open. No download ordevice test.
 
 ## FV02 Doubling
 

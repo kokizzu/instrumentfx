@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(m-vave): qualify CUBE BABY modes and IR position count'
+        message='research(flamma): enumerate original FG200 effects and live switch roles'
     print(git('commit','-m',message))
