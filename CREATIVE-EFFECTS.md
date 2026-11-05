@@ -170,6 +170,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Zoom GFX-1 partial pitch follow-up](brand/ZOOM.md#gfx-1--pitch-patterns-filter-distinctions-and-audio-ratings) remains **outside active counts and the additional-record index**. Its manual names nine fixed pitch patterns,0…−2-octave Pedal Pitch Down and0…+1-octave Pedal Pitch Up. STEP is random filtering;Harpsichord Guitar is a preset name. Neither establishes dedicated synthesis ornote polyphony.
 
+[Original Zoom G2](brand/ZOOM.md#original-g2--creative-pitch-restrictions-and-synth-preset-distinction) remains a **partial lead outside active counts and the additional-record index**. Mono Pitch Shifter is single-note; general Pitch Shifter and Harmonized Pitch Shifter chord handling remain unverified. Acoustic is documented electric-to-acoustic processing; the SynthDaze preset name does not establish a synth engine. MOD/SFX choices are alternatives within one module.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

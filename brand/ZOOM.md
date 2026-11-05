@@ -3156,6 +3156,17 @@ External FS01 selects bypass/mute,tap,bank-up,rhythm start/stop,delay hold ordel
 
 Manufacturer patch-change mute claim **<5ms** is not a hardware measurement orproof ofzero-gap switching,tail spillover orexpression attenuation ofheld audio. Those coverage questions andexact qualified Indonesian offers remain unresolved;active inventory unchanged.
 
+### Original G2 — creative pitch restrictions and synth-preset distinction
+
+Checked **2026-11-05**, [manufacturer G2-5000-2 Operation Manual](https://zoomcorp.com/media/documents/E_G2.pdf), printed25,27–29 and appended Patch List; exact original G2, publication date/firmware minimum unstated.
+
+- **Pitch Shifter and Mono Pitch Shifter** both offer **−12…−1, detune, +1…+12, +24 semitones**. Only Mono is explicitly single-note; general Pitch Shifter chord handling remains unverified.
+- **Harmonized Pitch Shifter** offers ten interval choices: thirds/fourths/fifths/sixths up/down using a major scale, plus thirds up/down using a minor scale, with twelve tonic choices. This is not ten simultaneous voices or verified chord tracking. **Pedal Pitch** is a separate MOD/SFX alternative; external pedal support does not mean a built-in treadle.
+- **Acoustic** uses TOP/BODY controls for electric-to-acoustic processing. The **SynthDaze** factory patch name does not establish a dedicated synthesizer. Ring Modulator, Step and Slow Attack retain distinct modulation/filter/envelope roles.
+
+MOD/SFX choices share one module; they are not all concurrently available. Current firmware, tracking performance and exact Indonesian hardware offers remain unresolved. Partial lead stays outside active counts and the additional-record index. No download or device operation.
+
+
 ## G2.1Nu
 
 Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [own support page][ZNU-S]. Checked2026-10-18; partial. Ownership and bass/vocal suitability unverified.
