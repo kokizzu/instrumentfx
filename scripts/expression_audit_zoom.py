@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): qualify VG-800 volume targets and detector behavior'
+        message='research(fender): distinguish balanced mono loops from stereo pairing'
     print(git('commit','-m',message))

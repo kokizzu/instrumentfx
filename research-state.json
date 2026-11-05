@@ -174788,5 +174788,27 @@
     "controller_followup": "Asked exactM-VAVE controller,pedal andcable models;no response yet;manufacturer searches didnotresolvewiring",
     "active_inventory_unchanged": 402,
     "next": "Prioritize accessible individual-footdisplay/Shopee gaps;continue remaining no-treadle inventory while retaining Mini/Nano globalvolume,M-VAVEwiring,GT-Pro andgeneralGP200JR→Prime→GE300queues"
+  },
+  "tmp_loop_connector_scope_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FENDER.md#tone-master-pro--balanced-mono-loops-versus-stereo-pairing",
+    "sources": [
+      "https://www.fender.com/products/tone-master-pro",
+      "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual"
+    ],
+    "revision": "Current product revisionunstated;manufacturer1.5manualprinted4 separatelyqualified",
+    "findings": [
+      "Loops1/2unbalancedmono;3/4balancedmonoTRS andpairable stereo",
+      "TRSbalancednotone-socketstereoloop",
+      "10kloopimpedance notindependent send/returnmaximumratings"
+    ],
+    "priority_recheck": "Current ModelGuideH fails unsupported document/pdf;US1.8.58July15 remainsretrievedhead;AXOMsearchretailerOLEDalreadyretained",
+    "remaining": [
+      "Currentfullmodel-guidecensus",
+      "MiniLCDdimensions/pixeltechfields",
+      "GlobalEXPcoverage andqualifiedShopeeused/newstock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continueaccessiblepriority separate-footdisplays andShopee;do not repeatproductheadlineconflicts alreadydocumented. Preserveexpression-volume,GT-Pro andGP200JR→Prime→GE300queues"
   }
 }
