@@ -171001,5 +171001,37 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requested individual-footdisplay profiles whereprimary evidence isaccessible;preserve GT-Pro,expression andconsolidation queues."
+  },
+  "g5n_display_rhythm_offers_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#g5n--displayed-unit-window-and-rhythm-continuity",
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+      "https://shopee.co.id/EFEK-DIGITAL-ZOOM-G5N-i.402249503.22445969008",
+      "https://shopee.co.id/PROMO-ZOOM-G5N-GUITAR-MULTI-EFFECT-PROCESSOR-ORIGINAL-i.915179248.24010385438"
+    ],
+    "revision": "V2.0 manual,©2016;three-week seller search snapshots",
+    "finding": "Display-window/special-action feedback and rhythm patch-change boundary;two independent condition-unverified hardware asks.",
+    "offers": [
+      {
+        "shop": "402249503",
+        "item": "22445969008",
+        "idr": 6382000
+      },
+      {
+        "shop": "915179248",
+        "item": "24010385438",
+        "idr": 6817000
+      }
+    ],
+    "access": "Both direct seller opens cache miss;no live condition/stock assertion",
+    "remaining": [
+      "Separate-button/visual census",
+      "Display physical specifications",
+      "Current firmware equivalence and USB routing",
+      "Condition-qualified new offer and checkoutstock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested separate-screen models where primary gaps areaccessible;preserve GT-Pro,expression andconsolidation queues."
   }
 }

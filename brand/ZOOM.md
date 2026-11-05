@@ -4935,6 +4935,27 @@ Checked **2026-11-05** in Zoom’s [July2025 software test matrix](https://zoomc
 This is a dated manufacturer test result,not a fresh audio test,a universal claim about future application releases,orproof thatrecording alone fails. Guitar Lab support,Windows driver availability andmacOS compatibility are separate. Tested driver/firmware builds arenot identified here;current installed behavior remains unknown. Earlier caution about the entire extracted Windows row is narrowed only for these two named applications. No software orfile downloaded,no device operated.
 
 
+### G5n — displayed-unit window and rhythm continuity
+
+Checked **2026-11-05**, [manufacturer V2.0 manual,©2016,printedpp7,9,11,39](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf);later-firmware equivalence untested.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display / visible units and special actions | Overview highlights the effects currently shown on the four Unit Displays with white backgrounds;scrolling changes that window,not chain capacity. Unit screens can show parameter or effect-name views. Some effects show a special-function label in white text on dark,including SOLO versus ordinary ON/OFF. The extracted control icon is missing,so its exact physical mapping is not reconstructed. |
+| Live / rhythm continuity | Rhythm can continue when switching STOMP/MEMORY modes,but **changing patches stops rhythm playback**. Mode changes,patch changes andlooper retention are distinct. |
+
+### G5n — additional exact cached hardware offers
+
+Checked **2026-11-05**;both exact hardware titles below appear in three-week search snapshots,direct reopens returned cache miss. No Habis marker exposed establishes current stock. Condition,working state,selected variation,bundle/adapter,firmware,warranty,authenticity,shipping/tax andcheckout total remain unverified. Older used andretail offers are retained independently;no new/used range orcompleted sale claimed.
+
+| Field | IDR ask and qualification |
+|---|---|
+| IDR / condition-unverified indexed hardware | **Rp6.382.000**, [Best Pro Audio,shop402249503/item22445969008](https://shopee.co.id/EFEK-DIGITAL-ZOOM-G5N-i.402249503.22445969008),Kab.Magelang. Title EFEK DIGITAL ZOOM G5N;October11–12 arrival is stale. Up-toRp10.000 late-delivery compensation is not deducted. |
+| IDR / separate condition-unverified indexed hardware | **Rp6.817.000**, [rahmattofa,shop915179248/item24010385438](https://shopee.co.id/PROMO-ZOOM-G5N-GUITAR-MULTI-EFFECT-PROCESSOR-ORIGINAL-i.915179248.24010385438),Kab.Purworejo. PROMO/#ORIGINAL is seller wording,not authenticated origin orverified savings. October12–15 arrival is stale;late-delivery compensation not deducted. |
+
+No download,transaction ordevice operation.
+
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
