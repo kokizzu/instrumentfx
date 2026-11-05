@@ -3112,6 +3112,30 @@ Checked **2026-11-04**: [NEO MUSIC,shop158235298/item23178862782](https://shopee
 
 This exact hardware offer isdistinct from the preserved Zoom Official Shop,sarana musik andJagoan Electronic items. It doesnot establish acondition-qualified price range orcompleted sale. No sellercontact,purchase,software/manual download ordevice operation.
 
+### G2 FOUR — complete dated category census and harmonimusik offer
+
+Checked **2026-11-05**, [manufacturer Effects List](https://zoomcorp.com/media/documents/E_G2FOUR_EffectsList.pdf), **Z2I-4814-02, ©2024**, all 31 pages. Counted each effect heading once; the explanation-page examples are excluded. Only G2 FOUR is updated here.
+
+| Category | Listed choices | Printed pages |
+|---|---:|---|
+| DYNAMICS | 10 | 3–4 |
+| FILTER | 16 | 5–7 |
+| DRIVE | 26 | 8–11 |
+| MODULATION | 26 | 12–15 |
+| DELAY | 17 | 16–19 |
+| REVERB | 17 | 20–22 |
+| SFX | 4 | 23 |
+| AMP | 22 | 24–28 |
+| PEDAL | 18 | 29–31 |
+| **Total** | **156** | 3–31 |
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / dated category census | **156 listed menu choices**, including starred app additions and OUTPUT VOLUME PEDAL. This is not 156 simultaneous effects, certified installed choices, or an arithmetic replacement for the dated 155-available/101-loadable announcement. Later product additions require separate reconciliation. Rhythm/looper entries are not in this PDF; its count is not a complete system-function inventory. | [Own list, pp3–31](https://zoomcorp.com/media/documents/E_G2FOUR_EffectsList.pdf), Z2I-4814-02 |
+| IDR / additional condition-unverified hardware | **Rp3,050,000**, [harmonimusik, shop1121164857/item23686623815](https://shopee.co.id/Zoom-G2-Four-Multi-Effect-Processor-Pedal-Zoom-G-2-ORIGINAL-i.1121164857.23686623815), Kota Jakarta Utara. Search two-month cache; direct last-month cache repeats the ask with stale 14 September delivery. Title explicitly says **G2 Four**; “ORIGINAL” is a seller authenticity claim, not original-generation G2 identity. No Habis displayed does not establish stock. New/used condition, working state, selected variant, adapter/bundle, warranty, shipping/tax, voucher eligibility and checkout total unknown. Late-delivery Rp10,000 compensation is not deducted. | Exact hardware item, checked 2026-11-05; cached ask, not completed sale |
+
+Earlier offers and revision qualifications remain unchanged. Exact installed library, universal expression assignment/coverage and manufacturer display diagonal/touch specification remain open. No local download, installation or device operation.
+
 ## G2 original — partial capability lead
 
 Outside active inventory and main capability table; distinct from G2Nu, G2.1u and G2 FOUR. Checked 2026-10-28 against [own manufacturer Operation Manual](https://zoomcorp.com/media/documents/E_G2.pdf), printed pp18–19,30–31, document code G2-5000-2. No hardware test or download.
