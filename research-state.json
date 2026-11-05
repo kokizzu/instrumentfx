@@ -172376,5 +172376,30 @@
     "field": "Processing and memory",
     "repair": "Restore exact historical comparison value; keep current13+3 count reconciliation separately",
     "next": "Rerun technical/specialist coverage after this repair; metadata andJSON already verified; no legacy deletion orinventory changes"
-  }
+  },
+  "preservation_revalidation_20261105": {
+  "checked": "2026-11-05",
+  "source_commit": "16ca5a7e8ae9998e95ebac2924dec626f8e1976d",
+  "results": {
+    "make technical-retirement-verify": "PASS;99technical sources/99redirects/0incoming links;original headings androot destinations preserved",
+    "make metadata-retirement-verify": "PASS;13Markdown/3JSON metadata sources;13redirects;21ownership entries/20root profiles",
+    "make json-retirement-verify": "PASS;3original JSON files/2unique typed snapshots reconstructed",
+    "make specialist-retirement-verify": "PASS;GM800,excluded archive,specialist context andincoming anchors",
+    "make consolidation-test-preservation-kinds": "PASS;unknown kinds andunrelated historical blobs rejected"
+  },
+  "dispatch": {
+    "complete_source_bodies": 82,
+    "model_row_records": 91,
+    "historical_checkpoint": 1
+  },
+  "repair_commits": [
+    "69e6d7e6",
+    "1b369a6a",
+    "e8f02169",
+    "8462a7e6"
+  ],
+  "guard_commit": "16ca5a7e",
+  "qualification": "Current registered preservation only;not manufacturer/current-stock certification,not complete HEAD-history review andnot compatibility deletion. Active402inventory andindependent queues unchanged.",
+  "next": "Review remaining compatibility-path retirement with exact preview,root evidence androllback;preserve historical provenance andsource-reader/verifier behavior. Continue requested display/Shopee,expression-volume andgeneral queues independently."
+}
 }
