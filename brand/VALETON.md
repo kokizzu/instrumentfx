@@ -1664,6 +1664,7 @@ Current comparison uses the dated table below plus the explicitly qualified foll
 | IDR unresolved Shopee variation | CLOUD MUSIC seller1751522918/item47962277077, Kota Jakarta Utara: Rp3.606.400–Rp4.370.000, two unresolved variations, indexed five days before2026-11-04. Neither endpoint is a verified hardware price; condition, bundle, stock and warranty unknown. [Exact lead](#gp-180--unresolved-shopee-variation-offer). |
 | Software / mode qualification | [V1.0.0 mode/channel map and power options](#gp-180--usb-channel-modes-and-power-direction):historical manufacturer documentation,not current-firmware ordevice-tested behavior. |
 | IDR / separate sold-out hardware | [Hanip Hobbies,57337068/56620028439](#gp-180--sold-out-tasikmalaya-hardware-offer),**Rp3.000.000**,yesterday index checked2026-11-05;condition unknown,Habis,direct cache miss. Not a used/new floor orlive stock. |
+| Audio / output-source and headset qualification | [V1.0.0 output/headset controls](#gp-180--output-channel-headset-and-global-eq-boundaries) retain exact source wording andUSB exclusions;not universal EXP coverage. |
 <!-- comparison evidence ends -->
 
 Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.
@@ -1753,6 +1754,19 @@ The [official V1.1.1 entry](https://www.valeton.net/wpfd_file/gp-180_online-manu
 ### GP-180 — sold-out Tasikmalaya hardware offer
 
 Checked **2026-11-05**: [Hanip Hobbies,shop57337068/item56620028439](https://shopee.co.id/Valeton-GP-180-GP180-Multieffect-Multi-Effect-Processor-Guitar-Gitar-Bass-HD-Modelling-i.57337068.56620028439),**Kota Tasikmalaya,Rp3.000.000,Habis**. Yesterday’s search snapshot gives the exact GP-180 hardware title;direct reopen returned cache miss. Relative next-day delivery isnot current availability. Condition,working state,variant,bundle/adapter,firmware,warranty,authenticity,shipping/tax,voucher andcheckout total remain unverified. Historical unavailable ask,not a used/new range orcompleted sale;older independent offers retained. Seller’s guitar/bass wording isnot manufacturer instrument-suitability evidence.
+
+
+### GP-180 — output channel, headset and Global EQ boundaries
+
+Checked **2026-11-05**, [manufacturer V1.0.0 manual,printedpp20–21,23](https://www.kirstein.de/docs/manuals/00120133/manual_EN.pdf),exact GP-180 on the previously identified mirror.
+
+| Field | Revision-qualified evidence |
+|---|---|
+| Audio / OUT R source | Stereo(default) carries R;Mono copies **L**,making both outputs identical left-channel signals when both are used. This is not documented L+R summing. No CAB Mode independently bypasses cabinet processing forL/R;not independent full chains. |
+| Headphones / headset controls | Select TRS headphones(default) orTRRS headset;automatic CTIA/OMTP switching documented. **MIC Level0–100(default50)** is described as PHONES/MIC **output volume**,despite its name;not a verified microphone preamp-gain range. MIC Monitor separately switches headset-input monitoring(defaultOff). |
+| Processing / Global EQ scope | Low/high cuts,four parametric bands andLevel0–100(default50);defaultEQOff. **USB audio output is excluded.** Neither the Level control nor global-setting persistence establishes analog EXP assignment orall-source headphone/tail/looper attenuation. |
+
+Current-firmware equivalence andactual routing untested;earlier source conflicts retained. No download,connection ordevice operation.
 
 
 ## GP-200

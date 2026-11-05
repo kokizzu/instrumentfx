@@ -171062,5 +171062,20 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue fresh exact-model evidence after source-blocked separate-screen priorities;retain GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues."
+  },
+  "gp180_output_headset_eq_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/VALETON.md#gp-180--output-channel-headset-and-global-eq-boundaries",
+    "source": "https://www.kirstein.de/docs/manuals/00120133/manual_EN.pdf",
+    "revision": "Manufacturer GP-180 V1.0.0,printed20–21,23",
+    "finding": "Output/headset controls and Global EQ source exclusions documented with exact wording;not global analog expression proof.",
+    "remaining": [
+      "Current V1.1.1 equivalence",
+      "Direct analog global volume assignment/recall/coverage",
+      "Display touch/pixels",
+      "Condition-qualified current stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue exact-model hardware/specification gaps after source-blocked footdisplay priorities;preserve independent GP200JR→Prime→GE300,GT-Pro,expression andconsolidation queues."
   }
 }
