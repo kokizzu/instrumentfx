@@ -1344,11 +1344,14 @@ The saved used Shopee18622131/41630242050 still appears **Rp2.600.000,Habis** in
 | Expression / controls | Built-in;no external EXP socket in manual. **4/2/8**,toe details ?. |
 | Dimensions / screen | **230×160×58mm;754g**,medium. Published screen diagonal,color/touch evidence pending in this record. |
 | Processing / presets | Exact concurrent limit,firmware-specific per-category totals,factory/user split ?. Current firmware adds bass processing; do not borrow MKII counts. |
+| Creative / original pitch and reverse processing | [Version1.0 scope](#mg-300-original--ir-source-format-creative-boundaries-and-used-offer): EFX Pitch Bender andDLY Reverse Delay;numeric pitch range/input polyphony unresolved. These do not establish a dedicated synth oracoustic simulator. |
 | Acoustic / synth | Pitch bender and wah documented;dedicated synth/acoustic simulator ?. |
+| Loading / original IR source rate | [Exact-model product follow-up](#mg-300-original--ir-source-format-creative-boundaries-and-used-offer):48kHz WAV,512samples;bit depth/length conversion rules unverified. Original NAM remains unestablished;MKII support not transferred. |
 | IR / NAM | Third-party WAV IR,**512 samples**. Original-hardware NAM support not established;MKII GEN2 support does not apply automatically. |
 | Ports | 6.35 mm mono input;one6.35 mm shared main/phones output;3.5 mm AUX;micro-USB;DC. |
 | Power | **9V center-negative**,required current unverified;battery/USB operation not established. Input cable required for power-on per manual. |
 | Software / audio / practice | QuickTone **Windows/macOS**,USB audio/reamp;60s looper;56 rhythms. |
+| IDR / additional historical used-title offer | [Kain Bintik Bandung238337682/41252521244](#mg-300-original--ir-source-format-creative-boundaries-and-used-offer),Rp1.350.000,Habis;directone-monthcache withSep25delivery. TitleclaimsSecond/FullSet/LikeNew;revision,workingstate andcontents unverified. Notcurrentstock orqualifiedmarketfloor. |
 | IDR | Used/new current qualified offers ?. |
 | Firmware / editor / drivers | Checked2026-10-17:[global product](https://nuxaudio.com/product/mg300/) lists original MG-300 EN **4.02.23**,QuickTone **2.4.12.27** Windows/macOS;ASIO3.29.0 Win7/5.30.0 Win10+. Global firmware explicitly excludes domestic hardware. Installed version,minimum editor OS and regional identification remain unresolved. |
 | Expression assignments | Product documents WAH filter;EFX drive gain orPitchBender pitch;AMP level;MOD/DLY/RVB mix,plusvolume. This does not resolve toe-switch behavior. [Global product](https://nuxaudio.com/product/mg300/),checked2026-10-17. |
@@ -1401,6 +1404,23 @@ The global download pages explicitly distinguish domestic/Mandarin versus global
 Original-model sources: [Source 1](https://nuxaudio.com/product/mg300/) · [Source 2](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300/NUX_MG300_UserManual_English.pdf)
 
 Manufacturer manual identity checked in reproduced body:original MG-300,Version1.0,©2020 Cherub (outer back matter©2019). Official PDF opens withzero extracted lines;no successful current image inspection or byte-equivalence claim. Mirror summaries/AI answers and unofficial expanded user guides were not used.
+
+### MG-300 original — IR source format, creative boundaries and used offer
+
+Checked **2026-11-05**. The [exact original MG-300 manufacturer page](https://nuxaudio.com/product/mg300/),Impulse Response section,explicitly accepts **48kHz WAV** viaQuickTone andstates**512-sample resolution**. It doesnot specify accepted bit depths,source-length conversion/truncation,user-slot capacity orarbitrary sample rates here. Keep MKII’s24-user-IR andNAM GEN2 claims separate;no file was imported.
+
+The previously identified [manufacturer Version1.0 manual reproduction](https://manualzz.com/doc/64472440/nu-x-mg-300-guitar-multi-fx-pedal-instruction-manual),©2020 Cherub with©2019 outerbackmatter,printed5–7,9,12,documents:
+
+- **Pitch Bender** inEFX;the expression assignment controls itsPitch parameter. Numeric intervals,input-note polyphony andtracking performance are not established bythis passage. Its availability isnot evidence forMG-300 MKII.
+- **Reverse Delay** inDLY,withtime,mix,subdivision,feedback andPre/Post controls. It isreverse-delay processing,not a tracking synth,independent looper voice orproof ofpreset spillover. The remaining OCR-damaged effect headings are not reconstructed as a complete named census.
+- Preset footswitches step sequentially,with**1A→1B→1C** examples;GROUP MODULE buttons step banks while preserving theletter,for example1A→2A. Neither address example establishes total capacity orfactory/user filling.
+- HoldingEDIT changes betweenPreset Name andPedalboard views. MASTER isoutput level inpreset mode butalso accessesparameter pages inedit mode;do not assume every turn always changes finalvolume. Tuner entry usesboth footswitches;outputmute coverage remains unverified.
+
+### Original MG-300 — additional dated used-title hardware offer
+
+[Exact Shopee item238337682/41252521244](https://shopee.co.id/Efek-Gitar-Effect-Guitar-Nux-MG300-Seken-Second-Full-Set-Mulus-Like-New-i.238337682.41252521244),seller **Kain Bintik Bandung,Kab.Bandung**: **Rp1.350.000,Habis**. Search snapshot wasfour months old;direct reopenedbody one month old,with**25Sep** delivery text. Title explicitly saysSeken/Second/FullSet/Mulus/LikeNew,butoriginal-versus-MKII/regionalrevision,condition,adapter/bundle contents,firmware,warranty,shipping/tax/voucher andcheckout remain unverified. Eight listing photos were not visually inspected. This is a historical used-title asking price,not a completed sale,currentstock,verifiedoriginal-hardware price ormarket lower bound. Late-delivery compensation isnot deducted. Older unresolvedLikeNew listing retained.
+
+Currentfirmware/library equivalence,exactpresetcapacity,fullcategorycensus,pedal toe behavior andother retainedgaps remain open. No local download,software/device operation orownership assertion.
 
 ## MG-400
 

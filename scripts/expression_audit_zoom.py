@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(melofty): qualify distributor instrument examples and source conflicts'
+        message='research(nux): qualify original MG-300 creative effects and IR source format'
     print(git('commit','-m',message))
