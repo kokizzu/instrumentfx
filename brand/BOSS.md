@@ -4818,7 +4818,7 @@ Summary reconciled **2026-11-04** with the retained dated findings below. Earlie
 | Processing / category choices | **Six simultaneous internal effects**,112-type headline: FX1/FX2, MOD1/MOD2, DLY, REV; three external loops are additional hardware paths. Saved guide census:31 top-level FX,12 MOD,11 DLY,8 REV; nested selectors yield76 FX +16 MOD +11 DLY +8 REV +1 NS=112 under the explicit arithmetic inference below. Not112 independent or concurrent algorithms. [MS3-P] |
 | Factory / user / total memory | **200 writable locations**. Original patch list contains100 named factory sounds and100 initialized templates; these are not additional protected preset banks. Full bank ranges and derivation remain below. [MS3-P] |
 | Bass capability | Manufacturer explicitly supports guitar/bass effects. [MS3-P] |
-| Synth / acoustic | Acoustic-guitar simulator documented; synthesis not established. [MS3-G] |
+| Synth / acoustic | AC.GUITAR SIMULATOR,SITAR SIM,DEFRETTER;Overtone harmonics,not established dedicated synthesis. Guitar/bass Pitch Shifter±24semitones;MONO mode single-note. Harmonist,Pedal Bend,Sound Hold andFeedbacker have single-note restrictions;S-Bend/Octave chord support unverified. Slicer,Warp,Ring Mod distinct. [Exact creative scope](#ms-3--creative-algorithms-and-tracking-boundaries). |
 | Audio / control I/O | Quarter-inch input, three send/return pairs, L/MONO+R outputs; TRS CTL OUT and two EXP/CTL inputs; USB-B, MIDI OUT, DC IN. **No dedicated headphone socket** in the complete inventory; main outputs are not certified headphone amplifiers. [MS3-P] |
 | Power / battery / USB | **280mA unit draw**. Exact-model support specifies PSA-100S2/PSA-100S adapters; voltage/polarity remain source-unverified here, not inferred from sibling units. Battery/USB-powered operation unverified. [MS3-P] [MS3-S] |
 | IR / NAM / captures | Loading support unverified. |
@@ -4941,6 +4941,16 @@ Checked **2026-11-04**, [manufacturer Parameter Guide eng03, ©2017, printedpp25
 Checked **2026-11-06**, manufacturer [Application Guide eng01,©2017,printed10](https://static.roland.com/assets/media/pdf/MS-3_Application_Guide_eng01_W.pdf). Its external-wah example says adding an ASSIGN for simultaneous multiple-parameter control requires **PREFERENCE EXP1=PATCH**. This limits what the example establishes alongside the separately documented SYSTEM/FUNC=FV assignment;do not promise a shared global FV function plus arbitrary per-patch EXP1 targets. The same guide’s CURRENT NUMBER example,printed9,explicitly says SYSTEM operates only its single function. It doesnot prove immunity from every other controller source targeting FV.
 
 The [Parameter Guide eng03,printed3,28,32](https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng03_W.pdf) separately documents consecutive patch selection with **knob1**,onboard bank-pair/number selection,and **external CTL IN PATCH+/PATCH−** functions. External switch functions are not proof of onboard sequential footswitches. Global FV placement/range,bypass,tails andother-source assignment precedence remain unresolved;position hold retains its separate matching-FUNCTION condition. No device orpedal test,setting change ordownload.
+
+### MS-3 — creative algorithms and tracking boundaries
+
+Checked **2026-11-06**, [manufacturer Parameter Guide eng03](https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng03_W.pdf),©2017,printed6–7,10–14,18–19. Revision isnot a firmware number;installed/current-firmware equivalence untested.
+
+Guitar/bass **Pitch Shifter±24semitones** offers FAST/MEDIUM/SLOW andsingle-note MONO modes;other modes’ chord support remains unverified. Generated voices andstereo channels arenot input-note polyphony. Harmonist,Pedal Bend/Bass Pedal Bend,Sound Hold andFeedbacker specify single-note restrictions. S-Bend/Bass S-Bend offer−3/−2/−1/+1/+2/+3/+4octaves;rise/fall0–100 are parameter units,not milliseconds. Octave/Bass Octave chord handling isunverified.
+
+**AC.GUITAR SIMULATOR,SITAR SIM andDEFRETTER** provide distinct instrument processing. Overtone adds harmonics;dedicated synth remains unverified. Slicer has20patterns andpicking-trigger sensitivity;Warp,Slow Gear andRing Mod are separate special processing. Ring Mod’s INTELLIGENT oscillator follows input pitch andrequires single notes;NORMAL isdistinct. These share existing FX/MOD selectors,not extra simultaneous blocks.
+
+A following mono effect orexternal loop removes documented stereo effects. No tracking quality,latency,hardware operation ordownload verified. Existing expression/no-headphone/footprint qualifications andindependent queues remain unchanged.
 
 
 ## Pocket GT
