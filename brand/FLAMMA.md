@@ -29,6 +29,22 @@ The [official multi-effects collection](https://www.flamma.shop/collections/mult
 
 The official [multi-effects collection](https://www.flamma.shop/collections/multi-effects) and [manufacturer catalogue](https://flammainnovation.com/shop.html?ancestors=0%2C1256) identify **FX150b,FX200b,FG200,FB200,FX50,TONEGO** and additional FX-series handheld processors. These are **discovery leads**,not completed records or claims of current Indonesian availability. Search exact Shopee hardware and read each matching official manual before admission. Battery versions have distinct power/mass and may need separate records;finish/color options alone do not necessarily add hardware models. FV01 is not restored by appearing in the same catalogue.
 
+### FX200b — battery-variant partial evidence
+
+<a id="fx200b--battery-variant-partial-evidence"></a>
+
+Checked **2026-11-05**. **Discovery lead outside active counts**,not the standardFX200 record andnot a complete admission audit.
+
+| Field | Exact-variant evidence and limitation |
+|---|---|
+| Identity / battery | [Manufacturer FX200b page](https://www.flamma.shop/en-au/products/%F0%9F%8E%B8flamma-fx200b-guitar-multi-effects-battery-powered) explicitly names a **3000mAh rechargeable battery** in its title;body instead prints3000mA. Capacity wording is retained;runtime,charging time andUSB charging remain unverified. |
+| Display / controls | Same page: **5-inch LCD touchscreen,four footswitches**;shared main screen,not individual footswitch displays. Knob/button/toe census andexternal expression need exact-variant manual inspection. |
+| Processing / memory | Advertised **10 modules,160 effect types,200 editable slots**,58 preamps,30 cabinets and50 third-party IR locations. Published menus/storage claims,not complete named census,factory occupancy orconcurrency certification. |
+| Practice / software | **52-second looper;80 drum variations;10 metronome styles**. USB recording andcomputer editor forpresets/updates are named;platform minima,USB channels andcurrent firmware remain unverified. No NAM/capture/synth support inferred. |
+| Indonesia retail ask | [Nafiri,exactFX200B listing](https://nafiriguitar.com/id/products/flamma-fx200b-multi-effects-guitar): **Rp5,565,000**,last-month page cache,explicit **Habis**. Non-Shopee lead;condition,selected variation,bundle/adapter,warranty,voucher,shipping/tax andcheckout unverified. Not current stock orcompleted sale. |
+
+Manufacturer-authored **FX200/FX200B Quick Guide,EN_V02_2025.07.11** is indexed at [Thomann](https://images.static-thomann.de/pics/atg/atgdata/document/manual/551272_fx200_551272_fx200b_579552_qsg_en_v02_2025.pdf). Its full body was not inspected here;do not borrow standardFX200 mass,power orports. Remaining:full exact-variant manual,power/charging,completeI/O,expression,synth/acoustic,editorOS,per-category choices andqualified Shopee hardware. No downloads ordevice operation.
+
 ## Consolidation provenance
 
 Existing FX100 blob `0a366c17163ad26d646d48bc4a2b174c55a4e802` and FX200 blob `bb326bf057dcb3d0da29d3bd9c70e4579ba784a0` supplied all preserved model fields,source URLs,prices and qualifications above. Stale next-batch instructions are replaced by root research-state.json,not treated as technical facts. FX150 is one new model;the two consolidations add none. Shared legacy comparison links still require retirement validation;old sources were not deleted by this commit.

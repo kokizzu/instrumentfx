@@ -20,7 +20,7 @@ if __name__ == '__main__':
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    allowed = {'brand/DONNER.md','brand/AUDOTA.md','brand/DARKGLASS.md','brand/KEMPER.md','brand/SORAN.md','brand/SONICAKE.md','brand/DK.md','brand/VING.md','brand/M-VAVE.md','brand/HOTONE.md','brand/TECH21.md','brand/MORNINGSTAR.md','brand/HARLEY-BENTON.md','brand/CUVAVE.md','brand/EVENTIDE.md','brand/HEADRUSH.md','brand/FENDER.md','brand/MELOFTY.md','brand/NEURAL-DSP.md','brand/TC-ELECTRONIC.md','scripts/brand_sort.py','CREATIVE-EFFECTS.md','brand/MOOER.md','brand/BOSS.md','brand/FRACTAL-AUDIO.md','brand/LINE6.md','FOOTSWITCH-DISPLAYS.md','brand/VALETON.md','brand/NUX.md','brand/IK-MULTIMEDIA.md','brand/ZOOM.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_zoom.py','Makefile'}
+    allowed = {'brand/FLAMMA.md','brand/DONNER.md','brand/AUDOTA.md','brand/DARKGLASS.md','brand/KEMPER.md','brand/SORAN.md','brand/SONICAKE.md','brand/DK.md','brand/VING.md','brand/M-VAVE.md','brand/HOTONE.md','brand/TECH21.md','brand/MORNINGSTAR.md','brand/HARLEY-BENTON.md','brand/CUVAVE.md','brand/EVENTIDE.md','brand/HEADRUSH.md','brand/FENDER.md','brand/MELOFTY.md','brand/NEURAL-DSP.md','brand/TC-ELECTRONIC.md','scripts/brand_sort.py','CREATIVE-EFFECTS.md','brand/MOOER.md','brand/BOSS.md','brand/FRACTAL-AUDIO.md','brand/LINE6.md','FOOTSWITCH-DISPLAYS.md','brand/VALETON.md','brand/NUX.md','brand/IK-MULTIMEDIA.md','brand/ZOOM.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_zoom.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs(fractal): avoid duplicate FM3 control-scope projection'
+        message='research(flamma): qualify FX200b battery variant and Indonesian retail lead'
     print(git('commit','-m',message))

@@ -169239,5 +169239,41 @@
     ],
     "next": "Move to other requested individual-display models and remaining catalogue evidence; preserve independent general and expression queues",
     "inventory_change": 0
+  },
+  "flamma_fx200b_partial_variant_20261105": {
+    "model": "Flamma FX200b",
+    "status": "partial discovery lead; outside active inventory",
+    "checked": "2026-11-05",
+    "canonical": "brand/FLAMMA.md#fx200b--battery-variant-partial-evidence",
+    "sources": [
+      "https://www.flamma.shop/en-au/products/%F0%9F%8E%B8flamma-fx200b-guitar-multi-effects-battery-powered",
+      "https://nafiriguitar.com/id/products/flamma-fx200b-multi-effects-guitar",
+      "https://images.static-thomann.de/pics/atg/atgdata/document/manual/551272_fx200_551272_fx200b_579552_qsg_en_v02_2025.pdf"
+    ],
+    "retail": {
+      "seller": "Nafiri",
+      "idr": 5565000,
+      "stock": "Habis",
+      "cache": "last month",
+      "marketplace": "not Shopee",
+      "condition": "unverified"
+    },
+    "manufacturer": {
+      "battery_title_mAh": 3000,
+      "screen_inches": 5,
+      "footswitches": 4,
+      "modules": 10,
+      "effects_headline": 160,
+      "editable_slots": 200
+    },
+    "remaining": [
+      "Full exact-variant manual inspection",
+      "Power charging runtime andmass",
+      "CompleteI/O expression toe knobs/buttons",
+      "Synth/acoustic andcurrent category census",
+      "Qualified Shopee item"
+    ],
+    "next": "Finish exact FX200b manual andvariant power conflict before considering admission; preserve individual-display,expression and GP-200JR -> Prime -> GE300 queues",
+    "inventory_change": 0
   }
 }
