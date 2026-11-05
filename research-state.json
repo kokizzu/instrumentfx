@@ -174394,5 +174394,54 @@
     "active_inventory_unchanged": 402,
     "additional_creative_records": 95,
     "next": "Return to individual-footdisplay/Shopee priority;retain GT-Pro,expression-volume andGP200JR→Prime→GE300 independentqueues."
+  },
+  "gp5_navigation_usb_market_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/VALETON.md#gp-5--tuner-entry-usb-mix-levels-and-secondhand-shop-lead",
+    "source": "https://www.hotone.jp/manuals/valeton/GP-5.pdf",
+    "revision": "Firmware1.0.3;printed8–14,19,40;notcurrentequivalence",
+    "findings": [
+      "Single-switchbank/allpatch navigation",
+      "Tunerpressbypass versusholdmute",
+      "SeparateREC/BTREC/Monitor−20…+20dB",
+      "Mobile-onlyeditingstatementversusregionaldesktopclaim",
+      "GenericexternalEXPwarningdoesnotestablishanalogEXP"
+    ],
+    "offers": [
+      {
+        "shop": "145006307",
+        "item": "47413620739",
+        "seller": "THE-HOK MUSIC",
+        "region": "KotaJambi",
+        "ask_idr": 1355000,
+        "access": "Two-monthshopcache;exactlinkediteminaccessible",
+        "condition": "Shopsecondhandbusinessdoesnotproveitemcondition",
+        "variant": "Originalshoplinkdisplay_model_id277765658145;selectionunverified"
+      },
+      {
+        "shop": "1149776042",
+        "item": "40252340830",
+        "seller": "BANGBONGMUSICBEKASI",
+        "region": "KabBekasi",
+        "ask_idr": 1585000,
+        "stock": "Habis",
+        "access": "Lastweeksearch,lastmonthdirect",
+        "condition": "unverified",
+        "warranty": "Titleclaimonly"
+      }
+    ],
+    "deferred_priority_checks": {
+      "lcd_shopee": "AXOMnonewqualifiedoffer;StadiumtwoexistingROCKPIZZoffersunchanged",
+      "fender": "GuideHunsupportedPDFcontenttype;currentcensusremainsunknown",
+      "gtpro": "OtherUSBmodecounts/globalFV/13vs15queriesyieldednoresolvingevidence;cursorretained"
+    },
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Displaydiagonal/touch",
+      "Currentdesktopeditbehavior/controllerfirmware",
+      "Qualifiedcurrentused/newhardware",
+      "RecordedpathVOLcoverage"
+    ],
+    "next": "Resume requested individual-footdisplay technical/marketgaps;preserve GT-Pro,expression-volume andGP200JR→Prime→GE300 queues."
   }
 }

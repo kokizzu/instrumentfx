@@ -848,6 +848,25 @@ Checked **2026-11-03**, [manufacturer-authored regional manual for firmware1.0.3
 
 This narrows the earlier unknown acoustic-simulation field for the documented factory library. Dedicated synthesis,current firmware equivalence andqualified current used/new hardware stock remain unresolved. No files loaded,converted ordownloaded andno device test performed.
 
+### GP-5 — tuner entry, USB mix levels and secondhand-shop lead
+
+Checked **2026-11-05**, manufacturer-authored [Japanese firmware1.0.3 manual](https://www.hotone.jp/manuals/valeton/GP-5.pdf), printed8–14,19,40. Later firmware equivalence remains unverified.
+
+| Field | Exact-model evidence / limitation |
+|---|---|
+| Controls / sequential navigation | **0–99** advances all100 patches; **0–9** cycles within the current ten-patch bank. Songlist A–Z follows its arranged order. These share one switch, not separate previous/next foot controls. |
+| Live / tuner entry matters | Press in Tuner mode enters bypass tuning, selecting analog or DSP bypass; long-hold from other modes enters **muted** tuning. Reference435–445Hz, default440Hz. Earlier analog-mono and USB-bypass restrictions remain. |
+| USB / independent mix controls | **REC, BT REC and Monitor** each span **−20…+20dB**, default0dB, for recording, Bluetooth recording and USB playback respectively. Global settings persist across patch changes; this does not establish VOL-knob control of every recording path. |
+| Software / revision conflict | Printed11 says patch editing is mobile-app-only; printed14 limits desktop to file management/update. This strengthens the original global-page wording but conflicts with the regional desktop editor claim retained above; current behavior unresolved. |
+| Expression / generic troubleshooting wording | Printed40 mentions external expression, despite the complete connector census lacking EXP. It does not identify a connection/transport or overturn the direct-analog exclusion. |
+
+#### Exact hardware-market evidence
+
+- [THE-HOK MUSIC shop](https://shopee.co.id/eko_juliansyah39), **two-month cache**, shows GP-5 **Rp1.355.000** and describes secondhand-equipment trading in Kota Jambi. Its GP-5 link resolves to **shop145006307/item47413620739**, [exact item](https://shopee.co.id/Valeton-GP-5-i.145006307.47413620739), with a display-model selection parameter in the original link. Item reopening failed. **Shop business type is not item-condition proof**; selected variation and exact new/used condition remain unverified. This is a discovery ask,not a verified used-price floor.
+- [BANGBONGMUSICBEKASI,1149776042/40252340830](https://shopee.co.id/Valeton-gp-5-Garansi-resmi-Indonesia-i.1149776042.40252340830), Kab.Bekasi: **Rp1.585.000,Habis**. Last-week search and last-month direct cache agree on ask/sold-out status. Title claims Indonesian official warranty; terms/authorization remain unverified. Relative delivery is stale;late-arrival compensation is not deducted.
+
+For both: working state,condition grade,variant,bundle/adapter,regional warranty,shipping/tax,vouchers andcheckout availability/total remain unknown. Older prices anddates remain unchanged. No download,installation,checkout ordevice operation.
+
 ## GP-50
 
 Current comparison summary, reconciled2026-10-28 from the exact-model sources retained below. Firmware1.0.5 technical observations are not silently promoted to1.1.0. All original bodies, prices, URLs and historical unknowns remain below this selected summary.
