@@ -134,3 +134,5 @@ Incoming expression-volume sources from origin/main87c7d38 are preserved in the 
 [Flamma TONE GO](brand/FLAMMA.md#tone-go--partial-no-treadle-discovery) is a partial no-treadle, speaker-equipped guitar multi-effects lead outside active counts; NAM A2 conversion claims, incomplete expression inventory and unverified Indonesian availability remain qualified.
 
 [Harley Benton DNAfx GiT Advanced](brand/HARLEY-BENTON.md#dnafx-git-advanced--partial-discovery-lead) is a partial discovery outside active counts; exact-model manual/product body and USB conflicts remain unresolved, and qualified Shopee Indonesia hardware is unverified.
+
+[JET Pedals Unity6](brand/JET-PEDALS.md#unity6--partial-controller-discovery) is a partial controller/analog-loop-switcher discovery outside active audio counts;per-switch strip technology/count andqualified Shopee Indonesia hardware remain unverified.

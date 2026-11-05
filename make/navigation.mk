@@ -225,3 +225,9 @@ brand-sort-plan-harley-benton:
 	python3 scripts/brand_sort.py plan brand/HARLEY-BENTON.md
 brand-sort-apply-harley-benton:
 	python3 scripts/brand_sort.py apply brand/HARLEY-BENTON.md
+
+.PHONY: brand-sort-plan-jet-pedals brand-sort-apply-jet-pedals
+brand-sort-plan-jet-pedals:
+	python3 scripts/brand_sort.py plan brand/JET-PEDALS.md
+brand-sort-apply-jet-pedals:
+	python3 scripts/brand_sort.py apply brand/JET-PEDALS.md

@@ -26068,6 +26068,22 @@
         "finding": "Tuner reference calibration versus note range clarified;looper switch/playback-level andsystem-menu scope recorded. Neither proves globalEXP/output coverage.",
         "remaining": "Loopretention/presetchangecontinuity,EXP/tunerplaybackcoverage,CABSIMTRHUoptions andOTGOUTbounds unverified;no deviceoperations."
       }
+    },
+    {
+      "model": "JET Pedals Unity6",
+      "checked_date": "2026-11-06",
+      "status": "Partial controller/analogloop discovery;outsideactiveaudioinventory",
+      "canonical": "brand/JET-PEDALS.md#unity6--partial-controller-discovery",
+      "sources": [
+        "https://jetpedals.com/collections/midi-control/products/unity6",
+        "https://docs.jetpedals.com/books/unity6/page/description-features",
+        "https://docs.jetpedals.com/books/unity6/page/dimensions-power-requirements",
+        "https://jetpedals.com/pages/unity6-firmware-updates"
+      ],
+      "finding": "Per-switchstrips,technology/countunknown;sharedtouchscreen;6analogloops;bank-savedexpressionvolume. Firmware/date/physicalpowerqualifiedincanonical.",
+      "remaining": "Exactstripcount/technology,completecontrols/connectors,mass,presetfilling,globalvolume/outputcoverage andqualifiedShopeehardware.",
+      "active_inventory_unchanged": 402,
+      "next": "Secondarycontrollerqueue;resumeindividualLCDaudioprocessor/Shopeepriority,independentGT-Pro/general/expressionqueuespreserved."
     }
   ],
   "inventory_by_brand": {
@@ -149583,6 +149599,7 @@
     "brand/FISHMAN.md",
     "brand/GIGRIG.md",
     "brand/HOLOGRAM.md",
+    "brand/JET-PEDALS.md",
     "brand/MELOFTY.md",
     "brand/MORNINGSTAR.md",
     "brand/POLY-EFFECTS.md",
