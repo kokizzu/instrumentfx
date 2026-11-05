@@ -110,10 +110,11 @@ Original finding commit: 2b637fb61c243776b1a0a9d192ce17848295eeac; correction: d
 | Dimensions / weight / size | **405 × 244 × 78 mm W×D×H**, maximum pedal-up height **106 mm**, **3.3 kg**; **large**. Pickup, PSU and cables add installed space/weight |
 | Screen | **240 × 64-dot graphic LCD**. Diagonal **?**; monochrome/color **? pending explicit or visual evidence**; touch **?**. Pixel resolution is not screen size |
 | Sound architecture | Up to **four source layers**: two PCM tones, one modeled tone, normal pickup. This is not four freely assignable effect blocks |
+| Processing / creative algorithms | [Named original-manual subset](#gr-55--creative-processing-and-note-handling-boundaries):MFX Pitch Shifter,Super Filter,Step Phaser,Ring Modulator,Lofi Compress. MFX choices are alternatives inone processor,not five additional simultaneous slots. |
 | Effect architecture / choices | Published categories: **MFX 20, preamp 42, MOD 14, delay 7, reverb 5, chorus 4, EQ 1**. Two selectable fixed structures andper-tone connection choices are documented;[routing boundaries below](#gr-55--control-census-routing-and-modeled-instrument-inventory). Four source layers remain distinct from effect blocks;not unrestricted duplicate blocks. |
 | Sound choices | **910 PCM tones**; instrument modeling **23 guitar-mode / 17 bass-mode** types. These are not additional effect algorithms |
 | Presets / user memory | Base published spec: guitar **270 factory + 297 user**; bass **90 factory + 297 user**. **Firmware 1.50 adds 90 guitar and 18 bass presets**: updated factory totals are **360 guitar / 108 bass**. Do not present launch-page counts as the only firmware counts, or add alternative mode banks as simultaneous capacity v1.50 release page rechecked2026-10-17 corroborates90 guitar/18 bass additions; MIDI program changes may select different patches after updating. No actual unit update performed. |
-| Synth | **Yes**, two PCM synth sources plus modeled instruments |
+| Synth | Two PCM sources plus modeled instruments;[ANALOG GR explicitly uses independent waves per string](#gr-55--creative-processing-and-note-handling-boundaries). Other modeled synths retain algorithm-specific qualifications. |
 | Acoustic simulation algorithms | [Five guitar-mode acoustic modeling choices andsix modeled synth types](#gr-55--control-census-routing-and-modeled-instrument-inventory) documented separately from PCM samples. Bass-mode acoustic availability isnot inferred. |
 | Inputs / outputs | **13-pin GK IN**; ¼-inch GUITAR OUT; 2 × ¼-inch main outputs L/MONO,R; ¼-inch stereo headphones; 5-pin DIN MIDI IN/OUT; USB COMPUTER; USB MEMORY; DC IN. No ordinary ¼-inch guitar input, microphone input, aux input or FX loop in published list |
 | Required pickup | Compatible divided-pickup/GK system; owner used GK-3 and 13-pin cable. Do not substitute GM-800 Serial GK cabling |
@@ -123,6 +124,7 @@ Original finding commit: 2b637fb61c243776b1a0a9d192ce17848295eeac; correction: d
 | Official configuration software | **GR-55 Librarian Windows/macOS** downloads documented. Full tone-parameter editing was **not verified** in this pass; do not promote the download listing alone to full-editor support. Drivers and updater are separate |
 | Other editor platforms | Third-party editor availability/platforms **not verified in this pass**; do not claim unsupported Linux/mobile compatibility |
 | USB audio / other relevant features | USB MIDI and USB audio documented; **44.1 kHz** device sampling. USB memory player accepts WAV/AIFF; **20-second looper** in manufacturer Training Guide p9;[historical revision scope](#gr-55--control-census-routing-and-modeled-instrument-inventory) |
+| Looper / live | **20seconds total recording**,manufacturer Training Guide p9;see[original-source qualification](#gr-55--control-census-routing-and-modeled-instrument-inventory). This is audio looping,not PCM voice count orindependent tracks. |
 | Used IDR | **Rp7.500.000**, seller-labelled SECOND GR-55 **with GK3 pickup**: [HUTAURUK MUSIC exact offer](https://shopee.co.id/ROLAND-GR-55-DENGAN-PICK-UP-GK3-SECOND-ORIGINAL-i.190993829.22101819979),shop190993829/item22101819979,Kota Bekasi,indexed2026-10-17;stale21July delivery. Detailed condition,functionality,13-pin cable/adapter inclusion,warranty region,delivered charges,vouchers and current checkout stock unverified. Historical used-bundle ask,not a completed sale or bare-processor price. |
 | New IDR | **?** — no verifiable current public offer obtained in this pass; owner purchase evidence is not a present market quote |
 
@@ -210,6 +212,21 @@ The [manufacturer Training Guide,PDFpp9–11](https://cdn.roland.com/assets/medi
 | SYNTH —6 | ANALOG GR,WAVE SYNTH,FILTER BASS,CRYSTAL,ORGAN,BRASS. Separate fromthe two PCM sources andtheir sampled instrument tones;names do not establish input-note polyphony. |
 
 The Training Guide’s launch-era memory/bundle statements do not replace firmware1.50 totals orprove included pickups in every offer. Current library changes,polarity,display physical specifications,tracking quality andqualifiedcurrentstock remain unresolved. Existing dated IDR offers retained;fresh Shopee query returned the same HUTAURUK item,not a newoffer orcheckoutstock confirmation. No device operation.
+
+### GR-55 — creative processing and note-handling boundaries
+
+<a id="gr-55--creative-processing-and-note-handling-boundaries"></a>
+
+Checked **2026-11-05** in manufacturer-authored English owner-manual reproductions. Exact GR-55 title, chapter names,printed pagination and matching original tables identify the document; full [manufacturer PDF](https://static.roland.com/assets/media/pdf/GR-55_OM.pdf) exceeds reader limits. Host FAQs/generated advice excluded; firmware applicability unstated.
+
+| Capability | Documented distinction |
+|---|---|
+| Synth | [p31](https://manualsdump.com/en/manuals/roland-gr-55/241230/31): ANALOG GR is polyphonic, with independent pitch-shiftable sawtooth generation for each of six strings. WAVE SYNTH directly processes GK string signals. Neither establishes PCM voice limits or identical tracking behavior across all synth models. |
+| Audio pitch | [p52](https://www.manualslib.com/manual/933289/Roland-Gr-55.html?page=52): MFX 20 PITCH SHIFTER is stereo, coarse −24…+12 semitones, fine −100…+100 cents in 2-cent steps. Stereo describes channels, not proven chord handling. Separate delay/feedback parameters exist. |
+| Special | [p46](https://www.manualslib.com/manual/933289/Roland-Gr-55.html?page=46): SUPER FILTER and STEP PHASER;[p47](https://www.manualslib.com/manual/933289/Roland-Gr-55.html?page=47): RING MODULATOR applies amplitude modulation with input-level-sensitive frequency;[p52](https://www.manualslib.com/manual/933289/Roland-Gr-55.html?page=52): LOFI COMPRESS intentionally degrades audio. These are processing choices, not additional tracking synthesizers. |
+| Concurrency | [p38](https://manualsdump.com/en/manuals/roland-gr-55/241230/38) explicitly enumerates seven processors: AMP, MFX, MOD, CHORUS, DELAY, REVERB, EQ. This is fixed architecture; MFX alternatives cannot all occupy it together. Retain the two Structure routing choices. |
+
+The acoustic-model inventory above remains separate from PCM instrument samples. Exact note handling of audio pitch, remaining MOD/MFX names, current firmware changes, latency and tracking quality remain unresolved; this is not a complete fresh catalogue audit. No software/manual downloaded locally and no device tested.
 
 ## VT-4
 

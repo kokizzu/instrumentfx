@@ -173983,5 +173983,31 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Resume requested separate-footdisplay andqualifiedShopee priority; preserve GT-Pro andindependent expression/general queues."
+  },
+  "gr55_creative_processing_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/ROLAND.md#gr-55--creative-processing-and-note-handling-boundaries",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GR-55_OM.pdf",
+      "https://manualsdump.com/en/manuals/roland-gr-55/241230/31",
+      "https://manualsdump.com/en/manuals/roland-gr-55/241230/38",
+      "https://www.manualslib.com/manual/933289/Roland-Gr-55.html?page=46",
+      "https://www.manualslib.com/manual/933289/Roland-Gr-55.html?page=47",
+      "https://www.manualslib.com/manual/933289/Roland-Gr-55.html?page=52"
+    ],
+    "source_scope": "Original manufacturer English document body reproduced bymirrors;exacttitle,pages andtables corroborated;no generated FAQ;no firmware version orvisual claim",
+    "resolved": [
+      "Per-string ANALOG GR polyphony distinct fromPCM andaudio pitch",
+      "Named MFX creative subset andparameter ranges",
+      "Seven fixed processors distinct fromchoices",
+      "Looper projected into live/practice field"
+    ],
+    "remaining": [
+      "Audio-pitch chord handling",
+      "RemainingMOD/MFX names",
+      "Currentfirmwarechanges,latency,trackingquality andqualifiedstock"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue individual-footdisplay andShopee priority;preserve independent GT-Pro,expression andGP200JR→Prime→GE300 queues."
   }
 }
