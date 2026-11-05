@@ -510,3 +510,13 @@ Checked **2026-11-05**, [manufacturer English V1.7.4 manual,2026-08-31,printed33
 | Mobile editor | Manual lists **iOS11+;Android5.0+**. These are historical documented requirements; the newer developer listing’s iOS/iPadOS15.5+ remains the applicable listed minimum for that version. Android current minimum is not independently confirmed. |
 
 No installer, driver, manual or firmware downloaded locally; no connection or device test. Mini-display technology/count confirmation, exact algorithms and qualified Shopee hardware remain unresolved. Partial lead stays outside active counts.
+
+### AXOM MAX — screen lock and power-button timing scope
+
+Checked **2026-11-05**, [manufacturer English User Manual V1.7.4,2026-08-31,printedpp5,57](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Melofty/EN/MEL_AXOM_MAX_Manual_EN.pdf).
+
+- **Short power-button press after startup locks/unlocks the screen.** This is not documented here as muting audio,bypassing effects,locking expression ordisabling all footswitches. The passage doesnot identify lock coverage forindividual mini displays orparameter changes fromexternal controllers.
+- Panel chapter specifies **1.5s long press for power on/off**. The troubleshooting chapter instead instructs **more than2s to power on**. Preserve these as different documented instructions;they do not establish two hardware revisions,a firmware change ormeasured switch thresholds. Startup/shutdown duration andretention ofunsaved edits remain unverified.
+- The power/lock button remains separate fromthe four named panel buttons andnine footswitches. It adds no extra display anddoesnot resolve LCD/OLED technology,individual-screen dimensions ormanufacturer physical screen count.
+
+No button pressed,device operated orfile downloaded. Importer-backed nine switch mini displays andthe separate pedal readout retain their existing evidence grades. This partial lead stays outside402 active records;current Shopee Indonesia hardware,algorithm census andglobal external-expression coverage remain open.
