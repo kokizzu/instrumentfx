@@ -171077,5 +171077,28 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue exact-model hardware/specification gaps after source-blocked footdisplay priorities;preserve independent GP200JR→Prime→GE300,GT-Pro,expression andconsolidation queues."
+  },
+  "gp180_software_pairing_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/VALETON.md#gp-180--firmware-software-pairing-and-mobile-host-scope",
+    "sources": [
+      "https://www.valeton.net/wpfd_file/gp-180-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/",
+      "https://apps.apple.com/us/app/valeton-suite/id6739420888"
+    ],
+    "revision": "Firmware listing created/updated2026-08-25;Apple2.1.0 August28 entry",
+    "finding": "Known compatible firmware/software pairing and mobile-platform requirements;not installed testing ordesktop Mac certification.",
+    "manual_recovery_lead": {
+      "url": "https://www.forte.hu/uploads/2578_1787706377421.gp-180online-manualenfirmware-v1-1-1.pdf",
+      "access": "Inaccessible;original body not authenticated",
+      "not_adopted": "Secondary20-native-slot claim"
+    },
+    "remaining": [
+      "Original V1.1.1 manual/native capacity/concurrency",
+      "Current desktop/Android host minima",
+      "Direct analog global-volume coverage",
+      "Condition-qualified current offers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue other accessible exact-model gaps;defer GP180 V1.1.1 body until retrievable. Preserve footdisplay priorities,GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues."
   }
 }

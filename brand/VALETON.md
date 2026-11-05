@@ -1665,6 +1665,7 @@ Current comparison uses the dated table below plus the explicitly qualified foll
 | Software / mode qualification | [V1.0.0 mode/channel map and power options](#gp-180--usb-channel-modes-and-power-direction):historical manufacturer documentation,not current-firmware ordevice-tested behavior. |
 | IDR / separate sold-out hardware | [Hanip Hobbies,57337068/56620028439](#gp-180--sold-out-tasikmalaya-hardware-offer),**Rp3.000.000**,yesterday index checked2026-11-05;condition unknown,Habis,direct cache miss. Not a used/new floor orlive stock. |
 | Audio / output-source and headset qualification | [V1.0.0 output/headset controls](#gp-180--output-channel-headset-and-global-eq-boundaries) retain exact source wording andUSB exclusions;not universal EXP coverage. |
+| Software / version pairing and Apple host scope | [Manufacturer1.1.1/software2.1.0 pairing and mobile-host qualifications](#gp-180--firmware-software-pairing-and-mobile-host-scope) are now documented separately from generic desktop platforms andnative NAM capacity. |
 <!-- comparison evidence ends -->
 
 Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.
@@ -1767,6 +1768,17 @@ Checked **2026-11-05**, [manufacturer V1.0.0 manual,printedpp20–21,23](https:/
 | Processing / Global EQ scope | Low/high cuts,four parametric bands andLevel0–100(default50);defaultEQOff. **USB audio output is excluded.** Neither the Level control nor global-setting persistence establishes analog EXP assignment orall-source headphone/tail/looper attenuation. |
 
 Current-firmware equivalence andactual routing untested;earlier source conflicts retained. No download,connection ordevice operation.
+
+
+### GP-180 — firmware-software pairing and mobile host scope
+
+Checked **2026-11-05**. [Valeton’s exact firmware listing](https://www.valeton.net/wpfd_file/gp-180-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/),created/updated **2026-08-25**,explicitly pairs **firmware1.1.1 with computer andmobile software2.1.0**. This is a documented compatible pairing,not an independently established minimum,current installed version orupgrade test. No ZIP opened.
+
+[Hotone’s developer-published Apple history](https://apps.apple.com/us/app/valeton-suite/id6739420888) separately lists **2.0.4,March26**,adding GP-180 support,and **2.1.0,August28**,adding firmware1.1.1 support. Its converted-NAM-A2 loading note remains distinct from the separately verified native-A2-Lite firmware path;neither establishes native file capacity.
+
+The currently listed mobile app requires **iOS/iPadOS14+**. Apple’s Mac compatibility field says **macOS11+ andM1+**,while the page explicitly says **Not verified for macOS**. This is mobile-package availability,not the separate desktop editor’s minimum,native Intel support ortested Mac operation. Android minimum andcurrent desktop OS/CPU matrix remain unresolved.
+
+A [secondary NAMtracker lead](https://namtracker.com/device/valeton-gp-180/) links [a purported V1.1.1 original-manual mirror](https://www.forte.hu/uploads/2578_1787706377421.gp-180online-manualenfirmware-v1-1-1.pdf). It was inaccessible,withno indexed original body recovered. Its20-native-slot claim isnot promoted toverified specifications;earlier native-capacity uncertainty remains. No software,manual orfirmware downloaded orrun.
 
 
 ## GP-200
