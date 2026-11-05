@@ -878,6 +878,7 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Display / brightness and dimming | [Live v1.4 global settings](https://manuals.line6.com/en/helix-stadium/live/global-settings): XL strip brightness **0% is the lowest setting; strips cannot be completely switched off**. Idle dimming affects main screen and strips after the documented input/activity conditions. Brightness and LED-ring settings do not establish OLED pixel color or diagonal. Checked **2026-11-01**; no device test. |
 | Preset down / up | Same [global settings](https://manuals.line6.com/en/helix-stadium/live/global-settings) assigns **FS1/FS7** to Bank, Preset, Snapshot, Song or Marker up/down in Preset/Snapshot/Combo modes; direction can be swapped. Stomp-mode use requires Command Center assignment. This verifies configurable onboard preset stepping, not a dedicated unchangeable pair or global volume. |
 | Dimensions / weight | **498 W × 257 D × 92 H mm; 5.25 kg**. Manufacturer also lists 19.4 W × 10.1 D × 3.6 H inches and 11.5 lb; rounded mixed units retained as published. [Support tips][SX-K] |
+| Processing / named filter and pedal effects | [31 named choices](#stadium-xl--named-filter-wah-and-volume-pan-inventory): Filter15, Wah11, Volume/Pan5. Four filters and all wahs list mono/stereo; Pan/Stereo Width/Stereo Imager are stereo. Model-list appearance1.0 is not installed-firmware proof; filter processing does not establish synth tracking or global volume assignment. |
 | Simultaneous blocks | Manual describes **46 processing positions in Super Serial template**; exact DSP/model limits remain separate. Do not assume46 heavy amps. Agoura amp models and HX-compatible effects; official list row counts: distortion **65**, delay **45**, reverb **25**, modulation **57**, dynamics **19**, EQ **5**, pitch/synth **29**, filter **15**, wah **11**, volume/pan **5**, looper **3**. These include Legacy rows and count each named mono/stereo entry once, not simultaneous blocks. Amp-table audit: **142 distinct name/subcategory entries** after removing one repeated Cali 2C+ row: guitar 24 Agoura + 66 Guitar + 28 Legacy; bass 6 Agoura + 11 Bass + 6 Legacy; 1 mic preamp. Same names across Agoura/Legacy remain separate. **46 cabinets: 38 guitar + 8 bass**; **12 mic choices per cab family**. These are derived table counts, not expanded channel options. [Model list][SX-ML], [Presets][SX-M], [Blocks][SX-B] |
 | Processing / DSP limits | **48 block locations**,12 each on1A/1B/2A/2B;not guaranteed loaded capacity. [Hardware Dynamic DSP](https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp),checked2026-11-03: Amp/Preamp **4 total,2 per primary path**;Cab **4 total,2 per primary path**,each holds up to2 cab/IR choices;Clone **4 total,2 per primary path**;Poly/high-DSP effects **2 total,1 per primary path**;Looper **1 total**. These ceilings do not guarantee simultaneous combinations. Paths1/2 have independent DSP;1A/1B sharePath1 resources. Stereo effects typically need about twice mono DSP. Existing46-processing-block SuperSerial template figure remains separately documented,not replaced by48 freely serial heavy blocks. Exact accounting for the two-position difference is not explained by these sections. |
 | Factory / user memory | **512 initially empty user locations**, separate protected factory folder; factory-filled count/combined total **?**. Up to122 setlists with1–128 aliases each;aliases do not add independent preset storage. [Presets][SX-M] |
@@ -1193,6 +1194,21 @@ Each preset has **16 Instant sources**,sent automatically on preset recall. Stom
 Switch actions include Press,Release,Hold orToggle;triggers useStrike/Toggle. Selecting Toggle forcommand1 locks command2 toToggle. **Snapshot control is disabled bydefault**;enabled parameter values can change on snapshot recall,butAction andMIDI→Command cannot beassigned. This is command-value storage,not extra snapshots,blocks orphysical screens.
 
 Preset/Snapshot Stomp labels show thetarget number/name;Song labels show command type. Label content doesnot confirm receipt byexternal gear. These capacities do not establish global analog volume assignment. No MIDI sent,device operated orlocal download.
+
+### Stadium XL — named filter, wah and volume-pan inventory
+
+Checked **2026-11-05**, [manufacturer Stadium model list,Filter/Wah/Volume-Pan tables](https://line6.com/helix-stadium-models/?locale=en_US); every row lists initial appearance1.0. This is exact Stadium-family evidence,not inherited HX availability orinstalled-library verification.
+
+| Category | Named choices |
+|---|---|
+| Filter:4 mono/stereo | Mutant Filter; Mystery Filter; Autofilter; Asheville Pattrn |
+| Filter:11 Legacy | Voice Box; V Tron; Q Filter; Seeker; Obi Wah; Tron Up; Tron Down; Throbber; Slow Filter; Spin Cycle; Comet Trails |
+| Wah:11 mono/stereo | UK Wah 846; Teardrop 310; Fassel; Weeper; Chrome; Chrome Custom; Throaty; Vetta Wah; Colorful; Conductor; Teardrop Bass Q |
+| Volume/Pan:2 mono/stereo | Volume; Gain |
+| Volume/Pan:3 stereo | Pan; Stereo Width; Stereo Imager |
+
+Count **31 named choices**,counting each mono/stereo row once. Legacy is the source’s subcategory label,not proof ofstereo support. Filters andwahs process incoming audio;this table doesnot establish synth-note polyphony. Volume-block availability doesnot create every-preset pedal assignments. DSP andexisting routing limits remain;power rating,OLED physical specifications andqualified current stock stay unresolved. No local download ordevice operation.
+
 
 ## HX Effects
 

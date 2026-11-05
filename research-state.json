@@ -168721,5 +168721,24 @@
     ],
     "next": "Continue other accessible requested display-model gaps; preserve expression and GP-200JR → Prime → original GE300 queues.",
     "inventory_change": 0
+  },
+  "stadium_xl_named_filter_wah_volume_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Line 6 Helix Stadium XL Floor",
+    "source": {
+      "url": "https://line6.com/helix-stadium-models/?locale=en_US",
+      "sections": "Filter, Wah, Volume/Pan",
+      "initial_appearance": "1.0 for all 31 rows; not installed firmware"
+    },
+    "finding": "Named 15 Filter, 11 Wah and 5 Volume/Pan choices; preserved mono/stereo versus Legacy labels and processing-versus-synthesis/global-assignment distinctions.",
+    "canonical": "brand/LINE6.md#stadium-xl--named-filter-wah-and-volume-pan-inventory",
+    "remaining": [
+      "Manufacturer voltage/frequency/power rating",
+      "OLED physical specifications",
+      "Other named category inventories",
+      "Condition-qualified current Indonesian stock"
+    ],
+    "next": "Continue accessible display-priority gaps; preserve independent expression and GP-200JR → Prime → original GE300 queues.",
+    "inventory_change": 0
   }
 }
