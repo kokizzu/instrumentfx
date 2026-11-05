@@ -510,12 +510,13 @@ Historical2026-10-15 summary,retained separately from current comparison fields.
 
 | Field | Preserved evidence / uncertainty |
 |---|---|
-| Expression / controls | No built-in/EXP in complete inventory. **10/3/0**,power separate:TYPE,GAIN,TONE,MOD,TIME,FB,MIX,REVERB,IR CAB,VOLUME;A/B/C. TIME is rotary despite one translatedbuttonlabel. |
+| Expression / knobs / footswitches / buttons | No built-in/EXP in complete inventory. **10/3/0**,power separate:TYPE,GAIN,TONE,MOD,TIME,FB,MIX,REVERB,IR CAB,VOLUME;A/B/C. TIME is rotary despite one translatedbuttonlabel. |
 | Screen / chain | No screen,LEDstatus/tuner,touchNo. **Five fixed stages** preamp→MOD→delay→reverb→IR,tuner separate. Three switchgroups are not three arbitraryeffects. [LIVE grouped controls and IR overwrite limits](#cube-baby-electric--grouped-live-controls-and-ir-overwrite-boundary). |
-| Choices / memory | **9preamps,2MODchorus/phaser,1delay,1reverb,8IR**;ninthIRpositionbypass. OldtranslationcallingpreampIRsnotcabimport. **Three factory-filled overwriteable memories total**,not3+3. |
+| Processing / operating modes and IR position scope | [Indexed manufacturer product text](#cube-baby-electric--indexed-manufacturer-mode-and-ir-position-scope) names PRESET/LIVE/EDIT;9 IR positions mean8 responses plusOff,not9 importable responses. Direct page remains shell-only;revision unverified. |
+| Processing choices / memory | **9preamps,2MODchorus/phaser,1delay,1reverb,8IR**;ninthIRpositionbypass. OldtranslationcallingpreampIRsnotcabimport. **Three factory-filled overwriteable memories total**,not3+3. |
 | Body / battery | Earlierfiledmanual **162×61×23mm,260g,600mAh** versuslaterguide **161×57×17.5mm,260g,780mAh**. Bothcompact;revision/protrusionlinkunresolved. **USB5V supply/operation whilecharging explicit in earliermanual**;2Achargerexample notdraw;6hplay/2hcharge rated. |
-| Sound / I/O | No dedicatedsynth/acousticsimulator in electriclist. Mono6.35TSin/out,separatephone/mobile-recordsockets,USBdatacharge;smalljackwiring/diameters andUSBsubtype?. NoXLR,mic/phantom,loop,physicalMIDI/EXP. |
-| Loading / apps | **Eight replaceable IRs**,CubeSuite **Windows/macOS**presetedit/import. ExactWAVsamplelength/bitdepthnotestablished;processing24/48isnotfileformat. NoNAM/captureworkflow. MobileCubeSuitecompatibilitydoesnotnameCubeBaby;IOS/Androideditingnotconfirmed. Bluetoothbackingisnotwirelessediting. |
+| Synth / acoustic / sound I/O | No dedicatedsynth/acousticsimulator in electriclist. Mono6.35TSin/out,separatephone/mobile-recordsockets,USBdatacharge;smalljackwiring/diameters andUSBsubtype?. NoXLR,mic/phantom,loop,physicalMIDI/EXP. |
+| IR loading / apps | **Eight replaceable IRs**,CubeSuite **Windows/macOS**presetedit/import. ExactWAVsamplelength/bitdepthnotestablished;processing24/48isnotfileformat. NoNAM/captureworkflow. MobileCubeSuitecompatibilitydoesnotnameCubeBaby;IOS/Androideditingnotconfirmed. Bluetoothbackingisnotwirelessediting. |
 | Audio / practice | USBrecord/playback,24-bit48kHzprocessing,analogmobilecable,tuner,live/preset. Channels,looper,drumsnotestablished. |
 
 Retail **Rp560.000** [triple3music52744568/27345068914](https://shopee.co.id/M-Vave-MVAVE-Cuvave-Cube-Baby-Cubebaby-Elektrik-Electric-Multi-Efek-Pedal-Gitar-Rechargeable-Effect-Guitar-Original-i.52744568.27345068914),oldSeptembertext;separate **Rp560.000** [Apregio3012339/28620555901](https://shopee.co.id/M-Vave-MVAVE-Cuvave-Cube-Baby-Cubebaby-elektrik-electric-Multi-Efek-Peda-Gitar-Rechargeable-Effect-guitar-Original-i.3012339.28620555901). **ExplicitusedRp320.000 SOLD OUT** [179810363/28436495648](https://shopee.co.id/EFEK-GITAR-CUVAVE-CUBE-BABY-%28Bekas%29-i.179810363.28436495648),notcurrentlowerbound/completedsale. Mixedversions excluded;condition,revision,cables,warranty,stock,shippingunverified.
@@ -533,6 +534,14 @@ Checked **2026-11-05** in the [Sinco-filed exact-model manual transcription](htt
 In **LIVE**, switch **A** controls the reverb/IR group, **B** the modulation/delay group, and **C** the preamp/tone section. The tutorial bypasses MOD with its knob at noon while retaining delay; delay MIX fully left and REVERB fully left disable their respective effects. These are group switches plus parameter-level bypass controls, not five independently assigned footswitches or proof of preset-change tails. PRESET A/B/C still recall the three stored tones.
 
 IR import through desktop CubeSuite **replaces the original response at the selected location**. The manual warns that the overwritten original cannot be recalled through that operation. It documents no independent protected factory-IR bank or undo command; factory-file reimport/restore recovery remains unverified. Preserve an authorized source copy before replacement. No import, reset, software download or device test performed; AC/Bass behavior is not inferred.
+
+### CUBE BABY electric — indexed manufacturer mode and IR-position scope
+
+Checked **2026-11-05** in indexed original text from the [CUVAVE/M-VAVE exact CUBE BABY product page](https://www.cuvave.com/product?id=cube-baby), crawled three weeks earlier. Direct reopening on both CUVAVE and [M-VAVE](https://www.m-vave.com/product?id=cube-baby) exposed only the site shell; no live technical-page or installed-firmware certification is claimed. This supplements the earlier filed manual, not the AC/Bass records.
+
+The product text explicitly lists **PRESET, LIVE and EDIT** modes and A/B/C switches. Its **“9 slots”** specification immediately qualifies **eight classic IRs plus one Off**: Off is a bypass position, not a ninth stored/importable response. The fixed amp → modulation → delay → reverb → IR chain and desktop **CubeSuite Windows/macOS** listing corroborate the earlier record; they do not establish mobile editing, arbitrary block duplication, MIDI or global expression control.
+
+The page gives approximately **six hours** battery use and **USB 5V/2A charging**. This is charger guidance, not measured device current, battery capacity or resolution of the preserved 600/780mAh and dimensional conflicts. Exact IR file limits, small-port wiring, USB channels, current used stock and hardware revision remain unresolved. No downloads or device operations.
 
 <!-- comparison evidence ends -->
 

@@ -175149,5 +175149,20 @@
     "market": "Exact used Shopee query found no new qualified hardware; unrelated classifieds not adopted",
     "priority_deferral": "Remote-image reader returns references only; no visual panel confirmation claimed",
     "next": "Preserve GP-200JR → Prime → GE300 general checkpoint and continue requested individual displays plus systematic remaining required fields; current GE300 library/factory fill/display/import and qualified offers remain open."
+  },
+  "cube_baby_indexed_product_scope_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/M-VAVE.md#cube-baby-electric--indexed-manufacturer-mode-and-ir-position-scope",
+    "source": "https://www.cuvave.com/product?id=cube-baby",
+    "access": "Indexed original product text,crawled three weeks earlier;direct CUVAVE andM-VAVE openings expose shell only",
+    "revision": "Unstamped product page;hardware/firmware match unverified",
+    "findings": [
+      "PRESET/LIVE/EDIT explicitly named",
+      "Nine IR positions=eight classic responses plusOff;not nine importable responses",
+      "Desktop CubeSuite Windows/macOS;5V/2A charging guidance notactualdraw"
+    ],
+    "heading_audit": "No-heading matches were extraction limitations;existing technical facts preserved andfield headings clarified",
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested separate-footdisplay andremaining required-field/qualifiedShopee research;preserve GP-200JR→Prime→GE300 andGT-Pro independent queues. Battery/dimensions,IRformat,USBchannels andportwiring unresolved."
   }
 }
