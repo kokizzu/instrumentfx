@@ -146208,7 +146208,17 @@
       "USB power-source conflict retained",
       "No local download,installation orhardware operation"
     ],
-    "next": "Continue individual-LCD model gaps;unresolved OutputVP scope requires specific instructions,not another retained-position announcement;BOSS GT-Pro independent general cursor unchanged"
+    "next": "Continue individual-LCD model gaps;unresolved OutputVP scope requires specific instructions,not another retained-position announcement;BOSS GT-Pro independent general cursor unchanged",
+    "panel_followup": {
+      "checked": "2026-11-06",
+      "front_url": "https://zoomcorp.com/media/original_images/Zoom_G3Xn_Top.jpg.800x482_q70_crop_size_canvas.jpg",
+      "front_sha256": "49b3fe91aed42507acfb438fa890e62f7302739a2e1265b0b5c2d8ac786a9fa9",
+      "front_bytes": 38330,
+      "visual": "ExactZoomG3Xn frontimage inspected:13rotaries,6chassisFS,7separatebuttons(TYPEsix+MENU);three monochrome-appearing displays. Toe switch separate,notvisuallyverified.",
+      "remaining": "Rear/headphone reconciliation;display diagonal,hardware color/touch specifications;pedal-up measurement",
+      "side_url": "https://zoomcorp.com/media/original_images/G3Xn_side.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+      "side_sha256": "c2f7612b6e8a00431b42112de812a307ea60fad045ea9976f3d6c491ff27d89e"
+    }
   },
   "g11_external_assignment_offers_20261031": {
     "checked": "2026-10-31",
@@ -176561,5 +176571,9 @@
     ],
     "next": "Individual footswitch-display gaps first where new primary evidence is accessible;otherwise systematic remaining profiles. Preserve GT-Pro,expression and GP-200JR→Prime→GE300 queues.",
     "inventory_changed": false
+  },
+  "source_image_inspection": {
+    "requested_url": "https://zoomcorp.com/media/original_images/G3Xn_side.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+    "cache_policy": "One rolling working photograph and receipt in/tmp; URLs and hashes retained with model findings. Retrieval alone is not visual verification."
   }
 }

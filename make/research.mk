@@ -1262,3 +1262,14 @@ research-stage-roland:
 .PHONY: research-commit-roland
 research-commit-roland:
 	python3 scripts/research_audit_roland.py commit
+
+# Manufacturer-image retrieval uses a reviewed URL and one rolling /tmp image.
+.PHONY: research-source-image-plan research-source-image-apply research-source-image-test
+research-source-image-plan:
+	python3 scripts/source_image.py plan
+
+research-source-image-apply:
+	python3 scripts/source_image.py apply
+
+research-source-image-test:
+	python3 scripts/source_image.py test
