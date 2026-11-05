@@ -1014,6 +1014,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 
 | Field | Finding / qualification |
 |---|---|
+| Live / environment and ventilation | Standard-covered7.x manual p140: **operation0–50°C;storage−30…70°C;max90% non-condensing humidity**. Onboard fan vents through sides andbottom;keep vents clear. Ratings,not thermal/noise measurements orfan thresholds. [Exact source scope](#fm3-original--published-environmental-limits-and-ventilation). |
 | Instrument scope | Original 1.x manual p21 explicitly permits electric guitar, acoustic and bass at the instrument input. No special pickup required. Vocal suitability unclassified. [Original manual](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
 | Built-in / external / toe expression | No built-in treadle in the complete panel inventory. Two shared TRS pedal/switch inputs; linear10–100kΩ pedals. Separate external toe configuration remains unverified. [Panel and ports](#fm3-original--connector-inventory-and-usb-signal-paths);[global setup](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Expression / original-model startup corrections | Manufacturer-authored cumulative FM3 release notes, [original-text reproduction, PDF pp25–28](https://manuals.plus/m/5df87c9e777003d2c13a4831b33fdc4a826978d563b7b25933897a3a2c79b3b0.pdf), checked **2026-11-05**: **3.02, March 10, 2021** fixes global Input/Output Volume initialization with an expression pedal (MIDI/Remote→Other). **1.04, June 5, 2020** separately improves pedal-position detection after startup. These pre-MKII corrections document original-FM3 history, not calibration, new assignment targets or a measured current defect. Exact initialized value, preset-change recall, attenuation endpoints and bypass/headphone/USB/loop coverage remain unverified. |
@@ -1434,6 +1435,12 @@ Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, printed3,53,59
 Checked **2026-11-05**: the community-maintained [Fractal Audio Wiki, FM3 specifications](https://wiki.fractalaudio.com/wiki/index.php?title=Axe-Fx_III%2C_FM9%2C_FM3) supplies a more specific secondary lead, not manufacturer-authenticated hardware evidence. Its reference **82** qualifies headphone availability by production batch; attributed quote **87** describes the first run as lacking both jack and headphone circuitry, while quote **91** describes the circuit as unchanged between headphone variants. Their scope cannot be reconciled from the indexed text alone.
 
 The search index exposed these passages, but direct page access returned403, preventing inspection of the linked original posts, authors, dates and context. Preserve all three reference numbers for recovery; do not infer serial-number boundaries, production dates, retrofit capability or identical circuitry. The existing manual describes a headphone-equipped configuration and does not establish every original unit has that socket. **Primary confirmation remains unresolved**; no new Yes/No headphone classification, stock claim or active-inventory change. No download or device operation.
+
+### FM3 original — published environmental limits and ventilation
+
+Checked **2026-11-05** against the [manufacturer FM3 Owner’s Manual, firmware7.x, printedp140/PDF146](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf). The cover explicitly includes **FM3 Standard and Mark II Turbo**;this is direct original-model coverage,not a sibling-only transfer. Published **operating temperature0–50°C (32–122°F)**,**storage−30…70°C (−22…167°F)** and**maximum90% non-condensing humidity** are separate environmental ratings. Storage limits do not authorize operation at those extremes.
+
+The specifications identify an **onboard fan with side and bottom ventilation**,and require keeping those vents unobstructed. This doesnot establish fan activation thresholds,acoustic noise,water/dust protection ormeasured thermal performance. No local download,case opening ordevice test;current installed firmware andhardware condition remain unknown.
 
 
 ## FM9 MKII Turbo

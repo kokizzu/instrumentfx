@@ -170565,5 +170565,29 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requested separate-screen profile andexactmarket gaps;keep unchanged X5 firmware-download/EXP uncertainties deferred. Preserve GT-Pro,general,expression andconsolidation queues."
+  },
+  "fm3_original_environmental_limits_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--published-environmental-limits-and-ventilation",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "Firmware7.x,cover explicitlyStandard andMKII;printed140/PDF146",
+    "operation_celsius": [
+      0,
+      50
+    ],
+    "storage_celsius": [
+      -30,
+      70
+    ],
+    "humidity": "Max90%,non-condensing",
+    "ventilation": "Onboardfan,sideandbottomvents;unobstructed",
+    "remaining": [
+      "Fan thresholds/noise andcurrent-unit thermal behavior",
+      "Exact original revision Shopee hardware",
+      "Global analog volume endpoints/recall/outputcoverage",
+      "Remaining categoryname gaps"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested separate-display hardware/profile gaps andsystematic missing fields;defer unchanged headphone-original-post access gap. Preserve GT-Pro/general,expression andconsolidationqueues."
   }
 }
