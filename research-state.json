@@ -170923,5 +170923,20 @@
     ],
     "priority_check": "HXEffects search onlyresurfaced previouslyrecorded hardware andexcludedLCDpart;no duplicate update.",
     "next": "Continue requested individual-footdisplay profiles whereaccessible;record newexact hardwareleads withoutvariant/conditioninference;preserve generalGT-Pro,expression andconsolidationqueues."
+  },
+  "hxstompxl_350_control_fixes_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/LINE6.md#hx-stomp-xl--historical-touch-and-snapshot-command-fixes",
+    "source": "https://kb.line6.com/helix-3-50-release-notes",
+    "revision": "Helix/HX3.50 released2022-11-03;explicitXL-only andStomp/XL bullets",
+    "finding": "XL-specific touchsensing afterpreset changes andduplicateFS7/8 snapshotcommand fixes;sharedCC73view/Favoritegraphics fixes separately scoped.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Powerpolarity andexplicitUSB/battery-operation statements",
+      "Currentinstalled firmware/regression behavior",
+      "Factory-fill andcurrent condition-qualified offers"
+    ],
+    "source_limit": "Own3.80PDF fullreader exceededcontentlimit;indexed exactmanual evidence retained;no localdownload orpower inference.",
+    "next": "Continue requested individual-footdisplay records whereaccessible;unresolved XLpower deferred;preserve generalGT-Pro,expression andconsolidationqueues."
   }
 }

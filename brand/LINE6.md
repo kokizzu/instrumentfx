@@ -1934,6 +1934,17 @@ Checked2026-10-28 in [manufacturer-authored3.80 manual mirror](https://device.re
 
 OriginalXL identity andtechnical qualifications remain in the manufacturer-backed record above;this market observation adds no sibling specifications,ownership orseparate-footdisplay claim. Current used/new-condition offers andother technical gaps remain open. No download,transaction ordevice operation.
 
+### HX Stomp XL — historical touch and snapshot-command fixes
+
+Checked **2026-11-05**, [manufacturer Helix/HX3.50 release notes](https://kb.line6.com/helix-3-50-release-notes),released **2022-11-03**. These are historical manufacturer fix claims,not present3.80 defects ordevice-tested behavior.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Footswitch / XL-specific reliability history | **HX Stomp XL only:**3.50 fixes capacitive sensing becoming disabled after footswitch preset changes until pressing a stomp switch. It separately fixes an extra Snapshot Up/Down command when thatCommandCenter action isassigned toFS7/8. Touch sensing,physical presses andsnapshot-command emission are distinct;none adds a touchscreen,separate switch LCD ornew switch. | 3.50 XL-only fix bullets |
+| Software / shared Stomp andXL history | Explicit **HX Stomp/HX Stomp XL** bullets fix MIDI CC73 view-changing behavior andgraphical glitches caused byoverlong Favorite names. No exact character ceiling oruniversal MIDI-remapping behavior is supplied. HX Stomp-only backup-shift andHelixFloor/Rack/LT-only items are not transferred. | Same exact release notes |
+
+No MIDI sent,controller configured orsoftware downloaded. Installed firmware,current regression status,originalXL power polarity/USB operation,factory-fill andqualified current used/new offers remain unresolved;the earlier8-block/128-preset/4-snapshot anddatedmarket qualifications remain intact.
+
 
 ## M5
 

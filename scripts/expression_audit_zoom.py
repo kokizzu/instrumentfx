@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(line6): qualify exact HX Stomp XL Shopee hardware offer'
+        message='research(line6): document HX Stomp XL control reliability history'
     print(git('commit','-m',message))
