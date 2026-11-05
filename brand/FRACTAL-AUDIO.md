@@ -400,6 +400,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Simultaneous blocks / categories | CPU-limited; **12×4 grid is not guaranteed48 effects**. Own7.x p46 documents per-type ceilings:one Amp/Cab/Pitch/Reverb/Synth/Looper;two Drive/Chorus/Delay;four Filter/Mixer. These are CPU-limited maxima,not a guaranteed simultaneous combination. [Complete own7.x table](#fm3--block-choice-and-instance-table) below;current firmware13 inventory unresolved. Manual pp.2,50. Current product lists300+ amp models; factory cabs2200+ andhistorical1024 user IR locations;firmware12 reduces user slots to512 as qualified below. These are not simultaneous blocks. [Product](https://www.fractalaudio.com/fm3/) |
 | Categories / multiband, source selection and PEQ | [Detailed November limits](#fm3-mkii-turbo--multiband-source-selection-and-parametric-eq): one Multiband Compressor, two Multiplexers and two five-band PEQs, CPU permitting; internal bands are not extra blocks. |
 | Categories / newer guide | [November2026 reference types and FM3 instance ceilings](#fm3--november-2026-block-comparison):36 supported block rows. CPU-limited,not summed concurrency orinstalled firmware13 census;older7.x inventory preserved. |
+| Processing / Megatap texture controls | [Tap spacing, diffusion and stereo controls](#fm3-mkii-turbo--megatap-tap-patterns-and-diffusion) distinguish four Time Shape patterns from menu types. Near-zero Spread can cancel some taps; envelope following controls effect input, not global pedal volume. Named-type census remains open. |
 | Pitch / named reference inventory | [16 named Pitch types](#fm3-mkii-turbo--named-pitch-types-and-note-handling-source-details), one FM3 block, CPU permitting. Chromatic/Virtual Capo chord processing is distinct from single-note diatonic harmony, Octave Divider and monophonic Synth. Installed-library equivalence and measured tracking remain unverified. |
 | Categories / named Chorus and Phaser | [November inventories](#fm3-mkii-turbo--named-chorus-and-phaser-source-details): 27 Chorus and19 Phaser choices; two FM3 instances each, CPU permitting. Voices/stages are parameters, not extra blocks or synth polyphony. Installed equivalence remains unverified. |
 | Categories / named Filter and Wah | [November inventories](#fm3-mkii-turbo--named-filter-and-wah-source-details): 20 Filter choices/four FM3 blocks, nine Wah choices/two blocks, CPU permitting. Envelope/LFO filtering and Ladder self-oscillation do not establish pitch-tracking synthesis; Wah frequency endpoints are not volume endpoints. Installed equivalence unverified. |
@@ -1021,6 +1022,17 @@ Checked **2026-11-05**, [manufacturer Footswitch Functions Guide v1.3, April2022
 
 The fresh Shopee search repeated the three existing exact MKII items; no new condition/stock-qualified offer was established. Gapless switching and global pedal-volume coverage do not follow from these navigation options. Existing prices and qualifications remain intact. No download or device operation.
 
+
+### FM3 MKII Turbo — Megatap tap patterns and diffusion
+
+Checked **2026-11-06** in the [manufacturer November2026 Blocks Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), printed57–58. Its FM3-specific limits are retained above; the current MKII product links this shared reference. No installed-firmware equivalence is certified.
+
+- **Time Shape:** EXP/LOG, SIGMOID, COSINE or SINE; these are spacing patterns, not four additional effect types. Time Alpha50% spaces taps evenly; lower/higher values progressively shorten/lengthen successive intervals. Time Randomize scatters tap positions.
+- **Stereo Spread:** near-zero settings can cancel some taps. At exactly0%, Pan Shape/Pan Alpha determine placement; CONSTANT makes Pan Alpha a left-to-right pan control. This differs from ordinary width controls.
+- **Diffusion Mix/Time:** a reverb-like input diffuser thickens the tail and smears transients; LFO Rate/Depth modulate that diffuser. It is not another independent Reverb block or synth engine.
+- **Envelope follower:** Threshold/Attack/Release govern effect input gain for swells; this is not all-output or global analog expression volume.
+
+The chapter says **20+ settings** without enumerating names. The earlier22-type comparison headline is not a completed named inventory; do not convert these controls or tap counts into additional algorithms. Existing64-tap/four-second FM3 limits, CPU qualifications and unresolved volume/market fields remain. No local download or device test.
 
 ## FM3 original
 
