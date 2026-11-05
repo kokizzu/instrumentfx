@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='audit: record metadata preservation and remaining field gaps'
+        message='research(fractal): qualify original FM3 DynaCab prerequisites'
     print(git('commit','-m',message))

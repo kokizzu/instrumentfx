@@ -170453,5 +170453,22 @@
     },
     "next": "Continue requested FM3/FM9 exact-revision hardware andprimary profile gaps;defer unchanged TMP guide-access gap. Preserve general,expression anddisplay queues.",
     "active_inventory_unchanged": 402
+  },
+  "fm3_original_dynacab_prerequisite_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--dynacab-version-prerequisite-and-editor-refresh",
+    "sources": [
+      "https://support.fractalaudio.com/en-US/how-to-resolve-dyna-cabs-not-installed-or-incorrect-version-286538",
+      "https://www.fractalaudio.com/fm3-downloads/"
+    ],
+    "qualification": "FM3 firmware12.0+ maps toDynaCabs1.09;hardware errors andstale editor list are distinct documented troubleshooting states. No installed-version orrecovery test.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Qualified exact original-FM3 Shopee revision andstock",
+      "Original headphone hardware variant identification",
+      "Global volume endpoints,recall andcomplete output coverage",
+      "Remaining named-category censuses"
+    ],
+    "next": "Continue requested FM3/FM9 exact-revision profile andhardware gaps;preserve independent expression,general andconsolidation queues"
   }
 }

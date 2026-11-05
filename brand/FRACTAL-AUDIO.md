@@ -1055,6 +1055,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | IR / loading | **1,024 manual-era user cab slots;512 from firmware12.0**,contrasting withlaunch2000+. The update removes slots513–1024 andtheir contents; [firmware-qualified capacity](#fm3-original--firmware-qualified-user-cab-capacity) below. 7.x gives16 scratchpads andup totwo IRs inCab. Summary .ir/.syx/.wav versus .syx transfer procedure retained. UserCabs separate fromSYSTEM backup. [Format/capacity qualifications](#fm3-original--ir-capacity-transfer-formats-and-editor-platforms). |
 | NAM / capture | NativeNAM,convertedNAM andproprietary amp-capture import unverified. Dated absence ofToneMatch block doesnot settle all import workflows. [Distinctions](#fm3-original--ir-capacity-transfer-formats-and-editor-platforms). |
 | Editor / platforms | FM3-Edit **1.07.17,August25,2026**:macOS10.13+,Windows10+64-bit;32-bitbuild link separately qualified. Windows editing depends on audio+serial drivers. Mobile editor/current architecture tests unknown. Fractal-Bot backup/updater distinct. [Current listing](#fm3-original--ir-capacity-transfer-formats-and-editor-platforms). |
+| Firmware / cabinet-data prerequisite | **FM3 firmware12.0+ requires DynaCabs1.09** in the manufacturer support table. [Hardware errors versus stale editor lists](#fm3-original--dynacab-version-prerequisite-and-editor-refresh) remain separate; no update performed. |
 | Firmware / driver scope | Manufacturer13.0 explicitly supports Original/MKII,July16,2026. [November4,2026 bundle](#fm3-original--november-driver-and-editor-reconciliation): audio6.20+serial1.3, both required; Windows10+ x86/x64/ARM. Earlier June audio6.16 listing retained as history; legacy7/8 uses1.1. Driver availability noteditor support. No software installed. [Current support](#fm3-original--initial-memory-dsp-and-current-support). |
 | Looper / drums / live | Dated guide:stereo,max120s;Undo while stopped erases all. Record2ndPress Overdub/Play/Stop,tempo quantization. Retention/current revision unverified. Drums unknown. **Configurable onboard preset−1/+1 documented**;PC Mapping can redirect selections;factory pair unverified. [Navigation scope](#fm3-original--configurable-preset-navigation-and-mapping). Default bank navigation remains separate. [Looper](#fm3-original--dated-block-inventory-and-looper). |
 | Used IDR | No exact-original-revision,condition-confirmed Shopee ask established. |
@@ -1386,6 +1387,13 @@ Checked **2026-11-05**, [manufacturer Footswitch Functions Guide,v1.3,April2022,
 | Amp Level & Save / Scene Level & Save | Changes the selected amp/current-scene level in steps from−2 to+2dB and **saves the entire preset**,including other unsaved parameters/bypass states. This isnot merely a temporary output trim orglobal expression-volume assignment. |
 
 These options change content on theexisting three mini LCDs,not their count,size,resolution ortouch capability. Firmware13 equivalence andfull custom-label character capacity remain unverified. No layout edited ordevice operated.
+
+### FM3 original — DynaCab version prerequisite and editor refresh
+
+Checked **2026-11-05** in the [manufacturer DynaCab recovery article](https://support.fractalaudio.com/en-US/how-to-resolve-dyna-cabs-not-installed-or-incorrect-version-286538). Its FM3 table specifies **firmware12.0+ → DynaCabs1.09**. The [current FM3 download page](https://www.fractalaudio.com/fm3-downloads/) explicitly supports Original and Mark II Turbo with13.0; this is not a transfer of MKII screen or processor specifications. DynaCab data, firmware, editor and Windows drivers have separate version numbers.
+
+The article associates **Dyna-Cabs Not Installed** and **Incorrect Dyna-Cab File Version** with required cabinet-data updating. It separately addresses a cleared hardware error with missing cabinets in the editor: update the editor and use **Refresh After New Firmware**. An editor-list omission therefore does not by itself establish absent hardware data. This is manufacturer troubleshooting guidance, not a diagnosis of this owner’s unit or proof that every similarly worded error has one cause. Installed versions and actual recovery remain untested; no file downloaded, software installed or device operated. Existing firmware12 user-slot reduction remains independently qualified.
+
 
 ## FM9 MKII Turbo
 
