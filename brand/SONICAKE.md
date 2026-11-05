@@ -741,7 +741,7 @@ Checked2026-10-28 against the [manufacturer product page][RS-P]. Ordinary electr
 | Expression / controls | No built-in expression; **EXP/FS input**. **1/2/13**,rear power separate. |
 | Screen / dimensions | **1.77-inch color LCD**,pixel resolution/touch unverified. **135 W ×114 D ×51 H mm;378 g**,compact. |
 | Processing | **Nine simultaneous modules** NR,FX1,DRV,AMP,IR,EQ,FX2,DLY,RVB;130+ choices,individual subcounts ?. |
-| Memory / sound | **100 locations,50 factory-filled**. Exact synth/electric-to-acoustic algorithms unverified. |
+| Memory / sound | **100 locations,50 factory-filled**. [V1.0.1 FX inventory](#smart-box--named-fx-inventory-and-creative-capabilities):30 sharedFX choices;polyphonic Octave/Pitch,Detune,AC G. Dedicated synth unverified. |
 | IDR / separate simamura ask | **Rp1.995.000**, [shop1552936594/item57458607880](#smart-box--separate-simamura-hardware-ask),KotaTangerangSelatan,checked2026-11-06,two-day openedcache. Condition,variant,bundle,batteryhealth,warranty,stock anddeliveredtotal unverified;not a new/used range. OlderRp1.840.000 remainsseparate. |
 | Bass capability | Manufacturer explicitly advertises guitar/bass-optimized presets; included in the shared bass comparison. Bass-specific model inventory and low-end performance remain unverified. [Product,checked2026-10-17](https://www.sonicake.com/products/smart-box) |
 | IR / NAM | **Five user IR slots**. Official Japan notice2026-08-18 explicitly identifies **NAM A2 conversion** using mobile app**1.7.2+** or desktop software**1.5.2+**;not native A2 loading. Accepted architecture/size restrictions and conversion fidelity remain unverified. [Regional notice,checked2026-10-17](https://www.hotone.jp/announcements/nama2allbrand) |
@@ -820,6 +820,13 @@ Checked **2026-11-06**. [Exact QME-20 item,shop1552936594/item57458607880](https
 This is a separately identified hardware listing,not a preset pack. New/used condition,working state,selected variant,adapter/cables,battery health,warranty/import region,shipping/tax andcheckout total remain unverified. No stock quantity orcompleted sale is established;do not derive a new/used range. Preserve the older sonicakeindonesia Rp1.840.000 observation separately. Seller specifications are not hardware authority;the [exact manufacturer product](https://www.sonicake.com/products/smart-box) remains the specification source. Global analog-volume andother technical gaps stay open. No checkout,seller contact,download ordevice operation.
 
 
+
+
+### Smart Box — named FX inventory and creative capabilities
+
+Checked **2026-11-06**, [manufacturer V1.0.1 manual,printed15–19](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf). **FX1/FX2 share30 choices:** COMP 1; COMP 2; Touch Wah; Auto Wah; C-Wah; Boost; A-Chorus; B-Chorus; Crystal Chorus; Whirlcho; Fullchor; Flanger; Jet; Flanger ST; Flanser; Phaser; Phaser M; BBD Phaser; Phaser ST; Vibe; Vibrato; Lofi Vibrato; Vibrato ST; Tremolo; Sine Trem; Bias Trem; Octave; Pitch; Detune; AC G. Counts are choices,not simultaneous blocks.
+
+Octave andPitch explicitly support polyphonic processing;Detune spans±50cents. AC G modes are Standard,Jumbo,Enhanced,Piezo. Touch Wah is envelope filtering;Auto Wah is periodic filtering. Neither proves synth tracking. The EXP column assigns algorithm-specific parameters,not universal volume. Current1.0.6 equivalence unverified;remaining category census pending. No download/device operation.
 
 ### Preserved original Smart Box finding
 
