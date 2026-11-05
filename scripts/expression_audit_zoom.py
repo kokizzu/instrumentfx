@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): count G2 FOUR effect categories and qualify exact offer'
+        message='research(headrush): document Looperboard live effects and exact hardware lead'
     print(git('commit','-m',message))

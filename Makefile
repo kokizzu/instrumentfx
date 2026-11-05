@@ -2621,3 +2621,9 @@ brand-sort-plan-flamma:
 
 brand-sort-apply-flamma:
 	python3 scripts/brand_sort.py apply brand/FLAMMA.md
+
+.PHONY: brand-sort-plan-headrush brand-sort-apply-headrush
+brand-sort-plan-headrush:
+	python3 scripts/brand_sort.py plan brand/HEADRUSH.md
+brand-sort-apply-headrush:
+	python3 scripts/brand_sort.py apply brand/HEADRUSH.md

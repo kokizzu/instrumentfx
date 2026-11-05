@@ -6,6 +6,7 @@
 - [Core](#core)
 - [Flex Prime](#flex-prime)
 - [Gigboard](#gigboard)
+- [Looperboard — partial discovery lead](#looperboard--partial-discovery-lead)
 - [MX5](#mx5)
 - [Pedalboard](#pedalboard)
 - [Prime](#prime)
@@ -322,6 +323,26 @@ Cumulative2.7 notes,p.4 revise looper feedback: it affects recording/overdub, no
 [Manufacturer expression support](https://support.headrushfx.com/en/support/solutions/articles/69000822750-headrush-fx-how-to-setup-and-troubleshoot-an-external-expression-pedal) describes automatic assignment **after adding Volume to a rig**,not universal insertion. TRS sweep;separate toe switch selects A/B onGigboard. Volume minimum andlinear/log response editable;global polarity isnot globaltarget scope. Actual M-VAVE wiring remains unverified.
 
 Exact [Legato shop158413015/item4243270944][GB-O] rechecked2026-10-19 returns cached **Rp17.875.000** andrelativeToday delivery text. No current checkout/stock,condition,bundle,adapter,warranty orused-offer confirmation. Late-delivery voucher not deducted. No local download orhardware test.
+
+## Looperboard — partial discovery lead
+
+**Checked 2026-11-05. Partial lead, outside the 402 active models and additional creative-record index; ownership not inferred.** Independent live-input multi-effects are documented, rather than only processing recorded loops. Complete remaining required fields before inventory admission.
+
+### Live effects and creative distinctions
+
+The [manufacturer FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000801163-headrush-looperboard-frequently-asked-questions) permits **four FX racks simultaneously**, targeting individual inputs or loop tracks. Its explicitly **v1.0.1** inventory has six racks: VOCALS, GUITAR, LO-FI, DUB, DRUM and STUDIO. Guitar includes WHAM, OVERDRIVE, WAH, AMP, MOD, SPRING and DELAY; Lo-Fi includes LPF, VINYL, DEGRADE, DISTORT, PARA EQ and DELAY. Vocal PITCH/DOUBLER and Studio PITCH do not establish input polyphony. Pedalboard/Gigboard amp/cab/IR features are expressly not inherited. FAQ dimensions are **512×311×76 mm**, **5.5 kg**: exceeds the preferred compact footprint.
+
+[Release notes v2.0.5, May 2022](https://cdn.inmusicbrands.com/HeadRush/looperboard/READ%20ME%20-%20HeadRush%20Looperboard%20Firmware%20Update%20v2.0.5.pdf), historical changes since1.0.1, add **Vocal Tuner** (automatic tuning/harmonizer) and **Rhythmic** (slicer, pumper, synced LFO) racks, remove track/backing maximum-length limits and add MP3/direct external recording. Thus the FAQ’s five-minute maximum is historical, not the documented2.x limit. Introduction grouping is not installed-firmware verification. Tracking synthesis and acoustic-instrument simulation remain **unverified**.
+
+### Hardware, expression and practical boundaries
+
+[User Guide2.0.0](https://cdn.inmusicbrands.com/HeadRush/looperboard/Looperboard-User-Guide-v2_0_0%5B0805%5D.pdf), printed4–6,15–19,46–47: **eight rotaries** (encoder, four gains, Main, Phones, Aux), **separate rear power button**, no documented built-in treadle; one **¼-inch TRS expression** input. Up to four expression targets with LO/HI ranges are documented; universal cross-loop/preset volume assignment, startup recall and bypass/tail coverage remain unknown. **19 V DC,3.42 A,center-positive** adapter input; battery/USB operation unverified. Aux bypasses Main/Phones knobs and cannot record directly to tracks. Required remaining checks include complete named effect census, preset capacities/factory fill, toe-switch support, editor versus driver/updater platforms, import/capture support, channel conflicts and expression coverage.
+
+The [product page](https://www.headrushfx.com/products/looperboard/) specifies **12 RGB-LED footswitches** and a **shared7-inch multitouch display**, not individual footswitch screens. Ports: four combo inputs, two XLR plus two¼-inch outputs, stereo¼-inch phones,⅛-inch aux, DIN MIDI in/out-thru, two USB-A, USB-B and SD. USB audio is2-in/2-out. Its two-stereo/four-mono summary conflicts with its four-stereo-or-mono body; eight/nine-hour storage wording also differs. Current listing links firmware2.0.5 and guide2.0.0, not proof of installation.
+
+### Exact Indonesian hardware offer
+
+[Legato Music Center, shop158413015/item6044136876](https://shopee.co.id/Headrush-Looperboard-Multi-Effects-i.158413015.6044136876), **Kota Jakarta Pusat**, cached ask **Rp24,585,000**. Direct page retrieved2026-11-05 was indexed last month. New/used condition, variant/bundle, live stock, warranty, shipping/taxes and checkout price remain unverified. Missing Habis text and relative delivery promises are not stock confirmation. Rp10,000 late-delivery compensation is not deducted. No condition-verified used ask recovered.
 
 ## MX5
 
