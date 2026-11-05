@@ -1150,16 +1150,40 @@ Checked **2026-11-05**; partial, **outside the 402 active records**. Ownership n
 | Field | Verified evidence / remaining qualification |
 |---|---|
 | Expression / ports | No treadle or analog EXP in the complete inventory: instrument INPUT, stereo mini AUX, shared stereo line/headphone OUTPUT, FOOT SW, USB and DC4.5V. FOOT SW accepts two switches through the supplied cable; not an expression socket. |
-| Controls / display | Control dials, Value encoder and buttons; no onboard footswitches. Exact rotary/button census pending. Shared backlit LCD; diagonal, color and touch unknown. |
-| Processing / memory | 180 variations; seven simultaneous; 100 User + 100 Preset programs. Full category census and initial User filling pending. |
+| Controls / display | Control dials, Value encoder and buttons; no onboard footswitches. Text-derived **5/0/14 K/F/B**; [count below](#px5d--category-reconciliation-and-creative-boundaries). Visual corroboration pending. Shared backlit LCD; diagonal, color and touch unknown. |
+| Processing / memory | 180 variations; seven simultaneous; 100 User + 100 Preset programs. Category counts reconciled below; initial User filling pending. |
 | Synth | G SYNTH1–3: chromatic guitar synth, single notes required. B SYNTH1–3: bass synth; chords become muddy. Three variants change resonance, not note polyphony. |
 | Dimensions / power | 118W×75D×20H mm;154g without batteries. Two AA alkalines, USB bus power or optional DC4.5V adapter. Claimed battery duration:7h backlight off/5h on. Current/polarity unresolved. |
 | Software / imports | USB audio/MIDI and editor documented; current OS/platform support, IR/NAM/capture import unknown. |
 | IDR used / new | Neither established. Exact Shopee searches found no qualified item; not evidence of market absence. Seller/item,condition,stock,variant,bundle,region,warranty,voucher and delivered total remain unknown. |
 
-The footprint fits the preferred rectangle before cables, but **direct analog expression eligibility fails**. A MIDI/editor route is a different setup. Headphones are independently supported; onboard preset footswitch down/up is unavailable. Button selection and optional external switches are separate controls. Global pedal range/recall, bypass, tail and recorded-loop attenuation are not established. Acoustic simulation, named pitch/special inventory, per-category choices, phrase-trainer/rhythm details and software versions remain to be checked.
+The footprint fits the preferred rectangle before cables, but **direct analog expression eligibility fails**. A MIDI/editor route is a different setup. Headphones are independently supported; onboard preset footswitch down/up is unavailable. Button selection and optional external switches are separate controls. Global pedal range/recall, bypass, tail and recorded-loop attenuation are not established. Named creative distinctions and category counts are supplemented below; complete expanded-name transcription, phrase-trainer/rhythm details and software versions remain open.
 
 No active membership or catalogue count changed. The original was read remotely; no local download, software installation or device operation.
+
+### PX5D — category reconciliation and creative boundaries
+
+Checked **2026-11-05**, [same original E/F/G/J1 manual](https://cdn.korg.com/jp/support/download/files/15052c0ed1667834d5c3bb64a91d16c5.pdf), English pp8–9,34,37–50; firmware unspecified.
+
+| Category | Expanded menu choices |
+|---|---:|
+| DYNA |29|
+| AMP, including six synth variants |34|
+| CAB |23|
+| MOD |56|
+| DLY |26|
+| REV |11|
+| NR, separate processing entry |1|
+
+**29+34+23+56+26+11+1=180**, a list-arithmetic reconciliation, not 180 simultaneous algorithms. Delay feedback variants count separately.
+
+- **Controls:** four dials plus Value encoder; four CURSOR buttons plus RHYTHM,PHRASE TRAINER,UTILITY,A–D,ENTER/REC,EXIT,TAP/BYPASS = **5/0/14**. Power/input switches excluded.
+- **Instrument processing:** AC SIM acoustic tone; RESO resonator body; FRETLES fretless bass;12STR twelve-string-like sound. FRETLES/OCTAVE require single notes.
+- **Pitch:** PITCH1–4; seven intelligent harmonies require single notes. PITCH chord support unverified. ENVPIT follows picking; INFPIT1/2 provides continuing pitch motion.
+- **Special:** RING/RINGUP/RINGDWN, CRUSHER, FEEDBK1–4, TALK1–4 and RANDOM1–4; these are not additional synth engines.
+- **External navigation:** FOOTSW **Ud** traverses User/Preset memory; **PG** cycles A–D favourites. Neither adds onboard footswitches or analog expression.
+
+Partial status, exact Shopee/IDR and remaining physical/software gaps stay open; active inventory unchanged. No local download or device operation.
 
 ## PANDORA stomp
 
