@@ -168838,5 +168838,37 @@
     ],
     "next": "Return to accessible display-model hardware and exact Indonesian offer gaps; preserve expression and GP-200JR → Prime → original GE300 queues.",
     "inventory_change": 0
+  },
+  "fm3_original_named_chorus_compressor_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Fractal Audio FM3 original",
+    "source": {
+      "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "November 2026",
+      "pages": "3,25–29"
+    },
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--named-chorus-and-compressor-reference",
+    "counts": {
+      "chorus": 27,
+      "compressor": 19,
+      "instances_each": 2
+    },
+    "qualifications": [
+      "CPU-limited instances, not all choices simultaneously",
+      "Dimension 1/2/3 count separately",
+      "More than two Chorus voices require sine LFO; voices are not synth polyphony",
+      "Compressor look-ahead delays wet and dry by 0–2 ms",
+      "Original applicability from family guide/support; installed equivalence untested"
+    ],
+    "market_check": "Display-priority Shopee searches repeated recorded offers; no new condition or stock claim added.",
+    "remaining": [
+      "Other named original FM3 category inventories",
+      "Original headphone hardware variants",
+      "Display physical specifications",
+      "Global volume endpoints, recall and coverage",
+      "Qualified current Indonesian stock"
+    ],
+    "next": "Continue accessible display-priority gaps; preserve independent expression and GP-200JR → Prime → original GE300 queues.",
+    "inventory_change": 0
   }
 }

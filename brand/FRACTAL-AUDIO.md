@@ -1005,6 +1005,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Exceeds preferred200W×140D footprint. [Standard-covered7.x specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Processing / simultaneous limits | **12×4 grid**,DSP-limited. June2023 exactFM3 inventory:36 available classes,63 summed instance allowances including routing/control;not63 simultaneous effects. Historical1.x CPU limit approximately80%,overload mutes processing. Current13.0 equivalence untested. [Inventory](#fm3-original--dated-block-inventory-and-looper);[CPU](#fm3-original--initial-memory-dsp-and-current-support). |
 | Categories / November reference | [November2026 FM3 column](#fm3-original--november-reference-category-and-instance-comparison): 36 supported rows,63 summed allowances including utilities, **not63 simultaneous effects**. Delay shared29 becomes27 after two explicit FM3 exclusions. Reference counts are not installed certification or completed named censuses. |
+| Processing / named chorus and compressor | [27 Chorus and 19 Compressor choices](#fm3-original--named-chorus-and-compressor-reference), November2026 reference; two instances each, CPU permitting. Chorus voice count is not synth polyphony; compressor Look-Ahead 0–2ms delays wet and dry. Original-model installed equivalence remains untested. |
 | Processing / named pitch | [16 named reference types](#fm3-original--november-named-pitch-and-note-handling); Chromatic NOTES/CHORDS, monophonic Diatonic, polyphonic Virtual Capo ±24semitones; one CPU-limited Pitch block. November2026 reference, not installed verification. |
 | Categories / choices | Includes amp,cab,drive,modulation,pitch,dynamics,EQ,delay,reverb,synth,looper androuting/control. Exact FM3 per-category choice census remains unverified;shared guide TYPES column not treated as current FM3 totals. Dated table excludes Crossover,Dynamic Distortion,IR Player,RTA,Tone Match,Vocoder. [Exact-column census](#fm3-original--dated-block-inventory-and-looper). |
 | Processing / firmware10 migration | **10.0,May30,2025:** older factory presets may exceed80% CPU,especially Standard/non-Turbo;Plate Reverb Echo Density can reduce load. Replacement factory presets are separate,not automatically installed. Current support dates the firmware10-or-newer banks June4,2025. This is a dated migration qualification,not a measured firmware13 failure. [Manufacturer-authored release history,PDFp7](https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf);[current manufacturer preset listing](https://www.fractalaudio.com/fm3-downloads/),checked2026-11-01. |
@@ -1221,6 +1222,18 @@ Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,76–86](h
 Chromatic types distinguish NOTES/CHORDS; Diatonic harmony is monophonic. Virtual Capo explicitly supports polyphonic transposition **±24semitones** and selects100% wet; audible physical strings do not prove dry leakage. Stereo routing and generated-voice counts are separate from note handling. Arpeggiator sequences intelligent pitch shifts, not a separate synthesis engine.
 
 Dual Chromatic feedback repeatedly shifts echoes; Quad Chromatic has no feedback; Quad Chromatic Delay feeds back after shifting, preserving each echo’s shifted pitch. One Pitch block is allowed, CPU permitting; sixteen choices are alternatives, not sixteen simultaneous blocks. Other category inventories, tracking performance and original headphone variants remain unresolved. No download ordevice operation.
+
+
+### FM3 original — named chorus and compressor reference
+
+Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,25–29](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf); [support includes Original](https://www.fractalaudio.com/fm3-downloads/). Family reference, not an introduction date or installed-firmware test.
+
+| Category | Named choices |
+|---|---|
+| Chorus:27 | Digital Mono; Digital Stereo; Analog Mono; Analog Stereo; Japan CE-2; Warm Stereo; 80’S Style; Triangle Chorus; 8-Voice Stereo; Tape Chorus; Dimension 1; Dimension 2; Dimension 3; 4-Voice Analog; 8-Voice Analog; Stereo Tri-Chorus; Dual Chorus; Tape Flanger; Japan CE-1 Chorus; Japan CE-1 Vibrato; Japan CH-1; MX234; Small Copy; Japan CE-2 Bass; Vibrato; Rockguy; MX134 Stereo |
+| Compressor:19 | Modern VCA Compressor; Classic VCA Compressor; VCA FF Sustainer; VCA Bus Compressor; VCA FB Sustainer; Analog Compressor; Analog Sustainer; Compander; Dynami-Comp Classic; Dynami-Comp Modern; Dynami-Comp Soft; Dynamics Processor; JFET Studio Compressor; JFET Pedal Compressor; Optical Compressor; Econo-Dyno-Comp; Vari-Mu Tube Compressor; Rockguy Compressor; Citrus Juicer |
+
+Dimension1/2/3 count separately. FM3 permits **two instances of each block**, CPU permitting. Chorus voices are delayed audio copies, not synth-note polyphony. More than two require a sine LFO; selecting another waveform resets voices to two. Compressor **Look-Ahead 0–2ms delays wet and dry**. Other inventories and hardware gaps remain open. No download or device operation.
 
 
 ## FM9 MKII Turbo
