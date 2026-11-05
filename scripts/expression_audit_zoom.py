@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(melofty): qualify AXOM MAX screen lock and power timing'
+        message='research(fractal): qualify original FM3 switch timing and tempo averaging'
     print(git('commit','-m',message))

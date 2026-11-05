@@ -170870,5 +170870,22 @@
       "Unsaved-edit persistence,actual switchtiming andcurrent qualified Indonesian offers"
     ],
     "next": "Continue requested individual-footdisplay records where new exact-model evidence is available;defer unavailable sources andcontinue remaining fields/discovery;preserve general GT-Pro,expression andconsolidationqueues."
+  },
+  "fm3_original_switch_timing_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--switch-timing-and-tempo-averaging",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf"
+    ],
+    "revision": "Standard-covered FM3 manual7.x printed80,96,100;Footswitch Functions Guide1.3 April2022 p10",
+    "finding": "Tap press/release depends onHold assignment;timeout0.25–2s default0.5;Automatic/SwitchUp hold modes;TapTempo downstrokeexception and10tap/lasttwo averaging.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Installed13.x equivalence andmeasured audio switching behavior",
+      "Original miniLCD dimensions/customlabel capacity",
+      "Revision/condition/stock-qualified hardware offers"
+    ],
+    "next": "Continue requested separate-footdisplay gaps where accessible,then systematic missingfields andShopee discovery;retain general GT-Pro,expression andconsolidationqueues."
   }
 }
