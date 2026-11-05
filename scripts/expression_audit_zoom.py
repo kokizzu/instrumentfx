@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): distinguish original MS-60B synth note handling'
+        message='research(zoom): reconcile original MS-60B firmware dates and library total'
     print(git('commit','-m',message))

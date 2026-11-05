@@ -6172,6 +6172,17 @@ Checked **2026-11-05**, [manufacturer Ver.2 list](https://zoomcorp.com/media/doc
 
 Preserve **four simultaneous effects/DSP**,older58-effect marketing andunresolved V2 category census. Documented library doesnot verify installed firmware,individual introduction versions ortracking quality. Fresh Shopee searches recovered no new condition-qualified original-model offer;Neewer MS60B lighting andPlus listings excluded. Older hardware asks remain dated;no downloads ordevice operation.
 
+### MS-60B — firmware-history dates and library arithmetic
+
+Checked **2026-11-05**: exact-model [System Firmware Version History](https://zoomcorp.com/documents/3404/MS-60B_System_Software_Version_History_ver210_en.pdf), **Z2I-2997-02**, one page. Search metadata says “G3”,but the document body explicitly identifies MS-60B; no G3 specification transferred.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Categories / firmware-qualified library total | **1.00:March2013** production; **2.00:June2017 adds84 effects**. Combined with the retained original58-effect manufacturer inventory, **58+84=142** is a derived Version2 total. This reconciles the headline/library expansion,not per-category subtotals,a fresh named census,installed-unit verification orsimultaneous capacity. Four-effect/DSP limit remains. | [History,p1](https://zoomcorp.com/documents/3404/MS-60B_System_Software_Version_History_ver210_en.pdf); [original58 product](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-60b/) |
+| Firmware / release versus notice date | History dates **2.10 toOctober2019**,fixing audio output sometimes stopping with certain effects. Earlier **2020-01-01** is the [manufacturer news-page date](https://zoomcorp.com/en/us/news/firmware-update-v21-ms-60b-and-ms-70cdr/),not proof of first release that day. Preserve both dates with their scopes. History’s2.10 andsupport’s2.1 use different formatting;no separate release inferred. | Exact-model history;dated news notice |
+
+History supplies no per-algorithm introduction mapping orinstalled-version check. Current qualified stock,remaining note-handling/hardware fields andV2 category subtotals remain open. No updater/manual files downloaded ordevice operated.
+
 
 ## MS-60B Plus
 
