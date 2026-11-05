@@ -172309,5 +172309,20 @@
     "expression": "Persistent mapping is not verified global volume; output coverage unknown",
     "shopee": "No qualified exact hardware item surfaced; no absence or price claim",
     "next": "Controls/display,concurrency,expression coverage,preset stepping,factory allocation,current firmware,qualified Indonesia hardware; preserve separate-display priority and independent queues"
+  },
+  "microcosm_startup_conflicts_20261105": {
+    "checked": "2026-11-05",
+    "root": "brand/HOLOGRAM.md#microcosm--startup-expression-and-supply-source-conflicts",
+    "sources": {
+      "faq": "https://www.hologramelectronics.com/pages/support",
+      "firmware": "https://www.hologramelectronics.com/pages/microcosm-firmware"
+    },
+    "conflicts": [
+      "Manual persistent EXP mapping versus FAQ startup Filter assignment",
+      "Manual400mA minimum versus FAQ>450mA supply"
+    ],
+    "firmware": "v1.13 May2022 listed current; installed unknown",
+    "next": "Resolve source/firmware applicability; global volume coverage and qualified Indonesia offers remain; preserve independent priority queues",
+    "inventory": "Existing partial lead outside active counts"
   }
 }

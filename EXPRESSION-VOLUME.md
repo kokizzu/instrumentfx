@@ -886,3 +886,7 @@ FM3 MKII Turbo [bank-loading and label options](brand/FRACTAL-AUDIO.md#fm3-mkii-
 PX5D [control/navigation follow-up](brand/KORG.md#px5d--category-reconciliation-and-creative-boundaries): external Ud memory stepping differs from PG favourites; neither provides direct analog expression. Partial status and active counts remain unchanged.
 
 PX5D [phrase/storage and software qualification](brand/KORG.md#px5d--phrase-storage-and-legacy-software-boundaries): the saved mono phrase and legacy editor are separate facilities; the current Windows MIDI-driver advisory does not create an analog EXP path.
+
+### Hologram Microcosm — partial expression-source conflict
+
+[Startup-source qualification](brand/HOLOGRAM.md#microcosm--startup-expression-and-supply-source-conflicts): retained mapping and startup Filter assignment conflict. Global all-source volume remains unverified. Partial outside active counts; footprint axes and headphone coverage remain unresolved.
