@@ -6285,6 +6285,24 @@ Checked 2026-10-19 against [own manufacturer manual, pp4–5,11,33](https://zoom
 
 Existing77.5W×130.3Dmm fits preferred chassis, excluding plugs. Direct analog volume fails; associated placement/range and bypass/headphone/tail/loop attenuation are not applicable. The single footswitch cycles a configured patch list; separate preset-down/up is not provided by that workflow. Headphone use through line outputs and USB controller workarounds remain unverified. Preserve older mass/factory-fill conflicts, prices and other technical qualifications. No downloads or device operation.
 
+### MS-70CDR — original Version 2 creative processing
+
+Checked **2026-11-05** against [manufacturer Ver.2 list](https://zoomcorp.com/media/documents/E_MS-70CDR_FX-list_v2.pdf), ©2017, **Z2I-1713-02**, pp2,5–6,8,25–26. Original model only; no Plus features transferred.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Creative / synth and pitch processing | **MonoSynth** explicitly single-note pitch tracking; Sine/Tri/SawUp/SawDn, Speed controls pitch-change smoothness. **MonoPitch/Ba Pitch** explicitly single-note; PitchSHFT/HPS chord support unverified. All three pitch shifters offer −12…+12 and +24semitones, ±25-cent fine control; HPS uses key/scale. Octave adds −1/−2octaves; Ba Octave −1. | Ver.2 pp5–6,8 |
+| Creative / instrument and special processing | **Z-Organ** organ simulation; acoustic conversion unverified. **Slicer**20patterns; **SeqFLTR**2–8steps/8patterns; RndmFLTR random filtering; **RingMod** metallic modulation; **BendCho** picking-triggered pitch bend. **BitCrush**4–16-bit effect parameter, not converter specification. **Bomber** picking-triggered explosive sound, not pitched synthesis. | Ver.2 pp2,6,8,25 |
+
+Ver.2 availability is not installed-firmware verification or an individual introduction-version claim. Preserve six-effect/DSP ceiling,137-library qualification and unresolved factory-fill/mass conflicts. Tracking performance remains untested.
+
+### MS-70CDR — exact used IDR observation
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Used IDR | **Rp1.205.000;Habis/sold out**. **Alma udati**,Kab.Siak,shop90278865/item54819829527; title “efek suling ZOOM MS70CDR preloved second” declares used original-model hardware. Checked2026-11-05 through search snapshot crawled last week;direct reopen cache miss.1–3November arrival text is stale. Seller’s flute-use wording does not establish a microphone/vocal input or change guitar/bass membership. Working condition,authenticity,firmware,adapter/bundle,warranty,region,current stock,shipping/tax/voucher eligibility andcheckout total unverified. Late-deliveryRp10.000 compensation is not a price discount. Historical ask,not a completed sale or current buyable range;older condition-unclassified offer preserved. | [Exact Shopee listing](https://shopee.co.id/efek-suling-ZOOM-MS70CDR-preloved-second-i.90278865.54819829527) |
+
+
 ## MS-70CDR Plus
 
 Manufacturer model **MS-70CDR+**,catalogued as MS-70CDR Plus to keep its identity distinct from the original MS-70CDR. Reviewed **2026-10-17** following exact Shopee discovery;guitar/bass multi-effects,no ownership assertion. Partial:official HTML and indexed manufacturer document text;no dependencies,manual files,firmware or software downloaded to the workspace.

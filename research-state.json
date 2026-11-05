@@ -155075,6 +155075,15 @@
         "instrument": "Aco.Sim; Z-Organ",
         "qualification": "Original Ver.3 ©2017 list; Slicer,SeqFLTR,RndmFLTR,BitCrush,Bomber; six-effect/DSP and installed-library limits",
         "evidence_basis": "Focused2026-11-05 original manufacturer list pp4–7,15,19; not full fresh audit"
+      },
+      {
+        "key": "Zoom::MS-70CDR",
+        "canonical": "brand/ZOOM.md#ms-70cdr",
+        "synth": "MonoSynth explicitly single-note tracking",
+        "pitch": "PitchSHFT; single-note MonoPitch/Ba Pitch; HPS; octave effects",
+        "instrument": "Z-Organ; electric-to-acoustic unverified",
+        "qualification": "Original Ver.2 Z2I-1713-02; Slicer,SeqFLTR,RndmFLTR,RingMod,BendCho,BitCrush,Bomber; six-effect/DSP ceiling; guitar/bass",
+        "evidence_basis": "Focused2026-11-05 original manufacturer list pp2,5–6,8,25–26; not full fresh audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -170766,5 +170775,23 @@
       "Current condition-qualified in-stock offers and remaining hardware fields"
     ],
     "next": "Continue missing fields and Shopee discovery; preserve independent expression,display,general GT-Pro and consolidation queues."
+  },
+  "ms70cdr_original_creative_market_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#ms-70cdr",
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_MS-70CDR_FX-list_v2.pdf",
+      "https://shopee.co.id/efek-suling-ZOOM-MS70CDR-preloved-second-i.90278865.54819829527"
+    ],
+    "revision": "Original MS-70CDR Ver.2 ©2017 Z2I-1713-02 pp2,5–6,8,25–26",
+    "finding": "Explicit single-note synth/pitch distinctions and creative index; seller-declared used Rp1205000 sold-out search offer.",
+    "additional_creative_records": 74,
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Exact V2 category subtotals and installed firmware",
+      "PitchSHFT/HPS chord handling and measured tracking",
+      "Factory-fill/mass source conflicts and current qualified stock"
+    ],
+    "next": "Continue individual-footdisplay priority where accessible,then missing fields and Shopee discovery; retain independent general GT-Pro,expression and consolidation queues."
   }
 }
