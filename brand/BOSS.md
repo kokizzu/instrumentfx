@@ -4375,7 +4375,12 @@ Guitar multi-effects; distinct from ME-90. Checked2026-10-17; partial verificati
 | Complete I/O | Quarter-inch mono GUITAR INPUT;quarter-inch Gt.AMP OUTPUT L/MONO,R;stereo3.5mm REC OUT/PHONES;stereo3.5mm AUX IN;USB-B COMPUTER;DC IN. No FX loop,XLR,DIN MIDI or externalEXP socket listed. | [ME80-S][ME80-S] |
 | Power / current / battery / USB | Six alkalineLR6 orcarbon-zincR6 AA,or optionalPSA adapter;200mA draw. Approx7h alkaline/2h carbon-zinc,conditions vary. Voltage,polarity andUSB bus operation not established here. Adapter rating is not draw. | [ME80-S][ME80-S] [ME80-PWR][ME80-PWR] |
 | USB audio / MIDI | Audio recording/playback andMIDI documented. Driver required for supportedOS;Win10/11 driver auto-install needsinternet. USB LEVEL,direct monitor,loopback,dry-record settings available. AUX input does not reachUSB output. | [ME80-USB][ME80-USB] [ME80-AUX][ME80-AUX] |
-| Editor / software | BOSS Tone Studio patch editing/organizing onWindows/macOS;listed versions1.1.3Windows/1.1.2Mac. Support procedure requiresAdobeAIR. Driver is separate;exactcurrentOS compatibility needsversion-specific review. No mobileeditor established. | [ME80-P][ME80-P] [ME80-USB][ME80-USB] |
+| Editor / software | BOSS Tone Studio patch editing/organizing onWindows/macOS;listed versions1.1.3Windows/1.1.2Mac. Support procedure requiresAdobeAIR. Driver is separate;version-specific requirements and dated macOS status are detailed below. No mobileeditor established. | [ME80-P][ME80-P] [ME80-USB][ME80-USB] |
+| I/O / electrical ratings | Guitar input nominal−10dBu,1MΩ;AUX nominal−20dBu,27kΩ. Both main outputs andREC/PHONES nominal−10dBu. Main output impedance2kΩ, recommended load≥10kΩ;REC/PHONES44Ω, load≥16Ω. Nominal levels are not clipping maxima;44Ω is not headphone load or amplifier wattage. | [Exact manufacturer specifications][ME80-ELECT] checked2026-11-05 |
+| Processing / converters | A/D24-bit with AF method;D/A24-bit;44.1kHz. AF is a proprietary noise-performance method,not extra effective bits. These figures do not establish every USB stream format or measured dynamic range. | [ME80-ELECT] |
+| Editor / Windows requirements | Tone Studio1.1.3 is dated July2020; its currently published requirements list Windows7/8.1/10/11,Core2Duo+,1GB RAM,1024×768+. AdobeAIR and a separate ME-80 driver are required. Select ME-80 rather than ME-80 DAW CTRL in the editor. Manufacturer requirements,not a local installation test. | [Exact1.1.3 page][ME80-WIN] checked2026-11-05 |
+| Editor / dated macOS compatibility | Manufacturer table dated2026-10-30 marks **Hardware & Driver and Exclusive Application separately Yes(Download) for macOS11,12,13,14,15 and26;27 Golden Gate is Under Testing** for both. Requires dedicated downloads;not class-compliant operation or installed-version certification. | [Extended compatibility table][ME80-MAC-COMP] checked2026-11-05 |
+| USB / Mac driver versus editor | Support index lists driver1.0.6 for Sonoma14.x later,1.0.5 for11–13 andTone Studio1.1.2 forMac. The1.0.6 page defers exact OS support to the dated compatibility table;“later” is not blanket future-OS support. Editor1.1.2 history is March2017,including Sierra10.12 support;its age does not override the newer compatibility table. CPU-architecture and installed behavior untested. | [Driver1.0.6][ME80-MAC-DRIVER]; [Editor1.1.2][ME80-MAC-EDITOR] |
 | IR / NAM / capture | User IR import,nativeNAM,convertedNAM andproprietary capture loading not established. COSM factory amp/cab simulation does not prove any import capability. | Unresolved |
 | Looper / rhythms / scenes | PhraseLoop38s inDELAY selector,unlimited overdubs;delaypedal records/plays/overdubs,doubletapstops. Loops cannot be saved onunit. Polish manual p15 says stopping playback,changing DELAY type or powering off erases the recording;doubletap interval within1s. Undo,stereo limits,trails,drums andsnapshot-style scenes unverified. | [ME80-T][ME80-T] [ME80-LOOP][ME80-LOOP] [ME80-PL][ME80-PL] |
 | Routing / live | Category order fixed:COMP/FX1→OD/DS→PREAMP→PedalFX(off)→MOD→EQ/FX2→DELAY→REVERB;activatedPedalFX moves beforeOD/DS. NS global. Taptempo andchromatic tuner documented. | [ME80-CHAIN][ME80-CHAIN] [ME80-T][ME80-T] |
@@ -4387,7 +4392,7 @@ Guitar multi-effects; distinct from ME-90. Checked2026-10-17; partial verificati
 | Used | Unknown;no condition-verified used IDR offer established. | — |
 | Retail-style;condition unverified / Awlind Music Official,Kota Bandung | Rp4,992,000 indexed asking price,checked2026-10-17;cache approximately2months old with3–8August delivery. Stock,selected variant,bundle/adapter,warranty region,shipping,tax,voucher anddeliveredtotal unverified. Rp10,000 late-delivery compensation is not a product discount. Seller name does not authenticate the store. Not a verified new-condition orlive-stock price. | [78230612 /2847274757](https://shopee.co.id/ALAT-MUSIK-Boss-ME-80-Multi-Effects-Pedal-i.78230612.2847274757) |
 
-Remaining:full manual category reconciliation,user preset initialization,display details,power voltage/polarity/USB,import capabilities,dedicated synth,rhythm/scenes/looper details,currenteditor compatibility andqualifiedused/newoffers. Official multilingual manual open exceeded browser file-size limit;indexed manufacturer text inspected without saving a file. No software installed.
+Remaining:full manual category reconciliation,user preset initialization,display details,power voltage/polarity/USB,import capabilities,dedicated synth,rhythm/scenes/looper details,current installed editor/driver behavior andqualifiedused/newoffers. Official multilingual manual open exceeded browser file-size limit;indexed manufacturer text inspected without saving a file. No software installed.
 
 [ME80-P]: https://www.boss.info/us/products/ME-80/
 [ME80-S]: https://www.boss.info/fi/products/me-80/
@@ -4401,6 +4406,12 @@ Remaining:full manual category reconciliation,user preset initialization,display
 [ME80-AUX]: https://support.roland.com/hc/en-us/articles/24300263324955-ME-80-Does-the-audio-signal-input-to-the-AUX-IN-jack-output-through-the-USB
 [ME80-LOOP]: https://support.roland.com/hc/en-us/articles/4404885594779-ME-80-Can-I-save-to-the-unit-the-phrase-I-created-with-Phrase-Loop
 [ME80-PL]: https://www.roland.com/RolandComSite/media/pl/media/pdf/ME-80_PL.pdf
+
+[ME80-ELECT]: https://www.boss.info/ca/products/me-80/
+[ME80-WIN]: https://www.boss.info/global/support/by_product/me-80/updates_drivers/5c3dbcc4-493e-4b52-a0d6-3f4f06b03731/
+[ME80-MAC-COMP]: https://www.boss.info/global/support/support_news/25090811m2/
+[ME80-MAC-DRIVER]: https://www.boss.info/global/support/by_product/me-80/updates_drivers/c38f4c25-689f-4d64-a2c2-b1cd0e1ac8b4/
+[ME80-MAC-EDITOR]: https://www.boss.info/nz/support/by_product/me-80/updates_drivers/d7232198-4d37-415e-a5ff-f72890751095/
 
 ## ME-90
 
