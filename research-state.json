@@ -174305,5 +174305,30 @@
       "Exact current Shopee hardware"
     ],
     "next": "Continue accessible individual-footdisplay models andsystematicremainingprofiles;preserve independent GT-Pro,expression andGP200JR→Prime→GE300 queues"
+  },
+  "fm3_original_switching_expression_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--switching-expression-accessory-and-stand-in-scope",
+    "sources": [
+      "https://missionengineering.com/shop/sp-1/",
+      "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf"
+    ],
+    "revision": "SP-1 indexed manufacturer body three-month crawl; FM3 firmware7.x manual explicitly Standard,pp12,14,88,104",
+    "findings": [
+      "SP-1 explicitlyFM3-compatible;10klinear TRStiptowiper;separateTRSlatching switch output",
+      "Two local sockets selectexpression orone/twoswitch mode;one-switch disablesring",
+      "FollowHardware versusVirtualToggle/polarity qualified;Stand-In points to layout/switch Tap/Hold",
+      "Explicit wiring conflict:Mission indexedtip-wiper versusFM3manualtip-supply/ring-return;listedcompatibility doesnotreconcilecontacts"
+    ],
+    "remaining": [
+      "Expression-wiper contact conflict orrevision/adapter explanation",
+      "SP-1 switch contact pinout andexactcable",
+      "Currentfirmware equivalence",
+      "Globalvolume endpoints/recall andall-output coverage",
+      "QualifiedexactrevisionShopee stock"
+    ],
+    "market": "Fresh FM3second/FM9 andHXEffectsbekas queries yielded accessory/unrelated results,notnewqualifiedhardware",
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested individual-screen audio-modelgaps;deferunpublishedMegatap22/Reverb79names ratherthaninvent them;preserve independentGT-Pro,expression andGP200JR→Prime→GE300 queues"
   }
 }

@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(mooer): qualify GE300 version 5.1 editing and control recall'
+        message='research(fractal): qualify original FM3 switching expression option'
     print(git('commit','-m',message))
