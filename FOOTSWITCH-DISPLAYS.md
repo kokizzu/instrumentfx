@@ -223,3 +223,5 @@ Prime [doubled-block selection qualification](brand/HEADRUSH.md#prime--stereo-do
 Looper X [firmware-qualified status corrections](brand/SHEERAN-LOOPERS.md#firmware-qualified-display-midi-and-preset-preview-behavior) concern its shared screen and pedal LEDs; they do not establish individual footswitch screens.
 
 PLETHORA X5 [historical tempo/tuner display boundary](brand/TC-ELECTRONIC.md#plethora-x5--tuner-resource-and-tempo-display-limits): regional1.3.11 manual offers BPM/ms readouts andan independent hidden tuner;the later1.4.3 Tap/Tuner utility’s slotcost remains unverified. Neither adds physical LCDs orresolves their diagonal/touch specifications.
+
+MC8 PRO [switch-spacing andnavigation-lock qualification](brand/MORNINGSTAR.md#mc8-pro--switch-spacing-navigation-lock-and-label-recall): published switch spacing isnot screen size. Sensitivity andDual Switch Lock qualify paired-switch navigation;retained toggle labels do not establish connected-effect state. Four LCDs remain shared across eight switches.

@@ -169,3 +169,17 @@ Checked **2026-11-05**. The [manufacturer shop,exact MC8 PRO itemp751377518](htt
 The [manufacturer Fast Step Mode (Beta) article,updated28May2026](https://help.morningstar.io/en/article/fast-step-mode-beta-1en4rpc/) says ordinary MC8 PRO operation refreshes LCDs after each press;rapid consecutive presses may be missed while that work occurs. **Fast Step Mode** is a **Preset Utility** option that postpones display refresh to prioritize switch detection. Labels can therefore lag the presses. The article specifies no numerical detection latency,refresh delay orminimum firmware;its beta status is retained. It does not add physical screens orprove identical behavior on MC6 PRO/original MC8. No device test.
 
 Separately,the [manufacturer post dated16July2025,updated18August2025](https://www.morningstar.io/post/mc8-pro-post-launch-updates-and-user-reviews) dates MC8 PRO launch to **21May2025**,with **firmware3.13** at launch. That doesnot establish the Fast Step introduction version,current firmware orinstalled firmware. Pixel count,diagonal,touch,expression pinout andqualified exact Shopee stock remain unresolved. Controller stays outside the402active audio models;no downloads orconnection.
+
+### MC8 PRO — switch spacing, navigation lock and label recall
+
+Checked **2026-11-06**, [manufacturer MC8 PRO manual](https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/), **updated26October2026**, Controller Settings. Exact firmware minimum/installed behavior unverified.
+
+| Field | Exact-model distinction |
+|---|---|
+| Display / text controls | Separate settings control preset-label maximum font size,bank/long-name font size,andbank/page-number font size. Show Preset Labels adds switch letters;not extra physical screens orabsolute pixel/diagonal specifications. |
+| Switch / navigation trade-off | Higher Switch Sensitivity improves response butrequires more precise dual presses. **Dual Switch Lock disables dual presses**,including A+B Bank Down. Bank-change delay andLong Press time are separate settings;published numeric limits remain unverified. |
+| Memory / recall versus execution | Remember Toggle States retains switch positions across bank navigation;disabled,they reset toPosition1 onleaving. This documents controller states,not connected-processor preset recall orautomatic MIDI execution. Last Used Bank power-up recall is separately enabled;otherwise boot selectsBank1. |
+
+The [manufacturer switch-spacing article](https://help.morningstar.io/en/article/switch-spacing-for-midi-controllers-1pra9fe/), **updated22December2025**, publishes MC8 PRO **75.3mm horizontal /86.7mm vertical**. These are switch-spacing dimensions,not LCD dimensions,diagonal ormeasurements fromphotos. MC6 andoriginal MC8 values are not substituted.
+
+Exact Shopee Indonesia search recoveredno qualified new MC8 PRO hardware item;previous non-Shopee asks andmixed-variant exclusions remain. Four color LCDs serve eight switches;screen pixels/diagonal/touch,expression pinout andqualified stock remain unresolved. Controller staysoutside402audio models. No download,MIDI/device operation orseller contact. Next: accessible individual-footdisplay processor sources ornew exact Shopee hardware;preserve independent general andexpression queues.
