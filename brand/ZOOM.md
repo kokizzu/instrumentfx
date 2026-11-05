@@ -6182,6 +6182,18 @@ Verify current category subtotals,installed library/firmware,85preset slot map,d
 
 Checked 2026-10-19 against the [exact manufacturer manual](https://zoomcorp.com/manuals/ms-60bplus-en/), parts and signal-flow sections. No analog expression or dedicated headphone socket is listed. Retained master level does not establish pedal assignment. Direct-expression position/range and bypass/headphone/tail/looper coverage are inapplicable; digital attenuation remains unverified. Its 79 W ×133 D mm body fits the preference. Foot-operable direction buttons select patches; exact numerical down/up mapping remains unverified in accessible text. Ordinary guitar suitability remains unclassified; bass support is documented. Earlier revision, routing, MIDI and offer qualifications are preserved.
 
+### MS-60B+ — additional exact Shopee hardware observations
+
+Checked **2026-11-05**. Exact titles identify **MS-60B+**; seller guitar wording does not change the manufacturer-backed bass membership. The [current manufacturer page](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b-plus/) independently confirms the exact model. These observations supplement, rather than replace, the earlier sellers and prices.
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Condition unverified / Zoom Official Shop, Kota Jakarta Barat | **Rp2,377,770 with voucher**, checked **2026-11-05**. Opened item snapshot reports a six-day crawl and **8% discount with Rp70,000 minimum spend**. Eligibility, cap, base price and checkout total are unverified; do not subtract another8%. Same-day delivery/shop-active text and Mall/originality badges do not verify live stock, item condition or authenticity. Selected variant, bundle/adapter, firmware, warranty, shipping and tax remain unknown. Late-delivery compensation is separate. | [348182890/27868153813](https://shopee.co.id/Zoom-MS-60B-MultiStomp-Guitar-Multi-Effects-Pedal-i.348182890.27868153813) |
+| Condition unverified / NEO MUSIC, Kota Sukabumi; sold-out snapshot | **Rp2,554,400; Habis**, checked **2026-11-05**, in a five-month search snapshot with May25 delivery text. Direct retrieval returned cache miss. This is an unavailable historical ask, not a purchasable lower bound or completed sale. Condition, variant, bundle/adapter, warranty, firmware and delivered total remain unverified. | [158235298/18583780837](https://shopee.co.id/ZOOM-MS60B-MultiStomp-Bass-Pedal-i.158235298.18583780837) |
+
+Neither is admitted to verified new/used ranges. No seller contact, purchase, local download or device operation.
+
+
 ## MS-70CDR
 
 Reviewed **2026-10-17**, following exact Shopee hardware discovery. **Original MS-70CDR,not MS-70CDR+**. Guitar/bass multi-effects;no ownership claim. Partial research using official HTML and indexed manufacturer manual/effect-list text;no dependencies,manual files,firmware or software downloaded to the workspace. The manufacturer marks this original model discontinued;that does not establish seller stock.

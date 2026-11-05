@@ -170634,5 +170634,42 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue systematic missing fields and requested separate-screen hardware/profile gaps. Retain compatibility redirects for historical anchors; preserve GT-Pro/general, expression and consolidation queues."
+  },
+  "ms60bplus_exact_market_offers_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#ms-60b--additional-exact-shopee-hardware-observations",
+    "manufacturer": "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b-plus/",
+    "offers": [
+      {
+        "url": "https://shopee.co.id/Zoom-MS-60B-MultiStomp-Guitar-Multi-Effects-Pedal-i.348182890.27868153813",
+        "seller": "Zoom Official Shop",
+        "shop_id": "348182890",
+        "item_id": "27868153813",
+        "region": "Kota Jakarta Barat",
+        "ask_idr": 2377770,
+        "price_basis": "With voucher;8percent/minimumRp70000;eligibility/cap/base price unverified;no extra discount applied",
+        "condition": "unverified",
+        "stock": "unverified",
+        "bundle": "unverified",
+        "warranty": "unverified",
+        "access": "Opened six-day-crawl snapshot;not checkout"
+      },
+      {
+        "url": "https://shopee.co.id/ZOOM-MS60B-MultiStomp-Bass-Pedal-i.158235298.18583780837",
+        "seller": "NEO MUSIC",
+        "shop_id": "158235298",
+        "item_id": "18583780837",
+        "region": "Kota Sukabumi",
+        "ask_idr": 2554400,
+        "condition": "unverified",
+        "stock": "Habis in five-month search snapshot;current state unverified",
+        "bundle": "unverified",
+        "warranty": "unverified",
+        "access": "Search snapshot;direct cache miss"
+      }
+    ],
+    "verified_new_used_ranges_changed": false,
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested separate-display andsystematic model profile gaps plusexactmarket discovery;preserveGT-Pro/general,expression andconsolidationqueues."
   }
 }
