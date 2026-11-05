@@ -452,7 +452,7 @@ def readme_counts(text, state, membership):
     count = state['canonical_root_model_count']
     for pattern, replacement in (
         (r'All \d+ recorded models have root brand sections\.', f'All {count} recorded models have root brand sections.'),
-        (r'Organization migration is incomplete:\*\* \d+ detailed models are root-canonical; \d+ still rely on legacy source records\.', f"Organization migration is incomplete:** {count} detailed models are root-canonical; {state['legacy_only_model_count']} still rely on legacy source records."),
+        (r'(Organization migration is (?:incomplete|verified):\*\*) \d+ detailed models are root-canonical; \d+ still rely on legacy source records\.', r'\g<1> '+f"{count} detailed models are root-canonical; {state['legacy_only_model_count']} still rely on legacy source records."),
         (r'(?<=profiles; )\d+ detailed models are root-canonical', f'{count} detailed models are root-canonical'),
         (r'\*\*\d+ active model records', f"**{state['active_model_count']} active model records"),
         (r'(?m)^(\*\*\d+ active model records · )\d+( brands ·)', r'\g<1>' + str(sum(bool(models) for models in state['inventory_by_brand'].values())) + r'\g<2>'),
@@ -1130,6 +1130,10 @@ def test_readme_brand_counts():
     assert json.dumps(retained, sort_keys=True) == before_archive_metadata, 'Existing archive provenance must not require deleted input files'
     state = json.loads((ROOT/'research-state.json').read_text())
     text = (ROOT/'README.md').read_text()
+    for status in ('incomplete', 'verified'):
+        status_text = re.sub(r'Organization migration is (?:incomplete|verified)', 'Organization migration is '+status, text)
+        status_rendered = readme_counts(status_text, state, state['comparison_membership'])
+        assert 'Organization migration is '+status+':**' in status_rendered, 'Count refresh changed migration status'
     fixture = json.loads(json.dumps(state))
     fixture['inventory_by_brand']['Regression Brand'] = ['One', 'Two']
     fixture['inventory_by_brand']['Empty Brand'] = []

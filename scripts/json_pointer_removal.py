@@ -29,48 +29,42 @@ def assert_scope(records):
 
 
 def refresh_live_metadata(state, removed, markdown_count, existing_references):
-    migration = state['migration']
-    migration['legacy_reference_files'] = [
-        path for path in migration.get('legacy_reference_files', [])
-        if path in existing_references
-    ]
-    original_count = markdown_count + len(PATHS)
-    if removed:
-        migration['content_consolidation_status'] = (
-            f'All{original_count} original legacy paths accounted for;three JSON pointers removed '
-            f'after typed root reconstruction;{markdown_count} Markdown compatibility files '
-            'retained for historical anchors. Overall migration and technical research remain incomplete.'
-        )
-        task = ('Three redundant JSON pointers removed after exact typed-content verification; '
-                'Markdown redirects remain for historical anchors. Continue technical research '
-                'and audit remaining compatibility layout.')
-    else:
-        migration['content_consolidation_status'] = (
-            f'All{original_count} legacy compatibility paths retained after JSON pointer rollback;'
-            'typed root reconstruction remains verified.'
-        )
-        task = ('Three JSON pointers restored from reviewed exact bytes; Markdown redirects '
-                'remain for historical anchors. Continue technical research and compatibility audit.')
-    state['cursor'].update(
-        model='Legacy JSON pointer cleanup', task=task,
-        after_queue=f"{state['active_model_count']} partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
-    )
+    migration=state['migration']
+    migration['legacy_reference_files']=[path for path in migration.get('legacy_reference_files',[]) if path in existing_references]
+    remaining=markdown_count+(0 if removed else len(PATHS))
+    accounting=migration.get('legacy_file_retirement')
+    original_count=accounting['original_paths'] if accounting is not None else markdown_count+len(PATHS)
+    if accounting is not None:
+        accounting['files_remaining']=remaining
+    migration['complete']=bool(migration.get('complete')) and remaining==0
+    migration['content_consolidation_status']=(f'{original_count} original legacy paths retain root/Git-backed evidence; '
+        +f'{remaining} compatibility files remain after JSON pointer '+('removal' if removed else 'restoration')
+        +'. Technical and market research remain incomplete.')
+    # Cleanup and rollback do not replace independent model-research cursors.
 
 
 def test_live_metadata():
-    # Exercise metadata only: no pointer deletion/restoration or filesystem writes.
-    for count in (342, 344, 400):
-        for removed in (True, False):
-            sample = dict(active_model_count=count, cursor={}, migration={
-                'legacy_reference_files':['effects/research-state.json','effects/RESUME.md']})
-            existing = {'effects/RESUME.md'}
-            if not removed:
-                existing.add('effects/research-state.json')
-            refresh_live_metadata(sample, removed, 114, existing)
-            assert sample['cursor']['after_queue'].startswith(str(count)+' partial')
-            assert set(sample['migration']['legacy_reference_files']) == existing
-            assert ('removed' if removed else 'restored') in sample['cursor']['task']
-            assert '117' in sample['migration']['content_consolidation_status']
+    for count in (342,344,400):
+        for removed in (True,False):
+            for markdown_count in (0,114):
+                sample=dict(active_model_count=count,cursor={'model':'preserved research','after_queue':'preserved queue'},migration={
+                    'complete':True,'legacy_file_retirement':{'original_paths':117,'files_remaining':0},
+                    'legacy_reference_files':['effects/research-state.json','effects/RESUME.md']})
+                expected_cursor=dict(sample['cursor'])
+                existing={'effects/RESUME.md'} if markdown_count else set()
+                if not removed:
+                    existing.add('effects/research-state.json')
+                refresh_live_metadata(sample,removed,markdown_count,existing)
+                remaining=markdown_count+(0 if removed else len(PATHS))
+                assert sample['cursor']==expected_cursor, 'JSON maintenance changed independent research cursor'
+                assert sample['migration']['complete'] is (remaining==0)
+                assert sample['migration']['legacy_file_retirement']['files_remaining']==remaining
+                assert set(sample['migration']['legacy_reference_files'])==existing
+                assert '117' in sample['migration']['content_consolidation_status']
+    incomplete={'migration':{'complete':False},'cursor':{}}
+    refresh_live_metadata(incomplete,True,0,set())
+    assert incomplete['migration']['complete'] is False, 'Cleanup must not auto-certify migration'
+    print('PASS: JSON maintenance preserves research cursor andoriginal path count; rollback invalidates completion and updates live file count')
 
 
 def verify():
@@ -121,7 +115,7 @@ def plan(rollback=False):
     payload = dict(operation='restore' if rollback else 'remove', inputs=inputs, records=records,
                    source_commit=research_tools.git('rev-parse','HEAD').strip(),
                    rollback='make json-pointer-rollback-plan then make json-pointer-removal-apply',
-                   scope='Only three JSON pointers; all Markdown redirects and historical anchors retained')
+                   scope='Only three JSON pointer paths; Markdown retirement state and research queues unchanged')
     PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(dict(plan=str(PLAN),operation=payload['operation'],exact_paths=[dict(path=p,sha256=e['sha256'],bytes=len(e['pointer_text'].encode())) for p,e in records.items()],incoming_markdown_links=0,original_and_typed_root_content_verified=True,rollback=payload['rollback']),indent=2))
 
@@ -139,6 +133,7 @@ def apply():
     resume = checkpoint.get('plan_sha256') == plan_sha
     for path, entry in payload['records'].items():
         target = ROOT/path
+        assert not target.is_symlink() and target.resolve().is_relative_to(ROOT.resolve()), 'Invalid JSON pointer location: '+path
         if payload['operation'] == 'remove':
             assert (resume and not target.exists()) or (target.is_file() and not target.is_symlink() and digest(target.read_text()) == entry['sha256']), 'Changed pointer: '+path
         else:
@@ -161,12 +156,15 @@ def apply():
             state['migration']['retired_sources'][path]['status'] = 'removed_json_pointer'
         else:
             if not target.exists():
-                target.write_text(entry['pointer_text'])
+                from compatibility_removal import restore_missing
+                restore_missing(target,entry['pointer_text'])
             state['migration']['retired_sources'][path]['status'] = 'retired_json_pointer'
         checkpoint['paths'][path] = 'applied'
         CHECKPOINT.write_text(json.dumps(checkpoint,indent=2)+'\n')
     removed = payload['operation'] == 'remove'
-    state['migration']['json_pointer_removal'] = dict(status='removed' if removed else 'restored',checked_date='2026-10-18',records=payload['records'],rollback=payload['rollback'],source_commit=payload['source_commit'],remaining_markdown_compatibility_paths=len(list((ROOT/'effects').rglob('*.md'))))
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    state['migration']['json_pointer_removal'] = dict(status='removed' if removed else 'restored',checked_date=datetime.now(ZoneInfo('Asia/Singapore')).date().isoformat(),records=payload['records'],rollback=payload['rollback'],source_commit=payload['source_commit'],remaining_markdown_compatibility_paths=len(list((ROOT/'effects').rglob('*.md'))))
     state['migration']['legacy_json_retirement'].update(pointer_files_removed=removed,no_source_deletion=not removed)
     refresh_live_metadata(state, removed, len(list((ROOT/'effects').rglob('*.md'))),
                           {p for p in state['migration'].get('legacy_reference_files', []) if (ROOT/p).is_file()})

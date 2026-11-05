@@ -51,7 +51,7 @@ def audit():
     report['legacy_incoming_by_target'] = {path: len(items) for path, items in callers.items()}
     report['legacy_incoming_occurrences'] = legacy_links
     report['legacy_without_local_incoming'] = [path for path, items in callers.items() if not items]
-    report['legacy_retention_basis'] = 'Old-anchor compatibility required by AGENTS.md; zero local incoming links does not prove no external callers.'
+    report['legacy_retention_basis'] = 'Original anchors and path spellings remain in Git-backed provenance; local callers are audited,external historical callers are not certified.'
     assert sum(report['legacy_incoming_by_target'].values()) == len(legacy_links)
     if state['migration'].get('root_navigation_canonical'):
         assert report['root_to_legacy_links'] == 0, 'Root navigation regressed to legacy compatibility paths'
@@ -62,6 +62,28 @@ def audit():
     return report
 
 
+def refresh_migration_status(state,report):
+    migration=state['migration']
+    remaining=report['legacy_files']
+    migration['complete']=bool(migration.get('complete')) and remaining==0
+    if 'legacy_file_retirement' in migration:
+        migration['legacy_file_retirement']['files_remaining']=remaining
+    status='Consolidation verified' if migration['complete'] else 'Final consolidation verification pending'
+    migration['content_consolidation_status']=(f"{report['registered_redirects']} registered original paths retain root/Git-backed evidence; "
+        +f"{remaining} legacy files remain. {status}; technical and market research remain incomplete.")
+
+
+def test_state():
+    for was_complete, remaining, expected in ((True,0,True),(False,0,False),(True,2,False)):
+        state={'migration':{'complete':was_complete,'legacy_file_retirement':{'files_remaining':99}},'cursor':{'model':'unchanged'}}
+        report={'legacy_files':remaining,'registered_redirects':117}
+        refresh_migration_status(state,report)
+        assert state['migration']['complete'] is expected
+        assert state['migration']['legacy_file_retirement']['files_remaining']==remaining
+        assert state['cursor']=={'model':'unchanged'}
+    print('PASS: navigation refresh preserves verified migration only with zero legacy files; never auto-promotes completion or changes research cursor')
+
+
 def save():
     report=audit()
     import metadata_consolidation
@@ -69,9 +91,8 @@ def save():
     metadata_consolidation.verify()
     technical_retirement.specialist_verify()
     state=json.loads((ROOT/'research-state.json').read_text())
-    state['migration']['navigation_audit']=dict(report,checked_date=datetime.now(ZoneInfo('Asia/Singapore')).date().isoformat(),status='passed',remaining='Compatibility paths and preserved historical links intentionally remain;this audit does not certify external offers or full model specifications.')
-    state['migration']['content_consolidation_status']='All117 legacy Markdown/JSON paths accounted for;root content and pinned-original checks pass;compatibility redirects remain.'
-    state['migration']['complete']=False
+    state['migration']['navigation_audit']=dict(report,checked_date=datetime.now(ZoneInfo('Asia/Singapore')).date().isoformat(),status='passed',remaining='Technical specifications,current stock andexternal availability are not certified by this preservation/navigation audit.')
+    refresh_migration_status(state,report)
     import comparison_views
     comparison_views.verify_views()
     focused = set(comparison_views.BASS_FOCUSED)
@@ -83,13 +104,8 @@ def save():
     assert set(membership['all-bass.md']) == focused | shared_bass
     assert set(membership['all-vocal.md']) == vocal_only | vocal_shared
     state['validation'].update(bass_focused_models=len(focused), bass_shared_models=len(shared_bass), vocal_only_models=len(vocal_only))
-    state['migration']['warning']=f"{state['canonical_root_model_count']} root-canonical models;{state['legacy_only_model_count']} legacy-only. Legacy compatibility files remain;specification and market research incomplete."
-    state['migration']['root_category_and_instrument_views']=f"Four-table comparisons: {len(membership['all-guitar.md'])} guitar, {len(membership['all-bass.md'])} documented bass-capable, {len(membership['all-vocal.md'])} vocal; technical and market verification remain incomplete."
-    readme=(ROOT/'README.md').read_text()
-    import re
-    readme, n1=re.subn(r'All \d+ recorded models have root brand sections\.', f"All {state['canonical_root_model_count']} recorded models have root brand sections.", readme)
-    readme, n2=re.subn(r'Organization migration is incomplete:\*\* \d+ detailed models are root-canonical; \d+ still rely on legacy source records\.', f"Organization migration is incomplete:** {state['canonical_root_model_count']} detailed models are root-canonical; {state['legacy_only_model_count']} still rely on legacy source records.", readme)
-    assert n1 == n2 == 1, 'README count statements changed; inspect before saving'
+    state['migration'].update(comparison_views.migration_counts(state,membership))
+    readme=comparison_views.readme_counts((ROOT/'README.md').read_text(),state,membership)
     shared.atomic_write(ROOT/'README.md',readme)
     # Preserve the model research cursor; navigation maintenance is not a new model task.
     shared.atomic_write(ROOT/'research-state.json',json.dumps(state,ensure_ascii=False,indent=2)+'\n')
@@ -111,4 +127,4 @@ def commit():
     print(research.git('commit','-m','docs: audit remaining legacy compatibility callers'))
 
 if __name__=='__main__':
-    {'audit':audit,'save':save,'commit':commit}[sys.argv[1] if len(sys.argv)>1 else 'audit']()
+    {'audit':audit,'save':save,'commit':commit,'test-state':test_state}[sys.argv[1] if len(sys.argv)>1 else 'audit']()

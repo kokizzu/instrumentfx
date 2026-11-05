@@ -2598,3 +2598,7 @@ archive-compatibility-remove-plan:
 	python3 scripts/compatibility_removal.py archive-remove-plan
 archive-compatibility-restore-plan:
 	python3 scripts/compatibility_removal.py archive-restore-plan
+
+.PHONY: navigation-test-state
+navigation-test-state:
+	python3 scripts/navigation_tools.py test-state

@@ -10,6 +10,7 @@ Canonical root brand profiles; all retain explicit verification gaps. Preserved 
 - [AD-10](#ad-10)
 - [EX-4 — partial no-treadle discovery lead](#ex-4--partial-no-treadle-discovery-lead)
 - [GM-800](#gm-800)
+- [GP-10 — partial creative discovery lead](#gp-10--partial-creative-discovery-lead)
 - [GS-10](#gs-10)
 - [GT-1](#gt-1)
 - [GT-001](#gt-001)
@@ -58,6 +59,7 @@ Canonical root brand profiles; all retain explicit verification gaps. Preserved 
 - [VE-22](#ve-22)
 - [VE-500](#ve-500)
 - [VF-1 — partial discovery lead](#vf-1--partial-discovery-lead)
+- [VG-800 — partial Shopee and no-treadle discovery](#vg-800--partial-shopee-and-no-treadle-discovery)
 <!-- brand-index ends -->
 
 ## AD-2
@@ -1263,7 +1265,6 @@ Checked **2026-11-05**, [manufacturer Parameter Guide/Sound List, English02, pri
 | IDR / additional CH MUSIC hardware ask | **Rp4.550.000**, [CH MUSIC,shop195817632/item25052166296](https://shopee.co.id/BOSS-GT-1B-Bass-Effects-Processor-Efek-Pedal-Bass-BOSS-GT1B-i.195817632.25052166296), KotaJakartaPusat. Last-week indexed exact GT-1B hardware title; direct page cache-missed. Condition, selected variant, working state, firmware, bundle/adapter, warranty, stock, shipping/tax and checkout total remain unknown. Cached same-day delivery is not stock confirmation; up-to-Rp10.000 late compensation is not deducted. Separate from the older Hurtrock/Cityland/Rockpizz observations. |
 
 Bass-only membership and ownership status are unchanged. No preset, firmware or software downloaded; no audio/controller test. The broader creative index reuses existing catalogue evidence and does not certify every recorded processor.
-
 
 ## GT-3
 
@@ -5225,7 +5226,6 @@ Checked **2026-11-04**, [Parameter Guide e02,©2015,pp11,13,17–18,20](https://
 **MAINOUT OFFMOD:** BYPASS removes synth/effects and passes dry guitar; SYNTH OFF retains FX/routing and external-return processing. **SUBOUT OFFMOD:** MUTE,BYPASS,ALWAYS ON; even ALWAYS ON loses synth when MAIN uses SYNTH OFF. Continuous EXP attenuation in these states remains unverified.
 
 SUBOUT SYS CTL overrides patch SUB settings; THRU can feed SUB only with that system control enabled. OUTPUT LEVEL MODE assigns the physical knob to MAIN+SUB,MAIN,SUB or neither; it does not assign EXP. Headphone,USB,tail andrecorded-loop coverage remain unresolved. No hardware operation.
-
 
 ## SY-1000 — partial discovery lead
 

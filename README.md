@@ -21,7 +21,7 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 
 Instrument views overlap; a shared processor counts once. View counts are not added to obtain the catalogue total.
 
-Root navigation links directly to canonical root documents. Historical link spellings and pinned-source provenance remain recoverable through `research-state.json` and Git. Original legacy content is consolidated in root documents and the ledger; final migration verification and technical research remain incomplete.
+Root navigation links directly to canonical root documents. Historical link spellings and pinned-source provenance remain recoverable through `research-state.json` and Git. Legacy consolidation is verified against the complete registered source inventory and reachable history. Technical and market research remain incomplete.
 
 ## Root brand documents
 
@@ -77,7 +77,7 @@ Root navigation links directly to canonical root documents. Historical link spel
 | [brand/YAMAHA.md](brand/YAMAHA.md) | AG-Stomp, DG-Stomp, Magicstomp Acoustic, Magicstomp Bass, Magicstomp Guitar MK2, Magicstomp original Guitar, REV500, SPX900, SPX990, SPX1000, SPX2000 |
 | [brand/ZOOM.md](brand/ZOOM.md) | 505 original, 505II, 506II, 606, 607, 707II, 708II, 1201, A1 FOUR, A1X FOUR, A2, A3, B1 FOUR, B1on, B1X FOUR, B1X original, B1Xon, B2, B2 FOUR, B2.1u, B3, B3n, B6, G1 FOUR, G1 original, G1on, G1X FOUR, G1Xnext, G1Xon, G2 FOUR, G2.1Nu, G2.1u, G2Nu, G2X FOUR, G3, G3n, G3X, G3Xn, G5, G5n, G6, G7.1ut, G11, GFX-3, GFX-4, GFX-5, GFX-707, MS-50G, MS-50G Plus, MS-60B, MS-60B Plus, MS-70CDR, MS-70CDR Plus, MS-80IR Plus, MS-100BT, NEURIG, RFX-1000, RFX-1100, RFX-2000, RFX-2200, V3, V6-SP |
 
-All recorded models are compared in their applicable instrument pages, with full-record links. All 402 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish the final migration audit. Do not create a new dated finding, progress part or document under `effects/`.
+All recorded models are compared in their applicable instrument pages, with full-record links. All 402 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; technical/market verification is incomplete. Migration verification covers source preservation and local navigation; it does not certify unresolved model fields or live stock. Do not create a new dated finding, progress part or document under `effects/`.
 
 ## Research ledger
 
@@ -87,7 +87,7 @@ The [research ledger](research-state.json) records source provenance, model comm
 
 Technical verification and Shopee discovery remain incomplete. The ledger’s current cursor identifies the next task; a missing field means unverified, not No. Cached asking prices do not establish live stock.
 
-**Organization migration is incomplete:** 402 detailed models are root-canonical; 0 still rely on legacy source records. Historical source paths and anchors remain recorded in Git-backed provenance. Preservation checks do not certify technical specifications, current stock or exhaustive market coverage. See the ledger for preservation manifests, rollback metadata and remaining migration work.
+**Organization migration is verified:** 402 detailed models are root-canonical; 0 still rely on legacy source records. Historical source paths and anchors remain recorded in Git-backed provenance. Preservation checks do not certify technical specifications, current stock or exhaustive market coverage. See the ledger for preservation manifests, rollback metadata and remaining research.
 
 ## Scope and ownership
 
