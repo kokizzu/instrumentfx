@@ -6,6 +6,7 @@ Manufacturer-backed partial profiles;unknown does not mean No.
 **Model and section index — A–Z, natural numeric order**
 
 - [BP355](#bp355)
+- [EX-7 Expression Factory — partial discovery lead](#ex-7-expression-factory--partial-discovery-lead)
 - [GNX3](#gnx3)
 - [GNX4](#gnx4)
 - [GNX3000 — partial discovery lead](#gnx3000--partial-discovery-lead)
@@ -131,6 +132,28 @@ Checked2026-10-18;no installer downloaded or executed.
 | Memory / factory reset | Factory reset erases custom User presets and then automatically enters expression calibration. This differs from standalone calibration, which preserves User presets. |
 
 <!-- comparison evidence ends -->
+
+## EX-7 Expression Factory — partial discovery lead
+
+Checked **2026-11-05**. Outside active counts; ownership and bass/vocal membership unverified. Broader catalogue discovery,not an individual-footswitch-screen orno-treadle candidate.
+
+[Manufacturer-linked manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_Expression_EX-7_OwnersMan_5037184-B.pdf),via [current manual index](https://digitech.com/product-manuals/):filename5037184-B;footer **18-0351-A,printed12/2005**. Filename isnot a firmware version. PDFpages6,8–11,14–19,22–25,32,35–36.
+
+| Field | Evidence / qualification |
+|---|---|
+| Architecture | One ofseven expression effects plusone ofseven distortion models together; six associated cabinet models. Not seven simultaneous effects. |
+| Expression / controls | Built-in treadle,toe/heel switches;three concentric dual controls plus MODEL selector. Optional FS3X usesTRS;external analog expression unsupported bythis socket documentation. Separate button census pending. |
+| Choices | Cry Baby,Clyde McCoy Wah,XP300 Synth Swell,Whammy,Uni-Vibe,Leslie147,A/DA Flanger. |
+| Synth / pitch | Synth Swell combines pitch,chorus andamplitude attack;dedicated tracking synthesis/polyphony unverified. Whammy note polyphony unverified. |
+| Memory | Distortion choice saves per effect;general preset capacity unverified. |
+| Volume | Model7 bypass provides volume;enabling effect/distortion disables that volume function. Not universal always-active volume. |
+| Ports | INPUT,FOOTSWITCH,two TS outputs,power. Four output modes;no dedicated headphones documented. |
+| Body | 10.14L×3.84W×2.47H inches;3.38lb;4.5W consumption. |
+| Display / loading / software | Status LED documented;screen specifications,IR/NAM import,editor,USB power,battery,looper/drums unverified. |
+
+[Current manufacturer supply table](https://digitech.com/faqs/):PS0913B **9VAC,1.3A**,5.5mm barrel/2.5mm pin,9.5mm length. This isAC,not center-negative9VDC ormeasured draw. Regional mains adapters differ.
+
+**Shopee Indonesia:** targeted exact-model search returned no qualified hardware offer;not proof ofmarket absence. New/used IDR,condition,stock,seller/item,bundle,warranty,region,voucher andcheckout total remain unknown. No download ordevice operation. Eligibility andcomplete-profile review precede any active admission.
 
 ## GNX3
 

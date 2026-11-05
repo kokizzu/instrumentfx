@@ -2602,3 +2602,9 @@ archive-compatibility-restore-plan:
 .PHONY: navigation-test-state
 navigation-test-state:
 	python3 scripts/navigation_tools.py test-state
+
+.PHONY: brand-sort-plan-digitech brand-sort-apply-digitech
+brand-sort-plan-digitech:
+	python3 scripts/brand_sort.py plan brand/DIGITECH.md
+brand-sort-apply-digitech:
+	python3 scripts/brand_sort.py apply brand/DIGITECH.md

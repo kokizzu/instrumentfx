@@ -173941,5 +173941,24 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requested separate-footdisplay processors and exact Shopee hardware; preserve independent GT-Pro, expression-volume and GP200JR→Prime→GE300 queues."
+  },
+  "digitech_ex7_discovery_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/DIGITECH.md#ex-7-expression-factory--partial-discovery-lead",
+    "status": "New partial broader catalogue lead; outside active inventory, ownership unverified",
+    "sources": [
+      "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_Expression_EX-7_OwnersMan_5037184-B.pdf",
+      "https://digitech.com/product-manuals/",
+      "https://digitech.com/faqs/"
+    ],
+    "source_identity": "Official index links filename5037184-B; document footer18-0351-A printed12/2005; not a firmware version",
+    "market": "Exact Shopee Indonesia queries yielded no qualified hardware item; no market-absence claim",
+    "remaining": [
+      "Eligibility and complete-profile review",
+      "Exact qualified Shopee hardware",
+      "Unresolved fields explicitly retained in canonical record"
+    ],
+    "inventory_change": 0,
+    "next": "Requested separate-footdisplay models remain first priority; preserve GT-Pro and independent expression/general queues."
   }
 }

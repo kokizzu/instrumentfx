@@ -198,6 +198,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Hologram Microcosm](brand/HOLOGRAM.md#microcosm--partial-discovery-lead) is a **new partial lead outside active counts and the additional-record index**. Its sample-based granular/pitch processing, filter, modulation, reverb and looper are documented; dedicated tracking synthesis and acoustic simulation remain unverified. [Hold/Looper exclusion and Burst storage limits](brand/HOLOGRAM.md#microcosm--looper-concurrency-and-preset-storage-exceptions) qualify simultaneous use and saving.
 
+[DigiTech EX-7 Expression Factory](brand/DIGITECH.md#ex-7-expression-factory--partial-discovery-lead) is a newly recorded **partial lead outside active counts and the 93-record index**. Its canonical record retains the manufacturer’s processing, volume-mode and evidence limitations; it is not part of the seven-model fresh comparison.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.
