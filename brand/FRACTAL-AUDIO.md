@@ -1005,6 +1005,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Exceeds preferred200W×140D footprint. [Standard-covered7.x specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Processing / simultaneous limits | **12×4 grid**,DSP-limited. June2023 exactFM3 inventory:36 available classes,63 summed instance allowances including routing/control;not63 simultaneous effects. Historical1.x CPU limit approximately80%,overload mutes processing. Current13.0 equivalence untested. [Inventory](#fm3-original--dated-block-inventory-and-looper);[CPU](#fm3-original--initial-memory-dsp-and-current-support). |
 | Categories / November reference | [November2026 FM3 column](#fm3-original--november-reference-category-and-instance-comparison): 36 supported rows,63 summed allowances including utilities, **not63 simultaneous effects**. Delay shared29 becomes27 after two explicit FM3 exclusions. Reference counts are not installed certification or completed named censuses. |
+| Processing / Drive named census | [87-choice reconciliation and full shared names](#fm3-original--drive-census-and-lo-fi-processing), November2026 reference. Two FM3 Drive instances, CPU permitting. Bit Reduce/Sample Rate are lo-fi processing; Shimmer Drive is a boost, not shimmer reverb. Installed equivalence/introduction versions unverified. |
 | Processing / Megatap and Reverb limits | [November reference](#fm3-original--megatap-limits-and-reverb-pitch-exclusion): Megatap4s/64 FM3 taps; Reverb integrated pitch unavailable on FM3. One instance each, CPU permitting. Headline22 Megatap/79 Reverb choices are not completed named inventories; sustained tails do not establish phrase-loop retention. |
 | Processing / named Multi-Delay choices | [39 types](#fm3-original--named-multi-delay-types-and-internal-processing): six core plus33 variants, one FM3 block, CPU permitting. Quad Parallel/Series include ring/comb processing; Quad Tape lacks the separate chorus subsection. Internal processing is not additional block capacity or synth-polyphony proof. November2026 reference; installed equivalence untested. |
 | Processing / named Plex choices | [45 Plex types](#fm3-original--named-plex-types-and-sustained-tail-processing): five core plus40 variants, one FM3 block, CPU permitting. Detune±50cents; Shift±24semitones. Internal voices and held tails do not establish tracking-synth polyphony or separate looper storage. November2026 reference, installed equivalence untested. |
@@ -1316,6 +1317,15 @@ Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,57–58,93
 | Reverb | **Integrated pitch shifting unavailable on FM3** because of CPU limits; some types consequently differ. One instance, CPU permitting. Headline79 is not a completed named census. Nine groups: Chamber,Cloud,Echo,Hall,Huge,Plate,Room,SFX,Spring; groups are not individual algorithms. |
 
 Reverb HOLD closes input while sustaining the tail; STACK admits new audio. This does not establish phrase-loop memory or preset/power retention. Reverb’s exclusion doesnot remove the separate Pitch or Plex processing. Other categories and hardware gaps remain open. No download or device operation.
+
+
+### FM3 original — Drive census and lo-fi processing
+
+Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, pp3,39–42](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf); [Original support](https://www.fractalaudio.com/fm3-downloads/). Direct family-reference check, not installed-firmware verification.
+
+The source reconciles **87 choices:21+42+24**, expanding Timothy Up/Down/Mid into three selections. The [full shared named list](#fm9-mkii-turbo--named-drive-inventory-source-details) already transcribed elsewhere in this brand document matches these source pages. Only those names are reused: **FM3 permits two Drive blocks**, CPU permitting, rather than FM9’s three. Older dated inventories remain history. Introduction versions and installed equivalence are unverified.
+
+**Bit Crusher**, Bit Reduce and Sample Rate establish lo-fi processing. Bit Reduce subtracts from24-bit resolution;20 produces4-bit effect processing. Sample Rate deliberately adds aliasing. Neither specifies the hardware converters or establishes synthesis. **Shimmer Drive is a boost**, not shimmer reverb. NoAmp Bass Pre removes NoAmp Bass DI’s modeled speaker emulation; these names add no physical DI connector. Other category-list and hardware gaps remain open. No download or device operation.
 
 
 ## FM9 MKII Turbo

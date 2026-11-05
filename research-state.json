@@ -169053,5 +169053,40 @@
     ],
     "next": "Continue accessible original FM3 Drive inventory and other display-model gaps; retain unresolved name-list questions without certifying them complete, and preserve expression/general queues.",
     "inventory_change": 0
+  },
+  "fm3_original_drive_census_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Fractal Audio FM3 original",
+    "source": {
+      "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "November 2026",
+      "pages": "3,39–42"
+    },
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--drive-census-and-lo-fi-processing",
+    "names_reference": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--named-drive-inventory-source-details",
+    "counts": {
+      "page39": 21,
+      "page40": 42,
+      "page41_timothy_expanded": 24,
+      "total": 87,
+      "fm3_instances": 2
+    },
+    "qualification": "Full existing same-guide names rechecked against primary pages; no FM9 instance ceiling inherited. Installed equivalence/introduction versions unverified.",
+    "findings": [
+      "Bit reduction and intentional aliasing are effect processing, not ADC specifications or synth tracking",
+      "Shimmer Drive is a boost",
+      "NoAmp Bass Pre excludes modeled speaker emulation, not a new physical DI port"
+    ],
+    "remaining": [
+      "Megatap/Reverb complete named lists",
+      "Graphic EQ count/names reconciliation",
+      "Volume mode exact UI label",
+      "Original headphone hardware variants",
+      "Physical display details",
+      "Global-volume endpoints, recall and coverage",
+      "Qualified current Indonesian stock"
+    ],
+    "next": "Continue accessible display-model gaps; keep unresolved FM3 list/hardware questions queued and preserve expression and GP-200JR → Prime → original GE300 queues.",
+    "inventory_change": 0
   }
 }
