@@ -141987,7 +141987,30 @@
     ],
     "technical_refresh": false,
     "market_refresh": false,
-    "remaining": "Current1.1.0 body,globalassignment/coverage,currentstock,touch andwiring stillunverified"
+    "remaining": "Current1.1.0 body,globalassignment/coverage,currentstock,touch andwiring stillunverified",
+    "manual_110_recovery": {
+      "checked": "2026-11-06",
+      "canonical": "brand/VALETON.md#gp-50--manufacturer-110-manual-recovered-and-control-scope",
+      "listing": "https://www.valeton.net/wpfd_file/gp-50_online-manual_en_firmware-v1-1-0-pdf/",
+      "source": "https://res.diversitone.com/Uploads/wp/download/1787705999178.GP-50_Online%C2%A0Manual_EN_Firmware%20V1.1.0.pdf",
+      "bytes": 12848115,
+      "sha256": "f305a25b359bfa60bad56aa7b199591d1d8d1b53893b1f37abd9fafb282f7cea",
+      "pages": 31,
+      "revision": "CoverForFirmwareV1.1.0;PDFmetadata2026-07-20/listing2026-08-26 notfirmwarereleaseproof",
+      "inspection": "CompletePDFtextread0–30 inboundedranges;cover/printed8/13rendered andvisuallyinspected;one rollingPDF/PNG/no retainedtextexport",
+      "expression": "p13defaultVOL,target/enable/endpoints0–100PatchEditing;patchchange/save warning;Predefaultchaintails/Postcuts;globaloverride/heldposition/outputcoverageunknown",
+      "midi": "pp18–19 TRS/USB/BT/MIX;separateOmni1–16;BTcontrollerpair/search/disconnect;noM-VAVEwiring/modelcertification",
+      "navigation": "CoverAleft/minus,Bright/plus;p8arrows+PatchModeprose;diagram-backed directions,wrapunknown",
+      "corroborated": "9max/100slots55factory00–54/20svolatileloop/10metronomes/1.77colorLCD/USBinputmonitorlevels,drywet/body/power;originalsourcespreserved",
+      "remaining": [
+        "Separate1.1.0named effects list",
+        "Universal directanalogvolume/heldposition/bypassphonesUSBloopcoverage",
+        "Exactcontrollerwiring andcompatibility",
+        "Qualifiednew/usedShopeehardware"
+      ],
+      "active_inventory_unchanged": 402,
+      "next": "Continue accessible requestedindividualdisplays,Shopeepriority andsystematicno-treadleinventory;retainGP200JR→Prime→GE300andGTProqueues"
+    }
   },
   "gt1000core_current_comparison_20261028": {
     "checked": "2026-10-28",
@@ -176919,8 +176942,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://static.roland.com/assets/images/products/main/gtpro_main.jpg",
+    "requested_url": "https://res.diversitone.com/Uploads/wp/download/1787705999178.GP-50_Online%C2%A0Manual_EN_Firmware%20V1.1.0.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 0
+    "frame": 10,
+    "text_pages": [
+      24,
+      30
+    ]
   }
 }

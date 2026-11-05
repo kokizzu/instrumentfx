@@ -11,8 +11,8 @@ from research_tools import ROOT, identity
 PLAN = Path('/tmp/instrumentfx-source-image-plan.json')
 RECEIPT = Path('/tmp/instrumentfx-source-image-receipt.json')
 IMAGE = Path('/tmp/instrumentfx-source-image.jpg')
-LIMIT = 10 * 1024 * 1024
-HOSTS = {'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
+LIMIT = 16 * 1024 * 1024
+HOSTS = {'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
          'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 
@@ -70,7 +70,7 @@ def render_svg(data, output):
 
 def validate_image(data):
     if len(data) > LIMIT:
-        raise ValueError('Visual source exceeds 10 MiB limit')
+        raise ValueError('Visual source exceeds 16 MiB limit')
     if not (data.startswith(b'\xff\xd8\xff') or data.startswith(b'\x89PNG\r\n\x1a\n')
             or data.startswith((b'GIF87a', b'GIF89a', b'%PDF-')) or svg_root(data) is not None):
         raise ValueError('Response is not a JPEG, PNG, GIF, PDF or static SVG visual source')
@@ -203,6 +203,30 @@ def render():
                           'size': source.size, 'rendered': str(output)}))
 
 
+def extract_text():
+    """Read a selected PDF range to stdout, without retaining a text duplicate."""
+    import subprocess
+    identity()
+    state = json.loads((ROOT / 'research-state.json').read_text())['source_image_inspection']
+    receipt = json.loads(RECEIPT.read_text())
+    source = Path(receipt['output'])
+    assert source == source_path(state['requested_url']) and source.suffix == '.pdf'
+    assert receipt['url'] == state['requested_url']
+    data = source.read_bytes()
+    assert data.startswith(b'%PDF-') and validate_image(data) == receipt['sha256']
+    pages = state.get('text_pages', [state.get('frame', 0)] * 2)
+    assert len(pages) == 2 and all(isinstance(value, int) for value in pages)
+    first, last = pages
+    assert 0 <= first <= last < 128 and last - first < 16
+    info = subprocess.run(['pdfinfo', str(source)], check=True, capture_output=True, text=True, timeout=20)
+    result = subprocess.run(['pdftotext', '-f', str(first + 1), '-l', str(last + 1),
+                             '-layout', str(source), '-'], check=True, capture_output=True, text=True, timeout=30)
+    assert len(result.stdout) <= 65536, 'Select a smaller PDF text range'
+    print(info.stdout)
+    print('PDF zero-based pages:', first, last)
+    print(result.stdout)
+
+
 def test():
     for bad in ('http://zoomcorp.com/a.jpg', 'https://localhost/a.jpg',
                 'https://zoomcorp.com.evil.example/a.jpg',
@@ -270,4 +294,4 @@ def test():
 
 
 if __name__ == '__main__':
-    {'plan': plan, 'apply': apply, 'test': test, 'render': render}[sys.argv[1]]()
+    {'plan': plan, 'apply': apply, 'test': test, 'render': render, 'text': extract_text}[sys.argv[1]]()
