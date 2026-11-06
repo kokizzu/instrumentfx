@@ -175516,7 +175516,45 @@
       "Condition-qualified new offer and checkoutstock"
     ],
     "active_inventory_unchanged": 402,
-    "next": "Continue requested separate-screen models where primary gaps areaccessible;preserve GT-Pro,expression andconsolidation queues."
+    "next": "Continue requested separate-screen models where primary gaps areaccessible;preserve GT-Pro,expression andconsolidation queues.",
+    "primary_manual_visual_followup": {
+      "checked": "2026-11-06",
+      "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+      "bytes": 2703844,
+      "sha256": "a0a50cb9b8d6e123635c65417e4d373ffbdfd84dc9319b7767deddf86976e4a2",
+      "pdf_pages": 59,
+      "text_complete": [
+        "printed8–12",
+        "printed24–27",
+        "printed46–51",
+        "printed56–58"
+      ],
+      "visual_printed": [
+        9,
+        11,
+        12,
+        46,
+        51
+      ],
+      "special_function": "Unit footswitch; white-on-dark label e.g.SOLO",
+      "scroll": "BANK/SCROLL pair",
+      "calibration": "MENU at power-on; min/max; CONTROL press; Complete",
+      "toe_versus_unit": "toe does not change ON/OFF setting;Unit footswitch does;not global recall proof",
+      "rhythm_partition": {
+        "guide": 1,
+        "styles": 63,
+        "metronomes": 4,
+        "total": 68
+      },
+      "remaining": [
+        "Current library/DSP costs",
+        "Primary USB channel/routing diagram",
+        "External controller wiring",
+        "Display diagonals/color/touch",
+        "Condition/stock-qualified offers"
+      ],
+      "next": "Continue requested separate-screen processor gaps; do not repeat front/rear census or resolved icon mappings. Preserve independent GT-Pro and expression queues."
+    }
   },
   "gp180_usb_modes_offer_20261105": {
     "checked": "2026-11-05",
@@ -178439,12 +178477,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://zoomcorp.com/media/documents/G5_operationManual_english.pdf",
+    "requested_url": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 37,
+    "frame": 44,
     "text_pages": [
-      35,
-      38
+      44,
+      49
     ],
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",
