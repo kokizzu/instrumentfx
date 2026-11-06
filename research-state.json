@@ -164192,7 +164192,68 @@
       "Current firmware category equivalence",
       "Unique algorithm total and loaded-file counts"
     ],
-    "active_inventory_unchanged": 402
+    "active_inventory_unchanged": 402,
+    "effects_111_20261106": {
+      "source": "https://res.diversitone.com/Uploads/wp/download/1787706399070.GP-180_Effect%20List_EN_Firmware%20V1.1.1.pdf",
+      "entry": "https://www.valeton.net/wpfd_file/gp-180_effect-list_en_firmware-v1-1-1-pdf/",
+      "redirect": "https://www.valeton.net/download/319/effect-list/24266/gp-180_effect-list_en_firmware-v1-1-1-pdf.pdf",
+      "revision": "GP1801.1.1,39PDFpages;metadataJuly28/listingAugust26 separately",
+      "bytes": 399193,
+      "sha256": "7301e8e740ffc2e1b6cf811c9d2a076ee906827fbead0ed64283b80122b26318",
+      "read": "All39PDFpages",
+      "viewed": "Cover,printed3and4",
+      "category_counts": {
+        "NR": 3,
+        "PRE": 23,
+        "WAH": 4,
+        "DST": 26,
+        "AMP": 58,
+        "CAB": 35,
+        "EQ": 4,
+        "MOD": 17,
+        "DLY": 14,
+        "RVB": 11,
+        "VOL": 1
+      },
+      "total": 196,
+      "counting": "Menuentries,notuniquebinaries orsimultaneousinstances;excludesNone/userIR/captures",
+      "amp_rows_by_printed_page": {
+        "12": 5,
+        "13": 4,
+        "14": 5,
+        "15": 6,
+        "16": 6,
+        "17": 6,
+        "18": 4,
+        "19": 5,
+        "20": 6,
+        "21": 5,
+        "22": 5,
+        "23": 1
+      },
+      "cab_rows_by_printed_page": {
+        "23": 18,
+        "24": 17
+      },
+      "canonical": "brand/VALETON.md#gp-180--complete-111-effects-list-census-and-creative-limits",
+      "findings": [
+        "PolyphonicOCTA/Pitch/PBend;monoHammy;Detune±50cents",
+        "StepFilterfourfrequencies notsynth;ACSimfourmodes vsACPre/bodyresponses",
+        "Holdpreactivationloop vsFreezeactivationwithAttackRelease;capturelengthunknown",
+        "RingEcho/reversefeedback/DualEcho independent controls;Trailbypassnotpresetspillover",
+        "NtoSEmpty1–50notreplacementfor100capacity;NAMslots1–20corroborated",
+        "50factorycaptures=5clean/11OD/12distheads+7pedals+9guitarcombos+6basscombos",
+        "PRE/DSTBBoostprototype,sharedVWahCWahdescription,ChiefLaCharger,BlackBassbandcountconflicts"
+      ],
+      "remaining": [
+        "196menurows versus200+headline counting basis",
+        "Exact pitchintervals,trackingquality/latency andinstalledcontent",
+        "GlobalEXPoverride/position/output/bypass/loopcoverage",
+        "Condition-qualifiedcurrentShopeeoffers"
+      ],
+      "next": "Own1.1.1menu audit complete;continue other unresolved exactmodels andfresh eligible hardware discovery. Preserve displaypriority,GTPro andGP200JR→Prime→GE300 queues.",
+      "active_inventory_unchanged": 402
+    }
   },
   "ge300lite_creative_controls_20261104": {
     "checked_date": "2026-11-04",
@@ -177668,12 +177729,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://res.diversitone.com/Uploads/wp/download/1787706377421.GP-180_Online%20Manual_EN_Firmware%20V1.1.1.pdf",
+    "requested_url": "https://res.diversitone.com/Uploads/wp/download/1787706399070.GP-180_Effect%20List_EN_Firmware%20V1.1.1.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 19,
+    "frame": 4,
     "text_pages": [
-      39,
-      43
+      32,
+      38
     ],
     "index_url": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
     "index_needle": "Software_User_Guide",

@@ -1764,9 +1764,9 @@ Current comparison uses the dated table below plus the explicitly qualified foll
 | Weight | 843 g |
 | Used IDR observation | ? |
 | New / retail IDR observation | **Rp3.250.000**, Galeri Musik Indonesia, checked2026-10-14; seller displayed available, not checkout-confirmed. Delivery, taxes, warranty and bundle unverified. [Dated source](VALETON.md#gp-180). |
-| Simultaneous blocks / categories and choices | 12 reorderable modules, DSP-limited. V1.0.0: NR3, PRE23, WAH4, DST26, AMP58, CAB35, EQ4, MOD17, DLY14, RVB11, VOL1 =196 menu rows; N→S sample slots and20 user IR slots separate. Not unique algorithm or simultaneous-instance counts. Current200+ headline reconciliation remains open. [Completed historical census](#gp-180--completed-v100-menu-row-census). |
+| Simultaneous blocks / categories and choices | 12 reorderable modules, DSP-limited. [Own1.1.1 effects list](#gp-180--complete-111-effects-list-census-and-creative-limits), rechecked2026-11-06: NR3, PRE23, WAH4, DST26, AMP58, CAB35, EQ4, MOD17, DLY14, RVB11, VOL1 =196 menu rows; N→S sample slots and20 user IR slots separate. Not unique algorithm or simultaneous-instance counts. Current200+ headline reconciliation remains open. [Completed historical census](#gp-180--completed-v100-menu-row-census). |
 | Presets and user storage | 200 total / 100 factory-filled |
-| Synth / acoustic functions | Own V1.0.0: OCTA/Pitch/P-Bend polyphonic, Hammy mono, Detune ±50 cents. AC Sim and pickup simulators; Step Filter is not a verified synth engine. Ring Mod, Hold/Freeze and Shimmer. [Algorithms and menu census](#gp-180--creative-algorithms-and-partial-category-census). |
+| Synth / acoustic functions | [Own1.1.1 recheck](#gp-180--complete-111-effects-list-census-and-creative-limits): OCTA/Pitch/P-Bend polyphonic, Hammy mono, Detune ±50 cents. AC Sim and pickup simulators; Step Filter is not a verified synth engine. Ring Mod, Hold/Freeze and Shimmer. [Algorithms and menu census](#gp-180--creative-algorithms-and-partial-category-census). |
 | Third-party IR | 20, 1024/2048 samples |
 | NAM / captured models | **Native NAM A2 Lite at firmware1.1.1+**, per [official regional notice,2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. The product page still describes SnapTone conversion with100 slots/50 supplied; preserve this earlier workflow separately. [Recovered exact1.1.1 manual](#gp-180--recovered-111-manual-and-operating-limits) now confirms20 independent native A2 Lite slots. Native A2 Full,other architectures and unrestricted concurrency remain unverified; conversion capacity stays separate. |
 | Audio / control connections | ¼″ input; L TS unbalanced / R TRS balanced outputs; TRRS headset/mic; 2 × EXP/FS shared MIDI IN and OUT/THRU; USB-C |
@@ -1921,6 +1921,39 @@ Printed41 independently confirms181W×139D×52Hmm,843g and24bit/48kHz USB record
 ### GP-180 — separate simamura Shopee hardware offer
 
 Checked **2026-11-06**: [simamura shop,1552936594/57363027031](https://shopee.co.id/Valeton-GP-180-Guitar-Multi-Effects-Processor-HD-NAM-Modeling-Pedal-200-Effects-IR-Loader-6-in-4-out-USB-Audio-Interface-Bluetooth-MIDI-180s-Looper-3-Footswitches-Built-in-3000mAh-Battery-Black-i.1552936594.57363027031), **Kota Tangerang Selatan,Rp3.690.000**. Search and direct reader agree on the exact GP-180 Black hardware title and ask; both expose last-month cached text with stale September9 delivery. The absence of a Habis marker does not confirm stock. Condition,working state,selected variant,bundle/adapter,installedfirmware,warranty,authenticity,shipping/tax andcheckout total remain unknown;not a condition-verified new/used floor or completed sale. Late-arrival compensation up toRp10.000 is not deducted. Seller-title specifications are not adopted as technical evidence;other offers remain separately dated.
+
+### GP-180 — complete 1.1.1 effects-list census and creative limits
+
+Checked **2026-11-06** against the [official GP-180 effects list for firmware1.1.1](https://res.diversitone.com/Uploads/wp/download/1787706399070.GP-180_Effect%20List_EN_Firmware%20V1.1.1.pdf), reached through its [manufacturer entry](https://www.valeton.net/wpfd_file/gp-180_effect-list_en_firmware-v1-1-1-pdf/) and [download redirect](https://www.valeton.net/download/319/effect-list/24266/gp-180_effect-list_en_firmware-v1-1-1-pdf.pdf). All **39 PDF pages** were read; cover and printed3–4 were rendered and visually inspected. Exact cover identifies GP-180/1.1.1. PDF metadata is July28,2026; the listing’s August26 date is separate, and neither establishes installed firmware. Earlier access failures remain historical evidence.
+
+**196 category-menu entries** across11 non-capture categories, excluding bypass choices, user IRs and imported capture slots. Repeated names in different categories count per menu; this is not a unique-algorithm total or simultaneous-instance ceiling. These counts match the earlier V1.0.0 category totals without establishing identical code, parameters or audio. The separate N→S/NAM module is not an extra list of factory DSP algorithms.
+
+| Category | Entries | Exact menu names / scope |
+|---|---:|---|
+| NR | 3 | Gate 1; Gate 2; Gate 3 |
+| PRE | 23 | COMP; COMP4; Micro Boost; B-Boost; 14 Boost; Boost; OD 9; Yellow OD; Penesas; Super OD; Blues OD; T-Wah; A-Wah; Step Filter; OCTA; Pitch; P-Bend; Hammy; Ring Mod; Saturate; AC Sim; H to S; S to H |
+| WAH | 4 | V-Wah; C-Wah; B-Wah; Hammy |
+| DST | 26 | Green OD; OD 9; Yellow OD; Penesas; Super OD; Scream OD; Blues OD; Force; Tube Clipper; TaiChi OD; Lazaro; Red Haze; Plustortion; SM Dist; Darktale; Chief; La Charger; Flagman Dist; Flex OD; Bass OD; Black Bass; Bass Hammer; Micro Boost; B-Boost; 14 Boost; Boost |
+| AMP | 58 | Printed12–23:58 rows, including bass and AC Pre. |
+| CAB | 35 | Printed23–24:35 supplied cabinet/body rows;20 user IR slots excluded. |
+| EQ | 4 | Guitar EQ 1; Guitar EQ 2; Bass EQ 1; Mess EQ |
+| MOD | 17 | G-Chorus; C-Chorus; B-Chorus; Jet; B-Jet; V-Roto; Vibrato; O-Phase; Vibe; O-Trem; Sine Trem; Triangle Trem; Bias Trem; Detune; Auto Swell; Hold; Freeze |
+| DLY | 14 | BBD Delay S; Digital Delay S; Pure; Tape; Ping Pong; Slapback; Sweep Echo; Ring Echo; Tube; Sweet Echo; 999 Echo; Vintage Rack; Rev Echo; Dual Echo |
+| RVB | 11 | Room; Hall; Church; Plate; Spring; Tube Spring; Concert; N-Star; Deepsea; Sweet Space; Shimmer |
+| VOL | 1 | Volume |
+
+| Creative distinction | Exact1.1.1 evidence and remaining limit |
+|---|---|
+| Pitch,printed4,6,27 | **OCTA,Pitch and P-Bend explicitly polyphonic; Hammy explicitly monophonic**, in both PRE/WAH appearances. OCTA mixes octave-down,octave-up anddry;Pitch/P-Bend offer low/high voices but publish no complete interval endpoints here. Detune is **−50…+50cents**. Scale-aware harmony,tracking quality,latency andinstalled content remain unverified. Stereo delay/reverb channels do not establish synth-note polyphony. |
+| Synth versus filtering,printed3–4 | Step Filter sequences **four filter-center frequencies** with Rate/Sync; it is not a verified tracking synthesizer. T-Wah responds to playing intensity; A-Wah is periodic filtering. Ring Mod’s Fine is **±50Hz**, not its full carrier range. |
+| Instrument processing,printed5,23–24 | AC Sim has **Standard,Jumbo,Enhanced,Piezo** modes for acoustic-guitar simulation. H to S/S to H are pickup simulations. AMP AC Pre is an acoustic-instrument preamp; CAB AC/OM/JUMBO/Bird/GA are separate body responses. None establishes sampled piano/organ synthesis or a dedicated tracking-synth engine. |
+| Hold/freeze/swell,printed27–28 | Hold repeats a short period preceding activation; Freeze sustains audio at activation with separate Attack/Release controls. Capture duration is unspecified. Auto Swell shapes onset with Line/Exp/Log curves; a violin-like envelope is not instrument-tone synthesis. These choices share MOD and do not establish recorded-looper storage. |
+| Delay/reverb,printed28–34 | Ring Echo ring-modulates repeats; Sweep Echo filters repeats; Vintage Rack reduces feedback sample quality. Rev Echo describes **reversed feedback**; Dual Echo has separate A/B time,mix,feedback andsync withL/R processing. Shimmer remains reverb without a published pitch interval. Trail documents effect-bypass decay,not cross-preset spillover or universal EXP attenuation. Sweet Echo’s20–300ms sentence describes the modeled original and is not adopted as a complete current parameter range. |
+| Source conflicts,printed2,5–6,9–11 | PRE B-Boost names BB Preamp,while DST B-Boost repeats Micro Amp wording despite extra tone controls. V-Wah/C-Wah share the same VOX V846 description. Chief/La Charger both name Guv’nor with different controls; Black Bass lists four EQ bands but calls them2-band. Preserve these discrepancies without silently merging algorithms or assigning corrected prototypes. |
+
+Printed11’s **NAM Slot1–20** corroborates the independent20-file native A2 Lite capacity in the operating manual. Its N→S **Empty1–50** shorthand does not replace the operating manual’s100-slot capacity/50 supplied files. Printed35–37 enumerate50 supplied SnapTone files:5 clean heads,11 overdrive heads,12 distortion heads,7 pedals,9 guitar-amp/cab combinations and6 bass-amp/cab combinations. These are loaded models,not50 extra effect-menu algorithms.
+
+No GP-150 specification or parameter was inherited. Twelve movable modules remain DSP-limited; all PRE/MOD alternatives cannot run as separate slots. Global EXP volume assignment,position recall,bypass/headphone/USB/recorded-loop coverage,unpublished pitch ranges,current host support andqualified current Shopee availability remain unresolved. No software,firmware ordependency installed orrun.
 
 ## GP-200
 

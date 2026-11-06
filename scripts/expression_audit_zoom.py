@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(valeton): recover GP-180 1.1.1 manual and qualify hardware offer'
+        message='research(valeton): verify complete GP-180 1.1.1 creative effects census'
     print(git('commit','-m',message))
