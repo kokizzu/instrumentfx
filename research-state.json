@@ -87392,7 +87392,179 @@
       "checked_date": "2026-10-17",
       "access": "JS-limitedthree-monthcache"
     },
-    "remaining": "Current original manual,IRlimits,concurrency,fullcategorycounts,screen,expression,factorysplit,qualifiedprices."
+    "remaining": "Current original manual,IRlimits,concurrency,fullcategorycounts,screen,expression,factorysplit,qualifiedprices.",
+    "regional_census": {
+      "checked": "2026-11-06",
+      "source": "https://mooer.jp/pages/mooer-prime-s1-m1-m2",
+      "revision": "Explicit Prime M2 1.1.9 column;notcurrentinstalledfirmware",
+      "non_amp_cab_names": {
+        "OD": [
+          "Pure Boost",
+          "Flex Boost",
+          "Tube DR",
+          "808",
+          "Gold Clon",
+          "D-Drive",
+          "Jimmy OD",
+          "Full DR",
+          "Beebee Pre",
+          "Beebee+",
+          "Black Rat",
+          "Grey Faze",
+          "Muffy",
+          "Full DS",
+          "Shred",
+          "Riet",
+          "MTL Zone",
+          "MTL Master",
+          "Obsessive Dist",
+          "Rumble Drive",
+          "Solo",
+          "Blues Mood",
+          "Blues Crab",
+          "Blade",
+          "TS9 Boost",
+          "ROD881",
+          "Tethys 21",
+          "TS Drive",
+          "Blackglass X8"
+        ],
+        "DY": [
+          "NG(Noise Killer)",
+          "Intel Reducer",
+          "Comp",
+          "Red Comp",
+          "Yellow Comp"
+        ],
+        "FI": [
+          "Touch Wah",
+          "Auto Wah",
+          "Q-Filter"
+        ],
+        "MO": [
+          "Phaser",
+          "Step Phaser",
+          "Flanger",
+          "Jet Flanger",
+          "Tremlo",
+          "Stutter",
+          "Vibrato",
+          "Pitch Shift",
+          "Rotary",
+          "Ana Chorus",
+          "Tri Chorus",
+          "Ring",
+          "Lofi",
+          "Slow Gear"
+        ],
+        "DE": [
+          "Digital",
+          "Analog",
+          "Real Echo",
+          "Tape",
+          "Mod",
+          "Reverse",
+          "PingPong",
+          "Crystal",
+          "Rainbow"
+        ],
+        "RE": [
+          "Room",
+          "Hall",
+          "Plate",
+          "Spring",
+          "Mod",
+          "Shimmer"
+        ],
+        "EQ": [
+          "5 Bands EQ",
+          "Custom EQ"
+        ]
+      },
+      "derived_counts": {
+        "OD": 29,
+        "DY": 5,
+        "FI": 3,
+        "MO": 14,
+        "DE": 9,
+        "RE": 6,
+        "EQ": 2,
+        "AM": 62,
+        "CA": 64
+      },
+      "summary_counts": {
+        "AM": 62,
+        "CA": 65,
+        "other": 67
+      },
+      "named_total": 194,
+      "named_non_amp_cab": 68,
+      "cabinet_count_basis": {
+        "shared_named_rows": 35,
+        "additional_CT_rows": [
+          "CT-SupBMK112",
+          "CT-FendTW212",
+          "CT-Fend67212",
+          "CT-BritJV212",
+          "CT-Brit412",
+          "CT-BritJ412",
+          "CT-Bogie212",
+          "CT-BogieLS212",
+          "CT-BogOS412",
+          "CT-Vocs212",
+          "CT-Barv212",
+          "CT-Fram212",
+          "CT-Kox212",
+          "CT-Mgan212",
+          "CT-Edd412",
+          "CT-Fried412",
+          "CT-Gas412",
+          "CT-Hess212",
+          "CT-Hess412",
+          "CT-HW412",
+          "CT-HK412",
+          "CT-OR412",
+          "CT-Pvyln212",
+          "CT-Pvy50412",
+          "CT-Revo412",
+          "CT-River412",
+          "CT-Sold412",
+          "CT-VTH412",
+          "CT-Win412"
+        ]
+      },
+      "conflict": "Named64CAB+68other vs summary65CAB+67other;both total194 with62AMP;do not invent missing choice",
+      "reported_blocks": 9,
+      "repeat_types": true,
+      "preset_locations": 80,
+      "mnrs_locations": 10,
+      "user_ir_locations": 10,
+      "current_import_architecture": "unverified;laterNAM/GuitarSim notes separate",
+      "creative": {
+        "synth": "unverified;filtersdistinct",
+        "pitch": "Pitch Shift ranges/note polyphonyunverified;Rainbowmodulatedpitchdelay",
+        "instrument_simulation": "LaterGuitarSim distinct from historicaltable;exactinstrumenttargetsunknown",
+        "special": [
+          "Ring",
+          "Lofi",
+          "Stutter",
+          "Slow Gear",
+          "Reverse",
+          "Crystal",
+          "Shimmer"
+        ]
+      },
+      "remaining": [
+        "current1.5.0library",
+        "cabinet/effectsubtotalconflict",
+        "pitchparameters/notehandling",
+        "currentIR/NAMformats",
+        "factoryfill",
+        "visualpanel",
+        "currentqualifiedShopeeoffers"
+      ],
+      "hardware_test": false
+    }
   },
   "prime_m2_regional_20261017": {
     "source": "https://cn.mooeraudio.com/product/97.html",
@@ -158504,6 +158676,12 @@
         "canonical": "brand/MOOER.md#prime-s1--regional135-census-and-creative-boundaries",
         "source": "https://mooer.jp/pages/mooer-prime-s1-m1-m2",
         "qualification": "Explicit S1 regional1.3.5 column;not full current-model audit"
+      },
+      {
+        "key": "MOOER::Prime M2",
+        "canonical": "brand/MOOER.md#prime-m2--regional119-census-and-subtotal-conflict",
+        "source": "https://mooer.jp/pages/mooer-prime-s1-m1-m2",
+        "qualification": "Explicit regionalM2version1.1.9;named194with64CAB/68other vs summary65/67;instrumentchainnotvocaleffectaudit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",

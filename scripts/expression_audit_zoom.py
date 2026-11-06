@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(mooer): verify Prime S1 regional census and exact hardware lead'
+        message='research(mooer): reconcile Prime M2 creative inventory and subtotal conflict'
     print(git('commit','-m',message))

@@ -2903,6 +2903,8 @@ Checked2026-10-17;partial. Guitar/bass processor with headset vocal effects. [Pr
 
 | Field | Finding |
 |---|---|
+| Processing / regional1.1.9 census | Explicit M2 column reports **9 blocks**, repeated types supported. Named rows derive **OD29,AM62,CA64,DY5,FI3,MO14,DE9,RE6,EQ2=194**; its summary instead says **65CAB/67other**, versus named64CAB/68other. Historical instrument-chain inventory, not a vocal-effect or current1.5.0 census. [Names and count conflict](#prime-m2--regional119-census-and-subtotal-conflict). |
+| IR / regional storage qualification | Same M2 **1.1.9** column lists **10 IR slots and10 MNRS slots**. These are separate pools, not20 simultaneous models or proof of current NAM capacities/file formats. [Regional source](https://mooer.jp/pages/mooer-prime-s1-m1-m2). |
 | Expression | No built-in treadle/toe/EXP socket in manual layout; MIDI expression unverified. |
 | Knobs / footswitches / buttons | Manual layout:0 rotary,2 footswitches,1 power/lock button plus recessed restart switch. |
 | Display | 1.28-inch touchscreen; product also says LED digital display. Hardware color classification unverified; RGB light bar is separate. |
@@ -2935,6 +2937,26 @@ No downloads,dependencies or software execution used for this model.
 ### Prime M2 — direct analog expression audit
 
 Checked2026-10-19. [Manufacturer-authored manual, RockBoard V2.0 copy, printed pp3–12](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf) matches M2 controls, connections and model-specific operation. Complete connector inventory has instrument input, L/R outputs, headset/phones, USB-C and **3.5mm MIDI**, with **no analog EXP input**. MIDI is not an interchangeable analog pedal jack. Direct-EXP volume scope/position/min/max/bypass/headphone/tail/loop coverage is inapplicable; digital expression remains unverified. Preset page documents left backward/right forward; example jumps2D→1A and1A→2D do not establish single-slot increments. Dedicated phones support TRS/TRRS; manual recommends≤32Ω. Screen output-volume adjustment is not expression assignment. Existing125W×74Lmm housing fits; axis qualifications retained. Newer manual revision remains unchecked; no firmware, stock or hardware test.
+
+### Prime M2 — regional1.1.9 census and subtotal conflict
+
+Checked **2026-11-06** against the [Japanese MOOER/LEP comparison](https://mooer.jp/pages/mooer-prime-s1-m1-m2), explicit **M2 version1.1.9** column. Its reported **nine blocks** allow repeated types. The80 preset locations and separate10IR/10MNRS slots are version-qualified storage figures, not simultaneous model capacity. This predates the retained Guitar Sim/Entire Amp andNAM additions; no current installed-library equivalence is claimed.
+
+| Category | Derived named rows | Exact non-amp/cab names |
+|---|---:|---|
+| OD | 29 | Pure Boost; Flex Boost; Tube DR; 808; Gold Clon; D-Drive; Jimmy OD; Full DR; Beebee Pre; Beebee+; Black Rat; Grey Faze; Muffy; Full DS; Shred; Riet; MTL Zone; MTL Master; Obsessive Dist; Rumble Drive; Solo; Blues Mood; Blues Crab; Blade; TS9 Boost; ROD881; Tethys 21; TS Drive; Blackglass X8 |
+| DY | 5 | NG(Noise Killer); Intel Reducer; Comp; Red Comp; Yellow Comp |
+| FI | 3 | Touch Wah; Auto Wah; Q-Filter |
+| MO | 14 | Phaser; Step Phaser; Flanger; Jet Flanger; Tremlo; Stutter; Vibrato; Pitch Shift; Rotary; Ana Chorus; Tri Chorus; Ring; Lofi; Slow Gear |
+| DE | 9 | Digital; Analog; Real Echo; Tape; Mod; Reverse; PingPong; Crystal; Rainbow |
+| RE | 6 | Room; Hall; Plate; Spring; Mod; Shimmer |
+| EQ | 2 | 5 Bands EQ; Custom EQ |
+
+**Subtotal conflict:** the source’s summary advertises62amps,65cabinets and67other effects (194total). Counting its M2-marked named rows gives **62amps,64cabinets and68other effects (also194)**. Cabinet rows are35 shared named selections plus29 **CT-** entries; their exact additional names are retained in research-state.json. Neither a missing cabinet nor an extra/unavailable effect is inferred. This is a documentation discrepancy, not a measured device library. Source spellings and Flanger/Jet Flanger descriptions calling them phasers remain qualified.
+
+**Creative distinctions:** Pitch Shift is named, but ranges, scale intelligence, input-note polyphony and latency remain unverified. **Rainbow** is modulated pitched delay; **Crystal** combines modulation/shimmer in delay; **Shimmer** is reverb. They do not establish dry-path harmony or a tracking synth. Ring, Lofi, Stutter, Slow Gear and Reverse provide separate unusual processing choices. Touch Wah/Auto Wah/Q-Filter are inM2’s **FI**, not itsDY/MO groups; preserve the exact model’s category placement. Dedicated synth remains unverified. The later Guitar Sim module is distinct from this historical table and from acoustic-body IRs; exact acoustic/instrument targets remain unresolved. This is the instrument chain, not a verified headset-vocal algorithm inventory.
+
+Repeated types andnine reported positions do not guarantee every arbitrary combination orevery later capture model fits. Historical10-slot MNRS/IR counts do not establish NAM A2 capacity, native versus conversion behavior, or unrestricted format compatibility. Factory fill, current complete library, display visual checks andcurrent USB host/stream support remain open. Exact LOBAJET search again exposes the retained three-month **Rp3,323,330,Habis,two variations** snapshot; no new condition/stock/bundle orcheckout certification. Older sources andoffers retained;no downloads,software installs ordevice operation.
 
 ## Prime P1
 
