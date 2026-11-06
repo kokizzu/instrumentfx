@@ -227,9 +227,22 @@ def extract_text():
     print(result.stdout)
 
 
+RELEASE_NOTE_URL = 'https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt'
+
+
+def decode_release_note(data):
+    """Decode inert manufacturer text without replacement of invalid bytes."""
+    if data.startswith((b'\xff\xfe', b'\xfe\xff')):
+        return data.decode('utf-16'), 'utf-16-bom'
+    try:
+        return data.decode('utf-8-sig'), 'utf-8-sig'
+    except UnicodeDecodeError:
+        return data.decode('gb18030'), 'gb18030'
+
+
 def check_index_url(url):
     parsed = urllib.parse.urlsplit(url)
-    assert parsed.scheme == 'https' and parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com')
+    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com') or url == RELEASE_NOTE_URL)
     assert not parsed.username and not parsed.password and parsed.port in (None, 443)
     if parsed.path == '/wp-admin/admin-ajax.php':
         assert parsed.hostname == 'www.valeton.net'
@@ -259,8 +272,14 @@ def inspect_index():
     opener = urllib.request.build_opener(IndexRedirect())
     with opener.open(request, timeout=30) as response:
         check_index_url(response.geturl())
-        data = response.read(4 * 1024 * 1024 + 1)
-    assert len(data) <= 4 * 1024 * 1024, 'Manufacturer HTML exceeds 4 MiB'
+        limit = 65536 if url == RELEASE_NOTE_URL else 4 * 1024 * 1024
+        data = response.read(limit + 1)
+    assert len(data) <= limit, 'Static manufacturer source exceeds selected size limit'
+    if url == RELEASE_NOTE_URL:
+        body, encoding = decode_release_note(data)
+        print(json.dumps({'url': url, 'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest(), 'encoding': encoding}))
+        print(body)
+        return
     body = data.decode('utf-8')
     if body.lstrip().startswith('{'):
         decoded = json.loads(body)
@@ -289,10 +308,17 @@ def inspect_index():
 
 
 def test():
+    check_index_url(RELEASE_NOTE_URL)
+    fixture_text = 'V086 更新说明'
+    for codec in ('utf-8-sig', 'utf-16', 'gb18030'):
+        assert decode_release_note(fixture_text.encode(codec))[0] == fixture_text
     check_index_url('https://www.valeton.net/user-manual/')
     check_index_url('https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html')
     check_index_url('https://www.valeton.net/wp-admin/admin-ajax.php?action=wpfd&task=files.display&view=files&id=320')
-    for bad in ('https://example.com/user-manual/',
+    for bad in (RELEASE_NOTE_URL.replace('MK20.txt', 'MK20.zip'),
+                RELEASE_NOTE_URL + '?download=1',
+                RELEASE_NOTE_URL.replace('/firmware/MK20.txt', '/other.txt'),
+                'https://example.com/user-manual/',
                 'http://www.valeton.net/user-manual/',
                 'https://user:secret@www.valeton.net/user-manual/',
                 'https://www.valeton.net/wp-admin/admin-ajax.php?action=wpfd&task=files.upload&view=files',

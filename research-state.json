@@ -93094,7 +93094,49 @@
     "pages": "Printed 2, 9 and 12; text inspection only",
     "saved": "Amp/cab instrument allocations; initial preset fill and restore scope; six independent snapshots with one-way saving and restricted software editing",
     "limits": "No firmware threshold, seamless-switching proof, 156 ordinary-preset total or native NAM inference",
-    "next": "Fresh Shopee brand/series discovery; external EXP revision and qualified condition/stock remain unresolved."
+    "next": "Fresh Shopee brand/series discovery; external EXP revision and qualified condition/stock remain unresolved.",
+    "release_notes_recovery_20261106": {
+      "source": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt",
+      "encoding": "gb18030 strict;entire7234bytesread,Chinese/Englishbilingual",
+      "bytes": 7234,
+      "sha256": "14543ab6305aa19834230dc097a83c031266b92030dd1278a4b051f2e346dbae",
+      "canonical": "brand/M-VAVE.md#mk-20--recovered-firmware-notes-and-version-listing-conflict",
+      "native_a2": "Device V83,2026-09-24 explicitly nativeA2;architecture variants/capacity/playbackuntested",
+      "revision_findings": {
+        "V81": "PedalSync/globalmapping;continuousGojiraWhammy;downgradepresetloss warning",
+        "V83": "12MWdrives,independentdelay/reverb tails,gateDetect,displaythemes",
+        "V84_V85": "Snapshot/preset save/load/swap,USBMIDI andWHAMMYeditorstatefixes",
+        "V86": "Global40–240BPM acrosspresets/snapshots;WHAMMYOct2 Bend80 fix;PatternMonofreeze/Compquietnotes/tails/syncmaps/1to32D/savefailurependingretry"
+      },
+      "listing_conflict": {
+        "source": "https://www.cuvave.com/download",
+        "product_block": "V0852026-10-08",
+        "general_firmware": "V0862026-10-19"
+      },
+      "offer": {
+        "source": "https://shopee.co.id/Efek-Gitar-M-VAVE-MK-20-MVAVE-MK20-Elektrik-Akustik-Bass-AMP-Modeler-Multi-Effects-Processor-Efek-Bluetooth-Portable-Pedal-320-Effects-Electric-Guitar-Soundcard-Interface-Stomp-Box-Stompbox-Built-in-Battery-Baterai-Rechargeable-IR-Impulse-Response-i.1505062399.56850308632",
+        "shop": "1505062399",
+        "item": "56850308632",
+        "seller": "One Two Three Music Store",
+        "region": "Kota Jakarta Utara",
+        "search_ask_idr": 1699000,
+        "direct_ask_idr": 1850000,
+        "status": "BothHabis;two-monthsearch versuslast-monthdirectcache;staleSep4–5/Oct8delivery",
+        "condition": "unverified",
+        "bundle": "unverified",
+        "warranty": "unverified",
+        "checkout": "unverified",
+        "voucher": "Latecompensationnotdeducted"
+      },
+      "remaining": [
+        "Exactarchitecturevariants,NAM capacity andcurrentfullalgorithmcensus",
+        "ExternalEXPphysicalrevision conflict andelectricalwiring",
+        "Pitchpolyphony/ranges/quality;tailcoverage",
+        "Installedfirmware andqualifiedcurrentnew/usedhardware"
+      ],
+      "next": "Do not repeat MK20 decode failure;notes now recovered. Continue LCDpriority/newhardwarediscovery while preserving GTPro andGP200JR→Prime→GE300 independentqueues.",
+      "active_inventory_unchanged": 402
+    }
   },
   "discovery_post_mk20_20261018": {
     "checked_date": "2026-10-18",
@@ -158135,6 +158177,15 @@
         "instrument": "Acoustic/sitar/defret",
         "qualification": "Slicer20patterns,Warp,SlowGear,RingMod;sharedFX/MOD",
         "evidence_basis": "Exacteng03©2017 printed6–7,10–14,18–19;focused2026-11-06,notfullcurrentaudit"
+      },
+      {
+        "key": "M-VAVE::MK-20",
+        "canonical": "brand/M-VAVE.md#mk-20--recovered-firmware-notes-and-version-listing-conflict",
+        "synth": "Dedicated engineunverified;NAMamploadingseparate",
+        "pitch": "GojiraWhammycontinuousV81;WHAMMYOct2fixV86;polyphony/rangesunknown",
+        "instrument": "Acousticamp/cabnotconversionproof",
+        "qualification": "V83independentdelay/reverbtails;transitioncoverageunknown",
+        "evidence_basis": "ManufacturerMK20firmware-notetextGB18030recovered2026-11-06;focusedcheck,notfullmodelaudit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -177736,8 +177787,8 @@
       32,
       38
     ],
-    "index_url": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
-    "index_needle": "Software_User_Guide",
+    "index_url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt",
+    "index_needle": "V0",
     "index_skip": 0
   }
 }
