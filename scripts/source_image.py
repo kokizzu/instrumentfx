@@ -227,7 +227,10 @@ def extract_text():
     print(result.stdout)
 
 
-RELEASE_NOTE_URL = 'https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt'
+RELEASE_NOTE_URLS = frozenset({
+    'https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt',
+    'https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt',
+})
 
 
 def decode_release_note(data):
@@ -242,7 +245,7 @@ def decode_release_note(data):
 
 def check_index_url(url):
     parsed = urllib.parse.urlsplit(url)
-    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com') or url == RELEASE_NOTE_URL)
+    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com') or url in RELEASE_NOTE_URLS)
     assert not parsed.username and not parsed.password and parsed.port in (None, 443)
     if parsed.path == '/wp-admin/admin-ajax.php':
         assert parsed.hostname == 'www.valeton.net'
@@ -272,10 +275,10 @@ def inspect_index():
     opener = urllib.request.build_opener(IndexRedirect())
     with opener.open(request, timeout=30) as response:
         check_index_url(response.geturl())
-        limit = 65536 if url == RELEASE_NOTE_URL else 4 * 1024 * 1024
+        limit = 65536 if url in RELEASE_NOTE_URLS else 4 * 1024 * 1024
         data = response.read(limit + 1)
     assert len(data) <= limit, 'Static manufacturer source exceeds selected size limit'
-    if url == RELEASE_NOTE_URL:
+    if url in RELEASE_NOTE_URLS:
         body, encoding = decode_release_note(data)
         print(json.dumps({'url': url, 'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest(), 'encoding': encoding}))
         print(body)
@@ -308,16 +311,18 @@ def inspect_index():
 
 
 def test():
-    check_index_url(RELEASE_NOTE_URL)
+    for note_url in RELEASE_NOTE_URLS:
+        check_index_url(note_url)
     fixture_text = 'V086 更新说明'
     for codec in ('utf-8-sig', 'utf-16', 'gb18030'):
         assert decode_release_note(fixture_text.encode(codec))[0] == fixture_text
     check_index_url('https://www.valeton.net/user-manual/')
     check_index_url('https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html')
     check_index_url('https://www.valeton.net/wp-admin/admin-ajax.php?action=wpfd&task=files.display&view=files&id=320')
-    for bad in (RELEASE_NOTE_URL.replace('MK20.txt', 'MK20.zip'),
-                RELEASE_NOTE_URL + '?download=1',
-                RELEASE_NOTE_URL.replace('/firmware/MK20.txt', '/other.txt'),
+    for bad in ('https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.zip',
+                'https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.zip',
+                'https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt?download=1',
+                'https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/other.txt',
                 'https://example.com/user-manual/',
                 'http://www.valeton.net/user-manual/',
                 'https://user:secret@www.valeton.net/user-manual/',

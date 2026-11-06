@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(mvave): recover MK-20 firmware revisions and qualify sold-out offer'
+        message='research(mvave): recover MK-300 native A2 and creative firmware history'
     print(git('commit','-m',message))
