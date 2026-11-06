@@ -155192,7 +155192,25 @@
       "USB MIDI andglobalexpression coverage"
     ],
     "next": "Return to requested individual-foot-display models;retain independent GP-200JR -> HeadRush Prime -> MOOER GE300 cycle",
-    "no_download_or_device_operation": true
+    "no_download_or_device_operation": true,
+    "alternate_guide_20261106": {
+      "checked_date": "2026-11-06",
+      "manufacturer_index": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+      "index_sha256": "ec805bd05232ea030a7137a025efe350f565b53aa600e3f9e7436dcebc7f9e93",
+      "listed_name": "MS_For_GE300_Software_User_Guide_EN.pdf",
+      "listed_size": "36.4MB",
+      "resource": "https://omo-oss-file110.thefastfile.com/portal-saas/new2022113010221252588/cms/file/ms_for_ge300_software_user_guide_en.pdf",
+      "access": "HEAD HTTP403; no retrieved PDF; web reader also unavailable",
+      "reproduction": "https://www.scribd.com/document/989905922/MS-FOR-GE300-Software-User-Guide-EN",
+      "scope": "Original extracted printedp2, exact GE300 title;40-page reproduction; no visual/byte identity verification",
+      "requirements": {
+        "windows": "10+",
+        "macos": "10.11+"
+      },
+      "qualification": "Revision/firmware/CPU/current support unverified; retain2020 Windows7+/macOS10.10+ separately",
+      "next": "Defer blocked publisher PDF until stronger access or matching primary copy; continue eligible Shopee discovery and priority display/expression work. General GP200JR→Prime→GE300 queue preserved.",
+      "active_inventory_unchanged": 402
+    }
   },
   "fm3_nov2026_megatap_mixer_20261103": {
     "canonical": "brand/FRACTAL-AUDIO.md#fm3--november-guide-megatap-and-mixer-limits",
@@ -177501,8 +177519,8 @@
       40,
       41
     ],
-    "index_url": "https://www.valeton.net/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&task=files.display&view=files&id=320&rootcat=104&page=1&page_limit=10&orderCol=created_time&orderDir=desc",
-    "index_needle": "GP-150",
+    "index_url": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+    "index_needle": "Software_User_Guide",
     "index_skip": 0
   }
 }

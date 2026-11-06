@@ -229,9 +229,10 @@ def extract_text():
 
 def check_index_url(url):
     parsed = urllib.parse.urlsplit(url)
-    assert parsed.scheme == 'https' and parsed.hostname == 'www.valeton.net'
+    assert parsed.scheme == 'https' and parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com')
     assert not parsed.username and not parsed.password and parsed.port in (None, 443)
     if parsed.path == '/wp-admin/admin-ajax.php':
+        assert parsed.hostname == 'www.valeton.net'
         query = urllib.parse.parse_qs(parsed.query)
         assert query.get('action') == ['wpfd']
         assert query.get('task') in (['categories.display'], ['files.display'])
@@ -289,6 +290,7 @@ def inspect_index():
 
 def test():
     check_index_url('https://www.valeton.net/user-manual/')
+    check_index_url('https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html')
     check_index_url('https://www.valeton.net/wp-admin/admin-ajax.php?action=wpfd&task=files.display&view=files&id=320')
     for bad in ('https://example.com/user-manual/',
                 'http://www.valeton.net/user-manual/',
