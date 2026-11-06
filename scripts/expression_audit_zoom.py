@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fender): verify firmware 1.8 expression assignment scope'
+        message='research(line6): verify Rack panels and expression output boundaries'
     print(git('commit','-m',message))

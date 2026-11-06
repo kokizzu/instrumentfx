@@ -138769,7 +138769,57 @@
       "market": "Shopee replacementLCD272005224/54012405075 andControl16879370/1156419664 rejectedasRackprocessor offers.",
       "next": "ExactRackfullI/O,controlcensus,power/bodycorroboration,creativecategories,memoryfill,editorrequirements,globalvolume/outputscope andqualifiedShopee processor offers;keepoutsideactivecounts.",
       "active_count_unchanged": 402,
-      "independent_queues_preserved": true
+      "independent_queues_preserved": true,
+      "primary_manual_recovery": {
+        "checked": "2026-11-06",
+        "source": "https://line6.com/data/6/0a00051afd4e673ccaf2d15b4/application/pdf/Helix%20Rack%20and%20Control%203.80%20Owner%27s%20Manual%20-%20English%20.pdf?locale=ja_JP",
+        "revision": "90-20-0370-F;firmware3.80;copyright2024",
+        "sha256": "b451d1de4a0bcd2e0b40c6699c14fd67ceff22bb4bb2272979d7fd40505e2f3a",
+        "bytes": 14622303,
+        "pages": 80,
+        "read_printed": [
+          "4",
+          "7–10",
+          "59–61",
+          "69–77"
+        ],
+        "read_cover_contents": true,
+        "visual_printed": [
+          7,
+          9
+        ],
+        "rack_controls": {
+          "rotaries": 10,
+          "footswitches": 0,
+          "separate_front_buttons": 9,
+          "power_separate": true
+        },
+        "control_displays": {
+          "footswitch_lcd": 12,
+          "separate_main_lcd_characters": 20
+        },
+        "mains_label": "100–240VAC,50–60Hz,100Wmaximum;not measured draw",
+        "electrical_conflicts": [
+          "ManualAux10kΩ vsmanufacturer I/O article47.5kΩ",
+          "Phones12Ωoutput rating isnot recommended load",
+          "USBdriver paragraph88kHz vsdigital table88.2kHz;do notinfer88.0USB"
+        ],
+        "expression": "Selected-block target/min/max and64assignments per preset;Volume/Pan autoEXP2;global position recall not universal target",
+        "coverage": "USB1/2playback bypassesprocessing;outgoing7/8dryDI separate;universal analog attenuation unverified",
+        "editor": "Manufacturer index HXEdit3.82December3,2024,Rackincluded,Windows10/11;Macexactminimum/currentdriverunresolved",
+        "market": "Exact Shopee Rack searches noqualifiedprocessoroffer;notmarketabsence",
+        "next": [
+          "factoryfilledlocations",
+          "amp/cab/mic census",
+          "NAM/capture import status",
+          "exactminimumOS/currentdriver",
+          "bodyconflicts andcontrollerwiring",
+          "globalanalogassignment andoutputcoverage",
+          "qualifiedShopeeRackprocessoroffer"
+        ],
+        "active": false,
+        "fully_verified": false
+      }
     },
     "helix_rack_io_20261103": {
       "sources": [
@@ -177864,12 +177914,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://www.fmicassets.com/Damroot/Original/10032/OM_2274900000_Tone-Master-Pro_EN.pdf",
+    "requested_url": "https://line6.com/data/6/0a00051afd4e673ccaf2d15b4/application/pdf/Helix%20Rack%20and%20Control%203.80%20Owner%27s%20Manual%20-%20English%20.pdf?locale=ja_JP",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 25,
+    "frame": 8,
     "text_pages": [
-      34,
-      37
+      73,
+      76
     ],
     "index_url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt",
     "index_needle": "V0",
