@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): recover G1u primary manual and clarify pitch and editor limits'
+        message='research(audota): recover AME-100 June memory and import instructions'
     print(git('commit','-m',message))

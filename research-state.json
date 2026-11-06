@@ -170231,7 +170231,25 @@
       "Qualified Indonesian hardware"
     ],
     "next": "Do not repeat unavailable manual paths without new evidence;continue accessible incomplete profiles while preserving priority andgeneral queues",
-    "active_inventory_unchanged": 402
+    "active_inventory_unchanged": 402,
+    "june_update_recovery_20261106": {
+      "source": "https://shop.warwick.de/media/0c/20/5c/1781342128/sey_AU_AME-100_Update_2606_EN.pdf?ts=1783331422",
+      "source_type": "Importer-linked original two-page update instructions;June2026 link/filename label,not numbered firmware",
+      "canonical": "brand/AUDOTA.md#ame-100--recovered-june-update-instructions",
+      "findings": [
+        "200 editable presets documented in June-labeled instructions;minimum firmware andfactory fill still unknown",
+        "Desktop NAM importer requires separate plug-in installed through connected host;no installation performed",
+        "A1-only scope atthis revision;later1.2.3 A2conversion preserved separately"
+      ],
+      "inspection": "Both PDF pages read as text;two screenshot requests failed cache access;no visual inspection",
+      "remaining": [
+        "Minimum firmware build for200 editable presets",
+        "Exact NAM architecture andconversion limits",
+        "Category/concurrency reconciliation andUSB formats",
+        "Qualified Indonesian hardware offers"
+      ],
+      "active_inventory_unchanged": 402
+    }
   },
   "gp200jr_octave_ring_swell_20261105": {
     "checked": "2026-11-05",
