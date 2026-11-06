@@ -174849,7 +174849,49 @@
       "Condition-qualified current offers"
     ],
     "active_inventory_unchanged": 402,
-    "next": "Continue other accessible exact-model gaps;defer GP180 V1.1.1 body until retrievable. Preserve footdisplay priorities,GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues."
+    "next": "Continue other accessible exact-model gaps;defer GP180 V1.1.1 body until retrievable. Preserve footdisplay priorities,GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues.",
+    "official_111_recovery_20261106": {
+      "source": "https://res.diversitone.com/Uploads/wp/download/1787706377421.GP-180_Online%20Manual_EN_Firmware%20V1.1.1.pdf",
+      "sha256": "980ad622b891a263a679c041097bab296fabb91b0d22ca4ddf6ddde5195ff1e4",
+      "bytes": 7118351,
+      "pdf_pages": 44,
+      "read": "All44PDFpages;cover+printed1–41",
+      "viewed": "Cover andprinted17;Type3glyphwarnings butlegible",
+      "canonical": "brand/VALETON.md#gp-180--recovered-111-manual-and-operating-limits",
+      "findings": [
+        "Native20A2Lite slots independent ofconverted100NtoS/50factory",
+        "PatchEXP A/B3targets each MINMAX0–100;no globaloverride established;copyerror builtinpedal retained",
+        "CTRL2modulesperFS/6total,notGP1503perFS",
+        "180sPre mono/90sPost stereo,loopnot system-saved",
+        "LegacyUSBnoMIDI/no desktopeditor;GlobalEQnotUSB",
+        "Below5%battery noaudio;DC1.5Asupply/1Aminimum/2Amaxsupply separately;USB1A/3APD",
+        "OUTLbalanced typo vsOUTRpanel;MIDIoutputchannel misnamesinput retained"
+      ],
+      "remaining": [
+        "Separate1.1.1 effectslist andalgorithm/parameter deltas",
+        "Analog globalvolumeassignment/position/bypass/headphones/USB/loopscope",
+        "CurrenthostOS/CPUminima",
+        "Currentcondition-qualifiedShopeeoffers"
+      ],
+      "offer": {
+        "source": "https://shopee.co.id/Valeton-GP-180-Guitar-Multi-Effects-Processor-HD-NAM-Modeling-Pedal-200-Effects-IR-Loader-6-in-4-out-USB-Audio-Interface-Bluetooth-MIDI-180s-Looper-3-Footswitches-Built-in-3000mAh-Battery-Black-i.1552936594.57363027031",
+        "seller": "simamura shop",
+        "shop": "1552936594",
+        "item": "57363027031",
+        "region": "Kota Tangerang Selatan",
+        "ask_idr": 3690000,
+        "access": "Searchanddirectagree,last-monthcache;staleSeptember9delivery",
+        "condition": "unverified",
+        "stock": "unverified",
+        "variant": "TitleBlack;actualselectedvariationunverified",
+        "bundle": "unverified",
+        "warranty": "unverified",
+        "voucher": "Latecompensationnotdeducted",
+        "checkout": "unverified"
+      },
+      "next": "Recover ownGP1801.1.1effectslist throughmanufacturer catalogue;do notcopyGP150. Preserve displaypriority,GTPro andGP200JR→Prime→GE300 queues.",
+      "active_inventory_unchanged": 402
+    }
   },
   "mg50li_factory_banks_offers_20261105": {
     "checked": "2026-11-05",
@@ -177626,12 +177668,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "requested_url": "https://res.diversitone.com/Uploads/wp/download/1787706377421.GP-180_Online%20Manual_EN_Firmware%20V1.1.1.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 6,
+    "frame": 19,
     "text_pages": [
-      6,
-      8
+      39,
+      43
     ],
     "index_url": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
     "index_needle": "Software_User_Guide",
