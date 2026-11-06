@@ -12,7 +12,14 @@ PLAN = Path('/tmp/instrumentfx-source-image-plan.json')
 RECEIPT = Path('/tmp/instrumentfx-source-image-receipt.json')
 IMAGE = Path('/tmp/instrumentfx-source-image.jpg')
 LIMIT = 48 * 1024 * 1024
-HOSTS = {'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
+REVIEWED_LARGE_PDF = 'https://www.fmicassets.com/Damroot/Original/10032/OM_2274900000_Tone-Master-Pro_EN.pdf'
+
+
+def source_limit(url):
+    # Exact owner-manual HEAD reviewed at 132,952,762 bytes; no broad host exception.
+    return 144 * 1024 * 1024 if url == REVIEWED_LARGE_PDF else LIMIT
+
+HOSTS = {'www.fmicassets.com', 'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
          'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 
@@ -68,9 +75,10 @@ def render_svg(data, output):
                     output_height=max(1, round(height * factor)), unsafe=False)
 
 
-def validate_image(data):
-    if len(data) > LIMIT:
-        raise ValueError('Visual source exceeds 48 MiB limit')
+def validate_image(data, limit=LIMIT):
+    assert limit in (LIMIT, 144 * 1024 * 1024)
+    if len(data) > limit or (len(data) > LIMIT and not data.startswith(b'%PDF-')):
+        raise ValueError('Visual source exceeds reviewed format/size limit')
     if not (data.startswith(b'\xff\xd8\xff') or data.startswith(b'\x89PNG\r\n\x1a\n')
             or data.startswith((b'GIF87a', b'GIF89a', b'%PDF-')) or svg_root(data) is not None):
         raise ValueError('Response is not a JPEG, PNG, GIF, PDF or static SVG visual source')
@@ -103,7 +111,7 @@ def plan():
     output = source_path(url)
     previous = previous_source()
     assert output == previous or not output.exists(), 'Unexpected destination collision'
-    value = {'url': url, 'output': str(output), 'limit_bytes': LIMIT,
+    value = {'url': url, 'output': str(output), 'limit_bytes': source_limit(url),
              'previous_output': str(previous) if previous else None,
              'retire_previous_working_file': str(previous) if previous and previous != output else None,
              'previous_sha256': hashlib.sha256(previous.read_bytes()).hexdigest() if previous else None}
@@ -123,7 +131,7 @@ def apply():
     value = json.loads(PLAN.read_text())
     url = check_url(value['url'])
     output = source_path(url)
-    assert value['output'] == str(output) and value['limit_bytes'] == LIMIT
+    assert value['output'] == str(output) and value['limit_bytes'] == source_limit(url)
     state = json.loads((ROOT / 'research-state.json').read_text())
     assert state['source_image_inspection']['requested_url'] == url, 'Request changed; rerun plan'
     previous = previous_source()
@@ -137,8 +145,8 @@ def apply():
     request = urllib.request.Request(url, headers={'User-Agent': 'InstrumentFX-source-review/1.0'})
     with opener.open(request, timeout=40) as response:
         final_url = check_url(response.geturl())
-        data = response.read(LIMIT + 1)
-    digest = validate_image(data)
+        data = response.read(source_limit(url) + 1)
+    digest = validate_image(data, source_limit(url))
     atomic_write(output, data)
     if retire:
         assert hashlib.sha256(previous.read_bytes()).hexdigest() == digest_before
@@ -170,7 +178,7 @@ def render():
     assert working == source_path(state['requested_url']), 'Rerun reviewed retrieval for source format'
     data = working.read_bytes()
     assert receipt['url'] == state['requested_url'], 'Source changed; retrieve reviewed source'
-    assert validate_image(data) == receipt['sha256'], 'Source bytes changed'
+    assert validate_image(data, source_limit(receipt['url'])) == receipt['sha256'], 'Source bytes changed'
     frame = state.get('frame', 0)
     assert isinstance(frame, int) and 0 <= frame < 128
     Image.MAX_IMAGE_PIXELS = 8 * 1024 * 1024
@@ -213,7 +221,7 @@ def extract_text():
     assert source == source_path(state['requested_url']) and source.suffix == '.pdf'
     assert receipt['url'] == state['requested_url']
     data = source.read_bytes()
-    assert data.startswith(b'%PDF-') and validate_image(data) == receipt['sha256']
+    assert data.startswith(b'%PDF-') and validate_image(data, source_limit(receipt['url'])) == receipt['sha256']
     pages = state.get('text_pages', [state.get('frame', 0)] * 2)
     assert len(pages) == 2 and all(isinstance(value, int) for value in pages)
     first, last = pages
@@ -311,6 +319,9 @@ def inspect_index():
 
 
 def test():
+    assert source_limit(REVIEWED_LARGE_PDF) == 144 * 1024 * 1024
+    assert source_limit(REVIEWED_LARGE_PDF + '?other=1') == LIMIT
+    assert source_limit('https://www.fmicassets.com/other.pdf') == LIMIT
     for note_url in RELEASE_NOTE_URLS:
         check_index_url(note_url)
     fixture_text = 'V086 更新说明'
@@ -343,6 +354,7 @@ def test():
             pass
         else:
             raise AssertionError('Unsafe source accepted')
+    check_url('https://www.fmicassets.com/Damroot/Original/example.pdf')
     check_url('https://zoomcorp.com/media/example.jpg')
     assert source_path('https://zoomcorp.com/a.jpg') == IMAGE
     assert source_path('https://cdn.rockboard.de/a.pdf?revision=1').suffix == '.pdf'

@@ -139037,7 +139037,31 @@
       "output/tail/recorded-loop coverage",
       "current sequential preset footswitch behavior"
     ],
-    "hardware_test": false
+    "hardware_test": false,
+    "primary_manual_18_20261106": {
+      "source": "https://www.fmicassets.com/Damroot/Original/10032/OM_2274900000_Tone-Master-Pro_EN.pdf",
+      "revision": "Cover Firmware v1.8; not installed-version proof",
+      "sha256": "1d14e848328193235dd614b2e4f6e8475655ed27ae0adef8279ca8e5a784b477",
+      "bytes": 132952762,
+      "pdf_pages": 49,
+      "read_printed_pages": [
+        "23–25",
+        "33–36"
+      ],
+      "visual_pages": [
+        "cover",
+        "printed24"
+      ],
+      "finding": "EXP Live Mode requires Volume Pedal block in each preset; global EXP/CTRL inventory does not establish independent analog master target",
+      "endpoints": "Per assignment; illustrated0–100% is Pedal Shifter Position,not volume dB range",
+      "remaining": [
+        "global analog assignment elsewhere unknown",
+        "volume numeric range",
+        "bypass/headphones/tails/recorded-loop/USB coverage",
+        "Guide H census;252466827byte HEAD,not downloaded"
+      ],
+      "hardware_test": false
+    }
   },
   "m9_expression_screen_20261028": {
     "source": "https://line6.com/data/6/0a060b316ac34f0593fca717b/application/pdf/M9%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf",
@@ -177840,12 +177864,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://res.diversitone.com/Uploads/wp/download/1787706399070.GP-180_Effect%20List_EN_Firmware%20V1.1.1.pdf",
+    "requested_url": "https://www.fmicassets.com/Damroot/Original/10032/OM_2274900000_Tone-Master-Pro_EN.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 4,
+    "frame": 25,
     "text_pages": [
-      32,
-      38
+      34,
+      37
     ],
     "index_url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt",
     "index_needle": "V0",

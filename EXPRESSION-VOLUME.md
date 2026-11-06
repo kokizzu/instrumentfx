@@ -928,3 +928,5 @@ TONE GO’s [manufacturer-filed Quick Guide follow-up](brand/FLAMMA.md#tone-go--
 GCE-3 [computer-audio follow-up](brand/ZOOM.md#gce-3--emulation-and-computer-audio-restrictions) distinguishes monitor balance,recording gain andloopback. Tuner Mute describes guitar only;none supplies analog expression orproves all-source/tail attenuation. Six FOUR-series emulations explicitly lack rhythm/looper.
 
 PLETHORA X5 [historical tuner andindependent loops](brand/TC-ELECTRONIC.md#plethora-x5--tuner-resource-and-tempo-display-limits): regional1.3.11 manual says tuner mutes OUTPUT andloops cannot synchronize. These do not establish global analog-volume assignment,all-source mute orpedal attenuation ofloops/tails.
+
+Tone Master Pro [direct firmware1.8 manual check](brand/FENDER.md#tone-master-pro--primary-firmware18-expression-scope): EXP Live Mode explicitly requires a Volume Pedal block per preset. Heel/toe/taper and≥300ms endpoint bypass are documented;the pictured0–100% is Pedal Shifter Position,not a verified volume dB range. Analog global master assignment andphones/tails/recorded-loop/USB coverage remain unverified.
