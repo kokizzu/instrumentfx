@@ -253,7 +253,7 @@ def decode_release_note(data):
 
 def check_index_url(url):
     parsed = urllib.parse.urlsplit(url)
-    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com') or url in RELEASE_NOTE_URLS)
+    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com', 'cn.mooeraudio.com') or url in RELEASE_NOTE_URLS)
     assert not parsed.username and not parsed.password and parsed.port in (None, 443)
     if parsed.path == '/wp-admin/admin-ajax.php':
         assert parsed.hostname == 'www.valeton.net'
@@ -329,6 +329,7 @@ def test():
         assert decode_release_note(fixture_text.encode(codec))[0] == fixture_text
     check_index_url('https://www.valeton.net/user-manual/')
     check_index_url('https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html')
+    check_index_url('https://cn.mooeraudio.com/product/84.html')
     check_index_url('https://www.valeton.net/wp-admin/admin-ajax.php?action=wpfd&task=files.display&view=files&id=320')
     for bad in ('https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.zip',
                 'https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.zip',

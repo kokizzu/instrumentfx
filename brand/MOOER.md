@@ -2845,6 +2845,7 @@ Checked2026-10-17; partial. Shared guitar/bass multi-effects, distinct from P1/P
 
 | Field | Finding |
 |---|---|
+| Processing / regional1.0.4 census | [Japanese MOOER comparison](https://mooer.jp/pages/mooer-prime-s1-m1-m2), checked2026-11-06, explicit M1 **1.0.4** column: **8 blocks**, no repeated effect types; **149 choices=OD19+AM62+CA35+DY4+MO15+DE6+RE5+EQ3**. Historical regional inventory, not current installed contents or all-combination concurrency test. [Exact effect names and creative limits](#prime-m1--regional104-effect-census-and-creative-boundaries). |
 | Expression | No treadle/toe/EXP connector in manual layout; external MIDI/expression unverified. |
 | Knobs / footswitches / buttons | 1 Master knob;2 footswitches;2 buttons(power/drum), plus recessed reset. Manual p5. |
 | Screen | LED digital display; published diagonal, color classification and touch capability unresolved. [Product](https://www.mooeraudio.com/products/211.html). |
@@ -2874,6 +2875,27 @@ DM Plus Studio shop search mentionsRp1,699,000 with Produk Baru, but lacks an ex
 ### Prime M1 — direct analog expression audit
 
 Checked2026-10-19. [MOOER-authored quick manual V02_2024.10.28, printed pp4–8](https://www.cavallimusica.com/media/productattach/m/1/m1_manua_en.pdf), matches M1 title, layout and specifications. Complete connector inventory lists instrument TS input, stereo output, dedicated3.5mm phones and USB-C/OTG; **no analog EXP input**. Thus direct-EXP volume across presets fails; direct-EXP position/min/max/bypass/headphone/tail/looper coverage is inapplicable. Master knob affects Output and headphones, excluding USB-OTG recording; this is not pedal assignment. Two switches cycle presets in opposite directions; wording describes A as9-D→0-A andB as0-A→9-D, so numerical direction mapping needs corroboration. Exact70.2W×120Dmm footprint fits. External digital control remains unverified; no sibling behavior, stock refresh or hardware test implied.
+
+### Prime M1 — regional1.0.4 effect census and creative boundaries
+
+Checked **2026-11-06** in the [Japanese MOOER comparison](https://mooer.jp/pages/mooer-prime-s1-m1-m2), whose domain is linked by the global manufacturer’s JP navigation. Its explicit **M1 version1.0.4** column reports **eight effect blocks**, without repeated use of a type. This is historical regional evidence, not unrestricted routing or current installed content. Later2026 MNRS/GNR additions remain separate; the older table’s blank MNRS field must not become a current “No.”
+
+| Category | Count | Exact non-amp/cab choices |
+|---|---:|---|
+| OD | 19 | Pure Boost; Flex Boost; Tube DR; 808; Gold Clon; D-Drive; Jimmy OD; Full DR; Beebee Pre; Beebee+; Black Rat; Grey Faze; Muffy; Full DS; Shred; Riet; MTL Zone; MTL Master; Obsessive Dist |
+| DY | 4 | NG(Noise Killer); Comp; Touch Wah; Auto Wah |
+| MO | 15 | Q-Filter; Phaser; Step Phaser; Flanger; Jet Flanger; Tremlo; Stutter; Vibrato; Pitch Shift; Rotary; Ana Chorus; Tri Chorus; Ring; Lofi; Slow Gear |
+| DE | 6 | Digital; Analog; Real Echo; Tape; Mod; Reverse |
+| RE | 5 | Room; Hall; Plate; Spring; Mod |
+| EQ | 3 | 3 Bands EQ; 5 Bands EQ; Bass EQ |
+
+These **52 non-amp/cab choices**, plus **62 amps (52 guitar/10 bass)** and **35 cabinets (25 guitar/10 bass)**, reconcile the published149. The21 bass-specific count reconciles as10amps+10cabs+Bass EQ; this arithmetic does not resolve the global page’s20-versus21 prose conflict or certify all algorithms for bass. IR slots, drums and looper are not added. Original spellings “Tremlo” and “Riet” are retained. The regional descriptions call Flanger/Jet Flanger phasers; preserve that copy inconsistency without inferring their exact implementation.
+
+**Creative distinctions:** Pitch Shift is named, but range, input-note polyphony and tracking performance are unverified. Vibrato is pitch modulation. Ring modulates audio, Lofi reduces sampling rate, Slow Gear makes automatic volume swells, and Reverse is a delay choice. Touch Wah is an envelope filter and Q-Filter a static wah/notch-style filter; neither establishes a tracking synth. Dedicated synth and electric-to-acoustic simulation remain unverified. M2-only Shimmer, Crystal, Rainbow and additional drives are not transferred. Choices share their blocks; they are not extra simultaneous positions.
+
+The regional M1 section explicitly maps **A=preset down, B=preset up**, over40slots0A–9D. The comparison marks M1 touchscreen unsupported at1.0.4. Dimensions are labelled **120W×70.2D×31.9Hmm**, versus the earlier70.2W×120D interpretation; axis convention remains inconsistent, both footprints fit200×140mm. No physical measurements or visual panel test.
+
+The [Chinese manufacturer page](https://cn.mooeraudio.com/product/84.html) links [a full Chinese manual](https://omo-oss-file110.thefastfile.com/portal-saas/new2022113010221179888/cms/file/m1_%E5%AE%8C%E6%95%B4%E7%89%88%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf). Web retrieval was inaccessible and local boundedHEAD returned **403**; no body or revision verification is claimed. LOBAJET’s exact Shopee search still exposes the older five-month Rp1,378,602 snapshot, not a new qualified price/stock observation. Preserve the separately recorded later Rp2,045,160 sold-out/voucher snapshot. No software, firmware or device operated/installed.
 
 ## Prime M2
 

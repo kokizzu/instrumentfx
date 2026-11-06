@@ -87261,7 +87261,108 @@
       "checked_date": "2026-10-17"
     },
     "rejected": "DM Plus Studio shop-only1699000ProdukBaru lacks exact item; unrelated camera/accessory search results rejected.",
-    "remaining": "Exact full effects list and simultaneous blocks;factory/user split;screen diagonal/color/touch;expression;IR slots;native/converted NAM status;qualified new/used offers."
+    "remaining": "Exact full effects list and simultaneous blocks;factory/user split;screen diagonal/color/touch;expression;IR slots;native/converted NAM status;qualified new/used offers.",
+    "regional_effect_census": {
+      "checked": "2026-11-06",
+      "source": "https://mooer.jp/pages/mooer-prime-s1-m1-m2",
+      "provenance": "Japanese regional domain linked by global manufacturer JP navigation",
+      "revision": "Explicit M1 version1.0.4; publication date unknown",
+      "counts": {
+        "OD": 19,
+        "AM": 62,
+        "CA": 35,
+        "DY": 4,
+        "MO": 15,
+        "DE": 6,
+        "RE": 5,
+        "EQ": 3
+      },
+      "non_amp_cab_names": {
+        "OD": [
+          "Pure Boost",
+          "Flex Boost",
+          "Tube DR",
+          "808",
+          "Gold Clon",
+          "D-Drive",
+          "Jimmy OD",
+          "Full DR",
+          "Beebee Pre",
+          "Beebee+",
+          "Black Rat",
+          "Grey Faze",
+          "Muffy",
+          "Full DS",
+          "Shred",
+          "Riet",
+          "MTL Zone",
+          "MTL Master",
+          "Obsessive Dist"
+        ],
+        "DY": [
+          "NG(Noise Killer)",
+          "Comp",
+          "Touch Wah",
+          "Auto Wah"
+        ],
+        "MO": [
+          "Q-Filter",
+          "Phaser",
+          "Step Phaser",
+          "Flanger",
+          "Jet Flanger",
+          "Tremlo",
+          "Stutter",
+          "Vibrato",
+          "Pitch Shift",
+          "Rotary",
+          "Ana Chorus",
+          "Tri Chorus",
+          "Ring",
+          "Lofi",
+          "Slow Gear"
+        ],
+        "DE": [
+          "Digital",
+          "Analog",
+          "Real Echo",
+          "Tape",
+          "Mod",
+          "Reverse"
+        ],
+        "RE": [
+          "Room",
+          "Hall",
+          "Plate",
+          "Spring",
+          "Mod"
+        ],
+        "EQ": [
+          "3 Bands EQ",
+          "5 Bands EQ",
+          "Bass EQ"
+        ]
+      },
+      "total": 149,
+      "non_amp_cab": 52,
+      "blocks": 8,
+      "repeat_types": false,
+      "latest_firmware": false,
+      "navigation": "A down;B up;0A–9D",
+      "dimensions_conflict": "Regional120W70.2D31.9H versus earlier70.2W120D axis interpretation;both fit",
+      "full_cn_pdf": "https://omo-oss-file110.thefastfile.com/portal-saas/new2022113010221179888/cms/file/m1_%E5%AE%8C%E6%95%B4%E7%89%88%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf",
+      "full_cn_access": "Web inaccessible;local HEAD403;body unread",
+      "remaining": [
+        "current MNRS/GNR architecture",
+        "current named census",
+        "Pitch Shift ranges/note polyphony",
+        "factory fill",
+        "USB stream map/current hosts",
+        "IR conversion/cache",
+        "qualified Shopee condition/stock"
+      ],
+      "hardware_test": false
+    }
   },
   "prime_m1_ir_capacity_20261017": {
     "source": "https://cn.mooeraudio.com/product/84.html",
@@ -158269,6 +158370,12 @@
         "instrument": "Acousticamp/cabnotconversionproof",
         "qualification": "Versionedstereodelay/mod/reverb,tails andsnapshotcontrol;notfullcurrentcensus",
         "evidence_basis": "ExactmanufacturerV56–V75notetextGB18030recovered2026-11-06;focusedcheck,notfullmodelaudit"
+      },
+      {
+        "key": "MOOER::Prime M1",
+        "canonical": "brand/MOOER.md#prime-m1--regional104-effect-census-and-creative-boundaries",
+        "source": "https://mooer.jp/pages/mooer-prime-s1-m1-m2",
+        "qualification": "Explicit regional1.0.4;not full current-model audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -177958,8 +178065,8 @@
       0,
       0
     ],
-    "index_url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt",
-    "index_needle": "V0",
+    "index_url": "https://cn.mooeraudio.com/product/84.html",
+    "index_needle": ".pdf",
     "index_skip": 0
   }
 }
