@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(audota): recover AME-100 June memory and import instructions'
+        message='research(line6): visually verify Helix Floor strip and control census'
     print(git('commit','-m',message))

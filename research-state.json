@@ -145817,7 +145817,32 @@
     ],
     "main_touch": "Original design non-touch;October10,2015 first-person product-development explanation. Same account publishes official KB release notes. Not Stadium.",
     "remaining": "Auxiliary strip diagonal/color/touch andphysical visual corroboration;otherpower/factory/offer qualifications retained",
-    "next": "Continue LCD-first unresolved exact-model fields; avoid repeated empty searches; independent general BOSS GT-Pro cursor retained."
+    "next": "Continue LCD-first unresolved exact-model fields; avoid repeated empty searches; independent general BOSS GT-Pro cursor retained.",
+    "official_panel_visual_20261106": {
+      "source": "https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+      "revision": "90-20-0358 RevG,Helix3.80,©2024;79PDFpages",
+      "bytes": 14601036,
+      "sha256": "1598d174cba1f888b4f50d524bbb7d5e82fe168d513dfeaddb9906223f6f17b1",
+      "text_pages_printed": [
+        1,
+        7,
+        8,
+        9
+      ],
+      "rendered_and_viewed_printed": [
+        7,
+        8
+      ],
+      "finding": "12 switch-associated readouts plus1 separateEXP1/2 readout;10rotaries/12chassisFS/8frontbuttons visuallycorroborated;toe/rearcontrols separate",
+      "canonical": "brand/LINE6.md#helix-floor--official-panel-visual-census",
+      "remaining": [
+        "Strip diagonal,color capability andtouch specification",
+        "Current unit hardware revision andinstalledfirmware",
+        "Qualified current offers andother existing technical gaps"
+      ],
+      "scope": "Selected pages,not full manual orhardware test;no firmware/apps executed",
+      "active_inventory_unchanged": 402
+    }
   },
   "fm3_usb_routes_levels_20261031": {
     "checked": "2026-10-31",
@@ -177601,12 +177626,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://zoomcorp.com/media/documents/E_G1u.pdf",
+    "requested_url": "https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 1,
+    "frame": 6,
     "text_pages": [
-      21,
-      21
+      6,
+      8
     ],
     "index_url": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
     "index_needle": "Software_User_Guide",
