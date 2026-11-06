@@ -2644,6 +2644,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 
 | Field | Evidence / qualification |
 |---|---|
+| Controls / visual corroboration | **2026-11-06:** Original/Turbo August2022 manual drawings, printed19/21/24, visually checked: **9 rotaries /9 footswitches /12 separate buttons; nine footswitch LCDs plus separate main display**. Rear drawing depicts USB Type-B; connector shape does not establish USB power. [Panel and USB diagram audit](#fm9-turbo--visual-panel-census-and-usb-channel-diagram). |
 | Instrument scope | Shared Original/Turbo manual p21 explicitly supports normal guitar/bass at Input1 and instruments at Inputs2/3. Vocal classification unknown. [Manufacturer manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Built-in / external / toe expression | No built-in treadle in complete panel inventory. Three shared TRS pedal/switch jacks; linear10–100kΩ. Tip supply, ring return, sleeve ground. External toe setup and actual M-VAVE wiring unverified. [Shared manual pp10,21–22,128](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Expression / global volume | PEDAL1/2/3 globally assignable to Input1/2/3 or Output1/2/3 Volume without preset blocks. Input changes drive; output scales tails. Endpoints, recall and bypass/phones/USB/recorded-loop coverage unknown. Calibration is separate. [Own-applicable p11 procedure](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
@@ -2982,6 +2983,23 @@ The exact **FM9 column has37 available classes and84 summed instance allowances*
 
 Dynamic Distortion,IR Player,RTA,Tone Match andVocoder show0 forFM9;NAM Player is identified forAxe-Fx III only. This describes this reference,not a universal claim about allfuture firmware orimport workflows. Reverb79/Megatap22 named censuses andGEQ18-versus16 discrepancy remain unresolved. OlderJune2023 inventory remains historical. Installed equivalence andintroduction versions unverified. No local download ordevice operation.
 
+
+### FM9 Turbo — visual panel census and USB channel diagram
+
+Checked **2026-11-06** in the [manufacturer Original/TURBO manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf), cover **August2022, firmware3.x**. Static PDF: **138 pages, 7,325,089 bytes**, SHA256 `f8645ba39ba1f60e9d6e250496742241274284247fe0311a8b45f35b8a1a0238`. Read cover and printed19–26; rendered and visually inspected printed19,21,24. This closes selected visual gaps; it is not a complete current-firmware audit or a specification transfer from MKII.
+
+The top drawing corroborates **9 rotaries** (A–E, Value, three output knobs), **9 footswitches** and **12 separate buttons** (Home/Edit/Store/Tempo, four NAV, Enter/Exit, Page−/+). Encoder pushes are counted once. Nine individual footswitch readouts accompany the separate main display. Power and ground-lift switches are separate. The rear drawing depicts **USB Type-B**; it does not certify bus power. Strip dimensions, pixels and touch/color properties retain their existing qualifications.
+
+The complete printed24 diagram was previously only text-checked. Directions below are relative to the computer; these are diagram mappings, not measured driver enumeration:
+
+| USB channels | Recording: processor → computer | Playback: computer → processor |
+|---|---|---|
+| 1/2 | Processed Output1 | Output1 L/R |
+| 3/4 | Processed Output2 | Output2 L/R; mapping can swap with1/2 |
+| 5/6 | Input1 dry DI; tutorial explicitly records mono channel5 | Input1 and/or Input2/3 grid input using Digital Input Source and per-input source settings |
+| 7/8 | Selected Input2 or Input3, unprocessed stereo source | IN USB block; optional S/PDIF output source |
+
+The diagram does not establish that the two dry-DI channels contain different signals, nor that input-source selections are independent digital buses. Dry recording and direct playback are distinct from grid processing. Global input/output volume remains separately documented; analog attenuation of every USB/raw/phones/recorded-loop/tail route is still unverified. The earlier remaining-diagram caveat is superseded by this visual check, without changing the preserved historical observations. Current firmware12 behavior, hardware tests and exact pre-MKII Shopee condition/stock remain unresolved. Searches again surfaced MKII or revision-conflicted listings; none was adopted as a pre-MKII Turbo quote. No software/firmware installed or device operated.
 
 ## VP4
 

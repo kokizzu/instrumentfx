@@ -229,3 +229,5 @@ PLETHORA X5 [historical tempo/tuner display boundary](brand/TC-ELECTRONIC.md#ple
 MC8 PRO [switch-spacing andnavigation-lock qualification](brand/MORNINGSTAR.md#mc8-pro--switch-spacing-navigation-lock-and-label-recall): published switch spacing isnot screen size. Sensitivity andDual Switch Lock qualify paired-switch navigation;retained toggle labels do not establish connected-effect state. Four LCDs remain shared across eight switches.
 
 Helix Rack/Control [direct-manual visual recovery](brand/LINE6.md#helix-rack--primary-panel-and-global-control-recovery): Control has12individual footswitch LCDs plus aseparate20-character top LCD. Pedal-position display uses thetop LCD;tempo uses theTAP strip. These do not add onboard Rack footswitches.
+
+FM9 Turbo [visual panel corroboration](brand/FRACTAL-AUDIO.md#fm9-turbo--visual-panel-census-and-usb-channel-diagram): the explicitly Original/Turbo-covered drawing confirms nine footswitch readouts, a separate main display and 9 rotary/9 footswitch/12 button controls. MKII enlarged screens are not transferred.

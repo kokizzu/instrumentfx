@@ -19,7 +19,7 @@ def source_limit(url):
     # Exact owner-manual HEAD reviewed at 132,952,762 bytes; no broad host exception.
     return 144 * 1024 * 1024 if url == REVIEWED_LARGE_PDF else LIMIT
 
-HOSTS = {'www.fmicassets.com', 'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
+HOSTS = {'www.fractalaudio.com', 'www.fmicassets.com', 'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
          'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 
@@ -354,6 +354,7 @@ def test():
             pass
         else:
             raise AssertionError('Unsafe source accepted')
+    check_url('https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf')
     check_url('https://www.fmicassets.com/Damroot/Original/example.pdf')
     check_url('https://zoomcorp.com/media/example.jpg')
     assert source_path('https://zoomcorp.com/a.jpg') == IMAGE

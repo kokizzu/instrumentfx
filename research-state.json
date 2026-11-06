@@ -175961,12 +175961,49 @@
     "revision": "August2022,3.x,Original/TURBO explicit cover; printed22–26,94,117,119; current12 equivalence untested",
     "active_inventory": 402,
     "remaining": [
-      "Full USB diagram visual verification",
       "Internal USB MIDI wording contradiction",
       "Global analog expression attenuation of digital/raw/USB/phones/tails/loops",
       "Exact pre-MKII hardware offer and other recorded gaps"
     ],
-    "next": "Continue requested separate-screen/Shopee research; preserve GT-Pro,GP200JR→Prime→GE300,expression-volume and consolidation queues"
+    "next": "Continue requested separate-screen/Shopee research; preserve GT-Pro,GP200JR→Prime→GE300,expression-volume and consolidation queues",
+    "visual_verification": {
+      "checked": "2026-11-06",
+      "revision": "August2022 firmware3.x Original/TURBO cover; current12 equivalence untested",
+      "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+      "pdf_bytes": 7325089,
+      "pdf_pages": 138,
+      "sha256": "f8645ba39ba1f60e9d6e250496742241274284247fe0311a8b45f35b8a1a0238",
+      "text_read": [
+        "cover",
+        "printed19–26"
+      ],
+      "visual_printed": [
+        19,
+        21,
+        24
+      ],
+      "controls": {
+        "rotary": 9,
+        "footswitch": 9,
+        "separate_button": 12,
+        "encoder_push_counted_once": true
+      },
+      "display": "Nine individual footswitch readouts plus separate main; no MKII specification transfer",
+      "usb_shape": "Type-B shown in rear drawing; not power proof",
+      "recording": {
+        "1/2": "ProcessedOut1",
+        "3/4": "ProcessedOut2",
+        "5/6": "Input1 dry DI; tutorial mono5; pair signal independence unverified",
+        "7/8": "SelectedInput2or3 stereo raw"
+      },
+      "playback": {
+        "1/2": "Out1",
+        "3/4": "Out2;swap1/2mapping",
+        "5/6": "GridInput1and/or2/3 via shared digital/per-inputsource selectors",
+        "7/8": "INUSB;optionalSPDIFsource"
+      },
+      "hardware_test": false
+    }
   },
   "fm9_turbo_usb_midi_clock_versions_20261105": {
     "checked": "2026-11-05",
@@ -177914,12 +177951,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://line6.com/data/6/0a00051afd4e673ccaf2d15b4/application/pdf/Helix%20Rack%20and%20Control%203.80%20Owner%27s%20Manual%20-%20English%20.pdf?locale=ja_JP",
+    "requested_url": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 8,
+    "frame": 26,
     "text_pages": [
-      73,
-      76
+      0,
+      0
     ],
     "index_url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt",
     "index_needle": "V0",
