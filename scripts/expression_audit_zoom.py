@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(valeton): qualify additional GP-150 Shopee voucher offer'
+        message='research(valeton): recover GP-150 1.1.1 operating limits'
     print(git('commit','-m',message))

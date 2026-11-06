@@ -1555,7 +1555,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Monochrome / color | Color |
 | Touchscreen | ? |
 | Evidence and remaining uncertainty | [Manufacturer specification; drag-and-drop wording is not touch proof](VALETON.md#gp-150)<!-- historical-link:valeton-010 --> |
-| Built-in / external expression | Yes / EXP/FS |
+| Built-in / external expression | Built-in toe switches EXP1 A/B; external EXP2 shares EXP/FS/MIDI jack. V1.1.1 patch assignments: up to3 parameters per pedal state, Min/Max0–100; global calibration is separate. [Manual and scope](#gp-150--recovered-111-english-manual-and-operating-limits). |
 | K/F/B | 5/2/6 [controls](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png) |
 | Width × depth × height, mm | 200 × 139 × 55 |
 | Weight | 958 g |
@@ -1569,9 +1569,9 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Third-party IR | 20, 1024/2048 samples |
 | NAM / captured models | **Firmware1.1.1+ adds native NAM A2 Lite**, explicitly named for GP-150 in the [official regional notice dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. Earlier research recorded SnapTone conversion with100 model slots/50 supplied; retain that historical workflow separately. [Spanish1.1.1 manual](#gp-150--111-native-model-storage-and-mode-boundary) documents **20 nativeA2Lite files**,independent of100 convertedSnapTone files. NativeA2Full,other architectures andconcurrency remain unverified;conversion capacity isnot native capacity. |
 | Audio / control connections | ¼″ input; **L TS unbalanced / R TRS balanced** outputs; 3.5 mm TRRS headset/mic; EXP/FS shared MIDI-in; USB-C |
-| Power and battery | Rechargeable 3000 mAh/3.7 V; DC 9 V centre-negative and USB 5 V/PD charging; ≥1 A operating USB figure; see official charging/adapter requirements |
+| Power and battery | V1.1.1:3000mAh/3.7V; DC9V centre-negative5.5×2.1mm,≥1.5A supply (manual separately says1A minimum operating/2A maximum supply). USB5V≥1A;3A PD fast-charge figure. Below5% battery: nondismissible warning andno audio. USB No Power is data-only;off defaults Charge. [Exact qualifications](#gp-150--recovered-111-english-manual-and-operating-limits). |
 | Configuration software | Windows/macOS editor; iOS/Android via Bluetooth |
-| Other relevant features | USB 6-in/4-out; 180 s looper; 100+ rhythms; no FX-loop claim |
+| Other relevant features | V1.1.1: USB Normal6-in/4-out; Legacy2-in/2-out excludes MIDI/desktop editor. Looper Pre dry/mono180s, Post wet/stereo90s; volatile recording. 100+ rhythms; no FX-loop claim. [Routing and limits](#gp-150--recovered-111-english-manual-and-operating-limits). |
 
 Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.
 
@@ -1642,6 +1642,22 @@ Checked **2026-11-05** against the complete category tables in the [manufacturer
 | VOL | 1 | 73 |
 
 Counts are selectable menu rows, excluding bypass, parameter modes and import locations. Hammy appears in both PRE and WAH; each menu includes it, without implying unique algorithms or simultaneous duplicates. AC Sim’s four modes remain one PRE choice. N→S files and native storage remain separate from this census. The manufacturer’s 200+ headline is not reconciled by summing these rows. Current/installed firmware equivalence remains unverified; the newer 1.1.1 storage documentation above does not establish an unchanged effects appendix. No sibling-model counts used.
+
+### GP-150 — recovered 1.1.1 English manual and operating limits
+
+Checked **2026-11-06**. The [official English1.1.1 listing](https://www.valeton.net/wpfd_file/gp-150_online-manual_en_firmware-v1-1-1-pdf/) redirects to the [manufacturer resource PDF](https://res.diversitone.com/Uploads/wp/download/1787706206018.GP-150_Online%C2%A0Manual_EN_Firmware%20V1.1.1.pdf), now retrieved through the bounded local document reader despite the web-reader failure. **40 PDF pages,37,920,368 bytes; SHA256 `25e6585a5994c455ddd9f121c6d0a5b4f5c040f88c4116fb70cd04eef59abdbc`.** Cover visually identifies GP-150/FirmwareV1.1.1; all pages read as extracted original text, with cover and printedp13 visually inspected. Poppler emitted Type3 glyph warnings onp13, but the rendered looper prose and time limits were legible. PDF creation metadata17August2026 and listing26August are not firmware-introduction dates.
+
+| Area / printed pages | Verified distinction / practical limit |
+|---|---|
+| Looper,13–14 | **Pre records dry mono,maximum180s; Post records wet stereo,maximum90s.** Pre recordings follow subsequent patch tones. Rec VOL andPlay VOL separately0–100; audio remains active after leaving the looper screen but isnot saved bythe system. Drum Sync may slightly adjust recorded timing; Auto REC waits for an unspecified input threshold. Neither proves recorded-loop attenuation by every volume control or seamless patch changes. |
+| Pedal/CTRL,17–19 | Built-in EXP1-A/B toggled bytoe;external EXP2 uses shared jack. Each state maps up to3 parameters withheel/toe Min/Max0–100. Default EXP1-A controls VOL. Assignments are **Patch Settings**,not a global all-patch volume override. VOL last cuts effect tails; earlier placement lets downstream decay continue. CTRL A/B each toggle up to3 modules,6 total;each module canbelong toonly one switch. This isnot six independent footswitches orscene memory. |
+| USB,22 | Normal6-in/4-out: host inputs1/2 carry selectable wet/dry chain plus mic,3/4 wet chain only,5/6 loopback;host outputs1/2 feed outputs/headphones,3/4 return dry audio for processing. **Legacy2-in/2-out hasno MIDI andcannot connect desktop companion software.** REC/Monitor±20dB,default0;BT REC/MIC REC Off or±20dB,defaultOff. No latency/modern-host test. |
+| Output/headset,20–23 | R Stereo sends right channel;R Mono sends left,so L+R then duplicate left. Independent No CAB L/R. Headset TRRS auto supports CTIA/OMTP;MIC/PHONES chooses TRS/TRRS,MIC Level0–100 andMIC Monitor are separate. Global EQ has4 parametric bands,cuts andlevel,**doesnot affect USB audio output**. Headset monitoring andUSB returns do not establish comprehensive EXP coverage. |
+| Global versus patch,24–28 | Heel/toe calibration isglobal;strong-toe step EXP1 only. Shared jack Type=MIDI(default),EXP,Single FS orDual FS;external switches maychoose Patch+/− independently. Auto Save defaultsOff;whenenabled it immediately overwrites edits includingCTRL states. Global reset, factory patches001–100 andAll Data are separate choices. Calibration,autosave andglobal menus arenot universal volume assignment. |
+| Native storage/DSP,15–17 | English now independently corroborates100 convertedN→S files/50 supplied versus20 nativeA2Lite files,independent mode contents. DSP can gray out achoice anddisable its module;set unused modulesNone tofree resources. Twelve slots donot guarantee every selected combination fits. NativeA2Full remains unverified. |
+| Power/control,7,10,22,37 | Below20% warning dismissible;below5% warning cannotbedismissed andaudio stops. USB Charge orNo Power(data-only);powered-off defaultsCharge. DC9V centre-negative5.5×2.1mm requires≥1.5A supply,withseparate1A minimum-operating/2A maximum-supply figures;USB5V≥1A,3A PDfast-charge figure. These are published requirements,not measured draw. Five rotaries,two FS,six separate front buttons;POWER andtoe separate. |
+
+**Scope remains partial:** this40-page manual ends at printed37 andcontains **no effects appendix**. It doesnot replace orcertify unchanged the older1.0.5 algorithm census. Its overview omits native mode whilepp15–17 explicitly document it;the detailed passages take precedence for mode support. Troubleshootingp36 accidentally namesGP-50,so that line isnot used totransfer specifications. Installed firmware,tracking quality,current parameter library,touch capability,TRS MIDI type/pedal electrical pinout andqualifiedused stock remain unverified. No app,driver orfirmware installed,unit operated,ornew active model admitted. Earlier failure reports anddated sources remain historical.
 
 ## GP-180
 

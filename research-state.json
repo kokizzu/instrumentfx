@@ -168214,7 +168214,46 @@
       "Currentcategorycensus",
       "Visualcontrols/touch,qualifiedusedhardware"
     ],
-    "next": "Continue GP150categorycount gaps fromowncomplete1.0.5appendix whilekeeping1.1.1storage separate;preserve display/expression andgeneralqueues."
+    "next": "Continue GP150categorycount gaps fromowncomplete1.0.5appendix whilekeeping1.1.1storage separate;preserve display/expression andgeneralqueues.",
+    "english_111_recovery": {
+      "checked_date": "2026-11-06",
+      "listing": "https://www.valeton.net/wpfd_file/gp-150_online-manual_en_firmware-v1-1-1-pdf/",
+      "source": "https://res.diversitone.com/Uploads/wp/download/1787706206018.GP-150_Online%C2%A0Manual_EN_Firmware%20V1.1.1.pdf",
+      "bytes": 37920368,
+      "sha256": "25e6585a5994c455ddd9f121c6d0a5b4f5c040f88c4116fb70cd04eef59abdbc",
+      "pages": 40,
+      "read_zero_based": [
+        0,
+        39
+      ],
+      "visual_pages_zero_based": [
+        0,
+        15
+      ],
+      "revision": "For Firmware V1.1.1; not installed/latest-firmware proof",
+      "looper": {
+        "pre": "dry mono180s",
+        "post": "wet stereo90s",
+        "storage": "volatile"
+      },
+      "usb": {
+        "normal": "6in4out: host inputs1/2chain+mic,3/4wet,5/6loopback;outputs1/2monitor,3/4reprocess",
+        "legacy": "2in2out; noMIDI/no desktop companion",
+        "global_eq": "does not affect USB output"
+      },
+      "expression": "Patch Settings,3targets per EXP1A/1B/2;0–100endpoints;calibrationglobalnotassignment",
+      "remaining": [
+        "No effects appendix;1.0.5 census equivalence unverified",
+        "Installedfirmware andtracking tests",
+        "MIDItype/EXPpinout",
+        "Qualifiedusedstock",
+        "Comprehensivevolume/loop/headphonecoverage"
+      ],
+      "source_reader_limit": "Reviewed manufacturerHEAD37920368;48MiB bounded retrieval;single rolling /tmp PDF replaced previous cache",
+      "render_warning": "Type3glyphboundingbox warnings;printedp13 prose visually legible",
+      "next": "Retrieve exact1.1.1 effects list separately before claiming current algorithm census;independent general andGT-Pro queues preserved",
+      "active_inventory_unchanged": 402
+    }
   },
   "gp150_category_census_20261105": {
     "checked_date": "2026-11-05",
@@ -177188,12 +177227,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://res.diversitone.com/Uploads/wp/download/1787706039757.GP-50_Effect%20List_EN_Firmware%20V1.1.0.pdf",
+    "requested_url": "https://res.diversitone.com/Uploads/wp/download/1787706206018.GP-150_Online%C2%A0Manual_EN_Firmware%20V1.1.1.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 3,
+    "frame": 15,
     "text_pages": [
-      20,
-      22
+      32,
+      39
     ]
   }
 }

@@ -11,7 +11,7 @@ from research_tools import ROOT, identity
 PLAN = Path('/tmp/instrumentfx-source-image-plan.json')
 RECEIPT = Path('/tmp/instrumentfx-source-image-receipt.json')
 IMAGE = Path('/tmp/instrumentfx-source-image.jpg')
-LIMIT = 16 * 1024 * 1024
+LIMIT = 48 * 1024 * 1024
 HOSTS = {'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
          'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
@@ -70,7 +70,7 @@ def render_svg(data, output):
 
 def validate_image(data):
     if len(data) > LIMIT:
-        raise ValueError('Visual source exceeds 16 MiB limit')
+        raise ValueError('Visual source exceeds 48 MiB limit')
     if not (data.startswith(b'\xff\xd8\xff') or data.startswith(b'\x89PNG\r\n\x1a\n')
             or data.startswith((b'GIF87a', b'GIF89a', b'%PDF-')) or svg_root(data) is not None):
         raise ValueError('Response is not a JPEG, PNG, GIF, PDF or static SVG visual source')
