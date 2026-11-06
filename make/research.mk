@@ -1281,3 +1281,7 @@ research-source-image-render:
 .PHONY: research-source-image-text
 research-source-image-text:
 	python3 scripts/source_image.py text
+
+.PHONY: research-source-index
+research-source-index:
+	python3 scripts/source_image.py index

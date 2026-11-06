@@ -12,7 +12,7 @@ PLAN = Path('/tmp/instrumentfx-source-image-plan.json')
 RECEIPT = Path('/tmp/instrumentfx-source-image-receipt.json')
 IMAGE = Path('/tmp/instrumentfx-source-image.jpg')
 LIMIT = 48 * 1024 * 1024
-HOSTS = {'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
+HOSTS = {'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
          'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 
@@ -227,7 +227,80 @@ def extract_text():
     print(result.stdout)
 
 
+def check_index_url(url):
+    parsed = urllib.parse.urlsplit(url)
+    assert parsed.scheme == 'https' and parsed.hostname == 'www.valeton.net'
+    assert not parsed.username and not parsed.password and parsed.port in (None, 443)
+    if parsed.path == '/wp-admin/admin-ajax.php':
+        query = urllib.parse.parse_qs(parsed.query)
+        assert query.get('action') == ['wpfd']
+        assert query.get('task') in (['categories.display'], ['files.display'])
+        assert (query.get('task'), query.get('view')) in ((['categories.display'], ['categories']), (['files.display'], ['files']))
+        assert set(query) <= {'juwpfisadmin', 'action', 'task', 'view', 'id', 'top', 'page', 'limit', 'rootcat', 'page_limit', 'orderCol', 'orderDir'}
+    return url
+
+
+class IndexRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        check_index_url(newurl)
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+def inspect_index():
+    """Inspect bounded public HTML/JSON/JS as text; never execute page scripts."""
+    identity()
+    state = json.loads((ROOT / 'research-state.json').read_text())['source_image_inspection']
+    url = state['index_url']
+    check_index_url(url)
+    needle = state.get('index_needle', 'GP-150')
+    assert isinstance(needle, str) and 2 <= len(needle) <= 64
+    request = urllib.request.Request(url, headers={'User-Agent': 'InstrumentFX-source-review/1.0'})
+    opener = urllib.request.build_opener(IndexRedirect())
+    with opener.open(request, timeout=30) as response:
+        check_index_url(response.geturl())
+        data = response.read(4 * 1024 * 1024 + 1)
+    assert len(data) <= 4 * 1024 * 1024, 'Manufacturer HTML exceeds 4 MiB'
+    body = data.decode('utf-8')
+    if body.lstrip().startswith('{'):
+        decoded = json.loads(body)
+        if 'files' in decoded:
+            assert len(decoded['files']) <= 100, 'Select a smaller catalogue page'
+            print(json.dumps({'url': url, 'sha256': hashlib.sha256(data).hexdigest(),
+                              'keys': list(decoded), 'files': decoded['files']}))
+            return
+        if 'categories' in decoded:
+            print(json.dumps({'url': url, 'sha256': hashlib.sha256(data).hexdigest(),
+                              'keys': list(decoded), 'files': decoded.get('files'), 'categories': [{'id': row.get('term_id'), 'name': row.get('name')}
+                                             for row in decoded['categories']]}))
+            return
+    import re
+    positions = [match.start() for match in re.finditer(re.escape(needle), body, re.I)]
+    skip = state.get('index_skip', 0)
+    assert isinstance(skip, int) and 0 <= skip <= 1000
+    print(json.dumps({'url': url, 'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest(),
+                      'needle': needle, 'matches': len(positions), 'skip': skip}))
+    previous_end = 0
+    for position in positions[skip:skip + 25]:
+        start, end = max(previous_end, position - 250), position + 1000
+        if end > start:
+            print(body[start:end])
+            previous_end = end
+
+
 def test():
+    check_index_url('https://www.valeton.net/user-manual/')
+    check_index_url('https://www.valeton.net/wp-admin/admin-ajax.php?action=wpfd&task=files.display&view=files&id=320')
+    for bad in ('https://example.com/user-manual/',
+                'http://www.valeton.net/user-manual/',
+                'https://user:secret@www.valeton.net/user-manual/',
+                'https://www.valeton.net/wp-admin/admin-ajax.php?action=wpfd&task=files.upload&view=files',
+                'https://www.valeton.net/wp-admin/admin-ajax.php?action=wpfd&task=categories.display&view=files'):
+        try:
+            check_index_url(bad)
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('Unsafe catalogue request accepted')
     for bad in ('http://zoomcorp.com/a.jpg', 'https://localhost/a.jpg',
                 'https://zoomcorp.com.evil.example/a.jpg',
                 'https://user:secret@zoomcorp.com/a.jpg'):
@@ -294,4 +367,4 @@ def test():
 
 
 if __name__ == '__main__':
-    {'plan': plan, 'apply': apply, 'test': test, 'render': render, 'text': extract_text}[sys.argv[1]]()
+    {'plan': plan, 'apply': apply, 'test': test, 'render': render, 'text': extract_text, 'index': inspect_index}[sys.argv[1]]()
