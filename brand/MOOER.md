@@ -3012,6 +3012,8 @@ Portable guitar/bass multi-effects; checked2026-10-18, partial. Distinct from P1
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
+| Processing / regional1.3.5 census | Explicit S1 **1.3.5** column: **149=OD19+AM62+CA35+DY4+MO15+DE6+RE5+EQ3**, **8 blocks**, no repeated types; **40 preset locations**, factory fill unknown. Historical regional inventory, not current installed firmware. [Exact-model census](#prime-s1--regional135-census-and-creative-boundaries). | [Japanese MOOER comparison](https://mooer.jp/pages/mooer-prime-s1-m1-m2) |
+| Memory / regional1.3.5 locations | **40 locations=10 banks×4**, explicit S1 column; factory-filled/blank split and later-firmware equivalence unknown. Supersedes earlier missing total, not the retained factory-fill uncertainty. | [Japanese MOOER comparison](https://mooer.jp/pages/mooer-prime-s1-m1-m2),checked2026-11-06 |
 | Expression / toe | Built-in/external/toe expression unverified. F4 wireless foot control is not proof of EXP input. | Unresolved |
 | Knobs / footswitches / buttons | Master dial and4 multifunction footswitches documented;complete rotary/button census pending visual/manual audit. | [English product][S1-EN] |
 | Display | LED digital display;diagonal,color/touch unverified. | [English product][S1-EN] |
@@ -3099,6 +3101,27 @@ NAM followup found explicit native/converted distinctions for other MOOER famili
 ### Prime S1 — direct analog expression screen
 
 Checked2026-10-19. [Manufacturer-authored S1 manual, printed pp4–7,12](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P_S1_BK_Manual_EN.pdf), exact model/layout; revision remains unprinted. Complete connector inventory has instrument input, L/R outputs, dedicated3.5mm phones and USB; **no analog EXP input**. Direct-pedal volume across presets fails; direct-EXP position/min/max/bypass/headphone/tail/loop coverage is inapplicable. Wireless expression remains unverified. Manual70.2W×240Dmm exceeds preferred depth; rotating the housing still leaves240mm beyond preferred width. Preset workflow is bank pairs thenA–D, not documented sequential patch down/up. Previously preserved English/Japan bank-direction conflict remains unresolved. Master knob and app mixer are not direct expression assignment. No hardware test, firmware installation or stock refresh.
+
+### Prime S1 — regional1.3.5 census and creative boundaries
+
+Checked **2026-11-06** against [MOOER Japan/LEP’s comparison](https://mooer.jp/pages/mooer-prime-s1-m1-m2), explicitly labelled **S1 version1.3.5**. The S1 column itself was checked, rather than inheriting M1/M2 specifications. It reports **eight effect blocks**, no repeated types, and **40 locations (10 banks×4)**. Factory-filled/blank split and unrestricted concurrency remain unverified. The earlier126/128 launch figures remain historical;149 is the regional version-qualified total, not a correction retroactively applied to launch firmware.
+
+| Category | Count | Exact non-amp/cab choices |
+|---|---:|---|
+| OD | 19 | Pure Boost; Flex Boost; Tube DR; 808; Gold Clon; D-Drive; Jimmy OD; Full DR; Beebee Pre; Beebee+; Black Rat; Grey Faze; Muffy; Full DS; Shred; Riet; MTL Zone; MTL Master; Obsessive Dist |
+| DY | 4 | NG(Noise Killer); Comp; Touch Wah; Auto Wah |
+| MO | 15 | Q-Filter; Phaser; Step Phaser; Flanger; Jet Flanger; Tremlo; Stutter; Vibrato; Pitch Shift; Rotary; Ana Chorus; Tri Chorus; Ring; Lofi; Slow Gear |
+| DE | 6 | Digital; Analog; Real Echo; Tape; Mod; Reverse |
+| RE | 5 | Room; Hall; Plate; Spring; Mod |
+| EQ | 3 | 3 Bands EQ; 5 Bands EQ; Bass EQ |
+
+The **52 non-amp/cab choices +62 amps (52 guitar/10 bass) +35 cabinets (25 guitar/10 bass) =149**. This count excludes external IR locations, drums and looper. Source spellings such as Tremlo/Riet are retained; Flanger/Jet Flanger descriptions call them phasers, a regional copy inconsistency rather than verified signal topology. The table’s absent MNRS field is historical: later manufacturer notes already document MNRS/GNR and NAM A2 loading. Architecture, file limits, conversion and current mobile support remain qualified separately.
+
+**Creative distinctions:** Pitch Shift is named; ranges, scale harmony, input-note polyphony and tracking quality are unverified. Ring, Lofi, Stutter, Slow Gear and Reverse delay provide unusual processing. Touch Wah follows an envelope and Q-Filter is static filter processing; neither establishes a tracking synth. Dedicated synth and electric-to-acoustic simulation remain unverified. M2-only Shimmer/Crystal/Rainbow and additional drives are excluded. These choices share the reported blocks, not extra simultaneous positions.
+
+The regional S1 section labels **240W×70.2D×31.9Hmm**, conflicting with the original manual’s D240×W70.2 labels; both orientations fail the preferred200×140mm rectangle. It marks S1 touchscreen unsupported at1.3.5 and supports wireless switching; this does not establish analog EXP. The comparison’s S1 instructions agree with the English manual on **A+B bank down, C+D bank up**, whereas the older Japan tutorial reverses them. Preserve all sources; no hardware test resolves installed behavior.
+
+**Additional exact Shopee hardware lead:** [budi.toinc, shop52168887/item54354404589](https://shopee.co.id/Mooer-Prime-S1-inteligent-Efek-Multiefek-gitar-i.52168887.54354404589), **Kota Depok, Rp1,750,000**, five-month search snapshot. Direct reopening returned cache miss. New/used condition, working state, installed firmware, selected variant, stock, accessories/adapter, regional warranty, vouchers, shipping/tax and checkout total remain unknown. No condition inference from seller size or activity; not a current sale/stock guarantee. Older offers retained separately. No downloads, installs, seller contact or device operation.
 
 ## Red Truck
 
