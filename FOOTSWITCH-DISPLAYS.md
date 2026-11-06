@@ -235,3 +235,5 @@ FM9 Turbo [visual panel corroboration](brand/FRACTAL-AUDIO.md#fm9-turbo--visual-
 G5 [original English PDF and image-only appendix](brand/ZOOM.md#g5--direct-english-pdf-and-image-only-z-pedal-guide): rear-selector drawings now visually checked;four LCD effect windows remain separate from the nine-effect chain. The image-only Z-Pedal guide must not be treated as missing because text extraction is empty.
 
 G5n [primary manual icon recovery](brand/ZOOM.md#g5n--primary-manual-control-mappings-and-calibration): Unit footswitch special functions are labelled white-on-dark on the corresponding LCD; lower BANK/SCROLL controls move the four-effect display window. Built-in pedal calibration and toe/Unit-switch setting distinctions are documented separately, without adding screens or certifying global expression volume.
+
+G11 [primary control-window diagrams](brand/ZOOM.md#g11--primary-usb-signal-flow-and-control-window-diagrams) identify the SCROLL footswitch pair and a large GEQ spanning two effect LCD sections. Five effect screens do not guarantee five independent visible algorithms; exact special-function switch mapping remains unresolved.

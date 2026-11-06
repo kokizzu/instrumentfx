@@ -936,3 +936,5 @@ Helix Rack [primary3.80 controller/output check](brand/LINE6.md#helix-rack--prim
 FM9 Turbo [complete USB diagram visual check](brand/FRACTAL-AUDIO.md#fm9-turbo--visual-panel-census-and-usb-channel-diagram) separates processed recording, dry DI, selectable stereo inputs and direct playback. This resolves diagram associations, not universal analog-expression attenuation of USB/phones/tails/recorded loops.
 
 G5 [direct English source qualification](brand/ZOOM.md#g5--direct-english-pdf-and-image-only-z-pedal-guide): OUTPUT VOL explicitly excludes rhythm/looper. Same-PDF DSP-overload prose differs between all-effects bypass and singular-effect bypass;neither is a measured all-output mute or universal expression-volume guarantee.
+
+G11 [visually checked V2 signal flow](brand/ZOOM.md#g11--primary-usb-signal-flow-and-control-window-diagrams) places processed USB recording before MASTER and AUX after MASTER. This qualifies all-source attenuation claims; it does not establish external-expression assignment or measured mute/headphone coverage.

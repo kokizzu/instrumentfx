@@ -5438,6 +5438,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Instrument / aux | One6.35mm mono input,500kΩ; one3.5mm stereo AUX IN,10kΩ. No microphone input/phantom power in the full published connector list. [G11-M p.104] |
 | Outputs / loops | Two6.35mm mono main L/MONO,R outputs; dedicated6.35mm stereo headphones; two6.35mm SEND and two RETURN sockets, usable as two mono loops or stereo send/return processing. Nine routing choices include mono/stereo loops,send-only andreturn-only entries;positions are patch-stored andconsume effect capacity. INST/LINE output-level selection. No XLR output in the published list. [G11-M pp.13–14,77–79,104] |
 | MIDI / USB | Separate five-pin DIN MIDI IN/OUT; USB-C DEVICE for audio/Guitar Lab; USB-A HOST for IR/update flash drives; dedicated optional-BTA-1 REMOTE connector. [G11-M] |
+| USB / diagram-qualified tap positions | V2 printed7 visual diagram: dry recording branches before PRE looper; processed recording branches after POST looper/rhythm and before MASTER; AUX joins after MASTER. Computer returns have pre-processing and post-rhythm/pre-MASTER destinations. Schematic positions, not measured attenuation or numbered DAW channel assignments. [Primary signal-flow diagram](#g11--primary-usb-signal-flow-and-control-window-diagrams) |
 | MIDI / controller limits | Per-patch PC/CC transmission does not establish received expression CC support. The V2 manual’s embedded March2020 chart marks CC reception unsupported; BANK/DIRECT program-change modes and clock are separate. [Revision-qualified MIDI audit](#g11--midi-transmission-and-reception-boundaries). |
 | Live / master level and recall | **V2 pp7,18–19:master knob −∞ to+6dB,center0dB**; overall volume retained across patch changes. This is hand-operated master level,not a verified global expression assignment or pedal endpoint range. Startup-state restoration is broadly stated p18; exact held-pedal recall remains unknown. [Own manual](https://zoomcorp.com/documents/461/E_G11v2.pdf) |
 | Power | **12V DC,center-positive,2000mA AD-19 supply**. Supply rating, not measured operating draw. **USB bus power explicitly unsupported**. Internal battery operation is not documented. [G11-M p.104] |
@@ -5941,6 +5942,24 @@ This completes those historical category names,not current Effect Pool reconcili
 Checked **2026-11-06**, [manufacturer V2 operation manual,©2021,Z2I-3886-02,printedpp26–29](https://zoomcorp.com/media/documents/E_G11v2.pdf). The amp section’s six knobs adjust gain,bass,middle,treble,presence andvolume,but available controls vary by amp. **Some amp parameters can only be adjusted on the touchscreen**;physical amp-knob changes are reflected there. The amplifier LCD shows the amp name andadjusted parameter values. This is distinct from the five Effects Section LCDs anddoes not expand their visible-effect capacity.
 
 During category/effect selection,the screen shows processing status. Combined choices must stay within **100% processing capacity**. Overflow bypasses the affected effect;the guide recommends changing orremoving an amp/effect. This meter limit qualifies the existing one-amp-plus-nine-effects specification andthe operation chapter’s ten-effect wording;it doesnot guarantee arbitrary ten-model combinations ormultiple independent amps. No numeric per-algorithm costs,current-firmware equivalence ormeasured CPU performance established. No download ordevice test.
+
+### G11 — primary USB signal-flow and control-window diagrams
+
+Checked **2026-11-06** in [ZOOM’s original G11 V2 manual](https://zoomcorp.com/media/documents/E_G11v2.pdf), **106 PDF pages,7,804,985 bytes**, SHA256 a2bf4009717a2f3e13689a8a0c371789cbab81a6e105aa3c99782a00e7aaba06. Selected text printed6–8,28–30,89–93 was read completely; **printed7,28–30,89 were rendered and visually inspected**. V2 documentation does not establish installed firmware or a complete current-library census.
+
+The **printed7 signal-flow drawing**, explicitly referenced by the audio-interface chapter, resolves positions missing from earlier text-only inspection:
+
+| Path | Position shown / practical boundary |
+|---|---|
+| USB DRY REC DATA | Branches from input before the PRE looper and patch processing. The drawing does not depict processed effects, POST-loop playback or rhythm in this dry branch. |
+| USB REC DATA | Branches after patch level, the POST-looper path and rhythm, but **before MASTER volume**. The schematic places rhythm/POST-loop sound upstream of this recording tap; actual inclusion and level behavior have not been tested. |
+| Computer return before processing | Joins the input-side signal before PRE looper and the patch chain. Reamp destination, not another physical input or identical application behavior. |
+| Computer return after processing | Joins **after rhythm, before MASTER**. Distinct from the reamp destination; the drawing does not send this return through patch effects. |
+| AUX IN | Joins **after MASTER**, downstream of the depicted USB recording tap. Diagram-based reading: AUX is outside that master-control and recording route; not a measured mute test or a claim covering undocumented modes. |
+
+Printed89/91 describe **two pre-effect plus two post-effect channels in each direction**, but neither these paragraphs nor this diagram assigns numbered DAW pairs. Keep channel numbering unresolved; do not invent1/2 versus3/4. Separate processed/dry recording gains and REAMP GAIN each span−6…+6dB; MONITOR BALANCE0–100 selects direct-only at0/computer-only at100. The diagram omits these controls, so it is not a complete implementation map. Hand-operated MASTER before AUX is not global expression assignment or proof of headphone/tail/loop attenuation in every mode.
+
+**Control-window diagrams:** printed28 visually identifies the lower **SCROLL left/right** footswitch pair for shifting the five effect-section window; knobs adjust the displayed parameters above them. Printed29 shows a large guitar graphic EQ spanning two effect LCD/knob sections. This establishes shared parameter space, not two independent algorithms, an extra screen or doubled DSP cost. Exact special-function left/right switch mapping remains unresolved; this drawing does not show those switches. Printed29 also visually identifies the unsaved-edit save icon. No device operation, driver/software installation, firmware change or transaction; earlier dated hardware offers remain unchanged.
 
 ## GCE-3 — partial computer-controlled discovery
 

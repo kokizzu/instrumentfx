@@ -146204,7 +146204,44 @@
       ]
     ],
     "record": "brand/ZOOM.md#g11--v2-factory-allocation-and-usb-level-controls",
-    "next": "Remaining LCD models and current offers; keep independent general BOSS GT-Pro cursor."
+    "next": "Remaining LCD models and current offers; keep independent general BOSS GT-Pro cursor.",
+    "primary_diagram_followup": {
+      "checked": "2026-11-06",
+      "source": "https://zoomcorp.com/media/documents/E_G11v2.pdf",
+      "bytes": 7804985,
+      "pdf_pages": 106,
+      "sha256": "a2bf4009717a2f3e13689a8a0c371789cbab81a6e105aa3c99782a00e7aaba06",
+      "text_complete": [
+        "printed6–8",
+        "printed28–30",
+        "printed89–93"
+      ],
+      "visual_printed": [
+        7,
+        28,
+        29,
+        30,
+        89
+      ],
+      "dry_tap": "before PRE looper/patch",
+      "processed_tap": "after POST looper/rhythm,before MASTER",
+      "returns": [
+        "before PRE/processing",
+        "after rhythm,before MASTER"
+      ],
+      "aux": "joins after MASTER/downstream USB record tap;diagram inference,not hardware test",
+      "numbered_daw_pairs": "unresolved",
+      "display": "SCROLL lower pair;large GEQ two sections;no exact special-function switch mapping",
+      "remaining": [
+        "DAW channel numbering",
+        "Measured routing/attenuation",
+        "Auxiliary LCD physical specifications",
+        "Current installed library/DSP costs",
+        "Special-function switch mapping",
+        "Condition/stock-qualified Shopee hardware"
+      ],
+      "next": "Continue requested separate-screen processors; preserve expression/general/GT-Pro queues."
+    }
   },
   "helix_floor_shopee_followup_20261031": {
     "checked": "2026-10-31",
@@ -178477,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+    "requested_url": "https://zoomcorp.com/media/documents/E_G11v2.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 44,
+    "frame": 28,
     "text_pages": [
-      44,
-      49
+      29,
+      29
     ],
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",
