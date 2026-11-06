@@ -60,5 +60,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(mooer): qualify alternate GE300 Studio guide requirements'
+        message='research(zoom): recover G1u primary manual and clarify pitch and editor limits'
     print(git('commit','-m',message))

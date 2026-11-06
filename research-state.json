@@ -171129,7 +171129,78 @@
       "Qualified hardware/used-new IDR"
     ],
     "active_inventory_unchanged": 402,
-    "next": "Continue LCD-first priorities andfresh Shopee discovery;preserve GP-200JR->Prime->GE300,GT-Pro andexpression/consolidation queues."
+    "next": "Continue LCD-first priorities andfresh Shopee discovery;preserve GP-200JR->Prime->GE300,GT-Pro andexpression/consolidation queues.",
+    "official_pdf_recovery_20261106": {
+      "checked_date": "2026-11-06",
+      "url": "https://zoomcorp.com/media/documents/E_G1u.pdf",
+      "bytes": 15998054,
+      "sha256": "95544dfc7145abf1b28d4bf2f4ccca1e317e7cd80bb9444b5c02da6626178027",
+      "pdf_pages": 23,
+      "read_zero_based": [
+        0,
+        22
+      ],
+      "visual_zero_based": [
+        1,
+        2,
+        12
+      ],
+      "documents": {
+        "operation_manual": {
+          "id": "G1u-5000-5",
+          "pdf": [
+            0,
+            14
+          ]
+        },
+        "patch_list": {
+          "id": "G1u-PatchList-E-1",
+          "pdf": [
+            15,
+            16
+          ]
+        },
+        "editor_startup": {
+          "id": "ZFX_Tools-Startup-E-3",
+          "pdf": [
+            17,
+            18
+          ]
+        },
+        "daw_guides": [
+          "Live_Lite7-Startup-E-1",
+          "Live_Lite8-Startup-E-1"
+        ]
+      },
+      "controls": {
+        "rotary": 2,
+        "footswitch": 2,
+        "button": 3
+      },
+      "electrical": {
+        "input_nominal_dbm": -20,
+        "input_impedance_ohm": 470000,
+        "line_max_dbm": 3,
+        "line_load_min_ohm": 10000,
+        "phones_mw_per_channel": 20,
+        "phones_test_load_ohm": 32,
+        "usb_current": "unpublished"
+      },
+      "pitch_shift_values": "-12..-1;dt;+1..+12;+24; shared Pitch Shift/Mono Pitch column; not continuous ±24",
+      "factory_filling": "100 named User entries A0–J9 plus explicitly duplicated100protected Preset addresses; not200different tones",
+      "editor_scope": "Historical ZFX startup: no64-bitWindows;IntelMac CoreDuo1.66GHz+,512MB RAM,1024x600;not modern-host certification",
+      "loop": "Changing method/tempo clears recorded content; power retention unknown",
+      "expression": "PerpatchVP,volumeinbypass; no global override/heldposition/routecoverage proof",
+      "remaining": [
+        "Firmware1.20 delta",
+        "USB current andEXP pinout",
+        "Import capabilities/current editor hosts",
+        "Qualified new/used Shopee hardware",
+        "Global pedal-volume endpoints/recall/headphones/USB/loop coverage"
+      ],
+      "next": "Continue remaining display/expression priorities and other Shopee-eligible leads; do not repeatedly re-audit completed67-menu census. Preserve independent GP200JR→Prime→GE300 andGT-Pro queues.",
+      "active_inventory_unchanged": 402
+    }
   },
   "g1u_controls_power_live_20261105": {
     "checked_date": "2026-11-05",
@@ -177512,12 +177583,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://www.valeton.net/download/320/effect-list/24264/gp-150_effect-list_en_firmware-v1-1-1-pdf.pdf",
+    "requested_url": "https://zoomcorp.com/media/documents/E_G1u.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 5,
+    "frame": 1,
     "text_pages": [
-      40,
-      41
+      21,
+      21
     ],
     "index_url": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
     "index_needle": "Software_User_Guide",

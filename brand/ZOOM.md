@@ -2687,6 +2687,8 @@ Earlierbaseline algorithm findings remain dated,not invalidated. G1Xon’s separ
 
 ## G1u — partial no-treadle discovery
 
+**Official manual recovered 2026-11-06:** [official bundle recovered and visually checked below](#g1u--official-manual-recovery-electrical-ratings-and-pitch-limits); earlier retrieval limits remain dated history.
+
 Checked **2026-11-05**. Exact G1u,not G1/G1X or G1on. **Partial lead outside active inventory**; ownership unverified. [Manufacturer product](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g1u/) marks it discontinued.
 
 The [manufacturer English Operation Manual](https://zoomcorp.com/media/documents/E_G1u.pdf),identifier **G1u-5000-5**,was available as indexed original Specifications andpp18–19 text;full15,998,054-byte PDF exceeded the reader limit. No local download or visual inspection.
@@ -2761,6 +2763,24 @@ Checked **2026-11-05** against the manufacturer-authored **G1u-5000-4** manual,p
 | Volume / hand control versus pedal | Play-mode VALUE adjusts master level across patches: displayed **0–98,1.0**, resets to80 at power-on, and controls headphone listening level. This is a hand control,not proof of a global expression target or USB-playback/recorded-loop attenuation. Per-patch expression assignments remain separately qualified. |
 
 Shopee exact-name/spelling searches again found accessories and sibling models,not a seller/item-qualified G1u processor. New/used IDR andstock remain unknown. Partial lead remains outside402 active models;no ownership inferred.
+
+### G1u — official manual recovery, electrical ratings and pitch limits
+
+Checked **2026-11-06** in the [manufacturer-hosted English PDF](https://zoomcorp.com/media/documents/E_G1u.pdf), now retrieved through the bounded local reader: **15,998,054 bytes; SHA256 `95544dfc7145abf1b28d4bf2f4ccca1e317e7cd80bb9444b5c02da6626178027`**. Its 23 PDF pages include the **G1u-5000-5** operation manual (PDF 0–14), **G1u-PatchList-E-1** (15–16), **ZFX_Tools-Startup-E-3** (17–18), and separate Live Lite7/8 supplements (19–22). All text was read; truncated spans were reread narrowly. Printed pp2–5 and 24–25 were rendered and visually inspected. April 2010 PDF metadata does not establish installed firmware or 1.20 equivalence.
+
+| Field / source | Verified finding and boundary |
+|---|---|
+| Panel,pp4–5 | **2 rotary controls / 2 footswitches / 3 buttons** visually corroborated: Module, VALUE; down/up; RHYTHM, STORE, BANK UP·TAP. Shared two-digit seven-segment display, not LCDs above each switch. USB-B, mono instrument input, stereo output/headphones, CONTROL IN and DC are shown. No onboard treadle. Diagonal, LED color and external toe wiring remain unverified. |
+| Electrical, rear cover | Input **−20 dBm nominal, 470 kΩ**. Line output **+3 dBm maximum at 10 kΩ or greater**;phones **20 + 20 mW into 32 Ω**. Preserve the maker’s dBm units; these are published ratings, not measurements or universal headphone-load recommendations. USB is one stereo recording and one stereo playback stream,16-bit, 32/44.1/48 kHz. USB current is not given. |
+| Counting, p3/p23 | The chain diagram separately labels **ZNR and AMP**, while their selector is combined as ZNR/AMP. This explains why seven menu sections should not be equated with freely duplicable blocks. The original 67-choice census and maximum-eight headline remain distinct; utility exclusions still apply. |
+| Pitch, pp24–25 | **Pitch Shift and Mono Pitch share selectable Shift values −12…−1 semitones, dt, +1…+12, +24**; this is not a continuous ±24 range. Mono Pitch explicitly requires single notes; other note polyphony remains unverified. HPS is chosen-key major-scale harmony. Pitch Bend has nine recipes, including 0→+1/+2 octaves, 0→−100 cents/−2 octaves and the manual’s −∞ pitch endpoint. Mixed dry/wet recipes do not prove silence at heel/toe. |
+| Memory, supplied patch list | All **100 User addresses A0–J9 are named** across the two G1u-labelled sheets; numeric banks 0–9 explicitly duplicate them. This corroborates original supplied filling of both 100-location areas, not 200 distinct factory tones or current used-unit contents. User and protected Preset memory remain different. |
+| Volume / loop, p7/p13/p21 and Live Lite supplements | Patch Level displays **2–98,1.0**, 80=unity; the separate global hand-adjusted master includes 0 and resets to 80 at power-on. The recording guides direct adjusting that master to set recording level;this is not proof that VP maps identically or attenuates USB playback. Changing loop recording method or tempo **clears recorded content**. Loop retention on power-off remains unverified. |
+| Historical editor versus audio, ZFX startup guide | **Windows 64-bit OS explicitly unsupported**; Windows XP SP2/Vista era requirements. Mac editor requires **Intel Core Duo 1.66 GHz+**, with 10.4.6/10.5-era OS wording; 512 MB RAM and 1024×600 display listed. These editor requirements are separate from basic USB-audio compatibility. Current Windows/macOS/Apple Silicon/Linux support is not certified. No software installed. |
+
+**Direct expression remains patch-assigned:** p19 stores VP/other targets with each patch and forces volume in bypass. It does not establish an all-patch override, endpoint adjustments, pedal-position recall or headphone/USB/recorded-loop coverage. The two onboard switches provide patch down/up in p7’s play mode;the shared stereo output provides headphones separately. **136 W × 155 D mm still exceeds the preferred 140 mm depth.**
+
+Current 1.20 changes, TRS electrical pinout, USB current, IR/NAM import support and condition-qualified Indonesian hardware remain open. Fresh exact Shopee search supplied no qualified G1u hardware item;this is not proof ofmarket absence. This remains a **partial lead outside 402 active models**, with ownership unverified; no sibling specification was transferred.
 
 ## G1X FOUR
 
