@@ -145894,12 +145894,14 @@
         "printed1–7",
         "printed10–13",
         "printed40–45",
-        "printed55–62"
+        "printed55–62",
+        "printed36–39"
       ],
       "text_partial_due_truncation": "printed50–54;do not claim fully read",
       "visual_printed": [
         4,
-        5
+        5,
+        38
       ],
       "visual_pdf_pages": [
         63,
@@ -145929,12 +145931,28 @@
       "remaining": [
         "Installedfirmware/editionequivalence",
         "fulluntruncatedmanualaudit",
-        "exactcalibrationgestures",
         "globalexternalEXPassignment/endpoints/recall",
         "phones/USB/tailcoverage",
         "condition/stock-qualifiedhardwareoffers"
       ],
-      "hardware_test": false
+      "hardware_test": false,
+      "builtin_calibration": {
+        "source_page": 38,
+        "entry": "GLOBAL held at power-on",
+        "confirm": "STORE/SWAP after each step",
+        "sequence": [
+          "vertical minimum",
+          "vertical maximum",
+          "right",
+          "center",
+          "left",
+          "center"
+        ],
+        "raw_numbers": "examples,not targets",
+        "success": "OK;play mode",
+        "error": "restart",
+        "scope": "built-in Z-Pedal only;not global volume or external assignment"
+      }
     }
   },
   "g5n_effect_pool_additions_20261031": {
@@ -178423,10 +178441,10 @@
   "source_image_inspection": {
     "requested_url": "https://zoomcorp.com/media/documents/G5_operationManual_english.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 64,
+    "frame": 37,
     "text_pages": [
-      9,
-      12
+      35,
+      38
     ],
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",
