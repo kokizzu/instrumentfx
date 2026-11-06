@@ -145878,7 +145878,64 @@
     },
     "record": "brand/ZOOM.md#g5--separate-z-pedal-census-and-assignment-boundary",
     "status": "Partial; see canonical record for mapping scope and restrictions",
-    "next": "Prioritize remaining individual LCD model gaps, including G5n current library and physical controls; preserve independent BOSS GT-Pro cursor."
+    "next": "Prioritize remaining individual LCD model gaps, including G5n current library and physical controls; preserve independent BOSS GT-Pro cursor.",
+    "primary_pdf_recovery": {
+      "checked": "2026-11-06",
+      "source": "https://zoomcorp.com/media/documents/G5_operationManual_english.pdf",
+      "imprints": [
+        "G5-5000-1",
+        "G5 Z-Pedal Effect Guide5000-1"
+      ],
+      "bytes": 40531939,
+      "sha256": "ea31262432c90e0712d8d5df1b77a6afd2dbfb1582140d680c5baac9d860cf07",
+      "pdf_pages": 68,
+      "metadata": "March2012;not firmware date",
+      "text_read_complete_ranges": [
+        "printed1–7",
+        "printed10–13",
+        "printed40–45",
+        "printed55–62"
+      ],
+      "text_partial_due_truncation": "printed50–54;do not claim fully read",
+      "visual_printed": [
+        4,
+        5
+      ],
+      "visual_pdf_pages": [
+        63,
+        64,
+        65
+      ],
+      "zpedal_count": 20,
+      "custom_is_mapping": true,
+      "creative": {
+        "HotSpice": "Sitar simulation;octave-up doubling mix separate",
+        "OctPitch": "single-note;-1octleft/+1octright",
+        "WShift": "single-note;Pitch0–200relative",
+        "FuzzyBack": "single-noteovertonefeedback;sustainfullyright",
+        "Granular": "Hold samples onpicking",
+        "SpaceWorm": "ringmod;2–32stepwaveform"
+      },
+      "rear_selector_visual": true,
+      "usb_shape": "Type-B drawing;notbuspowerproof",
+      "rhythms": {
+        "count": 41,
+        "guide": 1,
+        "styles": 36,
+        "metronomes": 4
+      },
+      "dsp_conflict": "SameEnglishPDFp10all-effectsbypass versusp59singulareffectbypass",
+      "output_volume": "p13 explicitly excludesrhythm/looper",
+      "remaining": [
+        "Installedfirmware/editionequivalence",
+        "fulluntruncatedmanualaudit",
+        "exactcalibrationgestures",
+        "globalexternalEXPassignment/endpoints/recall",
+        "phones/USB/tailcoverage",
+        "condition/stock-qualifiedhardwareoffers"
+      ],
+      "hardware_test": false
+    }
   },
   "g5n_effect_pool_additions_20261031": {
     "checked": "2026-10-31",
@@ -178364,12 +178421,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "requested_url": "https://zoomcorp.com/media/documents/G5_operationManual_english.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 26,
+    "frame": 64,
     "text_pages": [
-      0,
-      0
+      9,
+      12
     ],
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",

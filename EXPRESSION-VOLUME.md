@@ -934,3 +934,5 @@ Tone Master Pro [direct firmware1.8 manual check](brand/FENDER.md#tone-master-pr
 Helix Rack [primary3.80 controller/output check](brand/LINE6.md#helix-rack--primary-panel-and-global-control-recovery): block-level EXP2auto-assignment andglobal position recall areseparate. USB playback1/2 bypassesprocessing andUSB7/8DI taps areunprocessed;Volume-block presence doesnot establish all-source/headphone/loop/tail attenuation. Partial lead remainsoutsideactivecounts.
 
 FM9 Turbo [complete USB diagram visual check](brand/FRACTAL-AUDIO.md#fm9-turbo--visual-panel-census-and-usb-channel-diagram) separates processed recording, dry DI, selectable stereo inputs and direct playback. This resolves diagram associations, not universal analog-expression attenuation of USB/phones/tails/recorded loops.
+
+G5 [direct English source qualification](brand/ZOOM.md#g5--direct-english-pdf-and-image-only-z-pedal-guide): OUTPUT VOL explicitly excludes rhythm/looper. Same-PDF DSP-overload prose differs between all-effects bypass and singular-effect bypass;neither is a measured all-output mute or universal expression-volume guarantee.
