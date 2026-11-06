@@ -164033,7 +164033,21 @@
       "Pitch ranges and measured tracking",
       "Condition-qualified new/used Shopee stock"
     ],
-    "active_inventory_unchanged": 402
+    "active_inventory_unchanged": 402,
+    "additional_offer_20261106": {
+      "url": "https://shopee.co.id/Valeton-GP-150-GP-150-GP150-Multi-effects-Processor-Pedal-i.2655003.51163251886",
+      "seller": "Dave Komputer",
+      "seller_id": "2655003",
+      "item_id": "51163251886",
+      "region": "Kota Jakarta Utara",
+      "displayed_idr": 3342000,
+      "price_basis": "Dengan Voucher; eligibility and pre-voucher price unknown",
+      "condition": "unverified",
+      "stock": "unverified",
+      "variant_bundle_warranty": "unverified",
+      "access": "Direct web reader, last-week snapshot; not checkout",
+      "remaining": "Condition-qualified new/used offers; delivery, tax and actual voucher terms"
+    }
   },
   "gp180_expression_scope_20261104": {
     "checked_date": "2026-11-04",
