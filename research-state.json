@@ -178552,7 +178552,7 @@
         "preset_save": true,
         "plus_two_semitones": "Covered by the requested use case the user says GE100 Pro can perform; exact parameter setting not supplied",
         "fully_wet": "Requested use case confirmed by user; independent control details remain undocumented in this record",
-        "chord_support": "User confirms overall use-case suitability; no independent tracking test or named polyphonic algorithm supplied",
+        "chord_support": "Earlier user confirmation covers the requested transposition function; later feedback rejects sound quality at −6 and +6 semitones. No independent chord-tracking test or named polyphonic algorithm supplied",
         "sources": [
           "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf",
           "https://www.mooeraudio.com/products/244.html",
@@ -178574,7 +178574,25 @@
           "settings_firmware_and_test_method": "not provided",
           "ownership_or_purchase_inferred": false
         },
-        "use_case_status": "User-confirmed suitable; alternative search resolved"
+        "use_case_status": "Functional transposition confirmed by user; sound at −6 and +6 semitones unacceptable to this user compared with XS-100; alternative search reopened",
+        "user_quality_feedback": {
+          "date": "2026-11-20",
+          "reported_result": "Transposition works, but the user rejects GE100 Pro sound at −6 and +6 semitones compared with XS-100",
+          "source": "Direct user feedback in this conversation; no external source URL supplied",
+          "evidence_type": "user listening assessment",
+          "settings_firmware_and_test_method": "Intervals −6 and +6 semitones supplied; other settings, firmware and test method not provided",
+          "algorithm_inferred": false,
+          "ownership_or_purchase_inferred": false,
+          "superseded_assessment": {
+            "use_case_status": "User-confirmed suitable; alternative search resolved",
+            "chord_support": "User confirms overall use-case suitability; no independent tracking test or named polyphonic algorithm supplied"
+          },
+          "reported_intervals_semitones": [
+            -6,
+            6
+          ],
+          "original_plus_two_use_case": "Earlier functional confirmation retained; no new quality result at +2 inferred"
+        }
       },
       "Zoom::G6": {
         "canonical": "brand/ZOOM.md#g6--portable-transposition-and-current-offers",
@@ -178917,7 +178935,9 @@
       "https://www.reddit.com/r/Guitar/comments/1y0stra/comment/19swi4llnl00x/"
     ],
     "reddit_evidence_policy": "Community recommendations are leads, not manufacturer specification proof; current access attempt failed and must not be represented as no replies.",
-    "open_tasks": [],
+    "open_tasks": [
+      "Audition HX Effects Poly Capo at both −6 and +6 semitones against the user's XS-100 reference, while retaining the original saved +2-semitone chord-transposition requirement; no quality advantage is assumed"
+    ],
     "reddit_monitor": {
       "status": "paused",
       "schedule": "Daily at09:00 Asia/Singapore (09:00 WITA/Bali)",
@@ -178928,8 +178948,8 @@
       "paused_date": "2026-11-20",
       "paused_reason": "User resolved the request with GE100 Pro and ended the alternative search"
     },
-    "market_conclusion": "User confirmed GE100 Pro can do the requested preset-based transposition and ended the alternative-unit search. Prior priced leads remain dated observations, not current recommendations to continue shopping.",
-    "status": "resolved_by_user_ge100_pro_confirmation",
+    "market_conclusion": "The user confirms GE100 Pro transposition works but rejects its sound at −6 and +6 semitones compared with XS-100, so the earlier resolution is superseded. The original saved +2-semitone use case remains recorded without a new quality result at +2. Audition HX Effects Poly Capo at both −6 and +6 next; better HX/Helix sound than XS-100 has not been established. Prior prices and conditional offers remain dated research. Reddit monitoring remains paused.",
+    "status": "reopened_due_to_user_quality_feedback",
     "completed_model_checkpoints": [
       "MOOER::GE100 Pro",
       "Zoom::G6",
@@ -178986,7 +179006,15 @@
       },
       "workflows": "No GitHub Actions workflows created or used"
     },
-    "resolution": {
+    "resolution": null,
+    "previous_market_conclusion_before_resolution": "First audition previously owned original Matribox QME-50 if still available and functioning; its own manual documents polyphonic pitch and preset storage. No confirmed ready-stock purchase offer found combining near-half current new price with explicitly documented fully wet+2 chord transposition. G6 is the lower-priced confirmed purchase match with conditional3.5m leads; G3n1.4m is near-half but chord suitability remains unverified.",
+    "historical_open_tasks_before_resolution": [
+      "Confirm whether the original Matribox QME-50 is still available; if so, audition its saved whole-step polyphonic pitch setting through functioning main outputs",
+      "Confirm seller availability and actual unit operation for the conditional offers without treating listing stock as fulfilment",
+      "Hear a fully wet +2 chord demonstration and verify saved-preset recall, especially for G3n, POD Go and GE100 Pro",
+      "Read useful new Reddit replies when accessible and verify any suggested exact models"
+    ],
+    "previous_resolution_before_quality_feedback": {
       "date": "2026-11-20",
       "model": "MOOER::GE100 Pro",
       "basis": "User confirmation of use-case suitability",
@@ -178994,12 +179022,23 @@
       "reddit_monitor": "paused",
       "purchase_or_ownership_claim": false
     },
-    "previous_market_conclusion_before_resolution": "First audition previously owned original Matribox QME-50 if still available and functioning; its own manual documents polyphonic pitch and preset storage. No confirmed ready-stock purchase offer found combining near-half current new price with explicitly documented fully wet+2 chord transposition. G6 is the lower-priced confirmed purchase match with conditional3.5m leads; G3n1.4m is near-half but chord suitability remains unverified.",
-    "historical_open_tasks_before_resolution": [
-      "Confirm whether the original Matribox QME-50 is still available; if so, audition its saved whole-step polyphonic pitch setting through functioning main outputs",
-      "Confirm seller availability and actual unit operation for the conditional offers without treating listing stock as fulfilment",
-      "Hear a fully wet +2 chord demonstration and verify saved-preset recall, especially for G3n, POD Go and GE100 Pro",
-      "Read useful new Reddit replies when accessible and verify any suggested exact models"
+    "previous_status_before_quality_feedback": "resolved_by_user_ge100_pro_confirmation",
+    "previous_market_conclusion_before_quality_feedback": "User confirmed GE100 Pro can do the requested preset-based transposition and ended the alternative-unit search. Prior priced leads remain dated observations, not current recommendations to continue shopping.",
+    "reopening": {
+      "date": "2026-11-20",
+      "source": "Direct user quality feedback in this conversation; no external source URL supplied",
+      "reported_result": "GE100 Pro can transpose, but the user finds its sound unacceptable at −6 and +6 semitones compared with XS-100",
+      "line6_expectation": "The user suggests Line 6 may perform better; this is an expectation, not a comparative test result",
+      "reddit_monitor": "remains paused; no reactivation",
+      "reported_intervals_semitones": [
+        -6,
+        6
+      ]
+    },
+    "original_requested_interval_semitones": 2,
+    "quality_audition_intervals_semitones": [
+      -6,
+      6
     ]
   }
 }
