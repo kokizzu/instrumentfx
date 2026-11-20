@@ -178864,6 +178864,38 @@
           "qualification": "Original GE300 title; selected variant, bundle, warranty, shipping and checkout total unverified; no voucher or used/new discount assumed"
         },
         "conclusion": "Capability-qualified watchlist model; no verified near-half used offer"
+      },
+      "Sonicake::Matribox QME-50": {
+        "canonical": "brand/SONICAKE.md#matribox-qme-50--conditional-reuse-for-preset-transposition",
+        "effect": "FX1/FX2 Dual Melody or Pitch; both explicitly polyphonic",
+        "preset_save": true,
+        "plus_two_semitones": "Proposed retained voice up a whole step; manual does not print complete numeric endpoints or each model control mapping",
+        "fully_wet": "Proposed mute Dry and unused Low voice; audition on actual unit",
+        "chord_support": "Explicit polyphonic processing; tracking quality not auditioned",
+        "recipe": {
+          "model": "Dual Melody",
+          "H-Pitch": "Up one whole step (+2 if displayed as semitones)",
+          "Dry": "mute",
+          "L-Vol": "mute",
+          "H-Vol": "retain at required level",
+          "save": "SAVE to spare user preset; switch away and recall"
+        },
+        "footprint_cm": [
+          20,
+          13.75
+        ],
+        "sources": [
+          "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433",
+          "https://www.sonicake.com/products/matribox"
+        ],
+        "ownership_evidence": {
+          "source": "research-state.json public_metadata.ownership overlay",
+          "source_date": "2026-10-15",
+          "recorded_context": "October rig; original Matribox/QME-50, headphone jack fault",
+          "current_possession": "not independently reverified",
+          "current_function": "not tested; use functioning main outputs for audition"
+        },
+        "conclusion": "Conditional no-purchase audition before shopping; not a claim of current ownership or tested performance"
       }
     },
     "reddit_sources": [
@@ -178872,6 +178904,7 @@
     ],
     "reddit_evidence_policy": "Community recommendations are leads, not manufacturer specification proof; current access attempt failed and must not be represented as no replies.",
     "open_tasks": [
+      "Confirm whether the original Matribox QME-50 is still available; if so, audition its saved whole-step polyphonic pitch setting through functioning main outputs",
       "Confirm seller availability and actual unit operation for the conditional offers without treating listing stock as fulfilment",
       "Hear a fully wet +2 chord demonstration and verify saved-preset recall, especially for G3n, POD Go and GE100 Pro",
       "Read useful new Reddit replies when accessible and verify any suggested exact models"
@@ -178884,7 +178917,7 @@
       "current_access": "Exact/parent pages unavailable to web reader; public HTML returned JavaScript challenge, public JSON403, RSS404/429. No reply contents retrieved; this does not mean no replies exist.",
       "implementation": "ChatGPT scheduled task, not a repository/GitHub Actions workflow"
     },
-    "market_conclusion": "No confirmed ready-stock offer found that combines near-half current new price with explicitly documented fully wet +2 chord transposition. G6 is the lower-priced confirmed match with conditional3.5m leads; G3n1.4m is near-half but chord suitability remains unverified.",
+    "market_conclusion": "First audition previously owned original Matribox QME-50 if still available and functioning; its own manual documents polyphonic pitch and preset storage. No confirmed ready-stock purchase offer found combining near-half current new price with explicitly documented fully wet+2 chord transposition. G6 is the lower-priced confirmed purchase match with conditional3.5m leads; G3n1.4m is near-half but chord suitability remains unverified.",
     "status": "research_complete_with_explicit_capability_and_offer_limits",
     "completed_model_checkpoints": [
       "MOOER::GE100 Pro",
@@ -178893,7 +178926,8 @@
       "Line 6::HX Stomp",
       "Line 6::POD Go",
       "Valeton::GP-200",
-      "MOOER::GE300"
+      "MOOER::GE300",
+      "Sonicake::Matribox QME-50"
     ],
     "inventory_change": "No models added or removed;402 active records retained",
     "watchlist_without_qualifying_offer": [

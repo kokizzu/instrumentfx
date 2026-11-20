@@ -415,6 +415,8 @@ New prices are individual official-store observations checked **2026-10-14**, no
 
 | Field | Preserved finding / uncertainty |
 |---|---|
+| Pitch / saved transposition audition | Original QME-50 manual explicitly lists **Dual Melody and Pitch as polyphonic** in FX1/FX2, with separate dry/voice controls and saved presets. A retained voice up one whole step with dry/unused voice muted is the proposed +2 audition; numeric endpoints and model-specific mapping are not fully printed. [Conditional reuse check](#matribox-qme-50--conditional-reuse-for-preset-transposition) |
+| Dimensions / portable-board fit | **20 ×13.75 cm** body, from own manual 200 W ×137.5 D ×53.6 H mm; 732 g. Fits the 44.5 ×32 cm board before plugs/power. [Original-model source](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433) |
 | Expression / controls | Built-in expression; **no dedicated external EXP/FS socket in the complete rear-panel inventory**(manual p4);other external-control methods unverified. **5/2/4**, confirmed in original firmware1.1.0 manual printed p.3. Manual p3 explicitly describes toe press switching pedal function. |
 | Display / body | Color graphical display; diagonal, technology and explicit touch unverified. **200 W ×137.5 D ×53.6 H mm;732 g**, compact; plugs/pedal travel additional. |
 | Processing | **Nine movable blocks;130+ models**, including40 AMP entries and38 factory CAB entries;the CAB list includes acoustic simulations as qualified below. The manufacturer’s130+ headline is retained separately from the named-entry count. |
@@ -514,6 +516,12 @@ The [global manufacturer page](https://www.sonicake.com/products/matribox) and i
 
 Manufacturer-specified diagonal, explicit touch support, dependable English/global and used Indonesian offers remain open. Next model: **Valeton GP-5**. Earlier USD pricing remains foreign provenance only.
 <!-- SONICAKE-MATRIBOX source ends -->
+
+### Matribox QME-50 — conditional reuse for preset transposition
+
+Checked **2026-11-20**, original Matribox/QME-50 only. Its [official firmware 1.1.0 manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433), printed pp15/17, explicitly identifies **Dual Melody and Pitch as polyphonic** and documents H-Pitch/L-Pitch, Dry/Wet and H-Vol/L-Vol controls. Proposed audition: **Dual Melody → retained high voice up a whole step (+2 if displayed in semitones), Dry muted, L-Vol muted, H-Vol retained**. This is derived from the described controls; complete numeric endpoints and each model's individual control mapping are not printed. Chord quality and latency require listening. Printed p8 confirms SAVE stores edited effects and destination/name; p29 gives the 20 ×13.75 cm footprint. The [official original-model page](https://www.sonicake.com/products/matribox) confirms nine simultaneous effect blocks and separate main/headphone outputs.
+
+The preserved ownership overlay in [research-state.json](../research-state.json) records this original model in the October rig, with a headphone-jack fault; **current possession and condition are not independently reverified**. If still available and its main outputs function, audition through those outputs using a spare user preset, then switch away and recall the saved setting with the required other effects. This may satisfy the separate outing-rig goal without buying hardware or moving the studio XS-100/HX Effects. Do not assume that a past ownership record proves current availability, that the headphone fault affects no other circuit, or that a Matribox II/Pro specification applies to this unit. No new hardware price is claimed.
 
 ## Other Sonicbar models — confirmed research leads
 
