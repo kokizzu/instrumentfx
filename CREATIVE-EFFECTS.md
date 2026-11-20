@@ -16,12 +16,13 @@ This category compares the effects themselves: synthesis, harmony/transposition,
 
 Focused check **2026-11-20**: one guitar multi-effects processor should shift the complete signal up **+2 semitones**, including chords, store that setting per song preset and retain other effects in the same rig. A generic pitch-effect name, stereo audio, or multiple harmony voices alone does not prove all of these requirements. Footprint checks refer to a **44.5 × 32 cm** board before plugs, power and other pedals. Marketplace asking prices and stock are independently qualified in the canonical brand records; an unavailable higher retail price is not a valid way to manufacture a half-price discount.
 
-| Model | Verified transposition and preset evidence | Remaining limit / buying implication |
+| Model | Pitch effect and preset evidence | Remaining limit / buying implication |
 |---|---|---|
 | [MOOER GE100 Pro](brand/MOOER.md#ge100-pro--saved-pitch-shift-verification) | MODULATION 9 Pitch Shift; edited effect parameters save per preset; 150 locations | Exact +2 control, full-wet routing and chord handling remain undocumented in the checked V02 manual. Candidate for a demonstration, not a confirmed whole-chord purchase recommendation. |
 | [Zoom G6](brand/ZOOM.md#g6--portable-transposition-and-current-offers) | Explicit chord-capable PolyShift; +2 / Wet 100 / Dry 0; saved patches, other effects within DSP budget; body 41.8 × 22.8 cm | Rp3.5m leads versus Rp5.36m new, 34.7% cheaper. Toco is preorder; Shopee condition/stock unresolved. Best documented low-price match found, not a verified half-price ready-stock offer. |
 | [Zoom G3n](brand/ZOOM.md#g3n--budget-preset-transposition-and-current-offer) | PitchSHFT +2 and preset storage verified; body 23.4 × 18.1 cm | Rp1.4m used versus Rp2.424m new, 42.2% cheaper. Stock 1/no preorder shown; non-original adapter. Chord suitability unverified: audition before purchase. |
 | [Line 6 HX Stomp](brand/LINE6.md#hx-stomp--portable-transposition-and-current-offer) | Poly Capo +2 / Mix 100%, saved presets; documented chord processing; approx. 17.8 × 12.7 cm | Rp8.15m used versus Rp10.172m new ask, only 19.9% cheaper. Functional alternative, not the requested bargain; poly processing has a substantial DSP cost. |
+| [Line 6 POD Go](brand/LINE6.md#pod-go--saved-pitch-correction-and-current-offer) | Simple Pitch and preset saving verified; no Poly Capo in the current list | Rp6.2m used Toco lead. Exact numeric controls/full-wet chord demonstration still needed for this evidence standard; not a verified near-half deal. Do not confuse it with POD Express. |
 
 ## Selected exact-model comparison
 

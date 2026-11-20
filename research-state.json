@@ -28,10 +28,11 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 HX Stomp",
+    "model": "Line 6 POD Go",
     "task": "Portable preset-transposition check recorded with explicit capability and marketplace limits. Continue the requested shortlist; preserve earlier cursor in portable_transposition_20261120.previous_cursor.",
     "next_models": [
-      "Line 6::POD Go"
+      "Valeton::GP-200",
+      "MOOER::GE300"
     ],
     "after_queue": "Finish requested comparison and ordinary Git push; no GitHub Actions workflows. Read Reddit suggestions when accessible, then resume the preserved technical cursor."
   },
@@ -58251,7 +58252,7 @@
       "Move retained dedicated-function guitar records to single-guitar.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 HX Stomp."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD Go."
   },
   "comparison_membership": {
     "all-guitar.md": [
@@ -178711,6 +178712,37 @@
         },
         "discount_percent": 19.88,
         "conclusion": "Confirmed capability; offer fails near-half-price goal"
+      },
+      "Line 6::POD Go": {
+        "canonical": "brand/LINE6.md#pod-go--saved-pitch-correction-and-current-offer",
+        "effect": "Simple Pitch; also Dual Pitch and Pitch Wham listed",
+        "preset_save": true,
+        "poly_capo": "Not listed in current exact model list",
+        "plus_two_semitones": "Common proposed setup; checked primary manual omits per-model numeric parameter table",
+        "fully_wet": "Mix100 proposed for audition; exact model controls need demonstration",
+        "chord_support": "Unverified; absence of Poly Capo is not proof every chord fails",
+        "sources": [
+          "https://line6.com/podgo-models/",
+          "https://line6.com/data/6/0a00040c018d681e825e1c4b3/application/pdf/POD%20Go%202.50%20Owner%27s%20Manual%20-%20English%20.pdf"
+        ],
+        "offer": {
+          "url": "https://toco.id/listing/pod-go-line6-1784198097008-75fc",
+          "price_idr": 6200000,
+          "seller": "BARANG GOOD",
+          "region": "Jakarta Barat",
+          "condition": "used",
+          "stock": 1,
+          "preorder": false,
+          "seller_last_active": "2026-11-02",
+          "bundle": "box/manual/original adapter claimed",
+          "voucher": "none assumed",
+          "access": "public listing JSON; condition/fulfilment unverified"
+        },
+        "conclusion": "Correct earlier no-pitch claim; not a verified near-half whole-chord deal",
+        "excluded_wrong_model": {
+          "url": "https://toco.id/listing/line-6-pod-go-express-multi-effect-1792995732826-f499",
+          "reason": "Seller title says POD Go Express; photographs identify POD Express"
+        }
       }
     },
     "reddit_sources": [
@@ -178719,9 +178751,19 @@
     ],
     "reddit_evidence_policy": "Community recommendations are leads, not manufacturer specification proof; current access attempt failed and must not be represented as no replies.",
     "open_tasks": [
-      "Verify exact polyphonic alternatives and fresh marketplace stock/prices",
-      "Record POD Go basic-pitch versus Poly Capo distinction",
-      "Read new Reddit replies when accessible"
-    ]
+      "Confirm seller availability and actual unit operation for the conditional offers without treating listing stock as fulfilment",
+      "Hear a fully wet +2 chord demonstration and verify saved-preset recall, especially for G3n, POD Go and GE100 Pro",
+      "Read useful new Reddit replies when accessible and verify any suggested exact models",
+      "Complete GP-200 and GE300 watchlist checkpoints before returning to the preserved technical cursor"
+    ],
+    "reddit_monitor": {
+      "status": "scheduled",
+      "schedule": "Daily at09:00 Asia/Singapore (09:00 WITA/Bali)",
+      "first_scheduled_check": "2026-11-21T09:00:00+08:00",
+      "scope": "Check both linked comment threads and parent discussions for useful new replies; verify model specifications from primary sources and marketplace offers before updating findings. No duplicate reports, Reddit posts, seller contact or purchases.",
+      "current_access": "Exact/parent pages unavailable to web reader; public HTML returned JavaScript challenge, public JSON403, RSS404/429. No reply contents retrieved; this does not mean no replies exist.",
+      "implementation": "ChatGPT scheduled task, not a repository/GitHub Actions workflow"
+    },
+    "market_conclusion": "No confirmed ready-stock offer found that combines near-half current new price with explicitly documented fully wet +2 chord transposition. G6 is the lower-priced confirmed match with conditional3.5m leads; G3n1.4m is near-half but chord suitability remains unverified."
   }
 }

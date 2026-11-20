@@ -2729,6 +2729,8 @@ Both are guitar/bass multi-effects with a semi-fixed serial path and built-in ex
 
 | Field | POD Go, standard non-Wireless | POD Go Wireless |
 |---|---|---|
+| Pitch / saved transposition correction | **Simple Pitch is present and settings save per preset**. Current model list does not list Poly Capo. The checked 2.50 manual does not print Simple Pitch's individual numeric controls or certify chord quality; do not call POD Go pitch-less. [Focused verification](#pod-go--saved-pitch-correction-and-current-offer) | Same documented pitch library and preset behavior; this is not evidence of equivalent polyphonic performance to HX Poly Capo. |
+| Used IDR / 2026-11-20 | **Rp6.200.000**, Toco BARANG GOOD, seller-labelled used, stock 1, not preorder; box/manual/original adapter claimed. Standard POD Go only; actual condition and dispatch unverified. [Exact listing](https://toco.id/listing/pod-go-line6-1784198097008-75fc) | No new exact Wireless offer checked in this focused pass; do not copy the standard POD Go price. |
 | Built-in expression | Yes, with toe switch | Yes, with toe switch |
 | External expression / switches | One shared TRS **EXP2 / FS7,8** input; suitable Y cable supports two external momentary switches | Same explicitly documented family connection |
 | Knobs / footswitches / buttons | **8 / 8 / 4**: upper/lower encoders, volume, five parameter knobs; up/down,A/B/C/D,Mode,Tap switches; Home/View,Action,two Page buttons. Toe and power switches separate; encoder presses counted once | Same controls; wireless indicators on main screen are not additional physical buttons |
@@ -2995,6 +2997,20 @@ Historical2026-10-15 source wording for this exact variant. Shared rows apply on
 - **Commit** (Individual findings commits): `ac3be6737643e81a13b5d1c3d1f6d18e8e104426`
 
 [Original shared source](../research-state.json)<!-- historical-link:line6-003 -->,retained pending complete navigation/provenance audits.
+
+### POD Go — saved pitch correction and current offer
+
+Checked **2026-11-20**. The [official POD Go model list](https://line6.com/podgo-models/) and [POD Go 2.50 manual](https://line6.com/data/6/0a00040c018d681e825e1c4b3/application/pdf/POD%20Go%202.50%20Owner%27s%20Manual%20-%20English%20.pdf), printed pp16/29, establish **Simple Pitch**, Dual Pitch and Pitch Wham in the pitch library and storage of edited preset parameters. **Correction: POD Go does have a preset-saveable pitch effect.** The current list does not include Poly Capo. An audio-format label such as Mono does not establish single-note-only pitch tracking.
+
+The commonly proposed audition setup is Simple Pitch, Interval +2, Cents 0 and Mix 100%, then save. The primary documents inspected here do **not** print Simple Pitch's complete individual parameter table, so this recipe and any claimed ±24 range must not be represented as a numeric chart verified from the POD Go manual. Exact on-device controls, wet-only operation and whole-chord quality remain demonstration checks. Lack of Poly Capo alone does not prove that every chord fails.
+
+Saving is documented: press **VIEW + ACTION**, choose the destination/name and press **Knob 5 Save**; pressing VIEW + ACTION together twice quickly saves edits to the current preset. It can use a pitch effect alongside other blocks within its four selectable-effects and DSP constraints.
+
+| Exact model / seller | Used IDR ask | Condition, bundle and access qualification |
+|---|---|---|
+| [POD Go standard — Toco BARANG GOOD, Jakarta Barat](https://toco.id/listing/pod-go-line6-1784198097008-75fc) | **Rp6.200.000** | Public listing data shows used, stock 1, not preorder; seller last active 2026-11-02. Box/manual/original adapter claimed. Function, warranty, dispatch and delivered total unverified. No voucher assumed; no defensible current near-half comparison established. |
+
+The [item titled POD Go Express](https://toco.id/listing/line-6-pod-go-express-multi-effect-1792995732826-f499) is pictured as the smaller **POD Express** and is excluded as the wrong model. A seller title alone must not transfer POD Go's effects or preset controls to another processor. **Conclusion: the earlier no-pitch claim was wrong; this offer is not a verified near-half-price, whole-chord solution.**
 
 ## POD HD300
 
