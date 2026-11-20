@@ -1776,6 +1776,9 @@ The P1 **USD555** observation was checked2026-10-14 at an international store, e
 
 | Field | Dated evidence / qualification |
 |---|---|
+| Pitch / preset transposition | **Poly Capo**, Interval **+2**, Mix **100%**, saved in the preset. Explicit polyphonic key shifting; eight-block ceiling remains DSP-limited, with one block from the combined poly/high-DSP group per preset. [Focused verification](#hx-stomp--portable-transposition-and-current-offer) |
+| Used IDR / 2026-11-20 | **Rp8.150.000** current special ask, Toco Bless Music Studio, used, stock 1, not preorder; original adapter and box claimed. Seller last active 2026-10-27; actual condition/dispatch unverified. [Exact listing](https://toco.id/listing/efek-gitar-hx-stomp-line-6-1786675733867-84b1) |
+| New IDR / 2026-11-20 | **Rp10.172.000**, Hari Hari Musik black HX Stomp with Beli control, stock/checkout unconfirmed. Used ask is **19.9% lower**, not near half. Ignore crossed-out Rp13.211.000 as the comparison base. [Retail reference](https://hariharimusik.id/shop/pedals/line6-hx-stomp-multi-effect/) |
 | Expression | No built-in pedal/toe. Shared EXP1/2–FS4/5 accepts two external expression pedals, two switches, one of each, or compatible Mission pedal/toe-switch combination with appropriate cable/settings. These share one TRS socket, not independent ports. [HS-F](https://kb.line6.com/hx-stomp-faq). |
 | K/F/B | **6/3/4**: upper/lower/volume plus three parameter rotaries; three capacitive footswitches; HOME/VIEW,ACTION and two PAGE buttons. Encoder presses counted once; power toggle separate. [HS-P](https://line6.com/hx-stomp/). |
 | W×D×H; weight | Approx. **178×127×64**, 794 g, converted from official FAQ's rounded inches/pounds |
@@ -1854,6 +1857,16 @@ Checked **2026-11-03**, manufacturer-authored **40-00-0408 Rev D,firmware3.80**,
 | Volume/Pan |5|0|5|
 
 **274 named choices =167 HX +107 Legacy**,counted from this HX Stomp appendix,not copied from XL orHX Effects. Mono/stereo implementations count once. Interleaved extraction places legacy Tube Drive/Screamer near Dynamics;their distortion-column membership is retained. Excludes amp/preamp,cab/microphone,IR,looper,routing andFavorites. This supersedes the earlier untranscribed category-count status,not the eight-block/DSP limits or unresolved amp/cab totals. Installed firmware untested;global EXP-position recall remains distinct from all-preset volume assignment.
+
+### HX Stomp — portable transposition and current offer
+
+Checked **2026-11-20**. Line 6's [official Helix/HX 3.0 release text](https://line6.com/software/index.html?hardware=All&locale=en_UK&name=HX+Edit&os=All&submit_form=set) identifies **Poly Capo** as the simpler key-changing version of Poly Pitch and describes the polyphonic engine as processing complex chords. A +2-semitone preset uses **Pitch/Synth → Poly Capo, Interval +2, Mix 100%**. The [HX Stomp 3.80 manual](https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf) documents saved edits, dry/wet Mix behavior and eight processing blocks subject to DSP. Only one model from the combined poly/high-DSP group can be used per preset; desired amp/cab and other effects still need a DSP check. The release note's roughly half-DSP warning for some poly models is not an exact Poly Capo measurement.
+
+The [official FAQ](https://kb.line6.com/hx-stomp-faq) gives a roughly **17.8 × 12.7 cm** footprint, converted from rounded 7 × 5 inches including jacks. It fits the board body envelope; additional cable and power clearance remains necessary. This would be a separate complete processor rather than moving the studio HX Effects.
+
+**Used IDR Rp8.150.000:** [Toco Bless Music Studio, Deli Serdang](https://toco.id/listing/efek-gitar-hx-stomp-line-6-1786675733867-84b1), current special price below its own Rp9m base. Public data shows used, stock 1 and no preorder; seller last active 2026-10-27. Seller claims no defects, original adapter and box. Physical function, warranty, shipping and actual dispatch remain unverified.
+
+**New retail IDR Rp10.172.000:** [Hari Hari Musik, black HX Stomp](https://hariharimusik.id/shop/pedals/line6-hx-stomp-multi-effect/), Beli control present, checkout/stock unconfirmed. The current ask—not the crossed-out Rp13.211m—is the benchmark: the Toco offer is **19.9% cheaper** before shipping/fees. Its retailer description still repeats obsolete six-block text, so that page is used only for the price. The separate [Rp8.3m used Toco item](https://toco.id/listing/line-6-hx-stomp-1765278835151-f312) has stock 0 and is excluded. **Confirmed feature match, but this offer does not satisfy the near-half-price goal.**
 
 ## HX Stomp XL
 

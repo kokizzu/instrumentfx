@@ -28,10 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom G3n",
+    "model": "Line 6 HX Stomp",
     "task": "Portable preset-transposition check recorded with explicit capability and marketplace limits. Continue the requested shortlist; preserve earlier cursor in portable_transposition_20261120.previous_cursor.",
     "next_models": [
-      "Line 6::HX Stomp",
       "Line 6::POD Go"
     ],
     "after_queue": "Finish requested comparison and ordinary Git push; no GitHub Actions workflows. Read Reddit suggestions when accessible, then resume the preserved technical cursor."
@@ -58252,7 +58251,7 @@
       "Move retained dedicated-function guitar records to single-guitar.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G3n."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 HX Stomp."
   },
   "comparison_membership": {
     "all-guitar.md": [
@@ -178669,6 +178668,49 @@
           "price_idr": 3150000
         },
         "conclusion": "Near-half price; full-chord performance and wet-only demonstration required"
+      },
+      "Line 6::HX Stomp": {
+        "canonical": "brand/LINE6.md#hx-stomp--portable-transposition-and-current-offer",
+        "effect": "Poly Capo",
+        "plus_two_semitones": true,
+        "preset_save": true,
+        "fully_wet": "Mix100%",
+        "chord_support": "Explicit polyphonic engine",
+        "recipe": {
+          "Interval": 2,
+          "Mix": 100
+        },
+        "footprint_cm": [
+          17.8,
+          12.7
+        ],
+        "processing_limit": "Eight blocks subject to DSP; one from combined poly/high-DSP group per preset",
+        "sources": [
+          "https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+          "https://line6.com/software/index.html?hardware=All&locale=en_UK&name=HX+Edit&os=All&submit_form=set",
+          "https://kb.line6.com/hx-stomp-faq"
+        ],
+        "offer": {
+          "url": "https://toco.id/listing/efek-gitar-hx-stomp-line-6-1786675733867-84b1",
+          "price_idr": 8150000,
+          "base_price_idr": 9000000,
+          "seller": "Bless Music Studio",
+          "region": "Deli Serdang",
+          "condition": "used",
+          "stock": 1,
+          "preorder": false,
+          "seller_last_active": "2026-10-27",
+          "bundle": "original adapter and box claimed",
+          "voucher": "none assumed",
+          "access": "public listing JSON; physical function and dispatch unverified"
+        },
+        "new_benchmark": {
+          "url": "https://hariharimusik.id/shop/pedals/line6-hx-stomp-multi-effect/",
+          "price_idr": 10172000,
+          "stock": "Beli link present; no checkout/stock verification"
+        },
+        "discount_percent": 19.88,
+        "conclusion": "Confirmed capability; offer fails near-half-price goal"
       }
     },
     "reddit_sources": [
