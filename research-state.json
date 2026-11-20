@@ -178550,9 +178550,9 @@
         "canonical": "brand/MOOER.md#ge100-pro--saved-pitch-shift-verification",
         "effect": "MODULATION 9 Pitch Shift",
         "preset_save": true,
-        "plus_two_semitones": "Not established from the checked manual; numerical parameter range omitted",
-        "fully_wet": "Not established from the checked manual",
-        "chord_support": "Not explicitly established; not a negative claim",
+        "plus_two_semitones": "Covered by the requested use case the user says GE100 Pro can perform; exact parameter setting not supplied",
+        "fully_wet": "Requested use case confirmed by user; independent control details remain undocumented in this record",
+        "chord_support": "User confirms overall use-case suitability; no independent tracking test or named polyphonic algorithm supplied",
         "sources": [
           "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf",
           "https://www.mooeraudio.com/products/244.html",
@@ -178560,7 +178560,21 @@
         ],
         "source_identity": "Manufacturer-authored V02 manual dated2026-09-09, distributor mirror; official product and release pages.",
         "correction": "MOOER Cloud Transpose & Speed is song-stem playback/export, not proof of the live guitar effect.",
-        "market_update": "None in this model checkpoint"
+        "market_update": "None in this model checkpoint",
+        "documentation_only_snapshot_before_user_confirmation": {
+          "plus_two_semitones": "Not established from the checked manual; numerical parameter range omitted",
+          "fully_wet": "Not established from the checked manual",
+          "chord_support": "Not explicitly established; not a negative claim"
+        },
+        "user_confirmation": {
+          "date": "2026-11-20",
+          "reported_result": "GE100 Pro can meet the requested saved pitch-transposition use case",
+          "source": "Direct user confirmation in this conversation; no external source URL supplied",
+          "evidence_type": "user report",
+          "settings_firmware_and_test_method": "not provided",
+          "ownership_or_purchase_inferred": false
+        },
+        "use_case_status": "User-confirmed suitable; alternative search resolved"
       },
       "Zoom::G6": {
         "canonical": "brand/ZOOM.md#g6--portable-transposition-and-current-offers",
@@ -178903,22 +178917,19 @@
       "https://www.reddit.com/r/Guitar/comments/1y0stra/comment/19swi4llnl00x/"
     ],
     "reddit_evidence_policy": "Community recommendations are leads, not manufacturer specification proof; current access attempt failed and must not be represented as no replies.",
-    "open_tasks": [
-      "Confirm whether the original Matribox QME-50 is still available; if so, audition its saved whole-step polyphonic pitch setting through functioning main outputs",
-      "Confirm seller availability and actual unit operation for the conditional offers without treating listing stock as fulfilment",
-      "Hear a fully wet +2 chord demonstration and verify saved-preset recall, especially for G3n, POD Go and GE100 Pro",
-      "Read useful new Reddit replies when accessible and verify any suggested exact models"
-    ],
+    "open_tasks": [],
     "reddit_monitor": {
-      "status": "scheduled",
+      "status": "paused",
       "schedule": "Daily at09:00 Asia/Singapore (09:00 WITA/Bali)",
       "first_scheduled_check": "2026-11-21T09:00:00+08:00",
       "scope": "Check both linked comment threads and parent discussions for useful new replies; verify model specifications from primary sources and marketplace offers before updating findings. No duplicate reports, Reddit posts, seller contact or purchases.",
       "current_access": "Exact/parent pages unavailable to web reader; public HTML returned JavaScript challenge, public JSON403, RSS404/429. No reply contents retrieved; this does not mean no replies exist.",
-      "implementation": "ChatGPT scheduled task, not a repository/GitHub Actions workflow"
+      "implementation": "ChatGPT scheduled task, not a repository/GitHub Actions workflow",
+      "paused_date": "2026-11-20",
+      "paused_reason": "User resolved the request with GE100 Pro and ended the alternative search"
     },
-    "market_conclusion": "First audition previously owned original Matribox QME-50 if still available and functioning; its own manual documents polyphonic pitch and preset storage. No confirmed ready-stock purchase offer found combining near-half current new price with explicitly documented fully wet+2 chord transposition. G6 is the lower-priced confirmed purchase match with conditional3.5m leads; G3n1.4m is near-half but chord suitability remains unverified.",
-    "status": "research_complete_with_explicit_capability_and_offer_limits",
+    "market_conclusion": "User confirmed GE100 Pro can do the requested preset-based transposition and ended the alternative-unit search. Prior priced leads remain dated observations, not current recommendations to continue shopping.",
+    "status": "resolved_by_user_ge100_pro_confirmation",
     "completed_model_checkpoints": [
       "MOOER::GE100 Pro",
       "Zoom::G6",
@@ -178974,6 +178985,21 @@
         "vocal": 72
       },
       "workflows": "No GitHub Actions workflows created or used"
-    }
+    },
+    "resolution": {
+      "date": "2026-11-20",
+      "model": "MOOER::GE100 Pro",
+      "basis": "User confirmation of use-case suitability",
+      "alternative_search": "stopped",
+      "reddit_monitor": "paused",
+      "purchase_or_ownership_claim": false
+    },
+    "previous_market_conclusion_before_resolution": "First audition previously owned original Matribox QME-50 if still available and functioning; its own manual documents polyphonic pitch and preset storage. No confirmed ready-stock purchase offer found combining near-half current new price with explicitly documented fully wet+2 chord transposition. G6 is the lower-priced confirmed purchase match with conditional3.5m leads; G3n1.4m is near-half but chord suitability remains unverified.",
+    "historical_open_tasks_before_resolution": [
+      "Confirm whether the original Matribox QME-50 is still available; if so, audition its saved whole-step polyphonic pitch setting through functioning main outputs",
+      "Confirm seller availability and actual unit operation for the conditional offers without treating listing stock as fulfilment",
+      "Hear a fully wet +2 chord demonstration and verify saved-preset recall, especially for G3n, POD Go and GE100 Pro",
+      "Read useful new Reddit replies when accessible and verify any suggested exact models"
+    ]
   }
 }
