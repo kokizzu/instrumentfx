@@ -5216,6 +5216,9 @@ Reviewed **2026-10-15**. Guitar multi-effects; **large**, built-in expression. S
 
 | Field | Verified result / limitation |
 |---|---|
+| Pitch / preset transposition | **PolyShift supports chords**; Shift **+2**, Wet **100**, Dry **0** gives the documented whole-signal recipe. Effect settings save in the 240 patch memories; other blocks remain available within space/DSP limits. [Focused verification](#g6--portable-transposition-and-current-offers) |
+| Used IDR / 2026-11-20 | **Rp3.500.000**, Toco Gas bang, seller-labelled used, stock 1 **with preorder enabled**; seller last active 2026-10-12. Bundle and actual dispatch unverified. [Exact listing](https://toco.id/listing/efek-zoom-g6-1791787325207-a0b3) |
+| New IDR / 2026-11-20 | **Rp5.360.000**, Asia Pro Sound, retailer shows In Stock; checkout and fulfilment unverified. The Rp3.5m ask is **34.7% below** this current new ask, not half-price. [Retail reference](https://asiaprosound.com/Zoom/Zoom-G6-Multi-Effects-Processor) |
 | Expression | Built-in pedal with toe-operated on/off switch; external FP02M through CONTROL IN [M] |
 | Knobs / footswitches / separate buttons | **5 / 6 / 0** on accessible panel: four front parameter knobs plus rear MASTER; four effect switches, PLAY MODE and TAP. Pedal on/off and power switches are additional, not counted twice [M,E] |
 | Dimensions / weight | **418 W × 228 D × 65 H mm; 1.94 kg**. Maximum expression travel and cable clearance additional [M] |
@@ -5273,6 +5276,20 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Commit** (Individual findings commits): `ece2b1e97bd5b0ffe5b5fa387ac4ab83784deb80`
 
 Sources: [effects/findings/2026-10-15-zoom-g6.md](ZOOM.md#g6)<!-- historical-link:zoom-006 -->, [effects/shopee-multifx-7.md](../research-state.json)<!-- historical-link:zoom-007 -->. No legacy file was deleted.
+
+### G6 — portable transposition and current offers
+
+Checked **2026-11-20**. The [manufacturer effect list](https://zoomcorp.com/documents/2127/E_G6_FX-list_2.pdf) explicitly describes **PolyShift** as supporting chord playing and gives Shift −24…+24 semitones with separate Wet and Dry levels. For a song up a whole step, set **Shift +2, Wet 100, Dry 0**, then save the patch. The [operation manual](https://zoomcorp.com/media/documents/E_G6_v2.pdf) documents saved effect parameters, 240 patch memories, AUTOSAVE and manual Save. Other effects can coexist within the nine-space and DSP budget; a complete desired chain still needs testing. Documentation does not certify latency or artifact-free performance with every voicing.
+
+The **41.8 × 22.8 cm** body fits a **44.5 × 32 cm** board on dimensions alone, leaving 2.7 cm of total width before cable/power clearance. This can be the separate all-in-one outing processor while XS-100 and HX Effects stay in the studio.
+
+| Offer / condition | IDR ask | Availability and access qualification |
+|---|---|---|
+| [Toco Gas bang, Kabupaten Luwu Utara](https://toco.id/listing/efek-zoom-g6-1791787325207-a0b3), used | **Rp3.500.000** | Public listing data: stock 1, shown, not archived/deleted, **preorder true**; seller last active 2026-10-12. Seller claims normal operation and a protected responsive screen. Original adapter/box, actual function, shipping and dispatch date unverified; stock 1 is not ready-stock proof. |
+| [Shopee TOJED, Surabaya; shop70373846/item42033690510](https://shopee.co.id/Efek-Gitar-Zoom-G6-Multi-Effects-Processor-With-Touchscreen-i.70373846.42033690510), condition unresolved | **Rp3.500.000** | Search-indexed hardware lead, crawled about one month before this check. Direct item shows a JavaScript shell. Current price, stock, used/new condition, accessories, warranty and final checkout total remain unverified. |
+| [Asia Pro Sound, new retail reference](https://asiaprosound.com/Zoom/Zoom-G6-Multi-Effects-Processor) | **Rp5.360.000** | Product page explicitly shows In Stock and Add to Cart; seller fulfilment and checkout not independently confirmed. No voucher assumed. |
+
+The two Rp3.5m asks are **34.7% cheaper**, or **65.3% of** the Rp5.36m new reference, before shipping/fees. A literal half-price target against this reference is **Rp2.680.000**; that is a calculated shopping target, not a found offer. The earlier [Toco Rp3m G6](https://toco.id/listing/zoom-g6-1789564580736-f549) was reported sold out by the user and is excluded despite conflicting public stock metadata. Sold-out Nafiri Rp4.75m and cached higher asks are not used to manufacture a discount. **Conclusion: verified capability, conditional marketplace leads, no verified ready-stock half-price offer.**
 
 ## G7.1ut
 

@@ -28,14 +28,14 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER GE100 Pro",
-    "task": "Saved Pitch Shift verified; exact +2, wet-only and chord handling remain unverified. Continue the requested portable all-in-one pitch-shifting marketplace search, then retain previous cursor under portable_transposition_20261120.previous_cursor.",
+    "model": "Zoom G6",
+    "task": "Portable preset-transposition check recorded with explicit capability and marketplace limits. Continue the requested shortlist; preserve earlier cursor in portable_transposition_20261120.previous_cursor.",
     "next_models": [
-      "Zoom::G6",
-      "Line 6::POD Go",
-      "Line 6::HX Stomp"
+      "Zoom::G3n",
+      "Line 6::HX Stomp",
+      "Line 6::POD Go"
     ],
-    "after_queue": "Resume previous technical work only after this requested shortlist/update; no GitHub Actions workflows."
+    "after_queue": "Finish requested comparison and ordinary Git push; no GitHub Actions workflows. Read Reddit suggestions when accessible, then resume the preserved technical cursor."
   },
   "new_findings": [
     {
@@ -58253,7 +58253,7 @@
       "Move retained dedicated-function guitar records to single-guitar.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GE100 Pro."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G6."
   },
   "comparison_membership": {
     "all-guitar.md": [
@@ -178563,6 +178563,70 @@
         "source_identity": "Manufacturer-authored V02 manual dated2026-09-09, distributor mirror; official product and release pages.",
         "correction": "MOOER Cloud Transpose & Speed is song-stem playback/export, not proof of the live guitar effect.",
         "market_update": "None in this model checkpoint"
+      },
+      "Zoom::G6": {
+        "canonical": "brand/ZOOM.md#g6--portable-transposition-and-current-offers",
+        "effect": "PolyShift",
+        "plus_two_semitones": true,
+        "chord_support": "Explicitly supports chord playing",
+        "preset_save": true,
+        "recipe": {
+          "Shift": 2,
+          "Wet": 100,
+          "Dry": 0
+        },
+        "footprint_cm": [
+          41.8,
+          22.8
+        ],
+        "processing_limit": "Nine spaces and DSP limits; test intended chain",
+        "sources": [
+          "https://zoomcorp.com/documents/2127/E_G6_FX-list_2.pdf",
+          "https://zoomcorp.com/media/documents/E_G6_v2.pdf"
+        ],
+        "offers": [
+          {
+            "url": "https://toco.id/listing/efek-zoom-g6-1791787325207-a0b3",
+            "market": "Toco",
+            "seller": "Gas bang",
+            "region": "Kabupaten Luwu Utara",
+            "price_idr": 3500000,
+            "condition": "used, seller metadata",
+            "stock": 1,
+            "preorder": true,
+            "seller_last_active": "2026-10-12",
+            "bundle": "unknown",
+            "voucher": "none assumed",
+            "access": "public listing JSON; physical stock/dispatch unverified"
+          },
+          {
+            "url": "https://shopee.co.id/Efek-Gitar-Zoom-G6-Multi-Effects-Processor-With-Touchscreen-i.70373846.42033690510",
+            "market": "Shopee Indonesia",
+            "seller": "TOJED",
+            "region": "Surabaya",
+            "shop_id": "70373846",
+            "item_id": "42033690510",
+            "price_idr": 3500000,
+            "condition": "unknown",
+            "stock": "unknown",
+            "bundle": "unknown",
+            "voucher": "none assumed",
+            "access": "indexed approximately one month earlier; direct JS shell"
+          }
+        ],
+        "new_benchmark": {
+          "url": "https://asiaprosound.com/Zoom/Zoom-G6-Multi-Effects-Processor",
+          "price_idr": 5360000,
+          "retailer": "Asia Pro Sound",
+          "stock": "retailer shows In Stock; checkout unverified"
+        },
+        "discount_percent": 34.7,
+        "literal_half_price_target_idr": 2680000,
+        "excluded_prior_offer": {
+          "url": "https://toco.id/listing/zoom-g6-1789564580736-f549",
+          "reason": "User reported sold out; do not treat conflicting stock metadata as availability"
+        },
+        "conclusion": "Functional match; no confirmed half-price ready-stock offer"
       }
     },
     "reddit_sources": [

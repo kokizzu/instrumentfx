@@ -19,6 +19,7 @@ Focused check **2026-11-20**: one guitar multi-effects processor should shift th
 | Model | Verified transposition and preset evidence | Remaining limit / buying implication |
 |---|---|---|
 | [MOOER GE100 Pro](brand/MOOER.md#ge100-pro--saved-pitch-shift-verification) | MODULATION 9 Pitch Shift; edited effect parameters save per preset; 150 locations | Exact +2 control, full-wet routing and chord handling remain undocumented in the checked V02 manual. Candidate for a demonstration, not a confirmed whole-chord purchase recommendation. |
+| [Zoom G6](brand/ZOOM.md#g6--portable-transposition-and-current-offers) | Explicit chord-capable PolyShift; +2 / Wet 100 / Dry 0; saved patches, other effects within DSP budget; body 41.8 × 22.8 cm | Rp3.5m leads versus Rp5.36m new, 34.7% cheaper. Toco is preorder; Shopee condition/stock unresolved. Best documented low-price match found, not a verified half-price ready-stock offer. |
 
 ## Selected exact-model comparison
 
