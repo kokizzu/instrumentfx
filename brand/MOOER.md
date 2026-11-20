@@ -212,6 +212,7 @@ Updated through2026-11-04. These tables retain the later field corrections; the 
 | Categories / choices | Published material establishes drive, preamp, cabinet and a broader effects library; April2026 per-category counts documented in the [appendix census](#ge100-pro--april-manual-library-and-import-capacity); current installed library unverified. Manufacturer appendix takes precedence over retailer counts; earlier unread-list qualification is superseded by the dated census [P,Q] |
 | Presets | **150 locations =50 banks×3**; saving supported. Factory-filled versus dedicated factory/user split **?**; not150+150 [P,Q] |
 | Synth / acoustic sim | Pitch Shift, Detune, Octave and special processing documented in the [appendix census](#ge100-pro--april-manual-library-and-import-capacity); dedicated tracking synth/acoustic simulator remain unverified |
+| Pitch / preset transposition | **Pitch Shift** is MODULATION model 9 in the manufacturer-authored September 2026 V02 manual. Edited parameters can be saved per preset. The published effect description does **not** establish the numerical interval range, a +2-semitone control, independent wet/dry controls, or polyphonic chord performance. Do not classify the whole effect as monophonic from its audio-channel layout, and do not promise it is equivalent to HX Poly Capo. [Focused verification](#ge100-pro--saved-pitch-shift-verification) |
 | Audio connections | 1×¼-inch unbalanced mono input; 2×¼-inch unbalanced mono L/R outputs; 1×3.5mm stereo headphones. No XLR/mic, analog aux, FX-loop or DIN/TRS MIDI socket in the complete quick-guide connector inventory [MOOER-GE100-PRO-Q] |
 | USB | **Two USB-C ports**: audio/data/editing, and separate power input. Mobile recording/playback documented; exact audio channels, USB-MIDI and loopback details **?** [MOOER-GE100-PRO-Q] |
 | Power / battery | **5V/2A USB-C power**, external power model; no internal Li battery. The Pro Li battery specification does not belong to this record.2A is the published supply requirement, not measured draw. Barrel-plug polarity N/A [P,Q] |
@@ -371,6 +372,12 @@ Primary document identity: [manufacturer-submitted quick guide metadata](https:/
 
 Next: **GE100 Pro Li**, with its own battery/accessory/price evidence; shared quick guide explicitly covers both models. Resolve exact effect counts, IR slots, touchscreen, USB routing, dimension labels and firmware/region before full verification. Preserve the existing owner-history work and scope exclusions.
 <!-- MOOER-GE100-PRO source ends -->
+
+### GE100 Pro — saved pitch-shift verification
+
+Checked **2026-11-20** against the manufacturer-authored **GE100 Pro & Pro Li Owner's Manual V02, 2026-09-09**, [distributed by RockBoard/Warwick](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf). The MODULATION appendix, printed page 75, identifies **Pitch Shift** separately from Pitch Vibrato, Detune and Octave. The Saving Presets section confirms that edited parameters are stored by pressing SAVE, selecting the target/name, then pressing SAVE again. The [manufacturer product page](https://www.mooeraudio.com/products/244.html) confirms 150 preset locations.
+
+This verifies a preset-saveable pitch effect. It does **not** verify the specific requirement of fully wet +2-semitone whole-chord transposition: interval endpoints, units, wet/dry controls and chord handling are not supplied in the checked effect description. Missing documentation is not evidence of absence. The [MOOER Cloud 1.7.0 release note](https://www.mooeraudio.com/Downloads_xq/12.html) for Transpose & Speed concerns song-stem playback/export; it must not be used as evidence for live guitar transposition. No new hardware-price or stock verification is claimed here.
 
 ## GE100 Pro Li
 

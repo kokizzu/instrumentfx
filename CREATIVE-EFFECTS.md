@@ -12,6 +12,14 @@ This category compares the effects themselves: synthesis, harmony/transposition,
 - **Special:** examples include freeze, slicer, glitch, granular processing, bit reduction, ring modulation, sequenced filters and feedback simulation. This is a practical grouping, not a standardized manufacturer category.
 - **Unverified** means the checked evidence did not establish a feature; it does not prove absence.
 
+## Preset transposition for a portable board
+
+Focused check **2026-11-20**: one guitar multi-effects processor should shift the complete signal up **+2 semitones**, including chords, store that setting per song preset and retain other effects in the same rig. A generic pitch-effect name, stereo audio, or multiple harmony voices alone does not prove all of these requirements. Footprint checks refer to a **44.5 × 32 cm** board before plugs, power and other pedals. Marketplace asking prices and stock are independently qualified in the canonical brand records; an unavailable higher retail price is not a valid way to manufacture a half-price discount.
+
+| Model | Verified transposition and preset evidence | Remaining limit / buying implication |
+|---|---|---|
+| [MOOER GE100 Pro](brand/MOOER.md#ge100-pro--saved-pitch-shift-verification) | MODULATION 9 Pitch Shift; edited effect parameters save per preset; 150 locations | Exact +2 control, full-wet routing and chord handling remain undocumented in the checked V02 manual. Candidate for a demonstration, not a confirmed whole-chord purchase recommendation. |
+
 ## Selected exact-model comparison
 
 Source checks: **2026-11-03**. Each linked canonical brand record contains exact algorithms, revisions, sources and limitations. This is a selected capability comparison, not a fresh certification of every one of the catalogue's 402 active models, current stock, installed firmware or tracking quality.

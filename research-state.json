@@ -2,7 +2,7 @@
   "schema_version": 4,
   "repository": "kokizzu/instrumentfx",
   "branch": "main",
-  "checked_date": "2026-10-18",
+  "checked_date": "2026-11-20",
   "research_complete": false,
   "active_model_count": 402,
   "fully_verified_model_count": 0,
@@ -28,12 +28,14 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GT-Pro",
-    "task": "GT-Pro front photograph now corroborates12rotaries/29pushbuttons/noonboardFS;200User census,original15simultaneous claim,Windows endpoints andeight MAIN/SUB output-device choices documented. Continue13vs15countingbasis,otherUSBmodechannelcounts,globalFVprecedence andqualifiedIDR independently;individual LCD-at-footswitch models retainpriority.",
+    "model": "MOOER GE100 Pro",
+    "task": "Saved Pitch Shift verified; exact +2, wet-only and chord handling remain unverified. Continue the requested portable all-in-one pitch-shifting marketplace search, then retain previous cursor under portable_transposition_20261120.previous_cursor.",
     "next_models": [
-      "BOSS::GT-Pro"
+      "Zoom::G6",
+      "Line 6::POD Go",
+      "Line 6::HX Stomp"
     ],
-    "after_queue": "Fresh exact Shopee Indonesia hardware discovery;no local downloads orGitHub workflows. Commit useful validated findings andpush ordinarily to verifiedmain as authorized;preserve unresolved qualifications."
+    "after_queue": "Resume previous technical work only after this requested shortlist/update; no GitHub Actions workflows."
   },
   "new_findings": [
     {
@@ -58251,7 +58253,7 @@
       "Move retained dedicated-function guitar records to single-guitar.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-Pro."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GE100 Pro."
   },
   "comparison_membership": {
     "all-guitar.md": [
@@ -178524,5 +178526,54 @@
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",
     "index_skip": 0
+  },
+  "portable_transposition_20261120": {
+    "checked_date": "2026-11-20",
+    "scope": "One portable guitar multi-effects processor: +2-semitone whole-signal transposition including chords, saved per-song preset, other effects simultaneous. Existing XS-100 and HX Effects remain at home/studio.",
+    "board_footprint_cm": [
+      44.5,
+      32
+    ],
+    "markets": [
+      "Shopee Indonesia",
+      "Toco"
+    ],
+    "price_policy": "Target about half the comparable current new hardware ask; near-half accepted. Keep used/new, model, condition, stock, bundle and cached/live evidence separate. Do not benchmark against unavailable inflated prices.",
+    "previous_cursor": {
+      "model": "BOSS GT-Pro",
+      "task": "GT-Pro front photograph now corroborates12rotaries/29pushbuttons/noonboardFS;200User census,original15simultaneous claim,Windows endpoints andeight MAIN/SUB output-device choices documented. Continue13vs15countingbasis,otherUSBmodechannelcounts,globalFVprecedence andqualifiedIDR independently;individual LCD-at-footswitch models retainpriority.",
+      "next_models": [
+        "BOSS::GT-Pro"
+      ],
+      "after_queue": "Fresh exact Shopee Indonesia hardware discovery;no local downloads orGitHub workflows. Commit useful validated findings andpush ordinarily to verifiedmain as authorized;preserve unresolved qualifications."
+    },
+    "models": {
+      "MOOER::GE100 Pro": {
+        "canonical": "brand/MOOER.md#ge100-pro--saved-pitch-shift-verification",
+        "effect": "MODULATION 9 Pitch Shift",
+        "preset_save": true,
+        "plus_two_semitones": "Not established from the checked manual; numerical parameter range omitted",
+        "fully_wet": "Not established from the checked manual",
+        "chord_support": "Not explicitly established; not a negative claim",
+        "sources": [
+          "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf",
+          "https://www.mooeraudio.com/products/244.html",
+          "https://www.mooeraudio.com/Downloads_xq/12.html"
+        ],
+        "source_identity": "Manufacturer-authored V02 manual dated2026-09-09, distributor mirror; official product and release pages.",
+        "correction": "MOOER Cloud Transpose & Speed is song-stem playback/export, not proof of the live guitar effect.",
+        "market_update": "None in this model checkpoint"
+      }
+    },
+    "reddit_sources": [
+      "https://www.reddit.com/r/pedalboards/comments/1y0ssos/comment/19swhkdyh5ear/",
+      "https://www.reddit.com/r/Guitar/comments/1y0stra/comment/19swi4llnl00x/"
+    ],
+    "reddit_evidence_policy": "Community recommendations are leads, not manufacturer specification proof; current access attempt failed and must not be represented as no replies.",
+    "open_tasks": [
+      "Verify exact polyphonic alternatives and fresh marketplace stock/prices",
+      "Record POD Go basic-pitch versus Poly Capo distinction",
+      "Read new Reddit replies when accessible"
+    ]
   }
 }
