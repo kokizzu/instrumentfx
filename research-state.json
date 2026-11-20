@@ -28,12 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton GP-200",
-    "task": "Portable preset-transposition check recorded with explicit capability and marketplace limits. Continue the requested shortlist; preserve earlier cursor in portable_transposition_20261120.previous_cursor.",
+    "model": "BOSS GT-Pro",
+    "task": "GT-Pro front photograph now corroborates12rotaries/29pushbuttons/noonboardFS;200User census,original15simultaneous claim,Windows endpoints andeight MAIN/SUB output-device choices documented. Continue13vs15countingbasis,otherUSBmodechannelcounts,globalFVprecedence andqualifiedIDR independently;individual LCD-at-footswitch models retainpriority.",
     "next_models": [
-      "MOOER::GE300"
+      "BOSS::GT-Pro"
     ],
-    "after_queue": "Finish requested comparison and ordinary Git push; no GitHub Actions workflows. Read Reddit suggestions when accessible, then resume the preserved technical cursor."
+    "after_queue": "Fresh exact Shopee Indonesia hardware discovery;no local downloads orGitHub workflows. Commit useful validated findings andpush ordinarily to verifiedmain as authorized;preserve unresolved qualifications."
   },
   "new_findings": [
     {
@@ -58251,7 +58251,7 @@
       "Move retained dedicated-function guitar records to single-guitar.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-200."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-Pro."
   },
   "comparison_membership": {
     "all-guitar.md": [
@@ -178822,6 +178822,48 @@
           "price_idr": 4525000,
           "reason": "New metadata conflicts with used-equipment shop and condition description"
         }
+      },
+      "MOOER::GE300": {
+        "canonical": "brand/MOOER.md#ge300--portable-polyphonic-transposition-and-price-watch",
+        "effect": "FXB > Poly Pitch; original GE300, not Lite",
+        "preset_save": true,
+        "plus_two_semitones": "Pitch +2.0 within the original manual's -12.0 to +12.0 range",
+        "fully_wet": "Mix 100 explicitly means entirely wet in the manual",
+        "chord_support": "FXB pitch explicitly polyphonic; no measured tracking-quality or latency test",
+        "recipe": {
+          "Pitch": 2.0,
+          "Mix": 100,
+          "save": "SAVE, choose location/name, SAVE"
+        },
+        "footprint_cm": [
+          41.0,
+          20.1
+        ],
+        "dimensions_mm": [
+          410,
+          201,
+          62
+        ],
+        "weight_kg": 3.0,
+        "board_fit": "Bare body fits 44.5 x32 cm; cable, power and other-pedal clearance additional",
+        "sources": [
+          "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+          "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html"
+        ],
+        "source_identity": "Manufacturer-authored original GE300 manual, 2019 document with V1.1.0 examples, distributor mirror; printed pp28-30 pitch, p85 save, p96 dimensions. Official manual endpoint returned 403.",
+        "firmware_limit": "4.0.1 expands Mono Pitch to +/-24; no transfer of that expansion to Poly Pitch",
+        "offer": {
+          "url": "https://shopee.co.id/MOOER-GE300-Amp-modelling-Synth-Multi-Effects-i.68706004.51316128543",
+          "price_idr": 9000000,
+          "shop_id": "68706004",
+          "item_id": "51316128543",
+          "condition": "unverified",
+          "stock": "unverified",
+          "access": "indexed ask, not live checkout verification",
+          "checked_date": "2026-11-20",
+          "qualification": "Original GE300 title; selected variant, bundle, warranty, shipping and checkout total unverified; no voucher or used/new discount assumed"
+        },
+        "conclusion": "Capability-qualified watchlist model; no verified near-half used offer"
       }
     },
     "reddit_sources": [
@@ -178832,8 +178874,7 @@
     "open_tasks": [
       "Confirm seller availability and actual unit operation for the conditional offers without treating listing stock as fulfilment",
       "Hear a fully wet +2 chord demonstration and verify saved-preset recall, especially for G3n, POD Go and GE100 Pro",
-      "Read useful new Reddit replies when accessible and verify any suggested exact models",
-      "Complete GP-200 and GE300 watchlist checkpoints before returning to the preserved technical cursor"
+      "Read useful new Reddit replies when accessible and verify any suggested exact models"
     ],
     "reddit_monitor": {
       "status": "scheduled",
@@ -178843,6 +178884,62 @@
       "current_access": "Exact/parent pages unavailable to web reader; public HTML returned JavaScript challenge, public JSON403, RSS404/429. No reply contents retrieved; this does not mean no replies exist.",
       "implementation": "ChatGPT scheduled task, not a repository/GitHub Actions workflow"
     },
-    "market_conclusion": "No confirmed ready-stock offer found that combines near-half current new price with explicitly documented fully wet +2 chord transposition. G6 is the lower-priced confirmed match with conditional3.5m leads; G3n1.4m is near-half but chord suitability remains unverified."
+    "market_conclusion": "No confirmed ready-stock offer found that combines near-half current new price with explicitly documented fully wet +2 chord transposition. G6 is the lower-priced confirmed match with conditional3.5m leads; G3n1.4m is near-half but chord suitability remains unverified.",
+    "status": "research_complete_with_explicit_capability_and_offer_limits",
+    "completed_model_checkpoints": [
+      "MOOER::GE100 Pro",
+      "Zoom::G6",
+      "Zoom::G3n",
+      "Line 6::HX Stomp",
+      "Line 6::POD Go",
+      "Valeton::GP-200",
+      "MOOER::GE300"
+    ],
+    "inventory_change": "No models added or removed;402 active records retained",
+    "watchlist_without_qualifying_offer": [
+      {
+        "model": "Sonicake Matribox II QME-100",
+        "canonical": "brand/SONICAKE.md#matribox-ii-qme-100",
+        "capability": "Own1.3.0 manual explicitly lists polyphonic Pitch/Dual Melody with dry and voice controls; exact numeric+2 screen setup remains a demonstration check",
+        "source": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623",
+        "market": "No exact QME-100 hardware deal located in the Toco search; QME-50 and II Pro are distinct models, not substitutes"
+      },
+      {
+        "model": "HeadRush MX5 / Gigboard",
+        "market": "No exact hardware offer located in the Toco search; preset packs excluded",
+        "limitation": "Search result is not proof no listing exists globally"
+      }
+    ],
+    "excluded_market_leads": [
+      {
+        "url": "https://toco.id/listing/zoom-g6-1789564580736-f549",
+        "reason": "Prior user-reported sold-out G6; conflicting public stock field does not override that report"
+      },
+      {
+        "url": "https://toco.id/listing/line-6-hx-stomp-1765278835151-f312",
+        "reason": "Rp8.3m used HX Stomp listing stock0/sold1"
+      },
+      {
+        "url": "https://toco.id/listing/line-6-pod-go-express-multi-effect-1792995732826-f499",
+        "reason": "Photographed POD Express, despite POD Go Express title"
+      },
+      {
+        "url": "https://toco.id/listing/valeton-gp200-efek-gitar-1795052222485-5d46",
+        "reason": "Rp4.525m GP-200 new metadata conflicts with used condition/shop context; excluded as new baseline"
+      }
+    ],
+    "validation": {
+      "brand_sort": "make brand-sort-test",
+      "research_and_links": "make research-verify",
+      "instrument_comparisons": "make comparison-verify",
+      "whitespace": "git diff --check",
+      "expected_counts": {
+        "active": 402,
+        "guitar": 337,
+        "bass": 178,
+        "vocal": 72
+      },
+      "workflows": "No GitHub Actions workflows created or used"
+    }
   }
 }
