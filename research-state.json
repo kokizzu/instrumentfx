@@ -28,10 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom G6",
+    "model": "Zoom G3n",
     "task": "Portable preset-transposition check recorded with explicit capability and marketplace limits. Continue the requested shortlist; preserve earlier cursor in portable_transposition_20261120.previous_cursor.",
     "next_models": [
-      "Zoom::G3n",
       "Line 6::HX Stomp",
       "Line 6::POD Go"
     ],
@@ -58253,7 +58252,7 @@
       "Move retained dedicated-function guitar records to single-guitar.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G6."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G3n."
   },
   "comparison_membership": {
     "all-guitar.md": [
@@ -178627,6 +178626,49 @@
           "reason": "User reported sold out; do not treat conflicting stock metadata as availability"
         },
         "conclusion": "Functional match; no confirmed half-price ready-stock offer"
+      },
+      "Zoom::G3n": {
+        "canonical": "brand/ZOOM.md#g3n--budget-preset-transposition-and-current-offer",
+        "effect": "PitchSHFT",
+        "plus_two_semitones": true,
+        "preset_save": true,
+        "chord_support": "Not explicitly documented; do not infer from separate MonoPitch",
+        "recipe": {
+          "Shift": 2,
+          "Fine": 0,
+          "BAL": "Audition at effect-only end, normally100; checked table omits explicit endpoint labels"
+        },
+        "footprint_cm": [
+          23.4,
+          18.1
+        ],
+        "sources": [
+          "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+          "https://zoomcorp.com/documents/140/E_G3n_G3Xn.pdf"
+        ],
+        "offer": {
+          "url": "https://toco.id/listing/zoom-g3n-1791466782449-0d63",
+          "price_idr": 1400000,
+          "condition": "used",
+          "stock": 1,
+          "preorder": false,
+          "region": "Kabupaten Bogor / Bojong Gede",
+          "bundle": "box/manual and non-original adapter",
+          "voucher": "none assumed",
+          "access": "public listing JSON; physical function and fulfilment unverified"
+        },
+        "new_benchmark": {
+          "url": "https://asiaprosound.com/Zoom/Zoom-G3N",
+          "price_idr": 2424000,
+          "stock": "retailer shows In Stock; checkout unverified"
+        },
+        "discount_percent": 42.24,
+        "literal_half_price_target_idr": 1212000,
+        "higher_new_reference_not_used": {
+          "url": "https://toco.id/listing/zoom-g3n-original-product",
+          "price_idr": 3150000
+        },
+        "conclusion": "Near-half price; full-chord performance and wet-only demonstration required"
       }
     },
     "reddit_sources": [
