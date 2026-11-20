@@ -23,6 +23,7 @@ Focused check **2026-11-20**: one guitar multi-effects processor should shift th
 | [Zoom G3n](brand/ZOOM.md#g3n--budget-preset-transposition-and-current-offer) | PitchSHFT +2 and preset storage verified; body 23.4 × 18.1 cm | Rp1.4m used versus Rp2.424m new, 42.2% cheaper. Stock 1/no preorder shown; non-original adapter. Chord suitability unverified: audition before purchase. |
 | [Line 6 HX Stomp](brand/LINE6.md#hx-stomp--portable-transposition-and-current-offer) | Poly Capo +2 / Mix 100%, saved presets; documented chord processing; approx. 17.8 × 12.7 cm | Rp8.15m used versus Rp10.172m new ask, only 19.9% cheaper. Functional alternative, not the requested bargain; poly processing has a substantial DSP cost. |
 | [Line 6 POD Go](brand/LINE6.md#pod-go--saved-pitch-correction-and-current-offer) | Simple Pitch and preset saving verified; no Poly Capo in the current list | Rp6.2m used Toco lead. Exact numeric controls/full-wet chord demonstration still needed for this evidence standard; not a verified near-half deal. Do not confuse it with POD Express. |
+| [Valeton GP-200](brand/VALETON.md#gp-200--portable-polyphonic-transposition-and-current-offers) | PRE Pitch explicitly polyphonic; semitone voice controls and separate dry/voice levels; +2 recipe derived from these controls; edited parameters save per preset. Body 34.5 ×22 cm. | Complete numeric endpoints and real-world tracking remain untested. Used Rp4.1m versus one new Rp6.09m ask: 32.7% lower, not near half or a lowest-new guarantee. |
 
 ## Selected exact-model comparison
 

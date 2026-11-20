@@ -1991,6 +1991,10 @@ Legacy source: [guitar-floorboards](../all-guitar.md)<!-- historical-link:valeto
 
 | Field | Evidence / qualification |
 |---|---|
+| Pitch / saved transposition | **PRE → Pitch** is explicitly polyphonic. Proposed +2 setup from its documented controls: Hi Pitch +2 semitones, Dry 0, Low Volume 0, High Volume at the required output level; save per song preset. The manual omits complete numerical control endpoints; tracking quality remains unauditioned. [Focused check](#gp-200--portable-polyphonic-transposition-and-current-offers) |
+| Dimensions / portable-board fit | **34.5 ×22.0 cm** body footprint, from 345 W ×220 D ×62.5 H mm; 2.37 kg. Fits the 44.5 ×32 cm board before cables, power and other pedals. [Current manual/specification sources](#gp-200--portable-polyphonic-transposition-and-current-offers) |
+| Used IDR / 2026-11-20 | **Rp4.100.000**, Toco tokokensud, Kabupaten Banjar; bag/adapter, reported stock 1, non-preorder. Seller asks to confirm availability before checkout. [Exact offer and limits](#gp-200--portable-polyphonic-transposition-and-current-offers) |
+| New IDR / 2026-11-20 | **Rp6.090.000**, Toco Gearvolution, Makassar; explicitly Brand new Fullset, reported stock 4, non-preorder. Used ask is **32.7% lower than this observed new ask**, not a half-price finding or guaranteed lowest-new comparison. [Exact offer and limits](#gp-200--portable-polyphonic-transposition-and-current-offers) |
 | K/F/B | ?/8/?; manufacturer gives 25 knobs/buttons combined, not the separate counts |
 | W×D×H, mm; weight | 345×220×62.5; 2.37 kg |
 | Size class | Large |
@@ -2122,6 +2126,21 @@ Checked2026-10-18.
 |---|---|
 | I/O / input modes and trim | Acoustic mode sets **4.7MΩ** for acoustic/piezo sources; Electric(default) **1MΩ** for electric guitar/bass pickups; Line **10kΩ** for line instruments. Input level ranges **−20 to+20dB**,default0. This is a trim range,not a published maximum input headroom rating orproof ofmic-preamp gain. |
 | I/O / per-side No CAB | **No CAB L/R independently removes CAB simulation from the corresponding analog output**,defaultOff. This is selective cabinet bypass,not an independently editable second effect chain or evidence that the same setting removes cabinets from USB recording. Balanced/unbalanced output-signal qualifications remain separate. |
+
+### GP-200 — portable polyphonic transposition and current offers
+
+Checked **2026-11-20** against the [official firmware 1.8.0 manual](https://res.valeton.net/Uploads/wp/download/1768360642746.GP-200_Online%C2%A0Manual_EN_Firmware%20V1.8.0.pdf), reached from its [manufacturer download page](https://www.valeton.net/wpfd_file/gp-200_online-manual_en_firmware-v1-8-0-pdf/). Printed p29 explicitly identifies **PRE → Pitch** as polyphonic and documents semitone Low/Hi Pitch, a separate Dry level, and Low/High Volume. A +2 transpose recipe derived from those controls is **Hi Pitch +2, Dry 0, Low Volume 0**, with High Volume set to the required level. Complete numeric endpoints are not printed here; this is not a hardware audition or a guarantee of latency/artifact quality. Hammy and Harmonizer 1/2 have separate monophonic descriptions and are not substitutes for this evidence.
+
+Printed p12 confirms that SAVE stores edited effect parameters; choose the destination/name and confirm SAVE, or hold SAVE for a direct save. Printed p78 and the [official product specification](https://en.valeton.net/product/gp-200/) give **345 W ×220 D ×62.5 H mm, 2.37 kg**. The **34.5 ×22 cm** body fits a 44.5 ×32 cm board; installed clearance is additional. The official PDF was read directly in memory when the web reader failed; the [manufacturer 1.7.4 manual mirror](https://manuals.plus/m/f3309bd27ce3eb488c5599dd871c503cde253798af21a64e7d863f3f4eca5be8_optim.pdf) corroborates the pitch and save passages.
+
+| Offer checked 2026-11-20 | Asking price and seller-reported availability | Qualification |
+|---|---|---|
+| [Toco used GP-200](https://toco.id/listing/valeton-gp200-1792229921918-cd77) | **Rp4.100.000**; used; bag and adapter claimed; stock 1; non-preorder | Standard GP-200 listing. Physical condition, included-item condition, warranty and fulfilment not independently verified. |
+| [Toco new GP-200](https://toco.id/listing/valeton-gp200-multi-effect-1793017711451-3bd3) | **Rp6.090.000**; explicitly Brandnew Fullset; stock 4; non-preorder | One observed new hardware ask, not a guaranteed lowest retail price. Exact full-set contents and warranty not independently verified. |
+
+The used ask is **Rp1.990.000 / 32.7% below this new ask**. Neither shipping nor unverified vouchers are included. These are listing observations, not completed sales or checkout guarantees. Keep GP-200 as a documented polyphonic alternative; this comparison does not meet an approximately half-price target.
+
+The [Toco offer labelled new in metadata at Rp4.525m](https://toco.id/listing/valeton-gp200-efek-gitar-1795052222485-5d46) is excluded as a new-price benchmark: its used-equipment shop context and condition description conflict with that metadata. No seller was contacted.
 
 ## GP-200JR
 

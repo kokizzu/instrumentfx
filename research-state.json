@@ -28,10 +28,9 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 POD Go",
+    "model": "Valeton GP-200",
     "task": "Portable preset-transposition check recorded with explicit capability and marketplace limits. Continue the requested shortlist; preserve earlier cursor in portable_transposition_20261120.previous_cursor.",
     "next_models": [
-      "Valeton::GP-200",
       "MOOER::GE300"
     ],
     "after_queue": "Finish requested comparison and ordinary Git push; no GitHub Actions workflows. Read Reddit suggestions when accessible, then resume the preserved technical cursor."
@@ -58252,7 +58251,7 @@
       "Move retained dedicated-function guitar records to single-guitar.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD Go."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-200."
   },
   "comparison_membership": {
     "all-guitar.md": [
@@ -178742,6 +178741,86 @@
         "excluded_wrong_model": {
           "url": "https://toco.id/listing/line-6-pod-go-express-multi-effect-1792995732826-f499",
           "reason": "Seller title says POD Go Express; photographs identify POD Express"
+        }
+      },
+      "Valeton::GP-200": {
+        "canonical": "brand/VALETON.md#gp-200--portable-polyphonic-transposition-and-current-offers",
+        "effect": "PRE > Pitch; explicitly polyphonic in firmware 1.8.0 manual p29",
+        "preset_save": true,
+        "plus_two_semitones": "Recipe derived from documented semitone Hi Pitch control; complete numeric endpoints not printed",
+        "fully_wet": "Recipe mutes Dry and unused Low Volume, retaining only the shifted Hi voice; numeric level endpoints not fully charted in the manual",
+        "chord_support": "Manufacturer explicitly calls Pitch polyphonic; no hardware tracking or latency audition",
+        "proposed_recipe": {
+          "Hi Pitch": "+2 semitones",
+          "Dry": 0,
+          "Low Volume": 0,
+          "High Volume": "Required output level; no undocumented maximum assumed",
+          "save": "SAVE, select destination/name, SAVE; hold SAVE for direct save"
+        },
+        "footprint_cm": [
+          34.5,
+          22.0
+        ],
+        "dimensions_mm_WDH": [
+          345,
+          220,
+          62.5
+        ],
+        "weight_kg": 2.37,
+        "board_fit": "Bare body fits 44.5 x32 cm; cable, power and other-pedal clearance additional",
+        "sources": [
+          "https://res.valeton.net/Uploads/wp/download/1768360642746.GP-200_Online%C2%A0Manual_EN_Firmware%20V1.8.0.pdf",
+          "https://www.valeton.net/wpfd_file/gp-200_online-manual_en_firmware-v1-8-0-pdf/",
+          "https://en.valeton.net/product/gp-200/",
+          "https://manuals.plus/m/f3309bd27ce3eb488c5599dd871c503cde253798af21a64e7d863f3f4eca5be8_optim.pdf"
+        ],
+        "source_identity": "Current official 1.8.0 manual read directly in memory: printed pp12,29,78. Manufacturer 1.7.4 manual mirror corroborates pitch/save text; mirror is supplementary.",
+        "offers": [
+          {
+            "url": "https://toco.id/listing/valeton-gp200-1792229921918-cd77",
+            "price_idr": 4100000,
+            "condition": "used, seller-described",
+            "reported_stock": 1,
+            "preorder": false,
+            "bundle": "bag and adapter claimed",
+            "checked_date": "2026-11-20",
+            "qualification": "Listing data from current marketplace check; physical condition, warranty and fulfilment not independently verified; no voucher assumed",
+            "seller": "tokokensud",
+            "region": "Kabupaten Banjar",
+            "listing_id": "2c5bd6e1-565d-4a4e-8546-a397a32f089c",
+            "seller_last_active": "2026-10-27",
+            "availability_note": "Seller requests stock confirmation before checkout; not contacted",
+            "access": "public listing JSON"
+          },
+          {
+            "url": "https://toco.id/listing/valeton-gp200-multi-effect-1793017711451-3bd3",
+            "price_idr": 6090000,
+            "condition": "new, explicit Brandnew Fullset",
+            "reported_stock": 4,
+            "preorder": false,
+            "bundle": "Fullset seller wording; exact contents unverified",
+            "checked_date": "2026-11-20",
+            "qualification": "One observed current new ask, not guaranteed lowest baseline; warranty and fulfilment unverified; no voucher assumed",
+            "seller": "Gearvolution",
+            "region": "Makassar",
+            "listing_id": "d6e15d02-1b9b-4a6b-acee-e280e29be3cb",
+            "seller_last_active": "2026-11-20",
+            "access": "public listing JSON"
+          }
+        ],
+        "price_comparison": {
+          "used_idr": 4100000,
+          "observed_new_idr": 6090000,
+          "difference_idr": 1990000,
+          "lower_percent_rounded": 32.7,
+          "near_half": false,
+          "lowest_new_baseline_verified": false
+        },
+        "conclusion": "Documented polyphonic alternative with a proposed +2 recipe; this used/new comparison is not a near-half deal",
+        "excluded_new_benchmark": {
+          "url": "https://toco.id/listing/valeton-gp200-efek-gitar-1795052222485-5d46",
+          "price_idr": 4525000,
+          "reason": "New metadata conflicts with used-equipment shop and condition description"
         }
       }
     },
