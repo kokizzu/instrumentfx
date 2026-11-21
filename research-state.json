@@ -198758,6 +198758,78 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Sonicake::Matribox II QME-100": {
+        "model_key": "Sonicake::Matribox II QME-100",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2023-08",
+          "precision": "month",
+          "kind": "documented introduction month; exact first sale unverified",
+          "source_urls": [
+            "https://www.musicradar.com/news/sonicake-releases-new-affordable-guitar-multi-effects-pedal-matribox-ii",
+            "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705"
+          ],
+          "note": "Contemporaneous introduction coverage datedAug10,2023; manufacturer initialfirmware1.0.0 datedAug15,2023. Monthprecision preserves their distinction; neither establishes an exact first customer shipment."
+        },
+        "firmware": {
+          "version": "1.3.0",
+          "date": "2026-06-03",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.sonicake.com/products/matribox-ii",
+            "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705"
+          ],
+          "note": "Latest manufacturer-listed firmware. AddsDigiOcta,Gate3,Leslee,AutoSwell,IceDelay,Haze,AMP NAM loading sharingFX2 tone slots,globaltempo andJapanese. Initial8/15/2023 andprevious11/30/2024 dates establish month/day ordering for6/03/2026. Recalibrate built-in expression after updating; no unit updated."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Algorithm-specific manual claims: Octaver,Dual Melody,Pitch andDigi Octa polyphonic; Pitch S (Whammy-style) andHarmony D monophonic. Harmony D is dual-voice automatic harmony with maximum octave shift; Digi Octa adds one octave above/below. Pitch S/Harmony D arrived1.1.1(Nov30,2024),Digi Octa1.3.0(Jun3,2026). Do not extend polyphony to every pitch algorithm.",
+          "preset": "198 preset locations including99factory; remaining writable/protected allocation unresolved. Pitch algorithms are FX1/FX2 choices saved in presets. EXP1A/1B andexternalEXP2 each map three parameters; no universal global pitch recall behavior independently tested.",
+          "dsp": "No isolated pitch CPU percentage or measured DSP cost verified. Pitch uses an FX1/FX2 module choice in the ten-module architecture. Clone tone slots shared between AMP/FX2 are storage/routing constraints, not pitch CPU percentages.",
+          "source_urls": [
+            "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623",
+            "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705",
+            "https://www.sonicake.com/products/matribox-ii"
+          ],
+          "measurements": [],
+          "notes": [
+            "No hardware chord-tracking,latency or DSP benchmark. Preserve source conflicts concerning balanced outputs and factory/user allocation."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sonicake.com/products/matribox-ii",
+            "title": "Matribox II QME-100 product/downloads",
+            "access": "Manufacturer source checked2026-11-22",
+            "evidence": "Current1.3.0 firmware andsoftware;198locations99factory;tenmodules."
+          },
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705",
+            "title": "Matribox II firmware notes",
+            "access": "Manufacturer source checked2026-11-22",
+            "evidence": "Jun3,2026 latest; prior datedversions; namedadditions andcalibration."
+          },
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623",
+            "title": "Matribox II manual1.3.0",
+            "access": "Manufacturer source checked2026-11-22",
+            "evidence": "Printedpp22-25 polyphonic andmonophonic algorithm distinctions; EXP mapping,preset saving."
+          },
+          {
+            "url": "https://www.musicradar.com/news/sonicake-releases-new-affordable-guitar-multi-effects-pedal-matribox-ii",
+            "title": "Contemporaneous Matribox II introduction coverage",
+            "access": "Contemporaneous press date checked2026-11-22",
+            "evidence": "Aug10,2023 announcement coverage; used only for introduction month,nottechnical specs."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1007,
+          "maximum_days": 1037,
+          "label": "2.76–2.84 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -198783,7 +198855,6 @@
       "Sonicake::Black Hammer QCE-30",
       "Sonicake::Levitate QDS-02",
       "Sonicake::Matribox II Pro QME-200",
-      "Sonicake::Matribox II QME-100",
       "Sonicake::RockStage QCE-10",
       "Sonicake::Sonic Wood QCE-50",
       "Soran::Dual Stomp",
@@ -198917,9 +198988,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 248,
-    "last_model": "Sonicake::Pocket Master QME-10",
-    "last_commit_parent": "90a194c2304a568516c76d955f41ff1fa575eb5b",
+    "completed_model_count": 249,
+    "last_model": "Sonicake::Matribox II QME-100",
+    "last_commit_parent": "52df0ee3694497ec787c12e26ec676bbf1f4e14a",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -198944,7 +199015,6 @@
       "Sonicake::Black Hammer QCE-30",
       "Sonicake::Levitate QDS-02",
       "Sonicake::Matribox II Pro QME-200",
-      "Sonicake::Matribox II QME-100",
       "Sonicake::RockStage QCE-10",
       "Sonicake::Sonic Wood QCE-50",
       "Soran::Dual Stomp",
@@ -199077,7 +199147,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 248,
+    "pitch_completed_model_count": 249,
     "supplemental_model_count": 0
   },
   "model_images": {

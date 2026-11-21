@@ -327,6 +327,31 @@ Checked **2026-11-04**: [global exact QME-200 index](https://www.sonicake.com/pa
 
 ## Matribox II QME-100
 
+<!-- firmware-pitch:Sonicake::Matribox II QME-100 begins -->
+### Firmware and pitch audit — Sonicake Matribox II QME-100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-08 (documented introduction month; exact first sale unverified). Contemporaneous introduction coverage datedAug10,2023; manufacturer initialfirmware1.0.0 datedAug15,2023. Monthprecision preserves their distinction; neither establishes an exact first customer shipment. [launch 1](https://www.musicradar.com/news/sonicake-releases-new-affordable-guitar-multi-effects-pedal-matribox-ii) [launch 2](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705) |
+| Firmware / latest verification | 1.3.0 — Latest verified. Latest manufacturer-listed firmware. AddsDigiOcta,Gate3,Leslee,AutoSwell,IceDelay,Haze,AMP NAM loading sharingFX2 tone slots,globaltempo andJapanese. Initial8/15/2023 andprevious11/30/2024 dates establish month/day ordering for6/03/2026. Recalibrate built-in expression after updating; no unit updated. [firmware 1](https://www.sonicake.com/products/matribox-ii) [firmware 2](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705) |
+| Firmware / release date | 2026-06-03 (day precision) |
+| Firmware / release-to-update duration | 2.76–2.84 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Algorithm-specific manual claims: Octaver,Dual Melody,Pitch andDigi Octa polyphonic; Pitch S (Whammy-style) andHarmony D monophonic. Harmony D is dual-voice automatic harmony with maximum octave shift; Digi Octa adds one octave above/below. Pitch S/Harmony D arrived1.1.1(Nov30,2024),Digi Octa1.3.0(Jun3,2026). Do not extend polyphony to every pitch algorithm. [pitch 1](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623) [pitch 2](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705) [pitch 3](https://www.sonicake.com/products/matribox-ii) |
+| Pitch / preset recall | 198 preset locations including99factory; remaining writable/protected allocation unresolved. Pitch algorithms are FX1/FX2 choices saved in presets. EXP1A/1B andexternalEXP2 each map three parameters; no universal global pitch recall behavior independently tested. |
+| Pitch / DSP resources | No isolated pitch CPU percentage or measured DSP cost verified. Pitch uses an FX1/FX2 module choice in the ten-module architecture. Clone tone slots shared between AMP/FX2 are storage/routing constraints, not pitch CPU percentages. |
+| Pitch / qualifications | No hardware chord-tracking,latency or DSP benchmark. Preserve source conflicts concerning balanced outputs and factory/user allocation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Matribox II QME-100 product/downloads](https://www.sonicake.com/products/matribox-ii) — Current1.3.0 firmware andsoftware;198locations99factory;tenmodules. (Manufacturer source checked2026-11-22).
+- [Matribox II firmware notes](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705) — Jun3,2026 latest; prior datedversions; namedadditions andcalibration. (Manufacturer source checked2026-11-22).
+- [Matribox II manual1.3.0](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Online_Manual_EN_Firmware_V1.3.0.pdf?v=1780542623) — Printedpp22-25 polyphonic andmonophonic algorithm distinctions; EXP mapping,preset saving. (Manufacturer source checked2026-11-22).
+- [Contemporaneous Matribox II introduction coverage](https://www.musicradar.com/news/sonicake-releases-new-affordable-guitar-multi-effects-pedal-matribox-ii) — Aug10,2023 announcement coverage; used only for introduction month,nottechnical specs. (Contemporaneous press date checked2026-11-22).
+
+<!-- firmware-pitch:Sonicake::Matribox II QME-100 ends -->
+
 <!-- comparison evidence begins -->
 
 **Existing review2026-10-14.**
