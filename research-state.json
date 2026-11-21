@@ -181203,10 +181203,83 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Behringer::V-AMP 2": {
+        "model_key": "Behringer::V-AMP 2",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2002",
+          "precision": "year",
+          "kind": "manufacturer_retrospective_launch_year",
+          "source_urls": [
+            "https://www.behringer.com/en/about",
+            "https://manuals.plus/m/836b05fe83f96462273bd99c2bba228a02286e5ca0b7f38e51c7cea10d4013ad"
+          ],
+          "note": "Manufacturer retrospective timeline explicitly places V-AMP2 launch under2002. Year-only evidence,not exact shipping day;September2002 manual corroborates early documentation,not a separate launch date."
+        },
+        "firmware": {
+          "version": "2.2.4",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://monotanz.de/product/behringer-v-amp-version-1-to-version-2-os-2-2-4-eprom-firmware-upgrade-download/",
+            "https://www.behringer.com/_software/firmware-update-v-amp2.cfm",
+            "https://www.behringer.com/en/products/0709-AAD"
+          ],
+          "note": "ROM supplier Mono Tanz explicitly lists2.2.4 for V-Amp1/2 and excludes PRO/Bass. Supplier calls it latest official OS and describes MIDI/system/amp changes;this is not independently verified Behringer release certification. Historical manufacturer updater URL inaccessible. Exact release date/current latest status unresolved;no ROM obtained or installed."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Manufacturer manual table5.1 enumerates16 selections:delay,modulation,compression,auto-wah and combinations;no dedicated interval pitch-shifter/harmonizer. Chorus pitch modulation and chromatic tuner reference adjustment are not audio semitone transposition. Absence scoped to inspected manual,not every ROM revision.",
+          "preset": "125 rewritable preset locations (25×5),with amp,cab,effect/reverb settings. Existing manual-backed save/recall behavior retained;no pitch-specific stored preset established. Controller favorites are not additional device patches.",
+          "dsp": "Selected effect/combination plus independently available nine-type reverb;not freely allocated duplicate pitch slots. No pitch DSP percentage applicable to a documented algorithm;this is not proof of zero processing cost. Sixteen choices are not16 simultaneous blocks.",
+          "source_urls": [
+            "https://manuals.plus/m/836b05fe83f96462273bd99c2bba228a02286e5ca0b7f38e51c7cea10d4013ad",
+            "https://www.behringer.com/en/products/0709-AAD"
+          ],
+          "measurements": [],
+          "notes": [
+            "No dedicated pitch documented;polyphonic capo capability remains unestablished. No V-AMP3,PRO or Bass-series firmware/effects transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.behringer.com/en/about",
+            "title": "Behringer retrospective company timeline",
+            "access": "opened",
+            "evidence": "2002 entry explicitly names V-AMP2 launch;retrospective year only,no exact date."
+          },
+          {
+            "url": "https://manuals.plus/m/836b05fe83f96462273bd99c2bba228a02286e5ca0b7f38e51c7cea10d4013ad",
+            "title": "Behringer V-AMP2 manual v1.2,September2002",
+            "access": "manufacturer_manuscript_on_public_mirror; text_only",
+            "evidence": "Table5.1 sixteen effects;section5.2 independent nine-type reverb;125 locations. No dedicated interval pitch shift in inspected inventory;mirror summaries excluded."
+          },
+          {
+            "url": "https://monotanz.de/product/behringer-v-amp-version-1-to-version-2-os-2-2-4-eprom-firmware-upgrade-download/",
+            "title": "Mono Tanz V-Amp1/2 firmware2.2.4 supplier documentation",
+            "access": "opened_ROM_supplier_primary_listing",
+            "evidence": "Supplier offers2.2.4 binary for1/2,excludesPRO/Bass;claims MIDI/system/amp improvements. Latest-official claim attributed to supplier,not verified as Behringer certification."
+          },
+          {
+            "url": "https://www.behringer.com/_software/firmware-update-v-amp2.cfm",
+            "title": "Historical manufacturer V-AMP2 firmware URL",
+            "access": "inaccessible",
+            "evidence": "Historical URL found but current content could not be inspected;no release date recovered."
+          },
+          {
+            "url": "https://www.behringer.com/en/products/0709-AAD",
+            "title": "Behringer exact V-AMP2 legacy product page",
+            "access": "opened; indexed_manufacturer_product_text",
+            "evidence": "Exact model identity and16 effect choices;no current dated ROM history located."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Behringer::V-AMP 2",
       "Behringer::V-AMP 3",
       "Behringer::X V-AMP LX1-X",
       "Blackstar::ID:X Floor One",
@@ -181588,12 +181661,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 22,
-    "last_model": "Behringer::FX600",
-    "last_commit_parent": "dead4ae1b5d6c3958f0dfb98b6b3a9cadda2b2a3",
+    "completed_model_count": 23,
+    "last_model": "Behringer::V-AMP 2",
+    "last_commit_parent": "26b2e4c5efa89215578a0a5287f88074e9cbad36",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Behringer::V-AMP 2",
       "Behringer::V-AMP 3",
       "Behringer::X V-AMP LX1-X",
       "Blackstar::ID:X Floor One",
@@ -181974,7 +182046,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 22,
+    "pitch_completed_model_count": 23,
     "supplemental_model_count": 0
   }
 }

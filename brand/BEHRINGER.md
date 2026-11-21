@@ -593,6 +593,32 @@ No filesystem download, software installation or device operation.
 
 ## V-AMP 2
 
+<!-- firmware-pitch:Behringer::V-AMP 2 begins -->
+### Firmware and pitch audit — Behringer V-AMP 2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2002 (manufacturer retrospective launch year). Manufacturer retrospective timeline explicitly places V-AMP2 launch under2002. Year-only evidence,not exact shipping day;September2002 manual corroborates early documentation,not a separate launch date. [launch 1](https://www.behringer.com/en/about) [launch 2](https://manuals.plus/m/836b05fe83f96462273bd99c2bba228a02286e5ca0b7f38e51c7cea10d4013ad) |
+| Firmware / latest verification | 2.2.4 — Located; latest status unverified. ROM supplier Mono Tanz explicitly lists2.2.4 for V-Amp1/2 and excludes PRO/Bass. Supplier calls it latest official OS and describes MIDI/system/amp changes;this is not independently verified Behringer release certification. Historical manufacturer updater URL inaccessible. Exact release date/current latest status unresolved;no ROM obtained or installed. [firmware 1](https://monotanz.de/product/behringer-v-amp-version-1-to-version-2-os-2-2-4-eprom-firmware-upgrade-download/) [firmware 2](https://www.behringer.com/_software/firmware-update-v-amp2.cfm) [firmware 3](https://www.behringer.com/en/products/0709-AAD) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Manufacturer manual table5.1 enumerates16 selections:delay,modulation,compression,auto-wah and combinations;no dedicated interval pitch-shifter/harmonizer. Chorus pitch modulation and chromatic tuner reference adjustment are not audio semitone transposition. Absence scoped to inspected manual,not every ROM revision. [pitch 1](https://manuals.plus/m/836b05fe83f96462273bd99c2bba228a02286e5ca0b7f38e51c7cea10d4013ad) [pitch 2](https://www.behringer.com/en/products/0709-AAD) |
+| Pitch / preset recall | 125 rewritable preset locations (25×5),with amp,cab,effect/reverb settings. Existing manual-backed save/recall behavior retained;no pitch-specific stored preset established. Controller favorites are not additional device patches. |
+| Pitch / DSP resources | Selected effect/combination plus independently available nine-type reverb;not freely allocated duplicate pitch slots. No pitch DSP percentage applicable to a documented algorithm;this is not proof of zero processing cost. Sixteen choices are not16 simultaneous blocks. |
+| Pitch / qualifications | No dedicated pitch documented;polyphonic capo capability remains unestablished. No V-AMP3,PRO or Bass-series firmware/effects transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Behringer retrospective company timeline](https://www.behringer.com/en/about) — 2002 entry explicitly names V-AMP2 launch;retrospective year only,no exact date. (opened).
+- [Behringer V-AMP2 manual v1.2,September2002](https://manuals.plus/m/836b05fe83f96462273bd99c2bba228a02286e5ca0b7f38e51c7cea10d4013ad) — Table5.1 sixteen effects;section5.2 independent nine-type reverb;125 locations. No dedicated interval pitch shift in inspected inventory;mirror summaries excluded. (manufacturer_manuscript_on_public_mirror; text_only).
+- [Mono Tanz V-Amp1/2 firmware2.2.4 supplier documentation](https://monotanz.de/product/behringer-v-amp-version-1-to-version-2-os-2-2-4-eprom-firmware-upgrade-download/) — Supplier offers2.2.4 binary for1/2,excludesPRO/Bass;claims MIDI/system/amp improvements. Latest-official claim attributed to supplier,not verified as Behringer certification. (opened_ROM_supplier_primary_listing).
+- [Historical manufacturer V-AMP2 firmware URL](https://www.behringer.com/_software/firmware-update-v-amp2.cfm) — Historical URL found but current content could not be inspected;no release date recovered. (inaccessible).
+- [Behringer exact V-AMP2 legacy product page](https://www.behringer.com/en/products/0709-AAD) — Exact model identity and16 effect choices;no current dated ROM history located. (opened; indexed_manufacturer_product_text).
+
+<!-- firmware-pitch:Behringer::V-AMP 2 ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**, partial. Guitar desktop multi-effects; distinct from original V-AMP, V-AMP 3 and Bass V-AMP models.
 
