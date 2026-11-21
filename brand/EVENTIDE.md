@@ -103,6 +103,33 @@ Gain endpoints/range editing,held-position recall,all-mode output coverage andqu
 
 ## H9 Max
 
+<!-- firmware-pitch:Eventide::H9 Max begins -->
+### Firmware and pitch audit — Eventide H9 Max
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2014-11-24 (manufacturer announcement/availability proxy). Indexed reproduction of Eventide press release says unveiled/available now November24,2014. First individual shipment unverified. Original H9 2013, Max 2014 and H9 Gen2 are distinct. [launch 1](https://www.ask.video/article/audio-hardware/eventide-announces-h9-max-stompbox) |
+| Firmware / latest verification | 5.9.1 — Located; latest status unverified. Eventide-hosted support reply names5.9.1 as latest at posting. No dated current firmware changelog or authenticated release date located; present latest status unverified. H9 Control4.x and Direct Updater2.1.0 are app/updater versions, not pedal firmware. No support span calculable. [firmware 1](https://www.eventideaudio.com/forums/topic/h9-max-none-of-the-controls-work/) [firmware 2](https://www.eventideaudio.com/downloads/?product=H9+Max) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Diatonic explicitly uses monophonic input tracking; Quadravox adds four harmony voices. Other original pitch algorithms: HarModulator (±3oct), MicroPitch (A0…+50c/B0…−50c), H910/H949, PitchFlex (two pedal/HotKnob/Flex voices), Octaver (−1/−2oct), Crystals, HarPeggiator and Synthonizer. PitchFuzz has three ±2oct voices/±25c near unison; HotSawz follows a mono tracker. Whole-device polyphony is not established; no H90/Gen2 PolyFlex/Polyphony inherited. [pitch 1](https://downloads.eventideaudio.com/Product+Manuals/H9AlgorithmGuide+V12.pdf) [pitch 2](https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf) [pitch 3](https://www.eventideaudio.com/pedals/h9-max/) |
+| Pitch / preset recall | 99 onboard editable/saveable factory-filled locations, not99 factory plus99 user. App500+ library does not add onboard slots. Pitch controls/mappings form part of algorithm presets. |
+| Pitch / DSP resources | One algorithm/preset operates at a time across both channels. PitchFuzz combines fuzz/three pitch voices/two delays within that one algorithm; not freely added blocks. Separate pitch algorithm cannot also run with Looper/reverb algorithm. No per-algorithm CPU percentage published in checked sources. |
+| Pitch / qualifications | Diatonic monophony is algorithm-specific, not evidence that every H9 effect rejects chords. Multiple shifted output voices and stereo I/O do not establish polyphonic note tracking. Original52-algorithm Max remains distinct from Gen2 SIFT features. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Eventide H9 Max launch press-release reproduction](https://www.ask.video/article/audio-hardware/eventide-announces-h9-max-stompbox) — November24,2014 unveiled/available-now statement; Max-specific45-algorithm launch. (Indexed manufacturer-authored datelined release reproduced by Ask.Video; direct cache miss).
+- [H9 Max support discussion](https://www.eventideaudio.com/forums/topic/h9-max-none-of-the-controls-work/) — Reply identifies5.9.1 as latest at posting; not proof of current release date. (Direct Eventide-hosted thread; support reply, no authenticated firmware release timestamp).
+- [Eventide original H9 Max downloads](https://www.eventideaudio.com/downloads/?product=H9+Max) — H9 Control/Direct Updater version lists separate from pedal software; original algorithm guideV12 linked. (Direct manufacturer downloads page).
+- [Original H9 Algorithm Guide V12](https://downloads.eventideaudio.com/Product+Manuals/H9AlgorithmGuide+V12.pdf) — Printed16–25,74–75: mono Diatonic; original pitch ranges/voices; PitchFuzz composite; HotSawz mono tracker. Not Gen2 guide. (Direct manufacturer redirect to downloads.eventideaudio.com;85pages;SHA2564e7f6aa593664697517cf3d09bae35e0bfa633be86ee5aac947fd8698a1f6b21).
+- [Original H9 User Guide RevD](https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf) — One preset across both channels, no simultaneous presets;99 editable onboard locations. (Direct53-page manufacturer PDF, software5.4+; misleading search title SPACE ignored).
+- [Eventide original H9 Max product](https://www.eventideaudio.com/pedals/h9-max/) — Original52 algorithms and99presets;500+ app library distinct from memory. (Direct manufacturer product page).
+
+<!-- firmware-pitch:Eventide::H9 Max ends -->
+
 Checked 2026-10-17; partial. Max is distinct from Standard/Core; ownership unverified.
 
 | Field | Evidence / qualification |

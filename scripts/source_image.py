@@ -19,7 +19,7 @@ def source_limit(url):
     # Exact owner-manual HEAD reviewed at 132,952,762 bytes; no broad host exception.
     return 144 * 1024 * 1024 if url == REVIEWED_LARGE_PDF else LIMIT
 
-HOSTS = {'erokmusic.com', 'audota.com', 'www.audota.com', 'en.audota.com', 'www.fractalaudio.com', 'www.fmicassets.com', 'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
+HOSTS = {'downloads.eventide.com', 'downloads.eventideaudio.com', 'cdn.eventideaudio.com', 'erokmusic.com', 'audota.com', 'www.audota.com', 'en.audota.com', 'www.fractalaudio.com', 'www.fmicassets.com', 'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
          'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 
@@ -33,7 +33,7 @@ def check_url(url):
     parsed = urllib.parse.urlsplit(url)
     if (parsed.scheme != 'https' or (parsed.hostname not in HOSTS and url not in REVIEWED_MIRRORS)
             or parsed.username or parsed.password or parsed.port not in (None, 443)):
-        raise ValueError('Expected an HTTPS reviewed visual-source URL')
+        raise ValueError('Expected an HTTPS reviewed visual-source URL: ' + parsed.scheme + '://' + str(parsed.hostname) + parsed.path)
     return url
 
 
@@ -368,6 +368,7 @@ def test():
         assert decode_release_note(fixture_text.encode(codec))[0] == fixture_text
     check_index_url('https://erokmusic.com/js/firmware-notes/en.json')
     check_url('https://erokmusic.com/download/manuals/MP-10.pdf')
+    check_url('https://downloads.eventideaudio.com/Product+Manuals/H9AlgorithmGuide+V12.pdf')
     check_index_url('https://www.valeton.net/user-manual/')
     check_index_url('https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html')
     check_index_url('https://cn.mooeraudio.com/product/84.html')

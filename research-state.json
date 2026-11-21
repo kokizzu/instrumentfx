@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://erokmusic.com/download/manuals/POCKET-SONIC.pdf",
+    "requested_url": "https://downloads.eventide.com/audio/Product+Manuals/H9AlgorithmGuide+V12.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 6,
+    "frame": 0,
     "text_pages": [
-      0,
-      6
+      70,
+      74
     ],
     "index_url": "https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186",
     "index_needle": "PocketSonic_105",
@@ -186754,10 +186754,88 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Eventide::H9 Max": {
+        "model_key": "Eventide::H9 Max",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2014-11-24",
+          "precision": "day",
+          "kind": "manufacturer announcement/availability proxy",
+          "source_urls": [
+            "https://www.ask.video/article/audio-hardware/eventide-announces-h9-max-stompbox"
+          ],
+          "note": "Indexed reproduction of Eventide press release says unveiled/available now November24,2014. First individual shipment unverified. Original H9 2013, Max 2014 and H9 Gen2 are distinct."
+        },
+        "firmware": {
+          "version": "5.9.1",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.eventideaudio.com/forums/topic/h9-max-none-of-the-controls-work/",
+            "https://www.eventideaudio.com/downloads/?product=H9+Max"
+          ],
+          "note": "Eventide-hosted support reply names5.9.1 as latest at posting. No dated current firmware changelog or authenticated release date located; present latest status unverified. H9 Control4.x and Direct Updater2.1.0 are app/updater versions, not pedal firmware. No support span calculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Diatonic explicitly uses monophonic input tracking; Quadravox adds four harmony voices. Other original pitch algorithms: HarModulator (±3oct), MicroPitch (A0…+50c/B0…−50c), H910/H949, PitchFlex (two pedal/HotKnob/Flex voices), Octaver (−1/−2oct), Crystals, HarPeggiator and Synthonizer. PitchFuzz has three ±2oct voices/±25c near unison; HotSawz follows a mono tracker. Whole-device polyphony is not established; no H90/Gen2 PolyFlex/Polyphony inherited.",
+          "preset": "99 onboard editable/saveable factory-filled locations, not99 factory plus99 user. App500+ library does not add onboard slots. Pitch controls/mappings form part of algorithm presets.",
+          "dsp": "One algorithm/preset operates at a time across both channels. PitchFuzz combines fuzz/three pitch voices/two delays within that one algorithm; not freely added blocks. Separate pitch algorithm cannot also run with Looper/reverb algorithm. No per-algorithm CPU percentage published in checked sources.",
+          "source_urls": [
+            "https://downloads.eventideaudio.com/Product+Manuals/H9AlgorithmGuide+V12.pdf",
+            "https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf",
+            "https://www.eventideaudio.com/pedals/h9-max/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Diatonic monophony is algorithm-specific, not evidence that every H9 effect rejects chords. Multiple shifted output voices and stereo I/O do not establish polyphonic note tracking. Original52-algorithm Max remains distinct from Gen2 SIFT features."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.ask.video/article/audio-hardware/eventide-announces-h9-max-stompbox",
+            "title": "Eventide H9 Max launch press-release reproduction",
+            "access": "Indexed manufacturer-authored datelined release reproduced by Ask.Video; direct cache miss",
+            "evidence": "November24,2014 unveiled/available-now statement; Max-specific45-algorithm launch."
+          },
+          {
+            "url": "https://www.eventideaudio.com/forums/topic/h9-max-none-of-the-controls-work/",
+            "title": "H9 Max support discussion",
+            "access": "Direct Eventide-hosted thread; support reply, no authenticated firmware release timestamp",
+            "evidence": "Reply identifies5.9.1 as latest at posting; not proof of current release date."
+          },
+          {
+            "url": "https://www.eventideaudio.com/downloads/?product=H9+Max",
+            "title": "Eventide original H9 Max downloads",
+            "access": "Direct manufacturer downloads page",
+            "evidence": "H9 Control/Direct Updater version lists separate from pedal software; original algorithm guideV12 linked."
+          },
+          {
+            "url": "https://downloads.eventideaudio.com/Product+Manuals/H9AlgorithmGuide+V12.pdf",
+            "title": "Original H9 Algorithm Guide V12",
+            "access": "Direct manufacturer redirect to downloads.eventideaudio.com;85pages;SHA2564e7f6aa593664697517cf3d09bae35e0bfa633be86ee5aac947fd8698a1f6b21",
+            "evidence": "Printed16–25,74–75: mono Diatonic; original pitch ranges/voices; PitchFuzz composite; HotSawz mono tracker. Not Gen2 guide."
+          },
+          {
+            "url": "https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf",
+            "title": "Original H9 User Guide RevD",
+            "access": "Direct53-page manufacturer PDF, software5.4+; misleading search title SPACE ignored",
+            "evidence": "One preset across both channels, no simultaneous presets;99 editable onboard locations."
+          },
+          {
+            "url": "https://www.eventideaudio.com/pedals/h9-max/",
+            "title": "Eventide original H9 Max product",
+            "access": "Direct manufacturer product page",
+            "evidence": "Original52 algorithms and99presets;500+ app library distinct from memory."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Eventide::H9 Max",
       "Eventide::H90",
       "Fender::Mustang Micro",
       "Fender::Mustang Micro Plus",
@@ -187062,12 +187140,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 99,
-    "last_model": "EROK::Pocket Sonic",
-    "last_commit_parent": "08f27ab1fcfd08dd3b704c2af2487c42580bcf73",
+    "completed_model_count": 100,
+    "last_model": "Eventide::H9 Max",
+    "last_commit_parent": "406fc951f361a8546df8fdc6f5221047dc5416a3",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Eventide::H9 Max",
       "Eventide::H90",
       "Fender::Mustang Micro",
       "Fender::Mustang Micro Plus",
@@ -187371,7 +187448,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 99,
+    "pitch_completed_model_count": 100,
     "supplemental_model_count": 0
   },
   "model_images": {
