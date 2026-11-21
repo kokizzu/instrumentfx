@@ -1773,6 +1773,26 @@ Sources checked:
 
 <!-- firmware-pitch:Korg::PANDORA stomp ends -->
 
+<!-- model-images:Korg::PANDORA stomp begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Korg PANDORA stomp top controls**
+
+[![Korg PANDORA stomp top controls](https://cdn.korg.com/us/products/upload/a83a9ffc6e5f9ecd1a7848e46e2bb14e_pc.jpg)](https://cdn.korg.com/us/products/upload/a83a9ffc6e5f9ecd1a7848e46e2bb14e_pc.jpg)
+
+[Image source](https://www.korg.com/us/products/effects/pandora_stomp/page_1.php). Visually checked: official black PANDORA stomp promotional image shows illuminated LCD, note display and tuner meter, with all top controls visible. Angled top view; exact overhead photograph remains pending. Promotional illumination is not an independent operating test.
+
+**Korg PANDORA stomp connector side**
+
+[![Korg PANDORA stomp connector side](https://medias.audiofanzine.com/images/normal/korg-pandora-stomp-2353032.jpg)](https://medias.audiofanzine.com/images/normal/korg-pandora-stomp-2353032.jpg)
+
+[Image source](https://fr.audiofanzine.com/multieffet-guitare-electrique/korg/pandora-stomp-black/). Visually checked: output-side connector photograph shows OUTPUT, AUX IN, USB and ON/STANDBY switch. Connectors occupy multiple sides; this is not a complete all-port rear view. Opposite-side INPUT, headphone and DC connector photographs remain pending.
+
+</details>
+<!-- model-images:Korg::PANDORA stomp ends -->
+
+
 Shared guitar/bass multi-effects;not PANDORA mini/PX5D. Checked2026-10-17;partial. Ivory is a colour variant,not a separate processor. Ownership unestablished.
 
 <!-- comparison evidence begins -->
