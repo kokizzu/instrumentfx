@@ -3731,6 +3731,36 @@ Exact GX-1 HTML documentation,checked2026-10-19;no device operations.
 
 ## GX-1B
 
+<!-- firmware-pitch:BOSS::GX-1B begins -->
+### Firmware and pitch audit — BOSS GX-1B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2026-01-15 (manufacturer announcement and availability). Dated manufacturer introduction explicitly says GX-1B available now; first individual shipment not verified. [launch 1](https://www.roland.com/us/company/press_releases/2026/BOSS-Announces-GX-1-and-GX-1B-Multi-Effects-Proces/) |
+| Firmware / latest verification | 1.04 — Latest verified. Current exact-model index and May2026 history. Fixes Pitch Shifter on/off memory-change noise, shimmer levels, delay behavior and other faults. Prior1.03 is Jan2026, not latest. Exact day/installed version unverified; GX-1 firmware and shared editor/driver versions are separate. [firmware 1](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/) [firmware 2](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/9c505ff1-0aeb-4769-b792-b06196da9c8b/) |
+| Firmware / release date | 2026-05 (month precision) |
+| Firmware / release-to-update duration | 0.29–0.37 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift ±24 semitones with Fast/Medium/Slow/Mono and two fixed dual-voice intervals; explicit semitone-shifter note polyphony unverified. Harmonist disallows chords. Tune Down −12…0 requires single notes. Heavy Octave explicitly works with chords one/two octaves down. Pedal Bend heel/toe range is each±24. [pitch 1](https://static.roland.com/manuals/gx-1b_parameter/en-US/389863563399120779.html) [pitch 2](https://static.roland.com/manuals/gx-1b_parameter/en-US/390299275399167883.html) [pitch 3](https://static.roland.com/manuals/gx-1b_parameter/en-US/390314251399168651.html) [pitch 4](https://static.roland.com/assets/media/pdf/GX-1B_Parameter_eng01_W.pdf) [pitch 5](https://static.roland.com/manuals/gx-1b_reference/en-US/385145611387659403.html) [pitch 6](https://www.boss.info/global/products/gx-1b/) |
+| Pitch / preset recall | 99 user plus99 preset memories. EXIT+ENTER opens WRITE menu; save edited effect settings to U01–U99. Unsaved edits are lost at memory change/power-off. Gear Suite settings are separate from extra processing instances. |
+| Pitch / DSP resources | Pitch choices use FX1/FX2/FX3; same shared effect can be selected in all three. Overtone is FX3-only. Manufacturer specifies eight simultaneous effect blocks plus volume pedal and noise suppression. No per-pitch CPU percentage or transferable GX-10/GX-100 capacity class established. |
+| Pitch / qualifications | Heavy Octave chord support does not establish polyphonic semitone transposition; generated dual voices and mono/stereo format likewise do not prove input polyphony. Bass Synth single-note instructions concern that separate algorithm. Tune Down is explicitly single-note despite its tuning-oriented name. Exact-model online parameter/reference pages and manufacturer-indexed PDF text inspected; no hardware latency/quality measurement or firmware installation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS GX-1B current Updates & Drivers](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/) — System Program1.04 separated from editor and drivers. (opened).
+- [BOSS GX-1B System Program1.04 history](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/9c505ff1-0aeb-4769-b792-b06196da9c8b/) — May2026 latest fixes; prior1.03Jan2026. (opened).
+- [BOSS GX-1/GX-1B January15 2026 introduction](https://www.roland.com/us/company/press_releases/2026/BOSS-Announces-GX-1-and-GX-1B-Multi-Effects-Proces/) — Dated announcement and available-now statement. (opened).
+- [BOSS GX-1B FX1/FX2/FX3 parameter list](https://static.roland.com/manuals/gx-1b_parameter/en-US/389863563399120779.html) — Duplicate shared effects permitted; OvertoneFX3-only; Heavy Octave supports chords, Bass Synth requires single notes. (opened).
+- [BOSS GX-1B Pitch Shift parameters](https://static.roland.com/manuals/gx-1b_parameter/en-US/390299275399167883.html) — ±24, Fast/Medium/Slow/Mono and fixed dual intervals; explicit note-polyphony not established. (opened).
+- [BOSS GX-1B Harmonist parameters](https://static.roland.com/manuals/gx-1b_parameter/en-US/390314251399168651.html) — Explicit single-note/no-chords restriction. (opened).
+- [BOSS GX-1B original parameter guide01](https://static.roland.com/assets/media/pdf/GX-1B_Parameter_eng01_W.pdf) — p20 Tune Down−12…0 with single-note instruction; Pedal Bend heel/toe±24. (indexed_manufacturer_pdf_text).
+- [BOSS GX-1B WRITE reference](https://static.roland.com/manuals/gx-1b_reference/en-US/385145611387659403.html) — U01–U99 saving, unsaved settings lost on memory change/power-off. (indexed_manufacturer_text).
+- [BOSS GX-1B product/specifications](https://www.boss.info/global/products/gx-1b/) — 99user+99preset; eight simultaneous blocks plus volume/noise suppression; no per-pitch percentage. (opened).
+
+<!-- firmware-pitch:BOSS::GX-1B ends -->
+
 Bass multi-effects with built-in expression/toe switch. Consolidated/researched2026-10-16;partial verification. No GX-1 guitar-model specs substituted.
 
 ### GX-1B — preserved original comparison
