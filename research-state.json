@@ -203969,11 +203969,45 @@
             "note": "Powered lifestyle angle with left edge cropped."
           }
         ]
+      },
+      "Sonicake::RockStage QCE-10": {
+        "model_key": "Sonicake::RockStage QCE-10",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://hotmusic.jp/cdn/shop/files/QCE-10-3_ee290d4a-06c4-46b0-ba71-fe844d999117.jpg?v=1747900905&width=1096",
+            "source_url": "https://hotmusic.jp/products/sonicake-rockstage",
+            "caption": "RockStage QCE-10 powered-on near-overhead product graphic: nine rotary controls, four footswitches and cabinet-simulation switch; no display.",
+            "note": "Exact-model RockStage wordmark and Chorus/Rock Amp/Delay/Reverb sections visually confirmed. Slight perspective shows rear-edge sockets; strict perpendicular overhead remains a gap.",
+            "visual_checked": true,
+            "sha256": "3833c5f7a4f8693c6ca7e9412073499a010387044e4782f189d6dc9cc7ca5065",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Rockstage-User_Manual_JP.png",
+            "source_url": "https://www.hotone.jp/brands/sonicake/products/rockstage",
+            "caption": "RockStage QCE-10 official manual diagram: IN, OUT and DC 9 V connectors along the long edge; cabinet-simulation on/off switch on top.",
+            "note": "Readable manufacturer regional manual-image diagram, not a rear photograph. It confirms nine rotaries, four footswitches, cabinet switch and 130 mA supply requirement. Clear rear socket photograph remains a gap.",
+            "visual_checked": true,
+            "sha256": "8f30103d80a77ee24291f23468e02abed3ca7a985cf17a1947a89a040bdea15d",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/rockstage/gallery/20260915-071933-eag6bz-rockstage_front_hi_v01_250306.webp",
+            "sha256": "c3cba3bc1127591dd2341f99ef5bf4abdc7958b36912415e73b66f063a5aa4e1",
+            "visual_checked": true,
+            "note": "Rejected: despite RockStage gallery filename, actual image depicts Sonic Wood QCE-50 with acoustic guitar graphic and preamp controls."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::Black Hammer QCE-30"
+    "last_model": "Sonicake::RockStage QCE-10"
   }
 }

@@ -955,6 +955,26 @@ Sources checked:
 
 <!-- firmware-pitch:Sonicake::RockStage QCE-10 ends -->
 
+<!-- model-images:Sonicake::RockStage QCE-10 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**RockStage QCE-10 powered-on near-overhead product graphic: nine rotary controls, four footswitches and cabinet-simulation switch; no display.**
+
+[![RockStage QCE-10 powered-on near-overhead product graphic: nine rotary controls, four footswitches and cabinet-simulation switch; no display.](https://hotmusic.jp/cdn/shop/files/QCE-10-3_ee290d4a-06c4-46b0-ba71-fe844d999117.jpg?v=1747900905&width=1096)](https://hotmusic.jp/cdn/shop/files/QCE-10-3_ee290d4a-06c4-46b0-ba71-fe844d999117.jpg?v=1747900905&width=1096)
+
+[Image source](https://hotmusic.jp/products/sonicake-rockstage). Exact-model RockStage wordmark and Chorus/Rock Amp/Delay/Reverb sections visually confirmed. Slight perspective shows rear-edge sockets; strict perpendicular overhead remains a gap.
+
+**RockStage QCE-10 official manual diagram: IN, OUT and DC 9 V connectors along the long edge; cabinet-simulation on/off switch on top.**
+
+[![RockStage QCE-10 official manual diagram: IN, OUT and DC 9 V connectors along the long edge; cabinet-simulation on/off switch on top.](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Rockstage-User_Manual_JP.png)](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Rockstage-User_Manual_JP.png)
+
+[Image source](https://www.hotone.jp/brands/sonicake/products/rockstage). Readable manufacturer regional manual-image diagram, not a rear photograph. It confirms nine rotaries, four footswitches, cabinet switch and 130 mA supply requirement. Clear rear socket photograph remains a gap.
+
+</details>
+<!-- model-images:Sonicake::RockStage QCE-10 ends -->
+
+
 Guitar multi-effects strip, distinct from Black Hammer and G3-series products. Manufacturer identifies QCE-10. Checked 2026-10-17; partial. Bass/vocal suitability unclassified.
 
 | Field | Finding / qualification | Evidence |
