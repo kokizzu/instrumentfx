@@ -187415,11 +187415,35 @@
             "sha256": "5260648cb222a1f47bf4f2971aaaaecf0e221d56abf9800c15f2e74d450b3bdd"
           }
         }
+      },
+      "EROK::MP-10": {
+        "model_key": "EROK::MP-10",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://erokmusic.com/img/products/MP-10-1.webp?v=936e3222fbe0ba88",
+            "source_url": "https://erokmusic.com/product/multi-effects/MP-10",
+            "caption": "MP-10 near-top manufacturer product image with active display",
+            "note": "Exact EROK MP-10 branding and 01A screen visible. Slight perspective; powered-on state versus composited display is not independently authenticated.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "936e3222fbe0ba8835a141d60ceb6f6c7844b2d7b0c9227ad050c78f18de5a9a"
+          },
+          "rear": {
+            "image_url": "https://erokmusic.com/img/products/MP-10-3.webp?v=1ff46eaae9d4d721",
+            "source_url": "https://erokmusic.com/product/multi-effects/MP-10",
+            "caption": "MP-10 angled rear connection view",
+            "note": "Exact manufacturer gallery image shows rear audio/USB/phones/expression connections and side XLR. Perspective and small port labels limit readability; no model-family connector equivalence inferred.",
+            "visual_checked": true,
+            "sha256": "1ff46eaae9d4d721398871369533bea8f6cfc9d7f683aca6371bd8d4eabea958"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Donner::Triple Threat"
+    "last_model": "EROK::MP-10"
   }
 }
