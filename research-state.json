@@ -191024,11 +191024,35 @@
             "sha256": "1f832c571ed60713234cf20c9164379e543f1631b7ab9ecccaa154ef1724f173"
           }
         }
+      },
+      "Line 6::HX Stomp": {
+        "model_key": "Line 6::HX Stomp",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/6/0a020a416aec6006fc5095d0f/image/png",
+            "source_url": "https://line6.com/hx-stomp/",
+            "caption": "HX Stomp powered-on top-down product image",
+            "note": "Exact black three-switch HX Stomp overhead image shows active 06B Seismic Matters display and purple/green/red LED rings, six rotaries and four separate buttons. Manufacturer product image, not a physical-unit tracking test or proof of installed 3.80 firmware. No integrated expression treadle; do not substitute the eight-switch XL.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "1ff2c5f57157c40098f6e106784fab20318819870cc1b2cd8eeedf3ce2530d4c"
+          },
+          "rear": {
+            "image_url": "https://line6.com/data/6/0a020a3f82f96006fc7590b6c/image/png",
+            "source_url": "https://line6.com/hx-stomp/",
+            "caption": "HX Stomp rear connections",
+            "note": "Readable rear labels show shared EXP1/2–FS4/5, L/MONO and RIGHT inputs, balanced/unbalanced L/MONO and RIGHT outputs, USB-B, DC IN 9VDC 3A center-negative marking and power switch. Supply label is not measured draw. Separately inspected side views show [MIDI IN, OUT/THRU and headphones](https://line6.com/data/6/0a020a416ab06006fbd876bfa/image/png) and [stereo SEND plus L/MONO/RIGHT RETURN/AUX IN](https://line6.com/data/6/0a020a3f83056006fc2098b26/image/png). No XLR socket in these complete connector views.",
+            "visual_checked": true,
+            "sha256": "83dadf78f42bdacad62898f868a136b39c8a4185c2f16b5a767074b94869b339"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "JOYO::Tone Chain TC-2"
+    "last_model": "Line 6::HX Stomp"
   }
 }

@@ -1764,6 +1764,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::HX Stomp ends -->
 
+<!-- model-images:Line 6::HX Stomp begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**HX Stomp powered-on top-down product image**
+
+[![HX Stomp powered-on top-down product image](https://line6.com/data/6/0a020a416aec6006fc5095d0f/image/png)](https://line6.com/data/6/0a020a416aec6006fc5095d0f/image/png)
+
+[Image source](https://line6.com/hx-stomp/). Exact black three-switch HX Stomp overhead image shows active 06B Seismic Matters display and purple/green/red LED rings, six rotaries and four separate buttons. Manufacturer product image, not a physical-unit tracking test or proof of installed 3.80 firmware. No integrated expression treadle; do not substitute the eight-switch XL.
+
+**HX Stomp rear connections**
+
+[![HX Stomp rear connections](https://line6.com/data/6/0a020a3f82f96006fc7590b6c/image/png)](https://line6.com/data/6/0a020a3f82f96006fc7590b6c/image/png)
+
+[Image source](https://line6.com/hx-stomp/). Readable rear labels show shared EXP1/2–FS4/5, L/MONO and RIGHT inputs, balanced/unbalanced L/MONO and RIGHT outputs, USB-B, DC IN 9VDC 3A center-negative marking and power switch. Supply label is not measured draw. Separately inspected side views show [MIDI IN, OUT/THRU and headphones](https://line6.com/data/6/0a020a416ab06006fbd876bfa/image/png) and [stereo SEND plus L/MONO/RIGHT RETURN/AUX IN](https://line6.com/data/6/0a020a3f83056006fc2098b26/image/png). No XLR socket in these complete connector views.
+
+</details>
+<!-- model-images:Line 6::HX Stomp ends -->
+
+
 Consolidated2026-10-17. Complete legacy model rows, dated qualifications and URLs are retained below. Display, controls, expression and qualified Shopee offers were additionally checked; indexed manual/guide facts are labelled with access limitations. This existing guitar/bass model adds no inventory count. Verification remains partial.
 
 ### HX Stomp historical source evidence
