@@ -360,6 +360,26 @@ Sources checked:
 
 <!-- firmware-pitch:Kemper::PROFILER PowerRack MK2 ends -->
 
+<!-- model-images:Kemper::PROFILER PowerRack MK2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**PowerRack MK2 listing powered control-face picture: active LCD, effect LEDs and rack-ear mounting holes.**
+
+[![PowerRack MK2 listing powered control-face picture: active LCD, effect LEDs and rack-ear mounting holes.](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_front_800w.jpg)](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_front_800w.jpg)
+
+[Image source](https://www.kemper-amps.com/store/en/profiler-powerrack-b.html). Manufacturer supplies this shared Rack-front image on PowerRack MK2 SKU19300000 page. Front alone does not distinguish powered versus unpowered Rack or prove internal MK2 revision. Four direct-effect knobs differ from six on Head; front USB-A, headphones and input visible. Upright rack control face, not perpendicular overhead.
+
+**PowerRack MK2 rear photograph: red SPEAKER OUTPUT and amplifier vent distinguish it from unpowered Rack.**
+
+[![PowerRack MK2 rear photograph: red SPEAKER OUTPUT and amplifier vent distinguish it from unpowered Rack.](https://assets-sb.thomann.de/f/49568/3238x3238/cb493d3b61/tps_1524_619137_1_61913706979_rc.jpg/m/1600x0/filters%3Aquality%2890%29)](https://assets-sb.thomann.de/f/49568/3238x3238/cb493d3b61/tps_1524_619137_1_61913706979_rc.jpg/m/1600x0/filters%3Aquality%2890%29)
+
+[Image source](https://www.thomann.de/de/kemper_profiler_powerrack_mk_2.htm). Exact MK2 retailer page supplies this photograph. Visible RETURN XLR/quarter-inch,ALTERNATIVE INPUT,DIRECT/SEND,MONITOR,stereo MAIN XLR/quarter-inch,S/PDIF RCA,MIDI thru/out/in,two pedal sockets,NETWORK,USB-B and IEC mains. USB-A is on front. Speaker label8–16ohm,600W at8ohm/300W at16ohm; manual13.0 also allows4ohm with600W limiting,retained as separate qualification. Mains100–125V or190–245V,max10A. No visible MK2 badge independently proves internal revision.
+
+</details>
+<!-- model-images:Kemper::PROFILER PowerRack MK2 ends -->
+
+
 Partial record checked **2026-10-17**. Manufacturer SKU19300000 and exact Shopee Power Rack MK2 title. Distinct from Rack,PowerHead and bundled controllers. Product prose calls it a “Head device”;explicit PowerRack dimensions below take precedence for form factor,without silently deleting that source inconsistency.
 
 | Required field | Evidence / qualification |

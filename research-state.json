@@ -204850,11 +204850,37 @@
             "note": "Official listing rear shows green trim and older-looking cabinet with 8–16ohm600/300W amplifier label; exact MK2 photographic revision unresolved, so seek actual review unit."
           }
         ]
+      },
+      "Kemper::PROFILER PowerRack MK2": {
+        "model_key": "Kemper::PROFILER PowerRack MK2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_front_800w.jpg",
+            "source_url": "https://www.kemper-amps.com/store/en/profiler-powerrack-b.html",
+            "caption": "PowerRack MK2 listing powered control-face picture: active LCD, effect LEDs and rack-ear mounting holes.",
+            "note": "Manufacturer supplies this shared Rack-front image on PowerRack MK2 SKU19300000 page. Front alone does not distinguish powered versus unpowered Rack or prove internal MK2 revision. Four direct-effect knobs differ from six on Head; front USB-A, headphones and input visible. Upright rack control face, not perpendicular overhead.",
+            "visual_checked": true,
+            "sha256": "a39ac7c6cc05875fbb10a4875d49d5161712733a94ecd5e91f521b7221e20b62",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://assets-sb.thomann.de/f/49568/3238x3238/cb493d3b61/tps_1524_619137_1_61913706979_rc.jpg/m/1600x0/filters%3Aquality%2890%29",
+            "source_url": "https://www.thomann.de/de/kemper_profiler_powerrack_mk_2.htm",
+            "caption": "PowerRack MK2 rear photograph: red SPEAKER OUTPUT and amplifier vent distinguish it from unpowered Rack.",
+            "note": "Exact MK2 retailer page supplies this photograph. Visible RETURN XLR/quarter-inch,ALTERNATIVE INPUT,DIRECT/SEND,MONITOR,stereo MAIN XLR/quarter-inch,S/PDIF RCA,MIDI thru/out/in,two pedal sockets,NETWORK,USB-B and IEC mains. USB-A is on front. Speaker label8–16ohm,600W at8ohm/300W at16ohm; manual13.0 also allows4ohm with600W limiting,retained as separate qualification. Mains100–125V or190–245V,max10A. No visible MK2 badge independently proves internal revision.",
+            "visual_checked": true,
+            "sha256": "1dde0c3559e7590bfdb997a3ff2b16564e72f282878bdd240057d52e57ea7d92",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Kemper::PROFILER PowerHead MK2"
+    "last_model": "Kemper::PROFILER PowerRack MK2"
   }
 }
