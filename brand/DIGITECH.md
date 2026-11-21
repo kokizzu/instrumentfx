@@ -1454,6 +1454,26 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP350 ends -->
 
+<!-- model-images:DigiTech::RP350 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**DigiTech RP350 — top panel**
+
+[![DigiTech RP350 — top panel](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/39774/156322/YDIGITECH11828106__55074.1660735847.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/39774/156322/YDIGITECH11828106__55074.1660735847.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/digitech-rp350-modeling-guitar-processor-box-psu-2nd-hand/). Retailer second-hand RP350 photograph, three-quarter overhead angle. Green/red display windows show no illuminated characters; powered-on state is not established. A confirmed powered-on straight top-down replacement remains pending.
+
+**DigiTech RP350 — rear connections**
+
+[![DigiTech RP350 — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/39774/156323/YDIGITECH11828107__17168.1660735847.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/39774/156323/YDIGITECH11828107__17168.1660735847.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/digitech-rp350-modeling-guitar-processor-box-psu-2nd-hand/). Angled rear photograph of the same listing shows INPUT, both AMP/MIXER switches, LEFT (Mono)/RIGHT jack outputs, headphones, AUX IN, LEFT OUT/RIGHT OUT XLR, USB Type-B and power. Chassis label reads 9VAC 1.3A. All sockets visible and labels readable; rear photo does not establish operating power state.
+
+</details>
+<!-- model-images:DigiTech::RP350 ends -->
+
+
 Checked 2026-10-18; partial. Exact RP350,not RP355. [Own manufacturer-linked manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP350_Manual18-0436V-A_original.pdf),18-0436V-A,40 PDF pages,printed pp1–7,26–29 (M); [product](https://digitech.com/dp/rp350/) (P); [power FAQ](https://digitech.com/faqs/) (F). Browser text;no software downloaded or run.
 
 <!-- comparison evidence begins -->

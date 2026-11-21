@@ -193459,11 +193459,35 @@
             "sha256": "db21a66596f62cb272e16453315de85b4e006b6cf5ce88d5eabae7837c6b605e"
           }
         }
+      },
+      "DigiTech::RP350": {
+        "model_key": "DigiTech::RP350",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/39774/156322/YDIGITECH11828106__55074.1660735847.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/digitech-rp350-modeling-guitar-processor-box-psu-2nd-hand/",
+            "caption": "DigiTech RP350 — top panel",
+            "note": "Retailer second-hand RP350 photograph, three-quarter overhead angle. Green/red display windows show no illuminated characters; powered-on state is not established. A confirmed powered-on straight top-down replacement remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "67c0f766e94c0e842619fe3a0a9af82c85be28531ed39efd30b8bfcc042ddfd2"
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/39774/156323/YDIGITECH11828107__17168.1660735847.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/digitech-rp350-modeling-guitar-processor-box-psu-2nd-hand/",
+            "caption": "DigiTech RP350 — rear connections",
+            "note": "Angled rear photograph of the same listing shows INPUT, both AMP/MIXER switches, LEFT (Mono)/RIGHT jack outputs, headphones, AUX IN, LEFT OUT/RIGHT OUT XLR, USB Type-B and power. Chassis label reads 9VAC 1.3A. All sockets visible and labels readable; rear photo does not establish operating power state.",
+            "visual_checked": true,
+            "sha256": "c83143ab1b45c97e1c06fdaa3dffb15a3e232d739cd88b14f1e8c71d7e5f11f1"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP355"
+    "last_model": "DigiTech::RP350"
   }
 }
