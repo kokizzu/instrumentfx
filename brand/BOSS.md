@@ -1989,6 +1989,32 @@ Checked **2026-11-05**. [Official eng12 PDF](https://static.roland.com/assets/me
 
 ## GT-1000CORE
 
+<!-- firmware-lifecycle begins -->
+### Firmware lifecycle
+
+| Field | Verified evidence |
+|---|---|
+| Hardware first release / date basis | 2020-09-17 (launch announcement). Earliest dated introduction on the opened US manufacturer press page. That page forecasts retail availability in October 2020. A separate manufacturer PDF instead dates the introduction October 1, 2020; this source discrepancy is retained, not reconciled by guessing. [source 1](https://www.roland.com/us/company/press_releases/2020/BOSS_Introduces_GT-1000CORE_Guitar_Effects_Process/) |
+| Device firmware / current verification | 2.02 — Latest verified. Current exact-model support index links System Program 2.02. Release history publishes JUL 2026 without a day. Adds options to disable simultaneous-switch actions; fixes patch-change noise and MANUAL switching. Tone Studio 4.1.1 and USB driver versions are separate software. [source 1](https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/) [source 2](https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/82f27f97-d627-4536-b49c-94b317a2e0ad/) |
+| Firmware release date / precision | 2026-07 (month precision) |
+| Firmware release-to-update span | 5.79–5.87 years; calculated from the stated hardware-date basis, not a promise of continuous or future support. |
+| Firmware audit checked | 2026-11-21; see the [duration-sorted firmware comparison](../FIRMWARE-UPDATES.md). |
+
+Date precision is preserved; July 2026 is not silently converted to July 1.
+
+Firmware 2.01 removed the polyphonic tuner; this is unrelated to polyphonic pitch-shifting algorithms.
+
+The elapsed period is measured from a documented announcement, not a verified first customer shipment.
+
+Firmware sources checked:
+
+- [GT-1000CORE Updates & Drivers](https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/) — Current index lists GT-1000CORE System Program Ver.2.02 above separately named editor and driver packages. (opened).
+- [GT-1000CORE System Program Ver.2.02](https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/82f27f97-d627-4536-b49c-94b317a2e0ad/) — Top update-history entry: Ver.2.02, JUL 2026. Older entries include 2.01 MAR 2026 and 2.00 JUL 2024. (opened).
+- [BOSS Introduces GT-1000CORE Guitar Effects Processor](https://www.roland.com/us/company/press_releases/2020/BOSS_Introduces_GT-1000CORE_Guitar_Effects_Process/) — Body dates introduction September 17, 2020; availability paragraph says October 2020. (opened).
+- [BOSS GT-1000CORE manufacturer press release PDF](https://www.roland.com/RolandComSite/files/4d/4dd9c2eb-497d-4f24-8862-1e5f5fef6bba.pdf) — Indexed original manufacturer press-release text dates introduction October 1, 2020, differing from the US webpage. (indexed).
+
+<!-- firmware-lifecycle ends -->
+
 ### GT-1000CORE — current comparison summary
 
 Selected 2026-10-28 from the complete dated evidence below; no new hardware test or market refresh. All older sources and qualifications remain intact.
