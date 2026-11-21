@@ -531,6 +531,32 @@ The opening summary now incorporates already-recorded synth/category,globalOUTLE
 
 ## GM-800
 
+<!-- firmware-pitch:BOSS::GM-800 begins -->
+### Firmware and pitch audit — BOSS GM-800
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-07-20 (manufacturer announcement proxy). Manufacturer introduction of GM-800 and Serial GK ecosystem; announcement date proxy, not first delivery proof. [launch 1](https://www.roland.com/us/company/press_releases/2023/BOSS-Announces-New-Serial-GK-System-and-GM-800-Gui/) |
+| Firmware / latest verification | 1.50 — Latest verified. Current manufacturer product links System Program1.50; history dates it JUL2026. Adds responsiveness-focused Tracking Mode, stability improvement and an operations-disabled bug fix. Corresponding Tone Studio update required. Public current release, not proof of installed firmware; exact release day unspecified. [firmware 1](https://www.boss.info/us/support/by_product/gm-800/updates_drivers/b191aadf-edff-48b6-8bee-86db3af5f533/) [firmware 2](https://www.boss.info/global/products/gm-800/) |
+| Firmware / release date | 2026-07 (month precision) |
+| Firmware / release-to-update duration | 2.95–3.03 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MFX68 PitchShiftr (stereo) and69 2V PShifter (two generated voices), each −24…+12 semitones with fine adjustment. Part Mono/Poly explicitly permits polyphonic synth-tone playback; the audio MFX sections do not specify note-polyphony performance. [pitch 1](https://static.roland.com/assets/media/pdf/GM-800_ParameterGuide_eng02_W.pdf) [pitch 2](https://static.roland.com/assets/media/pdf/GM-800_ReferenceManual_eng02_W.pdf) [pitch 3](https://www.boss.info/global/products/gm-800/) |
+| Pitch / preset recall | 150 editable Scenes,100 factory-filled. Scenes save part/scene FX and assignments. WRITE → knob1 WRITE → destination → WRITE; unsaved edits are lost on scene change or power-off. |
+| Pitch / DSP resources | One dedicated MFX per Tone/Rhythm part plus two scene FX, chorus/delay and reverb; pitch occupies an MFX/FX selection. No per-pitch CPU percentage or shared DSP-budget meter documented. MFX68/69 are alternative types within one processor, not automatically two allocated processors. |
+| Pitch / qualifications | Per-string tuning, synth pitch bend and polyphonic Tone mode are separate from audio pitch shifting; stereo/two-voice labels do not establish note polyphony. Guitar/bass synthesis requires compatible divided pickup/Serial GK, not an ordinary analog instrument cable. Normal-pickup/GK Audio MFX coverage remains unresolved. Firmware1.50 latency-oriented Tracking Mode is not a published pitch CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland/BOSS GM-800 introduction, July20 2023](https://www.roland.com/us/company/press_releases/2023/BOSS-Announces-New-Serial-GK-System-and-GM-800-Gui/) — Dated primary announcement names GM-800 and required Serial GK/divided-pickup ecosystem. (opened).
+- [BOSS GM-800 current System Program1.50 update history](https://www.boss.info/us/support/by_product/gm-800/updates_drivers/b191aadf-edff-48b6-8bee-86db3af5f533/) — Latest public system release1.50 JUL2026; Tracking Mode, stability and operation-disable fix, matching Tone Studio update required. (opened).
+- [BOSS GM-800 current product page](https://www.boss.info/global/products/gm-800/) — Links firmware1.50; 150 user-configurable Scenes,100 factory-filled; dedicated per-part MFX and two scene FX; Serial GK requirements. (opened).
+- [BOSS GM-800 Parameter Guide eng02](https://static.roland.com/assets/media/pdf/GM-800_ParameterGuide_eng02_W.pdf) — pp4–5 Part Mono/Poly and scene FX; pp48–49 pitch MFX68/69 coarse ranges and generated voice/channel structure; no explicit audio-MFX note polyphony or CPU percentage. (opened manufacturer PDF; text_only).
+- [BOSS GM-800 Reference Manual eng02](https://static.roland.com/assets/media/pdf/GM-800_ReferenceManual_eng02_W.pdf) — Scene structure and p13 WRITE workflow; unsaved edits lost on scene change/power-off. (opened manufacturer PDF; text_only).
+
+<!-- firmware-pitch:BOSS::GM-800 ends -->
+
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
 
 Technical research snapshot: **2026-10-14**. All records remain partial; `?` means unverified, not No. This reclassification preserves earlier sources and uncertainties; it is not a fresh technical verification. Dimensions are W×D×H in millimetres; cables and pedal travel require additional clearance.

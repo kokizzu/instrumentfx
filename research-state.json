@@ -181796,10 +181796,88 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GM-800": {
+        "model_key": "BOSS::GM-800",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2023-07-20",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2023/BOSS-Announces-New-Serial-GK-System-and-GM-800-Gui/"
+          ],
+          "note": "Manufacturer introduction of GM-800 and Serial GK ecosystem; announcement date proxy, not first delivery proof."
+        },
+        "firmware": {
+          "version": "1.50",
+          "date": "2026-07",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/us/support/by_product/gm-800/updates_drivers/b191aadf-edff-48b6-8bee-86db3af5f533/",
+            "https://www.boss.info/global/products/gm-800/"
+          ],
+          "note": "Current manufacturer product links System Program1.50; history dates it JUL2026. Adds responsiveness-focused Tracking Mode, stability improvement and an operations-disabled bug fix. Corresponding Tone Studio update required. Public current release, not proof of installed firmware; exact release day unspecified."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MFX68 PitchShiftr (stereo) and69 2V PShifter (two generated voices), each −24…+12 semitones with fine adjustment. Part Mono/Poly explicitly permits polyphonic synth-tone playback; the audio MFX sections do not specify note-polyphony performance.",
+          "preset": "150 editable Scenes,100 factory-filled. Scenes save part/scene FX and assignments. WRITE → knob1 WRITE → destination → WRITE; unsaved edits are lost on scene change or power-off.",
+          "dsp": "One dedicated MFX per Tone/Rhythm part plus two scene FX, chorus/delay and reverb; pitch occupies an MFX/FX selection. No per-pitch CPU percentage or shared DSP-budget meter documented. MFX68/69 are alternative types within one processor, not automatically two allocated processors.",
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/GM-800_ParameterGuide_eng02_W.pdf",
+            "https://static.roland.com/assets/media/pdf/GM-800_ReferenceManual_eng02_W.pdf",
+            "https://www.boss.info/global/products/gm-800/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Per-string tuning, synth pitch bend and polyphonic Tone mode are separate from audio pitch shifting; stereo/two-voice labels do not establish note polyphony.",
+            "Guitar/bass synthesis requires compatible divided pickup/Serial GK, not an ordinary analog instrument cable. Normal-pickup/GK Audio MFX coverage remains unresolved.",
+            "Firmware1.50 latency-oriented Tracking Mode is not a published pitch CPU measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2023/BOSS-Announces-New-Serial-GK-System-and-GM-800-Gui/",
+            "title": "Roland/BOSS GM-800 introduction, July20 2023",
+            "access": "opened",
+            "evidence": "Dated primary announcement names GM-800 and required Serial GK/divided-pickup ecosystem."
+          },
+          {
+            "url": "https://www.boss.info/us/support/by_product/gm-800/updates_drivers/b191aadf-edff-48b6-8bee-86db3af5f533/",
+            "title": "BOSS GM-800 current System Program1.50 update history",
+            "access": "opened",
+            "evidence": "Latest public system release1.50 JUL2026; Tracking Mode, stability and operation-disable fix, matching Tone Studio update required."
+          },
+          {
+            "url": "https://www.boss.info/global/products/gm-800/",
+            "title": "BOSS GM-800 current product page",
+            "access": "opened",
+            "evidence": "Links firmware1.50; 150 user-configurable Scenes,100 factory-filled; dedicated per-part MFX and two scene FX; Serial GK requirements."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/GM-800_ParameterGuide_eng02_W.pdf",
+            "title": "BOSS GM-800 Parameter Guide eng02",
+            "access": "opened manufacturer PDF; text_only",
+            "evidence": "pp4–5 Part Mono/Poly and scene FX; pp48–49 pitch MFX68/69 coarse ranges and generated voice/channel structure; no explicit audio-MFX note polyphony or CPU percentage."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/GM-800_ReferenceManual_eng02_W.pdf",
+            "title": "BOSS GM-800 Reference Manual eng02",
+            "access": "opened manufacturer PDF; text_only",
+            "evidence": "Scene structure and p13 WRITE workflow; unsaved edits lost on scene change/power-off."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1077,
+          "maximum_days": 1107,
+          "label": "2.95–3.03 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GM-800",
       "BOSS::GS-10",
       "BOSS::GT-001",
       "BOSS::GT-1",
@@ -182172,12 +182250,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 31,
-    "last_model": "BOSS::AD-8",
-    "last_commit_parent": "e18f12c679da34948fe8bc9809b6670311cf192b",
+    "completed_model_count": 32,
+    "last_model": "BOSS::GM-800",
+    "last_commit_parent": "4fe8d0e65cd6520068bb948c6586656bb792e56b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GM-800",
       "BOSS::GS-10",
       "BOSS::GT-001",
       "BOSS::GT-1",
@@ -182549,7 +182626,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 31,
+    "pitch_completed_model_count": 32,
     "supplemental_model_count": 0
   }
 }
