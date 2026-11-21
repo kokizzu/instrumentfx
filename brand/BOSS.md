@@ -1035,6 +1035,32 @@ These menus supplement the existingFX1/FX2 census,not a complete all-subtype cou
 
 ## GT-1
 
+<!-- firmware-pitch:BOSS::GT-1 begins -->
+### Firmware and pitch audit — BOSS GT-1
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2016-09-09 (manufacturer announcement proxy). Dated manufacturer introduction says just released; used as announcement proxy, not universal first-shipment evidence. [launch 1](https://www.roland.com/us/company/press_releases/2016/BOSS-ANNOUNCES-GT-1-GUITAR-EFFECTS-PROCESSOR/) |
+| Firmware / latest verification | 1.09 — Latest verified. Current product links1.09; history dates it DEC2021. Manufacturer says management-related version change with specifications unaffected. Last listed functional fixes are1.08 MAR2018;1.07 JUN2017 fixed delayed pitch-shift output after patch changes. The elapsed version-release span does not imply5 years of feature additions. Exact day and installed version unverified. [firmware 1](https://www.boss.info/global/support/by_product/gt-1/updates_drivers/076a30a8-a319-4891-94e4-ef0bb08451e5/) [firmware 2](https://www.boss.info/global/products/gt-1/) |
+| Firmware / release date | 2021-12 (month precision) |
+| Firmware / release-to-update duration | 5.23–5.31 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter ±24 semitones, Octave (one/two octaves down), Overtone (upper/lower harmonics and detune), Harmonist and Pedal Bend. Harmonist and Pedal Bend explicitly require single notes; audio note-polyphony of the other pitch algorithms is not specified in checked sections. [pitch 1](https://static.roland.com/assets/media/pdf/GT-1_parameter_eng02_W.pdf) [pitch 2](https://static.roland.com/assets/media/pdf/GT-1_eng03_W.pdf) |
+| Pitch / preset recall | 99 writable User and99 protected Preset patches. EXIT+ENTER opens WRITE utility; select destination U01–U99 and confirm. Unsaved edits are lost on patch change/power-off. |
+| Pitch / DSP resources | Pitch algorithms are choices in FX1/FX2; the guide explicitly allows the same effect in both slots. Pedal FX separately chooses Wah or Pedal Bend. No per-pitch CPU percentage or shared DSP-budget meter is documented. |
+| Pitch / qualifications | Channel-format icons describe mono/stereo audio, not simultaneous-note handling. The1.07 patch-switch pitch-output bug fix is not a DSP-utilization benchmark. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland/BOSS GT-1 introduction, September9 2016](https://www.roland.com/us/company/press_releases/2016/BOSS-ANNOUNCES-GT-1-GUITAR-EFFECTS-PROCESSOR/) — Dated GT-1 introduction; announcement proxy only. (opened).
+- [BOSS GT-1 System Program1.09 history](https://www.boss.info/global/support/by_product/gt-1/updates_drivers/076a30a8-a319-4891-94e4-ef0bb08451e5/) — DEC2021 management-only1.09, MAR2018 fixes1.08 and JUN2017 pitch-output patch-switch fix1.07. (opened).
+- [BOSS GT-1 current product/support](https://www.boss.info/global/products/gt-1/) — Links System Program1.09 separately from drivers/editors;99+99 patch capacity. (opened).
+- [BOSS GT-1 Parameter Guide eng02](https://static.roland.com/assets/media/pdf/GT-1_parameter_eng02_W.pdf) — pp6,8–11 document duplicate FX1/FX2 selection, pitch algorithms and Harmonist/Pedal Bend single-note limits; no pitch CPU percentage. (opened manufacturer PDF; text_only).
+- [BOSS GT-1 Owner Manual eng03](https://static.roland.com/assets/media/pdf/GT-1_eng03_W.pdf) — pp4,6 document protected/writable memory split and WRITE procedure/loss of unsaved edits. (opened manufacturer PDF; text_only).
+
+<!-- firmware-pitch:BOSS::GT-1 ends -->
+
 Consolidated and refreshed **2026-10-16**; partial technical verification. Original dates, prices and limitations remain below. Historical next-model notes are provenance; use research-state.json for the current queue.
 
 <!-- BOSS-GT-1 source begins -->

@@ -182015,10 +182015,86 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GT-1": {
+        "model_key": "BOSS::GT-1",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2016-09-09",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2016/BOSS-ANNOUNCES-GT-1-GUITAR-EFFECTS-PROCESSOR/"
+          ],
+          "note": "Dated manufacturer introduction says just released; used as announcement proxy, not universal first-shipment evidence."
+        },
+        "firmware": {
+          "version": "1.09",
+          "date": "2021-12",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gt-1/updates_drivers/076a30a8-a319-4891-94e4-ef0bb08451e5/",
+            "https://www.boss.info/global/products/gt-1/"
+          ],
+          "note": "Current product links1.09; history dates it DEC2021. Manufacturer says management-related version change with specifications unaffected. Last listed functional fixes are1.08 MAR2018;1.07 JUN2017 fixed delayed pitch-shift output after patch changes. The elapsed version-release span does not imply5 years of feature additions. Exact day and installed version unverified."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shifter ±24 semitones, Octave (one/two octaves down), Overtone (upper/lower harmonics and detune), Harmonist and Pedal Bend. Harmonist and Pedal Bend explicitly require single notes; audio note-polyphony of the other pitch algorithms is not specified in checked sections.",
+          "preset": "99 writable User and99 protected Preset patches. EXIT+ENTER opens WRITE utility; select destination U01–U99 and confirm. Unsaved edits are lost on patch change/power-off.",
+          "dsp": "Pitch algorithms are choices in FX1/FX2; the guide explicitly allows the same effect in both slots. Pedal FX separately chooses Wah or Pedal Bend. No per-pitch CPU percentage or shared DSP-budget meter is documented.",
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/GT-1_parameter_eng02_W.pdf",
+            "https://static.roland.com/assets/media/pdf/GT-1_eng03_W.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Channel-format icons describe mono/stereo audio, not simultaneous-note handling.",
+            "The1.07 patch-switch pitch-output bug fix is not a DSP-utilization benchmark."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2016/BOSS-ANNOUNCES-GT-1-GUITAR-EFFECTS-PROCESSOR/",
+            "title": "Roland/BOSS GT-1 introduction, September9 2016",
+            "access": "opened",
+            "evidence": "Dated GT-1 introduction; announcement proxy only."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-1/updates_drivers/076a30a8-a319-4891-94e4-ef0bb08451e5/",
+            "title": "BOSS GT-1 System Program1.09 history",
+            "access": "opened",
+            "evidence": "DEC2021 management-only1.09, MAR2018 fixes1.08 and JUN2017 pitch-output patch-switch fix1.07."
+          },
+          {
+            "url": "https://www.boss.info/global/products/gt-1/",
+            "title": "BOSS GT-1 current product/support",
+            "access": "opened",
+            "evidence": "Links System Program1.09 separately from drivers/editors;99+99 patch capacity."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/GT-1_parameter_eng02_W.pdf",
+            "title": "BOSS GT-1 Parameter Guide eng02",
+            "access": "opened manufacturer PDF; text_only",
+            "evidence": "pp6,8–11 document duplicate FX1/FX2 selection, pitch algorithms and Harmonist/Pedal Bend single-note limits; no pitch CPU percentage."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/GT-1_eng03_W.pdf",
+            "title": "BOSS GT-1 Owner Manual eng03",
+            "access": "opened manufacturer PDF; text_only",
+            "evidence": "pp4,6 document protected/writable memory split and WRITE procedure/loss of unsaved edits."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1909,
+          "maximum_days": 1939,
+          "label": "5.23–5.31 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GT-1",
       "BOSS::GT-10",
       "BOSS::GT-100",
       "BOSS::GT-1000",
@@ -182388,12 +182464,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 34,
-    "last_model": "BOSS::GT-001",
-    "last_commit_parent": "ede6fe93cf3a7141227adfd138f7702d80278268",
+    "completed_model_count": 35,
+    "last_model": "BOSS::GT-1",
+    "last_commit_parent": "2b5eba801902c225cde29417ab29f32d9bd3e301",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GT-1",
       "BOSS::GT-10",
       "BOSS::GT-100",
       "BOSS::GT-1000",
@@ -182762,7 +182837,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 34,
+    "pitch_completed_model_count": 35,
     "supplemental_model_count": 0
   }
 }
