@@ -342,6 +342,30 @@ All model-specific information,price/source caveats and URLs from original Arena
 
 ## Triple Threat
 
+<!-- firmware-pitch:Donner::Triple Threat begins -->
+### Firmware and pitch audit — Donner Triple Threat
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-01-25 (manufacturer launch announcement proxy). Dated collaboration launch announcement; exact first customer shipment unverified. Rev01 September 2023 manual date is not hardware launch. [launch 1](https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat) |
+| Firmware / latest verification | Not verified — No public firmware located. Fixed distortion/phaser/echo pedal marketed as analog; no user firmware/updater or release history documented in checked manufacturer material. No update duration, and no unsupported 0-year span assigned. [firmware 1](https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat) [firmware 2](https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal) [firmware 3](https://manuals.plus/m/db7410b48c993c1e6d073b4b15c9a03eedc23e66bdc640daa6d30aaa9f0897a1) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Documented effects are distortion, phaser and echo; no transpose, octave, harmony or pedal pitch-bend algorithm documented. Polyphonic pitch tracking is not a feature established by these sources. [pitch 1](https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat) [pitch 2](https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal) [pitch 3](https://manuals.plus/m/db7410b48c993c1e6d073b4b15c9a03eedc23e66bdc640daa6d30aaa9f0897a1) |
+| Pitch / preset recall | Nine physical effect knobs and individual module switches; no stored preset recall documented. On/off LEDs do not establish preset memory. |
+| Pitch / DSP resources | Three fixed effect stages; no selectable pitch algorithm or pitch DSP cost documented. Manufacturer analog description does not justify inventing processor utilization. |
+| Pitch / qualifications | Phaser changes phase and echo repeats audio; these names alone do not establish musical pitch shifting. Standard black/limited yellow appearance variants are not separate firmware families. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Third Man Hardware Triple Threat launch](https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat) — January 25, 2024 launch; distortion → phaser → echo; nine knobs, individual switches and yellow active LEDs. (Direct collaboration manufacturer announcement).
+- [Donner Triple Threat official product](https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal) — Three fixed effects and analog marketing; no pitch algorithm/updater documented. (Direct manufacturer product HTML).
+- [Triple Threat Rev01 manual transcription](https://manuals.plus/m/db7410b48c993c1e6d073b4b15c9a03eedc23e66bdc640daa6d30aaa9f0897a1) — Original control descriptions match three effects; Rev01 September 2023 is document date, not firmware or hardware release. (Manufacturer manual text mirrored; original PDF cache miss; generated diagram paragraph excluded).
+
+<!-- firmware-pitch:Donner::Triple Threat ends -->
+
 Checked **2026-10-17**. Partial guitar multi-effects record; bass/vocal suitability unverified. Collaboration branding does not establish ownership.
 
 | Field | Evidence / remaining gaps |

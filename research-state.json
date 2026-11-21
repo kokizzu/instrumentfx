@@ -186471,10 +186471,71 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Donner::Triple Threat": {
+        "model_key": "Donner::Triple Threat",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2024-01-25",
+          "precision": "day",
+          "kind": "manufacturer launch announcement proxy",
+          "source_urls": [
+            "https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat"
+          ],
+          "note": "Dated collaboration launch announcement; exact first customer shipment unverified. Rev01 September 2023 manual date is not hardware launch."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat",
+            "https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal",
+            "https://manuals.plus/m/db7410b48c993c1e6d073b4b15c9a03eedc23e66bdc640daa6d30aaa9f0897a1"
+          ],
+          "note": "Fixed distortion/phaser/echo pedal marketed as analog; no user firmware/updater or release history documented in checked manufacturer material. No update duration, and no unsupported 0-year span assigned."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Documented effects are distortion, phaser and echo; no transpose, octave, harmony or pedal pitch-bend algorithm documented. Polyphonic pitch tracking is not a feature established by these sources.",
+          "preset": "Nine physical effect knobs and individual module switches; no stored preset recall documented. On/off LEDs do not establish preset memory.",
+          "dsp": "Three fixed effect stages; no selectable pitch algorithm or pitch DSP cost documented. Manufacturer analog description does not justify inventing processor utilization.",
+          "source_urls": [
+            "https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat",
+            "https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal",
+            "https://manuals.plus/m/db7410b48c993c1e6d073b4b15c9a03eedc23e66bdc640daa6d30aaa9f0897a1"
+          ],
+          "measurements": [],
+          "notes": [
+            "Phaser changes phase and echo repeats audio; these names alone do not establish musical pitch shifting. Standard black/limited yellow appearance variants are not separate firmware families."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat",
+            "title": "Third Man Hardware Triple Threat launch",
+            "access": "Direct collaboration manufacturer announcement",
+            "evidence": "January 25, 2024 launch; distortion → phaser → echo; nine knobs, individual switches and yellow active LEDs."
+          },
+          {
+            "url": "https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal",
+            "title": "Donner Triple Threat official product",
+            "access": "Direct manufacturer product HTML",
+            "evidence": "Three fixed effects and analog marketing; no pitch algorithm/updater documented."
+          },
+          {
+            "url": "https://manuals.plus/m/db7410b48c993c1e6d073b4b15c9a03eedc23e66bdc640daa6d30aaa9f0897a1",
+            "title": "Triple Threat Rev01 manual transcription",
+            "access": "Manufacturer manual text mirrored; original PDF cache miss; generated diagram paragraph excluded",
+            "evidence": "Original control descriptions match three effects; Rev01 September 2023 is document date, not firmware or hardware release."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Donner::Triple Threat",
       "EROK::MP-10",
       "EROK::MP-20",
       "EROK::Pocket Sonic",
@@ -186783,12 +186844,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 95,
-    "last_model": "Donner::Arena2000",
-    "last_commit_parent": "2a7bfb8e926042d39f44586a0a247268fc57db91",
+    "completed_model_count": 96,
+    "last_model": "Donner::Triple Threat",
+    "last_commit_parent": "288a963511a449d1a7a0035106c56a7aa6350447",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Donner::Triple Threat",
       "EROK::MP-10",
       "EROK::MP-20",
       "EROK::Pocket Sonic",
@@ -187096,7 +187156,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 95,
+    "pitch_completed_model_count": 96,
     "supplemental_model_count": 0
   },
   "model_images": {
