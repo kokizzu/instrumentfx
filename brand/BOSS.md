@@ -6877,6 +6877,30 @@ Dedicated stereo-mini headphones have an independent0–99 level,default50. Memo
 
 ## VE-20
 
+<!-- firmware-pitch:BOSS::VE-20 begins -->
+### Firmware and pitch audit — BOSS VE-20
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2009-09-01 (manufacturer announcement proxy). Manufacturer announcement; planned November 2009 availability. Exact first retail shipment unverified. [launch 1](https://cdn.roland.com/assets/media/pdf/BOSS_VE-20_Press_Release.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. Model support index lists English/Chinese manuals, not a device system program; targeted manufacturer search found other devices, not a VE-20 firmware release. Updates URL inaccessible. ROM version/date and elapsed update span unknown; internal revisions not ruled out. [firmware 1](https://www.boss.info/global/support/by_product/ve-20/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Two added Double/Harmony parts: double, unison or key-based intervals within ±1 octave. Pitch Correct offers Soft, Hard, Electric and Robot; chromatic or major/minor correction, octave and gender parameters. Checked manual does not explicitly establish input-note polyphony. [pitch 1](https://static.roland.com/assets/media/pdf/VE-20_OM.pdf) |
+| Pitch / preset recall | 30 read-only preset sounds (01–30) plus 50 writable user sounds (31–80). Edited presets must be stored as user sounds. |
+| Pitch / DSP resources | Six independently switchable stages: Dynamics, Pitch Correct, Tone/SFX, Double/Harmony, Delay and Reverb. Two harmony parts share Double/Harmony; no freely allocated pitch slots or CPU percentage published in checked material. |
+| Pitch / qualifications | Two generated harmony parts do not prove polyphonic input tracking. No VE-2 single-singer restriction transferred without model-specific evidence. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS announces VE-20 Vocal Performer](https://cdn.roland.com/assets/media/pdf/BOSS_VE-20_Press_Release.pdf) — September 1, 2009 announcement, planned November availability and vocal effect overview. (Manufacturer indexed press-release PDF).
+- [VE-20 support](https://www.boss.info/global/support/by_product/ve-20/) — English/Chinese manuals shown; no system-program entry. (Manufacturer current support index web text).
+- [BOSS VE-20 Owner Manual](https://static.roland.com/assets/media/pdf/VE-20_OM.pdf) — Pages 10–11: six stages, two harmony parts, 30 presets/50 user sounds; page 18: correction modes, key-based harmony, octave/gender parameters. (Manufacturer PDF web text).
+
+<!-- firmware-pitch:BOSS::VE-20 ends -->
+
 Vocal multi-effects;manufacturer page marks discontinued. Consolidated/researched2026-10-16;partial verification.
 
 ### VE-20 — preserved original comparison

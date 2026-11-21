@@ -184475,10 +184475,67 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::VE-20": {
+        "model_key": "BOSS::VE-20",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2009-09-01",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/BOSS_VE-20_Press_Release.pdf"
+          ],
+          "note": "Manufacturer announcement; planned November 2009 availability. Exact first retail shipment unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/ve-20/"
+          ],
+          "note": "Model support index lists English/Chinese manuals, not a device system program; targeted manufacturer search found other devices, not a VE-20 firmware release. Updates URL inaccessible. ROM version/date and elapsed update span unknown; internal revisions not ruled out."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Two added Double/Harmony parts: double, unison or key-based intervals within ±1 octave. Pitch Correct offers Soft, Hard, Electric and Robot; chromatic or major/minor correction, octave and gender parameters. Checked manual does not explicitly establish input-note polyphony.",
+          "preset": "30 read-only preset sounds (01–30) plus 50 writable user sounds (31–80). Edited presets must be stored as user sounds.",
+          "dsp": "Six independently switchable stages: Dynamics, Pitch Correct, Tone/SFX, Double/Harmony, Delay and Reverb. Two harmony parts share Double/Harmony; no freely allocated pitch slots or CPU percentage published in checked material.",
+          "measurements": [],
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/VE-20_OM.pdf"
+          ],
+          "notes": [
+            "Two generated harmony parts do not prove polyphonic input tracking. No VE-2 single-singer restriction transferred without model-specific evidence."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/BOSS_VE-20_Press_Release.pdf",
+            "title": "BOSS announces VE-20 Vocal Performer",
+            "access": "Manufacturer indexed press-release PDF",
+            "evidence": "September 1, 2009 announcement, planned November availability and vocal effect overview."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/ve-20/",
+            "title": "VE-20 support",
+            "access": "Manufacturer current support index web text",
+            "evidence": "English/Chinese manuals shown; no system-program entry."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/VE-20_OM.pdf",
+            "title": "BOSS VE-20 Owner Manual",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Pages 10–11: six stages, two harmony parts, 30 presets/50 user sounds; page 18: correction modes, key-based harmony, octave/gender parameters."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::VE-20",
       "BOSS::VE-22",
       "BOSS::VE-5",
       "BOSS::VE-500",
@@ -184815,12 +184872,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 67,
-    "last_model": "BOSS::VE-2",
-    "last_commit_parent": "e65fb2b8f36a214e7ebca52e3c2ff32bb6d0b30b",
+    "completed_model_count": 68,
+    "last_model": "BOSS::VE-20",
+    "last_commit_parent": "5d4144270ffd7f04aa1f2907ca9566d75b6d369a",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::VE-20",
       "BOSS::VE-22",
       "BOSS::VE-5",
       "BOSS::VE-500",
@@ -185156,7 +185212,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 67,
+    "pitch_completed_model_count": 68,
     "supplemental_model_count": 0
   }
 }
