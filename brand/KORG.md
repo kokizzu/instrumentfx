@@ -447,6 +447,30 @@ Checked2026-11-05 against original manufacturer EFG1 manual,printed13,52,54. Rev
 
 ## AX5G
 
+<!-- firmware-pitch:Korg::AX5G begins -->
+### Firmware and pitch audit — Korg AX5G
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2006-08 (announced US availability proxy). August 2, 2006 announcement schedules AX5G and AX5B for August 2006 with US pricing. Scheduled US availability proxy; first actual shipment and earliest worldwide sale unconfirmed. [launch 1](https://www.harmonycentral.com/news/uncategorized/toneworks-expands-line-of-modeling-signal-processors-with-the-ax5g-and-ax5b-r19857/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model support page lists Owner’s Manual and Easy Start Guide only, both uploaded June 1, 2015. No public firmware package or device changelog located; manual dates do not establish a firmware update. Span uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/35/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD F7 PITCH SHIFTER lists −12…+12, separate effect/direct levels, FINE −15…+15 and TRACKING 1…10. Pitch is starred as pedal-assignable. Fine units and polyphonic input handling are not stated in this chart; AX3G two-octave prose is not transferred. [pitch 1](https://cdn.korg.com/us/support/download/files/fbe8655e2b64942cfb5073f5a39aa69f.pdf?response-content-disposition=inline%3Bfilename%3DAX5G_OM_EFG2.pdf&response-content-type=application%2Fpdf%3B) |
+| Pitch / preset recall | 40 user plus 40 factory programs; user programs store edited effects and pedal target. Factory preset 60 *ICE* assigns the pedal to MOD PITCH. WAH/FX PARAM keeps recalled sound until pedal movement; hardware recall untested. |
+| Pitch / DSP resources | PITCH SHIFTER uses the single MOD choice, replacing other MOD effects. Six simultaneous effects including noise reduction, plus volume pedal, is the chain allowance. No numerical pitch CPU cost located. |
+| Pitch / qualifications | No tracking, latency or CPU measurements. Exact AX5G documentation is used independently of AX3G and AX5B. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [ToneWorks AX5G/AX5B announcement — August 2, 2006](https://www.harmonycentral.com/news/uncategorized/toneworks-expands-line-of-modeling-signal-processors-with-the-ax5g-and-ax5b-r19857/) — August 2006 announced US availability, qualified as a proxy. (Contemporaneous product announcement read).
+- [Korg AX5G support downloads](https://www.korg.com/us/support/download/product/1/35/) — Only two manuals dated June 1, 2015; no firmware listed. (Manufacturer exact-model page read).
+- [AX5G Owner’s Manual EFG2](https://cdn.korg.com/us/support/download/files/fbe8655e2b64942cfb5073f5a39aa69f.pdf?response-content-disposition=inline%3Bfilename%3DAX5G_OM_EFG2.pdf&response-content-type=application%2Fpdf%3B) — Memory, six-effect allowance, MOD PITCH range, starred assignment, preset 60 and pedal recall behavior. (Manufacturer original PDF text and appendix read).
+
+<!-- firmware-pitch:Korg::AX5G ends -->
+
 Guitar multi-effects; distinct from AX3G, AX100G and AX5B. Checked 2026-10-17; partial. Discontinued in Korg regional catalogue. Bass/vocal classification unverified.
 
 | Field | Finding / qualification | Evidence |
