@@ -182783,10 +182783,90 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GT-Pro": {
+        "model_key": "BOSS::GT-Pro",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2005",
+          "precision": "year",
+          "kind": "manufacturer_release_year",
+          "source_urls": [
+            "https://www.roland.com/jp/support/service_repair/1708080000/"
+          ],
+          "note": "Manufacturer Japanese service table lists release2005 and manufacturing completion2010. No exact worldwide launch day/month verified; manufacturing completion is not a firmware date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gt-pro/updates_drivers/",
+            "https://www.boss.info/jp/support/by_product/gt-pro/updates_drivers/"
+          ],
+          "note": "Exact-model global and Japanese indexes list editors and USB drivers, with no public device system program/history located. Latest ROM version/date remain unverified. Editor1.00 and USB-driver versions including1.2.1 are not device firmware."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Pitch Shifter ±24 semitones: Fast/Medium/Slow explicitly accept chords; slower response reduces modulation. Mono takes single notes. Harmonist is separate scale-based shifting and disallows chords. Pedal Bend and Octave are further FX-2 choices; no whole-chord scale-harmony claim.",
+          "preset": "200 writable user plus200 protected preset patches. Original manual p24: Patch Write stores edited parameters in a chosen user location, replacing its previous sound. Quick Settings are not extra processing instances.",
+          "dsp": "Pitch Shifter, Harmonist, Pedal Bend and Octave are FX-2-only choices, not interchangeable pitch instances in FX1. Overall count conflict retained: global description says15 blocks; Japanese specification says13. No established counting reconciliation or pitch-specific CPU percentage.",
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+            "https://www.boss.info/global/products/gt-pro/",
+            "https://www.boss.info/jp/products/gt-pro/support/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer-indexed original manual pp24,45–46 supplies patch storage, FX2 scope and mode-specific chord handling. No full new PDF inspection or local download claimed.",
+            "One/two generated pitch voices and mono/stereo output do not establish simultaneous-note input polyphony.",
+            "No installed firmware, audio latency or hardware tracking quality verified."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/jp/support/service_repair/1708080000/",
+            "title": "Roland Japanese release/manufacturing-year table",
+            "access": "opened",
+            "evidence": "GT-PRO release2005, manufacturing completion2010."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-pro/updates_drivers/",
+            "title": "BOSS GT-Pro global Updates & Drivers",
+            "access": "opened",
+            "evidence": "Editor and USB-driver software; no public system program located."
+          },
+          {
+            "url": "https://www.boss.info/jp/support/by_product/gt-pro/updates_drivers/",
+            "title": "BOSS GT-Pro Japanese Updates & Drivers",
+            "access": "opened",
+            "evidence": "Editors1.00 and driver packages, not device firmware."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+            "title": "BOSS GT-PRO original owner manual",
+            "access": "indexed_manufacturer_pdf_text",
+            "evidence": "p24 Patch Write; p45FX2-only pitch choices and Harmonist single-note restriction; p46±24 pitch shifts, chord-capable Fast/Medium/Slow and single-note Mono."
+          },
+          {
+            "url": "https://www.boss.info/global/products/gt-pro/",
+            "title": "BOSS GT-Pro global product/specifications",
+            "access": "opened",
+            "evidence": "200user+200preset;15-block descriptive claim."
+          },
+          {
+            "url": "https://www.boss.info/jp/products/gt-pro/support/",
+            "title": "BOSS GT-Pro Japanese product/specifications",
+            "access": "opened",
+            "evidence": "Specification gives13 simultaneous effects; count discrepancy retained, not converted to DSP cost."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GT-Pro",
       "BOSS::GX-1",
       "BOSS::GX-10",
       "BOSS::GX-100",
@@ -183146,12 +183226,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 44,
-    "last_model": "BOSS::GT-8",
-    "last_commit_parent": "7ca51194f59422fd790f8740767de73f99db5d1e",
+    "completed_model_count": 45,
+    "last_model": "BOSS::GT-Pro",
+    "last_commit_parent": "c92e778d7b6948ca73f207284b61e1416100a10a",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GT-Pro",
       "BOSS::GX-1",
       "BOSS::GX-10",
       "BOSS::GX-100",
@@ -183510,7 +183589,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 44,
+    "pitch_completed_model_count": 45,
     "supplemental_model_count": 0
   }
 }

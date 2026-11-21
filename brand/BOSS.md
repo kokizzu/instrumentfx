@@ -2706,6 +2706,33 @@ The [separate Mac USBdriver1.0.3 entry](https://www.boss.info/global/support/by_
 
 ## GT-Pro
 
+<!-- firmware-pitch:BOSS::GT-Pro begins -->
+### Firmware and pitch audit — BOSS GT-Pro
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005 (manufacturer release year). Manufacturer Japanese service table lists release2005 and manufacturing completion2010. No exact worldwide launch day/month verified; manufacturing completion is not a firmware date. [launch 1](https://www.roland.com/jp/support/service_repair/1708080000/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model global and Japanese indexes list editors and USB drivers, with no public device system program/history located. Latest ROM version/date remain unverified. Editor1.00 and USB-driver versions including1.2.1 are not device firmware. [firmware 1](https://www.boss.info/global/support/by_product/gt-pro/updates_drivers/) [firmware 2](https://www.boss.info/jp/support/by_product/gt-pro/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Pitch Shifter ±24 semitones: Fast/Medium/Slow explicitly accept chords; slower response reduces modulation. Mono takes single notes. Harmonist is separate scale-based shifting and disallows chords. Pedal Bend and Octave are further FX-2 choices; no whole-chord scale-harmony claim. [pitch 1](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf) [pitch 2](https://www.boss.info/global/products/gt-pro/) [pitch 3](https://www.boss.info/jp/products/gt-pro/support/) |
+| Pitch / preset recall | 200 writable user plus200 protected preset patches. Original manual p24: Patch Write stores edited parameters in a chosen user location, replacing its previous sound. Quick Settings are not extra processing instances. |
+| Pitch / DSP resources | Pitch Shifter, Harmonist, Pedal Bend and Octave are FX-2-only choices, not interchangeable pitch instances in FX1. Overall count conflict retained: global description says15 blocks; Japanese specification says13. No established counting reconciliation or pitch-specific CPU percentage. |
+| Pitch / qualifications | Manufacturer-indexed original manual pp24,45–46 supplies patch storage, FX2 scope and mode-specific chord handling. No full new PDF inspection or local download claimed. One/two generated pitch voices and mono/stereo output do not establish simultaneous-note input polyphony. No installed firmware, audio latency or hardware tracking quality verified. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland Japanese release/manufacturing-year table](https://www.roland.com/jp/support/service_repair/1708080000/) — GT-PRO release2005, manufacturing completion2010. (opened).
+- [BOSS GT-Pro global Updates & Drivers](https://www.boss.info/global/support/by_product/gt-pro/updates_drivers/) — Editor and USB-driver software; no public system program located. (opened).
+- [BOSS GT-Pro Japanese Updates & Drivers](https://www.boss.info/jp/support/by_product/gt-pro/updates_drivers/) — Editors1.00 and driver packages, not device firmware. (opened).
+- [BOSS GT-PRO original owner manual](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf) — p24 Patch Write; p45FX2-only pitch choices and Harmonist single-note restriction; p46±24 pitch shifts, chord-capable Fast/Medium/Slow and single-note Mono. (indexed_manufacturer_pdf_text).
+- [BOSS GT-Pro global product/specifications](https://www.boss.info/global/products/gt-pro/) — 200user+200preset;15-block descriptive claim. (opened).
+- [BOSS GT-Pro Japanese product/specifications](https://www.boss.info/jp/products/gt-pro/support/) — Specification gives13 simultaneous effects; count discrepancy retained, not converted to DSP cost. (opened).
+
+<!-- firmware-pitch:BOSS::GT-Pro ends -->
+
 Current comparison summary, reviewed 2026-10-28. Discontinued rack guitar multi-effects; ownership and bass/vocal suitability remain unverified. Detailed dated sources, earlier summaries and contradictions are retained below. The comparison uses this summary rather than concatenating every historical parameter table.
 
 <!-- comparison evidence begins -->
