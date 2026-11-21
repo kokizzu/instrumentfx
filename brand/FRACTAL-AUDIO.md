@@ -428,6 +428,31 @@ Original controller remains outside active processor counts. Global volume assig
 
 ## FM3 MKII Turbo
 
+<!-- firmware-pitch:Fractal Audio::FM3 MKII Turbo begins -->
+### Firmware and pitch audit — Fractal Audio FM3 MKII Turbo
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-07 (manufacturer release month). Manufacturer explicitly identifies July 2023 release of Mark II Turbo; original FM3 launch is not substituted. Exact shipment day not established. [launch 1](https://www.fractalaudio.com/fm3) |
+| Firmware / latest verification | 13.0 — Latest verified. Current manufacturer downloads explicitly names compatibility with FM3 Original and FM3 Mark II Turbo. November 2026 driver date is separate. No update installation or installed-version check. [firmware 1](https://www.fractalaudio.com/fm3-downloads/) |
+| Firmware / release date | 2026-07-16 (day precision) |
+| Firmware / release-to-update duration | 2.96–3.04 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Virtual Capo is documented polyphonic, ±24 semitones. Dedicated Pitch also includes detune, chromatic/intelligent/custom harmony, whammy and octave modes; polyphony is mode-specific. Current Blocks Guide permits one Pitch instance for FM3. FM3 Reverb excludes integrated pitch shifting; Plex pitch effects are separate. [pitch 1](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) [pitch 2](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) [pitch 3](https://www.fractalaudio.com/fm3) |
+| Pitch / preset recall | 512 writable preset locations, eight scenes per preset and up to four channels per block; Pitch settings/subtypes can be recalled by channel/scene. Hardware switching not tested. |
+| Pitch / DSP resources | Single Pitch block shares available grid/CPU resources. No verified Virtual Capo CPU percentage located. Own firmware-7.x manual covering both variants specifies approximately 80% maximum load; excess mutes processing and unsafe block insertions are prevented. Manufacturer advertises over 10% more DSP for MKII Turbo, which is a hardware-capacity comparison, not pitch cost. |
+| Pitch / qualifications | No measured tracking, latency or CPU benchmark. Manual CPU policy is revision-qualified, not a firmware-13.0 measurement. No VP4/AM4 resource percentages transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [FM3 MKII Turbo manufacturer overview](https://www.fractalaudio.com/fm3) — Mark II Turbo released July 2023; over 10% additional DSP relative to original. (Manufacturer page read).
+- [FM3 downloads](https://www.fractalaudio.com/fm3-downloads/) — Firmware13.0 dated July16,2026 explicitly compatible with Original and Mark II Turbo. (Manufacturer current page read).
+- [FM3 Owner’s Manual for firmware7.x](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) — Cover includes Standard and Mark II Turbo. 512 presets, scenes/channels and approximately80% CPU ceiling with muting safeguard. (Manufacturer PDF text read; cover and printedpp2,41,50).
+- [Fractal Audio Blocks Guide, November2026](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) — FM3 one Pitch block; polyphonic Virtual Capo ±24 semitones; Reverb pitch exclusion specific to FM3. (Manufacturer original PDF text read, pp3,76–86,95).
+
+<!-- firmware-pitch:Fractal Audio::FM3 MKII Turbo ends -->
+
 Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; original FM3 offers are not merged. Manufacturer's 7.x manual expressly covers both revisions; current firmware listing is newer. Unknown means unverified.
 
 | Required field | Evidence / qualification |
