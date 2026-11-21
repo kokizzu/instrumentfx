@@ -194338,11 +194338,35 @@
             "sha256": "efa7dc5ad1053446694b78e7ed0cb000ad65ca2b246850d947c2a0fbb8ae6a8d"
           }
         }
+      },
+      "Fractal Audio::FM9 original": {
+        "model_key": "Fractal Audio::FM9 original",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://cdn.mos.cms.futurecdn.net/y9wmu5kaikcvuagLmN4mXa.jpg",
+            "source_url": "https://www.guitarworld.com/news/fractal-audio-fm9",
+            "caption": "Original FM9 — powered-on top view",
+            "note": "Manufacturer-credited photograph in Guitar World’s August27,2021 launch article, predating both Turbo variants. Straight top view shows the original panel label, nine smaller illuminated mini-displays and colored switch rings. Promotional screen text is not evidence of present firmware or factory contents.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "cf438d3dfbf3f4da2f85d66a8d82f6a248a48baf43311c74ac7397a7192fb5dc"
+          },
+          "rear": {
+            "image_url": "https://cdn.mos.cms.futurecdn.net/L6YGKMoDaUz7yqCyftT5Gf.jpg",
+            "source_url": "https://www.guitarworld.com/news/fractal-audio-fm9",
+            "caption": "Original FM9 — rear connections",
+            "note": "Manufacturer-credited rear photograph in the same original-model launch article. Visible: instrument IN1, stereo balanced IN2/IN3, OUT1 XLR and quarter-inch, OUT2 XLR, OUT3 quarter-inch, ground lifts, phones, PDL1–3, FASLINK II, S/PDIF in/out, USB-B, MIDI in/out-thru and AC inlet/switch. Small power print is soft; no precise electrical rating inferred.",
+            "visual_checked": true,
+            "sha256": "aa6ebf7068391b2166b09bc181d9440f82afc64ad415f6a6a16a69c75c57e787"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Fractal Audio::FM9 MKII Turbo"
+    "last_model": "Fractal Audio::FM9 original"
   }
 }

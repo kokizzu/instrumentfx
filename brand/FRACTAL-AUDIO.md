@@ -2436,6 +2436,26 @@ Sources checked:
 
 <!-- firmware-pitch:Fractal Audio::FM9 original ends -->
 
+<!-- model-images:Fractal Audio::FM9 original begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Original FM9 — powered-on top view**
+
+[![Original FM9 — powered-on top view](https://cdn.mos.cms.futurecdn.net/y9wmu5kaikcvuagLmN4mXa.jpg)](https://cdn.mos.cms.futurecdn.net/y9wmu5kaikcvuagLmN4mXa.jpg)
+
+[Image source](https://www.guitarworld.com/news/fractal-audio-fm9). Manufacturer-credited photograph in Guitar World’s August27,2021 launch article, predating both Turbo variants. Straight top view shows the original panel label, nine smaller illuminated mini-displays and colored switch rings. Promotional screen text is not evidence of present firmware or factory contents.
+
+**Original FM9 — rear connections**
+
+[![Original FM9 — rear connections](https://cdn.mos.cms.futurecdn.net/L6YGKMoDaUz7yqCyftT5Gf.jpg)](https://cdn.mos.cms.futurecdn.net/L6YGKMoDaUz7yqCyftT5Gf.jpg)
+
+[Image source](https://www.guitarworld.com/news/fractal-audio-fm9). Manufacturer-credited rear photograph in the same original-model launch article. Visible: instrument IN1, stereo balanced IN2/IN3, OUT1 XLR and quarter-inch, OUT2 XLR, OUT3 quarter-inch, ground lifts, phones, PDL1–3, FASLINK II, S/PDIF in/out, USB-B, MIDI in/out-thru and AC inlet/switch. Small power print is soft; no precise electrical rating inferred.
+
+</details>
+<!-- model-images:Fractal Audio::FM9 original ends -->
+
+
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from Turbo and MKII Turbo. Not fully verified; no ownership or live-stock assertion. The complete discovery body follows under its old anchor. Earlier outside-inventory statements are historical checkpoints, not the current admission status.
 
 <!-- comparison evidence begins -->
