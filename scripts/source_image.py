@@ -23,9 +23,14 @@ HOSTS = {'audota.com', 'www.audota.com', 'en.audota.com', 'www.fractalaudio.com'
          'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 
+# Exact retailer-hosted manufacturer manual linked by the BG300 distributor.
+REVIEWED_MIRRORS = {
+    'https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191',
+}
+
 def check_url(url):
     parsed = urllib.parse.urlsplit(url)
-    if (parsed.scheme != 'https' or parsed.hostname not in HOSTS
+    if (parsed.scheme != 'https' or (parsed.hostname not in HOSTS and url not in REVIEWED_MIRRORS)
             or parsed.username or parsed.password or parsed.port not in (None, 443)):
         raise ValueError('Expected an HTTPS reviewed visual-source URL')
     return url
@@ -375,6 +380,15 @@ def test():
     check_url('https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf')
     check_url('https://www.fmicassets.com/Damroot/Original/example.pdf')
     check_url('https://zoomcorp.com/media/example.jpg')
+    check_url('https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191')
+    for bad in ('https://cdn.shopify.com/other.pdf',
+                'https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=other'):
+        try:
+            check_url(bad)
+        except ValueError:
+            pass
+        else:
+            raise AssertionError('Unreviewed retailer mirror accepted')
     assert source_path('https://zoomcorp.com/a.jpg') == IMAGE
     assert source_path('https://cdn.rockboard.de/a.pdf?revision=1').suffix == '.pdf'
     for bad in (b'<html>error</html>', b'\xff\xd8\xff' + bytes(LIMIT)):

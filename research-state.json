@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AME-200%20Pro_Manual_EN.pdf",
+    "requested_url": "https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 64,
+    "frame": 15,
     "text_pages": [
-      62,
-      66
+      10,
+      10
     ],
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",
@@ -181546,10 +181546,79 @@
           "label": "0.80 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Boin Audio::BG300": {
+        "model_key": "Boin Audio::BG300",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.boinaudio.com/en/"
+          ],
+          "note": "Manufacturer names BG200/300/400 but does not date their introduction. Manual creation/filename dates do not prove hardware launch."
+        },
+        "firmware": {
+          "version": "1.1.0 manual profile; 1.1.1 USB-bin filename lead",
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191",
+            "https://boinindonesia.com/products/boin-audio-bg-300",
+            "https://www.boinaudio.com/download/Manual/BG-300_Online%C2%A0Manual_EN_Firmware%20V1.1.0_250804.pdf"
+          ],
+          "note": "Cover expressly identifies firmware 1.1.0. Regional BG300 page links PC Updater Bin named BG-300_USB_V1.1.1_0516.bin; main-processor versus USB-component scope, compatibility and current latest status are unverified. Neither the PDF creation date/250804 filename nor the binary filename/query timestamp establishes a firmware release date. No firmware binary downloaded or installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Firmware-1.1.0 linked-manual profile: FX Detune (cents adjustment and Wet/Dry levels), FX Octa (lower/upper octave and dry levels), plus MOD Vibrato. Note polyphony and numeric detune range are unspecified.",
+          "preset": "50 factory F01–50 plus 50 user P01–50 in the linked manual. Hold VALUE to enter save, select location/name/volume, then hold VALUE again to confirm.",
+          "dsp": "Eight fixed-category modules can run together; Detune and Octa are alternatives in the single FX module, so this profile does not document running both together. No pitch CPU/DSP percentage or meter is documented. Pedal targets Detune amount for Detune, dry level for Octa.",
+          "source_urls": [
+            "https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manual-to-BG300 attribution follows the exact regional product link; the generic Dual-FS Multi-Effects-P cover and existing retailer-versus-manual hardware conflicts remain unresolved.",
+            "Octa pedal control changes dry level; it is not evidence of a Whammy pitch sweep."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.boinaudio.com/en/",
+            "title": "Boin Audio manufacturer: BG-series and download center",
+            "access": "opened",
+            "evidence": "Names BG200/300/400; rendered download section does not expose a dated device release history."
+          },
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191",
+            "title": "BG300-linked Dual-FS Multi-Effects-P manual for firmware 1.1.0",
+            "access": "downloaded; text read and cover/effect/specification pages visually inspected",
+            "evidence": "Cover expressly says firmware1.1.0; p11 Detune/Octa pedal targets, p16 eight simultaneous modules and 50+50 presets; saving pp5–6. SHA256 c0da9dfc450fdde26f05964a09a0f960df47037ea76a68b10889ef3477ce5ebc."
+          },
+          {
+            "url": "https://boinindonesia.com/products/boin-audio-bg-300",
+            "title": "Boin Indonesia exact BG300 product/download listing",
+            "access": "opened; regional product publisher, not an independently verified firmware authority",
+            "evidence": "SKU BG300 directly links the reviewed manual and PC Updater Bin filename BG-300_USB_V1.1.1_0516.bin; no firmware release date or changelog is given."
+          },
+          {
+            "url": "https://www.boinaudio.com/download/Manual/BG-300_Online%C2%A0Manual_EN_Firmware%20V1.1.0_250804.pdf",
+            "title": "Manufacturer-indexed BG300 firmware1.1.0 manual URL",
+            "access": "indexed manufacturer PDF text; direct open returned404",
+            "evidence": "Search index corroborates firmware1.1.0 manual identity; inaccessible direct file is not current firmware-release proof."
+          }
+        ],
+        "notes": [
+          "All pitch and preset findings remain the linked manual profile; no revision equivalence is asserted for every BG300-labelled unit."
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Boin Audio::BG300",
       "BOSS::AD-10",
       "BOSS::AD-2",
       "BOSS::AD-8",
@@ -181926,12 +181995,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 27,
-    "last_model": "Blackstar::ID:X Floor Three",
-    "last_commit_parent": "99522b2a8fab4dde83a6729500581a3ddecd2d0c",
+    "completed_model_count": 28,
+    "last_model": "Boin Audio::BG300",
+    "last_commit_parent": "f585acde94e720238666ae4f9c18094cb5ead2ab",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Boin Audio::BG300",
       "BOSS::AD-10",
       "BOSS::AD-2",
       "BOSS::AD-8",
@@ -182307,7 +182375,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 27,
+    "pitch_completed_model_count": 28,
     "supplemental_model_count": 0
   }
 }

@@ -8,6 +8,33 @@
 
 ## BG300
 
+<!-- firmware-pitch:Boin Audio::BG300 begins -->
+### Firmware and pitch audit — Boin Audio BG300
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer names BG200/300/400 but does not date their introduction. Manual creation/filename dates do not prove hardware launch. [launch 1](https://www.boinaudio.com/en/) |
+| Firmware / latest verification | 1.1.0 manual profile; 1.1.1 USB-bin filename lead — Unverified. Cover expressly identifies firmware 1.1.0. Regional BG300 page links PC Updater Bin named BG-300_USB_V1.1.1_0516.bin; main-processor versus USB-component scope, compatibility and current latest status are unverified. Neither the PDF creation date/250804 filename nor the binary filename/query timestamp establishes a firmware release date. No firmware binary downloaded or installed. [firmware 1](https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191) [firmware 2](https://boinindonesia.com/products/boin-audio-bg-300) [firmware 3](https://www.boinaudio.com/download/Manual/BG-300_Online%C2%A0Manual_EN_Firmware%20V1.1.0_250804.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Firmware-1.1.0 linked-manual profile: FX Detune (cents adjustment and Wet/Dry levels), FX Octa (lower/upper octave and dry levels), plus MOD Vibrato. Note polyphony and numeric detune range are unspecified. [pitch 1](https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191) |
+| Pitch / preset recall | 50 factory F01–50 plus 50 user P01–50 in the linked manual. Hold VALUE to enter save, select location/name/volume, then hold VALUE again to confirm. |
+| Pitch / DSP resources | Eight fixed-category modules can run together; Detune and Octa are alternatives in the single FX module, so this profile does not document running both together. No pitch CPU/DSP percentage or meter is documented. Pedal targets Detune amount for Detune, dry level for Octa. |
+| Pitch / qualifications | Manual-to-BG300 attribution follows the exact regional product link; the generic Dual-FS Multi-Effects-P cover and existing retailer-versus-manual hardware conflicts remain unresolved. Octa pedal control changes dry level; it is not evidence of a Whammy pitch sweep. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+All pitch and preset findings remain the linked manual profile; no revision equivalence is asserted for every BG300-labelled unit.
+
+Sources checked:
+
+- [Boin Audio manufacturer: BG-series and download center](https://www.boinaudio.com/en/) — Names BG200/300/400; rendered download section does not expose a dated device release history. (opened).
+- [BG300-linked Dual-FS Multi-Effects-P manual for firmware 1.1.0](https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191) — Cover expressly says firmware1.1.0; p11 Detune/Octa pedal targets, p16 eight simultaneous modules and 50+50 presets; saving pp5–6. SHA256 c0da9dfc450fdde26f05964a09a0f960df47037ea76a68b10889ef3477ce5ebc. (downloaded; text read and cover/effect/specification pages visually inspected).
+- [Boin Indonesia exact BG300 product/download listing](https://boinindonesia.com/products/boin-audio-bg-300) — SKU BG300 directly links the reviewed manual and PC Updater Bin filename BG-300_USB_V1.1.1_0516.bin; no firmware release date or changelog is given. (opened; regional product publisher, not an independently verified firmware authority).
+- [Manufacturer-indexed BG300 firmware1.1.0 manual URL](https://www.boinaudio.com/download/Manual/BG-300_Online%C2%A0Manual_EN_Firmware%20V1.1.0_250804.pdf) — Search index corroborates firmware1.1.0 manual identity; inaccessible direct file is not current firmware-release proof. (indexed manufacturer PDF text; direct open returned404).
+
+<!-- firmware-pitch:Boin Audio::BG300 ends -->
+
 Consolidated **2026-10-17**. **Revision not established:** the linked firmware1.1.0 manual is a documented profile, not confirmation that every BG300 listing supplies matching hardware. Retailer and manual display/power/port/algorithm conflicts remain open.
 
 <!-- AUDOTA-BG300 source begins -->
