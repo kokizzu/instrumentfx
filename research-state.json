@@ -190308,11 +190308,35 @@
             "sha256": "520b764961cceaefaf28d0fb18d319e2449051dc4d7b654030c75990839c0712"
           }
         }
+      },
+      "IK Multimedia::TONEX ONE": {
+        "model_key": "IK Multimedia::TONEX ONE",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://ikmultimedia.com/cdn/shop/files/TONEX-One-Leds-A1211668.jpg?v=1783342228&width=1100",
+            "source_url": "https://ikmultimedia.com/products/tonexone",
+            "caption": "TONEX ONE powered-on top-down product view",
+            "note": "Manufacturer overhead product rendering with three orange illuminated micro-knobs and green ALT indicator. Four knobs, one ALT button and one footswitch visible; lit rendering is not a physical hardware test. No graphical display or built-in expression treadle.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "51992ad180042b56bc7cb49226c23b17a21132e34ad0037b23386dfc34453e59"
+          },
+          "rear": {
+            "image_url": "https://ikmultimedia.com/cdn/shop/files/tonex_one_points_a50bc6d9-3424-425b-99d6-b8eece7d2cd2.png?v=1783607452&width=2200",
+            "source_url": "https://ikmultimedia.com/products/tonexone",
+            "caption": "TONEX ONE rear, front-edge and side connection diagram",
+            "note": "Manufacturer multi-view rendering explicitly shows rear-edge 9V DC barrel input, opposite/front-edge USB-C and side mono instrument input plus shared TRS mono/stereo/headphone output. Connections are distributed around the enclosure, not all on a rear panel. Annotated rendering, not a hardware photograph; power polarity/current are not visible here and remain sourced to the manual.",
+            "visual_checked": true,
+            "sha256": "62e1458fdba29eca264c21609f26e8a3c7f7cef02008ea1e9ccdb0864150f589"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "HeadRush::VX5"
+    "last_model": "IK Multimedia::TONEX ONE"
   }
 }
