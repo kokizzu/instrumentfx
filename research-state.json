@@ -186153,10 +186153,95 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DK::iE-350": {
+        "model_key": "DK::iE-350",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unknown",
+          "source_urls": [
+            "https://www.dk-music.cn/pd.jsp?id=97"
+          ],
+          "note": "Exact manufacturer product identified, but no dated launch established. Quick-guide filename, FCC dates and DKit support dates are not first hardware release dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.dk-music.cn/col.jsp?id=110",
+            "https://www.manualslib.com/manual/4152133/Dk-Ie-350.html",
+            "https://apps.apple.com/us/app/dkit/id6738170601?platform=ipad"
+          ],
+          "note": "Manufacturer support index lists iE350 macOS/Windows firmware-update resources without version/date. Manual firmware digits do not extract. DKit app releases are separate; latest device firmware and elapsed span unverified. Direct manufacturer routes timed out; indexed support text available."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Detune blends shifted and original sound; Octave separately listed. Exact intervals, detune cents and input polyphony unverified; no general chromatic transpose or key/scale harmony established.",
+          "preset": "50 factory F01–F50 plus 50 user P01–P50 per quick guide; protection and initial user fill unverified.",
+          "dsp": "Eight-module architecture; Detune and Octave are alternatives in FX, excluding each other and other FX choices. Module order can change except fixed DRV/AMP/CAB. No pitch CPU percentage published in checked sources.",
+          "source_urls": [
+            "https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=11",
+            "https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=5",
+            "https://manuals.plus/m/38e7cfbb78de66e80e6ad6f0089b795c878425515e58336188b7095ffd5f0b16"
+          ],
+          "measurements": [],
+          "notes": [
+            "External expression has global-menu targets; no verified continuous pitch-bend assignment or DSP cost derived from NAM import support."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.dk-music.cn/pd.jsp?id=97",
+            "title": "DK iE-350 manufacturer product",
+            "access": "Manufacturer indexed text; direct timeout",
+            "evidence": "Exact model identity; no dated launch."
+          },
+          {
+            "url": "https://www.dk-music.cn/col.jsp?id=110",
+            "title": "DK technical support",
+            "access": "Manufacturer indexed support text; direct timeout",
+            "evidence": "iE350 macOS/Windows updater resources distinct from Android DKit app."
+          },
+          {
+            "url": "https://www.manualslib.com/manual/4152133/Dk-Ie-350.html",
+            "title": "iE-350 User Manual",
+            "access": "Manufacturer-authored 15-page manual mirrored at ManualsLib",
+            "evidence": "Cover firmware digits absent in extracted text; About displays installed firmware, not latest release."
+          },
+          {
+            "url": "https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=11",
+            "title": "iE-350 manual effects list",
+            "access": "Original manual text, contents-link access",
+            "evidence": "Detune and Octave under FX; no ranges/polyphony."
+          },
+          {
+            "url": "https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=5",
+            "title": "iE-350 effect editing",
+            "access": "Original manual text, contents-link access",
+            "evidence": "One effect selected per module; DRV/AMP/CAB cannot move."
+          },
+          {
+            "url": "https://manuals.plus/m/38e7cfbb78de66e80e6ad6f0089b795c878425515e58336188b7095ffd5f0b16",
+            "title": "iE-350 original bilingual quick guide",
+            "access": "Manufacturer guide mirror indexed text and prior canonical evidence",
+            "evidence": "Eight modules and 50 factory/50 user memory; filename not launch evidence."
+          },
+          {
+            "url": "https://apps.apple.com/us/app/dkit/id6738170601?platform=ipad",
+            "title": "DKit manufacturer App Store listing",
+            "access": "Manufacturer-published app listing",
+            "evidence": "Editor app version history, not pedal firmware releases."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DK::iE-350",
       "DK::iE-550",
       "Donner::Arena2000",
       "Donner::Triple Threat",
@@ -186468,12 +186553,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 92,
-    "last_model": "DigiTech::RP90",
-    "last_commit_parent": "2d180d947e43b270b1a1445f7cb022e69da4d447",
+    "completed_model_count": 93,
+    "last_model": "DK::iE-350",
+    "last_commit_parent": "ddf8d124fb239093fc7abcbe52ed0d1952894e37",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DK::iE-350",
       "DK::iE-550",
       "Donner::Arena2000",
       "Donner::Triple Threat",
@@ -186784,7 +186868,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 92,
+    "pitch_completed_model_count": 93,
     "supplemental_model_count": 0
   },
   "model_images": {

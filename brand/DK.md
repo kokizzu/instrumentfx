@@ -11,6 +11,34 @@
 
 ## iE-350
 
+<!-- firmware-pitch:DK::iE-350 begins -->
+### Firmware and pitch audit — DK iE-350
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact manufacturer product identified, but no dated launch established. Quick-guide filename, FCC dates and DKit support dates are not first hardware release dates. [launch 1](https://www.dk-music.cn/pd.jsp?id=97) |
+| Firmware / latest verification | Not verified — Unverified. Manufacturer support index lists iE350 macOS/Windows firmware-update resources without version/date. Manual firmware digits do not extract. DKit app releases are separate; latest device firmware and elapsed span unverified. Direct manufacturer routes timed out; indexed support text available. [firmware 1](https://www.dk-music.cn/col.jsp?id=110) [firmware 2](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html) [firmware 3](https://apps.apple.com/us/app/dkit/id6738170601?platform=ipad) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Detune blends shifted and original sound; Octave separately listed. Exact intervals, detune cents and input polyphony unverified; no general chromatic transpose or key/scale harmony established. [pitch 1](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=11) [pitch 2](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=5) [pitch 3](https://manuals.plus/m/38e7cfbb78de66e80e6ad6f0089b795c878425515e58336188b7095ffd5f0b16) |
+| Pitch / preset recall | 50 factory F01–F50 plus 50 user P01–P50 per quick guide; protection and initial user fill unverified. |
+| Pitch / DSP resources | Eight-module architecture; Detune and Octave are alternatives in FX, excluding each other and other FX choices. Module order can change except fixed DRV/AMP/CAB. No pitch CPU percentage published in checked sources. |
+| Pitch / qualifications | External expression has global-menu targets; no verified continuous pitch-bend assignment or DSP cost derived from NAM import support. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [DK iE-350 manufacturer product](https://www.dk-music.cn/pd.jsp?id=97) — Exact model identity; no dated launch. (Manufacturer indexed text; direct timeout).
+- [DK technical support](https://www.dk-music.cn/col.jsp?id=110) — iE350 macOS/Windows updater resources distinct from Android DKit app. (Manufacturer indexed support text; direct timeout).
+- [iE-350 User Manual](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html) — Cover firmware digits absent in extracted text; About displays installed firmware, not latest release. (Manufacturer-authored 15-page manual mirrored at ManualsLib).
+- [iE-350 manual effects list](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=11) — Detune and Octave under FX; no ranges/polyphony. (Original manual text, contents-link access).
+- [iE-350 effect editing](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=5) — One effect selected per module; DRV/AMP/CAB cannot move. (Original manual text, contents-link access).
+- [iE-350 original bilingual quick guide](https://manuals.plus/m/38e7cfbb78de66e80e6ad6f0089b795c878425515e58336188b7095ffd5f0b16) — Eight modules and 50 factory/50 user memory; filename not launch evidence. (Manufacturer guide mirror indexed text and prior canonical evidence).
+- [DKit manufacturer App Store listing](https://apps.apple.com/us/app/dkit/id6738170601?platform=ipad) — Editor app version history, not pedal firmware releases. (Manufacturer-published app listing).
+
+<!-- firmware-pitch:DK::iE-350 ends -->
+
 Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. Manufacturer product identity and own manual establish inclusion. Shared bass inclusion is supported by its own bass-specific processing library;vocal suitability andownership unverified.
 
 | Field | Evidence / qualification |
