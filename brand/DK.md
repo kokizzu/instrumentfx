@@ -128,6 +128,31 @@ The manual does not expressly promise across-preset/power-cycle persistence in t
 
 ## iE-550
 
+<!-- firmware-pitch:DK::iE-550 begins -->
+### Firmware and pitch audit — DK iE-550
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact manufacturer product identified; no dated hardware launch established. Quick-guide filename, compliance and app dates not adopted as launch. [launch 1](https://www.dk-music.cn/pd.jsp?id=79) |
+| Firmware / latest verification | 1.0.9 — Located; latest status unverified. Manufacturer Chinese index explicitly lists iE-550 V1.0.9 macOS/Windows update packages; English index omits version. No dated changelog or proof of current-latest status located. Direct routes fail; indexed text available. DKit app version is separate. [firmware 1](https://dk-music.cn/cn/col.jsp?id=109) [firmware 2](https://www.dk-music.cn/col.jsp?id=110) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Unverified. Retailer leads name Whammy/Octave, but checked original quick guide and indexed manufacturer product do not specify pitch algorithms, intervals or input polyphony. Full manual confirmation pending. [pitch 1](https://www.dk-music.cn/pd.jsp?id=79) [pitch 2](https://device.report/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf) |
+| Pitch / preset recall | Original guide specifies 100 preset slots with 50 factory presets; writable/protected partition and initial user fill unverified. |
+| Pitch / DSP resources | Manufacturer specifies up to eight modules and five customizable modules; pitch-slot placement, concurrent pitch instances and per-algorithm DSP percentage unverified. |
+| Pitch / qualifications | Built-in treadle controls effects/volume and toe action switches A/B status. This does not establish a verified pitch-bend algorithm or polyphonic tracking. Generated third-party manuals excluded. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [DK iE-550 manufacturer product](https://www.dk-music.cn/pd.jsp?id=79) — 70 effects, eight modules, five customizable modules; no exact pitch algorithm list. (Manufacturer indexed product text; direct timeout).
+- [DK Chinese technical support](https://dk-music.cn/cn/col.jsp?id=109) — Explicit iE-550 V1.0.9 macOS and Windows update-package listings; no date. (Manufacturer indexed text; direct 502).
+- [DK English technical support](https://www.dk-music.cn/col.jsp?id=110) — Unversioned iE550 update resources; DKit app separate. (Manufacturer indexed text).
+- [iE-550 original quick guide 623000062](https://device.report/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf) — Eight simultaneous effects, 100 slots/50 factory, expression A/B action; no pitch algorithm details. (Manufacturer one-sheet bilingual PDF mirrored at device.report).
+
+<!-- firmware-pitch:DK::iE-550 ends -->
+
 Checked 2026-10-18. Partial exact-model record. Manufacturer product identity and independent effect modules support guitar multi-effects inclusion. Color offers are not separate models. Ownership, bass and vocal suitability remain unverified.
 
 | Field | Evidence / qualification |

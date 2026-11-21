@@ -186239,10 +186239,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DK::iE-550": {
+        "model_key": "DK::iE-550",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unknown",
+          "source_urls": [
+            "https://www.dk-music.cn/pd.jsp?id=79"
+          ],
+          "note": "Exact manufacturer product identified; no dated hardware launch established. Quick-guide filename, compliance and app dates not adopted as launch."
+        },
+        "firmware": {
+          "version": "1.0.9",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://dk-music.cn/cn/col.jsp?id=109",
+            "https://www.dk-music.cn/col.jsp?id=110"
+          ],
+          "note": "Manufacturer Chinese index explicitly lists iE-550 V1.0.9 macOS/Windows update packages; English index omits version. No dated changelog or proof of current-latest status located. Direct routes fail; indexed text available. DKit app version is separate."
+        },
+        "pitch": {
+          "status": "unverified",
+          "algorithms": "Retailer leads name Whammy/Octave, but checked original quick guide and indexed manufacturer product do not specify pitch algorithms, intervals or input polyphony. Full manual confirmation pending.",
+          "preset": "Original guide specifies 100 preset slots with 50 factory presets; writable/protected partition and initial user fill unverified.",
+          "dsp": "Manufacturer specifies up to eight modules and five customizable modules; pitch-slot placement, concurrent pitch instances and per-algorithm DSP percentage unverified.",
+          "source_urls": [
+            "https://www.dk-music.cn/pd.jsp?id=79",
+            "https://device.report/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Built-in treadle controls effects/volume and toe action switches A/B status. This does not establish a verified pitch-bend algorithm or polyphonic tracking. Generated third-party manuals excluded."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.dk-music.cn/pd.jsp?id=79",
+            "title": "DK iE-550 manufacturer product",
+            "access": "Manufacturer indexed product text; direct timeout",
+            "evidence": "70 effects, eight modules, five customizable modules; no exact pitch algorithm list."
+          },
+          {
+            "url": "https://dk-music.cn/cn/col.jsp?id=109",
+            "title": "DK Chinese technical support",
+            "access": "Manufacturer indexed text; direct 502",
+            "evidence": "Explicit iE-550 V1.0.9 macOS and Windows update-package listings; no date."
+          },
+          {
+            "url": "https://www.dk-music.cn/col.jsp?id=110",
+            "title": "DK English technical support",
+            "access": "Manufacturer indexed text",
+            "evidence": "Unversioned iE550 update resources; DKit app separate."
+          },
+          {
+            "url": "https://device.report/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf",
+            "title": "iE-550 original quick guide 623000062",
+            "access": "Manufacturer one-sheet bilingual PDF mirrored at device.report",
+            "evidence": "Eight simultaneous effects, 100 slots/50 factory, expression A/B action; no pitch algorithm details."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DK::iE-550",
       "Donner::Arena2000",
       "Donner::Triple Threat",
       "EROK::MP-10",
@@ -186553,12 +186618,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 93,
-    "last_model": "DK::iE-350",
-    "last_commit_parent": "ddf8d124fb239093fc7abcbe52ed0d1952894e37",
+    "completed_model_count": 94,
+    "last_model": "DK::iE-550",
+    "last_commit_parent": "d746ed9b73a18042a16902ac9748839c3858624c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DK::iE-550",
       "Donner::Arena2000",
       "Donner::Triple Threat",
       "EROK::MP-10",
@@ -186868,7 +186932,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 93,
+    "pitch_completed_model_count": 94,
     "supplemental_model_count": 0
   },
   "model_images": {
