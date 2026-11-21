@@ -201260,11 +201260,37 @@
             "visual_checked": true
           }
         ]
+      },
+      "NUX::Mighty Plug Pro MP-3": {
+        "model_key": "NUX::Mighty Plug Pro MP-3",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.nux.us/cdn/shop/files/MP-P.01.jpg?v=1760460610&width=2400",
+            "source_url": "https://www.nux.us/products/mighty-plug-pro",
+            "caption": "Mighty Plug Pro MP-3 top control view",
+            "note": "Manufacturer exact overhead MP-3 image with blue PRESET ring and AUDIO indicator illuminated. The complete control face and extended instrument plug are visible; status lights do not identify installed firmware.",
+            "visual_checked": true,
+            "sha256": "0e67c49910423c6b1cb03ce04c6aa88ef50d01b0d76f72d102eeb36590a505f6",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.nux.us/cdn/shop/files/MP-P.05.jpg?v=1760460794&width=2400",
+            "source_url": "https://www.nux.us/products/mighty-plug-pro",
+            "caption": "Mighty Plug Pro MP-3 connector edge",
+            "note": "Manufacturer angled connector-edge image clearly shows the headphone socket and USB-C, plus side volume +/− and Power/MUTE controls. Instrument plug is folded; blue indicators are lit. Reset pinhole is on the opposite side and not shown. This handheld unit has edge connections rather than a conventional rear strip.",
+            "visual_checked": true,
+            "sha256": "a0d61df4ae6c5af364b800a83abfdd84652c5a20cacb4e52ef943f738bce9714",
+            "powered_on": true,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::Mighty Plug MP-2"
+    "last_model": "NUX::Mighty Plug Pro MP-3"
   }
 }
