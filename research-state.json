@@ -188830,11 +188830,35 @@
             "sha256": "765614253fec1abb7a8c80980a6d623b71cafdb05efa20b86fa9597f5a2e7bfa"
           }
         }
+      },
+      "Flamma::FX150": {
+        "model_key": "Flamma::FX150",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.flamma.shop/cdn/shop/files/1_850cfa21-59ea-4ab9-b8f5-8fecede0c0e2.png?v=1686898456",
+            "source_url": "https://www.flamma.shop/products/flamma-fx150-guitar-multi-effects-pedal",
+            "caption": "FX150 powered-on top-down product illustration",
+            "note": "Manufacturer gray FX150 product cutout/render, straight top-down, depicting an active 01A SOLOIST display and illuminated blue B footswitch. The screen graphic shows DSP50% for this illustration; it is not a hardware measurement or Pitch Poly resource cost. Standard FX150, not green battery-equipped FX150b.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "f583fd79b30c32355817c41b4831d3cc2a6a3ce085aab9d17eb77c7abf44cace"
+          },
+          "rear": {
+            "image_url": "https://www.flamma.shop/cdn/shop/files/7_d83097f1-6baa-4701-aa9c-41c11ddbb3f1.png?v=1686898500",
+            "source_url": "https://www.flamma.shop/products/flamma-fx150-guitar-multi-effects-pedal",
+            "caption": "FX150 rear connections",
+            "note": "Gray standard FX150 rear product cutout shows power switch, 9V1A center-negative DC IN, USB-C, AUX IN, EXP2, INPUT, SEND, RETURN, L/MONO and R outputs, and PHONES. No XLR connectors visible; this corroborates the connector inventory while preserving the manual’s conflicting XLR prose. FX150b power requirements are different.",
+            "visual_checked": true,
+            "sha256": "9cfd5662d2c6353f4734c69d1bcd4cdd3b9a27caaf038acde641bdff61223706"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Flamma::FX100"
+    "last_model": "Flamma::FX150"
   }
 }

@@ -1074,6 +1074,26 @@ Sources checked:
 
 <!-- firmware-pitch:Flamma::FX150 ends -->
 
+<!-- model-images:Flamma::FX150 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**FX150 powered-on top-down product illustration**
+
+[![FX150 powered-on top-down product illustration](https://www.flamma.shop/cdn/shop/files/1_850cfa21-59ea-4ab9-b8f5-8fecede0c0e2.png?v=1686898456)](https://www.flamma.shop/cdn/shop/files/1_850cfa21-59ea-4ab9-b8f5-8fecede0c0e2.png?v=1686898456)
+
+[Image source](https://www.flamma.shop/products/flamma-fx150-guitar-multi-effects-pedal). Manufacturer gray FX150 product cutout/render, straight top-down, depicting an active 01A SOLOIST display and illuminated blue B footswitch. The screen graphic shows DSP50% for this illustration; it is not a hardware measurement or Pitch Poly resource cost. Standard FX150, not green battery-equipped FX150b.
+
+**FX150 rear connections**
+
+[![FX150 rear connections](https://www.flamma.shop/cdn/shop/files/7_d83097f1-6baa-4701-aa9c-41c11ddbb3f1.png?v=1686898500)](https://www.flamma.shop/cdn/shop/files/7_d83097f1-6baa-4701-aa9c-41c11ddbb3f1.png?v=1686898500)
+
+[Image source](https://www.flamma.shop/products/flamma-fx150-guitar-multi-effects-pedal). Gray standard FX150 rear product cutout shows power switch, 9V1A center-negative DC IN, USB-C, AUX IN, EXP2, INPUT, SEND, RETURN, L/MONO and R outputs, and PHONES. No XLR connectors visible; this corroborates the connector inventory while preserving the manual’s conflicting XLR prose. FX150b power requirements are different.
+
+</details>
+<!-- model-images:Flamma::FX150 ends -->
+
+
 **New researched model,2026-10-15. Standard non-battery FX150,not FX150b.** The shared manufacturer manual explicitly separates the power and mass of the two variants; no sibling inference is needed for those named differences.
 
 | Required field | Source-backed specification / remaining uncertainty |
