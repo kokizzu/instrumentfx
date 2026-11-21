@@ -1453,6 +1453,34 @@ For **Vocal→Vocal Harmony→Auto High**, set **Auto Src=MIDI**. Per-voice **Mo
 
 ## VX5
 
+<!-- firmware-pitch:HeadRush::VX5 begins -->
+### Firmware and pitch audit — HeadRush VX5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025-07-22 (manufacturer announcement). Official inMusic launch announcement datelined July 22, 2025; regional delivery dates may differ. [launch 1](https://www.inmusicbrands.com/press/vx5/) |
+| Firmware / latest verification | 1.3.1 — Located; latest status unverified. Current downloads and product banner point to 1.3.1. Updated exact-model PDF now explicitly includes 1.3.1 revision history; an older 1.2.2 updater link and screenshot persist. No dated release statement found, so duration remains unknown. Latest downloadable device-provided image not checked without connected VX5; no firmware installed. [firmware 1](https://www.headrushfx.com/downloads.html) [firmware 2](https://cdn.inmusicbrands.com/HeadRush/vx5/READ_ME_-_HeadRush_AutoTune_VX5_Firmware_Update_Instructions_v1.3.1.pdf) [firmware 3](https://www.headrushfx.com/products/vx5-autotune/index.html) [firmware 4](https://support.headrushfx.com/en/support/solutions/articles/69000880616-vx5-the-compressor-is-missing-from-the-fx-menu) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Antares AutoTune vocal pitch correction with key/scale/range and Humanize; harmony generated from vocal input using Instrument chord reference or fixed intervals. Multiple generated harmony voices and guitar/keyboard chord recognition do not prove polyphonic vocal-audio correction. No guitar transposer processing established; Guitar Thru is unprocessed. [pitch 1](https://cdn.inmusicbrands.com/HeadRush/vx5/AutoTune%20VX5%20-%20User%20Guide%20-%20v1.3.pdf) [pitch 2](https://support.headrushfx.com/en/support/solutions/articles/69000870979-headrush-autotune-vx5-frequently-asked-questions) [pitch 3](https://www.headrushfx.com/products/vx5-autotune/index.html) [pitch 4](https://cdn.inmusicbrands.com/HeadRush/vx5/READ_ME_-_HeadRush_AutoTune_VX5_Firmware_Update_Instructions_v1.3.1.pdf) |
+| Pitch / preset recall | 250 total preset slots, 99 factory-filled, with A/B effect states and Talk bypass. Guide lists seven instrument-source harmony ranges or eleven fixed interval/combination choices; these are choices, not eleven simultaneous voices. |
+| Pitch / DSP resources | No per-AutoTune/harmony DSP percentage, processor-load meter or isolated resource measurement found. FAQ documents fixed Compressor→Flavor→Chorus→Reverb→Delay order alongside vocal processing; this fixed chain is not a freely allocated block/DSP budget. Retune 0–400 ms is a correction-speed setting, not measured end-to-end latency. Manufacturer FAQ reports latency for three whole presets: Empty #250 6 ms, Hard Tune #1 10 ms, Stress Test #99 31 ms; firmware, measurement method and isolated algorithm contribution unspecified. These are manufacturer-reported figures, not our measurements or DSP percentages. |
+| Pitch / qualifications | Current 1.3.1 notes improve moving-vocal/key tracking and chromatic Eb/E/F behavior, and fix microphone-signal and Short Echo preset issues. Compressor provenance still conflicts: support says introduced in 1.3.1, while current cumulative PDF groups its addition under 1.3. Preserve that disagreement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [HeadRush VX5 launch announcement](https://www.inmusicbrands.com/press/vx5/) — July 22, 2025 launch of dedicated vocal effects pedal. (Official inMusic press release read).
+- [HeadRush current downloads](https://www.headrushfx.com/downloads.html) — VX5 firmware 1.3.1 instructions, separate guide 1.3 and network driver 1.0.0. (Current manufacturer index read).
+- [VX5 firmware 1.3.1 instructions and history](https://cdn.inmusicbrands.com/HeadRush/vx5/READ_ME_-_HeadRush_AutoTune_VX5_Firmware_Update_Instructions_v1.3.1.pdf) — Explicit 1.3.1 fixes and cumulative 1.3 features; screenshot still 1.2.2; no release date established. (Current maker PDF text read).
+- [HeadRush VX5 product page](https://www.headrushfx.com/products/vx5-autotune/index.html) — 1.3.1 banner, older 1.2.2 link; AutoTune/harmony and 250/99 preset specification. (Current manufacturer page read).
+- [VX5 guide v1.3](https://cdn.inmusicbrands.com/HeadRush/vx5/AutoTune%20VX5%20-%20User%20Guide%20-%20v1.3.pdf) — Retune speed 0–400 ms, key/scale/vocal range, harmony choices/source, and FX menu. (Original 23-page PDF retrieved; SHA256 8e8282f118e3861fb75646486e1f57fe5f7bf798286eb0d3e783611c093755c8; printed pages 13–16 read).
+- [VX5 manufacturer FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000870979-headrush-autotune-vx5-frequently-asked-questions) — Fixed FX chain, vocal correction/harmony workflow and unprocessed guitar reference/thru. Reports whole-preset latency: #250 6 ms, #1 10 ms, #99 31 ms, without firmware/test-method details. (Official support page read).
+- [VX5 compressor version support](https://support.headrushfx.com/en/support/solutions/articles/69000880616-vx5-the-compressor-is-missing-from-the-fx-menu) — Claims compressor requires 1.3.1; device-connected updater downloads latest image, with 1.2.2 only an example. (Official support page read).
+
+<!-- firmware-pitch:HeadRush::VX5 ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Vocal multi-effects: independently switchable AutoTune,harmony andFX. Guitar chord detection/thru does not qualify it for guitar multi-effects. Partial record.
 

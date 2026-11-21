@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf",
+    "requested_url": "https://cdn.inmusicbrands.com/HeadRush/vx5/AutoTune%20VX5%20-%20User%20Guide%20-%20v1.3.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0,
     "text_pages": [
-      13,
-      14
+      12,
+      15
     ],
     "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
     "index_needle": "features",
@@ -188650,6 +188650,184 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "HeadRush::VX5": {
+        "model_key": "HeadRush::VX5",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2025-07-22",
+          "precision": "day",
+          "kind": "manufacturer_announcement",
+          "source_urls": [
+            "https://www.inmusicbrands.com/press/vx5/"
+          ],
+          "note": "Official inMusic launch announcement datelined July 22, 2025; regional delivery dates may differ."
+        },
+        "firmware": {
+          "version": "1.3.1",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.headrushfx.com/downloads.html",
+            "https://cdn.inmusicbrands.com/HeadRush/vx5/READ_ME_-_HeadRush_AutoTune_VX5_Firmware_Update_Instructions_v1.3.1.pdf",
+            "https://www.headrushfx.com/products/vx5-autotune/index.html",
+            "https://support.headrushfx.com/en/support/solutions/articles/69000880616-vx5-the-compressor-is-missing-from-the-fx-menu"
+          ],
+          "note": "Current downloads and product banner point to 1.3.1. Updated exact-model PDF now explicitly includes 1.3.1 revision history; an older 1.2.2 updater link and screenshot persist. No dated release statement found, so duration remains unknown. Latest downloadable device-provided image not checked without connected VX5; no firmware installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Antares AutoTune vocal pitch correction with key/scale/range and Humanize; harmony generated from vocal input using Instrument chord reference or fixed intervals. Multiple generated harmony voices and guitar/keyboard chord recognition do not prove polyphonic vocal-audio correction. No guitar transposer processing established; Guitar Thru is unprocessed.",
+          "preset": "250 total preset slots, 99 factory-filled, with A/B effect states and Talk bypass. Guide lists seven instrument-source harmony ranges or eleven fixed interval/combination choices; these are choices, not eleven simultaneous voices.",
+          "dsp": "No per-AutoTune/harmony DSP percentage, processor-load meter or isolated resource measurement found. FAQ documents fixed Compressor→Flavor→Chorus→Reverb→Delay order alongside vocal processing; this fixed chain is not a freely allocated block/DSP budget. Retune 0–400 ms is a correction-speed setting, not measured end-to-end latency. Manufacturer FAQ reports latency for three whole presets: Empty #250 6 ms, Hard Tune #1 10 ms, Stress Test #99 31 ms; firmware, measurement method and isolated algorithm contribution unspecified. These are manufacturer-reported figures, not our measurements or DSP percentages.",
+          "source_urls": [
+            "https://cdn.inmusicbrands.com/HeadRush/vx5/AutoTune%20VX5%20-%20User%20Guide%20-%20v1.3.pdf",
+            "https://support.headrushfx.com/en/support/solutions/articles/69000870979-headrush-autotune-vx5-frequently-asked-questions",
+            "https://www.headrushfx.com/products/vx5-autotune/index.html",
+            "https://cdn.inmusicbrands.com/HeadRush/vx5/READ_ME_-_HeadRush_AutoTune_VX5_Firmware_Update_Instructions_v1.3.1.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Current 1.3.1 notes improve moving-vocal/key tracking and chromatic Eb/E/F behavior, and fix microphone-signal and Short Echo preset issues. Compressor provenance still conflicts: support says introduced in 1.3.1, while current cumulative PDF groups its addition under 1.3. Preserve that disagreement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.inmusicbrands.com/press/vx5/",
+            "title": "HeadRush VX5 launch announcement",
+            "access": "Official inMusic press release read",
+            "evidence": "July 22, 2025 launch of dedicated vocal effects pedal."
+          },
+          {
+            "url": "https://www.headrushfx.com/downloads.html",
+            "title": "HeadRush current downloads",
+            "access": "Current manufacturer index read",
+            "evidence": "VX5 firmware 1.3.1 instructions, separate guide 1.3 and network driver 1.0.0."
+          },
+          {
+            "url": "https://cdn.inmusicbrands.com/HeadRush/vx5/READ_ME_-_HeadRush_AutoTune_VX5_Firmware_Update_Instructions_v1.3.1.pdf",
+            "title": "VX5 firmware 1.3.1 instructions and history",
+            "access": "Current maker PDF text read",
+            "evidence": "Explicit 1.3.1 fixes and cumulative 1.3 features; screenshot still 1.2.2; no release date established."
+          },
+          {
+            "url": "https://www.headrushfx.com/products/vx5-autotune/index.html",
+            "title": "HeadRush VX5 product page",
+            "access": "Current manufacturer page read",
+            "evidence": "1.3.1 banner, older 1.2.2 link; AutoTune/harmony and 250/99 preset specification."
+          },
+          {
+            "url": "https://cdn.inmusicbrands.com/HeadRush/vx5/AutoTune%20VX5%20-%20User%20Guide%20-%20v1.3.pdf",
+            "title": "VX5 guide v1.3",
+            "access": "Original 23-page PDF retrieved; SHA256 8e8282f118e3861fb75646486e1f57fe5f7bf798286eb0d3e783611c093755c8; printed pages 13–16 read",
+            "evidence": "Retune speed 0–400 ms, key/scale/vocal range, harmony choices/source, and FX menu."
+          },
+          {
+            "url": "https://support.headrushfx.com/en/support/solutions/articles/69000870979-headrush-autotune-vx5-frequently-asked-questions",
+            "title": "VX5 manufacturer FAQ",
+            "access": "Official support page read",
+            "evidence": "Fixed FX chain, vocal correction/harmony workflow and unprocessed guitar reference/thru. Reports whole-preset latency: #250 6 ms, #1 10 ms, #99 31 ms, without firmware/test-method details."
+          },
+          {
+            "url": "https://support.headrushfx.com/en/support/solutions/articles/69000880616-vx5-the-compressor-is-missing-from-the-fx-menu",
+            "title": "VX5 compressor version support",
+            "access": "Official support page read",
+            "evidence": "Claims compressor requires 1.3.1; device-connected updater downloads latest image, with 1.2.2 only an example."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "HeadRush::VX5",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": "2025-07-22",
+              "precision": "day",
+              "kind": "manufacturer_announcement",
+              "source_urls": [
+                "https://www.inmusicbrands.com/press/vx5/"
+              ],
+              "note": "Official inMusic launch announcement datelined July 22, 2025; regional delivery dates may differ."
+            },
+            "firmware": {
+              "version": "1.3.1",
+              "date": null,
+              "precision": "unknown",
+              "status": "latest_located",
+              "source_urls": [
+                "https://www.headrushfx.com/downloads.html",
+                "https://cdn.inmusicbrands.com/HeadRush/vx5/READ_ME_-_HeadRush_AutoTune_VX5_Firmware_Update_Instructions_v1.3.1.pdf",
+                "https://www.headrushfx.com/products/vx5-autotune/index.html",
+                "https://support.headrushfx.com/en/support/solutions/articles/69000880616-vx5-the-compressor-is-missing-from-the-fx-menu"
+              ],
+              "note": "Current downloads and product banner point to 1.3.1. Updated exact-model PDF now explicitly includes 1.3.1 revision history; an older 1.2.2 updater link and screenshot persist. No dated release statement found, so duration remains unknown. Latest downloadable device-provided image not checked without connected VX5; no firmware installed."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Antares AutoTune vocal pitch correction with key/scale/range and Humanize; harmony generated from vocal input using Instrument chord reference or fixed intervals. Multiple generated harmony voices and guitar/keyboard chord recognition do not prove polyphonic vocal-audio correction. No guitar transposer processing established; Guitar Thru is unprocessed.",
+              "preset": "250 total preset slots, 99 factory-filled, with A/B effect states and Talk bypass. Guide lists seven instrument-source harmony ranges or eleven fixed interval/combination choices; these are choices, not eleven simultaneous voices.",
+              "dsp": "No per-AutoTune/harmony DSP percentage, processor-load meter or isolated resource measurement found. FAQ documents fixed Compressor→Flavor→Chorus→Reverb→Delay order alongside vocal processing; this fixed chain is not a freely allocated block/DSP budget. Retune 0–400 ms is a correction-speed setting, not measured end-to-end latency.",
+              "source_urls": [
+                "https://cdn.inmusicbrands.com/HeadRush/vx5/AutoTune%20VX5%20-%20User%20Guide%20-%20v1.3.pdf",
+                "https://support.headrushfx.com/en/support/solutions/articles/69000870979-headrush-autotune-vx5-frequently-asked-questions",
+                "https://www.headrushfx.com/products/vx5-autotune/index.html",
+                "https://cdn.inmusicbrands.com/HeadRush/vx5/READ_ME_-_HeadRush_AutoTune_VX5_Firmware_Update_Instructions_v1.3.1.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Current 1.3.1 notes improve moving-vocal/key tracking and chromatic Eb/E/F behavior, and fix microphone-signal and Short Echo preset issues. Compressor provenance still conflicts: support says introduced in 1.3.1, while current cumulative PDF groups its addition under 1.3. Preserve that disagreement."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.inmusicbrands.com/press/vx5/",
+                "title": "HeadRush VX5 launch announcement",
+                "access": "Official inMusic press release read",
+                "evidence": "July 22, 2025 launch of dedicated vocal effects pedal."
+              },
+              {
+                "url": "https://www.headrushfx.com/downloads.html",
+                "title": "HeadRush current downloads",
+                "access": "Current manufacturer index read",
+                "evidence": "VX5 firmware 1.3.1 instructions, separate guide 1.3 and network driver 1.0.0."
+              },
+              {
+                "url": "https://cdn.inmusicbrands.com/HeadRush/vx5/READ_ME_-_HeadRush_AutoTune_VX5_Firmware_Update_Instructions_v1.3.1.pdf",
+                "title": "VX5 firmware 1.3.1 instructions and history",
+                "access": "Current maker PDF text read",
+                "evidence": "Explicit 1.3.1 fixes and cumulative 1.3 features; screenshot still 1.2.2; no release date established."
+              },
+              {
+                "url": "https://www.headrushfx.com/products/vx5-autotune/index.html",
+                "title": "HeadRush VX5 product page",
+                "access": "Current manufacturer page read",
+                "evidence": "1.3.1 banner, older 1.2.2 link; AutoTune/harmony and 250/99 preset specification."
+              },
+              {
+                "url": "https://cdn.inmusicbrands.com/HeadRush/vx5/AutoTune%20VX5%20-%20User%20Guide%20-%20v1.3.pdf",
+                "title": "VX5 guide v1.3",
+                "access": "Original 23-page PDF retrieved; SHA256 8e8282f118e3861fb75646486e1f57fe5f7bf798286eb0d3e783611c093755c8; printed pages 13–16 read",
+                "evidence": "Retune speed 0–400 ms, key/scale/vocal range, harmony choices/source, and FX menu."
+              },
+              {
+                "url": "https://support.headrushfx.com/en/support/solutions/articles/69000870979-headrush-autotune-vx5-frequently-asked-questions",
+                "title": "VX5 manufacturer FAQ",
+                "access": "Official support page read",
+                "evidence": "Fixed FX chain, vocal correction/harmony workflow and unprocessed guitar reference/thru."
+              },
+              {
+                "url": "https://support.headrushfx.com/en/support/solutions/articles/69000880616-vx5-the-compressor-is-missing-from-the-fx-menu",
+                "title": "VX5 compressor version support",
+                "access": "Official support page read",
+                "evidence": "Claims compressor requires 1.3.1; device-connected updater downloads latest image, with 1.2.2 only an example."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
@@ -188663,7 +188841,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "HeadRush::VX5",
       "IK Multimedia::TONEX ONE",
       "IK Multimedia::TONEX Pedal",
       "JOYO::GEM BOX II",
@@ -188935,9 +189112,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 122,
-    "last_model": "HeadRush::Pedalboard",
-    "last_commit_parent": "eb2bc690042e70fb4257486cc224d9beb46b6a3c",
+    "completed_model_count": 123,
+    "last_model": "HeadRush::VX5",
+    "last_commit_parent": "f46823b77e145b58d4f1cdd3cb6491ba26c83240",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -188950,7 +189127,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "HeadRush::VX5",
       "IK Multimedia::TONEX ONE",
       "IK Multimedia::TONEX Pedal",
       "JOYO::GEM BOX II",
@@ -189221,7 +189397,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 122,
+    "pitch_completed_model_count": 123,
     "supplemental_model_count": 0
   },
   "model_images": {
