@@ -188,6 +188,26 @@ Sources checked:
 
 <!-- firmware-pitch:Mosky::RD5 ends -->
 
+<!-- model-images:Mosky::RD5 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Mosky RD5 control-face photograph — power state unverified**
+
+[![Mosky RD5 control-face photograph — power state unverified](https://www.moskyaudio.com/uploadfile//20261024/5db010840207b.jpg)](https://www.moskyaudio.com/uploadfile//20261024/5db010840207b.jpg)
+
+[Image source](https://www.moskyaudio.com/multi-effects/129.html). Visually inspected blue RD5 manufacturer image: ten knobs (reverb3,delay3,overdrive3,boost1), three footswitches and separate booster/buffer toggles. No display/treadle visible. Nearly overhead with slight perspective; no connected power or lit indicator establishes operation. Powered-on photo remains pending. Own [embedded manual](https://www.moskyaudio.com/uploadfile//20261024/20191211030829_23799.jpg) documents input→buffer→overdrive→booster→delay→reverb→output and all-off true bypass. Its230L×65W×35Dmm/510g differs from product230L×65W×36Hmm/490g; revision/measurement basis unresolved.
+
+**Mosky RD5 straight rear-edge port photograph**
+
+[![Mosky RD5 straight rear-edge port photograph](https://img.joomcdn.net/bb451c3c37a1f120154e6bbe8558850669ab9284_1024_1024.jpeg)](https://img.joomcdn.net/bb451c3c37a1f120154e6bbe8558850669ab9284_1024_1024.jpeg)
+
+[Image source](https://www.joom.com/pt-br/products/5fc44b9b8905e30107293393). Visually inspected blue strip with the RD5 ten-knob/three-footswitch/two-toggle layout: two quarter-inch audio sockets and one barrel power input, all unplugged. Manufacturer face/manual identify INPUT/OUTPUT and9VDCcenter-negative; rear edge itself is unlabeled. No USB, MIDI, separate phones or analog EXP socket visible on this edge. This does not establish every face/internal interface, input levels, stereo processing or update capability. No RC5/DC5 photo substituted.
+
+</details>
+<!-- model-images:Mosky::RD5 ends -->
+
+
 Effects-only guitar multi-effects; checked 2026-10-18, partial. Ownership unverified. Bass/vocal suitability requires exact-model primary evidence.
 
 | Field | Finding / qualification |
