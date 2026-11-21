@@ -178521,7 +178521,7 @@
       65,
       70
     ],
-    "index_url": "https://flammainnovation.com/file/pdf?fileName=FX150_Read%20Me.txt&url=group1%2FM00%2F00%2F0D%2FwKgA0GYLoW2ANn-NAAACHm6-ewI264.txt",
+    "index_url": "https://flammainnovation.com/file/pdf?fileName=FX200_Read%20Me.txt&url=group1%2FM00%2F00%2F0D%2FwKgA0GYLoGGAElRcAAAC0onNHVE374.txt",
     "index_needle": "1.",
     "index_skip": 0
   },
@@ -187772,11 +187772,90 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Flamma::FX200": {
+        "model_key": "Flamma::FX200",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=If7raUNGWTg",
+            "https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice"
+          ],
+          "note": "Maker official demo was published2022-09-06, establishing public promotion by then, not exact first shipment/global sale. Manual2022 revisions are not hardware launch dates."
+        },
+        "firmware": {
+          "version": "V2.0.0",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://flammainnovation.com/file/pdf?fileName=FX200_Read%20Me.txt&url=group1%2FM00%2F00%2F0D%2FwKgA0GYLoGGAElRcAAAC0onNHVE374.txt",
+            "https://flammainnovation.com/goods/support?goodsName=FX200",
+            "https://www.flamma.shop/pages/manual"
+          ],
+          "note": "Latest explicitly described device-update history located is V2.0.0: dual-group footswitch option, PRE/POST volume pedal, EQ Level, encoder chain editing and revised Favorite logic. Current editor packages are V2.0.1; their embedded device firmware revision/date is unverified. Undated changelog; no calculated support duration. Update resets factory settings; back up presets using old editor first."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "MOD19 PITCH MONO and MOD20 PITCH POLY explicitly distinguish mono and polyphonic shifting. MOD12 DETUNE and MOD8 PITCH VIBRATO are separate choices. Interval limits, chord-note ceiling and measured tracking quality remain unverified.",
+          "preset": "200 editable patches (100 banks×2 in checked V01 manual); effect selection, parameters and expression assignments saved per patch. Protected factory subset unknown; later dual-group update should not be confused with extra memory.",
+          "dsp": "Ten reorderable category modules include FX LOOP; pitch algorithms share MOD. DSP meter reports current preset usage; example50% screen is a whole illustrated preset, not Pitch Poly cost. No per-algorithm CPU/DSP percentage or duplicated pitch-block capacity verified.",
+          "source_urls": [
+            "https://flammainnovation.com/file/pdf?fileName=FX200_Manual_EN.pdf&url=group1%2FM00%2F00%2F06%2FwKgA0GL0dWqAJsLIAFh1HPCsfhg454.pdf",
+            "https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice"
+          ],
+          "measurements": [],
+          "notes": [
+            "Polyphonic capability is documented, not bench-tested. No hardware latency or DSP-load measurement; Ampero percentages do not transfer. Standard FX200 is distinct from battery FX200b."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://flammainnovation.com/file/pdf?fileName=FX200_Manual_EN.pdf&url=group1%2FM00%2F00%2F06%2FwKgA0GL0dWqAJsLIAFh1HPCsfhg454.pdf",
+            "title": "FX200 manufacturer English owner manual V01",
+            "access": "Original maker manual linked by exact support metadata; indexed pitch/DSP/preset text read",
+            "evidence": "Printed56 Mono/Poly/Detune/Vibrato entries; current-usage meter and 200-patch architecture. Document revision not firmware release."
+          },
+          {
+            "url": "https://flammainnovation.com/goods/support?goodsName=FX200",
+            "title": "FLAMMA FX200 public support metadata",
+            "access": "Bounded inert maker JSON; SHA25636d6456535d6928cd7a5a85c3922ef18ece2080ad4491781155e3f032b5136da",
+            "evidence": "V2.0.1 desktop installers, older1.1.3 packages, Read Me and original manual links."
+          },
+          {
+            "url": "https://flammainnovation.com/file/pdf?fileName=FX200_Read%20Me.txt&url=group1%2FM00%2F00%2F0D%2FwKgA0GYLoGGAElRcAAAC0onNHVE374.txt",
+            "title": "FX200 manufacturer Read Me",
+            "access": "Complete722-byte inert text; SHA256ed3ec8c73133dbbf7d3f1664644ce378ef229d1bbd5c3cab040f52f654d99256",
+            "evidence": "Undated V2.0.0 five-item update history and factory-reset/backup precautions; no2.0.1 device changelog."
+          },
+          {
+            "url": "https://www.flamma.shop/pages/manual",
+            "title": "FLAMMA current manuals/software index",
+            "access": "Direct maker index",
+            "evidence": "Separates FX200 V2.0.1 Software from V2.0.0 History of Updates."
+          },
+          {
+            "url": "https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice",
+            "title": "FLAMMA FX200/FX200b product page",
+            "access": "Current indexed maker product description",
+            "evidence": "Exact product family, standard versus battery variant, editing and software update context."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=If7raUNGWTg",
+            "title": "Flamma FX200 Multi-Effects Official Demo",
+            "access": "Maker Flamma Innovation video; indexed publication2022-09-06",
+            "evidence": "Dated public promotion, not verified first-sale date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
       "Flamma::FX20",
-      "Flamma::FX200",
       "Flamma::FX50",
       "Fractal Audio::AM4",
       "Fractal Audio::FM3 MKII Turbo",
@@ -188066,13 +188145,12 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 113,
-    "last_model": "Flamma::FX150b",
-    "last_commit_parent": "cd46cfbc7fa50f751798f78a80231401fae02c82",
+    "completed_model_count": 114,
+    "last_model": "Flamma::FX200",
+    "last_commit_parent": "4481f6aa4a40ae1c722e65945fbb26b0dadfa5eb",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Flamma::FX20",
-      "Flamma::FX200",
       "Flamma::FX50",
       "Fractal Audio::AM4",
       "Fractal Audio::FM3 MKII Turbo",
@@ -188361,7 +188439,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 113,
+    "pitch_completed_model_count": 114,
     "supplemental_model_count": 0
   },
   "model_images": {

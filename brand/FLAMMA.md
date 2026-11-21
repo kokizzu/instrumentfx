@@ -1290,6 +1290,33 @@ No installers, manuals or other files downloaded. Remaining: panel visual confir
 
 ## FX200
 
+<!-- firmware-pitch:Flamma::FX200 begins -->
+### Firmware and pitch audit — Flamma FX200
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Maker official demo was published2022-09-06, establishing public promotion by then, not exact first shipment/global sale. Manual2022 revisions are not hardware launch dates. [launch 1](https://www.youtube.com/watch?v=If7raUNGWTg) [launch 2](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice) |
+| Firmware / latest verification | V2.0.0 — Located; latest status unverified. Latest explicitly described device-update history located is V2.0.0: dual-group footswitch option, PRE/POST volume pedal, EQ Level, encoder chain editing and revised Favorite logic. Current editor packages are V2.0.1; their embedded device firmware revision/date is unverified. Undated changelog; no calculated support duration. Update resets factory settings; back up presets using old editor first. [firmware 1](https://flammainnovation.com/file/pdf?fileName=FX200_Read%20Me.txt&url=group1%2FM00%2F00%2F0D%2FwKgA0GYLoGGAElRcAAAC0onNHVE374.txt) [firmware 2](https://flammainnovation.com/goods/support?goodsName=FX200) [firmware 3](https://www.flamma.shop/pages/manual) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. MOD19 PITCH MONO and MOD20 PITCH POLY explicitly distinguish mono and polyphonic shifting. MOD12 DETUNE and MOD8 PITCH VIBRATO are separate choices. Interval limits, chord-note ceiling and measured tracking quality remain unverified. [pitch 1](https://flammainnovation.com/file/pdf?fileName=FX200_Manual_EN.pdf&url=group1%2FM00%2F00%2F06%2FwKgA0GL0dWqAJsLIAFh1HPCsfhg454.pdf) [pitch 2](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice) |
+| Pitch / preset recall | 200 editable patches (100 banks×2 in checked V01 manual); effect selection, parameters and expression assignments saved per patch. Protected factory subset unknown; later dual-group update should not be confused with extra memory. |
+| Pitch / DSP resources | Ten reorderable category modules include FX LOOP; pitch algorithms share MOD. DSP meter reports current preset usage; example50% screen is a whole illustrated preset, not Pitch Poly cost. No per-algorithm CPU/DSP percentage or duplicated pitch-block capacity verified. |
+| Pitch / qualifications | Polyphonic capability is documented, not bench-tested. No hardware latency or DSP-load measurement; Ampero percentages do not transfer. Standard FX200 is distinct from battery FX200b. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [FX200 manufacturer English owner manual V01](https://flammainnovation.com/file/pdf?fileName=FX200_Manual_EN.pdf&url=group1%2FM00%2F00%2F06%2FwKgA0GL0dWqAJsLIAFh1HPCsfhg454.pdf) — Printed56 Mono/Poly/Detune/Vibrato entries; current-usage meter and 200-patch architecture. Document revision not firmware release. (Original maker manual linked by exact support metadata; indexed pitch/DSP/preset text read).
+- [FLAMMA FX200 public support metadata](https://flammainnovation.com/goods/support?goodsName=FX200) — V2.0.1 desktop installers, older1.1.3 packages, Read Me and original manual links. (Bounded inert maker JSON; SHA25636d6456535d6928cd7a5a85c3922ef18ece2080ad4491781155e3f032b5136da).
+- [FX200 manufacturer Read Me](https://flammainnovation.com/file/pdf?fileName=FX200_Read%20Me.txt&url=group1%2FM00%2F00%2F0D%2FwKgA0GYLoGGAElRcAAAC0onNHVE374.txt) — Undated V2.0.0 five-item update history and factory-reset/backup precautions; no2.0.1 device changelog. (Complete722-byte inert text; SHA256ed3ec8c73133dbbf7d3f1664644ce378ef229d1bbd5c3cab040f52f654d99256).
+- [FLAMMA current manuals/software index](https://www.flamma.shop/pages/manual) — Separates FX200 V2.0.1 Software from V2.0.0 History of Updates. (Direct maker index).
+- [FLAMMA FX200/FX200b product page](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice) — Exact product family, standard versus battery variant, editing and software update context. (Current indexed maker product description).
+- [Flamma FX200 Multi-Effects Official Demo](https://www.youtube.com/watch?v=If7raUNGWTg) — Dated public promotion, not verified first-sale date. (Maker Flamma Innovation video; indexed publication2022-09-06).
+
+<!-- firmware-pitch:Flamma::FX200 ends -->
+
 **Original technical/price date:2026-10-14. Support/store follow-up2026-10-17. Partial.** Standard FX200,not battery FX200b; new software observations do not certify all older specifications.
 
 <!-- comparison evidence begins -->
