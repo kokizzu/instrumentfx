@@ -195684,11 +195684,35 @@
             "sha256": "83e9712367c1a2ec0d54b40686a3d2d484b6cd4b97b938034bc3a1b9b06dee1f"
           }
         }
+      },
+      "MOOER::GE100 original": {
+        "model_key": "MOOER::GE100 original",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://karesusuki1991.up.seesaa.net/image/Mooer20GE100.jpg",
+            "source_url": "https://karesusuki1991.seesaa.net/article/MOOER-GE200.html",
+            "caption": "MOOER original GE100 powered controls",
+            "note": "Visually checked: original GE100, complete powered-on control surface with orange P80 ELE DIST display and illuminated indicators. Near-overhead view has slight perspective; exact orthographic top-down photograph remains pending. Source article discusses GE200 but this pictured unit is visibly GE100.",
+            "visual_checked": true,
+            "sha256": "211ae38c92ec8c5c0a9c5e47b4ff5ab52bb6e835e68ed92559f801b3a8b3ce78",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://r2.gear4music.com/media/46/469856/1200/preview.jpg",
+            "source_url": "https://www.gear4music.com/Guitar-and-Bass/Mooer-GE100-Multi-Effects-Processor/2A79",
+            "caption": "MOOER original GE100 rear connections",
+            "note": "Visually checked: original GE100 complete rear connection panel, showing INPUT, shared OUTPUT/PHONES, AUX IN and DC9V 300mA inlet. Recessed dark labels have low contrast but are readable; no separate headphone socket shown.",
+            "visual_checked": true,
+            "sha256": "00a87ee989e3c9e19b422144ebdd7a81c0821dc3fc4d5981db60598fa3c4089c"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::M13"
+    "last_model": "MOOER::GE100 original"
   }
 }
