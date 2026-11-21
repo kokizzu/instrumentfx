@@ -191086,6 +191086,65 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Harley Benton::DNAfx GiT Core": {
+        "model_key": "Harley Benton::DNAfx GiT Core",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2024-09",
+          "precision": "month",
+          "kind": "retailer_availability_month",
+          "source_urls": [
+            "https://www.thomann.co.uk/harley_benton_dnafx_git_core.htm"
+          ],
+          "note": "Brand-owner retailer reports available since September 2024; exact worldwide first shipment day unverified. Manual date is not hardware launch."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://harleybenton.com/product/dnafx-git-core/"
+          ],
+          "note": "Exact-model page offers Mac/Windows setup and firmware-update bundles. Windows link filename contains v1.0.0_win_setup.exe.zip, which does not establish device firmware version or release date. No dated device changelog located; bundle not installed or unpacked. Update span remains uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PITCH SHIFT provides whammy-like shifting; DETUNE provides fine pitch adjustment. Input-note polyphony, tracking latency and intelligent harmony are not established by the checked table.",
+          "preset": "200 storable/recallable patches. Pitch settings belong to the selected effect configuration; hardware recall not tested.",
+          "dsp": "Pitch and detune share the single MOD block with chorus/filter and other modulation choices. Up to nine effect types total; no pitch CPU percentage or measured resource budget located. One of nine categories does not mean one ninth of CPU.",
+          "source_urls": [
+            "https://harleybenton.com/product/dnafx-git-core/",
+            "https://images.static-thomann.de/pics/atg/atgdata/document/manual/578764_c_578764_en_online.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No guitar/bass tracking measurement or software installation. Core evidence is not transferred from Advanced, Pro or original GiT."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://harleybenton.com/product/dnafx-git-core/",
+            "title": "Harley Benton DNAfx GiT Core product and downloads",
+            "access": "Manufacturer page read",
+            "evidence": "Exact Core setup/firmware bundles; 200 patches and nine simultaneous effect types. Windows setup filename v1.0.0 is not verified device firmware."
+          },
+          {
+            "url": "https://www.thomann.co.uk/harley_benton_dnafx_git_core.htm",
+            "title": "Thomann DNAfx GiT Core availability",
+            "access": "Brand-owner retailer exact-item page read",
+            "evidence": "Item578764 available since September2024."
+          },
+          {
+            "url": "https://images.static-thomann.de/pics/atg/atgdata/document/manual/578764_c_578764_en_online.pdf",
+            "title": "DNAfx GiT Core manual, 03.07.2024, ID578764",
+            "access": "Manufacturer original PDF text read",
+            "evidence": "PITCH SHIFT and DETUNE in MOD; preset storage and software update procedures. No polyphony guarantee or pitch CPU figure located."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -191096,7 +191155,6 @@
       "Fractal Audio::FM9 original",
       "Fractal Audio::FM9 Turbo",
       "Fractal Audio::VP4",
-      "Harley Benton::DNAfx GiT Core",
       "Kemper::PROFILER Head MK2",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER PowerHead MK2",
@@ -191338,9 +191396,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 155,
-    "last_model": "Keeley::Delay Workstation",
-    "last_commit_parent": "dd2dfe4f98e0817b237372f524d06d8a9adca220",
+    "completed_model_count": 156,
+    "last_model": "Harley Benton::DNAfx GiT Core",
+    "last_commit_parent": "d2cd2cc5609e2cd7d9b96d2f42e90cad1ba36763",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -191350,7 +191408,6 @@
       "Fractal Audio::FM9 original",
       "Fractal Audio::FM9 Turbo",
       "Fractal Audio::VP4",
-      "Harley Benton::DNAfx GiT Core",
       "Kemper::PROFILER Head MK2",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER PowerHead MK2",
@@ -191591,7 +191648,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 155,
+    "pitch_completed_model_count": 156,
     "supplemental_model_count": 0
   },
   "model_images": {

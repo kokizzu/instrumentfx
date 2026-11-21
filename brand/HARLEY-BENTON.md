@@ -82,6 +82,30 @@ Next: complete accessible exact-model fields or resume qualified Shopee/LCD prio
 
 ## DNAfx GiT Core
 
+<!-- firmware-pitch:Harley Benton::DNAfx GiT Core begins -->
+### Firmware and pitch audit — Harley Benton DNAfx GiT Core
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-09 (retailer availability month). Brand-owner retailer reports available since September 2024; exact worldwide first shipment day unverified. Manual date is not hardware launch. [launch 1](https://www.thomann.co.uk/harley_benton_dnafx_git_core.htm) |
+| Firmware / latest verification | Not verified — Unverified. Exact-model page offers Mac/Windows setup and firmware-update bundles. Windows link filename contains v1.0.0_win_setup.exe.zip, which does not establish device firmware version or release date. No dated device changelog located; bundle not installed or unpacked. Update span remains uncalculable. [firmware 1](https://harleybenton.com/product/dnafx-git-core/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH SHIFT provides whammy-like shifting; DETUNE provides fine pitch adjustment. Input-note polyphony, tracking latency and intelligent harmony are not established by the checked table. [pitch 1](https://harleybenton.com/product/dnafx-git-core/) [pitch 2](https://images.static-thomann.de/pics/atg/atgdata/document/manual/578764_c_578764_en_online.pdf) |
+| Pitch / preset recall | 200 storable/recallable patches. Pitch settings belong to the selected effect configuration; hardware recall not tested. |
+| Pitch / DSP resources | Pitch and detune share the single MOD block with chorus/filter and other modulation choices. Up to nine effect types total; no pitch CPU percentage or measured resource budget located. One of nine categories does not mean one ninth of CPU. |
+| Pitch / qualifications | No guitar/bass tracking measurement or software installation. Core evidence is not transferred from Advanced, Pro or original GiT. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Harley Benton DNAfx GiT Core product and downloads](https://harleybenton.com/product/dnafx-git-core/) — Exact Core setup/firmware bundles; 200 patches and nine simultaneous effect types. Windows setup filename v1.0.0 is not verified device firmware. (Manufacturer page read).
+- [Thomann DNAfx GiT Core availability](https://www.thomann.co.uk/harley_benton_dnafx_git_core.htm) — Item578764 available since September2024. (Brand-owner retailer exact-item page read).
+- [DNAfx GiT Core manual, 03.07.2024, ID578764](https://images.static-thomann.de/pics/atg/atgdata/document/manual/578764_c_578764_en_online.pdf) — PITCH SHIFT and DETUNE in MOD; preset storage and software update procedures. No polyphony guarantee or pitch CPU figure located. (Manufacturer original PDF text read).
+
+<!-- firmware-pitch:Harley Benton::DNAfx GiT Core ends -->
+
 Checked 2026-10-19; partial. Exact Core hardware; separate from GiT, Advanced and Pro. Included from the user-requested [Jamie Slays list](https://jamieslays.com/best-multi-effects-pedals/). Bass/vocal suitability and ownership unverified.
 
 | Field | Evidence / qualification |
