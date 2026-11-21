@@ -345,6 +345,32 @@ Earlier403/indexed-only observations remain historical access evidence;this reco
 
 ## MX300
 
+<!-- firmware-pitch:Lexicon::MX300 begins -->
+### Firmware and pitch audit — Lexicon MX300
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2007-01 (Winter NAMM introduction; exact first retail shipment unverified). Contemporaneous January 17, 2007 NAMM product coverage establishes introduction by that month, not a proven shipment day. [launch 1](https://www.sweetwater.com/insync/winter-namm-2007-lexicon-mx300-stereo-reverb/) |
+| Firmware / latest verification | Not verified — Unverified. Official indexed listing shows August 2016 MX Edit Mac 2.2.0/Windows 2.3.1 and MX NetUpdater 1.0. These are host editor/updater versions; no authenticated device firmware version/date located. Document upload dates are not firmware releases. Direct manufacturer software route returned 403; release-to-update duration remains unknown. [firmware 1](https://lexiconpro.com/en-US/products/mx300) [firmware 2](https://lexiconpro.com/en-US/softwares/mx-netupdater-v1-0-windows) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Chromatic Pitch Shift and Detune; Shift 1/2, Delay 1/2 and Feedback 1/2 allow shifted/detuned delayed repeats. Manual recommends individual notes; neither polyphony nor a strict monophonic-only restriction is established. [pitch 1](https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf) [pitch 2](https://adn.harmanpro.com/product_documents/documents/919_1332367297/MX300_DataSheet_original.pdf) |
+| Pitch / preset recall | 99 factory plus 99 writable user programs. Save pitch parameters within a program; recall from panel or MIDI. Initial user-bank contents remain unverified; computer library is separate. |
+| Pitch / DSP resources | Routes 1–4 allow two effects; pitch uses an effect slot. Route 5 provides one expanded stereo effect using all available DSP. This is a routing allocation, not a measured pitch CPU percentage; no numerical pitch-specific budget found. |
+| Pitch / qualifications | Stereo channel format does not establish chord tracking. No tracking-latency measurement made. Do not substitute PCM Native software algorithms, MX200 behavior or MX400 capabilities for MX300 evidence. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Sweetwater Winter NAMM 2007 MX300 coverage](https://www.sweetwater.com/insync/winter-namm-2007-lexicon-mx300-stereo-reverb/) — MX300 introduced in Winter NAMM 2007 coverage; not proof of exact first shipment. (Contemporaneous retailer product announcement indexed January 17, 2007).
+- [Lexicon MX300 official product/download listing](https://lexiconpro.com/en-US/products/mx300) — Discontinued; editor 2.2.0 Mac/2.3.1 Windows and NetUpdater 1.0 listed in August 2016, distinct from device firmware. (Manufacturer search-indexed text; direct access restricted).
+- [Lexicon MX NetUpdater v1.0 Windows](https://lexiconpro.com/en-US/softwares/mx-netupdater-v1-0-windows) — Explicitly a Windows firmware updater; its 1.0 version does not identify the payload installed on MX300. (Manufacturer indexed text; direct 403).
+- [Lexicon MX300 User Guide Rev E 18-0473V-E](https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf) — Printed pp16,28–29,34,44: dual/single-effect routing, pitch/detune controls and individual-note recommendation, program storage and MIDI recall. No explicit polyphony guarantee or pitch DSP percentage. (Manufacturer CDN PDF text inspected, 60 pages).
+- [Lexicon MX300 original data sheet](https://adn.harmanpro.com/product_documents/documents/919_1332367297/MX300_DataSheet_original.pdf) — 99 factory/99 user programs, five routing options and Pitch Shift/Detune catalogue. Computer editor library differs from onboard memory. (Manufacturer CDN two-page PDF text inspected).
+
+<!-- firmware-pitch:Lexicon::MX300 ends -->
+
 Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-17; partial. Suitable line-level routing required; XLR sockets do not establish a microphone preamp or phantom power. Bass-track processing is documented in its own manual; ownership unestablished. Distinct from MX200 and MX400.
 
 <!-- comparison evidence begins -->

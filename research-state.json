@@ -200046,10 +200046,82 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Lexicon::MX300": {
+        "model_key": "Lexicon::MX300",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2007-01",
+          "precision": "month",
+          "kind": "Winter NAMM introduction; exact first retail shipment unverified",
+          "source_urls": [
+            "https://www.sweetwater.com/insync/winter-namm-2007-lexicon-mx300-stereo-reverb/"
+          ],
+          "note": "Contemporaneous January 17, 2007 NAMM product coverage establishes introduction by that month, not a proven shipment day."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://lexiconpro.com/en-US/products/mx300",
+            "https://lexiconpro.com/en-US/softwares/mx-netupdater-v1-0-windows"
+          ],
+          "note": "Official indexed listing shows August 2016 MX Edit Mac 2.2.0/Windows 2.3.1 and MX NetUpdater 1.0. These are host editor/updater versions; no authenticated device firmware version/date located. Document upload dates are not firmware releases. Direct manufacturer software route returned 403; release-to-update duration remains unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Chromatic Pitch Shift and Detune; Shift 1/2, Delay 1/2 and Feedback 1/2 allow shifted/detuned delayed repeats. Manual recommends individual notes; neither polyphony nor a strict monophonic-only restriction is established.",
+          "preset": "99 factory plus 99 writable user programs. Save pitch parameters within a program; recall from panel or MIDI. Initial user-bank contents remain unverified; computer library is separate.",
+          "dsp": "Routes 1–4 allow two effects; pitch uses an effect slot. Route 5 provides one expanded stereo effect using all available DSP. This is a routing allocation, not a measured pitch CPU percentage; no numerical pitch-specific budget found.",
+          "source_urls": [
+            "https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
+            "https://adn.harmanpro.com/product_documents/documents/919_1332367297/MX300_DataSheet_original.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Stereo channel format does not establish chord tracking. No tracking-latency measurement made.",
+            "Do not substitute PCM Native software algorithms, MX200 behavior or MX400 capabilities for MX300 evidence."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sweetwater.com/insync/winter-namm-2007-lexicon-mx300-stereo-reverb/",
+            "title": "Sweetwater Winter NAMM 2007 MX300 coverage",
+            "access": "Contemporaneous retailer product announcement indexed January 17, 2007",
+            "evidence": "MX300 introduced in Winter NAMM 2007 coverage; not proof of exact first shipment."
+          },
+          {
+            "url": "https://lexiconpro.com/en-US/products/mx300",
+            "title": "Lexicon MX300 official product/download listing",
+            "access": "Manufacturer search-indexed text; direct access restricted",
+            "evidence": "Discontinued; editor 2.2.0 Mac/2.3.1 Windows and NetUpdater 1.0 listed in August 2016, distinct from device firmware."
+          },
+          {
+            "url": "https://lexiconpro.com/en-US/softwares/mx-netupdater-v1-0-windows",
+            "title": "Lexicon MX NetUpdater v1.0 Windows",
+            "access": "Manufacturer indexed text; direct 403",
+            "evidence": "Explicitly a Windows firmware updater; its 1.0 version does not identify the payload installed on MX300."
+          },
+          {
+            "url": "https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
+            "title": "Lexicon MX300 User Guide Rev E 18-0473V-E",
+            "access": "Manufacturer CDN PDF text inspected, 60 pages",
+            "evidence": "Printed pp16,28–29,34,44: dual/single-effect routing, pitch/detune controls and individual-note recommendation, program storage and MIDI recall. No explicit polyphony guarantee or pitch DSP percentage."
+          },
+          {
+            "url": "https://adn.harmanpro.com/product_documents/documents/919_1332367297/MX300_DataSheet_original.pdf",
+            "title": "Lexicon MX300 original data sheet",
+            "access": "Manufacturer CDN two-page PDF text inspected",
+            "evidence": "99 factory/99 user programs, five routing options and Pitch Shift/Detune catalogue. Computer editor library differs from onboard memory."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Lexicon::MX300",
       "Lexicon::MX400",
       "MOD Audio::Duo",
       "Mosky::DC5",
@@ -200188,12 +200260,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 265,
-    "last_model": "Lexicon::MX200",
-    "last_commit_parent": "a49be2078d50707c0e51f0b5379702a35941d678",
+    "completed_model_count": 266,
+    "last_model": "Lexicon::MX300",
+    "last_commit_parent": "6fb8369346caf2d81f3f8b9e30c01bd92333142d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Lexicon::MX300",
       "Lexicon::MX400",
       "MOD Audio::Duo",
       "Mosky::DC5",
@@ -200331,7 +200402,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 265,
+    "pitch_completed_model_count": 266,
     "supplemental_model_count": 0
   },
   "model_images": {
