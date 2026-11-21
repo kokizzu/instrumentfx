@@ -194510,11 +194510,35 @@
             "sha256": "c6d0401b4d5381d7a396219aeee8441a00fa4ed42f20fd7740fee7e6ccfd67e8"
           }
         }
+      },
+      "Korg::AX100G": {
+        "model_key": "Korg::AX100G",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/29667/55504/YKORG10982303__79617.1632822386.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/korg-ax100g-guitar-multi-fx-processor-w-box-psu-2nd-hand/",
+            "caption": "AX100G — unlit angled top view",
+            "note": "Exact-model Rich Tone used-unit photograph shows AX100G marking, rotary controls, footswitches and expression treadle. LCD and indicators are unlit; power-on state is not established. Angled perspective does not meet the requested powered-on straight top-down view, which remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "3383b1e6d97efa063497cbad179329fda0a38275bcf53021523ffadc44a1b6bf"
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/29667/55506/YKORG10982305__35741.1632822386.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/korg-ax100g-guitar-multi-fx-processor-w-box-psu-2nd-hand/",
+            "caption": "AX100G — rear connections",
+            "note": "Exact AX100G rear/side photograph from the same retailer. INPUT, AUX IN, DC9V and OUTPUT labels/connectors are visible, with switch and cable restraint. Black-on-black lettering and perspective limit small-label readability; precise switch function, power polarity and complete headphone/output labeling are not inferred from this image. Sharper straight rear detail remains desirable.",
+            "visual_checked": true,
+            "sha256": "9728cdc37323f8524859dd0e83ad35ae22643833d186066d591e7f7e8dcf79f0"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX1000G"
+    "last_model": "Korg::AX100G"
   }
 }

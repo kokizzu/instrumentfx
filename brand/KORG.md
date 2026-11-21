@@ -622,6 +622,26 @@ Sources checked:
 
 <!-- firmware-pitch:Korg::AX100G ends -->
 
+<!-- model-images:Korg::AX100G begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**AX100G — unlit angled top view**
+
+[![AX100G — unlit angled top view](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/29667/55504/YKORG10982303__79617.1632822386.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/29667/55504/YKORG10982303__79617.1632822386.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/korg-ax100g-guitar-multi-fx-processor-w-box-psu-2nd-hand/). Exact-model Rich Tone used-unit photograph shows AX100G marking, rotary controls, footswitches and expression treadle. LCD and indicators are unlit; power-on state is not established. Angled perspective does not meet the requested powered-on straight top-down view, which remains pending.
+
+**AX100G — rear connections**
+
+[![AX100G — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/29667/55506/YKORG10982305__35741.1632822386.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/29667/55506/YKORG10982305__35741.1632822386.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/korg-ax100g-guitar-multi-fx-processor-w-box-psu-2nd-hand/). Exact AX100G rear/side photograph from the same retailer. INPUT, AUX IN, DC9V and OUTPUT labels/connectors are visible, with switch and cable restraint. Black-on-black lettering and perspective limit small-label readability; precise switch function, power polarity and complete headphone/output labeling are not inferred from this image. Sharper straight rear detail remains desirable.
+
+</details>
+<!-- model-images:Korg::AX100G ends -->
+
+
 Checked2026-10-17;partial. Guitar scope; bass/vocal suitability and ownership unestablished. Distinct fromAX1000G.
 
 <!-- comparison evidence begins -->
