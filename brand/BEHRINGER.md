@@ -479,6 +479,32 @@ Six selector positions are effect choices,not documented saved presets;the singl
 
 ## FX2000
 
+<!-- firmware-pitch:Behringer::FX2000 begins -->
+### Firmware and pitch audit — Behringer FX2000
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact hardware launch not verified. Product page dates quick-start guide2010-07-08; that is a document date, not first shipping date. [launch 1](https://www.behringer.com/en/products/0828-AAG) |
+| Firmware / latest verification | Not verified — No public firmware located. Current manufacturer Files section lists manuals/guides, no dated firmware package. Targeted Behringer FX2000 search found no verified firmware history. Exclude Sintefex,CONTEC and Inseego FX2000 updates and generated USB-update FAQ. SysEx settings transfer does not prove ROM updating; installed/service ROM remains unverified. [firmware 1](https://www.behringer.com/en/products/0828-AAG) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Algorithm27 Pitch Shifter: stereo/two-/three-voice configuration; each voice ±12semitones and ±50cents, voice2 stereo-linked option and voice3 Off. Input-note polyphony remains unspecified; output voice count is not whole-chord tracking evidence. Pitch/Reverb and Pitch/Delay are fixed combination choices. [pitch 1](https://www.manualowl.com/m/Behringer/FX2000/Manual/462372?page=8) [pitch 2](https://www.manualowl.com/m/Behringer/FX2000/Manual/462372?page=27) [pitch 3](https://www.manualowl.com/m/Behringer/FX2000/Manual/462372?page=17) [pitch 4](https://www.behringer.com/en/products/0828-AAG) |
+| Pitch / preset recall | 100 factory plus100 user presets. Own manual p17 documents last-used recall at power-up and about1second activation on preset changes, with brief signal suppression. Seamless pitch changes/spillover not established; printed inclusive bank ranges conflict with stated counts. |
+| Pitch / DSP resources | 71 algorithms include11 combinations (61–71), with serial1,serial2 orparallel dual-engine routing. These are fixed program structures, not freely loadable duplicate pitch blocks. No per-pitch CPU percentage or numerical resource cost located. Mix0–100% is wet/dry level, not DSP usage. |
+| Pitch / qualifications | Pitch specifications are from the FX2000 manual, not transferred from DSP2024P. Multiple generated voices and true stereo processing do not establish polyphonic input handling. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Behringer exact FX2000 product and download index](https://www.behringer.com/en/products/0828-AAG) — 100+100 presets;dual-engine combinations61–71 serial/parallel;MIDI/SysEx settings;Files lists guides/manual only, including dated2010-07-08 QSG. (opened).
+- [FX2000 manufacturer manual p8, readable mirror](https://www.manualowl.com/m/Behringer/FX2000/Manual/462372?page=8) — Pitch Shifter stereo/two-/three-voice behavior and linkage/off controls. (manufacturer_manuscript_on_public_mirror; text_only).
+- [FX2000 manufacturer manual p27, parameter ranges](https://www.manualowl.com/m/Behringer/FX2000/Manual/462372?page=27) — Algorithm27 row: semitones ±12, cents ±50;voice2 stereo and voice3 off options;Mix0–100%. (manufacturer_manuscript_on_public_mirror; table_text).
+- [FX2000 manufacturer manual p17, preset operation](https://www.manualowl.com/m/Behringer/FX2000/Manual/462372?page=17) — 100 internal+100 user,last-used preset recall,about1second new-preset activation and signal suppression. (manufacturer_manuscript_on_public_mirror; text_only).
+- [Current official FX2000 full manual target](https://cdn-media.empowertribe.com/14fb57d60cbf45b5bba9eb2663a77dc4/FX2000_P0A3P_M_EN.pdf) — Manufacturer product link resolves to current CDN;direct web retrieval timed out. Manual claims use separately readable manuscript pages,not unseen PDF. (fetch_timeout).
+
+<!-- firmware-pitch:Behringer::FX2000 ends -->
+
 VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvocals. Checked2026-10-17;partial. Use suitable amp/mixer routing;XLR connectors alone do not establish a microphone preamp.
 
 | Field | Evidence / qualification |
