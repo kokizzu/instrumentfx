@@ -10,6 +10,31 @@
 
 ## Anagram
 
+<!-- firmware-pitch:Darkglass::Anagram begins -->
+### Firmware and pitch audit — Darkglass Anagram
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025-04-22 (manufacturer announcement proxy). Manufacturer announcement reproduced as a press release by Bass Gear Magazine; exact first retail shipment unverified. [launch 1](https://www.bassgearmag.com/darkglass-electronics-introduces-anagram-the-future-of-bass-reimagined/) |
+| Firmware / latest verification | KosmOS 1.19.2 — Latest verified. Current manufacturer product page lists 1.19.2, fixing clearing hidden/favorite blocks. Linked package filename identifies build 1.19.2.24 dated 2026-11-05; build date is not a verified public release date. Update span uncomputed. Suite app and manual 1.17 versions are separate. [firmware 1](https://www.darkglass.com/en-gb/products/anagram) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Manufacturer explicitly labels Pitch Shifter and Subcitri Octaver polyphonic; Sublime and Sublemon Octavers monophonic. Pitch Bender also listed, without an explicit input-polyphony label in the checked list. Exact shift ranges unverified here. [pitch 1](https://www.darkglass.com/pages/anagram-manual) [pitch 2](https://api.darkglass.com/static/Anagram-Manual.pdf) |
+| Pitch / preset recall | KosmOS 1.17 manual: 42 banks × 3 = 126 presets; read-only factory area can be copied into writable User area. Later area expansion and full current capacity not reconciled; not a fixed 126 factory plus 126 user claim. |
+| Pitch / DSP resources | Six-core architecture; manual chain view supports two rows and up to 24 blocks per preset. This does not guarantee 24 pitch instances. No manufacturer per-pitch CPU percentage or measured pitch-instance ceiling in checked sources; resource use remains algorithm/chain dependent and unmeasured. |
+| Pitch / qualifications | Polyphony labels concern the named algorithms, not every octave or synth block. Axioma is explicitly a mono synth. No Hotone resource percentage transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Darkglass introduces ANAGRAM press release](https://www.bassgearmag.com/darkglass-electronics-introduces-anagram-the-future-of-bass-reimagined/) — Helsinki April 22, 2025 launch announcement; not an independently verified first shipment. (Manufacturer announcement reproduced by Bass Gear Magazine).
+- [Darkglass Anagram current firmware and changelog](https://www.darkglass.com/en-gb/products/anagram) — KosmOS 1.19.2 and hidden/favorite-block clearing fix. Package name 1.19.2.24 with 2026-11-05 build label, not a dated release announcement. (Manufacturer current product web text and linked package URL).
+- [Darkglass Anagram official block list](https://www.darkglass.com/pages/anagram-manual) — Pitch Shifter/Subcitri explicitly polyphonic; Sublime/Sublemon explicitly monophonic; Pitch Bender and mono Axioma separately listed. (Manufacturer current manual/support web text).
+- [Anagram manual, KosmOS 1.17](https://api.darkglass.com/static/Anagram-Manual.pdf) — Six cores, two-row 24-block chain view, 42 three-preset banks and factory-to-user copying. Earlier manual is not proof of all 1.19.2 capacities. (Manufacturer 97-page PDF web text; cover version retained).
+
+<!-- firmware-pitch:Darkglass::Anagram ends -->
+
 Bass multi-effects platform; checked2026-10-18,partial. Ownership unverified. Guitar cabinet choices do not independently establish guitar/vocal comparison membership. Expression accessory is a separate product,not another processor.
 
 | Field | Finding / qualification | Evidence |

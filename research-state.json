@@ -184870,10 +184870,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Darkglass::Anagram": {
+        "model_key": "Darkglass::Anagram",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2025-04-22",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.bassgearmag.com/darkglass-electronics-introduces-anagram-the-future-of-bass-reimagined/"
+          ],
+          "note": "Manufacturer announcement reproduced as a press release by Bass Gear Magazine; exact first retail shipment unverified."
+        },
+        "firmware": {
+          "version": "KosmOS 1.19.2",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.darkglass.com/en-gb/products/anagram"
+          ],
+          "note": "Current manufacturer product page lists 1.19.2, fixing clearing hidden/favorite blocks. Linked package filename identifies build 1.19.2.24 dated 2026-11-05; build date is not a verified public release date. Update span uncomputed. Suite app and manual 1.17 versions are separate."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Manufacturer explicitly labels Pitch Shifter and Subcitri Octaver polyphonic; Sublime and Sublemon Octavers monophonic. Pitch Bender also listed, without an explicit input-polyphony label in the checked list. Exact shift ranges unverified here.",
+          "preset": "KosmOS 1.17 manual: 42 banks × 3 = 126 presets; read-only factory area can be copied into writable User area. Later area expansion and full current capacity not reconciled; not a fixed 126 factory plus 126 user claim.",
+          "dsp": "Six-core architecture; manual chain view supports two rows and up to 24 blocks per preset. This does not guarantee 24 pitch instances. No manufacturer per-pitch CPU percentage or measured pitch-instance ceiling in checked sources; resource use remains algorithm/chain dependent and unmeasured.",
+          "measurements": [],
+          "source_urls": [
+            "https://www.darkglass.com/pages/anagram-manual",
+            "https://api.darkglass.com/static/Anagram-Manual.pdf"
+          ],
+          "notes": [
+            "Polyphony labels concern the named algorithms, not every octave or synth block. Axioma is explicitly a mono synth. No Hotone resource percentage transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.bassgearmag.com/darkglass-electronics-introduces-anagram-the-future-of-bass-reimagined/",
+            "title": "Darkglass introduces ANAGRAM press release",
+            "access": "Manufacturer announcement reproduced by Bass Gear Magazine",
+            "evidence": "Helsinki April 22, 2025 launch announcement; not an independently verified first shipment."
+          },
+          {
+            "url": "https://www.darkglass.com/en-gb/products/anagram",
+            "title": "Darkglass Anagram current firmware and changelog",
+            "access": "Manufacturer current product web text and linked package URL",
+            "evidence": "KosmOS 1.19.2 and hidden/favorite-block clearing fix. Package name 1.19.2.24 with 2026-11-05 build label, not a dated release announcement."
+          },
+          {
+            "url": "https://www.darkglass.com/pages/anagram-manual",
+            "title": "Darkglass Anagram official block list",
+            "access": "Manufacturer current manual/support web text",
+            "evidence": "Pitch Shifter/Subcitri explicitly polyphonic; Sublime/Sublemon explicitly monophonic; Pitch Bender and mono Axioma separately listed."
+          },
+          {
+            "url": "https://api.darkglass.com/static/Anagram-Manual.pdf",
+            "title": "Anagram manual, KosmOS 1.17",
+            "access": "Manufacturer 97-page PDF web text; cover version retained",
+            "evidence": "Six cores, two-row 24-block chain view, 42 three-preset banks and factory-to-user copying. Earlier manual is not proof of all 1.19.2 capacities."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Darkglass::Anagram",
       "DemonFX::Dual Mod Workstation",
       "DigiTech::BP355",
       "DigiTech::GNX3",
@@ -185204,12 +185268,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 73,
-    "last_model": "CUVAVE::H8",
-    "last_commit_parent": "1ef3cbc726956d59c8f81b25f70eedeadb60013d",
+    "completed_model_count": 74,
+    "last_model": "Darkglass::Anagram",
+    "last_commit_parent": "c3deed4649161fdd33c51fec6d77c35478c7558e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Darkglass::Anagram",
       "DemonFX::Dual Mod Workstation",
       "DigiTech::BP355",
       "DigiTech::GNX3",
@@ -185539,7 +185602,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 73,
+    "pitch_completed_model_count": 74,
     "supplemental_model_count": 0
   }
 }
