@@ -191,6 +191,32 @@ Exact Shopee Indonesia hardware, supply-voltage conflict, current library equiva
 
 ## TONEX ONE
 
+<!-- firmware-pitch:IK Multimedia::TONEX ONE begins -->
+### Firmware and pitch audit — IK Multimedia TONEX ONE
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-04-24 (manufacturer announcement). Official April 24, 2024 announcement opens preorders and schedules shipping for mid-May. Date measures announcement-to-update, not confirmed first shipment. [launch 1](https://ikmultimedia.com/en-us/blogs/news/ik-announces-tonex-one) |
+| Firmware / latest verification | 1.3.17 — Located; latest status unverified. Latest exact ONE firmware located in IK staff update post dated May 7, 2026; date is the published announcement, not independently verified package build date. Improves gate stability and within-preset effect-bypass spillover. Software 1.12.0, Pedal 1.6.22 and ONE+ 1.0.3 are separate. Account/device updater not queried; no firmware installed. November parametric roadmap schedules ONE support for 2027 rather than proving a current update. [firmware 1](https://forum.ikmultimedia.com/t/software-app-and-firmware-updates-for-tonex-tonex-one-tonex-one-tonex-pedal-tonex-plug/264) [firmware 2](https://ikmultimedia.com/en-us/blogs/news/tonex-parametric-tone-model-technology-now-available) |
+| Firmware / release date | 2026-05-07 (day precision) |
+| Firmware / release-to-update duration | 2.03 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No dedicated input pitch shifter, harmonizer or octave processor documented in the checked standard ONE hardware effect inventory. Existing gate, EQ, compressor, delay/modulation and reverb are not proof of note transposition. TONEX Rig/Board pitch effects and ONE+ features are not inherited by standard ONE. [pitch 1](https://ikmultimedia.com/products/tonexone) [pitch 2](https://www.ikmultimedia.com/news/?id=TonexFxReleased2) [pitch 3](https://ikmultimedia.com/en-us/blogs/news/ik-announces-tonex-one) |
+| Pitch / preset recall | Manufacturer sources document 20 stored presets and three playable slots; current redesigned page also says 30 in marketing. Conflict retained, without an unsupported firmware explanation. Model/preset loading is separate from a dedicated pitch algorithm. |
+| Pitch / DSP resources | No pitch DSP cost applicable to a verified pitch algorithm because none was documented. No isolated CPU percentages found. Captured drive/amp behavior and software Pitch Shifter blocks do not establish hardware pitch tracking or its resource cost. |
+| Pitch / qualifications | 2024 TONEX FX release explicitly adds two delays, chorus, flanger, tremolo, phaser, rotary and spring reverb to ONE/Pedal firmware. It does not list a pitch-shifting block. This is documentation scope, not a proof that future firmware can never add pitch processing. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [IK announces standard TONEX ONE](https://ikmultimedia.com/en-us/blogs/news/ik-announces-tonex-one) — Preorder announcement with mid-May shipping schedule; 20 presets and three active slots. (Official April 24, 2024 announcement read).
+- [IK staff hardware/software update announcement](https://forum.ikmultimedia.com/t/software-app-and-firmware-updates-for-tonex-tonex-one-tonex-one-tonex-pedal-tonex-plug/264) — ONE firmware 1.3.17 and its gate/spillover changes, separated from software and sibling firmware. (Official IK forum post by Peter-IK, May 7, 2026, read).
+- [Standard TONEX ONE current product page](https://ikmultimedia.com/products/tonexone) — Gate, compressor, EQ, modulation, delay and reverb scope; current 30 marketing versus 20 specification disagreement. (Current manufacturer page and exact standard-model indexed specifications read).
+- [IK releases TONEX FX](https://www.ikmultimedia.com/news/?id=TonexFxReleased2) — Eight added effects explicitly apply to ONE hardware; no dedicated pitch shifter listed. (Official November 14, 2024 release announcement read).
+- [IK parametric Tone Model release and roadmap](https://ikmultimedia.com/en-us/blogs/news/tonex-parametric-tone-model-technology-now-available) — Current parametric support targets software/Board; ONE support scheduled for first quarter 2027, not certified delivered. (Official November 17, 2026 announcement read).
+
+<!-- firmware-pitch:IK Multimedia::TONEX ONE ends -->
+
 Standard TONEX ONE guitar/bass processor, not TONEX ONE+, Bass Edition or an artist variant. Consolidated and partially refreshed **2026-10-17**; no additional active model.
 
 ### Preserved historical evidence
