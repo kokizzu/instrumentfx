@@ -204721,11 +204721,51 @@
             "exact_top_down": false
           }
         }
+      },
+      "Kemper::PROFILER PowerHead MK2": {
+        "model_key": "Kemper::PROFILER PowerHead MK2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn-image.bonedo.de/wp-media-folder-bonedoapp/uploads/2026/03/Kemper_Profiler_PowerHead_MK2_008_FIN-1024x614.jpg",
+            "source_url": "https://www.bonedo.de/artikel/test-kemper-profiler-powerhead-mk-2-ist-profiling-2-0-der-grosse-wurf/",
+            "caption": "PowerHead MK2 review-unit front/control-face perspective with active LCD showing a Rig.",
+            "note": "Actual photographed unit in an exact-model MK2 review; LCD visibly displays AC Normal Drive. This upright Head has front-facing controls, so this is a powered control-face view rather than perpendicular overhead. The official listing reused a less revision-specific Head image, retained only as inspected alternative evidence.",
+            "visual_checked": true,
+            "sha256": "eeb3d69c4ef9f0e5631eda73b550933c424e7865516b9739fc8e218e8ac91a47",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://cdn-image.bonedo.de/wp-media-folder-bonedoapp/uploads/2026/03/Kemper_Profiler_PowerHead_MK2_036_FIN-1024x614.jpg",
+            "source_url": "https://www.bonedo.de/artikel/test-kemper-profiler-powerhead-mk-2-ist-profiling-2-0-der-grosse-wurf/",
+            "caption": "PowerHead MK2 review-unit rear panel with red SPEAKER OUTPUT, amplifier ventilation and full connector bank.",
+            "note": "Visible RETURN XLR/quarter-inch, ALTERNATIVE INPUT, DIRECT/SEND, MONITOR, stereo MAIN XLR/quarter-inch, S/PDIF RCA, MIDI thru/out/in, two pedal sockets, NETWORK, USB-A/B and IEC mains. Speaker label says8–16ohm,600W at8ohm/300W at16ohm; manual13.0 additionally permits4ohm with600W limiting, so label/manual scope difference remains explicit. Mains label100–125V or190–245V,max10A. Photographed unit is PowerHead, not unpowered Head; installed OS is not established.",
+            "visual_checked": true,
+            "sha256": "985b768c8f8e5c27357a10474b923b885c5645fca97809891f24e91c299ab148",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-head_front_800w.jpg",
+            "sha256": "19ca13c90982eaa10e02394dfe0a64887ec1d4c4cd5585a01c69a86de92e34b2",
+            "visual_checked": true,
+            "note": "Official PowerHead MK2 listing reuses Head front picture; lacks visible variant/revision identification."
+          },
+          {
+            "image_url": "https://www.kemper-amps.com/images/products/profiler-powerhead_gallery_back_800.jpg",
+            "sha256": "c221908bf2be2e0e75c9c15104c25b5e760cfd3624a2ea2ac6a1eb3bfcc7e99e",
+            "visual_checked": true,
+            "note": "Official listing rear shows green trim and older-looking cabinet with 8–16ohm600/300W amplifier label; exact MK2 photographic revision unresolved, so seek actual review unit."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Kemper::PROFILER Player"
+    "last_model": "Kemper::PROFILER PowerHead MK2"
   }
 }
