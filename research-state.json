@@ -207392,11 +207392,37 @@
             "note": "Official exact-model rear artwork clearly labels stereo TS input/output pairs, 9V600mA center-negative DC, Mini-B USB and MIDI IN/THRU. Product artwork, not a hardware power or functional test."
           }
         ]
+      },
+      "TC Electronic::PLETHORA X5": {
+        "model_key": "TC Electronic::PLETHORA X5",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://img.ricardostatic.ch/images/90813c47-6559-4af9-8756-6d5e7bef1e90/t_1000x750/tc-electronic-plethora-x5-multi-effektpedal",
+            "source_url": "https://www.ricardo.ch/de/a/tc-electronic-plethora-x5-multi-effektpedal-1318169368/",
+            "caption": "PLETHORA X5 — powered-on control-face photograph",
+            "note": "Actual unit on a wood table, power cable attached, four lit effect displays and one blank slot. Sub N Up plus two Brainwaves instances are visibly loaded; this shows duplicate type loading, not a polyphonic audio test or quantified DSP cost. Five rotaries, five footswitches and two selector toggles visible. Slightly oblique overhead, not strict perpendicular top-down; a stricter powered overhead photo remains pending.",
+            "visual_checked": true,
+            "sha256": "570370411580b5ccaa1e8465cd3bac3dcce2e94883062f5b7922a08d5ae74384",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://r2.gear4music.com/media/110/1101954/1200/preview.jpg",
+            "source_url": "https://www.gear4music.de/de/G4M/TC-Electronic-Plethora-X5-TonePrint-Pedalboard-Secondhand/6JKW",
+            "caption": "PLETHORA X5 — actual rear-port photograph",
+            "note": "Actual unpowered secondhand X5 seen from behind. Full row shows MONO/STEREO inputs, MONO/STEREO outputs, INSERT SEND/RETURN, EXP, DC IN 9V600mA center-negative label, Mini-B USB, MIDI IN and THRU. EXP and insert distinguish this model from X3. No dedicated headphone socket visible. Photo does not resolve EXP pinout/TS-versus-TRS documentation conflict or prove USB audio/power; supply label is not measured draw. Rear and powered top are different units.",
+            "visual_checked": true,
+            "sha256": "78210abb9d6696702bdb06f55babfd2106eca2b73d462a24915971d0a962321c",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC Electronic::PLETHORA X3"
+    "last_model": "TC Electronic::PLETHORA X5"
   }
 }

@@ -1090,6 +1090,26 @@ Sources checked:
 
 <!-- firmware-pitch:TC Electronic::PLETHORA X5 ends -->
 
+<!-- model-images:TC Electronic::PLETHORA X5 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**PLETHORA X5 — powered-on control-face photograph**
+
+[![PLETHORA X5 — powered-on control-face photograph](https://img.ricardostatic.ch/images/90813c47-6559-4af9-8756-6d5e7bef1e90/t_1000x750/tc-electronic-plethora-x5-multi-effektpedal)](https://img.ricardostatic.ch/images/90813c47-6559-4af9-8756-6d5e7bef1e90/t_1000x750/tc-electronic-plethora-x5-multi-effektpedal)
+
+[Image source](https://www.ricardo.ch/de/a/tc-electronic-plethora-x5-multi-effektpedal-1318169368/). Actual unit on a wood table, power cable attached, four lit effect displays and one blank slot. Sub N Up plus two Brainwaves instances are visibly loaded; this shows duplicate type loading, not a polyphonic audio test or quantified DSP cost. Five rotaries, five footswitches and two selector toggles visible. Slightly oblique overhead, not strict perpendicular top-down; a stricter powered overhead photo remains pending.
+
+**PLETHORA X5 — actual rear-port photograph**
+
+[![PLETHORA X5 — actual rear-port photograph](https://r2.gear4music.com/media/110/1101954/1200/preview.jpg)](https://r2.gear4music.com/media/110/1101954/1200/preview.jpg)
+
+[Image source](https://www.gear4music.de/de/G4M/TC-Electronic-Plethora-X5-TonePrint-Pedalboard-Secondhand/6JKW). Actual unpowered secondhand X5 seen from behind. Full row shows MONO/STEREO inputs, MONO/STEREO outputs, INSERT SEND/RETURN, EXP, DC IN 9V600mA center-negative label, Mini-B USB, MIDI IN and THRU. EXP and insert distinguish this model from X3. No dedicated headphone socket visible. Photo does not resolve EXP pinout/TS-versus-TRS documentation conflict or prove USB audio/power; supply label is not measured draw. Rear and powered top are different units.
+
+</details>
+<!-- model-images:TC Electronic::PLETHORA X5 ends -->
+
+
 Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal suitability unverified.
 
 <!-- comparison evidence begins -->
