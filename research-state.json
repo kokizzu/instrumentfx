@@ -197208,6 +197208,78 @@
           "label": "1.38 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "M-VAVE::TANK-G": {
+        "model_key": "M-VAVE::TANK-G",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2023-11",
+          "precision": "month",
+          "kind": "manufacturer public-release video month proxy",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=U5-yxj4PolA"
+          ],
+          "note": "Manufacturer New Product Release -- TANK-G video is indexed November 17, 2023. November 2023 is used as a public-release month proxy, not independently verified first retail shipping day. Direct video-page retrieval failed; search-indexed title/date retained."
+        },
+        "firmware": {
+          "version": "V099 (release notes v99)",
+          "date": "2026-11-16",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.m-vave.com/download",
+            "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/Tank-G.txt"
+          ],
+          "note": "Current official index lists TANK-G V099 November 16, 2026; exact release-note endpoint agrees as v99 and describes stability and noise-gate weak-signal/tail cutoff improvements. Supersedes saved v98 October 27, 2026. Index separately lists TANK-Gv2; historical v97 header changed from GV2 to TANK-G, so actual hardware/binary matching is still required. This latest listing is not proof every original revision accepts the package. v98 adds converted NAM/NAN loading and stereo effect revisions; conversion remains required for NAM. Editor/updater versions are separate."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No dedicated pitch-shift, octave or harmony algorithm documented in the checked original TANK-G manual and official firmware history through v99. Original MOD choices are Chorus, Phaser and Tremolo; delays Analog/Tape/Dual; reverbs Room/Spring/Cloud. Tuner pitch indications, chorus modulation and stereo revisions do not establish a dedicated transposer. No TANK-PRO, TANK-B, v2-only or unofficial firmware algorithm transferred.",
+          "preset": "36 editable presets in nine banks of four. PRESET mode recalls A/B/C/D after bank selection; LIVE mode edits the current preset and holding its destination A/B/C/D saves. App/software import/export and sharing are documented. No dedicated pitch preset or analog expression socket in the original panel inventory. Firmware PC/CC control is distinct from an onboard expression interface.",
+          "dsp": "No pitch algorithm or pitch DSP percentage published in checked sources. Six original processing stages, amp slots and IR sample count are not resource percentages; the later stereo update does not quantify remaining DSP. No device benchmark or audio tracking test.",
+          "source_urls": [
+            "https://device.report/m/08d3541cfde925d82a2977ac9bee9f896cdc3af5a64f91c9085e3837915dd172",
+            "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/Tank-G.txt"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer-authored operating text read from a reformatted mirror, excluding generated FAQs/ASIN summaries. Existing earlier visual original-manual evidence remains historical; no renewed PDF byte-equivalence claim.",
+            "Original/v2 firmware source-label conflict preserved. Current product endpoint yielded a shell; exact download index and release notes supply the current version evidence.",
+            "No firmware, editor or NAM model installed; no user presets changed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.m-vave.com/download",
+            "title": "M-VAVE current download index",
+            "access": "Current manufacturer index opened as text",
+            "evidence": "Separate TANK-G and TANK-Gv2 entries; TANK-G V099 dated November 16, 2026."
+          },
+          {
+            "url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/Tank-G.txt",
+            "title": "Manufacturer TANK-G firmware release history",
+            "access": "Current official plain-text notes opened, including v99/v98 and older history",
+            "evidence": "v99 stability/noise-gate corrections; v98 NAM conversion/stereo changes, no dedicated pitch algorithm."
+          },
+          {
+            "url": "https://device.report/m/08d3541cfde925d82a2977ac9bee9f896cdc3af5a64f91c9085e3837915dd172",
+            "title": "Manufacturer TANK-G operating manual body on mirror",
+            "access": "Reformatted manufacturer operating text read; not generated FAQs or a new original-PDF visual check",
+            "evidence": "Original effect library and 36-preset save/recall workflow; no pitch algorithm listed."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=U5-yxj4PolA",
+            "title": "M-VAVE New Product Release -- TANK-G",
+            "access": "Search-indexed manufacturer title/date; direct page retrieval failed",
+            "evidence": "November 17, 2023 public release video used only at month precision."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1082,
+          "maximum_days": 1111,
+          "label": "2.96–3.04 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -197232,7 +197304,6 @@
       "M-VAVE::Pocket Amp",
       "M-VAVE::TANK MINI",
       "M-VAVE::TANK-B",
-      "M-VAVE::TANK-G",
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
       "Mosky::DC5",
@@ -197387,9 +197458,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 228,
-    "last_model": "Line 6::Helix Stadium XL Floor",
-    "last_commit_parent": "b35d72d19dba701e651d8181cca6b6769a1cb464",
+    "completed_model_count": 229,
+    "last_model": "M-VAVE::TANK-G",
+    "last_commit_parent": "cbb6fd8cd57ae148d590366f2a856acc66ecbc78",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -197413,7 +197484,6 @@
       "M-VAVE::Pocket Amp",
       "M-VAVE::TANK MINI",
       "M-VAVE::TANK-B",
-      "M-VAVE::TANK-G",
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
       "Mosky::DC5",
@@ -197567,7 +197637,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 228,
+    "pitch_completed_model_count": 229,
     "supplemental_model_count": 0
   },
   "model_images": {

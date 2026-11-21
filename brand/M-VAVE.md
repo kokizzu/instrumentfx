@@ -1331,6 +1331,31 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 
 ## TANK-G
 
+<!-- firmware-pitch:M-VAVE::TANK-G begins -->
+### Firmware and pitch audit — M-VAVE TANK-G
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-11 (manufacturer public-release video month proxy). Manufacturer New Product Release -- TANK-G video is indexed November 17, 2023. November 2023 is used as a public-release month proxy, not independently verified first retail shipping day. Direct video-page retrieval failed; search-indexed title/date retained. [launch 1](https://www.youtube.com/watch?v=U5-yxj4PolA) |
+| Firmware / latest verification | V099 (release notes v99) — Latest verified. Current official index lists TANK-G V099 November 16, 2026; exact release-note endpoint agrees as v99 and describes stability and noise-gate weak-signal/tail cutoff improvements. Supersedes saved v98 October 27, 2026. Index separately lists TANK-Gv2; historical v97 header changed from GV2 to TANK-G, so actual hardware/binary matching is still required. This latest listing is not proof every original revision accepts the package. v98 adds converted NAM/NAN loading and stereo effect revisions; conversion remains required for NAM. Editor/updater versions are separate. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/Tank-G.txt) |
+| Firmware / release date | 2026-11-16 (day precision) |
+| Firmware / release-to-update duration | 2.96–3.04 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No dedicated pitch-shift, octave or harmony algorithm documented in the checked original TANK-G manual and official firmware history through v99. Original MOD choices are Chorus, Phaser and Tremolo; delays Analog/Tape/Dual; reverbs Room/Spring/Cloud. Tuner pitch indications, chorus modulation and stereo revisions do not establish a dedicated transposer. No TANK-PRO, TANK-B, v2-only or unofficial firmware algorithm transferred. [pitch 1](https://device.report/m/08d3541cfde925d82a2977ac9bee9f896cdc3af5a64f91c9085e3837915dd172) [pitch 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/Tank-G.txt) |
+| Pitch / preset recall | 36 editable presets in nine banks of four. PRESET mode recalls A/B/C/D after bank selection; LIVE mode edits the current preset and holding its destination A/B/C/D saves. App/software import/export and sharing are documented. No dedicated pitch preset or analog expression socket in the original panel inventory. Firmware PC/CC control is distinct from an onboard expression interface. |
+| Pitch / DSP resources | No pitch algorithm or pitch DSP percentage published in checked sources. Six original processing stages, amp slots and IR sample count are not resource percentages; the later stereo update does not quantify remaining DSP. No device benchmark or audio tracking test. |
+| Pitch / qualifications | Manufacturer-authored operating text read from a reformatted mirror, excluding generated FAQs/ASIN summaries. Existing earlier visual original-manual evidence remains historical; no renewed PDF byte-equivalence claim. Original/v2 firmware source-label conflict preserved. Current product endpoint yielded a shell; exact download index and release notes supply the current version evidence. No firmware, editor or NAM model installed; no user presets changed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [M-VAVE current download index](https://www.m-vave.com/download) — Separate TANK-G and TANK-Gv2 entries; TANK-G V099 dated November 16, 2026. (Current manufacturer index opened as text).
+- [Manufacturer TANK-G firmware release history](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/Tank-G.txt) — v99 stability/noise-gate corrections; v98 NAM conversion/stereo changes, no dedicated pitch algorithm. (Current official plain-text notes opened, including v99/v98 and older history).
+- [Manufacturer TANK-G operating manual body on mirror](https://device.report/m/08d3541cfde925d82a2977ac9bee9f896cdc3af5a64f91c9085e3837915dd172) — Original effect library and 36-preset save/recall workflow; no pitch algorithm listed. (Reformatted manufacturer operating text read; not generated FAQs or a new original-PDF visual check).
+- [M-VAVE New Product Release -- TANK-G](https://www.youtube.com/watch?v=U5-yxj4PolA) — November 17, 2023 public release video used only at month precision. (Search-indexed manufacturer title/date; direct page retrieval failed).
+
+<!-- firmware-pitch:M-VAVE::TANK-G ends -->
+
 **Original review2026-10-14. Original TANK-G,not TANK-PRO or an assumed interchangeable rebadge.**
 
 <!-- comparison evidence begins -->
