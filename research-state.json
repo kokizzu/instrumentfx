@@ -200711,10 +200711,77 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Soran::Dual Stomp Lite": {
+        "model_key": "Soran::Dual Stomp Lite",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first hardware release not verified",
+          "source_urls": [
+            "https://soranaudio.com/products/27.html"
+          ],
+          "note": "Undated product page; manual-upload paths and regional retailer availability do not establish first hardware release."
+        },
+        "firmware": {
+          "version": "1.1.1",
+          "date": "2026-05-27",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://soranaudio.com/article/127.html",
+            "https://www.soranaudio.com/Download.html",
+            "https://www.soranaudio.com/category/9.html"
+          ],
+          "note": "Latest located official device release. Exact Lite download section lists DFU 1.1.1. Learn-index video heading says 1.1.0 on the same date; release-note title and startup-verification instruction explicitly say 1.1.1. First hardware release date unverified, so duration is unknown. No update installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Harmony in MOD: Major and Minor modes explicitly fixed in V1.1.1. Polyphonic input, interval limits and separate transpose modes remain unverified.",
+          "preset": "99 user locations,01–80 guitar/81–99 bass. Exact harmony parameter recall not verified. Firmware retains presets but erases imported NAM/IR; reset deletes user data.",
+          "dsp": "No numerical pitch-specific DSP/CPU cost or meter measurement located. Ten advertised simultaneous modules are not evidence of 10% DSP per block.",
+          "source_urls": [
+            "https://soranaudio.com/article/127.html",
+            "https://soranaudio.com/products/27.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "USB MIDI requires an external controller with USB HOST; the pedal is described as a USB peripheral. Tiny-only TRS footswitch fix does not establish an external footswitch socket on Lite.",
+            "Built-in treadle and 126-effect claims for full Dual Stomp are not transferred to Lite."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://soranaudio.com/products/27.html",
+            "title": "Soran Dual Stomp Lite manufacturer product",
+            "access": "Exact-model manufacturer text inspected",
+            "evidence": "125 effects, ten simultaneous modules, 99 user presets and separate DFU 1.1.1 listing. No first hardware release date or pitch DSP percentage."
+          },
+          {
+            "url": "https://soranaudio.com/article/127.html",
+            "title": "Soran Stomp family V1.1.1 release notes",
+            "access": "Manufacturer release text inspected",
+            "evidence": "May27,2026;Major/Minor Harmony fix;presets retained,NAM/IR erased;reset deletes user data;startup version1.1.1."
+          },
+          {
+            "url": "https://www.soranaudio.com/Download.html",
+            "title": "Soran official downloads",
+            "access": "Indexed current exact-model list inspected",
+            "evidence": "Separate Dual Stomp section lists DFU1.1.1,editor and driver versions;these are distinct version families."
+          },
+          {
+            "url": "https://www.soranaudio.com/category/9.html",
+            "title": "Soran Learn index",
+            "access": "Manufacturer indexed heading inspected",
+            "evidence": "Same-date video heading saysV1.1.0,conflicting with explicitV1.1.1 release-note/startup text."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
       "Soran::Go Rig II",
       "Soran::Tiny Stomp",
@@ -200844,12 +200911,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 274,
-    "last_model": "Soran::Dual Stomp",
-    "last_commit_parent": "951bc37297bf7270051402e2230120a57cd07015",
+    "completed_model_count": 275,
+    "last_model": "Soran::Dual Stomp Lite",
+    "last_commit_parent": "26da2830296c96f63177704186aaab1db4574d4e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
       "Soran::Go Rig II",
       "Soran::Tiny Stomp",
@@ -200978,7 +201044,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 274,
+    "pitch_completed_model_count": 275,
     "supplemental_model_count": 0
   },
   "model_images": {

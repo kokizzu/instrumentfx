@@ -117,6 +117,31 @@ Published205L×120Wmm also fails preferred200W×140Dmm in either orientation. De
 
 ## Dual Stomp Lite
 
+<!-- firmware-pitch:Soran::Dual Stomp Lite begins -->
+### Firmware and pitch audit — Soran Dual Stomp Lite
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Undated product page; manual-upload paths and regional retailer availability do not establish first hardware release. [launch 1](https://soranaudio.com/products/27.html) |
+| Firmware / latest verification | 1.1.1 — Latest verified. Latest located official device release. Exact Lite download section lists DFU 1.1.1. Learn-index video heading says 1.1.0 on the same date; release-note title and startup-verification instruction explicitly say 1.1.1. First hardware release date unverified, so duration is unknown. No update installed. [firmware 1](https://soranaudio.com/article/127.html) [firmware 2](https://www.soranaudio.com/Download.html) [firmware 3](https://www.soranaudio.com/category/9.html) |
+| Firmware / release date | 2026-05-27 (day precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Harmony in MOD: Major and Minor modes explicitly fixed in V1.1.1. Polyphonic input, interval limits and separate transpose modes remain unverified. [pitch 1](https://soranaudio.com/article/127.html) [pitch 2](https://soranaudio.com/products/27.html) |
+| Pitch / preset recall | 99 user locations,01–80 guitar/81–99 bass. Exact harmony parameter recall not verified. Firmware retains presets but erases imported NAM/IR; reset deletes user data. |
+| Pitch / DSP resources | No numerical pitch-specific DSP/CPU cost or meter measurement located. Ten advertised simultaneous modules are not evidence of 10% DSP per block. |
+| Pitch / qualifications | USB MIDI requires an external controller with USB HOST; the pedal is described as a USB peripheral. Tiny-only TRS footswitch fix does not establish an external footswitch socket on Lite. Built-in treadle and 126-effect claims for full Dual Stomp are not transferred to Lite. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Soran Dual Stomp Lite manufacturer product](https://soranaudio.com/products/27.html) — 125 effects, ten simultaneous modules, 99 user presets and separate DFU 1.1.1 listing. No first hardware release date or pitch DSP percentage. (Exact-model manufacturer text inspected).
+- [Soran Stomp family V1.1.1 release notes](https://soranaudio.com/article/127.html) — May27,2026;Major/Minor Harmony fix;presets retained,NAM/IR erased;reset deletes user data;startup version1.1.1. (Manufacturer release text inspected).
+- [Soran official downloads](https://www.soranaudio.com/Download.html) — Separate Dual Stomp section lists DFU1.1.1,editor and driver versions;these are distinct version families. (Indexed current exact-model list inspected).
+- [Soran Learn index](https://www.soranaudio.com/category/9.html) — Same-date video heading saysV1.1.0,conflicting with explicitV1.1.1 release-note/startup text. (Manufacturer indexed heading inspected).
+
+<!-- firmware-pitch:Soran::Dual Stomp Lite ends -->
+
 Guitar/bass multi-effects, checked 2026-10-18; partial. Separate hardware from Dual Stomp and Tiny Stomp; ownership unknown.
 
 | Field | Finding / qualification |
