@@ -96,6 +96,29 @@ Checked2026-10-28 against the [exact manufacturer page](https://www.sonicake.com
 
 ## Black Hammer QCE-30
 
+<!-- firmware-pitch:Sonicake::Black Hammer QCE-30 begins -->
+### Firmware and pitch audit — Sonicake Black Hammer QCE-30
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No dated first introduction/on-sale evidence established; photo upload dates and sold-out banners are not release dates. [launch 1](https://www.sonicake.com/products/black-hammer) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact-model firmware package,updater or version history located in checked global/regional product sources. Fixed-function controls do not prove the digital sections lack internal firmware. No device update performed. [firmware 1](https://www.sonicake.com/products/black-hammer) [firmware 2](https://www.hotone.jp/brands/sonicake/products/black-hammer) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Documented effect set is pre-gain boost,high-gain distortion with EQ/gate,chorus and500ms delay. No selectable transpose,octaver or harmonizer documented. Chorus modulation is not evidence of a separate pitch-shifting algorithm. [pitch 1](https://www.sonicake.com/products/black-hammer) [pitch 2](https://www.hotone.jp/brands/sonicake/products/black-hammer) |
+| Pitch / preset recall | No addressable factory/user preset bank or pitch recall documented; physical controls andstage switches. Exact power-on bypass-state persistence remains unverified. |
+| Pitch / DSP resources | No pitch resource cost applies to the documented effect set. Fixed effects are not freely assignable pitch slots. Manufacturer identifies analog distortion anddigitally implemented analog-voiced delay; no all-analog or pitch CPU percentage claim inferred. |
+| Pitch / qualifications | Manufacturer suggests downstream external IR; that does not establish an onboard IR loader or pitch processor. No physical latency,polyphony or DSP test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Black Hammer QCE-30 product](https://www.sonicake.com/products/black-hammer) — Boost,distortion/EQ/gate,chorus,digitaldelay;no pitch or updater listed. (Manufacturer/distributor source checked2026-11-22).
+- [Official regional Black Hammer product](https://www.hotone.jp/brands/sonicake/products/black-hammer) — ExactQCE30 fixed effects,75mA,500ms delay;no dated firmware. (Manufacturer/distributor source checked2026-11-22).
+
+<!-- firmware-pitch:Sonicake::Black Hammer QCE-30 ends -->
+
 Guitar multi-effects strip; manufacturer identifies QCE-30. Checked2026-10-17; partial.
 
 | Field | Finding / qualification | Evidence |

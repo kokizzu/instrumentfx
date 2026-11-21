@@ -198964,6 +198964,60 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Sonicake::Black Hammer QCE-30": {
+        "model_key": "Sonicake::Black Hammer QCE-30",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.sonicake.com/products/black-hammer"
+          ],
+          "note": "No dated first introduction/on-sale evidence established; photo upload dates and sold-out banners are not release dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.sonicake.com/products/black-hammer",
+            "https://www.hotone.jp/brands/sonicake/products/black-hammer"
+          ],
+          "note": "No exact-model firmware package,updater or version history located in checked global/regional product sources. Fixed-function controls do not prove the digital sections lack internal firmware. No device update performed."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Documented effect set is pre-gain boost,high-gain distortion with EQ/gate,chorus and500ms delay. No selectable transpose,octaver or harmonizer documented. Chorus modulation is not evidence of a separate pitch-shifting algorithm.",
+          "preset": "No addressable factory/user preset bank or pitch recall documented; physical controls andstage switches. Exact power-on bypass-state persistence remains unverified.",
+          "dsp": "No pitch resource cost applies to the documented effect set. Fixed effects are not freely assignable pitch slots. Manufacturer identifies analog distortion anddigitally implemented analog-voiced delay; no all-analog or pitch CPU percentage claim inferred.",
+          "source_urls": [
+            "https://www.sonicake.com/products/black-hammer",
+            "https://www.hotone.jp/brands/sonicake/products/black-hammer"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer suggests downstream external IR; that does not establish an onboard IR loader or pitch processor. No physical latency,polyphony or DSP test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sonicake.com/products/black-hammer",
+            "title": "Black Hammer QCE-30 product",
+            "access": "Manufacturer/distributor source checked2026-11-22",
+            "evidence": "Boost,distortion/EQ/gate,chorus,digitaldelay;no pitch or updater listed."
+          },
+          {
+            "url": "https://www.hotone.jp/brands/sonicake/products/black-hammer",
+            "title": "Official regional Black Hammer product",
+            "access": "Manufacturer/distributor source checked2026-11-22",
+            "evidence": "ExactQCE30 fixed effects,75mA,500ms delay;no dated firmware."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -198986,7 +199040,6 @@
       "ROWIN::RE-05 Looper Pro",
       "Sonicake::A Factory QDS-04",
       "Sonicake::B Factory QDS-05",
-      "Sonicake::Black Hammer QCE-30",
       "Sonicake::Levitate QDS-02",
       "Sonicake::RockStage QCE-10",
       "Soran::Dual Stomp",
@@ -199120,9 +199173,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 251,
-    "last_model": "Sonicake::Sonic Wood QCE-50",
-    "last_commit_parent": "64de4ba9efede7591c86fb59d705db119d6780a5",
+    "completed_model_count": 252,
+    "last_model": "Sonicake::Black Hammer QCE-30",
+    "last_commit_parent": "547646d29627539ddba5827f0eab06ca21a6e78f",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -199144,7 +199197,6 @@
       "ROWIN::RE-05 Looper Pro",
       "Sonicake::A Factory QDS-04",
       "Sonicake::B Factory QDS-05",
-      "Sonicake::Black Hammer QCE-30",
       "Sonicake::Levitate QDS-02",
       "Sonicake::RockStage QCE-10",
       "Soran::Dual Stomp",
@@ -199277,7 +199329,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 251,
+    "pitch_completed_model_count": 252,
     "supplemental_model_count": 0
   },
   "model_images": {
