@@ -406,6 +406,31 @@ Model-specific facts,sources,conflicts and inspection limits were merged from or
 
 ## MFX-10
 
+<!-- firmware-pitch:NUX::MFX-10 begins -->
+### Firmware and pitch audit — NUX MFX-10
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Original manual copyright2010 and manufacturer demonstration indexed November24,2011 establish early documentation/public existence, not exact first hardware availability. Do not substitute later regional seller dates or November2011 demonstration day for first release. [launch 1](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MFX10/NUX_MFX10_UserManualV1_English.pdf) [launch 2](https://www.youtube.com/watch?v=76CwRpytFgo) |
+| Firmware / latest verification | Not verified — No public firmware located. English and Chinese exact-model legacy support list manuals but no public firmware binary, release history or updater found. V1 denotes the English manual revision; copyright2010 and current PDF hosting date are not firmware release dates. Latest device version/date and release-to-update span remain unknown. [firmware 1](https://nuxaudio.com/product/mfx10/) [firmware 2](https://cn.nuxaudio.com/product/mfx-10/) [firmware 3](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MFX10/NUX_MFX10_UserManualV1_English.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Original manufacturer V1 printed pp.24–25 now visually verified: MODFX Pitchshift and Pedal Pitchshift, SHIFT -12 to+12, FAST/NORMAL/SLOW modes. Manual describes progressively slower response with fewer modulation artifacts; no numeric latency or polyphonic/chord-input claim. Pitchshift has dry/shifted mix; Pedal Pitchshift adds Up/Down direction. No MG-series Harmonist algorithm transferred. [pitch 1](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MFX10/NUX_MFX10_UserManualV1_English.pdf) |
+| Pitch / preset recall | 36 factory plus36 writable user presets (1A–9D). Original pp.8–9 confirm parameter edits/save, expression assignment with toe/heel endpoints, and optional automatic activation on preset recall. A/B switches amp/drive channel states and does not prove144 independent saved locations. Pedal-pitch prose mentions external expression despite bank-selection description of EXT.PEDAL; wiring/support conflict retained. |
+| Pitch / DSP resources | Original introduction advertises nine simultaneous effects, specificationp.27 says maximum eight modules;54/55 library and48/44.1kHz source conflicts also remain. Neither concurrency figure nor32-bit DSP is isolated pitch utilization. No Pitchshift/Pedal Pitchshift DSP percentage or benchmark located. FAST/NORMAL/SLOW response modes are not DSP cost measurements. |
+| Pitch / qualifications | Fresh original PDF inspection corroborates pitch, preset and response-mode details previously available as mirror transcription; earlier access limitations below remain historical. No device/audio test; mono/poly tracking unverified. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX MFX-10 English legacy support](https://nuxaudio.com/product/mfx10/) — Legacy Product, English manual only; no firmware version/date/binary exposed. (Manufacturer page opened2026-11-22).
+- [NUX MFX-10 Chinese legacy support](https://cn.nuxaudio.com/product/mfx-10/) — Exact Chinese legacy product support offers manual without a located firmware release/version/date. (Manufacturer page opened2026-11-22).
+- [NUX MFX-10 V1 English owner manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MFX10/NUX_MFX10_UserManualV1_English.pdf) — Pitchshift/PedalPitchshift parameters and response/artifact tradeoff pp.24–25; expression recall/save pp.8–9; specificationp.27 andintro disagree on concurrency/count/samplefrequency. Copyright2010 is not first shipping date. (Manufacturer PDF retrieved2026-11-22; introduction andprintedpp.8–9,22–27 visually inspected; SHA256feb2826824e65b5cbeb528ba15b5da27652094cb50924ed65fed65eaaeefa25f).
+- [Cherub Technology Inc. — NuX MFX-10 Guitar Multi-Effects Processor](https://www.youtube.com/watch?v=76CwRpytFgo) — November24,2011 indexed manufacturer demonstration confirms public existence by that day, not original launch. (Manufacturer channel indexed metadata checked2026-11-22; video not watched).
+
+<!-- firmware-pitch:NUX::MFX-10 ends -->
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->

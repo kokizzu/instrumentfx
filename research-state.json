@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MFX10/NUX_MFX10_UserManualV1_English.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 0,
+    "frame": 15,
     "text_pages": [
       0,
       2
@@ -196199,6 +196199,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::MFX-10": {
+        "model_key": "NUX::MFX-10",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unresolved original hardware release",
+          "source_urls": [
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MFX10/NUX_MFX10_UserManualV1_English.pdf",
+            "https://www.youtube.com/watch?v=76CwRpytFgo"
+          ],
+          "note": "Original manual copyright2010 and manufacturer demonstration indexed November24,2011 establish early documentation/public existence, not exact first hardware availability. Do not substitute later regional seller dates or November2011 demonstration day for first release."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://nuxaudio.com/product/mfx10/",
+            "https://cn.nuxaudio.com/product/mfx-10/",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MFX10/NUX_MFX10_UserManualV1_English.pdf"
+          ],
+          "note": "English and Chinese exact-model legacy support list manuals but no public firmware binary, release history or updater found. V1 denotes the English manual revision; copyright2010 and current PDF hosting date are not firmware release dates. Latest device version/date and release-to-update span remain unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Original manufacturer V1 printed pp.24–25 now visually verified: MODFX Pitchshift and Pedal Pitchshift, SHIFT -12 to+12, FAST/NORMAL/SLOW modes. Manual describes progressively slower response with fewer modulation artifacts; no numeric latency or polyphonic/chord-input claim. Pitchshift has dry/shifted mix; Pedal Pitchshift adds Up/Down direction. No MG-series Harmonist algorithm transferred.",
+          "preset": "36 factory plus36 writable user presets (1A–9D). Original pp.8–9 confirm parameter edits/save, expression assignment with toe/heel endpoints, and optional automatic activation on preset recall. A/B switches amp/drive channel states and does not prove144 independent saved locations. Pedal-pitch prose mentions external expression despite bank-selection description of EXT.PEDAL; wiring/support conflict retained.",
+          "dsp": "Original introduction advertises nine simultaneous effects, specificationp.27 says maximum eight modules;54/55 library and48/44.1kHz source conflicts also remain. Neither concurrency figure nor32-bit DSP is isolated pitch utilization. No Pitchshift/Pedal Pitchshift DSP percentage or benchmark located. FAST/NORMAL/SLOW response modes are not DSP cost measurements.",
+          "source_urls": [
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MFX10/NUX_MFX10_UserManualV1_English.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Fresh original PDF inspection corroborates pitch, preset and response-mode details previously available as mirror transcription; earlier access limitations below remain historical.",
+            "No device/audio test; mono/poly tracking unverified."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://nuxaudio.com/product/mfx10/",
+            "title": "NUX MFX-10 English legacy support",
+            "access": "Manufacturer page opened2026-11-22",
+            "evidence": "Legacy Product, English manual only; no firmware version/date/binary exposed."
+          },
+          {
+            "url": "https://cn.nuxaudio.com/product/mfx-10/",
+            "title": "NUX MFX-10 Chinese legacy support",
+            "access": "Manufacturer page opened2026-11-22",
+            "evidence": "Exact Chinese legacy product support offers manual without a located firmware release/version/date."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MFX10/NUX_MFX10_UserManualV1_English.pdf",
+            "title": "NUX MFX-10 V1 English owner manual",
+            "access": "Manufacturer PDF retrieved2026-11-22; introduction andprintedpp.8–9,22–27 visually inspected; SHA256feb2826824e65b5cbeb528ba15b5da27652094cb50924ed65fed65eaaeefa25f",
+            "evidence": "Pitchshift/PedalPitchshift parameters and response/artifact tradeoff pp.24–25; expression recall/save pp.8–9; specificationp.27 andintro disagree on concurrency/count/samplefrequency. Copyright2010 is not first shipping date."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=76CwRpytFgo",
+            "title": "Cherub Technology Inc. — NuX MFX-10 Guitar Multi-Effects Processor",
+            "access": "Manufacturer channel indexed metadata checked2026-11-22; video not watched",
+            "evidence": "November24,2011 indexed manufacturer demonstration confirms public existence by that day, not original launch."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -196236,7 +196304,6 @@
       "NUX::Amp Academy Stomp",
       "NUX::Atlantic NDR-5",
       "NUX::Cerberus NME-3",
-      "NUX::MFX-10",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
@@ -196388,9 +196455,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 218,
-    "last_model": "NUX::MG-20",
-    "last_commit_parent": "b17699cc2470980c2dd6c38a10cdab9f4fd04ed1",
+    "completed_model_count": 219,
+    "last_model": "NUX::MFX-10",
+    "last_commit_parent": "5190d5c4f356b429a3f32fbe75f11557a088845f",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -196427,7 +196494,6 @@
       "NUX::Amp Academy Stomp",
       "NUX::Atlantic NDR-5",
       "NUX::Cerberus NME-3",
-      "NUX::MFX-10",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
@@ -196578,7 +196644,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 218,
+    "pitch_completed_model_count": 219,
     "supplemental_model_count": 0
   },
   "model_images": {
