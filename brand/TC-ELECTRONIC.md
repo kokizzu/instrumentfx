@@ -294,6 +294,30 @@ Direct-expression position/range/recall are inapplicable to the documented input
 
 ## M-One XL
 
+<!-- firmware-pitch:TC Electronic::M-One XL begins -->
+### Firmware and pitch audit — TC Electronic M-One XL
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer manual declaration says September2001;this is a compliance/document date,not confirmed retail launch. XL is distinct from original M-One. No first-shipment date established. [launch 1](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf) |
+| Firmware / latest verification | 2.09 — Located; latest status unverified. AURA editor developer reports firsthand testing against XL firmware2.09 in its May11,2026 changelog. That editor date is not firmware release date or manufacturer latest certification. Manufacturer manual records older XL2.07 versus Standard1.43;January2004 service guide documents MIDI OS updating but does not date2.09. Release date and support span remain unverified. [firmware 1](https://auraplugins.com/kb/article/tc-electronic-m-one-editor-changelog/) [firmware 2](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf) [firmware 3](https://service-tcgroup.tcelectronic.com/files/Tech_Service/m-one/Guide/How-to-software-update-m-one.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift provides two fixed shifted voices,each±1200cents (one octave),with independent level,pan and0–100ms delay. Detune spans±50cents. Two output voices do not establish polyphonic input handling or scale-aware harmony. [pitch 1](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf) |
+| Pitch / preset recall | 200 factory plus100 user locations. Edited factory programs save to user bank;pitch is an engine algorithm within stored programs. MIDI Program Change/SysEx available;retain existing CC-bank-select prose/map conflict. No hardware recall test. |
+| Pitch / DSP resources | Two engines,one selected algorithm each;Pitch occupies an engine. No pitch-specific CPU utilization percentage or meter measurement located. One of two engine slots is a topology limit,not verified50% shared DSP use. |
+| Pitch / qualifications | FX Level0–100% is effect mix/level,not a CPU percentage. Stereo source and two added voices are not an explicit polyphonic-processing claim. AURA editor version26-05-14 is third-party desktop software,not a2026 device firmware update. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Electronic M-One/M-One XL Rev4 manufacturer manual](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf) — XL2.07 versusStandard1.43;September2001 declaration;printedp31 fixed two-voicePitch±1200cents/Detune±50cents;two engines and200factory+100user. (Manufacturer-hosted original indexed text inspected;direct fetch unavailable).
+- [TC Electronic M-one/XL OS update service guide](https://service-tcgroup.tcelectronic.com/files/Tech_Service/m-one/Guide/How-to-software-update-m-one.pdf) — January2004 service instructions for MIDI update and reset;boot/front version string is not evidence of latest application firmware date. (Manufacturer indexed original text inspected;direct fetch unavailable).
+- [AURA Plugins M-One editor developer changelog](https://auraplugins.com/kb/article/tc-electronic-m-one-editor-changelog/) — May11,2026 entry explicitly testsM-One1.10 andXL2.09. Establishes observed version,not official latest status or release date. (Editor author firsthand compatibility statement inspected).
+
+<!-- firmware-pitch:TC Electronic::M-One XL ends -->
+
 Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, product E60500152: SW2.07 XL versus1.43 Standard. Manufacturer download inaccessible; mirror adds watermarks. Text-only review.
 
 | Field | Evidence / gaps |

@@ -200976,10 +200976,70 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC Electronic::M-One XL": {
+        "model_key": "TC Electronic::M-One XL",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first hardware release not independently verified",
+          "source_urls": [
+            "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf"
+          ],
+          "note": "Manufacturer manual declaration says September2001;this is a compliance/document date,not confirmed retail launch. XL is distinct from original M-One. No first-shipment date established."
+        },
+        "firmware": {
+          "version": "2.09",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://auraplugins.com/kb/article/tc-electronic-m-one-editor-changelog/",
+            "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf",
+            "https://service-tcgroup.tcelectronic.com/files/Tech_Service/m-one/Guide/How-to-software-update-m-one.pdf"
+          ],
+          "note": "AURA editor developer reports firsthand testing against XL firmware2.09 in its May11,2026 changelog. That editor date is not firmware release date or manufacturer latest certification. Manufacturer manual records older XL2.07 versus Standard1.43;January2004 service guide documents MIDI OS updating but does not date2.09. Release date and support span remain unverified."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift provides two fixed shifted voices,each±1200cents (one octave),with independent level,pan and0–100ms delay. Detune spans±50cents. Two output voices do not establish polyphonic input handling or scale-aware harmony.",
+          "preset": "200 factory plus100 user locations. Edited factory programs save to user bank;pitch is an engine algorithm within stored programs. MIDI Program Change/SysEx available;retain existing CC-bank-select prose/map conflict. No hardware recall test.",
+          "dsp": "Two engines,one selected algorithm each;Pitch occupies an engine. No pitch-specific CPU utilization percentage or meter measurement located. One of two engine slots is a topology limit,not verified50% shared DSP use.",
+          "source_urls": [
+            "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "FX Level0–100% is effect mix/level,not a CPU percentage. Stereo source and two added voices are not an explicit polyphonic-processing claim.",
+            "AURA editor version26-05-14 is third-party desktop software,not a2026 device firmware update."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf",
+            "title": "TC Electronic M-One/M-One XL Rev4 manufacturer manual",
+            "access": "Manufacturer-hosted original indexed text inspected;direct fetch unavailable",
+            "evidence": "XL2.07 versusStandard1.43;September2001 declaration;printedp31 fixed two-voicePitch±1200cents/Detune±50cents;two engines and200factory+100user."
+          },
+          {
+            "url": "https://service-tcgroup.tcelectronic.com/files/Tech_Service/m-one/Guide/How-to-software-update-m-one.pdf",
+            "title": "TC Electronic M-one/XL OS update service guide",
+            "access": "Manufacturer indexed original text inspected;direct fetch unavailable",
+            "evidence": "January2004 service instructions for MIDI update and reset;boot/front version string is not evidence of latest application firmware date."
+          },
+          {
+            "url": "https://auraplugins.com/kb/article/tc-electronic-m-one-editor-changelog/",
+            "title": "AURA Plugins M-One editor developer changelog",
+            "access": "Editor author firsthand compatibility statement inspected",
+            "evidence": "May11,2026 entry explicitly testsM-One1.10 andXL2.09. Establishes observed version,not official latest status or release date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC Electronic::M-One XL",
       "TC Electronic::M100",
       "TC Electronic::M350",
       "TC Electronic::NOVA System",
@@ -201105,12 +201165,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 278,
-    "last_model": "Soran::Tiny Stomp",
-    "last_commit_parent": "364aa33c428315e43f33e0eee0cb471b1a4b851c",
+    "completed_model_count": 279,
+    "last_model": "TC Electronic::M-One XL",
+    "last_commit_parent": "95f85a319c56ce18775a9b289d813b67fe4e3cd8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC Electronic::M-One XL",
       "TC Electronic::M100",
       "TC Electronic::M350",
       "TC Electronic::NOVA System",
@@ -201235,7 +201294,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 278,
+    "pitch_completed_model_count": 279,
     "supplemental_model_count": 0
   },
   "model_images": {
