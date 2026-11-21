@@ -366,6 +366,26 @@ Sources checked:
 
 <!-- firmware-pitch:Donner::Triple Threat ends -->
 
+<!-- model-images:Donner::Triple Threat begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Triple Threat powered-on near-top promotional photograph**
+
+[![Triple Threat powered-on near-top promotional photograph](https://eu.donnermusic.com/cdn/shop/files/6_6b930474-546c-4c7a-af4b-977bbed03940_1.jpg?v=1756112821&width=1200)](https://eu.donnermusic.com/cdn/shop/files/6_6b930474-546c-4c7a-af4b-977bbed03940_1.jpg?v=1756112821&width=1200)
+
+[Image source](https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal). DC and audio cables connected; three yellow/orange effect LEDs visible. Slight perspective and shoe obscures the centre footswitch area; unobstructed exact top-down photograph remains pending.
+
+**Triple Threat rear connection panel**
+
+[![Triple Threat rear connection panel](https://eu.donnermusic.com/cdn/shop/files/20231116Triplethreat_0409.jpg?v=1741747233&width=1601)](https://eu.donnermusic.com/cdn/shop/files/20231116Triplethreat_0409.jpg?v=1741747233&width=1601)
+
+[Image source](https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal). Manufacturer rear photograph clearly shows two audio jacks and DC inlet. Rear surface lacks legible input/output labels in this view; top photograph labels OUT, 9VDC and IN. No connector assignment inferred from mirrored viewpoint.
+
+</details>
+<!-- model-images:Donner::Triple Threat ends -->
+
+
 Checked **2026-10-17**. Partial guitar multi-effects record; bass/vocal suitability unverified. Collaboration branding does not establish ownership.
 
 | Field | Evidence / remaining gaps |

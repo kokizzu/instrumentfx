@@ -187320,11 +187320,35 @@
             "sha256": "1bc3f6628de14cf2997c910b3acbb8b73a727e51908360c351ae64ccd5f4bd58"
           }
         }
+      },
+      "Donner::Triple Threat": {
+        "model_key": "Donner::Triple Threat",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://eu.donnermusic.com/cdn/shop/files/6_6b930474-546c-4c7a-af4b-977bbed03940_1.jpg?v=1756112821&width=1200",
+            "source_url": "https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal",
+            "caption": "Triple Threat powered-on near-top promotional photograph",
+            "note": "DC and audio cables connected; three yellow/orange effect LEDs visible. Slight perspective and shoe obscures the centre footswitch area; unobstructed exact top-down photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "679f5868fc4d889314b40e52cbc58a7575873254800f402c6d9e35087100ee4a"
+          },
+          "rear": {
+            "image_url": "https://eu.donnermusic.com/cdn/shop/files/20231116Triplethreat_0409.jpg?v=1741747233&width=1601",
+            "source_url": "https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal",
+            "caption": "Triple Threat rear connection panel",
+            "note": "Manufacturer rear photograph clearly shows two audio jacks and DC inlet. Rear surface lacks legible input/output labels in this view; top photograph labels OUT, 9VDC and IN. No connector assignment inferred from mirrored viewpoint.",
+            "visual_checked": true,
+            "sha256": "5260648cb222a1f47bf4f2971aaaaecf0e221d56abf9800c15f2e74d450b3bdd"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Donner::Arena2000"
+    "last_model": "Donner::Triple Threat"
   }
 }
