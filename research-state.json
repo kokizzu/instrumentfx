@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.roland.com/assets/media/pdf/ME-70_OM.pdf",
+    "requested_url": "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 17,
+    "frame": 13,
     "text_pages": [
       11,
       11
@@ -183895,10 +183895,68 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::ME-8": {
+        "model_key": "BOSS::ME-8",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "1995",
+          "precision": "year",
+          "kind": "manufacturer_release_year",
+          "source_urls": [
+            "https://support.roland.com/hc/en-us/articles/201925899-ME-8-Technical-Specifcations"
+          ],
+          "note": "Manufacturer product period 1995–2000; exact retail day/month unverified. Manufacturing end and 2026 support-article revision are not firmware dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.roland.com/jp/support/archives/archive_downloads_h-m/"
+          ],
+          "note": "No ME-8 entry in checked manufacturer legacy H–M downloads. Targeted system-program search found other products, not an ME-8 release; model support URL inaccessible. ROM version/date and elapsed update span unknown; internal revisions not ruled out."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Pitch Shifter explicitly works with chords; two shifted voices each ±12 semitones, independent fine/level and direct level. Harmonist instead requires single notes and generates two key-based harmonies. CTL/EXP Arm/Trip pitch choices also documented; their polyphony not separately specified.",
+          "preset": "50 user + 50 preset patches, plus Manual settings. Retained original-manual evidence says user locations initially duplicate presets; not 100 distinct factory sounds.",
+          "dsp": "Harmonist and Pitch Shifter share one HR/PS selection. Manufacturer specifies up to 11 simultaneous effects overall, not 11 pitch instances. No pitch CPU percentage or numerical allocation cost found; Arm/Trip availability does not prove an additional independent pitch processor.",
+          "measurements": [],
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
+            "https://support.roland.com/hc/en-us/articles/201925899-ME-8-Technical-Specifcations"
+          ],
+          "notes": [
+            "Polyphonic classification applies specifically to normal Pitch Shifter, not Harmonist. Generated voice count is separate from input-note polyphony."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://support.roland.com/hc/en-us/articles/201925899-ME-8-Technical-Specifcations",
+            "title": "ME-8 Technical Specifications",
+            "access": "Manufacturer indexed support article",
+            "evidence": "1995–2000 product period, 50 user + 50 preset memories and effect families."
+          },
+          {
+            "url": "https://www.roland.com/jp/support/archives/archive_downloads_h-m/",
+            "title": "Roland legacy downloads H–M",
+            "access": "Manufacturer web text",
+            "evidence": "No ME-8 system-program entry found."
+          },
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
+            "title": "BOSS ME-8 Owner Manual",
+            "access": "Manufacturer PDF; printed pages 14,23,24 visually inspected from local renders; indexed overview",
+            "evidence": "Explicit chord-compatible Pitch Shifter versus single-note Harmonist, two voices and shared HR/PS choice. Overview specifies 11 simultaneous effects. 2486858 bytes; SHA256 685a88805c631f78317d2cbc06f2045d97814d7a71c664da6c040476d0ada483."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::ME-8",
       "BOSS::ME-80",
       "BOSS::ME-90",
       "BOSS::ME-90B",
@@ -184244,12 +184302,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 58,
-    "last_model": "BOSS::ME-70",
-    "last_commit_parent": "929820f4ecaafd22db911bc9ea0e38d782ed5bb4",
+    "completed_model_count": 59,
+    "last_model": "BOSS::ME-8",
+    "last_commit_parent": "ba771af64099920385ed47dc636daa2e112c2bd3",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::ME-8",
       "BOSS::ME-80",
       "BOSS::ME-90",
       "BOSS::ME-90B",
@@ -184594,7 +184651,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 58,
+    "pitch_completed_model_count": 59,
     "supplemental_model_count": 0
   }
 }

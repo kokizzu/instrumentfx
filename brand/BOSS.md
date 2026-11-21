@@ -4584,6 +4584,30 @@ Checked2026-10-17 against indexed original [official manual][ME5-M]:“Operation
 
 ## ME-8
 
+<!-- firmware-pitch:BOSS::ME-8 begins -->
+### Firmware and pitch audit — BOSS ME-8
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1995 (manufacturer release year). Manufacturer product period 1995–2000; exact retail day/month unverified. Manufacturing end and 2026 support-article revision are not firmware dates. [launch 1](https://support.roland.com/hc/en-us/articles/201925899-ME-8-Technical-Specifcations) |
+| Firmware / latest verification | Not verified — No public firmware located. No ME-8 entry in checked manufacturer legacy H–M downloads. Targeted system-program search found other products, not an ME-8 release; model support URL inaccessible. ROM version/date and elapsed update span unknown; internal revisions not ruled out. [firmware 1](https://www.roland.com/jp/support/archives/archive_downloads_h-m/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Pitch Shifter explicitly works with chords; two shifted voices each ±12 semitones, independent fine/level and direct level. Harmonist instead requires single notes and generates two key-based harmonies. CTL/EXP Arm/Trip pitch choices also documented; their polyphony not separately specified. [pitch 1](https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf) [pitch 2](https://support.roland.com/hc/en-us/articles/201925899-ME-8-Technical-Specifcations) |
+| Pitch / preset recall | 50 user + 50 preset patches, plus Manual settings. Retained original-manual evidence says user locations initially duplicate presets; not 100 distinct factory sounds. |
+| Pitch / DSP resources | Harmonist and Pitch Shifter share one HR/PS selection. Manufacturer specifies up to 11 simultaneous effects overall, not 11 pitch instances. No pitch CPU percentage or numerical allocation cost found; Arm/Trip availability does not prove an additional independent pitch processor. |
+| Pitch / qualifications | Polyphonic classification applies specifically to normal Pitch Shifter, not Harmonist. Generated voice count is separate from input-note polyphony. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [ME-8 Technical Specifications](https://support.roland.com/hc/en-us/articles/201925899-ME-8-Technical-Specifcations) — 1995–2000 product period, 50 user + 50 preset memories and effect families. (Manufacturer indexed support article).
+- [Roland legacy downloads H–M](https://www.roland.com/jp/support/archives/archive_downloads_h-m/) — No ME-8 system-program entry found. (Manufacturer web text).
+- [BOSS ME-8 Owner Manual](https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf) — Explicit chord-compatible Pitch Shifter versus single-note Harmonist, two voices and shared HR/PS choice. Overview specifies 11 simultaneous effects. 2486858 bytes; SHA256 685a88805c631f78317d2cbc06f2045d97814d7a71c664da6c040476d0ada483. (Manufacturer PDF; printed pages 14,23,24 visually inspected from local renders; indexed overview).
+
+<!-- firmware-pitch:BOSS::ME-8 ends -->
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified. Distinct from ME-8B.
 
 <!-- comparison evidence begins -->
