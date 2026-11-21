@@ -28,6 +28,32 @@ Original observations below retain **2026-10-14 or2026-10-15** as stated. This c
 
 ## ANN Blackbox
 
+<!-- firmware-pitch:M-VAVE::ANN Blackbox begins -->
+### Firmware and pitch audit — M-VAVE ANN Blackbox
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer ANN BLACKBOX release video dated November 14, 2024 is later than its own BLACKBOX new-product effect demo July 5 and firmware headers July 4/8, 2024. Exact early-versus-ANN hardware revision identity is not resolved. Do not substitute November video date or oldest firmware header for first hardware sale; duration remains unknown. [launch 1](https://www.youtube.com/watch?v=qE3yqmMQcX4) [launch 2](https://www.youtube.com/watch?v=hGpFxvzDeIQ) [launch 3](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/BlackBox.txt) |
+| Firmware / latest verification | V23 — Latest verified. Current ANNBLACKBOX index and decoded primary V23 header agree: USB audio stability and MW model/parameter editing via M-EFCS. V21 November 6 adds AMP NAN/NAM A2-Lite import/audition/save in existing slots, six MW drives with gates, stereo MOD/DLY/REV, separate Off/Auto/Force tails and MIDI model/parameter control. Not unrestricted full NAM A2 support. V22 November 12 adds saved Rec Master recording option and recovery mode, with version-dependent global resets; saved presets and AMP/CAB models retained. Updating from V20 or older resets globals/current selection to P01; from V21 Input Gain and delay/reverb tails reset, Rec Master defaults Off. No update performed. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/BlackBox.txt) |
+| Firmware / release date | 2026-11-13 (day precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manufacturer manual documents Shimmer wet pitch from unison to two octaves up, Analog delay wet detuning with no numerical range, and Vibrato pitch modulation without dry signal. No general dry-signal drop/harmonizer algorithm or explicit polyphonic tracking established. V21 stereo upgrade is channel handling, not note polyphony; NAN/NAM amp models do not establish pitch synthesis. [pitch 1](https://device.report/manual/20316441) [pitch 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/BlackBox.txt) |
+| Pitch / preset recall | 80 editable presets with 40 original supplied sounds; six reorderable modules and internal gate+boost/compressor combination, not seven arbitrary slots. Pitch/wet effect parameters save within presets. V21 separate delay/reverb Off/Auto/Force tail settings concern bypass/preset changes, not universal gapless switching. V22 global reset behavior and default-Off tails require version-qualified recall; no continuous external expression mapping inferred from MIDI expansion. |
+| Pitch / DSP resources | No isolated Shimmer or delay-detune DSP percentage, tracking latency or benchmark found. December 2024 note advertises 40% overall performance improvement without a method; this is not pitch resource cost or additional simultaneous blocks. V21 stereo processing reduces some maximum delay times (Analog 1000→781 ms, Duck 1000→789, dTape 1000→790, Dual 500→478, Lofi 1000→782); memory/time tradeoff does not quantify pitch DSP. |
+| Pitch / qualifications | Original inert release-note source read completely using strict GB18030: 12,365 bytes, SHA256 147e0fdabdb430e2a4145b62ff0e1dff2bcf824f88cc89101f1450eb0394f555, 262 lines. Older web decoding errors remain historical. Previously identified manufacturer manual body read on mirror; ANNBLACK BOX cover, not incorrect P14/097 metadata, establishes document identity. OCR artifacts remain; no new byte-equivalence or visual-page claim. V21 stereo downstream effects require AMP/CAB earlier in chain. Physical quarter-inch main output remains mono in original panel documentation; exact stereo headphone/USB routing not newly verified. No device/app/firmware execution or audio test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Current M-VAVE ANNBLACKBOX firmware listing](https://www.m-vave.com/download) — V23 November 13, 2026. (Official index opened as text).
+- [Official BlackBox original firmware history](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/BlackBox.txt) — V21 A2-Lite/NAN and stereo/tails; V22 recording/recovery and reset scope; V23 stability/editor fixes; older 40% system claim. (Bounded exact-source reader, complete strict GB18030 decoding).
+- [Manufacturer ANNBLACK BOX manual body](https://device.report/manual/20316441) — Shimmer unison to +2 octaves, delay wet detune, Vibrato, presets and module architecture. (Previously identified original manual body read on mirror; OCR caution).
+- [Manufacturer ANN BLACKBOX release video](https://www.youtube.com/watch?v=qE3yqmMQcX4) — November 14, 2024; later than older same-family evidence, not adopted as first release. (Search-indexed author/title/date).
+- [Manufacturer new-product BLACKBOX effects demo](https://www.youtube.com/watch?v=hGpFxvzDeIQ) — July 5, 2024 earlier same-family demo; exact hardware revision equivalence remains unresolved. (Search-indexed manufacturer title/date).
+
+<!-- firmware-pitch:M-VAVE::ANN Blackbox ends -->
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-14. Actual manual cover ANNBLACK BOX**,not a blanket profile of every older Blackbox listing.

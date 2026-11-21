@@ -495,7 +495,7 @@ def inspect_firmware_note():
     identity()
     selected = json.loads(Path('/tmp/instrumentfx-note.json').read_text())
     name = selected['name']
-    allowed = {'MK20', 'MK300', 'TANK-MINI', 'TANK-B', 'TANK-BV2', 'Tank-G', 'TANK%20PRO'}
+    allowed = {'MK20', 'MK300', 'TANK-MINI', 'TANK-B', 'TANK-BV2', 'Tank-G', 'TANK%20PRO', 'BlackBox'}
     assert name in allowed, 'Unreviewed release-note name'
     url = 'https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/' + name + '.txt'
     request = urllib.request.Request(url, headers={'User-Agent': 'InstrumentFX-source-review/1.0'})

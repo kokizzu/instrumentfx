@@ -197757,6 +197757,82 @@
           "label": "1.02–1.11 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "M-VAVE::ANN Blackbox": {
+        "model_key": "M-VAVE::ANN Blackbox",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first exact-revision release unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=qE3yqmMQcX4",
+            "https://www.youtube.com/watch?v=hGpFxvzDeIQ",
+            "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/BlackBox.txt"
+          ],
+          "note": "Manufacturer ANN BLACKBOX release video dated November 14, 2024 is later than its own BLACKBOX new-product effect demo July 5 and firmware headers July 4/8, 2024. Exact early-versus-ANN hardware revision identity is not resolved. Do not substitute November video date or oldest firmware header for first hardware sale; duration remains unknown."
+        },
+        "firmware": {
+          "version": "V23",
+          "date": "2026-11-13",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.m-vave.com/download",
+            "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/BlackBox.txt"
+          ],
+          "note": "Current ANNBLACKBOX index and decoded primary V23 header agree: USB audio stability and MW model/parameter editing via M-EFCS. V21 November 6 adds AMP NAN/NAM A2-Lite import/audition/save in existing slots, six MW drives with gates, stereo MOD/DLY/REV, separate Off/Auto/Force tails and MIDI model/parameter control. Not unrestricted full NAM A2 support. V22 November 12 adds saved Rec Master recording option and recovery mode, with version-dependent global resets; saved presets and AMP/CAB models retained. Updating from V20 or older resets globals/current selection to P01; from V21 Input Gain and delay/reverb tails reset, Rec Master defaults Off. No update performed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manufacturer manual documents Shimmer wet pitch from unison to two octaves up, Analog delay wet detuning with no numerical range, and Vibrato pitch modulation without dry signal. No general dry-signal drop/harmonizer algorithm or explicit polyphonic tracking established. V21 stereo upgrade is channel handling, not note polyphony; NAN/NAM amp models do not establish pitch synthesis.",
+          "preset": "80 editable presets with 40 original supplied sounds; six reorderable modules and internal gate+boost/compressor combination, not seven arbitrary slots. Pitch/wet effect parameters save within presets. V21 separate delay/reverb Off/Auto/Force tail settings concern bypass/preset changes, not universal gapless switching. V22 global reset behavior and default-Off tails require version-qualified recall; no continuous external expression mapping inferred from MIDI expansion.",
+          "dsp": "No isolated Shimmer or delay-detune DSP percentage, tracking latency or benchmark found. December 2024 note advertises 40% overall performance improvement without a method; this is not pitch resource cost or additional simultaneous blocks. V21 stereo processing reduces some maximum delay times (Analog 1000→781 ms, Duck 1000→789, dTape 1000→790, Dual 500→478, Lofi 1000→782); memory/time tradeoff does not quantify pitch DSP.",
+          "source_urls": [
+            "https://device.report/manual/20316441",
+            "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/BlackBox.txt"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original inert release-note source read completely using strict GB18030: 12,365 bytes, SHA256 147e0fdabdb430e2a4145b62ff0e1dff2bcf824f88cc89101f1450eb0394f555, 262 lines. Older web decoding errors remain historical.",
+            "Previously identified manufacturer manual body read on mirror; ANNBLACK BOX cover, not incorrect P14/097 metadata, establishes document identity. OCR artifacts remain; no new byte-equivalence or visual-page claim.",
+            "V21 stereo downstream effects require AMP/CAB earlier in chain. Physical quarter-inch main output remains mono in original panel documentation; exact stereo headphone/USB routing not newly verified. No device/app/firmware execution or audio test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.m-vave.com/download",
+            "title": "Current M-VAVE ANNBLACKBOX firmware listing",
+            "access": "Official index opened as text",
+            "evidence": "V23 November 13, 2026."
+          },
+          {
+            "url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/BlackBox.txt",
+            "title": "Official BlackBox original firmware history",
+            "access": "Bounded exact-source reader, complete strict GB18030 decoding",
+            "evidence": "V21 A2-Lite/NAN and stereo/tails; V22 recording/recovery and reset scope; V23 stability/editor fixes; older 40% system claim."
+          },
+          {
+            "url": "https://device.report/manual/20316441",
+            "title": "Manufacturer ANNBLACK BOX manual body",
+            "access": "Previously identified original manual body read on mirror; OCR caution",
+            "evidence": "Shimmer unison to +2 octaves, delay wet detune, Vibrato, presets and module architecture."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=qE3yqmMQcX4",
+            "title": "Manufacturer ANN BLACKBOX release video",
+            "access": "Search-indexed author/title/date",
+            "evidence": "November 14, 2024; later than older same-family evidence, not adopted as first release."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=hGpFxvzDeIQ",
+            "title": "Manufacturer new-product BLACKBOX effects demo",
+            "access": "Search-indexed manufacturer title/date",
+            "evidence": "July 5, 2024 earlier same-family demo; exact hardware revision equivalence remains unresolved."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -197771,7 +197847,6 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "M-VAVE::ANN Blackbox",
       "M-VAVE::CUBE BABY AC",
       "M-VAVE::CUBE BABY BASS",
       "M-VAVE::CUBE BABY electric",
@@ -197930,9 +198005,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 234,
-    "last_model": "M-VAVE::TANK-PRO",
-    "last_commit_parent": "df07be6c143f6e41d7f6afcdf9f1e1110892c40a",
+    "completed_model_count": 235,
+    "last_model": "M-VAVE::ANN Blackbox",
+    "last_commit_parent": "7f52a2930279827e96cc5e68f3904751a7b1dcc9",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -197946,7 +198021,6 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "M-VAVE::ANN Blackbox",
       "M-VAVE::CUBE BABY AC",
       "M-VAVE::CUBE BABY BASS",
       "M-VAVE::CUBE BABY electric",
@@ -198104,7 +198178,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 234,
+    "pitch_completed_model_count": 235,
     "supplemental_model_count": 0
   },
   "model_images": {
