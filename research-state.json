@@ -192127,11 +192127,35 @@
             "sha256": "f81578daa3075708e5c34ee18759f6dc056daa9c24e82182f52895e67f86980f"
           }
         }
+      },
+      "Line 6::HX One": {
+        "model_key": "Line 6::HX One",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/6/0a020a3fc26c65122bab5d51d/image/jpeg",
+            "source_url": "https://line6.com/hx-one/",
+            "caption": "HX One — powered-on top-down view",
+            "note": "Exact HX One manufacturer overhead image shows Adriatic Delay on OLED, three parameter knobs and effect encoder, HOME/PAGE buttons, two footswitches and lit ON/TAP indicators.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "2bd1dbfb94c62551a7edcc3dcd3046f91e219a4e1604604623a5304a3d3cec50"
+          },
+          "rear": {
+            "image_url": "https://line6.com/data/6/0a020a3fc2b565122d8385ce6/image/jpeg",
+            "source_url": "https://line6.com/hx-one/",
+            "caption": "HX One — rear audio, DC and USB ports",
+            "note": "Rear labels show IN L/MONO and RIGHT(RETURN), OUT L/MONO and RIGHT(SEND),9V500mA center-negative DC and USB-C. Return/send labels share right-channel sockets; side MIDI and expression ports are outside this view.",
+            "visual_checked": true,
+            "sha256": "2c0bdefe00b8a73f261a3f9c0e5cebbac9da3a2b58b9d6aea6c532f135fd5dec"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::Pocket POD"
+    "last_model": "Line 6::HX One"
   }
 }

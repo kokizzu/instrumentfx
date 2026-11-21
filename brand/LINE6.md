@@ -1798,6 +1798,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::HX One ends -->
 
+<!-- model-images:Line 6::HX One begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**HX One — powered-on top-down view**
+
+[![HX One — powered-on top-down view](https://line6.com/data/6/0a020a3fc26c65122bab5d51d/image/jpeg)](https://line6.com/data/6/0a020a3fc26c65122bab5d51d/image/jpeg)
+
+[Image source](https://line6.com/hx-one/). Exact HX One manufacturer overhead image shows Adriatic Delay on OLED, three parameter knobs and effect encoder, HOME/PAGE buttons, two footswitches and lit ON/TAP indicators.
+
+**HX One — rear audio, DC and USB ports**
+
+[![HX One — rear audio, DC and USB ports](https://line6.com/data/6/0a020a3fc2b565122d8385ce6/image/jpeg)](https://line6.com/data/6/0a020a3fc2b565122d8385ce6/image/jpeg)
+
+[Image source](https://line6.com/hx-one/). Rear labels show IN L/MONO and RIGHT(RETURN), OUT L/MONO and RIGHT(SEND),9V500mA center-negative DC and USB-C. Return/send labels share right-channel sockets; side MIDI and expression ports are outside this view.
+
+</details>
+<!-- model-images:Line 6::HX One ends -->
+
+
 Effects-only multi-category guitar/bass processor;distinct from HX Effects/HX Stomp. One selected model,not a multi-block chain. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
 
 | Field | Finding / qualification | Evidence |
