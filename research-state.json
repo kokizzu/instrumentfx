@@ -191868,11 +191868,35 @@
             "sha256": "14d2cfff787721c2e8d5aa83f406b8c1f103809d481a5225177ae6bed287e883"
           }
         }
+      },
+      "Line 6::M5": {
+        "model_key": "Line 6::M5",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/l/0a06434d17d714d9c96e801f9a/image/jpeg/M5%20Stompbox%20Modeler%20(Front)%20-%20Lo%20Rez.jpeg",
+            "source_url": "https://line6.com/company/images/?families=12",
+            "caption": "M5 — powered-on near-overhead view",
+            "note": "Official Front photograph shows exact M5, illuminated green LCD and ON/OFF indicator. Slight perspective and front edge visible: useful near-overhead view, not a verified perfectly perpendicular top-down photograph; exact top-down remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "c118ba0888185271dd088a8291742deb7bd737a8220bc8ed17f46f908cd95ffa"
+          },
+          "rear": {
+            "image_url": "https://line6.com/data/l/0a06434d17d914d9c97092168c/image/jpeg/M5%20Stompbox%20Modeler%20(Rear%20View)%20-%20Lo%20Rez.jpeg",
+            "source_url": "https://line6.com/company/images/?families=12",
+            "caption": "M5 — rear audio, expression and power ports",
+            "note": "Rear panel visibly labels POWER, EXPRESSION PEDAL, INPUT L(MONO)/RIGHT and OUTPUT L(MONO)/RIGHT. Side-mounted MIDI sockets are outside this view; this is the exact M5 archive image.",
+            "visual_checked": true,
+            "sha256": "849f8edf86d246e7d0f44c71ebefca086190d54049bcd3323808f79d1467dce5"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::Helix LT"
+    "last_model": "Line 6::M5"
   }
 }

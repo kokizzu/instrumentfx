@@ -2222,6 +2222,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::M5 ends -->
 
+<!-- model-images:Line 6::M5 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**M5 — powered-on near-overhead view**
+
+[![M5 — powered-on near-overhead view](https://line6.com/data/l/0a06434d17d714d9c96e801f9a/image/jpeg/M5%20Stompbox%20Modeler%20(Front)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06434d17d714d9c96e801f9a/image/jpeg/M5%20Stompbox%20Modeler%20(Front)%20-%20Lo%20Rez.jpeg)
+
+[Image source](https://line6.com/company/images/?families=12). Official Front photograph shows exact M5, illuminated green LCD and ON/OFF indicator. Slight perspective and front edge visible: useful near-overhead view, not a verified perfectly perpendicular top-down photograph; exact top-down remains pending.
+
+**M5 — rear audio, expression and power ports**
+
+[![M5 — rear audio, expression and power ports](https://line6.com/data/l/0a06434d17d914d9c97092168c/image/jpeg/M5%20Stompbox%20Modeler%20(Rear%20View)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06434d17d914d9c97092168c/image/jpeg/M5%20Stompbox%20Modeler%20(Rear%20View)%20-%20Lo%20Rez.jpeg)
+
+[Image source](https://line6.com/company/images/?families=12). Rear panel visibly labels POWER, EXPRESSION PEDAL, INPUT L(MONO)/RIGHT and OUTPUT L(MONO)/RIGHT. Side-mounted MIDI sockets are outside this view; this is the exact M5 archive image.
+
+</details>
+<!-- model-images:Line 6::M5 ends -->
+
+
 Effects-only multi-category processor; one selected model plus gate,not a chain processor. Eligible under multi-category scope; distinct from dedicated single-purpose pedals and M9/M13. Checked2026-10-17;partial. Ownership and vocal suitability unverified. Bass suitability documented for Bass Octaver;not every model is certified equally suitable.
 
 | Field | Finding / qualification | Evidence |
