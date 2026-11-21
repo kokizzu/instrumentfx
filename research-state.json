@@ -198008,11 +198008,35 @@
             "sha256": "1a478495f91c368aa86075fccb41d8c9dae7f76224867f632d416155d0178334"
           }
         }
+      },
+      "MOOER::GE100 Pro Li": {
+        "model_key": "MOOER::GE100 Pro Li",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://deathcloud.com/cdn/shop/files/MOOERGE100ProLiPedal_379438ad-75e1-4298-9e6b-f6eeb6de9796.jpg?v=1778228467&width=1946",
+            "source_url": "https://deathcloud.com/products/mooer-ge100-pro",
+            "caption": "MOOER GE100 Pro Li powered-on top view",
+            "note": "Visually inspected exact black GE100 Pro Li variant, straight overhead with illuminated preset screen and RGB strip. The displayed battery icon is illustrative, not a measured runtime claim.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "2bef20c4114cfa46541b8a11498afc445989cadf0c68dd419bd5983f8803aa63"
+          },
+          "rear": {
+            "image_url": "https://deathcloud.com/cdn/shop/files/MOOERGE100ProLiPedalTop.jpg?v=1778228467&width=1946",
+            "source_url": "https://deathcloud.com/products/mooer-ge100-pro",
+            "caption": "MOOER GE100 Pro Li rear ports",
+            "note": "Visually inspected angled rear view of the Li variant: INPUT, OUTPUT L/R, PHONES, USB data/audio, separate USB-C 5V 2A power and ON/OFF switch are readable. No dedicated physical MIDI, XLR or effects-loop connectors are shown.",
+            "visual_checked": true,
+            "sha256": "badc7bc0321b7da1e16adec059866c5bc5079d752ef1cef1dab60c50cec43673"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE100 Pro"
+    "last_model": "MOOER::GE100 Pro Li"
   }
 }
