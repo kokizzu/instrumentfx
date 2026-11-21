@@ -4492,6 +4492,31 @@ Current body **45W×125Dmm** fits preference; preserve earlier physical-design a
 
 ## ME-5
 
+<!-- firmware-pitch:BOSS::ME-5 begins -->
+### Firmware and pitch audit — BOSS ME-5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1988 (manufacturer release year). Manufacturer anniversary timeline and technical specifications establish 1988. Exact retail month/day unverified; 1992 end-of-production and 2024 support-article revision are not firmware dates. [launch 1](https://www.roland.com/us/roland-50th-anniversary/1980s/) [launch 2](https://support.roland.com/hc/en-us/articles/201924659-ME-5-Technical-Specifications) |
+| Firmware / latest verification | Not verified — No public firmware located. No ME-5 entry in checked manufacturer legacy H–M downloads; targeted manufacturer system-program search found no public release. Model support page inaccessible. Device ROM version/date and update duration remain unknown. MIDI implementation version is not firmware. [firmware 1](https://www.roland.com/jp/support/archives/archive_downloads_h-m/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No interval pitch shifter, harmonizer, octave or pedal-bend effect documented in the checked manufacturer effect inventory. Chorus/flanger modulation does not establish interval shifting or note polyphony. [pitch 1](https://support.roland.com/hc/en-us/articles/201924659-ME-5-Technical-Specifications) [pitch 2](https://cdn.roland.com/assets/media/pdf/ME-5_OM.pdf) |
+| Pitch / preset recall | 64 factory-programmed rewritable patches, arranged four groups × four banks × four numbers; no separate 64-preset bank. WRITE is required to retain edits. |
+| Pitch / DSP resources | Five fixed units can operate together: compressor, overdrive/distortion, EQ, chorus/flanger and reverb/delay. Slash alternatives share a unit. This is a simultaneous-unit limit, not a pitch DSP percentage; no pitch CPU allocation found. |
+| Pitch / qualifications | External EV-5 expression compatibility is not evidence of pedal pitch shifting. No later ME-series pitch functions transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland 50th Anniversary: 1980s](https://www.roland.com/us/roland-50th-anniversary/1980s/) — ME-5 appears under 1988. (Manufacturer timeline web text).
+- [ME-5 Technical Specifications](https://support.roland.com/hc/en-us/articles/201924659-ME-5-Technical-Specifications) — 1988–1992 product period; five effect-unit parameter inventory, 64 patches and optional EV-5. (Manufacturer support article indexed text).
+- [BOSS ME-5 Owner Manual](https://cdn.roland.com/assets/media/pdf/ME-5_OM.pdf) — Patch Editing explicitly allows all five fixed units together. Retained original-manual indexed evidence establishes rewritable factory patches and group/bank/number addressing. (Manufacturer indexed scanned-manual passages; direct PDF retrieval timed out; no new visual inspection).
+- [Roland legacy downloads H–M](https://www.roland.com/jp/support/archives/archive_downloads_h-m/) — No ME-5 system-program entry found. (Manufacturer web text).
+
+<!-- firmware-pitch:BOSS::ME-5 ends -->
+
 Guitar multiple effects,1988–1992;checked2026-10-17;partial. [Own Roland specifications][ME5-P],updated2024-06-26. Bass/vocal capability andownership unverified.
 
 | Field | Verified evidence / gaps |

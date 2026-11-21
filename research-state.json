@@ -183642,10 +183642,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::ME-5": {
+        "model_key": "BOSS::ME-5",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "1988",
+          "precision": "year",
+          "kind": "manufacturer_release_year",
+          "source_urls": [
+            "https://www.roland.com/us/roland-50th-anniversary/1980s/",
+            "https://support.roland.com/hc/en-us/articles/201924659-ME-5-Technical-Specifications"
+          ],
+          "note": "Manufacturer anniversary timeline and technical specifications establish 1988. Exact retail month/day unverified; 1992 end-of-production and 2024 support-article revision are not firmware dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.roland.com/jp/support/archives/archive_downloads_h-m/"
+          ],
+          "note": "No ME-5 entry in checked manufacturer legacy H–M downloads; targeted manufacturer system-program search found no public release. Model support page inaccessible. Device ROM version/date and update duration remain unknown. MIDI implementation version is not firmware."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No interval pitch shifter, harmonizer, octave or pedal-bend effect documented in the checked manufacturer effect inventory. Chorus/flanger modulation does not establish interval shifting or note polyphony.",
+          "preset": "64 factory-programmed rewritable patches, arranged four groups × four banks × four numbers; no separate 64-preset bank. WRITE is required to retain edits.",
+          "dsp": "Five fixed units can operate together: compressor, overdrive/distortion, EQ, chorus/flanger and reverb/delay. Slash alternatives share a unit. This is a simultaneous-unit limit, not a pitch DSP percentage; no pitch CPU allocation found.",
+          "source_urls": [
+            "https://support.roland.com/hc/en-us/articles/201924659-ME-5-Technical-Specifications",
+            "https://cdn.roland.com/assets/media/pdf/ME-5_OM.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "External EV-5 expression compatibility is not evidence of pedal pitch shifting. No later ME-series pitch functions transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/roland-50th-anniversary/1980s/",
+            "title": "Roland 50th Anniversary: 1980s",
+            "access": "Manufacturer timeline web text",
+            "evidence": "ME-5 appears under 1988."
+          },
+          {
+            "url": "https://support.roland.com/hc/en-us/articles/201924659-ME-5-Technical-Specifications",
+            "title": "ME-5 Technical Specifications",
+            "access": "Manufacturer support article indexed text",
+            "evidence": "1988–1992 product period; five effect-unit parameter inventory, 64 patches and optional EV-5."
+          },
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/ME-5_OM.pdf",
+            "title": "BOSS ME-5 Owner Manual",
+            "access": "Manufacturer indexed scanned-manual passages; direct PDF retrieval timed out; no new visual inspection",
+            "evidence": "Patch Editing explicitly allows all five fixed units together. Retained original-manual indexed evidence establishes rewritable factory patches and group/bank/number addressing."
+          },
+          {
+            "url": "https://www.roland.com/jp/support/archives/archive_downloads_h-m/",
+            "title": "Roland legacy downloads H–M",
+            "access": "Manufacturer web text",
+            "evidence": "No ME-5 system-program entry found."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::ME-5",
       "BOSS::ME-50",
       "BOSS::ME-50B",
       "BOSS::ME-70",
@@ -183995,12 +184060,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 54,
-    "last_model": "BOSS::ME-30",
-    "last_commit_parent": "dabf4462973ce0e5995d000592b2ef8cc76aefb7",
+    "completed_model_count": 55,
+    "last_model": "BOSS::ME-5",
+    "last_commit_parent": "525eec59f40f838824901065601e1366fa1b2718",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::ME-5",
       "BOSS::ME-50",
       "BOSS::ME-50B",
       "BOSS::ME-70",
@@ -184349,7 +184413,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 54,
+    "pitch_completed_model_count": 55,
     "supplemental_model_count": 0
   }
 }
