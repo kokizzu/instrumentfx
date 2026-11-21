@@ -380,6 +380,32 @@ No stored-preset down/up operation is documented; eight harmony settings are not
 
 ## Mic Mechanic 2
 
+<!-- firmware-pitch:TC-Helicon::Mic Mechanic 2 begins -->
+### Firmware and pitch audit — TC-Helicon Mic Mechanic 2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2016-12-01 (manufacturer introduction video). Official TC Helicon Mic Mechanic 2 introduction published December 1, 2016. Public introduction, not independently verified first shipment. [launch 1](https://www.youtube.com/watch?v=-MW0_GcV3QE) |
+| Firmware / latest verification | 1.0.05 build 20 — Unverified. Version is an owner/seller report on an exact Mic Mechanic 2 listing, not manufacturer latest certification or our device observation. Manufacturer update demonstration documents an optional mode keeping reverb unaffected by the footswitch, entered by holding Tone during power-up. No exact release number/date linked to that change; demo publication is not firmware release date. Current VoiceSupport2 1.1.02_build139 is host software. Support span remains uncalculable. [firmware 1](https://reverb.com/en-nl/item/92867749-tc-helicon-mic-mechanic-2-pitch-correction-echo-reverb-vocal-power-suply-new-software) [firmware 2](https://www.youtube.com/watch?v=ozHsxKB-0CM) [firmware 3](https://www.tchelicon.com/en/products/0726-AAE) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Vocal pitch correction has an amount control: off at minimum, subtle support at noon, stronger correction at maximum. No polyphonic input-note guarantee, selectable interval shifting or harmony engine documented in the checked controls. This is not evidence of a polyphonic guitar detuner. [pitch 1](https://cdn-media.empowertribe.com/ca3c40611e714efbbc1da4c94704eec0/M_TH_P0DDW_MIC-MECHANIC-2.pdf) [pitch 2](https://www.tchelicon.com/en/products/0726-AAE) [pitch 3](https://www.youtube.com/watch?v=ozHsxKB-0CM) |
+| Pitch / preset recall | Three knobs plus Tone and footswitch; no verified writable full-preset count. Standard manual bypass covers correction, echo and reverb while retaining Tone. Update-specific reverb-preserving mode qualifies that behavior. Tone plus Correction temporarily adjusts echo feedback; it does not add another pitch processor. |
+| Pitch / DSP resources | No pitch-specific CPU percentage, resource meter or numerical DSP allocation found. Correction amount and echo feedback are effect controls, not processor use. Published power consumption is not pitch DSP cost. |
+| Pitch / qualifications | Direct manufacturer multilingual V1.0 manual restored, English printed pp14–16. Document version is not firmware version. Current exact product page now agrees with the manual on always-active 24V phantom and tap mode; earlier 48V/hold-to-bank claims remain historical source conflicts, not verified revision changes. No updater installed, firmware transfer, hardware operation or audio tracking test performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Helicon Mic Mechanic 2 official introduction video](https://www.youtube.com/watch?v=-MW0_GcV3QE) — December 1, 2016 public introduction of second-generation model. (Official manufacturer indexed publication/description inspected).
+- [TC Helicon Mic Mechanic 2 V1.0 multilingual manufacturer manual](https://cdn-media.empowertribe.com/ca3c40611e714efbbc1da4c94704eec0/M_TH_P0DDW_MIC-MECHANIC-2.pdf) — Correction amount and bypass, Tone/Correction feedback gesture, VoiceSupport2 transport; no pitch polyphony or DSP-cost specification. (Direct original 58-page PDF read; English printed pp14–16).
+- [TC Helicon Helicon Headquarters Mic Mechanic 2 firmware-update demonstration](https://www.youtube.com/watch?v=ozHsxKB-0CM) — New startup-selectable mode leaves reverb unaffected by footswitch; no firmware release number/date established. (Original manufacturer indexed video description inspected; direct video unavailable).
+- [Mic Mechanic 2 used-listing firmware statement](https://reverb.com/en-nl/item/92867749-tc-helicon-mic-mechanic-2-pitch-correction-echo-reverb-vocal-power-suply-new-software) — Reports 1.0.05 build20; unsupported latest assertion is not certified. Listing timestamp is not firmware release date. (Exact Reverb indexed item text inspected; seller claim only).
+- [TC Helicon Mic Mechanic 2 current exact 0726-AAE page](https://www.tchelicon.com/en/products/0726-AAE) — Now documents tap mode and always-on24V phantom; host VoiceSupport2 1.1.02_build139 listing, no device firmware date. (Direct manufacturer page read).
+
+<!-- firmware-pitch:TC-Helicon::Mic Mechanic 2 ends -->
+
 Checked **2026-10-17**; partial. Vocal multi-effects with independent echo, reverb and correction controls; included in ALL-VOCAL only. This is the second-generation unit, not the original Mic Mechanic. No guitar or bass capability is inferred from seller category labels.
 
 <!-- comparison evidence begins -->

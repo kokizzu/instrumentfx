@@ -201636,10 +201636,85 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC-Helicon::Mic Mechanic 2": {
+        "model_key": "TC-Helicon::Mic Mechanic 2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2016-12-01",
+          "precision": "day",
+          "kind": "manufacturer introduction video",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=-MW0_GcV3QE"
+          ],
+          "note": "Official TC Helicon Mic Mechanic 2 introduction published December 1, 2016. Public introduction, not independently verified first shipment."
+        },
+        "firmware": {
+          "version": "1.0.05 build 20",
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://reverb.com/en-nl/item/92867749-tc-helicon-mic-mechanic-2-pitch-correction-echo-reverb-vocal-power-suply-new-software",
+            "https://www.youtube.com/watch?v=ozHsxKB-0CM",
+            "https://www.tchelicon.com/en/products/0726-AAE"
+          ],
+          "note": "Version is an owner/seller report on an exact Mic Mechanic 2 listing, not manufacturer latest certification or our device observation. Manufacturer update demonstration documents an optional mode keeping reverb unaffected by the footswitch, entered by holding Tone during power-up. No exact release number/date linked to that change; demo publication is not firmware release date. Current VoiceSupport2 1.1.02_build139 is host software. Support span remains uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Vocal pitch correction has an amount control: off at minimum, subtle support at noon, stronger correction at maximum. No polyphonic input-note guarantee, selectable interval shifting or harmony engine documented in the checked controls. This is not evidence of a polyphonic guitar detuner.",
+          "preset": "Three knobs plus Tone and footswitch; no verified writable full-preset count. Standard manual bypass covers correction, echo and reverb while retaining Tone. Update-specific reverb-preserving mode qualifies that behavior. Tone plus Correction temporarily adjusts echo feedback; it does not add another pitch processor.",
+          "dsp": "No pitch-specific CPU percentage, resource meter or numerical DSP allocation found. Correction amount and echo feedback are effect controls, not processor use. Published power consumption is not pitch DSP cost.",
+          "source_urls": [
+            "https://cdn-media.empowertribe.com/ca3c40611e714efbbc1da4c94704eec0/M_TH_P0DDW_MIC-MECHANIC-2.pdf",
+            "https://www.tchelicon.com/en/products/0726-AAE",
+            "https://www.youtube.com/watch?v=ozHsxKB-0CM"
+          ],
+          "measurements": [],
+          "notes": [
+            "Direct manufacturer multilingual V1.0 manual restored, English printed pp14–16. Document version is not firmware version.",
+            "Current exact product page now agrees with the manual on always-active 24V phantom and tap mode; earlier 48V/hold-to-bank claims remain historical source conflicts, not verified revision changes.",
+            "No updater installed, firmware transfer, hardware operation or audio tracking test performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=-MW0_GcV3QE",
+            "title": "TC Helicon Mic Mechanic 2 official introduction video",
+            "access": "Official manufacturer indexed publication/description inspected",
+            "evidence": "December 1, 2016 public introduction of second-generation model."
+          },
+          {
+            "url": "https://cdn-media.empowertribe.com/ca3c40611e714efbbc1da4c94704eec0/M_TH_P0DDW_MIC-MECHANIC-2.pdf",
+            "title": "TC Helicon Mic Mechanic 2 V1.0 multilingual manufacturer manual",
+            "access": "Direct original 58-page PDF read; English printed pp14–16",
+            "evidence": "Correction amount and bypass, Tone/Correction feedback gesture, VoiceSupport2 transport; no pitch polyphony or DSP-cost specification."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ozHsxKB-0CM",
+            "title": "TC Helicon Helicon Headquarters Mic Mechanic 2 firmware-update demonstration",
+            "access": "Original manufacturer indexed video description inspected; direct video unavailable",
+            "evidence": "New startup-selectable mode leaves reverb unaffected by footswitch; no firmware release number/date established."
+          },
+          {
+            "url": "https://reverb.com/en-nl/item/92867749-tc-helicon-mic-mechanic-2-pitch-correction-echo-reverb-vocal-power-suply-new-software",
+            "title": "Mic Mechanic 2 used-listing firmware statement",
+            "access": "Exact Reverb indexed item text inspected; seller claim only",
+            "evidence": "Reports 1.0.05 build20; unsupported latest assertion is not certified. Listing timestamp is not firmware release date."
+          },
+          {
+            "url": "https://www.tchelicon.com/en/products/0726-AAE",
+            "title": "TC Helicon Mic Mechanic 2 current exact 0726-AAE page",
+            "access": "Direct manufacturer page read",
+            "evidence": "Now documents tap mode and always-on24V phantom; host VoiceSupport2 1.1.02_build139 listing, no device firmware date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC-Helicon::Mic Mechanic 2",
       "TC-Helicon::PERFORM-V",
       "TC-Helicon::PERFORM-VE",
       "TC-Helicon::PERFORM-VG",
@@ -201756,12 +201831,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 287,
-    "last_model": "TC-Helicon::Harmony Singer 2",
-    "last_commit_parent": "32459e402f0a769e58b5a5cf2a0cf49c075af4b5",
+    "completed_model_count": 288,
+    "last_model": "TC-Helicon::Mic Mechanic 2",
+    "last_commit_parent": "a87e799d919e6fa362762ffee5a25df637771882",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC-Helicon::Mic Mechanic 2",
       "TC-Helicon::PERFORM-V",
       "TC-Helicon::PERFORM-VE",
       "TC-Helicon::PERFORM-VG",
@@ -201877,7 +201951,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 287,
+    "pitch_completed_model_count": 288,
     "supplemental_model_count": 0
   },
   "model_images": {
