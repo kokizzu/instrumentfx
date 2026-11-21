@@ -184935,10 +184935,62 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DemonFX::Dual Mod Workstation": {
+        "model_key": "DemonFX::Dual Mod Workstation",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.demon-fx.com/uploadfile/202404/b1a86a7081609f2.pdf"
+          ],
+          "note": "No dated manufacturer launch announcement located. Manual URL folder 202404 is not verified first retail release evidence; Keeley launch dates do not establish DemonFX dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.demon-fx.com/",
+            "https://www.demon-fx.com/uploadfile/202404/b1a86a7081609f2.pdf"
+          ],
+          "note": "Manufacturer site/manual and targeted exact-model search yielded no public device firmware version, dated update or updater. Internal revisions and undocumented service methods remain unknown; release-to-update span uncomputable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "ADT offers pitch detuning 0–60 cents with 0–60 ms delay and blend. Chorus/Vibrato is separate modulation. No general semitone transpose, octave or intelligent harmonizer documented; ADT input-note polyphony unspecified.",
+          "preset": "Two eight-position algorithm menus are not preset storage. Writable memory count and retention not established in checked manual.",
+          "dsp": "Two simultaneous effects, one selected from each bank. ADT occupies Bank 1 position 5; Bank 2 has a different eight-choice menu. No per-algorithm DSP percentage or arbitrary duplicate pitch-slot budget published.",
+          "measurements": [],
+          "source_urls": [
+            "https://www.demon-fx.com/uploadfile/202404/b1a86a7081609f2.pdf"
+          ],
+          "notes": [
+            "Detuning is documented within ADT, not as an independent pitch block. Stereo output does not establish polyphonic input. Keeley references in the manual do not prove identical firmware or resource limits."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.demon-fx.com/uploadfile/202404/b1a86a7081609f2.pdf",
+            "title": "DemonFX Dual Mod Workstation manual",
+            "access": "Manufacturer-hosted two-page PDF web text",
+            "evidence": "Page 1: two simultaneous banks, eight choices each. Page 2: ADT pitch 0–60 cents/delay 0–60 ms and bank menus. No dated firmware or preset-storage specification."
+          },
+          {
+            "url": "https://www.demon-fx.com/",
+            "title": "DemonFX manufacturer site",
+            "access": "Manufacturer current homepage/catalogue and targeted exact-model search",
+            "evidence": "No exact-model public firmware/version/date located in checked material; this is not proof of no internal firmware."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DemonFX::Dual Mod Workstation",
       "DigiTech::BP355",
       "DigiTech::GNX3",
       "DigiTech::GNX4",
@@ -185268,12 +185320,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 74,
-    "last_model": "Darkglass::Anagram",
-    "last_commit_parent": "c3deed4649161fdd33c51fec6d77c35478c7558e",
+    "completed_model_count": 75,
+    "last_model": "DemonFX::Dual Mod Workstation",
+    "last_commit_parent": "1f894d373db17b7967017b5cfd4c4c50fb9f1129",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DemonFX::Dual Mod Workstation",
       "DigiTech::BP355",
       "DigiTech::GNX3",
       "DigiTech::GNX4",
@@ -185602,7 +185653,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 74,
+    "pitch_completed_model_count": 75,
     "supplemental_model_count": 0
   }
 }

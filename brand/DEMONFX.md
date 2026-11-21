@@ -10,6 +10,29 @@
 
 ## Dual Mod Workstation
 
+<!-- firmware-pitch:DemonFX::Dual Mod Workstation begins -->
+### Firmware and pitch audit — DemonFX Dual Mod Workstation
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No dated manufacturer launch announcement located. Manual URL folder 202404 is not verified first retail release evidence; Keeley launch dates do not establish DemonFX dates. [launch 1](https://www.demon-fx.com/uploadfile/202404/b1a86a7081609f2.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. Manufacturer site/manual and targeted exact-model search yielded no public device firmware version, dated update or updater. Internal revisions and undocumented service methods remain unknown; release-to-update span uncomputable. [firmware 1](https://www.demon-fx.com/) [firmware 2](https://www.demon-fx.com/uploadfile/202404/b1a86a7081609f2.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. ADT offers pitch detuning 0–60 cents with 0–60 ms delay and blend. Chorus/Vibrato is separate modulation. No general semitone transpose, octave or intelligent harmonizer documented; ADT input-note polyphony unspecified. [pitch 1](https://www.demon-fx.com/uploadfile/202404/b1a86a7081609f2.pdf) |
+| Pitch / preset recall | Two eight-position algorithm menus are not preset storage. Writable memory count and retention not established in checked manual. |
+| Pitch / DSP resources | Two simultaneous effects, one selected from each bank. ADT occupies Bank 1 position 5; Bank 2 has a different eight-choice menu. No per-algorithm DSP percentage or arbitrary duplicate pitch-slot budget published. |
+| Pitch / qualifications | Detuning is documented within ADT, not as an independent pitch block. Stereo output does not establish polyphonic input. Keeley references in the manual do not prove identical firmware or resource limits. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [DemonFX Dual Mod Workstation manual](https://www.demon-fx.com/uploadfile/202404/b1a86a7081609f2.pdf) — Page 1: two simultaneous banks, eight choices each. Page 2: ADT pitch 0–60 cents/delay 0–60 ms and bank menus. No dated firmware or preset-storage specification. (Manufacturer-hosted two-page PDF web text).
+- [DemonFX manufacturer site](https://www.demon-fx.com/) — No exact-model public firmware/version/date located in checked material; this is not proof of no internal firmware. (Manufacturer current homepage/catalogue and targeted exact-model search).
+
+<!-- firmware-pitch:DemonFX::Dual Mod Workstation ends -->
+
 Checked 2026-10-18; partial. Own two-page manual identifies this model and demon-fx.com. Its Keeley reference does not prove equivalence. Ownership unknown; bass/vocal suitability unclassified.
 
 <!-- comparison evidence begins -->
