@@ -195351,6 +195351,72 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::MG-101": {
+        "model_key": "NUX::MG-101",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2024-05-23",
+          "precision": "day",
+          "kind": "manufacturer_talkthrough_proxy",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=Nsu-puZW30k"
+          ],
+          "note": "NUX manufacturer talkthrough published May 23, 2024 establishes public introduction by that day, not exact first retail shipment; regional retail dates can be later."
+        },
+        "firmware": {
+          "version": "1.1.1",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://nuxaudio.com/product/mg101/",
+            "https://cn.nuxaudio.com/product/mg101/"
+          ],
+          "note": "Both exact-model manufacturer pages currently offer firmware 1.1.1 for Windows/macOS and explicitly leave update date blank. QuickTone 2.4.12.27 and ASIO 3.29.0/5.30.0 are separate software/driver versions, not device firmware dates. No dated firmware release notes located; span cannot be calculated."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manual reference lists Harmony and Detune under MOD, and Shimmer under RVB. Polyphony, interval range and whole-guitar transposition quality are not specified; harmony name alone does not prove chord-safe tracking.",
+          "preset": "SAVE stores the current patch and preset mode recalls it. Harmony/Detune are selected within MOD. PARA. FOLLOW remembers model edits separately from explicit patch saving; no additional protected preset bank inferred.",
+          "dsp": "Ten named signal blocks: NG, CMP, EFX, AMP, IR, EQ, MOD, DLY, RVB, P.L. Harmony/Detune occupy the MOD selection, excluding another MOD model in that slot; Shimmer occupies RVB. No isolated pitch DSP percentage or published CPU measurement found.",
+          "source_urls": [
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG101/NUX_MG101_UserManual_German.pdf",
+            "https://nuxaudio.com/product/mg101/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manual/product looper-duration and expression-calibration contradictions remain preserved in the existing technical record; this pitch audit does not resolve their firmware applicability."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Nsu-puZW30k",
+            "title": "NUX MG-101 — Brand New Entry-Level Modeling Guitar Processor talkthrough",
+            "access": "Manufacturer YouTube video indexed metadata checked 2026-11-22; direct playback page unavailable",
+            "evidence": "Indexed publication May 23, 2024; used as introduction proxy, not shipment date."
+          },
+          {
+            "url": "https://nuxaudio.com/product/mg101/",
+            "title": "NUX global MG-101 product and support",
+            "access": "Manufacturer page checked 2026-11-22",
+            "evidence": "Firmware 1.1.1 macOS/Windows, update dates blank; separate QuickTone 2.4.12.27 and drivers; ten signal blocks."
+          },
+          {
+            "url": "https://cn.nuxaudio.com/product/mg101/",
+            "title": "NUX China MG-101 product and support",
+            "access": "Manufacturer page checked 2026-11-22",
+            "evidence": "Also lists firmware 1.1.1 with blank date; no newer exact-model firmware listed."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG101/NUX_MG101_UserManual_German.pdf",
+            "title": "NUX MG-101 German user manual",
+            "access": "Manufacturer-hosted nine-page PDF checked 2026-11-22",
+            "evidence": "PDF p9 Harmony/Detune MOD models and Shimmer RVB; pp4–5 patch editing/SAVE; pp7–8 PARA FOLLOW, firmware INFO and reset procedure. No polyphony or pitch CPU costs."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -195390,7 +195456,6 @@
       "NUX::Cerberus NME-3",
       "NUX::MFX-10",
       "NUX::MG-100",
-      "NUX::MG-101",
       "NUX::MG-20",
       "NUX::MG-200",
       "NUX::MG-30",
@@ -195549,9 +195614,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 209,
-    "last_model": "MOOER::Ocean Machine II",
-    "last_commit_parent": "1ab6091ce4be70fe32c714a75e13e04c5347ebef",
+    "completed_model_count": 210,
+    "last_model": "NUX::MG-101",
+    "last_commit_parent": "de747727f2045fa331eea95b54cdb10bf2e01ea3",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -195590,7 +195655,6 @@
       "NUX::Cerberus NME-3",
       "NUX::MFX-10",
       "NUX::MG-100",
-      "NUX::MG-101",
       "NUX::MG-20",
       "NUX::MG-200",
       "NUX::MG-30",
@@ -195748,7 +195812,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 209,
+    "pitch_completed_model_count": 210,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -1069,6 +1069,31 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 ## MG-101
 
+<!-- firmware-pitch:NUX::MG-101 begins -->
+### Firmware and pitch audit — NUX MG-101
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-05-23 (manufacturer talkthrough proxy). NUX manufacturer talkthrough published May 23, 2024 establishes public introduction by that day, not exact first retail shipment; regional retail dates can be later. [launch 1](https://www.youtube.com/watch?v=Nsu-puZW30k) |
+| Firmware / latest verification | 1.1.1 — Latest verified. Both exact-model manufacturer pages currently offer firmware 1.1.1 for Windows/macOS and explicitly leave update date blank. QuickTone 2.4.12.27 and ASIO 3.29.0/5.30.0 are separate software/driver versions, not device firmware dates. No dated firmware release notes located; span cannot be calculated. [firmware 1](https://nuxaudio.com/product/mg101/) [firmware 2](https://cn.nuxaudio.com/product/mg101/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manual reference lists Harmony and Detune under MOD, and Shimmer under RVB. Polyphony, interval range and whole-guitar transposition quality are not specified; harmony name alone does not prove chord-safe tracking. [pitch 1](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG101/NUX_MG101_UserManual_German.pdf) [pitch 2](https://nuxaudio.com/product/mg101/) |
+| Pitch / preset recall | SAVE stores the current patch and preset mode recalls it. Harmony/Detune are selected within MOD. PARA. FOLLOW remembers model edits separately from explicit patch saving; no additional protected preset bank inferred. |
+| Pitch / DSP resources | Ten named signal blocks: NG, CMP, EFX, AMP, IR, EQ, MOD, DLY, RVB, P.L. Harmony/Detune occupy the MOD selection, excluding another MOD model in that slot; Shimmer occupies RVB. No isolated pitch DSP percentage or published CPU measurement found. |
+| Pitch / qualifications | Manual/product looper-duration and expression-calibration contradictions remain preserved in the existing technical record; this pitch audit does not resolve their firmware applicability. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX MG-101 — Brand New Entry-Level Modeling Guitar Processor talkthrough](https://www.youtube.com/watch?v=Nsu-puZW30k) — Indexed publication May 23, 2024; used as introduction proxy, not shipment date. (Manufacturer YouTube video indexed metadata checked 2026-11-22; direct playback page unavailable).
+- [NUX global MG-101 product and support](https://nuxaudio.com/product/mg101/) — Firmware 1.1.1 macOS/Windows, update dates blank; separate QuickTone 2.4.12.27 and drivers; ten signal blocks. (Manufacturer page checked 2026-11-22).
+- [NUX China MG-101 product and support](https://cn.nuxaudio.com/product/mg101/) — Also lists firmware 1.1.1 with blank date; no newer exact-model firmware listed. (Manufacturer page checked 2026-11-22).
+- [NUX MG-101 German user manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG101/NUX_MG101_UserManual_German.pdf) — PDF p9 Harmony/Detune MOD models and Shimmer RVB; pp4–5 patch editing/SAVE; pp7–8 PARA FOLLOW, firmware INFO and reset procedure. No polyphony or pitch CPU costs. (Manufacturer-hosted nine-page PDF checked 2026-11-22).
+
+<!-- firmware-pitch:NUX::MG-101 ends -->
+
 <!-- comparison evidence begins -->
 **Existing technical review2026-10-14.** [Official model](https://nuxaudio.com/product/mg101/).
 
