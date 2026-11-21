@@ -352,6 +352,26 @@ Sources checked:
 
 <!-- firmware-pitch:Sonicake::Matribox II QME-100 ends -->
 
+<!-- model-images:Sonicake::Matribox II QME-100 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Matribox II powered overhead**
+
+[![Matribox II powered overhead](https://www.hotone.jp/images/brands/sonicake/products/matribox-ii/gallery/20260902-093154-k3wrn5-matribox-ii_front_hi_v01_250219.webp)](https://www.hotone.jp/images/brands/sonicake/products/matribox-ii/gallery/20260902-093154-k3wrn5-matribox-ii_front_hi_v01_250219.webp)
+
+[Image source](https://www.hotone.jp/brands/sonicake/products/matribox-ii). Visually inspected exact overhead of the three-footswitch QME-100: lit screen and indicators, five rotary controls, thirteen separate panel buttons and built-in expression. Not the two-switch original or four-switch Pro. Marketing image does not prove installed firmware.
+
+**Matribox II complete rear connectors**
+
+[![Matribox II complete rear connectors](https://www.hotone.jp/images/brands/sonicake/products/matribox-ii/gallery/20260902-093225-a18hmc-matribox-ii_top_hi_v01_250219.webp)](https://www.hotone.jp/images/brands/sonicake/products/matribox-ii/gallery/20260902-093225-a18hmc-matribox-ii_top_hi_v01_250219.webp)
+
+[Image source](https://www.hotone.jp/brands/sonicake/products/matribox-ii). Visually inspected EXP2/FS,INPUT,AUX IN,RETURN/SEND FXLOOP,L(MONO)/R marked BALANCED OUT,PHONES,mini-jack MIDI IN/OUT,USB-C andDC9V1000mA center-negative. No power switch visible. BALANCED OUT is the physical panel label; preserve contradictory regional unbalanced wording rather than treating the photograph as an electrical measurement.
+
+</details>
+<!-- model-images:Sonicake::Matribox II QME-100 ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Existing review2026-10-14.**
