@@ -184746,10 +184746,67 @@
           "label": "6.34–6.43 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::VE-8": {
+        "model_key": "BOSS::VE-8",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2016-04-06",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/30454/"
+          ],
+          "note": "Manufacturer announcement proxy; exact first retail shipment unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/ve-8/updates_drivers/"
+          ],
+          "note": "Current downloads list Windows/macOS computer drivers only; Windows 1.0.1 and macOS 1.0.5 are not device firmware. Targeted manufacturer search located driver-page boilerplate, not a system-program release. Device version/date and update span unknown; internal revisions not ruled out."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Vocal: one/two added harmony voices, Double, guitar/manual/hybrid key guidance, Soft/Hard pitch correction and Electric stepped pitch. Guitar Octave selects −1 octave, +1 octave or +1 octave with detune. Input-note polyphony unverified for both paths.",
+          "preset": "50 writable memories total, not 50 presets plus 50 user slots; Manual mode follows panel controls.",
+          "dsp": "Separate guitar/vocal processing. Each grouped FX section supports up to three simultaneous effects under its grouping restrictions, not arbitrary duplicate blocks. Vocal Dist/Radio are alternatives; other dedicated Enhance, correction, reverb and guitar resonance stages remain distinct. No CPU percentage published in checked manual.",
+          "measurements": [],
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/VE-8_e02_W.pdf"
+          ],
+          "notes": [
+            "Harmony voice count and guitar chord detection do not prove polyphonic pitch shifting. Guitar octave is documented, not a general chromatic transpose range."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/30454/",
+            "title": "BOSS unveils VE-8 Acoustic Singer",
+            "access": "Manufacturer press release web text",
+            "evidence": "April 6, 2016 announcement."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/ve-8/updates_drivers/",
+            "title": "VE-8 updates and drivers",
+            "access": "Manufacturer current downloads index web text",
+            "evidence": "Only Windows/macOS drivers listed; no device system program."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/VE-8_e02_W.pdf",
+            "title": "BOSS VE-8 Owner Manual",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Page 7 memories; pages 8–9 guitar octave and grouped concurrency; pages 10–11 harmony, correction and vocal concurrency."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::VE-8",
       "CUVAVE::H8",
       "Darkglass::Anagram",
       "DemonFX::Dual Mod Workstation",
@@ -185082,12 +185139,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 71,
-    "last_model": "BOSS::VE-500",
-    "last_commit_parent": "43e713e2a6ccc03bd5d98ad577d608c7793e9303",
+    "completed_model_count": 72,
+    "last_model": "BOSS::VE-8",
+    "last_commit_parent": "b6aafacbe6e21c2fcce41ba06572c8d9ef7f0060",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::VE-8",
       "CUVAVE::H8",
       "Darkglass::Anagram",
       "DemonFX::Dual Mod Workstation",
@@ -185419,7 +185475,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 71,
+    "pitch_completed_model_count": 72,
     "supplemental_model_count": 0
   }
 }

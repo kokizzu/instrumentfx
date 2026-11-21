@@ -6824,6 +6824,30 @@ Microphone input is documented;manual warns against another processor’s output
 
 ## VE-8
 
+<!-- firmware-pitch:BOSS::VE-8 begins -->
+### Firmware and pitch audit — BOSS VE-8
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2016-04-06 (manufacturer announcement proxy). Manufacturer announcement proxy; exact first retail shipment unverified. [launch 1](https://www.roland.com/us/company/press_releases/30454/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current downloads list Windows/macOS computer drivers only; Windows 1.0.1 and macOS 1.0.5 are not device firmware. Targeted manufacturer search located driver-page boilerplate, not a system-program release. Device version/date and update span unknown; internal revisions not ruled out. [firmware 1](https://www.boss.info/global/support/by_product/ve-8/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Vocal: one/two added harmony voices, Double, guitar/manual/hybrid key guidance, Soft/Hard pitch correction and Electric stepped pitch. Guitar Octave selects −1 octave, +1 octave or +1 octave with detune. Input-note polyphony unverified for both paths. [pitch 1](https://static.roland.com/assets/media/pdf/VE-8_e02_W.pdf) |
+| Pitch / preset recall | 50 writable memories total, not 50 presets plus 50 user slots; Manual mode follows panel controls. |
+| Pitch / DSP resources | Separate guitar/vocal processing. Each grouped FX section supports up to three simultaneous effects under its grouping restrictions, not arbitrary duplicate blocks. Vocal Dist/Radio are alternatives; other dedicated Enhance, correction, reverb and guitar resonance stages remain distinct. No CPU percentage published in checked manual. |
+| Pitch / qualifications | Harmony voice count and guitar chord detection do not prove polyphonic pitch shifting. Guitar octave is documented, not a general chromatic transpose range. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS unveils VE-8 Acoustic Singer](https://www.roland.com/us/company/press_releases/30454/) — April 6, 2016 announcement. (Manufacturer press release web text).
+- [VE-8 updates and drivers](https://www.boss.info/global/support/by_product/ve-8/updates_drivers/) — Only Windows/macOS drivers listed; no device system program. (Manufacturer current downloads index web text).
+- [BOSS VE-8 Owner Manual](https://static.roland.com/assets/media/pdf/VE-8_e02_W.pdf) — Page 7 memories; pages 8–9 guitar octave and grouped concurrency; pages 10–11 harmony, correction and vocal concurrency. (Manufacturer PDF web text).
+
+<!-- firmware-pitch:BOSS::VE-8 ends -->
+
 Separate acoustic-guitar and vocal multi-effects;consolidated/researched2026-10-16;partial verification.
 
 ### VE-8 — preserved original comparison
