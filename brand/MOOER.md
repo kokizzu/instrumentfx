@@ -1807,6 +1807,33 @@ These numbered appendix counts corroborate the regional100-amp/77-cab wording, b
 
 ## GE200 Pro Li
 
+<!-- firmware-pitch:MOOER::GE200 Pro Li begins -->
+### Firmware and pitch audit — MOOER GE200 Pro Li
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-07-30 (manufacturer official video index proxy). Joint GE200 Pro/Pro Li series launch-video index proxy; earliest Li retail shipment remains unresolved. Manual explicitly distinguishes the integrated-battery Li variant. [launch 1](https://www.effectsdatabase.com/model/mooer/ge200/pro) [launch 2](https://www.youtube.com/watch?v=z_Qx6fkrQ58) |
+| Firmware / latest verification | 1.5.0 (MOOER Studio/update bundle; device payload unverified) — Located; latest status unverified. Joint Pro/Pro Li manual directs both variants to the GE200 PRO updater. Current download lists MOOER Studio 1.5.0 dated 2026-10-29; device payload version was not checked. Older 1.3.2 has no release date on this page. Span withheld; package upload dates, Cloud app and USB driver are separate. No Li-specific firmware branch established. [firmware 1](https://www.mooeraudio.com/Downloads_xq/5.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/3.html) [firmware 3](https://device.report/m/535174c985b308a40e9f1ce95e9fe12dea91f3e2e605ee3beb5464aface35b6b) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Manufacturer manual identifies FXB Poly Pitch as a poly pitch shifter; pitch parameter table calls it Poly Shift, range ±1 octave. Also Detune and Octave. Poly classification applies to that algorithm; no measured chord-tracking quality or latency. [pitch 1](https://device.report/m/535174c985b308a40e9f1ce95e9fe12dea91f3e2e605ee3beb5464aface35b6b) |
+| Pitch / preset recall | 255 slots across 85 banks of three. SAVE selects bank/slot and stores edits; per-preset CTRL assignments and expression mapping documented. Exact held-pedal recall untested. |
+| Pitch / DSP resources | FXB pitch shares its block with other algorithms. Total-preset DSP meter reflects selected models; manual warns of transient clipping near 100%. No isolated pitch percentage located. GE1000 allocation or bypass rules are not assumed for this device. |
+| Pitch / qualifications | Joint manufacturer Pro/Pro Li manual explicitly covers the battery variant. Poly Pitch, storage and DSP meter apply through that joint documentation; no Li hardware measurements. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [GE200 Pro official-video publication index](https://www.effectsdatabase.com/model/mooer/ge200/pro) — MOOER official video indexed 2024-07-30; later tutorial is September 6. (Exact-model video index read).
+- [MOOER GE200 Pro Multi-Effect Official Video](https://www.youtube.com/watch?v=z_Qx6fkrQ58) — Exact video linked from dated model index. (Official-channel indexed identity read).
+- [GE200 Pro English download and update notes](https://www.mooeraudio.com/Downloads_xq/5.html) — MOOER Studio 1.5.0 dated 2026-10-29; older 1.3.2 listed; upload timestamps separate. (Manufacturer exact-model page read).
+- [GE200 Pro Chinese download page](https://cn.mooeraudio.com/Downloads_xq/3.html) — Firmware usage heading for GE200 Pro; 1.5.0 and 1.3.2 packages, separate Cloud and audio driver. (Manufacturer page read).
+- [GE200 Pro/GE200 Pro Li Owner’s Manual — original English](https://device.report/m/535174c985b308a40e9f1ce95e9fe12dea91f3e2e605ee3beb5464aface35b6b) — FXB Poly Pitch, ±1 octave parameter, 255 slots, SAVE and total-preset DSP meter. (Manufacturer-authored extracted body read on mirror).
+- [GE200 Pro/Pro Li joint manufacturer page](https://www.mooeraudio.com/products/205.html) — Battery-equipped Pro Li is a distinct variant within the shared processor family. (Manufacturer page previously read).
+
+<!-- firmware-pitch:MOOER::GE200 Pro Li ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE200-PRO-LI source begins -->

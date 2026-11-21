@@ -193470,6 +193470,85 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::GE200 Pro Li": {
+        "model_key": "MOOER::GE200 Pro Li",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2024-07-30",
+          "precision": "day",
+          "kind": "manufacturer_official_video_index_proxy",
+          "source_urls": [
+            "https://www.effectsdatabase.com/model/mooer/ge200/pro",
+            "https://www.youtube.com/watch?v=z_Qx6fkrQ58"
+          ],
+          "note": "Joint GE200 Pro/Pro Li series launch-video index proxy; earliest Li retail shipment remains unresolved. Manual explicitly distinguishes the integrated-battery Li variant."
+        },
+        "firmware": {
+          "version": "1.5.0 (MOOER Studio/update bundle; device payload unverified)",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/Downloads_xq/5.html",
+            "https://cn.mooeraudio.com/Downloads_xq/3.html",
+            "https://device.report/m/535174c985b308a40e9f1ce95e9fe12dea91f3e2e605ee3beb5464aface35b6b"
+          ],
+          "note": "Joint Pro/Pro Li manual directs both variants to the GE200 PRO updater. Current download lists MOOER Studio 1.5.0 dated 2026-10-29; device payload version was not checked. Older 1.3.2 has no release date on this page. Span withheld; package upload dates, Cloud app and USB driver are separate. No Li-specific firmware branch established."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Manufacturer manual identifies FXB Poly Pitch as a poly pitch shifter; pitch parameter table calls it Poly Shift, range ±1 octave. Also Detune and Octave. Poly classification applies to that algorithm; no measured chord-tracking quality or latency.",
+          "preset": "255 slots across 85 banks of three. SAVE selects bank/slot and stores edits; per-preset CTRL assignments and expression mapping documented. Exact held-pedal recall untested.",
+          "dsp": "FXB pitch shares its block with other algorithms. Total-preset DSP meter reflects selected models; manual warns of transient clipping near 100%. No isolated pitch percentage located. GE1000 allocation or bypass rules are not assumed for this device.",
+          "source_urls": [
+            "https://device.report/m/535174c985b308a40e9f1ce95e9fe12dea91f3e2e605ee3beb5464aface35b6b"
+          ],
+          "measurements": [],
+          "notes": [
+            "Joint manufacturer Pro/Pro Li manual explicitly covers the battery variant. Poly Pitch, storage and DSP meter apply through that joint documentation; no Li hardware measurements."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.effectsdatabase.com/model/mooer/ge200/pro",
+            "title": "GE200 Pro official-video publication index",
+            "access": "Exact-model video index read",
+            "evidence": "MOOER official video indexed 2024-07-30; later tutorial is September 6."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=z_Qx6fkrQ58",
+            "title": "MOOER GE200 Pro Multi-Effect Official Video",
+            "access": "Official-channel indexed identity read",
+            "evidence": "Exact video linked from dated model index."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/5.html",
+            "title": "GE200 Pro English download and update notes",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "MOOER Studio 1.5.0 dated 2026-10-29; older 1.3.2 listed; upload timestamps separate."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/Downloads_xq/3.html",
+            "title": "GE200 Pro Chinese download page",
+            "access": "Manufacturer page read",
+            "evidence": "Firmware usage heading for GE200 Pro; 1.5.0 and 1.3.2 packages, separate Cloud and audio driver."
+          },
+          {
+            "url": "https://device.report/m/535174c985b308a40e9f1ce95e9fe12dea91f3e2e605ee3beb5464aface35b6b",
+            "title": "GE200 Pro/GE200 Pro Li Owner’s Manual — original English",
+            "access": "Manufacturer-authored extracted body read on mirror",
+            "evidence": "FXB Poly Pitch, ±1 octave parameter, 255 slots, SAVE and total-preset DSP meter."
+          },
+          {
+            "url": "https://www.mooeraudio.com/products/205.html",
+            "title": "GE200 Pro/Pro Li joint manufacturer page",
+            "access": "Manufacturer page previously read",
+            "evidence": "Battery-equipped Pro Li is a distinct variant within the shared processor family."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -193509,7 +193588,6 @@
       "MOOER::GE150 Pro Li",
       "MOOER::GE200 Plus",
       "MOOER::GE200 Plus Li",
-      "MOOER::GE200 Pro Li",
       "MOOER::GS1000",
       "MOOER::GS1000 Li",
       "MOOER::Ocean Machine II",
@@ -193691,9 +193769,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 186,
-    "last_model": "MOOER::GE200 Pro",
-    "last_commit_parent": "96a8c13d64aaed81008f94eb4435b3ca924c4556",
+    "completed_model_count": 187,
+    "last_model": "MOOER::GE200 Pro Li",
+    "last_commit_parent": "2beb87c92edfa8640979cbaa87c434bd034d68f7",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -193732,7 +193810,6 @@
       "MOOER::GE150 Pro Li",
       "MOOER::GE200 Plus",
       "MOOER::GE200 Plus Li",
-      "MOOER::GE200 Pro Li",
       "MOOER::GS1000",
       "MOOER::GS1000 Li",
       "MOOER::Ocean Machine II",
@@ -193913,7 +193990,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 186,
+    "pitch_completed_model_count": 187,
     "supplemental_model_count": 0
   },
   "model_images": {
