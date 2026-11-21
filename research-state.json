@@ -191980,13 +191980,14 @@
         "model_key": "Korg::AX5B",
         "checked_date": "2026-11-21",
         "first_release": {
-          "date": "2006-08",
-          "precision": "month",
-          "kind": "announced_US_availability_proxy",
+          "date": "2006-03-30",
+          "precision": "day",
+          "kind": "announcement_proxy",
           "source_urls": [
+            "https://www.harmonycentral.com/news/uncategorized/ax5g-and-ax5b-modeling-signal-processors-r15960/",
             "https://www.harmonycentral.com/news/uncategorized/toneworks-expands-line-of-modeling-signal-processors-with-the-ax5g-and-ax5b-r19857/"
           ],
-          "note": "August 2, 2006 announcement states August 2006 availability with US pricing. Qualified scheduled US availability, not verified first shipment or earliest worldwide sale."
+          "note": "Earlier introduction announcement dated March 30, 2006. Used as an introduction proxy, not first confirmed shipment. Later August 2 announcement schedules August 2006 US availability; regional timing remains qualified."
         },
         "firmware": {
           "version": null,
@@ -192029,10 +192030,76 @@
             "title": "AX5B Owner’s Manual EFG1",
             "access": "Manufacturer original PDF text and appendix read",
             "evidence": "Pages 5, 8–10 and 40 establish chain limits, memory, expression recall and MOD F7 parameters."
+          },
+          {
+            "url": "https://www.harmonycentral.com/news/uncategorized/ax5g-and-ax5b-modeling-signal-processors-r15960/",
+            "title": "AX5G And AX5B Modeling Signal Processors — March 30, 2006",
+            "access": "Contemporaneous introduction announcement read",
+            "evidence": "Names both exact models in an earlier March 30 introduction; does not state shipment timing."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Korg::AX5B",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": "2006-08",
+              "precision": "month",
+              "kind": "announced_US_availability_proxy",
+              "source_urls": [
+                "https://www.harmonycentral.com/news/uncategorized/toneworks-expands-line-of-modeling-signal-processors-with-the-ax5g-and-ax5b-r19857/"
+              ],
+              "note": "August 2, 2006 announcement states August 2006 availability with US pricing. Qualified scheduled US availability, not verified first shipment or earliest worldwide sale."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.korg.com/us/support/download/product/1/34/"
+              ],
+              "note": "Exact support page lists Owner’s Manual and Easy Start Guide only, uploaded June 1, 2015. No public firmware package or dated device changelog located. Manual upload dates are not firmware releases; update span uncalculable."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "MOD F7 PITCH SHIFTER lists −12…+12, separate effect/direct levels, FINE −15…+15 and TRACKING 1…10. Pitch is starred for pedal assignment. Note polyphony is not established; fine units are unstated in this table.",
+              "preset": "40 user plus 40 factory programs. Effect settings and expression target are program-specific; WAH/FX PARAM preserves recalled sound until pedal movement. Hardware recall untested.",
+              "dsp": "PITCH SHIFTER uses the single MOD selection, replacing other MOD effects. PRE OCTAVE/SYNTH use a different stage. Six simultaneous effects including noise reduction, plus volume pedal, is the chain allowance; no pitch CPU percentage located.",
+              "source_urls": [
+                "https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B"
+              ],
+              "measurements": [],
+              "notes": [
+                "No measured tracking or latency; AX3G range prose is not transferred to this bass model."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.harmonycentral.com/news/uncategorized/toneworks-expands-line-of-modeling-signal-processors-with-the-ax5g-and-ax5b-r19857/",
+                "title": "ToneWorks AX5G/AX5B announcement — August 2, 2006",
+                "access": "Contemporaneous product announcement read",
+                "evidence": "Announced August 2006 US availability; exact worldwide first sale remains unknown."
+              },
+              {
+                "url": "https://www.korg.com/us/support/download/product/1/34/",
+                "title": "Korg AX5B support downloads",
+                "access": "Manufacturer exact-model page read",
+                "evidence": "Only two manuals uploaded June 1, 2015; no firmware listed."
+              },
+              {
+                "url": "https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B",
+                "title": "AX5B Owner’s Manual EFG1",
+                "access": "Manufacturer original PDF text and appendix read",
+                "evidence": "Pages 5, 8–10 and 40 establish chain limits, memory, expression recall and MOD F7 parameters."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Korg::AX5G": {
         "model_key": "Korg::AX5G",
@@ -192395,8 +192462,8 @@
     ],
     "status": "in_progress",
     "completed_model_count": 171,
-    "last_model": "Korg::AX5G",
-    "last_commit_parent": "dc0d2d3fd313bc1880fee5de07b657d6af3bb45c",
+    "last_model": "Korg::AX5B",
+    "last_commit_parent": "7835e74ad52d8aee9a3719ff597c52c74e862f11",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",

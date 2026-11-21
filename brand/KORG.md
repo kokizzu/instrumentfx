@@ -288,7 +288,7 @@ PICKUP models humbucker↔single-coil conversion and a mixed virtual pickup; DRO
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | 2006-08 (announced US availability proxy). August 2, 2006 announcement states August 2006 availability with US pricing. Qualified scheduled US availability, not verified first shipment or earliest worldwide sale. [launch 1](https://www.harmonycentral.com/news/uncategorized/toneworks-expands-line-of-modeling-signal-processors-with-the-ax5g-and-ax5b-r19857/) |
+| Firmware / first hardware release | 2006-03-30 (announcement proxy). Earlier introduction announcement dated March 30, 2006. Used as an introduction proxy, not first confirmed shipment. Later August 2 announcement schedules August 2006 US availability; regional timing remains qualified. [launch 1](https://www.harmonycentral.com/news/uncategorized/ax5g-and-ax5b-modeling-signal-processors-r15960/) [launch 2](https://www.harmonycentral.com/news/uncategorized/toneworks-expands-line-of-modeling-signal-processors-with-the-ax5g-and-ax5b-r19857/) |
 | Firmware / latest verification | Not verified — No public firmware located. Exact support page lists Owner’s Manual and Easy Start Guide only, uploaded June 1, 2015. No public firmware package or dated device changelog located. Manual upload dates are not firmware releases; update span uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/34/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -304,6 +304,7 @@ Sources checked:
 - [ToneWorks AX5G/AX5B announcement — August 2, 2006](https://www.harmonycentral.com/news/uncategorized/toneworks-expands-line-of-modeling-signal-processors-with-the-ax5g-and-ax5b-r19857/) — Announced August 2006 US availability; exact worldwide first sale remains unknown. (Contemporaneous product announcement read).
 - [Korg AX5B support downloads](https://www.korg.com/us/support/download/product/1/34/) — Only two manuals uploaded June 1, 2015; no firmware listed. (Manufacturer exact-model page read).
 - [AX5B Owner’s Manual EFG1](https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B) — Pages 5, 8–10 and 40 establish chain limits, memory, expression recall and MOD F7 parameters. (Manufacturer original PDF text and appendix read).
+- [AX5G And AX5B Modeling Signal Processors — March 30, 2006](https://www.harmonycentral.com/news/uncategorized/ax5g-and-ax5b-modeling-signal-processors-r15960/) — Names both exact models in an earlier March 30 introduction; does not state shipment timing. (Contemporaneous introduction announcement read).
 
 <!-- firmware-pitch:Korg::AX5B ends -->
 
