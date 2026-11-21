@@ -178521,8 +178521,8 @@
       30,
       30
     ],
-    "index_url": "https://line6.com/software/index.html?hardware=POD+HD300&name=Flash+Memory&submit_form=set",
-    "index_needle": "Released",
+    "index_url": "https://line6.com/company/images/?families=64",
+    "index_needle": "HD300",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -192596,11 +192596,35 @@
             "sha256": "154cefebf9eab3518b44c3777927818569bef6cb893ec0dc29ee4f2c9d449a5f"
           }
         }
+      },
+      "Line 6::POD HD300": {
+        "model_key": "Line 6::POD HD300",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/l/0a06434d125174caa2142edc87/image/jpeg/POD%20HD300%20(Top%20Down)%20-%20Lo%20Rez.jpeg",
+            "source_url": "https://line6.com/company/images/?families=64",
+            "caption": "POD HD300 powered-on overhead view",
+            "note": "Manufacturer labels this Top Down. Bank 06C, LCD text and LEDs are illuminated; slight perspective remains, so not strictly perpendicular.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "a3d1a15b39f33e15215b5e8d986ac22de9925c6d49d8fc10c8a397c313880ec2"
+          },
+          "rear": {
+            "image_url": "https://line6.com/data/l/0a06434d11f844caa21191d927/image/jpeg/POD%20HD300%20(Rear%20View)%20-%20Lo%20Rez.jpeg",
+            "source_url": "https://line6.com/company/images/?families=64",
+            "caption": "POD HD300 rear connections",
+            "note": "Official HD300 rear photograph: guitar/CD-MP3 inputs, master, unbalanced and balanced outputs, output-mode switch, phones, L6 LINK, USB and power visible. No HD400 external-pedal/FX-loop features inferred.",
+            "visual_checked": true,
+            "sha256": "fe49c03ec15b5856e4ecabff2498876eddca68fd4dac9f58b9fb014bc925743a"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::Floor POD Plus"
+    "last_model": "Line 6::POD HD300"
   }
 }

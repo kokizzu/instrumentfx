@@ -3721,6 +3721,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::POD HD300 ends -->
 
+<!-- model-images:Line 6::POD HD300 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**POD HD300 powered-on overhead view**
+
+[![POD HD300 powered-on overhead view](https://line6.com/data/l/0a06434d125174caa2142edc87/image/jpeg/POD%20HD300%20(Top%20Down)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06434d125174caa2142edc87/image/jpeg/POD%20HD300%20(Top%20Down)%20-%20Lo%20Rez.jpeg)
+
+[Image source](https://line6.com/company/images/?families=64). Manufacturer labels this Top Down. Bank 06C, LCD text and LEDs are illuminated; slight perspective remains, so not strictly perpendicular.
+
+**POD HD300 rear connections**
+
+[![POD HD300 rear connections](https://line6.com/data/l/0a06434d11f844caa21191d927/image/jpeg/POD%20HD300%20(Rear%20View)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06434d11f844caa21191d927/image/jpeg/POD%20HD300%20(Rear%20View)%20-%20Lo%20Rez.jpeg)
+
+[Image source](https://line6.com/company/images/?families=64). Official HD300 rear photograph: guitar/CD-MP3 inputs, master, unbalanced and balanced outputs, output-mode switch, phones, L6 LINK, USB and power visible. No HD400 external-pedal/FX-loop features inferred.
+
+</details>
+<!-- model-images:Line 6::POD HD300 ends -->
+
+
 Checked2026-10-17;partial;ownership unverified. Own RevC handbook;HD400-only features not borrowed.
 
 <!-- comparison evidence begins -->
