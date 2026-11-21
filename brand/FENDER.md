@@ -119,6 +119,30 @@ Historical indexed asks checked2026-10-17,not checkout or current stock. Conditi
 
 ## Mustang Micro Plus
 
+<!-- firmware-pitch:Fender::Mustang Micro Plus begins -->
+### Firmware and pitch audit — Fender Mustang Micro Plus
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-09-05 (manufacturer initial-product-release date). Maker release notes date initial1.0.29 to September5,2024, agreeing with indexed maker launch announcement. Legacy newsroom now redirects to root; no individual first-shipment proof. [launch 1](https://support.fender.com/hc/en-us/articles/45453482607899-Fender-Mustang-Micro-Plus-Firmware-Update-Instructions) [launch 2](https://spotlight.fender.com/newsroom/news/955) |
+| Firmware / latest verification | 1.1.11 — Latest verified. Newest device entry in current maker support notes: ten bass amps,9dB input pad and input-mute disable. Cloud bass-preset visibility issue listed. Device Manager/Tone app versions are separate. Updating factory presets resets stored presets; no hardware update performed. [firmware 1](https://support.fender.com/hc/en-us/articles/45453482607899-Fender-Mustang-Micro-Plus-Firmware-Update-Instructions) |
+| Firmware / release date | 2026-01-14 (day precision) |
+| Firmware / release-to-update duration | 1.36 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Octobot is the pitch/octave-family candidate explicitly listed in the Stompbox category. Exact Micro Plus interval controls, mono/polyphonic tracking and chord-retuning behavior are not specified in its owner manual. No general-purpose chromatic transposer/harmonizer documented; do not import LT25/GTX Octobot details. [pitch 1](https://www.fmicassets.com/Damroot/Original/10062/OM_2311600000_Mustang-Micro-Plus_EN.pdf) |
+| Pitch / preset recall | 100 onboard locations. Current bass-era manual introduction says80factory+20empty, while its Preset section still says70+30; conflict retained. Tone app edits effect/amp parameters; onboard Save handles Modify/tap BPM. Last saved/used preset and EQ recalled after power-down. |
+| Pitch / DSP resources | Five movable blocks: one amp plus four effect categories (stompbox/modulation/delay/reverb). Octobot is a Stompbox selection, not a free extra sixth block. No numerical CPU/DSP cost, pitch reserve or selectable-polyphony resource tradeoff published. |
+| Pitch / qualifications | Current manual has35amps/25effects including ten bass amps; launch25amps/25effects remains historical. Octobot name does not establish polyphonic tracking, clean drop tuning, output voice count or shifted interval range. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Fender Micro Plus firmware release notes](https://support.fender.com/hc/en-us/articles/45453482607899-Fender-Mustang-Micro-Plus-Firmware-Update-Instructions) — 1.1.11 January14,2026; initial1.0.29 September5,2024; bass additions/input changes/cloud limitation. (Direct current maker support page).
+- [Fender Micro Plus launch newsroom entry](https://spotlight.fender.com/newsroom/news/955) — September5,2024 launch; agrees with initial firmware release date. (Indexed manufacturer datelined text; direct legacy URL now redirects to newsroom home).
+- [Current Micro Plus English owner manual PR6171](https://www.fmicassets.com/Damroot/Original/10062/OM_2311600000_Mustang-Micro-Plus_EN.pdf) — Printed1/4/5/6:35amps,25effects,Octobot in Stompbox,five-block chain;80+20 versus70+30 memory conflict; Tone edits and power-down recall. (Direct maker11-page PDF via repository source helper;2819330bytes;SHA256322cda7ee5e443454001154b922ef45aeee75a7d61f7af47496cfb69de70a7c4;PDF modified January2026).
+
+<!-- firmware-pitch:Fender::Mustang Micro Plus ends -->
+
 Checked2026-10-17;partial. Guitar multifx;firmware-qualified bass support below. Ownership unverified.
 
 <!-- comparison evidence begins -->

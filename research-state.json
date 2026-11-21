@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://downloads.eventide.com/audio/Product+Manuals/H9AlgorithmGuide+V12.pdf",
+    "requested_url": "https://www.fmicassets.com/Damroot/Original/10062/OM_2311600000_Mustang-Micro-Plus_EN.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0,
     "text_pages": [
-      70,
-      74
+      1,
+      6
     ],
     "index_url": "https://www.eventideaudio.com/pedals/h90/",
     "index_needle": "H90-Back",
@@ -186978,10 +186978,72 @@
           "label": "0.93 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Fender::Mustang Micro Plus": {
+        "model_key": "Fender::Mustang Micro Plus",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2024-09-05",
+          "precision": "day",
+          "kind": "manufacturer initial-product-release date",
+          "source_urls": [
+            "https://support.fender.com/hc/en-us/articles/45453482607899-Fender-Mustang-Micro-Plus-Firmware-Update-Instructions",
+            "https://spotlight.fender.com/newsroom/news/955"
+          ],
+          "note": "Maker release notes date initial1.0.29 to September5,2024, agreeing with indexed maker launch announcement. Legacy newsroom now redirects to root; no individual first-shipment proof."
+        },
+        "firmware": {
+          "version": "1.1.11",
+          "date": "2026-01-14",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://support.fender.com/hc/en-us/articles/45453482607899-Fender-Mustang-Micro-Plus-Firmware-Update-Instructions"
+          ],
+          "note": "Newest device entry in current maker support notes: ten bass amps,9dB input pad and input-mute disable. Cloud bass-preset visibility issue listed. Device Manager/Tone app versions are separate. Updating factory presets resets stored presets; no hardware update performed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Octobot is the pitch/octave-family candidate explicitly listed in the Stompbox category. Exact Micro Plus interval controls, mono/polyphonic tracking and chord-retuning behavior are not specified in its owner manual. No general-purpose chromatic transposer/harmonizer documented; do not import LT25/GTX Octobot details.",
+          "preset": "100 onboard locations. Current bass-era manual introduction says80factory+20empty, while its Preset section still says70+30; conflict retained. Tone app edits effect/amp parameters; onboard Save handles Modify/tap BPM. Last saved/used preset and EQ recalled after power-down.",
+          "dsp": "Five movable blocks: one amp plus four effect categories (stompbox/modulation/delay/reverb). Octobot is a Stompbox selection, not a free extra sixth block. No numerical CPU/DSP cost, pitch reserve or selectable-polyphony resource tradeoff published.",
+          "source_urls": [
+            "https://www.fmicassets.com/Damroot/Original/10062/OM_2311600000_Mustang-Micro-Plus_EN.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Current manual has35amps/25effects including ten bass amps; launch25amps/25effects remains historical. Octobot name does not establish polyphonic tracking, clean drop tuning, output voice count or shifted interval range."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://support.fender.com/hc/en-us/articles/45453482607899-Fender-Mustang-Micro-Plus-Firmware-Update-Instructions",
+            "title": "Fender Micro Plus firmware release notes",
+            "access": "Direct current maker support page",
+            "evidence": "1.1.11 January14,2026; initial1.0.29 September5,2024; bass additions/input changes/cloud limitation."
+          },
+          {
+            "url": "https://spotlight.fender.com/newsroom/news/955",
+            "title": "Fender Micro Plus launch newsroom entry",
+            "access": "Indexed manufacturer datelined text; direct legacy URL now redirects to newsroom home",
+            "evidence": "September5,2024 launch; agrees with initial firmware release date."
+          },
+          {
+            "url": "https://www.fmicassets.com/Damroot/Original/10062/OM_2311600000_Mustang-Micro-Plus_EN.pdf",
+            "title": "Current Micro Plus English owner manual PR6171",
+            "access": "Direct maker11-page PDF via repository source helper;2819330bytes;SHA256322cda7ee5e443454001154b922ef45aeee75a7d61f7af47496cfb69de70a7c4;PDF modified January2026",
+            "evidence": "Printed1/4/5/6:35amps,25effects,Octobot in Stompbox,five-block chain;80+20 versus70+30 memory conflict; Tone edits and power-down recall."
+          }
+        ],
+        "duration": {
+          "minimum_days": 496,
+          "maximum_days": 496,
+          "label": "1.36 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Fender::Mustang Micro Plus",
       "Fender::Tone Master Pro",
       "Flamma::FB200",
       "Flamma::FG200",
@@ -187283,12 +187345,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 102,
-    "last_model": "Fender::Mustang Micro",
-    "last_commit_parent": "fe8d3a41a7ec022396e54ac9c1876f1c995a02d4",
+    "completed_model_count": 103,
+    "last_model": "Fender::Mustang Micro Plus",
+    "last_commit_parent": "c9f6ac52ce1b4fe0f35e51db51a18ff7091fbbe2",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Fender::Mustang Micro Plus",
       "Fender::Tone Master Pro",
       "Flamma::FB200",
       "Flamma::FG200",
@@ -187589,7 +187650,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 102,
+    "pitch_completed_model_count": 103,
     "supplemental_model_count": 0
   },
   "model_images": {
