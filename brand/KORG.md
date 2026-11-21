@@ -1421,6 +1421,30 @@ SYNTH/FRETLESS/OCTAVE/Ring Mod share **PRE**. Pitch Shifter/Talk Mod/Random Step
 
 ## AX3000G
 
+<!-- firmware-pitch:Korg::AX3000G begins -->
+### Firmware and pitch audit — Korg AX3000G
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005-04-06 (announcement proxy). Dated Musikmesse introduction, April 6, 2005. Announcement proxy; first actual shipment and regional retail dates remain unconfirmed. [launch 1](https://www.harmonycentral.com/news/guitars/messe-toneworks-ax3000g-guitar-processor-r15140/) |
+| Firmware / latest verification | Not verified — No public firmware located. Support lists manuals/FAQ/MIDI documentation, Windows Sound Editor 1.01, Mac Sound Editor 1.1 and Extra Preset Program 1.0. These are editor/data versions, not device firmware. No public firmware package or dated changelog located; update span uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/28/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD PITCH SHIFTER spans ±24 semitones with ±50-cent fine tuning, independent direct/effect levels and TRACKING 10–150 ms. Tracking is an adjustable parameter, not measured end-to-end latency. Polyphonic input handling unverified; no intelligent-harmony algorithm located in the checked effect inventory. [pitch 1](https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf) |
+| Pitch / preset recall | 96 rewritable programs; 32 factory sounds repeat across three groups. Effect settings, pedal target/range and ESS are stored per program. Pedal PITCH control does not edit the underlying parameter. Hardware recall untested. |
+| Pitch / DSP resources | PITCH SHIFTER occupies the single MOD selection, replacing other MOD choices. No pitch CPU percentage located; seven simultaneous effects including noise reduction is an overall chain limit. |
+| Pitch / qualifications | No measured tracking, latency or CPU results. Other Korg models’ harmony restrictions are not transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Messe: ToneWorks AX3000G Guitar Processor — April 6, 2005](https://www.harmonycentral.com/news/guitars/messe-toneworks-ax3000g-guitar-processor-r15140/) — Exact-model Musikmesse introduction; shipping date unstated. (Contemporaneous introduction read).
+- [Korg AX3000G support downloads](https://www.korg.com/us/support/download/product/1/28/) — Editor/data and documentation downloads, no device firmware listed. (Manufacturer exact-model page read).
+- [AX3000G Owner’s Manual E2](https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf) — MOD pitch parameters, 96-slot factory mapping, pedal pitch behavior and MOD allocation. (Manufacturer original PDF text read).
+
+<!-- firmware-pitch:Korg::AX3000G ends -->
+
 Guitar multi-effects, distinct from AX3000B. Checked 2026-10-17; partial. Bass suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->

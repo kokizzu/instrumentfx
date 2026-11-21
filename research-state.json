@@ -192341,6 +192341,64 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Korg::AX3000G": {
+        "model_key": "Korg::AX3000G",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2005-04-06",
+          "precision": "day",
+          "kind": "announcement_proxy",
+          "source_urls": [
+            "https://www.harmonycentral.com/news/guitars/messe-toneworks-ax3000g-guitar-processor-r15140/"
+          ],
+          "note": "Dated Musikmesse introduction, April 6, 2005. Announcement proxy; first actual shipment and regional retail dates remain unconfirmed."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/28/"
+          ],
+          "note": "Support lists manuals/FAQ/MIDI documentation, Windows Sound Editor 1.01, Mac Sound Editor 1.1 and Extra Preset Program 1.0. These are editor/data versions, not device firmware. No public firmware package or dated changelog located; update span uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD PITCH SHIFTER spans ±24 semitones with ±50-cent fine tuning, independent direct/effect levels and TRACKING 10–150 ms. Tracking is an adjustable parameter, not measured end-to-end latency. Polyphonic input handling unverified; no intelligent-harmony algorithm located in the checked effect inventory.",
+          "preset": "96 rewritable programs; 32 factory sounds repeat across three groups. Effect settings, pedal target/range and ESS are stored per program. Pedal PITCH control does not edit the underlying parameter. Hardware recall untested.",
+          "dsp": "PITCH SHIFTER occupies the single MOD selection, replacing other MOD choices. No pitch CPU percentage located; seven simultaneous effects including noise reduction is an overall chain limit.",
+          "source_urls": [
+            "https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No measured tracking, latency or CPU results. Other Korg models’ harmony restrictions are not transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.harmonycentral.com/news/guitars/messe-toneworks-ax3000g-guitar-processor-r15140/",
+            "title": "Messe: ToneWorks AX3000G Guitar Processor — April 6, 2005",
+            "access": "Contemporaneous introduction read",
+            "evidence": "Exact-model Musikmesse introduction; shipping date unstated."
+          },
+          {
+            "url": "https://www.korg.com/us/support/download/product/1/28/",
+            "title": "Korg AX3000G support downloads",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "Editor/data and documentation downloads, no device firmware listed."
+          },
+          {
+            "url": "https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf",
+            "title": "AX3000G Owner’s Manual E2",
+            "access": "Manufacturer original PDF text read",
+            "evidence": "MOD pitch parameters, 96-slot factory mapping, pedal pitch behavior and MOD allocation."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -192350,7 +192408,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::AX3000G",
       "Korg::AX30G",
       "Korg::PANDORA stomp",
       "LEKATO::ME-01",
@@ -192575,9 +192632,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 173,
-    "last_model": "Korg::AX3000B",
-    "last_commit_parent": "c8255d2b9b0300b27b35cbcae63f183e0cf086ba",
+    "completed_model_count": 174,
+    "last_model": "Korg::AX3000G",
+    "last_commit_parent": "3f25692ca3e3d87eec57637a3a78a1e8325b92c3",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -192586,7 +192643,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::AX3000G",
       "Korg::AX30G",
       "Korg::PANDORA stomp",
       "LEKATO::ME-01",
@@ -192810,7 +192866,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 173,
+    "pitch_completed_model_count": 174,
     "supplemental_model_count": 0
   },
   "model_images": {
