@@ -199578,10 +199578,100 @@
           "label": "1.32 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Kemper::PROFILER PowerRack MK2": {
+        "model_key": "Kemper::PROFILER PowerRack MK2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2025-05-28",
+          "precision": "day",
+          "kind": "Public announcement/immediate-availability report; not individual shipment",
+          "source_urls": [
+            "https://www.kemper-amps.com/news/95/Introducing-the-all-new-KEMPER-PROFILER-MK-2",
+            "https://www.bonedo.de/artikel/der-kemper-profiler-mk-2-ist-da/"
+          ],
+          "note": "The official MK2-series announcement includes powered rack versions and immediate availability; contemporary28 May2025 coverage explicitly names PowerRack. This dates the MK2 public announcement, not the original PowerRack or an individual delivery."
+        },
+        "firmware": {
+          "version": "14.2.2",
+          "date": "2026-09-22",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/",
+            "https://www.kemper-amps.com/downloads"
+          ],
+          "note": "Latest located official release announcement fixes S/PDIF Output Volume affecting Noise Gate 2:1 and improves Rig Manager interaction. Requires Rig Manager 4.3.13 desktop, 1.9.25 iOS or 1.9.42 Android/Fire OS. Dynamic downloads listing exposed no version entries, so a newer unindexed build is not ruled out."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Transpose, Pedal Pitch, Pedal Vinyl Stop, Chromatic Pitch, Harmonic Pitch and Analog Octaver are listed for PowerRack. Chromatic processing supports chords; Harmonic Pitch, Analog Octaver and formant-processing modes are single-note functions. Do not treat every pitch type as polyphonic.",
+          "preset": "Pitch settings belong to stored Rigs/Performances; MK2 Transpose is also a Fixed FX function. Manufacturer documents Performance switching and Morphing. MIDI CC4 controls Pitch Pedal; pedal linkage is documented in manual 13.0.",
+          "dsp": "One flexible pitch effect occupies a selected flexible module. PowerRack MK2 provides eight flexible modules plus fixed effects; fixed Transpose preserves flexible slots. No per-algorithm DSP percentage located. The600 W power-amplifier rating is not DSP utilization.",
+          "source_urls": [
+            "https://www.kemper-amps.com/store/en/profiler-powerrack-b.html",
+            "https://www.kemper-amps.com/effects/pitch-shifter",
+            "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manual 13.0 explicitly covers MK2, revised May 2025; it predates OS14.2.2 and is not proof of a complete current algorithm census.",
+            "Smooth Chords trades smoother chords for more latency; mono audio routing before the stack is distinct from monophonic note tracking."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.kemper-amps.com/store/en/profiler-powerrack-b.html",
+            "title": "Kemper PROFILER PowerRack MK2 SKU19300000",
+            "access": "readable official exact-model page",
+            "evidence": "PowerRack MK2,600W amplifier,eight flexible and eight fixed effects,Performance switching,Morphing and MIDI/expression/USB. Product prose incorrectly says Head device; rack form factor independently retained."
+          },
+          {
+            "url": "https://www.kemper-amps.com/news/95/Introducing-the-all-new-KEMPER-PROFILER-MK-2",
+            "title": "Kemper introducing PROFILER MK2",
+            "access": "readable official undated announcement",
+            "evidence": "Head included in immediately available MK2 series; additional fixed effects and 20 total audio blocks with broader counting convention."
+          },
+          {
+            "url": "https://www.bonedo.de/artikel/der-kemper-profiler-mk-2-ist-da/",
+            "title": "Bonedo contemporary MK2 announcement 28 May2025",
+            "access": "dated contemporary announcement coverage",
+            "evidence": "28.05.2025 coverage corroborates public introduction date; not used for pitch or hardware technical claims."
+          },
+          {
+            "url": "https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/",
+            "title": "Kemper official OS14.2.2 release announcement",
+            "access": "readable administrator official post",
+            "evidence": "22 September2026 release; S/PDIF/Noise Gate2:1 fix and Rig Manager minimum versions."
+          },
+          {
+            "url": "https://www.kemper-amps.com/downloads",
+            "title": "Kemper official downloads",
+            "access": "readable shell; dynamic version list unavailable",
+            "evidence": "Cannot independently enumerate current firmware build list from returned page."
+          },
+          {
+            "url": "https://www.kemper-amps.com/effects/pitch-shifter",
+            "title": "Kemper official pitch-shifter effects",
+            "access": "readable official effects matrix",
+            "evidence": "Six pitch effect types for Head/Rack; describes chord tracking latency and scale-aware harmony."
+          },
+          {
+            "url": "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+            "title": "Kemper manufacturer Main Manual13.0 German",
+            "access": "manufacturer-authored PDF on mirror,438pages; May2025 revision and MK2 sections verified",
+            "evidence": "Printed pp256–264,290: Smooth Chords latency, formant single-note restriction, MK2 Fixed Transpose, CC4 Pedal Pitch, two-voice Chromatic Pitch, single-note Harmonic Pitch and polyphonic chromatic pitch-delay input."
+          }
+        ],
+        "duration": {
+          "minimum_days": 482,
+          "maximum_days": 482,
+          "label": "1.32 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
       "LEKATO::ME-01",
@@ -199726,12 +199816,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 259,
-    "last_model": "Kemper::PROFILER PowerHead MK2",
-    "last_commit_parent": "5c97a2a81be2d37e02b763d7cae12ac9716fb522",
+    "completed_model_count": 260,
+    "last_model": "Kemper::PROFILER PowerRack MK2",
+    "last_commit_parent": "6d050a5b75df42f1a189f051306a9fdfad923aae",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
       "LEKATO::ME-01",
@@ -199875,7 +199964,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 259,
+    "pitch_completed_model_count": 260,
     "supplemental_model_count": 0
   },
   "model_images": {
