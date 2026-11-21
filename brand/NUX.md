@@ -2295,6 +2295,29 @@ Mirror body identifies MP-3/MIGHTY PLUG PRO and ©2022 Cherub, matching product 
 
 ## PG-2
 
+<!-- firmware-pitch:NUX::PG-2 begins -->
+### Firmware and pitch audit — NUX PG-2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Original manufacturer manual carries copyright 2013. Copyright does not establish first retail availability, and no dated manufacturer launch notice was located. Exact first-release date remains unknown. [launch 1](https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. Current exact-model legacy support lists the English manual only; no public firmware binary, version history or updater found. Complete original connector inventory has audio input/output, headphones, AUX and DC, with no USB/update connector documented. This does not prove no service-only firmware ever existed. V1 is a manual revision, not a device firmware version; latest update date and span remain unknown. [firmware 1](https://nuxaudio.com/product/pg2/) [firmware 2](https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Original manual lists Clean/Blues/Rock amp modes, Chorus/Flanger/Tremolo modulation, Delay/Room/Spring ambience and noise gate. No dedicated pitch-shift, harmony or octave algorithm documented. Tuner flat-tuning and A4 reference controls adjust the tuner, not a demonstrated audio transposition function. [pitch 1](https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf) |
+| Pitch / preset recall | Nine factory plus nine user programs. Edit mode changes sounds; hold TAP/SAVE two seconds, select U1–U9 and confirm. Preset mode restricts knob adjustment to MASTER. These are sound memories, not evidence of pitch presets; no external footswitch recall interface documented. |
+| Pitch / DSP resources | No pitch algorithm or isolated pitch DSP percentage documented. Published 24-bit signal processing is an overall format specification, not a block-resource cost. No sibling model DSP figure transferred. |
+| Pitch / qualifications | Original manufacturer one-page manual now visually inspected, corroborating library and memory facts previously based on transcriptions; earlier rendering limitations below remain historical. No device/audio test. No pitch documented is limited to the checked manufacturer library. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX PG-2 current manufacturer legacy support](https://nuxaudio.com/product/pg2/) — Legacy Product; English manual only, no firmware version/date or update package exposed. (Manufacturer page opened 2026-11-22).
+- [NUX PG-2 V1 English owner manual](https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf) — 2013 copyright; named amp/modulation/ambience library lacks dedicated pitch effect; nine factory and nine user memories, save/preset behavior, tuner-only flat/reference settings and complete connector inventory. V1 is document revision. (Manufacturer PDF retrieved and complete single-page sheet visually inspected 2026-11-22; SHA256 85e48cd903451340df245c012b7999a76c27249c5502c667c4452c3b627b9e35).
+
+<!-- firmware-pitch:NUX::PG-2 ends -->
+
 Checked 2026-10-17; partial. Portable guitar multi-effects; ownership,bass/vocal suitability unverified.
 
 <!-- comparison evidence begins -->

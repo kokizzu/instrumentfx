@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/StagemanFloor_NAP5/NUX_NAP5_UserManual_English.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 3,
+    "frame": 0,
     "text_pages": [
       0,
       2
@@ -196660,6 +196660,60 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::PG-2": {
+        "model_key": "NUX::PG-2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unresolved first hardware availability",
+          "source_urls": [
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf"
+          ],
+          "note": "Original manufacturer manual carries copyright 2013. Copyright does not establish first retail availability, and no dated manufacturer launch notice was located. Exact first-release date remains unknown."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://nuxaudio.com/product/pg2/",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf"
+          ],
+          "note": "Current exact-model legacy support lists the English manual only; no public firmware binary, version history or updater found. Complete original connector inventory has audio input/output, headphones, AUX and DC, with no USB/update connector documented. This does not prove no service-only firmware ever existed. V1 is a manual revision, not a device firmware version; latest update date and span remain unknown."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Original manual lists Clean/Blues/Rock amp modes, Chorus/Flanger/Tremolo modulation, Delay/Room/Spring ambience and noise gate. No dedicated pitch-shift, harmony or octave algorithm documented. Tuner flat-tuning and A4 reference controls adjust the tuner, not a demonstrated audio transposition function.",
+          "preset": "Nine factory plus nine user programs. Edit mode changes sounds; hold TAP/SAVE two seconds, select U1–U9 and confirm. Preset mode restricts knob adjustment to MASTER. These are sound memories, not evidence of pitch presets; no external footswitch recall interface documented.",
+          "dsp": "No pitch algorithm or isolated pitch DSP percentage documented. Published 24-bit signal processing is an overall format specification, not a block-resource cost. No sibling model DSP figure transferred.",
+          "source_urls": [
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original manufacturer one-page manual now visually inspected, corroborating library and memory facts previously based on transcriptions; earlier rendering limitations below remain historical.",
+            "No device/audio test. No pitch documented is limited to the checked manufacturer library."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://nuxaudio.com/product/pg2/",
+            "title": "NUX PG-2 current manufacturer legacy support",
+            "access": "Manufacturer page opened 2026-11-22",
+            "evidence": "Legacy Product; English manual only, no firmware version/date or update package exposed."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf",
+            "title": "NUX PG-2 V1 English owner manual",
+            "access": "Manufacturer PDF retrieved and complete single-page sheet visually inspected 2026-11-22; SHA256 85e48cd903451340df245c012b7999a76c27249c5502c667c4452c3b627b9e35",
+            "evidence": "2013 copyright; named amp/modulation/ambience library lacks dedicated pitch effect; nine factory and nine user memories, save/preset behavior, tuner-only flat/reference settings and complete connector inventory. V1 is document revision."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -196697,7 +196751,6 @@
       "NUX::Amp Academy Stomp",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
-      "NUX::PG-2",
       "Roland::GR-55",
       "Roland::VT-4",
       "ROWIN::RE-05 Looper Pro",
@@ -196844,9 +196897,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 223,
-    "last_model": "NUX::Stageman Floor NAP-5",
-    "last_commit_parent": "e4797c423328cbb79668949c9c3555fac9863eb2",
+    "completed_model_count": 224,
+    "last_model": "NUX::PG-2",
+    "last_commit_parent": "5797b0ef828bc1cd3a6c16ea73ee73162d4fe788",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -196883,7 +196936,6 @@
       "NUX::Amp Academy Stomp",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
-      "NUX::PG-2",
       "Roland::GR-55",
       "Roland::VT-4",
       "ROWIN::RE-05 Looper Pro",
@@ -197029,7 +197081,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 223,
+    "pitch_completed_model_count": 224,
     "supplemental_model_count": 0
   },
   "model_images": {
