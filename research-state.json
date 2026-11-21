@@ -201325,10 +201325,103 @@
           "label": "2.83 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC Electronic::PLETHORA X5": {
+        "model_key": "TC Electronic::PLETHORA X5",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2020-02-20",
+          "precision": "day",
+          "kind": "manufacturer official product video launch",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=dHCabnX0jug"
+          ],
+          "note": "Official TC Electronic video published February 20, 2020. This establishes the public launch, not the first customer delivery."
+        },
+        "firmware": {
+          "version": "1.5.6",
+          "date": "2025-03-23",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf",
+            "https://www.tcelectronic.com/en/products/0709-AIK",
+            "https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x5"
+          ],
+          "note": "Manufacturer shared notes explicitly date 1.5.6 for PX5 and PX3. ELECTORI lists 1.5.6; current global X5 page has no firmware section in the retrieved files list. This omission does not prove withdrawal or a recommendation to downgrade. Present latest status and binary availability remain qualified."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "X5 distributor inventory documents Brainwaves Pitch Shifter, Sub N Up Octaver and Quintessence Harmony. The manufacturer describes standalone Brainwaves as polyphonic with two independent voices up/down two octaves, and standalone Sub N Up as offering polyphonic and monophonic engines. These support named-algorithm provenance; direct X5 mode-by-mode note handling, limits and Quintessence chord tracking remain unverified. Do not equate two generated voices with two-note input polyphony.",
+          "preset": "Historical manufacturer architecture: 127 Boards, up to five pedals each, 75 TonePrint slots per pedal. Current unlimited-Boards marketing does not prove unlimited onboard memory. TonePrint app Store To Product persists settings after power-off; automatic hardware editing and live Hot Knob behavior retain the canonical revision qualifications. Exact pitch-mode recall and gapless Board changes are untested. External EXP and five MASH controls are distinct from MIDI expression.",
+          "dsp": "No pitch-specific CPU percentage or measured allocation found. Five effect slots are Board capacity, not 20% CPU per pitch algorithm. Firmware 1.5.6 removes Infinite reverb because it consumes substantial resources even when unused; adding Hall of Fame in another slot is the stated alternative. This qualitative sustainer limitation does not quantify pitch cost. Published device latency 0.8–2.4 ms is not a pitch-specific tracking measurement.",
+          "source_urls": [
+            "https://www.tcelectronic.com/en/products/0709-AIK",
+            "https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x5",
+            "https://www.tcelectronic.com/en/products/0709-AIR",
+            "https://tcelectronic.com/en/products/0709-AGR",
+            "https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf",
+            "https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "X5-only older release history is not assigned to X3. Units on 1.0.101 require intermediate 1.1.55 before 1.2.18 or newer according to the retained update instructions.",
+            "No firmware installed, hardware update, audio tracking test or DSP measurement performed. Infinite chord sustain does not establish polyphonic transposition."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=dHCabnX0jug",
+            "title": "TC Electronic Plethora X5 official product video",
+            "access": "Manufacturer publication date and description inspected",
+            "evidence": "February 20, 2020 public launch; 127 Boards, five pedals and 75 TonePrints."
+          },
+          {
+            "url": "https://www.tcelectronic.com/en/products/0709-AIK",
+            "title": "TC Electronic PLETHORA X5 exact 0709-AIK product page",
+            "access": "Direct manufacturer page read",
+            "evidence": "Five slots, insert, EXP and TonePrint storage; retrieved file list has guides/app/MIDI table but no firmware section."
+          },
+          {
+            "url": "https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf",
+            "title": "TC Electronic X5/X3 firmware 1.5.6 manufacturer release notes",
+            "access": "Original indexed manufacturer text read; direct PDF unavailable",
+            "evidence": "March 23, 2025 for both models; Infinite and momentary modes; qualitative resource restriction."
+          },
+          {
+            "url": "https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x5",
+            "title": "ELECTORI PLETHORA X5 regional product documentation",
+            "access": "Exact-model distributor indexed inventory and download listing inspected",
+            "evidence": "Brainwaves, Sub N Up, Quintessence; 1.5.6 release-note/download listing. Regional evidence, not an X5 tracking test."
+          },
+          {
+            "url": "https://www.tcelectronic.com/en/products/0709-AIR",
+            "title": "TC Electronic standalone Brainwaves manufacturer specification",
+            "access": "Direct manufacturer feature list read",
+            "evidence": "Standalone polyphonic shifting, dual voices ±2 octaves; X5-specific mode validation not established."
+          },
+          {
+            "url": "https://tcelectronic.com/en/products/0709-AGR",
+            "title": "TC Electronic standalone Sub N Up manufacturer specification",
+            "access": "Manufacturer original indexed description read",
+            "evidence": "Standalone polyphonic and monophonic octave modes; hardware and preset controls not transferred to X5."
+          },
+          {
+            "url": "https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf",
+            "title": "TC Electronic cumulative X5/X3 1.4.3 release history",
+            "access": "Previously read original manufacturer history; X5 canonical revision evidence reread",
+            "evidence": "X5 update bridge, historical effects and live-control changes; older X5-only headings kept distinct."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1858,
+          "maximum_days": 1858,
+          "label": "5.09 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC Electronic::PLETHORA X5",
       "TC-Helicon::Critical Mass",
       "TC-Helicon::Duplicator",
       "TC-Helicon::Harmony Singer 2",
@@ -201449,12 +201542,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 283,
-    "last_model": "TC Electronic::PLETHORA X3",
-    "last_commit_parent": "8cc5bbbc4bced408fc5b385efa03d5336aa32162",
+    "completed_model_count": 284,
+    "last_model": "TC Electronic::PLETHORA X5",
+    "last_commit_parent": "628e2ec8cf58941b22ad3c5ec0c624c098ab8f1c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC Electronic::PLETHORA X5",
       "TC-Helicon::Critical Mass",
       "TC-Helicon::Duplicator",
       "TC-Helicon::Harmony Singer 2",
@@ -201574,7 +201666,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 283,
+    "pitch_completed_model_count": 284,
     "supplemental_model_count": 0
   },
   "model_images": {

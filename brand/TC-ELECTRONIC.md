@@ -1062,6 +1062,34 @@ Checked **2026-11-05** against the exact-model manufacturer Quick Start Guide **
 
 ## PLETHORA X5
 
+<!-- firmware-pitch:TC Electronic::PLETHORA X5 begins -->
+### Firmware and pitch audit — TC Electronic PLETHORA X5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2020-02-20 (manufacturer official product video launch). Official TC Electronic video published February 20, 2020. This establishes the public launch, not the first customer delivery. [launch 1](https://www.youtube.com/watch?v=dHCabnX0jug) |
+| Firmware / latest verification | 1.5.6 — Located; latest status unverified. Manufacturer shared notes explicitly date 1.5.6 for PX5 and PX3. ELECTORI lists 1.5.6; current global X5 page has no firmware section in the retrieved files list. This omission does not prove withdrawal or a recommendation to downgrade. Present latest status and binary availability remain qualified. [firmware 1](https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf) [firmware 2](https://www.tcelectronic.com/en/products/0709-AIK) [firmware 3](https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x5) |
+| Firmware / release date | 2025-03-23 (day precision) |
+| Firmware / release-to-update duration | 5.09 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. X5 distributor inventory documents Brainwaves Pitch Shifter, Sub N Up Octaver and Quintessence Harmony. The manufacturer describes standalone Brainwaves as polyphonic with two independent voices up/down two octaves, and standalone Sub N Up as offering polyphonic and monophonic engines. These support named-algorithm provenance; direct X5 mode-by-mode note handling, limits and Quintessence chord tracking remain unverified. Do not equate two generated voices with two-note input polyphony. [pitch 1](https://www.tcelectronic.com/en/products/0709-AIK) [pitch 2](https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x5) [pitch 3](https://www.tcelectronic.com/en/products/0709-AIR) [pitch 4](https://tcelectronic.com/en/products/0709-AGR) [pitch 5](https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf) [pitch 6](https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf) |
+| Pitch / preset recall | Historical manufacturer architecture: 127 Boards, up to five pedals each, 75 TonePrint slots per pedal. Current unlimited-Boards marketing does not prove unlimited onboard memory. TonePrint app Store To Product persists settings after power-off; automatic hardware editing and live Hot Knob behavior retain the canonical revision qualifications. Exact pitch-mode recall and gapless Board changes are untested. External EXP and five MASH controls are distinct from MIDI expression. |
+| Pitch / DSP resources | No pitch-specific CPU percentage or measured allocation found. Five effect slots are Board capacity, not 20% CPU per pitch algorithm. Firmware 1.5.6 removes Infinite reverb because it consumes substantial resources even when unused; adding Hall of Fame in another slot is the stated alternative. This qualitative sustainer limitation does not quantify pitch cost. Published device latency 0.8–2.4 ms is not a pitch-specific tracking measurement. |
+| Pitch / qualifications | X5-only older release history is not assigned to X3. Units on 1.0.101 require intermediate 1.1.55 before 1.2.18 or newer according to the retained update instructions. No firmware installed, hardware update, audio tracking test or DSP measurement performed. Infinite chord sustain does not establish polyphonic transposition. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Electronic Plethora X5 official product video](https://www.youtube.com/watch?v=dHCabnX0jug) — February 20, 2020 public launch; 127 Boards, five pedals and 75 TonePrints. (Manufacturer publication date and description inspected).
+- [TC Electronic PLETHORA X5 exact 0709-AIK product page](https://www.tcelectronic.com/en/products/0709-AIK) — Five slots, insert, EXP and TonePrint storage; retrieved file list has guides/app/MIDI table but no firmware section. (Direct manufacturer page read).
+- [TC Electronic X5/X3 firmware 1.5.6 manufacturer release notes](https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf) — March 23, 2025 for both models; Infinite and momentary modes; qualitative resource restriction. (Original indexed manufacturer text read; direct PDF unavailable).
+- [ELECTORI PLETHORA X5 regional product documentation](https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x5) — Brainwaves, Sub N Up, Quintessence; 1.5.6 release-note/download listing. Regional evidence, not an X5 tracking test. (Exact-model distributor indexed inventory and download listing inspected).
+- [TC Electronic standalone Brainwaves manufacturer specification](https://www.tcelectronic.com/en/products/0709-AIR) — Standalone polyphonic shifting, dual voices ±2 octaves; X5-specific mode validation not established. (Direct manufacturer feature list read).
+- [TC Electronic standalone Sub N Up manufacturer specification](https://tcelectronic.com/en/products/0709-AGR) — Standalone polyphonic and monophonic octave modes; hardware and preset controls not transferred to X5. (Manufacturer original indexed description read).
+- [TC Electronic cumulative X5/X3 1.4.3 release history](https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf) — X5 update bridge, historical effects and live-control changes; older X5-only headings kept distinct. (Previously read original manufacturer history; X5 canonical revision evidence reread).
+
+<!-- firmware-pitch:TC Electronic::PLETHORA X5 ends -->
+
 Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal suitability unverified.
 
 <!-- comparison evidence begins -->
