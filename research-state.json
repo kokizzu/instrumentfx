@@ -191535,11 +191535,35 @@
             "sha256": "3c9dfebae4a663a10a1f005975a29a3ca72ad6b55a0206317430e71b201f240b"
           }
         }
+      },
+      "Line 6::POD Express Guitar": {
+        "model_key": "Line 6::POD Express Guitar",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/6/0a020a416bc365aae735799cd/image/png",
+            "source_url": "https://line6.com/podexpress/guitar-effects",
+            "caption": "POD Express Guitar — powered-on overhead view",
+            "note": "Exact red Guitar enclosure, photographed from overhead with red AMP segment and ON/TAP indicators lit. Manufacturer product image; no graphical screen is present.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "6cb5844376984a3c3f1db3db6d0ccdae59ef40842f22ae26d9647b1703c226cf"
+          },
+          "rear": {
+            "image_url": "https://line6.com/data/6/0a020a3fc1bb65aae7504b72b/image/png",
+            "source_url": "https://line6.com/podexpress/guitar-effects",
+            "caption": "POD Express Guitar — rear connections",
+            "note": "Exact red Guitar enclosure. Labels visible: IN, OUT L/MONO and RIGHT, VOLUME / FS 3/4, USB-C and DC IN. Side-mounted headphone jack and volume wheel are outside this rear view.",
+            "visual_checked": true,
+            "sha256": "d4935d5c48bab44a5f06d92d601f92d07a0ab9505aaf0b109be2362632d283ce"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD Go Wireless"
+    "last_model": "Line 6::POD Express Guitar"
   }
 }

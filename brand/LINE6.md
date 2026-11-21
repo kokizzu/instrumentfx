@@ -2763,6 +2763,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::POD Express Guitar ends -->
 
+<!-- model-images:Line 6::POD Express Guitar begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**POD Express Guitar — powered-on overhead view**
+
+[![POD Express Guitar — powered-on overhead view](https://line6.com/data/6/0a020a416bc365aae735799cd/image/png)](https://line6.com/data/6/0a020a416bc365aae735799cd/image/png)
+
+[Image source](https://line6.com/podexpress/guitar-effects). Exact red Guitar enclosure, photographed from overhead with red AMP segment and ON/TAP indicators lit. Manufacturer product image; no graphical screen is present.
+
+**POD Express Guitar — rear connections**
+
+[![POD Express Guitar — rear connections](https://line6.com/data/6/0a020a3fc1bb65aae7504b72b/image/png)](https://line6.com/data/6/0a020a3fc1bb65aae7504b72b/image/png)
+
+[Image source](https://line6.com/podexpress/guitar-effects). Exact red Guitar enclosure. Labels visible: IN, OUT L/MONO and RIGHT, VOLUME / FS 3/4, USB-C and DC IN. Side-mounted headphone jack and volume wheel are outside this rear view.
+
+</details>
+<!-- model-images:Line 6::POD Express Guitar ends -->
+
+
 **New model, checked2026-10-15.** The2024-generation POD Express Guitar is not the older Pocket POD Express, POD Express Bass, or POD Express Black. It is a fixed-chain guitar multi-effects processor; no built-in expression. The current edit application must not be omitted because an older launch document mentioned only updating.
 
 <!-- comparison evidence begins -->
