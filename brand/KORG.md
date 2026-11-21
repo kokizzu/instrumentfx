@@ -283,6 +283,30 @@ PICKUP models humbucker↔single-coil conversion and a mixed virtual pickup; DRO
 
 ## AX5B
 
+<!-- firmware-pitch:Korg::AX5B begins -->
+### Firmware and pitch audit — Korg AX5B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2006-08 (announced US availability proxy). August 2, 2006 announcement states August 2006 availability with US pricing. Qualified scheduled US availability, not verified first shipment or earliest worldwide sale. [launch 1](https://www.harmonycentral.com/news/uncategorized/toneworks-expands-line-of-modeling-signal-processors-with-the-ax5g-and-ax5b-r19857/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact support page lists Owner’s Manual and Easy Start Guide only, uploaded June 1, 2015. No public firmware package or dated device changelog located. Manual upload dates are not firmware releases; update span uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/34/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD F7 PITCH SHIFTER lists −12…+12, separate effect/direct levels, FINE −15…+15 and TRACKING 1…10. Pitch is starred for pedal assignment. Note polyphony is not established; fine units are unstated in this table. [pitch 1](https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B) |
+| Pitch / preset recall | 40 user plus 40 factory programs. Effect settings and expression target are program-specific; WAH/FX PARAM preserves recalled sound until pedal movement. Hardware recall untested. |
+| Pitch / DSP resources | PITCH SHIFTER uses the single MOD selection, replacing other MOD effects. PRE OCTAVE/SYNTH use a different stage. Six simultaneous effects including noise reduction, plus volume pedal, is the chain allowance; no pitch CPU percentage located. |
+| Pitch / qualifications | No measured tracking or latency; AX3G range prose is not transferred to this bass model. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [ToneWorks AX5G/AX5B announcement — August 2, 2006](https://www.harmonycentral.com/news/uncategorized/toneworks-expands-line-of-modeling-signal-processors-with-the-ax5g-and-ax5b-r19857/) — Announced August 2006 US availability; exact worldwide first sale remains unknown. (Contemporaneous product announcement read).
+- [Korg AX5B support downloads](https://www.korg.com/us/support/download/product/1/34/) — Only two manuals uploaded June 1, 2015; no firmware listed. (Manufacturer exact-model page read).
+- [AX5B Owner’s Manual EFG1](https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B) — Pages 5, 8–10 and 40 establish chain limits, memory, expression recall and MOD F7 parameters. (Manufacturer original PDF text and appendix read).
+
+<!-- firmware-pitch:Korg::AX5B ends -->
+
 <!-- comparison evidence begins -->
 
 Checked2026-10-18. Dedicated bass multi-effects; distinct from AX5G,AX3B andAX3000B. Partial record. Exact Shopee AX5B/AX5 B searches returned no hardware offer; this does not establish unavailability.

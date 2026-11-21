@@ -191975,6 +191975,64 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Korg::AX5B": {
+        "model_key": "Korg::AX5B",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2006-08",
+          "precision": "month",
+          "kind": "announced_US_availability_proxy",
+          "source_urls": [
+            "https://www.harmonycentral.com/news/uncategorized/toneworks-expands-line-of-modeling-signal-processors-with-the-ax5g-and-ax5b-r19857/"
+          ],
+          "note": "August 2, 2006 announcement states August 2006 availability with US pricing. Qualified scheduled US availability, not verified first shipment or earliest worldwide sale."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/34/"
+          ],
+          "note": "Exact support page lists Owner’s Manual and Easy Start Guide only, uploaded June 1, 2015. No public firmware package or dated device changelog located. Manual upload dates are not firmware releases; update span uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD F7 PITCH SHIFTER lists −12…+12, separate effect/direct levels, FINE −15…+15 and TRACKING 1…10. Pitch is starred for pedal assignment. Note polyphony is not established; fine units are unstated in this table.",
+          "preset": "40 user plus 40 factory programs. Effect settings and expression target are program-specific; WAH/FX PARAM preserves recalled sound until pedal movement. Hardware recall untested.",
+          "dsp": "PITCH SHIFTER uses the single MOD selection, replacing other MOD effects. PRE OCTAVE/SYNTH use a different stage. Six simultaneous effects including noise reduction, plus volume pedal, is the chain allowance; no pitch CPU percentage located.",
+          "source_urls": [
+            "https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B"
+          ],
+          "measurements": [],
+          "notes": [
+            "No measured tracking or latency; AX3G range prose is not transferred to this bass model."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.harmonycentral.com/news/uncategorized/toneworks-expands-line-of-modeling-signal-processors-with-the-ax5g-and-ax5b-r19857/",
+            "title": "ToneWorks AX5G/AX5B announcement — August 2, 2006",
+            "access": "Contemporaneous product announcement read",
+            "evidence": "Announced August 2006 US availability; exact worldwide first sale remains unknown."
+          },
+          {
+            "url": "https://www.korg.com/us/support/download/product/1/34/",
+            "title": "Korg AX5B support downloads",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "Only two manuals uploaded June 1, 2015; no firmware listed."
+          },
+          {
+            "url": "https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B",
+            "title": "AX5B Owner’s Manual EFG1",
+            "access": "Manufacturer original PDF text and appendix read",
+            "evidence": "Pages 5, 8–10 and 40 establish chain limits, memory, expression recall and MOD F7 parameters."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -191988,7 +192046,6 @@
       "Korg::AX3000B",
       "Korg::AX3000G",
       "Korg::AX30G",
-      "Korg::AX5B",
       "Korg::AX5G",
       "Korg::PANDORA stomp",
       "LEKATO::ME-01",
@@ -192213,9 +192270,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 169,
-    "last_model": "Korg::AX3G",
-    "last_commit_parent": "b8df8c587d9cd20df1c22477eb0e0191d2f8c94d",
+    "completed_model_count": 170,
+    "last_model": "Korg::AX5B",
+    "last_commit_parent": "fc8a5ea499adc992a971789b8294af11c4376638",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -192228,7 +192285,6 @@
       "Korg::AX3000B",
       "Korg::AX3000G",
       "Korg::AX30G",
-      "Korg::AX5B",
       "Korg::AX5G",
       "Korg::PANDORA stomp",
       "LEKATO::ME-01",
@@ -192452,7 +192508,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 169,
+    "pitch_completed_model_count": 170,
     "supplemental_model_count": 0
   },
   "model_images": {
