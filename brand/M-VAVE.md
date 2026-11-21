@@ -755,6 +755,26 @@ Sources checked:
 
 <!-- firmware-pitch:M-VAVE::MK-20 ends -->
 
+<!-- model-images:M-VAVE::MK-20 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MK-20 powered-on control view**
+
+[![MK-20 powered-on control view](https://cdn.store-assets.com/s/887148/i/94808551.jpg)](https://cdn.store-assets.com/s/887148/i/94808551.jpg)
+
+[Image source](https://www.mingtinghuang.com/products/綜合效果器-m-vave-mk-20-電吉他-貝斯綜合效果器-帶鼓機功能-柚子樂器). Dealer collage of the exact MK-20 shows a complete near-overhead powered-on view, a lit LCD/button/switch close-up and a rear view. Display reads FUNK DIO; visible CPU 39.1 is whole-preset load, not Whammy cost. Camera perspective is slightly elevated, so a single exact-overhead photograph remains unverified. Firmware and original/V2 revision are not established by appearance.
+
+**MK-20 rear connections**
+
+[![MK-20 rear connections](https://www.m-vave.com/images/productInfo/mk-20-6.webp)](https://www.m-vave.com/images/productInfo/mk-20-6.webp)
+
+[Image source](https://www.m-vave.com/product?id=mk-20). Manufacturer rear photograph clearly identifies MK-20 and shows INPUT, MIDI, headphone socket, L(MONO)/R OUTPUT, USB-C, charge indicator and power switch. No analog EXP socket appears in this pictured panel; this corroborates that panel only and does not resolve the contradictory manual specification or other revisions. No visibly lit status indicator.
+
+</details>
+<!-- model-images:M-VAVE::MK-20 ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-14.**
