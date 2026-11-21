@@ -197603,11 +197603,35 @@
             "sha256": "2f9dd851f96c5297ecfac8400f6d9ebaf42427524e145161d97a126b303f6ef0"
           }
         }
+      },
+      "MOOER::GE150 Plus Li": {
+        "model_key": "MOOER::GE150 Plus Li",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GEI50_Plus_Li-01.png?v=1759292017&width=1946",
+            "source_url": "https://mooer.jp/products/mooer-ge150plus-li",
+            "caption": "MOOER GE150 Plus Li powered-on top view",
+            "note": "Straight overhead black GE150 Plus Li with explicit Li badge, multicolour expression tread, lit 02A US Blues Clean display, module/button indicators and blue A ring. Exact battery edition, three footswitches.",
+            "visual_checked": true,
+            "sha256": "0267d37b10afa7ddf1201d25517bb0a132ba4e6062277c23ce392f11aff90f3f",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GEI50_Plus_Li-02.png?v=1759292016&width=1946",
+            "source_url": "https://mooer.jp/products/mooer-ge150plus-li",
+            "caption": "MOOER GE150 Plus Li rear ports",
+            "note": "Full straight rear panel: AUX IN, INPUT, OUTPUT L (MONO)/R, PHONES, USB-C marked OTG, rocker power and DC 9V 1.5A center-negative marking. Standard Plus 300mA marking does not apply. No FX loop, XLR, dedicated physical MIDI or external EXP jack shown.",
+            "visual_checked": true,
+            "sha256": "d57a736d6f4234db681118d61d87d789258537a476da1bcbb665af53f19f7087"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE150 Plus"
+    "last_model": "MOOER::GE150 Plus Li"
   }
 }
