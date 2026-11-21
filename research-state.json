@@ -202999,11 +202999,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Roland::GR-55": {
+        "model_key": "Roland::GR-55",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn11.bigcommerce.com/s-xbuyp6l32e/images/stencil/2048x2048/products/126630/12291/gr-55-bk_top_gal__82565.1741465080.jpg?c=1",
+            "source_url": "https://haightashburymusic.com/roland-gr-55s-bk-guitar-synthesizer-black-without-pick-up-or-gk-cable/",
+            "caption": "GR-55 powered overhead, black finish",
+            "note": "Visually inspected powered-on exact overhead black-finish GR-55: backlit Metal Synth Lead LCD, four footswitches, built-in expression pedal, output-level knob and data wheel. Retail image does not establish installed firmware.",
+            "visual_checked": true,
+            "sha256": "3ef46a0f27a84168990b59cfac43bf2664a77bbb02114d1cab964511128d551a",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://img.kytary.com/eshop_cz/velky_v2/na/637199766186270000/0c46a068/64734091/roland-gr-55gk-bk.jpg",
+            "source_url": "https://kytary.cz/roland-gr-55gk-bk/HN133049/",
+            "caption": "GR-55 rear ports",
+            "note": "Visually inspected rear black GR-55: 13-pin GK IN, GUITAR OUT (not input), OUTPUT R/L-MONO, PHONES, MIDI OUT marked V-LINK and MIDI IN, COMPUTER USB, power switch, DC IN and cable restraint. V-LINK is a MIDI function label, not an extra port. Side USB MEMORY is outside this rear view; rear screen appears unlit.",
+            "visual_checked": true,
+            "sha256": "da933956222de303534a5072ab3c1e1429aa8dd3eb52481ee7b6fa1da0fd94ea",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Neural DSP::Quad Cortex"
+    "last_model": "Roland::GR-55"
   }
 }

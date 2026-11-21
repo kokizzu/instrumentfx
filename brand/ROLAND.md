@@ -35,6 +35,26 @@ Sources checked:
 
 <!-- firmware-pitch:Roland::GR-55 ends -->
 
+<!-- model-images:Roland::GR-55 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**GR-55 powered overhead, black finish**
+
+[![GR-55 powered overhead, black finish](https://cdn11.bigcommerce.com/s-xbuyp6l32e/images/stencil/2048x2048/products/126630/12291/gr-55-bk_top_gal__82565.1741465080.jpg?c=1)](https://cdn11.bigcommerce.com/s-xbuyp6l32e/images/stencil/2048x2048/products/126630/12291/gr-55-bk_top_gal__82565.1741465080.jpg?c=1)
+
+[Image source](https://haightashburymusic.com/roland-gr-55s-bk-guitar-synthesizer-black-without-pick-up-or-gk-cable/). Visually inspected powered-on exact overhead black-finish GR-55: backlit Metal Synth Lead LCD, four footswitches, built-in expression pedal, output-level knob and data wheel. Retail image does not establish installed firmware.
+
+**GR-55 rear ports**
+
+[![GR-55 rear ports](https://img.kytary.com/eshop_cz/velky_v2/na/637199766186270000/0c46a068/64734091/roland-gr-55gk-bk.jpg)](https://img.kytary.com/eshop_cz/velky_v2/na/637199766186270000/0c46a068/64734091/roland-gr-55gk-bk.jpg)
+
+[Image source](https://kytary.cz/roland-gr-55gk-bk/HN133049/). Visually inspected rear black GR-55: 13-pin GK IN, GUITAR OUT (not input), OUTPUT R/L-MONO, PHONES, MIDI OUT marked V-LINK and MIDI IN, COMPUTER USB, power switch, DC IN and cable restraint. V-LINK is a MIDI function label, not an extra port. Side USB MEMORY is outside this rear view; rear screen appears unlit.
+
+</details>
+<!-- model-images:Roland::GR-55 ends -->
+
+
 Guitar/bass synthesis and multi-effects with13-pin divided-pickup/GK system, not GM-800 Serial GK. Consolidated **2026-10-17**. Full original body and corrections retained; eligible owner history is separate from public specification/price evidence.
 
 <!-- ROLAND-GR-55 source begins -->
