@@ -189492,11 +189492,35 @@
             "sha256": "e7c206588d6b0b5a1959f80616a55e40ee4c47f26a1744bb127366091ee551a9"
           }
         }
+      },
+      "HeadRush::Flex Prime": {
+        "model_key": "HeadRush::Flex Prime",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.headrushfx.com/assets/images/pdp/flexprime/flex-prime-gallery-01.png",
+            "source_url": "https://www.headrushfx.com/products/flex-prime/index.html",
+            "caption": "HeadRush Flex Prime powered-on top-down product view",
+            "note": "Manufacturer view from above with slight perspective; active 01-GTR-6505 Fat Drive rig and three illuminated orange/purple/green footswitch bars. Screen CPU value describes the whole pictured rig, not isolated pitch-shifter load. Product imagery may be composited.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "7caf2bf7ba2a44a3cb2dbb6bb116f4f12af8c6add9a6c631586ae105618e8fe3"
+          },
+          "rear": {
+            "image_url": "https://www.headrushfx.com/assets/images/pdp/flexprime/flex-prime-gallery-09.png",
+            "source_url": "https://www.headrushfx.com/products/flex-prime/index.html",
+            "caption": "HeadRush Flex Prime rear connections",
+            "note": "Manufacturer rear view clearly labels GUITAR IN, EXPR, FX SEND/RETURN, RIGHT and LEFT(MONO) outputs, PHONES, AUX, MIDI OUT/IN, USB-B, DC IN and POWER. DC input is marked 12V 3.0A center-positive. No XLR microphone input or USB-A port appears on this exact model; do not import Core/Prime connections.",
+            "visual_checked": true,
+            "sha256": "a94476bc37176ef0cbd8f5f8736f820b86680af18a575ee74fdd8621cc902973"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "HeadRush::Core"
+    "last_model": "HeadRush::Flex Prime"
   }
 }
