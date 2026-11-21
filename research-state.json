@@ -200429,10 +200429,63 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Mosky::RC5": {
+        "model_key": "Mosky::RC5",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first hardware release not verified",
+          "source_urls": [
+            "https://moskyaudio.com/multi-effects/128.html"
+          ],
+          "note": "Manufacturer page is undated. Seller new-series/year claims and database-entry publication dates do not verify first shipment."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://moskyaudio.com/multi-effects/128.html",
+            "https://www.moskyaudio.com/mosky.html"
+          ],
+          "note": "No RC5 device firmware, release notes or updater located in checked manufacturer product/manual pages or exact-model searches. Empty manual index is not proof of absent internal firmware or impossible updates; elapsed release-to-update span unknown."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Manufacturer lists reverb, chorus, distortion, overdrive, booster and buffer under a five-effects headline. No dedicated interval pitch-shift, transpose, octave or harmonizer documented. Chorus does not establish polyphonic transposition.",
+          "preset": "Factory/user preset capacities and electronic program recall unverified; physical controls alone do not establish saved pitch states.",
+          "dsp": "No pitch-specific resource cost established. Five-effects wording/six listed functions is not a DSP-block census or percentage budget; do not assign 20% per effect.",
+          "source_urls": [
+            "https://moskyaudio.com/multi-effects/128.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Preserve manufacturer five-effects/six-functions wording conflict; buffer/boost grouping is not proof of independent processors.",
+            "RC5 is distinct from Mosky DC5/RD5 and BOSS RC-5 looper. No sibling firmware or pitch support transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://moskyaudio.com/multi-effects/128.html",
+            "title": "Mosky RC5 manufacturer product page — current route",
+            "access": "Manufacturer page text inspected",
+            "evidence": "Undated RC5 description lists reverb/chorus/distortion/overdrive/booster/buffer under five-effects wording; no dedicated pitch or firmware documented."
+          },
+          {
+            "url": "https://www.moskyaudio.com/mosky.html",
+            "title": "Mosky manufacturer manual index",
+            "access": "Manufacturer page inspected; no document entries exposed",
+            "evidence": "No RC5 firmware/update manual located; missing entries do not prove hardware non-updatability."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Mosky::RC5",
       "Mosky::RD5",
       "Mosky::SOL918",
       "ROWIN::RE-05 Looper Pro",
@@ -200567,12 +200620,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 269,
-    "last_model": "Mosky::DC5",
-    "last_commit_parent": "329d8393ad34e58282e5dd46c731c3120bf6db5c",
+    "completed_model_count": 270,
+    "last_model": "Mosky::RC5",
+    "last_commit_parent": "ad15296dacf4a731263c42a3d5648098598bfc91",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Mosky::RC5",
       "Mosky::RD5",
       "Mosky::SOL918",
       "ROWIN::RE-05 Looper Pro",
@@ -200706,7 +200758,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 269,
+    "pitch_completed_model_count": 270,
     "supplemental_model_count": 0
   },
   "model_images": {

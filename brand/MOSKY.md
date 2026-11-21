@@ -91,6 +91,29 @@ No-treadle layout,analog EXP,headphones,onboard preset down/up andmemory support
 
 ## RC5
 
+<!-- firmware-pitch:Mosky::RC5 begins -->
+### Firmware and pitch audit — Mosky RC5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer page is undated. Seller new-series/year claims and database-entry publication dates do not verify first shipment. [launch 1](https://moskyaudio.com/multi-effects/128.html) |
+| Firmware / latest verification | Not verified — No public firmware located. No RC5 device firmware, release notes or updater located in checked manufacturer product/manual pages or exact-model searches. Empty manual index is not proof of absent internal firmware or impossible updates; elapsed release-to-update span unknown. [firmware 1](https://moskyaudio.com/multi-effects/128.html) [firmware 2](https://www.moskyaudio.com/mosky.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Manufacturer lists reverb, chorus, distortion, overdrive, booster and buffer under a five-effects headline. No dedicated interval pitch-shift, transpose, octave or harmonizer documented. Chorus does not establish polyphonic transposition. [pitch 1](https://moskyaudio.com/multi-effects/128.html) |
+| Pitch / preset recall | Factory/user preset capacities and electronic program recall unverified; physical controls alone do not establish saved pitch states. |
+| Pitch / DSP resources | No pitch-specific resource cost established. Five-effects wording/six listed functions is not a DSP-block census or percentage budget; do not assign 20% per effect. |
+| Pitch / qualifications | Preserve manufacturer five-effects/six-functions wording conflict; buffer/boost grouping is not proof of independent processors. RC5 is distinct from Mosky DC5/RD5 and BOSS RC-5 looper. No sibling firmware or pitch support transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Mosky RC5 manufacturer product page — current route](https://moskyaudio.com/multi-effects/128.html) — Undated RC5 description lists reverb/chorus/distortion/overdrive/booster/buffer under five-effects wording; no dedicated pitch or firmware documented. (Manufacturer page text inspected).
+- [Mosky manufacturer manual index](https://www.moskyaudio.com/mosky.html) — No RC5 firmware/update manual located; missing entries do not prove hardware non-updatability. (Manufacturer page inspected; no document entries exposed).
+
+<!-- firmware-pitch:Mosky::RC5 ends -->
+
 Effects-only guitar multi-effects strip, checked2026-10-18; partial. Ownership unverified. Bass/vocal suitability lacks exact primary confirmation.
 
 | Field | Finding / qualification |
