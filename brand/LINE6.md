@@ -4181,6 +4181,31 @@ The [manufacturer dimensions index](https://kb.line6.com/line-6-product-weights-
 
 ## POD X3 Live
 
+<!-- firmware-pitch:Line 6::POD X3 Live begins -->
+### Firmware and pitch audit — Line 6 POD X3 Live
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2007-09-29 (manufacturer announcement proxy). Indexed Line 6 press release reproduction dated September 29, 2007 announces X3 and X3 Live. Announcement proxy, not confirmed first shipment. Direct page retrieval had Unicode-decoding error; indexed release body and date read. [launch 1](https://www.musicgearreview.com/article-display/2380.html) |
+| Firmware / latest verification | 2.01.0 — Latest verified. Current exact-X3-Live Flash Memory catalogue lists 2.01.0 first, June 10, 2010; adds MIDI SysEx tone send/receive. Supersedes historical 2.0 latest-release scope. USB firmware, GearBox and Monkey versions are separate. No update installed. [firmware 1](https://line6.com/software/index.html?hardware=POD+X3+Live&name=Flash+Memory&submit_form=set) |
+| Firmware / release date | 2010-06-10 (day precision) |
+| Firmware / release-to-update duration | 2.70 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manufacturer model list places Bender and Sub Octaves among Filter Stomp models; Synth Harmony and other pitch-generating synths also listed. No explicit polyphonic/chord-transpose guarantee located; synth voices do not establish input polyphony. [pitch 1](https://line6.com/data/l/0a060072a53c4aae7fe287ecf/application/pdf/POD_X3_Advanced_Guide.pdf) [pitch 2](https://kb.line6.com/pod-x3-series-models-list) |
+| Pitch / preset recall | 128 writable User locations. Presets save both Tone paths and their amp/effect settings; no physical pitch recall test. |
+| Pitch / DSP resources | Two independent Tone paths with fixed Stomp/Mod/Delay/Reverb and other dedicated sections. Bender/Sub Octaves share the Stomp selector with distortion/dynamics/filter choices in each Tone. No Bender CPU percentage or measured remaining DSP located; not the HD500 dynamic-block architecture. |
+| Pitch / qualifications | No tracking, latency or DSP measurement. Optional external FX loop can serve only one Tone at a time; two paths do not create two physical loops. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 X3/X3 Live launch press release reproduction](https://www.musicgearreview.com/article-display/2380.html) — September 29, 2007 announcement explicitly names X3 Live; shipment date unverified. (Indexed manufacturer-attributed release text and date read; direct page Unicode-decoding error).
+- [POD X3 Live Flash Memory catalogue](https://line6.com/software/index.html?hardware=POD+X3+Live&name=Flash+Memory&submit_form=set) — Newest 2.01.0 June 10, 2010; SysEx tone send/receive; 2.00.0 February 19, 2010 separately listed. (Direct bounded manufacturer HTML read; SHA256 dcd64394aa9830f2da02e012859b7765c97a88a6767198b05d2072fbf7c337c0).
+- [POD X3 Family Pilot Handbook Rev E](https://line6.com/data/l/0a060072a53c4aae7fe287ecf/application/pdf/POD_X3_Advanced_Guide.pdf) — Dual Tone, 128 writable User locations, both tones saved together; fixed Stomp selector and one-Tone-at-a-time loop. (Manufacturer 100-page PDF read; Live-specific and shared functions only).
+- [POD X3 Series model list](https://kb.line6.com/pod-x3-series-models-list) — Bender and Sub Octaves listed as Filter Stomp models; no explicit polyphonic tracking statement. (Manufacturer KB read).
+
+<!-- firmware-pitch:Line 6::POD X3 Live ends -->
+
 Checked **2026-10-17**; partial. Floor processor, distinct from desktop X3, rack X3 Pro and XT Live. Model-specific [product documentation][X3L-P] establishes guitar, bass and vocal modeling; all three instrument comparisons include this single canonical record.
 
 <!-- comparison evidence begins -->

@@ -178521,8 +178521,8 @@
       30,
       30
     ],
-    "index_url": "https://line6.com/company/images/?families=64",
-    "index_needle": "HD400",
+    "index_url": "https://line6.com/software/index.html?hardware=POD+X3+Live&name=Flash+Memory&submit_form=set",
+    "index_needle": "Released",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -190729,6 +190729,75 @@
           "label": "1.80 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::POD X3 Live": {
+        "model_key": "Line 6::POD X3 Live",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2007-09-29",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.musicgearreview.com/article-display/2380.html"
+          ],
+          "note": "Indexed Line 6 press release reproduction dated September 29, 2007 announces X3 and X3 Live. Announcement proxy, not confirmed first shipment. Direct page retrieval had Unicode-decoding error; indexed release body and date read."
+        },
+        "firmware": {
+          "version": "2.01.0",
+          "date": "2010-06-10",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=POD+X3+Live&name=Flash+Memory&submit_form=set"
+          ],
+          "note": "Current exact-X3-Live Flash Memory catalogue lists 2.01.0 first, June 10, 2010; adds MIDI SysEx tone send/receive. Supersedes historical 2.0 latest-release scope. USB firmware, GearBox and Monkey versions are separate. No update installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manufacturer model list places Bender and Sub Octaves among Filter Stomp models; Synth Harmony and other pitch-generating synths also listed. No explicit polyphonic/chord-transpose guarantee located; synth voices do not establish input polyphony.",
+          "preset": "128 writable User locations. Presets save both Tone paths and their amp/effect settings; no physical pitch recall test.",
+          "dsp": "Two independent Tone paths with fixed Stomp/Mod/Delay/Reverb and other dedicated sections. Bender/Sub Octaves share the Stomp selector with distortion/dynamics/filter choices in each Tone. No Bender CPU percentage or measured remaining DSP located; not the HD500 dynamic-block architecture.",
+          "source_urls": [
+            "https://line6.com/data/l/0a060072a53c4aae7fe287ecf/application/pdf/POD_X3_Advanced_Guide.pdf",
+            "https://kb.line6.com/pod-x3-series-models-list"
+          ],
+          "measurements": [],
+          "notes": [
+            "No tracking, latency or DSP measurement. Optional external FX loop can serve only one Tone at a time; two paths do not create two physical loops."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.musicgearreview.com/article-display/2380.html",
+            "title": "Line 6 X3/X3 Live launch press release reproduction",
+            "access": "Indexed manufacturer-attributed release text and date read; direct page Unicode-decoding error",
+            "evidence": "September 29, 2007 announcement explicitly names X3 Live; shipment date unverified."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=POD+X3+Live&name=Flash+Memory&submit_form=set",
+            "title": "POD X3 Live Flash Memory catalogue",
+            "access": "Direct bounded manufacturer HTML read; SHA256 dcd64394aa9830f2da02e012859b7765c97a88a6767198b05d2072fbf7c337c0",
+            "evidence": "Newest 2.01.0 June 10, 2010; SysEx tone send/receive; 2.00.0 February 19, 2010 separately listed."
+          },
+          {
+            "url": "https://line6.com/data/l/0a060072a53c4aae7fe287ecf/application/pdf/POD_X3_Advanced_Guide.pdf",
+            "title": "POD X3 Family Pilot Handbook Rev E",
+            "access": "Manufacturer 100-page PDF read; Live-specific and shared functions only",
+            "evidence": "Dual Tone, 128 writable User locations, both tones saved together; fixed Stomp selector and one-Tone-at-a-time loop."
+          },
+          {
+            "url": "https://kb.line6.com/pod-x3-series-models-list",
+            "title": "POD X3 Series model list",
+            "access": "Manufacturer KB read",
+            "evidence": "Bender and Sub Octaves listed as Filter Stomp models; no explicit polyphonic tracking statement."
+          }
+        ],
+        "duration": {
+          "minimum_days": 985,
+          "maximum_days": 985,
+          "label": "2.70 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190769,7 +190838,6 @@
       "Lexicon::MX400",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::M13",
-      "Line 6::POD X3 Live",
       "Line 6::POD XT Live",
       "M-VAVE::ANN Blackbox",
       "M-VAVE::CUBE BABY AC",
@@ -190986,9 +191054,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 150,
-    "last_model": "Line 6::POD HD400",
-    "last_commit_parent": "998a24158578305db6b36d70c16f3f19306f973f",
+    "completed_model_count": 151,
+    "last_model": "Line 6::POD X3 Live",
+    "last_commit_parent": "80a5bbed614f99bf31595b0db01d4c40cdf4026d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -191028,7 +191096,6 @@
       "Lexicon::MX400",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::M13",
-      "Line 6::POD X3 Live",
       "Line 6::POD XT Live",
       "M-VAVE::ANN Blackbox",
       "M-VAVE::CUBE BABY AC",
@@ -191244,7 +191311,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 150,
+    "pitch_completed_model_count": 151,
     "supplemental_model_count": 0
   },
   "model_images": {
