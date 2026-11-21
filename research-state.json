@@ -179788,6 +179788,83 @@
           "label": "2.72–2.81 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Hotone::Ampero Mini MP-50": {
+        "model_key": "Hotone::Ampero Mini MP-50",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2023-06-01",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=-0OzhPiwEkM"
+          ],
+          "note": "Official HotoneAudio introduction is dated June 1, 2023. This is a dated announcement proxy; exact first worldwide customer shipment remains unverified. Later color variants do not reset the original hardware lifecycle."
+        },
+        "firmware": {
+          "version": "2.2",
+          "date": "2026-03-09",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.hotone.com/support/2",
+            "https://www.hotone.jp/announcements/ampero-sound-clone-release"
+          ],
+          "note": "Current global index lists Mini 2.2; Japanese distributor release notes explicitly date 2.2 March 9, 2026. Adds Sound Clone import, Precise Attack and Match30 Clean. Editor versions and NAM conversion software are separate from device firmware."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Original V1.0 manufacturer manuscript explicitly calls Pitch Shift polyphonic, range -24 to +24 semitones, with Position, Dry and output controls. Clean Octa and Harmony separately have polyphonic descriptions; Harmony Hi/Low prose is reversed relative to its numeric ranges.",
+          "preset": "Yes: original SAVE section stores effect parameters and control settings. Use an editable user patch; this does not make factory banks writable. Current 2.2 pitch recall has not been physically tested.",
+          "dsp": "No exact Mini pitch-block percentage found in checked sources. Manufacturer shop specifies up to nine simultaneous modules; original manual warns of system overload. Nine slots are not a CPU percentage or a guarantee for arbitrary high-cost combinations. Stomp HQ 50% cannot be assigned to Mini Pitch Shift.",
+          "source_urls": [
+            "https://manuals.plus/m/4298f527284abd8ec4de6aac1f3033aa0c853eb5c48ae9ed6cd22868cb40627e",
+            "https://shop.hotoneaudio.com/products/ampero-mini"
+          ],
+          "measurements": [],
+          "notes": [
+            "V2.2 official PDF retrieval timed out; the reopened V1.0 manufacturer manuscript is the revision basis for this pitch classification. Existing later-revision evidence in the canonical section remains retained.",
+            "Polyphonic design is not a measured quality or latency result; harmony voices and octave effects are not substitutes for checking whole-chord transposition."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=-0OzhPiwEkM",
+            "title": "HotoneAudio Ampero Mini introduction",
+            "evidence": "Manufacturer introduction metadata published 2023-06-01; announcement proxy only.",
+            "access": "indexed_manufacturer_video_metadata"
+          },
+          {
+            "url": "https://www.hotone.com/support/2",
+            "title": "Hotone firmware index",
+            "evidence": "Mini device firmware 2.2 listed separately from editor 1.5.0 compatibility.",
+            "access": "opened"
+          },
+          {
+            "url": "https://www.hotone.jp/announcements/ampero-sound-clone-release",
+            "title": "Hotone Japan Sound Clone release",
+            "evidence": "Exact Mini 2.2 section dated March 9, 2026; do not substitute MP-100 5.2 or One 3.1.",
+            "access": "opened"
+          },
+          {
+            "url": "https://manuals.plus/m/4298f527284abd8ec4de6aac1f3033aa0c853eb5c48ae9ed6cd22868cb40627e",
+            "title": "Ampero Mini V1.0 manufacturer manual reproduction",
+            "evidence": "Original Pitch Shift row, Clean Octa/Harmony rows, SAVE and overload warning inspected; generated FAQs excluded.",
+            "access": "manufacturer_manuscript_on_mirror"
+          },
+          {
+            "url": "https://shop.hotoneaudio.com/products/ampero-mini",
+            "title": "Hotone Ampero Mini official shop",
+            "evidence": "Exact Mini product lists up to nine simultaneous effect modules.",
+            "access": "opened"
+          }
+        ],
+        "duration": {
+          "minimum_days": 1012,
+          "maximum_days": 1012,
+          "label": "2.77 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -179917,7 +179994,6 @@
       "HeadRush::Pedalboard",
       "HeadRush::Prime",
       "HeadRush::VX5",
-      "Hotone::Ampero Mini MP-50",
       "Hotone::Ampero MP-100",
       "Hotone::Ampero One MP-80",
       "IK Multimedia::TONEX ONE",
@@ -180191,9 +180267,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 4,
-    "last_model": "Hotone::Ampero II Stage MP-380",
-    "last_commit_parent": "76c77ffa75eb3023c355344f700cd6adb4125ec2",
+    "completed_model_count": 5,
+    "last_model": "Hotone::Ampero Mini MP-50",
+    "last_commit_parent": "39f47a7a1e44334d6ddd098ba061b214e6d55397",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Alesis::MicroVerb 4",
@@ -180323,7 +180399,6 @@
       "HeadRush::Pedalboard",
       "HeadRush::Prime",
       "HeadRush::VX5",
-      "Hotone::Ampero Mini MP-50",
       "Hotone::Ampero MP-100",
       "Hotone::Ampero One MP-80",
       "IK Multimedia::TONEX ONE",
@@ -180596,7 +180671,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 3,
+    "pitch_completed_model_count": 4,
     "supplemental_model_count": 0
   }
 }

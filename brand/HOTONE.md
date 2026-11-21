@@ -840,6 +840,33 @@ For the stereo **FX return**,the manual assigns **tip=left,ring=right**. This is
 Direct-pedal all-output,tail/looper coverage and global-volume precedence remain unresolved. No local download,rewiring ordevice operation.
 
 ## Ampero Mini MP-50
+
+<!-- firmware-pitch:Hotone::Ampero Mini MP-50 begins -->
+### Firmware and pitch audit — Hotone Ampero Mini MP-50
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-06-01 (manufacturer announcement proxy). Official HotoneAudio introduction is dated June 1, 2023. This is a dated announcement proxy; exact first worldwide customer shipment remains unverified. Later color variants do not reset the original hardware lifecycle. [launch 1](https://www.youtube.com/watch?v=-0OzhPiwEkM) |
+| Firmware / latest verification | 2.2 — Latest verified. Current global index lists Mini 2.2; Japanese distributor release notes explicitly date 2.2 March 9, 2026. Adds Sound Clone import, Precise Attack and Match30 Clean. Editor versions and NAM conversion software are separate from device firmware. [firmware 1](https://www.hotone.com/support/2) [firmware 2](https://www.hotone.jp/announcements/ampero-sound-clone-release) |
+| Firmware / release date | 2026-03-09 (day precision) |
+| Firmware / release-to-update duration | 2.77 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Original V1.0 manufacturer manuscript explicitly calls Pitch Shift polyphonic, range -24 to +24 semitones, with Position, Dry and output controls. Clean Octa and Harmony separately have polyphonic descriptions; Harmony Hi/Low prose is reversed relative to its numeric ranges. [pitch 1](https://manuals.plus/m/4298f527284abd8ec4de6aac1f3033aa0c853eb5c48ae9ed6cd22868cb40627e) [pitch 2](https://shop.hotoneaudio.com/products/ampero-mini) |
+| Pitch / preset recall | Yes: original SAVE section stores effect parameters and control settings. Use an editable user patch; this does not make factory banks writable. Current 2.2 pitch recall has not been physically tested. |
+| Pitch / DSP resources | No exact Mini pitch-block percentage found in checked sources. Manufacturer shop specifies up to nine simultaneous modules; original manual warns of system overload. Nine slots are not a CPU percentage or a guarantee for arbitrary high-cost combinations. Stomp HQ 50% cannot be assigned to Mini Pitch Shift. |
+| Pitch / qualifications | V2.2 official PDF retrieval timed out; the reopened V1.0 manufacturer manuscript is the revision basis for this pitch classification. Existing later-revision evidence in the canonical section remains retained. Polyphonic design is not a measured quality or latency result; harmony voices and octave effects are not substitutes for checking whole-chord transposition. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [HotoneAudio Ampero Mini introduction](https://www.youtube.com/watch?v=-0OzhPiwEkM) — Manufacturer introduction metadata published 2023-06-01; announcement proxy only. (indexed_manufacturer_video_metadata).
+- [Hotone firmware index](https://www.hotone.com/support/2) — Mini device firmware 2.2 listed separately from editor 1.5.0 compatibility. (opened).
+- [Hotone Japan Sound Clone release](https://www.hotone.jp/announcements/ampero-sound-clone-release) — Exact Mini 2.2 section dated March 9, 2026; do not substitute MP-100 5.2 or One 3.1. (opened).
+- [Ampero Mini V1.0 manufacturer manual reproduction](https://manuals.plus/m/4298f527284abd8ec4de6aac1f3033aa0c853eb5c48ae9ed6cd22868cb40627e) — Original Pitch Shift row, Clean Octa/Harmony rows, SAVE and overload warning inspected; generated FAQs excluded. (manufacturer_manuscript_on_mirror).
+- [Hotone Ampero Mini official shop](https://shop.hotoneaudio.com/products/ampero-mini) — Exact Mini product lists up to nine simultaneous effect modules. (opened).
+
+<!-- firmware-pitch:Hotone::Ampero Mini MP-50 ends -->
+
 Current comparison summary, reconciled 2026-10-28 from the exact-model sources retained below. This does not certify current stock or every technical field. Earlier observations, revision conflicts and source bodies remain unchanged below.
 
 <!-- comparison evidence begins -->
