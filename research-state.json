@@ -195432,23 +195432,25 @@
         },
         "firmware": {
           "version": "4.02.23 (global EN)",
-          "date": null,
-          "precision": "unknown",
+          "date": "2023-05-15",
+          "precision": "day",
           "status": "verified_latest",
           "source_urls": [
             "https://nuxaudio.com/product/mg300/",
-            "https://www.youtube.com/watch?v=26osfV5VTzI"
+            "https://www.youtube.com/watch?v=26osfV5VTzI",
+            "https://www.ariaguitars.com/jp/nux-v2.html"
           ],
-          "note": "Current original-model downloads offer global EN 4.02.23 for macOS/Windows, date blank; firmware explicitly excludes mainland-China domestic units. NUX published its V4 bass-update demonstration May 15, 2023, but this family announcement does not prove the first release day of exact payload 4.02.23. Existing distributor May 15 lead retained. QuickTone 2.4.12.27 and ASIO versions are separate; no MKII GEN2/NAM firmware transferred."
+          "note": "Global EN4.02.23 remains the current manufacturer download; its blank date is resolved by ARAI’s exact-version release notes explicitly dated2023-05-15, corroborating NUX’s same-day V4 demo. This is a documented regional release date, not a claim about every region’s first availability. Mainland-China firmware remains separate. QuickTone2.4.12.27 is current editor, not firmware; historical release paired2.3.5.1. V3.10.13(2021-10-18) added P.L, STAGEMAN acoustic amp, two acoustic IRs and USB Loopback."
         },
         "pitch": {
           "status": "pitch_present_polyphony_unverified",
           "algorithms": "Pitch Bender in EFX with expression control of its Pitch parameter is directly documented. Input polyphony, numeric interval limits and chord-safe transposition performance are not verified. Historical Harmony/Detune parameter sheets remain qualified community-origin leads, not manufacturer-verified current algorithms.",
           "preset": "Edited patch settings can be saved and recalled; preset footswitches step sequentially and group buttons change banks. Exact factory/user/total slot counts remain unverified in the checked manufacturer material.",
-          "dsp": "Original manual diagram shows CMP, EFX, AMP, EQ, NG, MOD, DLY and RVB. Pitch Bender uses the EFX selection, competing with its drive choices; this diagram is not a reconciled current-V4 arbitrary-block ceiling. No isolated pitch DSP percentage or CPU benchmark found.",
+          "dsp": "Original Version1.0 diagram shows CMP,EFX,AMP,EQ,NG,MOD,DLY,RVB. ARAI’s exact-version V3.10.13 notes add P.L, so the older eight-unit diagram is not a current-V4 ceiling. Pitch Bender competes with drive choices in EFX. No isolated pitch DSP percentage or CPU benchmark found.",
           "source_urls": [
             "https://nuxaudio.com/product/mg300/",
-            "https://cdn.algam.net/pub/collections/documents_AE/NUX/MG-300_OM_D.pdf"
+            "https://cdn.algam.net/pub/collections/documents_AE/NUX/MG-300_OM_D.pdf",
+            "https://www.ariaguitars.com/jp/nux-v2.html"
           ],
           "measurements": [],
           "notes": [
@@ -195485,10 +195487,94 @@
             "title": "NUX MG-300 FW V4 release notes",
             "access": "Manufacturer-authored three-page release-note mirror checked 2026-11-22",
             "evidence": "V4 MLD bass amp plus TRC410/DB810/SV810 bass IRs; no exact patch version or release date printed. Upload path is not release date."
+          },
+          {
+            "url": "https://www.ariaguitars.com/jp/nux-v2.html",
+            "title": "ARAI — original NUX MG-300 firmware release notes",
+            "access": "Japanese distributor’s own exact-version support page checked2026-11-22",
+            "evidence": "Explicit V4.02.23 date2023-05-15 with MLD/bass IRs/fixes, older V3.10.13 date2021-10-18 adds P.L/acoustic/Loopback, V2.01.01 date2021-01-26; dated firmware entries distinct from editor versions."
           }
         ],
-        "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "duration": {
+          "minimum_days": 1018,
+          "maximum_days": 1048,
+          "label": "2.79–2.87 years"
+        },
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "NUX::MG-300 original",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2020-07",
+              "precision": "month",
+              "kind": "manufacturer_announcement_month_proxy",
+              "source_urls": [
+                "https://www.premierguitar.com/nu-x-announces-the-mg-300"
+              ],
+              "note": "Manufacturer press release reproduced July 7, 2020 establishes July introduction; earlier July press coverage exists. Exact first retail shipment day remains unresolved."
+            },
+            "firmware": {
+              "version": "4.02.23 (global EN)",
+              "date": null,
+              "precision": "unknown",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://nuxaudio.com/product/mg300/",
+                "https://www.youtube.com/watch?v=26osfV5VTzI"
+              ],
+              "note": "Current original-model downloads offer global EN 4.02.23 for macOS/Windows, date blank; firmware explicitly excludes mainland-China domestic units. NUX published its V4 bass-update demonstration May 15, 2023, but this family announcement does not prove the first release day of exact payload 4.02.23. Existing distributor May 15 lead retained. QuickTone 2.4.12.27 and ASIO versions are separate; no MKII GEN2/NAM firmware transferred."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Pitch Bender in EFX with expression control of its Pitch parameter is directly documented. Input polyphony, numeric interval limits and chord-safe transposition performance are not verified. Historical Harmony/Detune parameter sheets remain qualified community-origin leads, not manufacturer-verified current algorithms.",
+              "preset": "Edited patch settings can be saved and recalled; preset footswitches step sequentially and group buttons change banks. Exact factory/user/total slot counts remain unverified in the checked manufacturer material.",
+              "dsp": "Original manual diagram shows CMP, EFX, AMP, EQ, NG, MOD, DLY and RVB. Pitch Bender uses the EFX selection, competing with its drive choices; this diagram is not a reconciled current-V4 arbitrary-block ceiling. No isolated pitch DSP percentage or CPU benchmark found.",
+              "source_urls": [
+                "https://nuxaudio.com/product/mg300/",
+                "https://cdn.algam.net/pub/collections/documents_AE/NUX/MG-300_OM_D.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Original MG-300 is distinct from MG-300 MKII. Do not transfer MKII polyphony, NAM or category counts."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.premierguitar.com/nu-x-announces-the-mg-300",
+                "title": "NU-X Announces the MG-300",
+                "access": "Manufacturer press release reproduced by Premier Guitar July 7, 2020; checked 2026-11-22",
+                "evidence": "July 2020 public announcement of original MG-300, not MKII."
+              },
+              {
+                "url": "https://nuxaudio.com/product/mg300/",
+                "title": "NUX original MG-300 product/support",
+                "access": "Manufacturer page checked 2026-11-22",
+                "evidence": "Current EN4.02.23 firmware, blank update date, global/domestic warning; Pitch Bender EFX pedal assignment; separate editor/drivers."
+              },
+              {
+                "url": "https://cdn.algam.net/pub/collections/documents_AE/NUX/MG-300_OM_D.pdf",
+                "title": "Original MG-300 German manufacturer manual",
+                "access": "Cherub-authored original-model eight-page PDF hosted by Algam, checked 2026-11-22",
+                "evidence": "EFX Pitch Bender/pedal control, eight named signal units, patch save/recall and bank navigation. No polyphony or isolated pitch DSP cost; original identity and 2020 introduction text distinguish MKII."
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=26osfV5VTzI",
+                "title": "NUX MG-300 Update v4 with Free Presets",
+                "access": "Manufacturer YouTube indexed publication metadata and description checked 2026-11-22",
+                "evidence": "Published May 15, 2023; announces V4 Melvin Lee Davis bass amp and free presets, not an explicit exact4.02.23 release date."
+              },
+              {
+                "url": "https://hogstavaxeln.se/wp-content/uploads/2024/02/MG300-FW-V4-Release-Notes.pdf",
+                "title": "NUX MG-300 FW V4 release notes",
+                "access": "Manufacturer-authored three-page release-note mirror checked 2026-11-22",
+                "evidence": "V4 MLD bass amp plus TRC410/DB810/SV810 bass IRs; no exact patch version or release date printed. Upload path is not release date."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "NUX::MG-300 MKII": {
         "model_key": "NUX::MG-300 MKII",
@@ -195887,8 +195973,8 @@
     ],
     "status": "in_progress",
     "completed_model_count": 214,
-    "last_model": "NUX::MG-30",
-    "last_commit_parent": "6e5ad551a7cc6b2210919cee4c0b26d2b1f936fe",
+    "last_model": "NUX::MG-300 original",
+    "last_commit_parent": "a09f8f82d26e2c4b58a4e63c68a8fe3f30665b83",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
