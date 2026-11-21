@@ -200964,11 +200964,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "NUX::Amp Academy Stomp": {
+        "model_key": "NUX::Amp Academy Stomp",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.nux.us/cdn/shop/files/NUXNMA3AAP.01.jpg?v=1761762235&width=2400",
+            "source_url": "https://www.nux.us/products/amp-academy-stomp",
+            "caption": "Amp Academy Stomp control-panel view",
+            "note": "Manufacturer overhead product image with illuminated color LCD showing F9C / Super Lead 1959. Complete top panel visible. This stock image depicts the older nine-block interface, not proof of firmware 2.0.5 operation.",
+            "visual_checked": true,
+            "sha256": "004fb9d6ab40cac434d87e6e987226a4be0dada30e3beb5faadcab6f6a4c907b",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.monkcustom.com/cdn/shop/files/3_ba79dd08-2173-4151-b131-3481e1883ab4.jpg?v=1753246969&width=1500",
+            "source_url": "https://monkcustom.com/products/nux-amp-academy-stomp-tutorial",
+            "caption": "Amp Academy Stomp rear connections",
+            "note": "Elevated rear view identifies model NMA-3AAP and shows INPUT, SEND, RETURN, balanced L/R outputs, AUX IN, PHONES, MIDI IN/OUT, EXP/CTRL FS and DC 9V. The USB-C connector is on the side and is outside this view. Screen is lit; pictured older interface does not establish installed current firmware.",
+            "visual_checked": true,
+            "sha256": "f4bbfc51f7cd56cc0e2a644560a5a450a59b57a6097e0ef58cd5186234323070",
+            "powered_on": true,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::PG-2"
+    "last_model": "NUX::Amp Academy Stomp"
   }
 }
