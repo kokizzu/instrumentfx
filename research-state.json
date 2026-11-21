@@ -201573,11 +201573,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "M-VAVE::TANK-B": {
+        "model_key": "M-VAVE::TANK-B",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://img.website.xin/contents/sitefiles3604/18022920/images/8376701.png",
+            "source_url": "https://www.cuvave.com/productinfo/1106118.html",
+            "caption": "TANK-B overhead control view",
+            "note": "Manufacturer-hosted exact TANK-B overhead image shows bank 1, blue B/MOD ring and illuminated parameter knobs. All fifteen knobs and four switches are visible. Manufacturer product-page fetch timed out, but this image was successfully retrieved and visually checked; firmware/physical revision is not identifiable from it.",
+            "visual_checked": true,
+            "sha256": "490e9493590cc02d0fa0ffb62661f96d2383befa94940d17fff09f09dfac19bd",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://kaironguitars.com/cdn/shop/files/Screenshot_6_5b405a1a-ebbf-43c4-9a30-5ba1f6460d81.png?v=1704219835&width=1445",
+            "source_url": "https://kaironguitars.com/products/m-vave-tank-b-bass-multi-effects-processor-modeling-ir-cabinets",
+            "caption": "TANK-B connector view",
+            "note": "Dealer composite clearly identifies TANK-B and shows rear IN, phone-recording socket, headphones, OUT, power switch and USB-C. Rear logo/indicator illumination is visible in the upper view; the lower overhead view is unlit. Side XLR is outside the image, so this does not cover every connector.",
+            "visual_checked": true,
+            "sha256": "c84fa363b6ff891488e151785d119463cc8045a2a6eb8e610a03f6204001f7da",
+            "powered_on": true,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::TANK-G"
+    "last_model": "M-VAVE::TANK-B"
   }
 }

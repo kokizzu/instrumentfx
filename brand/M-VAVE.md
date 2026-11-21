@@ -1248,6 +1248,26 @@ Sources checked:
 
 <!-- firmware-pitch:M-VAVE::TANK-B ends -->
 
+<!-- model-images:M-VAVE::TANK-B begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**TANK-B overhead control view**
+
+[![TANK-B overhead control view](https://img.website.xin/contents/sitefiles3604/18022920/images/8376701.png)](https://img.website.xin/contents/sitefiles3604/18022920/images/8376701.png)
+
+[Image source](https://www.cuvave.com/productinfo/1106118.html). Manufacturer-hosted exact TANK-B overhead image shows bank 1, blue B/MOD ring and illuminated parameter knobs. All fifteen knobs and four switches are visible. Manufacturer product-page fetch timed out, but this image was successfully retrieved and visually checked; firmware/physical revision is not identifiable from it.
+
+**TANK-B connector view**
+
+[![TANK-B connector view](https://kaironguitars.com/cdn/shop/files/Screenshot_6_5b405a1a-ebbf-43c4-9a30-5ba1f6460d81.png?v=1704219835&width=1445)](https://kaironguitars.com/cdn/shop/files/Screenshot_6_5b405a1a-ebbf-43c4-9a30-5ba1f6460d81.png?v=1704219835&width=1445)
+
+[Image source](https://kaironguitars.com/products/m-vave-tank-b-bass-multi-effects-processor-modeling-ir-cabinets). Dealer composite clearly identifies TANK-B and shows rear IN, phone-recording socket, headphones, OUT, power switch and USB-C. Rear logo/indicator illumination is visible in the upper view; the lower overhead view is unlit. Side XLR is outside the image, so this does not cover every connector.
+
+</details>
+<!-- model-images:M-VAVE::TANK-B ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-14. Bass-specific,not TANK-G or assumed TANK-Bv2 hardware.**
