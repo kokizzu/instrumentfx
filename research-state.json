@@ -193587,11 +193587,35 @@
             "sha256": "8428df1bc88134bd65cb34faaa21ed079a02e3906b55ed793e27e36df9ee798a"
           }
         }
+      },
+      "DigiTech::GNX4": {
+        "model_key": "DigiTech::GNX4",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/d/digitech1-lk0FpsFhdGl7zfBfOA_x2nk16ZgtMRVe.jpg",
+            "source_url": "https://www.soundonsound.com/reviews/digitech-gnx4",
+            "caption": "DigiTech GNX4 — top panel",
+            "note": "Sound On Sound review photograph with illuminated green HYBRID display and status indicators. Angled top-panel view, not exact top-down; straight overhead replacement remains pending. Source is 700 × 470 pixels; no independent device operation by this audit.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "e9f546cc17916d3eca0142ab1a29f585a103dbf88147cdfadd02ca0170037424"
+          },
+          "rear": {
+            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/150848000000000-01-2000x2000.jpg",
+            "source_url": "https://www.guitarcenter.com/Open-Box/DigiTech/GNX4-Guitar-Multi-Effects-Pedal-Level-1-150848004000000.gc",
+            "caption": "DigiTech GNX4 — rear connections",
+            "note": "Clear retailer rear photograph shows guitar input, microphone input/level/pad/phantom, stereo line inputs, jack and XLR output sections with levels/compensation, ground lift, headphones, FOOTSWITCH, USB Type-B, card slot, MIDI IN/OUT, ON/OFF and power labeled 9VAC 2.1A. All sockets visible. Rear view alone does not establish operating power state.",
+            "visual_checked": true,
+            "sha256": "18ff8ad16e027c4cf9827ec3033fb2b35aea814680e320f97b623f1afa53411b"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::BP355"
+    "last_model": "DigiTech::GNX4"
   }
 }
