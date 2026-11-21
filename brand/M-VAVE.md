@@ -460,6 +460,31 @@ Historical2026-10-15 summary,retained separately from current comparison fields.
 
 ## CUBE BABY BASS
 
+<!-- firmware-pitch:M-VAVE::CUBE BABY BASS begins -->
+### Firmware and pitch audit — M-VAVE CUBE BABY BASS
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022-07 (manufacturer new-product demo proxy; first retail sale unknown). Manufacturer new-product unboxing/preset demo published July 29, 2022. Use July 2022 public introduction proxy, not a proven first worldwide sale day. August 5 new-functions video follows; electric/AC chronology not transferred. [launch 1](https://www.youtube.com/watch?v=X6nYVBPwvlU) |
+| Firmware / latest verification | Not verified — No public firmware located. Current manufacturer index explicitly lists CubeBabyBass for USB desktop CubeSuite but no separately dated/versioned Bass firmware release found. Exact indexed product download block lists CubeSuite only. Preset editing, IR import and factory reset do not establish a device-firmware changelog or current installed version. This is not proof of no internal firmware or permanent lack of update capability. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://www.m-vave.com/product?id=cube-baby-bass) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Own 26-page Bass manual lists boost, EQ, compressor, Chorus/Phaser, alternative Reverb/Delay SPACE and bass cabinet IR. No dedicated pitch shifter, octave, harmony or transpose established. Chorus, tuner note recognition and cabinet convolution do not establish polyphonic transpose. No electric TYPE amp selector or AC anti-feedback imported. [pitch 1](https://manuals.plus/m/4f3b9d5d9f5a73a68b2671d7dbac089ead3ced8c5603e9a86a69dc61bcbf1a9b.pdf) [pitch 2](https://www.m-vave.com/product?id=cube-baby-bass) |
+| Pitch / preset recall | Three editable factory-filled A/B/C locations; user save overwrites selected memory. PRESET VOLUME is final output; LIVE defaults final output to 80% while knob changes chain level; EDIT retains previous output. Grouped LIVE/EDIT controls A=IR, B=MOD+SPACE, C=COMP+EQ. No pitch presets or guaranteed spillover/gapless switching. SPACE selects delay OR reverb. |
+| Pitch / DSP resources | No isolated DSP percentage, resource-meter data or pitch tracking-latency measurement found. Six fixed processing stages are not freely assignable heavy blocks or a quantified resource budget. No pitch cost assigned without an established pitch-shift processor; no sibling percentages transferred. |
+| Pitch / qualifications | Model-specific manufacturer-authored 26-page bilingual PDF text reopened; cover/model and numbered controls/chain match Bass. No new visual-page or byte-equivalence claim. Earlier original manual/panel access history retained. Eight replaceable IR responses; physical selector Off plus eight. IR and preset resets are separate; 48kHz/24-bit general processing spec is not an IR file-format or USB transfer-format guarantee. Chinese manual previously explicitly supports operation while charging for Bass; not borrowed from electric. USB/small connector revision and exact pinout still require physical evidence. No device test, firmware/editor installation or IR overwrite. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Current M-VAVE firmware/software index](https://www.m-vave.com/download) — Desktop CubeSuite names CubeBabyBass; no separately dated Bass-device firmware entry located. (Complete current manufacturer index read as text).
+- [Exact manufacturer CUBE BABY BASS product record](https://www.m-vave.com/product?id=cube-baby-bass) — Bass library, eight custom bass cabinet IR slots and CubeSuite only in model download block. (Indexed manufacturer product body read).
+- [Original CUBE BABY BASS bilingual manual](https://manuals.plus/m/4f3b9d5d9f5a73a68b2671d7dbac089ead3ced8c5603e9a86a69dc61bcbf1a9b.pdf) — Own library and fixed chain, three memories, shared SPACE, mode-dependent volume and grouped switches. (26-page manufacturer-authored PDF read as text; no fresh visual-page claim).
+- [Manufacturer Bass new-product unboxing/presets](https://www.youtube.com/watch?v=X6nYVBPwvlU) — July 29, 2022 public introduction evidence, not exact first retail availability. (Manufacturer author/title/exact date verified in search-indexed description; direct fetch fails).
+
+<!-- firmware-pitch:M-VAVE::CUBE BABY BASS ends -->
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-15;PDF-text recheck2026-10-18.** The26-page Bass English/Chinese manual is now readable;matched title,controls andchain. No visual panel audit;unresolved fields remain partial. Historical transcription/access limitations are retained below.

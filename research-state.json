@@ -198130,6 +198130,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "M-VAVE::CUBE BABY BASS": {
+        "model_key": "M-VAVE::CUBE BABY BASS",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2022-07",
+          "precision": "month",
+          "kind": "manufacturer new-product demo proxy; first retail sale unknown",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=X6nYVBPwvlU"
+          ],
+          "note": "Manufacturer new-product unboxing/preset demo published July 29, 2022. Use July 2022 public introduction proxy, not a proven first worldwide sale day. August 5 new-functions video follows; electric/AC chronology not transferred."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.m-vave.com/download",
+            "https://www.m-vave.com/product?id=cube-baby-bass"
+          ],
+          "note": "Current manufacturer index explicitly lists CubeBabyBass for USB desktop CubeSuite but no separately dated/versioned Bass firmware release found. Exact indexed product download block lists CubeSuite only. Preset editing, IR import and factory reset do not establish a device-firmware changelog or current installed version. This is not proof of no internal firmware or permanent lack of update capability."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Own 26-page Bass manual lists boost, EQ, compressor, Chorus/Phaser, alternative Reverb/Delay SPACE and bass cabinet IR. No dedicated pitch shifter, octave, harmony or transpose established. Chorus, tuner note recognition and cabinet convolution do not establish polyphonic transpose. No electric TYPE amp selector or AC anti-feedback imported.",
+          "preset": "Three editable factory-filled A/B/C locations; user save overwrites selected memory. PRESET VOLUME is final output; LIVE defaults final output to 80% while knob changes chain level; EDIT retains previous output. Grouped LIVE/EDIT controls A=IR, B=MOD+SPACE, C=COMP+EQ. No pitch presets or guaranteed spillover/gapless switching. SPACE selects delay OR reverb.",
+          "dsp": "No isolated DSP percentage, resource-meter data or pitch tracking-latency measurement found. Six fixed processing stages are not freely assignable heavy blocks or a quantified resource budget. No pitch cost assigned without an established pitch-shift processor; no sibling percentages transferred.",
+          "source_urls": [
+            "https://manuals.plus/m/4f3b9d5d9f5a73a68b2671d7dbac089ead3ced8c5603e9a86a69dc61bcbf1a9b.pdf",
+            "https://www.m-vave.com/product?id=cube-baby-bass"
+          ],
+          "measurements": [],
+          "notes": [
+            "Model-specific manufacturer-authored 26-page bilingual PDF text reopened; cover/model and numbered controls/chain match Bass. No new visual-page or byte-equivalence claim. Earlier original manual/panel access history retained.",
+            "Eight replaceable IR responses; physical selector Off plus eight. IR and preset resets are separate; 48kHz/24-bit general processing spec is not an IR file-format or USB transfer-format guarantee.",
+            "Chinese manual previously explicitly supports operation while charging for Bass; not borrowed from electric. USB/small connector revision and exact pinout still require physical evidence. No device test, firmware/editor installation or IR overwrite."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.m-vave.com/download",
+            "title": "Current M-VAVE firmware/software index",
+            "access": "Complete current manufacturer index read as text",
+            "evidence": "Desktop CubeSuite names CubeBabyBass; no separately dated Bass-device firmware entry located."
+          },
+          {
+            "url": "https://www.m-vave.com/product?id=cube-baby-bass",
+            "title": "Exact manufacturer CUBE BABY BASS product record",
+            "access": "Indexed manufacturer product body read",
+            "evidence": "Bass library, eight custom bass cabinet IR slots and CubeSuite only in model download block."
+          },
+          {
+            "url": "https://manuals.plus/m/4f3b9d5d9f5a73a68b2671d7dbac089ead3ced8c5603e9a86a69dc61bcbf1a9b.pdf",
+            "title": "Original CUBE BABY BASS bilingual manual",
+            "access": "26-page manufacturer-authored PDF read as text; no fresh visual-page claim",
+            "evidence": "Own library and fixed chain, three memories, shared SPACE, mode-dependent volume and grouped switches."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=X6nYVBPwvlU",
+            "title": "Manufacturer Bass new-product unboxing/presets",
+            "access": "Manufacturer author/title/exact date verified in search-indexed description; direct fetch fails",
+            "evidence": "July 29, 2022 public introduction evidence, not exact first retail availability."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -198144,7 +198212,6 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "M-VAVE::CUBE BABY BASS",
       "MOD Audio::Duo",
       "Mosky::DC5",
       "Mosky::RC5",
@@ -198298,9 +198365,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 239,
-    "last_model": "M-VAVE::CUBE BABY AC",
-    "last_commit_parent": "952376febb9f5ffebf6ab8449bb6a30d7df175c8",
+    "completed_model_count": 240,
+    "last_model": "M-VAVE::CUBE BABY BASS",
+    "last_commit_parent": "f1b89a4895163b87625a4f4a5c6771b3b6837827",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -198314,7 +198381,6 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "M-VAVE::CUBE BABY BASS",
       "MOD Audio::Duo",
       "Mosky::DC5",
       "Mosky::RC5",
@@ -198467,7 +198533,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 239,
+    "pitch_completed_model_count": 240,
     "supplemental_model_count": 0
   },
   "model_images": {
