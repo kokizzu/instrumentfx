@@ -197708,11 +197708,35 @@
             "sha256": "d57a736d6f4234db681118d61d87d789258537a476da1bcbb665af53f19f7087"
           }
         }
+      },
+      "MOOER::GE150 Max": {
+        "model_key": "MOOER::GE150 Max",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE150_Max-01.png?v=1761185970&width=1946",
+            "source_url": "https://mooer.jp/products/mooer-ge150max",
+            "caption": "MOOER GE150 Max powered-on top view",
+            "note": "Straight overhead white standard GE150 Max, all eight footswitches and full expression pedal visible; lit 02A US Blues Clean screen, control indicators and coloured rings. Exact Max branding, not Pro or Max Li.",
+            "visual_checked": true,
+            "sha256": "0b37485256fce139f3e0f29ebe4826b1bb838b70af3ff72093202f9b3dcba096",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE150_Max-02.png?v=1761185969&width=1946",
+            "source_url": "https://mooer.jp/products/mooer-ge150max",
+            "caption": "MOOER GE150 Max rear ports",
+            "note": "Full straight rear view: AUX IN, INPUT, quarter-inch OUTPUT L (MONO)/R, XLR OUT L/R, LIFT/GND toggle, PHONES, USB-C marked OTG, rocker power and DC 9V 300mA center-negative marking. XLR connectors are outputs, not mic inputs. No FX loop, external EXP or dedicated physical MIDI connector shown.",
+            "visual_checked": true,
+            "sha256": "14465c97bfe685be7a29229beefbeb1e8dc6d6e159191702045fffb3f6fa52d1"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE150 Plus Li"
+    "last_model": "MOOER::GE150 Max"
   }
 }

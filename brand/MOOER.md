@@ -613,6 +613,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GE150 Max ends -->
 
+<!-- model-images:MOOER::GE150 Max begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GE150 Max powered-on top view**
+
+[![MOOER GE150 Max powered-on top view](https://mooer.jp/cdn/shop/files/GE150_Max-01.png?v=1761185970&width=1946)](https://mooer.jp/cdn/shop/files/GE150_Max-01.png?v=1761185970&width=1946)
+
+[Image source](https://mooer.jp/products/mooer-ge150max). Straight overhead white standard GE150 Max, all eight footswitches and full expression pedal visible; lit 02A US Blues Clean screen, control indicators and coloured rings. Exact Max branding, not Pro or Max Li.
+
+**MOOER GE150 Max rear ports**
+
+[![MOOER GE150 Max rear ports](https://mooer.jp/cdn/shop/files/GE150_Max-02.png?v=1761185969&width=1946)](https://mooer.jp/cdn/shop/files/GE150_Max-02.png?v=1761185969&width=1946)
+
+[Image source](https://mooer.jp/products/mooer-ge150max). Full straight rear view: AUX IN, INPUT, quarter-inch OUTPUT L (MONO)/R, XLR OUT L/R, LIFT/GND toggle, PHONES, USB-C marked OTG, rocker power and DC 9V 300mA center-negative marking. XLR connectors are outputs, not mic inputs. No FX loop, external EXP or dedicated physical MIDI connector shown.
+
+</details>
+<!-- model-images:MOOER::GE150 Max ends -->
+
+
 <!-- comparison evidence begins -->
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
