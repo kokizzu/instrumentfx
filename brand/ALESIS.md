@@ -398,6 +398,30 @@ High-impedance instrument input is explicit;right input/output for mono. No onbo
 
 ## NanoVerb
 
+<!-- firmware-pitch:Alesis::NanoVerb begins -->
+### Firmware and pitch audit — Alesis NanoVerb
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Original NanoVerb, not NanoVerb2. Exact first hardware release date not established by these manufacturer manuscripts. Document/copyright/service-manual dates are not hardware launch dates. [launch 1](https://www.uns.nu/pdf/Alesis_Nanoverb_Reverb.pdf) [launch 2](https://www.scribd.com/document/451600353/alesis-nanoverb-service-manual-pdf) |
+| Firmware / latest verification | 1.01 — Located; latest status unverified. Manufacturer service-manual section14.20 NV History lists1.00 first production and1.01 fixing power-up bypass when Plate1 selected. Individual revision dates absent from readable table;01/03/97 is the manual footer, not assigned to firmware. Later/current latest status unresolved. Adjacent C4 history applies to MicroVerb IV, not NanoVerb. [firmware 1](https://www.scribd.com/document/451600353/alesis-nanoverb-service-manual-pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Original manual16-program inventory has reverbs,chorus,flange,rotary,chorus/room combinations anddelay; no dedicated fixed-semitone pitch-shifter documented. Pitch-Based Parameter Adjust describes modulation speed, not a chromatic transposer or proven polyphonic capo. [pitch 1](https://www.uns.nu/pdf/Alesis_Nanoverb_Reverb.pdf) |
+| Pitch / preset recall | Sixteen fixed programs selected by hand. ADJUST is always live and newly selected programs read its physical position; no writable pitch preset or user-save procedure established. |
+| Pitch / DSP resources | No pitch-shifter DSP percentage applicable to a documented algorithm. Fixed combinations can contain multiple effects; this is not freely allocatable pitch blocks. Manual specifies3MIPS total processing, which is neither pitch-block CPU cost nor comparable to a displayed percentage. |
+| Pitch / qualifications | No documented pitch algorithm is scoped to the original manual, not proof covering every ROM/hardware revision. Do not substitute NanoVerb2 functions. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Original Alesis NanoVerb Reference Manual](https://www.uns.nu/pdf/Alesis_Nanoverb_Reverb.pdf) — Original cover,16 programs;pp9/26 live ADJUST behavior;pp21-24 effect inventory;specifications3MIPS. No dedicated interval pitch shifter documented. (manufacturer_manuscript_on_public_mirror; text_only).
+- [Alesis MicroVerb IV/NanoVerb service manuscript](https://www.scribd.com/document/451600353/alesis-nanoverb-service-manual-pdf) — Section14.20 NV software history:1.00 production and1.01 Plate1 startup-bypass fix; no per-revision dates. Manual dates not promoted to firmware dates. (manufacturer_manuscript_OCR_on_public_mirror).
+- [Matching NanoVerb service PDF mirror](https://www.synthxl.com/wp-content/uploads/2020/03/alesis-nanoverb-service-manual.pdf) — 38-page PDF found, but rendered pages unavailable; software-history claims use readable manuscript OCR at separate source, not unseen PDF images. (PDF_url_identified; text_empty; screenshot_cache_miss).
+
+<!-- firmware-pitch:Alesis::NanoVerb ends -->
+
 Checked 2026-10-18; partial. Original NanoVerb profile, distinct from NanoVerb 2. Seller revision and ownership unverified.
 
 Manufacturer-authored Reference Manual on [UNS mirror][NV-M]: ALESIS/NanoVerb cover, five-control inventory and 16-program chapter match the [second reproduction][NV-I]. Exact edition/date unprinted in retrieved cover. Official product URLs failed access; generated mirror descriptions are not specification evidence. Web text only; no files downloaded or visual inspection.

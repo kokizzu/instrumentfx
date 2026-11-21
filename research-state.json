@@ -180286,10 +180286,68 @@
           "label": "1.04 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Alesis::NanoVerb": {
+        "model_key": "Alesis::NanoVerb",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.uns.nu/pdf/Alesis_Nanoverb_Reverb.pdf",
+            "https://www.scribd.com/document/451600353/alesis-nanoverb-service-manual-pdf"
+          ],
+          "note": "Original NanoVerb, not NanoVerb2. Exact first hardware release date not established by these manufacturer manuscripts. Document/copyright/service-manual dates are not hardware launch dates."
+        },
+        "firmware": {
+          "version": "1.01",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.scribd.com/document/451600353/alesis-nanoverb-service-manual-pdf"
+          ],
+          "note": "Manufacturer service-manual section14.20 NV History lists1.00 first production and1.01 fixing power-up bypass when Plate1 selected. Individual revision dates absent from readable table;01/03/97 is the manual footer, not assigned to firmware. Later/current latest status unresolved. Adjacent C4 history applies to MicroVerb IV, not NanoVerb."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Original manual16-program inventory has reverbs,chorus,flange,rotary,chorus/room combinations anddelay; no dedicated fixed-semitone pitch-shifter documented. Pitch-Based Parameter Adjust describes modulation speed, not a chromatic transposer or proven polyphonic capo.",
+          "preset": "Sixteen fixed programs selected by hand. ADJUST is always live and newly selected programs read its physical position; no writable pitch preset or user-save procedure established.",
+          "dsp": "No pitch-shifter DSP percentage applicable to a documented algorithm. Fixed combinations can contain multiple effects; this is not freely allocatable pitch blocks. Manual specifies3MIPS total processing, which is neither pitch-block CPU cost nor comparable to a displayed percentage.",
+          "source_urls": [
+            "https://www.uns.nu/pdf/Alesis_Nanoverb_Reverb.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No documented pitch algorithm is scoped to the original manual, not proof covering every ROM/hardware revision. Do not substitute NanoVerb2 functions."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.uns.nu/pdf/Alesis_Nanoverb_Reverb.pdf",
+            "title": "Original Alesis NanoVerb Reference Manual",
+            "access": "manufacturer_manuscript_on_public_mirror; text_only",
+            "evidence": "Original cover,16 programs;pp9/26 live ADJUST behavior;pp21-24 effect inventory;specifications3MIPS. No dedicated interval pitch shifter documented."
+          },
+          {
+            "url": "https://www.scribd.com/document/451600353/alesis-nanoverb-service-manual-pdf",
+            "title": "Alesis MicroVerb IV/NanoVerb service manuscript",
+            "access": "manufacturer_manuscript_OCR_on_public_mirror",
+            "evidence": "Section14.20 NV software history:1.00 production and1.01 Plate1 startup-bypass fix; no per-revision dates. Manual dates not promoted to firmware dates."
+          },
+          {
+            "url": "https://www.synthxl.com/wp-content/uploads/2020/03/alesis-nanoverb-service-manual.pdf",
+            "title": "Matching NanoVerb service PDF mirror",
+            "access": "PDF_url_identified; text_empty; screenshot_cache_miss",
+            "evidence": "38-page PDF found, but rendered pages unavailable; software-history claims use readable manuscript OCR at separate source, not unseen PDF images."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Alesis::NanoVerb",
       "Ammoon::PockRock",
       "Audota::ACE-100",
       "Audota::AME-100",
@@ -180683,12 +180741,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 10,
-    "last_model": "Alesis::MIDIverb III",
-    "last_commit_parent": "84797e4a537dc79c1da74b4397271c133960e49c",
+    "completed_model_count": 11,
+    "last_model": "Alesis::NanoVerb",
+    "last_commit_parent": "9e7caaf7365dafd453beb959161c13c270abb89f",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Alesis::NanoVerb",
       "Ammoon::PockRock",
       "Audota::ACE-100",
       "Audota::AME-100",
@@ -181081,7 +181138,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 10,
+    "pitch_completed_model_count": 11,
     "supplemental_model_count": 0
   }
 }
