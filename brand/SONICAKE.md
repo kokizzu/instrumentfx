@@ -1135,6 +1135,30 @@ Explicit touch capability, retailer condition/stock confirmation, dependable use
 
 ## Sonic Wood QCE-50
 
+<!-- firmware-pitch:Sonicake::Sonic Wood QCE-50 begins -->
+### Firmware and pitch audit — Sonicake Sonic Wood QCE-50
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No dated first introduction or on-sale evidence established in checked exact-model sources. Product-image timestamps are not hardware release dates. [launch 1](https://www.sonicake.com/products/sonic-wood) |
+| Firmware / latest verification | Not verified — No public firmware located. No QCE-50 firmware package,updater or version history found on checked global/regional product and download pages. Fixed-function design does not establish that internal digital processing has no firmware; no hardware update performed. [firmware 1](https://www.sonicake.com/products/sonic-wood) [firmware 2](https://www.hotone.jp/brands/sonicake/products/sonic-wood) [firmware 3](https://www.sonicake.com/pages/download) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Official complete four-stage description names preamp,chorus,delay andreverb,with taptempo/tails. No transpose,octaver,harmonizer or other selectable pitch-shifting algorithm documented. Chorus modulation is not evidence of a separately configurable pitch shifter. [pitch 1](https://www.sonicake.com/products/sonic-wood) [pitch 2](https://www.hotone.jp/brands/sonicake/products/sonic-wood) |
+| Pitch / preset recall | No addressable preset bank documented; physical knobs and separate stage footswitches. Pitch preset recall is not applicable to the documented effect set. Do not invent a factory/user memory split. |
+| Pitch / DSP resources | No pitch DSP percentage or resource measurement applies to the documented effect set. Fixed four-stage design is not a four-slot configurable pitch host. Manufacturer explicitly describes digitally implemented analog-voiced delay; all-analog claims are unsupported. |
+| Pitch / qualifications | Unknown firmware accessibility remains distinct from no public firmware located. Existing dimension-axis/height conflicts and headphone-use prohibition retained. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Sonic Wood global product/FAQ](https://www.sonicake.com/products/sonic-wood) — Four fixed stages,digitaldelay,tap/tails;no pitch or updater listed. (Manufacturer/distributor source checked2026-11-22).
+- [Sonic Wood regional product](https://www.hotone.jp/brands/sonicake/products/sonic-wood) — MatchingQCE50 fourstage architecture;no dated firmware or launch listing. (Manufacturer/distributor source checked2026-11-22).
+- [Sonicake download index](https://www.sonicake.com/pages/download) — NoSonicWood firmware entry among listed download families. (Manufacturer/distributor source checked2026-11-22).
+
+<!-- firmware-pitch:Sonicake::Sonic Wood QCE-50 ends -->
+
 **New profile2026-10-15. Acoustic-instrument multi-effects.** Its four independent stages qualify;it is not classified as an electric-to-acoustic simulator merely because it is for acoustic guitar.
 
 | Required field | Primary finding / explicit gap |

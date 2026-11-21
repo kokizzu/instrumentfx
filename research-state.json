@@ -198903,6 +198903,67 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Sonicake::Sonic Wood QCE-50": {
+        "model_key": "Sonicake::Sonic Wood QCE-50",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.sonicake.com/products/sonic-wood"
+          ],
+          "note": "No dated first introduction or on-sale evidence established in checked exact-model sources. Product-image timestamps are not hardware release dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.sonicake.com/products/sonic-wood",
+            "https://www.hotone.jp/brands/sonicake/products/sonic-wood",
+            "https://www.sonicake.com/pages/download"
+          ],
+          "note": "No QCE-50 firmware package,updater or version history found on checked global/regional product and download pages. Fixed-function design does not establish that internal digital processing has no firmware; no hardware update performed."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Official complete four-stage description names preamp,chorus,delay andreverb,with taptempo/tails. No transpose,octaver,harmonizer or other selectable pitch-shifting algorithm documented. Chorus modulation is not evidence of a separately configurable pitch shifter.",
+          "preset": "No addressable preset bank documented; physical knobs and separate stage footswitches. Pitch preset recall is not applicable to the documented effect set. Do not invent a factory/user memory split.",
+          "dsp": "No pitch DSP percentage or resource measurement applies to the documented effect set. Fixed four-stage design is not a four-slot configurable pitch host. Manufacturer explicitly describes digitally implemented analog-voiced delay; all-analog claims are unsupported.",
+          "source_urls": [
+            "https://www.sonicake.com/products/sonic-wood",
+            "https://www.hotone.jp/brands/sonicake/products/sonic-wood"
+          ],
+          "measurements": [],
+          "notes": [
+            "Unknown firmware accessibility remains distinct from no public firmware located. Existing dimension-axis/height conflicts and headphone-use prohibition retained."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sonicake.com/products/sonic-wood",
+            "title": "Sonic Wood global product/FAQ",
+            "access": "Manufacturer/distributor source checked2026-11-22",
+            "evidence": "Four fixed stages,digitaldelay,tap/tails;no pitch or updater listed."
+          },
+          {
+            "url": "https://www.hotone.jp/brands/sonicake/products/sonic-wood",
+            "title": "Sonic Wood regional product",
+            "access": "Manufacturer/distributor source checked2026-11-22",
+            "evidence": "MatchingQCE50 fourstage architecture;no dated firmware or launch listing."
+          },
+          {
+            "url": "https://www.sonicake.com/pages/download",
+            "title": "Sonicake download index",
+            "access": "Manufacturer/distributor source checked2026-11-22",
+            "evidence": "NoSonicWood firmware entry among listed download families."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -198928,7 +198989,6 @@
       "Sonicake::Black Hammer QCE-30",
       "Sonicake::Levitate QDS-02",
       "Sonicake::RockStage QCE-10",
-      "Sonicake::Sonic Wood QCE-50",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
@@ -199060,9 +199120,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 250,
-    "last_model": "Sonicake::Matribox II Pro QME-200",
-    "last_commit_parent": "a362c6cc32a1442479b41a557ecc9c2458eeccd7",
+    "completed_model_count": 251,
+    "last_model": "Sonicake::Sonic Wood QCE-50",
+    "last_commit_parent": "64de4ba9efede7591c86fb59d705db119d6780a5",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -199087,7 +199147,6 @@
       "Sonicake::Black Hammer QCE-30",
       "Sonicake::Levitate QDS-02",
       "Sonicake::RockStage QCE-10",
-      "Sonicake::Sonic Wood QCE-50",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
@@ -199218,7 +199277,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 250,
+    "pitch_completed_model_count": 251,
     "supplemental_model_count": 0
   },
   "model_images": {
