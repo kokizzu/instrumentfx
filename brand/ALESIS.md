@@ -325,6 +325,30 @@ Utility pp25–26,46 document three switch roles:Advance,Bypass,Control(tap/Lezl
 
 ## MIDIverb III
 
+<!-- firmware-pitch:Alesis::MIDIverb III begins -->
+### Firmware and pitch audit — Alesis MIDIverb III
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1989-10-09 (first production firmware proxy). Manufacturer service manual8-31-0014-A section8 dates first production firmware1.00 October9,1989. Used explicitly as a production-firmware proxy; exact first customer hardware shipment/announcement is unresolved. [launch 1](https://www.pedalboard.org/images/archiv/vintage_effects/Alesis_Midiverb_3_1.pdf) |
+| Firmware / latest verification | 1.01 — Located; latest status unverified. Last row in the checked original service software-history table is1.01,October25,1990,fixing SysEx dump-request handling. Current manufacturer release history not located; later revisions remain possible. No firmware installed or ROM replaced. [firmware 1](https://www.pedalboard.org/images/archiv/vintage_effects/Alesis_Midiverb_3_1.pdf) [firmware 2](https://www.alesis.com/products/browse/category/legacy.html) |
+| Firmware / release date | 1990-10-25 (day precision) |
+| Firmware / release-to-update duration | 1.04 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No dedicated fixed-interval pitch-shifter algorithm documented in checked reference-manual effects/configuration inventory: delay,reverb,chorus/flanging,EQ. Chorus modulates pitch for thickening; MIDI pitch-bend is a control source, not proof of semitone/chord transposition. [pitch 1](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf) |
+| Pitch / preset recall | Programs can be saved to user100-199 using STORE and VALUE; factory000-099 protected. This stores effect/modulation settings, not a documented pitch-transposition preset. |
+| Pitch / DSP resources | No pitch-shift DSP percentage applicable to a documented algorithm here. Architecture supports up to four effect families in fifteen predefined configurations; nine/four/three-block figures from other Alesis models must not be transferred. No general per-algorithm CPU meter/cost found. |
+| Pitch / qualifications | No dedicated pitch algorithm documented is narrower than proof that every hardware/ROM revision lacks one. Chorus,flanging and MIDI pitch-wheel modulation remain distinct. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Alesis MidiVerb3 M3 service manual8-31-0014-A](https://www.pedalboard.org/images/archiv/vintage_effects/Alesis_Midiverb_3_1.pdf) — Section8 PDFp13 lists first production1.00 10/9/89 and1.01 10/25/90; latest status beyond this historical table unresolved. (manufacturer_manuscript_on_public_mirror; text_only).
+- [Alesis MidiVerb3 original Reference Manual](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf) — Exact model cover; effects/configuration inventory, chorus pitch-modulation explanation and STORE instructions; MIDI pitch wheel controls parameters. (manufacturer_manuscript_on_public_mirror; text_only).
+- [Alesis current legacy catalog](https://www.alesis.com/products/browse/category/legacy.html) — No exact MIDIverbIII firmware package/history established in this legacy catalog; not evidence of no later service-ROM revisions. (opened).
+
+<!-- firmware-pitch:Alesis::MIDIverb III ends -->
+
 <!-- comparison evidence begins -->
 Checked2026-10-17. Partial instrument/microphone multi-effects;not MIDIverb4. [Manufacturer Reference Manual onmirror](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf),63pages,exact Alesis MidiVerb3 title;revision/date unestablished. Official oldmanualURL inaccessible;webtext only,no download/visualaudit.
 

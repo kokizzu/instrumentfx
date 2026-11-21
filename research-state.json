@@ -180223,10 +180223,72 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Alesis::MIDIverb III": {
+        "model_key": "Alesis::MIDIverb III",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "1989-10-09",
+          "precision": "day",
+          "kind": "first_production_firmware_proxy",
+          "source_urls": [
+            "https://www.pedalboard.org/images/archiv/vintage_effects/Alesis_Midiverb_3_1.pdf"
+          ],
+          "note": "Manufacturer service manual8-31-0014-A section8 dates first production firmware1.00 October9,1989. Used explicitly as a production-firmware proxy; exact first customer hardware shipment/announcement is unresolved."
+        },
+        "firmware": {
+          "version": "1.01",
+          "date": "1990-10-25",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.pedalboard.org/images/archiv/vintage_effects/Alesis_Midiverb_3_1.pdf",
+            "https://www.alesis.com/products/browse/category/legacy.html"
+          ],
+          "note": "Last row in the checked original service software-history table is1.01,October25,1990,fixing SysEx dump-request handling. Current manufacturer release history not located; later revisions remain possible. No firmware installed or ROM replaced."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No dedicated fixed-interval pitch-shifter algorithm documented in checked reference-manual effects/configuration inventory: delay,reverb,chorus/flanging,EQ. Chorus modulates pitch for thickening; MIDI pitch-bend is a control source, not proof of semitone/chord transposition.",
+          "preset": "Programs can be saved to user100-199 using STORE and VALUE; factory000-099 protected. This stores effect/modulation settings, not a documented pitch-transposition preset.",
+          "dsp": "No pitch-shift DSP percentage applicable to a documented algorithm here. Architecture supports up to four effect families in fifteen predefined configurations; nine/four/three-block figures from other Alesis models must not be transferred. No general per-algorithm CPU meter/cost found.",
+          "source_urls": [
+            "https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No dedicated pitch algorithm documented is narrower than proof that every hardware/ROM revision lacks one. Chorus,flanging and MIDI pitch-wheel modulation remain distinct."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.pedalboard.org/images/archiv/vintage_effects/Alesis_Midiverb_3_1.pdf",
+            "title": "Alesis MidiVerb3 M3 service manual8-31-0014-A",
+            "access": "manufacturer_manuscript_on_public_mirror; text_only",
+            "evidence": "Section8 PDFp13 lists first production1.00 10/9/89 and1.01 10/25/90; latest status beyond this historical table unresolved."
+          },
+          {
+            "url": "https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf",
+            "title": "Alesis MidiVerb3 original Reference Manual",
+            "access": "manufacturer_manuscript_on_public_mirror; text_only",
+            "evidence": "Exact model cover; effects/configuration inventory, chorus pitch-modulation explanation and STORE instructions; MIDI pitch wheel controls parameters."
+          },
+          {
+            "url": "https://www.alesis.com/products/browse/category/legacy.html",
+            "title": "Alesis current legacy catalog",
+            "access": "opened",
+            "evidence": "No exact MIDIverbIII firmware package/history established in this legacy catalog; not evidence of no later service-ROM revisions."
+          }
+        ],
+        "duration": {
+          "minimum_days": 381,
+          "maximum_days": 381,
+          "label": "1.04 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Alesis::MIDIverb III",
       "Alesis::NanoVerb",
       "Ammoon::PockRock",
       "Audota::ACE-100",
@@ -180621,12 +180683,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 9,
-    "last_model": "Alesis::MIDIverb 4",
-    "last_commit_parent": "27d23b604f3b9b1f2cd50d3f6b62eff382a66772",
+    "completed_model_count": 10,
+    "last_model": "Alesis::MIDIverb III",
+    "last_commit_parent": "84797e4a537dc79c1da74b4397271c133960e49c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Alesis::MIDIverb III",
       "Alesis::NanoVerb",
       "Ammoon::PockRock",
       "Audota::ACE-100",
@@ -181020,7 +181081,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 9,
+    "pitch_completed_model_count": 10,
     "supplemental_model_count": 0
   }
 }
