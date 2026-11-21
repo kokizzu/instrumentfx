@@ -536,6 +536,22 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP55 ends -->
 
+<!-- model-images:DigiTech::RP55 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Top view:** not yet verified.
+
+**RP55 rear ports**
+
+[![RP55 rear ports](https://static.sonovente.com/img/library/zoom/59/450/59665_3.jpg)](https://static.sonovente.com/img/library/zoom/59/450/59665_3.jpg)
+
+[Image source](https://www.sonovente.com/en-gb/digitech-rp55-p59665.html). Visually inspected: RP55 rear INPUT, OUTPUT, CONTROL IN and 9VDC sockets; powered-on top-down photograph remains pending.
+
+</details>
+<!-- model-images:DigiTech::RP55 ends -->
+
+
 Checked 2026-10-18;partial. [Own manual](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf),18-0838V-A,28 PDF pages (M);[product](https://digitech.com/dp/rp55/) (P). Browser text only.
 
 <!-- comparison evidence begins -->

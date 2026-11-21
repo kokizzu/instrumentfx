@@ -186622,11 +186622,26 @@
             "sha256": "c35224ce10d9802a1cf15096cb21cdc8590831bb64cc72822da4c0b98a56ad7e"
           }
         }
+      },
+      "DigiTech::RP55": {
+        "model_key": "DigiTech::RP55",
+        "checked_date": "2026-11-21",
+        "views": {
+          "rear": {
+            "image_url": "https://static.sonovente.com/img/library/zoom/59/450/59665_3.jpg",
+            "source_url": "https://www.sonovente.com/en-gb/digitech-rp55-p59665.html",
+            "caption": "RP55 rear ports",
+            "note": "Visually inspected: RP55 rear INPUT, OUTPUT, CONTROL IN and 9VDC sockets; powered-on top-down photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "83e2c0448f551d904dac3edfff18662f9c378592ae40dcb33fb196e1e5127cd4"
+          }
+        },
+        "pending_top": "Powered-on top-down image not yet verified; inspected Audiofanzine candidate had unlit display."
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP500"
+    "last_model": "DigiTech::RP55"
   }
 }
