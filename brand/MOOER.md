@@ -2483,6 +2483,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GE300 Lite ends -->
 
+<!-- model-images:MOOER::GE300 Lite begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GE300 Lite — powered-on top view**
+
+[![MOOER GE300 Lite — powered-on top view](https://r2.gear4music.com/media/142/1425984/1200/preview.jpg)](https://r2.gear4music.com/media/142/1425984/1200/preview.jpg)
+
+[Image source](https://www.gear4music.com/Guitar-and-Bass/Mooer-GE300-LITE-Multi-Effects-Pedal/8E2A). Complete GE300 Lite from near overhead with slight perspective; illuminated LCD shows 21B Outer Space, with lit effect buttons and footswitch rings. All eight footswitches visible; compact Lite chassis with no built-in expression pedal.
+
+**MOOER GE300 Lite — rear connections**
+
+[![MOOER GE300 Lite — rear connections](https://r2.gear4music.com/media/142/1425983/1200/preview.jpg)](https://r2.gear4music.com/media/142/1425983/1200/preview.jpg)
+
+[Image source](https://www.gear4music.com/Guitar-and-Bass/Mooer-GE300-LITE-Multi-Effects-Pedal/8E2A). Full rear panel with readable AUX IN, instrument input and guitar/line switch, EXP1/EXP2, send/return, stereo jack outputs, headphones, stereo XLR and ground lift, shared MIDI IN/OUT, USB Type-B, power switch and DC 9 V 2 A input. Exact GE300 Lite chassis.
+
+</details>
+<!-- model-images:MOOER::GE300 Lite ends -->
+
+
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.
 
 <!-- comparison evidence begins -->

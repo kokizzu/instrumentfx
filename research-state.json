@@ -196269,11 +196269,35 @@
             "sha256": "8454fb5226db3122ce2631c3806a739075c6967a45115a8c7bc4bdd05527211d"
           }
         }
+      },
+      "MOOER::GE300 Lite": {
+        "model_key": "MOOER::GE300 Lite",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://r2.gear4music.com/media/142/1425984/1200/preview.jpg",
+            "source_url": "https://www.gear4music.com/Guitar-and-Bass/Mooer-GE300-LITE-Multi-Effects-Pedal/8E2A",
+            "caption": "MOOER GE300 Lite — powered-on top view",
+            "note": "Complete GE300 Lite from near overhead with slight perspective; illuminated LCD shows 21B Outer Space, with lit effect buttons and footswitch rings. All eight footswitches visible; compact Lite chassis with no built-in expression pedal.",
+            "visual_checked": true,
+            "sha256": "21805482800bdde4542aa3c35d2420aa7a27b3f442a6352cd9ed0e3bd92b46a1",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://r2.gear4music.com/media/142/1425983/1200/preview.jpg",
+            "source_url": "https://www.gear4music.com/Guitar-and-Bass/Mooer-GE300-LITE-Multi-Effects-Pedal/8E2A",
+            "caption": "MOOER GE300 Lite — rear connections",
+            "note": "Full rear panel with readable AUX IN, instrument input and guitar/line switch, EXP1/EXP2, send/return, stereo jack outputs, headphones, stereo XLR and ground lift, shared MIDI IN/OUT, USB Type-B, power switch and DC 9 V 2 A input. Exact GE300 Lite chassis.",
+            "visual_checked": true,
+            "sha256": "518f914b3b8eb77c3222a5f0a166c6caad3d7ddcfa30f0936823a970a6967051"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE300"
+    "last_model": "MOOER::GE300 Lite"
   }
 }
