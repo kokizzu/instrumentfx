@@ -4321,6 +4321,30 @@ Remaining: physical panel image count; exact power label; all category/fixed-blo
 
 ## POD XT Live
 
+<!-- firmware-pitch:Line 6::POD XT Live begins -->
+### Firmware and pitch audit — Line 6 POD XT Live
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2004-09 (manufacturer announcement proxy). Official launch press release says September --, 2004. Month-precision announcement proxy; do not infer September 1 from filename or exact first shipment. [launch 1](https://line6.com/data/l/c0a8090b161ca41c1c7ef16e74/application/pdf/Line6PressRelease_2004-09-01.pdf) |
+| Firmware / latest verification | 3.01 — Latest verified. Current exact-PODxt-Live Flash Memory archive lists 3.01 first, April 20, 2006. Adds amp/stomp/wah models and supports optional Bass Expansion; not proof any pack is licensed/installed. USB firmware/editor/updater versions are separate. No update installed. [firmware 1](https://line6.com/software/index.html?hardware=PODxt+Live&name=Flash+Memory&submit_form=set) |
+| Firmware / release date | 2006-04-20 (day precision) |
+| Firmware / release-to-update duration | 1.55–1.63 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Own v3 Rev C chart lists Bender and Sub Octaves under Stomps; also octave fuzz and pitch-generating synth choices. No explicit polyphonic chord-transpose guarantee located. Model-pack/installed-library availability remains qualified. [pitch 1](https://l6c-acdn2.line6.net/data/6/0a060b316ac34f0593d2ca219/application/pdf/PODxt%20Live%20Manual%20-%20Version%203%20%28%20Rev%20C%20%29.pdf) |
+| Pitch / preset recall | 128 channel memories (32×4) store amp/effect selections and settings. No physical pitch recall test. |
+| Pitch / DSP resources | Bender/Sub Octaves use the Stomp selection alongside distortion/compression/filter alternatives; Mod, Delay, Reverb and dedicated functions are separate sections. No per-pitch CPU percentage or measured remaining DSP located; do not transfer HD500/Helix budgets. |
+| Pitch / qualifications | No tracking, latency or DSP measurement. Model chart and firmware compatibility do not certify the contents or licences of an individual unit. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 PODxt Live launch press release](https://line6.com/data/l/c0a8090b161ca41c1c7ef16e74/application/pdf/Line6PressRelease_2004-09-01.pdf) — September 2004 announcement; printed day left blank despite dated filename. (Manufacturer two-page PDF read).
+- [PODxt Live exact Flash Memory archive](https://line6.com/software/index.html?hardware=PODxt+Live&name=Flash+Memory&submit_form=set) — Newest 3.01 April 20, 2006; earlier 2.14 December 17, 2004 separately listed. (Direct manufacturer HTML read; SHA256 fe7c262bf6207dda8eca74da6032c79cd64f6daa97b47017537639e6a4b983cd).
+- [PODxt Live v3 Pilot Handbook Rev C](https://l6c-acdn2.line6.net/data/6/0a060b316ac34f0593d2ca219/application/pdf/PODxt%20Live%20Manual%20-%20Version%203%20%28%20Rev%20C%20%29.pdf) — Stomps chart includes Bender/Sub Octaves; fixed effect sections and stored channel settings; no explicit polyphony/CPU percentage located. (Manufacturer 146-page PDF text read).
+
+<!-- firmware-pitch:Line 6::POD XT Live ends -->
+
 Checked **2026-10-18**; partial. Manufacturer styles the name PODxt Live. Guitar floor processor, distinct from Bass PODxt Live, desktop PODxt, rack PODxt Pro and POD X3 Live. Included in guitar and **conditional bass** comparisons: the optional authorized Bass Expansion pack is documented for this hardware; its presence in a particular used unit is unknown. No vocal membership established.
 
 <!-- comparison evidence begins -->

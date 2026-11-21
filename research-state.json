@@ -178521,8 +178521,8 @@
       30,
       30
     ],
-    "index_url": "https://line6.com/company/images/?families=57",
-    "index_needle": "X3",
+    "index_url": "https://line6.com/software/index.html?hardware=PODxt+Live&name=Flash+Memory&submit_form=set",
+    "index_needle": "Released",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -190798,6 +190798,68 @@
           "label": "2.70 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::POD XT Live": {
+        "model_key": "Line 6::POD XT Live",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2004-09",
+          "precision": "month",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://line6.com/data/l/c0a8090b161ca41c1c7ef16e74/application/pdf/Line6PressRelease_2004-09-01.pdf"
+          ],
+          "note": "Official launch press release says September --, 2004. Month-precision announcement proxy; do not infer September 1 from filename or exact first shipment."
+        },
+        "firmware": {
+          "version": "3.01",
+          "date": "2006-04-20",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=PODxt+Live&name=Flash+Memory&submit_form=set"
+          ],
+          "note": "Current exact-PODxt-Live Flash Memory archive lists 3.01 first, April 20, 2006. Adds amp/stomp/wah models and supports optional Bass Expansion; not proof any pack is licensed/installed. USB firmware/editor/updater versions are separate. No update installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Own v3 Rev C chart lists Bender and Sub Octaves under Stomps; also octave fuzz and pitch-generating synth choices. No explicit polyphonic chord-transpose guarantee located. Model-pack/installed-library availability remains qualified.",
+          "preset": "128 channel memories (32×4) store amp/effect selections and settings. No physical pitch recall test.",
+          "dsp": "Bender/Sub Octaves use the Stomp selection alongside distortion/compression/filter alternatives; Mod, Delay, Reverb and dedicated functions are separate sections. No per-pitch CPU percentage or measured remaining DSP located; do not transfer HD500/Helix budgets.",
+          "source_urls": [
+            "https://l6c-acdn2.line6.net/data/6/0a060b316ac34f0593d2ca219/application/pdf/PODxt%20Live%20Manual%20-%20Version%203%20%28%20Rev%20C%20%29.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No tracking, latency or DSP measurement. Model chart and firmware compatibility do not certify the contents or licences of an individual unit."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://line6.com/data/l/c0a8090b161ca41c1c7ef16e74/application/pdf/Line6PressRelease_2004-09-01.pdf",
+            "title": "Line 6 PODxt Live launch press release",
+            "access": "Manufacturer two-page PDF read",
+            "evidence": "September 2004 announcement; printed day left blank despite dated filename."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=PODxt+Live&name=Flash+Memory&submit_form=set",
+            "title": "PODxt Live exact Flash Memory archive",
+            "access": "Direct manufacturer HTML read; SHA256 fe7c262bf6207dda8eca74da6032c79cd64f6daa97b47017537639e6a4b983cd",
+            "evidence": "Newest 3.01 April 20, 2006; earlier 2.14 December 17, 2004 separately listed."
+          },
+          {
+            "url": "https://l6c-acdn2.line6.net/data/6/0a060b316ac34f0593d2ca219/application/pdf/PODxt%20Live%20Manual%20-%20Version%203%20%28%20Rev%20C%20%29.pdf",
+            "title": "PODxt Live v3 Pilot Handbook Rev C",
+            "access": "Manufacturer 146-page PDF text read",
+            "evidence": "Stomps chart includes Bender/Sub Octaves; fixed effect sections and stored channel settings; no explicit polyphony/CPU percentage located."
+          }
+        ],
+        "duration": {
+          "minimum_days": 567,
+          "maximum_days": 596,
+          "label": "1.55–1.63 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190838,7 +190900,6 @@
       "Lexicon::MX400",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::M13",
-      "Line 6::POD XT Live",
       "M-VAVE::ANN Blackbox",
       "M-VAVE::CUBE BABY AC",
       "M-VAVE::CUBE BABY BASS",
@@ -191054,9 +191115,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 151,
-    "last_model": "Line 6::POD X3 Live",
-    "last_commit_parent": "80a5bbed614f99bf31595b0db01d4c40cdf4026d",
+    "completed_model_count": 152,
+    "last_model": "Line 6::POD XT Live",
+    "last_commit_parent": "7e773fa21490857f94858eb237b5afc92fa4873b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -191096,7 +191157,6 @@
       "Lexicon::MX400",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::M13",
-      "Line 6::POD XT Live",
       "M-VAVE::ANN Blackbox",
       "M-VAVE::CUBE BABY AC",
       "M-VAVE::CUBE BABY BASS",
@@ -191311,7 +191371,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 151,
+    "pitch_completed_model_count": 152,
     "supplemental_model_count": 0
   },
   "model_images": {
