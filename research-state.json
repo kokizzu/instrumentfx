@@ -186398,10 +186398,82 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Donner::Arena2000": {
+        "model_key": "Donner::Arena2000",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2022",
+          "precision": "year",
+          "kind": "manufacturer launch year",
+          "source_urls": [
+            "https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal"
+          ],
+          "note": "Manufacturer specification explicitly gives 2022 launch; exact month/day unverified. Manual filename is not used as launch date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://eu.donnermusic.com/pages/download",
+            "https://drive.google.com/file/d/1HotOSFOmBnq_7ycy6zelK8ese-85dCf7/view?ths=true",
+            "https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf"
+          ],
+          "note": "Update via Donner Control is documented, but no authenticated current pedal-firmware version/date or changelog found. Generic Donner Control v1.4.5 and linked Donner Control Setup V1.0.1.exe are editor versions, not pedal firmware. No elapsed update span calculable."
+        },
+        "pitch": {
+          "status": "unverified",
+          "algorithms": "Original operating manual lacks a complete algorithm list. Pitch/Octave names in unauthenticated owner compilations are recovery leads only; ranges, continuous bend and input polyphony remain unverified.",
+          "preset": "150 locations, 50 banks × 3; saving tone/CTRL/EXP to a preset documented. Separate protected factory/user allocation and initial fill unverified.",
+          "dsp": "Manufacturer specifies ten simultaneous reorderable blocks. Per-pitch block allocation, concurrent pitch choices and CPU percentage unverified; ten blocks is not a 10% pitch cost.",
+          "source_urls": [
+            "https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf",
+            "https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal"
+          ],
+          "measurements": [],
+          "notes": [
+            "General EXP assignment and wah examples do not establish a pitch-bend target. Generated mirror Q&A and related Mooer FXA/FXB specifications excluded."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.donnermusic.com/en-US/products/arena2000",
+            "title": "Donner Arena2000 official product",
+            "access": "Direct manufacturer HTML",
+            "evidence": "150 presets; editable control architecture and USB recording; no current firmware changelog."
+          },
+          {
+            "url": "https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal",
+            "title": "Donner Arena2000 manufacturer specification",
+            "access": "Direct manufacturer German product/specification table",
+            "evidence": "Launch 2022; ten simultaneous blocks, reorderable."
+          },
+          {
+            "url": "https://eu.donnermusic.com/pages/download",
+            "title": "Donner official downloads",
+            "access": "Direct manufacturer HTML; dynamic product links absent from extracted text",
+            "evidence": "Arena2000 support category and Generic Donner Control v1.4.5; editor not pedal firmware."
+          },
+          {
+            "url": "https://drive.google.com/file/d/1HotOSFOmBnq_7ycy6zelK8ese-85dCf7/view?ths=true",
+            "title": "Manufacturer-linked Donner Control installer",
+            "access": "Manufacturer product link resolves to Google Drive filename",
+            "evidence": "Donner Control Setup V1.0.1.exe is desktop installer, not proof of device firmware version."
+          },
+          {
+            "url": "https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf",
+            "title": "Donner Arena2000 original operating manual",
+            "access": "Manufacturer-authored 19-page PDF mirror; original text, not host FAQ",
+            "evidence": "150 locations; save CTRL/EXP with presets; reorderable categories; firmware updates via editor; no complete pitch algorithm/range/polyphony list."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Donner::Arena2000",
       "Donner::Triple Threat",
       "EROK::MP-10",
       "EROK::MP-20",
@@ -186711,12 +186783,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 94,
-    "last_model": "DK::iE-350",
-    "last_commit_parent": "753972751f5d1955a89f5157109368fa41af4d40",
+    "completed_model_count": 95,
+    "last_model": "Donner::Arena2000",
+    "last_commit_parent": "2a7bfb8e926042d39f44586a0a247268fc57db91",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Donner::Arena2000",
       "Donner::Triple Threat",
       "EROK::MP-10",
       "EROK::MP-20",
@@ -187025,7 +187096,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 94,
+    "pitch_completed_model_count": 95,
     "supplemental_model_count": 0
   },
   "model_images": {

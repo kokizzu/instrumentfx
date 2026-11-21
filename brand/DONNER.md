@@ -101,6 +101,32 @@ Remaining:exact firmware,complete algorithms/ranges,display andelectrical rating
 
 ## Arena2000
 
+<!-- firmware-pitch:Donner::Arena2000 begins -->
+### Firmware and pitch audit — Donner Arena2000
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022 (manufacturer launch year). Manufacturer specification explicitly gives 2022 launch; exact month/day unverified. Manual filename is not used as launch date. [launch 1](https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal) |
+| Firmware / latest verification | Not verified — Unverified. Update via Donner Control is documented, but no authenticated current pedal-firmware version/date or changelog found. Generic Donner Control v1.4.5 and linked Donner Control Setup V1.0.1.exe are editor versions, not pedal firmware. No elapsed update span calculable. [firmware 1](https://eu.donnermusic.com/pages/download) [firmware 2](https://drive.google.com/file/d/1HotOSFOmBnq_7ycy6zelK8ese-85dCf7/view?ths=true) [firmware 3](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Unverified. Original operating manual lacks a complete algorithm list. Pitch/Octave names in unauthenticated owner compilations are recovery leads only; ranges, continuous bend and input polyphony remain unverified. [pitch 1](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) [pitch 2](https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal) |
+| Pitch / preset recall | 150 locations, 50 banks × 3; saving tone/CTRL/EXP to a preset documented. Separate protected factory/user allocation and initial fill unverified. |
+| Pitch / DSP resources | Manufacturer specifies ten simultaneous reorderable blocks. Per-pitch block allocation, concurrent pitch choices and CPU percentage unverified; ten blocks is not a 10% pitch cost. |
+| Pitch / qualifications | General EXP assignment and wah examples do not establish a pitch-bend target. Generated mirror Q&A and related Mooer FXA/FXB specifications excluded. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Donner Arena2000 official product](https://www.donnermusic.com/en-US/products/arena2000) — 150 presets; editable control architecture and USB recording; no current firmware changelog. (Direct manufacturer HTML).
+- [Donner Arena2000 manufacturer specification](https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal) — Launch 2022; ten simultaneous blocks, reorderable. (Direct manufacturer German product/specification table).
+- [Donner official downloads](https://eu.donnermusic.com/pages/download) — Arena2000 support category and Generic Donner Control v1.4.5; editor not pedal firmware. (Direct manufacturer HTML; dynamic product links absent from extracted text).
+- [Manufacturer-linked Donner Control installer](https://drive.google.com/file/d/1HotOSFOmBnq_7ycy6zelK8ese-85dCf7/view?ths=true) — Donner Control Setup V1.0.1.exe is desktop installer, not proof of device firmware version. (Manufacturer product link resolves to Google Drive filename).
+- [Donner Arena2000 original operating manual](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) — 150 locations; save CTRL/EXP with presets; reorderable categories; firmware updates via editor; no complete pitch algorithm/range/polyphony list. (Manufacturer-authored 19-page PDF mirror; original text, not host FAQ).
+
+<!-- firmware-pitch:Donner::Arena2000 ends -->
+
 Eligible guitar/shared-bass multi-effects with built-in expression. Not a dedicated single-effect pedal. Partial technical record; consolidation does not make remaining unknowns verified.
 
 <!-- comparison evidence begins -->
