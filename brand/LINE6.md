@@ -2336,6 +2336,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::M9 ends -->
 
+<!-- model-images:Line 6::M9 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**M9 — powered-on overhead product view**
+
+[![M9 — powered-on overhead product view](https://line6.com/data/l/0a06007287b84ae084dbcbf0b/image/jpeg/M9%20Stompbox%20Modeler%20(Top%20Down)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06007287b84ae084dbcbf0b/image/jpeg/M9%20Stompbox%20Modeler%20(Top%20Down)%20-%20Lo%20Rez.jpeg)
+
+[Image source](https://line6.com/company/images/?families=12). Manufacturer archive labels this Top Down. Exact M9, green LCD and colored switch indicators visible. Slight perspective remains; perfectly perpendicular top-down geometry is not certified.
+
+**M9 — rear ports**
+
+[![M9 — rear ports](https://line6.com/data/l/0a06007287bc4ae084c05a95b/image/jpeg/M9%20Stompbox%20Modeler%20(Rear)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06007287bc4ae084c05a95b/image/jpeg/M9%20Stompbox%20Modeler%20(Rear)%20-%20Lo%20Rez.jpeg)
+
+[Image source](https://line6.com/company/images/?families=12). Exact M9 rear view visibly shows POWER, MIDI IN/OUT, EXPRESSION PEDAL 1/2 and stereo INPUT/OUTPUT L(MONO)/RIGHT. These are the M9 ports, not the M13 FX-loop panel.
+
+</details>
+<!-- model-images:Line 6::M9 ends -->
+
+
 Effects-only guitar/shared-bass multi-effects; distinct from M5/M13. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
 
 | Field | Finding / qualification | Evidence |
