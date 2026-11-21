@@ -189939,6 +189939,68 @@
           "label": "0.52 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::Helix LT": {
+        "model_key": "Line 6::Helix LT",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2017-04-03",
+          "precision": "day",
+          "kind": "manufacturer_release",
+          "source_urls": [
+            "https://line6.com/support/topic/26575-helix-lt-faq/"
+          ],
+          "note": "Manufacturer launch FAQ explicitly gives April 3, 2017 as release date and says dealers can supply it that day. Distinct from original Helix Floor introduction."
+        },
+        "firmware": {
+          "version": "3.80.0",
+          "date": "2024-11-19",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=Helix+LT&name=Flash+Memory&os=All&submit_form=set"
+          ],
+          "note": "Current exact-LT device download index lists 3.80.0 first, dated November 19, 2024. HX Edit, Helix Native and Helix Stadium versions are separate. No device update installed."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Poly Pitch, Poly Wham, Poly Capo and 12 String explicitly use polyphonic shifting (own 3.80 Rev F p33). Also Simple/Dual Pitch, Pitch Wham, harmonies and octavers; their channel-format labels do not certify tracking behavior.",
+          "preset": "Yes: pitch blocks and parameters form part of saved presets; 1,024 preset locations with up to eight snapshots per preset. Save and snapshot functions documented in the own manual. No physical recall test.",
+          "dsp": "Own manual pp24,30–33: Poly pitch models may each consume half the DSP available to Path 1 or Path 2, not half the complete dual-DSP unit. Combined Feedbacker/Poly Sustain/Poly Detune/Poly Pitch/Poly Wham/Poly Capo/12 String group: one per path maximum. Actual availability depends on other blocks; not a guaranteed two-poly-block preset or a fixed measured percentage for every setting.",
+          "source_urls": [
+            "https://line6.com/data/6/0a00051afd86673ccb96424d9/application/pdf/Helix%2520LT%25203.80%2520Owner%27s%2520Manual%2520-%2520English%2520.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer capacity guidance, not a measured CPU benchmark. Polyphonic pitch support does not establish synth note-tracking polyphony."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://line6.com/support/topic/26575-helix-lt-faq/",
+            "title": "Line 6 launch-day Helix LT FAQ",
+            "access": "Manufacturer launch FAQ read",
+            "evidence": "Explicit release date April 3, 2017 and immediate dealer availability; dual-DSP architecture and hardware differences."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=Helix+LT&name=Flash+Memory&os=All&submit_form=set",
+            "title": "Helix LT exact device firmware index",
+            "access": "Current manufacturer download index read",
+            "evidence": "Newest listed LT firmware 3.80.0, November 19, 2024; distinct from editor and other hardware software."
+          },
+          {
+            "url": "https://line6.com/data/6/0a00051afd86673ccb96424d9/application/pdf/Helix%2520LT%25203.80%2520Owner%27s%2520Manual%2520-%2520English%2520.pdf",
+            "title": "Helix LT 3.80 Owner Manual Rev F",
+            "access": "Original manufacturer PDF web text read, including pp24 and30–33; no local download claimed",
+            "evidence": "Polyphonic pitch models; possible half-path DSP use and shared one-per-path high-DSP group; preset/snapshot workflow."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2787,
+          "maximum_days": 2787,
+          "label": "7.63 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -189980,7 +190042,6 @@
       "Line 6::AMPLIFi FX100",
       "Line 6::Floor POD Plus",
       "Line 6::Helix Floor",
-      "Line 6::Helix LT",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::HX One",
       "Line 6::M13",
@@ -190208,9 +190269,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 138,
-    "last_model": "Line 6::POD Express Bass",
-    "last_commit_parent": "8ac7364470b9fd1ca6c509eb2e10aabccad93c10",
+    "completed_model_count": 139,
+    "last_model": "Line 6::Helix LT",
+    "last_commit_parent": "98b692290668b84c21a925d896be6f9cdd1b8fc2",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190251,7 +190312,6 @@
       "Line 6::AMPLIFi FX100",
       "Line 6::Floor POD Plus",
       "Line 6::Helix Floor",
-      "Line 6::Helix LT",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::HX One",
       "Line 6::M13",
@@ -190478,7 +190538,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 138,
+    "pitch_completed_model_count": 139,
     "supplemental_model_count": 0
   },
   "model_images": {

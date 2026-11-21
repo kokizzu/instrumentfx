@@ -620,6 +620,30 @@ The same drawing corroborates **10 rotaries** (six parameter encoders, PRESET, r
 
 ## Helix LT
 
+<!-- firmware-pitch:Line 6::Helix LT begins -->
+### Firmware and pitch audit — Line 6 Helix LT
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017-04-03 (manufacturer release). Manufacturer launch FAQ explicitly gives April 3, 2017 as release date and says dealers can supply it that day. Distinct from original Helix Floor introduction. [launch 1](https://line6.com/support/topic/26575-helix-lt-faq/) |
+| Firmware / latest verification | 3.80.0 — Latest verified. Current exact-LT device download index lists 3.80.0 first, dated November 19, 2024. HX Edit, Helix Native and Helix Stadium versions are separate. No device update installed. [firmware 1](https://line6.com/software/index.html?hardware=Helix+LT&name=Flash+Memory&os=All&submit_form=set) |
+| Firmware / release date | 2024-11-19 (day precision) |
+| Firmware / release-to-update duration | 7.63 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Poly Pitch, Poly Wham, Poly Capo and 12 String explicitly use polyphonic shifting (own 3.80 Rev F p33). Also Simple/Dual Pitch, Pitch Wham, harmonies and octavers; their channel-format labels do not certify tracking behavior. [pitch 1](https://line6.com/data/6/0a00051afd86673ccb96424d9/application/pdf/Helix%2520LT%25203.80%2520Owner%27s%2520Manual%2520-%2520English%2520.pdf) |
+| Pitch / preset recall | Yes: pitch blocks and parameters form part of saved presets; 1,024 preset locations with up to eight snapshots per preset. Save and snapshot functions documented in the own manual. No physical recall test. |
+| Pitch / DSP resources | Own manual pp24,30–33: Poly pitch models may each consume half the DSP available to Path 1 or Path 2, not half the complete dual-DSP unit. Combined Feedbacker/Poly Sustain/Poly Detune/Poly Pitch/Poly Wham/Poly Capo/12 String group: one per path maximum. Actual availability depends on other blocks; not a guaranteed two-poly-block preset or a fixed measured percentage for every setting. |
+| Pitch / qualifications | Manufacturer capacity guidance, not a measured CPU benchmark. Polyphonic pitch support does not establish synth note-tracking polyphony. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 launch-day Helix LT FAQ](https://line6.com/support/topic/26575-helix-lt-faq/) — Explicit release date April 3, 2017 and immediate dealer availability; dual-DSP architecture and hardware differences. (Manufacturer launch FAQ read).
+- [Helix LT exact device firmware index](https://line6.com/software/index.html?hardware=Helix+LT&name=Flash+Memory&os=All&submit_form=set) — Newest listed LT firmware 3.80.0, November 19, 2024; distinct from editor and other hardware software. (Current manufacturer download index read).
+- [Helix LT 3.80 Owner Manual Rev F](https://line6.com/data/6/0a00051afd86673ccb96424d9/application/pdf/Helix%2520LT%25203.80%2520Owner%27s%2520Manual%2520-%2520English%2520.pdf) — Polyphonic pitch models; possible half-path DSP use and shared one-per-path high-DSP group; preset/snapshot workflow. (Original manufacturer PDF web text read, including pp24 and30–33; no local download claimed).
+
+<!-- firmware-pitch:Line 6::Helix LT ends -->
+
 Guitar/bass multi-effects; checked **2026-10-16**. First pass, not fully verified. The LT-specific manufacturer chart explicitly lists bass amps and bass inputs; this is not inferred from Helix Floor.
 
 | Field | Evidence and limits |
