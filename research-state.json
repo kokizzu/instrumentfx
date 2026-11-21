@@ -187236,11 +187236,35 @@
           }
         },
         "pending": "Rear-port photograph and real powered-on top photograph not yet verified; second retailer image was another top render and excluded."
+      },
+      "Donner::Arena2000": {
+        "model_key": "Donner::Arena2000",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://de.donnermusic.com/cdn/shop/products/3_103dc431-95bd-4ea8-97cf-91dc01b12823.jpg?v=1755746805&width=1601",
+            "source_url": "https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal",
+            "caption": "Arena2000 top-down and rear-panel manufacturer composite",
+            "note": "Upper image shows an active screen and illuminated footswitch rings; lower image clearly shows rear ports. Promotional artwork; a physically powered-on photograph is not independently authenticated.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": true,
+            "sha256": "1bc3f6628de14cf2997c910b3acbb8b73a727e51908360c351ae64ccd5f4bd58"
+          },
+          "rear": {
+            "image_url": "https://de.donnermusic.com/cdn/shop/products/3_103dc431-95bd-4ea8-97cf-91dc01b12823.jpg?v=1755746805&width=1601",
+            "source_url": "https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal",
+            "caption": "Arena2000 rear connections — lower half of the same manufacturer composite",
+            "note": "Lower image shows balanced XLR L/R, ground lift, USB-C, phones, AUX, EXP2/FS4/5, unbalanced L/R, input, MIDI IN, power switch and 9V DC. Same composite reused; lifestyle photo excluded.",
+            "visual_checked": true,
+            "sha256": "1bc3f6628de14cf2997c910b3acbb8b73a727e51908360c351ae64ccd5f4bd58"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DK::iE-550"
+    "last_model": "Donner::Arena2000"
   }
 }

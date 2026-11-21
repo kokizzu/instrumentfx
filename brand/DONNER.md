@@ -127,6 +127,26 @@ Sources checked:
 
 <!-- firmware-pitch:Donner::Arena2000 ends -->
 
+<!-- model-images:Donner::Arena2000 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Arena2000 top-down and rear-panel manufacturer composite**
+
+[![Arena2000 top-down and rear-panel manufacturer composite](https://de.donnermusic.com/cdn/shop/products/3_103dc431-95bd-4ea8-97cf-91dc01b12823.jpg?v=1755746805&width=1601)](https://de.donnermusic.com/cdn/shop/products/3_103dc431-95bd-4ea8-97cf-91dc01b12823.jpg?v=1755746805&width=1601)
+
+[Image source](https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal). Upper image shows an active screen and illuminated footswitch rings; lower image clearly shows rear ports. Promotional artwork; a physically powered-on photograph is not independently authenticated.
+
+**Arena2000 rear connections — lower half of the same manufacturer composite**
+
+[![Arena2000 rear connections — lower half of the same manufacturer composite](https://de.donnermusic.com/cdn/shop/products/3_103dc431-95bd-4ea8-97cf-91dc01b12823.jpg?v=1755746805&width=1601)](https://de.donnermusic.com/cdn/shop/products/3_103dc431-95bd-4ea8-97cf-91dc01b12823.jpg?v=1755746805&width=1601)
+
+[Image source](https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal). Lower image shows balanced XLR L/R, ground lift, USB-C, phones, AUX, EXP2/FS4/5, unbalanced L/R, input, MIDI IN, power switch and 9V DC. Same composite reused; lifestyle photo excluded.
+
+</details>
+<!-- model-images:Donner::Arena2000 ends -->
+
+
 Eligible guitar/shared-bass multi-effects with built-in expression. Not a dedicated single-effect pedal. Partial technical record; consolidation does not make remaining unknowns verified.
 
 <!-- comparison evidence begins -->
