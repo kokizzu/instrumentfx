@@ -4909,6 +4909,30 @@ English manual provenance: manufacturer-authored ME-25 Owner’s Manual, ©2010 
 
 ## ME-30
 
+<!-- firmware-pitch:BOSS::ME-30 begins -->
+### Firmware and pitch audit — BOSS ME-30
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1997 (manufacturer release year). Manufacturer repair table release-year column; 2001 is manufacturing completion, not a firmware date. [launch 1](https://www.roland.com/jp/support/service_repair/1708080000/) |
+| Firmware / latest verification | Not verified — No public firmware located. No ME-30 entry in checked legacy H–M downloads, and targeted manufacturer search found no public system program. Global/US model support URLs were inaccessible; firmware version/date and update span remain unknown. No claim that internal revisions never existed. [firmware 1](https://www.roland.com/jp/support/archives/archive_downloads_h-m/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter: -12 through -1, detune, +1 through +12 semitones, with separate direct/effect levels. Tremolo Arm: octave down/up, wet or mixed with dry (ARM1–4). Checked pitch pages do not specify input-note polyphony. [pitch 1](https://cdn.roland.com/assets/media/pdf/ME-30_OM.pdf) |
+| Pitch / preset recall | 30 user plus 30 preset patches; original user sounds duplicate presets. Not 60 distinct factory sounds. |
+| Pitch / DSP resources | Pitch Shifter shares the modulation category with chorus/flanger/tremolo. Tremolo Arm is a pedal-effect choice. Phrase Trainer temporarily disables delay, modulation, reverb and normal pedal effects. No CPU percentage or numerical pitch DSP allocation published in checked material. |
+| Pitch / qualifications | A single note producing a harmony does not demonstrate polyphonic input tracking. Phrase Trainer fixed-pitch slowdown is separate from live guitar pitch shifting. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland model release and repair-duration table](https://www.roland.com/jp/support/service_repair/1708080000/) — ME-30 release 1997; manufacturing completion 2001. (Manufacturer indexed table text).
+- [Roland legacy downloads H–M](https://www.roland.com/jp/support/archives/archive_downloads_h-m/) — No ME-30 entry; does not establish absence of internal firmware revisions. (Manufacturer web text).
+- [BOSS ME-30 Owner Manual](https://cdn.roland.com/assets/media/pdf/ME-30_OM.pdf) — Pitch shift ±12 and detune; ARM1–4 octave bend choices. Earlier indexed manual evidence covers memory, modulation alternatives and Phrase Trainer limits. Download 1572881 bytes; SHA256 24faf6e2a1a40052d297bc90c131142e90d525fcab75e23846acf52b52a5d8cb. (Manufacturer PDF, indexed text and locally rendered scans; printed pp13 and16 visually inspected).
+
+<!-- firmware-pitch:BOSS::ME-30 ends -->
+
 Checked2026-10-17;partial. Own manual identifies guitar multi-effects. Bass/vocal suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->
