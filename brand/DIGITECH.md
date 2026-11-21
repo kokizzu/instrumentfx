@@ -2086,6 +2086,26 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP1000 ends -->
 
+<!-- model-images:DigiTech::RP1000 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**DigiTech RP1000 — top panel**
+
+[![DigiTech RP1000 — top panel](https://d1aeri3ty3izns.cloudfront.net/media/34/343616/1200/preview.jpg)](https://d1aeri3ty3izns.cloudfront.net/media/34/343616/1200/preview.jpg)
+
+[Image source](https://www.gear4music.it/it/Chitarra-e-basso/Digitech-RP-1000-Guitar-Multi-Effects-Processor-Nearly-New/2DMX). Retailer promotional photograph with lit red DRIVEN display. Three-quarter overhead angle, not exact top-down; a straight overhead replacement remains pending. No independent device operation.
+
+**DigiTech RP1000 — rear connections**
+
+[![DigiTech RP1000 — rear connections](https://static.sonovente.com/img/library/zoom/59/450/59679_3.jpg)](https://static.sonovente.com/img/library/zoom/59/450/59679_3.jpg)
+
+[Image source](https://www.sonovente.com/digitech-rp1000-p59679.html). Retailer rear photograph shows the full connection panel and expression-pedal end, with all sockets unobstructed. Source is only 450 × 450 pixels including broad white margins, so small port labels are not reliably readable; a higher-resolution rear view remains pending. Rear photograph alone does not establish operating power state.
+
+</details>
+<!-- model-images:DigiTech::RP1000 ends -->
+
+
 Discontinued guitar multi-effects/switching system;notRP500. Checked2026-10-17;partial. Ownership,bass/vocal suitability unverified.
 
 | Field | Finding / qualification | Evidence |

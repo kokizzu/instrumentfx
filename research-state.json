@@ -193387,11 +193387,35 @@
             "sha256": "db72cdb7a268dca9b41c67d5b9eadf05ee3e1eabd4cd6d523a67e431918aa104"
           }
         }
+      },
+      "DigiTech::RP1000": {
+        "model_key": "DigiTech::RP1000",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://d1aeri3ty3izns.cloudfront.net/media/34/343616/1200/preview.jpg",
+            "source_url": "https://www.gear4music.it/it/Chitarra-e-basso/Digitech-RP-1000-Guitar-Multi-Effects-Processor-Nearly-New/2DMX",
+            "caption": "DigiTech RP1000 — top panel",
+            "note": "Retailer promotional photograph with lit red DRIVEN display. Three-quarter overhead angle, not exact top-down; a straight overhead replacement remains pending. No independent device operation.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "882bbcc4f77d16c2d460c154df67b73c8c3ff7d1e3925af7191651901c1ea531"
+          },
+          "rear": {
+            "image_url": "https://static.sonovente.com/img/library/zoom/59/450/59679_3.jpg",
+            "source_url": "https://www.sonovente.com/digitech-rp1000-p59679.html",
+            "caption": "DigiTech RP1000 — rear connections",
+            "note": "Retailer rear photograph shows the full connection panel and expression-pedal end, with all sockets unobstructed. Source is only 450 × 450 pixels including broad white margins, so small port labels are not reliably readable; a higher-resolution rear view remains pending. Rear photograph alone does not establish operating power state.",
+            "visual_checked": true,
+            "sha256": "bf4292677ef1d7ba2fcbf6a39143ba991b0fda9ef6020d2e2eb579059590d039"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Darkglass::Anagram"
+    "last_model": "DigiTech::RP1000"
   }
 }
