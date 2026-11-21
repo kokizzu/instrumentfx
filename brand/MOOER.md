@@ -1949,6 +1949,31 @@ Official Japanese PDFs failed to load or exceeded the retrieval limit; the mirro
 
 ## GE300
 
+<!-- firmware-pitch:MOOER::GE300 begins -->
+### Firmware and pitch audit — MOOER GE300
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2019-06-04 (manufacturer worldwide availability press release proxy). Manufacturer press-release reprint explicitly states worldwide dealer availability on June 4; earlier NAMM preview and May introduction are not this retail milestone. Earliest regional shipment remains unresolved. [launch 1](https://dshowmusic.com/mooer-ge300-multi-effects-processor/) |
+| Firmware / latest verification | 5.1.4 — Located; latest status unverified. Exact-model firmware changelog explicitly dates 5.1.4, adding converted NAM A2 loading into AMP; A1/A2 use a converter, not proof of native NAM execution. Uniform package timestamps alone are not release evidence. Old product-page 1.1.x downloads are superseded; USB driver 5.70.0 is separate. [firmware 1](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) |
+| Firmware / release date | 2026-08-04 (day precision) |
+| Firmware / release-to-update duration | 7.17 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Original manual identifies Mono Pitch in FXA and Poly Pitch in FXB, explicitly calling FXB polyphony; also Octave, Detune and a separate three-voice polyphonic synth. Original Poly Pitch range ±12 semitones; firmware 4.0.1 expands Mono Pitch to ±24 and 3.0.1 adds Intelligent Harmony in FXA. [pitch 1](https://device.report/m/e1e304bb205c012e37523202f667e89fd5091c34e7a5e2c2f59934c64f6e5568) [pitch 2](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) [pitch 3](https://www.mooeraudio.com/product/GE300-223.html) |
+| Pitch / preset recall | 256 preset slots; SAVE stores edits at the selected destination. EXP1/EXP2 and MERGE control pitch parameters. Exact held-pedal position on preset recall untested. |
+| Pitch / DSP resources | Pitch consumes the corresponding FXA/FXB slot shared with other effects. Total preset CPU meter; at 100% the last-enabled module automatically switches off. No isolated pitch percentage located; example screen totals are not algorithm costs. |
+| Pitch / qualifications | Manufacturer-authored original manual on mirror, pp7–8,19,28–30,85–89; later firmware changes qualified separately. No hardware quality, latency or DSP measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER GE300 worldwide launch press release — reprint](https://dshowmusic.com/mooer-ge300-multi-effects-processor/) — June 4, 2019 dateline and explicit worldwide availability; earlier preview is separate. (Manufacturer release text read on publisher).
+- [GE300 firmware downloads and changelog](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) — Dated 5.1.4 entry, 2026-08-04; NAM conversion; 4.0.1 Mono Pitch range and 3.0.1 Harmony additions. (Exact-model manufacturer page read).
+- [GE300 Owner’s Manual — original English](https://device.report/m/e1e304bb205c012e37523202f667e89fd5091c34e7a5e2c2f59934c64f6e5568) — CPU overload behavior; FXA/FXB pitch distinction; synth; SAVE, EXP and MERGE. (Manufacturer-authored extracted body read on mirror).
+- [GE300 manufacturer product page](https://www.mooeraudio.com/product/GE300-223.html) — 256 presets; historical 1.1.x packages; separate polyphonic synth. (Manufacturer page read).
+
+<!-- firmware-pitch:MOOER::GE300 ends -->
+
 **Checked 2026-10-16; partial exact-model profile.** Original GE300, not GE300 Lite. Original manufacturer manual (2019 document, V1.1.0 screen examples) and current model-specific v5.1.4 notes are kept separate. Guitar multi-effects including polyphonic synth; bass suitability remains unclassified pending explicit exact-model evidence. [G][M][F]
 
 ### GE300 — hardware and expression

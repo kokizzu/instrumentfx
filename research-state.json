@@ -192876,6 +192876,148 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::GE300": {
+        "model_key": "MOOER::GE300",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2019-06-04",
+          "precision": "day",
+          "kind": "manufacturer_worldwide_availability_press_release_proxy",
+          "source_urls": [
+            "https://dshowmusic.com/mooer-ge300-multi-effects-processor/"
+          ],
+          "note": "Manufacturer press-release reprint explicitly states worldwide dealer availability on June 4; earlier NAMM preview and May introduction are not this retail milestone. Earliest regional shipment remains unresolved."
+        },
+        "firmware": {
+          "version": "5.1.4",
+          "date": "2026-08-04",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html"
+          ],
+          "note": "Exact-model firmware changelog explicitly dates 5.1.4, adding converted NAM A2 loading into AMP; A1/A2 use a converter, not proof of native NAM execution. Uniform package timestamps alone are not release evidence. Old product-page 1.1.x downloads are superseded; USB driver 5.70.0 is separate."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Original manual identifies Mono Pitch in FXA and Poly Pitch in FXB, explicitly calling FXB polyphony; also Octave, Detune and a separate three-voice polyphonic synth. Original Poly Pitch range ±12 semitones; firmware 4.0.1 expands Mono Pitch to ±24 and 3.0.1 adds Intelligent Harmony in FXA.",
+          "preset": "256 preset slots; SAVE stores edits at the selected destination. EXP1/EXP2 and MERGE control pitch parameters. Exact held-pedal position on preset recall untested.",
+          "dsp": "Pitch consumes the corresponding FXA/FXB slot shared with other effects. Total preset CPU meter; at 100% the last-enabled module automatically switches off. No isolated pitch percentage located; example screen totals are not algorithm costs.",
+          "source_urls": [
+            "https://device.report/m/e1e304bb205c012e37523202f667e89fd5091c34e7a5e2c2f59934c64f6e5568",
+            "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+            "https://www.mooeraudio.com/product/GE300-223.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer-authored original manual on mirror, pp7–8,19,28–30,85–89; later firmware changes qualified separately. No hardware quality, latency or DSP measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://dshowmusic.com/mooer-ge300-multi-effects-processor/",
+            "title": "MOOER GE300 worldwide launch press release — reprint",
+            "access": "Manufacturer release text read on publisher",
+            "evidence": "June 4, 2019 dateline and explicit worldwide availability; earlier preview is separate."
+          },
+          {
+            "url": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+            "title": "GE300 firmware downloads and changelog",
+            "access": "Exact-model manufacturer page read",
+            "evidence": "Dated 5.1.4 entry, 2026-08-04; NAM conversion; 4.0.1 Mono Pitch range and 3.0.1 Harmony additions."
+          },
+          {
+            "url": "https://device.report/m/e1e304bb205c012e37523202f667e89fd5091c34e7a5e2c2f59934c64f6e5568",
+            "title": "GE300 Owner’s Manual — original English",
+            "access": "Manufacturer-authored extracted body read on mirror",
+            "evidence": "CPU overload behavior; FXA/FXB pitch distinction; synth; SAVE, EXP and MERGE."
+          },
+          {
+            "url": "https://www.mooeraudio.com/product/GE300-223.html",
+            "title": "GE300 manufacturer product page",
+            "access": "Manufacturer page read",
+            "evidence": "256 presets; historical 1.1.x packages; separate polyphonic synth."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2618,
+          "maximum_days": 2618,
+          "label": "7.17 years"
+        },
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "MOOER::GE300",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2019-06-04",
+              "precision": "day",
+              "kind": "manufacturer_worldwide_availability_press_release_proxy",
+              "source_urls": [
+                "https://dshowmusic.com/mooer-ge300-multi-effects-processor/"
+              ],
+              "note": "Manufacturer press-release reprint explicitly states worldwide dealer availability on June 4; earlier NAMM preview and May introduction are not this retail milestone. Earliest regional shipment remains unresolved."
+            },
+            "firmware": {
+              "version": "5.1.4",
+              "date": "2026-08-04",
+              "precision": "day",
+              "status": "latest_located",
+              "source_urls": [
+                "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html"
+              ],
+              "note": "Exact-model firmware changelog explicitly dates 5.1.4, adding converted NAM A2 loading into AMP; A1/A2 use a converter, not proof of native NAM execution. Uniform package timestamps alone are not release evidence. Old product-page 1.1.x downloads are superseded; USB driver 5.70.0 is separate."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "Original manual identifies Mono Pitch in FXA and Poly Pitch in FXB, explicitly calling FXB polyphony; also Octave, Detune and a separate three-voice polyphonic synth. Original Poly Pitch range ±12 semitones; firmware 4.0.1 expands Mono Pitch to ±24 and 3.0.1 adds Intelligent Harmony in FXA.",
+              "preset": "256 preset slots; SAVE stores edits at the selected destination. EXP1/EXP2 and MERGE control pitch parameters. Exact held-pedal position on preset recall untested.",
+              "dsp": "Pitch consumes the corresponding FXA/FXB slot shared with other effects. Total preset CPU meter; at 100% the last-enabled module automatically switches off. No isolated pitch percentage located; example screen totals are not algorithm costs.",
+              "source_urls": [
+                "https://device.report/m/e1e304bb205c012e37523202f667e89fd5091c34e7a5e2c2f59934c64f6e5568",
+                "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+                "https://www.mooeraudio.com/product/GE300-223.html"
+              ],
+              "measurements": [],
+              "notes": [
+                "Manufacturer-authored original manual on mirror, pp7–8,19,28–30,85–89; later firmware changes qualified separately. No hardware quality, latency or DSP measurement."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://dshowmusic.com/mooer-ge300-multi-effects-processor/",
+                "title": "MOOER GE300 worldwide launch press release — reprint",
+                "access": "Manufacturer release text read on publisher",
+                "evidence": "June 4, 2019 dateline and explicit worldwide availability; earlier preview is separate."
+              },
+              {
+                "url": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+                "title": "GE300 firmware downloads and changelog",
+                "access": "Exact-model manufacturer page read",
+                "evidence": "Dated5.1.4 entry2026-08-04; NAM conversion; 4.0.1 Mono Pitch range and3.0.1 Harmony additions."
+              },
+              {
+                "url": "https://device.report/m/e1e304bb205c012e37523202f667e89fd5091c34e7a5e2c2f59934c64f6e5568",
+                "title": "GE300 Owner’s Manual — original English",
+                "access": "Manufacturer-authored extracted body read on mirror",
+                "evidence": "CPU overload behavior; FXA/FXB pitch distinction; synth; SAVE, EXP and MERGE."
+              },
+              {
+                "url": "https://www.mooeraudio.com/product/GE300-223.html",
+                "title": "GE300 manufacturer product page",
+                "access": "Manufacturer page read",
+                "evidence": "256 presets; historical1.1.x packages; separate polyphonic synth."
+              }
+            ],
+            "duration": {
+              "minimum_days": 2618,
+              "maximum_days": 2618,
+              "label": "7.17 years"
+            },
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
@@ -192919,7 +193061,6 @@
       "MOOER::GE200 Plus Li",
       "MOOER::GE200 Pro",
       "MOOER::GE200 Pro Li",
-      "MOOER::GE300",
       "MOOER::GE300 Lite",
       "MOOER::GS1000",
       "MOOER::GS1000 Li",
@@ -193102,9 +193243,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 181,
-    "last_model": "MOOER::GE250",
-    "last_commit_parent": "1943c57ef9c06f3f11651b23e8af1803c7ae1888",
+    "completed_model_count": 182,
+    "last_model": "MOOER::GE300",
+    "last_commit_parent": "e47151dbf8dbac4669c40978937d83c147a482d2",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -193147,7 +193288,6 @@
       "MOOER::GE200 Plus Li",
       "MOOER::GE200 Pro",
       "MOOER::GE200 Pro Li",
-      "MOOER::GE300",
       "MOOER::GE300 Lite",
       "MOOER::GS1000",
       "MOOER::GS1000 Li",
@@ -193329,7 +193469,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 181,
+    "pitch_completed_model_count": 182,
     "supplemental_model_count": 0
   },
   "model_images": {
