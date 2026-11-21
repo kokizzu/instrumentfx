@@ -196645,11 +196645,35 @@
             "sha256": "5f5db3f6f302f4c5b3c44f1b339c6e2ee83741801c13890020833a8018ef95c2"
           }
         }
+      },
+      "MOOER::GE200 Pro": {
+        "model_key": "MOOER::GE200 Pro",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE200_Pro-01.png?v=1722309283&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-ge200pro",
+            "caption": "MOOER GE200 Pro — powered-on top-down view",
+            "note": "Complete top-down product image from the standard GE200 Pro page, with GE200Pro chassis marking, unlit expression-pedal surface and no Pro Li ambient strip. Display depicts 04A ToneQueen Clean with illuminated switches. Its battery icon is shared screen artwork and does not establish battery hardware in the standard model; displayed DSP total is not pitch cost.",
+            "visual_checked": true,
+            "sha256": "ea929ef2d0a06c4bd67e8586c657c121287f46208e5582202b058502cc490bb9",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE200_Pro-02.png?v=1722309283&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-ge200pro",
+            "caption": "MOOER GE200 Pro — rear connections",
+            "note": "Full straight-on rear panel from the exact standard Pro page: EXP2, instrument IN, FX-loop send/return, stereo XLR, ground lift, stereo jack outputs, headphones, shared MIDI IN/OUT, USB Type-C, power switch and DC9V input. Legends readable; the regional description contains copied Li wording, so battery claims are not taken from this page.",
+            "visual_checked": true,
+            "sha256": "415349ae16d5d6efd4eb0ad184a7888e69bc144663f8b5f5d1b3c5a045d21670"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE1000 Li"
+    "last_model": "MOOER::GE200 Pro"
   }
 }
