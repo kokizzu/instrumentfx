@@ -3530,6 +3530,30 @@ Synths, harmony and Particle Verb are **alternative FX1 selections**, not simult
 
 ## POD HD500
 
+<!-- firmware-pitch:Line 6::POD HD500 begins -->
+### Firmware and pitch audit — Line 6 POD HD500
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2010-09-30 (manufacturer shipping announcement). Line 6 shipping announcement reprinted by Premier Guitar, dated September 30, 2010 and explicitly naming HD500. Original manufacturer-hosted release not recovered; not inferred from HD500X or first firmware. [launch 1](https://www.premierguitar.com/line-6-debuts-hd-amp-modeling-in-three-pod-hd-multi-effect-pedals) |
+| Firmware / latest verification | 2.62.00 — Latest verified. Current exact-HD500 Flash Memory index lists 2.62.00 first, April 9, 2015. USB firmware 1.04, HD500 Edit and Monkey are separate components. Includes Global EQ, optional model-pack support and Variax setlist; not proof purchased packs are installed. No update performed. [firmware 1](https://line6.com/software/index.html?hardware=POD+HD500&locale=en_UK&name=Flash+Memory&submit_form=set) |
+| Firmware / release date | 2015-04-09 (day precision) |
+| Firmware / release-to-update duration | 4.52 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Bass Octaver, Pitch Glide and Smart Harmony in own v2.10 guide, 7•6–8. Pitch Glide supports pedal-controlled transposition; Smart Harmony uses key/scale. No polyphonic chord-tracking certification located; do not transfer Helix Poly Capo/Pitch support. [pitch 1](https://line6.com/data/6/0a06434dc1a55085c5d6532bf/application/pdf/POD%20HD500%20Advanced%20Guide%20v2.10%20-%20English%20%28%20Rev%20A%20%29.pdf) |
+| Pitch / preset recall | Complete settings save into 512 locations (8 setlists ×64); pitch parameter and expression assignments are preset settings. No physical recall or tracking test. |
+| Pitch / DSP resources | Eight FX slots plus up to two amps, constrained by dynamic DSP. Own guide 3•14–15 explicitly identifies pitch shifters and reverbs as heavier DSP users. On overload selected model is bypassed; setting a block to None frees more than Off. No pitch-model CPU percentage documented; HD500X processing capacity is not assigned to HD500. |
+| Pitch / qualifications | Original HD500 exact-model guide checked. Firmware date is current catalogue evidence; guide v2.10 is older than flash2.62. No hardware benchmark or latency measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 POD HD shipping press release, reprinted by Premier Guitar](https://www.premierguitar.com/line-6-debuts-hd-amp-modeling-in-three-pod-hd-multi-effect-pedals) — September 30, 2010 shipping announcement explicitly names HD500 alongside HD300/400. Host is a publisher, authoring source identified as press release. (Manufacturer press release reproduction read).
+- [Original POD HD500 Flash Memory download index](https://line6.com/software/index.html?hardware=POD+HD500&locale=en_UK&name=Flash+Memory&submit_form=set) — Latest listed 2.62.00 dated April 9, 2015; USB1.04 separate. (Current manufacturer exact-device index read).
+- [POD HD500 Advanced Guide v2.10 Rev A](https://line6.com/data/6/0a06434dc1a55085c5d6532bf/application/pdf/POD%20HD500%20Advanced%20Guide%20v2.10%20-%20English%20%28%20Rev%20A%20%29.pdf) — Three pitch models, preset save and expression assignment; dynamic DSP heavy-pitch warning and model bypass on overload, no percentage. (Original manufacturer PDF web text read).
+
+<!-- firmware-pitch:Line 6::POD HD500 ends -->
+
 Original guitar multi-effects;distinct fromHD500X. Checked2026-10-17;partial. Exactsellerunit identity remainsunconfirmed;ownership pending. Bass support is documented in the original v2.10 guide.
 
 <!-- comparison evidence begins -->

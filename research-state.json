@@ -190001,6 +190001,68 @@
           "label": "7.63 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::POD HD500": {
+        "model_key": "Line 6::POD HD500",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2010-09-30",
+          "precision": "day",
+          "kind": "manufacturer_shipping_announcement",
+          "source_urls": [
+            "https://www.premierguitar.com/line-6-debuts-hd-amp-modeling-in-three-pod-hd-multi-effect-pedals"
+          ],
+          "note": "Line 6 shipping announcement reprinted by Premier Guitar, dated September 30, 2010 and explicitly naming HD500. Original manufacturer-hosted release not recovered; not inferred from HD500X or first firmware."
+        },
+        "firmware": {
+          "version": "2.62.00",
+          "date": "2015-04-09",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=POD+HD500&locale=en_UK&name=Flash+Memory&submit_form=set"
+          ],
+          "note": "Current exact-HD500 Flash Memory index lists 2.62.00 first, April 9, 2015. USB firmware 1.04, HD500 Edit and Monkey are separate components. Includes Global EQ, optional model-pack support and Variax setlist; not proof purchased packs are installed. No update performed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Bass Octaver, Pitch Glide and Smart Harmony in own v2.10 guide, 7•6–8. Pitch Glide supports pedal-controlled transposition; Smart Harmony uses key/scale. No polyphonic chord-tracking certification located; do not transfer Helix Poly Capo/Pitch support.",
+          "preset": "Complete settings save into 512 locations (8 setlists ×64); pitch parameter and expression assignments are preset settings. No physical recall or tracking test.",
+          "dsp": "Eight FX slots plus up to two amps, constrained by dynamic DSP. Own guide 3•14–15 explicitly identifies pitch shifters and reverbs as heavier DSP users. On overload selected model is bypassed; setting a block to None frees more than Off. No pitch-model CPU percentage documented; HD500X processing capacity is not assigned to HD500.",
+          "source_urls": [
+            "https://line6.com/data/6/0a06434dc1a55085c5d6532bf/application/pdf/POD%20HD500%20Advanced%20Guide%20v2.10%20-%20English%20%28%20Rev%20A%20%29.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original HD500 exact-model guide checked. Firmware date is current catalogue evidence; guide v2.10 is older than flash2.62. No hardware benchmark or latency measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.premierguitar.com/line-6-debuts-hd-amp-modeling-in-three-pod-hd-multi-effect-pedals",
+            "title": "Line 6 POD HD shipping press release, reprinted by Premier Guitar",
+            "access": "Manufacturer press release reproduction read",
+            "evidence": "September 30, 2010 shipping announcement explicitly names HD500 alongside HD300/400. Host is a publisher, authoring source identified as press release."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=POD+HD500&locale=en_UK&name=Flash+Memory&submit_form=set",
+            "title": "Original POD HD500 Flash Memory download index",
+            "access": "Current manufacturer exact-device index read",
+            "evidence": "Latest listed 2.62.00 dated April 9, 2015; USB1.04 separate."
+          },
+          {
+            "url": "https://line6.com/data/6/0a06434dc1a55085c5d6532bf/application/pdf/POD%20HD500%20Advanced%20Guide%20v2.10%20-%20English%20%28%20Rev%20A%20%29.pdf",
+            "title": "POD HD500 Advanced Guide v2.10 Rev A",
+            "access": "Original manufacturer PDF web text read",
+            "evidence": "Three pitch models, preset save and expression assignment; dynamic DSP heavy-pitch warning and model bypass on overload, no percentage."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1652,
+          "maximum_days": 1652,
+          "label": "4.52 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190050,7 +190112,6 @@
       "Line 6::Pocket POD",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
-      "Line 6::POD HD500",
       "Line 6::POD HD500X",
       "Line 6::POD X3 Live",
       "Line 6::POD XT Live",
@@ -190269,9 +190330,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 139,
-    "last_model": "Line 6::Helix LT",
-    "last_commit_parent": "98b692290668b84c21a925d896be6f9cdd1b8fc2",
+    "completed_model_count": 140,
+    "last_model": "Line 6::POD HD500",
+    "last_commit_parent": "2d320031e0c6defc883961cd815f6358d4fdf8c8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190320,7 +190381,6 @@
       "Line 6::Pocket POD",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
-      "Line 6::POD HD500",
       "Line 6::POD HD500X",
       "Line 6::POD X3 Live",
       "Line 6::POD XT Live",
@@ -190538,7 +190598,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 139,
+    "pitch_completed_model_count": 140,
     "supplemental_model_count": 0
   },
   "model_images": {
