@@ -38,6 +38,26 @@ Sources checked:
 
 <!-- firmware-pitch:GFI System::Solis Ventus ends -->
 
+<!-- model-images:GFI System::Solis Ventus begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Solis Ventus powered-on top-down view**
+
+[![Solis Ventus powered-on top-down view](https://cms.gfisystem.com/uploads/SV_Fave_c8c7f75d0a.webp)](https://cms.gfisystem.com/uploads/SV_Fave_c8c7f75d0a.webp)
+
+[Image source](https://gfisystem.com/pedals/solis-ventus). Official cream Solis Ventus photograph; Solar Wind preset text, coloured sliders and LEDs visibly lit. Full control surface shown.
+
+**Solis Ventus rear connection edge**
+
+[![Solis Ventus rear connection edge](https://cms.gfisystem.com/uploads/Top_view_new_1_fab7ca4093.webp)](https://cms.gfisystem.com/uploads/Top_view_new_1_fab7ca4093.webp)
+
+[Image source](https://gfisystem.com/pedals/solis-ventus). Official rear edge with stereo inputs/outputs, AUX/EXP1, EXP2, USB-C, MIDI In/Thru-Clock and power visible. Photo label reads 9VDC/400mA; printed supply figure is not measured draw and does not replace the manual draw qualification.
+
+</details>
+<!-- model-images:GFI System::Solis Ventus ends -->
+
+
 Checked 2026-10-28; **partial active guitar multi-effects**, not fully verified. Instrument-level quarter-inch audio and independent dual engines with separate dynamics/crossover processing support inclusion; ordinary-guitar use is the intended application, not a specialized-pickup system. Bass/vocal suitability and ownership unverified. Discovery-stage wording retained below is historical; this summary governs current admission.
 
 <!-- comparison evidence begins -->

@@ -193065,11 +193065,35 @@
             "sha256": "fd0d5b8e8a03b7f8e2601e5178bb976ce202cf236759358ba2b58d774793cbef"
           }
         }
+      },
+      "GFI System::Solis Ventus": {
+        "model_key": "GFI System::Solis Ventus",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://cms.gfisystem.com/uploads/SV_Fave_c8c7f75d0a.webp",
+            "source_url": "https://gfisystem.com/pedals/solis-ventus",
+            "caption": "Solis Ventus powered-on top-down view",
+            "note": "Official cream Solis Ventus photograph; Solar Wind preset text, coloured sliders and LEDs visibly lit. Full control surface shown.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "821d6f26b25cb83f63770dd6afcc8248bcbc9d2eea990621ea417c6306cfe900"
+          },
+          "rear": {
+            "image_url": "https://cms.gfisystem.com/uploads/Top_view_new_1_fab7ca4093.webp",
+            "source_url": "https://gfisystem.com/pedals/solis-ventus",
+            "caption": "Solis Ventus rear connection edge",
+            "note": "Official rear edge with stereo inputs/outputs, AUX/EXP1, EXP2, USB-C, MIDI In/Thru-Clock and power visible. Photo label reads 9VDC/400mA; printed supply figure is not measured draw and does not replace the manual draw qualification.",
+            "visual_checked": true,
+            "sha256": "cc2cbb74875393e384991a49a330f299d68edeffc4a9a01fa912b436cbffff60"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "GFI System::Synesthesia"
+    "last_model": "GFI System::Solis Ventus"
   }
 }
