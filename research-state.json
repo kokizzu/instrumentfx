@@ -191026,6 +191026,66 @@
           "label": "1.88–1.96 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Keeley::Delay Workstation": {
+        "model_key": "Keeley::Delay Workstation",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2016",
+          "precision": "year",
+          "kind": "manufacturer_announcement_year",
+          "source_urls": [
+            "https://robertkeeley.com/blog-post-archive/introducing-the-2016-keeley-tone-workstation/"
+          ],
+          "note": "Manufacturer 2016 NAMM introduction explicitly includes Delay Workstation. Year-level announcement proxy; exact first retail shipment not established. Earlier Tone Workstation history is a different product."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://robertkeeley.com/product/delay-workstation/",
+            "https://media.rockboard.de/erp_article/Product-Pictures/Keeley/KE%20DELAY%20WORKSTATION/WSDelayWorkstation_Manual%20_EN.pdf"
+          ],
+          "note": "Checked exact-model manufacturer archive and original-format manual; no public device firmware package, version history or update date located. This does not prove no factory/service revisions. No duration can be calculated."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch delay offers octave down, off at center, or octave up via MORPH. Shimmer adds an octave-up component. Input polyphony and clean dry-signal transposition are not established.",
+          "preset": "No writable preset recall documented in checked manual; bank selectors choose algorithms, not saved patches. Saved pitch recall remains unverified.",
+          "dsp": "Two DSP banks, eight algorithm choices each; pitch delay occupies the delay choice and Shimmer the reverb choice. Manufacturer permits pitch delay with flanged reverb. No pitch CPU percentage or measured resource budget found; two processors do not establish 50% usage.",
+          "source_urls": [
+            "https://robertkeeley.com/product/delay-workstation/",
+            "https://media.rockboard.de/erp_article/Product-Pictures/Keeley/KE%20DELAY%20WORKSTATION/WSDelayWorkstation_Manual%20_EN.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manual names Room while manufacturer page names Spring; conflict retained. No hardware, tracking, latency or DSP measurement performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://robertkeeley.com/blog-post-archive/introducing-the-2016-keeley-tone-workstation/",
+            "title": "Keeley 2016 Workstations introduction",
+            "access": "Manufacturer archive read",
+            "evidence": "2016 NAMM heading explicitly lists Delay Workstation; no exact shipment date."
+          },
+          {
+            "url": "https://robertkeeley.com/product/delay-workstation/",
+            "title": "Keeley Delay Workstation archive",
+            "access": "Exact-model manufacturer page read",
+            "evidence": "Dual DSP, two eight-choice banks; pitch delay and shimmer; pitch-delay/flanged-reverb combination. No firmware download/history located."
+          },
+          {
+            "url": "https://media.rockboard.de/erp_article/Product-Pictures/Keeley/KE%20DELAY%20WORKSTATION/WSDelayWorkstation_Manual%20_EN.pdf",
+            "title": "Delay Workstation original-format manual",
+            "access": "Supplier-hosted original two-page manual indexed text read",
+            "evidence": "Pitch MORPH octave down/off/up; Shimmer octave-up amount; physical bank selectors and expression/tap controls; no preset storage or public update procedure documented."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -191037,7 +191097,6 @@
       "Fractal Audio::FM9 Turbo",
       "Fractal Audio::VP4",
       "Harley Benton::DNAfx GiT Core",
-      "Keeley::Delay Workstation",
       "Kemper::PROFILER Head MK2",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER PowerHead MK2",
@@ -191279,9 +191338,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 154,
-    "last_model": "GFI System::Solis Ventus",
-    "last_commit_parent": "f45080681d4ca80b916631394e943ad321f7dada",
+    "completed_model_count": 155,
+    "last_model": "Keeley::Delay Workstation",
+    "last_commit_parent": "dd2dfe4f98e0817b237372f524d06d8a9adca220",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -191292,7 +191351,6 @@
       "Fractal Audio::FM9 Turbo",
       "Fractal Audio::VP4",
       "Harley Benton::DNAfx GiT Core",
-      "Keeley::Delay Workstation",
       "Kemper::PROFILER Head MK2",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER PowerHead MK2",
@@ -191533,7 +191591,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 154,
+    "pitch_completed_model_count": 155,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -10,6 +10,30 @@
 
 ## Delay Workstation
 
+<!-- firmware-pitch:Keeley::Delay Workstation begins -->
+### Firmware and pitch audit — Keeley Delay Workstation
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2016 (manufacturer announcement year). Manufacturer 2016 NAMM introduction explicitly includes Delay Workstation. Year-level announcement proxy; exact first retail shipment not established. Earlier Tone Workstation history is a different product. [launch 1](https://robertkeeley.com/blog-post-archive/introducing-the-2016-keeley-tone-workstation/) |
+| Firmware / latest verification | Not verified — No public firmware located. Checked exact-model manufacturer archive and original-format manual; no public device firmware package, version history or update date located. This does not prove no factory/service revisions. No duration can be calculated. [firmware 1](https://robertkeeley.com/product/delay-workstation/) [firmware 2](https://media.rockboard.de/erp_article/Product-Pictures/Keeley/KE%20DELAY%20WORKSTATION/WSDelayWorkstation_Manual%20_EN.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch delay offers octave down, off at center, or octave up via MORPH. Shimmer adds an octave-up component. Input polyphony and clean dry-signal transposition are not established. [pitch 1](https://robertkeeley.com/product/delay-workstation/) [pitch 2](https://media.rockboard.de/erp_article/Product-Pictures/Keeley/KE%20DELAY%20WORKSTATION/WSDelayWorkstation_Manual%20_EN.pdf) |
+| Pitch / preset recall | No writable preset recall documented in checked manual; bank selectors choose algorithms, not saved patches. Saved pitch recall remains unverified. |
+| Pitch / DSP resources | Two DSP banks, eight algorithm choices each; pitch delay occupies the delay choice and Shimmer the reverb choice. Manufacturer permits pitch delay with flanged reverb. No pitch CPU percentage or measured resource budget found; two processors do not establish 50% usage. |
+| Pitch / qualifications | Manual names Room while manufacturer page names Spring; conflict retained. No hardware, tracking, latency or DSP measurement performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Keeley 2016 Workstations introduction](https://robertkeeley.com/blog-post-archive/introducing-the-2016-keeley-tone-workstation/) — 2016 NAMM heading explicitly lists Delay Workstation; no exact shipment date. (Manufacturer archive read).
+- [Keeley Delay Workstation archive](https://robertkeeley.com/product/delay-workstation/) — Dual DSP, two eight-choice banks; pitch delay and shimmer; pitch-delay/flanged-reverb combination. No firmware download/history located. (Exact-model manufacturer page read).
+- [Delay Workstation original-format manual](https://media.rockboard.de/erp_article/Product-Pictures/Keeley/KE%20DELAY%20WORKSTATION/WSDelayWorkstation_Manual%20_EN.pdf) — Pitch MORPH octave down/off/up; Shimmer octave-up amount; physical bank selectors and expression/tap controls; no preset storage or public update procedure documented. (Supplier-hosted original two-page manual indexed text read).
+
+<!-- firmware-pitch:Keeley::Delay Workstation ends -->
+
 Checked 2026-10-18; partial. Dual DSP delay/reverb multi-effects; distinct from Super Mod Workstation, Mod Workstation, ECCOS and Dark Side. The manufacturer documents combined delay/reverb banks, supporting effects-only guitar multi-effects eligibility. Ownership is unknown. Bass/vocal suitability is unclassified.
 
 <!-- comparison evidence begins -->
