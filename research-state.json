@@ -187607,11 +187607,35 @@
             "sha256": "c5bb39fd9e3a94b7ca09cf7bfab0bb65de729b662c4449f4eb9ed0e4167b169b"
           }
         }
+      },
+      "EROK::Pocket Sonic": {
+        "model_key": "EROK::Pocket Sonic",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://erokmusic.com/img/products/POCKET-SONIC-1.webp?v=4ce396f7e12a5a5c",
+            "source_url": "https://erokmusic.com/product/multi-effects/POCKET-SONIC",
+            "caption": "Pocket Sonic top-down manufacturer image with active P08 display",
+            "note": "Official exact-model gallery shows EROK branding, P08 screen and six module indicators. A physically powered-on photo versus composited promotional display is not independently established.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": true,
+            "sha256": "4ce396f7e12a5a5caedf93bd10e55c70ac0dbe2ce9101002f4a36347fb009e41"
+          },
+          "rear": {
+            "image_url": "https://erokmusic.com/img/products/POCKET-SONIC-3.webp?v=a50284ef1f37eefb",
+            "source_url": "https://erokmusic.com/product/multi-effects/POCKET-SONIC",
+            "caption": "Pocket Sonic angled rear connection view",
+            "note": "Exact manufacturer gallery clearly shows power, USB, phones, IN and OUT labels. Angled view includes the active display; it is not substituted with Pocket Amp regulatory images.",
+            "visual_checked": true,
+            "sha256": "a50284ef1f37eefb4bdadc003e1479c2040029e086f08ea3ab5c091fcf1bc7d1"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "EROK::MP-20"
+    "last_model": "EROK::Pocket Sonic"
   }
 }

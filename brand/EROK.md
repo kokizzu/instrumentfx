@@ -212,6 +212,26 @@ Sources checked:
 
 <!-- firmware-pitch:EROK::Pocket Sonic ends -->
 
+<!-- model-images:EROK::Pocket Sonic begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Pocket Sonic top-down manufacturer image with active P08 display**
+
+[![Pocket Sonic top-down manufacturer image with active P08 display](https://erokmusic.com/img/products/POCKET-SONIC-1.webp?v=4ce396f7e12a5a5c)](https://erokmusic.com/img/products/POCKET-SONIC-1.webp?v=4ce396f7e12a5a5c)
+
+[Image source](https://erokmusic.com/product/multi-effects/POCKET-SONIC). Official exact-model gallery shows EROK branding, P08 screen and six module indicators. A physically powered-on photo versus composited promotional display is not independently established.
+
+**Pocket Sonic angled rear connection view**
+
+[![Pocket Sonic angled rear connection view](https://erokmusic.com/img/products/POCKET-SONIC-3.webp?v=a50284ef1f37eefb)](https://erokmusic.com/img/products/POCKET-SONIC-3.webp?v=a50284ef1f37eefb)
+
+[Image source](https://erokmusic.com/product/multi-effects/POCKET-SONIC). Exact manufacturer gallery clearly shows power, USB, phones, IN and OUT labels. Angled view includes the active display; it is not substituted with Pocket Amp regulatory images.
+
+</details>
+<!-- model-images:EROK::Pocket Sonic ends -->
+
+
 Checked2026-10-18;partial. Manufacturer explicitly identifies a miniature **guitar multi-effects processor with headphone practice**. Exact Indonesian hardware title establishes a separate Pocket Sonic offer. Bass/vocal suitability andownership remain unverified. The regulatory hardware-family declaration below links Pocket Sonic with POCKET AMP;retail revision,firmware andfeature equivalence remain unverified. [Manufacturer](https://erokmusic.com/index.html).
 
 | Field | Evidence / qualification |
