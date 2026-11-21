@@ -7011,6 +7011,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::VE-20 ends -->
 
+<!-- model-images:BOSS::VE-20 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS VE-20 — top panel**
+
+[![BOSS VE-20 — top panel](https://static.roland.com/assets/images/products/main/ve-20_top_main.jpg)](https://static.roland.com/assets/images/products/main/ve-20_top_main.jpg)
+
+[Image source](https://www.boss.info/global/products/ve-20/). Official straight top-down promotional photograph: orange display shows Preset / 5th + DOUBLE and colored power/effect/record indicators are illuminated. Source is only 374 × 330 pixels, limiting small-label detail. No independent device operation.
+
+**BOSS VE-20 — rear connections**
+
+[![BOSS VE-20 — rear connections](https://www.recordcase.de/media/f7/f7/c7/1700595111/boss-ve-20_back.jpg?ts=1700637450)](https://www.recordcase.de/media/f7/f7/c7/1700595111/boss-ve-20_back.jpg?ts=1700637450)
+
+[Image source](https://www.recordcase.de/en/boss-ve-20). Unobstructed retailer rear photograph shows combo INPUT, PHONES/LINE, balanced OUTPUT R and L/MONO, POWER switch and DC IN. Rear photograph alone does not establish operating power state.
+
+</details>
+<!-- model-images:BOSS::VE-20 ends -->
+
+
 Vocal multi-effects;manufacturer page marks discontinued. Consolidated/researched2026-10-16;partial verification.
 
 ### VE-20 — preserved original comparison

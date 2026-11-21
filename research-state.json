@@ -193209,11 +193209,35 @@
             "sha256": "1876d21e14ecf8b285bd54ccd9842e0b49e25ee9bce850e62baeb89543a1bcdf"
           }
         }
+      },
+      "BOSS::VE-20": {
+        "model_key": "BOSS::VE-20",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/assets/images/products/main/ve-20_top_main.jpg",
+            "source_url": "https://www.boss.info/global/products/ve-20/",
+            "caption": "BOSS VE-20 — top panel",
+            "note": "Official straight top-down promotional photograph: orange display shows Preset / 5th + DOUBLE and colored power/effect/record indicators are illuminated. Source is only 374 × 330 pixels, limiting small-label detail. No independent device operation.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "750aab0b906f09f3e28e13f411c80a3ad8bc464e961b9214614b562070471f25"
+          },
+          "rear": {
+            "image_url": "https://www.recordcase.de/media/f7/f7/c7/1700595111/boss-ve-20_back.jpg?ts=1700637450",
+            "source_url": "https://www.recordcase.de/en/boss-ve-20",
+            "caption": "BOSS VE-20 — rear connections",
+            "note": "Unobstructed retailer rear photograph shows combo INPUT, PHONES/LINE, balanced OUTPUT R and L/MONO, POWER switch and DC IN. Rear photograph alone does not establish operating power state.",
+            "visual_checked": true,
+            "sha256": "281a5bde42ff7106e41139ac3dab2c8f6648923ee4df967a249125b0ff1e0b59"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::VE-1"
+    "last_model": "BOSS::VE-20"
   }
 }
