@@ -192043,11 +192043,35 @@
             "sha256": "8af8c95a2387e0b0ddbe34ec8f081fe69cc8c45abac1847d77bb7d5f6def680d"
           }
         }
+      },
+      "Line 6::Pocket POD": {
+        "model_key": "Line 6::Pocket POD",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/l/0a06007297c54672c3a641918/image/jpeg/Pocket%20PODsupsup%20(Top%20Down%20on%20White%20-)%20-%20Lo%20Rez.jpeg",
+            "source_url": "https://line6.com/company/images/?families=1",
+            "caption": "Pocket POD — powered-on top-down view",
+            "note": "Exact red Pocket POD with four parameter knobs, illuminated orange LCD and red TAP indicator; manufacturer archive explicitly identifies Top Down on White. Not Pocket POD Express.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "4449244399bc1a1901abe6cb3dd629948f87eed6eb7667d6538ee8bf3048da66"
+          },
+          "rear": {
+            "image_url": "https://l6c-acdn2.line6.net/data/6/0a020a3f14b8059837287c9200/image/png/file.png",
+            "source_url": "https://line6.com/pocket-pod/",
+            "caption": "Pocket POD — rear audio and power ports",
+            "note": "Exact Pocket POD rear shows CD/MP3 IN, AMP OUT, DIRECT OUT/PHONES,9VDC and GUITAR IN. USB mini connector is outside this rear view. This photograph labels9VDC; older manual DC-1 adapter9.6V rating remains a separately qualified source.",
+            "visual_checked": true,
+            "sha256": "f81578daa3075708e5c34ee18759f6dc056daa9c24e82182f52895e67f86980f"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::M9"
+    "last_model": "Line 6::Pocket POD"
   }
 }
