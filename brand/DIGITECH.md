@@ -1770,6 +1770,26 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP360XP ends -->
 
+<!-- model-images:DigiTech::RP360XP begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**DigiTech RP360XP — top panel**
+
+[![DigiTech RP360XP — top panel](https://d1aeri3ty3izns.cloudfront.net/media/8/87261/1200/preview.jpg)](https://d1aeri3ty3izns.cloudfront.net/media/8/87261/1200/preview.jpg)
+
+[Image source](https://www.gear4music.se/sv/Gitarr-bas/Digitech-RP360XP-Multi-Effects-Pedal/XG1). Retailer promotional photo with lit LCD and red status indicators; built-in expression pedal identifies the XP hardware. Three-quarter overhead angle, not exact top-down; a straight overhead replacement remains pending. No independent operation.
+
+**DigiTech RP360XP — rear connections**
+
+[![DigiTech RP360XP — rear connections](https://media.guitarcenter.com/is/image/MMGS7/J06702000000000-01-2000x2000.jpg)](https://media.guitarcenter.com/is/image/MMGS7/J06702000000000-01-2000x2000.jpg)
+
+[Image source](https://www.guitarcenter.com/Blemished/DigiTech/RP360XP-Guitar-Multi-Effects-Pedal-Level-2-Regular-888365984292-J06702005000015.gc). Clear retailer rear photograph of XP hardware shows INPUT, AUX IN, LEFT OUT, RIGHT OUT, headphone socket, CONTROL IN, USB Type-B and POWER labeled 9V DC / 400mA, center-negative. All sockets and labels visible. Rear photograph alone does not establish operating power state.
+
+</details>
+<!-- model-images:DigiTech::RP360XP ends -->
+
+
 Expression-equipped guitar processor;not RP360. Checked 2026-10-17. Past-product status does not establish retailer stock. Bass suitability unclassified.
 
 | Field | Finding / qualification | Evidence |

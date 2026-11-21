@@ -193411,11 +193411,35 @@
             "sha256": "bf4292677ef1d7ba2fcbf6a39143ba991b0fda9ef6020d2e2eb579059590d039"
           }
         }
+      },
+      "DigiTech::RP360XP": {
+        "model_key": "DigiTech::RP360XP",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://d1aeri3ty3izns.cloudfront.net/media/8/87261/1200/preview.jpg",
+            "source_url": "https://www.gear4music.se/sv/Gitarr-bas/Digitech-RP360XP-Multi-Effects-Pedal/XG1",
+            "caption": "DigiTech RP360XP — top panel",
+            "note": "Retailer promotional photo with lit LCD and red status indicators; built-in expression pedal identifies the XP hardware. Three-quarter overhead angle, not exact top-down; a straight overhead replacement remains pending. No independent operation.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "38275558c4182e1f593fca6c87d034d4185366e0006028e15a97af414f10cc0f"
+          },
+          "rear": {
+            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/J06702000000000-01-2000x2000.jpg",
+            "source_url": "https://www.guitarcenter.com/Blemished/DigiTech/RP360XP-Guitar-Multi-Effects-Pedal-Level-2-Regular-888365984292-J06702005000015.gc",
+            "caption": "DigiTech RP360XP — rear connections",
+            "note": "Clear retailer rear photograph of XP hardware shows INPUT, AUX IN, LEFT OUT, RIGHT OUT, headphone socket, CONTROL IN, USB Type-B and POWER labeled 9V DC / 400mA, center-negative. All sockets and labels visible. Rear photograph alone does not establish operating power state.",
+            "visual_checked": true,
+            "sha256": "1598e6a81052139df79b905e86a0e241a5625549e35d3e51751a31e6bbc894b8"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP1000"
+    "last_model": "DigiTech::RP360XP"
   }
 }
