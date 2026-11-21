@@ -200034,11 +200034,37 @@
             "sha256": "68f94eb403b594fd11374d30c127af4d0bc0addc308f0cf5ddca0347de725e5c"
           }
         }
+      },
+      "NUX::MG-200": {
+        "model_key": "NUX::MG-200",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG200.jpg",
+            "source_url": "https://nuxaudio.com/product/mg200/",
+            "caption": "NUX MG-200 — top controls",
+            "visual_checked": true,
+            "note": "Manufacturer image shows the MG-200 top controls and illuminated color display (9A, 70’s hard solo). Near-overhead elevated view with slight front perspective, not a strict perpendicular top-down photograph; exact overhead powered-on coverage remains a gap.",
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "26b028e5e3c285696eeb4b3a5954867302aa5701adff4c2650a16546e91f1d34"
+          },
+          "rear": {
+            "image_url": "https://d1aeri3ty3izns.cloudfront.net/media/20/204130/1200/preview.jpg",
+            "source_url": "https://www.gear4music.fr/fr/Guitare-and-Basse/DISC-NUX-MG-200-Multi-Effects-Pedal/1KLH",
+            "caption": "NUX MG-200 — rear ports",
+            "visual_checked": true,
+            "note": "Retailer rear-panel photograph clearly shows INPUT, AUX IN, R and L/MONO OUTPUT, PHONES, CTRL2, USB-B and center-negative DC9V. Display visible above the rear panel is unlit. USB audio is not established by the photograph.",
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "1efd6a23583795ec64b84e607aa80f3f33e38c43d2337519758cdd2c8f2fab54"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MG-100"
+    "last_model": "NUX::MG-200"
   }
 }
