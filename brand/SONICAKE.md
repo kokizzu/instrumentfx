@@ -409,6 +409,32 @@ New prices are individual official-store observations checked **2026-10-14**, no
 
 ## Matribox QME-50
 
+<!-- firmware-pitch:Sonicake::Matribox QME-50 begins -->
+### Firmware and pitch audit — Sonicake Matribox QME-50
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact first on-sale date not established by the checked original-model product/support sources. Do not use Matribox II launch dates or manual upload timestamps. [launch 1](https://www.sonicake.com/products/matribox) |
+| Firmware / latest verification | 1.1.0 — Latest verified. Latest manufacturer-listed firmware is 1.1.0; latest desktop software is 1.1.1 (NAM A2 supported), not a newer firmware. Firmware notes are undated; December 2025 blog announces availability but does not establish exact first release. Adds five Clone slots in AMP; using Clone disables CAB. Support specifies software 1.0.2 for firmware updating, then latest editor for normal use. [firmware 1](https://www.sonicake.com/pages/matribox-software-firmware-download) [firmware 2](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Firmware_Release_Note.pdf?v=1763427698) [firmware 3](https://www.sonicake.com/blogs/news/matribox-v1-1-0-firmware-update) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Original QME-50 manual explicitly describes Octaver as polyphonic octave and Dual Melody/Pitch as polyphonic shifter/harmonizer, in shared FX1/FX2 choices. Dry, high/low voice level and pitch controls are documented; precise algorithm-specific interval endpoints and independently tested tracking limits remain unverified. [pitch 1](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433) [pitch 2](https://www.sonicake.com/products/matribox) |
+| Pitch / preset recall | 99 factory plus 99 user presets; pitch parameters are part of saved effect settings. Existing +2 whole-step, dry-muted proposal remains a conditional audition, not a physical-unit validation. Expression target and min/max configuration documented; no blanket global transposition recall guarantee inferred. |
+| Pitch / DSP resources | Each pitch choice uses an FX1/FX2 module selection within nine movable blocks. No isolated CPU percentage or measured pitch resource figure published in checked sources. Do not transfer customer-review 50% NAM chip claims to pitch DSP cost. |
+| Pitch / qualifications | No physical unit chord-tracking, latency or DSP test. Manufacturer Windows 11 updater/import warning retained; no device update or driver installation performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Original Matribox download page](https://www.sonicake.com/pages/matribox-software-firmware-download) — Firmware1.1.0/editor1.1.1 distinction and required updater1.0.2. (Manufacturer source checked 2026-11-22).
+- [Matribox firmware release notes](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Firmware_Release_Note.pdf?v=1763427698) — Undated1.1.0 Clone addition, CAB disabled;1.0.4 initial release. (Manufacturer source checked 2026-11-22).
+- [Matribox 1.1.0 announcement](https://www.sonicake.com/blogs/news/matribox-v1-1-0-firmware-update) — December2025 availability announcement, five Clone slots; not exact firmware date. (Manufacturer source checked 2026-11-22).
+- [Matribox manual firmware 1.1.0](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433) — Printed p15 polyphonic Octaver/Dual Melody/Pitch; pp16-17 voice controls and expression settings. (Manufacturer source checked 2026-11-22).
+- [Matribox QME-50 product](https://www.sonicake.com/products/matribox) — Exact original model; nine blocks,198 presets99factory99user; no first sale date. (Manufacturer source checked 2026-11-22).
+
+<!-- firmware-pitch:Sonicake::Matribox QME-50 ends -->
+
 <!-- comparison evidence begins -->
 
 **Existing review2026-10-14.** Original Matribox, not II or II Pro.
