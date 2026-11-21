@@ -1326,6 +1326,33 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 ## GE150 Pro Li
 
+<!-- firmware-pitch:MOOER::GE150 Pro Li begins -->
+### Firmware and pitch audit — MOOER GE150 Pro Li
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-09-11 (manufacturer series announcement index proxy). Manufacturer Chinese archive dates GE150 Pro series announcement to September 11, 2024; joint product identifies both Pro and Pro Li. Series announcement proxy, not verified Li first shipment. Product prose says August 9 without a year, so an earlier exact Li launch remains unresolved. [launch 1](https://cn.mooeraudio.com/bews/p-36-12.html) [launch 2](https://www.mooeraudio.com/products/207.html) |
+| Firmware / latest verification | 2.0.0 (explicit Li historical fix) — Located; latest status unverified. May 2025 2.0.0 explicitly fixes GE150 PRO LI occasionally restoring defaults. This is a dated Li-specific historical anchor, not the current latest claim. Later family page lists Pro 2.1.4 in August 2026, but does not explicitly name Li compatibility there; exact current Li payload/version remains unverified. The span below ends at that historical fix, not at the latest family release. English A2 conversion conflicts with a Chinese native-A2-Lite supplement; no unrestricted native or latest NAM support inferred for Li. Upload timestamps are separate. [firmware 1](https://www.mooeraudio.com/Downloads_xq/6.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/4.html) |
+| Firmware / release date | 2025-05 (month precision) |
+| Firmware / release-to-update duration | 0.64–0.72 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Shared manufacturer Pro/Pro Li manual lists Pitch Shift and Detune in MOD. The regional Pro 1.5 inventory additionally lists Octave; exact current Li library not independently enumerated. Polyphonic/monophonic note handling is not specified in inspected pitch descriptions. [pitch 1](https://www.manualslib.com/guide/3646063/mooer-ge150-pro-ge150-pro-li-manual.html) [pitch 2](https://mooer.jp/pages/ge150pro1-5-0) |
+| Pitch / preset recall | 200 factory-filled editable slots, 50 banks × 4. SAVE retains module edits; expression mappings and volume settings must be saved per preset. Held-pedal recall untested. |
+| Pitch / DSP resources | Nine simultaneous modules with one algorithm per module. Pitch Shift occupies MOD, competing with its modulation choices. No isolated pitch DSP percentage, processing-load meter specification or current-firmware allocation table located. |
+| Pitch / qualifications | Shared manual explicitly names Li; standard model current firmware compatibility not automatically transferred. No hardware pitch-quality, latency or DSP measurements. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER Chinese news archive](https://cn.mooeraudio.com/bews/p-36-12.html) — GE150 Pro series announcement 2024-09-11; Li shipment date unresolved. (Manufacturer dated series entry read; linked article inaccessible).
+- [GE150 Pro/GE150 Pro Li joint product](https://www.mooeraudio.com/products/207.html) — Two editions explicitly named; August 9 introduction has no year. (Manufacturer joint product body read).
+- [GE150 family English firmware notes](https://www.mooeraudio.com/Downloads_xq/6.html) — 2.0.0 May 2025 explicitly fixes Pro Li reset issue; later Pro 2.1.4 August 2026 lacks explicit Li identification. (Manufacturer changelog read).
+- [GE150 family Chinese firmware notes](https://cn.mooeraudio.com/Downloads_xq/4.html) — Matching family 2.1.4; conversion versus native-loading contradiction and older date conflicts retained. (Manufacturer changelog read).
+- [GE150 Pro/GE150 Pro Li Owner’s Manual](https://www.manualslib.com/guide/3646063/mooer-ge150-pro-ge150-pro-li-manual.html) — Pitch Shift/Detune; nine modules; 200 slots; SAVE and per-preset expression. (Manufacturer-authored shared manual body read on mirror).
+- [GE150 Pro 1.5 effect inventory](https://mooer.jp/pages/ge150pro1-5-0) — Additional Octave in MOD; not an independent current Li inventory. (Manufacturer regional effect list read).
+
+<!-- firmware-pitch:MOOER::GE150 Pro Li ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE150-PRO-LI source begins -->

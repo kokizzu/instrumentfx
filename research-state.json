@@ -194002,6 +194002,89 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "MOOER::GE150 Pro Li": {
+        "model_key": "MOOER::GE150 Pro Li",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2024-09-11",
+          "precision": "day",
+          "kind": "manufacturer_series_announcement_index_proxy",
+          "source_urls": [
+            "https://cn.mooeraudio.com/bews/p-36-12.html",
+            "https://www.mooeraudio.com/products/207.html"
+          ],
+          "note": "Manufacturer Chinese archive dates GE150 Pro series announcement to September 11, 2024; joint product identifies both Pro and Pro Li. Series announcement proxy, not verified Li first shipment. Product prose says August 9 without a year, so an earlier exact Li launch remains unresolved."
+        },
+        "firmware": {
+          "version": "2.0.0 (explicit Li historical fix)",
+          "date": "2025-05",
+          "precision": "month",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/Downloads_xq/6.html",
+            "https://cn.mooeraudio.com/Downloads_xq/4.html"
+          ],
+          "note": "May 2025 2.0.0 explicitly fixes GE150 PRO LI occasionally restoring defaults. This is a dated Li-specific historical anchor, not the current latest claim. Later family page lists Pro 2.1.4 in August 2026, but does not explicitly name Li compatibility there; exact current Li payload/version remains unverified. The span below ends at that historical fix, not at the latest family release. English A2 conversion conflicts with a Chinese native-A2-Lite supplement; no unrestricted native or latest NAM support inferred for Li. Upload timestamps are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Shared manufacturer Pro/Pro Li manual lists Pitch Shift and Detune in MOD. The regional Pro 1.5 inventory additionally lists Octave; exact current Li library not independently enumerated. Polyphonic/monophonic note handling is not specified in inspected pitch descriptions.",
+          "preset": "200 factory-filled editable slots, 50 banks × 4. SAVE retains module edits; expression mappings and volume settings must be saved per preset. Held-pedal recall untested.",
+          "dsp": "Nine simultaneous modules with one algorithm per module. Pitch Shift occupies MOD, competing with its modulation choices. No isolated pitch DSP percentage, processing-load meter specification or current-firmware allocation table located.",
+          "source_urls": [
+            "https://www.manualslib.com/guide/3646063/mooer-ge150-pro-ge150-pro-li-manual.html",
+            "https://mooer.jp/pages/ge150pro1-5-0"
+          ],
+          "measurements": [],
+          "notes": [
+            "Shared manual explicitly names Li; standard model current firmware compatibility not automatically transferred. No hardware pitch-quality, latency or DSP measurements."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://cn.mooeraudio.com/bews/p-36-12.html",
+            "title": "MOOER Chinese news archive",
+            "access": "Manufacturer dated series entry read; linked article inaccessible",
+            "evidence": "GE150 Pro series announcement 2024-09-11; Li shipment date unresolved."
+          },
+          {
+            "url": "https://www.mooeraudio.com/products/207.html",
+            "title": "GE150 Pro/GE150 Pro Li joint product",
+            "access": "Manufacturer joint product body read",
+            "evidence": "Two editions explicitly named; August 9 introduction has no year."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/6.html",
+            "title": "GE150 family English firmware notes",
+            "access": "Manufacturer changelog read",
+            "evidence": "2.0.0 May 2025 explicitly fixes Pro Li reset issue; later Pro 2.1.4 August 2026 lacks explicit Li identification."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/Downloads_xq/4.html",
+            "title": "GE150 family Chinese firmware notes",
+            "access": "Manufacturer changelog read",
+            "evidence": "Matching family 2.1.4; conversion versus native-loading contradiction and older date conflicts retained."
+          },
+          {
+            "url": "https://www.manualslib.com/guide/3646063/mooer-ge150-pro-ge150-pro-li-manual.html",
+            "title": "GE150 Pro/GE150 Pro Li Owner’s Manual",
+            "access": "Manufacturer-authored shared manual body read on mirror",
+            "evidence": "Pitch Shift/Detune; nine modules; 200 slots; SAVE and per-preset expression."
+          },
+          {
+            "url": "https://mooer.jp/pages/ge150pro1-5-0",
+            "title": "GE150 Pro 1.5 effect inventory",
+            "access": "Manufacturer regional effect list read",
+            "evidence": "Additional Octave in MOD; not an independent current Li inventory."
+          }
+        ],
+        "duration": {
+          "minimum_days": 232,
+          "maximum_days": 262,
+          "label": "0.64–0.72 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -194037,7 +194120,6 @@
       "MOOER::GE150 Max Li",
       "MOOER::GE150 Plus",
       "MOOER::GE150 Plus Li",
-      "MOOER::GE150 Pro Li",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
       "MOOER::PE100",
@@ -194217,9 +194299,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 192,
-    "last_model": "MOOER::GE150 Pro",
-    "last_commit_parent": "c3acb0fb86e27309f349bf6a8f7c8595a14b9bcf",
+    "completed_model_count": 193,
+    "last_model": "MOOER::GE150 Pro Li",
+    "last_commit_parent": "83cb774805a9a76715f323b171bd6cdc33fe3c5e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -194254,7 +194336,6 @@
       "MOOER::GE150 Max Li",
       "MOOER::GE150 Plus",
       "MOOER::GE150 Plus Li",
-      "MOOER::GE150 Pro Li",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
       "MOOER::PE100",
@@ -194433,7 +194514,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 192,
+    "pitch_completed_model_count": 193,
     "supplemental_model_count": 0
   },
   "model_images": {
