@@ -199074,6 +199074,62 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Sonicake::Levitate QDS-02": {
+        "model_key": "Sonicake::Levitate QDS-02",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "Original hardware launch unresolved",
+          "source_urls": [
+            "https://www.sonicake.com/products/levitate",
+            "https://www.hotone.jp/brands/sonicake/products/levitate"
+          ],
+          "note": "Official exact-model pages do not date the original hardware launch. Later regional retailer listing dates and manual-image upload timestamps are not first-release evidence."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.sonicake.com/products/levitate",
+            "https://www.hotone.jp/brands/sonicake/products/levitate"
+          ],
+          "note": "No user firmware download, installed-version identification or dated firmware history located on the checked exact-model official pages. Digital effects do not imply a user-accessible updater."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Digital delay up to 2000 ms and plate reverb; no pitch transposition, octave or harmony algorithm documented.",
+          "preset": "Physical controls, tap tempo and trails documented; addressable preset memories and pitch-preset recall not documented.",
+          "dsp": "No per-effect CPU/DSP utilization or allocatable processing budget published in checked sources. Two effect functions and 92 mA electrical current are not DSP percentages.",
+          "source_urls": [
+            "https://www.sonicake.com/products/levitate",
+            "https://www.hotone.jp/brands/sonicake/products/levitate"
+          ],
+          "measurements": [],
+          "notes": [
+            "Do not classify ordinary delay/reverb processing as polyphonic pitch shifting.",
+            "No public firmware found does not establish absence of internal firmware."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sonicake.com/products/levitate",
+            "title": "SONICAKE Levitate QDS-02 official product",
+            "access": "readable official product page",
+            "evidence": "Exact model QDS-02, digital delay/plate reverb, 2000 ms maximum delay, tap tempo, trails and buffered bypass; no pitch algorithm or public updater documented."
+          },
+          {
+            "url": "https://www.hotone.jp/brands/sonicake/products/levitate",
+            "title": "Hotone Japan Levitate official regional product",
+            "access": "readable official regional product page",
+            "evidence": "Corroborates two time-based effects and 92 mA current; original launch date and firmware version/history not supplied."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -199096,7 +199152,6 @@
       "ROWIN::RE-05 Looper Pro",
       "Sonicake::A Factory QDS-04",
       "Sonicake::B Factory QDS-05",
-      "Sonicake::Levitate QDS-02",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
@@ -199228,9 +199283,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 253,
-    "last_model": "Sonicake::RockStage QCE-10",
-    "last_commit_parent": "6829488e73075b88e46ea854c311c8b5114bd283",
+    "completed_model_count": 254,
+    "last_model": "Sonicake::Levitate QDS-02",
+    "last_commit_parent": "91a946a6af3081a0f569dd0c902e2789012aa042",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -199252,7 +199307,6 @@
       "ROWIN::RE-05 Looper Pro",
       "Sonicake::A Factory QDS-04",
       "Sonicake::B Factory QDS-05",
-      "Sonicake::Levitate QDS-02",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
@@ -199383,7 +199437,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 253,
+    "pitch_completed_model_count": 254,
     "supplemental_model_count": 0
   },
   "model_images": {

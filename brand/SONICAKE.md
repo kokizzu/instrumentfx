@@ -184,6 +184,29 @@ All Sonicake-specific values,source URLs,firmware qualifications,price caveats a
 
 ## Levitate QDS-02
 
+<!-- firmware-pitch:Sonicake::Levitate QDS-02 begins -->
+### Firmware and pitch audit — Sonicake Levitate QDS-02
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Official exact-model pages do not date the original hardware launch. Later regional retailer listing dates and manual-image upload timestamps are not first-release evidence. [launch 1](https://www.sonicake.com/products/levitate) [launch 2](https://www.hotone.jp/brands/sonicake/products/levitate) |
+| Firmware / latest verification | Not verified — No public firmware located. No user firmware download, installed-version identification or dated firmware history located on the checked exact-model official pages. Digital effects do not imply a user-accessible updater. [firmware 1](https://www.sonicake.com/products/levitate) [firmware 2](https://www.hotone.jp/brands/sonicake/products/levitate) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Digital delay up to 2000 ms and plate reverb; no pitch transposition, octave or harmony algorithm documented. [pitch 1](https://www.sonicake.com/products/levitate) [pitch 2](https://www.hotone.jp/brands/sonicake/products/levitate) |
+| Pitch / preset recall | Physical controls, tap tempo and trails documented; addressable preset memories and pitch-preset recall not documented. |
+| Pitch / DSP resources | No per-effect CPU/DSP utilization or allocatable processing budget published in checked sources. Two effect functions and 92 mA electrical current are not DSP percentages. |
+| Pitch / qualifications | Do not classify ordinary delay/reverb processing as polyphonic pitch shifting. No public firmware found does not establish absence of internal firmware. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [SONICAKE Levitate QDS-02 official product](https://www.sonicake.com/products/levitate) — Exact model QDS-02, digital delay/plate reverb, 2000 ms maximum delay, tap tempo, trails and buffered bypass; no pitch algorithm or public updater documented. (readable official product page).
+- [Hotone Japan Levitate official regional product](https://www.hotone.jp/brands/sonicake/products/levitate) — Corroborates two time-based effects and 92 mA current; original launch date and firmware version/history not supplied. (readable official regional product page).
+
+<!-- firmware-pitch:Sonicake::Levitate QDS-02 ends -->
+
 Checked 2026-10-18; partial. [Sonicake's exact product](https://www.sonicake.com/products/levitate) identifies QDS-02 and digital delay plus plate reverb, supporting dual-effects eligibility. [Linked original manual image](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/QDS-2.jpg?v=1676949363) returned no visible/readable content in browser tool;not inspected. No sibling facts transferred.
 
 | Field | Finding / qualification |
