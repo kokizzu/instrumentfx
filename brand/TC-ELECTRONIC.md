@@ -812,6 +812,33 @@ This resolves earlier physical-placement uncertainty only. Exact Shopee Indonesi
 
 ## PLETHORA X3
 
+<!-- firmware-pitch:TC Electronic::PLETHORA X3 begins -->
+### Firmware and pitch audit — TC Electronic PLETHORA X3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022-05-26 (manufacturer official product launch video). TC Electronic official X3 launch video publishedMay26,2022;launch date,not independently verified first customer delivery. [launch 1](https://www.youtube.com/watch?v=lLFVbJVetGg) |
+| Firmware / latest verification | 1.5.6 — Located; latest status unverified. Manufacturer notes explicitly date1.5.6 forPX5andPX3. CurrentexactX3 productpage stillheads1.4.3 with1.3.11previous. Newer documentedrelease retained;presentdownload availability/lateststatus conflicts remain unresolved. No binary installed or update attempted. [firmware 1](https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf) [firmware 2](https://www.tcelectronic.com/en/products/0709-AIS) |
+| Firmware / release date | 2025-03-23 (day precision) |
+| Firmware / release-to-update duration | 2.83 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. ExactX3 inventory namesBRAINWAVES PITCH SHIFTER,SUB N UP OCTAVER andQUINTESSENCE HARMONY. Manufacturer standaloneBrainwaves documentation explicitly describes polyphonic shifting,two independent voices up/down2octaves;standaloneSubNUp describes both polyphonic andmonophonic modes. These are named-algorithm provenance,not directX3 mode-by-mode validation. X3-specific polyphony/note limits andQuintessence chordhandling remain unverified;two generated voices are not two simultaneous inputnotes. [pitch 1](https://www.tcelectronic.com/en/products/0709-AIS) [pitch 2](https://cdn-media.empowertribe.com/a7147f29903640918cc9bc9fc6e097dc/QSG_TE_0709-AIS_PLETHORA-X3_WW.pdf) [pitch 3](https://www.tcelectronic.com/en/products/0709-AIR) [pitch 4](https://tcelectronic.com/en/products/0709-AGR) [pitch 5](https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf) |
+| Pitch / preset recall | Up to127Boards of3pedals;75TonePrint favorites per effect. EDIT changes auto-save;PLAY HOTKNOB changesdo not. TonePrints include parameter values andknob/MASH mappings;MIDI canchangeBoards/controlparameters. Exact pitchmode/interval availability ineachX3TonePrint andgapless pitchchanges untested. |
+| Pitch / DSP resources | Pitch-specific CPU percentage andmeasured resource cost not published inchecked sources. Three slots are theBoard capacity,not33.3%CPU per pitchalgorithm. Manufacturer1.5.6 explicitly omitsInfinite reverb because ofsystemresourcecost evenwhenunused,requiringseparateHallOfFame2slot;this is qualitative sustainer evidence,not pitchDSPmeasurement. Published0.8–2.4ms device latency isnot pitch-specific tracking latency. |
+| Pitch / qualifications | Do not transfer the standalonepedals hardwarecontrols,TonePrintslotcounts,orallmodebehavior toX3. Infinite holds notes/chords but is not proof ofpolyphonictransposition. No trackingtest orinstalledfirmwarecheck performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Electronic PLETHORA X3 official launch video](https://www.youtube.com/watch?v=lLFVbJVetGg) — May26,2022 exactX3 launch;127miniBoards. (Manufacturer channel publication date/description inspected).
+- [TC Electronic PLETHORA X3 current exact0709-AIS page](https://www.tcelectronic.com/en/products/0709-AIS) — Namedpitchalgorithms,3slots,127Boards,75TonePrints;currentfirmwarelistheads1.4.3,not1.5.6. (Directmanufacturer page read).
+- [TC Electronic shared X5/X3 firmware1.5.6 release notes](https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf) — ExplicitPX5andPX3 March23,2025;Infinite,momentarymodes,resource-drivenreverb omission. (Indexed originalmanufacturer firstpage read;directPDF500;earliercanonicalhistory retained).
+- [TC Electronic PLETHORA X3 V0.0 Quick Start Guide](https://cdn-media.empowertribe.com/a7147f29903640918cc9bc9fc6e097dc/QSG_TE_0709-AIS_PLETHORA-X3_WW.pdf) — EDITauto-save versusPLAYHOTKNOBexception;5rotaries3MASH,MiniB/MIDI/audioinventory. (Previously read directmanufacturer original;canonicalcontrolandsavingscope evidence reread).
+- [TC Electronic standalone BRAINWAVES PITCH SHIFTER](https://www.tcelectronic.com/en/products/0709-AIR) — Standalonepolyphonicshifting andindependentdualvoices±2octaves;notdirectX3confirmation. (Directmanufacturer featurelist read).
+- [TC Electronic standalone SUB N UP OCTAVER](https://tcelectronic.com/en/products/0709-AGR) — Standalonepolyphonic andmonophonic modes;notdirectX3modevalidation. (Manufacturer originalindexed page read).
+
+<!-- firmware-pitch:TC Electronic::PLETHORA X3 ends -->
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->

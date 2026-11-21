@@ -201239,10 +201239,95 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC Electronic::PLETHORA X3": {
+        "model_key": "TC Electronic::PLETHORA X3",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2022-05-26",
+          "precision": "day",
+          "kind": "manufacturer official product launch video",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=lLFVbJVetGg"
+          ],
+          "note": "TC Electronic official X3 launch video publishedMay26,2022;launch date,not independently verified first customer delivery."
+        },
+        "firmware": {
+          "version": "1.5.6",
+          "date": "2025-03-23",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf",
+            "https://www.tcelectronic.com/en/products/0709-AIS"
+          ],
+          "note": "Manufacturer notes explicitly date1.5.6 forPX5andPX3. CurrentexactX3 productpage stillheads1.4.3 with1.3.11previous. Newer documentedrelease retained;presentdownload availability/lateststatus conflicts remain unresolved. No binary installed or update attempted."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "ExactX3 inventory namesBRAINWAVES PITCH SHIFTER,SUB N UP OCTAVER andQUINTESSENCE HARMONY. Manufacturer standaloneBrainwaves documentation explicitly describes polyphonic shifting,two independent voices up/down2octaves;standaloneSubNUp describes both polyphonic andmonophonic modes. These are named-algorithm provenance,not directX3 mode-by-mode validation. X3-specific polyphony/note limits andQuintessence chordhandling remain unverified;two generated voices are not two simultaneous inputnotes.",
+          "preset": "Up to127Boards of3pedals;75TonePrint favorites per effect. EDIT changes auto-save;PLAY HOTKNOB changesdo not. TonePrints include parameter values andknob/MASH mappings;MIDI canchangeBoards/controlparameters. Exact pitchmode/interval availability ineachX3TonePrint andgapless pitchchanges untested.",
+          "dsp": "Pitch-specific CPU percentage andmeasured resource cost not published inchecked sources. Three slots are theBoard capacity,not33.3%CPU per pitchalgorithm. Manufacturer1.5.6 explicitly omitsInfinite reverb because ofsystemresourcecost evenwhenunused,requiringseparateHallOfFame2slot;this is qualitative sustainer evidence,not pitchDSPmeasurement. Published0.8–2.4ms device latency isnot pitch-specific tracking latency.",
+          "source_urls": [
+            "https://www.tcelectronic.com/en/products/0709-AIS",
+            "https://cdn-media.empowertribe.com/a7147f29903640918cc9bc9fc6e097dc/QSG_TE_0709-AIS_PLETHORA-X3_WW.pdf",
+            "https://www.tcelectronic.com/en/products/0709-AIR",
+            "https://tcelectronic.com/en/products/0709-AGR",
+            "https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Do not transfer the standalonepedals hardwarecontrols,TonePrintslotcounts,orallmodebehavior toX3.",
+            "Infinite holds notes/chords but is not proof ofpolyphonictransposition. No trackingtest orinstalledfirmwarecheck performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=lLFVbJVetGg",
+            "title": "TC Electronic PLETHORA X3 official launch video",
+            "access": "Manufacturer channel publication date/description inspected",
+            "evidence": "May26,2022 exactX3 launch;127miniBoards."
+          },
+          {
+            "url": "https://www.tcelectronic.com/en/products/0709-AIS",
+            "title": "TC Electronic PLETHORA X3 current exact0709-AIS page",
+            "access": "Directmanufacturer page read",
+            "evidence": "Namedpitchalgorithms,3slots,127Boards,75TonePrints;currentfirmwarelistheads1.4.3,not1.5.6."
+          },
+          {
+            "url": "https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf",
+            "title": "TC Electronic shared X5/X3 firmware1.5.6 release notes",
+            "access": "Indexed originalmanufacturer firstpage read;directPDF500;earliercanonicalhistory retained",
+            "evidence": "ExplicitPX5andPX3 March23,2025;Infinite,momentarymodes,resource-drivenreverb omission."
+          },
+          {
+            "url": "https://cdn-media.empowertribe.com/a7147f29903640918cc9bc9fc6e097dc/QSG_TE_0709-AIS_PLETHORA-X3_WW.pdf",
+            "title": "TC Electronic PLETHORA X3 V0.0 Quick Start Guide",
+            "access": "Previously read directmanufacturer original;canonicalcontrolandsavingscope evidence reread",
+            "evidence": "EDITauto-save versusPLAYHOTKNOBexception;5rotaries3MASH,MiniB/MIDI/audioinventory."
+          },
+          {
+            "url": "https://www.tcelectronic.com/en/products/0709-AIR",
+            "title": "TC Electronic standalone BRAINWAVES PITCH SHIFTER",
+            "access": "Directmanufacturer featurelist read",
+            "evidence": "Standalonepolyphonicshifting andindependentdualvoices±2octaves;notdirectX3confirmation."
+          },
+          {
+            "url": "https://tcelectronic.com/en/products/0709-AGR",
+            "title": "TC Electronic standalone SUB N UP OCTAVER",
+            "access": "Manufacturer originalindexed page read",
+            "evidence": "Standalonepolyphonic andmonophonic modes;notdirectX3modevalidation."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1032,
+          "maximum_days": 1032,
+          "label": "2.83 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC Electronic::PLETHORA X3",
       "TC Electronic::PLETHORA X5",
       "TC-Helicon::Critical Mass",
       "TC-Helicon::Duplicator",
@@ -201364,12 +201449,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 282,
-    "last_model": "TC Electronic::NOVA System",
-    "last_commit_parent": "7f90657952cdd8d140c4ad3f9bbe8d708099c197",
+    "completed_model_count": 283,
+    "last_model": "TC Electronic::PLETHORA X3",
+    "last_commit_parent": "8cc5bbbc4bced408fc5b385efa03d5336aa32162",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC Electronic::PLETHORA X3",
       "TC Electronic::PLETHORA X5",
       "TC-Helicon::Critical Mass",
       "TC-Helicon::Duplicator",
@@ -201490,7 +201574,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 282,
+    "pitch_completed_model_count": 283,
     "supplemental_model_count": 0
   },
   "model_images": {
