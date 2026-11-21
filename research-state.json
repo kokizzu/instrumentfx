@@ -195941,11 +195941,35 @@
             "sha256": "fc68658aceb8b7e1295ee9dff6fdd72d5ecb2fcef3c9dcd97bdd452a718f9501"
           }
         }
+      },
+      "MOOER::GE250": {
+        "model_key": "MOOER::GE250",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://r2.gear4music.com/media/53/530971/1200/preview_2.jpg",
+            "source_url": "https://www.gear4music.com/us/en/Guitar-and-Bass/Mooer-GE250-Multi-Effects-Pedal/39O1",
+            "caption": "MOOER GE250 — powered-on top view",
+            "note": "Complete original GE250 photographed from near overhead with a slight perspective; illuminated LCD shows the GE250 boot splash and Beta 1.1.2. Historical product photograph, not evidence of the latest firmware. All five footswitches and expression pedal visible.",
+            "visual_checked": true,
+            "sha256": "81a44cff79cae92102c3377825a98e3d39314afc4337dcc889bee1a5cce455ae",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://r2.gear4music.com/media/53/530972/1200/preview_2.jpg",
+            "source_url": "https://www.gear4music.com/us/en/Guitar-and-Bass/Mooer-GE250-Multi-Effects-Pedal/39O1",
+            "caption": "MOOER GE250 — rear connections",
+            "note": "Complete rear panel with readable AUX IN, EXP 2, instrument IN, FX-loop send/return, stereo XLR and ground lift, stereo jack outputs, headphones, MIDI IN/OUT, USB Type-B, power switch and DC 9 V 1 A input. Exact original GE250 chassis.",
+            "visual_checked": true,
+            "sha256": "21948a61348182a51b60ed810a017482408e9c6160e3accbd4eac055943b4b08"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE200 original"
+    "last_model": "MOOER::GE250"
   }
 }
