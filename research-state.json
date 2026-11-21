@@ -207583,11 +207583,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "TC-Helicon::Duplicator": {
+        "model_key": "TC-Helicon::Duplicator",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.musiccitycairns.com/wp-content/uploads/IMG_9515-2000.jpg",
+            "source_url": "https://www.musiccitycairns.com/duplicator-vocal-effects-stompbox-tc-helicon",
+            "caption": "Duplicator — actual control-face photograph",
+            "note": "Actual green unit on carpet, oblique overhead. Three rotaries: DOUBLING (Tight/Loose/Octaves), REVERB (Off/RM/Club/Hall), CORRECTION (Off–100); one TONE hand button and one footswitch. No screen or treadle visible. Correction 100 is a control endpoint, not 100 cents or a DSP percentage. Red indicator lens alone does not prove illumination; powered-on state and strict perpendicular overhead remain unverified.",
+            "visual_checked": true,
+            "sha256": "5c258776446e8cc40a3db0c6e6123bcefbdae948f4d7c737bdb40c142caf1df3",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://foundsound.com.au/cdn/shop/files/DUPLICATOR_4.png?v=1719632309&width=1445",
+            "source_url": "https://foundsound.com.au/products/20067",
+            "caption": "Duplicator — rear connector artwork",
+            "note": "Exact green Duplicator catalogue rear: micro-USB, ON/OFF slide switch, center-negative DC polarity, male XLR OUT and female XLR MIC. No dedicated headphones, MIDI or analog expression socket in this rear inventory, consistent with the manual. Green LED depicted in artwork is not independent hardware-power evidence. USB audio/power and phantom-voltage conflict cannot be resolved from this picture.",
+            "visual_checked": true,
+            "sha256": "0a24fdcecdc694291bc636927526dc0e33c32b095de171552c96fc598ce25a27",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::Critical Mass"
+    "last_model": "TC-Helicon::Duplicator"
   }
 }

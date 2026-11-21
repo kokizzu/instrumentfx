@@ -164,6 +164,26 @@ Sources checked:
 
 <!-- firmware-pitch:TC-Helicon::Duplicator ends -->
 
+<!-- model-images:TC-Helicon::Duplicator begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Duplicator — actual control-face photograph**
+
+[![Duplicator — actual control-face photograph](https://www.musiccitycairns.com/wp-content/uploads/IMG_9515-2000.jpg)](https://www.musiccitycairns.com/wp-content/uploads/IMG_9515-2000.jpg)
+
+[Image source](https://www.musiccitycairns.com/duplicator-vocal-effects-stompbox-tc-helicon). Actual green unit on carpet, oblique overhead. Three rotaries: DOUBLING (Tight/Loose/Octaves), REVERB (Off/RM/Club/Hall), CORRECTION (Off–100); one TONE hand button and one footswitch. No screen or treadle visible. Correction 100 is a control endpoint, not 100 cents or a DSP percentage. Red indicator lens alone does not prove illumination; powered-on state and strict perpendicular overhead remain unverified.
+
+**Duplicator — rear connector artwork**
+
+[![Duplicator — rear connector artwork](https://foundsound.com.au/cdn/shop/files/DUPLICATOR_4.png?v=1719632309&width=1445)](https://foundsound.com.au/cdn/shop/files/DUPLICATOR_4.png?v=1719632309&width=1445)
+
+[Image source](https://foundsound.com.au/products/20067). Exact green Duplicator catalogue rear: micro-USB, ON/OFF slide switch, center-negative DC polarity, male XLR OUT and female XLR MIC. No dedicated headphones, MIDI or analog expression socket in this rear inventory, consistent with the manual. Green LED depicted in artwork is not independent hardware-power evidence. USB audio/power and phantom-voltage conflict cannot be resolved from this picture.
+
+</details>
+<!-- model-images:TC-Helicon::Duplicator ends -->
+
+
 Checked **2026-10-17**; partial. Independent vocal doubling, reverb, correction and Tone qualify this processor for ALL-VOCAL. No guitar/bass membership is inferred from seller categories. Specifications below come from Duplicator documents, not Mic Mechanic 2.
 
 <!-- comparison evidence begins -->
