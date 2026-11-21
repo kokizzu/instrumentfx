@@ -2774,6 +2774,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GE1000 Li ends -->
 
+<!-- model-images:MOOER::GE1000 Li begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GE1000 Li — powered-on top-down view**
+
+[![MOOER GE1000 Li — powered-on top-down view](https://mooer.jp/cdn/shop/files/GE1000Li-01.png?v=1710386315&width=1445)](https://mooer.jp/cdn/shop/files/GE1000Li-01.png?v=1710386315&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-ge1000li). Complete top-down product view from the exact GE1000 Li regional page, with its multicolour expression pedal. Illuminated LCD shows the GE SERIES boot screen; lit footswitch rings and HOME indicator visible. All five footswitches and panel controls shown; boot artwork does not establish installed firmware version.
+
+**MOOER GE1000 Li — straight rear connections**
+
+[![MOOER GE1000 Li — straight rear connections](https://mooer.jp/cdn/shop/files/GE1000Li-02.png?v=1710386315&width=1445)](https://mooer.jp/cdn/shop/files/GE1000Li-02.png?v=1710386315&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-ge1000li). Full rear edge photographed straight on from the exact Li product page: instrument input, FX-loop send/return, stereo XLR, ground lift, headphones, stereo jack outputs, shared MIDI IN/OUT, USB Type-C and DC input. Connector legends readable; battery itself is internal and not visible in this view.
+
+</details>
+<!-- model-images:MOOER::GE1000 Li ends -->
+
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE1000-LI source begins -->

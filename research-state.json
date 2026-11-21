@@ -196551,11 +196551,35 @@
             "sha256": "6ccb60c5daae0555dd3f757820834902bcab3ca8491f9e14e4ede349e09711cd"
           }
         }
+      },
+      "MOOER::GE1000 Li": {
+        "model_key": "MOOER::GE1000 Li",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE1000Li-01.png?v=1710386315&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-ge1000li",
+            "caption": "MOOER GE1000 Li — powered-on top-down view",
+            "note": "Complete top-down product view from the exact GE1000 Li regional page, with its multicolour expression pedal. Illuminated LCD shows the GE SERIES boot screen; lit footswitch rings and HOME indicator visible. All five footswitches and panel controls shown; boot artwork does not establish installed firmware version.",
+            "visual_checked": true,
+            "sha256": "c02f96360f71ff355566a82bcb317d4277a942fd82f143ea60dd1325756e70ef",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE1000Li-02.png?v=1710386315&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-ge1000li",
+            "caption": "MOOER GE1000 Li — straight rear connections",
+            "note": "Full rear edge photographed straight on from the exact Li product page: instrument input, FX-loop send/return, stereo XLR, ground lift, headphones, stereo jack outputs, shared MIDI IN/OUT, USB Type-C and DC input. Connector legends readable; battery itself is internal and not visible in this view.",
+            "visual_checked": true,
+            "sha256": "5f5db3f6f302f4c5b3c44f1b339c6e2ee83741801c13890020833a8018ef95c2"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE1000"
+    "last_model": "MOOER::GE1000 Li"
   }
 }
