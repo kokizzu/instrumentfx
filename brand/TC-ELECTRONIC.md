@@ -839,6 +839,26 @@ Sources checked:
 
 <!-- firmware-pitch:TC Electronic::PLETHORA X3 ends -->
 
+<!-- model-images:TC Electronic::PLETHORA X3 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**PLETHORA X3 — powered-on overhead photograph**
+
+[![PLETHORA X3 — powered-on overhead photograph](https://medias.audiofanzine.com/images/normal/tc-electronic-plethora-x3-5819442.jpg)](https://medias.audiofanzine.com/images/normal/tc-electronic-plethora-x3-5819442.jpg)
+
+[Image source](https://fr.audiofanzine.com/multieffet-guitare-electrique/tc-electronic/plethora-x3/). Actual white X3 with lit Hall of Fame 2, Flashback 2 and Sub N Up displays and slot LED. Complete near-perpendicular top view corroborates five rotary controls, three MASH footswitches and two selector toggles; no built-in treadle. Image does not identify installed firmware or prove octave input polyphony.
+
+**PLETHORA X3 — actual rear and top photograph**
+
+[![PLETHORA X3 — actual rear and top photograph](https://r2.gear4music.com/media/117/1177913/1200/preview.jpg)](https://r2.gear4music.com/media/117/1177913/1200/preview.jpg)
+
+[Image source](https://www.gear4music.com/Guitar-and-Bass/TC-Electronic-PLETHORA-X3-TonePrint-Pedalboard-Secondhand/6YWW). Unpowered secondhand white X3, angled from behind: MONO/STEREO input pair, MONO/STEREO output pair, 9V600mA center-negative DC IN, Mini-B USB, five-pin MIDI IN and THRU. No analog EXP, headphones or insert loop in this complete rear row, consistent with the exact-model guide. These are two audio channels per pair, not a dedicated stereo headphone socket. No functional or current-draw test; top powered photo is a different unit.
+
+</details>
+<!-- model-images:TC Electronic::PLETHORA X3 ends -->
+
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->
