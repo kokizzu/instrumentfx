@@ -822,6 +822,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GE150 original ends -->
 
+<!-- model-images:MOOER::GE150 original begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER original GE150 powered controls**
+
+[![MOOER original GE150 powered controls](https://cdn.mos.cms.futurecdn.net/8d33ptkCYXxaWxmZooHv9b.jpg)](https://cdn.mos.cms.futurecdn.net/8d33ptkCYXxaWxmZooHv9b.jpg)
+
+[Image source](https://www.musicradar.com/reviews/ge150-amp-modeller-and-multi-fx). Visually checked: original two-switch GE150, complete illuminated control surface with P013 PowerBell Dist display and active indicators. Near-overhead view has slight perspective; exact orthographic top-down view remains pending.
+
+**MOOER original GE150 rear ports**
+
+[![MOOER original GE150 rear ports](https://d1aeri3ty3izns.cloudfront.net/media/83/835951/1200/preview.jpg)](https://d1aeri3ty3izns.cloudfront.net/media/83/835951/1200/preview.jpg)
+
+[Image source](https://www.gear4music.com/Guitar-and-Bass/Mooer-GE150-Multi-Effects-Pedal/34P9). Visually checked: complete original GE150 rear connector row: AUX IN, INPUT, LEFT/MONO and RIGHT outputs, PHONES, square USB Type-B, separate micro-USB OTG and DC inlet. Labels have low contrast but remain readable.
+
+</details>
+<!-- model-images:MOOER::GE150 original ends -->
+
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE150-ORIGINAL source begins -->
