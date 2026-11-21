@@ -201074,11 +201074,44 @@
             "exact_top_down": false
           }
         }
+      },
+      "NUX::Mighty Plug MP-2": {
+        "model_key": "NUX::Mighty Plug MP-2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.nux.us/cdn/shop/files/MightyPlug_W_01.jpg?v=1756900317&width=1920",
+            "source_url": "https://www.nux.us/products/mighty-plug",
+            "caption": "Mighty Plug MP-2 overhead control view",
+            "note": "Manufacturer exact overhead image, with the Adjust-button ring unlit; power-on state is not demonstrated. A separately inspected [powered-on photograph](https://img07.shop-pro.jp/PA01348/005/product/174779271.jpg?cmsp_timestamp=20230520122817) from [Geek IN Box](https://shop.geekinbox.jp/?pid=174779271) shows the green ring lit while connected to a bass, but is oblique. A single powered-on exact-overhead photograph remains unverified.",
+            "visual_checked": true,
+            "sha256": "c62fdea4d6e6977e5b8fab39ed951880d93d68be136d7e9097b81409ad1ec767",
+            "powered_on": null,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.nux.us/cdn/shop/files/MightyPlug_W_05.jpg?v=1756900317&width=1920",
+            "source_url": "https://www.nux.us/products/mighty-plug",
+            "caption": "Mighty Plug MP-2 rear and connector side",
+            "note": "Manufacturer composite identifies MP-2 on the underside and shows both side edges: Power/MUTE and recessed Reset on one, Micro-B USB and status indicators on the other, plus the headphone jack and folding instrument plug. This handheld unit has distributed edge connectors rather than a conventional rear pedalboard strip; no lit power indicator in this stock view.",
+            "visual_checked": true,
+            "sha256": "497c466ab34ad07dbdea7375b6cb3dc4f9268b2810fdeaaf0606d32c0fbf2581",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "additional_inspected_images": [
+          {
+            "image_url": "https://img07.shop-pro.jp/PA01348/005/product/174779271.jpg?cmsp_timestamp=20230520122817",
+            "sha256": "e8dfb79c779df823fb64d694b47b0358b6d2379ba80ff5ab5b732d09a6a48bc9",
+            "visual_checked": true
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::Amp Academy Stomp"
+    "last_model": "NUX::Mighty Plug MP-2"
   }
 }
