@@ -207,6 +207,26 @@ Sources checked:
 
 <!-- firmware-pitch:Sonicake::Levitate QDS-02 ends -->
 
+<!-- model-images:Sonicake::Levitate QDS-02 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Levitate QDS-02 powered-on oblique top view: both green effect indicators lit, six knobs and two footswitches; no display.**
+
+[![Levitate QDS-02 powered-on oblique top view: both green effect indicators lit, six knobs and two footswitches; no display.](https://www.sonicake.com/cdn/shop/products/QDS-02-7.jpg?v=1676950587&width=1096)](https://www.sonicake.com/cdn/shop/products/QDS-02-7.jpg?v=1676950587&width=1096)
+
+[Image source](https://www.sonicake.com/products/levitate). Exact Levitate branding and live connections confirmed. This is an angled photograph, not perpendicular overhead. A separate inspected unlit overhead view is available [here](https://www.hotone.jp/images/brands/sonicake/products/levitate/gallery/20260907-082812-wftr7t-levitate_front_hi_v01_250219.webp); a powered-on perpendicular overhead photograph remains a gap.
+
+**Levitate connector-detail montage: one audio jack and the DC socket shown in photographic close-ups.**
+
+[![Levitate connector-detail montage: one audio jack and the DC socket shown in photographic close-ups.](https://www.sonicake.com/cdn/shop/products/QDS-02-6.jpg?v=1676950587&width=1096)](https://www.sonicake.com/cdn/shop/products/QDS-02-6.jpg?v=1676950587&width=1096)
+
+[Image source](https://www.sonicake.com/products/levitate). This montage is not a complete rear-panel photograph: input/output are on opposing side edges and power is at the back. The inspected [official manual diagram](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Levitate_Manuel_JP.png) identifies instrument input, output to amp/next pedal and DC 9 V; six rotaries, two footswitches and no separate top pushbuttons. A photograph showing all sockets clearly remains a gap.
+
+</details>
+<!-- model-images:Sonicake::Levitate QDS-02 ends -->
+
+
 Checked 2026-10-18; partial. [Sonicake's exact product](https://www.sonicake.com/products/levitate) identifies QDS-02 and digital delay plus plate reverb, supporting dual-effects eligibility. [Linked original manual image](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/QDS-2.jpg?v=1676949363) returned no visible/readable content in browser tool;not inspected. No sibling facts transferred.
 
 | Field | Finding / qualification |

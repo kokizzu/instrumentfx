@@ -204057,11 +204057,69 @@
             "note": "Rejected: despite RockStage gallery filename, actual image depicts Sonic Wood QCE-50 with acoustic guitar graphic and preamp controls."
           }
         ]
+      },
+      "Sonicake::Levitate QDS-02": {
+        "model_key": "Sonicake::Levitate QDS-02",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.sonicake.com/cdn/shop/products/QDS-02-7.jpg?v=1676950587&width=1096",
+            "source_url": "https://www.sonicake.com/products/levitate",
+            "caption": "Levitate QDS-02 powered-on oblique top view: both green effect indicators lit, six knobs and two footswitches; no display.",
+            "note": "Exact Levitate branding and live connections confirmed. This is an angled photograph, not perpendicular overhead. A separate inspected unlit overhead view is available [here](https://www.hotone.jp/images/brands/sonicake/products/levitate/gallery/20260907-082812-wftr7t-levitate_front_hi_v01_250219.webp); a powered-on perpendicular overhead photograph remains a gap.",
+            "visual_checked": true,
+            "sha256": "3add5dd4f792131751cc3fa82c194a27f9bd0cd87406abf75af25af100f123f7",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://www.sonicake.com/cdn/shop/products/QDS-02-6.jpg?v=1676950587&width=1096",
+            "source_url": "https://www.sonicake.com/products/levitate",
+            "caption": "Levitate connector-detail montage: one audio jack and the DC socket shown in photographic close-ups.",
+            "note": "This montage is not a complete rear-panel photograph: input/output are on opposing side edges and power is at the back. The inspected [official manual diagram](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Levitate_Manuel_JP.png) identifies instrument input, output to amp/next pedal and DC 9 V; six rotaries, two footswitches and no separate top pushbuttons. A photograph showing all sockets clearly remains a gap.",
+            "visual_checked": true,
+            "sha256": "98b8a297bb53c4c1f36814b3332fdb05a0cc86972a083df51a22f6d8c9627d0b",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/levitate/gallery/20260907-082812-wftr7t-levitate_front_hi_v01_250219.webp",
+            "sha256": "8c0a25fb6ae7b68c702343d4db98671cd861536692f13a40b77c26c52ca5f02a",
+            "visual_checked": true,
+            "note": "Exact-model overhead image, but indicators are unlit; not evidence of powered operation."
+          },
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/products/QDS-02-2.jpg?v=1676950587&width=1096",
+            "sha256": "17a5ac98e4d05eeca9de9d18b59f3f0d522db07522616ab0cc0960a231a9dd99",
+            "visual_checked": true,
+            "note": "Unlit oblique front/top product graphic; no rear sockets visible."
+          },
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/products/QDS-02-3.jpg?v=1676950586&width=1096",
+            "sha256": "1fb1fc9b522fbd76dbb9e1810cd1cd23b5240b225e24c9d7672b4022fa30d1e8",
+            "visual_checked": true,
+            "note": "Unlit overhead marketing graphic; not a rear view."
+          },
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/products/QDS-02-4.jpg?v=1676950587&width=1096",
+            "sha256": "2c763ac9fb4bd054e2bd5a212ef7dd886c492cb6fafaa25e719c3bc146b00ea4",
+            "visual_checked": true,
+            "note": "Unlit oblique front/top tap/trail graphic; not powered-on overhead evidence."
+          },
+          {
+            "image_url": "https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Levitate_Manuel_JP.png",
+            "sha256": "72f4092e9ae5de6adaed31ed8eadddf0278d66b09d09d75e0e3f1f092de3bff7",
+            "visual_checked": true,
+            "note": "Readable official Japanese leaflet confirms connector roles, six knobs and two footswitches; diagram rather than photograph."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::RockStage QCE-10"
+    "last_model": "Sonicake::Levitate QDS-02"
   }
 }
