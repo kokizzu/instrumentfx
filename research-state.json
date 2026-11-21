@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "requested_url": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 21,
+    "frame": 22,
     "text_pages": [
-      15,
-      15
+      14,
+      14
     ],
     "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
     "index_needle": "features",
@@ -189469,6 +189469,89 @@
           "label": "6.13 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::HX Effects": {
+        "model_key": "Line 6::HX Effects",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2018-01-25",
+          "precision": "day",
+          "kind": "manufacturer_launch_and_worldwide_availability",
+          "source_urls": [
+            "https://line6.com/data/6/0a020a3d1625a5a66b56d0a5f6/application/pdf/"
+          ],
+          "note": "Manufacturer introduction dated January 25, 2018 explicitly states worldwide availability. Effects-only hardware; no sibling amp/cab-modeling capability inferred."
+        },
+        "firmware": {
+          "version": "3.80.0",
+          "date": "2024-11-19",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://line6.com/software/index.html?locale=en_US&os=All&submit_form=set",
+            "https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/"
+          ],
+          "note": "Latest located exact HX Effects firmware entry in indexed manufacturer download text (two-week crawl); direct filtered/all download retrieval unavailable. Current release notes corroborate November 19, 2024. HX Edit 3.82 is editor software. HX Effects gains Teardrop Bass Q and applicable effect fixes, not the six amps/four cabs restricted to amp-modeling siblings."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Poly Pitch, Poly Wham, Poly Capo and 12 String explicitly polyphonic; their Mono menu category is audio-channel format, not single-note-only tracking. Poly Detune and Poly Sustain are also documented poly processing. Other pitch/harmony/octaver/synth entries do not automatically inherit that tracking claim.",
+          "preset": "Save pitch block settings in a preset; dedicated SAVE supports quick-save. Four snapshots per preset vary assigned parameters/bypass within the existing block set. Stored transposition and an external expression assignment are distinct functions.",
+          "dsp": "Nine blocks maximum, dynamically DSP-limited. Own 3.80 manual p23 warns each named poly pitch model may consume up to half the preset DSP; approximate model-dependent cost, not a fixed measured 50%. P39 says one per path from the combined Feedbacker/Poly Sustain/Poly Detune/Poly Pitch/Wham/Capo/12 String group. Existing HX Edit 3.80 p36 finding instead says one per preset; conflict retained, not a guarantee two poly blocks run together.",
+          "source_urls": [
+            "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "https://line6.com/data/6/0a00051aff0e673cd37585ccd/application/pdf/HX%20Edit%20Pilots%20Guide%203.80%20-%20English%20.pdf",
+            "https://line6.com/hx-effects/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Owner manual DSP/pitch pages checked directly; the editor-guide conflict is retained from the dated November 4 exact-table finding below, not newly hardware-tested. No measured tracking latency, CPU table or concurrency test. Do not substitute HX Stomp one-per-preset wording or dual-DSP Helix quarter-total estimate."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://line6.com/data/6/0a020a3d1625a5a66b56d0a5f6/application/pdf/",
+            "title": "Line 6 introduces HX Effects press release",
+            "access": "Original two-page manufacturer PDF text read",
+            "evidence": "January 25, 2018 introduction and explicit worldwide availability."
+          },
+          {
+            "url": "https://line6.com/software/index.html?locale=en_US&os=All&submit_form=set",
+            "title": "Line 6 firmware download index, HX Effects entry",
+            "access": "Indexed manufacturer exact-model entry read; direct retrieval unavailable",
+            "evidence": "HX Effects Firmware 3.80.0, November 19, 2024; latest located listing, not installed-device check."
+          },
+          {
+            "url": "https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/",
+            "title": "Helix/HX 3.80 release notes",
+            "access": "Current manufacturer release note read",
+            "evidence": "Dates hardware release November 19, 2024; HX Effects included for Teardrop Bass Q, excluded from amp/cab additions. Editor 3.82 separate."
+          },
+          {
+            "url": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "title": "HX Effects 3.80 owner manual Rev D",
+            "access": "Original 55-page PDF retrieved; p23 visually inspected and p39 DSP text read; SHA256 f8fa610687140ddc430937788501cfa80ad2d8cfc4dcaa6fe07b648f0edf7ca7",
+            "evidence": "Explicit polyphonic pitch models, up-to-half DSP warning, combined high-DSP group one per path wording; no actual concurrency measurement."
+          },
+          {
+            "url": "https://line6.com/data/6/0a00051aff0e673cd37585ccd/application/pdf/HX%20Edit%20Pilots%20Guide%203.80%20-%20English%20.pdf",
+            "title": "HX Edit 3.80 Pilot Guide Rev Y",
+            "access": "Existing November 4 exact-table finding retained; not newly downloaded/read in this pass",
+            "evidence": "Existing canonical HX Effects owner-guide conflict section records p5 per-path and p36 HX Effects-column per-preset group limit. Conflict remains unresolved."
+          },
+          {
+            "url": "https://line6.com/hx-effects/",
+            "title": "HX Effects product and panel guide",
+            "access": "Current manufacturer page read",
+            "evidence": "Dedicated SAVE quick-save, six LCD strips, eight switches, exact-model top/rear gallery."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2490,
+          "maximum_days": 2490,
+          "label": "6.82 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -189512,7 +189595,6 @@
       "Line 6::Helix Floor",
       "Line 6::Helix LT",
       "Line 6::Helix Stadium XL Floor",
-      "Line 6::HX Effects",
       "Line 6::HX One",
       "Line 6::HX Stomp XL",
       "Line 6::M13",
@@ -189744,9 +189826,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 132,
-    "last_model": "Line 6::HX Stomp",
-    "last_commit_parent": "c77e9eae3a44c252d064bae91becee7560447498",
+    "completed_model_count": 133,
+    "last_model": "Line 6::HX Effects",
+    "last_commit_parent": "f163cc62ea4741a83e41612e0cd02e44fb607a83",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -189789,7 +189871,6 @@
       "Line 6::Helix Floor",
       "Line 6::Helix LT",
       "Line 6::Helix Stadium XL Floor",
-      "Line 6::HX Effects",
       "Line 6::HX One",
       "Line 6::HX Stomp XL",
       "Line 6::M13",
@@ -190020,7 +190101,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 132,
+    "pitch_completed_model_count": 133,
     "supplemental_model_count": 0
   },
   "model_images": {

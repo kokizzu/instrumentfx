@@ -1290,6 +1290,33 @@ Selected Internal System Data actions delete/reset selected types;Restore Factor
 
 ## HX Effects
 
+<!-- firmware-pitch:Line 6::HX Effects begins -->
+### Firmware and pitch audit — Line 6 HX Effects
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2018-01-25 (manufacturer launch and worldwide availability). Manufacturer introduction dated January 25, 2018 explicitly states worldwide availability. Effects-only hardware; no sibling amp/cab-modeling capability inferred. [launch 1](https://line6.com/data/6/0a020a3d1625a5a66b56d0a5f6/application/pdf/) |
+| Firmware / latest verification | 3.80.0 — Located; latest status unverified. Latest located exact HX Effects firmware entry in indexed manufacturer download text (two-week crawl); direct filtered/all download retrieval unavailable. Current release notes corroborate November 19, 2024. HX Edit 3.82 is editor software. HX Effects gains Teardrop Bass Q and applicable effect fixes, not the six amps/four cabs restricted to amp-modeling siblings. [firmware 1](https://line6.com/software/index.html?locale=en_US&os=All&submit_form=set) [firmware 2](https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/) |
+| Firmware / release date | 2024-11-19 (day precision) |
+| Firmware / release-to-update duration | 6.82 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Poly Pitch, Poly Wham, Poly Capo and 12 String explicitly polyphonic; their Mono menu category is audio-channel format, not single-note-only tracking. Poly Detune and Poly Sustain are also documented poly processing. Other pitch/harmony/octaver/synth entries do not automatically inherit that tracking claim. [pitch 1](https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf) [pitch 2](https://line6.com/data/6/0a00051aff0e673cd37585ccd/application/pdf/HX%20Edit%20Pilots%20Guide%203.80%20-%20English%20.pdf) [pitch 3](https://line6.com/hx-effects/) |
+| Pitch / preset recall | Save pitch block settings in a preset; dedicated SAVE supports quick-save. Four snapshots per preset vary assigned parameters/bypass within the existing block set. Stored transposition and an external expression assignment are distinct functions. |
+| Pitch / DSP resources | Nine blocks maximum, dynamically DSP-limited. Own 3.80 manual p23 warns each named poly pitch model may consume up to half the preset DSP; approximate model-dependent cost, not a fixed measured 50%. P39 says one per path from the combined Feedbacker/Poly Sustain/Poly Detune/Poly Pitch/Wham/Capo/12 String group. Existing HX Edit 3.80 p36 finding instead says one per preset; conflict retained, not a guarantee two poly blocks run together. |
+| Pitch / qualifications | Owner manual DSP/pitch pages checked directly; the editor-guide conflict is retained from the dated November 4 exact-table finding below, not newly hardware-tested. No measured tracking latency, CPU table or concurrency test. Do not substitute HX Stomp one-per-preset wording or dual-DSP Helix quarter-total estimate. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 introduces HX Effects press release](https://line6.com/data/6/0a020a3d1625a5a66b56d0a5f6/application/pdf/) — January 25, 2018 introduction and explicit worldwide availability. (Original two-page manufacturer PDF text read).
+- [Line 6 firmware download index, HX Effects entry](https://line6.com/software/index.html?locale=en_US&os=All&submit_form=set) — HX Effects Firmware 3.80.0, November 19, 2024; latest located listing, not installed-device check. (Indexed manufacturer exact-model entry read; direct retrieval unavailable).
+- [Helix/HX 3.80 release notes](https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/) — Dates hardware release November 19, 2024; HX Effects included for Teardrop Bass Q, excluded from amp/cab additions. Editor 3.82 separate. (Current manufacturer release note read).
+- [HX Effects 3.80 owner manual Rev D](https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf) — Explicit polyphonic pitch models, up-to-half DSP warning, combined high-DSP group one per path wording; no actual concurrency measurement. (Original 55-page PDF retrieved; p23 visually inspected and p39 DSP text read; SHA256 f8fa610687140ddc430937788501cfa80ad2d8cfc4dcaa6fe07b648f0edf7ca7).
+- [HX Edit 3.80 Pilot Guide Rev Y](https://line6.com/data/6/0a00051aff0e673cd37585ccd/application/pdf/HX%20Edit%20Pilots%20Guide%203.80%20-%20English%20.pdf) — Existing canonical HX Effects owner-guide conflict section records p5 per-path and p36 HX Effects-column per-preset group limit. Conflict remains unresolved. (Existing November 4 exact-table finding retained; not newly downloaded/read in this pass).
+- [HX Effects product and panel guide](https://line6.com/hx-effects/) — Dedicated SAVE quick-save, six LCD strips, eight switches, exact-model top/rear gallery. (Current manufacturer page read).
+
+<!-- firmware-pitch:Line 6::HX Effects ends -->
+
 <!-- comparison evidence begins -->
 **Guitar/bass effects-only multi-effects**, not a single-function pedal. No amp modeling is required for inclusion. Consolidated from the complete `effects/advanced-modelers.md` record (technical snapshot 2026-10-14), with model-specific manufacturer rechecks **2026-10-16**. This is the existing inventory entry, not a new model.
 
