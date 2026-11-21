@@ -1815,6 +1815,32 @@ Rear OUTPUT LEVEL controls quarter-inch outputs and headphones; this does not pr
 
 ## GT-8
 
+<!-- firmware-pitch:BOSS::GT-8 begins -->
+### Firmware and pitch audit — BOSS GT-8
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2004 (manufacturer release year). Japanese manufacturer service table lists release2004 and manufacturing completion2008. Exact worldwide day/month not verified; manual MIDI-chart date is not a launch date. [launch 1](https://www.roland.com/jp/support/service_repair/1708080000/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current exact-model index lists Paul Hanson custom patches, not a device system program. No public firmware version/history located. Latest device ROM/date remain unverified; manual printing dates, MIDI-chart Version1.00 and patch collections are not firmware releases. [firmware 1](https://www.boss.info/global/support/by_product/gt-8/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Pitch Shifter ±24 semitones: Fast/Medium/Slow explicitly accept chords, with response/modulation tradeoff; Mono takes single notes. Harmonist and Pedal Bend disallow chords. Octave adds one octave down. Chord-capable fixed shifting does not establish chordal scale harmony. [pitch 1](https://manualzilla.com/doc/7445272/roland-gt-8-owner-s-manual) [pitch 2](https://www.boss.info/global/products/gt-8/) |
+| Pitch / preset recall | 140 user plus200 preset patches. Manual pp16,22: edit preset sounds and save them to user banks1–35 with Patch Write. Per-effect Quick Settings are not additional engines. |
+| Pitch / DSP resources | Pitch Shifter, Harmonist, Pedal Bend and Octave are FX-2-only alternatives. Shared FX1/FX2 choices do not make these pitch algorithms duplicable in FX1. Up to13 effect blocks overall, freely ordered; no per-pitch CPU percentage documented. |
+| Pitch / qualifications | Original manufacturer manual body inspected as text on a public mirror; direct original-host PDF exceeded the web fetch size limit. No fresh original PDF download claimed. One/two generated pitch voices and mono/stereo output are distinct from simultaneous-note input polyphony. No device audio/latency test or installed firmware verification. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland Japanese release/manufacturing-year table](https://www.roland.com/jp/support/service_repair/1708080000/) — GT-8 release2004; manufacturing completion2008, not firmware history. (opened).
+- [BOSS GT-8 current Updates & Drivers index](https://www.boss.info/global/support/by_product/gt-8/updates_drivers/) — Only custom patch collection listed; no public system program located. (opened).
+- [BOSS GT-8 manufacturer manual reproduction](https://manualzilla.com/doc/7445272/roland-gt-8-owner-s-manual) — pp16,22 patch storage; pp34,43–45 FX2-only pitch choices,±24 shifts, chord-capable Fast/Medium/Slow, monophonic Harmonist/Pedal Bend. (opened_original_manual_text_on_public_mirror).
+- [BOSS GT-8 original-host manual](https://static.roland.com/assets/media/pdf/GT-8_OM.pdf) — Original PDF URL verified; full direct web extraction exceeded size limit. (direct_web_fetch_size_limit_11849520_bytes).
+- [BOSS GT-8 manufacturer product/specifications](https://www.boss.info/global/products/gt-8/) — 140user+200preset memory;13 simultaneous blocks and freely ordered chain; no per-pitch CPU percentage. (opened).
+
+<!-- firmware-pitch:BOSS::GT-8 ends -->
+
 Guitar multi-effects; distinct from GT-6/GT-10. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->

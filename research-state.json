@@ -182710,10 +182710,82 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GT-8": {
+        "model_key": "BOSS::GT-8",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2004",
+          "precision": "year",
+          "kind": "manufacturer_release_year",
+          "source_urls": [
+            "https://www.roland.com/jp/support/service_repair/1708080000/"
+          ],
+          "note": "Japanese manufacturer service table lists release2004 and manufacturing completion2008. Exact worldwide day/month not verified; manual MIDI-chart date is not a launch date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gt-8/updates_drivers/"
+          ],
+          "note": "Current exact-model index lists Paul Hanson custom patches, not a device system program. No public firmware version/history located. Latest device ROM/date remain unverified; manual printing dates, MIDI-chart Version1.00 and patch collections are not firmware releases."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Pitch Shifter ±24 semitones: Fast/Medium/Slow explicitly accept chords, with response/modulation tradeoff; Mono takes single notes. Harmonist and Pedal Bend disallow chords. Octave adds one octave down. Chord-capable fixed shifting does not establish chordal scale harmony.",
+          "preset": "140 user plus200 preset patches. Manual pp16,22: edit preset sounds and save them to user banks1–35 with Patch Write. Per-effect Quick Settings are not additional engines.",
+          "dsp": "Pitch Shifter, Harmonist, Pedal Bend and Octave are FX-2-only alternatives. Shared FX1/FX2 choices do not make these pitch algorithms duplicable in FX1. Up to13 effect blocks overall, freely ordered; no per-pitch CPU percentage documented.",
+          "source_urls": [
+            "https://manualzilla.com/doc/7445272/roland-gt-8-owner-s-manual",
+            "https://www.boss.info/global/products/gt-8/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original manufacturer manual body inspected as text on a public mirror; direct original-host PDF exceeded the web fetch size limit. No fresh original PDF download claimed.",
+            "One/two generated pitch voices and mono/stereo output are distinct from simultaneous-note input polyphony.",
+            "No device audio/latency test or installed firmware verification."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/jp/support/service_repair/1708080000/",
+            "title": "Roland Japanese release/manufacturing-year table",
+            "access": "opened",
+            "evidence": "GT-8 release2004; manufacturing completion2008, not firmware history."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-8/updates_drivers/",
+            "title": "BOSS GT-8 current Updates & Drivers index",
+            "access": "opened",
+            "evidence": "Only custom patch collection listed; no public system program located."
+          },
+          {
+            "url": "https://manualzilla.com/doc/7445272/roland-gt-8-owner-s-manual",
+            "title": "BOSS GT-8 manufacturer manual reproduction",
+            "access": "opened_original_manual_text_on_public_mirror",
+            "evidence": "pp16,22 patch storage; pp34,43–45 FX2-only pitch choices,±24 shifts, chord-capable Fast/Medium/Slow, monophonic Harmonist/Pedal Bend."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/GT-8_OM.pdf",
+            "title": "BOSS GT-8 original-host manual",
+            "access": "direct_web_fetch_size_limit_11849520_bytes",
+            "evidence": "Original PDF URL verified; full direct web extraction exceeded size limit."
+          },
+          {
+            "url": "https://www.boss.info/global/products/gt-8/",
+            "title": "BOSS GT-8 manufacturer product/specifications",
+            "access": "opened",
+            "evidence": "140user+200preset memory;13 simultaneous blocks and freely ordered chain; no per-pitch CPU percentage."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GT-8",
       "BOSS::GT-Pro",
       "BOSS::GX-1",
       "BOSS::GX-10",
@@ -183074,12 +183146,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 43,
-    "last_model": "BOSS::GT-6",
-    "last_commit_parent": "c472c614c18b5fb7fed17498cb594d72e01b6b36",
+    "completed_model_count": 44,
+    "last_model": "BOSS::GT-8",
+    "last_commit_parent": "7ca51194f59422fd790f8740767de73f99db5d1e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GT-8",
       "BOSS::GT-Pro",
       "BOSS::GX-1",
       "BOSS::GX-10",
@@ -183439,7 +183510,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 43,
+    "pitch_completed_model_count": 44,
     "supplemental_model_count": 0
   }
 }
