@@ -188933,11 +188933,35 @@
             "sha256": "9cfd5662d2c6353f4734c69d1bcd4cdd3b9a27caaf038acde641bdff61223706"
           }
         }
+      },
+      "Flamma::FX150b": {
+        "model_key": "Flamma::FX150b",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.flamma.shop/cdn/shop/files/1_58fd1c56-9b50-4b6f-b95c-35b1f5f12e57.png?v=1699004074&width=1946",
+            "source_url": "https://www.flamma.shop/products/flamma-fx150b-nebula-green-multi-effects-processor",
+            "caption": "FX150b powered-on top-down product illustration",
+            "note": "Manufacturer Nebula Green FX150b cutout/render, straight top-down, depicting an active 01A SOLOIST screen with battery icon and illuminated indicators. The illustrated DSP50% is for the whole example preset, not measured pitch-shifter cost; no device operation claimed.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "32378778f3e1a898947a7f1e9e68fcbdbc23bdd22da429992224188a5674b429"
+          },
+          "rear": {
+            "image_url": "https://www.flamma.shop/cdn/shop/files/4_03e36bc4-7734-415e-9227-65d01fc64cc4.png?v=1699004159&width=1946",
+            "source_url": "https://www.flamma.shop/products/flamma-fx150b-nebula-green-multi-effects-processor",
+            "caption": "FX150b rear connections",
+            "note": "Exact green battery-variant rear cutout shows power switch, DC IN marked9V3A center-negative, USB-C, AUX IN, EXP2, INPUT, SEND, RETURN, L/MONO and R outputs, PHONES. The page image alt text mentions MIDI/XLR, but neither connector appears here or in the complete manual inventory; that alt text is not evidence of those ports. Do not replace3A with the standard FX150’s1A.",
+            "visual_checked": true,
+            "sha256": "33d92476b709132e04e1eef7949324bcaeee1acee9e14f9ce1de797c493a78fc"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Flamma::FX150"
+    "last_model": "Flamma::FX150b"
   }
 }

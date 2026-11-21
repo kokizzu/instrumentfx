@@ -1163,6 +1163,26 @@ Sources checked:
 
 <!-- firmware-pitch:Flamma::FX150b ends -->
 
+<!-- model-images:Flamma::FX150b begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**FX150b powered-on top-down product illustration**
+
+[![FX150b powered-on top-down product illustration](https://www.flamma.shop/cdn/shop/files/1_58fd1c56-9b50-4b6f-b95c-35b1f5f12e57.png?v=1699004074&width=1946)](https://www.flamma.shop/cdn/shop/files/1_58fd1c56-9b50-4b6f-b95c-35b1f5f12e57.png?v=1699004074&width=1946)
+
+[Image source](https://www.flamma.shop/products/flamma-fx150b-nebula-green-multi-effects-processor). Manufacturer Nebula Green FX150b cutout/render, straight top-down, depicting an active 01A SOLOIST screen with battery icon and illuminated indicators. The illustrated DSP50% is for the whole example preset, not measured pitch-shifter cost; no device operation claimed.
+
+**FX150b rear connections**
+
+[![FX150b rear connections](https://www.flamma.shop/cdn/shop/files/4_03e36bc4-7734-415e-9227-65d01fc64cc4.png?v=1699004159&width=1946)](https://www.flamma.shop/cdn/shop/files/4_03e36bc4-7734-415e-9227-65d01fc64cc4.png?v=1699004159&width=1946)
+
+[Image source](https://www.flamma.shop/products/flamma-fx150b-nebula-green-multi-effects-processor). Exact green battery-variant rear cutout shows power switch, DC IN marked9V3A center-negative, USB-C, AUX IN, EXP2, INPUT, SEND, RETURN, L/MONO and R outputs, PHONES. The page image alt text mentions MIDI/XLR, but neither connector appears here or in the complete manual inventory; that alt text is not evidence of those ports. Do not replace3A with the standard FX150’s1A.
+
+</details>
+<!-- model-images:Flamma::FX150b ends -->
+
+
 Battery-equipped guitar multi-effects, distinct from standard FX150. Current comparison consolidated 2026-10-18 from the retained evidence below; partial. Ownership and bass/vocal suitability remain unverified.
 
 <!-- comparison evidence begins -->
