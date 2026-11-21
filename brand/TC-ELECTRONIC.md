@@ -541,6 +541,26 @@ Sources checked:
 
 <!-- firmware-pitch:TC Electronic::NOVA System ends -->
 
+<!-- model-images:TC Electronic::NOVA System begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**NOVA System — powered-on overhead control-face photograph**
+
+[![NOVA System — powered-on overhead control-face photograph](https://www.njuskalo.hr/image-xlsize/procesori-efekti-pedale-kontroleri/tc-electronic-system-slika-263019164.jpg)](https://www.njuskalo.hr/image-xlsize/procesori-efekti-pedale-kontroleri/tc-electronic-system-slika-263019164.jpg)
+
+[Image source](https://www.njuskalo.hr/procesori-efekti-pedale-kontroleri/tc-electronic-system-oglas-48808069). Actual unit on its box,lit11 bank display andClean LCD plus illuminated switches. Near perpendicular overhead shows complete control face:4A–D encoders,8footswitches,15handbuttons (7effectselect+4variation+FactoryDefault/Store/Levels/Menu). No builtin treadle;not a stock render. Rear identity cannot be inferred from this top photograph.
+
+**NOVA System — actual rear photograph with S/PDIF**
+
+[![NOVA System — actual rear photograph with S/PDIF](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/77735/594053/YTCELECTRONIC15449806__64784.1758282383.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/77735/594053/YTCELECTRONIC15449806__64784.1758282383.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/tc-electronic-nova-system-2nd-hand-154498/). Readable TYPE TFW002 serial8954196. LineIn/DriveIn,Left/Right outputs,RCA S/PDIF DI/DO,MIDIIN/THRU/OUT,PedalIn,IEC100–240VAC50–60Hz15W. This photographed unit has realS/PDIF sockets;later manufacturer artwork/manual inventories omitting them are conflicting revision evidence,not grounds to erase the photographed ports orclaim every unit has them. No USB orheadphone socket visible;no rear power switch visible. Top andrearphotos aredifferent units;do not infer matching hardware revisions.
+
+</details>
+<!-- model-images:TC Electronic::NOVA System ends -->
+
+
 Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and G-System. Manufacturer manual revision1.2,SW1.10,E60508712: identity verified from original text on mirror. Official PDF endpoints failed;generated mirror summary/FAQ excluded. Bass/vocal suitability unresolved.
 
 <!-- comparison evidence begins -->

@@ -207156,11 +207156,37 @@
             "note": "Retail gallery rear label reads typeREN001,not explicitM350;exact-revision identity unresolved,prefer a clearly markedM350 photograph."
           }
         ]
+      },
+      "TC Electronic::NOVA System": {
+        "model_key": "TC Electronic::NOVA System",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.njuskalo.hr/image-xlsize/procesori-efekti-pedale-kontroleri/tc-electronic-system-slika-263019164.jpg",
+            "source_url": "https://www.njuskalo.hr/procesori-efekti-pedale-kontroleri/tc-electronic-system-oglas-48808069",
+            "caption": "NOVA System — powered-on overhead control-face photograph",
+            "note": "Actual unit on its box,lit11 bank display andClean LCD plus illuminated switches. Near perpendicular overhead shows complete control face:4A–D encoders,8footswitches,15handbuttons (7effectselect+4variation+FactoryDefault/Store/Levels/Menu). No builtin treadle;not a stock render. Rear identity cannot be inferred from this top photograph.",
+            "visual_checked": true,
+            "sha256": "bbdbd614b643414adc845d19271ac933f8d11b8153ac813050bb99d2b1dc4347",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/77735/594053/YTCELECTRONIC15449806__64784.1758282383.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/tc-electronic-nova-system-2nd-hand-154498/",
+            "caption": "NOVA System — actual rear photograph with S/PDIF",
+            "note": "Readable TYPE TFW002 serial8954196. LineIn/DriveIn,Left/Right outputs,RCA S/PDIF DI/DO,MIDIIN/THRU/OUT,PedalIn,IEC100–240VAC50–60Hz15W. This photographed unit has realS/PDIF sockets;later manufacturer artwork/manual inventories omitting them are conflicting revision evidence,not grounds to erase the photographed ports orclaim every unit has them. No USB orheadphone socket visible;no rear power switch visible. Top andrearphotos aredifferent units;do not infer matching hardware revisions.",
+            "visual_checked": true,
+            "sha256": "aa92d2f1608e8c46fe044e5aed6cb12c95c1cbfdac333d1135a2a4f1bd46e2d4",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC Electronic::M350"
+    "last_model": "TC Electronic::NOVA System"
   }
 }
