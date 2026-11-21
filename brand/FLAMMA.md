@@ -742,6 +742,31 @@ Primary evidence: [maker product](https://www.flamma.shop/products/flamma-fx11-b
 
 ## FX20
 
+<!-- firmware-pitch:Flamma::FX20 begins -->
+### Firmware and pitch audit — Flamma FX20
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No dated maker launch/first-sale record located. Manual2023-12-08 is a document revision, not hardware introduction. [launch 1](https://www.flammainnovation.com/file/pdf?fileName=FX20_Manual_EN_V01_2023.12.08.pdf&url=group1%2FM00%2F00%2F0C%2FwKgA0GW6-W6AGJnOABszsyLEHfo390.pdf) [launch 2](https://www.flamma.shop/products/flamma-fx20-portable-intelligent-headphone-modeling-headphone-amps-with-app-control) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact FX20 support record lists FLAMMA Android1.3.1 APK and V01 manual, without a numbered device-firmware release/history. Catalogue substring search also returns FX200: its firmware does not belong to FX20. App version and manual date are not FX20 firmware. No public device updater verified; internal/service firmware not ruled out. [firmware 1](https://flammainnovation.com/goods/support?goodsName=FX20) [firmware 2](https://flammainnovation.com/download.html) [firmware 3](https://www.flammainnovation.com/file/pdf?fileName=FX20_Manual_EN_V01_2023.12.08.pdf&url=group1%2FM00%2F00%2F0C%2FwKgA0GW6-W6AGJnOABszsyLEHfo390.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Checked MOD/DELAY/REVERB menus document no dedicated transpose, octave, harmony or mono/poly pitch-shift algorithm. Chorus, flanging, ring modulation and a tuner do not establish chord transposition. No pitch-tracking classification established. [pitch 1](https://www.flammainnovation.com/file/pdf?fileName=FX20_Manual_EN_V01_2023.12.08.pdf&url=group1%2FM00%2F00%2F0C%2FwKgA0GW6-W6AGJnOABszsyLEHfo390.pdf) [pitch 2](https://www.flamma.shop/products/flamma-fx20-portable-intelligent-headphone-modeling-headphone-amps-with-app-control) |
+| Pitch / preset recall | PRESET selects A/B/C/D in the current bank; individual saving documented. Total bank count and factory/user allocation remain unverified;52amp models are not evidence of52patches. |
+| Pitch / DSP resources | Published choices are14MOD positions,5delay and5reverb, with52amps; not a numerical simultaneous/DSP ceiling. No per-effect CPU percentage or resource meter verified. MOD table repeats TREMOLO5/7; preserve14positions rather than invent a missing pitch algorithm. |
+| Pitch / qualifications | No device operation, latency measurement or app installation. Findings apply to checked documentation; no claim that every future app/firmware library lacks pitch. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [FX20 English manufacturer manual V01](https://www.flammainnovation.com/file/pdf?fileName=FX20_Manual_EN_V01_2023.12.08.pdf&url=group1%2FM00%2F00%2F0C%2FwKgA0GW6-W6AGJnOABszsyLEHfo390.pdf) — A–D preset selection and complete named effect menus; no dedicated pitch-shift entry. Duplicate Tremolo and delay-description errors retained. (Original27-page maker manual; indexed effect/control text read).
+- [FLAMMA support search FX20](https://flammainnovation.com/goods/support?goodsName=FX20) — Result contains FX200 and exact id129 FX20; only exact FX20 APK1.3.1/manual considered. (Bounded inert makerJSON; SHA256bca32390ab31fa1f02566fc6d4b1cda5a21270a0f74dc9845c3cdb958913b09f).
+- [FLAMMA download catalogue](https://flammainnovation.com/download.html) — FX20 Android app and manual, no dated numbered device firmware found. (Current indexed maker catalogue).
+- [FLAMMA exact FX20 product page](https://www.flamma.shop/products/flamma-fx20-portable-intelligent-headphone-modeling-headphone-amps-with-app-control) — Mobile editing/cloud and52amps/24effect positions; no dedicated pitch algorithm or dated launch. (Direct manufacturer page; unrelated CapturePro camera FAQ excluded).
+
+<!-- firmware-pitch:Flamma::FX20 ends -->
+
 Plug-in guitar headphone multi-effects,distinct fromFX10/FX11/FX50. Checked2026-10-18;partial;ownership unverified. Bass/vocal suitability unverified.
 
 | Field | Finding / qualification |

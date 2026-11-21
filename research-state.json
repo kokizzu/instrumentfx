@@ -178521,8 +178521,8 @@
       65,
       70
     ],
-    "index_url": "https://flammainnovation.com/file/pdf?fileName=FX200_Read%20Me.txt&url=group1%2FM00%2F00%2F0D%2FwKgA0GYLoGGAElRcAAAC0onNHVE374.txt",
-    "index_needle": "1.",
+    "index_url": "https://flammainnovation.com/goods/support?goodsName=FX20",
+    "index_needle": "attachments",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -187852,10 +187852,77 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Flamma::FX20": {
+        "model_key": "Flamma::FX20",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.flammainnovation.com/file/pdf?fileName=FX20_Manual_EN_V01_2023.12.08.pdf&url=group1%2FM00%2F00%2F0C%2FwKgA0GW6-W6AGJnOABszsyLEHfo390.pdf",
+            "https://www.flamma.shop/products/flamma-fx20-portable-intelligent-headphone-modeling-headphone-amps-with-app-control"
+          ],
+          "note": "No dated maker launch/first-sale record located. Manual2023-12-08 is a document revision, not hardware introduction."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://flammainnovation.com/goods/support?goodsName=FX20",
+            "https://flammainnovation.com/download.html",
+            "https://www.flammainnovation.com/file/pdf?fileName=FX20_Manual_EN_V01_2023.12.08.pdf&url=group1%2FM00%2F00%2F0C%2FwKgA0GW6-W6AGJnOABszsyLEHfo390.pdf"
+          ],
+          "note": "Exact FX20 support record lists FLAMMA Android1.3.1 APK and V01 manual, without a numbered device-firmware release/history. Catalogue substring search also returns FX200: its firmware does not belong to FX20. App version and manual date are not FX20 firmware. No public device updater verified; internal/service firmware not ruled out."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Checked MOD/DELAY/REVERB menus document no dedicated transpose, octave, harmony or mono/poly pitch-shift algorithm. Chorus, flanging, ring modulation and a tuner do not establish chord transposition. No pitch-tracking classification established.",
+          "preset": "PRESET selects A/B/C/D in the current bank; individual saving documented. Total bank count and factory/user allocation remain unverified;52amp models are not evidence of52patches.",
+          "dsp": "Published choices are14MOD positions,5delay and5reverb, with52amps; not a numerical simultaneous/DSP ceiling. No per-effect CPU percentage or resource meter verified. MOD table repeats TREMOLO5/7; preserve14positions rather than invent a missing pitch algorithm.",
+          "source_urls": [
+            "https://www.flammainnovation.com/file/pdf?fileName=FX20_Manual_EN_V01_2023.12.08.pdf&url=group1%2FM00%2F00%2F0C%2FwKgA0GW6-W6AGJnOABszsyLEHfo390.pdf",
+            "https://www.flamma.shop/products/flamma-fx20-portable-intelligent-headphone-modeling-headphone-amps-with-app-control"
+          ],
+          "measurements": [],
+          "notes": [
+            "No device operation, latency measurement or app installation. Findings apply to checked documentation; no claim that every future app/firmware library lacks pitch."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.flammainnovation.com/file/pdf?fileName=FX20_Manual_EN_V01_2023.12.08.pdf&url=group1%2FM00%2F00%2F0C%2FwKgA0GW6-W6AGJnOABszsyLEHfo390.pdf",
+            "title": "FX20 English manufacturer manual V01",
+            "access": "Original27-page maker manual; indexed effect/control text read",
+            "evidence": "A–D preset selection and complete named effect menus; no dedicated pitch-shift entry. Duplicate Tremolo and delay-description errors retained."
+          },
+          {
+            "url": "https://flammainnovation.com/goods/support?goodsName=FX20",
+            "title": "FLAMMA support search FX20",
+            "access": "Bounded inert makerJSON; SHA256bca32390ab31fa1f02566fc6d4b1cda5a21270a0f74dc9845c3cdb958913b09f",
+            "evidence": "Result contains FX200 and exact id129 FX20; only exact FX20 APK1.3.1/manual considered."
+          },
+          {
+            "url": "https://flammainnovation.com/download.html",
+            "title": "FLAMMA download catalogue",
+            "access": "Current indexed maker catalogue",
+            "evidence": "FX20 Android app and manual, no dated numbered device firmware found."
+          },
+          {
+            "url": "https://www.flamma.shop/products/flamma-fx20-portable-intelligent-headphone-modeling-headphone-amps-with-app-control",
+            "title": "FLAMMA exact FX20 product page",
+            "access": "Direct manufacturer page; unrelated CapturePro camera FAQ excluded",
+            "evidence": "Mobile editing/cloud and52amps/24effect positions; no dedicated pitch algorithm or dated launch."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Flamma::FX20",
       "Flamma::FX50",
       "Fractal Audio::AM4",
       "Fractal Audio::FM3 MKII Turbo",
@@ -188145,12 +188212,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 114,
-    "last_model": "Flamma::FX200",
-    "last_commit_parent": "4481f6aa4a40ae1c722e65945fbb26b0dadfa5eb",
+    "completed_model_count": 115,
+    "last_model": "Flamma::FX20",
+    "last_commit_parent": "b4f9641f592da4232db34d05d30fdf8b2ea8ccae",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Flamma::FX20",
       "Flamma::FX50",
       "Fractal Audio::AM4",
       "Fractal Audio::FM3 MKII Turbo",
@@ -188439,7 +188505,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 114,
+    "pitch_completed_model_count": 115,
     "supplemental_model_count": 0
   },
   "model_images": {
