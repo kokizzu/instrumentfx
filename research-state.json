@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlug/NUX_MightyPlug_UserManual_English.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlugPRO/NUX_MightyPlugPRO_UserManual_English.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 2,
+    "frame": 3,
     "text_pages": [
       0,
       2
@@ -196962,6 +196962,161 @@
           "label": "1.95–2.03 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::Mighty Plug Pro MP-3": {
+        "model_key": "NUX::Mighty Plug Pro MP-3",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2022-07",
+          "precision": "month",
+          "kind": "manufacturer public-introduction month proxy",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=vVLBDfZbtXc"
+          ],
+          "note": "NUX’s exact-model Introducing MIGHTY PLUG PRO video is indexed July 22, 2022. Use July 2022 as a public-introduction proxy, not a verified first retail shipment day; later September press and October Japanese availability do not replace it. Direct video-page retrieval failed; title/channel/date/description were search-indexed."
+        },
+        "firmware": {
+          "version": "3.0.5",
+          "date": "2025-01-22",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://nuxaudio.com/product/mightyplugpro/",
+            "https://www.ariaguitars.com/jp/nux-mp3-fw.html"
+          ],
+          "note": "Current global support lists exact MP-3 firmware 3.0.5 for Windows/macOS with date blank; authorized Japanese distributor dates it January 22, 2025 and describes minor bug fixes. Original and ChopTones .bin variants are alternative preset payloads, not additive memory banks. Distributor requires an app preset reset when switching those payloads. V3.0.3 fixed preset import and IR errors when upgrading directly from V1; Mighty Editor 2.4.7.5 is software, not device firmware."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Official V3 release notes add Mono Octave to MOD on July 11, 2024; mono is explicit in its name. No manufacturer polyphonic chord-tracking guarantee or octave interval range located in the checked notes. Detune and Shimmer appear in external reference lists, but exact official parameter documentation remains to be verified; no borrowed MP-2 or Mighty Space pitch specification is accepted.",
+          "preset": "Seven presets with ACTIVE filtering: onboard PRESET cycles only selected active memories, while MightyAmp or Mighty Editor edits and saves effects and block order. Original manual visually confirms all nine named blocks and editing workflow. There is no separate documented pitch bank. Original/ChopTones preset payloads are alternatives; switching requires the documented reset, so back up user presets first.",
+          "dsp": "No isolated Mono Octave, Detune or shimmer DSP percentage published in the checked manufacturer material. Nine freely ordered block positions and 512-sample IR support are architecture specifications, not a pitch cost. Published 1.2 ms system latency is not a measured octave-tracking delay or polyphonic benchmark. No device test performed.",
+          "source_urls": [
+            "https://nuxaudio.com/product/mightyplugpro/",
+            "https://www.ariaguitars.com/jp/nux-mp3-fw.html",
+            "https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlugPRO/NUX_MightyPlugPRO_UserManual_English.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original English manual fetched at 6,131,924 bytes; SHA256 8feb0b0cd16623b49f98677d209bee610e554b0ba796592e0676e94a43296d63. PDF zero-based spreads 3, 6 and 8 visually inspected for block/preset editing, controls, TRRS mic/loopback and DFU workflow; not all eleven PDF pages. Earlier no-visual-inspection notes remain historical.",
+            "Manual 34 built-in plus 20 user IR slots differs from current page 36 plus 18; both total 54 but revision allocation remains unresolved. Manufacturer pages also contain Mighty Space copy errors, excluded from MP-3 conclusions.",
+            "Unofficial mighty-nam custom firmware is a separate experimental project and is not substituted for the latest manufacturer release or treated as manufacturer pitch capability."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://nuxaudio.com/product/mightyplugpro/",
+            "title": "NUX Mighty Plug Pro global product and support",
+            "access": "Current manufacturer page opened as text",
+            "evidence": "Firmware 3.0.5, Mono Octave V3 addition, seven ACTIVE presets and 1.2 ms system specification."
+          },
+          {
+            "url": "https://www.ariaguitars.com/jp/nux-mp3-fw.html",
+            "title": "ARAI MP-3 firmware history",
+            "access": "Authorized distributor release notes opened as text",
+            "evidence": "3.0.5 January 22, 2025; original/ChopTones reset; V3.0.0 July 11, 2024 Mono Octave and metronome additions."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlugPRO/NUX_MightyPlugPRO_UserManual_English.pdf",
+            "title": "NUX MP-3 original English manual",
+            "access": "Original PDF retrieved; spreads 3,6,8 visually inspected, zero-based",
+            "evidence": "SHA256 8feb0b0cd16623b49f98677d209bee610e554b0ba796592e0676e94a43296d63; original preset/blocks, controls and audio/update workflow."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=vVLBDfZbtXc",
+            "title": "NUX Introducing MIGHTY PLUG PRO",
+            "access": "Search-indexed manufacturer title/channel/date; direct page retrieval failed",
+            "evidence": "July 22, 2022 public introduction, used only at month precision."
+          }
+        ],
+        "notes": [
+          "Further exact-model primary verification needed for Detune/Shimmer parameter ranges and polyphony. No firmware installed or user presets reset.",
+          "Unverified algorithm follow-up leads: https://www.blrfl.com/flotsam/mpp-reference.pdf (community effects reference, firmware 20240711) and https://www.scribd.com/document/973595312/MP-3-MODELS-2410-1 (uploaded model sheet, original authorship not confirmed). Neither substitutes for exact manufacturer parameter/polyphony evidence."
+        ],
+        "duration": {
+          "minimum_days": 906,
+          "maximum_days": 936,
+          "label": "2.48–2.56 years"
+        },
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "NUX::Mighty Plug Pro MP-3",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2022-07",
+              "precision": "month",
+              "kind": "manufacturer public-introduction month proxy",
+              "source_urls": [
+                "https://www.youtube.com/watch?v=vVLBDfZbtXc"
+              ],
+              "note": "NUX’s exact-model Introducing MIGHTY PLUG PRO video is indexed July 22, 2022. Use July 2022 as a public-introduction proxy, not a verified first retail shipment day; later September press and October Japanese availability do not replace it. Direct video-page retrieval failed; title/channel/date/description were search-indexed."
+            },
+            "firmware": {
+              "version": "3.0.5",
+              "date": "2025-01-22",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://nuxaudio.com/product/mightyplugpro/",
+                "https://www.ariaguitars.com/jp/nux-mp3-fw.html"
+              ],
+              "note": "Current global support lists exact MP-3 firmware 3.0.5 for Windows/macOS with date blank; authorized Japanese distributor dates it January 22, 2025 and describes minor bug fixes. Original and ChopTones .bin variants are alternative preset payloads, not additive memory banks. Distributor requires an app preset reset when switching those payloads. V3.0.3 fixed preset import and IR errors when upgrading directly from V1; Mighty Editor 2.4.7.5 is software, not device firmware."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Official V3 release notes add Mono Octave to MOD on July 11, 2024; mono is explicit in its name. No manufacturer polyphonic chord-tracking guarantee or octave interval range located in the checked notes. Detune and Shimmer appear in external reference lists, but exact official parameter documentation remains to be verified; no borrowed MP-2 or Mighty Space pitch specification is accepted.",
+              "preset": "Seven presets with ACTIVE filtering: onboard PRESET cycles only selected active memories, while MightyAmp or Mighty Editor edits and saves effects and block order. Original manual visually confirms all nine named blocks and editing workflow. There is no separate documented pitch bank. Original/ChopTones preset payloads are alternatives; switching requires the documented reset, so back up user presets first.",
+              "dsp": "No isolated Mono Octave, Detune or shimmer DSP percentage published in the checked manufacturer material. Nine freely ordered block positions and 512-sample IR support are architecture specifications, not a pitch cost. Published 1.2 ms system latency is not a measured octave-tracking delay or polyphonic benchmark. No device test performed.",
+              "source_urls": [
+                "https://nuxaudio.com/product/mightyplugpro/",
+                "https://www.ariaguitars.com/jp/nux-mp3-fw.html",
+                "https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlugPRO/NUX_MightyPlugPRO_UserManual_English.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Original English manual fetched at 6,131,924 bytes; SHA256 8feb0b0cd16623b49f98677d209bee610e554b0ba796592e0676e94a43296d63. PDF zero-based spreads 3, 6 and 8 visually inspected for block/preset editing, controls, TRRS mic/loopback and DFU workflow; not all eleven PDF pages. Earlier no-visual-inspection notes remain historical.",
+                "Manual 34 built-in plus 20 user IR slots differs from current page 36 plus 18; both total 54 but revision allocation remains unresolved. Manufacturer pages also contain Mighty Space copy errors, excluded from MP-3 conclusions.",
+                "Unofficial mighty-nam custom firmware is a separate experimental project and is not substituted for the latest manufacturer release or treated as manufacturer pitch capability."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://nuxaudio.com/product/mightyplugpro/",
+                "title": "NUX Mighty Plug Pro global product and support",
+                "access": "Current manufacturer page opened as text",
+                "evidence": "Firmware 3.0.5, Mono Octave V3 addition, seven ACTIVE presets and 1.2 ms system specification."
+              },
+              {
+                "url": "https://www.ariaguitars.com/jp/nux-mp3-fw.html",
+                "title": "ARAI MP-3 firmware history",
+                "access": "Authorized distributor release notes opened as text",
+                "evidence": "3.0.5 January 22, 2025; original/ChopTones reset; V3.0.0 July 11, 2024 Mono Octave and metronome additions."
+              },
+              {
+                "url": "https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlugPRO/NUX_MightyPlugPRO_UserManual_English.pdf",
+                "title": "NUX MP-3 original English manual",
+                "access": "Original PDF retrieved; spreads 3,6,8 visually inspected, zero-based",
+                "evidence": "SHA256 8feb0b0cd16623b49f98677d209bee610e554b0ba796592e0676e94a43296d63; original preset/blocks, controls and audio/update workflow."
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=vVLBDfZbtXc",
+                "title": "NUX Introducing MIGHTY PLUG PRO",
+                "access": "Search-indexed manufacturer title/channel/date; direct page retrieval failed",
+                "evidence": "July 22, 2022 public introduction, used only at month precision."
+              }
+            ],
+            "notes": [
+              "Further exact-model primary verification needed for Detune/Shimmer parameter ranges and polyphony. No firmware installed or user presets reset."
+            ],
+            "duration": {
+              "minimum_days": 906,
+              "maximum_days": 936,
+              "label": "2.48–2.56 years"
+            },
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
@@ -196996,7 +197151,6 @@
       "Mosky::SOL918",
       "Neural DSP::Nano Cortex",
       "Neural DSP::Quad Cortex",
-      "NUX::Mighty Plug Pro MP-3",
       "Roland::GR-55",
       "Roland::VT-4",
       "ROWIN::RE-05 Looper Pro",
@@ -197143,9 +197297,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 226,
-    "last_model": "NUX::Mighty Plug MP-2",
-    "last_commit_parent": "e935362de1f581b6437eb66ccff22b19657d596e",
+    "completed_model_count": 227,
+    "last_model": "NUX::Mighty Plug Pro MP-3",
+    "last_commit_parent": "bb2ae4408237e800ce59fdb90b49f59412af6b4a",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -197179,7 +197333,6 @@
       "Mosky::SOL918",
       "Neural DSP::Nano Cortex",
       "Neural DSP::Quad Cortex",
-      "NUX::Mighty Plug Pro MP-3",
       "Roland::GR-55",
       "Roland::VT-4",
       "ROWIN::RE-05 Looper Pro",
@@ -197325,7 +197478,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 226,
+    "pitch_completed_model_count": 227,
     "supplemental_model_count": 0
   },
   "model_images": {

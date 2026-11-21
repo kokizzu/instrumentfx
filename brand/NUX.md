@@ -2321,6 +2321,35 @@ MP-2 mirror review used manufacturer manual body only,not generated summaries/FA
 
 ## Mighty Plug Pro MP-3
 
+<!-- firmware-pitch:NUX::Mighty Plug Pro MP-3 begins -->
+### Firmware and pitch audit — NUX Mighty Plug Pro MP-3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022-07 (manufacturer public-introduction month proxy). NUX’s exact-model Introducing MIGHTY PLUG PRO video is indexed July 22, 2022. Use July 2022 as a public-introduction proxy, not a verified first retail shipment day; later September press and October Japanese availability do not replace it. Direct video-page retrieval failed; title/channel/date/description were search-indexed. [launch 1](https://www.youtube.com/watch?v=vVLBDfZbtXc) |
+| Firmware / latest verification | 3.0.5 — Latest verified. Current global support lists exact MP-3 firmware 3.0.5 for Windows/macOS with date blank; authorized Japanese distributor dates it January 22, 2025 and describes minor bug fixes. Original and ChopTones .bin variants are alternative preset payloads, not additive memory banks. Distributor requires an app preset reset when switching those payloads. V3.0.3 fixed preset import and IR errors when upgrading directly from V1; Mighty Editor 2.4.7.5 is software, not device firmware. [firmware 1](https://nuxaudio.com/product/mightyplugpro/) [firmware 2](https://www.ariaguitars.com/jp/nux-mp3-fw.html) |
+| Firmware / release date | 2025-01-22 (day precision) |
+| Firmware / release-to-update duration | 2.48–2.56 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Official V3 release notes add Mono Octave to MOD on July 11, 2024; mono is explicit in its name. No manufacturer polyphonic chord-tracking guarantee or octave interval range located in the checked notes. Detune and Shimmer appear in external reference lists, but exact official parameter documentation remains to be verified; no borrowed MP-2 or Mighty Space pitch specification is accepted. [pitch 1](https://nuxaudio.com/product/mightyplugpro/) [pitch 2](https://www.ariaguitars.com/jp/nux-mp3-fw.html) [pitch 3](https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlugPRO/NUX_MightyPlugPRO_UserManual_English.pdf) |
+| Pitch / preset recall | Seven presets with ACTIVE filtering: onboard PRESET cycles only selected active memories, while MightyAmp or Mighty Editor edits and saves effects and block order. Original manual visually confirms all nine named blocks and editing workflow. There is no separate documented pitch bank. Original/ChopTones preset payloads are alternatives; switching requires the documented reset, so back up user presets first. |
+| Pitch / DSP resources | No isolated Mono Octave, Detune or shimmer DSP percentage published in the checked manufacturer material. Nine freely ordered block positions and 512-sample IR support are architecture specifications, not a pitch cost. Published 1.2 ms system latency is not a measured octave-tracking delay or polyphonic benchmark. No device test performed. |
+| Pitch / qualifications | Original English manual fetched at 6,131,924 bytes; SHA256 8feb0b0cd16623b49f98677d209bee610e554b0ba796592e0676e94a43296d63. PDF zero-based spreads 3, 6 and 8 visually inspected for block/preset editing, controls, TRRS mic/loopback and DFU workflow; not all eleven PDF pages. Earlier no-visual-inspection notes remain historical. Manual 34 built-in plus 20 user IR slots differs from current page 36 plus 18; both total 54 but revision allocation remains unresolved. Manufacturer pages also contain Mighty Space copy errors, excluded from MP-3 conclusions. Unofficial mighty-nam custom firmware is a separate experimental project and is not substituted for the latest manufacturer release or treated as manufacturer pitch capability. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Further exact-model primary verification needed for Detune/Shimmer parameter ranges and polyphony. No firmware installed or user presets reset.
+
+Unverified algorithm follow-up leads: https://www.blrfl.com/flotsam/mpp-reference.pdf (community effects reference, firmware 20240711) and https://www.scribd.com/document/973595312/MP-3-MODELS-2410-1 (uploaded model sheet, original authorship not confirmed). Neither substitutes for exact manufacturer parameter/polyphony evidence.
+
+Sources checked:
+
+- [NUX Mighty Plug Pro global product and support](https://nuxaudio.com/product/mightyplugpro/) — Firmware 3.0.5, Mono Octave V3 addition, seven ACTIVE presets and 1.2 ms system specification. (Current manufacturer page opened as text).
+- [ARAI MP-3 firmware history](https://www.ariaguitars.com/jp/nux-mp3-fw.html) — 3.0.5 January 22, 2025; original/ChopTones reset; V3.0.0 July 11, 2024 Mono Octave and metronome additions. (Authorized distributor release notes opened as text).
+- [NUX MP-3 original English manual](https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlugPRO/NUX_MightyPlugPRO_UserManual_English.pdf) — SHA256 8feb0b0cd16623b49f98677d209bee610e554b0ba796592e0676e94a43296d63; original preset/blocks, controls and audio/update workflow. (Original PDF retrieved; spreads 3,6,8 visually inspected, zero-based).
+- [NUX Introducing MIGHTY PLUG PRO](https://www.youtube.com/watch?v=vVLBDfZbtXc) — July 22, 2022 public introduction, used only at month precision. (Search-indexed manufacturer title/channel/date; direct page retrieval failed).
+
+<!-- firmware-pitch:NUX::Mighty Plug Pro MP-3 ends -->
+
 Checked 2026-10-17; partial. Guitar/bass processing explicitly documented; ownership unverified. [Official product](https://nuxaudio.com/product/mightyplugpro/).
 
 <!-- comparison evidence begins -->
