@@ -194436,11 +194436,35 @@
             "sha256": "2c0be9de11eeca5b07c506bcb9fcce9a02f70fe7d50b4f6b3019ab2b69954faa"
           }
         }
+      },
+      "Korg::AX1000G": {
+        "model_key": "Korg::AX1000G",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/korg-ax1000g-6363688.jpeg",
+            "source_url": "https://fr.audiofanzine.com/multieffet-guitare-electrique/korg/Ax1000g/",
+            "caption": "AX1000G — powered-on overhead panel detail",
+            "note": "Audiofanzine user photograph shows the AX1000G label, illuminated DIST LO LCD, bank display and LEDs from overhead. Right edge crops most of the expression pedal; a complete uncropped top-down photograph remains pending. Display contents do not establish firmware version.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "3871f1536c718f298fded4d7e1a4469f58df506330e8eb8555a82a0716a123ad"
+          },
+          "rear": {
+            "image_url": "https://guitars.gbase.com/aza/user/gear/korg-ax1000g-silver-6.jpg",
+            "source_url": "https://www.gbase.com/gear/korg-ax1000g-silver",
+            "caption": "AX1000G — rear connections",
+            "note": "Gbase seller photograph of exact AX1000G, angled rear view. Readable labels show INPUT, AUX IN, OUTPUT R and L/MONO, headphone symbol and DC9V socket beside cable restraint. Small polarity marking is not transcribed. The boxed product in the background is not used as evidence of this unit being powered on.",
+            "visual_checked": true,
+            "sha256": "c6d0401b4d5381d7a396219aeee8441a00fa4ed42f20fd7740fee7e6ccfd67e8"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Fractal Audio::FM9 Turbo"
+    "last_model": "Korg::AX1000G"
   }
 }
