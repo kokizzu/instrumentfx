@@ -196746,11 +196746,35 @@
             "sha256": "415349ae16d5d6efd4eb0ad184a7888e69bc144663f8b5f5d1b3c5a045d21670"
           }
         }
+      },
+      "MOOER::GE200 Pro Li": {
+        "model_key": "MOOER::GE200 Pro Li",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE200-Pro-Li-01.png?v=1722310526&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-ge200pro-li",
+            "caption": "MOOER GE200 Pro Li — powered-on top-down view",
+            "note": "Complete top-down product image from the exact Pro Li regional page. Purple chassis, GE200Pro Li badge, multicolour expression pedal and illuminated ambient strip distinguish this variant. LCD depicts 04A ToneQueen Clean with lit footswitch rings; total preset DSP shown is not isolated pitch cost.",
+            "visual_checked": true,
+            "sha256": "2e0ddd9c6e8279ebc4d3c89202da802d9282c6eaf8e864674791fcf0922cf836",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE200-Pro-Li-2.png?v=1722310525&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-ge200pro-li",
+            "caption": "MOOER GE200 Pro Li — rear connections",
+            "note": "Complete straight rear panel of the purple Pro Li: EXP2, instrument IN, FX-loop send/return, stereo XLR, ground lift, stereo jack outputs, headphones, shared MIDI IN/OUT, USB Type-C, power switch and DC 9 V input. Connector legends readable; internal battery is not visible.",
+            "visual_checked": true,
+            "sha256": "41db07b9cf72dcc4429ae80dce62d2b79e594ca4540b270d42f90cb85e173177"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE200 Pro"
+    "last_model": "MOOER::GE200 Pro Li"
   }
 }

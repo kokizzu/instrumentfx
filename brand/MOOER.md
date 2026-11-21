@@ -1834,6 +1834,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GE200 Pro Li ends -->
 
+<!-- model-images:MOOER::GE200 Pro Li begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GE200 Pro Li — powered-on top-down view**
+
+[![MOOER GE200 Pro Li — powered-on top-down view](https://mooer.jp/cdn/shop/files/GE200-Pro-Li-01.png?v=1722310526&width=1445)](https://mooer.jp/cdn/shop/files/GE200-Pro-Li-01.png?v=1722310526&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-ge200pro-li). Complete top-down product image from the exact Pro Li regional page. Purple chassis, GE200Pro Li badge, multicolour expression pedal and illuminated ambient strip distinguish this variant. LCD depicts 04A ToneQueen Clean with lit footswitch rings; total preset DSP shown is not isolated pitch cost.
+
+**MOOER GE200 Pro Li — rear connections**
+
+[![MOOER GE200 Pro Li — rear connections](https://mooer.jp/cdn/shop/files/GE200-Pro-Li-2.png?v=1722310525&width=1445)](https://mooer.jp/cdn/shop/files/GE200-Pro-Li-2.png?v=1722310525&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-ge200pro-li). Complete straight rear panel of the purple Pro Li: EXP2, instrument IN, FX-loop send/return, stereo XLR, ground lift, stereo jack outputs, headphones, shared MIDI IN/OUT, USB Type-C, power switch and DC 9 V input. Connector legends readable; internal battery is not visible.
+
+</details>
+<!-- model-images:MOOER::GE200 Pro Li ends -->
+
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE200-PRO-LI source begins -->
