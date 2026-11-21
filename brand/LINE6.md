@@ -2861,6 +2861,34 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 
 ## POD Go and POD Go Wireless
 
+<!-- firmware-pitch:Line 6::POD Go Wireless begins -->
+### Firmware and pitch audit — Line 6 POD Go Wireless
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2021-03-09 (manufacturer announcement). Manufacturer Wireless debut March 9, 2021, with spring 2021 worldwide availability promised. Announcement proxy; exact first shipment day unverified. Do not use standard POD Go January 2020 introduction. [launch 1](https://line6.com/data/6/0a020a407c38603eee55c6d33/application/pdf/Line%206_POD%20Go%20Wireless_PR.%E2%80%8Bpdf) |
+| Firmware / latest verification | 2.50.0 — Latest verified. Latest current device index is 2.50.0, explicitly supporting Wireless and standard POD Go. Index date January 21, 2025 conflicts with release-note January 23; January precision retained. POD Go Edit and Relay G10T/G10TII transmitter firmware are separate software/device identities. No update installed. [firmware 1](https://line6.com/software/index.html?hardware=POD+Go&locale=en_US&name=Firmware&submit_form=set) [firmware 2](https://kb.line6.com/pod-go-2-50) |
+| Firmware / release date | 2025-01 (month precision) |
+| Firmware / release-to-update duration | 3.82–3.90 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Shared 2.50 library explicitly applies to Wireless per own FAQ: Simple Pitch, Dual Pitch, Pitch Wham, Twin/Smart Harmony and octavers. No HX Poly Pitch/Wham/Capo or 12 String in checked table. Polyphonic input tracking not certified; mono channel format does not prove single-note-only handling. Wireless receiver does not add pitch algorithms. [pitch 1](https://line6.com/data/6/0a00040c018d681e825e1c4b3/application/pdf/POD%20Go%202.50%20Owner%27s%20Manual%20-%20English%20.pdf) [pitch 2](https://line6.com/podgo-models/) [pitch 3](https://line6.com/data/6/0a00081f0197678fd700cad64/application/pdf/POD%20Go%20Edit%20-%20Pilots%20Guide%202.50%20-%20English%20.pdf) [pitch 4](https://kb.line6.com/pod-go-wireless-faq) |
+| Pitch / preset recall | Yes: configure pitch block then HOME/VIEW + ACTION to Save; 256 overwriteable locations including Factory setlist, four snapshots per preset. Own p16 documents preset saving, p29 the pitch library. No physical recall or chord-quality test. |
+| Pitch / DSP resources | Semi-fixed serial chain with amp/preamp, cab/IR, EQ, wah, volume and FX loop plus four selectable effect blocks (own p13). Pitch uses a selectable slot and remaining DSP budget. POD Go Edit guide describes dynamic DSP management; not four arbitrary heavy effects guaranteed. No model-specific pitch CPU percentage located. HX Stomp/Ampero 50% figures are not POD Go measurements. |
+| Pitch / qualifications | Own Wireless FAQ explicitly makes unmarked POD Go material applicable to Wireless; this is documented sharing, not an assumed sibling transfer. Generic website poly-DSP footnote does not establish an absent model. No chord-tracking, RF latency or CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 POD Go Wireless launch press release](https://line6.com/data/6/0a020a407c38603eee55c6d33/application/pdf/Line%206_POD%20Go%20Wireless_PR.%E2%80%8Bpdf) — March 9, 2021 debut; spring 2021 availability planned. Relay receiver/G10TII and shared processing, distinct from 2020 standard launch. (Original manufacturer two-page PDF text read).
+- [POD Go exact firmware download index](https://line6.com/software/index.html?hardware=POD+Go&locale=en_US&name=Firmware&submit_form=set) — Latest 2.50.0, January 21, 2025; explicitly supports POD Go and Wireless. Editor is a separate package. (Current manufacturer index read).
+- [POD Go 2.50 release notes](https://kb.line6.com/pod-go-2-50) — January 23, 2025 release wording conflicts with index January 21; both in January. Shared firmware and new models documented. (Current manufacturer KB read).
+- [POD Go 2.50 Owner Manual Rev G](https://line6.com/data/6/0a00040c018d681e825e1c4b3/application/pdf/POD%20Go%202.50%20Owner%27s%20Manual%20-%20English%20.pdf) — Simple/Dual Pitch, Pitch Wham and harmonies, preset Save, 256 overwriteable locations and semi-fixed plus four-flex-block architecture. (Original 51-page PDF retrieved; p29 visually inspected, pp13/16 text read; SHA256 9610f8f92e445bf330f01f886073230633dcd0a6bb655ff1da07b5cba625f1d6).
+- [POD Go official model list](https://line6.com/podgo-models/) — Lists pitch/harmony/octaver models, no HX Poly Pitch/Wham/Capo/12 String. Generic poly footnote does not match named table entries. (Current manufacturer pitch table read).
+- [POD Go Edit 2.50 Pilot Guide Rev I](https://line6.com/data/6/0a00081f0197678fd700cad64/application/pdf/POD%20Go%20Edit%20-%20Pilots%20Guide%202.50%20-%20English%20.pdf) — Describes dynamic DSP management for model selection; no per-pitch percentage established. (Indexed manufacturer DSP-management passage read; full web reader rejects 20.4MB file, no local retrieval claimed).
+- [POD Go Wireless manufacturer FAQ](https://kb.line6.com/pod-go-wireless-faq) — Explicitly applies unmarked POD Go material to Wireless; lists receiver, transmitter, charging and rear storage differences. Relay transmitter firmware is separate from floorboard firmware. (Current manufacturer FAQ read).
+
+<!-- firmware-pitch:Line 6::POD Go Wireless ends -->
+
 <!-- firmware-pitch:Line 6::POD Go begins -->
 ### Firmware and pitch audit — Line 6 POD Go
 

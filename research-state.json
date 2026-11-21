@@ -189711,6 +189711,96 @@
           "label": "4.96–5.04 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::POD Go Wireless": {
+        "model_key": "Line 6::POD Go Wireless",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2021-03-09",
+          "precision": "day",
+          "kind": "manufacturer_announcement",
+          "source_urls": [
+            "https://line6.com/data/6/0a020a407c38603eee55c6d33/application/pdf/Line%206_POD%20Go%20Wireless_PR.%E2%80%8Bpdf"
+          ],
+          "note": "Manufacturer Wireless debut March 9, 2021, with spring 2021 worldwide availability promised. Announcement proxy; exact first shipment day unverified. Do not use standard POD Go January 2020 introduction."
+        },
+        "firmware": {
+          "version": "2.50.0",
+          "date": "2025-01",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=POD+Go&locale=en_US&name=Firmware&submit_form=set",
+            "https://kb.line6.com/pod-go-2-50"
+          ],
+          "note": "Latest current device index is 2.50.0, explicitly supporting Wireless and standard POD Go. Index date January 21, 2025 conflicts with release-note January 23; January precision retained. POD Go Edit and Relay G10T/G10TII transmitter firmware are separate software/device identities. No update installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Shared 2.50 library explicitly applies to Wireless per own FAQ: Simple Pitch, Dual Pitch, Pitch Wham, Twin/Smart Harmony and octavers. No HX Poly Pitch/Wham/Capo or 12 String in checked table. Polyphonic input tracking not certified; mono channel format does not prove single-note-only handling. Wireless receiver does not add pitch algorithms.",
+          "preset": "Yes: configure pitch block then HOME/VIEW + ACTION to Save; 256 overwriteable locations including Factory setlist, four snapshots per preset. Own p16 documents preset saving, p29 the pitch library. No physical recall or chord-quality test.",
+          "dsp": "Semi-fixed serial chain with amp/preamp, cab/IR, EQ, wah, volume and FX loop plus four selectable effect blocks (own p13). Pitch uses a selectable slot and remaining DSP budget. POD Go Edit guide describes dynamic DSP management; not four arbitrary heavy effects guaranteed. No model-specific pitch CPU percentage located. HX Stomp/Ampero 50% figures are not POD Go measurements.",
+          "source_urls": [
+            "https://line6.com/data/6/0a00040c018d681e825e1c4b3/application/pdf/POD%20Go%202.50%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "https://line6.com/podgo-models/",
+            "https://line6.com/data/6/0a00081f0197678fd700cad64/application/pdf/POD%20Go%20Edit%20-%20Pilots%20Guide%202.50%20-%20English%20.pdf",
+            "https://kb.line6.com/pod-go-wireless-faq"
+          ],
+          "measurements": [],
+          "notes": [
+            "Own Wireless FAQ explicitly makes unmarked POD Go material applicable to Wireless; this is documented sharing, not an assumed sibling transfer. Generic website poly-DSP footnote does not establish an absent model. No chord-tracking, RF latency or CPU measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://line6.com/data/6/0a020a407c38603eee55c6d33/application/pdf/Line%206_POD%20Go%20Wireless_PR.%E2%80%8Bpdf",
+            "title": "Line 6 POD Go Wireless launch press release",
+            "access": "Original manufacturer two-page PDF text read",
+            "evidence": "March 9, 2021 debut; spring 2021 availability planned. Relay receiver/G10TII and shared processing, distinct from 2020 standard launch."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=POD+Go&locale=en_US&name=Firmware&submit_form=set",
+            "title": "POD Go exact firmware download index",
+            "access": "Current manufacturer index read",
+            "evidence": "Latest 2.50.0, January 21, 2025; explicitly supports POD Go and Wireless. Editor is a separate package."
+          },
+          {
+            "url": "https://kb.line6.com/pod-go-2-50",
+            "title": "POD Go 2.50 release notes",
+            "access": "Current manufacturer KB read",
+            "evidence": "January 23, 2025 release wording conflicts with index January 21; both in January. Shared firmware and new models documented."
+          },
+          {
+            "url": "https://line6.com/data/6/0a00040c018d681e825e1c4b3/application/pdf/POD%20Go%202.50%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "title": "POD Go 2.50 Owner Manual Rev G",
+            "access": "Original 51-page PDF retrieved; p29 visually inspected, pp13/16 text read; SHA256 9610f8f92e445bf330f01f886073230633dcd0a6bb655ff1da07b5cba625f1d6",
+            "evidence": "Simple/Dual Pitch, Pitch Wham and harmonies, preset Save, 256 overwriteable locations and semi-fixed plus four-flex-block architecture."
+          },
+          {
+            "url": "https://line6.com/podgo-models/",
+            "title": "POD Go official model list",
+            "access": "Current manufacturer pitch table read",
+            "evidence": "Lists pitch/harmony/octaver models, no HX Poly Pitch/Wham/Capo/12 String. Generic poly footnote does not match named table entries."
+          },
+          {
+            "url": "https://line6.com/data/6/0a00081f0197678fd700cad64/application/pdf/POD%20Go%20Edit%20-%20Pilots%20Guide%202.50%20-%20English%20.pdf",
+            "title": "POD Go Edit 2.50 Pilot Guide Rev I",
+            "access": "Indexed manufacturer DSP-management passage read; full web reader rejects 20.4MB file, no local retrieval claimed",
+            "evidence": "Describes dynamic DSP management for model selection; no per-pitch percentage established."
+          },
+          {
+            "url": "https://kb.line6.com/pod-go-wireless-faq",
+            "title": "POD Go Wireless manufacturer FAQ",
+            "access": "Current manufacturer FAQ read",
+            "evidence": "Explicitly applies unmarked POD Go material to Wireless; lists receiver, transmitter, charging and rear storage differences. Relay transmitter firmware is separate from floorboard firmware."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1394,
+          "maximum_days": 1424,
+          "label": "3.82–3.90 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -189761,7 +189851,6 @@
       "Line 6::Pocket POD",
       "Line 6::POD Express Bass",
       "Line 6::POD Express Guitar",
-      "Line 6::POD Go Wireless",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
       "Line 6::POD HD500",
@@ -189983,9 +190072,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 135,
-    "last_model": "Line 6::POD Go",
-    "last_commit_parent": "0c86b916d25ca62c47ad7d4a217b08eaa84cab7c",
+    "completed_model_count": 136,
+    "last_model": "Line 6::POD Go Wireless",
+    "last_commit_parent": "1fdc11dc1f40243ee79b7db746a1af18c5c55370",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190035,7 +190124,6 @@
       "Line 6::Pocket POD",
       "Line 6::POD Express Bass",
       "Line 6::POD Express Guitar",
-      "Line 6::POD Go Wireless",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
       "Line 6::POD HD500",
@@ -190256,7 +190344,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 135,
+    "pitch_completed_model_count": 136,
     "supplemental_model_count": 0
   },
   "model_images": {
