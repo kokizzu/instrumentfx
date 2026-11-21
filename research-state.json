@@ -203661,7 +203661,7 @@
             "image_url": "https://www.hotone.jp/images/brands/sonicake/products/matribox-ii/gallery/20260902-093154-k3wrn5-matribox-ii_front_hi_v01_250219.webp",
             "source_url": "https://www.hotone.jp/brands/sonicake/products/matribox-ii",
             "caption": "Matribox II powered overhead",
-            "note": "Visually inspected exact overhead of the three-footswitch QME-100: lit screen and indicators, five rotary controls, thirteen separate panel buttons and built-in expression. Not the two-switch original or four-switch Pro. Marketing image does not prove installed firmware.",
+            "note": "Visually inspected exact overhead of the three-footswitch QME-100: lit screen and indicators, five rotary controls, thirteen separate panel buttons and built-in expression. Not the two-switch original or six-switch Pro. Marketing image does not prove installed firmware.",
             "visual_checked": true,
             "sha256": "647d1a9ddf02301c4fe83ac09127a349b86ced0048ce6698daa6a571b558aa6b",
             "powered_on": true,
@@ -203678,11 +203678,51 @@
             "exact_top_down": false
           }
         }
+      },
+      "Sonicake::Matribox II Pro QME-200": {
+        "model_key": "Sonicake::Matribox II Pro QME-200",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/matribox-ii-pro/gallery/20260804-031103-s4d7ku-qme-200-1.webp",
+            "source_url": "https://www.hotone.jp/brands/sonicake/products/matribox-ii-pro",
+            "caption": "Matribox II Pro powered overhead",
+            "note": "Visually inspected distributor overhead: illuminated color display, six footswitches (A-D plus bank pair), five rotaries, seven separate panel buttons and built-in expression. Pro differs from three-switch Matribox II; firmware not established by screen image.",
+            "visual_checked": true,
+            "sha256": "6fdcb1a5b83262c1e461a922d3f25f2c4a50fa537f76968f4ec1801b2c3a90cf",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/matribox-ii-pro/gallery/20260804-031056-7sdjy8-qme-200-10.webp",
+            "source_url": "https://www.hotone.jp/brands/sonicake/products/matribox-ii-pro",
+            "caption": "Matribox II Pro complete rear ports",
+            "note": "Visually inspected EXP2/FS,INPUT,FXLOOP RETURN/SEND,two XLR OUTs,GND/LIFT,two quarter-inch OUTPUTs,AUX,PHONES,mini MIDI IN/OUT,USB-C,POWER switch andDC9V1000mA center-negative. One send/return pair shown; no second loop inferred from stereo marketing. Port presence does not resolve disputed MIDI transmission or quarter-inch TS/TRS wording.",
+            "visual_checked": true,
+            "sha256": "cbfb73285ffe57594cdc46fb2748952c986c47bcbb4af3b9598e2d11775e5064",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/matribox-ii-pro/gallery/20260804-031120-wyrmry-qme-200-11.webp",
+            "sha256": "aae2f5a26d42f7bbabb0e155914b4b29761a14a97f9f2342033e09def5c2c1be",
+            "visual_checked": true,
+            "note": "Powered angled top, not rear ports."
+          },
+          {
+            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/matribox-ii-pro/gallery/20260804-031125-0v9m3j-qme-200-9.webp",
+            "sha256": "63cf4912c010760d4c907a3ca9a9c707308cb6f03c76cae51cce04a25adf042f",
+            "visual_checked": true,
+            "note": "Low front/top angle, not connector panel."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::Matribox II QME-100"
+    "last_model": "Sonicake::Matribox II Pro QME-200"
   }
 }

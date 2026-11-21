@@ -212,6 +212,26 @@ Sources checked:
 
 <!-- firmware-pitch:Sonicake::Matribox II Pro QME-200 ends -->
 
+<!-- model-images:Sonicake::Matribox II Pro QME-200 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Matribox II Pro powered overhead**
+
+[![Matribox II Pro powered overhead](https://www.hotone.jp/images/brands/sonicake/products/matribox-ii-pro/gallery/20260804-031103-s4d7ku-qme-200-1.webp)](https://www.hotone.jp/images/brands/sonicake/products/matribox-ii-pro/gallery/20260804-031103-s4d7ku-qme-200-1.webp)
+
+[Image source](https://www.hotone.jp/brands/sonicake/products/matribox-ii-pro). Visually inspected distributor overhead: illuminated color display, six footswitches (A-D plus bank pair), five rotaries, seven separate panel buttons and built-in expression. Pro differs from three-switch Matribox II; firmware not established by screen image.
+
+**Matribox II Pro complete rear ports**
+
+[![Matribox II Pro complete rear ports](https://www.hotone.jp/images/brands/sonicake/products/matribox-ii-pro/gallery/20260804-031056-7sdjy8-qme-200-10.webp)](https://www.hotone.jp/images/brands/sonicake/products/matribox-ii-pro/gallery/20260804-031056-7sdjy8-qme-200-10.webp)
+
+[Image source](https://www.hotone.jp/brands/sonicake/products/matribox-ii-pro). Visually inspected EXP2/FS,INPUT,FXLOOP RETURN/SEND,two XLR OUTs,GND/LIFT,two quarter-inch OUTPUTs,AUX,PHONES,mini MIDI IN/OUT,USB-C,POWER switch andDC9V1000mA center-negative. One send/return pair shown; no second loop inferred from stereo marketing. Port presence does not resolve disputed MIDI transmission or quarter-inch TS/TRS wording.
+
+</details>
+<!-- model-images:Sonicake::Matribox II Pro QME-200 ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Existing review2026-10-14.** Not interchangeable with Matribox II presets.
@@ -386,7 +406,7 @@ Sources checked:
 
 [![Matribox II powered overhead](https://www.hotone.jp/images/brands/sonicake/products/matribox-ii/gallery/20260902-093154-k3wrn5-matribox-ii_front_hi_v01_250219.webp)](https://www.hotone.jp/images/brands/sonicake/products/matribox-ii/gallery/20260902-093154-k3wrn5-matribox-ii_front_hi_v01_250219.webp)
 
-[Image source](https://www.hotone.jp/brands/sonicake/products/matribox-ii). Visually inspected exact overhead of the three-footswitch QME-100: lit screen and indicators, five rotary controls, thirteen separate panel buttons and built-in expression. Not the two-switch original or four-switch Pro. Marketing image does not prove installed firmware.
+[Image source](https://www.hotone.jp/brands/sonicake/products/matribox-ii). Visually inspected exact overhead of the three-footswitch QME-100: lit screen and indicators, five rotary controls, thirteen separate panel buttons and built-in expression. Not the two-switch original or six-switch Pro. Marketing image does not prove installed firmware.
 
 **Matribox II complete rear connectors**
 
