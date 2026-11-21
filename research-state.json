@@ -193716,11 +193716,35 @@
             "sha256": "5221c5e35d2018ecaf58963d790d9a9551c8bd65702861b0a1f4b5df0b20ead2"
           }
         }
+      },
+      "Harley Benton::DNAfx GiT Core": {
+        "model_key": "Harley Benton::DNAfx GiT Core",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://cdn.mos.cms.futurecdn.net/CuAZsPYT4RzTtpTbB5uJQi.jpg",
+            "source_url": "https://www.musicradar.com/guitars/endless-creative-possibilities-with-just-a-flick-of-a-switch-harley-bentons-dnafx-git-core-packs-55-amp-models-151-effects-and-an-80-second-looper-into-a-compact-format-all-for-under-dollar99",
+            "caption": "DNAfx GiT Core — illuminated top panel, angled view",
+            "note": "Manufacturer-credited photograph reproduced by MusicRadar. The P004 UK Clean display and effect/button lights are illuminated. All top controls are visible, but this is an angled view; a straight top-down photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "f684ea2d34d44f2eff12419e56106f64804a6d96ceec6a6d076cfa7b1b2b88d7"
+          },
+          "rear": {
+            "image_url": "https://cdn.mos.cms.futurecdn.net/ESUSvjTggttEHqdQ3V5V5i.jpg",
+            "source_url": "https://www.musicradar.com/guitars/endless-creative-possibilities-with-just-a-flick-of-a-switch-harley-bentons-dnafx-git-core-packs-55-amp-models-151-effects-and-an-80-second-looper-into-a-compact-format-all-for-under-dollar99",
+            "caption": "DNAfx GiT Core — rear connections",
+            "note": "Manufacturer-credited rear photograph reproduced by MusicRadar. Labels show EXP, AUX IN, INPUT, OUTPUT, PHONES, USB, OTG and 9V DC 300mA centre-negative power. The computer USB socket is Type-B and OTG is Type-C in this pictured unit, matching the manual rather than the conflicting product-page connector wording; no hardware revision equivalence is inferred.",
+            "visual_checked": true,
+            "sha256": "3ad5de6a8c98fc3246ef17d31acf44920c812a7ed849171506e6af86ed671512"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP200"
+    "last_model": "Harley Benton::DNAfx GiT Core"
   }
 }
