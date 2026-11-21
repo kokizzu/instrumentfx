@@ -191227,11 +191227,35 @@
             "sha256": "ab40b8a8dad64858a64781f145fc6257b8659913ec25013421bb00f942a51e32"
           }
         }
+      },
+      "Line 6::HX Stomp XL": {
+        "model_key": "Line 6::HX Stomp XL",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://l6c-acdn2.line6.net/data/6/0a020a3fdbdb5fce39c5260a7/image/png/r17673_r17673_front.png",
+            "source_url": "https://line6.com/hx-stomp-xl/",
+            "caption": "HX Stomp XL powered-on top-down product image",
+            "note": "Exact XL overhead image shows active 06B Seismic Matters color display and illuminated switch rings. Eight footswitches, five front rotaries and four buttons are visible; sixth rotary is recessed Volume on rear. No integrated expression treadle. Manufacturer product image, not proof of installed 3.80 firmware or measured tracking quality.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "330f1a9c039e58a2cdf2214da01543e1c60f84d9dc8226d7627fb6c123503495"
+          },
+          "rear": {
+            "image_url": "https://l6c-acdn2.line6.net/data/6/0a020a41271a5fce3ad35c4f1/image/png/r17673_r17673_back.png",
+            "source_url": "https://line6.com/hx-stomp-xl/",
+            "caption": "HX Stomp XL complete rear panel",
+            "note": "Rear view labels recessed VOLUME, shared EXP1/2–FS7/8, stereo SEND, L/MONO/RIGHT RETURN/AUX IN, L/MONO/RIGHT inputs, balanced/unbalanced L/MONO/RIGHT outputs, headphones, DIN MIDI IN/OUT-THRU, USB-B, DC IN and power switch. All shown on the rear, unlike original Stomp side-port layout. DC label specifies 9VDC 3A center-negative; supply marking is not measured current draw. No XLR or dedicated 3.5mm AUX socket shown.",
+            "visual_checked": true,
+            "sha256": "310a16fcbbb271980e40e704c0839d6c88483b567351ce94613550dade0eb8cc"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::HX Effects"
+    "last_model": "Line 6::HX Stomp XL"
   }
 }

@@ -1989,6 +1989,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::HX Stomp XL ends -->
 
+<!-- model-images:Line 6::HX Stomp XL begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**HX Stomp XL powered-on top-down product image**
+
+[![HX Stomp XL powered-on top-down product image](https://l6c-acdn2.line6.net/data/6/0a020a3fdbdb5fce39c5260a7/image/png/r17673_r17673_front.png)](https://l6c-acdn2.line6.net/data/6/0a020a3fdbdb5fce39c5260a7/image/png/r17673_r17673_front.png)
+
+[Image source](https://line6.com/hx-stomp-xl/). Exact XL overhead image shows active 06B Seismic Matters color display and illuminated switch rings. Eight footswitches, five front rotaries and four buttons are visible; sixth rotary is recessed Volume on rear. No integrated expression treadle. Manufacturer product image, not proof of installed 3.80 firmware or measured tracking quality.
+
+**HX Stomp XL complete rear panel**
+
+[![HX Stomp XL complete rear panel](https://l6c-acdn2.line6.net/data/6/0a020a41271a5fce3ad35c4f1/image/png/r17673_r17673_back.png)](https://l6c-acdn2.line6.net/data/6/0a020a41271a5fce3ad35c4f1/image/png/r17673_r17673_back.png)
+
+[Image source](https://line6.com/hx-stomp-xl/). Rear view labels recessed VOLUME, shared EXP1/2–FS7/8, stereo SEND, L/MONO/RIGHT RETURN/AUX IN, L/MONO/RIGHT inputs, balanced/unbalanced L/MONO/RIGHT outputs, headphones, DIN MIDI IN/OUT-THRU, USB-B, DC IN and power switch. All shown on the rear, unlike original Stomp side-port layout. DC label specifies 9VDC 3A center-negative; supply marking is not measured current draw. No XLR or dedicated 3.5mm AUX socket shown.
+
+</details>
+<!-- model-images:Line 6::HX Stomp XL ends -->
+
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- LINE6-HX-STOMP-XL source begins -->
