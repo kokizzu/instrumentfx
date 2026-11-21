@@ -1704,6 +1704,26 @@ Sources checked:
 
 <!-- firmware-pitch:M-VAVE::TANK-PRO ends -->
 
+<!-- model-images:M-VAVE::TANK-PRO begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**TANK-PRO powered-on overhead product image**
+
+[![TANK-PRO powered-on overhead product image](https://www.cuvave.com/images/productInfo/tank-pro-1.webp)](https://www.cuvave.com/images/productInfo/tank-pro-1.webp)
+
+[Image source](https://www.cuvave.com/products). Manufacturer silver TANK PRO overhead product image; color display shows 01A CT-LightCln and all four footswitch rings are illuminated. Visually checked model name, five knobs and twelve buttons. Marketed image is not a hardware operation or pitch DSP test.
+
+**TANK-PRO rear ports**
+
+[![TANK-PRO rear ports](https://www.cuvave.com/images/productInfo/tank-pro-6.webp)](https://www.cuvave.com/images/productInfo/tank-pro-6.webp)
+
+[Image source](https://www.cuvave.com/product?id=tank-pro). Manufacturer full rear-panel image: EXP, INPUT, 3.5mm MIDI and headphone sockets, LIFT/GND, L/R XLR, L(MONO)/R quarter-inch outs, USB-C, charge indicator and power switch. MIDI socket presence does not establish MIDI OUT or its TRS wiring. No barrel DC input or effects loop shown. Powered state cannot be established from rear alone.
+
+</details>
+<!-- model-images:M-VAVE::TANK-PRO ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-14.** Not TANK-G/B or MK-300.
