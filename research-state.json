@@ -184159,10 +184159,72 @@
           "label": "1.03–1.12 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::MS-3": {
+        "model_key": "BOSS::MS-3",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2017-06-01",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2017/BOSS-INTRODUCES-MS-3-MULTI-EFFECTS-SWITCHER/"
+          ],
+          "note": "Announcement date; manufacturer press archive separately lists US availability July 11, 2017. Span uses announcement, not exact first shipment."
+        },
+        "firmware": {
+          "version": "1.21",
+          "date": "2025-06",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/ms-3/updates_drivers/1e7da100-b8d6-40dd-8656-c1ee5d716abf/"
+          ],
+          "note": "June 2025 fixes transmitted MIDI CC values; paired editor 1.0.3. 1.20 November 2024 changed Auto Off to 20 minutes; 1.10 January 2022 management-only. Earlier 1.04 November 2017 fixed bass Harmonist B0 tracking; 1.03 August 2017 fixed Pedal Bend assignment limits."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Guitar/bass Pitch Shifter ±24 semitones, one/two voices and FAST/MEDIUM/SLOW/MONO modes. MONO explicitly single-note with chord caveat; other modes’ input polyphony not explicitly claimed. Harmonist and pedal bends disallow chords. Overtone, octave and S-Bend also listed; no borrowed polyphony claims.",
+          "preset": "200 writable patch locations, 01-1–50-4. WRITE retains edits; no additional protected preset bank established.",
+          "dsp": "Same effect selectable in FX1 and FX2; pitch algorithms compete with other FX types. Six internal effects plus three external loops advertised, not six pitch slots. Mono effects/loops after stereo pitch collapse its stereo output. No CPU percentage published.",
+          "measurements": [],
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng03_W.pdf",
+            "https://www.roland.com/us/company/press_releases/2017/BOSS-INTRODUCES-MS-3-MULTI-EFFECTS-SWITCHER/"
+          ],
+          "notes": [
+            "Two shifted voices or stereo output do not establish input-note polyphony. Pitch algorithms and pedal bends occupy FX slots rather than an assumed separate pedal processor."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2017/BOSS-INTRODUCES-MS-3-MULTI-EFFECTS-SWITCHER/",
+            "title": "BOSS introduces MS-3 multi effects switcher",
+            "access": "Manufacturer press release web text",
+            "evidence": "June 1, 2017 announcement; six internal effects and 200 patches."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/ms-3/updates_drivers/1e7da100-b8d6-40dd-8656-c1ee5d716abf/",
+            "title": "MS-3 System Program 1.21",
+            "access": "Manufacturer current release notes",
+            "evidence": "June 2025 MIDI CC fix and earlier dated changes, including pitch-related fixes."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng03_W.pdf",
+            "title": "MS-3 Parameter Guide revision 03",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Pages 4,6,11–13: writable destinations, duplicable FX1/FX2, pitch modes/voices and chord restrictions."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2922,
+          "maximum_days": 2951,
+          "label": "8.00–8.08 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::MS-3",
       "BOSS::Pocket GT",
       "BOSS::SE-50",
       "BOSS::VE-1",
@@ -184504,12 +184566,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 62,
-    "last_model": "BOSS::ME-90B",
-    "last_commit_parent": "bfd8d333d801a3f0f99aa4c2d6523539cc1fddb6",
+    "completed_model_count": 63,
+    "last_model": "BOSS::MS-3",
+    "last_commit_parent": "cd948731c10a9850a16640f8ddfdea195539c04d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::MS-3",
       "BOSS::Pocket GT",
       "BOSS::SE-50",
       "BOSS::VE-1",
@@ -184850,7 +184911,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 62,
+    "pitch_completed_model_count": 63,
     "supplemental_model_count": 0
   }
 }

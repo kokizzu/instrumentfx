@@ -5757,6 +5757,30 @@ Checked 2026-10-18; support-page text only, no installers downloaded.
 
 ## MS-3
 
+<!-- firmware-pitch:BOSS::MS-3 begins -->
+### Firmware and pitch audit — BOSS MS-3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017-06-01 (manufacturer announcement proxy). Announcement date; manufacturer press archive separately lists US availability July 11, 2017. Span uses announcement, not exact first shipment. [launch 1](https://www.roland.com/us/company/press_releases/2017/BOSS-INTRODUCES-MS-3-MULTI-EFFECTS-SWITCHER/) |
+| Firmware / latest verification | 1.21 — Latest verified. June 2025 fixes transmitted MIDI CC values; paired editor 1.0.3. 1.20 November 2024 changed Auto Off to 20 minutes; 1.10 January 2022 management-only. Earlier 1.04 November 2017 fixed bass Harmonist B0 tracking; 1.03 August 2017 fixed Pedal Bend assignment limits. [firmware 1](https://www.boss.info/global/support/by_product/ms-3/updates_drivers/1e7da100-b8d6-40dd-8656-c1ee5d716abf/) |
+| Firmware / release date | 2025-06 (month precision) |
+| Firmware / release-to-update duration | 8.00–8.08 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Guitar/bass Pitch Shifter ±24 semitones, one/two voices and FAST/MEDIUM/SLOW/MONO modes. MONO explicitly single-note with chord caveat; other modes’ input polyphony not explicitly claimed. Harmonist and pedal bends disallow chords. Overtone, octave and S-Bend also listed; no borrowed polyphony claims. [pitch 1](https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng03_W.pdf) [pitch 2](https://www.roland.com/us/company/press_releases/2017/BOSS-INTRODUCES-MS-3-MULTI-EFFECTS-SWITCHER/) |
+| Pitch / preset recall | 200 writable patch locations, 01-1–50-4. WRITE retains edits; no additional protected preset bank established. |
+| Pitch / DSP resources | Same effect selectable in FX1 and FX2; pitch algorithms compete with other FX types. Six internal effects plus three external loops advertised, not six pitch slots. Mono effects/loops after stereo pitch collapse its stereo output. No CPU percentage published. |
+| Pitch / qualifications | Two shifted voices or stereo output do not establish input-note polyphony. Pitch algorithms and pedal bends occupy FX slots rather than an assumed separate pedal processor. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS introduces MS-3 multi effects switcher](https://www.roland.com/us/company/press_releases/2017/BOSS-INTRODUCES-MS-3-MULTI-EFFECTS-SWITCHER/) — June 1, 2017 announcement; six internal effects and 200 patches. (Manufacturer press release web text).
+- [MS-3 System Program 1.21](https://www.boss.info/global/support/by_product/ms-3/updates_drivers/1e7da100-b8d6-40dd-8656-c1ee5d716abf/) — June 2025 MIDI CC fix and earlier dated changes, including pitch-related fixes. (Manufacturer current release notes).
+- [MS-3 Parameter Guide revision 03](https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng03_W.pdf) — Pages 4,6,11–13: writable destinations, duplicable FX1/FX2, pitch modes/voices and chord restrictions. (Manufacturer PDF web text).
+
+<!-- firmware-pitch:BOSS::MS-3 ends -->
+
 Effects-only guitar/bass multi-effects with loop switching, checked2026-10-18; partial. Ownership unverified. [MS3-P]
 
 Summary reconciled **2026-11-04** with the retained dated findings below. Earlier sources, prices, contradictions and unresolved limits remain intact; this is not a complete fresh model audit.
