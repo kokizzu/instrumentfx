@@ -3268,6 +3268,31 @@ The inspected97-page manufacturer body names both variants;this audit applies to
 
 ## GS1000 Li
 
+<!-- firmware-pitch:MOOER::GS1000 Li begins -->
+### Firmware and pitch audit — MOOER GS1000 Li
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025 (regional release year global first unresolved). Manufacturer regional news dates Japanese GS1000 Li sales to 2025-10-01. Year is a documented availability bound; first worldwide launch/shipment remains unresolved. The standard GS1000 Japanese date is separate. [launch 1](https://mooer.jp/pages/news) |
+| Firmware / latest verification | Not verified — Unverified. Joint product/manual establish the Li edition and an editor-based device-update procedure. Current download page names GS1000, listing device 1.3.0 dated 2026-07-28, but does not explicitly establish Li compatibility; no Li-specific latest payload/version/date confirmed. Neither shared hardware documentation nor Cloud/driver versions prove firmware interchangeability. Release span therefore not calculated. [firmware 1](https://www.mooeraudio.com/Downloads_xq/7.html) [firmware 2](https://device.report/m/20328f54c51d8337935d5fb4a2ad9307be9c4b2c8e9326dd00493c888879eac6) [firmware 3](https://www.mooeraudio.com/products/219.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Shared GS1000/GS1000 Li manufacturer manual explicitly calls Poly Shift polyphonic and gives ±1 octave. Also Detune, Octave and Harmony; their presence does not extend that classification to every algorithm. [pitch 1](https://device.report/m/20328f54c51d8337935d5fb4a2ad9307be9c4b2c8e9326dd00493c888879eac6) |
+| Pitch / preset recall | 200 editable slots; SAVE retains the chain, module states/parameters, I/O and expression settings. Sub-Patch grouping documented. Held-pedal recall untested. |
+| Pitch / DSP resources | Fourteen chain positions, repeated modules within available DSP. A module reserves resources even bypassed, independently of parameter settings. Insufficient-capacity additions gray out; total meter may lag. No isolated Poly Shift percentage located. |
+| Pitch / qualifications | Manufacturer manual names both editions; Li firmware-specific Poly Shift fixes and native NAM support remain unverified. No hardware measurements. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER Japan release news](https://mooer.jp/pages/news) — GS1000 Li Japanese sales 2025-10-01; does not establish worldwide first release. (Manufacturer regional dated entries read).
+- [GS1000/GS1000 Li manufacturer product](https://www.mooeraudio.com/products/219.html) — Explicitly distinguishes standard and rechargeable Li editions. (Joint manufacturer product body read).
+- [GS1000 firmware and software downloads](https://www.mooeraudio.com/Downloads_xq/7.html) — GS1000 device 1.3.0 dated July 28, 2026; Li not named. Cloud and USB driver separate. (Current manufacturer changelog read).
+- [GS1000/GS1000 Li Owner’s Manual](https://device.report/m/20328f54c51d8337935d5fb4a2ad9307be9c4b2c8e9326dd00493c888879eac6) — Both editions; Poly Shift ±1 octave; 200 slots; SAVE, DSP allocation and editor device update. (Manufacturer-authored shared manual body read on mirror).
+
+<!-- firmware-pitch:MOOER::GS1000 Li ends -->
+
 <!-- comparison evidence begins -->
 
 Checked 2026-10-18. Battery edition, distinct from standard GS1000. Partial record. Shared manufacturer manual explicitly covers both and separates power/mass; not an inference from a sibling. [Shared manual][GSL-M];[manufacturer editions][GSL-P].
