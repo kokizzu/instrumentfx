@@ -180871,10 +180871,84 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Behringer::Bass V-AMP": {
+        "model_key": "Behringer::Bass V-AMP",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.behringer.com/en/products/0709-AAC",
+            "https://cf3.zzounds.com/media/LX1B_LX1BPRO_ENG_Rev_B-a9df5e6866be25dfd6c702f2bf28bd6c.pdf",
+            "https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf"
+          ],
+          "note": "Exact desktop-model hardware launch not verified. Indexed manufacturer manual v1.1/March2003 establishes early documentation, not a launch date; v1.2/December2005 is another manual revision, not firmware."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.behringer.com/en/products/0709-AAC",
+            "https://www.eurekasound.com/eurekaprom/vb",
+            "https://sites.google.com/a/eurekasound.com/www/discontinued-products/eurekaprom2/vb"
+          ],
+          "note": "EurekaSound controller documentation names Bass V-Amp series firmware1.09, but its historical replacement-PROM note explicitly identifies Bass V-AMP PRO. Exact desktop ROM version, release date and update compatibility remain unverified. Do not transfer a PRO-only upgrade or mistake manual/editor versions for firmware."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "ULTRABASS adds an octave below the input. SYNTH generates three voices with interval/key controls; MIDI SYNTH is a separate MIDI-note-driven generator. These are not evidence of whole-chord semitone transposition. ULTRABASS source-note polyphony is not specified; no general chromatic pitch-shifter documented in checked post-effect table.",
+          "preset": "125 factory-programmed editable locations (25 banks of5), not separate125 factory plus125 user. Manual p10: hold destination button about2seconds to save; changing presets loses unsaved edits. MIDI SysEx backup is documented.",
+          "dsp": "ULTRABASS is one selectable post-effect entry; compressor/denoiser operate independently of multi-effects. No per-algorithm CPU percentage or duplicate-octaver budget located. Sixteen advertised groups are not simultaneous DSP slots; manual table lists15 entries, discrepancy retained.",
+          "source_urls": [
+            "https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf",
+            "https://www.behringer.com/en/products/0709-AAC"
+          ],
+          "measurements": [],
+          "notes": [
+            "Three synthesized voices and stereo outputs do not establish polyphonic audio pitch shifting. No BASS V-AMP PRO-only DSP or firmware claim transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf",
+            "title": "Behringer BASS V-AMP/BASS V-AMP PRO manual v1.2, December2005",
+            "access": "manufacturer_manuscript_on_public_mirror; text_only",
+            "evidence": "Desktop/shared scope: p10 save/recall; pp13–15 post effects,ULTRABASS and synth distinctions. Cover version/date are manual metadata; no pitch CPU percentage or explicit note polyphony."
+          },
+          {
+            "url": "https://www.behringer.com/en/products/0709-AAC",
+            "title": "Behringer exact desktop BASS V-AMP legacy product",
+            "access": "indexed_manufacturer_product_text; opened_page_shell",
+            "evidence": "Desktop identity and ULTRABASS octave-down capability; no dated ROM release established."
+          },
+          {
+            "url": "https://www.eurekasound.com/eurekaprom/vb",
+            "title": "EurekaSound Vb controller manufacturer compatibility documentation",
+            "access": "opened",
+            "evidence": "Bass V-Amp series1.09 compatibility reference; not an exact desktop firmware release history."
+          },
+          {
+            "url": "https://sites.google.com/a/eurekasound.com/www/discontinued-products/eurekaprom2/vb",
+            "title": "EurekaSound historical Vb compatibility page",
+            "access": "indexed_controller_manufacturer_text",
+            "evidence": "Replacement1.09 PROM note explicitly identifies Bass V-Amp PRO; desktop compatibility not inferred."
+          },
+          {
+            "url": "https://cf3.zzounds.com/media/LX1B_LX1BPRO_ENG_Rev_B-a9df5e6866be25dfd6c702f2bf28bd6c.pdf",
+            "title": "Behringer shared manual v1.1, March2003",
+            "access": "indexed_manufacturer_manuscript_title; opened_PDF_text_garbled",
+            "evidence": "Early dated manual evidence, not launch or firmware date. Garbled PDF body not treated as readable technical evidence."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Behringer::Bass V-AMP",
       "Behringer::Bass V-AMP PRO",
       "Behringer::DSP2024P",
       "Behringer::FX2000",
@@ -181261,12 +181335,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 17,
-    "last_model": "Audota::AVE-100",
-    "last_commit_parent": "5346d399296f043e0114b686fba27c21fb72cad4",
+    "completed_model_count": 18,
+    "last_model": "Behringer::Bass V-AMP",
+    "last_commit_parent": "eebabbbc54d276c6f1a05f998d4983e42924fbdd",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Behringer::Bass V-AMP",
       "Behringer::Bass V-AMP PRO",
       "Behringer::DSP2024P",
       "Behringer::FX2000",
@@ -181652,7 +181725,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 17,
+    "pitch_completed_model_count": 18,
     "supplemental_model_count": 0
   }
 }

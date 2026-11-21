@@ -17,6 +17,32 @@
 
 ## Bass V-AMP
 
+<!-- firmware-pitch:Behringer::Bass V-AMP begins -->
+### Firmware and pitch audit — Behringer Bass V-AMP
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact desktop-model hardware launch not verified. Indexed manufacturer manual v1.1/March2003 establishes early documentation, not a launch date; v1.2/December2005 is another manual revision, not firmware. [launch 1](https://www.behringer.com/en/products/0709-AAC) [launch 2](https://cf3.zzounds.com/media/LX1B_LX1BPRO_ENG_Rev_B-a9df5e6866be25dfd6c702f2bf28bd6c.pdf) [launch 3](https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf) |
+| Firmware / latest verification | Not verified — Unverified. EurekaSound controller documentation names Bass V-Amp series firmware1.09, but its historical replacement-PROM note explicitly identifies Bass V-AMP PRO. Exact desktop ROM version, release date and update compatibility remain unverified. Do not transfer a PRO-only upgrade or mistake manual/editor versions for firmware. [firmware 1](https://www.behringer.com/en/products/0709-AAC) [firmware 2](https://www.eurekasound.com/eurekaprom/vb) [firmware 3](https://sites.google.com/a/eurekasound.com/www/discontinued-products/eurekaprom2/vb) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. ULTRABASS adds an octave below the input. SYNTH generates three voices with interval/key controls; MIDI SYNTH is a separate MIDI-note-driven generator. These are not evidence of whole-chord semitone transposition. ULTRABASS source-note polyphony is not specified; no general chromatic pitch-shifter documented in checked post-effect table. [pitch 1](https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf) [pitch 2](https://www.behringer.com/en/products/0709-AAC) |
+| Pitch / preset recall | 125 factory-programmed editable locations (25 banks of5), not separate125 factory plus125 user. Manual p10: hold destination button about2seconds to save; changing presets loses unsaved edits. MIDI SysEx backup is documented. |
+| Pitch / DSP resources | ULTRABASS is one selectable post-effect entry; compressor/denoiser operate independently of multi-effects. No per-algorithm CPU percentage or duplicate-octaver budget located. Sixteen advertised groups are not simultaneous DSP slots; manual table lists15 entries, discrepancy retained. |
+| Pitch / qualifications | Three synthesized voices and stereo outputs do not establish polyphonic audio pitch shifting. No BASS V-AMP PRO-only DSP or firmware claim transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Behringer BASS V-AMP/BASS V-AMP PRO manual v1.2, December2005](https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf) — Desktop/shared scope: p10 save/recall; pp13–15 post effects,ULTRABASS and synth distinctions. Cover version/date are manual metadata; no pitch CPU percentage or explicit note polyphony. (manufacturer_manuscript_on_public_mirror; text_only).
+- [Behringer exact desktop BASS V-AMP legacy product](https://www.behringer.com/en/products/0709-AAC) — Desktop identity and ULTRABASS octave-down capability; no dated ROM release established. (indexed_manufacturer_product_text; opened_page_shell).
+- [EurekaSound Vb controller manufacturer compatibility documentation](https://www.eurekasound.com/eurekaprom/vb) — Bass V-Amp series1.09 compatibility reference; not an exact desktop firmware release history. (opened).
+- [EurekaSound historical Vb compatibility page](https://sites.google.com/a/eurekasound.com/www/discontinued-products/eurekaprom2/vb) — Replacement1.09 PROM note explicitly identifies Bass V-Amp PRO; desktop compatibility not inferred. (indexed_controller_manufacturer_text).
+- [Behringer shared manual v1.1, March2003](https://cf3.zzounds.com/media/LX1B_LX1BPRO_ENG_Rev_B-a9df5e6866be25dfd6c702f2bf28bd6c.pdf) — Early dated manual evidence, not launch or firmware date. Garbled PDF body not treated as readable technical evidence. (indexed_manufacturer_manuscript_title; opened_PDF_text_garbled).
+
+<!-- firmware-pitch:Behringer::Bass V-AMP ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Desktop model; rack PRO remains separate. Manufacturer product page and manufacturer-authored manual v1.2 / December 2005 (Rev C filename), hosted by Thomann. Partial verification.
 
