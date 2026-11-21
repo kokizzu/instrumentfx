@@ -178521,8 +178521,8 @@
       70,
       74
     ],
-    "index_url": "https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186",
-    "index_needle": "PocketSonic_105",
+    "index_url": "https://www.eventideaudio.com/pedals/h90/",
+    "index_needle": "H90-Back",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -186833,10 +186833,92 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Eventide::H90": {
+        "model_key": "Eventide::H90",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2022-11-09",
+          "precision": "day",
+          "kind": "manufacturer announcement/availability proxy",
+          "source_urls": [
+            "https://www.eventideaudio.com/press-releases/h90-harmonizer-press-kit/"
+          ],
+          "note": "Dated maker launch says immediately available. First individual shipment unverified; original H9 and H9 Max are separate models."
+        },
+        "firmware": {
+          "version": "1.12.5",
+          "date": "2025-12-18",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/",
+            "https://www.eventideaudio.com/forums/reply/206416/"
+          ],
+          "note": "Pinned maker stable-release announcement dated December 18, 2025 (visible post and datePublished agree); adds four granular algorithms. Newer 1.13.2 is explicitly PUBLIC BETA, separately documented by staff; not substituted for stable firmware. Eventide Control/H90 Control app versions are not pedal firmware."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Polyphony: SIFT polyphonic two-voice shifter with detune, delay, feedback and Freeze; Pitched/Percussive modes trade tracking quality for transient/latency behavior. PolyFlex: polyphonic two-voice ±2-octave bends with expression/Flex control. Prism Shift derives three arpeggiated voices from chords. Diatonic explicitly tracks monophonic input; whole-device blanket polyphony would be misleading.",
+          "preset": "Each Program contains two algorithm Presets. Lists hold up to 99 Programs; User lists editable and Factory lists read-only. Factory-filled memory is not an additional 99 user slots. Exact total factory/user capacity not established here.",
+          "dsp": "Any two algorithms run per Program in series or parallel with spillover. A pitch algorithm occupies one of two algorithm positions; this is not evidence of 50% CPU consumption. No numerical pitch CPU/DSP cost published in checked sources.",
+          "source_urls": [
+            "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/harmonizer.html",
+            "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/terminology.html",
+            "https://www.eventideaudio.com/pedals/h90/"
+          ],
+          "measurements": [],
+          "notes": [
+            "74 algorithms on current product page versus 62 at launch; updates and original H9 capabilities must not be conflated. Pitch input tracking, output voice count and stereo I/O are separate properties."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.eventideaudio.com/press-releases/h90-harmonizer-press-kit/",
+            "title": "Eventide H90 launch press kit",
+            "access": "Direct manufacturer datelined announcement",
+            "evidence": "November 9, 2022; immediately available; 62 launch algorithms."
+          },
+          {
+            "url": "https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/",
+            "title": "H90 latest stable release 1.12.5",
+            "access": "Direct manufacturer staff announcement and bounded HTML inspection; visible date and JSON-LD agree",
+            "evidence": "December 18, 2025 at 8:56am; datePublished 2025-12-18T13:56:48+00:00; four granular algorithms."
+          },
+          {
+            "url": "https://www.eventideaudio.com/forums/reply/206416/",
+            "title": "Eventide staff public-beta 1.13.2 notice",
+            "access": "Manufacturer-hosted staff support reply",
+            "evidence": "Explicitly public beta; enable Show Beta Releases in Eventide Control; not a stable release assertion."
+          },
+          {
+            "url": "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/harmonizer.html",
+            "title": "H90 1.12.5 Harmonizer algorithm manual",
+            "access": "Direct current manufacturer manual",
+            "evidence": "Polyphony/PolyFlex polyphonic; Diatonic monophonic; Prism Shift chord-derived voices."
+          },
+          {
+            "url": "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/terminology.html",
+            "title": "H90 1.12.5 terminology and program architecture",
+            "access": "Direct current manufacturer manual",
+            "evidence": "Any two algorithms per Program; up to99Programs/list; editable User versus read-only Factory lists."
+          },
+          {
+            "url": "https://www.eventideaudio.com/pedals/h90/",
+            "title": "Eventide H90 current product page",
+            "access": "Direct manufacturer product page",
+            "evidence": "74 algorithms; two simultaneous algorithms; polyphonic SIFT; pitch preset examples paired with other algorithms."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1135,
+          "maximum_days": 1135,
+          "label": "3.11 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Eventide::H90",
       "Fender::Mustang Micro",
       "Fender::Mustang Micro Plus",
       "Fender::Tone Master Pro",
@@ -187140,12 +187222,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 100,
-    "last_model": "Eventide::H9 Max",
-    "last_commit_parent": "406fc951f361a8546df8fdc6f5221047dc5416a3",
+    "completed_model_count": 101,
+    "last_model": "Eventide::H90",
+    "last_commit_parent": "291ee3e01cfab6a095caacb973e2eb548e57accc",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Eventide::H90",
       "Fender::Mustang Micro",
       "Fender::Mustang Micro Plus",
       "Fender::Tone Master Pro",
@@ -187448,7 +187529,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 100,
+    "pitch_completed_model_count": 101,
     "supplemental_model_count": 0
   },
   "model_images": {

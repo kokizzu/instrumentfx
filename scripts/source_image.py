@@ -287,7 +287,7 @@ def decode_release_note(data):
 
 def check_index_url(url):
     parsed = urllib.parse.urlsplit(url)
-    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com', 'cn.mooeraudio.com', 'erokmusic.com') or url in RELEASE_NOTE_URLS)
+    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com', 'cn.mooeraudio.com', 'erokmusic.com', 'www.eventideaudio.com') or url in RELEASE_NOTE_URLS)
     assert not parsed.username and not parsed.password and parsed.port in (None, 443)
     if parsed.path == '/wp-admin/admin-ajax.php':
         assert parsed.hostname == 'www.valeton.net'
@@ -366,6 +366,7 @@ def test():
     fixture_text = 'V086 更新说明'
     for codec in ('utf-8-sig', 'utf-16', 'gb18030'):
         assert decode_release_note(fixture_text.encode(codec))[0] == fixture_text
+    check_index_url('https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/')
     check_index_url('https://erokmusic.com/js/firmware-notes/en.json')
     check_url('https://erokmusic.com/download/manuals/MP-10.pdf')
     check_url('https://downloads.eventideaudio.com/Product+Manuals/H9AlgorithmGuide+V12.pdf')

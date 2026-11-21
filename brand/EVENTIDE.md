@@ -239,6 +239,33 @@ Exact **Shopee Indonesia Standard hardware** search yielded no qualified result 
 
 ## H90
 
+<!-- firmware-pitch:Eventide::H90 begins -->
+### Firmware and pitch audit — Eventide H90
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022-11-09 (manufacturer announcement/availability proxy). Dated maker launch says immediately available. First individual shipment unverified; original H9 and H9 Max are separate models. [launch 1](https://www.eventideaudio.com/press-releases/h90-harmonizer-press-kit/) |
+| Firmware / latest verification | 1.12.5 — Located; latest status unverified. Pinned maker stable-release announcement dated December 18, 2025 (visible post and datePublished agree); adds four granular algorithms. Newer 1.13.2 is explicitly PUBLIC BETA, separately documented by staff; not substituted for stable firmware. Eventide Control/H90 Control app versions are not pedal firmware. [firmware 1](https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/) [firmware 2](https://www.eventideaudio.com/forums/reply/206416/) |
+| Firmware / release date | 2025-12-18 (day precision) |
+| Firmware / release-to-update duration | 3.11 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Polyphony: SIFT polyphonic two-voice shifter with detune, delay, feedback and Freeze; Pitched/Percussive modes trade tracking quality for transient/latency behavior. PolyFlex: polyphonic two-voice ±2-octave bends with expression/Flex control. Prism Shift derives three arpeggiated voices from chords. Diatonic explicitly tracks monophonic input; whole-device blanket polyphony would be misleading. [pitch 1](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/harmonizer.html) [pitch 2](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/terminology.html) [pitch 3](https://www.eventideaudio.com/pedals/h90/) |
+| Pitch / preset recall | Each Program contains two algorithm Presets. Lists hold up to 99 Programs; User lists editable and Factory lists read-only. Factory-filled memory is not an additional 99 user slots. Exact total factory/user capacity not established here. |
+| Pitch / DSP resources | Any two algorithms run per Program in series or parallel with spillover. A pitch algorithm occupies one of two algorithm positions; this is not evidence of 50% CPU consumption. No numerical pitch CPU/DSP cost published in checked sources. |
+| Pitch / qualifications | 74 algorithms on current product page versus 62 at launch; updates and original H9 capabilities must not be conflated. Pitch input tracking, output voice count and stereo I/O are separate properties. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Eventide H90 launch press kit](https://www.eventideaudio.com/press-releases/h90-harmonizer-press-kit/) — November 9, 2022; immediately available; 62 launch algorithms. (Direct manufacturer datelined announcement).
+- [H90 latest stable release 1.12.5](https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/) — December 18, 2025 at 8:56am; datePublished 2025-12-18T13:56:48+00:00; four granular algorithms. (Direct manufacturer staff announcement and bounded HTML inspection; visible date and JSON-LD agree).
+- [Eventide staff public-beta 1.13.2 notice](https://www.eventideaudio.com/forums/reply/206416/) — Explicitly public beta; enable Show Beta Releases in Eventide Control; not a stable release assertion. (Manufacturer-hosted staff support reply).
+- [H90 1.12.5 Harmonizer algorithm manual](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/harmonizer.html) — Polyphony/PolyFlex polyphonic; Diatonic monophonic; Prism Shift chord-derived voices. (Direct current manufacturer manual).
+- [H90 1.12.5 terminology and program architecture](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/terminology.html) — Any two algorithms per Program; up to99Programs/list; editable User versus read-only Factory lists. (Direct current manufacturer manual).
+- [Eventide H90 current product page](https://www.eventideaudio.com/pedals/h90/) — 74 algorithms; two simultaneous algorithms; polyphonic SIFT; pitch preset examples paired with other algorithms. (Direct manufacturer product page).
+
+<!-- firmware-pitch:Eventide::H90 ends -->
+
 Checked 2026-10-17; partial. Separate from original H9 Max and H9 Gen 2. Ownership unverified.
 
 | Field | Evidence / qualifications |
