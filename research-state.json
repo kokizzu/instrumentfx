@@ -204169,11 +204169,75 @@
             "note": "Readable official Japanese leaflet confirms connector roles, six knobs and two footswitches; diagram rather than photograph."
           }
         ]
+      },
+      "Sonicake::B Factory QDS-05": {
+        "model_key": "Sonicake::B Factory QDS-05",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QDS-05-1.jpg?v=1709263314&width=1096",
+            "source_url": "https://www.sonicake.com/products/b-factory",
+            "caption": "B Factory QDS-05 powered-on front/top perspective: seven rotary controls, two footswitches and both green indicators lit; no display.",
+            "note": "Powered-on exact model confirmed, but this is angled rather than perpendicular overhead. An inspected [unlit overhead picture](https://www.sonicake.com/cdn/shop/files/QDS-05_9d7aa949-6979-4581-aac9-72f833ad7e42.jpg?v=1709263313&width=1096) shows the full control layout. Powered-on perpendicular overhead remains a gap.",
+            "visual_checked": true,
+            "sha256": "5c81aa15749a938a6c3c2611a0b305ac0cb914ee967af9e70e902072471e636f",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-05ManuelJP.png",
+            "source_url": "https://www.hotone.jp/brands/sonicake/products/b-factory",
+            "caption": "B Factory official connector diagram: instrument input, main output, DC 9 V, EQ PRE/POST selector, ground-lift selector and side XLR output.",
+            "note": "Readable manufacturer regional leaflet diagram, not a rear photograph. It confirms seven rotaries, two footswitches and two selectors. The printed 92 mA conflicts with current official product-page 70 mA; both remain qualified. An inspected [XLR-side photograph](https://www.sonicake.com/cdn/shop/files/QDS-05-2.jpg?v=1709263314&width=1096) supplements this diagram; clear rear-edge socket photography remains a gap.",
+            "visual_checked": true,
+            "sha256": "b987b6551b249db492de3a46e232146574f3075a4f91d650b79249075b9e05cd",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QDS-05-7.jpg?v=1709263313&width=1096",
+            "sha256": "46c41356d61a6c6546fa58832c5e437296f59212f9411758ea70100efbcc6f49",
+            "visual_checked": true,
+            "note": "Powered-on exact B Factory with both green LEDs; oblique top, not perpendicular overhead."
+          },
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QDS-05-6.jpg?v=1709263314&width=1096",
+            "sha256": "b0ea22e561c8d88c697164f4df76f8cf6b2f58004ca3056048a748fbc1605632",
+            "visual_checked": true,
+            "note": "Connector-detail montage shows audio jack and DC socket plus selector; incomplete rear/side socket coverage."
+          },
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QDS-05-1.jpg?v=1709263314&width=1096",
+            "sha256": "5c81aa15749a938a6c3c2611a0b305ac0cb914ee967af9e70e902072471e636f",
+            "visual_checked": true,
+            "note": "Powered-on exact-model front/top perspective, both indicators lit; not perpendicular overhead."
+          },
+          {
+            "image_url": "https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-05ManuelJP.png",
+            "sha256": "b987b6551b249db492de3a46e232146574f3075a4f91d650b79249075b9e05cd",
+            "visual_checked": true,
+            "note": "Readable official Japanese leaflet confirms seven rotaries, two footswitches, two selectors, input/main output/XLR/DC; explicitly prints 92 mA, confirming conflict with current 70 mA product pages."
+          },
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QDS-05_9d7aa949-6979-4581-aac9-72f833ad7e42.jpg?v=1709263313&width=1096",
+            "sha256": "c737984bf0247fd75820acf2d0b235fa563edb9df72af7e576bcdd21399c8ed7",
+            "visual_checked": true,
+            "note": "Exact overhead B Factory view; indicators unlit."
+          },
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QDS-05-2.jpg?v=1709263314&width=1096",
+            "sha256": "22168f9f74b1cf63db33fa399372288a126217c971f289c96c90c64fc58a2615",
+            "visual_checked": true,
+            "note": "Oblique unlit photograph clearly shows left-side XLR output but hides rear-edge connectors."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::Levitate QDS-02"
+    "last_model": "Sonicake::B Factory QDS-05"
   }
 }
