@@ -186088,10 +186088,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::RP90": {
+        "model_key": "DigiTech::RP90",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2007-10-26",
+          "precision": "day",
+          "kind": "manufacturer_availability_notice_proxy",
+          "source_urls": [
+            "https://www.premierguitar.com/digitechs-new-hot-rodded-processors"
+          ],
+          "note": "Manufacturer now-available announcement reproduced by Premier Guitar; available-by proxy, not exact first shipment. Later 2008 NAMM coverage is not first introduction."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://digitech.com/software-downloads/",
+            "https://digitech.com/product-manuals/"
+          ],
+          "note": "No RP90 device firmware release located in checked official software/manual indexes and targeted search. Latest version/date and update span unknown; this does not prove firmware never existed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift h1–h9, Detune d1–d9 and Whammy H1–H9. Manual does not enumerate exact intervals or detune cents. Input-note polyphony and key/scale harmony unverified.",
+          "preset": "50 writable user plus 50 read-only factory presets; user locations initially duplicate factory.",
+          "dsp": "Pitch variants share the Chorus/FX selection with other modulation effects. AudioDNA2 supports nine simultaneous effects overall, not nine pitch instances. No per-pitch CPU percentage published in checked sources.",
+          "source_urls": [
+            "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP90_User_User_Manual.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Built-in expression controls Whammy; Pitch Shift/Detune level can be assigned. Whammy is placed before amp modeling. Exact ranges are not borrowed from RP80."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.premierguitar.com/digitechs-new-hot-rodded-processors",
+            "title": "DigiTech RP90 and RP70 now available",
+            "access": "Manufacturer announcement reproduced by Premier Guitar, October 26, 2007",
+            "evidence": "Now-available notice; not exact first shipment."
+          },
+          {
+            "url": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP90_User_User_Manual.pdf",
+            "title": "RP90 Owner’s Manual",
+            "access": "Manufacturer CDN 48-page PDF web text, linked from official manual index",
+            "evidence": "Printed p5 memory, pp26–29 modulation/pitch settings, pp32–33 expression, p36 AudioDNA2 and nine effects."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer current web text and targeted search",
+            "evidence": "No RP90 device firmware release located."
+          },
+          {
+            "url": "https://digitech.com/product-manuals/",
+            "title": "DigiTech product manuals",
+            "access": "Manufacturer current web text",
+            "evidence": "Official RP90 manual link; CDN upload date not firmware date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::RP90",
       "DK::iE-350",
       "DK::iE-550",
       "Donner::Arena2000",
@@ -186404,12 +186468,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 91,
-    "last_model": "DigiTech::RP80",
-    "last_commit_parent": "a5f0f1b96092486cfb633115a46c2707242f3d25",
+    "completed_model_count": 92,
+    "last_model": "DigiTech::RP90",
+    "last_commit_parent": "2d180d947e43b270b1a1445f7cb022e69da4d447",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::RP90",
       "DK::iE-350",
       "DK::iE-550",
       "Donner::Arena2000",
@@ -186721,7 +186784,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 91,
+    "pitch_completed_model_count": 92,
     "supplemental_model_count": 0
   },
   "model_images": {
