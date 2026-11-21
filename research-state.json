@@ -195622,6 +195622,77 @@
           "label": "3.95 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::MG-30": {
+        "model_key": "NUX::MG-30",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2021-01",
+          "precision": "month",
+          "kind": "contemporaneous_introduction_month_proxy",
+          "source_urls": [
+            "https://www.guitarworld.com/news/nux-ups-its-multi-fx-game-with-the-mg-30-versatile-modeler"
+          ],
+          "note": "Contemporaneous January22,2021 report describes the newly announced MG-30; month precision used because exact first retail shipping day is unresolved. GEN2 denotes firmware, not a new hardware release."
+        },
+        "firmware": {
+          "version": "1.0.5 (GEN2)",
+          "date": "2026-08-17",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://nuxaudio.com/product/mg30/",
+            "https://cn.nuxaudio.com/product/mg30/"
+          ],
+          "note": "GEN2 firmware1.0.5 is dated August17,2026. Matching GEN2 editor2.6.7.16 is separately dated July24. Older V5.0.2 and V5 editor remain distinct; version numbering restarts for GEN2. English and Mandarin packages have explicit regional restrictions and are not interchangeable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "WAH Octave-Shift; MOD Harmonist/Detune and GEN2 Mono Octave; RVB Shimmer. Mono Octave is the published algorithm name, not proof of note handling for the other algorithms. Polyphonic chord-safe retuning and numeric ranges remain unverified.",
+          "preset": "128 factory-filled editable locations in32banks, not128 factory plus128 user slots. Three Pro Scenes and GEN2 scene save/copy; pitch settings follow the selected preset/scene configuration.",
+          "dsp": "Eleven movable block positions in the retained exact-model manual architecture; two NXP RT processors. Octave-Shift occupies WAH; Harmonist/Detune/Mono Octave compete for MOD, Shimmer uses RVB. No isolated pitch DSP percentage documented or measured.",
+          "source_urls": [
+            "https://nuxaudio.com/product/mg30/",
+            "https://cn.nuxaudio.com/product/mg30/",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG30/NUX_MG30_UserManualV2_English.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Keep legacy base lists and GEN2 additions separate; no current grand effect total inferred. No firmware installation or tracking test performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.guitarworld.com/news/nux-ups-its-multi-fx-game-with-the-mg-30-versatile-modeler",
+            "title": "Guitar World — NUX ups its multi-FX game with the MG-30",
+            "access": "Contemporaneous announcement report published January22,2021; checked2026-11-22",
+            "evidence": "Establishes January2021 public introduction, not exact first shipping day; used for chronology only."
+          },
+          {
+            "url": "https://nuxaudio.com/product/mg30/",
+            "title": "NUX MG-30 global product and GEN2 support",
+            "access": "Manufacturer page checked2026-11-22",
+            "evidence": "GEN2 firmware1.0.5 August17,2026 and separate editor/V5; regional warning; listed pitch algorithms and block categories. No polyphony or isolated pitch DSP cost."
+          },
+          {
+            "url": "https://cn.nuxaudio.com/product/mg30/",
+            "title": "NUX China MG-30 product/support",
+            "access": "Manufacturer page checked2026-11-22",
+            "evidence": "128 editable factory-filled presets in32banks; confirms pitch models and GEN2 date with Mandarin-only firmware warning."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG30/NUX_MG30_UserManualV2_English.pdf",
+            "title": "NUX MG-30 V2 English manufacturer manual",
+            "access": "Manufacturer-hosted eight-page PDF opens without readable web text; prior exact-model architecture review preserved, no new visual inspection",
+            "evidence": "Retained V2 architecture review establishes11 movable blocks; manual predates GEN2 and does not prove current algorithm equivalence."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2024,
+          "maximum_days": 2054,
+          "label": "5.54–5.62 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -195663,7 +195734,6 @@
       "NUX::MG-100",
       "NUX::MG-20",
       "NUX::MG-200",
-      "NUX::MG-30",
       "NUX::MG-50Li",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
@@ -195816,9 +195886,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 213,
-    "last_model": "NUX::MG-400",
-    "last_commit_parent": "a99d574d872d73a4f122622fc0aa5a1f15491270",
+    "completed_model_count": 214,
+    "last_model": "NUX::MG-30",
+    "last_commit_parent": "6e5ad551a7cc6b2210919cee4c0b26d2b1f936fe",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -195859,7 +195929,6 @@
       "NUX::MG-100",
       "NUX::MG-20",
       "NUX::MG-200",
-      "NUX::MG-30",
       "NUX::MG-50Li",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
@@ -196011,7 +196080,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 213,
+    "pitch_completed_model_count": 214,
     "supplemental_model_count": 0
   },
   "model_images": {

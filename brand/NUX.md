@@ -582,6 +582,31 @@ Existing modulation/delay/reverb names remain above. Reverse,Pan Delay andmodula
 
 ## MG-30
 
+<!-- firmware-pitch:NUX::MG-30 begins -->
+### Firmware and pitch audit — NUX MG-30
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2021-01 (contemporaneous introduction month proxy). Contemporaneous January22,2021 report describes the newly announced MG-30; month precision used because exact first retail shipping day is unresolved. GEN2 denotes firmware, not a new hardware release. [launch 1](https://www.guitarworld.com/news/nux-ups-its-multi-fx-game-with-the-mg-30-versatile-modeler) |
+| Firmware / latest verification | 1.0.5 (GEN2) — Latest verified. GEN2 firmware1.0.5 is dated August17,2026. Matching GEN2 editor2.6.7.16 is separately dated July24. Older V5.0.2 and V5 editor remain distinct; version numbering restarts for GEN2. English and Mandarin packages have explicit regional restrictions and are not interchangeable. [firmware 1](https://nuxaudio.com/product/mg30/) [firmware 2](https://cn.nuxaudio.com/product/mg30/) |
+| Firmware / release date | 2026-08-17 (day precision) |
+| Firmware / release-to-update duration | 5.54–5.62 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. WAH Octave-Shift; MOD Harmonist/Detune and GEN2 Mono Octave; RVB Shimmer. Mono Octave is the published algorithm name, not proof of note handling for the other algorithms. Polyphonic chord-safe retuning and numeric ranges remain unverified. [pitch 1](https://nuxaudio.com/product/mg30/) [pitch 2](https://cn.nuxaudio.com/product/mg30/) [pitch 3](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG30/NUX_MG30_UserManualV2_English.pdf) |
+| Pitch / preset recall | 128 factory-filled editable locations in32banks, not128 factory plus128 user slots. Three Pro Scenes and GEN2 scene save/copy; pitch settings follow the selected preset/scene configuration. |
+| Pitch / DSP resources | Eleven movable block positions in the retained exact-model manual architecture; two NXP RT processors. Octave-Shift occupies WAH; Harmonist/Detune/Mono Octave compete for MOD, Shimmer uses RVB. No isolated pitch DSP percentage documented or measured. |
+| Pitch / qualifications | Keep legacy base lists and GEN2 additions separate; no current grand effect total inferred. No firmware installation or tracking test performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Guitar World — NUX ups its multi-FX game with the MG-30](https://www.guitarworld.com/news/nux-ups-its-multi-fx-game-with-the-mg-30-versatile-modeler) — Establishes January2021 public introduction, not exact first shipping day; used for chronology only. (Contemporaneous announcement report published January22,2021; checked2026-11-22).
+- [NUX MG-30 global product and GEN2 support](https://nuxaudio.com/product/mg30/) — GEN2 firmware1.0.5 August17,2026 and separate editor/V5; regional warning; listed pitch algorithms and block categories. No polyphony or isolated pitch DSP cost. (Manufacturer page checked2026-11-22).
+- [NUX China MG-30 product/support](https://cn.nuxaudio.com/product/mg30/) — 128 editable factory-filled presets in32banks; confirms pitch models and GEN2 date with Mandarin-only firmware warning. (Manufacturer page checked2026-11-22).
+- [NUX MG-30 V2 English manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG30/NUX_MG30_UserManualV2_English.pdf) — Retained V2 architecture review establishes11 movable blocks; manual predates GEN2 and does not prove current algorithm equivalence. (Manufacturer-hosted eight-page PDF opens without readable web text; prior exact-model architecture review preserved, no new visual inspection).
+
+<!-- firmware-pitch:NUX::MG-30 ends -->
+
 <!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Official product](https://nuxaudio.com/product/mg30/); [NUX V2 manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG30/NUX_MG30_UserManualV2_English.pdf),pp.2–4,14; [architecture-specific NAM documentation](https://www.nux.us/pages/nam-a2-native).
 
