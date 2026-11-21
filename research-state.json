@@ -178521,8 +178521,8 @@
       30,
       30
     ],
-    "index_url": "https://line6.com/software/index.html?hardware=AMPLIFi+FX100&name=Flash+Memory&submit_form=set",
-    "index_needle": "Released",
+    "index_url": "https://line6.com/company/images/?families=1&locale=en_US",
+    "index_needle": "Floor POD",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -190533,6 +190533,78 @@
           "label": "3.31 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::Floor POD Plus": {
+        "model_key": "Line 6::Floor POD Plus",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2007",
+          "precision": "year",
+          "kind": "manufacturer_timeline_year",
+          "source_urls": [
+            "https://line6.com/timeline/"
+          ],
+          "note": "Manufacturer timeline places Plus in 2007; exact announcement/shipment day unverified. Timeline USB claim conflicts with own manual/MIDI guide and is not adopted."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=Floor+POD+Plus&name=Flash+Memory&submit_form=set",
+            "https://line6.com/data/l/0a06007212ec54681804286aad/application/pdf/MIDI%20Continuous%20Controller%20Reference%20%28Rev%20D%29%20-%20English.pdf",
+            "https://kb.line6.com/floor-pod-floor-pod-plus-faq"
+          ],
+          "note": "No dated Flash Memory release located in current exact-model catalogue or targeted manufacturer search. June 26, 2007 MIDI reference names firmware 1.x, not an exact latest build or firmware release date. Vyzex editor versions and patch updates are not device firmware. No support-span calculation possible; absence does not prove firmware never existed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Octave Fuzz and Sub Octave provide distorted octave effects; no explicit polyphonic tracking guarantee or clean chromatic transpose algorithm documented. These are alternatives in the single FX selector.",
+          "preset": "124 editable channels, 31×4, store amp/effect settings; selected octave model and its controls save with the tone. No hardware recall test.",
+          "dsp": "One selected FX model alongside dedicated amp, delay, reverb, compressor/gate and wah functions. No octave-model CPU percentage or dynamic DSP meter documented. Sixteen FX choices are not sixteen simultaneous blocks.",
+          "source_urls": [
+            "https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No audio tracking, latency or CPU measurement; do not equate distorted octave generation with polyphonic detuning."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://line6.com/timeline/",
+            "title": "Line 6 manufacturer history",
+            "access": "Manufacturer timeline read",
+            "evidence": "Plus placed under 2007. USB assertion rejected against own hardware documents."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=Floor+POD+Plus&name=Flash+Memory&submit_form=set",
+            "title": "Floor POD Plus Flash Memory catalogue",
+            "access": "Direct bounded manufacturer HTML retrieved",
+            "evidence": "No Released entries located; no dated firmware package identified."
+          },
+          {
+            "url": "https://line6.com/data/l/0a06007212ec54681804286aad/application/pdf/MIDI%20Continuous%20Controller%20Reference%20%28Rev%20D%29%20-%20English.pdf",
+            "title": "Line 6 MIDI CC Reference Rev D, June 26, 2007",
+            "access": "Manufacturer PDF read",
+            "evidence": "Floor POD Plus firmware 1.x scope; MIDI-interface connection, not native USB. Document date is not firmware release date."
+          },
+          {
+            "url": "https://kb.line6.com/floor-pod-floor-pod-plus-faq",
+            "title": "Floor POD/Floor POD Plus FAQ",
+            "access": "Manufacturer KB read",
+            "evidence": "Vyzex updates patches over MIDI; does not identify a device firmware update/version."
+          },
+          {
+            "url": "https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf",
+            "title": "Floor POD Plus Pilot Guide Rev B",
+            "access": "Manufacturer 36-page English PDF read",
+            "evidence": "Sections 3.5–3.6: distorted Octave Fuzz/Sub Octave and one FX selector; 4.1: 124 editable channels. No explicit polyphony or CPU percentage."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190571,7 +190643,6 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "Line 6::Floor POD Plus",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::M13",
       "Line 6::POD HD300",
@@ -190793,9 +190864,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 147,
-    "last_model": "Line 6::AMPLIFi FX100",
-    "last_commit_parent": "357ff05f3b6f348a7d391f4238cdb84876dca73d",
+    "completed_model_count": 148,
+    "last_model": "Line 6::Floor POD Plus",
+    "last_commit_parent": "a02a9e167522e3028ff294f13dac85132cea3c3a",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190833,7 +190904,6 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "Line 6::Floor POD Plus",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::M13",
       "Line 6::POD HD300",
@@ -191054,7 +191124,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 147,
+    "pitch_completed_model_count": 148,
     "supplemental_model_count": 0
   },
   "model_images": {

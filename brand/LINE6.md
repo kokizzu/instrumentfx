@@ -262,6 +262,32 @@ Pedal sweep is documented as 0–100%; unplugged defaults to 100%. Adjustable en
 
 ## Floor POD Plus
 
+<!-- firmware-pitch:Line 6::Floor POD Plus begins -->
+### Firmware and pitch audit — Line 6 Floor POD Plus
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2007 (manufacturer timeline year). Manufacturer timeline places Plus in 2007; exact announcement/shipment day unverified. Timeline USB claim conflicts with own manual/MIDI guide and is not adopted. [launch 1](https://line6.com/timeline/) |
+| Firmware / latest verification | Not verified — No public firmware located. No dated Flash Memory release located in current exact-model catalogue or targeted manufacturer search. June 26, 2007 MIDI reference names firmware 1.x, not an exact latest build or firmware release date. Vyzex editor versions and patch updates are not device firmware. No support-span calculation possible; absence does not prove firmware never existed. [firmware 1](https://line6.com/software/index.html?hardware=Floor+POD+Plus&name=Flash+Memory&submit_form=set) [firmware 2](https://line6.com/data/l/0a06007212ec54681804286aad/application/pdf/MIDI%20Continuous%20Controller%20Reference%20%28Rev%20D%29%20-%20English.pdf) [firmware 3](https://kb.line6.com/floor-pod-floor-pod-plus-faq) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Octave Fuzz and Sub Octave provide distorted octave effects; no explicit polyphonic tracking guarantee or clean chromatic transpose algorithm documented. These are alternatives in the single FX selector. [pitch 1](https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf) |
+| Pitch / preset recall | 124 editable channels, 31×4, store amp/effect settings; selected octave model and its controls save with the tone. No hardware recall test. |
+| Pitch / DSP resources | One selected FX model alongside dedicated amp, delay, reverb, compressor/gate and wah functions. No octave-model CPU percentage or dynamic DSP meter documented. Sixteen FX choices are not sixteen simultaneous blocks. |
+| Pitch / qualifications | No audio tracking, latency or CPU measurement; do not equate distorted octave generation with polyphonic detuning. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 manufacturer history](https://line6.com/timeline/) — Plus placed under 2007. USB assertion rejected against own hardware documents. (Manufacturer timeline read).
+- [Floor POD Plus Flash Memory catalogue](https://line6.com/software/index.html?hardware=Floor+POD+Plus&name=Flash+Memory&submit_form=set) — No Released entries located; no dated firmware package identified. (Direct bounded manufacturer HTML retrieved).
+- [Line 6 MIDI CC Reference Rev D, June 26, 2007](https://line6.com/data/l/0a06007212ec54681804286aad/application/pdf/MIDI%20Continuous%20Controller%20Reference%20%28Rev%20D%29%20-%20English.pdf) — Floor POD Plus firmware 1.x scope; MIDI-interface connection, not native USB. Document date is not firmware release date. (Manufacturer PDF read).
+- [Floor POD/Floor POD Plus FAQ](https://kb.line6.com/floor-pod-floor-pod-plus-faq) — Vyzex updates patches over MIDI; does not identify a device firmware update/version. (Manufacturer KB read).
+- [Floor POD Plus Pilot Guide Rev B](https://line6.com/data/l/0a060072caf7499051779818f/application/pdf/Floor_POD_Plus_user_manual.pdf) — Sections 3.5–3.6: distorted Octave Fuzz/Sub Octave and one FX selector; 4.1: 124 editable channels. No explicit polyphony or CPU percentage. (Manufacturer 36-page English PDF read).
+
+<!-- firmware-pitch:Line 6::Floor POD Plus ends -->
+
 Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-00-0116RevB,©2009,36pages,sections1,2,3,4. Not original FloorPOD. Bass direct-box use documented below;live-vocal suitability andownership unverified.
 
 | Field | Evidence / gaps |
