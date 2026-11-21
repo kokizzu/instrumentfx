@@ -16,3 +16,8 @@ firmware-model-commit:
 .PHONY: research-source-image-qr
 research-source-image-qr:
 	python3 scripts/source_image.py qr
+
+# Inert manufacturer text, with strict UTF-8 / GB18030 decoding.
+.PHONY: research-source-firmware-note
+research-source-firmware-note:
+	python3 -B scripts/source_image.py firmware-note

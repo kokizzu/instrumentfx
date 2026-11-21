@@ -730,6 +730,31 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 
 ## MK-20
 
+<!-- firmware-pitch:M-VAVE::MK-20 begins -->
+### Firmware and pitch audit — M-VAVE MK-20
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer New Product Release MK-20 video is indexed October 15, 2025, but earlier third-party MK-20 coverage exists. This later video is not accepted as first worldwide availability. No independently established first release date; span remains unknown. [launch 1](https://www.youtube.com/watch?v=xmJMJ_oUPYk) |
+| Firmware / latest verification | V088 (release notes V88) — Latest verified. Current exact-model index and decoded MK20-MK20V2 header agree on November 17, 2026 V88. Adds CC42–44 controlling CTRL1–3 under current preset mappings; improves continuous CC response, UI/EQ readability and NAN labels, and fixes model-audition refresh and host factory-global-reset persistence. Original and V2 are separate download selections, not proof of interchangeable binaries. Supersedes prior V86 and older V085 product-block observations. V83 introduced manufacturer-described native NAM A2; architecture/file restrictions remain untested. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt) |
+| Firmware / release date | 2026-11-17 (day precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Exact-model V81 notes introduce Gojira Whammy continuous pedal pitch shifting. V86 fixes WHAMMY Oct2 stopping when Bend reaches about 80. These establish a pitch algorithm and corrected operating mode, not numeric semitone endpoints, monophonic/polyphonic tracking or chord-transpose quality. No MK-300 algorithm list or Whammy hardware polyphony transferred. [pitch 1](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt) [pitch 2](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-20.pdf) |
+| Pitch / preset recall | 150 editable normal presets, 75 initially factory-filled; six separate snapshot slots S1–S6 store additional configuration. Normal presets can be saved into snapshots; reverse saving is prohibited. Snapshot mode permits file import/export but not parameter editing through PC/mobile. Pitch parameters/pedal mapping live within this architecture, not 156 equivalent normal presets. V88 CC42–44 follow current preset CTRL1–3 mappings; external analog EXP connector remains disputed in original manual. |
+| Pitch / DSP resources | No isolated Whammy DSP percentage or tracking-latency measurement found. Manual shows an overall CPU load meter and warns above 90% may cause noise/other problems; example screenshot loads are full presets, not isolated pitch measurements. Ten movable modules are DSP-limited. Pedal Sync/global mapping and UI rendering improvements do not establish reduced pitch resource cost. |
+| Pitch / qualifications | Current official release-note bytes read inertly through a bounded repository Makefile target, strict GB18030 decoding: 8,405 bytes, SHA256 7777e1cd45094c456c4148037ab96b485b48bf97572f8636754f8d963649e05b, 209 lines, V71–V88. Earlier web decoding failures remain historical; current text is now recovered. Manufacturer-authored 28-page manual text checked for memory/snapshots and overall CPU warning. No new visual/byte equivalence claim to older manual mirror. No firmware installation, preset reset, controller test or audio benchmark. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [M-VAVE current MK20 / MK20 V2 firmware index](https://www.m-vave.com/download) — Separate exact-model V088 listings dated November 17, 2026. (Current manufacturer page opened as text).
+- [Official MK20 release history decoded as GB18030](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt) — V88 November 17 current changes; V81 Gojira Whammy; V86 Oct2 fix; V83 NAM A2. (Bounded repository source reader fetched 8,405 inert text bytes; strict decoding and SHA256 recorded).
+- [Manufacturer MK-20 owner manual](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-20.pdf) — 150 normal presets, six snapshot slots and overall CPU warning; no pitch-only percentage. (Original manufacturer-authored PDF opened as text).
+- [M-VAVE New Product Release MK-20 video](https://www.youtube.com/watch?v=xmJMJ_oUPYk) — October 15, 2025 later release video, not accepted as first hardware availability. (Search-indexed manufacturer title/date; direct page cache miss).
+
+<!-- firmware-pitch:M-VAVE::MK-20 ends -->
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-14.**

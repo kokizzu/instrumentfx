@@ -490,5 +490,31 @@ def test():
     print('PASS: bounded image/PDF/static-SVG rendering; active and external SVG resources rejected')
 
 
+def inspect_firmware_note():
+    """Read a bounded, exact manufacturer release-note selection as inert text."""
+    identity()
+    selected = json.loads(Path('/tmp/instrumentfx-note.json').read_text())
+    name = selected['name']
+    allowed = {'MK20', 'MK300', 'TANK-MINI', 'TANK-B', 'TANK-BV2', 'Tank-G'}
+    assert name in allowed, 'Unreviewed release-note name'
+    url = 'https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/' + name + '.txt'
+    request = urllib.request.Request(url, headers={'User-Agent': 'InstrumentFX-source-review/1.0'})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        assert response.geturl() == url, 'Unexpected release-note redirect'
+        body = response.read(262145)
+    assert len(body) <= 262144 and b'\x00' not in body, 'Invalid text payload'
+    try:
+        text = body.decode('utf-8-sig', errors='strict')
+        encoding = 'utf-8-sig'
+    except UnicodeDecodeError:
+        text = body.decode('gb18030', errors='strict')
+        encoding = 'gb18030'
+    assert '<html' not in text.lower() and len(text.splitlines()) > 1
+    output = Path('/tmp/instrumentfx-source-note.txt')
+    atomic_write(output, text.encode('utf-8'))
+    print(json.dumps({'url': url, 'bytes': len(body), 'sha256': hashlib.sha256(body).hexdigest(), 'encoding': encoding, 'lines': len(text.splitlines()), 'output': str(output)}))
+    print(text)
+
+
 if __name__ == '__main__':
-    {'plan': plan, 'apply': apply, 'test': test, 'render': render, 'text': extract_text, 'index': inspect_index, 'qr': inspect_qr}[sys.argv[1]]()
+    {'plan': plan, 'apply': apply, 'test': test, 'render': render, 'text': extract_text, 'index': inspect_index, 'qr': inspect_qr, 'firmware-note': inspect_firmware_note}[sys.argv[1]]()
