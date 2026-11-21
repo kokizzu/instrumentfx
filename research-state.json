@@ -201787,10 +201787,76 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC-Helicon::PERFORM-VE": {
+        "model_key": "TC-Helicon::PERFORM-VE",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2017-06-28",
+          "precision": "day",
+          "kind": "official product introduction; first shipment unverified",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=orPAGJfdYUA"
+          ],
+          "note": "Manufacturer Vocal Sample Synthesis introduction published June 28, 2017. This establishes public introduction, not exact first retail shipment."
+        },
+        "firmware": {
+          "version": "2.0",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=zbGvJH4FrlU",
+            "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/M_TH_0726-AAR_PERFORM-VE.pdf"
+          ],
+          "note": "Official November 21, 2019 firmware 2.0 demonstration is the latest numbered device update located, not certification of current latest status. Exact release date unresolved: video publication is not substituted as firmware release. Manual V2.0 is a document revision and alone would not prove firmware version. Therefore release-to-update duration remains unknown."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "HardTune vocal correction, doubling, Morph Shift/Gender, MIDI harmony/vocoder and vocal sample synthesis. Rev1.2 documents eight MIDI synth voices plus a ninth vocal-pitch-tracking lead synth voice; Morph green mode selects polyphony/release and red monophony/portamento. This is MIDI-driven synthesis polyphony, not verified polyphonic microphone audio-input transposition. Panel Shift ±12 semitones; MIDI CC ±36.",
+          "preset": "Three persistent effect presets. Official firmware 2.0 changes lead/MIDI levels from global to per-preset storage, superseding the older manual/global-blend description for updated units. Samples remain volatile. Firmware 2.0 adds variable gender mapping before nine analog vocoder waveforms; do not treat older 11-position style counts as unchanged.",
+          "dsp": "No pitch-specific CPU percentage, DSP meter or per-algorithm resource cost located. Eight MIDI voices plus lead does not establish processor utilization or nine independent effect blocks. No measured pitch concurrency or resource allocation.",
+          "source_urls": [
+            "https://www.fullcompass.com/common/files/32341-TCHeliconPERFORMVEUserManual.pdf",
+            "https://www.youtube.com/watch?v=zbGvJH4FrlU"
+          ],
+          "measurements": [],
+          "notes": [
+            "Firmware 2.0 official description also adds MIDI drum-note control, improved Stutter style 1 and startup suppression of CC/PC messages while accepting notes. Older source conflicts remain version-qualified; no firmware installed or hardware/audio test performed.",
+            "Vocal-only processing; MIDI keyboard note input does not establish guitar/bass processing or chordal audio pitch tracking."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=orPAGJfdYUA",
+            "title": "TC Helicon official Vocal Sample Synthesis with Perform-VE introduction",
+            "access": "Official indexed video description and publication read",
+            "evidence": "June 28, 2017 public introduction; no exact retail shipment date."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=zbGvJH4FrlU",
+            "title": "TC Helicon official Perform VE Firmware 2.0 Update",
+            "access": "Official indexed description/publication read; direct watch page fetch failed",
+            "evidence": "November 21, 2019 demonstration identifies firmware 2.0, MIDI drum notes, variable gender, improved stutter and stored lead/MIDI levels. Exact firmware release date not established."
+          },
+          {
+            "url": "https://www.fullcompass.com/common/files/32341-TCHeliconPERFORMVEUserManual.pdf",
+            "title": "Manufacturer-authored PERFORM-VE Rev1.2 manual",
+            "access": "Previously reviewed original manual retained in canonical evidence, pages 9–11 and 22–24",
+            "evidence": "Synth voice allocation, poly/mono modes, pitch range and original global blend behavior; older behavior superseded where firmware 2.0 explicitly changes it."
+          },
+          {
+            "url": "https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/M_TH_0726-AAR_PERFORM-VE.pdf",
+            "title": "Manufacturer PERFORM-VE current indexed V2.0 manual",
+            "access": "Indexed title and update instructions read; direct PDF returns 502",
+            "evidence": "VoiceSupport 2 update path; document V2.0 is not independent proof of current latest device firmware or its release date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC-Helicon::PERFORM-VE",
       "TC-Helicon::PERFORM-VG",
       "TC-Helicon::PERFORM-VK",
       "TC-Helicon::Play Acoustic",
@@ -201905,12 +201971,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 289,
-    "last_model": "TC-Helicon::PERFORM-V",
-    "last_commit_parent": "63d45a669a6d845e2f214b0c88926bd073df168d",
+    "completed_model_count": 290,
+    "last_model": "TC-Helicon::PERFORM-VE",
+    "last_commit_parent": "ab80b940594bb0f0a737ea0addf0179c988aaae4",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC-Helicon::PERFORM-VE",
       "TC-Helicon::PERFORM-VG",
       "TC-Helicon::PERFORM-VK",
       "TC-Helicon::Play Acoustic",
@@ -202024,7 +202089,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 289,
+    "pitch_completed_model_count": 290,
     "supplemental_model_count": 0
   },
   "model_images": {

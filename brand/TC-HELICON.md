@@ -661,6 +661,31 @@ Manual AUX is delayed forchord detection andexplicitly unsuitable forlive instru
 
 ## PERFORM-VE
 
+<!-- firmware-pitch:TC-Helicon::PERFORM-VE begins -->
+### Firmware and pitch audit — TC-Helicon PERFORM-VE
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017-06-28 (official product introduction; first shipment unverified). Manufacturer Vocal Sample Synthesis introduction published June 28, 2017. This establishes public introduction, not exact first retail shipment. [launch 1](https://www.youtube.com/watch?v=orPAGJfdYUA) |
+| Firmware / latest verification | 2.0 — Located; latest status unverified. Official November 21, 2019 firmware 2.0 demonstration is the latest numbered device update located, not certification of current latest status. Exact release date unresolved: video publication is not substituted as firmware release. Manual V2.0 is a document revision and alone would not prove firmware version. Therefore release-to-update duration remains unknown. [firmware 1](https://www.youtube.com/watch?v=zbGvJH4FrlU) [firmware 2](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/M_TH_0726-AAR_PERFORM-VE.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. HardTune vocal correction, doubling, Morph Shift/Gender, MIDI harmony/vocoder and vocal sample synthesis. Rev1.2 documents eight MIDI synth voices plus a ninth vocal-pitch-tracking lead synth voice; Morph green mode selects polyphony/release and red monophony/portamento. This is MIDI-driven synthesis polyphony, not verified polyphonic microphone audio-input transposition. Panel Shift ±12 semitones; MIDI CC ±36. [pitch 1](https://www.fullcompass.com/common/files/32341-TCHeliconPERFORMVEUserManual.pdf) [pitch 2](https://www.youtube.com/watch?v=zbGvJH4FrlU) |
+| Pitch / preset recall | Three persistent effect presets. Official firmware 2.0 changes lead/MIDI levels from global to per-preset storage, superseding the older manual/global-blend description for updated units. Samples remain volatile. Firmware 2.0 adds variable gender mapping before nine analog vocoder waveforms; do not treat older 11-position style counts as unchanged. |
+| Pitch / DSP resources | No pitch-specific CPU percentage, DSP meter or per-algorithm resource cost located. Eight MIDI voices plus lead does not establish processor utilization or nine independent effect blocks. No measured pitch concurrency or resource allocation. |
+| Pitch / qualifications | Firmware 2.0 official description also adds MIDI drum-note control, improved Stutter style 1 and startup suppression of CC/PC messages while accepting notes. Older source conflicts remain version-qualified; no firmware installed or hardware/audio test performed. Vocal-only processing; MIDI keyboard note input does not establish guitar/bass processing or chordal audio pitch tracking. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Helicon official Vocal Sample Synthesis with Perform-VE introduction](https://www.youtube.com/watch?v=orPAGJfdYUA) — June 28, 2017 public introduction; no exact retail shipment date. (Official indexed video description and publication read).
+- [TC Helicon official Perform VE Firmware 2.0 Update](https://www.youtube.com/watch?v=zbGvJH4FrlU) — November 21, 2019 demonstration identifies firmware 2.0, MIDI drum notes, variable gender, improved stutter and stored lead/MIDI levels. Exact firmware release date not established. (Official indexed description/publication read; direct watch page fetch failed).
+- [Manufacturer-authored PERFORM-VE Rev1.2 manual](https://www.fullcompass.com/common/files/32341-TCHeliconPERFORMVEUserManual.pdf) — Synth voice allocation, poly/mono modes, pitch range and original global blend behavior; older behavior superseded where firmware 2.0 explicitly changes it. (Previously reviewed original manual retained in canonical evidence, pages 9–11 and 22–24).
+- [Manufacturer PERFORM-VE current indexed V2.0 manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEC/M_TH_0726-AAR_PERFORM-VE.pdf) — VoiceSupport 2 update path; document V2.0 is not independent proof of current latest device firmware or its release date. (Indexed title and update instructions read; direct PDF returns 502).
+
+<!-- firmware-pitch:TC-Helicon::PERFORM-VE ends -->
+
 Mic-stand vocal multi-effects,distinct fromV/VK/VG. Checked2026-10-17;initial partial profile. MIDI-controlled vocal synthesis does not establish guitar/bass processing. Ownership unestablished.
 
 <!-- comparison evidence begins -->
