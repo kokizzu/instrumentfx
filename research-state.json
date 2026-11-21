@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "requested_url": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 0,
+    "frame": 78,
     "text_pages": [
       0,
-      0
+      2
     ],
     "index_url": "https://line6.com/software/index.html?hardware=M13&name=Flash+Memory&submit_form=set",
     "index_needle": "2.04",
@@ -194393,6 +194393,86 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::GE100 Pro": {
+        "model_key": "MOOER::GE100 Pro",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2026-05-26",
+          "precision": "day",
+          "kind": "manufacturer_presentation_index_proxy",
+          "source_urls": [
+            "https://www.effectsdatabase.com/model/mooer/ge100/pro",
+            "https://www.youtube.com/watch?v=hrhdq3RxxAA"
+          ],
+          "note": "Official Legacy Meets Innovation presentation dated May 26, 2026; introduction proxy, not verified first shipment. Earlier May 7/18 teasers and later June 2 overview are separately indexed; September database page date is not launch."
+        },
+        "firmware": {
+          "version": "1.3.3 Studio/update bundle",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/Downloads_xq/12.html",
+            "https://cn.mooeraudio.com/Downloads_xq/10.html"
+          ],
+          "note": "Current manufacturer package MS_For_GE100_Pro 1.3.3 has changelog date 2026-08-20. Device firmware payload/version not independently inspected, so that associated software date is not assigned as verified device-firmware release. English notes say disabling expression resets its assigned parameter to default; Chinese notes broadly describe sensitivity/smoothing. Both mention NAM A2, Chinese explicitly conversion. Cloud 1.7.0 Transpose & Speed is song-stem playback/export, not live-guitar pitch proof. Driver and September upload dates are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "V02 manual printed pp75–76 lists MODULATION 9 Pitch Shift, 10 Detune and 26 Octave. Descriptions do not specify polyphonic/monophonic handling, interval endpoints or fully wet transposition. User listening report retained separately below.",
+          "preset": "150 slots. Rendered SAVE instructions retain edited parameters to a chosen slot/name. Preset pitch use functionally confirmed by user; exact saved settings and held-pedal recall unverified.",
+          "dsp": "Rendered V02 printed p18 distinguishes nine effect module categories from ten available chain blocks. Modules can be placed in those blocks; exact repeat/overload limits and isolated Pitch Shift DSP percentage not established. Nine categories are not a measured CPU load or a nine-position ceiling.",
+          "source_urls": [
+            "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf",
+            "https://www.mooeraudio.com/products/244.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "User report 2026-11-20: transposition works, but sound at −6/+6 semitones is unacceptable compared with XS-100; firmware/settings/test method unspecified. Earlier +2-use-case confirmation remains history, not a new quality endorsement. No ownership inferred.",
+            "Manufacturer V02 PDF SHA256 83e40742d0f19002b94c7bd9c676f707445270926faecf655af53672b1d5fb5d; rendered processing/SAVE/pitch pages inspected because extracted text is garbled. No independent hardware measurements."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.effectsdatabase.com/model/mooer/ge100/pro",
+            "title": "GE100 Pro official-video publication index",
+            "access": "Exact-model official-channel rows read",
+            "evidence": "May 7/18 teasers, May 26 presentation and June 2 overview; page creation is later."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=hrhdq3RxxAA",
+            "title": "MOOER GE100 Pro Legacy Meets Innovation",
+            "access": "Official-channel indexed publication and description read",
+            "evidence": "May 26, 2026 presentation; first shipment unknown."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/12.html",
+            "title": "GE100 Pro English support downloads",
+            "access": "Manufacturer current package list and changelog read",
+            "evidence": "1.3.3 bundle associated August 20; expression default-return; Cloud pitch is separate."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/Downloads_xq/10.html",
+            "title": "GE100 Pro Chinese support downloads",
+            "access": "Manufacturer current package list and changelog read",
+            "evidence": "1.3.3 August 20 software entry, NAM A2 conversion and expression changes."
+          },
+          {
+            "url": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf",
+            "title": "GE100 Pro/Pro Li Owner’s Manual V02 September 9, 2026",
+            "access": "Original PDF fetched and selected pages rendered/visually read; text garbling noted",
+            "evidence": "Printed p18 ten chain blocks/nine categories; p22 SAVE; pp75–76 pitch inventory."
+          },
+          {
+            "url": "https://www.mooeraudio.com/products/244.html",
+            "title": "GE100 Pro/Pro Li manufacturer product",
+            "access": "Manufacturer product/specification body read",
+            "evidence": "150 preset slots and separate hardware editions."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -194422,7 +194502,6 @@
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
       "MOOER::Black Truck",
-      "MOOER::GE100 Pro",
       "MOOER::GE100 Pro Li",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
@@ -194603,9 +194682,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 197,
-    "last_model": "MOOER::GE150 Max Li",
-    "last_commit_parent": "9df192c972c42d56a8afb97ef0358c6b4ba3d388",
+    "completed_model_count": 198,
+    "last_model": "MOOER::GE100 Pro",
+    "last_commit_parent": "01ae444e165f739fbab6cff7956fc7767e2816bb",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -194634,7 +194713,6 @@
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
       "MOOER::Black Truck",
-      "MOOER::GE100 Pro",
       "MOOER::GE100 Pro Li",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
@@ -194814,7 +194892,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 197,
+    "pitch_completed_model_count": 198,
     "supplemental_model_count": 0
   },
   "model_images": {

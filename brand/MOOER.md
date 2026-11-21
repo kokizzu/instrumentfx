@@ -241,6 +241,33 @@ Used and new channels remain unverified; no price range inferred from mixed-cond
 
 ## GE100 Pro
 
+<!-- firmware-pitch:MOOER::GE100 Pro begins -->
+### Firmware and pitch audit — MOOER GE100 Pro
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2026-05-26 (manufacturer presentation index proxy). Official Legacy Meets Innovation presentation dated May 26, 2026; introduction proxy, not verified first shipment. Earlier May 7/18 teasers and later June 2 overview are separately indexed; September database page date is not launch. [launch 1](https://www.effectsdatabase.com/model/mooer/ge100/pro) [launch 2](https://www.youtube.com/watch?v=hrhdq3RxxAA) |
+| Firmware / latest verification | 1.3.3 Studio/update bundle — Located; latest status unverified. Current manufacturer package MS_For_GE100_Pro 1.3.3 has changelog date 2026-08-20. Device firmware payload/version not independently inspected, so that associated software date is not assigned as verified device-firmware release. English notes say disabling expression resets its assigned parameter to default; Chinese notes broadly describe sensitivity/smoothing. Both mention NAM A2, Chinese explicitly conversion. Cloud 1.7.0 Transpose & Speed is song-stem playback/export, not live-guitar pitch proof. Driver and September upload dates are separate. [firmware 1](https://www.mooeraudio.com/Downloads_xq/12.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/10.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. V02 manual printed pp75–76 lists MODULATION 9 Pitch Shift, 10 Detune and 26 Octave. Descriptions do not specify polyphonic/monophonic handling, interval endpoints or fully wet transposition. User listening report retained separately below. [pitch 1](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf) [pitch 2](https://www.mooeraudio.com/products/244.html) |
+| Pitch / preset recall | 150 slots. Rendered SAVE instructions retain edited parameters to a chosen slot/name. Preset pitch use functionally confirmed by user; exact saved settings and held-pedal recall unverified. |
+| Pitch / DSP resources | Rendered V02 printed p18 distinguishes nine effect module categories from ten available chain blocks. Modules can be placed in those blocks; exact repeat/overload limits and isolated Pitch Shift DSP percentage not established. Nine categories are not a measured CPU load or a nine-position ceiling. |
+| Pitch / qualifications | User report 2026-11-20: transposition works, but sound at −6/+6 semitones is unacceptable compared with XS-100; firmware/settings/test method unspecified. Earlier +2-use-case confirmation remains history, not a new quality endorsement. No ownership inferred. Manufacturer V02 PDF SHA256 83e40742d0f19002b94c7bd9c676f707445270926faecf655af53672b1d5fb5d; rendered processing/SAVE/pitch pages inspected because extracted text is garbled. No independent hardware measurements. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [GE100 Pro official-video publication index](https://www.effectsdatabase.com/model/mooer/ge100/pro) — May 7/18 teasers, May 26 presentation and June 2 overview; page creation is later. (Exact-model official-channel rows read).
+- [MOOER GE100 Pro Legacy Meets Innovation](https://www.youtube.com/watch?v=hrhdq3RxxAA) — May 26, 2026 presentation; first shipment unknown. (Official-channel indexed publication and description read).
+- [GE100 Pro English support downloads](https://www.mooeraudio.com/Downloads_xq/12.html) — 1.3.3 bundle associated August 20; expression default-return; Cloud pitch is separate. (Manufacturer current package list and changelog read).
+- [GE100 Pro Chinese support downloads](https://cn.mooeraudio.com/Downloads_xq/10.html) — 1.3.3 August 20 software entry, NAM A2 conversion and expression changes. (Manufacturer current package list and changelog read).
+- [GE100 Pro/Pro Li Owner’s Manual V02 September 9, 2026](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf) — Printed p18 ten chain blocks/nine categories; p22 SAVE; pp75–76 pitch inventory. (Original PDF fetched and selected pages rendered/visually read; text garbling noted).
+- [GE100 Pro/Pro Li manufacturer product](https://www.mooeraudio.com/products/244.html) — 150 preset slots and separate hardware editions. (Manufacturer product/specification body read).
+
+<!-- firmware-pitch:MOOER::GE100 Pro ends -->
+
 <!-- comparison evidence begins -->
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
