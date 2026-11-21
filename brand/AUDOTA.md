@@ -491,6 +491,32 @@ Printedp15 documents bank changes with A+B/C+D then direct A/B/C/D selection;PLA
 
 ## AME-200 Pro
 
+<!-- firmware-pitch:Audota::AME-200 Pro begins -->
+### Firmware and pitch audit — Audota AME-200 Pro
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No dated original hardware launch verified; document, filing and regional coverage dates are not automatically first worldwide release. [launch 1](https://en.audota.com/AME200ProEN.html) |
+| Firmware / latest verification | 1.37 (importer notation) — Located; latest status unverified. Official importer explicitly identifies firmware V1.37 onward for NAM A1/A2 support. Manufacturer Software lists Studio 1.3.7, while Firmware lists Studio 1.3.0. Preserve the version notation and software/ROM distinction. No dated device changelog or later ROM verified; package labels alone do not establish a release date. [firmware 1](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-pro-amp-modeler-multi-effects) [firmware 2](https://en.audota.com/EN_software.html) [firmware 3](https://en.audota.com/EN_firmware.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Pro manual p64 lists Pitch Shifter (Mono), Pitch Shifter Poly, nine-mode Whammy and Octave. Poly explicitly shifts multiple notes together; Whammy/Octave polyphony, exact semitone range and wet-only capo configuration remain unverified. [pitch 1](https://device.report/manuals/shenzhen-audota-ame-200pro-user-manual) [pitch 2](https://en.audota.com/AME200ProEN.html) |
+| Pitch / preset recall | 200 editable presets; A/B/C/D recall four per bank. Manual pp16–20 documents editing and SAVE to chosen location/name; CTRL can toggle multiple effect modules (pp27–29). Pedal section describes volume/wah, not verified pitch assignment. |
+| Pitch / DSP resources | Pitch choices reside in Modulation within an editable chain. No pitch CPU percentage, duplicate-polyphonic-shifter ceiling or pitch-specific resource exclusion verified. Ten categories are not a measurement of available processing or ten simultaneous pitch blocks. |
+| Pitch / qualifications | Polyphony classification applies to Pitch Shifter Poly, not all pitch-related algorithms. No standard AME-200 or Ampero DSP measurement transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Audota AME-200 Pro manufacturer manual manuscript](https://device.report/manuals/shenzhen-audota-ame-200pro-user-manual) — Printed p64 mono/poly pitch, Whammy and Octave; pp16–20 preset selection/edit/save; pp27–31 CTRL and pedal. Generated mirror overview excluded. (manufacturer_manuscript_on_public_mirror; text_only).
+- [Audota AME-200 Pro manufacturer product page](https://en.audota.com/AME200ProEN.html) — Pro hardware identity, 200 memories and rearrangeable processing categories; no launch date or per-effect CPU percentage. (opened).
+- [Official importer Pro firmware-qualified specification](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-pro-amp-modeler-multi-effects) — Explicit firmware V1.37 and NAM A1/A2; no original release date. (opened).
+- [Audota Software index](https://en.audota.com/EN_software.html) — AME-200Pro Studio Windows/Mac 1.3.7; distinct from direct ROM version evidence. (opened).
+- [Audota Firmware index](https://en.audota.com/EN_firmware.html) — AME-200Pro Studio Windows/Mac 1.3.0; older differing package listing retained. (opened).
+
+<!-- firmware-pitch:Audota::AME-200 Pro ends -->
+
 Distinct Pro hardware: built-in toe-switch expression, CTRL footswitch and rechargeable battery. Consolidated **2026-10-17**; the complete original finding and supporting facts retain their dates and disagreements. Historical next notes are provenance; use research-state.json for current tasks.
 
 <!-- AUDOTA-AME-200 Pro source begins -->
