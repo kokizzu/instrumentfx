@@ -419,6 +419,22 @@ Sources checked:
 
 <!-- firmware-pitch:Korg::AX10B ends -->
 
+<!-- model-images:Korg::AX10B begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Korg AX10B powered-on top controls — angled view**
+
+[![Korg AX10B powered-on top controls — angled view](https://www.audiotrader.co.uk/cdn/shop/files/20250820_140605.jpg?v=1755695681&width=1600)](https://www.audiotrader.co.uk/cdn/shop/files/20250820_140605.jpg?v=1755695681&width=1600)
+
+[Image source](https://www.audiotrader.co.uk/products/korg-toneworks-guitar-effects-processor-amp-modeling-good-w-power-supply). AX10B model label, illuminated program display and effect LEDs are visible; complete top controls and expression pedal shown. Camera angle has perspective, so an exact overhead photograph and rear-port photograph remain pending. Retail listing used only for photograph provenance, not its technical specifications.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:Korg::AX10B ends -->
+
+
 Checked2026-10-17. Partial **bass multi-effects** record; distinct from AX10G/AX10A. No qualified Indonesian offer established.
 
 | Field | Evidence / remaining gaps |

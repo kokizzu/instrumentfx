@@ -194650,11 +194650,27 @@
             "sha256": "8f6ce5c2f2e6fdda62b2bec7bc97bd3cf6cd2a6d0fdde8640bcf39b87674b2c1"
           }
         }
+      },
+      "Korg::AX10B": {
+        "model_key": "Korg::AX10B",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.audiotrader.co.uk/cdn/shop/files/20250820_140605.jpg?v=1755695681&width=1600",
+            "source_url": "https://www.audiotrader.co.uk/products/korg-toneworks-guitar-effects-processor-amp-modeling-good-w-power-supply",
+            "caption": "Korg AX10B powered-on top controls — angled view",
+            "note": "AX10B model label, illuminated program display and effect LEDs are visible; complete top controls and expression pedal shown. Camera angle has perspective, so an exact overhead photograph and rear-port photograph remain pending. Retail listing used only for photograph provenance, not its technical specifications.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "e0bf3074342952a21489ff59e0c0d4a1271850ff519a64819649f944acac84d8"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX10G"
+    "last_model": "Korg::AX10B"
   }
 }
