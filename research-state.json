@@ -199851,10 +199851,78 @@
           "label": "1.32 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "LEKATO::ME-01": {
+        "model_key": "LEKATO::ME-01",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "Original hardware launch unresolved",
+          "source_urls": [
+            "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
+            "https://lekatodeal.com/blogs/news"
+          ],
+          "note": "Official blog index dates an ME-01 promotional article to9 September2025, but does not establish original availability. Product image timestamps and manual-host upload dates are not launch dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
+            "https://device.report/manual/20953279",
+            "https://lekatotech.com/"
+          ],
+          "note": "Matching owner-manual body describes firmware upgrade through computer software. No exact ME-01 firmware version, dated release note or latest-build listing verified. Official product links software hosted by M-VAVE; that is not evidence that sibling firmware is compatible. Manual-linked support host timed out."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Shimmer reverb includes adjustable wet-signal pitch from unison to two octaves up; Analog delay includes wet detuning. Vibrato modulates pitch. No dedicated dry-signal transpose/octave/harmony algorithm or explicit polyphonic tracking statement verified.",
+          "preset": "80 editable presets,40 factory-filled and40 initially unedited. Pitch-related settings are effect parameters within stored presets; Shimmer is a reverb type rather than a dedicated transpose block.",
+          "dsp": "Six reorderable modules with6+1 simultaneous processing stated in manual, not seven freely assignable modules. Shimmer uses RVB selection and delay detune its DLY selection; no per-algorithm DSP percentage or measured shared-budget cost located.",
+          "source_urls": [
+            "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
+            "https://device.report/manual/20953279"
+          ],
+          "measurements": [],
+          "notes": [
+            "Do not infer polyphonic transposition from ambient chord recommendations or Shimmer alone.",
+            "Do not substitute PS-01 Pitch Box,PA-4,TANK-G or M-VAVE MINI-X firmware/specifications."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
+            "title": "LEKATO ME-01 SKU M03397 official product",
+            "access": "readable brand product page",
+            "evidence": "Six modules,80 editable presets,Shimmer reverb and named delay/modulation types; software links partly hosted by M-VAVE; no dated device firmware."
+          },
+          {
+            "url": "https://device.report/manual/20953279",
+            "title": "LEKATO ME-01 matching owner-manual body",
+            "access": "manufacturer-authored manual transcription on mirror; exact identity and lekatotech.com support reference checked",
+            "evidence": "Computer firmware-upgrade capability; Shimmer wet pitch unison to+2 octaves,delay detune,vibrato;6+1 processing and80 presets. No explicit pitch polyphony or DSP percentage."
+          },
+          {
+            "url": "https://lekatodeal.com/blogs/news",
+            "title": "LEKATO official news index",
+            "access": "readable official dated index",
+            "evidence": "ME-01 promotional article dated9 September2025; does not establish original hardware launch."
+          },
+          {
+            "url": "https://lekatotech.com/",
+            "title": "LEKATO manual-linked support host",
+            "access": "browser timeout",
+            "evidence": "Latest exact-model firmware could not be verified from this support host."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "LEKATO::ME-01",
       "Lexicon::MPX100",
       "Lexicon::MX200",
       "Lexicon::MX300",
@@ -199996,12 +200064,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 262,
-    "last_model": "Kemper::PROFILER Stage MK2",
-    "last_commit_parent": "dc85c3147cd6b575f95c3014609fbbac9300522d",
+    "completed_model_count": 263,
+    "last_model": "LEKATO::ME-01",
+    "last_commit_parent": "35510ef6f5778a0729a3a5ca694e7114a537af31",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "LEKATO::ME-01",
       "Lexicon::MPX100",
       "Lexicon::MX200",
       "Lexicon::MX300",
@@ -200142,7 +200209,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 262,
+    "pitch_completed_model_count": 263,
     "supplemental_model_count": 0
   },
   "model_images": {
