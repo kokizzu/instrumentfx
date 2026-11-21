@@ -5593,6 +5593,31 @@ ExactShopee search resurfaced existingElevenMusic12356205/25352150117Rp7,450,000
 
 ## ME-90B
 
+<!-- firmware-pitch:BOSS::ME-90B begins -->
+### Firmware and pitch audit — BOSS ME-90B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-04-18 (manufacturer announcement and availability). Manufacturer announcement states available now at US retailers; regional differences not established. [launch 1](https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-ME-90B-Bass-Multiple-Effects/) |
+| Firmware / latest verification | 1.04 — Latest verified. Latest linked system program. May 2025 fixes CTL pedal LED behavior on patch/BTS operations and minor bugs. Prior 1.03 April 2024 fixed a BLEND bug; computer drivers/editor versions are separate. [firmware 1](https://www.boss.info/global/support/by_product/me-90b/updates_drivers/14808c74-0eb6-4444-a829-c49b73e75e1c/) |
+| Firmware / release date | 2025-05 (month precision) |
+| Firmware / release-to-update duration | 1.03–1.12 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. Regular Pitch Shift ±24 semitones/detune and Tune Down -12…0 explicitly require single notes. Separate Poly Octave explicitly accepts polyphonic input, one octave below with range control. Harmonist and pedal ±1/±2-octave bends require single notes. S-Bend spans -3…+4 octaves; its polyphony unspecified. [pitch 1](https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf) [pitch 2](https://www.boss.info/global/products/me-90b/specifications/) |
+| Pitch / preset recall | 36 user plus 36 preset memories. Effect substitutions can be configured per memory in Tone Studio. |
+| Pitch / DSP resources | Octave, Poly Octave, Pitch Shift, Tune Down and S-Bend are alternatives in COMP/FX1; Harmonist uses FILTER/FX2, pedal bends PEDAL FX, Overtone an app-selected MOD alternative. Six simultaneous effect categories plus preamp are advertised. No pitch CPU percentage/allocation table found. |
+| Pitch / qualifications | Monophonic classification applies to regular interval shifting; Poly Octave is explicitly a separate polyphonic algorithm. No guitar ME-90 behavior or GT-series DSP figures transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS announces ME-90B bass multiple effects](https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-ME-90B-Bass-Multiple-Effects/) — April 18, 2024 announcement and US availability. (Manufacturer press release web text).
+- [ME-90B System Program 1.04](https://www.boss.info/global/support/by_product/me-90b/updates_drivers/14808c74-0eb6-4444-a829-c49b73e75e1c/) — 1.04 May 2025 CTL LED/minor fixes; 1.03 April 2024 BLEND fix. (Manufacturer release notes and current support index).
+- [ME-90B Parameter Guide](https://static.roland.com/assets/media/pdf/ME-90B_Parameter_eng01_W.pdf) — Pages 2–3: mono Pitch Shift/Tune Down, separate Poly Octave and shared category; 4: mono Harmonist; 13–14 MOD Overtone; 17 pedal-bend single-note requirements. (Manufacturer PDF web text).
+- [ME-90B product and specifications](https://www.boss.info/global/products/me-90b/specifications/) — 36 user/36 preset memories, preamp plus six simultaneous effect categories. (Manufacturer web text).
+
+<!-- firmware-pitch:BOSS::ME-90B ends -->
+
 Bass multi-effects;built-in expression with toe switch. Consolidated/researched2026-10-16;partial verification.
 
 ### ME-90B — preserved original comparison
