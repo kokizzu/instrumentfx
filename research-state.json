@@ -187708,11 +187708,35 @@
             "sha256": "a50284ef1f37eefb4bdadc003e1479c2040029e086f08ea3ab5c091fcf1bc7d1"
           }
         }
+      },
+      "Eventide::H9 Max": {
+        "model_key": "Eventide::H9 Max",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://cdn.eventideaudio.com/uploads/2013/06/H9-Front.png",
+            "source_url": "https://www.eventideaudio.com/pedals/h9-max/",
+            "caption": "Original H9 Max powered-on top-down photograph",
+            "note": "Manufacturer original H9 Max page: red H9 MAX display, LightRing, Active LED and illuminated Presets button visibly on. Original white H9 housing; not H9 Gen2.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "80b71b562c6ba82244b3a9df710a7e5d9bd6b0723da8dfa1acabc473a851e96d"
+          },
+          "rear": {
+            "image_url": "https://cdn.eventideaudio.com/uploads/2013/06/H9-Back.png",
+            "source_url": "https://www.eventideaudio.com/pedals/h9-max/",
+            "caption": "Original H9 Max rear audio, EXP, USB and DC connections",
+            "note": "Manufacturer Max-page photograph clearly shows Input1/2, Output1/2, EXP, mini-USB and centre-positive9–12VDC4.5W chassis marking. Side-mounted MIDI sockets are outside this rear view; product/manual power qualifications retained.",
+            "visual_checked": true,
+            "sha256": "cf62864f7af22adefb6ae07e5f6d2eb17073cb63091690f798f40485fa96fb72"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "EROK::Pocket Sonic"
+    "last_model": "Eventide::H9 Max"
   }
 }

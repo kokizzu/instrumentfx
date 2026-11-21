@@ -130,6 +130,26 @@ Sources checked:
 
 <!-- firmware-pitch:Eventide::H9 Max ends -->
 
+<!-- model-images:Eventide::H9 Max begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Original H9 Max powered-on top-down photograph**
+
+[![Original H9 Max powered-on top-down photograph](https://cdn.eventideaudio.com/uploads/2013/06/H9-Front.png)](https://cdn.eventideaudio.com/uploads/2013/06/H9-Front.png)
+
+[Image source](https://www.eventideaudio.com/pedals/h9-max/). Manufacturer original H9 Max page: red H9 MAX display, LightRing, Active LED and illuminated Presets button visibly on. Original white H9 housing; not H9 Gen2.
+
+**Original H9 Max rear audio, EXP, USB and DC connections**
+
+[![Original H9 Max rear audio, EXP, USB and DC connections](https://cdn.eventideaudio.com/uploads/2013/06/H9-Back.png)](https://cdn.eventideaudio.com/uploads/2013/06/H9-Back.png)
+
+[Image source](https://www.eventideaudio.com/pedals/h9-max/). Manufacturer Max-page photograph clearly shows Input1/2, Output1/2, EXP, mini-USB and centre-positive9–12VDC4.5W chassis marking. Side-mounted MIDI sockets are outside this rear view; product/manual power qualifications retained.
+
+</details>
+<!-- model-images:Eventide::H9 Max ends -->
+
+
 Checked 2026-10-17; partial. Max is distinct from Standard/Core; ownership unverified.
 
 | Field | Evidence / qualification |
