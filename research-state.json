@@ -192605,6 +192605,86 @@
           "label": "2.87 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::GE100 original": {
+        "model_key": "MOOER::GE100 original",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2015",
+          "precision": "year",
+          "kind": "manufacturer_retrospective",
+          "source_urls": [
+            "https://www.mooeraudio.com/products/244.html"
+          ],
+          "note": "Manufacturer’s newer Pro-family page explicitly dates the original GE100 release to 2015. Exact first announcement/shipment day unresolved; Pro-family launch is separate."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.mooeraudio.com/product/GE100-168.html",
+            "https://www.mooeraudio.com/Downloads.html"
+          ],
+          "note": "No original-GE100 device firmware package/version history located in checked manufacturer pages. Current GE100 Pro software is for different hardware; manual revision/upload dates are not firmware releases. Updateability itself remains unverified."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manual documents OCTAVE UP and OCTAVE DOWN pitch pedal assignments. MOD includes a Pitch effect described as periodically changing pitch; do not assume it provides arbitrary fixed transposition or intelligent harmony. Input polyphony not specified.",
+          "preset": "80 factory and 80 user patches. Pedal settings can be stored in a user patch, including the octave pitch assignments. Physical pedal position and across-preset held-position behavior untested.",
+          "dsp": "Eight modules with one selected effect type per module. MOD Pitch replaces other MOD choices. Octave pedal assignments are documented separately; their exact internal DSP allocation and simultaneous combination with MOD Pitch are unresolved. No numerical pitch CPU percentage located.",
+          "source_urls": [
+            "https://www.manualslib.com/manual/4146542/Mooer-Ge100.html?page=13",
+            "https://www.manualslib.com/manual/4146542/Mooer-Ge100.html?page=22",
+            "https://www.manualslib.com/manual/4146542/Mooer-Ge100.html?page=25",
+            "https://www.mooeraudio.com/product/GE100-168.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original GE100 only; no GE100 Pro or GE1000 pitch algorithms, USB updating or polyphonic claims transferred. No hardware measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.mooeraudio.com/products/244.html",
+            "title": "MOOER GE100 Pro family — original GE100 history",
+            "access": "Manufacturer retrospective paragraph read",
+            "evidence": "Explicitly states original GE100 was released in 2015; newer Pro hardware is separate."
+          },
+          {
+            "url": "https://www.mooeraudio.com/product/GE100-168.html",
+            "title": "MOOER original GE100 product",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "Eight modules, 66 effect types and 80 factory/80 user presets; no original firmware package located."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads.html",
+            "title": "MOOER download centre",
+            "access": "Manufacturer catalogue read; current first page",
+            "evidence": "GE100 Pro listed as separate product; no original-GE100 firmware established by this page."
+          },
+          {
+            "url": "https://www.manualslib.com/manual/4146542/Mooer-Ge100.html?page=13",
+            "title": "GE100 Owner’s Manual — printed p12",
+            "access": "Manufacturer-authored mirrored manual text read",
+            "evidence": "Octave Up/Down pitch assignment and user-patch storage; not a polyphony specification."
+          },
+          {
+            "url": "https://www.manualslib.com/manual/4146542/Mooer-Ge100.html?page=22",
+            "title": "GE100 Owner’s Manual — printed p21",
+            "access": "Manufacturer-authored mirrored manual text read",
+            "evidence": "One effect type per module; eight simultaneous modules maximum."
+          },
+          {
+            "url": "https://www.manualslib.com/manual/4146542/Mooer-Ge100.html?page=25",
+            "title": "GE100 Owner’s Manual — printed p24",
+            "access": "Manufacturer-authored mirrored manual text read",
+            "evidence": "MOD inventory includes Pitch with periodic pitch-change description; fixed harmony behavior not established."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -192634,7 +192714,6 @@
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
       "MOOER::Black Truck",
-      "MOOER::GE100 original",
       "MOOER::GE100 Pro",
       "MOOER::GE100 Pro Li",
       "MOOER::GE1000",
@@ -192835,9 +192914,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 177,
-    "last_model": "Line 6::M13",
-    "last_commit_parent": "4509d687e0f7b841098f4453889b938d13250a52",
+    "completed_model_count": 178,
+    "last_model": "MOOER::GE100 original",
+    "last_commit_parent": "38fb0453ebd5d29ec2c5d2da527d02f320b69dd3",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -192866,7 +192945,6 @@
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
       "MOOER::Black Truck",
-      "MOOER::GE100 original",
       "MOOER::GE100 Pro",
       "MOOER::GE100 Pro Li",
       "MOOER::GE1000",
@@ -193066,7 +193144,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 177,
+    "pitch_completed_model_count": 178,
     "supplemental_model_count": 0
   },
   "model_images": {

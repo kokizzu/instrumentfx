@@ -112,6 +112,33 @@ Own product popup names Black_Truck_Manual.pdf but browser Download click return
 
 ## GE100 original
 
+<!-- firmware-pitch:MOOER::GE100 original begins -->
+### Firmware and pitch audit — MOOER GE100 original
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2015 (manufacturer retrospective). Manufacturer’s newer Pro-family page explicitly dates the original GE100 release to 2015. Exact first announcement/shipment day unresolved; Pro-family launch is separate. [launch 1](https://www.mooeraudio.com/products/244.html) |
+| Firmware / latest verification | Not verified — No public firmware located. No original-GE100 device firmware package/version history located in checked manufacturer pages. Current GE100 Pro software is for different hardware; manual revision/upload dates are not firmware releases. Updateability itself remains unverified. [firmware 1](https://www.mooeraudio.com/product/GE100-168.html) [firmware 2](https://www.mooeraudio.com/Downloads.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manual documents OCTAVE UP and OCTAVE DOWN pitch pedal assignments. MOD includes a Pitch effect described as periodically changing pitch; do not assume it provides arbitrary fixed transposition or intelligent harmony. Input polyphony not specified. [pitch 1](https://www.manualslib.com/manual/4146542/Mooer-Ge100.html?page=13) [pitch 2](https://www.manualslib.com/manual/4146542/Mooer-Ge100.html?page=22) [pitch 3](https://www.manualslib.com/manual/4146542/Mooer-Ge100.html?page=25) [pitch 4](https://www.mooeraudio.com/product/GE100-168.html) |
+| Pitch / preset recall | 80 factory and 80 user patches. Pedal settings can be stored in a user patch, including the octave pitch assignments. Physical pedal position and across-preset held-position behavior untested. |
+| Pitch / DSP resources | Eight modules with one selected effect type per module. MOD Pitch replaces other MOD choices. Octave pedal assignments are documented separately; their exact internal DSP allocation and simultaneous combination with MOD Pitch are unresolved. No numerical pitch CPU percentage located. |
+| Pitch / qualifications | Original GE100 only; no GE100 Pro or GE1000 pitch algorithms, USB updating or polyphonic claims transferred. No hardware measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER GE100 Pro family — original GE100 history](https://www.mooeraudio.com/products/244.html) — Explicitly states original GE100 was released in 2015; newer Pro hardware is separate. (Manufacturer retrospective paragraph read).
+- [MOOER original GE100 product](https://www.mooeraudio.com/product/GE100-168.html) — Eight modules, 66 effect types and 80 factory/80 user presets; no original firmware package located. (Manufacturer exact-model page read).
+- [MOOER download centre](https://www.mooeraudio.com/Downloads.html) — GE100 Pro listed as separate product; no original-GE100 firmware established by this page. (Manufacturer catalogue read; current first page).
+- [GE100 Owner’s Manual — printed p12](https://www.manualslib.com/manual/4146542/Mooer-Ge100.html?page=13) — Octave Up/Down pitch assignment and user-patch storage; not a polyphony specification. (Manufacturer-authored mirrored manual text read).
+- [GE100 Owner’s Manual — printed p21](https://www.manualslib.com/manual/4146542/Mooer-Ge100.html?page=22) — One effect type per module; eight simultaneous modules maximum. (Manufacturer-authored mirrored manual text read).
+- [GE100 Owner’s Manual — printed p24](https://www.manualslib.com/manual/4146542/Mooer-Ge100.html?page=25) — MOD inventory includes Pitch with periodic pitch-change description; fixed harmony behavior not established. (Manufacturer-authored mirrored manual text read).
+
+<!-- firmware-pitch:MOOER::GE100 original ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE100-ORIGINAL source begins -->
