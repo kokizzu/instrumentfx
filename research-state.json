@@ -178521,8 +178521,8 @@
       25,
       26
     ],
-    "index_url": "https://line6.com/software/index.html?hardware=HX+One&name=Firmware&submit_form=set",
-    "index_needle": "Released",
+    "index_url": "https://line6.com/company/images/?families=64",
+    "index_needle": "HD500",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -192151,11 +192151,35 @@
             "sha256": "2c0bdefe00b8a73f261a3f9c0e5cebbac9da3a2b58b9d6aea6c532f135fd5dec"
           }
         }
+      },
+      "Line 6::POD HD500": {
+        "model_key": "Line 6::POD HD500",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/l/0a06434d123044caa22838b892/image/jpeg/POD%20HD500%20(Top%20Down)%20-%20Lo%20Rez.jpeg",
+            "source_url": "https://line6.com/company/images/?families=64",
+            "caption": "POD HD500 — powered-on overhead product view",
+            "note": "Official archive labels Top Down; exact original HD500 with illuminated LCD and switch/expression indicators. Some perspective and front edge remain visible, so a perfectly perpendicular view is still unverified. Not HD500X.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "be1c84c26f22bab40094a10813cc3c029ace125b7b06ccaef7b9d2d2a688402a"
+          },
+          "rear": {
+            "image_url": "https://line6.com/data/l/0a06434d125754caa22696020d/image/jpeg/POD%20HD500%20(Rear%20View)%20-%20Lo%20Rez.jpeg",
+            "source_url": "https://line6.com/company/images/?families=64",
+            "caption": "POD HD500 — rear connections",
+            "note": "Exact original HD500 archive photograph shows Pedal2,Guitar/CD-MP3 inputs,unbalanced and balanced outputs,Phones,Aux,Mic and trim,FX return/send,Variax,S/PDIF,MIDI,USB,L6 LINK and power. Full labels can be inspected through the direct image link.",
+            "visual_checked": true,
+            "sha256": "7182f064e2597e98d0dc1b2651eb395284e8ea8f1708b054b86fca33bcd6bb81"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::HX One"
+    "last_model": "Line 6::POD HD500"
   }
 }
