@@ -36,6 +36,26 @@ Sources checked:
 
 <!-- firmware-pitch:Mosky::DC5 ends -->
 
+<!-- model-images:Mosky::DC5 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Mosky DC5 control-face photograph — power state unverified**
+
+[![Mosky DC5 control-face photograph — power state unverified](https://www.moskyaudio.com/uploadfile//20261024/5db00f0766e49.jpg)](https://www.moskyaudio.com/uploadfile//20261024/5db00f0766e49.jpg)
+
+[Image source](https://www.moskyaudio.com/multi-effects/127.html). Visually inspected migrated manufacturer image: eleven rotary controls (delay3,chorus2,distortion2,overdrive3,buffer/booster1), three footswitches and one OFF/ON toggle. No display or treadle visible. Rear-edge input/output and 9V DC center-negative markings are visible. Nearly overhead control face with slight perspective; powered-on operation is not established, so an operating photograph remains pending. October2026 image migration path is not a hardware launch date.
+
+**Mosky DC5 straight rear-edge connection photograph**
+
+[![Mosky DC5 straight rear-edge connection photograph](https://imgmgr.banggood.com/images/oaupload/banggood/images/AC/97/17ffe647-057d-4945-9564-a4db47fe7c77.jpg)](https://imgmgr.banggood.com/images/oaupload/banggood/images/AC/97/17ffe647-057d-4945-9564-a4db47fe7c77.jpg)
+
+[Image source](https://racer.lt/item/mosky-dc5-6-in-1-guitar-effects-pedal-delay-chorus-distortion-overdrive-booster-buffer-full-metal-shell-with-true-bypass-28734.html). Visually inspected red DC5 strip matching the eleven-knob/three-switch layout: two quarter-inch-sized audio sockets and one barrel power socket, all unplugged. Roles are labeled INPUT/OUTPUT and 9V DC on the manufacturer control-face image; this rear edge itself is unlabeled. No USB, MIDI, headphone or analog EXP socket visible on this edge. This does not establish an exhaustive all-face/internal port inventory, audio levels or update capability. Seller technical claims are not substituted for manufacturer evidence.
+
+</details>
+<!-- model-images:Mosky::DC5 ends -->
+
+
 Effects-only guitar multi-effects strip, checked2026-10-18; partial. Ownership unverified. Bass/vocal suitability lacks exact primary confirmation.
 
 | Field | Finding / qualification |
