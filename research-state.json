@@ -202902,11 +202902,37 @@
             "sha256": "7d022110953f403a7b5039970c3e67df8c03022a63ab1f294333c70893b7f6c0"
           }
         }
+      },
+      "Neural DSP::Quad Cortex": {
+        "model_key": "Neural DSP::Quad Cortex",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://motorcityguitar.com/cdn/shop/files/Neural_QuadCortex_01_1400x.jpg?v=1721169826",
+            "source_url": "https://motorcityguitar.com/products/neural-dsp-quad-cortex-quad-core-digital-multi-effects-modeler-profiling-pedalboard",
+            "caption": "Quad Cortex powered top panel",
+            "note": "Visually inspected exact overhead retail image: illuminated touchscreen and footswitch LEDs; eleven rotary footswitches, separate master-volume knob and power control. Marketing image, not a hardware test.",
+            "visual_checked": true,
+            "sha256": "eb954c7582472796995ba8891918c3d46f321e34c85418c321e915c86f41068a",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.gearmusic.com/gearImages/QUAD-CORTEX/10000_back.jpg",
+            "source_url": "https://www.gearmusic.com/store/product/neural-dsp-quad-cortex-quad-core-digital-effects-modeler-profiling-floorboard?sku=QUAD-CORTEX",
+            "caption": "Quad Cortex rear connectors",
+            "note": "Visually inspected rear angle: two combo inputs; sends/returns 1/2, OUT3/L and OUT4/R, separate capture out and headphones, XLR OUT1/L and OUT2/R, MIDI IN and THRU/OUT, EXP1/2, USB-B and 12V DC. Full Quad Cortex, not Nano or mini. Retail rendering does not establish hardware revision or test operation.",
+            "visual_checked": true,
+            "sha256": "fc9c9da0721acb9b2794e86302334a5cce90fddde5b04df906eb1043a7b1bd1b",
+            "powered_on": true,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Neural DSP::Nano Cortex"
+    "last_model": "Neural DSP::Quad Cortex"
   }
 }

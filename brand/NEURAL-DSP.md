@@ -460,6 +460,26 @@ Sources checked:
 
 <!-- firmware-pitch:Neural DSP::Quad Cortex ends -->
 
+<!-- model-images:Neural DSP::Quad Cortex begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Quad Cortex powered top panel**
+
+[![Quad Cortex powered top panel](https://motorcityguitar.com/cdn/shop/files/Neural_QuadCortex_01_1400x.jpg?v=1721169826)](https://motorcityguitar.com/cdn/shop/files/Neural_QuadCortex_01_1400x.jpg?v=1721169826)
+
+[Image source](https://motorcityguitar.com/products/neural-dsp-quad-cortex-quad-core-digital-multi-effects-modeler-profiling-pedalboard). Visually inspected exact overhead retail image: illuminated touchscreen and footswitch LEDs; eleven rotary footswitches, separate master-volume knob and power control. Marketing image, not a hardware test.
+
+**Quad Cortex rear connectors**
+
+[![Quad Cortex rear connectors](https://www.gearmusic.com/gearImages/QUAD-CORTEX/10000_back.jpg)](https://www.gearmusic.com/gearImages/QUAD-CORTEX/10000_back.jpg)
+
+[Image source](https://www.gearmusic.com/store/product/neural-dsp-quad-cortex-quad-core-digital-effects-modeler-profiling-floorboard?sku=QUAD-CORTEX). Visually inspected rear angle: two combo inputs; sends/returns 1/2, OUT3/L and OUT4/R, separate capture out and headphones, XLR OUT1/L and OUT2/R, MIDI IN and THRU/OUT, EXP1/2, USB-B and 12V DC. Full Quad Cortex, not Nano or mini. Retail rendering does not establish hardware revision or test operation.
+
+</details>
+<!-- model-images:Neural DSP::Quad Cortex ends -->
+
+
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.
 
 | Required field | Evidence / qualification |
