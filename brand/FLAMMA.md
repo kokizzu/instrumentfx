@@ -767,6 +767,26 @@ Sources checked:
 
 <!-- firmware-pitch:Flamma::FX20 ends -->
 
+<!-- model-images:Flamma::FX20 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**FX20 face and controls — angled product view**
+
+[![FX20 face and controls — angled product view](https://www.flammainnovation.com/file/img?url=group1%2FM00%2F00%2F0C%2FwKgA0GW6-QiANqFHAA-GMGq-4Jw627.png)](https://www.flammainnovation.com/file/img?url=group1%2FM00%2F00%2F0C%2FwKgA0GW6-QiANqFHAA-GMGq-4Jw627.png)
+
+[Image source](https://www.flammainnovation.com/single.html?id=129). Manufacturer angled cutout shows the FX20 branding, folding instrument plug and side buttons. Indicators are not visibly illuminated; powered-on state and an exact top-down view remain unverified. The logo panel is not a display screen.
+
+**FX20 end-panel headphone and USB-C connections**
+
+[![FX20 end-panel headphone and USB-C connections](https://www.flamma.shop/cdn/shop/files/5_bea1ae17-938b-4d3a-ba4f-e45e8c8f4e4d.png?v=1706696574)](https://www.flamma.shop/cdn/shop/files/5_bea1ae17-938b-4d3a-ba4f-e45e8c8f4e4d.png?v=1706696574)
+
+[Image source](https://www.flamma.shop/products/flamma-fx20-portable-intelligent-headphone-modeling-headphone-amps-with-app-control). Angled end-panel view rather than a conventional pedal rear: visible3.5mm headphone socket and USB-C port with charging icon, plus folded6.35mm instrument plug and side controls. Charging/OTG roles come from the manual; the icon alone does not certify voltage or audio format. No power light is established in this shot.
+
+</details>
+<!-- model-images:Flamma::FX20 ends -->
+
+
 Plug-in guitar headphone multi-effects,distinct fromFX10/FX11/FX50. Checked2026-10-18;partial;ownership unverified. Bass/vocal suitability unverified.
 
 | Field | Finding / qualification |
