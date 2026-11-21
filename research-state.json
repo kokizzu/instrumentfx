@@ -198690,6 +198690,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Sonicake::Pocket Master QME-10": {
+        "model_key": "Sonicake::Pocket Master QME-10",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified hardware on-sale date",
+          "source_urls": [
+            "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178",
+            "https://www.sonicake.com/products/pocket-master"
+          ],
+          "note": "Initial firmware1.0.1 is dated2024-12-10, but that alone does not establish the first hardware on-sale date. No hardware support-span calculation from this proxy."
+        },
+        "firmware": {
+          "version": "1.3.3",
+          "date": "2025-05",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.sonicake.com/pages/pocket-master-software-firmware-download-qme-10",
+            "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178"
+          ],
+          "note": "Current support page still lists1.3.3; notes specify May2025, not May1. Adds20-second looper, AC G inFX1, BT/USB MIDI control and startup confirmation toggle.1.2.2(Feb2025) adds looperPre/Post;1.1.0(Jan2025) addsClone NAM loading/bass algorithms. Manager1.5.2 and SONICLINK1.8.2 are separate software versions."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Own firmware1.3.0 manual explicitly describes Octave and Pitch as polyphonic. Octave provides upper/lower octave and dry levels; Pitch has semitone high/low interval, voice and dry controls, exact endpoints unverified. Detune is -50 to +50 cents. No independent chord-tracking or current1.3.3 algorithm-equivalence test.",
+          "preset": "50 noneditable factory plus50 editable user presets. Pitch uses shared FX choices within saved presets. No analog EXP input; USB/BT MIDI control added in1.3.3 is distinct from direct pedal connection. No universal global transposition recall behavior established.",
+          "dsp": "No isolated pitch CPU percentage or measured DSP cost published in checked sources. Pitch selects an FX module algorithm within nine modules; overall module ceiling is not a pitch resource benchmark.",
+          "source_urls": [
+            "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual",
+            "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178",
+            "https://www.sonicake.com/products/pocket-master"
+          ],
+          "measurements": [],
+          "notes": [
+            "Handheld/desktop unit: its two palm buttons are not footswitches. Preserve manual distinction between desktop file/update management and mobile tone editing; current software capabilities are not hardware tested."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sonicake.com/pages/pocket-master-software-firmware-download-qme-10",
+            "title": "Pocket Master QME-10 downloads",
+            "access": "Manufacturer source checked2026-11-22",
+            "evidence": "Currentfirmware1.3.3 separately listed from Manager1.5.2 and mobile1.8.2."
+          },
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178",
+            "title": "Pocket Master firmware1.3.3 release notes",
+            "access": "Manufacturer source checked2026-11-22",
+            "evidence": "May2025 monthprecision; MIDI,20sloop,ACG additions; initialfirmwareDec10,2024 is not hardwaredate."
+          },
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual",
+            "title": "Pocket Master manual firmware1.3.0",
+            "access": "Manufacturer source checked2026-11-22",
+            "evidence": "Polyphonic Octave/Pitch andDetune; presets,connector inventory and software scope."
+          },
+          {
+            "url": "https://www.sonicake.com/products/pocket-master",
+            "title": "Pocket Master product",
+            "access": "Manufacturer source checked2026-11-22",
+            "evidence": "ExactQME10,nine modules,100presets anddualUSB-C; no firsthardwaredate."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -198716,7 +198784,6 @@
       "Sonicake::Levitate QDS-02",
       "Sonicake::Matribox II Pro QME-200",
       "Sonicake::Matribox II QME-100",
-      "Sonicake::Pocket Master QME-10",
       "Sonicake::RockStage QCE-10",
       "Sonicake::Sonic Wood QCE-50",
       "Soran::Dual Stomp",
@@ -198850,9 +198917,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 247,
-    "last_model": "Sonicake::Smart Box QME-20",
-    "last_commit_parent": "e8dc5042ebc7e6e3bd6fc39cfc2bac4bbc0e54da",
+    "completed_model_count": 248,
+    "last_model": "Sonicake::Pocket Master QME-10",
+    "last_commit_parent": "90a194c2304a568516c76d955f41ff1fa575eb5b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -198878,7 +198945,6 @@
       "Sonicake::Levitate QDS-02",
       "Sonicake::Matribox II Pro QME-200",
       "Sonicake::Matribox II QME-100",
-      "Sonicake::Pocket Master QME-10",
       "Sonicake::RockStage QCE-10",
       "Sonicake::Sonic Wood QCE-50",
       "Soran::Dual Stomp",
@@ -199011,7 +199077,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 247,
+    "pitch_completed_model_count": 248,
     "supplemental_model_count": 0
   },
   "model_images": {

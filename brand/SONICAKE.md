@@ -575,6 +575,31 @@ The [official Sonicbar collection](https://www.sonicake.com/collections/multi-ef
 
 ## Pocket Master QME-10
 
+<!-- firmware-pitch:Sonicake::Pocket Master QME-10 begins -->
+### Firmware and pitch audit — Sonicake Pocket Master QME-10
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Initial firmware1.0.1 is dated2024-12-10, but that alone does not establish the first hardware on-sale date. No hardware support-span calculation from this proxy. [launch 1](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178) [launch 2](https://www.sonicake.com/products/pocket-master) |
+| Firmware / latest verification | 1.3.3 — Latest verified. Current support page still lists1.3.3; notes specify May2025, not May1. Adds20-second looper, AC G inFX1, BT/USB MIDI control and startup confirmation toggle.1.2.2(Feb2025) adds looperPre/Post;1.1.0(Jan2025) addsClone NAM loading/bass algorithms. Manager1.5.2 and SONICLINK1.8.2 are separate software versions. [firmware 1](https://www.sonicake.com/pages/pocket-master-software-firmware-download-qme-10) [firmware 2](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178) |
+| Firmware / release date | 2025-05 (month precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Own firmware1.3.0 manual explicitly describes Octave and Pitch as polyphonic. Octave provides upper/lower octave and dry levels; Pitch has semitone high/low interval, voice and dry controls, exact endpoints unverified. Detune is -50 to +50 cents. No independent chord-tracking or current1.3.3 algorithm-equivalence test. [pitch 1](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual) [pitch 2](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178) [pitch 3](https://www.sonicake.com/products/pocket-master) |
+| Pitch / preset recall | 50 noneditable factory plus50 editable user presets. Pitch uses shared FX choices within saved presets. No analog EXP input; USB/BT MIDI control added in1.3.3 is distinct from direct pedal connection. No universal global transposition recall behavior established. |
+| Pitch / DSP resources | No isolated pitch CPU percentage or measured DSP cost published in checked sources. Pitch selects an FX module algorithm within nine modules; overall module ceiling is not a pitch resource benchmark. |
+| Pitch / qualifications | Handheld/desktop unit: its two palm buttons are not footswitches. Preserve manual distinction between desktop file/update management and mobile tone editing; current software capabilities are not hardware tested. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Pocket Master QME-10 downloads](https://www.sonicake.com/pages/pocket-master-software-firmware-download-qme-10) — Currentfirmware1.3.3 separately listed from Manager1.5.2 and mobile1.8.2. (Manufacturer source checked2026-11-22).
+- [Pocket Master firmware1.3.3 release notes](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178) — May2025 monthprecision; MIDI,20sloop,ACG additions; initialfirmwareDec10,2024 is not hardwaredate. (Manufacturer source checked2026-11-22).
+- [Pocket Master manual firmware1.3.0](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual) — Polyphonic Octave/Pitch andDetune; presets,connector inventory and software scope. (Manufacturer source checked2026-11-22).
+- [Pocket Master product](https://www.sonicake.com/products/pocket-master) — ExactQME10,nine modules,100presets anddualUSB-C; no firsthardwaredate. (Manufacturer source checked2026-11-22).
+
+<!-- firmware-pitch:Sonicake::Pocket Master QME-10 ends -->
+
 <!-- comparison evidence begins -->
 
 **Existing review2026-10-14. Handheld/desktop multi-effects, not conventional foot-operated hardware.** Separate from M-VAVE Pocket Amp.
