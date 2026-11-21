@@ -640,6 +640,31 @@ Checked2026-10-28 against [exact JOYO product][TC1-P]. Ordinary guitar use docum
 
 ## Tone Chain TC-2
 
+<!-- firmware-pitch:JOYO::Tone Chain TC-2 begins -->
+### Firmware and pitch audit — JOYO Tone Chain TC-2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2019-12 (manufacturer announcement month). JOYO AUDIO official TC-2 video dated December 1, 2019 establishes an observed manufacturer announcement-month proxy. Earliest retail shipment not established; November 26 manual upload is not launch date. [launch 1](https://www.youtube.com/watch?v=zULxKGvcVeI) [launch 2](https://www.joyoaudio.com/product/193.html?productCateId=20) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model product download lists only TC-2 Manual.pdf; no public device firmware package/version history or update procedure located. Own manual complete panel has audio, loop, AUX and DC connections without USB/update port. Digital delay and tuner do not establish user-updatable firmware. [firmware 1](https://www.joyoaudio.com/product/193.html?productCateId=20) [firmware 2](https://www.joyoaudio.co.uk/manuals/other/TC2.pdf) [firmware 3](https://www.joyoaudio.co.uk/Tonechain-TC-2) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. TC-2 own manual documents OD, distortion, digital delay, cabinet simulation and tuner; no pitch shifter, octaver or harmony algorithm. Tuner detection is not pitch shifting, and external FX-loop pedals do not become built-in algorithms. [pitch 1](https://www.joyoaudio.com/product/193.html?productCateId=20) [pitch 2](https://www.joyoaudio.co.uk/manuals/other/TC2.pdf) [pitch 3](https://www.joyoaudio.co.uk/Tonechain-TC-2) |
+| Pitch / preset recall | Twelve rotaries, four footswitches for TAP/TUNER, DELAY, DS and OD, plus CAB SIM pushbutton. No stored patch memory or pitch-preset recall documented. Own manual and panel omit the UK page Lo/Hi switch claim; TC-1 has a separate Lo/Hi toggle and is not substituted here. |
+| Pitch / DSP resources | Fixed OD/DS/digital-delay architecture and cabinet simulation, with individually switched effect modules; no user block allocator, CPU meter or numeric DSP percentages documented. No internal pitch-specific processor cost applies to the documented effect set. Additional distortion EQ controls are not extra programmable DSP blocks. |
+| Pitch / qualifications | Exact TC-2 manual inspected. Distortion has Gain/Freq/Level/High/Mid/Low, unlike TC-1; own specification is 1043g. No hardware measurement or latency/firmware installation test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [JOYO AUDIO ToneChain TC-2 Official video](https://www.youtube.com/watch?v=zULxKGvcVeI) — December 1, 2019 exact-model manufacturer video; announcement reference, not proven first shipment. (Indexed official channel metadata and description read).
+- [JOYO TC-2 global product/download page](https://www.joyoaudio.com/product/193.html?productCateId=20) — OD/DS/delay and cabinet simulation, own DS controls, four footswitches; manual-only attachment dated November 26, 2019, no firmware located. (Current exact-model manufacturer page read).
+- [JOYO UK TC-2 product page](https://www.joyoaudio.co.uk/Tonechain-TC-2) — Twelve controls and effect architecture; Lo/Hi claim conflicts with own manual/panel and is not accepted as TC-2 control evidence. (Manufacturer-linked regional text and photographs read).
+- [JOYO Tone Chain TC-2 owner manual 266-00TC2-0010](https://www.joyoaudio.co.uk/manuals/other/TC2.pdf) — Own TC-2 identity, all controls, muted tuner, OD/DS/digital delay, complete rear/side connector diagram, 1043g. No pitch/harmony, patch memory, USB/update procedure or DSP percentage documented. (Two-page original PDF retrieved; English page 2 visually inspected; SHA256 3316cbc7f4360c33e862e114e59559f20f8a20474a452fb9cb97e16205531366).
+
+<!-- firmware-pitch:JOYO::Tone Chain TC-2 ends -->
+
 Guitar effects-only strip, distinct from TC-1. Checked2026-10-18; partial. Ownership and bass/vocal applicability unverified.
 
 | Field | Finding / qualification | Evidence |
