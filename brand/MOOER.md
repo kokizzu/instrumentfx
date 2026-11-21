@@ -1221,6 +1221,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GE150 Pro ends -->
 
+<!-- model-images:MOOER::GE150 Pro begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GE150 Pro powered-on top view**
+
+[![MOOER GE150 Pro powered-on top view](https://mooer.jp/cdn/shop/files/GE150Pro-01.png?v=1728970279&width=1946)](https://mooer.jp/cdn/shop/files/GE150Pro-01.png?v=1728970279&width=1946)
+
+[Image source](https://mooer.jp/products/mooer-ge150pro). Straight overhead white standard GE150 Pro, built-in pedal, 2A British 800 display and illuminated controls/footswitch rings. Manufacturer screen artwork includes a 100% battery icon despite the standard model being externally powered; this is not evidence of an internal battery.
+
+**MOOER GE150 Pro rear connections**
+
+[![MOOER GE150 Pro rear connections](https://mooer.jp/cdn/shop/files/GE150Pro-02.png?v=1728970278&width=1946)](https://mooer.jp/cdn/shop/files/GE150Pro-02.png?v=1728970278&width=1946)
+
+[Image source](https://mooer.jp/products/mooer-ge150pro). Full straight rear: AUX IN, INPUT, OUTPUT L (MONO)/R, PHONES, USB-C marked OTG, rocker power and DC 9V 300mA center-negative marking. No FX loop, XLR, dedicated MIDI or external EXP socket in this panel.
+
+</details>
+<!-- model-images:MOOER::GE150 Pro ends -->
+
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE150-PRO source begins -->
