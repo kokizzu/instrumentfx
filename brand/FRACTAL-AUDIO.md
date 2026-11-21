@@ -3073,6 +3073,26 @@ Sources checked:
 
 <!-- firmware-pitch:Fractal Audio::VP4 ends -->
 
+<!-- model-images:Fractal Audio::VP4 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**VP4 — powered-on top view**
+
+[![VP4 — powered-on top view](https://shop.fractalaudio.com/cdn/shop/files/vp4-1920x1280.png?v=1759261981&width=3840)](https://shop.fractalaudio.com/cdn/shop/files/vp4-1920x1280.png?v=1759261981&width=3840)
+
+[Image source](https://shop.fractalaudio.com/products/vp4-virtual-pedalboard-effects-modeler). Official manufacturer photograph. Straight top view shows the illuminated preset display and four blue footswitch indicators, A–D and SELECT knobs, and six navigation buttons. The pictured CPU reading describes the illustrated preset, not a measured Virtual Capo cost.
+
+**VP4 — rear connections**
+
+[![VP4 — rear connections](https://shop.fractalaudio.com/cdn/shop/files/vp4-rear.png?v=1759935040&width=3840)](https://shop.fractalaudio.com/cdn/shop/files/vp4-rear.png?v=1759935040&width=3840)
+
+[Image source](https://shop.fractalaudio.com/products/vp4-virtual-pedalboard-effects-modeler). Official manufacturer rear photograph. Labels show L/Mono and R inputs, L/Mono and R outputs, two pedal inputs, S/PDIF in/out, USB-C, MIDI in/out, and 9V DC 1.3A power. No separate headphone socket is visible in this complete rear view; USB channel counts, connector electrical wiring and power polarity are not inferred from this photograph.
+
+</details>
+<!-- model-images:Fractal Audio::VP4 ends -->
+
+
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
 
 <!-- comparison evidence begins -->

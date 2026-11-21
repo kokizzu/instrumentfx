@@ -193898,11 +193898,35 @@
             "sha256": "0cea1c69c7d9a9cbf058013bbff6f18e0a82c1056054a36e10d3cd2fa0c7d2c2"
           }
         }
+      },
+      "Fractal Audio::VP4": {
+        "model_key": "Fractal Audio::VP4",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://shop.fractalaudio.com/cdn/shop/files/vp4-1920x1280.png?v=1759261981&width=3840",
+            "source_url": "https://shop.fractalaudio.com/products/vp4-virtual-pedalboard-effects-modeler",
+            "caption": "VP4 — powered-on top view",
+            "note": "Official manufacturer photograph. Straight top view shows the illuminated preset display and four blue footswitch indicators, A–D and SELECT knobs, and six navigation buttons. The pictured CPU reading describes the illustrated preset, not a measured Virtual Capo cost.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "9fc7b3ade05e1dcdf2ddee24cdae38c71955f5e427991b2272e3505014fa3634"
+          },
+          "rear": {
+            "image_url": "https://shop.fractalaudio.com/cdn/shop/files/vp4-rear.png?v=1759935040&width=3840",
+            "source_url": "https://shop.fractalaudio.com/products/vp4-virtual-pedalboard-effects-modeler",
+            "caption": "VP4 — rear connections",
+            "note": "Official manufacturer rear photograph. Labels show L/Mono and R inputs, L/Mono and R outputs, two pedal inputs, S/PDIF in/out, USB-C, MIDI in/out, and 9V DC 1.3A power. No separate headphone socket is visible in this complete rear view; USB channel counts, connector electrical wiring and power polarity are not inferred from this photograph.",
+            "visual_checked": true,
+            "sha256": "044545e3f41e703064a97966200ed04fe6cd3ee022d6e5690c78d969b018bfa4"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Fractal Audio::AM4"
+    "last_model": "Fractal Audio::VP4"
   }
 }
