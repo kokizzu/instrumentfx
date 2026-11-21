@@ -198185,11 +198185,35 @@
             "sha256": "b1625709b2c3f0c0d0d4636df7cef4fbe5fccd5a907a1859cc737018e4170e52"
           }
         }
+      },
+      "MOOER::Black Truck": {
+        "model_key": "MOOER::Black Truck",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/products/imgrc0075340456.jpg?v=1648211002&width=1445",
+            "source_url": "https://mooer.jp/products/blacktruck",
+            "caption": "MOOER Black Truck powered-on top view",
+            "note": "Visually inspected powered-on face view, with illuminated tuner, rotary indicators and six footswitch rings. Slightly oblique near-overhead photograph; a strictly perpendicular overhead view remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "d50524ba25bf1e42822ba97141aac96e709465aaabfc7d6e76d4b3285ce2582e"
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/products/Black-Truck-02.jpg?v=1666333630&width=1445",
+            "source_url": "https://mooer.jp/products/blacktruck",
+            "caption": "MOOER Black Truck rear ports",
+            "note": "Visually inspected complete rear: INPUT, FX LOOP SEND/RETURN, OUTPUT L(MONO)/R, PHONE with independent MIN/MAX level, DC IN 9V 1A and cable restraint. The existing manufacturer PHONES diameter conflict remains unresolved; connector appearance is not a calibrated measurement.",
+            "visual_checked": true,
+            "sha256": "e844f71a3554dee9cc25ec2a5d056ac096e18604c1364320dc7107de7f6e8300"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::PE100"
+    "last_model": "MOOER::Black Truck"
   }
 }
