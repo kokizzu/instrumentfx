@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.inmusicbrands.com/HeadRush/vx5/AutoTune%20VX5%20-%20User%20Guide%20-%20v1.3.pdf",
+    "requested_url": "https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0,
     "text_pages": [
-      12,
-      15
+      22,
+      24
     ],
     "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
     "index_needle": "features",
@@ -189042,6 +189042,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "JOYO::GEM BOX II": {
+        "model_key": "JOYO::GEM BOX II",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.joyoaudio.com/product/84.html?productCateId=76",
+            "https://www.youtube.com/watch?v=tI8bO8GixoA"
+          ],
+          "note": "First hardware release date not established. Official JOYO demo dated March 21, 2017 confirms promotion by then, not first shipment. The 2020 manual upload is not a launch date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.joyoaudio.com/product/84.html?productCateId=76",
+            "https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf",
+            "https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992"
+          ],
+          "note": "Exact-model global/UK pages and owner manual checked; no public II firmware package, updater or version history located. This does not establish absence of factory firmware or service updates. III/K8 software is not II firmware."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Own manual MOD table lists Pitch, described as changing pitch with Depth or Degree control and expression-pedal assignment marker. No polyphonic input claim, interval range or measured tracking established. Original GEM BOX -12/+12 range is not transferred to II.",
+          "preset": "80 factory plus 80 user patches; editable settings save to user memory. Pitch belongs to the MOD choice within a patch; 160 memories are not 160 simultaneous effects.",
+          "dsp": "Eight fixed modules: FX→DS→AMP→NS→EQ→MOD→DLY→REV. Pitch is a MOD alternative alongside chorus/flanger and others; no numeric per-pitch CPU percentage or processor-load meter documented. Module occupancy is not an equal-share DSP percentage.",
+          "source_urls": [
+            "https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf",
+            "https://www.joyoaudio.com/product/84.html?productCateId=76"
+          ],
+          "measurements": [],
+          "notes": [
+            "The Pitch table wording is imprecise (periodic pitch influence), so the audit records the named pitch effect without assuming a polyphonic drop-tuning algorithm. No hardware or latency test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.joyoaudio.com/product/84.html?productCateId=76",
+            "title": "JOYO GEM BOX II global product/download page",
+            "access": "Current exact-model manufacturer page read",
+            "evidence": "II identity, eight modules, 66 types, 80+80 patches; manual upload June 28, 2020, no firmware package found."
+          },
+          {
+            "url": "https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf",
+            "title": "JOYO GEM BOX II owner manual",
+            "access": "Original 32-page PDF mirrored by SWAMP; SHA256 c5763a9c4ff223c2b1287c8352f2b184bf589a0d4c23c35833834f84bd1d4386; cover and printed pages 20/23 visually inspected",
+            "evidence": "JOYO/II cover identity, fixed eight-module chain, MOD Pitch table and pedal assignment marker; no polyphony/DSP percentage."
+          },
+          {
+            "url": "https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992",
+            "title": "JOYO UK GEM BOX II product page",
+            "access": "Manufacturer-linked regional site read",
+            "evidence": "Exact II model and product pictures; sibling software not assigned to this model."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=tI8bO8GixoA",
+            "title": "JOYO AUDIO GEM BOX II official demo",
+            "access": "Official manufacturer video publication metadata read",
+            "evidence": "March 21, 2017 public demonstration; not proof of initial launch/shipment date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -189055,7 +189123,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "JOYO::GEM BOX II",
       "JOYO::GEM BOX III",
       "JOYO::R-16 Vocal Lab",
       "JOYO::Tone Chain TC-1",
@@ -189323,9 +189390,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 126,
-    "last_model": "JOYO::GEM BOX original",
-    "last_commit_parent": "6301ef975f1fbe58c5a89668eb2adde91b566fc1",
+    "completed_model_count": 127,
+    "last_model": "JOYO::GEM BOX II",
+    "last_commit_parent": "67ff308d919975ff3c06a3b856f68ea49cff1546",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -189338,7 +189405,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "JOYO::GEM BOX II",
       "JOYO::GEM BOX III",
       "JOYO::R-16 Vocal Lab",
       "JOYO::Tone Chain TC-1",
@@ -189605,7 +189671,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 126,
+    "pitch_completed_model_count": 127,
     "supplemental_model_count": 0
   },
   "model_images": {

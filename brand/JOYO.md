@@ -25,6 +25,31 @@ The complete model-specific field values, explicit unknowns, price caveats, sour
 
 ## GEM BOX II
 
+<!-- firmware-pitch:JOYO::GEM BOX II begins -->
+### Firmware and pitch audit — JOYO GEM BOX II
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. First hardware release date not established. Official JOYO demo dated March 21, 2017 confirms promotion by then, not first shipment. The 2020 manual upload is not a launch date. [launch 1](https://www.joyoaudio.com/product/84.html?productCateId=76) [launch 2](https://www.youtube.com/watch?v=tI8bO8GixoA) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model global/UK pages and owner manual checked; no public II firmware package, updater or version history located. This does not establish absence of factory firmware or service updates. III/K8 software is not II firmware. [firmware 1](https://www.joyoaudio.com/product/84.html?productCateId=76) [firmware 2](https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf) [firmware 3](https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Own manual MOD table lists Pitch, described as changing pitch with Depth or Degree control and expression-pedal assignment marker. No polyphonic input claim, interval range or measured tracking established. Original GEM BOX -12/+12 range is not transferred to II. [pitch 1](https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf) [pitch 2](https://www.joyoaudio.com/product/84.html?productCateId=76) |
+| Pitch / preset recall | 80 factory plus 80 user patches; editable settings save to user memory. Pitch belongs to the MOD choice within a patch; 160 memories are not 160 simultaneous effects. |
+| Pitch / DSP resources | Eight fixed modules: FX→DS→AMP→NS→EQ→MOD→DLY→REV. Pitch is a MOD alternative alongside chorus/flanger and others; no numeric per-pitch CPU percentage or processor-load meter documented. Module occupancy is not an equal-share DSP percentage. |
+| Pitch / qualifications | The Pitch table wording is imprecise (periodic pitch influence), so the audit records the named pitch effect without assuming a polyphonic drop-tuning algorithm. No hardware or latency test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [JOYO GEM BOX II global product/download page](https://www.joyoaudio.com/product/84.html?productCateId=76) — II identity, eight modules, 66 types, 80+80 patches; manual upload June 28, 2020, no firmware package found. (Current exact-model manufacturer page read).
+- [JOYO GEM BOX II owner manual](https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf) — JOYO/II cover identity, fixed eight-module chain, MOD Pitch table and pedal assignment marker; no polyphony/DSP percentage. (Original 32-page PDF mirrored by SWAMP; SHA256 c5763a9c4ff223c2b1287c8352f2b184bf589a0d4c23c35833834f84bd1d4386; cover and printed pages 20/23 visually inspected).
+- [JOYO UK GEM BOX II product page](https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992) — Exact II model and product pictures; sibling software not assigned to this model. (Manufacturer-linked regional site read).
+- [JOYO AUDIO GEM BOX II official demo](https://www.youtube.com/watch?v=tI8bO8GixoA) — March 21, 2017 public demonstration; not proof of initial launch/shipment date. (Official manufacturer video publication metadata read).
+
+<!-- firmware-pitch:JOYO::GEM BOX II ends -->
+
 **Technical/price review: 2026-10-14. Partial.** Original, III and K8 remain separate models.
 
 <!-- comparison evidence begins -->

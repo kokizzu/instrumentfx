@@ -25,6 +25,7 @@ HOSTS = {'flammainnovation.com', 'www.flammainnovation.com', 'downloads.eventide
 
 # Exact retailer-hosted manufacturer manual linked by the BG300 distributor.
 REVIEWED_MIRRORS = {
+    'https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf',
     'https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/PD39-Effects-Description.pdf',
     'https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191',
 }
