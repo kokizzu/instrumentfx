@@ -203184,11 +203184,37 @@
             "note": "Underside four-AA battery compartment, not rear connectors."
           }
         ]
+      },
+      "Scorpion::KMF-10": {
+        "model_key": "Scorpion::KMF-10",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://scorpionguitar.com/cdn/shop/files/tumb_pot_kmf10.png?v=1789096910&width=1122",
+            "source_url": "https://scorpionguitar.com/products/scorpion-kmf10-multi-effect-guitar-pedal",
+            "caption": "KMF-10 powered-on overhead",
+            "note": "Visually inspected brand image: illuminated color display and block buttons, four rotaries, two footswitches, nine buttons and built-in expression pedal. Exact model branding visible; image does not identify firmware or resolve preset capacity.",
+            "visual_checked": true,
+            "sha256": "cee8ddd774f66664e8d76e1cc1be6df2ad1e6f5dc2f0f5702949f2f2eac482c0",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://scorpionguitar.com/cdn/shop/files/prod_kmf10_06.jpg?v=1789096902&width=1080",
+            "source_url": "https://scorpionguitar.com/products/scorpion-kmf10-multi-effect-guitar-pedal",
+            "caption": "KMF-10 rear ports",
+            "note": "Visually inspected brand rear angle: AUX IN, INPUT, shared OUTPUT/HEADPHONE, USB-C-shaped connector and DC 9V 500mA center-negative marking. Retain conflict with prior 300mA specification; connector shape alone does not establish USB power/audio/editor support. No dedicated EXP or MIDI socket visible.",
+            "visual_checked": true,
+            "sha256": "8f2b80a06e3bd3d30bd6450898cce340f7e13ee957670bac0ed872090b53683c",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Roland::VT-4"
+    "last_model": "Scorpion::KMF-10"
   }
 }
