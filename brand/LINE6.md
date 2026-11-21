@@ -1084,6 +1084,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::Helix Stadium XL Floor ends -->
 
+<!-- model-images:Line 6::Helix Stadium XL Floor begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Helix Stadium XL Floor powered-on overhead**
+
+[![Helix Stadium XL Floor powered-on overhead](https://shop.sg.yamaha.com/media/catalog/product/h/e/helix_stadium_xl_top_1.png)](https://shop.sg.yamaha.com/media/catalog/product/h/e/helix_stadium_xl_top_1.png)
+
+[Image source](https://shop.sg.yamaha.com/products/helix-stadium-xl-floor.html). Yamaha Singapore exact XL overhead product image shows the color screen, twelve OLED labels, colored switch rings and built-in expression pedal. Illuminated display reads 16B Agoura Road; this does not identify installed firmware.
+
+**Helix Stadium XL Floor rear connections**
+
+[![Helix Stadium XL Floor rear connections](https://static.sonovente.com/img/library/zoom/113/optim/113919_5.jpg)](https://static.sonovente.com/img/library/zoom/113/optim/113919_5.jpg)
+
+[Image source](https://www.sonovente.com/line-6-helix-stadium-xl-p113919.html). Straight rear image shows CONTROL A/B and C/D (not instrument inputs), instrument 1/2, XLR mic, four sends/returns, XLR and jack outputs, phones, Nexus, S/PDIF, MIDI, microSD, USB-A/C, IEC power and switch. Exact XL hardware identified by its I/O and treadle visible at rear left. Manufacturer shop image URL returned 404 and shop page redirected; this working exact-model dealer image is used instead.
+
+</details>
+<!-- model-images:Line 6::Helix Stadium XL Floor ends -->
+
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4** online manual. Distinct from original Helix Floor and smaller Stadium Floor. Guitar, bass and live mic paths documented; partial verification.
 

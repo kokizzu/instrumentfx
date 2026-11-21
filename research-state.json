@@ -201375,11 +201375,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Line 6::Helix Stadium XL Floor": {
+        "model_key": "Line 6::Helix Stadium XL Floor",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.sg.yamaha.com/media/catalog/product/h/e/helix_stadium_xl_top_1.png",
+            "source_url": "https://shop.sg.yamaha.com/products/helix-stadium-xl-floor.html",
+            "caption": "Helix Stadium XL Floor powered-on overhead",
+            "note": "Yamaha Singapore exact XL overhead product image shows the color screen, twelve OLED labels, colored switch rings and built-in expression pedal. Illuminated display reads 16B Agoura Road; this does not identify installed firmware.",
+            "visual_checked": true,
+            "sha256": "5c7f1a8be6f0622b0d687aeacd3af7bb5257bb43d0bb573943b8a2d84c4f28a0",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://static.sonovente.com/img/library/zoom/113/optim/113919_5.jpg",
+            "source_url": "https://www.sonovente.com/line-6-helix-stadium-xl-p113919.html",
+            "caption": "Helix Stadium XL Floor rear connections",
+            "note": "Straight rear image shows CONTROL A/B and C/D (not instrument inputs), instrument 1/2, XLR mic, four sends/returns, XLR and jack outputs, phones, Nexus, S/PDIF, MIDI, microSD, USB-A/C, IEC power and switch. Exact XL hardware identified by its I/O and treadle visible at rear left. Manufacturer shop image URL returned 404 and shop page redirected; this working exact-model dealer image is used instead.",
+            "visual_checked": true,
+            "sha256": "f766e58139c6a0a0e5901cef4482a1c97cdfdfd3b05cc09baff248a2078eede4",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::Mighty Plug Pro MP-3"
+    "last_model": "Line 6::Helix Stadium XL Floor"
   }
 }
