@@ -6989,6 +6989,31 @@ Hold HARMONY≥2seconds to enter sound-selection mode:ON/OFF selects preceding s
 
 ## VE-22
 
+<!-- firmware-pitch:BOSS::VE-22 begins -->
+### Firmware and pitch audit — BOSS VE-22
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-01-18 (manufacturer announcement proxy). Manufacturer announcement; planned January 2024 US retail availability. Exact first shipment unverified. [launch 1](https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-VE-22-Vocal-Performer/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current downloads index lists computer drivers only, not a device system program. Driver 1.0.0 is not firmware. Device version/date and update span unknown; internal revisions not ruled out. [firmware 1](https://www.boss.info/global/support/by_product/ve-22/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Harmony supports two added parts with key-based intervals within ±1 octave, doubling and formant controls. Pitch Correct modes: Soft, Hard, Electric, Robot and Flat; Flat shifts without correction, SHIFT −12…+12 semitones. Input-note polyphony unverified. [pitch 1](https://static.roland.com/assets/media/pdf/VE-22_parameter_eng01_W.pdf) [pitch 2](https://static.roland.com/assets/media/pdf/VE-22_eng01_W.pdf) |
+| Pitch / preset recall | 99 writable user memories U01–U99 plus 50 presets P01–P50; edited settings require MEMORY WRITE. |
+| Pitch / DSP resources | Fixed Harmony, Effect and Echo sections plus Dynamics/EQ. Pitch Correct occupies Effect, excluding other Effect types; harmony remains a separate section. No published CPU percentage or freely allocated pitch-block budget in checked material. |
+| Pitch / qualifications | Two generated harmony parts and stereo outputs do not establish polyphonic input tracking. No restriction borrowed from VE-2. The specified 39 effect types are not 39 simultaneous slots. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS announces VE-22 Vocal Performer](https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-VE-22-Vocal-Performer/) — January 18, 2024 announcement with January US availability planned. (Manufacturer press release web text).
+- [VE-22 updates and drivers](https://www.boss.info/global/support/by_product/ve-22/updates_drivers/) — Windows and macOS drivers 1.0.0; no device system-program entry. (Manufacturer current downloads index web text).
+- [VE-22 Parameter Guide](https://static.roland.com/assets/media/pdf/VE-22_parameter_eng01_W.pdf) — Pages 3–7: two harmony parts, interval/formant controls, correction modes and shifting range; one Effect type selected. (Manufacturer PDF web text).
+- [VE-22 Reference Manual](https://static.roland.com/assets/media/pdf/VE-22_eng01_W.pdf) — Memory writing instructions; page 27 memory/effect specifications; page 28 processing diagram. (Manufacturer PDF web text).
+
+<!-- firmware-pitch:BOSS::VE-22 ends -->
+
 Vocal multi-effects;consolidated/researched2026-10-16;partial verification.
 
 ### VE-22 — preserved original comparison
