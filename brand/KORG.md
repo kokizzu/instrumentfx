@@ -685,6 +685,29 @@ Shopee source check 2026-10-19: results again include the existing AX100G/AX1500
 
 ## AX1000G
 
+<!-- firmware-pitch:Korg::AX1000G begins -->
+### Firmware and pitch audit — Korg AX1000G
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact first hardware release not established in checked manufacturer sources. Manual upload June1,2015 is not launch or firmware date; no precise date inferred from secondary sale listings. [launch 1](https://www.korg.com/us/support/download/product/1/19/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model manufacturer support lists only Owner’s Manual dated June1,2015; no public firmware package or dated device changelog located there. This does not prove no internal/service firmware exists; update span cannot be calculated. [firmware 1](https://www.korg.com/us/support/download/product/1/19/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MODULATION PITCH shifter spans ±2 octaves; PEDAL PITCH BEND provides pedal-controlled shifting. Main shifter/Pitch Bend polyphony unverified. Separate OCTAVE explicitly warns against simultaneous strings and low notes; that restriction is not automatically transferred to PITCH. [pitch 1](https://cdn.korg.com/us/support/download/files/40e17e585904a5bdb8b6906097e7f690.pdf) |
+| Pitch / preset recall | 40 factory presets plus40 rewritable user programs; pitch/effect settings stored in user programs. Hardware recall untested. |
+| Pitch / DSP resources | PEDAL PITCH BEND automatically disables MODULATION, documenting a mutual-exclusion cost. General maximum eight simultaneous effect types does not override that restriction. No CPU percentage or measured pitch resource budget located. |
+| Pitch / qualifications | No device, tracking, latency or CPU test. OCTAVE warning is algorithm-specific; detune/fine controls do not establish chord handling. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Korg AX1000G support downloads](https://www.korg.com/us/support/download/product/1/19/) — Sold-out AX1000G; only Owner’s Manual download dated2015-06-01, not firmware. (Manufacturer exact-model page read).
+- [AX1000G Owner’s Manual](https://cdn.korg.com/us/support/download/files/40e17e585904a5bdb8b6906097e7f690.pdf) — PITCH ±2octaves; PITCH BEND disables MODULATION; OCTAVE multiple-string warning;40preset+40user programs. (Manufacturer original PDF text read, pp3,19,21).
+
+<!-- firmware-pitch:Korg::AX1000G ends -->
+
 Guitar multi-effects;distinct fromAX1500G/AX100G. Checked2026-10-17;partial. Korg discontinued. Bass/vocal suitability and ownership unverified.
 
 | Field | Finding / qualification | Evidence |
