@@ -4177,6 +4177,32 @@ Repeated types andnine reported positions do not guarantee every arbitrary combi
 
 ## Prime P1
 
+<!-- firmware-pitch:MOOER::Prime P1 begins -->
+### Firmware and pitch audit — MOOER Prime P1
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022-01-21 (manufacturer tutorial proxy). Official MOOER channel basic-use tutorial dated January 21, 2022 establishes public presentation by that date. Not verified first announcement/shipment; March 2022 press coverage is later. [launch 1](https://www.bilibili.com/video/BV1eq4y1k7ak/) |
+| Firmware / latest verification | 1.3 acoustic firmware (historical tutorial label) — Located; latest status unverified. Official tutorial collection names P1 V1.3 acoustic firmware; exact payload version, release date and current latest status unresolved. Chinese P1 product explicitly documents V1.2 bass firmware, an older separate library. Current Prime APK supports P1, but Studio and September 2026 NAM/stem additions target other named models; do not transfer them or app version 4.0.0 to P1 firmware. No elapsed span calculated. [firmware 1](https://www.bilibili.com/video/BV1eq4y1k7ak/) [firmware 2](https://cn.mooeraudio.com/product/33.html) [firmware 3](https://www.mooeraudio.com/Downloads_xq/2.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manufacturer-authored guitar-library appendix lists MOD Pitch Shift. Polyphonic/monophonic handling, interval range, wet-only capability and bass/acoustic firmware equivalence remain unverified. [pitch 1](https://manuals.plus/m/74886333f5e36da9aaac03cf0f48cb0ed9079e08ef0dd6aececf97a5419f50d1_optim.pdf) [pitch 2](https://images.static-thomann.de/pics/atg/atgdata/document/manual/540480_me_p1_manual_en.pdf) [pitch 3](https://cn.mooeraudio.com/product/33.html) |
+| Pitch / preset recall | Four hardware-accessible A/B/C/D tones; CONTROL press cycles them. App editing/cloud support does not establish extra onboard bank capacity or independent pitch recall behavior. |
+| Pitch / DSP resources | Appendix separates seven guitar effect categories. This is not a simultaneous ceiling or CPU percentage. Isolated Pitch Shift DSP allocation, repeated-block limits and current bass/acoustic chain constraints remain unverified. |
+| Pitch / qualifications | Appendix extraction has consistent shifted glyphs (Pitch Shift appears as 1JUDI 4IJGU-style text); entry identity was read with that limitation. No independent audio, latency or CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER official P1 basic-use tutorial and Prime tutorial collection](https://www.bilibili.com/video/BV1eq4y1k7ak/) — Early P1 public-use presentation; later P1 V1.3 acoustic firmware title is undated in collection. (Manufacturer channel identity and January 21, 2022 timestamp read; collection titles checked).
+- [Chinese manufacturer P1 product](https://cn.mooeraudio.com/product/33.html) — V1.2 bass firmware and split-frequency dual chains; not a current release date. (Exact P1 body read).
+- [Prime support scope](https://www.mooeraudio.com/Downloads_xq/2.html) — P1 APK support; desktop and new feature scope exclude P1 from those specific named claims. (Current supported-model lists and September 2026 named additions checked).
+- [Manufacturer-authored P1 manual with Tone appendix](https://manuals.plus/m/74886333f5e36da9aaac03cf0f48cb0ed9079e08ef0dd6aececf97a5419f50d1_optim.pdf) — MOD Pitch Shift changes pitch; no explicit polyphony or CPU cost. (20-page PDF text; exact P1 imprint/layout and MOD row checked with shifted-glyph limitation).
+- [P1 manual V01.2022.01.19](https://images.static-thomann.de/pics/atg/atgdata/document/manual/540480_me_p1_manual_en.pdf) — A/B/C/D cycling and model-specific connectors; manual date is not a firmware release. (Original manufacturer PDF text, exact P1 title and CONTROL instructions).
+
+<!-- firmware-pitch:MOOER::Prime P1 ends -->
+
 Guitar/bass multi-effects;partial,checked2026-10-18. Distinct fromP2/M1. [Own manufacturer page](https://www.mooeraudio.com/products/180.html).
 
 <!-- comparison evidence begins -->

@@ -195041,6 +195041,80 @@
           "label": "0.46 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::Prime P1": {
+        "model_key": "MOOER::Prime P1",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2022-01-21",
+          "precision": "day",
+          "kind": "manufacturer_tutorial_proxy",
+          "source_urls": [
+            "https://www.bilibili.com/video/BV1eq4y1k7ak/"
+          ],
+          "note": "Official MOOER channel basic-use tutorial dated January 21, 2022 establishes public presentation by that date. Not verified first announcement/shipment; March 2022 press coverage is later."
+        },
+        "firmware": {
+          "version": "1.3 acoustic firmware (historical tutorial label)",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.bilibili.com/video/BV1eq4y1k7ak/",
+            "https://cn.mooeraudio.com/product/33.html",
+            "https://www.mooeraudio.com/Downloads_xq/2.html"
+          ],
+          "note": "Official tutorial collection names P1 V1.3 acoustic firmware; exact payload version, release date and current latest status unresolved. Chinese P1 product explicitly documents V1.2 bass firmware, an older separate library. Current Prime APK supports P1, but Studio and September 2026 NAM/stem additions target other named models; do not transfer them or app version 4.0.0 to P1 firmware. No elapsed span calculated."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manufacturer-authored guitar-library appendix lists MOD Pitch Shift. Polyphonic/monophonic handling, interval range, wet-only capability and bass/acoustic firmware equivalence remain unverified.",
+          "preset": "Four hardware-accessible A/B/C/D tones; CONTROL press cycles them. App editing/cloud support does not establish extra onboard bank capacity or independent pitch recall behavior.",
+          "dsp": "Appendix separates seven guitar effect categories. This is not a simultaneous ceiling or CPU percentage. Isolated Pitch Shift DSP allocation, repeated-block limits and current bass/acoustic chain constraints remain unverified.",
+          "source_urls": [
+            "https://manuals.plus/m/74886333f5e36da9aaac03cf0f48cb0ed9079e08ef0dd6aececf97a5419f50d1_optim.pdf",
+            "https://images.static-thomann.de/pics/atg/atgdata/document/manual/540480_me_p1_manual_en.pdf",
+            "https://cn.mooeraudio.com/product/33.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Appendix extraction has consistent shifted glyphs (Pitch Shift appears as 1JUDI 4IJGU-style text); entry identity was read with that limitation. No independent audio, latency or CPU measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.bilibili.com/video/BV1eq4y1k7ak/",
+            "title": "MOOER official P1 basic-use tutorial and Prime tutorial collection",
+            "access": "Manufacturer channel identity and January 21, 2022 timestamp read; collection titles checked",
+            "evidence": "Early P1 public-use presentation; later P1 V1.3 acoustic firmware title is undated in collection."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/product/33.html",
+            "title": "Chinese manufacturer P1 product",
+            "access": "Exact P1 body read",
+            "evidence": "V1.2 bass firmware and split-frequency dual chains; not a current release date."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/2.html",
+            "title": "Prime support scope",
+            "access": "Current supported-model lists and September 2026 named additions checked",
+            "evidence": "P1 APK support; desktop and new feature scope exclude P1 from those specific named claims."
+          },
+          {
+            "url": "https://manuals.plus/m/74886333f5e36da9aaac03cf0f48cb0ed9079e08ef0dd6aececf97a5419f50d1_optim.pdf",
+            "title": "Manufacturer-authored P1 manual with Tone appendix",
+            "access": "20-page PDF text; exact P1 imprint/layout and MOD row checked with shifted-glyph limitation",
+            "evidence": "MOD Pitch Shift changes pitch; no explicit polyphony or CPU cost."
+          },
+          {
+            "url": "https://images.static-thomann.de/pics/atg/atgdata/document/manual/540480_me_p1_manual_en.pdf",
+            "title": "P1 manual V01.2022.01.19",
+            "access": "Original manufacturer PDF text, exact P1 title and CONTROL instructions",
+            "evidence": "A/B/C/D cycling and model-specific connectors; manual date is not a firmware release."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -195071,7 +195145,6 @@
       "MOD Audio::Duo",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
-      "MOOER::Prime P1",
       "Mosky::DC5",
       "Mosky::RC5",
       "Mosky::RD5",
@@ -195242,9 +195315,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 206,
-    "last_model": "MOOER::Prime S1",
-    "last_commit_parent": "3790125ab46ba04b31414628df3115d545c81f29",
+    "completed_model_count": 207,
+    "last_model": "MOOER::Prime P1",
+    "last_commit_parent": "03675cdb903000d5f4db069a837246b155fbe109",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -195274,7 +195347,6 @@
       "MOD Audio::Duo",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
-      "MOOER::Prime P1",
       "Mosky::DC5",
       "Mosky::RC5",
       "Mosky::RD5",
@@ -195444,7 +195516,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 206,
+    "pitch_completed_model_count": 207,
     "supplemental_model_count": 0
   },
   "model_images": {
