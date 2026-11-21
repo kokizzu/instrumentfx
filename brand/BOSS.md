@@ -6039,6 +6039,31 @@ Earlierfirmware/software,serial-dependentconverterrevision andhistoricalIDRquali
 
 ## SE-50
 
+<!-- firmware-pitch:BOSS::SE-50 begins -->
+### Firmware and pitch audit — BOSS SE-50
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1990 (manufacturer release year). Release year for SE-50 specifically; SE-50A is separately listed as 1991. Manufacturing completion 1996 is not firmware history. [launch 1](https://www.roland.com/jp/support/service_repair/1708080000/) |
+| Firmware / latest verification | Not verified — No public firmware located. No SE-50 entry in checked legacy N–S downloads; manufacturer system-program search found no public release. Model support URL inaccessible. ROM version/date and release-to-update duration remain unknown; internal or service-only revisions are not ruled out. [firmware 1](https://www.roland.com/jp/support/archives/archive_downloads_n-s/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Original manual lists Multi Pitch Shifter and Stereo Pitch Shifter algorithms. Stereo pitch has independent L/R ±12-semitone shifts, fine adjustment, pre-delay, feedback and stereo link. Input-note polyphony is not established by checked passages. [pitch 1](https://fr.scribd.com/document/644989539/Boss-SE-50-fr) [pitch 2](https://support.roland.com/hc/en-us/articles/201938609-SE-50-Writing-a-Patch-into-Memory) |
+| Pitch / preset recall | 100 writable programs (1–100) plus 28 protected presets (101–128). Edited presets must be saved to user locations; WRITE overwrites the destination. |
+| Pitch / DSP resources | Algorithm-based combinations rather than freely assigned contemporary FX slots. The manual describes 28 algorithms; this is not 28 simultaneous effects. No pitch DSP percentage or numerical allocation table found; complete pitch-chain concurrency remains unverified. |
+| Pitch / qualifications | Stereo channels and multiple generated pitches do not prove polyphonic input tracking. No SE-70 algorithm or firmware assumptions transferred. MIDI patch/system data transfer is not proof of firmware updating. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland model release and repair-duration table](https://www.roland.com/jp/support/service_repair/1708080000/) — SE-50 1990 release/1996 manufacturing end; SE-50A listed separately. (Manufacturer indexed table text).
+- [Roland legacy downloads N–S](https://www.roland.com/jp/support/archives/archive_downloads_n-s/) — No SE-50 public system-program entry found. (Manufacturer web text).
+- [BOSS SE-50 French Owner Manual](https://fr.scribd.com/document/644989539/Boss-SE-50-fr) — 28 algorithms, Multi/Stereo Pitch Shifter listings and stereo-pitch L/R parameters. OCR limitations retained; no explicit note-polyphony claim located. (Manufacturer-authored manual mirrored on Scribd; OCR text, no new visual inspection).
+- [SE-50 Writing a Patch into Memory](https://support.roland.com/hc/en-us/articles/201938609-SE-50-Writing-a-Patch-into-Memory) — Write destinations 1–100; 101–128 protected ROM presets. (Manufacturer indexed support article text).
+
+<!-- firmware-pitch:BOSS::SE-50 ends -->
+
 Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. Manufacturer documents guitar effects and vocal-specific processing. Bass support is documented in the French own-manual follow-up below;exact offered revision andownership remainunresolved.
 
 | Required field | Verified evidence / unresolved detail |

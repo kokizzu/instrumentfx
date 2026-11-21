@@ -184285,10 +184285,74 @@
           "label": "2.12–2.20 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::SE-50": {
+        "model_key": "BOSS::SE-50",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "1990",
+          "precision": "year",
+          "kind": "manufacturer_release_year",
+          "source_urls": [
+            "https://www.roland.com/jp/support/service_repair/1708080000/"
+          ],
+          "note": "Release year for SE-50 specifically; SE-50A is separately listed as 1991. Manufacturing completion 1996 is not firmware history."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.roland.com/jp/support/archives/archive_downloads_n-s/"
+          ],
+          "note": "No SE-50 entry in checked legacy N–S downloads; manufacturer system-program search found no public release. Model support URL inaccessible. ROM version/date and release-to-update duration remain unknown; internal or service-only revisions are not ruled out."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Original manual lists Multi Pitch Shifter and Stereo Pitch Shifter algorithms. Stereo pitch has independent L/R ±12-semitone shifts, fine adjustment, pre-delay, feedback and stereo link. Input-note polyphony is not established by checked passages.",
+          "preset": "100 writable programs (1–100) plus 28 protected presets (101–128). Edited presets must be saved to user locations; WRITE overwrites the destination.",
+          "dsp": "Algorithm-based combinations rather than freely assigned contemporary FX slots. The manual describes 28 algorithms; this is not 28 simultaneous effects. No pitch DSP percentage or numerical allocation table found; complete pitch-chain concurrency remains unverified.",
+          "measurements": [],
+          "source_urls": [
+            "https://fr.scribd.com/document/644989539/Boss-SE-50-fr",
+            "https://support.roland.com/hc/en-us/articles/201938609-SE-50-Writing-a-Patch-into-Memory"
+          ],
+          "notes": [
+            "Stereo channels and multiple generated pitches do not prove polyphonic input tracking. No SE-70 algorithm or firmware assumptions transferred. MIDI patch/system data transfer is not proof of firmware updating."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/jp/support/service_repair/1708080000/",
+            "title": "Roland model release and repair-duration table",
+            "access": "Manufacturer indexed table text",
+            "evidence": "SE-50 1990 release/1996 manufacturing end; SE-50A listed separately."
+          },
+          {
+            "url": "https://www.roland.com/jp/support/archives/archive_downloads_n-s/",
+            "title": "Roland legacy downloads N–S",
+            "access": "Manufacturer web text",
+            "evidence": "No SE-50 public system-program entry found."
+          },
+          {
+            "url": "https://fr.scribd.com/document/644989539/Boss-SE-50-fr",
+            "title": "BOSS SE-50 French Owner Manual",
+            "access": "Manufacturer-authored manual mirrored on Scribd; OCR text, no new visual inspection",
+            "evidence": "28 algorithms, Multi/Stereo Pitch Shifter listings and stereo-pitch L/R parameters. OCR limitations retained; no explicit note-polyphony claim located."
+          },
+          {
+            "url": "https://support.roland.com/hc/en-us/articles/201938609-SE-50-Writing-a-Patch-into-Memory",
+            "title": "SE-50 Writing a Patch into Memory",
+            "access": "Manufacturer indexed support article text",
+            "evidence": "Write destinations 1–100; 101–128 protected ROM presets."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::SE-50",
       "BOSS::VE-1",
       "BOSS::VE-2",
       "BOSS::VE-20",
@@ -184628,12 +184692,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 64,
-    "last_model": "BOSS::Pocket GT",
-    "last_commit_parent": "de2b43d8469813e1fd8becca3284a782ef71a622",
+    "completed_model_count": 65,
+    "last_model": "BOSS::SE-50",
+    "last_commit_parent": "0c23a08ef4771125736d822bf18d721c1cbe4083",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::SE-50",
       "BOSS::VE-1",
       "BOSS::VE-2",
       "BOSS::VE-20",
@@ -184972,7 +185035,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 64,
+    "pitch_completed_model_count": 65,
     "supplemental_model_count": 0
   }
 }
