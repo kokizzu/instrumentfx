@@ -847,6 +847,32 @@ Queries for Shopee Indonesia **NUX MG-30 MKII**, **MG30 MK2** and **MG30 MKII** 
 
 ## MG-50Li
 
+<!-- firmware-pitch:NUX::MG-50Li begins -->
+### Firmware and pitch audit — NUX MG-50Li
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact first retail release unresolved. NAMM presentationJanuary24,2026 and NUX introduction videoApril17,2026 are distinct events; ARAI already dates firmware1.0.6 toApril3. Music China2025 is an earlier preview lead. Do not substitute the later launch video for first availability or calculate a falsely precise support span. [launch 1](https://www.youtube.com/watch?v=bjmmr2UGAnM) [launch 2](https://www.premierguitar.com/videos/namm/nux-mg-50li-modeler-profiler-and-more-namm-2026) [launch 3](https://www.ariaguitars.com/jp/mg50li-fw.html) |
+| Firmware / latest verification | 1.1.1 (English hardware) — Latest verified. Current manufacturer firmware1.1.1 for macOS/Windows dated July31,2026; ARAI corroborates. English-only package warning preserved. NUX Audio1.1.7.1 and IMAGE1.1.0.1 are separate applications. Update fixes swapped Harmonist Major/Minor positions, adds native NAM A2-Lite and control/routing improvements. [firmware 1](https://nuxaudio.com/product/mg50li/) [firmware 2](https://www.ariaguitars.com/jp/mg50li-fw.html) |
+| Firmware / release date | 2026-07-31 (day precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD Harmonist and Detune; WAH Octave-Shift; RVB Shimmer in exact-model USA list. Firmware1.1.1 fixes Harmonist Major/Minor positions. Neither effect names nor that fix establish polyphonic chord-safe input or numeric transposition ranges. [pitch 1](https://nuxaudio.com/product/mg50li/) [pitch 2](https://www.nux.us/products/mg-50li) [pitch 3](https://www.ariaguitars.com/jp/mg50li-fw.html) |
+| Pitch / preset recall | 297 total published slots; global96factory+201user versus USA150factory+147user remains unresolved. Presets/scenes recall configuration. Firmware adds six factory sounds in Banks41/42, not proof of six additional storage locations. |
+| Pitch / DSP resources | Up to14 simultaneous blocks with serial/parallel/split routing. Three DSPs assigned to effects, amp modeling and split-amp simulation. Category selection locates pitch effects in MOD/WAH/RVB; no isolated pitch percentage or measured algorithm CPU cost. Do not derive a pitch budget from processor count. |
+| Pitch / qualifications | Published factory/user and library conflicts remain qualified; no hardware, firmware, audio or tracking test performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX — Tone Alchemy, Introducing the MG-50Li](https://www.youtube.com/watch?v=bjmmr2UGAnM) — Published April17,2026; commercial introduction with distributor-dependent availability, not first shipping proof. (Manufacturer YouTube indexed date/description checked2026-11-22).
+- [Premier Guitar — MG-50Li at NAMM2026](https://www.premierguitar.com/videos/namm/nux-mg-50li-modeler-profiler-and-more-namm-2026) — Earlier trade-show demonstration predates April launch video; no first-retail date adopted from it. (Contemporaneous manufacturer booth presentation page January24,2026; checked2026-11-22).
+- [NUX MG-50Li global product and firmware1.1.1](https://nuxaudio.com/product/mg50li/) — Firmware1.1.1 July31,2026 and Harmonist correction; three DSP roles,14blocks,297slot global split, six new sounds; apps separate. (Manufacturer page checked2026-11-22).
+- [NUX USA exact MG-50Li product](https://www.nux.us/products/mg-50li) — Names Harmonist/Detune/Octave-Shift/Shimmer; supports repeated effect types. USA factory/user split differs from global; no pitch polyphony or CPU percentage. (Official regional page checked2026-11-22).
+- [ARAI — MG-50Li firmware release notes](https://www.ariaguitars.com/jp/mg50li-fw.html) — Firmware1.1.1 July31,2026; earlier1.0.8 April30 and1.0.6 April3 establish chronology before the April17 introduction video. Generic module/control fixes and routing changes corroborate global notes; Harmonist-specific wording comes from global manufacturer. (Japanese distributor exact-model notes checked2026-11-22).
+
+<!-- firmware-pitch:NUX::MG-50Li ends -->
+
 <!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Global product](https://nuxaudio.com/product/mg50li/); [US product](https://www.nux.us/products/mg-50li); [native NAM](https://www.nux.us/pages/nam-a2-native).
 
