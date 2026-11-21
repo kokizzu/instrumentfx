@@ -198759,11 +198759,42 @@
             "sha256": "9d9e398877f8df19be90e1b0eab06b06a6d1fc34f0cff1c7936317f7c9270e80"
           }
         }
+      },
+      "MOOER::Prime P1": {
+        "model_key": "MOOER::Prime P1",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/products/P1-BK-01.jpg?v=1663834044&width=1445",
+            "source_url": "https://mooer.jp/products/mooerprimep1",
+            "caption": "MOOER Prime P1 top view",
+            "note": "Visually inspected exact black P1 overhead. Powered-on status is not established: the multicoloured control ring alone is insufficient evidence of active illumination. A clearly powered-on overhead photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": true,
+            "sha256": "5371322b247dcf028a41a999fce6a154651e75599b7b0e05d63d91f4eddf1a5d"
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/products/P1-BK-06.jpg?v=1663834044&width=1445",
+            "source_url": "https://mooer.jp/products/mooerprimep1",
+            "caption": "MOOER Prime P1 connector view",
+            "note": "Visually inspected angled view showing both quarter-inch audio sockets, central phones socket and side USB-C/charge indicator. Also checked the [straight audio-end photograph](https://mooer.jp/cdn/shop/products/P1-BK-05.jpg?v=1663834044&width=1445). Socket roles follow the exact P1 manual; no dedicated MIDI, external EXP, effects-loop or barrel-power connector shown.",
+            "visual_checked": true,
+            "sha256": "d362bd8851ab6117f509d3b9290c11ee77190dca67df1c51543f82eb4684acba",
+            "additional_inspected_images": [
+              {
+                "image_url": "https://mooer.jp/cdn/shop/products/P1-BK-05.jpg?v=1663834044&width=1445",
+                "sha256": "90904e1a00861fe178856ecda5a5ad9f71056ea0109b687363a1bced50211c43",
+                "visual_checked": true
+              }
+            ]
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::Prime S1"
+    "last_model": "MOOER::Prime P1"
   }
 }

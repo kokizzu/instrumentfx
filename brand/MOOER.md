@@ -4203,6 +4203,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::Prime P1 ends -->
 
+<!-- model-images:MOOER::Prime P1 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER Prime P1 top view**
+
+[![MOOER Prime P1 top view](https://mooer.jp/cdn/shop/products/P1-BK-01.jpg?v=1663834044&width=1445)](https://mooer.jp/cdn/shop/products/P1-BK-01.jpg?v=1663834044&width=1445)
+
+[Image source](https://mooer.jp/products/mooerprimep1). Visually inspected exact black P1 overhead. Powered-on status is not established: the multicoloured control ring alone is insufficient evidence of active illumination. A clearly powered-on overhead photograph remains pending.
+
+**MOOER Prime P1 connector view**
+
+[![MOOER Prime P1 connector view](https://mooer.jp/cdn/shop/products/P1-BK-06.jpg?v=1663834044&width=1445)](https://mooer.jp/cdn/shop/products/P1-BK-06.jpg?v=1663834044&width=1445)
+
+[Image source](https://mooer.jp/products/mooerprimep1). Visually inspected angled view showing both quarter-inch audio sockets, central phones socket and side USB-C/charge indicator. Also checked the [straight audio-end photograph](https://mooer.jp/cdn/shop/products/P1-BK-05.jpg?v=1663834044&width=1445). Socket roles follow the exact P1 manual; no dedicated MIDI, external EXP, effects-loop or barrel-power connector shown.
+
+</details>
+<!-- model-images:MOOER::Prime P1 ends -->
+
+
 Guitar/bass multi-effects;partial,checked2026-10-18. Distinct fromP2/M1. [Own manufacturer page](https://www.mooeraudio.com/products/180.html).
 
 <!-- comparison evidence begins -->
