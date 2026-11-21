@@ -185395,10 +185395,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::RP200": {
+        "model_key": "DigiTech::RP200",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2000-12-26",
+          "precision": "day",
+          "kind": "contemporaneous_retail_introduction_proxy",
+          "source_urls": [
+            "https://www.sweetwater.com/insync/digitech-rp200/"
+          ],
+          "note": "Contemporaneous Sweetwater report calls RP200 new; available-by/introduction proxy, not exact first shipment. October 2000 compliance date and November printing are separate."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://digitech.com/software-downloads/",
+            "https://digitech.com/product-manuals/"
+          ],
+          "note": "Current manufacturer software/manual indexes and exact-model search yielded no RP200 public device firmware version/date. No internal-revision absence inferred. Search results for a modern USB-C RP200 concern another device and are excluded; update span unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift −12…+24 semitones; Detune amount −12…+12, unit unspecified; Whammy bends including ±1/±2 octaves and Dive Bomb, plus dry-added harmony bends. No intelligent key/scale harmonizer listed; input-note polyphony unverified.",
+          "preset": "40 writable user plus 40 factory presets; user bank initially duplicates factory sounds.",
+          "dsp": "Pitch Shift, Detune and Whammy share the single Effects module and exclude other effects in that row. Up to twelve simultaneous effects does not establish twelve pitch instances. No algorithm-specific CPU percentage published in checked manual.",
+          "measurements": [],
+          "source_urls": [
+            "https://media.zzounds.com/media/RP200Manual-d239d252d141496e53cadcc26b39fcb2.pdf"
+          ],
+          "notes": [
+            "Do not turn the Detune control range into cents without stated units. RP200A and modern similarly named devices are separate; standalone Whammy chord modes not transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sweetwater.com/insync/digitech-rp200/",
+            "title": "Contemporaneous DigiTech RP200 introduction report",
+            "access": "Sweetwater original December 26, 2000 product report",
+            "evidence": "Describes new RP200; not exact first-shipment evidence."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer current downloads index web text",
+            "evidence": "No RP200-specific public device firmware located."
+          },
+          {
+            "url": "https://digitech.com/product-manuals/",
+            "title": "DigiTech product manuals",
+            "access": "Manufacturer current manuals index web text",
+            "evidence": "RP200 manual listed, not a firmware release record."
+          },
+          {
+            "url": "https://media.zzounds.com/media/RP200Manual-d239d252d141496e53cadcc26b39fcb2.pdf",
+            "title": "DigiTech RP200 User Guide",
+            "access": "Manufacturer-authored 40-page PDF hosted by zZounds; original official CDN URL inaccessible",
+            "evidence": "Printed pp20–25 shared Effects selection and pitch ranges; pp9/31 memories. Detune units unspecified, no explicit input-polyphony guarantee."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::RP200",
       "DigiTech::RP250",
       "DigiTech::RP255",
       "DigiTech::RP350",
@@ -185721,12 +185785,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 81,
-    "last_model": "DigiTech::RP155",
-    "last_commit_parent": "8b62c6aeac221fcf8e3a1d8479cd406d0f22d846",
+    "completed_model_count": 82,
+    "last_model": "DigiTech::RP200",
+    "last_commit_parent": "ee0f0b3425703e38966c99260e336025d26a5628",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::RP200",
       "DigiTech::RP250",
       "DigiTech::RP255",
       "DigiTech::RP350",
@@ -186048,7 +186111,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 81,
+    "pitch_completed_model_count": 82,
     "supplemental_model_count": 0
   }
 }

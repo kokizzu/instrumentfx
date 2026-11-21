@@ -958,6 +958,31 @@ Master Level (knob4) controls overall volume across presets. Effects Level (knob
 
 ## RP200
 
+<!-- firmware-pitch:DigiTech::RP200 begins -->
+### Firmware and pitch audit — DigiTech RP200
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2000-12-26 (contemporaneous retail introduction proxy). Contemporaneous Sweetwater report calls RP200 new; available-by/introduction proxy, not exact first shipment. October 2000 compliance date and November printing are separate. [launch 1](https://www.sweetwater.com/insync/digitech-rp200/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current manufacturer software/manual indexes and exact-model search yielded no RP200 public device firmware version/date. No internal-revision absence inferred. Search results for a modern USB-C RP200 concern another device and are excluded; update span unknown. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://digitech.com/product-manuals/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift −12…+24 semitones; Detune amount −12…+12, unit unspecified; Whammy bends including ±1/±2 octaves and Dive Bomb, plus dry-added harmony bends. No intelligent key/scale harmonizer listed; input-note polyphony unverified. [pitch 1](https://media.zzounds.com/media/RP200Manual-d239d252d141496e53cadcc26b39fcb2.pdf) |
+| Pitch / preset recall | 40 writable user plus 40 factory presets; user bank initially duplicates factory sounds. |
+| Pitch / DSP resources | Pitch Shift, Detune and Whammy share the single Effects module and exclude other effects in that row. Up to twelve simultaneous effects does not establish twelve pitch instances. No algorithm-specific CPU percentage published in checked manual. |
+| Pitch / qualifications | Do not turn the Detune control range into cents without stated units. RP200A and modern similarly named devices are separate; standalone Whammy chord modes not transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Contemporaneous DigiTech RP200 introduction report](https://www.sweetwater.com/insync/digitech-rp200/) — Describes new RP200; not exact first-shipment evidence. (Sweetwater original December 26, 2000 product report).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — No RP200-specific public device firmware located. (Manufacturer current downloads index web text).
+- [DigiTech product manuals](https://digitech.com/product-manuals/) — RP200 manual listed, not a firmware release record. (Manufacturer current manuals index web text).
+- [DigiTech RP200 User Guide](https://media.zzounds.com/media/RP200Manual-d239d252d141496e53cadcc26b39fcb2.pdf) — Printed pp20–25 shared Effects selection and pitch ranges; pp9/31 memories. Detune units unspecified, no explicit input-polyphony guarantee. (Manufacturer-authored 40-page PDF hosted by zZounds; original official CDN URL inaccessible).
+
+<!-- firmware-pitch:DigiTech::RP200 ends -->
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified. Distinct from RP200A.
 
 <!-- comparison evidence begins -->
