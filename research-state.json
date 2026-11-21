@@ -189803,11 +189803,35 @@
             "sha256": "12de495a748c14252eff88c6341041ec8e30aa9756069fb00ddf26a6dd5d0ad9"
           }
         }
+      },
+      "HeadRush::Gigboard": {
+        "model_key": "HeadRush::Gigboard",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.headrushfx.com/assets/images/pdp/gigboard/gigboard-front-0321b.png",
+            "source_url": "https://www.headrushfx.com/products/gigboard/index.html",
+            "caption": "HeadRush Gigboard powered-on top-down product view",
+            "note": "Manufacturer view from above, with active WARM AND FUZZY rig and four illuminated footswitch bars. Detune and Octaves Up appear in the pictured multi-effect chain; this is not an isolated DSP measurement. Two knobs and four switches visible; no built-in expression treadle. Product screen imagery may be composited.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "cf6ec3f73770dbc861be864eec68e6c45af55815bf94b16517a500620fe9ae54"
+          },
+          "rear": {
+            "image_url": "https://www.headrushfx.com/assets/images/pdp/gigboard/Headrush-img-GigboardRear.png",
+            "source_url": "https://www.headrushfx.com/products/gigboard/index.html",
+            "caption": "HeadRush Gigboard rear connections",
+            "note": "Clear exact-model rear view labels INPUT, AUX IN, EXPR and separate TOE, L(MONO)/R outputs, EXT AMP, PHONES, FX SEND/RETURN, DIN MIDI IN/OUT-THRU, USB-B, DC IN and POWER. Label specifies 19V 3.42A center-positive barrel input; there is no IEC mains socket. This visually confirms the manual power specification and identifies its IEC connector-list entry as an error. Supply rating is not measured draw.",
+            "visual_checked": true,
+            "sha256": "a029fb2e296860d7f0fa22014ee32b8af842d943da4f8525601974636eca3f67"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "HeadRush::Prime"
+    "last_model": "HeadRush::Gigboard"
   }
 }
