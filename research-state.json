@@ -191689,6 +191689,58 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Korg::AX100G": {
+        "model_key": "Korg::AX100G",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/20/"
+          ],
+          "note": "Exact first hardware release not established by checked manufacturer sources. The2015 manual upload is not a launch date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/20/"
+          ],
+          "note": "Exact AX100G support page lists only Owner’s Manual dated June1,2015; no public firmware package or device changelog located there. Does not prove service/internal firmware never existed. Update span uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Basic MOD PITCH spans ±24 semitones with fine adjustment; its polyphony is unverified. Intelligent harmony explicitly accepts single notes, not chords, with major/minor thirds, fourth, fifth and major-sixth options. PEDAL PITCH is also listed; no blanket polyphony claim.",
+          "preset": "40 protected factory programs and40 editable user programs; pitch configuration can be stored in user programs. Hardware recall untested.",
+          "dsp": "Intelligent harmony cannot coexist with PEDAL effects except VOLUME or with ROOM1–ARENA ambience; those effects are automatically disabled. This is a documented algorithm-specific resource restriction, not a CPU percentage. No measured pitch CPU cost located.",
+          "source_urls": [
+            "https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX100G_EFGJ_2.pdf&response-content-type=application%2Fpdf%3B"
+          ],
+          "measurements": [],
+          "notes": [
+            "No audio tracking, latency or hardware test. Intelligent harmony’s monophonic restriction is not automatically assigned to basic PITCH."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.korg.com/us/support/download/product/1/20/",
+            "title": "Korg AX100G downloads",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "Only Owner’s Manual dated2015-06-01; no public firmware listed."
+          },
+          {
+            "url": "https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX100G_EFGJ_2.pdf&response-content-type=application%2Fpdf%3B",
+            "title": "AX100G Owner’s Manual, multilingual",
+            "access": "Manufacturer indexed original PDF text read",
+            "evidence": "Basic PITCH ±2octaves; intelligent harmony single-note restriction and PEDAL/ambience exclusions;80 programs split40preset/40user."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -191698,7 +191750,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::AX100G",
       "Korg::AX10B",
       "Korg::AX10G",
       "Korg::AX1500G",
@@ -191932,9 +191983,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 164,
-    "last_model": "Korg::AX1000G",
-    "last_commit_parent": "c07b9505962efa070221c28ef3e5b33058974c23",
+    "completed_model_count": 165,
+    "last_model": "Korg::AX100G",
+    "last_commit_parent": "5fbf31928ef81429b21f22f040a70899a7f8eced",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -191943,7 +191994,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::AX100G",
       "Korg::AX10B",
       "Korg::AX10G",
       "Korg::AX1500G",
@@ -192176,7 +192226,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 164,
+    "pitch_completed_model_count": 165,
     "supplemental_model_count": 0
   },
   "model_images": {
