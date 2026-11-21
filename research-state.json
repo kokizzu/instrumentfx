@@ -203777,11 +203777,57 @@
             "note": "Low front/top angle, not connector panel."
           }
         ]
+      },
+      "Sonicake::Sonic Wood QCE-50": {
+        "model_key": "Sonicake::Sonic Wood QCE-50",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/sonic-wood/gallery/20260915-100138-7uvcm5-sonic-wood_front_hi_v02_250307.webp",
+            "source_url": "https://www.hotone.jp/brands/sonicake/products/sonic-wood",
+            "caption": "Sonic Wood powered overhead",
+            "note": "Visually inspected distributor overhead image with ten illuminated rotary knobs and four footswitches; no screen, expression treadle or separate panel buttons. Exact Sonicbar Sonic Wood branding; marketing image does not establish firmware.",
+            "visual_checked": true,
+            "sha256": "f70af66e0ff62e65e70ae940998c0fb5e192650bbc4d9e94f2a1a09391dc232e",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Sonic_Wood-User_Manual_JP.png",
+            "source_url": "https://www.hotone.jp/brands/sonicake/products/sonic-wood",
+            "caption": "Sonic Wood official connector diagram (photo gap)",
+            "note": "Official Japanese manual image inspected: labelled IN,OUT,DC9V on long connector edge andXLR OUT at short side, with arrows explaining instrument input, amp/pedal output,power andbalanced audio output. This is a diagram fallback,not a rear photograph; clear rear/side connector photos remain unresolved. Diagram supports PREAMP→CHORUS→DELAY→REVERB order andfour physical effect switches.",
+            "visual_checked": true,
+            "sha256": "9d1853163f05f08655963a9f7f455f7d936991a332d9b38fb967d3a728f8c9e5",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/sonic-wood/gallery/20260915-100159-ahth46-sonic-wood_perspective_hi_v03_250307.webp",
+            "sha256": "3cac49c33c3cb06cac7f8ab710af5cc14425f4c2b9c86694ac62c6e6df0c0cad",
+            "visual_checked": true,
+            "note": "Powered front/top angle hides connectors."
+          },
+          {
+            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/sonic-wood/gallery/20260915-100208-len0vv-sonic-wood_perspective_hi_v05_250307.webp",
+            "sha256": "f56baad3e2edd7cc53d99817323b9e9d29231b39fc08dd383df792fcd6fbbed2",
+            "visual_checked": true,
+            "note": "Unlit front angle, only partial side XLR visible."
+          },
+          {
+            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/sonic-wood/gallery/20260915-100153-vk52s2-sonic-wood_perspective_hi_v02_250307.webp",
+            "sha256": "a6ce66ef4091213488f41651e5360cb8ab3da8833636dc061dca32963ab117b6",
+            "visual_checked": true,
+            "note": "Powered low front angle, connector edge hidden."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::Matribox II Pro QME-200"
+    "last_model": "Sonicake::Sonic Wood QCE-50"
   }
 }
