@@ -515,6 +515,33 @@ Checked2026-10-19 against Hotone Japan exact-model/regional documentation;no cap
 
 ## Ampero II Stage MP-380
 
+<!-- firmware-pitch:Hotone::Ampero II Stage MP-380 begins -->
+### Firmware and pitch audit — Hotone Ampero II Stage MP-380
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-10 (manufacturer announcement month). HotoneAudio preview dated October 12, 2023 establishes announcement month; first global customer shipment remains unresolved. Japanese distributor separately documents January 11, 2024 local retail launch; that later regional date is not the global introduction. [launch 1](https://www.youtube.com/watch?v=minuTXDdaTg) [launch 2](https://prtimes.jp/main/html/rd/p/000000009.000072397.html) |
+| Firmware / latest verification | 1.7.0 — Latest verified. Stage release notes date 1.7.0 July 22 and add native NAM A2 Lite. July 30 is the later MP-350/Stomp release, not this Stage release. Desktop 1.5.1 and mobile 1.2.2 are separate software. [firmware 1](https://www.hotone.com/support/2) [firmware 2](https://www.hotone.com/news/NAM%20A2%20Now%20Supported%EF%BC%81) |
+| Firmware / release date | 2026-07-22 (day precision) |
+| Firmware / release-to-update duration | 2.72–2.81 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Pitch Shift HQ explicitly polyphonic, introduced in Stage 1.6.4. Bass Line is separately a polyphonic octaver. Do not infer a general synth engine or measured chord-shift quality. [pitch 1](https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81) [pitch 2](https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20II%20Stage_Online%20Manual_EN_Firmware%20V1.0.2.1703126743050.pdf) |
+| Pitch / preset recall | Yes: V1.0.2 manual printed p56 stores effect parameters, control data and scenes via SAVE. Current 1.7.0 HQ parameter retention has not been physically tested. |
+| Pitch / DSP resources | Exact Stage pitch percentage not located. V1.0.2 pp45-46 describes effect-dependent resource exhaustion; p73 warns global EQ can overload a heavy patch. No universal pitch percentage or guaranteed twelve-heavy-effect chain follows. Stomp 50% owner result is not a Stage measurement. |
+| Pitch / qualifications | Current 1.7.0 effects appendix was not inspected; firmware-qualified HQ introduction is established by exact Stage notes. Failed V1.5.1 PDF retrieval is not evidence of missing functionality. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [HotoneAudio MP-380 presets preview](https://www.youtube.com/watch?v=minuTXDdaTg) — Official manufacturer video dated 2023-10-12 establishes announcement month. (indexed_manufacturer_video_metadata).
+- [Japanese distributor launch press release](https://prtimes.jp/main/html/rd/p/000000009.000072397.html) — Announced January 5, 2024; Japanese retail begins January 11, later than manufacturer preview. (opened).
+- [Hotone firmware index](https://www.hotone.com/support/2) — Stage 1.7.0 is current indexed device release; editor listed separately. (opened).
+- [Stage 1.7.0 release notes](https://www.hotone.com/news/NAM%20A2%20Now%20Supported%EF%BC%81) — July 22, 2026 device release adds NAM A2 Lite; desktop/mobile software has separate version numbers. (opened).
+- [Hotone Stage 1.6.4 notes](https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81) — Stage section explicitly adds polyphonic Pitch Shift HQ and Bass Line. (opened).
+- [Stage V1.0.2 original manual](https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20II%20Stage_Online%20Manual_EN_Firmware%20V1.0.2.1703126743050.pdf) — Printed pp45-46 overload, p56 SAVE and p73 global EQ limits. (opened_official_pdf_text).
+
+<!-- firmware-pitch:Hotone::Ampero II Stage MP-380 ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- HOTONE-AMPERO-MP380 source begins -->
