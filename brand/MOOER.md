@@ -4296,6 +4296,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::Red Truck ends -->
 
+<!-- model-images:MOOER::Red Truck begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER Red Truck powered-on top view**
+
+[![MOOER Red Truck powered-on top view](https://mooer.jp/cdn/shop/products/20180724-Red-Truck-03.jpg?v=1667199628&width=1445)](https://mooer.jp/cdn/shop/products/20180724-Red-Truck-03.jpg?v=1667199628&width=1445)
+
+[Image source](https://mooer.jp/products/redrtuck). Visually inspected exact Red Truck powered on, with illuminated tuner, knob indicators and footswitch rings. Slightly oblique near-overhead face view; a strictly perpendicular overhead photograph remains pending.
+
+**MOOER Red Truck rear ports**
+
+[![MOOER Red Truck rear ports](https://mooer.jp/cdn/shop/products/image-asset_51b7a47c-6ac9-49bd-9b5b-30d9ef7ec1d0.jpg?v=1667199625&width=1445)](https://mooer.jp/cdn/shop/products/image-asset_51b7a47c-6ac9-49bd-9b5b-30d9ef7ec1d0.jpg?v=1667199625&width=1445)
+
+[Image source](https://mooer.jp/products/redrtuck). Visually inspected complete rear connector row: INPUT, FX LOOP RETURN/SEND, headphone-symbol cabinet-simulated output, OUTPUT L(MONO)/R, DC IN 9V 1A and cable restraint. The photo’s 1A marking supports the current product guidance; the older manual’s 300mA supply minimum remains recorded separately.
+
+</details>
+<!-- model-images:MOOER::Red Truck ends -->
+
+
 Checked **2026-10-17**. Partial guitar multi-effects record, distinct from Black Truck. Bass/vocal suitability unverified.
 
 | Field | Evidence / remaining limits |
