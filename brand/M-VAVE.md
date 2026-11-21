@@ -1192,6 +1192,26 @@ Sources checked:
 
 <!-- firmware-pitch:M-VAVE::Pocket Amp ends -->
 
+<!-- model-images:M-VAVE::Pocket Amp begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Pocket Amp powered-on overhead product image**
+
+[![Pocket Amp powered-on overhead product image](https://www.m-vave.com/images/productInfo/pocket-amp-1.webp)](https://www.m-vave.com/images/productInfo/pocket-amp-1.webp)
+
+[Image source](https://www.m-vave.com/product?id=pocket-amp). Manufacturer straight overhead gray Pocket Amp product image: P08 color display lit, MASTER/PARA knobs and five hand buttons clearly visible. No footswitches. Product imagery is not a hardware test or proof of touch capability/current firmware.
+
+**Pocket Amp rear ports**
+
+[![Pocket Amp rear ports](https://www.m-vave.com/images/productInfo/pocket-amp-5.webp)](https://www.m-vave.com/images/productInfo/pocket-amp-5.webp)
+
+[Image source](https://www.m-vave.com/product?id=pocket-amp). Manufacturer full connector panel visually checked: power slide, USB-C, charge indicator, headphone socket, IN and OUT. No separate AUX/EXP/DIN MIDI or effects loop visible on pictured gray unit. This supports the manual panel inventory while retaining the manufacturer webpage AUX conflict; exact retail revision equivalence unresolved. Connector appearance alone does not establish USB functions or stereo main output. Power state unknown from rear.
+
+</details>
+<!-- model-images:M-VAVE::Pocket Amp ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Existing owner-history profile,2026-10-15. Desktop/clip-on guitar/bass multi-effects,not Sonicake Pocket Master or MINI-X.** Former/given-away status does not remove coverage.
