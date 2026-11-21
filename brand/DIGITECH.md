@@ -1256,6 +1256,31 @@ Checked **2026-11-06**. Exact original RP300, **not RP300A**. Manufacturer-autho
 
 ## RP350
 
+<!-- firmware-pitch:DigiTech::RP350 begins -->
+### Firmware and pitch audit — DigiTech RP350
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2006-07-24 (trade show introduction proxy). Contemporaneous Summer NAMM introduction report; announcement proxy, not exact retail shipment. The 2008 Cubase bundle is later packaging, not first hardware launch. [launch 1](https://www.sweetwater.com/insync/summer-namm-2006-digitech-rp-series/) |
+| Firmware / latest verification | Not verified — Unverified. Official downloads/product offer X-Edit 2.4.1 Windows and 2.7.1 Intel Mac editor/librarian software. Latest RP350 device firmware version/date and elapsed update span remain unverified; editor versions are separate. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://digitech.com/dp/rp350/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift ±24 semitones; Detune ±24 cents; key/scale IPS ±1 octave; Whammy ±1/±2 octaves and Dive Bomb; OC-2-style −1/−2 octaves with independent levels. Input-note polyphony unverified. [pitch 1](https://digitech.com/wp-content/uploads/2022/09/RP350_Manual18-0436V-A_original.pdf) [pitch 2](https://digitech.com/dp/rp350/) |
+| Pitch / preset recall | 70 writable user plus 70 read-only factory presets; user locations initially duplicate factory. |
+| Pitch / DSP resources | Whammy, Pitch Shift, Detune, IPS and OC Octaver share one Chorus/FX slot, excluding other row effects. Eleven simultaneous effects overall are not eleven pitch instances. No pitch CPU percentage published in checked sources. |
+| Pitch / qualifications | IPS level is available on hardware Knob 6. Pitch Shift/Detune/IPS/Octaver offer pre/post placement; Whammy text lists automatic pre-amp placement and a pre/post parameter. Actual routing behavior not independently tested. Original OC-2 and newer standalone Whammy tracking modes not inferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Summer NAMM 2006: DigiTech RP Series](https://www.sweetwater.com/insync/summer-namm-2006-digitech-rp-series/) — RP350 introduced among three new RP models; not first shipment date. (Contemporaneous Sweetwater trade-show report, July 24, 2006).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — RP350 X-Edit 2.4.1 Windows and 2.7.1 Intel Mac; no dated device firmware entry. (Manufacturer current web text).
+- [DigiTech RP350 product](https://digitech.com/dp/rp350/) — Editor links, AudioDNA2, 11 simultaneous effects and 70 user/70 factory presets; Cubase packaging described. (Manufacturer current web text).
+- [RP350 User’s Manual 18-0436V-A](https://digitech.com/wp-content/uploads/2022/09/RP350_Manual18-0436V-A_original.pdf) — Printed p2 memory, p18 one Chorus/FX slot, pp23–24 pitch algorithms and hardware IPS level. Whammy placement wording noted. (Manufacturer 40-page PDF web text).
+
+<!-- firmware-pitch:DigiTech::RP350 ends -->
+
 Checked 2026-10-18; partial. Exact RP350,not RP355. [Own manufacturer-linked manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP350_Manual18-0436V-A_original.pdf),18-0436V-A,40 PDF pages,printed pp1–7,26–29 (M); [product](https://digitech.com/dp/rp350/) (P); [power FAQ](https://digitech.com/faqs/) (F). Browser text;no software downloaded or run.
 
 <!-- comparison evidence begins -->
