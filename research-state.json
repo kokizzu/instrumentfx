@@ -200643,10 +200643,77 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Soran::Dual Stomp": {
+        "model_key": "Soran::Dual Stomp",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first hardware release not verified",
+          "source_urls": [
+            "https://soranaudio.com/products/28.html"
+          ],
+          "note": "Undated product page; manual-upload paths and regional retailer availability do not establish first hardware release."
+        },
+        "firmware": {
+          "version": "1.1.1",
+          "date": "2026-05-27",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://soranaudio.com/article/127.html",
+            "https://www.soranaudio.com/Download.html",
+            "https://www.soranaudio.com/category/9.html"
+          ],
+          "note": "Latest located official device release. Current download section lists DFU1.1.1. Learn-index video heading says1.1.0 on the same date; release-note title and startup-verification instruction explicitly say1.1.1. No hardware-release date, so duration remains unknown. No update installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Harmony in MOD: Major and Minor modes explicitly fixed inV1.1.1. Polyphonic input,interval limits and independent transpose modes unverified.",
+          "preset": "99 user locations,01–80 guitar/81–99 bass. Exact harmony parameter recall not verified. Firmware retains presets but erases imported NAM/IR; reset deletes user data.",
+          "dsp": "No numerical pitch-specific DSP/CPU cost or meter measurement located. Advertised10/11-module conflict does not establish a percentage per block.",
+          "source_urls": [
+            "https://soranaudio.com/article/127.html",
+            "https://soranaudio.com/products/28.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "USB MIDI requires an external controller with USB HOST; the pedal is described as a USB peripheral. Tiny-only TRS footswitch fix is not transferred to Dual Stomp.",
+            "Exact-model manufacturer manual mirror has no readable web text; operating details remain pending."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://soranaudio.com/products/28.html",
+            "title": "Soran Dual Stomp manufacturer product",
+            "access": "Manufacturer text inspected",
+            "evidence": "Exact Dual Stomp,99 locations;125/126 effects and10/11 modules conflict. No launch date or quantitative pitch DSP cost."
+          },
+          {
+            "url": "https://soranaudio.com/article/127.html",
+            "title": "Soran Stomp family V1.1.1 release notes",
+            "access": "Manufacturer release text inspected",
+            "evidence": "May27,2026;Major/Minor Harmony fix;presets retained,NAM/IR erased;reset deletes user data;startup version1.1.1."
+          },
+          {
+            "url": "https://www.soranaudio.com/Download.html",
+            "title": "Soran official downloads",
+            "access": "Indexed current exact-model list inspected",
+            "evidence": "Separate Dual Stomp section lists DFU1.1.1,editor and driver versions;these are distinct version families."
+          },
+          {
+            "url": "https://www.soranaudio.com/category/9.html",
+            "title": "Soran Learn index",
+            "access": "Manufacturer indexed heading inspected",
+            "evidence": "Same-date video heading saysV1.1.0,conflicting with explicitV1.1.1 release-note/startup text."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
       "Soran::Go Rig II",
@@ -200777,12 +200844,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 273,
-    "last_model": "ROWIN::RE-05 Looper Pro",
-    "last_commit_parent": "fa6b618fc83bd7e39438cc054f724aadedf38f64",
+    "completed_model_count": 274,
+    "last_model": "Soran::Dual Stomp",
+    "last_commit_parent": "951bc37297bf7270051402e2230120a57cd07015",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
       "Soran::Go Rig II",
@@ -200912,7 +200978,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 273,
+    "pitch_completed_model_count": 274,
     "supplemental_model_count": 0
   },
   "model_images": {
