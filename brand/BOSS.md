@@ -6493,6 +6493,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::VE-1 ends -->
 
+<!-- model-images:BOSS::VE-1 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS VE-1 — top panel**
+
+[![BOSS VE-1 — top panel](https://static.roland.com/assets/images/products/main/ve-1_top_main.jpg)](https://static.roland.com/assets/images/products/main/ve-1_top_main.jpg)
+
+[Image source](https://www.boss.info/global/products/ve-1/). Official straight top-down promotional photograph with illuminated echo-type, Double, Enhance and blue status indicators. No numeric/LCD display. Source is only 457 × 330 pixels, limiting small-label detail; no independent device operation.
+
+**BOSS VE-1 — rear connections**
+
+[![BOSS VE-1 — rear connections](https://www.bananas.com/cdn/shop/products/ve-1_back_gal_2048x.jpg?v=1540494755)](https://www.bananas.com/cdn/shop/products/ve-1_back_gal_2048x.jpg?v=1540494755)
+
+[Image source](https://www.bananas.com/products/boss-ve-1-vocal-echo-voice-effects-pedal). Retailer rear photograph shows MIC IN, MIC SENS, PHANTOM, PHONES/LINE OUT, XLR OUT, USB Type-B, FOOT SW, DC IN and POWER. Black-on-black molded labels have low contrast, although sockets are unobstructed. Rear photograph alone does not establish operating power state.
+
+</details>
+<!-- model-images:BOSS::VE-1 ends -->
+
+
 Vocal multi-effects:echo,double,pitch correction and enhance. Consolidated/researched2026-10-16;partial verification. Seller Harmonist/Guitar Pedal titles do not establish guitar processing or intelligent harmony.
 
 ### VE-1 — preserved original comparison
