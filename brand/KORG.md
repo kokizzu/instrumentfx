@@ -1445,6 +1445,26 @@ Sources checked:
 
 <!-- firmware-pitch:Korg::AX3000G ends -->
 
+<!-- model-images:Korg::AX3000G begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Korg AX3000G top controls**
+
+[![Korg AX3000G top controls](https://medias.audiofanzine.com/images/normal/korg-ax3000g-6051642.jpg)](https://medias.audiofanzine.com/images/normal/korg-ax3000g-6051642.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/korg/Ax3000g/). Visually checked: exact AX3000G, complete powered-on control surface with illuminated LCD, numeric display and LEDs; near-overhead photograph with slight perspective, not a perfectly orthographic top-down view.
+
+**Korg AX3000G rear ports**
+
+[![Korg AX3000G rear ports](https://cdn.mos.cms.futurecdn.net/d6e5f0232affd9bda962d33ecd033927.jpg)](https://cdn.mos.cms.futurecdn.net/d6e5f0232affd9bda962d33ecd033927.jpg)
+
+[Image source](https://www.musicradar.com/reviews/guitars/korg-ax3000g-24723). Visually checked: exact AX3000G rear panel with readable input, aux, insert send/return, stereo output, headphone, MIDI and optical S/PDIF connections.
+
+</details>
+<!-- model-images:Korg::AX3000G ends -->
+
+
 Guitar multi-effects, distinct from AX3000B. Checked 2026-10-17; partial. Bass suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->
