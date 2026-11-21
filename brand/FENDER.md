@@ -10,6 +10,30 @@
 
 ## Mustang Micro
 
+<!-- firmware-pitch:Fender::Mustang Micro begins -->
+### Firmware and pitch audit — Fender Mustang Micro
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2021-04-06 (manufacturer launch/availability proxy). Maker dated launch says now available; January2021 preview only promised April. Exact first shipment not established. [launch 1](https://www.fender.com/newsroom/272115-fender-expands-acclaimed-mustang-series-with-pocket-sized-mustang-micro-personal-amp/) |
+| Firmware / latest verification | 1.0.64 — Latest verified. Newest entry in current original-Micro maker release notes; Bluetooth reliability improvements. Prior1.0.54 May27,2021 changes USB recording/master-volume behavior and Bluetooth EQ. Not Micro Plus firmware or updater version. [firmware 1](https://support.fender.com/hc/en-us/articles/46634356505755-How-do-I-update-the-Firmware-on-the-Mustang-Micro) |
+| Firmware / release date | 2022-03-10 (day precision) |
+| Firmware / release-to-update duration | 0.93 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No dedicated pitch shifter, harmonizer, octave transposer or polyphonic retuning in complete12-effect-combination inventory. Chorus/flanger and tape wow/flutter are modulation, not evidence of selectable pitch transposition. [pitch 1](https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf) |
+| Pitch / preset recall | AMP/EQ/EFFECTS/MODIFY selections with fixed effect combinations; no quantified user-preset bank established. Resettable operating settings are not evidence of 12 user presets. |
+| Pitch / DSP resources | One amp choice plus one fixed effect combination; individual effects within a combination are not independently insertable blocks. No numerical CPU/DSP cost or pitch slot allocation documented. |
+| Pitch / qualifications | No documented transposition is not a claim that modulation never varies instantaneous pitch. No Micro Plus Octobot or Tone Master Pro pitch capability transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Fender original Mustang Micro launch](https://www.fender.com/newsroom/272115-fender-expands-acclaimed-mustang-series-with-pocket-sized-mustang-micro-personal-amp/) — April6,2021 launch/now-available statement;12amps and12effect combinations. (Direct manufacturer newsroom announcement).
+- [Fender original Mustang Micro firmware update notes](https://support.fender.com/hc/en-us/articles/46634356505755-How-do-I-update-the-Firmware-on-the-Mustang-Micro) — Newest listed device1.0.64 March10,2022; prior1.0.54 May27,2021. (Direct current manufacturer support page).
+- [Original Mustang Micro PR5833 owner manual](https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf) — Fixed reverb/modulation/delay combinations; no selectable pitch shift; amp/effect hand controls, reset operating settings. (Direct manufacturer11-page PDF; complete effect and Modify tables pp5–6).
+
+<!-- firmware-pitch:Fender::Mustang Micro ends -->
+
 Original PR5833;checked2026-10-17;partial,ownership unverified. Separate from Micro Plus.
 
 <!-- comparison evidence begins -->

@@ -186916,10 +186916,71 @@
           "label": "3.11 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Fender::Mustang Micro": {
+        "model_key": "Fender::Mustang Micro",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2021-04-06",
+          "precision": "day",
+          "kind": "manufacturer launch/availability proxy",
+          "source_urls": [
+            "https://www.fender.com/newsroom/272115-fender-expands-acclaimed-mustang-series-with-pocket-sized-mustang-micro-personal-amp/"
+          ],
+          "note": "Maker dated launch says now available; January2021 preview only promised April. Exact first shipment not established."
+        },
+        "firmware": {
+          "version": "1.0.64",
+          "date": "2022-03-10",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://support.fender.com/hc/en-us/articles/46634356505755-How-do-I-update-the-Firmware-on-the-Mustang-Micro"
+          ],
+          "note": "Newest entry in current original-Micro maker release notes; Bluetooth reliability improvements. Prior1.0.54 May27,2021 changes USB recording/master-volume behavior and Bluetooth EQ. Not Micro Plus firmware or updater version."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No dedicated pitch shifter, harmonizer, octave transposer or polyphonic retuning in complete12-effect-combination inventory. Chorus/flanger and tape wow/flutter are modulation, not evidence of selectable pitch transposition.",
+          "preset": "AMP/EQ/EFFECTS/MODIFY selections with fixed effect combinations; no quantified user-preset bank established. Resettable operating settings are not evidence of 12 user presets.",
+          "dsp": "One amp choice plus one fixed effect combination; individual effects within a combination are not independently insertable blocks. No numerical CPU/DSP cost or pitch slot allocation documented.",
+          "source_urls": [
+            "https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No documented transposition is not a claim that modulation never varies instantaneous pitch. No Micro Plus Octobot or Tone Master Pro pitch capability transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.fender.com/newsroom/272115-fender-expands-acclaimed-mustang-series-with-pocket-sized-mustang-micro-personal-amp/",
+            "title": "Fender original Mustang Micro launch",
+            "access": "Direct manufacturer newsroom announcement",
+            "evidence": "April6,2021 launch/now-available statement;12amps and12effect combinations."
+          },
+          {
+            "url": "https://support.fender.com/hc/en-us/articles/46634356505755-How-do-I-update-the-Firmware-on-the-Mustang-Micro",
+            "title": "Fender original Mustang Micro firmware update notes",
+            "access": "Direct current manufacturer support page",
+            "evidence": "Newest listed device1.0.64 March10,2022; prior1.0.54 May27,2021."
+          },
+          {
+            "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf",
+            "title": "Original Mustang Micro PR5833 owner manual",
+            "access": "Direct manufacturer11-page PDF; complete effect and Modify tables pp5–6",
+            "evidence": "Fixed reverb/modulation/delay combinations; no selectable pitch shift; amp/effect hand controls, reset operating settings."
+          }
+        ],
+        "duration": {
+          "minimum_days": 338,
+          "maximum_days": 338,
+          "label": "0.93 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Fender::Mustang Micro",
       "Fender::Mustang Micro Plus",
       "Fender::Tone Master Pro",
       "Flamma::FB200",
@@ -187222,12 +187283,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 101,
-    "last_model": "Eventide::H90",
-    "last_commit_parent": "291ee3e01cfab6a095caacb973e2eb548e57accc",
+    "completed_model_count": 102,
+    "last_model": "Fender::Mustang Micro",
+    "last_commit_parent": "fe8d3a41a7ec022396e54ac9c1876f1c995a02d4",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Fender::Mustang Micro",
       "Fender::Mustang Micro Plus",
       "Fender::Tone Master Pro",
       "Flamma::FB200",
@@ -187529,7 +187589,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 101,
+    "pitch_completed_model_count": 102,
     "supplemental_model_count": 0
   },
   "model_images": {
