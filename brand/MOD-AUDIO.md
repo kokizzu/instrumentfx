@@ -40,6 +40,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOD Audio::Duo ends -->
 
+<!-- model-images:MOD Audio::Duo begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Original MOD Duo powered-on overhead control-face photograph**
+
+[![Original MOD Duo powered-on overhead control-face photograph](https://mod.audio/wp-content/uploads/2023/06/MOD-Duo-Banner-.jpg)](https://mod.audio/wp-content/uploads/2023/06/MOD-Duo-Banner-.jpg)
+
+[Image source](https://mod.audio/mod-duo/). Visually inspected manufacturer scene: both LCDs show active DRONE GAIN/DRONE and BLUR/PREFREAK assignments, with green/red footswitch LEDs, two push knobs and two footswitches. Shot from above with slight perspective and connected audio/power cables, not an orthographic isolated product view. Audio input/output markings are on the side edges; rear connectors are shown separately below. Image does not prove installed OS version, exact screen diagonal, touch or monochrome-only technology.
+
+**Original MOD Duo straight rear-port photograph**
+
+[![Original MOD Duo straight rear-port photograph](https://r2.gear4music.com/media/84/844701/1200/preview.jpg)](https://r2.gear4music.com/media/84/844701/1200/preview.jpg)
+
+[Image source](https://www.gear4music.com/us/en/Guitar-and-Bass/MOD-Devices-MOD-Duo-Multi-Effects-Pedal/2NP1). Visually inspected original Duo rear: 12V DC 2A center-positive barrel input, RJ45-shaped CONTROL CHAIN socket, USB-A and USB-B, MIDI DIN IN and OUT; all unplugged. Control Chain is not Ethernet networking. Rear does not contain the audio jacks, which are on the side edges; do not infer missing audio I/O from this photograph. No Duo X CV/SPDIF or direct analog EXP socket is shown. A small unlabeled rear hole is visible; its function/button status remains unverified rather than inventing a control.
+
+</details>
+<!-- model-images:MOD Audio::Duo ends -->
+
+
 Admitted **2026-11-01** as an **active partial guitar/bass/voice processor**, not fully verified. Original Duo is distinct from Duo X/Dwarf. LCD technology is known; [manufacturer photography now confirms one separate panel above each knob/footswitch column](#duo--manufacturer-photograph-confirms-two-display-columns). These also serve knob/menu functions, not exclusively switch labels. No ownership, current-stock or complete-library claim. Earlier outside-inventory statements below are preserved historical checkpoints.
 
 <!-- comparison evidence begins -->
