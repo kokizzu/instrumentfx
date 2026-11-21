@@ -280,6 +280,9 @@ def verify():
             body = body.split(shared_boundary, 1)[0]
         assert body.replace('(effects/SCOPE.md)','(../SCOPE.md)').replace('\n### ','\n## ')==original_fv.split('\n',1)[1],'FV01 archive lost original material'
     errors = []
+    # Cache only during this verification: many links share the same large
+    # Markdown target. Rebuild from current files on every subsequent run.
+    heading_slugs = {}
     for path in [*ROOT.glob('*.md'), *(ROOT/'brand').glob('*.md')]:
         text = path.read_text()
         if path.parent == ROOT / "brand":
@@ -296,8 +299,11 @@ def verify():
                 errors.append(f'{path.name}: missing {link}')
                 continue
             if anchor and target.suffix == '.md':
-                headings = re.findall(r'^#+\s+(.+)$', target.read_text(), re.M)
-                slugs = [re.sub(r'[^\w\- ]', '', h.lower().replace('`', '')).replace(' ', '-') for h in headings]
+                target_key = target.resolve()
+                if target_key not in heading_slugs:
+                    headings = re.findall(r'^#+\s+(.+)$', target.read_text(), re.M)
+                    heading_slugs[target_key] = {re.sub(r'[^\w\- ]', '', h.lower().replace('`', '')).replace(' ', '-') for h in headings}
+                slugs = heading_slugs[target_key]
                 if anchor not in slugs:
                     errors.append(f'{path.name}: missing anchor {link}')
     assert not errors, '\n'.join(errors)

@@ -203,6 +203,7 @@ def test_evidence_owners():
 
 def make_plan(persist=True):
     identity()
+    from firmware_pitch import without_generated_blocks, comparison_facts
     files = {str(p.relative_to(ROOT)):p.read_text() for p in ROOT.rglob('*.md') if '.git' not in p.parts and 'history' not in p.name}
     state = json.loads((ROOT/'research-state.json').read_text())
     records = source_map(state, files)
@@ -266,6 +267,9 @@ def make_plan(persist=True):
                 sources=[('effects/specialist.md',dict(sections(files['effects/specialist.md']))['Eligible record: BOSS GM-800'])]
                 r['link']='effects/specialist.md#eligible-record-boss-gm-800'
         for path,text in sources:
+            # Shared canonical headings must not transfer one model's dated audit
+            # to its sibling. Audit rows are added from the exact ledger key below.
+            text = without_generated_blocks(text)
             refs=(model_references(files[path], r['canonical'][1]) if r['canonical'] and path==r['canonical'][0] else references[path])
             for headers, rows, context in tables(text, strict=bool(r['canonical']), source=path+' ['+key+']'):
                 field_table = len(headers) in (2,3) and any(x in headers[0].lower() for x in ('field','required'))
@@ -324,6 +328,7 @@ def make_plan(persist=True):
                     elif plain.startswith('Looper'):
                         label='Looper / live'
                     facts[key].append(dict(field=label,value=relink(paragraph.replace('\n',' '),path,refs),source=path,context='canonical model-specific prose'))
+        facts[key].extend(comparison_facts(state, key))
         r['facts']=facts[key]
         r['sources']=sorted({f['source'] for f in facts[key]})
         r['findings']=sorted(finding_for[key])

@@ -589,6 +589,38 @@ Earlier Seven Stereo Rp13,685,000 observation remains separately dated; no purch
 
 ## Ampero II Stomp MP-300
 
+<!-- firmware-pitch:Hotone::Ampero II Stomp MP-300 begins -->
+### Firmware and pitch audit — Hotone Ampero II Stomp MP-300
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2021-11-11 (distributor announcement proxy). Dated Rock Distribution product announcement; exact first global customer shipment remains unverified. This date is an explicit announcement proxy, not a claimed universal retail launch. [launch 1](https://www.rock-distribution.com/news/hotone-ampero-ii-stomp) |
+| Firmware / latest verification | 2.5.0 — Latest verified. Current manufacturer index lists device firmware 2.5.0; dated notes add native NAM A2 Lite. Editor 1.5.1 and USB Audio Firmware 2.01 are separate products/versions. [firmware 1](https://www.hotone.com/support/2) [firmware 2](https://www.hotone.com/news/NAM%20A2%20Now%20Supported%20Across%20the%20Entire%20Ampero%20II%20Series!) |
+| Firmware / release date | 2026-07-30 (day precision) |
+| Firmware / release-to-update duration | 4.71 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. V2.5.0 list: Pitch Shift HQ and Pitch Shift polyphonic, +/-24 semitones; String Shifter polyphonic virtual capo, +/-12; Dual/Quad Pitch polyphonic; Classic PS monophonic. HQ introduced in2.4.0. HQ is mono I/O: mono signal format does not mean monophonic note tracking. [pitch 1](https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81) [pitch 2](https://payhip.com/MisakiChaTones/blog/news/ampero-2-stomp-dsp) [pitch 3](https://www.hotone.com/products/multi-effects/new/ampero-ii-stomp) [pitch 4](https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Effect%20List_EN_Firmware%20V2.5.0.1785406068293.pdf) [pitch 5](https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Online%20Manual_EN_Firmware%20V2.5.0.1785405982280.pdf) |
+| Pitch / preset recall | Yes. Save Patch stores effect parameters, control assignments and scene settings (V2.5.0 manual, printed p56). Pitch parameters belong to the selected effect in that saved chain. |
+| Pitch / DSP resources | Firsthand displayed-meter observation on firmware 2.5.0/editor 1.5.1: Pitch Shift HQ alone 50%; with SoundClone 54%; with SoundClone and Tube Spring 74%; with native NAM A2 Lite 78%, and Tube Spring could not then be added. Same tester reports HQ 22% on firmware 2.4.0. These readings are non-additive and firmware/chain-dependent; no manufacturer fixed pitch-block percentage or universal four-effect ceiling was found. |
+| Pitch / DSP observation 1 | 50% of displayed_DSP_meter; owner measurement; algorithm: Pitch Shift HQ; firmware: 2.5.0; configuration: Blank patch containing Pitch Shift HQ alone; exact audio mode/settings not fully specified. [source 1](https://payhip.com/MisakiChaTones/blog/news/ampero-2-stomp-dsp) |
+| Pitch / qualifications | Polyphonic processing establishes chord-capable design, not measured sound quality or latency at -6/+6 semitones. DSP percentages are displayed meter readings from an independent owner test, not our measurements or a cross-device capacity benchmark. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Firmware update span is measured from a dated distributor announcement proxy; it does not establish uninterrupted support or a global shipment date.
+
+Sources checked:
+
+- [Hotone firmware download index](https://www.hotone.com/support/2) — Exact MP-300 device firmware currently listed as 2.5.0; editor and USB audio firmware are separately labelled. (opened).
+- [Hotone NAM A2 firmware release notes](https://www.hotone.com/news/NAM%20A2%20Now%20Supported%20Across%20the%20Entire%20Ampero%20II%20Series!) — MP-300 version 2.5.0 dated July 30, 2026 adds native NAM A2 Lite; heavy processing warning. (opened).
+- [Rock Distribution Ampero II Stomp announcement](https://www.rock-distribution.com/news/hotone-ampero-ii-stomp) — Product announcement dated November 11, 2021; launch proxy only, no global first-shipment confirmation. (opened).
+- [Hotone Ampero II family firmware announcement](https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81) — MP-300 2.4.0 section dated June 1, 2026 explicitly adds polyphonic Pitch Shift HQ. (opened).
+- [MisakiChaTones firsthand Ampero II Stomp DSP observations](https://payhip.com/MisakiChaTones/blog/news/ampero-2-stomp-dsp) — Owner compares displayed DSP readings on 2.5.0/editor1.5.1 and earlier2.4.0; pitch50%, combined54/74/78%, non-additive behavior. (opened).
+- [Hotone MP-300 official product page](https://www.hotone.com/products/multi-effects/new/ampero-ii-stomp) — Up to12 simultaneous effect slots and editable serial/parallel chains, subject to DSP. (opened).
+- [Official MP-300 V2.5.0 effect list](https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Effect%20List_EN_Firmware%20V2.5.0.1785406068293.pdf) — Printed p11 and adjacent FREQ pages identify pitch polyphony, +/-24 HQ range, +/-12 String Shifter range and monophonic Classic PS. (downloaded_official_pdf).
+- [Official MP-300 V2.5.0 manual](https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Online%20Manual_EN_Firmware%20V2.5.0.1785405982280.pdf) — Save Patch printed p56 retains effects/control/scene data; printed pp43-44 explain DSP overload and unavailable effect selections. (manufacturer_text_mirror_and_official_url_identified).
+
+<!-- firmware-pitch:Hotone::Ampero II Stomp MP-300 ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- HOTONE-AMPERO-MP300 source begins -->
