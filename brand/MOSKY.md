@@ -13,6 +13,29 @@
 
 ## DC5
 
+<!-- firmware-pitch:Mosky::DC5 begins -->
+### Firmware and pitch audit — Mosky DC5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Undated manufacturer product page; image-path timestamps and generic site copyright do not establish launch or first shipment. [launch 1](https://www.moskyaudio.com/product/product-25-548.html) |
+| Firmware / latest verification | Not verified — No public firmware located. No DC5 firmware, release notes or updater found on the checked product/manual routes and exact-model searches. Manual index exposes no entries. This does not prove internal firmware absent or non-updatability; no release-to-update span calculable. [firmware 1](https://www.moskyaudio.com/product/product-25-548.html) [firmware 2](https://www.moskyaudio.com/mosky.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Checked manufacturer description lists delay, chorus, distortion, overdrive and buffer/booster. No dedicated interval pitch-shift, transpose, octave or harmonizer documented. Chorus modulation alone does not establish a polyphonic transposer. [pitch 1](https://www.moskyaudio.com/product/product-25-548.html) |
+| Pitch / preset recall | Factory/user preset counts, electronic recall and programmable pitch states unverified; physical controls are not evidence of memory slots. |
+| Pitch / DSP resources | No pitch-specific DSP cost established because no dedicated pitch algorithm is documented. Five advertised effect sections do not establish a 20% CPU cost or five freely assignable DSP blocks. |
+| Pitch / qualifications | No RC5/RD5/SOL918 capabilities or firmware are substituted. Unknown is not a confirmed absence. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Mosky DC5 original manufacturer product page](https://www.moskyaudio.com/product/product-25-548.html) — Undated five-effect description; delay/chorus/distortion/overdrive/bufferbooster. No pitch or firmware release documented. (Manufacturer page body and linked image URLs inspected).
+- [Mosky manufacturer manual index](https://www.moskyaudio.com/mosky.html) — Products Manual route exposed no document entries; no exact DC5 firmware file located. (Manufacturer index body inspected).
+
+<!-- firmware-pitch:Mosky::DC5 ends -->
+
 Effects-only guitar multi-effects strip, checked2026-10-18; partial. Ownership unverified. Bass/vocal suitability lacks exact primary confirmation.
 
 | Field | Finding / qualification |

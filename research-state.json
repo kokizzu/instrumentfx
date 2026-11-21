@@ -200376,10 +200376,62 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "Mosky::DC5": {
+        "model_key": "Mosky::DC5",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first hardware release not verified",
+          "source_urls": [
+            "https://www.moskyaudio.com/product/product-25-548.html"
+          ],
+          "note": "Undated manufacturer product page; image-path timestamps and generic site copyright do not establish launch or first shipment."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.moskyaudio.com/product/product-25-548.html",
+            "https://www.moskyaudio.com/mosky.html"
+          ],
+          "note": "No DC5 firmware, release notes or updater found on the checked product/manual routes and exact-model searches. Manual index exposes no entries. This does not prove internal firmware absent or non-updatability; no release-to-update span calculable."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Checked manufacturer description lists delay, chorus, distortion, overdrive and buffer/booster. No dedicated interval pitch-shift, transpose, octave or harmonizer documented. Chorus modulation alone does not establish a polyphonic transposer.",
+          "preset": "Factory/user preset counts, electronic recall and programmable pitch states unverified; physical controls are not evidence of memory slots.",
+          "dsp": "No pitch-specific DSP cost established because no dedicated pitch algorithm is documented. Five advertised effect sections do not establish a 20% CPU cost or five freely assignable DSP blocks.",
+          "source_urls": [
+            "https://www.moskyaudio.com/product/product-25-548.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "No RC5/RD5/SOL918 capabilities or firmware are substituted. Unknown is not a confirmed absence."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.moskyaudio.com/product/product-25-548.html",
+            "title": "Mosky DC5 original manufacturer product page",
+            "access": "Manufacturer page body and linked image URLs inspected",
+            "evidence": "Undated five-effect description; delay/chorus/distortion/overdrive/bufferbooster. No pitch or firmware release documented."
+          },
+          {
+            "url": "https://www.moskyaudio.com/mosky.html",
+            "title": "Mosky manufacturer manual index",
+            "access": "Manufacturer index body inspected",
+            "evidence": "Products Manual route exposed no document entries; no exact DC5 firmware file located."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Mosky::DC5",
       "Mosky::RC5",
       "Mosky::RD5",
       "Mosky::SOL918",
@@ -200515,12 +200567,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 268,
-    "last_model": "MOD Audio::Duo",
-    "last_commit_parent": "06b65fc37e8080124aa4765def2f2597b1ac60bc",
+    "completed_model_count": 269,
+    "last_model": "Mosky::DC5",
+    "last_commit_parent": "329d8393ad34e58282e5dd46c731c3120bf6db5c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Mosky::DC5",
       "Mosky::RC5",
       "Mosky::RD5",
       "Mosky::SOL918",
@@ -200655,7 +200706,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 268,
+    "pitch_completed_model_count": 269,
     "supplemental_model_count": 0
   },
   "model_images": {
