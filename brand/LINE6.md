@@ -333,6 +333,30 @@ Earlier unknowns remain provenance; this narrows the main-display,host-power,bod
 
 ## Helix Floor
 
+<!-- firmware-pitch:Line 6::Helix Floor begins -->
+### Firmware and pitch audit — Line 6 Helix Floor
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2015-06-11 (manufacturer public introduction). Manufacturer launch FAQ posted June11,2015. Announcement proxy only: its availability wording can be edited, so not treated as proof of June shipment or exact first retail delivery. [launch 1](https://line6.com/support/topic/14264-helix-faq/) |
+| Firmware / latest verification | 3.80.0 — Latest verified. Current direct original-Helix catalogue identifies Helix Floor Firmware3.80.0 first, November19,2024. HX Edit3.82,HX One3.83 and Helix Stadium versions are different products/packages. No hardware update installed. [firmware 1](https://line6.com/software/index.html?hardware=Helix&name=Flash+Memory&submit_form=set) |
+| Firmware / release date | 2024-11-19 (day precision) |
+| Firmware / release-to-update duration | 9.44 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Own3.80 RevG p31 explicitly identifies Poly Pitch,Poly Wham,Poly Capo and12 String as polyphonic shifting. Simple/Dual Pitch,Pitch Wham,harmonies and octavers also listed. Poly channel format is mono; this does not imply single-note-only tracking. [pitch 1](https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf) |
+| Pitch / preset recall | Yes:1,024 overwriteable preset locations and eight snapshots per preset. Pitch block parameters and controller settings save with presets; snapshots recall variations. No physical recall test. |
+| Pitch / DSP resources | Own pp22,31: each indicated Poly pitch model might use half the DSP available to Path1 or Path2, not half the whole dual-DSP device. Combined Feedbacker/Poly Sustain/Poly Detune/Poly Pitch/Poly Wham/Poly Capo/12String group has one-per-path maximum. Other blocks consume the same path budget;32 available block locations do not guarantee32 arbitrary simultaneous models. |
+| Pitch / qualifications | Manufacturer capacity guidance, not measured fixed CPU usage. Polyphonic pitch support does not establish synth input-note polyphony. No latency/chord-quality benchmark. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Manufacturer Helix launch FAQ](https://line6.com/support/topic/14264-helix-faq/) — June11,2015 public introduction; potentially edited Now availability wording not adopted as first shipment proof. (Manufacturer FAQ post/date read).
+- [Helix Floor exact device firmware index](https://line6.com/software/index.html?hardware=Helix&name=Flash+Memory&submit_form=set) — Newest Floor3.80.0 November19,2024; separate editor and other-model firmware. (Direct bounded manufacturer HTML retrieved; SHA256 0a361a54279ae52fdbf124c5627fbe6956223881e0198ae3d34d0f05a464f1a6).
+- [Helix3.80 Owner Manual RevG](https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf) — Polyphonic pitch table,half-path DSP warning,combined high-DSP one-per-path constraint and channel-format distinctions. (Original79-page PDF retrieved; printed pp22–24,31 read; SHA2561598d174cba1f888b4f50d524bbb7d5e82fe168d513dfeaddb9906223f6f17b1).
+
+<!-- firmware-pitch:Line 6::Helix Floor ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium. Guitar, bass and live microphone processing explicitly documented. Platinum is the same hardware with a different finish per manufacturer timeline;count once.
 

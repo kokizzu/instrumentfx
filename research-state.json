@@ -178514,15 +178514,15 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "requested_url": "https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 22,
+    "frame": 32,
     "text_pages": [
-      25,
-      26
+      30,
+      30
     ],
-    "index_url": "https://line6.com/company/images/?families=64",
-    "index_needle": "HD500",
+    "index_url": "https://line6.com/software/index.html?hardware=Helix&name=Flash+Memory&submit_form=set",
+    "index_needle": "Released",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -190332,6 +190332,68 @@
           "label": "2.01 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::Helix Floor": {
+        "model_key": "Line 6::Helix Floor",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2015-06-11",
+          "precision": "day",
+          "kind": "manufacturer_public_introduction",
+          "source_urls": [
+            "https://line6.com/support/topic/14264-helix-faq/"
+          ],
+          "note": "Manufacturer launch FAQ posted June11,2015. Announcement proxy only: its availability wording can be edited, so not treated as proof of June shipment or exact first retail delivery."
+        },
+        "firmware": {
+          "version": "3.80.0",
+          "date": "2024-11-19",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=Helix&name=Flash+Memory&submit_form=set"
+          ],
+          "note": "Current direct original-Helix catalogue identifies Helix Floor Firmware3.80.0 first, November19,2024. HX Edit3.82,HX One3.83 and Helix Stadium versions are different products/packages. No hardware update installed."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Own3.80 RevG p31 explicitly identifies Poly Pitch,Poly Wham,Poly Capo and12 String as polyphonic shifting. Simple/Dual Pitch,Pitch Wham,harmonies and octavers also listed. Poly channel format is mono; this does not imply single-note-only tracking.",
+          "preset": "Yes:1,024 overwriteable preset locations and eight snapshots per preset. Pitch block parameters and controller settings save with presets; snapshots recall variations. No physical recall test.",
+          "dsp": "Own pp22,31: each indicated Poly pitch model might use half the DSP available to Path1 or Path2, not half the whole dual-DSP device. Combined Feedbacker/Poly Sustain/Poly Detune/Poly Pitch/Poly Wham/Poly Capo/12String group has one-per-path maximum. Other blocks consume the same path budget;32 available block locations do not guarantee32 arbitrary simultaneous models.",
+          "source_urls": [
+            "https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer capacity guidance, not measured fixed CPU usage. Polyphonic pitch support does not establish synth input-note polyphony. No latency/chord-quality benchmark."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://line6.com/support/topic/14264-helix-faq/",
+            "title": "Manufacturer Helix launch FAQ",
+            "access": "Manufacturer FAQ post/date read",
+            "evidence": "June11,2015 public introduction; potentially edited Now availability wording not adopted as first shipment proof."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=Helix&name=Flash+Memory&submit_form=set",
+            "title": "Helix Floor exact device firmware index",
+            "access": "Direct bounded manufacturer HTML retrieved; SHA256 0a361a54279ae52fdbf124c5627fbe6956223881e0198ae3d34d0f05a464f1a6",
+            "evidence": "Newest Floor3.80.0 November19,2024; separate editor and other-model firmware."
+          },
+          {
+            "url": "https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "title": "Helix3.80 Owner Manual RevG",
+            "access": "Original79-page PDF retrieved; printed pp22–24,31 read; SHA2561598d174cba1f888b4f50d524bbb7d5e82fe168d513dfeaddb9906223f6f17b1",
+            "evidence": "Polyphonic pitch table,half-path DSP warning,combined high-DSP one-per-path constraint and channel-format distinctions."
+          }
+        ],
+        "duration": {
+          "minimum_days": 3449,
+          "maximum_days": 3449,
+          "label": "9.44 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190372,7 +190434,6 @@
       "Lexicon::MX400",
       "Line 6::AMPLIFi FX100",
       "Line 6::Floor POD Plus",
-      "Line 6::Helix Floor",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::M13",
       "Line 6::POD HD300",
@@ -190595,9 +190656,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 144,
-    "last_model": "Line 6::HX One",
-    "last_commit_parent": "45a7930fc164e948d5db94e1be5a25b35e55b12d",
+    "completed_model_count": 145,
+    "last_model": "Line 6::Helix Floor",
+    "last_commit_parent": "037171d7fddcedb4458144959de686ba55b4f915",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190637,7 +190698,6 @@
       "Lexicon::MX400",
       "Line 6::AMPLIFi FX100",
       "Line 6::Floor POD Plus",
-      "Line 6::Helix Floor",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::M13",
       "Line 6::POD HD300",
@@ -190859,7 +190919,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 144,
+    "pitch_completed_model_count": 145,
     "supplemental_model_count": 0
   },
   "model_images": {
