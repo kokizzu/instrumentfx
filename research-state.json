@@ -200204,11 +200204,44 @@
             "sha256": "a838b12acb1cbc6228a2be738f598604435317e669f0d71e3947471393790206"
           }
         }
+      },
+      "NUX::MFX-10": {
+        "model_key": "NUX::MFX-10",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://action-music.eu/cdn/shop/products/mfx-10-1-klein.jpg?v=1712840348&width=1946",
+            "source_url": "https://action-music.eu/products/gitarren-effektpedal-mfx-10",
+            "caption": "NUX MFX-10 — top controls",
+            "visual_checked": true,
+            "note": "Retailer overhead photograph shows the MFX-10 with color LCD illuminated on ROCK ACE and red preset display lit. Top controls and built-in expression pedal are visible; left outer edge is tightly cropped. The separately inspected manufacturer top photo is unlit, so this powered-display view is used instead. [Manufacturer unlit overhead image](https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MFX10.jpg).",
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "34769c7b24fb080522c17cffd5945c63e61e09317f671a61ced79ffa9c1cd55c"
+          },
+          "rear": {
+            "image_url": "https://guitarlicious-online.com/cdn/shop/files/NUX_MFX-10_2.jpg?v=1735378566&width=1946",
+            "source_url": "https://guitarlicious-online.com/products/nux-mfx-10-multi-effects-processor-pedal",
+            "caption": "NUX MFX-10 — rear ports",
+            "visual_checked": true,
+            "note": "Retailer rear photograph shows INPUT, AUX IN, LEFT/MONO and RIGHT amp/line outputs, PHONES, EXT.PEDAL marked GROUP UP/DOWN, DC9V500mA center-negative and power switch. No USB connector on this pictured panel. Display is hidden, so operating power cannot be confirmed.",
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "77559f9795bfebbbb5565a13b5fe40dc3747c77adc2e38d6729355785d318636"
+          }
+        },
+        "additional_inspected_images": [
+          {
+            "image_url": "https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MFX10.jpg",
+            "sha256": "4982d3aa801e2e49157305027e133d673f261cf58c328c37b3038c380ec49cf4",
+            "visual_checked": true
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MG-20"
+    "last_model": "NUX::MFX-10"
   }
 }

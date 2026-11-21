@@ -431,6 +431,26 @@ Sources checked:
 
 <!-- firmware-pitch:NUX::MFX-10 ends -->
 
+<!-- model-images:NUX::MFX-10 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**NUX MFX-10 — top controls**
+
+[![NUX MFX-10 — top controls](https://action-music.eu/cdn/shop/products/mfx-10-1-klein.jpg?v=1712840348&width=1946)](https://action-music.eu/cdn/shop/products/mfx-10-1-klein.jpg?v=1712840348&width=1946)
+
+[Image source](https://action-music.eu/products/gitarren-effektpedal-mfx-10). Retailer overhead photograph shows the MFX-10 with color LCD illuminated on ROCK ACE and red preset display lit. Top controls and built-in expression pedal are visible; left outer edge is tightly cropped. The separately inspected manufacturer top photo is unlit, so this powered-display view is used instead. [Manufacturer unlit overhead image](https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MFX10.jpg).
+
+**NUX MFX-10 — rear ports**
+
+[![NUX MFX-10 — rear ports](https://guitarlicious-online.com/cdn/shop/files/NUX_MFX-10_2.jpg?v=1735378566&width=1946)](https://guitarlicious-online.com/cdn/shop/files/NUX_MFX-10_2.jpg?v=1735378566&width=1946)
+
+[Image source](https://guitarlicious-online.com/products/nux-mfx-10-multi-effects-processor-pedal). Retailer rear photograph shows INPUT, AUX IN, LEFT/MONO and RIGHT amp/line outputs, PHONES, EXT.PEDAL marked GROUP UP/DOWN, DC9V500mA center-negative and power switch. No USB connector on this pictured panel. Display is hidden, so operating power cannot be confirmed.
+
+</details>
+<!-- model-images:NUX::MFX-10 ends -->
+
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->
