@@ -185329,10 +185329,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::RP155": {
+        "model_key": "DigiTech::RP155",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2009-01-15",
+          "precision": "day",
+          "kind": "trade_show_introduction_proxy",
+          "source_urls": [
+            "https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/"
+          ],
+          "note": "Contemporaneous Winter NAMM introduction report; exact first retail shipment unverified. Manual declaration dated January 2011 does not establish first launch."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://digitech.com/software-downloads/",
+            "https://digitech.com/dp/rp155/"
+          ],
+          "note": "Current official product/download listings provide X-Edit 2.7.0 Windows and 2.7.1 Intel Mac, not a dated RP155 device-firmware release. Latest firmware version/date and release-to-update span remain unverified; editor and manual revision dates are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift ±24 semitones; Detune ±24 cents; key/scale Harmony within ±1 octave; Whammy bends including ±1/±2 octaves and Dive Bomb. No explicit input-note polyphony guarantee in checked manual.",
+          "preset": "50 writable user plus 50 factory presets; user bank initially duplicates factory. Tone/Effects Library combinations are starting settings, not additional writable memories.",
+          "dsp": "Whammy, Pitch Shift, Detune and Harmony occupy the same single Chorus/FX slot, excluding other effects in that row. Eleven advertised simultaneous effects do not mean eleven pitch instances. No per-algorithm CPU percentage published in checked sources.",
+          "measurements": [],
+          "source_urls": [
+            "https://digitech.com/wp-content/uploads/2022/09/RP155_OM_EN.pdf",
+            "https://digitech.com/dp/rp155/"
+          ],
+          "notes": [
+            "RP155 has no integrated treadle; Control In supports external pedal operation. Newer standalone Whammy chord modes not transferred to this model."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/",
+            "title": "Winter NAMM 2009 RP series introduction",
+            "access": "Contemporaneous Sweetwater trade-show report",
+            "evidence": "January 15, 2009 RP155 introduction; not exact shipment confirmation."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer current index web text",
+            "evidence": "RP155 X-Edit editor versions; no dated device firmware entry."
+          },
+          {
+            "url": "https://digitech.com/dp/rp155/",
+            "title": "DigiTech RP155 product",
+            "access": "Manufacturer product web text",
+            "evidence": "Eleven simultaneous effects, 50 user/50 factory presets and editor listings."
+          },
+          {
+            "url": "https://digitech.com/wp-content/uploads/2022/09/RP155_OM_EN.pdf",
+            "title": "RP155 Owner Manual 18-6409V-B",
+            "access": "Manufacturer 52-page PDF web text",
+            "evidence": "Printed p27 one Chorus/FX choice; pp31–33 pitch ranges; memory and external Control In descriptions. No explicit pitch-input polyphony guarantee."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::RP155",
       "DigiTech::RP200",
       "DigiTech::RP250",
       "DigiTech::RP255",
@@ -185656,12 +185721,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 80,
-    "last_model": "DigiTech::RP150",
-    "last_commit_parent": "8e464cf7865f74e8d8c736c7b7f65d47f1644cb6",
+    "completed_model_count": 81,
+    "last_model": "DigiTech::RP155",
+    "last_commit_parent": "8b62c6aeac221fcf8e3a1d8479cd406d0f22d846",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::RP155",
       "DigiTech::RP200",
       "DigiTech::RP250",
       "DigiTech::RP255",
@@ -185984,7 +186048,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 80,
+    "pitch_completed_model_count": 81,
     "supplemental_model_count": 0
   }
 }

@@ -880,6 +880,31 @@ Checked2026-10-19 against [own RevB manual](https://digitech.com/wp-content/uplo
 
 ## RP155
 
+<!-- firmware-pitch:DigiTech::RP155 begins -->
+### Firmware and pitch audit — DigiTech RP155
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2009-01-15 (trade show introduction proxy). Contemporaneous Winter NAMM introduction report; exact first retail shipment unverified. Manual declaration dated January 2011 does not establish first launch. [launch 1](https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/) |
+| Firmware / latest verification | Not verified — Unverified. Current official product/download listings provide X-Edit 2.7.0 Windows and 2.7.1 Intel Mac, not a dated RP155 device-firmware release. Latest firmware version/date and release-to-update span remain unverified; editor and manual revision dates are separate. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://digitech.com/dp/rp155/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift ±24 semitones; Detune ±24 cents; key/scale Harmony within ±1 octave; Whammy bends including ±1/±2 octaves and Dive Bomb. No explicit input-note polyphony guarantee in checked manual. [pitch 1](https://digitech.com/wp-content/uploads/2022/09/RP155_OM_EN.pdf) [pitch 2](https://digitech.com/dp/rp155/) |
+| Pitch / preset recall | 50 writable user plus 50 factory presets; user bank initially duplicates factory. Tone/Effects Library combinations are starting settings, not additional writable memories. |
+| Pitch / DSP resources | Whammy, Pitch Shift, Detune and Harmony occupy the same single Chorus/FX slot, excluding other effects in that row. Eleven advertised simultaneous effects do not mean eleven pitch instances. No per-algorithm CPU percentage published in checked sources. |
+| Pitch / qualifications | RP155 has no integrated treadle; Control In supports external pedal operation. Newer standalone Whammy chord modes not transferred to this model. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Winter NAMM 2009 RP series introduction](https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/) — January 15, 2009 RP155 introduction; not exact shipment confirmation. (Contemporaneous Sweetwater trade-show report).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — RP155 X-Edit editor versions; no dated device firmware entry. (Manufacturer current index web text).
+- [DigiTech RP155 product](https://digitech.com/dp/rp155/) — Eleven simultaneous effects, 50 user/50 factory presets and editor listings. (Manufacturer product web text).
+- [RP155 Owner Manual 18-6409V-B](https://digitech.com/wp-content/uploads/2022/09/RP155_OM_EN.pdf) — Printed p27 one Chorus/FX choice; pp31–33 pitch ranges; memory and external Control In descriptions. No explicit pitch-input polyphony guarantee. (Manufacturer 52-page PDF web text).
+
+<!-- firmware-pitch:DigiTech::RP155 ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**, partial. Manufacturer-confirmed guitar multi-effects processor, separate from RP150/RP255/RP355. The Shopee lead’s hardware identity remains unconfirmed.
 
