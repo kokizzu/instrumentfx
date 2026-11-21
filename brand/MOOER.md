@@ -3882,6 +3882,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::Ocean Machine original ends -->
 
+<!-- model-images:MOOER::Ocean Machine original begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Original Ocean Machine — top controls**
+
+[![Original Ocean Machine — top controls](https://www.tammerpianojasoitin.fi/WebRoot/Capnova/Shops/17042015-9511/5A00/68F8/D731/6ECA/F39B/0A28/1017/BF14/ocean_machine.jpg)](https://www.tammerpianojasoitin.fi/WebRoot/Capnova/Shops/17042015-9511/5A00/68F8/D731/6ECA/F39B/0A28/1017/BF14/ocean_machine.jpg)
+
+[Image source](https://www.tammerpianojasoitin.fi/MOOER-Ocean-Machine). Visually inspected original blue Ocean Machine overhead product image; active LCD effect screen and illuminated footswitch rings are visible. Retailer-hosted promotional photo, not independent device testing; 500px image limits small-label detail.
+
+**Original Ocean Machine — rear ports**
+
+[![Original Ocean Machine — rear ports](https://www.tammerpianojasoitin.fi/WebRoot/Capnova/Shops/17042015-9511/5A00/68F8/D731/6ECA/F39B/0A28/1017/BF14/ocean3.jpg)](https://www.tammerpianojasoitin.fi/WebRoot/Capnova/Shops/17042015-9511/5A00/68F8/D731/6ECA/F39B/0A28/1017/BF14/ocean3.jpg)
+
+[Image source](https://www.tammerpianojasoitin.fi/MOOER-Ocean-Machine). Visually inspected original blue model rear: EXP, stereo input/output, MIDI Thru/In and DC9V500mA connectors. No USB-C socket; original firmware updates require an external USB-MIDI interface.
+
+</details>
+<!-- model-images:MOOER::Ocean Machine original ends -->
+
+
 Checked2026-10-18;partial. Original model,not Ocean Machine II. Independent delays plus reverb qualify as effects-only guitar multi-effects. Bass/vocal suitability andownership unverified.
 
 | Field | Evidence / qualification |

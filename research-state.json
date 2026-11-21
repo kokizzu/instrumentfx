@@ -198966,11 +198966,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "MOOER::Ocean Machine original": {
+        "model_key": "MOOER::Ocean Machine original",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.tammerpianojasoitin.fi/WebRoot/Capnova/Shops/17042015-9511/5A00/68F8/D731/6ECA/F39B/0A28/1017/BF14/ocean_machine.jpg",
+            "source_url": "https://www.tammerpianojasoitin.fi/MOOER-Ocean-Machine",
+            "caption": "Original Ocean Machine — top controls",
+            "note": "Visually inspected original blue Ocean Machine overhead product image; active LCD effect screen and illuminated footswitch rings are visible. Retailer-hosted promotional photo, not independent device testing; 500px image limits small-label detail.",
+            "visual_checked": true,
+            "sha256": "36c194bc8f2a7c3ed4ef21bedd8cbea08c3e2b1a918b49c1d94a2a5e21923842",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.tammerpianojasoitin.fi/WebRoot/Capnova/Shops/17042015-9511/5A00/68F8/D731/6ECA/F39B/0A28/1017/BF14/ocean3.jpg",
+            "source_url": "https://www.tammerpianojasoitin.fi/MOOER-Ocean-Machine",
+            "caption": "Original Ocean Machine — rear ports",
+            "note": "Visually inspected original blue model rear: EXP, stereo input/output, MIDI Thru/In and DC9V500mA connectors. No USB-C socket; original firmware updates require an external USB-MIDI interface.",
+            "visual_checked": true,
+            "sha256": "cc6ddadadb2810864903264abe9e5ab9e77d55f14c005ad05b4e6d62a199c12f",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::Ocean Machine II"
+    "last_model": "MOOER::Ocean Machine original"
   }
 }
