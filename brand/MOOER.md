@@ -3827,6 +3827,31 @@ Preset-selection screen:DelayB previous,DelayA next;Patch Control instead toggle
 
 ## PE100
 
+<!-- firmware-pitch:MOOER::PE100 begins -->
+### Firmware and pitch audit — MOOER PE100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact first production announcement/shipment not established. The saved 2016 exhibition/preview lead must not be silently treated as retail release; later 2017 availability remains a separate lead. [launch 1](https://www.mooeraudio.com/product/PE100-166.html) |
+| Firmware / latest verification | Not verified — Unverified. No dated device firmware or user update procedure located in the checked product, manual and four-page download catalogue. This does not prove non-updatability. The product offers a manual, not a verified firmware package; no release-to-update span can be calculated. [firmware 1](https://www.mooeraudio.com/product/PE100-166.html) [firmware 2](https://www.mooeraudio.com/Downloads.html) [firmware 3](https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH appears in the MOD inventory. Polyphonic/monophonic tracking, interval range and wet-only transposition are not specified. [pitch 1](https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf) [pitch 2](https://mooer.jp/products/mooerpe100) |
+| Pitch / preset recall | Edited tones save to U01–U99; P01–P99 are factory-only. A–D recall four selected presets, not four extra user memories. |
+| Pitch / DSP resources | Six fixed effect categories; PITCH occupies the MOD choice, excluding another MOD selection. No isolated CPU percentage, dynamic DSP meter or resource measurement located. |
+| Pitch / qualifications | No independent PE100 pitch-quality or latency measurement. The vague manual description does not establish reliable whole-chord retuning. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [PE100 manufacturer product](https://www.mooeraudio.com/product/PE100-166.html) — Six categories; analog and DC connectors; manual filename. No firmware release date shown. (Opened product and connector/download text).
+- [PE100 manufacturer-authored English owner manual](https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf) — PE100 identity; MOD PITCH, preset saving and fixed-category chain. System settings describe output/display/reset, without an updater. (20-page PDF text read, printed pp3–7,9–10,14–15).
+- [MOOER download catalogue](https://www.mooeraudio.com/Downloads.html) — No PE100 firmware entry located; absence is not proof of a non-updatable device. (All four pagination bodies checked, including /Downloads/p-8-8.html, /Downloads/p-16-8.html and /Downloads/p-24-8.html).
+- [PE100 manufacturer-linked Japanese regional product](https://mooer.jp/products/mooerpe100) — Six simultaneous effects, 99 factory plus 99 user presets. (Exact model page read).
+
+<!-- firmware-pitch:MOOER::PE100 ends -->
+
 Portable desktop guitar multi-effects; first pass checked **2026-10-17**. Separate from GE100 and ordinary single-function pedals. Bass suitability is unresolved; no vocal processing claim. No ownership is inferred from discovery.
 
 <!-- comparison evidence begins -->

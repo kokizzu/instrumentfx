@@ -194547,6 +194547,73 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::PE100": {
+        "model_key": "MOOER::PE100",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "production_release_unresolved",
+          "source_urls": [
+            "https://www.mooeraudio.com/product/PE100-166.html"
+          ],
+          "note": "Exact first production announcement/shipment not established. The saved 2016 exhibition/preview lead must not be silently treated as retail release; later 2017 availability remains a separate lead."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.mooeraudio.com/product/PE100-166.html",
+            "https://www.mooeraudio.com/Downloads.html",
+            "https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf"
+          ],
+          "note": "No dated device firmware or user update procedure located in the checked product, manual and four-page download catalogue. This does not prove non-updatability. The product offers a manual, not a verified firmware package; no release-to-update span can be calculated."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PITCH appears in the MOD inventory. Polyphonic/monophonic tracking, interval range and wet-only transposition are not specified.",
+          "preset": "Edited tones save to U01–U99; P01–P99 are factory-only. A–D recall four selected presets, not four extra user memories.",
+          "dsp": "Six fixed effect categories; PITCH occupies the MOD choice, excluding another MOD selection. No isolated CPU percentage, dynamic DSP meter or resource measurement located.",
+          "source_urls": [
+            "https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf",
+            "https://mooer.jp/products/mooerpe100"
+          ],
+          "notes": [
+            "No independent PE100 pitch-quality or latency measurement. The vague manual description does not establish reliable whole-chord retuning."
+          ],
+          "measurements": []
+        },
+        "sources": [
+          {
+            "url": "https://www.mooeraudio.com/product/PE100-166.html",
+            "title": "PE100 manufacturer product",
+            "access": "Opened product and connector/download text",
+            "evidence": "Six categories; analog and DC connectors; manual filename. No firmware release date shown."
+          },
+          {
+            "url": "https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf",
+            "title": "PE100 manufacturer-authored English owner manual",
+            "access": "20-page PDF text read, printed pp3–7,9–10,14–15",
+            "evidence": "PE100 identity; MOD PITCH, preset saving and fixed-category chain. System settings describe output/display/reset, without an updater."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads.html",
+            "title": "MOOER download catalogue",
+            "access": "All four pagination bodies checked, including /Downloads/p-8-8.html, /Downloads/p-16-8.html and /Downloads/p-24-8.html",
+            "evidence": "No PE100 firmware entry located; absence is not proof of a non-updatable device."
+          },
+          {
+            "url": "https://mooer.jp/products/mooerpe100",
+            "title": "PE100 manufacturer-linked Japanese regional product",
+            "access": "Exact model page read",
+            "evidence": "Six simultaneous effects, 99 factory plus 99 user presets."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -194578,7 +194645,6 @@
       "MOOER::Black Truck",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
-      "MOOER::PE100",
       "MOOER::Prime M1",
       "MOOER::Prime M2",
       "MOOER::Prime P1",
@@ -194755,9 +194821,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 199,
-    "last_model": "MOOER::GE100 Pro Li",
-    "last_commit_parent": "c723607be52a91c11dd7f0f1bca5127c95fd3323",
+    "completed_model_count": 200,
+    "last_model": "MOOER::PE100",
+    "last_commit_parent": "b2c2885ca7eccb3c8c730fb5539a491c23677aee",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -194788,7 +194854,6 @@
       "MOOER::Black Truck",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
-      "MOOER::PE100",
       "MOOER::Prime M1",
       "MOOER::Prime M2",
       "MOOER::Prime P1",
@@ -194964,7 +195029,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 199,
+    "pitch_completed_model_count": 200,
     "supplemental_model_count": 0
   },
   "model_images": {
