@@ -198364,11 +198364,42 @@
             "sha256": "083e1d7416f4cdb3ead6913ee66d932eaecb7376c2ed1d7490db2ede0551a7c1"
           }
         }
+      },
+      "MOOER::Prime P2": {
+        "model_key": "MOOER::Prime P2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/Prime-P2-Black-01.png?v=1698731645&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-prime-p2",
+            "caption": "MOOER Prime P2 powered-on top view",
+            "note": "Visually inspected exact black P2 powered-on face view with illuminated 1A Modern Hi gain preset, A–D selection and green strip. Slightly oblique near-overhead view; strictly perpendicular overhead photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "e0081a201f480a00bfcf0428b3c9c6de4843ca95edf5e9f351777fb8cdcc5156"
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/Prime-P2-Black-05.png?v=1698731645&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-prime-p2",
+            "caption": "MOOER Prime P2 connector views",
+            "note": "Visually inspected angled connector view showing audio input/output and phones at one end, plus side MIDI IN, USB-C, power/lock button and reset pinhole. Also inspected the [straight audio-end view](https://mooer.jp/cdn/shop/files/Prime-P2-Black-02.png?v=1698731645&width=1445); both views are exact black P2. Connector functions follow the model manual, not shape alone.",
+            "visual_checked": true,
+            "sha256": "ef2cf4436344205a7736a20086ca09e427c15858054043da0b208027929570c2",
+            "additional_inspected_images": [
+              {
+                "image_url": "https://mooer.jp/cdn/shop/files/Prime-P2-Black-02.png?v=1698731645&width=1445",
+                "sha256": "ce41de079ef30f7a60baeaad0e242bea209108483341a090e427d57877f49dc9",
+                "visual_checked": true
+              }
+            ]
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::Red Truck"
+    "last_model": "MOOER::Prime P2"
   }
 }

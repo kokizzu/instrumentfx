@@ -4143,6 +4143,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::Prime P2 ends -->
 
+<!-- model-images:MOOER::Prime P2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER Prime P2 powered-on top view**
+
+[![MOOER Prime P2 powered-on top view](https://mooer.jp/cdn/shop/files/Prime-P2-Black-01.png?v=1698731645&width=1445)](https://mooer.jp/cdn/shop/files/Prime-P2-Black-01.png?v=1698731645&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-prime-p2). Visually inspected exact black P2 powered-on face view with illuminated 1A Modern Hi gain preset, A–D selection and green strip. Slightly oblique near-overhead view; strictly perpendicular overhead photograph remains pending.
+
+**MOOER Prime P2 connector views**
+
+[![MOOER Prime P2 connector views](https://mooer.jp/cdn/shop/files/Prime-P2-Black-05.png?v=1698731645&width=1445)](https://mooer.jp/cdn/shop/files/Prime-P2-Black-05.png?v=1698731645&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-prime-p2). Visually inspected angled connector view showing audio input/output and phones at one end, plus side MIDI IN, USB-C, power/lock button and reset pinhole. Also inspected the [straight audio-end view](https://mooer.jp/cdn/shop/files/Prime-P2-Black-02.png?v=1698731645&width=1445); both views are exact black P2. Connector functions follow the model manual, not shape alone.
+
+</details>
+<!-- model-images:MOOER::Prime P2 ends -->
+
+
 Checked 2026-10-17; partial. Guitar multi-effects with documented bass updates and a processed headset-microphone path. Original manufacturer manual V01.2023.09.21 is hosted by RockBoard; newer firmware changes supersede historical counts and gestures where specified.
 
 | Field | Finding |
