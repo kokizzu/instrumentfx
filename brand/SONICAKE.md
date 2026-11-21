@@ -824,6 +824,26 @@ Sources checked:
 
 <!-- firmware-pitch:Sonicake::Smart Box QME-20 ends -->
 
+<!-- model-images:Sonicake::Smart Box QME-20 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Smart Box QME-20 powered overhead**
+
+[![Smart Box QME-20 powered overhead](https://www.sonicake.com/cdn/shop/files/QME-20-1.jpg?v=1767506736&width=1096)](https://www.sonicake.com/cdn/shop/files/QME-20-1.jpg?v=1767506736&width=1096)
+
+[Image source](https://www.sonicake.com/products/smart-box). Visually inspected manufacturer exact overhead with lit color screen, module buttons and footswitch rings. One rotary, two footswitches and thirteen separate panel buttons; no built-in expression. Marketing image does not identify installed firmware.
+
+**Smart Box QME-20 complete rear ports**
+
+[![Smart Box QME-20 complete rear ports](https://www.hotone.jp/images/brands/sonicake/smartbox/control_02.webp)](https://www.hotone.jp/images/brands/sonicake/smartbox/control_02.webp)
+
+[Image source](https://www.hotone.jp/brands/sonicake/products/smartbox). Visually inspected distributor rear image: EXP/FS, IN, single OUT marked STEREO, PHONES, USB-C, power button and9V center-negative DC inlet. The stereo output is one TRS jack, not two main output sockets; no dedicated AUX/MIDI-DIN/loop ports shown. USB audio/MIDI/power support comes from separate manual evidence.
+
+</details>
+<!-- model-images:Sonicake::Smart Box QME-20 ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Existing review2026-10-14.**

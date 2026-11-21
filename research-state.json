@@ -203365,11 +203365,57 @@
             "exact_top_down": false
           }
         }
+      },
+      "Sonicake::Smart Box QME-20": {
+        "model_key": "Sonicake::Smart Box QME-20",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QME-20-1.jpg?v=1767506736&width=1096",
+            "source_url": "https://www.sonicake.com/products/smart-box",
+            "caption": "Smart Box QME-20 powered overhead",
+            "note": "Visually inspected manufacturer exact overhead with lit color screen, module buttons and footswitch rings. One rotary, two footswitches and thirteen separate panel buttons; no built-in expression. Marketing image does not identify installed firmware.",
+            "visual_checked": true,
+            "sha256": "54c2c5f08cc1735854072e66e5f37514d2ac5b8161100bb42d081e9a6efb526e",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.hotone.jp/images/brands/sonicake/smartbox/control_02.webp",
+            "source_url": "https://www.hotone.jp/brands/sonicake/products/smartbox",
+            "caption": "Smart Box QME-20 complete rear ports",
+            "note": "Visually inspected distributor rear image: EXP/FS, IN, single OUT marked STEREO, PHONES, USB-C, power button and9V center-negative DC inlet. The stereo output is one TRS jack, not two main output sockets; no dedicated AUX/MIDI-DIN/loop ports shown. USB audio/MIDI/power support comes from separate manual evidence.",
+            "visual_checked": true,
+            "sha256": "c81bf3e0cbca35c2fb237af62d05ce961d94e4ded677f401b04200b7b5ed5d5a",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QME-20-7.jpg?v=1767506735&width=1096",
+            "sha256": "86c286e19499ccdaef71d2d260394cf475e755220019cfbadfb7babb8e2b7f38",
+            "visual_checked": true,
+            "note": "Powered lifestyle rear angle; plugged cables obscure jack labels, not selected as full connector evidence."
+          },
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QME-20-2.jpg?v=1767506735&width=1096",
+            "sha256": "83b8e9054451ab52c51a17faf3359ee4f6b81c03b18c00906c0393b76672f0df",
+            "visual_checked": true,
+            "note": "Powered angled top on guitar, no rear connectors."
+          },
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QME-20-5.jpg?v=1767506735&width=1096",
+            "sha256": "94b1f95ac66f65e3462215ba9d299c489571f03ebec13174a3911e2f7fdc59e6",
+            "visual_checked": true,
+            "note": "Effects matrix graphic with angled top only, not rear connectors."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::Matribox QME-50"
+    "last_model": "Sonicake::Smart Box QME-20"
   }
 }
