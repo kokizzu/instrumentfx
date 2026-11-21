@@ -205314,11 +205314,45 @@
             "note": "IR-import marketing front angle; no sockets."
           }
         ]
+      },
+      "Lexicon::MPX100": {
+        "model_key": "Lexicon::MPX100",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/lexicon-mpx-100-6503443.jpeg",
+            "source_url": "https://en.audiofanzine.com/multi-effects-processor/lexicon/MPX-100/",
+            "caption": "Lexicon MPX100 complete control-face photograph: seven rotary controls, Bypass, Store and Tap buttons; no screen.",
+            "note": "Exact MPX100 wordmark and panel layout visually match the manual. Colored indicator lenses are visible, but illumination is not established, so powered-on remains a gap. Upright rack front view is not perpendicular overhead. No firmware version is shown.",
+            "visual_checked": true,
+            "sha256": "14aca55a15437f1e2717dcd4c97bbca60d1bfbf540b18f87a5b1cdc12f3d9be5",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/lexicon-mpx-100-5681196.jpg",
+            "source_url": "https://en.audiofanzine.com/multi-effects-processor/lexicon/MPX-100/",
+            "caption": "MPX100 rear connectors: external AC power, tap/bypass footswitch, MIDI OUT/THRU and IN, S/PDIF output, L/R analog outputs and inputs.",
+            "note": "All connector groups visible and unplugged. Power label reads9VAC,1A,50–60Hz; this is the photographed hardware label, alongside previously retained service-document1.9A supply guidance. Left output marked PHONES and right output/input MONO; there is no separate headphone socket,USB,XLR or analog continuous-expression jack. Rear photo has substantial background and slightly soft text, but actual socket inventory is visible.",
+            "visual_checked": true,
+            "sha256": "fb44cfa0939398242234d2feb61bc4619be1c9135b1cfb9daed66391ec4e5fc7",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://medias.audiofanzine.com/images/normal/lexicon-mpx-100-5683669.jpg",
+            "sha256": "c7314ca0723f915ade995deb2cba64ac2ca3d08e2d33608933cd60bc656d5756",
+            "visual_checked": true,
+            "note": "Complete front photograph under colored room lighting; indicator illumination cannot be reliably distinguished."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "LEKATO::ME-01"
+    "last_model": "Lexicon::MPX100"
   }
 }

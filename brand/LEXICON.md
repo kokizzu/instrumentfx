@@ -38,6 +38,26 @@ Sources checked:
 
 <!-- firmware-pitch:Lexicon::MPX100 ends -->
 
+<!-- model-images:Lexicon::MPX100 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Lexicon MPX100 complete control-face photograph: seven rotary controls, Bypass, Store and Tap buttons; no screen.**
+
+[![Lexicon MPX100 complete control-face photograph: seven rotary controls, Bypass, Store and Tap buttons; no screen.](https://medias.audiofanzine.com/images/normal/lexicon-mpx-100-6503443.jpeg)](https://medias.audiofanzine.com/images/normal/lexicon-mpx-100-6503443.jpeg)
+
+[Image source](https://en.audiofanzine.com/multi-effects-processor/lexicon/MPX-100/). Exact MPX100 wordmark and panel layout visually match the manual. Colored indicator lenses are visible, but illumination is not established, so powered-on remains a gap. Upright rack front view is not perpendicular overhead. No firmware version is shown.
+
+**MPX100 rear connectors: external AC power, tap/bypass footswitch, MIDI OUT/THRU and IN, S/PDIF output, L/R analog outputs and inputs.**
+
+[![MPX100 rear connectors: external AC power, tap/bypass footswitch, MIDI OUT/THRU and IN, S/PDIF output, L/R analog outputs and inputs.](https://medias.audiofanzine.com/images/normal/lexicon-mpx-100-5681196.jpg)](https://medias.audiofanzine.com/images/normal/lexicon-mpx-100-5681196.jpg)
+
+[Image source](https://en.audiofanzine.com/multi-effects-processor/lexicon/MPX-100/). All connector groups visible and unplugged. Power label reads9VAC,1A,50–60Hz; this is the photographed hardware label, alongside previously retained service-document1.9A supply guidance. Left output marked PHONES and right output/input MONO; there is no separate headphone socket,USB,XLR or analog continuous-expression jack. Rear photo has substantial background and slightly soft text, but actual socket inventory is visible.
+
+</details>
+<!-- model-images:Lexicon::MPX100 ends -->
+
+
 <!-- comparison evidence begins -->
 Checked2026-10-17. Partial guitar/vocal dual-channel multi-effects;notMPX110/MX200. [Manufacturer User Guide onmirror](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf),55pages,©1998,part070-11935. Official product/manual pages403;webtext only,no download/visualaudit.
 
