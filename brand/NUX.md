@@ -1094,6 +1094,26 @@ Sources checked:
 
 <!-- firmware-pitch:NUX::MG-101 ends -->
 
+<!-- model-images:NUX::MG-101 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**NUX MG-101 — top controls**
+
+[![NUX MG-101 — top controls](https://www.nux.us/cdn/shop/files/MG-101.01.jpg?v=1771628910&width=2400)](https://www.nux.us/cdn/shop/files/MG-101.01.jpg?v=1771628910&width=2400)
+
+[Image source](https://www.nux.us/products/mg-101). Visually inspected official MG-101 overhead product image: color LCD displays patch 8D, 70’s Hard Rock, and the ten-block strip. Promotional image shows an active screen; no independent powered device test.
+
+**NUX MG-101 — rear ports**
+
+[![NUX MG-101 — rear ports](https://www.nux.us/cdn/shop/files/MG-101.05.jpg?v=1771628910&width=2400)](https://www.nux.us/cdn/shop/files/MG-101.05.jpg?v=1771628910&width=2400)
+
+[Image source](https://www.nux.us/products/mg-101). Visually inspected rear view: Input, Output, AUX In, Phones (TRRS), USB-C and center-negative DC9V labels are clear. Connector appearance alone does not establish USB powering.
+
+</details>
+<!-- model-images:NUX::MG-101 ends -->
+
+
 <!-- comparison evidence begins -->
 **Existing technical review2026-10-14.** [Official model](https://nuxaudio.com/product/mg101/).
 
