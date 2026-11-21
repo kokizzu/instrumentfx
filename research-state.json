@@ -184222,10 +184222,72 @@
           "label": "8.00–8.08 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::Pocket GT": {
+        "model_key": "BOSS::Pocket GT",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2020-09-17",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2020/BOSS_Introduces_Pocket_GT_Guitar_Effects_Processor/"
+          ],
+          "note": "Announcement date; planned September/October 2020 availability, not a verified exact first shipment."
+        },
+        "firmware": {
+          "version": "1.30",
+          "date": "2022-11",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/af1be664-80a3-453c-bbad-877c5b631882/"
+          ],
+          "note": "November 2022 adds FS-1-WL support with Tone Studio 1.3.0 or later. 1.20 October 2021 added EV-1-WL control of PEDAL FX/volume and switches. 1.03/1.10 have no functional differences; editor 1.3.4 is separate from device firmware."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shifter ±24 semitones with fine, pre-delay and feedback; input polyphony unspecified. Harmonist explicitly requires single notes. Separate Pedal Bend ±24 semitones also disallows chords. Octave and Overtone available; no sibling polyphony claims transferred.",
+          "preset": "99 factory-filled writable user memories, not 99 user plus a protected preset bank.",
+          "dsp": "Same effect selectable in FX1 and FX2; pitch algorithms share these slots with other FX types. Pedal Bend uses separate PEDAL FX. No published pitch CPU percentage or numerical allocation table found.",
+          "measurements": [],
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/Pocket-GT_param_eng02_W.pdf",
+            "https://www.roland.com/us/company/press_releases/2020/BOSS_Introduces_Pocket_GT_Guitar_Effects_Processor/"
+          ],
+          "notes": [
+            "Wireless expression control requires firmware 1.20 or later for EV-1-WL; physical pedal/socket assumptions are not borrowed from GT-1. Shared engine does not establish identical tracking or DSP resources."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2020/BOSS_Introduces_Pocket_GT_Guitar_Effects_Processor/",
+            "title": "BOSS introduces Pocket GT guitar effects processor",
+            "access": "Manufacturer press release web text",
+            "evidence": "September 17, 2020 announcement, planned September/October availability and 99 factory-filled user memories."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/af1be664-80a3-453c-bbad-877c5b631882/",
+            "title": "Pocket GT System Program 1.30",
+            "access": "Manufacturer release notes and current support index",
+            "evidence": "November 2022 FS-1-WL support; October 2021 EV-1-WL support; 1.03/1.10 functional equivalence."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/Pocket-GT_param_eng02_W.pdf",
+            "title": "Pocket GT Parameter Guide revision 02",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Pages 3,6,9: duplicable FX1/FX2, Pitch Shifter parameters, monophonic Harmonist/Pedal Bend and EV-1-WL version requirement."
+          }
+        ],
+        "duration": {
+          "minimum_days": 775,
+          "maximum_days": 804,
+          "label": "2.12–2.20 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::Pocket GT",
       "BOSS::SE-50",
       "BOSS::VE-1",
       "BOSS::VE-2",
@@ -184566,12 +184628,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 63,
-    "last_model": "BOSS::MS-3",
-    "last_commit_parent": "cd948731c10a9850a16640f8ddfdea195539c04d",
+    "completed_model_count": 64,
+    "last_model": "BOSS::Pocket GT",
+    "last_commit_parent": "de2b43d8469813e1fd8becca3284a782ef71a622",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::Pocket GT",
       "BOSS::SE-50",
       "BOSS::VE-1",
       "BOSS::VE-2",
@@ -184911,7 +184972,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 63,
+    "pitch_completed_model_count": 64,
     "supplemental_model_count": 0
   }
 }

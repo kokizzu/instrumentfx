@@ -5931,6 +5931,30 @@ A following mono effect orexternal loop removes documented stereo effects. No tr
 
 ## Pocket GT
 
+<!-- firmware-pitch:BOSS::Pocket GT begins -->
+### Firmware and pitch audit — BOSS Pocket GT
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2020-09-17 (manufacturer announcement proxy). Announcement date; planned September/October 2020 availability, not a verified exact first shipment. [launch 1](https://www.roland.com/us/company/press_releases/2020/BOSS_Introduces_Pocket_GT_Guitar_Effects_Processor/) |
+| Firmware / latest verification | 1.30 — Latest verified. November 2022 adds FS-1-WL support with Tone Studio 1.3.0 or later. 1.20 October 2021 added EV-1-WL control of PEDAL FX/volume and switches. 1.03/1.10 have no functional differences; editor 1.3.4 is separate from device firmware. [firmware 1](https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/af1be664-80a3-453c-bbad-877c5b631882/) |
+| Firmware / release date | 2022-11 (month precision) |
+| Firmware / release-to-update duration | 2.12–2.20 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter ±24 semitones with fine, pre-delay and feedback; input polyphony unspecified. Harmonist explicitly requires single notes. Separate Pedal Bend ±24 semitones also disallows chords. Octave and Overtone available; no sibling polyphony claims transferred. [pitch 1](https://static.roland.com/assets/media/pdf/Pocket-GT_param_eng02_W.pdf) [pitch 2](https://www.roland.com/us/company/press_releases/2020/BOSS_Introduces_Pocket_GT_Guitar_Effects_Processor/) |
+| Pitch / preset recall | 99 factory-filled writable user memories, not 99 user plus a protected preset bank. |
+| Pitch / DSP resources | Same effect selectable in FX1 and FX2; pitch algorithms share these slots with other FX types. Pedal Bend uses separate PEDAL FX. No published pitch CPU percentage or numerical allocation table found. |
+| Pitch / qualifications | Wireless expression control requires firmware 1.20 or later for EV-1-WL; physical pedal/socket assumptions are not borrowed from GT-1. Shared engine does not establish identical tracking or DSP resources. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS introduces Pocket GT guitar effects processor](https://www.roland.com/us/company/press_releases/2020/BOSS_Introduces_Pocket_GT_Guitar_Effects_Processor/) — September 17, 2020 announcement, planned September/October availability and 99 factory-filled user memories. (Manufacturer press release web text).
+- [Pocket GT System Program 1.30](https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/af1be664-80a3-453c-bbad-877c5b631882/) — November 2022 FS-1-WL support; October 2021 EV-1-WL support; 1.03/1.10 functional equivalence. (Manufacturer release notes and current support index).
+- [Pocket GT Parameter Guide revision 02](https://static.roland.com/assets/media/pdf/Pocket-GT_param_eng02_W.pdf) — Pages 3,6,9: duplicable FX1/FX2, Pitch Shifter parameters, monophonic Harmonist/Pedal Bend and EV-1-WL version requirement. (Manufacturer PDF web text).
+
+<!-- firmware-pitch:BOSS::Pocket GT ends -->
+
 Handheld guitar multi-effects;distinctfromLine6PocketPOD/BOSSGT1. Checked2026-10-17;partial. Ownership/vocalsuitability unknown. BasscapabilityexplicitinownParameterGuidepresets71–90.
 
 | Field | Finding / qualification | Evidence |
