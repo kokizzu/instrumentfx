@@ -434,6 +434,32 @@ Footswitches perform section bypass,tap andReverb Freeze;**preset down/up is not
 
 ## Tiny Stomp
 
+<!-- firmware-pitch:Soran::Tiny Stomp begins -->
+### Firmware and pitch audit — Soran Tiny Stomp
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Undated product page; manual upload date and later color-variant announcements do not establish original hardware launch. [launch 1](https://soranaudio.com/products/34.html) |
+| Firmware / latest verification | 1.1.1 — Latest verified. Latest located official device release; exact Tiny support section lists DFU1.1.1. Same-date Learn video heading says1.1.0,while release title and startup version instruction explicitly say1.1.1. Includes Tiny external dual-footswitch fix. No first launch date,so span remains unknown. No update installed. [firmware 1](https://soranaudio.com/article/127.html) [firmware 2](https://www.soranaudio.com/Download.html) [firmware 3](https://www.soranaudio.com/category/9.html) |
+| Firmware / release date | 2026-05-27 (day precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD offers Harmony (shifted note above/below input) and Detune; REV offers Shimmer (pitched reverb tail). Major/Minor Harmony fix documented in1.1.1. Input-note polyphony,interval limits and standalone transpose behavior remain unverified. [pitch 1](https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf) [pitch 2](https://soranaudio.com/article/127.html) [pitch 3](https://soranaudio.com/products/34.html) |
+| Pitch / preset recall | 99 editable preset locations;not99 factory plus99 user slots. Exact firmware-matched Harmony parameter recall not device-tested. Updates retain presets but erase importedNAM/IR;factory reset deletes user data. |
+| Pitch / DSP resources | No numerical pitch DSP/CPU cost or meter measurement located. Harmony and Detune are alternatives within MOD;Shimmer belongs to REV. Eight tone modules plus looper/drums do not establish10% DSP per module or simultaneous independent Harmony+Detune blocks. |
+| Pitch / qualifications | Manual Tiny-specific update entry uses Left+Right hand buttons;shared release-note wording about two footswitches is not transferred to this desktop hardware. USB MIDI requires an external USB-host controller;the device is a peripheral. No hardware performance test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Soran Tiny Stomp manufacturer product](https://soranaudio.com/products/34.html) — 99 locations,ten modules,DFU1.1.1 listed separately from editor/driver versions;no launch date. (Exact-model manufacturer indexed text inspected).
+- [Soran Tiny Stomp original JME-03A manual](https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf) — Harmony/Detune inMOD;Shimmer inREV;Tiny DFU entry uses Left+Right buttons. No explicit input polyphony or numeric DSP utilization. (Manufacturer PDF original text inspected,printedpp25–26 and update section).
+- [Soran Stomp family V1.1.1 release notes](https://soranaudio.com/article/127.html) — May27,2026;Harmony Major/Minor and Tiny TRS dual-switch fixes;retains presets,erases imported models/IR;reset deletes data. (Manufacturer dated release text inspected).
+- [Soran official download index — Tiny Stomp](https://www.soranaudio.com/Download.html) — Tiny DFU1.1.1;manual/editor/driver are separately versioned. (Current exact-model indexed section inspected).
+- [Soran Learn index](https://www.soranaudio.com/category/9.html) — Same-date video heading says1.1.0;explicit release-note title/startup instruction says1.1.1. (Manufacturer indexed heading inspected).
+
+<!-- firmware-pitch:Soran::Tiny Stomp ends -->
+
 Desktop guitar/bass multi-effects;checked2026-10-18,partial. Own manufacturer manual read as PDF text;no image audit or downloads. Distinct from Dual Stomp/Lite.
 
 | Field | Finding / qualification |
