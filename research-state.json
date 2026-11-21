@@ -190943,6 +190943,89 @@
           "label": "6.79 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "GFI System::Solis Ventus": {
+        "model_key": "GFI System::Solis Ventus",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2024-12",
+          "precision": "month",
+          "kind": "retailer_availability_month",
+          "source_urls": [
+            "https://www.thomann.nl/gfi_system_solis_ventus_reverb_delay.htm"
+          ],
+          "note": "Thomann reports available since December 2024. Retailer availability proxy, not a proven worldwide first shipment day or prototype date."
+        },
+        "firmware": {
+          "version": "1.8.20",
+          "date": "2026-11-18",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://gfisystem.com/downloads/solis-ventus"
+          ],
+          "note": "Current exact-model manufacturer history lists 1.8.20 November 18, 2026: Firefly/Sweeper delays added; DSP-Y 3-Heads and LR Slapback timing fixed. Supersedes older 1.8.18/19 observations. Firmware 1.8.0+ requires SV Studio 1.6.0+; editor version is separate. No update installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Dual (Digital/Pitch) combines pitched and digital delay; Ambiental and Spatium include pitched voices. Shimmer has two voice slots with upward/downward octave or other intervals. These are pitched delay/reverb processes; explicit polyphonic clean-transpose tracking guarantee not located.",
+          "preset": "96 writable locations, 32×3. Engine choices/settings and expression setups save per preset; first 24 factory-filled locations are overwriteable. No hardware recall test.",
+          "dsp": "Two simultaneous delay/reverb algorithms in series, parallel or dual mono, plus separate dynamics/crossover. No pitch CPU percentage located; two engines do not imply 50% CPU per algorithm. Rev J memory allocation trades delay/looper time: 2.2s/40s, 4.4s/26s, 8.6s/disabled; this is audio-memory allocation, not pitch CPU cost.",
+          "source_urls": [
+            "https://storage.mixwave.co.jp/files/pro_audio/manual/gfi/SV-Algorithms-Reference-jp.pdf",
+            "https://www.scribd.com/document/1072569196/Solis-Ventus-User-Manual-rev-J",
+            "https://gfisystem.com/pedals/solis-ventus",
+            "https://gfisystem.com/blog/solis-ventus-algorithm-faq"
+          ],
+          "measurements": [],
+          "notes": [
+            "Algorithm specifics read in manufacturer/distributor Rev C December 2024 reference and current FAQ; Rev E is now listed but its full body not read. Manual Rev J is March 2026; newer Rev N listed separately. No tracking/latency/resource measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.thomann.nl/gfi_system_solis_ventus_reverb_delay.htm",
+            "title": "Thomann Solis Ventus availability",
+            "access": "Retailer exact-product page read",
+            "evidence": "Available since December 2024; not exact worldwide shipment date."
+          },
+          {
+            "url": "https://gfisystem.com/downloads/solis-ventus",
+            "title": "GFI Solis Ventus firmware history",
+            "access": "Current manufacturer page read",
+            "evidence": "1.8.20 November 18, 2026; two added delays and two fixes; SV Studio compatibility boundary."
+          },
+          {
+            "url": "https://storage.mixwave.co.jp/files/pro_audio/manual/gfi/SV-Algorithms-Reference-jp.pdf",
+            "title": "Solis Ventus Algorithms Reference Rev C, Japanese distributor edition",
+            "access": "Manufacturer-authored 27-page PDF read on official distributor",
+            "evidence": "Dual Digital/Pitch, Ambiental and Spatium pitch controls; no explicit polyphony guarantee."
+          },
+          {
+            "url": "https://www.scribd.com/document/1072569196/Solis-Ventus-User-Manual-rev-J",
+            "title": "Solis Ventus User Manual Rev J, March 2026",
+            "access": "Manufacturer-authored original body read in reproduction; host summary excluded",
+            "evidence": "96 presets, per-preset expression and settings, memory-allocation delay/looper tradeoff."
+          },
+          {
+            "url": "https://gfisystem.com/pedals/solis-ventus",
+            "title": "GFI Solis Ventus exact product",
+            "access": "Manufacturer page read",
+            "evidence": "Two algorithms concurrently, arbitrary delay/reverb pairs and flexible routing."
+          },
+          {
+            "url": "https://gfisystem.com/blog/solis-ventus-algorithm-faq",
+            "title": "GFI Solis Ventus Algorithm FAQ",
+            "access": "Manufacturer FAQ read",
+            "evidence": "Shimmer combines two pitched voices including upward/downward octaves and other intervals."
+          }
+        ],
+        "duration": {
+          "minimum_days": 687,
+          "maximum_days": 717,
+          "label": "1.88–1.96 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190953,7 +191036,6 @@
       "Fractal Audio::FM9 original",
       "Fractal Audio::FM9 Turbo",
       "Fractal Audio::VP4",
-      "GFI System::Solis Ventus",
       "Harley Benton::DNAfx GiT Core",
       "Keeley::Delay Workstation",
       "Kemper::PROFILER Head MK2",
@@ -191197,9 +191279,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 153,
-    "last_model": "GFI System::Synesthesia",
-    "last_commit_parent": "eb5bf6e02cd061da0ac90d3a8911d3fad8baf895",
+    "completed_model_count": 154,
+    "last_model": "GFI System::Solis Ventus",
+    "last_commit_parent": "f45080681d4ca80b916631394e943ad321f7dada",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -191209,7 +191291,6 @@
       "Fractal Audio::FM9 original",
       "Fractal Audio::FM9 Turbo",
       "Fractal Audio::VP4",
-      "GFI System::Solis Ventus",
       "Harley Benton::DNAfx GiT Core",
       "Keeley::Delay Workstation",
       "Kemper::PROFILER Head MK2",
@@ -191452,7 +191533,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 153,
+    "pitch_completed_model_count": 154,
     "supplemental_model_count": 0
   },
   "model_images": {

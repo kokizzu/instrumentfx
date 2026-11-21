@@ -11,6 +11,33 @@ Source-backed guitar multi-effects; all records retain verification gaps.
 
 ## Solis Ventus
 
+<!-- firmware-pitch:GFI System::Solis Ventus begins -->
+### Firmware and pitch audit — GFI System Solis Ventus
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-12 (retailer availability month). Thomann reports available since December 2024. Retailer availability proxy, not a proven worldwide first shipment day or prototype date. [launch 1](https://www.thomann.nl/gfi_system_solis_ventus_reverb_delay.htm) |
+| Firmware / latest verification | 1.8.20 — Latest verified. Current exact-model manufacturer history lists 1.8.20 November 18, 2026: Firefly/Sweeper delays added; DSP-Y 3-Heads and LR Slapback timing fixed. Supersedes older 1.8.18/19 observations. Firmware 1.8.0+ requires SV Studio 1.6.0+; editor version is separate. No update installed. [firmware 1](https://gfisystem.com/downloads/solis-ventus) |
+| Firmware / release date | 2026-11-18 (day precision) |
+| Firmware / release-to-update duration | 1.88–1.96 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Dual (Digital/Pitch) combines pitched and digital delay; Ambiental and Spatium include pitched voices. Shimmer has two voice slots with upward/downward octave or other intervals. These are pitched delay/reverb processes; explicit polyphonic clean-transpose tracking guarantee not located. [pitch 1](https://storage.mixwave.co.jp/files/pro_audio/manual/gfi/SV-Algorithms-Reference-jp.pdf) [pitch 2](https://www.scribd.com/document/1072569196/Solis-Ventus-User-Manual-rev-J) [pitch 3](https://gfisystem.com/pedals/solis-ventus) [pitch 4](https://gfisystem.com/blog/solis-ventus-algorithm-faq) |
+| Pitch / preset recall | 96 writable locations, 32×3. Engine choices/settings and expression setups save per preset; first 24 factory-filled locations are overwriteable. No hardware recall test. |
+| Pitch / DSP resources | Two simultaneous delay/reverb algorithms in series, parallel or dual mono, plus separate dynamics/crossover. No pitch CPU percentage located; two engines do not imply 50% CPU per algorithm. Rev J memory allocation trades delay/looper time: 2.2s/40s, 4.4s/26s, 8.6s/disabled; this is audio-memory allocation, not pitch CPU cost. |
+| Pitch / qualifications | Algorithm specifics read in manufacturer/distributor Rev C December 2024 reference and current FAQ; Rev E is now listed but its full body not read. Manual Rev J is March 2026; newer Rev N listed separately. No tracking/latency/resource measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Thomann Solis Ventus availability](https://www.thomann.nl/gfi_system_solis_ventus_reverb_delay.htm) — Available since December 2024; not exact worldwide shipment date. (Retailer exact-product page read).
+- [GFI Solis Ventus firmware history](https://gfisystem.com/downloads/solis-ventus) — 1.8.20 November 18, 2026; two added delays and two fixes; SV Studio compatibility boundary. (Current manufacturer page read).
+- [Solis Ventus Algorithms Reference Rev C, Japanese distributor edition](https://storage.mixwave.co.jp/files/pro_audio/manual/gfi/SV-Algorithms-Reference-jp.pdf) — Dual Digital/Pitch, Ambiental and Spatium pitch controls; no explicit polyphony guarantee. (Manufacturer-authored 27-page PDF read on official distributor).
+- [Solis Ventus User Manual Rev J, March 2026](https://www.scribd.com/document/1072569196/Solis-Ventus-User-Manual-rev-J) — 96 presets, per-preset expression and settings, memory-allocation delay/looper tradeoff. (Manufacturer-authored original body read in reproduction; host summary excluded).
+- [GFI Solis Ventus exact product](https://gfisystem.com/pedals/solis-ventus) — Two algorithms concurrently, arbitrary delay/reverb pairs and flexible routing. (Manufacturer page read).
+- [GFI Solis Ventus Algorithm FAQ](https://gfisystem.com/blog/solis-ventus-algorithm-faq) — Shimmer combines two pitched voices including upward/downward octaves and other intervals. (Manufacturer FAQ read).
+
+<!-- firmware-pitch:GFI System::Solis Ventus ends -->
+
 Checked 2026-10-28; **partial active guitar multi-effects**, not fully verified. Instrument-level quarter-inch audio and independent dual engines with separate dynamics/crossover processing support inclusion; ordinary-guitar use is the intended application, not a specialized-pickup system. Bass/vocal suitability and ownership unverified. Discovery-stage wording retained below is historical; this summary governs current admission.
 
 <!-- comparison evidence begins -->
