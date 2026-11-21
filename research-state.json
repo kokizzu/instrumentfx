@@ -202801,11 +202801,37 @@
             "sha256": "885c00b4847740a413123d888d165e3fa7ad7170b018eb78514c6c81e89e0887"
           }
         }
+      },
+      "Neural DSP::Nano Cortex": {
+        "model_key": "Neural DSP::Nano Cortex",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.altomusic.com/cdn/shop/files/NanoCortexretailphotos-Transparentbackground_1.png?v=1726681263",
+            "source_url": "https://www.altomusic.com/products/neural-dsp-nano-cortex-pedal-modeler",
+            "caption": "Nano Cortex powered-on overhead product image",
+            "note": "Straight overhead Nano Cortex product photograph shows illuminated control/footswitch-status LEDs, seven rotary controls including rear-edge headphone level, five small buttons and two rotary footswitches. Exact NANOCORTEX identity checked; lit imagery does not prove current NanOS version or pitch processing state.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "7499bdd31c87efe13303c991d5327bbf25d295e9619141980697a8399b46c96b"
+          },
+          "rear": {
+            "image_url": "https://www.stars-music.fr/medias/neural-dsp/nano-cortex-hd-5-214715.jpg",
+            "source_url": "https://www.stars-music.fr/neural-dsp-nano-cortex_214715.html",
+            "caption": "Nano Cortex rear ports",
+            "note": "Full rear plus left-side view checked: ordinary INPUT, OUTPUT1L, OUTPUT2R/CAPTURE OUT, GND lift, shared EXP/MIDI, headphones with separate level knob, USB-C and center-negative9–12V600mA labeling. Side combo CAPTURE INPUT and BOOST visible and separate from instrument INPUT. Picture does not establish live vocal processing, expression assignment or USB specifications beyond manufacturer manual. Rear powered state unknown.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "7d022110953f403a7b5039970c3e67df8c03022a63ab1f294333c70893b7f6c0"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::CUBE BABY BASS"
+    "last_model": "Neural DSP::Nano Cortex"
   }
 }
