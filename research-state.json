@@ -186875,11 +186875,26 @@
             "sha256": "9b82bd8db1c6d9d9169daf724b61201f6633bbee1d8eb911bc18dc3a9f0e117f"
           }
         }
+      },
+      "DigiTech::RP90": {
+        "model_key": "DigiTech::RP90",
+        "checked_date": "2026-11-21",
+        "views": {
+          "rear": {
+            "image_url": "https://www.kombik.com/resources/img/000/000/941/img_94148.jpg",
+            "source_url": "https://www.kombik.com/catalog/view/digitech-rp90/",
+            "caption": "RP90 rear ports",
+            "note": "Visually inspected angled RP90 rear-port photo: input, amp/mixer switch, stereo outputs, headphones and DC power. Dark labels; straight-on replacement preferred. Powered-on top-down view remains pending.",
+            "visual_checked": true,
+            "sha256": "ae140445587a7b04da0e8044b523c4b9c697dc5cb03bcdedc6fab7b83a1ceaea"
+          }
+        },
+        "pending_top": "Inspected magazine photo is angled and unlit; powered-on top-down replacement pending."
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP80"
+    "last_model": "DigiTech::RP90"
   }
 }

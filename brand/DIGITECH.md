@@ -856,6 +856,22 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP90 ends -->
 
+<!-- model-images:DigiTech::RP90 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Top view:** not yet verified.
+
+**RP90 rear ports**
+
+[![RP90 rear ports](https://www.kombik.com/resources/img/000/000/941/img_94148.jpg)](https://www.kombik.com/resources/img/000/000/941/img_94148.jpg)
+
+[Image source](https://www.kombik.com/catalog/view/digitech-rp90/). Visually inspected angled RP90 rear-port photo: input, amp/mixer switch, stereo outputs, headphones and DC power. Dark labels; straight-on replacement preferred. Powered-on top-down view remains pending.
+
+</details>
+<!-- model-images:DigiTech::RP90 ends -->
+
+
 Guitar multi-effects;distinct fromRP80/RP55/BP90. Checked2026-10-17;partial. Bass/vocal suitability and ownership unverified. Manufacturer classifies discontinued.
 
 | Field | Finding / qualification | Evidence |
