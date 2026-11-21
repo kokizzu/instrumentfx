@@ -193807,11 +193807,35 @@
             "sha256": "3ad5de6a8c98fc3246ef17d31acf44920c812a7ed849171506e6af86ed671512"
           }
         }
+      },
+      "Fractal Audio::AM4": {
+        "model_key": "Fractal Audio::AM4",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://shop.fractalaudio.com/cdn/shop/files/am4.png?v=1763651488&width=3840",
+            "source_url": "https://shop.fractalaudio.com/products/am4-amp-modeler",
+            "caption": "AM4 — powered-on top view",
+            "note": "Official manufacturer product photograph. Straight top view shows the illuminated color display, four lit switch indicators, LEVEL, SELECT, A–D controls and six navigation buttons. The displayed CPU figure is an illustrative preset reading, not a measured pitch-shifter resource cost.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "3fb4c0bc0c406c767058ca4c5a8dea0f7eb9d2e0d2bb6fc608727f6b3eb95e8d"
+          },
+          "rear": {
+            "image_url": "https://www.musicbliss.com.my/cdn/shop/files/AM4-Promo-Photo-Rear-1920_1920x535.png?v=1764060391",
+            "source_url": "https://www.musicbliss.com.my/products/ractal-audio-am4-compact-amp-modeler-multi-fx",
+            "caption": "AM4 — rear connections",
+            "note": "Retailer-hosted promotional rear photograph. Readable labels show instrument input, stereo TRS insert send/return (tip left/ring right), balanced TRS L/Mono and R outputs, phones, two pedal inputs, S/PDIF in/out, USB-C, MIDI in/out and 9V DC 1.5A power. The image does not establish USB channel counts or MIDI electrical pinout.",
+            "visual_checked": true,
+            "sha256": "0cea1c69c7d9a9cbf058013bbff6f18e0a82c1056054a36e10d3cd2fa0c7d2c2"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Harley Benton::DNAfx GiT Core"
+    "last_model": "Fractal Audio::AM4"
   }
 }

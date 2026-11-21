@@ -45,6 +45,26 @@ Sources checked:
 
 <!-- firmware-pitch:Fractal Audio::AM4 ends -->
 
+<!-- model-images:Fractal Audio::AM4 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**AM4 — powered-on top view**
+
+[![AM4 — powered-on top view](https://shop.fractalaudio.com/cdn/shop/files/am4.png?v=1763651488&width=3840)](https://shop.fractalaudio.com/cdn/shop/files/am4.png?v=1763651488&width=3840)
+
+[Image source](https://shop.fractalaudio.com/products/am4-amp-modeler). Official manufacturer product photograph. Straight top view shows the illuminated color display, four lit switch indicators, LEVEL, SELECT, A–D controls and six navigation buttons. The displayed CPU figure is an illustrative preset reading, not a measured pitch-shifter resource cost.
+
+**AM4 — rear connections**
+
+[![AM4 — rear connections](https://www.musicbliss.com.my/cdn/shop/files/AM4-Promo-Photo-Rear-1920_1920x535.png?v=1764060391)](https://www.musicbliss.com.my/cdn/shop/files/AM4-Promo-Photo-Rear-1920_1920x535.png?v=1764060391)
+
+[Image source](https://www.musicbliss.com.my/products/ractal-audio-am4-compact-amp-modeler-multi-fx). Retailer-hosted promotional rear photograph. Readable labels show instrument input, stereo TRS insert send/return (tip left/ring right), balanced TRS L/Mono and R outputs, phones, two pedal inputs, S/PDIF in/out, USB-C, MIDI in/out and 9V DC 1.5A power. The image does not establish USB channel counts or MIDI electrical pinout.
+
+</details>
+<!-- model-images:Fractal Audio::AM4 ends -->
+
+
 Admitted 2026-10-28 as an **active partial guitar/bass model**, not fully verified. The complete earlier discovery record follows unchanged apart from heading depth; its outside-inventory status is historical. Admission does not certify stock, ownership or unresolved specifications.
 
 <!-- comparison evidence begins -->
