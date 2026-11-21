@@ -19,7 +19,7 @@ def source_limit(url):
     # Exact owner-manual HEAD reviewed at 132,952,762 bytes; no broad host exception.
     return 144 * 1024 * 1024 if url == REVIEWED_LARGE_PDF else LIMIT
 
-HOSTS = {'downloads.eventide.com', 'downloads.eventideaudio.com', 'cdn.eventideaudio.com', 'erokmusic.com', 'audota.com', 'www.audota.com', 'en.audota.com', 'www.fractalaudio.com', 'www.fmicassets.com', 'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
+HOSTS = {'flammainnovation.com', 'www.flammainnovation.com', 'downloads.eventide.com', 'downloads.eventideaudio.com', 'cdn.eventideaudio.com', 'erokmusic.com', 'audota.com', 'www.audota.com', 'en.audota.com', 'www.fractalaudio.com', 'www.fmicassets.com', 'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
          'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 
@@ -368,6 +368,7 @@ def test():
         assert decode_release_note(fixture_text.encode(codec))[0] == fixture_text
     check_index_url('https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/')
     check_index_url('https://erokmusic.com/js/firmware-notes/en.json')
+    check_url('https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1/M00/00/0B/wKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf')
     check_url('https://erokmusic.com/download/manuals/MP-10.pdf')
     check_url('https://downloads.eventideaudio.com/Product+Manuals/H9AlgorithmGuide+V12.pdf')
     check_index_url('https://www.valeton.net/user-manual/')

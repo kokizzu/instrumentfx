@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://www.fmicassets.com/Damroot/Original/10062/OM_2311600000_Mustang-Micro-Plus_EN.pdf",
+    "requested_url": "https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 0,
+    "frame": 6,
     "text_pages": [
-      1,
-      6
+      5,
+      8
     ],
     "index_url": "https://www.eventideaudio.com/pedals/h90/",
     "index_needle": "H90-Back",
@@ -187246,10 +187246,83 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Flamma::FV02 Doubling": {
+        "model_key": "Flamma::FV02 Doubling",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV02_Manual_EN_V01_2021.06.18_A.pdf?v=1671178993",
+            "https://www.flammainnovation.com/single.html?id=59"
+          ],
+          "note": "Own V01 manual dated2021-06-18 establishes documentation age, not first shipment. No authenticated launch dateline located; retailer August2021 availability is regional."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://flammainnovation.com/download.html",
+            "https://www.flamma.shop/pages/manual",
+            "https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf"
+          ],
+          "note": "No FV02 firmware download, numbered release history or user-update route found in maker indices/manual. V02/2024-01-08 is a manual revision, not firmware. No USB or MIDI in complete connector inventory; this does not prove internal firmware is absent or never service-updated."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Vocal doubling has five modes: Unison,Oct−,Oct+,Group1,Group2. Oct−/Oct+ are lower/upper-octave single-voice chorus; Group1 combines lower/upper multivoice chorus and Group2 unison multivoice chorus. Input-note polyphony, chord tracking, numeric detune range and latency are unstated. Guitar input is documented for reverb, not proof octave doubling processes guitar.",
+          "preset": "Physical Mode/Reverb/Level/Tone controls; no documented user preset bank or stored factory/user allocation. Five mode positions are effect choices, not five memories.",
+          "dsp": "Fixed vocal doubling plus reverb/tone, with separately adjusted guitar reverb. Footswitch can toggle doubling while reverb remains. No per-algorithm CPU percentage, DSP reserve, voice-count-to-resource formula or freely insertable block allocation published.",
+          "source_urls": [
+            "https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf",
+            "https://www.flammainnovation.com/single.html?id=59"
+          ],
+          "measurements": [],
+          "notes": [
+            "Single-voice versus multivoice describes generated output voices, not proven monophonic/polyphonic input tracking. No FV04 harmony/key-following or FV03 character features borrowed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV02_Manual_EN_V01_2021.06.18_A.pdf?v=1671178993",
+            "title": "FV02 original V01 owner manual",
+            "access": "Manufacturer-hosted original document reference retained from prior research",
+            "evidence": "2021-06-18 document revision only; not an authenticated launch date."
+          },
+          {
+            "url": "https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf",
+            "title": "FV02 English owner manual V02",
+            "access": "Direct12-page maker PDF;SHA256e4dbdea6ca074231afe69bbc879994b7553ad7767cce899decb075932a2df28c;printed5/7 visually inspected due garbled extraction",
+            "evidence": "Five doubling modes and octave/multivoice definitions; hidden guitar-reverb control; no pitch polyphony or numeric DSP claim."
+          },
+          {
+            "url": "https://www.flammainnovation.com/single.html?id=59",
+            "title": "FLAMMA FV02 own product page",
+            "access": "Indexed manufacturer product and own model identity",
+            "evidence": "Five vocal chorus effects, three reverbs and tone modes; guitar-reverb path; no dated launch."
+          },
+          {
+            "url": "https://flammainnovation.com/download.html",
+            "title": "FLAMMA manufacturer download catalogue",
+            "access": "Indexed current maker catalogue, FV02 entry",
+            "evidence": "Only own V02 manual listed; no FV02 firmware/updater."
+          },
+          {
+            "url": "https://www.flamma.shop/pages/manual",
+            "title": "FLAMMA manual and software index",
+            "access": "Direct/indexed current maker support index",
+            "evidence": "FV02 manual link; other models have explicit software/update sections; none located for FV02."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Flamma::FV02 Doubling",
       "Flamma::FV03 Character",
       "Flamma::FV04 Harmony",
       "Flamma::FV05 Recorder",
@@ -187547,12 +187620,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 106,
-    "last_model": "Flamma::FG200",
-    "last_commit_parent": "8cd292249a41905f0975f620e015f2ca5bfacf6d",
+    "completed_model_count": 107,
+    "last_model": "Flamma::FV02 Doubling",
+    "last_commit_parent": "1f52684f97e3b73951de0e29663c481451471f7b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Flamma::FV02 Doubling",
       "Flamma::FV03 Character",
       "Flamma::FV04 Harmony",
       "Flamma::FV05 Recorder",
@@ -187849,7 +187921,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 106,
+    "pitch_completed_model_count": 107,
     "supplemental_model_count": 0
   },
   "model_images": {

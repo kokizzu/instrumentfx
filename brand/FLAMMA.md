@@ -319,6 +319,32 @@ The existing exact Shopee item703046367/49152335867 remains a cachedRp1.386.000 
 
 ## FV02 Doubling
 
+<!-- firmware-pitch:Flamma::FV02 Doubling begins -->
+### Firmware and pitch audit — Flamma FV02 Doubling
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Own V01 manual dated2021-06-18 establishes documentation age, not first shipment. No authenticated launch dateline located; retailer August2021 availability is regional. [launch 1](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV02_Manual_EN_V01_2021.06.18_A.pdf?v=1671178993) [launch 2](https://www.flammainnovation.com/single.html?id=59) |
+| Firmware / latest verification | Not verified — No public firmware located. No FV02 firmware download, numbered release history or user-update route found in maker indices/manual. V02/2024-01-08 is a manual revision, not firmware. No USB or MIDI in complete connector inventory; this does not prove internal firmware is absent or never service-updated. [firmware 1](https://flammainnovation.com/download.html) [firmware 2](https://www.flamma.shop/pages/manual) [firmware 3](https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Vocal doubling has five modes: Unison,Oct−,Oct+,Group1,Group2. Oct−/Oct+ are lower/upper-octave single-voice chorus; Group1 combines lower/upper multivoice chorus and Group2 unison multivoice chorus. Input-note polyphony, chord tracking, numeric detune range and latency are unstated. Guitar input is documented for reverb, not proof octave doubling processes guitar. [pitch 1](https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf) [pitch 2](https://www.flammainnovation.com/single.html?id=59) |
+| Pitch / preset recall | Physical Mode/Reverb/Level/Tone controls; no documented user preset bank or stored factory/user allocation. Five mode positions are effect choices, not five memories. |
+| Pitch / DSP resources | Fixed vocal doubling plus reverb/tone, with separately adjusted guitar reverb. Footswitch can toggle doubling while reverb remains. No per-algorithm CPU percentage, DSP reserve, voice-count-to-resource formula or freely insertable block allocation published. |
+| Pitch / qualifications | Single-voice versus multivoice describes generated output voices, not proven monophonic/polyphonic input tracking. No FV04 harmony/key-following or FV03 character features borrowed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [FV02 original V01 owner manual](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV02_Manual_EN_V01_2021.06.18_A.pdf?v=1671178993) — 2021-06-18 document revision only; not an authenticated launch date. (Manufacturer-hosted original document reference retained from prior research).
+- [FV02 English owner manual V02](https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf) — Five doubling modes and octave/multivoice definitions; hidden guitar-reverb control; no pitch polyphony or numeric DSP claim. (Direct12-page maker PDF;SHA256e4dbdea6ca074231afe69bbc879994b7553ad7767cce899decb075932a2df28c;printed5/7 visually inspected due garbled extraction).
+- [FLAMMA FV02 own product page](https://www.flammainnovation.com/single.html?id=59) — Five vocal chorus effects, three reverbs and tone modes; guitar-reverb path; no dated launch. (Indexed manufacturer product and own model identity).
+- [FLAMMA manufacturer download catalogue](https://flammainnovation.com/download.html) — Only own V02 manual listed; no FV02 firmware/updater. (Indexed current maker catalogue, FV02 entry).
+- [FLAMMA manual and software index](https://www.flamma.shop/pages/manual) — FV02 manual link; other models have explicit software/update sections; none located for FV02. (Direct/indexed current maker support index).
+
+<!-- firmware-pitch:Flamma::FV02 Doubling ends -->
+
 Checked **2026-10-17**; partial. Vocal chorus/doubling plus independently controlled reverb and tone processing. Included in vocal comparison only; guitar reverb is a supporting path, not guitar multi-effects. FV01 exclusion remains unchanged.
 
 <!-- comparison evidence begins -->
