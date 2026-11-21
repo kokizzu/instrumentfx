@@ -195861,11 +195861,35 @@
             "sha256": "f3bfe5c66ef8c88454ce28db907adde4391cac6143cd6e1044a02b7c8786745b"
           }
         }
+      },
+      "MOOER::GE200 original": {
+        "model_key": "MOOER::GE200 original",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/mooer-ge200-5709669.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/mooer/ge200/",
+            "caption": "MOOER original GE200 illuminated top controls",
+            "note": "Visually checked: original GE200 powered on, complete controls and expression pedal, illuminated P194 display and all three footswitch rings. Near-overhead view has slight perspective; exact orthographic top-down view remains pending.",
+            "visual_checked": true,
+            "sha256": "d9b1c4c9d46155d44aa2732f303be011b270b12faa13c3643d280e38c045137f",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/mooer-ge200-2967052.jpg",
+            "source_url": "https://fr.audiofanzine.com/multieffet-guitare-electrique/mooer/ge200/",
+            "caption": "MOOER original GE200 rear ports",
+            "note": "Visually checked: complete original GE200 rear panel with AUX IN, EXP2, IN, L(MONO)/R outputs, headphone socket, USB Type-B and DC9V 600mA inlet. Labels are clearly readable.",
+            "visual_checked": true,
+            "sha256": "fc68658aceb8b7e1295ee9dff6fdd72d5ecb2fcef3c9dcd97bdd452a718f9501"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE150 original"
+    "last_model": "MOOER::GE200 original"
   }
 }
