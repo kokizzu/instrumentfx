@@ -236,6 +236,32 @@ Checked 2026-10-19 against [own current product/V2.0.5 instructions](https://nux
 
 ## Atlantic NDR-5
 
+<!-- firmware-pitch:NUX::Atlantic NDR-5 begins -->
+### Firmware and pitch audit — NUX Atlantic NDR-5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2018-01 (manufacturer announcement month proxy). Contemporaneous manufacturer announcement republished by Guitar World is placed January 23, 2018 in its archive. Month-level introduction proxy used; exact first shipment unresolved. Manual copyright 2017 is not an earlier verified sale; later Japanese regional launches are not global first release. [launch 1](https://www.guitarworld.com/gear/nu-x-announces-new-atlantic-delay-and-reverb-pedal) [launch 2](https://www.guitarworld.com/archive/2018/01) |
+| Firmware / latest verification | 2.1.0 — Latest verified. Global manufacturer support offers 2.1.0 for Windows/macOS with update dates blank; current USA hub corroborates version. USA hub September 27, 2026 maintenance date is not firmware release date. No dated exact-version release notice located; release-to-update duration remains unknown. USB updater packages are not evidence of a full patch editor; no device update performed. [firmware 1](https://nuxaudio.com/product/atlantic/) [firmware 2](https://www.nux.us/blogs/support/atlantic-support-hub) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Plate-mode Shimmer activated by holding Reverb footswitch and fading after release, confirmed in original manufacturer manual. No numeric pitch interval or explicit chord-tracking/transposition claim found. Spring reverb is described as a polyphonic atmosphere filter; that wording concerns reverb and does not establish polyphonic pitch-shifting. Freeze headline is separate from interval shifting. [pitch 1](https://nuxaudio.com/product/atlantic/) [pitch 2](https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_English.pdf) |
+| Pitch / preset recall | Front-panel knob/toggle control with momentary Shimmer hold; no addressable factory/user preset bank or MIDI pitch recall established in checked material. Delay and reverb operate together with serial-order selection or parallel routing; Shimmer belongs to Plate reverb rather than a third independently insertable pitch block. |
+| Pitch / DSP resources | Two simultaneous time-effect sections do not establish Shimmer DSP percentage. No isolated pitch utilization, latency or block-cost measurement located. 32-bit processing is an overall signal specification, not a resource percentage. No Hotone or other NUX model cost transferred. |
+| Pitch / qualifications | Original PDF control/I/O spreads now visually inspected; earlier unreadable-source notes below describe historical access. No audio/hardware test; mono/poly pitch handling unresolved. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX Atlantic current manufacturer product/support](https://nuxaudio.com/product/atlantic/) — Firmware 2.1.0 has blank update dates. Plate Shimmer and the Spring reverb wording do not establish polyphonic pitch tracking; no isolated DSP cost provided. (Manufacturer page opened2026-11-22).
+- [NUX USA Atlantic support hub](https://www.nux.us/blogs/support/atlantic-support-hub) — Lists exact NDR-5 firmware 2.1.0 for Windows/macOS. September 27, 2026 is hub maintenance, not the firmware release date. (Official support page opened2026-11-22).
+- [NUX Atlantic NDR-5 original English manual](https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_English.pdf) — Plate hold-for-Shimmer and fade on release; Spring reverb wording; knob control, complete I/O, micro-USB updating and serial/parallel routing. No preset bank or polyphonic pitch claim on checked spreads. (Manufacturer PDF retrieved 2026-11-22; PDF spreads 4 and 5 (zero-based 3 and 4) visually inspected; SHA256 5324b0e5e89d18d35f0af795654e3ea165955a44d9a6c24380bb53f2e4c18400).
+- [NUX manufacturer Atlantic announcement — Guitar World](https://www.guitarworld.com/gear/nu-x-announces-new-atlantic-delay-and-reverb-pedal) — Announces the new Atlantic delay/reverb with Shimmer; no exact first shipment established. (Manufacturer announcement checked2026-11-22).
+- [Guitar World January2018 archive](https://www.guitarworld.com/archive/2018/01) — Atlantic announcement listed January 23, 2018; month-level introduction proxy used. (Publisher archive checked2026-11-22).
+
+<!-- firmware-pitch:NUX::Atlantic NDR-5 ends -->
+
 Checked 2026-10-18; partial. Independent delay/reverb and selectable routing establish multi-effects eligibility. Bass suitability unclassified.
 
 Sources: [NUX global product](https://nuxaudio.com/product/atlantic/) (P);[official English manual](https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_English.pdf) has unreadable browser text. [Manufacturer manual transcription](https://manuals.plus/nux/ndr-5-atlantic-delay-and-reverb-pedal-manual) (M) identifies exact NDR-5 and ©2017 Cherub;matches product algorithms/routing, but OCR errors remain. No visual inspection claimed.

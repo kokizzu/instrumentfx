@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Integrated_Effects/Trident(NME-5)/NUX_Trident_UserManual_English.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_English.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 17,
+    "frame": 3,
     "text_pages": [
       0,
       2
@@ -196442,6 +196442,156 @@
           "label": "1.18–1.26 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::Atlantic NDR-5": {
+        "model_key": "NUX::Atlantic NDR-5",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2018-01",
+          "precision": "month",
+          "kind": "manufacturer announcement month proxy",
+          "source_urls": [
+            "https://www.guitarworld.com/gear/nu-x-announces-new-atlantic-delay-and-reverb-pedal",
+            "https://www.guitarworld.com/archive/2018/01"
+          ],
+          "note": "Contemporaneous manufacturer announcement republished by Guitar World is placed January 23, 2018 in its archive. Month-level introduction proxy used; exact first shipment unresolved. Manual copyright 2017 is not an earlier verified sale; later Japanese regional launches are not global first release."
+        },
+        "firmware": {
+          "version": "2.1.0",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://nuxaudio.com/product/atlantic/",
+            "https://www.nux.us/blogs/support/atlantic-support-hub"
+          ],
+          "note": "Global manufacturer support offers 2.1.0 for Windows/macOS with update dates blank; current USA hub corroborates version. USA hub September 27, 2026 maintenance date is not firmware release date. No dated exact-version release notice located; release-to-update duration remains unknown. USB updater packages are not evidence of a full patch editor; no device update performed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Plate-mode Shimmer activated by holding Reverb footswitch and fading after release, confirmed in original manufacturer manual. No numeric pitch interval or explicit chord-tracking/transposition claim found. Spring reverb is described as a polyphonic atmosphere filter; that wording concerns reverb and does not establish polyphonic pitch-shifting. Freeze headline is separate from interval shifting.",
+          "preset": "Front-panel knob/toggle control with momentary Shimmer hold; no addressable factory/user preset bank or MIDI pitch recall established in checked material. Delay and reverb operate together with serial-order selection or parallel routing; Shimmer belongs to Plate reverb rather than a third independently insertable pitch block.",
+          "dsp": "Two simultaneous time-effect sections do not establish Shimmer DSP percentage. No isolated pitch utilization, latency or block-cost measurement located. 32-bit processing is an overall signal specification, not a resource percentage. No Hotone or other NUX model cost transferred.",
+          "source_urls": [
+            "https://nuxaudio.com/product/atlantic/",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_English.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original PDF control/I/O spreads now visually inspected; earlier unreadable-source notes below describe historical access.",
+            "No audio/hardware test; mono/poly pitch handling unresolved."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://nuxaudio.com/product/atlantic/",
+            "title": "NUX Atlantic current manufacturer product/support",
+            "access": "Manufacturer page opened2026-11-22",
+            "evidence": "Firmware 2.1.0 has blank update dates. Plate Shimmer and the Spring reverb wording do not establish polyphonic pitch tracking; no isolated DSP cost provided."
+          },
+          {
+            "url": "https://www.nux.us/blogs/support/atlantic-support-hub",
+            "title": "NUX USA Atlantic support hub",
+            "access": "Official support page opened2026-11-22",
+            "evidence": "Lists exact NDR-5 firmware 2.1.0 for Windows/macOS. September 27, 2026 is hub maintenance, not the firmware release date."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_English.pdf",
+            "title": "NUX Atlantic NDR-5 original English manual",
+            "access": "Manufacturer PDF retrieved 2026-11-22; PDF spreads 4 and 5 (zero-based 3 and 4) visually inspected; SHA256 5324b0e5e89d18d35f0af795654e3ea165955a44d9a6c24380bb53f2e4c18400",
+            "evidence": "Plate hold-for-Shimmer and fade on release; Spring reverb wording; knob control, complete I/O, micro-USB updating and serial/parallel routing. No preset bank or polyphonic pitch claim on checked spreads."
+          },
+          {
+            "url": "https://www.guitarworld.com/gear/nu-x-announces-new-atlantic-delay-and-reverb-pedal",
+            "title": "NUX manufacturer Atlantic announcement — Guitar World",
+            "access": "Manufacturer announcement checked2026-11-22",
+            "evidence": "Announces the new Atlantic delay/reverb with Shimmer; no exact first shipment established."
+          },
+          {
+            "url": "https://www.guitarworld.com/archive/2018/01",
+            "title": "Guitar World January2018 archive",
+            "access": "Publisher archive checked2026-11-22",
+            "evidence": "Atlantic announcement listed January 23, 2018; month-level introduction proxy used."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "NUX::Atlantic NDR-5",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2018-01",
+              "precision": "month",
+              "kind": "manufacturer announcement month proxy",
+              "source_urls": [
+                "https://www.guitarworld.com/gear/nu-x-announces-new-atlantic-delay-and-reverb-pedal",
+                "https://www.guitarworld.com/archive/2018/01"
+              ],
+              "note": "Contemporaneous manufacturer announcement republished by Guitar World is placed January23,2018 in its archive. Month-level introduction proxy used; exact first shipment unresolved. Manual copyright2017 is not an earlier verified sale; later Japanese regional launches are not global first release."
+            },
+            "firmware": {
+              "version": "2.1.0",
+              "date": null,
+              "precision": "unknown",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://nuxaudio.com/product/atlantic/",
+                "https://www.nux.us/blogs/support/atlantic-support-hub"
+              ],
+              "note": "Global manufacturer support offers2.1.0 for Windows/macOS with update dates blank; current USA hub corroborates version. USA hub September27,2026 maintenance date is not firmware release date. No dated exact-version release notice located; release-to-update duration remains unknown. USB updater packages are not evidence of a full patch editor; no device update performed."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Plate-mode Shimmer activated by holding Reverb footswitch and fading after release, confirmed in original manufacturer manual. No numeric pitch interval or explicit chord-tracking/transposition claim found. Spring reverb is described as a polyphonic atmosphere filter; that wording concerns reverb and does not establish polyphonic pitch-shifting. Freeze headline is separate from interval shifting.",
+              "preset": "Front-panel knob/toggle control with momentary Shimmer hold; no addressable factory/user preset bank or MIDI pitch recall established in checked material. Delay and reverb operate together with serial-order selection or parallel routing; Shimmer belongs to Plate reverb rather than a third independently insertable pitch block.",
+              "dsp": "Two simultaneous time-effect sections do not establish Shimmer DSP percentage. No isolated pitch utilization, latency or block-cost measurement located. 32-bit processing is an overall signal specification, not a resource percentage. No Hotone or other NUX model cost transferred.",
+              "source_urls": [
+                "https://nuxaudio.com/product/atlantic/",
+                "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_English.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Original PDF control/I/O spreads now visually inspected; earlier unreadable-source notes below describe historical access.",
+                "No audio/hardware test; mono/poly pitch handling unresolved."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://nuxaudio.com/product/atlantic/",
+                "title": "NUX Atlantic current manufacturer product/support",
+                "access": "Manufacturer page opened2026-11-22",
+                "evidence": "Firmware2.1.0 datesblank; PlateShimmer,Springpolyphonicatmospherewording,routing; no isolatedpitchDSPpercentage."
+              },
+              {
+                "url": "https://www.nux.us/blogs/support/atlantic-support-hub",
+                "title": "NUX USA Atlantic support hub",
+                "access": "Official support page opened2026-11-22",
+                "evidence": "ExactNDR-5firmware2.1.0Windows/macOS; September27,2026 ishubmaintenance,notrelease."
+              },
+              {
+                "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_English.pdf",
+                "title": "NUX Atlantic NDR-5 original English manual",
+                "access": "Manufacturer PDF retrieved2026-11-22; PDFspreads4and5(zero-based3and4)visuallyinspected; SHA2565324b0e5e89d18d35f0af795654e3ea165955a44d9a6c24380bb53f2e4c18400",
+                "evidence": "PlateholdShimmer/fadeonrelease,Springreverbwording,knobcontrol,completeI/O,microUSBfirmwareupdate,serial/parallelrouting; no presetbank/polyphonicpitchclaim oncheckedspreads."
+              },
+              {
+                "url": "https://www.guitarworld.com/gear/nu-x-announces-new-atlantic-delay-and-reverb-pedal",
+                "title": "NUX manufacturer Atlantic announcement — Guitar World",
+                "access": "Manufacturer announcement checked2026-11-22",
+                "evidence": "NewAtlanticdelay/reverbwithShimmer; contemporaneousannouncementnotfirstshipmentproof."
+              },
+              {
+                "url": "https://www.guitarworld.com/archive/2018/01",
+                "title": "Guitar World January2018 archive",
+                "access": "Publisher archive checked2026-11-22",
+                "evidence": "AtlanticannouncementlistedJanuary23,2018; monthproxyused."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
@@ -196477,7 +196627,6 @@
       "Neural DSP::Nano Cortex",
       "Neural DSP::Quad Cortex",
       "NUX::Amp Academy Stomp",
-      "NUX::Atlantic NDR-5",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
@@ -196628,9 +196777,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 221,
-    "last_model": "NUX::TRIDENT NME-5",
-    "last_commit_parent": "7aaffc87216b157d655ca57b472463b67995b401",
+    "completed_model_count": 222,
+    "last_model": "NUX::Atlantic NDR-5",
+    "last_commit_parent": "fbd0b5a02c53c0075df30747cc154c5a89b54b39",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -196665,7 +196814,6 @@
       "Neural DSP::Nano Cortex",
       "Neural DSP::Quad Cortex",
       "NUX::Amp Academy Stomp",
-      "NUX::Atlantic NDR-5",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
@@ -196815,7 +196963,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 221,
+    "pitch_completed_model_count": 222,
     "supplemental_model_count": 0
   },
   "model_images": {
