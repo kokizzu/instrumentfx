@@ -479,6 +479,26 @@ Sources checked:
 
 <!-- firmware-pitch:JOYO::R-16 Vocal Lab ends -->
 
+<!-- model-images:JOYO::R-16 Vocal Lab begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**JOYO R-16 powered-on top photograph — slight angle**
+
+[![JOYO R-16 powered-on top photograph — slight angle](https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/IMG_0280-500x500.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/IMG_0280-500x500.jpg)
+
+[Image source](https://www.joyoaudio.co.uk/VocalLab-Harmoniser). Photograph shows red key display, illuminated harmony/reverb status LEDs and green ambient strips, with all five rotaries and two footswitches visible. Slight overhead perspective rather than exact orthographic top-down. Microphone and cables are part of the scene; this photograph is not a tracking or DSP test.
+
+**JOYO R-16 rear ports and microphone-output side**
+
+[![JOYO R-16 rear ports and microphone-output side](https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/IMG_0265-500x500.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/IMG_0265-500x500.jpg)
+
+[Image source](https://www.joyoaudio.co.uk/VocalLab-Harmoniser). Rear-angle photograph clearly labels INST.IN, Micro USB, AUX IN, DC9V, PHONES and CENTER SILENCER switch. Left side of this rear view shows the XLR MIC OUT and nearby ground-lift control; MIC IN and phantom switch are on the opposite side, shown in the [manufacturer panel diagram](https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/vocal%20lab%20layout%202-500x500.png). USB firmware-only purpose comes from the manual, not the socket shape. Unit is unlit in this connection photograph.
+
+</details>
+<!-- model-images:JOYO::R-16 Vocal Lab ends -->
+
+
 Checked **2026-10-17**; partial. Vocal harmony/reverb multi-effects; vocal-only classification. Instrument reverb does not make it guitar/bass multi-effects.
 
 <!-- comparison evidence begins -->
