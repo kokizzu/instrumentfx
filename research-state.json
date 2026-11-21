@@ -201098,10 +201098,90 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC Electronic::M350": {
+        "model_key": "TC Electronic::M350",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2006",
+          "precision": "year",
+          "kind": "contemporaneous shipping-year evidence;exact first shipment unverified",
+          "source_urls": [
+            "https://www.mixonline.com/news/tc-electronic-m350-now-shipping-422122",
+            "https://www.svconline.com/markets/tc-electronic-announces-dual-engine-processor-398111"
+          ],
+          "note": "April6 announcement scheduled May2006;October19 report says now shipping. These establish2006 availability,not an exact first delivery date;planned May is not promoted to confirmed shipping month."
+        },
+        "firmware": {
+          "version": "1.3",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://francisfisher.me.uk/problem/2011/deciphering-tc-electronic-m350-sysex-format/",
+            "https://service-tcgroup.tcelectronic.com/media/M350_DE_2.pdf",
+            "https://service-tcgroup.tcelectronic.com/files/tech_service/eco-sno/760100001.pdf"
+          ],
+          "note": "Firsthand reverse-engineering report records device-inquiry responses before/after update1.1→1.3. This is an observed version,not manufacturer latest certification or release date. Older Rev1.1 manual saysSW1.00. Service-note header20.12.04/footer29-11-2006 are document dates,not1.3 release dates. No reliable support-span calculation."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Complete documented delay/effects selector lists dynamics,chorus,flanger,tremolo,phaser and delays;reverb engine has15 reverbs. No dedicated pitch shifter,octave,transpose or harmonizer documented. Modulated delay effects are not proof of polyphonic interval shifting.",
+          "preset": "99 user locations;256 factory selector combinations are not256 stored patches or355 editable locations. LOAD recalls and long-press stores;MIDI bulk backup supported. Pitch preset recall is not applicable to the documented algorithm list.",
+          "dsp": "No dedicated pitch algorithm or pitch-specific DSP cost documented. Two engines are delay/effects plus reverb,not arbitrary two-block allocation or proof of50% CPU per engine. Routing mix percentages are audio mix settings,not CPU use.",
+          "source_urls": [
+            "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m350_manual_english.pdf",
+            "https://service-tcgroup.tcelectronic.com/media/M350_DE_2.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Pitch Bend marked unsupported in MIDI chart is not,by itself,proof that audio pitch shifting is absent;algorithm inventory is the evidence basis.",
+            "Application AP and front-panel Fr versions are distinct from AU/VST editor versions. No software installed or hardware update performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m350_manual_english.pdf",
+            "title": "TC Electronic M350 manufacturer English manual",
+            "access": "Original manufacturer indexed effect-selector text inspected;direct fetch unavailable",
+            "evidence": "Fifteen delay/effect choices and15 reverbs;no dedicated pitch;two engines and99user locations."
+          },
+          {
+            "url": "https://service-tcgroup.tcelectronic.com/media/M350_DE_2.pdf",
+            "title": "TC Electronic M350 Rev1.1 German manufacturer manual",
+            "access": "Manufacturer original indexed text inspected",
+            "evidence": "SW1.00 imprint;AP versusFr service-version display;256 selector combinations versus user presets."
+          },
+          {
+            "url": "https://service-tcgroup.tcelectronic.com/files/tech_service/eco-sno/760100001.pdf",
+            "title": "TC Electronic service note760100001",
+            "access": "Manufacturer original indexed text inspected",
+            "evidence": "Explicitly M300/M350/G-sharp MIDI software-download service procedure;header/footer dates differ and do not date1.3."
+          },
+          {
+            "url": "https://francisfisher.me.uk/problem/2011/deciphering-tc-electronic-m350-sysex-format/",
+            "title": "Francis Fisher M350 SysEx reverse-engineering report",
+            "access": "Author firsthand device-inquiry/update evidence inspected",
+            "evidence": "Observed update1.1→1.3 with inquiry response bytes;not official latest release certification."
+          },
+          {
+            "url": "https://www.mixonline.com/news/tc-electronic-m350-now-shipping-422122",
+            "title": "M350 Now Shipping — contemporary Mix report",
+            "access": "Contemporaneous indexed report inspected;direct403",
+            "evidence": "October19,2006 now-shipping statement,not confirmed exact first delivery."
+          },
+          {
+            "url": "https://www.svconline.com/markets/tc-electronic-announces-dual-engine-processor-398111",
+            "title": "M350 announcement — contemporary SVC report",
+            "access": "Contemporaneous announcement text inspected",
+            "evidence": "April6,2006 announces planned May shipping;distinguished from actual availability."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC Electronic::M350",
       "TC Electronic::NOVA System",
       "TC Electronic::PLETHORA X3",
       "TC Electronic::PLETHORA X5",
@@ -201225,12 +201305,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 280,
-    "last_model": "TC Electronic::M100",
-    "last_commit_parent": "d9119292bd88f29799c31bc5039ba98868f2e7f1",
+    "completed_model_count": 281,
+    "last_model": "TC Electronic::M350",
+    "last_commit_parent": "e1f339ae377db64e341446a94aeb5c1e13b6889a",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC Electronic::M350",
       "TC Electronic::NOVA System",
       "TC Electronic::PLETHORA X3",
       "TC Electronic::PLETHORA X5",
@@ -201353,7 +201432,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 280,
+    "pitch_completed_model_count": 281,
     "supplemental_model_count": 0
   },
   "model_images": {

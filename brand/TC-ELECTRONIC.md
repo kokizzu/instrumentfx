@@ -200,6 +200,33 @@ Direct analog position/range/recall are inapplicable to the documented inventory
 
 ## M350
 
+<!-- firmware-pitch:TC Electronic::M350 begins -->
+### Firmware and pitch audit — TC Electronic M350
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2006 (contemporaneous shipping-year evidence;exact first shipment unverified). April6 announcement scheduled May2006;October19 report says now shipping. These establish2006 availability,not an exact first delivery date;planned May is not promoted to confirmed shipping month. [launch 1](https://www.mixonline.com/news/tc-electronic-m350-now-shipping-422122) [launch 2](https://www.svconline.com/markets/tc-electronic-announces-dual-engine-processor-398111) |
+| Firmware / latest verification | 1.3 — Located; latest status unverified. Firsthand reverse-engineering report records device-inquiry responses before/after update1.1→1.3. This is an observed version,not manufacturer latest certification or release date. Older Rev1.1 manual saysSW1.00. Service-note header20.12.04/footer29-11-2006 are document dates,not1.3 release dates. No reliable support-span calculation. [firmware 1](https://francisfisher.me.uk/problem/2011/deciphering-tc-electronic-m350-sysex-format/) [firmware 2](https://service-tcgroup.tcelectronic.com/media/M350_DE_2.pdf) [firmware 3](https://service-tcgroup.tcelectronic.com/files/tech_service/eco-sno/760100001.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Complete documented delay/effects selector lists dynamics,chorus,flanger,tremolo,phaser and delays;reverb engine has15 reverbs. No dedicated pitch shifter,octave,transpose or harmonizer documented. Modulated delay effects are not proof of polyphonic interval shifting. [pitch 1](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m350_manual_english.pdf) [pitch 2](https://service-tcgroup.tcelectronic.com/media/M350_DE_2.pdf) |
+| Pitch / preset recall | 99 user locations;256 factory selector combinations are not256 stored patches or355 editable locations. LOAD recalls and long-press stores;MIDI bulk backup supported. Pitch preset recall is not applicable to the documented algorithm list. |
+| Pitch / DSP resources | No dedicated pitch algorithm or pitch-specific DSP cost documented. Two engines are delay/effects plus reverb,not arbitrary two-block allocation or proof of50% CPU per engine. Routing mix percentages are audio mix settings,not CPU use. |
+| Pitch / qualifications | Pitch Bend marked unsupported in MIDI chart is not,by itself,proof that audio pitch shifting is absent;algorithm inventory is the evidence basis. Application AP and front-panel Fr versions are distinct from AU/VST editor versions. No software installed or hardware update performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Electronic M350 manufacturer English manual](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m350_manual_english.pdf) — Fifteen delay/effect choices and15 reverbs;no dedicated pitch;two engines and99user locations. (Original manufacturer indexed effect-selector text inspected;direct fetch unavailable).
+- [TC Electronic M350 Rev1.1 German manufacturer manual](https://service-tcgroup.tcelectronic.com/media/M350_DE_2.pdf) — SW1.00 imprint;AP versusFr service-version display;256 selector combinations versus user presets. (Manufacturer original indexed text inspected).
+- [TC Electronic service note760100001](https://service-tcgroup.tcelectronic.com/files/tech_service/eco-sno/760100001.pdf) — Explicitly M300/M350/G-sharp MIDI software-download service procedure;header/footer dates differ and do not date1.3. (Manufacturer original indexed text inspected).
+- [Francis Fisher M350 SysEx reverse-engineering report](https://francisfisher.me.uk/problem/2011/deciphering-tc-electronic-m350-sysex-format/) — Observed update1.1→1.3 with inquiry response bytes;not official latest release certification. (Author firsthand device-inquiry/update evidence inspected).
+- [M350 Now Shipping — contemporary Mix report](https://www.mixonline.com/news/tc-electronic-m350-now-shipping-422122) — October19,2006 now-shipping statement,not confirmed exact first delivery. (Contemporaneous indexed report inspected;direct403).
+- [M350 announcement — contemporary SVC report](https://www.svconline.com/markets/tc-electronic-announces-dual-engine-processor-398111) — April6,2006 announces planned May shipping;distinguished from actual availability. (Contemporaneous announcement text inspected).
+
+<!-- firmware-pitch:TC Electronic::M350 ends -->
+
 Checked2026-10-17. Partial dual-engine rack multi-effects. [Manufacturer English manual](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf),34pages,Rev1.1/SW1.00,productE60505812;webtext only,no download/visualaudit.
 
 | Field | Evidence / gaps |
