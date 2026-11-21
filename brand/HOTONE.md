@@ -1263,6 +1263,31 @@ V2.2 printed14,16 still places EXP targets under patch-changing control settings
 
 ## Ampero MP-100
 
+<!-- firmware-pitch:Hotone::Ampero MP-100 begins -->
+### Firmware and pitch audit — Hotone Ampero MP-100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2018 (manufacturer release year). Hotone corporate history explicitly places the original Ampero release in 2018, without month/day. Later NAMM/regional introductions do not establish the first release. Year bounds retained; no guessed January 1 launch. [launch 1](https://www.hotone.com/history/) |
+| Firmware / latest verification | 5.2 — Latest verified. Current ordinary Ampero release is 5.2, dated March 9, 2026 in exact-model release notes. Pink/2020 Limited 5.2A is a distinct hardware package. Editor 1.5.0 compatibility and later editor updates are not new device firmware. [firmware 1](https://www.hotone.com/support/2) [firmware 2](https://www.hotone.jp/announcements/ampero-sound-clone-release) |
+| Firmware / release date | 2026-03-09 (day precision) |
+| Firmware / release-to-update duration | 7.19–8.18 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Manufacturer-hosted original appendix PDF p34 explicitly describes Harmony as a polyphonic pitch shifter/harmonizer, with Hi 0 to +24 and Low 0 to -24 semitones and separate dry/voice levels. Clean Octa and Dirty Octa also explicitly polyphonic. Harmony lower/higher prose conflicts with its numeric Hi/Low ranges. [pitch 1](https://www.hotone.jp/manuals/hotone/AMPERO.pdf) |
+| Pitch / preset recall | Yes: original manual printed p24 saves edited effect parameters and control data; p3 distinguishes editable user patches from factory patches whose edits cannot be saved in place. Current firmware 5.2 behavior was not physically tested. |
+| Pitch / DSP resources | No exact MP-100 pitch percentage located. Original manual p3 specifies nine simultaneous modules and p16 warns that effect choices/count can cause System Overload. Do not reinterpret the module ceiling as CPU cost or copy Ampero II Stomp HQ 50% onto this original processor. |
+| Pitch / qualifications | The hosted Japanese manual includes an English effects appendix; its firmware revision is not established. These are revision-qualified documented algorithms, not a certified complete 5.2 pitch inventory. A polyphonic Harmony description does not prove a dedicated virtual-capo algorithm, seamless full-wet transposition, tracking quality or latency. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Hotone corporate history](https://www.hotone.com/history/) — Original Ampero officially released under 2018; no exact day/month supplied. (opened).
+- [Hotone firmware download index](https://www.hotone.com/support/2) — Ordinary Ampero 5.2 remains listed, with Pink/2020 Limited 5.2A separately labelled. (opened).
+- [Hotone Japan original-series firmware release](https://www.hotone.jp/announcements/ampero-sound-clone-release) — Original Ampero 5.2 explicitly dated March 9, 2026; Sound Clone import and Match30 Clean addition. (opened).
+- [Original MP-100 manufacturer-hosted manual](https://www.hotone.jp/manuals/hotone/AMPERO.pdf) — Printed p3 patch/module definitions, p16 overload, p24 SAVE; PDF p34 English appendix polyphonic Harmony and octave rows. (opened_manufacturer_pdf_text).
+
+<!-- firmware-pitch:Hotone::Ampero MP-100 ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- HOTONE-AMPERO-MP100 source begins -->
