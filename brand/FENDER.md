@@ -279,6 +279,31 @@ Original11-page PR6171 owner-manual pages corroborate the mirrored guide's effec
 
 ## Tone Master Pro
 
+<!-- firmware-pitch:Fender::Tone Master Pro begins -->
+### Firmware and pitch audit — Fender Tone Master Pro
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-10-03 (manufacturer launch announcement proxy). Dated Fender launch announcement; exact first shipment not established. [launch 1](https://www.fender.com/newsroom/270203-fender-continues-legacy-of-boundless-sonic-innovation-with-tone-master-pro-a-digital-workstation-offering-quality-and-versatility-in-e/) |
+| Firmware / latest verification | 1.8.85 — Latest verified. Current maker release header and device download agree. Rebuilds Virtual Capo and rebrands Lightyear as licensed Greer Lightspeed. App1.8.10 and ASIO5.72.0 are separate products; no update installed. [firmware 1](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates) |
+| Firmware / release date | 2026-11-18 (day precision) |
+| Firmware / release-to-update duration | 3.13 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Virtual Capo explicitly polyphonic, ±12semitones, with dry/shifted Mix. Firmware1.8.85 removes its old Resolution/Tracking controls. Other named pitch additions include Micro Shifter, Polygon Octave Shifter, PolyVoice Pitch Shifter, Granular Arpeggiator and Pitch Sequencer; their names alone do not establish identical input tracking or CPU cost. [pitch 1](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates) [pitch 2](https://www.fender.com/articles/parts-and-accessories/unlock-new-effects-with-tone-master-pro-update) [pitch 3](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual) |
+| Pitch / preset recall | Manufacturer firmware1.5 manual specifies504 user-created rig presets, with Factory/Cloud modes separate. Block Presets store reusable individual-block settings, not extra rig locations. Current1.8.85 memory allocation and factory fill were not independently counted. |
+| Pitch / DSP resources | Maker says rebuilt Virtual Capo consumes the same CPU as its predecessor; no percentage or absolute cost supplied. Manufacturer1.5 manual describes additive blocks until resource limits gray out unavailable choices; no fixed current block ceiling established. Eight-core hardware is not evidence of eight equally allocated pitch slots. |
+| Pitch / qualifications | Legacy Virtual Capo Resolution/Tracking trade-offs retained below only as historical behavior. Newly rebuilt algorithm supersedes them for1.8.85. Manufacturer performance claims are not measured latency or a device test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Fender Tone Master Pro launch](https://www.fender.com/newsroom/270203-fender-continues-legacy-of-boundless-sonic-innovation-with-tone-master-pro-a-digital-workstation-offering-quality-and-versatility-in-e/) — October3,2023 launch announcement;8-core hardware. (Direct/indexed manufacturer datelined newsroom release).
+- [Fender current Tone Master Pro firmware history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates) — Device1.8.85; new polyphonic Virtual Capo ±12st, unchanged CPU, old controls removed; prior pitch-family additions separately versioned. (Direct maker support page, November18,2026 header).
+- [Fender rebuilt Virtual Capo announcement](https://www.fender.com/articles/parts-and-accessories/unlock-new-effects-with-tone-master-pro-update) — Polyphonic ±12st, Mix blends original and shifted signal; licensed Greer rename. (Direct maker article; matches current firmware notes).
+- [Fender firmware1.5 owner manual reproduction](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual) — 504 user rigs; resource-dependent Add Block availability. Historical revision, not current numeric DSP benchmark. (Manufacturer-authored manual body, cover/version and printed pages2/15 identified; host-generated FAQs excluded).
+
+<!-- firmware-pitch:Fender::Tone Master Pro ends -->
+
 **Checked 2026-10-15. Guitar/bass multi-effects with a separate mic/line processing path; large footprint; no built-in expression.** This record distinguishes the original manual and product-page figures from later firmware changes. Unknowns are explicit, not inferred from a competing processor.
 
 ### Hardware, memory and loading

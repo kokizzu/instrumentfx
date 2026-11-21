@@ -187041,10 +187041,79 @@
           "label": "1.36 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Fender::Tone Master Pro": {
+        "model_key": "Fender::Tone Master Pro",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2023-10-03",
+          "precision": "day",
+          "kind": "manufacturer launch announcement proxy",
+          "source_urls": [
+            "https://www.fender.com/newsroom/270203-fender-continues-legacy-of-boundless-sonic-innovation-with-tone-master-pro-a-digital-workstation-offering-quality-and-versatility-in-e/"
+          ],
+          "note": "Dated Fender launch announcement; exact first shipment not established."
+        },
+        "firmware": {
+          "version": "1.8.85",
+          "date": "2026-11-18",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates"
+          ],
+          "note": "Current maker release header and device download agree. Rebuilds Virtual Capo and rebrands Lightyear as licensed Greer Lightspeed. App1.8.10 and ASIO5.72.0 are separate products; no update installed."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Virtual Capo explicitly polyphonic, ±12semitones, with dry/shifted Mix. Firmware1.8.85 removes its old Resolution/Tracking controls. Other named pitch additions include Micro Shifter, Polygon Octave Shifter, PolyVoice Pitch Shifter, Granular Arpeggiator and Pitch Sequencer; their names alone do not establish identical input tracking or CPU cost.",
+          "preset": "Manufacturer firmware1.5 manual specifies504 user-created rig presets, with Factory/Cloud modes separate. Block Presets store reusable individual-block settings, not extra rig locations. Current1.8.85 memory allocation and factory fill were not independently counted.",
+          "dsp": "Maker says rebuilt Virtual Capo consumes the same CPU as its predecessor; no percentage or absolute cost supplied. Manufacturer1.5 manual describes additive blocks until resource limits gray out unavailable choices; no fixed current block ceiling established. Eight-core hardware is not evidence of eight equally allocated pitch slots.",
+          "source_urls": [
+            "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+            "https://www.fender.com/articles/parts-and-accessories/unlock-new-effects-with-tone-master-pro-update",
+            "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual"
+          ],
+          "measurements": [],
+          "notes": [
+            "Legacy Virtual Capo Resolution/Tracking trade-offs retained below only as historical behavior. Newly rebuilt algorithm supersedes them for1.8.85. Manufacturer performance claims are not measured latency or a device test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.fender.com/newsroom/270203-fender-continues-legacy-of-boundless-sonic-innovation-with-tone-master-pro-a-digital-workstation-offering-quality-and-versatility-in-e/",
+            "title": "Fender Tone Master Pro launch",
+            "access": "Direct/indexed manufacturer datelined newsroom release",
+            "evidence": "October3,2023 launch announcement;8-core hardware."
+          },
+          {
+            "url": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+            "title": "Fender current Tone Master Pro firmware history",
+            "access": "Direct maker support page, November18,2026 header",
+            "evidence": "Device1.8.85; new polyphonic Virtual Capo ±12st, unchanged CPU, old controls removed; prior pitch-family additions separately versioned."
+          },
+          {
+            "url": "https://www.fender.com/articles/parts-and-accessories/unlock-new-effects-with-tone-master-pro-update",
+            "title": "Fender rebuilt Virtual Capo announcement",
+            "access": "Direct maker article; matches current firmware notes",
+            "evidence": "Polyphonic ±12st, Mix blends original and shifted signal; licensed Greer rename."
+          },
+          {
+            "url": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+            "title": "Fender firmware1.5 owner manual reproduction",
+            "access": "Manufacturer-authored manual body, cover/version and printed pages2/15 identified; host-generated FAQs excluded",
+            "evidence": "504 user rigs; resource-dependent Add Block availability. Historical revision, not current numeric DSP benchmark."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1142,
+          "maximum_days": 1142,
+          "label": "3.13 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Fender::Tone Master Pro",
       "Flamma::FB200",
       "Flamma::FG200",
       "Flamma::FV02 Doubling",
@@ -187345,12 +187414,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 103,
-    "last_model": "Fender::Mustang Micro Plus",
-    "last_commit_parent": "c9f6ac52ce1b4fe0f35e51db51a18ff7091fbbe2",
+    "completed_model_count": 104,
+    "last_model": "Fender::Tone Master Pro",
+    "last_commit_parent": "06c07634a45ff57f49742f1a8b1cfeaf6a131b91",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Fender::Tone Master Pro",
       "Flamma::FB200",
       "Flamma::FG200",
       "Flamma::FV02 Doubling",
@@ -187650,7 +187718,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 103,
+    "pitch_completed_model_count": 104,
     "supplemental_model_count": 0
   },
   "model_images": {
