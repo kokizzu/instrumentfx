@@ -192225,6 +192225,64 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "Korg::AX1500G": {
+        "model_key": "Korg::AX1500G",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2001-03-08",
+          "precision": "day",
+          "kind": "announcement_proxy",
+          "source_urls": [
+            "https://www.harmonycentral.com/news/uncategorized/new-ax1500g-modeling-processor-from-korg-r16273/"
+          ],
+          "note": "Contemporaneous introduction dated March 8, 2001. Announcement proxy, not confirmed first shipment or worldwide retail availability."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/24/"
+          ],
+          "note": "Exact support page lists only Owner’s Manual, uploaded June 1, 2015. No public firmware package or dated device changelog located. Manual upload is not a firmware release; update span uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MODULATION PITCH SHIFTER and PEDAL PITCH BEND both span ±24 semitones with ±15-cent fine adjustment. OCTAVE adds a lower octave and warns about simultaneous strings or low notes. Main-shifter polyphony remains unverified.",
+          "preset": "48 factory plus 48 user programs, initially duplicated. Pitch settings are program data, but expression-pedal on/off status is not memorized per program. Hardware recall untested.",
+          "dsp": "PITCH SHIFTER occupies MODULATION. PEDAL PITCH BEND automatically disables MODULATION, preventing simultaneous use of both main pitch algorithms. No numerical pitch CPU cost located.",
+          "source_urls": [
+            "https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "OCTAVE caveat does not prove either main pitch shifter monophonic. No tracking/latency measurements."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.harmonycentral.com/news/uncategorized/new-ax1500g-modeling-processor-from-korg-r16273/",
+            "title": "New AX1500G Modeling Processor from Korg — March 8, 2001",
+            "access": "Contemporaneous introduction read",
+            "evidence": "Dated exact-model introduction; first shipment not established."
+          },
+          {
+            "url": "https://www.korg.com/us/support/download/product/1/24/",
+            "title": "Korg AX1500G support downloads",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "Only a manual dated June 1, 2015; no firmware listed."
+          },
+          {
+            "url": "https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf",
+            "title": "AX1500G Owner’s Manual E2",
+            "access": "Manufacturer original PDF text read",
+            "evidence": "Programs, pedal-state exception, pitch ranges, octave warning and PITCH BEND/MODULATION exclusion."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -192234,7 +192292,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::AX1500G",
       "Korg::AX3000B",
       "Korg::AX3000G",
       "Korg::AX30G",
@@ -192461,9 +192518,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 171,
-    "last_model": "Korg::AX5B",
-    "last_commit_parent": "7835e74ad52d8aee9a3719ff597c52c74e862f11",
+    "completed_model_count": 172,
+    "last_model": "Korg::AX1500G",
+    "last_commit_parent": "9a0e5cfc3f735be94472879b884349421f4f2a3e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -192472,7 +192529,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::AX1500G",
       "Korg::AX3000B",
       "Korg::AX3000G",
       "Korg::AX30G",
@@ -192698,7 +192754,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 171,
+    "pitch_completed_model_count": 172,
     "supplemental_model_count": 0
   },
   "model_images": {

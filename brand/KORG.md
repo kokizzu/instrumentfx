@@ -1104,6 +1104,30 @@ Stereo/Ping-Pong delay allows0–3s;dualECHO+reverb choices allow0–2s delay. T
 
 ## AX1500G
 
+<!-- firmware-pitch:Korg::AX1500G begins -->
+### Firmware and pitch audit — Korg AX1500G
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2001-03-08 (announcement proxy). Contemporaneous introduction dated March 8, 2001. Announcement proxy, not confirmed first shipment or worldwide retail availability. [launch 1](https://www.harmonycentral.com/news/uncategorized/new-ax1500g-modeling-processor-from-korg-r16273/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact support page lists only Owner’s Manual, uploaded June 1, 2015. No public firmware package or dated device changelog located. Manual upload is not a firmware release; update span uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/24/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MODULATION PITCH SHIFTER and PEDAL PITCH BEND both span ±24 semitones with ±15-cent fine adjustment. OCTAVE adds a lower octave and warns about simultaneous strings or low notes. Main-shifter polyphony remains unverified. [pitch 1](https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf) |
+| Pitch / preset recall | 48 factory plus 48 user programs, initially duplicated. Pitch settings are program data, but expression-pedal on/off status is not memorized per program. Hardware recall untested. |
+| Pitch / DSP resources | PITCH SHIFTER occupies MODULATION. PEDAL PITCH BEND automatically disables MODULATION, preventing simultaneous use of both main pitch algorithms. No numerical pitch CPU cost located. |
+| Pitch / qualifications | OCTAVE caveat does not prove either main pitch shifter monophonic. No tracking/latency measurements. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [New AX1500G Modeling Processor from Korg — March 8, 2001](https://www.harmonycentral.com/news/uncategorized/new-ax1500g-modeling-processor-from-korg-r16273/) — Dated exact-model introduction; first shipment not established. (Contemporaneous introduction read).
+- [Korg AX1500G support downloads](https://www.korg.com/us/support/download/product/1/24/) — Only a manual dated June 1, 2015; no firmware listed. (Manufacturer exact-model page read).
+- [AX1500G Owner’s Manual E2](https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf) — Programs, pedal-state exception, pitch ranges, octave warning and PITCH BEND/MODULATION exclusion. (Manufacturer original PDF text read).
+
+<!-- firmware-pitch:Korg::AX1500G ends -->
+
 Guitar multi-effects; distinct from AX1000G/AX3000G. Checked 2026-10-17; partial. Bass capability and ownership unestablished.
 
 <!-- comparison evidence begins -->
