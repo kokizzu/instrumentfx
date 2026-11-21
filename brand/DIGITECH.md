@@ -632,6 +632,26 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP70 ends -->
 
+<!-- model-images:DigiTech::RP70 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**RP70 powered-on top view**
+
+[![RP70 powered-on top view](https://obrazki.elektroda.pl/9752947500_1448045182.jpg)](https://obrazki.elektroda.pl/9752947500_1448045182.jpg)
+
+[Image source](https://www.elektroda.pl/rtvforum/topic3115944.html). Visually inspected: display reads 43 and LEDs are lit. Near-overhead photograph with slight perspective.
+
+**RP70 rear ports**
+
+[![RP70 rear ports](https://media.guitarcenter.com/is/image/MMGS7/153570000000000-01-2000x2000.jpg)](https://media.guitarcenter.com/is/image/MMGS7/153570000000000-01-2000x2000.jpg)
+
+[Image source](https://www.guitarcenter.com/Open-Box/DigiTech/RP70-Guitar-Multi-Effect-Pedal-Level-1-153570004000000.gc). Visually inspected RP70 rear panel: input, amp/mixer selector, left/right outputs, control input, headphones and DC power.
+
+</details>
+<!-- model-images:DigiTech::RP70 ends -->
+
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->
