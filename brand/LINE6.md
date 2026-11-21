@@ -4206,6 +4206,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::POD X3 Live ends -->
 
+<!-- model-images:Line 6::POD X3 Live begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**POD X3 Live powered-on top-down view**
+
+[![POD X3 Live powered-on top-down view](https://line6.com/data/l/0a060072211146f7f2b3c6aab/image/jpeg/PODsupsup%20X3%20Live%20(Top%20Down)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a060072211146f7f2b3c6aab/image/jpeg/PODsupsup%20X3%20Live%20(Top%20Down)%20-%20Lo%20Rez.jpeg)
+
+[Image source](https://line6.com/company/images/?families=57). Manufacturer Top Down image; LCD text/backlight and multiple footswitch LEDs visibly lit. Full control surface and treadle shown.
+
+**POD X3 Live rear connections**
+
+[![POD X3 Live rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/49165/257487/YLINE612627306__01390.1685961715.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/49165/257487/YLINE612627306__01390.1685961715.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/line-6-pod-x3-live-with-psu-2nd-hand/). Rich Tone exact X3 Live specimen. Full rear connection edge shown at an angle, including Pedal 2, guitar/CD-MP3, Live/Direct outs, phones, aux/mic, FX loop, Variax, MIDI, USB and power; some small labels require zoom.
+
+</details>
+<!-- model-images:Line 6::POD X3 Live ends -->
+
+
 Checked **2026-10-17**; partial. Floor processor, distinct from desktop X3, rack X3 Pro and XT Live. Model-specific [product documentation][X3L-P] establishes guitar, bass and vocal modeling; all three instrument comparisons include this single canonical record.
 
 <!-- comparison evidence begins -->
