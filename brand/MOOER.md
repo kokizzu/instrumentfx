@@ -1849,6 +1849,30 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 ## GE250
 
+<!-- firmware-pitch:MOOER::GE250 begins -->
+### Firmware and pitch audit — MOOER GE250
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2019-12-18 (manufacturer public introduction). Official MOOER introduction video publication; first retail shipment day unresolved. [launch 1](https://www.youtube.com/watch?v=Sj0FQaHeWdU) |
+| Firmware / latest verification | 2.1.0 (manufacturer heading; device payload unverified) — Located; latest status unverified. Current page labels 2.1.0 as Firmware, dated 2026-11-06, but describes only PC-editor NAM import and names packages MS_For_GE250. Device payload version was not independently checked, so this date is not assigned as a confirmed device release. Earlier explicitly dated firmware 2.0.6 is 2021-11-01. Uniform 2026-11-10 file timestamps are uploads. Native NAM execution unverified. [firmware 1](https://www.mooeraudio.com/companyfile/GE250-Downloads-148.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Manual explicitly lists POLYPITCH as a poly pitch shifter, alongside MONOPITCH and DETUNE in FXA/FXB. Poly classification applies to POLYPITCH; no measured chord-tracking quality or latency established. [pitch 1](https://device.report/m/f2e817a2f32a2d87cb78f162519454df25a15ef9e3dfc7cfff7a66ae0cdf5d8b) |
+| Pitch / preset recall | 255 patches across 85 banks of three. SAVE selects a destination and stores the edited configuration. Expression and MERGE control are documented; exact held-pedal position recall untested. |
+| Pitch / DSP resources | Pitch algorithms are FXA/FXB selections, sharing those slots with other effects. Home display includes total DSP resource load. No isolated POLYPITCH percentage located; example preset load is not per-algorithm cost. |
+| Pitch / qualifications | Original manufacturer-authored 2019 manual on mirror; later firmware algorithm changes require separate evidence. No hardware measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER Audio — GE250 introduction](https://www.youtube.com/watch?v=Sj0FQaHeWdU) — Published 2019-12-18; public introduction proxy. (Official-channel indexed publication read).
+- [GE250 download and update notes](https://www.mooeraudio.com/companyfile/GE250-Downloads-148.html) — 2.1.0 heading dated2026-11-06 describes PC-only NAM import; 2.0.6 firmware dated2021-11-01; downloads use MS_For_GE250 naming. (Manufacturer exact-model page read).
+- [GE250 Owner’s Manual — 2019 original](https://device.report/m/f2e817a2f32a2d87cb78f162519454df25a15ef9e3dfc7cfff7a66ae0cdf5d8b) — Printed pp6,15,24–28,37–39: DSP load display, SAVE and FXA/FXB POLYPITCH/MONOPITCH/DETUNE inventory. (Manufacturer-authored extracted English body read on mirror).
+
+<!-- firmware-pitch:MOOER::GE250 ends -->
+
 Guitar/bass-capable multi-effects, **large** by the repository's footprint limits. Not GE200, GE200 Pro or GE300. This is a partial record with explicit source and revision disagreements.
 
 | Required field | Evidence-backed specification / unresolved issue |

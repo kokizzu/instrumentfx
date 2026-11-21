@@ -192818,6 +192818,64 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::GE250": {
+        "model_key": "MOOER::GE250",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2019-12-18",
+          "precision": "day",
+          "kind": "manufacturer_public_introduction",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=Sj0FQaHeWdU"
+          ],
+          "note": "Official MOOER introduction video publication; first retail shipment day unresolved."
+        },
+        "firmware": {
+          "version": "2.1.0 (manufacturer heading; device payload unverified)",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/companyfile/GE250-Downloads-148.html"
+          ],
+          "note": "Current page labels 2.1.0 as Firmware, dated 2026-11-06, but describes only PC-editor NAM import and names packages MS_For_GE250. Device payload version was not independently checked, so this date is not assigned as a confirmed device release. Earlier explicitly dated firmware 2.0.6 is 2021-11-01. Uniform 2026-11-10 file timestamps are uploads. Native NAM execution unverified."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Manual explicitly lists POLYPITCH as a poly pitch shifter, alongside MONOPITCH and DETUNE in FXA/FXB. Poly classification applies to POLYPITCH; no measured chord-tracking quality or latency established.",
+          "preset": "255 patches across 85 banks of three. SAVE selects a destination and stores the edited configuration. Expression and MERGE control are documented; exact held-pedal position recall untested.",
+          "dsp": "Pitch algorithms are FXA/FXB selections, sharing those slots with other effects. Home display includes total DSP resource load. No isolated POLYPITCH percentage located; example preset load is not per-algorithm cost.",
+          "source_urls": [
+            "https://device.report/m/f2e817a2f32a2d87cb78f162519454df25a15ef9e3dfc7cfff7a66ae0cdf5d8b"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original manufacturer-authored 2019 manual on mirror; later firmware algorithm changes require separate evidence. No hardware measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Sj0FQaHeWdU",
+            "title": "MOOER Audio — GE250 introduction",
+            "access": "Official-channel indexed publication read",
+            "evidence": "Published 2019-12-18; public introduction proxy."
+          },
+          {
+            "url": "https://www.mooeraudio.com/companyfile/GE250-Downloads-148.html",
+            "title": "GE250 download and update notes",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "2.1.0 heading dated2026-11-06 describes PC-only NAM import; 2.0.6 firmware dated2021-11-01; downloads use MS_For_GE250 naming."
+          },
+          {
+            "url": "https://device.report/m/f2e817a2f32a2d87cb78f162519454df25a15ef9e3dfc7cfff7a66ae0cdf5d8b",
+            "title": "GE250 Owner’s Manual — 2019 original",
+            "access": "Manufacturer-authored extracted English body read on mirror",
+            "evidence": "Printed pp6,15,24–28,37–39: DSP load display, SAVE and FXA/FXB POLYPITCH/MONOPITCH/DETUNE inventory."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -192861,7 +192919,6 @@
       "MOOER::GE200 Plus Li",
       "MOOER::GE200 Pro",
       "MOOER::GE200 Pro Li",
-      "MOOER::GE250",
       "MOOER::GE300",
       "MOOER::GE300 Lite",
       "MOOER::GS1000",
@@ -193045,9 +193102,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 180,
-    "last_model": "MOOER::GE200 original",
-    "last_commit_parent": "06fb3e01b4dfa499550c9c77d068302632577919",
+    "completed_model_count": 181,
+    "last_model": "MOOER::GE250",
+    "last_commit_parent": "1943c57ef9c06f3f11651b23e8af1803c7ae1888",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -193090,7 +193147,6 @@
       "MOOER::GE200 Plus Li",
       "MOOER::GE200 Pro",
       "MOOER::GE200 Pro Li",
-      "MOOER::GE250",
       "MOOER::GE300",
       "MOOER::GE300 Lite",
       "MOOER::GS1000",
@@ -193273,7 +193329,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 180,
+    "pitch_completed_model_count": 181,
     "supplemental_model_count": 0
   },
   "model_images": {
