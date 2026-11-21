@@ -204965,11 +204965,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Kemper::PROFILER Rack MK2": {
+        "model_key": "Kemper::PROFILER Rack MK2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_front_800w.jpg",
+            "source_url": "https://www.kemper-amps.com/store/en/profiler-rack-b.html",
+            "caption": "PROFILER Rack MK2 listing powered front/control face: active LCD, effect LEDs and rack mounting ears.",
+            "note": "Exact SKU17300000 listing supplies this shared Rack-front picture. Four direct delay/reverb knobs, front USB-A, headphones and instrument input visible. Upright rack controls face forward; this is not perpendicular overhead. No visible MK2 badge or rear power-stage identity can be established from the front alone.",
+            "visual_checked": true,
+            "sha256": "ce58bc58ad1d323f6ce81945a59ef3864d039570d9c455374992bd7bdec08d7a",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_back_800w.jpg",
+            "source_url": "https://www.kemper-amps.com/store/en/profiler-rack-b.html",
+            "caption": "Unpowered PROFILER Rack rear panel supplied by the Rack MK2 listing; no speaker power-amplifier socket.",
+            "note": "Visible RETURN XLR/quarter-inch, ALTERNATIVE INPUT, DIRECT/SEND, MONITOR, stereo MAIN XLR/quarter-inch, S/PDIF RCA, MIDI thru/out/in, two pedal sockets, NETWORK, USB-B and IEC mains. USB-A is on the front. Large blank right-side area has no red speaker output, unlike PowerRack. The small printed mains range differs from current generic unpowered specifications; no revision reconciliation is inferred. Listing provenance does not independently establish internal MK2 revision or installed firmware.",
+            "visual_checked": true,
+            "sha256": "0416d59b7d70b450dfe44de86f62ca60a8299fb159733503c4bdb9a20e7c39f8",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Kemper::PROFILER PowerRack MK2"
+    "last_model": "Kemper::PROFILER Rack MK2"
   }
 }

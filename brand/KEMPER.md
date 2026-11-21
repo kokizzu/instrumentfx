@@ -456,6 +456,26 @@ Sources checked:
 
 <!-- firmware-pitch:Kemper::PROFILER Rack MK2 ends -->
 
+<!-- model-images:Kemper::PROFILER Rack MK2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**PROFILER Rack MK2 listing powered front/control face: active LCD, effect LEDs and rack mounting ears.**
+
+[![PROFILER Rack MK2 listing powered front/control face: active LCD, effect LEDs and rack mounting ears.](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_front_800w.jpg)](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_front_800w.jpg)
+
+[Image source](https://www.kemper-amps.com/store/en/profiler-rack-b.html). Exact SKU17300000 listing supplies this shared Rack-front picture. Four direct delay/reverb knobs, front USB-A, headphones and instrument input visible. Upright rack controls face forward; this is not perpendicular overhead. No visible MK2 badge or rear power-stage identity can be established from the front alone.
+
+**Unpowered PROFILER Rack rear panel supplied by the Rack MK2 listing; no speaker power-amplifier socket.**
+
+[![Unpowered PROFILER Rack rear panel supplied by the Rack MK2 listing; no speaker power-amplifier socket.](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_back_800w.jpg)](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_back_800w.jpg)
+
+[Image source](https://www.kemper-amps.com/store/en/profiler-rack-b.html). Visible RETURN XLR/quarter-inch, ALTERNATIVE INPUT, DIRECT/SEND, MONITOR, stereo MAIN XLR/quarter-inch, S/PDIF RCA, MIDI thru/out/in, two pedal sockets, NETWORK, USB-B and IEC mains. USB-A is on the front. Large blank right-side area has no red speaker output, unlike PowerRack. The small printed mains range differs from current generic unpowered specifications; no revision reconciliation is inferred. Listing provenance does not independently establish internal MK2 revision or installed firmware.
+
+</details>
+<!-- model-images:Kemper::PROFILER Rack MK2 ends -->
+
+
 Partial record checked **2026-10-17**. Exact manufacturer SKU17300000 and Shopee MK2 title. Distinct from PowerRack, original Rack and Remote bundles.
 
 | Required field | Evidence / qualification |
