@@ -188074,11 +188074,35 @@
             "sha256": "a6dfc05948c95d6617740966dc60aba9ff6600eae5023b39d440cf47e7a5352f"
           }
         }
+      },
+      "Fender::Tone Master Pro": {
+        "model_key": "Fender::Tone Master Pro",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_57/571511/18808538_800.jpg",
+            "source_url": "https://www.thomann.de/de/fender_tone_master_pro.htm?type=manufacturer",
+            "caption": "Tone Master Pro powered-on near-top-down photograph",
+            "note": "Main display, scribble strips and footswitch rings are visibly illuminated. Small front-edge perspective remains; not an exact orthographic top-down view. Historical pictured preset is not proof that1.8.85 is installed.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "420ff6392968e5ef272a4148589bb01412b6b46e37f40c46b1a47ef8d9f2eddc"
+          },
+          "rear": {
+            "image_url": "https://assets-sb.thomann.de/f/49568/3991x796/ab73affce6/571511_crop_1.jpg/m/1600x0/filters%3Aquality%2890%29",
+            "source_url": "https://www.thomann.de/de/fender_tone_master_pro.htm?type=manufacturer",
+            "caption": "Tone Master Pro full rear connector photograph",
+            "note": "Shows mic/line and instrument inputs, four FX loops, XLR/jack Output1, Output2, AUX/phones, EXP1/2, toe switch, amp control, microSD, USB-C, DIN MIDI, power switch and IEC inlet. Printed40W is a chassis rating, not measured consumption.",
+            "visual_checked": true,
+            "sha256": "698444a65c856bb9a9e3ce71136db5574b1032133b662146a0280a04a34453bd"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Fender::Mustang Micro Plus"
+    "last_model": "Fender::Tone Master Pro"
   }
 }

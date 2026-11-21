@@ -304,6 +304,26 @@ Sources checked:
 
 <!-- firmware-pitch:Fender::Tone Master Pro ends -->
 
+<!-- model-images:Fender::Tone Master Pro begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Tone Master Pro powered-on near-top-down photograph**
+
+[![Tone Master Pro powered-on near-top-down photograph](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_57/571511/18808538_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_57/571511/18808538_800.jpg)
+
+[Image source](https://www.thomann.de/de/fender_tone_master_pro.htm?type=manufacturer). Main display, scribble strips and footswitch rings are visibly illuminated. Small front-edge perspective remains; not an exact orthographic top-down view. Historical pictured preset is not proof that1.8.85 is installed.
+
+**Tone Master Pro full rear connector photograph**
+
+[![Tone Master Pro full rear connector photograph](https://assets-sb.thomann.de/f/49568/3991x796/ab73affce6/571511_crop_1.jpg/m/1600x0/filters%3Aquality%2890%29)](https://assets-sb.thomann.de/f/49568/3991x796/ab73affce6/571511_crop_1.jpg/m/1600x0/filters%3Aquality%2890%29)
+
+[Image source](https://www.thomann.de/de/fender_tone_master_pro.htm?type=manufacturer). Shows mic/line and instrument inputs, four FX loops, XLR/jack Output1, Output2, AUX/phones, EXP1/2, toe switch, amp control, microSD, USB-C, DIN MIDI, power switch and IEC inlet. Printed40W is a chassis rating, not measured consumption.
+
+</details>
+<!-- model-images:Fender::Tone Master Pro ends -->
+
+
 **Checked 2026-10-15. Guitar/bass multi-effects with a separate mic/line processing path; large footprint; no built-in expression.** This record distinguishes the original manual and product-page figures from later firmware changes. Unknowns are explicit, not inferred from a competing processor.
 
 ### Hardware, memory and loading
