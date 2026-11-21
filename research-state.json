@@ -184416,10 +184416,68 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::VE-2": {
+        "model_key": "BOSS::VE-2",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2014-03-11",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2014/1790/"
+          ],
+          "note": "Manufacturer announcement; exact first retail shipment not established."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/ve-2/updates_drivers/"
+          ],
+          "note": "Current support index lists Windows/macOS drivers, not a device system program. Targeted firmware search returns driver boilerplate and other devices, not a VE-2 firmware release. Version/date and update span remain unknown; internal revisions not ruled out."
+        },
+        "pitch": {
+          "status": "documented_monophonic",
+          "algorithms": "Vocal harmony requires one singer at the mic; manual warns multiple voices prevent correct harmony/echo. Twelve harmony types add one/two voices, with thicker VARIATION choices. Auto detects guitar chords/key; manual key and hybrid modes available. Enhance can add pitch correction.",
+          "preset": "Three saved settings A/B/C plus normal panel state. Harmony type/variation choices are not additional full-patch memories.",
+          "dsp": "Dedicated harmony, echo and enhancement/correction stages. Harmony-off leaves echo/enhance active; BYPASS passes direct mic. No harmony CPU percentage or numerical DSP allocation table found.",
+          "measurements": [],
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/VE-2_eng04_W.pdf",
+            "https://www.roland.com/us/company/press_releases/2014/1790/"
+          ],
+          "notes": [
+            "Guitar chord analysis guides the vocal harmonies; it does not establish polyphonic vocal input or a guitar pitch-shifting path. No VE-20/VE-500 algorithms transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2014/1790/",
+            "title": "BOSS debuts VE-2 Vocal Harmonist",
+            "access": "Manufacturer press release web text",
+            "evidence": "March 11, 2014 announcement; harmony types/variation, Auto/manual/hybrid modes, pitch correction and memories."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/ve-2/updates_drivers/",
+            "title": "VE-2 updates and drivers",
+            "access": "Manufacturer current support index web text",
+            "evidence": "OS-driver releases listed without device system-program entry."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/VE-2_eng04_W.pdf",
+            "title": "BOSS VE-2 Owner Manual revision 04",
+            "access": "Manufacturer PDF web text",
+            "evidence": "One-person mic input restriction, three memories plus normal state, harmony-off/bypass distinction and Enhance/pitch-correct states."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::VE-2",
       "BOSS::VE-20",
       "BOSS::VE-22",
       "BOSS::VE-5",
@@ -184757,12 +184815,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 66,
-    "last_model": "BOSS::VE-1",
-    "last_commit_parent": "fed7b96a178432d56852252716fc9c8f4c462790",
+    "completed_model_count": 67,
+    "last_model": "BOSS::VE-2",
+    "last_commit_parent": "e65fb2b8f36a214e7ebca52e3c2ff32bb6d0b30b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::VE-2",
       "BOSS::VE-20",
       "BOSS::VE-22",
       "BOSS::VE-5",
@@ -185099,7 +185156,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 66,
+    "pitch_completed_model_count": 67,
     "supplemental_model_count": 0
   }
 }

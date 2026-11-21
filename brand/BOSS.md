@@ -6604,6 +6604,30 @@ Hold onboard pedal≥2seconds:memory cycles A/B/C/manual at1second intervals;rel
 
 ## VE-2
 
+<!-- firmware-pitch:BOSS::VE-2 begins -->
+### Firmware and pitch audit — BOSS VE-2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2014-03-11 (manufacturer announcement proxy). Manufacturer announcement; exact first retail shipment not established. [launch 1](https://www.roland.com/us/company/press_releases/2014/1790/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current support index lists Windows/macOS drivers, not a device system program. Targeted firmware search returns driver boilerplate and other devices, not a VE-2 firmware release. Version/date and update span remain unknown; internal revisions not ruled out. [firmware 1](https://www.boss.info/global/support/by_product/ve-2/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. Vocal harmony requires one singer at the mic; manual warns multiple voices prevent correct harmony/echo. Twelve harmony types add one/two voices, with thicker VARIATION choices. Auto detects guitar chords/key; manual key and hybrid modes available. Enhance can add pitch correction. [pitch 1](https://static.roland.com/assets/media/pdf/VE-2_eng04_W.pdf) [pitch 2](https://www.roland.com/us/company/press_releases/2014/1790/) |
+| Pitch / preset recall | Three saved settings A/B/C plus normal panel state. Harmony type/variation choices are not additional full-patch memories. |
+| Pitch / DSP resources | Dedicated harmony, echo and enhancement/correction stages. Harmony-off leaves echo/enhance active; BYPASS passes direct mic. No harmony CPU percentage or numerical DSP allocation table found. |
+| Pitch / qualifications | Guitar chord analysis guides the vocal harmonies; it does not establish polyphonic vocal input or a guitar pitch-shifting path. No VE-20/VE-500 algorithms transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS debuts VE-2 Vocal Harmonist](https://www.roland.com/us/company/press_releases/2014/1790/) — March 11, 2014 announcement; harmony types/variation, Auto/manual/hybrid modes, pitch correction and memories. (Manufacturer press release web text).
+- [VE-2 updates and drivers](https://www.boss.info/global/support/by_product/ve-2/updates_drivers/) — OS-driver releases listed without device system-program entry. (Manufacturer current support index web text).
+- [BOSS VE-2 Owner Manual revision 04](https://static.roland.com/assets/media/pdf/VE-2_eng04_W.pdf) — One-person mic input restriction, three memories plus normal state, harmony-off/bypass distinction and Enhance/pitch-correct states. (Manufacturer PDF web text).
+
+<!-- firmware-pitch:BOSS::VE-2 ends -->
+
 Vocal multi-effects;guitar chord detection does not establish guitar multi-effects. Consolidated/researched2026-10-16;partial verification.
 
 ### VE-2 — preserved original comparison
