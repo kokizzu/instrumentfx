@@ -481,6 +481,31 @@ No onboard footswitches;hand Program/Load and external switch stepping are separ
 
 ## MX400
 
+<!-- firmware-pitch:Lexicon::MX400 begins -->
+### Firmware and pitch audit — Lexicon MX400
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2006-07-07 (manufacturer now-shipping notice; first individual retail delivery unverified). English press-release dateline July 7, 2006 is reproduced in the manufacturer archive under August 21 metadata. Earlier June 7 exhibition notice is not a shipping date. [launch 1](https://lexiconpro.com/es/news/archived) |
+| Firmware / latest verification | Not verified — Unverified. Official indexed downloads list MX Edit Mac 2.2.0/Windows 2.3.1 and MX NetUpdater 1.0, August 2016. These describe host applications, not an authenticated MX400 firmware payload/version/date. April 2026 document uploads do not establish device updates; no release-to-update duration verified. [firmware 1](https://lexiconpro.com/en-US/products/mx400/features) [firmware 2](https://lexiconpro.com/en-US/softwares/mx-netupdater-v1-0-windows) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Stereo chromatic Pitch Shift, up/down two octaves; Detune. Shift 1/2, Delay 1/2 and Feedback 1/2 provide pitched repeats. Individual notes are recommended; stereo labeling does not prove polyphony or strict monophonic-only operation. [pitch 1](https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf) |
+| Pitch / preset recall | Configuration-specific factory/user banks; dual-stereo programs A/B recall independently. MIDI CC32 selects factory/user; Program Change 0–98 addresses displayed 1–99. Whole-device memory total and initial user fill remain unresolved. |
+| Pitch / DSP resources | Dual Stereo allows four effects across A/B; pitch occupies an available effect slot. Route 5 uses one effect per program and its allocated DSP; Surround Hall uses all device DSP. No measured pitch-specific percentage; do not equate one slot with 25% CPU. |
+| Pitch / qualifications | MX400 has quarter-inch analog I/O; do not substitute MX400XL rear photographs. Published general processing delay is not a pitch-tracking latency measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Lexicon manufacturer archive — MX400 and XL shipping notice](https://lexiconpro.com/es/news/archived) — Now-shipping announcement dateline July 7, 2006; archive metadata August 21, 2006. (Search-indexed manufacturer archive with English release text).
+- [Lexicon MX400 product and downloads](https://lexiconpro.com/en-US/products/mx400/features) — Discontinued; August 2016 MX Edit and NetUpdater host-software versions, April 2026 document uploads; no authenticated device firmware release located. (Manufacturer indexed product text).
+- [Lexicon MX NetUpdater v1.0 Windows](https://lexiconpro.com/en-US/softwares/mx-netupdater-v1-0-windows) — Windows firmware updater for MX series; updater 1.0 is not the target device firmware version. (Manufacturer search-indexed description; direct access previously 403).
+- [Lexicon MX400/MX400XL User Guide 18-0446V-F](https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf) — Printed pp8,15–19,28–30,33,45: program/routing allocation, chromatic shift/detune, individual-note recommendation and MIDI recall; no explicit polyphony guarantee or pitch DSP measurement. (Manufacturer CDN PDF text inspected, 64 pages).
+
+<!-- firmware-pitch:Lexicon::MX400 ends -->
+
 TRS-connector MX400 rack multi-effects; MX400XL is a distinct connector variant. Checked 2026-10-17; partial. Guitar/vocal mixer paths and bass-track compression documented in own manual. Use suitable line-level routing; not a direct mic/Hi-Z preamp claim. Ownership unestablished.
 
 <!-- comparison evidence begins -->

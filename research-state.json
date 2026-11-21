@@ -200119,10 +200119,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Lexicon::MX400": {
+        "model_key": "Lexicon::MX400",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2006-07-07",
+          "precision": "day",
+          "kind": "manufacturer now-shipping notice; first individual retail delivery unverified",
+          "source_urls": [
+            "https://lexiconpro.com/es/news/archived"
+          ],
+          "note": "English press-release dateline July 7, 2006 is reproduced in the manufacturer archive under August 21 metadata. Earlier June 7 exhibition notice is not a shipping date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://lexiconpro.com/en-US/products/mx400/features",
+            "https://lexiconpro.com/en-US/softwares/mx-netupdater-v1-0-windows"
+          ],
+          "note": "Official indexed downloads list MX Edit Mac 2.2.0/Windows 2.3.1 and MX NetUpdater 1.0, August 2016. These describe host applications, not an authenticated MX400 firmware payload/version/date. April 2026 document uploads do not establish device updates; no release-to-update duration verified."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Stereo chromatic Pitch Shift, up/down two octaves; Detune. Shift 1/2, Delay 1/2 and Feedback 1/2 provide pitched repeats. Individual notes are recommended; stereo labeling does not prove polyphony or strict monophonic-only operation.",
+          "preset": "Configuration-specific factory/user banks; dual-stereo programs A/B recall independently. MIDI CC32 selects factory/user; Program Change 0–98 addresses displayed 1–99. Whole-device memory total and initial user fill remain unresolved.",
+          "dsp": "Dual Stereo allows four effects across A/B; pitch occupies an available effect slot. Route 5 uses one effect per program and its allocated DSP; Surround Hall uses all device DSP. No measured pitch-specific percentage; do not equate one slot with 25% CPU.",
+          "source_urls": [
+            "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "MX400 has quarter-inch analog I/O; do not substitute MX400XL rear photographs.",
+            "Published general processing delay is not a pitch-tracking latency measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://lexiconpro.com/es/news/archived",
+            "title": "Lexicon manufacturer archive — MX400 and XL shipping notice",
+            "access": "Search-indexed manufacturer archive with English release text",
+            "evidence": "Now-shipping announcement dateline July 7, 2006; archive metadata August 21, 2006."
+          },
+          {
+            "url": "https://lexiconpro.com/en-US/products/mx400/features",
+            "title": "Lexicon MX400 product and downloads",
+            "access": "Manufacturer indexed product text",
+            "evidence": "Discontinued; August 2016 MX Edit and NetUpdater host-software versions, April 2026 document uploads; no authenticated device firmware release located."
+          },
+          {
+            "url": "https://lexiconpro.com/en-US/softwares/mx-netupdater-v1-0-windows",
+            "title": "Lexicon MX NetUpdater v1.0 Windows",
+            "access": "Manufacturer search-indexed description; direct access previously 403",
+            "evidence": "Windows firmware updater for MX series; updater 1.0 is not the target device firmware version."
+          },
+          {
+            "url": "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf",
+            "title": "Lexicon MX400/MX400XL User Guide 18-0446V-F",
+            "access": "Manufacturer CDN PDF text inspected, 64 pages",
+            "evidence": "Printed pp8,15–19,28–30,33,45: program/routing allocation, chromatic shift/detune, individual-note recommendation and MIDI recall; no explicit polyphony guarantee or pitch DSP measurement."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Lexicon::MX400",
       "MOD Audio::Duo",
       "Mosky::DC5",
       "Mosky::RC5",
@@ -200260,12 +200325,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 266,
-    "last_model": "Lexicon::MX300",
-    "last_commit_parent": "6fb8369346caf2d81f3f8b9e30c01bd92333142d",
+    "completed_model_count": 267,
+    "last_model": "Lexicon::MX400",
+    "last_commit_parent": "0ec708ec63b28432059c63af489b4ec72d1d4d91",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Lexicon::MX400",
       "MOD Audio::Duo",
       "Mosky::DC5",
       "Mosky::RC5",
@@ -200402,7 +200466,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 266,
+    "pitch_completed_model_count": 267,
     "supplemental_model_count": 0
   },
   "model_images": {
