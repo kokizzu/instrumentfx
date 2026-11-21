@@ -201037,10 +201037,70 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC Electronic::M100": {
+        "model_key": "TC Electronic::M100",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2017-06-22",
+          "precision": "day",
+          "kind": "manufacturer public product announcement;not verified first retail shipment",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=O3YvNxJ73tQ"
+          ],
+          "note": "TC Electronic official M100 product video published June22,2017. This dates the original model announcement,not current MIDI-equipped revision availability or first retail delivery."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.tcelectronic.com/en/products/0828-AAH",
+            "https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf"
+          ],
+          "note": "Current manufacturer page and QSG document MIDI CC and SysEx firmware-update transport. Product files currently list guides;no authenticated latest application firmware version/date located. Do not infer no update capability from older connector inventories or treat QSG publication as firmware release. No update installed;duration unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift program provides±12-semitone parameter and Detune toggle per QSG parameter table. Polyphonic input handling,voice count and scale harmony unverified;stereo I/O does not establish polyphony.",
+          "preset": "16 selected effect programs;parameter changes retained until power-off per current manufacturer page. Persistent user patch storage and pitch-setting recall after power cycle unverified. MIDI CC effect selection is not a user-preset bank.",
+          "dsp": "No pitch-specific DSP/CPU percentage or measured cost located. Pitch Shift is one of16 selectable programs,not1/16 of CPU. Delay+Reverb/Chorus+Reverb combinations do not establish arbitrary simultaneous Pitch+Reverb.",
+          "source_urls": [
+            "https://www.tcelectronic.com/en/products/0828-AAH",
+            "https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Current MIDI-equipped documentation must be checked against actual hardware revision before using CC or updater instructions.",
+            "Keep manufacturer2017 announcement distinct from reintroduction and guide upload dates. No device operated."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.tcelectronic.com/en/products/0828-AAH",
+            "title": "TC Electronic M100 current manufacturer product",
+            "access": "Current manufacturer page inspected",
+            "evidence": "16 effect programs;MIDI CC/update connector;parameters held untilpoweroff;guides listed. No firmware version/date in inspected page."
+          },
+          {
+            "url": "https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf",
+            "title": "TC Electronic M100 current multilingual QSG",
+            "access": "Manufacturer original indexed table inspected;direct CDN mirror500",
+            "evidence": "Printedp58 Pitch Shift±12semitones andDetune;MIDIupdate procedure revision-qualified. No numeric DSP cost."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=O3YvNxJ73tQ",
+            "title": "TC Electronic M100 official product video",
+            "access": "Manufacturer-channel publication and description inspected",
+            "evidence": "Published2017-06-22;original M100 stereo multi-effects announcement. Not current revision launch or firmware release."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC Electronic::M100",
       "TC Electronic::M350",
       "TC Electronic::NOVA System",
       "TC Electronic::PLETHORA X3",
@@ -201165,12 +201225,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 279,
-    "last_model": "TC Electronic::M-One XL",
-    "last_commit_parent": "95f85a319c56ce18775a9b289d813b67fe4e3cd8",
+    "completed_model_count": 280,
+    "last_model": "TC Electronic::M100",
+    "last_commit_parent": "d9119292bd88f29799c31bc5039ba98868f2e7f1",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC Electronic::M100",
       "TC Electronic::M350",
       "TC Electronic::NOVA System",
       "TC Electronic::PLETHORA X3",
@@ -201294,7 +201353,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 279,
+    "pitch_completed_model_count": 280,
     "supplemental_model_count": 0
   },
   "model_images": {

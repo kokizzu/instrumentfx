@@ -98,6 +98,30 @@ Editor Sets include User bank,Global data andedit buffer. This is a documented w
 
 ## M100
 
+<!-- firmware-pitch:TC Electronic::M100 begins -->
+### Firmware and pitch audit — TC Electronic M100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017-06-22 (manufacturer public product announcement;not verified first retail shipment). TC Electronic official M100 product video published June22,2017. This dates the original model announcement,not current MIDI-equipped revision availability or first retail delivery. [launch 1](https://www.youtube.com/watch?v=O3YvNxJ73tQ) |
+| Firmware / latest verification | Not verified — Unverified. Current manufacturer page and QSG document MIDI CC and SysEx firmware-update transport. Product files currently list guides;no authenticated latest application firmware version/date located. Do not infer no update capability from older connector inventories or treat QSG publication as firmware release. No update installed;duration unknown. [firmware 1](https://www.tcelectronic.com/en/products/0828-AAH) [firmware 2](https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift program provides±12-semitone parameter and Detune toggle per QSG parameter table. Polyphonic input handling,voice count and scale harmony unverified;stereo I/O does not establish polyphony. [pitch 1](https://www.tcelectronic.com/en/products/0828-AAH) [pitch 2](https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf) |
+| Pitch / preset recall | 16 selected effect programs;parameter changes retained until power-off per current manufacturer page. Persistent user patch storage and pitch-setting recall after power cycle unverified. MIDI CC effect selection is not a user-preset bank. |
+| Pitch / DSP resources | No pitch-specific DSP/CPU percentage or measured cost located. Pitch Shift is one of16 selectable programs,not1/16 of CPU. Delay+Reverb/Chorus+Reverb combinations do not establish arbitrary simultaneous Pitch+Reverb. |
+| Pitch / qualifications | Current MIDI-equipped documentation must be checked against actual hardware revision before using CC or updater instructions. Keep manufacturer2017 announcement distinct from reintroduction and guide upload dates. No device operated. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Electronic M100 current manufacturer product](https://www.tcelectronic.com/en/products/0828-AAH) — 16 effect programs;MIDI CC/update connector;parameters held untilpoweroff;guides listed. No firmware version/date in inspected page. (Current manufacturer page inspected).
+- [TC Electronic M100 current multilingual QSG](https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf) — Printedp58 Pitch Shift±12semitones andDetune;MIDIupdate procedure revision-qualified. No numeric DSP cost. (Manufacturer original indexed table inspected;direct CDN mirror500).
+- [TC Electronic M100 official product video](https://www.youtube.com/watch?v=O3YvNxJ73tQ) — Published2017-06-22;original M100 stereo multi-effects announcement. Not current revision launch or firmware release. (Manufacturer-channel publication and description inspected).
+
+<!-- firmware-pitch:TC Electronic::M100 ends -->
+
 Checked 2026-10-17; partial. Guitar/vocal instrument and mixer-path processor; direct microphone preamp/phantom and bass suitability unverified. Ownership unknown.
 
 <!-- comparison evidence begins -->
