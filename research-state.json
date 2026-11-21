@@ -192319,11 +192319,35 @@
             "sha256": "793d27f4585f0a309625630e77489079df4dbca65cc75233dde9e5ed294be29e"
           }
         }
+      },
+      "Line 6::POD HD500X": {
+        "model_key": "Line 6::POD HD500X",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/679720.jpg",
+            "source_url": "https://en.audiofanzine.com/guitar-amp-simulation-pedal/line-6/pod-hd500x/editorial/reviews/are-you-pod-to-date.html",
+            "caption": "POD HD500X — powered-on overhead review photograph",
+            "note": "Audiofanzine review photograph shows exact HD500X badge,lit LCD and switch rings from above. Low light,glare obscures screen text and slight perspective remains; a clean perpendicular top-down product image remains pending. This is documentation imagery,not a local device test.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "284d34f36f5281c31d41f9fde8c33e1ca9b455f37a1f12d87907ac834461c918"
+          },
+          "rear": {
+            "image_url": "https://www.musicarms.net/wp-content/uploads/2014/02/pod-hd500x-1024x682.jpg",
+            "source_url": "https://www.musicarms.net/line6-pod-hd500-x/",
+            "caption": "POD HD500X — rear connections",
+            "note": "Music Arms retailer photograph visibly identifies HD500X and its rear sockets:Pedal2,Guitar/CD-MP3,unbalanced/balanced outs,Phones,Aux,Mic,FX return/send,Variax,S/PDIF,MIDI,USB,L6 LINK and power. Retailer-hosted image; no stock or condition claim.",
+            "visual_checked": true,
+            "sha256": "d21e8bc288ca6d60245aae147fc2f2cf4a323020c4d3e58c75d96994a7557c48"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::Helix Floor"
+    "last_model": "Line 6::POD HD500X"
   }
 }
