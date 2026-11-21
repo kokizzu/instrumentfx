@@ -124,6 +124,30 @@ Checked2026-10-28 against the [original English e01 manual](https://static.rolan
 
 ## AD-8
 
+<!-- firmware-pitch:BOSS::AD-8 begins -->
+### Firmware and pitch audit — BOSS AD-8
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2003 (manufacturer retrospective launch year). Roland Japan service table explicitly lists AD-8 release year (発売年) 2003. Its 2017 manufacturing-completion year is not a firmware update date; exact launch day is unresolved. [launch 1](https://www.roland.com/jp/support/service_repair/1708080000/) |
+| Firmware / latest verification | Not verified — No public firmware located. Checked manufacturer product/support downloads expose manuals/catalogues, not a device firmware release or updater. Manual connector inventory has no USB/MIDI update connection. No latest firmware number/date established; do not infer that service firmware or updates never existed. [firmware 1](https://www.boss.info/global/products/ad-8/support/) [firmware 2](https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Checked processing covers six acoustic body/microphone models, EQ, three reverb types and anti-feedback. No dedicated transposer, harmonizer, octaver or pedal pitch-shift algorithm is documented. [pitch 1](https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf) |
+| Pitch / preset recall | Four rewritable memories plus live Manual mode. WRITE enters standby, SELECT chooses destination, WRITE confirms; anti-feedback settings can be saved. Manual mode is not a fifth stored patch. |
+| Pitch / DSP resources | No per-effect CPU percentage, DSP meter or pitch-processing allocation documented. Dedicated pitch cost is not applicable to the checked library; stereo outputs and COSM branding do not establish a resource percentage. |
+| Pitch / qualifications | PITCH button adjusts only tuner reference A=438–445Hz, not the audio signal. Anti-feedback attenuation at a detected frequency and its octave above is filtering, not an octave-generation effect. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland Japan model release/manufacturing and service table, November 2026](https://www.roland.com/jp/support/service_repair/1708080000/) — Column labels distinguish release year from manufacturing completion; AD-8 row gives 2003 release, 2017 completion. (opened; Japanese manufacturer table).
+- [BOSS AD-8 manufacturer product and support index](https://www.boss.info/global/products/ad-8/support/) — Discontinued exact model; support/download entries inspected contain manual/catalogue material, no public firmware package located. (opened).
+- [BOSS AD-8 official owner manual](https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf) — pp10–19 identify body/reverb/feedback processing, WRITE memory workflow and tuner-only PITCH button; no dedicated pitch shift or DSP percentage. (opened manufacturer PDF; text_only).
+
+<!-- firmware-pitch:BOSS::AD-8 ends -->
+
 Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppression; distinct from AD-10 and single-function acoustic simulators. Checked 2026-10-17; partial. No documented bass/vocal membership adopted.
 
 <!-- comparison evidence begins -->

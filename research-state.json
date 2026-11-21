@@ -181736,10 +181736,69 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::AD-8": {
+        "model_key": "BOSS::AD-8",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2003",
+          "precision": "year",
+          "kind": "manufacturer_retrospective_launch_year",
+          "source_urls": [
+            "https://www.roland.com/jp/support/service_repair/1708080000/"
+          ],
+          "note": "Roland Japan service table explicitly lists AD-8 release year (発売年) 2003. Its 2017 manufacturing-completion year is not a firmware update date; exact launch day is unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/products/ad-8/support/",
+            "https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf"
+          ],
+          "note": "Checked manufacturer product/support downloads expose manuals/catalogues, not a device firmware release or updater. Manual connector inventory has no USB/MIDI update connection. No latest firmware number/date established; do not infer that service firmware or updates never existed."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Checked processing covers six acoustic body/microphone models, EQ, three reverb types and anti-feedback. No dedicated transposer, harmonizer, octaver or pedal pitch-shift algorithm is documented.",
+          "preset": "Four rewritable memories plus live Manual mode. WRITE enters standby, SELECT chooses destination, WRITE confirms; anti-feedback settings can be saved. Manual mode is not a fifth stored patch.",
+          "dsp": "No per-effect CPU percentage, DSP meter or pitch-processing allocation documented. Dedicated pitch cost is not applicable to the checked library; stereo outputs and COSM branding do not establish a resource percentage.",
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "PITCH button adjusts only tuner reference A=438–445Hz, not the audio signal.",
+            "Anti-feedback attenuation at a detected frequency and its octave above is filtering, not an octave-generation effect."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/jp/support/service_repair/1708080000/",
+            "title": "Roland Japan model release/manufacturing and service table, November 2026",
+            "access": "opened; Japanese manufacturer table",
+            "evidence": "Column labels distinguish release year from manufacturing completion; AD-8 row gives 2003 release, 2017 completion."
+          },
+          {
+            "url": "https://www.boss.info/global/products/ad-8/support/",
+            "title": "BOSS AD-8 manufacturer product and support index",
+            "access": "opened",
+            "evidence": "Discontinued exact model; support/download entries inspected contain manual/catalogue material, no public firmware package located."
+          },
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf",
+            "title": "BOSS AD-8 official owner manual",
+            "access": "opened manufacturer PDF; text_only",
+            "evidence": "pp10–19 identify body/reverb/feedback processing, WRITE memory workflow and tuner-only PITCH button; no dedicated pitch shift or DSP percentage."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::AD-8",
       "BOSS::GM-800",
       "BOSS::GS-10",
       "BOSS::GT-001",
@@ -182113,12 +182172,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 30,
-    "last_model": "BOSS::AD-2",
-    "last_commit_parent": "13d46a7c0dc784c7ec4b2fd53f47b13c2ee5f5bb",
+    "completed_model_count": 31,
+    "last_model": "BOSS::AD-8",
+    "last_commit_parent": "e18f12c679da34948fe8bc9809b6670311cf192b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::AD-8",
       "BOSS::GM-800",
       "BOSS::GS-10",
       "BOSS::GT-001",
@@ -182491,7 +182549,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 30,
+    "pitch_completed_model_count": 31,
     "supplemental_model_count": 0
   }
 }
