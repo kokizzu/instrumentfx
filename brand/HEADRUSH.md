@@ -218,6 +218,32 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 ## Flex Prime
 
+<!-- firmware-pitch:HeadRush::Flex Prime begins -->
+### Firmware and pitch audit — HeadRush Flex Prime
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-11-14 (manufacturer announcement). Manufacturer announcement datelined November 14, 2024 explicitly says all announced products are available beginning today; regional availability may differ. [launch 1](https://news.hummingbirdmedia.com/headrush-expands-its-lineup-with-flex-prime-frfr-go-and-revalver-amp-cloner-plus-major-40-feature-update) |
+| Firmware / latest verification | 5.2.0 — Latest verified. Current exact-model notes explicitly identify latest 5.2.0 and October 2026; day unspecified. Updater requires Windows 10 or macOS 11 minimum; back up content first. No firmware installed on hardware during research. [firmware 1](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Flex%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf) [firmware 2](https://www.headrushfx.com/downloads.html) |
+| Firmware / release date | 2026-10 (month precision) |
+| Firmware / release-to-update duration | 1.88–1.96 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Chord Wham is explicitly labelled polyphonic by the maker. Other named pitch effects: Up Tune, Drop Tune, Harm, Octaves, Octaves Up, Smart Harm and Wham. Catalogue heading says 7 but lists 8 names. Chord Wham documentation does not establish polyphonic tracking for every pitch algorithm. [pitch 1](https://www.headrushfx.com/products/flex-prime/index.html) [pitch 2](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Flex%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf) [pitch 3](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Flex%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf) |
+| Pitch / preset recall | Rig and individual block presets save effect choice/settings; hardware assignments support expression and scenes. Current maximum stored-rig count not verified. Fourteen processing slots are not 14 preset memories. |
+| Pitch / DSP resources | Guide v5.2 permits repeated block types within 14 rig slots, subject to CPU load; reaching 100% may cause clicks/pops. No per-pitch DSP percentage published. Shorter 1024-sample IRs reduce resource use compared with 2048. Slot count does not guarantee 14 arbitrary high-load processors. |
+| Pitch / qualifications | Version 5.0 added Up Tune and improved Drop Tune; 5.0.1 fixed clean-rig artifacts and added Legacy/Refined modes. No measured pitch latency, chord tracking or CPU load. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [HeadRush Flex Prime launch announcement](https://news.hummingbirdmedia.com/headrush-expands-its-lineup-with-flex-prime-frfr-go-and-revalver-amp-cloner-plus-major-40-feature-update) — November 14, 2024 announcement; products available beginning today. (Manufacturer release distributed by Hummingbird Media).
+- [HeadRush Flex Prime firmware5.2.0 release notes](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Flex%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf) — Latest5.2.0,October2026;5.0/5.0.1 pitch changes and current updater requirements. (Exact-model 10-page current maker PDF; header and pitch revision history read).
+- [HeadRush current download index](https://www.headrushfx.com/downloads.html) — Exact Flex Prime 5.2 updaters, release notes and guide; older packages listed separately. (Direct current maker downloads).
+- [HeadRush Flex Prime own model catalogue](https://www.headrushfx.com/products/flex-prime/index.html) — Chord Wham explicitly polyphonic;8namedpitch entries under7heading. No measured DSP cost. (Direct maker product page).
+- [HeadRush Flex Prime user guide5.2.0](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Flex%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf) — Fourteen slots, repeated block types, CPU meter and 100% warning; five signal-path layouts and IR resource tradeoff. (Original 75-page maker PDF retrieved; SHA256 83a4150cb4b7415d34f63298cbacbf168d1c7b48c1c6b29ea4da91c79a4749cb; printed pages 13–15 read).
+
+<!-- firmware-pitch:HeadRush::Flex Prime ends -->
+
 <!-- comparison evidence begins -->
 **Technical observations retained from2026-10-14; new Shopee price evidence checked2026-10-15.** Guitar/bass multi-effects; **medium**, built-in expression. This consolidates all Flex Prime fields,qualifications and references from the mixed-brand advanced comparison, without importing the other brands' specifications.
 
