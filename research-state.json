@@ -180946,10 +180946,68 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Behringer::Bass V-AMP PRO": {
+        "model_key": "Behringer::Bass V-AMP PRO",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf"
+          ],
+          "note": "Exact rack-model hardware launch not verified. Manual version1.2/December2005 is document metadata, not firmware or first shipping date."
+        },
+        "firmware": {
+          "version": "1.09",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.eurekasound.com/discontinued-products/eurekaprom1_1/vb",
+            "https://www.eurekasound.com/eurekaprom/vb"
+          ],
+          "note": "Controller manufacturer EurekaSound explicitly identifies its historical Bass V-Amp PRO1.09 replacement PROM and references older PRO1.0 looping limitations. This is third-party compatibility/ROM-supply evidence, not Behringer release certification. Exact update date, full changelog and current latest version unresolved; no ROM downloaded or hardware changed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Shared manufacturer manual explicitly covers PRO: ULTRABASS octave-down; three-voice SYNTH with interval/key controls; separate MIDI-note-driven MIDI SYNTH. No general chromatic transposer documented in checked table. ULTRABASS input-note polyphony is unspecified; synth voice count is not evidence of chordal audio transposition.",
+          "preset": "125 factory-programmed rewritable locations (25×5). Manual pp9–10 covers both models: hold destination key about2seconds to store; changing preset loses unsaved edits; last-used preset reloads at power-up. MIDI SysEx backup documented. Controller favorite slots are not additional PRO sound memories.",
+          "dsp": "One selected post-effect/combo; compressor and denoiser independent. PRO pre/post-DSP hardware inserts do not quantify pitch CPU. No ULTRABASS percentage, duplicate-octaver limit or freely allocatable pitch-block budget located. Advertised16 groups versus15 named table entries remains unresolved.",
+          "source_urls": [
+            "https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Octave generation and synthesis are distinguished from general pitch shifting. No note-polyphony or resource percentage inferred from stereo I/O, MIDI synthesis or external loops."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf",
+            "title": "Behringer shared BASS V-AMP/BASS V-AMP PRO manual v1.2, December2005",
+            "access": "manufacturer_manuscript_on_public_mirror; text_only",
+            "evidence": "Explicit shared model scope; pp9–10 save/recall; pp13–15 independent dynamics, post-effect table,ULTRABASS and synth functions. Manual revision date is not a ROM date."
+          },
+          {
+            "url": "https://www.eurekasound.com/discontinued-products/eurekaprom1_1/vb",
+            "title": "EurekaSound historical Vb controller documentation",
+            "access": "opened_controller_manufacturer_documentation",
+            "evidence": "Explicit Bass V-Amp PRO1.09 replacement PROM; old1.0 PRO looping caveat. No original firmware release date or Behringer latest-version certification."
+          },
+          {
+            "url": "https://www.eurekasound.com/eurekaprom/vb",
+            "title": "EurekaSound current Vb compatibility documentation",
+            "access": "opened_controller_manufacturer_documentation",
+            "evidence": "Series firmware1.09 requirement and PRO1.0 looping caveat; controller favorites are separate from sound-processor memory."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Behringer::Bass V-AMP PRO",
       "Behringer::DSP2024P",
       "Behringer::FX2000",
       "Behringer::FX600",
@@ -181335,12 +181393,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 18,
-    "last_model": "Behringer::Bass V-AMP",
-    "last_commit_parent": "eebabbbc54d276c6f1a05f998d4983e42924fbdd",
+    "completed_model_count": 19,
+    "last_model": "Behringer::Bass V-AMP PRO",
+    "last_commit_parent": "13e9caf702d8676d3ba73075ebe9d6671af132b8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Behringer::Bass V-AMP PRO",
       "Behringer::DSP2024P",
       "Behringer::FX2000",
       "Behringer::FX600",
@@ -181725,7 +181782,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 18,
+    "pitch_completed_model_count": 19,
     "supplemental_model_count": 0
   }
 }

@@ -140,6 +140,30 @@ The manual’s five preset ingredients describe saved processing stages, not fiv
 
 ## Bass V-AMP PRO
 
+<!-- firmware-pitch:Behringer::Bass V-AMP PRO begins -->
+### Firmware and pitch audit — Behringer Bass V-AMP PRO
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact rack-model hardware launch not verified. Manual version1.2/December2005 is document metadata, not firmware or first shipping date. [launch 1](https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf) |
+| Firmware / latest verification | 1.09 — Located; latest status unverified. Controller manufacturer EurekaSound explicitly identifies its historical Bass V-Amp PRO1.09 replacement PROM and references older PRO1.0 looping limitations. This is third-party compatibility/ROM-supply evidence, not Behringer release certification. Exact update date, full changelog and current latest version unresolved; no ROM downloaded or hardware changed. [firmware 1](https://www.eurekasound.com/discontinued-products/eurekaprom1_1/vb) [firmware 2](https://www.eurekasound.com/eurekaprom/vb) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Shared manufacturer manual explicitly covers PRO: ULTRABASS octave-down; three-voice SYNTH with interval/key controls; separate MIDI-note-driven MIDI SYNTH. No general chromatic transposer documented in checked table. ULTRABASS input-note polyphony is unspecified; synth voice count is not evidence of chordal audio transposition. [pitch 1](https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf) |
+| Pitch / preset recall | 125 factory-programmed rewritable locations (25×5). Manual pp9–10 covers both models: hold destination key about2seconds to store; changing preset loses unsaved edits; last-used preset reloads at power-up. MIDI SysEx backup documented. Controller favorite slots are not additional PRO sound memories. |
+| Pitch / DSP resources | One selected post-effect/combo; compressor and denoiser independent. PRO pre/post-DSP hardware inserts do not quantify pitch CPU. No ULTRABASS percentage, duplicate-octaver limit or freely allocatable pitch-block budget located. Advertised16 groups versus15 named table entries remains unresolved. |
+| Pitch / qualifications | Octave generation and synthesis are distinguished from general pitch shifting. No note-polyphony or resource percentage inferred from stereo I/O, MIDI synthesis or external loops. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Behringer shared BASS V-AMP/BASS V-AMP PRO manual v1.2, December2005](https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf) — Explicit shared model scope; pp9–10 save/recall; pp13–15 independent dynamics, post-effect table,ULTRABASS and synth functions. Manual revision date is not a ROM date. (manufacturer_manuscript_on_public_mirror; text_only).
+- [EurekaSound historical Vb controller documentation](https://www.eurekasound.com/discontinued-products/eurekaprom1_1/vb) — Explicit Bass V-Amp PRO1.09 replacement PROM; old1.0 PRO looping caveat. No original firmware release date or Behringer latest-version certification. (opened_controller_manufacturer_documentation).
+- [EurekaSound current Vb compatibility documentation](https://www.eurekasound.com/eurekaprom/vb) — Series firmware1.09 requirement and PRO1.0 looping caveat; controller favorites are separate from sound-processor memory. (opened_controller_manufacturer_documentation).
+
+<!-- firmware-pitch:Behringer::Bass V-AMP PRO ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Separate rack model; selected manufacturer manual sections, including its PRO-only columns. Partial verification.
 
