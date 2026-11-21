@@ -178514,15 +178514,15 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://static.roland.com/assets/media/pdf/VE-5_OM.pdf",
+    "requested_url": "https://erokmusic.com/download/manuals/MP-10.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 16,
+    "frame": 1,
     "text_pages": [
-      12,
-      12
+      0,
+      10
     ],
-    "index_url": "https://cn.mooeraudio.com/product/84.html",
-    "index_needle": ".pdf",
+    "index_url": "https://erokmusic.com/js/firmware-notes/en.json",
+    "index_needle": "firmware_mp10_release_notes",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -186533,10 +186533,82 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "EROK::MP-10": {
+        "model_key": "EROK::MP-10",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unknown",
+          "source_urls": [
+            "https://erokmusic.com/product/multi-effects/MP-10"
+          ],
+          "note": "No dated first hardware launch established. June 2026 PDF creation/index dates and earliest located VER 014 notes are not hardware release dates."
+        },
+        "firmware": {
+          "version": "016",
+          "date": "2026-11-17",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://erokmusic.com/js/firmware-notes/en.json",
+            "https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186",
+            "https://erokmusic.com/js/data-download-meta.js?v=10&rev=78d5cd5bb107c29f"
+          ],
+          "note": "Official current catalogue selects MP-10_016.fwsc; explicit VER 016 changelog dates release November 17. Download metadata says November 18, treated as file metadata, not release date. Fixes UI, CAB saving/model upload and busy-state issues; normal upgrade retains presets/models/IR. VER 016 AI Ms Gate presets require older backups for downgrade."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "VER 015 (2026-10-16) adds WHAMMY to EXT: MBody, Oct1, Oct2 and Bend control. Exact interval ranges and input polyphony unverified. Original manual also documents Shimmer wet pitch from unison to +2 octaves; this is not dry-signal transpose.",
+          "preset": "120 writable locations; first 54 factory-filled, not 54 extra protected slots. Banks contain three presets. VER 016 retains saved resources on normal upgrade; newer AI Ms Gate presets have downgrade incompatibility.",
+          "dsp": "Original manual: seven reorderable modules FX/AMP/MOD/DLY/REV/CAB/EXT, advertised 7+1 via gate combined with boost/compression. WHAMMY occupies EXT; Shimmer is a REV choice. Pitch CPU %, current-firmware worst-case ceiling and combined WHAMMY/Shimmer operation unmeasured.",
+          "source_urls": [
+            "https://erokmusic.com/js/firmware-notes/en.json",
+            "https://erokmusic.com/download/manuals/MP-10.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "External TRS expression and calibration documented. Older manual EXT list is volume/four wah choices; WHAMMY availability requires the later VER 015+ notes, not sibling-model inference. MBody/Oct1/Oct2 labels alone do not prove polyphonic input tracking."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://erokmusic.com/product/multi-effects/MP-10",
+            "title": "EROK MP-10 exact product route",
+            "access": "Direct dynamic shell; public catalogue data recovered separately",
+            "evidence": "Exact MP-10 identity; no dated hardware launch."
+          },
+          {
+            "url": "https://erokmusic.com/js/firmware-notes/en.json",
+            "title": "EROK official firmware notes — MP-10",
+            "access": "Direct public JSON as inert text, SHA256 df303b3d88967b04115e91708ad3bdcbe6023bc9278580caf5b0b2dd873d5cae",
+            "evidence": "VER 016 November 17, 2026; VER 015 October 16 adds WHAMMY MBody/Oct1/Oct2/Bend to EXT; resource retention and downgrade limits."
+          },
+          {
+            "url": "https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186",
+            "title": "EROK current product/download catalogue",
+            "access": "Direct manufacturer JS read as inert text, SHA256 61ae222d069351869f49a8e0c904c0a3429d834cc810039c226d1894f9a94341",
+            "evidence": "Exact MP-10 manual/gallery paths and current firmware 016 selection with November 17 date."
+          },
+          {
+            "url": "https://erokmusic.com/js/data-download-meta.js?v=10&rev=78d5cd5bb107c29f",
+            "title": "EROK download file metadata",
+            "access": "Direct manufacturer JS as inert text, SHA256 78d5cd5bb107c29fd0035ed016786b0e56e670e65fc54278c1a091def219a5cd",
+            "evidence": "MP-10_016 file date November 18 differs from explicit release notes; not adopted as release date."
+          },
+          {
+            "url": "https://erokmusic.com/download/manuals/MP-10.pdf",
+            "title": "EROK MP-10 original manual",
+            "access": "Direct manufacturer 14-page raster PDF; visually read printed EN01/02/05/08/09/11/12; SHA256 255db4da4d0ff61915b62eda1cf63055838b01929bd78b4aceae9ce7440eedbe",
+            "evidence": "120 locations, first 54 factory-filled; seven reorderable modules and 7+1 gate combination; Shimmer unison to +2 octaves; EXT volume/wah and TRS expression. Predates documented WHAMMY addition."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "EROK::MP-10",
       "EROK::MP-20",
       "EROK::Pocket Sonic",
       "Eventide::H9 Max",
@@ -186844,12 +186916,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 96,
-    "last_model": "Donner::Triple Threat",
-    "last_commit_parent": "288a963511a449d1a7a0035106c56a7aa6350447",
+    "completed_model_count": 97,
+    "last_model": "EROK::MP-10",
+    "last_commit_parent": "f4396f4031b5c83504ba4729be486ae570a9aa3e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "EROK::MP-10",
       "EROK::MP-20",
       "EROK::Pocket Sonic",
       "Eventide::H9 Max",
@@ -187156,7 +187227,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 96,
+    "pitch_completed_model_count": 97,
     "supplemental_model_count": 0
   },
   "model_images": {

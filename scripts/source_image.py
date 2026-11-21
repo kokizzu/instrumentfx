@@ -19,7 +19,7 @@ def source_limit(url):
     # Exact owner-manual HEAD reviewed at 132,952,762 bytes; no broad host exception.
     return 144 * 1024 * 1024 if url == REVIEWED_LARGE_PDF else LIMIT
 
-HOSTS = {'audota.com', 'www.audota.com', 'en.audota.com', 'www.fractalaudio.com', 'www.fmicassets.com', 'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
+HOSTS = {'erokmusic.com', 'audota.com', 'www.audota.com', 'en.audota.com', 'www.fractalaudio.com', 'www.fmicassets.com', 'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
          'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 
@@ -275,7 +275,7 @@ def decode_release_note(data):
 
 def check_index_url(url):
     parsed = urllib.parse.urlsplit(url)
-    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com', 'cn.mooeraudio.com') or url in RELEASE_NOTE_URLS)
+    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com', 'cn.mooeraudio.com', 'erokmusic.com') or url in RELEASE_NOTE_URLS)
     assert not parsed.username and not parsed.password and parsed.port in (None, 443)
     if parsed.path == '/wp-admin/admin-ajax.php':
         assert parsed.hostname == 'www.valeton.net'
@@ -316,6 +316,11 @@ def inspect_index():
     body = data.decode('utf-8')
     if body.lstrip().startswith('{'):
         decoded = json.loads(body)
+        if needle in decoded and isinstance(decoded[needle], str):
+            assert len(decoded[needle]) <= 65536, 'Select a smaller text record'
+            print(json.dumps({'url': url, 'sha256': hashlib.sha256(data).hexdigest(), 'key': needle}))
+            print(decoded[needle])
+            return
         if 'files' in decoded:
             assert len(decoded['files']) <= 100, 'Select a smaller catalogue page'
             print(json.dumps({'url': url, 'sha256': hashlib.sha256(data).hexdigest(),
@@ -349,6 +354,8 @@ def test():
     fixture_text = 'V086 更新说明'
     for codec in ('utf-8-sig', 'utf-16', 'gb18030'):
         assert decode_release_note(fixture_text.encode(codec))[0] == fixture_text
+    check_index_url('https://erokmusic.com/js/firmware-notes/en.json')
+    check_url('https://erokmusic.com/download/manuals/MP-10.pdf')
     check_index_url('https://www.valeton.net/user-manual/')
     check_index_url('https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html')
     check_index_url('https://cn.mooeraudio.com/product/84.html')
