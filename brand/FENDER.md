@@ -34,6 +34,26 @@ Sources checked:
 
 <!-- firmware-pitch:Fender::Mustang Micro ends -->
 
+<!-- model-images:Fender::Mustang Micro begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Original Mustang Micro illuminated front/top and control-side photograph**
+
+[![Original Mustang Micro illuminated front/top and control-side photograph](https://media.guitarcenter.com/is/image/MMGS7/L81703000001000-02-600x600.jpg)](https://media.guitarcenter.com/is/image/MMGS7/L81703000001000-02-600x600.jpg)
+
+[Image source](https://www.guitarcenter.com/Fender/Mustang-Micro-Guitar-Headphone-Amp-Black-1500000341245.gc). Colored AMP/EQ/EFFECTS/MOD indicators are visible. Angled rather than exact top-down; actual powered state versus staged product lighting unverified. [Straight front/top photograph](https://media.guitarcenter.com/is/image/MMGS7/L81703000001000-00-600x600.jpg) shows the face without visible power indicators; exact powered-on top-down photo still pending.
+
+**Original Mustang Micro headphone and USB-C end ports**
+
+[![Original Mustang Micro headphone and USB-C end ports](https://media.guitarcenter.com/is/image/MMGS7/L81703000001000-04-600x600.jpg)](https://media.guitarcenter.com/is/image/MMGS7/L81703000001000-04-600x600.jpg)
+
+[Image source](https://www.guitarcenter.com/Fender/Mustang-Micro-Guitar-Headphone-Amp-Black-1500000341245.gc). Angled photograph clearly shows the 3.5mm headphone socket and USB-C on the end face. This compact plug-in unit has end-mounted ports rather than a pedal-style rear panel; rotating input plug and control side are also visible.
+
+</details>
+<!-- model-images:Fender::Mustang Micro ends -->
+
+
 Original PR5833;checked2026-10-17;partial,ownership unverified. Separate from Micro Plus.
 
 <!-- comparison evidence begins -->

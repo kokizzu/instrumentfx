@@ -187897,11 +187897,35 @@
             "sha256": "4333042eb5822b91f065babba410baac45a68da405f55644f470d1b156a114bc"
           }
         }
+      },
+      "Fender::Mustang Micro": {
+        "model_key": "Fender::Mustang Micro",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/L81703000001000-02-600x600.jpg",
+            "source_url": "https://www.guitarcenter.com/Fender/Mustang-Micro-Guitar-Headphone-Amp-Black-1500000341245.gc",
+            "caption": "Original Mustang Micro illuminated front/top and control-side photograph",
+            "note": "Colored AMP/EQ/EFFECTS/MOD indicators are visible. Angled rather than exact top-down; actual powered state versus staged product lighting unverified. [Straight front/top photograph](https://media.guitarcenter.com/is/image/MMGS7/L81703000001000-00-600x600.jpg) shows the face without visible power indicators; exact powered-on top-down photo still pending.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "ec126a02ec2df93bc81f9afbfd541f515ecdba79b0090f6cee22b9d1193e4362"
+          },
+          "rear": {
+            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/L81703000001000-04-600x600.jpg",
+            "source_url": "https://www.guitarcenter.com/Fender/Mustang-Micro-Guitar-Headphone-Amp-Black-1500000341245.gc",
+            "caption": "Original Mustang Micro headphone and USB-C end ports",
+            "note": "Angled photograph clearly shows the 3.5mm headphone socket and USB-C on the end face. This compact plug-in unit has end-mounted ports rather than a pedal-style rear panel; rotating input plug and control side are also visible.",
+            "visual_checked": true,
+            "sha256": "2932ab52562ac383a48f19dc25ad99398f3a6614593f31fd6224d1c9b9a72eda"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Eventide::H90"
+    "last_model": "Fender::Mustang Micro"
   }
 }
