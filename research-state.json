@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Flex%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+    "requested_url": "https://cdn.inmusicbrands.com/HeadRush/mx5/MX5_User_Guide_v1.5.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0,
     "text_pages": [
-      10,
-      14
+      7,
+      10
     ],
     "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
     "index_needle": "features",
@@ -188221,6 +188221,90 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "HeadRush::MX5": {
+        "model_key": "HeadRush::MX5",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2021-08-17",
+          "precision": "day",
+          "kind": "manufacturer_announcement",
+          "source_urls": [
+            "https://www.premierguitar.com/news/headrush-mx5"
+          ],
+          "note": "Manufacturer press release republished by Premier Guitar on August 17, 2021 announces immediate availability. Regional delivery dates may differ."
+        },
+        "firmware": {
+          "version": "2.7.0",
+          "date": "2024-08-08",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.headrushfx.com/downloads.html",
+            "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/MX5%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20MX5%20Firmware%20Update%20v2.7.pdf",
+            "https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-"
+          ],
+          "note": "Current exact-model download index lists 2.7.0; PDF labels latest 2.7 and August 2024. Manufacturer announcement supplies August 8 launch day. Adds Glorious Drive, White Bass Wah and Ten Freq EQ plus fixes/optimizations. Manual v1.5 and audio driver v1.0.4 are separate version numbers. No hardware updated."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Chord Wham explicitly described as polyphonic in the exact MX5 catalogue. Also lists Wham, Harm, Smart Harm, Drop Tune, Octaves, Octaves Up and Detune, plus Pitch Delay/Shimmer. Do not infer every pitch algorithm is polyphonic from Chord Wham or pedal inspirations alone.",
+          "preset": "Rig and individual model presets save settings; expression assignments and scenes documented. Guide specifies 11 processing slots, not 11 preset memories. Total stored-rig ceiling not verified.",
+          "dsp": "No per-pitch DSP percentage, measured cost or CPU benchmark found in the checked exact-model guide, catalogue or firmware notes. Guide specifies 11 slots and three routing layouts; neither slot count nor multi-core marketing measures pitch algorithm cost. Do not transfer Core/Flex Prime 14-slot CPU-meter statements.",
+          "source_urls": [
+            "https://www.headrushfx.com/products/mx5/index.html",
+            "https://cdn.inmusicbrands.com/HeadRush/mx5/MX5_User_Guide_v1.5.pdf",
+            "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/MX5%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20MX5%20Firmware%20Update%20v2.7.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Version 2.5 history improves lower-pitch tracking for Wham, Harm and Shimmer. No measured pitch latency or isolated CPU load. Official 2.7 firmware is separate from third-party patched firmware/editor projects."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.premierguitar.com/news/headrush-mx5",
+            "title": "HeadRush MX5 launch press release",
+            "access": "Manufacturer release republished in Premier Guitar News, August 17, 2021",
+            "evidence": "Immediate availability of MX5 announced on publication date."
+          },
+          {
+            "url": "https://www.headrushfx.com/downloads.html",
+            "title": "HeadRush current downloads",
+            "access": "Current maker index read",
+            "evidence": "Exact MX5 firmware 2.7.0 Win/Mac and notes; guide/audio-driver versions listed separately."
+          },
+          {
+            "url": "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/MX5%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20MX5%20Firmware%20Update%20v2.7.pdf",
+            "title": "HeadRush MX5 firmware 2.7 release notes",
+            "access": "Original four-page maker PDF read",
+            "evidence": "Latest 2.7, August 2024; added effects and prior 2.5 lower-pitch tracking improvement."
+          },
+          {
+            "url": "https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-",
+            "title": "HeadRush 2.7 release announcement",
+            "access": "Manufacturer support article read",
+            "evidence": "Names MX5, Gigboard and Pedalboard and August 8, 2024 launch date."
+          },
+          {
+            "url": "https://www.headrushfx.com/products/mx5/index.html",
+            "title": "HeadRush MX5 model catalogue",
+            "access": "Exact maker product page read",
+            "evidence": "Chord Wham explicitly polyphonic; exact pitch algorithm names and model inspirations."
+          },
+          {
+            "url": "https://cdn.inmusicbrands.com/HeadRush/mx5/MX5_User_Guide_v1.5.pdf",
+            "title": "HeadRush MX5 user guide v1.5",
+            "access": "Original 38-page PDF retrieved; SHA256 987604babf75b333b4d826d103ec58cdd5c9ac77a2366cebbd84de1b60bfba43; printed pages 8–11 and 14–15 read",
+            "evidence": "Eleven slots, three routing layouts, rig saving and effect assignments; no numeric pitch DSP cost established."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1087,
+          "maximum_days": 1087,
+          "label": "2.98 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -188235,7 +188319,6 @@
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
       "HeadRush::Gigboard",
-      "HeadRush::MX5",
       "HeadRush::Pedalboard",
       "HeadRush::Prime",
       "HeadRush::VX5",
@@ -188510,9 +188593,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 118,
-    "last_model": "HeadRush::Flex Prime",
-    "last_commit_parent": "848a43c9ba72c19333e2cc3936ac0358a495a752",
+    "completed_model_count": 119,
+    "last_model": "HeadRush::MX5",
+    "last_commit_parent": "f74697ad5e530ebca6faf5a9879bd152c6c42748",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -188526,7 +188609,6 @@
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
       "HeadRush::Gigboard",
-      "HeadRush::MX5",
       "HeadRush::Pedalboard",
       "HeadRush::Prime",
       "HeadRush::VX5",
@@ -188800,7 +188882,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 118,
+    "pitch_completed_model_count": 119,
     "supplemental_model_count": 0
   },
   "model_images": {

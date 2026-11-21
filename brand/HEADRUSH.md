@@ -466,6 +466,33 @@ Checked **2026-11-05**. The [manufacturer FAQ](https://support.headrushfx.com/en
 
 ## MX5
 
+<!-- firmware-pitch:HeadRush::MX5 begins -->
+### Firmware and pitch audit — HeadRush MX5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2021-08-17 (manufacturer announcement). Manufacturer press release republished by Premier Guitar on August 17, 2021 announces immediate availability. Regional delivery dates may differ. [launch 1](https://www.premierguitar.com/news/headrush-mx5) |
+| Firmware / latest verification | 2.7.0 — Latest verified. Current exact-model download index lists 2.7.0; PDF labels latest 2.7 and August 2024. Manufacturer announcement supplies August 8 launch day. Adds Glorious Drive, White Bass Wah and Ten Freq EQ plus fixes/optimizations. Manual v1.5 and audio driver v1.0.4 are separate version numbers. No hardware updated. [firmware 1](https://www.headrushfx.com/downloads.html) [firmware 2](https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/MX5%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20MX5%20Firmware%20Update%20v2.7.pdf) [firmware 3](https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-) |
+| Firmware / release date | 2024-08-08 (day precision) |
+| Firmware / release-to-update duration | 2.98 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Chord Wham explicitly described as polyphonic in the exact MX5 catalogue. Also lists Wham, Harm, Smart Harm, Drop Tune, Octaves, Octaves Up and Detune, plus Pitch Delay/Shimmer. Do not infer every pitch algorithm is polyphonic from Chord Wham or pedal inspirations alone. [pitch 1](https://www.headrushfx.com/products/mx5/index.html) [pitch 2](https://cdn.inmusicbrands.com/HeadRush/mx5/MX5_User_Guide_v1.5.pdf) [pitch 3](https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/MX5%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20MX5%20Firmware%20Update%20v2.7.pdf) |
+| Pitch / preset recall | Rig and individual model presets save settings; expression assignments and scenes documented. Guide specifies 11 processing slots, not 11 preset memories. Total stored-rig ceiling not verified. |
+| Pitch / DSP resources | No per-pitch DSP percentage, measured cost or CPU benchmark found in the checked exact-model guide, catalogue or firmware notes. Guide specifies 11 slots and three routing layouts; neither slot count nor multi-core marketing measures pitch algorithm cost. Do not transfer Core/Flex Prime 14-slot CPU-meter statements. |
+| Pitch / qualifications | Version 2.5 history improves lower-pitch tracking for Wham, Harm and Shimmer. No measured pitch latency or isolated CPU load. Official 2.7 firmware is separate from third-party patched firmware/editor projects. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [HeadRush MX5 launch press release](https://www.premierguitar.com/news/headrush-mx5) — Immediate availability of MX5 announced on publication date. (Manufacturer release republished in Premier Guitar News, August 17, 2021).
+- [HeadRush current downloads](https://www.headrushfx.com/downloads.html) — Exact MX5 firmware 2.7.0 Win/Mac and notes; guide/audio-driver versions listed separately. (Current maker index read).
+- [HeadRush MX5 firmware 2.7 release notes](https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/MX5%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20MX5%20Firmware%20Update%20v2.7.pdf) — Latest 2.7, August 2024; added effects and prior 2.5 lower-pitch tracking improvement. (Original four-page maker PDF read).
+- [HeadRush 2.7 release announcement](https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-) — Names MX5, Gigboard and Pedalboard and August 8, 2024 launch date. (Manufacturer support article read).
+- [HeadRush MX5 model catalogue](https://www.headrushfx.com/products/mx5/index.html) — Chord Wham explicitly polyphonic; exact pitch algorithm names and model inspirations. (Exact maker product page read).
+- [HeadRush MX5 user guide v1.5](https://cdn.inmusicbrands.com/HeadRush/mx5/MX5_User_Guide_v1.5.pdf) — Eleven slots, three routing layouts, rig saving and effect assignments; no numeric pitch DSP cost established. (Original 38-page PDF retrieved; SHA256 987604babf75b333b4d826d103ec58cdd5c9ac77a2366cebbd84de1b60bfba43; printed pages 8–11 and 14–15 read).
+
+<!-- firmware-pitch:HeadRush::MX5 ends -->
+
 Guitar/bass multi-effects; **medium** footprint; first-pass record with outstanding fields.
 
 | Required field | Finding | Source |
