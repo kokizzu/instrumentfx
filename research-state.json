@@ -178514,15 +178514,15 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf",
+    "requested_url": "https://flammainnovation.com/file/pdf?fileName=FV04_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj-aAGdjkAAbzlyE83co547.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 6,
+    "frame": 8,
     "text_pages": [
-      5,
-      8
+      6,
+      9
     ],
-    "index_url": "https://www.eventideaudio.com/pedals/h90/",
-    "index_needle": "H90-Back",
+    "index_url": "https://flammainnovation.com/goods/support?goodsName=FV04",
+    "index_needle": "instructions",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -187387,10 +187387,83 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Flamma::FV04 Harmony": {
+        "model_key": "Flamma::FV04 Harmony",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV04_Manual_EN_V01_2021.08.25.pdf?v=1671179027",
+            "https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer"
+          ],
+          "note": "V01/2021-08-25 is documentation age, not a verified first sale. Regional retailer October2021 availability does not authenticate the global hardware launch. No maker datelined launch located."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://flammainnovation.com/download.html",
+            "https://flammainnovation.com/goods/support?goodsName=FV04",
+            "https://flammainnovation.com/file/pdf?fileName=FV04_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj-aAGdjkAAbzlyE83co547.pdf"
+          ],
+          "note": "Maker support metadata returns manualV02/2024-01-08 and an empty attachments list; no FV04 numbered firmware history, device image or public updater found. Manual revision is not firmware. No USB/MIDI in connector inventory; service/internal firmware is not ruled out."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Keyed vocal harmony:12manually selected roots and major/minor scales. Eleven modes: lower octave/lower fifth/lower third/upper third/upper fifth/upper octave; paired lower+upper octaves, lower fifth+upper third, lower+upper fifths, lower+upper thirds, upper third+upper fifth. Mono/polyphonic input tracking unstated; paired output harmonies do not establish chord tracking. Guitar input documents separate reverb, not automatic key detection or guitar harmony.",
+          "preset": "Mode/Key/Level and Sharp controls select harmony and scale. No stored user-preset bank or factory-memory allocation established;11modes are choices, not11memories.",
+          "dsp": "Fixed vocal harmony plus reverb/tone, with separate guitar reverb adjustment. One footswitch can disable harmony while retaining reverb; double tap bypasses both. No CPU percentage, DSP reserve or per-mode resource cost published; paired voices are not evidence of50% or other fixed allocation.",
+          "source_urls": [
+            "https://flammainnovation.com/file/pdf?fileName=FV04_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj-aAGdjkAAbzlyE83co547.pdf",
+            "https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer"
+          ],
+          "measurements": [],
+          "notes": [
+            "Sharp changes root semitone; double press selects minor/major. Manual control is verified, automatic guitar-chord following is not. No measured latency or hardware-operation test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV04_Manual_EN_V01_2021.08.25.pdf?v=1671179027",
+            "title": "FV04 original V01 manual reference",
+            "access": "Manufacturer-hosted original manual linked by maker support page",
+            "evidence": "2021-08-25 document revision, not verified launch."
+          },
+          {
+            "url": "https://flammainnovation.com/file/pdf?fileName=FV04_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj-aAGdjkAAbzlyE83co547.pdf",
+            "title": "FV04 current English owner manual V02",
+            "access": "Direct maker12-page PDF;SHA2561e636db1db6036e8e200c49e037612416b48dca55693d31e2970ac40d2731c67;printed5–7 visually inspected",
+            "evidence": "Manual12root/major-minor selection,11single/paired harmony modes, independent reverb and footswitch behavior; input polyphony/CPU unstated."
+          },
+          {
+            "url": "https://flammainnovation.com/goods/support?goodsName=FV04",
+            "title": "FLAMMA public FV04 support metadata",
+            "access": "Bounded inert makerJSON from catalogue GET request;SHA25694eb30b38d01da16f36fa4fbb5ca9cd643d36d78c6552886a5a086dc926bd184",
+            "evidence": "ExactFV04 record links currentV02 PDF; attachments[]; no firmware entry."
+          },
+          {
+            "url": "https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer",
+            "title": "FLAMMA FV04 own product page",
+            "access": "Direct maker product page",
+            "evidence": "12pitches/11harmony modes; independent guitar reverb; own model identity."
+          },
+          {
+            "url": "https://flammainnovation.com/download.html",
+            "title": "FLAMMA download catalogue",
+            "access": "Indexed current maker catalogue and public application script request inspected",
+            "evidence": "FV04 manual only; no public firmware/updater found."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Flamma::FV04 Harmony",
       "Flamma::FV05 Recorder",
       "Flamma::FX100",
       "Flamma::FX150",
@@ -187686,12 +187759,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 108,
-    "last_model": "Flamma::FV03 Character",
-    "last_commit_parent": "c8cb789dca2e8bce7d73d55227935132f81dd287",
+    "completed_model_count": 109,
+    "last_model": "Flamma::FV04 Harmony",
+    "last_commit_parent": "85e2124207b39ee2872e8de09cf29fd91d9445f7",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Flamma::FV04 Harmony",
       "Flamma::FV05 Recorder",
       "Flamma::FX100",
       "Flamma::FX150",
@@ -187986,7 +188058,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 108,
+    "pitch_completed_model_count": 109,
     "supplemental_model_count": 0
   },
   "model_images": {

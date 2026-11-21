@@ -514,6 +514,32 @@ Remaining: actual unit revision/power label,current requirement,barrel/phantom d
 
 ## FV04 Harmony
 
+<!-- firmware-pitch:Flamma::FV04 Harmony begins -->
+### Firmware and pitch audit — Flamma FV04 Harmony
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. V01/2021-08-25 is documentation age, not a verified first sale. Regional retailer October2021 availability does not authenticate the global hardware launch. No maker datelined launch located. [launch 1](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV04_Manual_EN_V01_2021.08.25.pdf?v=1671179027) [launch 2](https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer) |
+| Firmware / latest verification | Not verified — No public firmware located. Maker support metadata returns manualV02/2024-01-08 and an empty attachments list; no FV04 numbered firmware history, device image or public updater found. Manual revision is not firmware. No USB/MIDI in connector inventory; service/internal firmware is not ruled out. [firmware 1](https://flammainnovation.com/download.html) [firmware 2](https://flammainnovation.com/goods/support?goodsName=FV04) [firmware 3](https://flammainnovation.com/file/pdf?fileName=FV04_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj-aAGdjkAAbzlyE83co547.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Keyed vocal harmony:12manually selected roots and major/minor scales. Eleven modes: lower octave/lower fifth/lower third/upper third/upper fifth/upper octave; paired lower+upper octaves, lower fifth+upper third, lower+upper fifths, lower+upper thirds, upper third+upper fifth. Mono/polyphonic input tracking unstated; paired output harmonies do not establish chord tracking. Guitar input documents separate reverb, not automatic key detection or guitar harmony. [pitch 1](https://flammainnovation.com/file/pdf?fileName=FV04_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj-aAGdjkAAbzlyE83co547.pdf) [pitch 2](https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer) |
+| Pitch / preset recall | Mode/Key/Level and Sharp controls select harmony and scale. No stored user-preset bank or factory-memory allocation established;11modes are choices, not11memories. |
+| Pitch / DSP resources | Fixed vocal harmony plus reverb/tone, with separate guitar reverb adjustment. One footswitch can disable harmony while retaining reverb; double tap bypasses both. No CPU percentage, DSP reserve or per-mode resource cost published; paired voices are not evidence of50% or other fixed allocation. |
+| Pitch / qualifications | Sharp changes root semitone; double press selects minor/major. Manual control is verified, automatic guitar-chord following is not. No measured latency or hardware-operation test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [FV04 original V01 manual reference](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV04_Manual_EN_V01_2021.08.25.pdf?v=1671179027) — 2021-08-25 document revision, not verified launch. (Manufacturer-hosted original manual linked by maker support page).
+- [FV04 current English owner manual V02](https://flammainnovation.com/file/pdf?fileName=FV04_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj-aAGdjkAAbzlyE83co547.pdf) — Manual12root/major-minor selection,11single/paired harmony modes, independent reverb and footswitch behavior; input polyphony/CPU unstated. (Direct maker12-page PDF;SHA2561e636db1db6036e8e200c49e037612416b48dca55693d31e2970ac40d2731c67;printed5–7 visually inspected).
+- [FLAMMA public FV04 support metadata](https://flammainnovation.com/goods/support?goodsName=FV04) — ExactFV04 record links currentV02 PDF; attachments[]; no firmware entry. (Bounded inert makerJSON from catalogue GET request;SHA25694eb30b38d01da16f36fa4fbb5ca9cd643d36d78c6552886a5a086dc926bd184).
+- [FLAMMA FV04 own product page](https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer) — 12pitches/11harmony modes; independent guitar reverb; own model identity. (Direct maker product page).
+- [FLAMMA download catalogue](https://flammainnovation.com/download.html) — FV04 manual only; no public firmware/updater found. (Indexed current maker catalogue and public application script request inspected).
+
+<!-- firmware-pitch:Flamma::FV04 Harmony ends -->
+
 Checked **2026-10-17**; partial. Vocal harmony plus reverb,not guitar multi-effects merely because it has guitar reverb. Vocal-only membership; FV01 remains excluded.
 
 <!-- comparison evidence begins -->
