@@ -196832,11 +196832,35 @@
             "sha256": "41db07b9cf72dcc4429ae80dce62d2b79e594ca4540b270d42f90cb85e173177"
           }
         }
+      },
+      "MOOER::GE200 Plus": {
+        "model_key": "MOOER::GE200 Plus",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE200_Plus-01.png?v=1753771402&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-ge200plus",
+            "caption": "MOOER GE200 Plus — powered-on top-down view",
+            "note": "Complete standard white GE200 Plus from its exact regional product page. LCD depicts 04A ToneQueen Clean; lit module indicators, HOME/EXP buttons and A footswitch ring visible. All three footswitches and expression pedal shown. Displayed whole-preset DSP is not isolated pitch cost.",
+            "visual_checked": true,
+            "sha256": "f3c6f3ab7970a2870bc1b3f66bd0e82c72c3181090901b8bba3d2d1d5952ae16",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE200_Plus-02.png?v=1753771401&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-ge200plus",
+            "caption": "MOOER GE200 Plus — rear connections",
+            "note": "Full straight rear panel of the standard white Plus: instrument IN, stereo XLR, ground lift, stereo jack outputs, EXP2, headphones, USB Type-C, power switch and DC 9 V 1 A input. All connector legends readable; this view does not show the Pro model’s FX-loop or DIN MIDI sockets.",
+            "visual_checked": true,
+            "sha256": "297369764eb096b31da9ef873650c33793c5eeafeebb9644d581dfd36af22988"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE200 Pro Li"
+    "last_model": "MOOER::GE200 Plus"
   }
 }

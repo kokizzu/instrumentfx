@@ -1538,6 +1538,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GE200 Plus ends -->
 
+<!-- model-images:MOOER::GE200 Plus begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GE200 Plus — powered-on top-down view**
+
+[![MOOER GE200 Plus — powered-on top-down view](https://mooer.jp/cdn/shop/files/GE200_Plus-01.png?v=1753771402&width=1445)](https://mooer.jp/cdn/shop/files/GE200_Plus-01.png?v=1753771402&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-ge200plus). Complete standard white GE200 Plus from its exact regional product page. LCD depicts 04A ToneQueen Clean; lit module indicators, HOME/EXP buttons and A footswitch ring visible. All three footswitches and expression pedal shown. Displayed whole-preset DSP is not isolated pitch cost.
+
+**MOOER GE200 Plus — rear connections**
+
+[![MOOER GE200 Plus — rear connections](https://mooer.jp/cdn/shop/files/GE200_Plus-02.png?v=1753771401&width=1445)](https://mooer.jp/cdn/shop/files/GE200_Plus-02.png?v=1753771401&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-ge200plus). Full straight rear panel of the standard white Plus: instrument IN, stereo XLR, ground lift, stereo jack outputs, EXP2, headphones, USB Type-C, power switch and DC 9 V 1 A input. All connector legends readable; this view does not show the Pro model’s FX-loop or DIN MIDI sockets.
+
+</details>
+<!-- model-images:MOOER::GE200 Plus ends -->
+
+
 Checked 2026-10-19;partial. Distinct from GE200 original,GE200 Pro andGE200 Plus Li. Manufacturer establishes guitar multi-effects;ownership,bass/vocal membership unverified. [Exact product](https://www.mooeraudio.com/products/232.html).
 
 | Field | Evidence / qualification |
