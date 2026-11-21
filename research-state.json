@@ -182165,10 +182165,87 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GT-100": {
+        "model_key": "BOSS::GT-100",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2012-01-19",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2012/1419/"
+          ],
+          "note": "Dated manufacturer introduction; this announcement planned availability for February2012, so the day is an announcement proxy rather than first-shipment proof."
+        },
+        "firmware": {
+          "version": "2.12",
+          "date": "2022-02",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gt-100/updates_drivers/3b99a448-fe61-475b-a797-d2c3fe3d26af/",
+            "https://www.boss.info/global/support/by_product/gt-100/updates_drivers/"
+          ],
+          "note": "Current manufacturer index/updater2.12; history explicitly dates FEB2022 and says management-related version change with product specifications unaffected. The release-to-version span is not ten years of feature development. Exact release day and installed firmware unverified; separate driver/editor versions are not firmware."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shifter ±24 semitones offers Fast/Medium/Slow/Mono; Mono is single-note with a chord caveat. Harmonist and Pedal Bend require single notes; Octave lowers one octave. ACCEL S-Bend adds intense bending; version2 adds MDP Overtone. Explicit note-polyphony for the other pitch modes is not established.",
+          "preset": "200 User plus200 Preset patches. Effect choices/routing are patch settings; per-effect Quick Settings are not additional processor instances.",
+          "dsp": "Pitch Shifter/Harmonist/Octave are FX1/FX2 choices; shared types may be duplicated. Version2 Overtone is FX2-only. Pedal Bend uses Pedal FX; S-Bend uses ACCEL FX. No per-pitch CPU percentage or DSP-budget meter documented.",
+          "source_urls": [
+            "https://manualzilla.com/doc/7433788/boss-audio-systems-gt-100-owner-s-manual",
+            "https://www.boss.info/global/products/gt-100/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original parameter-guide restrictions and version2 additions are identified separately; no full version2 parameter-equivalence claim.",
+            "Harmonist cannot process USB-input audio in the original guide.",
+            "Monophonic guitar-to-MIDI and stereo/two generated pitch voices do not establish audio note polyphony."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2012/1419/",
+            "title": "Roland/BOSS GT-100 introduction, January19 2012",
+            "access": "opened",
+            "evidence": "Dated introduction; planned February2012 availability remains distinct from announcement day."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-100/updates_drivers/3b99a448-fe61-475b-a797-d2c3fe3d26af/",
+            "title": "BOSS GT-100 System Program2.12 release history",
+            "access": "opened",
+            "evidence": "FEB2022 latest2.12; management-only version change, specifications unaffected."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-100/updates_drivers/",
+            "title": "BOSS GT-100 current Updates & Drivers index",
+            "access": "opened",
+            "evidence": "System Program2.12 separated from drivers/editor/librarian."
+          },
+          {
+            "url": "https://manualzilla.com/doc/7433788/boss-audio-systems-gt-100-owner-s-manual",
+            "title": "BOSS GT-100 original manufacturer parameter-guide reproduction",
+            "access": "opened original manuscript on public mirror; text_only",
+            "evidence": "pp8,13–14,21,24 cover FX1/2 selection, pitch modes, monophonic restrictions and ACCEL S-Bend; no pitch DSP percentage."
+          },
+          {
+            "url": "https://www.boss.info/global/products/gt-100/",
+            "title": "BOSS GT-100 current version2 product/specifications",
+            "access": "opened",
+            "evidence": "200+200 memory split; Overtone added in version2 and restricted to FX2; guitar-to-MIDI explicitly monophonic."
+          }
+        ],
+        "duration": {
+          "minimum_days": 3666,
+          "maximum_days": 3693,
+          "label": "10.04–10.11 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GT-100",
       "BOSS::GT-1000",
       "BOSS::GT-10B",
       "BOSS::GT-1B",
@@ -182536,12 +182613,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 36,
-    "last_model": "BOSS::GT-10",
-    "last_commit_parent": "69dc1a9c1d5bf1bbe82a9562f5cc2a152b33fb60",
+    "completed_model_count": 37,
+    "last_model": "BOSS::GT-100",
+    "last_commit_parent": "35820e4dd088281aa9033561b0ac833ee130d259",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GT-100",
       "BOSS::GT-1000",
       "BOSS::GT-10B",
       "BOSS::GT-1B",
@@ -182908,7 +182984,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 36,
+    "pitch_completed_model_count": 37,
     "supplemental_model_count": 0
   }
 }

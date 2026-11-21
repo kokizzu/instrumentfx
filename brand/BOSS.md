@@ -1998,6 +1998,32 @@ Manual follow-up: manufacturer-authored 2008 GT-10B owner manual, G6027127R0, re
 
 ## GT-100
 
+<!-- firmware-pitch:BOSS::GT-100 begins -->
+### Firmware and pitch audit — BOSS GT-100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2012-01-19 (manufacturer announcement proxy). Dated manufacturer introduction; this announcement planned availability for February2012, so the day is an announcement proxy rather than first-shipment proof. [launch 1](https://www.roland.com/us/company/press_releases/2012/1419/) |
+| Firmware / latest verification | 2.12 — Latest verified. Current manufacturer index/updater2.12; history explicitly dates FEB2022 and says management-related version change with product specifications unaffected. The release-to-version span is not ten years of feature development. Exact release day and installed firmware unverified; separate driver/editor versions are not firmware. [firmware 1](https://www.boss.info/global/support/by_product/gt-100/updates_drivers/3b99a448-fe61-475b-a797-d2c3fe3d26af/) [firmware 2](https://www.boss.info/global/support/by_product/gt-100/updates_drivers/) |
+| Firmware / release date | 2022-02 (month precision) |
+| Firmware / release-to-update duration | 10.04–10.11 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter ±24 semitones offers Fast/Medium/Slow/Mono; Mono is single-note with a chord caveat. Harmonist and Pedal Bend require single notes; Octave lowers one octave. ACCEL S-Bend adds intense bending; version2 adds MDP Overtone. Explicit note-polyphony for the other pitch modes is not established. [pitch 1](https://manualzilla.com/doc/7433788/boss-audio-systems-gt-100-owner-s-manual) [pitch 2](https://www.boss.info/global/products/gt-100/) |
+| Pitch / preset recall | 200 User plus200 Preset patches. Effect choices/routing are patch settings; per-effect Quick Settings are not additional processor instances. |
+| Pitch / DSP resources | Pitch Shifter/Harmonist/Octave are FX1/FX2 choices; shared types may be duplicated. Version2 Overtone is FX2-only. Pedal Bend uses Pedal FX; S-Bend uses ACCEL FX. No per-pitch CPU percentage or DSP-budget meter documented. |
+| Pitch / qualifications | Original parameter-guide restrictions and version2 additions are identified separately; no full version2 parameter-equivalence claim. Harmonist cannot process USB-input audio in the original guide. Monophonic guitar-to-MIDI and stereo/two generated pitch voices do not establish audio note polyphony. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland/BOSS GT-100 introduction, January19 2012](https://www.roland.com/us/company/press_releases/2012/1419/) — Dated introduction; planned February2012 availability remains distinct from announcement day. (opened).
+- [BOSS GT-100 System Program2.12 release history](https://www.boss.info/global/support/by_product/gt-100/updates_drivers/3b99a448-fe61-475b-a797-d2c3fe3d26af/) — FEB2022 latest2.12; management-only version change, specifications unaffected. (opened).
+- [BOSS GT-100 current Updates & Drivers index](https://www.boss.info/global/support/by_product/gt-100/updates_drivers/) — System Program2.12 separated from drivers/editor/librarian. (opened).
+- [BOSS GT-100 original manufacturer parameter-guide reproduction](https://manualzilla.com/doc/7433788/boss-audio-systems-gt-100-owner-s-manual) — pp8,13–14,21,24 cover FX1/2 selection, pitch modes, monophonic restrictions and ACCEL S-Bend; no pitch DSP percentage. (opened original manuscript on public mirror; text_only).
+- [BOSS GT-100 current version2 product/specifications](https://www.boss.info/global/products/gt-100/) — 200+200 memory split; Overtone added in version2 and restricted to FX2; guitar-to-MIDI explicitly monophonic. (opened).
+
+<!-- firmware-pitch:BOSS::GT-100 ends -->
+
 Checked **2026-10-16**. Guitar COSM multi-effects, distinct from GT-1000. Partial first pass; the original manual URL was found but web extraction failed because its PDF exceeded the fetch size limit. No manual file was downloaded.
 
 | Field | Model-specific evidence / unresolved fields |
