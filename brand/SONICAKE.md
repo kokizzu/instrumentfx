@@ -26,6 +26,30 @@ K/F/B means rotary controls / main footswitches / separate buttons; encoder pres
 
 ## A Factory QDS-04
 
+<!-- firmware-pitch:Sonicake::A Factory QDS-04 begins -->
+### Firmware and pitch audit — Sonicake A Factory QDS-04
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-12-19 (Dated manufacturer introduction; not exact first retail shipment). SONICAKE published its exact QDS-04 introducing video on 2023-12-19. Description says official website/Amazon availability coming soon; this is an introduction-date proxy, not confirmed first sale. Later regional listing dates are not the original introduction. [launch 1](https://www.youtube.com/watch?v=NEL5gu5Ngu4) |
+| Firmware / latest verification | Not verified — No public firmware located. No user firmware version, update download or dated update history located on the checked exact-model pages. Digital reverb does not establish a user-updateable device. [firmware 1](https://www.sonicake.com/products/a-factory) [firmware 2](https://www.hotone.jp/brands/sonicake/products/a-factory) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Analog acoustic-instrument preamp, digital reverb and adjustable notch filtering/mute; no octave, harmony or pitch-transposition algorithm documented. [pitch 1](https://www.sonicake.com/products/a-factory) [pitch 2](https://www.hotone.jp/brands/sonicake/products/a-factory) |
+| Pitch / preset recall | Physical controls and footswitch functions; programmable preset banks and pitch-preset recall not documented. |
+| Pitch / DSP resources | No pitch block or per-effect DSP utilization documented. The analog preamp and digital reverb architecture does not establish a shared allocatable DSP budget; 60 mA is an electrical specification, not processor utilization. |
+| Pitch / qualifications | Acoustic-instrument processing is not evidence of electric-to-acoustic simulation or pitch shifting. No public firmware located is an evidence limit; internal firmware existence/version remains unverified. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [SONICAKE A Factory QDS-04 official product](https://www.sonicake.com/products/a-factory) — Exact QDS-04 acoustic-instrument analog preamp and digital reverb with notch/mute and XLR output; no pitch algorithm or public firmware history documented. (readable official product page).
+- [Hotone Japan A Factory official regional product](https://www.hotone.jp/brands/sonicake/products/a-factory) — Confirms acoustic preamp/reverb, adjustable notch filter and mute, 60 mA and 392 g; original launch date and firmware version absent. (readable official regional page).
+- [SONICAKE Introducing A FACTORY QDS-04](https://www.youtube.com/watch?v=NEL5gu5Ngu4) — Published 2023-12-19 by SONICAKE; exact QDS-04 title and matching preamp/reverb/notch features; official website/Amazon availability described as coming soon. (manufacturer-authored video metadata and description readable).
+
+<!-- firmware-pitch:Sonicake::A Factory QDS-04 ends -->
+
 Checked 2026-10-18; partial acoustic-guitar multi-effects. [Exact manufacturer product](https://www.sonicake.com/products/a-factory) (P) identifies QDS-04; [Hotone Japan distributor](https://www.hotone.jp/brands/sonicake/products/a-factory) (J) corroborates preamp, reverb and notch filtering. B Factory specifications are not transferred.
 
 | Field | Finding / qualification |

@@ -199186,6 +199186,125 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Sonicake::A Factory QDS-04": {
+        "model_key": "Sonicake::A Factory QDS-04",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2023-12-19",
+          "precision": "day",
+          "kind": "Dated manufacturer introduction; not exact first retail shipment",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=NEL5gu5Ngu4"
+          ],
+          "note": "SONICAKE published its exact QDS-04 introducing video on 2023-12-19. Description says official website/Amazon availability coming soon; this is an introduction-date proxy, not confirmed first sale. Later regional listing dates are not the original introduction."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.sonicake.com/products/a-factory",
+            "https://www.hotone.jp/brands/sonicake/products/a-factory"
+          ],
+          "note": "No user firmware version, update download or dated update history located on the checked exact-model pages. Digital reverb does not establish a user-updateable device."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Analog acoustic-instrument preamp, digital reverb and adjustable notch filtering/mute; no octave, harmony or pitch-transposition algorithm documented.",
+          "preset": "Physical controls and footswitch functions; programmable preset banks and pitch-preset recall not documented.",
+          "dsp": "No pitch block or per-effect DSP utilization documented. The analog preamp and digital reverb architecture does not establish a shared allocatable DSP budget; 60 mA is an electrical specification, not processor utilization.",
+          "source_urls": [
+            "https://www.sonicake.com/products/a-factory",
+            "https://www.hotone.jp/brands/sonicake/products/a-factory"
+          ],
+          "measurements": [],
+          "notes": [
+            "Acoustic-instrument processing is not evidence of electric-to-acoustic simulation or pitch shifting.",
+            "No public firmware located is an evidence limit; internal firmware existence/version remains unverified."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sonicake.com/products/a-factory",
+            "title": "SONICAKE A Factory QDS-04 official product",
+            "access": "readable official product page",
+            "evidence": "Exact QDS-04 acoustic-instrument analog preamp and digital reverb with notch/mute and XLR output; no pitch algorithm or public firmware history documented."
+          },
+          {
+            "url": "https://www.hotone.jp/brands/sonicake/products/a-factory",
+            "title": "Hotone Japan A Factory official regional product",
+            "access": "readable official regional page",
+            "evidence": "Confirms acoustic preamp/reverb, adjustable notch filter and mute, 60 mA and 392 g; original launch date and firmware version absent."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NEL5gu5Ngu4",
+            "title": "SONICAKE Introducing A FACTORY QDS-04",
+            "access": "manufacturer-authored video metadata and description readable",
+            "evidence": "Published 2023-12-19 by SONICAKE; exact QDS-04 title and matching preamp/reverb/notch features; official website/Amazon availability described as coming soon."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Sonicake::A Factory QDS-04",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "Original hardware introduction unresolved",
+              "source_urls": [
+                "https://www.sonicake.com/products/a-factory",
+                "https://www.hotone.jp/brands/sonicake/products/a-factory"
+              ],
+              "note": "Checked official exact-model pages do not supply the original hardware launch date. Manual revision and upload timestamps are not hardware release dates."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.sonicake.com/products/a-factory",
+                "https://www.hotone.jp/brands/sonicake/products/a-factory"
+              ],
+              "note": "No user firmware version, update download or dated update history located on the checked exact-model pages. Digital reverb does not establish a user-updateable device."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Analog acoustic-instrument preamp, digital reverb and adjustable notch filtering/mute; no octave, harmony or pitch-transposition algorithm documented.",
+              "preset": "Physical controls and footswitch functions; programmable preset banks and pitch-preset recall not documented.",
+              "dsp": "No pitch block or per-effect DSP utilization documented. The analog preamp and digital reverb architecture does not establish a shared allocatable DSP budget; 60 mA is an electrical specification, not processor utilization.",
+              "source_urls": [
+                "https://www.sonicake.com/products/a-factory",
+                "https://www.hotone.jp/brands/sonicake/products/a-factory"
+              ],
+              "measurements": [],
+              "notes": [
+                "Acoustic-instrument processing is not evidence of electric-to-acoustic simulation or pitch shifting.",
+                "No public firmware located is an evidence limit; internal firmware existence/version remains unverified."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.sonicake.com/products/a-factory",
+                "title": "SONICAKE A Factory QDS-04 official product",
+                "access": "readable official product page",
+                "evidence": "Exact QDS-04 acoustic-instrument analog preamp and digital reverb with notch/mute and XLR output; no pitch algorithm or public firmware history documented."
+              },
+              {
+                "url": "https://www.hotone.jp/brands/sonicake/products/a-factory",
+                "title": "Hotone Japan A Factory official regional product",
+                "access": "readable official regional page",
+                "evidence": "Confirms acoustic preamp/reverb, adjustable notch filter and mute, 60 mA and 392 g; original launch date and firmware version absent."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
@@ -199206,7 +199325,6 @@
       "Mosky::RD5",
       "Mosky::SOL918",
       "ROWIN::RE-05 Looper Pro",
-      "Sonicake::A Factory QDS-04",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
@@ -199338,9 +199456,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 255,
-    "last_model": "Sonicake::B Factory QDS-05",
-    "last_commit_parent": "e4991ef90b886ba2953086001fd6859dcf74c4e7",
+    "completed_model_count": 256,
+    "last_model": "Sonicake::A Factory QDS-04",
+    "last_commit_parent": "4db648ebe648a709accfac2c6fc1bb845c6f77b8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -199360,7 +199478,6 @@
       "Mosky::RD5",
       "Mosky::SOL918",
       "ROWIN::RE-05 Looper Pro",
-      "Sonicake::A Factory QDS-04",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
@@ -199491,7 +199608,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 255,
+    "pitch_completed_model_count": 256,
     "supplemental_model_count": 0
   },
   "model_images": {
