@@ -8,6 +8,29 @@
 
 ## KMF-10
 
+<!-- firmware-pitch:Scorpion::KMF-10 begins -->
+### Firmware and pitch audit — Scorpion KMF-10
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Brand series page does not establish a launch/on-sale date. Asset upload timestamps and unrelated retailer news dates are not release evidence. [launch 1](https://scorpionguitar.com/pages/multi-effect) |
+| Firmware / latest verification | Not verified — No public firmware located. No model-specific public firmware package, version history or updater found in the checked brand series page and exact-model searches. Direct product page was inaccessible in this check. This does not prove firmware cannot be updated; visually similar KOKKO KMF-1 documentation is not substituted. [firmware 1](https://scorpionguitar.com/pages/multi-effect) [firmware 2](https://scorpionguitar.com/products/scorpion-kmf10-multi-effect-guitar-pedal) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Unverified. Brand lists modulation and filter categories without naming a pitch-shifting algorithm. Pitch presence, polyphony and interval range remain unverified; a tuner and expression pedal do not establish a pitch shifter. [pitch 1](https://scorpionguitar.com/pages/multi-effect) |
+| Pitch / preset recall | Brand supports a five-block chain, but no verified pitch preset recall behavior or assignment rules were found. Existing 10-59 preset notation remains unresolved; it is not interpreted as a storage-capacity range. |
+| Pitch / DSP resources | No algorithm-specific DSP percentage or pitch slot cost verified. Five blocks is the advertised overall chain limit, not a pitch CPU measurement. |
+| Pitch / qualifications | Preserve the 300mA specification versus 500mA rear-panel marking conflict and the model-specific software/import unknowns. No sibling/OEM algorithm or firmware facts applied. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Scorpion KMF10 series page](https://scorpionguitar.com/pages/multi-effect) — Exact KMF10 identity; five-block chain, generic categories; no dated firmware or pitch algorithm identification. (Manufacturer HTML checked 2026-11-22).
+- [Scorpion KMF10 product page](https://scorpionguitar.com/products/scorpion-kmf10-multi-effect-guitar-pedal) — Previously recorded exact-model source retained as an access limitation, not newly verified firmware evidence. (Direct page inaccessible 2026-11-22; prior source preserved).
+
+<!-- firmware-pitch:Scorpion::KMF-10 ends -->
+
 Consolidated **2026-10-17**. Complete original brand-based record and supporting model facts retained;300mA/500mA power,10–59 preset notation and amp/cab wording remain unresolved. No sibling/OEM specifications substituted.
 
 <!-- SCORPION-KMF-10 source begins -->

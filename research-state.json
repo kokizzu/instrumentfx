@@ -198504,6 +198504,59 @@
           "label": "3.04–3.12 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Scorpion::KMF-10": {
+        "model_key": "Scorpion::KMF-10",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://scorpionguitar.com/pages/multi-effect"
+          ],
+          "note": "Brand series page does not establish a launch/on-sale date. Asset upload timestamps and unrelated retailer news dates are not release evidence."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://scorpionguitar.com/pages/multi-effect",
+            "https://scorpionguitar.com/products/scorpion-kmf10-multi-effect-guitar-pedal"
+          ],
+          "note": "No model-specific public firmware package, version history or updater found in the checked brand series page and exact-model searches. Direct product page was inaccessible in this check. This does not prove firmware cannot be updated; visually similar KOKKO KMF-1 documentation is not substituted."
+        },
+        "pitch": {
+          "status": "unverified",
+          "algorithms": "Brand lists modulation and filter categories without naming a pitch-shifting algorithm. Pitch presence, polyphony and interval range remain unverified; a tuner and expression pedal do not establish a pitch shifter.",
+          "preset": "Brand supports a five-block chain, but no verified pitch preset recall behavior or assignment rules were found. Existing 10-59 preset notation remains unresolved; it is not interpreted as a storage-capacity range.",
+          "dsp": "No algorithm-specific DSP percentage or pitch slot cost verified. Five blocks is the advertised overall chain limit, not a pitch CPU measurement.",
+          "source_urls": [
+            "https://scorpionguitar.com/pages/multi-effect"
+          ],
+          "measurements": [],
+          "notes": [
+            "Preserve the 300mA specification versus 500mA rear-panel marking conflict and the model-specific software/import unknowns. No sibling/OEM algorithm or firmware facts applied."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://scorpionguitar.com/pages/multi-effect",
+            "title": "Scorpion KMF10 series page",
+            "access": "Manufacturer HTML checked 2026-11-22",
+            "evidence": "Exact KMF10 identity; five-block chain, generic categories; no dated firmware or pitch algorithm identification."
+          },
+          {
+            "url": "https://scorpionguitar.com/products/scorpion-kmf10-multi-effect-guitar-pedal",
+            "title": "Scorpion KMF10 product page",
+            "access": "Direct page inaccessible 2026-11-22; prior source preserved",
+            "evidence": "Previously recorded exact-model source retained as an access limitation, not newly verified firmware evidence."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -198524,7 +198577,6 @@
       "Mosky::RD5",
       "Mosky::SOL918",
       "ROWIN::RE-05 Looper Pro",
-      "Scorpion::KMF-10",
       "Sonicake::A Factory QDS-04",
       "Sonicake::B Factory QDS-05",
       "Sonicake::Black Hammer QCE-30",
@@ -198667,9 +198719,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 244,
-    "last_model": "Roland::VT-4",
-    "last_commit_parent": "12359bc955f8ef1d5a9013908c201081836e3ad2",
+    "completed_model_count": 245,
+    "last_model": "Scorpion::KMF-10",
+    "last_commit_parent": "6ed3dd7e097539b314ee3889bc3efe4fcdd9ce52",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -198689,7 +198741,6 @@
       "Mosky::RD5",
       "Mosky::SOL918",
       "ROWIN::RE-05 Looper Pro",
-      "Scorpion::KMF-10",
       "Sonicake::A Factory QDS-04",
       "Sonicake::B Factory QDS-05",
       "Sonicake::Black Hammer QCE-30",
@@ -198831,7 +198882,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 244,
+    "pitch_completed_model_count": 245,
     "supplemental_model_count": 0
   },
   "model_images": {
