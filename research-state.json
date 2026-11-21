@@ -178521,7 +178521,7 @@
       30,
       30
     ],
-    "index_url": "https://line6.com/software/index.html?hardware=POD+HD500X&name=Flash+Memory&submit_form=set",
+    "index_url": "https://line6.com/software/index.html?hardware=AMPLIFi+FX100&name=Flash+Memory&submit_form=set",
     "index_needle": "Released",
     "index_skip": 0
   },
@@ -190456,6 +190456,83 @@
           "label": "1.75 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::AMPLIFi FX100": {
+        "model_key": "Line 6::AMPLIFi FX100",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2014-01-23",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://line6.com/data/6/0a020a3e1040a582cf2b876c42/application/pdf/"
+          ],
+          "note": "January 23 announcement explicitly introduces FX100 as coming soon with March availability planned. Announcement proxy; actual first retail shipment date unverified. Speaker-amplifier availability is separate."
+        },
+        "firmware": {
+          "version": "2.60.0",
+          "date": "2017-05-16",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=AMPLIFi+FX100&name=Flash+Memory&submit_form=set"
+          ],
+          "note": "Current exact-FX100 Flash Memory index lists 2.60.0 first, May 16, 2017, with minor fixes/improvements. Supersedes the older 2.50.2 latest-version claim in historical notes. App/driver versions are separate; no update installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manufacturer AMPLIFi model list includes Bender with pedal-controlled heel/toe pitch endpoints, plus pitch-tracking Seismik Synth, Double Bass and Synth Harmony. No explicit polyphonic/chord-tracking guarantee located; synth oscillators do not establish polyphonic clean transposition.",
+          "preset": "100 onboard locations (25 banks × 4); amp/FX parameters saved and recalled together. Remote app edits tones; hardware save is temporarily disabled while the app is connected. No physical pitch recall test.",
+          "dsp": "FX100 FAQ advertises eight simultaneous effects. No Bender CPU percentage, per-model DSP cost or measured remaining processing budget located. Do not transfer Helix or Ampero resource figures.",
+          "source_urls": [
+            "https://kb.line6.com/full-list-of-amplifi-firehawk-series-amps-effects-and-cabs",
+            "https://line6.com/data/6/0a020a4132f0612713c723f4f/application/pdf/AMPLIFi%20FX100%20Pilot%27s%20Guide%20-%20English%20.pdf?locale=en_UK",
+            "https://kb.line6.com/amplifi-fx100-faq"
+          ],
+          "measurements": [],
+          "notes": [
+            "Shared model-list Bender wording refers to an FBV/AMPLIFi setup; exact FX100 expression assignment for Bender was not independently confirmed. Own pilot guide describes volume/wah toe switching.",
+            "No audio, tracking, latency or DSP measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://line6.com/data/6/0a020a3e1040a582cf2b876c42/application/pdf/",
+            "title": "Line 6 January 23, 2014 AMPLIFi announcement",
+            "access": "Manufacturer two-page press PDF read",
+            "evidence": "Explicit FX100 coming-soon announcement, March availability planned; not proof of shipment."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=AMPLIFi+FX100&name=Flash+Memory&submit_form=set",
+            "title": "AMPLIFi FX100 Flash Memory catalogue",
+            "access": "Direct manufacturer HTML read, SHA256 b3f8c0483889ce8fb91e644304b5e01bf4083f942aa0da35b2c368930490f7d2",
+            "evidence": "Five releases; newest 2.60.0 May 16, 2017."
+          },
+          {
+            "url": "https://kb.line6.com/full-list-of-amplifi-firehawk-series-amps-effects-and-cabs",
+            "title": "AMPLIFi/Firehawk amp and effects model list",
+            "access": "Manufacturer KB read",
+            "evidence": "Bender pedal pitch endpoints; pitch-tracking synth effects. No explicit Bender polyphony or CPU percentage."
+          },
+          {
+            "url": "https://line6.com/data/6/0a020a4132f0612713c723f4f/application/pdf/AMPLIFi%20FX100%20Pilot%27s%20Guide%20-%20English%20.pdf?locale=en_UK",
+            "title": "AMPLIFi FX100 Pilot Guide Rev D (2016)",
+            "access": "Manufacturer PDF read",
+            "evidence": "25×4 preset locations, amp/effect parameter storage, app-connected hardware-save restriction and volume/wah expression controls."
+          },
+          {
+            "url": "https://kb.line6.com/amplifi-fx100-faq",
+            "title": "AMPLIFi FX100 FAQ",
+            "access": "Manufacturer KB read",
+            "evidence": "Eight simultaneous effects and 100 onboard presets; dated USB-unused claim superseded by own Rev D manual."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1209,
+          "maximum_days": 1209,
+          "label": "3.31 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190494,7 +190571,6 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "Line 6::AMPLIFi FX100",
       "Line 6::Floor POD Plus",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::M13",
@@ -190717,9 +190793,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 146,
-    "last_model": "Line 6::POD HD500X",
-    "last_commit_parent": "1946aaa21494d726d112f631973f3017013bb2e8",
+    "completed_model_count": 147,
+    "last_model": "Line 6::AMPLIFi FX100",
+    "last_commit_parent": "357ff05f3b6f348a7d391f4238cdb84876dca73d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190757,7 +190833,6 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "Line 6::AMPLIFi FX100",
       "Line 6::Floor POD Plus",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::M13",
@@ -190979,7 +191054,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 146,
+    "pitch_completed_model_count": 147,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -38,6 +38,32 @@ Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless and POD Exp
 
 ## AMPLIFi FX100
 
+<!-- firmware-pitch:Line 6::AMPLIFi FX100 begins -->
+### Firmware and pitch audit — Line 6 AMPLIFi FX100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2014-01-23 (manufacturer announcement proxy). January 23 announcement explicitly introduces FX100 as coming soon with March availability planned. Announcement proxy; actual first retail shipment date unverified. Speaker-amplifier availability is separate. [launch 1](https://line6.com/data/6/0a020a3e1040a582cf2b876c42/application/pdf/) |
+| Firmware / latest verification | 2.60.0 — Latest verified. Current exact-FX100 Flash Memory index lists 2.60.0 first, May 16, 2017, with minor fixes/improvements. Supersedes the older 2.50.2 latest-version claim in historical notes. App/driver versions are separate; no update installed. [firmware 1](https://line6.com/software/index.html?hardware=AMPLIFi+FX100&name=Flash+Memory&submit_form=set) |
+| Firmware / release date | 2017-05-16 (day precision) |
+| Firmware / release-to-update duration | 3.31 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manufacturer AMPLIFi model list includes Bender with pedal-controlled heel/toe pitch endpoints, plus pitch-tracking Seismik Synth, Double Bass and Synth Harmony. No explicit polyphonic/chord-tracking guarantee located; synth oscillators do not establish polyphonic clean transposition. [pitch 1](https://kb.line6.com/full-list-of-amplifi-firehawk-series-amps-effects-and-cabs) [pitch 2](https://line6.com/data/6/0a020a4132f0612713c723f4f/application/pdf/AMPLIFi%20FX100%20Pilot%27s%20Guide%20-%20English%20.pdf?locale=en_UK) [pitch 3](https://kb.line6.com/amplifi-fx100-faq) |
+| Pitch / preset recall | 100 onboard locations (25 banks × 4); amp/FX parameters saved and recalled together. Remote app edits tones; hardware save is temporarily disabled while the app is connected. No physical pitch recall test. |
+| Pitch / DSP resources | FX100 FAQ advertises eight simultaneous effects. No Bender CPU percentage, per-model DSP cost or measured remaining processing budget located. Do not transfer Helix or Ampero resource figures. |
+| Pitch / qualifications | Shared model-list Bender wording refers to an FBV/AMPLIFi setup; exact FX100 expression assignment for Bender was not independently confirmed. Own pilot guide describes volume/wah toe switching. No audio, tracking, latency or DSP measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 January 23, 2014 AMPLIFi announcement](https://line6.com/data/6/0a020a3e1040a582cf2b876c42/application/pdf/) — Explicit FX100 coming-soon announcement, March availability planned; not proof of shipment. (Manufacturer two-page press PDF read).
+- [AMPLIFi FX100 Flash Memory catalogue](https://line6.com/software/index.html?hardware=AMPLIFi+FX100&name=Flash+Memory&submit_form=set) — Five releases; newest 2.60.0 May 16, 2017. (Direct manufacturer HTML read, SHA256 b3f8c0483889ce8fb91e644304b5e01bf4083f942aa0da35b2c368930490f7d2).
+- [AMPLIFi/Firehawk amp and effects model list](https://kb.line6.com/full-list-of-amplifi-firehawk-series-amps-effects-and-cabs) — Bender pedal pitch endpoints; pitch-tracking synth effects. No explicit Bender polyphony or CPU percentage. (Manufacturer KB read).
+- [AMPLIFi FX100 Pilot Guide Rev D (2016)](https://line6.com/data/6/0a020a4132f0612713c723f4f/application/pdf/AMPLIFi%20FX100%20Pilot%27s%20Guide%20-%20English%20.pdf?locale=en_UK) — 25×4 preset locations, amp/effect parameter storage, app-connected hardware-save restriction and volume/wah expression controls. (Manufacturer PDF read).
+- [AMPLIFi FX100 FAQ](https://kb.line6.com/amplifi-fx100-faq) — Eight simultaneous effects and 100 onboard presets; dated USB-unused claim superseded by own Rev D manual. (Manufacturer KB read).
+
+<!-- firmware-pitch:Line 6::AMPLIFi FX100 ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Guitar floor processor, distinct from AMPLIFi speaker amps and Flamma FX100. Own Rev D guide and manufacturer support; partial verification.
 
