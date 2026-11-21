@@ -800,6 +800,30 @@ Checked2026-10-28 against the [manufacturer product page][RS-P]. Ordinary electr
 
 ## Smart Box QME-20
 
+<!-- firmware-pitch:Sonicake::Smart Box QME-20 begins -->
+### Firmware and pitch audit — Sonicake Smart Box QME-20
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact first on-sale date not established. Manual copyright, asset upload and regional introduction dates are not substituted for first worldwide release. [launch 1](https://www.sonicake.com/products/smart-box) |
+| Firmware / latest verification | 1.0.6 — Latest verified. Current manufacturer download page lists 1.0.6 with improved compatibility and 1.0.5 as initial version, without release dates. Sonicake Manager1.5.2 and SONICLINK1.8.2 are software releases, not device firmware. Support retains a Windows11 communication warning; no hardware update performed. [firmware 1](https://www.sonicake.com/pages/smart-box-software-firmware-download-qme-20) [firmware 2](https://www.sonicake.com/products/smart-box) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Own English manual explicitly identifies Octave and Pitch as polyphonic. Octave has lower/upper octave and dry levels; Pitch has semitone high/low shifts, voice levels and dry control, with exact endpoints unverified. Detune is -50 to +50 cents. Manufacturer claims, not independent chord-tracking measurements; current1.0.6 algorithm equivalence to the manual is not hardware tested. [pitch 1](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf) [pitch 2](https://www.sonicake.com/products/smart-box) |
+| Pitch / preset recall | 100 preset locations,50 factory-filled. Pitch belongs to the shared FX choices in FX1/FX2; saved effects/presets and external EXP target selection are documented. Global-menu expression assignment does not alone establish a transposition setting or volume target that persists across every preset. |
+| Pitch / DSP resources | No isolated pitch CPU percentage or measured DSP resource cost found. A pitch algorithm selects an FX1/FX2 choice within the nine-module architecture; nine simultaneous modules is an overall structural limit, not a pitch benchmark. |
+| Pitch / qualifications | Preserve five user IR/NAM loading slots and regional NAM A2 conversion qualification; native architecture support is not inferred. No physical latency, polyphony or resource test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Smart Box QME-20 downloads](https://www.sonicake.com/pages/smart-box-software-firmware-download-qme-20) — Current1.0.6 compatibility update, initial1.0.5, software versions; no firmware date. (Manufacturer source checked 2026-11-22).
+- [Smart Box product/specifications](https://www.sonicake.com/products/smart-box) — ExactQME20, nine modules,100locations50factory, no first sale date. (Manufacturer source checked 2026-11-22).
+- [Smart Box multilingual manual](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf) — English pitch table: polyphonic Octave/Pitch, pitch/dry/voice controls, Detune +/-50cents; presets and EXP targets. (Manufacturer source checked 2026-11-22).
+
+<!-- firmware-pitch:Sonicake::Smart Box QME-20 ends -->
+
 <!-- comparison evidence begins -->
 
 **Existing review2026-10-14.**

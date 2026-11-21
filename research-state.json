@@ -198630,6 +198630,66 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Sonicake::Smart Box QME-20": {
+        "model_key": "Sonicake::Smart Box QME-20",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.sonicake.com/products/smart-box"
+          ],
+          "note": "Exact first on-sale date not established. Manual copyright, asset upload and regional introduction dates are not substituted for first worldwide release."
+        },
+        "firmware": {
+          "version": "1.0.6",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.sonicake.com/pages/smart-box-software-firmware-download-qme-20",
+            "https://www.sonicake.com/products/smart-box"
+          ],
+          "note": "Current manufacturer download page lists 1.0.6 with improved compatibility and 1.0.5 as initial version, without release dates. Sonicake Manager1.5.2 and SONICLINK1.8.2 are software releases, not device firmware. Support retains a Windows11 communication warning; no hardware update performed."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Own English manual explicitly identifies Octave and Pitch as polyphonic. Octave has lower/upper octave and dry levels; Pitch has semitone high/low shifts, voice levels and dry control, with exact endpoints unverified. Detune is -50 to +50 cents. Manufacturer claims, not independent chord-tracking measurements; current1.0.6 algorithm equivalence to the manual is not hardware tested.",
+          "preset": "100 preset locations,50 factory-filled. Pitch belongs to the shared FX choices in FX1/FX2; saved effects/presets and external EXP target selection are documented. Global-menu expression assignment does not alone establish a transposition setting or volume target that persists across every preset.",
+          "dsp": "No isolated pitch CPU percentage or measured DSP resource cost found. A pitch algorithm selects an FX1/FX2 choice within the nine-module architecture; nine simultaneous modules is an overall structural limit, not a pitch benchmark.",
+          "source_urls": [
+            "https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf",
+            "https://www.sonicake.com/products/smart-box"
+          ],
+          "measurements": [],
+          "notes": [
+            "Preserve five user IR/NAM loading slots and regional NAM A2 conversion qualification; native architecture support is not inferred. No physical latency, polyphony or resource test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sonicake.com/pages/smart-box-software-firmware-download-qme-20",
+            "title": "Smart Box QME-20 downloads",
+            "access": "Manufacturer source checked 2026-11-22",
+            "evidence": "Current1.0.6 compatibility update, initial1.0.5, software versions; no firmware date."
+          },
+          {
+            "url": "https://www.sonicake.com/products/smart-box",
+            "title": "Smart Box product/specifications",
+            "access": "Manufacturer source checked 2026-11-22",
+            "evidence": "ExactQME20, nine modules,100locations50factory, no first sale date."
+          },
+          {
+            "url": "https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf",
+            "title": "Smart Box multilingual manual",
+            "access": "Manufacturer source checked 2026-11-22",
+            "evidence": "English pitch table: polyphonic Octave/Pitch, pitch/dry/voice controls, Detune +/-50cents; presets and EXP targets."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -198658,7 +198718,6 @@
       "Sonicake::Matribox II QME-100",
       "Sonicake::Pocket Master QME-10",
       "Sonicake::RockStage QCE-10",
-      "Sonicake::Smart Box QME-20",
       "Sonicake::Sonic Wood QCE-50",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
@@ -198791,9 +198850,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 246,
-    "last_model": "Sonicake::Matribox QME-50",
-    "last_commit_parent": "d71c469518c3b043997752bd35342acba4b584ab",
+    "completed_model_count": 247,
+    "last_model": "Sonicake::Smart Box QME-20",
+    "last_commit_parent": "e8dc5042ebc7e6e3bd6fc39cfc2bac4bbc0e54da",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -198821,7 +198880,6 @@
       "Sonicake::Matribox II QME-100",
       "Sonicake::Pocket Master QME-10",
       "Sonicake::RockStage QCE-10",
-      "Sonicake::Smart Box QME-20",
       "Sonicake::Sonic Wood QCE-50",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
@@ -198953,7 +199011,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 246,
+    "pitch_completed_model_count": 247,
     "supplemental_model_count": 0
   },
   "model_images": {
