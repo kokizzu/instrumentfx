@@ -3863,6 +3863,30 @@ Manufacturer-authored mirror identifiesoriginalPOD HD500 Pilot’s Handbook,**40
 
 ## POD HD500X
 
+<!-- firmware-pitch:Line 6::POD HD500X begins -->
+### Firmware and pitch audit — Line 6 POD HD500X
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2013-07-10 (manufacturer public introduction). Official Line6 HD500X introduction video published July10,2013; announcement proxy, exact first shipment day unverified. Original HD500 launch is separate. [launch 1](https://www.youtube.com/watch?v=aZJMSEZcS5o) |
+| Firmware / latest verification | 2.62.00 — Latest verified. Current direct exact-HD500X catalogue lists2.62.00 first, April9,2015. HD500X Edit,Monkey and USB firmware are separate packages/components. Model-pack support is not proof optional packs are installed. No update performed. [firmware 1](https://line6.com/software/index.html?hardware=POD+HD500X&name=Flash+Memory&submit_form=set) |
+| Firmware / release date | 2015-04-09 (day precision) |
+| Firmware / release-to-update duration | 1.75 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Own Advanced Guide7•6–7 lists Bass Octaver,Pitch Glide and Smart Harmony. Pedal pitch bends and key/scale harmony documented; no explicit chord/polyphonic-tracking guarantee located. No Helix Poly Capo/Pitch support inferred. [pitch 1](https://line6.com/data/6/0a06434c6fb051e03e8ab63dc/application/pdf/POD%20HD500X%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf) |
+| Pitch / preset recall | 512 overwriteable locations,8 setlists×64;complete amp/FX settings and pitch expression assignments save per preset. No physical recall test. |
+| Pitch / DSP resources | Eight FX blocks plus up to two amps,subject to dynamic DSP. Own3•13–14 calls pitch shifters/reverbs heavier users;overload bypasses selected model. None frees more DSP than Off. No model-specific pitch CPU percentage located. This is the X guide, not an assumed original-HD500 processor budget. |
+| Pitch / qualifications | No audio tracking,latency or DSP measurement. Model1.01+ manual is revision-qualified;current2.62 firmware verified separately. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Official POD HD500X introduction video](https://www.youtube.com/watch?v=aZJMSEZcS5o) — Published July10,2013;exact X hardware,not2010 original. (Manufacturer video metadata read).
+- [POD HD500X exact Flash Memory catalogue](https://line6.com/software/index.html?hardware=POD+HD500X&name=Flash+Memory&submit_form=set) — Newest2.62.00 April9,2015;original factory1.00 July10,2013 separately identified. (Direct bounded manufacturer HTML retrieved;SHA256682a3927a6a4a38ebaa77e1251cf2fc7b71fe1121a37703f58ee97ab6b467aec).
+- [POD HD500X Advanced Guide RevA](https://line6.com/data/6/0a06434c6fb051e03e8ab63dc/application/pdf/POD%20HD500X%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf) — Bass Octaver,Pitch Glide,Smart Harmony;512 locations,dynamic DSP and heavier pitch/reverb warning without CPU percentage. (Original manufacturer PDF text read).
+
+<!-- firmware-pitch:Line 6::POD HD500X ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**; distinct from original HD500. Selected sections of own Advanced Guide Rev A (firmware 1.01+) and Pilot’s Guide Rev C; partial verification.
 

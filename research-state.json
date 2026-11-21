@@ -178521,7 +178521,7 @@
       30,
       30
     ],
-    "index_url": "https://line6.com/software/index.html?hardware=Helix&name=Flash+Memory&submit_form=set",
+    "index_url": "https://line6.com/software/index.html?hardware=POD+HD500X&name=Flash+Memory&submit_form=set",
     "index_needle": "Released",
     "index_skip": 0
   },
@@ -190394,6 +190394,68 @@
           "label": "9.44 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::POD HD500X": {
+        "model_key": "Line 6::POD HD500X",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2013-07-10",
+          "precision": "day",
+          "kind": "manufacturer_public_introduction",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=aZJMSEZcS5o"
+          ],
+          "note": "Official Line6 HD500X introduction video published July10,2013; announcement proxy, exact first shipment day unverified. Original HD500 launch is separate."
+        },
+        "firmware": {
+          "version": "2.62.00",
+          "date": "2015-04-09",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=POD+HD500X&name=Flash+Memory&submit_form=set"
+          ],
+          "note": "Current direct exact-HD500X catalogue lists2.62.00 first, April9,2015. HD500X Edit,Monkey and USB firmware are separate packages/components. Model-pack support is not proof optional packs are installed. No update performed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Own Advanced Guide7•6–7 lists Bass Octaver,Pitch Glide and Smart Harmony. Pedal pitch bends and key/scale harmony documented; no explicit chord/polyphonic-tracking guarantee located. No Helix Poly Capo/Pitch support inferred.",
+          "preset": "512 overwriteable locations,8 setlists×64;complete amp/FX settings and pitch expression assignments save per preset. No physical recall test.",
+          "dsp": "Eight FX blocks plus up to two amps,subject to dynamic DSP. Own3•13–14 calls pitch shifters/reverbs heavier users;overload bypasses selected model. None frees more DSP than Off. No model-specific pitch CPU percentage located. This is the X guide, not an assumed original-HD500 processor budget.",
+          "source_urls": [
+            "https://line6.com/data/6/0a06434c6fb051e03e8ab63dc/application/pdf/POD%20HD500X%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No audio tracking,latency or DSP measurement. Model1.01+ manual is revision-qualified;current2.62 firmware verified separately."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=aZJMSEZcS5o",
+            "title": "Official POD HD500X introduction video",
+            "access": "Manufacturer video metadata read",
+            "evidence": "Published July10,2013;exact X hardware,not2010 original."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=POD+HD500X&name=Flash+Memory&submit_form=set",
+            "title": "POD HD500X exact Flash Memory catalogue",
+            "access": "Direct bounded manufacturer HTML retrieved;SHA256682a3927a6a4a38ebaa77e1251cf2fc7b71fe1121a37703f58ee97ab6b467aec",
+            "evidence": "Newest2.62.00 April9,2015;original factory1.00 July10,2013 separately identified."
+          },
+          {
+            "url": "https://line6.com/data/6/0a06434c6fb051e03e8ab63dc/application/pdf/POD%20HD500X%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf",
+            "title": "POD HD500X Advanced Guide RevA",
+            "access": "Original manufacturer PDF text read",
+            "evidence": "Bass Octaver,Pitch Glide,Smart Harmony;512 locations,dynamic DSP and heavier pitch/reverb warning without CPU percentage."
+          }
+        ],
+        "duration": {
+          "minimum_days": 638,
+          "maximum_days": 638,
+          "label": "1.75 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190438,7 +190500,6 @@
       "Line 6::M13",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
-      "Line 6::POD HD500X",
       "Line 6::POD X3 Live",
       "Line 6::POD XT Live",
       "M-VAVE::ANN Blackbox",
@@ -190656,9 +190717,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 145,
-    "last_model": "Line 6::Helix Floor",
-    "last_commit_parent": "037171d7fddcedb4458144959de686ba55b4f915",
+    "completed_model_count": 146,
+    "last_model": "Line 6::POD HD500X",
+    "last_commit_parent": "1946aaa21494d726d112f631973f3017013bb2e8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190702,7 +190763,6 @@
       "Line 6::M13",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
-      "Line 6::POD HD500X",
       "Line 6::POD X3 Live",
       "Line 6::POD XT Live",
       "M-VAVE::ANN Blackbox",
@@ -190919,7 +190979,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 145,
+    "pitch_completed_model_count": 146,
     "supplemental_model_count": 0
   },
   "model_images": {
