@@ -8,6 +8,31 @@
 
 ## H8
 
+<!-- firmware-pitch:CUVAVE::H8 begins -->
+### Firmware and pitch audit — CUVAVE H8
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No dated manufacturer retail launch located. FCC original-equipment grant dated March 5, 2022 is certification evidence, not first shipment; seller year claims not promoted to a release date. [launch 1](https://www.cuvave.com/product?id=h8) [launch 2](https://fccid.io/2ARCPH8) |
+| Firmware / latest verification | Not verified — No public firmware located. Manufacturer download center lists H8 under CubeSuite PC support, not its device-firmware entries. No H8-specific public version or release date located. CubeSuite and generic updater versions are not H8 firmware; update span unknown. [firmware 1](https://www.cuvave.com/download) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No interval pitch shifter, octave or harmonizer in the enumerated H8 library: 10 amps, chorus/phaser, delay, hall reverb and cabinet IRs. Chorus modulation and tuner pitch detection do not establish transposition. [pitch 1](https://www.cuvave.com/product?id=h8) [pitch 2](https://manuals.plus/sinco-intelligent-technology/h8-multi-effects-headphone-guitar-amplifier-manual) |
+| Pitch / preset recall | 10 factory-filled overwriteable memories total. Edited sound saves back to the selected location; not ten factory plus ten user slots. |
+| Pitch / DSP resources | Fixed amp → chorus/phaser → delay → reverb → cabinet chain. Chorus and phaser are alternatives in one MOD stage. No freely allocated pitch slots or published DSP percentage in checked sources. |
+| Pitch / qualifications | No pitch algorithm documented; polyphonic/monophonic interval-shifting classification not applicable to the listed effects. Do not import Zoom H8 recorder firmware or M-VAVE Pocket Amp features. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Manufacturer H8 product](https://www.cuvave.com/product?id=h8) — H8-specific effect inventory and ten editable/overwriteable presets; generic software/firmware heading is not an H8 release record. (Manufacturer search-indexed product text; direct live reader returned page shell).
+- [M-VAVE download center](https://www.cuvave.com/download) — H8 in CubeSuite PC support; no H8-specific device firmware among listed releases. (Manufacturer current download index web text).
+- [Sinco H8 original numbered manual transcription](https://manuals.plus/sinco-intelligent-technology/h8-multi-effects-headphone-guitar-amplifier-manual) — Fixed chain, chorus/phaser MOD alternatives, 10 memories and same-location overwrite rule. No interval-shifting effect enumerated. (Manufacturer-authored manual mirrored by Manuals+; original numbered instructions, not generated FAQ/reformatted manual).
+- [Sinco H8 certification exhibits](https://fccid.io/2ARCPH8) — 2ARCP-H8 original-equipment grant March 5, 2022; certification date not retail launch. (FCC grant and manufacturer filing index mirrored by FCCID.io).
+
+<!-- firmware-pitch:CUVAVE::H8 ends -->
+
 CUVAVE/M-VAVE H8 headphone-format guitar multi-effects, not MINI-X or Pocket Amp. Consolidated **2026-10-17**; existing ownership retained without private receipts or another unique record.
 
 <!-- CUVAVE-H8 source begins -->

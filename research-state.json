@@ -184804,10 +184804,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "CUVAVE::H8": {
+        "model_key": "CUVAVE::H8",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.cuvave.com/product?id=h8",
+            "https://fccid.io/2ARCPH8"
+          ],
+          "note": "No dated manufacturer retail launch located. FCC original-equipment grant dated March 5, 2022 is certification evidence, not first shipment; seller year claims not promoted to a release date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.cuvave.com/download"
+          ],
+          "note": "Manufacturer download center lists H8 under CubeSuite PC support, not its device-firmware entries. No H8-specific public version or release date located. CubeSuite and generic updater versions are not H8 firmware; update span unknown."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No interval pitch shifter, octave or harmonizer in the enumerated H8 library: 10 amps, chorus/phaser, delay, hall reverb and cabinet IRs. Chorus modulation and tuner pitch detection do not establish transposition.",
+          "preset": "10 factory-filled overwriteable memories total. Edited sound saves back to the selected location; not ten factory plus ten user slots.",
+          "dsp": "Fixed amp → chorus/phaser → delay → reverb → cabinet chain. Chorus and phaser are alternatives in one MOD stage. No freely allocated pitch slots or published DSP percentage in checked sources.",
+          "measurements": [],
+          "source_urls": [
+            "https://www.cuvave.com/product?id=h8",
+            "https://manuals.plus/sinco-intelligent-technology/h8-multi-effects-headphone-guitar-amplifier-manual"
+          ],
+          "notes": [
+            "No pitch algorithm documented; polyphonic/monophonic interval-shifting classification not applicable to the listed effects. Do not import Zoom H8 recorder firmware or M-VAVE Pocket Amp features."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.cuvave.com/product?id=h8",
+            "title": "Manufacturer H8 product",
+            "access": "Manufacturer search-indexed product text; direct live reader returned page shell",
+            "evidence": "H8-specific effect inventory and ten editable/overwriteable presets; generic software/firmware heading is not an H8 release record."
+          },
+          {
+            "url": "https://www.cuvave.com/download",
+            "title": "M-VAVE download center",
+            "access": "Manufacturer current download index web text",
+            "evidence": "H8 in CubeSuite PC support; no H8-specific device firmware among listed releases."
+          },
+          {
+            "url": "https://manuals.plus/sinco-intelligent-technology/h8-multi-effects-headphone-guitar-amplifier-manual",
+            "title": "Sinco H8 original numbered manual transcription",
+            "access": "Manufacturer-authored manual mirrored by Manuals+; original numbered instructions, not generated FAQ/reformatted manual",
+            "evidence": "Fixed chain, chorus/phaser MOD alternatives, 10 memories and same-location overwrite rule. No interval-shifting effect enumerated."
+          },
+          {
+            "url": "https://fccid.io/2ARCPH8",
+            "title": "Sinco H8 certification exhibits",
+            "access": "FCC grant and manufacturer filing index mirrored by FCCID.io",
+            "evidence": "2ARCP-H8 original-equipment grant March 5, 2022; certification date not retail launch."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "CUVAVE::H8",
       "Darkglass::Anagram",
       "DemonFX::Dual Mod Workstation",
       "DigiTech::BP355",
@@ -185139,12 +185204,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 72,
-    "last_model": "BOSS::VE-8",
-    "last_commit_parent": "b6aafacbe6e21c2fcce41ba06572c8d9ef7f0060",
+    "completed_model_count": 73,
+    "last_model": "CUVAVE::H8",
+    "last_commit_parent": "1ef3cbc726956d59c8f81b25f70eedeadb60013d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "CUVAVE::H8",
       "Darkglass::Anagram",
       "DemonFX::Dual Mod Workstation",
       "DigiTech::BP355",
@@ -185475,7 +185539,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 72,
+    "pitch_completed_model_count": 73,
     "supplemental_model_count": 0
   }
 }
