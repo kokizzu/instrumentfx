@@ -167,6 +167,32 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 ## GEM BOX III
 
+<!-- firmware-pitch:JOYO::GEM BOX III begins -->
+### Firmware and pitch audit — JOYO GEM BOX III
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. First hardware launch/shipment date not established. Manual upload dates and Windows/Mac package dates are not device release dates. [launch 1](https://www.joyoaudio.com/product/85.html?productCateId=76) [launch 2](https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor) |
+| Firmware / latest verification | Not verified — Unverified. Updating is supported, but current device firmware/version history not verified. Global index labels a Windows archive JOYO GEM BOX III V1.1 FOR WIN.rar with June 15, 2026 upload date; the listing does not identify V1.1 as device firmware. Original manual is VERSION 1.0.0 and contains historical system-screen examples, not evidence of latest firmware. No duration calculated from software/upload labels. [firmware 1](https://www.joyoaudio.com/product/85.html?productCateId=76) [firmware 2](https://www.joyoaudio.co.uk/support/Gem-Box-3-III--Software) [firmware 3](https://ltm-music.ru/upload/files/joyo_gem_box_iii.pdf) [firmware 4](https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD 9 Pitch Shift: dry-signal pitch shifter, described as simulating classic whammy; MOD 10 Detune: fine pitch adjustment. Neither own manual nor exact-model effect list states polyphonic input tracking. [pitch 1](https://ltm-music.ru/upload/files/joyo_gem_box_iii.pdf) [pitch 2](https://www.joyoaudio.co.uk/support/Product-Manuals?journal_blog_post_id=113) [pitch 3](https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor) |
+| Pitch / preset recall | 300 editable patch slots; nine rearrangeable effect modules. Patch storage count is not simultaneous pitch-algorithm capacity. |
+| Pitch / DSP resources | Pitch Shift and Detune are alternative choices in the single MOD module among nine modules (FX/COMP, DS/OD, AMP, CAB, NS, EQ, MOD, DELAY, REVERB). No per-algorithm CPU percentage or DSP-load meter documented. Module occupancy is not 1/9 processor usage. |
+| Pitch / qualifications | No hardware tracking/latency measurement; no pitch interval range or polyphonic drop-tune performance inferred from original GEM BOX, II or K8. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [JOYO GEM BOX III global product/download index](https://www.joyoaudio.com/product/85.html?productCateId=76) — Windows V1.1 archive listing dated June 15, 2026; manual November 22, 2019 and Mac package April 14, 2020 are upload labels, not verified hardware firmware releases. (Indexed exact-model manufacturer download text read; direct page retrieval timed out).
+- [JOYO UK GEM BOX III product page](https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor) — Nine rearrangeable modules, 157 types, 300 patches; USB editing/audio and firmware updating support, without current device firmware identifier. (Exact-model regional product page read).
+- [JOYO UK GEM BOX III software and presets](https://www.joyoaudio.co.uk/support/Gem-Box-3-III--Software) — Windows/Mac software and presets; no explicit device firmware release history established. (Regional support page read).
+- [JOYO GEM BOX III master effect list](https://www.joyoaudio.co.uk/support/Product-Manuals?journal_blog_post_id=113) — Modulation section names Pitch Shift and Detune; no polyphony or percentage specification. (Exact-model regional effect table read).
+- [JOYO GEM BOX III owner manual VERSION 1.0.0](https://ltm-music.ru/upload/files/joyo_gem_box_iii.pdf) — Exact III/JOYO cover, MOD 9 Pitch Shift and MOD 10 Detune descriptions. Manual version is historical, not current firmware proof. (Original 36-page JOYO manual mirrored by LTM; SHA256 82a46802bcc5da444de8ddea8f3bf728f483c23d33edddfbed778f63838552d4; cover and printed page 31 visually inspected).
+
+<!-- firmware-pitch:JOYO::GEM BOX III ends -->
+
 **Technical/price review: 2026-10-14. Partial.** Not III LE, II or K8. Current JOYO page was re-found on 2026-10-15, but all older observations retain their original date and revision limits.
 
 <!-- comparison evidence begins -->

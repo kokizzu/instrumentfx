@@ -178514,7 +178514,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf",
+    "requested_url": "https://ltm-music.ru/upload/files/joyo_gem_box_iii.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0,
     "text_pages": [
@@ -189110,6 +189110,82 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "JOYO::GEM BOX III": {
+        "model_key": "JOYO::GEM BOX III",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.joyoaudio.com/product/85.html?productCateId=76",
+            "https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor"
+          ],
+          "note": "First hardware launch/shipment date not established. Manual upload dates and Windows/Mac package dates are not device release dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.joyoaudio.com/product/85.html?productCateId=76",
+            "https://www.joyoaudio.co.uk/support/Gem-Box-3-III--Software",
+            "https://ltm-music.ru/upload/files/joyo_gem_box_iii.pdf",
+            "https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor"
+          ],
+          "note": "Updating is supported, but current device firmware/version history not verified. Global index labels a Windows archive JOYO GEM BOX III V1.1 FOR WIN.rar with June 15, 2026 upload date; the listing does not identify V1.1 as device firmware. Original manual is VERSION 1.0.0 and contains historical system-screen examples, not evidence of latest firmware. No duration calculated from software/upload labels."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD 9 Pitch Shift: dry-signal pitch shifter, described as simulating classic whammy; MOD 10 Detune: fine pitch adjustment. Neither own manual nor exact-model effect list states polyphonic input tracking.",
+          "preset": "300 editable patch slots; nine rearrangeable effect modules. Patch storage count is not simultaneous pitch-algorithm capacity.",
+          "dsp": "Pitch Shift and Detune are alternative choices in the single MOD module among nine modules (FX/COMP, DS/OD, AMP, CAB, NS, EQ, MOD, DELAY, REVERB). No per-algorithm CPU percentage or DSP-load meter documented. Module occupancy is not 1/9 processor usage.",
+          "source_urls": [
+            "https://ltm-music.ru/upload/files/joyo_gem_box_iii.pdf",
+            "https://www.joyoaudio.co.uk/support/Product-Manuals?journal_blog_post_id=113",
+            "https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor"
+          ],
+          "measurements": [],
+          "notes": [
+            "No hardware tracking/latency measurement; no pitch interval range or polyphonic drop-tune performance inferred from original GEM BOX, II or K8."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.joyoaudio.com/product/85.html?productCateId=76",
+            "title": "JOYO GEM BOX III global product/download index",
+            "access": "Indexed exact-model manufacturer download text read; direct page retrieval timed out",
+            "evidence": "Windows V1.1 archive listing dated June 15, 2026; manual November 22, 2019 and Mac package April 14, 2020 are upload labels, not verified hardware firmware releases."
+          },
+          {
+            "url": "https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor",
+            "title": "JOYO UK GEM BOX III product page",
+            "access": "Exact-model regional product page read",
+            "evidence": "Nine rearrangeable modules, 157 types, 300 patches; USB editing/audio and firmware updating support, without current device firmware identifier."
+          },
+          {
+            "url": "https://www.joyoaudio.co.uk/support/Gem-Box-3-III--Software",
+            "title": "JOYO UK GEM BOX III software and presets",
+            "access": "Regional support page read",
+            "evidence": "Windows/Mac software and presets; no explicit device firmware release history established."
+          },
+          {
+            "url": "https://www.joyoaudio.co.uk/support/Product-Manuals?journal_blog_post_id=113",
+            "title": "JOYO GEM BOX III master effect list",
+            "access": "Exact-model regional effect table read",
+            "evidence": "Modulation section names Pitch Shift and Detune; no polyphony or percentage specification."
+          },
+          {
+            "url": "https://ltm-music.ru/upload/files/joyo_gem_box_iii.pdf",
+            "title": "JOYO GEM BOX III owner manual VERSION 1.0.0",
+            "access": "Original 36-page JOYO manual mirrored by LTM; SHA256 82a46802bcc5da444de8ddea8f3bf728f483c23d33edddfbed778f63838552d4; cover and printed page 31 visually inspected",
+            "evidence": "Exact III/JOYO cover, MOD 9 Pitch Shift and MOD 10 Detune descriptions. Manual version is historical, not current firmware proof."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -189123,7 +189199,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "JOYO::GEM BOX III",
       "JOYO::R-16 Vocal Lab",
       "JOYO::Tone Chain TC-1",
       "JOYO::Tone Chain TC-2",
@@ -189390,9 +189465,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 127,
-    "last_model": "JOYO::GEM BOX II",
-    "last_commit_parent": "67ff308d919975ff3c06a3b856f68ea49cff1546",
+    "completed_model_count": 128,
+    "last_model": "JOYO::GEM BOX III",
+    "last_commit_parent": "16e15ead82f4cc14edf6b7bb29e57cea41b5f636",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -189405,7 +189480,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "JOYO::GEM BOX III",
       "JOYO::R-16 Vocal Lab",
       "JOYO::Tone Chain TC-1",
       "JOYO::Tone Chain TC-2",
@@ -189671,7 +189745,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 127,
+    "pitch_completed_model_count": 128,
     "supplemental_model_count": 0
   },
   "model_images": {
