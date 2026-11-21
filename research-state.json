@@ -192457,6 +192457,78 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Korg::PANDORA stomp": {
+        "model_key": "Korg::PANDORA stomp",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2013-09-04",
+          "precision": "day",
+          "kind": "announcement_proxy",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=kdfz5lIgoOU"
+          ],
+          "note": "Official KORG introduction video published on this date; exact first retail shipment unresolved. This is PANDORA stomp, not the 1995 original Pandora."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/0/246/",
+            "https://www.korg.com/us/support/download/software/0/246/1464/"
+          ],
+          "note": "No device firmware package located. Sound Editor listing 1.1 dated 2015-06-01 describes mini/Stomp editor 1.1.0, not device firmware; USB-MIDI drivers are also separate."
+        },
+        "pitch": {
+          "status": "documented_monophonic",
+          "algorithms": "Intelligent Pitch Shifter explicitly requires individual notes and cannot harmonize chords. PITCH1–3 offer fixed shifts/detune, but their input polyphony is unverified. AUX transposition is a separate ±1-octave practice function with mono output.",
+          "preset": "200 writable user programs (000–199), 200 read-only presets (200–399). Save edited pitch effects with WRITE before program changes or power-off. AUX pitch is Utility/global, retained across power-off, not per-program pitch recall.",
+          "dsp": "Fixed MOD category selects pitch or intelligent harmony instead of another MOD effect; no concurrent independent pitch/harmony blocks established. Maximum seven simultaneous effects overall. Numerical pitch DSP percentage not located.",
+          "source_urls": [
+            "https://cdn.korg.com/us/support/download/files/db0e40ab6d793d1df3c83dd801e5657c.pdf",
+            "https://www.korg.com/us/products/effects/pandora_stomp/page_3.php"
+          ],
+          "measurements": [],
+          "notes": [
+            "Monophonic classification applies to intelligent harmony; do not transfer its chord restriction to PITCH1–3 or infer polyphonic performance for them. No hardware tracking test performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=kdfz5lIgoOU",
+            "title": "KORG — Pandora Stomp introduction",
+            "access": "Official channel indexed publication and description read; direct video fetch failed",
+            "evidence": "Published 2013-09-04; official introduction distinguishes stomp format."
+          },
+          {
+            "url": "https://www.korg.com/us/support/download/product/0/246/",
+            "title": "PANDORA stomp downloads",
+            "access": "Manufacturer exact-model page checked; page body sparse",
+            "evidence": "Support identity checked; no device-firmware release located."
+          },
+          {
+            "url": "https://www.korg.com/us/support/download/software/0/246/1464/",
+            "title": "PANDORA stomp Sound Editor",
+            "access": "Manufacturer software page read",
+            "evidence": "Version listing 1.1, 2015-06-01; description mini/Stomp Sound Editor 1.1.0."
+          },
+          {
+            "url": "https://cdn.korg.com/us/support/download/files/db0e40ab6d793d1df3c83dd801e5657c.pdf",
+            "title": "PANDORA stomp Owner’s Manual EFGS2",
+            "access": "Manufacturer original PDF text read; reversed word order interpreted by section",
+            "evidence": "Printed pp19–24,32–34: WRITE, global AUX pitch and MOD harmony restrictions."
+          },
+          {
+            "url": "https://www.korg.com/us/products/effects/pandora_stomp/page_3.php",
+            "title": "PANDORA stomp specifications",
+            "access": "Manufacturer product specification read",
+            "evidence": "Maximum seven simultaneous effects; 200 user and 200 preset programs."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -192466,7 +192538,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::PANDORA stomp",
       "LEKATO::ME-01",
       "Lexicon::MPX100",
       "Lexicon::MX200",
@@ -192689,9 +192760,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 175,
-    "last_model": "Korg::AX30G",
-    "last_commit_parent": "2a585c0e67ba38f77deda542ea689e5f184a3ea2",
+    "completed_model_count": 176,
+    "last_model": "Korg::PANDORA stomp",
+    "last_commit_parent": "49154dcf6fab3657a67c6d0a505f07f125715c90",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -192700,7 +192771,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::PANDORA stomp",
       "LEKATO::ME-01",
       "Lexicon::MPX100",
       "Lexicon::MX200",
@@ -192922,7 +192992,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 175,
+    "pitch_completed_model_count": 176,
     "supplemental_model_count": 0
   },
   "model_images": {

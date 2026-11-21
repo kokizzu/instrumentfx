@@ -1747,6 +1747,32 @@ Remaining: complete expanded-name transcription, initial User slot-by-slot filli
 
 ## PANDORA stomp
 
+<!-- firmware-pitch:Korg::PANDORA stomp begins -->
+### Firmware and pitch audit — Korg PANDORA stomp
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2013-09-04 (announcement proxy). Official KORG introduction video published on this date; exact first retail shipment unresolved. This is PANDORA stomp, not the 1995 original Pandora. [launch 1](https://www.youtube.com/watch?v=kdfz5lIgoOU) |
+| Firmware / latest verification | Not verified — No public firmware located. No device firmware package located. Sound Editor listing 1.1 dated 2015-06-01 describes mini/Stomp editor 1.1.0, not device firmware; USB-MIDI drivers are also separate. [firmware 1](https://www.korg.com/us/support/download/product/0/246/) [firmware 2](https://www.korg.com/us/support/download/software/0/246/1464/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. Intelligent Pitch Shifter explicitly requires individual notes and cannot harmonize chords. PITCH1–3 offer fixed shifts/detune, but their input polyphony is unverified. AUX transposition is a separate ±1-octave practice function with mono output. [pitch 1](https://cdn.korg.com/us/support/download/files/db0e40ab6d793d1df3c83dd801e5657c.pdf) [pitch 2](https://www.korg.com/us/products/effects/pandora_stomp/page_3.php) |
+| Pitch / preset recall | 200 writable user programs (000–199), 200 read-only presets (200–399). Save edited pitch effects with WRITE before program changes or power-off. AUX pitch is Utility/global, retained across power-off, not per-program pitch recall. |
+| Pitch / DSP resources | Fixed MOD category selects pitch or intelligent harmony instead of another MOD effect; no concurrent independent pitch/harmony blocks established. Maximum seven simultaneous effects overall. Numerical pitch DSP percentage not located. |
+| Pitch / qualifications | Monophonic classification applies to intelligent harmony; do not transfer its chord restriction to PITCH1–3 or infer polyphonic performance for them. No hardware tracking test performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [KORG — Pandora Stomp introduction](https://www.youtube.com/watch?v=kdfz5lIgoOU) — Published 2013-09-04; official introduction distinguishes stomp format. (Official channel indexed publication and description read; direct video fetch failed).
+- [PANDORA stomp downloads](https://www.korg.com/us/support/download/product/0/246/) — Support identity checked; no device-firmware release located. (Manufacturer exact-model page checked; page body sparse).
+- [PANDORA stomp Sound Editor](https://www.korg.com/us/support/download/software/0/246/1464/) — Version listing 1.1, 2015-06-01; description mini/Stomp Sound Editor 1.1.0. (Manufacturer software page read).
+- [PANDORA stomp Owner’s Manual EFGS2](https://cdn.korg.com/us/support/download/files/db0e40ab6d793d1df3c83dd801e5657c.pdf) — Printed pp19–24,32–34: WRITE, global AUX pitch and MOD harmony restrictions. (Manufacturer original PDF text read; reversed word order interpreted by section).
+- [PANDORA stomp specifications](https://www.korg.com/us/products/effects/pandora_stomp/page_3.php) — Maximum seven simultaneous effects; 200 user and 200 preset programs. (Manufacturer product specification read).
+
+<!-- firmware-pitch:Korg::PANDORA stomp ends -->
+
 Shared guitar/bass multi-effects;not PANDORA mini/PX5D. Checked2026-10-17;partial. Ivory is a colour variant,not a separate processor. Ownership unestablished.
 
 <!-- comparison evidence begins -->
