@@ -199760,10 +199760,100 @@
           "label": "1.32 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Kemper::PROFILER Stage MK2": {
+        "model_key": "Kemper::PROFILER Stage MK2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2025-05-28",
+          "precision": "day",
+          "kind": "Public announcement/immediate-availability report; not individual shipment",
+          "source_urls": [
+            "https://www.kemper-amps.com/news/95/Introducing-the-all-new-KEMPER-PROFILER-MK-2",
+            "https://www.bonedo.de/artikel/der-kemper-profiler-mk-2-ist-da/"
+          ],
+          "note": "Official MK2-series announcement includes Stage and immediate availability; contemporary 28 May 2025 coverage explicitly names Stage MK2. Original Stage launch is not assigned to this revision; individual shipment date is not established."
+        },
+        "firmware": {
+          "version": "14.2.2",
+          "date": "2026-09-22",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/",
+            "https://www.kemper-amps.com/downloads"
+          ],
+          "note": "Latest located official release announcement fixes S/PDIF Output Volume affecting Noise Gate 2:1 and improves Rig Manager interaction. Requires Rig Manager 4.3.13 desktop, 1.9.25 iOS or 1.9.42 Android/Fire OS. Dynamic downloads listing exposed no version entries, so a newer unindexed build is not ruled out."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Transpose, Pedal Pitch, Pedal Vinyl Stop, Chromatic Pitch, Harmonic Pitch and Analog Octaver are listed for Stage. Chromatic processing supports chords; Harmonic Pitch, Analog Octaver and formant-processing modes are single-note functions. Do not treat every pitch type as polyphonic.",
+          "preset": "Pitch settings belong to stored Rigs/Performances; MK2 Transpose is also a Fixed FX function. Manufacturer documents Performance switching and Morphing. MIDI CC4 controls Pitch Pedal; pedal linkage is documented in manual 13.0.",
+          "dsp": "A flexible pitch effect occupies one selected flexible module. Stage MK2 provides eight flexible modules plus fixed processing; fixed Transpose preserves flexible slots. No per-algorithm DSP percentage located. Product-page18-effect headline versus20 total serial blocks in addendum use different scopes and remain qualified; neither is a CPU utilization measurement.",
+          "source_urls": [
+            "https://www.kemper-amps.com/store/us/profiler-stage-b.html",
+            "https://www.kemper-amps.com/effects/pitch-shifter",
+            "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manual 13.0 explicitly covers MK2, revised May 2025; it predates OS14.2.2 and is not proof of a complete current algorithm census.",
+            "Smooth Chords trades smoother chords for more latency; mono audio routing before the stack is distinct from monophonic note tracking."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.kemper-amps.com/store/us/profiler-stage-b.html",
+            "title": "Kemper PROFILER Stage MK2 official product",
+            "access": "readable official exact-model page",
+            "evidence": "Stage MK2 floorboard, Performance switching, Morphing, four expression/switch inputs and eight flexible effects; headline total-effect scope differs from addendum and is preserved."
+          },
+          {
+            "url": "https://www.kemper-amps.com/news/95/Introducing-the-all-new-KEMPER-PROFILER-MK-2",
+            "title": "Kemper introducing PROFILER MK2",
+            "access": "readable official undated announcement",
+            "evidence": "Head included in immediately available MK2 series; additional fixed effects and 20 total audio blocks with broader counting convention."
+          },
+          {
+            "url": "https://www.bonedo.de/artikel/der-kemper-profiler-mk-2-ist-da/",
+            "title": "Bonedo contemporary MK2 announcement 28 May2025",
+            "access": "dated contemporary announcement coverage",
+            "evidence": "28.05.2025 coverage corroborates public introduction date; not used for pitch or hardware technical claims."
+          },
+          {
+            "url": "https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/",
+            "title": "Kemper official OS14.2.2 release announcement",
+            "access": "readable administrator official post",
+            "evidence": "22 September2026 release; S/PDIF/Noise Gate2:1 fix and Rig Manager minimum versions."
+          },
+          {
+            "url": "https://www.kemper-amps.com/downloads",
+            "title": "Kemper official downloads",
+            "access": "readable shell; dynamic version list unavailable",
+            "evidence": "Cannot independently enumerate current firmware build list from returned page."
+          },
+          {
+            "url": "https://www.kemper-amps.com/effects/pitch-shifter",
+            "title": "Kemper official pitch-shifter effects",
+            "access": "readable official effects matrix",
+            "evidence": "Six pitch effect types for Head/Rack; describes chord tracking latency and scale-aware harmony."
+          },
+          {
+            "url": "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+            "title": "Kemper manufacturer Main Manual13.0 German",
+            "access": "manufacturer-authored PDF on mirror,438pages; May2025 revision and MK2 sections verified",
+            "evidence": "Printed pp256–264,290: Smooth Chords latency, formant single-note restriction, MK2 Fixed Transpose, CC4 Pedal Pitch, two-voice Chromatic Pitch, single-note Harmonic Pitch and polyphonic chromatic pitch-delay input."
+          }
+        ],
+        "duration": {
+          "minimum_days": 482,
+          "maximum_days": 482,
+          "label": "1.32 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Kemper::PROFILER Stage MK2",
       "LEKATO::ME-01",
       "Lexicon::MPX100",
       "Lexicon::MX200",
@@ -199906,12 +199996,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 261,
-    "last_model": "Kemper::PROFILER Rack MK2",
-    "last_commit_parent": "92b156ff9497a33fbb0fa92c07794342d86b1676",
+    "completed_model_count": 262,
+    "last_model": "Kemper::PROFILER Stage MK2",
+    "last_commit_parent": "dc85c3147cd6b575f95c3014609fbbac9300522d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Kemper::PROFILER Stage MK2",
       "LEKATO::ME-01",
       "Lexicon::MPX100",
       "Lexicon::MX200",
@@ -200053,7 +200142,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 261,
+    "pitch_completed_model_count": 262,
     "supplemental_model_count": 0
   },
   "model_images": {
