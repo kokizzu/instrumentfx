@@ -1974,6 +1974,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GE300 ends -->
 
+<!-- model-images:MOOER::GE300 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GE300 — powered-on top view**
+
+[![MOOER GE300 — powered-on top view](https://r2.gear4music.com/media/48/481490/1200/preview.jpg)](https://r2.gear4music.com/media/48/481490/1200/preview.jpg)
+
+[Image source](https://www.gear4music.com/us/en/Guitar-and-Bass/Mooer-GE300-Multi-Effects-Pedal/2UHQ). Complete original GE300 from near overhead with slight perspective; illuminated LCD shows 01B UK BOX, with lit footswitch rings and effect buttons. All ten footswitches and expression pedal visible. The displayed whole-preset CPU total is not isolated pitch cost.
+
+**MOOER GE300 — complete rear connections**
+
+[![MOOER GE300 — complete rear connections](https://r2.gear4music.com/media/48/481493/1200/preview.jpg)](https://r2.gear4music.com/media/48/481493/1200/preview.jpg)
+
+[Image source](https://www.gear4music.com/us/en/Guitar-and-Bass/Mooer-GE300-Multi-Effects-Pedal/2UHQ). Full-width original GE300 rear panel: AUX, EXP2, instrument input and guitar/line switch, stereo send/return, stereo jack outputs, headphones, stereo XLR and ground lift, MIDI IN and OUT/THRU, USB Type-B, power switch and DC input. Some small right-hand legends are low contrast; all connector positions visible.
+
+</details>
+<!-- model-images:MOOER::GE300 ends -->
+
+
 **Checked 2026-10-16; partial exact-model profile.** Original GE300, not GE300 Lite. Original manufacturer manual (2019 document, V1.1.0 screen examples) and current model-specific v5.1.4 notes are kept separate. Guitar multi-effects including polyphonic synth; bass suitability remains unclassified pending explicit exact-model evidence. [G][M][F]
 
 ### GE300 — hardware and expression
