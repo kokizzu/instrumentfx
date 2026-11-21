@@ -41,6 +41,26 @@ Sources checked:
 
 <!-- firmware-pitch:HeadRush::Core ends -->
 
+<!-- model-images:HeadRush::Core begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**HeadRush Core powered-on top-down product view**
+
+[![HeadRush Core powered-on top-down product view](https://www.headrushfx.com/assets/images/pdp/core/carousel-02.webp)](https://www.headrushfx.com/assets/images/pdp/core/carousel-02.webp)
+
+[Image source](https://www.headrushfx.com/products/core/index.html). Manufacturer product view from above; active Get a Record Deal rig display and five colored illuminated footswitch bars visible. Screen CPU reading covers the pictured rig, not isolated Drop Tune DSP cost. Despite the page’s erroneous Flex Prime Gallery alt text, the pictured chassis is labeled CORE.
+
+**HeadRush Core rear connections**
+
+[![HeadRush Core rear connections](https://www.headrushfx.com/assets/images/pdp/core/carousel-03.webp)](https://www.headrushfx.com/assets/images/pdp/core/carousel-03.webp)
+
+[Image source](https://www.headrushfx.com/products/core/index.html). Clear manufacturer rear view: MIC GAIN/combo MIC INPUT,AUX,GUITAR IN,EXT AMP,EXPR,TOE,FX SEND/RETURN,PHONES,paired jack/XLR outputs,separate MIDI IN and OUT/THRU,USB-B/USB-A,DC IN and POWER. DC label shows12V3.0A center-positive barrel input, not IEC mains; this confirms the photographed hardware while preserving the contradictory FAQ as a source error. The visible USB cable retainer is not another data connector.
+
+</details>
+<!-- model-images:HeadRush::Core ends -->
+
+
 **Technical and original price observations:2026-10-14.** Guitar/bass/vocal multi-effects; **large**, no built-in expression. This is Core, not Prime, Flex Prime, MX5 or Gigboard. Partial record, not independently tested. The complete earlier Core finding is consolidated here; its stale next-model instruction is superseded by the root ledger and current exclusions.
 
 <!-- comparison evidence begins -->

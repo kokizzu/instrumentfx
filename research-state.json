@@ -189314,11 +189314,35 @@
             "sha256": "cbb96715a6643fdfb21bcfa9b0428c4f5c098f3d21375d5f42d1341193d8d8cd"
           }
         }
+      },
+      "HeadRush::Core": {
+        "model_key": "HeadRush::Core",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.headrushfx.com/assets/images/pdp/core/carousel-02.webp",
+            "source_url": "https://www.headrushfx.com/products/core/index.html",
+            "caption": "HeadRush Core powered-on top-down product view",
+            "note": "Manufacturer product view from above; active Get a Record Deal rig display and five colored illuminated footswitch bars visible. Screen CPU reading covers the pictured rig, not isolated Drop Tune DSP cost. Despite the page’s erroneous Flex Prime Gallery alt text, the pictured chassis is labeled CORE.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "028bdfe30adc3cdefc0ff055a2bd55cb9c18b9d75053ce37acd7bea8e1cbe218"
+          },
+          "rear": {
+            "image_url": "https://www.headrushfx.com/assets/images/pdp/core/carousel-03.webp",
+            "source_url": "https://www.headrushfx.com/products/core/index.html",
+            "caption": "HeadRush Core rear connections",
+            "note": "Clear manufacturer rear view: MIC GAIN/combo MIC INPUT,AUX,GUITAR IN,EXT AMP,EXPR,TOE,FX SEND/RETURN,PHONES,paired jack/XLR outputs,separate MIDI IN and OUT/THRU,USB-B/USB-A,DC IN and POWER. DC label shows12V3.0A center-positive barrel input, not IEC mains; this confirms the photographed hardware while preserving the contradictory FAQ as a source error. The visible USB cable retainer is not another data connector.",
+            "visual_checked": true,
+            "sha256": "e7c206588d6b0b5a1959f80616a55e40ee4c47f26a1744bb127366091ee551a9"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Flamma::FX50"
+    "last_model": "HeadRush::Core"
   }
 }
