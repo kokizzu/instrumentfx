@@ -190925,11 +190925,35 @@
             "sha256": "2ec0135410c1103a7deead522e8a10f69866ac421e16b9731f0aa3189daa9ed6"
           }
         }
+      },
+      "JOYO::Tone Chain TC-2": {
+        "model_key": "JOYO::Tone Chain TC-2",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/TC-2/JOYO-Tonechain-2%20%285%29-500x500h.jpg",
+            "source_url": "https://www.joyoaudio.co.uk/Tonechain-TC-2",
+            "caption": "JOYO TC-2 powered-on angled view — left edge cropped",
+            "note": "Published photograph shows blue TAP/DELAY, red DS and yellow OD footswitch-ring illumination. Angled view with the left enclosure edge cropped; tuner screen is dark, so illumination is established by the switch rings. Not exact whole-unit overhead. The [whole-unit unlit top/front view](https://www.joyoaudio.co.uk/image/cache/catalog/TC-2/JOYO-Tonechain-2-Metal%20%282%29-500x500.jpg) shows all twelve rotaries and four footswitches. Powered-on exact overhead remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "ce74f81b9de9b1e70758520f05821eed080ba2df486f4ce18ae756d7bd112e2b"
+          },
+          "rear": {
+            "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/TC-2/JOYO-Tonechain-2%20%282%29-500x500.jpg",
+            "source_url": "https://www.joyoaudio.co.uk/Tonechain-TC-2",
+            "caption": "JOYO TC-2 rear and dual-XLR side connections",
+            "note": "Rear-angle photograph labels SEND/RETURN, R and L/MONO jack outputs, CAB SIM pushbutton, AUX IN and DC9V; both XLR outputs appear on the side. Far-left INPUT is outside this crop and appears in the separately inspected [rear-left view](https://www.joyoaudio.co.uk/image/cache/catalog/TC-2/JOYO-Tonechain-2%20%287%29-500x500.jpg). Own manual supplies complete connector inventory; no USB/MIDI/EXP port shown. Not a firmware-version or powered-operation test.",
+            "visual_checked": true,
+            "sha256": "1f832c571ed60713234cf20c9164379e543f1631b7ab9ecccaa154ef1724f173"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "JOYO::Tone Chain TC-1"
+    "last_model": "JOYO::Tone Chain TC-2"
   }
 }
