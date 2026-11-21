@@ -166,6 +166,31 @@ Documented guitar input remains valid;no onboard footswitches,hand VALUE/BANK se
 
 ## MIDIverb 4
 
+<!-- firmware-pitch:Alesis::MIDIverb 4 begins -->
+### Firmware and pitch audit — Alesis MIDIverb 4
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No explicit first hardware launch date established. Program-chart copyright1994 and revision6/99 are document dates, not independently verified hardware introduction dates. [launch 1](https://www.alesis.com/products/view/midiverb4.html) [launch 2](https://www.alesis.com/rscdn/982/documents/midiverb4_programchart.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. Official discontinued-product downloads list Reference Manual, Program Chart and SysEx Guide, without a firmware image or dated release history. Manual p64 explains querying the installed version. SysEx guide filename m4syx103.doc is not evidence of device firmware1.03; binary Word body was not readable by this web reader. Service-ROM revisions/updatability remain unresolved. [firmware 1](https://www.alesis.com/products/view/midiverb4.html) [firmware 2](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Stereo Pitch Shifter: +/-1 octave in semitone steps, fine adjustment +/-1 semitone; two discrete shifters with independent pan/level and delay/feedback. Separate Pitch algorithm used in Pitch:Delay and Pitch:Pitch configurations. Stereo/two voices do not establish input-note polyphony; explicit chord claim not located. [pitch 1](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf) [pitch 2](https://www.alesis.com/products/view/midiverb4.html) |
+| Pitch / preset recall | Yes: STORE to any User00-127. Manual p15 says current edit buffer survives power-off, but choosing another program loses unsaved edits; STORE is needed for durable recall. This differs from MicroVerb4 and must not be copied across models. |
+| Pitch / DSP resources | Manual p37 explicitly calls Pitch less processor-intensive than Stereo Pitch Shifter; no numeric CPU percentage given. Up to three simultaneous effects use predefined configurations, not arbitrary copies. Resource difference is documented qualitatively, not a percentage benchmark. |
+| Pitch / qualifications | No device operated; factory presets, writable programs, MIDI program dumps and device-firmware updates are distinct. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Alesis MIDIverb 4 official product/downloads](https://www.alesis.com/products/view/midiverb4.html) — Discontinued model; three simultaneous effects and +/-1 octave specification; manual/chart/SysEx guide only in download list. (opened).
+- [MIDIverb 4 original Reference Manual](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf) — P37 contrasts lower-resource Pitch with Stereo Pitch Shifter; p15 STORE/edit-buffer retention; p64 installed-version query. (opened_official_pdf_text).
+- [MIDIverb 4 official program chart](https://www.alesis.com/rscdn/982/documents/midiverb4_programchart.pdf) — Copyright1994 and document revision6/99; neither alone establishes the first hardware release. (indexed_manufacturer_pdf_text).
+- [Official MIDIverb4 SysEx Guide link](https://www.alesis.com/rscdn/982/documents/m4syx103.doc) — Linked as SysEx Guide; filename103 not promoted to firmware version; body not inspected. (official_link_identified; body_unsupported_application_msword).
+
+<!-- firmware-pitch:Alesis::MIDIverb 4 ends -->
+
 <!-- comparison evidence begins -->
 Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discontinued [MD-P].
 
