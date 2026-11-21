@@ -885,6 +885,32 @@ Checked **2026-11-06**,same existing [One Two Three Music Store,shop1505062399/i
 
 ## MK-300
 
+<!-- firmware-pitch:M-VAVE::MK-300 begins -->
+### Firmware and pitch audit — M-VAVE MK-300
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer new-product giveaway names April 11–16, 2025, establishing public promotion by April 2025, not an exact first worldwide sale. The oldest recovered firmware entry is April 11, 2025 V56; firmware history alone is not a hardware introduction date. First release and elapsed support span remain unresolved. [launch 1](https://www.youtube.com/watch?v=RqWhBBMlL74) |
+| Firmware / latest verification | V75 — Latest verified. Current manufacturer index and complete decoded original notes agree. V75 adds independent delay/reverb tail modes, contextual FS4 global TAP, incoming MIDI Clock and gate Detect selection; reduces selected reverb/model buffer memory. V73 September 7, 2026 introduces manufacturer-described native NAM A2 and resets GLOB settings. Accepted architectures and simultaneous-model capacity remain unverified. Cached product block still shows V72 May 8; current index and notes take precedence. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt) |
+| Firmware / release date | 2026-10-12 (day precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. V67 October 15, 2025 adds Pitch shifter in FX and changes pitch values to 0…24 / −24…0; note supplies no units. V71 April 24, 2026 adds Whammy and upgrades Octave/Pitch Pro. These names and quality claims do not establish polyphonic/chord tracking, voice count, precise transpose endpoints or pitch latency. No sibling MK-20 limits transferred. [pitch 1](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt) [pitch 2](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf) [pitch 3](https://www.m-vave.com/product?id=mk-300) |
+| Pitch / preset recall | Original manual specifies 160 editable locations with 80 initially factory-filled; newer manufacturer product page says 200 user presets, unresolved. V63 introduces MK300SnapShot; V64 removes independent snapshot pedal parameters and uses normal-mode pedal parameters. Built-in Pedal1 Sync does not establish external Pedal2 Sync or universal global assignment. Firmware-qualified behavior retained in existing detailed sections. |
+| Pitch / DSP resources | No isolated pitch DSP percentage documented. Manual exposes an overall CPU meter and warns load above 90% can cause noise/problems; screenshot values are whole presets, not pitch measurements. Eleven movable modules are DSP-limited; Global EQ also consumes resources. V75 memory/efficiency optimization is not a quantified pitch saving or additional simultaneous blocks. |
+| Pitch / qualifications | Original release notes recovered as inert bytes, strict GB18030: 10,229 bytes, SHA256 f8399ce21189222bf52911d18cd8bf19db1db1b4c3d80150673d11085f40c9c8, 242 lines, V56–V75; identical hash to November 6 recovery. Manufacturer-authored 41-page manual text checked. Older manual has no complete current pitch algorithm parameter table; no device, firmware installation, editor execution or audio test performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Current M-VAVE MK300 firmware listing](https://www.m-vave.com/download) — V75 October 12, 2026; warns V73 resets GLOB settings. (Manufacturer index opened as text).
+- [Original MK300 release history](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt) — V56–V75; version-specific pitch, snapshot, NAM and tail changes. Hash retained. (Bounded repository reader fetched and strictly decoded complete GB18030 text).
+- [Manufacturer MK-300 owner manual](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf) — 160 editable /80 filled, CPU load warning, eleven modules and expression recall qualifications. (Original manufacturer PDF text read; 41 pages).
+- [Manufacturer MK-300 product record](https://www.m-vave.com/product?id=mk-300) — 200 user presets conflicts with original manual; cached V72 not current-index firmware. (Indexed product body; current direct opening returned shell).
+- [M-VAVE new-product MK-300 giveaway](https://www.youtube.com/watch?v=RqWhBBMlL74) — Campaign April 11–16, 2025; not exact worldwide first-sale date. (Search-indexed manufacturer video description).
+
+<!-- firmware-pitch:M-VAVE::MK-300 ends -->
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-14.**

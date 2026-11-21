@@ -197598,6 +197598,80 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "M-VAVE::MK-300": {
+        "model_key": "M-VAVE::MK-300",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unresolved first hardware release",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=RqWhBBMlL74"
+          ],
+          "note": "Manufacturer new-product giveaway names April 11–16, 2025, establishing public promotion by April 2025, not an exact first worldwide sale. The oldest recovered firmware entry is April 11, 2025 V56; firmware history alone is not a hardware introduction date. First release and elapsed support span remain unresolved."
+        },
+        "firmware": {
+          "version": "V75",
+          "date": "2026-10-12",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.m-vave.com/download",
+            "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt"
+          ],
+          "note": "Current manufacturer index and complete decoded original notes agree. V75 adds independent delay/reverb tail modes, contextual FS4 global TAP, incoming MIDI Clock and gate Detect selection; reduces selected reverb/model buffer memory. V73 September 7, 2026 introduces manufacturer-described native NAM A2 and resets GLOB settings. Accepted architectures and simultaneous-model capacity remain unverified. Cached product block still shows V72 May 8; current index and notes take precedence."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "V67 October 15, 2025 adds Pitch shifter in FX and changes pitch values to 0…24 / −24…0; note supplies no units. V71 April 24, 2026 adds Whammy and upgrades Octave/Pitch Pro. These names and quality claims do not establish polyphonic/chord tracking, voice count, precise transpose endpoints or pitch latency. No sibling MK-20 limits transferred.",
+          "preset": "Original manual specifies 160 editable locations with 80 initially factory-filled; newer manufacturer product page says 200 user presets, unresolved. V63 introduces MK300SnapShot; V64 removes independent snapshot pedal parameters and uses normal-mode pedal parameters. Built-in Pedal1 Sync does not establish external Pedal2 Sync or universal global assignment. Firmware-qualified behavior retained in existing detailed sections.",
+          "dsp": "No isolated pitch DSP percentage documented. Manual exposes an overall CPU meter and warns load above 90% can cause noise/problems; screenshot values are whole presets, not pitch measurements. Eleven movable modules are DSP-limited; Global EQ also consumes resources. V75 memory/efficiency optimization is not a quantified pitch saving or additional simultaneous blocks.",
+          "source_urls": [
+            "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt",
+            "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf",
+            "https://www.m-vave.com/product?id=mk-300"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original release notes recovered as inert bytes, strict GB18030: 10,229 bytes, SHA256 f8399ce21189222bf52911d18cd8bf19db1db1b4c3d80150673d11085f40c9c8, 242 lines, V56–V75; identical hash to November 6 recovery.",
+            "Manufacturer-authored 41-page manual text checked. Older manual has no complete current pitch algorithm parameter table; no device, firmware installation, editor execution or audio test performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.m-vave.com/download",
+            "title": "Current M-VAVE MK300 firmware listing",
+            "access": "Manufacturer index opened as text",
+            "evidence": "V75 October 12, 2026; warns V73 resets GLOB settings."
+          },
+          {
+            "url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt",
+            "title": "Original MK300 release history",
+            "access": "Bounded repository reader fetched and strictly decoded complete GB18030 text",
+            "evidence": "V56–V75; version-specific pitch, snapshot, NAM and tail changes. Hash retained."
+          },
+          {
+            "url": "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf",
+            "title": "Manufacturer MK-300 owner manual",
+            "access": "Original manufacturer PDF text read; 41 pages",
+            "evidence": "160 editable /80 filled, CPU load warning, eleven modules and expression recall qualifications."
+          },
+          {
+            "url": "https://www.m-vave.com/product?id=mk-300",
+            "title": "Manufacturer MK-300 product record",
+            "access": "Indexed product body; current direct opening returned shell",
+            "evidence": "200 user presets conflicts with original manual; cached V72 not current-index firmware."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=RqWhBBMlL74",
+            "title": "M-VAVE new-product MK-300 giveaway",
+            "access": "Search-indexed manufacturer video description",
+            "evidence": "Campaign April 11–16, 2025; not exact worldwide first-sale date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -197617,7 +197691,6 @@
       "M-VAVE::CUBE BABY BASS",
       "M-VAVE::CUBE BABY electric",
       "M-VAVE::MINI-X",
-      "M-VAVE::MK-300",
       "M-VAVE::Pocket Amp",
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
@@ -197773,9 +197846,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 232,
-    "last_model": "M-VAVE::TANK MINI",
-    "last_commit_parent": "0c0c667d60c095b5358e50a72c782627be8ad3b9",
+    "completed_model_count": 233,
+    "last_model": "M-VAVE::MK-300",
+    "last_commit_parent": "df4e8ea52ce0d264494d07301f6ebca0a1cde853",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -197794,7 +197867,6 @@
       "M-VAVE::CUBE BABY BASS",
       "M-VAVE::CUBE BABY electric",
       "M-VAVE::MINI-X",
-      "M-VAVE::MK-300",
       "M-VAVE::Pocket Amp",
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
@@ -197949,7 +198021,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 232,
+    "pitch_completed_model_count": 233,
     "supplemental_model_count": 0
   },
   "model_images": {
