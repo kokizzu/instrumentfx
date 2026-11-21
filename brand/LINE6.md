@@ -288,6 +288,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::Floor POD Plus ends -->
 
+<!-- model-images:Line 6::Floor POD Plus begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Floor POD Plus powered-on top-down view**
+
+[![Floor POD Plus powered-on top-down view](https://line6.com/data/l/0a06000fff7845d4de27f2466/image/jpeg/Floor%20PODsupsup%20Plus%20(Top%20Down)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06000fff7845d4de27f2466/image/jpeg/Floor%20PODsupsup%20Plus%20(Top%20Down)%20-%20Lo%20Rez.jpeg)
+
+[Image source](https://line6.com/company/images/?families=1&locale=en_US). Official archive top-down photograph. Red 6A display and A/Tap LEDs visibly illuminated; full control surface and treadle shown.
+
+**Floor POD Plus connection panel**
+
+[![Floor POD Plus connection panel](https://i.ebayimg.com/images/g/GJAAAOSwF-9kvx-W/s-l1600.jpg)](https://i.ebayimg.com/images/g/GJAAAOSwF-9kvx-W/s-l1600.jpg)
+
+[Image source](https://www.ebay.com/itm/115869629601). Seller specimen photograph of connection edge: Amp/Direct switch, stereo outputs, phones, MIDI in/out and power visible. Output-level knob and guitar/Aux input end cropped; not a complete port inventory. Own manual documents omitted inputs.
+
+</details>
+<!-- model-images:Line 6::Floor POD Plus ends -->
+
+
 Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-00-0116RevB,©2009,36pages,sections1,2,3,4. Not original FloorPOD. Bass direct-box use documented below;live-vocal suitability andownership unverified.
 
 | Field | Evidence / gaps |

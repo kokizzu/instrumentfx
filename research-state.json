@@ -192512,11 +192512,35 @@
             "sha256": "823c5345eb9b562ebb9c5a64b02caeaf732620bed90af29cc9220bf8d6ad6b73"
           }
         }
+      },
+      "Line 6::Floor POD Plus": {
+        "model_key": "Line 6::Floor POD Plus",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/l/0a06000fff7845d4de27f2466/image/jpeg/Floor%20PODsupsup%20Plus%20(Top%20Down)%20-%20Lo%20Rez.jpeg",
+            "source_url": "https://line6.com/company/images/?families=1&locale=en_US",
+            "caption": "Floor POD Plus powered-on top-down view",
+            "note": "Official archive top-down photograph. Red 6A display and A/Tap LEDs visibly illuminated; full control surface and treadle shown.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "d0a5e807b93ecfc65e67dd63dd3af6d9300a1f2b502d5a01cc291b1765a55cfb"
+          },
+          "rear": {
+            "image_url": "https://i.ebayimg.com/images/g/GJAAAOSwF-9kvx-W/s-l1600.jpg",
+            "source_url": "https://www.ebay.com/itm/115869629601",
+            "caption": "Floor POD Plus connection panel",
+            "note": "Seller specimen photograph of connection edge: Amp/Direct switch, stereo outputs, phones, MIDI in/out and power visible. Output-level knob and guitar/Aux input end cropped; not a complete port inventory. Own manual documents omitted inputs.",
+            "visual_checked": true,
+            "sha256": "154cefebf9eab3518b44c3777927818569bef6cb893ec0dc29ee4f2c9d449a5f"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::AMPLIFi FX100"
+    "last_model": "Line 6::Floor POD Plus"
   }
 }
