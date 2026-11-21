@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.inmusicbrands.com/HeadRush/gigboard/v2_1_2-0520/Gigboard-User-Guide-v2_1_2.pdf",
+    "requested_url": "https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0,
     "text_pages": [
-      12,
-      13
+      13,
+      14
     ],
     "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
     "index_needle": "features",
@@ -188466,6 +188466,190 @@
           "label": "5.85 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "HeadRush::Pedalboard": {
+        "model_key": "HeadRush::Pedalboard",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2017-01-09",
+          "precision": "day",
+          "kind": "manufacturer_announcement",
+          "source_urls": [
+            "https://musicplayers.com/2017/01/headrush-pedalboard-quad-%C2%AD-core-dsp-amp-and-fx-modeling-with-touchscreen-interface/",
+            "https://celestion.com/our-news/headrush-chooses-celestion-impulse-responses-for-cutting-edge-guitar-fx-and-amp-modeling-pedalboard/"
+          ],
+          "note": "January 9 manufacturer announcement planned Q1 availability; this is announcement-to-update duration, not confirmed shipping-to-update. May 22, 2017 manufacturer statement carried by partner Celestion confirms shipping by that date; first shipment day remains unverified."
+        },
+        "firmware": {
+          "version": "2.7.0",
+          "date": "2024-08-08",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.headrushfx.com/downloads.html",
+            "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf",
+            "https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-"
+          ],
+          "note": "Current exact-model index lists 2.7.0; PDF calls latest 2.7 and dates it August 2024. Manufacturer announcement supplies August 8 launch day. Adds Glorious Drive, White Bass Wah and Ten Freq EQ, plus fixes and DSP optimizations. Guide version 2.1.2 is separate. No hardware updated."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Exact-model catalogue labels Chord Wham polyphonic. Also lists Wham, Harm, Smart Harm, Drop Tune, Octaves, Octaves Up and Detune, plus Pitch Delay/Shimmer. Chord Wham documentation does not establish polyphonic tracking for all algorithms.",
+          "preset": "Rigs save model choices/settings, model presets and hardware assignments. Twelve switches and 11 processing slots are separate from stored-preset capacity; total user-rig ceiling remains unverified.",
+          "dsp": "No isolated pitch DSP percentage or measured cost found in checked manufacturer documentation. Guide specifies 11 rig slots with dual amp/cab exceptions; 1024-sample IRs reduce DSP load. Slot count and quad-core marketing do not quantify pitch cost; Prime/Core 14-slot CPU-meter statements are not assigned to the original Pedalboard.",
+          "source_urls": [
+            "https://www.headrushfx.com/products/pedalboard/index.html",
+            "https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf",
+            "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Version 2.5 history improves lower-pitch tracking of Wham, Harm and Shimmer. No measured latency or chord-tracking test. Product effect list mixes revisions: earlier documented omissions remain preserved rather than assuming the website is a complete 2.7 inventory."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://musicplayers.com/2017/01/headrush-pedalboard-quad-%C2%AD-core-dsp-amp-and-fx-modeling-with-touchscreen-interface/",
+            "title": "HeadRush Pedalboard initial announcement",
+            "access": "Manufacturer release republished by MusicPlayers",
+            "evidence": "January 9, 2017 announcement; planned Q1 availability, not proof of delivery that day."
+          },
+          {
+            "url": "https://www.headrushfx.com/downloads.html",
+            "title": "HeadRush current downloads",
+            "access": "Current manufacturer index read",
+            "evidence": "Exact Pedalboard 2.7.0 updaters and release notes, separate 2.1.2 guide and audio driver."
+          },
+          {
+            "url": "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf",
+            "title": "HeadRush Pedalboard firmware 2.7 notes",
+            "access": "Exact-model eight-page maker PDF header and revision history read",
+            "evidence": "Latest 2.7, August 2024; current additions, DSP optimization and earlier 2.5 tracking improvements."
+          },
+          {
+            "url": "https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-",
+            "title": "HeadRush firmware 2.7 launch announcement",
+            "access": "Manufacturer support article read",
+            "evidence": "Names Pedalboard, Gigboard and MX5 and August 8, 2024 launch date."
+          },
+          {
+            "url": "https://www.headrushfx.com/products/pedalboard/index.html",
+            "title": "HeadRush Pedalboard own model catalogue",
+            "access": "Exact-model manufacturer page read",
+            "evidence": "Chord Wham explicitly polyphonic and other named pitch effects."
+          },
+          {
+            "url": "https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf",
+            "title": "HeadRush Pedalboard guide 2.1.2",
+            "access": "Original 41-page PDF retrieved; SHA256 ab43f2fe2ea46bac1853c8e30fd8af3ead6583f87054035bbc16ec6143bc4cd2; printed pages 14–15 read",
+            "evidence": "Eleven rig slots, dual amp/cab exceptions, 1024-sample IR resource tradeoff and rig saving."
+          },
+          {
+            "url": "https://celestion.com/our-news/headrush-chooses-celestion-impulse-responses-for-cutting-edge-guitar-fx-and-amp-modeling-pedalboard/",
+            "title": "HeadRush/Celestion shipping announcement",
+            "access": "Manufacturer statement on official partner Celestion site",
+            "evidence": "May 22, 2017 dateline says Pedalboard is now shipping; does not establish first delivery day."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2768,
+          "maximum_days": 2768,
+          "label": "7.58 years"
+        },
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "HeadRush::Pedalboard",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": "2017-01-09",
+              "precision": "day",
+              "kind": "manufacturer_announcement",
+              "source_urls": [
+                "https://musicplayers.com/2017/01/headrush-pedalboard-quad-%C2%AD-core-dsp-amp-and-fx-modeling-with-touchscreen-interface/",
+                "https://celestion.com/our-news/headrush-chooses-celestion-impulse-responses-for-cutting-edge-guitar-fx-and-amp-modeling-pedalboard/"
+              ],
+              "note": "January 9 manufacturer announcement planned Q1 availability; this is announcement-to-update duration, not confirmed shipping-to-update. May 22, 2017 manufacturer statement carried by partner Celestion confirms shipping by that date; first shipment day remains unverified."
+            },
+            "firmware": {
+              "version": "2.7.0",
+              "date": "2024-08-08",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://www.headrushfx.com/downloads.html",
+                "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf",
+                "https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-pedalboard-and-mx5-what-s-new-in-firmware-v2-7-"
+              ],
+              "note": "Current exact-model index lists 2.7.0; PDF calls latest 2.7 and dates it August 2024. Manufacturer announcement supplies August 8 launch day. Adds Glorious Drive, White Bass Wah and Ten Freq EQ, plus fixes and DSP optimizations. Guide version 2.1.2 is separate. No hardware updated."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "Exact-model catalogue labels Chord Wham polyphonic. Also lists Wham, Harm, Smart Harm, Drop Tune, Octaves, Octaves Up and Detune, plus Pitch Delay/Shimmer. Chord Wham documentation does not establish polyphonic tracking for all algorithms.",
+              "preset": "Rigs save model choices/settings, model presets and hardware assignments. Twelve switches and 11 processing slots are separate from stored-preset capacity; total user-rig ceiling remains unverified.",
+              "dsp": "No isolated pitch DSP percentage or measured cost found in checked manufacturer documentation. Guide specifies 11 rig slots with dual amp/cab exceptions; 1024-sample IRs reduce DSP load. Slot count and quad-core marketing do not quantify pitch cost; Prime/Core 14-slot CPU-meter statements are not assigned to the original Pedalboard.",
+              "source_urls": [
+                "https://www.headrushfx.com/products/pedalboard/index.html",
+                "https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf",
+                "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Version 2.5 history improves lower-pitch tracking of Wham, Harm and Shimmer. No measured latency or chord-tracking test. Product effect list mixes revisions: earlier documented omissions remain preserved rather than assuming the website is a complete 2.7 inventory."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://musicplayers.com/2017/01/headrush-pedalboard-quad-%C2%AD-core-dsp-amp-and-fx-modeling-with-touchscreen-interface/",
+                "title": "HeadRush Pedalboard initial announcement",
+                "access": "Manufacturer release republished by MusicPlayers",
+                "evidence": "January 9, 2017 announcement; planned Q1 availability, not proof of delivery that day."
+              },
+              {
+                "url": "https://www.headrushfx.com/downloads.html",
+                "title": "HeadRush current downloads",
+                "access": "Current manufacturer index read",
+                "evidence": "Exact Pedalboard 2.7.0 updaters and release notes, separate 2.1.2 guide and audio driver."
+              },
+              {
+                "url": "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf",
+                "title": "HeadRush Pedalboard firmware 2.7 notes",
+                "access": "Exact-model eight-page maker PDF header and revision history read",
+                "evidence": "Latest 2.7, August 2024; current additions, DSP optimization and earlier 2.5 tracking improvements."
+              },
+              {
+                "url": "https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-pedalboard-and-mx5-what-s-new-in-firmware-v2-7-",
+                "title": "HeadRush firmware 2.7 launch announcement",
+                "access": "Manufacturer support article read",
+                "evidence": "Names Pedalboard, MX5 and Pedalboard and August 8, 2024 launch date."
+              },
+              {
+                "url": "https://www.headrushfx.com/products/pedalboard/index.html",
+                "title": "HeadRush Pedalboard own model catalogue",
+                "access": "Exact-model manufacturer page read",
+                "evidence": "Chord Wham explicitly polyphonic and other named pitch effects."
+              },
+              {
+                "url": "https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf",
+                "title": "HeadRush Pedalboard guide 2.1.2",
+                "access": "Original 41-page PDF retrieved; SHA256 ab43f2fe2ea46bac1853c8e30fd8af3ead6583f87054035bbc16ec6143bc4cd2; printed pages 14–15 read",
+                "evidence": "Eleven rig slots, dual amp/cab exceptions, 1024-sample IR resource tradeoff and rig saving."
+              },
+              {
+                "url": "https://celestion.com/our-news/headrush-chooses-celestion-impulse-responses-for-cutting-edge-guitar-fx-and-amp-modeling-pedalboard/",
+                "title": "HeadRush/Celestion shipping announcement",
+                "access": "Manufacturer statement on official partner Celestion site",
+                "evidence": "May 22, 2017 dateline says Pedalboard is now shipping; does not establish first delivery day."
+              }
+            ],
+            "duration": {
+              "minimum_days": 2768,
+              "maximum_days": 2768,
+              "label": "7.58 years"
+            },
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
@@ -188479,7 +188663,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "HeadRush::Pedalboard",
       "HeadRush::VX5",
       "IK Multimedia::TONEX ONE",
       "IK Multimedia::TONEX Pedal",
@@ -188752,9 +188935,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 121,
-    "last_model": "HeadRush::Gigboard",
-    "last_commit_parent": "e6825ba594df505e4a7710b48ccb1596ab1b0166",
+    "completed_model_count": 122,
+    "last_model": "HeadRush::Pedalboard",
+    "last_commit_parent": "eb2bc690042e70fb4257486cc224d9beb46b6a3c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -188767,7 +188950,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "HeadRush::Pedalboard",
       "HeadRush::VX5",
       "IK Multimedia::TONEX ONE",
       "IK Multimedia::TONEX Pedal",
@@ -189039,7 +189221,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 121,
+    "pitch_completed_model_count": 122,
     "supplemental_model_count": 0
   },
   "model_images": {

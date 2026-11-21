@@ -610,6 +610,34 @@ Outstanding: exact preset/storage ceiling,pixel resolution,explicit battery/USB-
 
 ## Pedalboard
 
+<!-- firmware-pitch:HeadRush::Pedalboard begins -->
+### Firmware and pitch audit — HeadRush Pedalboard
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017-01-09 (manufacturer announcement). January 9 manufacturer announcement planned Q1 availability; this is announcement-to-update duration, not confirmed shipping-to-update. May 22, 2017 manufacturer statement carried by partner Celestion confirms shipping by that date; first shipment day remains unverified. [launch 1](https://musicplayers.com/2017/01/headrush-pedalboard-quad-%C2%AD-core-dsp-amp-and-fx-modeling-with-touchscreen-interface/) [launch 2](https://celestion.com/our-news/headrush-chooses-celestion-impulse-responses-for-cutting-edge-guitar-fx-and-amp-modeling-pedalboard/) |
+| Firmware / latest verification | 2.7.0 — Latest verified. Current exact-model index lists 2.7.0; PDF calls latest 2.7 and dates it August 2024. Manufacturer announcement supplies August 8 launch day. Adds Glorious Drive, White Bass Wah and Ten Freq EQ, plus fixes and DSP optimizations. Guide version 2.1.2 is separate. No hardware updated. [firmware 1](https://www.headrushfx.com/downloads.html) [firmware 2](https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf) [firmware 3](https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-) |
+| Firmware / release date | 2024-08-08 (day precision) |
+| Firmware / release-to-update duration | 7.58 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Exact-model catalogue labels Chord Wham polyphonic. Also lists Wham, Harm, Smart Harm, Drop Tune, Octaves, Octaves Up and Detune, plus Pitch Delay/Shimmer. Chord Wham documentation does not establish polyphonic tracking for all algorithms. [pitch 1](https://www.headrushfx.com/products/pedalboard/index.html) [pitch 2](https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf) [pitch 3](https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf) |
+| Pitch / preset recall | Rigs save model choices/settings, model presets and hardware assignments. Twelve switches and 11 processing slots are separate from stored-preset capacity; total user-rig ceiling remains unverified. |
+| Pitch / DSP resources | No isolated pitch DSP percentage or measured cost found in checked manufacturer documentation. Guide specifies 11 rig slots with dual amp/cab exceptions; 1024-sample IRs reduce DSP load. Slot count and quad-core marketing do not quantify pitch cost; Prime/Core 14-slot CPU-meter statements are not assigned to the original Pedalboard. |
+| Pitch / qualifications | Version 2.5 history improves lower-pitch tracking of Wham, Harm and Shimmer. No measured latency or chord-tracking test. Product effect list mixes revisions: earlier documented omissions remain preserved rather than assuming the website is a complete 2.7 inventory. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [HeadRush Pedalboard initial announcement](https://musicplayers.com/2017/01/headrush-pedalboard-quad-%C2%AD-core-dsp-amp-and-fx-modeling-with-touchscreen-interface/) — January 9, 2017 announcement; planned Q1 availability, not proof of delivery that day. (Manufacturer release republished by MusicPlayers).
+- [HeadRush current downloads](https://www.headrushfx.com/downloads.html) — Exact Pedalboard 2.7.0 updaters and release notes, separate 2.1.2 guide and audio driver. (Current manufacturer index read).
+- [HeadRush Pedalboard firmware 2.7 notes](https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf) — Latest 2.7, August 2024; current additions, DSP optimization and earlier 2.5 tracking improvements. (Exact-model eight-page maker PDF header and revision history read).
+- [HeadRush firmware 2.7 launch announcement](https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-) — Names Pedalboard, Gigboard and MX5 and August 8, 2024 launch date. (Manufacturer support article read).
+- [HeadRush Pedalboard own model catalogue](https://www.headrushfx.com/products/pedalboard/index.html) — Chord Wham explicitly polyphonic and other named pitch effects. (Exact-model manufacturer page read).
+- [HeadRush Pedalboard guide 2.1.2](https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf) — Eleven rig slots, dual amp/cab exceptions, 1024-sample IR resource tradeoff and rig saving. (Original 41-page PDF retrieved; SHA256 ab43f2fe2ea46bac1853c8e30fd8af3ead6583f87054035bbc16ec6143bc4cd2; printed pages 14–15 read).
+- [HeadRush/Celestion shipping announcement](https://celestion.com/our-news/headrush-chooses-celestion-impulse-responses-for-cutting-edge-guitar-fx-and-amp-modeling-pedalboard/) — May 22, 2017 dateline says Pedalboard is now shipping; does not establish first delivery day. (Manufacturer statement on official partner Celestion site).
+
+<!-- firmware-pitch:HeadRush::Pedalboard ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Original HeadRush Pedalboard, distinct from Prime and Gigboard. Bass inclusion rests on its own documented Ampeg SVT/B15 bass models, not a BASS EQ label. Partial record.
 
