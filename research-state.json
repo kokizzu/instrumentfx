@@ -187813,11 +187813,35 @@
             "sha256": "cf62864f7af22adefb6ae07e5f6d2eb17073cb63091690f798f40485fa96fb72"
           }
         }
+      },
+      "Eventide::H90": {
+        "model_key": "Eventide::H90",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_55/554714/17978997_800.jpg",
+            "source_url": "https://www.thomann.nl/eventide_h90_harmonizer.htm",
+            "caption": "H90 powered-on near-top-down photograph",
+            "note": "White H90 with active OLED program display, illuminated knob rings and status LEDs. Small front-edge perspective remains; not an exact orthographic top-down view.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "e308c545c3dcb03948abb72528dd91c8c4799dc7dd6783631a849ed6ca399cae"
+          },
+          "rear": {
+            "image_url": "https://assets-sb.thomann.de/f/49568/1666x706/c18aaf4c8c/h90-back-cut-out_n.jpg/m/1600x0/filters%3Aquality%2890%29",
+            "source_url": "https://www.thomann.nl/eventide_h90_harmonizer.htm",
+            "caption": "H90 rear audio, expression, USB-C and DC ports",
+            "note": "Photograph shows four inputs, four outputs, two EXP/CTL jacks, USB-C, centre-positive DC and line-level LEDs. Side-mounted DIN MIDI sockets are outside this view.",
+            "visual_checked": true,
+            "sha256": "4333042eb5822b91f065babba410baac45a68da405f55644f470d1b156a114bc"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Eventide::H9 Max"
+    "last_model": "Eventide::H90"
   }
 }

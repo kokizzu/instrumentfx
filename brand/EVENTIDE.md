@@ -266,6 +266,26 @@ Sources checked:
 
 <!-- firmware-pitch:Eventide::H90 ends -->
 
+<!-- model-images:Eventide::H90 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**H90 powered-on near-top-down photograph**
+
+[![H90 powered-on near-top-down photograph](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_55/554714/17978997_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_55/554714/17978997_800.jpg)
+
+[Image source](https://www.thomann.nl/eventide_h90_harmonizer.htm). White H90 with active OLED program display, illuminated knob rings and status LEDs. Small front-edge perspective remains; not an exact orthographic top-down view.
+
+**H90 rear audio, expression, USB-C and DC ports**
+
+[![H90 rear audio, expression, USB-C and DC ports](https://assets-sb.thomann.de/f/49568/1666x706/c18aaf4c8c/h90-back-cut-out_n.jpg/m/1600x0/filters%3Aquality%2890%29)](https://assets-sb.thomann.de/f/49568/1666x706/c18aaf4c8c/h90-back-cut-out_n.jpg/m/1600x0/filters%3Aquality%2890%29)
+
+[Image source](https://www.thomann.nl/eventide_h90_harmonizer.htm). Photograph shows four inputs, four outputs, two EXP/CTL jacks, USB-C, centre-positive DC and line-level LEDs. Side-mounted DIN MIDI sockets are outside this view.
+
+</details>
+<!-- model-images:Eventide::H90 ends -->
+
+
 Checked 2026-10-17; partial. Separate from original H9 Max and H9 Gen 2. Ownership unverified.
 
 | Field | Evidence / qualifications |
