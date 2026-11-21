@@ -3793,6 +3793,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::Ocean Machine II ends -->
 
+<!-- model-images:MOOER::Ocean Machine II begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Ocean Machine II — top controls**
+
+[![Ocean Machine II — top controls](https://mooer.jp/cdn/shop/files/Ocean-Machine-II-01.png?v=1725880295&width=1445)](https://mooer.jp/cdn/shop/files/Ocean-Machine-II-01.png?v=1725880295&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-ocean-machine-ii). Visually inspected exact-II overhead product image: LCD shows the Ocean Machine II startup logo and three illuminated footswitch rings. Manufacturer-linked promotional image; physical powered operation is not independently tested.
+
+**Ocean Machine II — rear connections**
+
+[![Ocean Machine II — rear connections](https://mooer.jp/cdn/shop/files/Ocean-Machine-II-02.png?v=1725880295&width=1445)](https://mooer.jp/cdn/shop/files/Ocean-Machine-II-02.png?v=1725880295&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-ocean-machine-ii). Visually inspected straight rear view: EXP, stereo input/output, MIDI Thru/In, USB-C and 9V 500mA center-negative DC labels are visible.
+
+</details>
+<!-- model-images:MOOER::Ocean Machine II ends -->
+
+
 Checked 2026-10-18; partial active guitar multi-effects record. Original Ocean Machine is a distinct revision.
 
 [Exact Shopee hardware offer](https://shopee.co.id/Mooer-Ocean-Machine-II-Devin-Townsend-Signature-Dual-Delay-Reverb-Pedal-i.96878449.44405143297): Nafiri Music Store, shop96878449/item44405143297, Kota Jakarta Utara; **Rp4.096.000**, two-month cached body. Condition, stock, bundle and warranty unverified. Relative delivery promise is not stock proof; Rp10.000 late-arrival compensation is not a purchase discount.
