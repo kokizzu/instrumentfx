@@ -5007,6 +5007,30 @@ Search cache showedAug28–31delivery. Workingcondition,bundle,adapter,authentic
 
 ## ME-50
 
+<!-- firmware-pitch:BOSS::ME-50 begins -->
+### Firmware and pitch audit — BOSS ME-50
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2003 (manufacturer release year). Manufacturer release-year column; 2008 manufacturing completion is not the latest firmware date. Exact retail day/month unverified. [launch 1](https://www.roland.com/jp/support/service_repair/1708080000/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current model support index lists Owner Manual and TurboStart without a system program. Targeted manufacturer search found no public firmware release. Version, date and release-to-update duration remain unknown; internal revisions are not ruled out. [firmware 1](https://www.boss.info/global/support/by_product/me-50/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. HARMONIST provides key-based harmony up/down one octave and detune at 0; chords explicitly unsupported. Separate pedal +1 OCTAVE/-1 OCTAVE bends also explicitly disallow chords. OCT FUZZ is octave-harmonic fuzz, not proof of polyphonic interval shifting. [pitch 1](https://cdn.roland.com/assets/media/pdf/ME-50_OM.pdf) |
+| Pitch / preset recall | 30 writable factory-filled patches (ten banks × three), not 30 user plus 30 protected presets. WRITE saves settings. |
+| Pitch / DSP resources | HARMONIST occupies the single MODULATION choice, replacing its other ten alternatives; pedal effects are separate. No pitch CPU percentage or numerical DSP allocation table found. |
+| Pitch / qualifications | Mono restrictions apply to the documented tracking algorithms; octave fuzz note handling is not established. No ME-50B or later ME-series capabilities transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland model release and repair-duration table](https://www.roland.com/jp/support/service_repair/1708080000/) — ME-50 release 2003, manufacturing completion 2008. (Manufacturer indexed table text).
+- [ME-50 support](https://www.boss.info/global/support/by_product/me-50/) — Owner Manual and TurboStart shown; no system-program entry. (Manufacturer model support web text).
+- [BOSS ME-50 Owner Manual](https://cdn.roland.com/assets/media/pdf/ME-50_OM.pdf) — Pages 11–13: octave fuzz, one MODULATION selection and monophonic Harmonist; page 19: single-note octave pedal bends; pages 20–21 and 26: writable patches/factory reset. (Manufacturer PDF web text).
+
+<!-- firmware-pitch:BOSS::ME-50 ends -->
+
 Effects-only guitar multi-effects, distinct from ME-50B. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->

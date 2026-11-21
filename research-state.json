@@ -183708,10 +183708,67 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::ME-50": {
+        "model_key": "BOSS::ME-50",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2003",
+          "precision": "year",
+          "kind": "manufacturer_release_year",
+          "source_urls": [
+            "https://www.roland.com/jp/support/service_repair/1708080000/"
+          ],
+          "note": "Manufacturer release-year column; 2008 manufacturing completion is not the latest firmware date. Exact retail day/month unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/me-50/"
+          ],
+          "note": "Current model support index lists Owner Manual and TurboStart without a system program. Targeted manufacturer search found no public firmware release. Version, date and release-to-update duration remain unknown; internal revisions are not ruled out."
+        },
+        "pitch": {
+          "status": "documented_monophonic",
+          "algorithms": "HARMONIST provides key-based harmony up/down one octave and detune at 0; chords explicitly unsupported. Separate pedal +1 OCTAVE/-1 OCTAVE bends also explicitly disallow chords. OCT FUZZ is octave-harmonic fuzz, not proof of polyphonic interval shifting.",
+          "preset": "30 writable factory-filled patches (ten banks × three), not 30 user plus 30 protected presets. WRITE saves settings.",
+          "dsp": "HARMONIST occupies the single MODULATION choice, replacing its other ten alternatives; pedal effects are separate. No pitch CPU percentage or numerical DSP allocation table found.",
+          "measurements": [],
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/ME-50_OM.pdf"
+          ],
+          "notes": [
+            "Mono restrictions apply to the documented tracking algorithms; octave fuzz note handling is not established. No ME-50B or later ME-series capabilities transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/jp/support/service_repair/1708080000/",
+            "title": "Roland model release and repair-duration table",
+            "access": "Manufacturer indexed table text",
+            "evidence": "ME-50 release 2003, manufacturing completion 2008."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/me-50/",
+            "title": "ME-50 support",
+            "access": "Manufacturer model support web text",
+            "evidence": "Owner Manual and TurboStart shown; no system-program entry."
+          },
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/ME-50_OM.pdf",
+            "title": "BOSS ME-50 Owner Manual",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Pages 11–13: octave fuzz, one MODULATION selection and monophonic Harmonist; page 19: single-note octave pedal bends; pages 20–21 and 26: writable patches/factory reset."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::ME-50",
       "BOSS::ME-50B",
       "BOSS::ME-70",
       "BOSS::ME-8",
@@ -184060,12 +184117,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 55,
-    "last_model": "BOSS::ME-5",
-    "last_commit_parent": "525eec59f40f838824901065601e1366fa1b2718",
+    "completed_model_count": 56,
+    "last_model": "BOSS::ME-50",
+    "last_commit_parent": "2cf53b8ebc8f452363b323cd68e51f3c3dd9a074",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::ME-50",
       "BOSS::ME-50B",
       "BOSS::ME-70",
       "BOSS::ME-8",
@@ -184413,7 +184469,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 55,
+    "pitch_completed_model_count": 56,
     "supplemental_model_count": 0
   }
 }
