@@ -59,6 +59,33 @@ The [NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex), Capture Volum
 
 ## Nano Cortex
 
+<!-- firmware-pitch:Neural DSP::Nano Cortex begins -->
+### Firmware and pitch audit — Neural DSP Nano Cortex
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-09-18 (manufacturer launch announcement). Dated manufacturer announcement explicitly launches Nano Cortex September 18, 2024. Exact announcement-to-update span, not continuous-support guarantee. [launch 1](https://neuraldsp.com/nano-cortex-updates/neural-dsp-technologies-introduces-nano-cortex) |
+| Firmware / latest verification | NanOS 2.3.0 — Latest verified. Current manufacturer Nano updates index and release note identify 2.3.0 as latest. Adds Poly Octaver, Wham, Chief OC2, Shimmer and Blossom(ST), plus metronome and app improvements. Latest Cortex Cloud mobile app also required; app version is not device firmware. Supersedes old 2.2.0 product snapshot. Capture/player version announcements are separate from NanOS release numbering. [firmware 1](https://neuraldsp.com/nano-cortex-updates/nanos-2-3-0-is-now-available) [firmware 2](https://neuraldsp.com/nano-cortex-updates) |
+| Firmware / release date | 2026-11-11 (day precision) |
+| Firmware / release-to-update duration | 2.15 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Current official list: Transpose since1.0.0; Poly Octaver (POG-inspired), Wham (Whammy-inspired) and Chief OC2 (OC-2-inspired) since2.3.0, all pre-effects slot1 only. Manufacturer explicitly names Poly Octaver, but inspected sources do not state note-count/chord limits; do not generalize its name to polyphonic Transpose/Wham/Chief OC2. New Shimmer is a reverb pitch effect, not a second dry-signal transpose block. 2.0 adds Pitch Fine to Transpose. Exact new-algorithm ranges/tracking modes and measured latency remain unverified. [pitch 1](https://neuraldsp.com/nano-cortex-device-list) [pitch 2](https://neuraldsp.com/manual/nano-cortex) [pitch 3](https://neuraldsp.com/nano-cortex-updates/nanos-2-3-0-is-now-available) [pitch 4](https://neuraldsp.com/nano-cortex-updates/nanos-2-0-0-is-now-available) |
+| Pitch / preset recall | 64 presets with two/four quick hardware recall assignments depending mode. Five selectable effects slots alongside Capture/IR and fixed input gate; slot restrictions apply. Pitch choices all compete for pre1, so Transpose plus Wham/Poly Octaver cannot be assumed simultaneous. Device Trails preserves delay/reverb on bypass but has no effect in4-Preset Mode; not guaranteed pitch spillover. EXP assignments/calibration do not establish global cross-preset targets or all-output volume behavior. |
+| Pitch / DSP resources | Documented resource restriction is one pre-effects-slot1 pitch choice at a time, not a published DSP percentage. No isolated per-algorithm DSP cost or tracking-latency measurement found. Five FX slots are not five arbitrary pitch slots. No Quad Cortex CPU percentages/processor capacity or sibling pitch behavior transferred. |
+| Pitch / qualifications | Official current HTML manual identifies NanOS2.3.0; Effects Library workflow, presets/modes and trails checked. New device-list entries confirm slot allocation beyond older Transpose-only snapshot. Poly Octaver name is recorded as manufacturer nomenclature; explicit chord-handling evidence still needed before a blanket polyphonic pitch designation. Community claims about Transpose are not manufacturer verification. No app/device/firmware installation, audio benchmark or hands-on preset/EXP test; older expression-volume qualifications retained. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Manufacturer Nano Cortex launch announcement](https://neuraldsp.com/nano-cortex-updates/neural-dsp-technologies-introduces-nano-cortex) — September18,2024 launch. (Dated primary announcement opened).
+- [NanOS2.3.0 release notes](https://neuraldsp.com/nano-cortex-updates/nanos-2-3-0-is-now-available) — November11,2026; three new pitch devices, two reverbs and metronome; latest app required. (Dated primary changelog opened).
+- [Current Nano Cortex updates index](https://neuraldsp.com/nano-cortex-updates) — 2.3.0 newest device update; older2.2.1/2.2.0 listed separately. (Primary index opened).
+- [Official Nano Cortex virtual device list](https://neuraldsp.com/nano-cortex-device-list) — All four pitch choices pre-effects slot1; version-qualified additions. (Current primary table read).
+- [Official Nano Cortex NanOS2.3.0 manual](https://neuraldsp.com/manual/nano-cortex) — Five FX slots,64presets, recall modes, expression configuration and bypass-trails restriction. (Current manufacturer HTML manual read).
+- [NanOS2.0.0 release notes](https://neuraldsp.com/nano-cortex-updates/nanos-2-0-0-is-now-available) — April23,2025 Pitch Fine addition and Transpose restricted to pre1. (Dated manufacturer changelog read).
+
+<!-- firmware-pitch:Neural DSP::Nano Cortex ends -->
+
 Complete original model fields consolidated and partially refreshed **2026-10-17**. Standard Nano Cortex; no Quad Cortex specifications substituted.
 
 ### Preserved historical evidence
