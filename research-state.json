@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Otherguide/Cerberus/NUX_Cerberus_FirmwareUpdate_SoftwareManual_EN.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Integrated_Effects/Trident(NME-5)/NUX_Trident_UserManual_English.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 0,
+    "frame": 17,
     "text_pages": [
       0,
       2
@@ -196356,6 +196356,92 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::TRIDENT NME-5": {
+        "model_key": "NUX::TRIDENT NME-5",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2023-04",
+          "precision": "month",
+          "kind": "NAMM public introduction month proxy",
+          "source_urls": [
+            "https://www.guitarworld.com/news/nux-trident-multi-effects-pedal"
+          ],
+          "note": "Contemporaneous April14,2023 NAMM report establishes public introduction in April, while explicitly saying official release was not confirmed. This is an announcement-month proxy, not first retail shipment; later regional release dates must not replace it silently."
+        },
+        "firmware": {
+          "version": "2.0.1",
+          "date": "2024-07-05",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://nuxaudio.com/product/trident/",
+            "https://cn.nuxaudio.com/product/trident/",
+            "https://www.ariaguitars.com/jp/nux-trident-fw.html"
+          ],
+          "note": "Current manufacturer global/Chinese support lists2.0.1; ARAI exact-model update notice dates it July5,2024. Editor also2.0.1; ASIO3.29.0/5.30.0 are separate drivers. V2 notes add Shimmer, hold-to-freeze reverb, Mod/Pan Delay and chorus choices, Stageman amp, preset/control fixes; newer factory contents do not create more storage slots. No update performed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Original English block-reference printedp.34 visually confirms FX Pitch Bender (SENS/LEVEL/DIR) and Harmony (KEY/BALANCE/HARMONY/MODE, screenshot MAJOR). MOD printedp.38 confirms Detune with left/right shifts and mix. V2.0.1 adds Shimmer in reverb; hold-freeze is documented separately. No explicit polyphonic/chord-input transposition claim or numeric range established; harmony output and stereo detuning are not polyphonic tracking proof.",
+          "preset": "96 factory plus96 user locations in32banks of3 each, as previously visually documented in original manual. Pitch Bender/Harmony share FX alternatives; Detune occupies MOD and V2 Shimmer occupies reverb. Editor supports saving/loading patches and dragging block order; V2 replaces some factory contents, not total patch capacity.",
+          "dsp": "Two DSPs: one for effects and one for amp modeling, per manufacturer architecture. Ten movable positions include an external send/return block, not ten independent arbitrary pitch engines. No isolated Pitch Bender/Harmony/Detune/Shimmer DSP percentage or block cost found. Published1ms system latency is a manufacturer-wide specification, not measured pitch latency.",
+          "source_urls": [
+            "https://nuxaudio.com/product/trident/",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Integrated_Effects/Trident(NME-5)/NUX_Trident_UserManual_English.pdf",
+            "https://www.ariaguitars.com/jp/nux-trident-fw.html",
+            "https://www.ariaguitars.com/jp/items/other-brands/nux/integrated-effects/trident/"
+          ],
+          "measurements": [],
+          "notes": [
+            "No device/audio test; input polyphony and tracking performance remain unverified.",
+            "Fresh original PDF inspection corroborates pitch model names/controls, resolving earlier source-rendering limitation for those pages; historical notes below remain dated evidence."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://nuxaudio.com/product/trident/",
+            "title": "NUX TRIDENT manufacturer current product/support",
+            "access": "Manufacturer page opened2026-11-22",
+            "evidence": "Latest2.0.1 firmware/editor with blank dates; twoDSPeffects/amp architecture, overall1ms latency, no pitch-specific DSP percentage."
+          },
+          {
+            "url": "https://cn.nuxaudio.com/product/trident/",
+            "title": "NUX TRIDENT Chinese manufacturer support",
+            "access": "Exact-model source opened2026-11-22",
+            "evidence": "Corroborates twoDSParchitecture and2.0.1 firmware support; regional source not a separate hardware variant."
+          },
+          {
+            "url": "https://www.ariaguitars.com/jp/nux-trident-fw.html",
+            "title": "ARAI NUX TRIDENT V2.0.1 firmware update notice",
+            "access": "Official distributor release notes opened2026-11-22",
+            "evidence": "V2.0.1 July5,2024; Shimmer,reverbholdfreeze,newdelay/chorus,Stageman,changedfactorypatches,EXPUI/presetfixes; editor2.0.1."
+          },
+          {
+            "url": "https://www.ariaguitars.com/jp/items/other-brands/nux/integrated-effects/trident/",
+            "title": "ARAI TRIDENT exact product and effects list",
+            "access": "Official distributor page opened2026-11-22",
+            "evidence": "Lists FXPitchBender/Harmony and links dated2.0.1 update notice."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Integrated_Effects/Trident(NME-5)/NUX_Trident_UserManual_English.pdf",
+            "title": "NUX TRIDENT English owner manual block reference",
+            "access": "Manufacturer PDF retrieved2026-11-22; printedpp.29–30,33–34,37–38 visually inspected; SHA2563ff5a61f6f16c02482a8443658263d1ca8e7d19bdd4946f917b69ac6c3c47306",
+            "evidence": "p.34FXPitchBender/Harmonycontrols;p.38MODDetune;editorpatch/routingoperationsp.33. No polyphonic claim on inspected pages."
+          },
+          {
+            "url": "https://www.guitarworld.com/news/nux-trident-multi-effects-pedal",
+            "title": "Guitar World contemporaneous NAMM TRIDENT introduction",
+            "access": "Contemporaneous news opened2026-11-22",
+            "evidence": "PublishedApril14,2023; publicNAMMintroduction with release still unconfirmed, so month-level introduction proxy only."
+          }
+        ],
+        "duration": {
+          "minimum_days": 432,
+          "maximum_days": 461,
+          "label": "1.18–1.26 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -196396,7 +196482,6 @@
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
       "NUX::Stageman Floor NAP-5",
-      "NUX::TRIDENT NME-5",
       "Roland::GR-55",
       "Roland::VT-4",
       "ROWIN::RE-05 Looper Pro",
@@ -196543,9 +196628,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 220,
-    "last_model": "NUX::Cerberus NME-3",
-    "last_commit_parent": "7c27d62bb43a0d1e66b9d5c6514e8852b8862741",
+    "completed_model_count": 221,
+    "last_model": "NUX::TRIDENT NME-5",
+    "last_commit_parent": "7aaffc87216b157d655ca57b472463b67995b401",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -196585,7 +196670,6 @@
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
       "NUX::Stageman Floor NAP-5",
-      "NUX::TRIDENT NME-5",
       "Roland::GR-55",
       "Roland::VT-4",
       "ROWIN::RE-05 Looper Pro",
@@ -196731,7 +196815,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 220,
+    "pitch_completed_model_count": 221,
     "supplemental_model_count": 0
   },
   "model_images": {

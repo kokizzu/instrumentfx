@@ -2380,6 +2380,33 @@ Published115W×105Lmm horizontal footprint fits;dedicated1/8inch phones are inde
 
 ## TRIDENT NME-5
 
+<!-- firmware-pitch:NUX::TRIDENT NME-5 begins -->
+### Firmware and pitch audit — NUX TRIDENT NME-5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-04 (NAMM public introduction month proxy). Contemporaneous April14,2023 NAMM report establishes public introduction in April, while explicitly saying official release was not confirmed. This is an announcement-month proxy, not first retail shipment; later regional release dates must not replace it silently. [launch 1](https://www.guitarworld.com/news/nux-trident-multi-effects-pedal) |
+| Firmware / latest verification | 2.0.1 — Latest verified. Current manufacturer global/Chinese support lists2.0.1; ARAI exact-model update notice dates it July5,2024. Editor also2.0.1; ASIO3.29.0/5.30.0 are separate drivers. V2 notes add Shimmer, hold-to-freeze reverb, Mod/Pan Delay and chorus choices, Stageman amp, preset/control fixes; newer factory contents do not create more storage slots. No update performed. [firmware 1](https://nuxaudio.com/product/trident/) [firmware 2](https://cn.nuxaudio.com/product/trident/) [firmware 3](https://www.ariaguitars.com/jp/nux-trident-fw.html) |
+| Firmware / release date | 2024-07-05 (day precision) |
+| Firmware / release-to-update duration | 1.18–1.26 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Original English block-reference printedp.34 visually confirms FX Pitch Bender (SENS/LEVEL/DIR) and Harmony (KEY/BALANCE/HARMONY/MODE, screenshot MAJOR). MOD printedp.38 confirms Detune with left/right shifts and mix. V2.0.1 adds Shimmer in reverb; hold-freeze is documented separately. No explicit polyphonic/chord-input transposition claim or numeric range established; harmony output and stereo detuning are not polyphonic tracking proof. [pitch 1](https://nuxaudio.com/product/trident/) [pitch 2](https://nux.cherubtechnology.com/download/Manual/Effects/Integrated_Effects/Trident(NME-5)/NUX_Trident_UserManual_English.pdf) [pitch 3](https://www.ariaguitars.com/jp/nux-trident-fw.html) [pitch 4](https://www.ariaguitars.com/jp/items/other-brands/nux/integrated-effects/trident/) |
+| Pitch / preset recall | 96 factory plus96 user locations in32banks of3 each, as previously visually documented in original manual. Pitch Bender/Harmony share FX alternatives; Detune occupies MOD and V2 Shimmer occupies reverb. Editor supports saving/loading patches and dragging block order; V2 replaces some factory contents, not total patch capacity. |
+| Pitch / DSP resources | Two DSPs: one for effects and one for amp modeling, per manufacturer architecture. Ten movable positions include an external send/return block, not ten independent arbitrary pitch engines. No isolated Pitch Bender/Harmony/Detune/Shimmer DSP percentage or block cost found. Published1ms system latency is a manufacturer-wide specification, not measured pitch latency. |
+| Pitch / qualifications | No device/audio test; input polyphony and tracking performance remain unverified. Fresh original PDF inspection corroborates pitch model names/controls, resolving earlier source-rendering limitation for those pages; historical notes below remain dated evidence. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX TRIDENT manufacturer current product/support](https://nuxaudio.com/product/trident/) — Latest2.0.1 firmware/editor with blank dates; twoDSPeffects/amp architecture, overall1ms latency, no pitch-specific DSP percentage. (Manufacturer page opened2026-11-22).
+- [NUX TRIDENT Chinese manufacturer support](https://cn.nuxaudio.com/product/trident/) — Corroborates twoDSParchitecture and2.0.1 firmware support; regional source not a separate hardware variant. (Exact-model source opened2026-11-22).
+- [ARAI NUX TRIDENT V2.0.1 firmware update notice](https://www.ariaguitars.com/jp/nux-trident-fw.html) — V2.0.1 July5,2024; Shimmer,reverbholdfreeze,newdelay/chorus,Stageman,changedfactorypatches,EXPUI/presetfixes; editor2.0.1. (Official distributor release notes opened2026-11-22).
+- [ARAI TRIDENT exact product and effects list](https://www.ariaguitars.com/jp/items/other-brands/nux/integrated-effects/trident/) — Lists FXPitchBender/Harmony and links dated2.0.1 update notice. (Official distributor page opened2026-11-22).
+- [NUX TRIDENT English owner manual block reference](https://nux.cherubtechnology.com/download/Manual/Effects/Integrated_Effects/Trident(NME-5)/NUX_Trident_UserManual_English.pdf) — p.34FXPitchBender/Harmonycontrols;p.38MODDetune;editorpatch/routingoperationsp.33. No polyphonic claim on inspected pages. (Manufacturer PDF retrieved2026-11-22; printedpp.29–30,33–34,37–38 visually inspected; SHA2563ff5a61f6f16c02482a8443658263d1ca8e7d19bdd4946f917b69ac6c3c47306).
+- [Guitar World contemporaneous NAMM TRIDENT introduction](https://www.guitarworld.com/news/nux-trident-multi-effects-pedal) — PublishedApril14,2023; publicNAMMintroduction with release still unconfirmed, so month-level introduction proxy only. (Contemporaneous news opened2026-11-22).
+
+<!-- firmware-pitch:NUX::TRIDENT NME-5 ends -->
+
 <!-- comparison evidence begins -->
 
 **Preserved review2026-10-15. Guitar multi-effects,large,no built-in expression.** [Global model/support](https://nuxaudio.com/product/trident/),[US](https://www.nux.us/products/trident),[Chinese](https://cn.nuxaudio.com/product/trident/).
