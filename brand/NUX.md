@@ -1097,6 +1097,26 @@ Sources checked:
 
 <!-- firmware-pitch:NUX::MG-100 ends -->
 
+<!-- model-images:NUX::MG-100 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**NUX MG-100 — top controls**
+
+[![NUX MG-100 — top controls](https://www.lamusic.com/cdn/shop/products/MG-100_hqw_2144x1424.jpg?v=1596207622)](https://www.lamusic.com/cdn/shop/products/MG-100_hqw_2144x1424.jpg?v=1596207622)
+
+[Image source](https://www.lamusic.com/products/mg-100). Retailer-hosted overhead product image shows the original MG-100 with illuminated color screen (1A Ultra Clean) and Mixer/Tap lights. This is not the MG-101.
+
+**NUX MG-100 — rear ports**
+
+[![NUX MG-100 — rear ports](https://stompbox.in/cdn/shop/files/Untitleddesign_2_e5cd8f59-8bf6-4f5b-889c-9b50e5151158.jpg?v=1703233171&width=1500)](https://stompbox.in/cdn/shop/files/Untitleddesign_2_e5cd8f59-8bf6-4f5b-889c-9b50e5151158.jpg?v=1703233171&width=1500)
+
+[Image source](https://stompbox.in/products/nux-mg-100-multi-effects-processor). Retailer rear-panel photograph shows the two large audio sockets, smaller auxiliary socket and connected DC adapter. Screen is not visible, so operating power cannot be confirmed from this rear image; labels are not readable. Connector functions are documented separately in the manufacturer manual.
+
+</details>
+<!-- model-images:NUX::MG-100 ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Preserved review2026-10-14. Original model,not101/300.** [Official product](https://nuxaudio.com/product/mg100/); [manufacturer V1 English manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG100/NUX_MG100_UserManualV1_English.pdf). The prior review visually inspected image-only printed pp.1–4,11–19;not a current-firmware test.
