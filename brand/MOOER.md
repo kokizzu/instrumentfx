@@ -3772,7 +3772,7 @@ Checked2026-10-28 using the manufacturer-authored shared GS1000/GS1000 Li [manua
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | 2024-09-10 (manufacturer press release availability). Manufacturer press release reproduced by Premier Guitar on September 12 explicitly states worldwide dealer/distributor availability on September 10, 2024; this is not the original 2017 Ocean Machine. [launch 1](https://www.premierguitar.com/news/mooer) |
+| Firmware / first hardware release | 2024-09-10 (manufacturer press release availability). Manufacturer press release reproduced by Premier Guitar on September 12 explicitly states worldwide dealer/distributor availability on September 10, 2024; this is not the original 2017 Ocean Machine. Manufacturer-linked Mooer Japan release calendar independently lists September 10, 2024 for the II Japanese launch. [launch 1](https://www.premierguitar.com/news/mooer) [launch 2](https://mooer.jp/pages/news) |
 | Firmware / latest verification | Not verified — Unverified. II supports USB-C firmware updates, but no exact-II current firmware version/date was located. Original Ocean Machine OM_FW1.1.1 (2018-09-20) is not II firmware. V2.7-20240417 printed in the II manual is a document revision, not an installed firmware version. Reset screen displays the installed version; updates reset presets/settings. [firmware 1](https://www.mooeraudio.com/products/206.html) [firmware 2](https://www.mooeraudio.com/companyfile/Ocean-Machine-Downloads-139.html) [firmware 3](https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -3790,6 +3790,7 @@ Sources checked:
 - [MOOER Ocean Machine Downloads](https://www.mooeraudio.com/companyfile/Ocean-Machine-Downloads-139.html) — Original Ocean Machine OM_FW1.1.1, dated September 20, 2018; predates II and excluded from II firmware field. (Manufacturer download page checked 2026-11-22).
 - [MOOER Ocean Machine II owner manual, V2.7-20240417](https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf) — Printed p6 lists Rainbow/Crystal pitch delays; 24 preset STORE procedure, serial/parallel engine routing and serial-only looper; p26 describes USB-C firmware update, Reset version screen and settings reset. Manual revision is not firmware; no polyphony or DSP percentage. (Manufacturer-authored PDF mirror; cover/body identify II despite host P2 metadata; checked 2026-11-22).
 - [Mooer Japan Ocean Machine II](https://mooer.jp/products/mooer-ocean-machine-ii) — Exact II pitch-delay descriptions, reverb/shimmer, independent dual delays, routing and 24 presets corroborate manual. (Manufacturer-linked Japanese distributor product page checked 2026-11-22).
+- [Mooer Japan official release calendar](https://mooer.jp/pages/news) — Ocean Machine II is listed as released September 10, 2024, corroborating the worldwide availability date in the manufacturer press release. (Manufacturer-linked Japanese distributor release list checked 2026-11-22).
 
 <!-- firmware-pitch:MOOER::Ocean Machine II ends -->
 

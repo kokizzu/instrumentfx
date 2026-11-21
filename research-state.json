@@ -195124,9 +195124,10 @@
           "precision": "day",
           "kind": "manufacturer_press_release_availability",
           "source_urls": [
-            "https://www.premierguitar.com/news/mooer"
+            "https://www.premierguitar.com/news/mooer",
+            "https://mooer.jp/pages/news"
           ],
-          "note": "Manufacturer press release reproduced by Premier Guitar on September 12 explicitly states worldwide dealer/distributor availability on September 10, 2024; this is not the original 2017 Ocean Machine."
+          "note": "Manufacturer press release reproduced by Premier Guitar on September 12 explicitly states worldwide dealer/distributor availability on September 10, 2024; this is not the original 2017 Ocean Machine. Manufacturer-linked Mooer Japan release calendar independently lists September 10, 2024 for the II Japanese launch."
         },
         "firmware": {
           "version": null,
@@ -195184,10 +195185,91 @@
             "title": "Mooer Japan Ocean Machine II",
             "access": "Manufacturer-linked Japanese distributor product page checked 2026-11-22",
             "evidence": "Exact II pitch-delay descriptions, reverb/shimmer, independent dual delays, routing and 24 presets corroborate manual."
+          },
+          {
+            "url": "https://mooer.jp/pages/news",
+            "title": "Mooer Japan official release calendar",
+            "access": "Manufacturer-linked Japanese distributor release list checked 2026-11-22",
+            "evidence": "Ocean Machine II is listed as released September 10, 2024, corroborating the worldwide availability date in the manufacturer press release."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "MOOER::Ocean Machine II",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2024-09-10",
+              "precision": "day",
+              "kind": "manufacturer_press_release_availability",
+              "source_urls": [
+                "https://www.premierguitar.com/news/mooer"
+              ],
+              "note": "Manufacturer press release reproduced by Premier Guitar on September 12 explicitly states worldwide dealer/distributor availability on September 10, 2024; this is not the original 2017 Ocean Machine."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "unverified",
+              "source_urls": [
+                "https://www.mooeraudio.com/products/206.html",
+                "https://www.mooeraudio.com/companyfile/Ocean-Machine-Downloads-139.html",
+                "https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf"
+              ],
+              "note": "II supports USB-C firmware updates, but no exact-II current firmware version/date was located. Original Ocean Machine OM_FW1.1.1 (2018-09-20) is not II firmware. V2.7-20240417 printed in the II manual is a document revision, not an installed firmware version. Reset screen displays the installed version; updates reset presets/settings."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Rainbow and Crystal are pitch-based Delay A algorithms; reverb also offers shimmer. These ambient effects do not establish a dedicated whole-guitar transposer, selectable interval range, or chord-safe polyphonic tracking.",
+              "preset": "24 writable presets in eight banks of three; STORE saves edited settings, including the selected effect configuration.",
+              "dsp": "Two independent delay engines plus one reverb engine, configurable in series/parallel; looper is serial only. Pitch delays occupy a Delay A algorithm choice. No isolated pitch DSP percentage, CPU meter reading, or independent pitch block cost is documented.",
+              "source_urls": [
+                "https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf",
+                "https://mooer.jp/products/mooer-ocean-machine-ii"
+              ],
+              "measurements": [],
+              "notes": [
+                "Do not treat shimmer or pitched repeats as evidence of polyphonic dry-signal transposition."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.premierguitar.com/news/mooer",
+                "title": "Mooer and Devin Townsend Launch the Ocean Machine II",
+                "access": "Manufacturer press release reproduced by Premier Guitar, September 12, 2024; checked 2026-11-22",
+                "evidence": "Explicit worldwide availability date September 10, 2024."
+              },
+              {
+                "url": "https://www.mooeraudio.com/products/206.html",
+                "title": "MOOER Ocean Machine II product",
+                "access": "Manufacturer page checked 2026-11-22",
+                "evidence": "Exact II hardware, dual independent delays, reverb/shimmer, 24 presets and USB-C firmware update support; no current firmware version/date."
+              },
+              {
+                "url": "https://www.mooeraudio.com/companyfile/Ocean-Machine-Downloads-139.html",
+                "title": "MOOER Ocean Machine Downloads",
+                "access": "Manufacturer download page checked 2026-11-22",
+                "evidence": "Original Ocean Machine OM_FW1.1.1, dated September 20, 2018; predates II and excluded from II firmware field."
+              },
+              {
+                "url": "https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf",
+                "title": "MOOER Ocean Machine II owner manual, V2.7-20240417",
+                "access": "Manufacturer-authored PDF mirror; cover/body identify II despite host P2 metadata; checked 2026-11-22",
+                "evidence": "Printed p6 lists Rainbow/Crystal pitch delays; 24 preset STORE procedure, serial/parallel engine routing and serial-only looper; p26 describes USB-C firmware update, Reset version screen and settings reset. Manual revision is not firmware; no polyphony or DSP percentage."
+              },
+              {
+                "url": "https://mooer.jp/products/mooer-ocean-machine-ii",
+                "title": "Mooer Japan Ocean Machine II",
+                "access": "Manufacturer-linked Japanese distributor product page checked 2026-11-22",
+                "evidence": "Exact II pitch-delay descriptions, reverb/shimmer, independent dual delays, routing and 24 presets corroborate manual."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "MOOER::Ocean Machine original": {
         "model_key": "MOOER::Ocean Machine original",
@@ -195468,8 +195550,8 @@
     ],
     "status": "in_progress",
     "completed_model_count": 209,
-    "last_model": "MOOER::Ocean Machine original",
-    "last_commit_parent": "2fa6e9a01f6782f324c78f90d5e939fca2a34b9c",
+    "last_model": "MOOER::Ocean Machine II",
+    "last_commit_parent": "1ab6091ce4be70fe32c714a75e13e04c5347ebef",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
