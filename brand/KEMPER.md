@@ -549,6 +549,26 @@ Sources checked:
 
 <!-- firmware-pitch:Kemper::PROFILER Stage MK2 ends -->
 
+<!-- model-images:Kemper::PROFILER Stage MK2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**PROFILER Stage powered-on overhead control panel from the Stage MK2 listing: active LCD and status LEDs, eight rotary controls and fourteen footswitches.**
+
+[![PROFILER Stage powered-on overhead control panel from the Stage MK2 listing: active LCD and status LEDs, eight rotary controls and fourteen footswitches.](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-stage_front_800w.jpg)](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-stage_front_800w.jpg)
+
+[Image source](https://www.kemper-amps.com/store/us/profiler-stage-b.html). Exact MK2 SKU23000001 page supplies this overhead gallery image. No built-in treadle; complete footswitch layout visible. Picture does not establish installed OS, internal revision or factory-content count; no MK2 badge is visible.
+
+**Stage rear panel: input, four returns, two sends, stereo main and monitor outputs, headphones, S/PDIF, four pedal inputs, MIDI in/out, USB-A/B and IEC mains.**
+
+[![Stage rear panel: input, four returns, two sends, stereo main and monitor outputs, headphones, S/PDIF, four pedal inputs, MIDI in/out, USB-A/B and IEC mains.](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-stage_back_800w.jpg)](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-stage_back_800w.jpg)
+
+[Image source](https://www.kemper-amps.com/store/us/profiler-stage-b.html). Stage-specific routing differs from Head/Rack: two sends and four return sockets, four pedal connections and MIDI IN/OUT rather than three DIN sockets. Main outputs are XLR plus quarter-inch; monitor outputs are quarter-inch. No speaker power-amplifier output. Exact MK2 listing provenance is retained; no internal revision is inferred from the unbadged exterior.
+
+</details>
+<!-- model-images:Kemper::PROFILER Stage MK2 ends -->
+
+
 Partial record checked **2026-10-17**. Exact MK2 search-item identity;generic Stage offer not assigned MK2 capabilities. Stage is an independent processor,not the Remote controller. Original Stage remains a separate unresolved lead.
 
 | Required field | Evidence / qualification |
