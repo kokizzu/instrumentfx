@@ -181875,10 +181875,75 @@
           "label": "2.95–3.03 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GS-10": {
+        "model_key": "BOSS::GS-10",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2003",
+          "precision": "year",
+          "kind": "manufacturer_retrospective_launch_year",
+          "source_urls": [
+            "https://www.roland.com/jp/support/service_repair/1708080000/"
+          ],
+          "note": "Roland Japan service table gives release year2003; manufacturing completion2005 is not firmware history. Exact introduction day unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gs-10/updates_drivers/"
+          ],
+          "note": "Checked manufacturer index lists USB drivers, editors, patch collections and a driver-cleanup utility, not a device System Program. Those version numbers/dates are not firmware. No public device release found; this does not prove service updates never existed."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Pitch Shifter ±24 semitones: Fast/Medium/Slow explicitly accept chords; Mono accepts single notes. Harmonist requires single notes. Octave adds a lower octave; Pedal Bend has ±24-semitone endpoints. Chord support is mode-specific, not universal across these algorithms.",
+          "preset": "100 writable User plus100 protected Preset patches. WRITE, select User destination, WRITE confirms; unsaved edits are lost on patch change.",
+          "dsp": "Pitch Shifter/Harmonist/Octave/Pedal Bend are alternative FX2 selections. Manufacturer advertises up to11 simultaneous effects overall, not11 free pitch instances. No per-pitch CPU percentage or DSP meter documented.",
+          "source_urls": [
+            "https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual",
+            "https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Chord-capable is a manual claim, not a measured tracking-quality or latency result.",
+            "Stereo/two generated voices are output structure, not the basis of the chord-support classification."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/jp/support/service_repair/1708080000/",
+            "title": "Roland Japan model release and manufacturing/service table",
+            "access": "opened; Japanese manufacturer table",
+            "evidence": "GS-10 row specifies2003 release and2005 manufacturing completion under separate column headings."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gs-10/updates_drivers/",
+            "title": "BOSS GS-10 Updates & Drivers index",
+            "access": "opened",
+            "evidence": "Driver/editor/patch/utility entries only; no device System Program release located."
+          },
+          {
+            "url": "https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual",
+            "title": "BOSS GS-10 original owner manual, 03342912,03-8-1N",
+            "access": "opened manufacturer manuscript on public mirror; original body only",
+            "evidence": "pp43–45 mode-specific chord/single-note limits and pitch ranges; FX2 alternatives and WRITE workflow; no CPU percentage."
+          },
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf",
+            "title": "BOSS GS-10 manufacturer brochure",
+            "access": "opened manufacturer PDF; text_only",
+            "evidence": "Specifies up to11 simultaneous effects, not an arbitrary block budget or percentage."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GS-10",
       "BOSS::GT-001",
       "BOSS::GT-1",
       "BOSS::GT-10",
@@ -182250,12 +182315,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 32,
-    "last_model": "BOSS::GM-800",
-    "last_commit_parent": "4fe8d0e65cd6520068bb948c6586656bb792e56b",
+    "completed_model_count": 33,
+    "last_model": "BOSS::GS-10",
+    "last_commit_parent": "d7c83c333b2a13aa55468c0244ea309f5623a401",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GS-10",
       "BOSS::GT-001",
       "BOSS::GT-1",
       "BOSS::GT-10",
@@ -182626,7 +182690,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 32,
+    "pitch_completed_model_count": 33,
     "supplemental_model_count": 0
   }
 }

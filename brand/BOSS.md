@@ -832,6 +832,31 @@ FX Chain permits reordering. **Foot Volume cannot be turned off**; it has heel/t
 
 ## GS-10
 
+<!-- firmware-pitch:BOSS::GS-10 begins -->
+### Firmware and pitch audit — BOSS GS-10
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2003 (manufacturer retrospective launch year). Roland Japan service table gives release year2003; manufacturing completion2005 is not firmware history. Exact introduction day unresolved. [launch 1](https://www.roland.com/jp/support/service_repair/1708080000/) |
+| Firmware / latest verification | Not verified — No public firmware located. Checked manufacturer index lists USB drivers, editors, patch collections and a driver-cleanup utility, not a device System Program. Those version numbers/dates are not firmware. No public device release found; this does not prove service updates never existed. [firmware 1](https://www.boss.info/global/support/by_product/gs-10/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Pitch Shifter ±24 semitones: Fast/Medium/Slow explicitly accept chords; Mono accepts single notes. Harmonist requires single notes. Octave adds a lower octave; Pedal Bend has ±24-semitone endpoints. Chord support is mode-specific, not universal across these algorithms. [pitch 1](https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual) [pitch 2](https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf) |
+| Pitch / preset recall | 100 writable User plus100 protected Preset patches. WRITE, select User destination, WRITE confirms; unsaved edits are lost on patch change. |
+| Pitch / DSP resources | Pitch Shifter/Harmonist/Octave/Pedal Bend are alternative FX2 selections. Manufacturer advertises up to11 simultaneous effects overall, not11 free pitch instances. No per-pitch CPU percentage or DSP meter documented. |
+| Pitch / qualifications | Chord-capable is a manual claim, not a measured tracking-quality or latency result. Stereo/two generated voices are output structure, not the basis of the chord-support classification. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland Japan model release and manufacturing/service table](https://www.roland.com/jp/support/service_repair/1708080000/) — GS-10 row specifies2003 release and2005 manufacturing completion under separate column headings. (opened; Japanese manufacturer table).
+- [BOSS GS-10 Updates & Drivers index](https://www.boss.info/global/support/by_product/gs-10/updates_drivers/) — Driver/editor/patch/utility entries only; no device System Program release located. (opened).
+- [BOSS GS-10 original owner manual, 03342912,03-8-1N](https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual) — pp43–45 mode-specific chord/single-note limits and pitch ranges; FX2 alternatives and WRITE workflow; no CPU percentage. (opened manufacturer manuscript on public mirror; original body only).
+- [BOSS GS-10 manufacturer brochure](https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf) — Specifies up to11 simultaneous effects, not an arbitrary block budget or percentage. (opened manufacturer PDF; text_only).
+
+<!-- firmware-pitch:BOSS::GS-10 ends -->
+
 **Active partial profile,2026-10-28; not fully verified.** Discontinued desktop guitar/bass multi-effects, supported by its [own manufacturer product page](https://www.boss.info/global/products/gs-10/), [original brochure](https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf) and exact-model manual cited below. No exact Shopee offer established. Earlier partial-lead notes remain dated provenance, superseded only in admission status.
 
 <!-- comparison evidence begins -->
