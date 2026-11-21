@@ -184027,10 +184027,72 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::ME-90": {
+        "model_key": "BOSS::ME-90",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2023-07-06",
+          "precision": "day",
+          "kind": "manufacturer_announcement_and_availability",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2023/BOSS-Announces-ME-90-Guitar-Multiple-Effects/"
+          ],
+          "note": "Manufacturer announcement states available in the US now; regional shipment differences not established."
+        },
+        "firmware": {
+          "version": "1.04",
+          "date": "2025-05",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/me-90/updates_drivers/27c98806-6e6c-4b45-a31f-d3703a7c6a9c/"
+          ],
+          "note": "Current support index links 1.04. May 2025 fixes CTL pedal LED behavior on patch/BTS changes and minor bugs. Prior 1.03 July 2023 added Tone Studio/IR Loader support and stability improvements. Driver/editor versions are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Regular Pitch Shift: -24–DETUNE–+24 semitones; input polyphony unspecified. Harmonist requires single notes. Separate app-selectable POLY OCTAVE explicitly supports polyphonic input, one octave below with range control. Pedal ±1/±2-octave bends require single notes.",
+          "preset": "36 user plus 36 preset whole patches. Effect alternatives can be configured per patch in Tone Studio.",
+          "dsp": "Pitch Shift/Harmonist/Overtone share MOD; app-selectable equivalents also appear in EQ/FX2, allowing category choices beyond MOD alone. Poly Octave replaces COMP/FX1 S-BEND via the app. Pedal bends use PEDAL FX. No pitch CPU percentage or numerical allocation table found.",
+          "measurements": [],
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/ME-90_parameter_eng01_W.pdf",
+            "https://www.roland.com/us/company/press_releases/2023/BOSS-Announces-ME-90-Guitar-Multiple-Effects/"
+          ],
+          "notes": [
+            "Explicit Poly Octave support does not establish polyphonic regular semitone shifting. GT-1000-derived algorithms do not establish identical DSP budgets."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2023/BOSS-Announces-ME-90-Guitar-Multiple-Effects/",
+            "title": "BOSS announces ME-90 guitar multiple effects",
+            "access": "Manufacturer press release web text",
+            "evidence": "July 6, 2023 announcement and US availability; 36 user/36 preset patches."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/me-90/updates_drivers/27c98806-6e6c-4b45-a31f-d3703a7c6a9c/",
+            "title": "ME-90 System Program 1.04",
+            "access": "Manufacturer release notes and current support index",
+            "evidence": "1.04 May 2025 CTL LED/minor fixes; 1.03 July 2023 Tone Studio, IR Loader and stability."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/ME-90_parameter_eng01_W.pdf",
+            "title": "ME-90 Parameter Guide",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Pages 2–4 Poly Octave/S-BEND alternatives; 6–7 MOD pitch; 14–16 EQ/FX2 pitch alternatives; 18 single-note pedal bends. No CPU percentage specified."
+          }
+        ],
+        "duration": {
+          "minimum_days": 665,
+          "maximum_days": 695,
+          "label": "1.82–1.90 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::ME-90",
       "BOSS::ME-90B",
       "BOSS::MS-3",
       "BOSS::Pocket GT",
@@ -184374,12 +184436,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 60,
-    "last_model": "BOSS::ME-80",
-    "last_commit_parent": "d9550f77279edda92d1722f2446a2cae978bed4c",
+    "completed_model_count": 61,
+    "last_model": "BOSS::ME-90",
+    "last_commit_parent": "a3f82aee46e129b8016973e3e9c2a939947f9a5b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::ME-90",
       "BOSS::ME-90B",
       "BOSS::MS-3",
       "BOSS::Pocket GT",
@@ -184722,7 +184783,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 60,
+    "pitch_completed_model_count": 61,
     "supplemental_model_count": 0
   }
 }

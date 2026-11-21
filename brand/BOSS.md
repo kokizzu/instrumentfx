@@ -5426,6 +5426,30 @@ Remaining:current firmware/category equivalence,user preset initialization,displ
 
 ## ME-90
 
+<!-- firmware-pitch:BOSS::ME-90 begins -->
+### Firmware and pitch audit — BOSS ME-90
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-07-06 (manufacturer announcement and availability). Manufacturer announcement states available in the US now; regional shipment differences not established. [launch 1](https://www.roland.com/us/company/press_releases/2023/BOSS-Announces-ME-90-Guitar-Multiple-Effects/) |
+| Firmware / latest verification | 1.04 — Latest verified. Current support index links 1.04. May 2025 fixes CTL pedal LED behavior on patch/BTS changes and minor bugs. Prior 1.03 July 2023 added Tone Studio/IR Loader support and stability improvements. Driver/editor versions are separate. [firmware 1](https://www.boss.info/global/support/by_product/me-90/updates_drivers/27c98806-6e6c-4b45-a31f-d3703a7c6a9c/) |
+| Firmware / release date | 2025-05 (month precision) |
+| Firmware / release-to-update duration | 1.82–1.90 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Regular Pitch Shift: -24–DETUNE–+24 semitones; input polyphony unspecified. Harmonist requires single notes. Separate app-selectable POLY OCTAVE explicitly supports polyphonic input, one octave below with range control. Pedal ±1/±2-octave bends require single notes. [pitch 1](https://static.roland.com/assets/media/pdf/ME-90_parameter_eng01_W.pdf) [pitch 2](https://www.roland.com/us/company/press_releases/2023/BOSS-Announces-ME-90-Guitar-Multiple-Effects/) |
+| Pitch / preset recall | 36 user plus 36 preset whole patches. Effect alternatives can be configured per patch in Tone Studio. |
+| Pitch / DSP resources | Pitch Shift/Harmonist/Overtone share MOD; app-selectable equivalents also appear in EQ/FX2, allowing category choices beyond MOD alone. Poly Octave replaces COMP/FX1 S-BEND via the app. Pedal bends use PEDAL FX. No pitch CPU percentage or numerical allocation table found. |
+| Pitch / qualifications | Explicit Poly Octave support does not establish polyphonic regular semitone shifting. GT-1000-derived algorithms do not establish identical DSP budgets. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS announces ME-90 guitar multiple effects](https://www.roland.com/us/company/press_releases/2023/BOSS-Announces-ME-90-Guitar-Multiple-Effects/) — July 6, 2023 announcement and US availability; 36 user/36 preset patches. (Manufacturer press release web text).
+- [ME-90 System Program 1.04](https://www.boss.info/global/support/by_product/me-90/updates_drivers/27c98806-6e6c-4b45-a31f-d3703a7c6a9c/) — 1.04 May 2025 CTL LED/minor fixes; 1.03 July 2023 Tone Studio, IR Loader and stability. (Manufacturer release notes and current support index).
+- [ME-90 Parameter Guide](https://static.roland.com/assets/media/pdf/ME-90_parameter_eng01_W.pdf) — Pages 2–4 Poly Octave/S-BEND alternatives; 6–7 MOD pitch; 14–16 EQ/FX2 pitch alternatives; 18 single-note pedal bends. No CPU percentage specified. (Manufacturer PDF web text).
+
+<!-- firmware-pitch:BOSS::ME-90 ends -->
+
 Consolidated and refreshed **2026-10-16**; partial verification. This is the guitar ME-90, not ME-90B. Original dates, sources and price qualifications remain below. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- BOSS-ME-90 source begins -->
