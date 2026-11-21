@@ -2819,6 +2819,31 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,39–41
 
 ## FM9 Turbo
 
+<!-- firmware-pitch:Fractal Audio::FM9 Turbo begins -->
+### Firmware and pitch audit — Fractal Audio FM9 Turbo
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022-08 (manufacturer announcement month proxy). Manufacturer timeline dates FM9 Turbo announcement to August2022. Announcement month used as release proxy; exact first shipment day unverified. This is the earlier Turbo, not February2024 MKII. [launch 1](https://www.fractalaudio.com/about/) |
+| Firmware / latest verification | 12.0 — Latest verified. Current manufacturer downloads explicitly names FM9 Turbo compatibility for main firmware12.0, July7,2026. Separate USB firmware1.04 and November2026 driver are not main DSP firmware; installed version untested. [firmware 1](https://www.fractalaudio.com/fm9-downloads/) |
+| Firmware / release date | 2026-07-07 (day precision) |
+| Firmware / release-to-update duration | 3.85–3.93 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Virtual Capo is documented polyphonic, ±24 semitones. Dedicated Pitch includes detune, chromatic/intelligent/custom harmony, whammy and octave modes with mode-specific tracking. Current family guide permits one Pitch block on FM9; polyphony is not claimed for every subtype. [pitch 1](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) [pitch 2](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) |
+| Pitch / preset recall | 512 writable presets, eight scenes per preset and up to four block channels; settings/subtypes recalled through channels/scenes. Own firmware3.x manual explicitly covers Original and Turbo. Hardware recall untested. |
+| Pitch / DSP resources | One Pitch instance shares finite resources; no verified Virtual Capo CPU percentage located. Own firmware3.x manual recommends about80% on its meter and describes excess-load muting/block-insertion safeguards. Amp, Delay and Reverb run on dedicated cores and barely affect that meter, so it is not total device utilization. Turbo over10% DSP increase over original is hardware capacity, not pitch cost. |
+| Pitch / qualifications | No tracking, latency, CPU or installation measurements. Family-manual resource policy is revision-qualified, not certified behavior on firmware12.0. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Fractal Audio product timeline](https://www.fractalaudio.com/about/) — August2022 FM9 Turbo announcement and over10% DSP increase versus original; announcement month used as release proxy. (Manufacturer timeline read).
+- [FM9 downloads](https://www.fractalaudio.com/fm9-downloads/) — Firmware12.0 July7,2026 explicitly names FM9 Turbo compatibility; separate USB firmware and driver. (Manufacturer current page read).
+- [FM9 Owner’s Manual, firmware3.x, August2022](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) — Own Original/Turbo manual: 512 presets, scenes/channels and CPU policy; some effects use dedicated cores. (Manufacturer original PDF text read, pp2,39,48).
+- [Fractal Audio Blocks Guide, November2026](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) — FM9 one Pitch block; Virtual Capo explicitly polyphonic ±24 semitones. (Manufacturer original PDF text read previously in this research session, pp3,76–86).
+
+<!-- firmware-pitch:Fractal Audio::FM9 Turbo ends -->
+
 Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully verified. This is the August2022 Turbo, distinct from original FM9 and February2024 MKII Turbo. [Manufacturer timeline](https://www.fractalaudio.com/about/) and [family comparison](https://www.fractalaudio.com/family/) specify **10+% more DSP than original**, not a measured latency or guaranteed effect-count increase. The [3.x August2022 manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) explicitly covers **Original and TURBO**; its shared facts below are not inferred from a sibling or current MKII advertising. No ownership assertion.
 
 <!-- comparison evidence begins -->
