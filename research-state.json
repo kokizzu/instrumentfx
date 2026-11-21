@@ -193161,11 +193161,35 @@
             "sha256": "f79cc56d22ac70c181ab7f0e47a3ff13711d4a6b37aa62d81e5eae1ad555a9df"
           }
         }
+      },
+      "BOSS::VE-2": {
+        "model_key": "BOSS::VE-2",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/assets/images/products/main/ve-2_top_main.jpg",
+            "source_url": "https://www.boss.info/global/products/ve-2/",
+            "caption": "BOSS VE-2 — top panel",
+            "note": "Official straight top-down product photograph with illuminated harmony, Auto Harmonist, Enhance, Variation and blue status indicators. This model has no numeric/LCD screen. Source is 459 × 330 pixels; small labels are limited by resolution. Promotional image, not independent device operation.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "f2fec7d6c9e22f77ff4fd34df526b4662a82b3fcda0f4f5410c8d96c129da90c"
+          },
+          "rear": {
+            "image_url": "https://media.mydukkan.com/image/25554/OBJE/VE-2_Rear-Panel25554.jpg",
+            "source_url": "https://www.mydukkan.com/boss-ve-2-vocal-harmonist-vokal-prosesor-u-37099",
+            "caption": "BOSS VE-2 — rear connections",
+            "note": "Unobstructed retailer rear photograph shows GUITAR IN/THRU, MIC IN, MIC SENS, PHANTOM, PHONES/LINE OUT, GND, XLR OUT, USB Type-B, VARIATION/MEMORY, DC IN and POWER. Rear view alone does not establish operating power state.",
+            "visual_checked": true,
+            "sha256": "09140d4516bcd04a1a2d3ee140096c44f62aa430681fe8ef9b5cb6f7342105c5"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::VE-8"
+    "last_model": "BOSS::VE-2"
   }
 }
