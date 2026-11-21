@@ -1677,6 +1677,33 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 
 ## TANK-PRO
 
+<!-- firmware-pitch:M-VAVE::TANK-PRO begins -->
+### Firmware and pitch audit — M-VAVE TANK-PRO
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025-10 (manufacturer trade-show debut proxy; first retail sale unknown). Manufacturer news index explicitly describes Tank Pro debut at Music China Shanghai 2025, recap dated October 25. Month precision used because recap date is not exact announcement day or first retail availability. Direct article currently returns shell; dated manufacturer index supplies this limited introduction proxy. [launch 1](https://www.m-vave.com/news) [launch 2](https://www.m-vave.com/news-article?id=sh-2025) |
+| Firmware / latest verification | V40 — Latest verified. Current index and original decoded notes agree. V40 adds persistent COMBO LOCK for A+B/C+D while retaining B+C, single switches and startup safe entry; improves UI/EQ knob response and NAM/NAN badges; fixes temporary audition-model saves and drum-volume restoration. V38 October 13 changes looper record trigger from release to press and adds tuner scale game. V35 September 18 explicitly introduces native NAM A2 and twelve white-box drives; architecture/file limitations and capacities remain unverified, not unrestricted native loading. Older AM4 conversion workflow remains historical evidence. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK%20PRO.txt) |
+| Firmware / release date | 2026-11-09 (day precision) |
+| Firmware / release-to-update duration | 1.02–1.11 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manufacturer-authored effect appendix lists Pitch, Pitch shifter and Octave as FX1/FX2 alternatives and EQ alternatives. MOD includes Vibrato variants; delay Ice and reverb Shimmer names alone do not establish their intervals or chord tracking. No documented polyphonic input, exact pitch range or voice count found. Shared FX categories are alternatives, not twenty/fourty simultaneous algorithms; no MK-20/MK-300 Whammy behavior borrowed. [pitch 1](https://device.report/m/3544d1e57e0069ad2be035b67327d578bba8627e5ef3f4374741e51704264f55) [pitch 2](https://www.manualslib.com/manual/4590071/M-Vave-Tank-Pro.html?page=19) [pitch 3](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK%20PRO.txt) |
+| Pitch / preset recall | 120 editable locations: thirty banks of four, sixty supplied sounds and sixty effects-off starting setups. Pitch can be stored in presets within the ten-block DSP-limited architecture; duplicate category placement does not guarantee three concurrent heavy pitch blocks. Manual external pedal P1/P2 target-state behavior is preset-specific, not universal global assignment. V40 preserves local model selection when saving during temporary PC model audition; this does not establish gapless pitch switching. |
+| Pitch / DSP resources | No pitch-only DSP percentage, tracking latency or tested maximum concurrency found. Manufacturer manual exposes overall CPU and warns above 90% can cause problems. Ten movable modules plus Global EQ share resources; whole-preset screenshots and UI optimization are not pitch-cost measurements. No hardware benchmark performed. |
+| Pitch / qualifications | Original note recovered with strict GB18030: 7,002 bytes, SHA256 d120460b34adfb7b620161a4fa4b4862a679061abdb291f5ca2dcc76db92ef42, 133 lines, V35–V40. Earlier Unicode retrieval failures remain historical. Manufacturer-authored operating manual checked on previously identified original-body mirror; fresh byte equivalence with older official PDF not claimed. No firmware install, application execution, model download or audio/controller test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Current M-VAVE TANK-PRO firmware index](https://www.m-vave.com/download) — V40 November 9, 2026. (Current manufacturer index opened).
+- [Official TANK PRO original release history](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK%20PRO.txt) — V35–V40 native NAM A2, looper triggering, combo lock and preset/model fixes; full bytes and hash retained. (Bounded exact-name repository reader; strict GB18030 decoding).
+- [Manufacturer-authored TANK PRO operating manual mirror](https://device.report/m/3544d1e57e0069ad2be035b67327d578bba8627e5ef3f4374741e51704264f55) — Pitch alternatives, preset architecture and whole-system CPU warning. (Previously identified original-body mirror read as text).
+- [TANK PRO manual effects appendix EN18](https://www.manualslib.com/manual/4590071/M-Vave-Tank-Pro.html?page=19) — Pitch/Pitch shifter/Octave in shared FX and EQ alternatives; no polyphony guarantee. (Manufacturer-authored page table checked on mirror).
+- [Manufacturer dated news index](https://www.m-vave.com/news) — October 2025 Music China debut explicitly names Tank Pro. (Official dated recap summaries read directly).
+- [Music China Shanghai 2025 recap](https://www.m-vave.com/news-article?id=sh-2025) — Limited month-level introduction proxy from manufacturer index, not first-sale date. (Linked by official dated news index; direct body currently shell).
+
+<!-- firmware-pitch:M-VAVE::TANK-PRO ends -->
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-14.** Not TANK-G/B or MK-300.
