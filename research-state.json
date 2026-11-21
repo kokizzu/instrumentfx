@@ -197112,11 +197112,35 @@
             "sha256": "a5b4883bb97880d6db056c003330b91ab345596b0d3143a6483300ef15a4b631"
           }
         }
+      },
+      "MOOER::GS1000 Li": {
+        "model_key": "MOOER::GS1000 Li",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GS1000_Li-01.png?v=1759297424&width=1946",
+            "source_url": "https://mooer.jp/products/mooer-gs1000-li",
+            "caption": "MOOER GS1000 Li powered-on top view",
+            "note": "Straight overhead black/orange GS1000 Li, Li badge, illuminated 50 A screen, HOME indicator and ambient strip. The pictured 40% battery and 15% whole-preset DSP readings are illustrative, not measured runtime or isolated pitch DSP cost.",
+            "visual_checked": true,
+            "sha256": "9d07aab33e258b3fc9a4549c93dc22cfaa768f582a548d8a3213a2d508c151c4",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GS1000_Li-02.png?v=1759297424&width=1946",
+            "source_url": "https://mooer.jp/products/mooer-gs1000-li",
+            "caption": "MOOER GS1000 Li rear ports",
+            "note": "Full straight rear view: EXP, guitar input, combo MIC input, MIC GAIN, 48V switch, stereo FX LOOP SEND/RETURN, balanced L/R outputs, phones, USB-C, MIDI IN/OUT and DC 9V 3A center-negative marking. Combo XLR is an input, not an additional output.",
+            "visual_checked": true,
+            "sha256": "984ba8c6028882288587630eb175e6396320bbf7c00bb6bcddc271c2a8974624"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GS1000"
+    "last_model": "MOOER::GS1000 Li"
   }
 }

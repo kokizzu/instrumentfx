@@ -3293,6 +3293,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GS1000 Li ends -->
 
+<!-- model-images:MOOER::GS1000 Li begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GS1000 Li powered-on top view**
+
+[![MOOER GS1000 Li powered-on top view](https://mooer.jp/cdn/shop/files/GS1000_Li-01.png?v=1759297424&width=1946)](https://mooer.jp/cdn/shop/files/GS1000_Li-01.png?v=1759297424&width=1946)
+
+[Image source](https://mooer.jp/products/mooer-gs1000-li). Straight overhead black/orange GS1000 Li, Li badge, illuminated 50 A screen, HOME indicator and ambient strip. The pictured 40% battery and 15% whole-preset DSP readings are illustrative, not measured runtime or isolated pitch DSP cost.
+
+**MOOER GS1000 Li rear ports**
+
+[![MOOER GS1000 Li rear ports](https://mooer.jp/cdn/shop/files/GS1000_Li-02.png?v=1759297424&width=1946)](https://mooer.jp/cdn/shop/files/GS1000_Li-02.png?v=1759297424&width=1946)
+
+[Image source](https://mooer.jp/products/mooer-gs1000-li). Full straight rear view: EXP, guitar input, combo MIC input, MIC GAIN, 48V switch, stereo FX LOOP SEND/RETURN, balanced L/R outputs, phones, USB-C, MIDI IN/OUT and DC 9V 3A center-negative marking. Combo XLR is an input, not an additional output.
+
+</details>
+<!-- model-images:MOOER::GS1000 Li ends -->
+
+
 <!-- comparison evidence begins -->
 
 Checked 2026-10-18. Battery edition, distinct from standard GS1000. Partial record. Shared manufacturer manual explicitly covers both and separates power/mass; not an inference from a sibling. [Shared manual][GSL-M];[manufacturer editions][GSL-P].
