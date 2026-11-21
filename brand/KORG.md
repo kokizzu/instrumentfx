@@ -166,6 +166,32 @@ Both retrieved Englishp10 editions identify CANCEL forfactory-reload entry andWR
 
 ## AX3G
 
+<!-- firmware-pitch:Korg::AX3G begins -->
+### Firmware and pitch audit — Korg AX3G
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005-12 (announced availability proxy). November 5, 2005 launch report schedules AX3G/AX3B availability for December 2005. This is an announced availability proxy; first actual shipment and regional dates remain unconfirmed. [launch 1](https://sonicstate.com/news/2005/11/05/music-live-new-guitar-multi-fx-from-korg/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact support page lists Effect Parameter Guide, Owner’s Manual and Easy Start Guide only, all uploaded June 1, 2015. No public firmware package or device changelog located; manual dates do not establish a device update. Span uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/33/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD F7 PITCH has separate wet/direct levels, fine tuning and tracking adjustment. Range conflict: parameter guide says two octaves each way; owner’s-manual chart lists −12…+12. Neither establishes polyphonic tracking. PRE OCTAVE explicitly supports single notes only. [pitch 1](https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3G_FXParamGuide_E1.pdf&response-content-type=application%2Fpdf%3B) [pitch 2](https://cdn.korg.com/us/support/download/files/ca195967ff7882df4b0a35a580860922.pdf?response-content-disposition=inline%3Bfilename%3DAX3G_EFG3.pdf&response-content-type=application%2Fpdf%3B) [pitch 3](https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf?response-content-disposition=inline%3Bfilename%3DAX3_EasyStart.pdf&response-content-type=application%2Fpdf%3B) |
+| Pitch / preset recall | 40 user programs store edited effect types and parameters; 40 factory presets can be edited but saved only to user locations. Hardware recall untested. |
+| Pitch / DSP resources | PITCH uses the single MOD selection, replacing other MOD choices. PRE OCTAVE uses a separate stage. Overall six-effect chain includes noise reduction; no pitch CPU percentage located. |
+| Pitch / qualifications | Earlier ±24-semitone summary follows parameter-guide prose only; it is qualified by the conflicting owner-manual table, not a measured range. Fine tuning is described in cents by the AX3G guide; no AX3B unit inference is made. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Music Live: New Guitar Multi-FX From Korg — November 5, 2005](https://sonicstate.com/news/2005/11/05/music-live-new-guitar-multi-fx-from-korg/) — AX3G/AX3B scheduled for December 2005; qualified availability proxy. (Contemporaneous launch report read).
+- [Korg AX3G support downloads](https://www.korg.com/us/support/download/product/1/33/) — Three manuals dated June 1, 2015; no device firmware listed. (Manufacturer exact-model page read).
+- [AX3G Effect Parameter Guide E1](https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3G_FXParamGuide_E1.pdf&response-content-type=application%2Fpdf%3B) — PITCH prose says two octaves each way, fine tuning in cents; OCTAVE single-note limitation. (Manufacturer original PDF read).
+- [AX3G Owner’s Manual EFG3](https://cdn.korg.com/us/support/download/files/ca195967ff7882df4b0a35a580860922.pdf?response-content-disposition=inline%3Bfilename%3DAX3G_EFG3.pdf&response-content-type=application%2Fpdf%3B) — Page 34 MOD F7 PITCH table gives −12…+12, differing from parameter-guide prose. (Indexed manufacturer appendix read; full open exceeds tool size limit).
+- [AX3-Series EasyStart](https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf?response-content-disposition=inline%3Bfilename%3DAX3_EasyStart.pdf&response-content-type=application%2Fpdf%3B) — Explicit AX3G six-effect allocation, MOD pitch category and 40 user plus 40 factory program storage. (Manufacturer original PDF read).
+
+<!-- firmware-pitch:Korg::AX3G ends -->
+
 Guitar multi-effects; separate from AX3B/AX3A. Checked 2026-10-17; partial. Ownership and bass/vocal suitability unverified. Discontinued.
 
 | Field | Finding / qualification | Evidence |

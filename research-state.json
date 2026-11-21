@@ -191903,6 +191903,78 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Korg::AX3G": {
+        "model_key": "Korg::AX3G",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2005-12",
+          "precision": "month",
+          "kind": "announced_availability_proxy",
+          "source_urls": [
+            "https://sonicstate.com/news/2005/11/05/music-live-new-guitar-multi-fx-from-korg/"
+          ],
+          "note": "November 5, 2005 launch report schedules AX3G/AX3B availability for December 2005. This is an announced availability proxy; first actual shipment and regional dates remain unconfirmed."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/33/"
+          ],
+          "note": "Exact support page lists Effect Parameter Guide, Owner’s Manual and Easy Start Guide only, all uploaded June 1, 2015. No public firmware package or device changelog located; manual dates do not establish a device update. Span uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD F7 PITCH has separate wet/direct levels, fine tuning and tracking adjustment. Range conflict: parameter guide says two octaves each way; owner’s-manual chart lists −12…+12. Neither establishes polyphonic tracking. PRE OCTAVE explicitly supports single notes only.",
+          "preset": "40 user programs store edited effect types and parameters; 40 factory presets can be edited but saved only to user locations. Hardware recall untested.",
+          "dsp": "PITCH uses the single MOD selection, replacing other MOD choices. PRE OCTAVE uses a separate stage. Overall six-effect chain includes noise reduction; no pitch CPU percentage located.",
+          "source_urls": [
+            "https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3G_FXParamGuide_E1.pdf&response-content-type=application%2Fpdf%3B",
+            "https://cdn.korg.com/us/support/download/files/ca195967ff7882df4b0a35a580860922.pdf?response-content-disposition=inline%3Bfilename%3DAX3G_EFG3.pdf&response-content-type=application%2Fpdf%3B",
+            "https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf?response-content-disposition=inline%3Bfilename%3DAX3_EasyStart.pdf&response-content-type=application%2Fpdf%3B"
+          ],
+          "measurements": [],
+          "notes": [
+            "Earlier ±24-semitone summary follows parameter-guide prose only; it is qualified by the conflicting owner-manual table, not a measured range. Fine tuning is described in cents by the AX3G guide; no AX3B unit inference is made."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://sonicstate.com/news/2005/11/05/music-live-new-guitar-multi-fx-from-korg/",
+            "title": "Music Live: New Guitar Multi-FX From Korg — November 5, 2005",
+            "access": "Contemporaneous launch report read",
+            "evidence": "AX3G/AX3B scheduled for December 2005; qualified availability proxy."
+          },
+          {
+            "url": "https://www.korg.com/us/support/download/product/1/33/",
+            "title": "Korg AX3G support downloads",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "Three manuals dated June 1, 2015; no device firmware listed."
+          },
+          {
+            "url": "https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3G_FXParamGuide_E1.pdf&response-content-type=application%2Fpdf%3B",
+            "title": "AX3G Effect Parameter Guide E1",
+            "access": "Manufacturer original PDF read",
+            "evidence": "PITCH prose says two octaves each way, fine tuning in cents; OCTAVE single-note limitation."
+          },
+          {
+            "url": "https://cdn.korg.com/us/support/download/files/ca195967ff7882df4b0a35a580860922.pdf?response-content-disposition=inline%3Bfilename%3DAX3G_EFG3.pdf&response-content-type=application%2Fpdf%3B",
+            "title": "AX3G Owner’s Manual EFG3",
+            "access": "Indexed manufacturer appendix read; full open exceeds tool size limit",
+            "evidence": "Page 34 MOD F7 PITCH table gives −12…+12, differing from parameter-guide prose."
+          },
+          {
+            "url": "https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf?response-content-disposition=inline%3Bfilename%3DAX3_EasyStart.pdf&response-content-type=application%2Fpdf%3B",
+            "title": "AX3-Series EasyStart",
+            "access": "Manufacturer original PDF read",
+            "evidence": "Explicit AX3G six-effect allocation, MOD pitch category and 40 user plus 40 factory program storage."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -191916,7 +191988,6 @@
       "Korg::AX3000B",
       "Korg::AX3000G",
       "Korg::AX30G",
-      "Korg::AX3G",
       "Korg::AX5B",
       "Korg::AX5G",
       "Korg::PANDORA stomp",
@@ -192142,9 +192213,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 168,
-    "last_model": "Korg::AX3B",
-    "last_commit_parent": "df1e1686a7be8e17eac110dbbdafb87c84809c25",
+    "completed_model_count": 169,
+    "last_model": "Korg::AX3G",
+    "last_commit_parent": "b8df8c587d9cd20df1c22477eb0e0191d2f8c94d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -192157,7 +192228,6 @@
       "Korg::AX3000B",
       "Korg::AX3000G",
       "Korg::AX30G",
-      "Korg::AX3G",
       "Korg::AX5B",
       "Korg::AX5G",
       "Korg::PANDORA stomp",
@@ -192382,7 +192452,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 168,
+    "pitch_completed_model_count": 169,
     "supplemental_model_count": 0
   },
   "model_images": {
