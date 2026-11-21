@@ -929,6 +929,26 @@ Sources checked:
 
 <!-- firmware-pitch:Flamma::FX100 ends -->
 
+<!-- model-images:Flamma::FX100 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**FX100 powered-on top-down product view**
+
+[![FX100 powered-on top-down product view](https://cdn.shopify.com/s/files/1/0260/4476/0127/products/FX100-11.jpg?v=1599276312)](https://cdn.shopify.com/s/files/1/0260/4476/0127/products/FX100-11.jpg?v=1599276312)
+
+[Image source](https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100). Manufacturer product cutout viewed from above; screen visibly shows P001 80s Clean and multiple blue module indicators are illuminated. Full front controls and expression treadle visible.
+
+**FX100 rear ports — manufacturer connection graphic**
+
+[![FX100 rear ports — manufacturer connection graphic](https://cdn.shopify.com/s/files/1/0260/4476/0127/t/9/assets/pf-36284cb6--1-1-Edited-Edited.jpg?v=1590143653)](https://cdn.shopify.com/s/files/1/0260/4476/0127/t/9/assets/pf-36284cb6--1-1-Edited-Edited.jpg?v=1590143653)
+
+[Image source](https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100). Rear product photograph embedded in a connection diagram, not an unannotated standalone shot. Visible AUX IN, INPUT, LEFT/MONO and RIGHT outputs, PHONES, USB-B, separate micro-USB OTG and DC IN marked 9V 300mA center-negative. Diagram icons and lines are composited annotations; they do not verify USB audio formats or imply all USB sockets have the same function.
+
+</details>
+<!-- model-images:Flamma::FX100 ends -->
+
+
 **Original technical/price observation date:2026-10-14. Manufacturer store rechecked2026-10-17 for the mass conflict and USB recording; remaining original facts are not freshly certified. Partial.**
 
 <!-- comparison evidence begins -->

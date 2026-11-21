@@ -178522,7 +178522,7 @@
       13
     ],
     "index_url": "https://flammainnovation.com/goods/support?goodsName=FX100",
-    "index_needle": "attachments",
+    "index_needle": "connections",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -188734,11 +188734,35 @@
             "sha256": "f52d4667403ba208a700240cd8766c16c9df668819dbf507697e317efa8d733a"
           }
         }
+      },
+      "Flamma::FX100": {
+        "model_key": "Flamma::FX100",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://cdn.shopify.com/s/files/1/0260/4476/0127/products/FX100-11.jpg?v=1599276312",
+            "source_url": "https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100",
+            "caption": "FX100 powered-on top-down product view",
+            "note": "Manufacturer product cutout viewed from above; screen visibly shows P001 80s Clean and multiple blue module indicators are illuminated. Full front controls and expression treadle visible.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "67ad2ff0719b31ccd0fdecbeaa9d14dba2b694890333ce4f9dacabf672bc7115"
+          },
+          "rear": {
+            "image_url": "https://cdn.shopify.com/s/files/1/0260/4476/0127/t/9/assets/pf-36284cb6--1-1-Edited-Edited.jpg?v=1590143653",
+            "source_url": "https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100",
+            "caption": "FX100 rear ports — manufacturer connection graphic",
+            "note": "Rear product photograph embedded in a connection diagram, not an unannotated standalone shot. Visible AUX IN, INPUT, LEFT/MONO and RIGHT outputs, PHONES, USB-B, separate micro-USB OTG and DC IN marked 9V 300mA center-negative. Diagram icons and lines are composited annotations; they do not verify USB audio formats or imply all USB sockets have the same function.",
+            "visual_checked": true,
+            "sha256": "765614253fec1abb7a8c80980a6d623b71cafdb05efa20b86fa9597f5a2e7bfa"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Flamma::FV05 Recorder"
+    "last_model": "Flamma::FX100"
   }
 }
