@@ -2689,6 +2689,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::M13 ends -->
 
+<!-- model-images:Line 6::M13 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Line 6 M13 top controls**
+
+[![Line 6 M13 top controls](https://medias.audiofanzine.com/images/normal/line-6-m13-6650382.jpeg)](https://medias.audiofanzine.com/images/normal/line-6-m13-6650382.jpeg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/line-6/m13/). Visually checked: exact M13 powered on, with all four illuminated LCDs, complete knob groups and all 15 footswitches visible. Near-overhead view has slight perspective and screen glare; not a perfectly orthographic top-down photograph.
+
+**Line 6 M13 rear ports**
+
+[![Line 6 M13 rear ports](https://medias.audiofanzine.com/images/normal/line-6-m13-3031523.jpg)](https://medias.audiofanzine.com/images/normal/line-6-m13-3031523.jpg)
+
+[Image source](https://fr.audiofanzine.com/multieffet-guitare-electrique/line-6/m13/). Visually checked: exact M13 with complete readable rear connector row: stereo outputs, send/return and inputs, two expression sockets, MIDI IN/OUT, power switch and inlet. Labels are upside down in the source photograph.
+
+</details>
+<!-- model-images:Line 6::M13 ends -->
+
+
 Admitted **2026-11-01 as a partial catalogue record**, after the saved manufacturer-guide, FAQ and service-document passes established its four-unit multi-effects architecture and hardware profile. It is not fully verified. Historical discovery wording below predates this admission and remains for provenance. No qualified Shopee Indonesia processor offer is established; price absence does not establish hardware ineligibility or market unavailability.
 
 <!-- comparison evidence begins -->

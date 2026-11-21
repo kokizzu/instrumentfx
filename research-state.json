@@ -195582,11 +195582,35 @@
             "sha256": "e99745bdcf0140e221440aa1faef69f0dff34ddf2e3cd0cdab03bc1b88c4ff8b"
           }
         }
+      },
+      "Line 6::M13": {
+        "model_key": "Line 6::M13",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/line-6-m13-6650382.jpeg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/line-6/m13/",
+            "caption": "Line 6 M13 top controls",
+            "note": "Visually checked: exact M13 powered on, with all four illuminated LCDs, complete knob groups and all 15 footswitches visible. Near-overhead view has slight perspective and screen glare; not a perfectly orthographic top-down photograph.",
+            "visual_checked": true,
+            "sha256": "e545cac4d6d14e8ce594741ae66119f2ee4c0aeef998999169956da9462a0862",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/line-6-m13-3031523.jpg",
+            "source_url": "https://fr.audiofanzine.com/multieffet-guitare-electrique/line-6/m13/",
+            "caption": "Line 6 M13 rear ports",
+            "note": "Visually checked: exact M13 with complete readable rear connector row: stereo outputs, send/return and inputs, two expression sockets, MIDI IN/OUT, power switch and inlet. Labels are upside down in the source photograph.",
+            "visual_checked": true,
+            "sha256": "83e9712367c1a2ec0d54b40686a3d2d484b6cd4b97b938034bc3a1b9b06dee1f"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::PANDORA stomp"
+    "last_model": "Line 6::M13"
   }
 }
