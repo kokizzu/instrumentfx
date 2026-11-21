@@ -1672,6 +1672,26 @@ Sources checked:
 
 <!-- firmware-pitch:NUX::MG-400 ends -->
 
+<!-- model-images:NUX::MG-400 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**NUX MG-400 — top controls**
+
+[![NUX MG-400 — top controls](https://www.nux.us/cdn/shop/files/MG-400_W_01.jpg?v=1756899623&width=2400)](https://www.nux.us/cdn/shop/files/MG-400_W_01.jpg?v=1756899623&width=2400)
+
+[Image source](https://www.nux.us/products/mg-400). Visually inspected official overhead MG-400 image with active color LCD (patch3D), four footswitches, Master knob and treadle. Orange accessory footswitch cap is shown. Promotional image, not independent powered device testing.
+
+**NUX MG-400 — rear ports**
+
+[![NUX MG-400 — rear ports](https://www.nux.us/cdn/shop/files/MG-400_W_02.jpg?v=1756899623&width=2400)](https://www.nux.us/cdn/shop/files/MG-400_W_02.jpg?v=1756899623&width=2400)
+
+[Image source](https://www.nux.us/products/mg-400). Visually inspected straight rear view: Input, AUX In, Output L/Mono and R, Phones, USB, Power switch and center-negative DC9V labels. No send/return sockets pictured; the launch press-release FX-loop wording is not adopted. USB connector subtype/powering is not established here.
+
+</details>
+<!-- model-images:NUX::MG-400 ends -->
+
+
 <!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Official product](https://nuxaudio.com/product/mg400/); [NUX USA](https://www.nux.us/products/mg-400); [official controls photo](https://www.nux.us/cdn/shop/files/MG-400_Thumbnails.jpg?v=1756899623&width=800).
 

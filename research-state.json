@@ -199415,11 +199415,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "NUX::MG-400": {
+        "model_key": "NUX::MG-400",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.nux.us/cdn/shop/files/MG-400_W_01.jpg?v=1756899623&width=2400",
+            "source_url": "https://www.nux.us/products/mg-400",
+            "caption": "NUX MG-400 — top controls",
+            "note": "Visually inspected official overhead MG-400 image with active color LCD (patch3D), four footswitches, Master knob and treadle. Orange accessory footswitch cap is shown. Promotional image, not independent powered device testing.",
+            "visual_checked": true,
+            "sha256": "dcacd40d187c90864373da99a7fdfd27a313f27f6bc39e722b8a09579ee1c773",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.nux.us/cdn/shop/files/MG-400_W_02.jpg?v=1756899623&width=2400",
+            "source_url": "https://www.nux.us/products/mg-400",
+            "caption": "NUX MG-400 — rear ports",
+            "note": "Visually inspected straight rear view: Input, AUX In, Output L/Mono and R, Phones, USB, Power switch and center-negative DC9V labels. No send/return sockets pictured; the launch press-release FX-loop wording is not adopted. USB connector subtype/powering is not established here.",
+            "visual_checked": true,
+            "sha256": "4e28c555d5254c6ad63249f65244567e45a8d7693a22bfa7491666de11ca3333",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MG-300 MKII"
+    "last_model": "NUX::MG-400"
   }
 }
