@@ -193483,11 +193483,35 @@
             "sha256": "c83143ab1b45c97e1c06fdaa3dffb15a3e232d739cd88b14f1e8c71d7e5f11f1"
           }
         }
+      },
+      "DigiTech::RP255": {
+        "model_key": "DigiTech::RP255",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://adn.harmanpro.com/product_attachments/product_attachments/13_1396032122/RP255_Top_original.jpg",
+            "source_url": "https://adn.harmanpro.com/product_attachments/product_attachments/13_1396032122/RP255_Top_original.jpg",
+            "caption": "DigiTech RP255 — top panel",
+            "note": "Manufacturer Harman asset, discovered via indexed image link and retrieved directly. Straight top-down promotional image shows illuminated RP255 red display and status LEDs. No independent device operation.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "6497fa6221371dc82a952bb47dec1c0b08cea493fb2baed7f241bb3152449fd8"
+          },
+          "rear": {
+            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/580863000000000-02-2000x2000.jpg",
+            "source_url": "https://www.guitarcenter.com/Restock/DigiTech/RP255-Guitar-Multi-Effects-Pedal-1340031077150.gc",
+            "caption": "DigiTech RP255 — rear connections",
+            "note": "Clear retailer rear photograph shows INPUT, AMP/MIXER switch, LEFT (Mono)/RIGHT outputs, headphone socket, AUX IN, USB Type-B and power labeled 9VAC 1.3A. Every socket and label visible. Rear photograph alone does not establish operating power state.",
+            "visual_checked": true,
+            "sha256": "1fc5b7f4c543c7b822c55f487107fffec3f7b078881dbb79aa449901f4853e76"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP350"
+    "last_model": "DigiTech::RP255"
   }
 }
