@@ -902,6 +902,33 @@ The existingNEOMUSIC158235298/52052193549Rp609.760 ask again appears with**two u
 
 ## FX100
 
+<!-- firmware-pitch:Flamma::FX100 begins -->
+### Firmware and pitch audit — Flamma FX100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer demo published 2020-08-10 establishes public promotion by that date, not exact first shipment or global launch. No verified first-sale date located. [launch 1](https://www.youtube.com/watch?v=zoUxSchWcig) [launch 2](https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100) |
+| Firmware / latest verification | Not verified — Unverified. Maker lists FX100 V1.0.4 Windows/macOS editor installers and documents firmware updating, but no separately identified device-firmware version, dated changelog or release date was verified. Do not relabel editor V1.0.4 as firmware or manual V04/2025-03-27 as an update. [firmware 1](https://flammainnovation.com/goods/support?goodsName=FX100) [firmware 2](https://flammainnovation.com/download.html) [firmware 3](https://www.flamma.shop/pages/manual) [firmware 4](https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD choices include PITCH SHIFT (whammy-style shifting), DETUNE (fine pitch adjustment) and VIBRATO. Neither mono/polyphonic input tracking nor a numerical transpose range is specified in the checked manual; a whammy description does not prove chord tracking. [pitch 1](https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf) [pitch 2](https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100) |
+| Pitch / preset recall | 200 advertised patch locations. Manual p10 saves edited presets into a selected slot and edits its name; pitch is a selectable MOD type within a patch. Protected factory versus writable-user allocation remains unverified. |
+| Pitch / DSP resources | Nine category modules with one selected type per module; Pitch Shift and Detune occupy the same MOD category rather than independent duplicate blocks. Numerical DSP/CPU cost and remaining capacity are not published; nine modules is not nine freely duplicated pitch processors. |
+| Pitch / qualifications | Pitch shifting, detuning and vibrato have different purposes; chorus is not evidence of a dedicated polyphonic transpose engine. No hardware tracking, latency or resource measurement performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [FX100 current manufacturer V04 owner manual](https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf) — MOD pitch algorithm list; category selection, preset save procedure. Firmware version and numerical pitch DSP cost not established. (Direct 33-page maker PDF; SHA256 9104e60de3e38ef846dc03aacc3c863a48d308bd5bf35419d9e15daadd826632; printed pp8,10,28 visually checked).
+- [FLAMMA FX100 own product page](https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100) — 200 patches and nine effect categories; no pitch-polyphony guarantee or device-firmware release date. (Direct manufacturer store).
+- [FLAMMA FX100 public support record](https://flammainnovation.com/goods/support?goodsName=FX100) — V1.0.4 editor installers for Win/Mac, current manual and firmware-update instructions; no separately verified firmware revision/date. (Bounded inert maker JSON; SHA256 fb28012083b0bf4ca0e40252d646c1c95b96e1b74a3c314a030aa9d872d89016).
+- [FLAMMA download catalogue](https://flammainnovation.com/download.html) — FX100 V1.0.4 desktop packages and owner manual. (Current indexed maker catalogue).
+- [FLAMMA software and manual index](https://www.flamma.shop/pages/manual) — Explicitly labels FX100 V1.0.4 as Software, not a dated firmware history. (Direct current maker index).
+- [Flamma FX100 Official Demo](https://www.youtube.com/watch?v=zoUxSchWcig) — Primary dated public promotion; not proof of first worldwide availability. (Manufacturer Flamma Innovation video; publication 2020-08-10).
+
+<!-- firmware-pitch:Flamma::FX100 ends -->
+
 **Original technical/price observation date:2026-10-14. Manufacturer store rechecked2026-10-17 for the mass conflict and USB recording; remaining original facts are not freshly certified. Partial.**
 
 <!-- comparison evidence begins -->
