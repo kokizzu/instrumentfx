@@ -1639,6 +1639,31 @@ Shopee search recheck 2026-11-05 returned the same four historical asks: Rp1,700
 
 ## RP1000
 
+<!-- firmware-pitch:DigiTech::RP1000 begins -->
+### Firmware and pitch audit — DigiTech RP1000
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2008-12-30 (manufacturer shipping notice proxy). Manufacturer now-shipping announcement reproduced by Premier Guitar; available-by date, not proof of exact first shipment or original announcement. [launch 1](https://www.premierguitar.com/digitech-rp1000-integrated-effects-switching-system-shipping-now) |
+| Firmware / latest verification | Not verified — Unverified. Official product/downloads list X-Edit 2.7.0 Windows/2.7.1 Intel Mac, not a dated RP1000 device-firmware release. Latest firmware version/date and release-to-update span unverified; editor versions and manual compliance dates are not firmware. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://digitech.com/dp/rp1000/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift ±24 semitones; Detune ±24 cents; key/scale Harmony within ±1 octave; Whammy pedal bends including ±1/±2 octaves and Dive Bomb; OC-2-style Octaver adds −1/−2 octave voices. Input-note polyphony unverified. [pitch 1](https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf) [pitch 2](https://digitech.com/dp/rp1000/) |
+| Pitch / preset recall | 100 factory plus 100 writable user presets; user bank initially duplicates factory. Library selections are starting configurations, not extra stored presets. |
+| Pitch / DSP resources | All five pitch/octave types share one Chorus/FX slot, excluding other Chorus/FX choices. Pre/post placement does not add an instance. Ten advertised simultaneous effects do not mean ten pitch blocks; no per-algorithm CPU percentage published in checked sources. |
+| Pitch / qualifications | Do not transfer chord modes from newer standalone Whammy pedals or tracking restrictions from the modeled OC-2 without RP1000-specific evidence. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [DigiTech RP1000 now shipping](https://www.premierguitar.com/digitech-rp1000-integrated-effects-switching-system-shipping-now) — Now-shipping statement; available-by proxy. (Manufacturer announcement reproduced by Premier Guitar, December 30, 2008).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — RP1000 X-Edit GUI/librarian versions, no dated device firmware entry. (Manufacturer current downloads web text).
+- [DigiTech RP1000 product](https://digitech.com/dp/rp1000/) — Current past-product page, editor links and processing overview; not a dated firmware release. (Manufacturer product web text).
+- [RP1000 Owner Manual](https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf) — Printed p22 one Chorus/FX choice; pp27–29 pitch ranges; p3 factory/user memory. No explicit pitch-input polyphony guarantee. (Manufacturer 56-page PDF web text).
+
+<!-- firmware-pitch:DigiTech::RP1000 ends -->
+
 Discontinued guitar multi-effects/switching system;notRP500. Checked2026-10-17;partial. Ownership,bass/vocal suitability unverified.
 
 | Field | Finding / qualification | Evidence |

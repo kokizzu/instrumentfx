@@ -185197,10 +185197,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::RP1000": {
+        "model_key": "DigiTech::RP1000",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2008-12-30",
+          "precision": "day",
+          "kind": "manufacturer_shipping_notice_proxy",
+          "source_urls": [
+            "https://www.premierguitar.com/digitech-rp1000-integrated-effects-switching-system-shipping-now"
+          ],
+          "note": "Manufacturer now-shipping announcement reproduced by Premier Guitar; available-by date, not proof of exact first shipment or original announcement."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://digitech.com/software-downloads/",
+            "https://digitech.com/dp/rp1000/"
+          ],
+          "note": "Official product/downloads list X-Edit 2.7.0 Windows/2.7.1 Intel Mac, not a dated RP1000 device-firmware release. Latest firmware version/date and release-to-update span unverified; editor versions and manual compliance dates are not firmware."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift ±24 semitones; Detune ±24 cents; key/scale Harmony within ±1 octave; Whammy pedal bends including ±1/±2 octaves and Dive Bomb; OC-2-style Octaver adds −1/−2 octave voices. Input-note polyphony unverified.",
+          "preset": "100 factory plus 100 writable user presets; user bank initially duplicates factory. Library selections are starting configurations, not extra stored presets.",
+          "dsp": "All five pitch/octave types share one Chorus/FX slot, excluding other Chorus/FX choices. Pre/post placement does not add an instance. Ten advertised simultaneous effects do not mean ten pitch blocks; no per-algorithm CPU percentage published in checked sources.",
+          "measurements": [],
+          "source_urls": [
+            "https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf",
+            "https://digitech.com/dp/rp1000/"
+          ],
+          "notes": [
+            "Do not transfer chord modes from newer standalone Whammy pedals or tracking restrictions from the modeled OC-2 without RP1000-specific evidence."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.premierguitar.com/digitech-rp1000-integrated-effects-switching-system-shipping-now",
+            "title": "DigiTech RP1000 now shipping",
+            "access": "Manufacturer announcement reproduced by Premier Guitar, December 30, 2008",
+            "evidence": "Now-shipping statement; available-by proxy."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer current downloads web text",
+            "evidence": "RP1000 X-Edit GUI/librarian versions, no dated device firmware entry."
+          },
+          {
+            "url": "https://digitech.com/dp/rp1000/",
+            "title": "DigiTech RP1000 product",
+            "access": "Manufacturer product web text",
+            "evidence": "Current past-product page, editor links and processing overview; not a dated firmware release."
+          },
+          {
+            "url": "https://digitech.com/wp-content/uploads/2022/09/RP1000_OM_EN.pdf",
+            "title": "RP1000 Owner Manual",
+            "access": "Manufacturer 56-page PDF web text",
+            "evidence": "Printed p22 one Chorus/FX choice; pp27–29 pitch ranges; p3 factory/user memory. No explicit pitch-input polyphony guarantee."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::RP1000",
       "DigiTech::RP150",
       "DigiTech::RP155",
       "DigiTech::RP200",
@@ -185526,12 +185591,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 78,
-    "last_model": "DigiTech::GNX4",
-    "last_commit_parent": "da1c1640762876ce81e270f3b8c7c22be2d20a2e",
+    "completed_model_count": 79,
+    "last_model": "DigiTech::RP1000",
+    "last_commit_parent": "66aa9af48d61db261304c57d6c3ef84092741cb2",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::RP1000",
       "DigiTech::RP150",
       "DigiTech::RP155",
       "DigiTech::RP200",
@@ -185856,7 +185920,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 78,
+    "pitch_completed_model_count": 79,
     "supplemental_model_count": 0
   }
 }
