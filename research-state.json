@@ -178521,8 +178521,8 @@
       30,
       30
     ],
-    "index_url": "https://line6.com/company/images/?families=1",
-    "index_needle": "PODxt live",
+    "index_url": "https://line6.com/software/index.html?hardware=M13&name=Flash+Memory&submit_form=set",
+    "index_needle": "2.04",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -192529,6 +192529,82 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::M13": {
+        "model_key": "Line 6::M13",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2008-03-13",
+          "precision": "day",
+          "kind": "announcement_proxy",
+          "source_urls": [
+            "https://fr.audiofanzine.com/multieffet-guitare-electrique/line-6/m13/news/a.play%2Cn.6064.html"
+          ],
+          "note": "Dated Musikmesse announcement report; public introduction proxy, not verified first retail shipment. The precise manufacturer announcement date remains unresolved."
+        },
+        "firmware": {
+          "version": "2.04.00",
+          "date": "2011-01-26",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=M13&name=Flash+Memory&submit_form=set",
+            "https://kb.line6.com/m13-stompbox-modeler-faq"
+          ],
+          "note": "Newest entry in current exact-model Flash Memory catalogue; Echo Platter feedback fix and other enhancements. Manufacturer FAQ also identifies 2.04 as latest. No device update performed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Glide supplies expression-controlled transposition; Smart Harmony supplies key/scale-dependent harmony. Bass Octaver is also in the shared M13/M9/M5 guide. Explicit polyphonic input tracking not established; no Helix Poly Pitch/Capo transfer.",
+          "preset": "48 Scenes in four folders. Each holds 12 A/B/C effect memories with four active, plus Scene-stored expression assignments and heel/toe endpoints. Auto Save retains edits; Manual Save requires explicit saving. Physical held-position recall untested.",
+          "dsp": "Four simultaneous FX Units, one active A/B/C memory per unit. A selected pitch model occupies one unit; 12 memories do not mean 12 concurrent effects. No per-pitch CPU percentage located. Looper remains separate from the four selected FX.",
+          "source_urls": [
+            "https://line6.com/data/6/0a060b316ac34f0594000d02c/application/pdf/M13%20Advanced%20Users%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf",
+            "https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5%2520FX%2520Parameters%2520-%2520English%2520%28%2520Rev%2520B%2520%29.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Firmware v2.0 introduced Pitch Glide, Smart Harmony and Bass Octaver; original 2008 firmware inventory differs. No tracking, latency or CPU hardware measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://fr.audiofanzine.com/multieffet-guitare-electrique/line-6/m13/news/a.play%2Cn.6064.html",
+            "title": "Musikmesse — Line 6 M13 announcement",
+            "access": "Dated announcement report indexed text read; direct page cache miss",
+            "evidence": "Published and updated 2008-03-13; exact-model public introduction report, not shipment evidence."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=M13&name=Flash+Memory&submit_form=set",
+            "title": "M13 exact Flash Memory catalogue",
+            "access": "Direct bounded manufacturer HTML read; SHA256 d341c01863243b5ef5b742ce3fa10615c249e00352cac2614eb237861a4bde51",
+            "evidence": "Newest entry 2.04.00 released 1/26/11; Echo Platter feedback fix and enhancements; warns updates replace custom Scenes."
+          },
+          {
+            "url": "https://kb.line6.com/m13-stompbox-modeler-faq",
+            "title": "M13 manufacturer FAQ",
+            "access": "Current manufacturer knowledge base read",
+            "evidence": "Identifies latest 2.04 firmware with 109 available effects."
+          },
+          {
+            "url": "https://line6.com/data/6/0a060b316ac34f0594000d02c/application/pdf/M13%20Advanced%20Users%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf",
+            "title": "M13 v2.0 Advanced Guide Rev A",
+            "access": "Original manufacturer PDF text read",
+            "evidence": "Four active FX, 12 Scene memories, 48 Scenes, save modes and expression endpoints; v2.0 pitch additions."
+          },
+          {
+            "url": "https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5%2520FX%2520Parameters%2520-%2520English%2520%28%2520Rev%2520B%2520%29.pdf",
+            "title": "M13/M9/M5 FX Parameters Rev B",
+            "access": "Original manufacturer guide read; explicitly covers M13",
+            "evidence": "Smart Harmony, Pitch Glide and Bass Octaver; no explicit polyphonic guarantee or numerical DSP cost located."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1049,
+          "maximum_days": 1049,
+          "label": "2.87 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -192544,7 +192620,6 @@
       "Lexicon::MX300",
       "Lexicon::MX400",
       "Line 6::Helix Stadium XL Floor",
-      "Line 6::M13",
       "M-VAVE::ANN Blackbox",
       "M-VAVE::CUBE BABY AC",
       "M-VAVE::CUBE BABY BASS",
@@ -192760,9 +192835,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 176,
-    "last_model": "Korg::PANDORA stomp",
-    "last_commit_parent": "49154dcf6fab3657a67c6d0a505f07f125715c90",
+    "completed_model_count": 177,
+    "last_model": "Line 6::M13",
+    "last_commit_parent": "4509d687e0f7b841098f4453889b938d13250a52",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -192777,7 +192852,6 @@
       "Lexicon::MX300",
       "Lexicon::MX400",
       "Line 6::Helix Stadium XL Floor",
-      "Line 6::M13",
       "M-VAVE::ANN Blackbox",
       "M-VAVE::CUBE BABY AC",
       "M-VAVE::CUBE BABY BASS",
@@ -192992,7 +193066,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 176,
+    "pitch_completed_model_count": 177,
     "supplemental_model_count": 0
   },
   "model_images": {

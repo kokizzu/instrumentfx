@@ -2663,6 +2663,32 @@ These choices share the existing **three simultaneous FX-unit ceiling**,with A/B
 
 ## M13
 
+<!-- firmware-pitch:Line 6::M13 begins -->
+### Firmware and pitch audit — Line 6 M13
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2008-03-13 (announcement proxy). Dated Musikmesse announcement report; public introduction proxy, not verified first retail shipment. The precise manufacturer announcement date remains unresolved. [launch 1](https://fr.audiofanzine.com/multieffet-guitare-electrique/line-6/m13/news/a.play%2Cn.6064.html) |
+| Firmware / latest verification | 2.04.00 — Latest verified. Newest entry in current exact-model Flash Memory catalogue; Echo Platter feedback fix and other enhancements. Manufacturer FAQ also identifies 2.04 as latest. No device update performed. [firmware 1](https://line6.com/software/index.html?hardware=M13&name=Flash+Memory&submit_form=set) [firmware 2](https://kb.line6.com/m13-stompbox-modeler-faq) |
+| Firmware / release date | 2011-01-26 (day precision) |
+| Firmware / release-to-update duration | 2.87 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Glide supplies expression-controlled transposition; Smart Harmony supplies key/scale-dependent harmony. Bass Octaver is also in the shared M13/M9/M5 guide. Explicit polyphonic input tracking not established; no Helix Poly Pitch/Capo transfer. [pitch 1](https://line6.com/data/6/0a060b316ac34f0594000d02c/application/pdf/M13%20Advanced%20Users%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf) [pitch 2](https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5%2520FX%2520Parameters%2520-%2520English%2520%28%2520Rev%2520B%2520%29.pdf) |
+| Pitch / preset recall | 48 Scenes in four folders. Each holds 12 A/B/C effect memories with four active, plus Scene-stored expression assignments and heel/toe endpoints. Auto Save retains edits; Manual Save requires explicit saving. Physical held-position recall untested. |
+| Pitch / DSP resources | Four simultaneous FX Units, one active A/B/C memory per unit. A selected pitch model occupies one unit; 12 memories do not mean 12 concurrent effects. No per-pitch CPU percentage located. Looper remains separate from the four selected FX. |
+| Pitch / qualifications | Firmware v2.0 introduced Pitch Glide, Smart Harmony and Bass Octaver; original 2008 firmware inventory differs. No tracking, latency or CPU hardware measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Musikmesse — Line 6 M13 announcement](https://fr.audiofanzine.com/multieffet-guitare-electrique/line-6/m13/news/a.play%2Cn.6064.html) — Published and updated 2008-03-13; exact-model public introduction report, not shipment evidence. (Dated announcement report indexed text read; direct page cache miss).
+- [M13 exact Flash Memory catalogue](https://line6.com/software/index.html?hardware=M13&name=Flash+Memory&submit_form=set) — Newest entry 2.04.00 released 1/26/11; Echo Platter feedback fix and enhancements; warns updates replace custom Scenes. (Direct bounded manufacturer HTML read; SHA256 d341c01863243b5ef5b742ce3fa10615c249e00352cac2614eb237861a4bde51).
+- [M13 manufacturer FAQ](https://kb.line6.com/m13-stompbox-modeler-faq) — Identifies latest 2.04 firmware with 109 available effects. (Current manufacturer knowledge base read).
+- [M13 v2.0 Advanced Guide Rev A](https://line6.com/data/6/0a060b316ac34f0594000d02c/application/pdf/M13%20Advanced%20Users%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf) — Four active FX, 12 Scene memories, 48 Scenes, save modes and expression endpoints; v2.0 pitch additions. (Original manufacturer PDF text read).
+- [M13/M9/M5 FX Parameters Rev B](https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5%2520FX%2520Parameters%2520-%2520English%2520%28%2520Rev%2520B%2520%29.pdf) — Smart Harmony, Pitch Glide and Bass Octaver; no explicit polyphonic guarantee or numerical DSP cost located. (Original manufacturer guide read; explicitly covers M13).
+
+<!-- firmware-pitch:Line 6::M13 ends -->
+
 Admitted **2026-11-01 as a partial catalogue record**, after the saved manufacturer-guide, FAQ and service-document passes established its four-unit multi-effects architecture and hardware profile. It is not fully verified. Historical discovery wording below predates this admission and remains for provenance. No qualified Shopee Indonesia processor offer is established; price absence does not establish hardware ineligibility or market unavailability.
 
 <!-- comparison evidence begins -->
