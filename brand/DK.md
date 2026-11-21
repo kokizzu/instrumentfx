@@ -17,7 +17,7 @@
 | Field | Sourced finding |
 |---|---|
 | Firmware / first hardware release | Not verified. Exact manufacturer product identified, but no dated launch established. Quick-guide filename, FCC dates and DKit support dates are not first hardware release dates. [launch 1](https://www.dk-music.cn/pd.jsp?id=97) |
-| Firmware / latest verification | Not verified — Unverified. Manufacturer support index lists iE350 macOS/Windows firmware-update resources without version/date. Manual firmware digits do not extract. DKit app releases are separate; latest device firmware and elapsed span unverified. Direct manufacturer routes timed out; indexed support text available. [firmware 1](https://www.dk-music.cn/col.jsp?id=110) [firmware 2](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html) [firmware 3](https://apps.apple.com/us/app/dkit/id6738170601?platform=ipad) |
+| Firmware / latest verification | 1.0.2 — Located; latest status unverified. Chinese manufacturer support index explicitly labels macOS and Windows firmware packages V1.0.2. English index is unversioned. No dated changelog or proof this is the current latest release; first-release-to-update duration remains unknown. DKit editor app releases are separate. Direct support page returns 502; indexed manufacturer text is available. [firmware 1](https://dk-music.cn/cn/col.jsp?id=109) [firmware 2](https://www.dk-music.cn/col.jsp?id=110) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
 | Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
@@ -36,6 +36,7 @@ Sources checked:
 - [iE-350 effect editing](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=5) — One effect selected per module; DRV/AMP/CAB cannot move. (Original manual text, contents-link access).
 - [iE-350 original bilingual quick guide](https://manuals.plus/m/38e7cfbb78de66e80e6ad6f0089b795c878425515e58336188b7095ffd5f0b16) — Eight modules and 50 factory/50 user memory; filename not launch evidence. (Manufacturer guide mirror indexed text and prior canonical evidence).
 - [DKit manufacturer App Store listing](https://apps.apple.com/us/app/dkit/id6738170601?platform=ipad) — Editor app version history, not pedal firmware releases. (Manufacturer-published app listing).
+- [DK Chinese technical support — versioned iE-350 packages](https://dk-music.cn/cn/col.jsp?id=109) — Both macOS and Windows iE-350 upgrade packages explicitly V1.0.2; no firmware release date listed. (Manufacturer indexed text; direct HTTP 502).
 
 <!-- firmware-pitch:DK::iE-350 ends -->
 
