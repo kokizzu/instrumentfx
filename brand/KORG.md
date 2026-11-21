@@ -471,6 +471,22 @@ Sources checked:
 
 <!-- firmware-pitch:Korg::AX5G ends -->
 
+<!-- model-images:Korg::AX5G begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Korg AX5G powered-on top controls — near-overhead view**
+
+[![Korg AX5G powered-on top controls — near-overhead view](https://i.ebayimg.com/images/g/TtEAAeSwOZ9pPYY1/s-l1200.jpg)](https://i.ebayimg.com/images/g/TtEAAeSwOZ9pPYY1/s-l1200.jpg)
+
+[Image source](https://www.ebay.com/p/78745270?iid=396389095624). Exact AX5G label, illuminated 77 display, footswitch indicators and volume-pedal LED are visible. Complete top surface and expression pedal shown with slight perspective; an exactly perpendicular view and verified rear-port photograph remain pending. A red AX5-family rear image returned under an AX5G listing was excluded because exact guitar-model identity was not established.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:Korg::AX5G ends -->
+
+
 Guitar multi-effects; distinct from AX3G, AX100G and AX5B. Checked 2026-10-17; partial. Discontinued in Korg regional catalogue. Bass/vocal classification unverified.
 
 | Field | Finding / qualification | Evidence |

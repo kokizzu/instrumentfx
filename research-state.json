@@ -194976,11 +194976,27 @@
             "sha256": "5863d5ec00971cdf6c46c538694a6706fe5722da7e34e8e33866ec2a03568122"
           }
         }
+      },
+      "Korg::AX5G": {
+        "model_key": "Korg::AX5G",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://i.ebayimg.com/images/g/TtEAAeSwOZ9pPYY1/s-l1200.jpg",
+            "source_url": "https://www.ebay.com/p/78745270?iid=396389095624",
+            "caption": "Korg AX5G powered-on top controls — near-overhead view",
+            "note": "Exact AX5G label, illuminated 77 display, footswitch indicators and volume-pedal LED are visible. Complete top surface and expression pedal shown with slight perspective; an exactly perpendicular view and verified rear-port photograph remain pending. A red AX5-family rear image returned under an AX5G listing was excluded because exact guitar-model identity was not established.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "6208deed2abcd1d12035b65c55bf0b42ee690d451eb37acc2e886e0b709b5f3d"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX5B"
+    "last_model": "Korg::AX5G"
   }
 }
