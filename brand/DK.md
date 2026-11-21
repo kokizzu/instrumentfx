@@ -39,6 +39,22 @@ Sources checked:
 
 <!-- firmware-pitch:DK::iE-350 ends -->
 
+<!-- model-images:DK::iE-350 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**iE-350 top-down product render with active screen**
+
+[![iE-350 top-down product render with active screen](https://etone.shop/cdn/shop/files/DKIE350GuitarMulti-EffectsPedalboardMainFront_2000x.png?v=1755586382)](https://etone.shop/cdn/shop/files/DKIE350GuitarMulti-EffectsPedalboardMainFront_2000x.png?v=1755586382)
+
+[Image source](https://etone.shop/products/dk-ie350-guitar-multi-effects-pedalboard-with-built-in-rechargeable-battery). Visually inspected retailer product render: P01 Lead 350 screen and blue switch rings depicted active. Not a verified photograph of powered hardware. Rear-port image remains pending.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:DK::iE-350 ends -->
+
+
 Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. Manufacturer product identity and own manual establish inclusion. Shared bass inclusion is supported by its own bass-specific processing library;vocal suitability andownership unverified.
 
 | Field | Evidence / qualification |

@@ -186974,11 +186974,28 @@
           }
         },
         "pending_top": "Inspected magazine photo is angled and unlit; powered-on top-down replacement pending."
+      },
+      "DK::iE-350": {
+        "model_key": "DK::iE-350",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://etone.shop/cdn/shop/files/DKIE350GuitarMulti-EffectsPedalboardMainFront_2000x.png?v=1755586382",
+            "source_url": "https://etone.shop/products/dk-ie350-guitar-multi-effects-pedalboard-with-built-in-rechargeable-battery",
+            "caption": "iE-350 top-down product render with active screen",
+            "note": "Visually inspected retailer product render: P01 Lead 350 screen and blue switch rings depicted active. Not a verified photograph of powered hardware. Rear-port image remains pending.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": true,
+            "sha256": "2b1617d1d2a4f785d8dee2570fc29a43fa00fce9d259e18d9a4c8515abb39c4b"
+          }
+        },
+        "pending": "Powered-on real photograph and rear-port view required; right-side candidate lacked sockets."
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP90"
+    "last_model": "DK::iE-350"
   }
 }
