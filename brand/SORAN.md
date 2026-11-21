@@ -142,6 +142,26 @@ Sources checked:
 
 <!-- firmware-pitch:Soran::Dual Stomp Lite ends -->
 
+<!-- model-images:Soran::Dual Stomp Lite begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Dual Stomp Lite — overhead control-face product image**
+
+[![Dual Stomp Lite — overhead control-face product image](https://jollymusic.com.ph/cdn/shop/files/SORAN-JME02-DUALSTOMPLITE-0W_69a7dbed-3b6c-4d6f-ac63-88a69c67a975.jpg?v=1773816696)](https://jollymusic.com.ph/cdn/shop/files/SORAN-JME02-DUALSTOMPLITE-0W_69a7dbed-3b6c-4d6f-ac63-88a69c67a975.jpg?v=1773816696)
+
+[Image source](https://jollymusic.com.ph/products/soran-jme-02-dual-stomp-lite-multi-effects-processor). Overhead product image depicts P01 Blackface CL and yellow footswitch rings; independent powered-on hardware verification remains pending because retail imagery may be composited. Exact Lite badge visible. Panel has2 knobs,2 footswitches and12 separate buttons (4 system+8 effect); no built-in treadle. Tuner mark is a graphic,not a third footswitch. External EXP is not established by this view.
+
+**Dual Stomp Lite — rear connection panel**
+
+[![Dual Stomp Lite — rear connection panel](https://sterlingmusic.in/cdn/shop/files/DUALSTOMPLITEJME-02.6.jpg?v=1775730631)](https://sterlingmusic.in/cdn/shop/files/DUALSTOMPLITEJME-02.6.jpg?v=1775730631)
+
+[Image source](https://sterlingmusic.in/products/soran-dual-stomp-lite-multi-effect-processor). Inspected Lite rear image shows power slide switch,USB-C audio/charge,TRRS AUX IN/POD OUT,headphones,INPUT,and OUTPUT R/L(MONO). POD OUT belongs to the shared TRRS AUX socket; it is not a separate effects-loop jack. No barrel-power or EXP socket visible on this panel. Labels alone do not establish balancing or USB host capability.
+
+</details>
+<!-- model-images:Soran::Dual Stomp Lite ends -->
+
+
 Guitar/bass multi-effects, checked 2026-10-18; partial. Separate hardware from Dual Stomp and Tiny Stomp; ownership unknown.
 
 | Field | Finding / qualification |
