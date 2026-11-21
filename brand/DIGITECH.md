@@ -1334,6 +1334,31 @@ Shopee search2026-10-18 returned [adapter seller855783279/item22273291654](https
 
 ## RP355
 
+<!-- firmware-pitch:DigiTech::RP355 begins -->
+### Firmware and pitch audit — DigiTech RP355
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2009-01-15 (trade show introduction proxy). Contemporaneous Winter NAMM introduction report; announcement proxy, not exact first retail shipment. Later manual compliance date is not hardware launch. [launch 1](https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/) |
+| Firmware / latest verification | Not verified — Unverified. Official product/downloads offer X-Edit 2.7.0 Windows and 2.7.1 Intel Mac editor/librarian software. Latest RP355 device firmware version/date and elapsed update span remain unverified; editor versions are separate. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://digitech.com/dp/rp355/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift ±24 semitones; Detune ±24 cents; key/scale Harmony Pitch Shifting ±1 octave; Whammy ±1/±2 octaves and Dive Bomb; OC-2-style −1/−2 octaves with independent levels. Input-note polyphony unverified. [pitch 1](https://digitech.com/wp-content/uploads/2022/09/RP355_OM_EN.pdf) [pitch 2](https://digitech.com/dp/rp355/) |
+| Pitch / preset recall | 70 writable user plus 70 read-only factory presets; user locations initially duplicate factory. |
+| Pitch / DSP resources | Whammy, Pitch Shift, Detune, IPS and OC Octaver share one Chorus/FX slot, excluding other row effects. Eleven simultaneous effects overall are not eleven pitch instances. No pitch CPU percentage published in checked sources. |
+| Pitch / qualifications | Harmony level is available on hardware Knob 6. Pitch Shift/Detune/Harmony/Octaver offer pre/post placement; Whammy text lists automatic pre-amp placement and a pre/post parameter. Actual routing not independently tested. Original OC-2 and newer standalone Whammy tracking modes not inferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Winter NAMM 2009: DigiTech RP Series](https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/) — RP355 introduced as a new RP model; not exact shipment date. (Contemporaneous Sweetwater trade-show report, January 15, 2009).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — RP355 editor links; no dated device-firmware entry. (Manufacturer current web text).
+- [DigiTech RP355 product](https://digitech.com/dp/rp355/) — X-Edit 2.7.0 Windows/2.7.1 Intel Mac, AudioDNA2, 11 simultaneous effects, 70 user/70 factory presets. (Manufacturer current web text).
+- [RP355 Owner’s Manual](https://digitech.com/wp-content/uploads/2022/09/RP355_OM_EN.pdf) — Printed p2 memory, p18 one Chorus/FX slot, pp23–24 pitch parameters and hardware harmony level. Whammy placement wording noted. (Manufacturer 40-page PDF web text).
+
+<!-- firmware-pitch:DigiTech::RP355 ends -->
+
 Checked 2026-10-18; partial. Exact RP355, not RP350. [Manufacturer product](https://digitech.com/dp/rp355/) (P); [own manual](https://digitech.com/wp-content/uploads/2022/09/RP355_OM_EN.pdf),40 PDF pages,printed pp4–7,26,28,30 (M); browser text. [Power FAQ](https://digitech.com/faqs/) (F); [software catalogue](https://digitech.com/software-downloads/) (S).
 
 <!-- comparison evidence begins -->
