@@ -197914,6 +197914,85 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "M-VAVE::Pocket Amp": {
+        "model_key": "M-VAVE::Pocket Amp",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2025-10",
+          "precision": "month",
+          "kind": "manufacturer trade-show debut proxy; first sale unknown",
+          "source_urls": [
+            "https://www.m-vave.com/news",
+            "https://www.youtube.com/watch?v=4ga4XHvNTXg"
+          ],
+          "note": "Manufacturer dated news index describes Pocket Amp debut at Music China Shanghai 2025, recap October 25; month precision is a public introduction proxy, not recap-day first sale. Manufacturer release video also located but current access did not establish an exact publication day."
+        },
+        "firmware": {
+          "version": "V105",
+          "date": "2026-10",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.m-vave.com/download",
+            "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/POCKET%20AMP.txt"
+          ],
+          "note": "Current index lists October 13, 2026; complete original notes label October 14. Exact day remains disputed; only shared October 2026 precision used for ranking. V105 claims native NAM A2, six MW FX effects, stereo DLY/MOD, DLY/REV tails, Input Gain and noise-reduction/output-limiter refinements. Short notes do not identify all MW algorithms, accepted NAM architectures, editor minimum or import limits. V103 July 28 adds Speaker Mode; V07→V103 users must load Speaker Mode presets through M-EFCS for sound there. V105 repeats the Speaker Mode addition without explanation. V07 January 31 supports AM4 AMP files."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Exact Pocket AMP manual body documents Shimmer wet pitch from unison up two octaves, Analog delay wet detuning without numeric range, and Vibrato without dry signal. No dedicated general drop/harmony/polyphonic transpose established. V105 stereo DLY/MOD and native NAM A2 refer to channel processing and amp models, not chord-tracking proof. New MW names/complete current effect census unresolved.",
+          "preset": "80 editable tone locations, first 40 factory supplied; current manual body explicitly permits user overwrite/edit/save, unlike older importer ambiguity. Six movable module architecture; 6+1 does not establish seven freely assignable duplicate blocks. Preset VOL buttons differ from MASTER; external MIDI expansion is not verified continuous expression. V105 adds DLY/REV tail settings, but exact modes and gapless/pitch spillover not specified in short note.",
+          "dsp": "No per-pitch DSP percentage, tracking latency or benchmark found. Six movable modules and stereo feature additions do not quantify resource cost or available additional heavy blocks. No sibling 40% performance claim or Whammy figure transferred.",
+          "source_urls": [
+            "https://device.report/manual/19072004",
+            "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/POCKET%20AMP.txt"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original inert manufacturer notes fetched as 1,235 bytes, strict UTF-8-sig, SHA256 9950cbcbee2539d0ef49ce0922ed6e6a5490cc09efee4837ef739346cc61e22d, 35 lines. No firmware installation.",
+            "Previously identified reproduced Pocket AMP manual body read; no new visual or byte-equivalence claim against the earlier filed PDF. Manufacturer 80g/AUX versus importer 120g/no-AUX inventory conflict remains.",
+            "MAIN output documented mono; stereo DLY/MOD does not establish a stereo main jack. Exact USB/headphone routing and current firmware memory census remain untested. No device/audio test or app execution."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.m-vave.com/download",
+            "title": "Current Pocket Amp firmware index",
+            "access": "Manufacturer current index read",
+            "evidence": "V105 October 13, 2026 and V07→V103 Speaker Mode preset-loading caution."
+          },
+          {
+            "url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/POCKET%20AMP.txt",
+            "title": "Official POCKET AMP release history",
+            "access": "Complete inert bytes through exact-source repository target",
+            "evidence": "V105 header October 14 conflicts with index; V103 Speaker Mode and V07 AM4 support."
+          },
+          {
+            "url": "https://device.report/manual/19072004",
+            "title": "Reproduced Pocket AMP operating manual body",
+            "access": "Previously identified exact-model operating text read; not a fresh original-PDF visual audit",
+            "evidence": "Shimmer range, delay wet detune, Vibrato; 80 editable locations, six modules, hand MASTER versus preset controls."
+          },
+          {
+            "url": "https://www.m-vave.com/news",
+            "title": "Manufacturer dated exhibition news index",
+            "access": "Official index read directly",
+            "evidence": "October 2025 Music China debut includes Pocket Amp, not exact retail-sale date."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=4ga4XHvNTXg",
+            "title": "M-VAVE new-product Pocket Amp video",
+            "access": "Manufacturer title indexed; exact publication day unresolved in current access",
+            "evidence": "Additional release lead, not an adopted exact date."
+          }
+        ],
+        "duration": {
+          "minimum_days": 335,
+          "maximum_days": 395,
+          "label": "0.92–1.08 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -197931,7 +198010,6 @@
       "M-VAVE::CUBE BABY AC",
       "M-VAVE::CUBE BABY BASS",
       "M-VAVE::CUBE BABY electric",
-      "M-VAVE::Pocket Amp",
       "MOD Audio::Duo",
       "Mosky::DC5",
       "Mosky::RC5",
@@ -198085,9 +198163,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 236,
-    "last_model": "M-VAVE::MINI-X",
-    "last_commit_parent": "aedcfbc3e11519ec0c8a3666caa38af84b7c2be5",
+    "completed_model_count": 237,
+    "last_model": "M-VAVE::Pocket Amp",
+    "last_commit_parent": "8eede14e14ce401a9871a33f94b50ed86976a804",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -198104,7 +198182,6 @@
       "M-VAVE::CUBE BABY AC",
       "M-VAVE::CUBE BABY BASS",
       "M-VAVE::CUBE BABY electric",
-      "M-VAVE::Pocket Amp",
       "MOD Audio::Duo",
       "Mosky::DC5",
       "Mosky::RC5",
@@ -198257,7 +198334,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 236,
+    "pitch_completed_model_count": 237,
     "supplemental_model_count": 0
   },
   "model_images": {

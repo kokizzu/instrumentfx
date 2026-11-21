@@ -1166,6 +1166,32 @@ Checked **2026-11-06**: [CarLife,shop1521128667/item42069071100](https://shopee.
 
 ## Pocket Amp
 
+<!-- firmware-pitch:M-VAVE::Pocket Amp begins -->
+### Firmware and pitch audit — M-VAVE Pocket Amp
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025-10 (manufacturer trade-show debut proxy; first sale unknown). Manufacturer dated news index describes Pocket Amp debut at Music China Shanghai 2025, recap October 25; month precision is a public introduction proxy, not recap-day first sale. Manufacturer release video also located but current access did not establish an exact publication day. [launch 1](https://www.m-vave.com/news) [launch 2](https://www.youtube.com/watch?v=4ga4XHvNTXg) |
+| Firmware / latest verification | V105 — Latest verified. Current index lists October 13, 2026; complete original notes label October 14. Exact day remains disputed; only shared October 2026 precision used for ranking. V105 claims native NAM A2, six MW FX effects, stereo DLY/MOD, DLY/REV tails, Input Gain and noise-reduction/output-limiter refinements. Short notes do not identify all MW algorithms, accepted NAM architectures, editor minimum or import limits. V103 July 28 adds Speaker Mode; V07→V103 users must load Speaker Mode presets through M-EFCS for sound there. V105 repeats the Speaker Mode addition without explanation. V07 January 31 supports AM4 AMP files. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/POCKET%20AMP.txt) |
+| Firmware / release date | 2026-10 (month precision) |
+| Firmware / release-to-update duration | 0.92–1.08 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Exact Pocket AMP manual body documents Shimmer wet pitch from unison up two octaves, Analog delay wet detuning without numeric range, and Vibrato without dry signal. No dedicated general drop/harmony/polyphonic transpose established. V105 stereo DLY/MOD and native NAM A2 refer to channel processing and amp models, not chord-tracking proof. New MW names/complete current effect census unresolved. [pitch 1](https://device.report/manual/19072004) [pitch 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/POCKET%20AMP.txt) |
+| Pitch / preset recall | 80 editable tone locations, first 40 factory supplied; current manual body explicitly permits user overwrite/edit/save, unlike older importer ambiguity. Six movable module architecture; 6+1 does not establish seven freely assignable duplicate blocks. Preset VOL buttons differ from MASTER; external MIDI expansion is not verified continuous expression. V105 adds DLY/REV tail settings, but exact modes and gapless/pitch spillover not specified in short note. |
+| Pitch / DSP resources | No per-pitch DSP percentage, tracking latency or benchmark found. Six movable modules and stereo feature additions do not quantify resource cost or available additional heavy blocks. No sibling 40% performance claim or Whammy figure transferred. |
+| Pitch / qualifications | Original inert manufacturer notes fetched as 1,235 bytes, strict UTF-8-sig, SHA256 9950cbcbee2539d0ef49ce0922ed6e6a5490cc09efee4837ef739346cc61e22d, 35 lines. No firmware installation. Previously identified reproduced Pocket AMP manual body read; no new visual or byte-equivalence claim against the earlier filed PDF. Manufacturer 80g/AUX versus importer 120g/no-AUX inventory conflict remains. MAIN output documented mono; stereo DLY/MOD does not establish a stereo main jack. Exact USB/headphone routing and current firmware memory census remain untested. No device/audio test or app execution. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Current Pocket Amp firmware index](https://www.m-vave.com/download) — V105 October 13, 2026 and V07→V103 Speaker Mode preset-loading caution. (Manufacturer current index read).
+- [Official POCKET AMP release history](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/POCKET%20AMP.txt) — V105 header October 14 conflicts with index; V103 Speaker Mode and V07 AM4 support. (Complete inert bytes through exact-source repository target).
+- [Reproduced Pocket AMP operating manual body](https://device.report/manual/19072004) — Shimmer range, delay wet detune, Vibrato; 80 editable locations, six modules, hand MASTER versus preset controls. (Previously identified exact-model operating text read; not a fresh original-PDF visual audit).
+- [Manufacturer dated exhibition news index](https://www.m-vave.com/news) — October 2025 Music China debut includes Pocket Amp, not exact retail-sale date. (Official index read directly).
+- [M-VAVE new-product Pocket Amp video](https://www.youtube.com/watch?v=4ga4XHvNTXg) — Additional release lead, not an adopted exact date. (Manufacturer title indexed; exact publication day unresolved in current access).
+
+<!-- firmware-pitch:M-VAVE::Pocket Amp ends -->
+
 <!-- comparison evidence begins -->
 
 **Existing owner-history profile,2026-10-15. Desktop/clip-on guitar/bass multi-effects,not Sonicake Pocket Master or MINI-X.** Former/given-away status does not remove coverage.
