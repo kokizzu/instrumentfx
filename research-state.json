@@ -207064,11 +207064,45 @@
             "exact_top_down": false
           }
         }
+      },
+      "TC Electronic::M350": {
+        "model_key": "TC Electronic::M350",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.njuskalo.hr/image-w920x690/studijska-oprema/prodajem-tc-electronic-m350-dual-engine-effect-processor-slika-171969771.jpg",
+            "source_url": "https://www.njuskalo.hr/studijska-oprema/prodajem-tc-electronic-m350-dual-engine-effect-processor-oglas-37316858",
+            "caption": "M350 — powered control face and top chassis photograph",
+            "note": "Seller hardware photograph shows exact M350 face,illuminated01 display and connected mains lead. Camera looks down at the top chassis and vertical front controls at an angle;strict overhead remains pending. Ten rotary controls visible;small button labels are too soft for a new complete census. Rack handles are accessories,not footswitches.",
+            "visual_checked": true,
+            "sha256": "d30468f53c51cec7e43b2d162069fd6a6f0eeb9750fbae810e5abba62d393f14",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/tc-electronic-m350-6596664.jpeg",
+            "source_url": "https://en.audiofanzine.com/multi-effects-processor/tc-electronic/M350/",
+            "caption": "M350 — exact-model rear connection photograph",
+            "note": "TYPE:M350 label readable. Two inputs,two outputs,routing switch,RCA S/PDIF DI/DO,MIDI IN/OUT,pedal IN andIEC mains. Printed send/return diagrams are routing examples,not extra sockets. No optical S/PDIF,USB or XLR audio connectors visible. Label100–240VAC50–60Hz15W;pedal is momentary bypass/tap per manual,not proven continuous EXP.",
+            "visual_checked": true,
+            "sha256": "f760802ef5c05d00722bbbabb46288a53852dea54a96b3affe8d4935659958cd",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://r2.gear4music.com/media/28/285937/1200/preview.jpg",
+            "sha256": "11cf152372121e33da5b25652263e315125df7dfd37d3190f9672bed1cfd0c1e",
+            "visual_checked": true,
+            "note": "Retail gallery rear label reads typeREN001,not explicitM350;exact-revision identity unresolved,prefer a clearly markedM350 photograph."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC Electronic::M100"
+    "last_model": "TC Electronic::M350"
   }
 }

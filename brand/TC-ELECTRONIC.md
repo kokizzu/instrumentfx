@@ -227,6 +227,26 @@ Sources checked:
 
 <!-- firmware-pitch:TC Electronic::M350 ends -->
 
+<!-- model-images:TC Electronic::M350 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**M350 — powered control face and top chassis photograph**
+
+[![M350 — powered control face and top chassis photograph](https://www.njuskalo.hr/image-w920x690/studijska-oprema/prodajem-tc-electronic-m350-dual-engine-effect-processor-slika-171969771.jpg)](https://www.njuskalo.hr/image-w920x690/studijska-oprema/prodajem-tc-electronic-m350-dual-engine-effect-processor-slika-171969771.jpg)
+
+[Image source](https://www.njuskalo.hr/studijska-oprema/prodajem-tc-electronic-m350-dual-engine-effect-processor-oglas-37316858). Seller hardware photograph shows exact M350 face,illuminated01 display and connected mains lead. Camera looks down at the top chassis and vertical front controls at an angle;strict overhead remains pending. Ten rotary controls visible;small button labels are too soft for a new complete census. Rack handles are accessories,not footswitches.
+
+**M350 — exact-model rear connection photograph**
+
+[![M350 — exact-model rear connection photograph](https://medias.audiofanzine.com/images/normal/tc-electronic-m350-6596664.jpeg)](https://medias.audiofanzine.com/images/normal/tc-electronic-m350-6596664.jpeg)
+
+[Image source](https://en.audiofanzine.com/multi-effects-processor/tc-electronic/M350/). TYPE:M350 label readable. Two inputs,two outputs,routing switch,RCA S/PDIF DI/DO,MIDI IN/OUT,pedal IN andIEC mains. Printed send/return diagrams are routing examples,not extra sockets. No optical S/PDIF,USB or XLR audio connectors visible. Label100–240VAC50–60Hz15W;pedal is momentary bypass/tap per manual,not proven continuous EXP.
+
+</details>
+<!-- model-images:TC Electronic::M350 ends -->
+
+
 Checked2026-10-17. Partial dual-engine rack multi-effects. [Manufacturer English manual](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf),34pages,Rev1.1/SW1.00,productE60505812;webtext only,no download/visualaudit.
 
 | Field | Evidence / gaps |
