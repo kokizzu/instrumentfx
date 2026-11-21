@@ -185060,10 +185060,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::GNX3": {
+        "model_key": "DigiTech::GNX3",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2002-01",
+          "precision": "month",
+          "kind": "trade_show_demonstration_proxy",
+          "source_urls": [
+            "https://www.sweetwater.com/insync/winter-namm-2002-part-3/"
+          ],
+          "note": "Contemporaneous first-hand Winter NAMM booth report published January 23, 2002; month of public demonstration used as proxy, not a confirmed first shipment. Its conflicting prototype memory claims are not adopted."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://digitech.com/software-downloads/",
+            "https://adn.harmanpro.com/software_attachments/software_attachments/14_1291754307/GNXFirmwareUpdateInstructions_original.pdf"
+          ],
+          "note": "Current official list provides GenEdit 1.61A Windows, not a dated GNX3 device firmware release. Harman update instructions explicitly cover GNX3, but GNX3_13.h00/version 1.3 is a filename example, not proof of latest firmware. Latest version/date and update span remain unverified."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Whammy bends including ±1/±2 octaves and Dive Bomb; IPS key/scale harmony within ±1 octave; Pitch Shift ±24 semitones and Detune ±24 cents. Pitch Shift/Detune also appear in Chorus/Mod. Input-note polyphony not established in checked manual.",
+          "preset": "65 fixed factory plus 65 writable user presets; user presets initially duplicate factory. HyperModel storage is separate from preset count.",
+          "dsp": "Whammy/IPS/Talker selects one of Whammy, IPS, Detune, Pitch Shift or Talker. Separate Chorus/Mod selects one effect, including Pitch Shift/Detune, so two module positions can provide pitch processing. Not arbitrary block allocation; no per-algorithm CPU percentage published.",
+          "measurements": [],
+          "source_urls": [
+            "https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf"
+          ],
+          "notes": [
+            "Do not borrow standalone Whammy chord-mode behavior. Three Audio DNA processors do not establish a pitch-instance count or percentage."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sweetwater.com/insync/winter-namm-2002-part-3/",
+            "title": "Winter NAMM 2002 first-hand GNX3 report",
+            "access": "Contemporaneous Sweetwater booth report; launch context only",
+            "evidence": "January 23, 2002 account of GNX3 demonstration; not shipment confirmation. Technical prototype claims not used."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer current downloads web text",
+            "evidence": "GNX3 GenEdit 1.61A editor listing, not latest device firmware."
+          },
+          {
+            "url": "https://adn.harmanpro.com/software_attachments/software_attachments/14_1291754307/GNXFirmwareUpdateInstructions_original.pdf",
+            "title": "DigiTech GNX firmware update instructions",
+            "access": "Manufacturer Harman-hosted PDF web text",
+            "evidence": "GNX3 explicitly covered; version 1.3 shown only as filename-decoding example, no latest release date."
+          },
+          {
+            "url": "https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf",
+            "title": "GNX3 User Guide 18-6382-A",
+            "access": "Manufacturer 84-page PDF web text",
+            "evidence": "Printed pp20–21 Whammy/IPS module, pp23/28 separate Chorus/Mod pitch choices; 65 factory/65 user presets. No explicit input-polyphony guarantee."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::GNX3",
       "DigiTech::GNX4",
       "DigiTech::RP1000",
       "DigiTech::RP150",
@@ -185391,12 +185455,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 76,
-    "last_model": "DigiTech::BP355",
-    "last_commit_parent": "4a4b0e3bd07da93fa369e56496dd143fcb8b2ad6",
+    "completed_model_count": 77,
+    "last_model": "DigiTech::GNX3",
+    "last_commit_parent": "bb335c5ad32227e96a5a619b8c30b05294989776",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::GNX3",
       "DigiTech::GNX4",
       "DigiTech::RP1000",
       "DigiTech::RP150",
@@ -185723,7 +185786,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 76,
+    "pitch_completed_model_count": 77,
     "supplemental_model_count": 0
   }
 }

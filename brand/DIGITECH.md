@@ -184,6 +184,31 @@ Checked **2026-11-05**. Outside active counts; ownership and bass/vocal membersh
 
 ## GNX3
 
+<!-- firmware-pitch:DigiTech::GNX3 begins -->
+### Firmware and pitch audit — DigiTech GNX3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2002-01 (trade show demonstration proxy). Contemporaneous first-hand Winter NAMM booth report published January 23, 2002; month of public demonstration used as proxy, not a confirmed first shipment. Its conflicting prototype memory claims are not adopted. [launch 1](https://www.sweetwater.com/insync/winter-namm-2002-part-3/) |
+| Firmware / latest verification | Not verified — Unverified. Current official list provides GenEdit 1.61A Windows, not a dated GNX3 device firmware release. Harman update instructions explicitly cover GNX3, but GNX3_13.h00/version 1.3 is a filename example, not proof of latest firmware. Latest version/date and update span remain unverified. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://adn.harmanpro.com/software_attachments/software_attachments/14_1291754307/GNXFirmwareUpdateInstructions_original.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Whammy bends including ±1/±2 octaves and Dive Bomb; IPS key/scale harmony within ±1 octave; Pitch Shift ±24 semitones and Detune ±24 cents. Pitch Shift/Detune also appear in Chorus/Mod. Input-note polyphony not established in checked manual. [pitch 1](https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf) |
+| Pitch / preset recall | 65 fixed factory plus 65 writable user presets; user presets initially duplicate factory. HyperModel storage is separate from preset count. |
+| Pitch / DSP resources | Whammy/IPS/Talker selects one of Whammy, IPS, Detune, Pitch Shift or Talker. Separate Chorus/Mod selects one effect, including Pitch Shift/Detune, so two module positions can provide pitch processing. Not arbitrary block allocation; no per-algorithm CPU percentage published. |
+| Pitch / qualifications | Do not borrow standalone Whammy chord-mode behavior. Three Audio DNA processors do not establish a pitch-instance count or percentage. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Winter NAMM 2002 first-hand GNX3 report](https://www.sweetwater.com/insync/winter-namm-2002-part-3/) — January 23, 2002 account of GNX3 demonstration; not shipment confirmation. Technical prototype claims not used. (Contemporaneous Sweetwater booth report; launch context only).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — GNX3 GenEdit 1.61A editor listing, not latest device firmware. (Manufacturer current downloads web text).
+- [DigiTech GNX firmware update instructions](https://adn.harmanpro.com/software_attachments/software_attachments/14_1291754307/GNXFirmwareUpdateInstructions_original.pdf) — GNX3 explicitly covered; version 1.3 shown only as filename-decoding example, no latest release date. (Manufacturer Harman-hosted PDF web text).
+- [GNX3 User Guide 18-6382-A](https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf) — Printed pp20–21 Whammy/IPS module, pp23/28 separate Chorus/Mod pitch choices; 65 factory/65 user presets. No explicit input-polyphony guarantee. (Manufacturer 84-page PDF web text).
+
+<!-- firmware-pitch:DigiTech::GNX3 ends -->
+
 Guitar workstation with documented bass modeling; distinct from BNX3,GNX3000 andGNX4. Checked2026-10-17; partial. Manufacturer past-product status is not retailer stock.
 
 | Field | Evidence / qualification |
