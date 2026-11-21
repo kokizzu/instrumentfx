@@ -1647,6 +1647,31 @@ The inspected manufacturer material doesnot settle total/factory/user preset cap
 
 ## MG-400
 
+<!-- firmware-pitch:NUX::MG-400 begins -->
+### Firmware and pitch audit — NUX MG-400
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022-09-16 (manufacturer launch livestream proxy). NUX’s September16 livestream calls this the brand-new MG-400; manufacturer press release followed September22. Public launch proxy, not independently established first retail shipping day. [launch 1](https://www.youtube.com/watch?v=dfEdJwhry7Y) [launch 2](https://www.premierguitar.com/news/nu-x-launches-the-mg-400) |
+| Firmware / latest verification | 3.0.3 (GEN2) — Latest verified. Current GEN2 firmware3.0.3 for macOS/Windows is dated August28,2026; matching GEN2 QuickTone2.6.8.24 has its own entry that day. Older V2.1.1 remains separately offered without date. GEN2 supports native A2-Lite NAM and A1 conversion, not arbitrary unqualified NAM compatibility. [firmware 1](https://nuxaudio.com/product/mg400/) |
+| Firmware / release date | 2026-08-28 (day precision) |
+| Firmware / release-to-update duration | 3.95 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manufacturer German manual’s pictured reference confirms Harmony and Detune in MOD and Shimmer in RVB. Harmony shows key, MAJOR/MINOR and harmony-interval controls. Note-input polyphony, numerical range and chord-safe retuning are not established. [pitch 1](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG400/NUX_MG400_UserManual_German.pdf) [pitch 2](https://nuxaudio.com/product/mg400/) |
+| Pitch / preset recall | SAVE stores edited patches; three scenes per preset change effect/amp models, settings and block state. Exact total/factory/user capacity remains unresolved; preserve existing group-count discrepancy. |
+| Pitch / DSP resources | Ten movable blocks (NG,CMP,EFX,AMP,IR,EQ,MOD,DLY,RVB,P.L) and two DSP chips. Harmony/Detune occupy a MOD model choice; Shimmer occupies RVB. Shared DSP architecture does not yield an isolated pitch percentage; none documented or measured. |
+| Pitch / qualifications | Current GEN2 update instructions and legacy manual reset/calibration directions have different contexts; no update or device operation performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX MG-400 manufacturer launch livestream](https://www.youtube.com/watch?v=dfEdJwhry7Y) — September16,2022 event for brand-new MG-400, earlier than reproduced press release. (Manufacturer YouTube indexed publication and description checked 2026-11-22).
+- [Nu-X launches the MG-400](https://www.premierguitar.com/news/nu-x-launches-the-mg-400) — Confirms public launch, two DSP chips and ten blocks. Its FX-loop claim conflicts with manual port inventory; not adopted as port evidence. (Manufacturer press release reproduced September22,2022; checked2026-11-22).
+- [NUX MG-400 global product and GEN2 support](https://nuxaudio.com/product/mg400/) — Firmware3.0.3 August28,2026, matching editor and separate V2; ten movable blocks, two DSPs, GEN2 A2-Lite native/A1 conversion. No pitch CPU percentage. (Manufacturer page checked 2026-11-22).
+- [NUX MG-400 German manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG400/NUX_MG400_UserManual_German.pdf) — MOD artwork Harmony/Detune; Harmony key/major-minor/interval controls; RVB Shimmer. Patch/scene/save operations; not a measured tracking test or current-GEN2 census. PDF SHA2562031d39af88a73cd4e96361099a40873ab0f639e7135c16c5db7fe9416a65e43. (Manufacturer-hosted 11-page PDF; PDF10 (printed17–18) locally rendered and visually inspected2026-11-22).
+
+<!-- firmware-pitch:NUX::MG-400 ends -->
+
 <!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Official product](https://nuxaudio.com/product/mg400/); [NUX USA](https://www.nux.us/products/mg-400); [official controls photo](https://www.nux.us/cdn/shop/files/MG-400_Thumbnails.jpg?v=1756899623&width=800).
 

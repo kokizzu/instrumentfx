@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG400/NUX_MG400_UserManual_German.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 78,
+    "frame": 9,
     "text_pages": [
       0,
       2
@@ -195552,6 +195552,76 @@
           "label": "1.44–1.52 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::MG-400": {
+        "model_key": "NUX::MG-400",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2022-09-16",
+          "precision": "day",
+          "kind": "manufacturer_launch_livestream_proxy",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=dfEdJwhry7Y",
+            "https://www.premierguitar.com/news/nu-x-launches-the-mg-400"
+          ],
+          "note": "NUX’s September16 livestream calls this the brand-new MG-400; manufacturer press release followed September22. Public launch proxy, not independently established first retail shipping day."
+        },
+        "firmware": {
+          "version": "3.0.3 (GEN2)",
+          "date": "2026-08-28",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://nuxaudio.com/product/mg400/"
+          ],
+          "note": "Current GEN2 firmware3.0.3 for macOS/Windows is dated August28,2026; matching GEN2 QuickTone2.6.8.24 has its own entry that day. Older V2.1.1 remains separately offered without date. GEN2 supports native A2-Lite NAM and A1 conversion, not arbitrary unqualified NAM compatibility."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manufacturer German manual’s pictured reference confirms Harmony and Detune in MOD and Shimmer in RVB. Harmony shows key, MAJOR/MINOR and harmony-interval controls. Note-input polyphony, numerical range and chord-safe retuning are not established.",
+          "preset": "SAVE stores edited patches; three scenes per preset change effect/amp models, settings and block state. Exact total/factory/user capacity remains unresolved; preserve existing group-count discrepancy.",
+          "dsp": "Ten movable blocks (NG,CMP,EFX,AMP,IR,EQ,MOD,DLY,RVB,P.L) and two DSP chips. Harmony/Detune occupy a MOD model choice; Shimmer occupies RVB. Shared DSP architecture does not yield an isolated pitch percentage; none documented or measured.",
+          "source_urls": [
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG400/NUX_MG400_UserManual_German.pdf",
+            "https://nuxaudio.com/product/mg400/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Current GEN2 update instructions and legacy manual reset/calibration directions have different contexts; no update or device operation performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=dfEdJwhry7Y",
+            "title": "NUX MG-400 manufacturer launch livestream",
+            "access": "Manufacturer YouTube indexed publication and description checked 2026-11-22",
+            "evidence": "September16,2022 event for brand-new MG-400, earlier than reproduced press release."
+          },
+          {
+            "url": "https://www.premierguitar.com/news/nu-x-launches-the-mg-400",
+            "title": "Nu-X launches the MG-400",
+            "access": "Manufacturer press release reproduced September22,2022; checked2026-11-22",
+            "evidence": "Confirms public launch, two DSP chips and ten blocks. Its FX-loop claim conflicts with manual port inventory; not adopted as port evidence."
+          },
+          {
+            "url": "https://nuxaudio.com/product/mg400/",
+            "title": "NUX MG-400 global product and GEN2 support",
+            "access": "Manufacturer page checked 2026-11-22",
+            "evidence": "Firmware3.0.3 August28,2026, matching editor and separate V2; ten movable blocks, two DSPs, GEN2 A2-Lite native/A1 conversion. No pitch CPU percentage."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG400/NUX_MG400_UserManual_German.pdf",
+            "title": "NUX MG-400 German manufacturer manual",
+            "access": "Manufacturer-hosted 11-page PDF; PDF10 (printed17–18) locally rendered and visually inspected2026-11-22",
+            "evidence": "MOD artwork Harmony/Detune; Harmony key/major-minor/interval controls; RVB Shimmer. Patch/scene/save operations; not a measured tracking test or current-GEN2 census. PDF SHA2562031d39af88a73cd4e96361099a40873ab0f639e7135c16c5db7fe9416a65e43."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1442,
+          "maximum_days": 1442,
+          "label": "3.95 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -195594,7 +195664,6 @@
       "NUX::MG-20",
       "NUX::MG-200",
       "NUX::MG-30",
-      "NUX::MG-400",
       "NUX::MG-50Li",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
@@ -195747,9 +195816,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 212,
-    "last_model": "NUX::MG-300 MKII",
-    "last_commit_parent": "4afb2349825dac443cb3f4e48ff91d72abd10d70",
+    "completed_model_count": 213,
+    "last_model": "NUX::MG-400",
+    "last_commit_parent": "a99d574d872d73a4f122622fc0aa5a1f15491270",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -195791,7 +195860,6 @@
       "NUX::MG-20",
       "NUX::MG-200",
       "NUX::MG-30",
-      "NUX::MG-400",
       "NUX::MG-50Li",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
@@ -195943,7 +196011,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 212,
+    "pitch_completed_model_count": 213,
     "supplemental_model_count": 0
   },
   "model_images": {
