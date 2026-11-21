@@ -182092,10 +182092,82 @@
           "label": "5.23–5.31 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GT-10": {
+        "model_key": "BOSS::GT-10",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2008-01-17",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/pr_2008-01-17_gt-10.pdf"
+          ],
+          "note": "Manufacturer Winter NAMM introduction; announcement proxy, not proof of first retail delivery."
+        },
+        "firmware": {
+          "version": "1.02",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gt-10/updates_drivers/da43b806-9a00-4ed8-a3a1-57413d576db0/",
+            "https://www.boss.info/jp/support/by_product/gt-10/updates_drivers/da43b806-9a00-4ed8-a3a1-57413d576db0/",
+            "https://www.boss.info/global/support/by_product/gt-10/updates_drivers/"
+          ],
+          "note": "Current index and device updater list1.02. Japanese change notes fix patch-change faults under Smooth/Phrase Loop, effect-state/EQ faults, level-meter selection and editing behavior. No firmware release date is stated; Windows support-end notices dated2014/2017 are unrelated and are not used. Installed firmware untested."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shifter ±24 semitones with Fast/Medium/Slow/Mono modes; Mono is single-note with a chord caveat. Octave (one down), Harmonist and Pedal Bend explicitly exclude chords. Bend endpoints each span ±24 semitones. An explicit chord-support claim for the other Pitch Shifter modes was not located.",
+          "preset": "200 User plus200 Preset patches; edits/copies write to a User destination. Separate per-effect User Quick Settings are reusable settings, not additional processing instances.",
+          "dsp": "Pitch Shifter/Harmonist/Octave use FX1/FX2 selections; the manual permits the same effect in both. Pedal Bend is separately under Pedal FX. No pitch CPU percentage or shared DSP-budget meter documented.",
+          "source_urls": [
+            "https://manualzilla.com/doc/7429915/boss-gt-10-owner-s-manual"
+          ],
+          "measurements": [],
+          "notes": [
+            "Two generated voices/stereo output are not evidence of note polyphony.",
+            "Harmonist is unavailable for USB-input audio in this manual."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/pr_2008-01-17_gt-10.pdf",
+            "title": "BOSS GT-10 Winter NAMM announcement, January17 2008",
+            "access": "opened manufacturer PDF; text_only",
+            "evidence": "Dated GT-10 introduction, not GT-10B."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-10/updates_drivers/da43b806-9a00-4ed8-a3a1-57413d576db0/",
+            "title": "BOSS GT-10 System Program1.02",
+            "access": "opened",
+            "evidence": "Current device updater1.02; no dated release history on this page."
+          },
+          {
+            "url": "https://www.boss.info/jp/support/by_product/gt-10/updates_drivers/da43b806-9a00-4ed8-a3a1-57413d576db0/",
+            "title": "BOSS Japan GT-10 System Program1.02 change notes",
+            "access": "opened; Japanese manufacturer text",
+            "evidence": "Lists1.02 patch-change/EQ/state, meter and editing fixes without a release date; OS-support notices are separate."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-10/updates_drivers/",
+            "title": "BOSS GT-10 Updates & Drivers index",
+            "access": "opened",
+            "evidence": "Device System Program1.02 listed separately from USB drivers/librarian."
+          },
+          {
+            "url": "https://manualzilla.com/doc/7429915/boss-gt-10-owner-s-manual",
+            "title": "BOSS GT-10 original owner manual reproduction",
+            "access": "opened manufacturer manuscript; original body only; text_only",
+            "evidence": "pp42–44,102,109–110,124 document memory writing, paired FX choices, pitch ranges and single-note restrictions; no CPU percentage."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GT-10",
       "BOSS::GT-100",
       "BOSS::GT-1000",
       "BOSS::GT-10B",
@@ -182464,12 +182536,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 35,
-    "last_model": "BOSS::GT-1",
-    "last_commit_parent": "2b5eba801902c225cde29417ab29f32d9bd3e301",
+    "completed_model_count": 36,
+    "last_model": "BOSS::GT-10",
+    "last_commit_parent": "69dc1a9c1d5bf1bbe82a9562f5cc2a152b33fb60",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GT-10",
       "BOSS::GT-100",
       "BOSS::GT-1000",
       "BOSS::GT-10B",
@@ -182837,7 +182908,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 35,
+    "pitch_completed_model_count": 36,
     "supplemental_model_count": 0
   }
 }

@@ -1775,6 +1775,32 @@ Transcript identity: GT-8 Guitar Effects Processor Owner’s Manual ©2004 BOSS,
 
 ## GT-10
 
+<!-- firmware-pitch:BOSS::GT-10 begins -->
+### Firmware and pitch audit — BOSS GT-10
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2008-01-17 (manufacturer announcement proxy). Manufacturer Winter NAMM introduction; announcement proxy, not proof of first retail delivery. [launch 1](https://cdn.roland.com/assets/media/pdf/pr_2008-01-17_gt-10.pdf) |
+| Firmware / latest verification | 1.02 — Latest verified. Current index and device updater list1.02. Japanese change notes fix patch-change faults under Smooth/Phrase Loop, effect-state/EQ faults, level-meter selection and editing behavior. No firmware release date is stated; Windows support-end notices dated2014/2017 are unrelated and are not used. Installed firmware untested. [firmware 1](https://www.boss.info/global/support/by_product/gt-10/updates_drivers/da43b806-9a00-4ed8-a3a1-57413d576db0/) [firmware 2](https://www.boss.info/jp/support/by_product/gt-10/updates_drivers/da43b806-9a00-4ed8-a3a1-57413d576db0/) [firmware 3](https://www.boss.info/global/support/by_product/gt-10/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter ±24 semitones with Fast/Medium/Slow/Mono modes; Mono is single-note with a chord caveat. Octave (one down), Harmonist and Pedal Bend explicitly exclude chords. Bend endpoints each span ±24 semitones. An explicit chord-support claim for the other Pitch Shifter modes was not located. [pitch 1](https://manualzilla.com/doc/7429915/boss-gt-10-owner-s-manual) |
+| Pitch / preset recall | 200 User plus200 Preset patches; edits/copies write to a User destination. Separate per-effect User Quick Settings are reusable settings, not additional processing instances. |
+| Pitch / DSP resources | Pitch Shifter/Harmonist/Octave use FX1/FX2 selections; the manual permits the same effect in both. Pedal Bend is separately under Pedal FX. No pitch CPU percentage or shared DSP-budget meter documented. |
+| Pitch / qualifications | Two generated voices/stereo output are not evidence of note polyphony. Harmonist is unavailable for USB-input audio in this manual. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS GT-10 Winter NAMM announcement, January17 2008](https://cdn.roland.com/assets/media/pdf/pr_2008-01-17_gt-10.pdf) — Dated GT-10 introduction, not GT-10B. (opened manufacturer PDF; text_only).
+- [BOSS GT-10 System Program1.02](https://www.boss.info/global/support/by_product/gt-10/updates_drivers/da43b806-9a00-4ed8-a3a1-57413d576db0/) — Current device updater1.02; no dated release history on this page. (opened).
+- [BOSS Japan GT-10 System Program1.02 change notes](https://www.boss.info/jp/support/by_product/gt-10/updates_drivers/da43b806-9a00-4ed8-a3a1-57413d576db0/) — Lists1.02 patch-change/EQ/state, meter and editing fixes without a release date; OS-support notices are separate. (opened; Japanese manufacturer text).
+- [BOSS GT-10 Updates & Drivers index](https://www.boss.info/global/support/by_product/gt-10/updates_drivers/) — Device System Program1.02 listed separately from USB drivers/librarian. (opened).
+- [BOSS GT-10 original owner manual reproduction](https://manualzilla.com/doc/7429915/boss-gt-10-owner-s-manual) — pp42–44,102,109–110,124 document memory writing, paired FX choices, pitch ranges and single-note restrictions; no CPU percentage. (opened manufacturer manuscript; original body only; text_only).
+
+<!-- firmware-pitch:BOSS::GT-10 ends -->
+
 Guitar multi-effects; distinct from GT-10B and GT-100. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->
