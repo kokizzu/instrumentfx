@@ -178521,8 +178521,8 @@
       65,
       70
     ],
-    "index_url": "https://flammainnovation.com/goods/support?goodsName=FX20",
-    "index_needle": "attachments",
+    "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
+    "index_needle": "features",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -187920,10 +187920,77 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Flamma::FX50": {
+        "model_key": "Flamma::FX50",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://flammainnovation.com/goods/support?goodsName=FX50",
+            "https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects"
+          ],
+          "note": "Maker calls FX50 a new arrival but provides no datelined launch/first sale. Manual2023-12-23 is documentation age, not verified hardware introduction."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://flammainnovation.com/goods/support?goodsName=FX50",
+            "https://flammainnovation.com/download.html",
+            "https://flammainnovation.com/file/pdf?fileName=FX50_Manual_EN_V01_2023.12.23.pdf&url=group1%2FM00%2F00%2F0D%2FwKgA0GXXDimATGtxBjIQttIRPpo382.pdf"
+          ],
+          "note": "Exact maker record has attachments[] and one V01 manual; no numbered device firmware, changelog or public updater found. Manual revision is not firmware. Original PDF link recovered, but current web retrieval fails; no fresh PDF inspection claimed. Undocumented internal/service firmware is not ruled out."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Primary maker description names Clean/Overdrive/Distortion/Crunch/Fuzz/Metal; Chorus/Flanger/Phaser/Tremolo; Delay/Echo/Room/Hall and switchable cabinet simulation. No dedicated transpose, octave, harmony or pitch-shift algorithm documented. Modulation is not proof of mono/polyphonic transposition.",
+          "preset": "Maker separates16preset patches and16user-programmed patches. Pitch-preset recall is not applicable to the checked menu; no new claim about factory overwrite protection from this product description.",
+          "dsp": "Five modules and15effect types are marketing totals, not per-effect CPU/DSP measurements. Modulation and combined Delay/Reverb choices can be bypassed. No resource percentage, DSP meter or arbitrary duplicate-pitch capacity verified.",
+          "source_urls": [
+            "https://flammainnovation.com/goods/support?goodsName=FX50",
+            "https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects"
+          ],
+          "measurements": [],
+          "notes": [
+            "Primary catalogue now corroborates the previously transcription-only named menu. Original PDF accessibility and manual-date discrepancy remain unresolved; no hardware test or software installation."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://flammainnovation.com/goods/support?goodsName=FX50",
+            "title": "FLAMMA exact FX50 public support record",
+            "access": "Bounded inert makerJSON; SHA25682beb273f43505c4a52c2e41cdd84244b7e2268996a617ab2265f62995defb23",
+            "evidence": "Exact147FX50 description contains full named effect families,16+16patches,attachments[] and current original-manual link."
+          },
+          {
+            "url": "https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects",
+            "title": "FLAMMA FX50 own store",
+            "access": "Direct maker product page",
+            "evidence": "Five modules/15types,16preset+16user,40rhythms and battery/DC options; no firmware history."
+          },
+          {
+            "url": "https://flammainnovation.com/download.html",
+            "title": "FLAMMA download catalogue",
+            "access": "Current indexed manufacturer catalogue",
+            "evidence": "FX50 manual V01/2023-12-23 only; no public updater entry located."
+          },
+          {
+            "url": "https://flammainnovation.com/file/pdf?fileName=FX50_Manual_EN_V01_2023.12.23.pdf&url=group1%2FM00%2F00%2F0D%2FwKgA0GXXDimATGtxBjIQttIRPpo382.pdf",
+            "title": "FX50 current original manual link",
+            "access": "Exact URL recovered from maker support metadata; web reader inaccessible",
+            "evidence": "Document identity only; original text/pixels not newly inspected. Not a firmware or launch date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Flamma::FX50",
       "Fractal Audio::AM4",
       "Fractal Audio::FM3 MKII Turbo",
       "Fractal Audio::FM3 original",
@@ -188212,12 +188279,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 115,
-    "last_model": "Flamma::FX20",
-    "last_commit_parent": "b4f9641f592da4232db34d05d30fdf8b2ea8ccae",
+    "completed_model_count": 116,
+    "last_model": "Flamma::FX50",
+    "last_commit_parent": "2c62b8bf16968cc75ca55523956c42f473d2bbd2",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Flamma::FX50",
       "Fractal Audio::AM4",
       "Fractal Audio::FM3 MKII Turbo",
       "Fractal Audio::FM3 original",
@@ -188505,7 +188571,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 115,
+    "pitch_completed_model_count": 116,
     "supplemental_model_count": 0
   },
   "model_images": {

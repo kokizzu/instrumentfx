@@ -881,6 +881,31 @@ This resolves the earlier missing item identifier,**not condition,variant conten
 
 ## FX50
 
+<!-- firmware-pitch:Flamma::FX50 begins -->
+### Firmware and pitch audit — Flamma FX50
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Maker calls FX50 a new arrival but provides no datelined launch/first sale. Manual2023-12-23 is documentation age, not verified hardware introduction. [launch 1](https://flammainnovation.com/goods/support?goodsName=FX50) [launch 2](https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact maker record has attachments[] and one V01 manual; no numbered device firmware, changelog or public updater found. Manual revision is not firmware. Original PDF link recovered, but current web retrieval fails; no fresh PDF inspection claimed. Undocumented internal/service firmware is not ruled out. [firmware 1](https://flammainnovation.com/goods/support?goodsName=FX50) [firmware 2](https://flammainnovation.com/download.html) [firmware 3](https://flammainnovation.com/file/pdf?fileName=FX50_Manual_EN_V01_2023.12.23.pdf&url=group1%2FM00%2F00%2F0D%2FwKgA0GXXDimATGtxBjIQttIRPpo382.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Primary maker description names Clean/Overdrive/Distortion/Crunch/Fuzz/Metal; Chorus/Flanger/Phaser/Tremolo; Delay/Echo/Room/Hall and switchable cabinet simulation. No dedicated transpose, octave, harmony or pitch-shift algorithm documented. Modulation is not proof of mono/polyphonic transposition. [pitch 1](https://flammainnovation.com/goods/support?goodsName=FX50) [pitch 2](https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects) |
+| Pitch / preset recall | Maker separates16preset patches and16user-programmed patches. Pitch-preset recall is not applicable to the checked menu; no new claim about factory overwrite protection from this product description. |
+| Pitch / DSP resources | Five modules and15effect types are marketing totals, not per-effect CPU/DSP measurements. Modulation and combined Delay/Reverb choices can be bypassed. No resource percentage, DSP meter or arbitrary duplicate-pitch capacity verified. |
+| Pitch / qualifications | Primary catalogue now corroborates the previously transcription-only named menu. Original PDF accessibility and manual-date discrepancy remain unresolved; no hardware test or software installation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [FLAMMA exact FX50 public support record](https://flammainnovation.com/goods/support?goodsName=FX50) — Exact147FX50 description contains full named effect families,16+16patches,attachments[] and current original-manual link. (Bounded inert makerJSON; SHA25682beb273f43505c4a52c2e41cdd84244b7e2268996a617ab2265f62995defb23).
+- [FLAMMA FX50 own store](https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects) — Five modules/15types,16preset+16user,40rhythms and battery/DC options; no firmware history. (Direct maker product page).
+- [FLAMMA download catalogue](https://flammainnovation.com/download.html) — FX50 manual V01/2023-12-23 only; no public updater entry located. (Current indexed manufacturer catalogue).
+- [FX50 current original manual link](https://flammainnovation.com/file/pdf?fileName=FX50_Manual_EN_V01_2023.12.23.pdf&url=group1%2FM00%2F00%2F0D%2FwKgA0GXXDimATGtxBjIQttIRPpo382.pdf) — Document identity only; original text/pixels not newly inspected. Not a firmware or launch date. (Exact URL recovered from maker support metadata; web reader inaccessible).
+
+<!-- firmware-pitch:Flamma::FX50 ends -->
+
 Checked **2026-10-17**; partial. Portable guitar multi-effects; no bass/vocal classification established. Floor switches and amp modeling are not inclusion requirements.
 
 <!-- comparison evidence begins -->
