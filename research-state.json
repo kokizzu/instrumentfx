@@ -201989,10 +201989,90 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC-Helicon::Play Acoustic": {
+        "model_key": "TC-Helicon::Play Acoustic",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2014-05-13",
+          "precision": "day",
+          "kind": "official public introduction; first shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=884U6jgRYFQ"
+          ],
+          "note": "TC Helicon published its original Play Acoustic introduction May 13, 2014. This establishes announcement, not exact first retail shipment."
+        },
+        "firmware": {
+          "version": "1.3.00 build 48 (owner/seller reports; unverified latest)",
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.tchelicon.com/de/products/0726-AAI",
+            "https://www.youtube.com/watch?v=F-3q0GXIc4Y",
+            "https://zizii2015.blogspot.com/2019/08/tc-helicon-playacoustic.html?m=0"
+          ],
+          "note": "Official January 21, 2016 announcement confirms added guitar Delay and per-preset guitar FX storage, superseding the launch-manual global-only limitation. A firsthand owner update report identifies 1.3.00 build 48 and prints November 5, 2016, but a manufacturer release record/date and current latest status were not recovered. That reported date is not promoted to verified release date. VoiceSupport2 v1.1.02_build139 and manual revisions are separate from device firmware."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Vocal Harmony/Double, global correction and HardTune; HardTune offers seven styles including natural/chromatic correction, Drone and Gender Bender, with vocal Shift ±36 semitones. Guitar chord detection guides harmony; it does not establish polyphonic guitar transposition or polyphonic mic-input pitch shifting.",
+          "preset": "Official 2016 update adds per-preset guitar effect storage alongside vocal presets. Older global-only guitar descriptions are revision-specific. No gapless pitch recall or audio tracking test performed.",
+          "dsp": "No pitch-specific DSP percentage, allocation meter or measured algorithm cost located. Seven dedicated vocal FX stages plus Tone and a separate guitar path are not equal CPU shares. Harmony voices, correction strength and pitch range do not quantify DSP use.",
+          "source_urls": [
+            "https://mediadl.musictribe.com/download/documents/tchelicon/tc-helicon_play_acoustic_manual_english.pdf",
+            "https://www.youtube.com/watch?v=F-3q0GXIc4Y",
+            "https://www.tchelicon.com/de/products/0726-AAI"
+          ],
+          "measurements": [],
+          "notes": [
+            "The current manufacturer page confirms Flashback guitar delay, consistent with the 2016 update. Launch-manual loop limits remain historical; the owner reports longer loops on 1.3.00 but no primary release note was recovered to certify the full revised limits.",
+            "Independent Acoustic Play Editor documents reverse-engineered USB SysEx editing, not manufacturer endorsement. Its USB-powered/front-knob power instructions conflict with established hardware evidence and are not adopted. No updater or firmware executed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=884U6jgRYFQ",
+            "title": "TC Helicon Play Acoustic original introduction",
+            "access": "Official indexed channel/title/publication read",
+            "evidence": "May 13, 2014 public introduction; shipment date unresolved."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=F-3q0GXIc4Y",
+            "title": "TC Helicon NAMM 2016 Play Acoustic update announcement",
+            "access": "Official indexed video description/publication read",
+            "evidence": "January 21, 2016 announcement explicitly adds guitar Delay FX and per-preset guitar FX storage."
+          },
+          {
+            "url": "https://www.tchelicon.com/de/products/0726-AAI",
+            "title": "TC Helicon current exact Play Acoustic product/download page",
+            "access": "Direct manufacturer page read",
+            "evidence": "Guitar Flashback delay, vocal processing, USB format and VoiceSupport2 host software; no numbered device firmware release listing."
+          },
+          {
+            "url": "https://zizii2015.blogspot.com/2019/08/tc-helicon-playacoustic.html?m=0",
+            "title": "Firsthand Play Acoustic owner update report",
+            "access": "Indexed owner account read; not manufacturer release notes",
+            "evidence": "Owner reports installing 1.3.00 build 48, prints November 5, 2016 and describes doubled loops. Version/date/latest remain qualified, not manufacturer-verified."
+          },
+          {
+            "url": "https://mediadl.musictribe.com/download/documents/tchelicon/tc-helicon_play_acoustic_manual_english.pdf",
+            "title": "TC Helicon Play Acoustic July 16, 2014 reference manual",
+            "access": "Official indexed model-specific HardTune page 45 read",
+            "evidence": "Seven HardTune styles, vocal Shift ±36 semitones and Gender; not a polyphonic audio-input guarantee."
+          },
+          {
+            "url": "https://oddeyez.se/manual.html",
+            "title": "Independent Acoustic Play Editor manual",
+            "access": "Developer manual and about page read",
+            "evidence": "Reverse-engineered editor/update claims; USB power/front-knob power instructions not accepted as manufacturer hardware evidence."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC-Helicon::Play Acoustic",
       "TC-Helicon::VoiceLive 3 Extreme",
       "TC-Helicon::VoiceLive Play",
       "TC-Helicon::VoiceLive Touch 2",
@@ -202104,12 +202184,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 292,
-    "last_model": "TC-Helicon::PERFORM-VK",
-    "last_commit_parent": "77c4941bfeacae20231edc5f800c2c5bc6508775",
+    "completed_model_count": 293,
+    "last_model": "TC-Helicon::Play Acoustic",
+    "last_commit_parent": "7457e5f77cf3f5faa4988dc457587a49f41b063a",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC-Helicon::Play Acoustic",
       "TC-Helicon::VoiceLive 3 Extreme",
       "TC-Helicon::VoiceLive Play",
       "TC-Helicon::VoiceLive Touch 2",
@@ -202220,7 +202299,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 292,
+    "pitch_completed_model_count": 293,
     "supplemental_model_count": 0
   },
   "model_images": {

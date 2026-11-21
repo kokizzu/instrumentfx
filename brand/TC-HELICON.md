@@ -1090,6 +1090,33 @@ Keyboard audio/MIDI guides vocal harmony;normal guitar-pickup processing remains
 
 ## Play Acoustic
 
+<!-- firmware-pitch:TC-Helicon::Play Acoustic begins -->
+### Firmware and pitch audit — TC-Helicon Play Acoustic
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2014-05-13 (official public introduction; first shipment unresolved). TC Helicon published its original Play Acoustic introduction May 13, 2014. This establishes announcement, not exact first retail shipment. [launch 1](https://www.youtube.com/watch?v=884U6jgRYFQ) |
+| Firmware / latest verification | 1.3.00 build 48 (owner/seller reports; unverified latest) — Unverified. Official January 21, 2016 announcement confirms added guitar Delay and per-preset guitar FX storage, superseding the launch-manual global-only limitation. A firsthand owner update report identifies 1.3.00 build 48 and prints November 5, 2016, but a manufacturer release record/date and current latest status were not recovered. That reported date is not promoted to verified release date. VoiceSupport2 v1.1.02_build139 and manual revisions are separate from device firmware. [firmware 1](https://www.tchelicon.com/de/products/0726-AAI) [firmware 2](https://www.youtube.com/watch?v=F-3q0GXIc4Y) [firmware 3](https://zizii2015.blogspot.com/2019/08/tc-helicon-playacoustic.html?m=0) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Vocal Harmony/Double, global correction and HardTune; HardTune offers seven styles including natural/chromatic correction, Drone and Gender Bender, with vocal Shift ±36 semitones. Guitar chord detection guides harmony; it does not establish polyphonic guitar transposition or polyphonic mic-input pitch shifting. [pitch 1](https://mediadl.musictribe.com/download/documents/tchelicon/tc-helicon_play_acoustic_manual_english.pdf) [pitch 2](https://www.youtube.com/watch?v=F-3q0GXIc4Y) [pitch 3](https://www.tchelicon.com/de/products/0726-AAI) |
+| Pitch / preset recall | Official 2016 update adds per-preset guitar effect storage alongside vocal presets. Older global-only guitar descriptions are revision-specific. No gapless pitch recall or audio tracking test performed. |
+| Pitch / DSP resources | No pitch-specific DSP percentage, allocation meter or measured algorithm cost located. Seven dedicated vocal FX stages plus Tone and a separate guitar path are not equal CPU shares. Harmony voices, correction strength and pitch range do not quantify DSP use. |
+| Pitch / qualifications | The current manufacturer page confirms Flashback guitar delay, consistent with the 2016 update. Launch-manual loop limits remain historical; the owner reports longer loops on 1.3.00 but no primary release note was recovered to certify the full revised limits. Independent Acoustic Play Editor documents reverse-engineered USB SysEx editing, not manufacturer endorsement. Its USB-powered/front-knob power instructions conflict with established hardware evidence and are not adopted. No updater or firmware executed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Helicon Play Acoustic original introduction](https://www.youtube.com/watch?v=884U6jgRYFQ) — May 13, 2014 public introduction; shipment date unresolved. (Official indexed channel/title/publication read).
+- [TC Helicon NAMM 2016 Play Acoustic update announcement](https://www.youtube.com/watch?v=F-3q0GXIc4Y) — January 21, 2016 announcement explicitly adds guitar Delay FX and per-preset guitar FX storage. (Official indexed video description/publication read).
+- [TC Helicon current exact Play Acoustic product/download page](https://www.tchelicon.com/de/products/0726-AAI) — Guitar Flashback delay, vocal processing, USB format and VoiceSupport2 host software; no numbered device firmware release listing. (Direct manufacturer page read).
+- [Firsthand Play Acoustic owner update report](https://zizii2015.blogspot.com/2019/08/tc-helicon-playacoustic.html?m=0) — Owner reports installing 1.3.00 build 48, prints November 5, 2016 and describes doubled loops. Version/date/latest remain qualified, not manufacturer-verified. (Indexed owner account read; not manufacturer release notes).
+- [TC Helicon Play Acoustic July 16, 2014 reference manual](https://mediadl.musictribe.com/download/documents/tchelicon/tc-helicon_play_acoustic_manual_english.pdf) — Seven HardTune styles, vocal Shift ±36 semitones and Gender; not a polyphonic audio-input guarantee. (Official indexed model-specific HardTune page 45 read).
+- [Independent Acoustic Play Editor manual](https://oddeyez.se/manual.html) — Reverse-engineered editor/update claims; USB power/front-knob power instructions not accepted as manufacturer hardware evidence. (Developer manual and about page read).
+
+<!-- firmware-pitch:TC-Helicon::Play Acoustic ends -->
+
 Separate acoustic-guitar and vocal processor, not VoiceLive Play, Play Electric or GTX. Consolidated **2026-10-17**; complete original2014 firmware/manual context retained. BodyRez processing is not proof of IR import or electric-to-acoustic simulation.
 
 <!-- TCHELICON-PLAY-ACOUSTIC source begins -->
