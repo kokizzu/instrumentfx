@@ -188534,11 +188534,35 @@
             "sha256": "607d6e2b9ef00ca4fff4d06715d9e3c8e46b0131ef544241b9d354dd5d448ae5"
           }
         }
+      },
+      "Flamma::FV04 Harmony": {
+        "model_key": "Flamma::FV04 Harmony",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.flamma.shop/cdn/shop/products/1_a6002bba-3354-45f6-927b-98fdae5212cd.png?v=1631173237&width=1946",
+            "source_url": "https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer",
+            "caption": "FV04 powered-on top-down view",
+            "note": "Manufacturer product cutout viewed straight down; blue Sharp light and green footswitch indicators are visibly illuminated. No display screen.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "9007d0acf1e8965c56e6efada88702075ff0ea90441a22febb3123bedff0b217"
+          },
+          "rear": {
+            "image_url": "https://www.flamma.shop/cdn/shop/products/8.png?v=1631173239&width=1946",
+            "source_url": "https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer",
+            "caption": "FV04 rear connections",
+            "note": "Straight rear product view shows MIC XLR input, XLR OUT, LINE IN selector, GAIN, 48V switch, LIFT/GND switch and DC IN marked 9V 500mA center-negative. This photographed marking does not resolve the different current requirement in newer documentation; retain the manual qualification.",
+            "visual_checked": true,
+            "sha256": "1ab7696ace77b7fa905601aa2de977597e1d1a700c53157bf236a4e3f6d4b895"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Flamma::FV03 Character"
+    "last_model": "Flamma::FV04 Harmony"
   }
 }
