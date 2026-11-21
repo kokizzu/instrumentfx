@@ -4690,6 +4690,31 @@ No local download,dependency/software installation ordevice operation. Next: ins
 
 ## ME-20
 
+<!-- firmware-pitch:BOSS::ME-20 begins -->
+### Firmware and pitch audit — BOSS ME-20
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2007-07-27 (manufacturer announcement proxy). Summer NAMM announcement date; exact first retail shipment not established. [launch 1](https://cdn.roland.com/assets/media/pdf/pr_2007-07-27_me-20.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. Checked manufacturer support index lists manual, guidebook and TurboStart, with no system-program entry. Targeted manufacturer searches found no public firmware release. This does not prove no internal revisions; update duration remains unknown. [firmware 1](https://www.boss.info/global/support/by_product/me-20/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No interval pitch shifter, harmonizer, octave or pedal-bend algorithm documented. MOD choices are chorus, phaser, flanger, tremolo and rotary; wah/volume pedal is not pitch bend. [pitch 1](https://static.roland.com/assets/media/pdf/ME-20_OM.pdf) [pitch 2](https://www.boss.info/global/products/me-20/specifications/) |
+| Pitch / preset recall | 30 writable user patches, supplied with factory settings, in 10 banks of three. WRITE stores edits; not a separate read-only preset bank. |
+| Pitch / DSP resources | Fixed OD/DS, MOD and DELAY categories with EQ, wah, noise suppression and volume. Delay and reverb share a category; order is chosen automatically. No pitch-specific DSP cost, CPU percentage or allocation table published in checked sources. |
+| Pitch / qualifications | Chorus modulation is not evidence of an interval-shifting capability or note polyphony. No ME-20B, ME-25 or later ME-series pitch specifications transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS announces new ME-20 guitar multiple effects processor](https://cdn.roland.com/assets/media/pdf/pr_2007-07-27_me-20.pdf) — July 27, 2007 Summer NAMM announcement, guitar effects overview and 30 user memories. (Manufacturer press-release PDF, indexed text).
+- [ME-20 support](https://www.boss.info/global/support/by_product/me-20/) — Lists owner manual, guitar effects guidebook and ME-20 TurboStart; no public system program shown. (Manufacturer support index, web text).
+- [ME-20 Owner Manual](https://static.roland.com/assets/media/pdf/ME-20_OM.pdf) — Pages 16–22 enumerate effect families and automatic routing; pages 23–24 describe writable memory. No interval pitch algorithm in the listed choices. (Manufacturer PDF web text).
+- [ME-20 specifications and product overview](https://www.boss.info/global/products/me-20/specifications/) — Discontinued guitar processor; effects overview, expression pedal, 30 user memories and no listed USB/MIDI interface. (Manufacturer web text).
+
+<!-- firmware-pitch:BOSS::ME-20 ends -->
+
 Guitar multi-effects; distinct from ME-20B and ME-25. Checked 2026-10-17; partial. Discontinued. Bass/vocal suitability and ownership unverified.
 
 | Field | Finding / qualification | Evidence |

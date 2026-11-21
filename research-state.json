@@ -183389,10 +183389,74 @@
           "label": "0.89–0.96 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::ME-20": {
+        "model_key": "BOSS::ME-20",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2007-07-27",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/pr_2007-07-27_me-20.pdf"
+          ],
+          "note": "Summer NAMM announcement date; exact first retail shipment not established."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/me-20/"
+          ],
+          "note": "Checked manufacturer support index lists manual, guidebook and TurboStart, with no system-program entry. Targeted manufacturer searches found no public firmware release. This does not prove no internal revisions; update duration remains unknown."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No interval pitch shifter, harmonizer, octave or pedal-bend algorithm documented. MOD choices are chorus, phaser, flanger, tremolo and rotary; wah/volume pedal is not pitch bend.",
+          "preset": "30 writable user patches, supplied with factory settings, in 10 banks of three. WRITE stores edits; not a separate read-only preset bank.",
+          "dsp": "Fixed OD/DS, MOD and DELAY categories with EQ, wah, noise suppression and volume. Delay and reverb share a category; order is chosen automatically. No pitch-specific DSP cost, CPU percentage or allocation table published in checked sources.",
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/ME-20_OM.pdf",
+            "https://www.boss.info/global/products/me-20/specifications/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Chorus modulation is not evidence of an interval-shifting capability or note polyphony. No ME-20B, ME-25 or later ME-series pitch specifications transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/pr_2007-07-27_me-20.pdf",
+            "title": "BOSS announces new ME-20 guitar multiple effects processor",
+            "access": "Manufacturer press-release PDF, indexed text",
+            "evidence": "July 27, 2007 Summer NAMM announcement, guitar effects overview and 30 user memories."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/me-20/",
+            "title": "ME-20 support",
+            "access": "Manufacturer support index, web text",
+            "evidence": "Lists owner manual, guitar effects guidebook and ME-20 TurboStart; no public system program shown."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/ME-20_OM.pdf",
+            "title": "ME-20 Owner Manual",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Pages 16–22 enumerate effect families and automatic routing; pages 23–24 describe writable memory. No interval pitch algorithm in the listed choices."
+          },
+          {
+            "url": "https://www.boss.info/global/products/me-20/specifications/",
+            "title": "ME-20 specifications and product overview",
+            "access": "Manufacturer web text",
+            "evidence": "Discontinued guitar processor; effects overview, expression pedal, 30 user memories and no listed USB/MIDI interface."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::ME-20",
       "BOSS::ME-20B",
       "BOSS::ME-25",
       "BOSS::ME-30",
@@ -183746,12 +183810,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 50,
-    "last_model": "BOSS::KATANA:GO",
-    "last_commit_parent": "97071f2669ee94fe8105ca96f3c33d9135c8d95f",
+    "completed_model_count": 51,
+    "last_model": "BOSS::ME-20",
+    "last_commit_parent": "cf318c9234b63331511797a6370a1d6c870e3dfc",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::ME-20",
       "BOSS::ME-20B",
       "BOSS::ME-25",
       "BOSS::ME-30",
@@ -184104,7 +184167,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 50,
+    "pitch_completed_model_count": 51,
     "supplemental_model_count": 0
   }
 }
