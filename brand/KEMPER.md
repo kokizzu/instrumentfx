@@ -43,6 +43,26 @@ Sources checked:
 
 <!-- firmware-pitch:Kemper::PROFILER Head MK2 ends -->
 
+<!-- model-images:Kemper::PROFILER Head MK2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**PROFILER Head powered control-face photo supplied on the Head MK2 SKU15300000 page: LCD and effect indicators lit.**
+
+[![PROFILER Head powered control-face photo supplied on the Head MK2 SKU15300000 page: LCD and effect indicators lit.](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-head_front_800w.jpg)](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-head_front_800w.jpg)
+
+[Image source](https://www.kemper-amps.com/store/en/profiler-head-b.html). Official listing labels this top view, but visually it is a front/control-face perspective of the upright Head chassis. It is not perpendicular overhead. Image lacks a visible MK2 badge; attribution is to the exact MK2 product listing, not independent internal-revision identification. No PowerHead amplifier output shown.
+
+**Unpowered PROFILER Head rear panel from the Head MK2 listing, with no speaker power-amplifier socket.**
+
+[![Unpowered PROFILER Head rear panel from the Head MK2 listing, with no speaker power-amplifier socket.](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-head_back_800w.jpg)](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-head_back_800w.jpg)
+
+[Image source](https://www.kemper-amps.com/store/en/profiler-head-b.html). Visible RETURN XLR/quarter-inch and ALTERNATIVE INPUT, DIRECT/SEND, MONITOR, stereo MAIN XLR/quarter-inch, S/PDIF RCA in/out, MIDI thru/out/in, two pedal sockets, NETWORK, USB-A/B and IEC mains. Red ground-lift controls are also visible. No MK2 revision badge is visible; listing provenance establishes intended model use but not an independently photographed internal revision. Printed mains label is narrower than the current 90–275 V specification; existing conflict remains.
+
+</details>
+<!-- model-images:Kemper::PROFILER Head MK2 ends -->
+
+
 Partial record checked **2026-10-17**. Exact manufacturer **SKU 15300000**, distinct from PowerHead and controller/speaker bundles. [kh-p]
 
 | Required field | Evidence / qualification |
