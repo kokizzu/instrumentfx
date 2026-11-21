@@ -12,3 +12,7 @@ firmware-model-review-refresh:
 	python3 -B scripts/firmware_publish.py refresh-review
 firmware-model-commit:
 	python3 -B scripts/firmware_publish.py commit
+
+.PHONY: research-source-image-qr
+research-source-image-qr:
+	python3 scripts/source_image.py qr

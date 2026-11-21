@@ -97,6 +97,33 @@ The [MP-10 product route](https://erokmusic.com/product/multi-effects/MP-10) now
 
 ## MP-20
 
+<!-- firmware-pitch:EROK::MP-20 begins -->
+### Firmware and pitch audit — EROK MP-20
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No dated first retail release established. Manual filename/creation date, regulatory dates and earliest located V78 March 2026 notes are not hardware release dates. [launch 1](https://erokmusic.com/product/multi-effects/MP-20) [launch 2](https://erokmusic.com/download/manuals/MP-20.pdf) |
+| Firmware / latest verification | 86 — Latest verified. Official catalogue selects MP-20_086.fwsc and V86 changelog explicitly dates October 19. File metadata dated October 27 is not release date. Adds global BPM/MIDI Clock; fixes WHAMMY Oct2 ceasing near Bend 80, Pattern Mono freezes and save failures. Back up via M-EFCS; downgrade erases user presets. [firmware 1](https://erokmusic.com/js/firmware-notes/en.json) [firmware 2](https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186) |
+| Firmware / release date | 2026-10-19 (day precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manual-linked effect reference lists FX Pitch (high/low/dry levels), semitone Pitch shifter (Semi), and Octave. V81 (2026-08-20) adds Gojira WHAMMY; V86 fixes Oct2/Bend. Interval limits, WHAMMY module assignment and input polyphony unverified. DLY Ice Stereo shifts echoes; REV Shimmer wet pitch spans unison to +2 octaves. [pitch 1](https://erokmusic.com/download/manuals/MP-20.pdf) [pitch 2](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/PD39-Effects-Description.pdf) [pitch 3](https://erokmusic.com/js/firmware-notes/en.json) |
+| Pitch / preset recall | 150 editable slots: 1–66 guitar-filled, 67–75 bass-filled, 76–150 initially effect-free. Not 150 plus separate factory slots. V78 adds snapshot mode within a preset; firmware downgrade after V81+ erases presets per notes. |
+| Pitch / DSP resources | Ten reorderable modules FX/NS/DS/AMP/CAB/EQ/MOD/DLY/REV/VOL. FX Pitch/Pitch shifter/Octave share the FX choice; wet-pitch effects use DLY or REV. Onboard CPU meter warns above 90%; global EQ can overload heavy chains. No per-pitch CPU %, measured configuration, or proven simultaneous pitch combination found. |
+| Pitch / qualifications | The manual itself links the PD39 effects reference via printed p12 QR, decoded and retrieved; applicability is established by that direct link, not inferred from MK-20 regulatory kinship. Stereo echo/reverb and separate pitch voices do not prove polyphonic input tracking. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [EROK MP-20 exact product route](https://erokmusic.com/product/multi-effects/MP-20) — Exact model identity; no dated hardware launch. (Manufacturer dynamic product route; public catalogue recovered separately).
+- [EROK official MP-20 firmware notes](https://erokmusic.com/js/firmware-notes/en.json) — V86 October 19, 2026; WHAMMY Oct2 fix, V81 August 20 addition, V78 snapshots; downgrade data loss. (Direct inert JSON; SHA256 df303b3d88967b04115e91708ad3bdcbe6023bc9278580caf5b0b2dd873d5cae).
+- [EROK current product/download catalogue](https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186) — Current MP-20 firmware86/date October19 and exact manual/gallery paths. (Direct inert JS; SHA256 61ae222d069351869f49a8e0c904c0a3429d834cc810039c226d1894f9a94341).
+- [EROK MP-20 owner manual](https://erokmusic.com/download/manuals/MP-20.pdf) — 150 editable slots and initial fill; ten reorderable modules; CPU warning above90%, EQ overload; p12 QR links exact PD39 effects reference. (Direct 28-page manufacturer PDF; printed pp2/5/8/9/12; SHA256 da6460e6b7b2bf1e59eaba4b131d314a9d456ef02bc86912eebfa255e39cabdf).
+- [MP-20 manual-linked PD39 Effects Description](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/PD39-Effects-Description.pdf) — Printed English p3 FX Pitch/Pitch shifter/Octave; Chinese pp34–35 Ice Stereo and Shimmer wet pitch; no input-polyphony or per-pitch DSP percentage. (Direct original 85-page PDF via manual QR; SHA256 65e8524534cc069166b79b6d98d2d7c2b4874ec85f1cae146dc927ec7cbc8977).
+- [EROK file metadata](https://erokmusic.com/js/data-download-meta.js?v=10&rev=78d5cd5bb107c29f) — MP-20_086 file date October27 is not substituted for explicit October19 release. (Previously recovered direct inert JS; metadata differs from changelog).
+
+<!-- firmware-pitch:EROK::MP-20 ends -->
+
 Checked2026-10-18; partial. Exact manufacturer MP-20 description and two exact Shopee titles establish guitar multi-effects identity. Bass/vocal membership and ownership remain unverified. A regulatory report now documents a limited MK-20/MP-20 hardware-family declaration, qualified below. Firmware/feature equivalence and MP-9 identity remain unverified; specifications are not transferred.
 
 | Field | Evidence / qualification |

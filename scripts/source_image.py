@@ -25,6 +25,7 @@ HOSTS = {'erokmusic.com', 'audota.com', 'www.audota.com', 'en.audota.com', 'www.
 
 # Exact retailer-hosted manufacturer manual linked by the BG300 distributor.
 REVIEWED_MIRRORS = {
+    'https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/PD39-Effects-Description.pdf',
     'https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191',
 }
 
@@ -231,6 +232,17 @@ def render():
         print(json.dumps({'url': receipt['url'], 'sha256': receipt['sha256'],
                           'frame': frame, 'total_frames': frames,
                           'size': source.size, 'rendered': str(output)}))
+
+
+def inspect_qr():
+    """Read QR link text from the already reviewed rendered PDF page."""
+    import cv2
+    render()
+    path = Path('/tmp/instrumentfx-source-image-view.png')
+    picture = cv2.imread(str(path))
+    assert picture is not None
+    found, values, points, _ = cv2.QRCodeDetector().detectAndDecodeMulti(picture)
+    print(json.dumps({'decoded_links': list(values) if found else []}))
 
 
 def extract_text():
@@ -461,4 +473,4 @@ def test():
 
 
 if __name__ == '__main__':
-    {'plan': plan, 'apply': apply, 'test': test, 'render': render, 'text': extract_text, 'index': inspect_index}[sys.argv[1]]()
+    {'plan': plan, 'apply': apply, 'test': test, 'render': render, 'text': extract_text, 'index': inspect_index, 'qr': inspect_qr}[sys.argv[1]]()

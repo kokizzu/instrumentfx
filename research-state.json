@@ -178514,15 +178514,15 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://erokmusic.com/download/manuals/MP-10.pdf",
+    "requested_url": "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/PD39-Effects-Description.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 1,
+    "frame": 0,
     "text_pages": [
-      0,
-      10
+      77,
+      84
     ],
-    "index_url": "https://erokmusic.com/js/firmware-notes/en.json",
-    "index_needle": "firmware_mp10_release_notes",
+    "index_url": "https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186",
+    "index_needle": "MP-20",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -186606,10 +186606,89 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "EROK::MP-20": {
+        "model_key": "EROK::MP-20",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unknown",
+          "source_urls": [
+            "https://erokmusic.com/product/multi-effects/MP-20",
+            "https://erokmusic.com/download/manuals/MP-20.pdf"
+          ],
+          "note": "No dated first retail release established. Manual filename/creation date, regulatory dates and earliest located V78 March 2026 notes are not hardware release dates."
+        },
+        "firmware": {
+          "version": "86",
+          "date": "2026-10-19",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://erokmusic.com/js/firmware-notes/en.json",
+            "https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186"
+          ],
+          "note": "Official catalogue selects MP-20_086.fwsc and V86 changelog explicitly dates October 19. File metadata dated October 27 is not release date. Adds global BPM/MIDI Clock; fixes WHAMMY Oct2 ceasing near Bend 80, Pattern Mono freezes and save failures. Back up via M-EFCS; downgrade erases user presets."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manual-linked effect reference lists FX Pitch (high/low/dry levels), semitone Pitch shifter (Semi), and Octave. V81 (2026-08-20) adds Gojira WHAMMY; V86 fixes Oct2/Bend. Interval limits, WHAMMY module assignment and input polyphony unverified. DLY Ice Stereo shifts echoes; REV Shimmer wet pitch spans unison to +2 octaves.",
+          "preset": "150 editable slots: 1–66 guitar-filled, 67–75 bass-filled, 76–150 initially effect-free. Not 150 plus separate factory slots. V78 adds snapshot mode within a preset; firmware downgrade after V81+ erases presets per notes.",
+          "dsp": "Ten reorderable modules FX/NS/DS/AMP/CAB/EQ/MOD/DLY/REV/VOL. FX Pitch/Pitch shifter/Octave share the FX choice; wet-pitch effects use DLY or REV. Onboard CPU meter warns above 90%; global EQ can overload heavy chains. No per-pitch CPU %, measured configuration, or proven simultaneous pitch combination found.",
+          "source_urls": [
+            "https://erokmusic.com/download/manuals/MP-20.pdf",
+            "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/PD39-Effects-Description.pdf",
+            "https://erokmusic.com/js/firmware-notes/en.json"
+          ],
+          "measurements": [],
+          "notes": [
+            "The manual itself links the PD39 effects reference via printed p12 QR, decoded and retrieved; applicability is established by that direct link, not inferred from MK-20 regulatory kinship. Stereo echo/reverb and separate pitch voices do not prove polyphonic input tracking."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://erokmusic.com/product/multi-effects/MP-20",
+            "title": "EROK MP-20 exact product route",
+            "access": "Manufacturer dynamic product route; public catalogue recovered separately",
+            "evidence": "Exact model identity; no dated hardware launch."
+          },
+          {
+            "url": "https://erokmusic.com/js/firmware-notes/en.json",
+            "title": "EROK official MP-20 firmware notes",
+            "access": "Direct inert JSON; SHA256 df303b3d88967b04115e91708ad3bdcbe6023bc9278580caf5b0b2dd873d5cae",
+            "evidence": "V86 October 19, 2026; WHAMMY Oct2 fix, V81 August 20 addition, V78 snapshots; downgrade data loss."
+          },
+          {
+            "url": "https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186",
+            "title": "EROK current product/download catalogue",
+            "access": "Direct inert JS; SHA256 61ae222d069351869f49a8e0c904c0a3429d834cc810039c226d1894f9a94341",
+            "evidence": "Current MP-20 firmware86/date October19 and exact manual/gallery paths."
+          },
+          {
+            "url": "https://erokmusic.com/download/manuals/MP-20.pdf",
+            "title": "EROK MP-20 owner manual",
+            "access": "Direct 28-page manufacturer PDF; printed pp2/5/8/9/12; SHA256 da6460e6b7b2bf1e59eaba4b131d314a9d456ef02bc86912eebfa255e39cabdf",
+            "evidence": "150 editable slots and initial fill; ten reorderable modules; CPU warning above90%, EQ overload; p12 QR links exact PD39 effects reference."
+          },
+          {
+            "url": "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/PD39-Effects-Description.pdf",
+            "title": "MP-20 manual-linked PD39 Effects Description",
+            "access": "Direct original 85-page PDF via manual QR; SHA256 65e8524534cc069166b79b6d98d2d7c2b4874ec85f1cae146dc927ec7cbc8977",
+            "evidence": "Printed English p3 FX Pitch/Pitch shifter/Octave; Chinese pp34–35 Ice Stereo and Shimmer wet pitch; no input-polyphony or per-pitch DSP percentage."
+          },
+          {
+            "url": "https://erokmusic.com/js/data-download-meta.js?v=10&rev=78d5cd5bb107c29f",
+            "title": "EROK file metadata",
+            "access": "Previously recovered direct inert JS; metadata differs from changelog",
+            "evidence": "MP-20_086 file date October27 is not substituted for explicit October19 release."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "EROK::MP-20",
       "EROK::Pocket Sonic",
       "Eventide::H9 Max",
       "Eventide::H90",
@@ -186916,12 +186995,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 97,
-    "last_model": "EROK::MP-10",
-    "last_commit_parent": "f4396f4031b5c83504ba4729be486ae570a9aa3e",
+    "completed_model_count": 98,
+    "last_model": "EROK::MP-20",
+    "last_commit_parent": "f6f20f5a96afec3705e9573e72b3ebb6f5a7160c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "EROK::MP-20",
       "EROK::Pocket Sonic",
       "Eventide::H9 Max",
       "Eventide::H90",
@@ -187227,7 +187305,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 97,
+    "pitch_completed_model_count": 98,
     "supplemental_model_count": 0
   },
   "model_images": {
