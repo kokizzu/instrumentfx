@@ -274,6 +274,26 @@ Sources checked:
 
 <!-- firmware-pitch:TC-Helicon::Harmony Singer 2 ends -->
 
+<!-- model-images:TC-Helicon::Harmony Singer 2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Harmony Singer 2 — exact-model manufacturer overhead artwork**
+
+[![Harmony Singer 2 — exact-model manufacturer overhead artwork](https://cdn-media.empowertribe.com/26c1f0478e7a4ea6a42bef25377b90e4/Image_TH_0726-AAB_HARMONY-SINGER-2_Top_XL.png)](https://cdn-media.empowertribe.com/26c1f0478e7a4ea6a42bef25377b90e4/Image_TH_0726-AAB_HARMONY-SINGER-2_Top_XL.png)
+
+[Image source](https://www.tchelicon.com/en/products/0726-AAB). Manufacturer 0726-AAB asset identifies HS2 although face branding itself omits the numeral 2. Three rotaries HARMONY/LEVEL/REVERB, one top TONE button, one footswitch, eight harmony icons and RM/CLUB/HALL labels visible. A small side control is visible but not labelled here; do not infer its function solely from this image. Lit LEDs are catalogue artwork, not independent powered hardware proof. Powered-on overhead photograph remains pending; earlier seller photo excluded because its generation could not be independently established.
+
+**Harmony Singer 2 — actual rear-port photograph**
+
+[![Harmony Singer 2 — actual rear-port photograph](https://r2.gear4music.com/media/133/1336386/1200/preview.jpg)](https://r2.gear4music.com/media/133/1336386/1200/preview.jpg)
+
+[Image source](https://www.gear4music.com/us/en/Guitar-and-Bass/TC-Helicon-Harmony-Singer-2-Vocal-Processor-Secondhand/7USL). Used unit rear shows micro-USB, ON/OFF slide switch, center-negative DC symbol, male XLR OUT and female XLR MIC. Quarter-inch side connector edge is visible; this angle does not document both guitar input/thru labels or ground-lift function. No rear analog EXP or dedicated headphone socket. Exact seller identifies HS2, consistent with power-switch layout; installed firmware is not shown. Rear and manufacturer top are different sources. USB audio/power and phantom voltage are not established visually.
+
+</details>
+<!-- model-images:TC-Helicon::Harmony Singer 2 ends -->
+
+
 Checked **2026-10-17**; partial. Vocal multi-effects, second-generation unit. Guitar-controlled harmony plus vocal reverb/Tone qualifies for ALL-VOCAL. The [manufacturer page][HS2-P] describes an untouched guitar-through path; this does not qualify it for ALL-GUITAR or ALL-BASS.
 
 <!-- comparison evidence begins -->

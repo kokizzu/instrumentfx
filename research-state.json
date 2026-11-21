@@ -207681,11 +207681,45 @@
             "exact_top_down": false
           }
         }
+      },
+      "TC-Helicon::Harmony Singer 2": {
+        "model_key": "TC-Helicon::Harmony Singer 2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn-media.empowertribe.com/26c1f0478e7a4ea6a42bef25377b90e4/Image_TH_0726-AAB_HARMONY-SINGER-2_Top_XL.png",
+            "source_url": "https://www.tchelicon.com/en/products/0726-AAB",
+            "caption": "Harmony Singer 2 — exact-model manufacturer overhead artwork",
+            "note": "Manufacturer 0726-AAB asset identifies HS2 although face branding itself omits the numeral 2. Three rotaries HARMONY/LEVEL/REVERB, one top TONE button, one footswitch, eight harmony icons and RM/CLUB/HALL labels visible. A small side control is visible but not labelled here; do not infer its function solely from this image. Lit LEDs are catalogue artwork, not independent powered hardware proof. Powered-on overhead photograph remains pending; earlier seller photo excluded because its generation could not be independently established.",
+            "visual_checked": true,
+            "sha256": "2670ab300548a32094740ffb77bf02ea869ed2f014956a5ca6fcd897789a952b",
+            "powered_on": null,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://r2.gear4music.com/media/133/1336386/1200/preview.jpg",
+            "source_url": "https://www.gear4music.com/us/en/Guitar-and-Bass/TC-Helicon-Harmony-Singer-2-Vocal-Processor-Secondhand/7USL",
+            "caption": "Harmony Singer 2 — actual rear-port photograph",
+            "note": "Used unit rear shows micro-USB, ON/OFF slide switch, center-negative DC symbol, male XLR OUT and female XLR MIC. Quarter-inch side connector edge is visible; this angle does not document both guitar input/thru labels or ground-lift function. No rear analog EXP or dedicated headphone socket. Exact seller identifies HS2, consistent with power-switch layout; installed firmware is not shown. Rear and manufacturer top are different sources. USB audio/power and phantom voltage are not established visually.",
+            "visual_checked": true,
+            "sha256": "f1fe868f6aa5aaf0ebd3e14b679fae6a316970e8de6e80d7341fb3d875d8d787",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://media.sweetwater.com/m/gx/f67d5d348d5efe328488d35805905857e026b1cd.jpg?auto=webp&bg-color=f2f1f0&canvas=2000%2C2000&fit=bounds&height=2000&quality=75&width=2000",
+            "sha256": "96148c061165d183cf15e56bb33dd547d2c074dcf0f55949bcbad6f306b2ee0e",
+            "visual_checked": true,
+            "note": "Excluded: seller labels listing HS2, but pictured face says Harmony Singer without 2. Exact generation identity unresolved; not used as HS2 proof."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::Duplicator"
+    "last_model": "TC-Helicon::Harmony Singer 2"
   }
 }
