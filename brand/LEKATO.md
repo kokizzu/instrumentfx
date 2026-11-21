@@ -35,6 +35,26 @@ Sources checked:
 
 <!-- firmware-pitch:LEKATO::ME-01 ends -->
 
+<!-- model-images:LEKATO::ME-01 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**LEKATO ME-01 overhead product graphic depicting an active color preset display, two knobs, two footswitches and seven top buttons.**
+
+[![LEKATO ME-01 overhead product graphic depicting an active color preset display, two knobs, two footswitches and seven top buttons.](https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal1.jpg?v=1747982296&width=1200)](https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal1.jpg?v=1747982296&width=1200)
+
+[Image source](https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs). Brand/model ME-01 visibly match SKU M03397. Screen depicts P01 and six effect modules. This is a manufacturer product graphic depicting operation, not an independent hardware power-on test; display diagonal and touch capability are not inferred.
+
+**ME-01 rear-edge lifestyle product graphic: headphone socket, OUT, USB connection, IN and power toggle visible.**
+
+[![ME-01 rear-edge lifestyle product graphic: headphone socket, OUT, USB connection, IN and power toggle visible.](https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal4.jpg?v=1747982338&width=1200)](https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal4.jpg?v=1747982338&width=1200)
+
+[Image source](https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs). Rear-edge view shows headphone and OUT sockets unplugged, USB and instrument input occupied by cables, and ON/OFF toggle. Top labels map the connectors; the USB plug obscures its socket opening and charging-indicator detail is not resolved. A clean unplugged straight rear photograph remains a gap. No dedicated EXP or DC barrel connector is shown. Graphic is not proof of recording software or installed firmware.
+
+</details>
+<!-- model-images:LEKATO::ME-01 ends -->
+
+
 <!-- comparison evidence begins -->
 
 Checked2026-10-18; partial. Own brand productSKU M03397 establishes general multi-effects eligibility; Shopee exact-model attribution remains unconfirmed. Ownership unverified. No equivalence with M-VAVE MINI-X,TANK-G,orPA-4 established; no sibling specifications transferred.

@@ -205173,11 +205173,87 @@
             "exact_top_down": false
           }
         }
+      },
+      "LEKATO::ME-01": {
+        "model_key": "LEKATO::ME-01",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal1.jpg?v=1747982296&width=1200",
+            "source_url": "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
+            "caption": "LEKATO ME-01 overhead product graphic depicting an active color preset display, two knobs, two footswitches and seven top buttons.",
+            "note": "Brand/model ME-01 visibly match SKU M03397. Screen depicts P01 and six effect modules. This is a manufacturer product graphic depicting operation, not an independent hardware power-on test; display diagonal and touch capability are not inferred.",
+            "visual_checked": true,
+            "sha256": "4fe9b0186e5bff430c1926aee96537bd562e80e704497fe9b9a8b65c06eea209",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal4.jpg?v=1747982338&width=1200",
+            "source_url": "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
+            "caption": "ME-01 rear-edge lifestyle product graphic: headphone socket, OUT, USB connection, IN and power toggle visible.",
+            "note": "Rear-edge view shows headphone and OUT sockets unplugged, USB and instrument input occupied by cables, and ON/OFF toggle. Top labels map the connectors; the USB plug obscures its socket opening and charging-indicator detail is not resolved. A clean unplugged straight rear photograph remains a gap. No dedicated EXP or DC barrel connector is shown. Graphic is not proof of recording software or installed firmware.",
+            "visual_checked": true,
+            "sha256": "4dfcf864eaaa99b2b506af1ec261c716310b1429b6eac268c25f3c44769cfae3",
+            "powered_on": true,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal9.jpg?v=1747982338&width=1200",
+            "sha256": "5f0607503ce7b20a4a66559e99eef9445495fa64cf1a6425c9a0720badfdf0d0",
+            "visual_checked": true,
+            "note": "Six-module marketing graphic uses top view, not rear connector evidence."
+          },
+          {
+            "image_url": "https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal11.jpg?v=1747982338&width=1200",
+            "sha256": "7f1b6a1ec18625431ad69d60777cec853f6e4de0b298b7df30bb04828669701d",
+            "visual_checked": true,
+            "note": "Powered lifestyle top-angle graphic, rear sockets plugged/obscured. Phone app says TANK-G, so it cannot establish ME-01 model-specific software identity."
+          },
+          {
+            "image_url": "https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal3.jpg?v=1747982338&width=1200",
+            "sha256": "88d218275c1f6606fd17355cec9d685ab12e920454c34dd0f0dede798189ca09",
+            "visual_checked": true,
+            "note": "Powered hand-held top view, not rear connector photograph."
+          },
+          {
+            "image_url": "https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal2.jpg?v=1747982338&width=1200",
+            "sha256": "2bea2e8a862f0fa670e7bf74f047aba61ab537e570089c7fbf23295de5ec85d9",
+            "visual_checked": true,
+            "note": "Oblique front/top product image hides rear sockets."
+          },
+          {
+            "image_url": "https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal7.jpg?v=1747982332&width=1200",
+            "sha256": "c16954a7577749f353f3e45d90435dac4f0920da32ee8dea76069e10c248342b",
+            "visual_checked": true,
+            "note": "Another oblique top view, not rear sockets."
+          },
+          {
+            "image_url": "https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal8.jpg?v=1747982338&width=1200",
+            "sha256": "4726e1a29e3b3f20ac5523470835559e3080d6179242df5a8bba8eba710dda7c",
+            "visual_checked": true,
+            "note": "Battery-life marketing front angle; rear sockets hidden."
+          },
+          {
+            "image_url": "https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal6.jpg?v=1747982338&width=1200",
+            "sha256": "9ba6d3af0bf83af0dfb49388f3a7707cf6f206141bd2f1cfcc7067f8c7531492",
+            "visual_checked": true,
+            "note": "Preset-count front/top graphic; rear sockets hidden."
+          },
+          {
+            "image_url": "https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal5.jpg?v=1747982338&width=1200",
+            "sha256": "e16ae27056e5b0c3e4ec6e9d9caecfe8416772aa21bea8ed107155272a6977da",
+            "visual_checked": true,
+            "note": "IR-import marketing front angle; no sockets."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Kemper::PROFILER Stage MK2"
+    "last_model": "LEKATO::ME-01"
   }
 }
