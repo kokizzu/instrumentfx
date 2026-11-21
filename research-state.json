@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Monarch_Series_Stompboxes/AmpAcademyStomp/NUX_NMA3AAP_UserManual_V5_English.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 0,
+    "frame": 3,
     "text_pages": [
       0,
       2
@@ -196714,6 +196714,168 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::Amp Academy Stomp": {
+        "model_key": "NUX::Amp Academy Stomp",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unresolved first hardware introduction / availability",
+          "source_urls": [
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Monarch_Series_Stompboxes/AmpAcademyStomp/NUX_NMA3AAP_UserManual_V5_English.pdf",
+            "https://nuxaudio.com/product/ampacademystomp/",
+            "https://www.youtube.com/watch?v=k2pnD5qyKH4",
+            "https://www.effectsdatabase.com/model/nux/multi/ampacademy/stomp"
+          ],
+          "note": "Manufacturer manual is copyright 2025, and the firmware archive already lists 1.3.0 on August 21, 2025. Neither establishes first hardware availability. The manufacturer introduction video is indexed as August 22, 2025, but earlier July demonstrations and reporting exist; do not substitute that later video or the December Japanese regional release for the first worldwide release. Exact first-release date and update span remain unknown."
+        },
+        "firmware": {
+          "version": "2.0.5",
+          "date": "2026-09-14",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://nuxaudio.com/product/ampacademystomp/",
+            "https://www.ariaguitars.com/jp/nux-amp-academy-stomp-fw.html"
+          ],
+          "note": "Global manufacturer labels 2.0.5 latest and dates both Windows/macOS firmware September 14, 2026; authorized Japanese distributor independently gives the same version/date. Adds NAM A2-Lite native / A1 converted loading, six DeepImage models, Mono Octave, NU SHIM and a MOD block. NUX Audio 1.1.7.1 replaces Monarch; editor and ASIO versions are separate from firmware. Older nine-block specifications remain on the same pages and are not a verified ceiling for this update."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Firmware 2.0.5 adds Mono Octave in EFX, Harmonist among 13 MOD choices, and NU SHIM shimmer reverb in RVB. Mono Octave is explicitly mono by name; no manufacturer polyphonic chord-tracking claim or interval range was located for Harmonist or NU SHIM. Shimmer is a reverb algorithm, not proof of a general polyphonic transposer.",
+          "preset": "Manufacturer quick-start shows HOME press cycling three scenes, HOME rotation choosing presets in PRESET mode, and EDIT hold saving a preset or copying a scene. Current update supports PRESET/SCENE/STOMP footswitch modes and external switch assignments. The manual conflicts between 27 slots with three scenes and 27 factory plus 27 user; preserve that unresolved capacity rather than asserting 54 independent writable slots. Pitch settings are within the effects architecture; no separate pitch-preset bank documented.",
+          "dsp": "No isolated pitch DSP percentage or measured pitch latency published in the checked material. NUX USA describes two processors, one for amp modeling and one for effects; that allocation does not mean pitch consumes 50%. Published minimum 2 ms is whole-system latency, not a measured Harmonist/Octave tracking delay. Added MOD choices do not prove all choices run simultaneously.",
+          "source_urls": [
+            "https://nuxaudio.com/product/ampacademystomp/",
+            "https://www.ariaguitars.com/jp/nux-amp-academy-stomp-fw.html",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Monarch_Series_Stompboxes/AmpAcademyStomp/NUX_NMA3AAP_UserManual_V5_English.pdf",
+            "https://www.nux.us/products/amp-academy-stomp"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original V5 English quick-start retrieved at 7,556,222 bytes; SHA256 b7f0a8add2e18d644913b35ef7768ed9fef6b808095353cd7bfa48023ab63598. PDF spreads 3 and 4 visually inspected (printed pages 3–6), including the scene/preset controls. This resolves the earlier inability to visually inspect those spreads, not the conflicting memory capacity or the full V2 pitch parameters.",
+            "No device operation, firmware installation or audio tracking test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://nuxaudio.com/product/ampacademystomp/",
+            "title": "NUX Amp Academy Stomp global product and current firmware support",
+            "access": "Current manufacturer page opened as text, including firmware listing and update feature notes",
+            "evidence": "Latest 2.0.5 dated September 14, 2026; three named pitch-related additions and editor migration."
+          },
+          {
+            "url": "https://www.ariaguitars.com/jp/nux-amp-academy-stomp-fw.html",
+            "title": "ARAI NUX Amp Academy Stomp firmware 2.0.5 release notes",
+            "access": "Authorized distributor page opened as text",
+            "evidence": "Independent exact-model version/date and named EFX/MOD/RVB additions."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Monarch_Series_Stompboxes/AmpAcademyStomp/NUX_NMA3AAP_UserManual_V5_English.pdf",
+            "title": "NUX NMA-3AAP original V5 English quick-start",
+            "access": "Original PDF retrieved and overview/controls spreads visually inspected",
+            "evidence": "SHA256 b7f0a8add2e18d644913b35ef7768ed9fef6b808095353cd7bfa48023ab63598; scene selection and save/copy workflow. Partial visual scope, not all pages."
+          },
+          {
+            "url": "https://www.nux.us/products/amp-academy-stomp",
+            "title": "NUX USA Amp Academy Stomp architecture",
+            "access": "Manufacturer regional product page opened as text",
+            "evidence": "Dual processors divided between amp and effects, without a per-pitch resource cost."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=k2pnD5qyKH4",
+            "title": "NUX manufacturer introduction video",
+            "access": "Search-indexed title and manufacturer description; direct page cache miss",
+            "evidence": "Exact-model introduction, dated August 22, 2025 by Effects Database index; not accepted as first release because earlier demonstrations exist."
+          },
+          {
+            "url": "https://www.effectsdatabase.com/model/nux/multi/ampacademy/stomp",
+            "title": "Effects Database dated video index",
+            "access": "Search-indexed dated entries, secondary chronology only",
+            "evidence": "Manufacturer introduction indexed August 22 and earlier third-party demonstrations May 15 / July 29, 2025; first availability unresolved."
+          }
+        ],
+        "notes": [
+          "Earlier research and source contradictions retained. No first-release day inferred from firmware, copyright or later regional release."
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "NUX::Amp Academy Stomp",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unresolved first hardware introduction / availability",
+              "source_urls": [
+                "https://nux.cherubtechnology.com/download/Manual/Effects/Monarch_Series_Stompboxes/AmpAcademyStomp/NUX_NMA3AAP_UserManual_V5_English.pdf",
+                "https://nuxaudio.com/product/ampacademystomp/"
+              ],
+              "note": "Manufacturer manual is copyright 2025, and the firmware archive already lists 1.3.0 on August 21, 2025. Neither establishes first hardware availability. The manufacturer introduction video is indexed as August 22, 2025, but earlier July demonstrations and reporting exist; do not substitute that later video or the December Japanese regional release for the first worldwide release. Exact first-release date and update span remain unknown."
+            },
+            "firmware": {
+              "version": "2.0.5",
+              "date": "2026-09-14",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://nuxaudio.com/product/ampacademystomp/",
+                "https://www.ariaguitars.com/jp/nux-amp-academy-stomp-fw.html"
+              ],
+              "note": "Global manufacturer labels 2.0.5 latest and dates both Windows/macOS firmware September 14, 2026; authorized Japanese distributor independently gives the same version/date. Adds NAM A2-Lite native / A1 converted loading, six DeepImage models, Mono Octave, NU SHIM and a MOD block. NUX Audio 1.1.7.1 replaces Monarch; editor and ASIO versions are separate from firmware. Older nine-block specifications remain on the same pages and are not a verified ceiling for this update."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Firmware 2.0.5 adds Mono Octave in EFX, Harmonist among 13 MOD choices, and NU SHIM shimmer reverb in RVB. Mono Octave is explicitly mono by name; no manufacturer polyphonic chord-tracking claim or interval range was located for Harmonist or NU SHIM. Shimmer is a reverb algorithm, not proof of a general polyphonic transposer.",
+              "preset": "Manufacturer quick-start shows HOME press cycling three scenes, HOME rotation choosing presets in PRESET mode, and EDIT hold saving a preset or copying a scene. Current update supports PRESET/SCENE/STOMP footswitch modes and external switch assignments. The manual conflicts between 27 slots with three scenes and 27 factory plus 27 user; preserve that unresolved capacity rather than asserting 54 independent writable slots. Pitch settings are within the effects architecture; no separate pitch-preset bank documented.",
+              "dsp": "No isolated pitch DSP percentage or measured pitch latency published in the checked material. NUX USA describes two processors, one for amp modeling and one for effects; that allocation does not mean pitch consumes 50%. Published minimum 2 ms is whole-system latency, not a measured Harmonist/Octave tracking delay. Added MOD choices do not prove all choices run simultaneously.",
+              "source_urls": [
+                "https://nuxaudio.com/product/ampacademystomp/",
+                "https://www.ariaguitars.com/jp/nux-amp-academy-stomp-fw.html",
+                "https://nux.cherubtechnology.com/download/Manual/Effects/Monarch_Series_Stompboxes/AmpAcademyStomp/NUX_NMA3AAP_UserManual_V5_English.pdf",
+                "https://www.nux.us/products/amp-academy-stomp"
+              ],
+              "measurements": [],
+              "notes": [
+                "Original V5 English quick-start retrieved at 7,556,222 bytes; SHA256 b7f0a8add2e18d644913b35ef7768ed9fef6b808095353cd7bfa48023ab63598. PDF spreads 3 and 4 visually inspected (printed pages 3–6), including the scene/preset controls. This resolves the earlier inability to visually inspect those spreads, not the conflicting memory capacity or the full V2 pitch parameters.",
+                "No device operation, firmware installation or audio tracking test."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://nuxaudio.com/product/ampacademystomp/",
+                "title": "NUX Amp Academy Stomp global product and current firmware support",
+                "access": "Current manufacturer page opened as text, including firmware listing and update feature notes",
+                "evidence": "Latest 2.0.5 dated September 14, 2026; three named pitch-related additions and editor migration."
+              },
+              {
+                "url": "https://www.ariaguitars.com/jp/nux-amp-academy-stomp-fw.html",
+                "title": "ARAI NUX Amp Academy Stomp firmware 2.0.5 release notes",
+                "access": "Authorized distributor page opened as text",
+                "evidence": "Independent exact-model version/date and named EFX/MOD/RVB additions."
+              },
+              {
+                "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Monarch_Series_Stompboxes/AmpAcademyStomp/NUX_NMA3AAP_UserManual_V5_English.pdf",
+                "title": "NUX NMA-3AAP original V5 English quick-start",
+                "access": "Original PDF retrieved and overview/controls spreads visually inspected",
+                "evidence": "SHA256 b7f0a8add2e18d644913b35ef7768ed9fef6b808095353cd7bfa48023ab63598; scene selection and save/copy workflow. Partial visual scope, not all pages."
+              },
+              {
+                "url": "https://www.nux.us/products/amp-academy-stomp",
+                "title": "NUX USA Amp Academy Stomp architecture",
+                "access": "Manufacturer regional product page opened as text",
+                "evidence": "Dual processors divided between amp and effects, without a per-pitch resource cost."
+              }
+            ],
+            "notes": [
+              "Earlier research and source contradictions retained. No first-release day inferred from firmware, copyright or later regional release."
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
@@ -196748,7 +196910,6 @@
       "Mosky::SOL918",
       "Neural DSP::Nano Cortex",
       "Neural DSP::Quad Cortex",
-      "NUX::Amp Academy Stomp",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "Roland::GR-55",
@@ -196897,9 +197058,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 224,
-    "last_model": "NUX::PG-2",
-    "last_commit_parent": "5797b0ef828bc1cd3a6c16ea73ee73162d4fe788",
+    "completed_model_count": 225,
+    "last_model": "NUX::Amp Academy Stomp",
+    "last_commit_parent": "08cc79f59b846acefe956a3afc4ab9fa0bc78641",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -196933,7 +197094,6 @@
       "Mosky::SOL918",
       "Neural DSP::Nano Cortex",
       "Neural DSP::Quad Cortex",
-      "NUX::Amp Academy Stomp",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "Roland::GR-55",
@@ -197081,7 +197241,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 224,
+    "pitch_completed_model_count": 225,
     "supplemental_model_count": 0
   },
   "model_images": {
