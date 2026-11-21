@@ -506,6 +506,26 @@ Sources checked:
 
 <!-- firmware-pitch:Lexicon::MX400 ends -->
 
+<!-- model-images:Lexicon::MX400 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MX400 front control face and rear photograph — displays dark**
+
+[![MX400 front control face and rear photograph — displays dark](https://medias.audiofanzine.com/images/normal/lexicon-mx400-372599.jpg)](https://medias.audiofanzine.com/images/normal/lexicon-mx400-372599.jpg)
+
+[Image source](https://en.audiofanzine.com/multi-effects-processor/lexicon/MX400/). Visually inspected real-unit composite: seven rotary controls, six function buttons and separate power rocker; LCD and program display are dark. Elevated front perspective, not literal top-down. Lower photograph shows the TRS-port rear of a 230–240V unit. Powered-on operating photograph and literal overhead view remain pending; colored LED lenses do not prove operation.
+
+**MX400 straight rear-port photograph — quarter-inch analog variant**
+
+[![MX400 straight rear-port photograph — quarter-inch analog variant](https://r2.gear4music.com/media/51/519054/1200/preview.jpg)](https://r2.gear4music.com/media/51/519054/1200/preview.jpg)
+
+[Image source](https://www.gear4music.com/Recording-and-Computers/DISC-Lexicon-MX400-Dual-Reverb-Processor-Nearly-New/2MTL). Visually inspected complete unplugged rear: IEC mains/fuse inlet, USB-B, one footswitch jack, two MIDI DIN sockets labeled IN/THRU, four RCA S/PDIF sockets (A/B IN/OUT), four quarter-inch analog outputs and four inputs grouped A front/stereo and B rear. No XLR analog sockets: this is MX400, not MX400XL. Fuse ratings list separate voltage versions; they do not establish universal-input operation. Rear THRU label is retained alongside the manual specification OUT conflict; no independent MIDI output capability inferred.
+
+</details>
+<!-- model-images:Lexicon::MX400 ends -->
+
+
 TRS-connector MX400 rack multi-effects; MX400XL is a distinct connector variant. Checked 2026-10-17; partial. Guitar/vocal mixer paths and bass-track compression documented in own manual. Use suitable line-level routing; not a direct mic/Hi-Z preamp claim. Ownership unestablished.
 
 <!-- comparison evidence begins -->
