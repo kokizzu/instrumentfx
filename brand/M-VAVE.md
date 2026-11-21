@@ -550,6 +550,30 @@ Historical2026-10-15 summary,retained separately from current comparison fields.
 
 ## CUBE BABY electric
 
+<!-- firmware-pitch:M-VAVE::CUBE BABY electric begins -->
+### Firmware and pitch audit — M-VAVE CUBE BABY electric
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer-filed manual reproduction links a December 12, 2020 document; mirror entry April 7, 2022 is a separate publication/update date. Neither establishes exact first worldwide hardware introduction or sale. AC/BASS release dates not transferred. [launch 1](https://device.report/manual/2644279) |
+| Firmware / latest verification | Not verified — No public firmware located. Current manufacturer index and exact-model product download block list desktop CubeSuite but no separately dated CUBE BABY electric device-firmware release. No public version/date located. Editor/IR loading and generic software-and-firmware headings are not a device changelog; this does not establish absence of internal firmware or permanent lack of update capability. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://www.cuvave.com/product?id=cube-baby) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Exact electric-model manufacturer-filed manual identifies preamp, Chorus/Phaser modulation, delay, reverb and cabinet IR. No dedicated octave, harmonizer, detune or transpose algorithm documented. Chorus modulation and tuner pitch indication do not establish a pitch-shift capability or polyphonic tracking. AC/BASS libraries and later ANN-model features not transferred. [pitch 1](https://device.report/manual/2644279) [pitch 2](https://www.cuvave.com/product?id=cube-baby) |
+| Pitch / preset recall | Three overwriteable memories A/B/C total, initially factory-filled. Saving edited settings replaces the selected factory tone; not three factory plus three user. In LIVE, A controls reverb/IR, B modulation/delay and C preamp/tone; grouped switches do not establish freely assignable effect slots. No pitch preset or preset-change spillover guarantee documented. |
+| Pitch / DSP resources | No per-effect DSP percentage or tracking-latency measurement found. Five fixed sound stages and three switch groups are not a resource allocation meter. No polyphonic pitch cost can be assigned when no dedicated pitch processor is established. No sibling performance percentages transferred. |
+| Pitch / qualifications | Sinco-filed CUBE-BABY operating body and exact manufacturer indexed product text checked. Historical translated bass wording in the old introduction conflicts with the actual electric library and is not used to adopt the separate BASS model specification. Earlier 600mAh/162×61×23mm versus later 780mAh/161×57×17.5mm source conflict remains. No new original-PDF visual equivalence, hardware test, firmware/app execution or IR import. Eight cabinet responses plus Off; Off is not a ninth importable IR slot. Current desktop CubeSuite support does not establish mobile editing or NAM loading. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Current M-VAVE download index](https://www.m-vave.com/download) — Desktop CubeSuite names CubeBaby; no separately versioned/datestamped electric-device firmware entry found. (Complete manufacturer index read as text).
+- [Exact manufacturer CUBE BABY product record](https://www.cuvave.com/product?id=cube-baby) — Electric amp/MOD/delay/reverb/IR chain, three operating modes and desktop CubeSuite; eight IRs plus Off. (Indexed manufacturer body read; direct page historically shell-limited).
+- [Sinco CUBE-BABY manufacturer-filed operating manual reproduction](https://device.report/manual/2644279) — Electric library, three overwriteable memories, grouped LIVE controls; original document/mirror dates not launch proof. (Previously identified exact-model numbered text read on mirror).
+
+<!-- firmware-pitch:M-VAVE::CUBE BABY electric ends -->
+
 <!-- comparison evidence begins -->
 
 **Existing review2026-10-15. No new ownership assertion.** Electric version,not AC/Bass.
