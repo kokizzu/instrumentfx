@@ -2622,6 +2622,30 @@ HX Stomp and HX Stomp XL already have research in legacy pages and are not newly
 
 ## Pocket POD
 
+<!-- firmware-pitch:Line 6::Pocket POD begins -->
+### Firmware and pitch audit — Line 6 Pocket POD
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2007 (manufacturer history). Manufacturer timeline places Pocket POD in2007. Exact announcement and first shipment day not verified; year precision retained. Distinct from Pocket POD Express. [launch 1](https://line6.com/timeline/) |
+| Firmware / latest verification | 1.01 — Latest verified. Current direct exact-device catalogue has one release,1.01 dated October9,2009. Fixes Cabinet Tuning mode and per-patch Delay Time saving. Vyzex editor and Monkey updater are separate; no device update performed. [firmware 1](https://line6.com/software/index.html?hardware=Pocket+POD&name=Flash+Memory&submit_form=set) |
+| Firmware / release date | 2009-10-09 (day precision) |
+| Firmware / release-to-update duration | 1.77–2.77 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No selectable transpose, harmonizer or octaver in Reference RevA complete effects summary4•5. Rotary explicitly uses Doppler pitch modulation; chorus/flanger modulation does not establish a controllable semitone pitch-shifter. [pitch 1](https://line6.com/data/6/0a060b316ac34f0593b61c899/application/pdf/Pocket%20POD%20Reference%20Manual%20-%20English%20%28%20Rev%20A%20%29.pdf) |
+| Pitch / preset recall | 124 writable user presets retain supported amp/effect settings. No dedicated pitch-transposition model documented to save. Band/Style presets are read-only but editable copies can be saved to User. |
+| Pitch / DSP resources | Fixed single-effect or predefined delay-combination choices, with separate reverb and noise gate; not a freely assignable block chain. No pitch-specific DSP cost or CPU percentage documented because no dedicated pitch model identified. Battery/runtime discussion is not a DSP percentage. |
+| Pitch / qualifications | Complete own effects list checked; tuner pitch detection is not pitch shifting. No hardware/audio benchmark. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 manufacturer history](https://line6.com/timeline/) — Pocket POD listed in2007; no exact first-sale date certified. (Current indexed manufacturer timeline read; direct reader timed out).
+- [Pocket POD exact Flash Memory catalogue](https://line6.com/software/index.html?hardware=Pocket+POD&name=Flash+Memory&submit_form=set) — Only release1.01 October9,2009; Cabinet Tuning and patch Delay Time fixes. (Direct bounded manufacturer HTML retrieved; SHA256 30202ab89bcf89e2fcd1acf0edd7bcfed628eccf4907c4c8dd494d146081fd5f).
+- [Pocket POD Reference Manual Rev A](https://line6.com/data/6/0a060b316ac34f0593b61c899/application/pdf/Pocket%20POD%20Reference%20Manual%20-%20English%20%28%20Rev%20A%20%29.pdf) — No dedicated transpose/harmony/octaver; Rotary Doppler modulation explicitly distinguished.124 writable User locations. (Original manufacturer PDF text read, chapter4 complete effects summary and chapter2 presets).
+
+<!-- firmware-pitch:Line 6::Pocket POD ends -->
+
 Handheld multi-effects;distinct from Pocket POD Express. Checked2026-10-17;partial. Ownership,vocal suitability unknown. Bass use documented for Tube Preamp.
 
 | Field | Finding / qualification | Evidence |

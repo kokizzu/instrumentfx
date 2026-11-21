@@ -178521,9 +178521,9 @@
       25,
       26
     ],
-    "index_url": "https://line6.com/company/images/?families=12",
-    "index_needle": "M9",
-    "index_skip": 0
+    "index_url": "https://line6.com/company/images/?families=1",
+    "index_needle": "Pocket",
+    "index_skip": 24
   },
   "portable_transposition_20261120": {
     "checked_date": "2026-11-20",
@@ -190208,6 +190208,68 @@
           "label": "1.32 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::Pocket POD": {
+        "model_key": "Line 6::Pocket POD",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2007",
+          "precision": "year",
+          "kind": "manufacturer_history",
+          "source_urls": [
+            "https://line6.com/timeline/"
+          ],
+          "note": "Manufacturer timeline places Pocket POD in2007. Exact announcement and first shipment day not verified; year precision retained. Distinct from Pocket POD Express."
+        },
+        "firmware": {
+          "version": "1.01",
+          "date": "2009-10-09",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=Pocket+POD&name=Flash+Memory&submit_form=set"
+          ],
+          "note": "Current direct exact-device catalogue has one release,1.01 dated October9,2009. Fixes Cabinet Tuning mode and per-patch Delay Time saving. Vyzex editor and Monkey updater are separate; no device update performed."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No selectable transpose, harmonizer or octaver in Reference RevA complete effects summary4•5. Rotary explicitly uses Doppler pitch modulation; chorus/flanger modulation does not establish a controllable semitone pitch-shifter.",
+          "preset": "124 writable user presets retain supported amp/effect settings. No dedicated pitch-transposition model documented to save. Band/Style presets are read-only but editable copies can be saved to User.",
+          "dsp": "Fixed single-effect or predefined delay-combination choices, with separate reverb and noise gate; not a freely assignable block chain. No pitch-specific DSP cost or CPU percentage documented because no dedicated pitch model identified. Battery/runtime discussion is not a DSP percentage.",
+          "source_urls": [
+            "https://line6.com/data/6/0a060b316ac34f0593b61c899/application/pdf/Pocket%20POD%20Reference%20Manual%20-%20English%20%28%20Rev%20A%20%29.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Complete own effects list checked; tuner pitch detection is not pitch shifting. No hardware/audio benchmark."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://line6.com/timeline/",
+            "title": "Line 6 manufacturer history",
+            "access": "Current indexed manufacturer timeline read; direct reader timed out",
+            "evidence": "Pocket POD listed in2007; no exact first-sale date certified."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=Pocket+POD&name=Flash+Memory&submit_form=set",
+            "title": "Pocket POD exact Flash Memory catalogue",
+            "access": "Direct bounded manufacturer HTML retrieved; SHA256 30202ab89bcf89e2fcd1acf0edd7bcfed628eccf4907c4c8dd494d146081fd5f",
+            "evidence": "Only release1.01 October9,2009; Cabinet Tuning and patch Delay Time fixes."
+          },
+          {
+            "url": "https://line6.com/data/6/0a060b316ac34f0593b61c899/application/pdf/Pocket%20POD%20Reference%20Manual%20-%20English%20%28%20Rev%20A%20%29.pdf",
+            "title": "Pocket POD Reference Manual Rev A",
+            "access": "Original manufacturer PDF text read, chapter4 complete effects summary and chapter2 presets",
+            "evidence": "No dedicated transpose/harmony/octaver; Rotary Doppler modulation explicitly distinguished.124 writable User locations."
+          }
+        ],
+        "duration": {
+          "minimum_days": 648,
+          "maximum_days": 1012,
+          "label": "1.77–2.77 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190252,7 +190314,6 @@
       "Line 6::Helix Stadium XL Floor",
       "Line 6::HX One",
       "Line 6::M13",
-      "Line 6::Pocket POD",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
       "Line 6::POD HD500X",
@@ -190473,9 +190534,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 142,
-    "last_model": "Line 6::M9",
-    "last_commit_parent": "d9be9019a5e409007233bc707cb0af5eec49aec1",
+    "completed_model_count": 143,
+    "last_model": "Line 6::Pocket POD",
+    "last_commit_parent": "43a570e76b1da255f27e152f7175adf1c1f3122a",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190519,7 +190580,6 @@
       "Line 6::Helix Stadium XL Floor",
       "Line 6::HX One",
       "Line 6::M13",
-      "Line 6::Pocket POD",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
       "Line 6::POD HD500X",
@@ -190739,7 +190799,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 142,
+    "pitch_completed_model_count": 143,
     "supplemental_model_count": 0
   },
   "model_images": {
