@@ -178521,8 +178521,8 @@
       30,
       30
     ],
-    "index_url": "https://line6.com/software/index.html?hardware=POD+HD400&name=Flash+Memory&submit_form=set",
-    "index_needle": "Released",
+    "index_url": "https://line6.com/company/images/?families=64",
+    "index_needle": "HD400",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -192680,11 +192680,35 @@
             "sha256": "fe49c03ec15b5856e4ecabff2498876eddca68fd4dac9f58b9fb014bc925743a"
           }
         }
+      },
+      "Line 6::POD HD400": {
+        "model_key": "Line 6::POD HD400",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/l/0a06434d123054caa21ea42afa/image/jpeg/POD%20HD400%20(Top%20Down)%20-%20Lo%20Rez.jpeg",
+            "source_url": "https://line6.com/company/images/?families=64",
+            "caption": "POD HD400 powered-on overhead view",
+            "note": "Official Top Down archive photo. Bank 06C, LCD and several LEDs illuminated; slight perspective remains, not strictly perpendicular.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "e920b64640faae71451bb814463784ec323c2f376c73bbe186344a47bbe36447"
+          },
+          "rear": {
+            "image_url": "https://line6.com/data/l/0a06434d123044caa21cd5a359/image/jpeg/POD%20HD400%20(Rear%20View)%20-%20Lo%20Rez.jpeg",
+            "source_url": "https://line6.com/company/images/?families=64",
+            "caption": "POD HD400 rear connections",
+            "note": "Exact HD400 official rear photograph. Pedal 2, guitar/CD-MP3 inputs, outputs, phones, stereo FX return/send, L6 LINK, USB and power visible; these extra ports must not be transferred to HD300.",
+            "visual_checked": true,
+            "sha256": "a3e51b3d63a750eea32d7a8563d446282fa77b5c129f1c32f4a4f6585cd934c0"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD HD300"
+    "last_model": "Line 6::POD HD400"
   }
 }

@@ -3851,6 +3851,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::POD HD400 ends -->
 
+<!-- model-images:Line 6::POD HD400 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**POD HD400 powered-on overhead view**
+
+[![POD HD400 powered-on overhead view](https://line6.com/data/l/0a06434d123054caa21ea42afa/image/jpeg/POD%20HD400%20(Top%20Down)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06434d123054caa21ea42afa/image/jpeg/POD%20HD400%20(Top%20Down)%20-%20Lo%20Rez.jpeg)
+
+[Image source](https://line6.com/company/images/?families=64). Official Top Down archive photo. Bank 06C, LCD and several LEDs illuminated; slight perspective remains, not strictly perpendicular.
+
+**POD HD400 rear connections**
+
+[![POD HD400 rear connections](https://line6.com/data/l/0a06434d123044caa21cd5a359/image/jpeg/POD%20HD400%20(Rear%20View)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06434d123044caa21cd5a359/image/jpeg/POD%20HD400%20(Rear%20View)%20-%20Lo%20Rez.jpeg)
+
+[Image source](https://line6.com/company/images/?families=64). Exact HD400 official rear photograph. Pedal 2, guitar/CD-MP3 inputs, outputs, phones, stereo FX return/send, L6 LINK, USB and power visible; these extra ports must not be transferred to HD300.
+
+</details>
+<!-- model-images:Line 6::POD HD400 ends -->
+
+
 Checked **2026-10-17**; partial. Discontinued floor multi-effects, distinct from HD300, HD500 and HD500X. Guitar and bass membership: its own Flash 2.0 guide documents the Flip Top bass amp/cab. No vocal membership established.
 
 <!-- comparison evidence begins -->
