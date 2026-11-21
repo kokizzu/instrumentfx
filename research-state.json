@@ -196925,11 +196925,35 @@
             "sha256": "297369764eb096b31da9ef873650c33793c5eeafeebb9644d581dfd36af22988"
           }
         }
+      },
+      "MOOER::GE200 Plus Li": {
+        "model_key": "MOOER::GE200 Plus Li",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE200_Plus_Li-01.png?v=1759293930&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-ge200plus-li",
+            "caption": "MOOER GE200 Plus Li — powered-on top-down view",
+            "note": "Complete top-down product image from the exact Plus Li page: purple chassis, GE200Plus Li badge, multicolour expression pedal and illuminated strip. LCD depicts 04A ToneQueen Clean with lit A ring. Screen artwork includes SEND/RETURN and PWRAMP blocks despite the pictured chassis lacking loop sockets; do not infer hardware from this artwork. DSP total is not pitch cost.",
+            "visual_checked": true,
+            "sha256": "d27b61ee6af3a1fed0df694a4ed8f027b4bd29c056908ffebdd3a97f692b6fd7",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE200_Plus_Li-02.png?v=1759293929&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-ge200plus-li",
+            "caption": "MOOER GE200 Plus Li — rear connections",
+            "note": "Full straight rear panel of purple Plus Li: instrument IN, stereo XLR, ground lift, stereo jack outputs, EXP2, headphones, USB Type-C, power switch and DC 9 V 3 A input. All connector positions visible with readable legends; no physical FX-loop or DIN MIDI sockets in this view.",
+            "visual_checked": true,
+            "sha256": "c1ffc7e169d49cfac8d7a6396282c3c71fb67411f684f48d38c63a7ed461d415"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE200 Plus"
+    "last_model": "MOOER::GE200 Plus Li"
   }
 }

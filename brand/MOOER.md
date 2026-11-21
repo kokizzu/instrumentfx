@@ -1632,6 +1632,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GE200 Plus Li ends -->
 
+<!-- model-images:MOOER::GE200 Plus Li begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GE200 Plus Li — powered-on top-down view**
+
+[![MOOER GE200 Plus Li — powered-on top-down view](https://mooer.jp/cdn/shop/files/GE200_Plus_Li-01.png?v=1759293930&width=1445)](https://mooer.jp/cdn/shop/files/GE200_Plus_Li-01.png?v=1759293930&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-ge200plus-li). Complete top-down product image from the exact Plus Li page: purple chassis, GE200Plus Li badge, multicolour expression pedal and illuminated strip. LCD depicts 04A ToneQueen Clean with lit A ring. Screen artwork includes SEND/RETURN and PWRAMP blocks despite the pictured chassis lacking loop sockets; do not infer hardware from this artwork. DSP total is not pitch cost.
+
+**MOOER GE200 Plus Li — rear connections**
+
+[![MOOER GE200 Plus Li — rear connections](https://mooer.jp/cdn/shop/files/GE200_Plus_Li-02.png?v=1759293929&width=1445)](https://mooer.jp/cdn/shop/files/GE200_Plus_Li-02.png?v=1759293929&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-ge200plus-li). Full straight rear panel of purple Plus Li: instrument IN, stereo XLR, ground lift, stereo jack outputs, EXP2, headphones, USB Type-C, power switch and DC 9 V 3 A input. All connector positions visible with readable legends; no physical FX-loop or DIN MIDI sockets in this view.
+
+</details>
+<!-- model-images:MOOER::GE200 Plus Li ends -->
+
+
 Checked 2026-10-19; partial. Separate battery variant; bass/vocal suitability and ownership unverified. [Manufacturer family page explicitly covering both versions](https://www.mooeraudio.com/products/232.html).
 
 | Field | Evidence / qualification |
