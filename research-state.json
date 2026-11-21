@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://www.joyoaudio.co.uk/manuals/R-series/JOYO-R-16-VOCAL-LAB.pdf",
+    "requested_url": "https://www.joyoaudio.co.uk/manuals/other/TC1.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 0,
+    "frame": 1,
     "text_pages": [
       22,
       24
@@ -189254,6 +189254,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "JOYO::Tone Chain TC-1": {
+        "model_key": "JOYO::Tone Chain TC-1",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2019-12",
+          "precision": "month",
+          "kind": "manufacturer_announcement_month",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=Vg2aOP8as5A",
+            "https://www.joyoaudio.com/product/192.html?productCateId=20"
+          ],
+          "note": "JOYO AUDIO official TC-1 video is dated December 1, 2019; December is an observed manufacturer announcement-month proxy, not proven earliest shipment. November 26 manual-upload timestamp is not a hardware release date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.joyoaudio.com/product/192.html?productCateId=20",
+            "https://www.joyoaudio.co.uk/manuals/other/TC1.pdf",
+            "https://www.joyoaudio.co.uk/Tonechain-TC-1"
+          ],
+          "note": "No public TC-1 device firmware package, version history or user-update procedure located. Own manual complete panel lists audio, loop, AUX and DC connections without USB/update port. A digital delay or tuner does not establish user-updatable firmware; November 26, 2019 is the manual upload date."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Own TC-1 manual and manufacturer list overdrive, distortion, digital delay, cabinet simulation and tuner. No pitch shifter, octaver or harmony algorithm documented. Tuner pitch detection is not pitch shifting; external effects connected through FX LOOP are not built-in algorithms.",
+          "preset": "Individual OD/DS/DELAY on/off footswitches, nine parameter rotaries and DS LO/HI toggle; no stored patch memories or pitch-preset recall documented. TAP TEMPO hold enters muted tuner mode.",
+          "dsp": "Fixed OD, DS and digital DELAY modules plus cabinet simulation; no user block allocator, CPU meter or per-effect DSP percentage documented. No pitch-specific resource cost applies to the documented internal effect set. Digital delay does not imply a programmable multi-algorithm pitch block.",
+          "source_urls": [
+            "https://www.joyoaudio.com/product/192.html?productCateId=20",
+            "https://www.joyoaudio.co.uk/Tonechain-TC-1",
+            "https://www.joyoaudio.co.uk/manuals/other/TC1.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Exact TC-1 manual inspected; TC-2 distortion controls and 1043g mass are not transferred. No hardware test or assertion that an external pitch pedal cannot be used."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Vg2aOP8as5A",
+            "title": "JOYO AUDIO Tone Chain TC-1 official video",
+            "access": "Indexed official channel publication metadata and description read; direct video fetch unavailable",
+            "evidence": "Published December 1, 2019; exact-model manufacturer announcement evidence, not proof of earliest shipment."
+          },
+          {
+            "url": "https://www.joyoaudio.com/product/192.html?productCateId=20",
+            "title": "JOYO TC-1 global product/download page",
+            "access": "Current exact-model page read",
+            "evidence": "OD/DS/delay, cab sim, tuner, FX loop and manual-only November 26, 2019 attachment. No firmware update download found."
+          },
+          {
+            "url": "https://www.joyoaudio.co.uk/Tonechain-TC-1",
+            "title": "JOYO UK Tone Chain 1 product page",
+            "access": "Manufacturer-linked regional product text and gallery read",
+            "evidence": "Separate effects, nine parameter controls and four footswitches; no pitch algorithm listed."
+          },
+          {
+            "url": "https://www.joyoaudio.co.uk/manuals/other/TC1.pdf",
+            "title": "JOYO Tone Chain TC-1 owner manual",
+            "access": "Original two-page Chinese/English PDF retrieved; both pages visually inspected, English page 2 complete panel and controls read; SHA256 167b6bea4828206245055618c5d370727e0e4dca5d7866a407ffa35735c0c9bf",
+            "evidence": "Exact TC-1 identity, OD/DS/digital-delay modules, nine parameter rotaries, muted tuner, rear/side audio/loop/DC panel and no USB/update procedure. No internal pitch/harmony, memory bank or numeric DSP load documented."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -189267,7 +189336,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "JOYO::Tone Chain TC-1",
       "JOYO::Tone Chain TC-2",
       "Keeley::Delay Workstation",
       "Kemper::PROFILER Head MK2",
@@ -189532,9 +189600,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 129,
-    "last_model": "JOYO::R-16 Vocal Lab",
-    "last_commit_parent": "944cb0937ee857ecd7fdbdfbe604d69873b56230",
+    "completed_model_count": 130,
+    "last_model": "JOYO::Tone Chain TC-1",
+    "last_commit_parent": "a9a476515ef76f08720d0f33762d3d074d751239",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -189547,7 +189615,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "JOYO::Tone Chain TC-1",
       "JOYO::Tone Chain TC-2",
       "Keeley::Delay Workstation",
       "Kemper::PROFILER Head MK2",
@@ -189811,7 +189878,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 129,
+    "pitch_completed_model_count": 130,
     "supplemental_model_count": 0
   },
   "model_images": {

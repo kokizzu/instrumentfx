@@ -25,6 +25,7 @@ HOSTS = {'flammainnovation.com', 'www.flammainnovation.com', 'downloads.eventide
 
 # Exact retailer-hosted manufacturer manual linked by the BG300 distributor.
 REVIEWED_MIRRORS = {
+    'https://www.joyoaudio.co.uk/manuals/other/TC1.pdf',
     'https://www.joyoaudio.co.uk/manuals/R-series/JOYO-R-16-VOCAL-LAB.pdf',
     'https://ltm-music.ru/upload/files/joyo_gem_box_iii.pdf',
     'https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf',
