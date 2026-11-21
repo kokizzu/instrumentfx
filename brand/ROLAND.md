@@ -276,6 +276,31 @@ The acoustic-model inventory above remains separate from PCM instrument samples.
 
 ## VT-4
 
+<!-- firmware-pitch:Roland::VT-4 begins -->
+### Firmware and pitch audit — Roland VT-4
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2018-10-19 (manufacturer Japanese on-sale date). October 16 announcement explicitly specifies October 19 Japanese release; announcement date is not substituted for on-sale date. [launch 1](https://www.roland.com/jp/news/0813/) |
+| Firmware / latest verification | 1.03 — Latest verified. Current support index lists System Program 1.03; November 2021 notes fix reverb tempo synchronization with incoming MIDI realtime messages. Version 1.02 (November 2018) added constant pitch/formant conversion, robot-off-on-note-interruption and mute settings. Computer driver versions are separate. [firmware 1](https://www.roland.com/global/support/by_product/vt-4/updates_drivers/0d77b4ed-4e35-48d2-a18f-6c9bcbe57a69/) [firmware 2](https://www.roland.com/global/support/by_product/vt-4/updates_drivers/) |
+| Firmware / release date | 2021-11 (month precision) |
+| Firmware / release-to-update duration | 3.04–3.12 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. Single-vocalist input processing: pitch slider +/-1 octave, formant conversion, Auto Pitch, robot, harmony and vocoder. Manual warns simultaneous voices will not process correctly. MIDI-controlled HARMONY has a distinct POLY mode generating up to four harmony notes; this is not polyphonic chord tracking of incoming audio. KEY and AUTO PITCH are ignored while MIDI notes arrive. [pitch 1](https://static.roland.com/assets/media/pdf/VT-4_eng04_W.pdf) [pitch 2](https://www.roland.com/global/support/by_product/vt-4/updates_drivers/0d77b4ed-4e35-48d2-a18f-6c9bcbe57a69/) |
+| Pitch / preset recall | Eight writable scene memories recall effect settings; scenes 5-8 use MANUAL plus scene button. Recalling a scene can leave physical slider/Auto Pitch/Key positions different from the sound; moving a control applies its physical setting. Computer backup/restore supported. |
+| Pitch / DSP resources | No per-algorithm DSP percentage, CPU meter or measured pitch cost established in the checked manual. Fixed vocal-processing architecture and four generated MIDI harmony notes are not freely allocatable blocks or CPU percentages. |
+| Pitch / qualifications | Monophonic classification describes the required audio input, with explicitly qualified four-note generated harmony output. No hardware tracking or latency benchmark performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [VT-4 Japanese release announcement](https://www.roland.com/jp/news/0813/) — October 19 2018 Japanese on-sale date. (Manufacturer source checked 2026-11-22).
+- [VT-4 System Program 1.03](https://www.roland.com/global/support/by_product/vt-4/updates_drivers/0d77b4ed-4e35-48d2-a18f-6c9bcbe57a69/) — 1.03 November 2021; 1.02 November 2018; firmware features and fixes. (Manufacturer source checked 2026-11-22).
+- [VT-4 support index](https://www.roland.com/global/support/by_product/vt-4/updates_drivers/) — Current System Program 1.03 separate from computer drivers. (Manufacturer source checked 2026-11-22).
+- [VT-4 owner manual eng04](https://static.roland.com/assets/media/pdf/VT-4_eng04_W.pdf) — pp2/4 single input vocalist and +/-octave; p5 MIDI POLY four harmony notes; p6 eight writable scenes and controller pickup behavior. (Manufacturer source checked 2026-11-22).
+
+<!-- firmware-pitch:Roland::VT-4 ends -->
+
 Checked2026-10-17; partial new vocal multi-effects record. Ownership unverified. [Roland product/specifications][VT4-P] explicitly describes combined vocal processing; not merely a dedicated vocoder. Guitar/bass membership unverified.
 
 | Field | Finding / qualification |
