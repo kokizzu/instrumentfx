@@ -200536,10 +200536,63 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Mosky::SOL918": {
+        "model_key": "Mosky::SOL918",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first hardware release not verified",
+          "source_urls": [
+            "https://www.moskyaudio.com/multi-effects/130.html"
+          ],
+          "note": "Manufacturer page is undated; seller year fields and image migration/upload dates do not verify first shipment."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.moskyaudio.com/multi-effects/130.html",
+            "https://www.moskyaudio.com/mosky.html"
+          ],
+          "note": "No exact SOL918 firmware release, updater or changelog located on checked manufacturer routes or searches. Manual index exposes no documents. This does not prove absent internal firmware/non-updatability; release-to-update duration unknown. Old product URL now404, current manufacturer route retained."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Manufacturer lists reverb, delay, FX loop, overdrive and distortion. No dedicated pitch-shift, transpose, octave or harmonizer documented. External effects-loop insertion does not establish built-in pitch or polyphony.",
+          "preset": "Factory/user preset capacity, electronic program recall and stored pitch parameters unverified. Physical switches/knobs do not establish programmable memories.",
+          "dsp": "No pitch-specific resource figure found. Manufacturer includes an external FX loop among five advertised functions; this is not five internal DSP blocks or a 20% cost per function.",
+          "source_urls": [
+            "https://www.moskyaudio.com/multi-effects/130.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "FX loop is an external audio insert, not evidence of a phrase recording looper.",
+            "Keep SOL918 distinct from Mosky RC5/DC5/RD5; do not inherit sibling firmware or effects."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.moskyaudio.com/multi-effects/130.html",
+            "title": "Mosky SOL918 current manufacturer product page",
+            "access": "Manufacturer body and gallery links inspected; old products-1-98 route404",
+            "evidence": "Undated five-functions listing reverb/delay/FX loop/overdrive/distortion. No dedicated pitch or firmware release documented."
+          },
+          {
+            "url": "https://www.moskyaudio.com/mosky.html",
+            "title": "Mosky manufacturer manual index",
+            "access": "Manufacturer body inspected",
+            "evidence": "No manual entries exposed; no exact SOL918 updater found. Lack of listings does not prove lack of internal firmware."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Mosky::SOL918",
       "ROWIN::RE-05 Looper Pro",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
@@ -200672,12 +200725,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 271,
-    "last_model": "Mosky::RD5",
-    "last_commit_parent": "69b4acb06ec150dd5556566599460e6e8fe3c8a8",
+    "completed_model_count": 272,
+    "last_model": "Mosky::SOL918",
+    "last_commit_parent": "15c5f45e45c37bad7b8f0bc0937adf98728bbb4a",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Mosky::SOL918",
       "ROWIN::RE-05 Looper Pro",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
@@ -200809,7 +200861,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 271,
+    "pitch_completed_model_count": 272,
     "supplemental_model_count": 0
   },
   "model_images": {

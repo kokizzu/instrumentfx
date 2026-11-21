@@ -240,6 +240,29 @@ A five-month [shop index](https://shopee.co.id/smile.pedal87) names RD5 at Rp430
 
 ## SOL918
 
+<!-- firmware-pitch:Mosky::SOL918 begins -->
+### Firmware and pitch audit — Mosky SOL918
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer page is undated; seller year fields and image migration/upload dates do not verify first shipment. [launch 1](https://www.moskyaudio.com/multi-effects/130.html) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact SOL918 firmware release, updater or changelog located on checked manufacturer routes or searches. Manual index exposes no documents. This does not prove absent internal firmware/non-updatability; release-to-update duration unknown. Old product URL now404, current manufacturer route retained. [firmware 1](https://www.moskyaudio.com/multi-effects/130.html) [firmware 2](https://www.moskyaudio.com/mosky.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Manufacturer lists reverb, delay, FX loop, overdrive and distortion. No dedicated pitch-shift, transpose, octave or harmonizer documented. External effects-loop insertion does not establish built-in pitch or polyphony. [pitch 1](https://www.moskyaudio.com/multi-effects/130.html) |
+| Pitch / preset recall | Factory/user preset capacity, electronic program recall and stored pitch parameters unverified. Physical switches/knobs do not establish programmable memories. |
+| Pitch / DSP resources | No pitch-specific resource figure found. Manufacturer includes an external FX loop among five advertised functions; this is not five internal DSP blocks or a 20% cost per function. |
+| Pitch / qualifications | FX loop is an external audio insert, not evidence of a phrase recording looper. Keep SOL918 distinct from Mosky RC5/DC5/RD5; do not inherit sibling firmware or effects. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Mosky SOL918 current manufacturer product page](https://www.moskyaudio.com/multi-effects/130.html) — Undated five-functions listing reverb/delay/FX loop/overdrive/distortion. No dedicated pitch or firmware release documented. (Manufacturer body and gallery links inspected; old products-1-98 route404).
+- [Mosky manufacturer manual index](https://www.moskyaudio.com/mosky.html) — No manual entries exposed; no exact SOL918 updater found. Lack of listings does not prove lack of internal firmware. (Manufacturer body inspected).
+
+<!-- firmware-pitch:Mosky::SOL918 ends -->
+
 Effects-only multi-effects strip. Checked 2026-10-18; partial. Ownership unverified. Bass/vocal applicability lacks primary confirmation; seller titles do not establish it.
 
 | Field | Finding / qualification | Evidence |
