@@ -190555,11 +190555,35 @@
             "sha256": "268cfcd3f15b858b034f5112046a67a49bb06cacd18fc798a46d4b10f2d4ac42"
           }
         }
+      },
+      "JOYO::GEM BOX II": {
+        "model_key": "JOYO::GEM BOX II",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/JOYO-GEM-BOX-2-008-500x500.jpg",
+            "source_url": "https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992",
+            "caption": "JOYO GEM BOX II top-down product view — screen blank",
+            "note": "Exact-model overhead view with two knobs, five buttons, two footswitches and built-in expression pedal. Screen is blank; powered-on whole-unit overhead remains pending. The separately inspected [active U73 VOODOO BOY display close-up](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/IMG_1624-500x500h.JPG) shows a blue-lit screen but is not a whole-unit top-down photograph.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": true,
+            "sha256": "7419577b45c1b8a738071f2fba42b5068b93254baa32f5d663bb3d4455ef2eaf"
+          },
+          "rear": {
+            "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/JOYO-GEM-BOX-2-010-500x500.jpg",
+            "source_url": "https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992",
+            "caption": "JOYO GEM BOX II rear connections",
+            "note": "JOYO UK rear-angle photograph shows two full-size audio jacks, smaller AUX jack and barrel DC input. Manual identifies these as mono INPUT, shared stereo OUTPUT/PHONES, AUX IN and 9V power; labels are not legible in this image. No USB, MIDI or FX-loop connector appears in the documented panel. Screen is blank in this rear photograph.",
+            "visual_checked": true,
+            "sha256": "838efa69563a534f8427d97a74381fbd402f480a6b6eacc59253a7380be61931"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "IK Multimedia::TONEX Pedal"
+    "last_model": "JOYO::GEM BOX II"
   }
 }

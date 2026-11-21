@@ -50,6 +50,26 @@ Sources checked:
 
 <!-- firmware-pitch:JOYO::GEM BOX II ends -->
 
+<!-- model-images:JOYO::GEM BOX II begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**JOYO GEM BOX II top-down product view — screen blank**
+
+[![JOYO GEM BOX II top-down product view — screen blank](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/JOYO-GEM-BOX-2-008-500x500.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/JOYO-GEM-BOX-2-008-500x500.jpg)
+
+[Image source](https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992). Exact-model overhead view with two knobs, five buttons, two footswitches and built-in expression pedal. Screen is blank; powered-on whole-unit overhead remains pending. The separately inspected [active U73 VOODOO BOY display close-up](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/IMG_1624-500x500h.JPG) shows a blue-lit screen but is not a whole-unit top-down photograph.
+
+**JOYO GEM BOX II rear connections**
+
+[![JOYO GEM BOX II rear connections](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/JOYO-GEM-BOX-2-010-500x500.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/JOYO-GEM-BOX-2-010-500x500.jpg)
+
+[Image source](https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992). JOYO UK rear-angle photograph shows two full-size audio jacks, smaller AUX jack and barrel DC input. Manual identifies these as mono INPUT, shared stereo OUTPUT/PHONES, AUX IN and 9V power; labels are not legible in this image. No USB, MIDI or FX-loop connector appears in the documented panel. Screen is blank in this rear photograph.
+
+</details>
+<!-- model-images:JOYO::GEM BOX II ends -->
+
+
 **Technical/price review: 2026-10-14. Partial.** Original, III and K8 remain separate models.
 
 <!-- comparison evidence begins -->
