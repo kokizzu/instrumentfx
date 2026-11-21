@@ -822,6 +822,31 @@ All three share the single FX row. AutoYah combines wah/flanger-like vowel proce
 
 ## RP150
 
+<!-- firmware-pitch:DigiTech::RP150 begins -->
+### Firmware and pitch audit — DigiTech RP150
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2006-10-13 (manufacturer shipping notice proxy). Manufacturer begun-shipping announcement reproduced by Sonicstate; available-by proxy, not exact first shipment. July 2006 trade-show introduction and manual compliance date are separate events. [launch 1](https://sonicstate.com/news/2006/10/13/latest-digitech-guitar-processors-ship/) |
+| Firmware / latest verification | Not verified — Unverified. Official downloads/product list X-Edit 2.4.1 Windows and 2.7.1 Intel Mac, not a dated RP150 device firmware release. Targeted manufacturer/Harman search found editor release notes, not latest RP150 ROM evidence. Firmware version/date and update span remain unverified. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://digitech.com/dp/rp150/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift ±24 semitones; Detune ±24 cents; Intelligent Pitch Shifting key/scale harmony within ±1 octave; Whammy bends including ±1/±2 octaves and Dive Bomb. Input-note polyphony not explicitly established in checked manual. [pitch 1](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf) [pitch 2](https://digitech.com/dp/rp150/) |
+| Pitch / preset recall | 50 writable user presets plus 50 read-only factory presets; user locations initially duplicate factory. Tone/Effects Library choices are starting settings, not extra writable presets. |
+| Pitch / DSP resources | Whammy, Pitch Shift, Detune and Intelligent Pitch Shifting share one Chorus/FX slot, excluding other choices in that row. Eleven advertised simultaneous effects do not mean eleven pitch instances. No per-algorithm CPU percentage published in checked sources. |
+| Pitch / qualifications | External Control In or manual pedal-position parameter controls Whammy; RP150 has no built-in treadle. Newer standalone Whammy chord modes not transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [DigiTech RP150/RP250 begun-shipping announcement](https://sonicstate.com/news/2006/10/13/latest-digitech-guitar-processors-ship/) — RP150/RP250 shipping; first exact shipment date not specified. (Manufacturer announcement reproduced by Sonicstate, October 13, 2006).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — RP150 X-Edit editor versions; no dated device firmware entry. (Manufacturer current index web text).
+- [DigiTech RP150 product](https://digitech.com/dp/rp150/) — Eleven simultaneous effects, 50 user/50 factory presets and editor links. (Manufacturer product web text).
+- [RP150 User Manual 18-0429V-B](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf) — Printed pp27–33 single Chorus/FX selection and pitch ranges; factory/user storage; external Control In. No explicit input-polyphony guarantee. (Manufacturer 27-PDF-page spread-layout manual web text).
+
+<!-- firmware-pitch:DigiTech::RP150 ends -->
+
 Guitar multi-effects;partial,checked2026-10-18. Distinct fromRP155/RP250. [Manufacturer product](https://digitech.com/dp/rp150/),[own manual RevB](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf),printedpp6–11,38–39.
 
 <!-- comparison evidence begins -->

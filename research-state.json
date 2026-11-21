@@ -185263,10 +185263,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::RP150": {
+        "model_key": "DigiTech::RP150",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2006-10-13",
+          "precision": "day",
+          "kind": "manufacturer_shipping_notice_proxy",
+          "source_urls": [
+            "https://sonicstate.com/news/2006/10/13/latest-digitech-guitar-processors-ship/"
+          ],
+          "note": "Manufacturer begun-shipping announcement reproduced by Sonicstate; available-by proxy, not exact first shipment. July 2006 trade-show introduction and manual compliance date are separate events."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://digitech.com/software-downloads/",
+            "https://digitech.com/dp/rp150/"
+          ],
+          "note": "Official downloads/product list X-Edit 2.4.1 Windows and 2.7.1 Intel Mac, not a dated RP150 device firmware release. Targeted manufacturer/Harman search found editor release notes, not latest RP150 ROM evidence. Firmware version/date and update span remain unverified."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift ±24 semitones; Detune ±24 cents; Intelligent Pitch Shifting key/scale harmony within ±1 octave; Whammy bends including ±1/±2 octaves and Dive Bomb. Input-note polyphony not explicitly established in checked manual.",
+          "preset": "50 writable user presets plus 50 read-only factory presets; user locations initially duplicate factory. Tone/Effects Library choices are starting settings, not extra writable presets.",
+          "dsp": "Whammy, Pitch Shift, Detune and Intelligent Pitch Shifting share one Chorus/FX slot, excluding other choices in that row. Eleven advertised simultaneous effects do not mean eleven pitch instances. No per-algorithm CPU percentage published in checked sources.",
+          "measurements": [],
+          "source_urls": [
+            "https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf",
+            "https://digitech.com/dp/rp150/"
+          ],
+          "notes": [
+            "External Control In or manual pedal-position parameter controls Whammy; RP150 has no built-in treadle. Newer standalone Whammy chord modes not transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://sonicstate.com/news/2006/10/13/latest-digitech-guitar-processors-ship/",
+            "title": "DigiTech RP150/RP250 begun-shipping announcement",
+            "access": "Manufacturer announcement reproduced by Sonicstate, October 13, 2006",
+            "evidence": "RP150/RP250 shipping; first exact shipment date not specified."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer current index web text",
+            "evidence": "RP150 X-Edit editor versions; no dated device firmware entry."
+          },
+          {
+            "url": "https://digitech.com/dp/rp150/",
+            "title": "DigiTech RP150 product",
+            "access": "Manufacturer product web text",
+            "evidence": "Eleven simultaneous effects, 50 user/50 factory presets and editor links."
+          },
+          {
+            "url": "https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf",
+            "title": "RP150 User Manual 18-0429V-B",
+            "access": "Manufacturer 27-PDF-page spread-layout manual web text",
+            "evidence": "Printed pp27–33 single Chorus/FX selection and pitch ranges; factory/user storage; external Control In. No explicit input-polyphony guarantee."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::RP150",
       "DigiTech::RP155",
       "DigiTech::RP200",
       "DigiTech::RP250",
@@ -185591,12 +185656,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 79,
-    "last_model": "DigiTech::RP1000",
-    "last_commit_parent": "66aa9af48d61db261304c57d6c3ef84092741cb2",
+    "completed_model_count": 80,
+    "last_model": "DigiTech::RP150",
+    "last_commit_parent": "8e464cf7865f74e8d8c736c7b7f65d47f1644cb6",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::RP150",
       "DigiTech::RP155",
       "DigiTech::RP200",
       "DigiTech::RP250",
@@ -185920,7 +185984,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 79,
+    "pitch_completed_model_count": 80,
     "supplemental_model_count": 0
   }
 }
