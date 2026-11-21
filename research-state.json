@@ -194180,11 +194180,35 @@
             "sha256": "f80585e2743b7bd0f536be89d7e91fc61322993c506cbdfa9782d211e7e918b0"
           }
         }
+      },
+      "Fractal Audio::FM9 MKII Turbo": {
+        "model_key": "Fractal Audio::FM9 MKII Turbo",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://shop.fractalaudio.com/cdn/shop/files/fm9-1920x1280.png?v=1759262164&width=3840",
+            "source_url": "https://shop.fractalaudio.com/products/fm9-mark-ii-turbo-amp-modeler-multi-fx-floor-unit",
+            "caption": "FM9 MKII Turbo — powered-on top view",
+            "note": "Official exact-model product photograph. Straight top view shows Mark II panel marking, Turbo main display, nine larger illuminated mini-displays and colored footswitch rings. Promotional display content is not evidence of installed firmware or factory-preset contents.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "cd9d946608dce7d872d68ef9b4508f3d3d08e1db35d6b5f1679631a37775339a"
+          },
+          "rear": {
+            "image_url": "https://shop.fractalaudio.com/cdn/shop/files/fm9-rear.png?v=1759935088&width=3840",
+            "source_url": "https://shop.fractalaudio.com/products/fm9-mark-ii-turbo-amp-modeler-multi-fx-floor-unit",
+            "caption": "FM9 MKII Turbo — rear connections",
+            "note": "Official rear photograph supplied on the exact MKII Turbo listing; rear label itself says FM9 and does not independently identify revision. Readable: instrument IN1, balanced stereo IN2/IN3, OUT1 XLR and quarter-inch, OUT2 XLR, OUT3 quarter-inch, ground lifts, phones, PDL1–3, FASLINK II, S/PDIF in/out, USB-B, MIDI in/out-thru and AC inlet/switch. No USB channel count or electrical pinout inferred from the photo.",
+            "visual_checked": true,
+            "sha256": "efa7dc5ad1053446694b78e7ed0cb000ad65ca2b246850d947c2a0fbb8ae6a8d"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Fractal Audio::FM3 original"
+    "last_model": "Fractal Audio::FM9 MKII Turbo"
   }
 }

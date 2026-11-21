@@ -1663,6 +1663,26 @@ Sources checked:
 
 <!-- firmware-pitch:Fractal Audio::FM9 MKII Turbo ends -->
 
+<!-- model-images:Fractal Audio::FM9 MKII Turbo begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**FM9 MKII Turbo — powered-on top view**
+
+[![FM9 MKII Turbo — powered-on top view](https://shop.fractalaudio.com/cdn/shop/files/fm9-1920x1280.png?v=1759262164&width=3840)](https://shop.fractalaudio.com/cdn/shop/files/fm9-1920x1280.png?v=1759262164&width=3840)
+
+[Image source](https://shop.fractalaudio.com/products/fm9-mark-ii-turbo-amp-modeler-multi-fx-floor-unit). Official exact-model product photograph. Straight top view shows Mark II panel marking, Turbo main display, nine larger illuminated mini-displays and colored footswitch rings. Promotional display content is not evidence of installed firmware or factory-preset contents.
+
+**FM9 MKII Turbo — rear connections**
+
+[![FM9 MKII Turbo — rear connections](https://shop.fractalaudio.com/cdn/shop/files/fm9-rear.png?v=1759935088&width=3840)](https://shop.fractalaudio.com/cdn/shop/files/fm9-rear.png?v=1759935088&width=3840)
+
+[Image source](https://shop.fractalaudio.com/products/fm9-mark-ii-turbo-amp-modeler-multi-fx-floor-unit). Official rear photograph supplied on the exact MKII Turbo listing; rear label itself says FM9 and does not independently identify revision. Readable: instrument IN1, balanced stereo IN2/IN3, OUT1 XLR and quarter-inch, OUT2 XLR, OUT3 quarter-inch, ground lifts, phones, PDL1–3, FASLINK II, S/PDIF in/out, USB-B, MIDI in/out-thru and AC inlet/switch. No USB channel count or electrical pinout inferred from the photo.
+
+</details>
+<!-- model-images:Fractal Audio::FM9 MKII Turbo ends -->
+
+
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.
 
 | Required field | Evidence / qualification |
