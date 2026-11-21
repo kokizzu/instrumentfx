@@ -190834,11 +190834,35 @@
             "sha256": "1879876e27889bbc62538f90e6a8e23a56468822cfd3f4e53879bebb2322900e"
           }
         }
+      },
+      "JOYO::Tone Chain TC-1": {
+        "model_key": "JOYO::Tone Chain TC-1",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/TC-1/JOYO-Tonechain-1%20%281%29-500x500.jpg",
+            "source_url": "https://www.joyoaudio.co.uk/Tonechain-TC-1",
+            "caption": "JOYO TC-1 whole-unit top/front view — unlit",
+            "note": "Whole white TC-1 with nine rotaries, DS LO/HI toggle and four footswitches. Screen and switch indicators are unlit; slight front-facing perspective rather than exact overhead. Powered-on top-down photograph remains pending. The manual contains an illuminated panel illustration, which is not a powered hardware photograph.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "2419d914e0a67400f7ebafba746861b8b3ba789c7c299020d9c523661fd0607d"
+          },
+          "rear": {
+            "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/TC-1/JOYO-Tonechain-1%20%282%29-500x500h.jpg",
+            "source_url": "https://www.joyoaudio.co.uk/Tonechain-TC-1",
+            "caption": "JOYO TC-1 rear connections and XLR side edge",
+            "note": "Rear-angle photo labels SEND, RETURN, OUTPUT R, L/MONO, CAB SIM pushbutton, AUX IN and DC9V polarity. One XLR is visible at the side edge; the manual documents both L/R XLR outputs on that side and the instrument input on the opposite side. No USB, MIDI or EXP connector in the complete manual panel. This image is a rear-port photograph, not proof of an internal firmware version.",
+            "visual_checked": true,
+            "sha256": "2ec0135410c1103a7deead522e8a10f69866ac421e16b9731f0aa3189daa9ed6"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "JOYO::R-16 Vocal Lab"
+    "last_model": "JOYO::Tone Chain TC-1"
   }
 }
