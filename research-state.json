@@ -192399,6 +192399,64 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Korg::AX30G": {
+        "model_key": "Korg::AX30G",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "1994",
+          "precision": "year",
+          "kind": "manufacturer_regional_history",
+          "source_urls": [
+            "https://w.korgmusic.ru/news/kratkaya-istoriya-50ti-letnego-razvitiya-kompanii-korg/"
+          ],
+          "note": "Korg regional retrospective places AX30G among the initial 1994 ToneWorks products. Exact announcement and first shipment dates unresolved; later used-listing years are not launch evidence."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/30/"
+          ],
+          "note": "Exact-model download page lists only the Owner’s Manual, uploaded 2015-06-01. That upload is not firmware or hardware-release evidence; no device firmware package or version history located."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shifter provides parallel harmony, FAST/SLOW response choices, coarse/fine pitch, delay, feedback and stereo balance. Bender accepts pressure or external expression control. Chord tracking/polyphony not established.",
+          "preset": "16 writable user programs and 50 presets. Program Write includes pressure assignments, NR and total level; pitch settings can be stored in a user program. Physical pedal position recall unverified.",
+          "dsp": "Pitch Shifter and Bender are alternatives in Mod2, also shared with other modulation choices. Two chain blocks support up to six simultaneous effects plus NR. No algorithm CPU percentage or measured DSP allocation located.",
+          "source_urls": [
+            "https://manualzz.com/doc/22367070/korg-ax30g-owner-s-manual"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer-authored manual transcript used; OCR can lose signs. Exact numeric pitch limits are not promoted without original-scan verification. Stereo harmony does not establish polyphonic input."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://w.korgmusic.ru/news/kratkaya-istoriya-50ti-letnego-razvitiya-kompanii-korg/",
+            "title": "Korg regional 50-year history — ToneWorks",
+            "access": "Regional Korg history read",
+            "evidence": "Names AX30G among the initial 1994 ToneWorks products; no precise shipment date."
+          },
+          {
+            "url": "https://www.korg.com/us/support/download/product/1/30/",
+            "title": "Korg AX30G downloads",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "Only Owner’s Manual listed, dated 2015-06-01; no public firmware package shown."
+          },
+          {
+            "url": "https://manualzz.com/doc/22367070/korg-ax30g-owner-s-manual",
+            "title": "AX30G original Owner’s Manual — mirrored transcript",
+            "access": "Manufacturer-authored body text read on mirror; original PDF has no text and screenshot fetch failed",
+            "evidence": "Mod2 pitch/bender controls, chain allocation and Program Write checked; signs in the OCR remain qualified."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -192408,7 +192466,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::AX30G",
       "Korg::PANDORA stomp",
       "LEKATO::ME-01",
       "Lexicon::MPX100",
@@ -192632,9 +192689,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 174,
-    "last_model": "Korg::AX3000G",
-    "last_commit_parent": "3f25692ca3e3d87eec57637a3a78a1e8325b92c3",
+    "completed_model_count": 175,
+    "last_model": "Korg::AX30G",
+    "last_commit_parent": "2a585c0e67ba38f77deda542ea689e5f184a3ea2",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -192643,7 +192700,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::AX30G",
       "Korg::PANDORA stomp",
       "LEKATO::ME-01",
       "Lexicon::MPX100",
@@ -192866,7 +192922,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 174,
+    "pitch_completed_model_count": 175,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -799,6 +799,30 @@ Korg AX10G support links the AX10-Series EasyStart. The readable filename= query
 
 ## AX30G
 
+<!-- firmware-pitch:Korg::AX30G begins -->
+### Firmware and pitch audit — Korg AX30G
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1994 (manufacturer regional history). Korg regional retrospective places AX30G among the initial 1994 ToneWorks products. Exact announcement and first shipment dates unresolved; later used-listing years are not launch evidence. [launch 1](https://w.korgmusic.ru/news/kratkaya-istoriya-50ti-letnego-razvitiya-kompanii-korg/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model download page lists only the Owner’s Manual, uploaded 2015-06-01. That upload is not firmware or hardware-release evidence; no device firmware package or version history located. [firmware 1](https://www.korg.com/us/support/download/product/1/30/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter provides parallel harmony, FAST/SLOW response choices, coarse/fine pitch, delay, feedback and stereo balance. Bender accepts pressure or external expression control. Chord tracking/polyphony not established. [pitch 1](https://manualzz.com/doc/22367070/korg-ax30g-owner-s-manual) |
+| Pitch / preset recall | 16 writable user programs and 50 presets. Program Write includes pressure assignments, NR and total level; pitch settings can be stored in a user program. Physical pedal position recall unverified. |
+| Pitch / DSP resources | Pitch Shifter and Bender are alternatives in Mod2, also shared with other modulation choices. Two chain blocks support up to six simultaneous effects plus NR. No algorithm CPU percentage or measured DSP allocation located. |
+| Pitch / qualifications | Manufacturer-authored manual transcript used; OCR can lose signs. Exact numeric pitch limits are not promoted without original-scan verification. Stereo harmony does not establish polyphonic input. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Korg regional 50-year history — ToneWorks](https://w.korgmusic.ru/news/kratkaya-istoriya-50ti-letnego-razvitiya-kompanii-korg/) — Names AX30G among the initial 1994 ToneWorks products; no precise shipment date. (Regional Korg history read).
+- [Korg AX30G downloads](https://www.korg.com/us/support/download/product/1/30/) — Only Owner’s Manual listed, dated 2015-06-01; no public firmware package shown. (Manufacturer exact-model page read).
+- [AX30G original Owner’s Manual — mirrored transcript](https://manualzz.com/doc/22367070/korg-ax30g-owner-s-manual) — Mod2 pitch/bender controls, chain allocation and Program Write checked; signs in the OCR remain qualified. (Manufacturer-authored body text read on mirror; original PDF has no text and screenshot fetch failed).
+
+<!-- firmware-pitch:Korg::AX30G ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**, partial. Guitar multi-effects, distinct from AX300G/AX3000G. Manufacturer-authored manual text on a mirror supplements the unreadable official scan.
 
