@@ -178514,7 +178514,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://ltm-music.ru/upload/files/joyo_gem_box_iii.pdf",
+    "requested_url": "https://www.joyoaudio.co.uk/manuals/R-series/JOYO-R-16-VOCAL-LAB.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0,
     "text_pages": [
@@ -189186,6 +189186,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "JOYO::R-16 Vocal Lab": {
+        "model_key": "JOYO::R-16 Vocal Lab",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2020-01",
+          "precision": "month",
+          "kind": "manufacturer_debut_month",
+          "source_urls": [
+            "https://www.joyochina.cn/news/110.html"
+          ],
+          "note": "JOYO NAMM report published January 20, 2020 explicitly says R-16 debuted at NAMM, held January 16–19. January is the manufacturer debut-month proxy, not an exact first retail shipment day."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.joyoaudio.com/product/205.html",
+            "https://www.joyoaudio.co.uk/VocalLab-Harmoniser",
+            "https://www.joyoaudio.co.uk/manuals/R-series/JOYO-R-16-VOCAL-LAB.pdf"
+          ],
+          "note": "Micro USB is documented for firmware updating, but exact-model manufacturer product/download page lists only the manual; no public device firmware version, package or release history located. March 3, 2020 is the manual attachment date. R-15 Preamp House updater is a different model and is not assigned to R-16."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Key-selected vocal harmony: nine modes, up to two generated harmony voices; 12 roots with major/minor switch. Unison, fourth below, third above, sixth below, fifth above and paired modes. Own manual confirms High is third above; UK prose saying third below conflicts with its paired modes. Polyphonic input tracking is not claimed; two generated harmony voices are not proof of polyphonic chord input.",
+          "preset": "Physical nine-position harmony selector, key encoder, harmony mix and independent harmony/reverb footswitches. Stored patch memory and recalled pitch presets not documented. Manual provides latching or momentary footswitch operation.",
+          "dsp": "Fixed harmony plus independent three-mode reverb; both can operate together. No per-algorithm DSP percentage, CPU meter or user block allocator documented. Two harmony voices and three reverb sizes are not processor percentages. Instrument input receives reverb, not harmony.",
+          "source_urls": [
+            "https://www.joyoaudio.com/product/205.html",
+            "https://www.joyoaudio.co.uk/VocalLab-Harmoniser",
+            "https://www.joyoaudio.co.uk/manuals/R-series/JOYO-R-16-VOCAL-LAB.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Vocal microphone processing scope; not a guitar polyphonic drop-tuner. No hardware tracking, quality or latency test. Correcting the historical High interval conflict is based on the original manual, not a listening inference."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.joyochina.cn/news/110.html",
+            "title": "JOYO NAMM 2020 manufacturer report",
+            "access": "Indexed manufacturer article text read; direct fetch unavailable",
+            "evidence": "Dated January 20, 2020, gives January 16–19 event dates and explicitly identifies R-16 NAMM debut."
+          },
+          {
+            "url": "https://www.joyoaudio.com/product/205.html",
+            "title": "JOYO R-16 VOCAL LAB global product/download page",
+            "access": "Current exact-model manufacturer page read",
+            "evidence": "Nine harmony modes, two added voices, manual-only download listing dated March 3, 2020; no public firmware package located."
+          },
+          {
+            "url": "https://www.joyoaudio.co.uk/VocalLab-Harmoniser",
+            "title": "JOYO UK R-16 Vocal Lab product page",
+            "access": "Manufacturer-linked regional page read",
+            "evidence": "USB firmware updates only; instrument reverb without harmony; High prose differs from own manual."
+          },
+          {
+            "url": "https://www.joyoaudio.co.uk/manuals/R-series/JOYO-R-16-VOCAL-LAB.pdf",
+            "title": "JOYO R-16 owner manual 266-00R16-0010",
+            "access": "Original two-page PDF retrieved; English page 1 visually inspected; SHA256 2c7daedeedde69a046bad2ecca0a5c14568ad92b295cac55b453c2211a4d2cd9",
+            "evidence": "Panel identifies Micro USB for firmware; two harmony voices maximum, High third above, separate harmony/reverb switches, latching/momentary operation and rear connection diagram. Manual does not state polyphonic input tracking or numeric DSP load."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -189199,7 +189267,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "JOYO::R-16 Vocal Lab",
       "JOYO::Tone Chain TC-1",
       "JOYO::Tone Chain TC-2",
       "Keeley::Delay Workstation",
@@ -189465,9 +189532,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 128,
-    "last_model": "JOYO::GEM BOX III",
-    "last_commit_parent": "16e15ead82f4cc14edf6b7bb29e57cea41b5f636",
+    "completed_model_count": 129,
+    "last_model": "JOYO::R-16 Vocal Lab",
+    "last_commit_parent": "944cb0937ee857ecd7fdbdfbe604d69873b56230",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -189480,7 +189547,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "JOYO::R-16 Vocal Lab",
       "JOYO::Tone Chain TC-1",
       "JOYO::Tone Chain TC-2",
       "Keeley::Delay Workstation",
@@ -189745,7 +189811,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 128,
+    "pitch_completed_model_count": 129,
     "supplemental_model_count": 0
   },
   "model_images": {

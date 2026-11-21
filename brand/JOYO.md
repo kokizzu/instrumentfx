@@ -454,6 +454,31 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 
 ## R-16 Vocal Lab
 
+<!-- firmware-pitch:JOYO::R-16 Vocal Lab begins -->
+### Firmware and pitch audit — JOYO R-16 Vocal Lab
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2020-01 (manufacturer debut month). JOYO NAMM report published January 20, 2020 explicitly says R-16 debuted at NAMM, held January 16–19. January is the manufacturer debut-month proxy, not an exact first retail shipment day. [launch 1](https://www.joyochina.cn/news/110.html) |
+| Firmware / latest verification | Not verified — No public firmware located. Micro USB is documented for firmware updating, but exact-model manufacturer product/download page lists only the manual; no public device firmware version, package or release history located. March 3, 2020 is the manual attachment date. R-15 Preamp House updater is a different model and is not assigned to R-16. [firmware 1](https://www.joyoaudio.com/product/205.html) [firmware 2](https://www.joyoaudio.co.uk/VocalLab-Harmoniser) [firmware 3](https://www.joyoaudio.co.uk/manuals/R-series/JOYO-R-16-VOCAL-LAB.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Key-selected vocal harmony: nine modes, up to two generated harmony voices; 12 roots with major/minor switch. Unison, fourth below, third above, sixth below, fifth above and paired modes. Own manual confirms High is third above; UK prose saying third below conflicts with its paired modes. Polyphonic input tracking is not claimed; two generated harmony voices are not proof of polyphonic chord input. [pitch 1](https://www.joyoaudio.com/product/205.html) [pitch 2](https://www.joyoaudio.co.uk/VocalLab-Harmoniser) [pitch 3](https://www.joyoaudio.co.uk/manuals/R-series/JOYO-R-16-VOCAL-LAB.pdf) |
+| Pitch / preset recall | Physical nine-position harmony selector, key encoder, harmony mix and independent harmony/reverb footswitches. Stored patch memory and recalled pitch presets not documented. Manual provides latching or momentary footswitch operation. |
+| Pitch / DSP resources | Fixed harmony plus independent three-mode reverb; both can operate together. No per-algorithm DSP percentage, CPU meter or user block allocator documented. Two harmony voices and three reverb sizes are not processor percentages. Instrument input receives reverb, not harmony. |
+| Pitch / qualifications | Vocal microphone processing scope; not a guitar polyphonic drop-tuner. No hardware tracking, quality or latency test. Correcting the historical High interval conflict is based on the original manual, not a listening inference. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [JOYO NAMM 2020 manufacturer report](https://www.joyochina.cn/news/110.html) — Dated January 20, 2020, gives January 16–19 event dates and explicitly identifies R-16 NAMM debut. (Indexed manufacturer article text read; direct fetch unavailable).
+- [JOYO R-16 VOCAL LAB global product/download page](https://www.joyoaudio.com/product/205.html) — Nine harmony modes, two added voices, manual-only download listing dated March 3, 2020; no public firmware package located. (Current exact-model manufacturer page read).
+- [JOYO UK R-16 Vocal Lab product page](https://www.joyoaudio.co.uk/VocalLab-Harmoniser) — USB firmware updates only; instrument reverb without harmony; High prose differs from own manual. (Manufacturer-linked regional page read).
+- [JOYO R-16 owner manual 266-00R16-0010](https://www.joyoaudio.co.uk/manuals/R-series/JOYO-R-16-VOCAL-LAB.pdf) — Panel identifies Micro USB for firmware; two harmony voices maximum, High third above, separate harmony/reverb switches, latching/momentary operation and rear connection diagram. Manual does not state polyphonic input tracking or numeric DSP load. (Original two-page PDF retrieved; English page 1 visually inspected; SHA256 2c7daedeedde69a046bad2ecca0a5c14568ad92b295cac55b453c2211a4d2cd9).
+
+<!-- firmware-pitch:JOYO::R-16 Vocal Lab ends -->
+
 Checked **2026-10-17**; partial. Vocal harmony/reverb multi-effects; vocal-only classification. Instrument reverb does not make it guitar/bass multi-effects.
 
 <!-- comparison evidence begins -->
