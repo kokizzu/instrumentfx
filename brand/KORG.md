@@ -63,6 +63,30 @@ Partial lead remains outside402. Exact AX1 seller identity,visual controls,power
 
 ## AX3B
 
+<!-- firmware-pitch:Korg::AX3B begins -->
+### Firmware and pitch audit — Korg AX3B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005-12 (announced availability proxy). Contemporaneous November 5 report announces December 2005 availability. Scheduled availability proxy, not independently confirmed first shipment or worldwide retail date; January 2006 NAMM coverage is later. [launch 1](https://sonicstate.com/news/2005/11/05/music-live-new-guitar-multi-fx-from-korg/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model download page lists only Owner’s Manual and Easy Start Guide, dated June 1, 2015. No public device firmware package or release history located; manual upload dates are not firmware dates. Release-to-update span remains uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/32/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD F7 PITCH provides pitch range −12…+12, separate effect/direct levels, FINE −15…+15 and TRACKING 1…10. Polyphonic tracking is not established by this parameter table; units for FINE are not stated here. [pitch 1](https://cdn.korg.com/jp/support/download/files/61668387854d47761208f8cb966e5327.pdf?response-content-disposition=inline%3Bfilename%3DAX3B_EFGJ1.pdf&response-content-type=application%2Fpdf%3B) |
+| Pitch / preset recall | 40 user programs store edited effect parameters; 40 additional factory presets. Pitch is recalled as part of a saved program; hardware recall untested. |
+| Pitch / DSP resources | PITCH occupies the single MOD choice, replacing chorus, flanger or other MOD alternatives. Six simultaneous effects including noise reduction is an overall chain limit, not a pitch CPU percentage. No numerical pitch DSP cost located. |
+| Pitch / qualifications | PRE OCTAVE and SYNTH are separate alternatives; their existence does not prove main-shifter polyphony. No measured bass tracking or latency results. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Music Live: New Guitar Multi-FX From Korg — November 5, 2005](https://sonicstate.com/news/2005/11/05/music-live-new-guitar-multi-fx-from-korg/) — AX3G and AX3B announcement gives December 2005 scheduled availability; retained as a qualified proxy. (Contemporaneous launch report read).
+- [Korg AX3B support downloads](https://www.korg.com/us/support/download/product/1/32/) — Only two manuals listed, both uploaded June 1, 2015; no device firmware listed. (Manufacturer exact-model page read).
+- [AX3B Owner’s Manual EFGJ1](https://cdn.korg.com/jp/support/download/files/61668387854d47761208f8cb966e5327.pdf?response-content-disposition=inline%3Bfilename%3DAX3B_EFGJ1.pdf&response-content-type=application%2Fpdf%3B) — Pages 4, 7–9 and 44 establish program storage, six-effect chain and MOD F7 PITCH parameters; polyphony and CPU percentage unstated. (Manufacturer original PDF text and exact-model appendix read).
+
+<!-- firmware-pitch:Korg::AX3B ends -->
+
 Bass multi-effects;partial,checked2026-10-18. Distinct fromAX3G/AX5B. [Own manual,AX3B_EFG1](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B),pp7–11.
 
 <!-- comparison evidence begins -->

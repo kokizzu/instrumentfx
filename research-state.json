@@ -191845,6 +191845,64 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Korg::AX3B": {
+        "model_key": "Korg::AX3B",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2005-12",
+          "precision": "month",
+          "kind": "announced_availability_proxy",
+          "source_urls": [
+            "https://sonicstate.com/news/2005/11/05/music-live-new-guitar-multi-fx-from-korg/"
+          ],
+          "note": "Contemporaneous November 5 report announces December 2005 availability. Scheduled availability proxy, not independently confirmed first shipment or worldwide retail date; January 2006 NAMM coverage is later."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/32/"
+          ],
+          "note": "Exact-model download page lists only Owner’s Manual and Easy Start Guide, dated June 1, 2015. No public device firmware package or release history located; manual upload dates are not firmware dates. Release-to-update span remains uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD F7 PITCH provides pitch range −12…+12, separate effect/direct levels, FINE −15…+15 and TRACKING 1…10. Polyphonic tracking is not established by this parameter table; units for FINE are not stated here.",
+          "preset": "40 user programs store edited effect parameters; 40 additional factory presets. Pitch is recalled as part of a saved program; hardware recall untested.",
+          "dsp": "PITCH occupies the single MOD choice, replacing chorus, flanger or other MOD alternatives. Six simultaneous effects including noise reduction is an overall chain limit, not a pitch CPU percentage. No numerical pitch DSP cost located.",
+          "source_urls": [
+            "https://cdn.korg.com/jp/support/download/files/61668387854d47761208f8cb966e5327.pdf?response-content-disposition=inline%3Bfilename%3DAX3B_EFGJ1.pdf&response-content-type=application%2Fpdf%3B"
+          ],
+          "measurements": [],
+          "notes": [
+            "PRE OCTAVE and SYNTH are separate alternatives; their existence does not prove main-shifter polyphony. No measured bass tracking or latency results."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://sonicstate.com/news/2005/11/05/music-live-new-guitar-multi-fx-from-korg/",
+            "title": "Music Live: New Guitar Multi-FX From Korg — November 5, 2005",
+            "access": "Contemporaneous launch report read",
+            "evidence": "AX3G and AX3B announcement gives December 2005 scheduled availability; retained as a qualified proxy."
+          },
+          {
+            "url": "https://www.korg.com/us/support/download/product/1/32/",
+            "title": "Korg AX3B support downloads",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "Only two manuals listed, both uploaded June 1, 2015; no device firmware listed."
+          },
+          {
+            "url": "https://cdn.korg.com/jp/support/download/files/61668387854d47761208f8cb966e5327.pdf?response-content-disposition=inline%3Bfilename%3DAX3B_EFGJ1.pdf&response-content-type=application%2Fpdf%3B",
+            "title": "AX3B Owner’s Manual EFGJ1",
+            "access": "Manufacturer original PDF text and exact-model appendix read",
+            "evidence": "Pages 4, 7–9 and 44 establish program storage, six-effect chain and MOD F7 PITCH parameters; polyphony and CPU percentage unstated."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -191858,7 +191916,6 @@
       "Korg::AX3000B",
       "Korg::AX3000G",
       "Korg::AX30G",
-      "Korg::AX3B",
       "Korg::AX3G",
       "Korg::AX5B",
       "Korg::AX5G",
@@ -192085,9 +192142,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 167,
-    "last_model": "Korg::AX10B",
-    "last_commit_parent": "5477d6d3668514b195c0b42ce10fe454bdc9cf16",
+    "completed_model_count": 168,
+    "last_model": "Korg::AX3B",
+    "last_commit_parent": "df1e1686a7be8e17eac110dbbdafb87c84809c25",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -192100,7 +192157,6 @@
       "Korg::AX3000B",
       "Korg::AX3000G",
       "Korg::AX30G",
-      "Korg::AX3B",
       "Korg::AX3G",
       "Korg::AX5B",
       "Korg::AX5G",
@@ -192326,7 +192382,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 167,
+    "pitch_completed_model_count": 168,
     "supplemental_model_count": 0
   },
   "model_images": {
