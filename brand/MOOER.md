@@ -907,6 +907,33 @@ Sources: [effects/findings/2026-10-14-mooer-ge150.md](MOOER.md#ge150-original)<!
 
 ## GE150 Plus
 
+<!-- firmware-pitch:MOOER::GE150 Plus begins -->
+### Firmware and pitch audit — MOOER GE150 Plus
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Japanese manufacturer news gives regional sales start 2025-09-10. First worldwide launch/shipment not established; regional date and May-2025 manual filename are not substituted for it. [launch 1](https://mooer.jp/pages/news) [launch 2](https://www.mooeraudio.com/products/236.html) |
+| Firmware / latest verification | 2.1.3 (August 2026 entry) — Located; latest status unverified. Current English/Chinese firmware notes identify Plus 2.1.3 in August 2026 with NAM A2 conversion and bug fixes. Same version label also appears in older January notes (English January 16, Chinese January 15), before April 2.1.2; exact build lineage unresolved. Installer payload not inspected. Uniform upload dates are not device-release days. Chinese native-A2-Lite supplemental claim conflicts with its conversion bullet and the English notes/official NAM roadmap; native support not verified. No first-release span calculated. [firmware 1](https://www.mooeraudio.com/Downloads_xq/6.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/4.html) [firmware 3](https://www.mooeraudio.com/news/29.html) |
+| Firmware / release date | 2026-08 (month precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Exact shared Plus/Plus Li manufacturer manual lists Pitch Shift, Detune and Octave in MOD. It does not explicitly classify simultaneous-note handling as polyphonic or monophonic; octave presence does not prove chord transposition. [pitch 1](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416) |
+| Pitch / preset recall | 198 editable slots, 66 banks × 3; factory-filled subset unresolved. SAVE stores edits; expression mappings and volume settings are per preset. Held-pedal recall behavior untested. |
+| Pitch / DSP resources | Nine simultaneous modules, one chosen algorithm per module. Pitch Shift shares MOD with other modulation choices; no separate additional pitch block. No isolated pitch DSP percentage, processor-load allocation table or hardware measurement located. |
+| Pitch / qualifications | Manual names both Plus editions; no Pro preset count or GS1000 Poly Shift classification transferred. Current firmware library not independently enumerated. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER Japan release news](https://mooer.jp/pages/news) — Plus Japanese sales 2025-09-10, separate from Plus Li October entry; worldwide first unresolved. (Manufacturer regional dated entry read).
+- [GE150 Plus/Plus Li manufacturer product](https://www.mooeraudio.com/products/236.html) — Exact two editions, 198 slots; manual filename date not hardware launch. (Manufacturer joint product read).
+- [GE150 family English firmware notes](https://www.mooeraudio.com/Downloads_xq/6.html) — Plus 2.1.3 August 2026; conversion; same version label reused in January history. (Manufacturer downloads and changelog read).
+- [GE150 family Chinese firmware notes](https://cn.mooeraudio.com/Downloads_xq/4.html) — Plus 2.1.3 August 2026; earlier chronology and native-versus-converted contradiction. (Manufacturer downloads and changelog read).
+- [MOOER NAM A2 roadmap](https://www.mooeraudio.com/news/29.html) — GE150 Plus/Pro/Max A2 conversion, separate from native A2 Lite models. (Manufacturer support table read).
+- [GE150 Plus/Plus Li Owner’s Manual](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416) — Pitch Shift/Detune/Octave; nine modules; 198 slots; SAVE and expression mapping. (Manufacturer-authored manual body read on mirror; generated diagram descriptions excluded).
+
+<!-- firmware-pitch:MOOER::GE150 Plus ends -->
+
 <!-- comparison evidence begins -->
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
