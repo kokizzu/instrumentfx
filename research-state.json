@@ -197810,11 +197810,35 @@
             "sha256": "14465c97bfe685be7a29229beefbeb1e8dc6d6e159191702045fffb3f6fa52d1"
           }
         }
+      },
+      "MOOER::GE150 Max Li": {
+        "model_key": "MOOER::GE150 Max Li",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE150_Max_Li-01.png?v=1761187396&width=1946",
+            "source_url": "https://mooer.jp/products/mooer-ge150max-li",
+            "caption": "MOOER GE150 Max Li powered-on top view",
+            "note": "Straight overhead black GE150 Max Li, explicit Li badge, colourful expression tread, all eight footswitches, lit 02A US Blues Clean screen and illuminated controls/rings. Battery icon is illustrative, not a runtime measurement.",
+            "visual_checked": true,
+            "sha256": "8d4f550f2892251e349575169a8a3e9010b3058e4441c81aa0b769b731c80e28",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE150_Max_Li-02.png?v=1761187396&width=1946",
+            "source_url": "https://mooer.jp/products/mooer-ge150max-li",
+            "caption": "MOOER GE150 Max Li rear ports",
+            "note": "Full straight rear: AUX IN, INPUT, quarter-inch OUTPUT L (MONO)/R, XLR OUT L/R, LIFT/GND switch, PHONES, USB-C marked OTG, rocker power and DC 9V 1.5A center-negative marking. Standard Max 300mA marking does not apply. XLRs are outputs, not mic inputs; no FX loop, external EXP or dedicated physical MIDI shown.",
+            "visual_checked": true,
+            "sha256": "2009ae840b82a66acfdd785b037caa7bfcf500f0db354a1b9a359a1f16695172"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE150 Max"
+    "last_model": "MOOER::GE150 Max Li"
   }
 }
