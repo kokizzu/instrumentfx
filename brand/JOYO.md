@@ -227,6 +227,30 @@ An exact Indonesian Shopee K8 hardware item and readable complete K8 specificati
 
 ## GEM BOX original
 
+<!-- firmware-pitch:JOYO::GEM BOX original begins -->
+### Firmware and pitch audit — JOYO GEM BOX original
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact manufacturer launch date not established. Manual upload dates 2019/2020 are not hardware release dates; third-party 2011 listings are only chronology leads. [launch 1](https://www.joyoaudio.com/product/83.html?productCateId=76) |
+| Firmware / latest verification | Not verified — No public firmware located. Checked exact original-model pages and own manual: manual downloads found, no public original GEM BOX firmware package or updater/version history located. This does not prove factory firmware is absent or can never be serviced. II/III/K8 updates are separate models. [firmware 1](https://www.joyoaudio.com/product/83.html?productCateId=76) [firmware 2](https://www.joyochina.cn/product/83.html) [firmware 3](https://www.forte.hu/uploads/2137_gem-box-i--manual.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. JOYO-branded English original GEM BOX manual confirms Pitch Shift in MODULATION, blending shifted and original notes; Pitch parameter spans -12 to +12, with H1–H9 mix display. Input-note polyphony and tracking quality unspecified. This original manual corroborates the earlier translated lead. [pitch 1](https://www.forte.hu/uploads/2137_gem-box-i--manual.pdf) [pitch 2](https://www.joyochina.cn/product/83.html) |
+| Pitch / preset recall | 40 factory and 40 user patches; settings can be saved to user memory. Pitch is a modulation choice within the patch, not a separate preset bank. |
+| Pitch / DSP resources | Pitch Shift occupies the MODULATION choice; only one type per module at a time, so it replaces that module’s chorus/flanger and other alternatives. Up to eight modules documented; no numeric per-pitch CPU/DSP percentage or meter published. Eight modules is an architecture limit, not an 8% or equal-share cost. |
+| Pitch / qualifications | English original-manual cover and final JOYO contact page establish manufacturer document identity, distinct from the earlier DeepL translation and rejected MOOER-labelled manual. Firmware revision remains unspecified. No measured latency, chord tracking or resource test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [JOYO original GEM BOX English product/download page](https://www.joyoaudio.com/product/83.html?productCateId=76) — Original GEM BOX identity and GEM BOX I manual entry; no original-model firmware package located. (Exact product page retrieved with category query).
+- [JOYO original GEM BOX Chinese specifications](https://www.joyochina.cn/product/83.html) — Eight modules, 60 effect types, 40+40 patches and exact original-model power/audio specifications. (Manufacturer page read).
+- [JOYO GEM Box English owner manual](https://www.forte.hu/uploads/2137_gem-box-i--manual.pdf) — Effects pp18–21 confirm Pitch Shift, -12 to +12 pitch parameter and module exclusivity; no input-polyphony or numeric DSP claim. (Manufacturer-authored original manual mirrored by Forte; JOYO cover and final company contacts match exact original model; original body read).
+
+<!-- firmware-pitch:JOYO::GEM BOX original ends -->
+
 Also called GEM BOX I / Gembox 1. **Technical/price review: 2026-10-15. Partial.** Ever-owned status comes from the previously recovered owner statements and delivery evidence, not a new purchase check. No private receipt or order information is published.
 
 JOYO's [Chinese product page](https://www.joyochina.cn/product/83.html) explicitly identifies GEM BOX, its technical table and GEM BOX I manual. The [matching English page](https://www.joyoaudio.com/product/83.html) identifies the original product and English manual. This resolves manufacturer identity without using the previously rejected MOOER-labelled document.
