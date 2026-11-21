@@ -198284,6 +198284,83 @@
           "label": "2.15 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Neural DSP::Quad Cortex": {
+        "model_key": "Neural DSP::Quad Cortex",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2021-03-18",
+          "precision": "day",
+          "kind": "manufacturer shipping announcement",
+          "source_urls": [
+            "https://neuraldsp.com/quad-cortex-updates/quad-cortex-is-here"
+          ],
+          "note": "Manufacturer confirms customers are already receiving units. January 2020 preorders and the delayed planned November 2020 launch are not actual shipping dates."
+        },
+        "firmware": {
+          "version": "CorOS 4.1.1",
+          "date": "2026-09-16",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://neuraldsp.com/quad-cortex-updates/coros-4-1-1-is-now-available",
+            "https://neuraldsp.com/quad-cortex-updates"
+          ],
+          "note": "Latest entry checked in the manufacturer update index. Fixes erroneous resource warnings, preset artifacts, Minivoicer level and Multivoicer MIDI-channel recall. Cloud-side Capture changes are not device firmware releases."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Ten factory Pitch devices: Aggi Sub Octaver, Chief OC2, Minivoicer, Pitch Correction, Pitch Shifter, Poly Octaver (POG-inspired), Subharmonic Synth, Transpose, Wham and Multivoicer. The Poly Octaver name does not establish chord tracking for every other algorithm; no blanket polyphony claim or tested note limit established.",
+          "preset": "Pitch blocks belong to the preset grid; 256 presets per setlist and eight scenes. CorOS 4.1.1 specifically fixes Multivoicer MIDI-channel recall when reloading a preset. Expression assignments remain subject to the existing per-preset documentation.",
+          "dsp": "No isolated pitch CPU percentage verified. CPU Monitor reports the active preset and Cortex Control can display usage per device block. Bypassing or disabling blocks does not free CPU; Global EQ and input gates may be disabled automatically when resources are exceeded. Grid capacity is not a pitch DSP benchmark.",
+          "source_urls": [
+            "https://neuraldsp.com/quad-cortex-updates/coros-4-1-1-is-now-available",
+            "https://neuraldsp.com/device-list",
+            "https://neuraldsp.com/manual/quad-cortex"
+          ],
+          "measurements": [],
+          "notes": [
+            "Factory Pitch category and separately licensed plugin devices must not be conflated. No physical-unit latency or chord-tracking test performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://neuraldsp.com/quad-cortex-updates/quad-cortex-is-here",
+            "title": "Quad Cortex is here",
+            "access": "Manufacturer HTML checked 2026-11-22",
+            "evidence": "March 18 2021 shipping confirmed; January 2020 preorders distinguished."
+          },
+          {
+            "url": "https://neuraldsp.com/quad-cortex-updates/coros-4-1-1-is-now-available",
+            "title": "CorOS 4.1.1 release",
+            "access": "Manufacturer HTML checked 2026-11-22",
+            "evidence": "September 16 2026 release; four fixes including Multivoicer recall."
+          },
+          {
+            "url": "https://neuraldsp.com/quad-cortex-updates",
+            "title": "Quad Cortex update index",
+            "access": "Manufacturer HTML checked 2026-11-22",
+            "evidence": "Newest listed release is CorOS 4.1.1."
+          },
+          {
+            "url": "https://neuraldsp.com/device-list",
+            "title": "Quad Cortex device list",
+            "access": "Manufacturer HTML checked 2026-11-22",
+            "evidence": "Ten factory Pitch entries, model inspirations and introduction versions."
+          },
+          {
+            "url": "https://neuraldsp.com/manual/quad-cortex",
+            "title": "Quad Cortex manual 4.1.1",
+            "access": "Manufacturer HTML checked 2026-11-22",
+            "evidence": "Preset/scenes, CPU monitor, per-block display and bypass resource behavior."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2008,
+          "maximum_days": 2008,
+          "label": "5.50 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -198303,7 +198380,6 @@
       "Mosky::RC5",
       "Mosky::RD5",
       "Mosky::SOL918",
-      "Neural DSP::Quad Cortex",
       "Roland::GR-55",
       "Roland::VT-4",
       "ROWIN::RE-05 Looper Pro",
@@ -198450,9 +198526,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 241,
-    "last_model": "Neural DSP::Nano Cortex",
-    "last_commit_parent": "9662972eddfba97ee6ac41e1baa451c71472eb8a",
+    "completed_model_count": 242,
+    "last_model": "Neural DSP::Quad Cortex",
+    "last_commit_parent": "50173db86eab8383e51b05b0ccc3cc67377ee2f1",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -198471,7 +198547,6 @@
       "Mosky::RC5",
       "Mosky::RD5",
       "Mosky::SOL918",
-      "Neural DSP::Quad Cortex",
       "Roland::GR-55",
       "Roland::VT-4",
       "ROWIN::RE-05 Looper Pro",
@@ -198617,7 +198692,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 241,
+    "pitch_completed_model_count": 242,
     "supplemental_model_count": 0
   },
   "model_images": {

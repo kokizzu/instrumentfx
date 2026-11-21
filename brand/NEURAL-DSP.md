@@ -434,6 +434,32 @@ These routes do not prove global expression assignment,LEVEL availability,headph
 
 ## Quad Cortex
 
+<!-- firmware-pitch:Neural DSP::Quad Cortex begins -->
+### Firmware and pitch audit — Neural DSP Quad Cortex
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2021-03-18 (manufacturer shipping announcement). Manufacturer confirms customers are already receiving units. January 2020 preorders and the delayed planned November 2020 launch are not actual shipping dates. [launch 1](https://neuraldsp.com/quad-cortex-updates/quad-cortex-is-here) |
+| Firmware / latest verification | CorOS 4.1.1 — Latest verified. Latest entry checked in the manufacturer update index. Fixes erroneous resource warnings, preset artifacts, Minivoicer level and Multivoicer MIDI-channel recall. Cloud-side Capture changes are not device firmware releases. [firmware 1](https://neuraldsp.com/quad-cortex-updates/coros-4-1-1-is-now-available) [firmware 2](https://neuraldsp.com/quad-cortex-updates) |
+| Firmware / release date | 2026-09-16 (day precision) |
+| Firmware / release-to-update duration | 5.50 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Ten factory Pitch devices: Aggi Sub Octaver, Chief OC2, Minivoicer, Pitch Correction, Pitch Shifter, Poly Octaver (POG-inspired), Subharmonic Synth, Transpose, Wham and Multivoicer. The Poly Octaver name does not establish chord tracking for every other algorithm; no blanket polyphony claim or tested note limit established. [pitch 1](https://neuraldsp.com/quad-cortex-updates/coros-4-1-1-is-now-available) [pitch 2](https://neuraldsp.com/device-list) [pitch 3](https://neuraldsp.com/manual/quad-cortex) |
+| Pitch / preset recall | Pitch blocks belong to the preset grid; 256 presets per setlist and eight scenes. CorOS 4.1.1 specifically fixes Multivoicer MIDI-channel recall when reloading a preset. Expression assignments remain subject to the existing per-preset documentation. |
+| Pitch / DSP resources | No isolated pitch CPU percentage verified. CPU Monitor reports the active preset and Cortex Control can display usage per device block. Bypassing or disabling blocks does not free CPU; Global EQ and input gates may be disabled automatically when resources are exceeded. Grid capacity is not a pitch DSP benchmark. |
+| Pitch / qualifications | Factory Pitch category and separately licensed plugin devices must not be conflated. No physical-unit latency or chord-tracking test performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Quad Cortex is here](https://neuraldsp.com/quad-cortex-updates/quad-cortex-is-here) — March 18 2021 shipping confirmed; January 2020 preorders distinguished. (Manufacturer HTML checked 2026-11-22).
+- [CorOS 4.1.1 release](https://neuraldsp.com/quad-cortex-updates/coros-4-1-1-is-now-available) — September 16 2026 release; four fixes including Multivoicer recall. (Manufacturer HTML checked 2026-11-22).
+- [Quad Cortex update index](https://neuraldsp.com/quad-cortex-updates) — Newest listed release is CorOS 4.1.1. (Manufacturer HTML checked 2026-11-22).
+- [Quad Cortex device list](https://neuraldsp.com/device-list) — Ten factory Pitch entries, model inspirations and introduction versions. (Manufacturer HTML checked 2026-11-22).
+- [Quad Cortex manual 4.1.1](https://neuraldsp.com/manual/quad-cortex) — Preset/scenes, CPU monitor, per-block display and bypass resource behavior. (Manufacturer HTML checked 2026-11-22).
+
+<!-- firmware-pitch:Neural DSP::Quad Cortex ends -->
+
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.
 
 | Required field | Evidence / qualification |
