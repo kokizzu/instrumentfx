@@ -155,6 +155,26 @@ Sources checked:
 
 <!-- firmware-pitch:GFI System::Synesthesia ends -->
 
+<!-- model-images:GFI System::Synesthesia begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Synesthesia powered-on top-down view**
+
+[![Synesthesia powered-on top-down view](https://cms.gfisystem.com/uploads/Front_158fdb07cb.webp)](https://cms.gfisystem.com/uploads/Front_158fdb07cb.webp)
+
+[Image source](https://gfisystem.com/pedals/synesthesia). Official grey Synesthesia product photograph. LCD text, blue tempo LED and red engine LEDs visibly lit; full control surface shown.
+
+**Synesthesia rear/top-edge connections**
+
+[![Synesthesia rear/top-edge connections](https://cms.gfisystem.com/uploads/Head_2_9589ce4224.webp)](https://cms.gfisystem.com/uploads/Head_2_9589ce4224.webp)
+
+[Image source](https://gfisystem.com/pedals/synesthesia). Official rear/top edge: Input, ACE expression/CV/aux, USB-B, 9VDC, Out-L, Out-R/Send and Stereo Out/Pre-Post switch visible. MIDI side sockets are outside this view; official side photo: https://cms.gfisystem.com/uploads/Left_side_1_fb225486b5.webp .
+
+</details>
+<!-- model-images:GFI System::Synesthesia ends -->
+
+
 Checked 2026-10-28; **partial active guitar multi-effects record**, not fully verified. Dual-engine filtering, octave, EQ, echo and modulation plus explicit guitar-pickup guidance establish eligibility; no specialized pickup required by the inspected instructions. Bass/vocal suitability and ownership unverified. Earlier discovery wording below is retained as dated research history; this summary governs current admission.
 
 <!-- comparison evidence begins -->

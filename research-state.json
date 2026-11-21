@@ -192960,11 +192960,35 @@
             "sha256": "07e1a9c8a787a51c0abf12a71fb7f0ddba3ac9fe78bd0fde040ecd581c058122"
           }
         }
+      },
+      "GFI System::Synesthesia": {
+        "model_key": "GFI System::Synesthesia",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://cms.gfisystem.com/uploads/Front_158fdb07cb.webp",
+            "source_url": "https://gfisystem.com/pedals/synesthesia",
+            "caption": "Synesthesia powered-on top-down view",
+            "note": "Official grey Synesthesia product photograph. LCD text, blue tempo LED and red engine LEDs visibly lit; full control surface shown.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "2b4560a4210255197ecb0bccfa9653cfe953454f7b93528ff6f0497e96d9aaec"
+          },
+          "rear": {
+            "image_url": "https://cms.gfisystem.com/uploads/Head_2_9589ce4224.webp",
+            "source_url": "https://gfisystem.com/pedals/synesthesia",
+            "caption": "Synesthesia rear/top-edge connections",
+            "note": "Official rear/top edge: Input, ACE expression/CV/aux, USB-B, 9VDC, Out-L, Out-R/Send and Stereo Out/Pre-Post switch visible. MIDI side sockets are outside this view; official side photo: https://cms.gfisystem.com/uploads/Left_side_1_fb225486b5.webp .",
+            "visual_checked": true,
+            "sha256": "fd0d5b8e8a03b7f8e2601e5178bb976ce202cf236759358ba2b58d774793cbef"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD XT Live"
+    "last_model": "GFI System::Synesthesia"
   }
 }
