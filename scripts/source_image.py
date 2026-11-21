@@ -19,7 +19,7 @@ def source_limit(url):
     # Exact owner-manual HEAD reviewed at 132,952,762 bytes; no broad host exception.
     return 144 * 1024 * 1024 if url == REVIEWED_LARGE_PDF else LIMIT
 
-HOSTS = {'www.fractalaudio.com', 'www.fmicassets.com', 'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
+HOSTS = {'audota.com', 'www.audota.com', 'en.audota.com', 'www.fractalaudio.com', 'www.fmicassets.com', 'www.valeton.net', 'res.diversitone.com', 'images.ctfassets.net', 'mod.audio', 'zoomcorp.com', 'static.roland.com', 'cdn.roland.com',
          'cdn.rockboard.de', 'line6.com', 'nuxaudio.cherubtechnology.com', 'cdn-media.empowertribe.com', 'cdn.inmusicbrands.com'}
 
 

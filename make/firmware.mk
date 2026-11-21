@@ -7,5 +7,8 @@ firmware-model-verify:
 	python3 -B scripts/firmware_publish.py verify
 firmware-model-review:
 	python3 -B scripts/firmware_publish.py review
+.PHONY: firmware-model-review-refresh
+firmware-model-review-refresh:
+	python3 -B scripts/firmware_publish.py refresh-review
 firmware-model-commit:
 	python3 -B scripts/firmware_publish.py commit

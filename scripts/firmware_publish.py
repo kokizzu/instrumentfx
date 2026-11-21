@@ -13,14 +13,14 @@ def verify():
  identity();audit.verify()
  for target in ['brand-sort-test','research-verify','comparison-verify']:
   subprocess.run(['make',target],cwd=ROOT,check=True)
- for path in ['scripts/firmware_publish.py','scripts/research_push.py']:
+ for path in ['scripts/firmware_publish.py','scripts/research_push.py','scripts/source_image.py']:
   compile((ROOT/path).read_text(),path,'exec')
  subprocess.run(['git','diff','--check'],cwd=ROOT,check=True)
 def selection():
  state=json.loads((ROOT/'research-state.json').read_text());key=state['firmware_lifecycle']['last_model']
  record=state['firmware_lifecycle']['models'][key]
  paths=[audit.model_link(state,record).split('#')[0],'research-state.json','FIRMWARE-UPDATES.md','PITCH-SHIFTING.md','all-guitar.md','all-bass.md','all-vocal.md','README.md']
- paths+=['.gitignore','Makefile','make/firmware.mk','scripts/firmware_publish.py','scripts/research_push.py']
+ paths+=['.gitignore','Makefile','make/firmware.mk','scripts/firmware_publish.py','scripts/research_push.py','scripts/source_image.py']
  return key,paths
 def review():
  verify();key,paths=selection()
@@ -45,4 +45,13 @@ def commit():
  subprocess.run(['git','push','origin','main:main'],cwd=ROOT,check=True)
  assert git('ls-remote','origin','refs/heads/main').split()[0]==git('rev-parse','HEAD')
  print('PUSH_VERIFIED',git('rev-parse','--short','HEAD'))
-if __name__=='__main__':{'verify':verify,'review':review,'commit':commit}[sys.argv[1]]()
+def refresh_review():
+ """Restage only this workflow's unchanged, previously reviewed selection."""
+ identity();key,paths=selection();saved=json.loads(RECEIPT.read_text())
+ assert saved['head']==git('rev-parse','HEAD') and key==saved['model']
+ assert saved['paths']==git('diff','--cached','--name-only').splitlines()
+ assert set(saved['paths'])<=set(paths)
+ assert saved['sha256']==hashlib.sha256(git('diff','--cached').encode()).hexdigest(),'Staged diff changed'
+ subprocess.run(['git','restore','--staged','--']+saved['paths'],cwd=ROOT,check=True)
+ review()
+if __name__=='__main__':{'verify':verify,'review':review,'refresh-review':refresh_review,'commit':commit}[sys.argv[1]]()

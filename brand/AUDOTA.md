@@ -157,6 +157,33 @@ Normal guitar input documented;no acoustic-specialist classification inferred fr
 
 ## AME-100
 
+<!-- firmware-pitch:Audota::AME-100 begins -->
+### Firmware and pitch audit — Audota AME-100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact hardware launch not verified. Manual artwork date 2026-05-18 and PDF creation 2026-05-19 are document dates, not hardware release dates. [launch 1](https://en.audota.com/AME100EN.html) [launch 2](https://en.audota.com/AUDOTA/%E5%BF%AB%E9%80%9F%E6%89%8B%E5%86%8C/AME-100_Manual_EN_V03_2026.05.18.pdf) |
+| Firmware / latest verification | 1.2.3 — Located; latest status unverified. Official importer announcement dated 2026-09-02 explicitly identifies firmware 1.2.3, adding NAM A2 conversion/import and fixing A1 import. This is an announcement-by date, not a verified original release date. Manufacturer software index lists Studio 1.2.3; its Firmware index still lists 0.6.6 packages. Exact ROM release date and later-build availability unresolved; no installation performed. [firmware 1](https://shop.warwick.de/en/Blog/AUDOTA-AME-100) [firmware 2](https://en.audota.com/EN_software.html) [firmware 3](https://en.audota.com/EN_firmware.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manual p45 lists PITCH SHIFT in Modulation, plus DETUNE and VIBRATO. Note polyphony, interval range, wet-only drop-tuning and whole-chord transposition are not specified; do not classify from mono input or stereo-compatible output. [pitch 1](https://en.audota.com/AUDOTA/%E5%BF%AB%E9%80%9F%E6%89%8B%E5%86%8C/AME-100_Manual_EN_V03_2026.05.18.pdf) [pitch 2](https://en.audota.com/AME100EN.html) [pitch 3](https://www.w-distribution.de/en/news/2026-09-11/Audota-AME-100-Intelligent-Multi-Effects) |
+| Pitch / preset recall | Manual pp14–17: footswitches scroll presets; EDIT adds, deletes and reorders modules; Save menu selects destination/name and SAVE commits settings. Older manual/product page say 80 locations; later importer evidence reports 200. No pitch-specific retention exception documented. |
+| Pitch / DSP resources | PITCH SHIFT is a Modulation choice within a dynamically editable chain. No per-algorithm CPU percentage, duplicate-pitch ceiling or pitch-specific incompatibility table located. Nine advertised categories do not establish nine simultaneous pitch blocks or measured resource usage. |
+| Pitch / qualifications | Documented pitch existence is established; polyphony and DSP percentage remain unknown. No Hotone measurement or AME-200 behavior transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Audota AME-100 User Manual V03, 2026-05-18 artwork](https://en.audota.com/AUDOTA/%E5%BF%AB%E9%80%9F%E6%89%8B%E5%86%8C/AME-100_Manual_EN_V03_2026.05.18.pdf) — 52-page official PDF; printed p45 PITCH SHIFT/DETUNE/VIBRATO; pp14–17 preset selection, editing and explicit saving. SHA256 eb93ecd8c0aa8f77b1a8f0dc47f9edd223adc419b8eca18db136436ab06dd9c2. (manufacturer_pdf_retrieved; text_extracted; p45_visually_verified).
+- [Audota AME-100 manufacturer product page](https://en.audota.com/AME100EN.html) — Body identifies AME-100 despite ACE100 browser title; 80-preset older specification and dynamic module loading. (opened).
+- [Official importer AME-100 firmware 1.2.3 announcement](https://shop.warwick.de/en/Blog/AUDOTA-AME-100) — Dated 2026-09-02; explicitly firmware, NAM A2 conversion/import and A1 fix. Publication date not asserted as original firmware release day. (opened).
+- [Audota current software index](https://en.audota.com/EN_software.html) — AME-100 Studio Windows/Mac 1.2.3; software package label corroborates located version but does not date ROM. (opened).
+- [Audota Firmware index](https://en.audota.com/EN_firmware.html) — Still displays AME-100 Studio 0.6.6; stale/version-role discrepancy retained. (opened).
+- [Official importer AME-100 finishes and current features, 2026-09-11](https://www.w-distribution.de/en/news/2026-09-11/Audota-AME-100-Intelligent-Multi-Effects) — 200 onboard locations and recent NAM A2 support; new finishes do not alter hardware specification. Does not establish minimum build for memory expansion. (indexed_primary_announcement; direct_page_no_readable_lines).
+
+<!-- firmware-pitch:Audota::AME-100 ends -->
+
 Consolidated **2026-10-17**. The complete original finding retains its2026-10-15 date, contradictions and historical next-model notes. Current cursor is in research-state.json. AME-100 ownership does not establish AVE-100 ownership.
 
 <!-- AUDOTA-AME-100 source begins -->
