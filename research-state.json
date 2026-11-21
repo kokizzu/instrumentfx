@@ -200185,10 +200185,200 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOD Audio::Duo": {
+        "model_key": "MOD Audio::Duo",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2016-02",
+          "precision": "month",
+          "kind": "first Kickstarter Pioneer units shipped; later NAMM launch is separate",
+          "source_urls": [
+            "https://mod.audio/about/"
+          ],
+          "note": "Manufacturer timeline identifies February 2016 as first Duo shipments. October 2014 crowdfunding and January 2017 NAMM launch are not the first shipment."
+        },
+        "firmware": {
+          "version": "MOD OS 1.14.0.3370",
+          "date": "2026-11-05",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://wiki.mod.audio/wiki/Releases",
+            "https://forum.mod.audio/t/release-1-14/13663"
+          ],
+          "note": "Current stable table and manufacturer announcement both list the original Duo build 3370. Duo requires manual installation and prior 1.13.5; no automatic update offer. Separate Duo/Duo X/Dwarf files are not interchangeable. Build matches RC6 sources except version/report-link changes. Historical 1.13.5 and end-of-service statements below remain dated history, not the latest release. No update installed."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "MOD pitch-shifter author explicitly confirms polyphonic shifting without note detection; Harmonizers instead use monophonic note tracking. Drop −12 semitones; Capo +12; SuperCapo +24; 2Voices and SuperWhammy −12…+24. This is plugin-specific support, not every pitch/synth plugin being polyphonic.",
+          "preset": "Store plugin parameters and routing in pedalboards; snapshots hold parameter states within a board. In WebGUI, save the containing board after snapshot edits. Exact factory/user/total capacity remains unverified; storage size is not a preset count.",
+          "dsp": "Shared plugin-dependent CPU budget, with fidelity/quality versus processing tradeoff. Capo costs less than SuperCapo; 2Voices costs less than separate Drop+SuperCapo per manufacturer plugin announcement. No controlled Duo-specific percentage located; Duo X instance counts and whole-board meter readings are not Duo algorithm costs.",
+          "source_urls": [
+            "https://forum.mod.audio/t/pitch-shifting-tracking/157",
+            "https://forum.mod.audio/t/pitch-shifters-finally-in-plugin-store/648",
+            "https://wiki.mod.audio/wiki/MOD_Duo_User_Guide",
+            "https://wiki.mod.audio/wiki/FAQ",
+            "https://wiki.mod.audio/wiki/MOD_Web_GUI_User_Guide"
+          ],
+          "measurements": [],
+          "notes": [
+            "Author-recalled July 2016 latency at 48kHz/128 samples: Drop 18.67ms, Capo 29.33ms, SuperCapo/SuperWhammy 40ms. Author cautioned values may change; not current measured latency.",
+            "Original Duo has no direct analog expression socket; external MIDI/Control Chain hardware is separate. Plugin-store updates are separate from OS firmware."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://mod.audio/about/",
+            "title": "MOD official company timeline",
+            "access": "Manufacturer page body inspected",
+            "evidence": "First Duos shipped to Kickstarter backers in February 2016; crowdfunding predates shipment."
+          },
+          {
+            "url": "https://wiki.mod.audio/wiki/Releases",
+            "title": "MOD official stable releases",
+            "access": "Manufacturer wiki current table inspected",
+            "evidence": "Stable 1.14 dated November 5, 2026; original Duo file modduo-v1.14.0.3370.tar, distinct platform files."
+          },
+          {
+            "url": "https://forum.mod.audio/t/release-1-14/13663",
+            "title": "MOD OS 1.14 release announcement",
+            "access": "Manufacturer Gianfranco post November 5, 2026 inspected",
+            "evidence": "Original Duo included in tested release build 3370; manual upgrade from 1.13.5. Historical end-of-service wording does not override this actual release."
+          },
+          {
+            "url": "https://forum.mod.audio/t/pitch-shifting-tracking/157",
+            "title": "MOD pitch-shifter author on note handling and latency",
+            "access": "Original plugin author couts post July 4, 2016 inspected",
+            "evidence": "Pitch shifters polyphonic without note tracking; Harmonizers monophonic. Recalled 48kHz/128-frame latencies include explicit version-change caveat."
+          },
+          {
+            "url": "https://forum.mod.audio/t/pitch-shifters-finally-in-plugin-store/648",
+            "title": "MOD stable pitch-shifter plugin announcement",
+            "access": "Manufacturer team announcement September 21, 2016 inspected",
+            "evidence": "Drop/Capo/SuperCapo/2Voices/SuperWhammy ranges, adjustable fidelity and relative CPU costs; no fixed percentage."
+          },
+          {
+            "url": "https://wiki.mod.audio/wiki/MOD_Duo_User_Guide",
+            "title": "MOD Duo official user guide",
+            "access": "Manufacturer wiki guide inspected",
+            "evidence": "Two push knobs/two switches, saved pedalboard parameter state and no direct expression socket."
+          },
+          {
+            "url": "https://wiki.mod.audio/wiki/FAQ",
+            "title": "MOD official FAQ — plugin resource limits",
+            "access": "Manufacturer indexed FAQ text inspected",
+            "evidence": "Plugin capacity depends on resources; high-fidelity pitch shifters can reduce capacity. No universal fixed algorithm count or CPU percentage."
+          },
+          {
+            "url": "https://wiki.mod.audio/wiki/MOD_Web_GUI_User_Guide",
+            "title": "MOD shared WebGUI user guide — snapshots",
+            "access": "Manufacturer guide indexed original text inspected; Duo explicitly linked",
+            "evidence": "Snapshots hold parameter states within a pedalboard; save containing board after creating/editing snapshots in WebGUI."
+          }
+        ],
+        "duration": {
+          "minimum_days": 3902,
+          "maximum_days": 3930,
+          "label": "10.68–10.76 years"
+        },
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "MOD Audio::Duo",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2016-02",
+              "precision": "month",
+              "kind": "first Kickstarter Pioneer units shipped; later NAMM launch is separate",
+              "source_urls": [
+                "https://mod.audio/about/"
+              ],
+              "note": "Manufacturer timeline identifies February 2016 as first Duo shipments. October 2014 crowdfunding and January 2017 NAMM launch are not the first shipment."
+            },
+            "firmware": {
+              "version": "MOD OS 1.14.0.3370",
+              "date": "2026-11-05",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://wiki.mod.audio/wiki/Releases",
+                "https://forum.mod.audio/t/release-1-14/13663"
+              ],
+              "note": "Current stable table and manufacturer announcement both list the original Duo build 3370. Duo requires manual installation and prior 1.13.5; no automatic update offer. Separate Duo/Duo X/Dwarf files are not interchangeable. Build matches RC6 sources except version/report-link changes. Historical 1.13.5 and end-of-service statements below remain dated history, not the latest release. No update installed."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "MOD pitch-shifter author explicitly confirms polyphonic shifting without note detection; Harmonizers instead use monophonic note tracking. Drop −12 semitones; Capo +12; SuperCapo +24; 2Voices and SuperWhammy −12…+24. This is plugin-specific support, not every pitch/synth plugin being polyphonic.",
+              "preset": "Store plugin parameters and routing in pedalboards; snapshots hold parameter states within a board. Save the containing board after snapshot edits. Exact factory/user/total capacity remains unverified; storage size is not a preset count.",
+              "dsp": "Shared plugin-dependent CPU budget, with fidelity/quality versus processing tradeoff. Capo costs less than SuperCapo; 2Voices costs less than separate Drop+SuperCapo per manufacturer plugin announcement. No controlled Duo-specific percentage located; Duo X instance counts and whole-board meter readings are not Duo algorithm costs.",
+              "source_urls": [
+                "https://forum.mod.audio/t/pitch-shifting-tracking/157",
+                "https://forum.mod.audio/t/pitch-shifters-finally-in-plugin-store/648",
+                "https://wiki.mod.audio/wiki/MOD_Duo_User_Guide",
+                "https://wiki.mod.audio/wiki/FAQ"
+              ],
+              "measurements": [],
+              "notes": [
+                "Author-recalled July 2016 latency at 48kHz/128 samples: Drop 18.67ms, Capo 29.33ms, SuperCapo/SuperWhammy 40ms. Author cautioned values may change; not current measured latency.",
+                "Original Duo has no direct analog expression socket; external MIDI/Control Chain hardware is separate. Plugin-store updates are separate from OS firmware."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://mod.audio/about/",
+                "title": "MOD official company timeline",
+                "access": "Manufacturer page body inspected",
+                "evidence": "First Duos shipped to Kickstarter backers in February 2016; crowdfunding predates shipment."
+              },
+              {
+                "url": "https://wiki.mod.audio/wiki/Releases",
+                "title": "MOD official stable releases",
+                "access": "Manufacturer wiki current table inspected",
+                "evidence": "Stable 1.14 dated November 5, 2026; original Duo file modduo-v1.14.0.3370.tar, distinct platform files."
+              },
+              {
+                "url": "https://forum.mod.audio/t/release-1-14/13663",
+                "title": "MOD OS 1.14 release announcement",
+                "access": "Manufacturer Gianfranco post November 5, 2026 inspected",
+                "evidence": "Original Duo included in tested release build 3370; manual upgrade from 1.13.5. Historical end-of-service wording does not override this actual release."
+              },
+              {
+                "url": "https://forum.mod.audio/t/pitch-shifting-tracking/157",
+                "title": "MOD pitch-shifter author on note handling and latency",
+                "access": "Original plugin author couts post July 4, 2016 inspected",
+                "evidence": "Pitch shifters polyphonic without note tracking; Harmonizers monophonic. Recalled 48kHz/128-frame latencies include explicit version-change caveat."
+              },
+              {
+                "url": "https://forum.mod.audio/t/pitch-shifters-finally-in-plugin-store/648",
+                "title": "MOD stable pitch-shifter plugin announcement",
+                "access": "Manufacturer team announcement September 21, 2016 inspected",
+                "evidence": "Drop/Capo/SuperCapo/2Voices/SuperWhammy ranges, adjustable fidelity and relative CPU costs; no fixed percentage."
+              },
+              {
+                "url": "https://wiki.mod.audio/wiki/MOD_Duo_User_Guide",
+                "title": "MOD Duo official user guide",
+                "access": "Manufacturer wiki guide inspected",
+                "evidence": "Two push knobs/two switches, saved pedalboards and snapshots, no direct expression socket. Snapshot edits require board save."
+              },
+              {
+                "url": "https://wiki.mod.audio/wiki/FAQ",
+                "title": "MOD official FAQ — plugin resource limits",
+                "access": "Manufacturer indexed FAQ text inspected",
+                "evidence": "Plugin capacity depends on resources; high-fidelity pitch shifters can reduce capacity. No universal fixed algorithm count or CPU percentage."
+              }
+            ],
+            "duration": {
+              "minimum_days": 3902,
+              "maximum_days": 3930,
+              "label": "10.68–10.76 years"
+            },
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
-      "MOD Audio::Duo",
       "Mosky::DC5",
       "Mosky::RC5",
       "Mosky::RD5",
@@ -200325,12 +200515,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 267,
-    "last_model": "Lexicon::MX400",
-    "last_commit_parent": "0ec708ec63b28432059c63af489b4ec72d1d4d91",
+    "completed_model_count": 268,
+    "last_model": "MOD Audio::Duo",
+    "last_commit_parent": "06b65fc37e8080124aa4765def2f2597b1ac60bc",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "MOD Audio::Duo",
       "Mosky::DC5",
       "Mosky::RC5",
       "Mosky::RD5",
@@ -200466,7 +200655,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 267,
+    "pitch_completed_model_count": 268,
     "supplemental_model_count": 0
   },
   "model_images": {
