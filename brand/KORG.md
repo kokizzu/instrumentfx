@@ -1266,6 +1266,22 @@ Sources checked:
 
 <!-- firmware-pitch:Korg::AX3000B ends -->
 
+<!-- model-images:Korg::AX3000B begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Korg AX3000B powered-on top controls — near-overhead view**
+
+[![Korg AX3000B powered-on top controls — near-overhead view](https://medias.audiofanzine.com/images/normal/korg-ax3000b-5655044.jpg)](https://medias.audiofanzine.com/images/normal/korg-ax3000b-5655044.jpg)
+
+[Image source](https://en.audiofanzine.com/bass-multi-effect/korg/Ax3000b/). Exact AX3000B label, illuminated orange display, bank display and effect/pedal indicators are visible. Complete controls, footswitches and expression pedal shown with slight perspective; exact perpendicular top-down view remains pending. Rear-port photo remains pending: zZounds lists an exact-model rear image, but retrieval returned HTTP 403; the DJMania candidate proved to be another top view.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:Korg::AX3000B ends -->
+
+
 <!-- comparison evidence begins -->
 
 Checked2026-10-18. Bass multi-effects; distinct from AX3000G. Partial record. [Korg E1 manual][AX3B-M],68pages, browser text; no download or hardware test.
