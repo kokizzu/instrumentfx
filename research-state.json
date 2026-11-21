@@ -208080,11 +208080,37 @@
             "note": "Oblique stock control-face/front-edge view, not rear. Headphone minijack visible; rejected for rear role and not independent powered-on proof."
           }
         ]
+      },
+      "TC-Helicon::PERFORM-VG": {
+        "model_key": "TC-Helicon::PERFORM-VG",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn-media.empowertribe.com/4e94d8a79d3a4702baf1788d13469c5f/Image_TH_0726-ABR_PERFORM-VG_Top_XL.png",
+            "source_url": "https://www.tchelicon.com/en/products/0726-ABR",
+            "caption": "PERFORM-VG top control face — manufacturer stock image",
+            "note": "Straight-on manufacturer stock image with illuminated-looking pads and cyan LED ring. Independent powered-on overhead evidence remains pending. Visually confirms 1 knob, 0 footswitches and 14 button pads: SET, Tone, Anti-Feedback, BodyRez, 48V, three voice effects, three guitar effects, headphones, TAP and MIX. Window beside SET and LED segments are not extra buttons.",
+            "visual_checked": true,
+            "sha256": "33c509a6a4af1de7478ab3a316d704dcedc7d55c61489869a992172d3accfd00",
+            "powered_on": null,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://cdn-media.empowertribe.com/84f083f26bd04cc4ac0719e0afa15587/Image_TH_0726-ABR_PERFORM-VG_Rear_XL.png",
+            "source_url": "https://www.tchelicon.com/en/products/0726-ABR",
+            "caption": "PERFORM-VG rear ports — manufacturer stock image",
+            "note": "Exact burgundy VG rear inspected: center-negative DC power, Mini-B USB, AUX minijack, quarter-inch PEDAL, GUITAR input and THRU, male XLR MIC OUT, female XLR MIC IN, GND button and security slot. THRU is not a separately processed guitar output. PEDAL does not prove continuous expression and USB connector does not prove audio streaming or USB power.",
+            "visual_checked": true,
+            "sha256": "3d95eb0432e34c7116d75a02f606720cf7ea07ded9be3b8680b2fe5c56f68299",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::PERFORM-VE"
+    "last_model": "TC-Helicon::PERFORM-VG"
   }
 }

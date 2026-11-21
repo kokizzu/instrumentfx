@@ -794,6 +794,26 @@ Sources checked:
 
 <!-- firmware-pitch:TC-Helicon::PERFORM-VG ends -->
 
+<!-- model-images:TC-Helicon::PERFORM-VG begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**PERFORM-VG top control face — manufacturer stock image**
+
+[![PERFORM-VG top control face — manufacturer stock image](https://cdn-media.empowertribe.com/4e94d8a79d3a4702baf1788d13469c5f/Image_TH_0726-ABR_PERFORM-VG_Top_XL.png)](https://cdn-media.empowertribe.com/4e94d8a79d3a4702baf1788d13469c5f/Image_TH_0726-ABR_PERFORM-VG_Top_XL.png)
+
+[Image source](https://www.tchelicon.com/en/products/0726-ABR). Straight-on manufacturer stock image with illuminated-looking pads and cyan LED ring. Independent powered-on overhead evidence remains pending. Visually confirms 1 knob, 0 footswitches and 14 button pads: SET, Tone, Anti-Feedback, BodyRez, 48V, three voice effects, three guitar effects, headphones, TAP and MIX. Window beside SET and LED segments are not extra buttons.
+
+**PERFORM-VG rear ports — manufacturer stock image**
+
+[![PERFORM-VG rear ports — manufacturer stock image](https://cdn-media.empowertribe.com/84f083f26bd04cc4ac0719e0afa15587/Image_TH_0726-ABR_PERFORM-VG_Rear_XL.png)](https://cdn-media.empowertribe.com/84f083f26bd04cc4ac0719e0afa15587/Image_TH_0726-ABR_PERFORM-VG_Rear_XL.png)
+
+[Image source](https://www.tchelicon.com/en/products/0726-ABR). Exact burgundy VG rear inspected: center-negative DC power, Mini-B USB, AUX minijack, quarter-inch PEDAL, GUITAR input and THRU, male XLR MIC OUT, female XLR MIC IN, GND button and security slot. THRU is not a separately processed guitar output. PEDAL does not prove continuous expression and USB connector does not prove audio streaming or USB power.
+
+</details>
+<!-- model-images:TC-Helicon::PERFORM-VG ends -->
+
+
 Mic-stand vocal/acoustic guitar multi-effects;distinct from V/VK/VE. Checked2026-10-17;partial. Guitar classification rests on independent BodyRez,chorus,echo and reverb processing,not chord detection alone. Ownership unestablished.
 
 <!-- comparison evidence begins -->
