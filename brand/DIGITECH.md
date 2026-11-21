@@ -1078,6 +1078,22 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP155 ends -->
 
+<!-- model-images:DigiTech::RP155 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**DigiTech RP155 — top panel**
+
+[![DigiTech RP155 — top panel](https://r2.gear4music.com/media/1/16669/1200/preview.jpg)](https://r2.gear4music.com/media/1/16669/1200/preview.jpg)
+
+[Image source](https://www.gear4music.com/Guitar-and-Bass/DISC-Digitech-RP155-Guitar-Processor-and-USB-Recording-Interface/ATY). Retailer promotional photograph shows illuminated red two-character display and status LEDs. Angled overhead view, not exact top-down; straight top-down replacement remains pending. Rear sources failed retrieval (MusicSquare HTTP526; zZounds HTTP403), so rear picture remains unverified. No independent device operation.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:DigiTech::RP155 ends -->
+
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**, partial. Manufacturer-confirmed guitar multi-effects processor, separate from RP150/RP255/RP355. The Shopee lead’s hardware identity remains unconfirmed.
 

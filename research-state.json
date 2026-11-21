@@ -193531,11 +193531,27 @@
             "sha256": "37310966f3ace40f477068ff03d3121e04ccff1d7c84cd730f002a7d9ab5064f"
           }
         }
+      },
+      "DigiTech::RP155": {
+        "model_key": "DigiTech::RP155",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://r2.gear4music.com/media/1/16669/1200/preview.jpg",
+            "source_url": "https://www.gear4music.com/Guitar-and-Bass/DISC-Digitech-RP155-Guitar-Processor-and-USB-Recording-Interface/ATY",
+            "caption": "DigiTech RP155 — top panel",
+            "note": "Retailer promotional photograph shows illuminated red two-character display and status LEDs. Angled overhead view, not exact top-down; straight top-down replacement remains pending. Rear sources failed retrieval (MusicSquare HTTP526; zZounds HTTP403), so rear picture remains unverified. No independent device operation.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "bd73197840ce1c70b3cc676682f67675d22fbc020011a48be0770346420ece54"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP250"
+    "last_model": "DigiTech::RP155"
   }
 }
