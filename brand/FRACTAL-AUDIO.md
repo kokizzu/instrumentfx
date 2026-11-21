@@ -2889,6 +2889,26 @@ Sources checked:
 
 <!-- firmware-pitch:Fractal Audio::FM9 Turbo ends -->
 
+<!-- model-images:Fractal Audio::FM9 Turbo begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**FM9 Turbo — powered-on angled top view**
+
+[![FM9 Turbo — powered-on angled top view](https://stillkickinmusic.com/cdn/shop/products/34-fractal-audio-fm9-54077_2048x2048.jpg?v=1664953358)](https://stillkickinmusic.com/cdn/shop/products/34-fractal-audio-fm9-54077_2048x2048.jpg?v=1664953358)
+
+[Image source](https://stillkickinmusic.com/products/fractal-audio-fm9-turbo-amp-modeler-fx-processor-new-in-box-54077). Seller identifies this exact unit as the earlier Turbo shipped October2022. Illuminated main/mini displays and footswitch rings are visible, with the smaller pre-MKII displays. Angled view; hang tag and protective film obscure part of the panel. A clear straight top-down replacement remains pending. Turbo identity relies on seller provenance rather than a visible Turbo panel marking.
+
+**FM9 Turbo — rear connections**
+
+[![FM9 Turbo — rear connections](https://stillkickinmusic.com/cdn/shop/products/back-fractal-audio-fm9-54077_2048x2048.jpg?v=1664953358)](https://stillkickinmusic.com/cdn/shop/products/back-fractal-audio-fm9-54077_2048x2048.jpg?v=1664953358)
+
+[Image source](https://stillkickinmusic.com/products/fractal-audio-fm9-turbo-amp-modeler-fx-processor-new-in-box-54077). Rear photograph of the same seller-identified October2022 Turbo unit. Angled view shows IN1–3, OUT1–3, phones, three pedal jacks, FASLINK II, S/PDIF, USB-B, MIDI and AC inlet/switch. Left-side labels are foreshortened; no fine electrical ratings inferred. Rear panel says FM9, so Turbo identity depends on the listing provenance; not evidence for MKII.
+
+</details>
+<!-- model-images:Fractal Audio::FM9 Turbo ends -->
+
+
 Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully verified. This is the August2022 Turbo, distinct from original FM9 and February2024 MKII Turbo. [Manufacturer timeline](https://www.fractalaudio.com/about/) and [family comparison](https://www.fractalaudio.com/family/) specify **10+% more DSP than original**, not a measured latency or guaranteed effect-count increase. The [3.x August2022 manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) explicitly covers **Original and TURBO**; its shared facts below are not inferred from a sibling or current MKII advertising. No ownership assertion.
 
 <!-- comparison evidence begins -->
