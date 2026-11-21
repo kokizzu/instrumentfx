@@ -1118,6 +1118,37 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 
 ## TANK MINI
 
+<!-- firmware-pitch:M-VAVE::TANK MINI begins -->
+### Firmware and pitch audit — M-VAVE TANK MINI
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. December 11, 2024 launch coverage exists, but September/October 2024 discussions already link a TANK MINI video. Exact manufacturer first announcement/shipping date remains unresolved; the earlier linked video could not be retrieved. Do not substitute a later December retailer first-available date or a regulatory sample-receipt date. No verified release-to-update span. [launch 1](https://www.youtube.com/watch?v=68fYESIqPT4) [launch 2](https://guitarload.com.br/lancamento/m-vave-tank-mini/) |
+| Firmware / latest verification | V011 — Latest verified. Current official download index and appdownload both list TANK-MINI V011 November 18, 2026, superseding saved V09 January 31. Its release-note endpoint returns a Unicode decoding error in the web tool, so exact changes and minimum editor version were not directly verified. M-EFCS and M-UPGRADE are separate software. A manufacturer social-post mirror describes NAM A2/NAN and new MW effects, but those details remain follow-up leads until primary text/package verification; no unrestricted native NAM or unchanged reverb behavior inferred from the version listing. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://www.m-vave.com/appdownload) [firmware 3](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-MINI.txt) |
+| Firmware / release date | 2026-11-18 (day precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manufacturer-authored TANK MINI manual documents Shimmer reverb wet pitch from unison to two octaves above the original, with Pitch and Amount controls. Analog Delay has a small wet detune Pitch parameter, with numeric range unstated. Vibrato modulates pitch without dry signal. These are pitched ambience/modulation effects, not a documented general-purpose harmony/drop-tuning block. No polyphonic input-tracking guarantee or downward shift range established. [pitch 1](https://device.report/m/85146a375139b77e6adaa9c41706b737927ff843055e13b5b820b0902da63d3b) |
+| Pitch / preset recall | 21 editable presets across seven banks of three, supplied as five guitar and two bass groups. A+B steps bank down, B+C up, then A/B/C recalls; holding a destination after bank selection copies/saves. Software edits the effect settings and order. Pitch-related reverb/delay parameters belong to this preset architecture, not an extra pitch bank. No analog EXP interface in the original complete panel. |
+| Pitch / DSP resources | No isolated Shimmer/delay-detune DSP percentage or tracking latency documented. Six movable modules with a 6+1 specification are not arbitrary seven heavy slots or a resource meter. No sibling model cost transferred and no device benchmark performed. |
+| Pitch / qualifications | Manufacturer-authored operating text hosted by distributor/mirror read directly; English effect and preset sections checked. Existing earlier original-manual visual evidence retained, without a renewed byte-equivalence claim. Original 1500mAh versus distributor-manual 1450mAh battery conflict remains unresolved; no hardware revision inferred. No firmware/software installed, presets changed or audio tested. Current V011 behavior beyond its listing remains subject to release-note verification. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Unresolved chronology leads: https://www.guitarristas.info/foros/comunidad-m-vave-tank-g/339888/pagina57 (September 29–30, 2024) and /pagina58 (October 11). Not manufacturer first-release proof.
+
+Unverified current-update lead: https://tokcount.com/tiktok-recent-engagement-calculator/mvaveofficial reproduces a manufacturer social post about V11, converted device-supported NAM A2/NAN, six MW effects and a different reverb path. Primary current notes still need decoding; no new format/slot claim adopted here.
+
+Sources checked:
+
+- [M-VAVE current TANK-MINI firmware index](https://www.m-vave.com/download) — V011 dated November 18, 2026. (Current manufacturer index opened as text).
+- [M-VAVE software and firmware index](https://www.m-vave.com/appdownload) — Independent route lists the same exact-model version/date; editor/updater distinct. (Current manufacturer search-indexed body).
+- [Official TANK-MINI release-note endpoint](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-MINI.txt) — No readable current changelog obtained; version and date rely on official index. (Direct fetch failed with Unicode decoding error).
+- [Manufacturer TANK MINI manual, distributor-hosted transcription](https://device.report/m/85146a375139b77e6adaa9c41706b737927ff843055e13b5b820b0902da63d3b) — Shimmer unison to two octaves up, Analog Delay wet detune, Vibrato and 21-preset recall/save. (English effect/preset operating text read, generated FAQs excluded).
+- [December 2024 launch coverage](https://guitarload.com.br/lancamento/m-vave-tank-mini/) — December 11 coverage cannot establish first release in view of earlier discussion leads. (Dated original news body opened/indexed).
+- [Earlier TANK MINI video chronology lead](https://www.youtube.com/watch?v=68fYESIqPT4) — No exact original channel/date established; first-release date left unknown. (Direct video retrieval failed; linked by dated September/October forum discussions).
+
+<!-- firmware-pitch:M-VAVE::TANK MINI ends -->
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-14. Guitar/bass multi-effects.**
