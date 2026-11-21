@@ -5323,6 +5323,32 @@ Remaining:complete socket formats/manual processing,externalEXP,powerpolarity/US
 
 ## ME-80
 
+<!-- firmware-pitch:BOSS::ME-80 begins -->
+### Firmware and pitch audit — BOSS ME-80
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2014-01-15 (manufacturer announcement proxy). Manufacturer announcement; exact first retail shipment unverified. [launch 1](https://www.roland.com/us/company/press_releases/2014/1771/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current index lists Tone Studio 1.1.3 Windows/1.1.2 macOS and OS drivers, not a device system program. Targeted firmware search found driver-page boilerplate and other products. Firmware version/date and update duration remain unknown; internal revisions not ruled out. [firmware 1](https://www.boss.info/global/support/by_product/me-80/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD Pitch Shift spans up/down two octaves; input polyphony not explicitly specified in checked text. Harmonist requires single notes. Separate MOD Overtone explicitly accepts chords, with octave-up/down and direct levels. Pedal bends +1/+2/-1 octaves require single notes. COMP/FX1 OCTAVE also listed; its tracking not freshly verified. [pitch 1](https://www.manualslib.com/manual/1148945/Boss-Me-80.html?page=9) [pitch 2](https://www.manualslib.com/manual/1148945/Boss-Me-80.html?page=13) [pitch 3](https://cdn.roland.com/assets/media/pdf/ME-80_Training_Guide.pdf) [pitch 4](https://www.roland.com/us/company/press_releases/2014/1771/) |
+| Pitch / preset recall | 36 user plus 36 preset whole patches, nine banks × four in each set. WRITE retains edits. |
+| Pitch / DSP resources | Pitch Shift, Harmonist and Overtone are alternatives in one MOD category. COMP/FX1 octave and PEDAL FX are separate categories. Eight categories can run together (NS additionally listed); no published pitch CPU percentage or allocation table found. |
+| Pitch / qualifications | Chord-capable Overtone does not establish polyphonic regular semitone shifting. No GT-100 or ME-90 tracking/DSP figures transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS announces ME-80 guitar multiple effects](https://www.roland.com/us/company/press_releases/2014/1771/) — January 15, 2014 announcement; eight simultaneous categories and user patch memory. (Manufacturer press release web text).
+- [ME-80 updates and drivers](https://www.boss.info/global/support/by_product/me-80/updates_drivers/) — Editor and OS-driver releases shown; no public device system-program entry. (Manufacturer current support index web text).
+- [BOSS ME-80 Owner Manual: MOD, printed p7](https://www.manualslib.com/manual/1148945/Boss-Me-80.html?page=9) — Pitch Shift range, single-note Harmonist and chord-compatible Overtone, all MOD alternatives. (Manufacturer-authored manual mirrored by ManualsLib, page text; official multilingual PDF too large for web retrieval).
+- [BOSS ME-80 Owner Manual: PEDAL FX, printed p11](https://www.manualslib.com/manual/1148945/Boss-Me-80.html?page=13) — Pedal +1/+2/-1 octave bends explicitly single-note. (Manufacturer-authored manual mirrored by ManualsLib, page text).
+- [BOSS ME-80 Training Guide](https://cdn.roland.com/assets/media/pdf/ME-80_Training_Guide.pdf) — Separate categories, COMP/FX1 octave and 36 user/36 preset patch banks; WRITE saves edits. (Manufacturer PDF web text).
+
+<!-- firmware-pitch:BOSS::ME-80 ends -->
+
 Guitar multi-effects; distinct from ME-90. Checked2026-10-17; partial verification. Manufacturer marks discontinued, which does not establish seller stock. Bass suitability remains unclassified.
 
 | Field | Finding / qualification | Evidence |
