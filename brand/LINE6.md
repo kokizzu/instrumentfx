@@ -1774,6 +1774,30 @@ Checked **2026-11-05**, [manufacturer HX Effects3.80 Owner’s Manual,RevD,print
 
 ## HX One
 
+<!-- firmware-pitch:Line 6::HX One begins -->
+### Firmware and pitch audit — Line 6 HX One
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-10-25 (manufacturer announcement). Yamaha Japan announcement proxy, with early December2023 Japanese availability planned. Not a verified worldwide first shipment day. [launch 1](https://www.yamaha.com/ja/news_release/2023/23102501/) |
+| Firmware / latest verification | 3.83 — Latest verified. Current direct exact-HX One catalogue lists3.83 first, October28,2025, corroborated by own RevF manual applicability. Adds five Dynamics utilities and MIDI enhancements. HX Edit and other Helix/HX firmware versions are separate. No update installed. [firmware 1](https://line6.com/software/index.html?hardware=HX+One&name=Firmware&submit_form=set) |
+| Firmware / release date | 2025-10-28 (day precision) |
+| Firmware / release-to-update duration | 2.01 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Own RevF p17 explicitly identifies Poly Pitch,Poly Wham,Poly Capo and12 String as polyphonic pitch shifting. Also Simple/Dual Pitch,harmonies,octavers. Poly Detune,Poly Sustain and Feedbacker use polyphonic pitch processing in other categories. Mono output processing does not mean single-note-only tracking. [pitch 1](https://line6.com/data/6/0a0004220039697155cf001b7/application/pdf/HX%20One%20Owner%27s%20Manual%20-%20English%20.pdf) |
+| Pitch / preset recall | 128 overwriteable presets save selected model,parameters and controller settings; bypass-state recall documented from3.81. No hardware recall or chord-quality test. |
+| Pitch / DSP resources | One selected effect model plus input gate; selecting poly pitch occupies that model slot and cannot run alongside another selected reverb/delay/volume model. Own manual calls poly models DSP-intensive and restricts them to mono processing, without assigning a numeric CPU percentage. Helix half-path DSP guidance is not an HX One measurement. |
+| Pitch / qualifications | Polyphonic pitch support does not certify synthesizer input polyphony. Flux automates parameters of the one selected model; it does not add a second effect block. No CPU,latency or audio benchmark. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha HX One announcement](https://www.yamaha.com/ja/news_release/2023/23102501/) — October25,2023 announcement, earlyDecember Japanese availability planned; not global first shipment. (Manufacturer Japan announcement read).
+- [HX One exact firmware catalogue](https://line6.com/software/index.html?hardware=HX+One&name=Firmware&submit_form=set) — Newest3.83 October28,2025; separate from3.81 and other hardware/editor versions. (Direct bounded manufacturer HTML retrieved; SHA256 8513bc5824f7e3dc9706e2ff0ce7b233426883a9fc1d2b4e4800c6e57ab70348).
+- [HX One Owner Manual Rev F for firmware3.83](https://line6.com/data/6/0a0004220039697155cf001b7/application/pdf/HX%20One%20Owner%27s%20Manual%20-%20English%20.pdf) — Polyphonic pitch models are DSP-intensive and mono; one-model architecture,128 presets and recall behavior. No numeric pitch CPU percentage. (Original manufacturer PDF web text read).
+
+<!-- firmware-pitch:Line 6::HX One ends -->
+
 Effects-only multi-category guitar/bass processor;distinct from HX Effects/HX Stomp. One selected model,not a multi-block chain. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
 
 | Field | Finding / qualification | Evidence |
