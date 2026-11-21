@@ -445,6 +445,26 @@ Sources checked:
 
 <!-- firmware-pitch:Flamma::FV03 Character ends -->
 
+<!-- model-images:Flamma::FV03 Character begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**FV03 Character powered-on top-down photograph**
+
+[![FV03 Character powered-on top-down photograph](https://www.flamma.shop/cdn/shop/products/1_3a43748f-2db3-4269-907b-3beb0c8e2493.jpg?v=1625830061&width=1946)](https://www.flamma.shop/cdn/shop/products/1_3a43748f-2db3-4269-907b-3beb0c8e2493.jpg?v=1625830061&width=1946)
+
+[Image source](https://www.flamma.shop/products/flamma-fv03). Manufacturer photograph shows purple FV03 with red Tone indicator and illuminated footswitch segments. Straight top view; three face knobs, Tone button and one footswitch. Six-mode voice character model, not FV02/FV04.
+
+**FV03 Character rear mic, XLR, DC and switches**
+
+[![FV03 Character rear mic, XLR, DC and switches](https://www.flamma.shop/cdn/shop/products/6_e92e5a86-9361-4241-bfe4-00541670cebf.jpg?v=1625830061&width=1946)](https://www.flamma.shop/cdn/shop/products/6_e92e5a86-9361-4241-bfe4-00541670cebf.jpg?v=1625830061&width=1946)
+
+[Image source](https://www.flamma.shop/products/flamma-fv03). Photographed unit is marked9V500mA,centre-negative, with Mic,XLR Out,Gain,Line In,48V andLift/Gnd. Newer V03 manual1.5A discrepancy and phantom-power direction remain unresolved. Side guitar sockets are outside this view.
+
+</details>
+<!-- model-images:Flamma::FV03 Character ends -->
+
+
 Checked **2026-10-17**; partial. Vocal character processing plus reverb and tone. Own manual explicitly enables voice/reverb together: vocal-only multi-effects membership. Guitar reverb is a supporting path; no guitar/bass multi-effects membership established. FV01 remains excluded.
 
 <!-- comparison evidence begins -->

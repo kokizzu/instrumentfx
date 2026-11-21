@@ -188438,11 +188438,35 @@
             "sha256": "f0648133333dc6bb95295012d6a3cf9d25f413353039edfc673a613d441e99a3"
           }
         }
+      },
+      "Flamma::FV03 Character": {
+        "model_key": "Flamma::FV03 Character",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.flamma.shop/cdn/shop/products/1_3a43748f-2db3-4269-907b-3beb0c8e2493.jpg?v=1625830061&width=1946",
+            "source_url": "https://www.flamma.shop/products/flamma-fv03",
+            "caption": "FV03 Character powered-on top-down photograph",
+            "note": "Manufacturer photograph shows purple FV03 with red Tone indicator and illuminated footswitch segments. Straight top view; three face knobs, Tone button and one footswitch. Six-mode voice character model, not FV02/FV04.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "7317c3f4825a37ebdb1002f55cb19f1b56df96f560e82b6e3f24a95a8a37ac16"
+          },
+          "rear": {
+            "image_url": "https://www.flamma.shop/cdn/shop/products/6_e92e5a86-9361-4241-bfe4-00541670cebf.jpg?v=1625830061&width=1946",
+            "source_url": "https://www.flamma.shop/products/flamma-fv03",
+            "caption": "FV03 Character rear mic, XLR, DC and switches",
+            "note": "Photographed unit is marked9V500mA,centre-negative, with Mic,XLR Out,Gain,Line In,48V andLift/Gnd. Newer V03 manual1.5A discrepancy and phantom-power direction remain unresolved. Side guitar sockets are outside this view.",
+            "visual_checked": true,
+            "sha256": "607d6e2b9ef00ca4fff4d06715d9e3c8e46b0131ef544241b9d354dd5d448ae5"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Flamma::FV02 Doubling"
+    "last_model": "Flamma::FV03 Character"
   }
 }
