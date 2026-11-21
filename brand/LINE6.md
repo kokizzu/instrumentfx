@@ -2622,6 +2622,31 @@ Electrical chart retrieval yielded no readable model-specific pixels;official sh
 
 ## POD Express Bass
 
+<!-- firmware-pitch:Line 6::POD Express Bass begins -->
+### Firmware and pitch audit — Line 6 POD Express Bass
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-03-06 (manufacturer announcement). Yamaha Japan announcement proxy, not a verified worldwide first shipment. Announces May 2024 Japanese availability. Initial public firmware March 5 is not treated as hardware shipment evidence. [launch 1](https://www.yamaha.com/ja/news_release/2024/24030601/) |
+| Firmware / latest verification | 2.00.0 — Located; latest status unverified. Newest device firmware located in the current indexed manufacturer download catalogue, explicitly covering Guitar, Bass and Black. Direct exact-model index retrieval unavailable; not certified as exhaustive. Adds Knob Behavior and Volume Wheel Control globals, cabinet LED indication, looper/preset fixes and the Bass Studio amp Gain control correction. Editor, ASIO driver and Central versions are separate; no device update installed. [firmware 1](https://line6.com/software/index.html?os=All&submit_form=set) |
+| Firmware / release date | 2024-09-12 (day precision) |
+| Firmware / release-to-update duration | 0.52 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. OCTAVE in the Bass SYNTH category, based on BOSS OC-2 (Rev E p26). GROWL and STRING synths and MUTANT envelope filter share that category. No dedicated chromatic transpose, harmony or HX Poly Pitch/Capo model listed. The table labels OCTAVE mono signal format; that alone does not establish note-tracking polyphony. [pitch 1](https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf) [pitch 2](https://line6.com/podexpress/bass-effects) |
+| Pitch / preset recall | 21 overwriteable presets save supported amp/effects settings, including the selected Bass SYNTH-category model. No hardware recall or chord-tracking test performed. |
+| Pitch / DSP resources | Fixed Bass path: Gate > Compressor > Synth > Distortion > Amp > Cab > Volume > Mod/Delay/Looper. OCTAVE occupies the single Synth category, so cannot coexist with Growl, String or Mutant as separate blocks. Up to four knob-selected effects; modulation and delay share a category. No model-specific octave CPU percentage published in checked sources; Helix/Ampero percentages are not measurements of this hardware. |
+| Pitch / qualifications | Mono/stereo routing labels are not proof of monophonic/polyphonic input tracking. Exact Bass table checked independently of Guitar and Black. No audio or DSP measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha POD Express Guitar/Bass launch announcement](https://www.yamaha.com/ja/news_release/2024/24030601/) — March 6, 2024 announcement; May 2024 Japan release planned. Used as qualified announcement proxy, not global first shipment. (Manufacturer Japanese announcement read).
+- [Line 6 current software download catalogue](https://line6.com/software/index.html?os=All&submit_form=set) — Newest located POD Express device firmware 2.00.0 dated September 12, 2024 explicitly supports Guitar, Bass and Black. Distinct from editor/driver versions. (Current manufacturer search-index entry read; direct exact-model page unavailable).
+- [POD Express Owner Manual Rev E, firmware 2.00](https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf) — Bass-specific OCTAVE modeled on BOSS OC-2, other synth-category models, modulation/delay sharing and complete Bass effects table. Mono label is signal format; no polyphonic tracking guarantee or DSP percentage. (Original 47-page PDF retrieved; printed pp26–27 text read; SHA256 308188e1724d71b19719491ca6b3176709d7ead87c9a2e25f72e6ce38aee9a57).
+- [POD Express Bass official product and interactive guide](https://line6.com/podexpress/bass-effects) — 7 bass amps/cabs, 17 effects including looper, 21 overwriteable presets and exact blue Bass enclosure gallery. (Current manufacturer exact-model page read).
+
+<!-- firmware-pitch:Line 6::POD Express Bass ends -->
+
 **New bass-specific model, checked2026-10-15.** A separate hardware/sound-library record, not a color option for POD Express Guitar. The official Bass product and joint2.00 manual explicitly document the following common hardware and different processing path. This record remains partial. Dimensions were repaired from the joint manufacturer announcement on2026-10-17; platform-specific OS minima need separate evidence.
 
 <!-- comparison evidence begins -->

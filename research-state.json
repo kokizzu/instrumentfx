@@ -178518,8 +178518,8 @@
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 22,
     "text_pages": [
-      23,
-      24
+      25,
+      26
     ],
     "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
     "index_needle": "features",
@@ -189870,6 +189870,75 @@
           "label": "0.52 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::POD Express Bass": {
+        "model_key": "Line 6::POD Express Bass",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2024-03-06",
+          "precision": "day",
+          "kind": "manufacturer_announcement",
+          "source_urls": [
+            "https://www.yamaha.com/ja/news_release/2024/24030601/"
+          ],
+          "note": "Yamaha Japan announcement proxy, not a verified worldwide first shipment. Announces May 2024 Japanese availability. Initial public firmware March 5 is not treated as hardware shipment evidence."
+        },
+        "firmware": {
+          "version": "2.00.0",
+          "date": "2024-09-12",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://line6.com/software/index.html?os=All&submit_form=set"
+          ],
+          "note": "Newest device firmware located in the current indexed manufacturer download catalogue, explicitly covering Guitar, Bass and Black. Direct exact-model index retrieval unavailable; not certified as exhaustive. Adds Knob Behavior and Volume Wheel Control globals, cabinet LED indication, looper/preset fixes and the Bass Studio amp Gain control correction. Editor, ASIO driver and Central versions are separate; no device update installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "OCTAVE in the Bass SYNTH category, based on BOSS OC-2 (Rev E p26). GROWL and STRING synths and MUTANT envelope filter share that category. No dedicated chromatic transpose, harmony or HX Poly Pitch/Capo model listed. The table labels OCTAVE mono signal format; that alone does not establish note-tracking polyphony.",
+          "preset": "21 overwriteable presets save supported amp/effects settings, including the selected Bass SYNTH-category model. No hardware recall or chord-tracking test performed.",
+          "dsp": "Fixed Bass path: Gate > Compressor > Synth > Distortion > Amp > Cab > Volume > Mod/Delay/Looper. OCTAVE occupies the single Synth category, so cannot coexist with Growl, String or Mutant as separate blocks. Up to four knob-selected effects; modulation and delay share a category. No model-specific octave CPU percentage published in checked sources; Helix/Ampero percentages are not measurements of this hardware.",
+          "source_urls": [
+            "https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "https://line6.com/podexpress/bass-effects"
+          ],
+          "measurements": [],
+          "notes": [
+            "Mono/stereo routing labels are not proof of monophonic/polyphonic input tracking. Exact Bass table checked independently of Guitar and Black. No audio or DSP measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.yamaha.com/ja/news_release/2024/24030601/",
+            "title": "Yamaha POD Express Guitar/Bass launch announcement",
+            "access": "Manufacturer Japanese announcement read",
+            "evidence": "March 6, 2024 announcement; May 2024 Japan release planned. Used as qualified announcement proxy, not global first shipment."
+          },
+          {
+            "url": "https://line6.com/software/index.html?os=All&submit_form=set",
+            "title": "Line 6 current software download catalogue",
+            "access": "Current manufacturer search-index entry read; direct exact-model page unavailable",
+            "evidence": "Newest located POD Express device firmware 2.00.0 dated September 12, 2024 explicitly supports Guitar, Bass and Black. Distinct from editor/driver versions."
+          },
+          {
+            "url": "https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "title": "POD Express Owner Manual Rev E, firmware 2.00",
+            "access": "Original 47-page PDF retrieved; printed pp26–27 text read; SHA256 308188e1724d71b19719491ca6b3176709d7ead87c9a2e25f72e6ce38aee9a57",
+            "evidence": "Bass-specific OCTAVE modeled on BOSS OC-2, other synth-category models, modulation/delay sharing and complete Bass effects table. Mono label is signal format; no polyphonic tracking guarantee or DSP percentage."
+          },
+          {
+            "url": "https://line6.com/podexpress/bass-effects",
+            "title": "POD Express Bass official product and interactive guide",
+            "access": "Current manufacturer exact-model page read",
+            "evidence": "7 bass amps/cabs, 17 effects including looper, 21 overwriteable presets and exact blue Bass enclosure gallery."
+          }
+        ],
+        "duration": {
+          "minimum_days": 190,
+          "maximum_days": 190,
+          "label": "0.52 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -189918,7 +189987,6 @@
       "Line 6::M5",
       "Line 6::M9",
       "Line 6::Pocket POD",
-      "Line 6::POD Express Bass",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
       "Line 6::POD HD500",
@@ -190140,9 +190208,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 137,
-    "last_model": "Line 6::POD Express Guitar",
-    "last_commit_parent": "18802af8f8b676427a72a573e2c9f4efd6690a33",
+    "completed_model_count": 138,
+    "last_model": "Line 6::POD Express Bass",
+    "last_commit_parent": "8ac7364470b9fd1ca6c509eb2e10aabccad93c10",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190190,7 +190258,6 @@
       "Line 6::M5",
       "Line 6::M9",
       "Line 6::Pocket POD",
-      "Line 6::POD Express Bass",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
       "Line 6::POD HD500",
@@ -190411,7 +190478,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 137,
+    "pitch_completed_model_count": 138,
     "supplemental_model_count": 0
   },
   "model_images": {
