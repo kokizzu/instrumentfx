@@ -193137,11 +193137,35 @@
             "sha256": "4b64f19567dc0ef13d5877693a340e6bfc39b93e5a668ba561716f12f5e072c2"
           }
         }
+      },
+      "BOSS::VE-8": {
+        "model_key": "BOSS::VE-8",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/assets/images/products/main/ve-8_top_main.jpg",
+            "source_url": "https://www.boss.info/global/products/ve-8/",
+            "caption": "BOSS VE-8 — top panel",
+            "note": "Official top-down product photograph with illuminated red numeric display and colored status LEDs. Source is only 446 × 330 pixels, suitable for an overview rather than small-label inspection. Promotional photograph, not independent device operation.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "e1bb096eb482f93758f7a0707289a51199fc520feff6858d34869048779f6c61"
+          },
+          "rear": {
+            "image_url": "https://pusatsoundsystem.com/wp-content/uploads/BOSS-VE-8-rear.jpg",
+            "source_url": "https://pusatsoundsystem.com/boss-ve-8/",
+            "caption": "BOSS VE-8 — rear connections",
+            "note": "Retailer rear product photograph with a faint watermark; connectors remain visible: GUITAR, MIC, AUX, LINE L/MONO and R, PHONES, XLR R/L, MEMORY, USB Type-B and DC IN, plus MIC SENS, PHANTOM, GND and POWER controls. Rear view alone does not establish operating power state.",
+            "visual_checked": true,
+            "sha256": "f79cc56d22ac70c181ab7f0e47a3ff13711d4a6b37aa62d81e5eae1ad555a9df"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::VE-500"
+    "last_model": "BOSS::VE-8"
   }
 }
