@@ -195489,6 +195489,69 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::MG-300 MKII": {
+        "model_key": "NUX::MG-300 MKII",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2025-01",
+          "precision": "month",
+          "kind": "NAMM_introduction_month_proxy",
+          "source_urls": [
+            "https://www.premierguitar.com/gear/gear-galleries/namm-2025"
+          ],
+          "note": "Premier Guitar’s contemporaneous NAMM 2025 show coverage identifies the MKII introduction. Rolling gallery starts January 23; the exact model entry day and first shipment day are not established, so month precision is retained."
+        },
+        "firmware": {
+          "version": "3.0.0 (GEN2)",
+          "date": "2026-07-10",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://nuxaudio.com/product/mg300mkii/"
+          ],
+          "note": "Current exact-model GEN2 firmware for Windows/macOS is dated July 10, 2026. Requires matching GEN2 QuickTone; current editor2.6.7.16 is separately dated July24. Older V2 firmware2.0.0 (April14) is retained separately. GEN2 adds wah, DeepImage models and ten native A2-Lite NAM slots; do not transfer this firmware to original MG-300."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Octave is explicitly named in the manufacturer’s organ-like Octave+Rotary recipe; Shimmer is in RVB. Previously inspected exact-model artwork shows Harmonist and Detune, with key/major-minor harmony controls. Input polyphony and numeric pitch ranges remain unverified.",
+          "preset": "SAVE stores edited patches. Three Pro Scenes per preset can recall effect/amp models and settings; factory/user/total patch capacity remains unresolved in the checked manual.",
+          "dsp": "Ten movable signal positions; substitutions CMP→EFX, EFX→MOD and RVB→DLY replace functions rather than add positions. EFX→MOD permits Octave plus Rotary. No isolated pitch CPU/DSP percentage or measured pitch cost documented.",
+          "source_urls": [
+            "https://nuxaudio.com/product/mg300mkii/",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_German.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original MG-300 Pitch Bender is not assumed to be the MKII algorithm. Manufacturer artwork establishes controls, not measured tracking or firmware introduction."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.premierguitar.com/gear/gear-galleries/namm-2025",
+            "title": "Premier Guitar NAMM 2025 on-site gear gallery",
+            "access": "Contemporaneous first-hand show report checked 2026-11-22",
+            "evidence": "Rolling gallery dated January23,2025 identifies updated NUX MG-300 MKII at NAMM; establishes January introduction month, not exact first retail shipment."
+          },
+          {
+            "url": "https://nuxaudio.com/product/mg300mkii/",
+            "title": "NUX MG-300 MKII product and GEN2 support",
+            "access": "Manufacturer page checked 2026-11-22; prior inspected artwork retained with its qualification",
+            "evidence": "GEN2 firmware3.0.0 July10,2026, separate editor; Octave/Rotary, Shimmer, three scenes, ten positions and three function substitutions. Polyphony and isolated DSP cost absent."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_German.pdf",
+            "title": "NUX MG-300 MKII German manufacturer manual",
+            "access": "Exact MKII manufacturer-hosted eight-page PDF checked 2026-11-22",
+            "evidence": "SAVE patch procedure; three Pro Scene navigation modes; manual predates GEN2 and does not establish current pitch tracking or full library equivalence."
+          }
+        ],
+        "duration": {
+          "minimum_days": 525,
+          "maximum_days": 555,
+          "label": "1.44–1.52 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -195531,7 +195594,6 @@
       "NUX::MG-20",
       "NUX::MG-200",
       "NUX::MG-30",
-      "NUX::MG-300 MKII",
       "NUX::MG-400",
       "NUX::MG-50Li",
       "NUX::Mighty Plug MP-2",
@@ -195685,9 +195747,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 211,
-    "last_model": "NUX::MG-300 original",
-    "last_commit_parent": "9d624d9005dcecf0bf0ad540ff62d4072bb3e110",
+    "completed_model_count": 212,
+    "last_model": "NUX::MG-300 MKII",
+    "last_commit_parent": "4afb2349825dac443cb3f4e48ff91d72abd10d70",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -195729,7 +195791,6 @@
       "NUX::MG-20",
       "NUX::MG-200",
       "NUX::MG-30",
-      "NUX::MG-300 MKII",
       "NUX::MG-400",
       "NUX::MG-50Li",
       "NUX::Mighty Plug MP-2",
@@ -195882,7 +195943,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 211,
+    "pitch_completed_model_count": 212,
     "supplemental_model_count": 0
   },
   "model_images": {

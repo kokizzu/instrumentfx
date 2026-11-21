@@ -1291,6 +1291,30 @@ Checked2026-10-19; partial, using preserved exactV1 evidence above. The [officia
 
 ## MG-300 MKII
 
+<!-- firmware-pitch:NUX::MG-300 MKII begins -->
+### Firmware and pitch audit — NUX MG-300 MKII
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025-01 (NAMM introduction month proxy). Premier Guitar’s contemporaneous NAMM 2025 show coverage identifies the MKII introduction. Rolling gallery starts January 23; the exact model entry day and first shipment day are not established, so month precision is retained. [launch 1](https://www.premierguitar.com/gear/gear-galleries/namm-2025) |
+| Firmware / latest verification | 3.0.0 (GEN2) — Latest verified. Current exact-model GEN2 firmware for Windows/macOS is dated July 10, 2026. Requires matching GEN2 QuickTone; current editor2.6.7.16 is separately dated July24. Older V2 firmware2.0.0 (April14) is retained separately. GEN2 adds wah, DeepImage models and ten native A2-Lite NAM slots; do not transfer this firmware to original MG-300. [firmware 1](https://nuxaudio.com/product/mg300mkii/) |
+| Firmware / release date | 2026-07-10 (day precision) |
+| Firmware / release-to-update duration | 1.44–1.52 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Octave is explicitly named in the manufacturer’s organ-like Octave+Rotary recipe; Shimmer is in RVB. Previously inspected exact-model artwork shows Harmonist and Detune, with key/major-minor harmony controls. Input polyphony and numeric pitch ranges remain unverified. [pitch 1](https://nuxaudio.com/product/mg300mkii/) [pitch 2](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_German.pdf) |
+| Pitch / preset recall | SAVE stores edited patches. Three Pro Scenes per preset can recall effect/amp models and settings; factory/user/total patch capacity remains unresolved in the checked manual. |
+| Pitch / DSP resources | Ten movable signal positions; substitutions CMP→EFX, EFX→MOD and RVB→DLY replace functions rather than add positions. EFX→MOD permits Octave plus Rotary. No isolated pitch CPU/DSP percentage or measured pitch cost documented. |
+| Pitch / qualifications | Original MG-300 Pitch Bender is not assumed to be the MKII algorithm. Manufacturer artwork establishes controls, not measured tracking or firmware introduction. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Premier Guitar NAMM 2025 on-site gear gallery](https://www.premierguitar.com/gear/gear-galleries/namm-2025) — Rolling gallery dated January23,2025 identifies updated NUX MG-300 MKII at NAMM; establishes January introduction month, not exact first retail shipment. (Contemporaneous first-hand show report checked 2026-11-22).
+- [NUX MG-300 MKII product and GEN2 support](https://nuxaudio.com/product/mg300mkii/) — GEN2 firmware3.0.0 July10,2026, separate editor; Octave/Rotary, Shimmer, three scenes, ten positions and three function substitutions. Polyphony and isolated DSP cost absent. (Manufacturer page checked 2026-11-22; prior inspected artwork retained with its qualification).
+- [NUX MG-300 MKII German manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_German.pdf) — SAVE patch procedure; three Pro Scene navigation modes; manual predates GEN2 and does not establish current pitch tracking or full library equivalence. (Exact MKII manufacturer-hosted eight-page PDF checked 2026-11-22).
+
+<!-- firmware-pitch:NUX::MG-300 MKII ends -->
+
 <!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Official product](https://nuxaudio.com/product/mg300mkii/); [manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_English.pdf); [NUX USA](https://www.nux.us/products/mg-300-mkii).
 
