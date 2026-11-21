@@ -7064,6 +7064,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::VE-22 ends -->
 
+<!-- model-images:BOSS::VE-22 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS VE-22 — top panel**
+
+[![BOSS VE-22 — top panel](https://static.roland.com/products/ve-22/image/ve-22_gal_01.jpg)](https://static.roland.com/products/ve-22/image/ve-22_gal_01.jpg)
+
+[Image source](https://www.boss.info/global/products/ve-22/). Official straight top-down product photograph: color LCD shows U01 HARMONY; all three control rings and footswitch indicators are illuminated. Manufacturer promotional image, not an independently operated unit.
+
+**BOSS VE-22 — rear connections**
+
+[![BOSS VE-22 — rear connections](https://static.roland.com/products/ve-22/image/ve-22_gal_03.jpg)](https://static.roland.com/products/ve-22/image/ve-22_gal_03.jpg)
+
+[Image source](https://www.boss.info/global/products/ve-22/). Official unobstructed rear photograph shows MIC input, MIC SENS and PHANTOM controls, OUTPUT R and L/MONO, PHONES/LINE OUT, AUX IN, CTL1,2/EXP, USB-C, DC IN and POWER switch. Rear photograph alone does not establish operating power state.
+
+</details>
+<!-- model-images:BOSS::VE-22 ends -->
+
+
 Vocal multi-effects;consolidated/researched2026-10-16;partial verification.
 
 ### VE-22 — preserved original comparison
