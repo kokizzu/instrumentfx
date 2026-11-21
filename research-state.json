@@ -191741,6 +191741,58 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Korg::AX10G": {
+        "model_key": "Korg::AX10G",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/23/"
+          ],
+          "note": "First hardware release not established in checked manufacturer sources; June2015 manual upload is not launch evidence."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/23/"
+          ],
+          "note": "Exact support page lists Owner’s Manual and Easy Start Guide, both uploaded June1,2015; no public firmware package or dated device changelog located. Internal/service firmware absence is not proven; span uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PITCH1 mixes shifted and direct sound; PITCH2 is fully wet and supports expression-controlled shift. Both offer settings reaching two octaves down/up; PITCH1 also lists detune options. Chord handling/polyphony and tracking latency are not specified in the checked descriptions.",
+          "preset": "40 factory presets plus40 user programs; user slots initially duplicate factory settings. Pitch and expression configuration belongs to the stored program; hardware recall untested.",
+          "dsp": "PITCH1/PITCH2 occupy the single MODULATION selection, replacing chorus/flanger and other modulation choices. Pedal controls a selected effect parameter rather than establishing an extra independent pitch engine. No numerical CPU cost located; AX100G harmony exclusions are not transferred.",
+          "source_urls": [
+            "https://cdn.korg.com/us/support/download/files/ec016fd8dfff2e0172346b5a0cf60470.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No device, tracking or CPU measurement. Tuner instruction to play one string is not a pitch-shifter polyphony specification."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.korg.com/us/support/download/product/1/23/",
+            "title": "Korg AX10G support downloads",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "Two manuals dated2015-06-01; no firmware listed."
+          },
+          {
+            "url": "https://cdn.korg.com/us/support/download/files/ec016fd8dfff2e0172346b5a0cf60470.pdf",
+            "title": "AX10G Owner’s Manual",
+            "access": "Manufacturer original PDF text read, pp3,5,10–12",
+            "evidence": "PITCH1 dry/shift mix and PITCH2 wet shift in MODULATION; expression control,40preset+40user programs. Polyphony and CPU cost unestablished."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -191751,7 +191803,6 @@
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
       "Korg::AX10B",
-      "Korg::AX10G",
       "Korg::AX1500G",
       "Korg::AX3000B",
       "Korg::AX3000G",
@@ -191983,9 +192034,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 165,
-    "last_model": "Korg::AX100G",
-    "last_commit_parent": "5fbf31928ef81429b21f22f040a70899a7f8eced",
+    "completed_model_count": 166,
+    "last_model": "Korg::AX10G",
+    "last_commit_parent": "750fa37df2c6303927a27ed337c51e19a1f5532b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -191995,7 +192046,6 @@
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
       "Korg::AX10B",
-      "Korg::AX10G",
       "Korg::AX1500G",
       "Korg::AX3000B",
       "Korg::AX3000G",
@@ -192226,7 +192276,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 165,
+    "pitch_completed_model_count": 166,
     "supplemental_model_count": 0
   },
   "model_images": {

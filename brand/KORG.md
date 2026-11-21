@@ -495,6 +495,29 @@ Checked2026-10-18 against the [own EFG1 manual](https://cdn.korg.com/us/support/
 
 ## AX10G
 
+<!-- firmware-pitch:Korg::AX10G begins -->
+### Firmware and pitch audit — Korg AX10G
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. First hardware release not established in checked manufacturer sources; June2015 manual upload is not launch evidence. [launch 1](https://www.korg.com/us/support/download/product/1/23/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact support page lists Owner’s Manual and Easy Start Guide, both uploaded June1,2015; no public firmware package or dated device changelog located. Internal/service firmware absence is not proven; span uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/23/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH1 mixes shifted and direct sound; PITCH2 is fully wet and supports expression-controlled shift. Both offer settings reaching two octaves down/up; PITCH1 also lists detune options. Chord handling/polyphony and tracking latency are not specified in the checked descriptions. [pitch 1](https://cdn.korg.com/us/support/download/files/ec016fd8dfff2e0172346b5a0cf60470.pdf) |
+| Pitch / preset recall | 40 factory presets plus40 user programs; user slots initially duplicate factory settings. Pitch and expression configuration belongs to the stored program; hardware recall untested. |
+| Pitch / DSP resources | PITCH1/PITCH2 occupy the single MODULATION selection, replacing chorus/flanger and other modulation choices. Pedal controls a selected effect parameter rather than establishing an extra independent pitch engine. No numerical CPU cost located; AX100G harmony exclusions are not transferred. |
+| Pitch / qualifications | No device, tracking or CPU measurement. Tuner instruction to play one string is not a pitch-shifter polyphony specification. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Korg AX10G support downloads](https://www.korg.com/us/support/download/product/1/23/) — Two manuals dated2015-06-01; no firmware listed. (Manufacturer exact-model page read).
+- [AX10G Owner’s Manual](https://cdn.korg.com/us/support/download/files/ec016fd8dfff2e0172346b5a0cf60470.pdf) — PITCH1 dry/shift mix and PITCH2 wet shift in MODULATION; expression control,40preset+40user programs. Polyphony and CPU cost unestablished. (Manufacturer original PDF text read, pp3,5,10–12).
+
+<!-- firmware-pitch:Korg::AX10G ends -->
+
 Guitar multi-effects, distinct from AX10B/AX10A. Checked2026-10-17; partial. Bass/vocal suitability and ownership unverified. Korg lists discontinued/sold out.
 
 | Field | Finding / qualification | Evidence |
