@@ -194722,11 +194722,35 @@
             "sha256": "e0bf3074342952a21489ff59e0c0d4a1271850ff519a64819649f944acac84d8"
           }
         }
+      },
+      "Korg::AX3B": {
+        "model_key": "Korg::AX3B",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/korg-ax3b-4073310.jpg",
+            "source_url": "https://en.audiofanzine.com/bass-multi-effect/korg/ax3b/",
+            "caption": "Korg AX3B powered-on top controls — near-overhead view",
+            "note": "Exact AX3B label, illuminated 01 display and both footswitch indicators are visible. Complete unit shown from near overhead with slight perspective; a perfectly perpendicular top-down photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "204ccdd9e6b58895efc957adb3c860ee636971a1dd796a1ae962188aed841698"
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/korg-ax3b-4777236.jpg",
+            "source_url": "https://en.audiofanzine.com/bass-multi-effect/korg/ax3b/",
+            "caption": "Korg AX3B rear ports — photographed upside down",
+            "note": "Complete rear panel is visible with readable PEDAL, OUTPUT, INPUT and DC9V labels, plus cable hook. Unit is held upside down; AX3B manual appears behind it. Port inventory agrees with the exact-model manufacturer manual. Photo provenance only; community technical descriptions are not adopted.",
+            "visual_checked": true,
+            "sha256": "691820c98c5d9419871f86bf5182480061d018f93a5a5c40321fbcd04c25fc5b"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX10B"
+    "last_model": "Korg::AX3B"
   }
 }
