@@ -586,6 +586,33 @@ Next: **MOOER GE200 Pro**, then **GE200 Pro Li**. Keep each hardware variant and
 
 ## GE150 Max
 
+<!-- firmware-pitch:MOOER::GE150 Max begins -->
+### Firmware and pitch audit — MOOER GE150 Max
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025-09-12 (manufacturer overview index proxy). Official MOOER Max overview indexed September 12, 2025; public-introduction proxy, not verified first retail shipment. Older shared GE150-family changelog dates do not by themselves establish Max hardware availability. [launch 1](https://www.effectsdatabase.com/model/mooer/ge150) [launch 2](https://www.youtube.com/watch?v=zDD6Gr-_b3g) |
+| Firmware / latest verification | 2.1.6 — Located; latest status unverified. Both current manufacturer pages name Max 2.1.6 in August 2026, adding NAM A2 conversion and bug fixes; earlier Max 2.1.5 dated April 23, 2026. Installer payload not independently inspected. Uniform download timestamps are not firmware release days. Chinese native-A2-Lite supplement conflicts with the explicit conversion bullet and English notes; native loading not verified. Older shared January dates differ between regions. [firmware 1](https://www.mooeraudio.com/Downloads_xq/6.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/4.html) |
+| Firmware / release date | 2026-08 (month precision) |
+| Firmware / release-to-update duration | 0.88–0.97 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manufacturer Max/Max Li manual appendix lists Pitch Shift, Detune and Octave in MOD. No explicit polyphonic or monophonic input-note handling located; octave generation is not proof of whole-chord transposition. [pitch 1](https://www.notice-facile.com/en/manual/1631674/mooer%2Bge150-max-li) [pitch 2](https://www.mooeraudio.com/products/235.html) |
+| Pitch / preset recall | 200 factory-filled editable slots, 50 banks × 4. SAVE preserves edits; expression and volume settings are per preset. Held-pedal recall untested. |
+| Pitch / DSP resources | Nine simultaneous modules, one selected algorithm per module. Pitch Shift occupies MOD and cannot simultaneously supply a second choice from that same module. No isolated pitch DSP percentage, current allocation table or hardware measurement located. |
+| Pitch / qualifications | Only the manufacturer manual body after USER MANUAL was used; mirror summary/FAQ has incorrect specifications and is excluded. No Plus/Pro specifications substituted. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Official Max overview publication index](https://www.effectsdatabase.com/model/mooer/ge150) — MOOER overview publication 2025-09-12, separate from original GE150 page date. (Official-channel row read on video index).
+- [MOOER GE150 Max Official Overview](https://www.youtube.com/watch?v=zDD6Gr-_b3g) — Exact Max/Max Li overview, 2025-09-12. (Official-channel indexed description and publication date read; direct video fetch failed).
+- [GE150 family English firmware notes](https://www.mooeraudio.com/Downloads_xq/6.html) — Max 2.1.6 August 2026; prior 2.1.5 April 23; A2 conversion. (Manufacturer downloads/changelog read).
+- [GE150 family Chinese firmware notes](https://cn.mooeraudio.com/Downloads_xq/4.html) — Max 2.1.6 agrees; contradictory native-loading supplement retained. (Manufacturer downloads/changelog read).
+- [GE150 Max/Max Li Owner’s Manual](https://www.notice-facile.com/en/manual/1631674/mooer%2Bge150-max-li) — MOD pitch list, nine modules, SAVE and per-preset expression. (Manufacturer-authored manual body read on mirror; summary/FAQ excluded).
+- [GE150 Max/Max Li manufacturer product](https://www.mooeraudio.com/products/235.html) — Both editions, 200 factory presets and eight-foot-control layout. (Manufacturer exact-family product body read).
+
+<!-- firmware-pitch:MOOER::GE150 Max ends -->
+
 <!-- comparison evidence begins -->
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

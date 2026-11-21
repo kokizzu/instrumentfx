@@ -194230,6 +194230,89 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::GE150 Max": {
+        "model_key": "MOOER::GE150 Max",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2025-09-12",
+          "precision": "day",
+          "kind": "manufacturer_overview_index_proxy",
+          "source_urls": [
+            "https://www.effectsdatabase.com/model/mooer/ge150",
+            "https://www.youtube.com/watch?v=zDD6Gr-_b3g"
+          ],
+          "note": "Official MOOER Max overview indexed September 12, 2025; public-introduction proxy, not verified first retail shipment. Older shared GE150-family changelog dates do not by themselves establish Max hardware availability."
+        },
+        "firmware": {
+          "version": "2.1.6",
+          "date": "2026-08",
+          "precision": "month",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/Downloads_xq/6.html",
+            "https://cn.mooeraudio.com/Downloads_xq/4.html"
+          ],
+          "note": "Both current manufacturer pages name Max 2.1.6 in August 2026, adding NAM A2 conversion and bug fixes; earlier Max 2.1.5 dated April 23, 2026. Installer payload not independently inspected. Uniform download timestamps are not firmware release days. Chinese native-A2-Lite supplement conflicts with the explicit conversion bullet and English notes; native loading not verified. Older shared January dates differ between regions."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manufacturer Max/Max Li manual appendix lists Pitch Shift, Detune and Octave in MOD. No explicit polyphonic or monophonic input-note handling located; octave generation is not proof of whole-chord transposition.",
+          "preset": "200 factory-filled editable slots, 50 banks × 4. SAVE preserves edits; expression and volume settings are per preset. Held-pedal recall untested.",
+          "dsp": "Nine simultaneous modules, one selected algorithm per module. Pitch Shift occupies MOD and cannot simultaneously supply a second choice from that same module. No isolated pitch DSP percentage, current allocation table or hardware measurement located.",
+          "source_urls": [
+            "https://www.notice-facile.com/en/manual/1631674/mooer%2Bge150-max-li",
+            "https://www.mooeraudio.com/products/235.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Only the manufacturer manual body after USER MANUAL was used; mirror summary/FAQ has incorrect specifications and is excluded. No Plus/Pro specifications substituted."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.effectsdatabase.com/model/mooer/ge150",
+            "title": "Official Max overview publication index",
+            "access": "Official-channel row read on video index",
+            "evidence": "MOOER overview publication 2025-09-12, separate from original GE150 page date."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=zDD6Gr-_b3g",
+            "title": "MOOER GE150 Max Official Overview",
+            "access": "Official-channel indexed description and publication date read; direct video fetch failed",
+            "evidence": "Exact Max/Max Li overview, 2025-09-12."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/6.html",
+            "title": "GE150 family English firmware notes",
+            "access": "Manufacturer downloads/changelog read",
+            "evidence": "Max 2.1.6 August 2026; prior 2.1.5 April 23; A2 conversion."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/Downloads_xq/4.html",
+            "title": "GE150 family Chinese firmware notes",
+            "access": "Manufacturer downloads/changelog read",
+            "evidence": "Max 2.1.6 agrees; contradictory native-loading supplement retained."
+          },
+          {
+            "url": "https://www.notice-facile.com/en/manual/1631674/mooer%2Bge150-max-li",
+            "title": "GE150 Max/Max Li Owner’s Manual",
+            "access": "Manufacturer-authored manual body read on mirror; summary/FAQ excluded",
+            "evidence": "MOD pitch list, nine modules, SAVE and per-preset expression."
+          },
+          {
+            "url": "https://www.mooeraudio.com/products/235.html",
+            "title": "GE150 Max/Max Li manufacturer product",
+            "access": "Manufacturer exact-family product body read",
+            "evidence": "Both editions, 200 factory presets and eight-foot-control layout."
+          }
+        ],
+        "duration": {
+          "minimum_days": 323,
+          "maximum_days": 353,
+          "label": "0.88–0.97 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -194261,7 +194344,6 @@
       "MOOER::Black Truck",
       "MOOER::GE100 Pro",
       "MOOER::GE100 Pro Li",
-      "MOOER::GE150 Max",
       "MOOER::GE150 Max Li",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
@@ -194442,9 +194524,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 195,
-    "last_model": "MOOER::GE150 Plus Li",
-    "last_commit_parent": "73981ca06ce4119d849bd603dd386a87c1915521",
+    "completed_model_count": 196,
+    "last_model": "MOOER::GE150 Max",
+    "last_commit_parent": "3ee2b80585431f99741e7d7cdd71cd3c22f584dd",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -194475,7 +194557,6 @@
       "MOOER::Black Truck",
       "MOOER::GE100 Pro",
       "MOOER::GE100 Pro Li",
-      "MOOER::GE150 Max",
       "MOOER::GE150 Max Li",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
@@ -194655,7 +194736,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 195,
+    "pitch_completed_model_count": 196,
     "supplemental_model_count": 0
   },
   "model_images": {
