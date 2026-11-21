@@ -32,6 +32,32 @@ Manufacturer-backed partial profiles;unknown does not mean No.
 
 ## BP355
 
+<!-- firmware-pitch:DigiTech::BP355 begins -->
+### Firmware and pitch audit — DigiTech BP355
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2010-11-30 (manufacturer announcement proxy). Manufacturer launch announcement reproduced by Mix; planned December 2010 availability, exact first retail shipment unverified. [launch 1](https://www.mixonline.com/the-wire/digitech-introduces-bp355-bass-multi-effects-pedal-413026) |
+| Firmware / latest verification | Not verified — Unverified. Current official BP355 downloads provide X-Edit 2.7.0 Windows/2.7.1 Intel Mac, not a dated device-firmware release. Manufacturer warns legacy updates may no longer be possible. Latest device version/date and update span remain unverified; editor versions are not firmware. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://digitech.com/faqs/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift ±24 semitones; Detune ±24 cents; key/scale-based Harmony within ±1 octave; pedal Whammy including ±1/±2 octaves and Dive Bomb; OC-2-style Octaver adds −1/−2 octave voices. Input-note polyphony unverified in checked manual. [pitch 1](https://digitech.com/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf) [pitch 2](https://digitech.com/dp/bp355/) |
+| Pitch / preset recall | 70 user plus 70 factory presets; users initially duplicate factory. Tone/Effects Library choices are starting configurations, not extra writable patches. |
+| Pitch / DSP resources | Whammy, Pitch Shift, Detune, Harmony and Octaver share the single selected Chorus/FX model slot and exclude one another. Advertised ten simultaneous effects do not mean ten pitch instances. No per-algorithm CPU percentage published in checked sources. |
+| Pitch / qualifications | Standalone Whammy generation/chord-mode capabilities and OC-2 original hardware restrictions are not transferred to these models without BP355-specific evidence. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [DigiTech introduces BP355 launch announcement](https://www.mixonline.com/the-wire/digitech-introduces-bp355-bass-multi-effects-pedal-413026) — Planned December 2010 availability. (Manufacturer press announcement reproduced by Mix, dated November 30, 2010).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — BP355 section lists X-Edit 2.7.0/2.7.1 GUI/librarian; no dated device firmware entry. (Manufacturer current downloads web text).
+- [DigiTech legacy software FAQ](https://digitech.com/faqs/) — Available legacy software linked to downloads; newer OS unsupported and some firmware updates may no longer be possible. (Manufacturer current FAQ web text).
+- [BP355 Owner Manual 5059482-A](https://digitech.com/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf) — Chorus/FX model selection; printed pages 23–25 pitch effects; preset storage and factory/user duplication. (Manufacturer PDF web text).
+- [DigiTech BP355 product](https://digitech.com/dp/bp355/) — Ten simultaneous effects and factory/user memory architecture; not a pitch-instance or CPU measurement. (Manufacturer product web text).
+
+<!-- firmware-pitch:DigiTech::BP355 ends -->
+
 Checked2026-10-18;partial,bass-focused. [Product](https://digitech.com/dp/bp355/) (P);[manufacturer-linked own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf),5059482-A,38PDF pages,printed pp3–8,27–31 (M);[power FAQ](https://digitech.com/faqs/) (F). Browser text;no software run.
 
 <!-- comparison evidence begins -->

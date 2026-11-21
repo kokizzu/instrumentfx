@@ -184988,10 +184988,81 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::BP355": {
+        "model_key": "DigiTech::BP355",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2010-11-30",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.mixonline.com/the-wire/digitech-introduces-bp355-bass-multi-effects-pedal-413026"
+          ],
+          "note": "Manufacturer launch announcement reproduced by Mix; planned December 2010 availability, exact first retail shipment unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://digitech.com/software-downloads/",
+            "https://digitech.com/faqs/"
+          ],
+          "note": "Current official BP355 downloads provide X-Edit 2.7.0 Windows/2.7.1 Intel Mac, not a dated device-firmware release. Manufacturer warns legacy updates may no longer be possible. Latest device version/date and update span remain unverified; editor versions are not firmware."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift ±24 semitones; Detune ±24 cents; key/scale-based Harmony within ±1 octave; pedal Whammy including ±1/±2 octaves and Dive Bomb; OC-2-style Octaver adds −1/−2 octave voices. Input-note polyphony unverified in checked manual.",
+          "preset": "70 user plus 70 factory presets; users initially duplicate factory. Tone/Effects Library choices are starting configurations, not extra writable patches.",
+          "dsp": "Whammy, Pitch Shift, Detune, Harmony and Octaver share the single selected Chorus/FX model slot and exclude one another. Advertised ten simultaneous effects do not mean ten pitch instances. No per-algorithm CPU percentage published in checked sources.",
+          "measurements": [],
+          "source_urls": [
+            "https://digitech.com/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf",
+            "https://digitech.com/dp/bp355/"
+          ],
+          "notes": [
+            "Standalone Whammy generation/chord-mode capabilities and OC-2 original hardware restrictions are not transferred to these models without BP355-specific evidence."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.mixonline.com/the-wire/digitech-introduces-bp355-bass-multi-effects-pedal-413026",
+            "title": "DigiTech introduces BP355 launch announcement",
+            "access": "Manufacturer press announcement reproduced by Mix, dated November 30, 2010",
+            "evidence": "Planned December 2010 availability."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer current downloads web text",
+            "evidence": "BP355 section lists X-Edit 2.7.0/2.7.1 GUI/librarian; no dated device firmware entry."
+          },
+          {
+            "url": "https://digitech.com/faqs/",
+            "title": "DigiTech legacy software FAQ",
+            "access": "Manufacturer current FAQ web text",
+            "evidence": "Available legacy software linked to downloads; newer OS unsupported and some firmware updates may no longer be possible."
+          },
+          {
+            "url": "https://digitech.com/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf",
+            "title": "BP355 Owner Manual 5059482-A",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Chorus/FX model selection; printed pages 23–25 pitch effects; preset storage and factory/user duplication."
+          },
+          {
+            "url": "https://digitech.com/dp/bp355/",
+            "title": "DigiTech BP355 product",
+            "access": "Manufacturer product web text",
+            "evidence": "Ten simultaneous effects and factory/user memory architecture; not a pitch-instance or CPU measurement."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::BP355",
       "DigiTech::GNX3",
       "DigiTech::GNX4",
       "DigiTech::RP1000",
@@ -185320,12 +185391,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 75,
-    "last_model": "DemonFX::Dual Mod Workstation",
-    "last_commit_parent": "1f894d373db17b7967017b5cfd4c4c50fb9f1129",
+    "completed_model_count": 76,
+    "last_model": "DigiTech::BP355",
+    "last_commit_parent": "4a4b0e3bd07da93fa369e56496dd143fcb8b2ad6",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::BP355",
       "DigiTech::GNX3",
       "DigiTech::GNX4",
       "DigiTech::RP1000",
@@ -185653,7 +185723,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 75,
+    "pitch_completed_model_count": 76,
     "supplemental_model_count": 0
   }
 }
