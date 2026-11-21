@@ -10,6 +10,29 @@
 
 ## RE-05 Looper Pro
 
+<!-- firmware-pitch:ROWIN::RE-05 Looper Pro begins -->
+### Firmware and pitch audit — ROWIN RE-05 Looper Pro
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer listing is undated. Seller listing dates, generic copyright and differently branded Looper Pro units do not establish the exact RE-05 launch. [launch 1](https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243) |
+| Firmware / latest verification | Not verified — Unverified. No authenticated RE-05 firmware version/date or updater located. Official index names RE-05 Manual.pdf,907.95KB, but direct PDF/body not obtained. Desktop product returned502; English support route404. No release-to-update duration established; do not borrow LEF-332/Twin Looper firmware. [firmware 1](https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243) [firmware 2](https://www.rowinmusic.com/cn/col.jsp?id=142&m602pageno=5) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Manufacturer names reverb,chorus,delay,tuner and looper. No dedicated interval shifter,transpose,octave or harmonizer documented. Chorus modulation and tuner pitch detection are not proof of polyphonic pitch-shift processing. [pitch 1](https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243) |
+| Pitch / preset recall | Factory/user/total program memory and pitch-preset recall unverified. Forty-second loop recording with overdubbing is not a patch-memory count. |
+| Pitch / DSP resources | No pitch-specific CPU/DSP figure located. Five named functions do not establish five freely assignable processing blocks or20% per function; no shared-DSP meter measurement made. |
+| Pitch / qualifications | Exact Looper Pro name is shared with other brands; generated ASIN manuals,VSN/M-VAVE and sibling ROWIN instructions are not exact-model firmware evidence. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [ROWIN RE-05 Looper Pro manufacturer product page](https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243) — Exact RE-05 name and chorus/delay/reverb/tuner/looper list;40-second recording/overdub wording. No dated launch,pitch or firmware release. (Manufacturer search-indexed body inspected; direct502).
+- [ROWIN manufacturer support index — RE Series manuals](https://www.rowinmusic.com/cn/col.jsp?id=142&m602pageno=5) — RE-05 Manual.pdf907.95KB listed; this does not establish manual contents or a firmware version. (Manufacturer indexed original list inspected; PDF not retrieved).
+
+<!-- firmware-pitch:ROWIN::RE-05 Looper Pro ends -->
+
 Checked2026-10-18; partial. Manufacturer RE-05(Looper Pro) page matches the Shopee Looper Pro name and chorus/delay/reverb/tuner combination; seller title omits RE-05, so exact revision/label remains unconfirmed. Ownership,bass andvocal suitability unverified.
 
 | Field | Evidence / qualification |

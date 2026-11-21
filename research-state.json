@@ -200590,10 +200590,62 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "ROWIN::RE-05 Looper Pro": {
+        "model_key": "ROWIN::RE-05 Looper Pro",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first hardware release not verified",
+          "source_urls": [
+            "https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243"
+          ],
+          "note": "Manufacturer listing is undated. Seller listing dates, generic copyright and differently branded Looper Pro units do not establish the exact RE-05 launch."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243",
+            "https://www.rowinmusic.com/cn/col.jsp?id=142&m602pageno=5"
+          ],
+          "note": "No authenticated RE-05 firmware version/date or updater located. Official index names RE-05 Manual.pdf,907.95KB, but direct PDF/body not obtained. Desktop product returned502; English support route404. No release-to-update duration established; do not borrow LEF-332/Twin Looper firmware."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Manufacturer names reverb,chorus,delay,tuner and looper. No dedicated interval shifter,transpose,octave or harmonizer documented. Chorus modulation and tuner pitch detection are not proof of polyphonic pitch-shift processing.",
+          "preset": "Factory/user/total program memory and pitch-preset recall unverified. Forty-second loop recording with overdubbing is not a patch-memory count.",
+          "dsp": "No pitch-specific CPU/DSP figure located. Five named functions do not establish five freely assignable processing blocks or20% per function; no shared-DSP meter measurement made.",
+          "source_urls": [
+            "https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243"
+          ],
+          "measurements": [],
+          "notes": [
+            "Exact Looper Pro name is shared with other brands; generated ASIN manuals,VSN/M-VAVE and sibling ROWIN instructions are not exact-model firmware evidence."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243",
+            "title": "ROWIN RE-05 Looper Pro manufacturer product page",
+            "access": "Manufacturer search-indexed body inspected; direct502",
+            "evidence": "Exact RE-05 name and chorus/delay/reverb/tuner/looper list;40-second recording/overdub wording. No dated launch,pitch or firmware release."
+          },
+          {
+            "url": "https://www.rowinmusic.com/cn/col.jsp?id=142&m602pageno=5",
+            "title": "ROWIN manufacturer support index — RE Series manuals",
+            "access": "Manufacturer indexed original list inspected; PDF not retrieved",
+            "evidence": "RE-05 Manual.pdf907.95KB listed; this does not establish manual contents or a firmware version."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "ROWIN::RE-05 Looper Pro",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
@@ -200725,12 +200777,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 272,
-    "last_model": "Mosky::SOL918",
-    "last_commit_parent": "15c5f45e45c37bad7b8f0bc0937adf98728bbb4a",
+    "completed_model_count": 273,
+    "last_model": "ROWIN::RE-05 Looper Pro",
+    "last_commit_parent": "fa6b618fc83bd7e39438cc054f724aadedf38f64",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "ROWIN::RE-05 Looper Pro",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
@@ -200861,7 +200912,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 272,
+    "pitch_completed_model_count": 273,
     "supplemental_model_count": 0
   },
   "model_images": {
