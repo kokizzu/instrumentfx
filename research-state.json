@@ -193563,11 +193563,35 @@
             "sha256": "46dbf39fbde26b5551b6958c99e33b4ef78c164a023aaa6dfbf6f630603392ed"
           }
         }
+      },
+      "DigiTech::BP355": {
+        "model_key": "DigiTech::BP355",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.kombik.com/resources/img/000/000/938/img_93850.jpg",
+            "source_url": "https://www.kombik.com/catalog/view/digitech-bp355/",
+            "caption": "DigiTech BP355 — top panel",
+            "note": "Retailer promotional photograph of exact BP355 bass hardware with illuminated red display. Three-quarter overhead angle, not exact top-down; straight overhead replacement remains pending. No independent device operation.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "34aa5e3fbf8281157c6ca804995edddc2f0b2f7ed2f231b9a853e975e186cad4"
+          },
+          "rear": {
+            "image_url": "https://d1aeri3ty3izns.cloudfront.net/media/23/231086/1200/preview.jpg",
+            "source_url": "https://www.gear4music.fr/fr/Guitare-and-Basse/DISC-DigiTech-BP355-Bass-Guitar-Multi-FX-Processor-Nearly-New/1STB",
+            "caption": "DigiTech BP355 — rear connections",
+            "note": "Retailer exact-BP355 listing rear photograph shows full socket layout: INPUT, AMP/MIXER switches, LEFT (Mono)/RIGHT jack outputs, headphones, AUX IN, XLR LEFT OUT/RIGHT OUT, USB and power. Broad margins and soft focus limit small-label inspection; sharper rear image remains pending. Rear photo does not establish operating power state.",
+            "visual_checked": true,
+            "sha256": "8428df1bc88134bd65cb34faaa21ed079a02e3906b55ed793e27e36df9ee798a"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP150"
+    "last_model": "DigiTech::BP355"
   }
 }

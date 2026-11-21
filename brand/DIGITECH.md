@@ -58,6 +58,26 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::BP355 ends -->
 
+<!-- model-images:DigiTech::BP355 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**DigiTech BP355 — top panel**
+
+[![DigiTech BP355 — top panel](https://www.kombik.com/resources/img/000/000/938/img_93850.jpg)](https://www.kombik.com/resources/img/000/000/938/img_93850.jpg)
+
+[Image source](https://www.kombik.com/catalog/view/digitech-bp355/). Retailer promotional photograph of exact BP355 bass hardware with illuminated red display. Three-quarter overhead angle, not exact top-down; straight overhead replacement remains pending. No independent device operation.
+
+**DigiTech BP355 — rear connections**
+
+[![DigiTech BP355 — rear connections](https://d1aeri3ty3izns.cloudfront.net/media/23/231086/1200/preview.jpg)](https://d1aeri3ty3izns.cloudfront.net/media/23/231086/1200/preview.jpg)
+
+[Image source](https://www.gear4music.fr/fr/Guitare-and-Basse/DISC-DigiTech-BP355-Bass-Guitar-Multi-FX-Processor-Nearly-New/1STB). Retailer exact-BP355 listing rear photograph shows full socket layout: INPUT, AMP/MIXER switches, LEFT (Mono)/RIGHT jack outputs, headphones, AUX IN, XLR LEFT OUT/RIGHT OUT, USB and power. Broad margins and soft focus limit small-label inspection; sharper rear image remains pending. Rear photo does not establish operating power state.
+
+</details>
+<!-- model-images:DigiTech::BP355 ends -->
+
+
 Checked2026-10-18;partial,bass-focused. [Product](https://digitech.com/dp/bp355/) (P);[manufacturer-linked own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf),5059482-A,38PDF pages,printed pp3–8,27–31 (M);[power FAQ](https://digitech.com/faqs/) (F). Browser text;no software run.
 
 <!-- comparison evidence begins -->
