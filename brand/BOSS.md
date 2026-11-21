@@ -1632,6 +1632,31 @@ Bundle, adapter, working state, authenticity, warranty, shipping, tax and vouche
 
 ## GT-5
 
+<!-- firmware-pitch:BOSS::GT-5 begins -->
+### Firmware and pitch audit — BOSS GT-5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1996 (manufacturer release year). Manufacturer Japanese service table lists release1996 and manufacturing completion2001. Exact first worldwide day/month not verified; manufacturing end is not a firmware date. [launch 1](https://www.roland.com/jp/support/service_repair/1708080000/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model support and discontinued product downloads expose the owner manual, with no public system program or release history located. Latest device ROM version/date remain unverified; do not assume launch firmware or derive updates from manual publication dates. [firmware 1](https://www.boss.info/global/support/by_product/gt-5/) [firmware 2](https://www.boss.info/us/products/gt-5/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Combined HR/Harmonist: Fast/Medium/Slow explicitly accept chords for fixed ±24-semitone shifts; response slows and modulation decreases in that order. Mono and key-following Harmony require single notes. This is mode-specific polyphony, not chordal scale harmony. [pitch 1](https://cdn.roland.com/assets/media/pdf/GT-5_OM.pdf) [pitch 2](https://www.boss.info/us/products/gt-5/) |
+| Pitch / preset recall | 100 user plus150 preset patches. Harmonist parameters belong to saved patches; Quick Settings are reusable effect settings, not extra engines or patch banks. |
+| Pitch / DSP resources | Harmonist uses the single MOD selector shared with nine other alternatives, including Guitar Synth and Acoustic Guitar Simulator. Manufacturer advertises up to13 simultaneous effects overall; this is not13 Harmonist instances. No per-pitch CPU percentage documented. |
+| Pitch / qualifications | English original scanned manual printed pp44–45 visually inspected. Its explicit Harmony single-note instruction resolves the previously unverified Harmony input handling in the retained historical check. One/two generated voices and mono/stereo outputs are separate from input-note polyphony. No device firmware install, latency or sound-quality measurement. PDF SHA256d44544ba9736d93f30c4ec51dd95c55d78479a35e8380f8f414e6d8feb4079a8. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland Japanese release/manufacturing-year table](https://www.roland.com/jp/support/service_repair/1708080000/) — GT-5 released1996; manufacturing completion2001, not firmware update endpoints. (opened).
+- [BOSS GT-5 exact-model support](https://www.boss.info/global/support/by_product/gt-5/) — Owner manual listed; no public device firmware program located. (opened).
+- [BOSS GT-5 discontinued product page](https://www.boss.info/us/products/gt-5/) — Up to13 simultaneous effects;100user+150preset; monophonic HRM synth claim is distinct from Harmonist chord modes. (opened).
+- [BOSS GT-5 original English owner manual](https://cdn.roland.com/assets/media/pdf/GT-5_OM.pdf) — Shared ten-choice MOD selector; HR±24 and chord-capable Fast/Medium/Slow; Mono/Harmony single-note.4298509bytes; SHA256d44544ba9736d93f30c4ec51dd95c55d78479a35e8380f8f414e6d8feb4079a8. (downloaded_pdf; printed pp44–45 visually inspected).
+
+<!-- firmware-pitch:BOSS::GT-5 ends -->
+
 Checked2026-10-17;partial. Guitar multi-effects; bass/vocal suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->

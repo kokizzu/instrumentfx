@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf",
+    "requested_url": "https://cdn.roland.com/assets/media/pdf/GT-5_OM.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 70,
+    "frame": 44,
     "text_pages": [
-      45,
-      45
+      43,
+      43
     ],
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",
@@ -182575,10 +182575,77 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GT-5": {
+        "model_key": "BOSS::GT-5",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "1996",
+          "precision": "year",
+          "kind": "manufacturer_release_year",
+          "source_urls": [
+            "https://www.roland.com/jp/support/service_repair/1708080000/"
+          ],
+          "note": "Manufacturer Japanese service table lists release1996 and manufacturing completion2001. Exact first worldwide day/month not verified; manufacturing end is not a firmware date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gt-5/",
+            "https://www.boss.info/us/products/gt-5/"
+          ],
+          "note": "Exact-model support and discontinued product downloads expose the owner manual, with no public system program or release history located. Latest device ROM version/date remain unverified; do not assume launch firmware or derive updates from manual publication dates."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Combined HR/Harmonist: Fast/Medium/Slow explicitly accept chords for fixed ±24-semitone shifts; response slows and modulation decreases in that order. Mono and key-following Harmony require single notes. This is mode-specific polyphony, not chordal scale harmony.",
+          "preset": "100 user plus150 preset patches. Harmonist parameters belong to saved patches; Quick Settings are reusable effect settings, not extra engines or patch banks.",
+          "dsp": "Harmonist uses the single MOD selector shared with nine other alternatives, including Guitar Synth and Acoustic Guitar Simulator. Manufacturer advertises up to13 simultaneous effects overall; this is not13 Harmonist instances. No per-pitch CPU percentage documented.",
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/GT-5_OM.pdf",
+            "https://www.boss.info/us/products/gt-5/"
+          ],
+          "measurements": [],
+          "notes": [
+            "English original scanned manual printed pp44–45 visually inspected. Its explicit Harmony single-note instruction resolves the previously unverified Harmony input handling in the retained historical check.",
+            "One/two generated voices and mono/stereo outputs are separate from input-note polyphony.",
+            "No device firmware install, latency or sound-quality measurement. PDF SHA256d44544ba9736d93f30c4ec51dd95c55d78479a35e8380f8f414e6d8feb4079a8."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/jp/support/service_repair/1708080000/",
+            "title": "Roland Japanese release/manufacturing-year table",
+            "access": "opened",
+            "evidence": "GT-5 released1996; manufacturing completion2001, not firmware update endpoints."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-5/",
+            "title": "BOSS GT-5 exact-model support",
+            "access": "opened",
+            "evidence": "Owner manual listed; no public device firmware program located."
+          },
+          {
+            "url": "https://www.boss.info/us/products/gt-5/",
+            "title": "BOSS GT-5 discontinued product page",
+            "access": "opened",
+            "evidence": "Up to13 simultaneous effects;100user+150preset; monophonic HRM synth claim is distinct from Harmonist chord modes."
+          },
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/GT-5_OM.pdf",
+            "title": "BOSS GT-5 original English owner manual",
+            "access": "downloaded_pdf; printed pp44–45 visually inspected",
+            "evidence": "Shared ten-choice MOD selector; HR±24 and chord-capable Fast/Medium/Slow; Mono/Harmony single-note.4298509bytes; SHA256d44544ba9736d93f30c4ec51dd95c55d78479a35e8380f8f414e6d8feb4079a8."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GT-5",
       "BOSS::GT-6",
       "BOSS::GT-8",
       "BOSS::GT-Pro",
@@ -182941,12 +183008,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 41,
-    "last_model": "BOSS::GT-3",
-    "last_commit_parent": "fcb416e96ad271523b13aea2e490d78bc1f31ea5",
+    "completed_model_count": 42,
+    "last_model": "BOSS::GT-5",
+    "last_commit_parent": "9faac2ce731c7eb6ad058ad2bf2fbee9b9329dba",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GT-5",
       "BOSS::GT-6",
       "BOSS::GT-8",
       "BOSS::GT-Pro",
@@ -183308,7 +183374,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 41,
+    "pitch_completed_model_count": 42,
     "supplemental_model_count": 0
   }
 }
