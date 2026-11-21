@@ -185723,10 +185723,90 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::RP360XP": {
+        "model_key": "DigiTech::RP360XP",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2014-01",
+          "precision": "month",
+          "kind": "manufacturer_introduction_and_availability_proxy",
+          "source_urls": [
+            "https://www.premierguitar.com/digitech-announces-rp360-and-rp-360-xp-multi-effects-pedals",
+            "https://www.youtube.com/watch?v=7lWk_rWoyCI"
+          ],
+          "note": "Manufacturer video January 22 and January 24 announcement with planned January availability; month-level introduction proxy, not verified first shipment. Earlier third-party listing dates not adopted."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://digitech.com/software-downloads/",
+            "https://digitech.com/dp/rp360-xp/",
+            "https://manualmachine.com/digitech/rp360/1256376-user-manual/"
+          ],
+          "note": "Official downloads list Nexus 1.0.2 Windows/1.0.1 Mac editor software. Manual v1.1.0.0 screen is an illustration, not latest-release evidence. Latest device firmware version/date and update span unverified."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch ±24 semitones; Detune ±24 cents; key/scale Harmony ±1 octave; Whammy ±1/±2 octaves and Divebomb; OC-2-style Octave −1/−2 octaves. Input-note polyphony unverified.",
+          "preset": "99 user memory locations and 99 factory presets; built-in expression pedal supports preset-specific parameter/min/max assignments.",
+          "dsp": "Reorderable chain, but only one effect per category: all pitch models share Modulation and cannot stack. Manual maximum 10 effects conflicts with product-page 8; counting not reconciled. No pitch CPU percentage published in checked sources.",
+          "measurements": [],
+          "source_urls": [
+            "https://manualzz.com/doc/2522393/digitech-rp360-xp-owner-s-manual",
+            "https://manualmachine.com/digitech/rp360/1256376-user-manual/",
+            "https://digitech.com/dp/rp360-xp/"
+          ],
+          "notes": [
+            "Generated octave voices and detune chordal-effects wording do not establish polyphonic transposition. Standalone Drop/Whammy tracking modes not inferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.premierguitar.com/digitech-announces-rp360-and-rp-360-xp-multi-effects-pedals",
+            "title": "DigiTech introduces RP360 and RP360XP",
+            "access": "Manufacturer announcement reproduced by Premier Guitar, January 24, 2014",
+            "evidence": "Introduction and January availability expectation; not exact first shipment."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7lWk_rWoyCI",
+            "title": "The DigiTech RP360XP Guitar Multi-Effect Processor",
+            "access": "Manufacturer YouTube video description and publication metadata, January 22, 2014",
+            "evidence": "Earlier official public introduction in same month."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer web text",
+            "evidence": "RP360XP Nexus 1.0.2 Windows/1.0.1 Mac editor listings."
+          },
+          {
+            "url": "https://digitech.com/dp/rp360-xp/",
+            "title": "DigiTech RP360 XP product",
+            "access": "Manufacturer web text",
+            "evidence": "Eight-effect claim, expression pedal and Nexus; no dated device firmware release."
+          },
+          {
+            "url": "https://manualmachine.com/digitech/rp360/1256376-user-manual/",
+            "title": "RP360/RP360XP Owner’s Manual",
+            "access": "Manufacturer manual body mirrored at ManualMachine; official 12 MB PDF exceeds web reader limit",
+            "evidence": "Printed pp2–3 99 user/99 factory, p22 one instance per category and ten slots, p34 expression, p54 firmware screen illustration."
+          },
+          {
+            "url": "https://manualzz.com/doc/2522393/digitech-rp360-xp-owner-s-manual",
+            "title": "RP360/RP360XP Owner’s Manual pitch sections",
+            "access": "Manufacturer manual body mirrored at Manualzz",
+            "evidence": "Printed pp99–102 Whammy, Pitch, Detune, Harmony and Octave ranges; all under Modulation."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::RP360XP",
       "DigiTech::RP500",
       "DigiTech::RP55",
       "DigiTech::RP70",
@@ -186044,12 +186124,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 86,
-    "last_model": "DigiTech::RP355",
-    "last_commit_parent": "2c654376baa72ba0c037be7db7412915fab0da04",
+    "completed_model_count": 87,
+    "last_model": "DigiTech::RP360XP",
+    "last_commit_parent": "6329c46ceb7ff7e67f7f4c376dcde3520b23215d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::RP360XP",
       "DigiTech::RP500",
       "DigiTech::RP55",
       "DigiTech::RP70",
@@ -186366,7 +186445,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 86,
+    "pitch_completed_model_count": 87,
     "supplemental_model_count": 0
   }
 }

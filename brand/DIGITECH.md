@@ -1570,6 +1570,33 @@ These are alternatives within the previously counted FX category, not extra conc
 
 ## RP360XP
 
+<!-- firmware-pitch:DigiTech::RP360XP begins -->
+### Firmware and pitch audit — DigiTech RP360XP
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2014-01 (manufacturer introduction and availability proxy). Manufacturer video January 22 and January 24 announcement with planned January availability; month-level introduction proxy, not verified first shipment. Earlier third-party listing dates not adopted. [launch 1](https://www.premierguitar.com/digitech-announces-rp360-and-rp-360-xp-multi-effects-pedals) [launch 2](https://www.youtube.com/watch?v=7lWk_rWoyCI) |
+| Firmware / latest verification | Not verified — Unverified. Official downloads list Nexus 1.0.2 Windows/1.0.1 Mac editor software. Manual v1.1.0.0 screen is an illustration, not latest-release evidence. Latest device firmware version/date and update span unverified. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://digitech.com/dp/rp360-xp/) [firmware 3](https://manualmachine.com/digitech/rp360/1256376-user-manual/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch ±24 semitones; Detune ±24 cents; key/scale Harmony ±1 octave; Whammy ±1/±2 octaves and Divebomb; OC-2-style Octave −1/−2 octaves. Input-note polyphony unverified. [pitch 1](https://manualzz.com/doc/2522393/digitech-rp360-xp-owner-s-manual) [pitch 2](https://manualmachine.com/digitech/rp360/1256376-user-manual/) [pitch 3](https://digitech.com/dp/rp360-xp/) |
+| Pitch / preset recall | 99 user memory locations and 99 factory presets; built-in expression pedal supports preset-specific parameter/min/max assignments. |
+| Pitch / DSP resources | Reorderable chain, but only one effect per category: all pitch models share Modulation and cannot stack. Manual maximum 10 effects conflicts with product-page 8; counting not reconciled. No pitch CPU percentage published in checked sources. |
+| Pitch / qualifications | Generated octave voices and detune chordal-effects wording do not establish polyphonic transposition. Standalone Drop/Whammy tracking modes not inferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [DigiTech introduces RP360 and RP360XP](https://www.premierguitar.com/digitech-announces-rp360-and-rp-360-xp-multi-effects-pedals) — Introduction and January availability expectation; not exact first shipment. (Manufacturer announcement reproduced by Premier Guitar, January 24, 2014).
+- [The DigiTech RP360XP Guitar Multi-Effect Processor](https://www.youtube.com/watch?v=7lWk_rWoyCI) — Earlier official public introduction in same month. (Manufacturer YouTube video description and publication metadata, January 22, 2014).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — RP360XP Nexus 1.0.2 Windows/1.0.1 Mac editor listings. (Manufacturer web text).
+- [DigiTech RP360 XP product](https://digitech.com/dp/rp360-xp/) — Eight-effect claim, expression pedal and Nexus; no dated device firmware release. (Manufacturer web text).
+- [RP360/RP360XP Owner’s Manual](https://manualmachine.com/digitech/rp360/1256376-user-manual/) — Printed pp2–3 99 user/99 factory, p22 one instance per category and ten slots, p34 expression, p54 firmware screen illustration. (Manufacturer manual body mirrored at ManualMachine; official 12 MB PDF exceeds web reader limit).
+- [RP360/RP360XP Owner’s Manual pitch sections](https://manualzz.com/doc/2522393/digitech-rp360-xp-owner-s-manual) — Printed pp99–102 Whammy, Pitch, Detune, Harmony and Octave ranges; all under Modulation. (Manufacturer manual body mirrored at Manualzz).
+
+<!-- firmware-pitch:DigiTech::RP360XP ends -->
+
 Expression-equipped guitar processor;not RP360. Checked 2026-10-17. Past-product status does not establish retailer stock. Bass suitability unclassified.
 
 | Field | Finding / qualification | Evidence |
