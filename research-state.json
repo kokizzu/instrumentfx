@@ -191626,11 +191626,35 @@
             "sha256": "d4935d5c48bab44a5f06d92d601f92d07a0ab9505aaf0b109be2362632d283ce"
           }
         }
+      },
+      "Line 6::POD Express Bass": {
+        "model_key": "Line 6::POD Express Bass",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/6/0a020a3fcb5465aafb7751667/image/png",
+            "source_url": "https://line6.com/podexpress/bass-effects",
+            "caption": "POD Express Bass — powered-on overhead view",
+            "note": "Exact Bass-labelled enclosure and COMP/SYNTH/DIST/MOD DELAY controls viewed from overhead; red AMP segment and TAP indicator visible. Manufacturer product image.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "f2615b21b136c9d8e12529bd96ca15f569d63df7413903b1e0b8e80b2b885e7c"
+          },
+          "rear": {
+            "image_url": "https://line6.com/data/6/0a020a41706465aafbac26c6c/image/png",
+            "source_url": "https://line6.com/podexpress/bass-effects",
+            "caption": "POD Express Bass — rear connections",
+            "note": "Bass-specific manufacturer gallery image. IN, OUT L/MONO and RIGHT, VOLUME / FS 3/4, USB-C and DC IN labels visible. Side headphone socket and thumbwheel are outside this view.",
+            "visual_checked": true,
+            "sha256": "b74df914841c622ec2b98d67c64f3b1f510c4b57f504dabc616ca1fc1c44eefc"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD Express Guitar"
+    "last_model": "Line 6::POD Express Bass"
   }
 }

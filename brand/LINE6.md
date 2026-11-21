@@ -2647,6 +2647,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::POD Express Bass ends -->
 
+<!-- model-images:Line 6::POD Express Bass begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**POD Express Bass — powered-on overhead view**
+
+[![POD Express Bass — powered-on overhead view](https://line6.com/data/6/0a020a3fcb5465aafb7751667/image/png)](https://line6.com/data/6/0a020a3fcb5465aafb7751667/image/png)
+
+[Image source](https://line6.com/podexpress/bass-effects). Exact Bass-labelled enclosure and COMP/SYNTH/DIST/MOD DELAY controls viewed from overhead; red AMP segment and TAP indicator visible. Manufacturer product image.
+
+**POD Express Bass — rear connections**
+
+[![POD Express Bass — rear connections](https://line6.com/data/6/0a020a41706465aafbac26c6c/image/png)](https://line6.com/data/6/0a020a41706465aafbac26c6c/image/png)
+
+[Image source](https://line6.com/podexpress/bass-effects). Bass-specific manufacturer gallery image. IN, OUT L/MONO and RIGHT, VOLUME / FS 3/4, USB-C and DC IN labels visible. Side headphone socket and thumbwheel are outside this view.
+
+</details>
+<!-- model-images:Line 6::POD Express Bass ends -->
+
+
 **New bass-specific model, checked2026-10-15.** A separate hardware/sound-library record, not a color option for POD Express Guitar. The official Bass product and joint2.00 manual explicitly document the following common hardware and different processing path. This record remains partial. Dimensions were repaired from the joint manufacturer announcement on2026-10-17; platform-specific OS minima need separate evidence.
 
 <!-- comparison evidence begins -->
