@@ -770,6 +770,30 @@ Headphone level spans −60…0dB and cannot be footswitch-assigned; loop erasur
 
 ## PERFORM-VG
 
+<!-- firmware-pitch:TC-Helicon::PERFORM-VG begins -->
+### Firmware and pitch audit — TC-Helicon PERFORM-VG
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017-08-08 (official introduction video; earliest shipment unresolved). Manufacturer introduction published August 8, 2017. This is a documented public introduction, not proof of earliest retail shipment. [launch 1](https://www.youtube.com/watch?v=7M_N01q7TYk) |
+| Firmware / latest verification | Not verified — No public firmware located. No numbered device firmware release or release date located in the checked manufacturer download page/manual. VoiceSupport2 v1.1.02_build139 is host software, not VG firmware. Manual Rev1.0 and newer quick-guide revisions are document versions. This does not establish that firmware updates never existed. [firmware 1](https://www.tchelicon.com/en/products/0726-ABR) [firmware 2](https://cdn-media.empowertribe.com/57b2cec83b4b4130bd6c1c8b0e0686f7/PERFORM-VG_M_EN.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Chromatic vocal correction toward the nearest semitone; 13 harmony styles including octave and paired voices; guitar Chorus offers Detune. Guitar chord guidance controls vocal harmony and is not evidence of polyphonic guitar transposition. Input-note polyphony remains unverified. [pitch 1](https://cdn-media.empowertribe.com/57b2cec83b4b4130bd6c1c8b0e0686f7/PERFORM-VG_M_EN.pdf) [pitch 2](https://www.tchelicon.com/en/products/0726-ABR) |
+| Pitch / preset recall | Remote harmony-style assignments and temporary startup knob modes are documented, not proof of a stored preset-bank count or pitch recall performance. Do not import the three-preset behavior of V/VE/VK. |
+| Pitch / DSP resources | No pitch-specific CPU percentage, DSP allocation meter or numerical cost located. Correction amount 0–100% is effect strength, not processor use; harmony voice/style counts are not DSP percentages. |
+| Pitch / qualifications | Current product prose advertises one footswitch, doubler/megaphone/HardTune and USB streaming. These conflict with the documented control/effect inventory or lack technical corroboration; retain as disputed copy rather than verified new features. Restored direct manufacturer manual supersedes the older URL access failure only. No device firmware installed, hardware operation or audio/DSP measurement performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Helicon official Perform-VG introduction](https://www.youtube.com/watch?v=7M_N01q7TYk) — Public introduction date; exact first shipment unresolved. (Official indexed title, channel and August 8, 2017 publication read; direct watch fetch failed).
+- [TC Helicon current exact 0726-ABR product and downloads](https://www.tchelicon.com/en/products/0726-ABR) — VoiceSupport2 host listing without numbered device firmware; current feature-copy conflicts retained. (Direct manufacturer page read).
+- [TC Helicon PERFORM-VG Rev1.0 user manual](https://cdn-media.empowertribe.com/57b2cec83b4b4130bd6c1c8b0e0686f7/PERFORM-VG_M_EN.pdf) — Chromatic correction, harmony styles, guitar detune and remote/control restrictions; no quantified pitch DSP allocation. (Restored direct manufacturer 16-page PDF read, especially pages 6 and 11).
+
+<!-- firmware-pitch:TC-Helicon::PERFORM-VG ends -->
+
 Mic-stand vocal/acoustic guitar multi-effects;distinct from V/VK/VE. Checked2026-10-17;partial. Guitar classification rests on independent BodyRez,chorus,echo and reverb processing,not chord detection alone. Ownership unestablished.
 
 <!-- comparison evidence begins -->

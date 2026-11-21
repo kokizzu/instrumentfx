@@ -201854,10 +201854,70 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC-Helicon::PERFORM-VG": {
+        "model_key": "TC-Helicon::PERFORM-VG",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2017-08-08",
+          "precision": "day",
+          "kind": "official introduction video; earliest shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=7M_N01q7TYk"
+          ],
+          "note": "Manufacturer introduction published August 8, 2017. This is a documented public introduction, not proof of earliest retail shipment."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.tchelicon.com/en/products/0726-ABR",
+            "https://cdn-media.empowertribe.com/57b2cec83b4b4130bd6c1c8b0e0686f7/PERFORM-VG_M_EN.pdf"
+          ],
+          "note": "No numbered device firmware release or release date located in the checked manufacturer download page/manual. VoiceSupport2 v1.1.02_build139 is host software, not VG firmware. Manual Rev1.0 and newer quick-guide revisions are document versions. This does not establish that firmware updates never existed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Chromatic vocal correction toward the nearest semitone; 13 harmony styles including octave and paired voices; guitar Chorus offers Detune. Guitar chord guidance controls vocal harmony and is not evidence of polyphonic guitar transposition. Input-note polyphony remains unverified.",
+          "preset": "Remote harmony-style assignments and temporary startup knob modes are documented, not proof of a stored preset-bank count or pitch recall performance. Do not import the three-preset behavior of V/VE/VK.",
+          "dsp": "No pitch-specific CPU percentage, DSP allocation meter or numerical cost located. Correction amount 0–100% is effect strength, not processor use; harmony voice/style counts are not DSP percentages.",
+          "source_urls": [
+            "https://cdn-media.empowertribe.com/57b2cec83b4b4130bd6c1c8b0e0686f7/PERFORM-VG_M_EN.pdf",
+            "https://www.tchelicon.com/en/products/0726-ABR"
+          ],
+          "measurements": [],
+          "notes": [
+            "Current product prose advertises one footswitch, doubler/megaphone/HardTune and USB streaming. These conflict with the documented control/effect inventory or lack technical corroboration; retain as disputed copy rather than verified new features.",
+            "Restored direct manufacturer manual supersedes the older URL access failure only. No device firmware installed, hardware operation or audio/DSP measurement performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=7M_N01q7TYk",
+            "title": "TC Helicon official Perform-VG introduction",
+            "access": "Official indexed title, channel and August 8, 2017 publication read; direct watch fetch failed",
+            "evidence": "Public introduction date; exact first shipment unresolved."
+          },
+          {
+            "url": "https://www.tchelicon.com/en/products/0726-ABR",
+            "title": "TC Helicon current exact 0726-ABR product and downloads",
+            "access": "Direct manufacturer page read",
+            "evidence": "VoiceSupport2 host listing without numbered device firmware; current feature-copy conflicts retained."
+          },
+          {
+            "url": "https://cdn-media.empowertribe.com/57b2cec83b4b4130bd6c1c8b0e0686f7/PERFORM-VG_M_EN.pdf",
+            "title": "TC Helicon PERFORM-VG Rev1.0 user manual",
+            "access": "Restored direct manufacturer 16-page PDF read, especially pages 6 and 11",
+            "evidence": "Chromatic correction, harmony styles, guitar detune and remote/control restrictions; no quantified pitch DSP allocation."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC-Helicon::PERFORM-VG",
       "TC-Helicon::PERFORM-VK",
       "TC-Helicon::Play Acoustic",
       "TC-Helicon::VoiceLive 3 Extreme",
@@ -201971,12 +202031,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 290,
-    "last_model": "TC-Helicon::PERFORM-VE",
-    "last_commit_parent": "ab80b940594bb0f0a737ea0addf0179c988aaae4",
+    "completed_model_count": 291,
+    "last_model": "TC-Helicon::PERFORM-VG",
+    "last_commit_parent": "a75f093af87ce01c0a625e5dd1a5725a56980c00",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC-Helicon::PERFORM-VG",
       "TC-Helicon::PERFORM-VK",
       "TC-Helicon::Play Acoustic",
       "TC-Helicon::VoiceLive 3 Extreme",
@@ -202089,7 +202148,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 290,
+    "pitch_completed_model_count": 291,
     "supplemental_model_count": 0
   },
   "model_images": {
