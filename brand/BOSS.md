@@ -5955,6 +5955,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::Pocket GT ends -->
 
+<!-- model-images:BOSS::Pocket GT begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS Pocket GT — top panel**
+
+[![BOSS Pocket GT — top panel](https://static.roland.com/products/pocket-gt/images/pocket-gt_fw_gal.jpg)](https://static.roland.com/products/pocket-gt/images/pocket-gt_fw_gal.jpg)
+
+[Image source](https://www.boss.info/global/products/pocket-gt/). Official straight top-down product photograph with blue 01 memory display and red Gain status LED illuminated. Promotional photograph, not independent operation.
+
+**BOSS Pocket GT — side audio connections**
+
+[![BOSS Pocket GT — side audio connections](https://static.roland.com/products/pocket-gt/images/pocket-gt_sr_gal.jpg)](https://static.roland.com/products/pocket-gt/images/pocket-gt_sr_gal.jpg)
+
+[Image source](https://www.boss.info/global/products/pocket-gt/). Official side-panel photograph, not a rear-facing socket panel: CENTER CANCEL switch, AUX IN, MASTER wheel and PHONES/REC OUT are unobstructed. Opposite-side INPUT and USB/power connections are not shown here; their photograph remains pending. Rear/side image alone does not establish operating power state.
+
+</details>
+<!-- model-images:BOSS::Pocket GT ends -->
+
+
 Handheld guitar multi-effects;distinctfromLine6PocketPOD/BOSSGT1. Checked2026-10-17;partial. Ownership/vocalsuitability unknown. BasscapabilityexplicitinownParameterGuidepresets71–90.
 
 | Field | Finding / qualification | Evidence |
