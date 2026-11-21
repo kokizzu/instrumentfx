@@ -190653,11 +190653,35 @@
             "sha256": "838efa69563a534f8427d97a74381fbd402f480a6b6eacc59253a7380be61931"
           }
         }
+      },
+      "JOYO::GEM BOX III": {
+        "model_key": "JOYO::GEM BOX III",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/GemBox-III/JOYO-Gem-Box-III-3%20%2810%29-500x500h.jpg",
+            "source_url": "https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor",
+            "caption": "JOYO GEM BOX III powered-on product angle",
+            "note": "Manufacturer-linked regional gallery shows illuminated GEM BOX III screen, module buttons and footswitch LEDs. Angled product view with some enclosure edges cropped; not a true whole-unit top-down photo. Powered-on exact overhead remains pending. This is a published product image, not a hardware test.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "8ba586ca283c72bd81ed48e008c8154000d6b74f6792e6f19e422f850b02e52b"
+          },
+          "rear": {
+            "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/GemBox-III/JOYO-Gem-Box-III-3%20%289%29-500x500h.jpg",
+            "source_url": "https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor",
+            "caption": "JOYO GEM BOX III rear connections — panel edges cropped",
+            "note": "Readable rear view shows EXP2, AUX IN, instrument IN, ground-lift switch, L/R XLR outputs, L(MONO)/R jack outputs, headphones, USB-B and power rocker. Extreme panel edges are cropped, including the DC inlet at the right; this image alone is not a complete power-connector inventory. Manual supplies the separate 9V DC specification. No MIDI or FX-loop sockets shown in the documented panel.",
+            "visual_checked": true,
+            "sha256": "1f118b22d9861ee078001075c2a6d1504dffb335123f5a4111302c18806e4dfd"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "JOYO::GEM BOX II"
+    "last_model": "JOYO::GEM BOX III"
   }
 }
