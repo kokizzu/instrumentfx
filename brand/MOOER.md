@@ -479,6 +479,32 @@ This verifies a preset-saveable pitch effect. It does **not** verify the specifi
 
 ## GE100 Pro Li
 
+<!-- firmware-pitch:MOOER::GE100 Pro Li begins -->
+### Firmware and pitch audit — MOOER GE100 Pro Li
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Joint manufacturer product confirms the battery edition. Exact first Li announcement/shipment not established. May/June 2026 indexed Li review dates and standard-family presentation dates are evidence leads, not verified Li first release. [launch 1](https://www.mooeraudio.com/products/244.html) [launch 2](https://www.effectsdatabase.com/model/mooer/ge100/pro) |
+| Firmware / latest verification | Not verified — Unverified. Current support package MS_For_GE100_Pro 1.3.3 is associated with 2026-08-20, but current support page names GE100 Pro, not explicitly Li. Exact Li device payload/version/date remain unverified. Joint manual documents firmware updates, not current package interchangeability. English expression-off default-return differs in emphasis from Chinese sensitivity/smoothing note; Chinese specifies NAM A2 conversion. These are package/family leads. Cloud 1.7.0 stem transposition and September upload timestamps are separate; no first-release span calculated. [firmware 1](https://www.mooeraudio.com/Downloads_xq/12.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/10.html) [firmware 3](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Shared manufacturer V02 manual printed pp75–76 lists MODULATION Pitch Shift, Detune and Octave. No explicit simultaneous-note/polyphonic classification, interval endpoints or fully wet control specification located. [pitch 1](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf) [pitch 2](https://www.mooeraudio.com/products/244.html) |
+| Pitch / preset recall | 150 editable slots; SAVE stores edited parameters to the chosen slot/name. Factory-filled subset and held-pedal recall unverified. Standard GE100 Pro user listening report is not an independent Li hardware test. |
+| Pitch / DSP resources | Rendered V02 printed p18 distinguishes nine effect categories from ten available chain positions. Exact repeated-module/overload limits and isolated Pitch Shift DSP percentage remain unverified. Category count is not CPU usage. |
+| Pitch / qualifications | Shared V02 PDF SHA256 83e40742d0f19002b94c7bd9c676f707445270926faecf655af53672b1d5fb5d; processing, SAVE and pitch pages visually inspected after garbled text extraction. No independent Li quality/latency/DSP measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [GE100 Pro/Pro Li manufacturer product](https://www.mooeraudio.com/products/244.html) — Explicit Li battery edition; 150 presets and separate power/mass. (Manufacturer joint product/specification body read).
+- [GE100 Pro family video index](https://www.effectsdatabase.com/model/mooer/ge100/pro) — Earlier teasers and May/June Li reviews distinguished from September index publication; exact Li launch unresolved. (Dated official and Li review rows read).
+- [GE100 Pro English support downloads](https://www.mooeraudio.com/Downloads_xq/12.html) — 1.3.3 package associated August 20; exact Li payload compatibility not explicit. (Manufacturer current package list and changelog read).
+- [GE100 Pro Chinese support downloads](https://cn.mooeraudio.com/Downloads_xq/10.html) — 1.3.3 August 20 package entry, expression changes and A2 conversion. (Manufacturer current package list and changelog read).
+- [GE100 Pro/Pro Li Owner’s Manual V02 September 9, 2026](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf) — Nine categories, ten positions, SAVE and pitch inventory; text extraction garbled. (Original joint PDF retrieved; selected processing/SAVE/pitch pages rendered and visually read).
+
+<!-- firmware-pitch:MOOER::GE100 Pro Li ends -->
+
 <!-- comparison evidence begins -->
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

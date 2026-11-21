@@ -194473,6 +194473,80 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::GE100 Pro Li": {
+        "model_key": "MOOER::GE100 Pro Li",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first_li_release_unresolved",
+          "source_urls": [
+            "https://www.mooeraudio.com/products/244.html",
+            "https://www.effectsdatabase.com/model/mooer/ge100/pro"
+          ],
+          "note": "Joint manufacturer product confirms the battery edition. Exact first Li announcement/shipment not established. May/June 2026 indexed Li review dates and standard-family presentation dates are evidence leads, not verified Li first release."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.mooeraudio.com/Downloads_xq/12.html",
+            "https://cn.mooeraudio.com/Downloads_xq/10.html",
+            "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf"
+          ],
+          "note": "Current support package MS_For_GE100_Pro 1.3.3 is associated with 2026-08-20, but current support page names GE100 Pro, not explicitly Li. Exact Li device payload/version/date remain unverified. Joint manual documents firmware updates, not current package interchangeability. English expression-off default-return differs in emphasis from Chinese sensitivity/smoothing note; Chinese specifies NAM A2 conversion. These are package/family leads. Cloud 1.7.0 stem transposition and September upload timestamps are separate; no first-release span calculated."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Shared manufacturer V02 manual printed pp75–76 lists MODULATION Pitch Shift, Detune and Octave. No explicit simultaneous-note/polyphonic classification, interval endpoints or fully wet control specification located.",
+          "preset": "150 editable slots; SAVE stores edited parameters to the chosen slot/name. Factory-filled subset and held-pedal recall unverified. Standard GE100 Pro user listening report is not an independent Li hardware test.",
+          "dsp": "Rendered V02 printed p18 distinguishes nine effect categories from ten available chain positions. Exact repeated-module/overload limits and isolated Pitch Shift DSP percentage remain unverified. Category count is not CPU usage.",
+          "source_urls": [
+            "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf",
+            "https://www.mooeraudio.com/products/244.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Shared V02 PDF SHA256 83e40742d0f19002b94c7bd9c676f707445270926faecf655af53672b1d5fb5d; processing, SAVE and pitch pages visually inspected after garbled text extraction. No independent Li quality/latency/DSP measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.mooeraudio.com/products/244.html",
+            "title": "GE100 Pro/Pro Li manufacturer product",
+            "access": "Manufacturer joint product/specification body read",
+            "evidence": "Explicit Li battery edition; 150 presets and separate power/mass."
+          },
+          {
+            "url": "https://www.effectsdatabase.com/model/mooer/ge100/pro",
+            "title": "GE100 Pro family video index",
+            "access": "Dated official and Li review rows read",
+            "evidence": "Earlier teasers and May/June Li reviews distinguished from September index publication; exact Li launch unresolved."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/12.html",
+            "title": "GE100 Pro English support downloads",
+            "access": "Manufacturer current package list and changelog read",
+            "evidence": "1.3.3 package associated August 20; exact Li payload compatibility not explicit."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/Downloads_xq/10.html",
+            "title": "GE100 Pro Chinese support downloads",
+            "access": "Manufacturer current package list and changelog read",
+            "evidence": "1.3.3 August 20 package entry, expression changes and A2 conversion."
+          },
+          {
+            "url": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf",
+            "title": "GE100 Pro/Pro Li Owner’s Manual V02 September 9, 2026",
+            "access": "Original joint PDF retrieved; selected processing/SAVE/pitch pages rendered and visually read",
+            "evidence": "Nine categories, ten positions, SAVE and pitch inventory; text extraction garbled."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -194502,7 +194576,6 @@
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
       "MOOER::Black Truck",
-      "MOOER::GE100 Pro Li",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
       "MOOER::PE100",
@@ -194682,9 +194755,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 198,
-    "last_model": "MOOER::GE100 Pro",
-    "last_commit_parent": "01ae444e165f739fbab6cff7956fc7767e2816bb",
+    "completed_model_count": 199,
+    "last_model": "MOOER::GE100 Pro Li",
+    "last_commit_parent": "c723607be52a91c11dd7f0f1bca5127c95fd3323",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -194713,7 +194786,6 @@
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
       "MOOER::Black Truck",
-      "MOOER::GE100 Pro Li",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
       "MOOER::PE100",
@@ -194892,7 +194964,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 198,
+    "pitch_completed_model_count": 199,
     "supplemental_model_count": 0
   },
   "model_images": {
