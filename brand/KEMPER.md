@@ -109,6 +109,34 @@ Disposition: **documented global assignment plus locked rig settings,revision-qu
 
 ## PROFILER Player
 
+<!-- firmware-pitch:Kemper::PROFILER Player begins -->
+### Firmware and pitch audit — Kemper PROFILER Player
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-12-19 (Dated manufacturer public introduction; not individual first shipment). Kemper Amps Official published its Player introduction on 19 December2023. The later MK2-series launch is not a new Player hardware release; paid Levels are feature entitlements. [launch 1](https://www.youtube.com/watch?v=wQEmMYp6C9I) |
+| Firmware / latest verification | 14.2.2 — Located; latest status unverified. Latest located official OS release announcement dated22 September2026. Requires Rig Manager4.3.13 desktop,1.9.25 iOS or1.9.42 Android/Fire OS. S/PDIF/Noise Gate fix concerns hardware with S/PDIF, not a new Player socket. Dynamic downloads list was not enumerable; latest-build status remains qualified. [firmware 1](https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/) [firmware 2](https://www.kemper-amps.com/downloads) |
+| Firmware / release date | 2026-09-22 (day precision) |
+| Firmware / release-to-update duration | 2.76 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Level I: Transpose and single-note Analog Octaver. Level II/III add Pedal Pitch, Pedal Vinyl Stop, Chromatic Pitch and Harmonic Pitch; upgraded pitch processing supports chords, but Harmonic Pitch and formant modes require single notes. Level is essential to interpreting polyphonic capability. [pitch 1](https://www.kemper-amps.com/store/es/profiler-player-upgrades.html) [pitch 2](https://www.scribd.com/document/1071321958/KEMPER-PROFILER-Player-Main-Manual-14-2-English) [pitch 3](https://www.kemper-amps.com/effects/pitch-shifter) [pitch 4](https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf) |
+| Pitch / preset recall | Pitch settings stored by Rig. I/II:50 Rigs in10 banks; III:625 in125 banks. Fixed Transpose does not require a flexible effect slot. Level upgrades are separate from free OS updates. |
+| Pitch / DSP resources | Four flexible modules at I/II; eight at III. Flexible pitch choices consume a selected flexible module; fixed Transpose leaves those modules available. OS14.2 manual counts up to16 total serial blocks at I/II or20 at III including fixed processing, not freely assignable slots. No per-algorithm DSP percentage located. |
+| Pitch / qualifications | Player is one hardware model; do not create separate Level hardware records. Analog Octaver is explicitly single-note; simultaneous generated octave voices do not establish polyphonic tracking. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Kemper Amps Official Player introduction](https://www.youtube.com/watch?v=wQEmMYp6C9I) — Exact Player video published2023-12-19; establishes public introduction date, not an individual delivery. (readable indexed manufacturer video metadata).
+- [Kemper official OS14.2.2 announcement](https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/) — September22,2026; Rig Manager minimum versions and S/PDIF/Noise Gate2:1 fix. (readable official administrator release post).
+- [Kemper official downloads](https://www.kemper-amps.com/downloads) — No independently enumerable latest-build list; release announcement treated as latest located. (dynamic version list not exposed in returned page).
+- [Kemper Player upgrade-level comparison](https://www.kemper-amps.com/store/es/profiler-player-upgrades.html) — II adds broad pitch effects with4 flexible modules; III8 modules and625 Rigs;I/II50 Rigs; paid upgrades do not replace free software updates. (readable official upgrade page).
+- [Kemper Player manufacturer manual OS14.2](https://www.scribd.com/document/1071321958/KEMPER-PROFILER-Player-Main-Manual-14-2-English) — pp38,129–130,148–150,161:fixed/flexible topology,Transpose,Analog Octaver single-note limitation,upgraded polyphonic pitch support. (manufacturer-authored manuscript on mirror;203pages;July2026 revision verified, excluding generated description).
+- [Kemper official pitch effects matrix](https://www.kemper-amps.com/effects/pitch-shifter) — Distinguishes Player LevelI fromII/III for Pedal Pitch,Vinyl Stop,Chromatic/Harmonic Pitch. (readable official feature-level matrix).
+- [Kemper manufacturer Main Manual13.0](https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf) — pp256–264:chord/latency tradeoff,single-note Harmonic Pitch and Formant Shift/Freeze restrictions; Player level availability independently checked. (manufacturer-authored PDF on mirror;May2025revision).
+
+<!-- firmware-pitch:Kemper::PROFILER Player ends -->
+
 Partial record checked **2026-10-17**. One hardware model; paid Levels are feature entitlements,not separate inventory models. The offer does not establish its installed OS or upgrade Level.
 
 | Required field | Evidence / qualification |

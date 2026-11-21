@@ -199396,10 +199396,100 @@
           "label": "1.32 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Kemper::PROFILER Player": {
+        "model_key": "Kemper::PROFILER Player",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2023-12-19",
+          "precision": "day",
+          "kind": "Dated manufacturer public introduction; not individual first shipment",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=wQEmMYp6C9I"
+          ],
+          "note": "Kemper Amps Official published its Player introduction on 19 December2023. The later MK2-series launch is not a new Player hardware release; paid Levels are feature entitlements."
+        },
+        "firmware": {
+          "version": "14.2.2",
+          "date": "2026-09-22",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/",
+            "https://www.kemper-amps.com/downloads"
+          ],
+          "note": "Latest located official OS release announcement dated22 September2026. Requires Rig Manager4.3.13 desktop,1.9.25 iOS or1.9.42 Android/Fire OS. S/PDIF/Noise Gate fix concerns hardware with S/PDIF, not a new Player socket. Dynamic downloads list was not enumerable; latest-build status remains qualified."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Level I: Transpose and single-note Analog Octaver. Level II/III add Pedal Pitch, Pedal Vinyl Stop, Chromatic Pitch and Harmonic Pitch; upgraded pitch processing supports chords, but Harmonic Pitch and formant modes require single notes. Level is essential to interpreting polyphonic capability.",
+          "preset": "Pitch settings stored by Rig. I/II:50 Rigs in10 banks; III:625 in125 banks. Fixed Transpose does not require a flexible effect slot. Level upgrades are separate from free OS updates.",
+          "dsp": "Four flexible modules at I/II; eight at III. Flexible pitch choices consume a selected flexible module; fixed Transpose leaves those modules available. OS14.2 manual counts up to16 total serial blocks at I/II or20 at III including fixed processing, not freely assignable slots. No per-algorithm DSP percentage located.",
+          "source_urls": [
+            "https://www.kemper-amps.com/store/es/profiler-player-upgrades.html",
+            "https://www.scribd.com/document/1071321958/KEMPER-PROFILER-Player-Main-Manual-14-2-English",
+            "https://www.kemper-amps.com/effects/pitch-shifter",
+            "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Player is one hardware model; do not create separate Level hardware records.",
+            "Analog Octaver is explicitly single-note; simultaneous generated octave voices do not establish polyphonic tracking."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=wQEmMYp6C9I",
+            "title": "Kemper Amps Official Player introduction",
+            "access": "readable indexed manufacturer video metadata",
+            "evidence": "Exact Player video published2023-12-19; establishes public introduction date, not an individual delivery."
+          },
+          {
+            "url": "https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/",
+            "title": "Kemper official OS14.2.2 announcement",
+            "access": "readable official administrator release post",
+            "evidence": "September22,2026; Rig Manager minimum versions and S/PDIF/Noise Gate2:1 fix."
+          },
+          {
+            "url": "https://www.kemper-amps.com/downloads",
+            "title": "Kemper official downloads",
+            "access": "dynamic version list not exposed in returned page",
+            "evidence": "No independently enumerable latest-build list; release announcement treated as latest located."
+          },
+          {
+            "url": "https://www.kemper-amps.com/store/es/profiler-player-upgrades.html",
+            "title": "Kemper Player upgrade-level comparison",
+            "access": "readable official upgrade page",
+            "evidence": "II adds broad pitch effects with4 flexible modules; III8 modules and625 Rigs;I/II50 Rigs; paid upgrades do not replace free software updates."
+          },
+          {
+            "url": "https://www.scribd.com/document/1071321958/KEMPER-PROFILER-Player-Main-Manual-14-2-English",
+            "title": "Kemper Player manufacturer manual OS14.2",
+            "access": "manufacturer-authored manuscript on mirror;203pages;July2026 revision verified, excluding generated description",
+            "evidence": "pp38,129–130,148–150,161:fixed/flexible topology,Transpose,Analog Octaver single-note limitation,upgraded polyphonic pitch support."
+          },
+          {
+            "url": "https://www.kemper-amps.com/effects/pitch-shifter",
+            "title": "Kemper official pitch effects matrix",
+            "access": "readable official feature-level matrix",
+            "evidence": "Distinguishes Player LevelI fromII/III for Pedal Pitch,Vinyl Stop,Chromatic/Harmonic Pitch."
+          },
+          {
+            "url": "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+            "title": "Kemper manufacturer Main Manual13.0",
+            "access": "manufacturer-authored PDF on mirror;May2025revision",
+            "evidence": "pp256–264:chord/latency tradeoff,single-note Harmonic Pitch and Formant Shift/Freeze restrictions; Player level availability independently checked."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1008,
+          "maximum_days": 1008,
+          "label": "2.76 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Kemper::PROFILER Player",
       "Kemper::PROFILER PowerHead MK2",
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
@@ -199546,12 +199636,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 257,
-    "last_model": "Kemper::PROFILER Head MK2",
-    "last_commit_parent": "9c287aef3a073d809bc79502a884d9a824f1c63d",
+    "completed_model_count": 258,
+    "last_model": "Kemper::PROFILER Player",
+    "last_commit_parent": "752656b7a9a88ffb28af8fe33f15bb4c48986e54",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Kemper::PROFILER Player",
       "Kemper::PROFILER PowerHead MK2",
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
@@ -199697,7 +199786,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 257,
+    "pitch_completed_model_count": 258,
     "supplemental_model_count": 0
   },
   "model_images": {
