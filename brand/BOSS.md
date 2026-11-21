@@ -64,6 +64,30 @@ Canonical root brand profiles; all retain explicit verification gaps. Preserved 
 
 ## AD-2
 
+<!-- firmware-pitch:BOSS::AD-2 begins -->
+### Firmware and pitch audit — BOSS AD-2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2016-10-27 (manufacturer announcement proxy). Dated manufacturer announcement, not a confirmed first shipment date. [launch 1](https://www.roland.com/us/company/press_releases/2016/BOSS-ANNOUNCES-AD-2-ACOUSTIC-PREAMP-PEDAL/) |
+| Firmware / latest verification | Not verified — No public firmware located. No public device firmware version, updater or release history located in the checked product/support and manual sources. Published connectors are analog input/outputs and DC; no USB/MIDI update path is documented. Absence of a public package does not prove hardware cannot be serviced or updated. [firmware 1](https://www.boss.info/global/products/ad-2/support/) [firmware 2](https://static.roland.com/assets/media/pdf/AD-2_e01_W.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Checked fixed effects are Acoustic Resonance, Ambience reverb and Notch filtering. No transposer, harmonizer, octave or pedal pitch-shift algorithm is documented; note-polyphonic pitch shifting is not established. [pitch 1](https://www.boss.info/global/products/ad-2/support/) [pitch 2](https://static.roland.com/assets/media/pdf/AD-2_e01_W.pdf) |
+| Pitch / preset recall | Three direct knobs and effect/mute footswitch operation; no user patch-save/recall workflow is documented in the inspected manual. This is not a verified zero-memory hardware specification. |
+| Pitch / DSP resources | No per-effect DSP percentage or processing-budget meter is documented. Dedicated pitch cost is not applicable to the checked effect inventory; no 0% measurement is claimed. |
+| Pitch / qualifications | Acoustic Resonance restores acoustic-electric input character; it does not establish pitch transposition. Published 65mA draw and older manual 55mA draw are electrical specifications, not DSP utilization. Existing revision conflict retained. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland/BOSS AD-2 announcement, October 27 2016](https://www.roland.com/us/company/press_releases/2016/BOSS-ANNOUNCES-AD-2-ACOUSTIC-PREAMP-PEDAL/) — Dated announcement introduces AD-2 acoustic preamp with resonance, reverb and feedback notch. (opened).
+- [BOSS AD-2 current product/support and specifications](https://www.boss.info/global/products/ad-2/support/) — Three fixed controls, analog connector inventory and manual support entries; no firmware update listing or pitch block located. (opened).
+- [BOSS AD-2 official English manual e01_W](https://static.roland.com/assets/media/pdf/AD-2_e01_W.pdf) — Direct knobs, effect/mute switch and output ambience setting documented; no patch-save/recall, dedicated pitch shifter or DSP meter. (opened manufacturer PDF; text extraction has reversed word order).
+
+<!-- firmware-pitch:BOSS::AD-2 ends -->
+
 Acoustic fixed-chain processor; partial, checked 2026-10-18. Included for distinct resonance, ambience and feedback processing, not its preset/mode count. [Manufacturer](https://www.boss.info/global/products/ad-2/).
 
 <!-- comparison evidence begins -->

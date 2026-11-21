@@ -181675,10 +181675,70 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::AD-2": {
+        "model_key": "BOSS::AD-2",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2016-10-27",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2016/BOSS-ANNOUNCES-AD-2-ACOUSTIC-PREAMP-PEDAL/"
+          ],
+          "note": "Dated manufacturer announcement, not a confirmed first shipment date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/products/ad-2/support/",
+            "https://static.roland.com/assets/media/pdf/AD-2_e01_W.pdf"
+          ],
+          "note": "No public device firmware version, updater or release history located in the checked product/support and manual sources. Published connectors are analog input/outputs and DC; no USB/MIDI update path is documented. Absence of a public package does not prove hardware cannot be serviced or updated."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Checked fixed effects are Acoustic Resonance, Ambience reverb and Notch filtering. No transposer, harmonizer, octave or pedal pitch-shift algorithm is documented; note-polyphonic pitch shifting is not established.",
+          "preset": "Three direct knobs and effect/mute footswitch operation; no user patch-save/recall workflow is documented in the inspected manual. This is not a verified zero-memory hardware specification.",
+          "dsp": "No per-effect DSP percentage or processing-budget meter is documented. Dedicated pitch cost is not applicable to the checked effect inventory; no 0% measurement is claimed.",
+          "source_urls": [
+            "https://www.boss.info/global/products/ad-2/support/",
+            "https://static.roland.com/assets/media/pdf/AD-2_e01_W.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Acoustic Resonance restores acoustic-electric input character; it does not establish pitch transposition.",
+            "Published 65mA draw and older manual 55mA draw are electrical specifications, not DSP utilization. Existing revision conflict retained."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2016/BOSS-ANNOUNCES-AD-2-ACOUSTIC-PREAMP-PEDAL/",
+            "title": "Roland/BOSS AD-2 announcement, October 27 2016",
+            "access": "opened",
+            "evidence": "Dated announcement introduces AD-2 acoustic preamp with resonance, reverb and feedback notch."
+          },
+          {
+            "url": "https://www.boss.info/global/products/ad-2/support/",
+            "title": "BOSS AD-2 current product/support and specifications",
+            "access": "opened",
+            "evidence": "Three fixed controls, analog connector inventory and manual support entries; no firmware update listing or pitch block located."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/AD-2_e01_W.pdf",
+            "title": "BOSS AD-2 official English manual e01_W",
+            "access": "opened manufacturer PDF; text extraction has reversed word order",
+            "evidence": "Direct knobs, effect/mute switch and output ambience setting documented; no patch-save/recall, dedicated pitch shifter or DSP meter."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::AD-2",
       "BOSS::AD-8",
       "BOSS::GM-800",
       "BOSS::GS-10",
@@ -182053,12 +182113,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 29,
-    "last_model": "BOSS::AD-10",
-    "last_commit_parent": "9450de0ca18f524099f6ad484a6a962907de98f5",
+    "completed_model_count": 30,
+    "last_model": "BOSS::AD-2",
+    "last_commit_parent": "13d46a7c0dc784c7ec4b2fd53f47b13c2ee5f5bb",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::AD-2",
       "BOSS::AD-8",
       "BOSS::GM-800",
       "BOSS::GS-10",
@@ -182432,7 +182491,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 29,
+    "pitch_completed_model_count": 30,
     "supplemental_model_count": 0
   }
 }
