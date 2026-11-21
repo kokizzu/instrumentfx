@@ -191332,11 +191332,35 @@
             "sha256": "310a16fcbbb271980e40e704c0839d6c88483b567351ce94613550dade0eb8cc"
           }
         }
+      },
+      "Line 6::POD Go": {
+        "model_key": "Line 6::POD Go",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/6/0a020a412510634dd998e32d5/image/jpeg",
+            "source_url": "https://line6.com/podgo/",
+            "caption": "Standard POD Go powered-on top-down product image",
+            "note": "Manufacturer standard-model overview shows active 16D Two-Plus Decades screen, colored switch rings and built-in treadle. Eight rotaries, eight main footswitches and four buttons visible; toe switch is additional. This is POD Go without Wireless branding/antenna markings, not the Wireless image in the same page interactive panel. Published product image is not evidence of installed firmware or measured chord tracking.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "ae7c13127ce29b1228b06fbc7dba3e011bc451a7783d27d301388aba9ff9aab3"
+          },
+          "rear": {
+            "image_url": "https://assets-sb.thomann.de/f/49568/4983x1321/58462e97f3/tps_1335_483547_june07569-483547n.jpg/m/1600x0/filters%3Aquality%2890%29",
+            "source_url": "https://www.thomannmusic.com/line6_pod_go.htm",
+            "caption": "Standard POD Go complete rear photograph",
+            "note": "Retailer photograph clearly shows GUITAR IN, shared EXP2/FS7/8, stereo RETURN/AUX and SEND, balanced/unbalanced L/MONO/RIGHT MAIN OUT, AMP OUT, PHONES, USB-B, DC IN and power rocker. Rear label is 9VDC 2.5A Min, center-negative; minimum supply marking is not measured draw and does not contradict a supplied 3A-rated adapter. No Wireless transmitter-storage well, DIN MIDI or XLR port shown. Connection evidence comes from the photograph/manual, not retailer menu-control prose.",
+            "visual_checked": true,
+            "sha256": "57a0f76abb8570d0a22255fcd013ba4ad288913d3dda5c8b084622418cbc4f45"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::HX Stomp XL"
+    "last_model": "Line 6::POD Go"
   }
 }
