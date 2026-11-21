@@ -1513,6 +1513,31 @@ IR import capacity remains unverified: the checked original product/support/manu
 
 ## GE200 Plus
 
+<!-- firmware-pitch:MOOER::GE200 Plus begins -->
+### Firmware and pitch audit — MOOER GE200 Plus
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025-07-30 (manufacturer overview publication proxy). Official overview publication only; earliest shipment unresolved. Manufacturer firmware 1.0.4 is dated June 16, before this video, so the video is not proof of first availability. [launch 1](https://www.youtube.com/watch?v=dPhwf74YoCA) |
+| Firmware / latest verification | 1.5.0 (Studio/update bundle; device payload unverified) — Located; latest status unverified. Current exact-model page lists Studio 1.5.0 dated 2026-10-29, with CTRL modes, separate outputs, linked amp/cab, bass models and fixes. Device payload not inspected; firmware date and span withheld. Older 1.0.5 is downloadable without release date; 1.0.4 has an explicit 2025-06-16 entry. Uniform November 3 uploads, Cloud app and USB driver do not establish device-firmware dates. [firmware 1](https://www.mooeraudio.com/Downloads_xq/9.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Manual explicitly lists Poly Pitch as a poly pitch shifter; parameter table calls it Poly Shift, range ±1 octave. Also Detune and Octave. This documents the algorithm, not measured chord quality or latency. [pitch 1](https://device.report/m/dac41d68caaa3b9e7928fe5d232719513943c9cc10b0ed4e900a5057305b2d34) |
+| Pitch / preset recall | 255 slots across 85 banks of three. SAVE stores edited preset; expression parameter assignments, volume/expression mode and toe mappings are saved per preset. Calibration is global. Exact held-pedal recall untested. |
+| Pitch / DSP resources | Pitch shares a multi-purpose effect block with other algorithms. Calculated total preset DSP depends on selected models; manual warns of transient clipping near 100%. No isolated pitch percentage found; no sibling bypass-allocation rules assumed. |
+| Pitch / qualifications | Exact GE200 Plus/Plus Li manufacturer manual body read on mirror; PDF title metadata says P2 incorrectly. No hardware measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER GE200 Plus Official Overview](https://www.youtube.com/watch?v=dPhwf74YoCA) — Published 2025-07-30; distinguishes white standard and purple battery Li variants. (Official-channel indexed publication and description read).
+- [GE200 Plus official overview news page](https://www.mooeraudio.com/news/19.html) — Embeds the official overview. (Manufacturer page read).
+- [GE200 Plus downloads and update notes](https://www.mooeraudio.com/Downloads_xq/9.html) — Studio 1.5.0 dated 2026-10-29; older 1.0.5 download and dated 1.0.4 entry. (Exact-model manufacturer page read).
+- [GE200 Plus/GE200 Plus Li Owner’s Manual](https://device.report/m/dac41d68caaa3b9e7928fe5d232719513943c9cc10b0ed4e900a5057305b2d34) — Poly Pitch, octave range, preset SAVE and expression memory, total DSP meter. (Manufacturer-authored extracted manual body read on mirror).
+
+<!-- firmware-pitch:MOOER::GE200 Plus ends -->
+
 Checked 2026-10-19;partial. Distinct from GE200 original,GE200 Pro andGE200 Plus Li. Manufacturer establishes guitar multi-effects;ownership,bass/vocal membership unverified. [Exact product](https://www.mooeraudio.com/products/232.html).
 
 | Field | Evidence / qualification |
