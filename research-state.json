@@ -194680,6 +194680,66 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::Red Truck": {
+        "model_key": "MOOER::Red Truck",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2017",
+          "precision": "year",
+          "kind": "manufacturer_stated_release_year",
+          "source_urls": [
+            "https://cn.mooeraudio.com/product/11.html"
+          ],
+          "note": "MOOER explicitly states in its Black Truck introduction that Red Truck was released in 2017. Exact first announcement/shipping day is unresolved; the later Black Truck date is not transferred."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.mooeraudio.com/product/Red-Truck-163.html",
+            "https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf"
+          ],
+          "note": "No dated Red Truck firmware package or update procedure located in the checked product/manual. Product downloads list manuals in several languages. Analog/DC connector inventory without USB/MIDI does not by itself prove non-updatability. No elapsed firmware-support span calculated."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "REVERB SHIMMER adds high-pitched harmony to the reverb. This documents a pitched ambience component, not a dedicated whole-guitar transposer. Exact interval, chord tracking and polyphonic/monophonic classification are unverified.",
+          "preset": "Five presets save module on/off combinations only, not effect parameters. The physical SHIMMER setting is not stored as a per-preset value; fully counter-clockwise turns it off.",
+          "dsp": "Six fixed sections: analog BOOST/DRIVE/DIST and digital MOD/DELAY/REVERB. Shimmer belongs to REVERB; no isolated shimmer DSP percentage, dynamic allocation figure or CPU meter located.",
+          "source_urls": [
+            "https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf",
+            "https://www.mooeraudio.com/product/Red-Truck-163.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "No documented wet-only drop-tuning range or independent pitch/latency/DSP measurement. Modulation and tuner functions do not establish polyphonic transposition."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.mooeraudio.com/product/Red-Truck-163.html",
+            "title": "Red Truck manufacturer product",
+            "access": "Exact product, feature/specification and download body read",
+            "evidence": "Analog drive sections, digital ambience, manual downloads. No firmware release shown."
+          },
+          {
+            "url": "https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf",
+            "title": "Red Truck manufacturer-authored English manual, part 620010668",
+            "access": "12-page original PDF text read; exact model and manufacturer imprint",
+            "evidence": "Five bypass-only presets; reverb SHIMMER; six-section chain. No updater documented. Manual revision/date not printed."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/product/11.html",
+            "title": "MOOER Chinese Black Truck product introduction",
+            "access": "Manufacturer indexed text checked",
+            "evidence": "Explicit retrospective statement that RED TRUCK was released in 2017; no exact first date supplied."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -194715,7 +194775,6 @@
       "MOOER::Prime P1",
       "MOOER::Prime P2",
       "MOOER::Prime S1",
-      "MOOER::Red Truck",
       "Mosky::DC5",
       "Mosky::RC5",
       "Mosky::RD5",
@@ -194886,9 +194945,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 201,
-    "last_model": "MOOER::Black Truck",
-    "last_commit_parent": "14e308e3cbdecb52bb6d4a1a40eb67120100666b",
+    "completed_model_count": 202,
+    "last_model": "MOOER::Red Truck",
+    "last_commit_parent": "b1e9a8c628f8578725d2f21704e3099785647443",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -194923,7 +194982,6 @@
       "MOOER::Prime P1",
       "MOOER::Prime P2",
       "MOOER::Prime S1",
-      "MOOER::Red Truck",
       "Mosky::DC5",
       "Mosky::RC5",
       "Mosky::RD5",
@@ -195093,7 +195151,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 201,
+    "pitch_completed_model_count": 202,
     "supplemental_model_count": 0
   },
   "model_images": {

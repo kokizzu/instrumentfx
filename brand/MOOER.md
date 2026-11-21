@@ -4272,6 +4272,30 @@ The regional S1 section labels **240W×70.2D×31.9Hmm**, conflicting with the or
 
 ## Red Truck
 
+<!-- firmware-pitch:MOOER::Red Truck begins -->
+### Firmware and pitch audit — MOOER Red Truck
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017 (manufacturer stated release year). MOOER explicitly states in its Black Truck introduction that Red Truck was released in 2017. Exact first announcement/shipping day is unresolved; the later Black Truck date is not transferred. [launch 1](https://cn.mooeraudio.com/product/11.html) |
+| Firmware / latest verification | Not verified — Unverified. No dated Red Truck firmware package or update procedure located in the checked product/manual. Product downloads list manuals in several languages. Analog/DC connector inventory without USB/MIDI does not by itself prove non-updatability. No elapsed firmware-support span calculated. [firmware 1](https://www.mooeraudio.com/product/Red-Truck-163.html) [firmware 2](https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. REVERB SHIMMER adds high-pitched harmony to the reverb. This documents a pitched ambience component, not a dedicated whole-guitar transposer. Exact interval, chord tracking and polyphonic/monophonic classification are unverified. [pitch 1](https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf) [pitch 2](https://www.mooeraudio.com/product/Red-Truck-163.html) |
+| Pitch / preset recall | Five presets save module on/off combinations only, not effect parameters. The physical SHIMMER setting is not stored as a per-preset value; fully counter-clockwise turns it off. |
+| Pitch / DSP resources | Six fixed sections: analog BOOST/DRIVE/DIST and digital MOD/DELAY/REVERB. Shimmer belongs to REVERB; no isolated shimmer DSP percentage, dynamic allocation figure or CPU meter located. |
+| Pitch / qualifications | No documented wet-only drop-tuning range or independent pitch/latency/DSP measurement. Modulation and tuner functions do not establish polyphonic transposition. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Red Truck manufacturer product](https://www.mooeraudio.com/product/Red-Truck-163.html) — Analog drive sections, digital ambience, manual downloads. No firmware release shown. (Exact product, feature/specification and download body read).
+- [Red Truck manufacturer-authored English manual, part 620010668](https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf) — Five bypass-only presets; reverb SHIMMER; six-section chain. No updater documented. Manual revision/date not printed. (12-page original PDF text read; exact model and manufacturer imprint).
+- [MOOER Chinese Black Truck product introduction](https://cn.mooeraudio.com/product/11.html) — Explicit retrospective statement that RED TRUCK was released in 2017; no exact first date supplied. (Manufacturer indexed text checked).
+
+<!-- firmware-pitch:MOOER::Red Truck ends -->
+
 Checked **2026-10-17**. Partial guitar multi-effects record, distinct from Black Truck. Bass/vocal suitability unverified.
 
 | Field | Evidence / remaining limits |
