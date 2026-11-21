@@ -420,6 +420,31 @@ Selected manual text inspected; no visual-panel or complete revision audit claim
 
 ## FV03 Character
 
+<!-- firmware-pitch:Flamma::FV03 Character begins -->
+### Firmware and pitch audit — Flamma FV03 Character
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. V01 filename dates documentation to2021-06-18, while its metadata references2020-11-12; neither establishes hardware first sale. No authenticated launch dateline located. [launch 1](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV03_Manual_EN_V01_2021.06.18_A.pdf?v=1671179013) [launch 2](https://flammainnovation.com/single.html?id=60) |
+| Firmware / latest verification | Not verified — No public firmware located. Maker catalogue lists only FV03 manualV03/2024-01-08; no public device firmware version/date or updater located. Manual revision is not firmware. Complete connector inventory has no USB/MIDI user-update port; internal/service firmware existence is not ruled out. [firmware 1](https://flammainnovation.com/download.html) [firmware 2](https://flammainnovation.com/file/pdf?fileName=FV03_Manual_EN_V03_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj8KAXiq5AAckMBBCgMY607.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Unverified. Six voice-character modes: Male,Female,Baby,Robot1–3. Maker describes voice alteration and dry/effect Mix, but does not specify transposition intervals, pitch-versus-formant processing, note tracking or mono/polyphonic input. These names do not prove a clean pitch shifter, harmonizer or chord retuner. Guitar path is documented for reverb, not character shifting. [pitch 1](https://flammainnovation.com/file/pdf?fileName=FV03_Manual_EN_V03_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj8KAXiq5AAckMBBCgMY607.pdf) [pitch 2](https://flammainnovation.com/single.html?id=60) |
+| Pitch / preset recall | Physical Mode/Reverb/Mix/Tone controls; no stored-user preset bank or factory/user memory allocation established. Six mode positions are algorithm choices, not six preset memories. |
+| Pitch / DSP resources | Fixed voice-change and reverb/tone processing; footswitch can bypass voice alteration while retaining reverb. Guitar reverb adjusted separately. No numerical CPU/DSP percentage or per-mode resource allocation published; generated-character names cannot quantify DSP or synthesis architecture. |
+| Pitch / qualifications | Voice alteration is documented; its pitch implementation and polyphony remain unverified. No FV02 octave or FV04 key/harmony behavior inherited. Existing manual delay mention remains unsupported by its detailed effect/control inventory. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [FV03 original V01 manual reference](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV03_Manual_EN_V01_2021.06.18_A.pdf?v=1671179013) — Filename/metadata revision dates differ; neither authenticates first hardware release. (Manufacturer-hosted historical manual reference retained from prior inspection).
+- [FV03 own English manual V03](https://flammainnovation.com/file/pdf?fileName=FV03_Manual_EN_V03_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj8KAXiq5AAckMBBCgMY607.pdf) — Six character modes, dry/voice Mix and footswitch/reverb behavior; no interval/polyphony/DSP benchmark or user-update route. (Direct11-page manufacturer PDF, V03/2024-01-08, printed3–7).
+- [FLAMMA FV03 own product description](https://flammainnovation.com/single.html?id=60) — Male/Female/Baby/Robot1–3; voice alteration plus reverb; no quantified pitch implementation. (Indexed manufacturer product text).
+- [FLAMMA download catalogue FV03 entry](https://flammainnovation.com/download.html) — FV03 manualV03 only; no public firmware/updater entry located. (Indexed current manufacturer catalogue).
+
+<!-- firmware-pitch:Flamma::FV03 Character ends -->
+
 Checked **2026-10-17**; partial. Vocal character processing plus reverb and tone. Own manual explicitly enables voice/reverb together: vocal-only multi-effects membership. Guitar reverb is a supporting path; no guitar/bass multi-effects membership established. FV01 remains excluded.
 
 <!-- comparison evidence begins -->
