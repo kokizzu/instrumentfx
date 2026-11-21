@@ -200778,11 +200778,37 @@
             "sha256": "e98684e8d509a75a7888fec74b53353827ec69ffb24f64be1f80c20ab6e8a9a3"
           }
         }
+      },
+      "NUX::PG-2": {
+        "model_key": "NUX::PG-2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.bax-shop.nl/image/product/314323/955047/cb25d15f/1488462541NUX%20PG-2%20Portable%20Guitar%20Effects%20front.JPG?key=og",
+            "source_url": "https://www.bax-shop.nl/multi-effect-pedaal/nux-pg-2-portable-guitar-effects",
+            "caption": "PG-2 overhead control view",
+            "note": "Exact overhead PG-2 photograph with an active LCD showing G and A4=440. The LCD is readable without backlighting; no illumination claim is made.",
+            "visual_checked": true,
+            "sha256": "04a1f7474ec491dbacc70c6982075f7cd4f8e090ca21ce08ecfadc3797b27038",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://beachmusic.be/shops/beachmusic/13944628-3.jpg",
+            "source_url": "https://beachmusic.be/multi-effecten/nux-pg-2",
+            "caption": "PG-2 connector-side view",
+            "note": "Connector edge shows labeled instrument INPUT and OUTPUT plus the headphone jack. Side AUX and DC sockets are not visible in this view; their locations are documented in the original manual. This is the connector edge, not the belt-clip underside.",
+            "visual_checked": true,
+            "sha256": "fa6cccbd8ab6ba1cd858950d370ffc8b528d453363cad4b7c36cc0239c1b3601",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::Stageman Floor NAP-5"
+    "last_model": "NUX::PG-2"
   }
 }
