@@ -193435,11 +193435,35 @@
             "sha256": "1598e6a81052139df79b905e86a0e241a5625549e35d3e51751a31e6bbc894b8"
           }
         }
+      },
+      "DigiTech::RP355": {
+        "model_key": "DigiTech::RP355",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/digitech-rp355-6141359.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP355/",
+            "caption": "DigiTech RP355 — top panel",
+            "note": "Audiofanzine user-gallery near-overhead photograph of RP355, with slight perspective. Red display windows are unlit; powered-on status is not established. A confirmed powered-on exact top-down replacement remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "b58ce0eb07835bfd0a4462e1bc84b4c13fbc2e8473724c5f5deed3ea5dd36214"
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/digitech-rp355-4083603.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP355/",
+            "caption": "DigiTech RP355 — rear connections",
+            "note": "Clear user-gallery rear photograph shows INPUT, two AMP/MIXER switches, LEFT (Mono)/RIGHT jack outputs, headphones, AUX IN, LEFT OUT/RIGHT OUT XLR, USB Type-B and power. Chassis label explicitly reads 9VAC 1.3A, not 9V DC. Sockets and labels unobstructed; rear photograph does not establish operating power state.",
+            "visual_checked": true,
+            "sha256": "db21a66596f62cb272e16453315de85b4e006b6cf5ce88d5eabae7837c6b605e"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP360XP"
+    "last_model": "DigiTech::RP355"
   }
 }

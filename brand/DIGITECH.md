@@ -1532,6 +1532,26 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP355 ends -->
 
+<!-- model-images:DigiTech::RP355 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**DigiTech RP355 — top panel**
+
+[![DigiTech RP355 — top panel](https://medias.audiofanzine.com/images/normal/digitech-rp355-6141359.jpg)](https://medias.audiofanzine.com/images/normal/digitech-rp355-6141359.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP355/). Audiofanzine user-gallery near-overhead photograph of RP355, with slight perspective. Red display windows are unlit; powered-on status is not established. A confirmed powered-on exact top-down replacement remains pending.
+
+**DigiTech RP355 — rear connections**
+
+[![DigiTech RP355 — rear connections](https://medias.audiofanzine.com/images/normal/digitech-rp355-4083603.jpg)](https://medias.audiofanzine.com/images/normal/digitech-rp355-4083603.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP355/). Clear user-gallery rear photograph shows INPUT, two AMP/MIXER switches, LEFT (Mono)/RIGHT jack outputs, headphones, AUX IN, LEFT OUT/RIGHT OUT XLR, USB Type-B and power. Chassis label explicitly reads 9VAC 1.3A, not 9V DC. Sockets and labels unobstructed; rear photograph does not establish operating power state.
+
+</details>
+<!-- model-images:DigiTech::RP355 ends -->
+
+
 Checked 2026-10-18; partial. Exact RP355, not RP350. [Manufacturer product](https://digitech.com/dp/rp355/) (P); [own manual](https://digitech.com/wp-content/uploads/2022/09/RP355_OM_EN.pdf),40 PDF pages,printed pp4–7,26,28,30 (M); browser text. [Power FAQ](https://digitech.com/faqs/) (F); [software catalogue](https://digitech.com/software-downloads/) (S).
 
 <!-- comparison evidence begins -->
