@@ -191129,11 +191129,35 @@
             "sha256": "83dadf78f42bdacad62898f868a136b39c8a4185c2f16b5a767074b94869b339"
           }
         }
+      },
+      "Line 6::HX Effects": {
+        "model_key": "Line 6::HX Effects",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/6/0a020a41ea065fff3561292af/image/png",
+            "source_url": "https://line6.com/hx-effects/",
+            "caption": "HX Effects powered-on top-down product image",
+            "note": "Exact overhead manufacturer image shows six active LCD scribble strips and eight footswitches with illuminated colored rings, four rotaries and six separate buttons. The six strips belong to assignable switches 1–6; MODE and TAP do not add two more LCDs. No built-in treadle or large central touchscreen. Published product image is not proof of installed firmware or a physical tracking test.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "1a7585cb7458d6b97d1f873bda5637b9c1745419645fcbe35595834c6c120fb5"
+          },
+          "rear": {
+            "image_url": "https://line6.com/data/6/0a020a402ad45fff4fbb29d2c/image/png",
+            "source_url": "https://line6.com/hx-effects/",
+            "caption": "HX Effects complete rear connections",
+            "note": "Manufacturer rear view labels two PEDAL/EXT AMP sockets, SEND1/2 and RETURN1/2, L/MONO/RIGHT inputs and outputs, MIDI IN/OUT-THRU, USB-B, DC IN and power rocker. No separate headphone socket, XLR input/output or integrated expression treadle; the PEDAL sockets share expression and amp-control roles. Voltage/current are not readable here and are not inferred from the barrel connector. USB presence alone does not establish audio-interface support.",
+            "visual_checked": true,
+            "sha256": "ab40b8a8dad64858a64781f145fc6257b8659913ec25013421bb00f942a51e32"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::HX Stomp"
+    "last_model": "Line 6::HX Effects"
   }
 }
