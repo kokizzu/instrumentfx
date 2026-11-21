@@ -190860,6 +190860,89 @@
           "label": "1.55–1.63 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "GFI System::Synesthesia": {
+        "model_key": "GFI System::Synesthesia",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2019-12-04",
+          "precision": "day",
+          "kind": "contemporary_launch_report_proxy",
+          "source_urls": [
+            "https://www.guitarristas.info/amp/noticias/synesthesia-nuevo-pedal-doble-modulacion-gfi-system/8605"
+          ],
+          "note": "Dated contemporary new-product report; reporting-date proxy, not proven manufacturer announcement or first shipment. Earlier NAMM prototype exposure does not establish retail release. Later 2023 article dates must not be treated as first launch."
+        },
+        "firmware": {
+          "version": "2.5.1",
+          "date": "2026-09-18",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://gfisystem.com/downloads/synesthesia"
+          ],
+          "note": "Current exact-model manufacturer downloads page lists 2.5.1 dated September 18, 2026, fixing intermittent lockups. Firmware, SymmLab editor and algorithm library are distinct update components. No update installed."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Octave Shifter explicitly provides polyphonic octave-up/down with independent dry blend and accompanying reverb. Detune offers separate upward/downward cents; Arpeggiator sequences pitch steps. Polyphony claim applies to Octave Shifter, not an inferred guarantee for every algorithm or arbitrary semitone retuning.",
+          "preset": "32 onboard presets store engine choices, settings and routing; primary parameters support preset-specific expression mapping. No physical recall test.",
+          "dsp": "Two engines, one algorithm per X/Y engine, with Cascade/Mixture/Split routing. Octave Shifter includes reverb within its algorithm. No numeric pitch CPU percentage or measured free-DSP budget published in the reviewed sources; one of two engine slots is not evidence of 50% CPU.",
+          "source_urls": [
+            "https://www.scribd.com/document/1075834567/Synesthesia-Algorithms-v2x-x",
+            "https://www.gfisystem.com/_files/ugd/9deb14_0d772418fba9421bbc7750e4ee86dbec.pdf",
+            "https://manuals.plus/m/c645c453677b834bfe7cb54a03a4d1057c3bc8b25e640efe6e906a59ba5c232e",
+            "https://gfisystem.com/pedals/synesthesia"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer-authored algorithm/manual bodies read in reproductions; legacy official algorithm PDF now returns 404, indexed original wording corroborates octave polyphony. No tracking/latency/resource measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.guitarristas.info/amp/noticias/synesthesia-nuevo-pedal-doble-modulacion-gfi-system/8605",
+            "title": "Contemporary Synesthesia new-product report, December 4, 2019",
+            "access": "Dated report read; launch timing proxy only",
+            "evidence": "Describes new Synesthesia in December 2019; does not prove first shipment day."
+          },
+          {
+            "url": "https://gfisystem.com/downloads/synesthesia",
+            "title": "GFI Synesthesia manufacturer downloads",
+            "access": "Current exact-model manufacturer page read",
+            "evidence": "2.5.1, September 18, 2026; intermittent lockup fix."
+          },
+          {
+            "url": "https://www.scribd.com/document/1075834567/Synesthesia-Algorithms-v2x-x",
+            "title": "GFI Synesthesia Algorithms Reference V2.x.x reproduction",
+            "access": "Manufacturer-authored original body read on Scribd; generated summary excluded",
+            "evidence": "Octave Shifter explicitly polyphonic; Detune cents and Arpeggiator sequence pitch; octave algorithm includes reverb."
+          },
+          {
+            "url": "https://www.gfisystem.com/_files/ugd/9deb14_0d772418fba9421bbc7750e4ee86dbec.pdf",
+            "title": "Legacy official Synesthesia algorithm reference URL",
+            "access": "Indexed original text read; direct retrieval 404",
+            "evidence": "Indexed Octave Shifter description corroborates polyphonic octave-up/down; URL failure qualified."
+          },
+          {
+            "url": "https://manuals.plus/m/c645c453677b834bfe7cb54a03a4d1057c3bc8b25e640efe6e906a59ba5c232e",
+            "title": "Synesthesia User Manual firmware 2.3.0+ reproduction",
+            "access": "Manufacturer-authored 19-page document text read; generated FAQ excluded",
+            "evidence": "32 presets, per-preset routing, X/Y algorithm selection and expression mapping."
+          },
+          {
+            "url": "https://gfisystem.com/pedals/synesthesia",
+            "title": "GFI Synesthesia exact product",
+            "access": "Manufacturer page read",
+            "evidence": "Two simultaneous engines, 38 choices, three DSP routing schemes; no CPU percentage."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2480,
+          "maximum_days": 2480,
+          "label": "6.79 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190871,7 +190954,6 @@
       "Fractal Audio::FM9 Turbo",
       "Fractal Audio::VP4",
       "GFI System::Solis Ventus",
-      "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
       "Keeley::Delay Workstation",
       "Kemper::PROFILER Head MK2",
@@ -191115,9 +191197,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 152,
-    "last_model": "Line 6::POD XT Live",
-    "last_commit_parent": "7e773fa21490857f94858eb237b5afc92fa4873b",
+    "completed_model_count": 153,
+    "last_model": "GFI System::Synesthesia",
+    "last_commit_parent": "eb5bf6e02cd061da0ac90d3a8911d3fad8baf895",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -191128,7 +191210,6 @@
       "Fractal Audio::FM9 Turbo",
       "Fractal Audio::VP4",
       "GFI System::Solis Ventus",
-      "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
       "Keeley::Delay Workstation",
       "Kemper::PROFILER Head MK2",
@@ -191371,7 +191452,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 152,
+    "pitch_completed_model_count": 153,
     "supplemental_model_count": 0
   },
   "model_images": {

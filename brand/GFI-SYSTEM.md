@@ -128,6 +128,33 @@ Fresh Shopee searches produced no new qualified exact offer; the dated existing 
 
 ## Synesthesia
 
+<!-- firmware-pitch:GFI System::Synesthesia begins -->
+### Firmware and pitch audit — GFI System Synesthesia
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2019-12-04 (contemporary launch report proxy). Dated contemporary new-product report; reporting-date proxy, not proven manufacturer announcement or first shipment. Earlier NAMM prototype exposure does not establish retail release. Later 2023 article dates must not be treated as first launch. [launch 1](https://www.guitarristas.info/amp/noticias/synesthesia-nuevo-pedal-doble-modulacion-gfi-system/8605) |
+| Firmware / latest verification | 2.5.1 — Latest verified. Current exact-model manufacturer downloads page lists 2.5.1 dated September 18, 2026, fixing intermittent lockups. Firmware, SymmLab editor and algorithm library are distinct update components. No update installed. [firmware 1](https://gfisystem.com/downloads/synesthesia) |
+| Firmware / release date | 2026-09-18 (day precision) |
+| Firmware / release-to-update duration | 6.79 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Octave Shifter explicitly provides polyphonic octave-up/down with independent dry blend and accompanying reverb. Detune offers separate upward/downward cents; Arpeggiator sequences pitch steps. Polyphony claim applies to Octave Shifter, not an inferred guarantee for every algorithm or arbitrary semitone retuning. [pitch 1](https://www.scribd.com/document/1075834567/Synesthesia-Algorithms-v2x-x) [pitch 2](https://www.gfisystem.com/_files/ugd/9deb14_0d772418fba9421bbc7750e4ee86dbec.pdf) [pitch 3](https://manuals.plus/m/c645c453677b834bfe7cb54a03a4d1057c3bc8b25e640efe6e906a59ba5c232e) [pitch 4](https://gfisystem.com/pedals/synesthesia) |
+| Pitch / preset recall | 32 onboard presets store engine choices, settings and routing; primary parameters support preset-specific expression mapping. No physical recall test. |
+| Pitch / DSP resources | Two engines, one algorithm per X/Y engine, with Cascade/Mixture/Split routing. Octave Shifter includes reverb within its algorithm. No numeric pitch CPU percentage or measured free-DSP budget published in the reviewed sources; one of two engine slots is not evidence of 50% CPU. |
+| Pitch / qualifications | Manufacturer-authored algorithm/manual bodies read in reproductions; legacy official algorithm PDF now returns 404, indexed original wording corroborates octave polyphony. No tracking/latency/resource measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Contemporary Synesthesia new-product report, December 4, 2019](https://www.guitarristas.info/amp/noticias/synesthesia-nuevo-pedal-doble-modulacion-gfi-system/8605) — Describes new Synesthesia in December 2019; does not prove first shipment day. (Dated report read; launch timing proxy only).
+- [GFI Synesthesia manufacturer downloads](https://gfisystem.com/downloads/synesthesia) — 2.5.1, September 18, 2026; intermittent lockup fix. (Current exact-model manufacturer page read).
+- [GFI Synesthesia Algorithms Reference V2.x.x reproduction](https://www.scribd.com/document/1075834567/Synesthesia-Algorithms-v2x-x) — Octave Shifter explicitly polyphonic; Detune cents and Arpeggiator sequence pitch; octave algorithm includes reverb. (Manufacturer-authored original body read on Scribd; generated summary excluded).
+- [Legacy official Synesthesia algorithm reference URL](https://www.gfisystem.com/_files/ugd/9deb14_0d772418fba9421bbc7750e4ee86dbec.pdf) — Indexed Octave Shifter description corroborates polyphonic octave-up/down; URL failure qualified. (Indexed original text read; direct retrieval 404).
+- [Synesthesia User Manual firmware 2.3.0+ reproduction](https://manuals.plus/m/c645c453677b834bfe7cb54a03a4d1057c3bc8b25e640efe6e906a59ba5c232e) — 32 presets, per-preset routing, X/Y algorithm selection and expression mapping. (Manufacturer-authored 19-page document text read; generated FAQ excluded).
+- [GFI Synesthesia exact product](https://gfisystem.com/pedals/synesthesia) — Two simultaneous engines, 38 choices, three DSP routing schemes; no CPU percentage. (Manufacturer page read).
+
+<!-- firmware-pitch:GFI System::Synesthesia ends -->
+
 Checked 2026-10-28; **partial active guitar multi-effects record**, not fully verified. Dual-engine filtering, octave, EQ, echo and modulation plus explicit guitar-pickup guidance establish eligibility; no specialized pickup required by the inspected instructions. Bass/vocal suitability and ownership unverified. Earlier discovery wording below is retained as dated research history; this summary governs current admission.
 
 <!-- comparison evidence begins -->
