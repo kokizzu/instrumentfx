@@ -200700,11 +200700,37 @@
             "sha256": "449abac7577f97c9df3d6ee3c17313e31b6d1d891d27240da215dc6d9af1b432"
           }
         }
+      },
+      "NUX::Stageman Floor NAP-5": {
+        "model_key": "NUX::Stageman Floor NAP-5",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_01.jpg?v=1756897653&width=2560",
+            "source_url": "https://www.nux.us/products/stageman-floor",
+            "caption": "NUX Stageman Floor — top controls",
+            "visual_checked": true,
+            "note": "Official overhead photograph clearly shows all seven knobs and both footswitches. The green Chorus lens is visible, but illumination is not clear enough to verify powered-on state; a confirmed powered-on overhead photo remains a gap.",
+            "powered_on": null,
+            "exact_top_down": true,
+            "sha256": "c398d8030eda441ad53b5ac635cee5e18b205dff59da51f32d14f40f99770210"
+          },
+          "rear": {
+            "image_url": "https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_02.jpg?v=1756897653&width=2560",
+            "source_url": "https://www.nux.us/products/stageman-floor",
+            "caption": "NUX Stageman Floor — rear ports",
+            "visual_checked": true,
+            "note": "Official rear photograph shows INPUT, pickup Piezo/Magnetic switch, DI ground lift, OUTPUT, TRS INSERT explicitly labeled tip-send/ring-return, micro-USB and center-negative DC9V. Side-panel XLR DI, AUX and headphones are not visible in this rear view. No operating status is visible.",
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "e98684e8d509a75a7888fec74b53353827ec69ffb24f64be1f80c20ab6e8a9a3"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::Atlantic NDR-5"
+    "last_model": "NUX::Stageman Floor NAP-5"
   }
 }

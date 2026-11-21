@@ -2379,6 +2379,26 @@ Sources checked:
 
 <!-- firmware-pitch:NUX::Stageman Floor NAP-5 ends -->
 
+<!-- model-images:NUX::Stageman Floor NAP-5 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**NUX Stageman Floor — top controls**
+
+[![NUX Stageman Floor — top controls](https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_01.jpg?v=1756897653&width=2560)](https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_01.jpg?v=1756897653&width=2560)
+
+[Image source](https://www.nux.us/products/stageman-floor). Official overhead photograph clearly shows all seven knobs and both footswitches. The green Chorus lens is visible, but illumination is not clear enough to verify powered-on state; a confirmed powered-on overhead photo remains a gap.
+
+**NUX Stageman Floor — rear ports**
+
+[![NUX Stageman Floor — rear ports](https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_02.jpg?v=1756897653&width=2560)](https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_02.jpg?v=1756897653&width=2560)
+
+[Image source](https://www.nux.us/products/stageman-floor). Official rear photograph shows INPUT, pickup Piezo/Magnetic switch, DI ground lift, OUTPUT, TRS INSERT explicitly labeled tip-send/ring-return, micro-USB and center-negative DC9V. Side-panel XLR DI, AUX and headphones are not visible in this rear view. No operating status is visible.
+
+</details>
+<!-- model-images:NUX::Stageman Floor NAP-5 ends -->
+
+
 <!-- comparison evidence begins -->
 
 Checked2026-10-17;partial. Acoustic guitar multi-effects: analog preamp plus independently controlled chorus/reverb/freeze and looper, not inferred from EQ alone. Bass/vocal capability unestablished. [Manufacturer](https://nuxaudio.com/product/stagemanfloor/).
