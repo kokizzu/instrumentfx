@@ -626,6 +626,31 @@ Remaining: native/converted NAM architecture and workflow, exact concurrent DSP 
 
 ## AVE-100
 
+<!-- firmware-pitch:Audota::AVE-100 begins -->
+### Firmware and pitch audit — Audota AVE-100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact first hardware release not established. Manual V01 artwork date 2025-07-24 and quick-guide dates are document evidence, not a verified launch. [launch 1](https://en.audota.com/AVE100EN.html) [launch 2](https://www.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_Manual_EN_V1.0.0.pdf) |
+| Firmware / latest verification | 1.2.0 — Latest verified. Manufacturer notes explicitly identify firmware-only upgrade 1.2.0 dated 2026-05-19 for Windows and Mac. Current product/download index still lists 1.2.0. Changes address compression, AutoTune latency/logic, Electric mode, scale/KeyLearn/harmony behavior and reverb range. Not evidence of firmware installed on any owner unit. [firmware 1](https://en.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_PC_Software_Official_Version_Upgrade_Notes_20260519.pdf) [firmware 2](https://en.audota.com/AVE100EN.html) [firmware 3](https://en.audota.com/EN_software.html) |
+| Firmware / release date | 2026-05-19 (day precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Original manual: Natural key-based correction, Chromatic correction and harmony choices +3rd/unison/+6th. Firmware 1.2.0 adds/describes Electric AutoTune behavior and fixes scale/key/harmony handling. Number of generated voices is not input-note polyphony; chordal input and arbitrary semitone capo use remain unverified. [pitch 1](https://www.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_Manual_EN_V1.0.0.pdf) [pitch 2](https://en.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_PC_Software_Official_Version_Upgrade_Notes_20260519.pdf) [pitch 3](https://en.audota.com/AVE100EN.html) |
+| Pitch / preset recall | No addressable patch bank or save/recall procedure documented. Physical knobs/key/mode controls and PITCH pad govern correction/harmony; pad supports toggle or momentary operation. Harmony choices are not stored presets. Settings retention across power-off remains unverified. |
+| Pitch / DSP resources | Fixed correction/harmony and echo/reverb sections; no freely assignable pitch slots or per-algorithm DSP percentage published in inspected sources. Reverb volume/decay increase of about20% in notes is a parameter-range change, not CPU usage. Do not transfer Ampero50%. |
+| Pitch / qualifications | Vocal pitch correction/harmonization is documented; mono versus polyphonic source-note handling is not explicitly specified. Older manual controls and firmware-update behavior remain distinguished. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Audota AVE-100 official upgrade notes, 2026-05-19](https://en.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_PC_Software_Official_Version_Upgrade_Notes_20260519.pdf) — Windows/Mac tables: 1.2.0, explicit firmware-only upgrade, date2026-05-19; AutoTune/scale/harmony/compression/reverb changes. No CPU measurement. (opened_manufacturer_pdf_text).
+- [Audota AVE-100 original English User Manual](https://www.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_Manual_EN_V1.0.0.pdf) — Printed pp7–9 correction/harmony/key controls; p12 pad modes and volatile looper audio. No stored patch bank or note-polyphony specification. (opened_manufacturer_pdf_text).
+- [Audota AVE-100 current manufacturer product page](https://en.audota.com/AVE100EN.html) — Vocal model identity; product downloads list1.2.0; no verified hardware launch date or DSP-cost figure. (opened).
+- [Audota current software index](https://en.audota.com/EN_software.html) — Separate Windows/Mac AVE-1001.2.0 packages; corroborates currently published release. (opened).
+
+<!-- firmware-pitch:Audota::AVE-100 ends -->
+
 Vocal multi-effects only; no ownership assertion or guitar classification inferred from the combo input. Consolidated **2026-10-17**; original observation/inspection dates and historical next notes remain preserved.
 
 <!-- AUDOTA-AVE-100 source begins -->

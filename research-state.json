@@ -180802,10 +180802,78 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "Audota::AVE-100": {
+        "model_key": "Audota::AVE-100",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://en.audota.com/AVE100EN.html",
+            "https://www.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_Manual_EN_V1.0.0.pdf"
+          ],
+          "note": "Exact first hardware release not established. Manual V01 artwork date 2025-07-24 and quick-guide dates are document evidence, not a verified launch."
+        },
+        "firmware": {
+          "version": "1.2.0",
+          "date": "2026-05-19",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://en.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_PC_Software_Official_Version_Upgrade_Notes_20260519.pdf",
+            "https://en.audota.com/AVE100EN.html",
+            "https://en.audota.com/EN_software.html"
+          ],
+          "note": "Manufacturer notes explicitly identify firmware-only upgrade 1.2.0 dated 2026-05-19 for Windows and Mac. Current product/download index still lists 1.2.0. Changes address compression, AutoTune latency/logic, Electric mode, scale/KeyLearn/harmony behavior and reverb range. Not evidence of firmware installed on any owner unit."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Original manual: Natural key-based correction, Chromatic correction and harmony choices +3rd/unison/+6th. Firmware 1.2.0 adds/describes Electric AutoTune behavior and fixes scale/key/harmony handling. Number of generated voices is not input-note polyphony; chordal input and arbitrary semitone capo use remain unverified.",
+          "preset": "No addressable patch bank or save/recall procedure documented. Physical knobs/key/mode controls and PITCH pad govern correction/harmony; pad supports toggle or momentary operation. Harmony choices are not stored presets. Settings retention across power-off remains unverified.",
+          "dsp": "Fixed correction/harmony and echo/reverb sections; no freely assignable pitch slots or per-algorithm DSP percentage published in inspected sources. Reverb volume/decay increase of about20% in notes is a parameter-range change, not CPU usage. Do not transfer Ampero50%.",
+          "source_urls": [
+            "https://www.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_Manual_EN_V1.0.0.pdf",
+            "https://en.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_PC_Software_Official_Version_Upgrade_Notes_20260519.pdf",
+            "https://en.audota.com/AVE100EN.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Vocal pitch correction/harmonization is documented; mono versus polyphonic source-note handling is not explicitly specified. Older manual controls and firmware-update behavior remain distinguished."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://en.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_PC_Software_Official_Version_Upgrade_Notes_20260519.pdf",
+            "title": "Audota AVE-100 official upgrade notes, 2026-05-19",
+            "access": "opened_manufacturer_pdf_text",
+            "evidence": "Windows/Mac tables: 1.2.0, explicit firmware-only upgrade, date2026-05-19; AutoTune/scale/harmony/compression/reverb changes. No CPU measurement."
+          },
+          {
+            "url": "https://www.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_Manual_EN_V1.0.0.pdf",
+            "title": "Audota AVE-100 original English User Manual",
+            "access": "opened_manufacturer_pdf_text",
+            "evidence": "Printed pp7–9 correction/harmony/key controls; p12 pad modes and volatile looper audio. No stored patch bank or note-polyphony specification."
+          },
+          {
+            "url": "https://en.audota.com/AVE100EN.html",
+            "title": "Audota AVE-100 current manufacturer product page",
+            "access": "opened",
+            "evidence": "Vocal model identity; product downloads list1.2.0; no verified hardware launch date or DSP-cost figure."
+          },
+          {
+            "url": "https://en.audota.com/EN_software.html",
+            "title": "Audota current software index",
+            "access": "opened",
+            "evidence": "Separate Windows/Mac AVE-1001.2.0 packages; corroborates currently published release."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Audota::AVE-100",
       "Behringer::Bass V-AMP",
       "Behringer::Bass V-AMP PRO",
       "Behringer::DSP2024P",
@@ -181193,12 +181261,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 16,
-    "last_model": "Audota::AME-200 Pro",
-    "last_commit_parent": "732d379e2f7e2d6b0c5cc14f92a6f4e68bda12e6",
+    "completed_model_count": 17,
+    "last_model": "Audota::AVE-100",
+    "last_commit_parent": "5346d399296f043e0114b686fba27c21fb72cad4",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Audota::AVE-100",
       "Behringer::Bass V-AMP",
       "Behringer::Bass V-AMP PRO",
       "Behringer::DSP2024P",
@@ -181585,7 +181652,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 16,
+    "pitch_completed_model_count": 17,
     "supplemental_model_count": 0
   }
 }
