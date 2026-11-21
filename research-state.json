@@ -200483,10 +200483,62 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Mosky::RD5": {
+        "model_key": "Mosky::RD5",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first hardware release not verified",
+          "source_urls": [
+            "https://www.moskyaudio.com/multi-effects/129.html"
+          ],
+          "note": "Undated manufacturer description; seller year fields, database publication and image migration timestamps do not establish first release."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.moskyaudio.com/multi-effects/129.html",
+            "https://www.moskyaudio.com/mosky.html"
+          ],
+          "note": "No exact RD5 firmware release, updater or changelog found in checked manufacturer pages and searches. Manual index exposes no document entries; embedded product illustrations are separate. Internal firmware/non-updatability not established; update span unknown."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Manufacturer lists reverb, delay, booster, overdrive and buffer. No dedicated pitch-shift, transpose, octave or harmonizer documented; reverb/delay presence alone does not establish pitch algorithms or polyphony.",
+          "preset": "Factory/user memory, electronic program recall and programmable pitch-state storage unverified.",
+          "dsp": "No pitch-specific CPU/DSP budget located. Five named functions are not five freely assignable processors or a measured 20% cost per function.",
+          "source_urls": [
+            "https://www.moskyaudio.com/multi-effects/129.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Keep RD5 distinct from Mosky RC5/DC5/SOL918; do not inherit chorus, distortion or firmware from siblings."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.moskyaudio.com/multi-effects/129.html",
+            "title": "Mosky RD5 current manufacturer product page",
+            "access": "Manufacturer body inspected",
+            "evidence": "Undated five-function list: reverb/delay/booster/overdrive/buffer; no dedicated pitch or firmware release documented."
+          },
+          {
+            "url": "https://www.moskyaudio.com/mosky.html",
+            "title": "Mosky manufacturer manual index",
+            "access": "Manufacturer body inspected",
+            "evidence": "No manual entries exposed; no exact RD5 firmware updater found. Product-embedded images are separate resources."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Mosky::RD5",
       "Mosky::SOL918",
       "ROWIN::RE-05 Looper Pro",
       "Soran::Dual Stomp",
@@ -200620,12 +200672,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 270,
-    "last_model": "Mosky::RC5",
-    "last_commit_parent": "ad15296dacf4a731263c42a3d5648098598bfc91",
+    "completed_model_count": 271,
+    "last_model": "Mosky::RD5",
+    "last_commit_parent": "69b4acb06ec150dd5556566599460e6e8fe3c8a8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Mosky::RD5",
       "Mosky::SOL918",
       "ROWIN::RE-05 Looper Pro",
       "Soran::Dual Stomp",
@@ -200758,7 +200809,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 270,
+    "pitch_completed_model_count": 271,
     "supplemental_model_count": 0
   },
   "model_images": {

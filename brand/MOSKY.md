@@ -165,6 +165,29 @@ A five-day [search index](https://shopee.co.id/search?category=11043572&keyword=
 
 ## RD5
 
+<!-- firmware-pitch:Mosky::RD5 begins -->
+### Firmware and pitch audit — Mosky RD5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Undated manufacturer description; seller year fields, database publication and image migration timestamps do not establish first release. [launch 1](https://www.moskyaudio.com/multi-effects/129.html) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact RD5 firmware release, updater or changelog found in checked manufacturer pages and searches. Manual index exposes no document entries; embedded product illustrations are separate. Internal firmware/non-updatability not established; update span unknown. [firmware 1](https://www.moskyaudio.com/multi-effects/129.html) [firmware 2](https://www.moskyaudio.com/mosky.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Manufacturer lists reverb, delay, booster, overdrive and buffer. No dedicated pitch-shift, transpose, octave or harmonizer documented; reverb/delay presence alone does not establish pitch algorithms or polyphony. [pitch 1](https://www.moskyaudio.com/multi-effects/129.html) |
+| Pitch / preset recall | Factory/user memory, electronic program recall and programmable pitch-state storage unverified. |
+| Pitch / DSP resources | No pitch-specific CPU/DSP budget located. Five named functions are not five freely assignable processors or a measured 20% cost per function. |
+| Pitch / qualifications | Keep RD5 distinct from Mosky RC5/DC5/SOL918; do not inherit chorus, distortion or firmware from siblings. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Mosky RD5 current manufacturer product page](https://www.moskyaudio.com/multi-effects/129.html) — Undated five-function list: reverb/delay/booster/overdrive/buffer; no dedicated pitch or firmware release documented. (Manufacturer body inspected).
+- [Mosky manufacturer manual index](https://www.moskyaudio.com/mosky.html) — No manual entries exposed; no exact RD5 firmware updater found. Product-embedded images are separate resources. (Manufacturer body inspected).
+
+<!-- firmware-pitch:Mosky::RD5 ends -->
+
 Effects-only guitar multi-effects; checked 2026-10-18, partial. Ownership unverified. Bass/vocal suitability requires exact-model primary evidence.
 
 | Field | Finding / qualification |
