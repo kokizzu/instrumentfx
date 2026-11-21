@@ -1353,6 +1353,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GE150 Pro Li ends -->
 
+<!-- model-images:MOOER::GE150 Pro Li begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GE150 Pro Li powered-on top view**
+
+[![MOOER GE150 Pro Li powered-on top view](https://mooer.jp/cdn/shop/files/GE150Pro-Li-01.png?v=1728970622&width=1946)](https://mooer.jp/cdn/shop/files/GE150Pro-Li-01.png?v=1728970622&width=1946)
+
+[Image source](https://mooer.jp/products/mooer-ge150pro-li). Straight overhead red GE150 Pro Li with explicit Li badge, illuminated 2A British 800 screen, controls and footswitch rings; built-in expression pedal fully visible. Pictured battery percentage is illustrative, not a runtime measurement.
+
+**MOOER GE150 Pro Li rear ports**
+
+[![MOOER GE150 Pro Li rear ports](https://mooer.jp/cdn/shop/files/GE150Pro-Li-02.png?v=1728970621&width=1946)](https://mooer.jp/cdn/shop/files/GE150Pro-Li-02.png?v=1728970621&width=1946)
+
+[Image source](https://mooer.jp/products/mooer-ge150pro-li). Full straight rear panel: AUX IN, INPUT, OUTPUT L (MONO)/R, PHONES, USB-C labeled OTG, rocker power and DC 9V 1.5A center-negative marking. Do not substitute standard Pro 300mA marking. No FX loop, XLR, dedicated MIDI or external EXP jack in this panel.
+
+</details>
+<!-- model-images:MOOER::GE150 Pro Li ends -->
+
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE150-PRO-LI source begins -->

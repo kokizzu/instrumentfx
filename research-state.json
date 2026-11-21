@@ -197414,11 +197414,35 @@
             "sha256": "5c09b531c0c3a136799162ea34e04883c704bbec03421a4b73b1139d28e36900"
           }
         }
+      },
+      "MOOER::GE150 Pro Li": {
+        "model_key": "MOOER::GE150 Pro Li",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE150Pro-Li-01.png?v=1728970622&width=1946",
+            "source_url": "https://mooer.jp/products/mooer-ge150pro-li",
+            "caption": "MOOER GE150 Pro Li powered-on top view",
+            "note": "Straight overhead red GE150 Pro Li with explicit Li badge, illuminated 2A British 800 screen, controls and footswitch rings; built-in expression pedal fully visible. Pictured battery percentage is illustrative, not a runtime measurement.",
+            "visual_checked": true,
+            "sha256": "ea941f0f47d4377d326743a8953889452316eb31439be5304bacfe925fe14043",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE150Pro-Li-02.png?v=1728970621&width=1946",
+            "source_url": "https://mooer.jp/products/mooer-ge150pro-li",
+            "caption": "MOOER GE150 Pro Li rear ports",
+            "note": "Full straight rear panel: AUX IN, INPUT, OUTPUT L (MONO)/R, PHONES, USB-C labeled OTG, rocker power and DC 9V 1.5A center-negative marking. Do not substitute standard Pro 300mA marking. No FX loop, XLR, dedicated MIDI or external EXP jack in this panel.",
+            "visual_checked": true,
+            "sha256": "627630bef3006638c6b10a751df902138250051e8a8deb55b35281f46c787e36"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE150 Pro"
+    "last_model": "MOOER::GE150 Pro Li"
   }
 }
