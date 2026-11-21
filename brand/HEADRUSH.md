@@ -15,6 +15,32 @@
 
 ## Core
 
+<!-- firmware-pitch:HeadRush::Core begins -->
+### Firmware and pitch audit — HeadRush Core
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-09-19 (manufacturer announcement). Manufacturer launch announcement datelined September19,2023, republished September21. Announcement date used; worldwide delivery dates may differ. [launch 1](https://musicplayers.com/2023/09/headrush-fx-introduces-the-revolutionary-guitar-and-vocal-effects-pedalboard-headrush-core/) |
+| Firmware / latest verification | 5.2.0 — Latest verified. Current exact-model notes explicitly identify latest5.2.0 and October2026; day unspecified. Release improves NAM A2 loading and fixes NAM/scene/USB issues. Updater requires Windows10 or macOS11 minimum; back up content first. No firmware installed on hardware during research. [firmware 1](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Core%20Firmware%20Update%20Instructions%20v5.2.0.pdf) [firmware 2](https://www.headrushfx.com/downloads.html) |
+| Firmware / release date | 2026-10 (month precision) |
+| Firmware / release-to-update duration | 3.03–3.12 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Maker explicitly labels Chord Wham as polyphonic. Pitch list also names Up Tune, Drop Tune, Harm, Octaves, Octaves Up, Smart Harm and Wham; heading says7 but8names are present. Do not classify all algorithms as polyphonic from Chord Wham alone. Vocal correction/harmony is separate from guitar chord transposition. [pitch 1](https://www.headrushfx.com/products/core/index.html) [pitch 2](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Core%20-%20User%20Guide%20-%20v5.2.0.pdf) [pitch 3](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Core%20Firmware%20Update%20Instructions%20v5.2.0.pdf) |
+| Pitch / preset recall | Rig and individual block presets save effect choice/settings; hardware assignments support expression and scenes. Current maximum stored-rig count not verified. Fourteen processing slots are not14preset memories. |
+| Pitch / DSP resources | V5.2 guide permits repeated block types within14rig slots, subject to CPU load; reaching100% may cause clicks/pops. No per-pitch percentage published. CPU use depends on other blocks/configuration; shorter IRs save resources. NAM/C-Verb have separate restrictions, so14slots do not promise14arbitrary high-load processors. |
+| Pitch / qualifications | V5.0 added Up Tune and improved Drop Tune;5.0.1 added Legacy/Refined Drop Tune modes and fixed clean-rig artifacts. No measured chord tracking, latency or pitch CPU load. Current guide was retrieved successfully, resolving earlier access-only limitation; prior evidence retained. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [HeadRush Core manufacturer launch announcement](https://musicplayers.com/2023/09/headrush-fx-introduces-the-revolutionary-guitar-and-vocal-effects-pedalboard-headrush-core/) — Announces release September19,2023; source publication date differs from announcement dateline. (Datelined manufacturer release republished by MusicPlayers,September21,2023).
+- [HeadRush Core firmware5.2.0 release notes](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Core%20Firmware%20Update%20Instructions%20v5.2.0.pdf) — Latest5.2.0,October2026;5.0/5.0.1 pitch changes and current updater requirements. (Current original13-page maker PDF, header/history text read).
+- [HeadRush current download index](https://www.headrushfx.com/downloads.html) — Exact Core5.2updaters,release notes and guide; older Core packages listed separately. (Direct current maker downloads).
+- [HeadRush Core own model catalogue](https://www.headrushfx.com/products/core/index.html) — Chord Wham explicitly polyphonic;8namedpitch entries under7heading. No measured DSP cost. (Direct maker product page).
+- [HeadRush Core user guide5.2.0](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Core%20-%20User%20Guide%20-%20v5.2.0.pdf) — Fourteen slots,CPU meter/repeated blocks,rig/block saving and resource qualifications. Retrieval now succeeds despite earlier web-reader limit. (Original81-page PDF retrieved; SHA25615ef7bcb8a5c60485c5fc63db6eb5db51536d748022cd2d6960225356fa0d206;pp14–28text read).
+
+<!-- firmware-pitch:HeadRush::Core ends -->
+
 **Technical and original price observations:2026-10-14.** Guitar/bass/vocal multi-effects; **large**, no built-in expression. This is Core, not Prime, Flex Prime, MX5 or Gigboard. Partial record, not independently tested. The complete earlier Core finding is consolidated here; its stale next-model instruction is superseded by the root ledger and current exclusions.
 
 <!-- comparison evidence begins -->

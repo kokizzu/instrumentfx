@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://flammainnovation.com/file/pdf?fileName=FX150_Manual_EN_V01_2023.06.21.pdf&url=group1%2FM00%2F00%2F08%2FwKgA0GSaSJiAMn4VAGArhRJTpAw069.pdf",
+    "requested_url": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Core%20-%20User%20Guide%20-%20v5.2.0.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 69,
+    "frame": 0,
     "text_pages": [
-      65,
-      70
+      13,
+      27
     ],
     "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
     "index_needle": "features",
@@ -187988,6 +187988,83 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "HeadRush::Core": {
+        "model_key": "HeadRush::Core",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2023-09-19",
+          "precision": "day",
+          "kind": "manufacturer_announcement",
+          "source_urls": [
+            "https://musicplayers.com/2023/09/headrush-fx-introduces-the-revolutionary-guitar-and-vocal-effects-pedalboard-headrush-core/"
+          ],
+          "note": "Manufacturer launch announcement datelined September19,2023, republished September21. Announcement date used; worldwide delivery dates may differ."
+        },
+        "firmware": {
+          "version": "5.2.0",
+          "date": "2026-10",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Core%20Firmware%20Update%20Instructions%20v5.2.0.pdf",
+            "https://www.headrushfx.com/downloads.html"
+          ],
+          "note": "Current exact-model notes explicitly identify latest5.2.0 and October2026; day unspecified. Release improves NAM A2 loading and fixes NAM/scene/USB issues. Updater requires Windows10 or macOS11 minimum; back up content first. No firmware installed on hardware during research."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Maker explicitly labels Chord Wham as polyphonic. Pitch list also names Up Tune, Drop Tune, Harm, Octaves, Octaves Up, Smart Harm and Wham; heading says7 but8names are present. Do not classify all algorithms as polyphonic from Chord Wham alone. Vocal correction/harmony is separate from guitar chord transposition.",
+          "preset": "Rig and individual block presets save effect choice/settings; hardware assignments support expression and scenes. Current maximum stored-rig count not verified. Fourteen processing slots are not14preset memories.",
+          "dsp": "V5.2 guide permits repeated block types within14rig slots, subject to CPU load; reaching100% may cause clicks/pops. No per-pitch percentage published. CPU use depends on other blocks/configuration; shorter IRs save resources. NAM/C-Verb have separate restrictions, so14slots do not promise14arbitrary high-load processors.",
+          "source_urls": [
+            "https://www.headrushfx.com/products/core/index.html",
+            "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Core%20-%20User%20Guide%20-%20v5.2.0.pdf",
+            "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Core%20Firmware%20Update%20Instructions%20v5.2.0.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "V5.0 added Up Tune and improved Drop Tune;5.0.1 added Legacy/Refined Drop Tune modes and fixed clean-rig artifacts. No measured chord tracking, latency or pitch CPU load. Current guide was retrieved successfully, resolving earlier access-only limitation; prior evidence retained."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://musicplayers.com/2023/09/headrush-fx-introduces-the-revolutionary-guitar-and-vocal-effects-pedalboard-headrush-core/",
+            "title": "HeadRush Core manufacturer launch announcement",
+            "access": "Datelined manufacturer release republished by MusicPlayers,September21,2023",
+            "evidence": "Announces release September19,2023; source publication date differs from announcement dateline."
+          },
+          {
+            "url": "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Core%20Firmware%20Update%20Instructions%20v5.2.0.pdf",
+            "title": "HeadRush Core firmware5.2.0 release notes",
+            "access": "Current original13-page maker PDF, header/history text read",
+            "evidence": "Latest5.2.0,October2026;5.0/5.0.1 pitch changes and current updater requirements."
+          },
+          {
+            "url": "https://www.headrushfx.com/downloads.html",
+            "title": "HeadRush current download index",
+            "access": "Direct current maker downloads",
+            "evidence": "Exact Core5.2updaters,release notes and guide; older Core packages listed separately."
+          },
+          {
+            "url": "https://www.headrushfx.com/products/core/index.html",
+            "title": "HeadRush Core own model catalogue",
+            "access": "Direct maker product page",
+            "evidence": "Chord Wham explicitly polyphonic;8namedpitch entries under7heading. No measured DSP cost."
+          },
+          {
+            "url": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Core%20-%20User%20Guide%20-%20v5.2.0.pdf",
+            "title": "HeadRush Core user guide5.2.0",
+            "access": "Original81-page PDF retrieved; SHA25615ef7bcb8a5c60485c5fc63db6eb5db51536d748022cd2d6960225356fa0d206;pp14–28text read",
+            "evidence": "Fourteen slots,CPU meter/repeated blocks,rig/block saving and resource qualifications. Retrieval now succeeds despite earlier web-reader limit."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1108,
+          "maximum_days": 1138,
+          "label": "3.03–3.12 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -188001,7 +188078,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "HeadRush::Core",
       "HeadRush::Flex Prime",
       "HeadRush::Gigboard",
       "HeadRush::MX5",
@@ -188279,9 +188355,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 116,
-    "last_model": "Flamma::FX50",
-    "last_commit_parent": "2c62b8bf16968cc75ca55523956c42f473d2bbd2",
+    "completed_model_count": 117,
+    "last_model": "HeadRush::Core",
+    "last_commit_parent": "64984e8e3c2e16b157621dfa65e7c3289c12ec65",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -188294,7 +188370,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "HeadRush::Core",
       "HeadRush::Flex Prime",
       "HeadRush::Gigboard",
       "HeadRush::MX5",
@@ -188571,7 +188646,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 116,
+    "pitch_completed_model_count": 117,
     "supplemental_model_count": 0
   },
   "model_images": {
