@@ -1056,6 +1056,34 @@ Block bypass/parameter MIDI assignments remain per preset. Global EXP position r
 
 ## Helix Stadium XL Floor
 
+<!-- firmware-pitch:Line 6::Helix Stadium XL Floor begins -->
+### Firmware and pitch audit — Line 6 Helix Stadium XL Floor
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025-06-11 (manufacturer public introduction, before shipping). Manufacturer-authored June 11, 2025 press release names both Stadium XL Floor and Stadium Floor. This is the public introduction, not retail shipping. Separate manufacturer-authored November 18, 2025 shipping announcement explicitly names XL and says it is currently shipping; introduction-to-update span therefore includes pre-shipping time. From that shipping announcement to latest update is about 0.94 years. [launch 1](https://musicplayers.com/2025/06/helix-stadium-amp-effects-processors-from-line-6-establish-new-benchmarks-for-sound-feel-and-control/) [launch 2](https://manuals.plus/m/d85299eac1297934ba368262f372ddfd286465fff84fda4b7f3b8d8d78a1d18f.pdf) |
+| Firmware / latest verification | 1.4.2 — Latest verified. Current manufacturer notes identify hardware 1.4.2 on October 27, 2026, correcting user-setlist preset recall after restart and Showcase setlist flags. Native plugin 1.4.1 on October 29 fixes a plugin-only impedance-curve issue and is not newer hardware firmware. Base 1.4 October 13 adds amps/effects and fixes; app, Native and device versions remain separate. No installed-device verification. [firmware 1](https://kb.line6.com/helix-stadium-1-4-release-notes) |
+| Firmware / release date | 2026-10-27 (day precision) |
+| Firmware / release-to-update duration | 1.38 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Exact Stadium model list explicitly marks Poly Pitch, Poly Wham, Poly Capo and 12 String as polyphonic pitch-shifting effects; Poly Sustain and Poly Detune are also identified by the hardware DSP chapter. Mono in the model table describes audio channel format, not monophonic note tracking. Other named pitch choices include Pitch Wham, Twin Harmony, Simple Pitch, Dual Pitch, Boctaver and Legacy Smart Harmony/Bass Octaver; do not extend the Poly guarantee to those or to synth note tracking. The web model-list footnote says Modulation > Pitch Sustain while its actual row/manual say Poly Detune; preserve this naming inconsistency. [pitch 1](https://line6.com/helix-stadium-models/) [pitch 2](https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp) [pitch 3](https://manuals.line6.com/en/helix-stadium/live/presets) [pitch 4](https://manuals.line6.com/en/helix-stadium/live/snapshots) |
+| Pitch / preset recall | 512 user preset locations, with separate read-only factory content. Eight snapshots per preset recall enabled parameter values and bypass states; they cannot swap algorithms or rearrange blocks. Thus pitch intervals/bypass can be recalled when assigned within an existing preset, subject to its loaded effects. Setlists contain aliases to user presets, not extra memory banks. Built-in pedal defaults for Pitch Wham are distinct from Poly algorithm tracking. |
+| Pitch / DSP resources | Manufacturer hardware limit: two Poly/high-DSP effects per preset, one per primary path, sharing the class with Feedbacker, Poly Sustain and Poly Detune. Path 1 and Path 2 have independent DSP; 1A/1B share Path 1. No isolated pitch percentage published. Two effects maximum does not imply 50% each, and 48 block locations do not guarantee 48 heavy algorithms. Model choices are disabled when remaining DSP is insufficient; no device benchmark or transferred original Helix percentage. |
+| Pitch / qualifications | Primary manufacturer online manuals and model list read directly. No firmware installation, preset mutation or audio tracking test. Existing exact-model inventory, older source qualifications and documented 46-processing-position template versus 48 block-location distinction retained. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 manufacturer introduction press release reproduced by MusicPlayers](https://musicplayers.com/2025/06/helix-stadium-amp-effects-processors-from-line-6-establish-new-benchmarks-for-sound-feel-and-control/) — June 11, 2025 introduction explicitly includes XL; distinct from later shipping. (Manufacturer-authored dated release body opened on mirror).
+- [Line 6 Stadium XL now-shipping press release](https://manuals.plus/m/d85299eac1297934ba368262f372ddfd286465fff84fda4b7f3b8d8d78a1d18f.pdf) — November 18, 2025 XL shipping announcement; not June announcement date. (Manufacturer-authored one-page press-release PDF opened on mirror as text).
+- [Line 6 Stadium 1.4 hardware and Native release notes](https://kb.line6.com/helix-stadium-1-4-release-notes) — Hardware 1.4.2 October 27, 2026 versus plugin 1.4.1 October 29. (Current manufacturer release notes opened as text).
+- [Line 6 exact Stadium model list](https://line6.com/helix-stadium-models/) — Named Poly algorithms; mono/stereo formats separate from note polyphony; footnote naming inconsistency. (Manufacturer pitch table and polyphonic footnote read as text).
+- [Stadium hardware Dynamic DSP manual](https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp) — Two Poly/high-DSP effects maximum, one per primary path; independent primary DSP and finite resources, no pitch percentage. (Current manufacturer chapter opened as text).
+- [Stadium presets and setlists manual](https://manuals.line6.com/en/helix-stadium/live/presets) — 512 writable user presets; factory separately read-only; setlists are aliases. (Current manufacturer chapter opened as text).
+- [Stadium snapshots manual](https://manuals.line6.com/en/helix-stadium/live/snapshots) — Eight snapshots store bypass/parameter values without algorithm substitution. (Current manufacturer chapter opened as text).
+
+<!-- firmware-pitch:Line 6::Helix Stadium XL Floor ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4** online manual. Distinct from original Helix Floor and smaller Stadium Floor. Guitar, bass and live mic paths documented; partial verification.
 

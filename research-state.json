@@ -197117,6 +197117,97 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "Line 6::Helix Stadium XL Floor": {
+        "model_key": "Line 6::Helix Stadium XL Floor",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2025-06-11",
+          "precision": "day",
+          "kind": "manufacturer public introduction, before shipping",
+          "source_urls": [
+            "https://musicplayers.com/2025/06/helix-stadium-amp-effects-processors-from-line-6-establish-new-benchmarks-for-sound-feel-and-control/",
+            "https://manuals.plus/m/d85299eac1297934ba368262f372ddfd286465fff84fda4b7f3b8d8d78a1d18f.pdf"
+          ],
+          "note": "Manufacturer-authored June 11, 2025 press release names both Stadium XL Floor and Stadium Floor. This is the public introduction, not retail shipping. Separate manufacturer-authored November 18, 2025 shipping announcement explicitly names XL and says it is currently shipping; introduction-to-update span therefore includes pre-shipping time. From that shipping announcement to latest update is about 0.94 years."
+        },
+        "firmware": {
+          "version": "1.4.2",
+          "date": "2026-10-27",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://kb.line6.com/helix-stadium-1-4-release-notes"
+          ],
+          "note": "Current manufacturer notes identify hardware 1.4.2 on October 27, 2026, correcting user-setlist preset recall after restart and Showcase setlist flags. Native plugin 1.4.1 on October 29 fixes a plugin-only impedance-curve issue and is not newer hardware firmware. Base 1.4 October 13 adds amps/effects and fixes; app, Native and device versions remain separate. No installed-device verification."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Exact Stadium model list explicitly marks Poly Pitch, Poly Wham, Poly Capo and 12 String as polyphonic pitch-shifting effects; Poly Sustain and Poly Detune are also identified by the hardware DSP chapter. Mono in the model table describes audio channel format, not monophonic note tracking. Other named pitch choices include Pitch Wham, Twin Harmony, Simple Pitch, Dual Pitch, Boctaver and Legacy Smart Harmony/Bass Octaver; do not extend the Poly guarantee to those or to synth note tracking. The web model-list footnote says Modulation > Pitch Sustain while its actual row/manual say Poly Detune; preserve this naming inconsistency.",
+          "preset": "512 user preset locations, with separate read-only factory content. Eight snapshots per preset recall enabled parameter values and bypass states; they cannot swap algorithms or rearrange blocks. Thus pitch intervals/bypass can be recalled when assigned within an existing preset, subject to its loaded effects. Setlists contain aliases to user presets, not extra memory banks. Built-in pedal defaults for Pitch Wham are distinct from Poly algorithm tracking.",
+          "dsp": "Manufacturer hardware limit: two Poly/high-DSP effects per preset, one per primary path, sharing the class with Feedbacker, Poly Sustain and Poly Detune. Path 1 and Path 2 have independent DSP; 1A/1B share Path 1. No isolated pitch percentage published. Two effects maximum does not imply 50% each, and 48 block locations do not guarantee 48 heavy algorithms. Model choices are disabled when remaining DSP is insufficient; no device benchmark or transferred original Helix percentage.",
+          "source_urls": [
+            "https://line6.com/helix-stadium-models/",
+            "https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp",
+            "https://manuals.line6.com/en/helix-stadium/live/presets",
+            "https://manuals.line6.com/en/helix-stadium/live/snapshots"
+          ],
+          "measurements": [],
+          "notes": [
+            "Primary manufacturer online manuals and model list read directly. No firmware installation, preset mutation or audio tracking test.",
+            "Existing exact-model inventory, older source qualifications and documented 46-processing-position template versus 48 block-location distinction retained."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://musicplayers.com/2025/06/helix-stadium-amp-effects-processors-from-line-6-establish-new-benchmarks-for-sound-feel-and-control/",
+            "title": "Line 6 manufacturer introduction press release reproduced by MusicPlayers",
+            "access": "Manufacturer-authored dated release body opened on mirror",
+            "evidence": "June 11, 2025 introduction explicitly includes XL; distinct from later shipping."
+          },
+          {
+            "url": "https://manuals.plus/m/d85299eac1297934ba368262f372ddfd286465fff84fda4b7f3b8d8d78a1d18f.pdf",
+            "title": "Line 6 Stadium XL now-shipping press release",
+            "access": "Manufacturer-authored one-page press-release PDF opened on mirror as text",
+            "evidence": "November 18, 2025 XL shipping announcement; not June announcement date."
+          },
+          {
+            "url": "https://kb.line6.com/helix-stadium-1-4-release-notes",
+            "title": "Line 6 Stadium 1.4 hardware and Native release notes",
+            "access": "Current manufacturer release notes opened as text",
+            "evidence": "Hardware 1.4.2 October 27, 2026 versus plugin 1.4.1 October 29."
+          },
+          {
+            "url": "https://line6.com/helix-stadium-models/",
+            "title": "Line 6 exact Stadium model list",
+            "access": "Manufacturer pitch table and polyphonic footnote read as text",
+            "evidence": "Named Poly algorithms; mono/stereo formats separate from note polyphony; footnote naming inconsistency."
+          },
+          {
+            "url": "https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp",
+            "title": "Stadium hardware Dynamic DSP manual",
+            "access": "Current manufacturer chapter opened as text",
+            "evidence": "Two Poly/high-DSP effects maximum, one per primary path; independent primary DSP and finite resources, no pitch percentage."
+          },
+          {
+            "url": "https://manuals.line6.com/en/helix-stadium/live/presets",
+            "title": "Stadium presets and setlists manual",
+            "access": "Current manufacturer chapter opened as text",
+            "evidence": "512 writable user presets; factory separately read-only; setlists are aliases."
+          },
+          {
+            "url": "https://manuals.line6.com/en/helix-stadium/live/snapshots",
+            "title": "Stadium snapshots manual",
+            "access": "Current manufacturer chapter opened as text",
+            "evidence": "Eight snapshots store bypass/parameter values without algorithm substitution."
+          }
+        ],
+        "duration": {
+          "minimum_days": 503,
+          "maximum_days": 503,
+          "label": "1.38 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -197131,7 +197222,6 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "Line 6::Helix Stadium XL Floor",
       "M-VAVE::ANN Blackbox",
       "M-VAVE::CUBE BABY AC",
       "M-VAVE::CUBE BABY BASS",
@@ -197297,9 +197387,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 227,
-    "last_model": "NUX::Mighty Plug Pro MP-3",
-    "last_commit_parent": "bb2ae4408237e800ce59fdb90b49f59412af6b4a",
+    "completed_model_count": 228,
+    "last_model": "Line 6::Helix Stadium XL Floor",
+    "last_commit_parent": "b35d72d19dba701e651d8181cca6b6769a1cb464",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -197313,7 +197403,6 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "Line 6::Helix Stadium XL Floor",
       "M-VAVE::ANN Blackbox",
       "M-VAVE::CUBE BABY AC",
       "M-VAVE::CUBE BABY BASS",
@@ -197478,7 +197567,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 227,
+    "pitch_completed_model_count": 228,
     "supplemental_model_count": 0
   },
   "model_images": {
