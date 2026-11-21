@@ -180717,10 +180717,91 @@
             "title": "Audota Firmware index",
             "access": "opened",
             "evidence": "AME-200Pro Studio Windows/Mac 1.3.0; older differing package listing retained."
+          },
+          {
+            "url": "https://audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AME-200%20Pro_Manual_EN.pdf",
+            "title": "Official Pro manual download attempt",
+            "access": "retrieved_bytes_rejected_by_Poppler; no_visual_verification",
+            "evidence": "HEAD advertised 34326975 bytes; received 16056079 bytes, SHA256 63d10f12f38a8a4c38924aba98c66b5a066eae421423e2f3a888b20dd0529c79. pdfinfo/pdftoppm could not read trailer/xref. Pitch claims use separately readable manufacturer manuscript; this retrieval is not successful PDF verification."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Audota::AME-200 Pro",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://en.audota.com/AME200ProEN.html"
+              ],
+              "note": "No dated original hardware launch verified; document, filing and regional coverage dates are not automatically first worldwide release."
+            },
+            "firmware": {
+              "version": "1.37 (importer notation)",
+              "date": null,
+              "precision": "unknown",
+              "status": "latest_located",
+              "source_urls": [
+                "https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-pro-amp-modeler-multi-effects",
+                "https://en.audota.com/EN_software.html",
+                "https://en.audota.com/EN_firmware.html"
+              ],
+              "note": "Official importer explicitly identifies firmware V1.37 onward for NAM A1/A2 support. Manufacturer Software lists Studio 1.3.7, while Firmware lists Studio 1.3.0. Preserve the version notation and software/ROM distinction. No dated device changelog or later ROM verified; package labels alone do not establish a release date."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "Pro manual p64 lists Pitch Shifter (Mono), Pitch Shifter Poly, nine-mode Whammy and Octave. Poly explicitly shifts multiple notes together; Whammy/Octave polyphony, exact semitone range and wet-only capo configuration remain unverified.",
+              "preset": "200 editable presets; A/B/C/D recall four per bank. Manual pp16–20 documents editing and SAVE to chosen location/name; CTRL can toggle multiple effect modules (pp27–29). Pedal section describes volume/wah, not verified pitch assignment.",
+              "dsp": "Pitch choices reside in Modulation within an editable chain. No pitch CPU percentage, duplicate-polyphonic-shifter ceiling or pitch-specific resource exclusion verified. Ten categories are not a measurement of available processing or ten simultaneous pitch blocks.",
+              "source_urls": [
+                "https://device.report/manuals/shenzhen-audota-ame-200pro-user-manual",
+                "https://en.audota.com/AME200ProEN.html"
+              ],
+              "measurements": [],
+              "notes": [
+                "Polyphony classification applies to Pitch Shifter Poly, not all pitch-related algorithms. No standard AME-200 or Ampero DSP measurement transferred."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://device.report/manuals/shenzhen-audota-ame-200pro-user-manual",
+                "title": "Audota AME-200 Pro manufacturer manual manuscript",
+                "access": "manufacturer_manuscript_on_public_mirror; text_only",
+                "evidence": "Printed p64 mono/poly pitch, Whammy and Octave; pp16–20 preset selection/edit/save; pp27–31 CTRL and pedal. Generated mirror overview excluded."
+              },
+              {
+                "url": "https://en.audota.com/AME200ProEN.html",
+                "title": "Audota AME-200 Pro manufacturer product page",
+                "access": "opened",
+                "evidence": "Pro hardware identity, 200 memories and rearrangeable processing categories; no launch date or per-effect CPU percentage."
+              },
+              {
+                "url": "https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-pro-amp-modeler-multi-effects",
+                "title": "Official importer Pro firmware-qualified specification",
+                "access": "opened",
+                "evidence": "Explicit firmware V1.37 and NAM A1/A2; no original release date."
+              },
+              {
+                "url": "https://en.audota.com/EN_software.html",
+                "title": "Audota Software index",
+                "access": "opened",
+                "evidence": "AME-200Pro Studio Windows/Mac 1.3.7; distinct from direct ROM version evidence."
+              },
+              {
+                "url": "https://en.audota.com/EN_firmware.html",
+                "title": "Audota Firmware index",
+                "access": "opened",
+                "evidence": "AME-200Pro Studio Windows/Mac 1.3.0; older differing package listing retained."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
@@ -181114,7 +181195,7 @@
     "status": "in_progress",
     "completed_model_count": 16,
     "last_model": "Audota::AME-200 Pro",
-    "last_commit_parent": "67483d8a6a0187f458dc51e3ad7b0d08bc6582ff",
+    "last_commit_parent": "732d379e2f7e2d6b0c5cc14f92a6f4e68bda12e6",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Audota::AVE-100",

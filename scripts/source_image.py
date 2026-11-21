@@ -92,6 +92,23 @@ def atomic_write(path, data):
     pending.replace(path)
 
 
+def save_verified_source(output, data):
+    """Reject incomplete PDFs before replacing the rolling reviewed cache."""
+    if data.startswith(b'%PDF-'):
+        import subprocess
+        import tempfile
+        with tempfile.NamedTemporaryFile(prefix='instrumentfx-pdf-check-', suffix='.pdf',
+                                         dir=output.parent) as staged:
+            staged.write(data)
+            staged.flush()
+            result = subprocess.run(['pdfinfo', staged.name], capture_output=True,
+                                    text=True, timeout=20)
+            if result.returncode:
+                raise ValueError('Source PDF rejected; previous cache preserved: '
+                                 + result.stderr[:2000])
+    atomic_write(output, data)
+
+
 def source_path(url):
     return IMAGE.with_suffix('.pdf') if urllib.parse.urlsplit(url).path.lower().endswith('.pdf') else IMAGE
 
@@ -147,7 +164,7 @@ def apply():
         final_url = check_url(response.geturl())
         data = response.read(source_limit(url) + 1)
     digest = validate_image(data, source_limit(url))
-    atomic_write(output, data)
+    save_verified_source(output, data)
     if retire:
         assert hashlib.sha256(previous.read_bytes()).hexdigest() == digest_before
         assert hashlib.sha256(output.read_bytes()).hexdigest() == digest
@@ -387,6 +404,15 @@ def test():
         output = Path(directory) / 'fixture.png'
         Image.new('RGB', (32, 24), 'red').save(source, format='PDF')
         assert validate_image(source.read_bytes())
+        original = source.read_bytes()
+        save_verified_source(source, original)
+        try:
+            save_verified_source(source, b'%PDF-1.7\ntruncated transfer')
+        except ValueError:
+            pass
+        else:
+            raise AssertionError('Truncated PDF replaced the reviewed source')
+        assert source.read_bytes() == original, 'Failed retrieval changed the source cache'
         render_pdf(source, output, 0)
         with Image.open(output) as decoded:
             assert decoded.width > decoded.height

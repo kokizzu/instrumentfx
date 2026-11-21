@@ -514,6 +514,7 @@ Sources checked:
 - [Official importer Pro firmware-qualified specification](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-pro-amp-modeler-multi-effects) — Explicit firmware V1.37 and NAM A1/A2; no original release date. (opened).
 - [Audota Software index](https://en.audota.com/EN_software.html) — AME-200Pro Studio Windows/Mac 1.3.7; distinct from direct ROM version evidence. (opened).
 - [Audota Firmware index](https://en.audota.com/EN_firmware.html) — AME-200Pro Studio Windows/Mac 1.3.0; older differing package listing retained. (opened).
+- [Official Pro manual download attempt](https://audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AME-200%20Pro_Manual_EN.pdf) — HEAD advertised 34326975 bytes; received 16056079 bytes, SHA256 63d10f12f38a8a4c38924aba98c66b5a066eae421423e2f3a888b20dd0529c79. pdfinfo/pdftoppm could not read trailer/xref. Pitch claims use separately readable manufacturer manuscript; this retrieval is not successful PDF verification. (retrieved_bytes_rejected_by_Poppler; no_visual_verification).
 
 <!-- firmware-pitch:Audota::AME-200 Pro ends -->
 
