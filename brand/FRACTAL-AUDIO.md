@@ -2411,6 +2411,31 @@ The guide refers spillover to the owner manual; no unconditional preset continui
 
 ## FM9 original
 
+<!-- firmware-pitch:Fractal Audio::FM9 original begins -->
+### Firmware and pitch audit — Fractal Audio FM9 original
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2021-08-27 (manufacturer now shipping announcement). Dated manufacturer launch announcement explicitly says now shipping August27,2021; regional availability may differ. Turbo and MKII dates not substituted. [launch 1](https://www.fractalaudio.com/downloads/manuals/FM9/Fractal-Audio-FM9-Press-Release.pdf) |
+| Firmware / latest verification | 12.0 — Latest verified. Current manufacturer downloads explicitly names FM9 Original compatibility for main firmware12.0, July7,2026. Separate USB firmware1.04 and November2026 driver are not main DSP firmware; installed version untested. [firmware 1](https://www.fractalaudio.com/fm9-downloads/) |
+| Firmware / release date | 2026-07-07 (day precision) |
+| Firmware / release-to-update duration | 4.86 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Virtual Capo is documented polyphonic, ±24 semitones. Dedicated Pitch includes detune, chromatic/intelligent/custom harmony, whammy and octave modes with mode-specific tracking. Current family guide permits one Pitch block on FM9; polyphony is not claimed for every subtype. [pitch 1](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) [pitch 2](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) |
+| Pitch / preset recall | 512 writable presets, eight scenes per preset and up to four block channels; settings/subtypes recalled through channels/scenes. Own firmware3.x manual explicitly covers Original and Turbo. Hardware recall untested. |
+| Pitch / DSP resources | One Pitch instance shares finite resources; no verified Virtual Capo CPU percentage located. Own firmware3.x manual recommends about80% on its meter and describes excess-load muting/block-insertion safeguards. Amp, Delay and Reverb run on dedicated cores and barely affect that meter, so it is not total device utilization. Original hardware does not acquire Turbo DSP capacity through a firmware update. |
+| Pitch / qualifications | No tracking, latency, CPU or installation measurements. Family-manual resource policy is revision-qualified, not certified behavior on firmware12.0. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Fractal Audio FM9 launch press release, August27,2021](https://www.fractalaudio.com/downloads/manuals/FM9/Fractal-Audio-FM9-Press-Release.pdf) — Dated launch explicitly says now shipping; original FM9, before Turbo/MKII. (Manufacturer original PDF text read).
+- [FM9 downloads](https://www.fractalaudio.com/fm9-downloads/) — Firmware12.0 July7,2026 explicitly names FM9 Original compatibility; separate USB firmware and driver. (Manufacturer current page read).
+- [FM9 Owner’s Manual, firmware3.x, August2022](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) — Own Original/Turbo manual: 512 presets, scenes/channels and CPU policy; some effects use dedicated cores. (Manufacturer original PDF text read, pp2,39,48).
+- [Fractal Audio Blocks Guide, November2026](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) — FM9 one Pitch block; Virtual Capo explicitly polyphonic ±24 semitones. (Manufacturer original PDF text read previously in this research session, pp3,76–86).
+
+<!-- firmware-pitch:Fractal Audio::FM9 original ends -->
+
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from Turbo and MKII Turbo. Not fully verified; no ownership or live-stock assertion. The complete discovery body follows under its old anchor. Earlier outside-inventory statements are historical checkpoints, not the current admission status.
 
 <!-- comparison evidence begins -->

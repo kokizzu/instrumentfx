@@ -191568,10 +191568,78 @@
           "label": "3.85–3.93 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Fractal Audio::FM9 original": {
+        "model_key": "Fractal Audio::FM9 original",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2021-08-27",
+          "precision": "day",
+          "kind": "manufacturer_now_shipping_announcement",
+          "source_urls": [
+            "https://www.fractalaudio.com/downloads/manuals/FM9/Fractal-Audio-FM9-Press-Release.pdf"
+          ],
+          "note": "Dated manufacturer launch announcement explicitly says now shipping August27,2021; regional availability may differ. Turbo and MKII dates not substituted."
+        },
+        "firmware": {
+          "version": "12.0",
+          "date": "2026-07-07",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.fractalaudio.com/fm9-downloads/"
+          ],
+          "note": "Current manufacturer downloads explicitly names FM9 Original compatibility for main firmware12.0, July7,2026. Separate USB firmware1.04 and November2026 driver are not main DSP firmware; installed version untested."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Virtual Capo is documented polyphonic, ±24 semitones. Dedicated Pitch includes detune, chromatic/intelligent/custom harmony, whammy and octave modes with mode-specific tracking. Current family guide permits one Pitch block on FM9; polyphony is not claimed for every subtype.",
+          "preset": "512 writable presets, eight scenes per preset and up to four block channels; settings/subtypes recalled through channels/scenes. Own firmware3.x manual explicitly covers Original and Turbo. Hardware recall untested.",
+          "dsp": "One Pitch instance shares finite resources; no verified Virtual Capo CPU percentage located. Own firmware3.x manual recommends about80% on its meter and describes excess-load muting/block-insertion safeguards. Amp, Delay and Reverb run on dedicated cores and barely affect that meter, so it is not total device utilization. Original hardware does not acquire Turbo DSP capacity through a firmware update.",
+          "source_urls": [
+            "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+            "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No tracking, latency, CPU or installation measurements. Family-manual resource policy is revision-qualified, not certified behavior on firmware12.0."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.fractalaudio.com/downloads/manuals/FM9/Fractal-Audio-FM9-Press-Release.pdf",
+            "title": "Fractal Audio FM9 launch press release, August27,2021",
+            "access": "Manufacturer original PDF text read",
+            "evidence": "Dated launch explicitly says now shipping; original FM9, before Turbo/MKII."
+          },
+          {
+            "url": "https://www.fractalaudio.com/fm9-downloads/",
+            "title": "FM9 downloads",
+            "access": "Manufacturer current page read",
+            "evidence": "Firmware12.0 July7,2026 explicitly names FM9 Original compatibility; separate USB firmware and driver."
+          },
+          {
+            "url": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+            "title": "FM9 Owner’s Manual, firmware3.x, August2022",
+            "access": "Manufacturer original PDF text read, pp2,39,48",
+            "evidence": "Own Original/Turbo manual: 512 presets, scenes/channels and CPU policy; some effects use dedicated cores."
+          },
+          {
+            "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+            "title": "Fractal Audio Blocks Guide, November2026",
+            "access": "Manufacturer original PDF text read previously in this research session, pp3,76–86",
+            "evidence": "FM9 one Pitch block; Virtual Capo explicitly polyphonic ±24 semitones."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1775,
+          "maximum_days": 1775,
+          "label": "4.86 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Fractal Audio::FM9 original",
       "Kemper::PROFILER Head MK2",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER PowerHead MK2",
@@ -191813,12 +191881,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 162,
-    "last_model": "Fractal Audio::FM9 Turbo",
-    "last_commit_parent": "129f9ebd82696dddf9d9f52d046b4e8db24f8e0c",
+    "completed_model_count": 163,
+    "last_model": "Fractal Audio::FM9 original",
+    "last_commit_parent": "cb63df0e17d61b89cfeee87d3a1cd1fce2b627d6",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Fractal Audio::FM9 original",
       "Kemper::PROFILER Head MK2",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER PowerHead MK2",
@@ -192059,7 +192126,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 162,
+    "pitch_completed_model_count": 163,
     "supplemental_model_count": 0
   },
   "model_images": {
