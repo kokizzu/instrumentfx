@@ -187517,11 +187517,35 @@
             "sha256": "1ff46eaae9d4d721398871369533bea8f6cfc9d7f683aca6371bd8d4eabea958"
           }
         }
+      },
+      "EROK::MP-20": {
+        "model_key": "EROK::MP-20",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://erokmusic.com/img/products/MP-20-1.webp?v=1d0e068e17648151",
+            "source_url": "https://erokmusic.com/product/multi-effects/MP-20",
+            "caption": "MP-20 top-down manufacturer image with active display and light rings",
+            "note": "Official exact-model gallery. Display and teal footswitch rings appear active, but promotional compositing versus a photographed powered-on unit is not independently established. Screen CPU 80 is illustration, not a measured pitch cost.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": true,
+            "sha256": "1d0e068e176481513142caacffa87c68859524780ae2a917bff830584f431800"
+          },
+          "rear": {
+            "image_url": "https://erokmusic.com/img/products/MP-20-4.webp?v=c5bb39fd9e3a94b7",
+            "source_url": "https://erokmusic.com/product/multi-effects/MP-20",
+            "caption": "MP-20 straight-on rear connection panel",
+            "note": "Manufacturer gallery clearly labels MP-20, INPUT, MIDI, phones, L(MONO)/R OUTPUT, USB and power. This exact model view is separate from MK-20 regulatory photographs.",
+            "visual_checked": true,
+            "sha256": "c5bb39fd9e3a94b7ca09cf7bfab0bb65de729b662c4449f4eb9ed0e4167b169b"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "EROK::MP-10"
+    "last_model": "EROK::MP-20"
   }
 }
