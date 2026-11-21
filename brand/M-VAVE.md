@@ -1356,6 +1356,26 @@ Sources checked:
 
 <!-- firmware-pitch:M-VAVE::TANK-G ends -->
 
+<!-- model-images:M-VAVE::TANK-G begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**TANK-G overhead controls**
+
+[![TANK-G overhead controls](https://www.mvshow.com.br/cdn/shop/files/tank-g-3.webp?v=1746841388)](https://www.mvshow.com.br/cdn/shop/files/tank-g-3.webp?v=1746841388)
+
+[Image source](https://www.mvshow.com.br/products/pedaleira-de-guitarra-multiefeitos-tank-g-m-vave). Exact TANK-G overhead photograph with bank display 1, illuminated parameter knobs and D/AMP switch ring. All fifteen knobs and four switches are visible. Physical revision and installed firmware cannot be identified from this view.
+
+**TANK-G connector edge and XLR side**
+
+[![TANK-G connector edge and XLR side](https://files2.soniccdn.com/files/2024/04/08/7058356607b2703e42cc26e75c7be721-860x544.jpeg)](https://files2.soniccdn.com/files/2024/04/08/7058356607b2703e42cc26e75c7be721-860x544.jpeg)
+
+[Image source](https://www.guitarristas.info/noticias/m-vave-tank-g-profiler-estilo-kemper-quad-cortex-tonex-menos-100/10954). Angled rear/side photograph labels instrument IN, phone-recording audio output, headphones, mono OUT, power switch, charging indicator, USB-C and side balanced XLR output. Printed annotations identify connectors; they do not establish USB routing or current firmware. No illuminated status is visible.
+
+</details>
+<!-- model-images:M-VAVE::TANK-G ends -->
+
+
 **Original review2026-10-14. Original TANK-G,not TANK-PRO or an assumed interchangeable rebadge.**
 
 <!-- comparison evidence begins -->

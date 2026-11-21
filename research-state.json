@@ -201471,11 +201471,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "M-VAVE::TANK-G": {
+        "model_key": "M-VAVE::TANK-G",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.mvshow.com.br/cdn/shop/files/tank-g-3.webp?v=1746841388",
+            "source_url": "https://www.mvshow.com.br/products/pedaleira-de-guitarra-multiefeitos-tank-g-m-vave",
+            "caption": "TANK-G overhead controls",
+            "note": "Exact TANK-G overhead photograph with bank display 1, illuminated parameter knobs and D/AMP switch ring. All fifteen knobs and four switches are visible. Physical revision and installed firmware cannot be identified from this view.",
+            "visual_checked": true,
+            "sha256": "c688db12b9f86e65a249936cf6770b054a6d03ee8f9b070dd495343bad51facd",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://files2.soniccdn.com/files/2024/04/08/7058356607b2703e42cc26e75c7be721-860x544.jpeg",
+            "source_url": "https://www.guitarristas.info/noticias/m-vave-tank-g-profiler-estilo-kemper-quad-cortex-tonex-menos-100/10954",
+            "caption": "TANK-G connector edge and XLR side",
+            "note": "Angled rear/side photograph labels instrument IN, phone-recording audio output, headphones, mono OUT, power switch, charging indicator, USB-C and side balanced XLR output. Printed annotations identify connectors; they do not establish USB routing or current firmware. No illuminated status is visible.",
+            "visual_checked": true,
+            "sha256": "aa65cf2b76eb6299af79c6f34a90508863539aa5a506982a5f0ff58940d7384d",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::Helix Stadium XL Floor"
+    "last_model": "M-VAVE::TANK-G"
   }
 }
