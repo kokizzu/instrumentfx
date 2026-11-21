@@ -180345,10 +180345,69 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Ammoon::PockRock": {
+        "model_key": "Ammoon::PockRock",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.ammoon.com/p-i2717dgy-us.html"
+          ],
+          "note": "No dated manufacturer launch located. Site copyright2017 and seller model years are not launch evidence."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.ammoon.com/p-i2717dgy-us.html",
+            "https://www.ammoon.com/support"
+          ],
+          "note": "Product downloads name only I2717PockRock_Manual_EN_V01.pdf; V01 is a manual revision, not firmware. Support fetch returned502. No public updater/history located; latest installed ROM and updateability remain unverified."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Manufacturer inventory lists drive,chorus,flanger,phaser,tremolo,delay,echo,room,hall anddrums; no dedicated interval transposer,harmonizer or octave shifter documented. Tuner pitch detection is not audio transposition.",
+          "preset": "Manual documents16 factory and16 user patches;Patch mode recalls values andSTORE twice saves to selected destination. No dedicated pitch preset established.",
+          "dsp": "No pitch-block resource figure published in inspected sources. Five-module/15-type marketing is not CPU percentage; preserve earlier manual eight-module conflict. No polyphonic-transposition claim or comparable50% measurement.",
+          "source_urls": [
+            "https://www.ammoon.com/p-i2717dgy-us.html",
+            "https://www.manualslib.com/manual/2585157/Ammoon-Pockrock.html?page=2"
+          ],
+          "measurements": [],
+          "notes": [
+            "Absence is scoped to inspected effect inventory;mono guitar jacks do not establish monophonic note tracking."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.ammoon.com/p-i2717dgy-us.html",
+            "title": "Ammoon PockRock exact manufacturer product page",
+            "access": "opened",
+            "evidence": "Effect inventory,manual-only download listing;no dated launch or firmware history. Copyright is site-wide."
+          },
+          {
+            "url": "https://www.manualslib.com/manual/2585157/Ammoon-Pockrock.html?page=2",
+            "title": "Ammoon POCKROCK owner manual page2",
+            "access": "manufacturer_manuscript_on_public_mirror; text_only",
+            "evidence": "Patch recall,user storage,tuner and documented connections;revision undated."
+          },
+          {
+            "url": "https://www.ammoon.com/support",
+            "title": "Ammoon manufacturer support",
+            "access": "fetch_failed_502",
+            "evidence": "Support unavailable during check;not evidence firmware never existed."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Ammoon::PockRock",
       "Audota::ACE-100",
       "Audota::AME-100",
       "Audota::AME-200",
@@ -180741,12 +180800,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 11,
-    "last_model": "Alesis::NanoVerb",
-    "last_commit_parent": "9e7caaf7365dafd453beb959161c13c270abb89f",
+    "completed_model_count": 12,
+    "last_model": "Ammoon::PockRock",
+    "last_commit_parent": "78bce99f0eb95fa0f73198dade5c133aae84c6c6",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Ammoon::PockRock",
       "Audota::ACE-100",
       "Audota::AME-100",
       "Audota::AME-200",
@@ -181138,7 +181196,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 11,
+    "pitch_completed_model_count": 12,
     "supplemental_model_count": 0
   }
 }
