@@ -207789,11 +207789,45 @@
             "note": "Excluded: seller labels listing HS2, but pictured face says Harmony Singer without 2. Exact generation identity unresolved; not used as HS2 proof."
           }
         ]
+      },
+      "TC-Helicon::Mic Mechanic 2": {
+        "model_key": "TC-Helicon::Mic Mechanic 2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn-media.empowertribe.com/168d080958b84556a80b6fab3eb76bc3/Image_TH_0726-AAE_MIC-MECHANIC-2_Top_XL.png",
+            "source_url": "https://www.tchelicon.com/en/products/0726-AAE",
+            "caption": "Mic Mechanic 2 — manufacturer overhead artwork",
+            "note": "Exact 0726-AAE asset, full control face: ECHO (Tape/Digi/Slap), REVERB (RM/Club/Hall), CORRECTION (Off–100), one TONE button and one footswitch. No screen or treadle shown. Printed100 is the correction-control endpoint, not100 cents or100% DSP. This catalogue artwork depicts lit LEDs; it does not independently verify powered hardware. Powered-on overhead photograph remains pending; actual unboxing alternative has unlit indicators and an obstructing cable.",
+            "visual_checked": true,
+            "sha256": "882dc963dbc053cb467fe6409cea2537463a0712c1c98ee985430e8c90815d38",
+            "powered_on": null,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/tc-helicon-mic-mechanic-2-5670487.jpg",
+            "source_url": "https://fr.audiofanzine.com/processeur-vocal/tc-helicon/mic-mechanic-2/",
+            "caption": "Mic Mechanic 2 — actual rear photograph",
+            "note": "Actual red unit with micro-USB, ON/OFF slide switch, center-negative DC polarity, male XLR OUT and female XLR MIC. Complete rear row has no EXP, headphones or MIDI sockets; no quarter-inch guitar connector shown. Image does not establish USB audio/power, phantom voltage, installed firmware or actual current draw. Distinct unit from the inspected unboxing top alternative.",
+            "visual_checked": true,
+            "sha256": "74213a6fe925ebf04768d2385fefbf7f6fb1f271d962dd0550915e8ee0601c06",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://medias.audiofanzine.com/images/normal/tc-helicon-mic-mechanic-2-6642853.jpg",
+            "sha256": "81d4d6af0dbb597a86078424608f9ecf4cce0240770456023dbd84f73217db4d",
+            "visual_checked": true,
+            "note": "Actual MM2 with labelled packaging and separate unplugged adapter. Oblique top with cable obscuring echo markings; indicators unlit. Retained provenance but clearer manufacturer overhead selected for layout."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::Harmony Singer 2"
+    "last_model": "TC-Helicon::Mic Mechanic 2"
   }
 }
