@@ -178521,8 +178521,8 @@
       30,
       30
     ],
-    "index_url": "https://line6.com/software/index.html?hardware=PODxt+Live&name=Flash+Memory&submit_form=set",
-    "index_needle": "Released",
+    "index_url": "https://line6.com/company/images/?families=1",
+    "index_needle": "PODxt live",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -192855,11 +192855,35 @@
             "sha256": "82328f71cf1ee912d99a37264e1c644ba4eba5b294b193e6a9aab42fd1dee597"
           }
         }
+      },
+      "Line 6::POD XT Live": {
+        "model_key": "Line 6::POD XT Live",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/l/c0a8090bb23641926c0db8e6a/image/jpeg/PODsupsup%20xt%20Live%20(PODxt%20live)%20-%20Lo%20Rez.jpeg",
+            "source_url": "https://line6.com/company/images/?families=1",
+            "caption": "PODxt Live powered-on top-down view",
+            "note": "Official low-resolution archive photo, 360×240. Amber LCD/bank display and red LEDs visibly lit; whole control surface/treadle shown. Small labels are not legible at this resolution.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "ee17366edda1e8b6cd4a8d22d7c2d98c89994df631ebc6fea8ad2b5afd0372d3"
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/60053/380933/YLINE613634305__13199.1715681839.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/line-6-pod-xt-live-psu-ethernet-cable-2nd-hand/",
+            "caption": "PODxt Live rear connections",
+            "note": "Rich Tone guitar PODxt Live specimen, not Bass PODxt Live. Entire rear edge visible: Pedal2, input/pad, aux, amp/line outs/level, phones, MIDI, Variax, USB and power. Slight oblique angle.",
+            "visual_checked": true,
+            "sha256": "07e1a9c8a787a51c0abf12a71fb7f0ddba3ac9fe78bd0fde040ecd581c058122"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD X3 Live"
+    "last_model": "Line 6::POD XT Live"
   }
 }

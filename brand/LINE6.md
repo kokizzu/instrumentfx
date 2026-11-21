@@ -4345,6 +4345,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::POD XT Live ends -->
 
+<!-- model-images:Line 6::POD XT Live begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**PODxt Live powered-on top-down view**
+
+[![PODxt Live powered-on top-down view](https://line6.com/data/l/c0a8090bb23641926c0db8e6a/image/jpeg/PODsupsup%20xt%20Live%20(PODxt%20live)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/c0a8090bb23641926c0db8e6a/image/jpeg/PODsupsup%20xt%20Live%20(PODxt%20live)%20-%20Lo%20Rez.jpeg)
+
+[Image source](https://line6.com/company/images/?families=1). Official low-resolution archive photo, 360×240. Amber LCD/bank display and red LEDs visibly lit; whole control surface/treadle shown. Small labels are not legible at this resolution.
+
+**PODxt Live rear connections**
+
+[![PODxt Live rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/60053/380933/YLINE613634305__13199.1715681839.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/60053/380933/YLINE613634305__13199.1715681839.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/line-6-pod-xt-live-psu-ethernet-cable-2nd-hand/). Rich Tone guitar PODxt Live specimen, not Bass PODxt Live. Entire rear edge visible: Pedal2, input/pad, aux, amp/line outs/level, phones, MIDI, Variax, USB and power. Slight oblique angle.
+
+</details>
+<!-- model-images:Line 6::POD XT Live ends -->
+
+
 Checked **2026-10-18**; partial. Manufacturer styles the name PODxt Live. Guitar floor processor, distinct from Bass PODxt Live, desktop PODxt, rack PODxt Pro and POD X3 Live. Included in guitar and **conditional bass** comparisons: the optional authorized Bass Expansion pack is documented for this hardware; its presence in a particular used unit is unknown. No vocal membership established.
 
 <!-- comparison evidence begins -->
