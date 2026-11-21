@@ -1317,6 +1317,26 @@ Sources checked:
 
 <!-- firmware-pitch:Flamma::FX200 ends -->
 
+<!-- model-images:Flamma::FX200 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**FX200 powered-on top-down product view**
+
+[![FX200 powered-on top-down product view](https://flammainnovation.com/file/img?url=group1%2FM00%2F00%2F06%2FwKgA0GL0cg-AXzRcAAQTHMuZfvg152.jpg)](https://flammainnovation.com/file/img?url=group1%2FM00%2F00%2F06%2FwKgA0GL0cg-AXzRcAAQTHMuZfvg152.jpg)
+
+[Image source](https://flammainnovation.com/single.html?id=113). Maker blue standard FX200 product cutout viewed straight down. Active01A F Deluxe65 display and illuminated yellow/blue footswitch indicators visible. Display DSP figure belongs to this depicted preset, not an isolated pitch algorithm or measured load.
+
+**FX200 rear connections**
+
+[![FX200 rear connections](https://www.flamma.shop/cdn/shop/products/2_0f8d193f-5ef4-48c8-9901-ff9a70e47b59_x864%402x.png?v=1662309095)](https://www.flamma.shop/cdn/shop/products/2_0f8d193f-5ef4-48c8-9901-ff9a70e47b59_x864%402x.png?v=1662309095)
+
+[Image source](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice). Blue standard-model rear shows AUX IN, EXP2, INPUT, two FX LOOP jacks markedL/R, L/MONO and R outputs, PHONES, LIFT/GND, two XLR outputs, one DIN MIDI IN/OUT socket, USB-C,9V1A center-negative DC IN and power switch. L/R loop silkscreen does not resolve the manual’s mono SEND/RETURN versus store stereo-loop wording; preserve that conflict. One selectable MIDI socket is not separate simultaneous IN and OUT.
+
+</details>
+<!-- model-images:Flamma::FX200 ends -->
+
+
 **Original technical/price date:2026-10-14. Support/store follow-up2026-10-17. Partial.** Standard FX200,not battery FX200b; new software observations do not certify all older specifications.
 
 <!-- comparison evidence begins -->

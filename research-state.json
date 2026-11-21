@@ -189035,11 +189035,35 @@
             "sha256": "33d92476b709132e04e1eef7949324bcaeee1acee9e14f9ce1de797c493a78fc"
           }
         }
+      },
+      "Flamma::FX200": {
+        "model_key": "Flamma::FX200",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://flammainnovation.com/file/img?url=group1%2FM00%2F00%2F06%2FwKgA0GL0cg-AXzRcAAQTHMuZfvg152.jpg",
+            "source_url": "https://flammainnovation.com/single.html?id=113",
+            "caption": "FX200 powered-on top-down product view",
+            "note": "Maker blue standard FX200 product cutout viewed straight down. Active01A F Deluxe65 display and illuminated yellow/blue footswitch indicators visible. Display DSP figure belongs to this depicted preset, not an isolated pitch algorithm or measured load.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "745c1c921fe807fea502e3859355eed396444d73f27b1e42e67ed07b7aec7f8c"
+          },
+          "rear": {
+            "image_url": "https://www.flamma.shop/cdn/shop/products/2_0f8d193f-5ef4-48c8-9901-ff9a70e47b59_x864%402x.png?v=1662309095",
+            "source_url": "https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice",
+            "caption": "FX200 rear connections",
+            "note": "Blue standard-model rear shows AUX IN, EXP2, INPUT, two FX LOOP jacks markedL/R, L/MONO and R outputs, PHONES, LIFT/GND, two XLR outputs, one DIN MIDI IN/OUT socket, USB-C,9V1A center-negative DC IN and power switch. L/R loop silkscreen does not resolve the manual’s mono SEND/RETURN versus store stereo-loop wording; preserve that conflict. One selectable MIDI socket is not separate simultaneous IN and OUT.",
+            "visual_checked": true,
+            "sha256": "d60ed2bb3cc6915d3845a520916132973ee988197f61d57b6335d7b138355871"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Flamma::FX150b"
+    "last_model": "Flamma::FX200"
   }
 }
