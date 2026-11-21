@@ -4319,6 +4319,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::Prime S1 ends -->
 
+<!-- model-images:MOOER::Prime S1 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER Prime S1 powered-on top view**
+
+[![MOOER Prime S1 powered-on top view](https://mooer.jp/cdn/shop/files/Prime-S1-05.png?v=1711508221&width=1445)](https://mooer.jp/cdn/shop/files/Prime-S1-05.png?v=1711508221&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-prime-s1). Visually inspected exact gradient Prime S1 overhead, illuminated 2-A display, four switch LEDs and battery/Bluetooth/wireless indicators. Display artwork is not a measured runtime or current-firmware claim.
+
+**MOOER Prime S1 rear ports**
+
+[![MOOER Prime S1 rear ports](https://mooer.jp/cdn/shop/files/Prime-S1-02.png?v=1711508221&width=1445)](https://mooer.jp/cdn/shop/files/Prime-S1-02.png?v=1711508221&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-prime-s1). Visually inspected complete rear: INPUT, separate OUTPUT L/R, recessed MASTER thumbwheel, PHONES, USB-C and ON/OFF POWER slider. No barrel-power, dedicated MIDI, external EXP or effects-loop connector shown; USB functions follow the exact model documentation.
+
+</details>
+<!-- model-images:MOOER::Prime S1 ends -->
+
+
 Portable guitar/bass multi-effects; checked2026-10-18, partial. Distinct from P1/P2/M1/M2. Ownership andvocal processing unverified. Bass membership requires the documented later firmware,not launch-page sibling inference.
 
 | Field | Finding / qualification | Evidence |

@@ -198663,11 +198663,35 @@
             "sha256": "ce00463ca295ef767c9151c71aa791209681c263ba2a4db9cf524a4f6487b4d7"
           }
         }
+      },
+      "MOOER::Prime S1": {
+        "model_key": "MOOER::Prime S1",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/Prime-S1-05.png?v=1711508221&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-prime-s1",
+            "caption": "MOOER Prime S1 powered-on top view",
+            "note": "Visually inspected exact gradient Prime S1 overhead, illuminated 2-A display, four switch LEDs and battery/Bluetooth/wireless indicators. Display artwork is not a measured runtime or current-firmware claim.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "c03457cf473b892dad98f5bace3a5a338d45ae9b1ccdf708bd5b9464f9a5031c"
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/Prime-S1-02.png?v=1711508221&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-prime-s1",
+            "caption": "MOOER Prime S1 rear ports",
+            "note": "Visually inspected complete rear: INPUT, separate OUTPUT L/R, recessed MASTER thumbwheel, PHONES, USB-C and ON/OFF POWER slider. No barrel-power, dedicated MIDI, external EXP or effects-loop connector shown; USB functions follow the exact model documentation.",
+            "visual_checked": true,
+            "sha256": "9d9e398877f8df19be90e1b0eab06b06a6d1fc34f0cff1c7936317f7c9270e80"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::Prime M2"
+    "last_model": "MOOER::Prime S1"
   }
 }
