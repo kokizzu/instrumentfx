@@ -194815,6 +194815,83 @@
           "label": "3.10 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::Prime M1": {
+        "model_key": "MOOER::Prime M1",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2024",
+          "precision": "year",
+          "kind": "manufacturer_presentation_year_proxy",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=_yuvl4a7YrE",
+            "https://www.mooeraudio.com/Downloads_xq/2.html"
+          ],
+          "note": "Manufacturer M1 official video dated November 20, 2024 establishes presentation year. Earlier October 28 support entry already names M1 firmware; neither gives verified first shipping day, so year precision retained."
+        },
+        "firmware": {
+          "version": "1.1.0",
+          "date": "2026-01-30",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/Downloads_xq/2.html",
+            "https://cn.mooeraudio.com/Downloads_xq/1.html"
+          ],
+          "note": "Historical explicitly identified device version, not confirmed current latest. January 30 Studio M1 1.1.2 notes device firmware 1.1.0/GNR import; January 13 notes also reference it. Newer Chinese MS_For_S1&M1 2.0.0 firmware-labelled entry dated September 21 adds NAM A2 loading; English packages carry September 22 but omit that changelog. Installed device-version mapping for 2.0.0 unverified, so this span uses only the older explicit device anchor. Android 4.0.0 stem separation is separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Regional M1 1.0.4 inventory explicitly names MO Pitch Shift. Polyphonic/monophonic tracking, interval range, wet-only controls and current full pitch inventory remain unverified.",
+          "preset": "40 stored presets (10 banks ×4); Prime app edits tones. No separate additional factory bank established; independent pitch recall test not performed.",
+          "dsp": "Regional 1.0.4 table specifies eight blocks and no repeated effect-type use. Pitch Shift shares MO with other modulation choices. Current firmware concurrency, pitch-specific CPU percentage and overload rules remain unverified; eight blocks is not DSP usage.",
+          "source_urls": [
+            "https://mooer.jp/pages/mooer-prime-s1-m1-m2",
+            "https://www.cavallimusica.com/media/productattach/m/1/m1_manua_en.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Older regional inventory must not override later firmware additions. No independent chord-tracking/latency/DSP measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=_yuvl4a7YrE",
+            "title": "MOOER Prime M1 official presentation",
+            "access": "Manufacturer-channel indexed date and description checked; direct video fetch failed",
+            "evidence": "November 20, 2024 presentation; first shipment unresolved."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/2.html",
+            "title": "Prime English firmware support",
+            "access": "Current packages and dated device-version notes checked",
+            "evidence": "January explicit 1.1.0 device firmware; newer September 2.0.0 packages; app/version separation."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/Downloads_xq/1.html",
+            "title": "Prime Chinese firmware support",
+            "access": "Current manufacturer changelog read",
+            "evidence": "September 21 S1/M1 2.0.0 NAM A2 update absent in English notes; January device 1.1.0 anchor."
+          },
+          {
+            "url": "https://mooer.jp/pages/mooer-prime-s1-m1-m2",
+            "title": "Manufacturer-linked Japanese Prime comparison",
+            "access": "M1-specific 1.0.4 column and effect inventory read",
+            "evidence": "Pitch Shift in MO; eight blocks without repeated types; 40 presets. Historical revision."
+          },
+          {
+            "url": "https://www.cavallimusica.com/media/productattach/m/1/m1_manua_en.pdf",
+            "title": "M1 manufacturer quick guide V02_2024.10.28",
+            "access": "16-page original manual text and exact-model layout checked",
+            "evidence": "40 presets, app editing, USB/audio connectors; no explicit pitch polyphony/resource measurement."
+          }
+        ],
+        "duration": {
+          "minimum_days": 395,
+          "maximum_days": 760,
+          "label": "1.08–2.08 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -194845,7 +194922,6 @@
       "MOD Audio::Duo",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
-      "MOOER::Prime M1",
       "MOOER::Prime M2",
       "MOOER::Prime P1",
       "MOOER::Prime S1",
@@ -195019,9 +195095,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 203,
-    "last_model": "MOOER::Prime P2",
-    "last_commit_parent": "a3894c7979027cdb42d479bbdebf288e1b437ed9",
+    "completed_model_count": 204,
+    "last_model": "MOOER::Prime M1",
+    "last_commit_parent": "0b640053c328d70ac5b891b5f6abded7694ed93a",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -195051,7 +195127,6 @@
       "MOD Audio::Duo",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
-      "MOOER::Prime M1",
       "MOOER::Prime M2",
       "MOOER::Prime P1",
       "MOOER::Prime S1",
@@ -195224,7 +195299,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 203,
+    "pitch_completed_model_count": 204,
     "supplemental_model_count": 0
   },
   "model_images": {

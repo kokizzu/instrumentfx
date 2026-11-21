@@ -3966,6 +3966,32 @@ Remaining: published LCD size/color/touch specification, explicit negative capab
 
 ## Prime M1
 
+<!-- firmware-pitch:MOOER::Prime M1 begins -->
+### Firmware and pitch audit — MOOER Prime M1
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024 (manufacturer presentation year proxy). Manufacturer M1 official video dated November 20, 2024 establishes presentation year. Earlier October 28 support entry already names M1 firmware; neither gives verified first shipping day, so year precision retained. [launch 1](https://www.youtube.com/watch?v=_yuvl4a7YrE) [launch 2](https://www.mooeraudio.com/Downloads_xq/2.html) |
+| Firmware / latest verification | 1.1.0 — Located; latest status unverified. Historical explicitly identified device version, not confirmed current latest. January 30 Studio M1 1.1.2 notes device firmware 1.1.0/GNR import; January 13 notes also reference it. Newer Chinese MS_For_S1&M1 2.0.0 firmware-labelled entry dated September 21 adds NAM A2 loading; English packages carry September 22 but omit that changelog. Installed device-version mapping for 2.0.0 unverified, so this span uses only the older explicit device anchor. Android 4.0.0 stem separation is separate. [firmware 1](https://www.mooeraudio.com/Downloads_xq/2.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/1.html) |
+| Firmware / release date | 2026-01-30 (day precision) |
+| Firmware / release-to-update duration | 1.08–2.08 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Regional M1 1.0.4 inventory explicitly names MO Pitch Shift. Polyphonic/monophonic tracking, interval range, wet-only controls and current full pitch inventory remain unverified. [pitch 1](https://mooer.jp/pages/mooer-prime-s1-m1-m2) [pitch 2](https://www.cavallimusica.com/media/productattach/m/1/m1_manua_en.pdf) |
+| Pitch / preset recall | 40 stored presets (10 banks ×4); Prime app edits tones. No separate additional factory bank established; independent pitch recall test not performed. |
+| Pitch / DSP resources | Regional 1.0.4 table specifies eight blocks and no repeated effect-type use. Pitch Shift shares MO with other modulation choices. Current firmware concurrency, pitch-specific CPU percentage and overload rules remain unverified; eight blocks is not DSP usage. |
+| Pitch / qualifications | Older regional inventory must not override later firmware additions. No independent chord-tracking/latency/DSP measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER Prime M1 official presentation](https://www.youtube.com/watch?v=_yuvl4a7YrE) — November 20, 2024 presentation; first shipment unresolved. (Manufacturer-channel indexed date and description checked; direct video fetch failed).
+- [Prime English firmware support](https://www.mooeraudio.com/Downloads_xq/2.html) — January explicit 1.1.0 device firmware; newer September 2.0.0 packages; app/version separation. (Current packages and dated device-version notes checked).
+- [Prime Chinese firmware support](https://cn.mooeraudio.com/Downloads_xq/1.html) — September 21 S1/M1 2.0.0 NAM A2 update absent in English notes; January device 1.1.0 anchor. (Current manufacturer changelog read).
+- [Manufacturer-linked Japanese Prime comparison](https://mooer.jp/pages/mooer-prime-s1-m1-m2) — Pitch Shift in MO; eight blocks without repeated types; 40 presets. Historical revision. (M1-specific 1.0.4 column and effect inventory read).
+- [M1 manufacturer quick guide V02_2024.10.28](https://www.cavallimusica.com/media/productattach/m/1/m1_manua_en.pdf) — 40 presets, app editing, USB/audio connectors; no explicit pitch polyphony/resource measurement. (16-page original manual text and exact-model layout checked).
+
+<!-- firmware-pitch:MOOER::Prime M1 ends -->
+
 Checked2026-10-17; partial. Shared guitar/bass multi-effects, distinct from P1/P2/S1/M2. [Official product](https://www.mooeraudio.com/products/211.html); [manufacturer quick manual V02_2024.10.28, distributor mirror](https://www.cavallimusica.com/media/productattach/m/1/m1_manua_en.pdf), all16 pages read as text; no visual verification.
 
 | Field | Finding |
