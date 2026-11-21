@@ -1248,6 +1248,26 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP200 ends -->
 
+<!-- model-images:DigiTech::RP200 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**DigiTech RP200 — top panel**
+
+[![DigiTech RP200 — top panel](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409595/YDIGITECH13888604__84328.1722248341.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409595/YDIGITECH13888604__84328.1722248341.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/digitech-rp200-multi-fx-pedal-psu-2nd-hand/). Retailer original-RP200 used-unit photograph with blue footswitches and original panel, not the separately Artist-marked candidate. Angled overhead view with unlit display; a powered-on exact top-down replacement remains pending.
+
+**DigiTech RP200 — rear connections**
+
+[![DigiTech RP200 — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409594/YDIGITECH13888603__16435.1722248341.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409594/YDIGITECH13888603__16435.1722248341.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/digitech-rp200-multi-fx-pedal-psu-2nd-hand/). Angled rear-edge photograph from the same original-RP200 listing shows INPUT, JAM-A-LONG, OUTPUT, headphone socket and power input. All sockets visible; perspective limits small power-label readability, so no rating is inferred from this image. Operating power state unverified.
+
+</details>
+<!-- model-images:DigiTech::RP200 ends -->
+
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified. Distinct from RP200A.
 
 <!-- comparison evidence begins -->

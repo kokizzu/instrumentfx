@@ -193635,11 +193635,35 @@
             "sha256": "6bb146fd8762d3fdc6ac92d1baa95826ebff88e9c6210de7894b547bd9e637ca"
           }
         }
+      },
+      "DigiTech::RP200": {
+        "model_key": "DigiTech::RP200",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409595/YDIGITECH13888604__84328.1722248341.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/digitech-rp200-multi-fx-pedal-psu-2nd-hand/",
+            "caption": "DigiTech RP200 — top panel",
+            "note": "Retailer original-RP200 used-unit photograph with blue footswitches and original panel, not the separately Artist-marked candidate. Angled overhead view with unlit display; a powered-on exact top-down replacement remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "83ac2b76762d966f2cf4477b8fe758cdc8a0b69f1f2c0a4d09cfce4c2553f286"
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409594/YDIGITECH13888603__16435.1722248341.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/digitech-rp200-multi-fx-pedal-psu-2nd-hand/",
+            "caption": "DigiTech RP200 — rear connections",
+            "note": "Angled rear-edge photograph from the same original-RP200 listing shows INPUT, JAM-A-LONG, OUTPUT, headphone socket and power input. All sockets visible; perspective limits small power-label readability, so no rating is inferred from this image. Operating power state unverified.",
+            "visual_checked": true,
+            "sha256": "5221c5e35d2018ecaf58963d790d9a9551c8bd65702861b0a1f4b5df0b20ead2"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::GNX3"
+    "last_model": "DigiTech::RP200"
   }
 }
