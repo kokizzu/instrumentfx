@@ -119,6 +119,26 @@ Sources checked:
 
 <!-- firmware-pitch:Sonicake::Black Hammer QCE-30 ends -->
 
+<!-- model-images:Sonicake::Black Hammer QCE-30 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Black Hammer powered overhead product graphic**
+
+[![Black Hammer powered overhead product graphic](https://hotmusic.jp/cdn/shop/files/QCE-30-3_c5c2cb74-3409-4c1c-aca9-3ad67da17b8d.jpg?v=1747901078&width=1096)](https://hotmusic.jp/cdn/shop/files/QCE-30-3_c5c2cb74-3409-4c1c-aca9-3ad67da17b8d.jpg?v=1747901078&width=1096)
+
+[Image source](https://hotmusic.jp/products/sonicake-black-hammer). Visually inspected retailer/distributor graphic with full overhead panel,thirteen illuminated rotary controls andfour footswitches;no screen,treadle orseparate buttons. The graphic labels fixed Boost→Distortion→Chorus→Delay;it does not establish internal firmware.
+
+**Black Hammer official connector diagram (photo gap)**
+
+[![Black Hammer official connector diagram (photo gap)](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Black_Hammer-User_Manual_JP.png)](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Black_Hammer-User_Manual_JP.png)
+
+[Image source](https://www.hotone.jp/brands/sonicake/products/black-hammer). Official Japanese manual image inspected: IN,OUT andDC9V labelled on long connector edge;13rotaries (delay3,chorus3,hi-gain6,boost1) and4effect switches. This is a diagram fallback,not a rear photograph;clear rear connector photo remains unresolved. No extra EXP,USB,headphone orMIDI connector is documented by this diagram.
+
+</details>
+<!-- model-images:Sonicake::Black Hammer QCE-30 ends -->
+
+
 Guitar multi-effects strip; manufacturer identifies QCE-30. Checked2026-10-17; partial.
 
 | Field | Finding / qualification | Evidence |
