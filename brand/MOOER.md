@@ -3078,6 +3078,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GS1000 ends -->
 
+<!-- model-images:MOOER::GS1000 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GS1000 powered-on top view**
+
+[![MOOER GS1000 powered-on top view](https://mooer.jp/cdn/shop/files/GS1000-01.png?v=1740539575&width=1946)](https://mooer.jp/cdn/shop/files/GS1000-01.png?v=1740539575&width=1946)
+
+[Image source](https://mooer.jp/products/mooer-gs1000). Straight overhead standard white GS1000 with illuminated power, HOME indicator, light strip and 50 A display. Screen shows a complete preset DSP reading of 15%; this is not an isolated pitch-shifter cost.
+
+**MOOER GS1000 rear connections**
+
+[![MOOER GS1000 rear connections](https://mooer.jp/cdn/shop/files/GS1000-02.png?v=1740539575&width=1946)](https://mooer.jp/cdn/shop/files/GS1000-02.png?v=1740539575&width=1946)
+
+[Image source](https://mooer.jp/products/mooer-gs1000). Straight full rear panel: EXP, guitar input, combo MIC input, MIC GAIN and 48V switch, stereo FX LOOP SEND/RETURN, balanced L/R outputs, phones, USB-C, MIDI IN/OUT and DC inlet. No separate XLR output pair; the combo XLR is an input. Connector functions follow the labeled panel and manual, not connector shape alone.
+
+</details>
+<!-- model-images:MOOER::GS1000 ends -->
+
+
 **Checked 2026-10-16; partial standard-model profile.** GS1000 uses an external supply; **GS1000 Li is a separate battery variant**, now recorded in its [own comparison](#gs1000-li). The manufacturer manual covers both and explicitly separates current rating and mass. Guitar/bass and independent live microphone processing qualify this model for all three instrument views; acoustic instrument mic+line use does not establish a dedicated acoustic simulator or vocal harmony. [Original manual][GS-M] and [regional exact-model product][GS-J].
 
 ### GS1000 — hardware, expression and display
