@@ -185804,10 +185804,89 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::RP500": {
+        "model_key": "DigiTech::RP500",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2008-01-18",
+          "precision": "day",
+          "kind": "trade_show_introduction_proxy",
+          "source_urls": [
+            "https://www.sweetwater.com/insync/winter-namm-2008-digitech-rp500/"
+          ],
+          "note": "Contemporaneous Winter NAMM introduction report; announcement proxy, not exact first retail shipment."
+        },
+        "firmware": {
+          "version": "2.0",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://images.thomann.de/pics/atg/atgdata/document/manual/rp500_looper_addendum.pdf",
+            "https://griffinpr.blogspot.com/2009/12/",
+            "https://digitech.com/dp/rp500/",
+            "https://digitech.com/software-downloads/"
+          ],
+          "note": "Manufacturer looper addendum confirms v2.0; PR announcement schedules download for December 2, 2009. Actual release date and final/latest status not independently established, so no verified elapsed span. Adds 20-second looper. X-Edit 2.7.0/2.7.1 are editor versions."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift ±24 semitones; Detune ±24 cents; key/scale Harmony ±1 octave; Whammy ±1/±2 octaves and Dive Bomb; OC-2-style −1/−2 octaves with independent levels. Input-note polyphony unverified.",
+          "preset": "100 writable user plus 100 read-only factory presets; user locations initially duplicate factory.",
+          "dsp": "Pitch algorithms share one Chorus/FX slot, excluding each other and other row effects. AudioDNA2 supports ten simultaneous effects overall, not ten pitch instances. No pitch CPU percentage published in checked sources.",
+          "measurements": [],
+          "source_urls": [
+            "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
+            "https://digitech.com/dp/rp500/"
+          ],
+          "notes": [
+            "Pitch Shift/Detune/Harmony/Octaver offer pre/post placement. Newer standalone Whammy/Drop and original OC-2 tracking behavior not inferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sweetwater.com/insync/winter-namm-2008-digitech-rp500/",
+            "title": "Winter NAMM 2008: DigiTech RP500",
+            "access": "Contemporaneous Sweetwater trade-show report, January 18, 2008",
+            "evidence": "RP500 public introduction; not exact shipment."
+          },
+          {
+            "url": "https://images.thomann.de/pics/atg/atgdata/document/manual/rp500_looper_addendum.pdf",
+            "title": "RP500 Looper Addendum, update edition",
+            "access": "Manufacturer four-page PDF mirrored by Thomann",
+            "evidence": "Explicit v2.0 firmware update instructions and new 20-second looper."
+          },
+          {
+            "url": "https://griffinpr.blogspot.com/2009/12/",
+            "title": "DigiTech announces free 20-second RP500 looper upgrade",
+            "access": "Manufacturer PR announcement published by Griffin Integrated Communications, December 2, 2009",
+            "evidence": "Version 2.0 with December 2 planned download availability; scheduled wording retained."
+          },
+          {
+            "url": "https://digitech.com/dp/rp500/",
+            "title": "DigiTech RP500 product",
+            "access": "Manufacturer current web text",
+            "evidence": "20-second looper and editor/addendum links; no latest dated firmware entry."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer web text",
+            "evidence": "RP500 X-Edit editor listings distinct from device firmware."
+          },
+          {
+            "url": "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
+            "title": "RP500 Owner’s Manual",
+            "access": "Manufacturer 36-page PDF web text",
+            "evidence": "Printed p3 memory, p18 one Chorus/FX slot, pp23–24 pitch ranges, p28 AudioDNA2 and ten simultaneous effects."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::RP500",
       "DigiTech::RP55",
       "DigiTech::RP70",
       "DigiTech::RP80",
@@ -186124,12 +186203,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 87,
-    "last_model": "DigiTech::RP360XP",
-    "last_commit_parent": "6329c46ceb7ff7e67f7f4c376dcde3520b23215d",
+    "completed_model_count": 88,
+    "last_model": "DigiTech::RP500",
+    "last_commit_parent": "ea99b5c4ced80e7c6be18587d77357beedee9d0e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::RP500",
       "DigiTech::RP55",
       "DigiTech::RP70",
       "DigiTech::RP80",
@@ -186445,7 +186523,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 87,
+    "pitch_completed_model_count": 88,
     "supplemental_model_count": 0
   }
 }

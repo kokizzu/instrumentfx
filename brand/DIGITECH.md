@@ -1738,6 +1738,33 @@ Shopee recheck2026-11-05 found the same [Sluper Shop109749191/43917060054 cached
 
 ## RP500
 
+<!-- firmware-pitch:DigiTech::RP500 begins -->
+### Firmware and pitch audit — DigiTech RP500
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2008-01-18 (trade show introduction proxy). Contemporaneous Winter NAMM introduction report; announcement proxy, not exact first retail shipment. [launch 1](https://www.sweetwater.com/insync/winter-namm-2008-digitech-rp500/) |
+| Firmware / latest verification | 2.0 — Located; latest status unverified. Manufacturer looper addendum confirms v2.0; PR announcement schedules download for December 2, 2009. Actual release date and final/latest status not independently established, so no verified elapsed span. Adds 20-second looper. X-Edit 2.7.0/2.7.1 are editor versions. [firmware 1](https://images.thomann.de/pics/atg/atgdata/document/manual/rp500_looper_addendum.pdf) [firmware 2](https://griffinpr.blogspot.com/2009/12/) [firmware 3](https://digitech.com/dp/rp500/) [firmware 4](https://digitech.com/software-downloads/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift ±24 semitones; Detune ±24 cents; key/scale Harmony ±1 octave; Whammy ±1/±2 octaves and Dive Bomb; OC-2-style −1/−2 octaves with independent levels. Input-note polyphony unverified. [pitch 1](https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf) [pitch 2](https://digitech.com/dp/rp500/) |
+| Pitch / preset recall | 100 writable user plus 100 read-only factory presets; user locations initially duplicate factory. |
+| Pitch / DSP resources | Pitch algorithms share one Chorus/FX slot, excluding each other and other row effects. AudioDNA2 supports ten simultaneous effects overall, not ten pitch instances. No pitch CPU percentage published in checked sources. |
+| Pitch / qualifications | Pitch Shift/Detune/Harmony/Octaver offer pre/post placement. Newer standalone Whammy/Drop and original OC-2 tracking behavior not inferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Winter NAMM 2008: DigiTech RP500](https://www.sweetwater.com/insync/winter-namm-2008-digitech-rp500/) — RP500 public introduction; not exact shipment. (Contemporaneous Sweetwater trade-show report, January 18, 2008).
+- [RP500 Looper Addendum, update edition](https://images.thomann.de/pics/atg/atgdata/document/manual/rp500_looper_addendum.pdf) — Explicit v2.0 firmware update instructions and new 20-second looper. (Manufacturer four-page PDF mirrored by Thomann).
+- [DigiTech announces free 20-second RP500 looper upgrade](https://griffinpr.blogspot.com/2009/12/) — Version 2.0 with December 2 planned download availability; scheduled wording retained. (Manufacturer PR announcement published by Griffin Integrated Communications, December 2, 2009).
+- [DigiTech RP500 product](https://digitech.com/dp/rp500/) — 20-second looper and editor/addendum links; no latest dated firmware entry. (Manufacturer current web text).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — RP500 X-Edit editor listings distinct from device firmware. (Manufacturer web text).
+- [RP500 Owner’s Manual](https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf) — Printed p3 memory, p18 one Chorus/FX slot, pp23–24 pitch ranges, p28 AudioDNA2 and ten simultaneous effects. (Manufacturer 36-page PDF web text).
+
+<!-- firmware-pitch:DigiTech::RP500 ends -->
+
 Guitar multi-effects, distinct from RP255/RP360XP/RP1000. Manufacturer lists past product. Checked2026-10-17; partial. Ownership and bass/vocal suitability unestablished.
 
 | Field | Finding / qualification | Evidence |
