@@ -194896,11 +194896,35 @@
             "sha256": "3302d420fce5051be5c49af479bd12fa6849e21ec0a2e8eb9fff92eb7ca0bce5"
           }
         }
+      },
+      "Korg::AX5B": {
+        "model_key": "Korg::AX5B",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://r2.gear4music.com/media/4/4589/1200/preview.jpg",
+            "source_url": "https://www.gear4music.pt/pt/Guitarra-e-Baixo/Korg-AX5B-Bass-Effects-Processor/4W6",
+            "caption": "Korg AX5B promotional top view — illuminated display, angled",
+            "note": "AX5B label, complete top controls and expression pedal are visible. Display and indicators are shown illuminated in this promotional product image; no hardware operation or firmware version verified. Perspective view rather than exact overhead; straight powered-on top-down photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "01dd34f0986a1d4e12b3a086a5ec461d2d795db44e6a7607f12e1c7846e35238"
+          },
+          "rear": {
+            "image_url": "https://img07.shop-pro.jp/PA01348/005/product/184677664_o3.jpg?cmsp_timestamp=20250130144224",
+            "source_url": "https://shop.geekinbox.jp/?pid=184677664",
+            "caption": "Korg AX5B rear ports",
+            "note": "Rear panel shows INPUT, OUTPUT and DC9V sockets, cable hook and molded AX5 family marking. Exact bass-model provenance is the AX5B seller gallery; its underside photograph also identifies AX5B. Labels are dark red on red but legible at full resolution. Port inventory agrees with the own-model manual.",
+            "visual_checked": true,
+            "sha256": "5863d5ec00971cdf6c46c538694a6706fe5722da7e34e8e33866ec2a03568122"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX3G"
+    "last_model": "Korg::AX5B"
   }
 }
