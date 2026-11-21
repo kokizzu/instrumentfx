@@ -201682,11 +201682,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "M-VAVE::TANK MINI": {
+        "model_key": "M-VAVE::TANK MINI",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://m.media-amazon.com/images/I/71sbXYnoMgL._AC_SL1500_.jpg",
+            "source_url": "https://manuals.plus/asin/B0DWL9H3ZF",
+            "caption": "TANK MINI control view",
+            "note": "Exact pink TANK MINI composite shows the control face with three green illuminated switch rings and a separate rear view. Control-face camera angle is elevated rather than exactly overhead; a powered-on exact-top-down photograph remains unverified. No firmware identity inferred from LED color.",
+            "visual_checked": true,
+            "sha256": "522cb225cb261583a31b435db9fcddec8cb7e2fe12eef3ca475c6941a10407c0",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://m.media-amazon.com/images/I/71YKw95ehyL._AC_SL1500_.jpg",
+            "source_url": "https://manuals.plus/asin/B0DWL9H3ZF",
+            "caption": "TANK MINI rear connections",
+            "note": "Rear photograph labels power switch, instrument IN, volume wheel, charge indicator, USB-C, headphones and OUT. This is an annotated product photograph, not a physical routing test. The pictured volume note excludes Bluetooth and USB input volume; no status light is visibly on.",
+            "visual_checked": true,
+            "sha256": "41feda42880832a0c6a9b5cc33e71a399b6bb38f738e84e766ddb7589b0e7c87",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::TANK-B"
+    "last_model": "M-VAVE::TANK MINI"
   }
 }

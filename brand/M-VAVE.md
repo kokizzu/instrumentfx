@@ -1149,6 +1149,26 @@ Sources checked:
 
 <!-- firmware-pitch:M-VAVE::TANK MINI ends -->
 
+<!-- model-images:M-VAVE::TANK MINI begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**TANK MINI control view**
+
+[![TANK MINI control view](https://m.media-amazon.com/images/I/71sbXYnoMgL._AC_SL1500_.jpg)](https://m.media-amazon.com/images/I/71sbXYnoMgL._AC_SL1500_.jpg)
+
+[Image source](https://manuals.plus/asin/B0DWL9H3ZF). Exact pink TANK MINI composite shows the control face with three green illuminated switch rings and a separate rear view. Control-face camera angle is elevated rather than exactly overhead; a powered-on exact-top-down photograph remains unverified. No firmware identity inferred from LED color.
+
+**TANK MINI rear connections**
+
+[![TANK MINI rear connections](https://m.media-amazon.com/images/I/71YKw95ehyL._AC_SL1500_.jpg)](https://m.media-amazon.com/images/I/71YKw95ehyL._AC_SL1500_.jpg)
+
+[Image source](https://manuals.plus/asin/B0DWL9H3ZF). Rear photograph labels power switch, instrument IN, volume wheel, charge indicator, USB-C, headphones and OUT. This is an annotated product photograph, not a physical routing test. The pictured volume note excludes Bluetooth and USB input volume; no status light is visibly on.
+
+</details>
+<!-- model-images:M-VAVE::TANK MINI ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-14. Guitar/bass multi-effects.**
