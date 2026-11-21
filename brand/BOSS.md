@@ -1721,6 +1721,31 @@ All these alternatives occupy **one MOD selector**;synth,acoustic simulation and
 
 ## GT-6
 
+<!-- firmware-pitch:BOSS::GT-6 begins -->
+### Firmware and pitch audit — BOSS GT-6
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2001 (manufacturer release year). Japanese manufacturer service table GT-6(T) lists release2001, manufacturing completion2005. Exact worldwide first day/month unverified; manufacturing end is not a firmware date. [launch 1](https://www.roland.com/jp/support/service_repair/1708080000/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model US support lists owner manual, MIDI implementation, patch list and TurboStart, with no public system program located. Global exact-model endpoint inaccessible. Latest device ROM/version/date remain unverified; MIDI Implementation Version1.00 is not firmware evidence. [firmware 1](https://www.boss.info/us/support/by_product/gt-6/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Pitch Shifter ±24 semitones: Fast/Medium/Slow explicitly accept chords; slower modes reduce modulation with slower response. Mono takes individual notes. Separate scale-based Harmonist disallows chords. Pedal Bend has heel/toe limits each±24; its note-polyphony is not established by that range. [pitch 1](https://static.roland.com/assets/media/pdf/GT-6_OM.pdf) [pitch 2](https://cdn.roland.com/assets/media/pdf/GT6ts.pdf) |
+| Pitch / preset recall | 140 user plus200 preset patches (340 total). Edited effect parameters are stored in user patches with Write; manufacturer TurboStart specifies pressing Write twice after editing. |
+| Pitch / DSP resources | Pitch Shifter, Harmonist and Pedal Bend are alternatives in the single FX-2 selector, shared with modulation/synth choices; these are not freely duplicable independent blocks. No per-pitch CPU percentage or numerical DSP budget documented. |
+| Pitch / qualifications | Original manufacturer manual text inspected, including printed pp35–40 and78. No audio-quality/latency test or firmware installation. Generated one/two pitch voices and stereo output do not establish note polyphony; the positive chord statement is mode-specific. Do not transfer the later GT architecture with interchangeable FX1/FX2 pitch choices to GT-6. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland Japanese release/manufacturing-year table](https://www.roland.com/jp/support/service_repair/1708080000/) — GT-6(T): release2001, manufacturing completion2005; separate columns. (opened).
+- [BOSS GT-6 exact-model US support](https://www.boss.info/us/support/by_product/gt-6/) — Manual/MIDI/patch/TurboStart resources; no public device firmware located. (opened).
+- [BOSS GT-6 original owner manual](https://static.roland.com/assets/media/pdf/GT-6_OM.pdf) — pp35–40 FX-2 alternatives,±24 pitch modes, explicit chord input for Fast/Medium/Slow, single-note Mono/Harmonist, pedal endpoints; p78 memory140+200. (opened_pdf_text).
+- [Roland GT-6 manufacturer TurboStart](https://cdn.roland.com/assets/media/pdf/GT6ts.pdf) — Edited effect settings saved by pressing Write twice; templates distinct from patches. (indexed_manufacturer_pdf_text).
+
+<!-- firmware-pitch:BOSS::GT-6 ends -->
+
 Discontinued guitar multi-effects;not GT-6B. Checked2026-10-17;partial. Ownership,bass/vocal suitability unverified.
 
 | Field | Finding / qualification | Evidence |
