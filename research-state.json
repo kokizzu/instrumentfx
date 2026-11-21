@@ -203093,11 +203093,51 @@
             "exact_top_down": false
           }
         }
+      },
+      "Roland::VT-4": {
+        "model_key": "Roland::VT-4",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/products/vt-4/images/img_products_01.jpg",
+            "source_url": "https://www.roland.com/global/products/vt-4/",
+            "caption": "VT-4 powered-on overhead",
+            "note": "Visually inspected manufacturer overhead image: illuminated effect and scene buttons, four rotary controls, four sliders and ten buttons; no screen. Image is marketing evidence, not an installed-firmware or hardware test.",
+            "visual_checked": true,
+            "sha256": "687711348a17669afb282881182f03551052b84319276800272aa8b776d62cbc",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://static.roland.com/products/vt-4/images/img_products_04.jpg",
+            "source_url": "https://www.roland.com/global/products/vt-4/",
+            "caption": "VT-4 rear ports",
+            "note": "Visually inspected manufacturer rear image: power switch, USB-B, MIDI IN, combo MIC IN, R/BYPASS and L/MONO line outputs, security slot. Front PHONES/mini MIC IN and line/phantom switches are visible in the separately inspected angled alternative, outside this rear view; no barrel DC connector shown.",
+            "visual_checked": true,
+            "sha256": "ff7e1d20d67fe2f1b79a770613e1b09fe104896381e4ddfbadc3513242531e49",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://static.roland.com/products/vt-4/images/img_products_02.jpg",
+            "sha256": "9b091963ff726849ab7b39346bbfe03d5d7cec2762008ee8d1ce836fa5c354db",
+            "visual_checked": true,
+            "note": "Powered-looking angled top/front, not exact overhead."
+          },
+          {
+            "image_url": "https://static.roland.com/products/vt-4/images/img_products_03.jpg",
+            "sha256": "f91a7a99f970147f6d5977d91578b43bb5e651793df0942447f09d201321ba3c",
+            "visual_checked": true,
+            "note": "Underside four-AA battery compartment, not rear connectors."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Roland::GR-55"
+    "last_model": "Roland::VT-4"
   }
 }

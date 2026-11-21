@@ -301,6 +301,26 @@ Sources checked:
 
 <!-- firmware-pitch:Roland::VT-4 ends -->
 
+<!-- model-images:Roland::VT-4 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**VT-4 powered-on overhead**
+
+[![VT-4 powered-on overhead](https://static.roland.com/products/vt-4/images/img_products_01.jpg)](https://static.roland.com/products/vt-4/images/img_products_01.jpg)
+
+[Image source](https://www.roland.com/global/products/vt-4/). Visually inspected manufacturer overhead image: illuminated effect and scene buttons, four rotary controls, four sliders and ten buttons; no screen. Image is marketing evidence, not an installed-firmware or hardware test.
+
+**VT-4 rear ports**
+
+[![VT-4 rear ports](https://static.roland.com/products/vt-4/images/img_products_04.jpg)](https://static.roland.com/products/vt-4/images/img_products_04.jpg)
+
+[Image source](https://www.roland.com/global/products/vt-4/). Visually inspected manufacturer rear image: power switch, USB-B, MIDI IN, combo MIC IN, R/BYPASS and L/MONO line outputs, security slot. Front PHONES/mini MIC IN and line/phantom switches are visible in the separately inspected angled alternative, outside this rear view; no barrel DC connector shown.
+
+</details>
+<!-- model-images:Roland::VT-4 ends -->
+
+
 Checked2026-10-17; partial new vocal multi-effects record. Ownership unverified. [Roland product/specifications][VT4-P] explicitly describes combined vocal processing; not merely a dedicated vocoder. Guitar/bass membership unverified.
 
 | Field | Finding / qualification |
