@@ -190406,11 +190406,35 @@
             "sha256": "62e1458fdba29eca264c21609f26e8a3c7f7cef02008ea1e9ccdb0864150f589"
           }
         }
+      },
+      "IK Multimedia::TONEX Pedal": {
+        "model_key": "IK Multimedia::TONEX Pedal",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://ikmultimedia.com/cdn/shop/files/TONEX-Pedal---ToneX---Front7097.jpg?v=1783508148&width=1100",
+            "source_url": "https://ikmultimedia.com/products/tonexpedal",
+            "caption": "TONEX Pedal powered-on top-down product view",
+            "note": "Manufacturer overhead product rendering with active TONEX display, AMP/ALT/CAB indicators and green A-switch LED. Eight rotaries are visible: MODEL, PRESET, PARAMETER, GAIN, BASS, MID, TREBLE and VOLUME; this contradicts the older seven-knob profile count, which remains historical. Three footswitches and no built-in treadle. Lit rendering is not a physical hardware test.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "2084aa297c44e2cce5acff8fc2dc45f67c2b044f8f227adad5ccae2c2ff4a671"
+          },
+          "rear": {
+            "image_url": "https://ikmultimedia.com/cdn/shop/files/TONEX-Pedal--Back.jpg?v=1783508147&width=1100",
+            "source_url": "https://ikmultimedia.com/products/tonexpedal",
+            "caption": "TONEX Pedal rear connections",
+            "note": "Manufacturer standard black Pedal rear rendering clearly labels INPUT, L(MONO)/R OUTPUT, HEADPHONES, full-size MIDI IN/OUT, EXT.CONTROL, USB-B and POWER 9V DC. Headphones are a separate full-size jack; the ONE shared-output arrangement is not inherited. No XLR mic input, FX loop or USB-C port shown. The rear voltage marking does not establish measured power consumption.",
+            "visual_checked": true,
+            "sha256": "268cfcd3f15b858b034f5112046a67a49bb06cacd18fc798a46d4b10f2d4ac42"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "IK Multimedia::TONEX ONE"
+    "last_model": "IK Multimedia::TONEX Pedal"
   }
 }
