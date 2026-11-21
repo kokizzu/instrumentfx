@@ -194740,6 +194740,81 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::Prime P2": {
+        "model_key": "MOOER::Prime P2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2023-08-15",
+          "precision": "day",
+          "kind": "manufacturer_announcement_index_proxy",
+          "source_urls": [
+            "https://cn.mooeraudio.com/bews/p-48-12.html"
+          ],
+          "note": "Chinese manufacturer news index assigns August 15, 2023 to the exact P2 launch announcement. Linked WeChat article could not be opened; index date is an announcement proxy, not verified first worldwide shipment. Later autumn regional coverage is separate."
+        },
+        "firmware": {
+          "version": "2.5.0",
+          "date": "2026-09-22",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.mooeraudio.com/Downloads_xq/2.html"
+          ],
+          "note": "Current manufacturer changelog explicitly labels P2 V2.5.0 device firmware, unlike a package-only inference. Adds NAM A2 tone-file loading. Android 4.0.0 separately adds stem separation and A2 Lite/mobile import; that app version is not device firmware. Payload not installed or independently inspected."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Exact P2 V01 manual includes Pitch shift among MOD effects. Explicit polyphonic/monophonic classification, interval range and wet-only controls not established in this manual; generic search results labelled P2 can contain unrelated GE effect tables and were excluded.",
+          "preset": "80 editable factory-filled slots (20 banks ×4); SAVE stores edited tones before switching, otherwise changes are discarded. Pitch setting recall follows general preset workflow; no hardware test.",
+          "dsp": "Manufacturer confirms dynamic loading and module reuse; manual permits adding and reordering modules. Maximum simultaneous count, pitch allocation/overload rules and isolated DSP percentage remain unverified. Nine category types are not a DSP cost.",
+          "source_urls": [
+            "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P2_Manual_EN.pdf",
+            "https://cn.mooeraudio.com/product/65.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "No independent chord-tracking quality, latency or CPU measurement. Current complete pitch inventory still requires exact P2 firmware/app verification."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://cn.mooeraudio.com/bews/p-48-12.html",
+            "title": "MOOER Chinese launch news index",
+            "access": "Exact P2 title/date row read; linked WeChat article unavailable",
+            "evidence": "August 15, 2023 announcement-index date, used as a qualified proxy."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/2.html",
+            "title": "Prime Series manufacturer downloads and firmware changelog",
+            "access": "Current P2 package entries and explicit device-firmware section read",
+            "evidence": "P2 firmware 2.5.0 September 22, 2026; separate Android 4.0.0 features and version."
+          },
+          {
+            "url": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P2_Manual_EN.pdf",
+            "title": "Prime P2 original English manual V01.2023.09.21",
+            "access": "62-page manufacturer PDF text; title and editing/preset/chain sections checked",
+            "evidence": "P2 pitch shift, add/reorder workflow and 80 editable presets; no explicit polyphony or DSP cost located."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/product/65.html",
+            "title": "Prime P2 Chinese manufacturer product",
+            "access": "Exact model product body read",
+            "evidence": "Dynamic module loading and reuse; category counts do not establish concurrency or CPU percentage."
+          },
+          {
+            "url": "https://www.mooeraudio.com/products/200.html",
+            "title": "Prime P2 manufacturer global product",
+            "access": "Current indexed product text checked against existing canonical record",
+            "evidence": "Exact P2 identity and original effects/preset context; not a firmware-date source."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1134,
+          "maximum_days": 1134,
+          "label": "3.10 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -194773,7 +194848,6 @@
       "MOOER::Prime M1",
       "MOOER::Prime M2",
       "MOOER::Prime P1",
-      "MOOER::Prime P2",
       "MOOER::Prime S1",
       "Mosky::DC5",
       "Mosky::RC5",
@@ -194945,9 +195019,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 202,
-    "last_model": "MOOER::Red Truck",
-    "last_commit_parent": "b1e9a8c628f8578725d2f21704e3099785647443",
+    "completed_model_count": 203,
+    "last_model": "MOOER::Prime P2",
+    "last_commit_parent": "a3894c7979027cdb42d479bbdebf288e1b437ed9",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -194980,7 +195054,6 @@
       "MOOER::Prime M1",
       "MOOER::Prime M2",
       "MOOER::Prime P1",
-      "MOOER::Prime P2",
       "MOOER::Prime S1",
       "Mosky::DC5",
       "Mosky::RC5",
@@ -195151,7 +195224,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 202,
+    "pitch_completed_model_count": 203,
     "supplemental_model_count": 0
   },
   "model_images": {

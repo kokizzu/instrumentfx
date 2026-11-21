@@ -4117,6 +4117,32 @@ Effect-library audit checked 2026-10-18: [manufacturer-authored 20-page P1 manua
 
 ## Prime P2
 
+<!-- firmware-pitch:MOOER::Prime P2 begins -->
+### Firmware and pitch audit — MOOER Prime P2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-08-15 (manufacturer announcement index proxy). Chinese manufacturer news index assigns August 15, 2023 to the exact P2 launch announcement. Linked WeChat article could not be opened; index date is an announcement proxy, not verified first worldwide shipment. Later autumn regional coverage is separate. [launch 1](https://cn.mooeraudio.com/bews/p-48-12.html) |
+| Firmware / latest verification | 2.5.0 — Latest verified. Current manufacturer changelog explicitly labels P2 V2.5.0 device firmware, unlike a package-only inference. Adds NAM A2 tone-file loading. Android 4.0.0 separately adds stem separation and A2 Lite/mobile import; that app version is not device firmware. Payload not installed or independently inspected. [firmware 1](https://www.mooeraudio.com/Downloads_xq/2.html) |
+| Firmware / release date | 2026-09-22 (day precision) |
+| Firmware / release-to-update duration | 3.10 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Exact P2 V01 manual includes Pitch shift among MOD effects. Explicit polyphonic/monophonic classification, interval range and wet-only controls not established in this manual; generic search results labelled P2 can contain unrelated GE effect tables and were excluded. [pitch 1](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P2_Manual_EN.pdf) [pitch 2](https://cn.mooeraudio.com/product/65.html) |
+| Pitch / preset recall | 80 editable factory-filled slots (20 banks ×4); SAVE stores edited tones before switching, otherwise changes are discarded. Pitch setting recall follows general preset workflow; no hardware test. |
+| Pitch / DSP resources | Manufacturer confirms dynamic loading and module reuse; manual permits adding and reordering modules. Maximum simultaneous count, pitch allocation/overload rules and isolated DSP percentage remain unverified. Nine category types are not a DSP cost. |
+| Pitch / qualifications | No independent chord-tracking quality, latency or CPU measurement. Current complete pitch inventory still requires exact P2 firmware/app verification. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER Chinese launch news index](https://cn.mooeraudio.com/bews/p-48-12.html) — August 15, 2023 announcement-index date, used as a qualified proxy. (Exact P2 title/date row read; linked WeChat article unavailable).
+- [Prime Series manufacturer downloads and firmware changelog](https://www.mooeraudio.com/Downloads_xq/2.html) — P2 firmware 2.5.0 September 22, 2026; separate Android 4.0.0 features and version. (Current P2 package entries and explicit device-firmware section read).
+- [Prime P2 original English manual V01.2023.09.21](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P2_Manual_EN.pdf) — P2 pitch shift, add/reorder workflow and 80 editable presets; no explicit polyphony or DSP cost located. (62-page manufacturer PDF text; title and editing/preset/chain sections checked).
+- [Prime P2 Chinese manufacturer product](https://cn.mooeraudio.com/product/65.html) — Dynamic module loading and reuse; category counts do not establish concurrency or CPU percentage. (Exact model product body read).
+- [Prime P2 manufacturer global product](https://www.mooeraudio.com/products/200.html) — Exact P2 identity and original effects/preset context; not a firmware-date source. (Current indexed product text checked against existing canonical record).
+
+<!-- firmware-pitch:MOOER::Prime P2 ends -->
+
 Checked 2026-10-17; partial. Guitar multi-effects with documented bass updates and a processed headset-microphone path. Original manufacturer manual V01.2023.09.21 is hosted by RockBoard; newer firmware changes supersede historical counts and gestures where specified.
 
 | Field | Finding |
