@@ -208,6 +208,31 @@ The conflicting **C** assignment toAMP/CAB andMOD onprinted10–11 remains unres
 
 ## FG200
 
+<!-- firmware-pitch:Flamma::FG200 begins -->
+### Firmware and pitch audit — Flamma FG200
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No authenticated hardware launch date located. V01/2025-03-12 and V02.05.06 are document revisions, not first-sales dates; retailer September2025 availability is regional, not a global launch. [launch 1](https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf) [launch 2](https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes) |
+| Firmware / latest verification | 1.2.5 — Located; latest status unverified. Newest explicitly dated FG200 firmware changelog located. Adds Gate compression and adjusts switching/noise/preset levels;1.2.1 June9,2025 adds14Boost models and preset-mode delay tap. Catalogue now lists Windows1.2.8 and Mac1.2.6 installers: application labels alone do not authenticate newer pedal firmware. Current latest-device version unverified; FB2001.0.1 is separate. [firmware 1](https://www.flamma.shop/pages/manual) [firmware 2](https://flammainnovation.com/download.html) |
+| Firmware / release date | 2025-07-28 (day precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Own complete effect tables contain no dedicated transposer, harmonizer, octave shifter or polyphonic retuning. Vibrato varies pitch cyclically; chorus, ring modulation and filtering do not establish selectable note-tracked pitch shift. Located firmware additions are Boost/Gate/control changes, not pitch algorithms. [pitch 1](https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf) [pitch 2](https://www.flamma.shop/pages/manual) [pitch 3](https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes) |
+| Pitch / preset recall | 40 writable preset slots; exact factory-filled subset unknown. Preset mode recalls stored settings; Live mode exposes module controls. No second40factory bank inferred. |
+| Pitch / DSP resources | Seven named fixed modules: Gate,Boost,Amp,Cab,Mod,Delay,Reverb. Effect choices and14added Boost models are library counts, not independent slots. No per-effect CPU percentage, pitch allocation or freely insertable pitch block documented. |
+| Pitch / qualifications | FG200 guitar model remains separate from bass FB200. Original5Boost inventory predates14additions; these cannot be treated as additional simultaneous DSP blocks. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [FLAMMA FG200 device firmware changelog](https://www.flamma.shop/pages/manual) — Device1.2.5 July28,2025;1.2.1 June9,2025; automatic update prompt. Not FB200 notes. (Direct current manufacturer manual/software page; exact FG200 heading).
+- [FLAMMA current download catalogue](https://flammainnovation.com/download.html) — FG200 Windows1.2.8 and Mac1.2.6 installer names; not dated authenticated pedal versions. (Indexed current maker download list).
+- [FG200 own English owner manual](https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf) — Seven modules,40presets; original effects inventory without dedicated transposition. (Direct31-page maker PDF, titleV02.05.06;printed10–13/18/26–27).
+- [FG200 manufacturer product page](https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes) — 40memories and Live/Preset modes; fixed module library and own identity; no launch dateline. (Direct maker page; unrelated template content excluded).
+
+<!-- firmware-pitch:Flamma::FG200 ends -->
+
 Checked **2026-10-17**; partial. Guitar multi-effects strip; distinct from FB200. Bass/vocal membership unverified; a Bassman guitar-amp model is not evidence of bass support.
 
 <!-- comparison evidence begins -->

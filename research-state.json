@@ -187178,10 +187178,77 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Flamma::FG200": {
+        "model_key": "Flamma::FG200",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf",
+            "https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes"
+          ],
+          "note": "No authenticated hardware launch date located. V01/2025-03-12 and V02.05.06 are document revisions, not first-sales dates; retailer September2025 availability is regional, not a global launch."
+        },
+        "firmware": {
+          "version": "1.2.5",
+          "date": "2025-07-28",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.flamma.shop/pages/manual",
+            "https://flammainnovation.com/download.html"
+          ],
+          "note": "Newest explicitly dated FG200 firmware changelog located. Adds Gate compression and adjusts switching/noise/preset levels;1.2.1 June9,2025 adds14Boost models and preset-mode delay tap. Catalogue now lists Windows1.2.8 and Mac1.2.6 installers: application labels alone do not authenticate newer pedal firmware. Current latest-device version unverified; FB2001.0.1 is separate."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Own complete effect tables contain no dedicated transposer, harmonizer, octave shifter or polyphonic retuning. Vibrato varies pitch cyclically; chorus, ring modulation and filtering do not establish selectable note-tracked pitch shift. Located firmware additions are Boost/Gate/control changes, not pitch algorithms.",
+          "preset": "40 writable preset slots; exact factory-filled subset unknown. Preset mode recalls stored settings; Live mode exposes module controls. No second40factory bank inferred.",
+          "dsp": "Seven named fixed modules: Gate,Boost,Amp,Cab,Mod,Delay,Reverb. Effect choices and14added Boost models are library counts, not independent slots. No per-effect CPU percentage, pitch allocation or freely insertable pitch block documented.",
+          "source_urls": [
+            "https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf",
+            "https://www.flamma.shop/pages/manual",
+            "https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes"
+          ],
+          "measurements": [],
+          "notes": [
+            "FG200 guitar model remains separate from bass FB200. Original5Boost inventory predates14additions; these cannot be treated as additional simultaneous DSP blocks."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.flamma.shop/pages/manual",
+            "title": "FLAMMA FG200 device firmware changelog",
+            "access": "Direct current manufacturer manual/software page; exact FG200 heading",
+            "evidence": "Device1.2.5 July28,2025;1.2.1 June9,2025; automatic update prompt. Not FB200 notes."
+          },
+          {
+            "url": "https://flammainnovation.com/download.html",
+            "title": "FLAMMA current download catalogue",
+            "access": "Indexed current maker download list",
+            "evidence": "FG200 Windows1.2.8 and Mac1.2.6 installer names; not dated authenticated pedal versions."
+          },
+          {
+            "url": "https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf",
+            "title": "FG200 own English owner manual",
+            "access": "Direct31-page maker PDF, titleV02.05.06;printed10–13/18/26–27",
+            "evidence": "Seven modules,40presets; original effects inventory without dedicated transposition."
+          },
+          {
+            "url": "https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes",
+            "title": "FG200 manufacturer product page",
+            "access": "Direct maker page; unrelated template content excluded",
+            "evidence": "40memories and Live/Preset modes; fixed module library and own identity; no launch dateline."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Flamma::FG200",
       "Flamma::FV02 Doubling",
       "Flamma::FV03 Character",
       "Flamma::FV04 Harmony",
@@ -187480,12 +187547,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 105,
-    "last_model": "Flamma::FB200",
-    "last_commit_parent": "c5d087b5060019e71fc125194d92254f7db101c4",
+    "completed_model_count": 106,
+    "last_model": "Flamma::FG200",
+    "last_commit_parent": "8cd292249a41905f0975f620e015f2ca5bfacf6d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Flamma::FG200",
       "Flamma::FV02 Doubling",
       "Flamma::FV03 Character",
       "Flamma::FV04 Harmony",
@@ -187783,7 +187849,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 105,
+    "pitch_completed_model_count": 106,
     "supplemental_model_count": 0
   },
   "model_images": {
