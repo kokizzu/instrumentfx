@@ -667,6 +667,31 @@ Manual identity: manufacturer English **v1.2, September 2002**, Rev C filename, 
 
 ## V-AMP 3
 
+<!-- firmware-pitch:Behringer::V-AMP 3 begins -->
+### Firmware and pitch audit — Behringer V-AMP 3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No dated manufacturer launch verified. Manual/brochure copyright and crawl/publication labels are not first hardware release dates;V-AMP2 launch year not transferred. [launch 1](https://images.thomann.de/pics/atg/atgdata/document/manual/231375_vamp3_p0961_m_en.pdf) [launch 2](https://behringer.com/de/products?category_id=guitar-and-bass&page=9) |
+| Firmware / latest verification | Not verified — No public firmware located. No verified public V-AMP3 ROM version/updater/changelog located in current model discovery,manual and targeted searches. Exact product URL currently inaccessible. Bundled UCA222 USB interface/drivers and energyXT software are separate from processor firmware. Do not transfer V-AMP1/2 ROM2.2.4. [firmware 1](https://behringer.com/de/products?category_id=guitar-and-bass&page=9) [firmware 2](https://www.behringer.com/en/products/0709-AEC) [firmware 3](https://images.thomann.de/pics/atg/atgdata/document/manual/231375_vamp3_p0961_m_en.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Own manual pp14–16 lists16 delay/modulation/compressor/auto-wah selections and independent reverb,without a dedicated interval transposer/harmonizer. Chorus pitch variation and tuner calibration are not chromatic audio transposition. Scope is inspected manual,not every service ROM. [pitch 1](https://images.thomann.de/pics/atg/atgdata/document/manual/231375_vamp3_p0961_m_en.pdf) |
+| Pitch / preset recall | 125 editable locations (25×5). Manual pp8–9: hold destination A–E about2seconds to store,including another bank;unsaved edits lost on preset change. Last-used preset reloads at power-up. No dedicated pitch preset established. |
+| Pitch / DSP resources | Fixed effect selections/combinations plus independent nine-type reverb,not freely duplicable slots. No pitch-block CPU percentage applies to a documented algorithm;not evidence of zero cost. Sixteen choices and32×15 amp/cab combinations do not quantify DSP resources. |
+| Pitch / qualifications | Polyphonic capo capability unestablished. UCA222 stereo audio andMIDI preset transfer are not evidence of pitch processing or firmware updating. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Behringer V-AMP3 original User Manual,22-page edition](https://images.thomann.de/pics/atg/atgdata/document/manual/231375_vamp3_p0961_m_en.pdf) — Cover separates included UCA222;pp8–9 preset edit/save/recall;pp14–16 effect list andindependent reverb. No interval pitch shifter documented in inventory. (manufacturer_manuscript_on_public_mirror; PDF_text).
+- [Behringer current guitar/bass legacy catalogue page9](https://behringer.com/de/products?category_id=guitar-and-bass&page=9) — Exact V-AMP3 legacy entry links model0709-AEC;no dated launch/ROM history. (opened).
+- [Behringer exact V-AMP3 product target](https://www.behringer.com/en/products/0709-AEC) — Model target discovered through manufacturer catalogue;current body unavailable,so no version/date inferred. (inaccessible).
+- [Behringer later V-AMP3 manual endpoint](https://mediadl.musictribe.com/media/sys_master/h56/hb7/8849514528798.pdf) — Manufacturer-indexed control text;current direct retrieval failed. Edition/copyright is not firmware version. (indexed_manufacturer_text; direct_fetch_unavailable).
+
+<!-- firmware-pitch:Behringer::V-AMP 3 ends -->
+
 Checked2026-10-17. Partial guitar/bass multi-effects record,distinct from V-AMP2. [Manufacturer manual](https://mediadl.musictribe.com/media/sys_master/h56/hb7/8849514528798.pdf),18pages,©2013;web text only,no download orvisual diagram audit.
 
 | Field | Evidence / gaps |

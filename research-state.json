@@ -181277,10 +181277,76 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Behringer::V-AMP 3": {
+        "model_key": "Behringer::V-AMP 3",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://images.thomann.de/pics/atg/atgdata/document/manual/231375_vamp3_p0961_m_en.pdf",
+            "https://behringer.com/de/products?category_id=guitar-and-bass&page=9"
+          ],
+          "note": "No dated manufacturer launch verified. Manual/brochure copyright and crawl/publication labels are not first hardware release dates;V-AMP2 launch year not transferred."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://behringer.com/de/products?category_id=guitar-and-bass&page=9",
+            "https://www.behringer.com/en/products/0709-AEC",
+            "https://images.thomann.de/pics/atg/atgdata/document/manual/231375_vamp3_p0961_m_en.pdf"
+          ],
+          "note": "No verified public V-AMP3 ROM version/updater/changelog located in current model discovery,manual and targeted searches. Exact product URL currently inaccessible. Bundled UCA222 USB interface/drivers and energyXT software are separate from processor firmware. Do not transfer V-AMP1/2 ROM2.2.4."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Own manual pp14–16 lists16 delay/modulation/compressor/auto-wah selections and independent reverb,without a dedicated interval transposer/harmonizer. Chorus pitch variation and tuner calibration are not chromatic audio transposition. Scope is inspected manual,not every service ROM.",
+          "preset": "125 editable locations (25×5). Manual pp8–9: hold destination A–E about2seconds to store,including another bank;unsaved edits lost on preset change. Last-used preset reloads at power-up. No dedicated pitch preset established.",
+          "dsp": "Fixed effect selections/combinations plus independent nine-type reverb,not freely duplicable slots. No pitch-block CPU percentage applies to a documented algorithm;not evidence of zero cost. Sixteen choices and32×15 amp/cab combinations do not quantify DSP resources.",
+          "source_urls": [
+            "https://images.thomann.de/pics/atg/atgdata/document/manual/231375_vamp3_p0961_m_en.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Polyphonic capo capability unestablished. UCA222 stereo audio andMIDI preset transfer are not evidence of pitch processing or firmware updating."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://images.thomann.de/pics/atg/atgdata/document/manual/231375_vamp3_p0961_m_en.pdf",
+            "title": "Behringer V-AMP3 original User Manual,22-page edition",
+            "access": "manufacturer_manuscript_on_public_mirror; PDF_text",
+            "evidence": "Cover separates included UCA222;pp8–9 preset edit/save/recall;pp14–16 effect list andindependent reverb. No interval pitch shifter documented in inventory."
+          },
+          {
+            "url": "https://behringer.com/de/products?category_id=guitar-and-bass&page=9",
+            "title": "Behringer current guitar/bass legacy catalogue page9",
+            "access": "opened",
+            "evidence": "Exact V-AMP3 legacy entry links model0709-AEC;no dated launch/ROM history."
+          },
+          {
+            "url": "https://www.behringer.com/en/products/0709-AEC",
+            "title": "Behringer exact V-AMP3 product target",
+            "access": "inaccessible",
+            "evidence": "Model target discovered through manufacturer catalogue;current body unavailable,so no version/date inferred."
+          },
+          {
+            "url": "https://mediadl.musictribe.com/media/sys_master/h56/hb7/8849514528798.pdf",
+            "title": "Behringer later V-AMP3 manual endpoint",
+            "access": "indexed_manufacturer_text; direct_fetch_unavailable",
+            "evidence": "Manufacturer-indexed control text;current direct retrieval failed. Edition/copyright is not firmware version."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Behringer::V-AMP 3",
       "Behringer::X V-AMP LX1-X",
       "Blackstar::ID:X Floor One",
       "Blackstar::ID:X Floor Three",
@@ -181661,12 +181727,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 23,
-    "last_model": "Behringer::V-AMP 2",
-    "last_commit_parent": "26b2e4c5efa89215578a0a5287f88074e9cbad36",
+    "completed_model_count": 24,
+    "last_model": "Behringer::V-AMP 3",
+    "last_commit_parent": "fb6fc23004783bd055133882e84ee4668a187d28",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Behringer::V-AMP 3",
       "Behringer::X V-AMP LX1-X",
       "Blackstar::ID:X Floor One",
       "Blackstar::ID:X Floor Three",
@@ -182046,7 +182111,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 23,
+    "pitch_completed_model_count": 24,
     "supplemental_model_count": 0
   }
 }
