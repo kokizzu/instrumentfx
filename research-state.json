@@ -181141,10 +181141,71 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Behringer::FX600": {
+        "model_key": "Behringer::FX600",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.behringer.com/en/products/0709-ADL",
+            "https://www.adorama.com/col/productManuals/BEFX600.pdf"
+          ],
+          "note": "Exact hardware launch not verified. V3.0 and copyright2024 identify a manual edition, not firmware or first release."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.behringer.com/en/products/0709-ADL",
+            "https://www.adorama.com/col/productManuals/BEFX600.pdf",
+            "https://mediadl.musictribe.com/media/PLM/data/docs/P0596/M_BE_0709-ADL_FX600_WW.pdf"
+          ],
+          "note": "No public FX600 firmware updater/version history located in checked product/manual and targeted searches. V3.0 is manual revision. Official manual endpoint returned502; readable manufacturer copy used. No proof of installed/service ROM version or user updateability; absence of USB alone is not proof."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shifter is one of six selector choices. Manual p12 assigns PAR1 detune and PAR2 semitone interval; numeric ranges and source-note polyphony unspecified. Stereo inputs/outputs do not prove polyphonic chord transposition. No FX2000 ±12-semitone range transferred.",
+          "preset": "No addressable patch bank or save/recall workflow in inspected English operating pages. Physical FX/PAR controls select sound; footswitch enables/bypasses. Six effect choices are not six stored presets; power-cycle setting retention not independently established.",
+          "dsp": "One selected effect at a time, with two parameter controls. No per-pitch CPU percentage or freely allocatable block budget published in checked sources. 24-bit stereo/40kHz marketing describes processing format, not CPU usage or comparable Ampero50% cost.",
+          "source_urls": [
+            "https://www.behringer.com/en/products/0709-ADL",
+            "https://www.adorama.com/col/productManuals/BEFX600.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documented pitch shifting is retained separately from unknown monophonic/polyphonic note handling. LEVEL output-level versus older mix wording remains a separate unresolved source qualification."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.behringer.com/en/products/0709-ADL",
+            "title": "Behringer FX600 exact current product page",
+            "access": "opened",
+            "evidence": "One-of-six selection;PAR2 semitone interval;stereo connection modes. No dated firmware history or hardware launch established."
+          },
+          {
+            "url": "https://www.adorama.com/col/productManuals/BEFX600.pdf",
+            "title": "Behringer FX600 User Manual V3.0, manufacturer copy",
+            "access": "manufacturer_manuscript_on_public_mirror; PDF_text",
+            "evidence": "47-page matching FX600 manual;English pp12–13 PAR1 detune/PAR2 semitone,selector,bypass and ports. No numeric pitch range,patch-save workflow or note-polyphony claim in inspected sections."
+          },
+          {
+            "url": "https://mediadl.musictribe.com/media/PLM/data/docs/P0596/M_BE_0709-ADL_FX600_WW.pdf",
+            "title": "Official FX600 multilingual manual endpoint",
+            "access": "indexed_manufacturer_PDF_text; direct_fetch_502",
+            "evidence": "Indexed English control table agrees with readable manuscript;direct file unavailable. Manual edition not promoted to ROM version."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Behringer::FX600",
       "Behringer::V-AMP 2",
       "Behringer::V-AMP 3",
       "Behringer::X V-AMP LX1-X",
@@ -181527,12 +181588,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 21,
-    "last_model": "Behringer::FX2000",
-    "last_commit_parent": "4f20a49c4451ced7eb7794b7831fc48d224f88f5",
+    "completed_model_count": 22,
+    "last_model": "Behringer::FX600",
+    "last_commit_parent": "dead4ae1b5d6c3958f0dfb98b6b3a9cadda2b2a3",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Behringer::FX600",
       "Behringer::V-AMP 2",
       "Behringer::V-AMP 3",
       "Behringer::X V-AMP LX1-X",
@@ -181914,7 +181974,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 21,
+    "pitch_completed_model_count": 22,
     "supplemental_model_count": 0
   }
 }

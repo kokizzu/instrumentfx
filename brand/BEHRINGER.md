@@ -408,6 +408,30 @@ MIDI example sets **CC116=1 for Mix Internal**, then **CC111 values0–100 for e
 
 ## FX600
 
+<!-- firmware-pitch:Behringer::FX600 begins -->
+### Firmware and pitch audit — Behringer FX600
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact hardware launch not verified. V3.0 and copyright2024 identify a manual edition, not firmware or first release. [launch 1](https://www.behringer.com/en/products/0709-ADL) [launch 2](https://www.adorama.com/col/productManuals/BEFX600.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. No public FX600 firmware updater/version history located in checked product/manual and targeted searches. V3.0 is manual revision. Official manual endpoint returned502; readable manufacturer copy used. No proof of installed/service ROM version or user updateability; absence of USB alone is not proof. [firmware 1](https://www.behringer.com/en/products/0709-ADL) [firmware 2](https://www.adorama.com/col/productManuals/BEFX600.pdf) [firmware 3](https://mediadl.musictribe.com/media/PLM/data/docs/P0596/M_BE_0709-ADL_FX600_WW.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter is one of six selector choices. Manual p12 assigns PAR1 detune and PAR2 semitone interval; numeric ranges and source-note polyphony unspecified. Stereo inputs/outputs do not prove polyphonic chord transposition. No FX2000 ±12-semitone range transferred. [pitch 1](https://www.behringer.com/en/products/0709-ADL) [pitch 2](https://www.adorama.com/col/productManuals/BEFX600.pdf) |
+| Pitch / preset recall | No addressable patch bank or save/recall workflow in inspected English operating pages. Physical FX/PAR controls select sound; footswitch enables/bypasses. Six effect choices are not six stored presets; power-cycle setting retention not independently established. |
+| Pitch / DSP resources | One selected effect at a time, with two parameter controls. No per-pitch CPU percentage or freely allocatable block budget published in checked sources. 24-bit stereo/40kHz marketing describes processing format, not CPU usage or comparable Ampero50% cost. |
+| Pitch / qualifications | Documented pitch shifting is retained separately from unknown monophonic/polyphonic note handling. LEVEL output-level versus older mix wording remains a separate unresolved source qualification. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Behringer FX600 exact current product page](https://www.behringer.com/en/products/0709-ADL) — One-of-six selection;PAR2 semitone interval;stereo connection modes. No dated firmware history or hardware launch established. (opened).
+- [Behringer FX600 User Manual V3.0, manufacturer copy](https://www.adorama.com/col/productManuals/BEFX600.pdf) — 47-page matching FX600 manual;English pp12–13 PAR1 detune/PAR2 semitone,selector,bypass and ports. No numeric pitch range,patch-save workflow or note-polyphony claim in inspected sections. (manufacturer_manuscript_on_public_mirror; PDF_text).
+- [Official FX600 multilingual manual endpoint](https://mediadl.musictribe.com/media/PLM/data/docs/P0596/M_BE_0709-ADL_FX600_WW.pdf) — Indexed English control table agrees with readable manuscript;direct file unavailable. Manual edition not promoted to ROM version. (indexed_manufacturer_PDF_text; direct_fetch_502).
+
+<!-- firmware-pitch:Behringer::FX600 ends -->
+
 <!-- comparison evidence begins -->
 
 Digital Stereo Multi-FX pedal; distinct from FX2000. Checked2026-10-18;partial. Manufacturer identifies six different effect families,one selected at a time;no minimum simultaneous-count requirement for multi-effects inclusion. Bass/vocal suitability andownership unverified.
