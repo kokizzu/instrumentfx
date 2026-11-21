@@ -143,6 +143,26 @@ Sources checked:
 
 <!-- firmware-pitch:Fender::Mustang Micro Plus ends -->
 
+<!-- model-images:Fender::Mustang Micro Plus begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Mustang Micro Plus powered-display top-down photograph**
+
+[![Mustang Micro Plus powered-display top-down photograph](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_59/594228/19434662_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_59/594228/19434662_800.jpg)
+
+[Image source](https://www.thomann.de/de/fender_mustang_micro_plus.htm). Straight face view with OLED visibly displaying preset1 Driven Deluxe; rotating input extended. Retail product photograph, not a hardware operation test; original non-Plus Micro is a different unit.
+
+**Mustang Micro Plus headphone and USB-C end ports**
+
+[![Mustang Micro Plus headphone and USB-C end ports](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_59/594228/19434651_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_59/594228/19434651_800.jpg)
+
+[Image source](https://www.thomann.de/de/fender_mustang_micro_plus.htm). End-on product photograph shows the 3.5mm headphone socket and USB-C. Ports are on the body end rather than a pedal-style rear panel; extended input plug visible behind.
+
+</details>
+<!-- model-images:Fender::Mustang Micro Plus ends -->
+
+
 Checked2026-10-17;partial. Guitar multifx;firmware-qualified bass support below. Ownership unverified.
 
 <!-- comparison evidence begins -->

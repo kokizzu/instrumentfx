@@ -187982,11 +187982,35 @@
             "sha256": "2932ab52562ac383a48f19dc25ad99398f3a6614593f31fd6224d1c9b9a72eda"
           }
         }
+      },
+      "Fender::Mustang Micro Plus": {
+        "model_key": "Fender::Mustang Micro Plus",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_59/594228/19434662_800.jpg",
+            "source_url": "https://www.thomann.de/de/fender_mustang_micro_plus.htm",
+            "caption": "Mustang Micro Plus powered-display top-down photograph",
+            "note": "Straight face view with OLED visibly displaying preset1 Driven Deluxe; rotating input extended. Retail product photograph, not a hardware operation test; original non-Plus Micro is a different unit.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "cb122ddc537a53baafd93c3d898a5e9d44b089c0be0aa4ed59680a043fed3de4"
+          },
+          "rear": {
+            "image_url": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_59/594228/19434651_800.jpg",
+            "source_url": "https://www.thomann.de/de/fender_mustang_micro_plus.htm",
+            "caption": "Mustang Micro Plus headphone and USB-C end ports",
+            "note": "End-on product photograph shows the 3.5mm headphone socket and USB-C. Ports are on the body end rather than a pedal-style rear panel; extended input plug visible behind.",
+            "visual_checked": true,
+            "sha256": "a6dfc05948c95d6617740966dc60aba9ff6600eae5023b39d440cf47e7a5352f"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Fender::Mustang Micro"
+    "last_model": "Fender::Mustang Micro Plus"
   }
 }
