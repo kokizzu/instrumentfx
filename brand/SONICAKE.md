@@ -932,6 +932,29 @@ The current summary now reflects the already-established p5 connector finding: *
 
 ## RockStage QCE-10
 
+<!-- firmware-pitch:Sonicake::RockStage QCE-10 begins -->
+### Firmware and pitch audit — Sonicake RockStage QCE-10
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Neither official product page supplies an original hardware release date; page/image upload dates are not launch evidence. [launch 1](https://www.sonicake.com/products/rockstage) [launch 2](https://www.hotone.jp/brands/sonicake/products/rockstage) |
+| Firmware / latest verification | Not verified — No public firmware located. No downloadable user firmware, version or release history located on the exact-model official pages. Digital delay/reverb do not establish a user-updateable architecture. [firmware 1](https://www.sonicake.com/products/rockstage) [firmware 2](https://www.hotone.jp/brands/sonicake/products/rockstage) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Four fixed effects: chorus, Plexi-style distortion/amp, digital delay and digital reverb. No transposition, octave or harmony algorithm documented. Chorus modulation is not evidence of a polyphonic pitch shifter. [pitch 1](https://www.sonicake.com/products/rockstage) [pitch 2](https://www.hotone.jp/brands/sonicake/products/rockstage) |
+| Pitch / preset recall | Dedicated physical effect controls; addressable preset storage or pitch-preset recall not documented. |
+| Pitch / DSP resources | No pitch DSP percentage or allocatable processing budget documented. Four effect sections and 130 mA electrical consumption are not DSP utilization measurements. |
+| Pitch / qualifications | Digital delay/reverb are explicitly described as analog-voiced digital algorithms; do not call the complete strip analog. No public firmware found is an evidence limitation, not proof that the hardware contains no firmware. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [SONICAKE RockStage QCE-10 official product](https://www.sonicake.com/products/rockstage) — Exact QCE-10; four classic-rock effects, 500 ms digital delay and digital reverb, analog Plexi-style distortion, BBD-style chorus and cab simulation; no pitch or user firmware documented. (readable official product page).
+- [Hotone Japan RockStage official regional product](https://www.hotone.jp/brands/sonicake/products/rockstage) — Chorus, amp, delay and reverb; 130 mA, 9 V centre-negative; no hardware introduction date, firmware version or pitch algorithm stated. (readable official regional page).
+
+<!-- firmware-pitch:Sonicake::RockStage QCE-10 ends -->
+
 Guitar multi-effects strip, distinct from Black Hammer and G3-series products. Manufacturer identifies QCE-10. Checked 2026-10-17; partial. Bass/vocal suitability unclassified.
 
 | Field | Finding / qualification | Evidence |

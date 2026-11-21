@@ -199018,6 +199018,62 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Sonicake::RockStage QCE-10": {
+        "model_key": "Sonicake::RockStage QCE-10",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "First hardware release unresolved",
+          "source_urls": [
+            "https://www.sonicake.com/products/rockstage",
+            "https://www.hotone.jp/brands/sonicake/products/rockstage"
+          ],
+          "note": "Neither official product page supplies an original hardware release date; page/image upload dates are not launch evidence."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.sonicake.com/products/rockstage",
+            "https://www.hotone.jp/brands/sonicake/products/rockstage"
+          ],
+          "note": "No downloadable user firmware, version or release history located on the exact-model official pages. Digital delay/reverb do not establish a user-updateable architecture."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Four fixed effects: chorus, Plexi-style distortion/amp, digital delay and digital reverb. No transposition, octave or harmony algorithm documented. Chorus modulation is not evidence of a polyphonic pitch shifter.",
+          "preset": "Dedicated physical effect controls; addressable preset storage or pitch-preset recall not documented.",
+          "dsp": "No pitch DSP percentage or allocatable processing budget documented. Four effect sections and 130 mA electrical consumption are not DSP utilization measurements.",
+          "source_urls": [
+            "https://www.sonicake.com/products/rockstage",
+            "https://www.hotone.jp/brands/sonicake/products/rockstage"
+          ],
+          "measurements": [],
+          "notes": [
+            "Digital delay/reverb are explicitly described as analog-voiced digital algorithms; do not call the complete strip analog.",
+            "No public firmware found is an evidence limitation, not proof that the hardware contains no firmware."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sonicake.com/products/rockstage",
+            "title": "SONICAKE RockStage QCE-10 official product",
+            "access": "readable official product page",
+            "evidence": "Exact QCE-10; four classic-rock effects, 500 ms digital delay and digital reverb, analog Plexi-style distortion, BBD-style chorus and cab simulation; no pitch or user firmware documented."
+          },
+          {
+            "url": "https://www.hotone.jp/brands/sonicake/products/rockstage",
+            "title": "Hotone Japan RockStage official regional product",
+            "access": "readable official regional page",
+            "evidence": "Chorus, amp, delay and reverb; 130 mA, 9 V centre-negative; no hardware introduction date, firmware version or pitch algorithm stated."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -199041,7 +199097,6 @@
       "Sonicake::A Factory QDS-04",
       "Sonicake::B Factory QDS-05",
       "Sonicake::Levitate QDS-02",
-      "Sonicake::RockStage QCE-10",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
@@ -199173,9 +199228,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 252,
-    "last_model": "Sonicake::Black Hammer QCE-30",
-    "last_commit_parent": "547646d29627539ddba5827f0eab06ca21a6e78f",
+    "completed_model_count": 253,
+    "last_model": "Sonicake::RockStage QCE-10",
+    "last_commit_parent": "6829488e73075b88e46ea854c311c8b5114bd283",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -199198,7 +199253,6 @@
       "Sonicake::A Factory QDS-04",
       "Sonicake::B Factory QDS-05",
       "Sonicake::Levitate QDS-02",
-      "Sonicake::RockStage QCE-10",
       "Soran::Dual Stomp",
       "Soran::Dual Stomp Lite",
       "Soran::Go Rig B",
@@ -199329,7 +199383,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 252,
+    "pitch_completed_model_count": 253,
     "supplemental_model_count": 0
   },
   "model_images": {
