@@ -185526,10 +185526,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::RP255": {
+        "model_key": "DigiTech::RP255",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2009-01-15",
+          "precision": "day",
+          "kind": "trade_show_introduction_proxy",
+          "source_urls": [
+            "https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/"
+          ],
+          "note": "Contemporaneous Sweetwater Winter NAMM introduction; announcement proxy, not verified first retail shipment. Manual compliance dates are not launch dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://digitech.com/software-downloads/",
+            "https://digitech.com/dp/rp255/"
+          ],
+          "note": "Official product/downloads offer X-Edit 2.7.0 Windows and 2.7.1 Intel Mac editor/librarian software. Latest RP255 device firmware version/date and elapsed update span remain unverified; editor versions are not ROM versions."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift ±24 semitones; Detune ±24 cents; key/scale harmony within ±1 octave, harmony level X-Edit-only; Whammy ±1/±2 octaves and Dive Bomb. Input-note polyphony unverified.",
+          "preset": "60 writable user plus 60 read-only factory presets; user locations initially duplicate factory.",
+          "dsp": "One Chorus/FX choice: pitch algorithms exclude each other and other effects in that row. AudioDNA2 supports 11 simultaneous effects overall, not 11 pitch instances. No pitch CPU percentage published in checked sources.",
+          "measurements": [],
+          "source_urls": [
+            "https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf"
+          ],
+          "notes": [
+            "Built-in expression/manual-position Whammy moves before amp modeling. Newer standalone Whammy chord modes not established for RP255."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/",
+            "title": "Winter NAMM 2009: DigiTech RP Series",
+            "access": "Contemporaneous Sweetwater trade-show report, January 15, 2009",
+            "evidence": "Introduces RP255 among new RP models; not exact first shipment."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer current web text",
+            "evidence": "RP255 editor versions; no dated device-firmware entry."
+          },
+          {
+            "url": "https://digitech.com/dp/rp255/",
+            "title": "DigiTech RP255 product",
+            "access": "Manufacturer current web text",
+            "evidence": "Past product with X-Edit 2.7.0 Windows and 2.7.1 Intel Mac links."
+          },
+          {
+            "url": "https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf",
+            "title": "RP255 Owner’s Manual",
+            "access": "Manufacturer 56-page PDF web text",
+            "evidence": "Printed p5 memory, p27 single Chorus/FX slot, pp32–34 pitch parameters, p43 AudioDNA2 and 11 simultaneous effects."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::RP255",
       "DigiTech::RP350",
       "DigiTech::RP355",
       "DigiTech::RP360XP",
@@ -185850,12 +185914,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 83,
-    "last_model": "DigiTech::RP250",
-    "last_commit_parent": "ed2ebb70f3b99a2128838d302fbea6732184fa8f",
+    "completed_model_count": 84,
+    "last_model": "DigiTech::RP255",
+    "last_commit_parent": "08edafa60267925334106a7e250dd699e7ef7ed8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::RP255",
       "DigiTech::RP350",
       "DigiTech::RP355",
       "DigiTech::RP360XP",
@@ -186175,7 +186238,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 83,
+    "pitch_completed_model_count": 84,
     "supplemental_model_count": 0
   }
 }

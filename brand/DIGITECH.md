@@ -1153,6 +1153,31 @@ Checked2026-10-18 on the [manufacturer software index](https://digitech.com/soft
 
 ## RP255
 
+<!-- firmware-pitch:DigiTech::RP255 begins -->
+### Firmware and pitch audit — DigiTech RP255
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2009-01-15 (trade show introduction proxy). Contemporaneous Sweetwater Winter NAMM introduction; announcement proxy, not verified first retail shipment. Manual compliance dates are not launch dates. [launch 1](https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/) |
+| Firmware / latest verification | Not verified — Unverified. Official product/downloads offer X-Edit 2.7.0 Windows and 2.7.1 Intel Mac editor/librarian software. Latest RP255 device firmware version/date and elapsed update span remain unverified; editor versions are not ROM versions. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://digitech.com/dp/rp255/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift ±24 semitones; Detune ±24 cents; key/scale harmony within ±1 octave, harmony level X-Edit-only; Whammy ±1/±2 octaves and Dive Bomb. Input-note polyphony unverified. [pitch 1](https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf) |
+| Pitch / preset recall | 60 writable user plus 60 read-only factory presets; user locations initially duplicate factory. |
+| Pitch / DSP resources | One Chorus/FX choice: pitch algorithms exclude each other and other effects in that row. AudioDNA2 supports 11 simultaneous effects overall, not 11 pitch instances. No pitch CPU percentage published in checked sources. |
+| Pitch / qualifications | Built-in expression/manual-position Whammy moves before amp modeling. Newer standalone Whammy chord modes not established for RP255. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Winter NAMM 2009: DigiTech RP Series](https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/) — Introduces RP255 among new RP models; not exact first shipment. (Contemporaneous Sweetwater trade-show report, January 15, 2009).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — RP255 editor versions; no dated device-firmware entry. (Manufacturer current web text).
+- [DigiTech RP255 product](https://digitech.com/dp/rp255/) — Past product with X-Edit 2.7.0 Windows and 2.7.1 Intel Mac links. (Manufacturer current web text).
+- [RP255 Owner’s Manual](https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf) — Printed p5 memory, p27 single Chorus/FX slot, pp32–34 pitch parameters, p43 AudioDNA2 and 11 simultaneous effects. (Manufacturer 56-page PDF web text).
+
+<!-- firmware-pitch:DigiTech::RP255 ends -->
+
 Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->
