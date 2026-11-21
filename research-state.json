@@ -185884,10 +185884,82 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::RP55": {
+        "model_key": "DigiTech::RP55",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "conflicting_introduction_evidence",
+          "source_urls": [
+            "https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/",
+            "https://images.thomann.de/pics/prod/rp55_deutsch_manual.pdf"
+          ],
+          "note": "January 15, 2009 NAMM report calls RP55 new, but manufacturer German manual contains August 15, 2006 compliance date. Compliance is not launch evidence; exact first release unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://digitech.com/dp/rp55/",
+            "https://digitech.com/software-downloads/"
+          ],
+          "note": "No RP55 device firmware release found in checked official product/downloads. This does not prove firmware never existed; latest version/date and span unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Nine fixed intervals: −12, −7, −5, −4, +3, +4, +5, +7, +12 semitones. Nine Detune settings with no cent amounts given. Nine Whammy settings including ±1/±2 octaves and harmony bends. Input polyphony unverified.",
+          "preset": "40 writable user and 40 factory presets.",
+          "dsp": "Pitch Shift, Detune and Whammy share one Chorus/Mod slot. Eight simultaneous effects overall are not eight pitch instances. No pitch CPU percentage published in checked sources.",
+          "source_urls": [
+            "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf",
+            "https://digitech.com/dp/rp55/"
+          ],
+          "measurements": [],
+          "notes": [
+            "External passive mono volume/TS expression pedal controls Whammy; TRS expression pedals unsupported. No built-in treadle or key/scale harmony established."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/",
+            "title": "Winter NAMM 2009: DigiTech RP Series",
+            "access": "Contemporaneous Sweetwater report",
+            "evidence": "January 15 introduction report includes RP55; earlier compliance date prevents treating this as settled first launch."
+          },
+          {
+            "url": "https://images.thomann.de/pics/prod/rp55_deutsch_manual.pdf",
+            "title": "RP55 German manufacturer manual",
+            "access": "Manufacturer manual mirrored by Thomann; indexed text",
+            "evidence": "August 15, 2006 declaration date, not a release date."
+          },
+          {
+            "url": "https://digitech.com/dp/rp55/",
+            "title": "DigiTech RP55 product",
+            "access": "Manufacturer web text",
+            "evidence": "40 user/40 factory memories and eight simultaneous effects; no firmware release link."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer web text and targeted search",
+            "evidence": "No RP55 device firmware located."
+          },
+          {
+            "url": "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf",
+            "title": "RP55 Owner’s Manual 18-0838V-A",
+            "access": "Manufacturer 28-page PDF web text",
+            "evidence": "Printed pp15–17 shared Chorus/Mod, detune settings and fixed intervals/Whammy; p19 TS expression restrictions."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::RP55",
       "DigiTech::RP70",
       "DigiTech::RP80",
       "DigiTech::RP90",
@@ -186203,12 +186275,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 88,
-    "last_model": "DigiTech::RP500",
-    "last_commit_parent": "ea99b5c4ced80e7c6be18587d77357beedee9d0e",
+    "completed_model_count": 89,
+    "last_model": "DigiTech::RP55",
+    "last_commit_parent": "37a18315c462d1aea6afec04fff431607d997b1c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::RP55",
       "DigiTech::RP70",
       "DigiTech::RP80",
       "DigiTech::RP90",
@@ -186523,7 +186594,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 88,
+    "pitch_completed_model_count": 89,
     "supplemental_model_count": 0
   },
   "model_images": {

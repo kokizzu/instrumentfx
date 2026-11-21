@@ -510,6 +510,32 @@ Exact current Shopee hardware listing, used condition and new/used IDR offers **
 
 ## RP55
 
+<!-- firmware-pitch:DigiTech::RP55 begins -->
+### Firmware and pitch audit — DigiTech RP55
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. January 15, 2009 NAMM report calls RP55 new, but manufacturer German manual contains August 15, 2006 compliance date. Compliance is not launch evidence; exact first release unresolved. [launch 1](https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/) [launch 2](https://images.thomann.de/pics/prod/rp55_deutsch_manual.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. No RP55 device firmware release found in checked official product/downloads. This does not prove firmware never existed; latest version/date and span unknown. [firmware 1](https://digitech.com/dp/rp55/) [firmware 2](https://digitech.com/software-downloads/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Nine fixed intervals: −12, −7, −5, −4, +3, +4, +5, +7, +12 semitones. Nine Detune settings with no cent amounts given. Nine Whammy settings including ±1/±2 octaves and harmony bends. Input polyphony unverified. [pitch 1](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf) [pitch 2](https://digitech.com/dp/rp55/) |
+| Pitch / preset recall | 40 writable user and 40 factory presets. |
+| Pitch / DSP resources | Pitch Shift, Detune and Whammy share one Chorus/Mod slot. Eight simultaneous effects overall are not eight pitch instances. No pitch CPU percentage published in checked sources. |
+| Pitch / qualifications | External passive mono volume/TS expression pedal controls Whammy; TRS expression pedals unsupported. No built-in treadle or key/scale harmony established. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Winter NAMM 2009: DigiTech RP Series](https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/) — January 15 introduction report includes RP55; earlier compliance date prevents treating this as settled first launch. (Contemporaneous Sweetwater report).
+- [RP55 German manufacturer manual](https://images.thomann.de/pics/prod/rp55_deutsch_manual.pdf) — August 15, 2006 declaration date, not a release date. (Manufacturer manual mirrored by Thomann; indexed text).
+- [DigiTech RP55 product](https://digitech.com/dp/rp55/) — 40 user/40 factory memories and eight simultaneous effects; no firmware release link. (Manufacturer web text).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — No RP55 device firmware located. (Manufacturer web text and targeted search).
+- [RP55 Owner’s Manual 18-0838V-A](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf) — Printed pp15–17 shared Chorus/Mod, detune settings and fixed intervals/Whammy; p19 TS expression restrictions. (Manufacturer 28-page PDF web text).
+
+<!-- firmware-pitch:DigiTech::RP55 ends -->
+
 Checked 2026-10-18;partial. [Own manual](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf),18-0838V-A,28 PDF pages (M);[product](https://digitech.com/dp/rp55/) (P). Browser text only.
 
 <!-- comparison evidence begins -->
