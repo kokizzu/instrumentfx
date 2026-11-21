@@ -1637,6 +1637,32 @@ This establishes a manufacturer-listed switching-expression option and documente
 
 ## FM9 MKII Turbo
 
+<!-- firmware-pitch:Fractal Audio::FM9 MKII Turbo begins -->
+### Firmware and pitch audit — Fractal Audio FM9 MKII Turbo
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-02 (manufacturer announcement month proxy). Manufacturer timeline dates Mark II Turbo announcement to February2024. Announcement month used as a release proxy; exact first shipment day unverified. [launch 1](https://www.fractalaudio.com/about/) |
+| Firmware / latest verification | 12.0 — Located; latest status unverified. Current MKII Turbo product page links to this FM9 download. Firmware12.0 dated July7,2026 labels compatibility Original and Turbo without separately spelling out MKII; exact-variant installation not tested. Separate USB firmware1.04 and November2026 driver are not the main DSP firmware. [firmware 1](https://www.fractalaudio.com/fm9-downloads/) [firmware 2](https://www.fractalaudio.com/fm9/) |
+| Firmware / release date | 2026-07-07 (day precision) |
+| Firmware / release-to-update duration | 2.35–2.43 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Virtual Capo is documented polyphonic, ±24 semitones. Dedicated Pitch includes detune, chromatic/intelligent/custom harmony, whammy and octave modes with mode-specific tracking. Current family guide permits one Pitch block on FM9; polyphony is not claimed for every subtype. [pitch 1](https://www.fractalaudio.com/fm9/) [pitch 2](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) [pitch 3](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) |
+| Pitch / preset recall | 512 writable presets, eight scenes per preset, up to four block channels; settings/subtypes recalled through channels/scenes. Family manual predates MKII; current MKII product identifies same FM9 processing family. Hardware recall untested. |
+| Pitch / DSP resources | One Pitch instance shares finite resources; no verified Virtual Capo CPU percentage located. Family firmware3.x manual recommends about80% on its meter and describes excess-load muting/block-insertion safeguards. Amp, Delay and Reverb run on dedicated cores and barely affect that meter, so it is not total device utilization. MKII over10% DSP increase over original is hardware capacity, not pitch cost. |
+| Pitch / qualifications | No tracking, latency, CPU or installation measurements. Family-manual resource policy is revision-qualified, not certified behavior on firmware12.0. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Fractal Audio product timeline](https://www.fractalaudio.com/about/) — February2024 MKII Turbo announcement, used as release proxy. (Manufacturer timeline read).
+- [FM9 MKII Turbo manufacturer overview](https://www.fractalaudio.com/fm9/) — Exact MKII page links FM9 downloads; over10% DSP versus original; pitch effects including Virtual Capo. (Manufacturer exact-model page read).
+- [FM9 downloads](https://www.fractalaudio.com/fm9-downloads/) — Main firmware12.0, July7,2026; Original/Turbo compatibility label. USB firmware and driver separate. (Manufacturer current page read).
+- [FM9 Owner’s Manual, firmware3.x, August2022](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) — Original/Turbo family preset/scenes/channels and CPU policy; some effects use dedicated cores. Predates MKII. (Manufacturer original PDF text read, pp2,39,48).
+- [Fractal Audio Blocks Guide, November2026](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) — FM9 one Pitch block; Virtual Capo explicitly polyphonic ±24 semitones. (Manufacturer original PDF text read previously in this research session, pp3,76–86).
+
+<!-- firmware-pitch:Fractal Audio::FM9 MKII Turbo ends -->
+
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.
 
 | Required field | Evidence / qualification |
