@@ -6767,6 +6767,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::VE-5 ends -->
 
+<!-- model-images:BOSS::VE-5 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS VE-5 WH — top panel**
+
+[![BOSS VE-5 WH — top panel](https://static.roland.com/assets/images/products/main/ve-5-wh_top_main.jpg)](https://static.roland.com/assets/images/products/main/ve-5-wh_top_main.jpg)
+
+[Image source](https://www.boss.info/global/products/ve-5/). Official straight top-down photograph of the white VE-5 WH finish: lit LCD shows 5th HARMONY and EFFECT/HARMONY buttons are illuminated green. Source is 500 × 298 pixels; small-label detail is limited. Promotional photograph, not independent operation.
+
+**BOSS VE-5 WH — rear connections**
+
+[![BOSS VE-5 WH — rear connections](https://motorcityguitar.com/cdn/shop/products/Boss_VE5WH_3_1400x.jpg?v=1558888750)](https://motorcityguitar.com/cdn/shop/products/Boss_VE5WH_3_1400x.jpg?v=1558888750)
+
+[Image source](https://motorcityguitar.com/products/boss-ve-5-wh-performer-vocal-looper-effects-processor-white-version). Retailer rear photograph of the same white finish shows combo MIC IN and XLR OUT, plus the stand-mount recess. This is not a complete connector gallery: DC IN, PHONES/LINE and volume are on one side; CTL1,2 and AUX IN are on the other, as labeled in the top photograph. Side socket photographs remain pending. Rear view alone does not establish operating power state.
+
+</details>
+<!-- model-images:BOSS::VE-5 ends -->
+
+
 Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Ownershipunknown. Noestablished independentguitar/bass processing.
 
 | Field | Finding / qualification | Evidence |
