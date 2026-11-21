@@ -202591,11 +202591,45 @@
             "note": "Underside routing/label image; not a physical rear connector photograph."
           }
         ]
+      },
+      "M-VAVE::CUBE BABY AC": {
+        "model_key": "M-VAVE::CUBE BABY AC",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.m-vave.com/images/productInfo/cube-baby-ac-4.webp",
+            "source_url": "https://www.m-vave.com/product?id=cube-baby-ac",
+            "caption": "CUBE BABY AC powered-on overhead and rear composite",
+            "note": "Manufacturer gold AC composite: lower overhead panel shows illuminated knobs, TREB/MID/BASS, COMP, ANTI FB, MOD, SPACE, TIME, IR CAB and VOLUME with A/B/C footswitches. Upper panel shows the complete connector face. AC identity checked from its unique controls; marketed imagery is not a hardware test or evidence of every retail revision.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "e367199569bed30bf1f663836deb261bc4a6cc44cd130b6fd0526d9135b0b592"
+          },
+          "rear": {
+            "image_url": "https://www.m-vave.com/images/productInfo/cube-baby-ac-4.webp",
+            "source_url": "https://www.m-vave.com/product?id=cube-baby-ac",
+            "caption": "CUBE BABY AC rear ports — upper panel of composite",
+            "note": "Upper manufacturer panel shows IN, power slide, USB, separate phone-icon socket, headphones and OUT. The USB and phone sockets look USB-C-shaped in this picture; older AC annotated rear image below has narrower micro-USB-shaped connectors. Preserve physical revision uncertainty; phone recording is not a second USB audio interface merely because its connector resembles USB. No EXP/XLR/MIDI/effects loop visible. [Older annotated AC rear image](https://acdn-us.mitiendanube.com/stores/283/003/products/cube-baby-9-nv1-e6f0d07d1eac3f6c9016715473072839-1024-1024.webp).",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "e367199569bed30bf1f663836deb261bc4a6cc44cd130b6fd0526d9135b0b592"
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://acdn-us.mitiendanube.com/stores/283/003/products/cube-baby-9-nv1-e6f0d07d1eac3f6c9016715473072839-1024-1024.webp",
+            "sha256": "e6dae78a0aa8ac9126272cabd22adfb25ead2a5dc92e04e21f13f3bc6952af40",
+            "visual_checked": true,
+            "note": "Older gold AC rear panel with manufacturer manual annotation; distinguishes USB from mobile-record socket. Electrical pinout and retail revision equivalence unknown."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::CUBE BABY electric"
+    "last_model": "M-VAVE::CUBE BABY AC"
   }
 }
