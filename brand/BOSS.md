@@ -1386,6 +1386,34 @@ Checked **2026-11-05**, [manufacturer Parameter Guide, printedp26](https://stati
 
 ## GT-1B
 
+<!-- firmware-pitch:BOSS::GT-1B begins -->
+### Firmware and pitch audit — BOSS GT-1B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017-06-23 (manufacturer announcement proxy). Manufacturer introduction June23; separate July11,2017 announcement establishes US availability. Comparison uses introduction as a proxy, not first shipment. [launch 1](https://www.roland.com/us/company/press_releases/2017/BOSS-Announces-GT-1B-Bass-Effects-Processor/) [launch 2](https://www.roland.com/us/company/press_releases/2017/BOSS-GT-1B-BASS-EFFECTS-PROCESSOR-NOW-AVAILABLE/) |
+| Firmware / latest verification | 1.04 — Latest verified. Latest indexed system program; DEC2021 history says management-related version change with specifications unaffected. Last listed functional fixes are1.03 MAR2018;1.02 JUL2017 improved Bass Synth/Ring Mod pitch detection. Exact latest day and installed version unverified; driver/editor versions are separate. [firmware 1](https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/9f9466c0-c8e7-44e8-bde8-407c795841ff/) [firmware 2](https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/) |
+| Firmware / release date | 2021-12 (month precision) |
+| Firmware / release-to-update duration | 4.44–4.52 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter ±24 semitones, fine detune, pre-delay and feedback; no Fast/Medium/Slow/Mono selector documented in this guide. Harmonist and Pedal Bend explicitly disallow chords. Octave adds one/two octaves down; Overtone adds MDP harmonics. Semitone-shifter note polyphony unverified. [pitch 1](https://static.roland.com/assets/media/pdf/GT-1B_parameter_eng02_W.pdf) [pitch 2](https://static.roland.com/assets/media/pdf/GT-1B_eng02_W.pdf) [pitch 3](https://www.boss.info/global/products/gt-1b/) |
+| Pitch / preset recall | 99 writable user plus99 preset patches. Owner manual p6: EXIT+ENTER opens WRITE utility; save to U01–U99. Unsaved edited settings are lost on patch change/power-off. |
+| Pitch / DSP resources | Pitch Shifter, Harmonist, Octave and Overtone occupy selectable FX1/FX2 slots; the same effect can be selected in both. Pedal Bend uses PEDAL FX, with toe pitch ±24. No per-pitch CPU percentage or DSP budget documented. |
+| Pitch / qualifications | Mono/stereo signal-format badges do not establish note polyphony; no GT-10B pitch-mode controls transferred. Bass Synth and intelligent Ring Mod single-note restrictions concern their own algorithms, not proof about the Pitch Shifter. Manufacturer PDF text inspected; no hardware audio/latency measurement or firmware installation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS GT-1B current Updates & Drivers](https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/) — System Program1.04 distinct from editor and driver packages. (opened).
+- [BOSS GT-1B System Program1.04 history](https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/9f9466c0-c8e7-44e8-bde8-407c795841ff/) — DEC2021 management-only update; MAR2018 functional fixes; JUL2017 Bass Synth/Ring Mod tracking improvement. (opened).
+- [BOSS GT-1B June23 2017 introduction](https://www.roland.com/us/company/press_releases/2017/BOSS-Announces-GT-1B-Bass-Effects-Processor/) — Dated exact-model introduction. (opened).
+- [BOSS GT-1B July11 2017 availability release](https://www.roland.com/us/company/press_releases/2017/BOSS-GT-1B-BASS-EFFECTS-PROCESSOR-NOW-AVAILABLE/) — US availability confirmed separately from June introduction. (indexed_manufacturer_text).
+- [BOSS GT-1B parameter guide02](https://static.roland.com/assets/media/pdf/GT-1B_parameter_eng02_W.pdf) — pp6,8–9,12 cover duplicated FX choices, pitch parameters, octave/Overtone and Harmonist/Pedal Bend chord restrictions; no CPU percentage. (opened_pdf_text).
+- [BOSS GT-1B owner manual02](https://static.roland.com/assets/media/pdf/GT-1B_eng02_W.pdf) — p6 WRITE utility and U01–U99 storage; unsaved edits lost on patch change/power-off. (indexed_manufacturer_pdf_text).
+- [BOSS GT-1B current product specifications](https://www.boss.info/global/products/gt-1b/) — 99 user plus99 preset patches; model-specific bass engine, not GT-1 guitar model. (opened).
+
+<!-- firmware-pitch:BOSS::GT-1B ends -->
+
 Bass multi-effects with built-in expression/toe switch. Consolidated and checked2026-10-16. Current manufacturer page marks discontinued; this does not prove all seller stock unavailable.
 
 ### GT-1B — preserved original comparison

@@ -182409,10 +182409,101 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GT-1B": {
+        "model_key": "BOSS::GT-1B",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2017-06-23",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2017/BOSS-Announces-GT-1B-Bass-Effects-Processor/",
+            "https://www.roland.com/us/company/press_releases/2017/BOSS-GT-1B-BASS-EFFECTS-PROCESSOR-NOW-AVAILABLE/"
+          ],
+          "note": "Manufacturer introduction June23; separate July11,2017 announcement establishes US availability. Comparison uses introduction as a proxy, not first shipment."
+        },
+        "firmware": {
+          "version": "1.04",
+          "date": "2021-12",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/9f9466c0-c8e7-44e8-bde8-407c795841ff/",
+            "https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/"
+          ],
+          "note": "Latest indexed system program; DEC2021 history says management-related version change with specifications unaffected. Last listed functional fixes are1.03 MAR2018;1.02 JUL2017 improved Bass Synth/Ring Mod pitch detection. Exact latest day and installed version unverified; driver/editor versions are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shifter ±24 semitones, fine detune, pre-delay and feedback; no Fast/Medium/Slow/Mono selector documented in this guide. Harmonist and Pedal Bend explicitly disallow chords. Octave adds one/two octaves down; Overtone adds MDP harmonics. Semitone-shifter note polyphony unverified.",
+          "preset": "99 writable user plus99 preset patches. Owner manual p6: EXIT+ENTER opens WRITE utility; save to U01–U99. Unsaved edited settings are lost on patch change/power-off.",
+          "dsp": "Pitch Shifter, Harmonist, Octave and Overtone occupy selectable FX1/FX2 slots; the same effect can be selected in both. Pedal Bend uses PEDAL FX, with toe pitch ±24. No per-pitch CPU percentage or DSP budget documented.",
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/GT-1B_parameter_eng02_W.pdf",
+            "https://static.roland.com/assets/media/pdf/GT-1B_eng02_W.pdf",
+            "https://www.boss.info/global/products/gt-1b/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Mono/stereo signal-format badges do not establish note polyphony; no GT-10B pitch-mode controls transferred.",
+            "Bass Synth and intelligent Ring Mod single-note restrictions concern their own algorithms, not proof about the Pitch Shifter.",
+            "Manufacturer PDF text inspected; no hardware audio/latency measurement or firmware installation."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/",
+            "title": "BOSS GT-1B current Updates & Drivers",
+            "access": "opened",
+            "evidence": "System Program1.04 distinct from editor and driver packages."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-1b/updates_drivers/9f9466c0-c8e7-44e8-bde8-407c795841ff/",
+            "title": "BOSS GT-1B System Program1.04 history",
+            "access": "opened",
+            "evidence": "DEC2021 management-only update; MAR2018 functional fixes; JUL2017 Bass Synth/Ring Mod tracking improvement."
+          },
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2017/BOSS-Announces-GT-1B-Bass-Effects-Processor/",
+            "title": "BOSS GT-1B June23 2017 introduction",
+            "access": "opened",
+            "evidence": "Dated exact-model introduction."
+          },
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2017/BOSS-GT-1B-BASS-EFFECTS-PROCESSOR-NOW-AVAILABLE/",
+            "title": "BOSS GT-1B July11 2017 availability release",
+            "access": "indexed_manufacturer_text",
+            "evidence": "US availability confirmed separately from June introduction."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/GT-1B_parameter_eng02_W.pdf",
+            "title": "BOSS GT-1B parameter guide02",
+            "access": "opened_pdf_text",
+            "evidence": "pp6,8–9,12 cover duplicated FX choices, pitch parameters, octave/Overtone and Harmonist/Pedal Bend chord restrictions; no CPU percentage."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/GT-1B_eng02_W.pdf",
+            "title": "BOSS GT-1B owner manual02",
+            "access": "indexed_manufacturer_pdf_text",
+            "evidence": "p6 WRITE utility and U01–U99 storage; unsaved edits lost on patch change/power-off."
+          },
+          {
+            "url": "https://www.boss.info/global/products/gt-1b/",
+            "title": "BOSS GT-1B current product specifications",
+            "access": "opened",
+            "evidence": "99 user plus99 preset patches; model-specific bass engine, not GT-1 guitar model."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1622,
+          "maximum_days": 1652,
+          "label": "4.44–4.52 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GT-1B",
       "BOSS::GT-3",
       "BOSS::GT-5",
       "BOSS::GT-6",
@@ -182777,12 +182868,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 39,
-    "last_model": "BOSS::GT-10B",
-    "last_commit_parent": "5be2e2bbbdf3105e62f4bca9e950736a3082ffbd",
+    "completed_model_count": 40,
+    "last_model": "BOSS::GT-1B",
+    "last_commit_parent": "7caba2fa49cc023e729853aa265a76d3c522973e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GT-1B",
       "BOSS::GT-3",
       "BOSS::GT-5",
       "BOSS::GT-6",
@@ -183146,7 +183236,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 39,
+    "pitch_completed_model_count": 40,
     "supplemental_model_count": 0
   }
 }
