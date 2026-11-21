@@ -239,6 +239,30 @@ The linked original V1.0.0 manual still returns403. The alternate JME-02/AE-100M
 
 ## Go Rig B
 
+<!-- firmware-pitch:Soran::Go Rig B begins -->
+### Firmware and pitch audit — Soran Go Rig B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Product page is undated. Manual upload paths,brand founding date and regional stock announcements are not the exact hardware launch. [launch 1](https://soranaudio.com/products/25.html) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact Go Rig B support section lists V1.0.0 user manual but no firmware,software or driver download. Manual revision is not device firmware. Stomp-series1.1.1 does not name Go Rig B and is not transferred. No release-to-update duration established. [firmware 1](https://www.soranaudio.com/Download.html) [firmware 2](https://soranaudio.com/products/25.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Manufacturer lists COMP,DIST,AMP,CAB and MOD; MOD choices are Chorus,Flanger and Phaser. No dedicated interval shifter,octave,transpose or harmony documented in inspected primary product text. Tuner and modulation do not prove polyphonic pitch shifting. [pitch 1](https://soranaudio.com/products/25.html) [pitch 2](https://www.soranaudio.com/cn/products/15.html) |
+| Pitch / preset recall | Factory/user program memory and recall remain unverified. Menu-free knob operation is not proof of no digital memory. |
+| Pitch / DSP resources | No pitch-specific DSP/CPU percentage or measurement located. Published160mA electrical consumption is not processor utilization; five effect sections do not imply20% per section. |
+| Pitch / qualifications | Keep bass-specific Go Rig B distinct from Go Rig II and JME Stomp units. USB audio does not itself establish user-updatable firmware. Original manual contents remain unresolved; absence of a pitch listing is not a hardware impossibility claim. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Soran Go Rig B manufacturer product](https://soranaudio.com/products/25.html) — Bass-specificCOMP,DIST,AMP,CAB,MOD with chorus/flanger/phaser;160mA consumption;no dedicated pitch or dated launch. (Exact-model manufacturer indexed text inspected).
+- [Soran Go Rig B Chinese manufacturer product](https://www.soranaudio.com/cn/products/15.html) — Confirms modulation choices and electrical consumption;not a pitch DSP measurement. (Exact-model manufacturer text inspected).
+- [Soran official download index — Go Rig B](https://www.soranaudio.com/Download.html) — V1.0.0 manual;empty firmware/software/driver sections. Other-model firmware is separate. (Current exact-model indexed section inspected).
+
+<!-- firmware-pitch:Soran::Go Rig B ends -->
+
 Bass-specific multi-effects;checked2026-10-18,partial. No Tiny/Dual Stomp specifications transferred. Ownership unverified.
 
 | Field | Finding / qualification |

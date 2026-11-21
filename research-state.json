@@ -200779,10 +200779,70 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Soran::Go Rig B": {
+        "model_key": "Soran::Go Rig B",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first hardware release not verified",
+          "source_urls": [
+            "https://soranaudio.com/products/25.html"
+          ],
+          "note": "Product page is undated. Manual upload paths,brand founding date and regional stock announcements are not the exact hardware launch."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.soranaudio.com/Download.html",
+            "https://soranaudio.com/products/25.html"
+          ],
+          "note": "Exact Go Rig B support section lists V1.0.0 user manual but no firmware,software or driver download. Manual revision is not device firmware. Stomp-series1.1.1 does not name Go Rig B and is not transferred. No release-to-update duration established."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Manufacturer lists COMP,DIST,AMP,CAB and MOD; MOD choices are Chorus,Flanger and Phaser. No dedicated interval shifter,octave,transpose or harmony documented in inspected primary product text. Tuner and modulation do not prove polyphonic pitch shifting.",
+          "preset": "Factory/user program memory and recall remain unverified. Menu-free knob operation is not proof of no digital memory.",
+          "dsp": "No pitch-specific DSP/CPU percentage or measurement located. Published160mA electrical consumption is not processor utilization; five effect sections do not imply20% per section.",
+          "source_urls": [
+            "https://soranaudio.com/products/25.html",
+            "https://www.soranaudio.com/cn/products/15.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Keep bass-specific Go Rig B distinct from Go Rig II and JME Stomp units. USB audio does not itself establish user-updatable firmware.",
+            "Original manual contents remain unresolved; absence of a pitch listing is not a hardware impossibility claim."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://soranaudio.com/products/25.html",
+            "title": "Soran Go Rig B manufacturer product",
+            "access": "Exact-model manufacturer indexed text inspected",
+            "evidence": "Bass-specificCOMP,DIST,AMP,CAB,MOD with chorus/flanger/phaser;160mA consumption;no dedicated pitch or dated launch."
+          },
+          {
+            "url": "https://www.soranaudio.com/cn/products/15.html",
+            "title": "Soran Go Rig B Chinese manufacturer product",
+            "access": "Exact-model manufacturer text inspected",
+            "evidence": "Confirms modulation choices and electrical consumption;not a pitch DSP measurement."
+          },
+          {
+            "url": "https://www.soranaudio.com/Download.html",
+            "title": "Soran official download index — Go Rig B",
+            "access": "Current exact-model indexed section inspected",
+            "evidence": "V1.0.0 manual;empty firmware/software/driver sections. Other-model firmware is separate."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Soran::Go Rig B",
       "Soran::Go Rig II",
       "Soran::Tiny Stomp",
       "TC Electronic::M-One XL",
@@ -200911,12 +200971,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 275,
-    "last_model": "Soran::Dual Stomp Lite",
-    "last_commit_parent": "26da2830296c96f63177704186aaab1db4574d4e",
+    "completed_model_count": 276,
+    "last_model": "Soran::Go Rig B",
+    "last_commit_parent": "6e40b668083cbfc47484cd749e5cdecbeb64b390",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Soran::Go Rig B",
       "Soran::Go Rig II",
       "Soran::Tiny Stomp",
       "TC Electronic::M-One XL",
@@ -201044,7 +201103,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 275,
+    "pitch_completed_model_count": 276,
     "supplemental_model_count": 0
   },
   "model_images": {
