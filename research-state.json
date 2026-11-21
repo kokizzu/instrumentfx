@@ -193827,6 +193827,181 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::GE150 Pro": {
+        "model_key": "MOOER::GE150 Pro",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2024-09-11",
+          "precision": "day",
+          "kind": "manufacturer_series_announcement_index_proxy",
+          "source_urls": [
+            "https://cn.mooeraudio.com/bews/p-36-12.html",
+            "https://mooer.jp/pages/news"
+          ],
+          "note": "Manufacturer Chinese news index dates the GE150 Pro series announcement to 2024-09-11. Announcement proxy, not verified first shipment. Japanese sales began 2024-10-15 and are not the worldwide first date."
+        },
+        "firmware": {
+          "version": "2.1.4",
+          "date": "2026-08",
+          "precision": "month",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/Downloads_xq/6.html",
+            "https://cn.mooeraudio.com/Downloads_xq/4.html",
+            "https://www.mooeraudio.com/news/29.html"
+          ],
+          "note": "Current English and Chinese device-firmware notes identify Pro 2.1.4 in August 2026, distinct from Plus 2.1.3 and Max 2.1.6. Uniform August upload timestamps are not release days. Payload not independently inspected. English notes and official NAM roadmap specify A2 conversion; a Chinese supplemental paragraph instead claims native A2 Lite, an unresolved source contradiction. Earlier 2.1.3 dates conflict between January English/general notes and Chinese Pro May 14; not substituted for latest date."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift and Detune in the manual MOD inventory; firmware-1.5 regional list also includes Octave. No explicit simultaneous-note/polyphonic classification located for Pitch Shift; not assumed equivalent to GS1000 Poly Shift.",
+          "preset": "200 factory-filled editable slots, 50 banks × 4. SAVE preserves edits; expression mappings and volume settings are per preset. Exact held-pedal recall behavior untested.",
+          "dsp": "Nine simultaneous modules with one selected algorithm per module. Pitch Shift shares MOD with other modulation algorithms, rather than an extra freely assignable block. No isolated pitch CPU percentage, current-firmware allocation table or measured overload limit located.",
+          "source_urls": [
+            "https://www.manualslib.com/guide/3646063/mooer-ge150-pro-ge150-pro-li-manual.html",
+            "https://mooer.jp/pages/ge150pro1-5-0"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manual library predates the expanded 1.5 effect list; current 2.1.4 library not independently enumerated. No pitch quality/latency or DSP hardware test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://mooer.jp/pages/news",
+            "title": "MOOER Japan release news",
+            "access": "Manufacturer dated regional entry read",
+            "evidence": "GE150 Pro regional sale date 2024-10-15; worldwide first day unresolved."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/6.html",
+            "title": "GE150 family English firmware notes",
+            "access": "Current manufacturer downloads and changelog read",
+            "evidence": "Pro 2.1.4 August 2026; A2 conversion; separate Plus/Max versions."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/Downloads_xq/4.html",
+            "title": "GE150 family Chinese firmware notes",
+            "access": "Current manufacturer downloads and changelog read",
+            "evidence": "Pro 2.1.4 August 2026; conversion bullet conflicts with native-loading supplement; older dates differ."
+          },
+          {
+            "url": "https://www.mooeraudio.com/news/29.html",
+            "title": "MOOER NAM A2 support roadmap",
+            "access": "Manufacturer article table and body read",
+            "evidence": "Explicit GE150 Plus/Pro/Max A2 conversion, separate from native GS1000/GE1000."
+          },
+          {
+            "url": "https://www.manualslib.com/guide/3646063/mooer-ge150-pro-ge150-pro-li-manual.html",
+            "title": "GE150 Pro/GE150 Pro Li Owner’s Manual",
+            "access": "Manufacturer-authored manual body read on mirror",
+            "evidence": "Pitch Shift/Detune MOD; nine modules; 200 slots, SAVE and per-preset expression."
+          },
+          {
+            "url": "https://mooer.jp/pages/ge150pro1-5-0",
+            "title": "GE150 Pro firmware 1.5 effect list",
+            "access": "Manufacturer regional effect inventory read",
+            "evidence": "MOD list adds Octave; pitch polyphony not specified."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/bews/p-36-12.html",
+            "title": "MOOER Chinese news archive",
+            "access": "Manufacturer dated archive entry read",
+            "evidence": "GE150 Pro series announcement indexed 2024-09-11; separate from later Japan sales."
+          }
+        ],
+        "duration": {
+          "minimum_days": 689,
+          "maximum_days": 719,
+          "label": "1.89–1.97 years"
+        },
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "MOOER::GE150 Pro",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2024",
+              "precision": "year",
+              "kind": "regional_release_year_global_first_unresolved",
+              "source_urls": [
+                "https://mooer.jp/pages/news"
+              ],
+              "note": "Manufacturer Japan news dates local GE150 Pro sales to 2024-10-15. Year is a documented availability bound; first worldwide launch or shipment day unresolved."
+            },
+            "firmware": {
+              "version": "2.1.4",
+              "date": "2026-08",
+              "precision": "month",
+              "status": "latest_located",
+              "source_urls": [
+                "https://www.mooeraudio.com/Downloads_xq/6.html",
+                "https://cn.mooeraudio.com/Downloads_xq/4.html",
+                "https://www.mooeraudio.com/news/29.html"
+              ],
+              "note": "Current English and Chinese device-firmware notes identify Pro 2.1.4 in August 2026, distinct from Plus 2.1.3 and Max 2.1.6. Uniform August upload timestamps are not release days. Payload not independently inspected. English notes and official NAM roadmap specify A2 conversion; a Chinese supplemental paragraph instead claims native A2 Lite, an unresolved source contradiction. Earlier 2.1.3 dates conflict between January English/general notes and Chinese Pro May 14; not substituted for latest date."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Pitch Shift and Detune in the manual MOD inventory; firmware-1.5 regional list also includes Octave. No explicit simultaneous-note/polyphonic classification located for Pitch Shift; not assumed equivalent to GS1000 Poly Shift.",
+              "preset": "200 factory-filled editable slots, 50 banks × 4. SAVE preserves edits; expression mappings and volume settings are per preset. Exact held-pedal recall behavior untested.",
+              "dsp": "Nine simultaneous modules with one selected algorithm per module. Pitch Shift shares MOD with other modulation algorithms, rather than an extra freely assignable block. No isolated pitch CPU percentage, current-firmware allocation table or measured overload limit located.",
+              "source_urls": [
+                "https://www.manualslib.com/guide/3646063/mooer-ge150-pro-ge150-pro-li-manual.html",
+                "https://mooer.jp/pages/ge150pro1-5-0"
+              ],
+              "measurements": [],
+              "notes": [
+                "Manual library predates the expanded 1.5 effect list; current 2.1.4 library not independently enumerated. No pitch quality/latency or DSP hardware test."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://mooer.jp/pages/news",
+                "title": "MOOER Japan release news",
+                "access": "Manufacturer dated regional entry read",
+                "evidence": "GE150 Pro regional sale date 2024-10-15; worldwide first day unresolved."
+              },
+              {
+                "url": "https://www.mooeraudio.com/Downloads_xq/6.html",
+                "title": "GE150 family English firmware notes",
+                "access": "Current manufacturer downloads and changelog read",
+                "evidence": "Pro 2.1.4 August 2026; A2 conversion; separate Plus/Max versions."
+              },
+              {
+                "url": "https://cn.mooeraudio.com/Downloads_xq/4.html",
+                "title": "GE150 family Chinese firmware notes",
+                "access": "Current manufacturer downloads and changelog read",
+                "evidence": "Pro 2.1.4 August 2026; conversion bullet conflicts with native-loading supplement; older dates differ."
+              },
+              {
+                "url": "https://www.mooeraudio.com/news/29.html",
+                "title": "MOOER NAM A2 support roadmap",
+                "access": "Manufacturer article table and body read",
+                "evidence": "Explicit GE150 Plus/Pro/Max A2 conversion, separate from native GS1000/GE1000."
+              },
+              {
+                "url": "https://www.manualslib.com/guide/3646063/mooer-ge150-pro-ge150-pro-li-manual.html",
+                "title": "GE150 Pro/GE150 Pro Li Owner’s Manual",
+                "access": "Manufacturer-authored manual body read on mirror",
+                "evidence": "Pitch Shift/Detune MOD; nine modules; 200 slots, SAVE and per-preset expression."
+              },
+              {
+                "url": "https://mooer.jp/pages/ge150pro1-5-0",
+                "title": "GE150 Pro firmware 1.5 effect list",
+                "access": "Manufacturer regional effect inventory read",
+                "evidence": "MOD list adds Octave; pitch polyphony not specified."
+              }
+            ],
+            "duration": {
+              "minimum_days": 578,
+              "maximum_days": 973,
+              "label": "1.58–2.66 years"
+            },
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
@@ -193862,7 +194037,6 @@
       "MOOER::GE150 Max Li",
       "MOOER::GE150 Plus",
       "MOOER::GE150 Plus Li",
-      "MOOER::GE150 Pro",
       "MOOER::GE150 Pro Li",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
@@ -194043,9 +194217,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 191,
-    "last_model": "MOOER::GS1000 Li",
-    "last_commit_parent": "3f8a0c15c6057b8c03d7f33aa1245963313f7169",
+    "completed_model_count": 192,
+    "last_model": "MOOER::GE150 Pro",
+    "last_commit_parent": "c3acb0fb86e27309f349bf6a8f7c8595a14b9bcf",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -194080,7 +194254,6 @@
       "MOOER::GE150 Max Li",
       "MOOER::GE150 Plus",
       "MOOER::GE150 Plus Li",
-      "MOOER::GE150 Pro",
       "MOOER::GE150 Pro Li",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
@@ -194260,7 +194433,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 191,
+    "pitch_completed_model_count": 192,
     "supplemental_model_count": 0
   },
   "model_images": {
