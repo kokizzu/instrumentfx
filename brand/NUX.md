@@ -873,6 +873,26 @@ Sources checked:
 
 <!-- firmware-pitch:NUX::MG-50Li ends -->
 
+<!-- model-images:NUX::MG-50Li begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**NUX MG-50Li — top controls**
+
+[![NUX MG-50Li — top controls](https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400)](https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400)
+
+[Image source](https://www.nux.us/products/mg-50li). Official overhead photograph shows the MG-50Li with its color screen illuminated, including patch 01A and the signal chain.
+
+**NUX MG-50Li — rear ports (white finish)**
+
+[![NUX MG-50Li — rear ports (white finish)](https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400)](https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400)
+
+[Image source](https://www.nux.us/products/mg-50li). Official elevated rear photograph shows the white MG-50Li finish, illuminated screen and rear connections: input, two sends/returns, stereo outputs, XLR DI outputs, expression, AUX/phones, MIDI, NBT-1, USB and DC power. Rear view is angled, not an overhead view.
+
+</details>
+<!-- model-images:NUX::MG-50Li ends -->
+
+
 <!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Global product](https://nuxaudio.com/product/mg50li/); [US product](https://www.nux.us/products/mg-50li); [native NAM](https://www.nux.us/pages/nam-a2-native).
 

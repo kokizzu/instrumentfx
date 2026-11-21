@@ -199863,11 +199863,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "NUX::MG-50Li": {
+        "model_key": "NUX::MG-50Li",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400",
+            "source_url": "https://www.nux.us/products/mg-50li",
+            "caption": "NUX MG-50Li — top controls",
+            "note": "Official overhead photograph shows the MG-50Li with its color screen illuminated, including patch 01A and the signal chain.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "fd598d70567cd1f49f72eb685486ec1ff71fd2391b0ef1faa90381ac1e4cfe9c"
+          },
+          "rear": {
+            "image_url": "https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400",
+            "source_url": "https://www.nux.us/products/mg-50li",
+            "caption": "NUX MG-50Li — rear ports (white finish)",
+            "note": "Official elevated rear photograph shows the white MG-50Li finish, illuminated screen and rear connections: input, two sends/returns, stereo outputs, XLR DI outputs, expression, AUX/phones, MIDI, NBT-1, USB and DC power. Rear view is angled, not an overhead view.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "70448dcf00dc6763e82f6aaed5c6c7108b39ae5a36ad8c1516ff00c66d01b976"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MG-30"
+    "last_model": "NUX::MG-50Li"
   }
 }
