@@ -202273,11 +202273,59 @@
             "sha256": "fd3b265475beb01c1cacf32894c7b3082e663cfc36febfd0b2e5a348e297f9a9"
           }
         }
+      },
+      "M-VAVE::MINI-X": {
+        "model_key": "M-VAVE::MINI-X",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.mvshow.com.br/cdn/shop/files/minix_01_7f3c0a8b-6308-45a5-a19c-8d115da3be85.webp?v=1748145234&width=1946",
+            "source_url": "https://www.mvshow.com.br/products/amplificador-de-fone-de-ouvido-mini-x-mvave",
+            "caption": "MINI-X powered-on overhead product image",
+            "note": "Straight overhead MINI-X retailer product image, with blue status indicator shown lit; six labeled knobs and power switch visible. Marketed image is not a hardware test or proof of Bluetooth transmission. Rear/end-port photo remains pending: inspected gallery views show folding plug, underside, dimensions and lifestyle use but do not expose USB/headphone sockets. No hidden port inferred from these images.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "dfbf389cc401cb35638da9de64e580f803ea95368d0c348c3de24f95e2b7dc97"
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.mvshow.com.br/cdn/shop/files/minix_02_20fcd56f-677f-4ce8-a030-8bbd6b028e99.webp?v=1748145234&width=1946",
+            "sha256": "5f71ce49db420a7be38db5f78ef9803e5c036938f5ff377246bcd4990397c84f",
+            "visual_checked": true,
+            "note": "Underside/folded plug; sockets not exposed."
+          },
+          {
+            "image_url": "https://www.mvshow.com.br/cdn/shop/files/minix_03_6baf61d3-2ba5-4c7d-bc5c-36e80ae2828d.webp?v=1748145234&width=1946",
+            "sha256": "a1487ba1350ebea3d9f87f902ca7be4c7331457b2d67290212c3667f6ad7e1b5",
+            "visual_checked": true,
+            "note": "Angled top with raised instrument plug; sockets not shown."
+          },
+          {
+            "image_url": "https://www.mvshow.com.br/cdn/shop/files/minix_04_8e86b8bb-0afb-4175-a060-fcac052d96f2.webp?v=1748145234&width=1946",
+            "sha256": "1a2f89b822f97e0855ba8b9e4c2286aa71fbe922e1db0eebb9679b309df926be",
+            "visual_checked": true,
+            "note": "Plug folding illustration, not rear ports."
+          },
+          {
+            "image_url": "https://www.mvshow.com.br/cdn/shop/files/minix_05_bda3a043-0567-4729-924d-3354ac053530.webp?v=1748145234&width=1946",
+            "sha256": "995fc4df84818d8b181e3f6b7656cff67e7e1dcb9fdbc1e66aa102752d9502a2",
+            "visual_checked": true,
+            "note": "Retailer dimension illustration; not original manufacturer measurement."
+          },
+          {
+            "image_url": "https://www.mvshow.com.br/cdn/shop/files/MINIX_07.webp?v=1748044332&width=1946",
+            "sha256": "ed923a23d925f77a318133cbc85b43c5db79706c43417fffbda78f2a7fd42333",
+            "visual_checked": true,
+            "note": "Lit indicator lifestyle image, no visible connector panel."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::ANN Blackbox"
+    "last_model": "M-VAVE::MINI-X"
   }
 }
