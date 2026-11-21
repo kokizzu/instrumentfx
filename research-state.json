@@ -206545,11 +206545,63 @@
             "exact_top_down": false
           }
         }
+      },
+      "Soran::Go Rig B": {
+        "model_key": "Soran::Go Rig B",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.soranaudio.com/upload/images/product/20260111/17681160702281083.png",
+            "source_url": "https://www.soranaudio.com/products/25.html",
+            "caption": "Go Rig B — overhead control-face product image",
+            "note": "Manufacturer overhead image depicts a green B tuner indication. Product imagery may be composited; independent powered-on hardware verification remains pending. Visible14 rotary knobs,3 footswitches,4 mode toggles and no built-in treadle. Tuner/tap symbols are printed between switches,not extra footswitches.",
+            "visual_checked": true,
+            "sha256": "63299e85848bbe2c1181beb10a57a3600793eee7e0faa901628fd3588d2de5a2",
+            "powered_on": null,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.soranaudio.com/upload/images/product/20260111/17681160705203593.jpg",
+            "source_url": "https://www.soranaudio.com/products/25.html",
+            "caption": "Go Rig B — rear connection panel",
+            "note": "Exact manufacturer rear image shows INPUT,AUX IN,HEADPHONE,ground/lift toggle,XLR D.I.OUT,OUTPUT,USB-C AUDIO/OTG charging port,power slide switch and indicator. No barrel-power socket or EXP jack visible on this panel. Ground lift is not a headphone control. Connector appearance does not verify USB format or headphone routing.",
+            "visual_checked": true,
+            "sha256": "101c089029905839f164d97f6502681c31142a171b565c1395bea18b64b6796b",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.guitarpusher.com/cdn/shop/files/SORAN-JCMSB3-GORIGB-06_large.jpg?v=1780380598",
+            "sha256": "ff58f6031abd00669e1a9f3682de1321d2f66c288b271e8b1bd3652483747d0d",
+            "visual_checked": true,
+            "note": "Front lip and angled upper face,not rear ports."
+          },
+          {
+            "image_url": "https://www.guitarpusher.com/cdn/shop/files/SORAN-JCMSB3-GORIGB-01_1024x1024.jpg?v=1780380598",
+            "sha256": "49bcd8a60d924d540ed5b470d1d6526db238845386dd793fff49f1de4c6f3b18",
+            "visual_checked": true,
+            "note": "Angled upper-face image depicts green tuner display;not overhead."
+          },
+          {
+            "image_url": "https://www.soranaudio.com/upload/images/product/20260111/17681160701656359.jpg",
+            "sha256": "0ce171adffe6c74a208940479384e7b50f45f24e69f99925465f783cf25f627d",
+            "visual_checked": true,
+            "note": "Manufacturer angled upper-face product image,not overhead."
+          },
+          {
+            "image_url": "https://www.soranaudio.com/upload/images/product/20260111/17681160708923810.jpg",
+            "sha256": "cad1168c79fbcd59df922ad0de09d459a043b6d5607fa57f560be8f97aff6891",
+            "visual_checked": true,
+            "note": "Opposite angled upper-face product image,not overhead."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Soran::Dual Stomp Lite"
+    "last_model": "Soran::Go Rig B"
   }
 }
