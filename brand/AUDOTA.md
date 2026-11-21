@@ -15,6 +15,32 @@ All five recorded Audota models are consolidated below: AME-100, standard AME-20
 
 ## ACE-100
 
+<!-- firmware-pitch:Audota::ACE-100 begins -->
+### Firmware and pitch audit — Audota ACE-100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No dated hardware launch verified. Manual artwork date2025.07.24,filing dates and site copyright are not hardware launch dates. [launch 1](https://en.audota.com/ACE100EN.html) [launch 2](https://device.report/m/a538011ed7e41f3171b58edb607515dd08a5c053f90c4c3f5ff4f8500850918e) |
+| Firmware / latest verification | Not verified — Unverified. English Firmware page offers ACE-100 Studio1.1.8 Windows/Mac;Chinese page previously indexed1.1.7. These are Studio package labels,not independently verified device firmware versions. Manual explicitly supports firmware updating through editor. No separate ROM version,release date or changelog verified;packages not installed or unpacked. [firmware 1](https://www.audota.com/EN_firmware.html) [firmware 2](https://www.audota.com/firmware.html) [firmware 3](https://device.report/m/a538011ed7e41f3171b58edb607515dd08a5c053f90c4c3f5ff4f8500850918e) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Manufacturer specifies gate,boost,8 amp models,8 cabinet models,3 modulation,3 delay and3 reverb choices;no dedicated interval pitch shifter documented. Tuner detects pitch but does not transpose audio. [pitch 1](https://en.audota.com/ACE100EN.html) [pitch 2](https://device.report/m/a538011ed7e41f3171b58edb607515dd08a5c053f90c4c3f5ff4f8500850918e) |
+| Pitch / preset recall | Manufacturer documents40 storable configurations andLive/Preset modes. No dedicated pitch effect or pitch-specific recall established. |
+| Pitch / DSP resources | Fixed effect sections are not freely duplicable DSP blocks. No per-effect CPU percentage or pitch resource measurement located;do not transfer Ampero50% or AME-series capabilities. |
+| Pitch / qualifications | No pitch documented is scoped to inspected inventory,not all future firmware. Stereo output does not prove polyphonic transposition. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Audota ACE-100 manufacturer product page](https://en.audota.com/ACE100EN.html) — Exact model,seven processing categories,40 presets,Live/Preset modes;no dated launch or pitch algorithm. (opened).
+- [Audota English Firmware download index](https://www.audota.com/EN_firmware.html) — ACE-100 Studio1.1.8 Windows/Mac;Windows target is ZIP installer. No separate device version/date shown. (opened).
+- [Audota Chinese firmware index](https://www.audota.com/firmware.html) — Indexed ACE-100 Studio1.1.7 differs from English1.1.8;neither automatically identifies device ROM. (opened; indexed_version_text).
+- [Audota ACE-100 manufacturer manual manuscript](https://device.report/m/a538011ed7e41f3171b58edb607515dd08a5c053f90c4c3f5ff4f8500850918e) — Editor supports firmware updates;manual2025.07.24 artwork date not launch. Tuner is pitch detector. (indexed_manufacturer_manuscript_text_on_public_mirror; direct_fetch_cache_miss).
+- [ACE-100 official English manual target](https://audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/ACE-100_Manual_EN_V1.1.6.pdf) — Official manual link resolves,but12.6MB content exceeded web reader limit;not claimed fully inspected. (fetch_failed_content_length_limit).
+
+<!-- firmware-pitch:Audota::ACE-100 ends -->
+
 Consolidated **2026-10-17**. This is ACE-100 guitar multi-effects, not AME-100 or a power supply. Original dates, source conflicts and historical next-model notes remain below; use research-state.json for current work.
 
 <!-- AUDOTA-ACE-100 source begins -->
