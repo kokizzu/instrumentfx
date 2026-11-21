@@ -194081,11 +194081,35 @@
             "sha256": "f80585e2743b7bd0f536be89d7e91fc61322993c506cbdfa9782d211e7e918b0"
           }
         }
+      },
+      "Fractal Audio::FM3 original": {
+        "model_key": "Fractal Audio::FM3 original",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.fractalaudio.com/wp-content/uploads/2019/05/FM3-fractal-audio-768x872.jpg",
+            "source_url": "https://www.fractalaudio.com/fm3-old/",
+            "caption": "Original FM3 — powered-on top and rear composite",
+            "note": "Manufacturer announcement image shows the original FM3 label, smaller illuminated footswitch displays and colored rings. Upper panel is nearly overhead but slightly angled, not a strict straight-down view; that remains pending. The composite also includes its rear panel. It is an early promotional image, not evidence of current firmware or factory contents.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "6bb696650ac8bd0da0c177e3cfca2e780b97687d5ac9e3749dbe559f8e4cb388"
+          },
+          "rear": {
+            "image_url": "https://www.fractalaudio.com/wp-content/uploads/2020/01/FM3-800-rear.webp",
+            "source_url": "https://www.fractalaudio.com/fm3",
+            "caption": "Original FM3 — rear connections",
+            "note": "Manufacturer FM3 rear image, matching the rear in the original announcement composite; currently also reused on the MKII page. Visible: phones, instrument input, XLR main outputs/ground lift, stereo input2 and output2, two pedal jacks, FASLINK II, USB-A/B, S/PDIF out, MIDI in/out-thru and AC inlet/switch. Small print limits electrical-label detail; no fine ratings inferred.",
+            "visual_checked": true,
+            "sha256": "f80585e2743b7bd0f536be89d7e91fc61322993c506cbdfa9782d211e7e918b0"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Fractal Audio::FM3 MKII Turbo"
+    "last_model": "Fractal Audio::FM3 original"
   }
 }
