@@ -201487,10 +201487,84 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC-Helicon::Duplicator": {
+        "model_key": "TC-Helicon::Duplicator",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2016-12",
+          "precision": "month",
+          "kind": "contemporary introduction coverage; exact first announcement/shipment unresolved",
+          "source_urls": [
+            "https://www.guitariste.com/articles/tc-helicon-donne-de-la-voix%2C4537%2C1.html?amp=1"
+          ],
+          "note": "December 22, 2016 coverage describes the new Duplicator and plans late-December/early-January availability. Retain December as a documented introduction month, not confirmed shipping or the earliest global announcement."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=umAizDjbMbo",
+            "https://www.infomuza.pl/artykul/50767%2Ctc-helicon-mic-mechanic-i-duplicator-z-nowym-oprogramowaniem",
+            "https://www.tchelicon.com/en/products/0726-AAN"
+          ],
+          "note": "Manufacturer firmware-update demo describes higher maximum doubling-voice level and internal fixes without a firmware number. SoundTrade-attributed September 14, 2018 report already describes the doubling-level change. Later demo publication is not a firmware release date. Exact version, original release date and present latest status remain unknown. VoiceSupport2 1.1.02_build139 on current page is the updater application, not device firmware."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manufacturer Rev.1 manual: Tight/Loose doubling with pitch/time variation, or an additional octave-down voice; separate pitch-correction amount from off through subtle to stronger. These are vocal effects, not proof of polyphonic guitar/chord transposition or a configurable multi-interval harmonizer. Current two-extra-voices/octave-up marketing is not corroborated by this manual; preserve the source/revision difference.",
+          "preset": "Three type/amount knobs and Tone button; no verified writable full-preset count. The update changes factory doubling levels, not documented user patch capacity. Manual footswitch bypass retains correction, reverb and Tone; newer quick-start hold-bypass wording remains separately qualified. Startup Tone selects momentary/latching doubling, not patch navigation.",
+          "dsp": "No pitch-specific CPU percentage, numerical resource cost or DSP meter found. Doubling level is audio gain, correction amount is effect strength and generated-voice count is not input polyphony or processor allocation.",
+          "source_urls": [
+            "https://cdn-media.empowertribe.com/8caa66f6170146dbb4e43798910f0406/tchelicon-duplicator-en.pdf",
+            "https://www.tchelicon.com/en/products/0726-AAN",
+            "https://www.youtube.com/watch?v=umAizDjbMbo"
+          ],
+          "measurements": [],
+          "notes": [
+            "Restored direct manufacturer manual is the same six-page 2016-12-05 Rev.1, not a newer firmware-specific manual.",
+            "Always-on 24V in Rev.1 versus 48V/true-bypass/current voice claims remains unresolved. No hardware, updater or audio tracking test performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.guitariste.com/articles/tc-helicon-donne-de-la-voix%2C4537%2C1.html?amp=1",
+            "title": "Contemporary Duplicator introduction coverage",
+            "access": "Dated December 22, 2016 article read",
+            "evidence": "New model with planned late-December/early-January retail; not confirmed first shipment."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=umAizDjbMbo",
+            "title": "TC Helicon Helicon Headquarters Duplicator firmware-update demonstration",
+            "access": "Original manufacturer indexed video description inspected; direct video unavailable",
+            "evidence": "Doubling maximum raised to input-voice level; internal fixes; no version or firmware release date in indexed text."
+          },
+          {
+            "url": "https://www.infomuza.pl/artykul/50767%2Ctc-helicon-mic-mechanic-i-duplicator-z-nowym-oprogramowaniem",
+            "title": "SoundTrade-attributed Duplicator/Mic Mechanic update report",
+            "access": "Contemporary September 14, 2018 report read",
+            "evidence": "Doubling-level update already reported; separate Mic Mechanic delay behavior not assigned to Duplicator."
+          },
+          {
+            "url": "https://www.tchelicon.com/en/products/0726-AAN",
+            "title": "TC Helicon Duplicator exact 0726-AAN current page",
+            "access": "Direct manufacturer page read",
+            "evidence": "VoiceSupport2 1.1.02_build139 host listing; no device firmware version/date. Current voice/phantom claims remain revision-qualified."
+          },
+          {
+            "url": "https://cdn-media.empowertribe.com/8caa66f6170146dbb4e43798910f0406/tchelicon-duplicator-en.pdf",
+            "title": "TC Helicon Duplicator original Rev.1 manufacturer manual",
+            "access": "Direct restored manufacturer PDF read, six pages, controls p3; title metadata 2016-12-05 Rev.1",
+            "evidence": "Tight/Loose/octave-down, correction amount and VoiceSupport transport; no polyphonic guarantee or DSP cost."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC-Helicon::Duplicator",
       "TC-Helicon::Harmony Singer 2",
       "TC-Helicon::Mic Mechanic 2",
       "TC-Helicon::PERFORM-V",
@@ -201609,12 +201683,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 285,
-    "last_model": "TC-Helicon::Critical Mass",
-    "last_commit_parent": "6690beecd4a5a8dc433c0265f471bcb8c96dbb32",
+    "completed_model_count": 286,
+    "last_model": "TC-Helicon::Duplicator",
+    "last_commit_parent": "69f69cf8a5f6c4bb6f65280d8da9c6656fc16ce7",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC-Helicon::Duplicator",
       "TC-Helicon::Harmony Singer 2",
       "TC-Helicon::Mic Mechanic 2",
       "TC-Helicon::PERFORM-V",
@@ -201732,7 +201805,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 285,
+    "pitch_completed_model_count": 286,
     "supplemental_model_count": 0
   },
   "model_images": {

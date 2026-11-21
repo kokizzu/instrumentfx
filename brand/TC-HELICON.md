@@ -138,6 +138,32 @@ The onboard footswitch bypasses group vocals on tap and group plus reverb on hol
 
 ## Duplicator
 
+<!-- firmware-pitch:TC-Helicon::Duplicator begins -->
+### Firmware and pitch audit — TC-Helicon Duplicator
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2016-12 (contemporary introduction coverage; exact first announcement/shipment unresolved). December 22, 2016 coverage describes the new Duplicator and plans late-December/early-January availability. Retain December as a documented introduction month, not confirmed shipping or the earliest global announcement. [launch 1](https://www.guitariste.com/articles/tc-helicon-donne-de-la-voix%2C4537%2C1.html?amp=1) |
+| Firmware / latest verification | Not verified — Unverified. Manufacturer firmware-update demo describes higher maximum doubling-voice level and internal fixes without a firmware number. SoundTrade-attributed September 14, 2018 report already describes the doubling-level change. Later demo publication is not a firmware release date. Exact version, original release date and present latest status remain unknown. VoiceSupport2 1.1.02_build139 on current page is the updater application, not device firmware. [firmware 1](https://www.youtube.com/watch?v=umAizDjbMbo) [firmware 2](https://www.infomuza.pl/artykul/50767%2Ctc-helicon-mic-mechanic-i-duplicator-z-nowym-oprogramowaniem) [firmware 3](https://www.tchelicon.com/en/products/0726-AAN) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manufacturer Rev.1 manual: Tight/Loose doubling with pitch/time variation, or an additional octave-down voice; separate pitch-correction amount from off through subtle to stronger. These are vocal effects, not proof of polyphonic guitar/chord transposition or a configurable multi-interval harmonizer. Current two-extra-voices/octave-up marketing is not corroborated by this manual; preserve the source/revision difference. [pitch 1](https://cdn-media.empowertribe.com/8caa66f6170146dbb4e43798910f0406/tchelicon-duplicator-en.pdf) [pitch 2](https://www.tchelicon.com/en/products/0726-AAN) [pitch 3](https://www.youtube.com/watch?v=umAizDjbMbo) |
+| Pitch / preset recall | Three type/amount knobs and Tone button; no verified writable full-preset count. The update changes factory doubling levels, not documented user patch capacity. Manual footswitch bypass retains correction, reverb and Tone; newer quick-start hold-bypass wording remains separately qualified. Startup Tone selects momentary/latching doubling, not patch navigation. |
+| Pitch / DSP resources | No pitch-specific CPU percentage, numerical resource cost or DSP meter found. Doubling level is audio gain, correction amount is effect strength and generated-voice count is not input polyphony or processor allocation. |
+| Pitch / qualifications | Restored direct manufacturer manual is the same six-page 2016-12-05 Rev.1, not a newer firmware-specific manual. Always-on 24V in Rev.1 versus 48V/true-bypass/current voice claims remains unresolved. No hardware, updater or audio tracking test performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Contemporary Duplicator introduction coverage](https://www.guitariste.com/articles/tc-helicon-donne-de-la-voix%2C4537%2C1.html?amp=1) — New model with planned late-December/early-January retail; not confirmed first shipment. (Dated December 22, 2016 article read).
+- [TC Helicon Helicon Headquarters Duplicator firmware-update demonstration](https://www.youtube.com/watch?v=umAizDjbMbo) — Doubling maximum raised to input-voice level; internal fixes; no version or firmware release date in indexed text. (Original manufacturer indexed video description inspected; direct video unavailable).
+- [SoundTrade-attributed Duplicator/Mic Mechanic update report](https://www.infomuza.pl/artykul/50767%2Ctc-helicon-mic-mechanic-i-duplicator-z-nowym-oprogramowaniem) — Doubling-level update already reported; separate Mic Mechanic delay behavior not assigned to Duplicator. (Contemporary September 14, 2018 report read).
+- [TC Helicon Duplicator exact 0726-AAN current page](https://www.tchelicon.com/en/products/0726-AAN) — VoiceSupport2 1.1.02_build139 host listing; no device firmware version/date. Current voice/phantom claims remain revision-qualified. (Direct manufacturer page read).
+- [TC Helicon Duplicator original Rev.1 manufacturer manual](https://cdn-media.empowertribe.com/8caa66f6170146dbb4e43798910f0406/tchelicon-duplicator-en.pdf) — Tight/Loose/octave-down, correction amount and VoiceSupport transport; no polyphonic guarantee or DSP cost. (Direct restored manufacturer PDF read, six pages, controls p3; title metadata 2016-12-05 Rev.1).
+
+<!-- firmware-pitch:TC-Helicon::Duplicator ends -->
+
 Checked **2026-10-17**; partial. Independent vocal doubling, reverb, correction and Tone qualify this processor for ALL-VOCAL. No guitar/bass membership is inferred from seller categories. Specifications below come from Duplicator documents, not Mic Mechanic 2.
 
 <!-- comparison evidence begins -->
