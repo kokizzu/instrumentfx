@@ -186788,11 +186788,35 @@
             "sha256": "3e409f29aad8e6a3a55d24a7f6c4482c3873b906f0d7d777174861da5a94128b"
           }
         }
+      },
+      "DigiTech::RP80": {
+        "model_key": "DigiTech::RP80",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://i.ebayimg.com/images/g/pwYAAOSwvFdnRMHI/s-l1600.jpg",
+            "source_url": "https://www.ebay.com/itm/395938223356",
+            "caption": "RP80 powered-on top view",
+            "note": "Visually inspected: red display reads 32 with effect LEDs illuminated. Near-overhead photograph with slight perspective.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "d6f9feeef8ed6c8e273d9f556fed6afca669bac2b87ad8d0f36d4e3732d5fd04"
+          },
+          "rear": {
+            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/150846000000000-02-600x600.jpg",
+            "source_url": "https://www.guitarcenter.com/DigiTech/RP80-Modeling-Guitar-Processor-1273887997533.gc",
+            "caption": "RP80 rear ports",
+            "note": "Visually inspected RP80 rear: input, left/right outputs, headphones and DC power; integrated expression hinge at left.",
+            "visual_checked": true,
+            "sha256": "9b82bd8db1c6d9d9169daf724b61201f6633bbee1d8eb911bc18dc3a9f0e117f"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP70"
+    "last_model": "DigiTech::RP80"
   }
 }

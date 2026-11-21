@@ -767,6 +767,26 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP80 ends -->
 
+<!-- model-images:DigiTech::RP80 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**RP80 powered-on top view**
+
+[![RP80 powered-on top view](https://i.ebayimg.com/images/g/pwYAAOSwvFdnRMHI/s-l1600.jpg)](https://i.ebayimg.com/images/g/pwYAAOSwvFdnRMHI/s-l1600.jpg)
+
+[Image source](https://www.ebay.com/itm/395938223356). Visually inspected: red display reads 32 with effect LEDs illuminated. Near-overhead photograph with slight perspective.
+
+**RP80 rear ports**
+
+[![RP80 rear ports](https://media.guitarcenter.com/is/image/MMGS7/150846000000000-02-600x600.jpg)](https://media.guitarcenter.com/is/image/MMGS7/150846000000000-02-600x600.jpg)
+
+[Image source](https://www.guitarcenter.com/DigiTech/RP80-Modeling-Guitar-Processor-1273887997533.gc). Visually inspected RP80 rear: input, left/right outputs, headphones and DC power; integrated expression hinge at left.
+
+</details>
+<!-- model-images:DigiTech::RP80 ends -->
+
+
 Checked2026-10-18;partial. [Manufacturer-linked own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2024/09/digitech-rp80-manuel-utilisateur-en-30531.pdf),18-0277-A,January2004,32PDF pages,printed pp2–9,14–26 (M). Browser text.
 
 <!-- comparison evidence begins -->
