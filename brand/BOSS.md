@@ -4365,6 +4365,33 @@ Headphone load, output impedance and gain limits do not prove expression attenua
 
 ## KATANA:GO
 
+<!-- firmware-pitch:BOSS::KATANA:GO begins -->
+### Firmware and pitch audit — BOSS KATANA:GO
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-03-14 (manufacturer announcement proxy). Original KATANA:GO manufacturer introduction; planned US retail availability in March2024. Comparison starts with the original product, not the later appearance revision. Exact first shipment unverified. [launch 1](https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-KATANA-GO-Personal-Headphone-Guitar/) |
+| Firmware / latest verification | 1.04 — Latest verified. Current shared KATANA:GO support index; FEB2025 history says compatibility between units with different appearances. Manufacturer says latest/earlier hardware have same sounds/features. Prior1.02MAY2024 addressed boot, battery display and reset behavior. Exact latest day/installed firmware unverified; appearance revision does not restart product span. [firmware 1](https://www.boss.info/global/support/by_product/katana-go/updates_drivers/) [firmware 2](https://www.boss.info/global/support/by_product/katana-go/updates_drivers/12b0d6f6-b2c4-41d3-8f65-b1247ce1eb4b/) [firmware 3](https://www.boss.info/global/products/katana-go/) |
+| Firmware / release date | 2025-02 (month precision) |
+| Firmware / release-to-update duration | 0.89–0.96 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Guitar and bass Pitch Shifter: ±24 semitones, Fast/Medium/Slow/Mono and one/two generated voices. Mono requires single notes with a chord caveat; explicit chord support for other semitone modes unverified. Heavy Octave accepts chords; Harmonist and Pedal Bend disallow chords. Octave-only chord support is not semitone transposition proof. [pitch 1](https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf) [pitch 2](https://static.roland.com/manuals/ktn-go2/en-US/7277338773161099.html) [pitch 3](https://www.boss.info/global/products/katana-go/) |
+| Pitch / preset recall | 30 writable memories per mode (guitar30, bass30), factory-filled with ready-to-play sounds. A memory stores amp/effect settings;10banks×3channels per mode. These are not60 protected presets plus60 user slots. |
+| Pitch / DSP resources | Pitch Shifter, Harmonist and Heavy Octave are shared MOD/FX alternatives; same effect can be selected in both slots in each instrument mode. Pedal Bend uses separate PEDAL FX. No per-pitch CPU percentage or complete simultaneous-block budget established. |
+| Pitch / qualifications | Own parameter guide separates guitar and bass sections; shared sounds/features across appearance revisions is an explicit manufacturer statement, not inferred from branding alone. One/two generated voices and mono output do not prove note-input polyphony. No hardware quality/latency test. No firmware installation or device reset performed; appearance/serial identity of any individual unit remains unverified. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS KATANA:GO current Updates & Drivers](https://www.boss.info/global/support/by_product/katana-go/updates_drivers/) — Current System Program1.04. (opened).
+- [BOSS KATANA:GO System Program1.04 release history](https://www.boss.info/global/support/by_product/katana-go/updates_drivers/12b0d6f6-b2c4-41d3-8f65-b1247ce1eb4b/) — FEB2025 compatibility between appearances; prior1.02MAY2024 boot/reset/battery fixes. (opened).
+- [BOSS KATANA:GO March14 2024 introduction](https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-KATANA-GO-Personal-Headphone-Guitar/) — Original launch announcement; planned March US availability. (indexed_manufacturer_text).
+- [BOSS KATANA:GO original parameter guide01](https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf) — pp11,41–43,59–61 guitar; pp74,95–98,112 onward bass: duplicate MOD/FX, pitch modes/chord caveats, Heavy Octave and separate Pedal FX. (opened_pdf_text).
+- [BOSS KATANA:GO memory reference for current appearance](https://static.roland.com/manuals/ktn-go2/en-US/7277338773161099.html) — Amp/effect combinations stored as memories;10banks×3channels in guitar and bass modes. (opened).
+- [BOSS KATANA:GO current product/specifications](https://www.boss.info/global/products/katana-go/) — Latest/earlier hardware same sounds/features;30 factory-filled writable memories per mode; no pitch-specific percentage. (opened).
+
+<!-- firmware-pitch:BOSS::KATANA:GO ends -->
+
 Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Current product evidence below;BOSS says latest and earlier models have same sounds/features. Physical revision and seller “GO2” identity need corroboration.
 
 <!-- comparison evidence begins -->

@@ -183303,10 +183303,95 @@
           "label": "0.29–0.37 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::KATANA:GO": {
+        "model_key": "BOSS::KATANA:GO",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2024-03-14",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-KATANA-GO-Personal-Headphone-Guitar/"
+          ],
+          "note": "Original KATANA:GO manufacturer introduction; planned US retail availability in March2024. Comparison starts with the original product, not the later appearance revision. Exact first shipment unverified."
+        },
+        "firmware": {
+          "version": "1.04",
+          "date": "2025-02",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/katana-go/updates_drivers/",
+            "https://www.boss.info/global/support/by_product/katana-go/updates_drivers/12b0d6f6-b2c4-41d3-8f65-b1247ce1eb4b/",
+            "https://www.boss.info/global/products/katana-go/"
+          ],
+          "note": "Current shared KATANA:GO support index; FEB2025 history says compatibility between units with different appearances. Manufacturer says latest/earlier hardware have same sounds/features. Prior1.02MAY2024 addressed boot, battery display and reset behavior. Exact latest day/installed firmware unverified; appearance revision does not restart product span."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Guitar and bass Pitch Shifter: ±24 semitones, Fast/Medium/Slow/Mono and one/two generated voices. Mono requires single notes with a chord caveat; explicit chord support for other semitone modes unverified. Heavy Octave accepts chords; Harmonist and Pedal Bend disallow chords. Octave-only chord support is not semitone transposition proof.",
+          "preset": "30 writable memories per mode (guitar30, bass30), factory-filled with ready-to-play sounds. A memory stores amp/effect settings;10banks×3channels per mode. These are not60 protected presets plus60 user slots.",
+          "dsp": "Pitch Shifter, Harmonist and Heavy Octave are shared MOD/FX alternatives; same effect can be selected in both slots in each instrument mode. Pedal Bend uses separate PEDAL FX. No per-pitch CPU percentage or complete simultaneous-block budget established.",
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf",
+            "https://static.roland.com/manuals/ktn-go2/en-US/7277338773161099.html",
+            "https://www.boss.info/global/products/katana-go/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Own parameter guide separates guitar and bass sections; shared sounds/features across appearance revisions is an explicit manufacturer statement, not inferred from branding alone.",
+            "One/two generated voices and mono output do not prove note-input polyphony. No hardware quality/latency test.",
+            "No firmware installation or device reset performed; appearance/serial identity of any individual unit remains unverified."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.boss.info/global/support/by_product/katana-go/updates_drivers/",
+            "title": "BOSS KATANA:GO current Updates & Drivers",
+            "access": "opened",
+            "evidence": "Current System Program1.04."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/katana-go/updates_drivers/12b0d6f6-b2c4-41d3-8f65-b1247ce1eb4b/",
+            "title": "BOSS KATANA:GO System Program1.04 release history",
+            "access": "opened",
+            "evidence": "FEB2025 compatibility between appearances; prior1.02MAY2024 boot/reset/battery fixes."
+          },
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-KATANA-GO-Personal-Headphone-Guitar/",
+            "title": "BOSS KATANA:GO March14 2024 introduction",
+            "access": "indexed_manufacturer_text",
+            "evidence": "Original launch announcement; planned March US availability."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/KATANA_GO_parameter_eng01_W.pdf",
+            "title": "BOSS KATANA:GO original parameter guide01",
+            "access": "opened_pdf_text",
+            "evidence": "pp11,41–43,59–61 guitar; pp74,95–98,112 onward bass: duplicate MOD/FX, pitch modes/chord caveats, Heavy Octave and separate Pedal FX."
+          },
+          {
+            "url": "https://static.roland.com/manuals/ktn-go2/en-US/7277338773161099.html",
+            "title": "BOSS KATANA:GO memory reference for current appearance",
+            "access": "opened",
+            "evidence": "Amp/effect combinations stored as memories;10banks×3channels in guitar and bass modes."
+          },
+          {
+            "url": "https://www.boss.info/global/products/katana-go/",
+            "title": "BOSS KATANA:GO current product/specifications",
+            "access": "opened",
+            "evidence": "Latest/earlier hardware same sounds/features;30 factory-filled writable memories per mode; no pitch-specific percentage."
+          }
+        ],
+        "duration": {
+          "minimum_days": 324,
+          "maximum_days": 351,
+          "label": "0.89–0.96 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::KATANA:GO",
       "BOSS::ME-20",
       "BOSS::ME-20B",
       "BOSS::ME-25",
@@ -183661,12 +183746,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 49,
-    "last_model": "BOSS::GX-1B",
-    "last_commit_parent": "a861acc31725120eda1430282f96ca15cd4dd1a0",
+    "completed_model_count": 50,
+    "last_model": "BOSS::KATANA:GO",
+    "last_commit_parent": "97071f2669ee94fe8105ca96f3c33d9135c8d95f",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::KATANA:GO",
       "BOSS::ME-20",
       "BOSS::ME-20B",
       "BOSS::ME-25",
@@ -184020,7 +184104,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 49,
+    "pitch_completed_model_count": 50,
     "supplemental_model_count": 0
   }
 }
