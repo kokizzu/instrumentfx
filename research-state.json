@@ -193990,11 +193990,35 @@
             "sha256": "044545e3f41e703064a97966200ed04fe6cd3ee022d6e5690c78d969b018bfa4"
           }
         }
+      },
+      "Fractal Audio::FM3 MKII Turbo": {
+        "model_key": "Fractal Audio::FM3 MKII Turbo",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.fractalaudio.com/wp-content/uploads/2023/07/FM3-Mk-II-Turbo-Front-1024.webp",
+            "source_url": "https://www.fractalaudio.com/fm3",
+            "caption": "FM3 MKII Turbo — powered-on top view",
+            "note": "Exact-variant manufacturer photograph. Mark II panel label, Turbo screen, three larger illuminated footswitch displays and colored switch rings are visible in a straight top view. This is not the smaller-display original FM3.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "37ea13ff8c97b7f1a6c168ae855cea085e96ef6ab7220331070dc604878602f8"
+          },
+          "rear": {
+            "image_url": "https://www.fractalaudio.com/wp-content/uploads/2020/01/FM3-800-rear.webp",
+            "source_url": "https://www.fractalaudio.com/fm3",
+            "caption": "FM3 MKII Turbo — manufacturer-reused FM3 rear view",
+            "note": "Manufacturer currently reuses this older FM3 rear image on its MKII Turbo product page; the asset path dates to 2020 and the pictured rear does not independently identify MKII. Visible: phones, instrument input, XLR main outputs/ground lift, stereo input2 and output2, two pedal jacks, FASLINK II, USB-A/B, S/PDIF out, MIDI in/out-thru and AC inlet/switch. Fine electrical labels are small; no ratings inferred. A separately identified MKII rear photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "f80585e2743b7bd0f536be89d7e91fc61322993c506cbdfa9782d211e7e918b0"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Fractal Audio::VP4"
+    "last_model": "Fractal Audio::FM3 MKII Turbo"
   }
 }
