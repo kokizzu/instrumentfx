@@ -208178,11 +208178,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "TC-Helicon::PERFORM-VK": {
+        "model_key": "TC-Helicon::PERFORM-VK",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn-media.empowertribe.com/05690466ba3c499a8dd9b87eac58aba5/Image_TH_0726-AAH_PERFORM-VK_Top_XL.png",
+            "source_url": "https://www.tchelicon.com/ja/products/0726-AAH",
+            "caption": "PERFORM-VK top control face — manufacturer stock image",
+            "note": "Straight-on manufacturer stock control image, illuminated-looking pads/ring; independent powered-on overhead evidence remains pending. Visually confirms one knob, zero footswitches and fourteen button pads: SET, Tone, Anti-Feedback, Pitch, 48V, Harmony/Reverb/Echo, presets 1–3, headphones, TAP and TALK. Window beside SET and ring segments are indicators, not separate buttons.",
+            "visual_checked": true,
+            "sha256": "d73a3cfe6e79e121760a9ab52387a9d3ef85c85d8ed969a96ca67e60917dc09b",
+            "powered_on": null,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://cdn-media.empowertribe.com/a5b527d288e64324ba1360c84d022976/Image_TH_0726-AAH_PERFORM-VK_Rear_XL.png",
+            "source_url": "https://www.tchelicon.com/ja/products/0726-AAH",
+            "caption": "PERFORM-VK rear ports — manufacturer stock image",
+            "note": "Exact white PERFORM-VK rear inspected: center-negative DC power, Mini-B USB, five-pin MIDI IN, quarter-inch PEDAL, AUX minijack, stereo quarter-inch OUT L/R, stereo quarter-inch INST IN L/R, female XLR MIDAS MIC IN and security slot. No XLR MIC OUT or separately labeled keyboard THRU is present in this panel image, contrary to current product prose. PEDAL does not establish continuous expression; MIDI CC11 harmony-level control remains distinct.",
+            "visual_checked": true,
+            "sha256": "da4bce3c677aefcbad301eff0d63d14c0f1d6d8b58c93c695f9b96b20d6b2b27",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::PERFORM-VG"
+    "last_model": "TC-Helicon::PERFORM-VK"
   }
 }

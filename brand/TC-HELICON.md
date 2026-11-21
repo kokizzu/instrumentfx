@@ -936,6 +936,26 @@ Sources checked:
 
 <!-- firmware-pitch:TC-Helicon::PERFORM-VK ends -->
 
+<!-- model-images:TC-Helicon::PERFORM-VK begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**PERFORM-VK top control face — manufacturer stock image**
+
+[![PERFORM-VK top control face — manufacturer stock image](https://cdn-media.empowertribe.com/05690466ba3c499a8dd9b87eac58aba5/Image_TH_0726-AAH_PERFORM-VK_Top_XL.png)](https://cdn-media.empowertribe.com/05690466ba3c499a8dd9b87eac58aba5/Image_TH_0726-AAH_PERFORM-VK_Top_XL.png)
+
+[Image source](https://www.tchelicon.com/ja/products/0726-AAH). Straight-on manufacturer stock control image, illuminated-looking pads/ring; independent powered-on overhead evidence remains pending. Visually confirms one knob, zero footswitches and fourteen button pads: SET, Tone, Anti-Feedback, Pitch, 48V, Harmony/Reverb/Echo, presets 1–3, headphones, TAP and TALK. Window beside SET and ring segments are indicators, not separate buttons.
+
+**PERFORM-VK rear ports — manufacturer stock image**
+
+[![PERFORM-VK rear ports — manufacturer stock image](https://cdn-media.empowertribe.com/a5b527d288e64324ba1360c84d022976/Image_TH_0726-AAH_PERFORM-VK_Rear_XL.png)](https://cdn-media.empowertribe.com/a5b527d288e64324ba1360c84d022976/Image_TH_0726-AAH_PERFORM-VK_Rear_XL.png)
+
+[Image source](https://www.tchelicon.com/ja/products/0726-AAH). Exact white PERFORM-VK rear inspected: center-negative DC power, Mini-B USB, five-pin MIDI IN, quarter-inch PEDAL, AUX minijack, stereo quarter-inch OUT L/R, stereo quarter-inch INST IN L/R, female XLR MIDAS MIC IN and security slot. No XLR MIC OUT or separately labeled keyboard THRU is present in this panel image, contrary to current product prose. PEDAL does not establish continuous expression; MIDI CC11 harmony-level control remains distinct.
+
+</details>
+<!-- model-images:TC-Helicon::PERFORM-VK ends -->
+
+
 Keyboard-guided vocal multi-effects,distinct from V/VG/VE. Checked2026-10-17;initial partial profile. Keyboard guidance does not establish guitar/bass multi-effects;vocal-only comparison membership. Ownership unestablished.
 
 <!-- comparison evidence begins -->
