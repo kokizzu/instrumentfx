@@ -1073,6 +1073,30 @@ The [current manufacturer product](https://nuxaudio.com/product/mg50li/) links a
 
 ## MG-100
 
+<!-- firmware-pitch:NUX::MG-100 begins -->
+### Firmware and pitch audit — NUX MG-100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2011 (manufacturer demonstration year proxy). Cherub Technology manufacturer demonstration is indexed as November 24, 2011, establishing public existence by 2011; this is a year-level introduction proxy, not an exact first shipping date. Earlier 2011 NAMM/retail leads exist, so the November video date is deliberately not used as first release day. [launch 1](https://www.youtube.com/watch?v=ZotHU1_Phb0) |
+| Firmware / latest verification | Not verified — No public firmware located. Current exact-model support lists English and Russian manuals, with no firmware binary, version history or updater found. Manual V1 is a document revision, not firmware. Documented panel has no USB/MIDI update connection; that does not prove no service-only firmware ever existed. Last update date and support span remain unknown. [firmware 1](https://nuxaudio.com/product/mg100/) [firmware 2](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG100/NUX_MG100_UserManualV1_English.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. V1 manual printed pp.15–16, freshly inspected: MOD contains Pitch Shift (shifted signal mixed with dry), Pedal Bar (pitch direction UP/DOWN), and scale/key-dependent Harmonist (KEY, INTERVAL, MIX). No explicit chord/polyphonic input claim or numeric interval limits on this inspected spread; harmony output does not prove polyphonic tracking. [pitch 1](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG100/NUX_MG100_UserManualV1_English.pdf) [pitch 2](https://nuxaudio.com/product/mg100/) |
+| Pitch / preset recall | 72 total presets: 36 factory plus 36 user. Pitch algorithms occupy the MOD module and can be configured in user presets; built-in expression controls selected parameters. Manual Pedal Bar prose mentions an external expression pedal despite no external EXP socket in the documented complete panel; retain conflict, do not invent a connection. |
+| Pitch / DSP resources | Advertised eight simultaneous modules and 32-bit DSP describe overall architecture, not isolated Pitch Shift/Pedal Bar/Harmonist utilization. One MOD choice at a time in the fixed module layout; no manufacturer pitch DSP percentage, measured latency or tracking benchmark found. Do not transfer newer MG-model DSP figures. |
+| Pitch / qualifications | No hardware/audio test performed; mono/poly tracking remains unresolved. V1 reverb list and current product-page grouping conflict remains preserved separately. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX MG-100 current manufacturer product/support](https://nuxaudio.com/product/mg100/) — Exact MG-100 support provides manuals only; eight simultaneous effects and 72 presets. No firmware download or version/date listed. (Manufacturer page opened 2026-11-22).
+- [NUX MG-100 User Manual V1 English](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG100/NUX_MG100_UserManualV1_English.pdf) — MOD Pitch Shift, Pedal Bar, Harmonist descriptions and controls verified on PDF page11 (zero-based10). No explicit polyphonic claim or isolated DSP cost there. V1 is manual revision. (Manufacturer PDF retrieved and printed pp.15–16 visually inspected 2026-11-22; SHA256 398897e2dd5f2596f3c81b89f33e6275ab1fd2d280e87c6f44a65839cf38364e).
+- [Cherub Technology Inc. — NuX MG-100 Guitar Multi-Effects Processor](https://www.youtube.com/watch?v=ZotHU1_Phb0) — Indexed November24,2011 manufacturer demonstration establishes 2011 public existence; no exact first shipment date inferred. (Manufacturer channel indexed metadata checked 2026-11-22; direct video fetch failed; video not watched).
+
+<!-- firmware-pitch:NUX::MG-100 ends -->
+
 <!-- comparison evidence begins -->
 
 **Preserved review2026-10-14. Original model,not101/300.** [Official product](https://nuxaudio.com/product/mg100/); [manufacturer V1 English manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG100/NUX_MG100_UserManualV1_English.pdf). The prior review visually inspected image-only printed pp.1–4,11–19;not a current-firmware test.

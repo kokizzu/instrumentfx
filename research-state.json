@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG400/NUX_MG400_UserManual_German.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG100/NUX_MG100_UserManualV1_English.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 9,
+    "frame": 10,
     "text_pages": [
       0,
       2
@@ -196022,6 +196022,67 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "NUX::MG-100": {
+        "model_key": "NUX::MG-100",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2011",
+          "precision": "year",
+          "kind": "manufacturer demonstration year proxy",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=ZotHU1_Phb0"
+          ],
+          "note": "Cherub Technology manufacturer demonstration is indexed as November 24, 2011, establishing public existence by 2011; this is a year-level introduction proxy, not an exact first shipping date. Earlier 2011 NAMM/retail leads exist, so the November video date is deliberately not used as first release day."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://nuxaudio.com/product/mg100/",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG100/NUX_MG100_UserManualV1_English.pdf"
+          ],
+          "note": "Current exact-model support lists English and Russian manuals, with no firmware binary, version history or updater found. Manual V1 is a document revision, not firmware. Documented panel has no USB/MIDI update connection; that does not prove no service-only firmware ever existed. Last update date and support span remain unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "V1 manual printed pp.15–16, freshly inspected: MOD contains Pitch Shift (shifted signal mixed with dry), Pedal Bar (pitch direction UP/DOWN), and scale/key-dependent Harmonist (KEY, INTERVAL, MIX). No explicit chord/polyphonic input claim or numeric interval limits on this inspected spread; harmony output does not prove polyphonic tracking.",
+          "preset": "72 total presets: 36 factory plus 36 user. Pitch algorithms occupy the MOD module and can be configured in user presets; built-in expression controls selected parameters. Manual Pedal Bar prose mentions an external expression pedal despite no external EXP socket in the documented complete panel; retain conflict, do not invent a connection.",
+          "dsp": "Advertised eight simultaneous modules and 32-bit DSP describe overall architecture, not isolated Pitch Shift/Pedal Bar/Harmonist utilization. One MOD choice at a time in the fixed module layout; no manufacturer pitch DSP percentage, measured latency or tracking benchmark found. Do not transfer newer MG-model DSP figures.",
+          "source_urls": [
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG100/NUX_MG100_UserManualV1_English.pdf",
+            "https://nuxaudio.com/product/mg100/"
+          ],
+          "measurements": [],
+          "notes": [
+            "No hardware/audio test performed; mono/poly tracking remains unresolved.",
+            "V1 reverb list and current product-page grouping conflict remains preserved separately."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://nuxaudio.com/product/mg100/",
+            "title": "NUX MG-100 current manufacturer product/support",
+            "access": "Manufacturer page opened 2026-11-22",
+            "evidence": "Exact MG-100 support provides manuals only; eight simultaneous effects and 72 presets. No firmware download or version/date listed."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG100/NUX_MG100_UserManualV1_English.pdf",
+            "title": "NUX MG-100 User Manual V1 English",
+            "access": "Manufacturer PDF retrieved and printed pp.15–16 visually inspected 2026-11-22; SHA256 398897e2dd5f2596f3c81b89f33e6275ab1fd2d280e87c6f44a65839cf38364e",
+            "evidence": "MOD Pitch Shift, Pedal Bar, Harmonist descriptions and controls verified on PDF page11 (zero-based10). No explicit polyphonic claim or isolated DSP cost there. V1 is manual revision."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZotHU1_Phb0",
+            "title": "Cherub Technology Inc. — NuX MG-100 Guitar Multi-Effects Processor",
+            "access": "Manufacturer channel indexed metadata checked 2026-11-22; direct video fetch failed; video not watched",
+            "evidence": "Indexed November24,2011 manufacturer demonstration establishes 2011 public existence; no exact first shipment date inferred."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -196060,7 +196121,6 @@
       "NUX::Atlantic NDR-5",
       "NUX::Cerberus NME-3",
       "NUX::MFX-10",
-      "NUX::MG-100",
       "NUX::MG-20",
       "NUX::MG-200",
       "NUX::Mighty Plug MP-2",
@@ -196214,9 +196274,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 215,
-    "last_model": "NUX::MG-50Li",
-    "last_commit_parent": "9599a3f36913289c85bbb4e5befca8ca5d138887",
+    "completed_model_count": 216,
+    "last_model": "NUX::MG-100",
+    "last_commit_parent": "3b3769bb1e0cb2373b06977f7411272ab63077be",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -196254,7 +196314,6 @@
       "NUX::Atlantic NDR-5",
       "NUX::Cerberus NME-3",
       "NUX::MFX-10",
-      "NUX::MG-100",
       "NUX::MG-20",
       "NUX::MG-200",
       "NUX::Mighty Plug MP-2",
@@ -196407,7 +196466,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 215,
+    "pitch_completed_model_count": 216,
     "supplemental_model_count": 0
   },
   "model_images": {
