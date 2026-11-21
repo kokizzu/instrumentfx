@@ -4010,6 +4010,35 @@ Checked **2026-11-05** against GX-10 Parameter Guide English01,©2024: printed27
 
 ## GX-100
 
+<!-- firmware-pitch:BOSS::GX-100 begins -->
+### Firmware and pitch audit — BOSS GX-100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022-03-03 (manufacturer announcement and availability). Dated manufacturer introduction explicitly says currently available in the US. Exact first individual shipment not verified. [launch 1](https://www.roland.com/us/company/press_releases/2022/BOSS-Announces-GX-100-Guitar-Effects-Processor/) |
+| Firmware / latest verification | 2.05 — Latest verified. Current index and MAY2026 history; fixes low shimmer reverb/delay levels and FILTER MODE memory-change behavior. Exact day/installed version unverified. Version2.04 MAR2026 removed polyphonic tuner, unrelated to audio pitch polyphony; editor2.0.3 and driver versions are separate. [firmware 1](https://www.boss.info/global/support/by_product/gx-100/updates_drivers/) [firmware 2](https://www.boss.info/global/support/by_product/gx-100/updates_drivers/20dae1db-f6e7-469f-a86d-b0b17f1aac4f/) |
+| Firmware / release date | 2026-05 (month precision) |
+| Firmware / release-to-update duration | 4.16–4.24 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Version2 Pitch Shifter ±24 semitones, Fast/Medium/Slow/Mono, one/two generated voices; note-input polyphony is not explicitly established in the checked page. Version2 Poly Octave explicitly accepts polyphonic input, a separate algorithm rather than proof of chordal semitone transposition. [pitch 1](https://static.roland.com/manuals/gx-100_parameter_v200/en-US/9120769195991691.html) [pitch 2](https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/9123943595998731.html) [pitch 3](https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/95920011158006283.html) [pitch 4](https://static.roland.com/manuals/gx-100_reference_v200/en-US/6987149994758411.html) [pitch 5](https://www.boss.info/global/products/gx-100/) |
+| Pitch / preset recall | 200 user plus100 preset memories. Product documents storing edited/custom amp-effect chains in user memories; no hardware recall test performed. |
+| Pitch / DSP resources | Version2 manufacturer classes: guitar/bass Pitch Shifter, Harmonist and Pedal Bend small; Poly Octave and guitar/bass S-Bend medium; Overtone large. No percentages. Reference gives15 effects/functional devices and9 same-effect upper bound, subject to DSP. Product separately specifies15+3; unresolved counting wording retained. |
+| Pitch / qualifications | Version2 parameter and reference pages checked directly; Japanese capacity/Poly Octave text is identified rather than borrowing GX-10 claims. Insufficient DSP greys out a new effect even below count limits;9 is not guaranteed pitch capacity for every chain. One/two generated voices, mono/stereo output and tuner removal do not establish note-input polyphony. No latency/audio measurement or firmware installation. Full version2 PDF and older English Harmonist direct retrieval returned403; this audit does not claim a complete renewed inspection of every pitch algorithm. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS GX-100 current Updates & Drivers](https://www.boss.info/global/support/by_product/gx-100/updates_drivers/) — System Program2.05 separate from editor2.0.3 and drivers. (opened).
+- [BOSS GX-100 System Program2.05 history](https://www.boss.info/global/support/by_product/gx-100/updates_drivers/20dae1db-f6e7-469f-a86d-b0b17f1aac4f/) — MAY2026 latest fixes; MAR2026 tuner removal. (opened).
+- [BOSS GX-100 March3 2022 introduction and availability](https://www.roland.com/us/company/press_releases/2022/BOSS-Announces-GX-100-Guitar-Effects-Processor/) — Dated announcement with currently-available US statement. (indexed_manufacturer_text).
+- [BOSS GX-100 version2 Pitch Shifter parameters](https://static.roland.com/manuals/gx-100_parameter_v200/en-US/9120769195991691.html) — ±24, Fast/Medium/Slow/Mono and generated voices; no explicit input-note polyphony statement. (opened).
+- [BOSS GX-100 version2 Poly Octave Japanese parameters](https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/9123943595998731.html) — Explicitly supports polyphonic input. (opened).
+- [BOSS GX-100 version2 Japanese DSP-capacity overview](https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/95920011158006283.html) — Pitch/Harmonist/Pedal Bend small, Poly Octave/S-Bend medium, Overtone large; DSP-limited insertion. (opened).
+- [BOSS GX-100 version2 effect-placement reference](https://static.roland.com/manuals/gx-100_reference_v200/en-US/6987149994758411.html) — 15effects/functional devices;9same-effect maximum subject to available DSP. (opened).
+- [BOSS GX-100 current product/specifications](https://www.boss.info/global/products/gx-100/) — 200user+100preset, user chain storage;15+3 specification retained alongside reference wording. (opened).
+
+<!-- firmware-pitch:BOSS::GX-100 ends -->
+
 Consolidated and refreshed **2026-10-16**; partial verification. Full original observations, dates and qualifications remain below. Historical next-model notes are provenance; current queue is in research-state.json.
 
 <!-- BOSS-GX-100 source begins -->
