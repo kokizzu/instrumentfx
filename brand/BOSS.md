@@ -4748,6 +4748,31 @@ No ME-20B bass specifications transferred. Official manual accessed aswebtext;no
 
 ## ME-20B
 
+<!-- firmware-pitch:BOSS::ME-20B begins -->
+### Firmware and pitch audit — BOSS ME-20B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2007-07-27 (manufacturer announcement proxy). Summer NAMM announcement; exact first retail shipment not established. [launch 1](https://cdn.roland.com/assets/media/pdf/pr_2007-07-27_me-20b.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. Manufacturer support index lists manual, guidebook and TurboStart, with no system-program entry. Targeted manufacturer searches found no public firmware history. Internal revisions are not ruled out; elapsed update span is unknown. [firmware 1](https://www.boss.info/global/support/by_product/me-20b/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. OCTAVE adds one octave below, with direct level, octave tone and octave level controls. Chord tracking/polyphony not specified in checked manual. No general interval shifter, harmonizer or pedal bend documented. [pitch 1](https://static.roland.com/assets/media/pdf/ME-20B_OM.pdf) [pitch 2](https://www.boss.info/global/products/me-20b/) |
+| Pitch / preset recall | 30 writable user memories, ten banks of three, factory populated. WRITE stores edits; not an additional protected factory bank. |
+| Pitch / DSP resources | OCTAVE occupies SFX instead of T.WAH or DEFRETTER. SYNTH1/2 occupy COMP/DRIVE, so octave plus synth is documented. DELAY/MOD is another category; order is automatic. No published pitch CPU percentage or numerical allocation cost found. |
+| Pitch / qualifications | Octave note handling is unresolved; no monophonic or polyphonic claim borrowed from other BOSS units. Synth filter descriptions do not establish chord tracking. Wah/volume expression is not pitch bend. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS announces new ME-20B multiple effects processor](https://cdn.roland.com/assets/media/pdf/pr_2007-07-27_me-20b.pdf) — July 27, 2007 Summer NAMM bass-processor announcement. (Manufacturer press-release PDF web text).
+- [ME-20B support](https://www.boss.info/global/support/by_product/me-20b/) — Manual, guidebook and TurboStart listed; no system-program release entry. (Manufacturer support index web text).
+- [ME-20B Owner Manual](https://static.roland.com/assets/media/pdf/ME-20B_OM.pdf) — Pages 16–18: automatic order, SFX octave and separate COMP/DRIVE synth; page 22 includes octave/synth combinations. Pages 23–24: user memory. Octave polyphony and DSP percentage not stated. (Manufacturer PDF web text).
+- [ME-20B product](https://www.boss.info/global/products/me-20b/) — Discontinued bass processor; 30 user memory locations and built-in expression pedal. (Manufacturer web text).
+
+<!-- firmware-pitch:BOSS::ME-20B ends -->
+
 Bass-focused multi-effects; not guitar ME-20. Checked2026-10-17; partial. Ownership unestablished. Shopee lead remains search-only and is not an exact qualified price.
 
 <!-- comparison evidence begins -->

@@ -183454,10 +183454,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::ME-20B": {
+        "model_key": "BOSS::ME-20B",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2007-07-27",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/pr_2007-07-27_me-20b.pdf"
+          ],
+          "note": "Summer NAMM announcement; exact first retail shipment not established."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/me-20b/"
+          ],
+          "note": "Manufacturer support index lists manual, guidebook and TurboStart, with no system-program entry. Targeted manufacturer searches found no public firmware history. Internal revisions are not ruled out; elapsed update span is unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "OCTAVE adds one octave below, with direct level, octave tone and octave level controls. Chord tracking/polyphony not specified in checked manual. No general interval shifter, harmonizer or pedal bend documented.",
+          "preset": "30 writable user memories, ten banks of three, factory populated. WRITE stores edits; not an additional protected factory bank.",
+          "dsp": "OCTAVE occupies SFX instead of T.WAH or DEFRETTER. SYNTH1/2 occupy COMP/DRIVE, so octave plus synth is documented. DELAY/MOD is another category; order is automatic. No published pitch CPU percentage or numerical allocation cost found.",
+          "measurements": [],
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/ME-20B_OM.pdf",
+            "https://www.boss.info/global/products/me-20b/"
+          ],
+          "notes": [
+            "Octave note handling is unresolved; no monophonic or polyphonic claim borrowed from other BOSS units. Synth filter descriptions do not establish chord tracking. Wah/volume expression is not pitch bend."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/pr_2007-07-27_me-20b.pdf",
+            "title": "BOSS announces new ME-20B multiple effects processor",
+            "access": "Manufacturer press-release PDF web text",
+            "evidence": "July 27, 2007 Summer NAMM bass-processor announcement."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/me-20b/",
+            "title": "ME-20B support",
+            "access": "Manufacturer support index web text",
+            "evidence": "Manual, guidebook and TurboStart listed; no system-program release entry."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/ME-20B_OM.pdf",
+            "title": "ME-20B Owner Manual",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Pages 16–18: automatic order, SFX octave and separate COMP/DRIVE synth; page 22 includes octave/synth combinations. Pages 23–24: user memory. Octave polyphony and DSP percentage not stated."
+          },
+          {
+            "url": "https://www.boss.info/global/products/me-20b/",
+            "title": "ME-20B product",
+            "access": "Manufacturer web text",
+            "evidence": "Discontinued bass processor; 30 user memory locations and built-in expression pedal."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::ME-20B",
       "BOSS::ME-25",
       "BOSS::ME-30",
       "BOSS::ME-5",
@@ -183810,12 +183874,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 51,
-    "last_model": "BOSS::ME-20",
-    "last_commit_parent": "cf318c9234b63331511797a6370a1d6c870e3dfc",
+    "completed_model_count": 52,
+    "last_model": "BOSS::ME-20B",
+    "last_commit_parent": "8479e91ec468b8c66c8a557f7f291b712c270200",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::ME-20B",
       "BOSS::ME-25",
       "BOSS::ME-30",
       "BOSS::ME-5",
@@ -184167,7 +184230,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 51,
+    "pitch_completed_model_count": 52,
     "supplemental_model_count": 0
   }
 }
