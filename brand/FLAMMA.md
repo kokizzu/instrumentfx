@@ -612,6 +612,32 @@ Remaining: actual unit revision/current/polarity label and phantom direction,vis
 
 ## FV05 Recorder
 
+<!-- firmware-pitch:Flamma::FV05 Recorder begins -->
+### Firmware and pitch audit — Flamma FV05 Recorder
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No datelined manufacturer launch located. The 2024-01-08 manual revision is documentation age, not a first-sale date. [launch 1](https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal) [launch 2](https://flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact maker support record has attachments[] and a V02 manual; both download indexes provide no FV05 device firmware or updater. Manual V02/2024-01-08 is not firmware. Undocumented service/internal firmware is not ruled out. [firmware 1](https://flammainnovation.com/goods/support?goodsName=FV05) [firmware 2](https://flammainnovation.com/download.html) [firmware 3](https://www.flamma.shop/pages/manual) [firmware 4](https://flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No pitch shift, harmony, transpose or pitch-correction algorithm documented in the current owner manual or own product description. Mono/polyphonic pitch tracking is therefore not established; recording chords is not pitch processing. [pitch 1](https://flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf) [pitch 2](https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal) |
+| Pitch / preset recall | Eleven slots save audio recordings, not effect presets. Factory/user tone-memory allocation is unverified. |
+| Pitch / DSP resources | Fixed vocal EQ/compressor, noise gate and reverb; separate guitar reverb. No numerical CPU/DSP percentage, resource reserve or per-effect cost published. Unlimited overdubbing is a recording feature, not a DSP-load measurement. |
+| Pitch / qualifications | Line input can accept another FV pedal, but that does not establish that FV05 itself supplies that pedal’s harmony or pitch effects. No hardware operation or latency measurement performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [FV05 current English owner manual V02](https://flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf) — Effect/control inventory and recording-slot distinction; no pitch algorithm or numerical DSP load; document revision is not device firmware. (Direct manufacturer 14-page PDF; SHA256 f12992dbe0faf3bb6fac08ea3e9fd12c7699d8cfe9f5d72313c336bc0a4e4fcf; complete indexed text read).
+- [FLAMMA FV05 own product page](https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal) — Exact model: vocal EQ, gate, reverb, dedicated guitar reverb and recording. No dated global launch or pitch processing specified. (Direct manufacturer product page).
+- [FLAMMA FV05 public support metadata](https://flammainnovation.com/goods/support?goodsName=FV05) — Exact FV05 record links V02 English manual and empty attachments list. (Bounded inert maker JSON; SHA256 d4ecdb728ffa58cc7501d69dfa7e6db15799d3ceed824fd6cee2a299bf4d5948).
+- [FLAMMA download catalogue](https://flammainnovation.com/download.html) — FV05 manual entry; no FV05 firmware download found. (Current indexed manufacturer catalogue).
+- [FLAMMA manuals and software index](https://www.flamma.shop/pages/manual) — FV05 owner manual only; firmware/software entries for other models are not FV05 firmware. (Direct current maker index).
+
+<!-- firmware-pitch:Flamma::FV05 Recorder ends -->
+
 Checked2026-10-17;partial. Vocal multi-effects/looper; guitar input supplies reverb only, so no guitar/bass multi-effects membership. Not the excluded FV01. [Product](https://flammainnovation.com/single.html?id=123).
 
 | Field | Finding |

@@ -178514,14 +178514,14 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://flammainnovation.com/file/pdf?fileName=FV04_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj-aAGdjkAAbzlyE83co547.pdf",
+    "requested_url": "https://flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 8,
     "text_pages": [
-      6,
-      9
+      0,
+      13
     ],
-    "index_url": "https://flammainnovation.com/goods/support?goodsName=FV04",
+    "index_url": "https://flammainnovation.com/goods/support?goodsName=FV05",
     "index_needle": "instructions",
     "index_skip": 0
   },
@@ -187461,10 +187461,84 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Flamma::FV05 Recorder": {
+        "model_key": "Flamma::FV05 Recorder",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal",
+            "https://flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf"
+          ],
+          "note": "No datelined manufacturer launch located. The 2024-01-08 manual revision is documentation age, not a first-sale date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://flammainnovation.com/goods/support?goodsName=FV05",
+            "https://flammainnovation.com/download.html",
+            "https://www.flamma.shop/pages/manual",
+            "https://flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf"
+          ],
+          "note": "Exact maker support record has attachments[] and a V02 manual; both download indexes provide no FV05 device firmware or updater. Manual V02/2024-01-08 is not firmware. Undocumented service/internal firmware is not ruled out."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No pitch shift, harmony, transpose or pitch-correction algorithm documented in the current owner manual or own product description. Mono/polyphonic pitch tracking is therefore not established; recording chords is not pitch processing.",
+          "preset": "Eleven slots save audio recordings, not effect presets. Factory/user tone-memory allocation is unverified.",
+          "dsp": "Fixed vocal EQ/compressor, noise gate and reverb; separate guitar reverb. No numerical CPU/DSP percentage, resource reserve or per-effect cost published. Unlimited overdubbing is a recording feature, not a DSP-load measurement.",
+          "source_urls": [
+            "https://flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf",
+            "https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal"
+          ],
+          "measurements": [],
+          "notes": [
+            "Line input can accept another FV pedal, but that does not establish that FV05 itself supplies that pedal’s harmony or pitch effects. No hardware operation or latency measurement performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf",
+            "title": "FV05 current English owner manual V02",
+            "access": "Direct manufacturer 14-page PDF; SHA256 f12992dbe0faf3bb6fac08ea3e9fd12c7699d8cfe9f5d72313c336bc0a4e4fcf; complete indexed text read",
+            "evidence": "Effect/control inventory and recording-slot distinction; no pitch algorithm or numerical DSP load; document revision is not device firmware."
+          },
+          {
+            "url": "https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal",
+            "title": "FLAMMA FV05 own product page",
+            "access": "Direct manufacturer product page",
+            "evidence": "Exact model: vocal EQ, gate, reverb, dedicated guitar reverb and recording. No dated global launch or pitch processing specified."
+          },
+          {
+            "url": "https://flammainnovation.com/goods/support?goodsName=FV05",
+            "title": "FLAMMA FV05 public support metadata",
+            "access": "Bounded inert maker JSON; SHA256 d4ecdb728ffa58cc7501d69dfa7e6db15799d3ceed824fd6cee2a299bf4d5948",
+            "evidence": "Exact FV05 record links V02 English manual and empty attachments list."
+          },
+          {
+            "url": "https://flammainnovation.com/download.html",
+            "title": "FLAMMA download catalogue",
+            "access": "Current indexed manufacturer catalogue",
+            "evidence": "FV05 manual entry; no FV05 firmware download found."
+          },
+          {
+            "url": "https://www.flamma.shop/pages/manual",
+            "title": "FLAMMA manuals and software index",
+            "access": "Direct current maker index",
+            "evidence": "FV05 owner manual only; firmware/software entries for other models are not FV05 firmware."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Flamma::FV05 Recorder",
       "Flamma::FX100",
       "Flamma::FX150",
       "Flamma::FX150b",
@@ -187759,12 +187833,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 109,
-    "last_model": "Flamma::FV04 Harmony",
-    "last_commit_parent": "85e2124207b39ee2872e8de09cf29fd91d9445f7",
+    "completed_model_count": 110,
+    "last_model": "Flamma::FV05 Recorder",
+    "last_commit_parent": "9d1d9c58ef5c41a34c707a31141868c13ce8abf0",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Flamma::FV05 Recorder",
       "Flamma::FX100",
       "Flamma::FX150",
       "Flamma::FX150b",
@@ -188058,7 +188131,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 109,
+    "pitch_completed_model_count": 110,
     "supplemental_model_count": 0
   },
   "model_images": {
