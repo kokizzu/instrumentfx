@@ -7226,6 +7226,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::VE-500 ends -->
 
+<!-- model-images:BOSS::VE-500 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS VE-500 — top panel**
+
+[![BOSS VE-500 — top panel](https://www.clynemedia.com/BOSS/VE_500/ve-500_F.jpg)](https://www.clynemedia.com/BOSS/VE_500/ve-500_F.jpg)
+
+[Image source](https://www.clynemedia.com/BOSS/VE_500/BOSS_VE-500.html). BOSS launch press photograph distributed by Clyne Media. Near-overhead top-panel view with slight perspective; not classified as exact top-down. Backlit LCD shows BOSS and three blue footswitch indicators are illuminated. Promotional photograph, not an independently operated unit.
+
+**BOSS VE-500 — rear connections**
+
+[![BOSS VE-500 — rear connections](https://www.clynemedia.com/BOSS/VE_500/ve-500_R.jpg)](https://www.clynemedia.com/BOSS/VE_500/ve-500_R.jpg)
+
+[Image source](https://www.clynemedia.com/BOSS/VE_500/BOSS_VE-500.html). BOSS launch press photograph distributed by Clyne Media. Unobstructed rear panel shows INST INPUT/THRU, MIC IN, OUTPUT R/L, GND LIFT, MIDI IN, USB Micro-B, CTL1,2/EXP and DC IN. Rear view alone does not establish operating power state.
+
+</details>
+<!-- model-images:BOSS::VE-500 ends -->
+
+
 Vocal multi-effects with guitar/MIDI-guided harmony and vocoder. Consolidated/researched2026-10-16;partial verification.
 
 ### VE-500 — preserved original comparison
