@@ -1963,6 +1963,32 @@ The [official FAQ](https://kb.line6.com/hx-stomp-faq) gives a roughly **17.8 × 
 
 ## HX Stomp XL
 
+<!-- firmware-pitch:Line 6::HX Stomp XL begins -->
+### Firmware and pitch audit — Line 6 HX Stomp XL
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2021-03-02 (manufacturer launch and worldwide availability). Dated manufacturer introduction explicitly states worldwide availability. XL launch, not original HX Stomp October 2018 introduction. [launch 1](https://line6.com/data/6/0a020a3fae62602f3e9513ecb/application/pdf/Line%206_HX%20Stomp%20XL_PR.%E2%80%8Bpdf) |
+| Firmware / latest verification | 3.80.0 — Located; latest status unverified. Exact HX Stomp_XL Firmware entry in indexed manufacturer all-product download result lists 3.80.0, November 19, 2024; direct model-filter retrieval unavailable. Current manufacturer notes corroborate date and XL applicability. HX Edit/Helix Native 3.82 are separate software versions. Six amps, four cabs, Teardrop Bass Q and applicable fixes include XL; no newer device firmware located. [firmware 1](https://line6.com/software/index.html?%252520hardware=Variax%2525252520Shuriken&locale=en_US&name=All&submit_form=set) [firmware 2](https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/) |
+| Firmware / release date | 2024-11-19 (day precision) |
+| Firmware / release-to-update duration | 3.72 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Own 3.80 manual p30 explicitly marks Poly Pitch, Poly Wham, Poly Capo and 12 String as polyphonic; p28 marks Poly Detune. Mono is audio-channel format, not a single-note-input limit. Other pitch/harmony/octaver/synth algorithms do not automatically inherit Poly tracking. [pitch 1](https://line6.com/data/6/0a00051afe12673ccd29b29f5/application/pdf/HX%20Stomp%20XL%203.80%20Owner%27s%20Manual%20-%20English%20.pdf) [pitch 2](https://line6.com/hx-stomp-xl/) |
+| Pitch / preset recall | 128 overwriteable presets. Save configured pitch blocks via HOME/VIEW + ACTION, choose destination and Save; four snapshots per preset. Extra switches and snapshots add control options, not DSP capacity. |
+| Pitch / DSP resources | Eight blocks maximum, DSP-limited. Own p24 permits only one combined Poly/high-DSP group block per preset: Feedbacker, Poly Sustain, Poly Detune, Poly Pitch/Wham/Capo or 12 String. P28 warns Poly Detune may use up to half of available preset DSP. P30 calls the four pitch Poly models extremely DSP-intensive without a numeric percentage. Exact XL per-model pitch CPU percentages remain unverified; do not silently copy original Stomp 50% wording to every XL pitch algorithm. |
+| Pitch / qualifications | No hardware latency, tracking or DSP-percentage measurement. Parallel paths share available resources; the manual one-per-preset group limit still applies. Pitch model polyphony and generated voice count are distinct. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 HX Stomp XL launch press release](https://line6.com/data/6/0a020a3fae62602f3e9513ecb/application/pdf/Line%206_HX%20Stomp%20XL_PR.%E2%80%8Bpdf) — March 2, 2021 introduction and worldwide availability; XL already includes polyphonic pitch effects at launch. (Original manufacturer two-page PDF text read).
+- [Line 6 download index, indexed HX Stomp_XL Firmware entry](https://line6.com/software/index.html?%252520hardware=Variax%2525252520Shuriken&locale=en_US&name=All&submit_form=set) — Explicit HX Stomp XL entry 3.80.0, November 19, 2024. Search result URL contains malformed unrelated hardware query and exposes multiple products; only exact XL entry is used, not neighboring Stomp entry. (Indexed all-products manufacturer result read; direct model-filter retrieval unavailable).
+- [Helix/HX 3.80 release notes](https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/) — November 19, 2024 firmware release, XL included for new amps/cabs/effect and USB mirroring fix; HX Edit 3.82 separate. (Current manufacturer release note read).
+- [HX Stomp XL 3.80 Owner Manual Rev D](https://line6.com/data/6/0a00051afe12673ccd29b29f5/application/pdf/HX%20Stomp%20XL%203.80%20Owner%27s%20Manual%20-%20English%20.pdf) — Exact XL Save/128 locations, one-per-preset Poly/high-DSP group, Poly Detune up-to-half warning and p30 polyphonic pitch flags with nonnumeric DSP warning. (Original 73-page PDF retrieved; pp21,24,30 text read and p28 visually inspected; SHA256 4a59894893b6c1ddfc01804a4afc3ed899c226ade212ffa99f73c6fda649721e).
+- [HX Stomp XL product and panel guide](https://line6.com/hx-stomp-xl/) — Eight footswitches, rear recessed Volume, preset save shortcut and complete XL connector roles. (Current manufacturer page and exact top/rear gallery read).
+
+<!-- firmware-pitch:Line 6::HX Stomp XL ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- LINE6-HX-STOMP-XL source begins -->

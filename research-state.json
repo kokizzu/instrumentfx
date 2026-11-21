@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "requested_url": "https://line6.com/data/6/0a00051afe12673ccd29b29f5/application/pdf/HX%20Stomp%20XL%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 22,
+    "frame": 29,
     "text_pages": [
-      14,
-      14
+      29,
+      29
     ],
     "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
     "index_needle": "features",
@@ -189552,6 +189552,82 @@
           "label": "6.82 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::HX Stomp XL": {
+        "model_key": "Line 6::HX Stomp XL",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2021-03-02",
+          "precision": "day",
+          "kind": "manufacturer_launch_and_worldwide_availability",
+          "source_urls": [
+            "https://line6.com/data/6/0a020a3fae62602f3e9513ecb/application/pdf/Line%206_HX%20Stomp%20XL_PR.%E2%80%8Bpdf"
+          ],
+          "note": "Dated manufacturer introduction explicitly states worldwide availability. XL launch, not original HX Stomp October 2018 introduction."
+        },
+        "firmware": {
+          "version": "3.80.0",
+          "date": "2024-11-19",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://line6.com/software/index.html?%252520hardware=Variax%2525252520Shuriken&locale=en_US&name=All&submit_form=set",
+            "https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/"
+          ],
+          "note": "Exact HX Stomp_XL Firmware entry in indexed manufacturer all-product download result lists 3.80.0, November 19, 2024; direct model-filter retrieval unavailable. Current manufacturer notes corroborate date and XL applicability. HX Edit/Helix Native 3.82 are separate software versions. Six amps, four cabs, Teardrop Bass Q and applicable fixes include XL; no newer device firmware located."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Own 3.80 manual p30 explicitly marks Poly Pitch, Poly Wham, Poly Capo and 12 String as polyphonic; p28 marks Poly Detune. Mono is audio-channel format, not a single-note-input limit. Other pitch/harmony/octaver/synth algorithms do not automatically inherit Poly tracking.",
+          "preset": "128 overwriteable presets. Save configured pitch blocks via HOME/VIEW + ACTION, choose destination and Save; four snapshots per preset. Extra switches and snapshots add control options, not DSP capacity.",
+          "dsp": "Eight blocks maximum, DSP-limited. Own p24 permits only one combined Poly/high-DSP group block per preset: Feedbacker, Poly Sustain, Poly Detune, Poly Pitch/Wham/Capo or 12 String. P28 warns Poly Detune may use up to half of available preset DSP. P30 calls the four pitch Poly models extremely DSP-intensive without a numeric percentage. Exact XL per-model pitch CPU percentages remain unverified; do not silently copy original Stomp 50% wording to every XL pitch algorithm.",
+          "source_urls": [
+            "https://line6.com/data/6/0a00051afe12673ccd29b29f5/application/pdf/HX%20Stomp%20XL%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "https://line6.com/hx-stomp-xl/"
+          ],
+          "measurements": [],
+          "notes": [
+            "No hardware latency, tracking or DSP-percentage measurement. Parallel paths share available resources; the manual one-per-preset group limit still applies. Pitch model polyphony and generated voice count are distinct."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://line6.com/data/6/0a020a3fae62602f3e9513ecb/application/pdf/Line%206_HX%20Stomp%20XL_PR.%E2%80%8Bpdf",
+            "title": "Line 6 HX Stomp XL launch press release",
+            "access": "Original manufacturer two-page PDF text read",
+            "evidence": "March 2, 2021 introduction and worldwide availability; XL already includes polyphonic pitch effects at launch."
+          },
+          {
+            "url": "https://line6.com/software/index.html?%252520hardware=Variax%2525252520Shuriken&locale=en_US&name=All&submit_form=set",
+            "title": "Line 6 download index, indexed HX Stomp_XL Firmware entry",
+            "access": "Indexed all-products manufacturer result read; direct model-filter retrieval unavailable",
+            "evidence": "Explicit HX Stomp XL entry 3.80.0, November 19, 2024. Search result URL contains malformed unrelated hardware query and exposes multiple products; only exact XL entry is used, not neighboring Stomp entry."
+          },
+          {
+            "url": "https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/",
+            "title": "Helix/HX 3.80 release notes",
+            "access": "Current manufacturer release note read",
+            "evidence": "November 19, 2024 firmware release, XL included for new amps/cabs/effect and USB mirroring fix; HX Edit 3.82 separate."
+          },
+          {
+            "url": "https://line6.com/data/6/0a00051afe12673ccd29b29f5/application/pdf/HX%20Stomp%20XL%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "title": "HX Stomp XL 3.80 Owner Manual Rev D",
+            "access": "Original 73-page PDF retrieved; pp21,24,30 text read and p28 visually inspected; SHA256 4a59894893b6c1ddfc01804a4afc3ed899c226ade212ffa99f73c6fda649721e",
+            "evidence": "Exact XL Save/128 locations, one-per-preset Poly/high-DSP group, Poly Detune up-to-half warning and p30 polyphonic pitch flags with nonnumeric DSP warning."
+          },
+          {
+            "url": "https://line6.com/hx-stomp-xl/",
+            "title": "HX Stomp XL product and panel guide",
+            "access": "Current manufacturer page and exact top/rear gallery read",
+            "evidence": "Eight footswitches, rear recessed Volume, preset save shortcut and complete XL connector roles."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1358,
+          "maximum_days": 1358,
+          "label": "3.72 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -189596,7 +189672,6 @@
       "Line 6::Helix LT",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::HX One",
-      "Line 6::HX Stomp XL",
       "Line 6::M13",
       "Line 6::M5",
       "Line 6::M9",
@@ -189826,9 +189901,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 133,
-    "last_model": "Line 6::HX Effects",
-    "last_commit_parent": "f163cc62ea4741a83e41612e0cd02e44fb607a83",
+    "completed_model_count": 134,
+    "last_model": "Line 6::HX Stomp XL",
+    "last_commit_parent": "9c3e8462ee76c97ffab1f4fc1c3d07513adb72e8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -189872,7 +189947,6 @@
       "Line 6::Helix LT",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::HX One",
-      "Line 6::HX Stomp XL",
       "Line 6::M13",
       "Line 6::M5",
       "Line 6::M9",
@@ -190101,7 +190175,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 133,
+    "pitch_completed_model_count": 134,
     "supplemental_model_count": 0
   },
   "model_images": {
