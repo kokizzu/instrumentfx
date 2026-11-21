@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://www.joyoaudio.co.uk/manuals/other/TC2.pdf",
+    "requested_url": "https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 1,
+    "frame": 21,
     "text_pages": [
-      22,
-      24
+      15,
+      15
     ],
     "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
     "index_needle": "features",
@@ -189392,6 +189392,83 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::HX Stomp": {
+        "model_key": "Line 6::HX Stomp",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2018-10-04",
+          "precision": "day",
+          "kind": "manufacturer_launch_and_worldwide_availability",
+          "source_urls": [
+            "https://line6.com/data/6/0a020a40106a75bb66202631f5/application/pdf/"
+          ],
+          "note": "Dated manufacturer introduction states HX Stomp is now available worldwide. Launch six-block wording is historical; firmware 3.0 expanded capacity to eight."
+        },
+        "firmware": {
+          "version": "3.80.0",
+          "date": "2024-11-19",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set",
+            "https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/"
+          ],
+          "note": "Latest exact HX Stomp device firmware in current manufacturer index, corroborated by dated 3.80 notes. HX Edit 3.82 is separate editor software, not Stomp firmware 3.82. Notes add amps/cabs, one effect and fixes; installed hardware not inspected."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Poly Pitch, Poly Wham, Poly Capo and 12 String explicitly use polyphonic pitch shifting; Poly Detune and Poly Sustain are also documented poly models. Simple Pitch, Dual Pitch, Pitch Wham, Twin/Smart Harmony and octavers are separate choices; not all inherit the Poly tracking claim. Mono subcategory denotes channel format, not single-note-only input.",
+          "preset": "Pitch block parameters can be saved in a preset; use HOME/VIEW + ACTION to Save/quick-save. Unsaved edits are discarded on preset change. Three snapshots per preset; saved pitch transposition does not require external guitar retuning.",
+          "dsp": "Eight-block ceiling, dynamically DSP-limited. Manual pp20–21 permits only one combined Poly/high-DSP group block per preset: Feedbacker, Poly Sustain, Poly Detune, Poly Pitch/Wham/Capo or 12 String. P27 warns pitch Poly models can use up to half the available preset DSP. Manufacturer 3.0 notes likewise say some poly effects take roughly 50% of HX Stomp total DSP. This is an approximate model-dependent warning, not a measured fixed 50% for every pitch setting.",
+          "source_urls": [
+            "https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set",
+            "https://line6.com/hx-stomp/"
+          ],
+          "measurements": [],
+          "notes": [
+            "No physical latency/tracking benchmark or per-model CPU table measured. Do not transfer the dual-DSP Helix Floor/Rack/LT quarter-total estimate to single-DSP Stomp. Resource availability depends on the other blocks; eight blocks does not guarantee eight arbitrary heavy models."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://line6.com/data/6/0a020a40106a75bb66202631f5/application/pdf/",
+            "title": "Line 6 HX Stomp launch press release",
+            "access": "Original two-page manufacturer PDF text read",
+            "evidence": "October 4, 2018 introduction and explicit worldwide availability; historical six-block launch specification."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set",
+            "title": "HX Stomp exact-model firmware index",
+            "access": "Current manufacturer index read",
+            "evidence": "Top device release 3.80.0, November 19, 2024. Historical 3.0 pitch notes explicitly describe polyphonic chord shifting and roughly half Stomp DSP for some poly models."
+          },
+          {
+            "url": "https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/",
+            "title": "Helix/HX 3.80 manufacturer release notes",
+            "access": "Manufacturer release note opened",
+            "evidence": "November 19, 2024 hardware release; update instructions separately name HX Edit 3.82. Page creation date is not device firmware release date."
+          },
+          {
+            "url": "https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "title": "HX Stomp 3.80 Owner Manual Rev F",
+            "access": "Original 69-page PDF retrieved; pp16,20–21,27 text read; p22 visually inspected; SHA256 34f6ca6c0dfe0e9eb28e74a902792f3d5f10b23b0134ff275aaa13161d30514b",
+            "evidence": "Poly models, dynamic DSP limits and one Poly/high-DSP group block per preset; up-to-half resource warning, save-before-preset-change requirement. Page references are printed manual page numbers."
+          },
+          {
+            "url": "https://line6.com/hx-stomp/",
+            "title": "Line 6 HX Stomp product and panel guide",
+            "access": "Current manufacturer page/panel guide read",
+            "evidence": "HOME/VIEW and ACTION save/quick-save procedure; exact-model gallery and I/O views. Launch-era six-block marketing text is not current capacity."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2238,
+          "maximum_days": 2238,
+          "label": "6.13 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -189437,7 +189514,6 @@
       "Line 6::Helix Stadium XL Floor",
       "Line 6::HX Effects",
       "Line 6::HX One",
-      "Line 6::HX Stomp",
       "Line 6::HX Stomp XL",
       "Line 6::M13",
       "Line 6::M5",
@@ -189668,9 +189744,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 131,
-    "last_model": "JOYO::Tone Chain TC-2",
-    "last_commit_parent": "05794da7709c500f549d5e0cde92d1f6d228e7e6",
+    "completed_model_count": 132,
+    "last_model": "Line 6::HX Stomp",
+    "last_commit_parent": "c77e9eae3a44c252d064bae91becee7560447498",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -189715,7 +189791,6 @@
       "Line 6::Helix Stadium XL Floor",
       "Line 6::HX Effects",
       "Line 6::HX One",
-      "Line 6::HX Stomp",
       "Line 6::HX Stomp XL",
       "Line 6::M13",
       "Line 6::M5",
@@ -189945,7 +190020,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 131,
+    "pitch_completed_model_count": 132,
     "supplemental_model_count": 0
   },
   "model_images": {

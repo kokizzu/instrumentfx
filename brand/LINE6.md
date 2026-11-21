@@ -1738,6 +1738,32 @@ Yamaha Singapore table lists268effectmodels without firmware date,distinct from 
 
 ## HX Stomp
 
+<!-- firmware-pitch:Line 6::HX Stomp begins -->
+### Firmware and pitch audit — Line 6 HX Stomp
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2018-10-04 (manufacturer launch and worldwide availability). Dated manufacturer introduction states HX Stomp is now available worldwide. Launch six-block wording is historical; firmware 3.0 expanded capacity to eight. [launch 1](https://line6.com/data/6/0a020a40106a75bb66202631f5/application/pdf/) |
+| Firmware / latest verification | 3.80.0 — Latest verified. Latest exact HX Stomp device firmware in current manufacturer index, corroborated by dated 3.80 notes. HX Edit 3.82 is separate editor software, not Stomp firmware 3.82. Notes add amps/cabs, one effect and fixes; installed hardware not inspected. [firmware 1](https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set) [firmware 2](https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/) |
+| Firmware / release date | 2024-11-19 (day precision) |
+| Firmware / release-to-update duration | 6.13 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Poly Pitch, Poly Wham, Poly Capo and 12 String explicitly use polyphonic pitch shifting; Poly Detune and Poly Sustain are also documented poly models. Simple Pitch, Dual Pitch, Pitch Wham, Twin/Smart Harmony and octavers are separate choices; not all inherit the Poly tracking claim. Mono subcategory denotes channel format, not single-note-only input. [pitch 1](https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf) [pitch 2](https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set) [pitch 3](https://line6.com/hx-stomp/) |
+| Pitch / preset recall | Pitch block parameters can be saved in a preset; use HOME/VIEW + ACTION to Save/quick-save. Unsaved edits are discarded on preset change. Three snapshots per preset; saved pitch transposition does not require external guitar retuning. |
+| Pitch / DSP resources | Eight-block ceiling, dynamically DSP-limited. Manual pp20–21 permits only one combined Poly/high-DSP group block per preset: Feedbacker, Poly Sustain, Poly Detune, Poly Pitch/Wham/Capo or 12 String. P27 warns pitch Poly models can use up to half the available preset DSP. Manufacturer 3.0 notes likewise say some poly effects take roughly 50% of HX Stomp total DSP. This is an approximate model-dependent warning, not a measured fixed 50% for every pitch setting. |
+| Pitch / qualifications | No physical latency/tracking benchmark or per-model CPU table measured. Do not transfer the dual-DSP Helix Floor/Rack/LT quarter-total estimate to single-DSP Stomp. Resource availability depends on the other blocks; eight blocks does not guarantee eight arbitrary heavy models. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 HX Stomp launch press release](https://line6.com/data/6/0a020a40106a75bb66202631f5/application/pdf/) — October 4, 2018 introduction and explicit worldwide availability; historical six-block launch specification. (Original two-page manufacturer PDF text read).
+- [HX Stomp exact-model firmware index](https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set) — Top device release 3.80.0, November 19, 2024. Historical 3.0 pitch notes explicitly describe polyphonic chord shifting and roughly half Stomp DSP for some poly models. (Current manufacturer index read).
+- [Helix/HX 3.80 manufacturer release notes](https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/) — November 19, 2024 hardware release; update instructions separately name HX Edit 3.82. Page creation date is not device firmware release date. (Manufacturer release note opened).
+- [HX Stomp 3.80 Owner Manual Rev F](https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf) — Poly models, dynamic DSP limits and one Poly/high-DSP group block per preset; up-to-half resource warning, save-before-preset-change requirement. Page references are printed manual page numbers. (Original 69-page PDF retrieved; pp16,20–21,27 text read; p22 visually inspected; SHA256 34f6ca6c0dfe0e9eb28e74a902792f3d5f10b23b0134ff275aaa13161d30514b).
+- [Line 6 HX Stomp product and panel guide](https://line6.com/hx-stomp/) — HOME/VIEW and ACTION save/quick-save procedure; exact-model gallery and I/O views. Launch-era six-block marketing text is not current capacity. (Current manufacturer page/panel guide read).
+
+<!-- firmware-pitch:Line 6::HX Stomp ends -->
+
 Consolidated2026-10-17. Complete legacy model rows, dated qualifications and URLs are retained below. Display, controls, expression and qualified Shopee offers were additionally checked; indexed manual/guide facts are labelled with access limitations. This existing guitar/bass model adds no inventory count. Verification remains partial.
 
 ### HX Stomp historical source evidence
