@@ -191793,6 +191793,58 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Korg::AX10B": {
+        "model_key": "Korg::AX10B",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/22/"
+          ],
+          "note": "Exact first hardware release not established by checked manufacturer sources;2015 manual upload is not launch evidence."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/22/"
+          ],
+          "note": "Exact support page lists Owner’s Manual and Easy Start Guide, both June1,2015; no public firmware package or dated device changelog located. This does not prove absence of internal/service firmware. Update span uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PITCH1 mixes shifted/direct sound; PITCH2 is fully wet with pedal shift control. Listed settings reach ±12 semitones; PITCH1 includes detune and PITCH2 stair-step upward option. Polyphony unverified. Separate PRE FX OCTAVE warns of incorrect operation with multiple strings or low notes.",
+          "preset": "40 factory presets plus40 user programs, initially duplicating factory contents. Pitch/pedal settings stored in programs; hardware recall untested.",
+          "dsp": "PITCH1/PITCH2 share the single MODULATION selection with chorus/flanger and other choices. OCTAVE uses PRE FX instead. No numerical pitch CPU budget located; AX10G range and AX100G harmony exclusions are not transferred.",
+          "source_urls": [
+            "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No bass tracking, latency or CPU measurement. OCTAVE warning does not establish main-shifter polyphony."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.korg.com/us/support/download/product/1/22/",
+            "title": "Korg AX10B support downloads",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "Only manuals dated2015-06-01; no firmware listed."
+          },
+          {
+            "url": "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf",
+            "title": "AX10B Owner’s Manual",
+            "access": "Manufacturer original PDF text and indexed effect table read",
+            "evidence": "PITCH1/PITCH2 ±12semitone settings, octave caveat, MODULATION/PRE FX allocation and40preset+40user memory."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -191802,7 +191854,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::AX10B",
       "Korg::AX1500G",
       "Korg::AX3000B",
       "Korg::AX3000G",
@@ -192034,9 +192085,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 166,
-    "last_model": "Korg::AX10G",
-    "last_commit_parent": "750fa37df2c6303927a27ed337c51e19a1f5532b",
+    "completed_model_count": 167,
+    "last_model": "Korg::AX10B",
+    "last_commit_parent": "5477d6d3668514b195c0b42ce10fe454bdc9cf16",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -192045,7 +192096,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::AX10B",
       "Korg::AX1500G",
       "Korg::AX3000B",
       "Korg::AX3000G",
@@ -192276,7 +192326,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 166,
+    "pitch_completed_model_count": 167,
     "supplemental_model_count": 0
   },
   "model_images": {

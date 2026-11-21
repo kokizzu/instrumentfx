@@ -396,6 +396,29 @@ The new search again found Henry’s existing **Rp1,250,000 secondhand,Habis** a
 
 ## AX10B
 
+<!-- firmware-pitch:Korg::AX10B begins -->
+### Firmware and pitch audit — Korg AX10B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact first hardware release not established by checked manufacturer sources;2015 manual upload is not launch evidence. [launch 1](https://www.korg.com/us/support/download/product/1/22/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact support page lists Owner’s Manual and Easy Start Guide, both June1,2015; no public firmware package or dated device changelog located. This does not prove absence of internal/service firmware. Update span uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/22/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH1 mixes shifted/direct sound; PITCH2 is fully wet with pedal shift control. Listed settings reach ±12 semitones; PITCH1 includes detune and PITCH2 stair-step upward option. Polyphony unverified. Separate PRE FX OCTAVE warns of incorrect operation with multiple strings or low notes. [pitch 1](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf) |
+| Pitch / preset recall | 40 factory presets plus40 user programs, initially duplicating factory contents. Pitch/pedal settings stored in programs; hardware recall untested. |
+| Pitch / DSP resources | PITCH1/PITCH2 share the single MODULATION selection with chorus/flanger and other choices. OCTAVE uses PRE FX instead. No numerical pitch CPU budget located; AX10G range and AX100G harmony exclusions are not transferred. |
+| Pitch / qualifications | No bass tracking, latency or CPU measurement. OCTAVE warning does not establish main-shifter polyphony. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Korg AX10B support downloads](https://www.korg.com/us/support/download/product/1/22/) — Only manuals dated2015-06-01; no firmware listed. (Manufacturer exact-model page read).
+- [AX10B Owner’s Manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf) — PITCH1/PITCH2 ±12semitone settings, octave caveat, MODULATION/PRE FX allocation and40preset+40user memory. (Manufacturer original PDF text and indexed effect table read).
+
+<!-- firmware-pitch:Korg::AX10B ends -->
+
 Checked2026-10-17. Partial **bass multi-effects** record; distinct from AX10G/AX10A. No qualified Indonesian offer established.
 
 | Field | Evidence / remaining gaps |
