@@ -185957,10 +185957,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::RP70": {
+        "model_key": "DigiTech::RP70",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2007-10-26",
+          "precision": "day",
+          "kind": "manufacturer_availability_notice_proxy",
+          "source_urls": [
+            "https://www.premierguitar.com/digitechs-new-hot-rodded-processors"
+          ],
+          "note": "Manufacturer now-available announcement reproduced by Premier Guitar; available-by proxy, not exact first sale. Later 2008 NAMM report is not first introduction."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://digitech.com/software-downloads/",
+            "https://digitech.com/product-manuals/"
+          ],
+          "note": "No RP70 device firmware release located in checked official software/manual indexes and targeted search. Latest version/date and update span unknown; no-public-file finding does not establish firmware never existed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift h1–h9, Detune d1–d9 and Whammy H1–H9. Checked manual does not enumerate their exact intervals or detune cents; no key/scale harmony or input-polyphony guarantee established.",
+          "preset": "50 writable user plus 50 read-only factory presets; user locations initially duplicate factory.",
+          "dsp": "One Chorus/FX effect at a time; pitch algorithms exclude each other and other row effects. AudioDNA2 supports nine simultaneous effects overall, not nine pitch instances. No per-pitch CPU percentage published in checked sources.",
+          "source_urls": [
+            "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Whammy uses optional external expression and is placed before amp modeling. Expression assignments include Pitch Shift/Detune level and Whammy pedal position; no integrated treadle."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.premierguitar.com/digitechs-new-hot-rodded-processors",
+            "title": "DigiTech RP90 and RP70 now available",
+            "access": "Manufacturer announcement reproduced by Premier Guitar, October 26, 2007",
+            "evidence": "Now-available notice; not exact first shipment."
+          },
+          {
+            "url": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf",
+            "title": "RP70 Owner’s Manual",
+            "access": "Manufacturer CDN 48-page PDF web text, linked from current manual index",
+            "evidence": "Printed p5 memory, pp26–29 Chorus/FX and pitch variants, pp32–33 expression, p35 AudioDNA2/nine effects. Exact pitch intervals not listed."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer current web text and targeted search",
+            "evidence": "No RP70 firmware release located."
+          },
+          {
+            "url": "https://digitech.com/product-manuals/",
+            "title": "DigiTech product manuals",
+            "access": "Manufacturer current web text",
+            "evidence": "RP70 links to manufacturer CDN manual; upload directory date is not firmware date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::RP70",
       "DigiTech::RP80",
       "DigiTech::RP90",
       "DK::iE-350",
@@ -186275,12 +186339,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 89,
-    "last_model": "DigiTech::RP55",
-    "last_commit_parent": "37a18315c462d1aea6afec04fff431607d997b1c",
+    "completed_model_count": 90,
+    "last_model": "DigiTech::RP70",
+    "last_commit_parent": "bd3b20c4c931c9b38fa306fefd40eaa6e6646073",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::RP70",
       "DigiTech::RP80",
       "DigiTech::RP90",
       "DK::iE-350",
@@ -186594,7 +186657,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 89,
+    "pitch_completed_model_count": 90,
     "supplemental_model_count": 0
   },
   "model_images": {

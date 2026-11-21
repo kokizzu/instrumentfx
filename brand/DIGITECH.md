@@ -607,6 +607,31 @@ Checked2026-10-19. [Own18-0838V-A manual, printed pp2,4,10,20](https://digitech.
 
 ## RP70
 
+<!-- firmware-pitch:DigiTech::RP70 begins -->
+### Firmware and pitch audit — DigiTech RP70
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2007-10-26 (manufacturer availability notice proxy). Manufacturer now-available announcement reproduced by Premier Guitar; available-by proxy, not exact first sale. Later 2008 NAMM report is not first introduction. [launch 1](https://www.premierguitar.com/digitechs-new-hot-rodded-processors) |
+| Firmware / latest verification | Not verified — No public firmware located. No RP70 device firmware release located in checked official software/manual indexes and targeted search. Latest version/date and update span unknown; no-public-file finding does not establish firmware never existed. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://digitech.com/product-manuals/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift h1–h9, Detune d1–d9 and Whammy H1–H9. Checked manual does not enumerate their exact intervals or detune cents; no key/scale harmony or input-polyphony guarantee established. [pitch 1](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf) |
+| Pitch / preset recall | 50 writable user plus 50 read-only factory presets; user locations initially duplicate factory. |
+| Pitch / DSP resources | One Chorus/FX effect at a time; pitch algorithms exclude each other and other row effects. AudioDNA2 supports nine simultaneous effects overall, not nine pitch instances. No per-pitch CPU percentage published in checked sources. |
+| Pitch / qualifications | Whammy uses optional external expression and is placed before amp modeling. Expression assignments include Pitch Shift/Detune level and Whammy pedal position; no integrated treadle. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [DigiTech RP90 and RP70 now available](https://www.premierguitar.com/digitechs-new-hot-rodded-processors) — Now-available notice; not exact first shipment. (Manufacturer announcement reproduced by Premier Guitar, October 26, 2007).
+- [RP70 Owner’s Manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf) — Printed p5 memory, pp26–29 Chorus/FX and pitch variants, pp32–33 expression, p35 AudioDNA2/nine effects. Exact pitch intervals not listed. (Manufacturer CDN 48-page PDF web text, linked from current manual index).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — No RP70 firmware release located. (Manufacturer current web text and targeted search).
+- [DigiTech product manuals](https://digitech.com/product-manuals/) — RP70 links to manufacturer CDN manual; upload directory date is not firmware date. (Manufacturer current web text).
+
+<!-- firmware-pitch:DigiTech::RP70 ends -->
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->
