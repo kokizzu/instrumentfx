@@ -182243,10 +182243,101 @@
           "label": "10.04–10.11 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GT-1000": {
+        "model_key": "BOSS::GT-1000",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2018-01-24",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2018/BOSS-ANNOUNCES-GT-1000-GUITAR-EFFECTS-PROCESSOR/",
+            "https://www.roland.com/us/company/press_releases/2018/BOSS-GT-1000-GUITAR-EFFECTS-PROCESSOR-NOW-AVAILABL/"
+          ],
+          "note": "Manufacturer introduction dated January 24; a separate April 24, 2018 release confirms US availability. Announcement date is the comparison proxy, not a claim of January shipment."
+        },
+        "firmware": {
+          "version": "4.02",
+          "date": "2026-07",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gt-1000/updates_drivers/318829ec-f868-47e6-94f5-71b9a60fe3b3/",
+            "https://www.boss.info/global/support/by_product/gt-1000/updates_drivers/"
+          ],
+          "note": "Current exact-model index and JUL 2026 history. Fixes patch-change noise, MANUAL switching and PEDALBOARD restoration. Exact day and installed version unverified; editor/driver versions are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shifter ±24 semitones: Fast/Medium/Slow/Mono; Mono is single-note with a chord caveat. Harmonist and Pedal Bend require single notes. Octave POLY explicitly accepts polyphonic input one octave down; that does not establish whole-chord semitone transposition.",
+          "preset": "250 user plus 250 preset patches. PATCH WRITE stores edits in U01-1–U50-5; unsaved changes are lost at patch change or power-off. Shared STOMPBOX settings are not extra processing instances.",
+          "dsp": "Pitch uses a selectable FX block. Three FX blocks normally; FX EXPANSION enables FX4 but forces mono output. Shared FX choices can be duplicated. Pedal Bend uses PEDAL FX. No per-pitch CPU percentage documented.",
+          "source_urls": [
+            "https://jasonbradymusic.com/wp-content/uploads/2024/07/GT-1000_parameter_eng12_W.pdf",
+            "https://www.boss.info/global/products/gt-1000/",
+            "https://www.boss.info/global/support/by_product/gt-1000/updates_drivers/318829ec-f868-47e6-94f5-71b9a60fe3b3/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer parameter-guide revision12 inspected as text on a public mirror; direct original-host retrieval returned403. No full current firmware4.02 parameter-equivalence claim.",
+            "Firmware4.01 removed the polyphonic tuner; this does not describe audio pitch-shifting polyphony.",
+            "Generated voice count and mono/stereo output are distinct from input-note polyphony."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-1000/updates_drivers/",
+            "title": "BOSS GT-1000 current Updates & Drivers",
+            "access": "opened",
+            "evidence": "System Program4.02 is separate from Tone Studio4.1.1 and USB drivers."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-1000/updates_drivers/318829ec-f868-47e6-94f5-71b9a60fe3b3/",
+            "title": "BOSS GT-1000 System Program4.02 history",
+            "access": "opened",
+            "evidence": "JUL2026 fixes; MAR2026 tuner removal; MAR2020 FX expansion adds fourth FX block with mono output."
+          },
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2018/BOSS-ANNOUNCES-GT-1000-GUITAR-EFFECTS-PROCESSOR/",
+            "title": "BOSS GT-1000 January24 2018 introduction",
+            "access": "opened",
+            "evidence": "Dated manufacturer announcement; not shipment confirmation."
+          },
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2018/BOSS-GT-1000-GUITAR-EFFECTS-PROCESSOR-NOW-AVAILABL/",
+            "title": "BOSS GT-1000 April24 2018 availability release",
+            "access": "opened",
+            "evidence": "Explicitly available now in US, separate from January introduction."
+          },
+          {
+            "url": "https://jasonbradymusic.com/wp-content/uploads/2024/07/GT-1000_parameter_eng12_W.pdf",
+            "title": "BOSS GT-1000 parameter guide12, manufacturer manuscript on public mirror",
+            "access": "opened_pdf_text",
+            "evidence": "pp12,17,19,21,25,29,52: selectable/duplicable FX, mode-specific pitch restrictions, poly octave, expansion mono-output constraint and PATCH WRITE."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/GT-1000_parameter_eng12_W.pdf",
+            "title": "BOSS GT-1000 parameter guide12 original host",
+            "access": "direct_fetch_403",
+            "evidence": "Direct web and bounded HEAD retrieval rejected; no complete original-host download claimed."
+          },
+          {
+            "url": "https://www.boss.info/global/products/gt-1000/",
+            "title": "BOSS GT-1000 current product specifications",
+            "access": "opened",
+            "evidence": "250 user plus250 preset patches; two amps and flexible routing; no pitch-specific CPU percentage."
+          }
+        ],
+        "duration": {
+          "minimum_days": 3080,
+          "maximum_days": 3110,
+          "label": "8.43–8.51 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GT-1000",
       "BOSS::GT-10B",
       "BOSS::GT-1B",
       "BOSS::GT-3",
@@ -182613,12 +182704,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 37,
-    "last_model": "BOSS::GT-100",
-    "last_commit_parent": "35820e4dd088281aa9033561b0ac833ee130d259",
+    "completed_model_count": 38,
+    "last_model": "BOSS::GT-1000",
+    "last_commit_parent": "2128e266e3dead2c45dc5b8ea0bfc5461f052f98",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GT-1000",
       "BOSS::GT-10B",
       "BOSS::GT-1B",
       "BOSS::GT-3",
@@ -182984,7 +183074,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 37,
+    "pitch_completed_model_count": 38,
     "supplemental_model_count": 0
   }
 }

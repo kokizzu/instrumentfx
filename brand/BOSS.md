@@ -2072,6 +2072,34 @@ Checked **2026-11-05**. Original ©2012 Parameter Guide [manufacturer-authored t
 
 ## GT-1000
 
+<!-- firmware-pitch:BOSS::GT-1000 begins -->
+### Firmware and pitch audit — BOSS GT-1000
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2018-01-24 (manufacturer announcement proxy). Manufacturer introduction dated January 24; a separate April 24, 2018 release confirms US availability. Announcement date is the comparison proxy, not a claim of January shipment. [launch 1](https://www.roland.com/us/company/press_releases/2018/BOSS-ANNOUNCES-GT-1000-GUITAR-EFFECTS-PROCESSOR/) [launch 2](https://www.roland.com/us/company/press_releases/2018/BOSS-GT-1000-GUITAR-EFFECTS-PROCESSOR-NOW-AVAILABL/) |
+| Firmware / latest verification | 4.02 — Latest verified. Current exact-model index and JUL 2026 history. Fixes patch-change noise, MANUAL switching and PEDALBOARD restoration. Exact day and installed version unverified; editor/driver versions are separate. [firmware 1](https://www.boss.info/global/support/by_product/gt-1000/updates_drivers/318829ec-f868-47e6-94f5-71b9a60fe3b3/) [firmware 2](https://www.boss.info/global/support/by_product/gt-1000/updates_drivers/) |
+| Firmware / release date | 2026-07 (month precision) |
+| Firmware / release-to-update duration | 8.43–8.51 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter ±24 semitones: Fast/Medium/Slow/Mono; Mono is single-note with a chord caveat. Harmonist and Pedal Bend require single notes. Octave POLY explicitly accepts polyphonic input one octave down; that does not establish whole-chord semitone transposition. [pitch 1](https://jasonbradymusic.com/wp-content/uploads/2024/07/GT-1000_parameter_eng12_W.pdf) [pitch 2](https://www.boss.info/global/products/gt-1000/) [pitch 3](https://www.boss.info/global/support/by_product/gt-1000/updates_drivers/318829ec-f868-47e6-94f5-71b9a60fe3b3/) |
+| Pitch / preset recall | 250 user plus 250 preset patches. PATCH WRITE stores edits in U01-1–U50-5; unsaved changes are lost at patch change or power-off. Shared STOMPBOX settings are not extra processing instances. |
+| Pitch / DSP resources | Pitch uses a selectable FX block. Three FX blocks normally; FX EXPANSION enables FX4 but forces mono output. Shared FX choices can be duplicated. Pedal Bend uses PEDAL FX. No per-pitch CPU percentage documented. |
+| Pitch / qualifications | Manufacturer parameter-guide revision12 inspected as text on a public mirror; direct original-host retrieval returned403. No full current firmware4.02 parameter-equivalence claim. Firmware4.01 removed the polyphonic tuner; this does not describe audio pitch-shifting polyphony. Generated voice count and mono/stereo output are distinct from input-note polyphony. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS GT-1000 current Updates & Drivers](https://www.boss.info/global/support/by_product/gt-1000/updates_drivers/) — System Program4.02 is separate from Tone Studio4.1.1 and USB drivers. (opened).
+- [BOSS GT-1000 System Program4.02 history](https://www.boss.info/global/support/by_product/gt-1000/updates_drivers/318829ec-f868-47e6-94f5-71b9a60fe3b3/) — JUL2026 fixes; MAR2026 tuner removal; MAR2020 FX expansion adds fourth FX block with mono output. (opened).
+- [BOSS GT-1000 January24 2018 introduction](https://www.roland.com/us/company/press_releases/2018/BOSS-ANNOUNCES-GT-1000-GUITAR-EFFECTS-PROCESSOR/) — Dated manufacturer announcement; not shipment confirmation. (opened).
+- [BOSS GT-1000 April24 2018 availability release](https://www.roland.com/us/company/press_releases/2018/BOSS-GT-1000-GUITAR-EFFECTS-PROCESSOR-NOW-AVAILABL/) — Explicitly available now in US, separate from January introduction. (opened).
+- [BOSS GT-1000 parameter guide12, manufacturer manuscript on public mirror](https://jasonbradymusic.com/wp-content/uploads/2024/07/GT-1000_parameter_eng12_W.pdf) — pp12,17,19,21,25,29,52: selectable/duplicable FX, mode-specific pitch restrictions, poly octave, expansion mono-output constraint and PATCH WRITE. (opened_pdf_text).
+- [BOSS GT-1000 parameter guide12 original host](https://static.roland.com/assets/media/pdf/GT-1000_parameter_eng12_W.pdf) — Direct web and bounded HEAD retrieval rejected; no complete original-host download claimed. (direct_fetch_403).
+- [BOSS GT-1000 current product specifications](https://www.boss.info/global/products/gt-1000/) — 250 user plus250 preset patches; two amps and flexible routing; no pitch-specific CPU percentage. (opened).
+
+<!-- firmware-pitch:BOSS::GT-1000 ends -->
+
 Consolidated and refreshed **2026-10-16**; partial verification. Full-size GT-1000 is distinct from GT-1000CORE. Original observations and historical next-model notes remain below as provenance; current queue is in research-state.json.
 
 <!-- BOSS-GT-1000 source begins -->
