@@ -189215,11 +189215,35 @@
             "sha256": "925dc1f6bd6d7153bc4bab93380cf186df660fa4acbcbe259e59145d1189daf3"
           }
         }
+      },
+      "Flamma::FX50": {
+        "model_key": "Flamma::FX50",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.flamma.shop/cdn/shop/files/FX50.png?v=1715584566&width=1946",
+            "source_url": "https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects",
+            "caption": "FX50 powered-on top-down color composite",
+            "note": "Manufacturer composite of orange and green FX50 units seen straight down; red segmented displays depict PL. Green unit is rotated within the source image. This is a promotional composite, not an operated-unit measurement.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "0bf9fb8bdefeaf2e8bdf91bc2ca5d702823cbc1e541ef92ec8c458c8d1857052"
+          },
+          "rear": {
+            "image_url": "https://www.flamma.shop/cdn/shop/files/FX50_-4.png?v=1715582708&width=1946",
+            "source_url": "https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects",
+            "caption": "FX50 perimeter audio-jack view",
+            "note": "Orange-model edge-on product photograph shows the two quarter-inch instrument input/output sockets at the ends and the smaller AUX socket along the near edge, identified using the top-panel labels. FX50 distributes connectors around its perimeter; this is not a single conventional rear panel. Opposite-edge DC input/headphone socket are not fully shown here and remain pending as a separate clear view.",
+            "visual_checked": true,
+            "sha256": "cbb96715a6643fdfb21bcfa9b0428c4f5c098f3d21375d5f42d1341193d8d8cd"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Flamma::FX20"
+    "last_model": "Flamma::FX50"
   }
 }
