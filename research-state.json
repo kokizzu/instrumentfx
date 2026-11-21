@@ -207484,11 +207484,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "TC-Helicon::Critical Mass": {
+        "model_key": "TC-Helicon::Critical Mass",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://img.ricardostatic.ch/images/4c116f4c-7b61-4e65-93ad-f2e732f96851/t_1000x750/tc-helicon-critical-mass-large-group-sound-effects",
+            "source_url": "https://www.ricardo.ch/de/a/tc-helicon-critical-mass-large-group-sound-effects-1246001640/",
+            "caption": "Critical Mass — overhead photograph, unlit",
+            "note": "Actual used unit: three rotaries (STYLE/MIX/REVERB), one TONE button and one footswitch; no treadle. Printed eight STYLE positions: Melodic 1–4 and Gang 5–8, each Unison/Oct Up/Oct Dn/Up&Dn. Reverb labels OFF/RM/CLUB/HALL resolve the earlier unnamed middle type as Club. No numeric screen visible, only status indicators. LEDs are unlit; a verified powered-on overhead photo remains pending.",
+            "visual_checked": true,
+            "sha256": "c9a3d09398033a445fa746c4a4dcfae718034cbf4c52f842389b57ab272d2329",
+            "powered_on": false,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/1677/5884/145307-tmp4990__51057.1714735862.jpg?c=1",
+            "source_url": "https://www.andertons.co.uk/tc-helicon-critical-mass-vocal-stompbox/",
+            "caption": "Critical Mass — rear connector artwork",
+            "note": "Stock rear artwork shows USB (manual specifies micro-USB), ON/OFF slide switch, center-negative DC polarity symbol, male XLR OUT and female XLR MIC. No headphone or analog expression socket pictured. This is polished catalogue artwork, not independent powered-unit proof; the green detail above the rear lip does not establish a hardware test. Artwork does not prove USB audio/power or resolve 24V-versus-48V phantom claims.",
+            "visual_checked": true,
+            "sha256": "c9c54eea41664d13ba3cd48e768817f18b6cc030cff6315df3a27eee8d035c31",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC Electronic::PLETHORA X5"
+    "last_model": "TC-Helicon::Critical Mass"
   }
 }
