@@ -191353,10 +191353,78 @@
           "label": "2.96–3.04 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Fractal Audio::FM3 original": {
+        "model_key": "Fractal Audio::FM3 original",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2020-02",
+          "precision": "month",
+          "kind": "manufacturer_first_shipping_month",
+          "source_urls": [
+            "https://www.fractalaudio.com/about/"
+          ],
+          "note": "Manufacturer timeline states FM3 began shipping February 2020, distinct from its April 2019 announcement and July 2023 MKII Turbo launch. Exact first shipment day unverified."
+        },
+        "firmware": {
+          "version": "13.0",
+          "date": "2026-07-16",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.fractalaudio.com/fm3-downloads/"
+          ],
+          "note": "Current manufacturer downloads explicitly names compatibility with FM3 Original and FM3 Mark II Turbo. November 2026 driver date is separate. No update installation or installed-version check."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Virtual Capo is documented polyphonic, ±24 semitones. Dedicated Pitch also includes detune, chromatic/intelligent/custom harmony, whammy and octave modes; polyphony is mode-specific. Current Blocks Guide permits one Pitch instance for FM3. FM3 Reverb excludes integrated pitch shifting; Plex pitch effects are separate.",
+          "preset": "512 writable preset locations, eight scenes per preset and up to four channels per block; Pitch settings/subtypes can be recalled by channel/scene. Hardware switching not tested.",
+          "dsp": "One Pitch instance shares the grid/CPU budget; no verified Virtual Capo CPU percentage located. Firmware-7.x manual explicitly covers Standard and Mark II Turbo and specifies approximately 80% maximum load; excess mutes processing and unsafe block insertions are prevented. Original hardware does not acquire the MKII Turbo DSP-capacity increase through firmware.",
+          "source_urls": [
+            "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+            "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No measured tracking, latency or CPU benchmark. Manual CPU policy is revision-qualified, not a firmware-13.0 measurement. No VP4/AM4 resource percentages transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.fractalaudio.com/about/",
+            "title": "Fractal Audio company product timeline",
+            "access": "Manufacturer timeline read",
+            "evidence": "Original FM3 announced April2019; began shipping February2020. Shipment month used for hardware release."
+          },
+          {
+            "url": "https://www.fractalaudio.com/fm3-downloads/",
+            "title": "FM3 downloads",
+            "access": "Manufacturer current page read",
+            "evidence": "Firmware13.0 dated July16,2026 explicitly compatible with Original and Mark II Turbo."
+          },
+          {
+            "url": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+            "title": "FM3 Owner’s Manual for firmware7.x",
+            "access": "Manufacturer PDF text read; cover and printedpp2,41,50",
+            "evidence": "Cover includes Standard and Mark II Turbo. 512 presets, scenes/channels and approximately80% CPU ceiling with muting safeguard."
+          },
+          {
+            "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+            "title": "Fractal Audio Blocks Guide, November2026",
+            "access": "Manufacturer original PDF text read, pp3,76–86,95",
+            "evidence": "FM3 one Pitch block; polyphonic Virtual Capo ±24 semitones; Reverb pitch exclusion specific to FM3."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2329,
+          "maximum_days": 2357,
+          "label": "6.38–6.45 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Fractal Audio::FM3 original",
       "Fractal Audio::FM9 MKII Turbo",
       "Fractal Audio::FM9 original",
       "Fractal Audio::FM9 Turbo",
@@ -191601,12 +191669,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 159,
-    "last_model": "Fractal Audio::FM3 MKII Turbo",
-    "last_commit_parent": "b9fb097d388f76ebe08ffa6bffa49877ce6ec642",
+    "completed_model_count": 160,
+    "last_model": "Fractal Audio::FM3 original",
+    "last_commit_parent": "d70f1dd8f09d85559770c3a582c34fb70211616d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Fractal Audio::FM3 original",
       "Fractal Audio::FM9 MKII Turbo",
       "Fractal Audio::FM9 original",
       "Fractal Audio::FM9 Turbo",
@@ -191850,7 +191917,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 159,
+    "pitch_completed_model_count": 160,
     "supplemental_model_count": 0
   },
   "model_images": {

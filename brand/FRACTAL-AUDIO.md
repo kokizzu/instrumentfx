@@ -1126,6 +1126,31 @@ The chapter says **20+ settings** without enumerating names. The earlier22-type 
 
 ## FM3 original
 
+<!-- firmware-pitch:Fractal Audio::FM3 original begins -->
+### Firmware and pitch audit — Fractal Audio FM3 original
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2020-02 (manufacturer first shipping month). Manufacturer timeline states FM3 began shipping February 2020, distinct from its April 2019 announcement and July 2023 MKII Turbo launch. Exact first shipment day unverified. [launch 1](https://www.fractalaudio.com/about/) |
+| Firmware / latest verification | 13.0 — Latest verified. Current manufacturer downloads explicitly names compatibility with FM3 Original and FM3 Mark II Turbo. November 2026 driver date is separate. No update installation or installed-version check. [firmware 1](https://www.fractalaudio.com/fm3-downloads/) |
+| Firmware / release date | 2026-07-16 (day precision) |
+| Firmware / release-to-update duration | 6.38–6.45 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Virtual Capo is documented polyphonic, ±24 semitones. Dedicated Pitch also includes detune, chromatic/intelligent/custom harmony, whammy and octave modes; polyphony is mode-specific. Current Blocks Guide permits one Pitch instance for FM3. FM3 Reverb excludes integrated pitch shifting; Plex pitch effects are separate. [pitch 1](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) [pitch 2](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) |
+| Pitch / preset recall | 512 writable preset locations, eight scenes per preset and up to four channels per block; Pitch settings/subtypes can be recalled by channel/scene. Hardware switching not tested. |
+| Pitch / DSP resources | One Pitch instance shares the grid/CPU budget; no verified Virtual Capo CPU percentage located. Firmware-7.x manual explicitly covers Standard and Mark II Turbo and specifies approximately 80% maximum load; excess mutes processing and unsafe block insertions are prevented. Original hardware does not acquire the MKII Turbo DSP-capacity increase through firmware. |
+| Pitch / qualifications | No measured tracking, latency or CPU benchmark. Manual CPU policy is revision-qualified, not a firmware-13.0 measurement. No VP4/AM4 resource percentages transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Fractal Audio company product timeline](https://www.fractalaudio.com/about/) — Original FM3 announced April2019; began shipping February2020. Shipment month used for hardware release. (Manufacturer timeline read).
+- [FM3 downloads](https://www.fractalaudio.com/fm3-downloads/) — Firmware13.0 dated July16,2026 explicitly compatible with Original and Mark II Turbo. (Manufacturer current page read).
+- [FM3 Owner’s Manual for firmware7.x](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) — Cover includes Standard and Mark II Turbo. 512 presets, scenes/channels and approximately80% CPU ceiling with muting safeguard. (Manufacturer PDF text read; cover and printedpp2,41,50).
+- [Fractal Audio Blocks Guide, November2026](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) — FM3 one Pitch block; polyphonic Virtual Capo ±24 semitones; Reverb pitch exclusion specific to FM3. (Manufacturer original PDF text read, pp3,76–86,95).
+
+<!-- firmware-pitch:Fractal Audio::FM3 original ends -->
+
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from MKII Turbo; not fully verified and no ownership assertion. The earlier discovery heading and complete body follow as historical evidence. Their outside-inventory statements describe pre-admission checkpoints. This admission does not settle hardware variants, market availability or remaining specifications.
 
 <!-- comparison evidence begins -->
