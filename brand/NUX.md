@@ -323,6 +323,26 @@ Sources checked:
 
 <!-- firmware-pitch:NUX::Cerberus NME-3 ends -->
 
+<!-- model-images:NUX::Cerberus NME-3 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**NUX Cerberus — top controls**
+
+[![NUX Cerberus — top controls](https://www.nux.us/cdn/shop/files/Cerberus_NME-3__W_01.jpg?v=1756899725&width=2560)](https://www.nux.us/cdn/shop/files/Cerberus_NME-3__W_01.jpg?v=1756899725&width=2560)
+
+[Image source](https://www.nux.us/products/cerberus-nme-3). Official overhead product photograph shows the Cerberus controls and illuminated red/green status indicators. The numeric preset display is blank in this image; powered appearance is evidenced by the status lights, not a displayed preset number.
+
+**NUX Cerberus — rear ports**
+
+[![NUX Cerberus — rear ports](https://www.nux.us/cdn/shop/files/Cerberus_NME-3__W_05.jpg?v=1756899725&width=2560)](https://www.nux.us/cdn/shop/files/Cerberus_NME-3__W_05.jpg?v=1756899725&width=2560)
+
+[Image source](https://www.nux.us/products/cerberus-nme-3). Official rear photograph clearly shows EXP, analog overdrive/distortion input/output, boost and ground-lift controls, USB-B, DIN MIDI input/output, digital-section level switch/input/two outputs/phones, DC9V500mA and power switch. Rear photo does not show operating status. Connector presence does not establish USB audio.
+
+</details>
+<!-- model-images:NUX::Cerberus NME-3 ends -->
+
+
 **New profile,2026-10-15. Effects-only guitar multi-effects and controller.** Analog drive/distortion plus independent modulation,time effects and IR loading qualifies;it is not merely a controller. [Official product,firmware and editor](https://nuxaudio.com/product/cerberus/).
 
 | Required field | Primary finding / explicit gap |

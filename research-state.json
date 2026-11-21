@@ -200324,11 +200324,37 @@
             "visual_checked": true
           }
         ]
+      },
+      "NUX::Cerberus NME-3": {
+        "model_key": "NUX::Cerberus NME-3",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.nux.us/cdn/shop/files/Cerberus_NME-3__W_01.jpg?v=1756899725&width=2560",
+            "source_url": "https://www.nux.us/products/cerberus-nme-3",
+            "caption": "NUX Cerberus — top controls",
+            "visual_checked": true,
+            "note": "Official overhead product photograph shows the Cerberus controls and illuminated red/green status indicators. The numeric preset display is blank in this image; powered appearance is evidenced by the status lights, not a displayed preset number.",
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "18b1c272be244146f5c225ee86a99b6e6395e44e6c272f586bd2e5c2e9a4d0ba"
+          },
+          "rear": {
+            "image_url": "https://www.nux.us/cdn/shop/files/Cerberus_NME-3__W_05.jpg?v=1756899725&width=2560",
+            "source_url": "https://www.nux.us/products/cerberus-nme-3",
+            "caption": "NUX Cerberus — rear ports",
+            "visual_checked": true,
+            "note": "Official rear photograph clearly shows EXP, analog overdrive/distortion input/output, boost and ground-lift controls, USB-B, DIN MIDI input/output, digital-section level switch/input/two outputs/phones, DC9V500mA and power switch. Rear photo does not show operating status. Connector presence does not establish USB audio.",
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "4f3cef7ff3a3bc4abbaf11e24cfddb58bef08288b5f8854f1925e20f35d76455"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MFX-10"
+    "last_model": "NUX::Cerberus NME-3"
   }
 }
