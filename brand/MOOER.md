@@ -4070,6 +4070,32 @@ The [Chinese manufacturer page](https://cn.mooeraudio.com/product/84.html) links
 
 ## Prime M2
 
+<!-- firmware-pitch:MOOER::Prime M2 begins -->
+### Firmware and pitch audit — MOOER Prime M2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Global introduction says M2 kicks off 2025; December 29, 2024 app/support notes already add M2. Software availability is not first hardware shipment. Exact initial announcement/shipping date unresolved; Japanese March 2025 availability is regional, not necessarily global first. [launch 1](https://www.mooeraudio.com/products/221.html) [launch 2](https://www.mooeraudio.com/Downloads_xq/2.html) |
+| Firmware / latest verification | 1.5.0 — Latest verified. Both current manufacturer changelogs explicitly name M2 V1.5.0 firmware with NAM A2 loading. Android 4.0.0 stem separation/A2 Lite mobile import is separate. Payload not installed or independently examined. September 2025 English M2 1.2.0/date versus Chinese 1.2.9/date discrepancy retained in source trail, not used as latest. [firmware 1](https://www.mooeraudio.com/Downloads_xq/2.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/1.html) |
+| Firmware / release date | 2026-09-22 (day precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Regional M2 1.1.9 list names MO Pitch Shift, Crystal (shimmer/modulation delay), Rainbow (modulated pitch delay), and RE Shimmer. Neither ambience names nor generic Pitch Shift establish polyphonic/monophonic tracking, shift interval or wet-only transposition. [pitch 1](https://mooer.jp/pages/mooer-prime-s1-m1-m2) [pitch 2](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf) |
+| Pitch / preset recall | 80 stored tone slots; manual SAVE stores edited parameters/name to a chosen location. Pitch recall follows general tone saving; no independent test or separate extra factory bank established. |
+| Pitch / DSP resources | Regional 1.1.9 table reports nine effect blocks and repeated-type support. Manual allows adding/removing/reordering modules. Current pitch DSP percentage, repeat/overload limits and impact of pitched delays/reverb are unpublished in checked sources; nine blocks is not CPU usage. |
+| Pitch / qualifications | Manual excludes Pitch from modulation tempo-rate control; this does not establish pitch range. Historical regional inventory is not a verified current firmware 1.5.0 census. No quality/latency/DSP measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Prime M2 global manufacturer product](https://www.mooeraudio.com/products/221.html) — 2025 introduction context; newer August 2025 manual filename differs from inspected mirror. (Exact product introduction and manual filenames read).
+- [Prime English support changelog](https://www.mooeraudio.com/Downloads_xq/2.html) — M2 1.5.0 September 22, 2026; Android separate; December 2024 M2 app support. (Current explicit firmware and historical app sections read).
+- [Prime Chinese support changelog](https://cn.mooeraudio.com/Downloads_xq/1.html) — Confirms 1.5.0 date; older September 2025 package/date wording differs from English. (Current explicit firmware and historical sections read).
+- [Japanese Prime model comparison](https://mooer.jp/pages/mooer-prime-s1-m1-m2) — Pitch Shift, Crystal, Rainbow, Shimmer; nine blocks/repeated types, 80 presets. Historical revision. (Exact M2 1.1.9 column and effect-name rows read).
+- [Manufacturer M2 manual on RockBoard, V2.0 filename](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf) — Module editing/reordering and saving; Pitch excluded from tempo-rate control. Not equated with newer August 2025 manual. (Exact M2 PDF editing/SAVE and tempo passages read).
+
+<!-- firmware-pitch:MOOER::Prime M2 ends -->
+
 Checked2026-10-17;partial. Guitar/bass processor with headset vocal effects. [Product](https://www.mooeraudio.com/products/221.html); [manufacturer manual, RockBoard mirror V2.0 filename](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf),67pages; selected technical sections read, no visual verification. Product lists a newer M2_Manual_EN_V02_2025.08.26; not assumed identical.
 
 | Field | Finding |
