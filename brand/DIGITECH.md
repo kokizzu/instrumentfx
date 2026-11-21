@@ -1261,6 +1261,26 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP250 ends -->
 
+<!-- model-images:DigiTech::RP250 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**DigiTech RP250 — top panel**
+
+[![DigiTech RP250 — top panel](https://www.imperialvintageguitars.com/cdn/shop/files/Digitech-RP250-Modeling-Multi-FX-Imperial-Vintage-Guitars-Sell_0069_1024x878.jpg?v=1767919473)](https://www.imperialvintageguitars.com/cdn/shop/files/Digitech-RP250-Modeling-Multi-FX-Imperial-Vintage-Guitars-Sell_0069_1024x878.jpg?v=1767919473)
+
+[Image source](https://www.imperialvintageguitars.com/products/digitech-rp250-modeling-guitar-processor). Retailer used-unit near-overhead photograph with slight perspective and visible wear. Master Level knob cap is missing. Green display window is unlit; powered-on status unverified. A complete powered-on exact top-down product photograph remains pending.
+
+**DigiTech RP250 — rear connections**
+
+[![DigiTech RP250 — rear connections](https://media.guitarcenter.com/is/image/MMGS7/156607000000000-01-600x600.jpg)](https://media.guitarcenter.com/is/image/MMGS7/156607000000000-01-600x600.jpg)
+
+[Image source](https://www.guitarcenter.com/Open-Box/DigiTech/RP250-Guitar-Multi-Effects-Pedal-Level-1-156607004000000.gc). Retailer rear product photograph shows INPUT, AMP/MIXER switch, LEFT (Mono)/RIGHT outputs, headphones, AUX IN, USB Type-B and power. Chassis label reads 9VAC 1.3A. Source is 600 × 600 pixels with broad margins; small-label detail is limited. Separate photographed unit from top view; operating power state unverified.
+
+</details>
+<!-- model-images:DigiTech::RP250 ends -->
+
+
 Guitar multi-effects;distinct fromRP255/RP150. Checked2026-10-17;partial. Bass/vocal suitability andownership unresolved.
 
 | Field | Finding / qualification | Evidence |

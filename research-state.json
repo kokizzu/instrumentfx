@@ -193507,11 +193507,35 @@
             "sha256": "1fc5b7f4c543c7b822c55f487107fffec3f7b078881dbb79aa449901f4853e76"
           }
         }
+      },
+      "DigiTech::RP250": {
+        "model_key": "DigiTech::RP250",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.imperialvintageguitars.com/cdn/shop/files/Digitech-RP250-Modeling-Multi-FX-Imperial-Vintage-Guitars-Sell_0069_1024x878.jpg?v=1767919473",
+            "source_url": "https://www.imperialvintageguitars.com/products/digitech-rp250-modeling-guitar-processor",
+            "caption": "DigiTech RP250 — top panel",
+            "note": "Retailer used-unit near-overhead photograph with slight perspective and visible wear. Master Level knob cap is missing. Green display window is unlit; powered-on status unverified. A complete powered-on exact top-down product photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "359c289d494f4167efd094ec63ab57022156128ec7ae815904d0fbd5af5a6e09"
+          },
+          "rear": {
+            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/156607000000000-01-600x600.jpg",
+            "source_url": "https://www.guitarcenter.com/Open-Box/DigiTech/RP250-Guitar-Multi-Effects-Pedal-Level-1-156607004000000.gc",
+            "caption": "DigiTech RP250 — rear connections",
+            "note": "Retailer rear product photograph shows INPUT, AMP/MIXER switch, LEFT (Mono)/RIGHT outputs, headphones, AUX IN, USB Type-B and power. Chassis label reads 9VAC 1.3A. Source is 600 × 600 pixels with broad margins; small-label detail is limited. Separate photographed unit from top view; operating power state unverified.",
+            "visual_checked": true,
+            "sha256": "37310966f3ace40f477068ff03d3121e04ccff1d7c84cd730f002a7d9ab5064f"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP255"
+    "last_model": "DigiTech::RP250"
   }
 }
