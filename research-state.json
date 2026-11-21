@@ -201419,10 +201419,77 @@
           "label": "5.09 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC-Helicon::Critical Mass": {
+        "model_key": "TC-Helicon::Critical Mass",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2017-04-19",
+          "precision": "day",
+          "kind": "manufacturer introduction video",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=AXdk6GFIIzs"
+          ],
+          "note": "TC Helicon introduces the new Critical Mass in its April 19, 2017 video. This establishes public introduction, not independently verified first shipment."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.tchelicon.com/en/products/0726-AAO",
+            "https://www.handleiding.guide/pdf/817823"
+          ],
+          "note": "Firmware updating via micro-USB/VoiceSupport is documented, but no exact device firmware version or release date was found in the checked public sources. Current product downloads list VoiceSupport2 1.1.02_build139 for Windows/macOS; that is the host application version, not Critical Mass firmware. Support span cannot be calculated; absence of a public version is not proof of no updates."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manual documents Melodic/Gang group vocals with unison and doubled octave voices. This vocal-doubling/octave capability does not establish polyphonic chord transposition, a configurable interval harmonizer or a numerical input-note limit. Older product information claims automatic pitch correction, but the checked manual gives no correction controls or operational explanation; retain that uncertainty.",
+          "preset": "Style, Mix and Reverb knobs plus Tone button; no writable full-preset memory count established. Four style descriptions are not four user patches or proof of four simultaneous voices. Footswitch tap bypasses group, hold bypasses group plus reverb; Tone state during that hold is not established.",
+          "dsp": "No pitch-specific CPU percentage, block cost or resource measurement found. Mix is an audio blend, not DSP utilization. Current product-page eight-voice choir claim is a generated-voice count, not eight-note input polyphony or 1/8 CPU allocation.",
+          "source_urls": [
+            "https://www.handleiding.guide/pdf/817823",
+            "https://www.tchelicon.com/en/products/0726-AAO",
+            "https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/TC%20Helicon_CRITICAL%20MASS%20P0CGT_Product%20Information%20Document.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Current exact product page adds Smart Sense, eight-voice unison, true-bypass and 48V claims; 2017 manual instead documents always-active 24V and no Smart Sense control. Treat as unresolved source/revision conflict, not verified new firmware features.",
+            "No updater installed, firmware transfer, device operation or audio tracking test performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=AXdk6GFIIzs",
+            "title": "TC Helicon Critical Mass introduction video",
+            "access": "Official manufacturer channel publication and description inspected",
+            "evidence": "April 19, 2017 new-product introduction; choir/gang vocals, reverb and Adaptive Tone."
+          },
+          {
+            "url": "https://www.tchelicon.com/en/products/0726-AAO",
+            "title": "TC Helicon Critical Mass exact 0726-AAO current product page",
+            "access": "Direct manufacturer page read",
+            "evidence": "VoiceSupport2 1.1.02_build139 listing; no device firmware release number/date. Eight-voice/Smart Sense/48V claims conflict with older documentation scope."
+          },
+          {
+            "url": "https://www.handleiding.guide/pdf/817823",
+            "title": "TC Helicon Critical Mass 2017 manufacturer manual reproduction",
+            "access": "Original six-page PDF body read, controls pp3–4; not generated FAQ",
+            "evidence": "Unison/doubled octaves, VoiceSupport transport, knob/footswitch operation and 24V phantom. No input-polyphony or DSP-cost specification."
+          },
+          {
+            "url": "https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/TC%20Helicon_CRITICAL%20MASS%20P0CGT_Product%20Information%20Document.pdf",
+            "title": "TC Helicon Critical Mass original Product Information Document",
+            "access": "Earlier indexed manufacturer evidence retained; direct endpoint failed this check",
+            "evidence": "Automatic pitch-correction claim remains unconfirmed operationally; not upgraded to polyphonic shifting."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC-Helicon::Critical Mass",
       "TC-Helicon::Duplicator",
       "TC-Helicon::Harmony Singer 2",
       "TC-Helicon::Mic Mechanic 2",
@@ -201542,12 +201609,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 284,
-    "last_model": "TC Electronic::PLETHORA X5",
-    "last_commit_parent": "628e2ec8cf58941b22ad3c5ec0c624c098ab8f1c",
+    "completed_model_count": 285,
+    "last_model": "TC-Helicon::Critical Mass",
+    "last_commit_parent": "6690beecd4a5a8dc433c0265f471bcb8c96dbb32",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC-Helicon::Critical Mass",
       "TC-Helicon::Duplicator",
       "TC-Helicon::Harmony Singer 2",
       "TC-Helicon::Mic Mechanic 2",
@@ -201666,7 +201732,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 284,
+    "pitch_completed_model_count": 285,
     "supplemental_model_count": 0
   },
   "model_images": {

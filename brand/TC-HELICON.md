@@ -20,6 +20,31 @@
 
 ## Critical Mass
 
+<!-- firmware-pitch:TC-Helicon::Critical Mass begins -->
+### Firmware and pitch audit — TC-Helicon Critical Mass
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017-04-19 (manufacturer introduction video). TC Helicon introduces the new Critical Mass in its April 19, 2017 video. This establishes public introduction, not independently verified first shipment. [launch 1](https://www.youtube.com/watch?v=AXdk6GFIIzs) |
+| Firmware / latest verification | Not verified — No public firmware located. Firmware updating via micro-USB/VoiceSupport is documented, but no exact device firmware version or release date was found in the checked public sources. Current product downloads list VoiceSupport2 1.1.02_build139 for Windows/macOS; that is the host application version, not Critical Mass firmware. Support span cannot be calculated; absence of a public version is not proof of no updates. [firmware 1](https://www.tchelicon.com/en/products/0726-AAO) [firmware 2](https://www.handleiding.guide/pdf/817823) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manual documents Melodic/Gang group vocals with unison and doubled octave voices. This vocal-doubling/octave capability does not establish polyphonic chord transposition, a configurable interval harmonizer or a numerical input-note limit. Older product information claims automatic pitch correction, but the checked manual gives no correction controls or operational explanation; retain that uncertainty. [pitch 1](https://www.handleiding.guide/pdf/817823) [pitch 2](https://www.tchelicon.com/en/products/0726-AAO) [pitch 3](https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/TC%20Helicon_CRITICAL%20MASS%20P0CGT_Product%20Information%20Document.pdf) |
+| Pitch / preset recall | Style, Mix and Reverb knobs plus Tone button; no writable full-preset memory count established. Four style descriptions are not four user patches or proof of four simultaneous voices. Footswitch tap bypasses group, hold bypasses group plus reverb; Tone state during that hold is not established. |
+| Pitch / DSP resources | No pitch-specific CPU percentage, block cost or resource measurement found. Mix is an audio blend, not DSP utilization. Current product-page eight-voice choir claim is a generated-voice count, not eight-note input polyphony or 1/8 CPU allocation. |
+| Pitch / qualifications | Current exact product page adds Smart Sense, eight-voice unison, true-bypass and 48V claims; 2017 manual instead documents always-active 24V and no Smart Sense control. Treat as unresolved source/revision conflict, not verified new firmware features. No updater installed, firmware transfer, device operation or audio tracking test performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Helicon Critical Mass introduction video](https://www.youtube.com/watch?v=AXdk6GFIIzs) — April 19, 2017 new-product introduction; choir/gang vocals, reverb and Adaptive Tone. (Official manufacturer channel publication and description inspected).
+- [TC Helicon Critical Mass exact 0726-AAO current product page](https://www.tchelicon.com/en/products/0726-AAO) — VoiceSupport2 1.1.02_build139 listing; no device firmware release number/date. Eight-voice/Smart Sense/48V claims conflict with older documentation scope. (Direct manufacturer page read).
+- [TC Helicon Critical Mass 2017 manufacturer manual reproduction](https://www.handleiding.guide/pdf/817823) — Unison/doubled octaves, VoiceSupport transport, knob/footswitch operation and 24V phantom. No input-polyphony or DSP-cost specification. (Original six-page PDF body read, controls pp3–4; not generated FAQ).
+- [TC Helicon Critical Mass original Product Information Document](https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/TC%20Helicon_CRITICAL%20MASS%20P0CGT_Product%20Information%20Document.pdf) — Automatic pitch-correction claim remains unconfirmed operationally; not upgraded to polyphonic shifting. (Earlier indexed manufacturer evidence retained; direct endpoint failed this check).
+
+<!-- firmware-pitch:TC-Helicon::Critical Mass ends -->
+
 Vocal-only multi-effects;checked 2026-10-17. Partial verification;unknown is not No.
 
 | Field | Evidence / qualification |
