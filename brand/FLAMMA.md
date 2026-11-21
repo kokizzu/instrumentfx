@@ -100,6 +100,31 @@ Existing FX100 blob `0a366c17163ad26d646d48bc4a2b174c55a4e802` and FX200 blob `b
 
 ## FB200
 
+<!-- firmware-pitch:Flamma::FB200 begins -->
+### Firmware and pitch audit — Flamma FB200
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. ManualV01 is dated2025-05-22, but a manual revision is not a hardware launch. No authenticated first-release date established; retailer availability and listing dates not substituted. [launch 1](https://flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf) [launch 2](https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal) |
+| Firmware / latest verification | Not verified — Unverified. Maker documents automatic device-update prompts through computer software but publishes no FB200 device version/date in the checked index. FB2001.0.1 EXE/DMG labels identify desktop software; not authenticated pedal firmware. Nearby1.2.5/2025-07-28 notes belong to FG200, not FB200. [firmware 1](https://www.flamma.shop/pages/manual) [firmware 2](https://flammainnovation.com/download.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Complete own modulation/reverb tables have no dedicated transposer, harmonizer, octave shifter or selectable polyphonic retuning. Vibrato varies pitch cyclically; Chorus, Ring Modulator and Filter do not establish note-tracked pitch shifting. [pitch 1](https://flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf) [pitch 2](https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal) |
+| Pitch / preset recall | 40 writable preset locations; exact factory-filled subset not established. Preset mode recalls stored settings; Live mode follows physical controls. No extra40factory bank inferred. |
+| Pitch / DSP resources | Named fixed Gate/Comp/Amp/Cab/Mod/Reverb modules and Master control; no freely insertable pitch block or numeric CPU/DSP cost documented.19effects and20combined amp/cab choices are library counts, not simultaneous resource allocation. |
+| Pitch / qualifications | Bass FB200 remains separate from guitar FG200. Firmware update capability does not establish a public release number, support span or upgrade adding pitch. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [FLAMMA manual/software and device-update index](https://www.flamma.shop/pages/manual) — FB200desktop1.0.1; automatic update prompt; dated1.2.5 notes under FG200 only. (Direct maker page; FB200 heading distinguished from following FG200 heading).
+- [FLAMMA manufacturer download catalogue](https://flammainnovation.com/download.html) — FB2001.0.1 Win/Mac application filenames and own manual; no authenticated device version/date. (Indexed current manufacturer downloads).
+- [FB200 own English manual V01](https://flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf) — 40presets, Live/Preset modes, fixed modules; modulation/reverb inventory without dedicated pitch transposition. (Direct25-page manufacturer PDF, V01/2025-05-22; printed10–13/17–21).
+- [FLAMMA FB200 manufacturer product](https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal) — Bass-specific device;40memories,19effects,20combined amp/cab models; no dated launch. (Direct/indexed maker product page).
+
+<!-- firmware-pitch:Flamma::FB200 ends -->
+
 Checked **2026-10-17**; partial. Bass-focused combined multi-effects; distinct from FG200. No positive guitar/vocal classification established.
 
 <!-- comparison evidence begins -->
