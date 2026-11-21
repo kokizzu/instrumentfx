@@ -192,6 +192,26 @@ Sources checked:
 
 <!-- firmware-pitch:Korg::AX3G ends -->
 
+<!-- model-images:Korg::AX3G begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Korg AX3G top-down promotional image — illuminated display**
+
+[![Korg AX3G top-down promotional image — illuminated display](https://files2.soniccdn.com/files/2019/02/05/KOrg%20full%20image.jpg)](https://files2.soniccdn.com/files/2019/02/05/KOrg%20full%20image.jpg)
+
+[Image source](https://www.guitarristas.info/reviews/analisis-multiefectos-korg-ax3g-video/53). Straight top-down product image with AX3G label, effect chart and complete footswitches. Display and switch indicators are shown illuminated; this is a promotional image, not proof of a running hardware test or particular firmware version.
+
+**Korg AX3G rear ports**
+
+[![Korg AX3G rear ports](https://www.mitrosmusic.com/media/inlineimage/upload_11883_1.jpg)](https://www.mitrosmusic.com/media/inlineimage/upload_11883_1.jpg)
+
+[Image source](https://www.mitrosmusic.com/proizvod/9550-Korg-AX3G/). Straight rear product photograph shows DC input, INPUT, OUTPUT and PEDAL sockets plus cable hook. Labels are low contrast at this resolution; model identity relies on the exact AX3G retailer page and matching chassis. No USB/MIDI connector is visible. Higher-resolution label detail remains desirable.
+
+</details>
+<!-- model-images:Korg::AX3G ends -->
+
+
 Guitar multi-effects; separate from AX3B/AX3A. Checked 2026-10-17; partial. Ownership and bass/vocal suitability unverified. Discontinued.
 
 | Field | Finding / qualification | Evidence |

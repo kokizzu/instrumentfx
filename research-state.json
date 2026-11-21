@@ -194816,11 +194816,35 @@
             "sha256": "691820c98c5d9419871f86bf5182480061d018f93a5a5c40321fbcd04c25fc5b"
           }
         }
+      },
+      "Korg::AX3G": {
+        "model_key": "Korg::AX3G",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://files2.soniccdn.com/files/2019/02/05/KOrg%20full%20image.jpg",
+            "source_url": "https://www.guitarristas.info/reviews/analisis-multiefectos-korg-ax3g-video/53",
+            "caption": "Korg AX3G top-down promotional image — illuminated display",
+            "note": "Straight top-down product image with AX3G label, effect chart and complete footswitches. Display and switch indicators are shown illuminated; this is a promotional image, not proof of a running hardware test or particular firmware version.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "05a8c4277e5f2637799f16a7031fb2411d91130e275494da0b4d8843ec9e4c28"
+          },
+          "rear": {
+            "image_url": "https://www.mitrosmusic.com/media/inlineimage/upload_11883_1.jpg",
+            "source_url": "https://www.mitrosmusic.com/proizvod/9550-Korg-AX3G/",
+            "caption": "Korg AX3G rear ports",
+            "note": "Straight rear product photograph shows DC input, INPUT, OUTPUT and PEDAL sockets plus cable hook. Labels are low contrast at this resolution; model identity relies on the exact AX3G retailer page and matching chassis. No USB/MIDI connector is visible. Higher-resolution label detail remains desirable.",
+            "visual_checked": true,
+            "sha256": "3302d420fce5051be5c49af479bd12fa6849e21ec0a2e8eb9fff92eb7ca0bce5"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX3B"
+    "last_model": "Korg::AX3G"
   }
 }
