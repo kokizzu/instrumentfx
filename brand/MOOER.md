@@ -3852,6 +3852,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::PE100 ends -->
 
+<!-- model-images:MOOER::PE100 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER PE100 powered-on top view**
+
+[![MOOER PE100 powered-on top view](https://mooer.jp/cdn/shop/products/imgrc0075139607.jpg?v=1648210819&width=1445)](https://mooer.jp/cdn/shop/products/imgrc0075139607.jpg?v=1648210819&width=1445)
+
+[Image source](https://mooer.jp/products/mooerpe100). Visually inspected powered-on face view: illuminated PREAMP OD display, effect-chain labels and touch controls. This is a slightly oblique near-overhead product photograph; a strictly perpendicular overhead photograph remains pending.
+
+**MOOER PE100 rear ports**
+
+[![MOOER PE100 rear ports](https://mooer.jp/cdn/shop/products/PE100_4.jpg?v=1667197601&width=1445)](https://mooer.jp/cdn/shop/products/PE100_4.jpg?v=1667197601&width=1445)
+
+[Image source](https://mooer.jp/products/mooerpe100). Visually inspected complete rear connector view: INPUT, OUTPUT, AUX IN, PHONES and DC9V 300mA labels. No USB, MIDI or external expression connector is shown.
+
+</details>
+<!-- model-images:MOOER::PE100 ends -->
+
+
 Portable desktop guitar multi-effects; first pass checked **2026-10-17**. Separate from GE100 and ordinary single-function pedals. Bass suitability is unresolved; no vocal processing claim. No ownership is inferred from discovery.
 
 <!-- comparison evidence begins -->
