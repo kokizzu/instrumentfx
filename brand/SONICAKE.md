@@ -435,6 +435,26 @@ Sources checked:
 
 <!-- firmware-pitch:Sonicake::Matribox QME-50 ends -->
 
+<!-- model-images:Sonicake::Matribox QME-50 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Original Matribox powered top view**
+
+[![Original Matribox powered top view](https://instation.co.kr/web/product/big/202506/eecc71b224e358f773a3e9b5befe554a.jpg)](https://instation.co.kr/web/product/big/202506/eecc71b224e358f773a3e9b5befe554a.jpg)
+
+[Image source](https://instation.co.kr/product/sonicake-%EC%86%8C%EB%8B%88%EC%BC%80%EC%9D%B4%ED%81%AC-matribox-qme-50/15118/). Visually inspected original two-footswitch Matribox with lit color screen, five rotaries, four buttons and built-in expression. Near-overhead marketing image has slight perspective; exact perpendicular overhead remains unverified. Not Matribox II or II Pro; firmware cannot be identified from image.
+
+**Original Matribox rear ports**
+
+[![Original Matribox rear ports](https://sonicake.com.br/cdn/shop/products/image_1deda1a2-ddfa-4d02-bd52-e74e9c062139_900x.jpg?v=1703538525)](https://sonicake.com.br/cdn/shop/products/image_1deda1a2-ddfa-4d02-bd52-e74e9c062139_900x.jpg?v=1703538525)
+
+[Image source](https://sonicake.com.br/products/lancamento-sonicake-matribox_pedaleira-de-guitarra-baixo-com-pedal-de-expressao_looper_ir_usb_aux-qme-50). Visually inspected rear diagram/photo: INPUT, OUTPUT R and L(MONO), AUX IN, separate PHONES, USB-C-shaped connector and DC9V500mA center-negative marking. L(MONO) is an output label, not a physical mono switch. No dedicated EXP, MIDI DIN or effects-loop sockets shown; USB capabilities are separately documented by the manual.
+
+</details>
+<!-- model-images:Sonicake::Matribox QME-50 ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Existing review2026-10-14.** Original Matribox, not II or II Pro.
