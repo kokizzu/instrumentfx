@@ -680,6 +680,33 @@ Original source blobs, in model order: TANK-G `7292950b71ecd203a7fc17d7646b3b142
 
 ## MINI-X
 
+<!-- firmware-pitch:M-VAVE::MINI-X begins -->
+### Firmware and pitch audit — M-VAVE MINI-X
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer New Product Release video located, but exact publication date was not established in current access. Previously recorded January 2025 FCC manual exhibit is regulatory evidence, not a verified first-sale or introduction date. [launch 1](https://www.youtube.com/watch?v=MuOlmMLJsrw) [launch 2](https://fccid.io/2ARCP-MINI-X/User-Manual/User-manual-7998955) |
+| Firmware / latest verification | Not verified — No public firmware located. Current manufacturer download index has no MINI-X firmware entry or model-specific updater support. Exact product detail currently returns shell. No public device firmware version/date found; USB OTG recording and generic third-party update advice do not establish an update path. This is not a claim that internal firmware is absent or permanently unupdateable. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://www.m-vave.com/product?id=mini-x) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Exact-model operating description enumerates nine amp tones, Chorus/Phaser/Tremolo MOD and Reverb/Delay/Delay+Reverb SPACE. No dedicated transpose, harmony, octave or configurable pitch-shifting effect documented. Chorus modulation is not evidence of chord transposition; polyphonic pitch tracking and shift ranges are inapplicable to the established library. [pitch 1](https://www.manualslib.com/manual/4380601/M-Vave-Mini-X.html?page=2) [pitch 2](https://www.manualslib.com/manual/4380601/M-Vave-Mini-X.html?page=3) |
+| Pitch / preset recall | Panel-controlled amp/MOD/SPACE selection; nine amp positions are not nine saved multi-effect presets. No addressable patch bank or pitch preset established, and power-off retention remains unverified. No external expression path documented. |
+| Pitch / DSP resources | No per-effect DSP resource meter, percentage, pitch cost or latency measurement found. Fixed amp/modulation/ambience stages are not freely assignable heavy-effect slots. No sibling 40% system-performance claim transferred. |
+| Pitch / qualifications | Importer-authored 25-page MINI-X manual mirror, English pp2–3, now exposes complete numbered controls and technical table as text. This supplements rather than reclassifies earlier Sinco FCC evidence; no new original-FCC visual verification. Importer table states 84.5×44.5×40 mm L×W×H, 65 g, 780mAh/3.7V, about100mA, 44.1kHz/24-bit, quarter-inch TS input and eighth-inch stereo output. Revision equivalence and USB operation remain untested. MASTER explicitly excludes Bluetooth music in this importer manual. No generated retailer FAQ used to establish firmware/IR support, no device test or application installation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Current M-VAVE software and firmware index](https://www.m-vave.com/download) — No MINI-X firmware entry or explicit compatible updater located. (Official complete index read as text).
+- [Manufacturer MINI-X detail](https://www.m-vave.com/product?id=mini-x) — No firmware/date conclusion from inaccessible detail body. (Direct opening returns navigation/footer shell).
+- [MINI-X importer operating manual English page 2](https://www.manualslib.com/manual/4380601/M-Vave-Mini-X.html?page=2) — Technical table and introduction; independent provenance from original Sinco filing. (DanMusicPartner-authored exact-model manual on ManualsLib; text read).
+- [MINI-X importer operating manual English page 3](https://www.manualslib.com/manual/4380601/M-Vave-Mini-X.html?page=3) — Nine amp positions, three MOD and SPACE modes; MASTER excludes BT; no pitch or patch-bank feature. (Exact-model numbered controls/effect description read).
+- [M-VAVE MINI-X new-product release video](https://www.youtube.com/watch?v=MuOlmMLJsrw) — Release lead only, not accepted as a dated first launch. (Manufacturer title indexed; exact date unresolved; direct fetch fails).
+- [Previously recorded Sinco MINI-X FCC manual exhibit](https://fccid.io/2ARCP-MINI-X/User-Manual/User-manual-7998955) — January 2025 regulatory exhibit is not launch date. (Historical verified provenance retained; not reopened as manual pages this pass).
+
+<!-- firmware-pitch:M-VAVE::MINI-X ends -->
+
 <!-- comparison evidence begins -->
 
 **Existing owner-history profile,2026-10-15. Headphone-format multi-effects,not a floorboard.** Two purchase notifications represent one model,not two entries.
