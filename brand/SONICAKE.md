@@ -186,6 +186,32 @@ The matching QDS-02 leaflet transcription was rechecked:no complete connector ce
 
 ## Matribox II Pro QME-200
 
+<!-- firmware-pitch:Sonicake::Matribox II Pro QME-200 begins -->
+### Firmware and pitch audit — Sonicake Matribox II Pro QME-200
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-09 (contemporaneous introduction month; exact first sale unverified). September20,2024 launch coverage establishes introduction month, not exact first customer shipment. Manual upload and regional retailer dates are not substituted. [launch 1](https://www.musicradar.com/guitars/the-new-touchscreen-brings-a-more-intuitive-operation-experience-and-more-pedals-and-interfaces-bring-more-controllability-sonicake-upgrades-its-flagship-amp-modeller-and-effects-with-the-matribox-pro-ii-and-its-just-dollar299) |
+| Firmware / latest verification | 1.2.2 — Latest verified. Current manufacturer-listed firmware1.2.2; release note provides no release date. AddsGate3,HarmonyD,PitchS,EkoD,IceDelay,Haze,AUX level,globaltempo andJapanese; tuner optimized. Update using initial desktop1.0.0, then latest editor1.3.1 for regular use; recalibrate expression. Desktop1.3.1 A2 support is not a newer device firmware. [firmware 1](https://www.sonicake.com/pages/matribox-ii-pro-software-firmware-1) [firmware 2](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_PRO_Release_Note_5b928021-e0a4-4625-bff7-bac71eafb2de.pdf?v=1777710672) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Manual FREQ section identifies Octaver,Dual Melody andPitch as polyphonic. Firmware1.2.2 adds Harmony D,monophonic automatic harmony with two generated voices,andPitch S,Whammy-style monophonic shifting recommended with expression. Algorithm-specific claims; no blanket polyphonic classification for all pitch effects. [pitch 1](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_PRO_Release_Note_5b928021-e0a4-4625-bff7-bac71eafb2de.pdf?v=1777710672) [pitch 2](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf) [pitch 3](https://www.hotone.jp/brands/sonicake/products/matribox-ii-pro) |
+| Pitch / preset recall | 240 locations including120factory. Pitch uses FREQ-category algorithms in saved presets; built-in expression A/B andexternal control supported. Matribox II presets are not interchangeable. Exact preset-global transposition persistence and protected/writable allocation remain unverified. |
+| Pitch / DSP resources | No isolated pitch CPU percentage or measured DSP cost found. Twelve simultaneous modules is the overall structural limit; FREQ choice and repeated module support do not establish an unlimited number of pitch instances or their CPU cost. |
+| Pitch / qualifications | Japanese manual cover saysfirmware1.1.1 but body includesClone introduced by1.1.4; preserve this revision conflict. Current English1.2.2 PDF exceeded browser size limit; no new full-PDF visual test claimed. No hardware tracking,latency or DSP benchmark. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Matribox II Pro downloads](https://www.sonicake.com/pages/matribox-ii-pro-software-firmware-1) — Firmware1.2.2/editor1.3.1 distinct; updater1.0.0 andcalibration required. (Manufacturer/distributor source checked2026-11-22).
+- [Matribox II Pro firmware release notes](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_PRO_Release_Note_5b928021-e0a4-4625-bff7-bac71eafb2de.pdf?v=1777710672) — Undated1.2.2 namedadditions; HarmonyD/PitchS explicitlymonophonic. (Manufacturer/distributor source checked2026-11-22).
+- [Official Japanese Pro manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf) — Printedp23 FREQ: polyphonicOctaver,DualMelody,Pitch; revisionconflictretained. (Manufacturer/distributor source checked2026-11-22).
+- [Official regional Pro specification](https://www.hotone.jp/brands/sonicake/products/matribox-ii-pro) — Twelvemodules,240locations120factory,sixfootswitches. (Manufacturer/distributor source checked2026-11-22).
+- [Contemporaneous Pro introduction coverage](https://www.musicradar.com/guitars/the-new-touchscreen-brings-a-more-intuitive-operation-experience-and-more-pedals-and-interfaces-bring-more-controllability-sonicake-upgrades-its-flagship-amp-modeller-and-effects-with-the-matribox-pro-ii-and-its-just-dollar299) — September20,2024 introduction coverage,used only for launchmonth. (Contemporaneous press date checked2026-11-22).
+
+<!-- firmware-pitch:Sonicake::Matribox II Pro QME-200 ends -->
+
 <!-- comparison evidence begins -->
 
 **Existing review2026-10-14.** Not interchangeable with Matribox II presets.

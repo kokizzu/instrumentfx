@@ -198830,6 +198830,79 @@
           "label": "2.76–2.84 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Sonicake::Matribox II Pro QME-200": {
+        "model_key": "Sonicake::Matribox II Pro QME-200",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2024-09",
+          "precision": "month",
+          "kind": "contemporaneous introduction month; exact first sale unverified",
+          "source_urls": [
+            "https://www.musicradar.com/guitars/the-new-touchscreen-brings-a-more-intuitive-operation-experience-and-more-pedals-and-interfaces-bring-more-controllability-sonicake-upgrades-its-flagship-amp-modeller-and-effects-with-the-matribox-pro-ii-and-its-just-dollar299"
+          ],
+          "note": "September20,2024 launch coverage establishes introduction month, not exact first customer shipment. Manual upload and regional retailer dates are not substituted."
+        },
+        "firmware": {
+          "version": "1.2.2",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.sonicake.com/pages/matribox-ii-pro-software-firmware-1",
+            "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_PRO_Release_Note_5b928021-e0a4-4625-bff7-bac71eafb2de.pdf?v=1777710672"
+          ],
+          "note": "Current manufacturer-listed firmware1.2.2; release note provides no release date. AddsGate3,HarmonyD,PitchS,EkoD,IceDelay,Haze,AUX level,globaltempo andJapanese; tuner optimized. Update using initial desktop1.0.0, then latest editor1.3.1 for regular use; recalibrate expression. Desktop1.3.1 A2 support is not a newer device firmware."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Manual FREQ section identifies Octaver,Dual Melody andPitch as polyphonic. Firmware1.2.2 adds Harmony D,monophonic automatic harmony with two generated voices,andPitch S,Whammy-style monophonic shifting recommended with expression. Algorithm-specific claims; no blanket polyphonic classification for all pitch effects.",
+          "preset": "240 locations including120factory. Pitch uses FREQ-category algorithms in saved presets; built-in expression A/B andexternal control supported. Matribox II presets are not interchangeable. Exact preset-global transposition persistence and protected/writable allocation remain unverified.",
+          "dsp": "No isolated pitch CPU percentage or measured DSP cost found. Twelve simultaneous modules is the overall structural limit; FREQ choice and repeated module support do not establish an unlimited number of pitch instances or their CPU cost.",
+          "source_urls": [
+            "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_PRO_Release_Note_5b928021-e0a4-4625-bff7-bac71eafb2de.pdf?v=1777710672",
+            "https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf",
+            "https://www.hotone.jp/brands/sonicake/products/matribox-ii-pro"
+          ],
+          "measurements": [],
+          "notes": [
+            "Japanese manual cover saysfirmware1.1.1 but body includesClone introduced by1.1.4; preserve this revision conflict. Current English1.2.2 PDF exceeded browser size limit; no new full-PDF visual test claimed. No hardware tracking,latency or DSP benchmark."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sonicake.com/pages/matribox-ii-pro-software-firmware-1",
+            "title": "Matribox II Pro downloads",
+            "access": "Manufacturer/distributor source checked2026-11-22",
+            "evidence": "Firmware1.2.2/editor1.3.1 distinct; updater1.0.0 andcalibration required."
+          },
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_PRO_Release_Note_5b928021-e0a4-4625-bff7-bac71eafb2de.pdf?v=1777710672",
+            "title": "Matribox II Pro firmware release notes",
+            "access": "Manufacturer/distributor source checked2026-11-22",
+            "evidence": "Undated1.2.2 namedadditions; HarmonyD/PitchS explicitlymonophonic."
+          },
+          {
+            "url": "https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf",
+            "title": "Official Japanese Pro manual",
+            "access": "Manufacturer/distributor source checked2026-11-22",
+            "evidence": "Printedp23 FREQ: polyphonicOctaver,DualMelody,Pitch; revisionconflictretained."
+          },
+          {
+            "url": "https://www.hotone.jp/brands/sonicake/products/matribox-ii-pro",
+            "title": "Official regional Pro specification",
+            "access": "Manufacturer/distributor source checked2026-11-22",
+            "evidence": "Twelvemodules,240locations120factory,sixfootswitches."
+          },
+          {
+            "url": "https://www.musicradar.com/guitars/the-new-touchscreen-brings-a-more-intuitive-operation-experience-and-more-pedals-and-interfaces-bring-more-controllability-sonicake-upgrades-its-flagship-amp-modeller-and-effects-with-the-matribox-pro-ii-and-its-just-dollar299",
+            "title": "Contemporaneous Pro introduction coverage",
+            "access": "Contemporaneous press date checked2026-11-22",
+            "evidence": "September20,2024 introduction coverage,used only for launchmonth."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -198854,7 +198927,6 @@
       "Sonicake::B Factory QDS-05",
       "Sonicake::Black Hammer QCE-30",
       "Sonicake::Levitate QDS-02",
-      "Sonicake::Matribox II Pro QME-200",
       "Sonicake::RockStage QCE-10",
       "Sonicake::Sonic Wood QCE-50",
       "Soran::Dual Stomp",
@@ -198988,9 +199060,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 249,
-    "last_model": "Sonicake::Matribox II QME-100",
-    "last_commit_parent": "52df0ee3694497ec787c12e26ec676bbf1f4e14a",
+    "completed_model_count": 250,
+    "last_model": "Sonicake::Matribox II Pro QME-200",
+    "last_commit_parent": "a362c6cc32a1442479b41a557ecc9c2458eeccd7",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -199014,7 +199086,6 @@
       "Sonicake::B Factory QDS-05",
       "Sonicake::Black Hammer QCE-30",
       "Sonicake::Levitate QDS-02",
-      "Sonicake::Matribox II Pro QME-200",
       "Sonicake::RockStage QCE-10",
       "Sonicake::Sonic Wood QCE-50",
       "Soran::Dual Stomp",
@@ -199147,7 +199218,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 249,
+    "pitch_completed_model_count": 250,
     "supplemental_model_count": 0
   },
   "model_images": {
