@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
+    "requested_url": "https://static.roland.com/assets/media/pdf/VE-5_OM.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 13,
+    "frame": 16,
     "text_pages": [
-      11,
-      11
+      12,
+      12
     ],
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",
@@ -184598,10 +184598,81 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::VE-5": {
+        "model_key": "BOSS::VE-5",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2012-03-21",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2012/1454/",
+            "https://www.boss.info/us/whats_new/press_releases/2012/1507/",
+            "https://www.roland.com/us/company/press_releases/2012/"
+          ],
+          "note": "Announcement proxy, not shipment. US shipping notice body says June 4, 2012, while archive dates that notice June 1; exact first shipment unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/ve-5/"
+          ],
+          "note": "Current model support lists manuals, not a device system program; updates URL inaccessible and targeted manufacturer search found VE-500 firmware, not VE-5. Device version/date and update span unknown; internal revisions not ruled out."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "One added key-based harmony part within −1…+1 octave, Double or Unison. Pitch Correct: Soft, Hard, Electric 1, Electric 2 and Robot; chromatic or key-based scale, octave and gender controls. Input-note polyphony unverified.",
+          "preset": "50 writable sound locations; 01–30 factory-filled. Favorite A–C recall assignments are not three additional sound locations.",
+          "dsp": "Six independently switchable fixed stages: Dynamics, Pitch Correct, Tone/SFX, Double/Harmony, Delay and Reverb. Double and harmony share a stage. No per-algorithm CPU percentage or freely allocated pitch-slot budget published in checked material.",
+          "measurements": [],
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/VE-5_OM.pdf"
+          ],
+          "notes": [
+            "One generated harmony part does not establish input polyphony. Do not transfer VE-20 two-part architecture or VE-2 input restrictions."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2012/1454/",
+            "title": "BOSS announces VE-5 Vocal Performer",
+            "access": "Manufacturer press release web text",
+            "evidence": "March 21, 2012 announcement, planned late-spring availability."
+          },
+          {
+            "url": "https://www.boss.info/us/whats_new/press_releases/2012/1507/",
+            "title": "BOSS VE-5 now shipping",
+            "access": "Manufacturer press release web text",
+            "evidence": "Body dated June 4, 2012 says now available."
+          },
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2012/",
+            "title": "Roland 2012 press-release archive",
+            "access": "Manufacturer archive web text",
+            "evidence": "Dates VE-5 shipping notice June 1, 2012; retained discrepancy."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/ve-5/",
+            "title": "VE-5 support",
+            "access": "Manufacturer current support index web text",
+            "evidence": "English/Chinese manuals; no device system-program entry."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/VE-5_OM.pdf",
+            "title": "BOSS VE-5 Owner Manual",
+            "access": "Manufacturer PDF downloaded and selected pages extracted as text; no new visual inspection claimed",
+            "evidence": "Page 13: six independently switchable stages, 50 sounds and Favorites; pages 16–17: correction modes, octave, gender and single harmony part. PDF SHA256 b864fb64996f53c8939f28b61e2a1d906c55dc4550eb43d77e4947746424c4d9."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::VE-5",
       "BOSS::VE-500",
       "BOSS::VE-8",
       "CUVAVE::H8",
@@ -184936,12 +185007,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 69,
-    "last_model": "BOSS::VE-22",
-    "last_commit_parent": "e2e733515e3e8f280b68b2d8f99908b49255d3e3",
+    "completed_model_count": 70,
+    "last_model": "BOSS::VE-5",
+    "last_commit_parent": "a04679402a399038ad008dba44606da961c5274d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::VE-5",
       "BOSS::VE-500",
       "BOSS::VE-8",
       "CUVAVE::H8",
@@ -185275,7 +185345,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 69,
+    "pitch_completed_model_count": 70,
     "supplemental_model_count": 0
   }
 }

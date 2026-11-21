@@ -6701,6 +6701,32 @@ GuitarTHRU is unchanged;guitar audio is absent from XLR,PHONES/LINE andUSB recor
 
 ## VE-5
 
+<!-- firmware-pitch:BOSS::VE-5 begins -->
+### Firmware and pitch audit — BOSS VE-5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2012-03-21 (manufacturer announcement proxy). Announcement proxy, not shipment. US shipping notice body says June 4, 2012, while archive dates that notice June 1; exact first shipment unresolved. [launch 1](https://www.roland.com/us/company/press_releases/2012/1454/) [launch 2](https://www.boss.info/us/whats_new/press_releases/2012/1507/) [launch 3](https://www.roland.com/us/company/press_releases/2012/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current model support lists manuals, not a device system program; updates URL inaccessible and targeted manufacturer search found VE-500 firmware, not VE-5. Device version/date and update span unknown; internal revisions not ruled out. [firmware 1](https://www.boss.info/global/support/by_product/ve-5/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. One added key-based harmony part within −1…+1 octave, Double or Unison. Pitch Correct: Soft, Hard, Electric 1, Electric 2 and Robot; chromatic or key-based scale, octave and gender controls. Input-note polyphony unverified. [pitch 1](https://static.roland.com/assets/media/pdf/VE-5_OM.pdf) |
+| Pitch / preset recall | 50 writable sound locations; 01–30 factory-filled. Favorite A–C recall assignments are not three additional sound locations. |
+| Pitch / DSP resources | Six independently switchable fixed stages: Dynamics, Pitch Correct, Tone/SFX, Double/Harmony, Delay and Reverb. Double and harmony share a stage. No per-algorithm CPU percentage or freely allocated pitch-slot budget published in checked material. |
+| Pitch / qualifications | One generated harmony part does not establish input polyphony. Do not transfer VE-20 two-part architecture or VE-2 input restrictions. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS announces VE-5 Vocal Performer](https://www.roland.com/us/company/press_releases/2012/1454/) — March 21, 2012 announcement, planned late-spring availability. (Manufacturer press release web text).
+- [BOSS VE-5 now shipping](https://www.boss.info/us/whats_new/press_releases/2012/1507/) — Body dated June 4, 2012 says now available. (Manufacturer press release web text).
+- [Roland 2012 press-release archive](https://www.roland.com/us/company/press_releases/2012/) — Dates VE-5 shipping notice June 1, 2012; retained discrepancy. (Manufacturer archive web text).
+- [VE-5 support](https://www.boss.info/global/support/by_product/ve-5/) — English/Chinese manuals; no device system-program entry. (Manufacturer current support index web text).
+- [BOSS VE-5 Owner Manual](https://static.roland.com/assets/media/pdf/VE-5_OM.pdf) — Page 13: six independently switchable stages, 50 sounds and Favorites; pages 16–17: correction modes, octave, gender and single harmony part. PDF SHA256 b864fb64996f53c8939f28b61e2a1d906c55dc4550eb43d77e4947746424c4d9. (Manufacturer PDF downloaded and selected pages extracted as text; no new visual inspection claimed).
+
+<!-- firmware-pitch:BOSS::VE-5 ends -->
+
 Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Ownershipunknown. Noestablished independentguitar/bass processing.
 
 | Field | Finding / qualification | Evidence |
