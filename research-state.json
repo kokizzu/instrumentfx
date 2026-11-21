@@ -193684,6 +193684,83 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::GS1000": {
+        "model_key": "MOOER::GS1000",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2025-01-16",
+          "precision": "day",
+          "kind": "manufacturer_overview_index_proxy",
+          "source_urls": [
+            "https://www.effectsdatabase.com/model/mooer/gs1000",
+            "https://www.youtube.com/watch?v=xWFxq2uiq1k"
+          ],
+          "note": "Official MOOER overview indexed 2025-01-16. Public launch proxy; first retail shipment unresolved. Index page creation in April is separate."
+        },
+        "firmware": {
+          "version": "1.3.0",
+          "date": "2026-07-28",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/Downloads_xq/7.html",
+            "https://cn.mooeraudio.com/Downloads_xq/5.html"
+          ],
+          "note": "English exact-model firmware changelog dates GS1000 1.3.0 and adds native NAM A2 Lite loading; A1 requires conversion. Chinese page lists the matching package/date. Payload not independently inspected. Uniform September upload times and Cloud/USB-driver versions are separate. Earlier 1.2.7 dates conflict: English July 14 versus Chinese June 20, 2026; latest 1.3.0 date agrees."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Manual explicitly identifies Poly Shift as poly pitch shifting, ±1 octave; also Detune, Octave and Harmony. Poly classification applies to Poly Shift. Chinese 1.2.5 firmware notes fix transition noise and stepped pitch-pedal response; effectiveness not hardware-tested.",
+          "preset": "200 slots. SAVE stores the chain, on/off states, parameters, I/O and expression settings. Sub-Patch grouping documented; exact held-pedal recall untested.",
+          "dsp": "Fourteen chain positions allow repeated modules within DSP limits. Module presence reserves DSP regardless of bypass or settings; unavailable additions gray out. Total meter updates lag; near 100% risks transient clipping. No isolated Poly Shift percentage located.",
+          "source_urls": [
+            "https://device.report/m/20328f54c51d8337935d5fb4a2ad9307be9c4b2c8e9326dd00493c888879eac6",
+            "https://cn.mooeraudio.com/Downloads_xq/5.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Joint manufacturer GS1000/GS1000 Li manual body read on mirror. No hardware quality, latency or DSP measurements."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.effectsdatabase.com/model/mooer/gs1000",
+            "title": "GS1000 official-video publication index",
+            "access": "Exact-model index read",
+            "evidence": "Official overview indexed 2025-01-16; page creation is later."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=xWFxq2uiq1k",
+            "title": "MOOER GS1000 Official Overview Video",
+            "access": "Official-channel indexed identity and description read",
+            "evidence": "Exact overview linked from dated index."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/7.html",
+            "title": "GS1000 English firmware downloads and notes",
+            "access": "Manufacturer exact-model changelog read",
+            "evidence": "Device 1.3.0 dated 2026-07-28; native A2 Lite, converted A1."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/Downloads_xq/5.html",
+            "title": "GS1000 Chinese firmware downloads and notes",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "1.3.0 date agrees; 1.2.5 device section includes Poly Shift fixes; 1.2.7 date differs."
+          },
+          {
+            "url": "https://device.report/m/20328f54c51d8337935d5fb4a2ad9307be9c4b2c8e9326dd00493c888879eac6",
+            "title": "GS1000/GS1000 Li Owner’s Manual",
+            "access": "Manufacturer-authored extracted body read on mirror",
+            "evidence": "Poly Shift range; 200 slots; SAVE; 14 positions; DSP reservation and Sub-Patch."
+          }
+        ],
+        "duration": {
+          "minimum_days": 558,
+          "maximum_days": 558,
+          "label": "1.53 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -193721,7 +193798,6 @@
       "MOOER::GE150 Plus Li",
       "MOOER::GE150 Pro",
       "MOOER::GE150 Pro Li",
-      "MOOER::GS1000",
       "MOOER::GS1000 Li",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
@@ -193902,9 +193978,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 189,
-    "last_model": "MOOER::GE200 Plus Li",
-    "last_commit_parent": "73f8ab477b8de52a46ab5f286517370df68b52a0",
+    "completed_model_count": 190,
+    "last_model": "MOOER::GS1000",
+    "last_commit_parent": "4080ef7cb44505e7b3c5193dc77c6dd5cfed598e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -193941,7 +194017,6 @@
       "MOOER::GE150 Plus Li",
       "MOOER::GE150 Pro",
       "MOOER::GE150 Pro Li",
-      "MOOER::GS1000",
       "MOOER::GS1000 Li",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
@@ -194121,7 +194196,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 189,
+    "pitch_completed_model_count": 190,
     "supplemental_model_count": 0
   },
   "model_images": {

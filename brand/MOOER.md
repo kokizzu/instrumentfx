@@ -3052,6 +3052,32 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 
 ## GS1000
 
+<!-- firmware-pitch:MOOER::GS1000 begins -->
+### Firmware and pitch audit — MOOER GS1000
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025-01-16 (manufacturer overview index proxy). Official MOOER overview indexed 2025-01-16. Public launch proxy; first retail shipment unresolved. Index page creation in April is separate. [launch 1](https://www.effectsdatabase.com/model/mooer/gs1000) [launch 2](https://www.youtube.com/watch?v=xWFxq2uiq1k) |
+| Firmware / latest verification | 1.3.0 — Located; latest status unverified. English exact-model firmware changelog dates GS1000 1.3.0 and adds native NAM A2 Lite loading; A1 requires conversion. Chinese page lists the matching package/date. Payload not independently inspected. Uniform September upload times and Cloud/USB-driver versions are separate. Earlier 1.2.7 dates conflict: English July 14 versus Chinese June 20, 2026; latest 1.3.0 date agrees. [firmware 1](https://www.mooeraudio.com/Downloads_xq/7.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/5.html) |
+| Firmware / release date | 2026-07-28 (day precision) |
+| Firmware / release-to-update duration | 1.53 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Manual explicitly identifies Poly Shift as poly pitch shifting, ±1 octave; also Detune, Octave and Harmony. Poly classification applies to Poly Shift. Chinese 1.2.5 firmware notes fix transition noise and stepped pitch-pedal response; effectiveness not hardware-tested. [pitch 1](https://device.report/m/20328f54c51d8337935d5fb4a2ad9307be9c4b2c8e9326dd00493c888879eac6) [pitch 2](https://cn.mooeraudio.com/Downloads_xq/5.html) |
+| Pitch / preset recall | 200 slots. SAVE stores the chain, on/off states, parameters, I/O and expression settings. Sub-Patch grouping documented; exact held-pedal recall untested. |
+| Pitch / DSP resources | Fourteen chain positions allow repeated modules within DSP limits. Module presence reserves DSP regardless of bypass or settings; unavailable additions gray out. Total meter updates lag; near 100% risks transient clipping. No isolated Poly Shift percentage located. |
+| Pitch / qualifications | Joint manufacturer GS1000/GS1000 Li manual body read on mirror. No hardware quality, latency or DSP measurements. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [GS1000 official-video publication index](https://www.effectsdatabase.com/model/mooer/gs1000) — Official overview indexed 2025-01-16; page creation is later. (Exact-model index read).
+- [MOOER GS1000 Official Overview Video](https://www.youtube.com/watch?v=xWFxq2uiq1k) — Exact overview linked from dated index. (Official-channel indexed identity and description read).
+- [GS1000 English firmware downloads and notes](https://www.mooeraudio.com/Downloads_xq/7.html) — Device 1.3.0 dated 2026-07-28; native A2 Lite, converted A1. (Manufacturer exact-model changelog read).
+- [GS1000 Chinese firmware downloads and notes](https://cn.mooeraudio.com/Downloads_xq/5.html) — 1.3.0 date agrees; 1.2.5 device section includes Poly Shift fixes; 1.2.7 date differs. (Manufacturer exact-model page read).
+- [GS1000/GS1000 Li Owner’s Manual](https://device.report/m/20328f54c51d8337935d5fb4a2ad9307be9c4b2c8e9326dd00493c888879eac6) — Poly Shift range; 200 slots; SAVE; 14 positions; DSP reservation and Sub-Patch. (Manufacturer-authored extracted body read on mirror).
+
+<!-- firmware-pitch:MOOER::GS1000 ends -->
+
 **Checked 2026-10-16; partial standard-model profile.** GS1000 uses an external supply; **GS1000 Li is a separate battery variant**, now recorded in its [own comparison](#gs1000-li). The manufacturer manual covers both and explicitly separates current rating and mass. Guitar/bass and independent live microphone processing qualify this model for all three instrument views; acoustic instrument mic+line use does not establish a dedicated acoustic simulator or vocal harmony. [Original manual][GS-M] and [regional exact-model product][GS-J].
 
 ### GS1000 — hardware, expression and display
