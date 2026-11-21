@@ -638,6 +638,26 @@ Sources checked:
 
 <!-- firmware-pitch:HeadRush::Pedalboard ends -->
 
+<!-- model-images:HeadRush::Pedalboard begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**HeadRush Pedalboard powered-on top-down product view**
+
+[![HeadRush Pedalboard powered-on top-down product view](https://www.headrushfx.com/assets/images/pdp/pedalboard/pedalboard-front-0321.png)](https://www.headrushfx.com/assets/images/pdp/pedalboard/pedalboard-front-0321.png)
+
+[Image source](https://www.headrushfx.com/products/pedalboard/index.html). Manufacturer overhead view shows active TANGERINE DREAM rig, twelve illuminated footswitch bars and individual assignment displays, seven knobs and built-in treadle. Gain/Bass/Middle percentages on screen are effect parameters, not DSP utilization. Product screen imagery may be composited.
+
+**HeadRush Pedalboard rear connections**
+
+[![HeadRush Pedalboard rear connections](https://www.headrushfx.com/assets/images/pdp/pedalboard/Headrush-img-PedalboardRearK.png)](https://www.headrushfx.com/assets/images/pdp/pedalboard/Headrush-img-PedalboardRearK.png)
+
+[Image source](https://www.headrushfx.com/products/pedalboard/index.html). Exact original Pedalboard rear view labels INPUT, EXPR 2, AUX IN, paired XLR and jack outputs with GND LIFT and AMP/LINE controls, PHONES, separate right/left SEND and RETURN with RACK/STOMP control, DIN MIDI IN/OUT-THRU, USB-B and POWER. IEC mains inlet is marked AC100–240V 50/60Hz 1.2A. Do not import Prime microphone/USB-A/amp-switch ports or Gigboard barrel-DC supply.
+
+</details>
+<!-- model-images:HeadRush::Pedalboard ends -->
+
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Original HeadRush Pedalboard, distinct from Prime and Gigboard. Bass inclusion rests on its own documented Ampeg SVT/B15 bass models, not a BASS EQ label. Partial record.
 
