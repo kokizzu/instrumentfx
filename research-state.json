@@ -192283,6 +192283,64 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Korg::AX3000B": {
+        "model_key": "Korg::AX3000B",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2005-11-06",
+          "precision": "day",
+          "kind": "announcement_proxy",
+          "source_urls": [
+            "https://sonicstate.com/news/2005/11/06/musiclive-korg-multi-fx-floor-pedal-for-bassists/"
+          ],
+          "note": "Contemporaneous Music Live launch report dated November 6, 2005; availability was still to be confirmed. Introduction proxy, not first verified shipment or worldwide sale."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.korg.com/us/support/download/product/1/27/"
+          ],
+          "note": "Exact support lists manuals/MIDI documentation, Windows Sound Editor 1.01, Mac Sound Editor 1.1 and Extra Preset Program 1.0. These are not device firmware versions. No public firmware package/changelog located; release-to-update span uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD PITCH SHIFTER spans ±24 semitones with ±50-cent fine tuning and separate direct/effect levels. TRACKING 10–150 ms is a user setting, not measured end-to-end latency. Main-shifter polyphony unverified.",
+          "preset": "96 rewritable programs; 32 factory sounds repeat across three bank groups. Effect parameters, pedal target/range and ESS settings are program data. Pedal PITCH control does not edit its underlying stored parameter. Hardware recall untested.",
+          "dsp": "PITCH SHIFTER occupies the single MOD selection. PRE OCTAVE/SYNTH use another stage. No pitch CPU percentage located; the seven-effect chain limit is not a pitch resource percentage.",
+          "source_urls": [
+            "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%3DAX3000B_E1.pdf&response-content-type=application%2Fpdf%3B"
+          ],
+          "measurements": [],
+          "notes": [
+            "Do not transfer single-note restrictions from separate PRE algorithms to MOD PITCH. No measured tracking, latency or CPU results."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://sonicstate.com/news/2005/11/06/musiclive-korg-multi-fx-floor-pedal-for-bassists/",
+            "title": "MusicLive: Korg Multi-FX Floor Pedal For Bassists — November 6, 2005",
+            "access": "Contemporaneous exact-model launch report read",
+            "evidence": "AX3000B introduction, with availability/pricing still to be confirmed."
+          },
+          {
+            "url": "https://www.korg.com/us/support/download/product/1/27/",
+            "title": "Korg AX3000B support downloads",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "Editors, preset data and manuals/MIDI files only; no device firmware listed."
+          },
+          {
+            "url": "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%3DAX3000B_E1.pdf&response-content-type=application%2Fpdf%3B",
+            "title": "AX3000B Owner’s Manual E1",
+            "access": "Manufacturer original PDF text read",
+            "evidence": "MOD pitch range/tracking, 96-slot factory mapping, pedal pitch behavior and stage allocation."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -192292,7 +192350,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::AX3000B",
       "Korg::AX3000G",
       "Korg::AX30G",
       "Korg::PANDORA stomp",
@@ -192518,9 +192575,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 172,
-    "last_model": "Korg::AX1500G",
-    "last_commit_parent": "9a0e5cfc3f735be94472879b884349421f4f2a3e",
+    "completed_model_count": 173,
+    "last_model": "Korg::AX3000B",
+    "last_commit_parent": "c8255d2b9b0300b27b35cbcae63f183e0cf086ba",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -192529,7 +192586,6 @@
       "Kemper::PROFILER PowerRack MK2",
       "Kemper::PROFILER Rack MK2",
       "Kemper::PROFILER Stage MK2",
-      "Korg::AX3000B",
       "Korg::AX3000G",
       "Korg::AX30G",
       "Korg::PANDORA stomp",
@@ -192754,7 +192810,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 172,
+    "pitch_completed_model_count": 173,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -1242,6 +1242,30 @@ The three condition-unverified asks above are not verified new/used market range
 
 ## AX3000B
 
+<!-- firmware-pitch:Korg::AX3000B begins -->
+### Firmware and pitch audit — Korg AX3000B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005-11-06 (announcement proxy). Contemporaneous Music Live launch report dated November 6, 2005; availability was still to be confirmed. Introduction proxy, not first verified shipment or worldwide sale. [launch 1](https://sonicstate.com/news/2005/11/06/musiclive-korg-multi-fx-floor-pedal-for-bassists/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact support lists manuals/MIDI documentation, Windows Sound Editor 1.01, Mac Sound Editor 1.1 and Extra Preset Program 1.0. These are not device firmware versions. No public firmware package/changelog located; release-to-update span uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/27/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD PITCH SHIFTER spans ±24 semitones with ±50-cent fine tuning and separate direct/effect levels. TRACKING 10–150 ms is a user setting, not measured end-to-end latency. Main-shifter polyphony unverified. [pitch 1](https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%3DAX3000B_E1.pdf&response-content-type=application%2Fpdf%3B) |
+| Pitch / preset recall | 96 rewritable programs; 32 factory sounds repeat across three bank groups. Effect parameters, pedal target/range and ESS settings are program data. Pedal PITCH control does not edit its underlying stored parameter. Hardware recall untested. |
+| Pitch / DSP resources | PITCH SHIFTER occupies the single MOD selection. PRE OCTAVE/SYNTH use another stage. No pitch CPU percentage located; the seven-effect chain limit is not a pitch resource percentage. |
+| Pitch / qualifications | Do not transfer single-note restrictions from separate PRE algorithms to MOD PITCH. No measured tracking, latency or CPU results. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MusicLive: Korg Multi-FX Floor Pedal For Bassists — November 6, 2005](https://sonicstate.com/news/2005/11/06/musiclive-korg-multi-fx-floor-pedal-for-bassists/) — AX3000B introduction, with availability/pricing still to be confirmed. (Contemporaneous exact-model launch report read).
+- [Korg AX3000B support downloads](https://www.korg.com/us/support/download/product/1/27/) — Editors, preset data and manuals/MIDI files only; no device firmware listed. (Manufacturer exact-model page read).
+- [AX3000B Owner’s Manual E1](https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%3DAX3000B_E1.pdf&response-content-type=application%2Fpdf%3B) — MOD pitch range/tracking, 96-slot factory mapping, pedal pitch behavior and stage allocation. (Manufacturer original PDF text read).
+
+<!-- firmware-pitch:Korg::AX3000B ends -->
+
 <!-- comparison evidence begins -->
 
 Checked2026-10-18. Bass multi-effects; distinct from AX3000G. Partial record. [Korg E1 manual][AX3B-M],68pages, browser text; no download or hardware test.
