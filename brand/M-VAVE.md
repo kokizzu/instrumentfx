@@ -54,6 +54,26 @@ Sources checked:
 
 <!-- firmware-pitch:M-VAVE::ANN Blackbox ends -->
 
+<!-- model-images:M-VAVE::ANN Blackbox begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**ANN Blackbox powered-on overhead product image**
+
+[![ANN Blackbox powered-on overhead product image](https://tankpedal.com/cdn/shop/files/71vVtRBu_nL._AC_SL1500_195f4804-3751-48c3-b34e-d4bed388563a.jpg?v=1746847690)](https://tankpedal.com/cdn/shop/files/71vVtRBu_nL._AC_SL1500_195f4804-3751-48c3-b34e-d4bed388563a.jpg?v=1746847690)
+
+[Image source](https://tankpedal.com/products/ann-black-pedal-box-multi-effects-guitar-base-pedal-80-editable-presets-with-app-create-your-paremeters-build-in-battery). Straight overhead ANNBLACK BOX image shows lit color P04 display, two knobs, HOME plus six module buttons and two footswitches. Exact model branding visually checked. This is a retailer-hosted product image, not a device test; pictured screen does not establish firmware, touch or polyphonic operation.
+
+**ANN Blackbox rear ports**
+
+[![ANN Blackbox rear ports](https://images.tcdn.com.br/img/img_prod/996132/pedaleira_para_guitarra_m_vave_black_box_com_ir_si_4_20250906134522_8190784f67ef.jpg)](https://images.tcdn.com.br/img/img_prod/996132/pedaleira_para_guitarra_m_vave_black_box_com_ir_si_4_20250906134522_8190784f67ef.jpg)
+
+[Image source](https://www.guaranimusical.com.br/acessorios/para-instrumentos-de-corda/pedais-de-efeito-modulacao-loopers/pedaleira-para-guitarra-m-vave-black-box-com-ir-simulador-portatil-multi-efeitos-bateria-recarregavel). Full rear panel visually checked: power slide, IN, charge indicator, USB-C, OUT and headphone socket. No dedicated EXP, XLR or DIN/TRS MIDI sockets shown. Image proves connector placement, not USB protocols or stereo main-output capability. Rear alone does not establish power state.
+
+</details>
+<!-- model-images:M-VAVE::ANN Blackbox ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-14. Actual manual cover ANNBLACK BOX**,not a blanket profile of every older Blackbox listing.

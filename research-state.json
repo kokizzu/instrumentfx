@@ -202168,11 +202168,37 @@
             "sha256": "06bc8e47420216dcdbd1f24896d5a4a3494344392d0037b0a376151a5f62c36a"
           }
         }
+      },
+      "M-VAVE::ANN Blackbox": {
+        "model_key": "M-VAVE::ANN Blackbox",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://tankpedal.com/cdn/shop/files/71vVtRBu_nL._AC_SL1500_195f4804-3751-48c3-b34e-d4bed388563a.jpg?v=1746847690",
+            "source_url": "https://tankpedal.com/products/ann-black-pedal-box-multi-effects-guitar-base-pedal-80-editable-presets-with-app-create-your-paremeters-build-in-battery",
+            "caption": "ANN Blackbox powered-on overhead product image",
+            "note": "Straight overhead ANNBLACK BOX image shows lit color P04 display, two knobs, HOME plus six module buttons and two footswitches. Exact model branding visually checked. This is a retailer-hosted product image, not a device test; pictured screen does not establish firmware, touch or polyphonic operation.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "819497f65db0f64986df921952ee84a2a59e363fcb68831f73773cbbe6c3cc7d"
+          },
+          "rear": {
+            "image_url": "https://images.tcdn.com.br/img/img_prod/996132/pedaleira_para_guitarra_m_vave_black_box_com_ir_si_4_20250906134522_8190784f67ef.jpg",
+            "source_url": "https://www.guaranimusical.com.br/acessorios/para-instrumentos-de-corda/pedais-de-efeito-modulacao-loopers/pedaleira-para-guitarra-m-vave-black-box-com-ir-simulador-portatil-multi-efeitos-bateria-recarregavel",
+            "caption": "ANN Blackbox rear ports",
+            "note": "Full rear panel visually checked: power slide, IN, charge indicator, USB-C, OUT and headphone socket. No dedicated EXP, XLR or DIN/TRS MIDI sockets shown. Image proves connector placement, not USB protocols or stereo main-output capability. Rear alone does not establish power state.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "fd3b265475beb01c1cacf32894c7b3082e663cfc36febfd0b2e5a348e297f9a9"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::TANK-PRO"
+    "last_model": "M-VAVE::ANN Blackbox"
   }
 }
