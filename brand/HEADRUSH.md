@@ -1481,6 +1481,26 @@ Sources checked:
 
 <!-- firmware-pitch:HeadRush::VX5 ends -->
 
+<!-- model-images:HeadRush::VX5 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**HeadRush VX5 powered-on top-down product view**
+
+[![HeadRush VX5 powered-on top-down product view](https://www.headrushfx.com/assets/images/pdp/vx5/VX5_Top_Down.png)](https://www.headrushfx.com/assets/images/pdp/vx5/VX5_Top_Down.png)
+
+[Image source](https://www.headrushfx.com/products/vx5-autotune/index.html). Manufacturer view from above with slight perspective. Active Hard Tune preset 01 in C Chromatic and illuminated AUTO-TUNE button visible, with four top knobs, five buttons and two footswitches. Product screen imagery may be composited; this is not proof of installed firmware or measured latency.
+
+**HeadRush VX5 rear connections**
+
+[![HeadRush VX5 rear connections](https://www.headrushfx.com/assets/images/pdp/vx5/VX5_Rear.png)](https://www.headrushfx.com/assets/images/pdp/vx5/VX5_Rear.png)
+
+[Image source](https://www.headrushfx.com/products/vx5-autotune/index.html). Manufacturer rear view labels microphone gain and XLR INPUT with +48V switch, XLR OUTPUT with GND/LIFT, small PHONES jack, USB-B, DC IN and POWER. Supply label is 9V 1.0A center-negative barrel; rating is not measured draw. Guitar IN/THRU are side connections, outside this rear view. No expression socket or DIN MIDI connectors shown.
+
+</details>
+<!-- model-images:HeadRush::VX5 ends -->
+
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Vocal multi-effects: independently switchable AutoTune,harmony andFX. Guitar chord detection/thru does not qualify it for guitar multi-effects. Partial record.
 
