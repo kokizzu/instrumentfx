@@ -198470,11 +198470,35 @@
             ]
           }
         }
+      },
+      "MOOER::Prime M1": {
+        "model_key": "MOOER::Prime M1",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/M1-01.png?v=1733372737&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-prime-m1",
+            "caption": "MOOER Prime M1 powered-on top view",
+            "note": "Visually inspected exact gradient-finish Prime M1, overhead with illuminated 2-A preset, battery/Bluetooth indicators and switch/status LEDs. Battery artwork is not a runtime measurement.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "57e97070c21fff5a8f251413ee6bf615d591c97c82318e6cda8dc5f2d41244e4"
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/M1-02.png?v=1733372737&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-prime-m1",
+            "caption": "MOOER Prime M1 rear ports",
+            "note": "Visually inspected complete rear: INPUT, OUTPUT, recessed MASTER thumbwheel, PHONES, USB-C and reset pinhole. No barrel-power, MIDI, external EXP or FX-loop connector is shown; USB functions and power requirements follow the model manual.",
+            "visual_checked": true,
+            "sha256": "c2b9517bab6f05fbc8fefbfb44a71248fe844d1c78da27b8fa0a5cb764265fb3"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::Prime P2"
+    "last_model": "MOOER::Prime M1"
   }
 }

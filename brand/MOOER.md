@@ -3992,6 +3992,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::Prime M1 ends -->
 
+<!-- model-images:MOOER::Prime M1 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER Prime M1 powered-on top view**
+
+[![MOOER Prime M1 powered-on top view](https://mooer.jp/cdn/shop/files/M1-01.png?v=1733372737&width=1445)](https://mooer.jp/cdn/shop/files/M1-01.png?v=1733372737&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-prime-m1). Visually inspected exact gradient-finish Prime M1, overhead with illuminated 2-A preset, battery/Bluetooth indicators and switch/status LEDs. Battery artwork is not a runtime measurement.
+
+**MOOER Prime M1 rear ports**
+
+[![MOOER Prime M1 rear ports](https://mooer.jp/cdn/shop/files/M1-02.png?v=1733372737&width=1445)](https://mooer.jp/cdn/shop/files/M1-02.png?v=1733372737&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-prime-m1). Visually inspected complete rear: INPUT, OUTPUT, recessed MASTER thumbwheel, PHONES, USB-C and reset pinhole. No barrel-power, MIDI, external EXP or FX-loop connector is shown; USB functions and power requirements follow the model manual.
+
+</details>
+<!-- model-images:MOOER::Prime M1 ends -->
+
+
 Checked2026-10-17; partial. Shared guitar/bass multi-effects, distinct from P1/P2/S1/M2. [Official product](https://www.mooeraudio.com/products/211.html); [manufacturer quick manual V02_2024.10.28, distributor mirror](https://www.cavallimusica.com/media/productattach/m/1/m1_manua_en.pdf), all16 pages read as text; no visual verification.
 
 | Field | Finding |
