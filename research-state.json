@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG100/NUX_MG100_UserManualV1_English.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 10,
+    "frame": 2,
     "text_pages": [
       0,
       2
@@ -196083,6 +196083,68 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::MG-200": {
+        "model_key": "NUX::MG-200",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unresolved first hardware release",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=oAPksNmTBEI",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf"
+          ],
+          "note": "Official NUX Sound Clip is indexed April1,2015, proving public existence by that date but not first release. Manual copyright2014 and an earlier October2013 secondary catalogue lead prevent treating the later demo as the first introduction. Exact original availability remains unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://nuxaudio.com/product/mg200/",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf"
+          ],
+          "note": "Current manufacturer legacy support provides the English manual but no firmware binary, release notes or updater. Printed manual p.5 explicitly identifies USB for system updating; update capability is therefore documented despite no located public update. V1 is manual revision, not device firmware. Latest version/date and release-to-update span remain unknown; no update performed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Freshly inspected V1 printed p.12 lists MOD Detune (SHIFT/MIX), Pitchshift (INTERVAL/BALANCE/PAN), Harmonist (KEY/INTERVAL/MIX). Separate expression Whammy mode specifies +1/-1 octave. Pitchshift/Whammy are described as DigiTech Whammy-inspired models, which does not establish which generation or polyphonic tracking. No explicit chord/polyphonic input claim located.",
+          "preset": "36 factory plus36 user presets. Manual p.5 permits editing effects/parameters and saving user presets. CTRL2 accepts external expression or dual footswitch; Whammy is an expression mode. One effect selected per MOD position; do not count expression modes as extra freely insertable audio blocks.",
+          "dsp": "Manual illustrates eight positions NG/CMP/EFX/AMP/EQ/MOD/DLY/RVB. No isolated Detune/Pitchshift/Harmonist DSP percentage, latency or tracking measurement found. Existing total55-versus57 choices conflict is retained. Block count and DSP word size are not pitch utilization.",
+          "source_urls": [
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf",
+            "https://www.youtube.com/watch?v=oAPksNmTBEI"
+          ],
+          "measurements": [],
+          "notes": [
+            "No device or audio test; polyphonic tracking remains unverified.",
+            "Original MG-200 is not MG-100/101/300; newer-series firmware and DSP figures are not transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://nuxaudio.com/product/mg200/",
+            "title": "NUX MG-200 manufacturer legacy support",
+            "access": "Manufacturer page opened2026-11-22",
+            "evidence": "Exact model is marked Legacy Product; English manual download only, no firmware version/date or binary exposed."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf",
+            "title": "NUX MG-200 V1 English owner manual",
+            "access": "Manufacturer PDF retrieved2026-11-22; printed pp.4–5,10–12 visually inspected; SHA256512e3af63630655fd73a01063656e035e71f67b062424288308197a779fb4c34",
+            "evidence": "p.5 USB system updating, preset editing/save and CTRL2 external expression; p.12 Detune/Pitchshift/Harmonist parameters and Whammy +1/-1 octave. No polyphonic or isolated DSP claim on checked pages."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=oAPksNmTBEI",
+            "title": "NUX MG-200 Sound Clip — manufacturer",
+            "access": "Indexed official NUX channel metadata checked2026-11-22; video not watched",
+            "evidence": "PublishedApril1,2015; confirms USB updating and36factory+36user presets. Later demonstration date is not first availability."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -196122,7 +196184,6 @@
       "NUX::Cerberus NME-3",
       "NUX::MFX-10",
       "NUX::MG-20",
-      "NUX::MG-200",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
@@ -196274,9 +196335,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 216,
-    "last_model": "NUX::MG-100",
-    "last_commit_parent": "3b3769bb1e0cb2373b06977f7411272ab63077be",
+    "completed_model_count": 217,
+    "last_model": "NUX::MG-200",
+    "last_commit_parent": "e12b2204ca17a6963a90eb6798ef04f99f5f8344",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -196315,7 +196376,6 @@
       "NUX::Cerberus NME-3",
       "NUX::MFX-10",
       "NUX::MG-20",
-      "NUX::MG-200",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
@@ -196466,7 +196526,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 216,
+    "pitch_completed_model_count": 217,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -1327,6 +1327,30 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg101/) · [Source 2](htt
 
 ## MG-200
 
+<!-- firmware-pitch:NUX::MG-200 begins -->
+### Firmware and pitch audit — NUX MG-200
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Official NUX Sound Clip is indexed April1,2015, proving public existence by that date but not first release. Manual copyright2014 and an earlier October2013 secondary catalogue lead prevent treating the later demo as the first introduction. Exact original availability remains unresolved. [launch 1](https://www.youtube.com/watch?v=oAPksNmTBEI) [launch 2](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. Current manufacturer legacy support provides the English manual but no firmware binary, release notes or updater. Printed manual p.5 explicitly identifies USB for system updating; update capability is therefore documented despite no located public update. V1 is manual revision, not device firmware. Latest version/date and release-to-update span remain unknown; no update performed. [firmware 1](https://nuxaudio.com/product/mg200/) [firmware 2](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Freshly inspected V1 printed p.12 lists MOD Detune (SHIFT/MIX), Pitchshift (INTERVAL/BALANCE/PAN), Harmonist (KEY/INTERVAL/MIX). Separate expression Whammy mode specifies +1/-1 octave. Pitchshift/Whammy are described as DigiTech Whammy-inspired models, which does not establish which generation or polyphonic tracking. No explicit chord/polyphonic input claim located. [pitch 1](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf) [pitch 2](https://www.youtube.com/watch?v=oAPksNmTBEI) |
+| Pitch / preset recall | 36 factory plus36 user presets. Manual p.5 permits editing effects/parameters and saving user presets. CTRL2 accepts external expression or dual footswitch; Whammy is an expression mode. One effect selected per MOD position; do not count expression modes as extra freely insertable audio blocks. |
+| Pitch / DSP resources | Manual illustrates eight positions NG/CMP/EFX/AMP/EQ/MOD/DLY/RVB. No isolated Detune/Pitchshift/Harmonist DSP percentage, latency or tracking measurement found. Existing total55-versus57 choices conflict is retained. Block count and DSP word size are not pitch utilization. |
+| Pitch / qualifications | No device or audio test; polyphonic tracking remains unverified. Original MG-200 is not MG-100/101/300; newer-series firmware and DSP figures are not transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX MG-200 manufacturer legacy support](https://nuxaudio.com/product/mg200/) — Exact model is marked Legacy Product; English manual download only, no firmware version/date or binary exposed. (Manufacturer page opened2026-11-22).
+- [NUX MG-200 V1 English owner manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf) — p.5 USB system updating, preset editing/save and CTRL2 external expression; p.12 Detune/Pitchshift/Harmonist parameters and Whammy +1/-1 octave. No polyphonic or isolated DSP claim on checked pages. (Manufacturer PDF retrieved2026-11-22; printed pp.4–5,10–12 visually inspected; SHA256512e3af63630655fd73a01063656e035e71f67b062424288308197a779fb4c34).
+- [NUX MG-200 Sound Clip — manufacturer](https://www.youtube.com/watch?v=oAPksNmTBEI) — PublishedApril1,2015; confirms USB updating and36factory+36user presets. Later demonstration date is not first availability. (Indexed official NUX channel metadata checked2026-11-22; video not watched).
+
+<!-- firmware-pitch:NUX::MG-200 ends -->
+
 <!-- comparison evidence begins -->
 
 **Preserved review2026-10-14;NUX legacy model.** [Official product](https://nuxaudio.com/product/mg200/); [V1 manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf); [manufacturer photo](https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG200.jpg). Prior review inspected all seven PDF pages,printed3–12,and separately the photo for actual color/controls;no new visual inspection claimed.
