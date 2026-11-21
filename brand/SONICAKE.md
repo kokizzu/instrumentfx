@@ -55,6 +55,29 @@ Checked2026-10-28 against the [manufacturer product/FAQ](https://www.sonicake.co
 
 ## B Factory QDS-05
 
+<!-- firmware-pitch:Sonicake::B Factory QDS-05 begins -->
+### Firmware and pitch audit — Sonicake B Factory QDS-05
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No original launch date supplied by the exact-model official pages. Manual revision/upload dates and mixed-variant marketplace first-available fields are not adopted as hardware launch dates. [launch 1](https://www.sonicake.com/products/b-factory) [launch 2](https://www.hotone.jp/brands/sonicake/products/b-factory) |
+| Firmware / latest verification | Not verified — No public firmware located. Manufacturer documents analog preamp, optical compression, overdrive and EQ; no user firmware version, download or update history located. Firmware-support duration cannot be calculated. [firmware 1](https://www.sonicake.com/products/b-factory) [firmware 2](https://www.hotone.jp/brands/sonicake/products/b-factory) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Analog bass preamp, optical compressor, overdrive/distortion and three-band EQ with PRE/POST selection. No octave, transposition or harmony algorithm documented. [pitch 1](https://www.sonicake.com/products/b-factory) [pitch 2](https://www.hotone.jp/brands/sonicake/products/b-factory) |
+| Pitch / preset recall | Physical controls and effect footswitches; programmable preset banks or pitch recall not documented. |
+| Pitch / DSP resources | No pitch DSP cost applies to the documented analog effect functions; no digital pitch block or allocatable DSP budget is documented. Electrical current is not CPU utilization. |
+| Pitch / qualifications | Do not transfer pitch algorithms or firmware from Sonicake Matribox/SmartBox products. The preserved 70 mA product-page versus 92 mA leaflet-transcription discrepancy is a power specification issue, not DSP load evidence. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [SONICAKE B Factory QDS-05 official product](https://www.sonicake.com/products/b-factory) — Exact QDS-05; analog preamp, optical compression, overdrive, PRE/POST three-band EQ, XLR output; no pitch algorithm or public firmware update documented. (readable official product page).
+- [Hotone Japan B Factory official regional product](https://www.hotone.jp/brands/sonicake/products/b-factory) — Corroborates analog bass preamp/compressor/overdrive and EQ; no launch date, firmware history or pitch processing stated. (readable official regional page).
+
+<!-- firmware-pitch:Sonicake::B Factory QDS-05 ends -->
+
 Checked 2026-10-18; partial bass-focused multi-effects. [Sonicake exact product](https://www.sonicake.com/products/b-factory) (P) identifies QDS-05 and distinct compression,overdrive andpreamp functions;[regional distributor](https://www.hotone.jp/brands/sonicake/products/b-factory) (J) corroborates. No guitar membership inferred.
 
 | Field | Finding / qualification |
