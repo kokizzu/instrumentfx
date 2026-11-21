@@ -485,6 +485,26 @@ Sources checked:
 
 <!-- firmware-pitch:M-VAVE::CUBE BABY BASS ends -->
 
+<!-- model-images:M-VAVE::CUBE BABY BASS begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**CUBE BABY BASS top/rear/underside reference — unlit**
+
+[![CUBE BABY BASS top/rear/underside reference — unlit](https://kzmusicstore.com/cdn/shop/files/S09e702e7c622485b8d0a923c02554ab41.webp?v=1756923517&width=1600)](https://kzmusicstore.com/cdn/shop/files/S09e702e7c622485b8d0a923c02554ab41.webp?v=1756923517&width=1600)
+
+[Image source](https://kzmusicstore.com/products/m-vave-cube-baby-multi-effects-pedal). Retailer composite visually checked: exact CUBE BABY BASS underside label and BOOST/EQ/COMP controls distinguish it from electric/AC. Middle panel shows all ten knobs and A/B/C, but slight perspective remains and indicators appear unlit. Powered-on exact-overhead photo still pending. Retailer 160×60×30mm diagram is not substituted for manual dimensions/revision.
+
+**CUBE BABY BASS rear ports**
+
+[![CUBE BABY BASS rear ports](https://www.m-vave.com/images/productInfo/cube-baby-bass-2.webp)](https://www.m-vave.com/images/productInfo/cube-baby-bass-2.webp)
+
+[Image source](https://www.m-vave.com/product?id=cube-baby-bass). Manufacturer blue BASS full rear-panel image shows IN, power slide, USB-marked USB-C-shaped connector, separate phone-icon USB-C-shaped socket, headphone output and OUT. Manual distinguishes mobile recording from USB; shape does not prove two USB audio interfaces or pinout. No EXP/XLR/MIDI/FX loop visible. Rear alone does not establish power state. Large white margins belong to source asset.
+
+</details>
+<!-- model-images:M-VAVE::CUBE BABY BASS ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-15;PDF-text recheck2026-10-18.** The26-page Bass English/Chinese manual is now readable;matched title,controls andchain. No visual panel audit;unresolved fields remain partial. Historical transcription/access limitations are retained below.
