@@ -197280,6 +197280,84 @@
           "label": "2.96–3.04 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "M-VAVE::TANK-B": {
+        "model_key": "M-VAVE::TANK-B",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unresolved first exact-model hardware release",
+          "source_urls": [
+            "https://www.cuvave.com/productinfo/1106118.html"
+          ],
+          "note": "No dated manufacturer first-release notice established for TANK-B. A November 21, 2023 third-party preview was located, but its title also mixes TANK-G; it is not accepted as an exact first release. The TANK-G November 17 announcement is not transferred. First date and release-to-update span remain unknown."
+        },
+        "firmware": {
+          "version": "V100",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.m-vave.com/download",
+            "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-B.txt"
+          ],
+          "note": "Current official index lists TANK-B V100 dated October 27, 2026; its own release-note header says October 28, 2026. Exact day remains conflicting, so no silently chosen date. Notes explicitly cover TANK-B and TANK-Bv2 with hardware-matched firmware, not interchangeable binaries. Adds AM-series/NAM/CAB import/audition/edit/save and model/preset state fixes. Older upgrades may reset presets/global settings; manufacturer advises backup. NAM native parsing and conversion architectures are not specified; do not import TANK-G’s conversion rule. Editor/updater are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Original TANK-B manufacturer manual printed page 4 explicitly makes Pitch the third MOD algorithm alongside Chorus and Phaser. MOD FX2 sets Pitch INTERVAL; MOD FX1 sets Pitch MIX. Numeric semitone range, direction and polyphonic note tracking are not stated in this checked page. No down-tuning/octaver range or chord capability inferred from a generic Pitch name. MOD choices share one module, so Pitch cannot be assumed simultaneous with Chorus or Phaser.",
+          "preset": "36 editable presets in nine banks of four, with bank selection then A/B/C/D recall. LIVE mode edits and holding a destination saves; PC/app manage presets. Pitch is part of this stored effect architecture, not a separate bank. Original panel has no analog expression socket or built-in treadle. Firmware MIDI PC/CC features are separate from an analog pedal connection.",
+          "dsp": "No isolated Pitch DSP percentage, tracking delay or algorithm benchmark published in the checked material. Original six-stage chain and three MOD choices do not quantify processor usage. No resource estimate transferred from TANK-G, TANK-PRO or unofficial firmware.",
+          "source_urls": [
+            "https://www.manualslib.com/manual/4596980/M-Vave-Tank-B.html?page=5",
+            "https://www.manualslib.com/manual/4596980/M-Vave-Tank-B.html?page=7",
+            "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-B.txt"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer-authored multilingual manual body on mirror read as text, exact TANK-B identity and bass-specific controls. Existing earlier PDF visual evidence retained; no new PDF-byte or visual-equivalence claim.",
+            "Manufacturer product endpoint timed out. No firmware installed, user presets reset or device audio tested.",
+            "Firmware index/header date conflict and original/v2 distinctions remain unresolved rather than hidden."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.m-vave.com/download",
+            "title": "M-VAVE official downloads, TANK-B V100",
+            "access": "Current manufacturer index opened as text",
+            "evidence": "V100 October 27, 2026, separate original/v2 entries."
+          },
+          {
+            "url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-B.txt",
+            "title": "M-VAVE TANK-B V100 release notes",
+            "access": "Official plain-text history opened",
+            "evidence": "Header October 28, 2026; hardware-specific original/v2 scope, import/state fixes and reset/backup caveat."
+          },
+          {
+            "url": "https://www.manualslib.com/manual/4596980/M-Vave-Tank-B.html?page=5",
+            "title": "Original TANK-B manufacturer manual, printed page 4",
+            "access": "Manufacturer manual body on ManualsLib read as text; no generated Q&A used",
+            "evidence": "MOD Pitch interval and mix controls, sharing MOD with Chorus/Phaser; no numeric range or polyphony stated."
+          },
+          {
+            "url": "https://www.manualslib.com/manual/4596980/M-Vave-Tank-B.html?page=7",
+            "title": "TANK-B preset/live operating instructions",
+            "access": "Existing exact-model manual evidence retained; original review read this page",
+            "evidence": "Nine banks and four recall switches; editable presets."
+          },
+          {
+            "url": "https://www.cuvave.com/productinfo/1106118.html",
+            "title": "Manufacturer exact TANK-B product endpoint",
+            "access": "Direct fetch timed out",
+            "evidence": "No dated launch proof obtained."
+          }
+        ],
+        "notes": [
+          "Chronology follow-up lead only: https://www.youtube.com/watch?v=qiyrcP-DNEI indexed November 21, 2023, third-party preview with mixed TANK-G title. Not accepted as launch evidence."
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -197303,7 +197381,6 @@
       "M-VAVE::MK-300",
       "M-VAVE::Pocket Amp",
       "M-VAVE::TANK MINI",
-      "M-VAVE::TANK-B",
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
       "Mosky::DC5",
@@ -197458,9 +197535,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 229,
-    "last_model": "M-VAVE::TANK-G",
-    "last_commit_parent": "cbb6fd8cd57ae148d590366f2a856acc66ecbc78",
+    "completed_model_count": 230,
+    "last_model": "M-VAVE::TANK-B",
+    "last_commit_parent": "5273f7f6218c0ba34abe258ee5a193cd6eb8af69",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -197483,7 +197560,6 @@
       "M-VAVE::MK-300",
       "M-VAVE::Pocket Amp",
       "M-VAVE::TANK MINI",
-      "M-VAVE::TANK-B",
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
       "Mosky::DC5",
@@ -197637,7 +197713,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 229,
+    "pitch_completed_model_count": 230,
     "supplemental_model_count": 0
   },
   "model_images": {

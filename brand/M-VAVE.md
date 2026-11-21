@@ -1220,6 +1220,34 @@ Checked **2026-11-05**: [HurtrockMusicStore,shop182719800/item53704444048](https
 
 ## TANK-B
 
+<!-- firmware-pitch:M-VAVE::TANK-B begins -->
+### Firmware and pitch audit — M-VAVE TANK-B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No dated manufacturer first-release notice established for TANK-B. A November 21, 2023 third-party preview was located, but its title also mixes TANK-G; it is not accepted as an exact first release. The TANK-G November 17 announcement is not transferred. First date and release-to-update span remain unknown. [launch 1](https://www.cuvave.com/productinfo/1106118.html) |
+| Firmware / latest verification | V100 — Latest verified. Current official index lists TANK-B V100 dated October 27, 2026; its own release-note header says October 28, 2026. Exact day remains conflicting, so no silently chosen date. Notes explicitly cover TANK-B and TANK-Bv2 with hardware-matched firmware, not interchangeable binaries. Adds AM-series/NAM/CAB import/audition/edit/save and model/preset state fixes. Older upgrades may reset presets/global settings; manufacturer advises backup. NAM native parsing and conversion architectures are not specified; do not import TANK-G’s conversion rule. Editor/updater are separate. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-B.txt) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Original TANK-B manufacturer manual printed page 4 explicitly makes Pitch the third MOD algorithm alongside Chorus and Phaser. MOD FX2 sets Pitch INTERVAL; MOD FX1 sets Pitch MIX. Numeric semitone range, direction and polyphonic note tracking are not stated in this checked page. No down-tuning/octaver range or chord capability inferred from a generic Pitch name. MOD choices share one module, so Pitch cannot be assumed simultaneous with Chorus or Phaser. [pitch 1](https://www.manualslib.com/manual/4596980/M-Vave-Tank-B.html?page=5) [pitch 2](https://www.manualslib.com/manual/4596980/M-Vave-Tank-B.html?page=7) [pitch 3](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-B.txt) |
+| Pitch / preset recall | 36 editable presets in nine banks of four, with bank selection then A/B/C/D recall. LIVE mode edits and holding a destination saves; PC/app manage presets. Pitch is part of this stored effect architecture, not a separate bank. Original panel has no analog expression socket or built-in treadle. Firmware MIDI PC/CC features are separate from an analog pedal connection. |
+| Pitch / DSP resources | No isolated Pitch DSP percentage, tracking delay or algorithm benchmark published in the checked material. Original six-stage chain and three MOD choices do not quantify processor usage. No resource estimate transferred from TANK-G, TANK-PRO or unofficial firmware. |
+| Pitch / qualifications | Manufacturer-authored multilingual manual body on mirror read as text, exact TANK-B identity and bass-specific controls. Existing earlier PDF visual evidence retained; no new PDF-byte or visual-equivalence claim. Manufacturer product endpoint timed out. No firmware installed, user presets reset or device audio tested. Firmware index/header date conflict and original/v2 distinctions remain unresolved rather than hidden. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Chronology follow-up lead only: https://www.youtube.com/watch?v=qiyrcP-DNEI indexed November 21, 2023, third-party preview with mixed TANK-G title. Not accepted as launch evidence.
+
+Sources checked:
+
+- [M-VAVE official downloads, TANK-B V100](https://www.m-vave.com/download) — V100 October 27, 2026, separate original/v2 entries. (Current manufacturer index opened as text).
+- [M-VAVE TANK-B V100 release notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-B.txt) — Header October 28, 2026; hardware-specific original/v2 scope, import/state fixes and reset/backup caveat. (Official plain-text history opened).
+- [Original TANK-B manufacturer manual, printed page 4](https://www.manualslib.com/manual/4596980/M-Vave-Tank-B.html?page=5) — MOD Pitch interval and mix controls, sharing MOD with Chorus/Phaser; no numeric range or polyphony stated. (Manufacturer manual body on ManualsLib read as text; no generated Q&A used).
+- [TANK-B preset/live operating instructions](https://www.manualslib.com/manual/4596980/M-Vave-Tank-B.html?page=7) — Nine banks and four recall switches; editable presets. (Existing exact-model manual evidence retained; original review read this page).
+- [Manufacturer exact TANK-B product endpoint](https://www.cuvave.com/productinfo/1106118.html) — No dated launch proof obtained. (Direct fetch timed out).
+
+<!-- firmware-pitch:M-VAVE::TANK-B ends -->
+
 <!-- comparison evidence begins -->
 
 **Original review2026-10-14. Bass-specific,not TANK-G or assumed TANK-Bv2 hardware.**
