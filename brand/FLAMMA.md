@@ -345,6 +345,26 @@ Sources checked:
 
 <!-- firmware-pitch:Flamma::FV02 Doubling ends -->
 
+<!-- model-images:Flamma::FV02 Doubling begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**FV02 Doubling powered-on top-down photograph**
+
+[![FV02 Doubling powered-on top-down photograph](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_52/523425/16611291_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_52/523425/16611291_800.jpg)
+
+[Image source](https://www.thomann.nl/flamma_fv02_vocal_guitar_fx.htm). Green FV02 with blue Tone indicator and green footswitch lighting visibly on. Straight view shows Reverb,Mode,Level,Tone and one footswitch; not FV03 Character or FV04 Harmony.
+
+**FV02 Doubling rear mic, XLR, DC and switches**
+
+[![FV02 Doubling rear mic, XLR, DC and switches](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_52/523425/16611381_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_52/523425/16611381_800.jpg)
+
+[Image source](https://www.thomann.nl/flamma_fv02_vocal_guitar_fx.htm). Photographed unit is marked9V500mA,centre-negative; Mic input,XLR Out,Gain,Line In,48V andLift/Gnd are visible. This supports the older hardware marking but does not resolve the newer manual1.5A discrepancy or phantom-power direction. Side guitar jacks are outside this rear view.
+
+</details>
+<!-- model-images:Flamma::FV02 Doubling ends -->
+
+
 Checked **2026-10-17**; partial. Vocal chorus/doubling plus independently controlled reverb and tone processing. Included in vocal comparison only; guitar reverb is a supporting path, not guitar multi-effects. FV01 exclusion remains unchanged.
 
 <!-- comparison evidence begins -->

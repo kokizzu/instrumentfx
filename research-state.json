@@ -188349,11 +188349,35 @@
             "sha256": "304fa43a7ac869fa6a42a0cab83563a0c358b707d3cd57dc4e78020a1a546582"
           }
         }
+      },
+      "Flamma::FV02 Doubling": {
+        "model_key": "Flamma::FV02 Doubling",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_52/523425/16611291_800.jpg",
+            "source_url": "https://www.thomann.nl/flamma_fv02_vocal_guitar_fx.htm",
+            "caption": "FV02 Doubling powered-on top-down photograph",
+            "note": "Green FV02 with blue Tone indicator and green footswitch lighting visibly on. Straight view shows Reverb,Mode,Level,Tone and one footswitch; not FV03 Character or FV04 Harmony.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "5eb5250afdf9c5297c2b0be696ab057d77ec1a58c55a462b6ca1fea309baec5c"
+          },
+          "rear": {
+            "image_url": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_52/523425/16611381_800.jpg",
+            "source_url": "https://www.thomann.nl/flamma_fv02_vocal_guitar_fx.htm",
+            "caption": "FV02 Doubling rear mic, XLR, DC and switches",
+            "note": "Photographed unit is marked9V500mA,centre-negative; Mic input,XLR Out,Gain,Line In,48V andLift/Gnd are visible. This supports the older hardware marking but does not resolve the newer manual1.5A discrepancy or phantom-power direction. Side guitar jacks are outside this rear view.",
+            "visual_checked": true,
+            "sha256": "f0648133333dc6bb95295012d6a3cf9d25f413353039edfc673a613d441e99a3"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Flamma::FG200"
+    "last_model": "Flamma::FV02 Doubling"
   }
 }
