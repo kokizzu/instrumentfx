@@ -39,6 +39,26 @@ Sources checked:
 
 <!-- firmware-pitch:Soran::Dual Stomp ends -->
 
+<!-- model-images:Soran::Dual Stomp begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Dual Stomp — overhead control-face product image**
+
+[![Dual Stomp — overhead control-face product image](https://sterlingmusic.in/cdn/shop/files/DUALSTOMPJME-01.1.1.jpg?v=1775730479)](https://sterlingmusic.in/cdn/shop/files/DUALSTOMPJME-01.1.1.jpg?v=1775730479)
+
+[Image source](https://sterlingmusic.in/products/soran-dual-stomp-multi-effect-processor). Straight overhead view depicts P01 Blackface CL screen and yellow footswitch rings. Retail product image may be composited; independent powered-on hardware verification remains pending. Visible:2 knobs,2 footswitches,12 separate buttons (4 system+8 effect),one expression treadle. The tuner graphic is not a third switch. Manufacturer CDN originals returned403;this retailer copy was inspected.
+
+**Dual Stomp — rear connection panel**
+
+[![Dual Stomp — rear connection panel](https://www.legato.su/upload/iblock/c77/ftzqrerndvzvmxnudqcl76c0xf23x4bo.jpg)](https://www.legato.su/upload/iblock/c77/ftzqrerndvzvmxnudqcl76c0xf23x4bo.jpg)
+
+[Image source](https://www.legato.su/product/gitarnyy_protsessor_soran_jme_01_dual_stomp/). Exact Dual Stomp rear view:power slide switch,USB-C audio/charge,TRRS AUX IN/POD OUT,headphone jack,INPUT,OUTPUT R andL(MONO). No barrel-power socket visible on this panel. Labels do not establish output balancing or USB host mode. Rear power state unverified.
+
+</details>
+<!-- model-images:Soran::Dual Stomp ends -->
+
+
 Guitar/bass multi-effects;checked2026-10-18,partial. Distinct fromLite;ownership unknown. Own product page contains internal conflicts below;unreadmanual doesnot verify controls.
 
 | Field | Finding / qualification |
