@@ -181005,10 +181005,72 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Behringer::DSP2024P": {
+        "model_key": "Behringer::DSP2024P",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.behringer.com/en/products/0828-AAB",
+            "https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf",
+            "https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual"
+          ],
+          "note": "Exact hardware launch not established. Manufacturer manual v1.1/February2002 and v1.2/September2004 are dated documentation, not launch or firmware releases."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.behringer.com/en/products/0828-AAB",
+            "https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf",
+            "https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual"
+          ],
+          "note": "No dated public DSP2024P firmware release/updater located in checked legacy page/manuals and targeted firmware searches. Manual1.1/1.2 are not ROM versions; SysEx preset transfer does not establish firmware updating. Installed ROM and service-only revisions remain unverified."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PITCH SHIFTER supports stereo/two-/three-voice arrangements; Pitch & Reverb and Pitch & Delay combinations also documented. Pitch parameters include semitone/cent adjustment. Input-note polyphony and exact interval limits remain unverified; generated voice count is not chord-tracking proof.",
+          "preset": "100 internal plus100 writable user presets. Manual p23: STORE twice saves edits; last-used preset restored at power-up. New preset activation takes about1second, so seamless pitch switching is not established. Printed inclusive index ranges conflict with stated counts; do not infer202 memories.",
+          "dsp": "71 algorithms include11 fixed combinations (61–71), not71 simultaneous blocks. Combination routing offers SER1/SER2/PARA; this is dual-engine structure, not per-pitch CPU cost or arbitrary duplicate slots. No DSP percentage or numerical pitch-specific exclusion found.",
+          "source_urls": [
+            "https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf",
+            "https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual"
+          ],
+          "measurements": [],
+          "notes": [
+            "Stereo pitch processing and multiple output voices are distinguished from polyphonic source-note handling. No FX2000/DSP1024P firmware or Ampero resource measurement transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf",
+            "title": "Behringer DSP2024P User Manual v1.1, February2002",
+            "access": "manufacturer_manuscript_on_public_mirror; text_only",
+            "evidence": "Printed p12 pitch voices;p18–19 pitch combinations;p23 save/recall/activation;p25 dual-engine routing. Manual dates not assigned to firmware."
+          },
+          {
+            "url": "https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual",
+            "title": "Behringer DSP2024P User Manual v1.2, September2004 readable manuscript",
+            "access": "manufacturer_manuscript_on_public_mirror; text_only",
+            "evidence": "Exact model/revision and corresponding pitch/combination description;mirror chatbot and summaries excluded."
+          },
+          {
+            "url": "https://www.behringer.com/en/products/0828-AAB",
+            "title": "Behringer DSP2024P exact legacy product page",
+            "access": "indexed_manufacturer_product_text",
+            "evidence": "Legacy DSP2024P identity;no dated firmware history or launch date established."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Behringer::DSP2024P",
       "Behringer::FX2000",
       "Behringer::FX600",
       "Behringer::V-AMP 2",
@@ -181393,12 +181455,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 19,
-    "last_model": "Behringer::Bass V-AMP PRO",
-    "last_commit_parent": "13e9caf702d8676d3ba73075ebe9d6671af132b8",
+    "completed_model_count": 20,
+    "last_model": "Behringer::DSP2024P",
+    "last_commit_parent": "0413b88d57aa871f38379c80343d4644e5389246",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Behringer::DSP2024P",
       "Behringer::FX2000",
       "Behringer::FX600",
       "Behringer::V-AMP 2",
@@ -181782,7 +181843,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 19,
+    "pitch_completed_model_count": 20,
     "supplemental_model_count": 0
   }
 }

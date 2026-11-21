@@ -250,6 +250,30 @@ The 2005 MIDI appendix marks velocity,aftertouch andpitch-bend reception N; Span
 
 ## DSP2024P
 
+<!-- firmware-pitch:Behringer::DSP2024P begins -->
+### Firmware and pitch audit — Behringer DSP2024P
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact hardware launch not established. Manufacturer manual v1.1/February2002 and v1.2/September2004 are dated documentation, not launch or firmware releases. [launch 1](https://www.behringer.com/en/products/0828-AAB) [launch 2](https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf) [launch 3](https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual) |
+| Firmware / latest verification | Not verified — No public firmware located. No dated public DSP2024P firmware release/updater located in checked legacy page/manuals and targeted firmware searches. Manual1.1/1.2 are not ROM versions; SysEx preset transfer does not establish firmware updating. Installed ROM and service-only revisions remain unverified. [firmware 1](https://www.behringer.com/en/products/0828-AAB) [firmware 2](https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf) [firmware 3](https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH SHIFTER supports stereo/two-/three-voice arrangements; Pitch & Reverb and Pitch & Delay combinations also documented. Pitch parameters include semitone/cent adjustment. Input-note polyphony and exact interval limits remain unverified; generated voice count is not chord-tracking proof. [pitch 1](https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf) [pitch 2](https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual) |
+| Pitch / preset recall | 100 internal plus100 writable user presets. Manual p23: STORE twice saves edits; last-used preset restored at power-up. New preset activation takes about1second, so seamless pitch switching is not established. Printed inclusive index ranges conflict with stated counts; do not infer202 memories. |
+| Pitch / DSP resources | 71 algorithms include11 fixed combinations (61–71), not71 simultaneous blocks. Combination routing offers SER1/SER2/PARA; this is dual-engine structure, not per-pitch CPU cost or arbitrary duplicate slots. No DSP percentage or numerical pitch-specific exclusion found. |
+| Pitch / qualifications | Stereo pitch processing and multiple output voices are distinguished from polyphonic source-note handling. No FX2000/DSP1024P firmware or Ampero resource measurement transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Behringer DSP2024P User Manual v1.1, February2002](https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf) — Printed p12 pitch voices;p18–19 pitch combinations;p23 save/recall/activation;p25 dual-engine routing. Manual dates not assigned to firmware. (manufacturer_manuscript_on_public_mirror; text_only).
+- [Behringer DSP2024P User Manual v1.2, September2004 readable manuscript](https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual) — Exact model/revision and corresponding pitch/combination description;mirror chatbot and summaries excluded. (manufacturer_manuscript_on_public_mirror; text_only).
+- [Behringer DSP2024P exact legacy product page](https://www.behringer.com/en/products/0828-AAB) — Legacy DSP2024P identity;no dated firmware history or launch date established. (indexed_manufacturer_product_text).
+
+<!-- firmware-pitch:Behringer::DSP2024P ends -->
+
 VIRTUALIZER PRO rack multi-effects; distinct from FX2000/DSP1024P. Checked2026-10-18; partial. [Manufacturer legacy identity](https://www.behringer.com/en/products/0828-AAB). Own manual Version1.2,September2004 identifies DSP2024P; mirror body used because the PDF text extraction was garbled. Generated summaries/FAQ excluded. Ownership unverified.
 
 <!-- comparison evidence begins -->
