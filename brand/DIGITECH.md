@@ -1063,6 +1063,31 @@ Source identity caveat: official DigiTech directory links this 40-page PDF as RP
 
 ## RP250
 
+<!-- firmware-pitch:DigiTech::RP250 begins -->
+### Firmware and pitch audit — DigiTech RP250
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2006-10-13 (manufacturer shipping notice proxy). Manufacturer begun-shipping/immediate-availability announcement reproduced by Sonicstate. Available-by proxy, not exact first shipment; July NAMM introduction is earlier. [launch 1](https://sonicstate.com/news/2006/10/13/latest-digitech-guitar-processors-ship/) |
+| Firmware / latest verification | Not verified — Unverified. Current official product/downloads list X-Edit 2.4.1 Windows and 2.7.1 Intel Mac, not a dated RP250 device firmware release. Latest ROM version/date and update span unverified; editor releases are separate. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://digitech.com/dp/rp250/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift ±24 semitones; Detune ±24 cents; key/scale Intelligent Pitch Shifting within ±1 octave, with harmony level X-Edit-only; Whammy bends including ±1/±2 octaves and Dive Bomb. Input-note polyphony unverified. [pitch 1](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP250_-Manual18-0432V-B_original.pdf) [pitch 2](https://digitech.com/dp/rp250/) |
+| Pitch / preset recall | 60 writable user plus 60 read-only factory presets; user locations initially duplicate factory. Tone/Effects Library choices are starting configurations, not extra stored presets. |
+| Pitch / DSP resources | Whammy, Pitch Shift, Detune and IPS share one Chorus/FX slot, excluding other effects in that row. Eleven advertised simultaneous effects do not mean eleven pitch instances. No per-algorithm CPU percentage published in checked sources. |
+| Pitch / qualifications | Built-in expression controls Whammy; manual pedal-position control is also available. Newer standalone Whammy chord modes not established for RP250. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [DigiTech RP250/RP150 shipping announcement](https://sonicstate.com/news/2006/10/13/latest-digitech-guitar-processors-ship/) — Begun shipping and immediately available at authorized resellers; not exact first shipment. (Manufacturer announcement reproduced by Sonicstate, October 13, 2006).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — RP250 X-Edit editor versions; no dated device-firmware release entry. (Manufacturer current downloads web text).
+- [DigiTech RP250 product](https://digitech.com/dp/rp250/) — Eleven simultaneous effects, 60 user/60 factory presets and editor links. (Manufacturer product web text).
+- [RP250 User Manual 18-0432V-B](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP250_-Manual18-0432V-B_original.pdf) — Printed p27 one Chorus/FX choice; pp32–34 pitch ranges and X-Edit-only IPS level; p5 factory/user storage. (Manufacturer CDN 56-page PDF web text).
+
+<!-- firmware-pitch:DigiTech::RP250 ends -->
+
 Guitar multi-effects;distinct fromRP255/RP150. Checked2026-10-17;partial. Bass/vocal suitability andownership unresolved.
 
 | Field | Finding / qualification | Evidence |
