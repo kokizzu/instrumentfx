@@ -1188,6 +1188,32 @@ Checked **2026-11-06**, [exact-model English02 Parameter Guide/Sound List][GT1-G
 
 ## GT-001
 
+<!-- firmware-pitch:BOSS::GT-001 begins -->
+### Firmware and pitch audit — BOSS GT-001
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2014-03-11 (manufacturer announcement proxy). Manufacturer introduction date, not proof of first regional retail shipment. [launch 1](https://www.roland.com/us/company/press_releases/2014/1788/) |
+| Firmware / latest verification | 1.10 — Latest verified. Current index leads with1.10 and the own update history ends at1.10. No release date is given. Changes stop periodic MIDI pitch-bend-sensitivity transmission and support Driver1.1/sample-rate switching; not an audio-pitch algorithm addition. An older1.04 listing retains stale latest wording; it is not the highest current release. Editor/driver dates are not firmware dates. [firmware 1](https://www.boss.info/global/support/by_product/gt-001/updates_drivers/b8295f2b-78e7-4a7f-8ee2-44a7ca7b89de/) [firmware 2](https://www.boss.info/global/support/by_product/gt-001/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter ±24 semitones with Fast/Medium/Slow/Mono modes; Mono is single-note with a chord warning. Harmonist and Pedal Bend explicitly require single notes; Bend spans ±24 semitones. Octave lowers one octave; FX2-only Overtone adds upper/lower octave harmonics and detune. No explicit chord-support claim located for the other modes. [pitch 1](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf) [pitch 2](https://www.boss.info/global/products/gt-001/) |
+| Pitch / preset recall | 200 User plus200 Preset patches; user patch capacity is not400 writable locations. Four favorite buttons are quick recalls, not extra memory. |
+| Pitch / DSP resources | Pitch Shifter/Harmonist/Octave occupy an FX1/FX2 selection; Overtone is FX2-only. Pedal FX chooses Wah or Pedal Bend. No per-pitch CPU percentage or DSP-budget meter is documented; category restrictions are not percentages. |
+| Pitch / qualifications | Audio MONO/STEREO icons describe channels, not note polyphony. Harmonist cannot process USB IN under SECONDARY routing in this guide. Monophonic guitar-to-MIDI is separate from audio pitch-shifter capability. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland/BOSS GT-001 introduction, March11 2014](https://www.roland.com/us/company/press_releases/2014/1788/) — Dated manufacturer introduction names desktop GT-001; guitar-to-MIDI is explicitly monophonic. (opened).
+- [BOSS GT-001 System Program1.10 history](https://www.boss.info/global/support/by_product/gt-001/updates_drivers/b8295f2b-78e7-4a7f-8ee2-44a7ca7b89de/) — Own device updater1.10 with MIDI-sensitivity/Driver1.1 improvements; release date absent. (opened).
+- [BOSS GT-001 current Updates & Drivers index](https://www.boss.info/global/support/by_product/gt-001/updates_drivers/) — Lists1.10 ahead of historical1.04 and separate computer software/driver entries. (opened).
+- [BOSS GT-001 Parameter Guide2014](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf) — pp8,12–13,20 specify pitch modes, single-note restrictions and effect selections. SHA256 a31c6cbaac730a2a938dadb2b337e09a76075e8f33b84b45013efbd9bd9b508f. (downloaded; relevant text read and printedp12 visually inspected).
+- [BOSS GT-001 current product/specifications](https://www.boss.info/global/products/gt-001/) — 200 User+200 Preset, favorite-patch buttons, FX1/2 library and Overtone FX2-only qualification; mono guitar-to-MIDI distinct. (opened).
+
+<!-- firmware-pitch:BOSS::GT-001 ends -->
+
 Desktop guitar/vocal processor; distinct from GT-1/GT-100. Checked 2026-10-17; partial. [BOSS product/specifications][GT001-P].
 
 <!-- comparison evidence begins -->

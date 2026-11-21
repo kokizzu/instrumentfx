@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191",
+    "requested_url": "https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 15,
+    "frame": 11,
     "text_pages": [
-      10,
-      10
+      7,
+      7
     ],
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",
@@ -181941,10 +181941,83 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GT-001": {
+        "model_key": "BOSS::GT-001",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2014-03-11",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2014/1788/"
+          ],
+          "note": "Manufacturer introduction date, not proof of first regional retail shipment."
+        },
+        "firmware": {
+          "version": "1.10",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gt-001/updates_drivers/b8295f2b-78e7-4a7f-8ee2-44a7ca7b89de/",
+            "https://www.boss.info/global/support/by_product/gt-001/updates_drivers/"
+          ],
+          "note": "Current index leads with1.10 and the own update history ends at1.10. No release date is given. Changes stop periodic MIDI pitch-bend-sensitivity transmission and support Driver1.1/sample-rate switching; not an audio-pitch algorithm addition. An older1.04 listing retains stale latest wording; it is not the highest current release. Editor/driver dates are not firmware dates."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shifter ±24 semitones with Fast/Medium/Slow/Mono modes; Mono is single-note with a chord warning. Harmonist and Pedal Bend explicitly require single notes; Bend spans ±24 semitones. Octave lowers one octave; FX2-only Overtone adds upper/lower octave harmonics and detune. No explicit chord-support claim located for the other modes.",
+          "preset": "200 User plus200 Preset patches; user patch capacity is not400 writable locations. Four favorite buttons are quick recalls, not extra memory.",
+          "dsp": "Pitch Shifter/Harmonist/Octave occupy an FX1/FX2 selection; Overtone is FX2-only. Pedal FX chooses Wah or Pedal Bend. No per-pitch CPU percentage or DSP-budget meter is documented; category restrictions are not percentages.",
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf",
+            "https://www.boss.info/global/products/gt-001/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Audio MONO/STEREO icons describe channels, not note polyphony.",
+            "Harmonist cannot process USB IN under SECONDARY routing in this guide.",
+            "Monophonic guitar-to-MIDI is separate from audio pitch-shifter capability."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2014/1788/",
+            "title": "Roland/BOSS GT-001 introduction, March11 2014",
+            "access": "opened",
+            "evidence": "Dated manufacturer introduction names desktop GT-001; guitar-to-MIDI is explicitly monophonic."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-001/updates_drivers/b8295f2b-78e7-4a7f-8ee2-44a7ca7b89de/",
+            "title": "BOSS GT-001 System Program1.10 history",
+            "access": "opened",
+            "evidence": "Own device updater1.10 with MIDI-sensitivity/Driver1.1 improvements; release date absent."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-001/updates_drivers/",
+            "title": "BOSS GT-001 current Updates & Drivers index",
+            "access": "opened",
+            "evidence": "Lists1.10 ahead of historical1.04 and separate computer software/driver entries."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf",
+            "title": "BOSS GT-001 Parameter Guide2014",
+            "access": "downloaded; relevant text read and printedp12 visually inspected",
+            "evidence": "pp8,12–13,20 specify pitch modes, single-note restrictions and effect selections. SHA256 a31c6cbaac730a2a938dadb2b337e09a76075e8f33b84b45013efbd9bd9b508f."
+          },
+          {
+            "url": "https://www.boss.info/global/products/gt-001/",
+            "title": "BOSS GT-001 current product/specifications",
+            "access": "opened",
+            "evidence": "200 User+200 Preset, favorite-patch buttons, FX1/2 library and Overtone FX2-only qualification; mono guitar-to-MIDI distinct."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GT-001",
       "BOSS::GT-1",
       "BOSS::GT-10",
       "BOSS::GT-100",
@@ -182315,12 +182388,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 33,
-    "last_model": "BOSS::GS-10",
-    "last_commit_parent": "d7c83c333b2a13aa55468c0244ea309f5623a401",
+    "completed_model_count": 34,
+    "last_model": "BOSS::GT-001",
+    "last_commit_parent": "ede6fe93cf3a7141227adfd138f7702d80278268",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GT-001",
       "BOSS::GT-1",
       "BOSS::GT-10",
       "BOSS::GT-100",
@@ -182690,7 +182762,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 33,
+    "pitch_completed_model_count": 34,
     "supplemental_model_count": 0
   }
 }
