@@ -6468,6 +6468,31 @@ This narrows ordinary-pickup usability whileleaving Dynamic Synth chord handling
 
 ## VE-1
 
+<!-- firmware-pitch:BOSS::VE-1 begins -->
+### Firmware and pitch audit — BOSS VE-1
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2015-01-22 (manufacturer announcement proxy). US announcement; manufacturer release-year table also says 2015. Manual copyright 2014 is not hardware release evidence; exact first retail day unverified. [launch 1](https://www.roland.com/us/company/press_releases/30042/) [launch 2](https://www.roland.com/jp/support/service_repair/1708080000/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current downloads list Windows/macOS drivers only, with no device system program; targeted manufacturer search found no public firmware release. Driver versions are not device firmware. Version/date and elapsed update span unknown; internal revisions not ruled out. [firmware 1](https://www.boss.info/global/support/by_product/ve-1/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Automatic chromatic vocal pitch correction ranges from subtle correction to exaggerated tuning effects. DOUBLE simulates two singers in unison. No selectable interval shifter, intelligent harmony or polyphonic correction claim established in checked sources. [pitch 1](https://www.roland.com/us/company/press_releases/30042/) [pitch 2](https://static.roland.com/assets/media/pdf/VE-1_s01_W.pdf) |
+| Pitch / preset recall | Three saved settings A/B/C plus current manual panel state; four accessible setups do not mean four stored memories. Seven echo types are effect choices, not seven full patches. |
+| Pitch / DSP resources | Dedicated echo, correction, doubling and enhance controls rather than freely allocated pitch slots. Main pedal toggles echo/correction but does not bypass Enhance. No correction CPU percentage, DSP allocation table or numerical pitch-instance budget published in checked sources. |
+| Pitch / qualifications | Vocal processor documented; seller guitar/harmonist labels do not establish those capabilities. No VE-2 or VE-20 harmony behavior transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS announces VE-1 Vocal Echo](https://www.roland.com/us/company/press_releases/30042/) — January 22, 2015 announcement; chromatic correction, unison doubling, seven ambience types and three stored memories plus live controls. (Manufacturer press release web text).
+- [Roland model release and repair-duration table](https://www.roland.com/jp/support/service_repair/1708080000/) — VE-1 hardware release-year column says 2015. (Manufacturer indexed table text).
+- [VE-1 updates and drivers](https://www.boss.info/global/support/by_product/ve-1/updates_drivers/) — Windows/macOS drivers listed without a device system-program entry. (Manufacturer current support index web text).
+- [BOSS VE-1 Spanish Owner Manual](https://static.roland.com/assets/media/pdf/VE-1_s01_W.pdf) — Three saved memories A–C plus manual state; main pedal switches echo/correction but not Enhance; footswitch functions include correction amount and doubling. (Manufacturer PDF web text).
+
+<!-- firmware-pitch:BOSS::VE-1 ends -->
+
 Vocal multi-effects:echo,double,pitch correction and enhance. Consolidated/researched2026-10-16;partial verification. Seller Harmonist/Guitar Pedal titles do not establish guitar processing or intelligent harmony.
 
 ### VE-1 — preserved original comparison

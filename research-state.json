@@ -184350,10 +184350,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::VE-1": {
+        "model_key": "BOSS::VE-1",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2015-01-22",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/30042/",
+            "https://www.roland.com/jp/support/service_repair/1708080000/"
+          ],
+          "note": "US announcement; manufacturer release-year table also says 2015. Manual copyright 2014 is not hardware release evidence; exact first retail day unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/ve-1/updates_drivers/"
+          ],
+          "note": "Current downloads list Windows/macOS drivers only, with no device system program; targeted manufacturer search found no public firmware release. Driver versions are not device firmware. Version/date and elapsed update span unknown; internal revisions not ruled out."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Automatic chromatic vocal pitch correction ranges from subtle correction to exaggerated tuning effects. DOUBLE simulates two singers in unison. No selectable interval shifter, intelligent harmony or polyphonic correction claim established in checked sources.",
+          "preset": "Three saved settings A/B/C plus current manual panel state; four accessible setups do not mean four stored memories. Seven echo types are effect choices, not seven full patches.",
+          "dsp": "Dedicated echo, correction, doubling and enhance controls rather than freely allocated pitch slots. Main pedal toggles echo/correction but does not bypass Enhance. No correction CPU percentage, DSP allocation table or numerical pitch-instance budget published in checked sources.",
+          "measurements": [],
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/30042/",
+            "https://static.roland.com/assets/media/pdf/VE-1_s01_W.pdf"
+          ],
+          "notes": [
+            "Vocal processor documented; seller guitar/harmonist labels do not establish those capabilities. No VE-2 or VE-20 harmony behavior transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/30042/",
+            "title": "BOSS announces VE-1 Vocal Echo",
+            "access": "Manufacturer press release web text",
+            "evidence": "January 22, 2015 announcement; chromatic correction, unison doubling, seven ambience types and three stored memories plus live controls."
+          },
+          {
+            "url": "https://www.roland.com/jp/support/service_repair/1708080000/",
+            "title": "Roland model release and repair-duration table",
+            "access": "Manufacturer indexed table text",
+            "evidence": "VE-1 hardware release-year column says 2015."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/ve-1/updates_drivers/",
+            "title": "VE-1 updates and drivers",
+            "access": "Manufacturer current support index web text",
+            "evidence": "Windows/macOS drivers listed without a device system-program entry."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/VE-1_s01_W.pdf",
+            "title": "BOSS VE-1 Spanish Owner Manual",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Three saved memories A–C plus manual state; main pedal switches echo/correction but not Enhance; footswitch functions include correction amount and doubling."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::VE-1",
       "BOSS::VE-2",
       "BOSS::VE-20",
       "BOSS::VE-22",
@@ -184692,12 +184757,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 65,
-    "last_model": "BOSS::SE-50",
-    "last_commit_parent": "0c23a08ef4771125736d822bf18d721c1cbe4083",
+    "completed_model_count": 66,
+    "last_model": "BOSS::VE-1",
+    "last_commit_parent": "fed7b96a178432d56852252716fc9c8f4c462790",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::VE-1",
       "BOSS::VE-2",
       "BOSS::VE-20",
       "BOSS::VE-22",
@@ -185035,7 +185099,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 65,
+    "pitch_completed_model_count": 66,
     "supplemental_model_count": 0
   }
 }
