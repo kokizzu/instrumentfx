@@ -199987,10 +199987,68 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Lexicon::MX200": {
+        "model_key": "Lexicon::MX200",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2005-01-20",
+          "precision": "day",
+          "kind": "manufacturer launch announcement at Winter NAMM; not independently verified first retail shipment",
+          "source_urls": [
+            "https://lexiconpro.com/en-US/news/archived"
+          ],
+          "note": "Manufacturer archive reproduces the January 20, 2005 launch dateline under June 28, 2006 archive metadata; use the announcement dateline, not the migration date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://lexiconpro.com/en-US/products/mx200/downloads_and_docs"
+          ],
+          "note": "Indexed official downloads list MX Edit Mac 2.2.0/Windows 2.3.1 and MX NetUpdater 1.0, dated August 2016. These are host applications, not authenticated device firmware versions or release dates. April 2026 document uploads likewise do not establish firmware updates. Direct manufacturer product route returned 403; no release-to-update duration can be calculated."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift Stereo: chromatic interval shifting up/down 0–24 semitones, with cutoff control. Detune Stereo: independently shifted left/right voices. Stereo labeling and examples of monophonic synthesizer lines do not establish either polyphonic or exclusively monophonic operation.",
+          "preset": "99 factory and 99 writable user programs; user programs initially duplicate factory settings. Pitch parameters are saved with programs and recalled from the panel/MIDI; MX Edit is an external editor/library rather than additional onboard locations.",
+          "dsp": "Two simultaneous processing engines, with four routing choices. Pitch Shift or Detune occupies an engine; this establishes a slot cost, not 50% measured CPU/DSP use. No numerical algorithm DSP percentage located.",
+          "source_urls": [
+            "https://adn.harmanpro.com/product_documents/documents/913_1473885738/MX200_Manual_5073493-B_original.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Do not inherit the MPX100 manual’s explicitly polyphonic Pitch description; this is a different model.",
+            "USB provides editor/control integration; audio still requires analog or S/PDIF routing."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://lexiconpro.com/en-US/news/archived",
+            "title": "Lexicon official news archive — MX200 launch dateline",
+            "access": "Search-indexed manufacturer archive; direct route returned 403",
+            "evidence": "January 20, 2005 Winter NAMM launch dateline appears below June 28, 2006 archive metadata."
+          },
+          {
+            "url": "https://lexiconpro.com/en-US/products/mx200/downloads_and_docs",
+            "title": "Lexicon MX200 official downloads",
+            "access": "Search-indexed manufacturer listing; product direct access 403",
+            "evidence": "Discontinued model; August 2016 host editors and NetUpdater versions, April 2026 document upload metadata; no authenticated device firmware release found."
+          },
+          {
+            "url": "https://adn.harmanpro.com/product_documents/documents/913_1473885738/MX200_Manual_5073493-B_original.pdf",
+            "title": "Lexicon MX200 User Guide 5073493-B",
+            "access": "Manufacturer CDN PDF text inspected, 52 pages",
+            "evidence": "Printed pp10–12 program storage/routing and p22 stereo chromatic Pitch Shift ±24 semitones and stereo Detune. Two processing engines; no polyphony declaration or numerical DSP budget located."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
       "MOD Audio::Duo",
@@ -200130,12 +200188,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 264,
-    "last_model": "Lexicon::MPX100",
-    "last_commit_parent": "f76b847b169d53067185c7a94f30e2dc1455bd74",
+    "completed_model_count": 265,
+    "last_model": "Lexicon::MX200",
+    "last_commit_parent": "a49be2078d50707c0e51f0b5379702a35941d678",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
       "MOD Audio::Duo",
@@ -200274,7 +200331,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 264,
+    "pitch_completed_model_count": 265,
     "supplemental_model_count": 0
   },
   "model_images": {

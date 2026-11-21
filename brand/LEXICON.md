@@ -185,6 +185,30 @@ Direct guitar input is explicit. No onboard footswitches; programs use hand PROG
 
 ## MX200
 
+<!-- firmware-pitch:Lexicon::MX200 begins -->
+### Firmware and pitch audit — Lexicon MX200
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005-01-20 (manufacturer launch announcement at Winter NAMM; not independently verified first retail shipment). Manufacturer archive reproduces the January 20, 2005 launch dateline under June 28, 2006 archive metadata; use the announcement dateline, not the migration date. [launch 1](https://lexiconpro.com/en-US/news/archived) |
+| Firmware / latest verification | Not verified — Unverified. Indexed official downloads list MX Edit Mac 2.2.0/Windows 2.3.1 and MX NetUpdater 1.0, dated August 2016. These are host applications, not authenticated device firmware versions or release dates. April 2026 document uploads likewise do not establish firmware updates. Direct manufacturer product route returned 403; no release-to-update duration can be calculated. [firmware 1](https://lexiconpro.com/en-US/products/mx200/downloads_and_docs) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift Stereo: chromatic interval shifting up/down 0–24 semitones, with cutoff control. Detune Stereo: independently shifted left/right voices. Stereo labeling and examples of monophonic synthesizer lines do not establish either polyphonic or exclusively monophonic operation. [pitch 1](https://adn.harmanpro.com/product_documents/documents/913_1473885738/MX200_Manual_5073493-B_original.pdf) |
+| Pitch / preset recall | 99 factory and 99 writable user programs; user programs initially duplicate factory settings. Pitch parameters are saved with programs and recalled from the panel/MIDI; MX Edit is an external editor/library rather than additional onboard locations. |
+| Pitch / DSP resources | Two simultaneous processing engines, with four routing choices. Pitch Shift or Detune occupies an engine; this establishes a slot cost, not 50% measured CPU/DSP use. No numerical algorithm DSP percentage located. |
+| Pitch / qualifications | Do not inherit the MPX100 manual’s explicitly polyphonic Pitch description; this is a different model. USB provides editor/control integration; audio still requires analog or S/PDIF routing. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Lexicon official news archive — MX200 launch dateline](https://lexiconpro.com/en-US/news/archived) — January 20, 2005 Winter NAMM launch dateline appears below June 28, 2006 archive metadata. (Search-indexed manufacturer archive; direct route returned 403).
+- [Lexicon MX200 official downloads](https://lexiconpro.com/en-US/products/mx200/downloads_and_docs) — Discontinued model; August 2016 host editors and NetUpdater versions, April 2026 document upload metadata; no authenticated device firmware release found. (Search-indexed manufacturer listing; product direct access 403).
+- [Lexicon MX200 User Guide 5073493-B](https://adn.harmanpro.com/product_documents/documents/913_1473885738/MX200_Manual_5073493-B_original.pdf) — Printed pp10–12 program storage/routing and p22 stereo chromatic Pitch Shift ±24 semitones and stereo Detune. Two processing engines; no polyphony declaration or numerical DSP budget located. (Manufacturer CDN PDF text inspected, 52 pages).
+
+<!-- firmware-pitch:Lexicon::MX200 ends -->
+
 <!-- comparison evidence begins -->
 Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. Guitar/vocal use is **through appropriate mixer or preamp routing**;not a direct mic or high-impedance instrument preamp claim. Discontinued [MX-P].
 
