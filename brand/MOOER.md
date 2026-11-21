@@ -4096,6 +4096,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::Prime M2 ends -->
 
+<!-- model-images:MOOER::Prime M2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER Prime M2 powered-on top view**
+
+[![MOOER Prime M2 powered-on top view](https://mooer.jp/cdn/shop/files/PrimeM2SS-01.png?v=1749709834&width=1445)](https://mooer.jp/cdn/shop/files/PrimeM2SS-01.png?v=1749709834&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-prime-m2). Visually inspected exact satin-silver Prime M2 overhead with illuminated tools screen and RGB strip, both footswitches and power button. The 100% battery graphic is illustrative, not a runtime measurement.
+
+**MOOER Prime M2 rear ports**
+
+[![MOOER Prime M2 rear ports](https://mooer.jp/cdn/shop/files/PrimeM2SS-02.png?v=1749709834&width=1445)](https://mooer.jp/cdn/shop/files/PrimeM2SS-02.png?v=1749709834&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-prime-m2). Visually inspected satin-silver rear panel: MIDI, PHONES, USB-C and reset pinhole. Instrument input and separate L/R outputs are on the sides and are not shown in this rear photograph; their functions remain documented in the manual. No barrel-power or dedicated external EXP connector shown.
+
+</details>
+<!-- model-images:MOOER::Prime M2 ends -->
+
+
 Checked2026-10-17;partial. Guitar/bass processor with headset vocal effects. [Product](https://www.mooeraudio.com/products/221.html); [manufacturer manual, RockBoard mirror V2.0 filename](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf),67pages; selected technical sections read, no visual verification. Product lists a newer M2_Manual_EN_V02_2025.08.26; not assumed identical.
 
 | Field | Finding |

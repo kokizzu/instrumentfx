@@ -198565,11 +198565,35 @@
             "sha256": "c2b9517bab6f05fbc8fefbfb44a71248fe844d1c78da27b8fa0a5cb764265fb3"
           }
         }
+      },
+      "MOOER::Prime M2": {
+        "model_key": "MOOER::Prime M2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/PrimeM2SS-01.png?v=1749709834&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-prime-m2",
+            "caption": "MOOER Prime M2 powered-on top view",
+            "note": "Visually inspected exact satin-silver Prime M2 overhead with illuminated tools screen and RGB strip, both footswitches and power button. The 100% battery graphic is illustrative, not a runtime measurement.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "b63834c0cb571bbef6873e99da045fa83a01eef314bc60efc4917761241443ac"
+          },
+          "rear": {
+            "image_url": "https://mooer.jp/cdn/shop/files/PrimeM2SS-02.png?v=1749709834&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-prime-m2",
+            "caption": "MOOER Prime M2 rear ports",
+            "note": "Visually inspected satin-silver rear panel: MIDI, PHONES, USB-C and reset pinhole. Instrument input and separate L/R outputs are on the sides and are not shown in this rear photograph; their functions remain documented in the manual. No barrel-power or dedicated external EXP connector shown.",
+            "visual_checked": true,
+            "sha256": "ce00463ca295ef767c9151c71aa791209681c263ba2a4db9cf524a4f6487b4d7"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::Prime M1"
+    "last_model": "MOOER::Prime M2"
   }
 }
