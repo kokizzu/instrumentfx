@@ -338,6 +338,30 @@ No original manual contents newly recovered. Converted mirror summaries are not 
 
 ## Go Rig II
 
+<!-- firmware-pitch:Soran::Go Rig II begins -->
+### Firmware and pitch audit — Soran Go Rig II
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Undated product; original-manual upload date is not first hardware release. [launch 1](https://www.soranaudio.com/products/31.html) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact Go Rig II section lists V1.0.0 manual but no device firmware release or updater located. Manual V1.0.0 and document V3 filename are not installed firmware versions. JME Stomp1.1.1 is not Go Rig II firmware; no release-to-update span established. [firmware 1](https://www.soranaudio.com/Download.html) [firmware 2](https://www.soranaudio.com/products/31.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Dedicated pitch shifting,harmony,octave and transpose are not documented in the inspected primary sources. MOD offers chorus/flanger/tremolo; delay offers analog/tape/digital; reverb offers studio/spring/concert with Freeze. Modulation and Freeze do not establish a polyphonic interval shifter. [pitch 1](https://www.soranaudio.com/products/31.html) [pitch 2](https://www.soranaudio.com/upload/files/article/20251124/17639478809117099.pdf) |
+| Pitch / preset recall | Knob/selector operation and section bypass documented; factory/user preset memory and recall remain unverified. Three effect sections are not three stored patches. |
+| Pitch / DSP resources | No pitch-specific DSP/CPU utilization or measurement located. Three sections,44.1kHz/24-bit processing and85mA current do not establish per-algorithm DSP percentages. |
+| Pitch / qualifications | Exact JCMS-G3B Go Rig II manual indexed text used; do not substitute Go Rig I,Go Rig B or JME manuals. First launch and user-updatable firmware remain unknown rather than inferred from USB-C charging. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Soran Go Rig II manufacturer product](https://www.soranaudio.com/products/31.html) — MOD,DELAY,REVERB with Freeze/Tempo Sync;85mA;no dedicated pitch or dated firmware. (Exact-model manufacturer text inspected).
+- [Soran Go Rig II original JCMS-G3B manual](https://www.soranaudio.com/upload/files/article/20251124/17639478809117099.pdf) — Exact GO RIG II; chorus/flanger/tremolo,three delays,three reverbs,Freeze,tap and stereo outputs. Upload metadata not launch date. (Manufacturer-hosted original indexed text inspected;full local PDF not retrieved).
+- [Soran official download index — Go Rig II](https://www.soranaudio.com/Download.html) — Lists Go Rig II_V1.0.0 user manual;no Go Rig II firmware payload found. (Current exact-model indexed listing inspected).
+
+<!-- firmware-pitch:Soran::Go Rig II ends -->
+
 Effects-only guitar multi-effects, checked 2026-10-18; partial. MOD, DELAY and REVERB make this a multi-effects processor without requiring amp modeling. Bass/vocal suitability and ownership unverified. Distinct JCMS-G3B model; not Go Rig I or Go Rig B.
 
 | Field | Finding / qualification |
