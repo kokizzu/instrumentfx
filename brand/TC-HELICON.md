@@ -496,6 +496,32 @@ Rev.1 p5 prints mic impedance **3k4/1k7Ω**, whereas the later indexed manufactu
 
 ## PERFORM-V
 
+<!-- firmware-pitch:TC-Helicon::PERFORM-V begins -->
+### Firmware and pitch audit — TC-Helicon PERFORM-V
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2016-01 (contemporary available-now report; exact first shipment unresolved). January 27, 2016 NAMM report describes PERFORM-V as available now. January is documented availability, not proven first shipment; the November 2015 manual date is not substituted as hardware launch. [launch 1](https://www.musicradar.com/news/tech/namm-2016-tc-helicon-offers-quick-and-easy-vocal-processing-with-perform-v-634128) |
+| Firmware / latest verification | Not verified — Unverified. Manual covers firmware1.0 but does not establish latest firmware. Official June23,2016 demo says a released update adds button dimming and AUX mute; March18,2017 coverage also reports manual mic gain and USB preset transfer. Exact firmware numbers/release dates and current latest status unresolved. These reporting dates and VoiceSupport2 1.1.02_build139 host version are not device firmware release dates. [firmware 1](https://cdn-media.empowertribe.com/cfa5e5a213cb34a7405952cab5421702/PERFORM-V_M_EN.pdf) [firmware 2](https://www.youtube.com/watch?v=3DmnXng2Htc) [firmware 3](https://audiopronews.com/processors/tc-helicon-new-firmware-updates/) [firmware 4](https://www.tchelicon.com/en/products/0726-AAG) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Global nearest-semitone vocal correction; imported presets can add Harmony and HardTune alongside Megaphone/µMod. Onboard Double includes octave up/down style. Chord guidance through AUX/RoomSense does not establish polyphonic audio transposition. No microphone input-note polyphony limit or measured chord-tracking guarantee found. [pitch 1](https://cdn-media.empowertribe.com/cfa5e5a213cb34a7405952cab5421702/PERFORM-V_M_EN.pdf) [pitch 2](https://www.tchelicon.com/en/products/0726-AAG) |
+| Pitch / preset recall | Three editable automatically saved presets; imported effects and HIT states can be edited within the documented modifier limits. Harmony+HardTune exposes harmony level, not complete independent editing of both engines. Pitch guide is a visual tuning aid, distinct from correction. No gapless pitch-preset recall test. |
+| Pitch / DSP resources | No pitch-specific CPU percentage, numerical DSP meter or resource cost located. Up to seven effects is a feature/concurrency headline, not equal processor shares. Generated harmony voices, LED segments and effect-level percentages do not measure DSP utilization. |
+| Pitch / qualifications | Current product page still says three knobs/three buttons and suggests guitar feed/USB recording; these conflict with the original one-knob control inventory and delayed AUX guide path. Do not infer revised hardware or transfer VK/VG/VE capabilities. No firmware installed, hardware operation or audio tracking test performed. Current complete latest-firmware version/date remains an explicit gap. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Contemporary PERFORM-V NAMM availability report](https://www.musicradar.com/news/tech/namm-2016-tc-helicon-offers-quick-and-easy-vocal-processing-with-perform-v-634128) — Available-now statement; exact first shipment unverified. (Dated January27,2016 original news body read).
+- [TC Helicon PERFORM-V English reference manual](https://cdn-media.empowertribe.com/cfa5e5a213cb34a7405952cab5421702/PERFORM-V_M_EN.pdf) — Nearest-semitone correction, imported Harmony/HardTune, three presets and limited modifiers; firmware1.0 not current-latest certification. (Restored direct manufacturer 52-page PDF read; firmware1.0/reference2015-11-17).
+- [TC Helicon PERFORM-V dimming and AUX-mute update demonstration](https://www.youtube.com/watch?v=3DmnXng2Htc) — June23,2016 reports released update; no version number or exact release date. (Official manufacturer indexed video description/publication read).
+- [Seven TC Helicon firmware updates — contemporary report](https://audiopronews.com/processors/tc-helicon-new-firmware-updates/) — PERFORM-V dimming, manual mic gain and USB preset transfer; other products changes excluded. (March18,2017 report and linked manufacturer live-demo reference inspected).
+- [TC Helicon PERFORM-V current exact0726-AAG page](https://www.tchelicon.com/en/products/0726-AAG) — VoiceSupport2 host listing, conflicting control/USB/guitar copy retained; no numbered device firmware release. (Direct manufacturer page read).
+
+<!-- firmware-pitch:TC-Helicon::PERFORM-V ends -->
+
 Mic-stand vocal multi-effects;not VK/VG/VE. Checked2026-10-17;partial. No guitar multi-effects classification;AUX chord detection is not an instrument effect path. Ownership unestablished.
 
 <!-- comparison evidence begins -->

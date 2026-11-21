@@ -201712,10 +201712,84 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC-Helicon::PERFORM-V": {
+        "model_key": "TC-Helicon::PERFORM-V",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2016-01",
+          "precision": "month",
+          "kind": "contemporary available-now report; exact first shipment unresolved",
+          "source_urls": [
+            "https://www.musicradar.com/news/tech/namm-2016-tc-helicon-offers-quick-and-easy-vocal-processing-with-perform-v-634128"
+          ],
+          "note": "January 27, 2016 NAMM report describes PERFORM-V as available now. January is documented availability, not proven first shipment; the November 2015 manual date is not substituted as hardware launch."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://cdn-media.empowertribe.com/cfa5e5a213cb34a7405952cab5421702/PERFORM-V_M_EN.pdf",
+            "https://www.youtube.com/watch?v=3DmnXng2Htc",
+            "https://audiopronews.com/processors/tc-helicon-new-firmware-updates/",
+            "https://www.tchelicon.com/en/products/0726-AAG"
+          ],
+          "note": "Manual covers firmware1.0 but does not establish latest firmware. Official June23,2016 demo says a released update adds button dimming and AUX mute; March18,2017 coverage also reports manual mic gain and USB preset transfer. Exact firmware numbers/release dates and current latest status unresolved. These reporting dates and VoiceSupport2 1.1.02_build139 host version are not device firmware release dates."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Global nearest-semitone vocal correction; imported presets can add Harmony and HardTune alongside Megaphone/µMod. Onboard Double includes octave up/down style. Chord guidance through AUX/RoomSense does not establish polyphonic audio transposition. No microphone input-note polyphony limit or measured chord-tracking guarantee found.",
+          "preset": "Three editable automatically saved presets; imported effects and HIT states can be edited within the documented modifier limits. Harmony+HardTune exposes harmony level, not complete independent editing of both engines. Pitch guide is a visual tuning aid, distinct from correction. No gapless pitch-preset recall test.",
+          "dsp": "No pitch-specific CPU percentage, numerical DSP meter or resource cost located. Up to seven effects is a feature/concurrency headline, not equal processor shares. Generated harmony voices, LED segments and effect-level percentages do not measure DSP utilization.",
+          "source_urls": [
+            "https://cdn-media.empowertribe.com/cfa5e5a213cb34a7405952cab5421702/PERFORM-V_M_EN.pdf",
+            "https://www.tchelicon.com/en/products/0726-AAG"
+          ],
+          "measurements": [],
+          "notes": [
+            "Current product page still says three knobs/three buttons and suggests guitar feed/USB recording; these conflict with the original one-knob control inventory and delayed AUX guide path. Do not infer revised hardware or transfer VK/VG/VE capabilities.",
+            "No firmware installed, hardware operation or audio tracking test performed. Current complete latest-firmware version/date remains an explicit gap."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.musicradar.com/news/tech/namm-2016-tc-helicon-offers-quick-and-easy-vocal-processing-with-perform-v-634128",
+            "title": "Contemporary PERFORM-V NAMM availability report",
+            "access": "Dated January27,2016 original news body read",
+            "evidence": "Available-now statement; exact first shipment unverified."
+          },
+          {
+            "url": "https://cdn-media.empowertribe.com/cfa5e5a213cb34a7405952cab5421702/PERFORM-V_M_EN.pdf",
+            "title": "TC Helicon PERFORM-V English reference manual",
+            "access": "Restored direct manufacturer 52-page PDF read; firmware1.0/reference2015-11-17",
+            "evidence": "Nearest-semitone correction, imported Harmony/HardTune, three presets and limited modifiers; firmware1.0 not current-latest certification."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=3DmnXng2Htc",
+            "title": "TC Helicon PERFORM-V dimming and AUX-mute update demonstration",
+            "access": "Official manufacturer indexed video description/publication read",
+            "evidence": "June23,2016 reports released update; no version number or exact release date."
+          },
+          {
+            "url": "https://audiopronews.com/processors/tc-helicon-new-firmware-updates/",
+            "title": "Seven TC Helicon firmware updates — contemporary report",
+            "access": "March18,2017 report and linked manufacturer live-demo reference inspected",
+            "evidence": "PERFORM-V dimming, manual mic gain and USB preset transfer; other products changes excluded."
+          },
+          {
+            "url": "https://www.tchelicon.com/en/products/0726-AAG",
+            "title": "TC Helicon PERFORM-V current exact0726-AAG page",
+            "access": "Direct manufacturer page read",
+            "evidence": "VoiceSupport2 host listing, conflicting control/USB/guitar copy retained; no numbered device firmware release."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC-Helicon::PERFORM-V",
       "TC-Helicon::PERFORM-VE",
       "TC-Helicon::PERFORM-VG",
       "TC-Helicon::PERFORM-VK",
@@ -201831,12 +201905,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 288,
-    "last_model": "TC-Helicon::Mic Mechanic 2",
-    "last_commit_parent": "a87e799d919e6fa362762ffee5a25df637771882",
+    "completed_model_count": 289,
+    "last_model": "TC-Helicon::PERFORM-V",
+    "last_commit_parent": "63d45a669a6d845e2f214b0c88926bd073df168d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC-Helicon::PERFORM-V",
       "TC-Helicon::PERFORM-VE",
       "TC-Helicon::PERFORM-VG",
       "TC-Helicon::PERFORM-VK",
@@ -201951,7 +202024,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 288,
+    "pitch_completed_model_count": 289,
     "supplemental_model_count": 0
   },
   "model_images": {
