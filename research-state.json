@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MFX10/NUX_MFX10_UserManualV1_English.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Otherguide/Cerberus/NUX_Cerberus_FirmwareUpdate_SoftwareManual_EN.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 15,
+    "frame": 0,
     "text_pages": [
       0,
       2
@@ -196267,6 +196267,95 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::Cerberus NME-3": {
+        "model_key": "NUX::Cerberus NME-3",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2017-06",
+          "precision": "month",
+          "kind": "manufacturer announcement month proxy",
+          "source_urls": [
+            "https://www.premierguitar.com/nu-x-effects-announces-the-cerberus",
+            "https://www.guitarworld.com/gear/nux-announces-cerberus-multi-function-effect-pedal",
+            "https://www.guitarworld.com/archive/2017/06"
+          ],
+          "note": "Manufacturer press releases published by Guitar World (archive June9) and Premier Guitar (June19) establish June2017 introduction. Month precision preserves differing publication days; first dealer shipment day is not established."
+        },
+        "firmware": {
+          "version": "5.1.12",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://nuxaudio.com/product/cerberus/",
+            "https://cn.nuxaudio.com/product/cerberus/",
+            "https://www.nux.us/blogs/support/cerberus-support-hub",
+            "https://www.youtube.com/watch?v=Ao017KbgiBk"
+          ],
+          "note": "Global and Chinese manufacturer support list5.1.12 for Windows/macOS with update dates blank; current NUX USA hub corroborates version. Requires V5 editor; older3.9 requires V3. September27,2026 USA hub maintenance date is not firmware release date. Manufacturer V5.1 tutorial indexedJune13,2019 is broader-version evidence, not a proven exact5.1.12 release day. Span remains unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "V5 Shimmer replaces the Reverb effect, controlled by MIX/SHIMMER in editor or Reverb LEVEL/DECAY on hardware. Manufacturer does not specify pitch interval, note polyphony or chord-safe whole-signal transposition. No general-purpose Pitchshift/Harmonist/Whammy documented in checked current library; do not borrow MG-series algorithms.",
+          "preset": "128 writable positions in32banks of4. V5 saves effects/routing and per-preset IR choices; Shimmer occupies reverb position, not an extra freely insertable block. V3 preset files cannot import into V5; manufacturer recommends manually recording settings. Original16filled/112empty layout remains historical, currentV5 factory fill unverified.",
+          "dsp": "Fixed analog drive/distortion plus digital modulation/time/IR sections; no isolated Shimmer DSP percentage or block-cost figure located. Published overall input-to-output0.68–2.04ms latency is a manufacturer claim, not a Shimmer-specific measurement or independent benchmark. V5 reverb replacement documents slot use, not50% utilization.",
+          "source_urls": [
+            "https://nuxaudio.com/product/cerberus/",
+            "https://cn.nuxaudio.com/product/cerberus/"
+          ],
+          "measurements": [],
+          "notes": [
+            "No hardware/audio test. Shimmer pitch content does not prove polyphonic tracking or a dedicated transpose capability.",
+            "Legacy V3 compatibility and V5 replacement constraints retained."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://nuxaudio.com/product/cerberus/",
+            "title": "NUX Cerberus manufacturer current product/support",
+            "access": "Manufacturer page opened2026-11-22",
+            "evidence": "V5.1.12 with blank date; V5/V3 compatibility; Shimmer reverb replacement and controls;128positions; no isolated pitch DSP percentage."
+          },
+          {
+            "url": "https://cn.nuxaudio.com/product/cerberus/",
+            "title": "NUX Cerberus Chinese manufacturer support",
+            "access": "Manufacturer source text checked2026-11-22",
+            "evidence": "Exact5.1.12 Windows/macOS firmware with blank update date; older3.9 separated."
+          },
+          {
+            "url": "https://www.nux.us/blogs/support/cerberus-support-hub",
+            "title": "NUX USA Cerberus support hub",
+            "access": "Manufacturer support checked2026-11-22",
+            "evidence": "Lists5.1.12; hub last-updated September27,2026 not firmware release date."
+          },
+          {
+            "url": "https://www.premierguitar.com/nu-x-effects-announces-the-cerberus",
+            "title": "NUX manufacturer press release — Premier Guitar",
+            "access": "Manufacturer-authored press release opened2026-11-22",
+            "evidence": "June19,2017 introduction; not exact first dealer shipment."
+          },
+          {
+            "url": "https://www.guitarworld.com/gear/nux-announces-cerberus-multi-function-effect-pedal",
+            "title": "NUX manufacturer announcement — Guitar World",
+            "access": "Manufacturer-authored announcement checked2026-11-22",
+            "evidence": "Announcement of newCerberus; June2017 archive supplies publication context."
+          },
+          {
+            "url": "https://www.guitarworld.com/archive/2017/06",
+            "title": "Guitar World June2017 publication archive",
+            "access": "Publisher archive checked2026-11-22",
+            "evidence": "Places Cerberus announcement June9,2017, earlier than June19PG; month proxy used."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Ao017KbgiBk",
+            "title": "NUX Cerberus Firmware V5.1 Update and Edit Software V5 Demo",
+            "access": "Indexed official NUX channel metadata checked2026-11-22; video not watched",
+            "evidence": "June13,2019 tutorial; does not establish exact5.1.12 release date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -196303,7 +196392,6 @@
       "Neural DSP::Quad Cortex",
       "NUX::Amp Academy Stomp",
       "NUX::Atlantic NDR-5",
-      "NUX::Cerberus NME-3",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
@@ -196455,9 +196543,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 219,
-    "last_model": "NUX::MFX-10",
-    "last_commit_parent": "5190d5c4f356b429a3f32fbe75f11557a088845f",
+    "completed_model_count": 220,
+    "last_model": "NUX::Cerberus NME-3",
+    "last_commit_parent": "7c27d62bb43a0d1e66b9d5c6514e8852b8862741",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -196493,7 +196581,6 @@
       "Neural DSP::Quad Cortex",
       "NUX::Amp Academy Stomp",
       "NUX::Atlantic NDR-5",
-      "NUX::Cerberus NME-3",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
@@ -196644,7 +196731,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 219,
+    "pitch_completed_model_count": 220,
     "supplemental_model_count": 0
   },
   "model_images": {

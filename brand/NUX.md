@@ -295,6 +295,34 @@ This supersedes the earlier inventory-completeness uncertainty at indexed-origin
 
 ## Cerberus NME-3
 
+<!-- firmware-pitch:NUX::Cerberus NME-3 begins -->
+### Firmware and pitch audit — NUX Cerberus NME-3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017-06 (manufacturer announcement month proxy). Manufacturer press releases published by Guitar World (archive June9) and Premier Guitar (June19) establish June2017 introduction. Month precision preserves differing publication days; first dealer shipment day is not established. [launch 1](https://www.premierguitar.com/nu-x-effects-announces-the-cerberus) [launch 2](https://www.guitarworld.com/gear/nux-announces-cerberus-multi-function-effect-pedal) [launch 3](https://www.guitarworld.com/archive/2017/06) |
+| Firmware / latest verification | 5.1.12 — Latest verified. Global and Chinese manufacturer support list5.1.12 for Windows/macOS with update dates blank; current NUX USA hub corroborates version. Requires V5 editor; older3.9 requires V3. September27,2026 USA hub maintenance date is not firmware release date. Manufacturer V5.1 tutorial indexedJune13,2019 is broader-version evidence, not a proven exact5.1.12 release day. Span remains unknown. [firmware 1](https://nuxaudio.com/product/cerberus/) [firmware 2](https://cn.nuxaudio.com/product/cerberus/) [firmware 3](https://www.nux.us/blogs/support/cerberus-support-hub) [firmware 4](https://www.youtube.com/watch?v=Ao017KbgiBk) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. V5 Shimmer replaces the Reverb effect, controlled by MIX/SHIMMER in editor or Reverb LEVEL/DECAY on hardware. Manufacturer does not specify pitch interval, note polyphony or chord-safe whole-signal transposition. No general-purpose Pitchshift/Harmonist/Whammy documented in checked current library; do not borrow MG-series algorithms. [pitch 1](https://nuxaudio.com/product/cerberus/) [pitch 2](https://cn.nuxaudio.com/product/cerberus/) |
+| Pitch / preset recall | 128 writable positions in32banks of4. V5 saves effects/routing and per-preset IR choices; Shimmer occupies reverb position, not an extra freely insertable block. V3 preset files cannot import into V5; manufacturer recommends manually recording settings. Original16filled/112empty layout remains historical, currentV5 factory fill unverified. |
+| Pitch / DSP resources | Fixed analog drive/distortion plus digital modulation/time/IR sections; no isolated Shimmer DSP percentage or block-cost figure located. Published overall input-to-output0.68–2.04ms latency is a manufacturer claim, not a Shimmer-specific measurement or independent benchmark. V5 reverb replacement documents slot use, not50% utilization. |
+| Pitch / qualifications | No hardware/audio test. Shimmer pitch content does not prove polyphonic tracking or a dedicated transpose capability. Legacy V3 compatibility and V5 replacement constraints retained. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX Cerberus manufacturer current product/support](https://nuxaudio.com/product/cerberus/) — V5.1.12 with blank date; V5/V3 compatibility; Shimmer reverb replacement and controls;128positions; no isolated pitch DSP percentage. (Manufacturer page opened2026-11-22).
+- [NUX Cerberus Chinese manufacturer support](https://cn.nuxaudio.com/product/cerberus/) — Exact5.1.12 Windows/macOS firmware with blank update date; older3.9 separated. (Manufacturer source text checked2026-11-22).
+- [NUX USA Cerberus support hub](https://www.nux.us/blogs/support/cerberus-support-hub) — Lists5.1.12; hub last-updated September27,2026 not firmware release date. (Manufacturer support checked2026-11-22).
+- [NUX manufacturer press release — Premier Guitar](https://www.premierguitar.com/nu-x-effects-announces-the-cerberus) — June19,2017 introduction; not exact first dealer shipment. (Manufacturer-authored press release opened2026-11-22).
+- [NUX manufacturer announcement — Guitar World](https://www.guitarworld.com/gear/nux-announces-cerberus-multi-function-effect-pedal) — Announcement of newCerberus; June2017 archive supplies publication context. (Manufacturer-authored announcement checked2026-11-22).
+- [Guitar World June2017 publication archive](https://www.guitarworld.com/archive/2017/06) — Places Cerberus announcement June9,2017, earlier than June19PG; month proxy used. (Publisher archive checked2026-11-22).
+- [NUX Cerberus Firmware V5.1 Update and Edit Software V5 Demo](https://www.youtube.com/watch?v=Ao017KbgiBk) — June13,2019 tutorial; does not establish exact5.1.12 release date. (Indexed official NUX channel metadata checked2026-11-22; video not watched).
+
+<!-- firmware-pitch:NUX::Cerberus NME-3 ends -->
+
 **New profile,2026-10-15. Effects-only guitar multi-effects and controller.** Analog drive/distortion plus independent modulation,time effects and IR loading qualifies;it is not merely a controller. [Official product,firmware and editor](https://nuxaudio.com/product/cerberus/).
 
 | Required field | Primary finding / explicit gap |
