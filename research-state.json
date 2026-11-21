@@ -191214,6 +191214,75 @@
           "label": "0.77 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Fractal Audio::VP4": {
+        "model_key": "Fractal Audio::VP4",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2024-10-15",
+          "precision": "day",
+          "kind": "manufacturer_availability",
+          "source_urls": [
+            "https://www.fractalaudio.com/downloads/manuals/VP4/241015-Fractal-Audio-Announces-the-VP4-Virtual-Pedalboard.pdf"
+          ],
+          "note": "Manufacturer announcement explicitly lists availability October 15, 2024. Indexed original text checked; full PDF fetch exceeded the browser size limit."
+        },
+        "firmware": {
+          "version": "4.04",
+          "date": "2026-09-02",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.fractalaudio.com/vp4-downloads/"
+          ],
+          "note": "Current exact-model downloads page lists firmware 4.04, September 2, 2026, recommended for all VP4 owners. Editor, driver and factory-preset dates are not firmware dates; no installation performed."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Virtual Capo explicitly supports polyphonic whole-guitar transposition, ±24 semitones. Pitch also includes detune, chromatic/diatonic/custom harmony, whammy, octave and crystal modes; not every mode is thereby certified polyphonic. November 2026 comparison permits two Pitch blocks, subject to total slots/CPU.",
+          "preset": "104 presets; four scenes and four channels per block. Channels can recall different effect subtypes/settings within the same block category; hardware recall untested.",
+          "dsp": "Four total effect slots; Pitch maximum two instances, not two extra slots. Own manual specifies about 80% total CPU ceiling with forced bypass above it; bypassed blocks still use CPU. Plex Golden Shimmer approximately 18% versus Econo Shimmer approximately 11% are manufacturer examples, not Virtual Capo costs or measurements on firmware 4.04. Dedicated Pitch/Virtual Capo CPU percentage not located.",
+          "source_urls": [
+            "https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf",
+            "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No latency, tracking or CPU benchmark performed. Voice count does not establish input-note polyphony. Reverb/Plex pitch processing is separate from the dedicated Pitch block."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.fractalaudio.com/downloads/manuals/VP4/241015-Fractal-Audio-Announces-the-VP4-Virtual-Pedalboard.pdf",
+            "title": "Fractal Audio VP4 release announcement",
+            "access": "Manufacturer original PDF indexed text checked; full browser fetch rejected for size",
+            "evidence": "Availability October 15, 2024."
+          },
+          {
+            "url": "https://www.fractalaudio.com/vp4-downloads/",
+            "title": "VP4 downloads",
+            "access": "Manufacturer current page read",
+            "evidence": "Firmware 4.04, September 2, 2026."
+          },
+          {
+            "url": "https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf",
+            "title": "VP4 Owner’s Manual",
+            "access": "Manufacturer original PDF text read, pp25–27 and34",
+            "evidence": "Four-slot architecture; two Pitch instances; 104 presets, scenes/channels. Approximately 80% CPU ceiling and Plex example costs, not Virtual Capo measurements."
+          },
+          {
+            "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+            "title": "Fractal Audio Blocks Guide, November 2026",
+            "access": "Manufacturer original PDF text read, pp3,76–77,86",
+            "evidence": "VP4 permits two Pitch blocks. Virtual Capo explicitly polyphonic ±24 semitones; other pitch modes have distinct voice/tracking behavior."
+          }
+        ],
+        "duration": {
+          "minimum_days": 687,
+          "maximum_days": 687,
+          "label": "1.88 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -191222,7 +191291,6 @@
       "Fractal Audio::FM9 MKII Turbo",
       "Fractal Audio::FM9 original",
       "Fractal Audio::FM9 Turbo",
-      "Fractal Audio::VP4",
       "Kemper::PROFILER Head MK2",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER PowerHead MK2",
@@ -191464,9 +191532,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 157,
-    "last_model": "Fractal Audio::AM4",
-    "last_commit_parent": "9074f17b4ddda9750c6547a1b7d028edb0b442c7",
+    "completed_model_count": 158,
+    "last_model": "Fractal Audio::VP4",
+    "last_commit_parent": "ab60e2849a7a2bd592f2c3c8ebad0889b10c54e1",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::FM3 MKII Turbo",
@@ -191474,7 +191542,6 @@
       "Fractal Audio::FM9 MKII Turbo",
       "Fractal Audio::FM9 original",
       "Fractal Audio::FM9 Turbo",
-      "Fractal Audio::VP4",
       "Kemper::PROFILER Head MK2",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER PowerHead MK2",
@@ -191715,7 +191782,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 157,
+    "pitch_completed_model_count": 158,
     "supplemental_model_count": 0
   },
   "model_images": {

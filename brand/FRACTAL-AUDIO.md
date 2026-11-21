@@ -3048,6 +3048,31 @@ The diagram does not establish that the two dry-DI channels contain different si
 
 ## VP4
 
+<!-- firmware-pitch:Fractal Audio::VP4 begins -->
+### Firmware and pitch audit — Fractal Audio VP4
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-10-15 (manufacturer availability). Manufacturer announcement explicitly lists availability October 15, 2024. Indexed original text checked; full PDF fetch exceeded the browser size limit. [launch 1](https://www.fractalaudio.com/downloads/manuals/VP4/241015-Fractal-Audio-Announces-the-VP4-Virtual-Pedalboard.pdf) |
+| Firmware / latest verification | 4.04 — Latest verified. Current exact-model downloads page lists firmware 4.04, September 2, 2026, recommended for all VP4 owners. Editor, driver and factory-preset dates are not firmware dates; no installation performed. [firmware 1](https://www.fractalaudio.com/vp4-downloads/) |
+| Firmware / release date | 2026-09-02 (day precision) |
+| Firmware / release-to-update duration | 1.88 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Virtual Capo explicitly supports polyphonic whole-guitar transposition, ±24 semitones. Pitch also includes detune, chromatic/diatonic/custom harmony, whammy, octave and crystal modes; not every mode is thereby certified polyphonic. November 2026 comparison permits two Pitch blocks, subject to total slots/CPU. [pitch 1](https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf) [pitch 2](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) |
+| Pitch / preset recall | 104 presets; four scenes and four channels per block. Channels can recall different effect subtypes/settings within the same block category; hardware recall untested. |
+| Pitch / DSP resources | Four total effect slots; Pitch maximum two instances, not two extra slots. Own manual specifies about 80% total CPU ceiling with forced bypass above it; bypassed blocks still use CPU. Plex Golden Shimmer approximately 18% versus Econo Shimmer approximately 11% are manufacturer examples, not Virtual Capo costs or measurements on firmware 4.04. Dedicated Pitch/Virtual Capo CPU percentage not located. |
+| Pitch / qualifications | No latency, tracking or CPU benchmark performed. Voice count does not establish input-note polyphony. Reverb/Plex pitch processing is separate from the dedicated Pitch block. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Fractal Audio VP4 release announcement](https://www.fractalaudio.com/downloads/manuals/VP4/241015-Fractal-Audio-Announces-the-VP4-Virtual-Pedalboard.pdf) — Availability October 15, 2024. (Manufacturer original PDF indexed text checked; full browser fetch rejected for size).
+- [VP4 downloads](https://www.fractalaudio.com/vp4-downloads/) — Firmware 4.04, September 2, 2026. (Manufacturer current page read).
+- [VP4 Owner’s Manual](https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf) — Four-slot architecture; two Pitch instances; 104 presets, scenes/channels. Approximately 80% CPU ceiling and Plex example costs, not Virtual Capo measurements. (Manufacturer original PDF text read, pp25–27 and34).
+- [Fractal Audio Blocks Guide, November 2026](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) — VP4 permits two Pitch blocks. Virtual Capo explicitly polyphonic ±24 semitones; other pitch modes have distinct voice/tracking behavior. (Manufacturer original PDF text read, pp3,76–77,86).
+
+<!-- firmware-pitch:Fractal Audio::VP4 ends -->
+
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
 
 <!-- comparison evidence begins -->
