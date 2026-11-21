@@ -196445,11 +196445,35 @@
             "sha256": "518f914b3b8eb77c3222a5f0a166c6caad3d7ddcfa30f0936823a970a6967051"
           }
         }
+      },
+      "MOOER::GE1000": {
+        "model_key": "MOOER::GE1000",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://mooer.jp/cdn/shop/files/GE1000-03.png?v=1710383838&width=1445",
+            "source_url": "https://mooer.jp/products/mooer-ge1000",
+            "caption": "MOOER GE1000 — powered-on angled top view",
+            "note": "Complete standard GE1000, identified by chassis and pedal markings on its exact regional product page. LCD shows the GE SERIES boot screen and lights are illuminated. Angled view; a straight overhead photograph remains pending. All five footswitches and expression pedal visible.",
+            "visual_checked": true,
+            "sha256": "74fb3fa7ae4df0a466d19fc5463b12742ee96e5cce8b7ea5e9b0aa3a91da09e6",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://r2.gear4music.com/media/104/1041625/1200/preview_1.jpg",
+            "source_url": "https://www.gear4music.com/Guitar-and-Bass/Mooer-GE1000-Intelligent-Multi-Effects-Processor/67ZG",
+            "caption": "MOOER GE1000 — angled rear connections",
+            "note": "Full rear edge of the standard GE1000 visible at an angle: instrument input, FX-loop send/return, stereo XLR, ground lift, headphones, stereo jack outputs, shared MIDI IN/OUT, USB Type-C and DC input. Connector shapes visible; small legends are low contrast, so a clearer straight-on rear photograph remains desirable.",
+            "visual_checked": true,
+            "sha256": "6ccb60c5daae0555dd3f757820834902bcab3ca8491f9e14e4ede349e09711cd"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE300 Lite"
+    "last_model": "MOOER::GE1000"
   }
 }

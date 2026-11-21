@@ -2624,6 +2624,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GE1000 ends -->
 
+<!-- model-images:MOOER::GE1000 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GE1000 — powered-on angled top view**
+
+[![MOOER GE1000 — powered-on angled top view](https://mooer.jp/cdn/shop/files/GE1000-03.png?v=1710383838&width=1445)](https://mooer.jp/cdn/shop/files/GE1000-03.png?v=1710383838&width=1445)
+
+[Image source](https://mooer.jp/products/mooer-ge1000). Complete standard GE1000, identified by chassis and pedal markings on its exact regional product page. LCD shows the GE SERIES boot screen and lights are illuminated. Angled view; a straight overhead photograph remains pending. All five footswitches and expression pedal visible.
+
+**MOOER GE1000 — angled rear connections**
+
+[![MOOER GE1000 — angled rear connections](https://r2.gear4music.com/media/104/1041625/1200/preview_1.jpg)](https://r2.gear4music.com/media/104/1041625/1200/preview_1.jpg)
+
+[Image source](https://www.gear4music.com/Guitar-and-Bass/Mooer-GE1000-Intelligent-Multi-Effects-Processor/67ZG). Full rear edge of the standard GE1000 visible at an angle: instrument input, FX-loop send/return, stereo XLR, ground lift, headphones, stereo jack outputs, shared MIDI IN/OUT, USB Type-C and DC input. Connector shapes visible; small legends are low contrast, so a clearer straight-on rear photograph remains desirable.
+
+</details>
+<!-- model-images:MOOER::GE1000 ends -->
+
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE1000 source begins -->
