@@ -1765,6 +1765,26 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP500 ends -->
 
+<!-- model-images:DigiTech::RP500 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**RP500 powered-on near-top view and rear panel composite**
+
+[![RP500 powered-on near-top view and rear panel composite](https://images.equipboard.com/blog_content/digitech-rp500-review.jpg)](https://images.equipboard.com/blog_content/digitech-rp500-review.jpg)
+
+[Image source](https://equipboard.com/posts/best-multi-effect-guitar-pedal). Visually inspected: illuminated red display and switch LEDs; near-overhead product view, not a perfectly orthographic top-down photograph. Exact top-down replacement remains pending.
+
+**RP500 rear ports**
+
+[![RP500 rear ports](https://static.bax-shop.es/image/product/30243/19672/ecfa8c4a/URRP500_1.jpg)](https://static.bax-shop.es/image/product/30243/19672/ecfa8c4a/URRP500_1.jpg)
+
+[Image source](https://www.bax-shop.fr/pedale-multi-effets/digitech-rp500-pedale-d-effet-processeur-pour-guitare-electrique). Visually inspected RP500 rear sockets and labels; separate rear-panel photograph.
+
+</details>
+<!-- model-images:DigiTech::RP500 ends -->
+
+
 Guitar multi-effects, distinct from RP255/RP360XP/RP1000. Manufacturer lists past product. Checked2026-10-17; partial. Ownership and bass/vocal suitability unestablished.
 
 | Field | Finding / qualification | Evidence |

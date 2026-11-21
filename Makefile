@@ -10,6 +10,7 @@ include make/expression.mk
 include make/retirement.mk
 include make/publication.mk
 include make/firmware.mk
+include make/images.mk
 
 .PHONY: make-modules-plan
 make-modules-plan:

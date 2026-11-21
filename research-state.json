@@ -186525,5 +186525,37 @@
     ],
     "pitch_completed_model_count": 88,
     "supplemental_model_count": 0
+  },
+  "model_images": {
+    "models": {
+      "DigiTech::RP500": {
+        "model_key": "DigiTech::RP500",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://images.equipboard.com/blog_content/digitech-rp500-review.jpg",
+            "source_url": "https://equipboard.com/posts/best-multi-effect-guitar-pedal",
+            "caption": "RP500 powered-on near-top view and rear panel composite",
+            "note": "Visually inspected: illuminated red display and switch LEDs; near-overhead product view, not a perfectly orthographic top-down photograph. Exact top-down replacement remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "263040d83c09ac66e933a4ed6e3d0570622cb4529930a442138e66ab5b35a9c9"
+          },
+          "rear": {
+            "image_url": "https://static.bax-shop.es/image/product/30243/19672/ecfa8c4a/URRP500_1.jpg",
+            "source_url": "https://www.bax-shop.fr/pedale-multi-effets/digitech-rp500-pedale-d-effet-processeur-pour-guitare-electrique",
+            "caption": "RP500 rear ports",
+            "note": "Visually inspected RP500 rear sockets and labels; separate rear-panel photograph.",
+            "visual_checked": true,
+            "sha256": "c35224ce10d9802a1cf15096cb21cdc8590831bb64cc72822da4c0b98a56ad7e"
+          }
+        }
+      }
+    },
+    "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
+    "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
+    "hover_source": "https://github.com/github/markup#github-markup",
+    "last_model": "DigiTech::RP500"
   }
 }
