@@ -4833,6 +4833,31 @@ Remaining: visual control corroboration/external expression, processing ceiling/
 
 ## ME-25
 
+<!-- firmware-pitch:BOSS::ME-25 begins -->
+### Firmware and pitch audit — BOSS ME-25
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2010-01-14 (manufacturer announcement proxy). Announcement date; manufacturer planned January shipment, exact first retail day unverified. [launch 1](https://www.roland.com/us/company/press_releases/2010/881/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current index lists Tone Studio 1.1.2, OS drivers, librarians and patch libraries, but no device system program. These computer software versions are not firmware. No public device update found in targeted manufacturer search; internal revisions remain possible. [firmware 1](https://www.boss.info/global/support/by_product/me-25/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. HARMONIST and OCTAVE (one octave below) in MODULATION explicitly require single notes. Separate PEDAL FX +1/-1 OCTAVE continuously bend up/down one octave and also require single notes. FREEZE holds chords but does not establish polyphonic pitch shifting. [pitch 1](https://media.sweetwater.com/store/media/me-25_om.pdf) [pitch 2](https://cdn.roland.com/assets/media/pdf/ME-25_Training_Guide.pdf) |
+| Pitch / preset recall | 60 writable whole-program memories; separate 60-entry Sound Library supplies starting sounds but cannot store user edits. Save selected/edited sounds with WRITE into program memory. |
+| Pitch / DSP resources | HARMONIST and OCTAVE share one MODULATION selection, so cannot occupy it together; PEDAL FX is separate. Seven named effect groups are documented, not seven freely assignable pitch instances. No pitch CPU percentage or numerical DSP allocation table found. |
+| Pitch / qualifications | No general chromatic interval-shifter algorithm documented beyond Harmonist and octave choices. No sibling ME-series polyphony or DSP costs transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS unveils ME-25 multi-effects for guitar](https://www.roland.com/us/company/press_releases/2010/881/) — January 14, 2010 announcement, planned January shipment, expression octave effects and USB. (Manufacturer press release web text).
+- [ME-25 updates and drivers](https://www.boss.info/global/support/by_product/me-25/updates_drivers/) — Tone Studio, drivers, librarians and patches listed; no device system-program entry. (Manufacturer current support index web text).
+- [BOSS ME-25 Owner Manual (manufacturer document mirrored by Sweetwater)](https://media.sweetwater.com/store/media/me-25_om.pdf) — Pages 3–4 memory/library/write; page 7 Harmonist and octave single-note restrictions; page 8 pedal octave single-note restriction, Freeze chord hold. (Manufacturer-authored English manual PDF web text, retailer-hosted mirror; official multilingual PDF exceeds web retrieval size).
+- [BOSS ME-25 Training Guide](https://cdn.roland.com/assets/media/pdf/ME-25_Training_Guide.pdf) — Seven effect groups and 60 programmable programs; pages 8–9 list MODULATION Harmonist/Octave separately from PEDAL FX octave bends. (Manufacturer PDF web text).
+
+<!-- firmware-pitch:BOSS::ME-25 ends -->
+
 Guitar multi-effects; checked 2026-10-17, partial. Manufacturer marks discontinued. Bass suitability unclassified. An exact Shopee hardware lead is faulty and sold out; it is not a working-unit price.
 
 <!-- comparison evidence begins -->

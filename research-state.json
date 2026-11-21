@@ -183519,10 +183519,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::ME-25": {
+        "model_key": "BOSS::ME-25",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2010-01-14",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2010/881/"
+          ],
+          "note": "Announcement date; manufacturer planned January shipment, exact first retail day unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/me-25/updates_drivers/"
+          ],
+          "note": "Current index lists Tone Studio 1.1.2, OS drivers, librarians and patch libraries, but no device system program. These computer software versions are not firmware. No public device update found in targeted manufacturer search; internal revisions remain possible."
+        },
+        "pitch": {
+          "status": "documented_monophonic",
+          "algorithms": "HARMONIST and OCTAVE (one octave below) in MODULATION explicitly require single notes. Separate PEDAL FX +1/-1 OCTAVE continuously bend up/down one octave and also require single notes. FREEZE holds chords but does not establish polyphonic pitch shifting.",
+          "preset": "60 writable whole-program memories; separate 60-entry Sound Library supplies starting sounds but cannot store user edits. Save selected/edited sounds with WRITE into program memory.",
+          "dsp": "HARMONIST and OCTAVE share one MODULATION selection, so cannot occupy it together; PEDAL FX is separate. Seven named effect groups are documented, not seven freely assignable pitch instances. No pitch CPU percentage or numerical DSP allocation table found.",
+          "measurements": [],
+          "source_urls": [
+            "https://media.sweetwater.com/store/media/me-25_om.pdf",
+            "https://cdn.roland.com/assets/media/pdf/ME-25_Training_Guide.pdf"
+          ],
+          "notes": [
+            "No general chromatic interval-shifter algorithm documented beyond Harmonist and octave choices. No sibling ME-series polyphony or DSP costs transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2010/881/",
+            "title": "BOSS unveils ME-25 multi-effects for guitar",
+            "access": "Manufacturer press release web text",
+            "evidence": "January 14, 2010 announcement, planned January shipment, expression octave effects and USB."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/me-25/updates_drivers/",
+            "title": "ME-25 updates and drivers",
+            "access": "Manufacturer current support index web text",
+            "evidence": "Tone Studio, drivers, librarians and patches listed; no device system-program entry."
+          },
+          {
+            "url": "https://media.sweetwater.com/store/media/me-25_om.pdf",
+            "title": "BOSS ME-25 Owner Manual (manufacturer document mirrored by Sweetwater)",
+            "access": "Manufacturer-authored English manual PDF web text, retailer-hosted mirror; official multilingual PDF exceeds web retrieval size",
+            "evidence": "Pages 3–4 memory/library/write; page 7 Harmonist and octave single-note restrictions; page 8 pedal octave single-note restriction, Freeze chord hold."
+          },
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/ME-25_Training_Guide.pdf",
+            "title": "BOSS ME-25 Training Guide",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Seven effect groups and 60 programmable programs; pages 8–9 list MODULATION Harmonist/Octave separately from PEDAL FX octave bends."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::ME-25",
       "BOSS::ME-30",
       "BOSS::ME-5",
       "BOSS::ME-50",
@@ -183874,12 +183938,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 52,
-    "last_model": "BOSS::ME-20B",
-    "last_commit_parent": "8479e91ec468b8c66c8a557f7f291b712c270200",
+    "completed_model_count": 53,
+    "last_model": "BOSS::ME-25",
+    "last_commit_parent": "346aaaebc0cc4e0ed996ff7abf2c6e4dc5473e2e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::ME-25",
       "BOSS::ME-30",
       "BOSS::ME-5",
       "BOSS::ME-50",
@@ -184230,7 +184293,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 52,
+    "pitch_completed_model_count": 53,
     "supplemental_model_count": 0
   }
 }
