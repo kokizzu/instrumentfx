@@ -194965,6 +194965,82 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::Prime S1": {
+        "model_key": "MOOER::Prime S1",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2024-03-13",
+          "precision": "day",
+          "kind": "manufacturer_announcement_index_proxy",
+          "source_urls": [
+            "https://cn.mooeraudio.com/bews/p-48-12.html"
+          ],
+          "note": "Exact Chinese manufacturer S1 launch row dated March 13, 2024; announcement-index proxy, not verified first worldwide shipment. Earlier late-2023 seller/distributor leads are not established as first release; March 27 official video is later presentation."
+        },
+        "firmware": {
+          "version": "1.3.4",
+          "date": "2024-08-27",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/Downloads_xq/2.html",
+            "https://cn.mooeraudio.com/Downloads_xq/1.html"
+          ],
+          "note": "Historical explicit S1 device-firmware anchor, not current latest: adds bass amps/cabs/presets. Newer September 21, 2026 Chinese S1/M1 2.0.0 firmware-labelled NAM A2 update and September 22 English packages exist; exact installed version mapping is unverified. January shared M1/S1 text says device 1.1.0, which is ambiguous against earlier S1 1.3.4 and is not silently treated as an S1 downgrade. Android 4.0.0 stem separation is separate; no newer package-only date used in span."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Regional S1 version 1.3.5 inventory explicitly names MO Pitch Shift. Polyphonic/monophonic classification, interval limits, fully wet capability and current complete pitch inventory remain unverified.",
+          "preset": "40 tone locations (10 banks ×4), selectable by A–D; Prime app edits/stores tones. Factory-filled subset and independent pitch recall test remain unverified.",
+          "dsp": "Regional 1.3.5 table reports eight effect blocks without repeated effect types. Pitch Shift occupies MO rather than an additional free block. Current firmware allocation, isolated pitch DSP percentage and overload behavior remain unresolved; block count is not CPU usage.",
+          "source_urls": [
+            "https://mooer.jp/pages/mooer-prime-s1-m1-m2",
+            "https://mooer.jp/products/mooer-prime-s1"
+          ],
+          "measurements": [],
+          "notes": [
+            "Historical version inventory does not invalidate later NAM/MNRS additions. No independent chord-tracking, latency or DSP measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://cn.mooeraudio.com/bews/p-48-12.html",
+            "title": "Chinese manufacturer launch news index",
+            "access": "Exact S1 launch title and March 13, 2024 date checked",
+            "evidence": "Qualified announcement-index proxy, not shipping confirmation."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/2.html",
+            "title": "English Prime support",
+            "access": "Current packages and historical dated S1 firmware statements read",
+            "evidence": "Explicit S1 1.3.4 August 27, 2024; newer 2.0.0 packages and shared January version ambiguity."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/Downloads_xq/1.html",
+            "title": "Chinese Prime support",
+            "access": "Current NAM A2 and historical S1 entries read",
+            "evidence": "September 21, 2026 S1/M1 2.0.0 NAM A2 update; August 2024 S1 device version."
+          },
+          {
+            "url": "https://mooer.jp/pages/mooer-prime-s1-m1-m2",
+            "title": "Japanese Prime comparison",
+            "access": "Exact S1 1.3.5 column and effect rows checked",
+            "evidence": "Pitch Shift, eight blocks without repeats, 40 slots. Version-qualified."
+          },
+          {
+            "url": "https://mooer.jp/products/mooer-prime-s1",
+            "title": "Japanese exact S1 product",
+            "access": "Product operation/preset context read",
+            "evidence": "App editing and preset selection; not a CPU or polyphony claim."
+          }
+        ],
+        "duration": {
+          "minimum_days": 167,
+          "maximum_days": 167,
+          "label": "0.46 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -194996,7 +195072,6 @@
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
       "MOOER::Prime P1",
-      "MOOER::Prime S1",
       "Mosky::DC5",
       "Mosky::RC5",
       "Mosky::RD5",
@@ -195167,9 +195242,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 205,
-    "last_model": "MOOER::Prime M2",
-    "last_commit_parent": "1d75b00229fc27f560ae1859998139d2a39bfe4a",
+    "completed_model_count": 206,
+    "last_model": "MOOER::Prime S1",
+    "last_commit_parent": "3790125ab46ba04b31414628df3115d545c81f29",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -195200,7 +195275,6 @@
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
       "MOOER::Prime P1",
-      "MOOER::Prime S1",
       "Mosky::DC5",
       "Mosky::RC5",
       "Mosky::RD5",
@@ -195370,7 +195444,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 205,
+    "pitch_completed_model_count": 206,
     "supplemental_model_count": 0
   },
   "model_images": {

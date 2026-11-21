@@ -4293,6 +4293,32 @@ Checked2026-10-19. [MOOER-authored V01.2023.09.21 manual, printed pp5–7,12](ht
 
 ## Prime S1
 
+<!-- firmware-pitch:MOOER::Prime S1 begins -->
+### Firmware and pitch audit — MOOER Prime S1
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-03-13 (manufacturer announcement index proxy). Exact Chinese manufacturer S1 launch row dated March 13, 2024; announcement-index proxy, not verified first worldwide shipment. Earlier late-2023 seller/distributor leads are not established as first release; March 27 official video is later presentation. [launch 1](https://cn.mooeraudio.com/bews/p-48-12.html) |
+| Firmware / latest verification | 1.3.4 — Located; latest status unverified. Historical explicit S1 device-firmware anchor, not current latest: adds bass amps/cabs/presets. Newer September 21, 2026 Chinese S1/M1 2.0.0 firmware-labelled NAM A2 update and September 22 English packages exist; exact installed version mapping is unverified. January shared M1/S1 text says device 1.1.0, which is ambiguous against earlier S1 1.3.4 and is not silently treated as an S1 downgrade. Android 4.0.0 stem separation is separate; no newer package-only date used in span. [firmware 1](https://www.mooeraudio.com/Downloads_xq/2.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/1.html) |
+| Firmware / release date | 2024-08-27 (day precision) |
+| Firmware / release-to-update duration | 0.46 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Regional S1 version 1.3.5 inventory explicitly names MO Pitch Shift. Polyphonic/monophonic classification, interval limits, fully wet capability and current complete pitch inventory remain unverified. [pitch 1](https://mooer.jp/pages/mooer-prime-s1-m1-m2) [pitch 2](https://mooer.jp/products/mooer-prime-s1) |
+| Pitch / preset recall | 40 tone locations (10 banks ×4), selectable by A–D; Prime app edits/stores tones. Factory-filled subset and independent pitch recall test remain unverified. |
+| Pitch / DSP resources | Regional 1.3.5 table reports eight effect blocks without repeated effect types. Pitch Shift occupies MO rather than an additional free block. Current firmware allocation, isolated pitch DSP percentage and overload behavior remain unresolved; block count is not CPU usage. |
+| Pitch / qualifications | Historical version inventory does not invalidate later NAM/MNRS additions. No independent chord-tracking, latency or DSP measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Chinese manufacturer launch news index](https://cn.mooeraudio.com/bews/p-48-12.html) — Qualified announcement-index proxy, not shipping confirmation. (Exact S1 launch title and March 13, 2024 date checked).
+- [English Prime support](https://www.mooeraudio.com/Downloads_xq/2.html) — Explicit S1 1.3.4 August 27, 2024; newer 2.0.0 packages and shared January version ambiguity. (Current packages and historical dated S1 firmware statements read).
+- [Chinese Prime support](https://cn.mooeraudio.com/Downloads_xq/1.html) — September 21, 2026 S1/M1 2.0.0 NAM A2 update; August 2024 S1 device version. (Current NAM A2 and historical S1 entries read).
+- [Japanese Prime comparison](https://mooer.jp/pages/mooer-prime-s1-m1-m2) — Pitch Shift, eight blocks without repeats, 40 slots. Version-qualified. (Exact S1 1.3.5 column and effect rows checked).
+- [Japanese exact S1 product](https://mooer.jp/products/mooer-prime-s1) — App editing and preset selection; not a CPU or polyphony claim. (Product operation/preset context read).
+
+<!-- firmware-pitch:MOOER::Prime S1 ends -->
+
 Portable guitar/bass multi-effects; checked2026-10-18, partial. Distinct from P1/P2/M1/M2. Ownership andvocal processing unverified. Bass membership requires the documented later firmware,not launch-page sibling inference.
 
 | Field | Finding / qualification | Evidence |
