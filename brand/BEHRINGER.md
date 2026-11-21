@@ -768,6 +768,29 @@ No hardware test or download;existing offers and other specifications retained. 
 
 ## X V-AMP LX1-X
 
+<!-- firmware-pitch:Behringer::X V-AMP LX1-X begins -->
+### Firmware and pitch audit — Behringer X V-AMP LX1-X
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. First hardware release date not established. Manual revision/copyright dates are not launch dates. [launch 1](https://www.fullcompass.com/common/files/22449-BehringerXVAmpLX1XUserManual.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. No public device firmware package or dated release history located in the checked manufacturer-manual and exact-model searches. This does not establish that firmware updates never existed; manual revisions are not firmware versions. [firmware 1](https://www.fullcompass.com/common/files/22449-BehringerXVAmpLX1XUserManual.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Four PITCH BEND models: fixed-interval PS-5-style shift, momentary T-Arm, expression-pedal Whammy and detune. Models 1–3 select −12/−7/−5/−3/+3/+4/+5/+7/+12 semitones; detune is ±20 cents. Note polyphony is not specified. [pitch 1](https://www.fullcompass.com/common/files/22449-BehringerXVAmpLX1XUserManual.pdf) [pitch 2](https://www.manualslib.com/manual/912093/Behringer-X-V-Amp.html?page=10) |
+| Pitch / preset recall | 100 rewritable locations (00–99). Brief STORE selects a destination using UP/DOWN; hold STORE longer than 2 seconds to save. |
+| Pitch / DSP resources | No per-algorithm CPU percentage or DSP meter documented. Pitch bend occupies the single modulation selection and excludes Wah Wah; T-Arm/Whammy take the expression pedal assignment. These are routing/control limits, not a measured DSP percentage. |
+| Pitch / qualifications | The detune specification of ±20% of a semitone describes pitch range, not DSP use. No polyphonic claim inferred from the modeled pedal names or stereo outputs. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Behringer X V-AMP LX1-X manufacturer user manual (Full Compass mirror)](https://www.fullcompass.com/common/files/22449-BehringerXVAmpLX1XUserManual.pdf) — Sections 2, 4 and 6 document preset saving and pitch/wah exclusion; inspected manual has no dated device firmware history or per-algorithm DSP percentage. (opened; manufacturer manuscript; text_only).
+- [Behringer X V-AMP manufacturer manual, pitch effect section (ManualsLib mirror)](https://www.manualslib.com/manual/912093/Behringer-X-V-Amp.html?page=10) — Four pitch models, discrete semitone intervals and fractional-semitone detune; no note-polyphony specification. (opened; manufacturer manuscript; text_only).
+
+<!-- firmware-pitch:Behringer::X V-AMP LX1-X ends -->
+
 Checked2026-10-18;partial guitar multi-effects. Bass/vocal suitability andownership unverified;no sibling specifications transferred.
 
 <!-- comparison evidence begins -->
