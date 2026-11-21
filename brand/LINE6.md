@@ -3697,6 +3697,30 @@ The [item titled POD Go Express](https://toco.id/listing/line-6-pod-go-express-m
 
 ## POD HD300
 
+<!-- firmware-pitch:Line 6::POD HD300 begins -->
+### Firmware and pitch audit — Line 6 POD HD300
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2010-09-30 (manufacturer shipping announcement). Line 6 press release reprinted by Premier Guitar explicitly says the HD family ships and names HD300. Original manufacturer-hosted release not recovered. [launch 1](https://www.premierguitar.com/line-6-debuts-hd-amp-modeling-in-three-pod-hd-multi-effect-pedals) |
+| Firmware / latest verification | 2.01 — Latest verified. Current exact-HD300 Flash Memory catalogue lists 2.01 first, July 17, 2012. Includes additional guitar/bass amp and FX models. HD300 Edit/Monkey and HD400/HD500 firmware are separate; no update installed. [firmware 1](https://line6.com/software/index.html?hardware=POD+HD300&name=Flash+Memory&submit_form=set) |
+| Firmware / release date | 2012-07-17 (day precision) |
+| Firmware / release-to-update duration | 1.80 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. Smart Harmony explicitly tracks single notes for key/scale harmony. Pitch Glide and Bass Octaver also included; chord/polyphonic tracking for those is unverified. No blanket monophony claim for every algorithm. [pitch 1](https://line6.com/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf?locale=de_DE) |
+| Pitch / preset recall | 128 overwriteable locations (32×4). FX settings and Pitch Glide pedal-mode assignment save per preset; no physical recall test. |
+| Pitch / DSP resources | Smart Harmony, Pitch Glide and Bass Octaver compete for one FX1 slot with gain/EQ/synth choices. FX2, FX3, reverb and other dedicated functions are separate. No per-pitch CPU percentage located; HD500 dynamic-DSP figures not transferred. |
+| Pitch / qualifications | Shared HD300/HD400 guide is Flash 2.0+; HD400-only effects and external Pedal 2 excluded. No tracking/latency/CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 POD HD shipping press release, September 30, 2010](https://www.premierguitar.com/line-6-debuts-hd-amp-modeling-in-three-pod-hd-multi-effect-pedals) — Shipping statement and explicit HD300 identification; not inferred from first firmware. (Manufacturer press release reproduced by Premier Guitar read).
+- [POD HD300 Flash Memory catalogue](https://line6.com/software/index.html?hardware=POD+HD300&name=Flash+Memory&submit_form=set) — Newest 2.01 July 17, 2012; older 1.31.0, 1.20.0 and 1.10.0 entries. (Direct manufacturer HTML read; SHA256 a0a933a4eba639b66400b5bdcf2c537f2f3636a70c4893d1a48870797c17c413).
+- [POD HD300/HD400 Advanced Guide Rev A, Flash 2.0+](https://line6.com/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf?locale=de_DE) — FX1 pitch alternatives; Smart Harmony single-note operation, Pitch Glide preset-saved control, fixed slot architecture and HD400-only exclusions. (Manufacturer PDF read).
+
+<!-- firmware-pitch:Line 6::POD HD300 ends -->
+
 Checked2026-10-17;partial;ownership unverified. Own RevC handbook;HD400-only features not borrowed.
 
 <!-- comparison evidence begins -->
