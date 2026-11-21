@@ -193547,11 +193547,27 @@
             "sha256": "bd73197840ce1c70b3cc676682f67675d22fbc020011a48be0770346420ece54"
           }
         }
+      },
+      "DigiTech::RP150": {
+        "model_key": "DigiTech::RP150",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/156606000000000-00-600x600.jpg",
+            "source_url": "https://www.guitarcenter.com/Restock/DigiTech/RP150-Guitar-Multi-Effects-Pedal-1273887997450.gc",
+            "caption": "DigiTech RP150 — top panel",
+            "note": "Retailer straight top-down promotional photograph with illuminated green RP display and status indicators. Source is 600 × 600 pixels with broad white margins, limiting small-label detail. Rear photograph remains pending because the selected Bolha image connection timed out. No independent device operation.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "46dbf39fbde26b5551b6958c99e33b4ef78c164a023aaa6dfbf6f630603392ed"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP155"
+    "last_model": "DigiTech::RP150"
   }
 }

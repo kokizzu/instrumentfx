@@ -1020,6 +1020,22 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::RP150 ends -->
 
+<!-- model-images:DigiTech::RP150 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**DigiTech RP150 — top panel**
+
+[![DigiTech RP150 — top panel](https://media.guitarcenter.com/is/image/MMGS7/156606000000000-00-600x600.jpg)](https://media.guitarcenter.com/is/image/MMGS7/156606000000000-00-600x600.jpg)
+
+[Image source](https://www.guitarcenter.com/Restock/DigiTech/RP150-Guitar-Multi-Effects-Pedal-1273887997450.gc). Retailer straight top-down promotional photograph with illuminated green RP display and status indicators. Source is 600 × 600 pixels with broad white margins, limiting small-label detail. Rear photograph remains pending because the selected Bolha image connection timed out. No independent device operation.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:DigiTech::RP150 ends -->
+
+
 Guitar multi-effects;partial,checked2026-10-18. Distinct fromRP155/RP250. [Manufacturer product](https://digitech.com/dp/rp150/),[own manual RevB](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf),printedpp6–11,38–39.
 
 <!-- comparison evidence begins -->
