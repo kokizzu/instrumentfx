@@ -9,6 +9,7 @@ include make/navigation.mk
 include make/expression.mk
 include make/retirement.mk
 include make/publication.mk
+include make/firmware.mk
 
 .PHONY: make-modules-plan
 make-modules-plan:

@@ -179623,6 +179623,88 @@
           "label": "4.71 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Hotone::Ampero II MP-350": {
+        "model_key": "Hotone::Ampero II MP-350",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2024-10",
+          "precision": "month",
+          "kind": "manufacturer_announcement_month",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=DZyYpvxNJ04"
+          ],
+          "note": "HotoneAudio's introduction video is dated October 23, 2024. October is an announcement-month proxy; the earliest worldwide customer shipment/day is not established. Do not substitute the later Japanese retail date or the Stomp launch."
+        },
+        "firmware": {
+          "version": "1.4.0",
+          "date": "2026-07-30",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.hotone.com/support/2",
+            "https://www.hotone.com/news/NAM%20A2%20Now%20Supported%20Across%20the%20Entire%20Ampero%20II%20Series!"
+          ],
+          "note": "Current exact-model index and dated release notes agree. Adds native NAM A2 Lite. Editor 1.5.1 is separate software; installed firmware not inspected."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Pitch Shift HQ is explicitly polyphonic in MP-350 firmware 1.3.0 notes; Bass Line is separately a polyphonic octaver. Their note handling does not establish latency or tracking quality.",
+          "preset": "Yes: the MP-350 V1.0.2 manual, printed p57, documents saving effect parameters, control assignments and scenes. Unsaved edits are lost on patch change. Current 1.4.0 retention of every HQ parameter was not independently tested.",
+          "dsp": "No exact MP-350 pitch percentage located. V1.0.2 manual pp44-45 documents effect-dependent DSP limits and unavailable choices when resources run out. Twelve slots are a ceiling, not twelve arbitrary simultaneous high-cost effects. Do not transfer the MP-300 Stomp's 50% owner observation to MP-350.",
+          "source_urls": [
+            "https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81",
+            "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20II_Online%20Manual_EN_Firmware%20V1.0.2.1729149212573.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "HQ introduction is documented for 1.3.0; current support lists a 1.4.0 effect list, but its content was not inspected in this audit. Earlier model-specific pitch evidence elsewhere in this section is retained."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=DZyYpvxNJ04",
+            "title": "HotoneAudio Ampero II introduction",
+            "access": "indexed_manufacturer_video_metadata",
+            "evidence": "Official HotoneAudio introduction dated 2024-10-23; establishes announcement month, not exact first shipment."
+          },
+          {
+            "url": "https://www.hotone.com/support/2",
+            "title": "Hotone firmware index",
+            "access": "opened",
+            "evidence": "MP-350 device firmware 1.4.0 listed with desktop editor 1.5.1 separately."
+          },
+          {
+            "url": "https://www.hotone.com/news/NAM%20A2%20Now%20Supported%20Across%20the%20Entire%20Ampero%20II%20Series!",
+            "title": "Hotone NAM A2 release notes",
+            "access": "opened",
+            "evidence": "MP-350 1.4.0 dated July 30, 2026 adds native NAM A2 Lite."
+          },
+          {
+            "url": "https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81",
+            "title": "Hotone Ampero II firmware 1.3.0 notes",
+            "access": "opened",
+            "evidence": "Exact MP-350 section names Pitch Shift HQ as polyphonic, separately from Bass Line octaver."
+          },
+          {
+            "url": "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20II_Online%20Manual_EN_Firmware%20V1.0.2.1729149212573.pdf",
+            "title": "MP-350 original V1.0.2 manual",
+            "access": "opened_official_pdf_text",
+            "evidence": "Printed pp44-45 DSP overload and p57 SAVE explain resource limits and saved parameters."
+          },
+          {
+            "url": "https://www.hotone.com/support/1?pid=102&tid=1",
+            "title": "Exact MP-350 manual index",
+            "access": "opened_index_only",
+            "evidence": "Lists 1.4.0 effect list/manual; current PDF contents not established by listing alone."
+          }
+        ],
+        "duration": {
+          "minimum_days": 637,
+          "maximum_days": 667,
+          "label": "1.74–1.83 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -179752,7 +179834,6 @@
       "HeadRush::Pedalboard",
       "HeadRush::Prime",
       "HeadRush::VX5",
-      "Hotone::Ampero II MP-350",
       "Hotone::Ampero II Stage MP-380",
       "Hotone::Ampero Mini MP-50",
       "Hotone::Ampero MP-100",
@@ -180028,9 +180109,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 2,
-    "last_model": "Hotone::Ampero II Stomp MP-300",
-    "last_commit_parent": "065a9236479006100bc9b7388c5806e92e3e68eb",
+    "completed_model_count": 3,
+    "last_model": "Hotone::Ampero II MP-350",
+    "last_commit_parent": "6b0e5edd979e5022664d89d2a383551f36ee12aa",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Alesis::MicroVerb 4",
@@ -180160,7 +180241,6 @@
       "HeadRush::Pedalboard",
       "HeadRush::Prime",
       "HeadRush::VX5",
-      "Hotone::Ampero II MP-350",
       "Hotone::Ampero II Stage MP-380",
       "Hotone::Ampero Mini MP-50",
       "Hotone::Ampero MP-100",
@@ -180435,7 +180515,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 1,
+    "pitch_completed_model_count": 2,
     "supplemental_model_count": 0
   }
 }

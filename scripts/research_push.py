@@ -9,7 +9,7 @@ def git(*args):
     return subprocess.check_output(['git', *args], cwd=ROOT, text=True).strip()
 assert git('branch','--show-current') == 'main'
 assert git('remote','get-url','origin') == 'git@github.com:kokizzu/instrumentfx.git'
-if sys.argv[1] not in {'inspect','finalize','auth-check','stage-transport','commit-transport'}:
+if sys.argv[1] not in {'inspect','finalize','auth-check','stage-transport','commit-transport','sync'}:
     assert not git('status','--porcelain'), 'Dirty worktree'
 mode = sys.argv[1]
 def remote_git(*args):
@@ -74,7 +74,11 @@ elif mode == 'finalize':
     subprocess.run(['git','add','--',*names],cwd=ROOT,check=True)
     subprocess.run(['git','commit','-m','Merge origin/main expression research preserving current inventory and all evidence'],cwd=ROOT,check=True)
 elif mode == 'sync':
-    subprocess.run(['git','merge','--no-edit','origin/main'],cwd=ROOT,check=True)
+    assert set(git('diff','--name-only').splitlines()) <= {'scripts/research_push.py'}, 'Unrelated local changes'
+    assert not git('diff','--cached','--name-only'), 'Existing staged work'
+    refs=git('ls-remote','--symref','origin','HEAD')
+    assert 'ref: refs/heads/main\tHEAD' in refs, 'Upstream primary changed'
+    subprocess.run(['git','merge','--ff-only','origin/main'],cwd=ROOT,check=True)
 elif mode in {'plan','plan-https'}:
     remote_git('fetch','origin','main')
     ahead, behind = map(int,git('rev-list','--left-right','--count','HEAD...origin/main').split())

@@ -16,6 +16,33 @@ Root-level canonical brand document. **Checked2026-10-15.** Ampero One MP-80 is 
 
 ## Ampero II MP-350
 
+<!-- firmware-pitch:Hotone::Ampero II MP-350 begins -->
+### Firmware and pitch audit — Hotone Ampero II MP-350
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-10 (manufacturer announcement month). HotoneAudio's introduction video is dated October 23, 2024. October is an announcement-month proxy; the earliest worldwide customer shipment/day is not established. Do not substitute the later Japanese retail date or the Stomp launch. [launch 1](https://www.youtube.com/watch?v=DZyYpvxNJ04) |
+| Firmware / latest verification | 1.4.0 — Latest verified. Current exact-model index and dated release notes agree. Adds native NAM A2 Lite. Editor 1.5.1 is separate software; installed firmware not inspected. [firmware 1](https://www.hotone.com/support/2) [firmware 2](https://www.hotone.com/news/NAM%20A2%20Now%20Supported%20Across%20the%20Entire%20Ampero%20II%20Series!) |
+| Firmware / release date | 2026-07-30 (day precision) |
+| Firmware / release-to-update duration | 1.74–1.83 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Pitch Shift HQ is explicitly polyphonic in MP-350 firmware 1.3.0 notes; Bass Line is separately a polyphonic octaver. Their note handling does not establish latency or tracking quality. [pitch 1](https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81) [pitch 2](https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20II_Online%20Manual_EN_Firmware%20V1.0.2.1729149212573.pdf) |
+| Pitch / preset recall | Yes: the MP-350 V1.0.2 manual, printed p57, documents saving effect parameters, control assignments and scenes. Unsaved edits are lost on patch change. Current 1.4.0 retention of every HQ parameter was not independently tested. |
+| Pitch / DSP resources | No exact MP-350 pitch percentage located. V1.0.2 manual pp44-45 documents effect-dependent DSP limits and unavailable choices when resources run out. Twelve slots are a ceiling, not twelve arbitrary simultaneous high-cost effects. Do not transfer the MP-300 Stomp's 50% owner observation to MP-350. |
+| Pitch / qualifications | HQ introduction is documented for 1.3.0; current support lists a 1.4.0 effect list, but its content was not inspected in this audit. Earlier model-specific pitch evidence elsewhere in this section is retained. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [HotoneAudio Ampero II introduction](https://www.youtube.com/watch?v=DZyYpvxNJ04) — Official HotoneAudio introduction dated 2024-10-23; establishes announcement month, not exact first shipment. (indexed_manufacturer_video_metadata).
+- [Hotone firmware index](https://www.hotone.com/support/2) — MP-350 device firmware 1.4.0 listed with desktop editor 1.5.1 separately. (opened).
+- [Hotone NAM A2 release notes](https://www.hotone.com/news/NAM%20A2%20Now%20Supported%20Across%20the%20Entire%20Ampero%20II%20Series!) — MP-350 1.4.0 dated July 30, 2026 adds native NAM A2 Lite. (opened).
+- [Hotone Ampero II firmware 1.3.0 notes](https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81) — Exact MP-350 section names Pitch Shift HQ as polyphonic, separately from Bass Line octaver. (opened).
+- [MP-350 original V1.0.2 manual](https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20II_Online%20Manual_EN_Firmware%20V1.0.2.1729149212573.pdf) — Printed pp44-45 DSP overload and p57 SAVE explain resource limits and saved parameters. (opened_official_pdf_text).
+- [Exact MP-350 manual index](https://www.hotone.com/support/1?pid=102&tid=1) — Lists 1.4.0 effect list/manual; current PDF contents not established by listing alone. (opened_index_only).
+
+<!-- firmware-pitch:Hotone::Ampero II MP-350 ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- HOTONE-AMPERO-MP350 source begins -->
