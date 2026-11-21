@@ -178516,10 +178516,10 @@
   "source_image_inspection": {
     "requested_url": "https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 32,
+    "frame": 0,
     "text_pages": [
-      30,
-      30
+      0,
+      0
     ],
     "index_url": "https://line6.com/software/index.html?hardware=M13&name=Flash+Memory&submit_form=set",
     "index_needle": "2.04",
@@ -193018,6 +193018,148 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "MOOER::GE300 Lite": {
+        "model_key": "MOOER::GE300 Lite",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2020-06-24",
+          "precision": "day",
+          "kind": "manufacturer_launch_demo_publication",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=poqp8IAj3pM"
+          ],
+          "note": "Official MOOER launch demo publication; earlier NAMM 2020 prototype preview and exact first retail shipment are separate."
+        },
+        "firmware": {
+          "version": "5.0.3",
+          "date": "2026-08-04",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html"
+          ],
+          "note": "Exact-model firmware changelog dates 5.0.3 and adds converted NAM A2 loading into AMP. A1/A2 require conversion, not demonstrated native NAM execution. All package timestamps match the page upload; dated changelog is release evidence. USB driver 5.70.0 is separate. 5.0.2 notes expand Mono Pitch to ±24 semitones and explicitly exclude Sub-Patch parameter memory due to hardware limits."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "German manufacturer manual explicitly identifies Poly Pitch in FXB as polyphonic, alongside Mono Pitch in FXA, Octave and Detune. Original pitch table gives ±12 semitones; later 5.0.2 notes expand Mono Pitch to ±24. Full GE300 synth claims are not transferred to Lite.",
+          "preset": "255 slots across 85 banks of three; effect type, values, order, expression and CTRL assignments are stored. SAVE selects destination and confirms. Two external expression ports and MERGE; exact held-pedal recall untested. Sub-Patch memory unsupported per current firmware notes.",
+          "dsp": "Pitch occupies its FXA/FXB selection among other effects. Home screen shows total preset CPU; no isolated pitch percentage located. Trail reserves DSP even with delay/reverb off. Full GE300 automatic-overload behavior is not assumed for Lite.",
+          "source_urls": [
+            "https://manuals.plus/m/e1fd5f10e6a6e64b427b8dae634bcacfbb3fd651f583feb371f110eb274a2032",
+            "https://v4.cecdn.yun300.cn/fsite_1804040320%2FGE300%20LITE_Manual_EN_.pdf",
+            "https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "English manual effect inventory is incomplete in retrieved text; German manufacturer-authored manual supplies explicit polyphony. No hardware measurement. Direct English-PDF fetch failed with HTTP 403 and distributor mirror returned HTTP 404; cached extracted manual bodies were read."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=poqp8IAj3pM",
+            "title": "MOOER Audio — GE300 LITE Official Demo",
+            "access": "Official-channel indexed publication read",
+            "evidence": "Published 2020-06-24; public launch proxy, not earliest NAMM preview."
+          },
+          {
+            "url": "https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html",
+            "title": "GE300 Lite firmware downloads and release notes",
+            "access": "Exact-model manufacturer page read",
+            "evidence": "5.0.3 dated 2026-08-04; conversion; Mono Pitch range; no Sub-Patch memory."
+          },
+          {
+            "url": "https://v4.cecdn.yun300.cn/fsite_1804040320%2FGE300%20LITE_Manual_EN_.pdf",
+            "title": "GE300 Lite English owner’s manual",
+            "access": "Manufacturer-hosted cached PDF text read; direct fetch HTTP 403",
+            "evidence": "Printed pp10–15,24,50,84: CPU display, 255 slots, stored settings, SAVE, expression, pitch range and Trail DSP reservation."
+          },
+          {
+            "url": "https://manuals.plus/m/e1fd5f10e6a6e64b427b8dae634bcacfbb3fd651f583feb371f110eb274a2032",
+            "title": "GE300 Lite German manufacturer manual — V01",
+            "access": "Manufacturer-authored extracted text on mirror read",
+            "evidence": "Printed pp26–30: Mono Pitch FXA and Poly Pitch FXB, explicit polyphonic description; separate from stereo-output discussion."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2232,
+          "maximum_days": 2232,
+          "label": "6.11 years"
+        },
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "MOOER::GE300 Lite",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2020-06-24",
+              "precision": "day",
+              "kind": "manufacturer_launch_demo_publication",
+              "source_urls": [
+                "https://www.youtube.com/watch?v=poqp8IAj3pM"
+              ],
+              "note": "Official MOOER launch demo publication; earlier NAMM 2020 prototype preview and exact first retail shipment are separate."
+            },
+            "firmware": {
+              "version": "5.0.3",
+              "date": "2026-08-04",
+              "precision": "day",
+              "status": "latest_located",
+              "source_urls": [
+                "https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html"
+              ],
+              "note": "Exact-model firmware changelog dates 5.0.3 and adds converted NAM A2 loading into AMP. A1/A2 require conversion, not demonstrated native NAM execution. All package timestamps match the page upload; dated changelog is release evidence. USB driver 5.70.0 is separate. 5.0.2 notes expand Mono Pitch to ±24 semitones and explicitly exclude Sub-Patch parameter memory due to hardware limits."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "German manufacturer manual explicitly identifies Poly Pitch in FXB as polyphonic, alongside Mono Pitch in FXA, Octave and Detune. Original pitch table gives ±12 semitones; later 5.0.2 notes expand Mono Pitch to ±24. Full GE300 synth claims are not transferred to Lite.",
+              "preset": "255 slots across 85 banks of three; effect type, values, order, expression and CTRL assignments are stored. SAVE selects destination and confirms. Two external expression ports and MERGE; exact held-pedal recall untested. Sub-Patch memory unsupported per current firmware notes.",
+              "dsp": "Pitch occupies its FXA/FXB selection among other effects. Home screen shows total preset CPU; no isolated pitch percentage located. Trail reserves DSP even with delay/reverb off. Full GE300 automatic-overload behavior is not assumed for Lite.",
+              "source_urls": [
+                "https://manuals.plus/m/e1fd5f10e6a6e64b427b8dae634bcacfbb3fd651f583feb371f110eb274a2032",
+                "https://v4.cecdn.yun300.cn/fsite_1804040320%2FGE300%20LITE_Manual_EN_.pdf",
+                "https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html"
+              ],
+              "measurements": [],
+              "notes": [
+                "English manual effect inventory is incomplete in retrieved text; German manufacturer-authored manual supplies explicit polyphony. No hardware measurement. Direct English-PDF fetch failed403 and distributor mirror404; cached extracted manual bodies were read."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.youtube.com/watch?v=poqp8IAj3pM",
+                "title": "MOOER Audio — GE300 LITE Official Demo",
+                "access": "Official-channel indexed publication read",
+                "evidence": "Published 2020-06-24; public launch proxy, not earliest NAMM preview."
+              },
+              {
+                "url": "https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html",
+                "title": "GE300 Lite firmware downloads and release notes",
+                "access": "Exact-model manufacturer page read",
+                "evidence": "5.0.3 dated 2026-08-04; conversion; Mono Pitch range; no Sub-Patch memory."
+              },
+              {
+                "url": "https://v4.cecdn.yun300.cn/fsite_1804040320%2FGE300%20LITE_Manual_EN_.pdf",
+                "title": "GE300 Lite English owner’s manual",
+                "access": "Manufacturer-hosted cached PDF text read; direct fetch403",
+                "evidence": "Printed pp10–15,24,50,84: CPU display,255 slots,stored settings,SAVE,expression,pitch range and Trail DSP reservation."
+              },
+              {
+                "url": "https://manuals.plus/m/e1fd5f10e6a6e64b427b8dae634bcacfbb3fd651f583feb371f110eb274a2032",
+                "title": "GE300 Lite German manufacturer manual — V01",
+                "access": "Manufacturer-authored extracted text on mirror read",
+                "evidence": "Printed pp26–30: Mono Pitch FXA and Poly Pitch FXB, explicit polyphonic description; separate from stereo-output discussion."
+              }
+            ],
+            "duration": {
+              "minimum_days": 2232,
+              "maximum_days": 2232,
+              "label": "6.11 years"
+            },
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
@@ -193061,7 +193203,6 @@
       "MOOER::GE200 Plus Li",
       "MOOER::GE200 Pro",
       "MOOER::GE200 Pro Li",
-      "MOOER::GE300 Lite",
       "MOOER::GS1000",
       "MOOER::GS1000 Li",
       "MOOER::Ocean Machine II",
@@ -193243,9 +193384,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 182,
-    "last_model": "MOOER::GE300",
-    "last_commit_parent": "e47151dbf8dbac4669c40978937d83c147a482d2",
+    "completed_model_count": 183,
+    "last_model": "MOOER::GE300 Lite",
+    "last_commit_parent": "a97b091bd1b0369326737ad7ce66a1a66a246c5d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -193288,7 +193429,6 @@
       "MOOER::GE200 Plus Li",
       "MOOER::GE200 Pro",
       "MOOER::GE200 Pro Li",
-      "MOOER::GE300 Lite",
       "MOOER::GS1000",
       "MOOER::GS1000 Li",
       "MOOER::Ocean Machine II",
@@ -193469,7 +193609,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 182,
+    "pitch_completed_model_count": 183,
     "supplemental_model_count": 0
   },
   "model_images": {

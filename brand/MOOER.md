@@ -2458,6 +2458,31 @@ Printed p96 (PDF index98) gives **410 ×201 ×62 mm and 3.0 kg**. The **41.0 ×2
 
 ## GE300 Lite
 
+<!-- firmware-pitch:MOOER::GE300 Lite begins -->
+### Firmware and pitch audit — MOOER GE300 Lite
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2020-06-24 (manufacturer launch demo publication). Official MOOER launch demo publication; earlier NAMM 2020 prototype preview and exact first retail shipment are separate. [launch 1](https://www.youtube.com/watch?v=poqp8IAj3pM) |
+| Firmware / latest verification | 5.0.3 — Located; latest status unverified. Exact-model firmware changelog dates 5.0.3 and adds converted NAM A2 loading into AMP. A1/A2 require conversion, not demonstrated native NAM execution. All package timestamps match the page upload; dated changelog is release evidence. USB driver 5.70.0 is separate. 5.0.2 notes expand Mono Pitch to ±24 semitones and explicitly exclude Sub-Patch parameter memory due to hardware limits. [firmware 1](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html) |
+| Firmware / release date | 2026-08-04 (day precision) |
+| Firmware / release-to-update duration | 6.11 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. German manufacturer manual explicitly identifies Poly Pitch in FXB as polyphonic, alongside Mono Pitch in FXA, Octave and Detune. Original pitch table gives ±12 semitones; later 5.0.2 notes expand Mono Pitch to ±24. Full GE300 synth claims are not transferred to Lite. [pitch 1](https://manuals.plus/m/e1fd5f10e6a6e64b427b8dae634bcacfbb3fd651f583feb371f110eb274a2032) [pitch 2](https://v4.cecdn.yun300.cn/fsite_1804040320%2FGE300%20LITE_Manual_EN_.pdf) [pitch 3](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html) |
+| Pitch / preset recall | 255 slots across 85 banks of three; effect type, values, order, expression and CTRL assignments are stored. SAVE selects destination and confirms. Two external expression ports and MERGE; exact held-pedal recall untested. Sub-Patch memory unsupported per current firmware notes. |
+| Pitch / DSP resources | Pitch occupies its FXA/FXB selection among other effects. Home screen shows total preset CPU; no isolated pitch percentage located. Trail reserves DSP even with delay/reverb off. Full GE300 automatic-overload behavior is not assumed for Lite. |
+| Pitch / qualifications | English manual effect inventory is incomplete in retrieved text; German manufacturer-authored manual supplies explicit polyphony. No hardware measurement. Direct English-PDF fetch failed with HTTP 403 and distributor mirror returned HTTP 404; cached extracted manual bodies were read. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER Audio — GE300 LITE Official Demo](https://www.youtube.com/watch?v=poqp8IAj3pM) — Published 2020-06-24; public launch proxy, not earliest NAMM preview. (Official-channel indexed publication read).
+- [GE300 Lite firmware downloads and release notes](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html) — 5.0.3 dated 2026-08-04; conversion; Mono Pitch range; no Sub-Patch memory. (Exact-model manufacturer page read).
+- [GE300 Lite English owner’s manual](https://v4.cecdn.yun300.cn/fsite_1804040320%2FGE300%20LITE_Manual_EN_.pdf) — Printed pp10–15,24,50,84: CPU display, 255 slots, stored settings, SAVE, expression, pitch range and Trail DSP reservation. (Manufacturer-hosted cached PDF text read; direct fetch HTTP 403).
+- [GE300 Lite German manufacturer manual — V01](https://manuals.plus/m/e1fd5f10e6a6e64b427b8dae634bcacfbb3fd651f583feb371f110eb274a2032) — Printed pp26–30: Mono Pitch FXA and Poly Pitch FXB, explicit polyphonic description; separate from stereo-output discussion. (Manufacturer-authored extracted text on mirror read).
+
+<!-- firmware-pitch:MOOER::GE300 Lite ends -->
+
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.
 
 <!-- comparison evidence begins -->
