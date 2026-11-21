@@ -199510,11 +199510,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "NUX::MG-30": {
+        "model_key": "NUX::MG-30",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.nux.us/cdn/shop/files/MG-30.01.jpg?v=1770943696&width=2400",
+            "source_url": "https://www.nux.us/products/mg-30",
+            "caption": "NUX MG-30 — top controls",
+            "note": "Visually inspected official MG-30 overhead product image: active color LCD shows patch32D and eleven-block signal strip; three footswitches, controls and treadle visible. Promotional image, not independent powered device testing.",
+            "visual_checked": true,
+            "sha256": "da21a9bd9133e214bcff9b8052af5615484a9044660dbef174a615fffa1545f2",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.nux.us/cdn/shop/files/MG-30.07.jpg?v=1770943769&width=2400",
+            "source_url": "https://www.nux.us/products/mg-30",
+            "caption": "NUX MG-30 — rear ports",
+            "note": "Visually inspected exact-model rear: Input, AUX In, headphones, Send, Return, Output L/Mono and R, EXP1, USB, center-negative DC9V and power rocker. Connector presence alone does not establish USB power or audio format.",
+            "visual_checked": true,
+            "sha256": "52caf857c1fa590b2e45735b3c603c72db7c0a74b94edc2cd0ed8a9df3362b8a",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MG-400"
+    "last_model": "NUX::MG-30"
   }
 }

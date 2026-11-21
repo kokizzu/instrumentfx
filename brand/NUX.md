@@ -607,6 +607,26 @@ Sources checked:
 
 <!-- firmware-pitch:NUX::MG-30 ends -->
 
+<!-- model-images:NUX::MG-30 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**NUX MG-30 — top controls**
+
+[![NUX MG-30 — top controls](https://www.nux.us/cdn/shop/files/MG-30.01.jpg?v=1770943696&width=2400)](https://www.nux.us/cdn/shop/files/MG-30.01.jpg?v=1770943696&width=2400)
+
+[Image source](https://www.nux.us/products/mg-30). Visually inspected official MG-30 overhead product image: active color LCD shows patch32D and eleven-block signal strip; three footswitches, controls and treadle visible. Promotional image, not independent powered device testing.
+
+**NUX MG-30 — rear ports**
+
+[![NUX MG-30 — rear ports](https://www.nux.us/cdn/shop/files/MG-30.07.jpg?v=1770943769&width=2400)](https://www.nux.us/cdn/shop/files/MG-30.07.jpg?v=1770943769&width=2400)
+
+[Image source](https://www.nux.us/products/mg-30). Visually inspected exact-model rear: Input, AUX In, headphones, Send, Return, Output L/Mono and R, EXP1, USB, center-negative DC9V and power rocker. Connector presence alone does not establish USB power or audio format.
+
+</details>
+<!-- model-images:NUX::MG-30 ends -->
+
+
 <!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Official product](https://nuxaudio.com/product/mg30/); [NUX V2 manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG30/NUX_MG30_UserManualV2_English.pdf),pp.2–4,14; [architecture-specific NAM documentation](https://www.nux.us/pages/nam-a2-native).
 
