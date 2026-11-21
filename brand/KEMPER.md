@@ -238,6 +238,34 @@ Checked **2026-10-28**: [Kemper official administrator reply,19December2025](htt
 
 ## PROFILER PowerHead MK2
 
+<!-- firmware-pitch:Kemper::PROFILER PowerHead MK2 begins -->
+### Firmware and pitch audit — Kemper PROFILER PowerHead MK2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025-05-28 (Public announcement/immediate-availability report; not individual shipment). Official MK2 announcement explicitly includes powered versions and immediate availability. Contemporary28 May2025 coverage supplies the date and names PowerHead. This is the MK2 announcement, not the original PowerHead launch or an individual shipment. [launch 1](https://www.kemper-amps.com/news/95/Introducing-the-all-new-KEMPER-PROFILER-MK-2) [launch 2](https://www.bonedo.de/artikel/der-kemper-profiler-mk-2-ist-da/) |
+| Firmware / latest verification | 14.2.2 — Located; latest status unverified. Latest located official release announcement fixes S/PDIF Output Volume affecting Noise Gate 2:1 and improves Rig Manager interaction. Requires Rig Manager 4.3.13 desktop, 1.9.25 iOS or 1.9.42 Android/Fire OS. Dynamic downloads listing exposed no version entries, so a newer unindexed build is not ruled out. [firmware 1](https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/) [firmware 2](https://www.kemper-amps.com/downloads) |
+| Firmware / release date | 2026-09-22 (day precision) |
+| Firmware / release-to-update duration | 1.32 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Transpose, Pedal Pitch, Pedal Vinyl Stop, Chromatic Pitch, Harmonic Pitch and Analog Octaver are listed for PowerHead. Chromatic processing supports chords; Harmonic Pitch, Analog Octaver and formant-processing modes are single-note functions. Do not treat every pitch type as polyphonic. [pitch 1](https://www.kemper-amps.com/store/en/profiler-powerhead-b.html) [pitch 2](https://www.kemper-amps.com/effects/pitch-shifter) [pitch 3](https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf) |
+| Pitch / preset recall | Pitch settings belong to stored Rigs/Performances; MK2 Transpose is also a Fixed FX function. Manufacturer documents Performance switching and Morphing. MIDI CC4 controls Pitch Pedal; pedal linkage is documented in manual 13.0. |
+| Pitch / DSP resources | One flexible pitch effect occupies a selected flexible module. PowerHead MK2 provides eight flexible modules plus fixed effects; fixed Transpose preserves flexible slots. No per-algorithm DSP percentage located. The600 W power-amplifier rating is not DSP utilization. |
+| Pitch / qualifications | Manual 13.0 explicitly covers MK2, revised May 2025; it predates OS14.2.2 and is not proof of a complete current algorithm census. Smooth Chords trades smoother chords for more latency; mono audio routing before the stack is distinct from monophonic note tracking. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Kemper PROFILER PowerHead MK2 SKU18300000](https://www.kemper-amps.com/store/en/profiler-powerhead-b.html) — PowerHead MK2,600 W built-in amp,eight flexible and eight fixed effects,Performance switching,Morphing and USB/MIDI/expression routing. (readable official exact-model page).
+- [Kemper introducing PROFILER MK2](https://www.kemper-amps.com/news/95/Introducing-the-all-new-KEMPER-PROFILER-MK-2) — Head included in immediately available MK2 series; additional fixed effects and 20 total audio blocks with broader counting convention. (readable official undated announcement).
+- [Bonedo contemporary MK2 announcement 28 May2025](https://www.bonedo.de/artikel/der-kemper-profiler-mk-2-ist-da/) — 28.05.2025 coverage corroborates public introduction date; not used for pitch or hardware technical claims. (dated contemporary announcement coverage).
+- [Kemper official OS14.2.2 release announcement](https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/) — 22 September2026 release; S/PDIF/Noise Gate2:1 fix and Rig Manager minimum versions. (readable administrator official post).
+- [Kemper official downloads](https://www.kemper-amps.com/downloads) — Cannot independently enumerate current firmware build list from returned page. (readable shell; dynamic version list unavailable).
+- [Kemper official pitch-shifter effects](https://www.kemper-amps.com/effects/pitch-shifter) — Six pitch effect types for Head/Rack; describes chord tracking latency and scale-aware harmony. (readable official effects matrix).
+- [Kemper manufacturer Main Manual13.0 German](https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf) — Printed pp256–264,290: Smooth Chords latency, formant single-note restriction, MK2 Fixed Transpose, CC4 Pedal Pitch, two-voice Chromatic Pitch, single-note Harmonic Pitch and polyphonic chromatic pitch-delay input. (manufacturer-authored PDF on mirror,438pages; May2025 revision and MK2 sections verified).
+
+<!-- firmware-pitch:Kemper::PROFILER PowerHead MK2 ends -->
+
 Partial record checked **2026-10-17**. Exact manufacturer SKU18300000 and Shopee MK2 title; distinct from unpowered Head,PowerRack and Remote bundles.
 
 | Required field | Evidence / qualification |
