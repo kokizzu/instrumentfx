@@ -178521,8 +178521,8 @@
       30,
       30
     ],
-    "index_url": "https://line6.com/company/images/?families=64",
-    "index_needle": "HD300",
+    "index_url": "https://line6.com/software/index.html?hardware=POD+HD400&name=Flash+Memory&submit_form=set",
+    "index_needle": "Released",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -190667,6 +190667,68 @@
           "label": "1.80 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::POD HD400": {
+        "model_key": "Line 6::POD HD400",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2010-09-30",
+          "precision": "day",
+          "kind": "manufacturer_shipping_announcement",
+          "source_urls": [
+            "https://www.premierguitar.com/line-6-debuts-hd-amp-modeling-in-three-pod-hd-multi-effect-pedals"
+          ],
+          "note": "Line 6 shipping press release reprinted by Premier Guitar names HD400 on September 30, 2010. Original manufacturer-hosted release not recovered."
+        },
+        "firmware": {
+          "version": "2.01",
+          "date": "2012-07-17",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=POD+HD400&name=Flash+Memory&submit_form=set"
+          ],
+          "note": "Current exact-HD400 Flash Memory catalogue lists 2.01 first, July 17, 2012. Adds guitar/bass amp and FX models. HD400 Edit/Monkey and other HD-model firmware are separate; no update installed."
+        },
+        "pitch": {
+          "status": "documented_monophonic",
+          "algorithms": "Smart Harmony explicitly tracks single notes for key/scale harmony. Pitch Glide and Bass Octaver are included; polyphonic chord tracking for these remains unverified. No blanket monophony claim for all models.",
+          "preset": "128 overwriteable locations, 32×4. FX settings and Pitch Glide pedal assignment save per preset. HD400 supports onboard or external Pedal 2 control; no physical recall test.",
+          "dsp": "Pitch choices share one FX1 slot with gain/EQ/synth models and HD400-only Particle Verb. Separate FX2/FX3, reverb, gate, wah/volume and amp/cab functions; no per-algorithm CPU percentage located. HD500 dynamic-DSP budget not transferred.",
+          "source_urls": [
+            "https://line6.com/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf?locale=de_DE"
+          ],
+          "measurements": [],
+          "notes": [
+            "Shared Flash 2.0+ guide explicitly includes HD400. Attack Synth and Particle Verb are HD400-only alternatives, not extra simultaneous FX1 slots. No tracking/latency/CPU measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.premierguitar.com/line-6-debuts-hd-amp-modeling-in-three-pod-hd-multi-effect-pedals",
+            "title": "Line 6 POD HD shipping press release, September 30, 2010",
+            "access": "Manufacturer press release reproduced by Premier Guitar read",
+            "evidence": "Shipping statement explicitly names HD400; not derived from firmware date."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=POD+HD400&name=Flash+Memory&submit_form=set",
+            "title": "POD HD400 Flash Memory catalogue",
+            "access": "Direct manufacturer HTML read; SHA256 885c74229c0118b5f1ad960eac1fa24dbf3ac400ab23454186c132739ecba82d",
+            "evidence": "Newest 2.01 July 17, 2012; four dated Flash Memory entries."
+          },
+          {
+            "url": "https://line6.com/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf?locale=de_DE",
+            "title": "POD HD300/HD400 Advanced Guide Rev A, Flash 2.0+",
+            "access": "Manufacturer PDF read",
+            "evidence": "Smart Harmony single-note operation; preset-saved Pitch Glide assignment, HD400 Pedal 2 support and shared FX1 architecture."
+          }
+        ],
+        "duration": {
+          "minimum_days": 656,
+          "maximum_days": 656,
+          "label": "1.80 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190707,7 +190769,6 @@
       "Lexicon::MX400",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::M13",
-      "Line 6::POD HD400",
       "Line 6::POD X3 Live",
       "Line 6::POD XT Live",
       "M-VAVE::ANN Blackbox",
@@ -190925,9 +190986,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 149,
-    "last_model": "Line 6::POD HD300",
-    "last_commit_parent": "75d5eb6ffd9cc6e8d6fe8002edab0baebc3b77e6",
+    "completed_model_count": 150,
+    "last_model": "Line 6::POD HD400",
+    "last_commit_parent": "998a24158578305db6b36d70c16f3f19306f973f",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190967,7 +191028,6 @@
       "Lexicon::MX400",
       "Line 6::Helix Stadium XL Floor",
       "Line 6::M13",
-      "Line 6::POD HD400",
       "Line 6::POD X3 Live",
       "Line 6::POD XT Live",
       "M-VAVE::ANN Blackbox",
@@ -191184,7 +191244,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 149,
+    "pitch_completed_model_count": 150,
     "supplemental_model_count": 0
   },
   "model_images": {

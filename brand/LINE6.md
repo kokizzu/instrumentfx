@@ -3827,6 +3827,30 @@ Checked **2026-11-06** in the [manufacturer shared HD300/HD400 Advanced Guide](h
 
 ## POD HD400
 
+<!-- firmware-pitch:Line 6::POD HD400 begins -->
+### Firmware and pitch audit — Line 6 POD HD400
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2010-09-30 (manufacturer shipping announcement). Line 6 shipping press release reprinted by Premier Guitar names HD400 on September 30, 2010. Original manufacturer-hosted release not recovered. [launch 1](https://www.premierguitar.com/line-6-debuts-hd-amp-modeling-in-three-pod-hd-multi-effect-pedals) |
+| Firmware / latest verification | 2.01 — Latest verified. Current exact-HD400 Flash Memory catalogue lists 2.01 first, July 17, 2012. Adds guitar/bass amp and FX models. HD400 Edit/Monkey and other HD-model firmware are separate; no update installed. [firmware 1](https://line6.com/software/index.html?hardware=POD+HD400&name=Flash+Memory&submit_form=set) |
+| Firmware / release date | 2012-07-17 (day precision) |
+| Firmware / release-to-update duration | 1.80 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. Smart Harmony explicitly tracks single notes for key/scale harmony. Pitch Glide and Bass Octaver are included; polyphonic chord tracking for these remains unverified. No blanket monophony claim for all models. [pitch 1](https://line6.com/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf?locale=de_DE) |
+| Pitch / preset recall | 128 overwriteable locations, 32×4. FX settings and Pitch Glide pedal assignment save per preset. HD400 supports onboard or external Pedal 2 control; no physical recall test. |
+| Pitch / DSP resources | Pitch choices share one FX1 slot with gain/EQ/synth models and HD400-only Particle Verb. Separate FX2/FX3, reverb, gate, wah/volume and amp/cab functions; no per-algorithm CPU percentage located. HD500 dynamic-DSP budget not transferred. |
+| Pitch / qualifications | Shared Flash 2.0+ guide explicitly includes HD400. Attack Synth and Particle Verb are HD400-only alternatives, not extra simultaneous FX1 slots. No tracking/latency/CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 POD HD shipping press release, September 30, 2010](https://www.premierguitar.com/line-6-debuts-hd-amp-modeling-in-three-pod-hd-multi-effect-pedals) — Shipping statement explicitly names HD400; not derived from firmware date. (Manufacturer press release reproduced by Premier Guitar read).
+- [POD HD400 Flash Memory catalogue](https://line6.com/software/index.html?hardware=POD+HD400&name=Flash+Memory&submit_form=set) — Newest 2.01 July 17, 2012; four dated Flash Memory entries. (Direct manufacturer HTML read; SHA256 885c74229c0118b5f1ad960eac1fa24dbf3ac400ab23454186c132739ecba82d).
+- [POD HD300/HD400 Advanced Guide Rev A, Flash 2.0+](https://line6.com/data/6/0a06434dfde45005adfca27d6/application/pdf/POD%20HD400%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf?locale=de_DE) — Smart Harmony single-note operation; preset-saved Pitch Glide assignment, HD400 Pedal 2 support and shared FX1 architecture. (Manufacturer PDF read).
+
+<!-- firmware-pitch:Line 6::POD HD400 ends -->
+
 Checked **2026-10-17**; partial. Discontinued floor multi-effects, distinct from HD300, HD500 and HD500X. Guitar and bass membership: its own Flash 2.0 guide documents the Flip Top bass amp/cab. No vocal membership established.
 
 <!-- comparison evidence begins -->
