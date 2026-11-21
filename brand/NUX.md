@@ -1315,6 +1315,26 @@ Sources checked:
 
 <!-- firmware-pitch:NUX::MG-300 MKII ends -->
 
+<!-- model-images:NUX::MG-300 MKII begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**NUX MG-300 MKII — top controls**
+
+[![NUX MG-300 MKII — top controls](https://www.nux.us/cdn/shop/files/MG-300-01.jpg?v=1771972826&width=2400)](https://www.nux.us/cdn/shop/files/MG-300-01.jpg?v=1771972826&width=2400)
+
+[Image source](https://www.nux.us/products/mg-300-mkii). Visually inspected exact MKII overhead product image: active color LCD shows patch1A, sceneS1 and ten-block strip; MKII body label visible. Promotional image, not independent powered hardware testing.
+
+**NUX MG-300 MKII — rear ports**
+
+[![NUX MG-300 MKII — rear ports](https://www.nux.us/cdn/shop/files/MG-300-08.jpg?v=1771972831&width=2400)](https://www.nux.us/cdn/shop/files/MG-300-08.jpg?v=1771972831&width=2400)
+
+[Image source](https://www.nux.us/products/mg-300-mkii). Visually inspected MKII rear: Input, stereo Output, AUX In, separate Phones(TRRS), USB-C, Power switch and DC9V center-negative label. Unlike original MG-300, this model has separate phones and USB-C; USB power is not inferred.
+
+</details>
+<!-- model-images:NUX::MG-300 MKII ends -->
+
+
 <!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Official product](https://nuxaudio.com/product/mg300mkii/); [manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_English.pdf); [NUX USA](https://www.nux.us/products/mg-300-mkii).
 

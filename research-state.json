@@ -199321,11 +199321,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "NUX::MG-300 MKII": {
+        "model_key": "NUX::MG-300 MKII",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.nux.us/cdn/shop/files/MG-300-01.jpg?v=1771972826&width=2400",
+            "source_url": "https://www.nux.us/products/mg-300-mkii",
+            "caption": "NUX MG-300 MKII — top controls",
+            "note": "Visually inspected exact MKII overhead product image: active color LCD shows patch1A, sceneS1 and ten-block strip; MKII body label visible. Promotional image, not independent powered hardware testing.",
+            "visual_checked": true,
+            "sha256": "ceb427d7e8c35e87697c8b4b3804d3dbd05d2422b68c4e26838af3a3f8fef7f2",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.nux.us/cdn/shop/files/MG-300-08.jpg?v=1771972831&width=2400",
+            "source_url": "https://www.nux.us/products/mg-300-mkii",
+            "caption": "NUX MG-300 MKII — rear ports",
+            "note": "Visually inspected MKII rear: Input, stereo Output, AUX In, separate Phones(TRRS), USB-C, Power switch and DC9V center-negative label. Unlike original MG-300, this model has separate phones and USB-C; USB power is not inferred.",
+            "visual_checked": true,
+            "sha256": "3ab49e96907712d40bd4e6bd69d2538783e9bd8e00a65543f93e9ed786a88627",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MG-300 original"
+    "last_model": "NUX::MG-300 MKII"
   }
 }
