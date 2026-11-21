@@ -205405,11 +205405,45 @@
             "note": "Complete front photograph under colored room lighting; indicator illumination cannot be reliably distinguished."
           }
         ]
+      },
+      "Lexicon::MX200": {
+        "model_key": "Lexicon::MX200",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/lexicon-mx200-2045153.jpg",
+            "source_url": "https://fr.audiofanzine.com/multieffet/lexicon/MX200/",
+            "caption": "MX200 front control face, rear and perspective product composite",
+            "note": "Visually inspected composite: ten rotary controls, effect matrix and two-character green display depicted as 88. This is a product graphic, not an independently verified powered-on operating photograph. Upper image is a nearly straight front control face; it is not literal top-down. Powered-on hardware photograph and literal overhead view remain pending.",
+            "visual_checked": true,
+            "sha256": "d91c5f6026fc888fa2109133bf82f20e6f112c12752bf63448890afe6a0e048f",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://r2.gear4music.com/media/21/215066/1200/preview.jpg",
+            "source_url": "https://www.gear4music.no/no/Opptak-og-datamaskiner/Lexicon-MX200-Dual-Reverb-FX-Processor/6JC",
+            "caption": "MX200 straight rear-port photograph",
+            "note": "Visually inspected full unplugged rear panel: power label 9VAC~ 1.3A 50–60Hz, one TRS footswitch jack (tip bypass 2/ring bypass 1/sleeve ground), two MIDI DIN sockets (IN and OUT/THRU), USB-B, S/PDIF RCA IN/OUT, and paired quarter-inch analog outputs/inputs with LEFT (MONO) markings. No XLR, separate headphone or analog expression socket is visible. This pictured AC label does not resolve every hardware revision or override the retained DC-manual conflict; do not select replacement power solely from another unit’s photograph.",
+            "visual_checked": true,
+            "sha256": "8174fd90c2e5ac68d050ab74969fdb6b9c2f59e2bdcdeb5b5c57c9311bf6532b",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://adn.harmanpro.com/product_attachments/product_attachments/882_1728150225/mx200_x_large.webp",
+            "sha256": "7209c9afa9e131c5f2b0c14df692ce4618c5bb8e0666da4150fe4e5ba7a4458b",
+            "visual_checked": true,
+            "note": "Rejected: manufacturer perspective marketing image has visible color-strip/edge artifacts; no clearly readable lit program display."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Lexicon::MPX100"
+    "last_model": "Lexicon::MX200"
   }
 }

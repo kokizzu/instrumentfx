@@ -209,6 +209,26 @@ Sources checked:
 
 <!-- firmware-pitch:Lexicon::MX200 ends -->
 
+<!-- model-images:Lexicon::MX200 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MX200 front control face, rear and perspective product composite**
+
+[![MX200 front control face, rear and perspective product composite](https://medias.audiofanzine.com/images/normal/lexicon-mx200-2045153.jpg)](https://medias.audiofanzine.com/images/normal/lexicon-mx200-2045153.jpg)
+
+[Image source](https://fr.audiofanzine.com/multieffet/lexicon/MX200/). Visually inspected composite: ten rotary controls, effect matrix and two-character green display depicted as 88. This is a product graphic, not an independently verified powered-on operating photograph. Upper image is a nearly straight front control face; it is not literal top-down. Powered-on hardware photograph and literal overhead view remain pending.
+
+**MX200 straight rear-port photograph**
+
+[![MX200 straight rear-port photograph](https://r2.gear4music.com/media/21/215066/1200/preview.jpg)](https://r2.gear4music.com/media/21/215066/1200/preview.jpg)
+
+[Image source](https://www.gear4music.no/no/Opptak-og-datamaskiner/Lexicon-MX200-Dual-Reverb-FX-Processor/6JC). Visually inspected full unplugged rear panel: power label 9VAC~ 1.3A 50–60Hz, one TRS footswitch jack (tip bypass 2/ring bypass 1/sleeve ground), two MIDI DIN sockets (IN and OUT/THRU), USB-B, S/PDIF RCA IN/OUT, and paired quarter-inch analog outputs/inputs with LEFT (MONO) markings. No XLR, separate headphone or analog expression socket is visible. This pictured AC label does not resolve every hardware revision or override the retained DC-manual conflict; do not select replacement power solely from another unit’s photograph.
+
+</details>
+<!-- model-images:Lexicon::MX200 ends -->
+
+
 <!-- comparison evidence begins -->
 Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. Guitar/vocal use is **through appropriate mixer or preamp routing**;not a direct mic or high-impedance instrument preamp claim. Discontinued [MX-P].
 
