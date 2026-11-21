@@ -178514,15 +178514,15 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/PD39-Effects-Description.pdf",
+    "requested_url": "https://erokmusic.com/download/manuals/POCKET-SONIC.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 0,
+    "frame": 6,
     "text_pages": [
-      77,
-      84
+      0,
+      6
     ],
     "index_url": "https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186",
-    "index_needle": "MP-20",
+    "index_needle": "PocketSonic_105",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -186686,10 +186686,77 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "EROK::Pocket Sonic": {
+        "model_key": "EROK::Pocket Sonic",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unknown",
+          "source_urls": [
+            "https://erokmusic.com/product/multi-effects/POCKET-SONIC",
+            "https://erokmusic.com/download/manuals/POCKET-SONIC.pdf"
+          ],
+          "note": "No dated first hardware release established. Earliest located VER007 December 30, 2025, regulatory dates and March 2026 manual metadata are not launch dates."
+        },
+        "firmware": {
+          "version": "105",
+          "date": "2026-10-14",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://erokmusic.com/js/firmware-notes/en.json",
+            "https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186"
+          ],
+          "note": "Current official catalogue selects PocketSonic_105.fwsc; explicit changelog dates VER105 October14. Adds Speaker Mode, native NAM A2, six MW FX choices, stereo DLY/MOD, DLY/REV tails and Input Gain; improves gate and Output Limit. Do not substitute download-file metadata for release date."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manual Shimmer shifts reverb wet sound from unison to +2 octaves; Analog delay has wet detune Pitch control, cents unspecified. Vibrato is pitch modulation. Dedicated dry transpose, octave/harmony or WHAMMY not established in checked exact-model manual/changelog; input polyphony unverified.",
+          "preset": "Manual:80 writable locations, first40 factory-filled (40+40 table); current catalogue says36 presets. Firmware VER009 simplified presets to one group without a capacity figure. Current VER105 allocation unresolved; do not combine counts or add protected factory memory.",
+          "dsp": "Six reorderable modules FX/AMP/MOD/DLY/REV/CAB; manual advertises6+1 with gate combined into boost/compression. Shimmer uses the REV choice and Analog detune uses DLY. No per-pitch CPU percentage, measured configuration or verified combined wet-pitch ceiling.",
+          "source_urls": [
+            "https://erokmusic.com/download/manuals/POCKET-SONIC.pdf",
+            "https://erokmusic.com/js/firmware-notes/en.json",
+            "https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186"
+          ],
+          "measurements": [],
+          "notes": [
+            "Firmware changes alter library/routing: VER009 removed Speaker Mode/EQ; VER105 adds Speaker Mode again. Changelog does not establish restoration of EQ or the older preset layout. Stereo effects and bass models do not prove polyphonic pitch tracking."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://erokmusic.com/product/multi-effects/POCKET-SONIC",
+            "title": "EROK exact Pocket Sonic product route",
+            "access": "Manufacturer catalogue route, dynamic page",
+            "evidence": "Exact model identity; no dated hardware launch."
+          },
+          {
+            "url": "https://erokmusic.com/js/firmware-notes/en.json",
+            "title": "EROK official Pocket Sonic firmware notes",
+            "access": "Direct inert JSON; SHA256 df303b3d88967b04115e91708ad3bdcbe6023bc9278580caf5b0b2dd873d5cae",
+            "evidence": "VER105 October14,2026 features; older VER009 preset simplification; earliest located VER007 December30,2025 not launch proof."
+          },
+          {
+            "url": "https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186",
+            "title": "EROK current product/download catalogue",
+            "access": "Direct inert manufacturer JS; SHA256 61ae222d069351869f49a8e0c904c0a3429d834cc810039c226d1894f9a94341",
+            "evidence": "Current105 firmware/date; exact manual/gallery;36-preset headline conflicts with80-slot manual."
+          },
+          {
+            "url": "https://erokmusic.com/download/manuals/POCKET-SONIC.pdf",
+            "title": "EROK Pocket Sonic original manual",
+            "access": "Direct16-page raster PDF; visually read printedpp1/5/7–9/12–14; SHA256 73fd7ebec56f475f94be66a732cfa1848d006d0f132a094af89b35b566dac204",
+            "evidence": "80 locations/40filled; six reorderable6+1 modules; Shimmer unison to+2octaves; Analog wet detune; no polyphony or CPU cost stated."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "EROK::Pocket Sonic",
       "Eventide::H9 Max",
       "Eventide::H90",
       "Fender::Mustang Micro",
@@ -186995,12 +187062,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 98,
-    "last_model": "EROK::MP-20",
-    "last_commit_parent": "f6f20f5a96afec3705e9573e72b3ebb6f5a7160c",
+    "completed_model_count": 99,
+    "last_model": "EROK::Pocket Sonic",
+    "last_commit_parent": "08f27ab1fcfd08dd3b704c2af2487c42580bcf73",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "EROK::Pocket Sonic",
       "Eventide::H9 Max",
       "Eventide::H90",
       "Fender::Mustang Micro",
@@ -187305,7 +187371,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 98,
+    "pitch_completed_model_count": 99,
     "supplemental_model_count": 0
   },
   "model_images": {

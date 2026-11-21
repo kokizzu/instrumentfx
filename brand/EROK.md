@@ -187,6 +187,31 @@ The original five-page **MK-20 external-photograph exhibit9030670**, dated2026-0
 
 ## Pocket Sonic
 
+<!-- firmware-pitch:EROK::Pocket Sonic begins -->
+### Firmware and pitch audit — EROK Pocket Sonic
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No dated first hardware release established. Earliest located VER007 December 30, 2025, regulatory dates and March 2026 manual metadata are not launch dates. [launch 1](https://erokmusic.com/product/multi-effects/POCKET-SONIC) [launch 2](https://erokmusic.com/download/manuals/POCKET-SONIC.pdf) |
+| Firmware / latest verification | 105 — Latest verified. Current official catalogue selects PocketSonic_105.fwsc; explicit changelog dates VER105 October14. Adds Speaker Mode, native NAM A2, six MW FX choices, stereo DLY/MOD, DLY/REV tails and Input Gain; improves gate and Output Limit. Do not substitute download-file metadata for release date. [firmware 1](https://erokmusic.com/js/firmware-notes/en.json) [firmware 2](https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186) |
+| Firmware / release date | 2026-10-14 (day precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manual Shimmer shifts reverb wet sound from unison to +2 octaves; Analog delay has wet detune Pitch control, cents unspecified. Vibrato is pitch modulation. Dedicated dry transpose, octave/harmony or WHAMMY not established in checked exact-model manual/changelog; input polyphony unverified. [pitch 1](https://erokmusic.com/download/manuals/POCKET-SONIC.pdf) [pitch 2](https://erokmusic.com/js/firmware-notes/en.json) [pitch 3](https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186) |
+| Pitch / preset recall | Manual:80 writable locations, first40 factory-filled (40+40 table); current catalogue says36 presets. Firmware VER009 simplified presets to one group without a capacity figure. Current VER105 allocation unresolved; do not combine counts or add protected factory memory. |
+| Pitch / DSP resources | Six reorderable modules FX/AMP/MOD/DLY/REV/CAB; manual advertises6+1 with gate combined into boost/compression. Shimmer uses the REV choice and Analog detune uses DLY. No per-pitch CPU percentage, measured configuration or verified combined wet-pitch ceiling. |
+| Pitch / qualifications | Firmware changes alter library/routing: VER009 removed Speaker Mode/EQ; VER105 adds Speaker Mode again. Changelog does not establish restoration of EQ or the older preset layout. Stereo effects and bass models do not prove polyphonic pitch tracking. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [EROK exact Pocket Sonic product route](https://erokmusic.com/product/multi-effects/POCKET-SONIC) — Exact model identity; no dated hardware launch. (Manufacturer catalogue route, dynamic page).
+- [EROK official Pocket Sonic firmware notes](https://erokmusic.com/js/firmware-notes/en.json) — VER105 October14,2026 features; older VER009 preset simplification; earliest located VER007 December30,2025 not launch proof. (Direct inert JSON; SHA256 df303b3d88967b04115e91708ad3bdcbe6023bc9278580caf5b0b2dd873d5cae).
+- [EROK current product/download catalogue](https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186) — Current105 firmware/date; exact manual/gallery;36-preset headline conflicts with80-slot manual. (Direct inert manufacturer JS; SHA256 61ae222d069351869f49a8e0c904c0a3429d834cc810039c226d1894f9a94341).
+- [EROK Pocket Sonic original manual](https://erokmusic.com/download/manuals/POCKET-SONIC.pdf) — 80 locations/40filled; six reorderable6+1 modules; Shimmer unison to+2octaves; Analog wet detune; no polyphony or CPU cost stated. (Direct16-page raster PDF; visually read printedpp1/5/7–9/12–14; SHA256 73fd7ebec56f475f94be66a732cfa1848d006d0f132a094af89b35b566dac204).
+
+<!-- firmware-pitch:EROK::Pocket Sonic ends -->
+
 Checked2026-10-18;partial. Manufacturer explicitly identifies a miniature **guitar multi-effects processor with headphone practice**. Exact Indonesian hardware title establishes a separate Pocket Sonic offer. Bass/vocal suitability andownership remain unverified. The regulatory hardware-family declaration below links Pocket Sonic with POCKET AMP;retail revision,firmware andfeature equivalence remain unverified. [Manufacturer](https://erokmusic.com/index.html).
 
 | Field | Evidence / qualification |
