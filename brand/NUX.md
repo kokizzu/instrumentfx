@@ -2407,6 +2407,26 @@ Sources checked:
 
 <!-- firmware-pitch:NUX::TRIDENT NME-5 ends -->
 
+<!-- model-images:NUX::TRIDENT NME-5 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**NUX TRIDENT — top controls**
+
+[![NUX TRIDENT — top controls](https://www.nux.us/cdn/shop/files/TRIDENT_W_01.jpg?v=1756899596&width=1920)](https://www.nux.us/cdn/shop/files/TRIDENT_W_01.jpg?v=1756899596&width=1920)
+
+[Image source](https://www.nux.us/products/trident). Official overhead photograph shows TRIDENT with its LCD illuminated on preset01-A (EVH Brown), all ten footswitches and the control layout. This photo establishes the pictured screen appearance, not a published diagonal or touchscreen specification.
+
+**NUX TRIDENT — rear ports**
+
+[![NUX TRIDENT — rear ports](https://www.nux.us/cdn/shop/files/TRIDENT_W_03.jpg?v=1756899596&width=1920)](https://www.nux.us/cdn/shop/files/TRIDENT_W_03.jpg?v=1756899596&width=1920)
+
+[Image source](https://www.nux.us/products/trident). Official rear photograph clearly shows expression, input/send/return, AUX, master volume and ground lift, two XLR DI outputs, two main outputs, phones, separate MIDI in/out, USB-C, DC9V500mA and power. Display is hidden, so powered-on status cannot be established from this rear view. XLRs are outputs, not mic inputs.
+
+</details>
+<!-- model-images:NUX::TRIDENT NME-5 ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Preserved review2026-10-15. Guitar multi-effects,large,no built-in expression.** [Global model/support](https://nuxaudio.com/product/trident/),[US](https://www.nux.us/products/trident),[Chinese](https://cn.nuxaudio.com/product/trident/).

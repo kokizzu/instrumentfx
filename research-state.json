@@ -200434,11 +200434,37 @@
             "sha256": "4f3cef7ff3a3bc4abbaf11e24cfddb58bef08288b5f8854f1925e20f35d76455"
           }
         }
+      },
+      "NUX::TRIDENT NME-5": {
+        "model_key": "NUX::TRIDENT NME-5",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.nux.us/cdn/shop/files/TRIDENT_W_01.jpg?v=1756899596&width=1920",
+            "source_url": "https://www.nux.us/products/trident",
+            "caption": "NUX TRIDENT — top controls",
+            "visual_checked": true,
+            "note": "Official overhead photograph shows TRIDENT with its LCD illuminated on preset01-A (EVH Brown), all ten footswitches and the control layout. This photo establishes the pictured screen appearance, not a published diagonal or touchscreen specification.",
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "648b631eb31faea8957eedb6432713d137f2ace253eb26468504622e08a38a38"
+          },
+          "rear": {
+            "image_url": "https://www.nux.us/cdn/shop/files/TRIDENT_W_03.jpg?v=1756899596&width=1920",
+            "source_url": "https://www.nux.us/products/trident",
+            "caption": "NUX TRIDENT — rear ports",
+            "visual_checked": true,
+            "note": "Official rear photograph clearly shows expression, input/send/return, AUX, master volume and ground lift, two XLR DI outputs, two main outputs, phones, separate MIDI in/out, USB-C, DC9V500mA and power. Display is hidden, so powered-on status cannot be established from this rear view. XLRs are outputs, not mic inputs.",
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "01c58bd6916fc4e53b3345fbb9fcf8506084ef6a17a3ab027aeaf7dfc11248a5"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::Cerberus NME-3"
+    "last_model": "NUX::TRIDENT NME-5"
   }
 }
