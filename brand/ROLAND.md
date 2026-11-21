@@ -9,6 +9,32 @@
 
 ## GR-55
 
+<!-- firmware-pitch:Roland::GR-55 begins -->
+### Firmware and pitch audit — Roland GR-55
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2011-01-28 (manufacturer Japanese on-sale date). Japanese announcement specifies January 28 on-sale date; US shipping announcement is March 10, 2011. These regional dates are distinct. [launch 1](https://www.roland.co.jp/news/0498.html) [launch 2](https://www.roland.com/us/company/press_releases/2011/1239/) |
+| Firmware / latest verification | 1.50 — Latest verified. Current manufacturer support index still lists System Program 1.50. Release date is not given on the checked updater page, so no precise support span is calculated. Adds 90 guitar/18 bass presets and fixes alternate-tuning MIDI output and audio/patch issues. Recent computer driver releases are not device firmware. [firmware 1](https://www.roland.com/global/support/by_product/gr-55/updates_drivers/f64a41ce-c897-4fd5-94d7-71ec8ff6f036/) [firmware 2](https://www.roland.com/global/support/by_product/gr-55/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MFX 20 Pitch Shifter is documented as stereo, -24 to +12 semitones; stereo describes channels, not chord tracking. Modeling tone pitch shift is -24 to +24 semitones. GK divided-string processing supports per-string alternate tuning and 12-string supplementary pitches; this architecture is distinct from a polyphonic shifter for mixed normal-pickup audio. No blanket MFX chord-tracking claim established. [pitch 1](https://static.roland.com/assets/media/pdf/GR-55_OM.pdf) [pitch 2](https://www.roland.com/global/support/by_product/gr-55/updates_drivers/f64a41ce-c897-4fd5-94d7-71ec8ff6f036/) |
+| Pitch / preset recall | Pitch and tuning are patch parameters. Preserve the existing mode-specific memory counts: 297 user patches, with version 1.50 factory totals of 360 guitar/108 bass. Twelve-string modeling cannot be combined with nonzero modeling pitch shift/fine or enabled alternate tuning. |
+| Pitch / DSP resources | No isolated pitch DSP percentage published in checked sources. MFX pitch occupies its fixed MFX selection; modeled per-string tuning is a separate source function. Source layers and synth voice counts must not be treated as free effects slots or pitch DSP cost. |
+| Pitch / qualifications | The official full PDF exceeded browser fetch size; indexed manufacturer manual text was inspected, without claiming new diagram or screenshot verification. No physical-unit polyphony, latency or CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Japanese GR-55 release announcement](https://www.roland.co.jp/news/0498.html) — January 14 announcement specifies January 28 2011 Japanese on-sale date. (Manufacturer page checked 2026-11-22).
+- [US GR-55 shipping announcement](https://www.roland.com/us/company/press_releases/2011/1239/) — March 10 2011 US shipping announcement. (Manufacturer page checked 2026-11-22).
+- [GR-55 System Program 1.50](https://www.roland.com/global/support/by_product/gr-55/updates_drivers/f64a41ce-c897-4fd5-94d7-71ec8ff6f036/) — Current 1.50 program, preset additions and fixes; release date not displayed. (Manufacturer page checked 2026-11-22).
+- [GR-55 support index](https://www.roland.com/global/support/by_product/gr-55/updates_drivers/) — System Program 1.50 remains listed separately from drivers. (Manufacturer page checked 2026-11-22).
+- [GR-55 owner manual](https://static.roland.com/assets/media/pdf/GR-55_OM.pdf) — MFX20 stereo shifter -24/+12; modeled tone +/-24; per-string 12-string pitches and incompatibilities. (Manufacturer PDF indexed text; full fetch size limit).
+
+<!-- firmware-pitch:Roland::GR-55 ends -->
+
 Guitar/bass synthesis and multi-effects with13-pin divided-pickup/GK system, not GM-800 Serial GK. Consolidated **2026-10-17**. Full original body and corrections retained; eligible owner history is separate from public specification/price evidence.
 
 <!-- ROLAND-GR-55 source begins -->

@@ -198361,6 +198361,79 @@
           "label": "5.50 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Roland::GR-55": {
+        "model_key": "Roland::GR-55",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2011-01-28",
+          "precision": "day",
+          "kind": "manufacturer Japanese on-sale date",
+          "source_urls": [
+            "https://www.roland.co.jp/news/0498.html",
+            "https://www.roland.com/us/company/press_releases/2011/1239/"
+          ],
+          "note": "Japanese announcement specifies January 28 on-sale date; US shipping announcement is March 10, 2011. These regional dates are distinct."
+        },
+        "firmware": {
+          "version": "1.50",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.roland.com/global/support/by_product/gr-55/updates_drivers/f64a41ce-c897-4fd5-94d7-71ec8ff6f036/",
+            "https://www.roland.com/global/support/by_product/gr-55/updates_drivers/"
+          ],
+          "note": "Current manufacturer support index still lists System Program 1.50. Release date is not given on the checked updater page, so no precise support span is calculated. Adds 90 guitar/18 bass presets and fixes alternate-tuning MIDI output and audio/patch issues. Recent computer driver releases are not device firmware."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MFX 20 Pitch Shifter is documented as stereo, -24 to +12 semitones; stereo describes channels, not chord tracking. Modeling tone pitch shift is -24 to +24 semitones. GK divided-string processing supports per-string alternate tuning and 12-string supplementary pitches; this architecture is distinct from a polyphonic shifter for mixed normal-pickup audio. No blanket MFX chord-tracking claim established.",
+          "preset": "Pitch and tuning are patch parameters. Preserve the existing mode-specific memory counts: 297 user patches, with version 1.50 factory totals of 360 guitar/108 bass. Twelve-string modeling cannot be combined with nonzero modeling pitch shift/fine or enabled alternate tuning.",
+          "dsp": "No isolated pitch DSP percentage published in checked sources. MFX pitch occupies its fixed MFX selection; modeled per-string tuning is a separate source function. Source layers and synth voice counts must not be treated as free effects slots or pitch DSP cost.",
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/GR-55_OM.pdf",
+            "https://www.roland.com/global/support/by_product/gr-55/updates_drivers/f64a41ce-c897-4fd5-94d7-71ec8ff6f036/"
+          ],
+          "measurements": [],
+          "notes": [
+            "The official full PDF exceeded browser fetch size; indexed manufacturer manual text was inspected, without claiming new diagram or screenshot verification. No physical-unit polyphony, latency or CPU measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.co.jp/news/0498.html",
+            "title": "Japanese GR-55 release announcement",
+            "access": "Manufacturer page checked 2026-11-22",
+            "evidence": "January 14 announcement specifies January 28 2011 Japanese on-sale date."
+          },
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2011/1239/",
+            "title": "US GR-55 shipping announcement",
+            "access": "Manufacturer page checked 2026-11-22",
+            "evidence": "March 10 2011 US shipping announcement."
+          },
+          {
+            "url": "https://www.roland.com/global/support/by_product/gr-55/updates_drivers/f64a41ce-c897-4fd5-94d7-71ec8ff6f036/",
+            "title": "GR-55 System Program 1.50",
+            "access": "Manufacturer page checked 2026-11-22",
+            "evidence": "Current 1.50 program, preset additions and fixes; release date not displayed."
+          },
+          {
+            "url": "https://www.roland.com/global/support/by_product/gr-55/updates_drivers/",
+            "title": "GR-55 support index",
+            "access": "Manufacturer page checked 2026-11-22",
+            "evidence": "System Program 1.50 remains listed separately from drivers."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/GR-55_OM.pdf",
+            "title": "GR-55 owner manual",
+            "access": "Manufacturer PDF indexed text; full fetch size limit",
+            "evidence": "MFX20 stereo shifter -24/+12; modeled tone +/-24; per-string 12-string pitches and incompatibilities."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -198380,7 +198453,6 @@
       "Mosky::RC5",
       "Mosky::RD5",
       "Mosky::SOL918",
-      "Roland::GR-55",
       "Roland::VT-4",
       "ROWIN::RE-05 Looper Pro",
       "Scorpion::KMF-10",
@@ -198526,9 +198598,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 242,
-    "last_model": "Neural DSP::Quad Cortex",
-    "last_commit_parent": "50173db86eab8383e51b05b0ccc3cc67377ee2f1",
+    "completed_model_count": 243,
+    "last_model": "Roland::GR-55",
+    "last_commit_parent": "e573647a3e0c7027e0229006d5bc33e17fb9609b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -198547,7 +198619,6 @@
       "Mosky::RC5",
       "Mosky::RD5",
       "Mosky::SOL918",
-      "Roland::GR-55",
       "Roland::VT-4",
       "ROWIN::RE-05 Looper Pro",
       "Scorpion::KMF-10",
@@ -198692,7 +198763,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 242,
+    "pitch_completed_model_count": 243,
     "supplemental_model_count": 0
   },
   "model_images": {
