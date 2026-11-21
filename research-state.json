@@ -192418,11 +192418,35 @@
             "sha256": "d21e8bc288ca6d60245aae147fc2f2cf4a323020c4d3e58c75d96994a7557c48"
           }
         }
+      },
+      "Line 6::AMPLIFi FX100": {
+        "model_key": "Line 6::AMPLIFi FX100",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://r2.gear4music.com/media/42/429035/1200/preview.jpg",
+            "source_url": "https://www.gear4music.com/us/en/Guitar-and-Bass/Line-6-AMPLIFi-FX100-Multi-Effects-Pedal/ZPE",
+            "caption": "AMPLIFi FX100 powered-on top/front view",
+            "note": "Bank 01 and footswitch/volume LEDs visibly illuminated. Elevated front perspective, not perpendicular top-down; whole control surface and expression pedal visible.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "ab79241089fbc774714bd2d845516e34d1576b23dc2dd73fce38ff76b8768f70"
+          },
+          "rear": {
+            "image_url": "https://line6.jp/products/amplifi/images/fx100-img3.png",
+            "source_url": "https://line6.jp/products/amplifi/amplifi-fx100.html",
+            "caption": "AMPLIFi FX100 rear connections",
+            "note": "Manufacturer rear product image: guitar in, stereo main out, amp out, phones, USB, 9VDC and power switch visible. Black accessory attached near USB/power obscures part of panel; exact model established by own page and front branding.",
+            "visual_checked": true,
+            "sha256": "823c5345eb9b562ebb9c5a64b02caeaf732620bed90af29cc9220bf8d6ad6b73"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD HD500X"
+    "last_model": "Line 6::AMPLIFi FX100"
   }
 }

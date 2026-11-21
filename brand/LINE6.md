@@ -64,6 +64,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::AMPLIFi FX100 ends -->
 
+<!-- model-images:Line 6::AMPLIFi FX100 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**AMPLIFi FX100 powered-on top/front view**
+
+[![AMPLIFi FX100 powered-on top/front view](https://r2.gear4music.com/media/42/429035/1200/preview.jpg)](https://r2.gear4music.com/media/42/429035/1200/preview.jpg)
+
+[Image source](https://www.gear4music.com/us/en/Guitar-and-Bass/Line-6-AMPLIFi-FX100-Multi-Effects-Pedal/ZPE). Bank 01 and footswitch/volume LEDs visibly illuminated. Elevated front perspective, not perpendicular top-down; whole control surface and expression pedal visible.
+
+**AMPLIFi FX100 rear connections**
+
+[![AMPLIFi FX100 rear connections](https://line6.jp/products/amplifi/images/fx100-img3.png)](https://line6.jp/products/amplifi/images/fx100-img3.png)
+
+[Image source](https://line6.jp/products/amplifi/amplifi-fx100.html). Manufacturer rear product image: guitar in, stereo main out, amp out, phones, USB, 9VDC and power switch visible. Black accessory attached near USB/power obscures part of panel; exact model established by own page and front branding.
+
+</details>
+<!-- model-images:Line 6::AMPLIFi FX100 ends -->
+
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Guitar floor processor, distinct from AMPLIFi speaker amps and Flamma FX100. Own Rev D guide and manufacturer support; partial verification.
 
