@@ -195182,11 +195182,35 @@
             "sha256": "6208deed2abcd1d12035b65c55bf0b42ee690d451eb37acc2e886e0b709b5f3d"
           }
         }
+      },
+      "Korg::AX1500G": {
+        "model_key": "Korg::AX1500G",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/korg-ax1500g-6339102.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/korg/Ax1500g/",
+            "caption": "Korg AX1500G powered-on top controls — angled view",
+            "note": "Exact AX1500G label, illuminated display/LEDs, complete controls and rubber-tread expression pedal are visible. Camera is oblique and rotated; straight top-down view remains pending. Selected instead of a powered near-overhead candidate whose pedal tread was removed.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "2b024db56de60ae9968076132adcc5c8a0ac0751d2ac07d9e8b8ac6fb18f7951"
+          },
+          "rear": {
+            "image_url": "https://musicvault.co.uk/cdn/shop/files/IMG_6123.jpg?v=1757830871&width=1214",
+            "source_url": "https://musicvault.co.uk/products/korg-ax1500g-guitar-multi-effects-pedal-pre-owned",
+            "caption": "Korg AX1500G rear ports",
+            "note": "Complete rear panel shows INPUT, AUX IN, OUTPUT R/L-MONO, headphones, DC9V and cable hook. Exact AX1500G label is also visible on the upper surface. Labels and socket layout agree with the own-model manual; retailer effect-count claims are not adopted.",
+            "visual_checked": true,
+            "sha256": "2624a91baa2b36cc3ef8e81d789b71d41fd24a98d3a926c663d4e1271fc02cb5"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX5G"
+    "last_model": "Korg::AX1500G"
   }
 }

@@ -1128,6 +1128,26 @@ Sources checked:
 
 <!-- firmware-pitch:Korg::AX1500G ends -->
 
+<!-- model-images:Korg::AX1500G begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Korg AX1500G powered-on top controls — angled view**
+
+[![Korg AX1500G powered-on top controls — angled view](https://medias.audiofanzine.com/images/normal/korg-ax1500g-6339102.jpg)](https://medias.audiofanzine.com/images/normal/korg-ax1500g-6339102.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/korg/Ax1500g/). Exact AX1500G label, illuminated display/LEDs, complete controls and rubber-tread expression pedal are visible. Camera is oblique and rotated; straight top-down view remains pending. Selected instead of a powered near-overhead candidate whose pedal tread was removed.
+
+**Korg AX1500G rear ports**
+
+[![Korg AX1500G rear ports](https://musicvault.co.uk/cdn/shop/files/IMG_6123.jpg?v=1757830871&width=1214)](https://musicvault.co.uk/cdn/shop/files/IMG_6123.jpg?v=1757830871&width=1214)
+
+[Image source](https://musicvault.co.uk/products/korg-ax1500g-guitar-multi-effects-pedal-pre-owned). Complete rear panel shows INPUT, AUX IN, OUTPUT R/L-MONO, headphones, DC9V and cable hook. Exact AX1500G label is also visible on the upper surface. Labels and socket layout agree with the own-model manual; retailer effect-count claims are not adopted.
+
+</details>
+<!-- model-images:Korg::AX1500G ends -->
+
+
 Guitar multi-effects; distinct from AX1000G/AX3000G. Checked 2026-10-17; partial. Bass capability and ownership unestablished.
 
 <!-- comparison evidence begins -->
