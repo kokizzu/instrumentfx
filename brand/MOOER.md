@@ -1353,6 +1353,31 @@ Sources: [effects/findings/2026-10-14-mooer-ge150-pro-li.md](MOOER.md#ge150-pro-
 
 ## GE200 original
 
+<!-- firmware-pitch:MOOER::GE200 original begins -->
+### Firmware and pitch audit — MOOER GE200 original
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017-10-10 (manufacturer press release proxy). Reproduced MOOER press release dated October 10; host page says October 9, so use the release dateline, not host metadata. First shipment day unverified. [launch 1](https://www.effectsdatabase.com/model/mooer/ge200) |
+| Firmware / latest verification | 2.0.3 — Latest verified. Current manufacturer page explicitly pairs App 2.1.0 (2026-11-06) with firmware 2.0.3. Neither editor date nor uniform 2026-11-10 file-upload timestamps date firmware. Official April 28, 2020 tutorial already covers 2.0.3; exact release day unresolved. Retained restore notes call it Beta, while current heading omits Beta; designation conflict disclosed. PC NAM import is an editor addition, not proof of native NAM execution. [firmware 1](https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html) [firmware 2](https://www.youtube.com/watch?v=WFdqUMcpS90) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Original manual MOD includes Pitch Shift and Detune. Firmware 2.0.0 adds an effect named Mono Pitch Shift. The word Mono alone does not establish whether input-note handling or output channel count is meant; explicit chord-tracking guarantee not located. [pitch 1](https://www.zikinf.com/manuels/mooer-ge200-manuel-utilisateur-en-65892.pdf) [pitch 2](https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html) |
+| Pitch / preset recall | 200 editable preset locations. SAVE stores current configuration to a selected slot; expression/EXP2 parameter control and MERGE heel/toe endpoints are documented. Exact held-position recall untested. |
+| Pitch / DSP resources | Nine reorderable category blocks. Pitch models use MOD instead of another MOD selection; independent concurrent pitch models are not established. No numerical algorithm DSP percentage located. |
+| Pitch / qualifications | No Pro/Plus Poly Shift capability transferred. No tracking, latency or CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER GE200 press release reproduction](https://www.effectsdatabase.com/model/mooer/ge200) — October10,2017 dateline differs from host October9 publication metadata. (Manufacturer-attributed release text on archive read).
+- [Original GE200 downloads and firmware notes](https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html) — App2.1.0 dated2026-11-06 retains firmware2.0.3; Mono Pitch Shift added in2.0.0; older2.0.3 restore wording says Beta. (Manufacturer exact-model release notes read).
+- [MOOER Audio — Loading GNR/GIR files on GE200 2.0.3](https://www.youtube.com/watch?v=WFdqUMcpS90) — April28,2020 tutorial establishes 2.0.3 existed then, not exact release date. (Official-channel indexed publication/description read).
+- [Original GE200 Owner’s Manual](https://www.zikinf.com/manuels/mooer-ge200-manuel-utilisateur-en-65892.pdf) — MOD pitch/detune inventory, nine category blocks, preset saving and MERGE expression endpoints. (Manufacturer-authored PDF text read on mirror).
+
+<!-- firmware-pitch:MOOER::GE200 original ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE200-ORIGINAL source begins -->

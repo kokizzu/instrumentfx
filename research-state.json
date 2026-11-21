@@ -179042,7 +179042,7 @@
     ]
   },
   "firmware_lifecycle": {
-    "checked_date": "2026-11-21",
+    "checked_date": "2026-11-22",
     "scope": [
       "Alesis::MIDIverb 4",
       "Alesis::MIDIverb III",
@@ -192752,6 +192752,72 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::GE200 original": {
+        "model_key": "MOOER::GE200 original",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2017-10-10",
+          "precision": "day",
+          "kind": "manufacturer_press_release_proxy",
+          "source_urls": [
+            "https://www.effectsdatabase.com/model/mooer/ge200"
+          ],
+          "note": "Reproduced MOOER press release dated October 10; host page says October 9, so use the release dateline, not host metadata. First shipment day unverified."
+        },
+        "firmware": {
+          "version": "2.0.3",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html",
+            "https://www.youtube.com/watch?v=WFdqUMcpS90"
+          ],
+          "note": "Current manufacturer page explicitly pairs App 2.1.0 (2026-11-06) with firmware 2.0.3. Neither editor date nor uniform 2026-11-10 file-upload timestamps date firmware. Official April 28, 2020 tutorial already covers 2.0.3; exact release day unresolved. Retained restore notes call it Beta, while current heading omits Beta; designation conflict disclosed. PC NAM import is an editor addition, not proof of native NAM execution."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Original manual MOD includes Pitch Shift and Detune. Firmware 2.0.0 adds an effect named Mono Pitch Shift. The word Mono alone does not establish whether input-note handling or output channel count is meant; explicit chord-tracking guarantee not located.",
+          "preset": "200 editable preset locations. SAVE stores current configuration to a selected slot; expression/EXP2 parameter control and MERGE heel/toe endpoints are documented. Exact held-position recall untested.",
+          "dsp": "Nine reorderable category blocks. Pitch models use MOD instead of another MOD selection; independent concurrent pitch models are not established. No numerical algorithm DSP percentage located.",
+          "source_urls": [
+            "https://www.zikinf.com/manuels/mooer-ge200-manuel-utilisateur-en-65892.pdf",
+            "https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "No Pro/Plus Poly Shift capability transferred. No tracking, latency or CPU measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.effectsdatabase.com/model/mooer/ge200",
+            "title": "MOOER GE200 press release reproduction",
+            "access": "Manufacturer-attributed release text on archive read",
+            "evidence": "October10,2017 dateline differs from host October9 publication metadata."
+          },
+          {
+            "url": "https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html",
+            "title": "Original GE200 downloads and firmware notes",
+            "access": "Manufacturer exact-model release notes read",
+            "evidence": "App2.1.0 dated2026-11-06 retains firmware2.0.3; Mono Pitch Shift added in2.0.0; older2.0.3 restore wording says Beta."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=WFdqUMcpS90",
+            "title": "MOOER Audio — Loading GNR/GIR files on GE200 2.0.3",
+            "access": "Official-channel indexed publication/description read",
+            "evidence": "April28,2020 tutorial establishes 2.0.3 existed then, not exact release date."
+          },
+          {
+            "url": "https://www.zikinf.com/manuels/mooer-ge200-manuel-utilisateur-en-65892.pdf",
+            "title": "Original GE200 Owner’s Manual",
+            "access": "Manufacturer-authored PDF text read on mirror",
+            "evidence": "MOD pitch/detune inventory, nine category blocks, preset saving and MERGE expression endpoints."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -192791,7 +192857,6 @@
       "MOOER::GE150 Plus Li",
       "MOOER::GE150 Pro",
       "MOOER::GE150 Pro Li",
-      "MOOER::GE200 original",
       "MOOER::GE200 Plus",
       "MOOER::GE200 Plus Li",
       "MOOER::GE200 Pro",
@@ -192980,9 +193045,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 179,
-    "last_model": "MOOER::GE150 original",
-    "last_commit_parent": "0538dc7da4bfdbe36d56ad3496dc79b1e9c1aebe",
+    "completed_model_count": 180,
+    "last_model": "MOOER::GE200 original",
+    "last_commit_parent": "06fb3e01b4dfa499550c9c77d068302632577919",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -193021,7 +193086,6 @@
       "MOOER::GE150 Plus Li",
       "MOOER::GE150 Pro",
       "MOOER::GE150 Pro Li",
-      "MOOER::GE200 original",
       "MOOER::GE200 Plus",
       "MOOER::GE200 Plus Li",
       "MOOER::GE200 Pro",
@@ -193209,7 +193273,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 179,
+    "pitch_completed_model_count": 180,
     "supplemental_model_count": 0
   },
   "model_images": {
