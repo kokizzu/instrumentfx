@@ -125,6 +125,26 @@ Sources checked:
 
 <!-- firmware-pitch:Flamma::FB200 ends -->
 
+<!-- model-images:Flamma::FB200 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**FB200 top-down manufacturer graphic with active display**
+
+[![FB200 top-down manufacturer graphic with active display](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FB200_1464x600-3_1.jpg?v=1751003402)](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FB200_1464x600-3_1.jpg?v=1751003402)
+
+[Image source](https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal). Annotated promotional composite shows P08 display and colored LED strip, with all16top controls and four switches. Top-down orientation is visible, but actual powered-on photography is not verified; colors on knobs are explanatory overlays.
+
+**FB200 rear ports and power switch**
+
+[![FB200 rear ports and power switch](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FB200_4_23cf9694-443a-4715-bced-ca14ea04aa3c.png?v=1751004301)](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FB200_4_23cf9694-443a-4715-bced-ca14ea04aa3c.png?v=1751004301)
+
+[Image source](https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal). Manufacturer product image clearly shows Input, Output, Phones, USB-C marked5V/2A and On/Off slider. Image alone does not establish cable compatibility or charging while playing; retain manual qualifications.
+
+</details>
+<!-- model-images:Flamma::FB200 ends -->
+
+
 Checked **2026-10-17**; partial. Bass-focused combined multi-effects; distinct from FG200. No positive guitar/vocal classification established.
 
 <!-- comparison evidence begins -->

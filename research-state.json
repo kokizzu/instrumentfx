@@ -188163,11 +188163,35 @@
             "sha256": "698444a65c856bb9a9e3ce71136db5574b1032133b662146a0280a04a34453bd"
           }
         }
+      },
+      "Flamma::FB200": {
+        "model_key": "Flamma::FB200",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FB200_1464x600-3_1.jpg?v=1751003402",
+            "source_url": "https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal",
+            "caption": "FB200 top-down manufacturer graphic with active display",
+            "note": "Annotated promotional composite shows P08 display and colored LED strip, with all16top controls and four switches. Top-down orientation is visible, but actual powered-on photography is not verified; colors on knobs are explanatory overlays.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": true,
+            "sha256": "2ea8cf072e7b06c384bd093f5664a27aba78c021fabb3e5766a428ec5b0d477e"
+          },
+          "rear": {
+            "image_url": "https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FB200_4_23cf9694-443a-4715-bced-ca14ea04aa3c.png?v=1751004301",
+            "source_url": "https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal",
+            "caption": "FB200 rear ports and power switch",
+            "note": "Manufacturer product image clearly shows Input, Output, Phones, USB-C marked5V/2A and On/Off slider. Image alone does not establish cable compatibility or charging while playing; retain manual qualifications.",
+            "visual_checked": true,
+            "sha256": "da3896dc527aef8c9e49453ee844b2d30a96740ba0fffed37284b794a22ba35f"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Fender::Tone Master Pro"
+    "last_model": "Flamma::FB200"
   }
 }
