@@ -193363,11 +193363,35 @@
             "sha256": "7e50d2246b56a86531e82170095e7456eef706cbd8ca41d4f18c71f24f1d4fa8"
           }
         }
+      },
+      "Darkglass::Anagram": {
+        "model_key": "Darkglass::Anagram",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.basscentre.com.au/cdn/shop/files/ANAGRAM_F_1200x.jpg?v=1744088807",
+            "source_url": "https://www.basscentre.com.au/products/darkglass-anagram-multi-effects-and-amp-modeller",
+            "caption": "Darkglass Anagram — top panel",
+            "note": "Retailer straight top-down product photograph shows a lit color signal-chain screen and red/yellow/green footswitch indicators. Promotional image, not an independently operated unit.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "9225a724fdefd4ce84a1cd4b7ca2468ac196879c01f000b9db39b579ff0c8bd0"
+          },
+          "rear": {
+            "image_url": "https://www.darkglass.com/cdn/shop/files/Darkglass-Anagram-Gal-2.png?v=1749152662&width=940",
+            "source_url": "https://www.darkglass.com/en-int/collections/darkglass-suite",
+            "caption": "Darkglass Anagram — rear connections",
+            "note": "Manufacturer rear product image shows INPUT, SEND (insert), RETURN (exp), headphones, XLR OUT1/L and OUT2/R, jack OUT3/L and OUT4/R, USB-C, MIDI IN/OUT and DC input. Printed power label reads 9–12VDC, 2A; this image documents that chassis label rather than establishing every later power compatibility change. All sockets visible; rear view alone does not establish operating power state.",
+            "visual_checked": true,
+            "sha256": "db72cdb7a268dca9b41c67d5b9eadf05ee3e1eabd4cd6d523a67e431918aa104"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Keeley::Delay Workstation"
+    "last_model": "Darkglass::Anagram"
   }
 }

@@ -35,6 +35,26 @@ Sources checked:
 
 <!-- firmware-pitch:Darkglass::Anagram ends -->
 
+<!-- model-images:Darkglass::Anagram begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Darkglass Anagram — top panel**
+
+[![Darkglass Anagram — top panel](https://www.basscentre.com.au/cdn/shop/files/ANAGRAM_F_1200x.jpg?v=1744088807)](https://www.basscentre.com.au/cdn/shop/files/ANAGRAM_F_1200x.jpg?v=1744088807)
+
+[Image source](https://www.basscentre.com.au/products/darkglass-anagram-multi-effects-and-amp-modeller). Retailer straight top-down product photograph shows a lit color signal-chain screen and red/yellow/green footswitch indicators. Promotional image, not an independently operated unit.
+
+**Darkglass Anagram — rear connections**
+
+[![Darkglass Anagram — rear connections](https://www.darkglass.com/cdn/shop/files/Darkglass-Anagram-Gal-2.png?v=1749152662&width=940)](https://www.darkglass.com/cdn/shop/files/Darkglass-Anagram-Gal-2.png?v=1749152662&width=940)
+
+[Image source](https://www.darkglass.com/en-int/collections/darkglass-suite). Manufacturer rear product image shows INPUT, SEND (insert), RETURN (exp), headphones, XLR OUT1/L and OUT2/R, jack OUT3/L and OUT4/R, USB-C, MIDI IN/OUT and DC input. Printed power label reads 9–12VDC, 2A; this image documents that chassis label rather than establishing every later power compatibility change. All sockets visible; rear view alone does not establish operating power state.
+
+</details>
+<!-- model-images:Darkglass::Anagram ends -->
+
+
 Bass multi-effects platform; checked2026-10-18,partial. Ownership unverified. Guitar cabinet choices do not independently establish guitar/vocal comparison membership. Expression accessory is a separate product,not another processor.
 
 | Field | Finding / qualification | Evidence |
