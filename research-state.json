@@ -191710,11 +191710,35 @@
             "sha256": "b74df914841c622ec2b98d67c64f3b1f510c4b57f504dabc616ca1fc1c44eefc"
           }
         }
+      },
+      "Line 6::Helix LT": {
+        "model_key": "Line 6::Helix LT",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/6/0a020a3f16ff260b70ccdc387e/image/png",
+            "source_url": "https://line6.com/helix/helix-lt.html",
+            "caption": "Helix LT — powered-on overhead view",
+            "note": "Exact LT enclosure, no scribble strips, onboard treadle. Overhead manufacturer photograph shows the LCD signal chain, colored footswitch rings and EXP indicator illuminated.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "fedc696a44111ed80182d2b5c5e69d3d881beb46a28198658207a12f7b50cd7a"
+          },
+          "rear": {
+            "image_url": "https://line6.com/data/6/0a020a3f16fbc60b70c7ecf40a/image/png",
+            "source_url": "https://line6.com/helix/helix-lt.html",
+            "caption": "Helix LT — rear connections",
+            "note": "Full-size exact LT photograph: shared EXP2/EXT AMP, Guitar In, two Returns and Sends, ground lift, XLR and quarter-inch outputs, Phones, Variax, AES/EBU/L6 LINK, MIDI, USB, IEC AC and power switch. Rack/Floor extra sockets are not pictured.",
+            "visual_checked": true,
+            "sha256": "14d2cfff787721c2e8d5aa83f406b8c1f103809d481a5225177ae6bed287e883"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD Express Bass"
+    "last_model": "Line 6::Helix LT"
   }
 }

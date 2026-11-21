@@ -644,6 +644,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::Helix LT ends -->
 
+<!-- model-images:Line 6::Helix LT begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Helix LT — powered-on overhead view**
+
+[![Helix LT — powered-on overhead view](https://line6.com/data/6/0a020a3f16ff260b70ccdc387e/image/png)](https://line6.com/data/6/0a020a3f16ff260b70ccdc387e/image/png)
+
+[Image source](https://line6.com/helix/helix-lt.html). Exact LT enclosure, no scribble strips, onboard treadle. Overhead manufacturer photograph shows the LCD signal chain, colored footswitch rings and EXP indicator illuminated.
+
+**Helix LT — rear connections**
+
+[![Helix LT — rear connections](https://line6.com/data/6/0a020a3f16fbc60b70c7ecf40a/image/png)](https://line6.com/data/6/0a020a3f16fbc60b70c7ecf40a/image/png)
+
+[Image source](https://line6.com/helix/helix-lt.html). Full-size exact LT photograph: shared EXP2/EXT AMP, Guitar In, two Returns and Sends, ground lift, XLR and quarter-inch outputs, Phones, Variax, AES/EBU/L6 LINK, MIDI, USB, IEC AC and power switch. Rack/Floor extra sockets are not pictured.
+
+</details>
+<!-- model-images:Line 6::Helix LT ends -->
+
+
 Guitar/bass multi-effects; checked **2026-10-16**. First pass, not fully verified. The LT-specific manufacturer chart explicitly lists bass amps and bass inputs; this is not inferred from Helix Floor.
 
 | Field | Evidence and limits |
