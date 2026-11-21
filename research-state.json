@@ -200608,11 +200608,37 @@
             "sha256": "01c58bd6916fc4e53b3345fbb9fcf8506084ef6a17a3ab027aeaf7dfc11248a5"
           }
         }
+      },
+      "NUX::Atlantic NDR-5": {
+        "model_key": "NUX::Atlantic NDR-5",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.nux.us/cdn/shop/files/Atlantic_NDR-5__W_01.jpg?v=1756946297&width=2560",
+            "source_url": "https://www.nux.us/products/atlantic",
+            "caption": "NUX Atlantic — top controls",
+            "visual_checked": true,
+            "note": "Official overhead photograph shows Atlantic with green Delay status light illuminated, five red rotary controls and two footswitches. There is no numeric preset display in this photo.",
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "dcd111f81f155bb2bb1f4d90c85cfc1cf896dca42d9baddeb2869680c7fa9c4f"
+          },
+          "rear": {
+            "image_url": "https://www.nux.us/cdn/shop/files/Atlantic_NDR-5__W_03.jpg?v=1756946297&width=2560",
+            "source_url": "https://www.nux.us/products/atlantic",
+            "caption": "NUX Atlantic — rear ports",
+            "visual_checked": true,
+            "note": "Official elevated rear three-quarter photograph shows the input, input-level and serial/parallel toggles, mono/stereo outputs, micro-USB and DC9V input; the green Delay light is visible on top. All rear connections are visible, but this is an angled view rather than a straight rear photograph. TRS input labeling does not resolve the preserved stereo/insert behavior ambiguity.",
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "449abac7577f97c9df3d6ee3c17313e31b6d1d891d27240da215dc6d9af1b432"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::TRIDENT NME-5"
+    "last_model": "NUX::Atlantic NDR-5"
   }
 }
