@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf",
+    "requested_url": "https://cdn.roland.com/assets/media/pdf/GT-10B_OM.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 11,
+    "frame": 110,
     "text_pages": [
-      7,
-      7
+      123,
+      123
     ],
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",
@@ -182335,10 +182335,83 @@
           "label": "8.43–8.51 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GT-10B": {
+        "model_key": "BOSS::GT-10B",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2008-01-17",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/pr_2008-01-17_gt-10b.pdf"
+          ],
+          "note": "Dated NAMM manufacturer introduction; exact first customer shipment not verified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gt-10b/updates_drivers/",
+            "https://www.boss.info/jp/support/by_product/gt-10b/updates_drivers/"
+          ],
+          "note": "Global and Japanese exact-model indexes list USB drivers and Librarian1.00, with no device system program located. Those software versions and manual MIDI-chart Version1.00 are not device firmware; neither latest device version nor release-to-update duration is established."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shifter ±24 semitones with Fast/Medium/Slow/Mono; Mono explicitly takes single notes and warns about chords. Octave adds one octave down and disallows chords; Harmonist and Pedal Bend also disallow chords. Other Pitch Shifter modes are not explicitly established as note-polyphonic.",
+          "preset": "200 writable user plus 200 preset patches. Save edited effects with Write before changing patch/power-off. Per-effect Quick Settings are separate recall settings, not additional processing instances.",
+          "dsp": "Pitch Shifter, Octave and Harmonist are selectable FX-1/FX-2 alternatives; the same effect may be used in both slots. Pedal Bend is separate in PEDAL FX, with heel/toe pitch each ±24. No per-pitch CPU percentage or numerical DSP budget established.",
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/GT-10B_OM.pdf",
+            "https://www.boss.info/global/products/gt-10b/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original manual printed p111 visually checked: the blanket chord prohibition is under Octave; Pitch Shifter has a separate Mono-mode caveat.",
+            "Stereo output and two generated pitch voices do not establish simultaneous-note input polyphony.",
+            "Original manufacturer PDF retrieved, SHA2563193817a55174680d524758e0d8fd5ed91cd287b1bfd0adab687cf0a04db3ce5; no device operated."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/pr_2008-01-17_gt-10b.pdf",
+            "title": "BOSS GT-10B NAMM introduction January17 2008",
+            "access": "opened_pdf_text",
+            "evidence": "Dated exact-model announcement, not first-shipment proof."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-10b/updates_drivers/",
+            "title": "BOSS GT-10B global Updates & Drivers",
+            "access": "opened",
+            "evidence": "USB drivers and Librarian packages; no system program located."
+          },
+          {
+            "url": "https://www.boss.info/jp/support/by_product/gt-10b/updates_drivers/",
+            "title": "BOSS GT-10B Japanese Updates & Drivers",
+            "access": "opened",
+            "evidence": "Same exact-model driver/librarian distinction; no public firmware located."
+          },
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/GT-10B_OM.pdf",
+            "title": "BOSS GT-10B original owner manual G6027127R0",
+            "access": "downloaded_pdf; p111 visually inspected; pp105,112–113,124 text inspected",
+            "evidence": "FX slot duplication; octave and pitch-mode chord restrictions; Harmonist single notes; Pedal Bend heel/toe±24. PDF size12373035 bytes; SHA2563193817a55174680d524758e0d8fd5ed91cd287b1bfd0adab687cf0a04db3ce5."
+          },
+          {
+            "url": "https://www.boss.info/global/products/gt-10b/",
+            "title": "BOSS GT-10B manufacturer product/specifications",
+            "access": "opened",
+            "evidence": "200 user plus200 preset locations; parallel bass paths; no per-pitch DSP percentage."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GT-10B",
       "BOSS::GT-1B",
       "BOSS::GT-3",
       "BOSS::GT-5",
@@ -182704,12 +182777,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 38,
-    "last_model": "BOSS::GT-1000",
-    "last_commit_parent": "2128e266e3dead2c45dc5b8ea0bfc5461f052f98",
+    "completed_model_count": 39,
+    "last_model": "BOSS::GT-10B",
+    "last_commit_parent": "5be2e2bbbdf3105e62f4bca9e950736a3082ffbd",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GT-10B",
       "BOSS::GT-1B",
       "BOSS::GT-3",
       "BOSS::GT-5",
@@ -183074,7 +183146,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 38,
+    "pitch_completed_model_count": 39,
     "supplemental_model_count": 0
   }
 }

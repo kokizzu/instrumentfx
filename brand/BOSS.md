@@ -1868,6 +1868,32 @@ Remaining: visual control corroboration, screen details, other category counts/r
 
 ## GT-10B
 
+<!-- firmware-pitch:BOSS::GT-10B begins -->
+### Firmware and pitch audit — BOSS GT-10B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2008-01-17 (manufacturer announcement proxy). Dated NAMM manufacturer introduction; exact first customer shipment not verified. [launch 1](https://cdn.roland.com/assets/media/pdf/pr_2008-01-17_gt-10b.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. Global and Japanese exact-model indexes list USB drivers and Librarian1.00, with no device system program located. Those software versions and manual MIDI-chart Version1.00 are not device firmware; neither latest device version nor release-to-update duration is established. [firmware 1](https://www.boss.info/global/support/by_product/gt-10b/updates_drivers/) [firmware 2](https://www.boss.info/jp/support/by_product/gt-10b/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter ±24 semitones with Fast/Medium/Slow/Mono; Mono explicitly takes single notes and warns about chords. Octave adds one octave down and disallows chords; Harmonist and Pedal Bend also disallow chords. Other Pitch Shifter modes are not explicitly established as note-polyphonic. [pitch 1](https://cdn.roland.com/assets/media/pdf/GT-10B_OM.pdf) [pitch 2](https://www.boss.info/global/products/gt-10b/) |
+| Pitch / preset recall | 200 writable user plus 200 preset patches. Save edited effects with Write before changing patch/power-off. Per-effect Quick Settings are separate recall settings, not additional processing instances. |
+| Pitch / DSP resources | Pitch Shifter, Octave and Harmonist are selectable FX-1/FX-2 alternatives; the same effect may be used in both slots. Pedal Bend is separate in PEDAL FX, with heel/toe pitch each ±24. No per-pitch CPU percentage or numerical DSP budget established. |
+| Pitch / qualifications | Original manual printed p111 visually checked: the blanket chord prohibition is under Octave; Pitch Shifter has a separate Mono-mode caveat. Stereo output and two generated pitch voices do not establish simultaneous-note input polyphony. Original manufacturer PDF retrieved, SHA2563193817a55174680d524758e0d8fd5ed91cd287b1bfd0adab687cf0a04db3ce5; no device operated. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS GT-10B NAMM introduction January17 2008](https://cdn.roland.com/assets/media/pdf/pr_2008-01-17_gt-10b.pdf) — Dated exact-model announcement, not first-shipment proof. (opened_pdf_text).
+- [BOSS GT-10B global Updates & Drivers](https://www.boss.info/global/support/by_product/gt-10b/updates_drivers/) — USB drivers and Librarian packages; no system program located. (opened).
+- [BOSS GT-10B Japanese Updates & Drivers](https://www.boss.info/jp/support/by_product/gt-10b/updates_drivers/) — Same exact-model driver/librarian distinction; no public firmware located. (opened).
+- [BOSS GT-10B original owner manual G6027127R0](https://cdn.roland.com/assets/media/pdf/GT-10B_OM.pdf) — FX slot duplication; octave and pitch-mode chord restrictions; Harmonist single notes; Pedal Bend heel/toe±24. PDF size12373035 bytes; SHA2563193817a55174680d524758e0d8fd5ed91cd287b1bfd0adab687cf0a04db3ce5. (downloaded_pdf; p111 visually inspected; pp105,112–113,124 text inspected).
+- [BOSS GT-10B manufacturer product/specifications](https://www.boss.info/global/products/gt-10b/) — 200 user plus200 preset locations; parallel bass paths; no per-pitch DSP percentage. (opened).
+
+<!-- firmware-pitch:BOSS::GT-10B ends -->
+
 Bass-specific multi-effects; distinct from GT-10. Checked2026-10-18; partial. Manufacturer-established model; exact Indonesian hardware offer and ownership remain unverified. Discontinued status does not establish market absence.
 
 <!-- comparison evidence begins -->
