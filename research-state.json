@@ -195188,6 +195188,87 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::Ocean Machine original": {
+        "model_key": "MOOER::Ocean Machine original",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2017",
+          "precision": "year",
+          "kind": "manufacturer_retrospective_release_year",
+          "source_urls": [
+            "https://www.mooeraudio.com/products/206.html"
+          ],
+          "note": "Manufacturer II introduction identifies the original as a 2017 release. Earlier trade-show prototypes do not establish retail availability; exact first shipping day unresolved."
+        },
+        "firmware": {
+          "version": "1.1.1",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.mooeraudio.com/product/Ocean-Machine--53.html",
+            "https://www.mooeraudio.com/companyfile/Ocean-Machine-Downloads-139.html",
+            "https://cn.mooeraudio.com/news/%E9%AD%94%E8%80%B3Ocean-Machine%E7%AC%AC%E4%B8%80%E7%89%88%E5%9B%BA%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81-239.html",
+            "https://cn.mooeraudio.com/bews/p-60-12.html"
+          ],
+          "note": "Current exact-original product/download pages offer OM_FW1.1.1. Actual initial release date unresolved: download metadata says 2018-09-20; Chinese news index associates 2018-05-08 with the same version; update instructions name a 20170721-prefixed archive. These are not interchangeable release dates. The updater uses an external USB-MIDI interface, not direct USB-C. Current news specifies Windows-only updater support."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Delay A Rainbow and Crystal are pitch-delay algorithms; reverb has shimmer. No dedicated dry-signal transposer, interval range or polyphonic/monophonic tracking specification verified.",
+          "preset": "24 writable preset spaces (eight banks of three). Patch mode recalls stored effects; global expression assignment is independent of the preset.",
+          "dsp": "Two independent delays plus reverb with programmable order; pitch delay replaces the selected Delay A algorithm. No measured or published isolated pitch DSP percentage, CPU cost or general arbitrary-block ceiling found.",
+          "source_urls": [
+            "https://medias.audiofanzine.com/files/mooer-ocean-machine-manual-480472.pdf",
+            "https://www.mooeraudio.com/product/Ocean-Machine--53.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Ambient pitch/shimmer does not establish polyphonic whole-guitar retuning.",
+            "Firmware 1.1.1 adds configurable MIDI channels, custom PC mapping and MIDI freeze; this qualifies the older manual channel-1-only statement. MIDI Thru forwarding remains distinct from generated controller transmission."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.mooeraudio.com/products/206.html",
+            "title": "MOOER Ocean Machine II introduction",
+            "access": "Manufacturer page checked 2026-11-22",
+            "evidence": "Explicitly dates original Ocean Machine release to 2017; used only for original release year."
+          },
+          {
+            "url": "https://www.mooeraudio.com/product/Ocean-Machine--53.html",
+            "title": "MOOER original Ocean Machine product",
+            "access": "Manufacturer page checked 2026-11-22",
+            "evidence": "Original blue hardware product links OM_FW1.1.1; two delays, reverb/shimmer and 24 presets."
+          },
+          {
+            "url": "https://www.mooeraudio.com/companyfile/Ocean-Machine-Downloads-139.html",
+            "title": "MOOER original Ocean Machine firmware download",
+            "access": "Manufacturer page checked 2026-11-22",
+            "evidence": "OM_FW1.1.1 offered; 2018-09-20 creation/file metadata is not verified first release date."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/bews/p-60-12.html",
+            "title": "MOOER China news index, page 6",
+            "access": "Manufacturer news index checked 2026-11-22",
+            "evidence": "Associates 2018-05-08 with Ocean Machine first firmware update 1.1.1, earlier than current English download metadata."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/news/%E9%AD%94%E8%80%B3Ocean-Machine%E7%AC%AC%E4%B8%80%E7%89%88%E5%9B%BA%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81-239.html",
+            "title": "MOOER original Ocean Machine first firmware update 1.1.1 release notes",
+            "access": "Manufacturer Chinese release notes checked 2026-11-22",
+            "evidence": "Adds configurable MIDI channels, custom PC, MIDI freeze, operation-mode power-off memory and firmware display in Reset; Windows-only updater and external USB-MIDI directions. Archive filename begins 20170721 but filename is not a verified release date."
+          },
+          {
+            "url": "https://medias.audiofanzine.com/files/mooer-ocean-machine-manual-480472.pdf",
+            "title": "Original MOOER Ocean Machine EN_V01 manual",
+            "access": "Manufacturer-authored 26-page PDF mirror; original cover/layout checked; 2026-11-22",
+            "evidence": "Printed pp9–10 pitch-delay Rainbow/Crystal, shimmer, pp7/17 preset recall/store, p14 global expression; p22 external USB-MIDI updater. No polyphony or DSP cost specified."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -195216,7 +195297,6 @@
       "M-VAVE::TANK-G",
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
-      "MOOER::Ocean Machine original",
       "Mosky::DC5",
       "Mosky::RC5",
       "Mosky::RD5",
@@ -195387,9 +195467,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 208,
-    "last_model": "MOOER::Ocean Machine II",
-    "last_commit_parent": "c513ec6de13e0e630b22d97a95cfbc72171ffc17",
+    "completed_model_count": 209,
+    "last_model": "MOOER::Ocean Machine original",
+    "last_commit_parent": "2fa6e9a01f6782f324c78f90d5e939fca2a34b9c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -195417,7 +195497,6 @@
       "M-VAVE::TANK-G",
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
-      "MOOER::Ocean Machine original",
       "Mosky::DC5",
       "Mosky::RC5",
       "Mosky::RD5",
@@ -195587,7 +195666,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 208,
+    "pitch_completed_model_count": 209,
     "supplemental_model_count": 0
   },
   "model_images": {

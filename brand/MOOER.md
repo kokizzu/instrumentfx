@@ -3855,6 +3855,33 @@ Further original-manual check (printed pp.11,15,18,25): **Master Mix is wet/dry 
 
 ## Ocean Machine original
 
+<!-- firmware-pitch:MOOER::Ocean Machine original begins -->
+### Firmware and pitch audit — MOOER Ocean Machine original
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017 (manufacturer retrospective release year). Manufacturer II introduction identifies the original as a 2017 release. Earlier trade-show prototypes do not establish retail availability; exact first shipping day unresolved. [launch 1](https://www.mooeraudio.com/products/206.html) |
+| Firmware / latest verification | 1.1.1 — Latest verified. Current exact-original product/download pages offer OM_FW1.1.1. Actual initial release date unresolved: download metadata says 2018-09-20; Chinese news index associates 2018-05-08 with the same version; update instructions name a 20170721-prefixed archive. These are not interchangeable release dates. The updater uses an external USB-MIDI interface, not direct USB-C. Current news specifies Windows-only updater support. [firmware 1](https://www.mooeraudio.com/product/Ocean-Machine--53.html) [firmware 2](https://www.mooeraudio.com/companyfile/Ocean-Machine-Downloads-139.html) [firmware 3](https://cn.mooeraudio.com/news/%E9%AD%94%E8%80%B3Ocean-Machine%E7%AC%AC%E4%B8%80%E7%89%88%E5%9B%BA%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81-239.html) [firmware 4](https://cn.mooeraudio.com/bews/p-60-12.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Delay A Rainbow and Crystal are pitch-delay algorithms; reverb has shimmer. No dedicated dry-signal transposer, interval range or polyphonic/monophonic tracking specification verified. [pitch 1](https://medias.audiofanzine.com/files/mooer-ocean-machine-manual-480472.pdf) [pitch 2](https://www.mooeraudio.com/product/Ocean-Machine--53.html) |
+| Pitch / preset recall | 24 writable preset spaces (eight banks of three). Patch mode recalls stored effects; global expression assignment is independent of the preset. |
+| Pitch / DSP resources | Two independent delays plus reverb with programmable order; pitch delay replaces the selected Delay A algorithm. No measured or published isolated pitch DSP percentage, CPU cost or general arbitrary-block ceiling found. |
+| Pitch / qualifications | Ambient pitch/shimmer does not establish polyphonic whole-guitar retuning. Firmware 1.1.1 adds configurable MIDI channels, custom PC mapping and MIDI freeze; this qualifies the older manual channel-1-only statement. MIDI Thru forwarding remains distinct from generated controller transmission. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER Ocean Machine II introduction](https://www.mooeraudio.com/products/206.html) — Explicitly dates original Ocean Machine release to 2017; used only for original release year. (Manufacturer page checked 2026-11-22).
+- [MOOER original Ocean Machine product](https://www.mooeraudio.com/product/Ocean-Machine--53.html) — Original blue hardware product links OM_FW1.1.1; two delays, reverb/shimmer and 24 presets. (Manufacturer page checked 2026-11-22).
+- [MOOER original Ocean Machine firmware download](https://www.mooeraudio.com/companyfile/Ocean-Machine-Downloads-139.html) — OM_FW1.1.1 offered; 2018-09-20 creation/file metadata is not verified first release date. (Manufacturer page checked 2026-11-22).
+- [MOOER China news index, page 6](https://cn.mooeraudio.com/bews/p-60-12.html) — Associates 2018-05-08 with Ocean Machine first firmware update 1.1.1, earlier than current English download metadata. (Manufacturer news index checked 2026-11-22).
+- [MOOER original Ocean Machine first firmware update 1.1.1 release notes](https://cn.mooeraudio.com/news/%E9%AD%94%E8%80%B3Ocean-Machine%E7%AC%AC%E4%B8%80%E7%89%88%E5%9B%BA%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81-239.html) — Adds configurable MIDI channels, custom PC, MIDI freeze, operation-mode power-off memory and firmware display in Reset; Windows-only updater and external USB-MIDI directions. Archive filename begins 20170721 but filename is not a verified release date. (Manufacturer Chinese release notes checked 2026-11-22).
+- [Original MOOER Ocean Machine EN_V01 manual](https://medias.audiofanzine.com/files/mooer-ocean-machine-manual-480472.pdf) — Printed pp9–10 pitch-delay Rainbow/Crystal, shimmer, pp7/17 preset recall/store, p14 global expression; p22 external USB-MIDI updater. No polyphony or DSP cost specified. (Manufacturer-authored 26-page PDF mirror; original cover/layout checked; 2026-11-22).
+
+<!-- firmware-pitch:MOOER::Ocean Machine original ends -->
+
 Checked2026-10-18;partial. Original model,not Ocean Machine II. Independent delays plus reverb qualify as effects-only guitar multi-effects. Bass/vocal suitability andownership unverified.
 
 | Field | Evidence / qualification |
