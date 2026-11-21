@@ -638,6 +638,26 @@ Sources checked:
 
 <!-- firmware-pitch:Flamma::FV05 Recorder ends -->
 
+<!-- model-images:Flamma::FV05 Recorder begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**FV05 top-down product view**
+
+[![FV05 top-down product view](https://www.flamma.shop/cdn/shop/files/1_c24a9b55-39d8-4d5c-9b6f-23ac224f8670.png?v=1691574593&width=1946)](https://www.flamma.shop/cdn/shop/files/1_c24a9b55-39d8-4d5c-9b6f-23ac224f8670.png?v=1691574593&width=1946)
+
+[Image source](https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal). Straight top-down manufacturer product cutout. TONE button appears red, but the footswitch light segments are dark and powered-on state is not independently established; a verified powered-on view remains pending. No display screen.
+
+**FV05 rear connections**
+
+[![FV05 rear connections](https://www.flamma.shop/cdn/shop/files/7_6ed0d438-75b6-4a53-8af7-82c42115677b.png?v=1691574593&width=1946)](https://www.flamma.shop/cdn/shop/files/7_6ed0d438-75b6-4a53-8af7-82c42115677b.png?v=1691574593&width=1946)
+
+[Image source](https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal). Rear product view shows MIC XLR input, XLR OUT, LINE IN selector, GAIN, 48V switch, LIFT/GND and DC IN marked 9V 500mA center-negative. The photographed 500mA marking conflicts with the V02 manual’s 1.5A requirement; do not treat the picture as a correction to the manual or transfer sibling specifications.
+
+</details>
+<!-- model-images:Flamma::FV05 Recorder ends -->
+
+
 Checked2026-10-17;partial. Vocal multi-effects/looper; guitar input supplies reverb only, so no guitar/bass multi-effects membership. Not the excluded FV01. [Product](https://flammainnovation.com/single.html?id=123).
 
 | Field | Finding |

@@ -188631,11 +188631,35 @@
             "sha256": "1ab7696ace77b7fa905601aa2de977597e1d1a700c53157bf236a4e3f6d4b895"
           }
         }
+      },
+      "Flamma::FV05 Recorder": {
+        "model_key": "Flamma::FV05 Recorder",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.flamma.shop/cdn/shop/files/1_c24a9b55-39d8-4d5c-9b6f-23ac224f8670.png?v=1691574593&width=1946",
+            "source_url": "https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal",
+            "caption": "FV05 top-down product view",
+            "note": "Straight top-down manufacturer product cutout. TONE button appears red, but the footswitch light segments are dark and powered-on state is not independently established; a verified powered-on view remains pending. No display screen.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": true,
+            "sha256": "2560a98886cf4928feb01dc7db9051ef2a966f5c77fc4522a38872e5e128ce2d"
+          },
+          "rear": {
+            "image_url": "https://www.flamma.shop/cdn/shop/files/7_6ed0d438-75b6-4a53-8af7-82c42115677b.png?v=1691574593&width=1946",
+            "source_url": "https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal",
+            "caption": "FV05 rear connections",
+            "note": "Rear product view shows MIC XLR input, XLR OUT, LINE IN selector, GAIN, 48V switch, LIFT/GND and DC IN marked 9V 500mA center-negative. The photographed 500mA marking conflicts with the V02 manual’s 1.5A requirement; do not treat the picture as a correction to the manual or transfer sibling specifications.",
+            "visual_checked": true,
+            "sha256": "f52d4667403ba208a700240cd8766c16c9df668819dbf507697e317efa8d733a"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Flamma::FV04 Harmony"
+    "last_model": "Flamma::FV05 Recorder"
   }
 }
