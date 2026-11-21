@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://en.audota.com/AUDOTA/%E5%BF%AB%E9%80%9F%E6%89%8B%E5%86%8C/AME-100_Manual_EN_V03_2026.05.18.pdf",
+    "requested_url": "https://audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AME-200_Manual_EN_V1.1.4.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 46,
+    "frame": 60,
     "text_pages": [
-      12,
-      19
+      58,
+      61
     ],
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",
@@ -180560,10 +180560,97 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Audota::AME-200": {
+        "model_key": "Audota::AME-200",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://en.audota.com/AME200EN.html",
+            "https://audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AME-200_Manual_EN_V1.1.4.pdf",
+            "https://shop.warwick.de/en/Blog/Audota-AME-200-Pro-AME-200-ACE-100-AVE-100"
+          ],
+          "note": "Exact original hardware launch not verified. Manual artwork/metadata date 2025-07-25 is not launch; importer overview dated 2026-04-02 is later regional coverage, not first worldwide release."
+        },
+        "firmware": {
+          "version": "1.26 (importer notation)",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-amp-modeler-multi-effects",
+            "https://en.audota.com/EN_software.html",
+            "https://en.audota.com/EN_firmware.html"
+          ],
+          "note": "Official importer explicitly identifies firmware V1.26 onward for NAM A1/A2 support. Manufacturer lists Studio 1.2.6 in Software versus 1.1.9 in Firmware. Preserve notation and package-role discrepancy; do not silently prove ROM 1.2.6 from an installer label. No dated ROM changelog or original update release day verified; latest status remains qualified."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Manual p59 Modulation: separate Pitch Shifting (Monophonic) and Pitch Shifting (Polyphonic); latter explicitly supports polyphonic playing. Whammy has nine pitch modes; Octave also listed. Interval range, wet-only capo settings and Whammy/Octave note polyphony are not established.",
+          "preset": "200 locations; A/B/C/D recall four presets per bank. Manual pp14–18 documents editable chain order/parameters and SAVE to chosen location/name. No pitch-specific save exception documented; external EXP parameter assignment to pitch is not established.",
+          "dsp": "Pitch algorithms are Modulation choices in an editable chain. No pitch CPU percentage, duplicate-polyphonic-shifter limit or pitch-specific resource exclusion located. Ten advertised categories are not measured DSP cost or proof of ten simultaneous pitch blocks.",
+          "source_urls": [
+            "https://audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AME-200_Manual_EN_V1.1.4.pdf",
+            "https://manuals.plus/m/e83dfa8d3d3ef2939052a142e66f922ba406bc6d9f9b8cfad226ccaaa2266893",
+            "https://en.audota.com/AME200EN.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Polyphony applies to the explicitly named Polyphonic algorithm, not every pitch effect. No Ampero DSP measurement transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AME-200_Manual_EN_V1.1.4.pdf",
+            "title": "Audota standard AME-200 official English manual",
+            "access": "manufacturer_pdf_retrieved; p59_visually_verified",
+            "evidence": "66 pages; p59 mono/poly pitch, nine-mode Whammy and Octave. Filename V1.1.4 versus artwork V01 2025.07.25 is a manual identity discrepancy, not firmware evidence. SHA256 c10a404b31493e69ecf45ab2ede8e3a91fe4dc59d4c05af9f0f44cd7e93e7b62."
+          },
+          {
+            "url": "https://manuals.plus/m/e83dfa8d3d3ef2939052a142e66f922ba406bc6d9f9b8cfad226ccaaa2266893",
+            "title": "Audota AME-200 manual manuscript readable mirror",
+            "access": "manufacturer_manuscript_on_public_mirror; text_only",
+            "evidence": "Printed pp14–18 preset selection/edit/save; p35 editor Device Update; p59 matching pitch inventory. Mirror-generated introductions excluded."
+          },
+          {
+            "url": "https://en.audota.com/AME200EN.html",
+            "title": "Audota AME-200 exact manufacturer product page",
+            "access": "opened",
+            "evidence": "Standard model identity, 200 storage locations and ten categories; no dated launch or CPU cost."
+          },
+          {
+            "url": "https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-amp-modeler-multi-effects",
+            "title": "Official importer standard AME-200 product specification",
+            "access": "opened",
+            "evidence": "Explicit firmware V1.26 for NAM A1/A2; no date or original release history."
+          },
+          {
+            "url": "https://en.audota.com/EN_software.html",
+            "title": "Audota Software index",
+            "access": "opened",
+            "evidence": "AME-200 Studio Windows/Mac 1.2.6; no ROM release date."
+          },
+          {
+            "url": "https://en.audota.com/EN_firmware.html",
+            "title": "Audota Firmware index",
+            "access": "opened",
+            "evidence": "AME-200 Studio Windows/Mac 1.1.9; conflicting older package index preserved."
+          },
+          {
+            "url": "https://shop.warwick.de/en/Blog/Audota-AME-200-Pro-AME-200-ACE-100-AVE-100",
+            "title": "Official importer Audota range overview, 2026-04-02",
+            "access": "indexed_primary_announcement",
+            "evidence": "Dated regional overview naming AME-200; does not establish first worldwide hardware launch."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Audota::AME-200",
       "Audota::AME-200 Pro",
       "Audota::AVE-100",
       "Behringer::Bass V-AMP",
@@ -180953,12 +181040,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 14,
-    "last_model": "Audota::AME-100",
-    "last_commit_parent": "cabcc5aa3ece5fe14514cccdb0c4e4b9295e9bf1",
+    "completed_model_count": 15,
+    "last_model": "Audota::AME-200",
+    "last_commit_parent": "d3126cc52e49099d1237a21210c143ecedd6a482",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Audota::AME-200",
       "Audota::AME-200 Pro",
       "Audota::AVE-100",
       "Behringer::Bass V-AMP",
@@ -181347,7 +181433,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 14,
+    "pitch_completed_model_count": 15,
     "supplemental_model_count": 0
   }
 }

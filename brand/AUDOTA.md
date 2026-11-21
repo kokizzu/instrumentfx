@@ -349,6 +349,34 @@ Importer English V02_26-04 andGerman/French manuals remained inaccessible; their
 
 ## AME-200
 
+<!-- firmware-pitch:Audota::AME-200 begins -->
+### Firmware and pitch audit — Audota AME-200
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact original hardware launch not verified. Manual artwork/metadata date 2025-07-25 is not launch; importer overview dated 2026-04-02 is later regional coverage, not first worldwide release. [launch 1](https://en.audota.com/AME200EN.html) [launch 2](https://audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AME-200_Manual_EN_V1.1.4.pdf) [launch 3](https://shop.warwick.de/en/Blog/Audota-AME-200-Pro-AME-200-ACE-100-AVE-100) |
+| Firmware / latest verification | 1.26 (importer notation) — Located; latest status unverified. Official importer explicitly identifies firmware V1.26 onward for NAM A1/A2 support. Manufacturer lists Studio 1.2.6 in Software versus 1.1.9 in Firmware. Preserve notation and package-role discrepancy; do not silently prove ROM 1.2.6 from an installer label. No dated ROM changelog or original update release day verified; latest status remains qualified. [firmware 1](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-amp-modeler-multi-effects) [firmware 2](https://en.audota.com/EN_software.html) [firmware 3](https://en.audota.com/EN_firmware.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Manual p59 Modulation: separate Pitch Shifting (Monophonic) and Pitch Shifting (Polyphonic); latter explicitly supports polyphonic playing. Whammy has nine pitch modes; Octave also listed. Interval range, wet-only capo settings and Whammy/Octave note polyphony are not established. [pitch 1](https://audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AME-200_Manual_EN_V1.1.4.pdf) [pitch 2](https://manuals.plus/m/e83dfa8d3d3ef2939052a142e66f922ba406bc6d9f9b8cfad226ccaaa2266893) [pitch 3](https://en.audota.com/AME200EN.html) |
+| Pitch / preset recall | 200 locations; A/B/C/D recall four presets per bank. Manual pp14–18 documents editable chain order/parameters and SAVE to chosen location/name. No pitch-specific save exception documented; external EXP parameter assignment to pitch is not established. |
+| Pitch / DSP resources | Pitch algorithms are Modulation choices in an editable chain. No pitch CPU percentage, duplicate-polyphonic-shifter limit or pitch-specific resource exclusion located. Ten advertised categories are not measured DSP cost or proof of ten simultaneous pitch blocks. |
+| Pitch / qualifications | Polyphony applies to the explicitly named Polyphonic algorithm, not every pitch effect. No Ampero DSP measurement transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Audota standard AME-200 official English manual](https://audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AME-200_Manual_EN_V1.1.4.pdf) — 66 pages; p59 mono/poly pitch, nine-mode Whammy and Octave. Filename V1.1.4 versus artwork V01 2025.07.25 is a manual identity discrepancy, not firmware evidence. SHA256 c10a404b31493e69ecf45ab2ede8e3a91fe4dc59d4c05af9f0f44cd7e93e7b62. (manufacturer_pdf_retrieved; p59_visually_verified).
+- [Audota AME-200 manual manuscript readable mirror](https://manuals.plus/m/e83dfa8d3d3ef2939052a142e66f922ba406bc6d9f9b8cfad226ccaaa2266893) — Printed pp14–18 preset selection/edit/save; p35 editor Device Update; p59 matching pitch inventory. Mirror-generated introductions excluded. (manufacturer_manuscript_on_public_mirror; text_only).
+- [Audota AME-200 exact manufacturer product page](https://en.audota.com/AME200EN.html) — Standard model identity, 200 storage locations and ten categories; no dated launch or CPU cost. (opened).
+- [Official importer standard AME-200 product specification](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-amp-modeler-multi-effects) — Explicit firmware V1.26 for NAM A1/A2; no date or original release history. (opened).
+- [Audota Software index](https://en.audota.com/EN_software.html) — AME-200 Studio Windows/Mac 1.2.6; no ROM release date. (opened).
+- [Audota Firmware index](https://en.audota.com/EN_firmware.html) — AME-200 Studio Windows/Mac 1.1.9; conflicting older package index preserved. (opened).
+- [Official importer Audota range overview, 2026-04-02](https://shop.warwick.de/en/Blog/Audota-AME-200-Pro-AME-200-ACE-100-AVE-100) — Dated regional overview naming AME-200; does not establish first worldwide hardware launch. (indexed_primary_announcement).
+
+<!-- firmware-pitch:Audota::AME-200 ends -->
+
 Standard model, not Pro. Consolidated **2026-10-17**, preserving the complete dated finding and all supporting model fields. Historical next-model notes are provenance; current task is in research-state.json.
 
 <!-- AUDOTA-AME-200 source begins -->
