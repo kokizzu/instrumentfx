@@ -194614,6 +194614,72 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::Black Truck": {
+        "model_key": "MOOER::Black Truck",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2018",
+          "precision": "year",
+          "kind": "announcement_year",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=secgRm1zsCM"
+          ],
+          "note": "Manufacturer official presentation dated August 1, 2018 establishes announcement year, not first shipping day. Earlier June 22 reporting is a lead; exact first announcement/shipment remains unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.mooeraudio.com/products/15.html",
+            "https://device.report/m/0e6f76f0dc49b81fcdd04dca9e8535b2a05d099c7d2a2cf48613b6a72c8a7db1"
+          ],
+          "note": "Checked product offers an owner manual, with no dated firmware package or update procedure located. Manual inventory lists analog audio/loop and DC connectors, no USB/MIDI; this alone does not prove non-updatability. No verified firmware date, so elapsed update span is not calculable."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Checked full effect inventory has no pitch-shift, octave or harmony algorithm. MOD offers tremolo, phaser and flanger; SPACE is delay/reverb. Tuner and modulation do not establish transposition.",
+          "preset": "Five switch presets recall module on/off combinations only; effect parameter values cannot be saved. No pitch preset is documented.",
+          "dsp": "Analog COMP/OD/HI-GAIN/EQ plus digital MOD and SPACE. Six sections are not a DSP percentage. No pitch algorithm cost or CPU meter documented.",
+          "source_urls": [
+            "https://device.report/m/0e6f76f0dc49b81fcdd04dca9e8535b2a05d099c7d2a2cf48613b6a72c8a7db1",
+            "https://www.mooeraudio.com/products/15.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "An external pitch pedal could be inserted in the serial loop; that is not built-in pitch processing. No independent hardware test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.mooeraudio.com/products/15.html",
+            "title": "Black Truck manufacturer product",
+            "access": "Product, specifications and download text read",
+            "evidence": "Six sections, digital MOD/SPACE, analog/DC connections; manual-only download shown."
+          },
+          {
+            "url": "https://device.report/m/0e6f76f0dc49b81fcdd04dca9e8535b2a05d099c7d2a2cf48613b6a72c8a7db1",
+            "title": "Manufacturer Black Truck English manual V01 mirror",
+            "access": "Original manual transcription read; matching Black Truck layout and manufacturer imprint",
+            "evidence": "Effect inventory; five on/off-only presets; serial loop; no pitch algorithm or update procedure. Mirror May 18, 2018 timestamp is not firmware release evidence."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=secgRm1zsCM",
+            "title": "MOOER BLACK TRUCK official presentation",
+            "access": "Manufacturer-channel dated video metadata and description read",
+            "evidence": "Official August 1, 2018 presentation establishes announcement year, not first shipment."
+          },
+          {
+            "url": "https://www.gearnews.com/mooers-new-black-truck-revamps-the-red-truck-multi-effects-pedal/",
+            "title": "Contemporaneous June 22, 2018 announcement report",
+            "access": "Secondary date lead; technical classification relies on manufacturer sources",
+            "evidence": "Earlier Black Truck public reporting; not a firmware release or exact first shipping proof."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -194642,7 +194708,6 @@
       "M-VAVE::TANK-G",
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
-      "MOOER::Black Truck",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
       "MOOER::Prime M1",
@@ -194821,9 +194886,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 200,
-    "last_model": "MOOER::PE100",
-    "last_commit_parent": "b2c2885ca7eccb3c8c730fb5539a491c23677aee",
+    "completed_model_count": 201,
+    "last_model": "MOOER::Black Truck",
+    "last_commit_parent": "14e308e3cbdecb52bb6d4a1a40eb67120100666b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -194851,7 +194916,6 @@
       "M-VAVE::TANK-G",
       "M-VAVE::TANK-PRO",
       "MOD Audio::Duo",
-      "MOOER::Black Truck",
       "MOOER::Ocean Machine II",
       "MOOER::Ocean Machine original",
       "MOOER::Prime M1",
@@ -195029,7 +195093,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 200,
+    "pitch_completed_model_count": 201,
     "supplemental_model_count": 0
   },
   "model_images": {

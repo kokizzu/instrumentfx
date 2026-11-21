@@ -41,6 +41,31 @@ Root-level canonical brand records. New evidence checked **2026-10-15**. All nin
 
 ## Black Truck
 
+<!-- firmware-pitch:MOOER::Black Truck begins -->
+### Firmware and pitch audit — MOOER Black Truck
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2018 (announcement year). Manufacturer official presentation dated August 1, 2018 establishes announcement year, not first shipping day. Earlier June 22 reporting is a lead; exact first announcement/shipment remains unresolved. [launch 1](https://www.youtube.com/watch?v=secgRm1zsCM) |
+| Firmware / latest verification | Not verified — Unverified. Checked product offers an owner manual, with no dated firmware package or update procedure located. Manual inventory lists analog audio/loop and DC connectors, no USB/MIDI; this alone does not prove non-updatability. No verified firmware date, so elapsed update span is not calculable. [firmware 1](https://www.mooeraudio.com/products/15.html) [firmware 2](https://device.report/m/0e6f76f0dc49b81fcdd04dca9e8535b2a05d099c7d2a2cf48613b6a72c8a7db1) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Checked full effect inventory has no pitch-shift, octave or harmony algorithm. MOD offers tremolo, phaser and flanger; SPACE is delay/reverb. Tuner and modulation do not establish transposition. [pitch 1](https://device.report/m/0e6f76f0dc49b81fcdd04dca9e8535b2a05d099c7d2a2cf48613b6a72c8a7db1) [pitch 2](https://www.mooeraudio.com/products/15.html) |
+| Pitch / preset recall | Five switch presets recall module on/off combinations only; effect parameter values cannot be saved. No pitch preset is documented. |
+| Pitch / DSP resources | Analog COMP/OD/HI-GAIN/EQ plus digital MOD and SPACE. Six sections are not a DSP percentage. No pitch algorithm cost or CPU meter documented. |
+| Pitch / qualifications | An external pitch pedal could be inserted in the serial loop; that is not built-in pitch processing. No independent hardware test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Black Truck manufacturer product](https://www.mooeraudio.com/products/15.html) — Six sections, digital MOD/SPACE, analog/DC connections; manual-only download shown. (Product, specifications and download text read).
+- [Manufacturer Black Truck English manual V01 mirror](https://device.report/m/0e6f76f0dc49b81fcdd04dca9e8535b2a05d099c7d2a2cf48613b6a72c8a7db1) — Effect inventory; five on/off-only presets; serial loop; no pitch algorithm or update procedure. Mirror May 18, 2018 timestamp is not firmware release evidence. (Original manual transcription read; matching Black Truck layout and manufacturer imprint).
+- [MOOER BLACK TRUCK official presentation](https://www.youtube.com/watch?v=secgRm1zsCM) — Official August 1, 2018 presentation establishes announcement year, not first shipment. (Manufacturer-channel dated video metadata and description read).
+- [Contemporaneous June 22, 2018 announcement report](https://www.gearnews.com/mooers-new-black-truck-revamps-the-red-truck-multi-effects-pedal/) — Earlier Black Truck public reporting; not a firmware release or exact first shipping proof. (Secondary date lead; technical classification relies on manufacturer sources).
+
+<!-- firmware-pitch:MOOER::Black Truck ends -->
+
 Checked 2026-10-17; partial. Guitar multi-effects;ownership,bass/vocal suitability unverified.
 
 <!-- comparison evidence begins -->
