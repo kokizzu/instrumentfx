@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.inmusicbrands.com/HeadRush/mx5/MX5_User_Guide_v1.5.pdf",
+    "requested_url": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0,
     "text_pages": [
-      7,
-      10
+      12,
+      13
     ],
     "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
     "index_needle": "features",
@@ -188305,6 +188305,83 @@
           "label": "2.98 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "HeadRush::Prime": {
+        "model_key": "HeadRush::Prime",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2023-03-21",
+          "precision": "day",
+          "kind": "manufacturer_announcement",
+          "source_urls": [
+            "https://musicplayers.com/2023/03/headrush-prime-new-flagship-pedalboard-delivers-best-in-class-amp-cloning-and-vocal-fx-processing-featuring-antares-auto-tune/"
+          ],
+          "note": "Manufacturer press release datelined March 21, 2023 announces release of Prime; regional delivery dates may differ."
+        },
+        "firmware": {
+          "version": "5.2.0",
+          "date": "2026-10",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.headrushfx.com/downloads.html",
+            "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf"
+          ],
+          "note": "Current exact-model index and release-note header identify latest 5.2.0, October 2026; day unspecified. Adds expanded native NAM A2 loading. Updater minimum Windows 10/macOS 11. No device firmware installed."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Maker explicitly labels Chord Wham polyphonic. Also names Up Tune, Drop Tune, Harm, Octaves, Octaves Up, Smart Harm and Wham; heading says 7 but lists 8. Vocal Auto-Tune/harmony and MIDI-directed vocal pitch are separate from guitar polyphonic input tracking.",
+          "preset": "Rig and block presets save settings; expression, scenes and path switching/blending documented. Fourteen slots are processing positions, not a verified stored-preset ceiling.",
+          "dsp": "Own v5.2 guide permits repeated block types within 14 slots, subject to CPU load; 100% may produce clicks/pops. No per-pitch DSP percentage published. 1024-sample IRs use fewer resources than 2048. Guitar/vocal dual paths divide the same 14 slots (7/7, 4/10 or 2/12), not two independent 14-slot budgets.",
+          "source_urls": [
+            "https://www.headrushfx.com/products/prime/index.html",
+            "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+            "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Version 5.0 adds Up Tune and improves Drop Tune; 5.0.1 adds Legacy/Refined modes and fixes clean-rig artifacts. No measured pitch latency, isolated DSP cost or chord-tracking test. NAM A2 capacity changes do not establish pitch-shifter cost."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://musicplayers.com/2023/03/headrush-prime-new-flagship-pedalboard-delivers-best-in-class-amp-cloning-and-vocal-fx-processing-featuring-antares-auto-tune/",
+            "title": "HeadRush Prime launch press release",
+            "access": "Manufacturer announcement republished by MusicPlayers",
+            "evidence": "March 21, 2023 dateline announces release of flagship Prime."
+          },
+          {
+            "url": "https://www.headrushfx.com/downloads.html",
+            "title": "HeadRush current downloads",
+            "access": "Current manufacturer index read",
+            "evidence": "Prime 5.2 updaters, notes and guide listed separately from older releases."
+          },
+          {
+            "url": "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf",
+            "title": "HeadRush Prime firmware 5.2.0 notes",
+            "access": "Exact-model 14-page maker PDF header and pitch revision history read",
+            "evidence": "Latest 5.2.0, October 2026; 5.0 Up Tune/Drop Tune and 5.0.1 Legacy/Refined changes."
+          },
+          {
+            "url": "https://www.headrushfx.com/products/prime/index.html",
+            "title": "HeadRush Prime own model catalogue",
+            "access": "Current manufacturer page read",
+            "evidence": "Chord Wham explicitly polyphonic; eight named pitch entries beneath a seven-effect heading."
+          },
+          {
+            "url": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+            "title": "HeadRush Prime guide v5.2.0",
+            "access": "Original 87-page PDF retrieved; SHA256 9f64092228bc99eac206e9dea25ba4c8c9d6c20b9dd5f1af26636c43cdc57a4e; printed pages 14 and 16–20 read",
+            "evidence": "Fourteen slots, CPU meter and overload warning, IR resource tradeoff, vocal/guitar path partitions and rig saving."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1290,
+          "maximum_days": 1320,
+          "label": "3.53–3.61 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -188320,7 +188397,6 @@
       "Harley Benton::DNAfx GiT Core",
       "HeadRush::Gigboard",
       "HeadRush::Pedalboard",
-      "HeadRush::Prime",
       "HeadRush::VX5",
       "IK Multimedia::TONEX ONE",
       "IK Multimedia::TONEX Pedal",
@@ -188593,9 +188669,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 119,
-    "last_model": "HeadRush::MX5",
-    "last_commit_parent": "f74697ad5e530ebca6faf5a9879bd152c6c42748",
+    "completed_model_count": 120,
+    "last_model": "HeadRush::Prime",
+    "last_commit_parent": "e3b9b23f8680bcb1ebb688bfe0da6d867de7dc83",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -188610,7 +188686,6 @@
       "Harley Benton::DNAfx GiT Core",
       "HeadRush::Gigboard",
       "HeadRush::Pedalboard",
-      "HeadRush::Prime",
       "HeadRush::VX5",
       "IK Multimedia::TONEX ONE",
       "IK Multimedia::TONEX Pedal",
@@ -188882,7 +188957,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 119,
+    "pitch_completed_model_count": 120,
     "supplemental_model_count": 0
   },
   "model_images": {

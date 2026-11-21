@@ -670,6 +670,32 @@ The article retains Eleven Rack/Pro Tools wording despite its explicit HeadRush 
 
 ## Prime
 
+<!-- firmware-pitch:HeadRush::Prime begins -->
+### Firmware and pitch audit — HeadRush Prime
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-03-21 (manufacturer announcement). Manufacturer press release datelined March 21, 2023 announces release of Prime; regional delivery dates may differ. [launch 1](https://musicplayers.com/2023/03/headrush-prime-new-flagship-pedalboard-delivers-best-in-class-amp-cloning-and-vocal-fx-processing-featuring-antares-auto-tune/) |
+| Firmware / latest verification | 5.2.0 — Latest verified. Current exact-model index and release-note header identify latest 5.2.0, October 2026; day unspecified. Adds expanded native NAM A2 loading. Updater minimum Windows 10/macOS 11. No device firmware installed. [firmware 1](https://www.headrushfx.com/downloads.html) [firmware 2](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf) |
+| Firmware / release date | 2026-10 (month precision) |
+| Firmware / release-to-update duration | 3.53–3.61 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Maker explicitly labels Chord Wham polyphonic. Also names Up Tune, Drop Tune, Harm, Octaves, Octaves Up, Smart Harm and Wham; heading says 7 but lists 8. Vocal Auto-Tune/harmony and MIDI-directed vocal pitch are separate from guitar polyphonic input tracking. [pitch 1](https://www.headrushfx.com/products/prime/index.html) [pitch 2](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf) [pitch 3](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf) |
+| Pitch / preset recall | Rig and block presets save settings; expression, scenes and path switching/blending documented. Fourteen slots are processing positions, not a verified stored-preset ceiling. |
+| Pitch / DSP resources | Own v5.2 guide permits repeated block types within 14 slots, subject to CPU load; 100% may produce clicks/pops. No per-pitch DSP percentage published. 1024-sample IRs use fewer resources than 2048. Guitar/vocal dual paths divide the same 14 slots (7/7, 4/10 or 2/12), not two independent 14-slot budgets. |
+| Pitch / qualifications | Version 5.0 adds Up Tune and improves Drop Tune; 5.0.1 adds Legacy/Refined modes and fixes clean-rig artifacts. No measured pitch latency, isolated DSP cost or chord-tracking test. NAM A2 capacity changes do not establish pitch-shifter cost. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [HeadRush Prime launch press release](https://musicplayers.com/2023/03/headrush-prime-new-flagship-pedalboard-delivers-best-in-class-amp-cloning-and-vocal-fx-processing-featuring-antares-auto-tune/) — March 21, 2023 dateline announces release of flagship Prime. (Manufacturer announcement republished by MusicPlayers).
+- [HeadRush current downloads](https://www.headrushfx.com/downloads.html) — Prime 5.2 updaters, notes and guide listed separately from older releases. (Current manufacturer index read).
+- [HeadRush Prime firmware 5.2.0 notes](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf) — Latest 5.2.0, October 2026; 5.0 Up Tune/Drop Tune and 5.0.1 Legacy/Refined changes. (Exact-model 14-page maker PDF header and pitch revision history read).
+- [HeadRush Prime own model catalogue](https://www.headrushfx.com/products/prime/index.html) — Chord Wham explicitly polyphonic; eight named pitch entries beneath a seven-effect heading. (Current manufacturer page read).
+- [HeadRush Prime guide v5.2.0](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf) — Fourteen slots, CPU meter and overload warning, IR resource tradeoff, vocal/guitar path partitions and rig saving. (Original 87-page PDF retrieved; SHA256 9f64092228bc99eac206e9dea25ba4c8c9d6c20b9dd5f1af26636c43cdc57a4e; printed pages 14 and 16–20 read).
+
+<!-- firmware-pitch:HeadRush::Prime ends -->
+
 **Guitar/bass/vocal multi-effects; checked 2026-10-16.** New distinct model, not Core, Flex Prime or the older Pedalboard. Firmware-specific findings below use the manufacturer's **5.2.0** manual and October 2026 release notes; no device firmware was installed or tested.
 
 | Required field | Model-specific finding / qualification |
