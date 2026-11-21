@@ -199920,10 +199920,76 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Lexicon::MPX100": {
+        "model_key": "Lexicon::MPX100",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "1998",
+          "precision": "year",
+          "kind": "Contemporary introduction coverage; exact retail date unresolved",
+          "source_urls": [
+            "https://www.worldradiohistory.com/Archive-All-Audio/Sound-on-Sound-UK/1998/Sound-on-Sound-1998-03.pdf",
+            "https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf"
+          ],
+          "note": "March1998 NAMM coverage introduces MPX100 as the new entry-level replacement for Alex; manufacturer guide is copyrighted1998. These establish introduction-year evidence, not a precise first shipment."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://lexiconpro.com/en-US/products/mpx-100",
+            "https://lexiconpro.com/en/product_documents/mpx100_update_inst_rev0pdf"
+          ],
+          "note": "Official archive lists MPX100_Update_Inst_Rev0.pdf, but direct document access returned403. A dated firmware revision and latest status could not be authenticated. April2026 archive upload metadata is not a firmware release date; third-party ROM offers are not accepted as manufacturer release evidence."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Stereo Pitch is explicitly polyphonic for complete program material or monophonic sources, from−2 to+1 octaves. Separate four-voice Detune has two voices per channel. Pitch/Delay and Pitch/Reverb are preset dual combinations, not arbitrary routing blocks.",
+          "preset": "240 factory presets plus16 user locations; edited pitch/detune programs can be stored and recalled. MIDI Program Change with Bank Select accesses factory and user programs. Manual describes MIDI-learn parameter control.",
+          "dsp": "Preset/variation selects a fixed single or dual processing configuration. Dual routing is variation-defined rather than a freely allocated block budget. No per-pitch CPU/DSP percentage located; Lexichip architecture and24-bit processing do not establish utilization.",
+          "source_urls": [
+            "https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Polyphonic is an explicit manufacturer term, not inferred from the number of generated voices.",
+            "Pitch wet/dry mix gives transposition or harmony; manual wording does not establish automatic vocal pitch correction or key-aware harmony."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://lexiconpro.com/en-US/products/mpx-100",
+            "title": "Lexicon official discontinued MPX100 archive",
+            "access": "search-indexed official download list;direct403",
+            "evidence": "Lists manufacturer guide and update instructions with recent upload dates; no authenticated firmware release date."
+          },
+          {
+            "url": "https://lexiconpro.com/en/product_documents/mpx100_update_inst_rev0pdf",
+            "title": "Lexicon MPX100 update instructions",
+            "access": "direct403;document listed in official archive",
+            "evidence": "Version/date/body not readable; no update method or version inferred from filename."
+          },
+          {
+            "url": "https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf",
+            "title": "Lexicon MPX100 User Guide part070-11935",
+            "access": "manufacturer-authored55page PDF on dealer mirror;copyright1998",
+            "evidence": "Printed pp28–29 explicit stereo polyphonic Pitch−2/+1octaves and four-voice Detune; dual configurations,240presets/16user and MIDI recall."
+          },
+          {
+            "url": "https://www.worldradiohistory.com/Archive-All-Audio/Sound-on-Sound-UK/1998/Sound-on-Sound-1998-03.pdf",
+            "title": "Contemporary NAMM report March1998",
+            "access": "dated magazine archive text",
+            "evidence": "Introduces MPX100 replacing Alex as entry-level Lexicon; used for introduction-year evidence only."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Lexicon::MPX100",
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
@@ -200064,12 +200130,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 263,
-    "last_model": "LEKATO::ME-01",
-    "last_commit_parent": "35510ef6f5778a0729a3a5ca694e7114a537af31",
+    "completed_model_count": 264,
+    "last_model": "Lexicon::MPX100",
+    "last_commit_parent": "f76b847b169d53067185c7a94f30e2dc1455bd74",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Lexicon::MPX100",
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
@@ -200209,7 +200274,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 263,
+    "pitch_completed_model_count": 264,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -13,6 +13,31 @@ Partial manufacturer-backed records;unknown is not No.
 
 ## MPX100
 
+<!-- firmware-pitch:Lexicon::MPX100 begins -->
+### Firmware and pitch audit — Lexicon MPX100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1998 (Contemporary introduction coverage; exact retail date unresolved). March1998 NAMM coverage introduces MPX100 as the new entry-level replacement for Alex; manufacturer guide is copyrighted1998. These establish introduction-year evidence, not a precise first shipment. [launch 1](https://www.worldradiohistory.com/Archive-All-Audio/Sound-on-Sound-UK/1998/Sound-on-Sound-1998-03.pdf) [launch 2](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
+| Firmware / latest verification | Not verified — Unverified. Official archive lists MPX100_Update_Inst_Rev0.pdf, but direct document access returned403. A dated firmware revision and latest status could not be authenticated. April2026 archive upload metadata is not a firmware release date; third-party ROM offers are not accepted as manufacturer release evidence. [firmware 1](https://lexiconpro.com/en-US/products/mpx-100) [firmware 2](https://lexiconpro.com/en/product_documents/mpx100_update_inst_rev0pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Stereo Pitch is explicitly polyphonic for complete program material or monophonic sources, from−2 to+1 octaves. Separate four-voice Detune has two voices per channel. Pitch/Delay and Pitch/Reverb are preset dual combinations, not arbitrary routing blocks. [pitch 1](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
+| Pitch / preset recall | 240 factory presets plus16 user locations; edited pitch/detune programs can be stored and recalled. MIDI Program Change with Bank Select accesses factory and user programs. Manual describes MIDI-learn parameter control. |
+| Pitch / DSP resources | Preset/variation selects a fixed single or dual processing configuration. Dual routing is variation-defined rather than a freely allocated block budget. No per-pitch CPU/DSP percentage located; Lexichip architecture and24-bit processing do not establish utilization. |
+| Pitch / qualifications | Polyphonic is an explicit manufacturer term, not inferred from the number of generated voices. Pitch wet/dry mix gives transposition or harmony; manual wording does not establish automatic vocal pitch correction or key-aware harmony. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Lexicon official discontinued MPX100 archive](https://lexiconpro.com/en-US/products/mpx-100) — Lists manufacturer guide and update instructions with recent upload dates; no authenticated firmware release date. (search-indexed official download list;direct403).
+- [Lexicon MPX100 update instructions](https://lexiconpro.com/en/product_documents/mpx100_update_inst_rev0pdf) — Version/date/body not readable; no update method or version inferred from filename. (direct403;document listed in official archive).
+- [Lexicon MPX100 User Guide part070-11935](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) — Printed pp28–29 explicit stereo polyphonic Pitch−2/+1octaves and four-voice Detune; dual configurations,240presets/16user and MIDI recall. (manufacturer-authored55page PDF on dealer mirror;copyright1998).
+- [Contemporary NAMM report March1998](https://www.worldradiohistory.com/Archive-All-Audio/Sound-on-Sound-UK/1998/Sound-on-Sound-1998-03.pdf) — Introduces MPX100 replacing Alex as entry-level Lexicon; used for introduction-year evidence only. (dated magazine archive text).
+
+<!-- firmware-pitch:Lexicon::MPX100 ends -->
+
 <!-- comparison evidence begins -->
 Checked2026-10-17. Partial guitar/vocal dual-channel multi-effects;notMPX110/MX200. [Manufacturer User Guide onmirror](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf),55pages,©1998,part070-11935. Official product/manual pages403;webtext only,no download/visualaudit.
 
