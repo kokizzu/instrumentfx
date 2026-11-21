@@ -188253,11 +188253,35 @@
             "sha256": "da3896dc527aef8c9e49453ee844b2d30a96740ba0fffed37284b794a22ba35f"
           }
         }
+      },
+      "Flamma::FG200": {
+        "model_key": "Flamma::FG200",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_61/613644/20490027_800.jpg",
+            "source_url": "https://www.thomann.de/de/flamma_fg200_effect_strip.htm",
+            "caption": "FG200 powered-on top-down photograph",
+            "note": "Blue guitar FG200 with active P0A display and illuminated red status strip. Straight top view shows16controls and four switches. Pictured preset does not establish installed firmware.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "506dc7d995bec932ca98e33097d294eb6fba82836f1011bab24be1300fb23a18"
+          },
+          "rear": {
+            "image_url": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_61/613644/20490037_800.jpg",
+            "source_url": "https://www.thomann.de/de/flamma_fg200_effect_strip.htm",
+            "caption": "FG200 rear audio, phones, USB-C and power switch",
+            "note": "Photograph shows Input, Output, Phones, USB-C marked5V/2A and On/Off slider; no DC barrel or MIDI socket shown. Cable/charging restrictions remain qualified by the own manual.",
+            "visual_checked": true,
+            "sha256": "304fa43a7ac869fa6a42a0cab83563a0c358b707d3cd57dc4e78020a1a546582"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Flamma::FB200"
+    "last_model": "Flamma::FG200"
   }
 }

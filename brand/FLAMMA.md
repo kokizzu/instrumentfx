@@ -233,6 +233,26 @@ Sources checked:
 
 <!-- firmware-pitch:Flamma::FG200 ends -->
 
+<!-- model-images:Flamma::FG200 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**FG200 powered-on top-down photograph**
+
+[![FG200 powered-on top-down photograph](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_61/613644/20490027_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_61/613644/20490027_800.jpg)
+
+[Image source](https://www.thomann.de/de/flamma_fg200_effect_strip.htm). Blue guitar FG200 with active P0A display and illuminated red status strip. Straight top view shows16controls and four switches. Pictured preset does not establish installed firmware.
+
+**FG200 rear audio, phones, USB-C and power switch**
+
+[![FG200 rear audio, phones, USB-C and power switch](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_61/613644/20490037_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_61/613644/20490037_800.jpg)
+
+[Image source](https://www.thomann.de/de/flamma_fg200_effect_strip.htm). Photograph shows Input, Output, Phones, USB-C marked5V/2A and On/Off slider; no DC barrel or MIDI socket shown. Cable/charging restrictions remain qualified by the own manual.
+
+</details>
+<!-- model-images:Flamma::FG200 ends -->
+
+
 Checked **2026-10-17**; partial. Guitar multi-effects strip; distinct from FB200. Bass/vocal membership unverified; a Bassman guitar-amp model is not evidence of bass support.
 
 <!-- comparison evidence begins -->
