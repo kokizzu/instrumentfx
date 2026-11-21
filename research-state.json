@@ -201562,10 +201562,83 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC-Helicon::Harmony Singer 2": {
+        "model_key": "TC-Helicon::Harmony Singer 2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2016-12-01",
+          "precision": "day",
+          "kind": "manufacturer product introduction video",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=QSRG-lI-nzU"
+          ],
+          "note": "Official TC Helicon Harmony Singer 2 video published December 1, 2016. This establishes public introduction, not independently verified first customer delivery."
+        },
+        "firmware": {
+          "version": "1.0.04 build 12",
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://reverb.com/item/93381856-tc-helicon-harmony-singer-2-new-firmware-power-supply-manual",
+            "https://www.tchelicon.com/en/products/0726-AAB",
+            "https://www.youtube.com/watch?v=znnh6z_4oxs"
+          ],
+          "note": "Exact version is an owner/seller claim on a used HS2 listing, including an unsupported latest assertion; not manufacturer certification or our device observation. No firmware release date verified. Current page lists VoiceSupport2 1.1.02_build139, which is host software. TC KnowledgeBase documents manual firmware reload, but its July 2019 video publication is not a firmware release date. Support duration remains uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Guitar-guided vocal harmony with one or two generated voices; eight settings. Guitar chord recognition is a control source, not polyphonic transposition of the guitar audio. Checked documentation does not specify simultaneous microphone input-note handling. Retain the historical malformed correction/key-selector wording as unresolved; current page now describes harmony/reverb/Tone without a pitch-correction feature claim.",
+          "preset": "Harmony selector positions are not eight writable full presets. Level controls harmony blend; no user patch capacity verified. Manual latching/momentary operation and current hold-to-bypass talk-mode wording remain revision-qualified; neither proves gapless patch recall.",
+          "dsp": "No pitch-specific processor percentage, resource meter or numerical allocation documented. One/two generated voices and eight styles are not DSP shares or input-note polyphony. Level is audio gain, not processor use.",
+          "source_urls": [
+            "https://images.thomann.de/pics/atg/atgdata/document/manual/404710_harmony_singer_2_manual_en_404710.pdf",
+            "https://www.tchelicon.com/en/products/0726-AAB"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manual recommends clear guitar chords, especially root and third, and warns that upstream effects can impair harmony control. These tracking instructions are not a polyphonic shifting guarantee.",
+            "No firmware installed, recovery attempted, hardware operation or audio tracking test performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=QSRG-lI-nzU",
+            "title": "TC Helicon Harmony Singer 2 official introduction video",
+            "access": "Official manufacturer indexed publication and description inspected",
+            "evidence": "December 1, 2016 public introduction of exact second-generation model."
+          },
+          {
+            "url": "https://images.thomann.de/pics/atg/atgdata/document/manual/404710_harmony_singer_2_manual_en_404710.pdf",
+            "title": "TC Helicon Harmony Singer 2 original eight-page manual",
+            "access": "Manufacturer-authored original PDF read through Thomann, controls p3 and operation p5",
+            "evidence": "Guitar-guided vocal harmony, one/two generated voices and eight intervals; latching/momentary operation. No pitch DSP percentage or mic-polyphony guarantee."
+          },
+          {
+            "url": "https://www.tchelicon.com/en/products/0726-AAB",
+            "title": "TC Helicon Harmony Singer 2 exact 0726-AAB page",
+            "access": "Direct manufacturer page read",
+            "evidence": "Harmony/reverb/Tone, guitar guidance and VoiceSupport2 host listing; current feature list no longer claims pitch correction."
+          },
+          {
+            "url": "https://reverb.com/item/93381856-tc-helicon-harmony-singer-2-new-firmware-power-supply-manual",
+            "title": "Used Harmony Singer 2 owner/seller firmware statement",
+            "access": "Exact Reverb item description read; no device inspection",
+            "evidence": "Seller reports 1.0.04 build12 and calls it latest; independently unverified. Listing date is not firmware date."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=znnh6z_4oxs",
+            "title": "TC KnowledgeBase Harmony Singer 2 manual firmware reload guide",
+            "access": "Original channel indexed description inspected",
+            "evidence": "Manual reload procedure when VoiceSupport connection fails; July17,2019 video date is not firmware release date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC-Helicon::Harmony Singer 2",
       "TC-Helicon::Mic Mechanic 2",
       "TC-Helicon::PERFORM-V",
       "TC-Helicon::PERFORM-VE",
@@ -201683,12 +201756,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 286,
-    "last_model": "TC-Helicon::Duplicator",
-    "last_commit_parent": "69f69cf8a5f6c4bb6f65280d8da9c6656fc16ce7",
+    "completed_model_count": 287,
+    "last_model": "TC-Helicon::Harmony Singer 2",
+    "last_commit_parent": "32459e402f0a769e58b5a5cf2a0cf49c075af4b5",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC-Helicon::Harmony Singer 2",
       "TC-Helicon::Mic Mechanic 2",
       "TC-Helicon::PERFORM-V",
       "TC-Helicon::PERFORM-VE",
@@ -201805,7 +201877,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 286,
+    "pitch_completed_model_count": 287,
     "supplemental_model_count": 0
   },
   "model_images": {

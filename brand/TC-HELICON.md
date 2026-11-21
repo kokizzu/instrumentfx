@@ -248,6 +248,32 @@ Rev.1 footswitch bypass leaves reverb, correction and Tone unchanged. Preserve n
 
 ## Harmony Singer 2
 
+<!-- firmware-pitch:TC-Helicon::Harmony Singer 2 begins -->
+### Firmware and pitch audit — TC-Helicon Harmony Singer 2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2016-12-01 (manufacturer product introduction video). Official TC Helicon Harmony Singer 2 video published December 1, 2016. This establishes public introduction, not independently verified first customer delivery. [launch 1](https://www.youtube.com/watch?v=QSRG-lI-nzU) |
+| Firmware / latest verification | 1.0.04 build 12 — Unverified. Exact version is an owner/seller claim on a used HS2 listing, including an unsupported latest assertion; not manufacturer certification or our device observation. No firmware release date verified. Current page lists VoiceSupport2 1.1.02_build139, which is host software. TC KnowledgeBase documents manual firmware reload, but its July 2019 video publication is not a firmware release date. Support duration remains uncalculable. [firmware 1](https://reverb.com/item/93381856-tc-helicon-harmony-singer-2-new-firmware-power-supply-manual) [firmware 2](https://www.tchelicon.com/en/products/0726-AAB) [firmware 3](https://www.youtube.com/watch?v=znnh6z_4oxs) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Guitar-guided vocal harmony with one or two generated voices; eight settings. Guitar chord recognition is a control source, not polyphonic transposition of the guitar audio. Checked documentation does not specify simultaneous microphone input-note handling. Retain the historical malformed correction/key-selector wording as unresolved; current page now describes harmony/reverb/Tone without a pitch-correction feature claim. [pitch 1](https://images.thomann.de/pics/atg/atgdata/document/manual/404710_harmony_singer_2_manual_en_404710.pdf) [pitch 2](https://www.tchelicon.com/en/products/0726-AAB) |
+| Pitch / preset recall | Harmony selector positions are not eight writable full presets. Level controls harmony blend; no user patch capacity verified. Manual latching/momentary operation and current hold-to-bypass talk-mode wording remain revision-qualified; neither proves gapless patch recall. |
+| Pitch / DSP resources | No pitch-specific processor percentage, resource meter or numerical allocation documented. One/two generated voices and eight styles are not DSP shares or input-note polyphony. Level is audio gain, not processor use. |
+| Pitch / qualifications | Manual recommends clear guitar chords, especially root and third, and warns that upstream effects can impair harmony control. These tracking instructions are not a polyphonic shifting guarantee. No firmware installed, recovery attempted, hardware operation or audio tracking test performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Helicon Harmony Singer 2 official introduction video](https://www.youtube.com/watch?v=QSRG-lI-nzU) — December 1, 2016 public introduction of exact second-generation model. (Official manufacturer indexed publication and description inspected).
+- [TC Helicon Harmony Singer 2 original eight-page manual](https://images.thomann.de/pics/atg/atgdata/document/manual/404710_harmony_singer_2_manual_en_404710.pdf) — Guitar-guided vocal harmony, one/two generated voices and eight intervals; latching/momentary operation. No pitch DSP percentage or mic-polyphony guarantee. (Manufacturer-authored original PDF read through Thomann, controls p3 and operation p5).
+- [TC Helicon Harmony Singer 2 exact 0726-AAB page](https://www.tchelicon.com/en/products/0726-AAB) — Harmony/reverb/Tone, guitar guidance and VoiceSupport2 host listing; current feature list no longer claims pitch correction. (Direct manufacturer page read).
+- [Used Harmony Singer 2 owner/seller firmware statement](https://reverb.com/item/93381856-tc-helicon-harmony-singer-2-new-firmware-power-supply-manual) — Seller reports 1.0.04 build12 and calls it latest; independently unverified. Listing date is not firmware date. (Exact Reverb item description read; no device inspection).
+- [TC KnowledgeBase Harmony Singer 2 manual firmware reload guide](https://www.youtube.com/watch?v=znnh6z_4oxs) — Manual reload procedure when VoiceSupport connection fails; July17,2019 video date is not firmware release date. (Original channel indexed description inspected).
+
+<!-- firmware-pitch:TC-Helicon::Harmony Singer 2 ends -->
+
 Checked **2026-10-17**; partial. Vocal multi-effects, second-generation unit. Guitar-controlled harmony plus vocal reverb/Tone qualifies for ALL-VOCAL. The [manufacturer page][HS2-P] describes an untouched guitar-through path; this does not qualify it for ALL-GUITAR or ALL-BASS.
 
 <!-- comparison evidence begins -->
