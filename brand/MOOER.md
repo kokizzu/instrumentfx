@@ -797,6 +797,31 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 
 ## GE150 original
 
+<!-- firmware-pitch:MOOER::GE150 original begins -->
+### Firmware and pitch audit — MOOER GE150 original
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2019-09-17 (manufacturer public introduction). Official MOOER Audio demonstration publication; public-introduction proxy, not verified first retail shipment. Original two-switch GE150, not Pro/Plus/Max or Li. [launch 1](https://www.youtube.com/watch?v=Cq4mUCPSCeU) |
+| Firmware / latest verification | 1.3.8 (listed update bundle) — Located; latest status unverified. Current original-model page lists 1.3.8 Windows/Mac above 1.3.7 and supplies firmware-update instructions. Version of internal payload not independently extracted. All listed packages/manuals share 2024-06-26 upload timestamp, so firmware release date and elapsed support span remain unverified. Notes stop at 1.3.7; no 1.3.8-specific change log located. [firmware 1](https://www.mooeraudio.com/companyfile/GE150-Downloads-146.html) [firmware 2](https://www.mooeraudio.com/product/GE150-228.html) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Original manual MOD inventory lists PITCH SHIFT (whammy-style pitch shifting) and DETUNE (fine pitch adjustment). Explicit polyphonic input tracking, measured latency and numeric pitch range not established by checked pages. [pitch 1](https://manualmachine.com/mooer/ge150/2523710-user-manual/) [pitch 2](https://www.mooeraudio.com/product/GE150-228.html) [pitch 3](https://www.mooeraudio.com/companyfile/GE150-Downloads-146.html) |
+| Pitch / preset recall | 200 preset locations per manufacturer. Manual SAVE chooses destination slot and edits preset name. Pitch configurations can be stored as presets; physical expression-position recall and exact saved controller scope remain unresolved. |
+| Pitch / DSP resources | Pitch Shift and Detune are alternative selections in the MOD category; simultaneous use of both is not established. Manufacturer advertises up to nine effect stages. No per-pitch numerical DSP percentage located; 1.3.7 boot DSP-error fix is not a processing-cost measurement. |
+| Pitch / qualifications | Manual printed pp10 and25 visually inspected from original-English page images; machine-translated Scribd text was not used. No Pro/Plus/Max algorithm or firmware compatibility transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER Audio — original GE150 demonstration](https://www.youtube.com/watch?v=Cq4mUCPSCeU) — Published 2019-09-17; introduction proxy. (Official-channel indexed publication and description read).
+- [Original GE150 downloads](https://www.mooeraudio.com/companyfile/GE150-Downloads-146.html) — Lists 1.3.8 Win/Mac and 1.3.7; identical 2024-06-26 timestamps across files; 1.3.7 fixes boot DSP error. (Manufacturer exact-model download list and update instructions read).
+- [Original GE150 product](https://www.mooeraudio.com/product/GE150-228.html) — 200 presets, up to nine effect types and USB firmware updates; old 1.1.x downloads remain separate from current support list. (Manufacturer product page read).
+- [Original GE150 English manual — page images](https://manualmachine.com/mooer/ge150/2523710-user-manual/) — SAVE destination/name and MOD Pitch Shift/Detune inventory. Page-image SHA256: 1118c9a0ef3b02cf32e5eceae973358b37e3a2f602689124c9f8f712a134baf2; 7fc1a02f294c871df91d35f0db9929877f4dc953ba279419e0f580ea576a228b. (Manufacturer-authored mirrored page images 12 and27 visually inspected (printed pp10,25)).
+
+<!-- firmware-pitch:MOOER::GE150 original ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE150-ORIGINAL source begins -->

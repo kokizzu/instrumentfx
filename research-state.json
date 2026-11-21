@@ -192685,6 +192685,73 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::GE150 original": {
+        "model_key": "MOOER::GE150 original",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2019-09-17",
+          "precision": "day",
+          "kind": "manufacturer_public_introduction",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=Cq4mUCPSCeU"
+          ],
+          "note": "Official MOOER Audio demonstration publication; public-introduction proxy, not verified first retail shipment. Original two-switch GE150, not Pro/Plus/Max or Li."
+        },
+        "firmware": {
+          "version": "1.3.8 (listed update bundle)",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/companyfile/GE150-Downloads-146.html",
+            "https://www.mooeraudio.com/product/GE150-228.html"
+          ],
+          "note": "Current original-model page lists 1.3.8 Windows/Mac above 1.3.7 and supplies firmware-update instructions. Version of internal payload not independently extracted. All listed packages/manuals share 2024-06-26 upload timestamp, so firmware release date and elapsed support span remain unverified. Notes stop at 1.3.7; no 1.3.8-specific change log located."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Original manual MOD inventory lists PITCH SHIFT (whammy-style pitch shifting) and DETUNE (fine pitch adjustment). Explicit polyphonic input tracking, measured latency and numeric pitch range not established by checked pages.",
+          "preset": "200 preset locations per manufacturer. Manual SAVE chooses destination slot and edits preset name. Pitch configurations can be stored as presets; physical expression-position recall and exact saved controller scope remain unresolved.",
+          "dsp": "Pitch Shift and Detune are alternative selections in the MOD category; simultaneous use of both is not established. Manufacturer advertises up to nine effect stages. No per-pitch numerical DSP percentage located; 1.3.7 boot DSP-error fix is not a processing-cost measurement.",
+          "source_urls": [
+            "https://manualmachine.com/mooer/ge150/2523710-user-manual/",
+            "https://www.mooeraudio.com/product/GE150-228.html",
+            "https://www.mooeraudio.com/companyfile/GE150-Downloads-146.html"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manual printed pp10 and25 visually inspected from original-English page images; machine-translated Scribd text was not used. No Pro/Plus/Max algorithm or firmware compatibility transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=Cq4mUCPSCeU",
+            "title": "MOOER Audio — original GE150 demonstration",
+            "access": "Official-channel indexed publication and description read",
+            "evidence": "Published 2019-09-17; introduction proxy."
+          },
+          {
+            "url": "https://www.mooeraudio.com/companyfile/GE150-Downloads-146.html",
+            "title": "Original GE150 downloads",
+            "access": "Manufacturer exact-model download list and update instructions read",
+            "evidence": "Lists 1.3.8 Win/Mac and 1.3.7; identical 2024-06-26 timestamps across files; 1.3.7 fixes boot DSP error."
+          },
+          {
+            "url": "https://www.mooeraudio.com/product/GE150-228.html",
+            "title": "Original GE150 product",
+            "access": "Manufacturer product page read",
+            "evidence": "200 presets, up to nine effect types and USB firmware updates; old 1.1.x downloads remain separate from current support list."
+          },
+          {
+            "url": "https://manualmachine.com/mooer/ge150/2523710-user-manual/",
+            "title": "Original GE150 English manual — page images",
+            "access": "Manufacturer-authored mirrored page images 12 and27 visually inspected (printed pp10,25)",
+            "evidence": "SAVE destination/name and MOD Pitch Shift/Detune inventory. Page-image SHA256: 1118c9a0ef3b02cf32e5eceae973358b37e3a2f602689124c9f8f712a134baf2; 7fc1a02f294c871df91d35f0db9929877f4dc953ba279419e0f580ea576a228b."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -192720,7 +192787,6 @@
       "MOOER::GE1000 Li",
       "MOOER::GE150 Max",
       "MOOER::GE150 Max Li",
-      "MOOER::GE150 original",
       "MOOER::GE150 Plus",
       "MOOER::GE150 Plus Li",
       "MOOER::GE150 Pro",
@@ -192914,9 +192980,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 178,
-    "last_model": "MOOER::GE100 original",
-    "last_commit_parent": "38fb0453ebd5d29ec2c5d2da527d02f320b69dd3",
+    "completed_model_count": 179,
+    "last_model": "MOOER::GE150 original",
+    "last_commit_parent": "0538dc7da4bfdbe36d56ad3496dc79b1e9c1aebe",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -192951,7 +193017,6 @@
       "MOOER::GE1000 Li",
       "MOOER::GE150 Max",
       "MOOER::GE150 Max Li",
-      "MOOER::GE150 original",
       "MOOER::GE150 Plus",
       "MOOER::GE150 Plus Li",
       "MOOER::GE150 Pro",
@@ -193144,7 +193209,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 178,
+    "pitch_completed_model_count": 179,
     "supplemental_model_count": 0
   },
   "model_images": {
