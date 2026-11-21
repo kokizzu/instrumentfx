@@ -191145,10 +191145,78 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Fractal Audio::AM4": {
+        "model_key": "Fractal Audio::AM4",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2025-11-24",
+          "precision": "day",
+          "kind": "manufacturer_availability",
+          "source_urls": [
+            "https://www.fractalaudio.com/downloads/manuals/AM4/251124-Fractal-Audio-Systems-Announces-the-AM4.pdf"
+          ],
+          "note": "Manufacturer release notice explicitly gives availability November 24, 2025; regional shipment timing may differ."
+        },
+        "firmware": {
+          "version": "2.02",
+          "date": "2026-09-02",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.fractalaudio.com/am4-downloads/"
+          ],
+          "note": "Current exact-model downloads page lists device firmware 2.02 dated September 2, 2026. DynaCabs 1.09 and AM4-Edit versions are separate products, not device firmware. Installed version untested."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "November 2026 Blocks Guide assigns zero dedicated Pitch blocks to AM4, so its Virtual Capo/Whammy/harmonizer modes are not inherited. Reverb has two shifted voices with semitone settings and pitch feedback/direction/position controls; this is reverb processing, not a documented full-guitar transpose mode. Polyphony unverified.",
+          "preset": "104 writable presets, four scenes and four channels per block; reverb settings are recalled within that architecture. Hardware recall not tested.",
+          "dsp": "One Reverb block within four total processing slots (normally Amp+Cab plus three effects). No incremental pitch/reverb CPU percentage located. Own manual gives a dynamic approximately 85% total ceiling and recommends around 80% before playing; exceeding the safe limit bypasses processing. Reverb quality/density changes load; bypassed blocks still consume CPU.",
+          "source_urls": [
+            "https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf",
+            "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No audio tracking, latency or CPU measurement; a pitch detector used as a controller does not establish a transpose algorithm. Current guide names AM4 explicitly; FM3 reverb pitch exclusion is not transferred to AM4."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.fractalaudio.com/downloads/manuals/AM4/251124-Fractal-Audio-Systems-Announces-the-AM4.pdf",
+            "title": "Fractal Audio AM4 release announcement, November 24, 2025",
+            "access": "Manufacturer original PDF read",
+            "evidence": "Exact AM4 release and availability date; 104 presets with four scenes."
+          },
+          {
+            "url": "https://www.fractalaudio.com/am4-downloads/",
+            "title": "AM4 downloads",
+            "access": "Manufacturer current page read",
+            "evidence": "Firmware 2.02 dated September 2, 2026; DynaCabs version separate."
+          },
+          {
+            "url": "https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf",
+            "title": "AM4 Owner’s Manual v1.0.2, December 16, 2025",
+            "access": "Manufacturer original PDF text read",
+            "evidence": "Four-block architecture, writable presets/scenes/channels; dynamic CPU ceiling, bypass and reverb resource qualifications."
+          },
+          {
+            "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+            "title": "Fractal Audio Blocks Guide, November 2026",
+            "access": "Manufacturer original PDF text read, pp3 and93–96",
+            "evidence": "AM4: zero Pitch blocks, one Reverb block. Reverb includes two shifted voices; FM3-specific exclusion does not name AM4. No polyphony guarantee or incremental CPU percentage."
+          }
+        ],
+        "duration": {
+          "minimum_days": 282,
+          "maximum_days": 282,
+          "label": "0.77 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Fractal Audio::AM4",
       "Fractal Audio::FM3 MKII Turbo",
       "Fractal Audio::FM3 original",
       "Fractal Audio::FM9 MKII Turbo",
@@ -191396,12 +191464,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 156,
-    "last_model": "Harley Benton::DNAfx GiT Core",
-    "last_commit_parent": "d2cd2cc5609e2cd7d9b96d2f42e90cad1ba36763",
+    "completed_model_count": 157,
+    "last_model": "Fractal Audio::AM4",
+    "last_commit_parent": "9074f17b4ddda9750c6547a1b7d028edb0b442c7",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Fractal Audio::AM4",
       "Fractal Audio::FM3 MKII Turbo",
       "Fractal Audio::FM3 original",
       "Fractal Audio::FM9 MKII Turbo",
@@ -191648,7 +191715,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 156,
+    "pitch_completed_model_count": 157,
     "supplemental_model_count": 0
   },
   "model_images": {
