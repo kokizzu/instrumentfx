@@ -181472,10 +181472,83 @@
           "label": "0.80 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Blackstar::ID:X Floor Three": {
+        "model_key": "Blackstar::ID:X Floor Three",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2026-01-22",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=S-TEGzTUhsY"
+          ],
+          "note": "Manufacturer Introducing ID:X Floor video publication is the family announcement proxy, not proof of the first retail shipment in every region."
+        },
+        "firmware": {
+          "version": null,
+          "date": "2026-11-12",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.tone3000.com/blog/blackstar-idx-floor-nam-a2",
+            "https://github.com/BlackstarDigitalTeam/KetteringReleases/releases/tag/2.2.0"
+          ],
+          "note": "Latest located device update: native NAM A2-Lite/TONE3000, available through Architect on the partner announcement date. Firmware build number is not stated and an exhaustive current device-version history was not available. Architect 2.2.0 is an editor release, not the device firmware number."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "SHIMMR DLY adds a high octave to delay repeats; SHIM controls its amount. VIBRATO is also listed. No dedicated semitone-transpose, harmony or Whammy block is documented in the checked appendix; note polyphony is unspecified.",
+          "preset": "Manual: 99 writable patches (33×3), saving effects with MANUAL+SHIFT twice; Master level excluded. The later NAM announcement says up to 100 patches and 24 stored captures; retain this unresolved capacity/revision difference.",
+          "dsp": "SHIMMR DLY uses the one delay selection among four effect categories; no per-effect CPU percentage is published in the checked sources. NAM mode disables pre-FX (partner statement), not a quantified pitch-processing cost.",
+          "source_urls": [
+            "https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
+            "https://www.tone3000.com/blog/blackstar-idx-floor-nam-a2"
+          ],
+          "measurements": [],
+          "notes": [
+            "Shimmer delay does not establish a dry-signal polyphonic capo.",
+            "Three has a built-in pedal with custom continuous-parameter assignment; the manual does not document a dedicated Whammy or semitone-pitch parameter. Do not infer one from generic pedal assignment."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=S-TEGzTUhsY",
+            "title": "Blackstar Amplification: Introducing ID:X Floor",
+            "access": "indexed manufacturer YouTube title/date/description; direct fetch cache miss",
+            "evidence": "Manufacturer family introduction published 2026-01-22; used only as an announcement proxy."
+          },
+          {
+            "url": "https://www.tone3000.com/blog/blackstar-idx-floor-nam-a2",
+            "title": "TONE3000: Blackstar brings NAM A2 to the ID:X Floor range",
+            "access": "opened; primary integration-partner announcement",
+            "evidence": "Dated 2026-11-12; explicitly includes Three, native A2-Lite via Architect, 24 captures/up to 100 patches and disabled pre-FX under NAM; device firmware number absent."
+          },
+          {
+            "url": "https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
+            "title": "Blackstar ID:X Floor One/Two/Three owner manual 256401M-VA-1 01/26",
+            "access": "opened manufacturer manuscript on retailer mirror; text_only",
+            "evidence": "Three explicitly identified on cover; shared effects appendix p29 SHIMMR DLY, pp19–22 category/patch rules and custom continuous-parameter assignment; no note-polyphony or per-effect CPU percentage."
+          },
+          {
+            "url": "https://github.com/BlackstarDigitalTeam/KetteringReleases/releases/tag/2.2.0",
+            "title": "Blackstar Digital Team: Architect 2.2.0 release notes",
+            "access": "opened",
+            "evidence": "Editor release explicitly supports TONE3000 on Floor 1/2/3 and blocks unsupported ID:X combos; not a device firmware build identifier."
+          }
+        ],
+        "notes": [
+          "This audit supersedes the earlier unverified NAM-import status for Three. The November update is real; its device version remains unverified."
+        ],
+        "duration": {
+          "minimum_days": 294,
+          "maximum_days": 294,
+          "label": "0.80 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Blackstar::ID:X Floor Three",
       "Boin Audio::BG300",
       "BOSS::AD-10",
       "BOSS::AD-2",
@@ -181853,12 +181926,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 26,
-    "last_model": "Blackstar::ID:X Floor One",
-    "last_commit_parent": "4fe391f27f4d4fdf429b3b65b2e46113998f7c27",
+    "completed_model_count": 27,
+    "last_model": "Blackstar::ID:X Floor Three",
+    "last_commit_parent": "99522b2a8fab4dde83a6729500581a3ddecd2d0c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Blackstar::ID:X Floor Three",
       "Boin Audio::BG300",
       "BOSS::AD-10",
       "BOSS::AD-2",
@@ -182235,7 +182307,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 26,
+    "pitch_completed_model_count": 27,
     "supplemental_model_count": 0
   }
 }

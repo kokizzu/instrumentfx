@@ -86,6 +86,33 @@ Onboard footswitches provide **patch down/up**,including hold-to-scroll;quarter-
 
 ## ID:X Floor Three
 
+<!-- firmware-pitch:Blackstar::ID:X Floor Three begins -->
+### Firmware and pitch audit — Blackstar ID:X Floor Three
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2026-01-22 (manufacturer announcement proxy). Manufacturer Introducing ID:X Floor video publication is the family announcement proxy, not proof of the first retail shipment in every region. [launch 1](https://www.youtube.com/watch?v=S-TEGzTUhsY) |
+| Firmware / latest verification | Not verified — Located; latest status unverified. Latest located device update: native NAM A2-Lite/TONE3000, available through Architect on the partner announcement date. Firmware build number is not stated and an exhaustive current device-version history was not available. Architect 2.2.0 is an editor release, not the device firmware number. [firmware 1](https://www.tone3000.com/blog/blackstar-idx-floor-nam-a2) [firmware 2](https://github.com/BlackstarDigitalTeam/KetteringReleases/releases/tag/2.2.0) |
+| Firmware / release date | 2026-11-12 (day precision) |
+| Firmware / release-to-update duration | 0.80 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. SHIMMR DLY adds a high octave to delay repeats; SHIM controls its amount. VIBRATO is also listed. No dedicated semitone-transpose, harmony or Whammy block is documented in the checked appendix; note polyphony is unspecified. [pitch 1](https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84) [pitch 2](https://www.tone3000.com/blog/blackstar-idx-floor-nam-a2) |
+| Pitch / preset recall | Manual: 99 writable patches (33×3), saving effects with MANUAL+SHIFT twice; Master level excluded. The later NAM announcement says up to 100 patches and 24 stored captures; retain this unresolved capacity/revision difference. |
+| Pitch / DSP resources | SHIMMR DLY uses the one delay selection among four effect categories; no per-effect CPU percentage is published in the checked sources. NAM mode disables pre-FX (partner statement), not a quantified pitch-processing cost. |
+| Pitch / qualifications | Shimmer delay does not establish a dry-signal polyphonic capo. Three has a built-in pedal with custom continuous-parameter assignment; the manual does not document a dedicated Whammy or semitone-pitch parameter. Do not infer one from generic pedal assignment. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+This audit supersedes the earlier unverified NAM-import status for Three. The November update is real; its device version remains unverified.
+
+Sources checked:
+
+- [Blackstar Amplification: Introducing ID:X Floor](https://www.youtube.com/watch?v=S-TEGzTUhsY) — Manufacturer family introduction published 2026-01-22; used only as an announcement proxy. (indexed manufacturer YouTube title/date/description; direct fetch cache miss).
+- [TONE3000: Blackstar brings NAM A2 to the ID:X Floor range](https://www.tone3000.com/blog/blackstar-idx-floor-nam-a2) — Dated 2026-11-12; explicitly includes Three, native A2-Lite via Architect, 24 captures/up to 100 patches and disabled pre-FX under NAM; device firmware number absent. (opened; primary integration-partner announcement).
+- [Blackstar ID:X Floor One/Two/Three owner manual 256401M-VA-1 01/26](https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84) — Three explicitly identified on cover; shared effects appendix p29 SHIMMR DLY, pp19–22 category/patch rules and custom continuous-parameter assignment; no note-polyphony or per-effect CPU percentage. (opened manufacturer manuscript on retailer mirror; text_only).
+- [Blackstar Digital Team: Architect 2.2.0 release notes](https://github.com/BlackstarDigitalTeam/KetteringReleases/releases/tag/2.2.0) — Editor release explicitly supports TONE3000 on Floor 1/2/3 and blocks unsupported ID:X combos; not a device firmware build identifier. (opened).
+
+<!-- firmware-pitch:Blackstar::ID:X Floor Three ends -->
+
 Checked2026-10-18; partial. Guitar/bass multi-effects eligibility comes from the own manual, independently of the uncertain Shopee title. Ownership unverified. One/Two are separate models.
 
 | Field | Evidence / qualification |
@@ -100,7 +127,7 @@ Checked2026-10-18; partial. Guitar/bass multi-effects eligibility comes from the
 | I/O | Mono input,mono send/return,To Amp,CabRig stereo quarter-inch phones/line and XLR outputs;3.5mm line/streaming TRRS;MIDI IN/THRU;USB-C;DC. To Amp bypasses CabRig;not speaker power. [M] |
 | USB recording | **4 device→host**:wetL/R,dry,preamp; **2 host→device** playback. Format unknown. [M] |
 | Power / battery / USB | **9VDC500mA centre-negative supply requirement**,not measured draw. Battery/USB power unknown. [M] |
-| IR / NAM / captures | CabRig speaker simulation documented; user IR,native/converted NAM,capture imports unverified. [M] |
+| IR / NAM / captures | CabRig documented. November 12, 2026 update adds native NAM A2-Lite via Architect/TONE3000; Amp+Cab captures,24 stored; pre-FX disabled in NAM mode. User IR remains unverified. [Partner announcement](https://www.tone3000.com/blog/blackstar-idx-floor-nam-a2) supersedes earlier NAM uncertainty. |
 | Editor / software | Architect edits/backups; exact OS versions unknown. Windows audio driver requires registered account. [M] |
 | Looper / drums / live | Bypass delay/reverb trails documented; patch-change continuity,looper/drums unverified. [M] |
 
