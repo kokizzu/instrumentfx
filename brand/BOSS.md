@@ -5234,6 +5234,31 @@ Next: visual control corroboration, simultaneous-capacity accounting, complete c
 
 ## ME-70
 
+<!-- firmware-pitch:BOSS::ME-70 begins -->
+### Firmware and pitch audit — BOSS ME-70
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2009-01-15 (manufacturer announcement proxy). Manufacturer announcement date; exact first retail shipment unverified. [launch 1](https://cdn.roland.com/assets/media/pdf/pr_2009-01-15_me-70.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. Support index lists manuals, TurboStart and Q&A without a system program; targeted manufacturer search found no public firmware release. Version/date and update span unknown; internal revisions not ruled out. PDF creation/revision timestamps are not firmware dates. [firmware 1](https://www.boss.info/global/support/by_product/me-70/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. MODULATION HARMONIST and OCTAVE (one octave below) explicitly require single notes. Harmonist provides key-based harmony and detune. Separate pedal +1/-1 OCTAVE continuously bends one octave up/down, also single-note only. [pitch 1](https://cdn.roland.com/assets/media/pdf/ME-70_OM.pdf) [pitch 2](https://www.boss.info/global/products/me-70/specifications/) |
+| Pitch / preset recall | 36 user plus 36 preset whole patches. EZ Tone separately recalls editable settings per effect type; these are not additional whole-patch slots. |
+| Pitch / DSP resources | HARMONIST and OCTAVE are alternatives in the single MODULATION category, replacing other modulation types. PEDAL FX is separate. No published pitch CPU percentage or numerical DSP allocation table found. |
+| Pitch / qualifications | No polyphonic claim inferred from COSM or GT-10-derived engine; only this model’s documented pitch behavior is recorded. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS unveils ME-70 guitar multiple effects](https://cdn.roland.com/assets/media/pdf/pr_2009-01-15_me-70.pdf) — January 15, 2009 announcement. (Manufacturer indexed press-release PDF).
+- [ME-70 support](https://www.boss.info/global/support/by_product/me-70/) — Manuals, TurboStart and Q&A; no device system-program entry shown. (Manufacturer model support web text).
+- [BOSS ME-70 Owner Manual](https://cdn.roland.com/assets/media/pdf/ME-70_OM.pdf) — Single-note Harmonist, Octave and pedal bends; separate categories; editable per-effect EZ Tone. 11580619 bytes, SHA256 b8321022b80ad8bb4c56b31bb8a96b930e9d38f695c502762f894da4c0420c4a. (Manufacturer PDF downloaded and extracted with pdftotext, English pages E6–E9 and E12; no visual inspection claimed).
+- [ME-70 specifications](https://www.boss.info/global/products/me-70/specifications/) — 36 user and 36 preset patches. (Retained manufacturer model evidence; fresh web retrieval timed out).
+
+<!-- firmware-pitch:BOSS::ME-70 ends -->
+
 Guitar multi-effects,distinct from ME-80/ME-90. Checked2026-10-17;partial. Discontinued per manufacturer;not proof of absent seller stock. Bass suitability unclassified.
 
 | Field | Finding / qualification | Evidence |

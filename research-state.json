@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.roland.com/assets/media/pdf/ME-30_OM.pdf",
+    "requested_url": "https://cdn.roland.com/assets/media/pdf/ME-70_OM.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 17,
     "text_pages": [
-      43,
-      43
+      11,
+      11
     ],
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",
@@ -183830,10 +183830,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::ME-70": {
+        "model_key": "BOSS::ME-70",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2009-01-15",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/pr_2009-01-15_me-70.pdf"
+          ],
+          "note": "Manufacturer announcement date; exact first retail shipment unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/me-70/"
+          ],
+          "note": "Support index lists manuals, TurboStart and Q&A without a system program; targeted manufacturer search found no public firmware release. Version/date and update span unknown; internal revisions not ruled out. PDF creation/revision timestamps are not firmware dates."
+        },
+        "pitch": {
+          "status": "documented_monophonic",
+          "algorithms": "MODULATION HARMONIST and OCTAVE (one octave below) explicitly require single notes. Harmonist provides key-based harmony and detune. Separate pedal +1/-1 OCTAVE continuously bends one octave up/down, also single-note only.",
+          "preset": "36 user plus 36 preset whole patches. EZ Tone separately recalls editable settings per effect type; these are not additional whole-patch slots.",
+          "dsp": "HARMONIST and OCTAVE are alternatives in the single MODULATION category, replacing other modulation types. PEDAL FX is separate. No published pitch CPU percentage or numerical DSP allocation table found.",
+          "measurements": [],
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/ME-70_OM.pdf",
+            "https://www.boss.info/global/products/me-70/specifications/"
+          ],
+          "notes": [
+            "No polyphonic claim inferred from COSM or GT-10-derived engine; only this model’s documented pitch behavior is recorded."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/pr_2009-01-15_me-70.pdf",
+            "title": "BOSS unveils ME-70 guitar multiple effects",
+            "access": "Manufacturer indexed press-release PDF",
+            "evidence": "January 15, 2009 announcement."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/me-70/",
+            "title": "ME-70 support",
+            "access": "Manufacturer model support web text",
+            "evidence": "Manuals, TurboStart and Q&A; no device system-program entry shown."
+          },
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/ME-70_OM.pdf",
+            "title": "BOSS ME-70 Owner Manual",
+            "access": "Manufacturer PDF downloaded and extracted with pdftotext, English pages E6–E9 and E12; no visual inspection claimed",
+            "evidence": "Single-note Harmonist, Octave and pedal bends; separate categories; editable per-effect EZ Tone. 11580619 bytes, SHA256 b8321022b80ad8bb4c56b31bb8a96b930e9d38f695c502762f894da4c0420c4a."
+          },
+          {
+            "url": "https://www.boss.info/global/products/me-70/specifications/",
+            "title": "ME-70 specifications",
+            "access": "Retained manufacturer model evidence; fresh web retrieval timed out",
+            "evidence": "36 user and 36 preset patches."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::ME-70",
       "BOSS::ME-8",
       "BOSS::ME-80",
       "BOSS::ME-90",
@@ -184180,12 +184244,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 57,
-    "last_model": "BOSS::ME-50B",
-    "last_commit_parent": "203262094a2c343c2cf8b595fc6d06cb62331097",
+    "completed_model_count": 58,
+    "last_model": "BOSS::ME-70",
+    "last_commit_parent": "929820f4ecaafd22db911bc9ea0e38d782ed5bb4",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::ME-70",
       "BOSS::ME-8",
       "BOSS::ME-80",
       "BOSS::ME-90",
@@ -184531,7 +184594,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 57,
+    "pitch_completed_model_count": 58,
     "supplemental_model_count": 0
   }
 }
