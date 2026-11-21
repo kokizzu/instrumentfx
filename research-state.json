@@ -208283,11 +208283,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "TC-Helicon::Play Acoustic": {
+        "model_key": "TC-Helicon::Play Acoustic",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://i.ebayimg.com/images/g/DfUAAeSwjYFpziph/s-l1200.webp",
+            "source_url": "https://co.ebay.com/b/TC-Helicon-Signal-Multi-Effects-Processors-Effects/23791/bn_77095378",
+            "caption": "Play Acoustic powered-on control face — actual unit, slight overhead perspective",
+            "note": "Actual unit with connected power and blue LCD reading HI REV / 112. All three footswitches and ten face buttons are visible, with central control knob; separate mic-gain knob is established by the manual/rear profile. Slight trapezoidal perspective means this is overhead-facing but not a strict perpendicular top-down photograph. Source is an indexed eBay category image, not a stable individual item listing; exact model is visually identifiable, seller and condition are not independently certified.",
+            "visual_checked": true,
+            "sha256": "4bbab99793dda4dd3ab29cffc295fbc5f31edebba674238e891f9ffac7920449",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://cdn-media.empowertribe.com/2ff520db172e4405ad56bf514ffa6107/Image_TH_0726-AAI_PLAY-ACOUSTIC_Rear_XL.png",
+            "source_url": "https://www.tchelicon.com/de/products/0726-AAI",
+            "caption": "Play Acoustic rear ports — manufacturer stock image",
+            "note": "Manufacturer rear inspected: power explicitly 12V DC / 400mA and center-negative polarity, Mini-B USB, headphone minijack, two male XLR outputs GUITAR DI (R)/VOICE (L), GND button, quarter-inch PEDAL, AUX minijack, quarter-inch GUITAR IN, female XLR MIC and security slot. This resolves the earlier polarity gap for the pictured hardware. No MIDI DIN or FX-loop connectors are shown. PEDAL is not proof of continuous expression, and USB is not evidence of bus-powered operation.",
+            "visual_checked": true,
+            "sha256": "3e103efd9052268c59ccb945c1a71b8eba937cede945103f0028e42746acfc7f",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::PERFORM-VK"
+    "last_model": "TC-Helicon::Play Acoustic"
   }
 }

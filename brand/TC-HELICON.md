@@ -1117,6 +1117,26 @@ Sources checked:
 
 <!-- firmware-pitch:TC-Helicon::Play Acoustic ends -->
 
+<!-- model-images:TC-Helicon::Play Acoustic begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Play Acoustic powered-on control face — actual unit, slight overhead perspective**
+
+[![Play Acoustic powered-on control face — actual unit, slight overhead perspective](https://i.ebayimg.com/images/g/DfUAAeSwjYFpziph/s-l1200.webp)](https://i.ebayimg.com/images/g/DfUAAeSwjYFpziph/s-l1200.webp)
+
+[Image source](https://co.ebay.com/b/TC-Helicon-Signal-Multi-Effects-Processors-Effects/23791/bn_77095378). Actual unit with connected power and blue LCD reading HI REV / 112. All three footswitches and ten face buttons are visible, with central control knob; separate mic-gain knob is established by the manual/rear profile. Slight trapezoidal perspective means this is overhead-facing but not a strict perpendicular top-down photograph. Source is an indexed eBay category image, not a stable individual item listing; exact model is visually identifiable, seller and condition are not independently certified.
+
+**Play Acoustic rear ports — manufacturer stock image**
+
+[![Play Acoustic rear ports — manufacturer stock image](https://cdn-media.empowertribe.com/2ff520db172e4405ad56bf514ffa6107/Image_TH_0726-AAI_PLAY-ACOUSTIC_Rear_XL.png)](https://cdn-media.empowertribe.com/2ff520db172e4405ad56bf514ffa6107/Image_TH_0726-AAI_PLAY-ACOUSTIC_Rear_XL.png)
+
+[Image source](https://www.tchelicon.com/de/products/0726-AAI). Manufacturer rear inspected: power explicitly 12V DC / 400mA and center-negative polarity, Mini-B USB, headphone minijack, two male XLR outputs GUITAR DI (R)/VOICE (L), GND button, quarter-inch PEDAL, AUX minijack, quarter-inch GUITAR IN, female XLR MIC and security slot. This resolves the earlier polarity gap for the pictured hardware. No MIDI DIN or FX-loop connectors are shown. PEDAL is not proof of continuous expression, and USB is not evidence of bus-powered operation.
+
+</details>
+<!-- model-images:TC-Helicon::Play Acoustic ends -->
+
+
 Separate acoustic-guitar and vocal processor, not VoiceLive Play, Play Electric or GTX. Consolidated **2026-10-17**; complete original2014 firmware/manual context retained. BodyRez processing is not proof of IR import or electric-to-acoustic simulation.
 
 <!-- TCHELICON-PLAY-ACOUSTIC source begins -->
