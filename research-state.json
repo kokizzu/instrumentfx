@@ -201959,11 +201959,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "M-VAVE::MK-300": {
+        "model_key": "M-VAVE::MK-300",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://m.media-amazon.com/images/I/71t5idhwIPL._AC_SL1500_.jpg",
+            "source_url": "https://manuals.plus/asin/B0F6NPFMTB",
+            "caption": "MK-300 powered-on overhead product image",
+            "note": "Straight overhead silver MK-300 product image shows USER PRESET 156 display and blue footswitch rings. This is marketed imagery, not an independently observed hardware test. Display CPU 1.8 belongs to the pictured preset, not measured pitch DSP. Mirror used only to locate the image; generated summaries are not specification evidence.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "27d9ca0a666adfa3479741f55d1b05b08933202c4ad06ddfcf86829cec6721ad"
+          },
+          "rear": {
+            "image_url": "https://nafiriguitar.com/cdn/shop/files/0BA62855-09C4-41FE-B46F-E6FC8EB913C8.jpg?v=1754977080&width=1946",
+            "source_url": "https://nafiriguitar.com/products/m-vave-mk300-guitar-multi-effect-processor",
+            "caption": "MK-300 rear ports",
+            "note": "Visually checked physical silver MK-300 rear panel on labeled packaging: PEDAL2, INPUT, MIDI DIN, L/R XLR with LIFT/GND, separate phone-recording and headphone sockets, L(MONO)/R outputs, USB-C and power switch. No extra effects loop inferred. Rear photograph does not establish powered state or connector protocols beyond labels; manual retains technical authority.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "2033960d1c2cb04a34f36941f8cbbbe05c123a7457d17fff79c58b7ba1105147"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::MK-20"
+    "last_model": "M-VAVE::MK-300"
   }
 }
