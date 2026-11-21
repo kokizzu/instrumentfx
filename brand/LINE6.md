@@ -2196,6 +2196,32 @@ The current power row supersedes earlier unknown-polarity observations above,whi
 
 ## M5
 
+<!-- firmware-pitch:Line 6::M5 begins -->
+### Firmware and pitch audit — Line 6 M5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2011-04-06 (manufacturer public introduction). Official Line 6 M5 introduction video published April 6, 2011, linked from its current resources page. Announcement proxy; exact first retail shipment day unverified. [launch 1](https://www.youtube.com/watch?v=de1AzX2VZFU) [launch 2](https://line6.com/effects-pedals/resources/) |
+| Firmware / latest verification | 1.00.00 — Latest verified. Direct current catalogue retrieval lists exactly one release, 1.00.00, February 8, 2011, described as factory-installed firmware. This pre-introduction build date is not evidence of a post-launch update or negative support lifetime. No later firmware listed; no device update performed. [firmware 1](https://line6.com/software/index.html?hardware=M5&name=Flash+Memory&submit_form=set) |
+| Firmware / release date | 2011-02-08 (day precision) |
+| Firmware / release-to-update duration | -0.16 years (firmware predates hardware release); observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Glide and Smart Harmony in Filter category; Bass Octaver in Distortion category. Shared manufacturer effects guide explicitly names M5. Harmony key/scale and pedal pitch control documented; no polyphonic input-tracking guarantee located. [pitch 1](https://line6.com/data/6/0a06434d12155507f39d011ad3/application/pdf/M5%20Pilot%27s%20Guide%20-%20English%20%28%20Rev%20B%20%29.pdf) [pitch 2](https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5) |
+| Pitch / preset recall | 24 overwriteable presets; manual save or autosave, with per-preset expression heel/toe settings. Pitch parameters can be recalled; no physical recall test. |
+| Pitch / DSP resources | One selected effect model at a time plus the separate setup noise gate. Selecting Pitch Glide/Harmony/Octaver occupies that model position; cannot add another selected delay/reverb model concurrently. No pitch-specific CPU percentage in checked manufacturer guides. M9/M13 multiblock capacity and Helix half-DSP figures do not apply. |
+| Pitch / qualifications | Firmware catalogue date precedes public introduction; preserve unresolved/pre-launch span rather than inventing a positive support duration. No audio tracking or CPU benchmark. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Official Line 6 M5 introduction video](https://www.youtube.com/watch?v=de1AzX2VZFU) — Published April 6, 2011; identity corroborated by current manufacturer resources embed. (Manufacturer video search metadata read).
+- [Line 6 effects-pedal resources](https://line6.com/effects-pedals/resources/) — M-Series section embeds de1AzX2VZFU and explicitly describes M5. (Direct bounded manufacturer HTML read).
+- [M5 exact Flash Memory catalogue](https://line6.com/software/index.html?hardware=M5&name=Flash+Memory&submit_form=set) — Only one Released entry: version1.00.00 dated February8,2011, factory installed. (Direct bounded manufacturer HTML retrieved; SHA256 2eb28fb931ecb62dbba3a1cc161bca12474b7f5e49febec6cc310d232f4bfafd).
+- [M5 Pilot Handbook Rev B](https://line6.com/data/6/0a06434d12155507f39d011ad3/application/pdf/M5%20Pilot%27s%20Guide%20-%20English%20%28%20Rev%20B%20%29.pdf) — One selected model, separate gate,24 writable presets and per-preset expression endpoints. (Original manufacturer PDF text read).
+- [M5/M9/M13 FX Parameters guide](https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5) — Pitch Glide, Smart Harmony and Bass Octaver; no pitch DSP percentage or explicit polyphonic input tracking. (Original manufacturer PDF text read; explicitly covers M5).
+
+<!-- firmware-pitch:Line 6::M5 ends -->
+
 Effects-only multi-category processor; one selected model plus gate,not a chain processor. Eligible under multi-category scope; distinct from dedicated single-purpose pedals and M9/M13. Checked2026-10-17;partial. Ownership and vocal suitability unverified. Bass suitability documented for Bass Octaver;not every model is certified equally suitable.
 
 | Field | Finding / qualification | Evidence |

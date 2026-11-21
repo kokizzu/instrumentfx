@@ -178521,8 +178521,8 @@
       25,
       26
     ],
-    "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
-    "index_needle": "features",
+    "index_url": "https://line6.com/company/images/?families=12",
+    "index_needle": "M5",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -190063,6 +190063,82 @@
           "label": "4.52 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::M5": {
+        "model_key": "Line 6::M5",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2011-04-06",
+          "precision": "day",
+          "kind": "manufacturer_public_introduction",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=de1AzX2VZFU",
+            "https://line6.com/effects-pedals/resources/"
+          ],
+          "note": "Official Line 6 M5 introduction video published April 6, 2011, linked from its current resources page. Announcement proxy; exact first retail shipment day unverified."
+        },
+        "firmware": {
+          "version": "1.00.00",
+          "date": "2011-02-08",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=M5&name=Flash+Memory&submit_form=set"
+          ],
+          "note": "Direct current catalogue retrieval lists exactly one release, 1.00.00, February 8, 2011, described as factory-installed firmware. This pre-introduction build date is not evidence of a post-launch update or negative support lifetime. No later firmware listed; no device update performed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Glide and Smart Harmony in Filter category; Bass Octaver in Distortion category. Shared manufacturer effects guide explicitly names M5. Harmony key/scale and pedal pitch control documented; no polyphonic input-tracking guarantee located.",
+          "preset": "24 overwriteable presets; manual save or autosave, with per-preset expression heel/toe settings. Pitch parameters can be recalled; no physical recall test.",
+          "dsp": "One selected effect model at a time plus the separate setup noise gate. Selecting Pitch Glide/Harmony/Octaver occupies that model position; cannot add another selected delay/reverb model concurrently. No pitch-specific CPU percentage in checked manufacturer guides. M9/M13 multiblock capacity and Helix half-DSP figures do not apply.",
+          "source_urls": [
+            "https://line6.com/data/6/0a06434d12155507f39d011ad3/application/pdf/M5%20Pilot%27s%20Guide%20-%20English%20%28%20Rev%20B%20%29.pdf",
+            "https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5"
+          ],
+          "measurements": [],
+          "notes": [
+            "Firmware catalogue date precedes public introduction; preserve unresolved/pre-launch span rather than inventing a positive support duration. No audio tracking or CPU benchmark."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=de1AzX2VZFU",
+            "title": "Official Line 6 M5 introduction video",
+            "access": "Manufacturer video search metadata read",
+            "evidence": "Published April 6, 2011; identity corroborated by current manufacturer resources embed."
+          },
+          {
+            "url": "https://line6.com/effects-pedals/resources/",
+            "title": "Line 6 effects-pedal resources",
+            "access": "Direct bounded manufacturer HTML read",
+            "evidence": "M-Series section embeds de1AzX2VZFU and explicitly describes M5."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=M5&name=Flash+Memory&submit_form=set",
+            "title": "M5 exact Flash Memory catalogue",
+            "access": "Direct bounded manufacturer HTML retrieved; SHA256 2eb28fb931ecb62dbba3a1cc161bca12474b7f5e49febec6cc310d232f4bfafd",
+            "evidence": "Only one Released entry: version1.00.00 dated February8,2011, factory installed."
+          },
+          {
+            "url": "https://line6.com/data/6/0a06434d12155507f39d011ad3/application/pdf/M5%20Pilot%27s%20Guide%20-%20English%20%28%20Rev%20B%20%29.pdf",
+            "title": "M5 Pilot Handbook Rev B",
+            "access": "Original manufacturer PDF text read",
+            "evidence": "One selected model, separate gate,24 writable presets and per-preset expression endpoints."
+          },
+          {
+            "url": "https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5",
+            "title": "M5/M9/M13 FX Parameters guide",
+            "access": "Original manufacturer PDF text read; explicitly covers M5",
+            "evidence": "Pitch Glide, Smart Harmony and Bass Octaver; no pitch DSP percentage or explicit polyphonic input tracking."
+          }
+        ],
+        "duration": {
+          "minimum_days": -57,
+          "maximum_days": -57,
+          "label": "-0.16 years (firmware predates hardware release)"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190107,7 +190183,6 @@
       "Line 6::Helix Stadium XL Floor",
       "Line 6::HX One",
       "Line 6::M13",
-      "Line 6::M5",
       "Line 6::M9",
       "Line 6::Pocket POD",
       "Line 6::POD HD300",
@@ -190330,9 +190405,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 140,
-    "last_model": "Line 6::POD HD500",
-    "last_commit_parent": "2d320031e0c6defc883961cd815f6358d4fdf8c8",
+    "completed_model_count": 141,
+    "last_model": "Line 6::M5",
+    "last_commit_parent": "1817b6155183b4b444fe555371aebde4510add4c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190376,7 +190451,6 @@
       "Line 6::Helix Stadium XL Floor",
       "Line 6::HX One",
       "Line 6::M13",
-      "Line 6::M5",
       "Line 6::M9",
       "Line 6::Pocket POD",
       "Line 6::POD HD300",
@@ -190598,7 +190672,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 140,
+    "pitch_completed_model_count": 141,
     "supplemental_model_count": 0
   },
   "model_images": {
