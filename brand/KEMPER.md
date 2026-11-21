@@ -137,6 +137,26 @@ Sources checked:
 
 <!-- firmware-pitch:Kemper::PROFILER Player ends -->
 
+<!-- model-images:Kemper::PROFILER Player begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**PROFILER Player powered-on overhead control panel: eight knobs, three footswitches and illuminated status indicators; no screen.**
+
+[![PROFILER Player powered-on overhead control panel: eight knobs, three footswitches and illuminated status indicators; no screen.](https://www.kemper-amps.com/images/products/profiler-player_gallery_top_800_bl.jpg?v5=)](https://www.kemper-amps.com/images/products/profiler-player_gallery_top_800_bl.jpg?v5=)
+
+[Image source](https://www.kemper-amps.com/store/en/profiler-player.html). Exact Player hardware from official SKU24000000 listing. Gain-ring, bank/rig, wireless and Kone indicators visibly lit. Photo does not establish installed OS or paid upgrade Level.
+
+**PROFILER Player rear connectors: instrument input, L/R monitor outputs, headphones, pedal socket, XLR main, USB-A/B and DC input.**
+
+[![PROFILER Player rear connectors: instrument input, L/R monitor outputs, headphones, pedal socket, XLR main, USB-A/B and DC input.](https://www.kemper-amps.com/images/products/profiler-player_gallery_back_800_bl.jpg?v5=)](https://www.kemper-amps.com/images/products/profiler-player_gallery_back_800_bl.jpg?v5=)
+
+[Image source](https://www.kemper-amps.com/store/en/profiler-player.html). Readable inlet label:9–12 V DC,24 W,centre-negative. This is a hardware power rating, not measured consumption or DSP utilization. No DIN MIDI, S/PDIF or dedicated external audio-loop send/return visible. Kensington slot above DC/USB area is not an audio connector; USB socket presence alone does not establish bus powering.
+
+</details>
+<!-- model-images:Kemper::PROFILER Player ends -->
+
+
 Partial record checked **2026-10-17**. One hardware model; paid Levels are feature entitlements,not separate inventory models. The offer does not establish its installed OS or upgrade Level.
 
 | Required field | Evidence / qualification |
