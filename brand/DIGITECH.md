@@ -742,6 +742,31 @@ Working state, authenticity, bundle, adapter, warranty, shipping/tax and voucher
 
 ## RP80
 
+<!-- firmware-pitch:DigiTech::RP80 begins -->
+### Firmware and pitch audit — DigiTech RP80
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2004-03-10 (contemporaneous product introduction proxy). Sweetwater introduction of the new RP80; available-by/report proxy, not exact first shipment. Manual printing/compliance dates are separate. [launch 1](https://www.sweetwater.com/insync/digitech-rp80/) |
+| Firmware / latest verification | Not verified — No public firmware located. No RP80 device firmware release located in checked official software/manual indexes and targeted search. Latest version/date and update span unknown; this does not prove firmware never existed. [firmware 1](https://digitech.com/software-downloads/) [firmware 2](https://digitech.com/product-manuals/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Nine fixed intervals: −12, −7, −5, −4, +3, +4, +5, +7, +12 semitones. Nine Detune settings, cents unspecified. Whammy ±1/±2-octave bends and five harmony bends. Input polyphony unverified. [pitch 1](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2024/09/digitech-rp80-manuel-utilisateur-en-30531.pdf) [pitch 2](https://www.sweetwater.com/insync/digitech-rp80/) |
+| Pitch / preset recall | 40 writable user plus 40 read-only factory presets; user locations initially duplicate factory. |
+| Pitch / DSP resources | Pitch Shift, Detune and Whammy share one Chorus/Mod slot. Introduction advertises up to nine simultaneous effects overall, not nine pitch instances. No per-pitch CPU percentage published in checked sources. |
+| Pitch / qualifications | Built-in expression supports preset-specific assignment/range; Pitch Shift/Detune level and Whammy position are assignable. Volume-linked presets update output from current pedal position when selected. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [DigiTech RP80 introduction](https://www.sweetwater.com/insync/digitech-rp80/) — New RP80 with integrated expression and up to nine effects; not exact first shipment. (Contemporaneous Sweetwater report, March 10, 2004).
+- [RP80 User’s Guide 18-0277-A](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2024/09/digitech-rp80-manuel-utilisateur-en-30531.pdf) — Printed p9 memory, p16 single Chorus/Mod, p19 fixed pitch intervals/Whammy, pp20–22 expression. (Manufacturer CDN 32-page PDF web text, linked from current manual index).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — No RP80 device firmware release located. (Manufacturer current web text and targeted search).
+- [DigiTech product manuals](https://digitech.com/product-manuals/) — RP80 official manual link; upload directory not release date. (Manufacturer current web text).
+
+<!-- firmware-pitch:DigiTech::RP80 ends -->
+
 Checked2026-10-18;partial. [Manufacturer-linked own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2024/09/digitech-rp80-manuel-utilisateur-en-30531.pdf),18-0277-A,January2004,32PDF pages,printed pp2–9,14–26 (M). Browser text.
 
 <!-- comparison evidence begins -->

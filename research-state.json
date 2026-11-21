@@ -186022,10 +186022,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::RP80": {
+        "model_key": "DigiTech::RP80",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2004-03-10",
+          "precision": "day",
+          "kind": "contemporaneous_product_introduction_proxy",
+          "source_urls": [
+            "https://www.sweetwater.com/insync/digitech-rp80/"
+          ],
+          "note": "Sweetwater introduction of the new RP80; available-by/report proxy, not exact first shipment. Manual printing/compliance dates are separate."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://digitech.com/software-downloads/",
+            "https://digitech.com/product-manuals/"
+          ],
+          "note": "No RP80 device firmware release located in checked official software/manual indexes and targeted search. Latest version/date and update span unknown; this does not prove firmware never existed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Nine fixed intervals: −12, −7, −5, −4, +3, +4, +5, +7, +12 semitones. Nine Detune settings, cents unspecified. Whammy ±1/±2-octave bends and five harmony bends. Input polyphony unverified.",
+          "preset": "40 writable user plus 40 read-only factory presets; user locations initially duplicate factory.",
+          "dsp": "Pitch Shift, Detune and Whammy share one Chorus/Mod slot. Introduction advertises up to nine simultaneous effects overall, not nine pitch instances. No per-pitch CPU percentage published in checked sources.",
+          "source_urls": [
+            "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2024/09/digitech-rp80-manuel-utilisateur-en-30531.pdf",
+            "https://www.sweetwater.com/insync/digitech-rp80/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Built-in expression supports preset-specific assignment/range; Pitch Shift/Detune level and Whammy position are assignable. Volume-linked presets update output from current pedal position when selected."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.sweetwater.com/insync/digitech-rp80/",
+            "title": "DigiTech RP80 introduction",
+            "access": "Contemporaneous Sweetwater report, March 10, 2004",
+            "evidence": "New RP80 with integrated expression and up to nine effects; not exact first shipment."
+          },
+          {
+            "url": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2024/09/digitech-rp80-manuel-utilisateur-en-30531.pdf",
+            "title": "RP80 User’s Guide 18-0277-A",
+            "access": "Manufacturer CDN 32-page PDF web text, linked from current manual index",
+            "evidence": "Printed p9 memory, p16 single Chorus/Mod, p19 fixed pitch intervals/Whammy, pp20–22 expression."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer current web text and targeted search",
+            "evidence": "No RP80 device firmware release located."
+          },
+          {
+            "url": "https://digitech.com/product-manuals/",
+            "title": "DigiTech product manuals",
+            "access": "Manufacturer current web text",
+            "evidence": "RP80 official manual link; upload directory not release date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::RP80",
       "DigiTech::RP90",
       "DK::iE-350",
       "DK::iE-550",
@@ -186339,12 +186404,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 90,
-    "last_model": "DigiTech::RP70",
-    "last_commit_parent": "bd3b20c4c931c9b38fa306fefd40eaa6e6646073",
+    "completed_model_count": 91,
+    "last_model": "DigiTech::RP80",
+    "last_commit_parent": "a5f0f1b96092486cfb633115a46c2707242f3d25",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::RP80",
       "DigiTech::RP90",
       "DK::iE-350",
       "DK::iE-550",
@@ -186657,7 +186721,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 90,
+    "pitch_completed_model_count": 91,
     "supplemental_model_count": 0
   },
   "model_images": {
