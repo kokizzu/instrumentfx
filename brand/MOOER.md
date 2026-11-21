@@ -3767,6 +3767,32 @@ Checked2026-10-28 using the manufacturer-authored shared GS1000/GS1000 Li [manua
 
 ## Ocean Machine II
 
+<!-- firmware-pitch:MOOER::Ocean Machine II begins -->
+### Firmware and pitch audit — MOOER Ocean Machine II
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-09-10 (manufacturer press release availability). Manufacturer press release reproduced by Premier Guitar on September 12 explicitly states worldwide dealer/distributor availability on September 10, 2024; this is not the original 2017 Ocean Machine. [launch 1](https://www.premierguitar.com/news/mooer) |
+| Firmware / latest verification | Not verified — Unverified. II supports USB-C firmware updates, but no exact-II current firmware version/date was located. Original Ocean Machine OM_FW1.1.1 (2018-09-20) is not II firmware. V2.7-20240417 printed in the II manual is a document revision, not an installed firmware version. Reset screen displays the installed version; updates reset presets/settings. [firmware 1](https://www.mooeraudio.com/products/206.html) [firmware 2](https://www.mooeraudio.com/companyfile/Ocean-Machine-Downloads-139.html) [firmware 3](https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Rainbow and Crystal are pitch-based Delay A algorithms; reverb also offers shimmer. These ambient effects do not establish a dedicated whole-guitar transposer, selectable interval range, or chord-safe polyphonic tracking. [pitch 1](https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf) [pitch 2](https://mooer.jp/products/mooer-ocean-machine-ii) |
+| Pitch / preset recall | 24 writable presets in eight banks of three; STORE saves edited settings, including the selected effect configuration. |
+| Pitch / DSP resources | Two independent delay engines plus one reverb engine, configurable in series/parallel; looper is serial only. Pitch delays occupy a Delay A algorithm choice. No isolated pitch DSP percentage, CPU meter reading, or independent pitch block cost is documented. |
+| Pitch / qualifications | Do not treat shimmer or pitched repeats as evidence of polyphonic dry-signal transposition. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Mooer and Devin Townsend Launch the Ocean Machine II](https://www.premierguitar.com/news/mooer) — Explicit worldwide availability date September 10, 2024. (Manufacturer press release reproduced by Premier Guitar, September 12, 2024; checked 2026-11-22).
+- [MOOER Ocean Machine II product](https://www.mooeraudio.com/products/206.html) — Exact II hardware, dual independent delays, reverb/shimmer, 24 presets and USB-C firmware update support; no current firmware version/date. (Manufacturer page checked 2026-11-22).
+- [MOOER Ocean Machine Downloads](https://www.mooeraudio.com/companyfile/Ocean-Machine-Downloads-139.html) — Original Ocean Machine OM_FW1.1.1, dated September 20, 2018; predates II and excluded from II firmware field. (Manufacturer download page checked 2026-11-22).
+- [MOOER Ocean Machine II owner manual, V2.7-20240417](https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf) — Printed p6 lists Rainbow/Crystal pitch delays; 24 preset STORE procedure, serial/parallel engine routing and serial-only looper; p26 describes USB-C firmware update, Reset version screen and settings reset. Manual revision is not firmware; no polyphony or DSP percentage. (Manufacturer-authored PDF mirror; cover/body identify II despite host P2 metadata; checked 2026-11-22).
+- [Mooer Japan Ocean Machine II](https://mooer.jp/products/mooer-ocean-machine-ii) — Exact II pitch-delay descriptions, reverb/shimmer, independent dual delays, routing and 24 presets corroborate manual. (Manufacturer-linked Japanese distributor product page checked 2026-11-22).
+
+<!-- firmware-pitch:MOOER::Ocean Machine II ends -->
+
 Checked 2026-10-18; partial active guitar multi-effects record. Original Ocean Machine is a distinct revision.
 
 [Exact Shopee hardware offer](https://shopee.co.id/Mooer-Ocean-Machine-II-Devin-Townsend-Signature-Dual-Delay-Reverb-Pedal-i.96878449.44405143297): Nafiri Music Store, shop96878449/item44405143297, Kota Jakarta Utara; **Rp4.096.000**, two-month cached body. Condition, stock, bundle and warranty unverified. Relative delivery promise is not stock proof; Rp10.000 late-arrival compensation is not a purchase discount.
