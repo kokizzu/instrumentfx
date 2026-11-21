@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 2,
+    "frame": 0,
     "text_pages": [
       0,
       2
@@ -196145,6 +196145,60 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "NUX::MG-20": {
+        "model_key": "NUX::MG-20",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unresolved first hardware availability",
+          "source_urls": [
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf"
+          ],
+          "note": "Original manufacturer manual carries copyright2014, but document copyright does not establish first hardware availability. Secondary NAMM2014 discovery lead remains uncorroborated by a dated manufacturer launch notice; exact first release remains unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://nuxaudio.com/product/mg20/",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf"
+          ],
+          "note": "Current exact-model legacy support lists English manual only; no public firmware binary, release history or updater located. Original manual explicitly documents USB system updating. V1 is a document revision, not a firmware version; PDF upload/crawl dates are not device update dates. Latest device version/date and support span remain unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Original V1 effects table, printed pp.12–13, now visually checked: Harmonist has MODE/KEY/HARMONY/BALANCE; Detune has SHIFT L./SHIFT R./MIX/LEVEL. Separate pedal Whammy (table spelling WAHMMY) exposes OCTAVE without numeric range here. No explicit polyphonic input/chord-tracking claim; stereo shifts do not establish polyphony.",
+          "preset": "36 factory plus36 user presets. Original pp.6–7 confirm CTRL/EXP function and on/off states saved per preset; unsaved edits are abandoned on preset change. MOD position can be before EFX or after EQ, saved per preset; pre-EFX placement disables stereo effects. Harmonist and Detune share MOD alternatives.",
+          "dsp": "32-bit floating-point DSP is overall architecture, not a pitch cost. Eight named audio positions NG/CMP/EFX/AMP/EQ/MOD/DELAY/REVERB plus CTRL/EXP control button; nine module buttons do not prove nine simultaneous audio blocks. No isolated Harmonist/Detune/Whammy DSP percentage or latency benchmark located.",
+          "source_urls": [
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original manufacturer PDF visual inspection now corroborates these pitch/recall/routing details previously available only through a mirror transcription. Historical visual-access limitations below describe earlier checks.",
+            "No hardware/audio test; numeric pitch range and note polyphony remain unverified."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://nuxaudio.com/product/mg20/",
+            "title": "NUX MG-20 manufacturer legacy support",
+            "access": "Manufacturer page opened2026-11-22",
+            "evidence": "MG-20 marked Legacy Product; support lists English manual, no firmware download/version/date exposed."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf",
+            "title": "NUX MG-20 V1 English owner manual",
+            "access": "Manufacturer PDF downloaded2026-11-22; cover, printed pp.2–7 and12–13 visually inspected; SHA256ad7d8cd7b174ba2d757901a56871942c93e9b2952b75403a539a507235f9bc1a",
+            "evidence": "Cover2014 copyright,36factory+36user,32-bitDSP; p.4 USBsystemupdate; pp.6–7 MOD placement/stereo restriction and CTRL/EXP preset recall; pp.12–13 exact pitch controls. Manual revision not firmware; copyright not first shipping date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -196183,7 +196237,6 @@
       "NUX::Atlantic NDR-5",
       "NUX::Cerberus NME-3",
       "NUX::MFX-10",
-      "NUX::MG-20",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
@@ -196335,9 +196388,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 217,
-    "last_model": "NUX::MG-200",
-    "last_commit_parent": "e12b2204ca17a6963a90eb6798ef04f99f5f8344",
+    "completed_model_count": 218,
+    "last_model": "NUX::MG-20",
+    "last_commit_parent": "b17699cc2470980c2dd6c38a10cdab9f4fd04ed1",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -196375,7 +196428,6 @@
       "NUX::Atlantic NDR-5",
       "NUX::Cerberus NME-3",
       "NUX::MFX-10",
-      "NUX::MG-20",
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
@@ -196526,7 +196578,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 217,
+    "pitch_completed_model_count": 218,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -500,6 +500,29 @@ Variant,bundle,adapter inclusion,authenticity,working state,warranty,shipping/ta
 
 ## MG-20
 
+<!-- firmware-pitch:NUX::MG-20 begins -->
+### Firmware and pitch audit — NUX MG-20
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Original manufacturer manual carries copyright2014, but document copyright does not establish first hardware availability. Secondary NAMM2014 discovery lead remains uncorroborated by a dated manufacturer launch notice; exact first release remains unresolved. [launch 1](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. Current exact-model legacy support lists English manual only; no public firmware binary, release history or updater located. Original manual explicitly documents USB system updating. V1 is a document revision, not a firmware version; PDF upload/crawl dates are not device update dates. Latest device version/date and support span remain unknown. [firmware 1](https://nuxaudio.com/product/mg20/) [firmware 2](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Original V1 effects table, printed pp.12–13, now visually checked: Harmonist has MODE/KEY/HARMONY/BALANCE; Detune has SHIFT L./SHIFT R./MIX/LEVEL. Separate pedal Whammy (table spelling WAHMMY) exposes OCTAVE without numeric range here. No explicit polyphonic input/chord-tracking claim; stereo shifts do not establish polyphony. [pitch 1](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf) |
+| Pitch / preset recall | 36 factory plus36 user presets. Original pp.6–7 confirm CTRL/EXP function and on/off states saved per preset; unsaved edits are abandoned on preset change. MOD position can be before EFX or after EQ, saved per preset; pre-EFX placement disables stereo effects. Harmonist and Detune share MOD alternatives. |
+| Pitch / DSP resources | 32-bit floating-point DSP is overall architecture, not a pitch cost. Eight named audio positions NG/CMP/EFX/AMP/EQ/MOD/DELAY/REVERB plus CTRL/EXP control button; nine module buttons do not prove nine simultaneous audio blocks. No isolated Harmonist/Detune/Whammy DSP percentage or latency benchmark located. |
+| Pitch / qualifications | Original manufacturer PDF visual inspection now corroborates these pitch/recall/routing details previously available only through a mirror transcription. Historical visual-access limitations below describe earlier checks. No hardware/audio test; numeric pitch range and note polyphony remain unverified. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX MG-20 manufacturer legacy support](https://nuxaudio.com/product/mg20/) — MG-20 marked Legacy Product; support lists English manual, no firmware download/version/date exposed. (Manufacturer page opened2026-11-22).
+- [NUX MG-20 V1 English owner manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf) — Cover2014 copyright,36factory+36user,32-bitDSP; p.4 USBsystemupdate; pp.6–7 MOD placement/stereo restriction and CTRL/EXP preset recall; pp.12–13 exact pitch controls. Manual revision not firmware; copyright not first shipping date. (Manufacturer PDF downloaded2026-11-22; cover, printed pp.2–7 and12–13 visually inspected; SHA256ad7d8cd7b174ba2d757901a56871942c93e9b2952b75403a539a507235f9bc1a).
+
+<!-- firmware-pitch:NUX::MG-20 ends -->
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->
