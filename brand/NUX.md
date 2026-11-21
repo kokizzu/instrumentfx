@@ -1468,6 +1468,26 @@ Sources checked:
 
 <!-- firmware-pitch:NUX::MG-300 original ends -->
 
+<!-- model-images:NUX::MG-300 original begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Original NUX MG-300 — top controls**
+
+[![Original NUX MG-300 — top controls](https://www.recordcase.de/media/0d/1d/29/1700635742/nux-mg-300-3-scaled.jpg)](https://www.recordcase.de/media/0d/1d/29/1700635742/nux-mg-300-3-scaled.jpg)
+
+[Image source](https://www.recordcase.de/en/nux-mg-300). Visually inspected exact original MG-300 overhead product image: active color LCD shows patch 9A and a pedalboard; GAIN/LEVEL/MASTER labels and original metal footswitches distinguish it from MKII. Retailer-hosted promotional image, not independent device testing.
+
+**Original NUX MG-300 — rear ports**
+
+[![Original NUX MG-300 — rear ports](https://www.recordcase.de/media/b8/40/be/1700594705/nux-mg-300-6-scaled.jpg)](https://www.recordcase.de/media/b8/40/be/1700594705/nux-mg-300-6-scaled.jpg)
+
+[Image source](https://www.recordcase.de/en/nux-mg-300). Visually inspected original rear: Input, combined Output/Phones, AUX In, micro-USB and center-negative DC9V. No separate phones socket or USB-C; do not substitute the MKII rear layout.
+
+</details>
+<!-- model-images:NUX::MG-300 original ends -->
+
+
 <!-- comparison evidence begins -->
 **Existing review2026-10-14.** [Official product](https://nuxaudio.com/product/mg300/); [original manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300/NUX_MG300_UserManual_English.pdf),panels and printed p.14.
 
