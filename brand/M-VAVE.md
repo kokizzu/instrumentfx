@@ -305,6 +305,32 @@ Analog tip/ring/sleeve roles, resistance, taper and continuous CC endpoints rema
 
 ## CUBE BABY AC
 
+<!-- firmware-pitch:M-VAVE::CUBE BABY AC begins -->
+### Firmware and pitch audit — M-VAVE CUBE BABY AC
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer AC new-product unboxing and new-functions demos located, but exact dated first worldwide introduction not established in current access. Relative search ages and Scribd upload date are not adopted as launch. Electric/BASS dates not transferred. [launch 1](https://www.youtube.com/watch?v=jIpMd35DyDE) [launch 2](https://www.youtube.com/watch?v=_xUzqYWzk4I) |
+| Firmware / latest verification | Not verified — No public firmware located. Current manufacturer index names CubeBabyAc for desktop CubeSuite but no separately versioned/datestamped AC firmware entry located. Exact product direct page returns shell; indexed product download block lists CubeSuite only. Preset editing, IR import or factory restore are not proof of a dated device-firmware release. No conclusion that firmware is absent or permanently unupdateable. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://www.cuvave.com/product?id=cube-baby-ac) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Own AC manual enumerates EQ, compressor, automatic anti-feedback, Chorus/Tremolo, alternative Reverb/Delay ambience and acoustic/body IRs. No dedicated pitch shifter, octave, harmonizer or transpose documented. Anti-feedback notch filtering and tuner pitch detection do not shift notes; Chorus is not proof of polyphonic transpose. Acoustic input processing/IR loading does not establish electric-to-acoustic pitch synthesis. [pitch 1](https://www.scribd.com/document/826512660/M008-Cube-golden) [pitch 2](https://www.cuvave.com/product?id=cube-baby-ac) |
+| Pitch / preset recall | Three overwriteable A/B/C memories total, initially factory filled; separate LIVE/PRESET/EDIT behavior. In PRESET VOLUME controls final output; LIVE final output fixed at 70% while knob edits chain level; EDIT retains previous output and edits chain level. These are mode-dependent manual controls, not global expression or pitch-preset recall. Delay and reverb share SPACE as alternatives. |
+| Pitch / DSP resources | No isolated DSP percentage, resource meter or pitch tracking-latency measurement documented. Six fixed processing stages and up to eight anti-feedback notches are not DSP load percentages or freely assignable heavy-effect slots. No pitch resource cost assigned; no sibling figures borrowed. |
+| Pitch / qualifications | Eight-page manufacturer-authored AC manual original sections checked as hosted text; AI-enhanced Scribd title/summary excluded. No new PDF-object/page-image verification or hardware test. Eight replaceable IR responses plus Off, not nine imports or neural captures. Exact IR file limits and USB channels remain unknown; desktop CubeSuite support does not prove mobile editing. Preserve AC-specific USB charging/operation uncertainty; electric model simultaneous-use wording not transferred. No update/app installation, preset overwrite or IR import. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Current M-VAVE software/firmware index](https://www.m-vave.com/download) — CubeBabyAc explicitly in desktop CubeSuite compatibility; no dated AC device-firmware entry found. (Complete current manufacturer index read).
+- [Exact manufacturer CUBE BABY AC product record](https://www.cuvave.com/product?id=cube-baby-ac) — Acoustic target, Chorus/Tremolo, shared ambience, three editable presets and eight IRs plus Off. (Indexed original product body; current direct response shell only).
+- [Original eight-page CUBE-BABY AC manual](https://www.scribd.com/document/826512660/M008-Cube-golden) — Fixed chain, separate Reverb/Delay alternatives, mode-dependent volume, memories and IR editing. (Original manual sections I–VIII read as hosted text; generated summary excluded).
+- [Manufacturer AC new-product unboxing and presets](https://www.youtube.com/watch?v=jIpMd35DyDE) — Release lead only, not adopted as dated first introduction. (Manufacturer author/title indexed; exact publication day not established).
+- [Manufacturer Cube Baby AC new-function introduction](https://www.youtube.com/watch?v=_xUzqYWzk4I) — AC-specific effects corroboration; not a versioned firmware changelog. (Manufacturer author/title/description indexed).
+
+<!-- firmware-pitch:M-VAVE::CUBE BABY AC ends -->
+
 <!-- comparison evidence begins -->
 
 **Existing review2026-10-15. Acoustic-input multi-effects,not electric version in another mode.**

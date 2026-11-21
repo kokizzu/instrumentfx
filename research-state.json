@@ -198055,6 +198055,81 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "M-VAVE::CUBE BABY AC": {
+        "model_key": "M-VAVE::CUBE BABY AC",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first hardware introduction unverified",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=jIpMd35DyDE",
+            "https://www.youtube.com/watch?v=_xUzqYWzk4I"
+          ],
+          "note": "Manufacturer AC new-product unboxing and new-functions demos located, but exact dated first worldwide introduction not established in current access. Relative search ages and Scribd upload date are not adopted as launch. Electric/BASS dates not transferred."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.m-vave.com/download",
+            "https://www.cuvave.com/product?id=cube-baby-ac"
+          ],
+          "note": "Current manufacturer index names CubeBabyAc for desktop CubeSuite but no separately versioned/datestamped AC firmware entry located. Exact product direct page returns shell; indexed product download block lists CubeSuite only. Preset editing, IR import or factory restore are not proof of a dated device-firmware release. No conclusion that firmware is absent or permanently unupdateable."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Own AC manual enumerates EQ, compressor, automatic anti-feedback, Chorus/Tremolo, alternative Reverb/Delay ambience and acoustic/body IRs. No dedicated pitch shifter, octave, harmonizer or transpose documented. Anti-feedback notch filtering and tuner pitch detection do not shift notes; Chorus is not proof of polyphonic transpose. Acoustic input processing/IR loading does not establish electric-to-acoustic pitch synthesis.",
+          "preset": "Three overwriteable A/B/C memories total, initially factory filled; separate LIVE/PRESET/EDIT behavior. In PRESET VOLUME controls final output; LIVE final output fixed at 70% while knob edits chain level; EDIT retains previous output and edits chain level. These are mode-dependent manual controls, not global expression or pitch-preset recall. Delay and reverb share SPACE as alternatives.",
+          "dsp": "No isolated DSP percentage, resource meter or pitch tracking-latency measurement documented. Six fixed processing stages and up to eight anti-feedback notches are not DSP load percentages or freely assignable heavy-effect slots. No pitch resource cost assigned; no sibling figures borrowed.",
+          "source_urls": [
+            "https://www.scribd.com/document/826512660/M008-Cube-golden",
+            "https://www.cuvave.com/product?id=cube-baby-ac"
+          ],
+          "measurements": [],
+          "notes": [
+            "Eight-page manufacturer-authored AC manual original sections checked as hosted text; AI-enhanced Scribd title/summary excluded. No new PDF-object/page-image verification or hardware test.",
+            "Eight replaceable IR responses plus Off, not nine imports or neural captures. Exact IR file limits and USB channels remain unknown; desktop CubeSuite support does not prove mobile editing.",
+            "Preserve AC-specific USB charging/operation uncertainty; electric model simultaneous-use wording not transferred. No update/app installation, preset overwrite or IR import."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.m-vave.com/download",
+            "title": "Current M-VAVE software/firmware index",
+            "access": "Complete current manufacturer index read",
+            "evidence": "CubeBabyAc explicitly in desktop CubeSuite compatibility; no dated AC device-firmware entry found."
+          },
+          {
+            "url": "https://www.cuvave.com/product?id=cube-baby-ac",
+            "title": "Exact manufacturer CUBE BABY AC product record",
+            "access": "Indexed original product body; current direct response shell only",
+            "evidence": "Acoustic target, Chorus/Tremolo, shared ambience, three editable presets and eight IRs plus Off."
+          },
+          {
+            "url": "https://www.scribd.com/document/826512660/M008-Cube-golden",
+            "title": "Original eight-page CUBE-BABY AC manual",
+            "access": "Original manual sections I–VIII read as hosted text; generated summary excluded",
+            "evidence": "Fixed chain, separate Reverb/Delay alternatives, mode-dependent volume, memories and IR editing."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=jIpMd35DyDE",
+            "title": "Manufacturer AC new-product unboxing and presets",
+            "access": "Manufacturer author/title indexed; exact publication day not established",
+            "evidence": "Release lead only, not adopted as dated first introduction."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=_xUzqYWzk4I",
+            "title": "Manufacturer Cube Baby AC new-function introduction",
+            "access": "Manufacturer author/title/description indexed",
+            "evidence": "AC-specific effects corroboration; not a versioned firmware changelog."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -198069,7 +198144,6 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "M-VAVE::CUBE BABY AC",
       "M-VAVE::CUBE BABY BASS",
       "MOD Audio::Duo",
       "Mosky::DC5",
@@ -198224,9 +198298,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 238,
-    "last_model": "M-VAVE::CUBE BABY electric",
-    "last_commit_parent": "ab763efe576240ee860dc0fec7f0e1e2831f2ce1",
+    "completed_model_count": 239,
+    "last_model": "M-VAVE::CUBE BABY AC",
+    "last_commit_parent": "952376febb9f5ffebf6ab8449bb6a30d7df175c8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -198240,7 +198314,6 @@
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
-      "M-VAVE::CUBE BABY AC",
       "M-VAVE::CUBE BABY BASS",
       "MOD Audio::Duo",
       "Mosky::DC5",
@@ -198394,7 +198467,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 238,
+    "pitch_completed_model_count": 239,
     "supplemental_model_count": 0
   },
   "model_images": {
