@@ -182977,10 +182977,129 @@
           "label": "0.29–0.37 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GX-10": {
+        "model_key": "BOSS::GX-10",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2024-10-24",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-GX-10-Guitar-Effects-Processor/"
+          ],
+          "note": "Dated manufacturer introduction forecasts US retail availability during October2024; exact first shipment not established."
+        },
+        "firmware": {
+          "version": "1.06",
+          "date": "2026-05",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gx-10/updates_drivers/",
+            "https://www.boss.info/global/support/by_product/gx-10/updates_drivers/916ae773-874f-489f-afd7-363e0970be48/"
+          ],
+          "note": "Current exact-model index and MAY2026 history; fixes low shimmer reverb/delay levels and FILTER MODE behavior at memory changes. Exact day/installed version unverified. Version1.05 MAR2026 removed polyphonic tuner, unrelated to audio pitch polyphony; editor/driver versions are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Guitar/Bass Pitch Shifter ±24 semitones, Fast/Medium/Slow/Mono; input-note polyphony not explicitly established in checked pages. Poly Octave explicitly accepts polyphonic input one octave down. Harmonist and Bass Pedal Bend explicitly disallow chords; octave-only polyphony is not proof of chordal semitone transposition.",
+          "preset": "198 user plus99 preset memories. WRITE stores edited effect chains/parameters to U01-1–U66-3; unsaved edits are lost at memory change/power-off.",
+          "dsp": "Manufacturer classes: guitar/bass Pitch Shifter, Harmonist and Pedal Bend small; Poly Octave and guitar/bass S-Bend medium; Overtone large. No percentages. Manual says up to15 effects/functional devices and up to9 same-effect instances, subject to DSP; product specs separately say15+3. Counting discrepancy unresolved, not a guarantee of9 pitch instances in any chain.",
+          "source_urls": [
+            "https://static.roland.com/manuals/gx-10_parameter/en-US/158050315161293707.html",
+            "https://static.roland.com/manuals/gx-10_parameter/en-US/95879307161264523.html",
+            "https://static.roland.com/manuals/gx-10_parameter/en-US/95912331161288587.html",
+            "https://static.roland.com/manuals/gx-10_parameter/en-US/95880075161265035.html",
+            "https://static.roland.com/manuals/gx-10_parameter/en-US/95918475161292683.html",
+            "https://static.roland.com/manuals/gx-10_parameter/en-US/95883147161267339.html",
+            "https://static.roland.com/manuals/gx-10_reference/en-US/7384359594716683.html",
+            "https://www.boss.info/global/products/gx-10/"
+          ],
+          "measurements": [],
+          "notes": [
+            "DSP exhaustion can grey out an effect before count limits; another block must be deleted to add it. Capacity classes are not fixed percentage costs.",
+            "Source wording differs: parameter guide includes functional devices within15, product specification says15+3. Both retained without invented reconciliation.",
+            "Output voice count, mono/stereo routing and removed tuner polyphony do not establish audio input-note polyphony. No hardware/latency test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.boss.info/global/support/by_product/gx-10/updates_drivers/",
+            "title": "BOSS GX-10 current Updates & Drivers",
+            "access": "opened",
+            "evidence": "System Program1.06 distinct from editor1.0.2 and drivers."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gx-10/updates_drivers/916ae773-874f-489f-afd7-363e0970be48/",
+            "title": "BOSS GX-10 System Program1.06 history",
+            "access": "opened",
+            "evidence": "MAY2026 latest fixes; MAR2026 tuner removal."
+          },
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-GX-10-Guitar-Effects-Processor/",
+            "title": "BOSS GX-10 October24 2024 introduction",
+            "access": "opened",
+            "evidence": "Dated announcement; US retail availability forecast for October."
+          },
+          {
+            "url": "https://static.roland.com/manuals/gx-10_parameter/en-US/158050315161293707.html",
+            "title": "BOSS GX-10 effect-count and DSP-capacity guide",
+            "access": "opened",
+            "evidence": "15including functional devices;9same-effect upper bound; actual DSP can block insertion; pitch small/poly-octave and S-Bend medium/Overtone large."
+          },
+          {
+            "url": "https://static.roland.com/manuals/gx-10_parameter/en-US/95879307161264523.html",
+            "title": "BOSS GX-10 Pitch Shifter parameters",
+            "access": "opened",
+            "evidence": "±24, one/two voices, Fast/Medium/Slow/Mono; explicit note-polyphony not established."
+          },
+          {
+            "url": "https://static.roland.com/manuals/gx-10_parameter/en-US/95912331161288587.html",
+            "title": "BOSS GX-10 Bass Pitch Shifter parameters",
+            "access": "indexed_manufacturer_text",
+            "evidence": "Bass-specific±24 and same mode list, not a separate polyphonic guarantee."
+          },
+          {
+            "url": "https://static.roland.com/manuals/gx-10_parameter/en-US/95880075161265035.html",
+            "title": "BOSS GX-10 Harmonist parameters",
+            "access": "opened",
+            "evidence": "Explicit single-note/no-chords restriction."
+          },
+          {
+            "url": "https://static.roland.com/manuals/gx-10_parameter/en-US/95918475161292683.html",
+            "title": "BOSS GX-10 Bass Pedal Bend parameters",
+            "access": "opened",
+            "evidence": "Explicit no-chords; heel/toe±24."
+          },
+          {
+            "url": "https://static.roland.com/manuals/gx-10_parameter/en-US/95883147161267339.html",
+            "title": "BOSS GX-10 Poly Octave parameters",
+            "access": "indexed_manufacturer_text",
+            "evidence": "Explicitly polyphonic; one octave down."
+          },
+          {
+            "url": "https://static.roland.com/manuals/gx-10_reference/en-US/7384359594716683.html",
+            "title": "BOSS GX-10 WRITE reference",
+            "access": "indexed_manufacturer_text",
+            "evidence": "U01-1–U66-3; store edited memories, unsaved edits lost at change/power-off."
+          },
+          {
+            "url": "https://www.boss.info/global/products/gx-10/",
+            "title": "BOSS GX-10 current product specifications",
+            "access": "opened",
+            "evidence": "198user+99preset; specification15+3 differs from parameter-guide count wording."
+          }
+        ],
+        "duration": {
+          "minimum_days": 554,
+          "maximum_days": 584,
+          "label": "1.52–1.60 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GX-10",
       "BOSS::GX-100",
       "BOSS::GX-1B",
       "BOSS::KATANA:GO",
@@ -183338,12 +183457,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 46,
-    "last_model": "BOSS::GX-1",
-    "last_commit_parent": "053f666b211328c57ea856caa9bbdcc436ca538e",
+    "completed_model_count": 47,
+    "last_model": "BOSS::GX-10",
+    "last_commit_parent": "1ed375b56a0c99d29a5105b4254612575fce0a2c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GX-10",
       "BOSS::GX-100",
       "BOSS::GX-1B",
       "BOSS::KATANA:GO",
@@ -183700,7 +183818,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 46,
+    "pitch_completed_model_count": 47,
     "supplemental_model_count": 0
   }
 }

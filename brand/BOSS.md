@@ -3833,6 +3833,38 @@ Checked 2026-10-18.
 
 ## GX-10
 
+<!-- firmware-pitch:BOSS::GX-10 begins -->
+### Firmware and pitch audit — BOSS GX-10
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-10-24 (manufacturer announcement proxy). Dated manufacturer introduction forecasts US retail availability during October2024; exact first shipment not established. [launch 1](https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-GX-10-Guitar-Effects-Processor/) |
+| Firmware / latest verification | 1.06 — Latest verified. Current exact-model index and MAY2026 history; fixes low shimmer reverb/delay levels and FILTER MODE behavior at memory changes. Exact day/installed version unverified. Version1.05 MAR2026 removed polyphonic tuner, unrelated to audio pitch polyphony; editor/driver versions are separate. [firmware 1](https://www.boss.info/global/support/by_product/gx-10/updates_drivers/) [firmware 2](https://www.boss.info/global/support/by_product/gx-10/updates_drivers/916ae773-874f-489f-afd7-363e0970be48/) |
+| Firmware / release date | 2026-05 (month precision) |
+| Firmware / release-to-update duration | 1.52–1.60 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Guitar/Bass Pitch Shifter ±24 semitones, Fast/Medium/Slow/Mono; input-note polyphony not explicitly established in checked pages. Poly Octave explicitly accepts polyphonic input one octave down. Harmonist and Bass Pedal Bend explicitly disallow chords; octave-only polyphony is not proof of chordal semitone transposition. [pitch 1](https://static.roland.com/manuals/gx-10_parameter/en-US/158050315161293707.html) [pitch 2](https://static.roland.com/manuals/gx-10_parameter/en-US/95879307161264523.html) [pitch 3](https://static.roland.com/manuals/gx-10_parameter/en-US/95912331161288587.html) [pitch 4](https://static.roland.com/manuals/gx-10_parameter/en-US/95880075161265035.html) [pitch 5](https://static.roland.com/manuals/gx-10_parameter/en-US/95918475161292683.html) [pitch 6](https://static.roland.com/manuals/gx-10_parameter/en-US/95883147161267339.html) [pitch 7](https://static.roland.com/manuals/gx-10_reference/en-US/7384359594716683.html) [pitch 8](https://www.boss.info/global/products/gx-10/) |
+| Pitch / preset recall | 198 user plus99 preset memories. WRITE stores edited effect chains/parameters to U01-1–U66-3; unsaved edits are lost at memory change/power-off. |
+| Pitch / DSP resources | Manufacturer classes: guitar/bass Pitch Shifter, Harmonist and Pedal Bend small; Poly Octave and guitar/bass S-Bend medium; Overtone large. No percentages. Manual says up to15 effects/functional devices and up to9 same-effect instances, subject to DSP; product specs separately say15+3. Counting discrepancy unresolved, not a guarantee of9 pitch instances in any chain. |
+| Pitch / qualifications | DSP exhaustion can grey out an effect before count limits; another block must be deleted to add it. Capacity classes are not fixed percentage costs. Source wording differs: parameter guide includes functional devices within15, product specification says15+3. Both retained without invented reconciliation. Output voice count, mono/stereo routing and removed tuner polyphony do not establish audio input-note polyphony. No hardware/latency test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS GX-10 current Updates & Drivers](https://www.boss.info/global/support/by_product/gx-10/updates_drivers/) — System Program1.06 distinct from editor1.0.2 and drivers. (opened).
+- [BOSS GX-10 System Program1.06 history](https://www.boss.info/global/support/by_product/gx-10/updates_drivers/916ae773-874f-489f-afd7-363e0970be48/) — MAY2026 latest fixes; MAR2026 tuner removal. (opened).
+- [BOSS GX-10 October24 2024 introduction](https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-GX-10-Guitar-Effects-Processor/) — Dated announcement; US retail availability forecast for October. (opened).
+- [BOSS GX-10 effect-count and DSP-capacity guide](https://static.roland.com/manuals/gx-10_parameter/en-US/158050315161293707.html) — 15including functional devices;9same-effect upper bound; actual DSP can block insertion; pitch small/poly-octave and S-Bend medium/Overtone large. (opened).
+- [BOSS GX-10 Pitch Shifter parameters](https://static.roland.com/manuals/gx-10_parameter/en-US/95879307161264523.html) — ±24, one/two voices, Fast/Medium/Slow/Mono; explicit note-polyphony not established. (opened).
+- [BOSS GX-10 Bass Pitch Shifter parameters](https://static.roland.com/manuals/gx-10_parameter/en-US/95912331161288587.html) — Bass-specific±24 and same mode list, not a separate polyphonic guarantee. (indexed_manufacturer_text).
+- [BOSS GX-10 Harmonist parameters](https://static.roland.com/manuals/gx-10_parameter/en-US/95880075161265035.html) — Explicit single-note/no-chords restriction. (opened).
+- [BOSS GX-10 Bass Pedal Bend parameters](https://static.roland.com/manuals/gx-10_parameter/en-US/95918475161292683.html) — Explicit no-chords; heel/toe±24. (opened).
+- [BOSS GX-10 Poly Octave parameters](https://static.roland.com/manuals/gx-10_parameter/en-US/95883147161267339.html) — Explicitly polyphonic; one octave down. (indexed_manufacturer_text).
+- [BOSS GX-10 WRITE reference](https://static.roland.com/manuals/gx-10_reference/en-US/7384359594716683.html) — U01-1–U66-3; store edited memories, unsaved edits lost at change/power-off. (indexed_manufacturer_text).
+- [BOSS GX-10 current product specifications](https://www.boss.info/global/products/gx-10/) — 198user+99preset; specification15+3 differs from parameter-guide count wording. (opened).
+
+<!-- firmware-pitch:BOSS::GX-10 ends -->
+
 Consolidated and refreshed2026-10-16;partial technical verification. Original dates/contradictions retained. Historical next-model notes below are provenance;current queue is in research-state.json.
 
 <!-- BOSS-GX-10 source begins -->
