@@ -5087,6 +5087,31 @@ Remaining: simultaneous ceiling, complete chain/visual corroboration, connector 
 
 ## ME-50B
 
+<!-- firmware-pitch:BOSS::ME-50B begins -->
+### Firmware and pitch audit — BOSS ME-50B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2004 (manufacturer release year). Manufacturer release-year column; 2019 manufacturing completion is not a firmware date. January 2004 brochure publication does not establish exact first shipment. [launch 1](https://www.roland.com/jp/support/service_repair/1708080000/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current model support index lists manual and TurboStart, with no system program. Targeted manufacturer search found no public firmware release. Version/date and update duration remain unknown; internal revisions are not ruled out. [firmware 1](https://www.boss.info/global/support/by_product/me-50b/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. FILTER/TONE OCTAVE UP/DOWN adds one octave above/below; explicitly incorrect with simultaneous notes. Pedal +1/-1 OCTAVE bends have the same single-note restriction. SYNTH and SOUND HOLD also require single notes; no polyphonic claim. [pitch 1](https://cdn.roland.com/assets/media/pdf/ME-50B_OM.pdf) |
+| Pitch / preset recall | 24 writable factory-filled patches, eight banks × three; no additional protected preset bank. WRITE saves edits. |
+| Pitch / DSP resources | Octave up/down share FILTER/TONE with its other alternatives. Pedal bend is a separate expression choice; effect order is automatically selected. No published pitch CPU percentage or numerical DSP allocation table found. |
+| Pitch / qualifications | Bass-specific octave capabilities and restrictions checked directly; guitar ME-50 Harmonist specifications are not transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland model release and repair-duration table](https://www.roland.com/jp/support/service_repair/1708080000/) — ME-50B release 2004, manufacturing completion 2019. (Manufacturer indexed table text).
+- [ME-50B support](https://www.boss.info/global/support/by_product/me-50b/) — Manual and TurboStart listed without a system-program entry. (Manufacturer model support web text).
+- [BOSS ME-50B Owner Manual](https://cdn.roland.com/assets/media/pdf/ME-50B_OM.pdf) — Pages 8–10: automatic order and octave choices; pages 12,18–19: synth, bend and hold single-note restrictions; pages 21–22,28: writable/factory memory. (Manufacturer PDF web text).
+- [ME-50B brochure](https://cdn.roland.com/assets/media/pdf/ME-50B_Brochure.pdf) — January 2004 printing; bass-specific octave up and 24 user patches. (Manufacturer indexed PDF text).
+
+<!-- firmware-pitch:BOSS::ME-50B ends -->
+
 Bass-focused multi-effects, distinct from ME-50 guitar and ME-20B. Checked 2026-10-17; partial. Ownership unestablished. Discontinued manufacturer status does not establish seller availability.
 
 <!-- comparison evidence begins -->

@@ -183766,10 +183766,73 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::ME-50B": {
+        "model_key": "BOSS::ME-50B",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2004",
+          "precision": "year",
+          "kind": "manufacturer_release_year",
+          "source_urls": [
+            "https://www.roland.com/jp/support/service_repair/1708080000/"
+          ],
+          "note": "Manufacturer release-year column; 2019 manufacturing completion is not a firmware date. January 2004 brochure publication does not establish exact first shipment."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/me-50b/"
+          ],
+          "note": "Current model support index lists manual and TurboStart, with no system program. Targeted manufacturer search found no public firmware release. Version/date and update duration remain unknown; internal revisions are not ruled out."
+        },
+        "pitch": {
+          "status": "documented_monophonic",
+          "algorithms": "FILTER/TONE OCTAVE UP/DOWN adds one octave above/below; explicitly incorrect with simultaneous notes. Pedal +1/-1 OCTAVE bends have the same single-note restriction. SYNTH and SOUND HOLD also require single notes; no polyphonic claim.",
+          "preset": "24 writable factory-filled patches, eight banks × three; no additional protected preset bank. WRITE saves edits.",
+          "dsp": "Octave up/down share FILTER/TONE with its other alternatives. Pedal bend is a separate expression choice; effect order is automatically selected. No published pitch CPU percentage or numerical DSP allocation table found.",
+          "measurements": [],
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/ME-50B_OM.pdf"
+          ],
+          "notes": [
+            "Bass-specific octave capabilities and restrictions checked directly; guitar ME-50 Harmonist specifications are not transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/jp/support/service_repair/1708080000/",
+            "title": "Roland model release and repair-duration table",
+            "access": "Manufacturer indexed table text",
+            "evidence": "ME-50B release 2004, manufacturing completion 2019."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/me-50b/",
+            "title": "ME-50B support",
+            "access": "Manufacturer model support web text",
+            "evidence": "Manual and TurboStart listed without a system-program entry."
+          },
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/ME-50B_OM.pdf",
+            "title": "BOSS ME-50B Owner Manual",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Pages 8–10: automatic order and octave choices; pages 12,18–19: synth, bend and hold single-note restrictions; pages 21–22,28: writable/factory memory."
+          },
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/ME-50B_Brochure.pdf",
+            "title": "ME-50B brochure",
+            "access": "Manufacturer indexed PDF text",
+            "evidence": "January 2004 printing; bass-specific octave up and 24 user patches."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::ME-50B",
       "BOSS::ME-70",
       "BOSS::ME-8",
       "BOSS::ME-80",
@@ -184117,12 +184180,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 56,
-    "last_model": "BOSS::ME-50",
-    "last_commit_parent": "2cf53b8ebc8f452363b323cd68e51f3c3dd9a074",
+    "completed_model_count": 57,
+    "last_model": "BOSS::ME-50B",
+    "last_commit_parent": "203262094a2c343c2cf8b595fc6d06cb62331097",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::ME-50B",
       "BOSS::ME-70",
       "BOSS::ME-8",
       "BOSS::ME-80",
@@ -184469,7 +184531,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 56,
+    "pitch_completed_model_count": 57,
     "supplemental_model_count": 0
   }
 }
