@@ -910,6 +910,32 @@ Default knob reassignment lasts only thecurrent power cycle;it is not global exp
 
 ## PERFORM-VK
 
+<!-- firmware-pitch:TC-Helicon::PERFORM-VK begins -->
+### Firmware and pitch audit — TC-Helicon PERFORM-VK
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2016-12 (contemporary retailer demonstration; first shipment unresolved). Sweetwater published its exact-model demonstration December 12, 2016. This establishes contemporary public demonstration, not exact first shipment; service-document dates are not substituted as launch. [launch 1](https://www.youtube.com/watch?v=PO2UfDZ2vJk) |
+| Firmware / latest verification | 1.2.02 build 132 (editor compatibility claim) — Unverified. Independent editor developer lists supported device firmware 1.2.02 132. This is a compatibility claim, not manufacturer certification of latest firmware. Exact release date remains unknown. Editor 1.4.1g/1.4.7c, mobile app and VoiceSupport2 1.1.02_build139 are distinct host software versions; editor page modification dates are not firmware release dates. Manufacturer manual requires an update for preset beaming but gives no numbered release in the checked passage. [firmware 1](https://voiceliveeditor.com/download-perform-vk-free-edition) [firmware 2](https://www.tchelicon.com/ja/products/0726-AAH) [firmware 3](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEE/PERFORM-VK_M_EN.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Nearest-semitone vocal correction, imported HardTune and Harmony; keyboard audio/MIDI guide harmony. Existing manual evidence includes Notes natural/tight and eight-channel MIDI harmony modes. These control/voice modes do not establish polyphonic audio-input pitch shifting; no measured chordal transposition guarantee located. [pitch 1](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEE/PERFORM-VK_M_EN.pdf) [pitch 2](https://www.manualslib.com/guide/3106539/tc-helicon-perform-vk-ultimate-mic-stand-mount-vocal-processor-manual.html) |
+| Pitch / preset recall | Three automatically saved editable presets; imported layers and HIT states. Existing MIDI implementation assigns bank 0 programs 125–127. No gapless pitch-preset recall measurement. |
+| Pitch / DSP resources | No pitch-specific CPU percentage, allocation meter or per-algorithm cost located. Up to seven effects, MIDI voice/channel counts and harmony level values do not quantify DSP utilization. |
+| Pitch / qualifications | Current manufacturer page claims XLR output/keyboard pass-through and suggests a foot switch; documented VK stereo TRS main outputs and external Switch-3/6 remain distinct. Do not transfer V or VG connector claims. Current manufacturer page marks product no longer made; this does not prove last firmware date or discontinued support. No firmware installed or hardware/audio test performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Sweetwater original TC-Helicon Perform-VK Vocal Effects Demo](https://www.youtube.com/watch?v=PO2UfDZ2vJk) — December 12, 2016 public demonstration, not exact first shipment. (Original demonstrator indexed title/channel/publication read).
+- [Independent Perform VK editor developer compatibility listing](https://voiceliveeditor.com/download-perform-vk-free-edition) — Both identify device firmware support as 1.2.02 132. Compatibility claim only, no manufacturer latest-release confirmation or firmware release date. (Developer page body read; live/search versions differ between 1.4.1g and 1.4.7c).
+- [TC Helicon exact PERFORM-VK 0726-AAH product/download page](https://www.tchelicon.com/ja/products/0726-AAH) — Discontinued hardware label, host software/driver downloads, disputed XLR/pass-through copy; no numbered device firmware release. (Direct manufacturer page read).
+- [Manufacturer PERFORM-VK user manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0DEE/PERFORM-VK_M_EN.pdf) — Nearest-semitone correction and update required for preset beaming; keyboard guidance is not input-audio polyphony certification. (Official indexed pitch/update passages read; direct 502 and replacement CDN fetch unavailable).
+- [Manufacturer-authored PERFORM-VK manual mirror retained in canonical evidence](https://www.manualslib.com/guide/3106539/tc-helicon-perform-vk-ultimate-mic-stand-mount-vocal-processor-manual.html) — Three presets, HIT and MIDI harmony modes; no quantified pitch DSP utilization. (Previously checked model-specific manual passages retained).
+
+<!-- firmware-pitch:TC-Helicon::PERFORM-VK ends -->
+
 Keyboard-guided vocal multi-effects,distinct from V/VG/VE. Checked2026-10-17;initial partial profile. Keyboard guidance does not establish guitar/bass multi-effects;vocal-only comparison membership. Ownership unestablished.
 
 <!-- comparison evidence begins -->
