@@ -189598,11 +189598,35 @@
             "sha256": "a94476bc37176ef0cbd8f5f8736f820b86680af18a575ee74fdd8621cc902973"
           }
         }
+      },
+      "HeadRush::MX5": {
+        "model_key": "HeadRush::MX5",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.headrushfx.com/assets/images/pdp/mx5/MX5-front-crop-v2.png",
+            "source_url": "https://www.headrushfx.com/products/mx5/index.html",
+            "caption": "HeadRush MX5 powered-on top-down product view",
+            "note": "Manufacturer view from above with slight perspective; active SEARING LEAD rig and three illuminated green/purple/cyan footswitch bars. The screen shows a Drop Tune block within a complete rig, without an isolated pitch DSP reading. Product screen imagery may be composited.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "97f58c66ea414a5f775da4d85c706c4412e2ec4563c3c11f65456c01bc038513"
+          },
+          "rear": {
+            "image_url": "https://www.headrushfx.com/assets/images/pdp/mx5/MX5-rear-crop-v2.png",
+            "source_url": "https://www.headrushfx.com/products/mx5/index.html",
+            "caption": "HeadRush MX5 rear connections",
+            "note": "Exact-model manufacturer rear view labels GUITAR IN, EXPR, FX SEND, FX RETURN, RIGHT and LEFT(MONO) outputs, PHONES, AUX, MIDI OUT/IN, USB-B, DC IN and POWER. Supply label specifies 12V 3.0A center-positive; this is an adapter specification, not measured consumption. Exhaust vent is labeled; no XLR microphone socket or USB-A port shown.",
+            "visual_checked": true,
+            "sha256": "c7a15cd286b21aa48bc080701688c86e60d713e6c3049c7b70ca688db6233816"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "HeadRush::Flex Prime"
+    "last_model": "HeadRush::MX5"
   }
 }
