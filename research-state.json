@@ -200112,11 +200112,37 @@
             "sha256": "1efd6a23583795ec64b84e607aa80f3f33e38c43d2337519758cdd2c8f2fab54"
           }
         }
+      },
+      "NUX::MG-20": {
+        "model_key": "NUX::MG-20",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG20.jpg",
+            "source_url": "https://nuxaudio.com/product/mg20/",
+            "caption": "NUX MG-20 — top controls",
+            "visual_checked": true,
+            "note": "Manufacturer overhead product image shows the MG-20 with its color display illuminated on the Classic Lead amp editing page, built-in expression pedal and three footswitches.",
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "f2138560b649e91308b2b51474b7b63c7f8fb0471877434b8a473e5dd26752a1"
+          },
+          "rear": {
+            "image_url": "https://stompbox.in/cdn/shop/files/Untitleddesign_1_42e08835-75aa-42a6-95bf-b8eea222e132.jpg?v=1703232938&width=1500",
+            "source_url": "https://stompbox.in/products/nux-mg-20-guitar-modeling-processor",
+            "caption": "NUX MG-20 — rear ports",
+            "visual_checked": true,
+            "note": "Retailer straight rear view shows input, AUX, stereo R/L-mono outputs, headphone socket, EXT.PEDAL, SD card slot, USB-B, DC input and power switch. Display is hidden, so powered-on status cannot be established from this rear photograph. USB audio/editor capability is not inferred from the socket.",
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "a838b12acb1cbc6228a2be738f598604435317e669f0d71e3947471393790206"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MG-200"
+    "last_model": "NUX::MG-20"
   }
 }
