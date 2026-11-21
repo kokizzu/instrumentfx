@@ -189697,11 +189697,35 @@
             "sha256": "c7a15cd286b21aa48bc080701688c86e60d713e6c3049c7b70ca688db6233816"
           }
         }
+      },
+      "HeadRush::Prime": {
+        "model_key": "HeadRush::Prime",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://www.headrushfx.com/assets/images/pdp/prime/headrush-prime-carousel-01.png",
+            "source_url": "https://www.headrushfx.com/products/prime/index.html",
+            "caption": "HeadRush Prime powered-on top-down product view",
+            "note": "Manufacturer overhead product image with active Firmware v5.2 rig, twelve colored footswitch bars, scribble-strip displays and expression-bank display. The pictured CPU reading is for the complete displayed rig, not an isolated pitch effect. Product screen imagery may be composited; this does not verify installed firmware on a physical device.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "5f64ae9f5e44b448998c51e3b5324ba07ed0be434b265e573d9208ff0c481536"
+          },
+          "rear": {
+            "image_url": "https://www.headrushfx.com/assets/images/pdp/prime/carousel-03.webp",
+            "source_url": "https://www.headrushfx.com/products/prime/index.html",
+            "caption": "HeadRush Prime rear connections",
+            "note": "Manufacturer rear view shows mic gain/combo MIC INPUT, GUITAR IN, AUX, EXT AMP OUT, EXPR and TOE, stereo FX SEND/RETURN, headphones, jack and XLR outputs, full-size MIDI IN/OUT-THRU, USB-B/USB-A and POWER. Prime uses an IEC mains inlet marked AC100–240V 50/60Hz; do not substitute Core/Flex Prime barrel-DC specifications. USB-A is visibly a separate port, not another audio jack.",
+            "visual_checked": true,
+            "sha256": "12de495a748c14252eff88c6341041ec8e30aa9756069fb00ddf26a6dd5d0ad9"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "HeadRush::MX5"
+    "last_model": "HeadRush::Prime"
   }
 }

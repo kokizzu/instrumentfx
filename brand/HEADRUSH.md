@@ -696,6 +696,26 @@ Sources checked:
 
 <!-- firmware-pitch:HeadRush::Prime ends -->
 
+<!-- model-images:HeadRush::Prime begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**HeadRush Prime powered-on top-down product view**
+
+[![HeadRush Prime powered-on top-down product view](https://www.headrushfx.com/assets/images/pdp/prime/headrush-prime-carousel-01.png)](https://www.headrushfx.com/assets/images/pdp/prime/headrush-prime-carousel-01.png)
+
+[Image source](https://www.headrushfx.com/products/prime/index.html). Manufacturer overhead product image with active Firmware v5.2 rig, twelve colored footswitch bars, scribble-strip displays and expression-bank display. The pictured CPU reading is for the complete displayed rig, not an isolated pitch effect. Product screen imagery may be composited; this does not verify installed firmware on a physical device.
+
+**HeadRush Prime rear connections**
+
+[![HeadRush Prime rear connections](https://www.headrushfx.com/assets/images/pdp/prime/carousel-03.webp)](https://www.headrushfx.com/assets/images/pdp/prime/carousel-03.webp)
+
+[Image source](https://www.headrushfx.com/products/prime/index.html). Manufacturer rear view shows mic gain/combo MIC INPUT, GUITAR IN, AUX, EXT AMP OUT, EXPR and TOE, stereo FX SEND/RETURN, headphones, jack and XLR outputs, full-size MIDI IN/OUT-THRU, USB-B/USB-A and POWER. Prime uses an IEC mains inlet marked AC100–240V 50/60Hz; do not substitute Core/Flex Prime barrel-DC specifications. USB-A is visibly a separate port, not another audio jack.
+
+</details>
+<!-- model-images:HeadRush::Prime ends -->
+
+
 **Guitar/bass/vocal multi-effects; checked 2026-10-16.** New distinct model, not Core, Flex Prime or the older Pedalboard. Firmware-specific findings below use the manufacturer's **5.2.0** manual and October 2026 release notes; no device firmware was installed or tested.
 
 | Required field | Model-specific finding / qualification |
