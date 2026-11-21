@@ -204350,11 +204350,63 @@
             "note": "Oblique unlit photograph clearly shows left-side XLR output but hides rear-edge connectors."
           }
         ]
+      },
+      "Sonicake::A Factory QDS-04": {
+        "model_key": "Sonicake::A Factory QDS-04",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QDS-04-1.jpg?v=1702957588&width=1096",
+            "source_url": "https://www.sonicake.com/products/a-factory",
+            "caption": "A Factory QDS-04 powered-on front/top perspective: eight rotary controls, two footswitches and both green indicators lit; no display.",
+            "note": "Exact A Factory confirmed. This is angled, not perpendicular overhead. The separately inspected [unlit overhead image](https://www.sonicake.com/cdn/shop/files/QDS-04_065eb2dc-da6c-4621-8478-dc7d8869c993.jpg?v=1702957588&width=1096) shows the complete top layout. Powered-on perpendicular overhead remains a gap.",
+            "visual_checked": true,
+            "sha256": "83a1ae18e5491dd83444170123604429201cee0e09285f0aa8aad7e8d7c64f91",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-04ManuelJP.png",
+            "source_url": "https://www.hotone.jp/brands/sonicake/products/a-factory",
+            "caption": "A Factory official connector diagram: instrument input, main output, DC 9 V, ground-lift selector and left-side XLR output.",
+            "note": "Readable manufacturer regional leaflet, not a rear photograph. Eight knobs, two footswitches and one ground-lift selector confirmed; the leaflet agrees with current product-page 60 mA. A [photographic socket-detail montage](https://www.sonicake.com/cdn/shop/files/QDS-04-6.jpg?v=1702957588&width=1096) shows one audio socket and power jack. Clear complete rear/side connector photography remains a gap.",
+            "visual_checked": true,
+            "sha256": "1fa273cb1af30e79f57061538b715774aaa579baf0bf85771c4efc91b2ec7bd4",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QDS-04-1.jpg?v=1702957588&width=1096",
+            "sha256": "83a1ae18e5491dd83444170123604429201cee0e09285f0aa8aad7e8d7c64f91",
+            "visual_checked": true,
+            "note": "Powered-on exact-model front/top perspective, eight knobs, two footswitches and both green LEDs lit; not perpendicular overhead."
+          },
+          {
+            "image_url": "https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-04ManuelJP.png",
+            "sha256": "1fa273cb1af30e79f57061538b715774aaa579baf0bf85771c4efc91b2ec7bd4",
+            "visual_checked": true,
+            "note": "Readable manufacturer Japanese leaflet confirms eight rotaries, two footswitches, ground lift, instrument input/main output/DC and side XLR; 60 mA."
+          },
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QDS-04_065eb2dc-da6c-4621-8478-dc7d8869c993.jpg?v=1702957588&width=1096",
+            "sha256": "271bfc7c46e2dab62092194455cad1541b66cb8acb39d78fc620066a2c685ac8",
+            "visual_checked": true,
+            "note": "Exact-model perpendicular overhead with both indicators unlit."
+          },
+          {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QDS-04-6.jpg?v=1702957588&width=1096",
+            "sha256": "d928339bb65acfaaef3858f7361be644dd667e93aa2a1622770f07397385fdb6",
+            "visual_checked": true,
+            "note": "Photographic detail montage shows one audio jack and DC socket; does not show complete rear/side connector inventory."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::B Factory QDS-05"
+    "last_model": "Sonicake::A Factory QDS-04"
   }
 }
