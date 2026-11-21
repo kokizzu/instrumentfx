@@ -205510,11 +205510,37 @@
             "note": "Rejected: manufacturer perspective marketing image has visible color-strip/edge artifacts; no clearly readable lit program display."
           }
         ]
+      },
+      "Lexicon::MX300": {
+        "model_key": "Lexicon::MX300",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn.mos.cms.futurecdn.net/0265225afc1657de81845de21b45400f-1200-80.jpg",
+            "source_url": "https://www.musicradar.com/reviews/tech/lexicon-mx300-78883",
+            "caption": "MX300 powered-on front control face and rear review photographs",
+            "note": "Visually inspected review composite: front LCD is illuminated with parameter text and a lit program digit; six rotary controls, six function buttons and a separate power switch are visible. The upper photograph is an elevated front perspective, not literal overhead. The lower image also shows rear connections. Powered-on control face is covered; a literal top-down photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "26c78bb0856d0f6a9e489194756f4a817ab79a189e4056dbbdf2ed29ef8b28df",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-h81ndqkfbp/images/stencil/1280x1280/products/8618/12667/PXL_20231027_154626940__08234.1699475520.jpg?c=1",
+            "source_url": "https://demontstore.com/lexicon-mx300-rack-mount-2-channel-reverb-delay-processor/",
+            "caption": "MX300 rear ports — unplugged 100–120V unit",
+            "note": "Visually inspected used-unit photograph: IEC mains/fuse inlet, USB-B, one footswitch jack, MIDI IN/THRU, S/PDIF RCA IN/OUT, and left/right analog input/output pairs in both XLR and quarter-inch formats. Two DIN sockets, not three. This unit label reads 100–120V~50/60Hz,18W; fuse replacement lines for two voltage versions do not prove universal-input operation. Rear THRU label supports the panel description while the retained manual specification OUT wording remains a source conflict. No separate headphone or continuous analog expression socket visible.",
+            "visual_checked": true,
+            "sha256": "ae70ef2e135f834591434bdfa9ab85275094aa8c76c0f04fd2cf6788609f8963",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Lexicon::MX200"
+    "last_model": "Lexicon::MX300"
   }
 }

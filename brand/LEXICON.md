@@ -371,6 +371,26 @@ Sources checked:
 
 <!-- firmware-pitch:Lexicon::MX300 ends -->
 
+<!-- model-images:Lexicon::MX300 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MX300 powered-on front control face and rear review photographs**
+
+[![MX300 powered-on front control face and rear review photographs](https://cdn.mos.cms.futurecdn.net/0265225afc1657de81845de21b45400f-1200-80.jpg)](https://cdn.mos.cms.futurecdn.net/0265225afc1657de81845de21b45400f-1200-80.jpg)
+
+[Image source](https://www.musicradar.com/reviews/tech/lexicon-mx300-78883). Visually inspected review composite: front LCD is illuminated with parameter text and a lit program digit; six rotary controls, six function buttons and a separate power switch are visible. The upper photograph is an elevated front perspective, not literal overhead. The lower image also shows rear connections. Powered-on control face is covered; a literal top-down photograph remains pending.
+
+**MX300 rear ports — unplugged 100–120V unit**
+
+[![MX300 rear ports — unplugged 100–120V unit](https://cdn11.bigcommerce.com/s-h81ndqkfbp/images/stencil/1280x1280/products/8618/12667/PXL_20231027_154626940__08234.1699475520.jpg?c=1)](https://cdn11.bigcommerce.com/s-h81ndqkfbp/images/stencil/1280x1280/products/8618/12667/PXL_20231027_154626940__08234.1699475520.jpg?c=1)
+
+[Image source](https://demontstore.com/lexicon-mx300-rack-mount-2-channel-reverb-delay-processor/). Visually inspected used-unit photograph: IEC mains/fuse inlet, USB-B, one footswitch jack, MIDI IN/THRU, S/PDIF RCA IN/OUT, and left/right analog input/output pairs in both XLR and quarter-inch formats. Two DIN sockets, not three. This unit label reads 100–120V~50/60Hz,18W; fuse replacement lines for two voltage versions do not prove universal-input operation. Rear THRU label supports the panel description while the retained manual specification OUT wording remains a source conflict. No separate headphone or continuous analog expression socket visible.
+
+</details>
+<!-- model-images:Lexicon::MX300 ends -->
+
+
 Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-17; partial. Suitable line-level routing required; XLR sockets do not establish a microphone preamp or phantom power. Bass-track processing is documented in its own manual; ownership unestablished. Distinct from MX200 and MX400.
 
 <!-- comparison evidence begins -->
