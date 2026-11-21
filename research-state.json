@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://line6.com/data/6/0a00040c018d681e825e1c4b3/application/pdf/POD%20Go%202.50%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "requested_url": "https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 28,
+    "frame": 22,
     "text_pages": [
-      12,
-      12
+      23,
+      24
     ],
     "index_url": "https://flammainnovation.com/goods/support?goodsName=FX50",
     "index_needle": "features",
@@ -189801,6 +189801,75 @@
           "label": "3.82–3.90 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::POD Express Guitar": {
+        "model_key": "Line 6::POD Express Guitar",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2024-03-06",
+          "precision": "day",
+          "kind": "manufacturer_announcement",
+          "source_urls": [
+            "https://www.yamaha.com/ja/news_release/2024/24030601/"
+          ],
+          "note": "Yamaha Japan announcement proxy, not a verified worldwide first shipment. Announces May 2024 Japanese availability. Initial public firmware March 5 is not treated as hardware shipment evidence."
+        },
+        "firmware": {
+          "version": "2.00.0",
+          "date": "2024-09-12",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://line6.com/software/index.html?os=All&submit_form=set"
+          ],
+          "note": "Newest device firmware located in the current indexed manufacturer download catalogue, explicitly covering Guitar, Bass and Black. Direct exact-model index retrieval unavailable; not certified as exhaustive. Adds Knob Behavior and Volume Wheel Control globals, cabinet LED indication and looper/preset fixes. Editor, ASIO driver and Central versions are separate; no device update installed."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No pitch shifter, harmonizer, octaver or transpose model in the exact Guitar effects table (Rev E p25): four distortions, four modulation effects, four delays plus looper, four reverbs. Chorus/flanger modulation does not establish a selectable pitch-transposition effect. Bass synth/octaver features do not apply.",
+          "preset": "21 overwriteable presets for the supported Guitar amp/effects settings; no documented pitch block to save or recall. No physical test.",
+          "dsp": "Fixed serial Guitar architecture: Gate > Distortion > Amp > Cab > Volume > Modulation > Delay/Looper > Reverb (p23). One model per four effects knobs, up to four simultaneous knob-selected effects (p24); looper occupies the delay category. No pitch-specific DSP resource cost or CPU percentage documented, and no 50% figure assigned.",
+          "source_urls": [
+            "https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "https://line6.com/podexpress/guitar-effects"
+          ],
+          "measurements": [],
+          "notes": [
+            "Exact Guitar table checked, separate from the Bass and Black signal paths in the shared manual. No audio tracking or CPU measurement performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.yamaha.com/ja/news_release/2024/24030601/",
+            "title": "Yamaha POD Express Guitar/Bass launch announcement",
+            "access": "Manufacturer Japanese announcement read",
+            "evidence": "March 6, 2024 announcement; May 2024 Japan release planned. Used as qualified announcement proxy, not global first shipment."
+          },
+          {
+            "url": "https://line6.com/software/index.html?os=All&submit_form=set",
+            "title": "Line 6 current software download catalogue",
+            "access": "Current manufacturer search-index entry read; direct exact-model page unavailable",
+            "evidence": "Newest located POD Express device firmware 2.00.0 dated September 12, 2024 explicitly supports Guitar, Bass and Black. Distinct from editor/driver versions."
+          },
+          {
+            "url": "https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf",
+            "title": "POD Express Owner Manual Rev E, firmware 2.00",
+            "access": "Original 47-page PDF retrieved; printed pp23–25 text read; SHA256 308188e1724d71b19719491ca6b3176709d7ead87c9a2e25f72e6ce38aee9a57",
+            "evidence": "Guitar-specific fixed signal path and complete effects table: no dedicated pitch algorithm; four simultaneous knob effects maximum, delay/looper shared."
+          },
+          {
+            "url": "https://line6.com/podexpress/guitar-effects",
+            "title": "POD Express Guitar official product and interactive guide",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "7 amps/cabs, 17 effects including looper, 21 overwriteable presets; source gallery for exact red Guitar enclosure."
+          }
+        ],
+        "duration": {
+          "minimum_days": 190,
+          "maximum_days": 190,
+          "label": "0.52 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -189850,7 +189919,6 @@
       "Line 6::M9",
       "Line 6::Pocket POD",
       "Line 6::POD Express Bass",
-      "Line 6::POD Express Guitar",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
       "Line 6::POD HD500",
@@ -190072,9 +190140,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 136,
-    "last_model": "Line 6::POD Go Wireless",
-    "last_commit_parent": "1fdc11dc1f40243ee79b7db746a1af18c5c55370",
+    "completed_model_count": 137,
+    "last_model": "Line 6::POD Express Guitar",
+    "last_commit_parent": "18802af8f8b676427a72a573e2c9f4efd6690a33",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190123,7 +190191,6 @@
       "Line 6::M9",
       "Line 6::Pocket POD",
       "Line 6::POD Express Bass",
-      "Line 6::POD Express Guitar",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
       "Line 6::POD HD500",
@@ -190344,7 +190411,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 136,
+    "pitch_completed_model_count": 137,
     "supplemental_model_count": 0
   },
   "model_images": {

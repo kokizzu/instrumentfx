@@ -2738,6 +2738,31 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 
 ## POD Express Guitar
 
+<!-- firmware-pitch:Line 6::POD Express Guitar begins -->
+### Firmware and pitch audit — Line 6 POD Express Guitar
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-03-06 (manufacturer announcement). Yamaha Japan announcement proxy, not a verified worldwide first shipment. Announces May 2024 Japanese availability. Initial public firmware March 5 is not treated as hardware shipment evidence. [launch 1](https://www.yamaha.com/ja/news_release/2024/24030601/) |
+| Firmware / latest verification | 2.00.0 — Located; latest status unverified. Newest device firmware located in the current indexed manufacturer download catalogue, explicitly covering Guitar, Bass and Black. Direct exact-model index retrieval unavailable; not certified as exhaustive. Adds Knob Behavior and Volume Wheel Control globals, cabinet LED indication and looper/preset fixes. Editor, ASIO driver and Central versions are separate; no device update installed. [firmware 1](https://line6.com/software/index.html?os=All&submit_form=set) |
+| Firmware / release date | 2024-09-12 (day precision) |
+| Firmware / release-to-update duration | 0.52 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No pitch shifter, harmonizer, octaver or transpose model in the exact Guitar effects table (Rev E p25): four distortions, four modulation effects, four delays plus looper, four reverbs. Chorus/flanger modulation does not establish a selectable pitch-transposition effect. Bass synth/octaver features do not apply. [pitch 1](https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf) [pitch 2](https://line6.com/podexpress/guitar-effects) |
+| Pitch / preset recall | 21 overwriteable presets for the supported Guitar amp/effects settings; no documented pitch block to save or recall. No physical test. |
+| Pitch / DSP resources | Fixed serial Guitar architecture: Gate > Distortion > Amp > Cab > Volume > Modulation > Delay/Looper > Reverb (p23). One model per four effects knobs, up to four simultaneous knob-selected effects (p24); looper occupies the delay category. No pitch-specific DSP resource cost or CPU percentage documented, and no 50% figure assigned. |
+| Pitch / qualifications | Exact Guitar table checked, separate from the Bass and Black signal paths in the shared manual. No audio tracking or CPU measurement performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha POD Express Guitar/Bass launch announcement](https://www.yamaha.com/ja/news_release/2024/24030601/) — March 6, 2024 announcement; May 2024 Japan release planned. Used as qualified announcement proxy, not global first shipment. (Manufacturer Japanese announcement read).
+- [Line 6 current software download catalogue](https://line6.com/software/index.html?os=All&submit_form=set) — Newest located POD Express device firmware 2.00.0 dated September 12, 2024 explicitly supports Guitar, Bass and Black. Distinct from editor/driver versions. (Current manufacturer search-index entry read; direct exact-model page unavailable).
+- [POD Express Owner Manual Rev E, firmware 2.00](https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf) — Guitar-specific fixed signal path and complete effects table: no dedicated pitch algorithm; four simultaneous knob effects maximum, delay/looper shared. (Original 47-page PDF retrieved; printed pp23–25 text read; SHA256 308188e1724d71b19719491ca6b3176709d7ead87c9a2e25f72e6ce38aee9a57).
+- [POD Express Guitar official product and interactive guide](https://line6.com/podexpress/guitar-effects) — 7 amps/cabs, 17 effects including looper, 21 overwriteable presets; source gallery for exact red Guitar enclosure. (Manufacturer exact-model page read).
+
+<!-- firmware-pitch:Line 6::POD Express Guitar ends -->
+
 **New model, checked2026-10-15.** The2024-generation POD Express Guitar is not the older Pocket POD Express, POD Express Bass, or POD Express Black. It is a fixed-chain guitar multi-effects processor; no built-in expression. The current edit application must not be omitted because an older launch document mentioned only updating.
 
 <!-- comparison evidence begins -->
