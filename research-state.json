@@ -206161,11 +206161,51 @@
             "note": "Genuine RD5 owner-manual graphic, not rear photograph. Signal order input→buffer→overdrive→booster→delay→reverb→output; all-off true bypass. Input6.35mm,9VDCcenter-negative. Manual230L×65W×35Dmm/510g conflicts with product230L×65W×36Hmm/490g; revision unknown."
           }
         ]
+      },
+      "Mosky::SOL918": {
+        "model_key": "Mosky::SOL918",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.moskyaudio.com/uploadfile//20261024/60da9377a8597.jpg",
+            "source_url": "https://www.moskyaudio.com/multi-effects/130.html",
+            "caption": "Mosky SOL918 nearly overhead control-face photograph — unpowered",
+            "note": "Visually inspected manufacturer SOL918: eleven rotary controls (reverb2,delay3,OD3,distortion3), four footswitches and one FX-loop toggle. Central clear ribbed indicator lens is not counted as a rotary control. No display/treadle visible. Slight perspective, not exact orthographic top-down; no power cable or illuminated indicator. Powered-on overhead photograph remains pending. Reverb,delay,OD,DS markings identify the four footswitch sections; they do not establish program-memory slots.",
+            "visual_checked": true,
+            "sha256": "7348a1768360d027e99de45947bc9de39a3d1119f65cbb03573e379852098817",
+            "powered_on": false,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://www.moskyaudio.com/uploadfile//20261024/60da9377a7d6c.jpg",
+            "source_url": "https://www.moskyaudio.com/multi-effects/130.html",
+            "caption": "Mosky SOL918 rear-edge sockets and labels — angled manufacturer photograph",
+            "note": "Visually inspected manufacturer view shows four quarter-inch audio sockets labeled OUTPUT,RETURN,SEND,INPUT plus9VDC barrel power; polarity symbol shows center-negative. All sockets unplugged. This confirms the external send/return insert, not a recording looper or built-in pitch processor. No USB,MIDI,phones or analog EXP socket visible on this edge; other-face/internal interfaces and electrical audio levels remain unverified. Image is angled, not a straight rear elevation.",
+            "visual_checked": true,
+            "sha256": "4a3098a333f387aba9beb137e79cc63ac84e1c391d5111517aa5c5ce0789ae2b",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.moskyaudio.com/uploadfile//20261024/60da9377a6f5a.jpg",
+            "sha256": "353fc60968474cbb591968ce464ff6910936900e063c69c0876e6be97856c7f6",
+            "visual_checked": true,
+            "note": "Manufacturer rear/control-face perspective clearly shows input/send/return/output and power; unplugged, no lit state."
+          },
+          {
+            "image_url": "https://www.moskyaudio.com/uploadfile//20261024/60da9377a766c.jpg",
+            "sha256": "edcfd89e706af5a2ca8b0c501eae20caac74f80e2614d479440ca0220932a23e",
+            "visual_checked": true,
+            "note": "Manufacturer front perspective; eleven rotary controls/four footswitches/one FX-loop toggle, not a rear-port photograph."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Mosky::RD5"
+    "last_model": "Mosky::SOL918"
   }
 }
