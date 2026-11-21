@@ -193339,11 +193339,35 @@
             "sha256": "5a6ccb35ae67a331544d6c2f193da964184388cc91d5537018bbc6c7dfdec20f"
           }
         }
+      },
+      "Keeley::Delay Workstation": {
+        "model_key": "Keeley::Delay Workstation",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://r2.gear4music.com/media/19/195713/1200/preview.jpg",
+            "source_url": "https://www.gear4music.com/Guitar-and-Bass/Keeley-Delay-Workstation-Pedal/1J4M",
+            "caption": "Keeley Delay Workstation — top panel",
+            "note": "Retailer straight top-down product photograph shows both five-knob rows and Reverb/Delay/Tap footswitches. Blue LED lenses are visible but illumination is not established; powered-on status is unverified and a confirmed powered-on replacement remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": true,
+            "sha256": "f2e727bf8dbd5c65ce81d3741c087b935e7397a60ab2a987915de1cad46f4f1a"
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/75594/569973/YKEELEY15212402__33267.1754300232.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/keeley-delay-workstation-pedal-2nd-hand/",
+            "caption": "Keeley Delay Workstation — connection edge",
+            "note": "Angled rear-edge photograph of a second-hand exact-model unit. Five jack sockets and recessed DC input are visible; top labels identify MONO, STEREO, TAP, EXP and IN. Perspective and shallow focus limit far-end label detail. Operating power state is not established.",
+            "visual_checked": true,
+            "sha256": "7e50d2246b56a86531e82170095e7456eef706cbd8ca41d4f18c71f24f1d4fa8"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::Pocket GT"
+    "last_model": "Keeley::Delay Workstation"
   }
 }
