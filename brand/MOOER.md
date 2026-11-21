@@ -268,6 +268,26 @@ Sources checked:
 
 <!-- firmware-pitch:MOOER::GE100 Pro ends -->
 
+<!-- model-images:MOOER::GE100 Pro begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MOOER GE100 Pro powered-on top view**
+
+[![MOOER GE100 Pro powered-on top view](https://deathcloud.com/cdn/shop/files/MOOERGE100ProPedal_a1486cd1-de31-42f1-8e76-4ea7eaf0c8c9.jpg?v=1778228467&width=1946)](https://deathcloud.com/cdn/shop/files/MOOERGE100ProPedal_a1486cd1-de31-42f1-8e76-4ea7eaf0c8c9.jpg?v=1778228467&width=1946)
+
+[Image source](https://deathcloud.com/products/mooer-ge100-pro). Straight overhead white standard GE100 Pro, explicit non-Li branding, full expression pedal, three footswitches and illuminated 06B Tri rect Ambie screen/ambient strip. Retailer gallery serves the exact standard edition; Li images on the same page are separate.
+
+**MOOER GE100 Pro rear ports**
+
+[![MOOER GE100 Pro rear ports](https://deathcloud.com/cdn/shop/files/MOOERGE100ProPedalTop.jpg?v=1778228467&width=1946)](https://deathcloud.com/cdn/shop/files/MOOERGE100ProPedalTop.jpg?v=1778228467&width=1946)
+
+[Image source](https://deathcloud.com/products/mooer-ge100-pro). Angled full rear view, all labels readable: INPUT, OUTPUT L/R, PHONES, USB-C data/audio marked USB, separate USB-C power marked 5V 2A, and ON/OFF slide switch. No DC barrel, analog AUX, XLR, FX loop, external EXP or dedicated physical MIDI shown. USB functions follow manufacturer documentation.
+
+</details>
+<!-- model-images:MOOER::GE100 Pro ends -->
+
+
 <!-- comparison evidence begins -->
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

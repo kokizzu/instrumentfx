@@ -197912,11 +197912,35 @@
             "sha256": "2009ae840b82a66acfdd785b037caa7bfcf500f0db354a1b9a359a1f16695172"
           }
         }
+      },
+      "MOOER::GE100 Pro": {
+        "model_key": "MOOER::GE100 Pro",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://deathcloud.com/cdn/shop/files/MOOERGE100ProPedal_a1486cd1-de31-42f1-8e76-4ea7eaf0c8c9.jpg?v=1778228467&width=1946",
+            "source_url": "https://deathcloud.com/products/mooer-ge100-pro",
+            "caption": "MOOER GE100 Pro powered-on top view",
+            "note": "Straight overhead white standard GE100 Pro, explicit non-Li branding, full expression pedal, three footswitches and illuminated 06B Tri rect Ambie screen/ambient strip. Retailer gallery serves the exact standard edition; Li images on the same page are separate.",
+            "visual_checked": true,
+            "sha256": "919e803ff30776ed27d4bba8710639e6df92fd1cd8dc96a4dfa89166f1b650b6",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://deathcloud.com/cdn/shop/files/MOOERGE100ProPedalTop.jpg?v=1778228467&width=1946",
+            "source_url": "https://deathcloud.com/products/mooer-ge100-pro",
+            "caption": "MOOER GE100 Pro rear ports",
+            "note": "Angled full rear view, all labels readable: INPUT, OUTPUT L/R, PHONES, USB-C data/audio marked USB, separate USB-C power marked 5V 2A, and ON/OFF slide switch. No DC barrel, analog AUX, XLR, FX loop, external EXP or dedicated physical MIDI shown. USB functions follow manufacturer documentation.",
+            "visual_checked": true,
+            "sha256": "1a478495f91c368aa86075fccb41d8c9dae7f76224867f632d416155d0178334"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE150 Max Li"
+    "last_model": "MOOER::GE100 Pro"
   }
 }
