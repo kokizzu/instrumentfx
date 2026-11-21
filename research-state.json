@@ -206775,11 +206775,51 @@
             "note": "Blank front lip,not rear ports."
           }
         ]
+      },
+      "Soran::Tiny Stomp": {
+        "model_key": "Soran::Tiny Stomp",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.soranaudio.com/upload/images/product/20251021/17610241951778186.webp",
+            "source_url": "https://soranaudio.com/products/34.html",
+            "caption": "Tiny Stomp — overhead control-face product image",
+            "note": "Manufacturer overhead product image depicts active P01 Boutique Guitar screen. It appears rendered/composited;independent powered-on hardware photograph remains pending. Two rotary controls and two arrow hand buttons visible,no treadle. Arrow buttons are not promoted to onboard footswitches against the manual.",
+            "visual_checked": true,
+            "sha256": "26bdbb1d9fe84bfa4c0a8ea3fcb5b9acb281e710a8ec0bdd11d9d2ef47de261a",
+            "powered_on": null,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.soranaudio.com/upload/images/product/20251015/17605079934758829.png",
+            "source_url": "https://soranaudio.com/products/34.html",
+            "caption": "Tiny Stomp — rear-port product render",
+            "note": "Manufacturer render shows power slide switch,USB-C,IN,shared OUT/PHONES and EXP/CTRL. Distinguish shared stereo output from separate headphone socket. Port labels do not prove USB host mode or expression attenuation coverage. Rear hardware photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "603cb47d7a4407e6642286940141ee6047bff3d77fbc827c703f18bf58602dbf",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.soranaudio.com/upload/images/product/20251015/17605079952593126.png",
+            "sha256": "37f373ce365df9256301b9fbab0e940cf2257287c00335bf95805d5d92b83501",
+            "visual_checked": true,
+            "note": "Angled design render,not overhead hardware photo."
+          },
+          {
+            "image_url": "https://www.soranaudio.com/upload/images/product/20251015/17605079954495283.png",
+            "sha256": "a3f784e03bfa8362ad5311610667723c5cd94d5b2d82bb2286d5158f8691ea72",
+            "visual_checked": true,
+            "note": "Blank front edge render,not rear ports."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Soran::Go Rig II"
+    "last_model": "Soran::Tiny Stomp"
   }
 }

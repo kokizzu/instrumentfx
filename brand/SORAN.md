@@ -460,6 +460,26 @@ Sources checked:
 
 <!-- firmware-pitch:Soran::Tiny Stomp ends -->
 
+<!-- model-images:Soran::Tiny Stomp begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Tiny Stomp — overhead control-face product image**
+
+[![Tiny Stomp — overhead control-face product image](https://www.soranaudio.com/upload/images/product/20251021/17610241951778186.webp)](https://www.soranaudio.com/upload/images/product/20251021/17610241951778186.webp)
+
+[Image source](https://soranaudio.com/products/34.html). Manufacturer overhead product image depicts active P01 Boutique Guitar screen. It appears rendered/composited;independent powered-on hardware photograph remains pending. Two rotary controls and two arrow hand buttons visible,no treadle. Arrow buttons are not promoted to onboard footswitches against the manual.
+
+**Tiny Stomp — rear-port product render**
+
+[![Tiny Stomp — rear-port product render](https://www.soranaudio.com/upload/images/product/20251015/17605079934758829.png)](https://www.soranaudio.com/upload/images/product/20251015/17605079934758829.png)
+
+[Image source](https://soranaudio.com/products/34.html). Manufacturer render shows power slide switch,USB-C,IN,shared OUT/PHONES and EXP/CTRL. Distinguish shared stereo output from separate headphone socket. Port labels do not prove USB host mode or expression attenuation coverage. Rear hardware photograph remains pending.
+
+</details>
+<!-- model-images:Soran::Tiny Stomp ends -->
+
+
 Desktop guitar/bass multi-effects;checked2026-10-18,partial. Own manufacturer manual read as PDF text;no image audit or downloads. Distinct from Dual Stomp/Lite.
 
 | Field | Finding / qualification |
