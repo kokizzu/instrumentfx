@@ -178514,7 +178514,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_English.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/StagemanFloor_NAP5/NUX_NAP5_UserManual_English.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 3,
     "text_pages": [
@@ -196592,6 +196592,74 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "NUX::Stageman Floor NAP-5": {
+        "model_key": "NUX::Stageman Floor NAP-5",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2018",
+          "precision": "year",
+          "kind": "manufacturer demonstration year proxy",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=_JNT-jivjeI"
+          ],
+          "note": "Official NUX Sound Check indexed October 1, 2018 calls the unit brand new, establishing public existence by 2018. Year precision used because exact first announcement/retail day is unresolved; later regional launches are not global first availability."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://nuxaudio.com/product/stagemanfloor/",
+            "https://www.nux.us/blogs/support/stageman-floor-support-hub",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/StagemanFloor_NAP5/NUX_NAP5_UserManual_English.pdf"
+          ],
+          "note": "Current global and USA exact-model support list manuals without a public firmware binary, version history or updater release. USB updating is documented, which does not establish a currently available update. September 27, 2026 USA hub maintenance date is not a firmware release. Latest device version/date and support span remain unknown; no update performed."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Checked manufacturer library describes chorus, reverb, freeze, preamp/EQ/notch and looper; no dedicated interval transposer, harmony, octave or pitch-bender algorithm documented. Hold Chorus activates Freeze; sustaining audio is not evidence of pitch shifting. Chorus modulation alone is not a general-purpose transposer.",
+          "preset": "Front-panel controls and loop-operation mode; no addressable factory/user patch bank or pitch-preset recall documented. Both footswitches enter Loop mode, with Reverb knob becoming loop level. Do not count recorded loops or knob settings as pitch presets.",
+          "dsp": "No dedicated pitch algorithm or isolated pitch DSP cost documented. Analog preamp plus digital effects/looper does not establish freely allocatable block capacity or a pitch DSP percentage. No sibling-unit DSP figure transferred.",
+          "source_urls": [
+            "https://nuxaudio.com/product/stagemanfloor/",
+            "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/StagemanFloor_NAP5/NUX_NAP5_UserManual_English.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original manufacturer PDF control and loop/I/O spreads now visually checked; earlier source-rendering limitations below remain historical.",
+            "No device/audio test; no pitch documented is an evidence classification, not a claim about every possible internal modulation process."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://nuxaudio.com/product/stagemanfloor/",
+            "title": "NUX Stageman Floor current manufacturer product/support",
+            "access": "Manufacturer page opened 2026-11-22",
+            "evidence": "Acoustic preamp, chorus/reverb/freeze and looper; USB updating. Support provides manuals without a public firmware release/version/date; no dedicated pitch model listed."
+          },
+          {
+            "url": "https://www.nux.us/blogs/support/stageman-floor-support-hub",
+            "title": "NUX USA Stageman Floor support hub",
+            "access": "Official support checked 2026-11-22",
+            "evidence": "NAP-5 manuals only; hub maintenance September 27, 2026 is not a device update date."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/StagemanFloor_NAP5/NUX_NAP5_UserManual_English.pdf",
+            "title": "NUX NAP-5 Stageman Floor original English manual",
+            "access": "Manufacturer PDF retrieved 2026-11-22; PDF spreads 3–4 (zero-based 2–3) visually inspected; SHA256 612b3037c610fbd222c1ee6f7c67eb3692cb0f4c398e99b5859ccbba3eab3446",
+            "evidence": "Chorus/reverb controls, hold-for-freeze, loop mode and loop-level control. No dedicated interval-pitch or patch-memory bank on inspected spreads."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=_JNT-jivjeI",
+            "title": "NUX Stageman Floor Sound Check — manufacturer",
+            "access": "Indexed official NUX channel metadata checked 2026-11-22; video not watched",
+            "evidence": "Published October 1, 2018; brand-new description establishes 2018 public existence, not exact first shipment."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -196630,7 +196698,6 @@
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
-      "NUX::Stageman Floor NAP-5",
       "Roland::GR-55",
       "Roland::VT-4",
       "ROWIN::RE-05 Looper Pro",
@@ -196777,9 +196844,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 222,
-    "last_model": "NUX::Atlantic NDR-5",
-    "last_commit_parent": "fbd0b5a02c53c0075df30747cc154c5a89b54b39",
+    "completed_model_count": 223,
+    "last_model": "NUX::Stageman Floor NAP-5",
+    "last_commit_parent": "e4797c423328cbb79668949c9c3555fac9863eb2",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -196817,7 +196884,6 @@
       "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "NUX::PG-2",
-      "NUX::Stageman Floor NAP-5",
       "Roland::GR-55",
       "Roland::VT-4",
       "ROWIN::RE-05 Looper Pro",
@@ -196963,7 +197029,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 222,
+    "pitch_completed_model_count": 223,
     "supplemental_model_count": 0
   },
   "model_images": {

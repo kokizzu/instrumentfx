@@ -2354,6 +2354,31 @@ Own [NUX legacy page][PG2-P] links [English V1 PDF][PG2-M],one page with no brow
 
 ## Stageman Floor NAP-5
 
+<!-- firmware-pitch:NUX::Stageman Floor NAP-5 begins -->
+### Firmware and pitch audit — NUX Stageman Floor NAP-5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2018 (manufacturer demonstration year proxy). Official NUX Sound Check indexed October 1, 2018 calls the unit brand new, establishing public existence by 2018. Year precision used because exact first announcement/retail day is unresolved; later regional launches are not global first availability. [launch 1](https://www.youtube.com/watch?v=_JNT-jivjeI) |
+| Firmware / latest verification | Not verified — No public firmware located. Current global and USA exact-model support list manuals without a public firmware binary, version history or updater release. USB updating is documented, which does not establish a currently available update. September 27, 2026 USA hub maintenance date is not a firmware release. Latest device version/date and support span remain unknown; no update performed. [firmware 1](https://nuxaudio.com/product/stagemanfloor/) [firmware 2](https://www.nux.us/blogs/support/stageman-floor-support-hub) [firmware 3](https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/StagemanFloor_NAP5/NUX_NAP5_UserManual_English.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Checked manufacturer library describes chorus, reverb, freeze, preamp/EQ/notch and looper; no dedicated interval transposer, harmony, octave or pitch-bender algorithm documented. Hold Chorus activates Freeze; sustaining audio is not evidence of pitch shifting. Chorus modulation alone is not a general-purpose transposer. [pitch 1](https://nuxaudio.com/product/stagemanfloor/) [pitch 2](https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/StagemanFloor_NAP5/NUX_NAP5_UserManual_English.pdf) |
+| Pitch / preset recall | Front-panel controls and loop-operation mode; no addressable factory/user patch bank or pitch-preset recall documented. Both footswitches enter Loop mode, with Reverb knob becoming loop level. Do not count recorded loops or knob settings as pitch presets. |
+| Pitch / DSP resources | No dedicated pitch algorithm or isolated pitch DSP cost documented. Analog preamp plus digital effects/looper does not establish freely allocatable block capacity or a pitch DSP percentage. No sibling-unit DSP figure transferred. |
+| Pitch / qualifications | Original manufacturer PDF control and loop/I/O spreads now visually checked; earlier source-rendering limitations below remain historical. No device/audio test; no pitch documented is an evidence classification, not a claim about every possible internal modulation process. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX Stageman Floor current manufacturer product/support](https://nuxaudio.com/product/stagemanfloor/) — Acoustic preamp, chorus/reverb/freeze and looper; USB updating. Support provides manuals without a public firmware release/version/date; no dedicated pitch model listed. (Manufacturer page opened 2026-11-22).
+- [NUX USA Stageman Floor support hub](https://www.nux.us/blogs/support/stageman-floor-support-hub) — NAP-5 manuals only; hub maintenance September 27, 2026 is not a device update date. (Official support checked 2026-11-22).
+- [NUX NAP-5 Stageman Floor original English manual](https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/StagemanFloor_NAP5/NUX_NAP5_UserManual_English.pdf) — Chorus/reverb controls, hold-for-freeze, loop mode and loop-level control. No dedicated interval-pitch or patch-memory bank on inspected spreads. (Manufacturer PDF retrieved 2026-11-22; PDF spreads 3–4 (zero-based 2–3) visually inspected; SHA256 612b3037c610fbd222c1ee6f7c67eb3692cb0f4c398e99b5859ccbba3eab3446).
+- [NUX Stageman Floor Sound Check — manufacturer](https://www.youtube.com/watch?v=_JNT-jivjeI) — Published October 1, 2018; brand-new description establishes 2018 public existence, not exact first shipment. (Indexed official NUX channel metadata checked 2026-11-22; video not watched).
+
+<!-- firmware-pitch:NUX::Stageman Floor NAP-5 ends -->
+
 <!-- comparison evidence begins -->
 
 Checked2026-10-17;partial. Acoustic guitar multi-effects: analog preamp plus independently controlled chorus/reverb/freeze and looper, not inferred from EQ alone. Bass/vocal capability unestablished. [Manufacturer](https://nuxaudio.com/product/stagemanfloor/).
