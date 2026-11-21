@@ -1121,6 +1121,31 @@ Preserved 2026-11-04 from historical Git blob `1460b41fbfc5652d07b0fbf351de3fb2a
 
 ## GE150 Plus Li
 
+<!-- firmware-pitch:MOOER::GE150 Plus Li begins -->
+### Firmware and pitch audit — MOOER GE150 Plus Li
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer Japan news dates Plus Li regional sales to 2025-10-01, separate from standard Plus September 10. First worldwide Li launch/shipment not verified; regional date not substituted. [launch 1](https://mooer.jp/pages/news) |
+| Firmware / latest verification | Not verified — Unverified. Shared Plus/Plus Li manual documents editor-based firmware updating. Current family notes name Plus 2.1.3 in August 2026 but do not explicitly name Li for that build; exact Li latest payload/version/date remain unverified. Older January notes reuse 2.1.3 before April 2.1.2, with English January 16 versus Chinese January 15. English A2 conversion also conflicts with Chinese native-A2-Lite supplement. These are family leads, not confirmed current Li support; no span calculated. [firmware 1](https://www.mooeraudio.com/Downloads_xq/6.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/4.html) [firmware 3](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Shared manufacturer Plus/Plus Li manual lists Pitch Shift, Detune and Octave in MOD. No explicit polyphonic or monophonic input-note specification located; not classified from the algorithm name alone. [pitch 1](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416) |
+| Pitch / preset recall | 198 editable slots, 66 banks × 3; factory-filled subset unresolved. SAVE stores edits; expression and volume settings are per preset. Held-pedal recall untested. |
+| Pitch / DSP resources | Nine simultaneous modules with one algorithm per module. Pitch Shift occupies MOD, sharing it with modulation choices. No isolated pitch DSP percentage or current-firmware resource-allocation table located. |
+| Pitch / qualifications | Manual explicitly covers Li. No original GE150/Pro slot count, standard Plus firmware compatibility or GS1000 polyphony transferred. No hardware measurements. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [MOOER Japan release news](https://mooer.jp/pages/news) — Plus Li sales 2025-10-01 versus standard Plus 2025-09-10; worldwide first unresolved. (Manufacturer regional dated entries read).
+- [GE150 family English firmware notes](https://www.mooeraudio.com/Downloads_xq/6.html) — Plus 2.1.3 August 2026; Li not explicitly named for latest build; reused historical label. (Manufacturer current download/changelog read).
+- [GE150 family Chinese firmware notes](https://cn.mooeraudio.com/Downloads_xq/4.html) — Matching Plus 2.1.3 lead; older date inconsistency and conversion/native contradiction. (Manufacturer current download/changelog read).
+- [GE150 Plus/Plus Li Owner’s Manual](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416) — Both editions; firmware updater; MOD pitch effects; nine modules; 198 slots and per-preset expression. (Manufacturer-authored joint manual body read on mirror, generated diagram descriptions excluded).
+
+<!-- firmware-pitch:MOOER::GE150 Plus Li ends -->
+
 <!-- comparison evidence begins -->
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
