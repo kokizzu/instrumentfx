@@ -7156,6 +7156,32 @@ The [manufacturer instrument-input answer](https://support.roland.com/hc/en-us/a
 
 ## VE-500
 
+<!-- firmware-pitch:BOSS::VE-500 begins -->
+### Firmware and pitch audit — BOSS VE-500
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2018-08-29 (manufacturer announcement proxy). Manufacturer announcement proxy; exact first retail shipment unverified. [launch 1](https://www.roland.com/us/company/press_releases/2018/BOSS-ANNOUNCES-VE-500-VOCAL-PERFORMER-PEDAL/) |
+| Firmware / latest verification | 1.10 — Latest verified. Latest system program in current model downloads. Changes Auto Off choices to Off/20 minutes/10 hours and default to 20 minutes. Earlier 1.07 (December 2021) fixes patch-extent knob selection and MIC IN loop routing; editor/driver versions are separate. [firmware 1](https://www.boss.info/global/support/by_product/ve-500/updates_drivers/9d6c0325-3ec4-438a-b4b0-13c5e0bd43ca/) |
+| Firmware / release date | 2025-01 (month precision) |
+| Firmware / release-to-update duration | 6.34–6.43 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Three added harmony parts with key/guitar/MIDI guidance, unison, octave, diatonic or user intervals and doubling. Pitch Correct: Soft, Hard, Electric, Robot; chromatic/key scale, SHIFT −12…+12, user intervals and MIDI note targeting. Polyphonic vocal input unverified. [pitch 1](https://static.roland.com/assets/media/pdf/VE-500_parameter_eng01_W.pdf) [pitch 2](https://static.roland.com/assets/media/pdf/VE-500_eng04_W.pdf) [pitch 3](https://www.boss.info/global/products/ve-500/) |
+| Pitch / preset recall | 99 writable user patches U01–U99 plus 50 preset patches P01–P50; edited presets must be written to user memory. |
+| Pitch / DSP resources | Up to nine simultaneous effects; four general FX engines and two reverb/delay units alongside Enhance, Pitch Correct and Harmony/Vocoder. Harmony and Vocoder are alternatives; Pitch Correct available only in HRM mode. No CPU percentage or freely duplicable pitch-block budget published in checked sources. |
+| Pitch / qualifications | Three generated harmony voices and guitar chord detection do not establish polyphonic vocal pitch shifting. Instrument THRU is unprocessed; this is not evidence of a guitar transpose engine. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [BOSS announces VE-500 Vocal Performer](https://www.roland.com/us/company/press_releases/2018/BOSS-ANNOUNCES-VE-500-VOCAL-PERFORMER-PEDAL/) — August 29, 2018 announcement. (Manufacturer press release web text).
+- [VE-500 System Program 1.10](https://www.boss.info/global/support/by_product/ve-500/updates_drivers/9d6c0325-3ec4-438a-b4b0-13c5e0bd43ca/) — January 2025 v1.10 Auto Off change; December 2021 v1.07 patch selection and loop routing fixes. (Manufacturer current release notes web text).
+- [VE-500 Parameter Guide](https://static.roland.com/assets/media/pdf/VE-500_parameter_eng01_W.pdf) — Pages 4–6: writable destinations, correction parameters and HRM1–3 harmony parts; harmony/vocoder selection. (Manufacturer PDF web text).
+- [VE-500 Owner Manual](https://static.roland.com/assets/media/pdf/VE-500_eng04_W.pdf) — Pages 9–12: preset/user memory, correction limited to HRM and four FX units; first page specifies two independent reverb/delay units. (Manufacturer PDF web text).
+- [BOSS VE-500 product](https://www.boss.info/global/products/ve-500/) — Up to nine effects, 99 user memories, guitar/MIDI guidance and unprocessed instrument THRU. (Manufacturer current product web text).
+
+<!-- firmware-pitch:BOSS::VE-500 ends -->
+
 Vocal multi-effects with guitar/MIDI-guided harmony and vocoder. Consolidated/researched2026-10-16;partial verification.
 
 ### VE-500 — preserved original comparison

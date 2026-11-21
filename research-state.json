@@ -184670,10 +184670,85 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::VE-500": {
+        "model_key": "BOSS::VE-500",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2018-08-29",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2018/BOSS-ANNOUNCES-VE-500-VOCAL-PERFORMER-PEDAL/"
+          ],
+          "note": "Manufacturer announcement proxy; exact first retail shipment unverified."
+        },
+        "firmware": {
+          "version": "1.10",
+          "date": "2025-01",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/ve-500/updates_drivers/9d6c0325-3ec4-438a-b4b0-13c5e0bd43ca/"
+          ],
+          "note": "Latest system program in current model downloads. Changes Auto Off choices to Off/20 minutes/10 hours and default to 20 minutes. Earlier 1.07 (December 2021) fixes patch-extent knob selection and MIC IN loop routing; editor/driver versions are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Three added harmony parts with key/guitar/MIDI guidance, unison, octave, diatonic or user intervals and doubling. Pitch Correct: Soft, Hard, Electric, Robot; chromatic/key scale, SHIFT −12…+12, user intervals and MIDI note targeting. Polyphonic vocal input unverified.",
+          "preset": "99 writable user patches U01–U99 plus 50 preset patches P01–P50; edited presets must be written to user memory.",
+          "dsp": "Up to nine simultaneous effects; four general FX engines and two reverb/delay units alongside Enhance, Pitch Correct and Harmony/Vocoder. Harmony and Vocoder are alternatives; Pitch Correct available only in HRM mode. No CPU percentage or freely duplicable pitch-block budget published in checked sources.",
+          "measurements": [],
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/VE-500_parameter_eng01_W.pdf",
+            "https://static.roland.com/assets/media/pdf/VE-500_eng04_W.pdf",
+            "https://www.boss.info/global/products/ve-500/"
+          ],
+          "notes": [
+            "Three generated harmony voices and guitar chord detection do not establish polyphonic vocal pitch shifting. Instrument THRU is unprocessed; this is not evidence of a guitar transpose engine."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2018/BOSS-ANNOUNCES-VE-500-VOCAL-PERFORMER-PEDAL/",
+            "title": "BOSS announces VE-500 Vocal Performer",
+            "access": "Manufacturer press release web text",
+            "evidence": "August 29, 2018 announcement."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/ve-500/updates_drivers/9d6c0325-3ec4-438a-b4b0-13c5e0bd43ca/",
+            "title": "VE-500 System Program 1.10",
+            "access": "Manufacturer current release notes web text",
+            "evidence": "January 2025 v1.10 Auto Off change; December 2021 v1.07 patch selection and loop routing fixes."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/VE-500_parameter_eng01_W.pdf",
+            "title": "VE-500 Parameter Guide",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Pages 4–6: writable destinations, correction parameters and HRM1–3 harmony parts; harmony/vocoder selection."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/VE-500_eng04_W.pdf",
+            "title": "VE-500 Owner Manual",
+            "access": "Manufacturer PDF web text",
+            "evidence": "Pages 9–12: preset/user memory, correction limited to HRM and four FX units; first page specifies two independent reverb/delay units."
+          },
+          {
+            "url": "https://www.boss.info/global/products/ve-500/",
+            "title": "BOSS VE-500 product",
+            "access": "Manufacturer current product web text",
+            "evidence": "Up to nine effects, 99 user memories, guitar/MIDI guidance and unprocessed instrument THRU."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2317,
+          "maximum_days": 2347,
+          "label": "6.34–6.43 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::VE-500",
       "BOSS::VE-8",
       "CUVAVE::H8",
       "Darkglass::Anagram",
@@ -185007,12 +185082,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 70,
-    "last_model": "BOSS::VE-5",
-    "last_commit_parent": "a04679402a399038ad008dba44606da961c5274d",
+    "completed_model_count": 71,
+    "last_model": "BOSS::VE-500",
+    "last_commit_parent": "43e713e2a6ccc03bd5d98ad577d608c7793e9303",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::VE-500",
       "BOSS::VE-8",
       "CUVAVE::H8",
       "Darkglass::Anagram",
@@ -185345,7 +185419,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 70,
+    "pitch_completed_model_count": 71,
     "supplemental_model_count": 0
   }
 }
