@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.roland.com/assets/media/pdf/GT-10B_OM.pdf",
+    "requested_url": "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 110,
+    "frame": 70,
     "text_pages": [
-      123,
-      123
+      45,
+      45
     ],
     "index_url": "https://cn.mooeraudio.com/product/84.html",
     "index_needle": ".pdf",
@@ -182501,10 +182501,83 @@
           "label": "4.44–4.52 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::GT-3": {
+        "model_key": "BOSS::GT-3",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "1999",
+          "precision": "year",
+          "kind": "manufacturer_release_year",
+          "source_urls": [
+            "https://www.roland.com/jp/support/service_repair/1708080000/",
+            "https://articles.boss.info/boss-slicer-instant-idea-generator/"
+          ],
+          "note": "Manufacturer Japanese service table gives1999 as release year and2001 as manufacturing end. BOSS Slicer history independently identifies GT-3 in1999; no exact worldwide launch day established."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/gt-3/",
+            "https://www.boss.info/global/support/by_product/gt-3/updates_drivers/"
+          ],
+          "note": "Exact-model support page exposes owner manual, user patch listing and TurboStart, but no system program located. Updates & Drivers navigation redirects to the general support index; direct exact-model endpoint was inaccessible. Latest device ROM/version/date remain unverified; patch lists and manufacturing-end year are not firmware releases."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Combined HR/Harmonist MOD effect: Fast/Medium/Slow explicitly accept chords for fixed pitch shifting ±24 semitones. Mono and key-following Harmony require single notes. Slower modes reduce modulation at the expense of response speed. Chord-capable fixed shifting is not chordal scale harmony.",
+          "preset": "140 user plus200 preset patches (340 total). MOD/HR parameters are saved within user patches using Write. Per-effect Quick Settings are reusable settings, not extra processing blocks.",
+          "dsp": "Harmonist consumes the shared MOD selector, competing with its other11 alternatives such as flanger, phaser and Guitar Synth. Its one/two generated voices are internal to that selection. No per-algorithm CPU percentage or numerical DSP budget documented.",
+          "source_urls": [
+            "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer scanned manual printed pp46–47 visually inspected; this positive chord-input statement is exact-model evidence, not inferred from newer GT products.",
+            "No hardware latency, sound-quality or installed firmware measurement.",
+            "PDF SHA2569e3618750bc0cea1aec3c4c286791506b568b256fa768ea02aad9923dbbc44b8; one rolling local cache retained."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/jp/support/service_repair/1708080000/",
+            "title": "Roland Japanese release/manufacturing-year table",
+            "access": "opened",
+            "evidence": "GT-3 release1999; manufacturing completion2001. These columns are separate from firmware dates."
+          },
+          {
+            "url": "https://articles.boss.info/boss-slicer-instant-idea-generator/",
+            "title": "BOSS Slicer manufacturer history",
+            "access": "opened",
+            "evidence": "Names GT-3 introduction context in1999."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-3/",
+            "title": "BOSS GT-3 current exact-model support",
+            "access": "opened",
+            "evidence": "Manual, user patch list and TurboStart; no public system program located."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/gt-3/updates_drivers/",
+            "title": "BOSS GT-3 Updates & Drivers endpoint",
+            "access": "direct_open_inaccessible; linked_navigation_redirects_to_general_index",
+            "evidence": "No exact-model firmware history established from this route."
+          },
+          {
+            "url": "https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf",
+            "title": "BOSS GT-3 original owner manual",
+            "access": "downloaded_pdf; printed pp46–47,71 visually inspected",
+            "evidence": "Chord-capable Fast/Medium/Slow; single-note Mono/Harmony; shared MOD choices;140user+200preset patches.4583263bytes, SHA2569e3618750bc0cea1aec3c4c286791506b568b256fa768ea02aad9923dbbc44b8."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::GT-3",
       "BOSS::GT-5",
       "BOSS::GT-6",
       "BOSS::GT-8",
@@ -182868,12 +182941,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 40,
-    "last_model": "BOSS::GT-1B",
-    "last_commit_parent": "7caba2fa49cc023e729853aa265a76d3c522973e",
+    "completed_model_count": 41,
+    "last_model": "BOSS::GT-3",
+    "last_commit_parent": "fcb416e96ad271523b13aea2e490d78bc1f31ea5",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::GT-3",
       "BOSS::GT-5",
       "BOSS::GT-6",
       "BOSS::GT-8",
@@ -183236,7 +183308,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 40,
+    "pitch_completed_model_count": 41,
     "supplemental_model_count": 0
   }
 }

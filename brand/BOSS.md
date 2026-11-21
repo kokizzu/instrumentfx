@@ -1531,6 +1531,32 @@ Bass-only membership and ownership status are unchanged. No preset, firmware or 
 
 ## GT-3
 
+<!-- firmware-pitch:BOSS::GT-3 begins -->
+### Firmware and pitch audit — BOSS GT-3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1999 (manufacturer release year). Manufacturer Japanese service table gives1999 as release year and2001 as manufacturing end. BOSS Slicer history independently identifies GT-3 in1999; no exact worldwide launch day established. [launch 1](https://www.roland.com/jp/support/service_repair/1708080000/) [launch 2](https://articles.boss.info/boss-slicer-instant-idea-generator/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model support page exposes owner manual, user patch listing and TurboStart, but no system program located. Updates & Drivers navigation redirects to the general support index; direct exact-model endpoint was inaccessible. Latest device ROM/version/date remain unverified; patch lists and manufacturing-end year are not firmware releases. [firmware 1](https://www.boss.info/global/support/by_product/gt-3/) [firmware 2](https://www.boss.info/global/support/by_product/gt-3/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Combined HR/Harmonist MOD effect: Fast/Medium/Slow explicitly accept chords for fixed pitch shifting ±24 semitones. Mono and key-following Harmony require single notes. Slower modes reduce modulation at the expense of response speed. Chord-capable fixed shifting is not chordal scale harmony. [pitch 1](https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf) |
+| Pitch / preset recall | 140 user plus200 preset patches (340 total). MOD/HR parameters are saved within user patches using Write. Per-effect Quick Settings are reusable settings, not extra processing blocks. |
+| Pitch / DSP resources | Harmonist consumes the shared MOD selector, competing with its other11 alternatives such as flanger, phaser and Guitar Synth. Its one/two generated voices are internal to that selection. No per-algorithm CPU percentage or numerical DSP budget documented. |
+| Pitch / qualifications | Manufacturer scanned manual printed pp46–47 visually inspected; this positive chord-input statement is exact-model evidence, not inferred from newer GT products. No hardware latency, sound-quality or installed firmware measurement. PDF SHA2569e3618750bc0cea1aec3c4c286791506b568b256fa768ea02aad9923dbbc44b8; one rolling local cache retained. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland Japanese release/manufacturing-year table](https://www.roland.com/jp/support/service_repair/1708080000/) — GT-3 release1999; manufacturing completion2001. These columns are separate from firmware dates. (opened).
+- [BOSS Slicer manufacturer history](https://articles.boss.info/boss-slicer-instant-idea-generator/) — Names GT-3 introduction context in1999. (opened).
+- [BOSS GT-3 current exact-model support](https://www.boss.info/global/support/by_product/gt-3/) — Manual, user patch list and TurboStart; no public system program located. (opened).
+- [BOSS GT-3 Updates & Drivers endpoint](https://www.boss.info/global/support/by_product/gt-3/updates_drivers/) — No exact-model firmware history established from this route. (direct_open_inaccessible; linked_navigation_redirects_to_general_index).
+- [BOSS GT-3 original owner manual](https://cdn.roland.com/assets/media/pdf/GT-3_OM.pdf) — Chord-capable Fast/Medium/Slow; single-note Mono/Harmony; shared MOD choices;140user+200preset patches.4583263bytes, SHA2569e3618750bc0cea1aec3c4c286791506b568b256fa768ea02aad9923dbbc44b8. (downloaded_pdf; printed pp46–47,71 visually inspected).
+
+<!-- firmware-pitch:BOSS::GT-3 ends -->
+
 Checked 2026-10-17; partial. Guitar/acoustic-electric multi-effects; bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->
