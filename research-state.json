@@ -178514,7 +178514,7 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+    "requested_url": "https://cdn.inmusicbrands.com/HeadRush/gigboard/v2_1_2-0520/Gigboard-User-Guide-v2_1_2.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0,
     "text_pages": [
@@ -188382,6 +188382,90 @@
           "label": "3.53–3.61 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "HeadRush::Gigboard": {
+        "model_key": "HeadRush::Gigboard",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2018-10-01",
+          "precision": "day",
+          "kind": "manufacturer_announcement",
+          "source_urls": [
+            "https://musicplayers.com/2018/10/lightning-strikes-twice-headrush-introduces-gigboard-a-compact-and-road-ready-guitar-fx-processor/"
+          ],
+          "note": "Manufacturer release datelined October 1, 2018 announces immediate availability; regional delivery dates may differ. Earlier leaks are not used as release dates."
+        },
+        "firmware": {
+          "version": "2.7.0",
+          "date": "2024-08-08",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.headrushfx.com/downloads.html",
+            "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Gigboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Gigboard%20Firmware%20Update%20v2.7.pdf",
+            "https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-"
+          ],
+          "note": "Current exact-model index lists 2.7.0; PDF calls latest 2.7 and dates it August 2024. Manufacturer announcement supplies August 8 launch day. Adds Glorious Drive, White Bass Wah and Ten Freq EQ, plus fixes and DSP optimizations. Guide version 2.1.2 is separate. No hardware updated."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Exact-model catalogue labels Chord Wham polyphonic. Also lists Wham, Harm, Smart Harm, Drop Tune, Octaves, Octaves Up and Detune, plus Pitch Delay/Shimmer. Chord Wham documentation does not establish polyphonic tracking for all algorithms.",
+          "preset": "Rigs save models and settings, with model presets and scene/footswitch assignments. Four physical switches and 11 processing slots are separate from stored-preset capacity; total user-rig ceiling remains unverified.",
+          "dsp": "No isolated pitch DSP percentage or measured cost found in checked manufacturer documentation. Guide specifies 11 rig slots with dual amp/cab exceptions. Slot count and quad-core marketing do not quantify pitch cost; Core/Prime 14-slot CPU-meter claims are not assigned to Gigboard.",
+          "source_urls": [
+            "https://www.headrushfx.com/products/gigboard/index.html",
+            "https://cdn.inmusicbrands.com/HeadRush/gigboard/v2_1_2-0520/Gigboard-User-Guide-v2_1_2.pdf",
+            "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Gigboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Gigboard%20Firmware%20Update%20v2.7.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Version 2.5 history improves lower-pitch tracking of Wham, Harm and Shimmer. No measured latency or chord-tracking test. Product effect list mixes revisions: earlier documented omissions remain preserved rather than assuming the website is a complete 2.7 inventory."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://musicplayers.com/2018/10/lightning-strikes-twice-headrush-introduces-gigboard-a-compact-and-road-ready-guitar-fx-processor/",
+            "title": "HeadRush Gigboard launch press release",
+            "access": "Manufacturer release republished by MusicPlayers",
+            "evidence": "October 1, 2018 dateline and immediate availability."
+          },
+          {
+            "url": "https://www.headrushfx.com/downloads.html",
+            "title": "HeadRush current downloads",
+            "access": "Current manufacturer index read",
+            "evidence": "Exact Gigboard 2.7.0 updaters and release notes, separate 2.1.2 guide and audio driver."
+          },
+          {
+            "url": "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Gigboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Gigboard%20Firmware%20Update%20v2.7.pdf",
+            "title": "HeadRush Gigboard firmware 2.7 notes",
+            "access": "Exact-model six-page maker PDF read",
+            "evidence": "Latest 2.7, August 2024; current additions, DSP optimization and earlier 2.5 tracking improvements."
+          },
+          {
+            "url": "https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-",
+            "title": "HeadRush firmware 2.7 launch announcement",
+            "access": "Manufacturer support article read",
+            "evidence": "Names Gigboard, MX5 and Pedalboard and August 8, 2024 launch date."
+          },
+          {
+            "url": "https://www.headrushfx.com/products/gigboard/index.html",
+            "title": "HeadRush Gigboard own model catalogue",
+            "access": "Exact-model manufacturer page read",
+            "evidence": "Chord Wham explicitly polyphonic and other named pitch effects."
+          },
+          {
+            "url": "https://cdn.inmusicbrands.com/HeadRush/gigboard/v2_1_2-0520/Gigboard-User-Guide-v2_1_2.pdf",
+            "title": "HeadRush Gigboard guide 2.1.2",
+            "access": "Original 38-page PDF retrieved; SHA256 b57d2ddc3c382273e77558c5ac50b570a0b18bf6d701bb8df6c34773e84f8e56; printed pages 13–14 read",
+            "evidence": "Eleven rig slots, dual amp/cab exceptions, four footswitch modes and rig/preset definition."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2138,
+          "maximum_days": 2138,
+          "label": "5.85 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -188395,7 +188479,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "HeadRush::Gigboard",
       "HeadRush::Pedalboard",
       "HeadRush::VX5",
       "IK Multimedia::TONEX ONE",
@@ -188669,9 +188752,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 120,
-    "last_model": "HeadRush::Prime",
-    "last_commit_parent": "e3b9b23f8680bcb1ebb688bfe0da6d867de7dc83",
+    "completed_model_count": 121,
+    "last_model": "HeadRush::Gigboard",
+    "last_commit_parent": "e6825ba594df505e4a7710b48ccb1596ab1b0166",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -188684,7 +188767,6 @@
       "GFI System::Solis Ventus",
       "GFI System::Synesthesia",
       "Harley Benton::DNAfx GiT Core",
-      "HeadRush::Gigboard",
       "HeadRush::Pedalboard",
       "HeadRush::VX5",
       "IK Multimedia::TONEX ONE",
@@ -188957,7 +189039,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 120,
+    "pitch_completed_model_count": 121,
     "supplemental_model_count": 0
   },
   "model_images": {

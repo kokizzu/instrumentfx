@@ -358,6 +358,33 @@ Original model sources: [Source 1](https://www.headrushfx.com/products/flex-prim
 
 ## Gigboard
 
+<!-- firmware-pitch:HeadRush::Gigboard begins -->
+### Firmware and pitch audit — HeadRush Gigboard
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2018-10-01 (manufacturer announcement). Manufacturer release datelined October 1, 2018 announces immediate availability; regional delivery dates may differ. Earlier leaks are not used as release dates. [launch 1](https://musicplayers.com/2018/10/lightning-strikes-twice-headrush-introduces-gigboard-a-compact-and-road-ready-guitar-fx-processor/) |
+| Firmware / latest verification | 2.7.0 — Latest verified. Current exact-model index lists 2.7.0; PDF calls latest 2.7 and dates it August 2024. Manufacturer announcement supplies August 8 launch day. Adds Glorious Drive, White Bass Wah and Ten Freq EQ, plus fixes and DSP optimizations. Guide version 2.1.2 is separate. No hardware updated. [firmware 1](https://www.headrushfx.com/downloads.html) [firmware 2](https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Gigboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Gigboard%20Firmware%20Update%20v2.7.pdf) [firmware 3](https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-) |
+| Firmware / release date | 2024-08-08 (day precision) |
+| Firmware / release-to-update duration | 5.85 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Exact-model catalogue labels Chord Wham polyphonic. Also lists Wham, Harm, Smart Harm, Drop Tune, Octaves, Octaves Up and Detune, plus Pitch Delay/Shimmer. Chord Wham documentation does not establish polyphonic tracking for all algorithms. [pitch 1](https://www.headrushfx.com/products/gigboard/index.html) [pitch 2](https://cdn.inmusicbrands.com/HeadRush/gigboard/v2_1_2-0520/Gigboard-User-Guide-v2_1_2.pdf) [pitch 3](https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Gigboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Gigboard%20Firmware%20Update%20v2.7.pdf) |
+| Pitch / preset recall | Rigs save models and settings, with model presets and scene/footswitch assignments. Four physical switches and 11 processing slots are separate from stored-preset capacity; total user-rig ceiling remains unverified. |
+| Pitch / DSP resources | No isolated pitch DSP percentage or measured cost found in checked manufacturer documentation. Guide specifies 11 rig slots with dual amp/cab exceptions. Slot count and quad-core marketing do not quantify pitch cost; Core/Prime 14-slot CPU-meter claims are not assigned to Gigboard. |
+| Pitch / qualifications | Version 2.5 history improves lower-pitch tracking of Wham, Harm and Shimmer. No measured latency or chord-tracking test. Product effect list mixes revisions: earlier documented omissions remain preserved rather than assuming the website is a complete 2.7 inventory. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [HeadRush Gigboard launch press release](https://musicplayers.com/2018/10/lightning-strikes-twice-headrush-introduces-gigboard-a-compact-and-road-ready-guitar-fx-processor/) — October 1, 2018 dateline and immediate availability. (Manufacturer release republished by MusicPlayers).
+- [HeadRush current downloads](https://www.headrushfx.com/downloads.html) — Exact Gigboard 2.7.0 updaters and release notes, separate 2.1.2 guide and audio driver. (Current manufacturer index read).
+- [HeadRush Gigboard firmware 2.7 notes](https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Gigboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Gigboard%20Firmware%20Update%20v2.7.pdf) — Latest 2.7, August 2024; current additions, DSP optimization and earlier 2.5 tracking improvements. (Exact-model six-page maker PDF read).
+- [HeadRush firmware 2.7 launch announcement](https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-) — Names Gigboard, MX5 and Pedalboard and August 8, 2024 launch date. (Manufacturer support article read).
+- [HeadRush Gigboard own model catalogue](https://www.headrushfx.com/products/gigboard/index.html) — Chord Wham explicitly polyphonic and other named pitch effects. (Exact-model manufacturer page read).
+- [HeadRush Gigboard guide 2.1.2](https://cdn.inmusicbrands.com/HeadRush/gigboard/v2_1_2-0520/Gigboard-User-Guide-v2_1_2.pdf) — Eleven rig slots, dual amp/cab exceptions, four footswitch modes and rig/preset definition. (Original 38-page PDF retrieved; SHA256 b57d2ddc3c382273e77558c5ac50b570a0b18bf6d701bb8df6c34773e84f8e56; printed pages 13–14 read).
+
+<!-- firmware-pitch:HeadRush::Gigboard ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Distinct guitar/bass multi-effects model; partial verification. [Product][GB-P] explicitly includes bass instruments. No software or dependencies downloaded.
 
