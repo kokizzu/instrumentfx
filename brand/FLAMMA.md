@@ -1136,6 +1136,33 @@ Store-template FAQs mention an unrelated CapturePro camera,Wi-Fi and photo batte
 
 ## FX150b
 
+<!-- firmware-pitch:Flamma::FX150b begins -->
+### Firmware and pitch audit — Flamma FX150b
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023 (manufacturer product year). Maker labels FX150/FX150b as 2023 NEW. Year only; exact first-sale day and region are not established. [launch 1](https://www.flamma.shop/products/flamma-fx150-guitar-multi-effects-pedal) |
+| Firmware / latest verification | Not verified — Unverified. Shared maker software offers FX150 editor V1.1.1 and an undated family V1.1.0 update note (PRE/POST volume pedal and EQ Level). No separate FX150b firmware revision, compatibility matrix or dated release was verified. Shared owner documentation covers the battery model, but does not authenticate a particular installed build; do not silently assign the standard model’s version to FX150b. [firmware 1](https://flammainnovation.com/file/pdf?fileName=FX150_Read%20Me.txt&url=group1%2FM00%2F00%2F0D%2FwKgA0GYLoW2ANn-NAAACHm6-ewI264.txt) [firmware 2](https://flammainnovation.com/goods/support?goodsName=FX150) [firmware 3](https://flammainnovation.com/download.html) [firmware 4](https://flammainnovation.com/file/pdf?fileName=FX150_Manual_EN_V01_2023.06.21.pdf&url=group1%2FM00%2F00%2F08%2FwKgA0GSaSJiAMn4VAGArhRJTpAw069.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. The jointly titled FX150/FX150b manual lists MOD19 PITCH MONO and MOD20 PITCH POLY, plus MOD12 DETUNE and MOD8 PITCH VIBRATO. Polyphonic pitch shifting is documented for the shared processing platform; interval limits, note ceiling and measured chord tracking remain unverified. [pitch 1](https://flammainnovation.com/file/pdf?fileName=FX150_Manual_EN_V01_2023.06.21.pdf&url=group1%2FM00%2F00%2F08%2FwKgA0GSaSJiAMn4VAGArhRJTpAw069.pdf) [pitch 2](https://www.flamma.shop/products/flamma-fx150-guitar-multi-effects-pedal) [pitch 3](https://www.flamma.shop/products/flamma-fx150b-nebula-green-multi-effects-processor) |
+| Pitch / preset recall | 180 editable patches (60 banks × 3); module selection, parameters and expression assignments can be stored in a patch. This is total writable storage, not 180 additional protected factory presets. |
+| Pitch / DSP resources | Shared ten-module chain includes FX LOOP; pitch choices share MOD. Battery-model display illustrations show current DSP usage, including an example50% whole-preset reading. No per-algorithm DSP percentage or battery-versus-adapter pitch-cost measurement verified. |
+| Pitch / qualifications | Manual explicitly identifies FX150b as the integrated-battery version and covers both models; this is shared primary documentation, not an inference from similar hardware. Standard model9V1A and battery model9V3A remain separate. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [FX150/FX150b manufacturer English manual V01](https://flammainnovation.com/file/pdf?fileName=FX150_Manual_EN_V01_2023.06.21.pdf&url=group1%2FM00%2F00%2F08%2FwKgA0GSaSJiAMn4VAGArhRJTpAw069.pdf) — Joint FX150/FX150b cover and battery-version section; shared pitch appendix and preset architecture. Version-specific installed firmware and per-pitch DSP cost not established. (Direct 76-page maker PDF; SHA256 1896b86fc51a16a65e0160b61d615dde8b75c7b24e033e4924cf9267052e52f3; printed66 visually checked and indexed DSP/preset/update text read).
+- [FLAMMA FX150/FX150b own product page](https://www.flamma.shop/products/flamma-fx150-guitar-multi-effects-pedal) — 2023 NEW product-year label, 180 editable slots and ten-module chain; battery variant is distinct. (Direct current manufacturer page; unrelated CapturePro camera FAQ excluded).
+- [FLAMMA FX150 public support record](https://flammainnovation.com/goods/support?goodsName=FX150) — Manual, V1.1.1 and V1.1.0 desktop installers and Read Me linked. (Bounded inert maker JSON; SHA256 ed45abfb14178918a13ecbac2e811781302ba48e829551a1eeb8d46f47b9441b).
+- [FX150 manufacturer Read Me update history](https://flammainnovation.com/file/pdf?fileName=FX150_Read%20Me.txt&url=group1%2FM00%2F00%2F0D%2FwKgA0GYLoW2ANn-NAAACHm6-ewI264.txt) — Undated V1.1.0 update: volume-pedal PRE/POST and EQ Level, factory-reset/backup precautions; no V1.1.1 history. (Complete 542-byte inert text; SHA256 ca0090934551c209436b68c44cf4ea33b7224f95a11f40f5d5e2f477cfb16ced).
+- [FLAMMA current download catalogue](https://flammainnovation.com/download.html) — V1.1.1 installer packages and older V1.1.0 packages; does not independently date device firmware. (Current indexed maker catalogue).
+- [FLAMMA exact FX150b Nebula Green product](https://www.flamma.shop/products/flamma-fx150b-nebula-green-multi-effects-processor) — Exact battery-model identity and own photo gallery, distinct from standard gray/blue FX150. (Direct manufacturer product page).
+
+<!-- firmware-pitch:Flamma::FX150b ends -->
+
 Battery-equipped guitar multi-effects, distinct from standard FX150. Current comparison consolidated 2026-10-18 from the retained evidence below; partial. Ownership and bass/vocal suitability remain unverified.
 
 <!-- comparison evidence begins -->
