@@ -180102,10 +180102,63 @@
           "label": "6.18 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Alesis::MicroVerb 4": {
+        "model_key": "Alesis::MicroVerb 4",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "unverified",
+          "source_urls": [
+            "https://www.alesis.com/products/view/microverb4.html"
+          ],
+          "note": "Exact first release date not established by checked manufacturer product/manual. Contemporary 1996 review leads do not establish an exact first launch; no copyright or crawl date substituted."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.alesis.com/products/view/microverb4.html",
+            "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf"
+          ],
+          "note": "Official discontinued-product downloads expose Reference Manual and Program Chart, not a firmware image/history. Manual pp32/39 describes reading installed software version at power-up; its 1.00 example is not certified latest. Field updatability and service-ROM revisions remain unresolved."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Stereo Pitch Shifter: Semi adjusts +/-1 octave in half-step increments; Fine +/-1 half-step. Stereo Pitch Detuner adjusts left/right by +/-1 half-step in 1-cent steps. Stereo output does not establish polyphonic input-note handling; explicit chord/polyphony claim not located.",
+          "preset": "Yes: editable programs stored in 100 user locations. Factory00-99 stores to corresponding100-199; editing a user slot overwrites that slot. Unsaved edits lost at power-off. No modern editor or firmware update implied by MIDI program backup.",
+          "dsp": "Official product specifies up to three simultaneous effects in fixed configurations; no pitch-specific CPU percentage published in checked sources. The three-effect ceiling is not three freely assignable copies of Stereo Pitch Shifter and not a resource percentage.",
+          "source_urls": [
+            "https://www.alesis.com/products/view/microverb4.html",
+            "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Pitch programs60-69/160-169 and fixed multi-effect configurations are distinct; stereo, detuning and parallel harmonies do not prove whole-chord transposition."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.alesis.com/products/view/microverb4.html",
+            "title": "Alesis MicroVerb 4 official discontinued product",
+            "access": "opened",
+            "evidence": "Up to three simultaneous effects, +/-1 octave pitch range, 100 user programs; downloads list manual/chart without firmware package."
+          },
+          {
+            "url": "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf",
+            "title": "MicroVerb 4 official Reference Manual",
+            "access": "opened_official_pdf_text",
+            "evidence": "P27 Stereo Pitch Shifter/Detuner ranges; p11 STORE destinations; pp32/39 installed-version display and unsaved-edit limits. No latest firmware history established."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
       "Alesis::MIDIverb III",
       "Alesis::NanoVerb",
@@ -180502,12 +180555,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 7,
-    "last_model": "BOSS::GT-1000CORE",
-    "last_commit_parent": "0c0d99985138d772b3b382b8df77a4f04eedb781",
+    "completed_model_count": 8,
+    "last_model": "Alesis::MicroVerb 4",
+    "last_commit_parent": "120e6a32385847f1a19da61a406d3bbc046bf08f",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Alesis::MicroVerb 4",
       "Alesis::MIDIverb 4",
       "Alesis::MIDIverb III",
       "Alesis::NanoVerb",
@@ -180903,7 +180955,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 7,
+    "pitch_completed_model_count": 8,
     "supplemental_model_count": 0
   }
 }

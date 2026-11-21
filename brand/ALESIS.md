@@ -13,6 +13,29 @@ Partial manufacturer-backed records. Unknown is not No.
 
 ## MicroVerb 4
 
+<!-- firmware-pitch:Alesis::MicroVerb 4 begins -->
+### Firmware and pitch audit — Alesis MicroVerb 4
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Exact first release date not established by checked manufacturer product/manual. Contemporary 1996 review leads do not establish an exact first launch; no copyright or crawl date substituted. [launch 1](https://www.alesis.com/products/view/microverb4.html) |
+| Firmware / latest verification | Not verified — No public firmware located. Official discontinued-product downloads expose Reference Manual and Program Chart, not a firmware image/history. Manual pp32/39 describes reading installed software version at power-up; its 1.00 example is not certified latest. Field updatability and service-ROM revisions remain unresolved. [firmware 1](https://www.alesis.com/products/view/microverb4.html) [firmware 2](https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Stereo Pitch Shifter: Semi adjusts +/-1 octave in half-step increments; Fine +/-1 half-step. Stereo Pitch Detuner adjusts left/right by +/-1 half-step in 1-cent steps. Stereo output does not establish polyphonic input-note handling; explicit chord/polyphony claim not located. [pitch 1](https://www.alesis.com/products/view/microverb4.html) [pitch 2](https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf) |
+| Pitch / preset recall | Yes: editable programs stored in 100 user locations. Factory00-99 stores to corresponding100-199; editing a user slot overwrites that slot. Unsaved edits lost at power-off. No modern editor or firmware update implied by MIDI program backup. |
+| Pitch / DSP resources | Official product specifies up to three simultaneous effects in fixed configurations; no pitch-specific CPU percentage published in checked sources. The three-effect ceiling is not three freely assignable copies of Stereo Pitch Shifter and not a resource percentage. |
+| Pitch / qualifications | Pitch programs60-69/160-169 and fixed multi-effect configurations are distinct; stereo, detuning and parallel harmonies do not prove whole-chord transposition. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Alesis MicroVerb 4 official discontinued product](https://www.alesis.com/products/view/microverb4.html) — Up to three simultaneous effects, +/-1 octave pitch range, 100 user programs; downloads list manual/chart without firmware package. (opened).
+- [MicroVerb 4 official Reference Manual](https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf) — P27 Stereo Pitch Shifter/Detuner ranges; p11 STORE destinations; pp32/39 installed-version display and unsaved-edit limits. No latest firmware history established. (opened_official_pdf_text).
+
+<!-- firmware-pitch:Alesis::MicroVerb 4 ends -->
+
 <!-- comparison evidence begins -->
 Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P]. Original chart explicitly includes vocal andguitar programs [MV-C]. Offered-unit authenticity is not certified.
 
