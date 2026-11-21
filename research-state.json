@@ -181616,10 +181616,68 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "BOSS::AD-10": {
+        "model_key": "BOSS::AD-10",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2017-08-29",
+          "precision": "day",
+          "kind": "manufacturer_announcement_proxy",
+          "source_urls": [
+            "https://www.roland.com/us/company/press_releases/2017/BOSS-ANNOUNCES-AD-10-ACOUSTIC-PREAMP/"
+          ],
+          "note": "Dated manufacturer announcement of AD-10; announcement proxy, not a region-specific first shipment date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.boss.info/global/support/by_product/ad-10/updates_drivers/"
+          ],
+          "note": "Current checked Updates & Drivers index lists only computer audio drivers, not a device System Program. Driver 1.0.2 for Windows and 1.0.5 for newer macOS are not AD-10 firmware versions. No device update date established; this does not prove updates never existed."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No dedicated transposer, harmonizer, octaver or pedal pitch-shift block documented in the checked effect list. Chorus adds subtle detuning (Normal/Mild/Bright); delay offers standard/modulation/reverse. Neither establishes a polyphonic capo.",
+          "preset": "10 editable memories plus Manual mode. Hold EXIT and press MEMORY, press MEMORY, select destination, then MEMORY to save. Per-effect recall/manual selection is documented.",
+          "dsp": "No per-effect CPU percentage or DSP meter documented. Dedicated pitch resource cost is not applicable to the checked effect inventory; this is not a 0% measurement or a general resource limit.",
+          "source_urls": [
+            "https://static.roland.com/assets/media/pdf/AD-10_eng04_W.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Tuner reference pitch is a tuning aid, not an audio-transpose range.",
+            "Chorus detuning is preserved as modulation behavior; note polyphony for a dedicated pitch shifter is not established."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.roland.com/us/company/press_releases/2017/BOSS-ANNOUNCES-AD-10-ACOUSTIC-PREAMP/",
+            "title": "Roland/BOSS: AD-10 Acoustic Preamp announcement, August 29 2017",
+            "access": "opened",
+            "evidence": "Dated introduction identifies AD-10 and its acoustic preamp/effect/looper functions."
+          },
+          {
+            "url": "https://www.boss.info/global/support/by_product/ad-10/updates_drivers/",
+            "title": "BOSS AD-10 current Updates & Drivers index",
+            "access": "opened",
+            "evidence": "Seven computer-driver entries; no device System Program entry in inspected index. Driver numbers are not firmware."
+          },
+          {
+            "url": "https://static.roland.com/assets/media/pdf/AD-10_eng04_W.pdf",
+            "title": "BOSS AD-10 official English owner manual eng04_W",
+            "access": "opened manufacturer PDF; text_only",
+            "evidence": "pp5–8 document 10-memory saving and effect families including detuned chorus, not a dedicated pitch-shift block; tuner calibration separate; no per-effect CPU percentage."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "BOSS::AD-10",
       "BOSS::AD-2",
       "BOSS::AD-8",
       "BOSS::GM-800",
@@ -181995,12 +182053,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 28,
-    "last_model": "Boin Audio::BG300",
-    "last_commit_parent": "f585acde94e720238666ae4f9c18094cb5ead2ab",
+    "completed_model_count": 29,
+    "last_model": "BOSS::AD-10",
+    "last_commit_parent": "9450de0ca18f524099f6ad484a6a962907de98f5",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "BOSS::AD-10",
       "BOSS::AD-2",
       "BOSS::AD-8",
       "BOSS::GM-800",
@@ -182375,7 +182432,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 28,
+    "pitch_completed_model_count": 29,
     "supplemental_model_count": 0
   }
 }

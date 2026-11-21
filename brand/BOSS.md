@@ -186,6 +186,30 @@ Sources: regional manufacturer pages and own ©2003, 28-page owner manual throug
 
 ## AD-10
 
+<!-- firmware-pitch:BOSS::AD-10 begins -->
+### Firmware and pitch audit — BOSS AD-10
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017-08-29 (manufacturer announcement proxy). Dated manufacturer announcement of AD-10; announcement proxy, not a region-specific first shipment date. [launch 1](https://www.roland.com/us/company/press_releases/2017/BOSS-ANNOUNCES-AD-10-ACOUSTIC-PREAMP/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current checked Updates & Drivers index lists only computer audio drivers, not a device System Program. Driver 1.0.2 for Windows and 1.0.5 for newer macOS are not AD-10 firmware versions. No device update date established; this does not prove updates never existed. [firmware 1](https://www.boss.info/global/support/by_product/ad-10/updates_drivers/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No dedicated transposer, harmonizer, octaver or pedal pitch-shift block documented in the checked effect list. Chorus adds subtle detuning (Normal/Mild/Bright); delay offers standard/modulation/reverse. Neither establishes a polyphonic capo. [pitch 1](https://static.roland.com/assets/media/pdf/AD-10_eng04_W.pdf) |
+| Pitch / preset recall | 10 editable memories plus Manual mode. Hold EXIT and press MEMORY, press MEMORY, select destination, then MEMORY to save. Per-effect recall/manual selection is documented. |
+| Pitch / DSP resources | No per-effect CPU percentage or DSP meter documented. Dedicated pitch resource cost is not applicable to the checked effect inventory; this is not a 0% measurement or a general resource limit. |
+| Pitch / qualifications | Tuner reference pitch is a tuning aid, not an audio-transpose range. Chorus detuning is preserved as modulation behavior; note polyphony for a dedicated pitch shifter is not established. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Roland/BOSS: AD-10 Acoustic Preamp announcement, August 29 2017](https://www.roland.com/us/company/press_releases/2017/BOSS-ANNOUNCES-AD-10-ACOUSTIC-PREAMP/) — Dated introduction identifies AD-10 and its acoustic preamp/effect/looper functions. (opened).
+- [BOSS AD-10 current Updates & Drivers index](https://www.boss.info/global/support/by_product/ad-10/updates_drivers/) — Seven computer-driver entries; no device System Program entry in inspected index. Driver numbers are not firmware. (opened).
+- [BOSS AD-10 official English owner manual eng04_W](https://static.roland.com/assets/media/pdf/AD-10_eng04_W.pdf) — pp5–8 document 10-memory saving and effect families including detuned chorus, not a dedicated pitch-shift block; tuner calibration separate; no per-effect CPU percentage. (opened manufacturer PDF; text_only).
+
+<!-- firmware-pitch:BOSS::AD-10 ends -->
+
 Acoustic-electric guitar multi-effects/preamp, checked2026-10-17; partial. [Manufacturer product/specifications][AD10-P] explicitly document multiple effect families; not the dedicated BOSS AC-3 acoustic simulator. Bass/vocal capability and ownership unestablished.
 
 | Field | Verified evidence / gaps |
