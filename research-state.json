@@ -193613,6 +193613,77 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "MOOER::GE200 Plus Li": {
+        "model_key": "MOOER::GE200 Plus Li",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2025",
+          "precision": "year",
+          "kind": "manufacturer_release_year",
+          "source_urls": [
+            "https://www.mooeraudio.com/products/232.html"
+          ],
+          "note": "Manufacturer explicitly introduces GE200 Plus and Plus Li in 2025. Exact Li first-shipment day unresolved; July 30 overview is later than the June 16 firmware entry."
+        },
+        "firmware": {
+          "version": "1.5.0 (Studio/update bundle; device payload unverified)",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/Downloads_xq/9.html",
+            "https://device.report/m/dac41d68caaa3b9e7928fe5d232719513943c9cc10b0ed4e900a5057305b2d34"
+          ],
+          "note": "Joint Plus/Plus Li manual directs the battery variant to the GE200 Plus updater. Current Studio/update bundle 1.5.0 is dated 2026-10-29; internal device firmware version unverified, so date/span withheld. Older 1.0.5 lacks a release date, while 1.0.4 is dated 2025-06-16. Upload timestamps and separate Cloud/USB-driver versions are not device release dates."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Manual explicitly lists Poly Pitch as a poly pitch shifter; parameter table calls it Poly Shift, range ±1 octave. Also Detune and Octave. This documents the algorithm, not measured chord quality or latency.",
+          "preset": "255 slots across 85 banks of three. SAVE stores edited preset; expression parameter assignments, volume/expression mode and toe mappings are saved per preset. Calibration is global. Exact held-pedal recall untested.",
+          "dsp": "Pitch shares a multi-purpose effect block with other algorithms. Calculated total preset DSP depends on selected models; manual warns of transient clipping near 100%. No isolated pitch percentage found; no sibling bypass-allocation rules assumed.",
+          "source_urls": [
+            "https://device.report/m/dac41d68caaa3b9e7928fe5d232719513943c9cc10b0ed4e900a5057305b2d34"
+          ],
+          "measurements": [],
+          "notes": [
+            "Joint manufacturer Plus/Plus Li manual explicitly covers the battery edition. No isolated Li DSP, tracking or latency measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=dPhwf74YoCA",
+            "title": "MOOER GE200 Plus Official Overview",
+            "access": "Official-channel indexed publication and description read",
+            "evidence": "Published 2025-07-30; distinguishes white standard and purple battery Li variants."
+          },
+          {
+            "url": "https://www.mooeraudio.com/news/19.html",
+            "title": "GE200 Plus official overview news page",
+            "access": "Manufacturer page read",
+            "evidence": "Embeds the official overview."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/9.html",
+            "title": "GE200 Plus downloads and update notes",
+            "access": "Exact-model manufacturer page read",
+            "evidence": "Studio 1.5.0 dated 2026-10-29; older 1.0.5 download and dated 1.0.4 entry."
+          },
+          {
+            "url": "https://device.report/m/dac41d68caaa3b9e7928fe5d232719513943c9cc10b0ed4e900a5057305b2d34",
+            "title": "GE200 Plus/GE200 Plus Li Owner’s Manual",
+            "access": "Manufacturer-authored extracted manual body read on mirror",
+            "evidence": "Poly Pitch, octave range, preset SAVE and expression memory, total DSP meter."
+          },
+          {
+            "url": "https://www.mooeraudio.com/products/232.html",
+            "title": "GE200 Plus/Plus Li joint manufacturer introduction",
+            "access": "Manufacturer product body read",
+            "evidence": "Explicit 2025 introduction; purple Li adds removable battery and RGB strip, with shared processing family."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -193650,7 +193721,6 @@
       "MOOER::GE150 Plus Li",
       "MOOER::GE150 Pro",
       "MOOER::GE150 Pro Li",
-      "MOOER::GE200 Plus Li",
       "MOOER::GS1000",
       "MOOER::GS1000 Li",
       "MOOER::Ocean Machine II",
@@ -193832,9 +193902,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 188,
-    "last_model": "MOOER::GE200 Plus",
-    "last_commit_parent": "a36cdae2c9ba00d14b93e898a3b358e7e6960c3b",
+    "completed_model_count": 189,
+    "last_model": "MOOER::GE200 Plus Li",
+    "last_commit_parent": "73f8ab477b8de52a46ab5f286517370df68b52a0",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -193871,7 +193941,6 @@
       "MOOER::GE150 Plus Li",
       "MOOER::GE150 Pro",
       "MOOER::GE150 Pro Li",
-      "MOOER::GE200 Plus Li",
       "MOOER::GS1000",
       "MOOER::GS1000 Li",
       "MOOER::Ocean Machine II",
@@ -194052,7 +194121,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 188,
+    "pitch_completed_model_count": 189,
     "supplemental_model_count": 0
   },
   "model_images": {
