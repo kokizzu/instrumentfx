@@ -229,6 +229,26 @@ Sources checked:
 
 <!-- firmware-pitch:DigiTech::GNX3 ends -->
 
+<!-- model-images:DigiTech::GNX3 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**DigiTech GNX3 — top panel**
+
+[![DigiTech GNX3 — top panel](https://medias.audiofanzine.com/images/normal/digitech-gnx3-6111093.jpg)](https://medias.audiofanzine.com/images/normal/digitech-gnx3-6111093.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/GNX3/). User-gallery straight top-down photograph of worn GNX3 hardware. Green/red display windows have no illuminated characters and status LEDs are unlit; powered-on state unverified. Confirmed powered-on replacement remains pending.
+
+**DigiTech GNX3 — rear connections**
+
+[![DigiTech GNX3 — rear connections](https://evolutionmusicstore.com/cdn/shop/products/zjhoizpvvceefdpieyiy_05a3d425-3b47-4884-acdb-4ec0527ec78c_2000x.jpg?v=1652231786)](https://evolutionmusicstore.com/cdn/shop/products/zjhoizpvvceefdpieyiy_05a3d425-3b47-4884-acdb-4ec0527ec78c_2000x.jpg?v=1652231786)
+
+[Image source](https://evolutionmusicstore.com/products/digitech-gnx3-guitar-workstation-pedal). Retailer rear photograph shows MIC OUTPUT, MIC/XLR INPUT and level, guitar INPUT, JAM-A-LONG/CD, headphones, LEFT/RIGHT OUT, output level, ON/OFF, FOOTSWITCH, S/PDIF OUT, MIDI IN/OUT-THRU and memory-card slot. Power cable occupies socket labeled 9VAC 2.1A; socket interior is obscured. Photo alone does not establish operating power state.
+
+</details>
+<!-- model-images:DigiTech::GNX3 ends -->
+
+
 Guitar workstation with documented bass modeling; distinct from BNX3,GNX3000 andGNX4. Checked2026-10-17; partial. Manufacturer past-product status is not retailer stock.
 
 | Field | Evidence / qualification |

@@ -193611,11 +193611,35 @@
             "sha256": "18ff8ad16e027c4cf9827ec3033fb2b35aea814680e320f97b623f1afa53411b"
           }
         }
+      },
+      "DigiTech::GNX3": {
+        "model_key": "DigiTech::GNX3",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/digitech-gnx3-6111093.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/GNX3/",
+            "caption": "DigiTech GNX3 — top panel",
+            "note": "User-gallery straight top-down photograph of worn GNX3 hardware. Green/red display windows have no illuminated characters and status LEDs are unlit; powered-on state unverified. Confirmed powered-on replacement remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": true,
+            "sha256": "341fb7e88e37839e9c094ee937f99056bf228945a12a2d4422f770918c46e9fd"
+          },
+          "rear": {
+            "image_url": "https://evolutionmusicstore.com/cdn/shop/products/zjhoizpvvceefdpieyiy_05a3d425-3b47-4884-acdb-4ec0527ec78c_2000x.jpg?v=1652231786",
+            "source_url": "https://evolutionmusicstore.com/products/digitech-gnx3-guitar-workstation-pedal",
+            "caption": "DigiTech GNX3 — rear connections",
+            "note": "Retailer rear photograph shows MIC OUTPUT, MIC/XLR INPUT and level, guitar INPUT, JAM-A-LONG/CD, headphones, LEFT/RIGHT OUT, output level, ON/OFF, FOOTSWITCH, S/PDIF OUT, MIDI IN/OUT-THRU and memory-card slot. Power cable occupies socket labeled 9VAC 2.1A; socket interior is obscured. Photo alone does not establish operating power state.",
+            "visual_checked": true,
+            "sha256": "6bb146fd8762d3fdc6ac92d1baa95826ebff88e9c6210de7894b547bd9e637ca"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::GNX4"
+    "last_model": "DigiTech::GNX3"
   }
 }
