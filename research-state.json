@@ -206252,11 +206252,53 @@
             "note": "Manufacturer front perspective; eleven rotary controls/four footswitches/one FX-loop toggle, not a rear-port photograph."
           }
         ]
+      },
+      "ROWIN::RE-05 Looper Pro": {
+        "model_key": "ROWIN::RE-05 Looper Pro",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://acdn-us.mitiendanube.com/stores/283/003/products/lp-1-nv1-6327eb8d8830f5d09e16938468955644-1024-1024.webp",
+            "source_url": "https://www.phmusicstore.com.br/produtos/pedal-de-loop-e-afinador-rowin-re-05-loop-pro-c-efeitos-pd1193/",
+            "caption": "ROWIN RE-05 Looper Pro overhead product image — powered-on state unverified",
+            "note": "Visually inspected ROWIN-branded purple Looper Pro image on exact RE-05 retailer listing: four knobs (Delay,Level,Chorus,Reverb), one footswitch, one separate tuner ON/OFF button and a mode toggle marked EFFECT/LOOPER/E+L. One seven-segment-style tuner digit plus separate indicator lenses depicted; not an LCD/touchscreen claim. This is a straight overhead product graphic with all digit segments visible, not independent proof of powered-on operation or installed revision. Side audio sockets partly visible; rear power socket not fully shown. Panel saysDC9V with center-negative symbol, but current/plug size are not inferred. Powered-on hardware photo and complete rear-port view remain pending. Seller dimensions/runtime and generated mirror manual claims are not adopted; manufacturer40-second wording retained.",
+            "visual_checked": true,
+            "sha256": "4dbe3b9adf4a09b1cae4705a41a439c0ec08c92dc4c43e995831dc920e306144",
+            "powered_on": null,
+            "exact_top_down": true
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://m.media-amazon.com/images/I/61rFkjWWDxL._AC_SL1500_.jpg",
+            "sha256": "3cbb25aa7ef18e7e04206598d65d13fc2303cda24c87d3e7140b3781a47065d9",
+            "visual_checked": true,
+            "note": "Perspective marketing composite, not overhead or independent powered-on hardware; generated accompanying manual prose excluded."
+          },
+          {
+            "image_url": "https://m.media-amazon.com/images/I/61BfKtLkpeL._AC_SL1500_.jpg",
+            "sha256": "7887ed55e8ae6001ec8aca6ecd578c193f6f69136d229a687d62e593695c273c",
+            "visual_checked": true,
+            "note": "Marketing control-face/side composite, not rear-port photograph; generated accompanying manual prose excluded."
+          },
+          {
+            "image_url": "https://dcdn-us.mitiendanube.com/stores/283/003/products/lp-3-nv1-d3357374bcd98a764c16938468955541-1024-1024.webp",
+            "sha256": "fdc2f596d50bfc2e0d3b30059b5219b235dda0cbf471ec0d984bf0b760822df8",
+            "visual_checked": true,
+            "note": "Control-face/left-side marketing view, not complete rear elevation."
+          },
+          {
+            "image_url": "https://blessmusic.cl/cdn/shop/files/S484c3861849d4feba5376627bbc543dcN_5d16472c-1f76-4669-85b5-1d4cdad414af.jpg?v=1728915796&width=1000",
+            "sha256": "1eb0b2d9d47f776af251893cec9365000d718e36fb478dae2401f55f75670dd9",
+            "visual_checked": true,
+            "note": "Straight control-face graphic, not rear view; no AUX,reverse or tap capability inferred from seller prose."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Mosky::SOL918"
+    "last_model": "ROWIN::RE-05 Looper Pro"
   }
 }
