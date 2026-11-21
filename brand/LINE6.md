@@ -2889,6 +2889,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::POD Go Wireless ends -->
 
+<!-- model-images:Line 6::POD Go Wireless begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**POD Go Wireless powered-on top-down product image**
+
+[![POD Go Wireless powered-on top-down product image](https://line6.com/data/6/0a020a414a4360243dfcb8a93/image/png)](https://line6.com/data/6/0a020a414a4360243dfcb8a93/image/png)
+
+[Image source](https://line6.com/podgo/). Exact Wireless overhead shows active 16D Two-Plus Decades screen with battery/RF icons, illuminated switch rings, WIRELESS branding and marked antenna area above treadle. Eight rotaries, eight main footswitches and four buttons; expression toe switch is additional. Manufacturer product image, not measured RF/pitch latency or proof of installed 2.50 firmware.
+
+**POD Go Wireless complete rear panel and transmitter storage**
+
+[![POD Go Wireless complete rear panel and transmitter storage](https://line6.com/data/6/0a020a414a4e60243dd5b23a3/image/png)](https://line6.com/data/6/0a020a414a4e60243dd5b23a3/image/png)
+
+[Image source](https://line6.com/podgo/). Rear labels distinguish Relay G10T STORAGE well from GUITAR IN/RELAY G10T CHARGER. Also shows shared EXP2/FS7/8, stereo RETURN/AUX and SEND, L/MONO/RIGHT MAIN OUT, AMP OUT, PHONES, USB-B, DC IN and power rocker. Storage well is not the charge port or another signal input. DC label reads 9VDC 2.5A Min, center-negative; supply requirement is not measured current draw. No DIN MIDI/XLR socket. Floorboard power and transmitter battery are separate.
+
+</details>
+<!-- model-images:Line 6::POD Go Wireless ends -->
+
+
 <!-- firmware-pitch:Line 6::POD Go begins -->
 ### Firmware and pitch audit — Line 6 POD Go
 

@@ -191444,11 +191444,35 @@
             "sha256": "57a0f76abb8570d0a22255fcd013ba4ad288913d3dda5c8b084622418cbc4f45"
           }
         }
+      },
+      "Line 6::POD Go Wireless": {
+        "model_key": "Line 6::POD Go Wireless",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/6/0a020a414a4360243dfcb8a93/image/png",
+            "source_url": "https://line6.com/podgo/",
+            "caption": "POD Go Wireless powered-on top-down product image",
+            "note": "Exact Wireless overhead shows active 16D Two-Plus Decades screen with battery/RF icons, illuminated switch rings, WIRELESS branding and marked antenna area above treadle. Eight rotaries, eight main footswitches and four buttons; expression toe switch is additional. Manufacturer product image, not measured RF/pitch latency or proof of installed 2.50 firmware.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "a868975205b659eaf3bdbdcd0e803f50d5de91f1929a02c55d916186f5fbe08c"
+          },
+          "rear": {
+            "image_url": "https://line6.com/data/6/0a020a414a4e60243dd5b23a3/image/png",
+            "source_url": "https://line6.com/podgo/",
+            "caption": "POD Go Wireless complete rear panel and transmitter storage",
+            "note": "Rear labels distinguish Relay G10T STORAGE well from GUITAR IN/RELAY G10T CHARGER. Also shows shared EXP2/FS7/8, stereo RETURN/AUX and SEND, L/MONO/RIGHT MAIN OUT, AMP OUT, PHONES, USB-B, DC IN and power rocker. Storage well is not the charge port or another signal input. DC label reads 9VDC 2.5A Min, center-negative; supply requirement is not measured current draw. No DIN MIDI/XLR socket. Floorboard power and transmitter battery are separate.",
+            "visual_checked": true,
+            "sha256": "3c9dfebae4a663a10a1f005975a29a3ca72ad6b55a0206317430e71b201f240b"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD Go"
+    "last_model": "Line 6::POD Go Wireless"
   }
 }
