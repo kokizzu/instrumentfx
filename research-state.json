@@ -203477,11 +203477,45 @@
             "note": "Effects matrix graphic with angled top only, not rear connectors."
           }
         ]
+      },
+      "Sonicake::Pocket Master QME-10": {
+        "model_key": "Sonicake::Pocket Master QME-10",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1096",
+            "source_url": "https://www.sonicake.com/products/pocket-master",
+            "caption": "Pocket Master powered top view",
+            "note": "Visually inspected manufacturer black/gray QME-10 image with illuminated color display, one rotary and two palm buttons; no footswitches or built-in expression. Near-overhead view exposes the connector edge at slight perspective; exact perpendicular overhead remains unverified. Firmware not identified by the pictured preset.",
+            "visual_checked": true,
+            "sha256": "a7523dc9dec348a05dbe7705284a4f6caed53b788a981972a415364f37f49192",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://vietmusic.vn/cdn/shop/files/20250527231447119105112.webp?v=1766492030&width=1946",
+            "source_url": "https://vietmusic.vn/en/products/pedal-guitar-sonicake-pocket-master",
+            "caption": "Pocket Master connector edge",
+            "note": "Visually inspected complete connector edge: IN, one OUT socket marked PHONES, two USB-C-shaped sockets marked data and charging. PHONES is a shared-output label, not a third audio jack. No analog EXP, dedicated AUX or barrel DC socket shown; manual separately establishes data/power functions.",
+            "visual_checked": true,
+            "sha256": "9cbd9f60783997bfb304f7c2ed2cdb07aeb9b7015358365d4297c6e672e2f143",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.hotone.jp/images/brands/sonicake/pocketmaster/hero.jpg",
+            "sha256": "71384b9161c3118e8e2e32214b9f6b7d467c6e7d69f8598662dae7c94764a8f7",
+            "visual_checked": true,
+            "note": "Powered white/brown Pocket Master lifestyle angle, not exact overhead."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::Smart Box QME-20"
+    "last_model": "Sonicake::Pocket Master QME-10"
   }
 }

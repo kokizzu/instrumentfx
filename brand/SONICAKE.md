@@ -600,6 +600,26 @@ Sources checked:
 
 <!-- firmware-pitch:Sonicake::Pocket Master QME-10 ends -->
 
+<!-- model-images:Sonicake::Pocket Master QME-10 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Pocket Master powered top view**
+
+[![Pocket Master powered top view](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1096)](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1096)
+
+[Image source](https://www.sonicake.com/products/pocket-master). Visually inspected manufacturer black/gray QME-10 image with illuminated color display, one rotary and two palm buttons; no footswitches or built-in expression. Near-overhead view exposes the connector edge at slight perspective; exact perpendicular overhead remains unverified. Firmware not identified by the pictured preset.
+
+**Pocket Master connector edge**
+
+[![Pocket Master connector edge](https://vietmusic.vn/cdn/shop/files/20250527231447119105112.webp?v=1766492030&width=1946)](https://vietmusic.vn/cdn/shop/files/20250527231447119105112.webp?v=1766492030&width=1946)
+
+[Image source](https://vietmusic.vn/en/products/pedal-guitar-sonicake-pocket-master). Visually inspected complete connector edge: IN, one OUT socket marked PHONES, two USB-C-shaped sockets marked data and charging. PHONES is a shared-output label, not a third audio jack. No analog EXP, dedicated AUX or barrel DC socket shown; manual separately establishes data/power functions.
+
+</details>
+<!-- model-images:Sonicake::Pocket Master QME-10 ends -->
+
+
 <!-- comparison evidence begins -->
 
 **Existing review2026-10-14. Handheld/desktop multi-effects, not conventional foot-operated hardware.** Separate from M-VAVE Pocket Amp.
