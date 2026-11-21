@@ -2212,6 +2212,33 @@ Model sources: [Source 1](https://nuxaudio.com/product/mg400/) · [Source 2](htt
 
 ## Mighty Plug MP-2
 
+<!-- firmware-pitch:NUX::Mighty Plug MP-2 begins -->
+### Firmware and pitch audit — NUX Mighty Plug MP-2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2020-01 (NAMM public-introduction proxy, not verified first retail shipment). Contemporaneous NAMM demonstration is dated January 21, 2020, and Jimmy Lin’s original device demonstration is indexed January 17. January 2020 is a public-introduction month proxy; neither establishes the exact first announcement or retail shipping day. Later regional store availability is not substituted. [launch 1](https://www.premierguitar.com/gear/nu-x-effects-mighty-plug-demo-namm-2020) [launch 2](https://www.youtube.com/watch?v=tMnYc2zLraE) |
+| Firmware / latest verification | 2.3 — Latest verified. Current global support and NUX USA both list exact MP-2 firmware 2.3. Global date is blank; authorized Japanese distributor dates V2.3 January 11, 2022 and describes a fix affecting some units. V2.2 October 15, 2021 improved USB stream stability, with app version still showing 2.1; that display is not proof the update failed. USA hub revision September 27, 2026 is not the firmware release date. MP-3 Pro 3.0.5 is separate hardware. [firmware 1](https://nuxaudio.com/product/mightyplug/) [firmware 2](https://www.ariaguitars.com/jp/mp2-fw.html) [firmware 3](https://www.nux.us/blogs/support/mighty-plug-support-hub) |
+| Firmware / release date | 2022-01-11 (day precision) |
+| Firmware / release-to-update duration | 1.95–2.03 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No dedicated pitch-shift, harmony or octave algorithm in the exact MP-2 V2 manufacturer/distributor library. Listed EFX, six modulation, four delay and four reverb choices cover drive/dynamics, wah, chorus/phaser/vibe/tremolo, delays and Room/Hall/Plate/Spring. Modulation detuning characteristics and acoustic IR simulation do not establish a selectable pitch transposer. No MP-3 algorithms transferred. [pitch 1](https://nuxaudio.com/product/mightyplug/) [pitch 2](https://www.ariaguitars.com/jp/mp2-fw.html) [pitch 3](https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlug/NUX_MightyPlug_UserManual_English.pdf) |
+| Pitch / preset recall | V2.1 on September 3, 2021 unified earlier guitar/bass groups into seven presets and added QR patch sharing. Original manual visually confirms Adjust short press recalls channels and the app customizes/stores presets; its hold-to-select separate guitar/bass modes describes the earlier organization. There is no documented pitch bank or analog expression interface. |
+| Pitch / DSP resources | No dedicated pitch algorithm or isolated pitch DSP percentage documented. Algorithm totals, 512-sample cabinet IR length and white-box amp modeling are not pitch resource measurements. No device profiling performed. |
+| Pitch / qualifications | Original manual downloaded at 2,890,695 bytes; SHA256 dee41a2bfdd147c2a3e35972bb10f8f8cd9fc7ae32b33965f1da2bd7e27cb1d6. PDF spread 3 (zero-based 2) visually inspected: instrument plug, Power/MUTE, Reset, Adjust, Bluetooth/battery indicators, Micro-B USB and headphone connector. This resolves the earlier visual-inspection limitation for that spread only. No pitch documented is scoped to the checked official MP-2 library, not a claim about MP-3 Pro, unofficial apps or future firmware. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [NUX Mighty Plug exact MP-2 product/support](https://nuxaudio.com/product/mightyplug/) — Current firmware 2.3 with no published date; V2 library and seven presets. (Manufacturer page opened as text).
+- [ARAI MP-2 firmware release history](https://www.ariaguitars.com/jp/mp2-fw.html) — V2.3 January 11, 2022; earlier USB and seven-preset changes; named V2 algorithms. (Authorized distributor full release notes opened as text).
+- [NUX original Mighty Plug English manual](https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlug/NUX_MightyPlug_UserManual_English.pdf) — SHA256 dee41a2bfdd147c2a3e35972bb10f8f8cd9fc7ae32b33965f1da2bd7e27cb1d6; original controls and app preset storage, not complete visual review. (Original PDF retrieved; interface spread visually inspected).
+- [Premier Guitar contemporaneous NAMM 2020 MP-2 demonstration](https://www.premierguitar.com/gear/nu-x-effects-mighty-plug-demo-namm-2020) — January 21, 2020 public demonstration; introduction-month proxy, not shipping date. (Original reporting page opened as text).
+- [Jimmy Lin original MP-2 demonstration](https://www.youtube.com/watch?v=tMnYc2zLraE) — January 17, 2020 demonstration corroborates public presence in January; no technical claims borrowed. (Search-indexed original title/channel/date/description; direct page cache miss).
+- [NUX USA Mighty Plug support hub](https://www.nux.us/blogs/support/mighty-plug-support-hub) — Separates MP-2 firmware 2.3 from MP-3 Pro 3.0.5; hub update date not firmware date. (Manufacturer indexed support body).
+
+<!-- firmware-pitch:NUX::Mighty Plug MP-2 ends -->
+
 Checked2026-10-17;partial. Own product explicitly supports guitar/bass;separate from MP-3 Pro. Ownership unverified.
 
 <!-- comparison evidence begins -->

@@ -178514,9 +178514,9 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Effects/Monarch_Series_Stompboxes/AmpAcademyStomp/NUX_NMA3AAP_UserManual_V5_English.pdf",
+    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlug/NUX_MightyPlug_UserManual_English.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 3,
+    "frame": 2,
     "text_pages": [
       0,
       2
@@ -196876,6 +196876,92 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "NUX::Mighty Plug MP-2": {
+        "model_key": "NUX::Mighty Plug MP-2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2020-01",
+          "precision": "month",
+          "kind": "NAMM public-introduction proxy, not verified first retail shipment",
+          "source_urls": [
+            "https://www.premierguitar.com/gear/nu-x-effects-mighty-plug-demo-namm-2020",
+            "https://www.youtube.com/watch?v=tMnYc2zLraE"
+          ],
+          "note": "Contemporaneous NAMM demonstration is dated January 21, 2020, and Jimmy Lin’s original device demonstration is indexed January 17. January 2020 is a public-introduction month proxy; neither establishes the exact first announcement or retail shipping day. Later regional store availability is not substituted."
+        },
+        "firmware": {
+          "version": "2.3",
+          "date": "2022-01-11",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://nuxaudio.com/product/mightyplug/",
+            "https://www.ariaguitars.com/jp/mp2-fw.html",
+            "https://www.nux.us/blogs/support/mighty-plug-support-hub"
+          ],
+          "note": "Current global support and NUX USA both list exact MP-2 firmware 2.3. Global date is blank; authorized Japanese distributor dates V2.3 January 11, 2022 and describes a fix affecting some units. V2.2 October 15, 2021 improved USB stream stability, with app version still showing 2.1; that display is not proof the update failed. USA hub revision September 27, 2026 is not the firmware release date. MP-3 Pro 3.0.5 is separate hardware."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No dedicated pitch-shift, harmony or octave algorithm in the exact MP-2 V2 manufacturer/distributor library. Listed EFX, six modulation, four delay and four reverb choices cover drive/dynamics, wah, chorus/phaser/vibe/tremolo, delays and Room/Hall/Plate/Spring. Modulation detuning characteristics and acoustic IR simulation do not establish a selectable pitch transposer. No MP-3 algorithms transferred.",
+          "preset": "V2.1 on September 3, 2021 unified earlier guitar/bass groups into seven presets and added QR patch sharing. Original manual visually confirms Adjust short press recalls channels and the app customizes/stores presets; its hold-to-select separate guitar/bass modes describes the earlier organization. There is no documented pitch bank or analog expression interface.",
+          "dsp": "No dedicated pitch algorithm or isolated pitch DSP percentage documented. Algorithm totals, 512-sample cabinet IR length and white-box amp modeling are not pitch resource measurements. No device profiling performed.",
+          "source_urls": [
+            "https://nuxaudio.com/product/mightyplug/",
+            "https://www.ariaguitars.com/jp/mp2-fw.html",
+            "https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlug/NUX_MightyPlug_UserManual_English.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original manual downloaded at 2,890,695 bytes; SHA256 dee41a2bfdd147c2a3e35972bb10f8f8cd9fc7ae32b33965f1da2bd7e27cb1d6. PDF spread 3 (zero-based 2) visually inspected: instrument plug, Power/MUTE, Reset, Adjust, Bluetooth/battery indicators, Micro-B USB and headphone connector. This resolves the earlier visual-inspection limitation for that spread only.",
+            "No pitch documented is scoped to the checked official MP-2 library, not a claim about MP-3 Pro, unofficial apps or future firmware."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://nuxaudio.com/product/mightyplug/",
+            "title": "NUX Mighty Plug exact MP-2 product/support",
+            "access": "Manufacturer page opened as text",
+            "evidence": "Current firmware 2.3 with no published date; V2 library and seven presets."
+          },
+          {
+            "url": "https://www.ariaguitars.com/jp/mp2-fw.html",
+            "title": "ARAI MP-2 firmware release history",
+            "access": "Authorized distributor full release notes opened as text",
+            "evidence": "V2.3 January 11, 2022; earlier USB and seven-preset changes; named V2 algorithms."
+          },
+          {
+            "url": "https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlug/NUX_MightyPlug_UserManual_English.pdf",
+            "title": "NUX original Mighty Plug English manual",
+            "access": "Original PDF retrieved; interface spread visually inspected",
+            "evidence": "SHA256 dee41a2bfdd147c2a3e35972bb10f8f8cd9fc7ae32b33965f1da2bd7e27cb1d6; original controls and app preset storage, not complete visual review."
+          },
+          {
+            "url": "https://www.premierguitar.com/gear/nu-x-effects-mighty-plug-demo-namm-2020",
+            "title": "Premier Guitar contemporaneous NAMM 2020 MP-2 demonstration",
+            "access": "Original reporting page opened as text",
+            "evidence": "January 21, 2020 public demonstration; introduction-month proxy, not shipping date."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=tMnYc2zLraE",
+            "title": "Jimmy Lin original MP-2 demonstration",
+            "access": "Search-indexed original title/channel/date/description; direct page cache miss",
+            "evidence": "January 17, 2020 demonstration corroborates public presence in January; no technical claims borrowed."
+          },
+          {
+            "url": "https://www.nux.us/blogs/support/mighty-plug-support-hub",
+            "title": "NUX USA Mighty Plug support hub",
+            "access": "Manufacturer indexed support body",
+            "evidence": "Separates MP-2 firmware 2.3 from MP-3 Pro 3.0.5; hub update date not firmware date."
+          }
+        ],
+        "duration": {
+          "minimum_days": 711,
+          "maximum_days": 741,
+          "label": "1.95–2.03 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -196910,7 +196996,6 @@
       "Mosky::SOL918",
       "Neural DSP::Nano Cortex",
       "Neural DSP::Quad Cortex",
-      "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "Roland::GR-55",
       "Roland::VT-4",
@@ -197058,9 +197143,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 225,
-    "last_model": "NUX::Amp Academy Stomp",
-    "last_commit_parent": "08cc79f59b846acefe956a3afc4ab9fa0bc78641",
+    "completed_model_count": 226,
+    "last_model": "NUX::Mighty Plug MP-2",
+    "last_commit_parent": "e935362de1f581b6437eb66ccff22b19657d596e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -197094,7 +197179,6 @@
       "Mosky::SOL918",
       "Neural DSP::Nano Cortex",
       "Neural DSP::Quad Cortex",
-      "NUX::Mighty Plug MP-2",
       "NUX::Mighty Plug Pro MP-3",
       "Roland::GR-55",
       "Roland::VT-4",
@@ -197241,7 +197325,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 225,
+    "pitch_completed_model_count": 226,
     "supplemental_model_count": 0
   },
   "model_images": {
