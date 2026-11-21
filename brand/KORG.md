@@ -518,6 +518,22 @@ Sources checked:
 
 <!-- firmware-pitch:Korg::AX10G ends -->
 
+<!-- model-images:Korg::AX10G begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**AX10G — unlit overhead top view**
+
+[![AX10G — unlit overhead top view](https://medias.audiofanzine.com/images/normal/korg-ax10g-6853107.jpg)](https://medias.audiofanzine.com/images/normal/korg-ax10g-6853107.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/korg/Ax10g/). Exact AX10G user photograph; model label, complete expression pedal, switches and controls visible from near overhead. Display and indicator lenses are unlit, so powered-on state is not established. Slight perspective remains; powered-on straight top-down replacement pending. Rear candidate2759862 was rejected because its panel is AX10A, not AX10G.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:Korg::AX10G ends -->
+
+
 Guitar multi-effects, distinct from AX10B/AX10A. Checked2026-10-17; partial. Bass/vocal suitability and ownership unverified. Korg lists discontinued/sold out.
 
 | Field | Finding / qualification | Evidence |
