@@ -2311,6 +2311,31 @@ Checked 2026-10-18 against the Rev B guide; documentation verification, not a de
 
 ## M9
 
+<!-- firmware-pitch:Line 6::M9 begins -->
+### Firmware and pitch audit — Line 6 M9
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2009-10-02 (manufacturer public introduction). Official Line 6 overview video published October 2, 2009; public-introduction proxy, not a verified first retail shipment. Do not use M13 or M5 introduction dates. [launch 1](https://www.youtube.com/watch?v=tpOwSGAZawA) |
+| Firmware / latest verification | 2.04.00 — Latest verified. Current direct M9 catalogue has three releases, newest2.04.00 January26,2011. Notes identify Echo Platter feedback fix and other enhancements, but copied update step still says2.02; version/date header retained. No update performed. [firmware 1](https://line6.com/software/index.html?hardware=M9&name=Flash+Memory&submit_form=set) |
+| Firmware / release date | 2011-01-26 (day precision) |
+| Firmware / release-to-update duration | 1.32 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Glide, Smart Harmony and Bass Octaver in shared effects guide explicitly covering M9; pedal-controlled transposition and key/scale harmony. No explicit polyphonic input-tracking guarantee located; no Helix Poly Capo/Pitch transfer. [pitch 1](https://line6.com/data/6/0a060b316ac34f0593fca717b/application/pdf/M9%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf) [pitch 2](https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5) |
+| Pitch / preset recall | 24 scenes across four folders; each retains six FX memories with three active. AutoSave or Manual Save, with expression endpoints saved for scene effects. No physical recall test. |
+| Pitch / DSP resources | Three simultaneous selected effects, one active A/B model per FX Unit, plus setup gate and looper. A selected pitch effect occupies one unit; the six A/B memories are not six simultaneous effects. No per-pitch CPU percentage documented; M5 one-model and M13 four-unit limits do not apply. |
+| Pitch / qualifications | No audio tracking, latency or CPU measurement. Shared effects guide explicitly names M9; its own Advanced Guide establishes scene/concurrency limits. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Line 6 M9 official overview video](https://www.youtube.com/watch?v=tpOwSGAZawA) — Published October2,2009; introduction proxy, not first shipment certificate. (Manufacturer video search metadata read).
+- [M9 exact Flash Memory catalogue](https://line6.com/software/index.html?hardware=M9&name=Flash+Memory&submit_form=set) — Three releases:2.04.00 January26,2011;2.02.00 November23,2010;2.01.00 October8,2009. Header2.04 versus copied update step2.02 distinguished. (Direct bounded manufacturer HTML retrieved; SHA256 b42ec06aac4b2c10bd16d608382e46ef9699ba6fab0aad13adff8e115cfa1493).
+- [M9 v2.0 Advanced Guide Rev A](https://line6.com/data/6/0a060b316ac34f0593fca717b/application/pdf/M9%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf) — Three FX Units, A/B alternatives,24 scenes,AutoSave/ManualSave and per-scene control settings. (Original manufacturer PDF text read).
+- [M5/M9/M13 FX Parameters guide](https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5) — Pitch Glide,Smart Harmony,Bass Octaver; no explicit polyphonic input-tracking guarantee or pitch CPU percentage. (Original manufacturer PDF text read; explicitly names M9).
+
+<!-- firmware-pitch:Line 6::M9 ends -->
+
 Effects-only guitar/shared-bass multi-effects; distinct from M5/M13. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
 
 | Field | Finding / qualification | Evidence |

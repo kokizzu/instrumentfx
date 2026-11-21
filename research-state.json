@@ -178522,7 +178522,7 @@
       26
     ],
     "index_url": "https://line6.com/company/images/?families=12",
-    "index_needle": "M5",
+    "index_needle": "M9",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -190139,6 +190139,75 @@
           "label": "-0.16 years (firmware predates hardware release)"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Line 6::M9": {
+        "model_key": "Line 6::M9",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2009-10-02",
+          "precision": "day",
+          "kind": "manufacturer_public_introduction",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=tpOwSGAZawA"
+          ],
+          "note": "Official Line 6 overview video published October 2, 2009; public-introduction proxy, not a verified first retail shipment. Do not use M13 or M5 introduction dates."
+        },
+        "firmware": {
+          "version": "2.04.00",
+          "date": "2011-01-26",
+          "precision": "day",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://line6.com/software/index.html?hardware=M9&name=Flash+Memory&submit_form=set"
+          ],
+          "note": "Current direct M9 catalogue has three releases, newest2.04.00 January26,2011. Notes identify Echo Platter feedback fix and other enhancements, but copied update step still says2.02; version/date header retained. No update performed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Glide, Smart Harmony and Bass Octaver in shared effects guide explicitly covering M9; pedal-controlled transposition and key/scale harmony. No explicit polyphonic input-tracking guarantee located; no Helix Poly Capo/Pitch transfer.",
+          "preset": "24 scenes across four folders; each retains six FX memories with three active. AutoSave or Manual Save, with expression endpoints saved for scene effects. No physical recall test.",
+          "dsp": "Three simultaneous selected effects, one active A/B model per FX Unit, plus setup gate and looper. A selected pitch effect occupies one unit; the six A/B memories are not six simultaneous effects. No per-pitch CPU percentage documented; M5 one-model and M13 four-unit limits do not apply.",
+          "source_urls": [
+            "https://line6.com/data/6/0a060b316ac34f0593fca717b/application/pdf/M9%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf",
+            "https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5"
+          ],
+          "measurements": [],
+          "notes": [
+            "No audio tracking, latency or CPU measurement. Shared effects guide explicitly names M9; its own Advanced Guide establishes scene/concurrency limits."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=tpOwSGAZawA",
+            "title": "Line 6 M9 official overview video",
+            "access": "Manufacturer video search metadata read",
+            "evidence": "Published October2,2009; introduction proxy, not first shipment certificate."
+          },
+          {
+            "url": "https://line6.com/software/index.html?hardware=M9&name=Flash+Memory&submit_form=set",
+            "title": "M9 exact Flash Memory catalogue",
+            "access": "Direct bounded manufacturer HTML retrieved; SHA256 b42ec06aac4b2c10bd16d608382e46ef9699ba6fab0aad13adff8e115cfa1493",
+            "evidence": "Three releases:2.04.00 January26,2011;2.02.00 November23,2010;2.01.00 October8,2009. Header2.04 versus copied update step2.02 distinguished."
+          },
+          {
+            "url": "https://line6.com/data/6/0a060b316ac34f0593fca717b/application/pdf/M9%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf",
+            "title": "M9 v2.0 Advanced Guide Rev A",
+            "access": "Original manufacturer PDF text read",
+            "evidence": "Three FX Units, A/B alternatives,24 scenes,AutoSave/ManualSave and per-scene control settings."
+          },
+          {
+            "url": "https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5",
+            "title": "M5/M9/M13 FX Parameters guide",
+            "access": "Original manufacturer PDF text read; explicitly names M9",
+            "evidence": "Pitch Glide,Smart Harmony,Bass Octaver; no explicit polyphonic input-tracking guarantee or pitch CPU percentage."
+          }
+        ],
+        "duration": {
+          "minimum_days": 481,
+          "maximum_days": 481,
+          "label": "1.32 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -190183,7 +190252,6 @@
       "Line 6::Helix Stadium XL Floor",
       "Line 6::HX One",
       "Line 6::M13",
-      "Line 6::M9",
       "Line 6::Pocket POD",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
@@ -190405,9 +190473,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 141,
-    "last_model": "Line 6::M5",
-    "last_commit_parent": "1817b6155183b4b444fe555371aebde4510add4c",
+    "completed_model_count": 142,
+    "last_model": "Line 6::M9",
+    "last_commit_parent": "d9be9019a5e409007233bc707cb0af5eec49aec1",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Fractal Audio::AM4",
@@ -190451,7 +190519,6 @@
       "Line 6::Helix Stadium XL Floor",
       "Line 6::HX One",
       "Line 6::M13",
-      "Line 6::M9",
       "Line 6::Pocket POD",
       "Line 6::POD HD300",
       "Line 6::POD HD400",
@@ -190672,7 +190739,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 141,
+    "pitch_completed_model_count": 142,
     "supplemental_model_count": 0
   },
   "model_images": {
