@@ -192235,11 +192235,35 @@
             "sha256": "7182f064e2597e98d0dc1b2651eb395284e8ea8f1708b054b86fca33bcd6bb81"
           }
         }
+      },
+      "Line 6::Helix Floor": {
+        "model_key": "Line 6::Helix Floor",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://line6.com/data/6/0a020a3f98e8643c76d5cc35d/image/jpeg",
+            "source_url": "https://line6.com/helix/helix-guitar-processor.html",
+            "caption": "Helix Floor — powered-on overhead view",
+            "note": "Exact original Floor with illuminated color LCD,12 switch scribble strips and separate EXP readout,onboard treadle,and lit switch rings. Manufacturer overhead product photograph; not LT or Stadium.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "ef5a1640c667c31d0c878a3a483ee9c8028762542b193ae5299935109b3fdf6f"
+          },
+          "rear": {
+            "image_url": "https://line6.com/data/6/0a020a3f1216c624b34ac7399e/image/jpeg",
+            "source_url": "https://line6.com/helix/helix-guitar-processor.html",
+            "caption": "Helix Floor — rear connections",
+            "note": "Original Floor rear includes EXP2/3,external amp/CV,guitar/Aux/Mic,four sends/returns,XLR and quarter-inch outs,Phones,Variax,MIDI,S/PDIF,AES/EBU-L6 LINK,USB and IEC mains. These extra Floor connections are distinct from LT.",
+            "visual_checked": true,
+            "sha256": "793d27f4585f0a309625630e77489079df4dbca65cc75233dde9e5ed294be29e"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD HD500"
+    "last_model": "Line 6::Helix Floor"
   }
 }

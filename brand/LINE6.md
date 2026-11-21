@@ -357,6 +357,26 @@ Sources checked:
 
 <!-- firmware-pitch:Line 6::Helix Floor ends -->
 
+<!-- model-images:Line 6::Helix Floor begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Helix Floor — powered-on overhead view**
+
+[![Helix Floor — powered-on overhead view](https://line6.com/data/6/0a020a3f98e8643c76d5cc35d/image/jpeg)](https://line6.com/data/6/0a020a3f98e8643c76d5cc35d/image/jpeg)
+
+[Image source](https://line6.com/helix/helix-guitar-processor.html). Exact original Floor with illuminated color LCD,12 switch scribble strips and separate EXP readout,onboard treadle,and lit switch rings. Manufacturer overhead product photograph; not LT or Stadium.
+
+**Helix Floor — rear connections**
+
+[![Helix Floor — rear connections](https://line6.com/data/6/0a020a3f1216c624b34ac7399e/image/jpeg)](https://line6.com/data/6/0a020a3f1216c624b34ac7399e/image/jpeg)
+
+[Image source](https://line6.com/helix/helix-guitar-processor.html). Original Floor rear includes EXP2/3,external amp/CV,guitar/Aux/Mic,four sends/returns,XLR and quarter-inch outs,Phones,Variax,MIDI,S/PDIF,AES/EBU-L6 LINK,USB and IEC mains. These extra Floor connections are distinct from LT.
+
+</details>
+<!-- model-images:Line 6::Helix Floor ends -->
+
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium. Guitar, bass and live microphone processing explicitly documented. Platinum is the same hardware with a different finish per manufacturer timeline;count once.
 
