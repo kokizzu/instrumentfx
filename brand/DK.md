@@ -154,6 +154,22 @@ Sources checked:
 
 <!-- firmware-pitch:DK::iE-550 ends -->
 
+<!-- model-images:DK::iE-550 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**iE-550 top-down product render with active-display artwork**
+
+[![iE-550 top-down product render with active-display artwork](https://hariharimusik.id/wp-content/uploads/2025/12/555.jpeg)](https://hariharimusik.id/wp-content/uploads/2025/12/555.jpeg)
+
+[Image source](https://hariharimusik.id/shop/digital-effects/dk-ie-550/). Retailer product render shows P01 display and blue switch rings. This is not verified as a photograph of a physically powered-on unit. Real powered-on top photograph and rear-port photograph remain pending.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:DK::iE-550 ends -->
+
+
 Checked 2026-10-18. Partial exact-model record. Manufacturer product identity and independent effect modules support guitar multi-effects inclusion. Color offers are not separate models. Ownership, bass and vocal suitability remain unverified.
 
 | Field | Evidence / qualification |

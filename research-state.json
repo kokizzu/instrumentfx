@@ -187148,11 +187148,28 @@
           }
         },
         "pending": "Powered-on real photograph and rear-port view required; right-side candidate lacked sockets."
+      },
+      "DK::iE-550": {
+        "model_key": "DK::iE-550",
+        "checked_date": "2026-11-21",
+        "views": {
+          "top": {
+            "image_url": "https://hariharimusik.id/wp-content/uploads/2025/12/555.jpeg",
+            "source_url": "https://hariharimusik.id/shop/digital-effects/dk-ie-550/",
+            "caption": "iE-550 top-down product render with active-display artwork",
+            "note": "Retailer product render shows P01 display and blue switch rings. This is not verified as a photograph of a physically powered-on unit. Real powered-on top photograph and rear-port photograph remain pending.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": true,
+            "sha256": "427bed2ceb9805fa07b7e05811bacc76cd7599affd1dd2cfefd1d011e467aefb"
+          }
+        },
+        "pending": "Rear-port photograph and real powered-on top photograph not yet verified; second retailer image was another top render and excluded."
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DK::iE-350"
+    "last_model": "DK::iE-550"
   }
 }
