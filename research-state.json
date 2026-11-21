@@ -193314,6 +193314,90 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "MOOER::GE1000 Li": {
+        "model_key": "MOOER::GE1000 Li",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2024-01-25",
+          "precision": "day",
+          "kind": "manufacturer_demo_date_index_proxy",
+          "source_urls": [
+            "https://www.effectsdatabase.com/model/mooer/ge1000/li",
+            "https://www.youtube.com/watch?v=JNnjGTvPVxE"
+          ],
+          "note": "Joint GE1000/GE1000 Li official demo indexed on 2024-01-25. Public launch proxy; earliest shipment and earlier trade-show availability unresolved."
+        },
+        "firmware": {
+          "version": "3.1.0 (explicit device firmware); 3.1.1 app package separately listed",
+          "date": "2026-07-15",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.mooeraudio.com/Downloads_xq/4.html",
+            "https://cn.mooeraudio.com/Downloads_xq/2.html",
+            "https://www.mooeraudio.com/products/224.html",
+            "https://shop.warwick.de/media/55/3c/7c/1750089556/53668503f536bd30_ME_GE1000_Manual_2.5_EN.pdf.pdf?ts=1750089556"
+          ],
+          "note": "Shared GE1000-series updater documented in the joint GE1000/GE1000 Li manual. Explicit device 3.1.0 release dated July 15, 2026; newer July 28 entry is APP/MS_For_GE1000 3.1.1, whose bundled device payload was not checked. Latest-device claim remains qualified. NAM A2 Lite is native; A1 requires conversion. Cloud and USB-driver releases are separate."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Manufacturer manual lists Poly Shift as a poly pitch shifter with ±1 octave range, plus Detune, Octave and Harmony in the modulation category. Poly classification applies to Poly Shift; Harmony polyphony and measured tracking/latency remain unverified.",
+          "preset": "255 slots across 85 banks of three. Presets store module types, sequence, on/off, parameters and expression settings; SAVE confirms destination. Exact held-pedal position recall untested.",
+          "dsp": "Fourteen chain positions support repeated modules within DSP limits. DSP is reserved by module presence, independent of bypass or parameter settings. Exhausted choices gray out; Groove Station adds load, and meter updates lag. No isolated Poly Shift percentage located.",
+          "source_urls": [
+            "https://shop.warwick.de/media/55/3c/7c/1750089556/53668503f536bd30_ME_GE1000_Manual_2.5_EN.pdf.pdf?ts=1750089556"
+          ],
+          "measurements": [],
+          "notes": [
+            "Joint manufacturer GE1000/GE1000 Li 2.5 manual explicitly covers the battery model; no isolated Li DSP or tracking measurement. Later firmware may differ."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.effectsdatabase.com/model/mooer/ge1000/li",
+            "title": "GE1000 Li official-video publication index",
+            "access": "Index read; date proxy for embedded manufacturer video only",
+            "evidence": "Joint official demo indexed 2024-01-25; exact first shipment unresolved."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=JNnjGTvPVxE",
+            "title": "MOOER GE1000/GE1000 Li Multi-Effect Official Demo",
+            "access": "Official-channel indexed identity read; direct open failed",
+            "evidence": "Exact official video linked from dated index."
+          },
+          {
+            "url": "https://www.mooeraudio.com/Downloads_xq/4.html",
+            "title": "GE1000 English firmware downloads and notes",
+            "access": "Manufacturer exact-model changelog read",
+            "evidence": "GE1000 3.1.0 dated 2026-07-15; APP 3.1.1 dated July 28; A2 Lite native versus A1 conversion."
+          },
+          {
+            "url": "https://cn.mooeraudio.com/Downloads_xq/2.html",
+            "title": "GE1000 Chinese firmware downloads and notes",
+            "access": "Manufacturer exact-model page read",
+            "evidence": "Explicit device firmware V3.1.0 versus MS_For_GE1000 V3.1.1 entry."
+          },
+          {
+            "url": "https://shop.warwick.de/media/55/3c/7c/1750089556/53668503f536bd30_ME_GE1000_Manual_2.5_EN.pdf.pdf?ts=1750089556",
+            "title": "GE1000/GE1000 Li Owner’s Manual — 2.5 English",
+            "access": "Manufacturer-authored PDF body read on distributor mirror",
+            "evidence": "Joint manual covers both variants; same software updater, Poly Shift, preset storage and DSP reservation rules."
+          },
+          {
+            "url": "https://www.mooeraudio.com/products/224.html",
+            "title": "GE1000/GE1000 Li joint manufacturer page",
+            "access": "Manufacturer page read",
+            "evidence": "GE1000 Li explicitly identified as integrated-battery version of the joint processor family."
+          }
+        ],
+        "duration": {
+          "minimum_days": 902,
+          "maximum_days": 902,
+          "label": "2.47 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
@@ -193345,7 +193429,6 @@
       "MOOER::Black Truck",
       "MOOER::GE100 Pro",
       "MOOER::GE100 Pro Li",
-      "MOOER::GE1000 Li",
       "MOOER::GE150 Max",
       "MOOER::GE150 Max Li",
       "MOOER::GE150 Plus",
@@ -193537,9 +193620,9 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 184,
-    "last_model": "MOOER::GE1000",
-    "last_commit_parent": "921f6623e144c57b3f454c6aebf1849eeb97015e",
+    "completed_model_count": 185,
+    "last_model": "MOOER::GE1000 Li",
+    "last_commit_parent": "6ee9b743d752795e73e1e3705215ce5c5a11c267",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Kemper::PROFILER Head MK2",
@@ -193570,7 +193653,6 @@
       "MOOER::Black Truck",
       "MOOER::GE100 Pro",
       "MOOER::GE100 Pro Li",
-      "MOOER::GE1000 Li",
       "MOOER::GE150 Max",
       "MOOER::GE150 Max Li",
       "MOOER::GE150 Plus",
@@ -193761,7 +193843,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 184,
+    "pitch_completed_model_count": 185,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -2747,6 +2747,33 @@ Checked2026-10-18 against [MOOER Japan’s exact GE1000 page](https://mooer.jp/p
 
 ## GE1000 Li
 
+<!-- firmware-pitch:MOOER::GE1000 Li begins -->
+### Firmware and pitch audit — MOOER GE1000 Li
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-01-25 (manufacturer demo date index proxy). Joint GE1000/GE1000 Li official demo indexed on 2024-01-25. Public launch proxy; earliest shipment and earlier trade-show availability unresolved. [launch 1](https://www.effectsdatabase.com/model/mooer/ge1000/li) [launch 2](https://www.youtube.com/watch?v=JNnjGTvPVxE) |
+| Firmware / latest verification | 3.1.0 (explicit device firmware); 3.1.1 app package separately listed — Located; latest status unverified. Shared GE1000-series updater documented in the joint GE1000/GE1000 Li manual. Explicit device 3.1.0 release dated July 15, 2026; newer July 28 entry is APP/MS_For_GE1000 3.1.1, whose bundled device payload was not checked. Latest-device claim remains qualified. NAM A2 Lite is native; A1 requires conversion. Cloud and USB-driver releases are separate. [firmware 1](https://www.mooeraudio.com/Downloads_xq/4.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/2.html) [firmware 3](https://www.mooeraudio.com/products/224.html) [firmware 4](https://shop.warwick.de/media/55/3c/7c/1750089556/53668503f536bd30_ME_GE1000_Manual_2.5_EN.pdf.pdf?ts=1750089556) |
+| Firmware / release date | 2026-07-15 (day precision) |
+| Firmware / release-to-update duration | 2.47 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Manufacturer manual lists Poly Shift as a poly pitch shifter with ±1 octave range, plus Detune, Octave and Harmony in the modulation category. Poly classification applies to Poly Shift; Harmony polyphony and measured tracking/latency remain unverified. [pitch 1](https://shop.warwick.de/media/55/3c/7c/1750089556/53668503f536bd30_ME_GE1000_Manual_2.5_EN.pdf.pdf?ts=1750089556) |
+| Pitch / preset recall | 255 slots across 85 banks of three. Presets store module types, sequence, on/off, parameters and expression settings; SAVE confirms destination. Exact held-pedal position recall untested. |
+| Pitch / DSP resources | Fourteen chain positions support repeated modules within DSP limits. DSP is reserved by module presence, independent of bypass or parameter settings. Exhausted choices gray out; Groove Station adds load, and meter updates lag. No isolated Poly Shift percentage located. |
+| Pitch / qualifications | Joint manufacturer GE1000/GE1000 Li 2.5 manual explicitly covers the battery model; no isolated Li DSP or tracking measurement. Later firmware may differ. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [GE1000 Li official-video publication index](https://www.effectsdatabase.com/model/mooer/ge1000/li) — Joint official demo indexed 2024-01-25; exact first shipment unresolved. (Index read; date proxy for embedded manufacturer video only).
+- [MOOER GE1000/GE1000 Li Multi-Effect Official Demo](https://www.youtube.com/watch?v=JNnjGTvPVxE) — Exact official video linked from dated index. (Official-channel indexed identity read; direct open failed).
+- [GE1000 English firmware downloads and notes](https://www.mooeraudio.com/Downloads_xq/4.html) — GE1000 3.1.0 dated 2026-07-15; APP 3.1.1 dated July 28; A2 Lite native versus A1 conversion. (Manufacturer exact-model changelog read).
+- [GE1000 Chinese firmware downloads and notes](https://cn.mooeraudio.com/Downloads_xq/2.html) — Explicit device firmware V3.1.0 versus MS_For_GE1000 V3.1.1 entry. (Manufacturer exact-model page read).
+- [GE1000/GE1000 Li Owner’s Manual — 2.5 English](https://shop.warwick.de/media/55/3c/7c/1750089556/53668503f536bd30_ME_GE1000_Manual_2.5_EN.pdf.pdf?ts=1750089556) — Joint manual covers both variants; same software updater, Poly Shift, preset storage and DSP reservation rules. (Manufacturer-authored PDF body read on distributor mirror).
+- [GE1000/GE1000 Li joint manufacturer page](https://www.mooeraudio.com/products/224.html) — GE1000 Li explicitly identified as integrated-battery version of the joint processor family. (Manufacturer page read).
+
+<!-- firmware-pitch:MOOER::GE1000 Li ends -->
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE1000-LI source begins -->
