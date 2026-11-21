@@ -1989,6 +1989,40 @@ Checked **2026-11-05**. [Official eng12 PDF](https://static.roland.com/assets/me
 
 ## GT-1000CORE
 
+<!-- firmware-pitch:BOSS::GT-1000CORE begins -->
+### Firmware and pitch audit — BOSS GT-1000CORE
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2020-09-17 (launch announcement). Earliest dated introduction on the opened US manufacturer press page. That page forecasts retail availability in October 2020. A separate manufacturer PDF instead dates the introduction October 1, 2020; this source discrepancy is retained, not reconciled by guessing. [launch 1](https://www.roland.com/us/company/press_releases/2020/BOSS_Introduces_GT-1000CORE_Guitar_Effects_Process/) |
+| Firmware / latest verification | 2.02 — Latest verified. Current exact-model support index links System Program 2.02. Release history publishes JUL 2026 without a day. Adds options to disable simultaneous-switch actions; fixes patch-change noise and MANUAL switching. Tone Studio 4.1.1 and USB driver versions are separate software. [firmware 1](https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/) [firmware 2](https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/82f27f97-d627-4536-b49c-94b317a2e0ad/) |
+| Firmware / release date | 2026-07 (month precision) |
+| Firmware / release-to-update duration | 5.79–5.87 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH SFT: -24 to +24 semitones, one/two shifted voices, FAST/MEDIUM/SLOW/MONO modes. MONO explicitly requires single notes and warns against chords. Other modes are not explicitly called polyphonic in the checked text. OCTAVE has a separate POLY mode; this is not proof of whole-chord semitone transposition. [pitch 1](https://static.roland.com/assets/media/pdf/GT-1000CORE_parameter_eng03_W.pdf) [pitch 2](https://static.roland.com/assets/media/pdf/GT-1000CORE_prm_eng02_W.pdf) [pitch 3](https://www.boss.info/global/products/gt-1000core/) |
+| Pitch / preset recall | Yes: PATCH WRITE stores edited patches in U001-U250; unsaved edits are lost on patch change/power-off. Indexed original guide p56; no device operated. |
+| Pitch / DSP resources | Manufacturer documents 24 simultaneous blocks including two amps and on-demand power for available effects. No pitch-specific CPU percentage found. Pitch shifter occupies a selectable FX block; fixed architecture is not a transferable DSP percentage or permission for unlimited copies. |
+| Pitch / qualifications | Parameter guide03 direct fetch returned403; manufacturer-indexed parameter text supplies the stated ranges/mode qualifications. No complete current PDF inspection claimed. Output voice count and mono/stereo output format do not establish input-note polyphony. Polyphonic tuner removal in firmware2.01 is unrelated to pitch algorithm capabilities. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Date precision is preserved; July 2026 is not silently converted to July 1.
+
+Firmware 2.01 removed the polyphonic tuner; this is unrelated to polyphonic pitch-shifting algorithms.
+
+The elapsed period is measured from a documented announcement, not a verified first customer shipment.
+
+Sources checked:
+
+- [GT-1000CORE Updates & Drivers](https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/) — Current index lists GT-1000CORE System Program Ver.2.02 above separately named editor and driver packages. (opened).
+- [GT-1000CORE System Program Ver.2.02](https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/82f27f97-d627-4536-b49c-94b317a2e0ad/) — Top update-history entry: Ver.2.02, JUL 2026. Older entries include 2.01 MAR 2026 and 2.00 JUL 2024. (opened).
+- [BOSS Introduces GT-1000CORE Guitar Effects Processor](https://www.roland.com/us/company/press_releases/2020/BOSS_Introduces_GT-1000CORE_Guitar_Effects_Process/) — Body dates introduction September 17, 2020; availability paragraph says October 2020. (opened).
+- [BOSS GT-1000CORE manufacturer press release PDF](https://www.roland.com/RolandComSite/files/4d/4dd9c2eb-497d-4f24-8862-1e5f5fef6bba.pdf) — Indexed original manufacturer press-release text dates introduction October 1, 2020, differing from the US webpage. (indexed).
+- [GT-1000CORE Parameter Guide03](https://static.roland.com/assets/media/pdf/GT-1000CORE_parameter_eng03_W.pdf) — PITCH SFT p23: +/-24, one/two voices and FAST/MEDIUM/SLOW/MONO; MONO warns against chords. Separate OCTAVE POLY option. (indexed_manufacturer_pdf_text; direct_fetch_403).
+- [GT-1000CORE parameter guide02 PATCH WRITE](https://static.roland.com/assets/media/pdf/GT-1000CORE_prm_eng02_W.pdf) — Printed p56: edited patches written to U001-U250; unsaved settings lost on patch change or power-off. (indexed_manufacturer_pdf_text).
+- [GT-1000CORE official product](https://www.boss.info/global/products/gt-1000core/) — 24 simultaneous effect blocks including two amps; on-demand DSP claim, no per-pitch percentage. (opened).
+
+<!-- firmware-pitch:BOSS::GT-1000CORE ends -->
+
 <!-- firmware-lifecycle begins -->
 ### Firmware lifecycle
 
