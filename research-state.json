@@ -185125,10 +185125,81 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "DigiTech::GNX4": {
+        "model_key": "DigiTech::GNX4",
+        "checked_date": "2026-11-21",
+        "first_release": {
+          "date": "2004-07-23",
+          "precision": "day",
+          "kind": "manufacturer_shipping_notice_proxy",
+          "source_urls": [
+            "https://sonicstate.com/news/2004/07/23/snamm04-digitech-gnx4-now-in-stores/"
+          ],
+          "note": "DigiTech now-shipping announcement reproduced by Sonicstate; available by this date, not proof of exact first shipment or original unveiling."
+        },
+        "firmware": {
+          "version": "1.3",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://adn.harmanpro.com/software_attachments/software_attachments/10_1291747485/GNX4ReleaseNotesv13_original.pdf",
+            "https://digitech.com/software-downloads/"
+          ],
+          "note": "Latest manufacturer device release notes located: v1.3, including improved downward shifting in Whammy/IPS/Mod FX, Talker pop fix and recording/CF fixes. Notes lack release date; URL/upload metadata not treated as release date. Current download index lists X-Edit 2.4.1 separately; latest-ever completeness unverified."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Whammy/IPS/Talk slot: Whammy bends, key/scale IPS harmony, Pitch Shift ±24 semitones, Detune ±24 cents or Talker. Separate Chorus/Mod Pitch Shift is −12…+24 semitones; Detune ±24 cents. Input-note polyphony unverified.",
+          "preset": "80 factory plus 80 writable user presets internally; optional CompactFlash adds 80 card presets. User bank initially duplicates factory; not 240 internal presets.",
+          "dsp": "Two separate pitch-capable module positions, each selecting one algorithm. Whammy/IPS/Talk choices exclude one another; Chorus/Mod pitch excludes other modulation choices in that slot. No per-algorithm DSP percentage or arbitrary pitch-block allocation documented.",
+          "measurements": [],
+          "source_urls": [
+            "https://manualmachine.com/digitech/gnx4/1120255-user-manual/",
+            "https://digitech.com/dp/gnx4/"
+          ],
+          "notes": [
+            "Ranges differ by module; do not normalize Chorus/Mod to ±24. Standalone Whammy polyphony and newer chord modes not established for GNX4."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://sonicstate.com/news/2004/07/23/snamm04-digitech-gnx4-now-in-stores/",
+            "title": "DigiTech GNX4 now shipping announcement",
+            "access": "Manufacturer announcement reproduced by Sonicstate, July 23, 2004",
+            "evidence": "Now shipping / in stores statement; available-by proxy, not exact first release."
+          },
+          {
+            "url": "https://adn.harmanpro.com/software_attachments/software_attachments/10_1291747485/GNX4ReleaseNotesv13_original.pdf",
+            "title": "GNX4 Software Release Notes Version 1.3",
+            "access": "Manufacturer Harman-hosted two-page PDF web text",
+            "evidence": "Improved pitch-down shifting, Talker pop fix, control/recording/CF corrections; no printed release date."
+          },
+          {
+            "url": "https://digitech.com/software-downloads/",
+            "title": "DigiTech software downloads",
+            "access": "Manufacturer current index web text",
+            "evidence": "GNX4 X-Edit 2.4.1 editor listing, distinct from device v1.3."
+          },
+          {
+            "url": "https://manualmachine.com/digitech/gnx4/1120255-user-manual/",
+            "title": "GNX4 manufacturer Owner Manual mirrored by ManualMachine",
+            "access": "Manufacturer-authored manual body only; generated FAQs excluded",
+            "evidence": "Whammy/IPS/Talk one-choice rule and ±24 shift; Chorus/Mod separate one-choice slot with −12…+24 shift; printed pp36–43."
+          },
+          {
+            "url": "https://digitech.com/dp/gnx4/",
+            "title": "DigiTech GNX4 product",
+            "access": "Manufacturer product text",
+            "evidence": "80 factory/80 user/80 optional card presets; processor count not per-algorithm CPU load."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "DigiTech::GNX4",
       "DigiTech::RP1000",
       "DigiTech::RP150",
       "DigiTech::RP155",
@@ -185455,12 +185526,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 77,
-    "last_model": "DigiTech::GNX3",
-    "last_commit_parent": "bb335c5ad32227e96a5a619b8c30b05294989776",
+    "completed_model_count": 78,
+    "last_model": "DigiTech::GNX4",
+    "last_commit_parent": "da1c1640762876ce81e270f3b8c7c22be2d20a2e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "DigiTech::GNX4",
       "DigiTech::RP1000",
       "DigiTech::RP150",
       "DigiTech::RP155",
@@ -185786,7 +185856,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 77,
+    "pitch_completed_model_count": 78,
     "supplemental_model_count": 0
   }
 }

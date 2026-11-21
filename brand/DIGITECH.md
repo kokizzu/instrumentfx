@@ -309,6 +309,32 @@ Checked2026-10-18 against [original manufacturer guide][G-M], pp60–63,66–70.
 
 ## GNX4
 
+<!-- firmware-pitch:DigiTech::GNX4 begins -->
+### Firmware and pitch audit — DigiTech GNX4
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2004-07-23 (manufacturer shipping notice proxy). DigiTech now-shipping announcement reproduced by Sonicstate; available by this date, not proof of exact first shipment or original unveiling. [launch 1](https://sonicstate.com/news/2004/07/23/snamm04-digitech-gnx4-now-in-stores/) |
+| Firmware / latest verification | 1.3 — Located; latest status unverified. Latest manufacturer device release notes located: v1.3, including improved downward shifting in Whammy/IPS/Mod FX, Talker pop fix and recording/CF fixes. Notes lack release date; URL/upload metadata not treated as release date. Current download index lists X-Edit 2.4.1 separately; latest-ever completeness unverified. [firmware 1](https://adn.harmanpro.com/software_attachments/software_attachments/10_1291747485/GNX4ReleaseNotesv13_original.pdf) [firmware 2](https://digitech.com/software-downloads/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Whammy/IPS/Talk slot: Whammy bends, key/scale IPS harmony, Pitch Shift ±24 semitones, Detune ±24 cents or Talker. Separate Chorus/Mod Pitch Shift is −12…+24 semitones; Detune ±24 cents. Input-note polyphony unverified. [pitch 1](https://manualmachine.com/digitech/gnx4/1120255-user-manual/) [pitch 2](https://digitech.com/dp/gnx4/) |
+| Pitch / preset recall | 80 factory plus 80 writable user presets internally; optional CompactFlash adds 80 card presets. User bank initially duplicates factory; not 240 internal presets. |
+| Pitch / DSP resources | Two separate pitch-capable module positions, each selecting one algorithm. Whammy/IPS/Talk choices exclude one another; Chorus/Mod pitch excludes other modulation choices in that slot. No per-algorithm DSP percentage or arbitrary pitch-block allocation documented. |
+| Pitch / qualifications | Ranges differ by module; do not normalize Chorus/Mod to ±24. Standalone Whammy polyphony and newer chord modes not established for GNX4. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [DigiTech GNX4 now shipping announcement](https://sonicstate.com/news/2004/07/23/snamm04-digitech-gnx4-now-in-stores/) — Now shipping / in stores statement; available-by proxy, not exact first release. (Manufacturer announcement reproduced by Sonicstate, July 23, 2004).
+- [GNX4 Software Release Notes Version 1.3](https://adn.harmanpro.com/software_attachments/software_attachments/10_1291747485/GNX4ReleaseNotesv13_original.pdf) — Improved pitch-down shifting, Talker pop fix, control/recording/CF corrections; no printed release date. (Manufacturer Harman-hosted two-page PDF web text).
+- [DigiTech software downloads](https://digitech.com/software-downloads/) — GNX4 X-Edit 2.4.1 editor listing, distinct from device v1.3. (Manufacturer current index web text).
+- [GNX4 manufacturer Owner Manual mirrored by ManualMachine](https://manualmachine.com/digitech/gnx4/1120255-user-manual/) — Whammy/IPS/Talk one-choice rule and ±24 shift; Chorus/Mod separate one-choice slot with −12…+24 shift; printed pp36–43. (Manufacturer-authored manual body only; generated FAQs excluded).
+- [DigiTech GNX4 product](https://digitech.com/dp/gnx4/) — 80 factory/80 user/80 optional card presets; processor count not per-algorithm CPU load. (Manufacturer product text).
+
+<!-- firmware-pitch:DigiTech::GNX4 ends -->
+
 Guitar/bass multi-effects workstation, distinct from GNX3/GNX3000. Checked 2026-10-17; partial. Own manual pp.6–7 explicitly establishes live effects processing of mic/line inputs; this supersedes the earlier unclassified vocal status.
 
 | Field | Evidence / qualification |
