@@ -201179,10 +201179,69 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC Electronic::NOVA System": {
+        "model_key": "TC Electronic::NOVA System",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2008-01-18",
+          "precision": "day",
+          "kind": "manufacturer announcement;planned shipping not confirmed first delivery",
+          "source_urls": [
+            "https://www.harmonycentral.com/news/guitars/tc-electronic-announces-nova-system-all-in-one-floor-based-guitar-solution-r7728/"
+          ],
+          "note": "Announcement published January18,2008 schedules Spring2008 shipping. This date is the announcement,not confirmed first retail shipment."
+        },
+        "firmware": {
+          "version": "1.2",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://service-tcgroup.tcelectronic.com/media/novasystem-1_2-installation-guide.pdf"
+          ],
+          "note": "Manufacturer service-update guide explicitly compares1.2 with1.13 and calls1.2 latest in its installation instructions. No dated release established or present-day latest certification;manual revision1.2 describesSW1.10 and is not this firmware. Undated guide cannot establish a support duration."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Five choices:Detune,Whammy,Octaver,Pitch Shifter,Intelligent Pitch Shifter. Fixed and intelligent modes provide two generated voices;this does not establish simultaneous input-note polyphony. Intelligent mode has12keys/13scales and−13…+13scale steps,not semitones. Fixed-shifter introduction,Voice1 explanation andlisted ranges disagree;retain the canonical range conflict.",
+          "preset": "30factory+60user presets;four variation memories are per-effect settings,not extra full-preset banks. Whammy factory presets map expression toPitch. Firmware1.2 fixes intelligent-scale changes not applying immediately andMaster:Pedal position not read on preset changes. Earlier documented behavior is not proof those bugs are absent.",
+          "dsp": "No pitch-specific DSP percentage or numerical resource measurement located. Six digital blocks andthree fixed routing architectures do not establish equal CPU shares. Pitch choice availability is not simultaneous operation ofall five algorithms;mix/feedback/pedal percentages are not processor utilization.",
+          "source_urls": [
+            "https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual",
+            "https://service-tcgroup.tcelectronic.com/media/novasystem-1_2-installation-guide.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No installed firmware,tracking test or hardware update performed.",
+            "Soft preset transitions retain delay tails;reverb usesnewpresetsettings. This is not proof of gapless pitch/harmony transitions."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.harmonycentral.com/news/guitars/tc-electronic-announces-nova-system-all-in-one-floor-based-guitar-solution-r7728/",
+            "title": "TC Electronic NOVA System launch announcement",
+            "access": "Contemporary manufacturer announcement reproduced byHarmonyCentral;date/body inspected",
+            "evidence": "January18,2008 announcement;plannedSpring2008 shipping,notactualdelivery."
+          },
+          {
+            "url": "https://service-tcgroup.tcelectronic.com/media/novasystem-1_2-installation-guide.pdf",
+            "title": "TC Electronic NOVA System1.2 service update and installation guide",
+            "access": "Indexed original manufacturer text inspected;direct endpoint unavailable",
+            "evidence": "Stable1.2 changesfrom1.13,scale andpedal-recall fixes,MIDI installation. No release date."
+          },
+          {
+            "url": "https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual",
+            "title": "TC Electronic NOVA System original English manual reproduction",
+            "access": "Originalmanualbody previously inspected andcanonical evidence reread;generatedFAQ excluded",
+            "evidence": "Revision1.2/SW1.10,pitchpp37–40,memories,expression,routing. No polyphonic guarantee orDSPcost."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC Electronic::NOVA System",
       "TC Electronic::PLETHORA X3",
       "TC Electronic::PLETHORA X5",
       "TC-Helicon::Critical Mass",
@@ -201305,12 +201364,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 281,
-    "last_model": "TC Electronic::M350",
-    "last_commit_parent": "e1f339ae377db64e341446a94aeb5c1e13b6889a",
+    "completed_model_count": 282,
+    "last_model": "TC Electronic::NOVA System",
+    "last_commit_parent": "7f90657952cdd8d140c4ad3f9bbe8d708099c197",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC Electronic::NOVA System",
       "TC Electronic::PLETHORA X3",
       "TC Electronic::PLETHORA X5",
       "TC-Helicon::Critical Mass",
@@ -201432,7 +201490,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 281,
+    "pitch_completed_model_count": 282,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -517,6 +517,30 @@ Direct analog position/endpoints/recall are inapplicable. Routing Lock is global
 
 ## NOVA System
 
+<!-- firmware-pitch:TC Electronic::NOVA System begins -->
+### Firmware and pitch audit — TC Electronic NOVA System
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2008-01-18 (manufacturer announcement;planned shipping not confirmed first delivery). Announcement published January18,2008 schedules Spring2008 shipping. This date is the announcement,not confirmed first retail shipment. [launch 1](https://www.harmonycentral.com/news/guitars/tc-electronic-announces-nova-system-all-in-one-floor-based-guitar-solution-r7728/) |
+| Firmware / latest verification | 1.2 — Located; latest status unverified. Manufacturer service-update guide explicitly compares1.2 with1.13 and calls1.2 latest in its installation instructions. No dated release established or present-day latest certification;manual revision1.2 describesSW1.10 and is not this firmware. Undated guide cannot establish a support duration. [firmware 1](https://service-tcgroup.tcelectronic.com/media/novasystem-1_2-installation-guide.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Five choices:Detune,Whammy,Octaver,Pitch Shifter,Intelligent Pitch Shifter. Fixed and intelligent modes provide two generated voices;this does not establish simultaneous input-note polyphony. Intelligent mode has12keys/13scales and−13…+13scale steps,not semitones. Fixed-shifter introduction,Voice1 explanation andlisted ranges disagree;retain the canonical range conflict. [pitch 1](https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual) [pitch 2](https://service-tcgroup.tcelectronic.com/media/novasystem-1_2-installation-guide.pdf) |
+| Pitch / preset recall | 30factory+60user presets;four variation memories are per-effect settings,not extra full-preset banks. Whammy factory presets map expression toPitch. Firmware1.2 fixes intelligent-scale changes not applying immediately andMaster:Pedal position not read on preset changes. Earlier documented behavior is not proof those bugs are absent. |
+| Pitch / DSP resources | No pitch-specific DSP percentage or numerical resource measurement located. Six digital blocks andthree fixed routing architectures do not establish equal CPU shares. Pitch choice availability is not simultaneous operation ofall five algorithms;mix/feedback/pedal percentages are not processor utilization. |
+| Pitch / qualifications | No installed firmware,tracking test or hardware update performed. Soft preset transitions retain delay tails;reverb usesnewpresetsettings. This is not proof of gapless pitch/harmony transitions. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Electronic NOVA System launch announcement](https://www.harmonycentral.com/news/guitars/tc-electronic-announces-nova-system-all-in-one-floor-based-guitar-solution-r7728/) — January18,2008 announcement;plannedSpring2008 shipping,notactualdelivery. (Contemporary manufacturer announcement reproduced byHarmonyCentral;date/body inspected).
+- [TC Electronic NOVA System1.2 service update and installation guide](https://service-tcgroup.tcelectronic.com/media/novasystem-1_2-installation-guide.pdf) — Stable1.2 changesfrom1.13,scale andpedal-recall fixes,MIDI installation. No release date. (Indexed original manufacturer text inspected;direct endpoint unavailable).
+- [TC Electronic NOVA System original English manual reproduction](https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual) — Revision1.2/SW1.10,pitchpp37–40,memories,expression,routing. No polyphonic guarantee orDSPcost. (Originalmanualbody previously inspected andcanonical evidence reread;generatedFAQ excluded).
+
+<!-- firmware-pitch:TC Electronic::NOVA System ends -->
+
 Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and G-System. Manufacturer manual revision1.2,SW1.10,E60508712: identity verified from original text on mirror. Official PDF endpoints failed;generated mirror summary/FAQ excluded. Bass/vocal suitability unresolved.
 
 <!-- comparison evidence begins -->
