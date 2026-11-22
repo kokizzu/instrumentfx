@@ -206825,10 +206825,67 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "Zoom::B2.1u": {
+        "model_key": "Zoom::B2.1u",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2005",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists B2.1u in2005 separately from B2; exact shipment date unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/jp/multi-effects/bass-effects/b21u/b21u-support/"
+          ],
+          "note": "Current exact-model support lists G Series ASIO drivers and the operation manual, but no system firmware package located. Driver2.0.0 is not device firmware. Latest version/date and release-to-update duration remain unverified; absence from this list does not prove no service update ever existed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shifter spans−12…−1, dt detune, +1…+12,+24 semitones. Pedal Pitch offers eight colors and UP/dn sweep direction. Harmonized Pitch Shifter follows selected key/scale. No explicit polyphonic/chord-tracking claim located.",
+          "preset": "40 user+40 read-only patches. Built-in pedal target is stored per patch, including MOD/SFX. External FP01/FP02 through CONTROL IN always controls volume independently of built-in pitch control; this jack alternatively accepts FS01. Built-in full-down action toggles assigned module.",
+          "dsp": "No per-pitch DSP percentage published. Nine fixed modules, up to nine simultaneous effects. Pedal Pitch, Pitch Shifter and Harmonized Pitch Shifter share MOD/SFX with chorus/flanger/vibrato/step/delay/tape-echo alternatives; only one type in that module at once.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_B21u.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No installation, hardware tracking test or CPU measurement. USB audio/ASIO support does not establish a firmware updater."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "B2.1u listed separately under2005."
+          },
+          {
+            "url": "https://zoomcorp.com/en/jp/multi-effects/bass-effects/b21u/b21u-support/",
+            "title": "Zoom B2.1u support",
+            "access": "current official package list inspected",
+            "evidence": "ASIO driver2.0.0 packages and manual, no system firmware package located."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B21u.pdf",
+            "title": "Zoom B2.1u operation manual",
+            "access": "official PDF pp4,18–21,25,32–33 inspected",
+            "evidence": "80 patches,nine modules;pitch ranges/sweeps/key harmony;per-patch built-in assignment and independent external volume pedal."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::B2.1u",
       "Zoom::B3",
       "Zoom::B3n",
       "Zoom::B6",
@@ -206873,12 +206930,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 359,
-    "last_model": "Zoom::B2 FOUR",
-    "last_commit_parent": "0519b357ee6835b223a0444a7552e4458bc208bb",
+    "completed_model_count": 360,
+    "last_model": "Zoom::B2.1u",
+    "last_commit_parent": "44c10623c4a30d39043a613448650e01030ecb35",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::B2.1u",
       "Zoom::B3",
       "Zoom::B3n",
       "Zoom::B6",
@@ -206922,7 +206978,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 359,
+    "pitch_completed_model_count": 360,
     "supplemental_model_count": 0
   },
   "model_images": {

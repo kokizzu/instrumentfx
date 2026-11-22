@@ -2509,6 +2509,30 @@ Checked2026-10-19. [Own operation manual](https://zoomcorp.com/manuals/b2four-en
 
 ## B2.1u
 
+<!-- firmware-pitch:Zoom::B2.1u begins -->
+### Firmware and pitch audit — Zoom B2.1u
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005 (manufacturer product-history year). Manufacturer chronology lists B2.1u in2005 separately from B2; exact shipment date unverified. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current exact-model support lists G Series ASIO drivers and the operation manual, but no system firmware package located. Driver2.0.0 is not device firmware. Latest version/date and release-to-update duration remain unverified; absence from this list does not prove no service update ever existed. [firmware 1](https://zoomcorp.com/en/jp/multi-effects/bass-effects/b21u/b21u-support/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter spans−12…−1, dt detune, +1…+12,+24 semitones. Pedal Pitch offers eight colors and UP/dn sweep direction. Harmonized Pitch Shifter follows selected key/scale. No explicit polyphonic/chord-tracking claim located. [pitch 1](https://zoomcorp.com/media/documents/E_B21u.pdf) |
+| Pitch / preset recall | 40 user+40 read-only patches. Built-in pedal target is stored per patch, including MOD/SFX. External FP01/FP02 through CONTROL IN always controls volume independently of built-in pitch control; this jack alternatively accepts FS01. Built-in full-down action toggles assigned module. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Nine fixed modules, up to nine simultaneous effects. Pedal Pitch, Pitch Shifter and Harmonized Pitch Shifter share MOD/SFX with chorus/flanger/vibrato/step/delay/tape-echo alternatives; only one type in that module at once. |
+| Pitch / qualifications | No installation, hardware tracking test or CPU measurement. USB audio/ASIO support does not establish a firmware updater. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — B2.1u listed separately under2005. (official chronology inspected).
+- [Zoom B2.1u support](https://zoomcorp.com/en/jp/multi-effects/bass-effects/b21u/b21u-support/) — ASIO driver2.0.0 packages and manual, no system firmware package located. (current official package list inspected).
+- [Zoom B2.1u operation manual](https://zoomcorp.com/media/documents/E_B21u.pdf) — 80 patches,nine modules;pitch ranges/sweeps/key harmony;per-patch built-in assignment and independent external volume pedal. (official PDF pp4,18–21,25,32–33 inspected).
+
+<!-- firmware-pitch:Zoom::B2.1u ends -->
+
 Bass-only multi-effects record, checked 2026-10-17. Partial verification; not B2 FOUR or B2.
 
 | Field | Evidence / qualification |
