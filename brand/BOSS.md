@@ -5275,6 +5275,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::ME-50 ends -->
 
+<!-- model-images:BOSS::ME-50 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS ME-50 — powered-on top view**
+
+[![BOSS ME-50 — powered-on top view](https://static.roland.com/assets/images/products/main/me50_main.jpg)](https://static.roland.com/assets/images/products/main/me50_main.jpg)
+
+[Image source](https://www.boss.info/global/products/me-50/). Manufacturer straight-down promotional image with the full control surface, red 5 display, tuner/effect indicators, rotary sections, panel buttons, three footswitches and complete expression pedal. The original image is only 500 pixels wide, so small labels have limited readability. Powered-on appearance is visible; independent operating-state verification is unavailable.
+
+**BOSS ME-50 — rear connections**
+
+[![BOSS ME-50 — rear connections](https://medias.audiofanzine.com/images/normal/boss-me-50-6686427.jpg)](https://medias.audiofanzine.com/images/normal/boss-me-50-6686427.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-50/). Actual user photograph, tilted but showing every rear connector and label: INPUT, GUITAR AMP R/L-MONO, LINE/PHONES, miniature AUX IN, TONE MODIFY/COMP ON/OFF (FS-5U x2; BANK UP/DOWN), power switch, DC IN for PSA adaptor, cord restraint and security slot.
+
+</details>
+<!-- model-images:BOSS::ME-50 ends -->
+
+
 Effects-only guitar multi-effects, distinct from ME-50B. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->
