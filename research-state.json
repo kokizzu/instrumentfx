@@ -216607,19 +216607,34 @@
       },
       "Korg::AX3000B": {
         "model_key": "Korg::AX3000B",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "views": {
           "top": {
             "image_url": "https://medias.audiofanzine.com/images/normal/korg-ax3000b-5655044.jpg",
             "source_url": "https://en.audiofanzine.com/bass-multi-effect/korg/Ax3000b/",
             "caption": "Korg AX3000B powered-on top controls — near-overhead view",
-            "note": "Exact AX3000B label, illuminated orange display, bank display and effect/pedal indicators are visible. Complete controls, footswitches and expression pedal shown with slight perspective; exact perpendicular top-down view remains pending. Rear-port photo remains pending: zZounds lists an exact-model rear image, but retrieval returned HTTP 403; the DJMania candidate proved to be another top view.",
+            "note": "Exact AX3000B label, illuminated orange display, bank display and effect/pedal indicators are visible. Complete controls, footswitches and expression pedal shown with slight perspective; exact perpendicular top-down view remains pending. Rear-port photo remains pending: zZounds lists an exact-model rear image, but retrieval returned HTTP 403; the DJMania candidate proved to be another top view. Additional rear candidate from Bass Workshop’s two-image Reverb listing could not be inspected: gallery-image retrieval returned HTTP500 and direct asset retrieval HTTP401. No rear-photo claim is made from listing text or image count.",
             "visual_checked": true,
             "powered_on": true,
             "exact_top_down": false,
             "sha256": "bbba93d4ee05e8ef5731974b3d60a89d63fbeacb8614416604cf7946fa951ddd"
           }
-        }
+        },
+        "unretrieved_candidates": [
+          {
+            "source_url": "https://reverb.com/item/63145530-korg-toneworks-ax3000b-bass-multi-fx",
+            "image_url": "https://rvb-img.reverb.com/i/s--gfHvUhpT--/quality%3Dmedium-low%2Cheight%3D400%2Cwidth%3D400%2Cfit%3Dcover%2Cgravity%3Dbottom/mq3tq9trv6egrjckoko2.jpg",
+            "checked_date": "2026-11-22",
+            "visual_checked": false,
+            "result": "HTTP500; untransformed /image/upload/mq3tq9trv6egrjckoko2.jpg HTTP401. Content/view unverified; not accepted as rear photo."
+          },
+          {
+            "source_url": "https://www.ebay.com/itm/388487328185",
+            "checked_date": "2026-11-22",
+            "visual_checked": false,
+            "result": "Ten images listed, but extracted gallery links resolve to item/number rather than image assets; in-app browser unavailable. No new gallery pixels inspected."
+          }
+        ]
       },
       "Korg::AX3000G": {
         "model_key": "Korg::AX3000G",
@@ -224901,6 +224916,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DK::iE-550"
+    "last_model": "Korg::AX3000B"
   }
 }
