@@ -751,11 +751,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**AX10G — unlit overhead top view**
+**AX10G powered-on overhead top view**
 
-[![AX10G — unlit overhead top view](https://medias.audiofanzine.com/images/normal/korg-ax10g-6853107.jpg)](https://medias.audiofanzine.com/images/normal/korg-ax10g-6853107.jpg)
+[![AX10G powered-on overhead top view](https://medias.audiofanzine.com/images/normal/korg-ax10g-5030149.jpg)](https://medias.audiofanzine.com/images/normal/korg-ax10g-5030149.jpg)
 
-[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/korg/Ax10g/). Exact AX10G user photograph; model label, complete expression pedal, switches and controls visible from near overhead. Display and indicator lenses are unlit, so powered-on state is not established. Slight perspective remains; powered-on straight top-down replacement pending. Rear candidate2759862 was rejected because its panel is AX10A, not AX10G.
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/korg/Ax10g/). Visually inspected exact AX10G user photograph: red display reading 1 and illuminated COMP, MODULATION, AMBIENCE and pedal indicators. Full enclosure, both footswitches, all controls and complete expression pedal are visible from near overhead. Slight perspective remains, so this is not a strict perpendicular elevation. The existing rear close-up is retained separately; no firmware or DSP capability is inferred from illuminated indicators.
 
 **AX10G rear connections — angled close-up**
 

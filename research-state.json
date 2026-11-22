@@ -218173,14 +218173,14 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/korg-ax10g-6853107.jpg",
+            "image_url": "https://medias.audiofanzine.com/images/normal/korg-ax10g-5030149.jpg",
             "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/korg/Ax10g/",
-            "caption": "AX10G — unlit overhead top view",
-            "note": "Exact AX10G user photograph; model label, complete expression pedal, switches and controls visible from near overhead. Display and indicator lenses are unlit, so powered-on state is not established. Slight perspective remains; powered-on straight top-down replacement pending. Rear candidate2759862 was rejected because its panel is AX10A, not AX10G.",
+            "caption": "AX10G powered-on overhead top view",
+            "note": "Visually inspected exact AX10G user photograph: red display reading 1 and illuminated COMP, MODULATION, AMBIENCE and pedal indicators. Full enclosure, both footswitches, all controls and complete expression pedal are visible from near overhead. Slight perspective remains, so this is not a strict perpendicular elevation. The existing rear close-up is retained separately; no firmware or DSP capability is inferred from illuminated indicators.",
             "visual_checked": true,
-            "powered_on": false,
+            "powered_on": true,
             "exact_top_down": false,
-            "sha256": "8f6ce5c2f2e6fdda62b2bec7bc97bd3cf6cd2a6d0fdde8640bcf39b87674b2c1"
+            "sha256": "118e536cda8138fce15883ea8abd2504bca39f023511a44a085854b1250289b1"
           },
           "rear": {
             "image_url": "https://herscheids.com/cdn/shop/files/IMG_6832_0206bdb1-be54-4dd7-9829-9fa43063f143.heic?v=1682615064&width=1200&format=jpg",
@@ -218190,7 +218190,16 @@
             "visual_checked": true,
             "sha256": "e1f1bbcbf7bfaf49f74fda97ae9f729adbacb5dfc17c24ee14082f1d241c581d"
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://medias.audiofanzine.com/images/normal/korg-ax10g-6853107.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/korg/Ax10g/",
+            "sha256": "8f6ce5c2f2e6fdda62b2bec7bc97bd3cf6cd2a6d0fdde8640bcf39b87674b2c1",
+            "visual_checked": true,
+            "note": "Superseded unlit overhead photograph; retained as inspected-source evidence rather than displayed as the current top view."
+          }
+        ]
       },
       "Korg::AX10B": {
         "model_key": "Korg::AX10B",
@@ -226772,6 +226781,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::MINI-X"
+    "last_model": "Korg::AX10G"
   }
 }
