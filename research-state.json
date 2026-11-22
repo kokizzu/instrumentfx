@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://nux.cherubtechnology.com/download/Manual/Amps/Electric_Guitar_Amplifiers/MightyPlugPRO/NUX_MightyPlugPRO_UserManual_English.pdf",
+    "requested_url": "https://cdn-media.empowertribe.com/6d901a7ff28e4e899dc2ccc884459b0e/voicesupport-2-reference-manual-english.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 3,
+    "frame": 7,
     "text_pages": [
-      0,
-      2
+      7,
+      7
     ],
     "index_url": "https://nuxaudio.com/product/mg100/",
     "index_needle": "MG-100",
@@ -202224,10 +202224,79 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC-Helicon::VoiceLive Touch 2": {
+        "model_key": "TC-Helicon::VoiceLive Touch 2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2013-01-24",
+          "precision": "day",
+          "kind": "official public introduction; first shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=xH16VTcHzn0"
+          ],
+          "note": "Official Things To Know introduction published January 24, 2013. This establishes public introduction, not exact first retail shipment."
+        },
+        "firmware": {
+          "version": "1.1.10 build 50",
+          "date": "2015-01-20",
+          "precision": "day",
+          "status": "latest_located",
+          "source_urls": [
+            "https://cdn-media.empowertribe.com/6d901a7ff28e4e899dc2ccc884459b0e/voicesupport-2-reference-manual-english.pdf",
+            "https://www.voiceliveeditor.com/index.php/download-voicelive-touch-2-free-edition"
+          ],
+          "note": "Manufacturer VoiceSupport 2 manual page 8 screenshot explicitly selects Touch 2 firmware 1.1.10 build 50, Release Date Jan 20, 2015, adding MP-76 support. Screenshot visually inspected from direct manufacturer PDF, SHA256 fbb0e08122e6b0610ab570763459ed899cf9c62855321a4e6f8761cf6471dd43. Independent editor compatibility lists the same B50. Latest located release, not certification that no later build exists; host manual publication date is not the firmware date."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Vocal Harmony/Double, chromatic correction, Hardtune Shift/Gender. Hardtune range ±36 semitones; Slider FX Shift Wide sweeps ±3 octaves and Shift Narrow ±1 octave. Wide shares the effective pitch range with any existing Hardtune shift. Four harmony voices or MIDI chords do not establish polyphonic mic-input transposition.",
+          "preset": "HIT changes effect on/off states, not parameter values. Guitar settings are global rather than per vocal preset. No current-build gapless pitch recall or tracking measurement.",
+          "dsp": "No pitch-specific processor percentage, allocation meter or measured resource cost located. Nine Matrix effects and harmony voice counts are not numerical DSP shares. Slider range and effect mix/correction amounts do not quantify processing consumption.",
+          "source_urls": [
+            "https://manualzz.com/doc/9506742/tc-helicon-voicelive-touch-2-reference-manual"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manual v1.2 covers older firmware 1.0.02 build37; this is distinct from the documented 1.1.10 build50 update and VoiceSupport host version. No undocumented algorithm changes inferred.",
+            "Original manufacturer reference PDF URL still returns 502; manufacturer-authored mirror body read, generated mirror touchscreen summary excluded. No hardware or firmware update performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=xH16VTcHzn0",
+            "title": "TC Helicon official VoiceLive Touch 2 introduction",
+            "access": "Official indexed channel/title/January 24, 2013 publication read",
+            "evidence": "Public introduction date, not exact first shipment."
+          },
+          {
+            "url": "https://cdn-media.empowertribe.com/6d901a7ff28e4e899dc2ccc884459b0e/voicesupport-2-reference-manual-english.pdf",
+            "title": "TC Helicon VoiceSupport 2 reference manual — Touch 2 firmware screenshot",
+            "access": "Direct 1,149,766-byte PDF fetched, page 8 rendered and visually inspected",
+            "evidence": "Touch 2 1.1.10 build50 selected; explicit January 20, 2015 release date; adds MP-76 support. Historical release, not current latest certification."
+          },
+          {
+            "url": "https://www.voiceliveeditor.com/index.php/download-voicelive-touch-2-free-edition",
+            "title": "Independent Touch 2 editor compatibility entry",
+            "access": "Indexed developer compatibility listing read",
+            "evidence": "Firmware 1.1.10 B50 support; editor version/revision date not device release date."
+          },
+          {
+            "url": "https://manualzz.com/doc/9506742/tc-helicon-voicelive-touch-2-reference-manual",
+            "title": "Manufacturer-authored Touch 2 v1.2 reference manual reproduction",
+            "access": "Original document body read, Hardtune page27 and Slider FX pages32–33; generated summary excluded",
+            "evidence": "Pitch range, shared slider range and HIT state-only operation; no input-polyphony guarantee or DSP percentage."
+          }
+        ],
+        "duration": {
+          "minimum_days": 726,
+          "maximum_days": 726,
+          "label": "1.99 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC-Helicon::VoiceLive Touch 2",
       "TC-Helicon::VoiceTone Create XT",
       "Tech 21::Acoustic Fly Rig",
       "Tech 21::Bass Fly Rig v2",
@@ -202336,12 +202405,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 295,
-    "last_model": "TC-Helicon::VoiceLive Play",
-    "last_commit_parent": "f1c7d67f7dccbbee07cefaa69ba4512c3e28194c",
+    "completed_model_count": 296,
+    "last_model": "TC-Helicon::VoiceLive Touch 2",
+    "last_commit_parent": "1ef7d1dd7c5aff505026e06d350892c647c562e8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC-Helicon::VoiceLive Touch 2",
       "TC-Helicon::VoiceTone Create XT",
       "Tech 21::Acoustic Fly Rig",
       "Tech 21::Bass Fly Rig v2",
@@ -202449,7 +202517,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 295,
+    "pitch_completed_model_count": 296,
     "supplemental_model_count": 0
   },
   "model_images": {

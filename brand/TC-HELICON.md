@@ -1719,6 +1719,31 @@ Onboard UP/DOWN each step presets;hold scrolls rapidly. Loop mode repurposes con
 
 ## VoiceLive Touch 2
 
+<!-- firmware-pitch:TC-Helicon::VoiceLive Touch 2 begins -->
+### Firmware and pitch audit — TC-Helicon VoiceLive Touch 2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2013-01-24 (official public introduction; first shipment unresolved). Official Things To Know introduction published January 24, 2013. This establishes public introduction, not exact first retail shipment. [launch 1](https://www.youtube.com/watch?v=xH16VTcHzn0) |
+| Firmware / latest verification | 1.1.10 build 50 — Located; latest status unverified. Manufacturer VoiceSupport 2 manual page 8 screenshot explicitly selects Touch 2 firmware 1.1.10 build 50, Release Date Jan 20, 2015, adding MP-76 support. Screenshot visually inspected from direct manufacturer PDF, SHA256 fbb0e08122e6b0610ab570763459ed899cf9c62855321a4e6f8761cf6471dd43. Independent editor compatibility lists the same B50. Latest located release, not certification that no later build exists; host manual publication date is not the firmware date. [firmware 1](https://cdn-media.empowertribe.com/6d901a7ff28e4e899dc2ccc884459b0e/voicesupport-2-reference-manual-english.pdf) [firmware 2](https://www.voiceliveeditor.com/index.php/download-voicelive-touch-2-free-edition) |
+| Firmware / release date | 2015-01-20 (day precision) |
+| Firmware / release-to-update duration | 1.99 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Vocal Harmony/Double, chromatic correction, Hardtune Shift/Gender. Hardtune range ±36 semitones; Slider FX Shift Wide sweeps ±3 octaves and Shift Narrow ±1 octave. Wide shares the effective pitch range with any existing Hardtune shift. Four harmony voices or MIDI chords do not establish polyphonic mic-input transposition. [pitch 1](https://manualzz.com/doc/9506742/tc-helicon-voicelive-touch-2-reference-manual) |
+| Pitch / preset recall | HIT changes effect on/off states, not parameter values. Guitar settings are global rather than per vocal preset. No current-build gapless pitch recall or tracking measurement. |
+| Pitch / DSP resources | No pitch-specific processor percentage, allocation meter or measured resource cost located. Nine Matrix effects and harmony voice counts are not numerical DSP shares. Slider range and effect mix/correction amounts do not quantify processing consumption. |
+| Pitch / qualifications | Manual v1.2 covers older firmware 1.0.02 build37; this is distinct from the documented 1.1.10 build50 update and VoiceSupport host version. No undocumented algorithm changes inferred. Original manufacturer reference PDF URL still returns 502; manufacturer-authored mirror body read, generated mirror touchscreen summary excluded. No hardware or firmware update performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Helicon official VoiceLive Touch 2 introduction](https://www.youtube.com/watch?v=xH16VTcHzn0) — Public introduction date, not exact first shipment. (Official indexed channel/title/January 24, 2013 publication read).
+- [TC Helicon VoiceSupport 2 reference manual — Touch 2 firmware screenshot](https://cdn-media.empowertribe.com/6d901a7ff28e4e899dc2ccc884459b0e/voicesupport-2-reference-manual-english.pdf) — Touch 2 1.1.10 build50 selected; explicit January 20, 2015 release date; adds MP-76 support. Historical release, not current latest certification. (Direct 1,149,766-byte PDF fetched, page 8 rendered and visually inspected).
+- [Independent Touch 2 editor compatibility entry](https://www.voiceliveeditor.com/index.php/download-voicelive-touch-2-free-edition) — Firmware 1.1.10 B50 support; editor version/revision date not device release date. (Indexed developer compatibility listing read).
+- [Manufacturer-authored Touch 2 v1.2 reference manual reproduction](https://manualzz.com/doc/9506742/tc-helicon-voicelive-touch-2-reference-manual) — Pitch range, shared slider range and HIT state-only operation; no input-polyphony guarantee or DSP percentage. (Original document body read, Hardtune page27 and Slider FX pages32–33; generated summary excluded).
+
+<!-- firmware-pitch:TC-Helicon::VoiceLive Touch 2 ends -->
+
 Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Reference manual v1.2 targets firmware1.0.02 build37; current firmware unverified. Official PDF endpoints returned502; mirrored manufacturer document bodies used,not generated summaries. Ownership unverified.
 
 <!-- comparison evidence begins -->
