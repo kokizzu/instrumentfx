@@ -216968,7 +216968,7 @@
       },
       "JOYO::GEM BOX II": {
         "model_key": "JOYO::GEM BOX II",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
             "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/JOYO-GEM-BOX-2-008-500x500.jpg",
@@ -216984,7 +216984,7 @@
             "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/JOYO-GEM-BOX-2-010-500x500.jpg",
             "source_url": "https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992",
             "caption": "JOYO GEM BOX II rear connections",
-            "note": "JOYO UK rear-angle photograph shows two full-size audio jacks, smaller AUX jack and barrel DC input. Manual identifies these as mono INPUT, shared stereo OUTPUT/PHONES, AUX IN and 9V power; labels are not legible in this image. No USB, MIDI or FX-loop connector appears in the documented panel. Screen is blank in this rear photograph.",
+            "note": "JOYO UK rear-angle photograph shows two full-size audio jacks, smaller AUX jack and barrel DC input. Manual identifies these as mono INPUT, shared stereo OUTPUT/PHONES, AUX IN and 9V power; labels are not legible in this image. No USB, MIDI or FX-loop connector appears in the documented panel. Screen is blank in this rear photograph. The supplementary manual diagram below identifies the sockets and shows OUTPUT shared between amplifier and headphones; these are alternative connection examples, not separate output sockets.\n\n[![GEM BOX II manual connection diagram](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/gembox2011-500x500.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/gembox2011-500x500.jpg)\n\n[Connection diagram source](https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992).",
             "visual_checked": true,
             "sha256": "838efa69563a534f8427d97a74381fbd402f480a6b6eacc59253a7380be61931"
           }
@@ -217006,6 +217006,14 @@
             "sha256": "4b86b34dacadad4324ba811952e72467c0a5c63a5293e7bf74657bb9282ef811",
             "powered_on": null,
             "exact_top_down": false
+          },
+          {
+            "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/gembox2011-500x500.jpg",
+            "source_url": "https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992",
+            "caption": "GEM BOX II manual connection diagram",
+            "note": "Manual connection diagram shows INPUT from guitar, shared OUTPUT to amplifier or headphones, AUX IN from an audio player and DC9V300mA. Illustration, not a rear photograph; external devices are examples, not included accessories.",
+            "visual_checked": true,
+            "sha256": "69fb4876fd51add2fe4b85ff4b212e46d876151cb4625404ee690818d342417d"
           }
         ]
       },
@@ -227347,6 +227355,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Lexicon::MX400"
+    "last_model": "JOYO::GEM BOX II"
   }
 }
