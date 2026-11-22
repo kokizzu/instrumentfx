@@ -1686,6 +1686,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::B1X FOUR ends -->
 
+<!-- model-images:Zoom::B1X FOUR begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**B1X FOUR powered overhead photograph**
+
+[![B1X FOUR powered overhead photograph](https://cdn-ak.f.st-hatena.com/images/fotolife/m/msutheki83/20210722/20210722132037.jpg)](https://cdn-ak.f.st-hatena.com/images/fotolife/m/msutheki83/20210722/20210722132037.jpg)
+
+[Image source](https://www.camekojiro.com/entry/2021/07/22/000000). Actual B1X FOUR seen nearly straight down, complete chassis and built-in treadle visible. Backlit BLACK OPT effect display and effect-2 LED are lit. Four knobs, nine push-buttons and two main footswitches are visible; treadle toe switching is documented separately in the manual.
+
+**B1X FOUR rear connections**
+
+[![B1X FOUR rear connections](https://static.bax-shop.es/image/product/496428/1667254/f3e51645/1549000594B1X-FOUR_rear.jpg)](https://static.bax-shop.es/image/product/496428/1667254/f3e51645/1549000594B1X-FOUR_rear.jpg)
+
+[Image source](https://www.bax-shop.co.uk/bass-multi-effects-pedals/zoom-b1x-four-bass-guitar-multi-effect-processor). Exact B1X FOUR rear image includes the treadle section and INPUT, AUX IN, center-negative DC9V/AD-16 labeling, micro-USB/DC5V, security slot and OUTPUT. It is not the narrower B1 FOUR image. No external expression socket appears; USB labeling alone does not establish audio/MIDI capability.
+
+</details>
+<!-- model-images:Zoom::B1X FOUR ends -->
+
+
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.
 
 ### B1X FOUR — complete retained comparison fields
