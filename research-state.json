@@ -196626,14 +196626,15 @@
         "model_key": "MOOER::GE150 Plus",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "worldwide_first_unresolved",
+          "date": "2025-09-10",
+          "precision": "day",
+          "kind": "verified Japanese sales-start proxy; first worldwide shipment unresolved",
           "source_urls": [
             "https://mooer.jp/pages/news",
-            "https://www.mooeraudio.com/products/236.html"
+            "https://www.mooeraudio.com/products/236.html",
+            "https://shop.warwick.de/en/Blog/Mooer-GE150-Plus-GE150-Plus-Li"
           ],
-          "note": "Japanese manufacturer news gives regional sales start 2025-09-10. First worldwide launch/shipment not established; regional date and May-2025 manual filename are not substituted for it."
+          "note": "MOOER Japan explicitly dates standard GE150 Plus sales start September10,2025; its Plus Li October1 entry is separate. Warwick’s exact Plus/Plus Li announcement dated September10 independently describes both editions as available. These are regional sales/announcement evidence, not authentication of first worldwide shipment. The recap span uses this qualified Japanese date; the GE150 Max worldwide date and May2025 manual filename are not transferred to Plus."
         },
         "firmware": {
           "version": "2.1.3 (August 2026 entry)",
@@ -196645,7 +196646,7 @@
             "https://cn.mooeraudio.com/Downloads_xq/4.html",
             "https://www.mooeraudio.com/news/29.html"
           ],
-          "note": "Current English/Chinese firmware notes identify Plus 2.1.3 in August 2026 with NAM A2 conversion and bug fixes. Same version label also appears in older January notes (English January 16, Chinese January 15), before April 2.1.2; exact build lineage unresolved. Installer payload not inspected. Uniform upload dates are not device-release days. Chinese native-A2-Lite supplemental claim conflicts with its conversion bullet and the English notes/official NAM roadmap; native support not verified. No first-release span calculated."
+          "note": "Current English/Chinese firmware notes identify Plus 2.1.3 in August 2026 with NAM A2 conversion and bug fixes. Same version label also appears in older January notes (English January 16, Chinese January 15), before April 2.1.2; exact build lineage unresolved. Installer payload not inspected. Uniform upload dates are not device-release days. Chinese native-A2-Lite supplemental claim conflicts with its conversion bullet and the English notes/official NAM roadmap; native support not verified. Release-to-update interval uses the explicitly qualified Japanese sales-start proxy, not a verified first worldwide shipment."
         },
         "pitch": {
           "status": "pitch_present_polyphony_unverified",
@@ -196696,10 +196697,101 @@
             "title": "GE150 Plus/Plus Li Owner’s Manual",
             "access": "Manufacturer-authored manual body read on mirror; generated diagram descriptions excluded",
             "evidence": "Pitch Shift/Detune/Octave; nine modules; 198 slots; SAVE and expression mapping."
+          },
+          {
+            "url": "https://shop.warwick.de/en/Blog/Mooer-GE150-Plus-GE150-Plus-Li",
+            "title": "Warwick Mooer GE150 Plus & GE150 Plus Li announcement",
+            "access": "Dated distributor announcement read2026-11-22",
+            "evidence": "September10,2025 article names standard and Li editions and describes both as available; corroborates regional introduction period, not exact global first shipment."
           }
         ],
-        "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "duration": {
+          "minimum_days": 325,
+          "maximum_days": 355,
+          "label": "0.89–0.97 years"
+        },
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "MOOER::GE150 Plus",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "worldwide_first_unresolved",
+              "source_urls": [
+                "https://mooer.jp/pages/news",
+                "https://www.mooeraudio.com/products/236.html"
+              ],
+              "note": "Japanese manufacturer news gives regional sales start 2025-09-10. First worldwide launch/shipment not established; regional date and May-2025 manual filename are not substituted for it."
+            },
+            "firmware": {
+              "version": "2.1.3 (August 2026 entry)",
+              "date": "2026-08",
+              "precision": "month",
+              "status": "latest_located",
+              "source_urls": [
+                "https://www.mooeraudio.com/Downloads_xq/6.html",
+                "https://cn.mooeraudio.com/Downloads_xq/4.html",
+                "https://www.mooeraudio.com/news/29.html"
+              ],
+              "note": "Current English/Chinese firmware notes identify Plus 2.1.3 in August 2026 with NAM A2 conversion and bug fixes. Same version label also appears in older January notes (English January 16, Chinese January 15), before April 2.1.2; exact build lineage unresolved. Installer payload not inspected. Uniform upload dates are not device-release days. Chinese native-A2-Lite supplemental claim conflicts with its conversion bullet and the English notes/official NAM roadmap; native support not verified. No first-release span calculated."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Exact shared Plus/Plus Li manufacturer manual lists Pitch Shift, Detune and Octave in MOD. It does not explicitly classify simultaneous-note handling as polyphonic or monophonic; octave presence does not prove chord transposition.",
+              "preset": "198 editable slots, 66 banks × 3; factory-filled subset unresolved. SAVE stores edits; expression mappings and volume settings are per preset. Held-pedal recall behavior untested.",
+              "dsp": "Nine simultaneous modules, one chosen algorithm per module. Pitch Shift shares MOD with other modulation choices; no separate additional pitch block. No isolated pitch DSP percentage, processor-load allocation table or hardware measurement located.",
+              "source_urls": [
+                "https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416"
+              ],
+              "measurements": [],
+              "notes": [
+                "Manual names both Plus editions; no Pro preset count or GS1000 Poly Shift classification transferred. Current firmware library not independently enumerated."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://mooer.jp/pages/news",
+                "title": "MOOER Japan release news",
+                "access": "Manufacturer regional dated entry read",
+                "evidence": "Plus Japanese sales 2025-09-10, separate from Plus Li October entry; worldwide first unresolved."
+              },
+              {
+                "url": "https://www.mooeraudio.com/products/236.html",
+                "title": "GE150 Plus/Plus Li manufacturer product",
+                "access": "Manufacturer joint product read",
+                "evidence": "Exact two editions, 198 slots; manual filename date not hardware launch."
+              },
+              {
+                "url": "https://www.mooeraudio.com/Downloads_xq/6.html",
+                "title": "GE150 family English firmware notes",
+                "access": "Manufacturer downloads and changelog read",
+                "evidence": "Plus 2.1.3 August 2026; conversion; same version label reused in January history."
+              },
+              {
+                "url": "https://cn.mooeraudio.com/Downloads_xq/4.html",
+                "title": "GE150 family Chinese firmware notes",
+                "access": "Manufacturer downloads and changelog read",
+                "evidence": "Plus 2.1.3 August 2026; earlier chronology and native-versus-converted contradiction."
+              },
+              {
+                "url": "https://www.mooeraudio.com/news/29.html",
+                "title": "MOOER NAM A2 roadmap",
+                "access": "Manufacturer support table read",
+                "evidence": "GE150 Plus/Pro/Max A2 conversion, separate from native A2 Lite models."
+              },
+              {
+                "url": "https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416",
+                "title": "GE150 Plus/Plus Li Owner’s Manual",
+                "access": "Manufacturer-authored manual body read on mirror; generated diagram descriptions excluded",
+                "evidence": "Pitch Shift/Detune/Octave; nine modules; 198 slots; SAVE and expression mapping."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "MOOER::GE150 Plus Li": {
         "model_key": "MOOER::GE150 Plus Li",
@@ -215015,8 +215107,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Zoom::V6-SP",
-    "last_commit_parent": "c103ae3a606b81a06462a122748c2b65e24bb421",
+    "last_model": "MOOER::GE150 Plus",
+    "last_commit_parent": "a03bd03bf57f7b6be433f634ced5dc174f548281",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
