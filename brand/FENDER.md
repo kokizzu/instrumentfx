@@ -38,11 +38,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Original Mustang Micro illuminated front/top and control-side photograph**
+**Original Mustang Micro — physical powered-on control-side photograph**
 
-[![Original Mustang Micro illuminated front/top and control-side photograph](https://media.guitarcenter.com/is/image/MMGS7/L81703000001000-02-600x600.jpg)](https://media.guitarcenter.com/is/image/MMGS7/L81703000001000-02-600x600.jpg)
+[![Original Mustang Micro — physical powered-on control-side photograph](https://img1.kakaku.k-img.com/images/maga/16797/13.jpg)](https://img1.kakaku.k-img.com/images/maga/16797/13.jpg)
 
-[Image source](https://www.guitarcenter.com/Fender/Mustang-Micro-Guitar-Headphone-Amp-Black-1500000341245.gc). Colored AMP/EQ/EFFECTS/MOD indicators are visible. Angled rather than exact top-down; actual powered state versus staged product lighting unverified. [Straight front/top photograph](https://media.guitarcenter.com/is/image/MMGS7/L81703000001000-00-600x600.jpg) shows the face without visible power indicators; exact powered-on top-down photo still pending.
+[Image source](https://kakakumag.com/hobby/?id=16797). Actual hands-on review photograph shows the original Mustang Micro held beside a guitar. The green AMP LED and white EQ, EFFECTS and MODIFY LEDs are visibly illuminated; all four paired adjustment controls and the volume wheel are visible. This is an oblique control-side/top view, not a perpendicular overhead photograph. The [straight front/top catalogue image](https://media.guitarcenter.com/is/image/MMGS7/L81703000001000-00-600x600.jpg) remains available for layout; a single actual powered-on perpendicular overhead photo remains pending. Mustang Micro Plus is a separate model.
 
 **Original Mustang Micro headphone and USB-C end ports**
 
