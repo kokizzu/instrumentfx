@@ -1918,6 +1918,32 @@ Hope Music's mixed G1x Next/B1x Next seller-page ask stays unassigned in the led
 
 ## B1Xon
 
+<!-- firmware-pitch:Zoom::B1Xon begins -->
+### Firmware and pitch audit — Zoom B1Xon
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2014 (manufacturer product-history year). Manufacturer chronology lists B1Xon separately under2014. December2013 mass-production firmware is not a retail release date; exact first shipment remains unverified. [launch 1](https://ir.zoom.co.jp/corporate/history/) |
+| Firmware / latest verification | 1.30 — Latest verified. Current exact B1Xon Windows/Mac packages are v1.30. Release date remains unverified from primary evidence; older shared history covers1.21 in March2014 and1.11 mass production in December2013, not1.30. No date inferred from updater copyright or archive metadata. [firmware 1](https://zoomcorp.com/en/gb/multi-effects/bass-effects/b1xon/b1xon-support/) [firmware 2](https://zoom.co.jp/sites/default/files/products/downloads/pdfs/B1on_B1Xon_ver121_en.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT spans −12…+12,+24 semitones with±25-cent Fine; Ba Pitch is explicitly single-note bass. Built-in treadle supports BaPDLPit and explicitly monophonic BaPDLMnP, with Color1–9 sweeps and Up/Down. General pitch polyphony is unspecified; HPS scale/key harmony alone is not proof. [pitch 1](https://zoomcorp.com/media/documents/E_B1on_B1Xon_FX-list_100.pdf) [pitch 2](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf) |
+| Pitch / preset recall | 100 patch memories. Pedal target/minimum/maximum are patch settings. AUTO ASSIGN controls corresponding parameters of multiple PEDAL effects together. INPUT VOL and OUTPUT VOL are alternatives; OUTPUT VOL excludes rhythm/looper. Toe switch toggles assigned effects without saving that ON/OFF change. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Up to five ordered effects; heavy combinations trigger PROCESSING LIMIT and bypass an effect. Change effect types to resolve capacity; five slots are not a guarantee for five heavy algorithms. |
+| Pitch / qualifications | No hardware tracking/CPU test or firmware installation. Latest version verified; latest date and elapsed release-to-update duration unresolved. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/corporate/history/) — B1on/B1Xon grouped in2014. (official chronology inspected).
+- [Zoom B1Xon support](https://zoomcorp.com/en/gb/multi-effects/bass-effects/b1xon/b1xon-support/) — Exact B1Xon System Version1.30 Windows/Mac packages; no release date shown. (official exact-model package list read).
+- [B1on/B1Xon older system-software history](https://zoom.co.jp/sites/default/files/products/downloads/pdfs/B1on_B1Xon_ver121_en.pdf) — 1.21 March2014 adds25effects;1.11 December2013 mass production. Does not date1.30. (official indexed history text read).
+- [B1on/B1Xon 100-effect list](https://zoomcorp.com/media/documents/E_B1on_B1Xon_FX-list_100.pdf) — PitchSHFT, single-note BaPitch, HPS, BaPDLPit and monophonic BaPDLMnP; star marks ver1.2 additions. (official PDF pitch section inspected).
+- [B1on/B1Xon operation manual](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf) — 100patches,fiveeffects,processing limit;AUTOASSIGNmultiplePEDALeffects,volumealternativesandunsavedtoetoggle. (official PDF pp7,10,26–27 inspected).
+
+<!-- firmware-pitch:Zoom::B1Xon ends -->
+
 Consolidated 2026-10-16 from the complete original finding and checked against the complete owned-model comparison. Technical observations remain dated2026-10-14; this move does not resolve their explicit unknowns or certify current stock. Original finding commit: `8b6664672c3f0756f754d1b1e10212421e3ca19f`. The final historical next-model sentence below is preserved provenance, not the current cursor.
 
 <!-- B1Xon preserved source begins -->

@@ -206547,10 +206547,81 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::B1Xon": {
+        "model_key": "Zoom::B1Xon",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2014",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists B1Xon separately under2014. December2013 mass-production firmware is not a retail release date; exact first shipment remains unverified."
+        },
+        "firmware": {
+          "version": "1.30",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/gb/multi-effects/bass-effects/b1xon/b1xon-support/",
+            "https://zoom.co.jp/sites/default/files/products/downloads/pdfs/B1on_B1Xon_ver121_en.pdf"
+          ],
+          "note": "Current exact B1Xon Windows/Mac packages are v1.30. Release date remains unverified from primary evidence; older shared history covers1.21 in March2014 and1.11 mass production in December2013, not1.30. No date inferred from updater copyright or archive metadata."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT spans −12…+12,+24 semitones with±25-cent Fine; Ba Pitch is explicitly single-note bass. Built-in treadle supports BaPDLPit and explicitly monophonic BaPDLMnP, with Color1–9 sweeps and Up/Down. General pitch polyphony is unspecified; HPS scale/key harmony alone is not proof.",
+          "preset": "100 patch memories. Pedal target/minimum/maximum are patch settings. AUTO ASSIGN controls corresponding parameters of multiple PEDAL effects together. INPUT VOL and OUTPUT VOL are alternatives; OUTPUT VOL excludes rhythm/looper. Toe switch toggles assigned effects without saving that ON/OFF change.",
+          "dsp": "No per-pitch DSP percentage published. Up to five ordered effects; heavy combinations trigger PROCESSING LIMIT and bypass an effect. Change effect types to resolve capacity; five slots are not a guarantee for five heavy algorithms.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_B1on_B1Xon_FX-list_100.pdf",
+            "https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No hardware tracking/CPU test or firmware installation. Latest version verified; latest date and elapsed release-to-update duration unresolved."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "B1on/B1Xon grouped in2014."
+          },
+          {
+            "url": "https://zoomcorp.com/en/gb/multi-effects/bass-effects/b1xon/b1xon-support/",
+            "title": "Zoom B1Xon support",
+            "access": "official exact-model package list read",
+            "evidence": "Exact B1Xon System Version1.30 Windows/Mac packages; no release date shown."
+          },
+          {
+            "url": "https://zoom.co.jp/sites/default/files/products/downloads/pdfs/B1on_B1Xon_ver121_en.pdf",
+            "title": "B1on/B1Xon older system-software history",
+            "access": "official indexed history text read",
+            "evidence": "1.21 March2014 adds25effects;1.11 December2013 mass production. Does not date1.30."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B1on_B1Xon_FX-list_100.pdf",
+            "title": "B1on/B1Xon 100-effect list",
+            "access": "official PDF pitch section inspected",
+            "evidence": "PitchSHFT, single-note BaPitch, HPS, BaPDLPit and monophonic BaPDLMnP; star marks ver1.2 additions."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf",
+            "title": "B1on/B1Xon operation manual",
+            "access": "official PDF pp7,10,26–27 inspected",
+            "evidence": "100patches,fiveeffects,processing limit;AUTOASSIGNmultiplePEDALeffects,volumealternativesandunsavedtoetoggle."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::B1Xon",
       "Zoom::B2",
       "Zoom::B2 FOUR",
       "Zoom::B2.1u",
@@ -206598,12 +206669,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 356,
-    "last_model": "Zoom::B1X original",
-    "last_commit_parent": "be173abfb0364720c5117b0dfe8dd88e04a7fafb",
+    "completed_model_count": 357,
+    "last_model": "Zoom::B1Xon",
+    "last_commit_parent": "902a8a13fba17bb16c1f695176a051ab119a8a81",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::B1Xon",
       "Zoom::B2",
       "Zoom::B2 FOUR",
       "Zoom::B2.1u",
@@ -206650,7 +206720,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 356,
+    "pitch_completed_model_count": 357,
     "supplemental_model_count": 0
   },
   "model_images": {
