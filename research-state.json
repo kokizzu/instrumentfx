@@ -211530,11 +211530,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "VOX::ToneLab EX": {
+        "model_key": "VOX::ToneLab EX",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://voxamps.com/wp-content/uploads/2019/01/TONELABEX.png",
+            "source_url": "https://voxamps.com/product/tonelab-ex/",
+            "caption": "Official VOX ToneLab EX product image",
+            "note": "Visually inspected exact ToneLab EX control face: thirteen top rotaries, six footswitches, twelve panel buttons, expression treadle and two speaker grilles. Official stock image displays 88 and illuminated indicators/tube area; actual powered-unit photography is unverified. Rear controls project beyond the case; strict overhead powered photograph pending.",
+            "visual_checked": true,
+            "sha256": "ad3c48b139fb4c45e654f51badb45090a9aa80a5b04fa6596701354e82171eeb",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://voxshowroom.com/ct/misc/Tonelab/EX/Tonelab_Ex_rear.jpg",
+            "source_url": "https://voxshowroom.com/us/misc/tonelab_ex.html",
+            "caption": "ToneLab EX rear-port archive photograph",
+            "note": "Visually inspected exact EX rear: SPEAKER LEVEL, USB-B, cable holder, DC12V with center-positive symbol, ON/STANDBY rocker, INPUT, AUX IN, shared OUTPUT/PHONES(STEREO/MONO), LEVEL and AMP VOX/F/M/LINE selector. Full connector/control row readable; no separate MIDI DIN or external EXP socket shown. Not a hardware routing or firmware test.",
+            "visual_checked": true,
+            "sha256": "cf20d25f7ae4ee1d0ea78b99347af643acde2e63cc67c5256df08b9d2c76cf52",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::StompLab 2G"
+    "last_model": "VOX::ToneLab EX"
   }
 }

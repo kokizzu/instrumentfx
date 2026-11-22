@@ -489,6 +489,26 @@ Sources checked:
 
 <!-- firmware-pitch:VOX::ToneLab EX ends -->
 
+<!-- model-images:VOX::ToneLab EX begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Official VOX ToneLab EX product image**
+
+[![Official VOX ToneLab EX product image](https://voxamps.com/wp-content/uploads/2019/01/TONELABEX.png)](https://voxamps.com/wp-content/uploads/2019/01/TONELABEX.png)
+
+[Image source](https://voxamps.com/product/tonelab-ex/). Visually inspected exact ToneLab EX control face: thirteen top rotaries, six footswitches, twelve panel buttons, expression treadle and two speaker grilles. Official stock image displays 88 and illuminated indicators/tube area; actual powered-unit photography is unverified. Rear controls project beyond the case; strict overhead powered photograph pending.
+
+**ToneLab EX rear-port archive photograph**
+
+[![ToneLab EX rear-port archive photograph](https://voxshowroom.com/ct/misc/Tonelab/EX/Tonelab_Ex_rear.jpg)](https://voxshowroom.com/ct/misc/Tonelab/EX/Tonelab_Ex_rear.jpg)
+
+[Image source](https://voxshowroom.com/us/misc/tonelab_ex.html). Visually inspected exact EX rear: SPEAKER LEVEL, USB-B, cable holder, DC12V with center-positive symbol, ON/STANDBY rocker, INPUT, AUX IN, shared OUTPUT/PHONES(STEREO/MONO), LEVEL and AMP VOX/F/M/LINE selector. Full connector/control row readable; no separate MIDI DIN or external EXP socket shown. Not a hardware routing or firmware test.
+
+</details>
+<!-- model-images:VOX::ToneLab EX ends -->
+
+
 Checked 2026-10-17. Partial guitar multi-effects record; distinct from LE/ST/SE. [VOX manual E1](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf),44pages,©2010;web text read,no download orvisual audit.
 
 | Field | Evidence / gaps |
