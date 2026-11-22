@@ -8694,6 +8694,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::MS-50G ends -->
 
+<!-- model-images:Zoom::MS-50G begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MS-50G control face**
+
+[![MS-50G control face](https://media.sweetwater.com/m/gx/48c78307615a2974b31a7763a005932494f11d54.jpg?auto=webp&bg-color=f2f1f0&canvas=2000%2C2000&fit=bounds&height=2000&quality=75&width=2000)](https://media.sweetwater.com/m/gx/48c78307615a2974b31a7763a005932494f11d54.jpg?auto=webp&bg-color=f2f1f0&canvas=2000%2C2000&fit=bounds&height=2000&quality=75&width=2000)
+
+[Image source](https://www.sweetwater.com/used/listings/229864-used-zoom-ms-50g-multistomp-multi-effects-pedal). Actual powered original MS-50G, with illuminated RackComp LCD and red status LED. Complete control face shows all three knobs, footswitch and four navigation-ring buttons. Viewed from above with slight perspective rather than an exactly perpendicular projection.
+
+**MS-50G rear connections**
+
+[![MS-50G rear connections](https://zoomcorp.com/media/original_images/MS-50G_rear.jpg.800x482_q70_crop_size_canvas.jpg)](https://zoomcorp.com/media/original_images/MS-50G_rear.jpg.800x482_q70_crop_size_canvas.jpg)
+
+[Image source](https://zoomcorp.com/en/jp/multi-effects/multistomp-pedals/ms-50g/). Official complete rear view shows Mini-USB and center-negative DC9V 500mA power input. Mono instrument input and stereo L/MONO and R output sockets are on the sides; their openings are not fully shown in this rear view.
+
+</details>
+<!-- model-images:Zoom::MS-50G ends -->
+
+
 Reviewed **2026-10-17** after exact original-model Shopee discovery. Original guitar MultiStomp,not MS-50G+;no ownership assertion. Partial:official product/support HTML and indexed manufacturer manual text only,no dependencies or manual/software/firmware files downloaded. Discontinued status is shown on [official regional page](https://zoomcorp.com/es/us/procesadores-multiefectos/multistomp-pedals/ms-50g/).
 
 | Field | Finding / qualification | Evidence |

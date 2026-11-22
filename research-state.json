@@ -217640,11 +217640,36 @@
             "sha256": "5c5e262ebd89215737b4daf3b97d06ede14d776965fa24fda6b5b7da9a6e4211"
           }
         }
+      },
+      "Zoom::MS-50G": {
+        "model_key": "Zoom::MS-50G",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://media.sweetwater.com/m/gx/48c78307615a2974b31a7763a005932494f11d54.jpg?auto=webp&bg-color=f2f1f0&canvas=2000%2C2000&fit=bounds&height=2000&quality=75&width=2000",
+            "source_url": "https://www.sweetwater.com/used/listings/229864-used-zoom-ms-50g-multistomp-multi-effects-pedal",
+            "caption": "MS-50G control face",
+            "note": "Actual powered original MS-50G, with illuminated RackComp LCD and red status LED. Complete control face shows all three knobs, footswitch and four navigation-ring buttons. Viewed from above with slight perspective rather than an exactly perpendicular projection.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "eca3f2491dc40edd867be6af1ddc2fbd7f81632730894b777ed9ae31a4314df9"
+          },
+          "rear": {
+            "image_url": "https://zoomcorp.com/media/original_images/MS-50G_rear.jpg.800x482_q70_crop_size_canvas.jpg",
+            "source_url": "https://zoomcorp.com/en/jp/multi-effects/multistomp-pedals/ms-50g/",
+            "caption": "MS-50G rear connections",
+            "note": "Official complete rear view shows Mini-USB and center-negative DC9V 500mA power input. Mono instrument input and stereo L/MONO and R output sockets are on the sides; their openings are not fully shown in this rear view.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "86313580cd0b42e43ae3cd082a8f6ed8e65381c2caa977e00c4bd92cf5d0a3e2"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::MS-100BT"
+    "last_model": "Zoom::MS-50G"
   }
 }
