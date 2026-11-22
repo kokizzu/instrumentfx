@@ -9359,6 +9359,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::MS-80IR Plus ends -->
 
+<!-- model-images:Zoom::MS-80IR Plus begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MS-80IR+ control face**
+
+[![MS-80IR+ control face](https://www.gitarrebass.de/app/uploads/2025/04/Zoom-MultiStomp_MS-80-IR.jpg)](https://www.gitarrebass.de/app/uploads/2025/04/Zoom-MultiStomp_MS-80-IR.jpg)
+
+[Image source](https://www.gitarrebass.de/equipment/volle-breitseite-zoom-multistomp-pedale-im-test/). Actual powered MS-80IR+ photographed for a magazine review, with illuminated MS1959 amp-model LCD. Four encoder knobs, four cross-key switches and central footswitch are fully visible. The photograph is angled overhead rather than perpendicular top-down; a straight-down replacement remains pending.
+
+**MS-80IR+ rear connections**
+
+[![MS-80IR+ rear connections](https://zoomcorp.com/media/images/USB-C_Inset_1800x900.width-800.png)](https://zoomcorp.com/media/images/USB-C_Inset_1800x900.width-800.png)
+
+[Image source](https://zoomcorp.com/ja/jp/multi-effects/multistomp-pedals/ms-80ir/). Manufacturer rear photograph shows center-negative DC9V adapter socket and USB Type-C marked DC5V. The round feature below USB is a screw. Mono INPUT and L/MONO headphone/line and R outputs are on the side panels and are not fully shown here.
+
+</details>
+<!-- model-images:Zoom::MS-80IR Plus ends -->
+
+
 **MS-80IR+**,checked2026-10-17;partial. [Own HTML manual][M80-M],©2024,Z2I-5301-02;[own product][M80-P]. Not MS-50G+ or MS-200D+.
 
 | Field | Evidence / gaps |
