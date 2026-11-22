@@ -180531,15 +180531,15 @@
       },
       "Alesis::MicroVerb 4": {
         "model_key": "Alesis::MicroVerb 4",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "1996-03",
+          "precision": "month",
+          "kind": "contemporaneous hands-on review availability proxy",
           "source_urls": [
-            "https://www.alesis.com/products/view/microverb4.html"
+            "https://www.soundonsound.com/reviews/alesis-microverb-iv"
           ],
-          "note": "Exact first release date not established by checked manufacturer product/manual. Contemporary 1996 review leads do not establish an exact first launch; no copyright or crawl date substituted."
+          "note": "Paul White’s hands-on Sound On Sound review was published March 1996 and describes the then-current Microverb IV as a new alternative to his previously purchased Midiverb IV. Used as documented availability proxy only: exact introduction and first-shipment dates remain unverified. Copyright, manual revision and web crawl dates are not launch dates."
         },
         "firmware": {
           "version": null,
@@ -180578,10 +180578,72 @@
             "title": "MicroVerb 4 official Reference Manual",
             "access": "opened_official_pdf_text",
             "evidence": "P27 Stereo Pitch Shifter/Detuner ranges; p11 STORE destinations; pp32/39 installed-version display and unsaved-edit limits. No latest firmware history established."
+          },
+          {
+            "url": "https://www.soundonsound.com/reviews/alesis-microverb-iv",
+            "title": "Paul White: Alesis Microverb IV, Sound On Sound, March 1996",
+            "access": "Contemporaneous original hands-on review text recovered through publisher search index; direct page returned403",
+            "evidence": "Publication explicitly March 1996. Reviewer reports operating the exact fourth-generation unit and compares its availability with his prior Midiverb IV purchase; supports an availability proxy, not exact first shipment."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Alesis::MicroVerb 4",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.alesis.com/products/view/microverb4.html"
+              ],
+              "note": "Exact first release date not established by checked manufacturer product/manual. Contemporary 1996 review leads do not establish an exact first launch; no copyright or crawl date substituted."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.alesis.com/products/view/microverb4.html",
+                "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf"
+              ],
+              "note": "Official discontinued-product downloads expose Reference Manual and Program Chart, not a firmware image/history. Manual pp32/39 describes reading installed software version at power-up; its 1.00 example is not certified latest. Field updatability and service-ROM revisions remain unresolved."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Stereo Pitch Shifter: Semi adjusts +/-1 octave in half-step increments; Fine +/-1 half-step. Stereo Pitch Detuner adjusts left/right by +/-1 half-step in 1-cent steps. Stereo output does not establish polyphonic input-note handling; explicit chord/polyphony claim not located.",
+              "preset": "Yes: editable programs stored in 100 user locations. Factory00-99 stores to corresponding100-199; editing a user slot overwrites that slot. Unsaved edits lost at power-off. No modern editor or firmware update implied by MIDI program backup.",
+              "dsp": "Official product specifies up to three simultaneous effects in fixed configurations; no pitch-specific CPU percentage published in checked sources. The three-effect ceiling is not three freely assignable copies of Stereo Pitch Shifter and not a resource percentage.",
+              "source_urls": [
+                "https://www.alesis.com/products/view/microverb4.html",
+                "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Pitch programs60-69/160-169 and fixed multi-effect configurations are distinct; stereo, detuning and parallel harmonies do not prove whole-chord transposition."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.alesis.com/products/view/microverb4.html",
+                "title": "Alesis MicroVerb 4 official discontinued product",
+                "access": "opened",
+                "evidence": "Up to three simultaneous effects, +/-1 octave pitch range, 100 user programs; downloads list manual/chart without firmware package."
+              },
+              {
+                "url": "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf",
+                "title": "MicroVerb 4 official Reference Manual",
+                "access": "opened_official_pdf_text",
+                "evidence": "P27 Stereo Pitch Shifter/Detuner ranges; p11 STORE destinations; pp32/39 installed-version display and unsaved-edit limits. No latest firmware history established."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Alesis::MIDIverb 4": {
         "model_key": "Alesis::MIDIverb 4",
@@ -210763,8 +210825,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "DigiTech::GNX3",
-    "last_commit_parent": "177474a416d73c9fd71180605ac28316d6b64615",
+    "last_model": "Alesis::MicroVerb 4",
+    "last_commit_parent": "b56c31175ce876550a90dd9cb1b22c4bd2d473e3",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
