@@ -9931,6 +9931,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::RFX-1100 ends -->
 
+<!-- model-images:Zoom::RFX-1100 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**RFX-1100 front control panel**
+
+[![RFX-1100 front control panel](https://zoomcorp.com/media/original_images/RFX1100_front_web.jpg.1600x900_q65_crop_size_canvas.jpg)](https://zoomcorp.com/media/original_images/RFX1100_front_web.jpg.1600x900_q65_crop_size_canvas.jpg)
+
+[Image source](https://zoomcorp.com/en/us/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-1100/). Manufacturer complete front-on control face with power, mic and level indicators shown lit. Seven rotary controls, microphone combo input, mic switch and power switch visible. Rack controls face forward; not a top-down chassis view. Promotional illumination is not independently verified.
+
+**RFX-1100 rear connections**
+
+[![RFX-1100 rear connections](https://i.ebayimg.com/images/g/OxgAAOSw1uBgLMkP/s-l1600.webp)](https://i.ebayimg.com/images/g/OxgAAOSw1uBgLMkP/s-l1600.webp)
+
+[Image source](https://www.ebay.com/itm/124577198873). Actual rear-left photograph shows IEC mains inlet/fuse and FS01 BYPASS. The matching [rear-right photograph](https://i.ebayimg.com/images/g/ugkAAOSwgAFgLMkQ/s-l1200.jpg), also visually inspected, shows OUTPUT R/L and INPUT R/L-MONO (SHA256 ce4daeb11f224a5ae287c6f7c7f312d2a4da9655aa79a1f0e2997fabc6fe2e49). A single complete rear photograph remains pending; the two sections together document the connections.
+
+</details>
+<!-- model-images:Zoom::RFX-1100 ends -->
+
+
 Rack multi-effects, checked 2026-10-17. Partial verification; unknown is not No.
 
 | Field | Evidence / qualification |
