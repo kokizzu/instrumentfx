@@ -219824,11 +219824,36 @@
             "sha256": "4b67acc0a155a75289ac32951cd35ce157027e551877f12c172e3ec3ca5de371"
           }
         }
+      },
+      "BOSS::SE-50": {
+        "model_key": "BOSS::SE-50",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/boss-se-50-stereo-effects-processor-6020729.jpg",
+            "source_url": "https://en.audiofanzine.com/multi-effects-processor/boss/se-50/",
+            "caption": "BOSS SE-50 — front control panel",
+            "note": "Powered front control-panel photograph with readable 121 Guitar Multi LCD and illuminated effect indicator; input knob, all editing buttons and power switch visible. Controls face forward on this half-rack unit; this is not a top-down chassis photograph.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "0f150fda7479becb0fe62a515b97ad53b23e408eb935f8f0921016c3da96ef61"
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/boss-se-50-stereo-effects-processor-6800135.jpeg",
+            "source_url": "https://fr.audiofanzine.com/multieffet/boss/se-50/",
+            "caption": "BOSS SE-50 — rear connections",
+            "note": "Clear full rear view showing AC 12V 1A adaptor input, MIDI OUT/IN, EFFECT REMOTE and NUMBER SHIFT jacks, stereo outputs, -20/+4 dBm level selector and stereo inputs.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "9a5ed83642b0591ca22fee35cb05ecfcacec8c2cfc094b024545ec181ef23a93"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-5"
+    "last_model": "BOSS::SE-50"
   }
 }

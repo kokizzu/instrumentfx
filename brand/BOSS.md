@@ -6784,6 +6784,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::SE-50 ends -->
 
+<!-- model-images:BOSS::SE-50 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS SE-50 — front control panel**
+
+[![BOSS SE-50 — front control panel](https://medias.audiofanzine.com/images/normal/boss-se-50-stereo-effects-processor-6020729.jpg)](https://medias.audiofanzine.com/images/normal/boss-se-50-stereo-effects-processor-6020729.jpg)
+
+[Image source](https://en.audiofanzine.com/multi-effects-processor/boss/se-50/). Powered front control-panel photograph with readable 121 Guitar Multi LCD and illuminated effect indicator; input knob, all editing buttons and power switch visible. Controls face forward on this half-rack unit; this is not a top-down chassis photograph.
+
+**BOSS SE-50 — rear connections**
+
+[![BOSS SE-50 — rear connections](https://medias.audiofanzine.com/images/normal/boss-se-50-stereo-effects-processor-6800135.jpeg)](https://medias.audiofanzine.com/images/normal/boss-se-50-stereo-effects-processor-6800135.jpeg)
+
+[Image source](https://fr.audiofanzine.com/multieffet/boss/se-50/). Clear full rear view showing AC 12V 1A adaptor input, MIDI OUT/IN, EFFECT REMOTE and NUMBER SHIFT jacks, stereo outputs, -20/+4 dBm level selector and stereo inputs.
+
+</details>
+<!-- model-images:BOSS::SE-50 ends -->
+
+
 Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. Manufacturer documents guitar effects and vocal-specific processing. Bass support is documented in the French own-manual follow-up below;exact offered revision andownership remainunresolved.
 
 | Required field | Verified evidence / unresolved detail |
