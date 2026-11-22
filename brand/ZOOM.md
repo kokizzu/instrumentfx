@@ -5923,6 +5923,33 @@ The older Lintang Kemukus Musik Shop item680715980/49705870895 still opens atRp1
 
 ## G3Xn
 
+<!-- firmware-pitch:Zoom::G3Xn begins -->
+### Firmware and pitch audit — Zoom G3Xn
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2016 (manufacturer launch year). Official international announcement dated October 17, 2016. Year precision retained: regional availability differs; production firmware date is not a retail date. [launch 1](https://www.zoom.co.jp/node/750) |
+| Firmware / latest verification | 2.20 — Latest verified. Current G3Xn Windows/Mac packages match May 2019 history (Guitar Lab editor and intermittent USB connection fixes). 2.00 April 2018 adds Guitar Lab 3 support, encoder improvements, OutputVP and previously downloadable effects. 1.10 November 2016 fixes looper/rhythm recording; 1.00 October 2016 is production firmware. Later Guitar Lab/effect releases are not system firmware. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/) [firmware 2](https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf) |
+| Firmware / release date | 2019-05 (month precision) |
+| Firmware / release-to-update duration | 2.33–3.41 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT: −12…+12,+24 semitones, ±25-cent fine tuning and wet/dry balance. MonoPitch and PDL MnPit explicitly target single notes; HPS is key/scale-based. PDL Pitch offers nine pedal mappings. Generic PitchSHFT/PDL Pitch chord support is unverified in the official list. [pitch 1](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G3n_G3Xn.pdf) [pitch 2](https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf) [pitch 3](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf) [pitch 4](https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf) |
+| Pitch / preset recall | 150 patches retain effect parameters and states, with auto-save or manual confirmation. G3Xn has a built-in expression treadle and front-end pedal switch: toe toggling does not change the saved ON/OFF setting, while the effect footswitch does. Select a PEDAL-category effect for pedal control. External FP02/CONTROL IN belongs to G3n. OutputVP (2.00+) carries volume across patch changes. |
+| Pitch / DSP resources | Official chart: PitchSHFT, MonoPitch, HPS, PDL Pitch and PDL MnPit each cost 7/100 processing units (7% of documented capacity); Detune 6/100. Up to seven effects subject to resource limits; PROCESS OVERFLOW bypasses effects. These are published budget figures, not measured hardware CPU utilization. |
+| Pitch / qualifications | Documentation only; no firmware installation, unofficial cross-model effect imports or hardware tracking test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [G3n/G3Xn official launch announcement](https://www.zoom.co.jp/node/750) — October 17, 2016 announcement; up to seven chained effects. (official announcement inspected).
+- [G3n/G3Xn support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/) — Separate G3Xn 2.20 Windows/Mac packages; Guitar Lab remains separate software. (current official package list inspected).
+- [G3n/G3Xn firmware history](https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf) — 2.20 May 2019; 2.00 April 2018; 1.10 November 2016; production 1.00 October 2016. (official indexed PDF text inspected).
+- [G3n/G3Xn operation manual](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G3n_G3Xn.pdf) — 150 patches; G3Xn built-in pedal and toe-switch state caveat (p42); G3n-only external FP02; seven-effect resource limit and overflow bypass. (official indexed manual text inspected; alternate current PDF exceeds fetch size).
+- [G5n/G3n/G3Xn effect parameters](https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf) — PitchSHFT, mono variants, HPS and pedal pitch mappings; no generic chord-support claim. (official support-linked PDF inspected).
+- [Effect Processing Power Chart v2](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf) — G3n/G3Xn capacity 100; PitchSHFT/MonoPitch/HPS/PDL Pitch/PDL MnPit each 7, Detune 6. (official support-linked six-page PDF inspected).
+
+<!-- firmware-pitch:Zoom::G3Xn ends -->
+
 Guitar multi-effects; checked **2026-10-17**, partial first pass. Exact G3Xn, not G3n, G3X or G3. Bass capability unresolved; no ownership inferred. Manufacturer UK page marks discontinued; aftermarket offers do not reverse that status.
 
 <!-- comparison evidence begins -->
