@@ -218833,11 +218833,36 @@
             "sha256": "252d972d4e4fab46a0894814705919ef8c9d1102fb4d66630541209d692070be"
           }
         }
+      },
+      "Zoom::V3": {
+        "model_key": "Zoom::V3",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://zoomcorp.com/media/original_images/V3_top_0.jpg.0x800_q80_crop-%2Cscale_focal_area-1880%2C1640%2C3485%2C2868_size_canvas.jpg",
+            "source_url": "https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/",
+            "caption": "V3 control face",
+            "note": "Manufacturer complete straight-down control face with illuminated HARMONY, ENHANCE, harmony buttons and green CLIP/power indicator. Five top rotary controls, 16 effect pads, ENHANCE/EFFECT OFF and five harmony buttons visible. Promotional illumination is not independently verified.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "6e0065be55c477b2fb33ea4fcda11bd8f1dd4865103ac835d56b6ad3042bb682"
+          },
+          "rear": {
+            "image_url": "https://zoomcorp.com/media/original_images/V3_Rear_0.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+            "source_url": "https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/",
+            "caption": "V3 rear connections",
+            "note": "Manufacturer complete rear view: XLR MIC IN, PHANTOM switch, mic VOLUME, AUX IN, OUTPUT R/L, USB Micro-B DC5V, PHONES and its VOLUME, power switch, center-negative DC9V and CONTROL IN. Threaded mounting point and security slot also visible.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "165aac007d7c18a361f3a3e5e6b52eff6987cae50ac587aa2de9c8e43692f677"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::RFX-2200"
+    "last_model": "Zoom::V3"
   }
 }
