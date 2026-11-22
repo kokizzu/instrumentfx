@@ -213,11 +213,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**MX200 front control face, rear and perspective product composite**
+**MX200 powered-on full control-face photograph**
 
-[![MX200 front control face, rear and perspective product composite](https://medias.audiofanzine.com/images/normal/lexicon-mx200-2045153.jpg)](https://medias.audiofanzine.com/images/normal/lexicon-mx200-2045153.jpg)
+[![MX200 powered-on full control-face photograph](https://i.ebayimg.com/images/g/rmkAAeSwd6NpyoMm/s-l1200.webp)](https://i.ebayimg.com/images/g/rmkAAeSwd6NpyoMm/s-l1200.webp)
 
-[Image source](https://fr.audiofanzine.com/multieffet/lexicon/MX200/). Visually inspected composite: ten rotary controls, effect matrix and two-character green display depicted as 88. This is a product graphic, not an independently verified powered-on operating photograph. Upper image is a nearly straight front control face; it is not literal top-down. Powered-on hardware photograph and literal overhead view remain pending.
+[Image source](https://pa.ebay.com/b/Chorus-Active-Signal-Processors-Rack-Effects/23791/bn_3123638). Physical rack unit photographed on a wooden surface with complete front panel and rack ears visible. Green program display reads35; green routing/effect/parameter indicators and red indicators visibly illuminated. Elevated oblique front view, not literal top-down. Program number does not establish firmware revision. Source is a marketplace category page and its image may outlive the listing. [Previous product layout composite](https://medias.audiofanzine.com/images/normal/lexicon-mx200-2045153.jpg).
 
 **MX200 straight rear-port photograph**
 
