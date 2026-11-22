@@ -210941,11 +210941,37 @@
             "note": "Visually inspected back shell and plug hinge; no readable connector row. Not substituted for a port photograph."
           }
         ]
+      },
+      "Valeton::Rushead Max RH-100": {
+        "model_key": "Valeton::Rushead Max RH-100",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/RusheadMax_Front_With_Light_Hi_V01_181217_cc6a787a-41ee-4049-b2a6-7378edb8cfb2_1445x.png?v=1641361265",
+            "source_url": "https://shop.valeton.net/products/rushead-max",
+            "caption": "Official Rushead Max RH-100 control-face stock image",
+            "note": "Visually inspected exact guitar Rushead Max control face: five edge knobs, three TYPE sliders and four blue lights, plus attached instrument plug. No separate footswitch or screen visible. Illuminated stock artwork does not establish actual powered-unit photography; strict overhead powered photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "8b3dc95e216cca6f816efccdf57a730a16efc4b6db6b1f760b070d8c12a15ac2",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/RusheadMax_Right_Hi_V01_181217_1445x.png?v=1641361261",
+            "source_url": "https://shop.valeton.net/products/rushead-max",
+            "caption": "Official Rushead Max RH-100 connector-side stock image",
+            "note": "Visually inspected connector side: AUX IN and headphone sockets plus attached quarter-inch instrument plug visible. This is a side view, not a rear connector row. Opposite charging edge is outside the frame, so complete connector coverage remains pending; no USB data/update function inferred.",
+            "visual_checked": true,
+            "sha256": "c8a3ef248f96355a3f734cc037007fc4e85119f8a6d311401940dcfd27b34bc1",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Rushead Max Bass RH-101"
+    "last_model": "Valeton::Rushead Max RH-100"
   }
 }

@@ -3435,6 +3435,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::Rushead Max RH-100 ends -->
 
+<!-- model-images:Valeton::Rushead Max RH-100 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Official Rushead Max RH-100 control-face stock image**
+
+[![Official Rushead Max RH-100 control-face stock image](https://shop.valeton.net/cdn/shop/products/RusheadMax_Front_With_Light_Hi_V01_181217_cc6a787a-41ee-4049-b2a6-7378edb8cfb2_1445x.png?v=1641361265)](https://shop.valeton.net/cdn/shop/products/RusheadMax_Front_With_Light_Hi_V01_181217_cc6a787a-41ee-4049-b2a6-7378edb8cfb2_1445x.png?v=1641361265)
+
+[Image source](https://shop.valeton.net/products/rushead-max). Visually inspected exact guitar Rushead Max control face: five edge knobs, three TYPE sliders and four blue lights, plus attached instrument plug. No separate footswitch or screen visible. Illuminated stock artwork does not establish actual powered-unit photography; strict overhead powered photograph remains pending.
+
+**Official Rushead Max RH-100 connector-side stock image**
+
+[![Official Rushead Max RH-100 connector-side stock image](https://shop.valeton.net/cdn/shop/products/RusheadMax_Right_Hi_V01_181217_1445x.png?v=1641361261)](https://shop.valeton.net/cdn/shop/products/RusheadMax_Right_Hi_V01_181217_1445x.png?v=1641361261)
+
+[Image source](https://shop.valeton.net/products/rushead-max). Visually inspected connector side: AUX IN and headphone sockets plus attached quarter-inch instrument plug visible. This is a side view, not a rear connector row. Opposite charging edge is outside the frame, so complete connector coverage remains pending; no USB data/update function inferred.
+
+</details>
+<!-- model-images:Valeton::Rushead Max RH-100 ends -->
+
+
 Checked 2026-10-18; partial. Guitar multi-effects headphone amplifier, distinct from bass RH-101 and older Rushead variants. Ownership unconfirmed.
 
 | Field | Evidence / qualification |
