@@ -8099,6 +8099,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::GFX-3 ends -->
 
+<!-- model-images:Zoom::GFX-3 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**GFX-3 control face**
+
+[![GFX-3 control face](https://medias.audiofanzine.com/images/normal/zoom-gfx-3-404547.jpg)](https://medias.audiofanzine.com/images/normal/zoom-gfx-3-404547.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/GFX-3/). Actual GFX-3 with complete control face and treadle visible from an angled overhead view. Powered operation is unverified: segment outlines are visible but no clearly active patch indication or footswitch LED. A powered perpendicular photograph remains pending.
+
+**GFX-3 rear connections**
+
+[![GFX-3 rear connections](https://i.ebayimg.com/images/g/sXQAAOSwGnVoUldi/s-l1200.png)](https://i.ebayimg.com/images/g/sXQAAOSwGnVoUldi/s-l1200.png)
+
+[Image source](https://www.ebay.com/itm/125369232221). Actual complete rear: INPUT, shared OUTPUT [PHONES], POWER ON/OFF switch, center-negative DC 9V 300mA inlet and cable restraint. No separate headphone jack, USB or MIDI ports are shown.
+
+</details>
+<!-- model-images:Zoom::GFX-3 ends -->
+
+
 Guitar multi-effects;distinct from GFX-5/G3. Checked2026-10-17;partial. Manufacturer discontinued. Bass/vocal suitability and ownership unverified.
 
 | Field | Finding / qualification | Evidence |

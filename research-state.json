@@ -217185,11 +217185,36 @@
             "sha256": "a86a2e93a1d224e6a06cd0953fb650b0e5d0b539d1343e4ac012e867461134bf"
           }
         }
+      },
+      "Zoom::GFX-3": {
+        "model_key": "Zoom::GFX-3",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-gfx-3-404547.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/GFX-3/",
+            "caption": "GFX-3 control face",
+            "note": "Actual GFX-3 with complete control face and treadle visible from an angled overhead view. Powered operation is unverified: segment outlines are visible but no clearly active patch indication or footswitch LED. A powered perpendicular photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "3c597380b4fac1358a3dae7e37723d3ab810ae5d6a4023b20c7ff07217c2d00e"
+          },
+          "rear": {
+            "image_url": "https://i.ebayimg.com/images/g/sXQAAOSwGnVoUldi/s-l1200.png",
+            "source_url": "https://www.ebay.com/itm/125369232221",
+            "caption": "GFX-3 rear connections",
+            "note": "Actual complete rear: INPUT, shared OUTPUT [PHONES], POWER ON/OFF switch, center-negative DC 9V 300mA inlet and cable restraint. No separate headphone jack, USB or MIDI ports are shown.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "928d48c6f97f2266b1df47253e2d31787fe87b9a5891645f9b012a6cfe6201b5"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G7.1ut"
+    "last_model": "Zoom::GFX-3"
   }
 }
