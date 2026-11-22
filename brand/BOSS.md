@@ -258,6 +258,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::AD-10 ends -->
 
+<!-- model-images:BOSS::AD-10 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS AD-10 — powered-on top view**
+
+[![BOSS AD-10 — powered-on top view](https://static.roland.com/assets/images/products/main/ad-10_main.jpg)](https://static.roland.com/assets/images/products/main/ad-10_main.jpg)
+
+[Image source](https://www.boss.info/global/products/ad-10/). Complete manufacturer straight-down promotional view with active red 10 display, lit section/output indicators, blue footswitch indicators, all rotary controls and panel buttons, and three footswitches. The original is only 445 pixels wide, limiting fine-label readability. Powered-on appearance is visible; independent operating-state verification is unavailable.
+
+**BOSS AD-10 — rear connections**
+
+[![BOSS AD-10 — rear connections](https://www.altomusic.com/cdn/shop/files/ad-10_r.jpg?v=1692035161&width=1946)](https://www.altomusic.com/cdn/shop/files/ad-10_r.jpg?v=1692035161&width=1946)
+
+[Image source](https://www.altomusic.com/products/boss-ad-10-acoustic-preamp-ad-10). Complete retailer-hosted promotional rear-panel image with readable labels: GUITAR IN1/2 and individual INPUT SENS controls, SEND/RETURN, LINE OUT R/MONO and L/PHONES, XLR OUT R/L, ground-lift and stereo/mono switches, CTL1/2/EXP, USB-B, DC IN for PSA-S adaptor and power switch.
+
+</details>
+<!-- model-images:BOSS::AD-10 ends -->
+
+
 Acoustic-electric guitar multi-effects/preamp, checked2026-10-17; partial. [Manufacturer product/specifications][AD10-P] explicitly document multiple effect families; not the dedicated BOSS AC-3 acoustic simulator. Bass/vocal capability and ownership unestablished.
 
 | Field | Verified evidence / gaps |
