@@ -206681,15 +206681,15 @@
       },
       "Mosky::RD5": {
         "model_key": "Mosky::RD5",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first hardware release not verified",
+          "date": "2020",
+          "precision": "year",
+          "kind": "public_demo_availability_by_year_proxy",
           "source_urls": [
-            "https://www.moskyaudio.com/multi-effects/129.html"
+            "https://www.youtube.com/watch?v=YR1BUgE4nRM"
           ],
-          "note": "Undated manufacturer description; seller year fields, database publication and image migration timestamps do not establish first release."
+          "note": "Original Ian Sheridan RD5 demo metadata is dated May 11, 2020, establishing public demonstration during 2020. Year-only availability-by proxy, not first-sale date: a separate catalogue entry already existed April 6, 2020, and earlier release remains possible. Neither date is authenticated manufacturer launch evidence."
         },
         "firmware": {
           "version": null,
@@ -206727,10 +206727,71 @@
             "title": "Mosky manufacturer manual index",
             "access": "Manufacturer body inspected",
             "evidence": "No manual entries exposed; no exact RD5 firmware updater found. Product-embedded images are separate resources."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=YR1BUgE4nRM",
+            "title": "Ian Sheridan — Mosky RD5",
+            "access": "indexed_original_video_metadata",
+            "evidence": "Original exact-model demo published May 11, 2020; description identifies Mosky RD5 alongside Squier Cabronita and Fender Vaporizer. Establishes 2020 public demonstration only; no first-sale date, firmware or pitch measurement."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Mosky::RD5",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first hardware release not verified",
+              "source_urls": [
+                "https://www.moskyaudio.com/multi-effects/129.html"
+              ],
+              "note": "Undated manufacturer description; seller year fields, database publication and image migration timestamps do not establish first release."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.moskyaudio.com/multi-effects/129.html",
+                "https://www.moskyaudio.com/mosky.html"
+              ],
+              "note": "No exact RD5 firmware release, updater or changelog found in checked manufacturer pages and searches. Manual index exposes no document entries; embedded product illustrations are separate. Internal firmware/non-updatability not established; update span unknown."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Manufacturer lists reverb, delay, booster, overdrive and buffer. No dedicated pitch-shift, transpose, octave or harmonizer documented; reverb/delay presence alone does not establish pitch algorithms or polyphony.",
+              "preset": "Factory/user memory, electronic program recall and programmable pitch-state storage unverified.",
+              "dsp": "No pitch-specific CPU/DSP budget located. Five named functions are not five freely assignable processors or a measured 20% cost per function.",
+              "source_urls": [
+                "https://www.moskyaudio.com/multi-effects/129.html"
+              ],
+              "measurements": [],
+              "notes": [
+                "Keep RD5 distinct from Mosky RC5/DC5/SOL918; do not inherit chorus, distortion or firmware from siblings."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.moskyaudio.com/multi-effects/129.html",
+                "title": "Mosky RD5 current manufacturer product page",
+                "access": "Manufacturer body inspected",
+                "evidence": "Undated five-function list: reverb/delay/booster/overdrive/buffer; no dedicated pitch or firmware release documented."
+              },
+              {
+                "url": "https://www.moskyaudio.com/mosky.html",
+                "title": "Mosky manufacturer manual index",
+                "access": "Manufacturer body inspected",
+                "evidence": "No manual entries exposed; no exact RD5 firmware updater found. Product-embedded images are separate resources."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Mosky::SOL918": {
         "model_key": "Mosky::SOL918",
@@ -217968,8 +218029,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Mosky::DC5",
-    "last_commit_parent": "d3432510d82ffc1f7422be3f598c45566c147eb8",
+    "last_model": "Mosky::RD5",
+    "last_commit_parent": "76d8a0a55b0b58b20ed136f00be17de1b490031d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
