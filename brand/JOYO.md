@@ -30,7 +30,7 @@ The complete model-specific field values, explicit unknowns, price caveats, sour
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. First hardware release date not established. Official JOYO demo dated March 21, 2017 confirms promotion by then, not first shipment. The 2020 manual upload is not a launch date. [launch 1](https://www.joyoaudio.com/product/84.html?productCateId=76) [launch 2](https://www.youtube.com/watch?v=tI8bO8GixoA) |
+| Firmware / first hardware release | 2017-01-29 (NAMM-tagged catalogue publication proxy; exact first sale unconfirmed). The exact GEM BoX II catalogue entry is dated January 29, 2017, tagged NAMM2017, and included in the January30 weekly overview. This dates public catalogue documentation, not authenticated first worldwide retail shipment. JOYO’s March21,2017 official demo is later promotion; 2020 manual upload is later documentation, not a launch date. No original-model or GEM BOX III dates transferred. [launch 1](https://www.effectsdatabase.com/model/joyo/gembox/2) |
 | Firmware / latest verification | Not verified — No public firmware located. Exact-model global/UK pages and owner manual checked; no public II firmware package, updater or version history located. This does not establish absence of factory firmware or service updates. III/K8 software is not II firmware. [firmware 1](https://www.joyoaudio.com/product/84.html?productCateId=76) [firmware 2](https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf) [firmware 3](https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -47,6 +47,7 @@ Sources checked:
 - [JOYO GEM BOX II owner manual](https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf) — JOYO/II cover identity, fixed eight-module chain, MOD Pitch table and pedal assignment marker; no polyphony/DSP percentage. (Original 32-page PDF mirrored by SWAMP; SHA256 c5763a9c4ff223c2b1287c8352f2b184bf589a0d4c23c35833834f84bd1d4386; cover and printed pages 20/23 visually inspected).
 - [JOYO UK GEM BOX II product page](https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992) — Exact II model and product pictures; sibling software not assigned to this model. (Manufacturer-linked regional site read).
 - [JOYO AUDIO GEM BOX II official demo](https://www.youtube.com/watch?v=tI8bO8GixoA) — March 21, 2017 public demonstration; not proof of initial launch/shipment date. (Official manufacturer video publication metadata read).
+- [JOYO GEM BoX II catalogue record](https://www.effectsdatabase.com/model/joyo/gembox/2) — Published January29,2017, NAMM2017 tag; catalogue date proxy, not manufacturer first-shipment confirmation. (Exact-model publication header and NAMM tag checked2026-11-22).
 
 <!-- firmware-pitch:JOYO::GEM BOX II ends -->
 

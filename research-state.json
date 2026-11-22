@@ -190966,14 +190966,13 @@
         "model_key": "JOYO::GEM BOX II",
         "checked_date": "2026-11-21",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2017-01-29",
+          "precision": "day",
+          "kind": "NAMM-tagged catalogue publication proxy; exact first sale unconfirmed",
           "source_urls": [
-            "https://www.joyoaudio.com/product/84.html?productCateId=76",
-            "https://www.youtube.com/watch?v=tI8bO8GixoA"
+            "https://www.effectsdatabase.com/model/joyo/gembox/2"
           ],
-          "note": "First hardware release date not established. Official JOYO demo dated March 21, 2017 confirms promotion by then, not first shipment. The 2020 manual upload is not a launch date."
+          "note": "The exact GEM BoX II catalogue entry is dated January 29, 2017, tagged NAMM2017, and included in the January30 weekly overview. This dates public catalogue documentation, not authenticated first worldwide retail shipment. JOYO’s March21,2017 official demo is later promotion; 2020 manual upload is later documentation, not a launch date. No original-model or GEM BOX III dates transferred."
         },
         "firmware": {
           "version": null,
@@ -191025,10 +191024,86 @@
             "title": "JOYO AUDIO GEM BOX II official demo",
             "access": "Official manufacturer video publication metadata read",
             "evidence": "March 21, 2017 public demonstration; not proof of initial launch/shipment date."
+          },
+          {
+            "url": "https://www.effectsdatabase.com/model/joyo/gembox/2",
+            "title": "JOYO GEM BoX II catalogue record",
+            "access": "Exact-model publication header and NAMM tag checked2026-11-22",
+            "evidence": "Published January29,2017, NAMM2017 tag; catalogue date proxy, not manufacturer first-shipment confirmation."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "JOYO::GEM BOX II",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.joyoaudio.com/product/84.html?productCateId=76",
+                "https://www.youtube.com/watch?v=tI8bO8GixoA"
+              ],
+              "note": "First hardware release date not established. Official JOYO demo dated March 21, 2017 confirms promotion by then, not first shipment. The 2020 manual upload is not a launch date."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.joyoaudio.com/product/84.html?productCateId=76",
+                "https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf",
+                "https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992"
+              ],
+              "note": "Exact-model global/UK pages and owner manual checked; no public II firmware package, updater or version history located. This does not establish absence of factory firmware or service updates. III/K8 software is not II firmware."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Own manual MOD table lists Pitch, described as changing pitch with Depth or Degree control and expression-pedal assignment marker. No polyphonic input claim, interval range or measured tracking established. Original GEM BOX -12/+12 range is not transferred to II.",
+              "preset": "80 factory plus 80 user patches; editable settings save to user memory. Pitch belongs to the MOD choice within a patch; 160 memories are not 160 simultaneous effects.",
+              "dsp": "Eight fixed modules: FX→DS→AMP→NS→EQ→MOD→DLY→REV. Pitch is a MOD alternative alongside chorus/flanger and others; no numeric per-pitch CPU percentage or processor-load meter documented. Module occupancy is not an equal-share DSP percentage.",
+              "source_urls": [
+                "https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf",
+                "https://www.joyoaudio.com/product/84.html?productCateId=76"
+              ],
+              "measurements": [],
+              "notes": [
+                "The Pitch table wording is imprecise (periodic pitch influence), so the audit records the named pitch effect without assuming a polyphonic drop-tuning algorithm. No hardware or latency test."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.joyoaudio.com/product/84.html?productCateId=76",
+                "title": "JOYO GEM BOX II global product/download page",
+                "access": "Current exact-model manufacturer page read",
+                "evidence": "II identity, eight modules, 66 types, 80+80 patches; manual upload June 28, 2020, no firmware package found."
+              },
+              {
+                "url": "https://www.swamp.net.au/assets/brochures/JY-Gembox-2.pdf",
+                "title": "JOYO GEM BOX II owner manual",
+                "access": "Original 32-page PDF mirrored by SWAMP; SHA256 c5763a9c4ff223c2b1287c8352f2b184bf589a0d4c23c35833834f84bd1d4386; cover and printed pages 20/23 visually inspected",
+                "evidence": "JOYO/II cover identity, fixed eight-module chain, MOD Pitch table and pedal assignment marker; no polyphony/DSP percentage."
+              },
+              {
+                "url": "https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992",
+                "title": "JOYO UK GEM BOX II product page",
+                "access": "Manufacturer-linked regional site read",
+                "evidence": "Exact II model and product pictures; sibling software not assigned to this model."
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=tI8bO8GixoA",
+                "title": "JOYO AUDIO GEM BOX II official demo",
+                "access": "Official manufacturer video publication metadata read",
+                "evidence": "March 21, 2017 public demonstration; not proof of initial launch/shipment date."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "JOYO::GEM BOX III": {
         "model_key": "JOYO::GEM BOX III",
@@ -214512,8 +214587,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "JOYO::GEM BOX original",
-    "last_commit_parent": "a875c8c9e3e69edcfa8569983a8c2c9589cb0011",
+    "last_model": "JOYO::GEM BOX II",
+    "last_commit_parent": "2a008302826d1c95aa00f92431ea82e39b2a04df",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
