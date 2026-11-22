@@ -209480,10 +209480,85 @@
           "label": "0.67–0.84 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::MS-80IR Plus": {
+        "model_key": "Zoom::MS-80IR Plus",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2024-08",
+          "precision": "month",
+          "kind": "manufacturer announced retail release month",
+          "source_urls": [
+            "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240802/20240802561450.pdf"
+          ],
+          "note": "Zoom disclosure dated August 2, 2024 announces Japanese retail from early August 2024. Initial firmware production July 2024 is not the retail date; exact day unverified."
+        },
+        "firmware": {
+          "version": "1.10",
+          "date": "2025-07",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-80ir/ms-80ir-plus_support/",
+            "https://zoomcorp.com/documents/3732/MS-80IRplus_SystemSoftwareVersionHistory_110_en.pdf"
+          ],
+          "note": "Current official support offers 1.10; history dates it July 2025, adding USB MODE for broader MIDI converter/controller compatibility. 1.00 July 2024 is initial production. IR Loader, driver and IR-library versions are separate."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No dedicated semitone pitch shifter, harmonizer or octaver in the reviewed complete official effect list. TAPE ECHO changes echo pitch when delay time changes; this is not documented as controllable transpose or polyphonic pitch shifting.",
+          "preset": "80 patch memories retain effect settings and on/off states; AUTO SAVE defaults ON, with manual save/copy and PRESELECT available. No expression input documented.",
+          "dsp": "A patch supports one amp, one studio ambience (or user IR) and one other effect. Studio ambience and user IR are mutually exclusive; selecting IR bypasses the amp cabinet. No pitch DSP cost applies to the documented library; no per-algorithm CPU percentage published.",
+          "source_urls": [
+            "https://zoomcorp.com/manuals/ms-80irplus-en/",
+            "https://zoomcorp.com/media/documents/E_MS-80IRplus_FX-list.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no hardware test or third-party effect installation."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240802/20240802561450.pdf",
+            "title": "Zoom MS-80IR+ launch disclosure",
+            "access": "manufacturer news-release PDF inspected",
+            "evidence": "August 2, 2024 announcement: Japanese retail from early August 2024."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-80ir/ms-80ir-plus_support/",
+            "title": "MS-80IR+ official support",
+            "access": "official page inspected",
+            "evidence": "Current Windows/Mac firmware 1.10; separate IR Loader and drivers."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3732/MS-80IRplus_SystemSoftwareVersionHistory_110_en.pdf",
+            "title": "MS-80IR+ firmware history",
+            "access": "official PDF inspected",
+            "evidence": "1.10 July 2025 USB MODE; 1.00 production July 2024."
+          },
+          {
+            "url": "https://zoomcorp.com/manuals/ms-80irplus-en/",
+            "title": "MS-80IR+ operation manual",
+            "access": "official HTML inspected",
+            "evidence": "80 patches; amp/ambience/other-effect structure; default auto-save and PRESELECT."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_MS-80IRplus_FX-list.pdf",
+            "title": "MS-80IR+ complete effect list",
+            "access": "official 13-page PDF inspected",
+            "evidence": "Amp, studio ambience, user IR, tool and delay categories; no dedicated pitch shifter. IR/ambience exclusivity and cabinet bypass."
+          }
+        ],
+        "duration": {
+          "minimum_days": 304,
+          "maximum_days": 364,
+          "label": "0.83–1.00 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::MS-80IR Plus",
       "Zoom::NEURIG",
       "Zoom::RFX-1000",
       "Zoom::RFX-1100",
@@ -209493,12 +209568,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 394,
-    "last_model": "Zoom::MS-70CDR Plus",
-    "last_commit_parent": "a6cc1a724fa902801a4a0d2e6f5b90af6b573278",
+    "completed_model_count": 395,
+    "last_model": "Zoom::MS-80IR Plus",
+    "last_commit_parent": "2c89a1fd3f061221eb1e2dddfd25ce5575baac17",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::MS-80IR Plus",
       "Zoom::NEURIG",
       "Zoom::RFX-1000",
       "Zoom::RFX-1100",
@@ -209507,7 +209581,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 394,
+    "pitch_completed_model_count": 395,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -9333,6 +9333,32 @@ Checked **2026-11-04**: [AM.MUSIK (AMANDARA MUSIK),seller121096050/item674594045
 
 ## MS-80IR Plus
 
+<!-- firmware-pitch:Zoom::MS-80IR Plus begins -->
+### Firmware and pitch audit — Zoom MS-80IR Plus
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-08 (manufacturer announced retail release month). Zoom disclosure dated August 2, 2024 announces Japanese retail from early August 2024. Initial firmware production July 2024 is not the retail date; exact day unverified. [launch 1](https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240802/20240802561450.pdf) |
+| Firmware / latest verification | 1.10 — Latest verified. Current official support offers 1.10; history dates it July 2025, adding USB MODE for broader MIDI converter/controller compatibility. 1.00 July 2024 is initial production. IR Loader, driver and IR-library versions are separate. [firmware 1](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-80ir/ms-80ir-plus_support/) [firmware 2](https://zoomcorp.com/documents/3732/MS-80IRplus_SystemSoftwareVersionHistory_110_en.pdf) |
+| Firmware / release date | 2025-07 (month precision) |
+| Firmware / release-to-update duration | 0.83–1.00 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No dedicated semitone pitch shifter, harmonizer or octaver in the reviewed complete official effect list. TAPE ECHO changes echo pitch when delay time changes; this is not documented as controllable transpose or polyphonic pitch shifting. [pitch 1](https://zoomcorp.com/manuals/ms-80irplus-en/) [pitch 2](https://zoomcorp.com/media/documents/E_MS-80IRplus_FX-list.pdf) |
+| Pitch / preset recall | 80 patch memories retain effect settings and on/off states; AUTO SAVE defaults ON, with manual save/copy and PRESELECT available. No expression input documented. |
+| Pitch / DSP resources | A patch supports one amp, one studio ambience (or user IR) and one other effect. Studio ambience and user IR are mutually exclusive; selecting IR bypasses the amp cabinet. No pitch DSP cost applies to the documented library; no per-algorithm CPU percentage published. |
+| Pitch / qualifications | Documentation only; no hardware test or third-party effect installation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom MS-80IR+ launch disclosure](https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240802/20240802561450.pdf) — August 2, 2024 announcement: Japanese retail from early August 2024. (manufacturer news-release PDF inspected).
+- [MS-80IR+ official support](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-80ir/ms-80ir-plus_support/) — Current Windows/Mac firmware 1.10; separate IR Loader and drivers. (official page inspected).
+- [MS-80IR+ firmware history](https://zoomcorp.com/documents/3732/MS-80IRplus_SystemSoftwareVersionHistory_110_en.pdf) — 1.10 July 2025 USB MODE; 1.00 production July 2024. (official PDF inspected).
+- [MS-80IR+ operation manual](https://zoomcorp.com/manuals/ms-80irplus-en/) — 80 patches; amp/ambience/other-effect structure; default auto-save and PRESELECT. (official HTML inspected).
+- [MS-80IR+ complete effect list](https://zoomcorp.com/media/documents/E_MS-80IRplus_FX-list.pdf) — Amp, studio ambience, user IR, tool and delay categories; no dedicated pitch shifter. IR/ambience exclusivity and cabinet bypass. (official 13-page PDF inspected).
+
+<!-- firmware-pitch:Zoom::MS-80IR Plus ends -->
+
 **MS-80IR+**,checked2026-10-17;partial. [Own HTML manual][M80-M],©2024,Z2I-5301-02;[own product][M80-P]. Not MS-50G+ or MS-200D+.
 
 | Field | Evidence / gaps |

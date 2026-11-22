@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 394/402 active models have firmware audits; 394/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 395/402 active models have firmware audits; 395/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -94,6 +94,7 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [Zoom G6](brand/ZOOM.md#g6) | 2020 (manufacturer product-history year) | 2.00 — Latest verified | 2021-12 | 0.92–2.00 years | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g6/g6-support/) [firmware 2](https://zoomcorp.com/documents/3437/G6_System_Firmware_Version_History_ver200_en.pdf) |
 | [M-VAVE Pocket Amp](brand/M-VAVE.md#pocket-amp) | 2025-10 (manufacturer trade-show debut proxy; first sale unknown) | V105 — Latest verified | 2026-10 | 0.92–1.08 years | [launch 1](https://www.m-vave.com/news) [launch 2](https://www.youtube.com/watch?v=4ga4XHvNTXg) [firmware 1](https://www.m-vave.com/download) [firmware 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/POCKET%20AMP.txt) |
 | [BOSS KATANA:GO](brand/BOSS.md#katanago) | 2024-03-14 (manufacturer announcement proxy) | 1.04 — Latest verified | 2025-02 | 0.89–0.96 years | [launch 1](https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-KATANA-GO-Personal-Headphone-Guitar/) [firmware 1](https://www.boss.info/global/support/by_product/katana-go/updates_drivers/) [firmware 2](https://www.boss.info/global/support/by_product/katana-go/updates_drivers/12b0d6f6-b2c4-41d3-8f65-b1247ce1eb4b/) [firmware 3](https://www.boss.info/global/products/katana-go/) |
+| [Zoom MS-80IR Plus](brand/ZOOM.md#ms-80ir-plus) | 2024-08 (manufacturer announced retail release month) | 1.10 — Latest verified | 2025-07 | 0.83–1.00 years | [launch 1](https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240802/20240802561450.pdf) [firmware 1](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-80ir/ms-80ir-plus_support/) [firmware 2](https://zoomcorp.com/documents/3732/MS-80IRplus_SystemSoftwareVersionHistory_110_en.pdf) |
 | [Fractal Audio AM4](brand/FRACTAL-AUDIO.md#am4) | 2025-11-24 (manufacturer availability) | 2.02 — Latest verified | 2026-09-02 | 0.77 years | [launch 1](https://www.fractalaudio.com/downloads/manuals/AM4/251124-Fractal-Audio-Systems-Announces-the-AM4.pdf) [firmware 1](https://www.fractalaudio.com/am4-downloads/) |
 | [Zoom G2.1Nu](brand/ZOOM.md#g21nu) | 2010 (manufacturer product-history year) | 1.10 — Latest verified | 2011-10 | 0.75–1.83 years | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g21nu/g21nu/) [firmware 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G2Nu_G2.1Nu_v1.10_E.pdf) |
 | [Zoom G2Nu](brand/ZOOM.md#g2nu) | 2010 (manufacturer product-history year) | 1.10 — Latest verified | 2011-10 | 0.75–1.83 years | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2nu/g2nu-support/) [firmware 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G2Nu_G2.1Nu_v1.10_E.pdf) |
@@ -421,4 +422,4 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 
 ## Remaining firmware checks
 
-Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
+Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
