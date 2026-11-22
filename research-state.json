@@ -204475,10 +204475,69 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "VOX::ToneLab LE": {
+        "model_key": "VOX::ToneLab LE",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2007-02",
+          "precision": "month",
+          "kind": "manufacturer-announced availability month; actual first shipment unresolved",
+          "source_urls": [
+            "https://sonicstate.com/news/2007/01/19/wnamm07-vox-launches-tonelab-le/"
+          ],
+          "note": "VOX announcement reproduced on19January2007 specifies February2007 availability. January17 NAMM retailer coverage is earlier; this date represents planned availability, not earliest announcement or confirmed delivery. Manual copyright2006 is not launch."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://voxamps.com/wp-content/uploads/2024/05/ToneLabLE_OM_J2.pdf",
+            "https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf"
+          ],
+          "note": "No exact LE device firmware release/package located in inspected manufacturer manuals and targeted searches. E1/J2 identify manual editions; Sound Editor is host software and MIDI program dumps/reset are not firmware updates. Latest installed version and update lifetime remain unresolved."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PITCH SHIFTER: ±24 semitones, ±50 cents fine control, adjustable tracking10–150ms and direct/effect levels. Separate OCTAVE is explicitly single-note only. Mono In/Mono Out describes routing, not polyphony.",
+          "preset": "120 writable locations,30banks×4;40factory programs repeated across three bank groups. Expression targets/ranges saved per program; instantaneous M/PITCH position is excluded from stored-value editing.",
+          "dsp": "No per-effect DSP percentage found. Tracking10–150ms is an adjustable pitch tracking parameter, not measured end-to-end latency or CPU utilization.",
+          "source_urls": [
+            "https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Exact LE pitch documentation differs from EX; no EX chord-capability claim inherited.",
+            "No hardware test, note-count benchmark or measured resource cost."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf",
+            "title": "VOX ToneLab LE E1 owner manual, original PDF mirrored by VOX Showroom",
+            "access": "original PDF pitch, octave, memory and pedal passages read",
+            "evidence": "Printed39 pitch tracking/range; printed36 octave single-note restriction;120locations; expression save exceptions."
+          },
+          {
+            "url": "https://voxamps.com/wp-content/uploads/2024/05/ToneLabLE_OM_J2.pdf",
+            "title": "VOX ToneLab LE J2 owner manual",
+            "access": "official exact-model manual identified; edition and metadata separated from firmware",
+            "evidence": "Exact LE official documentation; J2 is a document edition,2006 MIDI chart/copyright is not first release."
+          },
+          {
+            "url": "https://sonicstate.com/news/2007/01/19/wnamm07-vox-launches-tonelab-le/",
+            "title": "VOX ToneLab LE announcement reproduced by Sonicstate,19January2007",
+            "access": "manufacturer announcement body read on press host",
+            "evidence": "VOX specifies February2007 availability; planned month, not verified shipment."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "VOX::ToneLab LE",
       "VOX::ToneLab SE",
       "VOX::ToneLab ST",
       "Yamaha::AG-Stomp",
@@ -204556,12 +204615,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 326,
-    "last_model": "VOX::ToneLab EX",
-    "last_commit_parent": "4a4968f86a53470c529c65186c5c1171d581d19e",
+    "completed_model_count": 327,
+    "last_model": "VOX::ToneLab LE",
+    "last_commit_parent": "b9a41b8500d7df3641131e51a5690ef4314068cf",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "VOX::ToneLab LE",
       "VOX::ToneLab SE",
       "VOX::ToneLab ST",
       "Yamaha::AG-Stomp",
@@ -204638,7 +204696,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 326,
+    "pitch_completed_model_count": 327,
     "supplemental_model_count": 0
   },
   "model_images": {

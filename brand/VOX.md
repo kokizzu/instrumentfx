@@ -646,6 +646,30 @@ Checked 2026-10-18 against [own E1 manual pp15–21](https://voxamps.com/wp-cont
 
 ## ToneLab LE
 
+<!-- firmware-pitch:VOX::ToneLab LE begins -->
+### Firmware and pitch audit — VOX ToneLab LE
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2007-02 (manufacturer-announced availability month; actual first shipment unresolved). VOX announcement reproduced on19January2007 specifies February2007 availability. January17 NAMM retailer coverage is earlier; this date represents planned availability, not earliest announcement or confirmed delivery. Manual copyright2006 is not launch. [launch 1](https://sonicstate.com/news/2007/01/19/wnamm07-vox-launches-tonelab-le/) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact LE device firmware release/package located in inspected manufacturer manuals and targeted searches. E1/J2 identify manual editions; Sound Editor is host software and MIDI program dumps/reset are not firmware updates. Latest installed version and update lifetime remain unresolved. [firmware 1](https://voxamps.com/wp-content/uploads/2024/05/ToneLabLE_OM_J2.pdf) [firmware 2](https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH SHIFTER: ±24 semitones, ±50 cents fine control, adjustable tracking10–150ms and direct/effect levels. Separate OCTAVE is explicitly single-note only. Mono In/Mono Out describes routing, not polyphony. [pitch 1](https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf) |
+| Pitch / preset recall | 120 writable locations,30banks×4;40factory programs repeated across three bank groups. Expression targets/ranges saved per program; instantaneous M/PITCH position is excluded from stored-value editing. |
+| Pitch / DSP resources | No per-effect DSP percentage found. Tracking10–150ms is an adjustable pitch tracking parameter, not measured end-to-end latency or CPU utilization. |
+| Pitch / qualifications | Exact LE pitch documentation differs from EX; no EX chord-capability claim inherited. No hardware test, note-count benchmark or measured resource cost. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [VOX ToneLab LE E1 owner manual, original PDF mirrored by VOX Showroom](https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf) — Printed39 pitch tracking/range; printed36 octave single-note restriction;120locations; expression save exceptions. (original PDF pitch, octave, memory and pedal passages read).
+- [VOX ToneLab LE J2 owner manual](https://voxamps.com/wp-content/uploads/2024/05/ToneLabLE_OM_J2.pdf) — Exact LE official documentation; J2 is a document edition,2006 MIDI chart/copyright is not first release. (official exact-model manual identified; edition and metadata separated from firmware).
+- [VOX ToneLab LE announcement reproduced by Sonicstate,19January2007](https://sonicstate.com/news/2007/01/19/wnamm07-vox-launches-tonelab-le/) — VOX specifies February2007 availability; planned month, not verified shipment. (manufacturer announcement body read on press host).
+
+<!-- firmware-pitch:VOX::ToneLab LE ends -->
+
 Guitar multi-effects; distinct from original ToneLab, SE, ST and EX. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->
