@@ -17,13 +17,19 @@ def diagram():
  r=json.loads(INPUT.read_text()); s=json.loads((ROOT/'research-state.json').read_text())
  assert r['model_key'] in audit.inventory(s)
  d=r['manual_diagram']
- assert d['source_url']=='https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf'
+ sources={
+  'https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf':'Korg::AX10B',
+  'https://data.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf':'Yamaha::Magicstomp Bass',
+ }
+ assert sources.get(d['source_url'])==r['model_key'], 'Manual must match reviewed exact model'
  page=d['page']; assert isinstance(page,int) and 1<=page<=128
  request=urllib.request.Request(d['source_url'],headers={'User-Agent':'InstrumentFX-source-review/1.0'})
  with urllib.request.urlopen(request,timeout=30) as response:
   assert response.geturl()==d['source_url']
   body=response.read(8000001)
  assert body.startswith(b'%PDF-') and len(body)<=8000000
+ if d.get('source_sha256'):
+  assert hashlib.sha256(body).hexdigest()==d['source_sha256'], 'Manual changed; review source before extracting'
  pdf=Path('/tmp/instrumentfx-diagram.pdf');pdf.write_bytes(body)
  subprocess.run(['pdftoppm','-f',str(page),'-l',str(page),'-scale-to','2400','-singlefile','-png',str(pdf),'/tmp/instrumentfx-diagram-page'],check=True,timeout=30)
  from PIL import Image

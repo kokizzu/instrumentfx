@@ -223021,11 +223021,21 @@
             "sha256": "1389bdfa74a2dd5cdc8599a2666cfce13f728e8b0de77a68459dc7553ad008c9",
             "powered_on": null,
             "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "images/yamaha-magicstomp-bass-rear.png",
+            "source_url": "https://data.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf#page=8",
+            "caption": "Magicstomp Bass rear connections — original manual illustration",
+            "note": "Cropped from Yamaha’s Magicstomp Bass owner manual, printed page8; a manufacturer illustration, not a photograph. The same page identifies the top as BASS EFFECTS PROCESSOR. Rear diagram shows INPUT(6), INPUT LEVEL HIGH/LOW switch(7), OUTPUT R and L/MONO(8), USB-B(9), AC IN(10), and PHONES(11). No guitar/acoustic sibling photograph substituted. A physical UB99B rear photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "f148ec69b8be2fc415bd20257c3037158410d23a825c8cb1125d0615aa20263f",
+            "kind": "manufacturer_manual_illustration"
           }
         },
         "unresolved": [
           "Powered-on exact overhead photograph not independently verified; current Bass-labelled stock view depicts illumination.",
-          "Exact UB99B rear photo pending: linked Reverb image jhfbf8tpofyiyjoujcd2 thumbnail returned500, original endpoint401; sibling Acoustic/Guitar rear not substituted."
+          "Exact UB99B rear photo pending: linked Reverb image jhfbf8tpofyiyjoujcd2 thumbnail returned500, original endpoint401; sibling Acoustic/Guitar rear not substituted.",
+          "Original Bass-manual rear illustration now included; physical UB99B rear photograph remains pending."
         ],
         "unretrieved_candidates": [
           {
@@ -223034,7 +223044,19 @@
             "checked_date": "2026-11-22",
             "result": "Image3 of six-image exact-UB99B listing; bounded image retrieval returned HTTP500. Pixels not inspected; rear-view content and physical model identity not verified. Listing1990s year not adopted as release evidence."
           }
-        ]
+        ],
+        "manual_diagram": {
+          "source_url": "https://data.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf",
+          "page": 8,
+          "crop": [
+            480,
+            1420,
+            1310,
+            1950
+          ],
+          "source_sha256": "be9c21ce0a751384f2cfb5abacffa718f74f275a8b8dea5ba96171e0f430486e",
+          "render_scale_to": 2400
+        }
       },
       "Yamaha::Magicstomp Guitar MK2": {
         "model_key": "Yamaha::Magicstomp Guitar MK2",
@@ -226670,6 +226692,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX10B"
+    "last_model": "Yamaha::Magicstomp Bass"
   }
 }

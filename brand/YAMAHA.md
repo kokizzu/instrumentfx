@@ -457,7 +457,11 @@ Sources checked:
 
 [Image source](https://www.musiciansfriend.com/amplifiers-effects/yamaha-magicstomp-eb). Visually checked black BASS EFFECTS PROCESSOR-labelled stock image, green U99 MAGICSTOMP display and red indicators depicted. Four knobs, three footswitches, one STORE/EXIT button; no treadle. Near-overhead control-face view with rear edge visible; exact top-down and independent actual powered-unit confirmation remain pending. Screen text is not a firmware-version readout.
 
-**Rear view:** not yet verified.
+**Magicstomp Bass rear connections — original manual illustration**
+
+[![Magicstomp Bass rear connections — original manual illustration](images/yamaha-magicstomp-bass-rear.png)](images/yamaha-magicstomp-bass-rear.png)
+
+[Image source](https://data.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf#page=8). Cropped from Yamaha’s Magicstomp Bass owner manual, printed page8; a manufacturer illustration, not a photograph. The same page identifies the top as BASS EFFECTS PROCESSOR. Rear diagram shows INPUT(6), INPUT LEVEL HIGH/LOW switch(7), OUTPUT R and L/MONO(8), USB-B(9), AC IN(10), and PHONES(11). No guitar/acoustic sibling photograph substituted. A physical UB99B rear photograph remains pending.
 
 </details>
 <!-- model-images:Yamaha::Magicstomp Bass ends -->
