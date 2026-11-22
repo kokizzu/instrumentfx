@@ -219044,11 +219044,36 @@
             "sha256": "2c10e67c7518cf856a483a921410853185456f294b9d8e72bfe7817a99b0980d"
           }
         }
+      },
+      "BOSS::ME-90": {
+        "model_key": "BOSS::ME-90",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/products/me-90/image/me-90_gal_01.jpg",
+            "source_url": "https://www.boss.info/global/products/me-90/",
+            "caption": "ME-90 control face",
+            "note": "Manufacturer complete straight-down ME-90 control panel with red numeric display and colored section/footswitch LEDs shown lit. All rotary sections, four panel buttons, eight footswitches and full expression pedal visible. Promotional display and illumination are not independently verified.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "32bf7fdca030b1ce02b2dd4100172016b804b5819c7c71d12a7601bdf273e7f6"
+          },
+          "rear": {
+            "image_url": "https://static.roland.com/products/me-90/image/me-90_gal_09.jpg",
+            "source_url": "https://www.boss.info/global/products/me-90/",
+            "caption": "ME-90 rear connections",
+            "note": "Manufacturer complete rear view: INPUT, OUTPUT R and L/MONO, Gt. AMP/LINE switch, PHONES, SEND, RETURN, covered optional BT-DUAL connector, USB-C, power switch and DC IN for BOSS PSA-S adapter. Ground terminal, cord restraint and security slot visible.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "50279e8c9ea918228a31620ebdb46ae1d925269d2289f7d79e3093b24e2ea74b"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GX-1"
+    "last_model": "BOSS::ME-90"
   }
 }
