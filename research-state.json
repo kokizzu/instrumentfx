@@ -192961,15 +192961,15 @@
       },
       "Korg::AX1000G": {
         "model_key": "Korg::AX1000G",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2000-05-15",
+          "precision": "day",
+          "kind": "contemporaneous US retailer-arrival proxy",
           "source_urls": [
-            "https://www.korg.com/us/support/download/product/1/19/"
+            "https://www.sweetwater.com/insync/korg-ax1000g-modeling-guitar-processors/"
           ],
-          "note": "Exact first hardware release not established in checked manufacturer sources. Manual upload June1,2015 is not launch or firmware date; no precise date inferred from secondary sale listings."
+          "note": "Sweetwater’s May 15, 2000 first-party retailer bulletin says new AX1000G units have started to arrive and offers them in its store. Used as a US retailer-arrival proxy, not proof of the exact global introduction or earliest shipment. Secondary 1999 leads are not promoted to a verified global launch. The June 2015 manual upload remains separate."
         },
         "firmware": {
           "version": null,
@@ -193006,10 +193006,70 @@
             "title": "AX1000G Owner’s Manual",
             "access": "Manufacturer original PDF text read, pp3,19,21",
             "evidence": "PITCH ±2octaves; PITCH BEND disables MODULATION; OCTAVE multiple-string warning;40preset+40user programs."
+          },
+          {
+            "url": "https://www.sweetwater.com/insync/korg-ax1000g-modeling-guitar-processors/",
+            "title": "Sweetwater: Korg AX1000G modeling guitar processors, May 15, 2000",
+            "access": "Original dated retailer bulletin opened/indexed; arrival statement read",
+            "evidence": "Retailer explicitly reports new AX1000G units starting to arrive and being offered for sale. Supports US retailer-arrival proxy, not earliest global release or firmware date."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Korg::AX1000G",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.korg.com/us/support/download/product/1/19/"
+              ],
+              "note": "Exact first hardware release not established in checked manufacturer sources. Manual upload June1,2015 is not launch or firmware date; no precise date inferred from secondary sale listings."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.korg.com/us/support/download/product/1/19/"
+              ],
+              "note": "Exact-model manufacturer support lists only Owner’s Manual dated June1,2015; no public firmware package or dated device changelog located there. This does not prove no internal/service firmware exists; update span cannot be calculated."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "MODULATION PITCH shifter spans ±2 octaves; PEDAL PITCH BEND provides pedal-controlled shifting. Main shifter/Pitch Bend polyphony unverified. Separate OCTAVE explicitly warns against simultaneous strings and low notes; that restriction is not automatically transferred to PITCH.",
+              "preset": "40 factory presets plus40 rewritable user programs; pitch/effect settings stored in user programs. Hardware recall untested.",
+              "dsp": "PEDAL PITCH BEND automatically disables MODULATION, documenting a mutual-exclusion cost. General maximum eight simultaneous effect types does not override that restriction. No CPU percentage or measured pitch resource budget located.",
+              "source_urls": [
+                "https://cdn.korg.com/us/support/download/files/40e17e585904a5bdb8b6906097e7f690.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "No device, tracking, latency or CPU test. OCTAVE warning is algorithm-specific; detune/fine controls do not establish chord handling."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.korg.com/us/support/download/product/1/19/",
+                "title": "Korg AX1000G support downloads",
+                "access": "Manufacturer exact-model page read",
+                "evidence": "Sold-out AX1000G; only Owner’s Manual download dated2015-06-01, not firmware."
+              },
+              {
+                "url": "https://cdn.korg.com/us/support/download/files/40e17e585904a5bdb8b6906097e7f690.pdf",
+                "title": "AX1000G Owner’s Manual",
+                "access": "Manufacturer original PDF text read, pp3,19,21",
+                "evidence": "PITCH ±2octaves; PITCH BEND disables MODULATION; OCTAVE multiple-string warning;40preset+40user programs."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Korg::AX100G": {
         "model_key": "Korg::AX100G",
@@ -211503,8 +211563,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Behringer::FX600",
-    "last_commit_parent": "3d9cfae5022002f5618a1caa51aea9b43064a419",
+    "last_model": "Korg::AX1000G",
+    "last_commit_parent": "34be7de861edae8569c9da9a67ac3c219874b5e2",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

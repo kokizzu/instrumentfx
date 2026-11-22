@@ -1035,11 +1035,11 @@ Shopee source check 2026-10-19: results again include the existing AX100G/AX1500
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Exact first hardware release not established in checked manufacturer sources. Manual upload June1,2015 is not launch or firmware date; no precise date inferred from secondary sale listings. [launch 1](https://www.korg.com/us/support/download/product/1/19/) |
+| Firmware / first hardware release | 2000-05-15 (contemporaneous US retailer-arrival proxy). Sweetwater’s May 15, 2000 first-party retailer bulletin says new AX1000G units have started to arrive and offers them in its store. Used as a US retailer-arrival proxy, not proof of the exact global introduction or earliest shipment. Secondary 1999 leads are not promoted to a verified global launch. The June 2015 manual upload remains separate. [launch 1](https://www.sweetwater.com/insync/korg-ax1000g-modeling-guitar-processors/) |
 | Firmware / latest verification | Not verified — No public firmware located. Exact-model manufacturer support lists only Owner’s Manual dated June1,2015; no public firmware package or dated device changelog located there. This does not prove no internal/service firmware exists; update span cannot be calculated. [firmware 1](https://www.korg.com/us/support/download/product/1/19/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
-| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
 | Pitch / note handling | Pitch present; polyphony unverified. MODULATION PITCH shifter spans ±2 octaves; PEDAL PITCH BEND provides pedal-controlled shifting. Main shifter/Pitch Bend polyphony unverified. Separate OCTAVE explicitly warns against simultaneous strings and low notes; that restriction is not automatically transferred to PITCH. [pitch 1](https://cdn.korg.com/us/support/download/files/40e17e585904a5bdb8b6906097e7f690.pdf) |
 | Pitch / preset recall | 40 factory presets plus40 rewritable user programs; pitch/effect settings stored in user programs. Hardware recall untested. |
 | Pitch / DSP resources | PEDAL PITCH BEND automatically disables MODULATION, documenting a mutual-exclusion cost. General maximum eight simultaneous effect types does not override that restriction. No CPU percentage or measured pitch resource budget located. |
@@ -1050,6 +1050,7 @@ Sources checked:
 
 - [Korg AX1000G support downloads](https://www.korg.com/us/support/download/product/1/19/) — Sold-out AX1000G; only Owner’s Manual download dated2015-06-01, not firmware. (Manufacturer exact-model page read).
 - [AX1000G Owner’s Manual](https://cdn.korg.com/us/support/download/files/40e17e585904a5bdb8b6906097e7f690.pdf) — PITCH ±2octaves; PITCH BEND disables MODULATION; OCTAVE multiple-string warning;40preset+40user programs. (Manufacturer original PDF text read, pp3,19,21).
+- [Sweetwater: Korg AX1000G modeling guitar processors, May 15, 2000](https://www.sweetwater.com/insync/korg-ax1000g-modeling-guitar-processors/) — Retailer explicitly reports new AX1000G units starting to arrive and being offered for sale. Supports US retailer-arrival proxy, not earliest global release or firmware date. (Original dated retailer bulletin opened/indexed; arrival statement read).
 
 <!-- firmware-pitch:Korg::AX1000G ends -->
 
