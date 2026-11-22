@@ -289,6 +289,8 @@ Sources checked:
 
 [Image source](https://stangguitars.com/products/tech-21-fly-rig-5-v2). Unlit stock photograph shows quarter-inch IN at far left, SEND, RETURN, OUT, 9V DC center-negative socket and male XLR on adjacent end. Current draw is not printed legibly here. This combined view covers more than the long edge alone; no hidden USB/EXP absence claim or hardware test.
 
+Supplemental physical-unit rear/underside detail: [![Fly Rig 5 v2 complete long connector edge and model label](https://www.chicagomusicexchange.com/cdn/shop/files/tech-21-effects-and-pedals-amp-simulators-tech-21-fly-rig-5-v2-tech-21-fly-rig-5-v2-u7505801901-1229481657.jpg?v=1774566801&width=1946)](https://www.chicagomusicexchange.com/cdn/shop/files/tech-21-effects-and-pedals-amp-simulators-tech-21-fly-rig-5-v2-tech-21-fly-rig-5-v2-u7505801901-1229481657.jpg?v=1774566801&width=1946). [Used-unit source](https://www.chicagomusicexchange.com/products/tech-21-fly-rig-5-v2-2523434). Actual used unit tipped upside down: complete long edge shows IN, SEND, RETURN, OUT and 9V DC with center-negative symbol. Underside label explicitly reads FLY RIG 5 v2, corroborating model identity. XLR end is outside this angle; original combined rear/end view remains primary. Unpowered photograph; adapter consumption is not DSP usage.
+
 </details>
 <!-- model-images:Tech 21::Fly Rig 5 v2 ends -->
 
