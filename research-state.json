@@ -207554,10 +207554,85 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G1Xon": {
+        "model_key": "Zoom::G1Xon",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2013",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology places G1Xon in 2013. December 2013 mass production is not an exact retail-release date."
+        },
+        "firmware": {
+          "version": "1.21",
+          "date": "2014-03",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g1xon/g1xon-support/",
+            "https://zoom.co.jp/sites/default/files/products/downloads/pdfs/G1on_G1Xon_ver121_en.pdf"
+          ],
+          "note": "Exact-model Japanese support lists G1Xon 1.21 for Windows/Mac; shared history dates it March 2014 and adds 25 effects. 1.11 December 2013 is mass production. B1Xon 1.30 is not this update."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT spans −12…+12,+24 semitones with ±25-cent Fine. MonoPitch and PDL MnPit explicitly target single notes. PDL Pitch/PDL MnPit offer nine treadle mappings; HPS follows key/scale. Chord polyphony for other pitch algorithms remains unverified.",
+          "preset": "100 patches store effect settings. Per-patch pedal settings include parameter and endpoints; AUTO ASSIGN controls all inserted PEDAL effects together. Pedal-switch on/off changes are not saved. OUTPUT VOL excludes rhythm/looper volume.",
+          "dsp": "Up to five effects within processing capacity. PROCESSING LIMIT bypasses an effect when overloaded; changing effect types can resolve it. No exact per-pitch DSP percentage located; five slots do not imply 20% each.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_G1on_G1Xon_FX-list_0.pdf",
+            "https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation review only; no firmware installation or hardware CPU/tracking test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "G1Xon under 2013."
+          },
+          {
+            "url": "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g1xon/g1xon-support/",
+            "title": "G1Xon Japanese support",
+            "access": "official current package list inspected",
+            "evidence": "G1Xon system 1.21 Windows/Mac."
+          },
+          {
+            "url": "https://zoom.co.jp/sites/default/files/products/downloads/pdfs/G1on_G1Xon_ver121_en.pdf",
+            "title": "G1on/G1Xon system version history",
+            "access": "official PDF read",
+            "evidence": "1.21 March 2014 adds 25 effects; 1.11 December 2013 mass production."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_G1on_G1Xon_FX-list_0.pdf",
+            "title": "G1on/G1Xon effects list",
+            "access": "official PDF pages 12–13,17–18 inspected",
+            "evidence": "PitchSHFT range/Fine, monophonic MonoPitch/PDL MnPit and nine pedal mappings."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf",
+            "title": "G1on/G1Xon operation manual",
+            "access": "official PDF pages 7,10,26–27 inspected",
+            "evidence": "100 patches; five effects with overflow bypass; AUTO ASSIGN, pedal endpoints and unsaved pedal-switch toggles."
+          }
+        ],
+        "duration": {
+          "minimum_days": 60,
+          "maximum_days": 454,
+          "label": "0.16–1.24 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G1Xon",
       "Zoom::G2 FOUR",
       "Zoom::G2.1Nu",
       "Zoom::G2.1u",
@@ -207592,12 +207667,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 369,
-    "last_model": "Zoom::G1Xnext",
-    "last_commit_parent": "306d9d6d051ecd2578713d44c022ab9aa0acb0e1",
+    "completed_model_count": 370,
+    "last_model": "Zoom::G1Xon",
+    "last_commit_parent": "ac975e617f57b95c5e8b70409ff43fc263fa9506",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G1Xon",
       "Zoom::G2 FOUR",
       "Zoom::G2.1Nu",
       "Zoom::G2.1u",
@@ -207631,7 +207705,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 369,
+    "pitch_completed_model_count": 370,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -4201,6 +4201,32 @@ Checked2026-10-17 against [original manual text][G1XN-M], pp9–10,15–18, G1N/
 
 ## G1Xon
 
+<!-- firmware-pitch:Zoom::G1Xon begins -->
+### Firmware and pitch audit — Zoom G1Xon
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2013 (manufacturer product-history year). Manufacturer chronology places G1Xon in 2013. December 2013 mass production is not an exact retail-release date. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 1.21 — Latest verified. Exact-model Japanese support lists G1Xon 1.21 for Windows/Mac; shared history dates it March 2014 and adds 25 effects. 1.11 December 2013 is mass production. B1Xon 1.30 is not this update. [firmware 1](https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g1xon/g1xon-support/) [firmware 2](https://zoom.co.jp/sites/default/files/products/downloads/pdfs/G1on_G1Xon_ver121_en.pdf) |
+| Firmware / release date | 2014-03 (month precision) |
+| Firmware / release-to-update duration | 0.16–1.24 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT spans −12…+12,+24 semitones with ±25-cent Fine. MonoPitch and PDL MnPit explicitly target single notes. PDL Pitch/PDL MnPit offer nine treadle mappings; HPS follows key/scale. Chord polyphony for other pitch algorithms remains unverified. [pitch 1](https://zoomcorp.com/media/documents/E_G1on_G1Xon_FX-list_0.pdf) [pitch 2](https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf) |
+| Pitch / preset recall | 100 patches store effect settings. Per-patch pedal settings include parameter and endpoints; AUTO ASSIGN controls all inserted PEDAL effects together. Pedal-switch on/off changes are not saved. OUTPUT VOL excludes rhythm/looper volume. |
+| Pitch / DSP resources | Up to five effects within processing capacity. PROCESSING LIMIT bypasses an effect when overloaded; changing effect types can resolve it. No exact per-pitch DSP percentage located; five slots do not imply 20% each. |
+| Pitch / qualifications | Documentation review only; no firmware installation or hardware CPU/tracking test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G1Xon under 2013. (official chronology inspected).
+- [G1Xon Japanese support](https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g1xon/g1xon-support/) — G1Xon system 1.21 Windows/Mac. (official current package list inspected).
+- [G1on/G1Xon system version history](https://zoom.co.jp/sites/default/files/products/downloads/pdfs/G1on_G1Xon_ver121_en.pdf) — 1.21 March 2014 adds 25 effects; 1.11 December 2013 mass production. (official PDF read).
+- [G1on/G1Xon effects list](https://zoomcorp.com/media/documents/E_G1on_G1Xon_FX-list_0.pdf) — PitchSHFT range/Fine, monophonic MonoPitch/PDL MnPit and nine pedal mappings. (official PDF pages 12–13,17–18 inspected).
+- [G1on/G1Xon operation manual](https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf) — 100 patches; five effects with overflow bypass; AUTO ASSIGN, pedal endpoints and unsaved pedal-switch toggles. (official PDF pages 7,10,26–27 inspected).
+
+<!-- firmware-pitch:Zoom::G1Xon ends -->
+
 Guitar multi-effects,distinct from G1on and G1X FOUR. Checked2026-10-17;partial. Ownership andbass suitability unestablished. Current manufacturer page marks discontinued.
 
 <!-- comparison evidence begins -->

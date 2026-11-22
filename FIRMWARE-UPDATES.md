@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 369/402 active models have firmware audits; 369/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 370/402 active models have firmware audits; 370/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -91,6 +91,7 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [BOSS GX-1](brand/BOSS.md#gx-1) | 2026-01-15 (manufacturer announcement and availability) | 1.03 — Latest verified | 2026-05 | 0.29–0.37 years | [launch 1](https://www.roland.com/us/company/press_releases/2026/BOSS-Announces-GX-1-and-GX-1B-Multi-Effects-Proces/) [firmware 1](https://www.boss.info/global/support/by_product/gx-1/updates_drivers/) [firmware 2](https://www.boss.info/us/support/by_product/gx-1/updates_drivers/e037c844-bad0-423b-b1f3-1c7640bc2c49/) |
 | [BOSS GX-1B](brand/BOSS.md#gx-1b) | 2026-01-15 (manufacturer announcement and availability) | 1.04 — Latest verified | 2026-05 | 0.29–0.37 years | [launch 1](https://www.roland.com/us/company/press_releases/2026/BOSS-Announces-GX-1-and-GX-1B-Multi-Effects-Proces/) [firmware 1](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/) [firmware 2](https://www.boss.info/global/support/by_product/gx-1b/updates_drivers/9c505ff1-0aeb-4769-b792-b06196da9c8b/) |
 | [Zoom G1on](brand/ZOOM.md#g1on) | 2013 (manufacturer product-history year) | 1.21 — Latest verified | 2014-03 | 0.16–1.24 years | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1on/g1on-support/) [firmware 2](https://zoom.co.jp/sites/default/files/products/downloads/pdfs/G1on_G1Xon_ver121_en.pdf) |
+| [Zoom G1Xon](brand/ZOOM.md#g1xon) | 2013 (manufacturer product-history year) | 1.21 — Latest verified | 2014-03 | 0.16–1.24 years | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g1xon/g1xon-support/) [firmware 2](https://zoom.co.jp/sites/default/files/products/downloads/pdfs/G1on_G1Xon_ver121_en.pdf) |
 
 ## Dated firmware located — current latest status unresolved
 
@@ -396,4 +397,4 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 
 ## Remaining firmware checks
 
-Zoom G1Xon; Zoom G2 FOUR; Zoom G2.1Nu; Zoom G2.1u; Zoom G2Nu; Zoom G2X FOUR; Zoom G3; Zoom G3n; Zoom G3X; Zoom G3Xn; Zoom G5; Zoom G5n; Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
+Zoom G2 FOUR; Zoom G2.1Nu; Zoom G2.1u; Zoom G2Nu; Zoom G2X FOUR; Zoom G3; Zoom G3n; Zoom G3X; Zoom G3Xn; Zoom G5; Zoom G5n; Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
