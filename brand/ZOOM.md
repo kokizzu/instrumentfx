@@ -9235,6 +9235,32 @@ Ver.2 availability is not installed-firmware verification or an individual intro
 
 ## MS-70CDR Plus
 
+<!-- firmware-pitch:Zoom::MS-70CDR Plus begins -->
+### Firmware and pitch audit — Zoom MS-70CDR Plus
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-04 (manufacturer announced retail release month). Zoom disclosure dated March 14, 2024 announces Japanese retail from early April 2024. Exact day and other regional dates unverified. [launch 1](https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240314/20240314553556.pdf) |
+| Firmware / latest verification | 1.20 — Latest verified. Current official support offers 1.20; history dates it January 2025, fixing M-VAVE CHOCOLATE PLUS control. 1.10 July 2024 fixed patch-change freezing; 1.00 April 2024 is initial production. Effect/app revisions are separate. [firmware 1](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr-plus/ms-70cdr-plus_support/) [firmware 2](https://zoomcorp.com/documents/3421/MS-70CDRplus_VersionHistory_120_en.pdf) |
+| Firmware / release date | 2025-01 (month precision) |
+| Firmware / release-to-update duration | 0.67–0.84 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. POLYPHONIC PITCH SHIFTER explicitly supports chords, −24…+24 semitones with separate wet/dry. POLYPHONIC OCTAVER also supports chords. HARMONY PITCH SHIFTER follows key/scale; DETUNE and BASS DETUNE provide fine shifts. [pitch 1](https://zoomcorp.com/manuals/ms-70cdrplus-en/) [pitch 2](https://zoomcorp.com/media/documents/E_MS-70CDRplus_FX-list.pdf) |
+| Pitch / preset recall | 100 patch memories retain effect order, parameters and on/off states. AUTO SAVE defaults ON; manual save/copy available. Cross-key switches select patches/effects; no expression input documented. |
+| Pitch / DSP resources | Up to six effects subject to processing capacity. PROCESS OVERFLOW bypasses effects; replace an effect to resolve it. ADD refuses another effect at capacity. No manufacturer pitch CPU percentage or slot multiplier located; six effect slots are not a CPU fraction. |
+| Pitch / qualifications | Manufacturer documentation only; no hardware chord-tracking or CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom MS-70CDR+ launch disclosure](https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240314/20240314553556.pdf) — March 14, 2024 announcement: Japanese retail from early April 2024. (manufacturer news-release PDF inspected).
+- [MS-70CDR+ official support](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr-plus/ms-70cdr-plus_support/) — Current Windows/Mac firmware 1.20. (official page inspected).
+- [MS-70CDR+ firmware history](https://zoomcorp.com/documents/3421/MS-70CDRplus_VersionHistory_120_en.pdf) — 1.20 January 2025; 1.10 July 2024; 1.00 production April 2024. (official PDF inspected).
+- [MS-70CDR+ operation manual](https://zoomcorp.com/manuals/ms-70cdrplus-en/) — 100 patches; default auto-save; six effects with PROCESS OVERFLOW and ADD capacity rejection. (official HTML inspected).
+- [MS-70CDR+ effect list](https://zoomcorp.com/media/documents/E_MS-70CDRplus_FX-list.pdf) — Explicit chord support in polyphonic pitch shifter and octaver; harmony and detune algorithms. (official PDF inspected, pp5,8–9).
+
+<!-- firmware-pitch:Zoom::MS-70CDR Plus ends -->
+
 Manufacturer model **MS-70CDR+**,catalogued as MS-70CDR Plus to keep its identity distinct from the original MS-70CDR. Reviewed **2026-10-17** following exact Shopee discovery;guitar/bass multi-effects,no ownership assertion. Partial:official HTML and indexed manufacturer document text;no dependencies,manual files,firmware or software downloaded to the workspace.
 
 | Field | Finding / qualification | Evidence |

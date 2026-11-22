@@ -209404,10 +209404,85 @@
           "label": "5.75–6.83 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::MS-70CDR Plus": {
+        "model_key": "Zoom::MS-70CDR Plus",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2024-04",
+          "precision": "month",
+          "kind": "manufacturer announced retail release month",
+          "source_urls": [
+            "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240314/20240314553556.pdf"
+          ],
+          "note": "Zoom disclosure dated March 14, 2024 announces Japanese retail from early April 2024. Exact day and other regional dates unverified."
+        },
+        "firmware": {
+          "version": "1.20",
+          "date": "2025-01",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr-plus/ms-70cdr-plus_support/",
+            "https://zoomcorp.com/documents/3421/MS-70CDRplus_VersionHistory_120_en.pdf"
+          ],
+          "note": "Current official support offers 1.20; history dates it January 2025, fixing M-VAVE CHOCOLATE PLUS control. 1.10 July 2024 fixed patch-change freezing; 1.00 April 2024 is initial production. Effect/app revisions are separate."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "POLYPHONIC PITCH SHIFTER explicitly supports chords, −24…+24 semitones with separate wet/dry. POLYPHONIC OCTAVER also supports chords. HARMONY PITCH SHIFTER follows key/scale; DETUNE and BASS DETUNE provide fine shifts.",
+          "preset": "100 patch memories retain effect order, parameters and on/off states. AUTO SAVE defaults ON; manual save/copy available. Cross-key switches select patches/effects; no expression input documented.",
+          "dsp": "Up to six effects subject to processing capacity. PROCESS OVERFLOW bypasses effects; replace an effect to resolve it. ADD refuses another effect at capacity. No manufacturer pitch CPU percentage or slot multiplier located; six effect slots are not a CPU fraction.",
+          "source_urls": [
+            "https://zoomcorp.com/manuals/ms-70cdrplus-en/",
+            "https://zoomcorp.com/media/documents/E_MS-70CDRplus_FX-list.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer documentation only; no hardware chord-tracking or CPU measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240314/20240314553556.pdf",
+            "title": "Zoom MS-70CDR+ launch disclosure",
+            "access": "manufacturer news-release PDF inspected",
+            "evidence": "March 14, 2024 announcement: Japanese retail from early April 2024."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr-plus/ms-70cdr-plus_support/",
+            "title": "MS-70CDR+ official support",
+            "access": "official page inspected",
+            "evidence": "Current Windows/Mac firmware 1.20."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3421/MS-70CDRplus_VersionHistory_120_en.pdf",
+            "title": "MS-70CDR+ firmware history",
+            "access": "official PDF inspected",
+            "evidence": "1.20 January 2025; 1.10 July 2024; 1.00 production April 2024."
+          },
+          {
+            "url": "https://zoomcorp.com/manuals/ms-70cdrplus-en/",
+            "title": "MS-70CDR+ operation manual",
+            "access": "official HTML inspected",
+            "evidence": "100 patches; default auto-save; six effects with PROCESS OVERFLOW and ADD capacity rejection."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_MS-70CDRplus_FX-list.pdf",
+            "title": "MS-70CDR+ effect list",
+            "access": "official PDF inspected, pp5,8–9",
+            "evidence": "Explicit chord support in polyphonic pitch shifter and octaver; harmony and detune algorithms."
+          }
+        ],
+        "duration": {
+          "minimum_days": 246,
+          "maximum_days": 305,
+          "label": "0.67–0.84 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::MS-70CDR Plus",
       "Zoom::MS-80IR Plus",
       "Zoom::NEURIG",
       "Zoom::RFX-1000",
@@ -209418,12 +209493,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 393,
-    "last_model": "Zoom::MS-70CDR",
-    "last_commit_parent": "6766b79229ace5a56b30f567b2613559e40729a0",
+    "completed_model_count": 394,
+    "last_model": "Zoom::MS-70CDR Plus",
+    "last_commit_parent": "a6cc1a724fa902801a4a0d2e6f5b90af6b573278",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::MS-70CDR Plus",
       "Zoom::MS-80IR Plus",
       "Zoom::NEURIG",
       "Zoom::RFX-1000",
@@ -209433,7 +209507,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 393,
+    "pitch_completed_model_count": 394,
     "supplemental_model_count": 0
   },
   "model_images": {

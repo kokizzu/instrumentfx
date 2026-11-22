@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 393/402 active models have firmware audits; 393/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 394/402 active models have firmware audits; 394/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -97,6 +97,7 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [Fractal Audio AM4](brand/FRACTAL-AUDIO.md#am4) | 2025-11-24 (manufacturer availability) | 2.02 — Latest verified | 2026-09-02 | 0.77 years | [launch 1](https://www.fractalaudio.com/downloads/manuals/AM4/251124-Fractal-Audio-Systems-Announces-the-AM4.pdf) [firmware 1](https://www.fractalaudio.com/am4-downloads/) |
 | [Zoom G2.1Nu](brand/ZOOM.md#g21nu) | 2010 (manufacturer product-history year) | 1.10 — Latest verified | 2011-10 | 0.75–1.83 years | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g21nu/g21nu/) [firmware 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G2Nu_G2.1Nu_v1.10_E.pdf) |
 | [Zoom G2Nu](brand/ZOOM.md#g2nu) | 2010 (manufacturer product-history year) | 1.10 — Latest verified | 2011-10 | 0.75–1.83 years | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2nu/g2nu-support/) [firmware 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G2Nu_G2.1Nu_v1.10_E.pdf) |
+| [Zoom MS-70CDR Plus](brand/ZOOM.md#ms-70cdr-plus) | 2024-04 (manufacturer announced retail release month) | 1.20 — Latest verified | 2025-01 | 0.67–0.84 years | [launch 1](https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240314/20240314553556.pdf) [firmware 1](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr-plus/ms-70cdr-plus_support/) [firmware 2](https://zoomcorp.com/documents/3421/MS-70CDRplus_VersionHistory_120_en.pdf) |
 | [Zoom MS-60B Plus](brand/ZOOM.md#ms-60b-plus) | 2024-05 (manufacturer announced retail release month) | 1.20 — Latest verified | 2025-01 | 0.59–0.75 years | [launch 1](https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240418/20240418572737.pdf) [firmware 1](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b-plus/ms-60b-support/) [firmware 2](https://zoomcorp.com/documents/3533/MS-60Bplus_VersionHistory_120_jp.pdf) |
 | [Zoom B1 FOUR](brand/ZOOM.md#b1-four) | 2019-04 (manufacturer announced Japanese availability month) | 2.00 — Latest verified | 2019-11 | 0.51–0.67 years | [launch 1](https://fs2.magicalir.net/tdnet/2019/6694/20190325494916.pdf) [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/b1b1x-four-support/) [firmware 2](https://zoomcorp.com/documents/3424/B1FOUR_B1XFOUR_System_Software_Version_History_200_en.pdf) |
 | [Zoom B1X FOUR](brand/ZOOM.md#b1x-four) | 2019-04 (manufacturer announced Japanese availability month) | 2.00 — Latest verified | 2019-11 | 0.51–0.67 years | [launch 1](https://fs2.magicalir.net/tdnet/2019/6694/20190325494916.pdf) [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/b1b1x-four-support/) [firmware 2](https://zoomcorp.com/documents/3424/B1FOUR_B1XFOUR_System_Software_Version_History_200_en.pdf) |
@@ -420,4 +421,4 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 
 ## Remaining firmware checks
 
-Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
+Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
