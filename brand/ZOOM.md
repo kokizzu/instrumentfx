@@ -1962,6 +1962,8 @@ Sources checked:
 
 [Image source](https://zoomcorp.com/en/jp/multi-effects/bass-effects/b1xon/). Exact B1Xon manufacturer overhead product image: full treadle, one rotary knob, four round function buttons, four cursor directions and two footswitch pads. Orange A0 display is depicted, but this studio product image does not independently verify an actual powered photograph. A real powered overhead image remains pending.
 
+Supplemental owner-screen detail (source attributes it to B1Xon; model badge and treadle are outside the crop): [![Orange-backlit BassPitch parameter screens](https://cdn.basschat.co.uk/monthly_2021_11/2.jpg.30b37fd97bc6c165cf74815a962fe2ff.jpg)](https://cdn.basschat.co.uk/monthly_2021_11/2.jpg.30b37fd97bc6c165cf74815a962fe2ff.jpg). [Owner thread](https://www.basschat.co.uk/topic/456244-for-those-of-you-who-still-uses-a-zoom-b1xon-pronounced-lush-and-aggressive-wah-pedal-patch/). Composite of three actual orange-backlit LCD close-ups shows BassPitch Shift 12, Tone 10, Bal 16 and Fine 1 / Level 98. The owner-thread title attributes these to B1Xon; the crop excludes the model badge, treadle, full controls and ports, so it is not independent exact-model or full powered-overhead evidence. Values are patch parameters, not DSP percentages, firmware versions or proof of polyphonic tracking.
+
 **B1Xon rear connections**
 
 [![B1Xon rear connections](https://www.zoom.co.jp/sites/default/files/styles/product_feature/public/products/product-features/b1xon_rearView.png?itok=pJO7jZNb)](https://www.zoom.co.jp/sites/default/files/styles/product_feature/public/products/product-features/b1xon_rearView.png?itok=pJO7jZNb)
