@@ -199268,13 +199268,14 @@
         "model_key": "M-VAVE::MK-300",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unresolved first hardware release",
+          "date": "2025-04",
+          "precision": "month",
+          "kind": "manufacturer new-product promotion proxy; earlier show preview, exact first sale unconfirmed",
           "source_urls": [
-            "https://www.youtube.com/watch?v=RqWhBBMlL74"
+            "https://www.youtube.com/watch?v=RqWhBBMlL74",
+            "https://www.youtube.com/watch?v=qayAUARpcEA"
           ],
-          "note": "Manufacturer new-product giveaway names April 11–16, 2025, establishing public promotion by April 2025, not an exact first worldwide sale. The oldest recovered firmware entry is April 11, 2025 V56; firmware history alone is not a hardware introduction date. First release and elapsed support span remain unresolved."
+          "note": "Manufacturer new-product giveaway covers April 11–16, 2025, followed by its New Product Release--MK-300 video on April 18. April 2025 is used as the commercial-introduction proxy, not an exact first worldwide sale. Music China booth demos were already public in October 2024; those previews do not prove retail availability. The release-to-update interval therefore uses the qualified April 2025 introduction month, not the earlier show preview or oldest firmware entry."
         },
         "firmware": {
           "version": "V75",
@@ -199333,10 +199334,102 @@
             "title": "M-VAVE new-product MK-300 giveaway",
             "access": "Search-indexed manufacturer video description",
             "evidence": "Campaign April 11–16, 2025; not exact worldwide first-sale date."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=qayAUARpcEA",
+            "title": "M-VAVE New Product Release--MK-300",
+            "access": "Original manufacturer video publication metadata indexed and checked 2026-11-22",
+            "evidence": "By M-VAVE; published 2025-04-18. Combined with April 11–16 new-product giveaway, supports April 2025 commercial-introduction proxy; not exact first sale."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=D1yA29db6JE",
+            "title": "MK-300 stock presets demo at M-Vave booth, Music China 2024",
+            "access": "Original demo publication metadata indexed and checked 2026-11-22",
+            "evidence": "Published 2024-10-14; earlier public trade-show preview, not authenticated first retail shipment."
           }
         ],
-        "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "duration": {
+          "minimum_days": 530,
+          "maximum_days": 559,
+          "label": "1.45–1.53 years"
+        },
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "M-VAVE::MK-300",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unresolved first hardware release",
+              "source_urls": [
+                "https://www.youtube.com/watch?v=RqWhBBMlL74"
+              ],
+              "note": "Manufacturer new-product giveaway names April 11–16, 2025, establishing public promotion by April 2025, not an exact first worldwide sale. The oldest recovered firmware entry is April 11, 2025 V56; firmware history alone is not a hardware introduction date. First release and elapsed support span remain unresolved."
+            },
+            "firmware": {
+              "version": "V75",
+              "date": "2026-10-12",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://www.m-vave.com/download",
+                "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt"
+              ],
+              "note": "Current manufacturer index and complete decoded original notes agree. V75 adds independent delay/reverb tail modes, contextual FS4 global TAP, incoming MIDI Clock and gate Detect selection; reduces selected reverb/model buffer memory. V73 September 7, 2026 introduces manufacturer-described native NAM A2 and resets GLOB settings. Accepted architectures and simultaneous-model capacity remain unverified. Cached product block still shows V72 May 8; current index and notes take precedence."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "V67 October 15, 2025 adds Pitch shifter in FX and changes pitch values to 0…24 / −24…0; note supplies no units. V71 April 24, 2026 adds Whammy and upgrades Octave/Pitch Pro. These names and quality claims do not establish polyphonic/chord tracking, voice count, precise transpose endpoints or pitch latency. No sibling MK-20 limits transferred.",
+              "preset": "Original manual specifies 160 editable locations with 80 initially factory-filled; newer manufacturer product page says 200 user presets, unresolved. V63 introduces MK300SnapShot; V64 removes independent snapshot pedal parameters and uses normal-mode pedal parameters. Built-in Pedal1 Sync does not establish external Pedal2 Sync or universal global assignment. Firmware-qualified behavior retained in existing detailed sections.",
+              "dsp": "No isolated pitch DSP percentage documented. Manual exposes an overall CPU meter and warns load above 90% can cause noise/problems; screenshot values are whole presets, not pitch measurements. Eleven movable modules are DSP-limited; Global EQ also consumes resources. V75 memory/efficiency optimization is not a quantified pitch saving or additional simultaneous blocks.",
+              "source_urls": [
+                "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt",
+                "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf",
+                "https://www.m-vave.com/product?id=mk-300"
+              ],
+              "measurements": [],
+              "notes": [
+                "Original release notes recovered as inert bytes, strict GB18030: 10,229 bytes, SHA256 f8399ce21189222bf52911d18cd8bf19db1db1b4c3d80150673d11085f40c9c8, 242 lines, V56–V75; identical hash to November 6 recovery.",
+                "Manufacturer-authored 41-page manual text checked. Older manual has no complete current pitch algorithm parameter table; no device, firmware installation, editor execution or audio test performed."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.m-vave.com/download",
+                "title": "Current M-VAVE MK300 firmware listing",
+                "access": "Manufacturer index opened as text",
+                "evidence": "V75 October 12, 2026; warns V73 resets GLOB settings."
+              },
+              {
+                "url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK300.txt",
+                "title": "Original MK300 release history",
+                "access": "Bounded repository reader fetched and strictly decoded complete GB18030 text",
+                "evidence": "V56–V75; version-specific pitch, snapshot, NAM and tail changes. Hash retained."
+              },
+              {
+                "url": "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf",
+                "title": "Manufacturer MK-300 owner manual",
+                "access": "Original manufacturer PDF text read; 41 pages",
+                "evidence": "160 editable /80 filled, CPU load warning, eleven modules and expression recall qualifications."
+              },
+              {
+                "url": "https://www.m-vave.com/product?id=mk-300",
+                "title": "Manufacturer MK-300 product record",
+                "access": "Indexed product body; current direct opening returned shell",
+                "evidence": "200 user presets conflicts with original manual; cached V72 not current-index firmware."
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=RqWhBBMlL74",
+                "title": "M-VAVE new-product MK-300 giveaway",
+                "access": "Search-indexed manufacturer video description",
+                "evidence": "Campaign April 11–16, 2025; not exact worldwide first-sale date."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "M-VAVE::TANK-PRO": {
         "model_key": "M-VAVE::TANK-PRO",
@@ -213186,8 +213279,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "M-VAVE::MINI-X",
-    "last_commit_parent": "83b319cce4970e79517fe71e5b67b37ae69cc06d",
+    "last_model": "M-VAVE::MK-300",
+    "last_commit_parent": "80fe5265564726c3991bdd5609f4563c185fab71",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
