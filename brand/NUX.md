@@ -695,7 +695,7 @@ Variant,bundle,adapter inclusion,authenticity,working state,warranty,shipping/ta
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Original manufacturer manual carries copyright2014, but document copyright does not establish first hardware availability. Secondary NAMM2014 discovery lead remains uncorroborated by a dated manufacturer launch notice; exact first release remains unresolved. [launch 1](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf) |
+| Firmware / first hardware release | 2014-01-20 (NAMM-tagged catalogue publication proxy; exact first sale unconfirmed). Exact-model Effects Database entry is dated January 20, 2014, and tagged NAMM 2014. This is dated public catalogue documentation rather than a confirmed first shipment or worldwide retail launch. Original manual copyright 2014 is consistent year-level context but is not itself a release date. [launch 1](https://www.effectsdatabase.com/model/nux/multi/mg20) |
 | Firmware / latest verification | Not verified — No public firmware located. Current exact-model legacy support lists English manual only; no public firmware binary, release history or updater located. Original manual explicitly documents USB system updating. V1 is a document revision, not a firmware version; PDF upload/crawl dates are not device update dates. Latest device version/date and support span remain unknown. [firmware 1](https://nuxaudio.com/product/mg20/) [firmware 2](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -710,6 +710,7 @@ Sources checked:
 
 - [NUX MG-20 manufacturer legacy support](https://nuxaudio.com/product/mg20/) — MG-20 marked Legacy Product; support lists English manual, no firmware download/version/date exposed. (Manufacturer page opened2026-11-22).
 - [NUX MG-20 V1 English owner manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf) — Cover2014 copyright,36factory+36user,32-bitDSP; p.4 USBsystemupdate; pp.6–7 MOD placement/stereo restriction and CTRL/EXP preset recall; pp.12–13 exact pitch controls. Manual revision not firmware; copyright not first shipping date. (Manufacturer PDF downloaded2026-11-22; cover, printed pp.2–7 and12–13 visually inspected; SHA256ad7d8cd7b174ba2d757901a56871942c93e9b2952b75403a539a507235f9bc1a).
+- [NuX MG-20 Guitar Modeling Processor catalogue entry](https://www.effectsdatabase.com/model/nux/multi/mg20) — Published January 20, 2014; NAMM 2014 tag. Dated public catalogue proxy, not authenticated first retail shipment. (Exact-model publication header and NAMM tag checked 2026-11-22).
 
 <!-- firmware-pitch:NUX::MG-20 ends -->
 

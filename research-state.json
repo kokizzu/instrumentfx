@@ -197884,13 +197884,13 @@
         "model_key": "NUX::MG-20",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unresolved first hardware availability",
+          "date": "2014-01-20",
+          "precision": "day",
+          "kind": "NAMM-tagged catalogue publication proxy; exact first sale unconfirmed",
           "source_urls": [
-            "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf"
+            "https://www.effectsdatabase.com/model/nux/multi/mg20"
           ],
-          "note": "Original manufacturer manual carries copyright2014, but document copyright does not establish first hardware availability. Secondary NAMM2014 discovery lead remains uncorroborated by a dated manufacturer launch notice; exact first release remains unresolved."
+          "note": "Exact-model Effects Database entry is dated January 20, 2014, and tagged NAMM 2014. This is dated public catalogue documentation rather than a confirmed first shipment or worldwide retail launch. Original manual copyright 2014 is consistent year-level context but is not itself a release date."
         },
         "firmware": {
           "version": null,
@@ -197929,10 +197929,72 @@
             "title": "NUX MG-20 V1 English owner manual",
             "access": "Manufacturer PDF downloaded2026-11-22; cover, printed pp.2–7 and12–13 visually inspected; SHA256ad7d8cd7b174ba2d757901a56871942c93e9b2952b75403a539a507235f9bc1a",
             "evidence": "Cover2014 copyright,36factory+36user,32-bitDSP; p.4 USBsystemupdate; pp.6–7 MOD placement/stereo restriction and CTRL/EXP preset recall; pp.12–13 exact pitch controls. Manual revision not firmware; copyright not first shipping date."
+          },
+          {
+            "url": "https://www.effectsdatabase.com/model/nux/multi/mg20",
+            "title": "NuX MG-20 Guitar Modeling Processor catalogue entry",
+            "access": "Exact-model publication header and NAMM tag checked 2026-11-22",
+            "evidence": "Published January 20, 2014; NAMM 2014 tag. Dated public catalogue proxy, not authenticated first retail shipment."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "NUX::MG-20",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unresolved first hardware availability",
+              "source_urls": [
+                "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf"
+              ],
+              "note": "Original manufacturer manual carries copyright2014, but document copyright does not establish first hardware availability. Secondary NAMM2014 discovery lead remains uncorroborated by a dated manufacturer launch notice; exact first release remains unresolved."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://nuxaudio.com/product/mg20/",
+                "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf"
+              ],
+              "note": "Current exact-model legacy support lists English manual only; no public firmware binary, release history or updater located. Original manual explicitly documents USB system updating. V1 is a document revision, not a firmware version; PDF upload/crawl dates are not device update dates. Latest device version/date and support span remain unknown."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Original V1 effects table, printed pp.12–13, now visually checked: Harmonist has MODE/KEY/HARMONY/BALANCE; Detune has SHIFT L./SHIFT R./MIX/LEVEL. Separate pedal Whammy (table spelling WAHMMY) exposes OCTAVE without numeric range here. No explicit polyphonic input/chord-tracking claim; stereo shifts do not establish polyphony.",
+              "preset": "36 factory plus36 user presets. Original pp.6–7 confirm CTRL/EXP function and on/off states saved per preset; unsaved edits are abandoned on preset change. MOD position can be before EFX or after EQ, saved per preset; pre-EFX placement disables stereo effects. Harmonist and Detune share MOD alternatives.",
+              "dsp": "32-bit floating-point DSP is overall architecture, not a pitch cost. Eight named audio positions NG/CMP/EFX/AMP/EQ/MOD/DELAY/REVERB plus CTRL/EXP control button; nine module buttons do not prove nine simultaneous audio blocks. No isolated Harmonist/Detune/Whammy DSP percentage or latency benchmark located.",
+              "source_urls": [
+                "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Original manufacturer PDF visual inspection now corroborates these pitch/recall/routing details previously available only through a mirror transcription. Historical visual-access limitations below describe earlier checks.",
+                "No hardware/audio test; numeric pitch range and note polyphony remain unverified."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://nuxaudio.com/product/mg20/",
+                "title": "NUX MG-20 manufacturer legacy support",
+                "access": "Manufacturer page opened2026-11-22",
+                "evidence": "MG-20 marked Legacy Product; support lists English manual, no firmware download/version/date exposed."
+              },
+              {
+                "url": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG20/NUX_MG20_UserManualV1_English.pdf",
+                "title": "NUX MG-20 V1 English owner manual",
+                "access": "Manufacturer PDF downloaded2026-11-22; cover, printed pp.2–7 and12–13 visually inspected; SHA256ad7d8cd7b174ba2d757901a56871942c93e9b2952b75403a539a507235f9bc1a",
+                "evidence": "Cover2014 copyright,36factory+36user,32-bitDSP; p.4 USBsystemupdate; pp.6–7 MOD placement/stereo restriction and CTRL/EXP preset recall; pp.12–13 exact pitch controls. Manual revision not firmware; copyright not first shipping date."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "NUX::MFX-10": {
         "model_key": "NUX::MFX-10",
@@ -213492,8 +213554,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "NUX::PG-2",
-    "last_commit_parent": "0e78c67b3e532979c5c18b12063e01199dd32848",
+    "last_model": "NUX::MG-20",
+    "last_commit_parent": "43e6ca7c11456a73927949b356df80325bf2e0a3",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
