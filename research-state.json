@@ -219219,11 +219219,36 @@
             "sha256": "ba5b563d61f14d087b32ac3275eeba2ab2cc9fe74640e6d4a5f0e6971a6f1432"
           }
         }
+      },
+      "BOSS::GT-100": {
+        "model_key": "BOSS::GT-100",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/assets/images/products/gallery/gt-100_top_gal.jpg",
+            "source_url": "https://www.boss.info/global/products/gt-100/",
+            "caption": "BOSS GT-100 — powered-on top view",
+            "note": "Complete manufacturer straight-down view with lit orange U01-1 / Hi GAIN STACK displays, red footswitch and EXP PEDAL indicators, nine rotary controls, eight panel buttons, eight footswitches and full expression pedal. Powered-on appearance is visible in this promotional image; independent operating-state verification is unavailable.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "be74dcdeee00a6e7b295aa195f857f8a2875a9ccc161921339572c2ecca9a647"
+          },
+          "rear": {
+            "image_url": "https://giggear.2dimg.com/original/1547732696_8575.jpg",
+            "source_url": "https://www.giggear.co.uk/guitars/effects/guitar-effects-pedals/guitar-multi-effects-pedals/boss-gt-100-multi-effects-and-amp-modelling-pedal-version-2-0.htm",
+            "caption": "BOSS GT-100 — rear connections",
+            "note": "Complete retailer-hosted rear-panel image: INPUT, miniature AUX IN, OUTPUT R/L-MONO, PHONES, ground lift, EXT LOOP SEND/RETURN, AMP CTL, SUB CTL1/2/SUB EXP, USB-B COMPUTER, MIDI OUT/IN, power switch, DC IN for PSB-1U adaptor, cord restraint, ground terminal and security slot.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "aa4d53d05270587baa48b000da1e9d9ce2b41d8d0196c58277b50cf0c5c426f5"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GM-800"
+    "last_model": "BOSS::GT-100"
   }
 }

@@ -2240,6 +2240,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GT-100 ends -->
 
+<!-- model-images:BOSS::GT-100 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS GT-100 — powered-on top view**
+
+[![BOSS GT-100 — powered-on top view](https://static.roland.com/assets/images/products/gallery/gt-100_top_gal.jpg)](https://static.roland.com/assets/images/products/gallery/gt-100_top_gal.jpg)
+
+[Image source](https://www.boss.info/global/products/gt-100/). Complete manufacturer straight-down view with lit orange U01-1 / Hi GAIN STACK displays, red footswitch and EXP PEDAL indicators, nine rotary controls, eight panel buttons, eight footswitches and full expression pedal. Powered-on appearance is visible in this promotional image; independent operating-state verification is unavailable.
+
+**BOSS GT-100 — rear connections**
+
+[![BOSS GT-100 — rear connections](https://giggear.2dimg.com/original/1547732696_8575.jpg)](https://giggear.2dimg.com/original/1547732696_8575.jpg)
+
+[Image source](https://www.giggear.co.uk/guitars/effects/guitar-effects-pedals/guitar-multi-effects-pedals/boss-gt-100-multi-effects-and-amp-modelling-pedal-version-2-0.htm). Complete retailer-hosted rear-panel image: INPUT, miniature AUX IN, OUTPUT R/L-MONO, PHONES, ground lift, EXT LOOP SEND/RETURN, AMP CTL, SUB CTL1/2/SUB EXP, USB-B COMPUTER, MIDI OUT/IN, power switch, DC IN for PSB-1U adaptor, cord restraint, ground terminal and security slot.
+
+</details>
+<!-- model-images:BOSS::GT-100 ends -->
+
+
 Checked **2026-10-16**. Guitar COSM multi-effects, distinct from GT-1000. Partial first pass; the original manual URL was found but web extraction failed because its PDF exceeded the fetch size limit. No manual file was downloaded.
 
 | Field | Model-specific evidence / unresolved fields |
