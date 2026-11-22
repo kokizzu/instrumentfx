@@ -202482,13 +202482,14 @@
         "model_key": "Sonicake::Smart Box QME-20",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2026-02",
+          "precision": "month",
+          "kind": "Japanese retailer release-announcement proxy; first worldwide shipment unresolved",
           "source_urls": [
-            "https://www.sonicake.com/products/smart-box"
+            "https://www.sonicake.com/products/smart-box",
+            "https://store.miroc.co.jp/magazine/news/sonicake_smartbox-qme-20"
           ],
-          "note": "Exact first on-sale date not established. Manual copyright, asset upload and regional introduction dates are not substituted for first worldwide release."
+          "note": "Rock oN’s article is explicitly dated February9,2026 and announces the Japanese QME-20 release for February13, with preorders open. Its weekday label is inconsistent, so retain month precision and treat this as a regional release-announcement proxy, not confirmed first worldwide shipment or completed delivery. January2026 public introduction leads precede the regional announcement. Manual copyright and asset timestamps are not launch proof. Firmware1.0.6 has no verified release date, so no update span calculated."
         },
         "firmware": {
           "version": "1.0.6",
@@ -202533,10 +202534,78 @@
             "title": "Smart Box multilingual manual",
             "access": "Manufacturer source checked 2026-11-22",
             "evidence": "English pitch table: polyphonic Octave/Pitch, pitch/dry/voice controls, Detune +/-50cents; presets and EXP targets."
+          },
+          {
+            "url": "https://store.miroc.co.jp/magazine/news/sonicake_smartbox-qme-20",
+            "title": "Rock oN SONICAKE SMARTBOX QME-20 release announcement",
+            "access": "Exact-model retailer announcement read2026-11-22; article dateline and planned release distinguished",
+            "evidence": "Article February9,2026; preorder announcement for February13. Weekday label inconsistent, so month-level regional proxy retained, not global first sale."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Sonicake::Smart Box QME-20",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.sonicake.com/products/smart-box"
+              ],
+              "note": "Exact first on-sale date not established. Manual copyright, asset upload and regional introduction dates are not substituted for first worldwide release."
+            },
+            "firmware": {
+              "version": "1.0.6",
+              "date": null,
+              "precision": "unknown",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://www.sonicake.com/pages/smart-box-software-firmware-download-qme-20",
+                "https://www.sonicake.com/products/smart-box"
+              ],
+              "note": "Current manufacturer download page lists 1.0.6 with improved compatibility and 1.0.5 as initial version, without release dates. Sonicake Manager1.5.2 and SONICLINK1.8.2 are software releases, not device firmware. Support retains a Windows11 communication warning; no hardware update performed."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "Own English manual explicitly identifies Octave and Pitch as polyphonic. Octave has lower/upper octave and dry levels; Pitch has semitone high/low shifts, voice levels and dry control, with exact endpoints unverified. Detune is -50 to +50 cents. Manufacturer claims, not independent chord-tracking measurements; current1.0.6 algorithm equivalence to the manual is not hardware tested.",
+              "preset": "100 preset locations,50 factory-filled. Pitch belongs to the shared FX choices in FX1/FX2; saved effects/presets and external EXP target selection are documented. Global-menu expression assignment does not alone establish a transposition setting or volume target that persists across every preset.",
+              "dsp": "No isolated pitch CPU percentage or measured DSP resource cost found. A pitch algorithm selects an FX1/FX2 choice within the nine-module architecture; nine simultaneous modules is an overall structural limit, not a pitch benchmark.",
+              "source_urls": [
+                "https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf",
+                "https://www.sonicake.com/products/smart-box"
+              ],
+              "measurements": [],
+              "notes": [
+                "Preserve five user IR/NAM loading slots and regional NAM A2 conversion qualification; native architecture support is not inferred. No physical latency, polyphony or resource test."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.sonicake.com/pages/smart-box-software-firmware-download-qme-20",
+                "title": "Smart Box QME-20 downloads",
+                "access": "Manufacturer source checked 2026-11-22",
+                "evidence": "Current1.0.6 compatibility update, initial1.0.5, software versions; no firmware date."
+              },
+              {
+                "url": "https://www.sonicake.com/products/smart-box",
+                "title": "Smart Box product/specifications",
+                "access": "Manufacturer source checked 2026-11-22",
+                "evidence": "ExactQME20, nine modules,100locations50factory, no first sale date."
+              },
+              {
+                "url": "https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf",
+                "title": "Smart Box multilingual manual",
+                "access": "Manufacturer source checked 2026-11-22",
+                "evidence": "English pitch table: polyphonic Octave/Pitch, pitch/dry/voice controls, Detune +/-50cents; presets and EXP targets."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Sonicake::Pocket Master QME-10": {
         "model_key": "Sonicake::Pocket Master QME-10",
@@ -215630,8 +215699,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Donner::Arena2000",
-    "last_commit_parent": "a3364cae87335484bfb10787be7d97383aa716db",
+    "last_model": "Sonicake::Smart Box QME-20",
+    "last_commit_parent": "38f7464c8cca1e8ae93e0bf27357e4682e0bc2c7",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

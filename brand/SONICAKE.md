@@ -1164,7 +1164,7 @@ Checked2026-10-28 against the [manufacturer product page][RS-P]. Ordinary electr
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Exact first on-sale date not established. Manual copyright, asset upload and regional introduction dates are not substituted for first worldwide release. [launch 1](https://www.sonicake.com/products/smart-box) |
+| Firmware / first hardware release | 2026-02 (Japanese retailer release-announcement proxy; first worldwide shipment unresolved). Rock oN’s article is explicitly dated February9,2026 and announces the Japanese QME-20 release for February13, with preorders open. Its weekday label is inconsistent, so retain month precision and treat this as a regional release-announcement proxy, not confirmed first worldwide shipment or completed delivery. January2026 public introduction leads precede the regional announcement. Manual copyright and asset timestamps are not launch proof. Firmware1.0.6 has no verified release date, so no update span calculated. [launch 1](https://www.sonicake.com/products/smart-box) [launch 2](https://store.miroc.co.jp/magazine/news/sonicake_smartbox-qme-20) |
 | Firmware / latest verification | 1.0.6 — Latest verified. Current manufacturer download page lists 1.0.6 with improved compatibility and 1.0.5 as initial version, without release dates. Sonicake Manager1.5.2 and SONICLINK1.8.2 are software releases, not device firmware. Support retains a Windows11 communication warning; no hardware update performed. [firmware 1](https://www.sonicake.com/pages/smart-box-software-firmware-download-qme-20) [firmware 2](https://www.sonicake.com/products/smart-box) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -1180,6 +1180,7 @@ Sources checked:
 - [Smart Box QME-20 downloads](https://www.sonicake.com/pages/smart-box-software-firmware-download-qme-20) — Current1.0.6 compatibility update, initial1.0.5, software versions; no firmware date. (Manufacturer source checked 2026-11-22).
 - [Smart Box product/specifications](https://www.sonicake.com/products/smart-box) — ExactQME20, nine modules,100locations50factory, no first sale date. (Manufacturer source checked 2026-11-22).
 - [Smart Box multilingual manual](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf) — English pitch table: polyphonic Octave/Pitch, pitch/dry/voice controls, Detune +/-50cents; presets and EXP targets. (Manufacturer source checked 2026-11-22).
+- [Rock oN SONICAKE SMARTBOX QME-20 release announcement](https://store.miroc.co.jp/magazine/news/sonicake_smartbox-qme-20) — Article February9,2026; preorder announcement for February13. Weekday label inconsistent, so month-level regional proxy retained, not global first sale. (Exact-model retailer announcement read2026-11-22; article dateline and planned release distinguished).
 
 <!-- firmware-pitch:Sonicake::Smart Box QME-20 ends -->
 
