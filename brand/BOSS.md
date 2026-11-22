@@ -5107,6 +5107,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::ME-25 ends -->
 
+<!-- model-images:BOSS::ME-25 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS ME-25 — powered-on top view**
+
+[![BOSS ME-25 — powered-on top view](https://static.roland.com/assets/images/products/gallery/me-25_top_gal.jpg)](https://static.roland.com/assets/images/products/gallery/me-25_top_gal.jpg)
+
+[Image source](https://www.boss.info/global/products/me-25/). Complete manufacturer straight-down promotional view with lit red 25 display, blue Super Stack indicator, red Pedal FX and Solo indicators, four rotary controls, nine panel buttons, three footswitches and full expression pedal. Powered-on appearance is visible; independent operating-state verification is unavailable.
+
+**BOSS ME-25 — rear connections**
+
+[![BOSS ME-25 — rear connections](https://static.roland.com/assets/images/products/gallery/me-25_back_gal.jpg)](https://static.roland.com/assets/images/products/gallery/me-25_back_gal.jpg)
+
+[Image source](https://www.boss.info/global/products/me-25/). Complete manufacturer rear-panel image: INPUT with POWER ON marking, miniature AUX IN, OUTPUT R/L-MONO, quarter-inch PHONES, USB-B AUDIO, DC IN for PSA adaptor and security slot.
+
+</details>
+<!-- model-images:BOSS::ME-25 ends -->
+
+
 Guitar multi-effects; checked 2026-10-17, partial. Manufacturer marks discontinued. Bass suitability unclassified. An exact Shopee hardware lead is faulty and sold out; it is not a working-unit price.
 
 <!-- comparison evidence begins -->
