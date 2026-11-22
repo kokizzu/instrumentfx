@@ -211,6 +211,26 @@ Sources checked:
 
 <!-- firmware-pitch:Alesis::MIDIverb 4 ends -->
 
+<!-- model-images:Alesis::MIDIverb 4 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Powered front control panel and rear overview**
+
+[![Powered front control panel and rear overview](https://cdn11.bigcommerce.com/s-mivyx18b6b/images/stencil/1280x1280/products/18519/1253557/Alesis-Midiverb-4-front-rear__27695.1733993225.jpg?c=1%3Fimbypass%3Don)](https://cdn11.bigcommerce.com/s-mivyx18b6b/images/stencil/1280x1280/products/18519/1253557/Alesis-Midiverb-4-front-rear__27695.1733993225.jpg?c=1%3Fimbypass%3Don)
+
+[Image source](https://www.aallyandsons.com/reverb-alesis-midiverb-4-md4-dual-ch-proces/). Retailer promotional photograph showing the full front control panel with its green LCD illuminated and a second rear overview below. For this rack unit the controls face forward, rather than occupying the top lid. The front panel is only about 920 pixels wide within the composite; a higher-resolution control photograph remains pending.
+
+**Rear connections**
+
+[![Rear connections](https://www.drugansdrums.com/cdn/shop/files/IMG_5725.jpg?v=1685996276&width=1946)](https://www.drugansdrums.com/cdn/shop/files/IMG_5725.jpg?v=1685996276&width=1946)
+
+[Image source](https://www.drugansdrums.com/products/alesis-midiverb-4-rackmount-reverb-effects-processor). Complete rear panel with readable labels: 9 V AC power, footswitch, MIDI IN and OUT/THRU, LEFT/CH 1 and RIGHT/CH 2 inputs, and LEFT/CH 1 and RIGHT/CH 2 outputs. The photograph is slightly elevated but no connector is hidden.
+
+</details>
+<!-- model-images:Alesis::MIDIverb 4 ends -->
+
+
 <!-- comparison evidence begins -->
 Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discontinued [MD-P].
 

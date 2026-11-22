@@ -220252,11 +220252,36 @@
             "sha256": "e543f6092d6cecc47e54f1edb9399f4eb9227f9def67ca6189152fb9e54ce727"
           }
         }
+      },
+      "Alesis::MIDIverb 4": {
+        "model_key": "Alesis::MIDIverb 4",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn11.bigcommerce.com/s-mivyx18b6b/images/stencil/1280x1280/products/18519/1253557/Alesis-Midiverb-4-front-rear__27695.1733993225.jpg?c=1%3Fimbypass%3Don",
+            "source_url": "https://www.aallyandsons.com/reverb-alesis-midiverb-4-md4-dual-ch-proces/",
+            "caption": "Powered front control panel and rear overview",
+            "note": "Retailer promotional photograph showing the full front control panel with its green LCD illuminated and a second rear overview below. For this rack unit the controls face forward, rather than occupying the top lid. The front panel is only about 920 pixels wide within the composite; a higher-resolution control photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "48a2533061774b43623daac53b70c0122c8b0a324b7b7da176c569caacfcc20c"
+          },
+          "rear": {
+            "image_url": "https://www.drugansdrums.com/cdn/shop/files/IMG_5725.jpg?v=1685996276&width=1946",
+            "source_url": "https://www.drugansdrums.com/products/alesis-midiverb-4-rackmount-reverb-effects-processor",
+            "caption": "Rear connections",
+            "note": "Complete rear panel with readable labels: 9 V AC power, footswitch, MIDI IN and OUT/THRU, LEFT/CH 1 and RIGHT/CH 2 inputs, and LEFT/CH 1 and RIGHT/CH 2 outputs. The photograph is slightly elevated but no connector is hidden.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "af5854cdce7e8d72786400a57529f51fb6dad65fd259b5caa78ba6f560aa0ea5"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Alesis::MicroVerb 4"
+    "last_model": "Alesis::MIDIverb 4"
   }
 }
