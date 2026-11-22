@@ -9907,6 +9907,30 @@ FS01 turns effects off and makes POWER flash red. The checked text does not spec
 
 ## RFX-1100
 
+<!-- firmware-pitch:Zoom::RFX-1100 begins -->
+### Firmware and pitch audit — Zoom RFX-1100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2004 (manufacturer product-history year). Listed under 2004; exact retail month/day unverified. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current archived support lists an operation manual only. No public firmware package, version or dated update found; this does not prove the internal firmware was never revised. [firmware 1](https://zoomcorp.com/en/us/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-1100/rfx-1100-support/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH stereo pitch shifter adds a shifted component: detune through one octave up/down. Variation magnitudes are 7, 20, 100, 200, 300, 400, 500, 700, 900, 1100 and 1200 cents, with direction separately controlled. Stereo is not evidence of chord tracking. [pitch 1](https://zoomcorp.com/media/documents/E_RFX1100.pdf) |
+| Pitch / preset recall | 33 factory effect selections across three banks, adjusted directly with knobs. No user patch-save/recall procedure documented in the complete manual; knob settings must be restored manually. |
+| Pitch / DSP resources | Fixed effect selections rather than a freely assignable DSP chain. PITCH is a single selection in the EFFECTS bank; predetermined combined programs are separate. No per-effect CPU percentage or user resource meter documented. |
+| Pitch / qualifications | Polyphonic input support remains unverified; no hardware test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom product history](https://ir.zoom.co.jp/en/corporate/history/) — RFX-1100 appears under 2004. (manufacturer history inspected).
+- [RFX-1100 archived support](https://zoomcorp.com/en/us/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-1100/rfx-1100-support/) — Operation manual only; no firmware offered. (official page inspected).
+- [RFX-1100 operation manual](https://zoomcorp.com/media/documents/E_RFX1100.pdf) — 33 selections, direct knobs; PITCH interval/direction and fixed combinations. No user-save procedure, polyphonic claim or DSP percentage. (official 16-page PDF inspected).
+
+<!-- firmware-pitch:Zoom::RFX-1100 ends -->
+
 Rack multi-effects, checked 2026-10-17. Partial verification; unknown is not No.
 
 | Field | Evidence / qualification |

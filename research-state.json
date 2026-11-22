@@ -209776,28 +209776,84 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::RFX-1100": {
+        "model_key": "Zoom::RFX-1100",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2004",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Listed under 2004; exact retail month/day unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-1100/rfx-1100-support/"
+          ],
+          "note": "Current archived support lists an operation manual only. No public firmware package, version or dated update found; this does not prove the internal firmware was never revised."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PITCH stereo pitch shifter adds a shifted component: detune through one octave up/down. Variation magnitudes are 7, 20, 100, 200, 300, 400, 500, 700, 900, 1100 and 1200 cents, with direction separately controlled. Stereo is not evidence of chord tracking.",
+          "preset": "33 factory effect selections across three banks, adjusted directly with knobs. No user patch-save/recall procedure documented in the complete manual; knob settings must be restored manually.",
+          "dsp": "Fixed effect selections rather than a freely assignable DSP chain. PITCH is a single selection in the EFFECTS bank; predetermined combined programs are separate. No per-effect CPU percentage or user resource meter documented.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_RFX1100.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Polyphonic input support remains unverified; no hardware test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom product history",
+            "access": "manufacturer history inspected",
+            "evidence": "RFX-1100 appears under 2004."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-1100/rfx-1100-support/",
+            "title": "RFX-1100 archived support",
+            "access": "official page inspected",
+            "evidence": "Operation manual only; no firmware offered."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_RFX1100.pdf",
+            "title": "RFX-1100 operation manual",
+            "access": "official 16-page PDF inspected",
+            "evidence": "33 selections, direct knobs; PITCH interval/direction and fixed combinations. No user-save procedure, polyphonic claim or DSP percentage."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::RFX-1100",
       "Zoom::RFX-2000",
       "Zoom::RFX-2200",
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 397,
-    "last_model": "Zoom::RFX-1000",
-    "last_commit_parent": "fec5e2b42cda5acc7b9fa711883f976062072d5d",
+    "completed_model_count": 398,
+    "last_model": "Zoom::RFX-1100",
+    "last_commit_parent": "30917321e4dc18a60df2970a1a6dd845782aa528",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::RFX-1100",
       "Zoom::RFX-2000",
       "Zoom::RFX-2200",
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 397,
+    "pitch_completed_model_count": 398,
     "supplemental_model_count": 0
   },
   "model_images": {
