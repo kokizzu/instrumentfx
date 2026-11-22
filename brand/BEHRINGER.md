@@ -164,6 +164,26 @@ Sources checked:
 
 <!-- firmware-pitch:Behringer::Bass V-AMP PRO ends -->
 
+<!-- model-images:Behringer::Bass V-AMP PRO begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Behringer Bass V-AMP PRO — front controls**
+
+[![Behringer Bass V-AMP PRO — front controls](https://cdn.korn.eu/pictures/product/1500/980021.jpg)](https://cdn.korn.eu/pictures/product/1500/980021.jpg)
+
+[Image source](https://www.musikhaus-korn.de/de/behringer-lx1b-bass-v-amp-pro/pd/2379). Straight-on promotional front-panel view with powered red 25 display and illuminated knob/status indicators; all controls, power switch, instrument input and headphones visible. Rack controls face forward; this is not a top-down chassis view.
+
+**Behringer Bass V-AMP PRO — rear connections**
+
+[![Behringer Bass V-AMP PRO — rear connections](https://medias.audiofanzine.com/images/normal/behringer-bass-v-amp-pro-2122961.jpg)](https://medias.audiofanzine.com/images/normal/behringer-bass-v-amp-pro-2122961.jpg)
+
+[Image source](https://fr.audiofanzine.com/simulateur-ampli-basse/behringer/Bass-V-Amp-Pro/). Slightly oblique full rear view above the product box: pre-DSP insert, analog line outputs, post-DSP stereo insert, balanced XLR outputs and ground lift, S/PDIF and AES/EBU outputs, wordclock input, MIDI OUT/THRU and IN, and connected IEC power inlet. All connector groups and labels visible.
+
+</details>
+<!-- model-images:Behringer::Bass V-AMP PRO ends -->
+
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Separate rack model; selected manufacturer manual sections, including its PRO-only columns. Partial verification.
 
