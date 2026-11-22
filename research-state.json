@@ -208554,10 +208554,85 @@
           "label": "1.25–2.33 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G6": {
+        "model_key": "Zoom::G6",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2020",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Official chronology places G6 in 2020. International publicity in January 2021 is later regional introduction; December 2020 production firmware alone is not a retail date."
+        },
+        "firmware": {
+          "version": "2.00",
+          "date": "2021-12",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g6/g6-support/",
+            "https://zoomcorp.com/documents/3437/G6_System_Firmware_Version_History_ver200_en.pdf"
+          ],
+          "note": "Current G6 package 2.00 matches December 2021 history: PRESELECT and faster EDIT access. 1.30 April 2021 adds Handy Guitar Lab support; 1.20 March and 1.10 January 2021 fix IR naming/display. 1.00 December 2020 is production firmware. ASIO, Guitar Lab and IR collections are separate updates."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "PolyShift explicitly supports chords. PitchSHFT provides −12…+12,+24 semitones and ±25-cent Fine; MonoPitch explicitly targets single notes; HPS follows key/scale. Do not generalize PolyShift chord support to every algorithm.",
+          "preset": "240 patch memories retain effect parameters and states. Built-in pedal/toe switch; toe toggling is not saved, while footswitch toggling is. External pedal enables a second PEDAL-category effect marked EXT.",
+          "dsp": "Up to nine effects within 100% processing budget; large effects occupy two spaces. A selection that would exceed 100% is rejected. Processing status is visible during selection. No exact PolyShift/per-pitch percentage located; G5n chart figures must not be borrowed.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_G6_FX-list_2.pdf",
+            "https://zoomcorp.com/documents/1952/E_G6_v2.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no hardware tracking/CPU test or firmware installation."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "G6 under 2020."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g6/g6-support/",
+            "title": "G6 support",
+            "access": "current exact-model package list inspected",
+            "evidence": "G6 system 2.00; separate ASIO, Guitar Lab and IR collection."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3437/G6_System_Firmware_Version_History_ver200_en.pdf",
+            "title": "G6 firmware history",
+            "access": "official indexed PDF inspected",
+            "evidence": "2.00 December 2021; 1.30 April 2021; earlier IR fixes and December 2020 production."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_G6_FX-list_2.pdf",
+            "title": "G6 effect parameters",
+            "access": "official support-linked PDF inspected, p19",
+            "evidence": "PolyShift supports chord playing; generic PitchSHFT and single-note MonoPitch are distinct."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/1952/E_G6_v2.pdf",
+            "title": "G6 operation manual v2",
+            "access": "official PDF inspected, pp3,47–49,73–78",
+            "evidence": "240 memories; nine effects and 100% selection limit; two-space large effects; built-in/external pedal and saved-state caveat."
+          }
+        ],
+        "duration": {
+          "minimum_days": 335,
+          "maximum_days": 730,
+          "label": "0.92–2.00 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G6",
       "Zoom::G7.1ut",
       "Zoom::GFX-3",
       "Zoom::GFX-4",
@@ -208580,12 +208655,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 381,
-    "last_model": "Zoom::G5n",
-    "last_commit_parent": "6aaa07895a1a0aeb8c9232bcc8a3916b7f155bfd",
+    "completed_model_count": 382,
+    "last_model": "Zoom::G6",
+    "last_commit_parent": "bc9f37eda9857885fed2895c9332735ec6a28565",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G6",
       "Zoom::G7.1ut",
       "Zoom::GFX-3",
       "Zoom::GFX-4",
@@ -208607,7 +208681,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 381,
+    "pitch_completed_model_count": 382,
     "supplemental_model_count": 0
   },
   "model_images": {

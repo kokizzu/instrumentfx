@@ -7037,6 +7037,32 @@ Printed24–26 directly corroborate existing MONITOR BALANCE0–100 andRECORDING
 
 ## G6
 
+<!-- firmware-pitch:Zoom::G6 begins -->
+### Firmware and pitch audit — Zoom G6
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2020 (manufacturer product-history year). Official chronology places G6 in 2020. International publicity in January 2021 is later regional introduction; December 2020 production firmware alone is not a retail date. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 2.00 — Latest verified. Current G6 package 2.00 matches December 2021 history: PRESELECT and faster EDIT access. 1.30 April 2021 adds Handy Guitar Lab support; 1.20 March and 1.10 January 2021 fix IR naming/display. 1.00 December 2020 is production firmware. ASIO, Guitar Lab and IR collections are separate updates. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g6/g6-support/) [firmware 2](https://zoomcorp.com/documents/3437/G6_System_Firmware_Version_History_ver200_en.pdf) |
+| Firmware / release date | 2021-12 (month precision) |
+| Firmware / release-to-update duration | 0.92–2.00 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. PolyShift explicitly supports chords. PitchSHFT provides −12…+12,+24 semitones and ±25-cent Fine; MonoPitch explicitly targets single notes; HPS follows key/scale. Do not generalize PolyShift chord support to every algorithm. [pitch 1](https://zoomcorp.com/media/documents/E_G6_FX-list_2.pdf) [pitch 2](https://zoomcorp.com/documents/1952/E_G6_v2.pdf) |
+| Pitch / preset recall | 240 patch memories retain effect parameters and states. Built-in pedal/toe switch; toe toggling is not saved, while footswitch toggling is. External pedal enables a second PEDAL-category effect marked EXT. |
+| Pitch / DSP resources | Up to nine effects within 100% processing budget; large effects occupy two spaces. A selection that would exceed 100% is rejected. Processing status is visible during selection. No exact PolyShift/per-pitch percentage located; G5n chart figures must not be borrowed. |
+| Pitch / qualifications | Documentation only; no hardware tracking/CPU test or firmware installation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G6 under 2020. (official chronology inspected).
+- [G6 support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g6/g6-support/) — G6 system 2.00; separate ASIO, Guitar Lab and IR collection. (current exact-model package list inspected).
+- [G6 firmware history](https://zoomcorp.com/documents/3437/G6_System_Firmware_Version_History_ver200_en.pdf) — 2.00 December 2021; 1.30 April 2021; earlier IR fixes and December 2020 production. (official indexed PDF inspected).
+- [G6 effect parameters](https://zoomcorp.com/media/documents/E_G6_FX-list_2.pdf) — PolyShift supports chord playing; generic PitchSHFT and single-note MonoPitch are distinct. (official support-linked PDF inspected, p19).
+- [G6 operation manual v2](https://zoomcorp.com/documents/1952/E_G6_v2.pdf) — 240 memories; nine effects and 100% selection limit; two-space large effects; built-in/external pedal and saved-state caveat. (official PDF inspected, pp3,47–49,73–78).
+
+<!-- firmware-pitch:Zoom::G6 ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- ZOOM-G6 source begins -->

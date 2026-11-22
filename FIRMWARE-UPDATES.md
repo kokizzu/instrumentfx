@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 381/402 active models have firmware audits; 381/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 382/402 active models have firmware audits; 382/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -87,6 +87,7 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [BOSS ME-90B](brand/BOSS.md#me-90b) | 2024-04-18 (manufacturer announcement and availability) | 1.04 — Latest verified | 2025-05 | 1.03–1.12 years | [launch 1](https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-ME-90B-Bass-Multiple-Effects/) [firmware 1](https://www.boss.info/global/support/by_product/me-90b/updates_drivers/14808c74-0eb6-4444-a829-c49b73e75e1c/) |
 | [M-VAVE TANK-PRO](brand/M-VAVE.md#tank-pro) | 2025-10 (manufacturer trade-show debut proxy; first retail sale unknown) | V40 — Latest verified | 2026-11-09 | 1.02–1.11 years | [launch 1](https://www.m-vave.com/news) [launch 2](https://www.m-vave.com/news-article?id=sh-2025) [firmware 1](https://www.m-vave.com/download) [firmware 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK%20PRO.txt) |
 | [Fender Mustang Micro](brand/FENDER.md#mustang-micro) | 2021-04-06 (manufacturer launch/availability proxy) | 1.0.64 — Latest verified | 2022-03-10 | 0.93 years | [launch 1](https://www.fender.com/newsroom/272115-fender-expands-acclaimed-mustang-series-with-pocket-sized-mustang-micro-personal-amp/) [firmware 1](https://support.fender.com/hc/en-us/articles/46634356505755-How-do-I-update-the-Firmware-on-the-Mustang-Micro) |
+| [Zoom G6](brand/ZOOM.md#g6) | 2020 (manufacturer product-history year) | 2.00 — Latest verified | 2021-12 | 0.92–2.00 years | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g6/g6-support/) [firmware 2](https://zoomcorp.com/documents/3437/G6_System_Firmware_Version_History_ver200_en.pdf) |
 | [M-VAVE Pocket Amp](brand/M-VAVE.md#pocket-amp) | 2025-10 (manufacturer trade-show debut proxy; first sale unknown) | V105 — Latest verified | 2026-10 | 0.92–1.08 years | [launch 1](https://www.m-vave.com/news) [launch 2](https://www.youtube.com/watch?v=4ga4XHvNTXg) [firmware 1](https://www.m-vave.com/download) [firmware 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/POCKET%20AMP.txt) |
 | [BOSS KATANA:GO](brand/BOSS.md#katanago) | 2024-03-14 (manufacturer announcement proxy) | 1.04 — Latest verified | 2025-02 | 0.89–0.96 years | [launch 1](https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-KATANA-GO-Personal-Headphone-Guitar/) [firmware 1](https://www.boss.info/global/support/by_product/katana-go/updates_drivers/) [firmware 2](https://www.boss.info/global/support/by_product/katana-go/updates_drivers/12b0d6f6-b2c4-41d3-8f65-b1247ce1eb4b/) [firmware 3](https://www.boss.info/global/products/katana-go/) |
 | [Fractal Audio AM4](brand/FRACTAL-AUDIO.md#am4) | 2025-11-24 (manufacturer availability) | 2.02 — Latest verified | 2026-09-02 | 0.77 years | [launch 1](https://www.fractalaudio.com/downloads/manuals/AM4/251124-Fractal-Audio-Systems-Announces-the-AM4.pdf) [firmware 1](https://www.fractalaudio.com/am4-downloads/) |
@@ -408,4 +409,4 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 
 ## Remaining firmware checks
 
-Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
+Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
