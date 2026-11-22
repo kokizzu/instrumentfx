@@ -181787,15 +181787,15 @@
       },
       "Behringer::FX2000": {
         "model_key": "Behringer::FX2000",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2010-01-14",
+          "precision": "day",
+          "kind": "contemporaneous NAMM announcement-coverage proxy",
           "source_urls": [
-            "https://www.behringer.com/en/products/0828-AAG"
+            "https://www.hispasonic.com/noticias/nuevo-procesador-efectos-virtualizer-pro-3d-fx2000-behringer/5349"
           ],
-          "note": "Exact hardware launch not verified. Product page dates quick-start guide2010-07-08; that is a document date, not first shipping date."
+          "note": "January14,2010 contemporary coverage explicitly reports Behringer presenting the Virtualizer Pro3D FX2000 at NAMM. It also says official pricing and availability had not been announced. This is a public-announcement proxy only, not a first-shipment date; the July8,2010 quick-start document date is separate."
         },
         "firmware": {
           "version": null,
@@ -181853,10 +181853,91 @@
             "title": "Current official FX2000 full manual target",
             "access": "fetch_timeout",
             "evidence": "Manufacturer product link resolves to current CDN;direct web retrieval timed out. Manual claims use separately readable manuscript pages,not unseen PDF."
+          },
+          {
+            "url": "https://www.hispasonic.com/noticias/nuevo-procesador-efectos-virtualizer-pro-3d-fx2000-behringer/5349",
+            "title": "Xavier Blanco: Virtualizer Pro3D FX2000 NAMM introduction, January14,2010",
+            "access": "Contemporaneous original news page opened; date and availability qualification read",
+            "evidence": "Reports official FX2000 NAMM presentation on January14,2010; explicitly says pricing and availability remain unannounced. Supports public-announcement proxy only."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Behringer::FX2000",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.behringer.com/en/products/0828-AAG"
+              ],
+              "note": "Exact hardware launch not verified. Product page dates quick-start guide2010-07-08; that is a document date, not first shipping date."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.behringer.com/en/products/0828-AAG"
+              ],
+              "note": "Current manufacturer Files section lists manuals/guides, no dated firmware package. Targeted Behringer FX2000 search found no verified firmware history. Exclude Sintefex,CONTEC and Inseego FX2000 updates and generated USB-update FAQ. SysEx settings transfer does not prove ROM updating; installed/service ROM remains unverified."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Algorithm27 Pitch Shifter: stereo/two-/three-voice configuration; each voice ±12semitones and ±50cents, voice2 stereo-linked option and voice3 Off. Input-note polyphony remains unspecified; output voice count is not whole-chord tracking evidence. Pitch/Reverb and Pitch/Delay are fixed combination choices.",
+              "preset": "100 factory plus100 user presets. Own manual p17 documents last-used recall at power-up and about1second activation on preset changes, with brief signal suppression. Seamless pitch changes/spillover not established; printed inclusive bank ranges conflict with stated counts.",
+              "dsp": "71 algorithms include11 combinations (61–71), with serial1,serial2 orparallel dual-engine routing. These are fixed program structures, not freely loadable duplicate pitch blocks. No per-pitch CPU percentage or numerical resource cost located. Mix0–100% is wet/dry level, not DSP usage.",
+              "source_urls": [
+                "https://www.manualowl.com/m/Behringer/FX2000/Manual/462372?page=8",
+                "https://www.manualowl.com/m/Behringer/FX2000/Manual/462372?page=27",
+                "https://www.manualowl.com/m/Behringer/FX2000/Manual/462372?page=17",
+                "https://www.behringer.com/en/products/0828-AAG"
+              ],
+              "measurements": [],
+              "notes": [
+                "Pitch specifications are from the FX2000 manual, not transferred from DSP2024P. Multiple generated voices and true stereo processing do not establish polyphonic input handling."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.behringer.com/en/products/0828-AAG",
+                "title": "Behringer exact FX2000 product and download index",
+                "access": "opened",
+                "evidence": "100+100 presets;dual-engine combinations61–71 serial/parallel;MIDI/SysEx settings;Files lists guides/manual only, including dated2010-07-08 QSG."
+              },
+              {
+                "url": "https://www.manualowl.com/m/Behringer/FX2000/Manual/462372?page=8",
+                "title": "FX2000 manufacturer manual p8, readable mirror",
+                "access": "manufacturer_manuscript_on_public_mirror; text_only",
+                "evidence": "Pitch Shifter stereo/two-/three-voice behavior and linkage/off controls."
+              },
+              {
+                "url": "https://www.manualowl.com/m/Behringer/FX2000/Manual/462372?page=27",
+                "title": "FX2000 manufacturer manual p27, parameter ranges",
+                "access": "manufacturer_manuscript_on_public_mirror; table_text",
+                "evidence": "Algorithm27 row: semitones ±12, cents ±50;voice2 stereo and voice3 off options;Mix0–100%."
+              },
+              {
+                "url": "https://www.manualowl.com/m/Behringer/FX2000/Manual/462372?page=17",
+                "title": "FX2000 manufacturer manual p17, preset operation",
+                "access": "manufacturer_manuscript_on_public_mirror; text_only",
+                "evidence": "100 internal+100 user,last-used preset recall,about1second new-preset activation and signal suppression."
+              },
+              {
+                "url": "https://cdn-media.empowertribe.com/14fb57d60cbf45b5bba9eb2663a77dc4/FX2000_P0A3P_M_EN.pdf",
+                "title": "Current official FX2000 full manual target",
+                "access": "fetch_timeout",
+                "evidence": "Manufacturer product link resolves to current CDN;direct web retrieval timed out. Manual claims use separately readable manuscript pages,not unseen PDF."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Behringer::FX600": {
         "model_key": "Behringer::FX600",
@@ -211141,8 +211222,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Behringer::Bass V-AMP",
-    "last_commit_parent": "e53b975f10152d9296f5f3eefd02481ba3867269",
+    "last_model": "Behringer::FX2000",
+    "last_commit_parent": "f69e6bbae1c016944427961892616a036701587d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
