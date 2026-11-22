@@ -25,6 +25,8 @@ HOSTS = {'flammainnovation.com', 'www.flammainnovation.com', 'downloads.eventide
 
 # Exact retailer-hosted manufacturer manual linked by the BG300 distributor.
 REVIEWED_MIRRORS = {
+    "https://data.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf",
+    "https://usa.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf",
     'https://data.yamaha.com/files/download/other_assets/3/333323/magicstomp_acoustic_en3.pdf',
     'https://usa.yamaha.com/files/download/other_assets/3/333323/magicstomp_acoustic_en3.pdf',
     'https://www.joyoaudio.co.uk/manuals/other/TC2.pdf',

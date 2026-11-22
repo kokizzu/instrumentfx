@@ -516,6 +516,32 @@ Printedpp12–13:factory UP/DOWN mode uses−/+ for sequential patch selection (
 
 ## Magicstomp Guitar MK2
 
+<!-- firmware-pitch:Yamaha::Magicstomp Guitar MK2 begins -->
+### Firmware and pitch audit — Yamaha Magicstomp Guitar MK2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005-02-25 (manufacturer public announcement; first shipment unresolved). Yamaha25February2005 announces new MagicstompII with headphone jack and onboard Deep Edit. This is public announcement evidence, not first retail delivery; original Guitar2003 and separate Acoustic/Bass dates not substituted. [launch 1](https://usa.yamaha.com/news_events/2005/20050225_yamaha-adds-more-magic_us.html) |
+| Firmware / latest verification | Not verified — Unverified. Exact MK2 latest device firmware/date not verified. Community UB99MK2_v2.10.mid reports are not an inspected manufacturer package/changelog; Bass editor2.10 requirement not automatically applied. Supplement revision, PDF modification25January2005, host software and stock-screen versions are not firmware release dates. No update installed. [firmware 1](https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf) [firmware 2](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Manufacturer Guitar effect list paired with MK2 supplement: HQ.Pitch±12semitones; DualPitch two channels each±24semitones;±50cents fine, MODE1–10 precision, mix and0–1000ms delay. Two output channels do not establish polyphonic input or chord capability. [pitch 1](https://usa.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf) [pitch 2](https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf) [pitch 3](https://it.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf) |
+| Pitch / preset recall | 99factory+99user in manufacturer-linked base manual; MK2 supplement adds onboard Deep Edit/type replacement and knob assignment. Save edited pitch settings in user memory. Changing type resets edits; arbitrary independent pitch+amp concurrency not established. |
+| Pitch / DSP resources | No per-pitch DSP percentage found. MODE1–10 precision and configured delay are algorithm controls, not CPU utilization or measured end-to-end latency.63library types do not mean63 simultaneous effects. |
+| Pitch / qualifications | Guitar effect-list original retrieved153638bytes, SHA25603bd3eaf838d11730b176d77c8a456d77d0b143a4a49f304a70fca55d4331f67; printed17 pitch tables read. Paired MK2 base/supplement scope retained; no BassPreamp or Acoustic firmware equivalence inferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha Guitar Effects Processor Effect List](https://usa.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf) — HQ.Pitch/DualPitch ranges and precision controls; no explicit input polyphony or DSP%. Separate sheet referenced by MK2 supplement. (official31page original PDF retrieved; cover/type list and printed17 read).
+- [Yamaha Magicstomp MK2 new-features supplement](https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf) — Onboard Deep Edit,63effect selections, type replacement/reset, user storage; adds PHONES and STORE/EXIT. (official36page multilingual PDF Englishpp1–5 read).
+- [Yamaha MK2-linked Guitar base owner manual](https://it.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf) — 99preset+99user; original control details corrected by MK2 supplement rather than silently mixed. (official31page PDF read; paired with explicit supplement replacements).
+- [Yamaha Adds More Magic,25February2005](https://usa.yamaha.com/news_events/2005/20050225_yamaha-adds-more-magic_us.html) — New MagicstompII adds headphone jack and onboard editing; announcement is not confirmed first shipment. (official indexed manufacturer announcement read; direct403).
+- [Yamaha exact-edition manual catalogue](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) — Associates base manual with MK2; Guitar effects/library documents distinct from Bass/Acoustic firmware evidence. (official indexed catalogue inspected).
+
+<!-- firmware-pitch:Yamaha::Magicstomp Guitar MK2 ends -->
+
 Checked 2026-10-18; partial. Yamaha's MK2 library link supplies a [base owner manual](https://usa.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf),31 PDF pages,pp7–12,29, retaining original-style controls and omitting headphones. The [official MK2 supplement](https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf),English pp1–5 within36 multilingual PDF pages, explicitly replaces those details. Browser text inspected; no cross-edition substitution.
 
 <!-- comparison evidence begins -->

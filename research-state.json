@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://usa.yamaha.com/files/download/other_assets/3/333323/magicstomp_acoustic_en3.pdf",
+    "requested_url": "https://usa.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 0,
     "text_pages": [
-      16,
-      18
+      0,
+      2
     ],
     "index_url": "https://nuxaudio.com/product/mg100/",
     "index_needle": "MG-100",
@@ -204939,10 +204939,83 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Yamaha::Magicstomp Guitar MK2": {
+        "model_key": "Yamaha::Magicstomp Guitar MK2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2005-02-25",
+          "precision": "day",
+          "kind": "manufacturer public announcement; first shipment unresolved",
+          "source_urls": [
+            "https://usa.yamaha.com/news_events/2005/20050225_yamaha-adds-more-magic_us.html"
+          ],
+          "note": "Yamaha25February2005 announces new MagicstompII with headphone jack and onboard Deep Edit. This is public announcement evidence, not first retail delivery; original Guitar2003 and separate Acoustic/Bass dates not substituted."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf",
+            "https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en"
+          ],
+          "note": "Exact MK2 latest device firmware/date not verified. Community UB99MK2_v2.10.mid reports are not an inspected manufacturer package/changelog; Bass editor2.10 requirement not automatically applied. Supplement revision, PDF modification25January2005, host software and stock-screen versions are not firmware release dates. No update installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Manufacturer Guitar effect list paired with MK2 supplement: HQ.Pitch±12semitones; DualPitch two channels each±24semitones;±50cents fine, MODE1–10 precision, mix and0–1000ms delay. Two output channels do not establish polyphonic input or chord capability.",
+          "preset": "99factory+99user in manufacturer-linked base manual; MK2 supplement adds onboard Deep Edit/type replacement and knob assignment. Save edited pitch settings in user memory. Changing type resets edits; arbitrary independent pitch+amp concurrency not established.",
+          "dsp": "No per-pitch DSP percentage found. MODE1–10 precision and configured delay are algorithm controls, not CPU utilization or measured end-to-end latency.63library types do not mean63 simultaneous effects.",
+          "source_urls": [
+            "https://usa.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf",
+            "https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf",
+            "https://it.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Guitar effect-list original retrieved153638bytes, SHA25603bd3eaf838d11730b176d77c8a456d77d0b143a4a49f304a70fca55d4331f67; printed17 pitch tables read.",
+            "Paired MK2 base/supplement scope retained; no BassPreamp or Acoustic firmware equivalence inferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://usa.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf",
+            "title": "Yamaha Guitar Effects Processor Effect List",
+            "access": "official31page original PDF retrieved; cover/type list and printed17 read",
+            "evidence": "HQ.Pitch/DualPitch ranges and precision controls; no explicit input polyphony or DSP%. Separate sheet referenced by MK2 supplement."
+          },
+          {
+            "url": "https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf",
+            "title": "Yamaha Magicstomp MK2 new-features supplement",
+            "access": "official36page multilingual PDF Englishpp1–5 read",
+            "evidence": "Onboard Deep Edit,63effect selections, type replacement/reset, user storage; adds PHONES and STORE/EXIT."
+          },
+          {
+            "url": "https://it.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf",
+            "title": "Yamaha MK2-linked Guitar base owner manual",
+            "access": "official31page PDF read; paired with explicit supplement replacements",
+            "evidence": "99preset+99user; original control details corrected by MK2 supplement rather than silently mixed."
+          },
+          {
+            "url": "https://usa.yamaha.com/news_events/2005/20050225_yamaha-adds-more-magic_us.html",
+            "title": "Yamaha Adds More Magic,25February2005",
+            "access": "official indexed manufacturer announcement read; direct403",
+            "evidence": "New MagicstompII adds headphone jack and onboard editing; announcement is not confirmed first shipment."
+          },
+          {
+            "url": "https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en",
+            "title": "Yamaha exact-edition manual catalogue",
+            "access": "official indexed catalogue inspected",
+            "evidence": "Associates base manual with MK2; Guitar effects/library documents distinct from Bass/Acoustic firmware evidence."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Yamaha::Magicstomp Guitar MK2",
       "Yamaha::Magicstomp original Guitar",
       "Yamaha::REV500",
       "Yamaha::SPX1000",
@@ -205013,12 +205086,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 333,
-    "last_model": "Yamaha::Magicstomp Bass",
-    "last_commit_parent": "26b27d9a0a99fb83ca4bbca943d8d231639526d6",
+    "completed_model_count": 334,
+    "last_model": "Yamaha::Magicstomp Guitar MK2",
+    "last_commit_parent": "fad897cd49e04b5999cc76c108ed6e59aa71d3ee",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Yamaha::Magicstomp Guitar MK2",
       "Yamaha::Magicstomp original Guitar",
       "Yamaha::REV500",
       "Yamaha::SPX1000",
@@ -205088,7 +205160,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 333,
+    "pitch_completed_model_count": 334,
     "supplemental_model_count": 0
   },
   "model_images": {
