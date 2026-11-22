@@ -213414,11 +213414,36 @@
             "sha256": "28106262693aa564f0aefaeea1a21b06b2c26eab7c184b461f05ba83e7b99999"
           }
         }
+      },
+      "Zoom::707II": {
+        "model_key": "Zoom::707II",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://assets.catawiki.nl/assets/2018/2/26/d/7/f/d7fb4af8-01d0-4f4d-abf9-7d0022190211.jpg",
+            "source_url": "https://www.catawiki.com/l/17122165-zoom-707-ii-guitar-pedal-in-the-box-multi-effects-guitar-effect-pedal",
+            "caption": "707II powered control face",
+            "note": "Visually checked powered707II GUITAR from above, with patch-name/bank displays and module LEDs lit. Four front rotary controls, two patch footswitches and built-in treadle visible. Slightly angled close-up crops the outer top/bottom edges; complete orthographic powered view remains pending. Displayed patch is not firmware. Rear OUTPUT rotary is separate.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "18d6efa0a392604a3da507e4477571ca9904718571baab52f661d5d983fa6bcf"
+          },
+          "rear": {
+            "image_url": "https://i.ebayimg.com/images/g/fXcAAOSwWsVnxxEy/s-l1200.jpg",
+            "source_url": "https://www.ebay.com/itm/286172333497",
+            "caption": "707II rear connectors",
+            "note": "Visually checked actual707II GUITAR rear: AUX IN, INPUT, recessed DC9V, POWER ON/OFF, shared OUTPUT(PHONES), OUTPUT level rotary and adjacent covered card-slot area. All audio/power connectors visible; card contacts hidden. No separate headphone, USB or MIDI socket shown. No cables attached and unlit; different photographed unit from powered top.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "cb0f4e28226f5330d97cbefab4b27909722a9ca18398f9e002e7f75811be05c6"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::607"
+    "last_model": "Zoom::707II"
   }
 }

@@ -634,6 +634,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::707II ends -->
 
+<!-- model-images:Zoom::707II begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**707II powered control face**
+
+[![707II powered control face](https://assets.catawiki.nl/assets/2018/2/26/d/7/f/d7fb4af8-01d0-4f4d-abf9-7d0022190211.jpg)](https://assets.catawiki.nl/assets/2018/2/26/d/7/f/d7fb4af8-01d0-4f4d-abf9-7d0022190211.jpg)
+
+[Image source](https://www.catawiki.com/l/17122165-zoom-707-ii-guitar-pedal-in-the-box-multi-effects-guitar-effect-pedal). Visually checked powered707II GUITAR from above, with patch-name/bank displays and module LEDs lit. Four front rotary controls, two patch footswitches and built-in treadle visible. Slightly angled close-up crops the outer top/bottom edges; complete orthographic powered view remains pending. Displayed patch is not firmware. Rear OUTPUT rotary is separate.
+
+**707II rear connectors**
+
+[![707II rear connectors](https://i.ebayimg.com/images/g/fXcAAOSwWsVnxxEy/s-l1200.jpg)](https://i.ebayimg.com/images/g/fXcAAOSwWsVnxxEy/s-l1200.jpg)
+
+[Image source](https://www.ebay.com/itm/286172333497). Visually checked actual707II GUITAR rear: AUX IN, INPUT, recessed DC9V, POWER ON/OFF, shared OUTPUT(PHONES), OUTPUT level rotary and adjacent covered card-slot area. All audio/power connectors visible; card contacts hidden. No separate headphone, USB or MIDI socket shown. No cables attached and unlit; different photographed unit from powered top.
+
+</details>
+<!-- model-images:Zoom::707II ends -->
+
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**, partial. Separate guitar model from GFX-707 and bass708II. Manufacturer’s own Operation Manual, selected sections inspected; complete algorithm audit pending.
 
