@@ -216023,11 +216023,36 @@
             "sha256": "1b5da8698639c8c336b59cf362ae3bf35a5e49cabc5e62aa6d9d47f9ae8b6bd9"
           }
         }
+      },
+      "Zoom::G2.1u": {
+        "model_key": "Zoom::G2.1u",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn-ak.f.st-hatena.com/images/fotolife/G/G_KWSM/20230122/20230122231417.jpg",
+            "source_url": "https://g-kwsm.hateblo.jp/entry/2023/05/31/191000",
+            "caption": "G2.1u powered control face",
+            "note": "Actual powered G2.1u photographed obliquely from above with the full treadle and control face visible. Red seven-segment display and parameter LEDs are lit. Four rotary controls, two main footswitches and six pushbuttons corroborate the manual. This is an angled overview; a perpendicular top-down image remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "86ddc4903a2d74a9ff34da21e5d98c69f07711e7fa4befe9c5f2290e7b19066c"
+          },
+          "rear": {
+            "image_url": "https://rockcitymusicco.com/cdn/shop/files/ZoomG2-1uMulti-EffectsUnit-Used_4of6_1600x.jpg?v=1712789297",
+            "source_url": "https://rockcitymusicco.com/products/used-zoom-g2-1u-multi-effects-guitar-pedal",
+            "caption": "G2.1u rear connections",
+            "note": "Actual full G2.1u rear photograph shows full-size USB Type-B at the left, INPUT, shared OUTPUT/PHONES, CONTROL IN, POWER with USB-bus-powered OFF marking, and center-negative DC9V 300mA socket. PHONES shares OUTPUT. USB placement and 300mA supply distinguish this view from G2.1Nu.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "c6faa0c0902e90d2edfa5cc15a9168ae280684832d8b5a15e7b173c78165ef1b"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G2.1Nu"
+    "last_model": "Zoom::G2.1u"
   }
 }

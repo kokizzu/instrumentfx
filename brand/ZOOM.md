@@ -4787,6 +4787,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G2.1u ends -->
 
+<!-- model-images:Zoom::G2.1u begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G2.1u powered control face**
+
+[![G2.1u powered control face](https://cdn-ak.f.st-hatena.com/images/fotolife/G/G_KWSM/20230122/20230122231417.jpg)](https://cdn-ak.f.st-hatena.com/images/fotolife/G/G_KWSM/20230122/20230122231417.jpg)
+
+[Image source](https://g-kwsm.hateblo.jp/entry/2023/05/31/191000). Actual powered G2.1u photographed obliquely from above with the full treadle and control face visible. Red seven-segment display and parameter LEDs are lit. Four rotary controls, two main footswitches and six pushbuttons corroborate the manual. This is an angled overview; a perpendicular top-down image remains pending.
+
+**G2.1u rear connections**
+
+[![G2.1u rear connections](https://rockcitymusicco.com/cdn/shop/files/ZoomG2-1uMulti-EffectsUnit-Used_4of6_1600x.jpg?v=1712789297)](https://rockcitymusicco.com/cdn/shop/files/ZoomG2-1uMulti-EffectsUnit-Used_4of6_1600x.jpg?v=1712789297)
+
+[Image source](https://rockcitymusicco.com/products/used-zoom-g2-1u-multi-effects-guitar-pedal). Actual full G2.1u rear photograph shows full-size USB Type-B at the left, INPUT, shared OUTPUT/PHONES, CONTROL IN, POWER with USB-bus-powered OFF marking, and center-negative DC9V 300mA socket. PHONES shares OUTPUT. USB placement and 300mA supply distinguish this view from G2.1Nu.
+
+</details>
+<!-- model-images:Zoom::G2.1u ends -->
+
+
 Original guitar multi-effects; distinct from G2.1Nu. Discontinued. Checked2026-10-17; partial. Ownership and bass/vocal suitability unestablished.
 
 | Field | Finding / qualification | Evidence |
