@@ -202951,10 +202951,72 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::Dapper Indie": {
+        "model_key": "Valeton::Dapper Indie",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first release unresolved",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-indie/"
+          ],
+          "note": "No first-release date established by current manufacturer page/manual. Manual181229 and stock-image181004/181225 filenames are not first-shipment dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-indie/",
+            "https://www.valeton.net/firmware/",
+            "https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf"
+          ],
+          "note": "No numbered Indie device firmware release/date or updater located in checked manufacturer sources. V01 is owner-manual revision, not device firmware. Firmware index text may omit dynamic entries; no assertion that embedded firmware or historical updates never existed."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No dedicated transposer, octave divider or harmonizer documented. Liquid FX chooses chorus/phaser/tremolo; Echoes chooses analog/tape/reverse delay; Ambient chooses room/hall/plate. Chorus pitch architecture/input polyphony is unspecified.",
+          "preset": "Physical controls and three type toggles; no programmable pitch preset count established. Tap tempo and reverb trails do not establish stored pitch patches.",
+          "dsp": "No pitch CPU percentage, DSP meter or per-algorithm resource cost published. Delay25–2000ms,150mA electrical draw and three-way choices are not CPU usage.",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-indie/",
+            "https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No-pitch-documented refers to dedicated transposition, not proof that chorus contains no internal modulation. Reverse delay does not establish a pitch interval.",
+            "Duplicated Echoes product heading is not a second delay block. Tuner mutes audio rather than correcting it.",
+            "No shimmer/pitch-shifted reverb inferred from ambient branding; no hardware/audio or updater test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.valeton.net/product/dapper-indie/",
+            "title": "Valeton Dapper Indie official product",
+            "access": "web page read",
+            "evidence": "Drive/Fuzz/Liquid FX/Echoes/Ambient inventory; duplicated Echoes heading. No firmware or first-release date."
+          },
+          {
+            "url": "https://www.valeton.net/firmware/",
+            "title": "Valeton official firmware index",
+            "access": "web text read; dynamic visibility limited",
+            "evidence": "No exact Indie firmware exposed in extracted text."
+          },
+          {
+            "url": "https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf",
+            "title": "Dapper Indie official English V01_181229 owner manual",
+            "access": "web two-page PDF text read",
+            "evidence": "Exact modulation/delay/reverb alternatives, physical controls, trails and tuner; no dedicated pitch transposer or DSP cost."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::Dapper Indie",
       "Valeton::Dapper MDR",
       "Valeton::Dapper Mini MES-1",
       "Valeton::Dapper VES-1",
@@ -203052,12 +203114,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 306,
-    "last_model": "Valeton::Dapper Dark VES-3",
-    "last_commit_parent": "2ba248ca1d9aa4ea84bd86ee745c7ace6a384db4",
+    "completed_model_count": 307,
+    "last_model": "Valeton::Dapper Indie",
+    "last_commit_parent": "a6e88933c11351af72e2d608f3731b29b744fd3c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::Dapper Indie",
       "Valeton::Dapper MDR",
       "Valeton::Dapper Mini MES-1",
       "Valeton::Dapper VES-1",
@@ -203154,7 +203215,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 306,
+    "pitch_completed_model_count": 307,
     "supplemental_model_count": 0
   },
   "model_images": {

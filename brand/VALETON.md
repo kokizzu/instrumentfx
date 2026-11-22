@@ -634,6 +634,30 @@ Indexed original text identifies SEND/RETURN as an audio loop between Chorus and
 
 ## Dapper Indie
 
+<!-- firmware-pitch:Valeton::Dapper Indie begins -->
+### Firmware and pitch audit — Valeton Dapper Indie
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No first-release date established by current manufacturer page/manual. Manual181229 and stock-image181004/181225 filenames are not first-shipment dates. [launch 1](https://www.valeton.net/product/dapper-indie/) |
+| Firmware / latest verification | Not verified — No public firmware located. No numbered Indie device firmware release/date or updater located in checked manufacturer sources. V01 is owner-manual revision, not device firmware. Firmware index text may omit dynamic entries; no assertion that embedded firmware or historical updates never existed. [firmware 1](https://www.valeton.net/product/dapper-indie/) [firmware 2](https://www.valeton.net/firmware/) [firmware 3](https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No dedicated transposer, octave divider or harmonizer documented. Liquid FX chooses chorus/phaser/tremolo; Echoes chooses analog/tape/reverse delay; Ambient chooses room/hall/plate. Chorus pitch architecture/input polyphony is unspecified. [pitch 1](https://www.valeton.net/product/dapper-indie/) [pitch 2](https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf) |
+| Pitch / preset recall | Physical controls and three type toggles; no programmable pitch preset count established. Tap tempo and reverb trails do not establish stored pitch patches. |
+| Pitch / DSP resources | No pitch CPU percentage, DSP meter or per-algorithm resource cost published. Delay25–2000ms,150mA electrical draw and three-way choices are not CPU usage. |
+| Pitch / qualifications | No-pitch-documented refers to dedicated transposition, not proof that chorus contains no internal modulation. Reverse delay does not establish a pitch interval. Duplicated Echoes product heading is not a second delay block. Tuner mutes audio rather than correcting it. No shimmer/pitch-shifted reverb inferred from ambient branding; no hardware/audio or updater test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Valeton Dapper Indie official product](https://www.valeton.net/product/dapper-indie/) — Drive/Fuzz/Liquid FX/Echoes/Ambient inventory; duplicated Echoes heading. No firmware or first-release date. (web page read).
+- [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact Indie firmware exposed in extracted text. (web text read; dynamic visibility limited).
+- [Dapper Indie official English V01_181229 owner manual](https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf) — Exact modulation/delay/reverb alternatives, physical controls, trails and tuner; no dedicated pitch transposer or DSP cost. (web two-page PDF text read).
+
+<!-- firmware-pitch:Valeton::Dapper Indie ends -->
+
 Guitar multi-effects strip; distinct from other Dappers. Checked 2026-10-17; partial. Exact model code awaits primary corroboration.
 
 | Field | Finding / qualification | Evidence |
