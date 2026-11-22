@@ -8781,6 +8781,32 @@ The existing50-memory/30-factory-filled distinction,six-effect/DSP limit,V3 libr
 
 ## MS-50G Plus
 
+<!-- firmware-pitch:Zoom::MS-50G Plus begins -->
+### Firmware and pitch audit — Zoom MS-50G Plus
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-11 (manufacturer announced retail release month). Zoom news release dated October 31, 2023 announces Japanese sales from mid-November 2023. No exact day asserted. [launch 1](https://s3.ap-northeast-1.amazonaws.com/disclose.ifis.co.jp/fee/140120231031576323.pdf) |
+| Firmware / latest verification | 1.40 — Latest verified. Current support offers 1.40; history dates it January 2025, fixing control from M-VAVE CHOCOLATE PLUS. 1.30 August 2024 added USB MIDI, improved USB connection screen and fixed patch-switch freezing. 1.10 November 2023 is initial production. App/effect-library additions are separate. [firmware 1](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-50g-plus/ms-50g-support/) [firmware 2](https://zoomcorp.com/documents/3593/MS-50Gplus_VersionHistory_140_en.pdf) |
+| Firmware / release date | 2025-01 (month precision) |
+| Firmware / release-to-update duration | 1.09–1.25 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. POLYPHONIC PITCH SHIFTER explicitly supports chords, −24…+24 semitones with separate wet/dry levels. POLYPHONIC OCTAVER also supports chords. HARMONY PITCH SHIFTER follows key/scale; PITCH DELAY shifts repeats ±12. [pitch 1](https://zoomcorp.com/manuals/ms-50gplus-en/) [pitch 2](https://zoomcorp.com/media/documents/E_MS-50Gplus_EffectsList.pdf) |
+| Pitch / preset recall | 100 patch memories retain effect order, parameters and on/off states. AUTO SAVE defaults ON; manual save/copy available. Cross-key switches select patches/effects; no expression input documented. |
+| Pitch / DSP resources | Up to six simultaneous effects. No manufacturer per-algorithm CPU percentage, pitch-specific slot multiplier or DSP meter located in reviewed manual/effect list. Do not import original MS-50G DSP Full behavior without model-specific evidence; six slots are not a CPU fraction. |
+| Pitch / qualifications | Manufacturer documentation only; no hardware chord-tracking or CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom MS-50G+ launch news release](https://s3.ap-northeast-1.amazonaws.com/disclose.ifis.co.jp/fee/140120231031576323.pdf) — October 31 announcement: retail from mid-November 2023. (manufacturer disclosure PDF inspected).
+- [MS-50G+ official support](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-50g-plus/ms-50g-support/) — Current Windows/Mac firmware 1.40. (official page inspected).
+- [MS-50G+ firmware history](https://zoomcorp.com/documents/3593/MS-50Gplus_VersionHistory_140_en.pdf) — 1.40 January 2025; 1.30 August 2024; 1.10 production November 2023. (official PDF inspected).
+- [MS-50G+ operation manual](https://zoomcorp.com/manuals/ms-50gplus-en/) — Six effects; 100 patches; default auto-save; patch order and on/off recall. (official HTML inspected).
+- [MS-50G+ effect list](https://zoomcorp.com/media/documents/E_MS-50Gplus_EffectsList.pdf) — Explicit chord support in polyphonic octaver and pitch shifter; shift −24…24; harmony and pitch delay. (official PDF inspected, pp19–20,23).
+
+<!-- firmware-pitch:Zoom::MS-50G Plus ends -->
+
 MS-50G+ guitar multi-effects; distinct from original MS-50G. Checked 2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
 
 | Field | Finding / qualification | Evidence |

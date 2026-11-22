@@ -209100,10 +209100,85 @@
           "label": "6.25–7.33 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::MS-50G Plus": {
+        "model_key": "Zoom::MS-50G Plus",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2023-11",
+          "precision": "month",
+          "kind": "manufacturer announced retail release month",
+          "source_urls": [
+            "https://s3.ap-northeast-1.amazonaws.com/disclose.ifis.co.jp/fee/140120231031576323.pdf"
+          ],
+          "note": "Zoom news release dated October 31, 2023 announces Japanese sales from mid-November 2023. No exact day asserted."
+        },
+        "firmware": {
+          "version": "1.40",
+          "date": "2025-01",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-50g-plus/ms-50g-support/",
+            "https://zoomcorp.com/documents/3593/MS-50Gplus_VersionHistory_140_en.pdf"
+          ],
+          "note": "Current support offers 1.40; history dates it January 2025, fixing control from M-VAVE CHOCOLATE PLUS. 1.30 August 2024 added USB MIDI, improved USB connection screen and fixed patch-switch freezing. 1.10 November 2023 is initial production. App/effect-library additions are separate."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "POLYPHONIC PITCH SHIFTER explicitly supports chords, −24…+24 semitones with separate wet/dry levels. POLYPHONIC OCTAVER also supports chords. HARMONY PITCH SHIFTER follows key/scale; PITCH DELAY shifts repeats ±12.",
+          "preset": "100 patch memories retain effect order, parameters and on/off states. AUTO SAVE defaults ON; manual save/copy available. Cross-key switches select patches/effects; no expression input documented.",
+          "dsp": "Up to six simultaneous effects. No manufacturer per-algorithm CPU percentage, pitch-specific slot multiplier or DSP meter located in reviewed manual/effect list. Do not import original MS-50G DSP Full behavior without model-specific evidence; six slots are not a CPU fraction.",
+          "source_urls": [
+            "https://zoomcorp.com/manuals/ms-50gplus-en/",
+            "https://zoomcorp.com/media/documents/E_MS-50Gplus_EffectsList.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer documentation only; no hardware chord-tracking or CPU measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://s3.ap-northeast-1.amazonaws.com/disclose.ifis.co.jp/fee/140120231031576323.pdf",
+            "title": "Zoom MS-50G+ launch news release",
+            "access": "manufacturer disclosure PDF inspected",
+            "evidence": "October 31 announcement: retail from mid-November 2023."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-50g-plus/ms-50g-support/",
+            "title": "MS-50G+ official support",
+            "access": "official page inspected",
+            "evidence": "Current Windows/Mac firmware 1.40."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3593/MS-50Gplus_VersionHistory_140_en.pdf",
+            "title": "MS-50G+ firmware history",
+            "access": "official PDF inspected",
+            "evidence": "1.40 January 2025; 1.30 August 2024; 1.10 production November 2023."
+          },
+          {
+            "url": "https://zoomcorp.com/manuals/ms-50gplus-en/",
+            "title": "MS-50G+ operation manual",
+            "access": "official HTML inspected",
+            "evidence": "Six effects; 100 patches; default auto-save; patch order and on/off recall."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_MS-50Gplus_EffectsList.pdf",
+            "title": "MS-50G+ effect list",
+            "access": "official PDF inspected, pp19–20,23",
+            "evidence": "Explicit chord support in polyphonic octaver and pitch shifter; shift −24…24; harmony and pitch delay."
+          }
+        ],
+        "duration": {
+          "minimum_days": 398,
+          "maximum_days": 457,
+          "label": "1.09–1.25 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::MS-50G Plus",
       "Zoom::MS-60B",
       "Zoom::MS-60B Plus",
       "Zoom::MS-70CDR",
@@ -209118,12 +209193,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 389,
-    "last_model": "Zoom::MS-50G",
-    "last_commit_parent": "a123d72493b10b14dde968ee64de605e0df4e234",
+    "completed_model_count": 390,
+    "last_model": "Zoom::MS-50G Plus",
+    "last_commit_parent": "d2c1b9c5fb1cabca586b2b35322e6e9b253386ed",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::MS-50G Plus",
       "Zoom::MS-60B",
       "Zoom::MS-60B Plus",
       "Zoom::MS-70CDR",
@@ -209137,7 +209211,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 389,
+    "pitch_completed_model_count": 390,
     "supplemental_model_count": 0
   },
   "model_images": {
