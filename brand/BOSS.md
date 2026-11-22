@@ -5549,6 +5549,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::ME-80 ends -->
 
+<!-- model-images:BOSS::ME-80 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS ME-80 — powered-on top view**
+
+[![BOSS ME-80 — powered-on top view](https://static.roland.com/assets/images/products/gallery/me-80_top_gal.jpg)](https://static.roland.com/assets/images/products/gallery/me-80_top_gal.jpg)
+
+[Image source](https://www.boss.info/global/products/me-80/). Complete manufacturer straight-down promotional view with lit red 80 display, section and footswitch LEDs, green Manual indicator, all rotary sections, four panel buttons, eight footswitches and full expression pedal. Powered-on appearance is visible; independent operating-state verification is unavailable.
+
+**BOSS ME-80 — rear connections**
+
+[![BOSS ME-80 — rear connections](https://www.chicagomusicexchange.com/cdn/shop/products/boss-effects-and-pedals-multi-effect-unit-boss-me-80-multiple-guitar-effects-looper-me80-17181782179975.jpg?v=1649435342&width=1946)](https://www.chicagomusicexchange.com/cdn/shop/products/boss-effects-and-pedals-multi-effect-unit-boss-me-80-multiple-guitar-effects-looper-me80-17181782179975.jpg?v=1649435342&width=1946)
+
+[Image source](https://www.chicagomusicexchange.com/products/boss-me-80-multiple-guitar-effects-looper-9667). Retailer photograph showing the complete rear panel: GUITAR INPUT, Gt. AMP OUTPUT R/L-MONO, miniature REC OUT/PHONES and AUX IN, USB-B COMPUTER, power switch, DC IN for PSA adaptor, cord restraint and security slot. Large white margins do not crop any connector.
+
+</details>
+<!-- model-images:BOSS::ME-80 ends -->
+
+
 Guitar multi-effects; distinct from ME-90. Checked2026-10-17; partial verification. Manufacturer marks discontinued, which does not establish seller stock. Bass suitability remains unclassified.
 
 | Field | Finding / qualification | Evidence |
