@@ -9132,6 +9132,32 @@ All choices retain the **six-slot/DSP ceiling**. No ownership, guitar membership
 
 ## MS-70CDR
 
+<!-- firmware-pitch:Zoom::MS-70CDR begins -->
+### Firmware and pitch audit — Zoom MS-70CDR
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2013 (manufacturer product-history year). Official chronology places MS-70CDR in 2013. Firmware 1.00 mass production April 2013 is not an exact retail date. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 2.10 — Latest verified. Current official support offers 2.10; Japanese history dates it October 2019, fixing audio output stopping with certain effects. 2.00 June 2017 added 51 effects. 1.00 April 2013 is initial production. [firmware 1](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr/ms-70cdr-support/) [firmware 2](https://zoomcorp.com/documents/3534/MS-70CDR_System_Software_Version_History_ver210_jp.pdf) |
+| Firmware / release date | 2019-10 (month precision) |
+| Firmware / release-to-update duration | 5.75–6.83 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT, MonoPitch and Ba Pitch: −12…+12,+24 semitones with fine ±25 cents. MonoPitch and Ba Pitch explicitly target single notes; generic PitchSHFT chord tracking unspecified. HPS follows key/scale; Octave and Ba Octave add lower octaves. [pitch 1](https://zoomcorp.com/media/documents/MS-70CDR_operationManual_English.pdf) [pitch 2](https://zoomcorp.com/media/documents/E_MS-70CDR_FX-list_v2.pdf) |
+| Pitch / preset recall | 50 patch memories retain effect parameters and on/off states; automatic saving is enabled by default. Footswitch can cycle assigned patches. No expression input documented. |
+| Pitch / DSP resources | Up to six effects, subject to processing capacity. DSP Full bypasses an over-capacity effect; change types or use THRU. OFF consumes the same processing as ON. No manufacturer per-pitch DSP percentage located; six slots are not a CPU fraction. |
+| Pitch / qualifications | Documentation only; no hardware tracking or CPU measurement. Original MS-70CDR is distinct from MS-70CDR+. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — MS-70CDR under 2013. (official chronology inspected).
+- [MS-70CDR official support](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr/ms-70cdr-support/) — Current Windows/Mac firmware 2.10. (official page inspected).
+- [MS-70CDR firmware history](https://zoomcorp.com/documents/3534/MS-70CDR_System_Software_Version_History_ver210_jp.pdf) — 2.10 October 2019; 2.00 June 2017; 1.00 production April 2013. (official Japanese PDF inspected).
+- [MS-70CDR operation manual](https://zoomcorp.com/media/documents/MS-70CDR_operationManual_English.pdf) — 50 patches; six effects subject to DSP; auto-save; DSP Full bypass; OFF retains processing load. (official PDF inspected, pp2,9–11,32–33).
+- [MS-70CDR version-2 effect parameters](https://zoomcorp.com/media/documents/E_MS-70CDR_FX-list_v2.pdf) — PitchSHFT generic; MonoPitch and Ba Pitch single-note; HPS and octavers; no explicit polyphonic claim. (official PDF inspected, pp5–6).
+
+<!-- firmware-pitch:Zoom::MS-70CDR ends -->
+
 Reviewed **2026-10-17**, following exact Shopee hardware discovery. **Original MS-70CDR,not MS-70CDR+**. Guitar/bass multi-effects;no ownership claim. Partial research using official HTML and indexed manufacturer manual/effect-list text;no dependencies,manual files,firmware or software downloaded to the workspace. The manufacturer marks this original model discontinued;that does not establish seller stock.
 
 | Field | Finding / qualification | Evidence |

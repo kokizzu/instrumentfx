@@ -209328,10 +209328,85 @@
           "label": "0.59–0.75 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::MS-70CDR": {
+        "model_key": "Zoom::MS-70CDR",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2013",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Official chronology places MS-70CDR in 2013. Firmware 1.00 mass production April 2013 is not an exact retail date."
+        },
+        "firmware": {
+          "version": "2.10",
+          "date": "2019-10",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr/ms-70cdr-support/",
+            "https://zoomcorp.com/documents/3534/MS-70CDR_System_Software_Version_History_ver210_jp.pdf"
+          ],
+          "note": "Current official support offers 2.10; Japanese history dates it October 2019, fixing audio output stopping with certain effects. 2.00 June 2017 added 51 effects. 1.00 April 2013 is initial production."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT, MonoPitch and Ba Pitch: −12…+12,+24 semitones with fine ±25 cents. MonoPitch and Ba Pitch explicitly target single notes; generic PitchSHFT chord tracking unspecified. HPS follows key/scale; Octave and Ba Octave add lower octaves.",
+          "preset": "50 patch memories retain effect parameters and on/off states; automatic saving is enabled by default. Footswitch can cycle assigned patches. No expression input documented.",
+          "dsp": "Up to six effects, subject to processing capacity. DSP Full bypasses an over-capacity effect; change types or use THRU. OFF consumes the same processing as ON. No manufacturer per-pitch DSP percentage located; six slots are not a CPU fraction.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/MS-70CDR_operationManual_English.pdf",
+            "https://zoomcorp.com/media/documents/E_MS-70CDR_FX-list_v2.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no hardware tracking or CPU measurement. Original MS-70CDR is distinct from MS-70CDR+."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "MS-70CDR under 2013."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr/ms-70cdr-support/",
+            "title": "MS-70CDR official support",
+            "access": "official page inspected",
+            "evidence": "Current Windows/Mac firmware 2.10."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3534/MS-70CDR_System_Software_Version_History_ver210_jp.pdf",
+            "title": "MS-70CDR firmware history",
+            "access": "official Japanese PDF inspected",
+            "evidence": "2.10 October 2019; 2.00 June 2017; 1.00 production April 2013."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/MS-70CDR_operationManual_English.pdf",
+            "title": "MS-70CDR operation manual",
+            "access": "official PDF inspected, pp2,9–11,32–33",
+            "evidence": "50 patches; six effects subject to DSP; auto-save; DSP Full bypass; OFF retains processing load."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_MS-70CDR_FX-list_v2.pdf",
+            "title": "MS-70CDR version-2 effect parameters",
+            "access": "official PDF inspected, pp5–6",
+            "evidence": "PitchSHFT generic; MonoPitch and Ba Pitch single-note; HPS and octavers; no explicit polyphonic claim."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2100,
+          "maximum_days": 2494,
+          "label": "5.75–6.83 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::MS-70CDR",
       "Zoom::MS-70CDR Plus",
       "Zoom::MS-80IR Plus",
       "Zoom::NEURIG",
@@ -209343,12 +209418,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 392,
-    "last_model": "Zoom::MS-60B Plus",
-    "last_commit_parent": "aa220ac1bb682124e3ceb4288d319057b922a69a",
+    "completed_model_count": 393,
+    "last_model": "Zoom::MS-70CDR",
+    "last_commit_parent": "6766b79229ace5a56b30f567b2613559e40729a0",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::MS-70CDR",
       "Zoom::MS-70CDR Plus",
       "Zoom::MS-80IR Plus",
       "Zoom::NEURIG",
@@ -209359,7 +209433,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 392,
+    "pitch_completed_model_count": 393,
     "supplemental_model_count": 0
   },
   "model_images": {
