@@ -205595,10 +205595,68 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::506II": {
+        "model_key": "Zoom::506II",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2000",
+          "precision": "year",
+          "kind": "manufacturer product-history release year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Zoom timeline lists 506II BASS under 2000; announcement/first shipment day unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/gb/multi-effects/bass-effects/506ii/506ii-support/",
+            "https://zoomcorp.com/media/documents/E_506II.pdf"
+          ],
+          "note": "Exact-model support page lists the operation manual only; no public device updater/changelog located. Published connectors contain no USB/MIDI update interface. Internal ROM revisions are not excluded; latest system revision/date remain unknown. Factory recall and manual imprint are not firmware updates."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD PITCH SHIFT P1/P2 octave-down, P3/P4 fifth-down, P5/P6 fourth-up, P7/P8 octave-up (paired mix variants), P9 detune. FP01/FP02 pedal pitch ranges 0→−1 or 0→+1 octave. OCTAVE adds octave-down; OCTAVE > CHORUS combines them. PEDAL OCTAVE adjusts mix, not interval. Bass Synth favors single notes; that does not classify pitch-shifter polyphony.",
+          "preset": "36 factory-filled rewritable patches, not 36+36. Pitch/octave selections share MOD. Expression follows pedal-marked parameters, otherwise volume; no global volume-only override established.",
+          "dsp": "No per-pitch DSP percentage published. Seven serial modules/up to eight simultaneous effects describe fixed architecture, not eight freely assignable blocks or pitch CPU%. Choosing pitch replaces other MOD alternatives.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_506II.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Own English 506II-5000 scope; not original506 or505II. No hardware chord-tracking measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official 2000 product group read",
+            "evidence": "506II BASS listed under 2000."
+          },
+          {
+            "url": "https://zoomcorp.com/en/gb/multi-effects/bass-effects/506ii/506ii-support/",
+            "title": "Zoom 506II support page",
+            "access": "official Documents section read",
+            "evidence": "Operation manual only; no public firmware package/changelog located."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_506II.pdf",
+            "title": "Zoom 506II Bass Operation Manual 506II-5000",
+            "access": "official PDF printed pp18–21,28–31 read",
+            "evidence": "Pitch pattern intervals and mix variants, ±1-octave pedal shifts, octave mix, synth single-note guidance, patch storage and serial-module ceiling. No pitch polyphony guarantee or DSP%."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::506II",
       "Zoom::606",
       "Zoom::607",
       "Zoom::707II",
@@ -205659,12 +205717,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 343,
-    "last_model": "Zoom::505II",
-    "last_commit_parent": "46835e7a024d5edab9929787db62c075666b976c",
+    "completed_model_count": 344,
+    "last_model": "Zoom::506II",
+    "last_commit_parent": "9df3edcca3c5a0c425185328271f5bc5a9478efe",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::506II",
       "Zoom::606",
       "Zoom::607",
       "Zoom::707II",
@@ -205724,7 +205781,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 343,
+    "pitch_completed_model_count": 344,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -265,6 +265,30 @@ Checked 2026-10-19 against [original manual pp18,21][Z505-M]. FP01/FP02 volume c
 
 ## 506II
 
+<!-- firmware-pitch:Zoom::506II begins -->
+### Firmware and pitch audit — Zoom 506II
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2000 (manufacturer product-history release year). Zoom timeline lists 506II BASS under 2000; announcement/first shipment day unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model support page lists the operation manual only; no public device updater/changelog located. Published connectors contain no USB/MIDI update interface. Internal ROM revisions are not excluded; latest system revision/date remain unknown. Factory recall and manual imprint are not firmware updates. [firmware 1](https://zoomcorp.com/en/gb/multi-effects/bass-effects/506ii/506ii-support/) [firmware 2](https://zoomcorp.com/media/documents/E_506II.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD PITCH SHIFT P1/P2 octave-down, P3/P4 fifth-down, P5/P6 fourth-up, P7/P8 octave-up (paired mix variants), P9 detune. FP01/FP02 pedal pitch ranges 0→−1 or 0→+1 octave. OCTAVE adds octave-down; OCTAVE > CHORUS combines them. PEDAL OCTAVE adjusts mix, not interval. Bass Synth favors single notes; that does not classify pitch-shifter polyphony. [pitch 1](https://zoomcorp.com/media/documents/E_506II.pdf) |
+| Pitch / preset recall | 36 factory-filled rewritable patches, not 36+36. Pitch/octave selections share MOD. Expression follows pedal-marked parameters, otherwise volume; no global volume-only override established. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Seven serial modules/up to eight simultaneous effects describe fixed architecture, not eight freely assignable blocks or pitch CPU%. Choosing pitch replaces other MOD alternatives. |
+| Pitch / qualifications | Own English 506II-5000 scope; not original506 or505II. No hardware chord-tracking measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — 506II BASS listed under 2000. (official 2000 product group read).
+- [Zoom 506II support page](https://zoomcorp.com/en/gb/multi-effects/bass-effects/506ii/506ii-support/) — Operation manual only; no public firmware package/changelog located. (official Documents section read).
+- [Zoom 506II Bass Operation Manual 506II-5000](https://zoomcorp.com/media/documents/E_506II.pdf) — Pitch pattern intervals and mix variants, ±1-octave pedal shifts, octave mix, synth single-note guidance, patch storage and serial-module ceiling. No pitch polyphony guarantee or DSP%. (official PDF printed pp18–21,28–31 read).
+
+<!-- firmware-pitch:Zoom::506II ends -->
+
 Bass multi-effects; partial, checked2026-10-18. Distinct from506 and505II. [Manufacturer manual](https://zoomcorp.com/media/documents/E_506II.pdf), printed pp6–7,28–31.
 
 <!-- comparison evidence begins -->
