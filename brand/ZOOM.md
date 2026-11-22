@@ -2545,7 +2545,11 @@ Sources checked:
 
 [![B2.1u control face](https://medias.audiofanzine.com/images/normal/zoom-b2-1u-6603299.jpg)](https://medias.audiofanzine.com/images/normal/zoom-b2-1u-6603299.jpg)
 
-[Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/b2-1u/). Actual overhead photograph of exact B2.1u including treadle; four rotary controls, six top buttons and two main footswitches visible. Display segments are dark and no status LED is clearly lit, so powered operation is not verified. A powered overhead photograph remains pending.
+[Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/b2-1u/). Actual overhead photograph of exact B2.1u including treadle; four rotary controls, six top buttons and two main footswitches visible. This complete view is unpowered. A supplemental seller photograph below shows an illuminated d0 display and red REVERB indicator, but crops the expression pedal. The seller confirmed power only, not full operation. A complete powered-on overhead replacement remains pending.
+
+[![B2.1u powered-on control-face close-up](https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0511/user/108b38f38fc628e66be1cf07fb011870e3025e547ef0c01afd3c03daa9c8eff2/i-img1200x1200-17328464736922rikzln20922.jpg)](https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0511/user/108b38f38fc628e66be1cf07fb011870e3025e547ef0c01afd3c03daa9c8eff2/i-img1200x1200-17328464736922rikzln20922.jpg)
+
+[Powered photograph source](https://auctions.yahoo.co.jp/jp/auction/h1163166730).
 
 **B2.1u rear connections**
 

@@ -224153,7 +224153,7 @@
             "image_url": "https://medias.audiofanzine.com/images/normal/zoom-b2-1u-6603299.jpg",
             "source_url": "https://en.audiofanzine.com/bass-multi-effect/zoom/b2-1u/",
             "caption": "B2.1u control face",
-            "note": "Actual overhead photograph of exact B2.1u including treadle; four rotary controls, six top buttons and two main footswitches visible. Display segments are dark and no status LED is clearly lit, so powered operation is not verified. A powered overhead photograph remains pending.",
+            "note": "Actual overhead photograph of exact B2.1u including treadle; four rotary controls, six top buttons and two main footswitches visible. This complete view is unpowered. A supplemental seller photograph below shows an illuminated d0 display and red REVERB indicator, but crops the expression pedal. The seller confirmed power only, not full operation. A complete powered-on overhead replacement remains pending.\n\n[![B2.1u powered-on control-face close-up](https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0511/user/108b38f38fc628e66be1cf07fb011870e3025e547ef0c01afd3c03daa9c8eff2/i-img1200x1200-17328464736922rikzln20922.jpg)](https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0511/user/108b38f38fc628e66be1cf07fb011870e3025e547ef0c01afd3c03daa9c8eff2/i-img1200x1200-17328464736922rikzln20922.jpg)\n\n[Powered photograph source](https://auctions.yahoo.co.jp/jp/auction/h1163166730).",
             "visual_checked": true,
             "sha256": "a673c40fa9f49ac4bcadf668c6a2c9cc9e469c457dee030daac696c29a0b5b5d",
             "powered_on": false,
@@ -224168,7 +224168,19 @@
             "sha256": "73e15230bf1ec33ea061d7ffa5013be400323df55038ce4354279741ca4c0857",
             "powered_on": false
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0511/user/108b38f38fc628e66be1cf07fb011870e3025e547ef0c01afd3c03daa9c8eff2/i-img1200x1200-17328464736922rikzln20922.jpg",
+            "source_url": "https://auctions.yahoo.co.jp/jp/auction/h1163166730",
+            "caption": "B2.1u — powered-on control-face close-up",
+            "note": "Actual seller photograph shows an illuminated d0 display and red REVERB indicator. The right expression pedal is cropped, so this supplements rather than replaces the complete overhead view. The seller confirmed power only and did not verify full operation.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "079f3d490dd208d0a59513f8a244e9d4a165313875e6d8555bec70f4634534f2"
+          }
+        ]
       },
       "Zoom::B3": {
         "model_key": "Zoom::B3",
@@ -227107,6 +227119,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-8"
+    "last_model": "Zoom::B2.1u"
   }
 }
