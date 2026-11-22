@@ -217361,11 +217361,36 @@
             "sha256": "a153e7eb9ad16114d7cb825f237eec57f513437f261c923798c94686584805cc"
           }
         }
+      },
+      "Zoom::GFX-5": {
+        "model_key": "Zoom::GFX-5",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://img.olx.com.br/images/92/928620620672371.jpg",
+            "source_url": "https://mg.olx.com.br/regiao-de-pocos-de-caldas-e-varginha/instrumentos-musicais/pedaleira-zom-gfx-5-1484616375",
+            "caption": "GFX-5 control face",
+            "note": "Actual powered GFX-5 viewed nearly straight down, with illuminated red patch-name display and status LEDs. The complete control face, five footswitches and expression treadle are unobstructed; slight perspective remains.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "4f609d29f405f584b9e476784600668479dd316a9f734d7fa1d217e38b588d7d"
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-gfx-5-859469.jpg",
+            "source_url": "https://fr.audiofanzine.com/multieffet-guitare-electrique/zoom/GFX-5/",
+            "caption": "GFX-5 rear connections",
+            "note": "Actual complete rear panel with readable INPUT, AUX IN, R and L/MONO outputs, separate PHONES, LEVEL, power switch and DC9V 300mA center-negative supply markings. Photograph also shows the cable restraint.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "c48664fa8bcb1c1c503dfdf8e83b0fb57187ee63049bacaf8cf80b76b29b4a91"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::GFX-4"
+    "last_model": "Zoom::GFX-5"
   }
 }

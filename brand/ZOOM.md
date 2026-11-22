@@ -8344,6 +8344,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::GFX-5 ends -->
 
+<!-- model-images:Zoom::GFX-5 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**GFX-5 control face**
+
+[![GFX-5 control face](https://img.olx.com.br/images/92/928620620672371.jpg)](https://img.olx.com.br/images/92/928620620672371.jpg)
+
+[Image source](https://mg.olx.com.br/regiao-de-pocos-de-caldas-e-varginha/instrumentos-musicais/pedaleira-zom-gfx-5-1484616375). Actual powered GFX-5 viewed nearly straight down, with illuminated red patch-name display and status LEDs. The complete control face, five footswitches and expression treadle are unobstructed; slight perspective remains.
+
+**GFX-5 rear connections**
+
+[![GFX-5 rear connections](https://medias.audiofanzine.com/images/normal/zoom-gfx-5-859469.jpg)](https://medias.audiofanzine.com/images/normal/zoom-gfx-5-859469.jpg)
+
+[Image source](https://fr.audiofanzine.com/multieffet-guitare-electrique/zoom/GFX-5/). Actual complete rear panel with readable INPUT, AUX IN, R and L/MONO outputs, separate PHONES, LEVEL, power switch and DC9V 300mA center-negative supply markings. Photograph also shows the cable restraint.
+
+</details>
+<!-- model-images:Zoom::GFX-5 ends -->
+
+
 Guitar multi-effects;distinct from GFX-3/G5. Checked2026-10-17;partial. Zoom discontinued. Bass/vocal suitability and ownership unverified.
 
 | Field | Finding / qualification | Evidence |
