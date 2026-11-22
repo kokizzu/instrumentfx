@@ -222151,6 +222151,14 @@
         "unresolved": [
           "Powered-on exact overhead photograph not independently verified; current Bass-labelled stock view depicts illumination.",
           "Exact UB99B rear photo pending: linked Reverb image jhfbf8tpofyiyjoujcd2 thumbnail returned500, original endpoint401; sibling Acoustic/Guitar rear not substituted."
+        ],
+        "unretrieved_candidates": [
+          {
+            "source_url": "https://reverb.com/item/65118787-yamaha-magicstomp-ub99b",
+            "image_url": "https://rvb-img.reverb.com/i/s--cpdDz8BV--/quality%3Dmedium-low%2Cheight%3D400%2Cwidth%3D400%2Cfit%3Dcover%2Cgravity%3Dbottom/n7hiyxcf6ue27zvhvvec.jpg",
+            "checked_date": "2026-11-22",
+            "result": "Image3 of six-image exact-UB99B listing; bounded image retrieval returned HTTP500. Pixels not inspected; rear-view content and physical model identity not verified. Listing1990s year not adopted as release evidence."
+          }
         ]
       },
       "Yamaha::Magicstomp Guitar MK2": {
@@ -225787,6 +225795,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX3000B"
+    "last_model": "Yamaha::Magicstomp Bass"
   }
 }
