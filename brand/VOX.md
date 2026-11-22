@@ -404,7 +404,11 @@ Sources checked:
 
 [![Official VOX StompLab 2G control-face image](https://voxamps.com/wp-content/uploads/2019/02/SL2G-Stomplab-Guitar-Multi-Effect-1.png)](https://voxamps.com/wp-content/uploads/2019/02/SL2G-Stomplab-Guitar-Multi-Effect-1.png)
 
-[Image source](https://voxamps.com/product/stomplab-2g/). Visually inspected black guitar control face: three knobs, four small buttons, two footswitches and built-in expression treadle. Official stock image displays 50 and colored indicators; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending.
+[Image source](https://voxamps.com/product/stomplab-2g/). Visually inspected black guitar control face: three knobs, four small buttons, two footswitches and built-in expression treadle. Official stock image displays 50 and colored indicators; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending. A supplemental actual-unit photograph below shows the whole chassis and treadle, with wear visible, but is oblique and unpowered: the purple 88 segments are dark, and the indicator lenses show reflections rather than verified illumination.
+
+[![VOX StompLab IIG actual unpowered unit](https://www.guitarcollectors.ru/items_photos/W8YqQy1le9UYkv_MFWL4z89hICX09PKd6XdwJc4Aydl5IaoopL4nyzpU9XF_yWp2mlViFc4VzmXe6FMSQV5_kBY9.webp)](https://www.guitarcollectors.ru/items_photos/W8YqQy1le9UYkv_MFWL4z89hICX09PKd6XdwJc4Aydl5IaoopL4nyzpU9XF_yWp2mlViFc4VzmXe6FMSQV5_kBY9.webp)
+
+[Actual-unit photograph source](https://guitarcollectors.ru/items/12418306/).
 
 **Official VOX StompLab 2G rear-port shop image**
 

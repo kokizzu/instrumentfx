@@ -223194,7 +223194,7 @@
             "image_url": "https://voxamps.com/wp-content/uploads/2019/02/SL2G-Stomplab-Guitar-Multi-Effect-1.png",
             "source_url": "https://voxamps.com/product/stomplab-2g/",
             "caption": "Official VOX StompLab 2G control-face image",
-            "note": "Visually inspected black guitar control face: three knobs, four small buttons, two footswitches and built-in expression treadle. Official stock image displays 50 and colored indicators; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending.",
+            "note": "Visually inspected black guitar control face: three knobs, four small buttons, two footswitches and built-in expression treadle. Official stock image displays 50 and colored indicators; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending. A supplemental actual-unit photograph below shows the whole chassis and treadle, with wear visible, but is oblique and unpowered: the purple 88 segments are dark, and the indicator lenses show reflections rather than verified illumination.\n\n[![VOX StompLab IIG actual unpowered unit](https://www.guitarcollectors.ru/items_photos/W8YqQy1le9UYkv_MFWL4z89hICX09PKd6XdwJc4Aydl5IaoopL4nyzpU9XF_yWp2mlViFc4VzmXe6FMSQV5_kBY9.webp)](https://www.guitarcollectors.ru/items_photos/W8YqQy1le9UYkv_MFWL4z89hICX09PKd6XdwJc4Aydl5IaoopL4nyzpU9XF_yWp2mlViFc4VzmXe6FMSQV5_kBY9.webp)\n\n[Actual-unit photograph source](https://guitarcollectors.ru/items/12418306/).",
             "visual_checked": true,
             "sha256": "8af42e0b4586c1bbe087838308d2bac82046e2110a771639f94f016bc206bf09",
             "powered_on": null,
@@ -223210,7 +223210,28 @@
             "powered_on": null,
             "exact_top_down": false
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.guitarcollectors.ru/items_photos/W8YqQy1le9UYkv_MFWL4z89hICX09PKd6XdwJc4Aydl5IaoopL4nyzpU9XF_yWp2mlViFc4VzmXe6FMSQV5_kBY9.webp",
+            "source_url": "https://guitarcollectors.ru/items/12418306/",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "e27d315b2884823ce5c5ff21a7d1a2185e9dac98805ce8a164ebdf5d650ac1e3",
+            "note": "Actual complete used unit photographed obliquely; dark purple 88 segments and reflective indicator lenses do not establish power."
+          },
+          {
+            "image_url": "https://replayguitars.com.au/cdn/shop/files/VoxSL2GStomplab2Guitar2.jpg?v=1706676438&width=3840",
+            "source_url": "https://replayguitars.com.au/products/vox-sl2g-stomplab-2g-multi-effects-guitar-pedal",
+            "caption": "Candidate",
+            "note": "Straight-on stock image displaying 50; not evidence of a powered physical unit.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": true,
+            "sha256": "5f2a9a0da51e17042e0fae04f19ba61c5bb74b6b07ae37c0b22e85678ee7cdde"
+          }
+        ]
       },
       "VOX::ToneLab EX": {
         "model_key": "VOX::ToneLab EX",
@@ -227119,6 +227140,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B2.1u"
+    "last_model": "VOX::StompLab 2G"
   }
 }
