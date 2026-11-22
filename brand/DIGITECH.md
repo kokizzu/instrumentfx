@@ -1268,11 +1268,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**DigiTech RP200 — top panel**
+**DigiTech RP200 overhead product image — active display shown**
 
-[![DigiTech RP200 — top panel](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409595/YDIGITECH13888604__84328.1722248341.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409595/YDIGITECH13888604__84328.1722248341.jpg?c=1)
+[![DigiTech RP200 overhead product image — active display shown](https://static.wixstatic.com/media/862cbd_1a252297d2aa4d05bde3f62577a76db9~mv2.jpg/v1/fit/w_500%2Ch_500%2Cq_90/file.jpg)](https://static.wixstatic.com/media/862cbd_1a252297d2aa4d05bde3f62577a76db9~mv2.jpg/v1/fit/w_500%2Ch_500%2Cq_90/file.jpg)
 
-[Image source](https://richtonemusic.co.uk/digitech-rp200-multi-fx-pedal-psu-2nd-hand/). Retailer original-RP200 used-unit photograph with blue footswitches and original panel, not the separately Artist-marked candidate. Angled overhead view with unlit display; a powered-on exact top-down replacement remains pending.
+[Image source](https://www.musicsoundcyprus.com/product-page/digitech-rp200-bass-multi-effect-processor). Visually inspected original RP200 layout, blue footswitches, three controls and complete expression pedal; display shows ROCKIN. No Artist marking is present. Near-straight overhead studio product image, with a narrow rear edge visible; physical powered operation cannot be independently authenticated from this artwork. A confirmed powered-on hardware photograph remains pending. The earlier [unlit used-unit photograph](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409595/YDIGITECH13888604__84328.1722248341.jpg?c=1) remains available for physical appearance comparison. Seller URL says bass, but panel identity is RP200; no bass-specific specification is adopted.
 
 **DigiTech RP200 — rear connections**
 
