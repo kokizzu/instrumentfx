@@ -213326,20 +213326,30 @@
       },
       "DK::iE-550": {
         "model_key": "DK::iE-550",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "views": {
           "top": {
             "image_url": "https://hariharimusik.id/wp-content/uploads/2025/12/555.jpeg",
             "source_url": "https://hariharimusik.id/shop/digital-effects/dk-ie-550/",
             "caption": "iE-550 top-down product render with active-display artwork",
-            "note": "Retailer product render shows P01 display and blue switch rings. This is not verified as a photograph of a physically powered-on unit. Real powered-on top photograph and rear-port photograph remain pending.",
+            "note": "Retailer product render shows P01 display and blue switch rings. This is not verified as a photograph of a physically powered-on unit. Rear connector-panel composite illustration is supplied below; real powered-on top photograph remains pending.",
             "visual_checked": true,
             "powered_on": null,
             "exact_top_down": true,
             "sha256": "427bed2ceb9805fa07b7e05811bacc76cd7599affd1dd2cfefd1d011e467aefb"
+          },
+          "rear": {
+            "image_url": "https://etone.shop/cdn/shop/files/DK_IE550_SPECS_1600x.jpg?v=1746785993",
+            "source_url": "https://etone.shop/products/dk-ie-550-multi-effects-guitar-processor-with-bluetooth-app",
+            "caption": "iE-550 rear connector-panel composite illustration",
+            "note": "Visually inspected exact-model retailer composite: lower rear panel exposes INPUT, STEREO OUTPUT /PHONES, USB and DC 9V sockets. Upper portion is a labelled active-screen product render. Rear portion has photographic appearance but original capture provenance is unverified; do not treat this composite as proof of powered hardware or use its generic interface captions to infer electrical specifications.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "efaa9464999205906c2f651137de043c3a5b20670bd9a49522cdbbcf88b745ad"
           }
         },
-        "pending": "Rear-port photograph and real powered-on top photograph not yet verified; second retailer image was another top render and excluded."
+        "pending": "Real powered-on top photograph and independently verified original rear-port photograph remain pending; composite rear-panel illustration is available."
       },
       "Donner::Arena2000": {
         "model_key": "Donner::Arena2000",
@@ -224018,6 +224028,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DK::iE-350"
+    "last_model": "DK::iE-550"
   }
 }
