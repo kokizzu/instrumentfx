@@ -374,6 +374,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::Dapper Bass VES-2 ends -->
 
+<!-- model-images:Valeton::Dapper Bass VES-2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Near-overhead full-size Dapper Bass control-face stock image, unlit.**
+
+[![Near-overhead full-size Dapper Bass control-face stock image, unlit.](https://shop.valeton.net/cdn/shop/products/DapperBass_Front_Hi_V01_170206_1500x.png?v=1641351898)](https://shop.valeton.net/cdn/shop/products/DapperBass_Front_Hi_V01_170206_1500x.png?v=1641351898)
+
+[Image source](https://shop.valeton.net/products/dapper-bass). Visually 13 rotary knobs, 5 footswitches and one FUZZ toggle on this face. The separate rear GROUND slider is not included in that face count. Display/status LEDs unlit; powered-on strict perpendicular overhead remains pending. Five modules and large tuner distinguish VES-2 from MES-2 Mini.
+
+**Full-size Dapper Bass long connector edge with FX loop and ground slider.**
+
+[![Full-size Dapper Bass long connector edge with FX loop and ground slider.](https://shop.valeton.net/cdn/shop/products/DapperBass_Top_Hi_V01_170207_1500x.jpg?v=1641351898)](https://shop.valeton.net/cdn/shop/products/DapperBass_Top_Hi_V01_170207_1500x.jpg?v=1641351898)
+
+[Image source](https://shop.valeton.net/products/dapper-bass). Visible quarter-inch IN, THRU, SEND, RETURN and OUT; 9V DC socket and GROUND GND/LIFT slider. End-mounted XLR is outside this view, not claimed absent. DC polarity/current not legible here; no live power or all-edge absence test.
+
+</details>
+<!-- model-images:Valeton::Dapper Bass VES-2 ends -->
+
+
 Full-size bass combined-effects strip;notMiniMES-2. Checked2026-10-17;partial. Manufacturer architecture establishesmulti-effects eligibility. VES-2code is seller identification pendingmanualcorroboration.
 
 | Field | Finding / qualification | Evidence |
