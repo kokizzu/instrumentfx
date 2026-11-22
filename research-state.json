@@ -222570,7 +222570,7 @@
       },
       "Valeton::Dapper Acoustic Mini": {
         "model_key": "Valeton::Dapper Acoustic Mini",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
             "image_url": "https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Front_Hi_V01_170510_1500x.png?v=1641286562",
@@ -222586,7 +222586,7 @@
             "image_url": "https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Top_Hi_V01_170510_2048x.png?v=1641286562",
             "source_url": "https://shop.valeton.net/products/dapper-acoustic-mini",
             "caption": "Straight connector-edge stock photograph: 9V DC, IN, OUT and headphone socket.",
-            "note": "Quarter-inch IN/OUT and smaller headphone socket are visible; 9V DC label visible but polarity/current not legible here. End-mounted XLR is outside this face and not claimed absent. Manufacturer filename Top actually shows the connector edge; assigned by inspected content.",
+            "note": "Quarter-inch IN/OUT and smaller headphone socket are visible; 9V DC label visible but polarity/current not legible here. End-mounted XLR is outside this face and not claimed absent. Manufacturer filename Top actually shows the connector edge; assigned by inspected content. The supplemental physical shop photograph below exposes the end-mounted male three-pin XLR OUT socket omitted by this straight connector-edge view. Both views are unlit; electrical balancing and output level are not inferred from socket appearance.\n\n[![Dapper Acoustic Mini XLR output end photograph](https://musicvilla.com/cdn/shop/files/A0D225ED-E385-48E1-B4CC-14E32A2E67A6.jpg?v=1774564885&width=1080)](https://musicvilla.com/cdn/shop/files/A0D225ED-E385-48E1-B4CC-14E32A2E67A6.jpg?v=1774564885&width=1080)\n\n[XLR end photograph source](https://musicvilla.com/products/valeton-acoustic-mini-pre-tuner-di-fx-dapperacoustic).",
             "visual_checked": true,
             "sha256": "3d026a8beb4f612eff11fb8c883307b9e5f05fac9b6f10abd881d1e9bb16b2ef",
             "powered_on": false,
@@ -222599,6 +222599,16 @@
             "sha256": "9b398c950a739457e52c5b2af50631d945bde8031eeab4b49f2baad433296670",
             "visual_checked": true,
             "note": "Inspected unlit oblique view of same control face/connector edge; adds no powered-on evidence and does not expose XLR socket."
+          },
+          {
+            "image_url": "https://musicvilla.com/cdn/shop/files/A0D225ED-E385-48E1-B4CC-14E32A2E67A6.jpg?v=1774564885&width=1080",
+            "source_url": "https://musicvilla.com/products/valeton-acoustic-mini-pre-tuner-di-fx-dapperacoustic",
+            "caption": "Dapper Acoustic Mini XLR output end photograph",
+            "note": "Physical gold Acoustic Mini photographed obliquely on black surface. Male three-pin XLR socket on left end clearly visible with XLR OUT label. Complete control face also visible, with indicators unlit. Photograph verifies socket placement, not balancing topology, output impedance or measured operation.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "78d6da951e23d8c55dc91fa29dee08c697189141d556ab0478c1f84907838d16"
           }
         ]
       },
@@ -227473,6 +227483,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper VES-1"
+    "last_model": "Valeton::Dapper Acoustic Mini"
   }
 }

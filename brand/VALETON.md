@@ -72,7 +72,11 @@ Sources checked:
 
 [![Straight connector-edge stock photograph: 9V DC, IN, OUT and headphone socket.](https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Top_Hi_V01_170510_2048x.png?v=1641286562)](https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Top_Hi_V01_170510_2048x.png?v=1641286562)
 
-[Image source](https://shop.valeton.net/products/dapper-acoustic-mini). Quarter-inch IN/OUT and smaller headphone socket are visible; 9V DC label visible but polarity/current not legible here. End-mounted XLR is outside this face and not claimed absent. Manufacturer filename Top actually shows the connector edge; assigned by inspected content.
+[Image source](https://shop.valeton.net/products/dapper-acoustic-mini). Quarter-inch IN/OUT and smaller headphone socket are visible; 9V DC label visible but polarity/current not legible here. End-mounted XLR is outside this face and not claimed absent. Manufacturer filename Top actually shows the connector edge; assigned by inspected content. The supplemental physical shop photograph below exposes the end-mounted male three-pin XLR OUT socket omitted by this straight connector-edge view. Both views are unlit; electrical balancing and output level are not inferred from socket appearance.
+
+[![Dapper Acoustic Mini XLR output end photograph](https://musicvilla.com/cdn/shop/files/A0D225ED-E385-48E1-B4CC-14E32A2E67A6.jpg?v=1774564885&width=1080)](https://musicvilla.com/cdn/shop/files/A0D225ED-E385-48E1-B4CC-14E32A2E67A6.jpg?v=1774564885&width=1080)
+
+[XLR end photograph source](https://musicvilla.com/products/valeton-acoustic-mini-pre-tuner-di-fx-dapperacoustic).
 
 </details>
 <!-- model-images:Valeton::Dapper Acoustic Mini ends -->
