@@ -8571,6 +8571,30 @@ Partial lead remains outside active counts. Exacthardware condition/stock,dimens
 
 ## GFX-707
 
+<!-- firmware-pitch:Zoom::GFX-707 begins -->
+### Firmware and pitch audit — Zoom GFX-707
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1999 (manufacturer product-history year). Official chronology places GFX-707 under 1999; exact retail day/month unverified. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Official support lists the operation manual only. No public firmware updater/history located; installed revision and release-to-update duration unknown. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-707-support/gfx-707-support/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD PITCH table: −12…−1, detune, +1…+12,+24; prose reverses the octave limits. P-PIT offers sixteen pedal mappings. Chord/polyphonic tracking unspecified. [pitch 1](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX707.pdf) |
+| Pitch / preset recall | 30 editable user plus 30 read-only preset patches. Store retains effect settings and patch-specific pedal assignment/mode. Built-in expression controls P-PIT. |
+| Pitch / DSP resources | Four simultaneous effect modules plus ZNR and amp simulation. PITCH/P-PIT share MOD with other modulation choices. No exact pitch DSP percentage documented; fixed module counts are not CPU fractions. |
+| Pitch / qualifications | Documentation only; no hardware tracking or CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — GFX-707 under 1999. (official chronology inspected).
+- [GFX-707 support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-707-support/gfx-707-support/) — Operation manual only; no public firmware updater/history located. (official page inspected).
+- [GFX-707 operation manual](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX707.pdf) — 60 patches; four modules plus ZNR/amp simulation; patch-specific pedal settings; PITCH prose/table octave-limit conflict. (official PDF inspected, pp3,18,20,24).
+
+<!-- firmware-pitch:Zoom::GFX-707 ends -->
+
 Original guitar multi-effects,not707II;checked2026-10-17;partial. [Official manual][GFX707-M],24pages,707-5000,pp2–7,17,22–24.
 
 | Field | Evidence / gaps |

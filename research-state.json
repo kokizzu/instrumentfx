@@ -208890,10 +208890,67 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::GFX-707": {
+        "model_key": "Zoom::GFX-707",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "1999",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Official chronology places GFX-707 under 1999; exact retail day/month unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-707-support/gfx-707-support/"
+          ],
+          "note": "Official support lists the operation manual only. No public firmware updater/history located; installed revision and release-to-update duration unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD PITCH table: −12…−1, detune, +1…+12,+24; prose reverses the octave limits. P-PIT offers sixteen pedal mappings. Chord/polyphonic tracking unspecified.",
+          "preset": "30 editable user plus 30 read-only preset patches. Store retains effect settings and patch-specific pedal assignment/mode. Built-in expression controls P-PIT.",
+          "dsp": "Four simultaneous effect modules plus ZNR and amp simulation. PITCH/P-PIT share MOD with other modulation choices. No exact pitch DSP percentage documented; fixed module counts are not CPU fractions.",
+          "source_urls": [
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX707.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no hardware tracking or CPU measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "GFX-707 under 1999."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-707-support/gfx-707-support/",
+            "title": "GFX-707 support",
+            "access": "official page inspected",
+            "evidence": "Operation manual only; no public firmware updater/history located."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX707.pdf",
+            "title": "GFX-707 operation manual",
+            "access": "official PDF inspected, pp3,18,20,24",
+            "evidence": "60 patches; four modules plus ZNR/amp simulation; patch-specific pedal settings; PITCH prose/table octave-limit conflict."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::GFX-707",
       "Zoom::MS-100BT",
       "Zoom::MS-50G",
       "Zoom::MS-50G Plus",
@@ -208911,12 +208968,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 386,
-    "last_model": "Zoom::GFX-5",
-    "last_commit_parent": "3e93a3e9dafea5e3eb1cdfdebcf1b5c66ec8903c",
+    "completed_model_count": 387,
+    "last_model": "Zoom::GFX-707",
+    "last_commit_parent": "5e5a7906974aca5399bc8d193126f2d55c8b8908",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::GFX-707",
       "Zoom::MS-100BT",
       "Zoom::MS-50G",
       "Zoom::MS-50G Plus",
@@ -208933,7 +208989,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 386,
+    "pitch_completed_model_count": 387,
     "supplemental_model_count": 0
   },
   "model_images": {
