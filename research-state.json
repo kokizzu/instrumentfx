@@ -218135,11 +218135,36 @@
             "sha256": "4b41cdae089de69d836e441a5caa158c91dc4debae6f92457cdb1be8a2cde2ca"
           }
         }
+      },
+      "Zoom::MS-70CDR Plus": {
+        "model_key": "Zoom::MS-70CDR Plus",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.gitarrebass.de/app/uploads/2025/04/Zoom-MultiStomp_MS-70-CDR_.jpg",
+            "source_url": "https://www.gitarrebass.de/equipment/volle-breitseite-zoom-multistomp-pedale-im-test/",
+            "caption": "MS-70CDR+ control face",
+            "note": "Actual powered MS-70CDR+ photographed for a magazine review, with ANALOG DELAY LCD and illuminated red status LED. Four encoder knobs, four cross-key switches and central footswitch are fully visible and unobstructed. The photograph is angled overhead rather than perpendicular top-down; a straight-down replacement remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "adcf42a5a33d4006487fd014f0e93bb50924f9f68ba03742f9af1da590995fe9"
+          },
+          "rear": {
+            "image_url": "https://media.sound-service.eu/Artikelbilder/Shopsystem/1200x837/02_MS70CDRplus_Product.jpg",
+            "source_url": "https://www.sound-service.eu/zoom-ms-70cdr",
+            "caption": "MS-70CDR+ rear connections",
+            "note": "Distributor complete rear photograph shows center-negative DC9V adapter socket and USB Type-C marked DC5V. The round feature below USB is a screw. Stereo L/MONO/R audio inputs and outputs are on the side panels and are not fully shown here.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "fed6f80d5024aec741db30e1fdb4461e0d001c9b8a33ddbc5d8ccbf93c74798a"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::MS-70CDR"
+    "last_model": "Zoom::MS-70CDR Plus"
   }
 }

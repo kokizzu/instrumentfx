@@ -9261,6 +9261,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::MS-70CDR Plus ends -->
 
+<!-- model-images:Zoom::MS-70CDR Plus begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MS-70CDR+ control face**
+
+[![MS-70CDR+ control face](https://www.gitarrebass.de/app/uploads/2025/04/Zoom-MultiStomp_MS-70-CDR_.jpg)](https://www.gitarrebass.de/app/uploads/2025/04/Zoom-MultiStomp_MS-70-CDR_.jpg)
+
+[Image source](https://www.gitarrebass.de/equipment/volle-breitseite-zoom-multistomp-pedale-im-test/). Actual powered MS-70CDR+ photographed for a magazine review, with ANALOG DELAY LCD and illuminated red status LED. Four encoder knobs, four cross-key switches and central footswitch are fully visible and unobstructed. The photograph is angled overhead rather than perpendicular top-down; a straight-down replacement remains pending.
+
+**MS-70CDR+ rear connections**
+
+[![MS-70CDR+ rear connections](https://media.sound-service.eu/Artikelbilder/Shopsystem/1200x837/02_MS70CDRplus_Product.jpg)](https://media.sound-service.eu/Artikelbilder/Shopsystem/1200x837/02_MS70CDRplus_Product.jpg)
+
+[Image source](https://www.sound-service.eu/zoom-ms-70cdr). Distributor complete rear photograph shows center-negative DC9V adapter socket and USB Type-C marked DC5V. The round feature below USB is a screw. Stereo L/MONO/R audio inputs and outputs are on the side panels and are not fully shown here.
+
+</details>
+<!-- model-images:Zoom::MS-70CDR Plus ends -->
+
+
 Manufacturer model **MS-70CDR+**,catalogued as MS-70CDR Plus to keep its identity distinct from the original MS-70CDR. Reviewed **2026-10-17** following exact Shopee discovery;guitar/bass multi-effects,no ownership assertion. Partial:official HTML and indexed manufacturer document text;no dependencies,manual files,firmware or software downloaded to the workspace.
 
 | Field | Finding / qualification | Evidence |
