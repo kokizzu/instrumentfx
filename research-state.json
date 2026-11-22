@@ -201802,14 +201802,13 @@
         "model_key": "Sonicake::B Factory QDS-05",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "Original hardware release unresolved",
+          "date": "2024-03-12",
+          "precision": "day",
+          "kind": "manufacturer demonstration publication proxy; exact first sale unconfirmed",
           "source_urls": [
-            "https://www.sonicake.com/products/b-factory",
-            "https://www.hotone.jp/brands/sonicake/products/b-factory"
+            "https://www.youtube.com/watch?v=g51fA27ly-M"
           ],
-          "note": "No original launch date supplied by the exact-model official pages. Manual revision/upload dates and mixed-variant marketplace first-available fields are not adopted as hardware launch dates."
+          "note": "SONICAKE published its B FACTORY analog preamp/compressor/overdrive demonstration on March 12, 2024, before the March 21 catalogue entry. This establishes a dated public manufacturer demonstration, not an authenticated exact first shipment or worldwide retail launch. Model-year claims and mixed-variant marketplace first-available fields are not used as launch evidence."
         },
         "firmware": {
           "version": null,
@@ -201849,10 +201848,74 @@
             "title": "Hotone Japan B Factory official regional product",
             "access": "readable official regional page",
             "evidence": "Corroborates analog bass preamp/compressor/overdrive and EQ; no launch date, firmware history or pitch processing stated."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=g51fA27ly-M",
+            "title": "Sonicake B FACTORY Analog Preamp, Comp and Overdrive Pedal for Bassist",
+            "access": "Original manufacturer video publication metadata indexed and checked 2026-11-22",
+            "evidence": "By SONICAKE, published 2024-03-12. Dated exact-model public demonstration, not proof of first retail shipment."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Sonicake::B Factory QDS-05",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "Original hardware release unresolved",
+              "source_urls": [
+                "https://www.sonicake.com/products/b-factory",
+                "https://www.hotone.jp/brands/sonicake/products/b-factory"
+              ],
+              "note": "No original launch date supplied by the exact-model official pages. Manual revision/upload dates and mixed-variant marketplace first-available fields are not adopted as hardware launch dates."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.sonicake.com/products/b-factory",
+                "https://www.hotone.jp/brands/sonicake/products/b-factory"
+              ],
+              "note": "Manufacturer documents analog preamp, optical compression, overdrive and EQ; no user firmware version, download or update history located. Firmware-support duration cannot be calculated."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Analog bass preamp, optical compressor, overdrive/distortion and three-band EQ with PRE/POST selection. No octave, transposition or harmony algorithm documented.",
+              "preset": "Physical controls and effect footswitches; programmable preset banks or pitch recall not documented.",
+              "dsp": "No pitch DSP cost applies to the documented analog effect functions; no digital pitch block or allocatable DSP budget is documented. Electrical current is not CPU utilization.",
+              "source_urls": [
+                "https://www.sonicake.com/products/b-factory",
+                "https://www.hotone.jp/brands/sonicake/products/b-factory"
+              ],
+              "measurements": [],
+              "notes": [
+                "Do not transfer pitch algorithms or firmware from Sonicake Matribox/SmartBox products.",
+                "The preserved 70 mA product-page versus 92 mA leaflet-transcription discrepancy is a power specification issue, not DSP load evidence."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.sonicake.com/products/b-factory",
+                "title": "SONICAKE B Factory QDS-05 official product",
+                "access": "readable official product page",
+                "evidence": "Exact QDS-05; analog preamp, optical compression, overdrive, PRE/POST three-band EQ, XLR output; no pitch algorithm or public firmware update documented."
+              },
+              {
+                "url": "https://www.hotone.jp/brands/sonicake/products/b-factory",
+                "title": "Hotone Japan B Factory official regional product",
+                "access": "readable official regional page",
+                "evidence": "Corroborates analog bass preamp/compressor/overdrive and EQ; no launch date, firmware history or pitch processing stated."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Sonicake::A Factory QDS-04": {
         "model_key": "Sonicake::A Factory QDS-04",
@@ -213684,8 +213747,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Sonicake::Levitate QDS-02",
-    "last_commit_parent": "73b034e3729ecd9b6015dc5efba10d986999aee3",
+    "last_model": "Sonicake::B Factory QDS-05",
+    "last_commit_parent": "b5a5d06bf890806a2c7d2dc2c8b254bc12707fcb",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

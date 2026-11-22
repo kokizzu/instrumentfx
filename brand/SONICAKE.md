@@ -104,7 +104,7 @@ Checked2026-10-28 against the [manufacturer product/FAQ](https://www.sonicake.co
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. No original launch date supplied by the exact-model official pages. Manual revision/upload dates and mixed-variant marketplace first-available fields are not adopted as hardware launch dates. [launch 1](https://www.sonicake.com/products/b-factory) [launch 2](https://www.hotone.jp/brands/sonicake/products/b-factory) |
+| Firmware / first hardware release | 2024-03-12 (manufacturer demonstration publication proxy; exact first sale unconfirmed). SONICAKE published its B FACTORY analog preamp/compressor/overdrive demonstration on March 12, 2024, before the March 21 catalogue entry. This establishes a dated public manufacturer demonstration, not an authenticated exact first shipment or worldwide retail launch. Model-year claims and mixed-variant marketplace first-available fields are not used as launch evidence. [launch 1](https://www.youtube.com/watch?v=g51fA27ly-M) |
 | Firmware / latest verification | Not verified — No public firmware located. Manufacturer documents analog preamp, optical compression, overdrive and EQ; no user firmware version, download or update history located. Firmware-support duration cannot be calculated. [firmware 1](https://www.sonicake.com/products/b-factory) [firmware 2](https://www.hotone.jp/brands/sonicake/products/b-factory) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -119,6 +119,7 @@ Sources checked:
 
 - [SONICAKE B Factory QDS-05 official product](https://www.sonicake.com/products/b-factory) — Exact QDS-05; analog preamp, optical compression, overdrive, PRE/POST three-band EQ, XLR output; no pitch algorithm or public firmware update documented. (readable official product page).
 - [Hotone Japan B Factory official regional product](https://www.hotone.jp/brands/sonicake/products/b-factory) — Corroborates analog bass preamp/compressor/overdrive and EQ; no launch date, firmware history or pitch processing stated. (readable official regional page).
+- [Sonicake B FACTORY Analog Preamp, Comp and Overdrive Pedal for Bassist](https://www.youtube.com/watch?v=g51fA27ly-M) — By SONICAKE, published 2024-03-12. Dated exact-model public demonstration, not proof of first retail shipment. (Original manufacturer video publication metadata indexed and checked 2026-11-22).
 
 <!-- firmware-pitch:Sonicake::B Factory QDS-05 ends -->
 
