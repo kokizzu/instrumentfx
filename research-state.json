@@ -213004,11 +213004,36 @@
             "powered_on": false
           }
         }
+      },
+      "Zoom::1201": {
+        "model_key": "Zoom::1201",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://i.ebayimg.com/images/g/q8oAAeSwjZxpg4lT/s-l1200.webp",
+            "source_url": "https://www.ebay.co.uk/b/bn_7030484451",
+            "caption": "1201 front control face",
+            "note": "Visually checked actual 1201, green indicator visibly illuminated. Front control face viewed from above, not a vertical overhead view: six rotary controls and one BANK selector, no onboard footswitches/treadle. Rack front is the control surface; top lid has no controls. Outer right rack-ear edge is at the photo boundary.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "857d443d2881bd75888aa4ee4499b179c5fbf75378fbdc319dc0af3f174de3ab"
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-1201-5592348.jpg",
+            "source_url": "https://en.audiofanzine.com/multi-effects-processor/zoom/studio-1201/",
+            "caption": "1201 rear connectors",
+            "note": "Visually checked real 1201 rear from above: DC power, FS01 EFFECT ON/OFF, OUTPUT R/L and INPUT R/L-MONO, all six sockets visible. Low-contrast lettering; use the manual for electrical specifications. No USB/MIDI or headphone socket shown. Unconnected rear photograph does not establish powered operation.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "d062245f6cca81996f5d1db50c3136ed90662019bd4dbb8b9f22d5451a940623"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::505 original"
+    "last_model": "Zoom::1201"
   }
 }

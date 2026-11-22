@@ -597,6 +597,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::1201 ends -->
 
+<!-- model-images:Zoom::1201 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**1201 front control face**
+
+[![1201 front control face](https://i.ebayimg.com/images/g/q8oAAeSwjZxpg4lT/s-l1200.webp)](https://i.ebayimg.com/images/g/q8oAAeSwjZxpg4lT/s-l1200.webp)
+
+[Image source](https://www.ebay.co.uk/b/bn_7030484451). Visually checked actual 1201, green indicator visibly illuminated. Front control face viewed from above, not a vertical overhead view: six rotary controls and one BANK selector, no onboard footswitches/treadle. Rack front is the control surface; top lid has no controls. Outer right rack-ear edge is at the photo boundary.
+
+**1201 rear connectors**
+
+[![1201 rear connectors](https://medias.audiofanzine.com/images/normal/zoom-1201-5592348.jpg)](https://medias.audiofanzine.com/images/normal/zoom-1201-5592348.jpg)
+
+[Image source](https://en.audiofanzine.com/multi-effects-processor/zoom/studio-1201/). Visually checked real 1201 rear from above: DC power, FS01 EFFECT ON/OFF, OUTPUT R/L and INPUT R/L-MONO, all six sockets visible. Low-contrast lettering; use the manual for electrical specifications. No USB/MIDI or headphone socket shown. Unconnected rear photograph does not establish powered operation.
+
+</details>
+<!-- model-images:Zoom::1201 ends -->
+
+
 Checked2026-10-17;partial. Zoom Studio1201 rack multi-effects,not1202/1204. [Manufacturer product][Z1201-P] identifies discontinued reverb/multi-effects. Ownership unverified.
 
 | Field | Finding / qualification |
