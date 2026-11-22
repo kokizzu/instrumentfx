@@ -218179,13 +218179,13 @@
       },
       "DigiTech::RP200": {
         "model_key": "DigiTech::RP200",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
             "image_url": "https://static.wixstatic.com/media/862cbd_1a252297d2aa4d05bde3f62577a76db9~mv2.jpg/v1/fit/w_500%2Ch_500%2Cq_90/file.jpg",
             "source_url": "https://www.musicsoundcyprus.com/product-page/digitech-rp200-bass-multi-effect-processor",
             "caption": "DigiTech RP200 overhead product image — active display shown",
-            "note": "Visually inspected original RP200 layout, blue footswitches, three controls and complete expression pedal; display shows ROCKIN. No Artist marking is present. Near-straight overhead studio product image, with a narrow rear edge visible; physical powered operation cannot be independently authenticated from this artwork. A confirmed powered-on hardware photograph remains pending. The earlier [unlit used-unit photograph](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409595/YDIGITECH13888604__84328.1722248341.jpg?c=1) remains available for physical appearance comparison. Seller URL says bass, but panel identity is RP200; no bass-specific specification is adopted.",
+            "note": "Visually inspected original RP200 layout, blue footswitches, three controls and complete expression pedal; display shows ROCKIN. No Artist marking is present. Near-straight overhead studio product image, with a narrow rear edge visible; physical powered operation cannot be independently authenticated from this artwork. A confirmed powered-on hardware photograph remains pending. The earlier [unlit used-unit photograph](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409595/YDIGITECH13888604__84328.1722248341.jpg?c=1) remains available for physical appearance comparison. Seller URL says bass, but panel identity is RP200; no bass-specific specification is adopted. Powered-on gallery and marketplace candidates were rejected after their panels revealed red Artist script and a DRUMS row; neither is evidence for this original RP200 variant.",
             "visual_checked": true,
             "powered_on": null,
             "exact_top_down": false,
@@ -218207,6 +218207,21 @@
             "sha256": "83ac2b76762d966f2cf4477b8fe758cdc8a0b69f1f2c0a4d09cfce4c2553f286",
             "visual_checked": true,
             "note": "Original RP200 used-unit photograph, angled and display unlit; superseded by clearer active-display studio view without treating artwork as proof of powered operation."
+          },
+          {
+            "image_url": "https://medias.audiofanzine.com/images/normal/digitech-rp200-3090554.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP200/",
+            "sha256": "2a9f168971b4f4585a754ae8e05c726a7a3f8202208b8e2538bb7037e721fb26",
+            "visual_checked": true,
+            "note": "Rejected for original RP200: physical powered unit has red Artist script beside display and DRUMS row; treadle is partly clipped. Gallery title alone does not identify hardware variant."
+          },
+          {
+            "image_url": "https://i.ebayimg.com/images/g/nzsAAOSwe-NgYfWt/s-l640.jpg",
+            "source_url": "https://www.ebay.com/p/78677694",
+            "caption": "Rejected RP200 Artist variant",
+            "note": "Rejected for original RP200: physical powered unit clearly has red Artist script and DRUMS row. VER10 is the photographed RP200 Artist startup display, not original-RP200 firmware evidence.",
+            "visual_checked": true,
+            "sha256": "a209498c83f3dd062591ee09d52408eac906e813edc11b16625f31f8165995a2"
           }
         ]
       },
@@ -227355,6 +227370,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "JOYO::GEM BOX II"
+    "last_model": "DigiTech::RP200"
   }
 }
