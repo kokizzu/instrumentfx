@@ -222135,14 +222135,14 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.frontman.cz/sites/default/files/tchelicon-performve3.jpg",
-            "source_url": "https://www.frontman.cz/vokalni-procesor-tc-helicon-perform-ve",
-            "caption": "PERFORM-VE rear connection panel",
-            "note": "Exact yellow PERFORM-VE stock rear inspected: center-negative DC power, Mini-B USB, five-pin MIDI IN, quarter-inch PEDAL, AUX minijack, stacked quarter-inch OUT L/R, female XLR MIDAS MIC IN and security slot. Headphone output is on the front edge, visible in the inspected alternate control-angle stock image. PEDAL label does not establish continuous expression support; no USB-powered operation inferred.",
+            "image_url": "https://medias.audiofanzine.com/images/normal/tc-helicon-perform-ve-6062271.jpg",
+            "source_url": "https://en.audiofanzine.com/vocal-processor/tc-helicon/perform-ve/",
+            "caption": "PERFORM-VE rear ports — physical user photograph",
+            "note": "Visually inspected physical yellow PERFORM-VE with model marking legible. Rear panel shows center-negative DC POWER, Mini-B USB, five-pin MIDI IN, quarter-inch PEDAL, AUX minijack, stacked quarter-inch OUT L/R, female XLR MIC IN with MIDAS marking, and security slot. Whole connector panel visible with slight perspective. No connected power or operating state established. PEDAL label does not prove continuous expression support; USB shape does not prove USB power. Top view above remains stock artwork, with independently powered overhead evidence still pending.",
             "visual_checked": true,
-            "sha256": "f2cf5229f6eca23b251e68c722b0e0e8dd17b9a03ce1ec6ce59e7bbfaed7b743",
-            "powered_on": null,
-            "exact_top_down": false
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "f18fb7cd723ff7ed367129033fa2bb584e784a6a634ab5c1e80a0b0d6d571233"
           }
         },
         "inspected_alternatives": [
@@ -222151,6 +222151,13 @@
             "sha256": "e527faaf1953b3d5a032ca14d653a513f507546f44edc37fb77aaed23f9b96d1",
             "visual_checked": true,
             "note": "Oblique stock control-face/front-edge view, not rear. Headphone minijack visible; rejected for rear role and not independent powered-on proof."
+          },
+          {
+            "image_url": "https://www.frontman.cz/sites/default/files/tchelicon-performve3.jpg",
+            "source_url": "https://www.frontman.cz/vokalni-procesor-tc-helicon-perform-ve",
+            "sha256": "f2cf5229f6eca23b251e68c722b0e0e8dd17b9a03ce1ec6ce59e7bbfaed7b743",
+            "visual_checked": true,
+            "note": "Superseded exact-model stock rear image, replaced by a detailed physical user photograph."
           }
         ]
       },
@@ -227070,6 +227077,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::PERFORM-VG"
+    "last_model": "TC-Helicon::PERFORM-VE"
   }
 }

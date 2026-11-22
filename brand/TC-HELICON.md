@@ -696,11 +696,11 @@ Sources checked:
 
 [Image source](https://www.behngiepseng.com/products/tc-helicon-perform-ve). Straight-on stock control-face image with illuminated-looking pads and ring; no connected power or independently photographed operating unit. Powered-on evidence remains pending. One rotary knob, zero footswitches, fourteen button pads: SET, three presets, TAP, six effects, LOOPER, SAMPLE and headphones. Small window beside SET and ring segments are indicators, not counted as separate buttons.
 
-**PERFORM-VE rear connection panel**
+**PERFORM-VE rear ports — physical user photograph**
 
-[![PERFORM-VE rear connection panel](https://www.frontman.cz/sites/default/files/tchelicon-performve3.jpg)](https://www.frontman.cz/sites/default/files/tchelicon-performve3.jpg)
+[![PERFORM-VE rear ports — physical user photograph](https://medias.audiofanzine.com/images/normal/tc-helicon-perform-ve-6062271.jpg)](https://medias.audiofanzine.com/images/normal/tc-helicon-perform-ve-6062271.jpg)
 
-[Image source](https://www.frontman.cz/vokalni-procesor-tc-helicon-perform-ve). Exact yellow PERFORM-VE stock rear inspected: center-negative DC power, Mini-B USB, five-pin MIDI IN, quarter-inch PEDAL, AUX minijack, stacked quarter-inch OUT L/R, female XLR MIDAS MIC IN and security slot. Headphone output is on the front edge, visible in the inspected alternate control-angle stock image. PEDAL label does not establish continuous expression support; no USB-powered operation inferred.
+[Image source](https://en.audiofanzine.com/vocal-processor/tc-helicon/perform-ve/). Visually inspected physical yellow PERFORM-VE with model marking legible. Rear panel shows center-negative DC POWER, Mini-B USB, five-pin MIDI IN, quarter-inch PEDAL, AUX minijack, stacked quarter-inch OUT L/R, female XLR MIC IN with MIDAS marking, and security slot. Whole connector panel visible with slight perspective. No connected power or operating state established. PEDAL label does not prove continuous expression support; USB shape does not prove USB power. Top view above remains stock artwork, with independently powered overhead evidence still pending.
 
 </details>
 <!-- model-images:TC-Helicon::PERFORM-VE ends -->
