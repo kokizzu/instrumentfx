@@ -221321,6 +221321,13 @@
             "sha256": "1eb0b2d9d47f776af251893cec9365000d718e36fb478dae2401f55f75670dd9",
             "visual_checked": true,
             "note": "Straight control-face graphic, not rear view; no AUX,reverse or tap capability inferred from seller prose."
+          },
+          {
+            "image_url": "https://i5.walmartimages.com/asr/ed400b81-21d9-4d24-a715-54ded85bb974.7514a3ed38c932fcd63a1d2e9118609d.jpeg",
+            "source_url": "https://www.walmart.ca/en/ip/Rowin-RE-05-Loop-Guitar-Effector-Looper-Tuner-Guitar-Looper-Effect-Pedal-Full-Metal-Shell-with-Reverb-Chorus-Delay-Effects-Purple/6H7ZWQWXS9PS",
+            "sha256": "4f8f78985a1176dea3a8dbca788bf8d33ff838af3472402a72a4040bafe7c441",
+            "visual_checked": true,
+            "note": "Control-face/right-side lifestyle marketing composite with a magnified control inset. The right-side audio socket is visible; the rear power socket is hidden. All tuner segments are drawn and the red lenses do not independently establish powered operation. Not a rear-port or exact overhead photograph; seller specifications excluded."
           }
         ]
       },
@@ -226716,6 +226723,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX3000B"
+    "last_model": "ROWIN::RE-05 Looper Pro"
   }
 }
