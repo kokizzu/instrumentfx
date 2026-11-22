@@ -1143,6 +1143,26 @@ Sources checked:
 
 <!-- firmware-pitch:Yamaha::SPX2000 ends -->
 
+<!-- model-images:Yamaha::SPX2000 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**SPX2000 powered control face**
+
+[![SPX2000 powered control face](https://medias.audiofanzine.com/images/normal/yamaha-spx-2000-6634462.jpg)](https://medias.audiofanzine.com/images/normal/yamaha-spx-2000-6634462.jpg)
+
+[Image source](https://en.audiofanzine.com/multi-effects-processor/yamaha/SPX-2000/). Visually checked whole actual SPX2000 front and top chassis from above/front: bright REV-X SLAP ROOM display, red33 program display and illuminated status/parameter indicators. Concentric L/R input rotaries,18 control buttons, separate power rocker and one FOOT SW jack visible. Raised perspective rack-unit view rather than vertical overhead. Program33 and reverb time1.00s are not firmware information; no audio/control test inferred.
+
+**SPX2000 rear connectors**
+
+[![SPX2000 rear connectors](https://europe.yamaha.com/en/files/photoviewer_processor_spx2000_rear_tcm113-1649800.jpg?imhei=735&impolicy=resize&imwid=735)](https://europe.yamaha.com/en/files/photoviewer_processor_spx2000_rear_tcm113-1649800.jpg?imhei=735&impolicy=resize&imwid=735)
+
+[Image source](https://europe.yamaha.com/en/business/audio/products/processors/spx2000/). Visually checked complete manufacturer rear image: IEC AC IN; MIDI OUT/THRU and IN; USB-B TO HOST; BNC WORD CLOCK IN; AES/EBU XLR OUT/IN; separate analog OUTPUT and INPUT L/R XLR/quarter-inch pairs with individual−10/+4dBu selectors. No rear PHONES or analog EXP socket shown; front FOOT SW is separate. Image has no connected mains cable. Small735px presentation limits fine print; regional mains rating follows exact unit/manual, not a universal-voltage inference.
+
+</details>
+<!-- model-images:Yamaha::SPX2000 ends -->
+
+
 Checked 2026-10-17; partial. Guitar amp/distortion and vocal effects documented in own manual; use suitable line-level preamp/mixer routing. Bass applicability remains unclassified. Ownership unestablished.
 
 <!-- comparison evidence begins -->
