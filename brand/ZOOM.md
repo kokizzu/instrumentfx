@@ -3693,7 +3693,11 @@ Sources checked:
 
 [![Original G1 control face](https://www.frimusica.com/cdn/shop/files/4c04ca63f26d75e0e60cc462ffb2a322.jpg?v=1720101134)](https://www.frimusica.com/cdn/shop/files/4c04ca63f26d75e0e60cc462ffb2a322.jpg?v=1720101134)
 
-[Image source](https://www.frimusica.com/products/pedaleira-zoom-g1-efeitos-para-guitarra-usada). Full overhead stock image of original no-treadle G1: two rotary controls,three buttons and two footswitch pads. Red A0 display is depicted, but retailer stock artwork does not independently establish an actual powered photograph. Actual powered overhead evidence remains pending.
+[Image source](https://www.frimusica.com/products/pedaleira-zoom-g1-efeitos-para-guitarra-usada). Full overhead stock image of original no-treadle G1: two rotary controls,three buttons and two footswitch pads. Red A0 display is depicted, but retailer stock artwork does not independently establish an actual powered photograph. Actual powered overhead evidence remains pending. A complete physical owner photograph below confirms display illumination, but most upper control labels are worn away. This supplements the clear labelled layout image; perspective is slight rather than strictly perpendicular. Display characters are not interpreted as a firmware version or hardware diagnosis.
+
+[![Original G1 powered-on owner photograph](https://img.olx.com.br/images/11/119636240404309.jpg)](https://img.olx.com.br/images/11/119636240404309.jpg)
+
+[Powered-on photograph source](https://sp.olx.com.br/sao-paulo-e-regiao/instrumentos-musicais/pedaleira-zoom-g1-1467569555).
 
 **Original G1 rear connections**
 
