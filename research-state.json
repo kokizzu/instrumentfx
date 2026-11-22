@@ -187868,11 +187868,14 @@
           "dsp": "Manufacturer specifies ten simultaneous reorderable blocks. Per-pitch block allocation, concurrent pitch choices and CPU percentage unverified; ten blocks is not a 10% pitch cost.",
           "source_urls": [
             "https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf",
-            "https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal"
+            "https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal",
+            "https://us.donnermusic.com/products/donner-multi-effects-pedal-guitar-pedals",
+            "https://us.donnermusic.com/blogs/buying-guides/donner-arena-2000-review-is-it-worth-buying"
           ],
           "measurements": [],
           "notes": [
-            "General EXP assignment and wah examples do not establish a pitch-bend target. Generated mirror Q&A and related Mooer FXA/FXB specifications excluded."
+            "General EXP assignment and wah examples do not establish a pitch-bend target. Generated mirror Q&A and related Mooer FXA/FXB specifications excluded.",
+            "November22 follow-up: a customer report hosted on Donner’s US product page describes pedal-controlled downward pitch and asks about polarity/range. This is a user anecdote, not a manufacturer parameter specification or verified two-octave range. The maker blog heading Sound & Pitch discusses general tone, not input polyphony. Metaweb’s owner preset-list PDF returned401; no contents authenticated."
           ]
         },
         "sources": [
@@ -187917,6 +187920,24 @@
             "title": "Arena2000 launch announcement reproduction",
             "access": "opened",
             "evidence": "November 2, 2022 article reproduces manufacturer launch details and explicitly reports current global availability; earliest shipment still unverified."
+          },
+          {
+            "url": "https://us.donnermusic.com/products/donner-multi-effects-pedal-guitar-pedals",
+            "title": "Donner US Arena2000 product and customer reports",
+            "access": "Manufacturer-hosted product page read2026-11-22; customer-authored passage distinguished from maker specifications",
+            "evidence": "Customer describes pedal pitch behavior; no authenticated manufacturer pitch parameters, DSP cost or polyphony. Not promoted to measured/specification evidence."
+          },
+          {
+            "url": "https://us.donnermusic.com/blogs/buying-guides/donner-arena-2000-review-is-it-worth-buying",
+            "title": "Donner Arena2000 buying-guide review",
+            "access": "Maker-hosted blog Sound & Pitch section read2026-11-22",
+            "evidence": "Section concerns general tone/library counts, not a dedicated pitch algorithm specification; heading alone is not polyphony evidence."
+          },
+          {
+            "url": "https://metaweb.de/Dokus/Donner%20Arena%202000/Donner%20Presets.pdf",
+            "title": "Arena2000 owner preset-list recovery lead",
+            "access": "Direct PDF retrieval returned4012026-11-22",
+            "evidence": "Contents and claimed firmware label not authenticated; excluded from algorithm/range/version claims."
           }
         ],
         "duration": null,
@@ -187990,6 +188011,92 @@
                 "title": "Donner Arena2000 original operating manual",
                 "access": "Manufacturer-authored 19-page PDF mirror; original text, not host FAQ",
                 "evidence": "150 locations; save CTRL/EXP with presets; reorderable categories; firmware updates via editor; no complete pitch algorithm/range/polyphony list."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          },
+          {
+            "model_key": "Donner::Arena2000",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2022-11-02",
+              "precision": "day",
+              "kind": "manufacturer_announcement_and_availability_proxy",
+              "source_urls": [
+                "https://www.donnermusic.com/es-ES/articles/news_donner-launches-the-feature-packed-arena2000-digital-multi-effects-processor",
+                "https://www.musicconnection.com/donner-launches-arena2000-effects-processor/"
+              ],
+              "note": "Manufacturer launch announcement explicitly dated November 2, 2022; same-day reproduction says globally available now. This is a dated announcement/available-by proxy, not proof of the exact earliest customer shipment. Earlier manual filenames are not launch evidence."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "unverified",
+              "source_urls": [
+                "https://eu.donnermusic.com/pages/download",
+                "https://drive.google.com/file/d/1HotOSFOmBnq_7ycy6zelK8ese-85dCf7/view?ths=true",
+                "https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf"
+              ],
+              "note": "Update via Donner Control is documented, but no authenticated current pedal-firmware version/date or changelog found. Generic Donner Control v1.4.5 and linked Donner Control Setup V1.0.1.exe are editor versions, not pedal firmware. No elapsed update span calculable."
+            },
+            "pitch": {
+              "status": "unverified",
+              "algorithms": "Original operating manual lacks a complete algorithm list. Pitch/Octave names in unauthenticated owner compilations are recovery leads only; ranges, continuous bend and input polyphony remain unverified.",
+              "preset": "150 locations, 50 banks × 3; saving tone/CTRL/EXP to a preset documented. Separate protected factory/user allocation and initial fill unverified.",
+              "dsp": "Manufacturer specifies ten simultaneous reorderable blocks. Per-pitch block allocation, concurrent pitch choices and CPU percentage unverified; ten blocks is not a 10% pitch cost.",
+              "source_urls": [
+                "https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf",
+                "https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal"
+              ],
+              "measurements": [],
+              "notes": [
+                "General EXP assignment and wah examples do not establish a pitch-bend target. Generated mirror Q&A and related Mooer FXA/FXB specifications excluded."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.donnermusic.com/en-US/products/arena2000",
+                "title": "Donner Arena2000 official product",
+                "access": "Direct manufacturer HTML",
+                "evidence": "150 presets; editable control architecture and USB recording; no current firmware changelog."
+              },
+              {
+                "url": "https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal",
+                "title": "Donner Arena2000 manufacturer specification",
+                "access": "Direct manufacturer German product/specification table",
+                "evidence": "Launch 2022; ten simultaneous blocks, reorderable."
+              },
+              {
+                "url": "https://eu.donnermusic.com/pages/download",
+                "title": "Donner official downloads",
+                "access": "Direct manufacturer HTML; dynamic product links absent from extracted text",
+                "evidence": "Arena2000 support category and Generic Donner Control v1.4.5; editor not pedal firmware."
+              },
+              {
+                "url": "https://drive.google.com/file/d/1HotOSFOmBnq_7ycy6zelK8ese-85dCf7/view?ths=true",
+                "title": "Manufacturer-linked Donner Control installer",
+                "access": "Manufacturer product link resolves to Google Drive filename",
+                "evidence": "Donner Control Setup V1.0.1.exe is desktop installer, not proof of device firmware version."
+              },
+              {
+                "url": "https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf",
+                "title": "Donner Arena2000 original operating manual",
+                "access": "Manufacturer-authored 19-page PDF mirror; original text, not host FAQ",
+                "evidence": "150 locations; save CTRL/EXP with presets; reorderable categories; firmware updates via editor; no complete pitch algorithm/range/polyphony list."
+              },
+              {
+                "url": "https://www.donnermusic.com/es-ES/articles/news_donner-launches-the-feature-packed-arena2000-digital-multi-effects-processor",
+                "title": "Donner Arena2000 launch announcement",
+                "access": "indexed_manufacturer_article_text; direct page cache miss",
+                "evidence": "Manufacturer announcement carries explicit November 02, 2022 Los Angeles dateline and introduces Arena2000. Indexed source text corroborated by same-day announcement reproduction."
+              },
+              {
+                "url": "https://www.musicconnection.com/donner-launches-arena2000-effects-processor/",
+                "title": "Arena2000 launch announcement reproduction",
+                "access": "opened",
+                "evidence": "November 2, 2022 article reproduces manufacturer launch details and explicitly reports current global availability; earliest shipment still unverified."
               }
             ],
             "duration": null,
@@ -215523,8 +215630,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Flamma::FG200",
-    "last_commit_parent": "a7542700234a4208db7b7071b59217fb3124e1cf",
+    "last_model": "Donner::Arena2000",
+    "last_commit_parent": "a3364cae87335484bfb10787be7d97383aa716db",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
