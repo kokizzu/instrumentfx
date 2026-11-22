@@ -25,6 +25,7 @@ HOSTS = {'flammainnovation.com', 'www.flammainnovation.com', 'downloads.eventide
 
 # Exact retailer-hosted manufacturer manual linked by the BG300 distributor.
 REVIEWED_MIRRORS = {
+    "https://res.hotoneaudio.com/prod/support/Ampero%20II_Effect%20List_EN_Firmware%20V1.4.0.1785406941890.pdf",
     "https://data.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf",
     "https://usa.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf",
     'https://data.yamaha.com/files/download/other_assets/3/333323/magicstomp_acoustic_en3.pdf',
@@ -296,7 +297,7 @@ def decode_release_note(data):
 
 def check_index_url(url):
     parsed = urllib.parse.urlsplit(url)
-    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com', 'cn.mooeraudio.com', 'erokmusic.com', 'www.eventideaudio.com', 'flammainnovation.com', 'www.flammainnovation.com') or url in RELEASE_NOTE_URLS or (parsed.hostname == 'line6.com' and parsed.path in ('/software/index.html', '/company/images/', '/effects-pedals/resources/')))
+    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com', 'cn.mooeraudio.com', 'erokmusic.com', 'www.eventideaudio.com', 'flammainnovation.com', 'www.flammainnovation.com') or url in RELEASE_NOTE_URLS or (parsed.hostname == 'www.hotone.com' and parsed.path == '/support/1') or (parsed.hostname == 'line6.com' and parsed.path in ('/software/index.html', '/company/images/', '/effects-pedals/resources/')))
     assert not parsed.username and not parsed.password and parsed.port in (None, 443)
     if parsed.path == '/wp-admin/admin-ajax.php':
         assert parsed.hostname == 'www.valeton.net'
@@ -367,6 +368,7 @@ def inspect_index():
 
 
 def test():
+    check_index_url('https://www.hotone.com/support/1?pid=102&tid=1')
     assert source_limit(REVIEWED_LARGE_PDF) == 144 * 1024 * 1024
     assert source_limit(REVIEWED_LARGE_PDF + '?other=1') == LIMIT
     assert source_limit('https://www.fmicassets.com/other.pdf') == LIMIT
