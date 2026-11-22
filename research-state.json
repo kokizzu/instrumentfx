@@ -213496,11 +213496,36 @@
             "sha256": "cb0f4e28226f5330d97cbefab4b27909722a9ca18398f9e002e7f75811be05c6"
           }
         }
+      },
+      "Zoom::708II": {
+        "model_key": "Zoom::708II",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-708ii-bass-2707206.jpeg",
+            "source_url": "https://en.audiofanzine.com/bass-multi-effect/zoom/708-II-Bass/",
+            "caption": "708II control face",
+            "note": "Visually checked complete708II BASS overhead with slight perspective; displays/LEDs unlit. Four front rotary controls, fifteen front keys and two footswitches, plus expression treadle. Rear OUTPUT knob separate. A real powered overhead photo remains pending; visible unlit segments are not an active patch or firmware reading.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": true,
+            "sha256": "5bc344a53369574e758b746c29b2544feb31ca6dac7f79906a4756530271e1e3"
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-708ii-bass-2707211.jpeg",
+            "source_url": "https://en.audiofanzine.com/bass-multi-effect/zoom/708-II-Bass/",
+            "caption": "708II rear connectors",
+            "note": "Visually checked matching708II BASS tilted view exposing rear: AUX IN, INPUT, recessed DC9V, card-slot cover, POWER switch, shared OUTPUT(PHONES), OUTPUT rotary. All audio/power connectors visible from above; socket labels low contrast, card contacts hidden. No separate headphones/USB/MIDI shown. Unconnected and unlit.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "c776739ca3e861efa3b904c130883c827ff5543126c8c69e118e42be095c3313"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::707II"
+    "last_model": "Zoom::708II"
   }
 }

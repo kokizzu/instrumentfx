@@ -745,6 +745,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::708II ends -->
 
+<!-- model-images:Zoom::708II begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**708II control face**
+
+[![708II control face](https://medias.audiofanzine.com/images/normal/zoom-708ii-bass-2707206.jpeg)](https://medias.audiofanzine.com/images/normal/zoom-708ii-bass-2707206.jpeg)
+
+[Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/708-II-Bass/). Visually checked complete708II BASS overhead with slight perspective; displays/LEDs unlit. Four front rotary controls, fifteen front keys and two footswitches, plus expression treadle. Rear OUTPUT knob separate. A real powered overhead photo remains pending; visible unlit segments are not an active patch or firmware reading.
+
+**708II rear connectors**
+
+[![708II rear connectors](https://medias.audiofanzine.com/images/normal/zoom-708ii-bass-2707211.jpeg)](https://medias.audiofanzine.com/images/normal/zoom-708ii-bass-2707211.jpeg)
+
+[Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/708-II-Bass/). Visually checked matching708II BASS tilted view exposing rear: AUX IN, INPUT, recessed DC9V, card-slot cover, POWER switch, shared OUTPUT(PHONES), OUTPUT rotary. All audio/power connectors visible from above; socket labels low contrast, card contacts hidden. No separate headphones/USB/MIDI shown. Unconnected and unlit.
+
+</details>
+<!-- model-images:Zoom::708II ends -->
+
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**, partial. Bass-specific processor; separate from707II guitar and original708. Evidence from its own manufacturer Operation Manual.
 
