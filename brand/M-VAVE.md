@@ -820,7 +820,7 @@ Original source blobs, in model order: TANK-G `7292950b71ecd203a7fc17d7646b3b142
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Manufacturer New Product Release video located, but exact publication date was not established in current access. Previously recorded January 2025 FCC manual exhibit is regulatory evidence, not a verified first-sale or introduction date. [launch 1](https://www.youtube.com/watch?v=MuOlmMLJsrw) [launch 2](https://fccid.io/2ARCP-MINI-X/User-Manual/User-manual-7998955) |
+| Firmware / first hardware release | 2024-12-20 (manufacturer new-product announcement; exact first shipment unconfirmed). M-VAVE’s New Product Release--MINI-X video is indexed as published December 20, 2024, on the manufacturer channel. This dates the public new-product announcement; exact first shipment is not established. A second manufacturer video follows December 24; the January 2025 FCC exhibit is later regulatory evidence, not the launch date. [launch 1](https://www.youtube.com/watch?v=MuOlmMLJsrw) |
 | Firmware / latest verification | Not verified — No public firmware located. Current manufacturer download index has no MINI-X firmware entry or model-specific updater support. Exact product detail currently returns shell. No public device firmware version/date found; USB OTG recording and generic third-party update advice do not establish an update path. This is not a claim that internal firmware is absent or permanently unupdateable. [firmware 1](https://www.m-vave.com/download) [firmware 2](https://www.m-vave.com/product?id=mini-x) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -837,7 +837,7 @@ Sources checked:
 - [Manufacturer MINI-X detail](https://www.m-vave.com/product?id=mini-x) — No firmware/date conclusion from inaccessible detail body. (Direct opening returns navigation/footer shell).
 - [MINI-X importer operating manual English page 2](https://www.manualslib.com/manual/4380601/M-Vave-Mini-X.html?page=2) — Technical table and introduction; independent provenance from original Sinco filing. (DanMusicPartner-authored exact-model manual on ManualsLib; text read).
 - [MINI-X importer operating manual English page 3](https://www.manualslib.com/manual/4380601/M-Vave-Mini-X.html?page=3) — Nine amp positions, three MOD and SPACE modes; MASTER excludes BT; no pitch or patch-bank feature. (Exact-model numbered controls/effect description read).
-- [M-VAVE MINI-X new-product release video](https://www.youtube.com/watch?v=MuOlmMLJsrw) — Release lead only, not accepted as a dated first launch. (Manufacturer title indexed; exact date unresolved; direct fetch fails).
+- [M-VAVE MINI-X new-product release video](https://www.youtube.com/watch?v=MuOlmMLJsrw) — By M-VAVE, published 2024-12-20, titled New Product Release--MINI-X. Establishes public announcement date, not exact first shipment. (Indexed original manufacturer video publication metadata checked 2026-11-22; direct page retrieval fails).
 - [Previously recorded Sinco MINI-X FCC manual exhibit](https://fccid.io/2ARCP-MINI-X/User-Manual/User-manual-7998955) — January 2025 regulatory exhibit is not launch date. (Historical verified provenance retained; not reopened as manual pages this pass).
 
 <!-- firmware-pitch:M-VAVE::MINI-X ends -->

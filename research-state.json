@@ -199503,14 +199503,13 @@
         "model_key": "M-VAVE::MINI-X",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first hardware release unverified",
+          "date": "2024-12-20",
+          "precision": "day",
+          "kind": "manufacturer new-product announcement; exact first shipment unconfirmed",
           "source_urls": [
-            "https://www.youtube.com/watch?v=MuOlmMLJsrw",
-            "https://fccid.io/2ARCP-MINI-X/User-Manual/User-manual-7998955"
+            "https://www.youtube.com/watch?v=MuOlmMLJsrw"
           ],
-          "note": "Manufacturer New Product Release video located, but exact publication date was not established in current access. Previously recorded January 2025 FCC manual exhibit is regulatory evidence, not a verified first-sale or introduction date."
+          "note": "M-VAVE’s New Product Release--MINI-X video is indexed as published December 20, 2024, on the manufacturer channel. This dates the public new-product announcement; exact first shipment is not established. A second manufacturer video follows December 24; the January 2025 FCC exhibit is later regulatory evidence, not the launch date."
         },
         "firmware": {
           "version": null,
@@ -199567,8 +199566,8 @@
           {
             "url": "https://www.youtube.com/watch?v=MuOlmMLJsrw",
             "title": "M-VAVE MINI-X new-product release video",
-            "access": "Manufacturer title indexed; exact date unresolved; direct fetch fails",
-            "evidence": "Release lead only, not accepted as a dated first launch."
+            "access": "Indexed original manufacturer video publication metadata checked 2026-11-22; direct page retrieval fails",
+            "evidence": "By M-VAVE, published 2024-12-20, titled New Product Release--MINI-X. Establishes public announcement date, not exact first shipment."
           },
           {
             "url": "https://fccid.io/2ARCP-MINI-X/User-Manual/User-manual-7998955",
@@ -199578,7 +199577,90 @@
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "M-VAVE::MINI-X",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first hardware release unverified",
+              "source_urls": [
+                "https://www.youtube.com/watch?v=MuOlmMLJsrw",
+                "https://fccid.io/2ARCP-MINI-X/User-Manual/User-manual-7998955"
+              ],
+              "note": "Manufacturer New Product Release video located, but exact publication date was not established in current access. Previously recorded January 2025 FCC manual exhibit is regulatory evidence, not a verified first-sale or introduction date."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.m-vave.com/download",
+                "https://www.m-vave.com/product?id=mini-x"
+              ],
+              "note": "Current manufacturer download index has no MINI-X firmware entry or model-specific updater support. Exact product detail currently returns shell. No public device firmware version/date found; USB OTG recording and generic third-party update advice do not establish an update path. This is not a claim that internal firmware is absent or permanently unupdateable."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Exact-model operating description enumerates nine amp tones, Chorus/Phaser/Tremolo MOD and Reverb/Delay/Delay+Reverb SPACE. No dedicated transpose, harmony, octave or configurable pitch-shifting effect documented. Chorus modulation is not evidence of chord transposition; polyphonic pitch tracking and shift ranges are inapplicable to the established library.",
+              "preset": "Panel-controlled amp/MOD/SPACE selection; nine amp positions are not nine saved multi-effect presets. No addressable patch bank or pitch preset established, and power-off retention remains unverified. No external expression path documented.",
+              "dsp": "No per-effect DSP resource meter, percentage, pitch cost or latency measurement found. Fixed amp/modulation/ambience stages are not freely assignable heavy-effect slots. No sibling 40% system-performance claim transferred.",
+              "source_urls": [
+                "https://www.manualslib.com/manual/4380601/M-Vave-Mini-X.html?page=2",
+                "https://www.manualslib.com/manual/4380601/M-Vave-Mini-X.html?page=3"
+              ],
+              "measurements": [],
+              "notes": [
+                "Importer-authored 25-page MINI-X manual mirror, English pp2–3, now exposes complete numbered controls and technical table as text. This supplements rather than reclassifies earlier Sinco FCC evidence; no new original-FCC visual verification.",
+                "Importer table states 84.5×44.5×40 mm L×W×H, 65 g, 780mAh/3.7V, about100mA, 44.1kHz/24-bit, quarter-inch TS input and eighth-inch stereo output. Revision equivalence and USB operation remain untested.",
+                "MASTER explicitly excludes Bluetooth music in this importer manual. No generated retailer FAQ used to establish firmware/IR support, no device test or application installation."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.m-vave.com/download",
+                "title": "Current M-VAVE software and firmware index",
+                "access": "Official complete index read as text",
+                "evidence": "No MINI-X firmware entry or explicit compatible updater located."
+              },
+              {
+                "url": "https://www.m-vave.com/product?id=mini-x",
+                "title": "Manufacturer MINI-X detail",
+                "access": "Direct opening returns navigation/footer shell",
+                "evidence": "No firmware/date conclusion from inaccessible detail body."
+              },
+              {
+                "url": "https://www.manualslib.com/manual/4380601/M-Vave-Mini-X.html?page=2",
+                "title": "MINI-X importer operating manual English page 2",
+                "access": "DanMusicPartner-authored exact-model manual on ManualsLib; text read",
+                "evidence": "Technical table and introduction; independent provenance from original Sinco filing."
+              },
+              {
+                "url": "https://www.manualslib.com/manual/4380601/M-Vave-Mini-X.html?page=3",
+                "title": "MINI-X importer operating manual English page 3",
+                "access": "Exact-model numbered controls/effect description read",
+                "evidence": "Nine amp positions, three MOD and SPACE modes; MASTER excludes BT; no pitch or patch-bank feature."
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=MuOlmMLJsrw",
+                "title": "M-VAVE MINI-X new-product release video",
+                "access": "Manufacturer title indexed; exact date unresolved; direct fetch fails",
+                "evidence": "Release lead only, not accepted as a dated first launch."
+              },
+              {
+                "url": "https://fccid.io/2ARCP-MINI-X/User-Manual/User-manual-7998955",
+                "title": "Previously recorded Sinco MINI-X FCC manual exhibit",
+                "access": "Historical verified provenance retained; not reopened as manual pages this pass",
+                "evidence": "January 2025 regulatory exhibit is not launch date."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "M-VAVE::Pocket Amp": {
         "model_key": "M-VAVE::Pocket Amp",
@@ -213104,8 +213186,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Sonicake::Black Hammer QCE-30",
-    "last_commit_parent": "ba702972d8faf97e56509d7b5a2c85f330b8f495",
+    "last_model": "M-VAVE::MINI-X",
+    "last_commit_parent": "83b319cce4970e79517fe71e5b67b37ae69cc06d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
