@@ -1748,6 +1748,31 @@ Global analog volume, held-position/output coverage, actual M-VAVE wiring and qu
 
 ## GP-100
 
+<!-- firmware-pitch:Valeton::GP-100 begins -->
+### Firmware and pitch audit — Valeton GP-100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2020-05-28 (official public introduction; first shipment unresolved). Official Introducing the NEW Valeton GP-100 video indexed May28,2020. Public introduction, not independently verified first retail shipment. [launch 1](https://www.youtube.com/watch?v=cdU4BzpxLaw) |
+| Firmware / latest verification | 2.1 — Located; latest status unverified. Highest numbered exact-model official package located is GP-100 Firmware V2.1.zip,1.39MB. Page Created/Updated13-07-2026 are repository metadata, not independently verified device release date. No binary/update executed. Dynamic download inventory prevents an exhaustive latest-version guarantee; software/editor numbers are separate. [firmware 1](https://www.valeton.net/wpfd_file/gp-100-firmware-v2-1-zip/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Firmware1.8 manufacturer manual explicitly labels OCTA polyphonic octave and Pitch/P-Bend polyphonic pitch shifter/harmonizer. Pitch shows H-Pitch0..+24 and L-Pitch0..-24; printed higher/lower prose is reversed relative to signs. MOD includes Detune/Vibrato. [pitch 1](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) [pitch 2](https://www.valeton.net/product/gp-100/) |
+| Pitch / preset recall | 99 user+99 factory patches; PRE offers OCTA,Pitch or P-Bend alternatives, not three independent PRE slots. Expression assignments documented for parameters; no measured switching/latency claim. |
+| Pitch / DSP resources | No per-pitch CPU percentage published in checked sources. Nine simultaneous modules is a structural limit, not1/9 CPU per effect. Manual notes resource-heavy patches can overload with Global EQ; no pitch-specific cost derived. |
+| Pitch / qualifications | Pitch/polyphony evidence is explicitly firmware1.8 documentation, not a freshly inspected2.1 effect library or hands-on chord test. P-Bend printed endpoints0..+12 and0..-12 use ambiguous one-notes wording; do not silently reinterpret as a verified semitone range. Polyphonic label does not establish latency, chord quality or DSP percentage. Preserve historical140+/150/153 menu-count conflicts rather than treating them as current2.1 totals. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Valeton official GP-100 introduction](https://www.youtube.com/watch?v=cdU4BzpxLaw) — Published May28,2020; public introduction. (web indexed official video metadata).
+- [Valeton official GP-100 Firmware V2.1 package page](https://www.valeton.net/wpfd_file/gp-100-firmware-v2-1-zip/) — V2.1 offered;1.39MB;Created/Updated13-07-2026 repository fields, not verified release chronology. (web page read).
+- [Manufacturer GP-100 firmware1.8 English manual hosted by Thomann](https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf) — OCTA,Pitch,P-Bend explicitly polyphonic; signed Pitch/P-Bend ranges and conflicting higher/lower prose. Prior retained manual records Global EQ overload boundary; no pitch CPU percentage. (manufacturer PDF indexed effect-table text read; direct fetch timed out; retained prior full-manual evidence).
+- [Valeton GP-100 official product](https://www.valeton.net/product/gp-100/) — Nine simultaneous modules,99user+99factory patches and editor; current page140+ claim retained apart from firmware1.8 census. (web page read).
+
+<!-- firmware-pitch:Valeton::GP-100 ends -->
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- VALETON-GP-100 source begins -->

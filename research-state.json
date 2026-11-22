@@ -203195,10 +203195,76 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::GP-100": {
+        "model_key": "Valeton::GP-100",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2020-05-28",
+          "precision": "day",
+          "kind": "official public introduction; first shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=cdU4BzpxLaw"
+          ],
+          "note": "Official Introducing the NEW Valeton GP-100 video indexed May28,2020. Public introduction, not independently verified first retail shipment."
+        },
+        "firmware": {
+          "version": "2.1",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.valeton.net/wpfd_file/gp-100-firmware-v2-1-zip/"
+          ],
+          "note": "Highest numbered exact-model official package located is GP-100 Firmware V2.1.zip,1.39MB. Page Created/Updated13-07-2026 are repository metadata, not independently verified device release date. No binary/update executed. Dynamic download inventory prevents an exhaustive latest-version guarantee; software/editor numbers are separate."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Firmware1.8 manufacturer manual explicitly labels OCTA polyphonic octave and Pitch/P-Bend polyphonic pitch shifter/harmonizer. Pitch shows H-Pitch0..+24 and L-Pitch0..-24; printed higher/lower prose is reversed relative to signs. MOD includes Detune/Vibrato.",
+          "preset": "99 user+99 factory patches; PRE offers OCTA,Pitch or P-Bend alternatives, not three independent PRE slots. Expression assignments documented for parameters; no measured switching/latency claim.",
+          "dsp": "No per-pitch CPU percentage published in checked sources. Nine simultaneous modules is a structural limit, not1/9 CPU per effect. Manual notes resource-heavy patches can overload with Global EQ; no pitch-specific cost derived.",
+          "source_urls": [
+            "https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf",
+            "https://www.valeton.net/product/gp-100/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Pitch/polyphony evidence is explicitly firmware1.8 documentation, not a freshly inspected2.1 effect library or hands-on chord test.",
+            "P-Bend printed endpoints0..+12 and0..-12 use ambiguous one-notes wording; do not silently reinterpret as a verified semitone range.",
+            "Polyphonic label does not establish latency, chord quality or DSP percentage. Preserve historical140+/150/153 menu-count conflicts rather than treating them as current2.1 totals."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=cdU4BzpxLaw",
+            "title": "Valeton official GP-100 introduction",
+            "access": "web indexed official video metadata",
+            "evidence": "Published May28,2020; public introduction."
+          },
+          {
+            "url": "https://www.valeton.net/wpfd_file/gp-100-firmware-v2-1-zip/",
+            "title": "Valeton official GP-100 Firmware V2.1 package page",
+            "access": "web page read",
+            "evidence": "V2.1 offered;1.39MB;Created/Updated13-07-2026 repository fields, not verified release chronology."
+          },
+          {
+            "url": "https://images.thomann.de/pics/atg/atgdata/document/manual/488027_en.pdf",
+            "title": "Manufacturer GP-100 firmware1.8 English manual hosted by Thomann",
+            "access": "manufacturer PDF indexed effect-table text read; direct fetch timed out; retained prior full-manual evidence",
+            "evidence": "OCTA,Pitch,P-Bend explicitly polyphonic; signed Pitch/P-Bend ranges and conflicting higher/lower prose. Prior retained manual records Global EQ overload boundary; no pitch CPU percentage."
+          },
+          {
+            "url": "https://www.valeton.net/product/gp-100/",
+            "title": "Valeton GP-100 official product",
+            "access": "web page read",
+            "evidence": "Nine simultaneous modules,99user+99factory patches and editor; current page140+ claim retained apart from firmware1.8 census."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::GP-100",
       "Valeton::GP-150",
       "Valeton::GP-180",
       "Valeton::GP-200",
@@ -203292,12 +203358,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 310,
-    "last_model": "Valeton::Dapper VES-1",
-    "last_commit_parent": "8040b6959d730b5215270bb8aa86402c246b8b0d",
+    "completed_model_count": 311,
+    "last_model": "Valeton::GP-100",
+    "last_commit_parent": "05b0f0c4beaddf35ee78b488268bf4a268263d31",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::GP-100",
       "Valeton::GP-150",
       "Valeton::GP-180",
       "Valeton::GP-200",
@@ -203390,7 +203455,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 310,
+    "pitch_completed_model_count": 311,
     "supplemental_model_count": 0
   },
   "model_images": {
