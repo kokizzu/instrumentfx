@@ -10113,6 +10113,30 @@ Direct-EXP position/range/recall are inapplicable to this inventory. OUTPUT knob
 
 ## RFX-2200
 
+<!-- firmware-pitch:Zoom::RFX-2200 begins -->
+### Firmware and pitch audit — Zoom RFX-2200
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2004 (manufacturer product-history year). Manufacturer product history lists RFX-2200 under 2004; exact retail month/day unverified. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Archived manufacturer downloads list manuals only. No public device-firmware package, version or dated update found; this is not proof that internal firmware was never revised. [firmware 1](https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2200) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH stereo shifter: 0–24 semitones with separate up/down direction, fine adjustment −10…+10 (unit not specified in table). PIT-DLY places shifting in the delay feedback loop, with Pitch Goal −12…+12 semitones. Neither description establishes polyphonic input tracking. [pitch 1](https://zoomcorp.com/media/documents/E_RFX2200.pdf) |
+| Pitch / preset recall | 100 writable patches store effect settings and mix. STORE is required; switching patches without saving loses edits. MIDI program changes recall patches; control changes and bulk dump support editing and backups. |
+| Pitch / DSP resources | Selects fixed single or combined programs from six banks (48 types), rather than allocating arbitrary DSP blocks. No per-pitch CPU percentage or user DSP-budget meter documented. RFX-2000 EXTRA editor-bank features are not assumed for RFX-2200. |
+| Pitch / qualifications | Stereo and feedback pitch effects do not prove chord tracking; documentation only. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom product history](https://ir.zoom.co.jp/en/corporate/history/) — RFX-2200 appears under 2004. (manufacturer history inspected).
+- [RFX-2200 archived downloads](https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2200) — Manuals listed; no firmware package offered. (official page inspected).
+- [RFX-2200 operation manual](https://zoomcorp.com/media/documents/E_RFX2200.pdf) — PITCH 0–24 semitones with direction and fine adjustment; PIT-DLY feedback pitch. 100 writable patches, explicit STORE, MIDI recall/control/dump; fixed programs, no polyphony claim or DSP cost. (official 28-page PDF inspected).
+
+<!-- firmware-pitch:Zoom::RFX-2200 ends -->
+
 Checked2026-10-17;partial. Separate discontinued rack multi-effects,notRFX-2000. [Manufacturer][R2200-P]. Ownership unverified;guitar/vocal classification from ownmanual,not marketplace title. Bass suitability unresolved.
 
 | Field | Evidence / qualification |
