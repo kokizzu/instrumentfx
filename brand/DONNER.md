@@ -106,11 +106,11 @@ Remaining:exact firmware,complete algorithms/ranges,display andelectrical rating
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | 2022 (manufacturer launch year). Manufacturer specification explicitly gives 2022 launch; exact month/day unverified. Manual filename is not used as launch date. [launch 1](https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal) |
+| Firmware / first hardware release | 2022-11-02 (manufacturer announcement and availability proxy). Manufacturer launch announcement explicitly dated November 2, 2022; same-day reproduction says globally available now. This is a dated announcement/available-by proxy, not proof of the exact earliest customer shipment. Earlier manual filenames are not launch evidence. [launch 1](https://www.donnermusic.com/es-ES/articles/news_donner-launches-the-feature-packed-arena2000-digital-multi-effects-processor) [launch 2](https://www.musicconnection.com/donner-launches-arena2000-effects-processor/) |
 | Firmware / latest verification | Not verified — Unverified. Update via Donner Control is documented, but no authenticated current pedal-firmware version/date or changelog found. Generic Donner Control v1.4.5 and linked Donner Control Setup V1.0.1.exe are editor versions, not pedal firmware. No elapsed update span calculable. [firmware 1](https://eu.donnermusic.com/pages/download) [firmware 2](https://drive.google.com/file/d/1HotOSFOmBnq_7ycy6zelK8ese-85dCf7/view?ths=true) [firmware 3](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
-| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
 | Pitch / note handling | Unverified. Original operating manual lacks a complete algorithm list. Pitch/Octave names in unauthenticated owner compilations are recovery leads only; ranges, continuous bend and input polyphony remain unverified. [pitch 1](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) [pitch 2](https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal) |
 | Pitch / preset recall | 150 locations, 50 banks × 3; saving tone/CTRL/EXP to a preset documented. Separate protected factory/user allocation and initial fill unverified. |
 | Pitch / DSP resources | Manufacturer specifies ten simultaneous reorderable blocks. Per-pitch block allocation, concurrent pitch choices and CPU percentage unverified; ten blocks is not a 10% pitch cost. |
@@ -124,6 +124,8 @@ Sources checked:
 - [Donner official downloads](https://eu.donnermusic.com/pages/download) — Arena2000 support category and Generic Donner Control v1.4.5; editor not pedal firmware. (Direct manufacturer HTML; dynamic product links absent from extracted text).
 - [Manufacturer-linked Donner Control installer](https://drive.google.com/file/d/1HotOSFOmBnq_7ycy6zelK8ese-85dCf7/view?ths=true) — Donner Control Setup V1.0.1.exe is desktop installer, not proof of device firmware version. (Manufacturer product link resolves to Google Drive filename).
 - [Donner Arena2000 original operating manual](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf) — 150 locations; save CTRL/EXP with presets; reorderable categories; firmware updates via editor; no complete pitch algorithm/range/polyphony list. (Manufacturer-authored 19-page PDF mirror; original text, not host FAQ).
+- [Donner Arena2000 launch announcement](https://www.donnermusic.com/es-ES/articles/news_donner-launches-the-feature-packed-arena2000-digital-multi-effects-processor) — Manufacturer announcement carries explicit November 02, 2022 Los Angeles dateline and introduces Arena2000. Indexed source text corroborated by same-day announcement reproduction. (indexed_manufacturer_article_text; direct page cache miss).
+- [Arena2000 launch announcement reproduction](https://www.musicconnection.com/donner-launches-arena2000-effects-processor/) — November 2, 2022 article reproduces manufacturer launch details and explicitly reports current global availability; earliest shipment still unverified. (opened).
 
 <!-- firmware-pitch:Donner::Arena2000 ends -->
 
