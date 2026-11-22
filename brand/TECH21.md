@@ -273,6 +273,26 @@ Sources checked:
 
 <!-- firmware-pitch:Tech 21::Fly Rig 5 v2 ends -->
 
+<!-- model-images:Tech 21::Fly Rig 5 v2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Near-overhead v2 manufacturer control-face image with lit knobs and tuner indication.**
+
+[![Near-overhead v2 manufacturer control-face image with lit knobs and tuner indication.](https://www.tech21nyc.com/wp-content/uploads/2019/04/flyrig5_v2-1024x230.png)](https://www.tech21nyc.com/wp-content/uploads/2019/04/flyrig5_v2-1024x230.png)
+
+[Image source](https://www.tech21nyc.com/products/flyrig/flyrig5/). Visually 13 rotary controls, 5 footswitches and 7 small pushbuttons. Stock cutout shows illuminated controls and tuner C/green indication; independently powered hardware is unverified. Slight perspective, not strict perpendicular overhead. No bass octave-divider or acoustic chorus controls inferred.
+
+**Angled v2 connector and XLR-end view.**
+
+[![Angled v2 connector and XLR-end view.](https://stangguitars.com/cdn/shop/products/Tech21-FlyRig5-V2-2_1024x1024.jpg?v=1570475393)](https://stangguitars.com/cdn/shop/products/Tech21-FlyRig5-V2-2_1024x1024.jpg?v=1570475393)
+
+[Image source](https://stangguitars.com/products/tech-21-fly-rig-5-v2). Unlit stock photograph shows quarter-inch IN at far left, SEND, RETURN, OUT, 9V DC center-negative socket and male XLR on adjacent end. Current draw is not printed legibly here. This combined view covers more than the long edge alone; no hidden USB/EXP absence claim or hardware test.
+
+</details>
+<!-- model-images:Tech 21::Fly Rig 5 v2 ends -->
+
+
 Version 2 only; original Fly Rig 5 and RK5 are distinct. Checked 2026-10-17; partial. Manufacturer manual OM3, ©2019, revision12/20.
 
 | Field | Finding / qualification | Evidence |
