@@ -3915,6 +3915,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GX-10 ends -->
 
+<!-- model-images:BOSS::GX-10 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**GX-10 control face**
+
+[![GX-10 control face](https://static.roland.com/products/gx-10/image/gx-10_gal_01.jpg)](https://static.roland.com/products/gx-10/image/gx-10_gal_01.jpg)
+
+[Image source](https://www.boss.info/global/products/gx-10/). Manufacturer complete straight-down control face with active color effects-chain screen, blue footswitch indicators and EXP1 status shown. Six rotary controls, six panel buttons, three footswitches and full expression pedal visible. Promotional screen/illumination is not independently verified.
+
+**GX-10 rear connections**
+
+[![GX-10 rear connections](https://static.roland.com/products/gx-10/image/gx-10_gal_03.jpg)](https://static.roland.com/products/gx-10/image/gx-10_gal_03.jpg)
+
+[Image source](https://www.boss.info/global/products/gx-10/). Manufacturer complete rear panel: INPUT, OUTPUT R and L/MONO, PHONES, SEND, RETURN, CTL2,3/EXP2, covered optional BT-DUAL connector, USB-C, power switch and DC IN. Ground terminal and security slot visible. Bluetooth adapter is optional, not a built-in exposed USB socket.
+
+</details>
+<!-- model-images:BOSS::GX-10 ends -->
+
+
 Consolidated and refreshed2026-10-16;partial technical verification. Original dates/contradictions retained. Historical next-model notes below are provenance;current queue is in research-state.json.
 
 <!-- BOSS-GX-10 source begins -->
