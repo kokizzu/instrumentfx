@@ -188977,16 +188977,15 @@
       },
       "Flamma::FG200": {
         "model_key": "Flamma::FG200",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2025-02-25",
+          "precision": "day",
+          "kind": "manufacturer announcement; first regional shipment unresolved",
           "source_urls": [
-            "https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf",
-            "https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes"
+            "https://flammainnovation.com/single.html?id=153"
           ],
-          "note": "No authenticated hardware launch date located. V01/2025-03-12 and V02.05.06 are document revisions, not first-sales dates; retailer September2025 availability is regional, not a global launch. Exact FG200 FCC record2BA4I-FG200 has April17,2025 original-equipment action; regulatory approval is not launch/shipment evidence."
+          "note": "Manufacturer FG200 announcement is datelined Shenzhen, China – February 25th and explicitly describes its 2025 product range. Date is an announcement proxy, not first regional delivery. Original-equipment FCC approval in April 2025 and later retailer availability remain separate evidence; manual revision dates are not launch dates."
         },
         "firmware": {
           "version": "1.2.5",
@@ -189044,9 +189043,19 @@
             "title": "FCC2BA4I-FG200 original-equipment record mirror",
             "access": "Exact-model regulatory entry indexed2026-11-22",
             "evidence": "Applicant Shenzhen Flamma Innovation; April17,2025 action. Certification date retained separately, not adopted as hardware launch."
+          },
+          {
+            "url": "https://flammainnovation.com/single.html?id=153",
+            "title": "FLAMMA FG200 manufacturer announcement, February 25 2025",
+            "access": "Indexed manufacturer article content read; direct HTML returned dynamic empty shell",
+            "evidence": "Dateline February25; opening paragraph explicitly places latest FG200 in2025. Seven modules and40presets identify exact guitar model, notFB200. Announcement date adopted,firstshipment unverified."
           }
         ],
-        "duration": null,
+        "duration": {
+          "minimum_days": 153,
+          "maximum_days": 153,
+          "label": "0.42 years"
+        },
         "audit_format": "firmware-pitch-v1",
         "prior_audits": [
           {
@@ -189112,6 +189121,80 @@
                 "title": "FG200 manufacturer product page",
                 "access": "Direct maker page; unrelated template content excluded",
                 "evidence": "40memories and Live/Preset modes; fixed module library and own identity; no launch dateline."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          },
+          {
+            "model_key": "Flamma::FG200",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf",
+                "https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes"
+              ],
+              "note": "No authenticated hardware launch date located. V01/2025-03-12 and V02.05.06 are document revisions, not first-sales dates; retailer September2025 availability is regional, not a global launch. Exact FG200 FCC record2BA4I-FG200 has April17,2025 original-equipment action; regulatory approval is not launch/shipment evidence."
+            },
+            "firmware": {
+              "version": "1.2.5",
+              "date": "2025-07-28",
+              "precision": "day",
+              "status": "latest_located",
+              "source_urls": [
+                "https://www.flamma.shop/pages/manual",
+                "https://flammainnovation.com/download.html"
+              ],
+              "note": "Newest explicitly dated FG200 firmware changelog located. Adds Gate compression and adjusts switching/noise/preset levels;1.2.1 June9,2025 adds14Boost models and preset-mode delay tap. Catalogue now lists Windows1.2.8 and Mac1.2.6 installers: application labels alone do not authenticate newer pedal firmware. Current latest-device version unverified; FB2001.0.1 is separate. Rechecked November22,2026: the shop firmware section still explicitly labels1.2.5 latest with July28 date; global download HTML returned only the dynamic catalogue shell, not evidence of a newer device release."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Own complete effect tables contain no dedicated transposer, harmonizer, octave shifter or polyphonic retuning. Vibrato varies pitch cyclically; chorus, ring modulation and filtering do not establish selectable note-tracked pitch shift. Located firmware additions are Boost/Gate/control changes, not pitch algorithms.",
+              "preset": "40 writable preset slots; exact factory-filled subset unknown. Preset mode recalls stored settings; Live mode exposes module controls. No second40factory bank inferred.",
+              "dsp": "Seven named fixed modules: Gate,Boost,Amp,Cab,Mod,Delay,Reverb. Effect choices and14added Boost models are library counts, not independent slots. No per-effect CPU percentage, pitch allocation or freely insertable pitch block documented.",
+              "source_urls": [
+                "https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf",
+                "https://www.flamma.shop/pages/manual",
+                "https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes"
+              ],
+              "measurements": [],
+              "notes": [
+                "FG200 guitar model remains separate from bass FB200. Original5Boost inventory predates14additions; these cannot be treated as additional simultaneous DSP blocks."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.flamma.shop/pages/manual",
+                "title": "FLAMMA FG200 device firmware changelog",
+                "access": "Direct manufacturer support page rechecked2026-11-22; exact FG200 firmware heading and dated latest label read",
+                "evidence": "Device1.2.5 July28,2025;1.2.1 June9,2025; automatic update prompt. Not FB200 notes."
+              },
+              {
+                "url": "https://flammainnovation.com/download.html",
+                "title": "FLAMMA current download catalogue",
+                "access": "Indexed current maker download list",
+                "evidence": "FG200 Windows1.2.8 and Mac1.2.6 installer names; not dated authenticated pedal versions."
+              },
+              {
+                "url": "https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf",
+                "title": "FG200 own English owner manual",
+                "access": "Direct31-page maker PDF, titleV02.05.06;printed10–13/18/26–27",
+                "evidence": "Seven modules,40presets; original effects inventory without dedicated transposition."
+              },
+              {
+                "url": "https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes",
+                "title": "FG200 manufacturer product page",
+                "access": "Direct maker page; unrelated template content excluded",
+                "evidence": "40memories and Live/Preset modes; fixed module library and own identity; no launch dateline."
+              },
+              {
+                "url": "https://fccid.io/2BA4I-FG200",
+                "title": "FCC2BA4I-FG200 original-equipment record mirror",
+                "access": "Exact-model regulatory entry indexed2026-11-22",
+                "evidence": "Applicant Shenzhen Flamma Innovation; April17,2025 action. Certification date retained separately, not adopted as hardware launch."
               }
             ],
             "duration": null,
@@ -216124,8 +216207,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Flamma::FX20",
-    "last_commit_parent": "13874004c6b9fa99f6f7e9137eeeaecc9f174f29",
+    "last_model": "Flamma::FG200",
+    "last_commit_parent": "776cc95bd66ab997a9558f315b218a91d786232f",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
