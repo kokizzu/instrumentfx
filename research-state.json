@@ -215634,11 +215634,36 @@
             "sha256": "0c228e82c80d04823baf5d0047eafa7eb85378d458afe800c9b38dcc887f9e74"
           }
         }
+      },
+      "Zoom::G1Xnext": {
+        "model_key": "Zoom::G1Xnext",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1XN_top.jpg",
+            "source_url": "https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g1xn-guitar-effects-pedal",
+            "caption": "G1XN Next top control layout",
+            "note": "Official full overhead G1XN Next photograph shows the built-in treadle, two rotary controls, four pushbuttons and two footswitches. Red display reads A0 and the WAH/EFX indicator is lit, but this is promotional photography; an independently documented actual powered top-down photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": true,
+            "sha256": "9f346e5a5757b4c49ba93e2e64b5ce47c13e9a14f30d7a22f9568a561acad044"
+          },
+          "rear": {
+            "image_url": "https://i.ebayimg.com/images/g/ifsAAOSwMIVlnLXs/s-l400.jpg",
+            "source_url": "https://www.ebay.com/itm/285645273174",
+            "caption": "G1XN Next rear connections",
+            "note": "Actual G1XN Next rear photograph shows INPUT, shared OUTPUT/PHONES and DC9V 300mA power socket across the complete connector panel. No third audio jack, tuner output, USB or external CONTROL IN appears. The listing image is 400 pixels wide; connector identity agrees with the exact-model manual.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "0410ce232eb993da2298ccb6aab855049dc032df7c50171450d22b5178e989c9"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G1X FOUR"
+    "last_model": "Zoom::G1Xnext"
   }
 }

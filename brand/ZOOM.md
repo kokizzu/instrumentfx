@@ -4118,6 +4118,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G1Xnext ends -->
 
+<!-- model-images:Zoom::G1Xnext begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G1XN Next top control layout**
+
+[![G1XN Next top control layout](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1XN_top.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1XN_top.jpg)
+
+[Image source](https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g1xn-guitar-effects-pedal). Official full overhead G1XN Next photograph shows the built-in treadle, two rotary controls, four pushbuttons and two footswitches. Red display reads A0 and the WAH/EFX indicator is lit, but this is promotional photography; an independently documented actual powered top-down photograph remains pending.
+
+**G1XN Next rear connections**
+
+[![G1XN Next rear connections](https://i.ebayimg.com/images/g/ifsAAOSwMIVlnLXs/s-l400.jpg)](https://i.ebayimg.com/images/g/ifsAAOSwMIVlnLXs/s-l400.jpg)
+
+[Image source](https://www.ebay.com/itm/285645273174). Actual G1XN Next rear photograph shows INPUT, shared OUTPUT/PHONES and DC9V 300mA power socket across the complete connector panel. No third audio jack, tuner output, USB or external CONTROL IN appears. The listing image is 400 pixels wide; connector identity agrees with the exact-model manual.
+
+</details>
+<!-- model-images:Zoom::G1Xnext ends -->
+
+
 G1XN / G1XNext; guitar multi-effects, checked2026-10-17; partial. Not G1Xon or G1X FOUR. The [official manual][G1XN-O] indexes the next-family cover and G1N/G1XN body. Direct PDF reading exceeded the tool limit. [Manufacturer manual text on Manualzz][G1XN-M] has matching contents, G1XN-specific panels and footer **G1N/G1XN-5000-1**; publication date unestablished. Generated overview claims of100effects/68presets are disregarded.
 
 | Field | Evidence / gaps |
