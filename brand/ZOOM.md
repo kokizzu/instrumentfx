@@ -356,6 +356,30 @@ Checked 2026-10-19 against [own manual pp18,21](https://zoomcorp.com/media/docum
 
 ## 606
 
+<!-- firmware-pitch:Zoom::606 begins -->
+### Firmware and pitch audit — Zoom 606
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2001 (manufacturer product-history release year). Zoom timeline lists 606 GUITAR in 2001; exact announcement/first shipment day unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model support page lists operation manual; no public device firmware package/changelog located. Published connectors contain no USB/MIDI update interface. Internal ROM revisions are not excluded; latest system revision/date unknown. Factory patch recall and pedal calibration are not firmware updates. [firmware 1](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/606/606-support/) [firmware 2](https://zoomcorp.com/media/documents/E_606.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH SHIFT P1–P9 includes octave-down/up, fifth-down, fourth-up, detune, dual-voice and chorus-combined patterns. SLOW ATTACK→PITCH fixes +1 octave. PEDAL PITCH L1:0→−100 cents; L2:0→+1 octave; L3:0→+2 octaves; L4:0→−1 octave; L5:0→−2 octaves. Additional L6–L9 special sweeps exist. Multiple voices do not prove polyphonic input. [pitch 1](https://zoomcorp.com/media/documents/E_606.pdf) |
+| Pitch / preset recall | 42 factory-filled rewritable patches (7 banks ×6), not 42+42. PEDAL PITCH needs MOD/PITCH assignment via PEDAL ASSIGN; merely selecting the type is insufficient. Assignment/module states save per patch; bypass uses volume. No global volume-only override established. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Eight modules/up to nine simultaneous effects are fixed architecture limits, not freely assignable pitch blocks or a CPU percentage. Pitch alternatives share MOD/PITCH. |
+| Pitch / qualifications | Own 606 manual scope, not607. No physical tracking or resource-load measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — 606 GUITAR listed under 2001. (official 2001 product group read).
+- [Zoom 606 support page](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/606/606-support/) — Operation manual listed; no public device firmware package/changelog found. (official Documents section inspected).
+- [Zoom 606 Guitar operation manual](https://zoomcorp.com/media/documents/E_606.pdf) — P1–P9 patterns, L1–L5 pedal ranges, assignment requirement and fixed architecture; no pitch polyphony guarantee or DSP%. (official PDF pedal, memory, effect-chain and printed pp34–36 pitch sections read).
+
+<!-- firmware-pitch:Zoom::606 ends -->
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->

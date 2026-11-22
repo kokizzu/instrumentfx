@@ -205654,10 +205654,68 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::606": {
+        "model_key": "Zoom::606",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2001",
+          "precision": "year",
+          "kind": "manufacturer product-history release year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Zoom timeline lists 606 GUITAR in 2001; exact announcement/first shipment day unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/jp/multi-effects/guitar-effects/606/606-support/",
+            "https://zoomcorp.com/media/documents/E_606.pdf"
+          ],
+          "note": "Exact-model support page lists operation manual; no public device firmware package/changelog located. Published connectors contain no USB/MIDI update interface. Internal ROM revisions are not excluded; latest system revision/date unknown. Factory patch recall and pedal calibration are not firmware updates."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PITCH SHIFT P1–P9 includes octave-down/up, fifth-down, fourth-up, detune, dual-voice and chorus-combined patterns. SLOW ATTACK→PITCH fixes +1 octave. PEDAL PITCH L1:0→−100 cents; L2:0→+1 octave; L3:0→+2 octaves; L4:0→−1 octave; L5:0→−2 octaves. Additional L6–L9 special sweeps exist. Multiple voices do not prove polyphonic input.",
+          "preset": "42 factory-filled rewritable patches (7 banks ×6), not 42+42. PEDAL PITCH needs MOD/PITCH assignment via PEDAL ASSIGN; merely selecting the type is insufficient. Assignment/module states save per patch; bypass uses volume. No global volume-only override established.",
+          "dsp": "No per-pitch DSP percentage published. Eight modules/up to nine simultaneous effects are fixed architecture limits, not freely assignable pitch blocks or a CPU percentage. Pitch alternatives share MOD/PITCH.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_606.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Own 606 manual scope, not607. No physical tracking or resource-load measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official 2001 product group read",
+            "evidence": "606 GUITAR listed under 2001."
+          },
+          {
+            "url": "https://zoomcorp.com/en/jp/multi-effects/guitar-effects/606/606-support/",
+            "title": "Zoom 606 support page",
+            "access": "official Documents section inspected",
+            "evidence": "Operation manual listed; no public device firmware package/changelog found."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_606.pdf",
+            "title": "Zoom 606 Guitar operation manual",
+            "access": "official PDF pedal, memory, effect-chain and printed pp34–36 pitch sections read",
+            "evidence": "P1–P9 patterns, L1–L5 pedal ranges, assignment requirement and fixed architecture; no pitch polyphony guarantee or DSP%."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::606",
       "Zoom::607",
       "Zoom::707II",
       "Zoom::708II",
@@ -205717,12 +205775,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 344,
-    "last_model": "Zoom::506II",
-    "last_commit_parent": "9df3edcca3c5a0c425185328271f5bc5a9478efe",
+    "completed_model_count": 345,
+    "last_model": "Zoom::606",
+    "last_commit_parent": "496af68dec891d2b9d18dc3f534d97cc471af15b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::606",
       "Zoom::607",
       "Zoom::707II",
       "Zoom::708II",
@@ -205781,7 +205838,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 344,
+    "pitch_completed_model_count": 345,
     "supplemental_model_count": 0
   },
   "model_images": {
