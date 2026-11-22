@@ -886,7 +886,7 @@ This resolves the earlier missing item identifier,**not condition,variant conten
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Maker calls FX50 a new arrival but provides no datelined launch/first sale. Manual2023-12-23 is documentation age, not verified hardware introduction. [launch 1](https://flammainnovation.com/goods/support?goodsName=FX50) [launch 2](https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects) |
+| Firmware / first hardware release | 2024-06-20 (retailer-reported model release; worldwide first sale unconfirmed). SchoolMusic’s exact FX-50 listing explicitly labels June 20, 2024 as the same-model release date (not manufacture date). This is a retailer-reported date with regional/global scope unresolved, not manufacturer confirmation of first worldwide shipment. The December 23, 2023 manual revision predates this listing but is documentation age rather than independently proven retail availability. [launch 1](https://www.schoolmusic.co.kr/Shop/index.php3?Good_no=62807&var=Good&version=pc) |
 | Firmware / latest verification | Not verified — No public firmware located. Exact maker record has attachments[] and one V01 manual; no numbered device firmware, changelog or public updater found. Manual revision is not firmware. Original PDF link recovered, but current web retrieval fails; no fresh PDF inspection claimed. Undocumented internal/service firmware is not ruled out. [firmware 1](https://flammainnovation.com/goods/support?goodsName=FX50) [firmware 2](https://flammainnovation.com/download.html) [firmware 3](https://flammainnovation.com/file/pdf?fileName=FX50_Manual_EN_V01_2023.12.23.pdf&url=group1%2FM00%2F00%2F0D%2FwKgA0GXXDimATGtxBjIQttIRPpo382.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -903,6 +903,7 @@ Sources checked:
 - [FLAMMA FX50 own store](https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects) — Five modules/15types,16preset+16user,40rhythms and battery/DC options; no firmware history. (Direct maker product page).
 - [FLAMMA download catalogue](https://flammainnovation.com/download.html) — FX50 manual V01/2023-12-23 only; no public updater entry located. (Current indexed manufacturer catalogue).
 - [FX50 current original manual link](https://flammainnovation.com/file/pdf?fileName=FX50_Manual_EN_V01_2023.12.23.pdf&url=group1%2FM00%2F00%2F0D%2FwKgA0GXXDimATGtxBjIQttIRPpo382.pdf) — Document identity only; original text/pixels not newly inspected. Not a firmware or launch date. (Exact URL recovered from maker support metadata; web reader inaccessible).
+- [SchoolMusic Flamma FX-50 Green exact-model listing](https://www.schoolmusic.co.kr/Shop/index.php3?Good_no=62807&var=Good&version=pc) — 동일모델의 출시년월 (제조일자 아님): 2024년 06월 20일. Explicit retailer-reported model release date; global first shipment not established. (Original retailer release-date field read in indexed page 2026-11-22).
 
 <!-- firmware-pitch:Flamma::FX50 ends -->
 
