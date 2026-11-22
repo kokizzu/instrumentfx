@@ -219269,11 +219269,36 @@
             "sha256": "f78d6f6a2b35ed851401cec7a1b9dd02b16a33abfb582a07c24ea972115de733"
           }
         }
+      },
+      "BOSS::ME-70": {
+        "model_key": "BOSS::ME-70",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.bajaao.com/cdn/shop/files/roland-guitar-processors-boss-me-70-guitar-multi-effects-processor-1176356238.jpg?v=1768275532",
+            "source_url": "https://www.bajaao.com/products/boss-me-70-guitar-multi-effects-processor",
+            "caption": "BOSS ME-70 — powered-on top view",
+            "note": "Retailer-hosted straight-down promotional image with active red 70 display, section and footswitch indicators, full rotary sections, five panel buttons, four footswitches and complete expression pedal. The left enclosure edge touches the image boundary, but controls remain visible. Powered-on appearance is visible; independent operating-state verification is unavailable.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "a1fe875e33b43880ebc9569569e32840739a52cac46c385463e47094a4fa5216"
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/boss-me-70-6640596.jpeg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-70/",
+            "caption": "BOSS ME-70 — rear connections",
+            "note": "Actual user photograph showing the complete rear panel and labels: GUITAR INPUT with POWER ON marking, Gt. AMP OUTPUT R/L-MONO, REC OUT/PHONES, miniature AUX IN, PREAMP/REVERB ON/OFF and BANK UP/DOWN footswitch jack, DC IN for PSA adaptor, cord restraint and security slot.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "01e4ab4a0aecb9042198f59c002a0233676ba2740ffe9d3fb2a6d87b8e6974d8"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-80"
+    "last_model": "BOSS::ME-70"
   }
 }
