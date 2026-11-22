@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "requested_url": "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20One_Online%C2%A0Manual_EN_Firmware%20V3.1.1773037044207.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 31,
+    "frame": 25,
     "text_pages": [
-      30,
-      31
+      9,
+      15
     ],
     "index_url": "https://www.hotone.com/support/1?pid=54&tid=17",
     "index_needle": "Firmware V2.2",
@@ -180305,7 +180305,7 @@
       },
       "Hotone::Ampero One MP-80": {
         "model_key": "Hotone::Ampero One MP-80",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "first_release": {
           "date": "2020-01-03",
           "precision": "day",
@@ -180328,16 +180328,16 @@
         },
         "pitch": {
           "status": "documented_polyphonic",
-          "algorithms": "Original V1.1 manual explicitly describes Harmony as a polyphonic pitch shifter/harmonizer, plus polyphonic Clean Octa and Dirty Octa. This confirms those algorithms, not a current dedicated virtual-capo or HQ implementation.",
-          "preset": "Yes: V1.1 SAVE section p14 stores effect parameters and control information. Unsaved changes are lost on patch change/power-off. Current 3.1 behavior has not been physically tested.",
-          "dsp": "Exact MP-80 pitch-block percentage not found in checked sources. Original manual p8 warns that heavy processing can trigger System Overload; fixed module limits are not CPU percentages. Do not transfer MP-300 HQ 50% to MP-80 Harmony.",
+          "algorithms": "V3.1 manual pp23–24 explicitly lists polyphonic Pitch Shift (±24 semitones), Harmony, Clean Octa and Dirty Octa; Classic PS is monophonic. Pitch Shift exposes Pitch, Volume, Position and Dry, with expression-pedal assignment. Harmony retains reversed higher/lower wording beside Hi 0…+24 and Low 0…−24. These are exact MP-80 algorithms, not Ampero II HQ features.",
+          "preset": "V3.1 SAVE p14 stores effect parameters, control information and other editable settings. Unsaved control changes are lost on patch change/power-off (p9). No physical recall test.",
+          "dsp": "V3.1 p9 warns of System Overload under heavy processing. No isolated MP-80 pitch-block DSP percentage established. Module counts are not utilization measurements; Ampero II Stomp HQ 50% does not apply to One.",
           "source_urls": [
-            "https://manualzz.com/doc/80504239/hotone-ampero-one-user-manual"
+            "https://manualzz.com/doc/80504239/hotone-ampero-one-user-manual",
+            "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20One_Online%C2%A0Manual_EN_Firmware%20V3.1.1773037044207.pdf"
           ],
           "measurements": [],
           "notes": [
-            "Classification is based on the original manufacturer V1.1 manuscript on a mirror; generated FAQs excluded. Firmware 3.1 algorithm retention/complete pitch inventory remains unverified.",
-            "Polyphonic Harmony does not independently prove clean full-wet whole-chord transposition, tracking quality or latency."
+            "Current official MP-80 V3.1 manual retrieved through Hotone’s alternate manufacturer download host; cover/revision and p24 pitch table visually/textually checked. This resolves the original-manual-only inventory gap. Polyphony is documented, not an audio-quality or latency benchmark."
           ]
         },
         "sources": [
@@ -180364,6 +180364,12 @@
             "title": "Original Ampero One V1.1 manual",
             "evidence": "Manufacturer manuscript: Harmony and octave polyphony, SAVE p14, overload p8; FAQs excluded.",
             "access": "manufacturer_manuscript_on_mirror"
+          },
+          {
+            "url": "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20One_Online%C2%A0Manual_EN_Firmware%20V3.1.1773037044207.pdf",
+            "title": "Ampero One MP-80 V3.1 official manual",
+            "access": "opened_official_pdf_text_and_render",
+            "evidence": "34,456,904-byte PDF; title MP-80(Ampero One), firmware V3.1 cover. SHA256 6f55600a5d4d6483b0c1aeac90bb371918179dc7d1feb5f1bf1381410a61b240. Printed pp9,14,23–24 read; p24 visually inspected. res.hotoneaudio.com endpoint stalled; alternate Hotone OSS host retrieved."
           }
         ],
         "duration": {
@@ -180371,7 +180377,79 @@
           "maximum_days": 2257,
           "label": "6.18 years"
         },
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Hotone::Ampero One MP-80",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": "2020-01-03",
+              "precision": "day",
+              "kind": "manufacturer_announcement_proxy",
+              "source_urls": [
+                "https://www.youtube.com/watch?v=9Wy6bbSxkbw"
+              ],
+              "note": "Official HotoneAudio introduction metadata dates the MP-80 announcement January 3, 2020. This is an announcement proxy, not a verified first worldwide customer shipment."
+            },
+            "firmware": {
+              "version": "3.1",
+              "date": "2026-03-09",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://www.hotone.com/support/2",
+                "https://www.hotone.jp/announcements/ampero-sound-clone-release"
+              ],
+              "note": "Current manufacturer index lists One 3.1; exact-model Japanese release notes date it March 9, 2026. Sound Clone import and Match30 Clean added. Original Ampero 5.2, Mini 2.2 and editor versions are separate."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "Original V1.1 manual explicitly describes Harmony as a polyphonic pitch shifter/harmonizer, plus polyphonic Clean Octa and Dirty Octa. This confirms those algorithms, not a current dedicated virtual-capo or HQ implementation.",
+              "preset": "Yes: V1.1 SAVE section p14 stores effect parameters and control information. Unsaved changes are lost on patch change/power-off. Current 3.1 behavior has not been physically tested.",
+              "dsp": "Exact MP-80 pitch-block percentage not found in checked sources. Original manual p8 warns that heavy processing can trigger System Overload; fixed module limits are not CPU percentages. Do not transfer MP-300 HQ 50% to MP-80 Harmony.",
+              "source_urls": [
+                "https://manualzz.com/doc/80504239/hotone-ampero-one-user-manual"
+              ],
+              "measurements": [],
+              "notes": [
+                "Classification is based on the original manufacturer V1.1 manuscript on a mirror; generated FAQs excluded. Firmware 3.1 algorithm retention/complete pitch inventory remains unverified.",
+                "Polyphonic Harmony does not independently prove clean full-wet whole-chord transposition, tracking quality or latency."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.youtube.com/watch?v=9Wy6bbSxkbw",
+                "title": "HotoneAudio MP-80 introduction",
+                "evidence": "Manufacturer video published 2020-01-03; announcement proxy only.",
+                "access": "indexed_manufacturer_video_metadata"
+              },
+              {
+                "url": "https://www.hotone.com/support/2",
+                "title": "Hotone device firmware index",
+                "evidence": "Exact One device firmware 3.1 listed, with editor compatibility separately labelled.",
+                "access": "opened"
+              },
+              {
+                "url": "https://www.hotone.jp/announcements/ampero-sound-clone-release",
+                "title": "Hotone Japan original-series firmware release",
+                "evidence": "Exact One 3.1 section explicitly dated 2026-03-09; separate from original Ampero and Mini versions.",
+                "access": "opened"
+              },
+              {
+                "url": "https://manualzz.com/doc/80504239/hotone-ampero-one-user-manual",
+                "title": "Original Ampero One V1.1 manual",
+                "evidence": "Manufacturer manuscript: Harmony and octave polyphony, SAVE p14, overload p8; FAQs excluded.",
+                "access": "manufacturer_manuscript_on_mirror"
+              }
+            ],
+            "duration": {
+              "minimum_days": 2257,
+              "maximum_days": 2257,
+              "label": "6.18 years"
+            },
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Alesis::MicroVerb 4": {
         "model_key": "Alesis::MicroVerb 4",
@@ -210366,8 +210444,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Hotone::Ampero Mini MP-50",
-    "last_commit_parent": "f50a671656a13265560e0f2e17457ec8028f034f",
+    "last_model": "Hotone::Ampero One MP-80",
+    "last_commit_parent": "62f22fd6e24aaf29aa89f1703b97a8bdd92d4cc0",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

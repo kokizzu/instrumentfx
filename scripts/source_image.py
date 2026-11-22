@@ -25,6 +25,8 @@ HOSTS = {'flammainnovation.com', 'www.flammainnovation.com', 'downloads.eventide
 
 # Exact retailer-hosted manufacturer manual linked by the BG300 distributor.
 REVIEWED_MIRRORS = {
+    "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20One_Online%C2%A0Manual_EN_Firmware%20V3.1.1773037044207.pdf",
+    "https://res.hotoneaudio.com/prod/support/Ampero%20One_Online%C2%A0Manual_EN_Firmware%20V3.1.1773037044207.pdf",
     "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
     "https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stage_Effect%20List_EN_Firmware%20V1.7.0.1784703146951.pdf",
     "https://res.hotoneaudio.com/prod/support/Ampero%20II_Effect%20List_EN_Firmware%20V1.4.0.1785406941890.pdf",
@@ -370,6 +372,23 @@ def inspect_index():
 
 
 def test():
+    import signal
+    import time
+    previous_handler = signal.signal(signal.SIGALRM, source_deadline)
+    try:
+        signal.setitimer(signal.ITIMER_REAL, 0.01)
+        try:
+            try:
+                time.sleep(1)
+            except OSError:
+                raise AssertionError('Network retry handler swallowed total deadline')
+        except SourceDeadlineError as error:
+            assert 'total deadline' in str(error)
+        else:
+            raise AssertionError('Total source deadline did not interrupt blocking work')
+    finally:
+        signal.setitimer(signal.ITIMER_REAL, 0)
+        signal.signal(signal.SIGALRM, previous_handler)
     check_index_url('https://www.hotone.com/support/1?pid=102&tid=1')
     assert source_limit(REVIEWED_LARGE_PDF) == 144 * 1024 * 1024
     assert source_limit(REVIEWED_LARGE_PDF + '?other=1') == LIMIT
@@ -524,5 +543,17 @@ def inspect_firmware_note():
     print(text)
 
 
+class SourceDeadlineError(RuntimeError):
+    pass
+
+
+def source_deadline(signum, frame):
+    raise SourceDeadlineError('Manufacturer source operation exceeded 55-second total deadline')
+
+
 if __name__ == '__main__':
+    if sys.argv[1] in {'plan', 'apply', 'index', 'firmware-note'}:
+        import signal
+        signal.signal(signal.SIGALRM, source_deadline)
+        signal.alarm(55)
     {'plan': plan, 'apply': apply, 'test': test, 'render': render, 'text': extract_text, 'index': inspect_index, 'qr': inspect_qr, 'firmware-note': inspect_firmware_note}[sys.argv[1]]()
