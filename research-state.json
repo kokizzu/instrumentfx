@@ -210763,11 +210763,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Valeton::GP-50": {
+        "model_key": "Valeton::GP-50",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.valeton.net/cdn/shop/files/GP-50_Front_WithScreen_Hi_V01_250928_1445x.png?v=1764741938",
+            "source_url": "https://shop.valeton.net/products/gp-50",
+            "caption": "Official GP-50 control-face stock image",
+            "note": "Visually inspected exact GP-50 control face: four knobs, four small buttons and two footswitches, no built-in treadle. Stock artwork shows screen and blue rings; actual powered-unit photography is unverified. Slight case-edge perspective; strict overhead powered photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "eb557b42bf62d523a265ab7c5a37128bf2da5c4ab7fd3575f98b01b7aa02416d",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://shop.valeton.net/cdn/shop/files/GP-50_Top_Hi_V01_251027_1445x.png?v=1764741938",
+            "source_url": "https://shop.valeton.net/products/gp-50",
+            "caption": "Official GP-50 rear connector-edge stock image",
+            "note": "Visually inspected exact GP-50 rear: PHONES, MIDI IN, MIDI THRU, USB-C and DC9V500mA center-negative marking. Side-mounted quarter-inch connections are only partly visible here; this is the rear row, not a complete readable side-port inventory. TRS MIDI wiring and electrical behavior require manual evidence.",
+            "visual_checked": true,
+            "sha256": "6f24eb95ef3692a4860754fa5b8c109d5256fc39e076a5b74c3415098d3d353e",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-5"
+    "last_model": "Valeton::GP-50"
   }
 }

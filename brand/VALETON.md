@@ -1376,6 +1376,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::GP-50 ends -->
 
+<!-- model-images:Valeton::GP-50 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Official GP-50 control-face stock image**
+
+[![Official GP-50 control-face stock image](https://shop.valeton.net/cdn/shop/files/GP-50_Front_WithScreen_Hi_V01_250928_1445x.png?v=1764741938)](https://shop.valeton.net/cdn/shop/files/GP-50_Front_WithScreen_Hi_V01_250928_1445x.png?v=1764741938)
+
+[Image source](https://shop.valeton.net/products/gp-50). Visually inspected exact GP-50 control face: four knobs, four small buttons and two footswitches, no built-in treadle. Stock artwork shows screen and blue rings; actual powered-unit photography is unverified. Slight case-edge perspective; strict overhead powered photograph remains pending.
+
+**Official GP-50 rear connector-edge stock image**
+
+[![Official GP-50 rear connector-edge stock image](https://shop.valeton.net/cdn/shop/files/GP-50_Top_Hi_V01_251027_1445x.png?v=1764741938)](https://shop.valeton.net/cdn/shop/files/GP-50_Top_Hi_V01_251027_1445x.png?v=1764741938)
+
+[Image source](https://shop.valeton.net/products/gp-50). Visually inspected exact GP-50 rear: PHONES, MIDI IN, MIDI THRU, USB-C and DC9V500mA center-negative marking. Side-mounted quarter-inch connections are only partly visible here; this is the rear row, not a complete readable side-port inventory. TRS MIDI wiring and electrical behavior require manual evidence.
+
+</details>
+<!-- model-images:Valeton::GP-50 ends -->
+
+
 Current comparison summary, reconciled2026-10-28 andupdated2026-11-06 after recovery ofthe manufacturer firmware1.1.0 manual. Selected1.1.0 control/global/hardware findings andthe separate1.1.0 effect-list census are checked directly;older1.0.5 evidence remains revision-qualified. All original bodies, prices, URLs and historical unknowns remain below this selected summary.
 
 <!-- comparison evidence begins -->
