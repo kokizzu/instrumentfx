@@ -203014,10 +203014,72 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::Dapper MDR": {
+        "model_key": "Valeton::Dapper MDR",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first release unresolved",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-mdrdiscontinued/"
+          ],
+          "note": "No first-release date established in checked manufacturer page/manual. Manual181108 is not proof of November8,2018 first shipment."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-mdrdiscontinued/",
+            "https://www.valeton.net/firmware/",
+            "https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf"
+          ],
+          "note": "No exact MDR numbered device firmware release/date or updater identified in checked sources. Manual V01 is not device firmware. Discontinued status and limited dynamic firmware-index extraction do not establish historical absence."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD TREM/VIB III models a BBD-style blue vibrato pedal; other MOD choices include chorus/flanger, phasers/Uni-Vibe and tremolo. Vibrato documents pitch modulation, not a dedicated fixed-interval transposer or harmonizer.",
+          "preset": "Two three-way MOD toggles select one of nine models; LEVEL/DEPTH/RATE/LOW/HIGH control the active model. No programmable pitch preset count or stable semitone range documented.",
+          "dsp": "No vibrato/pitch CPU percentage, DSP meter or per-model block cost published. Nine model choices, delay25–2000ms and electrical150mA do not establish processing usage.",
+          "source_urls": [
+            "https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf",
+            "https://www.valeton.net/product/dapper-mdrdiscontinued/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Pitch-present covers vibrato modulation only; no mono/poly chord-transposition guarantee or note-tracking test established.",
+            "BBD-based describes the modeled reference pedal, not proof of physical BBD hardware inside MDR.",
+            "MOD9+DELAY3+REVERB3 counts alternatives, not15 simultaneous blocks. Product DELAY paragraph mistakenly repeats reverb; manual supplies Pure/Analog/Tape. No hardware/audio or updater tests."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.valeton.net/product/dapper-mdrdiscontinued/",
+            "title": "Valeton Dapper MDR official product",
+            "access": "web page read",
+            "evidence": "MOD9,delay3,reverb3 and discontinued status; duplicated DELAY/reverb text retained as conflict."
+          },
+          {
+            "url": "https://www.valeton.net/firmware/",
+            "title": "Valeton official firmware index",
+            "access": "web text read; dynamic visibility limited",
+            "evidence": "No exact MDR package exposed in extracted text."
+          },
+          {
+            "url": "https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf",
+            "title": "Dapper MDR official English V01_181108 owner manual",
+            "access": "web two-page PDF text read",
+            "evidence": "MOD model list specifies TREM/VIB III vibrato; physical selectors and parameters, delay/reverb alternatives; no input-polyphony claim or DSP cost."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::Dapper MDR",
       "Valeton::Dapper Mini MES-1",
       "Valeton::Dapper VES-1",
       "Valeton::GP-100",
@@ -203114,12 +203176,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 307,
-    "last_model": "Valeton::Dapper Indie",
-    "last_commit_parent": "a6e88933c11351af72e2d608f3731b29b744fd3c",
+    "completed_model_count": 308,
+    "last_model": "Valeton::Dapper MDR",
+    "last_commit_parent": "dfa6edd511d31db2b1270693c366997c47a80269",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::Dapper MDR",
       "Valeton::Dapper Mini MES-1",
       "Valeton::Dapper VES-1",
       "Valeton::GP-100",
@@ -203215,7 +203276,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 307,
+    "pitch_completed_model_count": 308,
     "supplemental_model_count": 0
   },
   "model_images": {

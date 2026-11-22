@@ -727,6 +727,30 @@ AMBIENT hold toggles effect trails; FUZZ WALL hold enters muted tuning. Tap mode
 
 ## Dapper MDR
 
+<!-- firmware-pitch:Valeton::Dapper MDR begins -->
+### Firmware and pitch audit — Valeton Dapper MDR
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No first-release date established in checked manufacturer page/manual. Manual181108 is not proof of November8,2018 first shipment. [launch 1](https://www.valeton.net/product/dapper-mdrdiscontinued/) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact MDR numbered device firmware release/date or updater identified in checked sources. Manual V01 is not device firmware. Discontinued status and limited dynamic firmware-index extraction do not establish historical absence. [firmware 1](https://www.valeton.net/product/dapper-mdrdiscontinued/) [firmware 2](https://www.valeton.net/firmware/) [firmware 3](https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD TREM/VIB III models a BBD-style blue vibrato pedal; other MOD choices include chorus/flanger, phasers/Uni-Vibe and tremolo. Vibrato documents pitch modulation, not a dedicated fixed-interval transposer or harmonizer. [pitch 1](https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf) [pitch 2](https://www.valeton.net/product/dapper-mdrdiscontinued/) |
+| Pitch / preset recall | Two three-way MOD toggles select one of nine models; LEVEL/DEPTH/RATE/LOW/HIGH control the active model. No programmable pitch preset count or stable semitone range documented. |
+| Pitch / DSP resources | No vibrato/pitch CPU percentage, DSP meter or per-model block cost published. Nine model choices, delay25–2000ms and electrical150mA do not establish processing usage. |
+| Pitch / qualifications | Pitch-present covers vibrato modulation only; no mono/poly chord-transposition guarantee or note-tracking test established. BBD-based describes the modeled reference pedal, not proof of physical BBD hardware inside MDR. MOD9+DELAY3+REVERB3 counts alternatives, not15 simultaneous blocks. Product DELAY paragraph mistakenly repeats reverb; manual supplies Pure/Analog/Tape. No hardware/audio or updater tests. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Valeton Dapper MDR official product](https://www.valeton.net/product/dapper-mdrdiscontinued/) — MOD9,delay3,reverb3 and discontinued status; duplicated DELAY/reverb text retained as conflict. (web page read).
+- [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact MDR package exposed in extracted text. (web text read; dynamic visibility limited).
+- [Dapper MDR official English V01_181108 owner manual](https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf) — MOD model list specifies TREM/VIB III vibrato; physical selectors and parameters, delay/reverb alternatives; no input-polyphony claim or DSP cost. (web two-page PDF text read).
+
+<!-- firmware-pitch:Valeton::Dapper MDR ends -->
+
 Checked2026-10-17;partial. Effects-only guitar multi-effects;discontinued. Bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->
