@@ -8,6 +8,31 @@
 
 ## Flybro FB-100
 
+<!-- firmware-pitch:VING::Flybro FB-100 begins -->
+### Firmware and pitch audit — VING Flybro FB-100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Guide V03 date, filing test dates and manufacturer file-path dates are not proof of first commercial release. [launch 1](https://device.report/m/e935ff101992b27286e13876ab8f8bb9eaadef72d6c3e11d17200efe06fe7863_optim.pdf) |
+| Firmware / latest verification | Not verified — Unverified. Current manufacturer site timed out and full manual returned bad gateway. Indexed original Chinese manual documents an About firmware-version display, but no verified latest package, version or release note located. Generic third-party updater advice is not adopted; no BG300 firmware transferred or software run. [firmware 1](https://www.musicving.com/) [firmware 2](https://www.musicving.com/static/upload/file/20250214/1739510269538589.pdf) [firmware 3](https://www.musicving.com/static/upload/file/20250214/1739510370426771.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Unverified. Dedicated pitch-shifting presence, algorithm identity and monophonic/polyphonic handling are not established by the inspected quick guide and bounded original manual text. Effect-category labels and retailer effect totals do not establish chord transposition. [pitch 1](https://device.report/m/e935ff101992b27286e13876ab8f8bb9eaadef72d6c3e11d17200efe06fe7863_optim.pdf) [pitch 2](https://www.musicving.com/static/upload/file/20250214/1739510269538589.pdf) |
+| Pitch / preset recall | 100 locations, 50 factory presets; maximum eight simultaneous effects per original printed guide. Exact factory overwrite rules and pitch-preset behavior remain unverified. |
+| Pitch / DSP resources | No pitch-specific DSP percentage located. Eight-effect ceiling is a structural maximum, not 1/8 CPU allocation; it does not establish pitch cost or all combinations. |
+| Pitch / qualifications | Pitch status remains unknown, not absent. Full current effects inventory was not successfully retrieved; no claim of complete pitch audit or hardware tracking test. Original manufacturer manual text is distinguished from generated diagram descriptions and generic third-party firmware instructions. BG300/rebadge compatibility is not assumed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Manufacturer-filed VING Flybro FB-100 printed guide](https://device.report/m/e935ff101992b27286e13876ab8f8bb9eaadef72d6c3e11d17200efe06fe7863_optim.pdf) — Exact VING/Flybro identity; 100 locations/50 factory, eight simultaneous maximum. V03 is document revision, not firmware. (retained prior two-page original PDF read and visual inspection).
+- [VING manufacturer English long manual](https://www.musicving.com/static/upload/file/20250214/1739510269538589.pdf) — Exact FB-100 control and connector prose; global VOL/effect targets. No verified current firmware release or pitch polyphony established. (indexed original panel/global prose read; full PDF returned bad gateway).
+- [VING manufacturer site](https://www.musicving.com/) — Manufacturer site identifies FB-100; current download inventory not retrievable, so latest firmware remains unverified. (indexed root text; direct root fetch timed out).
+- [VING manufacturer Chinese long manual](https://www.musicving.com/static/upload/file/20250214/1739510370426771.pdf) — About displays firmware version; no exact current version or release chronology established. (indexed original global-settings text read).
+
+<!-- firmware-pitch:VING::Flybro FB-100 ends -->
+
 VING/Flybro FB-100 desktop guitar multi-effects. Consolidated **2026-10-17**; full original model/revision identity,405g/450g and power-source conflicts retained. Shared manufacturer identity does not make this BG300.
 
 <!-- VING-FB-100 source begins -->
