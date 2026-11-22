@@ -179723,7 +179723,7 @@
       },
       "Hotone::Ampero II MP-350": {
         "model_key": "Hotone::Ampero II MP-350",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "first_release": {
           "date": "2024-10",
           "precision": "month",
@@ -179748,11 +179748,12 @@
           "status": "documented_polyphonic",
           "algorithms": "Firmware 1.4.0 effect list pp9–12 explicitly labels Pitch Shift HQ, Pitch Shift, Dual Pitch and Quad Pitch polyphonic with ±24-semitone ranges; String Shifter is a polyphonic virtual capo/down-tuner with ±12 semitones. Digital Octa and Bass Line are polyphonic octavers. Classic PS and Harmony 1/2 are explicitly monophonic. Mono I/O describes audio routing, not single-note tracking. HQ supports Min/Max Pitch, Position (0–100), wet/dry Mix and expression assignment; tracking quality and latency remain unmeasured.",
           "preset": "Yes: the MP-350 V1.0.2 manual, printed p57, documents saving effect parameters, control assignments and scenes. Unsaved edits are lost on patch change. Current 1.4.0 retention of every HQ parameter was not independently tested.",
-          "dsp": "No exact MP-350 pitch percentage located. V1.0.2 manual pp44-45 documents effect-dependent DSP limits and unavailable choices when resources run out. Twelve slots are a ceiling, not twelve arbitrary simultaneous high-cost effects. Do not transfer the MP-300 Stomp's 50% owner observation to MP-350.",
+          "dsp": "No exact MP-350 pitch percentage located. V1.0.2 manual pp44-45 documents effect-dependent DSP limits and unavailable choices when resources run out. Twelve slots are a ceiling, not twelve arbitrary simultaneous high-cost effects. Do not transfer the MP-300 Stomp's 50% owner observation to MP-350. Official firmware 1.2.0 release notes (March 17, 2025) add a DSP utilization display in Stomp Mode > FX Chain View. The display supports checking a patch on the device; the release notes do not publish isolated pitch-algorithm costs.",
           "source_urls": [
             "https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81",
             "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20II_Online%20Manual_EN_Firmware%20V1.0.2.1729149212573.pdf",
-            "https://res.hotoneaudio.com/prod/support/Ampero%20II_Effect%20List_EN_Firmware%20V1.4.0.1785406941890.pdf"
+            "https://res.hotoneaudio.com/prod/support/Ampero%20II_Effect%20List_EN_Firmware%20V1.4.0.1785406941890.pdf",
+            "https://www.hotone.com/news/Sound-Clone%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81Ampero%20%E4%BA%8C%E4%BB%A3%E6%8A%A2%E5%85%88%E4%BD%93%E9%AA%8C"
           ],
           "measurements": [],
           "notes": [
@@ -179802,6 +179803,12 @@
             "title": "MP-350 firmware 1.4.0 effect list",
             "access": "opened_official_pdf_text_and_render",
             "evidence": "1,693,065-byte manufacturer PDF SHA256 f5e18fb9bce8bf355c3ee0cfb5ebc485ba6cd16e85f14314fd02d5e0fcc8137a; printed pp9–12 give model-specific pitch polyphony, ranges and controls; printed p12 HQ table visually inspected. No per-algorithm DSP percentage in these tables."
+          },
+          {
+            "url": "https://www.hotone.com/news/Sound-Clone%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81Ampero%20%E4%BA%8C%E4%BB%A3%E6%8A%A2%E5%85%88%E4%BD%93%E9%AA%8C",
+            "title": "Hotone Sound Clone introduction and Ampero II 1.2.0 release notes",
+            "access": "indexed_manufacturer_release_notes",
+            "evidence": "Exact Ampero II section dates firmware 1.2.0 March 17, 2025 and adds DSP utilization display at Stomp Mode > FX Chain View. Stage 1.4.1, Stomp 2.3.1 and desktop software 1.3.0 are separate sections. No isolated pitch percentage."
           }
         ],
         "duration": {
@@ -179884,6 +179891,96 @@
                 "title": "Exact MP-350 manual index",
                 "access": "opened_index_only",
                 "evidence": "Lists 1.4.0 effect list/manual; current PDF contents not established by listing alone."
+              }
+            ],
+            "duration": {
+              "minimum_days": 637,
+              "maximum_days": 667,
+              "label": "1.74–1.83 years"
+            },
+            "audit_format": "firmware-pitch-v1"
+          },
+          {
+            "model_key": "Hotone::Ampero II MP-350",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2024-10",
+              "precision": "month",
+              "kind": "manufacturer_announcement_month",
+              "source_urls": [
+                "https://www.youtube.com/watch?v=DZyYpvxNJ04"
+              ],
+              "note": "HotoneAudio's introduction video is dated October 23, 2024. October is an announcement-month proxy; the earliest worldwide customer shipment/day is not established. Do not substitute the later Japanese retail date or the Stomp launch."
+            },
+            "firmware": {
+              "version": "1.4.0",
+              "date": "2026-07-30",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://www.hotone.com/support/2",
+                "https://www.hotone.com/news/NAM%20A2%20Now%20Supported%20Across%20the%20Entire%20Ampero%20II%20Series!"
+              ],
+              "note": "Current exact-model index and dated release notes agree. Adds native NAM A2 Lite. Editor 1.5.1 is separate software; installed firmware not inspected."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "Firmware 1.4.0 effect list pp9–12 explicitly labels Pitch Shift HQ, Pitch Shift, Dual Pitch and Quad Pitch polyphonic with ±24-semitone ranges; String Shifter is a polyphonic virtual capo/down-tuner with ±12 semitones. Digital Octa and Bass Line are polyphonic octavers. Classic PS and Harmony 1/2 are explicitly monophonic. Mono I/O describes audio routing, not single-note tracking. HQ supports Min/Max Pitch, Position (0–100), wet/dry Mix and expression assignment; tracking quality and latency remain unmeasured.",
+              "preset": "Yes: the MP-350 V1.0.2 manual, printed p57, documents saving effect parameters, control assignments and scenes. Unsaved edits are lost on patch change. Current 1.4.0 retention of every HQ parameter was not independently tested.",
+              "dsp": "No exact MP-350 pitch percentage located. V1.0.2 manual pp44-45 documents effect-dependent DSP limits and unavailable choices when resources run out. Twelve slots are a ceiling, not twelve arbitrary simultaneous high-cost effects. Do not transfer the MP-300 Stomp's 50% owner observation to MP-350.",
+              "source_urls": [
+                "https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81",
+                "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20II_Online%20Manual_EN_Firmware%20V1.0.2.1729149212573.pdf",
+                "https://res.hotoneaudio.com/prod/support/Ampero%20II_Effect%20List_EN_Firmware%20V1.4.0.1785406941890.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Current 1.4.0 effect-list content inspected directly, resolving the previous index-only gap. Printed pp9–12 read as text; HQ table on printed p12 visually checked. Manufacturer accuracy/stability wording is not an independent performance benchmark. Original manual recall/resource evidence remains revision-qualified; no hardware test.",
+                "Analog Octa 1/2 descriptions say one/two octaves lower, but their Oct2 parameter text says one octave up. Preserve this source inconsistency rather than inferring a corrected interval."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.youtube.com/watch?v=DZyYpvxNJ04",
+                "title": "HotoneAudio Ampero II introduction",
+                "access": "indexed_manufacturer_video_metadata",
+                "evidence": "Official HotoneAudio introduction dated 2024-10-23; establishes announcement month, not exact first shipment."
+              },
+              {
+                "url": "https://www.hotone.com/support/2",
+                "title": "Hotone firmware index",
+                "access": "opened",
+                "evidence": "MP-350 device firmware 1.4.0 listed with desktop editor 1.5.1 separately."
+              },
+              {
+                "url": "https://www.hotone.com/news/NAM%20A2%20Now%20Supported%20Across%20the%20Entire%20Ampero%20II%20Series!",
+                "title": "Hotone NAM A2 release notes",
+                "access": "opened",
+                "evidence": "MP-350 1.4.0 dated July 30, 2026 adds native NAM A2 Lite."
+              },
+              {
+                "url": "https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81",
+                "title": "Hotone Ampero II firmware 1.3.0 notes",
+                "access": "opened",
+                "evidence": "Exact MP-350 section names Pitch Shift HQ as polyphonic, separately from Bass Line octaver."
+              },
+              {
+                "url": "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20II_Online%20Manual_EN_Firmware%20V1.0.2.1729149212573.pdf",
+                "title": "MP-350 original V1.0.2 manual",
+                "access": "opened_official_pdf_text",
+                "evidence": "Printed pp44-45 DSP overload and p57 SAVE explain resource limits and saved parameters."
+              },
+              {
+                "url": "https://www.hotone.com/support/1?pid=102&tid=1",
+                "title": "Exact MP-350 manual index",
+                "access": "opened_index_only",
+                "evidence": "Lists 1.4.0 effect list/manual; current PDF contents not established by listing alone."
+              },
+              {
+                "url": "https://res.hotoneaudio.com/prod/support/Ampero%20II_Effect%20List_EN_Firmware%20V1.4.0.1785406941890.pdf",
+                "title": "MP-350 firmware 1.4.0 effect list",
+                "access": "opened_official_pdf_text_and_render",
+                "evidence": "1,693,065-byte manufacturer PDF SHA256 f5e18fb9bce8bf355c3ee0cfb5ebc485ba6cd16e85f14314fd02d5e0fcc8137a; printed pp9–12 give model-specific pitch polyphony, ranges and controls; printed p12 HQ table visually inspected. No per-algorithm DSP percentage in these tables."
               }
             ],
             "duration": {
@@ -217165,8 +217262,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Hotone::Ampero II Stage MP-380",
-    "last_commit_parent": "a61b42f6ab4e675c80c895843ad7d44bfb545550",
+    "last_model": "Hotone::Ampero II MP-350",
+    "last_commit_parent": "55b395ac814c1ce9d8f04e6859e3f107bb2ea408",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
