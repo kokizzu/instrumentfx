@@ -276,6 +276,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::Dapper Bass Mini MES-2 ends -->
 
+<!-- model-images:Valeton::Dapper Bass Mini MES-2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Near-overhead MES-2 control-face stock image, unlit.**
+
+[![Near-overhead MES-2 control-face stock image, unlit.](https://shop.valeton.net/cdn/shop/files/DapperBassMini_Front_Hi_V01_240517_1500x.png?v=1716192393)](https://shop.valeton.net/cdn/shop/files/DapperBassMini_Front_Hi_V01_240517_1500x.png?v=1716192393)
+
+[Image source](https://shop.valeton.net/products/dapper-bass-mini). Visually 10 rotary controls, 3 footswitches and no separate small buttons visible on this face. CHORUS/BASS AMP/BOOST COMP labeling establishes exact Mini layout. Slight perspective with rear edge visible; strict powered-on overhead remains pending.
+
+**Bass Mini long connector edge: 9V DC, IN, OUT, AUX and headphones.**
+
+[![Bass Mini long connector edge: 9V DC, IN, OUT, AUX and headphones.](https://static.bax-shop.es/image/product/1273487/5190231/5c261a67/171576851056000_56167_5.jpg)](https://static.bax-shop.es/image/product/1273487/5190231/5c261a67/171576851056000_56167_5.jpg)
+
+[Image source](https://www.bax-shop.es/pedales-multiefectos-para-bajo/valeton-dapper-bass-mini-bass-guitar-multi-effect-pedal). Unlit stock view; quarter-inch IN/OUT, smaller AUX/phones and 9V center-negative marking visible. Outer casing edges slightly cropped; XLR is on another end outside this frame. An inspected manufacturer end view confirms male XLR, not a second AUX. Current consumption not legible here.
+
+</details>
+<!-- model-images:Valeton::Dapper Bass Mini MES-2 ends -->
+
+
 A compact bass multi-effects strip, separate from the full-size VES-2. Checked 2026-10-17; partial. Official manual metadata identifies MES-2, V01_231219.
 
 | Field | Finding / qualification | Evidence |
