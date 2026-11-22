@@ -181724,17 +181724,15 @@
       },
       "Behringer::DSP2024P": {
         "model_key": "Behringer::DSP2024P",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2002-07",
+          "precision": "month",
+          "kind": "contemporaneous new-product coverage availability proxy",
           "source_urls": [
-            "https://www.behringer.com/en/products/0828-AAB",
-            "https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf",
-            "https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual"
+            "https://www.mixonline.com/technology/new-digital-effects-processors-370493"
           ],
-          "note": "Exact hardware launch not established. Manufacturer manual v1.1/February2002 and v1.2/September2004 are dated documentation, not launch or firmware releases."
+          "note": "Randy Alberts’ July1,2002 Mix roundup includes the exact DSP2024P among new or significantly upgraded processors released during the preceding18months. July2002 is used as a dated coverage/availability proxy only: the article does not pinpoint the DSP2024P introduction within that interval or first customer shipment. Manual v1.1/February2002 and v1.2/September2004 remain documentation dates, not launch or firmware releases."
         },
         "firmware": {
           "version": null,
@@ -181780,10 +181778,81 @@
             "title": "Behringer DSP2024P exact legacy product page",
             "access": "indexed_manufacturer_product_text",
             "evidence": "Legacy DSP2024P identity;no dated firmware history or launch date established."
+          },
+          {
+            "url": "https://www.mixonline.com/technology/new-digital-effects-processors-370493",
+            "title": "Randy Alberts: New Digital Effects Processors, Mix, July1,2002",
+            "access": "Contemporaneous original trade roundup opened; exact model and publication date read",
+            "evidence": "Names DSP2024P in roundup of processors released or significantly upgraded within18months since January2001 NAMM. Supports July2002 coverage/availability proxy, not exact launch or firmware revision."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Behringer::DSP2024P",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.behringer.com/en/products/0828-AAB",
+                "https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf",
+                "https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual"
+              ],
+              "note": "Exact hardware launch not established. Manufacturer manual v1.1/February2002 and v1.2/September2004 are dated documentation, not launch or firmware releases."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.behringer.com/en/products/0828-AAB",
+                "https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf",
+                "https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual"
+              ],
+              "note": "No dated public DSP2024P firmware release/updater located in checked legacy page/manuals and targeted firmware searches. Manual1.1/1.2 are not ROM versions; SysEx preset transfer does not establish firmware updating. Installed ROM and service-only revisions remain unverified."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "PITCH SHIFTER supports stereo/two-/three-voice arrangements; Pitch & Reverb and Pitch & Delay combinations also documented. Pitch parameters include semitone/cent adjustment. Input-note polyphony and exact interval limits remain unverified; generated voice count is not chord-tracking proof.",
+              "preset": "100 internal plus100 writable user presets. Manual p23: STORE twice saves edits; last-used preset restored at power-up. New preset activation takes about1second, so seamless pitch switching is not established. Printed inclusive index ranges conflict with stated counts; do not infer202 memories.",
+              "dsp": "71 algorithms include11 fixed combinations (61–71), not71 simultaneous blocks. Combination routing offers SER1/SER2/PARA; this is dual-engine structure, not per-pitch CPU cost or arbitrary duplicate slots. No DSP percentage or numerical pitch-specific exclusion found.",
+              "source_urls": [
+                "https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf",
+                "https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual"
+              ],
+              "measurements": [],
+              "notes": [
+                "Stereo pitch processing and multiple output voices are distinguished from polyphonic source-note handling. No FX2000/DSP1024P firmware or Ampero resource measurement transferred."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf",
+                "title": "Behringer DSP2024P User Manual v1.1, February2002",
+                "access": "manufacturer_manuscript_on_public_mirror; text_only",
+                "evidence": "Printed p12 pitch voices;p18–19 pitch combinations;p23 save/recall/activation;p25 dual-engine routing. Manual dates not assigned to firmware."
+              },
+              {
+                "url": "https://manuzoid.com/manuals/4n6mr-Behringer%20DSP2024P%20User%20manual",
+                "title": "Behringer DSP2024P User Manual v1.2, September2004 readable manuscript",
+                "access": "manufacturer_manuscript_on_public_mirror; text_only",
+                "evidence": "Exact model/revision and corresponding pitch/combination description;mirror chatbot and summaries excluded."
+              },
+              {
+                "url": "https://www.behringer.com/en/products/0828-AAB",
+                "title": "Behringer DSP2024P exact legacy product page",
+                "access": "indexed_manufacturer_product_text",
+                "evidence": "Legacy DSP2024P identity;no dated firmware history or launch date established."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Behringer::FX2000": {
         "model_key": "Behringer::FX2000",
@@ -211222,8 +211291,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Behringer::FX2000",
-    "last_commit_parent": "f69e6bbae1c016944427961892616a036701587d",
+    "last_model": "Behringer::DSP2024P",
+    "last_commit_parent": "5d164a8eb4f2d3fed5564d03937354b9dc8b9d7c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
