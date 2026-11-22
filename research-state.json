@@ -202562,10 +202562,72 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::Dapper Acoustic Mini": {
+        "model_key": "Valeton::Dapper Acoustic Mini",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first release unresolved",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-acoustic-mini/"
+          ],
+          "note": "Current manufacturer page has no first-release date. V01_170213 is a manual identifier, not proof of February 13, 2017 shipment; catalog indexing and demo publication dates are not promoted to first release."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-acoustic-mini/",
+            "https://www.valeton.net/firmware/",
+            "https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf"
+          ],
+          "note": "No exact-model numbered firmware package, release date or updater identified in checked manufacturer product/manual/firmware pages. Firmware index extraction may omit dynamically loaded entries, so this does not prove updates never existed. Manual V01 is not device firmware1.0."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Exact-model effect inventory is compressor, preamp/three-band EQ/notch filter and hall-style reverb, plus muted chromatic tuner. No pitch transposer, octave or harmony effect documented.",
+          "preset": "Physical module controls and footswitches; no programmable pitch presets documented.",
+          "dsp": "No pitch algorithm or pitch DSP resource cost documented. 140mA electrical consumption is not CPU percentage or DSP headroom.",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-acoustic-mini/",
+            "https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Tuner sharp/flat detection indicates tuning accuracy; it does not shift the audio or establish correction/harmony.",
+            "No documented pitch effect means mono/poly pitch tracking is not established; do not substitute effects from another Dapper model.",
+            "No hardware/audio test or updater execution performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.valeton.net/product/dapper-acoustic-mini/",
+            "title": "Valeton Dapper Acoustic Mini official product",
+            "access": "web page read",
+            "evidence": "COMP/PREAMP/REVERB, tuner and headphones; manual download but no exact-model firmware/version or launch date."
+          },
+          {
+            "url": "https://www.valeton.net/firmware/",
+            "title": "Valeton official firmware index",
+            "access": "web page text read; dynamic listing visibility limited",
+            "evidence": "No exact Acoustic Mini firmware exposed in extracted index; not proof of complete historical absence."
+          },
+          {
+            "url": "https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf",
+            "title": "Dapper Acoustic Mini official English V01 manual",
+            "access": "web two-page PDF text read",
+            "evidence": "Complete named module/control descriptions document no pitch transposer; tuning mutes signal. 140mA is electrical consumption."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::Dapper Acoustic Mini",
       "Valeton::Dapper Amp Mini",
       "Valeton::Dapper Bass Mini MES-2",
       "Valeton::Dapper Bass VES-2",
@@ -202669,12 +202731,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 300,
-    "last_model": "Tech 21::Fly Rig 5 v2",
-    "last_commit_parent": "223984ac3bfbe59bd696507d8a2047942500e6cc",
+    "completed_model_count": 301,
+    "last_model": "Valeton::Dapper Acoustic Mini",
+    "last_commit_parent": "24b4e66d01c16b3ea70faf622df07ec97aeffdb8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::Dapper Acoustic Mini",
       "Valeton::Dapper Amp Mini",
       "Valeton::Dapper Bass Mini MES-2",
       "Valeton::Dapper Bass VES-2",
@@ -202777,7 +202838,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 300,
+    "pitch_completed_model_count": 301,
     "supplemental_model_count": 0
   },
   "model_images": {

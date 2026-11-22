@@ -32,6 +32,30 @@ Discovery routing checked2026-11-03: earlier “identity pending” leads for Da
 
 ## Dapper Acoustic Mini
 
+<!-- firmware-pitch:Valeton::Dapper Acoustic Mini begins -->
+### Firmware and pitch audit — Valeton Dapper Acoustic Mini
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Current manufacturer page has no first-release date. V01_170213 is a manual identifier, not proof of February 13, 2017 shipment; catalog indexing and demo publication dates are not promoted to first release. [launch 1](https://www.valeton.net/product/dapper-acoustic-mini/) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact-model numbered firmware package, release date or updater identified in checked manufacturer product/manual/firmware pages. Firmware index extraction may omit dynamically loaded entries, so this does not prove updates never existed. Manual V01 is not device firmware1.0. [firmware 1](https://www.valeton.net/product/dapper-acoustic-mini/) [firmware 2](https://www.valeton.net/firmware/) [firmware 3](https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Exact-model effect inventory is compressor, preamp/three-band EQ/notch filter and hall-style reverb, plus muted chromatic tuner. No pitch transposer, octave or harmony effect documented. [pitch 1](https://www.valeton.net/product/dapper-acoustic-mini/) [pitch 2](https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf) |
+| Pitch / preset recall | Physical module controls and footswitches; no programmable pitch presets documented. |
+| Pitch / DSP resources | No pitch algorithm or pitch DSP resource cost documented. 140mA electrical consumption is not CPU percentage or DSP headroom. |
+| Pitch / qualifications | Tuner sharp/flat detection indicates tuning accuracy; it does not shift the audio or establish correction/harmony. No documented pitch effect means mono/poly pitch tracking is not established; do not substitute effects from another Dapper model. No hardware/audio test or updater execution performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Valeton Dapper Acoustic Mini official product](https://www.valeton.net/product/dapper-acoustic-mini/) — COMP/PREAMP/REVERB, tuner and headphones; manual download but no exact-model firmware/version or launch date. (web page read).
+- [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact Acoustic Mini firmware exposed in extracted index; not proof of complete historical absence. (web page text read; dynamic listing visibility limited).
+- [Dapper Acoustic Mini official English V01 manual](https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf) — Complete named module/control descriptions document no pitch transposer; tuning mutes signal. 140mA is electrical consumption. (web two-page PDF text read).
+
+<!-- firmware-pitch:Valeton::Dapper Acoustic Mini ends -->
+
 Distinct acoustic-guitar multi-effects strip, separate from full-size Dapper Acoustic and other Minis. Checked 2026-10-17; partial. Exact model code remains unverified; no MES-4 identity inferred from third-party instructions.
 
 | Field | Finding / qualification | Evidence |
