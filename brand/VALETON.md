@@ -2217,6 +2217,33 @@ The older sources and access failures remain dated history. Current-market stock
 
 ## GP-180
 
+<!-- firmware-pitch:Valeton::GP-180 begins -->
+### Firmware and pitch audit — Valeton GP-180
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2026 (documented public demonstration year; exact first release unresolved). Original NAMM demonstration video published23February2026 predates official26March introduction.2026 is established; exact announcement/show/shipment date is not inferred from either upload. [launch 1](https://www.youtube.com/watch?v=SSWWvIbY_8w) [launch 2](https://www.youtube.com/watch?v=G3fLXbJH67A) |
+| Firmware / latest verification | 1.1.1 — Located; latest status unverified. Highest numbered exact-model official package located is1.1.1,4.13MB,paired with desktop/mobile2.1.0. Created/Updated25-08-2026 are repository fields, not independently verified firmware release dates. Dynamic catalogue prevents exhaustive latest guarantee; no firmware executed. [firmware 1](https://www.valeton.net/wpfd_file/gp-180-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Exact GP-180 firmware1.1.1 effects list explicitly labels OCTA,Pitch and P-Bend polyphonic; Hammy monophonic in PRE and WAH. Detune spans±50cents. Complete transposition endpoints and scale-aware harmony not established. [pitch 1](https://res.diversitone.com/Uploads/wp/download/1787706399070.GP-180_Effect%20List_EN_Firmware%20V1.1.1.pdf) [pitch 2](https://res.diversitone.com/Uploads/wp/download/1787706377421.GP-180_Online%20Manual_EN_Firmware%20V1.1.1.pdf) [pitch 3](https://shop.valeton.net/products/gp-180) |
+| Pitch / preset recall | 200 patch slots,100 factory-filled;12 reorderable effect slots subject to DSP. PRE menu alternatives do not guarantee all pitch choices concurrently. |
+| Pitch / DSP resources | No per-pitch CPU percentage published in inspected documentation. Native A2 Lite mode uses more DSP; insufficient resources gray out choices or disable modules. Twelve movable slots do not guarantee all combinations and are not1/12 CPU per effect. |
+| Pitch / qualifications | Evidence is exact GP-180 manufacturer1.1.1 documentation previously fully read:39-page effects list and44-page operating manual. No GP-150 pitch specification inherited. No tracking-quality or latency test; stereo effects and capture storage do not establish note polyphony. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Official GP-180 firmware1.1.1 package listing](https://www.valeton.net/wpfd_file/gp-180-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/) — 4.13MB;paired with desktop/mobile2.1.0;25August2026 repository timestamps do not prove firmware release date. (web page read).
+- [Valeton official GP-150 and GP-180 public introduction](https://www.youtube.com/watch?v=G3fLXbJH67A) — Published26March2026;public introduction,first shipment unresolved. (retained indexed official video metadata).
+- [Manufacturer GP-180 firmware1.1.1 effects list](https://res.diversitone.com/Uploads/wp/download/1787706399070.GP-180_Effect%20List_EN_Firmware%20V1.1.1.pdf) — Printed4,6,27:OCTA/Pitch/P-Bend polyphonic;Hammy monophonic;Detune±50cents.196menu rows,not unique DSP implementations. (retained prior complete39-page PDF text read and selected page visual inspection).
+- [Manufacturer GP-180 firmware1.1.1 operating manual](https://res.diversitone.com/Uploads/wp/download/1787706377421.GP-180_Online%20Manual_EN_Firmware%20V1.1.1.pdf) — Printed15–17:20nativeA2Lite/100converted files separate;native mode more DSP;resource exhaustion can disable modules. (retained prior complete44-page PDF read).
+- [Valeton official GP-180 shop](https://shop.valeton.net/products/gp-180) — 200patch slots/100factory;12reorderable modules;not per-pitch CPU cost. (web page read).
+- [Original GP-150/GP-180 NAMM2026 demonstration](https://www.youtube.com/watch?v=SSWWvIbY_8w) — INFOMUSICFilms original show demonstration published23February2026;predates official26March video,not exact first-shipment date. (indexed original video metadata and description).
+
+<!-- firmware-pitch:Valeton::GP-180 ends -->
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility, published power requirements and qualified Shopee snapshots were additionally checked2026-10-17; checkout stock and complete firmware contents remain unverified. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- VALETON-GP-180 source begins -->

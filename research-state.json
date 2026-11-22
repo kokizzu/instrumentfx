@@ -203335,10 +203335,164 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::GP-180": {
+        "model_key": "Valeton::GP-180",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2026",
+          "precision": "year",
+          "kind": "documented public demonstration year; exact first release unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=SSWWvIbY_8w",
+            "https://www.youtube.com/watch?v=G3fLXbJH67A"
+          ],
+          "note": "Original NAMM demonstration video published23February2026 predates official26March introduction.2026 is established; exact announcement/show/shipment date is not inferred from either upload."
+        },
+        "firmware": {
+          "version": "1.1.1",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.valeton.net/wpfd_file/gp-180-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/"
+          ],
+          "note": "Highest numbered exact-model official package located is1.1.1,4.13MB,paired with desktop/mobile2.1.0. Created/Updated25-08-2026 are repository fields, not independently verified firmware release dates. Dynamic catalogue prevents exhaustive latest guarantee; no firmware executed."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Exact GP-180 firmware1.1.1 effects list explicitly labels OCTA,Pitch and P-Bend polyphonic; Hammy monophonic in PRE and WAH. Detune spans±50cents. Complete transposition endpoints and scale-aware harmony not established.",
+          "preset": "200 patch slots,100 factory-filled;12 reorderable effect slots subject to DSP. PRE menu alternatives do not guarantee all pitch choices concurrently.",
+          "dsp": "No per-pitch CPU percentage published in inspected documentation. Native A2 Lite mode uses more DSP; insufficient resources gray out choices or disable modules. Twelve movable slots do not guarantee all combinations and are not1/12 CPU per effect.",
+          "source_urls": [
+            "https://res.diversitone.com/Uploads/wp/download/1787706399070.GP-180_Effect%20List_EN_Firmware%20V1.1.1.pdf",
+            "https://res.diversitone.com/Uploads/wp/download/1787706377421.GP-180_Online%20Manual_EN_Firmware%20V1.1.1.pdf",
+            "https://shop.valeton.net/products/gp-180"
+          ],
+          "measurements": [],
+          "notes": [
+            "Evidence is exact GP-180 manufacturer1.1.1 documentation previously fully read:39-page effects list and44-page operating manual. No GP-150 pitch specification inherited.",
+            "No tracking-quality or latency test; stereo effects and capture storage do not establish note polyphony."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.valeton.net/wpfd_file/gp-180-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/",
+            "title": "Official GP-180 firmware1.1.1 package listing",
+            "access": "web page read",
+            "evidence": "4.13MB;paired with desktop/mobile2.1.0;25August2026 repository timestamps do not prove firmware release date."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=G3fLXbJH67A",
+            "title": "Valeton official GP-150 and GP-180 public introduction",
+            "access": "retained indexed official video metadata",
+            "evidence": "Published26March2026;public introduction,first shipment unresolved."
+          },
+          {
+            "url": "https://res.diversitone.com/Uploads/wp/download/1787706399070.GP-180_Effect%20List_EN_Firmware%20V1.1.1.pdf",
+            "title": "Manufacturer GP-180 firmware1.1.1 effects list",
+            "access": "retained prior complete39-page PDF text read and selected page visual inspection",
+            "evidence": "Printed4,6,27:OCTA/Pitch/P-Bend polyphonic;Hammy monophonic;Detune±50cents.196menu rows,not unique DSP implementations."
+          },
+          {
+            "url": "https://res.diversitone.com/Uploads/wp/download/1787706377421.GP-180_Online%20Manual_EN_Firmware%20V1.1.1.pdf",
+            "title": "Manufacturer GP-180 firmware1.1.1 operating manual",
+            "access": "retained prior complete44-page PDF read",
+            "evidence": "Printed15–17:20nativeA2Lite/100converted files separate;native mode more DSP;resource exhaustion can disable modules."
+          },
+          {
+            "url": "https://shop.valeton.net/products/gp-180",
+            "title": "Valeton official GP-180 shop",
+            "access": "web page read",
+            "evidence": "200patch slots/100factory;12reorderable modules;not per-pitch CPU cost."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=SSWWvIbY_8w",
+            "title": "Original GP-150/GP-180 NAMM2026 demonstration",
+            "access": "indexed original video metadata and description",
+            "evidence": "INFOMUSICFilms original show demonstration published23February2026;predates official26March video,not exact first-shipment date."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Valeton::GP-180",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2026-03-26",
+              "precision": "day",
+              "kind": "official public introduction; first shipment unresolved",
+              "source_urls": [
+                "https://www.youtube.com/watch?v=G3fLXbJH67A"
+              ],
+              "note": "Official dual-model introduction indexed26March2026; earliest shipment not independently established."
+            },
+            "firmware": {
+              "version": "1.1.1",
+              "date": null,
+              "precision": "unknown",
+              "status": "latest_located",
+              "source_urls": [
+                "https://www.valeton.net/wpfd_file/gp-180-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/"
+              ],
+              "note": "Highest numbered exact-model official package located is1.1.1,4.13MB,paired with desktop/mobile2.1.0. Created/Updated25-08-2026 are repository fields, not independently verified firmware release dates. Dynamic catalogue prevents exhaustive latest guarantee; no firmware executed."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "Exact GP-180 firmware1.1.1 effects list explicitly labels OCTA,Pitch and P-Bend polyphonic; Hammy monophonic in PRE and WAH. Detune spans±50cents. Complete transposition endpoints and scale-aware harmony not established.",
+              "preset": "200 patch slots,100 factory-filled;12 reorderable effect slots subject to DSP. PRE menu alternatives do not guarantee all pitch choices concurrently.",
+              "dsp": "No per-pitch CPU percentage published in inspected documentation. Native A2 Lite mode uses more DSP; insufficient resources gray out choices or disable modules. Twelve movable slots do not guarantee all combinations and are not1/12 CPU per effect.",
+              "source_urls": [
+                "https://res.diversitone.com/Uploads/wp/download/1787706399070.GP-180_Effect%20List_EN_Firmware%20V1.1.1.pdf",
+                "https://res.diversitone.com/Uploads/wp/download/1787706377421.GP-180_Online%20Manual_EN_Firmware%20V1.1.1.pdf",
+                "https://shop.valeton.net/products/gp-180"
+              ],
+              "measurements": [],
+              "notes": [
+                "Evidence is exact GP-180 manufacturer1.1.1 documentation previously fully read:39-page effects list and44-page operating manual. No GP-150 pitch specification inherited.",
+                "No tracking-quality or latency test; stereo effects and capture storage do not establish note polyphony."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.valeton.net/wpfd_file/gp-180-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/",
+                "title": "Official GP-180 firmware1.1.1 package listing",
+                "access": "web page read",
+                "evidence": "4.13MB;paired with desktop/mobile2.1.0;25August2026 repository timestamps do not prove firmware release date."
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=G3fLXbJH67A",
+                "title": "Valeton official GP-150 and GP-180 public introduction",
+                "access": "retained indexed official video metadata",
+                "evidence": "Published26March2026;public introduction,first shipment unresolved."
+              },
+              {
+                "url": "https://res.diversitone.com/Uploads/wp/download/1787706399070.GP-180_Effect%20List_EN_Firmware%20V1.1.1.pdf",
+                "title": "Manufacturer GP-180 firmware1.1.1 effects list",
+                "access": "retained prior complete39-page PDF text read and selected page visual inspection",
+                "evidence": "Printed4,6,27:OCTA/Pitch/P-Bend polyphonic;Hammy monophonic;Detune±50cents.196menu rows,not unique DSP implementations."
+              },
+              {
+                "url": "https://res.diversitone.com/Uploads/wp/download/1787706377421.GP-180_Online%20Manual_EN_Firmware%20V1.1.1.pdf",
+                "title": "Manufacturer GP-180 firmware1.1.1 operating manual",
+                "access": "retained prior complete44-page PDF read",
+                "evidence": "Printed15–17:20nativeA2Lite/100converted files separate;native mode more DSP;resource exhaustion can disable modules."
+              },
+              {
+                "url": "https://shop.valeton.net/products/gp-180",
+                "title": "Valeton official GP-180 shop",
+                "access": "web page read",
+                "evidence": "200patch slots/100factory;12reorderable modules;not per-pitch CPU cost."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
-      "Valeton::GP-180",
       "Valeton::GP-200",
       "Valeton::GP-200JR",
       "Valeton::GP-200LT",
@@ -203430,12 +203584,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 312,
-    "last_model": "Valeton::GP-150",
-    "last_commit_parent": "7d2532b8af3e2e533ecd8fbeef2b31a56f511354",
+    "completed_model_count": 313,
+    "last_model": "Valeton::GP-180",
+    "last_commit_parent": "818a154a100f81abc28d53fcf419a8e0f394c7e6",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::GP-180",
       "Valeton::GP-200",
       "Valeton::GP-200JR",
       "Valeton::GP-200LT",
@@ -203526,7 +203679,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 312,
+    "pitch_completed_model_count": 313,
     "supplemental_model_count": 0
   },
   "model_images": {
