@@ -216803,11 +216803,36 @@
             "sha256": "6373d639a18582b1877f97adccb32ffa9714adc85af431032a144bf6d9532d91"
           }
         }
+      },
+      "Zoom::G5": {
+        "model_key": "Zoom::G5",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn.mos.cms.futurecdn.net/1355e5a9d0c6b80567bbb9e756ee7d19.jpg",
+            "source_url": "https://www.musicradar.com/reviews/guitars/zoom-g5-549897",
+            "caption": "G5 powered control face",
+            "note": "Powered G5 review photograph, complete near-overhead control face: four LCDs show effect graphics and the four numbered footswitch LEDs are lit. Fourteen knobs, twenty-one front keys, five footswitches and the Z-Pedal treadle are visible.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "9d0b259d46ee1eefd03341972edba66ecf005f73fc514d12214084c8505ebda7"
+          },
+          "rear": {
+            "image_url": "https://d1aeri3ty3izns.cloudfront.net/media/5/54596/1200/preview.jpg",
+            "source_url": "https://www.gear4music.fr/fr/Guitare-and-Basse/Zoom-G5-Multi-Effets-pour-Guitare-et-Simulateur-dAmpli/IPR",
+            "caption": "G5 rear connections",
+            "note": "Complete rear product photograph: INPUT with pickup selector; OUTPUT R and L/MONO; separate PHONES socket; balanced XLR with PRE/POST and ground selectors; CONTROL IN; USB Type-B; power switch; DC input and security slot. Labels are small in this image; use the linked manual for exact power and control functions.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "e9ec90b4dd0312a5afcd19d8e3434679fea7ab75bd4d6ac92aee3c0e3cb1e9df"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G3Xn"
+    "last_model": "Zoom::G5"
   }
 }
