@@ -850,6 +850,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::Dapper Mini MES-1 ends -->
 
+<!-- model-images:Valeton::Dapper Mini MES-1 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Near-overhead Dapper Mini control-face stock image, unlit.**
+
+[![Near-overhead Dapper Mini control-face stock image, unlit.](https://shop.valeton.net/cdn/shop/products/DapperMini_Front_Hi_V01_161213_07094f0e-662f-48af-9fef-78e95e017e67_1500x.png?v=1641360454)](https://shop.valeton.net/cdn/shop/products/DapperMini_Front_Hi_V01_161213_07094f0e-662f-48af-9fef-78e95e017e67_1500x.png?v=1641360454)
+
+[Image source](https://shop.valeton.net/products/dapper-mini). Visually 10 rotary controls, 3 footswitches and one OD/DIST toggle. DELAY/CHORUS/DRIVE labels distinguish MES-1 layout. Unlit tuner/status strip; slight perspective, so powered-on strict perpendicular overhead remains pending.
+
+**Angled Dapper Mini connector-edge stock photograph.**
+
+[![Angled Dapper Mini connector-edge stock photograph.](https://shop.valeton.net/cdn/shop/products/DapperMini_Rear_Perspective_Hi_V01_161213_1500x.png?v=1641360454)](https://shop.valeton.net/cdn/shop/products/DapperMini_Rear_Perspective_Hi_V01_161213_1500x.png?v=1641360454)
+
+[Image source](https://shop.valeton.net/products/dapper-mini). Visible 9V DC input, quarter-inch IN and OUT and smaller PHONES socket. DC polarity/current not legible here. No other connector visible on this edge; not a complete all-edge absence audit. Unlit exact-model stock unit, no live operating test.
+
+</details>
+<!-- model-images:Valeton::Dapper Mini MES-1 ends -->
+
+
 Guitar multi-effects strip, separate from Bass Mini MES-2 and Acoustic Mini. Checked 2026-10-17; partial. MES-1 code is seller identification pending readable manual corroboration.
 
 | Field | Finding / qualification | Evidence |
