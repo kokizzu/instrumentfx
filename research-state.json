@@ -215047,11 +215047,36 @@
             "powered_on": false
           }
         }
+      },
+      "Zoom::B6": {
+        "model_key": "Zoom::B6",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://images.squarespace-cdn.com/content/v1/63ac846dc338012d5eb1c3ef/c100e1ee-29bc-46e2-806b-edd3aa741dc4/DSC00018.JPG",
+            "source_url": "https://www.goobergang.net/reviews/zoom-b6-bass-multi-effects-processor",
+            "caption": "B6 powered control face",
+            "note": "Actual powered B6 on a rug, with color effect-chain screen, EFFECT BOARD/TAP/input/DI and effect LEDs illuminated. Four front parameter knobs and nine footswitches are visible. This photograph is oblique and slightly crops the lower chassis, so a complete true top-down powered photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "7408afcd5b6f5b6eae1171382aac809b7ef9d010a9930b6f3bd4acc312138263",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://zoomcorp.com/media/original_images/05_B6-rear.jpg.0x1600_q80_crop-%2Cscale_size_canvas.jpg",
+            "source_url": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b6/",
+            "caption": "B6 rear connections",
+            "note": "Manufacturer full rear image: ground lift and balanced XLR,AMP/LINE (PHONES),MASTER knob,two inputs with individual1MΩ/10MΩ switches,AUX IN,SEND/RETURN,CONTROL IN,SD slot,REMOTE cover,micro-USB,POWER,center-negative DC9V and security slot. SD/REMOTE covers conceal their sockets;the shared AMP/LINE jack is also labeled PHONES.",
+            "visual_checked": true,
+            "sha256": "31c41385025d58edffcf9784fb27dfa6c596fb17b25974485a9555f34a1c632d",
+            "powered_on": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B3n"
+    "last_model": "Zoom::B6"
   }
 }

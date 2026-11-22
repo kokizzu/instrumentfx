@@ -3292,6 +3292,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::B6 ends -->
 
+<!-- model-images:Zoom::B6 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**B6 powered control face**
+
+[![B6 powered control face](https://images.squarespace-cdn.com/content/v1/63ac846dc338012d5eb1c3ef/c100e1ee-29bc-46e2-806b-edd3aa741dc4/DSC00018.JPG)](https://images.squarespace-cdn.com/content/v1/63ac846dc338012d5eb1c3ef/c100e1ee-29bc-46e2-806b-edd3aa741dc4/DSC00018.JPG)
+
+[Image source](https://www.goobergang.net/reviews/zoom-b6-bass-multi-effects-processor). Actual powered B6 on a rug, with color effect-chain screen, EFFECT BOARD/TAP/input/DI and effect LEDs illuminated. Four front parameter knobs and nine footswitches are visible. This photograph is oblique and slightly crops the lower chassis, so a complete true top-down powered photograph remains pending.
+
+**B6 rear connections**
+
+[![B6 rear connections](https://zoomcorp.com/media/original_images/05_B6-rear.jpg.0x1600_q80_crop-%2Cscale_size_canvas.jpg)](https://zoomcorp.com/media/original_images/05_B6-rear.jpg.0x1600_q80_crop-%2Cscale_size_canvas.jpg)
+
+[Image source](https://zoomcorp.com/en/us/multi-effects/bass-effects/b6/). Manufacturer full rear image: ground lift and balanced XLR,AMP/LINE (PHONES),MASTER knob,two inputs with individual1MΩ/10MΩ switches,AUX IN,SEND/RETURN,CONTROL IN,SD slot,REMOTE cover,micro-USB,POWER,center-negative DC9V and security slot. SD/REMOTE covers conceal their sockets;the shared AMP/LINE jack is also labeled PHONES.
+
+</details>
+<!-- model-images:Zoom::B6 ends -->
+
+
 Bass multi-effects; large body, external-only expression. Consolidated and refreshed 2026-10-16; partial. All 15 legacy model fields below retain the original 2026-10-14 observation date. New manual details and IDR evidence are dated separately.
 
 ### B6 — complete retained legacy fields
