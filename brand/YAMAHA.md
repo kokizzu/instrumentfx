@@ -332,6 +332,26 @@ Sources checked:
 
 <!-- firmware-pitch:Yamaha::Magicstomp Acoustic ends -->
 
+<!-- model-images:Yamaha::Magicstomp Acoustic begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Magicstomp Acoustic control face**
+
+[![Magicstomp Acoustic control face](https://cdn.aukro.cz/images/sk1744147921652/vintage-yamaha-magicstomp-ub99-stereo-multi-effect-pedal-225437113.jpeg)](https://cdn.aukro.cz/images/sk1744147921652/vintage-yamaha-magicstomp-ub99-stereo-multi-effect-pedal-225437113.jpeg)
+
+[Image source](https://aukro.cz/vintage-yamaha-magicstomp-ub99-stereo-multi-effect-pedal-7086192984). Visually checked gold ACOUSTIC-labelled actual unit and Acoustic box, connected AC cable, green backlit U01 HeavyHiGain screen and illuminated central indicator. Four knobs, three footswitches and one STORE/EXIT button; no treadle. Near-overhead front perspective, not strict orthographic top-down. HeavyHiGain is displayed user-patch content, not factory configuration or firmware-version evidence.
+
+**Magicstomp Acoustic rear connectors**
+
+[![Magicstomp Acoustic rear connectors](https://medias.audiofanzine.com/images/normal/yamaha-magicstomp-acoustic-780673.jpg)](https://medias.audiofanzine.com/images/normal/yamaha-magicstomp-acoustic-780673.jpg)
+
+[Image source](https://en.audiofanzine.com/acoustic-guitar-multi-effect/yamaha/Magicstomp-Acoustic/). Visually checked readable complete connector row: INPUT, HIGH/LOW input-level switch, OUTPUT R/L-MONO, PHONES, USB-B and AC IN12V1A~. AC symbol directly contradicts generated image-search DC descriptions; DC center polarity does not apply. No analog EXP, MIDI DIN or XLR sockets shown. Exact Acoustic gallery supplies model context; rear crop itself does not print the edition name.
+
+</details>
+<!-- model-images:Yamaha::Magicstomp Acoustic ends -->
+
+
 Checked 2026-10-18; partial. Separate Acoustic edition. [Own Yamaha manual](https://usa.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf), printed pp7–12,22–24,26–30,33; browser text. No sibling specifications substituted.
 
 <!-- comparison evidence begins -->
