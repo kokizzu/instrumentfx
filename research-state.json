@@ -220086,11 +220086,36 @@
             "sha256": "acff3ab77664945e7ddb93c2543ccbfaa0c8c5cb2e9f92f7eaed54b6bc9fbfa9"
           }
         }
+      },
+      "Behringer::FX600": {
+        "model_key": "Behringer::FX600",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn.store-assets.com/s/828136/i/84951831.jpeg",
+            "source_url": "https://www.citymusicmelaka.com/products/behringer-fx600-digital-multi-fx-guitar-effects-pedal",
+            "caption": "Behringer FX600 — control surface",
+            "note": "Retailer promotional image with illuminated orange ON/BATT indicator, all four knobs and pedal switch visible. Oblique view with retailer branding rather than exact top-down; a clean upright top-down replacement remains pending. Output-side sockets are also visible.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "c245111a07dbbe2a3808b290ef6512d41fdf033031ddb53db7dd280ea02a4c24"
+          },
+          "rear": {
+            "image_url": "https://images.tcdn.com.br/img/img_prod/996132/pedal_para_guitarra_digital_multi_efeitos_fx600_behringer_955_5_614d52b606b3c7c267af12cdea6b4cdd.jpg",
+            "source_url": "https://www.guaranimusical.com.br/acessorios/para-instrumentos-de-corda/pedais-de-efeito-modulacao-loopers/pedal-para-guitarra-digital-multi-efeitos-fx600-behringer",
+            "caption": "Behringer FX600 — side connections",
+            "note": "Input-side photograph clearly showing two audio sockets and the DC power socket. FX600 uses side connections rather than a rear connector row; the opposite output-side sockets appear in the control-surface image above. Dedicated straight-on output-side photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "bc0442976c6aec66f1fc13fa76279b7ec14ee6df30fff242b98822dab38f7e7f"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Behringer::FX2000"
+    "last_model": "Behringer::FX600"
   }
 }

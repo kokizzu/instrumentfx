@@ -432,6 +432,26 @@ Sources checked:
 
 <!-- firmware-pitch:Behringer::FX600 ends -->
 
+<!-- model-images:Behringer::FX600 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Behringer FX600 — control surface**
+
+[![Behringer FX600 — control surface](https://cdn.store-assets.com/s/828136/i/84951831.jpeg)](https://cdn.store-assets.com/s/828136/i/84951831.jpeg)
+
+[Image source](https://www.citymusicmelaka.com/products/behringer-fx600-digital-multi-fx-guitar-effects-pedal). Retailer promotional image with illuminated orange ON/BATT indicator, all four knobs and pedal switch visible. Oblique view with retailer branding rather than exact top-down; a clean upright top-down replacement remains pending. Output-side sockets are also visible.
+
+**Behringer FX600 — side connections**
+
+[![Behringer FX600 — side connections](https://images.tcdn.com.br/img/img_prod/996132/pedal_para_guitarra_digital_multi_efeitos_fx600_behringer_955_5_614d52b606b3c7c267af12cdea6b4cdd.jpg)](https://images.tcdn.com.br/img/img_prod/996132/pedal_para_guitarra_digital_multi_efeitos_fx600_behringer_955_5_614d52b606b3c7c267af12cdea6b4cdd.jpg)
+
+[Image source](https://www.guaranimusical.com.br/acessorios/para-instrumentos-de-corda/pedais-de-efeito-modulacao-loopers/pedal-para-guitarra-digital-multi-efeitos-fx600-behringer). Input-side photograph clearly showing two audio sockets and the DC power socket. FX600 uses side connections rather than a rear connector row; the opposite output-side sockets appear in the control-surface image above. Dedicated straight-on output-side photograph remains pending.
+
+</details>
+<!-- model-images:Behringer::FX600 ends -->
+
+
 <!-- comparison evidence begins -->
 
 Digital Stereo Multi-FX pedal; distinct from FX2000. Checked2026-10-18;partial. Manufacturer identifies six different effect families,one selected at a time;no minimum simultaneous-count requirement for multi-effects inclusion. Bass/vocal suitability andownership unverified.
