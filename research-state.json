@@ -222585,13 +222585,13 @@
       },
       "Valeton::Dapper Bass VES-2": {
         "model_key": "Valeton::Dapper Bass VES-2",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
             "image_url": "https://shop.valeton.net/cdn/shop/products/DapperBass_Front_Hi_V01_170206_1500x.png?v=1641351898",
             "source_url": "https://shop.valeton.net/products/dapper-bass",
             "caption": "Near-overhead full-size Dapper Bass control-face stock image, unlit.",
-            "note": "Visually 13 rotary knobs, 5 footswitches and one FUZZ toggle on this face. The separate rear GROUND slider is not included in that face count. Display/status LEDs unlit; powered-on strict perpendicular overhead remains pending. Five modules and large tuner distinguish VES-2 from MES-2 Mini.",
+            "note": "Visually 13 rotary knobs, 5 footswitches and one FUZZ toggle on this face. The separate rear GROUND slider is not included in that face count. Display/status LEDs unlit; powered-on strict perpendicular overhead remains pending. Five modules and large tuner distinguish VES-2 from MES-2 Mini. A supplemental actual-unit photograph below shows connected power and brightly illuminated colored control knobs. All five footswitches are visible, but the tuner display is dark. The oblique view clips a small part of the left chassis edge, so it supplements this complete stock layout; a complete powered-on perpendicular overhead image remains pending.\n\n[![Dapper Bass VES-2 physical powered-on photograph](https://cdn.basschat.co.uk/monthly_2022_01/8402CEFE-AB2C-4C4D-9303-CF7EDCFBC3D6_1_201_a.jpeg.a1a804a5099696619efdee9cdd4ce21a.jpeg)](https://cdn.basschat.co.uk/monthly_2022_01/8402CEFE-AB2C-4C4D-9303-CF7EDCFBC3D6_1_201_a.jpeg.a1a804a5099696619efdee9cdd4ce21a.jpeg)\n\n[Powered photograph source](https://www.basschat.co.uk/topic/459436-npd-valeton-dapper-bass/).",
             "visual_checked": true,
             "sha256": "e80022adcf4781557f7cbaf6625799fbd696f4a322b0b2f3ec36169046b02adc",
             "powered_on": false,
@@ -222607,7 +222607,19 @@
             "powered_on": false,
             "exact_top_down": false
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://cdn.basschat.co.uk/monthly_2022_01/8402CEFE-AB2C-4C4D-9303-CF7EDCFBC3D6_1_201_a.jpeg.a1a804a5099696619efdee9cdd4ce21a.jpeg",
+            "source_url": "https://www.basschat.co.uk/topic/459436-npd-valeton-dapper-bass/",
+            "caption": "Dapper Bass VES-2 — physical powered-on photograph",
+            "note": "Actual user photograph on a wooden floor with connected power and brightly illuminated colored control knobs. All five footswitches visible; tuner display dark. Oblique view clips a small part of the left chassis edge, so retained as a supplement to the complete stock layout.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "d644e369c761605b1ee2957349c27f2405330a9a9482e30c45491c8a3b6c316e"
+          }
+        ]
       },
       "Valeton::Dapper Dark Mini": {
         "model_key": "Valeton::Dapper Dark Mini",
@@ -227272,6 +227284,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Fender::Mustang Micro"
+    "last_model": "Valeton::Dapper Bass VES-2"
   }
 }

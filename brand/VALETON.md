@@ -388,7 +388,11 @@ Sources checked:
 
 [![Near-overhead full-size Dapper Bass control-face stock image, unlit.](https://shop.valeton.net/cdn/shop/products/DapperBass_Front_Hi_V01_170206_1500x.png?v=1641351898)](https://shop.valeton.net/cdn/shop/products/DapperBass_Front_Hi_V01_170206_1500x.png?v=1641351898)
 
-[Image source](https://shop.valeton.net/products/dapper-bass). Visually 13 rotary knobs, 5 footswitches and one FUZZ toggle on this face. The separate rear GROUND slider is not included in that face count. Display/status LEDs unlit; powered-on strict perpendicular overhead remains pending. Five modules and large tuner distinguish VES-2 from MES-2 Mini.
+[Image source](https://shop.valeton.net/products/dapper-bass). Visually 13 rotary knobs, 5 footswitches and one FUZZ toggle on this face. The separate rear GROUND slider is not included in that face count. Display/status LEDs unlit; powered-on strict perpendicular overhead remains pending. Five modules and large tuner distinguish VES-2 from MES-2 Mini. A supplemental actual-unit photograph below shows connected power and brightly illuminated colored control knobs. All five footswitches are visible, but the tuner display is dark. The oblique view clips a small part of the left chassis edge, so it supplements this complete stock layout; a complete powered-on perpendicular overhead image remains pending.
+
+[![Dapper Bass VES-2 physical powered-on photograph](https://cdn.basschat.co.uk/monthly_2022_01/8402CEFE-AB2C-4C4D-9303-CF7EDCFBC3D6_1_201_a.jpeg.a1a804a5099696619efdee9cdd4ce21a.jpeg)](https://cdn.basschat.co.uk/monthly_2022_01/8402CEFE-AB2C-4C4D-9303-CF7EDCFBC3D6_1_201_a.jpeg.a1a804a5099696619efdee9cdd4ce21a.jpeg)
+
+[Powered photograph source](https://www.basschat.co.uk/topic/459436-npd-valeton-dapper-bass/).
 
 **Full-size Dapper Bass long connector edge with FX loop and ground slider.**
 
