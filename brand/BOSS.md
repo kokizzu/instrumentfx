@@ -3546,6 +3546,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GX-1 ends -->
 
+<!-- model-images:BOSS::GX-1 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**GX-1 control face**
+
+[![GX-1 control face](https://static.roland.com/products/gx-1/images/gallery/gx-1_main_gal.jpg)](https://static.roland.com/products/gx-1/images/gallery/gx-1_main_gal.jpg)
+
+[Image source](https://www.boss.info/global/products/gx-1/). Manufacturer complete straight-down control face with active U01 color display, nine illuminated hexagonal buttons and blue footswitch bars. Three rotary controls, five other panel buttons, three footswitches and full expression pedal visible. Promotional display and illumination are not independently verified.
+
+**GX-1 rear connections**
+
+[![GX-1 rear connections](https://static.roland.com/products/gx-1/images/gallery/gx-1_gal_rear.jpg)](https://static.roland.com/products/gx-1/images/gallery/gx-1_gal_rear.jpg)
+
+[Image source](https://www.boss.info/global/products/gx-1/). Manufacturer complete rear view: INPUT, OUTPUT R and L/MONO, miniature PHONES, CTL2,3/EXP2, USB-C and DC IN for BOSS PSA-S adapter. Ground terminal and security slot visible; power-on marking points to the input jack.
+
+</details>
+<!-- model-images:BOSS::GX-1 ends -->
+
+
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.
 
 <!-- BOSS-GX-1 source begins -->
