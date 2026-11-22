@@ -1659,6 +1659,33 @@ Manufacturer 100-effect list, ©2014, pp2,5–6,11,14–18,24; asterisks identif
 
 ## B1X FOUR
 
+<!-- firmware-pitch:Zoom::B1X FOUR begins -->
+### Firmware and pitch audit — Zoom B1X FOUR
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2019-04 (manufacturer announced Japanese availability month). Zoom’s 2019-03-25 release announces late-April2019 availability. Exact shipping day and any earlier regional retail launch remain unresolved; March mass-production firmware is not the retail launch. [launch 1](https://fs2.magicalir.net/tdnet/2019/6694/20190325494916.pdf) |
+| Firmware / latest verification | 2.00 — Latest verified. Current exact-model Windows/Mac packages remain 2.00. Official history dates 2.00 to November 2019: pre/post looper placement and revised rhythm screen. Version1.10 fixed USB disconnection in May2019. Guitar Lab/effect-library additions are separate from device firmware. [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/b1b1x-four-support/) [firmware 2](https://zoomcorp.com/documents/3424/B1FOUR_B1XFOUR_System_Software_Version_History_200_en.pdf) |
+| Firmware / release date | 2019-11 (month precision) |
+| Firmware / release-to-update duration | 0.51–0.67 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT offers −12…+12,+24 semitones and±25-cent Fine; BaMnPitch is single-note bass. Built-in treadle controls BaPDLPit and explicitly monophonic BaPDLMnP; Color1–9 chooses sweep and UP/DOWN style. Polyphonic tracking is not established for the general shifters. HPS uses scale/key; Ba Octave and Ba Detune are separate choices. [pitch 1](https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf) [pitch 2](https://zoomcorp.com/media/documents/E_B1FOUR.pdf) |
+| Pitch / preset recall | 50 editable patches; only one PEDAL-category effect per patch. Front-end treadle press toggles that effect without saving the ON/OFF change. Output VP retains output level across patch changes, but is a selected pedal effect, not proof of universal volume control while pedal pitch is selected. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Five effects maximum, subject to PROCESS OVERFLOW bypass. One PEDAL-category effect per patch is an additional restriction, not a CPU percentage. |
+| Pitch / qualifications | Starred effects are Guitar Lab additions; no third-party effect injection or hardware CPU/tracking test used. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — B1 FOUR and B1X FOUR are separate 2019 products. (official 2019 product group inspected).
+- [Zoom B1 FOUR/B1X FOUR support](https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/b1b1x-four-support/) — Separate B1X FOUR firmware2.00 Windows/Mac packages listed, alongside B1 FOUR and Guitar Lab7.3. (official current package list read).
+- [B1 FOUR/B1X FOUR system-software history](https://zoomcorp.com/documents/3424/B1FOUR_B1XFOUR_System_Software_Version_History_200_en.pdf) — March2019 mass production1.00; May2019 USBfix1.10; November2019 looper/rhythm2.00. (official one-page PDF read).
+- [B1 FOUR/B1X FOUR effects list](https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf) — PitchSHFT/BaMnPitch, BaPDLPit, monophonic BaPDLMnP, Color sweeps and OutputVP; no general polyphony claim or DSP%. (official PDF pp11–12 and PEDAL distinction inspected).
+- [B1 FOUR/B1X FOUR operation manual](https://zoomcorp.com/media/documents/E_B1FOUR.pdf) — Five effects,50patches,overflow bypass; model pedal distinction. (official PDF capacity and memory sections inspected).
+- [Zoom B1 FOUR/B1X FOUR launch disclosure](https://fs2.magicalir.net/tdnet/2019/6694/20190325494916.pdf) — Dated2019-03-25; late-April2019 availability, separate pedal/no-pedal models. (manufacturer-authored TDnet release PDF read via disclosure mirror).
+
+<!-- firmware-pitch:Zoom::B1X FOUR ends -->
+
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.
 
 ### B1X FOUR — complete retained comparison fields
