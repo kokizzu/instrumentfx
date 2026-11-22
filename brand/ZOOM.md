@@ -1944,6 +1944,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::B1Xon ends -->
 
+<!-- model-images:Zoom::B1Xon begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**B1Xon overhead product image**
+
+[![B1Xon overhead product image](https://zoomcorp.com/media/original_images/b1xon_topView.png.0x800_q80_crop-%2Cscale_size_canvas.png)](https://zoomcorp.com/media/original_images/b1xon_topView.png.0x800_q80_crop-%2Cscale_size_canvas.png)
+
+[Image source](https://zoomcorp.com/en/jp/multi-effects/bass-effects/b1xon/). Exact B1Xon manufacturer overhead product image: full treadle, one rotary knob, four round function buttons, four cursor directions and two footswitch pads. Orange A0 display is depicted, but this studio product image does not independently verify an actual powered photograph. A real powered overhead image remains pending.
+
+**B1Xon rear connections**
+
+[![B1Xon rear connections](https://www.zoom.co.jp/sites/default/files/styles/product_feature/public/products/product-features/b1xon_rearView.png?itok=pJO7jZNb)](https://www.zoom.co.jp/sites/default/files/styles/product_feature/public/products/product-features/b1xon_rearView.png?itok=pJO7jZNb)
+
+[Image source](https://www.zoom.co.jp/ja/products/bass/zoom-b1xon-bass-effects-pedal-expression-pedal). Exact manufacturer B1Xon rear photograph includes the treadle section. INPUT, AUX IN, OUTPUT [PHONES], mini-USB/DC5V, center-negative DC9V IN and security slot are visible. This full-width image replaces the rejected narrower B1on-style retailer candidate; USB labeling alone does not establish audio or general MIDI capability.
+
+</details>
+<!-- model-images:Zoom::B1Xon ends -->
+
+
 Consolidated 2026-10-16 from the complete original finding and checked against the complete owned-model comparison. Technical observations remain dated2026-10-14; this move does not resolve their explicit unknowns or certify current stock. Original finding commit: `8b6664672c3f0756f754d1b1e10212421e3ca19f`. The final historical next-model sentence below is preserved provenance, not the current cursor.
 
 <!-- B1Xon preserved source begins -->

@@ -214423,11 +214423,36 @@
             "exact_top_down": true
           }
         }
+      },
+      "Zoom::B1Xon": {
+        "model_key": "Zoom::B1Xon",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://zoomcorp.com/media/original_images/b1xon_topView.png.0x800_q80_crop-%2Cscale_size_canvas.png",
+            "source_url": "https://zoomcorp.com/en/jp/multi-effects/bass-effects/b1xon/",
+            "caption": "B1Xon overhead product image",
+            "note": "Exact B1Xon manufacturer overhead product image: full treadle, one rotary knob, four round function buttons, four cursor directions and two footswitch pads. Orange A0 display is depicted, but this studio product image does not independently verify an actual powered photograph. A real powered overhead image remains pending.",
+            "visual_checked": true,
+            "sha256": "8085fb2932c3ad07e6ba5f0b4125e106480eb7dd11f62581b0e1aaae309cc387",
+            "powered_on": false,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/styles/product_feature/public/products/product-features/b1xon_rearView.png?itok=pJO7jZNb",
+            "source_url": "https://www.zoom.co.jp/ja/products/bass/zoom-b1xon-bass-effects-pedal-expression-pedal",
+            "caption": "B1Xon rear connections",
+            "note": "Exact manufacturer B1Xon rear photograph includes the treadle section. INPUT, AUX IN, OUTPUT [PHONES], mini-USB/DC5V, center-negative DC9V IN and security slot are visible. This full-width image replaces the rejected narrower B1on-style retailer candidate; USB labeling alone does not establish audio or general MIDI capability.",
+            "visual_checked": true,
+            "sha256": "5d77da7917b9c917eab8a23c66a29c074be6bd349ac07692f8e7601c7eca717b",
+            "powered_on": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B1X original"
+    "last_model": "Zoom::B1Xon"
   }
 }
