@@ -2244,6 +2244,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::GP-180 ends -->
 
+<!-- model-images:Valeton::GP-180 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Official GP-180 control-face stock image**
+
+[![Official GP-180 control-face stock image](https://shop.valeton.net/cdn/shop/files/GP-180_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999403)](https://shop.valeton.net/cdn/shop/files/GP-180_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999403)
+
+[Image source](https://shop.valeton.net/products/gp-180). Visually inspected exact GP-180 control face:five knobs,three footswitches,six general buttons andten module shortcut buttons. Stock artwork displays illuminated screen,rings andselected shortcuts;actual powered-unit photography remains unverified. Slight case-edge perspective;strict overhead powered photograph pending.
+
+**Official GP-180 rear connector-edge stock image**
+
+[![Official GP-180 rear connector-edge stock image](https://shop.valeton.net/cdn/shop/files/GP-180_Top_Hi_V01_251202_1445x.png?v=1773999403)](https://shop.valeton.net/cdn/shop/files/GP-180_Top_Hi_V01_251202_1445x.png?v=1773999403)
+
+[Image source](https://shop.valeton.net/products/gp-180). Visually inspected GP-180 rear:EXP/FS2 MIDI OUT and1 MIDI IN,IN,OUT L/R(BALANCED),PHONES/MIC,PD USB,POWER and9V2A center-negative DC marking. Labels establish connector placement,not all routing/electrical behavior;manual bypass wording conflict retained.
+
+</details>
+<!-- model-images:Valeton::GP-180 ends -->
+
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility, published power requirements and qualified Shopee snapshots were additionally checked2026-10-17; checkout stock and complete firmware contents remain unverified. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- VALETON-GP-180 source begins -->

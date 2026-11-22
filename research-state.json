@@ -210217,11 +210217,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Valeton::GP-180": {
+        "model_key": "Valeton::GP-180",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.valeton.net/cdn/shop/files/GP-180_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999403",
+            "source_url": "https://shop.valeton.net/products/gp-180",
+            "caption": "Official GP-180 control-face stock image",
+            "note": "Visually inspected exact GP-180 control face:five knobs,three footswitches,six general buttons andten module shortcut buttons. Stock artwork displays illuminated screen,rings andselected shortcuts;actual powered-unit photography remains unverified. Slight case-edge perspective;strict overhead powered photograph pending.",
+            "visual_checked": true,
+            "sha256": "8a3136138ccafc73c483df293429f60144e093850f9912c7a7b997c25a35ef7c",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://shop.valeton.net/cdn/shop/files/GP-180_Top_Hi_V01_251202_1445x.png?v=1773999403",
+            "source_url": "https://shop.valeton.net/products/gp-180",
+            "caption": "Official GP-180 rear connector-edge stock image",
+            "note": "Visually inspected GP-180 rear:EXP/FS2 MIDI OUT and1 MIDI IN,IN,OUT L/R(BALANCED),PHONES/MIC,PD USB,POWER and9V2A center-negative DC marking. Labels establish connector placement,not all routing/electrical behavior;manual bypass wording conflict retained.",
+            "visual_checked": true,
+            "sha256": "7502d9f8c458740d8d2109bdbfc474b37a115041243df31248fbace753200fcc",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-150"
+    "last_model": "Valeton::GP-180"
   }
 }
