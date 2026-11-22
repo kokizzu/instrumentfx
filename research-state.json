@@ -214150,11 +214150,36 @@
             "powered_on": false
           }
         }
+      },
+      "Zoom::B1on": {
+        "model_key": "Zoom::B1on",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-b1on-4919968.jpg",
+            "source_url": "https://en.audiofanzine.com/bass-multi-effect/zoom/b1on/",
+            "caption": "B1on overhead control-face photograph — unlit",
+            "note": "Full actual no-treadle B1on viewed from overhead: one rotary knob, HOME/ENTER/MENU/RHYTHM-LOOPER buttons, four cursor directions and two footswitch pads are visible. LCD is blank and unlit; this verifies layout, not powered operation. A powered overhead photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "8667481fc255de022238b41c276d91b130287e34457b9e2eea92c4bbd4f69142",
+            "powered_on": false,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/styles/product_feature/public/products/product-features/b1on_rearView.png?itok=EmSmSJkm",
+            "source_url": "https://www.zoom.co.jp/node/61/1000",
+            "caption": "B1on rear connections",
+            "note": "Manufacturer B1on rear image shows INPUT, AUX IN, OUTPUT [PHONES], mini-USB/DC5V, center-negative DC9V IN and security slot. It is the compact B1on, not B1Xon. USB/DC5V labeling alone does not establish USB audio or a general MIDI interface.",
+            "visual_checked": true,
+            "sha256": "3a83e8e8a63ffc5062aa775fbd4a351747b17a186eadbefa8953e6dfdb375101",
+            "powered_on": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B1 FOUR"
+    "last_model": "Zoom::B1on"
   }
 }

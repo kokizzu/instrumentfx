@@ -1554,6 +1554,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::B1on ends -->
 
+<!-- model-images:Zoom::B1on begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**B1on overhead control-face photograph — unlit**
+
+[![B1on overhead control-face photograph — unlit](https://medias.audiofanzine.com/images/normal/zoom-b1on-4919968.jpg)](https://medias.audiofanzine.com/images/normal/zoom-b1on-4919968.jpg)
+
+[Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/b1on/). Full actual no-treadle B1on viewed from overhead: one rotary knob, HOME/ENTER/MENU/RHYTHM-LOOPER buttons, four cursor directions and two footswitch pads are visible. LCD is blank and unlit; this verifies layout, not powered operation. A powered overhead photograph remains pending.
+
+**B1on rear connections**
+
+[![B1on rear connections](https://www.zoom.co.jp/sites/default/files/styles/product_feature/public/products/product-features/b1on_rearView.png?itok=EmSmSJkm)](https://www.zoom.co.jp/sites/default/files/styles/product_feature/public/products/product-features/b1on_rearView.png?itok=EmSmSJkm)
+
+[Image source](https://www.zoom.co.jp/node/61/1000). Manufacturer B1on rear image shows INPUT, AUX IN, OUTPUT [PHONES], mini-USB/DC5V, center-negative DC9V IN and security slot. It is the compact B1on, not B1Xon. USB/DC5V labeling alone does not establish USB audio or a general MIDI interface.
+
+</details>
+<!-- model-images:Zoom::B1on ends -->
+
+
 Reviewed **2026-10-17**,after exact Shopee hardware discovery. **B1on**,not B1Xon,B1 FOUR orB1X FOUR. Bass-focused multi-effects;no ownership assertion. Partial:manufacturer HTML andindexed original manual/effects text;no dependencies,manual files,software orfirmware downloaded to the workspace. The official shared manual explicitly distinguishes the two on-series models.
 
 | Field | Finding / qualification | Evidence |
