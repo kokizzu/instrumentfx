@@ -219419,11 +219419,36 @@
             "sha256": "ad3dec38a8f51e23b63d6cadc5178ae9ebc537185136b366158bf951812bc75c"
           }
         }
+      },
+      "BOSS::ME-20": {
+        "model_key": "BOSS::ME-20",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/assets/images/products/main/me_20_top_main.jpg",
+            "source_url": "https://www.boss.info/global/products/me-20/",
+            "caption": "BOSS ME-20 — powered-on top view",
+            "note": "Complete manufacturer straight-down promotional view with lit red 20 display, effect/solo/foot indicators, five rotary controls, panel buttons, three footswitches and full expression pedal. This original is only 500 pixels wide, limiting fine-label readability. Powered-on appearance is visible; independent operating-state verification is unavailable.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "4772c42f187e36bd41e77ed595a8da707f62511cb7d76cc6eb5fa7da44914131"
+          },
+          "rear": {
+            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/152268000000000-01-2000x2000.jpg",
+            "source_url": "https://www.guitarcenter.com/Open-Box/BOSS/ME-20-Guitar-Multi-Effects-Pedal-Level-1-152268004000000.gc",
+            "caption": "BOSS ME-20 — rear connections",
+            "note": "Retailer-hosted straight rear-panel photograph with complete INPUT, miniature AUX IN, OUTPUT R/L-MONO, PHONES, SOLO/TUNER ON/OFF and BANK UP/DOWN footswitch jack, DC IN for PSA adaptor and security slot visible. Large white margins do not crop any connector.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "3251fb063776fb08ab977352a686c5685db9b1b0ee2a5d850d33b448d051877a"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GT-8"
+    "last_model": "BOSS::ME-20"
   }
 }

@@ -5004,6 +5004,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::ME-20 ends -->
 
+<!-- model-images:BOSS::ME-20 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS ME-20 — powered-on top view**
+
+[![BOSS ME-20 — powered-on top view](https://static.roland.com/assets/images/products/main/me_20_top_main.jpg)](https://static.roland.com/assets/images/products/main/me_20_top_main.jpg)
+
+[Image source](https://www.boss.info/global/products/me-20/). Complete manufacturer straight-down promotional view with lit red 20 display, effect/solo/foot indicators, five rotary controls, panel buttons, three footswitches and full expression pedal. This original is only 500 pixels wide, limiting fine-label readability. Powered-on appearance is visible; independent operating-state verification is unavailable.
+
+**BOSS ME-20 — rear connections**
+
+[![BOSS ME-20 — rear connections](https://media.guitarcenter.com/is/image/MMGS7/152268000000000-01-2000x2000.jpg)](https://media.guitarcenter.com/is/image/MMGS7/152268000000000-01-2000x2000.jpg)
+
+[Image source](https://www.guitarcenter.com/Open-Box/BOSS/ME-20-Guitar-Multi-Effects-Pedal-Level-1-152268004000000.gc). Retailer-hosted straight rear-panel photograph with complete INPUT, miniature AUX IN, OUTPUT R/L-MONO, PHONES, SOLO/TUNER ON/OFF and BANK UP/DOWN footswitch jack, DC IN for PSA adaptor and security slot visible. Large white margins do not crop any connector.
+
+</details>
+<!-- model-images:BOSS::ME-20 ends -->
+
+
 Guitar multi-effects; distinct from ME-20B and ME-25. Checked 2026-10-17; partial. Discontinued. Bass/vocal suitability and ownership unverified.
 
 | Field | Finding / qualification | Evidence |
