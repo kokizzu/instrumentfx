@@ -10440,6 +10440,31 @@ These are audio-application compatibility entries, not patch-editor availability
 
 ## V6-SP
 
+<!-- firmware-pitch:Zoom::V6-SP begins -->
+### Firmware and pitch audit — Zoom V6-SP
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. SP package lists SGV-6 microphone as optional and uses V6 documentation/firmware. Its exact first retail date is not established by the reviewed manufacturer material. Original V6 firmware production October2019 is not proof of the SP package launch. [launch 1](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/) |
+| Firmware / latest verification | 1.20 — Latest verified. SP support explicitly offers V6 system1.20. Shared history dates1.20 July2021 (audio stops with effects);1.10 October2019 fixes shutdown while operating VOICE with USB audio;1.00 production October2019. Shared firmware can predate the later package; ASIO driver is separate. [firmware 1](https://zoomcorp.com/en/ca/vocal-processors/vocal-processors/V6-SP/v6-sp-support/) [firmware 2](https://zoomcorp.com/documents/3350/V6_System_Software_Version_History_120_en.pdf) |
+| Firmware / release date | 2021-07 (month precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Vocal key/chromatic correction, OCTAVE UP/DOWN, UNISON, DEEP/CHILD and up to two generated harmony voices. No chord-input/polyphonic transpose claim found. Integrated FORMANT pedal changes voice character without changing pitch. [pitch 1](https://zoomcorp.com/media/documents/E_V6_2.pdf) |
+| Pitch / preset recall | 100 patch memories save VOICE/HARMONY/EFFECT settings via STORE; memory footswitches recall them, and power-up loads the last-used patch. External expression adjusts EFFECT; pedal adjustments are explicitly not saved in patches. |
+| Pitch / DSP resources | Fixed VOICE→FORMANT→HARMONY→EFFECT signal path with compressor/enhance ahead and looper after. One choice per voice/effect section, not a freely allocated block chain. No per-pitch CPU percentage or DSP-budget meter documented. |
+| Pitch / qualifications | SP support links this shared V6 manual. Two generated harmonies and stereo effects do not establish polyphonic input tracking. Documentation only. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [V6-SP product and package](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/) — SP package and optional SGV-6; no exact dated launch established. (manufacturer page inspected).
+- [V6-SP support](https://zoomcorp.com/en/ca/vocal-processors/vocal-processors/V6-SP/v6-sp-support/) — V6 system1.20 offered for SP, with shared manual. (official page inspected).
+- [Shared V6 firmware history](https://zoomcorp.com/documents/3350/V6_System_Software_Version_History_120_en.pdf) — 1.20 July2021 audio stop fix;1.10 October2019 USB-audio VOICE shutdown fix;1.00 production October2019. (official PDF inspected).
+- [Shared V6 operation manual linked by SP support](https://zoomcorp.com/media/documents/E_V6_2.pdf) — Vocal pitch/correction/harmony and formant functions;100 patches, explicit STORE, last-patch recall; external pedal values not saved. Fixed section signal flow, no chord-input or numeric DSP-cost claim. (official 39-page PDF inspected).
+
+<!-- firmware-pitch:Zoom::V6-SP ends -->
+
 Vocal multi-effects with built-in formant pedal. Consolidated/researched2026-10-16; partial verification. Earlier V6 microphone bundle is not the current SP package.
 
 ### V6-SP — preserved original comparison

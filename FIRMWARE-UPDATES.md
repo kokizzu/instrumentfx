@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 401/402 active models have firmware audits; 401/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 402/402 active models have firmware audits; 402/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -425,7 +425,8 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [Zoom RFX-1100](brand/ZOOM.md#rfx-1100) | 2004 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-1100/rfx-1100-support/) |
 | [Zoom RFX-2000](brand/ZOOM.md#rfx-2000) | 1999 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/ca/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-2000/rfx-2000-support/) [firmware 2](https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000) |
 | [Zoom RFX-2200](brand/ZOOM.md#rfx-2200) | 2004 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2200) |
+| [Zoom V6-SP](brand/ZOOM.md#v6-sp) | Not verified | 1.20 — Latest verified | 2021-07 | Not calculable | [launch 1](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/) [firmware 1](https://zoomcorp.com/en/ca/vocal-processors/vocal-processors/V6-SP/v6-sp-support/) [firmware 2](https://zoomcorp.com/documents/3350/V6_System_Software_Version_History_120_en.pdf) |
 
 ## Remaining firmware checks
 
-Zoom V6-SP.
+Every active model has an audit record; unresolved fields above remain unresolved.

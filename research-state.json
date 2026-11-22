@@ -210026,20 +210026,81 @@
           "label": "2.50–2.66 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::V6-SP": {
+        "model_key": "Zoom::V6-SP",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "exact SP package retail date unresolved",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/"
+          ],
+          "note": "SP package lists SGV-6 microphone as optional and uses V6 documentation/firmware. Its exact first retail date is not established by the reviewed manufacturer material. Original V6 firmware production October2019 is not proof of the SP package launch."
+        },
+        "firmware": {
+          "version": "1.20",
+          "date": "2021-07",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/ca/vocal-processors/vocal-processors/V6-SP/v6-sp-support/",
+            "https://zoomcorp.com/documents/3350/V6_System_Software_Version_History_120_en.pdf"
+          ],
+          "note": "SP support explicitly offers V6 system1.20. Shared history dates1.20 July2021 (audio stops with effects);1.10 October2019 fixes shutdown while operating VOICE with USB audio;1.00 production October2019. Shared firmware can predate the later package; ASIO driver is separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Vocal key/chromatic correction, OCTAVE UP/DOWN, UNISON, DEEP/CHILD and up to two generated harmony voices. No chord-input/polyphonic transpose claim found. Integrated FORMANT pedal changes voice character without changing pitch.",
+          "preset": "100 patch memories save VOICE/HARMONY/EFFECT settings via STORE; memory footswitches recall them, and power-up loads the last-used patch. External expression adjusts EFFECT; pedal adjustments are explicitly not saved in patches.",
+          "dsp": "Fixed VOICE→FORMANT→HARMONY→EFFECT signal path with compressor/enhance ahead and looper after. One choice per voice/effect section, not a freely allocated block chain. No per-pitch CPU percentage or DSP-budget meter documented.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_V6_2.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "SP support links this shared V6 manual. Two generated harmonies and stereo effects do not establish polyphonic input tracking. Documentation only."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/",
+            "title": "V6-SP product and package",
+            "access": "manufacturer page inspected",
+            "evidence": "SP package and optional SGV-6; no exact dated launch established."
+          },
+          {
+            "url": "https://zoomcorp.com/en/ca/vocal-processors/vocal-processors/V6-SP/v6-sp-support/",
+            "title": "V6-SP support",
+            "access": "official page inspected",
+            "evidence": "V6 system1.20 offered for SP, with shared manual."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3350/V6_System_Software_Version_History_120_en.pdf",
+            "title": "Shared V6 firmware history",
+            "access": "official PDF inspected",
+            "evidence": "1.20 July2021 audio stop fix;1.10 October2019 USB-audio VOICE shutdown fix;1.00 production October2019."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_V6_2.pdf",
+            "title": "Shared V6 operation manual linked by SP support",
+            "access": "official 39-page PDF inspected",
+            "evidence": "Vocal pitch/correction/harmony and formant functions;100 patches, explicit STORE, last-patch recall; external pedal values not saved. Fixed section signal flow, no chord-input or numeric DSP-cost claim."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
-    "next_models": [
-      "Zoom::V6-SP"
-    ],
-    "status": "in_progress",
-    "completed_model_count": 401,
-    "last_model": "Zoom::V3",
-    "last_commit_parent": "2fc8ccbf8f57fc0b7cad90cfda4437c785fc0853",
+    "next_models": [],
+    "status": "all_models_checked_with_explicit_gaps",
+    "completed_model_count": 402,
+    "last_model": "Zoom::V6-SP",
+    "last_commit_parent": "98bba6a596e9b7177eca456fca5a0d06b6b40ed4",
     "format_version": "firmware-pitch-v1",
-    "pitch_next_models": [
-      "Zoom::V6-SP"
-    ],
-    "pitch_completed_model_count": 401,
+    "pitch_next_models": [],
+    "pitch_completed_model_count": 402,
     "supplemental_model_count": 0
   },
   "model_images": {
