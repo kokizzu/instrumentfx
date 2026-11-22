@@ -219344,11 +219344,36 @@
             "sha256": "295b26ce3c555f5f85f53bc14900d6307b5710085de1e0a60a57f844d1dc3c80"
           }
         }
+      },
+      "BOSS::ME-20B": {
+        "model_key": "BOSS::ME-20B",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/assets/images/products/main/me_20b_top_main.jpg",
+            "source_url": "https://www.boss.info/global/products/me-20b/",
+            "caption": "BOSS ME-20B — powered-on top view",
+            "note": "Complete manufacturer straight-down promotional image with lit red 20 display, effect and footswitch indicators, five rotary controls, panel buttons, three footswitches and full expression pedal. This original is only 500 pixels wide; small labels have limited readability. Powered-on appearance is visible; independent operating-state verification is unavailable.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "63a7fc47755a7f52bc874a0fd88570af08ce122a28c11306d8397adc9f4cdfc4"
+          },
+          "rear": {
+            "image_url": "https://stompbox.in/cdn/shop/files/Untitleddesign_1_58f2d9ac-4c5b-4fdc-a258-d6f34e9cada2.jpg?v=1698004400&width=3840",
+            "source_url": "https://stompbox.in/products/boss-me-20b-bass-processor",
+            "caption": "BOSS ME-20B — rear connections",
+            "note": "Retailer-hosted image of the complete rear panel: INPUT, miniature AUX IN, OUTPUT R/L-MONO, PHONES, ENHANCE/TUNER ON/OFF and BANK UP/DOWN footswitch jack, DC IN for PSA adaptor, cord restraint and security slot. The product occupies a small area inside large white margins; fine-label readability is limited.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "199d34b53c0d0ac1c0c5a89d53e498b35b58b7c031318822651004f477027c9c"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-50"
+    "last_model": "BOSS::ME-20B"
   }
 }
