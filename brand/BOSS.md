@@ -148,6 +148,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::AD-8 ends -->
 
+<!-- model-images:BOSS::AD-8 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS AD-8 — control surface**
+
+[![BOSS AD-8 — control surface](https://static.roland.com/assets/images/products/main/ad_8_top_main.jpg)](https://static.roland.com/assets/images/products/main/ad_8_top_main.jpg)
+
+[Image source](https://www.boss.info/global/products/ad-8/). Manufacturer top-down image with illuminated POWER and effect indicators; all controls and three footswitches visible. Small 442-pixel-wide source limits fine-label readability.
+
+**BOSS AD-8 — rear connections**
+
+[![BOSS AD-8 — rear connections](https://easymusiccenter.com/cdn/shop/products/ad_8_back_gal_1024x1024%402x.jpg?v=1637963316)](https://easymusiccenter.com/cdn/shop/products/ad_8_back_gal_1024x1024%402x.jpg?v=1637963316)
+
+[Image source](https://easymusiccenter.com/products/ad-8). Full rear connector panel: INPUT, PHONES, electric-guitar-amp output, unbalanced A/B outputs, NOR/LIFT and stereo/mono switches, balanced XLR A/B outputs and DC IN. Large white margins surround the panel.
+
+</details>
+<!-- model-images:BOSS::AD-8 ends -->
+
+
 Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppression; distinct from AD-10 and single-function acoustic simulators. Checked 2026-10-17; partial. No documented bass/vocal membership adopted.
 
 <!-- comparison evidence begins -->

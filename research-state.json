@@ -219649,11 +219649,36 @@
             "sha256": "c373e9aa8463bf25608c9a1741ca556f75187a88ef85b71b843f929792bc35f4"
           }
         }
+      },
+      "BOSS::AD-8": {
+        "model_key": "BOSS::AD-8",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/assets/images/products/main/ad_8_top_main.jpg",
+            "source_url": "https://www.boss.info/global/products/ad-8/",
+            "caption": "BOSS AD-8 — control surface",
+            "note": "Manufacturer top-down image with illuminated POWER and effect indicators; all controls and three footswitches visible. Small 442-pixel-wide source limits fine-label readability.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "517dd426a406cf7c078dcec46a1bb6edbcad8b94c05ef9cd9fd20858244fb962"
+          },
+          "rear": {
+            "image_url": "https://easymusiccenter.com/cdn/shop/products/ad_8_back_gal_1024x1024%402x.jpg?v=1637963316",
+            "source_url": "https://easymusiccenter.com/products/ad-8",
+            "caption": "BOSS AD-8 — rear connections",
+            "note": "Full rear connector panel: INPUT, PHONES, electric-guitar-amp output, unbalanced A/B outputs, NOR/LIFT and stereo/mono switches, balanced XLR A/B outputs and DC IN. Large white margins surround the panel.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "3886fc2e7198ef1b9e1ff3954b0c5cbc08e82df79957474fe78014636e203de1"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GT-001"
+    "last_model": "BOSS::AD-8"
   }
 }
