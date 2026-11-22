@@ -15,11 +15,11 @@
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Official blog index dates an ME-01 promotional article to9 September2025, but does not establish original availability. Product image timestamps and manual-host upload dates are not launch dates. [launch 1](https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs) [launch 2](https://lekatodeal.com/blogs/news) |
+| Firmware / first hardware release | 2025-06-15 (public retail availability by proxy). Dated original forum thread identifies the ME-01 as a new available product and links the exact LEKATO product; post 5 reports current US retail availability. Establishes availability by June 15, 2025, not original global launch or first shipment. This predates the September 9 official promotional article. Direct forum access returned 403; indexed original thread text inspected. [launch 1](https://www.acousticguitarforum.com/forums/showthread.php?p=7659939) |
 | Firmware / latest verification | Not verified — Unverified. Matching owner-manual body describes firmware upgrade through computer software. No exact ME-01 firmware version, dated release note or latest-build listing verified. Official product links software hosted by M-VAVE; that is not evidence that sibling firmware is compatible. Manual-linked support host timed out. [firmware 1](https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs) [firmware 2](https://device.report/manual/20953279) [firmware 3](https://lekatotech.com/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
-| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Firmware / audit date | 2026-11-23; [firmware recap](../FIRMWARE-UPDATES.md). |
 | Pitch / note handling | Pitch present; polyphony unverified. Shimmer reverb includes adjustable wet-signal pitch from unison to two octaves up; Analog delay includes wet detuning. Vibrato modulates pitch. No dedicated dry-signal transpose/octave/harmony algorithm or explicit polyphonic tracking statement verified. [pitch 1](https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs) [pitch 2](https://device.report/manual/20953279) |
 | Pitch / preset recall | 80 editable presets,40 factory-filled and40 initially unedited. Pitch-related settings are effect parameters within stored presets; Shimmer is a reverb type rather than a dedicated transpose block. |
 | Pitch / DSP resources | Six reorderable modules with6+1 simultaneous processing stated in manual, not seven freely assignable modules. Shimmer uses RVB selection and delay detune its DLY selection; no per-algorithm DSP percentage or measured shared-budget cost located. |
@@ -32,6 +32,7 @@ Sources checked:
 - [LEKATO ME-01 matching owner-manual body](https://device.report/manual/20953279) — Computer firmware-upgrade capability; Shimmer wet pitch unison to+2 octaves,delay detune,vibrato;6+1 processing and80 presets. No explicit pitch polyphony or DSP percentage. (manufacturer-authored manual transcription on mirror; exact identity and lekatotech.com support reference checked).
 - [LEKATO official news index](https://lekatodeal.com/blogs/news) — ME-01 promotional article dated9 September2025; does not establish original hardware launch. (readable official dated index).
 - [LEKATO manual-linked support host](https://lekatotech.com/) — Latest exact-model firmware could not be verified from this support host. (browser timeout).
+- [Acoustic Guitar Forum — Lekato ME-01, June 2025](https://www.acousticguitarforum.com/forums/showthread.php?p=7659939) — Thread post 1 dated June 15, 2025 identifies new ME-01 and links exact LEKATO page; post 5 same date reports current US retail availability. Used only as availability-by proxy, not manufacturer launch or authenticated hardware test. Later June 21 posts discuss use. (indexed_original_forum_thread_direct_403).
 
 <!-- firmware-pitch:LEKATO::ME-01 ends -->
 

@@ -205834,16 +205834,15 @@
       },
       "LEKATO::ME-01": {
         "model_key": "LEKATO::ME-01",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "Original hardware launch unresolved",
+          "date": "2025-06-15",
+          "precision": "day",
+          "kind": "public_retail_availability_by_proxy",
           "source_urls": [
-            "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
-            "https://lekatodeal.com/blogs/news"
+            "https://www.acousticguitarforum.com/forums/showthread.php?p=7659939"
           ],
-          "note": "Official blog index dates an ME-01 promotional article to9 September2025, but does not establish original availability. Product image timestamps and manual-host upload dates are not launch dates."
+          "note": "Dated original forum thread identifies the ME-01 as a new available product and links the exact LEKATO product; post 5 reports current US retail availability. Establishes availability by June 15, 2025, not original global launch or first shipment. This predates the September 9 official promotional article. Direct forum access returned 403; indexed original thread text inspected."
         },
         "firmware": {
           "version": null,
@@ -205896,10 +205895,87 @@
             "title": "LEKATO manual-linked support host",
             "access": "browser timeout",
             "evidence": "Latest exact-model firmware could not be verified from this support host."
+          },
+          {
+            "url": "https://www.acousticguitarforum.com/forums/showthread.php?p=7659939",
+            "title": "Acoustic Guitar Forum — Lekato ME-01, June 2025",
+            "access": "indexed_original_forum_thread_direct_403",
+            "evidence": "Thread post 1 dated June 15, 2025 identifies new ME-01 and links exact LEKATO page; post 5 same date reports current US retail availability. Used only as availability-by proxy, not manufacturer launch or authenticated hardware test. Later June 21 posts discuss use."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "LEKATO::ME-01",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "Original hardware launch unresolved",
+              "source_urls": [
+                "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
+                "https://lekatodeal.com/blogs/news"
+              ],
+              "note": "Official blog index dates an ME-01 promotional article to9 September2025, but does not establish original availability. Product image timestamps and manual-host upload dates are not launch dates."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "unverified",
+              "source_urls": [
+                "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
+                "https://device.report/manual/20953279",
+                "https://lekatotech.com/"
+              ],
+              "note": "Matching owner-manual body describes firmware upgrade through computer software. No exact ME-01 firmware version, dated release note or latest-build listing verified. Official product links software hosted by M-VAVE; that is not evidence that sibling firmware is compatible. Manual-linked support host timed out."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Shimmer reverb includes adjustable wet-signal pitch from unison to two octaves up; Analog delay includes wet detuning. Vibrato modulates pitch. No dedicated dry-signal transpose/octave/harmony algorithm or explicit polyphonic tracking statement verified.",
+              "preset": "80 editable presets,40 factory-filled and40 initially unedited. Pitch-related settings are effect parameters within stored presets; Shimmer is a reverb type rather than a dedicated transpose block.",
+              "dsp": "Six reorderable modules with6+1 simultaneous processing stated in manual, not seven freely assignable modules. Shimmer uses RVB selection and delay detune its DLY selection; no per-algorithm DSP percentage or measured shared-budget cost located.",
+              "source_urls": [
+                "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
+                "https://device.report/manual/20953279"
+              ],
+              "measurements": [],
+              "notes": [
+                "Do not infer polyphonic transposition from ambient chord recommendations or Shimmer alone.",
+                "Do not substitute PS-01 Pitch Box,PA-4,TANK-G or M-VAVE MINI-X firmware/specifications."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
+                "title": "LEKATO ME-01 SKU M03397 official product",
+                "access": "readable brand product page",
+                "evidence": "Six modules,80 editable presets,Shimmer reverb and named delay/modulation types; software links partly hosted by M-VAVE; no dated device firmware."
+              },
+              {
+                "url": "https://device.report/manual/20953279",
+                "title": "LEKATO ME-01 matching owner-manual body",
+                "access": "manufacturer-authored manual transcription on mirror; exact identity and lekatotech.com support reference checked",
+                "evidence": "Computer firmware-upgrade capability; Shimmer wet pitch unison to+2 octaves,delay detune,vibrato;6+1 processing and80 presets. No explicit pitch polyphony or DSP percentage."
+              },
+              {
+                "url": "https://lekatodeal.com/blogs/news",
+                "title": "LEKATO official news index",
+                "access": "readable official dated index",
+                "evidence": "ME-01 promotional article dated9 September2025; does not establish original hardware launch."
+              },
+              {
+                "url": "https://lekatotech.com/",
+                "title": "LEKATO manual-linked support host",
+                "access": "browser timeout",
+                "evidence": "Latest exact-model firmware could not be verified from this support host."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Lexicon::MPX100": {
         "model_key": "Lexicon::MPX100",
@@ -217453,8 +217529,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "ROWIN::RE-05 Looper Pro",
-    "last_commit_parent": "aeaf2620ca6341e599123a226ec80bdf1bdd0184",
+    "last_model": "LEKATO::ME-01",
+    "last_commit_parent": "7e0130f9eaa4cd843151fb38de31965cf6b1c086",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
