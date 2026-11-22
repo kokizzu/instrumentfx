@@ -206101,10 +206101,81 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::A3": {
+        "model_key": "Zoom::A3",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2013",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "A3 is listed under 2013; exact first availability day/month not established."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/acoustic/a3/a3-operation-manual/",
+            "https://zoomcorp.com/en/jp/support/version-history/",
+            "https://zoomcorp.com/media/documents/J_A3_0.pdf"
+          ],
+          "note": "Exact-model support lists the manual, not a firmware package. No A3 entry located in the current version-history index. Update support and illustrative SYSTEM/PRESET/BOOT 1.00 screens do not establish a latest firmware release/date; AC-3 is a different product."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT: −12…+12,+24 semitones, ±25-cent fine adjustment, Tone, wet/dry balance and Level; zero shift gives detuning. Separate Detune offers ±25 cents. Documentation does not establish polyphonic tracking.",
+          "preset": "20 user patch memories; AUTO SAVE defaults ON. Manual states firmware updating preserves saved patches, whereas All Initialize resets them.",
+          "dsp": "No pitch DSP percentage published. Three effect positions, with modeling restricted to position 1; heavy combinations can exceed capacity and bypass an effect with DSP Full! ON and OFF consume equal processing; select THRU or change type to release capacity.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/A3_operationManual_English.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Official indexed manual passages inspected; direct full-PDF viewer rejected its size. No hardware tracking/CPU measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology read",
+            "evidence": "A3 grouped under 2013."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/acoustic/a3/a3-operation-manual/",
+            "title": "Zoom A3 support and downloads",
+            "access": "official exact-model list read",
+            "evidence": "Manual listed, no firmware package."
+          },
+          {
+            "url": "https://zoomcorp.com/en/jp/support/version-history/",
+            "title": "Zoom version-history index",
+            "access": "official index checked",
+            "evidence": "A3 entry not located; AC-3 is separate."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/J_A3_0.pdf",
+            "title": "Zoom A3 Japanese manual and quick-guide index",
+            "access": "official indexed VERSION passage inspected; full PDF viewer size rejection",
+            "evidence": "Illustrative SYSTEM/PRESET/BOOT 1.00; not a release announcement."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/A3_operationManual_English.pdf",
+            "title": "Zoom A3 English operation manual",
+            "access": "official indexed pp11,18,32,37 passages read; direct full PDF viewer size rejection",
+            "evidence": "PitchSHFT/Detune parameters; three positions and DSP overflow, bypass retains processing; patch memory rules."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::A3",
       "Zoom::B1 FOUR",
       "Zoom::B1on",
       "Zoom::B1X FOUR",
@@ -206157,12 +206228,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 351,
-    "last_model": "Zoom::A2",
-    "last_commit_parent": "239fa408dc6fee79edd6ee89fddffd268a4ed3bc",
+    "completed_model_count": 352,
+    "last_model": "Zoom::A3",
+    "last_commit_parent": "ed6a56c6d5920c22ecee0adc705d68a1e14b4647",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::A3",
       "Zoom::B1 FOUR",
       "Zoom::B1on",
       "Zoom::B1X FOUR",
@@ -206214,7 +206284,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 351,
+    "pitch_completed_model_count": 352,
     "supplemental_model_count": 0
   },
   "model_images": {

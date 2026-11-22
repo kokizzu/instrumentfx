@@ -1225,6 +1225,32 @@ FP01/FP02 connect to CONTROL IN. Volume position, numerical endpoints, held-posi
 
 ## A3
 
+<!-- firmware-pitch:Zoom::A3 begins -->
+### Firmware and pitch audit — Zoom A3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2013 (manufacturer product-history year). A3 is listed under 2013; exact first availability day/month not established. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model support lists the manual, not a firmware package. No A3 entry located in the current version-history index. Update support and illustrative SYSTEM/PRESET/BOOT 1.00 screens do not establish a latest firmware release/date; AC-3 is a different product. [firmware 1](https://zoomcorp.com/en/us/multi-effects/acoustic/a3/a3-operation-manual/) [firmware 2](https://zoomcorp.com/en/jp/support/version-history/) [firmware 3](https://zoomcorp.com/media/documents/J_A3_0.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT: −12…+12,+24 semitones, ±25-cent fine adjustment, Tone, wet/dry balance and Level; zero shift gives detuning. Separate Detune offers ±25 cents. Documentation does not establish polyphonic tracking. [pitch 1](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf) |
+| Pitch / preset recall | 20 user patch memories; AUTO SAVE defaults ON. Manual states firmware updating preserves saved patches, whereas All Initialize resets them. |
+| Pitch / DSP resources | No pitch DSP percentage published. Three effect positions, with modeling restricted to position 1; heavy combinations can exceed capacity and bypass an effect with DSP Full! ON and OFF consume equal processing; select THRU or change type to release capacity. |
+| Pitch / qualifications | Official indexed manual passages inspected; direct full-PDF viewer rejected its size. No hardware tracking/CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — A3 grouped under 2013. (official chronology read).
+- [Zoom A3 support and downloads](https://zoomcorp.com/en/us/multi-effects/acoustic/a3/a3-operation-manual/) — Manual listed, no firmware package. (official exact-model list read).
+- [Zoom version-history index](https://zoomcorp.com/en/jp/support/version-history/) — A3 entry not located; AC-3 is separate. (official index checked).
+- [Zoom A3 Japanese manual and quick-guide index](https://zoomcorp.com/media/documents/J_A3_0.pdf) — Illustrative SYSTEM/PRESET/BOOT 1.00; not a release announcement. (official indexed VERSION passage inspected; full PDF viewer size rejection).
+- [Zoom A3 English operation manual](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf) — PitchSHFT/Detune parameters; three positions and DSP overflow, bypass retains processing; patch memory rules. (official indexed pp11,18,32,37 passages read; direct full PDF viewer size rejection).
+
+<!-- firmware-pitch:Zoom::A3 ends -->
+
 Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](https://zoomcorp.com/en/us/multi-effects/acoustic/a3/) marks discontinued;absence ofcurrentstock isnot absence ofeligibility. Shared bass membership is supported by its documented upright-bass model; electric-bass voicing is not inferred. Shared live-microphone processing is documented below; this does not establish vocal harmony or pitch correction.
 
 <!-- comparison evidence begins -->
