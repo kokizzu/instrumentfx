@@ -203711,10 +203711,82 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::GP-200LT": {
+        "model_key": "Valeton::GP-200LT",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2022-10-10",
+          "precision": "day",
+          "kind": "official public introduction; earliest retail shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=4xwIiCTLYeg"
+          ],
+          "note": "Valeton official LITE is MIGHT introduction published 10 October 2022; not independently verified first retail shipment."
+        },
+        "firmware": {
+          "version": "1.8.0",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.valeton.net/wpfd_file/gp-200lt-firmware-v1-8-0-zip%EF%BC%88compatible-software-v1-8-0%EF%BC%89/"
+          ],
+          "note": "Highest numbered exact-LT official package located: 4.44 MB, paired with editor 1.8.0. Created 11 June 2025 / Updated 6 February 2026 are repository metadata, not verified firmware release dates. Full-size GP-200 1.8.2 and desktop 1.8.1 are not LT firmware evidence. Dynamic catalogue prevents exhaustive latest guarantee; package not run."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Manufacturer LT firmware 1.4.0 manual explicitly labels OCTA, Pitch and P-Bend polyphonic; Hammy monophonic. OCTA mixes dry with octave-up/down; Pitch has low/high semitone voices and separate dry/voice levels. Complete numeric transposition endpoints are not supplied in inspected table.",
+          "preset": "256 locations, first 100 factory-filled plus 156 remaining; edit/save/copy documented. Two external EXP/FS connections and no built-in treadle. PRE alternatives are not arbitrary independently duplicated pitch instances.",
+          "dsp": "No per-pitch CPU percentage published in inspected sources. Eleven movable category modules remain DSP-limited; demanding combinations can overload. Eleven modules does not imply 1/11 CPU per algorithm.",
+          "source_urls": [
+            "https://device.report/m/def0a5f34326c395091b6a84d3795b00f9fdabbd877240a86ac256dfc3b2235c",
+            "https://www.valeton.net/download/119/gp-200lt/22453/gp-200lt_online-manual_en_firmware-v1-8-0-pdf.pdf",
+            "https://www.valeton.net/product/gp-200lt/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Direct polyphony evidence is explicitly the manufacturer 1.4.0 manual reproduction, not a newly inspected current-firmware effect library. The retained 1.8.0 original manual supports the module/resource, storage and capture context.",
+            "No tracking-quality, chord-latency or hardware DSP measurement performed. No sibling polyphony, firmware version or CPU percentage transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.valeton.net/wpfd_file/gp-200lt-firmware-v1-8-0-zip%EF%BC%88compatible-software-v1-8-0%EF%BC%89/",
+            "title": "Official GP-200LT firmware 1.8.0 listing",
+            "access": "official indexed package page read",
+            "evidence": "4.44 MB; compatible software 1.8.0; Created/Updated timestamps are repository metadata."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=4xwIiCTLYeg",
+            "title": "Valeton GP-200LT official introduction",
+            "access": "indexed official video metadata and description",
+            "evidence": "Published 10 October 2022; public introduction, first shipment unresolved."
+          },
+          {
+            "url": "https://device.report/m/def0a5f34326c395091b6a84d3795b00f9fdabbd877240a86ac256dfc3b2235c",
+            "title": "Manufacturer GP-200LT firmware 1.4.0 manual reproduction",
+            "access": "original manual text read, generated host content excluded",
+            "evidence": "Printed25 OCTA/Pitch/P-Bend polyphonic; Hammy monophonic; low/high/dry parameters, no complete interval endpoints."
+          },
+          {
+            "url": "https://www.valeton.net/download/119/gp-200lt/22453/gp-200lt_online-manual_en_firmware-v1-8-0-pdf.pdf",
+            "title": "Manufacturer GP-200LT firmware 1.8.0 manual",
+            "access": "retained prior original text read; current direct web retrieval unavailable",
+            "evidence": "Eleven category modules and resource limit; 256 slots/100 factory; exact-LT capture context. No successful PDF visual inspection claimed."
+          },
+          {
+            "url": "https://www.valeton.net/product/gp-200lt/",
+            "title": "Valeton official GP-200LT product",
+            "access": "official indexed product text read",
+            "evidence": "Eleven movable modules,256 patches,100 factory and four footswitches; not a numerical CPU allocation."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::GP-200LT",
       "Valeton::GP-5",
       "Valeton::GP-50",
       "Valeton::Rushead Max Bass RH-101",
@@ -203803,12 +203875,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 315,
-    "last_model": "Valeton::GP-200JR",
-    "last_commit_parent": "5f1ece49bd018cfeaa78510cb11be55e59a5f38a",
+    "completed_model_count": 316,
+    "last_model": "Valeton::GP-200LT",
+    "last_commit_parent": "68b1a5ad7121e1686c9bf3357d2aa0f9c9c86b66",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::GP-200LT",
       "Valeton::GP-5",
       "Valeton::GP-50",
       "Valeton::Rushead Max Bass RH-101",
@@ -203896,7 +203967,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 315,
+    "pitch_completed_model_count": 316,
     "supplemental_model_count": 0
   },
   "model_images": {

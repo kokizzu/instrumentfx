@@ -3116,6 +3116,32 @@ These are navigation and assignment behaviors, not proof of scenes, gapless swit
 
 ## GP-200LT
 
+<!-- firmware-pitch:Valeton::GP-200LT begins -->
+### Firmware and pitch audit — Valeton GP-200LT
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022-10-10 (official public introduction; earliest retail shipment unresolved). Valeton official LITE is MIGHT introduction published 10 October 2022; not independently verified first retail shipment. [launch 1](https://www.youtube.com/watch?v=4xwIiCTLYeg) |
+| Firmware / latest verification | 1.8.0 — Located; latest status unverified. Highest numbered exact-LT official package located: 4.44 MB, paired with editor 1.8.0. Created 11 June 2025 / Updated 6 February 2026 are repository metadata, not verified firmware release dates. Full-size GP-200 1.8.2 and desktop 1.8.1 are not LT firmware evidence. Dynamic catalogue prevents exhaustive latest guarantee; package not run. [firmware 1](https://www.valeton.net/wpfd_file/gp-200lt-firmware-v1-8-0-zip%EF%BC%88compatible-software-v1-8-0%EF%BC%89/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Manufacturer LT firmware 1.4.0 manual explicitly labels OCTA, Pitch and P-Bend polyphonic; Hammy monophonic. OCTA mixes dry with octave-up/down; Pitch has low/high semitone voices and separate dry/voice levels. Complete numeric transposition endpoints are not supplied in inspected table. [pitch 1](https://device.report/m/def0a5f34326c395091b6a84d3795b00f9fdabbd877240a86ac256dfc3b2235c) [pitch 2](https://www.valeton.net/download/119/gp-200lt/22453/gp-200lt_online-manual_en_firmware-v1-8-0-pdf.pdf) [pitch 3](https://www.valeton.net/product/gp-200lt/) |
+| Pitch / preset recall | 256 locations, first 100 factory-filled plus 156 remaining; edit/save/copy documented. Two external EXP/FS connections and no built-in treadle. PRE alternatives are not arbitrary independently duplicated pitch instances. |
+| Pitch / DSP resources | No per-pitch CPU percentage published in inspected sources. Eleven movable category modules remain DSP-limited; demanding combinations can overload. Eleven modules does not imply 1/11 CPU per algorithm. |
+| Pitch / qualifications | Direct polyphony evidence is explicitly the manufacturer 1.4.0 manual reproduction, not a newly inspected current-firmware effect library. The retained 1.8.0 original manual supports the module/resource, storage and capture context. No tracking-quality, chord-latency or hardware DSP measurement performed. No sibling polyphony, firmware version or CPU percentage transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Official GP-200LT firmware 1.8.0 listing](https://www.valeton.net/wpfd_file/gp-200lt-firmware-v1-8-0-zip%EF%BC%88compatible-software-v1-8-0%EF%BC%89/) — 4.44 MB; compatible software 1.8.0; Created/Updated timestamps are repository metadata. (official indexed package page read).
+- [Valeton GP-200LT official introduction](https://www.youtube.com/watch?v=4xwIiCTLYeg) — Published 10 October 2022; public introduction, first shipment unresolved. (indexed official video metadata and description).
+- [Manufacturer GP-200LT firmware 1.4.0 manual reproduction](https://device.report/m/def0a5f34326c395091b6a84d3795b00f9fdabbd877240a86ac256dfc3b2235c) — Printed25 OCTA/Pitch/P-Bend polyphonic; Hammy monophonic; low/high/dry parameters, no complete interval endpoints. (original manual text read, generated host content excluded).
+- [Manufacturer GP-200LT firmware 1.8.0 manual](https://www.valeton.net/download/119/gp-200lt/22453/gp-200lt_online-manual_en_firmware-v1-8-0-pdf.pdf) — Eleven category modules and resource limit; 256 slots/100 factory; exact-LT capture context. No successful PDF visual inspection claimed. (retained prior original text read; current direct web retrieval unavailable).
+- [Valeton official GP-200LT product](https://www.valeton.net/product/gp-200lt/) — Eleven movable modules,256 patches,100 factory and four footswitches; not a numerical CPU allocation. (official indexed product text read).
+
+<!-- firmware-pitch:Valeton::GP-200LT ends -->
+
 Guitar/bass/acoustic-instrument multi-effects; **medium** footprint; no built-in expression. This is GP-200LT, not GP-200, JR or a color variant.
 
 | Required field | Verified value / qualification |
