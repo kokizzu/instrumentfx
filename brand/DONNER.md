@@ -136,17 +136,17 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Arena2000 top-down and rear-panel manufacturer composite**
+**Arena2000 powered-on overhead user photograph**
 
-[![Arena2000 top-down and rear-panel manufacturer composite](https://de.donnermusic.com/cdn/shop/products/3_103dc431-95bd-4ea8-97cf-91dc01b12823.jpg?v=1755746805&width=1601)](https://de.donnermusic.com/cdn/shop/products/3_103dc431-95bd-4ea8-97cf-91dc01b12823.jpg?v=1755746805&width=1601)
+[![Arena2000 powered-on overhead user photograph](https://medias.audiofanzine.com/images/normal/donner-arena-2000-6714220.jpg)](https://medias.audiofanzine.com/images/normal/donner-arena-2000-6714220.jpg)
 
-[Image source](https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal). Upper image shows an active screen and illuminated footswitch rings; lower image clearly shows rear ports. Promotional artwork; a physically powered-on photograph is not independently authenticated.
+[Image source](https://fr.audiofanzine.com/multieffet-guitare-electrique/donner/arena-2000/). Visually inspected complete Arena2000 on a fabric surface: active 49C LAMB LEAD MOD display, illuminated effect labels and bright C footswitch ring; all three footswitches and the full expression treadle are visible. Near-overhead camera angle retains slight perspective and reflections. This establishes visible powered operation, not firmware version, pitch polyphony or DSP utilization. Rear-port composite is retained separately below.
 
-**Arena2000 rear connections — lower half of the same manufacturer composite**
+**Arena2000 rear connections — lower half of manufacturer composite**
 
-[![Arena2000 rear connections — lower half of the same manufacturer composite](https://de.donnermusic.com/cdn/shop/products/3_103dc431-95bd-4ea8-97cf-91dc01b12823.jpg?v=1755746805&width=1601)](https://de.donnermusic.com/cdn/shop/products/3_103dc431-95bd-4ea8-97cf-91dc01b12823.jpg?v=1755746805&width=1601)
+[![Arena2000 rear connections — lower half of manufacturer composite](https://de.donnermusic.com/cdn/shop/products/3_103dc431-95bd-4ea8-97cf-91dc01b12823.jpg?v=1755746805&width=1601)](https://de.donnermusic.com/cdn/shop/products/3_103dc431-95bd-4ea8-97cf-91dc01b12823.jpg?v=1755746805&width=1601)
 
-[Image source](https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal). Lower image shows balanced XLR L/R, ground lift, USB-C, phones, AUX, EXP2/FS4/5, unbalanced L/R, input, MIDI IN, power switch and 9V DC. Same composite reused; lifestyle photo excluded.
+[Image source](https://de.donnermusic.com/products/donner-arena-2000-modelling-multi-effect-pedal). Lower image shows balanced XLR L/R, ground lift, USB-C, phones, AUX, EXP2/FS4/5, unbalanced L/R, input, MIDI IN, power switch and 9V DC. Manufacturer top/rear artwork is retained for its lower rear-panel view; the main top view above is a separate powered-on user photograph.
 
 </details>
 <!-- model-images:Donner::Arena2000 ends -->
