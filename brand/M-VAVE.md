@@ -850,9 +850,13 @@ Sources checked:
 
 [![MINI-X powered-on overhead product image](https://www.mvshow.com.br/cdn/shop/files/minix_01_7f3c0a8b-6308-45a5-a19c-8d115da3be85.webp?v=1748145234&width=1946)](https://www.mvshow.com.br/cdn/shop/files/minix_01_7f3c0a8b-6308-45a5-a19c-8d115da3be85.webp?v=1748145234&width=1946)
 
-[Image source](https://www.mvshow.com.br/products/amplificador-de-fone-de-ouvido-mini-x-mvave). Straight overhead MINI-X retailer product image, with blue status indicator shown lit; six labeled knobs and power switch visible. Marketed image is not a hardware test or proof of Bluetooth transmission. Rear/end-port photo remains pending: inspected gallery views show folding plug, underside, dimensions and lifestyle use but do not expose USB/headphone sockets. No hidden port inferred from these images.
+[Image source](https://www.mvshow.com.br/products/amplificador-de-fone-de-ouvido-mini-x-mvave). Straight overhead MINI-X retailer product image, with blue status indicator shown lit; six labeled knobs and power switch visible. Marketed image is not a hardware test or proof of Bluetooth transmission. Physical rear/end-port photo remains pending; importer manual connector-location drawing is shown separately. Previously inspected gallery views show folding plug, underside, dimensions and lifestyle use but do not expose USB/headphone sockets. No hidden port inferred from these images.
 
-**Rear view:** not yet verified.
+**MINI-X connector locations — importer manual illustration**
+
+[![MINI-X connector locations — importer manual illustration](images/m-vave-mini-x-ports.png)](images/m-vave-mini-x-ports.png)
+
+[Image source](https://www.danguitar.dk/pub/assets/MVA-MINIX.pdf#page=3). Cropped from page 3 of the multilingual MINI-X manual hosted by Danish importer DanMusicPartner. Number 1 marks the folding instrument plug, 12 marks charging/OTG recording, and 13 marks the 3.5 mm headphone output. These are connector-location callouts on front/side drawings, not a rear-panel elevation or a photograph of the socket shapes. Physical rear/end-port photograph remains pending.
 
 </details>
 <!-- model-images:M-VAVE::MINI-X ends -->

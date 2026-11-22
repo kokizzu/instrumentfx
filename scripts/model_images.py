@@ -12,7 +12,7 @@ def local_asset(value):
  return ROOT/'brand'/value
 
 def diagram():
- """Render a bounded, explicitly selected original-manual figure; never install firmware."""
+ """Render a bounded, explicitly selected source-manual figure; never install firmware."""
  publish.identity()
  r=json.loads(INPUT.read_text()); s=json.loads((ROOT/'research-state.json').read_text())
  assert r['model_key'] in audit.inventory(s)
@@ -21,6 +21,7 @@ def diagram():
   'https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf':'Korg::AX10B',
   'https://data.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf':'Yamaha::Magicstomp Bass',
   'https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf':'Korg::AX3000B',
+  'https://www.danguitar.dk/pub/assets/MVA-MINIX.pdf':'M-VAVE::MINI-X',
  }
  assert sources.get(d['source_url'])==r['model_key'], 'Manual must match reviewed exact model'
  page=d['page']; assert isinstance(page,int) and 1<=page<=128
