@@ -61,6 +61,12 @@ Sources checked:
 
 [Image source](https://www.joyoaudio.co.uk/joyo-en/joyo-gem-box-2-ii-multi-guitar-effects-looper-drums-metronome-tuner-524786992). Exact-model overhead view with two knobs, five buttons, two footswitches and built-in expression pedal. Screen is blank; powered-on whole-unit overhead remains pending. The separately inspected [active U73 VOODOO BOY display close-up](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/IMG_1624-500x500h.JPG) shows a blue-lit screen but is not a whole-unit top-down photograph.
 
+**Whole-unit active-screen marketing illustration — angled, powered hardware unverified**
+
+[![GEM BOX II angled marketing graphic with active rhythm screen](https://down-tw.img.susercontent.com/file/tw-11134201-7rasc-m5zqqx18krdi9e)](https://down-tw.img.susercontent.com/file/tw-11134201-7rasc-m5zqqx18krdi9e)
+
+[Retailer image source](https://shopee.tw/%E3%80%90%E6%96%B0%E5%93%81%E6%8E%A8%E8%96%A6%E3%80%91JOYO%E5%8D%93%E6%A8%82-GEMBOX-II%E9%9B%BB%E5%90%89%E4%BB%96%E7%B6%9C%E5%90%88%E6%95%88%E6%9E%9C%E5%99%A8%E5%B8%B6%E9%BC%93%E6%A9%9F%E8%B8%8F%E6%9D%BF%E5%A4%B1%E7%9C%9F%E5%96%AE%E5%A1%8ALOOP%E5%BE%AA%E7%92%B0-i.227421517.28625536874). Visually inspected complete GEM BOX II with the RHYTHM page shown on screen. This promotional graphic may use a composited display and does not satisfy the powered-on perpendicular photograph requirement. The original blank-screen overhead picture is retained above.
+
 **JOYO GEM BOX II rear connections**
 
 [![JOYO GEM BOX II rear connections](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/JOYO-GEM-BOX-2-010-500x500.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox2/JOYO-GEM-BOX-2-010-500x500.jpg)
