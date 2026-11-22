@@ -8894,6 +8894,32 @@ Dedicated tracking-synth architecture remains unverified. The existing **six-slo
 
 ## MS-60B
 
+<!-- firmware-pitch:Zoom::MS-60B begins -->
+### Firmware and pitch audit — Zoom MS-60B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2013 (manufacturer product-history year). Official chronology places MS-60B under 2013. Firmware 1.00 mass production was March 2013; exact retail day/month unverified. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 2.10 — Latest verified. Current official support offers 2.1; version history labels it 2.10, October 2019, fixing audio output stopping with certain effects. 2.00 June 2017 added 84 effects. 1.00 March 2013 is initial production, not an exact retail date. [firmware 1](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b/ms-60-support/) [firmware 2](https://zoomcorp.com/documents/3404/MS-60B_System_Software_Version_History_ver210_en.pdf) |
+| Firmware / release date | 2019-10 (month precision) |
+| Firmware / release-to-update duration | 5.75–6.83 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT and Ba Pitch: −12…+12,+24 semitones with fine ±25 cents. Ba Pitch explicitly targets single bass notes; generic PitchSHFT chord tracking unspecified. Ba Octave adds one octave below. [pitch 1](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) [pitch 2](https://zoomcorp.com/media/documents/E_MS-60B_FX-list_v2.pdf) |
+| Pitch / preset recall | 50 patch memories retain effect parameters and on/off states; automatic saving is enabled by default. Footswitch can cycle assigned patches. No expression input documented. |
+| Pitch / DSP resources | Up to four simultaneous effects, subject to processing capacity. DSP Full bypasses an over-capacity effect; change types or use THRU. OFF consumes the same processing as ON. No manufacturer pitch DSP percentage located; four slots are not a CPU fraction. |
+| Pitch / qualifications | Documentation only; no hardware tracking or CPU measurement. Original MS-60B is distinct from MS-60B+. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — MS-60B under 2013. (official chronology inspected).
+- [MS-60B official support](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b/ms-60-support/) — Current Windows/Mac firmware 2.1. (official page inspected).
+- [MS-60B firmware history](https://zoomcorp.com/documents/3404/MS-60B_System_Software_Version_History_ver210_en.pdf) — 2.10 October 2019; 2.00 June 2017; 1.00 production March 2013. (official PDF inspected).
+- [MS-60B operation manual](https://zoomcorp.com/documents/100/MS-60B_operationManual_English.pdf) — 50 patches; four effects; auto-save; DSP Full bypass; OFF retains processing load. (official PDF inspected, pp2,9–11,30–31).
+- [MS-60B version-2 effect parameters](https://zoomcorp.com/media/documents/E_MS-60B_FX-list_v2.pdf) — Generic PitchSHFT, single-bass-note Ba Pitch and Ba Octave; no explicit polyphonic claim. (official PDF inspected, p13).
+
+<!-- firmware-pitch:Zoom::MS-60B ends -->
+
 Checked **2026-10-17**. Original discontinued bass multi-effects,distinct from MS-60B+. No ownership assertion. Primary page/indexed manual text only;no files or dependencies downloaded. Partial record.
 
 | Field | Finding / qualification | Evidence |
