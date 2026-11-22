@@ -215227,11 +215227,36 @@
             "powered_on": false
           }
         }
+      },
+      "Zoom::G1 original": {
+        "model_key": "Zoom::G1 original",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.frimusica.com/cdn/shop/files/4c04ca63f26d75e0e60cc462ffb2a322.jpg?v=1720101134",
+            "source_url": "https://www.frimusica.com/products/pedaleira-zoom-g1-efeitos-para-guitarra-usada",
+            "caption": "Original G1 control face",
+            "note": "Full overhead stock image of original no-treadle G1: two rotary controls,three buttons and two footswitch pads. Red A0 display is depicted, but retailer stock artwork does not independently establish an actual powered photograph. Actual powered overhead evidence remains pending.",
+            "visual_checked": true,
+            "sha256": "28d9589b5df2ff4ac9ad1f418ff1eb9f4e26d5dadcc5d62983c67289b0de87cd",
+            "powered_on": false,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1_rear.jpg",
+            "source_url": "https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g1-guitar-effects-pedal",
+            "caption": "Original G1 rear connections",
+            "note": "Manufacturer original G1 rear-use photograph, viewed from above the connector edge. INPUT,OUTPUT(PHONES),CONTROL IN and center-negative DC9V300mA label are visible. No USB socket is present. This exact G1 CONTROL IN must not be confused with original G1X,which omits it;300mA is supply rating,not measured consumption.",
+            "visual_checked": true,
+            "sha256": "b936120d9193e65945cf1cb370952eaccf4b9f0ca5d7645e0934f7c191955923",
+            "powered_on": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G1 FOUR"
+    "last_model": "Zoom::G1 original"
   }
 }
