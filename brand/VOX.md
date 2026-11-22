@@ -396,6 +396,26 @@ Sources checked:
 
 <!-- firmware-pitch:VOX::StompLab 2G ends -->
 
+<!-- model-images:VOX::StompLab 2G begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Official VOX StompLab 2G control-face image**
+
+[![Official VOX StompLab 2G control-face image](https://voxamps.com/wp-content/uploads/2019/02/SL2G-Stomplab-Guitar-Multi-Effect-1.png)](https://voxamps.com/wp-content/uploads/2019/02/SL2G-Stomplab-Guitar-Multi-Effect-1.png)
+
+[Image source](https://voxamps.com/product/stomplab-2g/). Visually inspected black guitar control face: three knobs, four small buttons, two footswitches and built-in expression treadle. Official stock image displays 50 and colored indicators; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending.
+
+**Official VOX StompLab 2G rear-port shop image**
+
+[![Official VOX StompLab 2G rear-port shop image](https://voxampshop.com/cdn/shop/files/Stomplab-IIG-Guitar-Effect-Processor-Vox-Amp-Shop-498_1200x.jpg?v=1687380851)](https://voxampshop.com/cdn/shop/files/Stomplab-IIG-Guitar-Effect-Processor-Vox-Amp-Shop-498_1200x.jpg?v=1687380851)
+
+[Image source](https://voxampshop.com/products/sl2g). Visually inspected exact rear marked StompLab IIG: INPUT, shared OUTPUT/PHONES(STEREO/MONO), POWER button and center-negative DC9V socket. Complete rear row readable, with no USB/MIDI or external EXP socket. Photo verifies connector placement and polarity, not internal firmware or measured operation.
+
+</details>
+<!-- model-images:VOX::StompLab 2G ends -->
+
+
 Guitar multi-effects with built-in expression, distinct from 1G and 2B. Checked 2026-10-17; partial. Ownership and bass suitability unestablished.
 
 <!-- comparison evidence begins -->
