@@ -215816,7 +215816,7 @@
       },
       "DigiTech::RP55": {
         "model_key": "DigiTech::RP55",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "views": {
           "rear": {
             "image_url": "https://static.sonovente.com/img/library/zoom/59/450/59665_3.jpg",
@@ -215825,9 +215825,28 @@
             "note": "Visually inspected: RP55 rear INPUT, OUTPUT, CONTROL IN and 9VDC sockets; powered-on top-down photograph remains pending.",
             "visual_checked": true,
             "sha256": "83e2c0448f551d904dac3edfff18662f9c378592ae40dcb33fb196e1e5127cd4"
+          },
+          "top": {
+            "image_url": "https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/26091/262962/68202001-88f2-566e-b032-285e7d864ed4__24960.1718087810.jpg?c=2",
+            "source_url": "https://www.creamcitymusic.com/used-digitech-rp55-multi-effects-pedal/",
+            "caption": "RP55 overhead product photograph — display unlit",
+            "note": "Visually inspected: exact RP55 control face, two footswitches and full enclosure, photographed from slightly above rather than a strict perpendicular elevation. Display segments and status indicators are unlit; a powered-on top-down photograph remains pending. Rear connectors are documented separately below.",
+            "visual_checked": true,
+            "sha256": "d2717eef96e74a434570bc6620186b5dfa81a3099ab3dec8f5287ef69148cf62",
+            "powered_on": false,
+            "exact_top_down": false
           }
         },
-        "pending_top": "Powered-on top-down image not yet verified; inspected Audiofanzine candidate had unlit display."
+        "pending_top": "Powered-on perpendicular top-down image remains pending. Cream City Music and Found Sound overhead photographs were visually inspected and both show dark display segments.",
+        "inspected_alternatives": [
+          {
+            "image_url": "https://foundsound.com.au/cdn/shop/files/DigiTech_RP55_sku_34287_MPN_1_1200x1200.jpg?v=1726186578",
+            "source_url": "https://foundsound.com.au/products/34287",
+            "sha256": "ea81ac6905bbd1cfed71c878068aae68e5bb30171a6c60caf0369a4080bc7dec",
+            "visual_checked": true,
+            "note": "Visually inspected exact RP55 control face and both footswitches. Slightly oblique overhead photograph on a keyboard; display segments are dark, so this does not satisfy the powered-on photograph requirement. Existing rear-port photograph retained."
+          }
+        ]
       },
       "DigiTech::RP70": {
         "model_key": "DigiTech::RP70",
@@ -226723,6 +226742,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "ROWIN::RE-05 Looper Pro"
+    "last_model": "DigiTech::RP55"
   }
 }
