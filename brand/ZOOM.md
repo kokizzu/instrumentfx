@@ -7063,6 +7063,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G6 ends -->
 
+<!-- model-images:Zoom::G6 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G6 powered control face**
+
+[![G6 powered control face](https://media.sweetwater.com/m/products/image/9cff01baf5JGttUyRZZOP9pOyJROfegvVjTXusgt.jpg?v=9cff01baf5383575)](https://media.sweetwater.com/m/products/image/9cff01baf5JGttUyRZZOP9pOyJROfegvVjTXusgt.jpg?v=9cff01baf5383575)
+
+[Image source](https://www.sweetwater.com/store/detail/G6--zoom-g6-multi-effects-processor/reviews). Actual powered G6, complete near-overhead control face: color touchscreen shows A-001 KRAMPUS and assigned effects; EFFECT BOARD, TAP and effect indicators are illuminated. Four front parameter knobs, six footswitches and the full expression treadle are visible; MASTER is on the rear.
+
+**G6 rear connections**
+
+[![G6 rear connections](https://zoomcorp.com/media/original_images/G6_back.png.0x1600_q80_crop-%2Cscale_size_canvas.png)](https://zoomcorp.com/media/original_images/G6_back.png.0x1600_q80_crop-%2Cscale_size_canvas.png)
+
+[Image source](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g6/). Official complete rear photograph: INPUT, AUX IN, EXTERNAL LOOP SEND/RETURN, OUTPUT RIGHT and shared LEFT/MONO [PHONES], MASTER knob, CONTROL IN, SD-card slot, covered REMOTE connector, USB, ON/OFF power switch, center-negative DC 9V input and security slot. There is no separate headphone socket; use the manual for USB/REMOTE functions.
+
+</details>
+<!-- model-images:Zoom::G6 ends -->
+
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- ZOOM-G6 source begins -->
