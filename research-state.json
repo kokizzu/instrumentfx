@@ -216705,11 +216705,36 @@
             "sha256": "d1aed26cf51f394b6ca354f97a0808f03d26d7c51022ae6da2678568ad9fc8be"
           }
         }
+      },
+      "Zoom::G3Xn": {
+        "model_key": "Zoom::G3Xn",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-g3xn-3124293.jpg",
+            "source_url": "https://fr.audiofanzine.com/multieffet-guitare-electrique/zoom/g3xn/",
+            "caption": "G3Xn powered control face",
+            "note": "Actual powered G3Xn, full control face and treadle visible from a slightly oblique overhead angle; a strictly perpendicular photograph remains pending. Three LCDs show 001 Lead BGN, 002 Phazed and 003 UFO; the pedal LED and center footswitch LED are lit. Thirteen rotary controls, six TYPE keys, MENU and six foot-operated switches are visible.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "0aaad942257bddc4af25424470c8a7a31a9c586c799353e96366f0bb14e8f0a6"
+          },
+          "rear": {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/Zoom_G3Xn_Rear.jpg",
+            "source_url": "https://www.zoom.co.jp/node/748",
+            "caption": "G3Xn rear connections",
+            "note": "Official complete rear: INPUT, AUX IN, OUTPUT R and shared L/MONO/PHONES, USB Micro-B, ON/OFF power switch, center-negative DC 9V input and security slot. G3Xn has no CONTROL IN jack; headphones share L/MONO rather than a separate socket.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "6373d639a18582b1877f97adccb32ffa9714adc85af431032a144bf6d9532d91"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G3X"
+    "last_model": "Zoom::G3Xn"
   }
 }
