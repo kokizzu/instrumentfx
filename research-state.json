@@ -207181,10 +207181,67 @@
           "label": "-0.16–0.91 years (date ranges overlap; order unresolved)"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G1 original": {
+        "model_key": "Zoom::G1 original",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2006",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists original G1 in2006; exact retail shipment date unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1/g1-support/"
+          ],
+          "note": "Current exact G1 support lists the operation manual only; no public system updater located. Firmware version/date and elapsed update duration unresolved. This does not prove no service firmware ever existed; G1 FOUR/G1on updates excluded."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift transposes/detunes with adjustable wet/dry mix. Mono Pitch explicitly targets single notes. HPS generates major-scale harmony in a selected key; Pitch Bend uses an external pedal. No general chord/polyphonic tracking claim located.",
+          "preset": "40 user+40 preset memories. External FP01/FP02 through CONTROL IN; assignment stored per patch. A target without a pedal symbol has no response. In bypass the pedal always controls volume. CONTROL IN alternatively accepts FS01; G1X built-in/toe behavior is not transferred.",
+          "dsp": "No per-pitch DSP percentage published. Eight fixed serial modules, maximum eight simultaneous. Pitch Shift,Mono Pitch,HPS and Pitch Bend are alternatives in MODULATION with chorus/flanger/step/vibrato/delay; one selected type per module. Eight modules do not imply12.5% per algorithm.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_G1_G1X.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No firmware installation, tracking test or DSP measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "Original G1 listed under2006."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1/g1-support/",
+            "title": "Original G1 support",
+            "access": "current official exact-model download list read",
+            "evidence": "Operation manual only;no system firmware package located."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_G1_G1X.pdf",
+            "title": "Original G1/G1X operation manual",
+            "access": "official PDF printed pp4–5,17–18,22–23,27 inspected",
+            "evidence": "External G1 expression,per-patch assignment,bypass volume;single-note Mono Pitch;shared MODULATION;80memories,eightmodules."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G1 original",
       "Zoom::G11",
       "Zoom::G1on",
       "Zoom::G1X FOUR",
@@ -207224,12 +207281,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 364,
-    "last_model": "Zoom::G1 FOUR",
-    "last_commit_parent": "e83e0fd8a708bc5b828ee4717a7e71323cbd1d36",
+    "completed_model_count": 365,
+    "last_model": "Zoom::G1 original",
+    "last_commit_parent": "8a2ad29b66248546c920aca1d0b1dc84240b0d33",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G1 original",
       "Zoom::G11",
       "Zoom::G1on",
       "Zoom::G1X FOUR",
@@ -207268,7 +207324,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 364,
+    "pitch_completed_model_count": 365,
     "supplemental_model_count": 0
   },
   "model_images": {

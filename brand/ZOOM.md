@@ -3649,6 +3649,30 @@ MEMORY mode provides higher/lower patch switching independently of expression. S
 
 ## G1 original
 
+<!-- firmware-pitch:Zoom::G1 original begins -->
+### Firmware and pitch audit — Zoom G1 original
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2006 (manufacturer product-history year). Manufacturer chronology lists original G1 in2006; exact retail shipment date unverified. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current exact G1 support lists the operation manual only; no public system updater located. Firmware version/date and elapsed update duration unresolved. This does not prove no service firmware ever existed; G1 FOUR/G1on updates excluded. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1/g1-support/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift transposes/detunes with adjustable wet/dry mix. Mono Pitch explicitly targets single notes. HPS generates major-scale harmony in a selected key; Pitch Bend uses an external pedal. No general chord/polyphonic tracking claim located. [pitch 1](https://zoomcorp.com/media/documents/E_G1_G1X.pdf) |
+| Pitch / preset recall | 40 user+40 preset memories. External FP01/FP02 through CONTROL IN; assignment stored per patch. A target without a pedal symbol has no response. In bypass the pedal always controls volume. CONTROL IN alternatively accepts FS01; G1X built-in/toe behavior is not transferred. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Eight fixed serial modules, maximum eight simultaneous. Pitch Shift,Mono Pitch,HPS and Pitch Bend are alternatives in MODULATION with chorus/flanger/step/vibrato/delay; one selected type per module. Eight modules do not imply12.5% per algorithm. |
+| Pitch / qualifications | No firmware installation, tracking test or DSP measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — Original G1 listed under2006. (official chronology inspected).
+- [Original G1 support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1/g1-support/) — Operation manual only;no system firmware package located. (current official exact-model download list read).
+- [Original G1/G1X operation manual](https://zoomcorp.com/media/documents/E_G1_G1X.pdf) — External G1 expression,per-patch assignment,bypass volume;single-note Mono Pitch;shared MODULATION;80memories,eightmodules. (official PDF printed pp4–5,17–18,22–23,27 inspected).
+
+<!-- firmware-pitch:Zoom::G1 original ends -->
+
 Partial,checked2026-10-17. Manufacturer G1/G1X manual,not G1next/G1on/FOUR. Seller title onlyG1;exactrevision remains unverified.
 
 | Required field | Evidence / qualification |
