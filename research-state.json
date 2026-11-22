@@ -220036,11 +220036,36 @@
             "sha256": "ae0ecf5e21f8220b024614b7d9857f5c92adde8267013662c2c5e28ab2c27702"
           }
         }
+      },
+      "Behringer::V-AMP 2": {
+        "model_key": "Behringer::V-AMP 2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://m.media-amazon.com/images/I/81dqE1R8hWS._AC_SL2048_.jpg",
+            "source_url": "https://www.desertcart.in/products/384557816-behringer-v-amp-2-virtual-guitar-amplifier-with-tube-simulation",
+            "caption": "Behringer V-AMP 2 — control surface",
+            "note": "Powered promotional control-surface image with red 25 display and illuminated knob indicators; all nine knobs and panel buttons visible. Rotated oblique overhead view rather than exact upright top-down.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "b3d287f55860dcc14223db48ebbffe862aa2588ac14aa815115d848cfda03838"
+          },
+          "rear": {
+            "image_url": "https://www.audiotrader.co.uk/cdn/shop/files/20250611_154833.jpg?v=1749653450&width=800",
+            "source_url": "https://www.audiotrader.co.uk/products/behringer-v-amp-2-virtual-guitar-amplifier-w-soft-bag",
+            "caption": "Behringer V-AMP 2 — audio connections",
+            "note": "Close-up of the curved connector edge showing stereo LINE OUT sockets, AUX LEVEL wheel and AUX IN socket. This is a partial connector view: AC power, MIDI, footswitch, instrument input and headphones are elsewhere around the enclosure and still need dedicated close-ups.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "2f35d5b44e95f09c7b52a054733bee2f9608ae7ec31d6cf722eacc3182486eae"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Hotone::Ampero II MP-350"
+    "last_model": "Behringer::V-AMP 2"
   }
 }
