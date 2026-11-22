@@ -5798,6 +5798,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::ME-90B ends -->
 
+<!-- model-images:BOSS::ME-90B begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS ME-90B — powered-on top view**
+
+[![BOSS ME-90B — powered-on top view](https://static.roland.com/products/me-90b/image/me-90b_gal_01.jpg)](https://static.roland.com/products/me-90b/image/me-90b_gal_01.jpg)
+
+[Image source](https://www.boss.info/global/products/me-90b/). Complete manufacturer straight-down product view with active red 90 display, colored section and footswitch indicators, all rotary sections, four panel buttons, eight footswitches and full expression pedal. Powered-on appearance is visible in this promotional image; independent operating-state verification is unavailable.
+
+**BOSS ME-90B — rear connections**
+
+[![BOSS ME-90B — rear connections](https://static.roland.com/products/me-90b/image/me-90b_gal_03.jpg)](https://static.roland.com/products/me-90b/image/me-90b_gal_03.jpg)
+
+[Image source](https://www.boss.info/global/products/me-90b/). Complete manufacturer rear-panel image: XLR BALANCED OUTPUT and ground lift, INPUT, OUTPUT R/L-MONO, AMP/LINE switch, miniature PHONES, SEND/RETURN, covered optional BT-DUAL connector, USB-C, power switch, DC IN for PSA-S adaptor, ground terminal, cord restraint and security slot.
+
+</details>
+<!-- model-images:BOSS::ME-90B ends -->
+
+
 Bass multi-effects;built-in expression with toe switch. Consolidated/researched2026-10-16;partial verification.
 
 ### ME-90B — preserved original comparison
