@@ -18,11 +18,11 @@
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Undated manufacturer product page; image-path timestamps and generic site copyright do not establish launch or first shipment. [launch 1](https://www.moskyaudio.com/product/product-25-548.html) |
+| Firmware / first hardware release | 2020-03-31 (public demo availability by proxy). Original exact-model DC5 demo metadata dates publication March 31, 2020. Establishes public demonstration by that date, not original global launch or first shipment; earlier availability remains possible. The April 6, 2020 Effects Database entry is later catalogue publication, not a manufacturer release date. [launch 1](https://www.youtube.com/watch?v=YDUFEPNCmIo) |
 | Firmware / latest verification | Not verified — No public firmware located. No DC5 firmware, release notes or updater found on the checked product/manual routes and exact-model searches. Manual index exposes no entries. This does not prove internal firmware absent or non-updatability; no release-to-update span calculable. [firmware 1](https://www.moskyaudio.com/product/product-25-548.html) [firmware 2](https://www.moskyaudio.com/mosky.html) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
-| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Firmware / audit date | 2026-11-23; [firmware recap](../FIRMWARE-UPDATES.md). |
 | Pitch / note handling | No pitch algorithm documented in checked sources. Checked manufacturer description lists delay, chorus, distortion, overdrive and buffer/booster. No dedicated interval pitch-shift, transpose, octave or harmonizer documented. Chorus modulation alone does not establish a polyphonic transposer. [pitch 1](https://www.moskyaudio.com/product/product-25-548.html) |
 | Pitch / preset recall | Factory/user preset counts, electronic recall and programmable pitch states unverified; physical controls are not evidence of memory slots. |
 | Pitch / DSP resources | No pitch-specific DSP cost established because no dedicated pitch algorithm is documented. Five advertised effect sections do not establish a 20% CPU cost or five freely assignable DSP blocks. |
@@ -33,6 +33,7 @@ Sources checked:
 
 - [Mosky DC5 original manufacturer product page](https://www.moskyaudio.com/product/product-25-548.html) — Undated five-effect description; delay/chorus/distortion/overdrive/bufferbooster. No pitch or firmware release documented. (Manufacturer page body and linked image URLs inspected).
 - [Mosky manufacturer manual index](https://www.moskyaudio.com/mosky.html) — Products Manual route exposed no document entries; no exact DC5 firmware file located. (Manufacturer index body inspected).
+- [Zulfan Hobi — Mosky DC5 Multi Effect pedal 6in1 Demo test](https://www.youtube.com/watch?v=YDUFEPNCmIo) — Original demo published March 31, 2020; title specifies Mosky DC5 and description names delay, chorus, distortion, overdrive, buffer and booster. Used only as availability-by proxy, not a manufacturer launch announcement or DSP measurement. (indexed_original_video_metadata).
 
 <!-- firmware-pitch:Mosky::DC5 ends -->
 
