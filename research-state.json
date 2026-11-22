@@ -202763,10 +202763,72 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::Dapper Bass VES-2": {
+        "model_key": "Valeton::Dapper Bass VES-2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first release unresolved",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-bass/"
+          ],
+          "note": "Current manufacturer product has no first-release date. V01_170103 manual identifier and stock-image170206/170207 filenames are not shipment evidence. Demo publication is not first retail release."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-bass/",
+            "https://www.valeton.net/firmware/",
+            "https://manualmachine.com/valeton/dapperbass/2574560-user-manual/"
+          ],
+          "note": "No numbered full-size Dapper Bass firmware release, date or updater identified in checked manufacturer sources/manual body. V01 is manual revision; VES-2 identifies hardware rather than firmware2. Firmware index dynamic listing may be incomplete; no claim that no embedded firmware ever existed."
+        },
+        "pitch": {
+          "status": "documented_monophonic",
+          "algorithms": "Manufacturer explicitly calls OCTAVE all-analog monophonic. Manual provides DRY, OCT1 (one octave lower) and OCT2 (two octaves lower) levels; separate analog chorus has depth control.",
+          "preset": "Independent dry/-1/-2 octave level knobs; no programmable pitch preset count or general chromatic interval selector documented.",
+          "dsp": "Octave is documented as analog, so no digital pitch-block CPU percentage is established. No published DSP resource meter/cost; 85mA device current is electrical draw, not processing percentage.",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-bass/",
+            "https://manualmachine.com/valeton/dapperbass/2574560-user-manual/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Monophonic applies to OCTAVE; do not extend it to every circuit or infer polyphonic chorus tracking.",
+            "Synth-like tones describe octave timbre, not a separate sampled-synth or polyphonic transposer.",
+            "FX loop sits between Bass Amp and Octave. No hardware/audio tracking measurement or firmware execution performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.valeton.net/product/dapper-bass/",
+            "title": "Valeton full-size Dapper Bass official product",
+            "access": "web page read",
+            "evidence": "Explicit all-analog monophonic octave; separate chorus, FX loop and outputs. No launch or firmware date."
+          },
+          {
+            "url": "https://www.valeton.net/firmware/",
+            "title": "Valeton official firmware index",
+            "access": "web text read; dynamic visibility limited",
+            "evidence": "No exact full-size Dapper Bass package exposed in extracted text."
+          },
+          {
+            "url": "https://manualmachine.com/valeton/dapperbass/2574560-user-manual/",
+            "title": "Manufacturer Dapper Bass owner manual mirrored at ManualMachine",
+            "access": "original manual body text read; not generated summaries",
+            "evidence": "Printed second page dry/-1/-2 octave levels and monophonic description, chorus depth and post-Bass-Amp/pre-Octave loop; no DSP cost or firmware release."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::Dapper Bass VES-2",
       "Valeton::Dapper Dark Mini",
       "Valeton::Dapper Dark VES-3",
       "Valeton::Dapper Indie",
@@ -202867,12 +202929,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 303,
-    "last_model": "Valeton::Dapper Bass Mini MES-2",
-    "last_commit_parent": "408699e8b12456caadc3a7832d92e925e5c7c107",
+    "completed_model_count": 304,
+    "last_model": "Valeton::Dapper Bass VES-2",
+    "last_commit_parent": "588717457c97cfe2410fcda7d091f515fc329784",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::Dapper Bass VES-2",
       "Valeton::Dapper Dark Mini",
       "Valeton::Dapper Dark VES-3",
       "Valeton::Dapper Indie",
@@ -202972,7 +203033,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 303,
+    "pitch_completed_model_count": 304,
     "supplemental_model_count": 0
   },
   "model_images": {

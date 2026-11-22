@@ -350,6 +350,30 @@ Headphones are dedicated1/8inchTRS in shop specifications. Module/tuner foot act
 
 ## Dapper Bass VES-2
 
+<!-- firmware-pitch:Valeton::Dapper Bass VES-2 begins -->
+### Firmware and pitch audit — Valeton Dapper Bass VES-2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Current manufacturer product has no first-release date. V01_170103 manual identifier and stock-image170206/170207 filenames are not shipment evidence. Demo publication is not first retail release. [launch 1](https://www.valeton.net/product/dapper-bass/) |
+| Firmware / latest verification | Not verified — No public firmware located. No numbered full-size Dapper Bass firmware release, date or updater identified in checked manufacturer sources/manual body. V01 is manual revision; VES-2 identifies hardware rather than firmware2. Firmware index dynamic listing may be incomplete; no claim that no embedded firmware ever existed. [firmware 1](https://www.valeton.net/product/dapper-bass/) [firmware 2](https://www.valeton.net/firmware/) [firmware 3](https://manualmachine.com/valeton/dapperbass/2574560-user-manual/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. Manufacturer explicitly calls OCTAVE all-analog monophonic. Manual provides DRY, OCT1 (one octave lower) and OCT2 (two octaves lower) levels; separate analog chorus has depth control. [pitch 1](https://www.valeton.net/product/dapper-bass/) [pitch 2](https://manualmachine.com/valeton/dapperbass/2574560-user-manual/) |
+| Pitch / preset recall | Independent dry/-1/-2 octave level knobs; no programmable pitch preset count or general chromatic interval selector documented. |
+| Pitch / DSP resources | Octave is documented as analog, so no digital pitch-block CPU percentage is established. No published DSP resource meter/cost; 85mA device current is electrical draw, not processing percentage. |
+| Pitch / qualifications | Monophonic applies to OCTAVE; do not extend it to every circuit or infer polyphonic chorus tracking. Synth-like tones describe octave timbre, not a separate sampled-synth or polyphonic transposer. FX loop sits between Bass Amp and Octave. No hardware/audio tracking measurement or firmware execution performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Valeton full-size Dapper Bass official product](https://www.valeton.net/product/dapper-bass/) — Explicit all-analog monophonic octave; separate chorus, FX loop and outputs. No launch or firmware date. (web page read).
+- [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact full-size Dapper Bass package exposed in extracted text. (web text read; dynamic visibility limited).
+- [Manufacturer Dapper Bass owner manual mirrored at ManualMachine](https://manualmachine.com/valeton/dapperbass/2574560-user-manual/) — Printed second page dry/-1/-2 octave levels and monophonic description, chorus depth and post-Bass-Amp/pre-Octave loop; no DSP cost or firmware release. (original manual body text read; not generated summaries).
+
+<!-- firmware-pitch:Valeton::Dapper Bass VES-2 ends -->
+
 Full-size bass combined-effects strip;notMiniMES-2. Checked2026-10-17;partial. Manufacturer architecture establishesmulti-effects eligibility. VES-2code is seller identification pendingmanualcorroboration.
 
 | Field | Finding / qualification | Evidence |
