@@ -1126,11 +1126,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Official GP-5 control-face stock image**
+**GP-5 powered-on user photograph — angled overhead**
 
-[![Official GP-5 control-face stock image](https://shop.valeton.net/cdn/shop/files/GP-5_Front_WithScreen_Hi_V01_250425_1445x.png?v=1747797183)](https://shop.valeton.net/cdn/shop/files/GP-5_Front_WithScreen_Hi_V01_250425_1445x.png?v=1747797183)
+[![GP-5 powered-on user photograph — angled overhead](https://cdn.basschat.co.uk/monthly_2025_08/IMG20250825141539.jpg.44786d61c66909a25e61d2e38e1c98dd.jpg)](https://cdn.basschat.co.uk/monthly_2025_08/IMG20250825141539.jpg.44786d61c66909a25e61d2e38e1c98dd.jpg)
 
-[Image source](https://shop.valeton.net/products/gp-5). Visually inspected exact GP-5 control face: two knobs, one footswitch, color display and no separate buttons. IN and OUT/PHONES labels flank the side sockets. Stock artwork shows screen and blue ring; actual powered-unit photography is unverified. Slight case-edge perspective; strict overhead powered photography pending.
+[Image source](https://www.basschat.co.uk/topic/512624-valeton-gp-5-gp-50/). Visually inspected complete GP-5 on a light textured surface: active preset44 display, illuminated blue footswitch ring, both VOL/PARA knobs and side audio connections visible. The near end face is visible, so this is angled overhead rather than a perpendicular top-down view. A strict top-down replacement remains pending. No firmware version, bass-specific hardware variant, pitch polyphony or DSP measurement inferred from the patch shown. Official rear connector view retained separately.
 
 **Official GP-5 rear connector-edge stock image**
 

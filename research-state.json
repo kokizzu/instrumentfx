@@ -222924,14 +222924,14 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://shop.valeton.net/cdn/shop/files/GP-5_Front_WithScreen_Hi_V01_250425_1445x.png?v=1747797183",
-            "source_url": "https://shop.valeton.net/products/gp-5",
-            "caption": "Official GP-5 control-face stock image",
-            "note": "Visually inspected exact GP-5 control face: two knobs, one footswitch, color display and no separate buttons. IN and OUT/PHONES labels flank the side sockets. Stock artwork shows screen and blue ring; actual powered-unit photography is unverified. Slight case-edge perspective; strict overhead powered photography pending.",
+            "image_url": "https://cdn.basschat.co.uk/monthly_2025_08/IMG20250825141539.jpg.44786d61c66909a25e61d2e38e1c98dd.jpg",
+            "source_url": "https://www.basschat.co.uk/topic/512624-valeton-gp-5-gp-50/",
+            "caption": "GP-5 powered-on user photograph — angled overhead",
+            "note": "Visually inspected complete GP-5 on a light textured surface: active preset44 display, illuminated blue footswitch ring, both VOL/PARA knobs and side audio connections visible. The near end face is visible, so this is angled overhead rather than a perpendicular top-down view. A strict top-down replacement remains pending. No firmware version, bass-specific hardware variant, pitch polyphony or DSP measurement inferred from the patch shown. Official rear connector view retained separately.",
             "visual_checked": true,
-            "sha256": "3ee60e33419e40cc07e01067e7fbbe106bf31824e6a7d050789883d279056bee",
-            "powered_on": null,
-            "exact_top_down": false
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "fcc0807e45202997fc658eb2b4756d419db96ecd27fd10f407f1bc428dc05d96"
           },
           "rear": {
             "image_url": "https://shop.valeton.net/cdn/shop/files/GP-5_Top_Hi_V01_250425_1445x.png?v=1747797182",
@@ -222943,7 +222943,16 @@
             "powered_on": null,
             "exact_top_down": false
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://shop.valeton.net/cdn/shop/files/GP-5_Front_WithScreen_Hi_V01_250425_1445x.png?v=1747797183",
+            "source_url": "https://shop.valeton.net/products/gp-5",
+            "sha256": "3ee60e33419e40cc07e01067e7fbbe106bf31824e6a7d050789883d279056bee",
+            "visual_checked": true,
+            "note": "Superseded manufacturer active-screen stock artwork; physical powered operation was not independently authenticated by it."
+          }
+        ]
       },
       "Valeton::GP-50": {
         "model_key": "Valeton::GP-50",
@@ -227043,6 +227052,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-200LT"
+    "last_model": "Valeton::GP-5"
   }
 }
