@@ -204596,10 +204596,76 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "VOX::ToneLab ST": {
+        "model_key": "VOX::ToneLab ST",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2009-04",
+          "precision": "month",
+          "kind": "manufacturer-announced US availability month; shipment unresolved",
+          "source_urls": [
+            "https://www.premierguitar.com/vox-adds-to-valvetronix-pedal-line"
+          ],
+          "note": "VOX announcement reproduced3April2009 specifies US availability in late April. Earlier1April Musikmesse coverage located; April is planned availability, not verified first shipment. Archive photo page2010 chronology is contradicted by2009 contemporaneous announcement."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://voxamps.com/product/tonelab-st/",
+            "https://voxamps.com/ja/product/tonelab-st/"
+          ],
+          "note": "No exact ST device firmware package/date located in inspected product/download material. VOX2ch2.0.0 is a Windows host audio driver; Sound Librarian1.1.0 is host software, not device firmware. Legacy production status and manual upload dates do not establish firmware lifetime."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Own manual explicitly documents chord-capable PITCH SHIFTER: −12…+12 semitones plus DT. TAP selects octave/fourth/fifth shortcuts; TAP+EDIT selects semitone steps; direct/effect balance and pedal pitch assignment documented.",
+          "preset": "50user0–49 and50factory50–99. Expression assignment/endpoints save per program; instantaneous PITCH pedal value is a save exception. Pitch and delay share the single MOD/DELAY selection, so independent simultaneous pitch+delay blocks are not documented.",
+          "dsp": "No per-pitch DSP percentage found. Shared MOD/DELAY selection is a routing constraint, not a CPU measurement. Host-driver low-latency statements do not measure pitch algorithm latency.",
+          "source_urls": [
+            "https://voxamps.com/wp-content/uploads/support/TonelabST_OwnersManual.pdf",
+            "https://voxamps.com/product/tonelab-st/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Chord capability is directly manufacturer-documented; maximum notes, latency and artifact quality remain unmeasured.",
+            "Exact ST evidence used; no LE/SE pitch range or EX firmware inherited."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://voxamps.com/wp-content/uploads/support/TonelabST_OwnersManual.pdf",
+            "title": "VOX ToneLab ST owner manual",
+            "access": "official PDF original pitch and expression passages read",
+            "evidence": "Printed21 PITCH permits chords,±12/DT; printed24 pedal save exception; shared MOD/DELAY selection."
+          },
+          {
+            "url": "https://voxamps.com/product/tonelab-st/",
+            "title": "VOX ToneLab ST legacy product",
+            "access": "official product and host-driver release notes read",
+            "evidence": "VOX2ch2.0.0 Windows audio driver;50factory+50user; no device firmware chronology located."
+          },
+          {
+            "url": "https://voxamps.com/ja/product/tonelab-st/",
+            "title": "VOX ToneLab ST Japanese product and software downloads",
+            "access": "official Sound Librarian version history read",
+            "evidence": "Sound Librarian1.1.0 host program fixes; not an ST device firmware release."
+          },
+          {
+            "url": "https://www.premierguitar.com/vox-adds-to-valvetronix-pedal-line",
+            "title": "VOX ToneLab ST manufacturer announcement reproduced by Premier Guitar",
+            "access": "contemporaneous manufacturer announcement body read",
+            "evidence": "3April2009 announcement specifies US availability lateApril2009; distinct from confirmed delivery."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "VOX::ToneLab ST",
       "Yamaha::AG-Stomp",
       "Yamaha::DG-Stomp",
       "Yamaha::Magicstomp Acoustic",
@@ -204675,12 +204741,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 328,
-    "last_model": "VOX::ToneLab SE",
-    "last_commit_parent": "74a2697099e213f15071d48050609f5ad6bef6d3",
+    "completed_model_count": 329,
+    "last_model": "VOX::ToneLab ST",
+    "last_commit_parent": "8edfbca682a374c5b1e79c69aab9f4f33b7e5724",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "VOX::ToneLab ST",
       "Yamaha::AG-Stomp",
       "Yamaha::DG-Stomp",
       "Yamaha::Magicstomp Acoustic",
@@ -204755,7 +204820,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 328,
+    "pitch_completed_model_count": 329,
     "supplemental_model_count": 0
   },
   "model_images": {

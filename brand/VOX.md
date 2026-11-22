@@ -853,6 +853,31 @@ Manufacturer-hosted Japanese J1 manual viewed as browser text;printed pagination
 
 ## ToneLab ST
 
+<!-- firmware-pitch:VOX::ToneLab ST begins -->
+### Firmware and pitch audit — VOX ToneLab ST
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2009-04 (manufacturer-announced US availability month; shipment unresolved). VOX announcement reproduced3April2009 specifies US availability in late April. Earlier1April Musikmesse coverage located; April is planned availability, not verified first shipment. Archive photo page2010 chronology is contradicted by2009 contemporaneous announcement. [launch 1](https://www.premierguitar.com/vox-adds-to-valvetronix-pedal-line) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact ST device firmware package/date located in inspected product/download material. VOX2ch2.0.0 is a Windows host audio driver; Sound Librarian1.1.0 is host software, not device firmware. Legacy production status and manual upload dates do not establish firmware lifetime. [firmware 1](https://voxamps.com/product/tonelab-st/) [firmware 2](https://voxamps.com/ja/product/tonelab-st/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Own manual explicitly documents chord-capable PITCH SHIFTER: −12…+12 semitones plus DT. TAP selects octave/fourth/fifth shortcuts; TAP+EDIT selects semitone steps; direct/effect balance and pedal pitch assignment documented. [pitch 1](https://voxamps.com/wp-content/uploads/support/TonelabST_OwnersManual.pdf) [pitch 2](https://voxamps.com/product/tonelab-st/) |
+| Pitch / preset recall | 50user0–49 and50factory50–99. Expression assignment/endpoints save per program; instantaneous PITCH pedal value is a save exception. Pitch and delay share the single MOD/DELAY selection, so independent simultaneous pitch+delay blocks are not documented. |
+| Pitch / DSP resources | No per-pitch DSP percentage found. Shared MOD/DELAY selection is a routing constraint, not a CPU measurement. Host-driver low-latency statements do not measure pitch algorithm latency. |
+| Pitch / qualifications | Chord capability is directly manufacturer-documented; maximum notes, latency and artifact quality remain unmeasured. Exact ST evidence used; no LE/SE pitch range or EX firmware inherited. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [VOX ToneLab ST owner manual](https://voxamps.com/wp-content/uploads/support/TonelabST_OwnersManual.pdf) — Printed21 PITCH permits chords,±12/DT; printed24 pedal save exception; shared MOD/DELAY selection. (official PDF original pitch and expression passages read).
+- [VOX ToneLab ST legacy product](https://voxamps.com/product/tonelab-st/) — VOX2ch2.0.0 Windows audio driver;50factory+50user; no device firmware chronology located. (official product and host-driver release notes read).
+- [VOX ToneLab ST Japanese product and software downloads](https://voxamps.com/ja/product/tonelab-st/) — Sound Librarian1.1.0 host program fixes; not an ST device firmware release. (official Sound Librarian version history read).
+- [VOX ToneLab ST manufacturer announcement reproduced by Premier Guitar](https://www.premierguitar.com/vox-adds-to-valvetronix-pedal-line) — 3April2009 announcement specifies US availability lateApril2009; distinct from confirmed delivery. (contemporaneous manufacturer announcement body read).
+
+<!-- firmware-pitch:VOX::ToneLab ST ends -->
+
 Guitar multi-effects; separate from LE/SE/EX. Checked2026-10-17; partial. Bass suitability/ownership unestablished.
 
 <!-- comparison evidence begins -->
