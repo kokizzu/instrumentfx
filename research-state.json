@@ -222854,7 +222854,7 @@
             "image_url": "https://shop.valeton.net/cdn/shop/files/GP-200JR_Front_WithScreen_Hi_V01_230320_1445x.png?v=1683710969",
             "source_url": "https://shop.valeton.net/products/gp200jr",
             "caption": "Official GP-200JR control-face stock image",
-            "note": "Visually inspected exact GP-200JR control face: five knobs, fourteen buttons, three footswitches and built-in treadle. Stock image displays screen and illuminated rings; actual powered-unit photography is unverified. Rear connectors remain visible beyond the case, so strict overhead powered photography remains pending.",
+            "note": "Visually inspected exact GP-200JR control face: five knobs, fourteen buttons, three footswitches and built-in treadle. Stock image displays screen and illuminated rings; actual powered-unit photography is unverified. Rear connectors remain visible beyond the case, so strict overhead powered photography remains pending.\n\n**Supplementary powered-on shop photograph — angled, pedal edge clipped**\n\n[![GP-200JR powered-on shop photograph](https://img.olx.com.br/images/34/344470682503502.jpg)](https://img.olx.com.br/images/34/344470682503502.jpg)\n\n[Photo source](https://am.olx.com.br/regiao-de-manaus/audio/equipamentos-e-acessorios-de-som/pedaleira-valeton-gp200jr-c-interface-usb-c-10x-r-249-90-no-cartao-de-credito-1337102479). Matching GP-200JR box and physical unit with lit display are visible. Low light and the oblique angle limit detail, and the right treadle edge is cropped. The clearer stock control view above remains for layout; a complete powered-on top-down replacement is still pending.",
             "visual_checked": true,
             "sha256": "85825b44db4833fb715aaab1049fa1c9d17e38ce9a32d5ab31d47dfe2912f0cb",
             "powered_on": null,
@@ -222870,7 +222870,19 @@
             "powered_on": null,
             "exact_top_down": false
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://img.olx.com.br/images/34/344470682503502.jpg",
+            "source_url": "https://am.olx.com.br/regiao-de-manaus/audio/equipamentos-e-acessorios-de-som/pedaleira-valeton-gp200jr-c-interface-usb-c-10x-r-249-90-no-cartao-de-credito-1337102479",
+            "caption": "GP-200JR candidate",
+            "note": "Physical GP-200JR shop photograph on dark textured fabric in front of matching packaging; active screen visible. Oblique, dim and right expression-pedal edge clipped, so unsuitable as the main overhead view.",
+            "visual_checked": true,
+            "sha256": "1ccf47f85744155955bed48c5a48141a8b3f6dfbb557f36e5952d51bfb0ed207",
+            "powered_on": true,
+            "exact_top_down": false
+          }
+        ]
       },
       "Valeton::GP-200LT": {
         "model_key": "Valeton::GP-200LT",
@@ -227022,6 +227034,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-100"
+    "last_model": "Valeton::GP-200JR"
   }
 }

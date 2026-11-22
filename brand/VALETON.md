@@ -2910,6 +2910,12 @@ Sources checked:
 
 [Image source](https://shop.valeton.net/products/gp200jr). Visually inspected exact GP-200JR control face: five knobs, fourteen buttons, three footswitches and built-in treadle. Stock image displays screen and illuminated rings; actual powered-unit photography is unverified. Rear connectors remain visible beyond the case, so strict overhead powered photography remains pending.
 
+**Supplementary powered-on shop photograph — angled, pedal edge clipped**
+
+[![GP-200JR powered-on shop photograph](https://img.olx.com.br/images/34/344470682503502.jpg)](https://img.olx.com.br/images/34/344470682503502.jpg)
+
+[Photo source](https://am.olx.com.br/regiao-de-manaus/audio/equipamentos-e-acessorios-de-som/pedaleira-valeton-gp200jr-c-interface-usb-c-10x-r-249-90-no-cartao-de-credito-1337102479). Matching GP-200JR box and physical unit with lit display are visible. Low light and the oblique angle limit detail, and the right treadle edge is cropped. The clearer stock control view above remains for layout; a complete powered-on top-down replacement is still pending.
+
 **Official GP-200JR rear connector-edge stock image**
 
 [![Official GP-200JR rear connector-edge stock image](https://shop.valeton.net/cdn/shop/files/GP-200JR_Top_Hi_V01_230320555_1445x.jpg?v=1683710968)](https://shop.valeton.net/cdn/shop/files/GP-200JR_Top_Hi_V01_230320555_1445x.jpg?v=1683710968)
