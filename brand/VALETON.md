@@ -2111,11 +2111,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Official GP-150 control-face stock image**
+**Valeton GP-150 — physical powered-on control surface**
 
-[![Official GP-150 control-face stock image](https://shop.valeton.net/cdn/shop/files/GP-150_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999331)](https://shop.valeton.net/cdn/shop/files/GP-150_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999331)
+[![Valeton GP-150 — physical powered-on control surface](https://rockcityguitarshop.nl/cdn/shop/files/DDDAD6ED-6418-4F90-BB2A-8039578D4494.jpg?v=1779359543)](https://rockcityguitarshop.nl/cdn/shop/files/DDDAD6ED-6418-4F90-BB2A-8039578D4494.jpg?v=1779359543)
 
-[Image source](https://shop.valeton.net/products/gp-150). Visually inspected exact GP-150 stock control-face image: five knobs,two footswitches,six buttons and built-in treadle. Display and blue rings shown illuminated in artwork, but actual powered-unit photography is unverified. Slight case-edge perspective; strict overhead powered-on photograph remains pending.
+[Image source](https://rockcityguitarshop.nl/nl/products/valeton-gp-150-multi-effect). Actual shop photograph shows the complete GP-150 propped upright against patterned wallpaper. The 001 New GEN. color screen and both blue footswitch rings are illuminated; five knobs, six buttons, two footswitches and the full treadle are visible. This is a near-front-on view of the upright control surface, not an overhead photograph of a unit lying flat. The [previous manufacturer layout image](https://shop.valeton.net/cdn/shop/files/GP-150_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999331) remains available for detail.
 
 **Official GP-150 connector-edge stock image**
 
