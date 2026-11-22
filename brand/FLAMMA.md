@@ -1427,7 +1427,11 @@ Sources checked:
 
 [![FX200 powered-on top-down product view](https://flammainnovation.com/file/img?url=group1%2FM00%2F00%2F06%2FwKgA0GL0cg-AXzRcAAQTHMuZfvg152.jpg)](https://flammainnovation.com/file/img?url=group1%2FM00%2F00%2F06%2FwKgA0GL0cg-AXzRcAAQTHMuZfvg152.jpg)
 
-[Image source](https://flammainnovation.com/single.html?id=113). Maker blue standard FX200 product cutout viewed straight down. Active01A F Deluxe65 display and illuminated yellow/blue footswitch indicators visible. Display DSP figure belongs to this depicted preset, not an isolated pitch algorithm or measured load.
+[Image source](https://flammainnovation.com/single.html?id=113). Maker blue standard FX200 product cutout viewed straight down. Active01A F Deluxe65 display and illuminated yellow/blue footswitch indicators visible. Display DSP figure belongs to this depicted preset, not an isolated pitch algorithm or measured load. A supplemental physical gray FX200 photograph below shows a connected power cable and illuminated V1.1.1 startup screen, with complete chassis and treadle visible. It is strongly oblique and does not replace the straight-down layout view. V1.1.1 is the historical version on that photographed unit, not a latest-firmware claim.
+
+[![FX200 physical powered-on shop photograph](https://nafiriguitar.com/cdn/shop/products/230304112846_IMG_7109_ori_a91a27f5-5108-4514-8f4b-cd1d20cdc32b.jpg?v=1708495299)](https://nafiriguitar.com/cdn/shop/products/230304112846_IMG_7109_ori_a91a27f5-5108-4514-8f4b-cd1d20cdc32b.jpg?v=1708495299)
+
+[Physical photograph source](https://nafiriguitar.com/th/products/flamma-fx200-guitar-multi-effects-in-gray).
 
 **FX200 rear connections**
 

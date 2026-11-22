@@ -216620,13 +216620,13 @@
       },
       "Flamma::FX200": {
         "model_key": "Flamma::FX200",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "views": {
           "top": {
             "image_url": "https://flammainnovation.com/file/img?url=group1%2FM00%2F00%2F06%2FwKgA0GL0cg-AXzRcAAQTHMuZfvg152.jpg",
             "source_url": "https://flammainnovation.com/single.html?id=113",
             "caption": "FX200 powered-on top-down product view",
-            "note": "Maker blue standard FX200 product cutout viewed straight down. Active01A F Deluxe65 display and illuminated yellow/blue footswitch indicators visible. Display DSP figure belongs to this depicted preset, not an isolated pitch algorithm or measured load.",
+            "note": "Maker blue standard FX200 product cutout viewed straight down. Active01A F Deluxe65 display and illuminated yellow/blue footswitch indicators visible. Display DSP figure belongs to this depicted preset, not an isolated pitch algorithm or measured load. A supplemental physical gray FX200 photograph below shows a connected power cable and illuminated V1.1.1 startup screen, with complete chassis and treadle visible. It is strongly oblique and does not replace the straight-down layout view. V1.1.1 is the historical version on that photographed unit, not a latest-firmware claim.\n\n[![FX200 physical powered-on shop photograph](https://nafiriguitar.com/cdn/shop/products/230304112846_IMG_7109_ori_a91a27f5-5108-4514-8f4b-cd1d20cdc32b.jpg?v=1708495299)](https://nafiriguitar.com/cdn/shop/products/230304112846_IMG_7109_ori_a91a27f5-5108-4514-8f4b-cd1d20cdc32b.jpg?v=1708495299)\n\n[Physical photograph source](https://nafiriguitar.com/th/products/flamma-fx200-guitar-multi-effects-in-gray).",
             "visual_checked": true,
             "powered_on": true,
             "exact_top_down": true,
@@ -216640,7 +216640,19 @@
             "visual_checked": true,
             "sha256": "d60ed2bb3cc6915d3845a520916132973ee988197f61d57b6335d7b138355871"
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://nafiriguitar.com/cdn/shop/products/230304112846_IMG_7109_ori_a91a27f5-5108-4514-8f4b-cd1d20cdc32b.jpg?v=1708495299",
+            "source_url": "https://nafiriguitar.com/th/products/flamma-fx200-guitar-multi-effects-in-gray",
+            "caption": "FX200 — physical powered-on shop photograph",
+            "note": "Actual gray FX200 on a rug with power cable connected and illuminated FX200 V1.1.1 startup screen. Complete chassis, four footswitches, two knobs and treadle visible. Strongly oblique; this supplements the overhead stock view. Startup firmware version is historical for this photographed unit, not evidence of the latest release.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "0cef4f7f23b39a3f2889678d9da590253c7bd5ae48b9562d98e1c4a793857eeb"
+          }
+        ]
       },
       "Flamma::FX20": {
         "model_key": "Flamma::FX20",
@@ -227224,6 +227236,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B1X original"
+    "last_model": "Flamma::FX200"
   }
 }
