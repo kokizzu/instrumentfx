@@ -1092,6 +1092,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::A1X FOUR ends -->
 
+<!-- model-images:Zoom::A1X FOUR begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**A1X FOUR powered control-face photograph**
+
+[![A1X FOUR powered control-face photograph](https://hikigatarisuto-labo.jp/wp-content/uploads/2020/07/A1X-Four_23.webp)](https://hikigatarisuto-labo.jp/wp-content/uploads/2020/07/A1X-Four_23.webp)
+
+[Image source](https://hikigatarisuto-labo.jp/a1x-four/). Review photograph of the complete A1X FOUR from nearly overhead, with backlit 17 AG Singer display and effect-1 LED lit. Four knobs, nine push-buttons, two footswitches and the built-in expression treadle are visible; slight perspective remains.
+
+**A1X FOUR rear connections**
+
+[![A1X FOUR rear connections](https://zoomcorp.com/media/original_images/A1X_FOUR_rear.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg)](https://zoomcorp.com/media/original_images/A1X_FOUR_rear.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg)
+
+[Image source](https://zoomcorp.com/ja/jp/multi-effects/acoustic/A1-FOUR-A1X-FOUR/). Exact A1X FOUR manufacturer photograph, including the treadle section: INPUT, AUX IN, DC9V, USB/DC5V, security slot and OUTPUT are visible. This is not the narrower A1 FOUR rear panel; the image alone does not establish USB audio or MIDI capability.
+
+</details>
+<!-- model-images:Zoom::A1X FOUR ends -->
+
+
 Reviewed **2026-10-17**. Separate acoustic multi-effects model with built-in expression,not A1 FOUR. Shared bass classification follows the manufacturer's explicit acoustic-bass scope;no ownership assertion. Partial research from official HTML and search-indexed manual text;no manual,software,firmware or dependency downloaded.
 
 | Field | Finding / qualification | Evidence |

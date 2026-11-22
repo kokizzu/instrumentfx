@@ -213688,11 +213688,36 @@
             "sha256": "d253937f5a83ebc23bf43993e9474f8aa80ed10ed2134fa3eb24d296e7e16752"
           }
         }
+      },
+      "Zoom::A1X FOUR": {
+        "model_key": "Zoom::A1X FOUR",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://hikigatarisuto-labo.jp/wp-content/uploads/2020/07/A1X-Four_23.webp",
+            "source_url": "https://hikigatarisuto-labo.jp/a1x-four/",
+            "caption": "A1X FOUR powered control-face photograph",
+            "note": "Review photograph of the complete A1X FOUR from nearly overhead, with backlit 17 AG Singer display and effect-1 LED lit. Four knobs, nine push-buttons, two footswitches and the built-in expression treadle are visible; slight perspective remains.",
+            "visual_checked": true,
+            "sha256": "7061e9eb18aa8283b96cc7e4716018231bf276d8a007f033ae84d139be7771e6",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://zoomcorp.com/media/original_images/A1X_FOUR_rear.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+            "source_url": "https://zoomcorp.com/ja/jp/multi-effects/acoustic/A1-FOUR-A1X-FOUR/",
+            "caption": "A1X FOUR rear connections",
+            "note": "Exact A1X FOUR manufacturer photograph, including the treadle section: INPUT, AUX IN, DC9V, USB/DC5V, security slot and OUTPUT are visible. This is not the narrower A1 FOUR rear panel; the image alone does not establish USB audio or MIDI capability.",
+            "visual_checked": true,
+            "sha256": "ef79cd95810529d9fe30f3312312780d6ad9294a8e50264b75edf434c17a74bb",
+            "powered_on": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::A1 FOUR"
+    "last_model": "Zoom::A1X FOUR"
   }
 }
