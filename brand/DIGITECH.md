@@ -1716,11 +1716,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**DigiTech RP355 — top panel**
+**DigiTech RP355 — powered-on full control face, near overhead**
 
-[![DigiTech RP355 — top panel](https://medias.audiofanzine.com/images/normal/digitech-rp355-6141359.jpg)](https://medias.audiofanzine.com/images/normal/digitech-rp355-6141359.jpg)
+[![DigiTech RP355 — powered-on full control face, near overhead](https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Ib8AAeSwsq1oiZNU/%24_57.JPG?set_id=880000500F)](https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Ib8AAeSwsq1oiZNU/%24_57.JPG?set_id=880000500F)
 
-[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP355/). Audiofanzine user-gallery near-overhead photograph of RP355, with slight perspective. Red display windows are unlit; powered-on status is not established. A confirmed powered-on exact top-down replacement remains pending.
+[Image source](https://www.ebay.com/itm/336097695620). Seller photograph visually inspected: RP355 model marking, illuminated red program display, all three footswitches and the complete expression treadle are visible. Camera retains perspective, so a strict straight top-down view remains pending. This used unit is missing the Tone Library knob cap; its shaft and label remain visible. Photograph establishes a lit display, not an audio/function test. Replaces the previously unlit top reference; rear connection photograph retained.
 
 **DigiTech RP355 — rear connections**
 
