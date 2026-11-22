@@ -206173,10 +206173,170 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::B1 FOUR": {
+        "model_key": "Zoom::B1 FOUR",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2019-04",
+          "precision": "month",
+          "kind": "manufacturer announced Japanese availability month",
+          "source_urls": [
+            "https://fs2.magicalir.net/tdnet/2019/6694/20190325494916.pdf"
+          ],
+          "note": "Zoom’s 2019-03-25 release announces late-April2019 availability. Exact shipping day and any earlier regional retail launch remain unresolved; March mass-production firmware is not the retail launch."
+        },
+        "firmware": {
+          "version": "2.00",
+          "date": "2019-11",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/b1b1x-four-support/",
+            "https://zoomcorp.com/documents/3424/B1FOUR_B1XFOUR_System_Software_Version_History_200_en.pdf"
+          ],
+          "note": "Current exact-model Windows/Mac packages remain 2.00. Official history dates 2.00 to November 2019: pre/post looper placement and revised rhythm screen. Version1.10 fixed USB disconnection in May2019. Guitar Lab/effect-library additions are separate from device firmware."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT spans −12…+12,+24 semitones with ±25-cent fine adjustment. BaMnPitch explicitly targets single-note bass; this does not establish that all pitch algorithms are monophonic. Ba Octave adds one octave below, Ba Detune offers ±50 cents, and starred HPS uses scale/key. No chord-tracking claim found for PitchSHFT.",
+          "preset": "50 editable patch memories. B1 FOUR has no built-in treadle; the shared effects list’s PEDAL algorithms do not establish B1X FOUR pedal operation on this model.",
+          "dsp": "No per-pitch DSP percentage published. Up to five effects, with PROCESS OVERFLOW causing effects to be bypassed when capacity is exceeded. Five positions do not guarantee five heavy pitch algorithms.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf",
+            "https://zoomcorp.com/media/documents/E_B1FOUR.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Starred effects are Guitar Lab additions; no third-party effect injection or hardware CPU/tracking test used."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official 2019 product group inspected",
+            "evidence": "B1 FOUR and B1X FOUR are separate 2019 products."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/b1b1x-four-support/",
+            "title": "Zoom B1 FOUR/B1X FOUR support",
+            "access": "official current package list read",
+            "evidence": "B1 FOUR-specific firmware2.00 for Windows/Mac; separate B1X packages and Guitar Lab7.3."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3424/B1FOUR_B1XFOUR_System_Software_Version_History_200_en.pdf",
+            "title": "B1 FOUR/B1X FOUR system-software history",
+            "access": "official one-page PDF read",
+            "evidence": "March2019 mass production1.00; May2019 USBfix1.10; November2019 looper/rhythm2.00."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf",
+            "title": "B1 FOUR/B1X FOUR effects list",
+            "access": "official PDF pp11–12 and PEDAL distinction inspected",
+            "evidence": "PitchSHFT,BaMnPitch,BaOctave,BaDetune,HPS; no polyphonic claim or DSP percentage."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B1FOUR.pdf",
+            "title": "B1 FOUR/B1X FOUR operation manual",
+            "access": "official PDF capacity and memory sections inspected",
+            "evidence": "Five effects,50patches,overflow bypass; model pedal distinction."
+          },
+          {
+            "url": "https://fs2.magicalir.net/tdnet/2019/6694/20190325494916.pdf",
+            "title": "Zoom B1 FOUR/B1X FOUR launch disclosure",
+            "access": "manufacturer-authored TDnet release PDF read via disclosure mirror",
+            "evidence": "Dated2019-03-25; late-April2019 availability, separate pedal/no-pedal models."
+          }
+        ],
+        "duration": {
+          "minimum_days": 185,
+          "maximum_days": 243,
+          "label": "0.51–0.67 years"
+        },
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Zoom::B1 FOUR",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2019",
+              "precision": "year",
+              "kind": "manufacturer product-history year",
+              "source_urls": [
+                "https://ir.zoom.co.jp/en/corporate/history/",
+                "https://zoomcorp.com/documents/3424/B1FOUR_B1XFOUR_System_Software_Version_History_200_en.pdf"
+              ],
+              "note": "Product history places B1 FOUR in 2019. Version history dates mass-production firmware 1.00 to March 2019; this is not an exact retail availability date."
+            },
+            "firmware": {
+              "version": "2.00",
+              "date": "2019-11",
+              "precision": "month",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/b1b1x-four-support/",
+                "https://zoomcorp.com/documents/3424/B1FOUR_B1XFOUR_System_Software_Version_History_200_en.pdf"
+              ],
+              "note": "Current exact-model Windows/Mac packages remain 2.00. Official history dates 2.00 to November 2019: pre/post looper placement and revised rhythm screen. Version1.10 fixed USB disconnection in May2019. Guitar Lab/effect-library additions are separate from device firmware."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "PitchSHFT spans −12…+12,+24 semitones with ±25-cent fine adjustment. BaMnPitch explicitly targets single-note bass; this does not establish that all pitch algorithms are monophonic. Ba Octave adds one octave below, Ba Detune offers ±50 cents, and starred HPS uses scale/key. No chord-tracking claim found for PitchSHFT.",
+              "preset": "50 editable patch memories. B1 FOUR has no built-in treadle; the shared effects list’s PEDAL algorithms do not establish B1X FOUR pedal operation on this model.",
+              "dsp": "No per-pitch DSP percentage published. Up to five effects, with PROCESS OVERFLOW causing effects to be bypassed when capacity is exceeded. Five positions do not guarantee five heavy pitch algorithms.",
+              "source_urls": [
+                "https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf",
+                "https://zoomcorp.com/media/documents/E_B1FOUR.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Starred effects are Guitar Lab additions; no third-party effect injection or hardware CPU/tracking test used."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://ir.zoom.co.jp/en/corporate/history/",
+                "title": "Zoom corporate product history",
+                "access": "official 2019 product group inspected",
+                "evidence": "B1 FOUR and B1X FOUR are separate 2019 products."
+              },
+              {
+                "url": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b1-four-b1x-four/b1b1x-four-support/",
+                "title": "Zoom B1 FOUR/B1X FOUR support",
+                "access": "official current package list read",
+                "evidence": "B1 FOUR-specific firmware2.00 for Windows/Mac; separate B1X packages and Guitar Lab7.3."
+              },
+              {
+                "url": "https://zoomcorp.com/documents/3424/B1FOUR_B1XFOUR_System_Software_Version_History_200_en.pdf",
+                "title": "B1 FOUR/B1X FOUR system-software history",
+                "access": "official one-page PDF read",
+                "evidence": "March2019 mass production1.00; May2019 USBfix1.10; November2019 looper/rhythm2.00."
+              },
+              {
+                "url": "https://zoomcorp.com/media/documents/E_B1FOUR_FX-list.pdf",
+                "title": "B1 FOUR/B1X FOUR effects list",
+                "access": "official PDF pp11–12 and PEDAL distinction inspected",
+                "evidence": "PitchSHFT,BaMnPitch,BaOctave,BaDetune,HPS; no polyphonic claim or DSP percentage."
+              },
+              {
+                "url": "https://zoomcorp.com/media/documents/E_B1FOUR.pdf",
+                "title": "B1 FOUR/B1X FOUR operation manual",
+                "access": "official PDF capacity and memory sections inspected",
+                "evidence": "Five effects,50patches,overflow bypass; model pedal distinction."
+              }
+            ],
+            "duration": {
+              "minimum_days": -60,
+              "maximum_days": 333,
+              "label": "-0.16–0.91 years (date ranges overlap; order unresolved)"
+            },
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
-      "Zoom::B1 FOUR",
       "Zoom::B1on",
       "Zoom::B1X FOUR",
       "Zoom::B1X original",
@@ -206228,12 +206388,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 352,
-    "last_model": "Zoom::A3",
-    "last_commit_parent": "ed6a56c6d5920c22ecee0adc705d68a1e14b4647",
+    "completed_model_count": 353,
+    "last_model": "Zoom::B1 FOUR",
+    "last_commit_parent": "7ea4c0db775e6e08ffaa370622fbaecf11f56aa1",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::B1 FOUR",
       "Zoom::B1on",
       "Zoom::B1X FOUR",
       "Zoom::B1X original",
@@ -206284,7 +206443,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 352,
+    "pitch_completed_model_count": 353,
     "supplemental_model_count": 0
   },
   "model_images": {
