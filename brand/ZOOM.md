@@ -202,6 +202,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::505II ends -->
 
+<!-- model-images:Zoom::505II begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**505II powered control face**
+
+[![505II powered control face](https://i.ebayimg.com/images/g/h2IAAeSwCpRouhU3/s-l960.jpg)](https://i.ebayimg.com/images/g/h2IAAeSwCpRouhU3/s-l960.jpg)
+
+[Image source](https://www.ebay.com/itm/317242193977). Visually checked full powered 505II GUITAR overhead, slight perspective; red A1 patch display illuminated. One rotary PLAY/EDIT selector, two rocker footswitches, STORE and two +/− keys (the round-looking right control is a paired key assembly, not another rotary). No built-in expression treadle. A1 is a patch, not firmware.
+
+**505II rear connectors**
+
+[![505II rear connectors](https://i.ebayimg.com/images/g/FTEAAeSwLWdo~HAF/s-l1200.jpg)](https://i.ebayimg.com/images/g/FTEAAeSwLWdo~HAF/s-l1200.jpg)
+
+[Image source](https://www.ebay.com/itm/376710468681). Visually checked 505II GUITAR rear: INPUT, DC9V, CONTROL IN and shared OUTPUT (PHONES), all four sockets visible. Embossed 300mA label is supply specification, not measured draw. No separate headphone socket. Display unlit and no cables in this rear view; different photographed unit from powered top.
+
+</details>
+<!-- model-images:Zoom::505II ends -->
+
+
 Guitar multi-effects, distinct from original505 and505IICG. Checked2026-10-17;partial. Manufacturer lists discontinued. Bass/vocal suitability andownership unestablished.
 
 | Field | Finding / qualification | Evidence |
