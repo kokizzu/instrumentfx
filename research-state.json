@@ -184583,7 +184583,7 @@
       },
       "BOSS::GX-100": {
         "model_key": "BOSS::GX-100",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-23",
         "first_release": {
           "date": "2022-03-03",
           "precision": "day",
@@ -184608,13 +184608,14 @@
           "status": "pitch_present_polyphony_unverified",
           "algorithms": "Version2 Pitch Shifter ±24 semitones, Fast/Medium/Slow/Mono, one/two generated voices; note-input polyphony is not explicitly established in the checked page. Version2 Poly Octave explicitly accepts polyphonic input, a separate algorithm rather than proof of chordal semitone transposition.",
           "preset": "200 user plus100 preset memories. Product documents storing edited/custom amp-effect chains in user memories; no hardware recall test performed.",
-          "dsp": "Version2 manufacturer classes: guitar/bass Pitch Shifter, Harmonist and Pedal Bend small; Poly Octave and guitar/bass S-Bend medium; Overtone large. No percentages. Reference gives15 effects/functional devices and9 same-effect upper bound, subject to DSP. Product separately specifies15+3; unresolved counting wording retained.",
+          "dsp": "Version2 manufacturer classes: guitar/bass Pitch Shifter, Harmonist and Pedal Bend small; Poly Octave and guitar/bass S-Bend medium; Overtone large. No percentages. Reference gives15 effects/functional devices and9 same-effect upper bound, subject to DSP. Product separately specifies15+3; unresolved counting wording retained. Roland explicitly identifies GX-100 as dynamic DSP assignment,in contrast to GT-1000 fixed allocation. Its comparison corroborates15 effects and up to9 uses of one effect,but neither is a guaranteed9-instance pitch chain or a CPU percentage. Per-algorithm small/medium/large classifications remain the available pitch resource evidence.",
           "source_urls": [
             "https://static.roland.com/manuals/gx-100_parameter_v200/en-US/9120769195991691.html",
             "https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/9123943595998731.html",
             "https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/95920011158006283.html",
             "https://static.roland.com/manuals/gx-100_reference_v200/en-US/6987149994758411.html",
-            "https://www.boss.info/global/products/gx-100/"
+            "https://www.boss.info/global/products/gx-100/",
+            "https://support.roland.com/hc/en-us/articles/4508431369627-GX-100-Differences-between-the-GX-100-and-GT-1000/"
           ],
           "measurements": [],
           "notes": [
@@ -184672,6 +184673,12 @@
             "title": "BOSS GX-100 current product/specifications",
             "access": "opened",
             "evidence": "200user+100preset, user chain storage;15+3 specification retained alongside reference wording."
+          },
+          {
+            "url": "https://support.roland.com/hc/en-us/articles/4508431369627-GX-100-Differences-between-the-GX-100-and-GT-1000/",
+            "title": "Roland GX-100 / GT-1000 DSP architecture comparison",
+            "access": "Official support table read directly;updated11May2026",
+            "evidence": "GX-100 dynamic DSP assignment;15effects and same-effect upper bound9. Platform counts do not quantify individual pitch cost or guarantee all nine repetitions for every chain."
           }
         ],
         "duration": {
@@ -184679,7 +184686,109 @@
           "maximum_days": 1550,
           "label": "4.16–4.24 years"
         },
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "BOSS::GX-100",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": "2022-03-03",
+              "precision": "day",
+              "kind": "manufacturer_announcement_and_availability",
+              "source_urls": [
+                "https://www.roland.com/us/company/press_releases/2022/BOSS-Announces-GX-100-Guitar-Effects-Processor/"
+              ],
+              "note": "Dated manufacturer introduction explicitly says currently available in the US. Exact first individual shipment not verified."
+            },
+            "firmware": {
+              "version": "2.05",
+              "date": "2026-05",
+              "precision": "month",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://www.boss.info/global/support/by_product/gx-100/updates_drivers/",
+                "https://www.boss.info/global/support/by_product/gx-100/updates_drivers/20dae1db-f6e7-469f-a86d-b0b17f1aac4f/"
+              ],
+              "note": "Current index and MAY2026 history; fixes low shimmer reverb/delay levels and FILTER MODE memory-change behavior. Exact day/installed version unverified. Version2.04 MAR2026 removed polyphonic tuner, unrelated to audio pitch polyphony; editor2.0.3 and driver versions are separate."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Version2 Pitch Shifter ±24 semitones, Fast/Medium/Slow/Mono, one/two generated voices; note-input polyphony is not explicitly established in the checked page. Version2 Poly Octave explicitly accepts polyphonic input, a separate algorithm rather than proof of chordal semitone transposition.",
+              "preset": "200 user plus100 preset memories. Product documents storing edited/custom amp-effect chains in user memories; no hardware recall test performed.",
+              "dsp": "Version2 manufacturer classes: guitar/bass Pitch Shifter, Harmonist and Pedal Bend small; Poly Octave and guitar/bass S-Bend medium; Overtone large. No percentages. Reference gives15 effects/functional devices and9 same-effect upper bound, subject to DSP. Product separately specifies15+3; unresolved counting wording retained.",
+              "source_urls": [
+                "https://static.roland.com/manuals/gx-100_parameter_v200/en-US/9120769195991691.html",
+                "https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/9123943595998731.html",
+                "https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/95920011158006283.html",
+                "https://static.roland.com/manuals/gx-100_reference_v200/en-US/6987149994758411.html",
+                "https://www.boss.info/global/products/gx-100/"
+              ],
+              "measurements": [],
+              "notes": [
+                "Version2 parameter and reference pages checked directly; Japanese capacity/Poly Octave text is identified rather than borrowing GX-10 claims.",
+                "Insufficient DSP greys out a new effect even below count limits;9 is not guaranteed pitch capacity for every chain.",
+                "One/two generated voices, mono/stereo output and tuner removal do not establish note-input polyphony. No latency/audio measurement or firmware installation.",
+                "Full version2 PDF and older English Harmonist direct retrieval returned403; this audit does not claim a complete renewed inspection of every pitch algorithm."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.boss.info/global/support/by_product/gx-100/updates_drivers/",
+                "title": "BOSS GX-100 current Updates & Drivers",
+                "access": "opened",
+                "evidence": "System Program2.05 separate from editor2.0.3 and drivers."
+              },
+              {
+                "url": "https://www.boss.info/global/support/by_product/gx-100/updates_drivers/20dae1db-f6e7-469f-a86d-b0b17f1aac4f/",
+                "title": "BOSS GX-100 System Program2.05 history",
+                "access": "opened",
+                "evidence": "MAY2026 latest fixes; MAR2026 tuner removal."
+              },
+              {
+                "url": "https://www.roland.com/us/company/press_releases/2022/BOSS-Announces-GX-100-Guitar-Effects-Processor/",
+                "title": "BOSS GX-100 March3 2022 introduction and availability",
+                "access": "indexed_manufacturer_text",
+                "evidence": "Dated announcement with currently-available US statement."
+              },
+              {
+                "url": "https://static.roland.com/manuals/gx-100_parameter_v200/en-US/9120769195991691.html",
+                "title": "BOSS GX-100 version2 Pitch Shifter parameters",
+                "access": "opened",
+                "evidence": "±24, Fast/Medium/Slow/Mono and generated voices; no explicit input-note polyphony statement."
+              },
+              {
+                "url": "https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/9123943595998731.html",
+                "title": "BOSS GX-100 version2 Poly Octave Japanese parameters",
+                "access": "opened",
+                "evidence": "Explicitly supports polyphonic input."
+              },
+              {
+                "url": "https://static.roland.com/manuals/gx-100_parameter_v200/ja-JP/95920011158006283.html",
+                "title": "BOSS GX-100 version2 Japanese DSP-capacity overview",
+                "access": "opened",
+                "evidence": "Pitch/Harmonist/Pedal Bend small, Poly Octave/S-Bend medium, Overtone large; DSP-limited insertion."
+              },
+              {
+                "url": "https://static.roland.com/manuals/gx-100_reference_v200/en-US/6987149994758411.html",
+                "title": "BOSS GX-100 version2 effect-placement reference",
+                "access": "opened",
+                "evidence": "15effects/functional devices;9same-effect maximum subject to available DSP."
+              },
+              {
+                "url": "https://www.boss.info/global/products/gx-100/",
+                "title": "BOSS GX-100 current product/specifications",
+                "access": "opened",
+                "evidence": "200user+100preset, user chain storage;15+3 specification retained alongside reference wording."
+              }
+            ],
+            "duration": {
+              "minimum_days": 1520,
+              "maximum_days": 1550,
+              "label": "4.16–4.24 years"
+            },
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "BOSS::GX-1B": {
         "model_key": "BOSS::GX-1B",
@@ -216958,8 +217067,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "BOSS::GT-1000",
-    "last_commit_parent": "ccc2e1ca4f4d9c6d379aa2e334c141975f742798",
+    "last_model": "BOSS::GX-100",
+    "last_commit_parent": "ae0ec55821613360b77f3fd35e78cbf3abdec621",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
