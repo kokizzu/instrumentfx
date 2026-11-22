@@ -4650,6 +4650,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G2.1Nu ends -->
 
+<!-- model-images:Zoom::G2.1Nu begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G2.1Nu powered control face**
+
+[![G2.1Nu powered control face](https://cdn.mos.cms.futurecdn.net/f0f08d4d97ddb02749db7181f0684040.jpg)](https://cdn.mos.cms.futurecdn.net/f0f08d4d97ddb02749db7181f0684040.jpg)
+
+[Image source](https://www.musicradar.com/reviews/guitars/zoom-g2nu-g2-1nu-279134). Review photograph of an actual powered G2.1Nu, full near-overhead control face with complete treadle. Amber LCD shows 14:JF Riff, DIRECT and VOLUME LEDs are lit, and a DC cable is connected. Four rotary controls, two footswitches and eight pushbuttons are visible; not the older G2.1u.
+
+**G2.1Nu rear connections**
+
+[![G2.1Nu rear connections](https://medias.audiofanzine.com/images/normal/zoom-g2-1nu-6466832.jpg)](https://medias.audiofanzine.com/images/normal/zoom-g2-1nu-6466832.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/g2-1nu/). Actual complete G2.1Nu rear photograph shows INPUT, shared OUTPUT/PHONES, CONTROL IN, full-size USB Type-B, POWER switch with USB-bus-powered OFF marking, and center-negative DC9V 500mA input. PHONES shares OUTPUT; there is no separate headphone jack. Connector type is visually established, not borrowed from G2.1u.
+
+</details>
+<!-- model-images:Zoom::G2.1Nu ends -->
+
+
 Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [own support page][ZNU-S]. Checked2026-10-18; partial. Ownership and bass/vocal suitability unverified.
 
 <!-- comparison evidence begins -->

@@ -215942,11 +215942,36 @@
             "sha256": "938b79feffd1e898165ee0382c204250948bb92c6a0db84aefb29f53bf9ecb9f"
           }
         }
+      },
+      "Zoom::G2.1Nu": {
+        "model_key": "Zoom::G2.1Nu",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn.mos.cms.futurecdn.net/f0f08d4d97ddb02749db7181f0684040.jpg",
+            "source_url": "https://www.musicradar.com/reviews/guitars/zoom-g2nu-g2-1nu-279134",
+            "caption": "G2.1Nu powered control face",
+            "note": "Review photograph of an actual powered G2.1Nu, full near-overhead control face with complete treadle. Amber LCD shows 14:JF Riff, DIRECT and VOLUME LEDs are lit, and a DC cable is connected. Four rotary controls, two footswitches and eight pushbuttons are visible; not the older G2.1u.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "d4fb1c02274117cbd8acc5a06bbf437a59d57040908b959946f5ab9450d6ebcc"
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-g2-1nu-6466832.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/g2-1nu/",
+            "caption": "G2.1Nu rear connections",
+            "note": "Actual complete G2.1Nu rear photograph shows INPUT, shared OUTPUT/PHONES, CONTROL IN, full-size USB Type-B, POWER switch with USB-bus-powered OFF marking, and center-negative DC9V 500mA input. PHONES shares OUTPUT; there is no separate headphone jack. Connector type is visually established, not borrowed from G2.1u.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "1b5da8698639c8c336b59cf362ae3bf35a5e49cabc5e62aa6d9d47f9ae8b6bd9"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G2 FOUR"
+    "last_model": "Zoom::G2.1Nu"
   }
 }
