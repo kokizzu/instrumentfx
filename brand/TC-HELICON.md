@@ -414,7 +414,7 @@ Sources checked:
 
 [![Mic Mechanic 2 — manufacturer overhead artwork](https://cdn-media.empowertribe.com/168d080958b84556a80b6fab3eb76bc3/Image_TH_0726-AAE_MIC-MECHANIC-2_Top_XL.png)](https://cdn-media.empowertribe.com/168d080958b84556a80b6fab3eb76bc3/Image_TH_0726-AAE_MIC-MECHANIC-2_Top_XL.png)
 
-[Image source](https://www.tchelicon.com/en/products/0726-AAE). Exact 0726-AAE asset, full control face: ECHO (Tape/Digi/Slap), REVERB (RM/Club/Hall), CORRECTION (Off–100), one TONE button and one footswitch. No screen or treadle shown. Printed100 is the correction-control endpoint, not100 cents or100% DSP. This catalogue artwork depicts lit LEDs; it does not independently verify powered hardware. Powered-on overhead photograph remains pending; actual unboxing alternative has unlit indicators and an obstructing cable.
+[Image source](https://www.tchelicon.com/en/products/0726-AAE). Exact 0726-AAE asset, full control face: ECHO (Tape/Digi/Slap), REVERB (RM/Club/Hall), CORRECTION (Off–100), one TONE button and one footswitch. No screen or treadle shown. Printed100 is the correction-control endpoint, not100 cents or100% DSP. This catalogue artwork depicts lit LEDs; it does not independently verify powered hardware. Powered-on overhead photograph remains pending; actual unboxing alternative has unlit indicators and an obstructing cable. A further gallery candidate was rejected because its combined effect selector and central Dry/Wet control identify the original Mic Mechanic, not model2.
 
 **Mic Mechanic 2 — actual rear photograph**
 

@@ -222176,13 +222176,13 @@
       },
       "TC-Helicon::Mic Mechanic 2": {
         "model_key": "TC-Helicon::Mic Mechanic 2",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
             "image_url": "https://cdn-media.empowertribe.com/168d080958b84556a80b6fab3eb76bc3/Image_TH_0726-AAE_MIC-MECHANIC-2_Top_XL.png",
             "source_url": "https://www.tchelicon.com/en/products/0726-AAE",
             "caption": "Mic Mechanic 2 — manufacturer overhead artwork",
-            "note": "Exact 0726-AAE asset, full control face: ECHO (Tape/Digi/Slap), REVERB (RM/Club/Hall), CORRECTION (Off–100), one TONE button and one footswitch. No screen or treadle shown. Printed100 is the correction-control endpoint, not100 cents or100% DSP. This catalogue artwork depicts lit LEDs; it does not independently verify powered hardware. Powered-on overhead photograph remains pending; actual unboxing alternative has unlit indicators and an obstructing cable.",
+            "note": "Exact 0726-AAE asset, full control face: ECHO (Tape/Digi/Slap), REVERB (RM/Club/Hall), CORRECTION (Off–100), one TONE button and one footswitch. No screen or treadle shown. Printed100 is the correction-control endpoint, not100 cents or100% DSP. This catalogue artwork depicts lit LEDs; it does not independently verify powered hardware. Powered-on overhead photograph remains pending; actual unboxing alternative has unlit indicators and an obstructing cable. A further gallery candidate was rejected because its combined effect selector and central Dry/Wet control identify the original Mic Mechanic, not model2.",
             "visual_checked": true,
             "sha256": "882dc963dbc053cb467fe6409cea2537463a0712c1c98ee985430e8c90815d38",
             "powered_on": null,
@@ -222205,6 +222205,13 @@
             "sha256": "81d4d6af0dbb597a86078424608f9ecf4cce0240770456023dbd84f73217db4d",
             "visual_checked": true,
             "note": "Actual MM2 with labelled packaging and separate unplugged adapter. Oblique top with cable obscuring echo markings; indicators unlit. Retained provenance but clearer manufacturer overhead selected for layout."
+          },
+          {
+            "image_url": "https://medias.audiofanzine.com/images/normal/tc-helicon-mic-mechanic-2-2825729.jpg",
+            "source_url": "https://fr.audiofanzine.com/processeur-vocal/tc-helicon/mic-mechanic-2/",
+            "sha256": "c0c8812d4e4dc1f8ac623813bbebf83009f7fce87ecff3d1a45812afd62f62e7",
+            "visual_checked": true,
+            "note": "Rejected for Mic Mechanic2: photograph shows original Mic Mechanic layout with combined Club/Room/Hall+Echo selector, central Dry/Wet knob and side gain control. It does not show the separate ECHO and REVERB controls of model2. Gallery association is unreliable; detached adapter also does not demonstrate operation."
           }
         ]
       },
@@ -227406,6 +227413,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::StompLab 1G"
+    "last_model": "TC-Helicon::Mic Mechanic 2"
   }
 }
