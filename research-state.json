@@ -202570,13 +202570,14 @@
         "model_key": "TC Electronic::M-One XL",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first hardware release not independently verified",
+          "date": "2001",
+          "precision": "year",
+          "kind": "contemporaneous product-introduction and shipping-report year proxy",
           "source_urls": [
-            "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf"
+            "https://fr.audiofanzine.com/multieffet/tc-electronic/M-One-XL/news/a.play,n.243.html",
+            "https://sonicstate.com/news/2001/12/31/tc-electronic-m-one-xl-/"
           ],
-          "note": "Manufacturer manual declaration says September2001;this is a compliance/document date,not confirmed retail launch. XL is distinct from original M-One. No first-shipment date established."
+          "note": "Original Audiofanzine news index dates the exact M-One XL introduction article October 26, 2001. Sonicstate’s 2001 archived item reports the new XL shipping. These support a 2001 introduction/shipping-report year proxy; exact first customer shipment and regional availability day remain unverified. Original M-One is distinct. The manual’s September2001 compliance date is separate; neither it nor the third-party editor date establishes a firmware release."
         },
         "firmware": {
           "version": "2.09",
@@ -202622,10 +202623,85 @@
             "title": "AURA Plugins M-One editor developer changelog",
             "access": "Editor author firsthand compatibility statement inspected",
             "evidence": "May11,2026 entry explicitly testsM-One1.10 andXL2.09. Establishes observed version,not official latest status or release date."
+          },
+          {
+            "url": "https://fr.audiofanzine.com/multieffet/tc-electronic/M-One-XL/news/a.play,n.243.html",
+            "title": "Audiofanzine: T.c. Electronic M-ONE XL introduction, October26,2001",
+            "access": "Original publisher exact-model news index opened and dated excerpt read; article body cache miss",
+            "evidence": "Exact XL news entry dated26/10/01 describes unveiling XL version of M-One. Supports introduction-year proxy, not first shipment or original M-One launch."
+          },
+          {
+            "url": "https://sonicstate.com/news/2001/12/31/tc-electronic-m-one-xl-/",
+            "title": "Sonicstate: TC Electronic M-One XL shipping report,2001 archive",
+            "access": "Original contemporary shipping-report text recovered through publisher index; direct page returned short shell",
+            "evidence": "Reports TC Electronic now shipping new M-One XL; archive places item in2001. Year only retained; no precise first-shipment or firmware date inferred."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "TC Electronic::M-One XL",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first hardware release not independently verified",
+              "source_urls": [
+                "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf"
+              ],
+              "note": "Manufacturer manual declaration says September2001;this is a compliance/document date,not confirmed retail launch. XL is distinct from original M-One. No first-shipment date established."
+            },
+            "firmware": {
+              "version": "2.09",
+              "date": null,
+              "precision": "unknown",
+              "status": "latest_located",
+              "source_urls": [
+                "https://auraplugins.com/kb/article/tc-electronic-m-one-editor-changelog/",
+                "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf",
+                "https://service-tcgroup.tcelectronic.com/files/Tech_Service/m-one/Guide/How-to-software-update-m-one.pdf"
+              ],
+              "note": "AURA editor developer reports firsthand testing against XL firmware2.09 in its May11,2026 changelog. That editor date is not firmware release date or manufacturer latest certification. Manufacturer manual records older XL2.07 versus Standard1.43;January2004 service guide documents MIDI OS updating but does not date2.09. Release date and support span remain unverified."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Pitch Shift provides two fixed shifted voices,each±1200cents (one octave),with independent level,pan and0–100ms delay. Detune spans±50cents. Two output voices do not establish polyphonic input handling or scale-aware harmony.",
+              "preset": "200 factory plus100 user locations. Edited factory programs save to user bank;pitch is an engine algorithm within stored programs. MIDI Program Change/SysEx available;retain existing CC-bank-select prose/map conflict. No hardware recall test.",
+              "dsp": "Two engines,one selected algorithm each;Pitch occupies an engine. No pitch-specific CPU utilization percentage or meter measurement located. One of two engine slots is a topology limit,not verified50% shared DSP use.",
+              "source_urls": [
+                "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "FX Level0–100% is effect mix/level,not a CPU percentage. Stereo source and two added voices are not an explicit polyphonic-processing claim.",
+                "AURA editor version26-05-14 is third-party desktop software,not a2026 device firmware update."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_english.pdf",
+                "title": "TC Electronic M-One/M-One XL Rev4 manufacturer manual",
+                "access": "Manufacturer-hosted original indexed text inspected;direct fetch unavailable",
+                "evidence": "XL2.07 versusStandard1.43;September2001 declaration;printedp31 fixed two-voicePitch±1200cents/Detune±50cents;two engines and200factory+100user."
+              },
+              {
+                "url": "https://service-tcgroup.tcelectronic.com/files/Tech_Service/m-one/Guide/How-to-software-update-m-one.pdf",
+                "title": "TC Electronic M-one/XL OS update service guide",
+                "access": "Manufacturer indexed original text inspected;direct fetch unavailable",
+                "evidence": "January2004 service instructions for MIDI update and reset;boot/front version string is not evidence of latest application firmware date."
+              },
+              {
+                "url": "https://auraplugins.com/kb/article/tc-electronic-m-one-editor-changelog/",
+                "title": "AURA Plugins M-One editor developer changelog",
+                "access": "Editor author firsthand compatibility statement inspected",
+                "evidence": "May11,2026 entry explicitly testsM-One1.10 andXL2.09. Establishes observed version,not official latest status or release date."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "TC Electronic::M100": {
         "model_key": "TC Electronic::M100",
@@ -211771,8 +211847,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Korg::AX10B",
-    "last_commit_parent": "d0462af3feda2390ba0fa9a507dcd3212d84056c",
+    "last_model": "TC Electronic::M-One XL",
+    "last_commit_parent": "2401eb8f2c116d01f05a06578c1ec1c0cab18bb9",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
