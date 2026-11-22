@@ -277,7 +277,7 @@ All Sonicake-specific values,source URLs,firmware qualifications,price caveats a
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Official exact-model pages do not date the original hardware launch. Later regional retailer listing dates and manual-image upload timestamps are not first-release evidence. [launch 1](https://www.sonicake.com/products/levitate) [launch 2](https://www.hotone.jp/brands/sonicake/products/levitate) |
+| Firmware / first hardware release | 2023-03 (manufacturer/public demonstration proxy; exact first sale unconfirmed). SONICAKE’s original Levitate demonstration is indexed March 13, 2023 (secondary catalogue video listing March 14), alongside other March 2023 demonstrations. March 2023 is a public-demonstration proxy, not an authenticated first worldwide sale. Month precision avoids the one-day indexing discrepancy and does not imply the manufacturer video was the earliest shipped unit. The January 2024 catalogue entry and later regional listings are not treated as original release dates. [launch 1](https://www.youtube.com/watch?v=twCZl0MIrAw) |
 | Firmware / latest verification | Not verified — No public firmware located. No user firmware download, installed-version identification or dated firmware history located on the checked exact-model official pages. Digital effects do not imply a user-accessible updater. [firmware 1](https://www.sonicake.com/products/levitate) [firmware 2](https://www.hotone.jp/brands/sonicake/products/levitate) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -292,6 +292,7 @@ Sources checked:
 
 - [SONICAKE Levitate QDS-02 official product](https://www.sonicake.com/products/levitate) — Exact model QDS-02, digital delay/plate reverb, 2000 ms maximum delay, tap tempo, trails and buffered bypass; no pitch algorithm or public updater documented. (readable official product page).
 - [Hotone Japan Levitate official regional product](https://www.hotone.jp/brands/sonicake/products/levitate) — Corroborates two time-based effects and 92 mA current; original launch date and firmware version/history not supplied. (readable official regional product page).
+- [SONICAKE Levitate - Delay Reverb 2-in-1 Guitar Effects Pedal Degital](https://www.youtube.com/watch?v=twCZl0MIrAw) — Original SONICAKE demonstration indexed 2023-03-13; supports public introduction by March 2023, not exact first shipment. (Indexed manufacturer video publication metadata checked 2026-11-22).
 
 <!-- firmware-pitch:Sonicake::Levitate QDS-02 ends -->
 

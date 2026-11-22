@@ -201683,14 +201683,13 @@
         "model_key": "Sonicake::Levitate QDS-02",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "Original hardware launch unresolved",
+          "date": "2023-03",
+          "precision": "month",
+          "kind": "manufacturer/public demonstration proxy; exact first sale unconfirmed",
           "source_urls": [
-            "https://www.sonicake.com/products/levitate",
-            "https://www.hotone.jp/brands/sonicake/products/levitate"
+            "https://www.youtube.com/watch?v=twCZl0MIrAw"
           ],
-          "note": "Official exact-model pages do not date the original hardware launch. Later regional retailer listing dates and manual-image upload timestamps are not first-release evidence."
+          "note": "SONICAKE’s original Levitate demonstration is indexed March 13, 2023 (secondary catalogue video listing March 14), alongside other March 2023 demonstrations. March 2023 is a public-demonstration proxy, not an authenticated first worldwide sale. Month precision avoids the one-day indexing discrepancy and does not imply the manufacturer video was the earliest shipped unit. The January 2024 catalogue entry and later regional listings are not treated as original release dates."
         },
         "firmware": {
           "version": null,
@@ -201730,10 +201729,74 @@
             "title": "Hotone Japan Levitate official regional product",
             "access": "readable official regional product page",
             "evidence": "Corroborates two time-based effects and 92 mA current; original launch date and firmware version/history not supplied."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=twCZl0MIrAw",
+            "title": "SONICAKE Levitate - Delay Reverb 2-in-1 Guitar Effects Pedal Degital",
+            "access": "Indexed manufacturer video publication metadata checked 2026-11-22",
+            "evidence": "Original SONICAKE demonstration indexed 2023-03-13; supports public introduction by March 2023, not exact first shipment."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Sonicake::Levitate QDS-02",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "Original hardware launch unresolved",
+              "source_urls": [
+                "https://www.sonicake.com/products/levitate",
+                "https://www.hotone.jp/brands/sonicake/products/levitate"
+              ],
+              "note": "Official exact-model pages do not date the original hardware launch. Later regional retailer listing dates and manual-image upload timestamps are not first-release evidence."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.sonicake.com/products/levitate",
+                "https://www.hotone.jp/brands/sonicake/products/levitate"
+              ],
+              "note": "No user firmware download, installed-version identification or dated firmware history located on the checked exact-model official pages. Digital effects do not imply a user-accessible updater."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Digital delay up to 2000 ms and plate reverb; no pitch transposition, octave or harmony algorithm documented.",
+              "preset": "Physical controls, tap tempo and trails documented; addressable preset memories and pitch-preset recall not documented.",
+              "dsp": "No per-effect CPU/DSP utilization or allocatable processing budget published in checked sources. Two effect functions and 92 mA electrical current are not DSP percentages.",
+              "source_urls": [
+                "https://www.sonicake.com/products/levitate",
+                "https://www.hotone.jp/brands/sonicake/products/levitate"
+              ],
+              "measurements": [],
+              "notes": [
+                "Do not classify ordinary delay/reverb processing as polyphonic pitch shifting.",
+                "No public firmware found does not establish absence of internal firmware."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.sonicake.com/products/levitate",
+                "title": "SONICAKE Levitate QDS-02 official product",
+                "access": "readable official product page",
+                "evidence": "Exact model QDS-02, digital delay/plate reverb, 2000 ms maximum delay, tap tempo, trails and buffered bypass; no pitch algorithm or public updater documented."
+              },
+              {
+                "url": "https://www.hotone.jp/brands/sonicake/products/levitate",
+                "title": "Hotone Japan Levitate official regional product",
+                "access": "readable official regional product page",
+                "evidence": "Corroborates two time-based effects and 92 mA current; original launch date and firmware version/history not supplied."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Sonicake::B Factory QDS-05": {
         "model_key": "Sonicake::B Factory QDS-05",
@@ -213621,8 +213684,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Behringer::Bass V-AMP PRO",
-    "last_commit_parent": "01cdcd865c8bd56e1c73ff5d90d54635f38a40e4",
+    "last_model": "Sonicake::Levitate QDS-02",
+    "last_commit_parent": "73b034e3729ecd9b6015dc5efba10d986999aee3",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
