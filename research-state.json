@@ -219027,13 +219027,30 @@
             "image_url": "https://zoom.co.jp/sites/default/files/products/downloads/images/B1X_top.jpg",
             "source_url": "https://zoom.co.jp/ja/products/bass/b1x-bass-effects-pedal",
             "caption": "Original B1X overhead product image",
-            "note": "Manufacturer overhead image of the original red B1X: two rotary controls, four push-buttons, two circular footswitches and built-in treadle. A0 and the WAH/EFX indicator are shown illuminated, but this studio product image does not independently verify an actual powered photograph. Real powered overhead and exact original-model rear photographs remain pending; newer FOUR/on images were excluded.",
+            "note": "Manufacturer overhead image of the original red B1X: two rotary controls, four push-buttons, two circular footswitches and built-in treadle. A0 and the WAH/EFX indicator are shown illuminated, but this studio product image does not independently verify an actual powered photograph. A real powered overhead photograph remains pending; newer FOUR/on images were excluded.",
             "visual_checked": true,
             "sha256": "b4d49d72de860126184d48acb14f6266799bba1bba7176e4502130320a370674",
             "powered_on": false,
             "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://ec.treasure-f.com/images/1048009867865391/500/1048009867865391_05_3264w.jpeg",
+            "source_url": "https://ec.treasure-f.com/item/1048009867865391",
+            "caption": "Original B1X rear connectors",
+            "note": "Original red B1X rear connector group: INPUT, OUTPUT (PHONES) and DC9V / 300mA with center-negative symbol. All three connections are visible; the photograph crops the outer left chassis/treadle area but not any rear socket. Source is500pixels with low-contrast molded labels. The same listing’s [underside photograph](https://ec.treasure-f.com/images/1048009867865391/500/1048009867865391_02_2686w.jpeg) visibly identifies model B1X, cross-checking original-model identity rather than B1Xon or FOUR. The300mA marking is not a measured pitch-processing power figure.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "a82349eda0aca43792b8f4b2cce88d07f10f0d2f6aead13f5db162699abfd9e4"
           }
-        }
+        },
+        "side_references": [
+          {
+            "image_url": "https://ec.treasure-f.com/images/1048009867865391/500/1048009867865391_02_2686w.jpeg",
+            "sha256": "60f6eb9ed520d7aeb58d21d06b4c18cb62df5424b5402a166514d0377449ff11",
+            "visual_checked": true,
+            "note": "Matching used-listing underside visibly identifies original model B1X."
+          }
+        ]
       },
       "Zoom::B1Xon": {
         "model_key": "Zoom::B1Xon",
@@ -222051,6 +222068,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX5G"
+    "last_model": "Zoom::B1X original"
   }
 }

@@ -1860,9 +1860,13 @@ Sources checked:
 
 [![Original B1X overhead product image](https://zoom.co.jp/sites/default/files/products/downloads/images/B1X_top.jpg)](https://zoom.co.jp/sites/default/files/products/downloads/images/B1X_top.jpg)
 
-[Image source](https://zoom.co.jp/ja/products/bass/b1x-bass-effects-pedal). Manufacturer overhead image of the original red B1X: two rotary controls, four push-buttons, two circular footswitches and built-in treadle. A0 and the WAH/EFX indicator are shown illuminated, but this studio product image does not independently verify an actual powered photograph. Real powered overhead and exact original-model rear photographs remain pending; newer FOUR/on images were excluded.
+[Image source](https://zoom.co.jp/ja/products/bass/b1x-bass-effects-pedal). Manufacturer overhead image of the original red B1X: two rotary controls, four push-buttons, two circular footswitches and built-in treadle. A0 and the WAH/EFX indicator are shown illuminated, but this studio product image does not independently verify an actual powered photograph. A real powered overhead photograph remains pending; newer FOUR/on images were excluded.
 
-**Rear view:** not yet verified.
+**Original B1X rear connectors**
+
+[![Original B1X rear connectors](https://ec.treasure-f.com/images/1048009867865391/500/1048009867865391_05_3264w.jpeg)](https://ec.treasure-f.com/images/1048009867865391/500/1048009867865391_05_3264w.jpeg)
+
+[Image source](https://ec.treasure-f.com/item/1048009867865391). Original red B1X rear connector group: INPUT, OUTPUT (PHONES) and DC9V / 300mA with center-negative symbol. All three connections are visible; the photograph crops the outer left chassis/treadle area but not any rear socket. Source is500pixels with low-contrast molded labels. The same listing’s [underside photograph](https://ec.treasure-f.com/images/1048009867865391/500/1048009867865391_02_2686w.jpeg) visibly identifies model B1X, cross-checking original-model identity rather than B1Xon or FOUR. The300mA marking is not a measured pitch-processing power figure.
 
 </details>
 <!-- model-images:Zoom::B1X original ends -->
