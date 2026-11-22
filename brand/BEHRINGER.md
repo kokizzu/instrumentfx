@@ -943,11 +943,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Near-top-down control surface (power not demonstrated)**
+**Behringer X V-AMP — powered-on overhead control surface**
 
-[![Near-top-down control surface (power not demonstrated)](https://i.ebayimg.com/images/g/jNAAAOSwRvZnUqMx/s-l1600.webp)](https://i.ebayimg.com/images/g/jNAAAOSwRvZnUqMx/s-l1600.webp)
+[![Behringer X V-AMP — powered-on overhead control surface](https://medias.audiofanzine.com/images/normal/behringer-x-v-amp-5725831.jpg)](https://medias.audiofanzine.com/images/normal/behringer-x-v-amp-5725831.jpg)
 
-[Image source](https://www.ebay.com/itm/335713971526). The complete control surface and expression pedal are visible at a slight angle. The red display segments are visible but illumination is not demonstrated; a verified powered-on, exactly top-down photograph remains pending.
+[Image source](https://en.audiofanzine.com/guitar-amp-simulation-pedal/behringer/X-V-Amp/). Actual user photograph shows the complete blue X V-AMP, both footswitch pads and the full expression treadle. The red preset 20 display, green configuration/pedal-assignment indicators and red rotary-control LEDs are visibly illuminated. Nearly overhead with slight perspective; a strictly perpendicular view is not claimed. Connected cables and minor surface wear are visible.
 
 **Rear connection edge**
 
