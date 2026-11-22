@@ -1976,7 +1976,7 @@ These findings remain labelled VT within the existing GP-100 variant record;no n
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | 2026-03-26 (official public introduction; first shipment unresolved). Dated official dual-model introduction; not independently verified earliest shipment. [launch 1](https://www.youtube.com/watch?v=G3fLXbJH67A) |
+| Firmware / first hardware release | 2026 (documented public demonstration year; exact first release unresolved). Original NAMM demonstration video published23February2026 predates official26March introduction.2026 is established; exact announcement/show/shipment date is not inferred from either upload. [launch 1](https://www.youtube.com/watch?v=SSWWvIbY_8w) [launch 2](https://www.youtube.com/watch?v=G3fLXbJH67A) |
 | Firmware / latest verification | 1.1.1 — Located; latest status unverified. Highest numbered exact-model official package located;4.08MB,compatible desktop/mobile2.1.0. Created/Updated25-08-2026 are download-repository fields, not verified firmware release dates. No package executed; dynamic catalogue prevents exhaustive latest guarantee. [firmware 1](https://www.valeton.net/wpfd_file/gp-150-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -1994,6 +1994,7 @@ Sources checked:
 - [Manufacturer GP-150 firmware1.1.1 effects list](https://res.diversitone.com/Uploads/wp/download/1787706245581.GP-150_Effect%20list_EN_Firmware%20V1.1.1.pdf) — 42pages;SHA256a893232c2ba5eae2a436886a4994714b3716cb715a47b73e9dcd3993ed4b94c0;OCTA/Pitch/P-Bend polyphonic,Hammy monophonic. (retained prior complete PDF read and hashed evidence; current direct web route inaccessible).
 - [Manufacturer GP-150 firmware1.1.1 operating manual](https://res.diversitone.com/Uploads/wp/download/1787706206018.GP-150_Online%C2%A0Manual_EN_Firmware%20V1.1.1.pdf) — 40pages;SHA25625e6585a5994c455ddd9f121c6d0a5b4f5c040f88c4116fb70cd04eef59abdbc;DSP constraints and None bypass resource release. (retained prior full PDF read and hashed evidence).
 - [Valeton official GP-150 shop](https://shop.valeton.net/products/gp-150) — 200patches/100factory,12reorderable modules;not CPU allocation. (web page read).
+- [Original GP-150/GP-180 NAMM2026 demonstration](https://www.youtube.com/watch?v=SSWWvIbY_8w) — INFOMUSICFilms original show demonstration published23February2026;predates official26March video,not exact first-shipment date. (indexed original video metadata and description).
 
 <!-- firmware-pitch:Valeton::GP-150 ends -->
 

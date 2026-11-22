@@ -203267,13 +203267,14 @@
         "model_key": "Valeton::GP-150",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": "2026-03-26",
-          "precision": "day",
-          "kind": "official public introduction; first shipment unresolved",
+          "date": "2026",
+          "precision": "year",
+          "kind": "documented public demonstration year; exact first release unresolved",
           "source_urls": [
+            "https://www.youtube.com/watch?v=SSWWvIbY_8w",
             "https://www.youtube.com/watch?v=G3fLXbJH67A"
           ],
-          "note": "Dated official dual-model introduction; not independently verified earliest shipment."
+          "note": "Original NAMM demonstration video published23February2026 predates official26March introduction.2026 is established; exact announcement/show/shipment date is not inferred from either upload."
         },
         "firmware": {
           "version": "1.1.1",
@@ -203331,10 +203332,91 @@
             "title": "Valeton official GP-150 shop",
             "access": "web page read",
             "evidence": "200patches/100factory,12reorderable modules;not CPU allocation."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=SSWWvIbY_8w",
+            "title": "Original GP-150/GP-180 NAMM2026 demonstration",
+            "access": "indexed original video metadata and description",
+            "evidence": "INFOMUSICFilms original show demonstration published23February2026;predates official26March video,not exact first-shipment date."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Valeton::GP-150",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2026-03-26",
+              "precision": "day",
+              "kind": "official public introduction; first shipment unresolved",
+              "source_urls": [
+                "https://www.youtube.com/watch?v=G3fLXbJH67A"
+              ],
+              "note": "Dated official dual-model introduction; not independently verified earliest shipment."
+            },
+            "firmware": {
+              "version": "1.1.1",
+              "date": null,
+              "precision": "unknown",
+              "status": "latest_located",
+              "source_urls": [
+                "https://www.valeton.net/wpfd_file/gp-150-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/"
+              ],
+              "note": "Highest numbered exact-model official package located;4.08MB,compatible desktop/mobile2.1.0. Created/Updated25-08-2026 are download-repository fields, not verified firmware release dates. No package executed; dynamic catalogue prevents exhaustive latest guarantee."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "Own firmware1.1.1 effects list explicitly labels OCTA,Pitch and P-Bend polyphonic; Hammy explicitly monophonic in PRE and WAH. Detune spans±50cents. Scale-aware harmony and exact transposition endpoints not established.",
+              "preset": "200 patch slots,100 factory-filled;12 reorderable effect slots subject to DSP. PRE menu alternatives do not guarantee all pitch choices concurrently.",
+              "dsp": "No per-pitch CPU percentage published in inspected documentation. Operating manual says resource exhaustion can gray out choices and disable a module; setting unused modules to None frees resources. Twelve slots does not imply1/12 CPU per block.",
+              "source_urls": [
+                "https://res.diversitone.com/Uploads/wp/download/1787706245581.GP-150_Effect%20list_EN_Firmware%20V1.1.1.pdf",
+                "https://res.diversitone.com/Uploads/wp/download/1787706206018.GP-150_Online%C2%A0Manual_EN_Firmware%20V1.1.1.pdf",
+                "https://shop.valeton.net/products/gp-150"
+              ],
+              "measurements": [],
+              "notes": [
+                "Based on previously fully read exact-model1.1.1 manufacturer PDFs, not sibling algorithms or a hands-on tracking test. Direct effects URL currently inaccessible via web reader; retained hashed local-document evidence remains in canonical model section.",
+                "No latency/chord-quality measurement or pitch DSP percentage inferred from polyphonic marketing, slot count or current draw."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.valeton.net/wpfd_file/gp-150-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/",
+                "title": "Official GP-150 Firmware V1.1.1 package listing",
+                "access": "web page read",
+                "evidence": "1.1.1 package,4.08MB;25August2026 repository metadata only."
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=G3fLXbJH67A",
+                "title": "Valeton official GP-150 and GP-180 introduction",
+                "access": "indexed official video metadata; direct reader cache miss",
+                "evidence": "Published26March2026; public introduction,shipment unknown."
+              },
+              {
+                "url": "https://res.diversitone.com/Uploads/wp/download/1787706245581.GP-150_Effect%20list_EN_Firmware%20V1.1.1.pdf",
+                "title": "Manufacturer GP-150 firmware1.1.1 effects list",
+                "access": "retained prior complete PDF read and hashed evidence; current direct web route inaccessible",
+                "evidence": "42pages;SHA256a893232c2ba5eae2a436886a4994714b3716cb715a47b73e9dcd3993ed4b94c0;OCTA/Pitch/P-Bend polyphonic,Hammy monophonic."
+              },
+              {
+                "url": "https://res.diversitone.com/Uploads/wp/download/1787706206018.GP-150_Online%C2%A0Manual_EN_Firmware%20V1.1.1.pdf",
+                "title": "Manufacturer GP-150 firmware1.1.1 operating manual",
+                "access": "retained prior full PDF read and hashed evidence",
+                "evidence": "40pages;SHA25625e6585a5994c455ddd9f121c6d0a5b4f5c040f88c4116fb70cd04eef59abdbc;DSP constraints and None bypass resource release."
+              },
+              {
+                "url": "https://shop.valeton.net/products/gp-150",
+                "title": "Valeton official GP-150 shop",
+                "access": "web page read",
+                "evidence": "200patches/100factory,12reorderable modules;not CPU allocation."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Valeton::GP-180": {
         "model_key": "Valeton::GP-180",
@@ -203585,8 +203667,8 @@
     ],
     "status": "in_progress",
     "completed_model_count": 313,
-    "last_model": "Valeton::GP-180",
-    "last_commit_parent": "818a154a100f81abc28d53fcf419a8e0f394c7e6",
+    "last_model": "Valeton::GP-150",
+    "last_commit_parent": "cb3dbc81e11ed11d42d5bf41dfa426bef9c34b95",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Valeton::GP-200",
