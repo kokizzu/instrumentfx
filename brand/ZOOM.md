@@ -178,6 +178,30 @@ Preferred footprint fails: Japanese evidence above gives **147 W ×157 D mm**, 1
 
 ## 505II
 
+<!-- firmware-pitch:Zoom::505II begins -->
+### Firmware and pitch audit — Zoom 505II
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2000 (manufacturer product-history release year). Corporate timeline places 505II GUITAR in 2000; exact announcement/first shipment day unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current support page lists the operation manual only; no public device updater/changelog located. No USB/MIDI update interface in published connector inventory. This does not exclude internal ROM revisions. Factory restoration and document print codes are not firmware updates; latest system version/date remain unknown. [firmware 1](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/505ii/505ii-support/) [firmware 2](https://zoomcorp.com/media/documents/E_505II.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD PITCH SHIFT P1–P9: octave-down/up, fifth-down, fourth-up, detune, chorus-combined and dual-voice patterns. FP01/FP02 PEDAL PITCH DOWN: 0 to −2 octaves; UP: 0 to +1 octave. SLOW ATTACK > PITCH SHIFT fixes pitch at +1 octave. Multiple voices do not establish polyphonic input. [pitch 1](https://zoomcorp.com/media/documents/E_505II.pdf) |
+| Pitch / preset recall | 36 factory-filled, rewritable locations (6 banks ×6), not 36+36. Pitch choices belong to MOD; pedal-marked settings assign expression to their parameter, otherwise volume. No global volume-only override established. |
+| Pitch / DSP resources | No per-pitch DSP percentage documented. Seven serial modules/up to nine simultaneous effects are fixed architecture limits, not pitch CPU load or nine freely assignable blocks. Combined MOD types are alternatives, not additional free pitch slots. |
+| Pitch / qualifications | 505II-specific manual; do not transfer original505 or505IICG firmware. No physical chord-tracking test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — 505II GUITAR appears under 2000, separate from original505. (official 2000 product group read).
+- [Zoom 505II support page](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/505ii/505ii-support/) — Operation manual listed; no public firmware package/changelog found. (official current Documents section read).
+- [Zoom 505II Guitar Operation Manual](https://zoomcorp.com/media/documents/E_505II.pdf) — Pitch patterns, pedal ranges, slow-attack/pitch combination, patch storage and serial-module limits; no polyphonic-input guarantee or pitch DSP%. (official PDF printed pp18–21,28–31 read).
+
+<!-- firmware-pitch:Zoom::505II ends -->
+
 Guitar multi-effects, distinct from original505 and505IICG. Checked2026-10-17;partial. Manufacturer lists discontinued. Bass/vocal suitability andownership unestablished.
 
 | Field | Finding / qualification | Evidence |
