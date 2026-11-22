@@ -215898,7 +215898,7 @@
       },
       "DigiTech::RP90": {
         "model_key": "DigiTech::RP90",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "views": {
           "rear": {
             "image_url": "https://www.kombik.com/resources/img/000/000/941/img_94148.jpg",
@@ -215907,9 +215907,19 @@
             "note": "Visually inspected angled RP90 rear-port photo: input, amp/mixer switch, stereo outputs, headphones and DC power. Dark labels; straight-on replacement preferred. Powered-on top-down view remains pending.",
             "visual_checked": true,
             "sha256": "ae140445587a7b04da0e8044b523c4b9c697dc5cb03bcdedc6fab7b83a1ceaea"
+          },
+          "top": {
+            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/153571000000000-03-2000x2000.jpg",
+            "source_url": "https://www.guitarcenter.com/DigiTech/RP90-Guitar-Multi-Effects-Pedal-1273887997503.gc",
+            "caption": "RP90 powered-on angled top view",
+            "note": "Visually inspected exact RP90 product photograph: bright red 48 display and lit status indicators, four labeled controls, both footswitches and integrated expression treadle. This is an oblique view, not a perpendicular top-down photograph; a straight overhead replacement remains pending. Rear connections are shown separately below.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "12d21b8a7292e5ec37ed0fd8834ff70c6656ce6ee0012f7fb71ec21f084008db"
           }
         },
-        "pending_top": "Inspected magazine photo is angled and unlit; powered-on top-down replacement pending."
+        "pending_top": "Powered-on angled top view verified; perpendicular top-down photograph remains pending."
       },
       "DK::iE-350": {
         "model_key": "DK::iE-350",
@@ -226742,6 +226752,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP55"
+    "last_model": "DigiTech::RP90"
   }
 }

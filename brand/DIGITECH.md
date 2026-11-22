@@ -924,7 +924,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Top view:** not yet verified.
+**RP90 powered-on angled top view**
+
+[![RP90 powered-on angled top view](https://media.guitarcenter.com/is/image/MMGS7/153571000000000-03-2000x2000.jpg)](https://media.guitarcenter.com/is/image/MMGS7/153571000000000-03-2000x2000.jpg)
+
+[Image source](https://www.guitarcenter.com/DigiTech/RP90-Guitar-Multi-Effects-Pedal-1273887997503.gc). Visually inspected exact RP90 product photograph: bright red 48 display and lit status indicators, four labeled controls, both footswitches and integrated expression treadle. This is an oblique view, not a perpendicular top-down photograph; a straight overhead replacement remains pending. Rear connections are shown separately below.
 
 **RP90 rear ports**
 
