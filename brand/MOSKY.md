@@ -97,11 +97,11 @@ No-treadle layout,analog EXP,headphones,onboard preset down/up andmemory support
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Manufacturer page is undated. Seller new-series/year claims and database-entry publication dates do not verify first shipment. [launch 1](https://moskyaudio.com/multi-effects/128.html) |
+| Firmware / first hardware release | 2020 (customer review availability by year proxy). Original exact RC5 product review page contains a customer review dated 07/10/2020. Retained at year precision to avoid locale day/month ambiguity: documents reported customer availability during 2020, not original launch or independently authenticated first shipment. Later January 26, 2021 original demo corroborates existence but is not the earliest evidence; seller new-series claims alone are not used. [launch 1](https://www.banggood.com/es/MOSKY-RC5-6-in-1-Guitar-Effects-Pedal-Reverb-Chorus-Distortion-Overdrive-Booster-Buffer-Full-Metal-Shell-with-True-Bypass-reviews-p1681525.html?ab_toppage_rr1=1&akmClientCountry=America) |
 | Firmware / latest verification | Not verified — No public firmware located. No RC5 device firmware, release notes or updater located in checked manufacturer product/manual pages or exact-model searches. Empty manual index is not proof of absent internal firmware or impossible updates; elapsed release-to-update span unknown. [firmware 1](https://moskyaudio.com/multi-effects/128.html) [firmware 2](https://www.moskyaudio.com/mosky.html) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
-| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Firmware / audit date | 2026-11-23; [firmware recap](../FIRMWARE-UPDATES.md). |
 | Pitch / note handling | No pitch algorithm documented in checked sources. Manufacturer lists reverb, chorus, distortion, overdrive, booster and buffer under a five-effects headline. No dedicated interval pitch-shift, transpose, octave or harmonizer documented. Chorus does not establish polyphonic transposition. [pitch 1](https://moskyaudio.com/multi-effects/128.html) |
 | Pitch / preset recall | Factory/user preset capacities and electronic program recall unverified; physical controls alone do not establish saved pitch states. |
 | Pitch / DSP resources | No pitch-specific resource cost established. Five-effects wording/six listed functions is not a DSP-block census or percentage budget; do not assign 20% per effect. |
@@ -112,6 +112,7 @@ Sources checked:
 
 - [Mosky RC5 manufacturer product page — current route](https://moskyaudio.com/multi-effects/128.html) — Undated RC5 description lists reverb/chorus/distortion/overdrive/booster/buffer under five-effects wording; no dedicated pitch or firmware documented. (Manufacturer page text inspected).
 - [Mosky manufacturer manual index](https://www.moskyaudio.com/mosky.html) — No RC5 firmware/update manual located; missing entries do not prove hardware non-updatability. (Manufacturer page inspected; no document entries exposed).
+- [Banggood exact Mosky RC5 original customer reviews](https://www.banggood.com/es/MOSKY-RC5-6-in-1-Guitar-Effects-Pedal-Reverb-Chorus-Distortion-Overdrive-Booster-Buffer-Full-Metal-Shell-with-True-Bypass-reviews-p1681525.html?ab_toppage_rr1=1&akmClientCountry=America) — Exact RC5 six-effect review page, product1681525, lists Brazilian reviewer vallmartins and 07/10/2020 date with brief positive product feedback. Year-only customer-availability proxy; review date is not first shipment and no hardware testing claim is adopted. (opened_original_retailer_review_page).
 
 <!-- firmware-pitch:Mosky::RC5 ends -->
 
