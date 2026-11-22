@@ -923,6 +923,29 @@ Fit is **axis-qualified**:product197W×65Dmm fits;manual65W×197Dmm exceeds pref
 
 ## Dapper VES-1
 
+<!-- firmware-pitch:Valeton::Dapper VES-1 begins -->
+### Firmware and pitch audit — Valeton Dapper VES-1
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Current manufacturer page supplies no first-release date. Manual160111 is not first-shipment evidence; demo publication dates do not establish first retail release. [launch 1](https://www.valeton.net/product/dapper/) |
+| Firmware / latest verification | Not verified — No public firmware located. No numbered original Dapper device firmware release/date or user updater located in checked manufacturer sources. V01 manual naming and VES-1 hardware naming are not firmware1. Firmware index text may omit dynamic entries; discontinued status does not prove no updates existed. [firmware 1](https://www.valeton.net/product/dapper/) [firmware 2](https://www.valeton.net/firmware/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Manufacturer exact original inventory is Overdrive, Distortion and analog-voiced Delay, plus tuner, FX loop and cabinet simulation. No dedicated pitch transposer, octave, harmonizer or chorus documented. [pitch 1](https://www.valeton.net/product/dapper/) |
+| Pitch / preset recall | Physical module controls and delay tap; no programmable pitch-memory count or stable semitone range documented. |
+| Pitch / DSP resources | No pitch CPU percentage, processing meter or per-algorithm resource cost published in checked sources. Delay1000ms maximum and85mA electrical consumption are not DSP usage. |
+| Pitch / qualifications | Analog-voiced delay does not establish a selectable transposition interval or prove all circuitry analog. Tuner note detection does not establish audio correction. FX loop supports external effects, not onboard additional pitch algorithms. No Mini chorus, Bass octave or Dark/Indie effects transferred. No hardware/audio or firmware execution. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Valeton original Dapper official product](https://www.valeton.net/product/dapper/) — Exact OD/DIST/DELAY inventory plus tuner/loop/cab simulation; no firmware or launch date. (web page read).
+- [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact original Dapper package exposed in extracted text. (web text read; dynamic visibility limited).
+
+<!-- firmware-pitch:Valeton::Dapper VES-1 ends -->
+
 Checked 2026-10-17; partial. Original Dapper,discontinued on own product page; separate from Mini,Dark,Bass and Indie. Guitar multi-effects; bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->

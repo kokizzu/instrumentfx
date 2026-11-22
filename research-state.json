@@ -203140,10 +203140,64 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::Dapper VES-1": {
+        "model_key": "Valeton::Dapper VES-1",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first release unresolved",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper/"
+          ],
+          "note": "Current manufacturer page supplies no first-release date. Manual160111 is not first-shipment evidence; demo publication dates do not establish first retail release."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper/",
+            "https://www.valeton.net/firmware/"
+          ],
+          "note": "No numbered original Dapper device firmware release/date or user updater located in checked manufacturer sources. V01 manual naming and VES-1 hardware naming are not firmware1. Firmware index text may omit dynamic entries; discontinued status does not prove no updates existed."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Manufacturer exact original inventory is Overdrive, Distortion and analog-voiced Delay, plus tuner, FX loop and cabinet simulation. No dedicated pitch transposer, octave, harmonizer or chorus documented.",
+          "preset": "Physical module controls and delay tap; no programmable pitch-memory count or stable semitone range documented.",
+          "dsp": "No pitch CPU percentage, processing meter or per-algorithm resource cost published in checked sources. Delay1000ms maximum and85mA electrical consumption are not DSP usage.",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Analog-voiced delay does not establish a selectable transposition interval or prove all circuitry analog.",
+            "Tuner note detection does not establish audio correction. FX loop supports external effects, not onboard additional pitch algorithms.",
+            "No Mini chorus, Bass octave or Dark/Indie effects transferred. No hardware/audio or firmware execution."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.valeton.net/product/dapper/",
+            "title": "Valeton original Dapper official product",
+            "access": "web page read",
+            "evidence": "Exact OD/DIST/DELAY inventory plus tuner/loop/cab simulation; no firmware or launch date."
+          },
+          {
+            "url": "https://www.valeton.net/firmware/",
+            "title": "Valeton official firmware index",
+            "access": "web text read; dynamic visibility limited",
+            "evidence": "No exact original Dapper package exposed in extracted text."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::Dapper VES-1",
       "Valeton::GP-100",
       "Valeton::GP-150",
       "Valeton::GP-180",
@@ -203238,12 +203292,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 309,
-    "last_model": "Valeton::Dapper Mini MES-1",
-    "last_commit_parent": "018f14ce4ada1fec5fc60c810a41f7cb6e205dc8",
+    "completed_model_count": 310,
+    "last_model": "Valeton::Dapper VES-1",
+    "last_commit_parent": "8040b6959d730b5215270bb8aa86402c246b8b0d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::Dapper VES-1",
       "Valeton::GP-100",
       "Valeton::GP-150",
       "Valeton::GP-180",
@@ -203337,7 +203390,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 309,
+    "pitch_completed_model_count": 310,
     "supplemental_model_count": 0
   },
   "model_images": {
