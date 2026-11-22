@@ -3861,6 +3861,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GX-1B ends -->
 
+<!-- model-images:BOSS::GX-1B begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS GX-1B — powered-on top view**
+
+[![BOSS GX-1B — powered-on top view](https://static.roland.com/products/gx-1b/images/gallery/gx-1b_gal_top.jpg)](https://static.roland.com/products/gx-1b/images/gallery/gx-1b_gal_top.jpg)
+
+[Image source](https://www.boss.info/global/products/gx-1b/). Complete manufacturer straight-down view with active U01 color display, nine illuminated hexagonal buttons, three blue footswitch indicators, three rotary controls, five other panel buttons and full expression pedal. Powered-on appearance is visible in this promotional image; independent operating-state verification is unavailable.
+
+**BOSS GX-1B — rear connections**
+
+[![BOSS GX-1B — rear connections](https://static.roland.com/products/gx-1b/images/gallery/gx-1b_gal_rear.jpg)](https://static.roland.com/products/gx-1b/images/gallery/gx-1b_gal_rear.jpg)
+
+[Image source](https://www.boss.info/global/products/gx-1b/). Complete manufacturer rear-panel image: INPUT with POWER ON marking, OUTPUT R and L/MONO, miniature PHONES, CTL2/3/EXP2, USB-C, DC IN for PSA-S adaptor, ground terminal and security slot.
+
+</details>
+<!-- model-images:BOSS::GX-1B ends -->
+
+
 Bass multi-effects with built-in expression/toe switch. Consolidated/researched2026-10-16;partial verification. No GX-1 guitar-model specs substituted.
 
 ### GX-1B — preserved original comparison
