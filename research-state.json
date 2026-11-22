@@ -220526,11 +220526,48 @@
             "sha256": "a7621921553d60947ca16243c2e676234ce63adfdd4e015bfc32cae4e36b5028"
           }
         }
+      },
+      "Boin Audio::BG300": {
+        "model_key": "Boin Audio::BG300",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://taodangmusic.com/71476-thickbox_default/boin-audio-bg-300-multi-effects-processor-guitar-effect.jpg",
+            "source_url": "https://taodangmusic.com/en/multi-effect/10078-boin-audio-bg-300-multi-effects-processor-guitar-effect.html",
+            "caption": "Powered top-down control surface — rose-gold finish",
+            "note": "Retailer overhead photograph showing the complete BG300 enclosure, expression pedal and both illuminated footswitch rings, with the display active at P01 BG Sound. The rose-gold finish differs from the black rear-view unit. The fine footswitch legends have low contrast; a [larger powered black-unit close-up](https://nafiriguitar.com/cdn/shop/files/45A0F41C-AF89-48D2-9F88-5D485B501851.jpg?v=1755354778&width=2048) was also visually checked.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "45beace15891e48569c748329434c415f8bcc88282c44b93155158c7a3906e72"
+          },
+          "rear": {
+            "image_url": "https://nafiriguitar.com/cdn/shop/files/9B0829A9-F409-4EC3-9E62-5EDDCE2F4A11.jpg?v=1755354778&width=2048",
+            "source_url": "https://nafiriguitar.com/products/boin-audio-bg300-guitar-multi-effects-processor",
+            "caption": "Rear connector edge — black finish",
+            "note": "All rear connectors and the power switch are visible with readable labels: IN, OUT/PHONES, USB-C and POWER OFF/ON. The view is angled and rotated, but no socket is hidden.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "e5df38dbfc3964a1cc4c8aaba6b75a0b1fbf6565637e6bafeea9f9a79494d846"
+          }
+        },
+        "side_references": [
+          {
+            "image_url": "https://nafiriguitar.com/cdn/shop/files/45A0F41C-AF89-48D2-9F88-5D485B501851.jpg?v=1755354778&width=2048",
+            "source_url": "https://nafiriguitar.com/products/boin-audio-bg300-guitar-multi-effects-processor",
+            "caption": "Control surface",
+            "note": "Pending inspection.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "711f71a187ac6e5c93d7abbdb8184c86dadfe3b740c8627e3476faca335945c3"
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "CUVAVE::H8"
+    "last_model": "Boin Audio::BG300"
   }
 }
