@@ -211790,11 +211790,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "VOX::ToneLab ST": {
+        "model_key": "VOX::ToneLab ST",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://voxshowroom.com/ct/misc/Tonelab/ST/ToneLab%20ST_Top24.jpg",
+            "source_url": "https://voxshowroom.com/us/misc/tonelab_st.html",
+            "caption": "ToneLab ST control face",
+            "note": "Visually checked near-overhead stock image: red88 display, colored status indicators and tube area depict illumination. Eleven top rotaries, nine panel buttons, two footswitches and a treadle visible. Actual powered-unit confirmation remains pending; rear-edge perspective is not strict orthographic top-down. Source page2010 introduction claim conflicts with contemporaneous2009 announcement and is not used as launch evidence.",
+            "visual_checked": true,
+            "sha256": "17b0090534c9bd74ff14cd8f1d91493f4ff7122ea1e911545f29d477bf603ea5",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://voxshowroom.com/ct/misc/Tonelab/ST/ToneLab%20ST_Rear_24.jpg",
+            "source_url": "https://voxshowroom.com/us/misc/tonelab_st.html",
+            "caption": "ToneLab ST rear connectors",
+            "note": "Visually checked readable full rear row: USB-B, cable hook, DC12V with center-positive symbol, ON/STANDBY, INPUT, AUX IN, shared OUTPUT/PHONES stereo/mono, LEVEL and VOX/F/M/LINE output selector. No MIDI DIN or insert loop shown. Image is model-marked ToneLab ST; no hardware operation performed.",
+            "visual_checked": true,
+            "sha256": "92b3eab6a11bbbcb7f713df0884da9ce93cdd0b9cc9f0a2dae48c7f93ec73971",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::ToneLab SE"
+    "last_model": "VOX::ToneLab ST"
   }
 }

@@ -878,6 +878,26 @@ Sources checked:
 
 <!-- firmware-pitch:VOX::ToneLab ST ends -->
 
+<!-- model-images:VOX::ToneLab ST begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**ToneLab ST control face**
+
+[![ToneLab ST control face](https://voxshowroom.com/ct/misc/Tonelab/ST/ToneLab%20ST_Top24.jpg)](https://voxshowroom.com/ct/misc/Tonelab/ST/ToneLab%20ST_Top24.jpg)
+
+[Image source](https://voxshowroom.com/us/misc/tonelab_st.html). Visually checked near-overhead stock image: red88 display, colored status indicators and tube area depict illumination. Eleven top rotaries, nine panel buttons, two footswitches and a treadle visible. Actual powered-unit confirmation remains pending; rear-edge perspective is not strict orthographic top-down. Source page2010 introduction claim conflicts with contemporaneous2009 announcement and is not used as launch evidence.
+
+**ToneLab ST rear connectors**
+
+[![ToneLab ST rear connectors](https://voxshowroom.com/ct/misc/Tonelab/ST/ToneLab%20ST_Rear_24.jpg)](https://voxshowroom.com/ct/misc/Tonelab/ST/ToneLab%20ST_Rear_24.jpg)
+
+[Image source](https://voxshowroom.com/us/misc/tonelab_st.html). Visually checked readable full rear row: USB-B, cable hook, DC12V with center-positive symbol, ON/STANDBY, INPUT, AUX IN, shared OUTPUT/PHONES stereo/mono, LEVEL and VOX/F/M/LINE output selector. No MIDI DIN or insert loop shown. Image is model-marked ToneLab ST; no hardware operation performed.
+
+</details>
+<!-- model-images:VOX::ToneLab ST ends -->
+
+
 Guitar multi-effects; separate from LE/SE/EX. Checked2026-10-17; partial. Bass suitability/ownership unestablished.
 
 <!-- comparison evidence begins -->
