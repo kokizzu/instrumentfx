@@ -207239,10 +207239,86 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G11": {
+        "model_key": "Zoom::G11",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2020",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists G11 in2020; April2020 mass-production firmware does not establish exact retail availability."
+        },
+        "firmware": {
+          "version": "2.10",
+          "date": "2025-02",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/g11-support/",
+            "https://zoomcorp.com/documents/3432/G11_FirmwareVersionHistory_ver210_en.pdf"
+          ],
+          "note": "Current2.10 package matches February2025 history: fixes unexpected bank-name changes and scrolling failures after bank reordering.2.00 December2021 adds bass effects,500 user patch slots and expanded IR capacity. Guitar Lab/app/IR releases are separate."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "PolyShift explicitly supports chords,−24…+24 semitones. PitchSHFT spans−12…+12,+24 with±25-cent Fine; MonoPitch is single-note and HPS uses key/scale. PolyShift chord support does not certify every other pitch algorithm.",
+          "preset": "Firmware2.00 expands user patch capacity to500. Built-in expression operates a PEDAL effect; enabling an external pedal permits two PEDAL effects, with EXT marking the external assignment. Toe-toggle on/off changes are not saved; effect-footswitch on/off changes are saved.",
+          "dsp": "No exact per-pitch DSP percentage located. V2 manual allows up to10 effects within100% processing; category/effect selection screens show load. Overflow bypasses an effect. Slot count is not a per-algorithm CPU percentage; B3n allocations are not transferred.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf",
+            "https://zoomcorp.com/media/documents/E_G11v2.pdf",
+            "https://zoomcorp.com/documents/3432/G11_FirmwareVersionHistory_ver210_en.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No firmware installation or hardware CPU/tracking test. Firmware2.10 history distinguishes bank fixes from the older2.00 feature expansion."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "G11 listed under2020."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/g11-support/",
+            "title": "Zoom G11 support",
+            "access": "current official package list inspected",
+            "evidence": "System2.10 with separate ASIO/Guitar Lab/IR downloads."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3432/G11_FirmwareVersionHistory_ver210_en.pdf",
+            "title": "G11 firmware version history",
+            "access": "official PDF read",
+            "evidence": "2.10 February2025 bank-order fixes;2.00 December2021 bass effects,500user slots,IR expansion."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf",
+            "title": "G11 V2 effect list",
+            "access": "official PDF p28 inspected",
+            "evidence": "PolyShift chord support−24…+24;separate PitchSHFT,MonoPitch,HPS."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_G11v2.pdf",
+            "title": "G11 V2 operation manual",
+            "access": "official PDF printed pp25–26,50–55 inspected",
+            "evidence": "10effects,100% load/overflow;two PEDAL effects with external pedal;unsaved toe-toggle versus saved effect-switch changes."
+          }
+        ],
+        "duration": {
+          "minimum_days": 1493,
+          "maximum_days": 1885,
+          "label": "4.09–5.16 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G11",
       "Zoom::G1on",
       "Zoom::G1X FOUR",
       "Zoom::G1Xnext",
@@ -207281,12 +207357,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 365,
-    "last_model": "Zoom::G1 original",
-    "last_commit_parent": "8a2ad29b66248546c920aca1d0b1dc84240b0d33",
+    "completed_model_count": 366,
+    "last_model": "Zoom::G11",
+    "last_commit_parent": "377e72abbcb09925a416138ff5d7afa8fc2c5f8c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G11",
       "Zoom::G1on",
       "Zoom::G1X FOUR",
       "Zoom::G1Xnext",
@@ -207324,7 +207399,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 365,
+    "pitch_completed_model_count": 366,
     "supplemental_model_count": 0
   },
   "model_images": {

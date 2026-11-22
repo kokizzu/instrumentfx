@@ -6565,6 +6565,32 @@ Current summary now reflects the already reconciled106-choice module census. Exa
 
 ## G11
 
+<!-- firmware-pitch:Zoom::G11 begins -->
+### Firmware and pitch audit — Zoom G11
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2020 (manufacturer product-history year). Manufacturer chronology lists G11 in2020; April2020 mass-production firmware does not establish exact retail availability. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 2.10 — Latest verified. Current2.10 package matches February2025 history: fixes unexpected bank-name changes and scrolling failures after bank reordering.2.00 December2021 adds bass effects,500 user patch slots and expanded IR capacity. Guitar Lab/app/IR releases are separate. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/g11-support/) [firmware 2](https://zoomcorp.com/documents/3432/G11_FirmwareVersionHistory_ver210_en.pdf) |
+| Firmware / release date | 2025-02 (month precision) |
+| Firmware / release-to-update duration | 4.09–5.16 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. PolyShift explicitly supports chords,−24…+24 semitones. PitchSHFT spans−12…+12,+24 with±25-cent Fine; MonoPitch is single-note and HPS uses key/scale. PolyShift chord support does not certify every other pitch algorithm. [pitch 1](https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf) [pitch 2](https://zoomcorp.com/media/documents/E_G11v2.pdf) [pitch 3](https://zoomcorp.com/documents/3432/G11_FirmwareVersionHistory_ver210_en.pdf) |
+| Pitch / preset recall | Firmware2.00 expands user patch capacity to500. Built-in expression operates a PEDAL effect; enabling an external pedal permits two PEDAL effects, with EXT marking the external assignment. Toe-toggle on/off changes are not saved; effect-footswitch on/off changes are saved. |
+| Pitch / DSP resources | No exact per-pitch DSP percentage located. V2 manual allows up to10 effects within100% processing; category/effect selection screens show load. Overflow bypasses an effect. Slot count is not a per-algorithm CPU percentage; B3n allocations are not transferred. |
+| Pitch / qualifications | No firmware installation or hardware CPU/tracking test. Firmware2.10 history distinguishes bank fixes from the older2.00 feature expansion. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G11 listed under2020. (official chronology inspected).
+- [Zoom G11 support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/g11-support/) — System2.10 with separate ASIO/Guitar Lab/IR downloads. (current official package list inspected).
+- [G11 firmware version history](https://zoomcorp.com/documents/3432/G11_FirmwareVersionHistory_ver210_en.pdf) — 2.10 February2025 bank-order fixes;2.00 December2021 bass effects,500user slots,IR expansion. (official PDF read).
+- [G11 V2 effect list](https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf) — PolyShift chord support−24…+24;separate PitchSHFT,MonoPitch,HPS. (official PDF p28 inspected).
+- [G11 V2 operation manual](https://zoomcorp.com/media/documents/E_G11v2.pdf) — 10effects,100% load/overflow;two PEDAL effects with external pedal;unsaved toe-toggle versus saved effect-switch changes. (official PDF printed pp25–26,50–55 inspected).
+
+<!-- firmware-pitch:Zoom::G11 ends -->
+
 Guitar and bass multi-effects; large; built-in expression. Specifications below use ZOOM's own V2 operation/effect documents and current support page. A first-pass record with unresolved fields is not fully verified.
 
 <!-- comparison evidence begins -->
