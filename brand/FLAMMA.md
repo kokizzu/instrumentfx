@@ -135,7 +135,11 @@ Sources checked:
 
 [![FB200 top-down manufacturer graphic with active display](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FB200_1464x600-3_1.jpg?v=1751003402)](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FB200_1464x600-3_1.jpg?v=1751003402)
 
-[Image source](https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal). Annotated promotional composite shows P08 display and colored LED strip, with all16top controls and four switches. Top-down orientation is visible, but actual powered-on photography is not verified; colors on knobs are explanatory overlays.
+[Image source](https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal). Annotated promotional composite shows P08 display and colored LED strip, with all16top controls and four switches. Top-down orientation is visible, but actual powered-on photography is not verified; colors on knobs are explanatory overlays. A supplemental shop photograph below shows the complete physical FB200 on a rug with its blue display, red light strip and several colored knob indicators illuminated. All four footswitches and 16 knobs are visible, but the camera angle is strongly oblique; a powered-on overhead photograph remains pending.
+
+[![FB200 powered-on shop photograph](https://nafiriguitar.com/cdn/shop/files/8B4265B5-57F3-46BE-B9AB-2E62D2335F9C.jpg?v=1765094888&width=1445)](https://nafiriguitar.com/cdn/shop/files/8B4265B5-57F3-46BE-B9AB-2E62D2335F9C.jpg?v=1765094888&width=1445)
+
+[Powered-on photograph source](https://nafiriguitar.com/products/flamma-fb200-intelligent-bass-multi-effects-pedal).
 
 **FB200 rear ports and power switch**
 
