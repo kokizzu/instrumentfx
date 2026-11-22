@@ -22,3 +22,7 @@ model-images-review:
 .PHONY: model-images-commit
 model-images-commit:
 	python3 -B scripts/model_images.py commit
+
+.PHONY: model-images-test
+model-images-test:
+	python3 -B scripts/model_images.py test

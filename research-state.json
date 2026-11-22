@@ -218887,13 +218887,35 @@
             "image_url": "https://zoomcorp.com/media/original_images/RFX2200_front_web.jpg.1600x900_q65_crop_size_canvas.jpg",
             "source_url": "https://zoomcorp.com/en/us/digital-mixer-multi-track-recorders/multi-track-recorders/rxf-2200/",
             "caption": "RFX-2200 front control panel",
-            "note": "Manufacturer complete front-on control face with lit red numeric display and status LEDs. Eight rotary controls, patch/edit keys, microphone combo input, mic switch and power switch visible. Rack controls face forward; not a top-down chassis view. Promotional illumination is not independently verified. Rear photograph remains pending: the eBay candidate showed the top cover, and Reverb photographs could not be retrieved (HTTP 401).",
+            "note": "Manufacturer complete front-on control face with lit red numeric display and status LEDs. Eight rotary controls, patch/edit keys, microphone combo input, mic switch and power switch visible. Rack controls face forward; not a top-down chassis view. Promotional illumination is not independently verified.",
             "visual_checked": true,
             "powered_on": true,
             "exact_top_down": false,
             "sha256": "252d972d4e4fab46a0894814705919ef8c9d1102fb4d66630541209d692070be"
+          },
+          "rear": {
+            "image_url": "https://i.ebayimg.com/images/g/KnAAAeSwft1ot9lu/s-l1600.webp",
+            "source_url": "https://www.ebay.co.uk/itm/405954970858",
+            "caption": "Rear audio, digital and MIDI connectors",
+            "note": "Physical RFX-2200 rear photograph with readable model marking: stereo INPUT (L/MONO and R), stereo OUTPUT (L/R), coaxial and optical DIGITAL OUT, FS01 BYPASS, and MIDI IN/OUT/THRU. The left power section is outside this frame; the [matching power-and-MIDI photograph](https://i.ebayimg.com/images/g/QxcAAeSwrVxot9lo/s-l1600.webp) shows the complete IEC inlet/fuse and MIDI group. Together the two photographs cover the rear connector set; a single full-width rear photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "image_kind": "photograph",
+            "sha256": "2602aed9ccbec66c3266e41db617676214fb4312ee39910a2c3ed15485680fa8"
           }
-        }
+        },
+        "side_references": [
+          {
+            "image_url": "https://i.ebayimg.com/images/g/QxcAAeSwrVxot9lo/s-l1600.webp",
+            "source_url": "https://www.ebay.co.uk/itm/405954970858",
+            "caption": "Rear power inlet and MIDI group",
+            "note": "Companion photograph from the same listing covers the left rear IEC power/fuse and MIDI THRU/OUT/IN.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "fdef03ca8af26115d7698d5e579978c65c6a37e24ac2cf73b09bfcdb93c0824a",
+            "image_kind": "photograph"
+          }
+        ]
       },
       "Zoom::V3": {
         "model_key": "Zoom::V3",
@@ -220742,6 +220764,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Audota::AME-200 Pro"
+    "last_model": "Zoom::RFX-2200"
   }
 }

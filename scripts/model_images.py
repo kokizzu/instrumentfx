@@ -38,14 +38,35 @@ def block(r):
   out += [f"**{v['caption']}**",'',f"[![{v['caption']}]({v['image_url']})]({v['image_url']})",'',f"[Image source]({v['source_url']}). {v['note']}",'']
  out += ['</details>',f'<!-- model-images:{key} ends -->','']
  return '\n'.join(out)
+def replace_gallery(text,old,new):
+ before=block(old);after=block(new)
+ assert old['model_key']==new['model_key'], 'Cannot replace a different model'
+ assert text.count(before)==1, 'Existing gallery differs from recorded content; preserve manual edits'
+ return text.replace(before,after,1)
+def test():
+ r={'model_key':'Example::One','views':{'top':{'caption':'Top','image_url':'https://example.com/a.jpg','source_url':'https://example.com/','note':'Original','visual_checked':True}}}
+ n=json.loads(json.dumps(r));n['views']['top']['note']='Updated'
+ original='prefix\n'+block(r)+'suffix\n'
+ assert replace_gallery(original,r,n)=='prefix\n'+block(n)+'suffix\n'
+ for changed in (original.replace('Original','Manual edit'), original+block(r), 'missing'):
+  try: replace_gallery(changed,r,n)
+  except AssertionError: pass
+  else: raise AssertionError('Unsafe gallery replacement accepted')
+ print('PASS gallery replacement preserves surrounding text and rejects manual edits, duplicate or missing blocks')
 def apply():
  publish.identity();p=json.loads(PLAN.read_text());r,s=data()
  assert r==p['record'] and p['head']==publish.git('rev-parse','HEAD')
  path=ROOT/p['path'];assert hashlib.sha256(path.read_bytes()).hexdigest()==p['before']
- key=r['model_key'];text=path.read_text();assert f'<!-- model-images:{key} begins -->' not in text
- marker=f'<!-- firmware-pitch:{key} ends -->'
- assert marker in text,'Model requires canonical audit before image addition'
- text=text.replace(marker,marker+'\n\n'+block(r),1);path.write_text(text)
+ key=r['model_key'];text=path.read_text()
+ old=s.get('model_images',{}).get('models',{}).get(key)
+ if old:
+  text=replace_gallery(text,old,r)
+ else:
+  assert f'<!-- model-images:{key} begins -->' not in text
+  marker=f'<!-- firmware-pitch:{key} ends -->'
+  assert marker in text,'Model requires canonical audit before image addition'
+  text=text.replace(marker,marker+'\n\n'+block(r),1)
+ path.write_text(text)
  gallery=s.setdefault('model_images',{'models':{},'scope':'All active models; powered-on top and rear-port photographs; absent views explicitly pending','hover':'GitHub strips CSS/JS; use expandable pictures and direct image links','hover_source':'https://github.com/github/markup#github-markup'})
  gallery['models'][key]=r;gallery['last_model']=key
  (ROOT/'research-state.json').write_text(json.dumps(s,indent=2,ensure_ascii=False)+'\n')
@@ -73,9 +94,9 @@ def commit():
  assert r['paths']==sorted(publish.git('diff','--cached','--name-only').splitlines())
  assert r['sha256']==hashlib.sha256(publish.git('diff','--cached').encode()).hexdigest()
  assert not publish.git('diff','--name-only')
- subprocess.run(['git','commit','-m','docs(images): add '+r['model'].replace('::',' ')+' photographs'],cwd=ROOT,check=True)
+ subprocess.run(['git','commit','-m','docs(images): update '+r['model'].replace('::',' ')+' photographs'],cwd=ROOT,check=True)
  subprocess.run(['git','push','origin','main:main'],cwd=ROOT,check=True)
  assert publish.git('ls-remote','origin','refs/heads/main').split()[0]==publish.git('rev-parse','HEAD')
  print('PUSH_VERIFIED',publish.git('rev-parse','--short','HEAD'))
 if __name__=='__main__':
- {'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit}[sys.argv[1]]()
+ {'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit}[sys.argv[1]]()
