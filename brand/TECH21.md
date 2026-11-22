@@ -109,6 +109,31 @@ Checked2026-10-28 against [own ©2017 manual](https://www.tech21nyc.com/t21manua
 
 ## Bass Fly Rig v2
 
+<!-- firmware-pitch:Tech 21::Bass Fly Rig v2 begins -->
+### Firmware and pitch audit — Tech 21 Bass Fly Rig v2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2021-05-17 (dated manufacturer news release republication; first shipment unresolved). Manufacturer news release republished May 17, 2021 under News Releases announces v2 availability. This is a public release/availability announcement, not independently verified first shipment. Original Fly Rig 2014 date does not apply to this bass v2. [launch 1](https://musicplayers.com/2021/05/version-2-of-the-bass-fly-rig-now-available-from-tech-21/) |
+| Firmware / latest verification | Not verified — No public firmware located. No numbered device firmware release, release date or user updater located in checked manufacturer sources. v2 is a hardware model designation, not an installed firmware version. Analog SansAmp/FET sections do not establish that all circuitry is analog; internal embedded firmware absence is unproven. [firmware 1](https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/) [firmware 2](https://www.tech21nyc.com/support/) [firmware 3](https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. Octafilter explicitly uses a monophonic octave divider with dynamic filtering and optional gated fuzz. Separate chorus adds a detuned voice; its input-polyphony specification is unverified. [pitch 1](https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf) [pitch 2](https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/) |
+| Pitch / preset recall | Two physical Drive/Level channel pairs are not programmable pitch memories. Octave/fuzz switches and Q, RANGE, MIX interact; no general chromatic semitone range documented. |
+| Pitch / DSP resources | No pitch CPU percentage or DSP resource meter published in checked sources. MIX noon is 50/50 direct/affected audio, not 50% CPU. Analog SansAmp and digital square-wave division do not establish resource usage. |
+| Pitch / qualifications | Monophonic classification applies to the octave divider, not an invented restriction on every signal path or the chorus. Manual explains frequency division by two and potential glitches; compression may help adapt tracking. This is not polyphonic chord transposition. Effect loop is post-SansAmp/pre-effects; external pitch-shifter recommendations do not establish onboard extra transposer algorithms. No hardware/audio test performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Tech 21 manufacturer news release republished by MusicPlayers](https://musicplayers.com/2021/05/version-2-of-the-bass-fly-rig-now-available-from-tech-21/) — May 17, 2021 dated availability announcement; exact bass v2. (web indexed News Releases text read).
+- [Tech 21 Bass Fly Rig v2 official product](https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/) — Exact v2 hardware and Octafilter/chorus; no numbered device firmware listed. (web page read).
+- [Tech 21 official support](https://www.tech21nyc.com/support/) — Exact-model manual listed; no Bass Fly Rig v2 updater/release identified. (web page read).
+- [Bass Fly Rig v2 official owner manual](https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf) — Printed pp5–7 monophonic octave divider, detuned chorus, MIX balance, division/glitch qualification and loop placement; no DSP percentage. (web PDF text read).
+
+<!-- firmware-pitch:Tech 21::Bass Fly Rig v2 ends -->
+
 Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and guitar Fly Rig 5 v2. Checked 2026-10-17; partial. Ownership unestablished.
 
 <!-- comparison evidence begins -->

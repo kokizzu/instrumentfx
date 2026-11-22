@@ -202424,10 +202424,78 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Tech 21::Bass Fly Rig v2": {
+        "model_key": "Tech 21::Bass Fly Rig v2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2021-05-17",
+          "precision": "day",
+          "kind": "dated manufacturer news release republication; first shipment unresolved",
+          "source_urls": [
+            "https://musicplayers.com/2021/05/version-2-of-the-bass-fly-rig-now-available-from-tech-21/"
+          ],
+          "note": "Manufacturer news release republished May 17, 2021 under News Releases announces v2 availability. This is a public release/availability announcement, not independently verified first shipment. Original Fly Rig 2014 date does not apply to this bass v2."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/",
+            "https://www.tech21nyc.com/support/",
+            "https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf"
+          ],
+          "note": "No numbered device firmware release, release date or user updater located in checked manufacturer sources. v2 is a hardware model designation, not an installed firmware version. Analog SansAmp/FET sections do not establish that all circuitry is analog; internal embedded firmware absence is unproven."
+        },
+        "pitch": {
+          "status": "documented_monophonic",
+          "algorithms": "Octafilter explicitly uses a monophonic octave divider with dynamic filtering and optional gated fuzz. Separate chorus adds a detuned voice; its input-polyphony specification is unverified.",
+          "preset": "Two physical Drive/Level channel pairs are not programmable pitch memories. Octave/fuzz switches and Q, RANGE, MIX interact; no general chromatic semitone range documented.",
+          "dsp": "No pitch CPU percentage or DSP resource meter published in checked sources. MIX noon is 50/50 direct/affected audio, not 50% CPU. Analog SansAmp and digital square-wave division do not establish resource usage.",
+          "source_urls": [
+            "https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf",
+            "https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Monophonic classification applies to the octave divider, not an invented restriction on every signal path or the chorus.",
+            "Manual explains frequency division by two and potential glitches; compression may help adapt tracking. This is not polyphonic chord transposition.",
+            "Effect loop is post-SansAmp/pre-effects; external pitch-shifter recommendations do not establish onboard extra transposer algorithms. No hardware/audio test performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://musicplayers.com/2021/05/version-2-of-the-bass-fly-rig-now-available-from-tech-21/",
+            "title": "Tech 21 manufacturer news release republished by MusicPlayers",
+            "access": "web indexed News Releases text read",
+            "evidence": "May 17, 2021 dated availability announcement; exact bass v2."
+          },
+          {
+            "url": "https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/",
+            "title": "Tech 21 Bass Fly Rig v2 official product",
+            "access": "web page read",
+            "evidence": "Exact v2 hardware and Octafilter/chorus; no numbered device firmware listed."
+          },
+          {
+            "url": "https://www.tech21nyc.com/support/",
+            "title": "Tech 21 official support",
+            "access": "web page read",
+            "evidence": "Exact-model manual listed; no Bass Fly Rig v2 updater/release identified."
+          },
+          {
+            "url": "https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf",
+            "title": "Bass Fly Rig v2 official owner manual",
+            "access": "web PDF text read",
+            "evidence": "Printed pp5–7 monophonic octave divider, detuned chorus, MIX balance, division/glitch qualification and loop placement; no DSP percentage."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Tech 21::Bass Fly Rig v2",
       "Tech 21::Fly Rig 5 v2",
       "Valeton::Dapper Acoustic Mini",
       "Valeton::Dapper Amp Mini",
@@ -202533,12 +202601,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 298,
-    "last_model": "Tech 21::Acoustic Fly Rig",
-    "last_commit_parent": "2fcdc11d4f497f616254922cfa22185b4c9a524a",
+    "completed_model_count": 299,
+    "last_model": "Tech 21::Bass Fly Rig v2",
+    "last_commit_parent": "b22e5a90fa89475d2f69e6fab8822040d59c3b94",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Tech 21::Bass Fly Rig v2",
       "Tech 21::Fly Rig 5 v2",
       "Valeton::Dapper Acoustic Mini",
       "Valeton::Dapper Amp Mini",
@@ -202643,7 +202710,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 298,
+    "pitch_completed_model_count": 299,
     "supplemental_model_count": 0
   },
   "model_images": {
