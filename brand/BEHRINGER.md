@@ -529,6 +529,26 @@ Sources checked:
 
 <!-- firmware-pitch:Behringer::FX2000 ends -->
 
+<!-- model-images:Behringer::FX2000 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Behringer FX2000 — front control panel**
+
+[![Behringer FX2000 — front control panel](https://www.electori.co.jp/behringer/assets/images/products/signal_processors/FX2000_img_02.png)](https://www.electori.co.jp/behringer/assets/images/products/signal_processors/FX2000_img_02.png)
+
+[Image source](https://www.electori.co.jp/behringer/product.php?genre=signal_processors&product=fx2000). Powered promotional front-panel view with red preset display, green level meters and status indicators; all six knobs and panel buttons visible. Rack controls face forward; this is a slightly elevated front view, not a top-down chassis photograph. Large white margins surround the unit.
+
+**Behringer FX2000 — rear connections**
+
+[![Behringer FX2000 — rear connections](https://www.soundseasy.com.au/cdn/shop/products/behringer-FX2000-Rear_1200x.png?v=1614746060)](https://www.soundseasy.com.au/cdn/shop/products/behringer-FX2000-Rear_1200x.png?v=1614746060)
+
+[Image source](https://www.soundseasy.com.au/products/behringer). Full rear view showing IEC power/fuse inlet, MIDI OUT/THRU/IN and both channels of balanced XLR and quarter-inch inputs/outputs with operating-level switches. Fine labels are small and dark; large white margins surround the panel.
+
+</details>
+<!-- model-images:Behringer::FX2000 ends -->
+
+
 VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvocals. Checked2026-10-17;partial. Use suitable amp/mixer routing;XLR connectors alone do not establish a microphone preamp.
 
 | Field | Evidence / qualification |
