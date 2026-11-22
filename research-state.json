@@ -216399,11 +216399,36 @@
             "sha256": "ae3d1a02a49d61e0f882193bc3edc7696da1e7c4e61435d1404adf6ca337a630"
           }
         }
+      },
+      "Zoom::G3": {
+        "model_key": "Zoom::G3",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-g3-2867808.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/g3/",
+            "caption": "G3 powered control face",
+            "note": "Actual powered G3, complete near-overhead control face (photograph rotated sideways): all three amber LCDs are active and the third footswitch LED is lit. Nine knobs, three footswitches and sixteen front-panel keys are visible.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "7e72718b9a808ab56fad9744d4f524c87ed7f6be908616e7e8b14a3bbc8d3ebd"
+          },
+          "rear": {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/G3_rear.jpg",
+            "source_url": "https://www.zoom.co.jp/ja/products/guitar/g3-guitar-effects-amp-simulator-pedal",
+            "caption": "G3 rear connections",
+            "note": "Official complete rear photograph: INPUT with PASSIVE/ACTIVE selector; balanced XLR with PRE/POST and CONNECT/LIFT ground selectors; R and shared L/MONO/PHONES outputs; CONTROL IN; USB Type-B; ON/eco/OFF power switch; DC 9V input and security slot. Headphones share the L/MONO output; there is no separate headphone jack.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "b02bf9dc39e401edf15b390e2eb9ab12ae129704c7bd352def91e84c123fa3f1"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G2X FOUR"
+    "last_model": "Zoom::G3"
   }
 }

@@ -5215,6 +5215,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G3 ends -->
 
+<!-- model-images:Zoom::G3 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G3 powered control face**
+
+[![G3 powered control face](https://medias.audiofanzine.com/images/normal/zoom-g3-2867808.jpg)](https://medias.audiofanzine.com/images/normal/zoom-g3-2867808.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/g3/). Actual powered G3, complete near-overhead control face (photograph rotated sideways): all three amber LCDs are active and the third footswitch LED is lit. Nine knobs, three footswitches and sixteen front-panel keys are visible.
+
+**G3 rear connections**
+
+[![G3 rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G3_rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G3_rear.jpg)
+
+[Image source](https://www.zoom.co.jp/ja/products/guitar/g3-guitar-effects-amp-simulator-pedal). Official complete rear photograph: INPUT with PASSIVE/ACTIVE selector; balanced XLR with PRE/POST and CONNECT/LIFT ground selectors; R and shared L/MONO/PHONES outputs; CONTROL IN; USB Type-B; ON/eco/OFF power switch; DC 9V input and security slot. Headphones share the L/MONO output; there is no separate headphone jack.
+
+</details>
+<!-- model-images:Zoom::G3 ends -->
+
+
 Original guitar multi-effects, distinct from G3X and G3n. Checked 2026-10-17; partial. Discontinued. Bass/vocal suitability unclassified. Later shared-manual evidence below is not proof of the offered unit’s installed firmware.
 
 <!-- comparison evidence begins -->
