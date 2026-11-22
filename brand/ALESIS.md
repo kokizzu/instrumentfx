@@ -389,6 +389,26 @@ Sources checked:
 
 <!-- firmware-pitch:Alesis::MIDIverb III ends -->
 
+<!-- model-images:Alesis::MIDIverb III begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Powered front control panel**
+
+[![Powered front control panel](https://tonetweakers.com/cdn/shop/products/alesis-midiverb-iii-4370x-1_1024x1024.jpg?v=1561322219)](https://tonetweakers.com/cdn/shop/products/alesis-midiverb-iii-4370x-1_1024x1024.jpg?v=1561322219)
+
+[Image source](https://tonetweakers.com/products/alesis-midiverb-iii). Complete front control panel with illuminated red program display and status indicators. The view is slightly elevated, showing the top lid as well as the controls; fine labels remain small at this resolution. A larger straight-on control photograph remains pending. For this rack unit the front panel is the control surface.
+
+**Rear connections**
+
+[![Rear connections](https://medias.audiofanzine.com/images/normal/alesis-midiverb-iii-4222169.jpg)](https://medias.audiofanzine.com/images/normal/alesis-midiverb-iii-4222169.jpg)
+
+[Image source](https://fr.audiofanzine.com/reverb/alesis/MidiVerb-3/). All rear connectors and their labels are visible: bypass footswitch, 9 V AC power, MIDI OUT/THRU and IN, stereo L/R outputs, and stereo L/R inputs. The photograph is angled from above but no connection is hidden.
+
+</details>
+<!-- model-images:Alesis::MIDIverb III ends -->
+
+
 <!-- comparison evidence begins -->
 Checked2026-10-17. Partial instrument/microphone multi-effects;not MIDIverb4. [Manufacturer Reference Manual onmirror](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf),63pages,exact Alesis MidiVerb3 title;revision/date unestablished. Official oldmanualURL inaccessible;webtext only,no download/visualaudit.
 
