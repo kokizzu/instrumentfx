@@ -1886,11 +1886,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Near-overhead GP-100 manufacturer image with displayed preset screen.**
+**GP-100 powered-on overhead user photograph**
 
-[![Near-overhead GP-100 manufacturer image with displayed preset screen.](https://shop.valeton.net/cdn/shop/products/GP-100_Front_WithScreen_Hi_V02_200603_1500x.png?v=1641369696)](https://shop.valeton.net/cdn/shop/products/GP-100_Front_WithScreen_Hi_V02_200603_1500x.png?v=1641369696)
+[![GP-100 powered-on overhead user photograph](https://cdn.mule.co.kr/data/thumb/2021/03/01/0c64b130-7a50-11eb-9d70-15fe4bc4d1d4.jpg)](https://cdn.mule.co.kr/data/thumb/2021/03/01/0c64b130-7a50-11eb-9d70-15fe4bc4d1d4.jpg)
 
-[Image source](https://shop.valeton.net/products/gp-100). Stock cutout displays P01 It is GP-100 screen artwork; independent powered hardware is not verified. Slight perspective/rear jacks visible, so strict powered-on overhead remains pending. Visually4 rotary controls,2 footswitches,5 separate buttons and built-in expression treadle. No firmware version inferred from preset screen.
+[Image source](https://www.mule.co.kr/bbs/info/sell?idx=56126165&v=v). Visually inspected original black GP-100 on a light floor: illuminated blue/white display, four rotary controls, five buttons, both footswitches and complete expression treadle visible. Cables are connected at the rear. Near-overhead angle retains slight perspective, so strict perpendicular elevation remains pending. Screen text is overexposed; no preset name, firmware version or effect capability is inferred. Official rear-port photograph retained separately.
 
 **GP-100 rear connector stock photograph.**
 
