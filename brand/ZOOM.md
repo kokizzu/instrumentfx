@@ -5768,6 +5768,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G3X ends -->
 
+<!-- model-images:Zoom::G3X begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G3X powered control face**
+
+[![G3X powered control face](https://frankfurt.apollo.olxcdn.com/v1/files/zbuyle6e67uc1-RO/image%3Bs%3D4000x3000)](https://frankfurt.apollo.olxcdn.com/v1/files/zbuyle6e67uc1-RO/image%3Bs%3D4000x3000)
+
+[Image source](https://www.olx.ro/d/oferta/pedala-multiefect-procesor-de-chitara-zoom-g3x-IDieWiL.html). Actual powered G3X in a complete near-overhead view: all three amber LCDs display DLY+REV, TANGERINE and AIR; all three footswitch LEDs are lit. Nine knobs, sixteen front keys, three footswitches and the built-in expression treadle are visible.
+
+**G3X rear connections**
+
+[![G3X rear connections](https://medias.audiofanzine.com/images/normal/zoom-g3x-6127965.jpg)](https://medias.audiofanzine.com/images/normal/zoom-g3x-6127965.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/g3x/). Actual complete rear photograph: INPUT with PASSIVE/ACTIVE selector; balanced XLR with PRE/POST and CONNECT/LIFT ground selectors; OUTPUT R and shared L/MONO/PHONES; CONTROL IN; USB Type-B; ON/eco/OFF power switch; center-negative DC 9V 500mA input and security slot. Headphones share L/MONO; no separate headphone jack.
+
+</details>
+<!-- model-images:Zoom::G3X ends -->
+
+
 Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufacturer marks discontinued. Checked2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
 
 | Field | Finding / qualification | Evidence |
