@@ -2765,6 +2765,32 @@ The [Toco offer labelled new in metadata at Rp4.525m](https://toco.id/listing/va
 
 ## GP-200JR
 
+<!-- firmware-pitch:Valeton::GP-200JR begins -->
+### Firmware and pitch audit — Valeton GP-200JR
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023-05-22 (official public launch; earliest retail shipment unresolved). Valeton Like Father, Like Son official launch video published 22 May 2023; not independent first-shipment proof. [launch 1](https://www.youtube.com/watch?v=pmW16RNvuU8) |
+| Firmware / latest verification | 1.8.0 — Located; latest status unverified. Highest numbered exact-JR official package located, 4.41 MB, paired with editor 1.8.0. Created 11 June 2025 / Updated 6 February 2026 are repository metadata, not verified release chronology. No package run. Full-size GP-200 firmware 1.8.2 and desktop editor 1.8.1 do not establish JR firmware versions; dynamic catalogue prevents exhaustive latest guarantee. [firmware 1](https://www.valeton.net/wpfd_file/gp-200jr-firmware-v1-8-0-zip%EF%BC%88compatible-software-v1-8-0%EF%BC%89/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. JR manual explicitly labels Pitch and P-Bend polyphonic, Hammy and Harmonizer 1/2 monophonic. OCTA is explicitly polyphonic in the manufacturer 1.5.0 body. Harmonizer 1/2 generate one/two voices with maximum one-octave range; voice count is not input-note polyphony. [pitch 1](https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf) [pitch 2](https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149) [pitch 3](https://www.valeton.net/product/gp-2oojr/) |
+| Pitch / preset recall | 255 editable locations, 99 factory-filled plus 156 remaining. Pitch has separate low/high semitone voices and dry/voice levels; P-Bend lists Low/Hi Pitch, Wet, Dry and Range without numerical endpoints. Eleven category modules do not permit arbitrary duplicate pitch blocks. |
+| Pitch / DSP resources | No pitch-specific CPU percentage found in inspected sources. Eleven movable modules remain subject to DSP overload; module count is not a per-effect allocation. JR manual Global EQ prose repeatedly names GP-200LT, so its USB-EQ routing statement remains qualified rather than silently transferred. |
+| Pitch / qualifications | Exact-JR manual evidence is preserved separately by revision; older 1.5.0 parameter detail does not certify every 1.8.0 endpoint or installed content. No chord-tracking, latency or DSP measurement performed. Retain manual reset-count/model-name conflicts; no sibling firmware claim inherited. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Official GP-200JR firmware 1.8.0 listing](https://www.valeton.net/wpfd_file/gp-200jr-firmware-v1-8-0-zip%EF%BC%88compatible-software-v1-8-0%EF%BC%89/) — 4.41 MB, editor 1.8.0; repository Created/Updated fields do not prove firmware release date. (web page read).
+- [Valeton GP-200JR official launch](https://www.youtube.com/watch?v=pmW16RNvuU8) — Published 22 May 2023; public launch, first shipment unknown. (indexed official video metadata and description).
+- [Manufacturer GP-200JR firmware 1.8.0 manual](https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf) — Exact-JR pitch polyphony distinctions; 255/99/156 storage, eleven modules and DSP limits; copied LT wording retained. (retained prior original manual read and panel inspection).
+- [Manufacturer GP-200JR firmware 1.5.0 manual reproduction](https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149) — Printed24 OCTA polyphonic; separate Pitch/P-Bend parameters, no numeric endpoints supplied. (retained original manual-body read; host title 1.4.0 conflicts with body 1.5.0).
+- [Valeton GP-200JR official product](https://www.valeton.net/product/gp-2oojr/) — 255 patches/99 factory, eleven movable modules and three footswitches; stray VPS-6 prose and balanced/unbalanced output wording conflict retained. (web page read).
+
+<!-- firmware-pitch:Valeton::GP-200JR ends -->
+
 Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200LT and full-size GP-200. Primary manual diagrams were rendered and visually inspected; the firmware 1.8.0 manual contains substantial model-copy errors, retained below.
 
 <!-- comparison evidence begins -->
