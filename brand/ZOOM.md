@@ -104,6 +104,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::505 original ends -->
 
+<!-- model-images:Zoom::505 original begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Original 505 control face**
+
+[![Original 505 control face](https://www.audiotrader.co.uk/cdn/shop/files/20250319_145057.jpg?v=1742396896)](https://www.audiotrader.co.uk/cdn/shop/files/20250319_145057.jpg?v=1742396896)
+
+[Image source](https://www.audiotrader.co.uk/products/zoom-505-guitar-pedal-multi-effects-guitar-pedal). Visually checked full powered original505GUITAR from overhead: bright A2 patch display and connected DC lead. Zero knobs,two footswitches and four side buttons STORE/EDIT/VALUE±; no built-in treadle. Patch A2 is not firmware revision. Near-vertical view with slight perspective.
+
+**Original 505 rear connectors**
+
+[![Original 505 rear connectors](https://www.audiotrader.co.uk/cdn/shop/files/20250319_145133.jpg?v=1742396897)](https://www.audiotrader.co.uk/cdn/shop/files/20250319_145133.jpg?v=1742396897)
+
+[Image source](https://www.audiotrader.co.uk/products/zoom-505-guitar-pedal-multi-effects-guitar-pedal). Visually checked matching black original 505 rear, angled view with all four sockets visible: INPUT, DC9V, CONTROL IN and shared OUTPUT (PHONES). Labels are low contrast; use the official manual for electrical specifications. No separate headphone socket. Display unlit in this rear photograph.
+
+</details>
+<!-- model-images:Zoom::505 original ends -->
+
+
 Partial record, checked 2026-10-18. Original 505 GUITAR; separate from 505II and 505A. Ownership and exact seller-unit revision unverified.
 
 | Field | Evidence / qualification |
