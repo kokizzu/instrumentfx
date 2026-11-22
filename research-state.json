@@ -209059,7 +209059,7 @@
             "url": "https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf",
             "title": "Effect Processing Power Chart v2",
             "access": "official support-linked six-page PDF inspected",
-            "evidence": "G3n/G3Xn capacity 100; PitchSHFT/MonoPitch/HPS/PDL Pitch/PDL MnPit each 7, Detune 6."
+            "evidence": "Page 1 explicitly gives G5n ver.3.0 and G3n/G3Xn maximum processing capacity 100. Page 3: PitchSHFT, MonoPitch and HPS each 7, Detune 6; page 5: PDL Pitch and PDL MnPit each 7. These are published effect-budget units, not physical CPU measurements."
           }
         ],
         "duration": {
@@ -209067,7 +209067,93 @@
           "maximum_days": 850,
           "label": "1.25–2.33 years"
         },
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Zoom::G5n",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2016",
+              "precision": "year",
+              "kind": "manufacturer product-history year",
+              "source_urls": [
+                "https://ir.zoom.co.jp/en/corporate/history/"
+              ],
+              "note": "Zoom chronology places G5n in 2016. December 2015 production firmware is not an exact retail launch date."
+            },
+            "firmware": {
+              "version": "3.00",
+              "date": "2018-04",
+              "precision": "month",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://zoomcorp.com/en/jp/multi-effects/guitar-effects/zoom-g5n/g5n-support/",
+                "https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf"
+              ],
+              "note": "Current exact G5n Windows/Mac 3.0 matches April 2018 history: Guitar Lab 3 support, tuner/encoder improvements, OutputVP and previously downloadable effects. 2.00 February 2017 optimized amp DSP to reduce overflow, added two-unit looper and fixed looper/rhythm issues. 1.00 December 2015 is production firmware. Guitar Lab updates are separate."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "PitchSHFT: −12…+12,+24 semitones, ±25-cent fine tuning and wet/dry balance. MonoPitch and PDL MnPit explicitly target single notes; HPS is key/scale-based. PDL Pitch offers nine pedal mappings. Generic PitchSHFT/PDL Pitch chord support is unverified in the official list.",
+              "preset": "200 patches retain parameters and states. Built-in expression pedal and toe switch; pedal-category effects support control. EXT PDL enables a second pedal effect assigned to external FP01/FP02 via CONTROL IN. OutputVP (3.00+) carries volume across patch changes. Toe-switch toggling does not change the saved ON/OFF state; the effect footswitch does.",
+              "dsp": "Official chart for G5n ver.3.0: total capacity 100; PitchSHFT, MonoPitch, HPS, PDL Pitch and PDL MnPit each 7/100 (7%); Detune 6/100. Up to nine effects subject to processing/unit limits; PROCESS OVERFLOW bypasses effects. Firmware 2.00 optimized amp DSP. Published budget figures are not hardware CPU measurements.",
+              "source_urls": [
+                "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+                "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+                "https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf",
+                "https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Documentation only; no firmware installation, unofficial cross-model effect imports or hardware tracking test."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://ir.zoom.co.jp/en/corporate/history/",
+                "title": "Zoom corporate history",
+                "access": "official chronology inspected",
+                "evidence": "G5n under 2016."
+              },
+              {
+                "url": "https://zoomcorp.com/en/jp/multi-effects/guitar-effects/zoom-g5n/g5n-support/",
+                "title": "G5n support",
+                "access": "official indexed exact-model support inspected",
+                "evidence": "G5n 3.0 Windows/Mac, separate Guitar Lab and ASIO."
+              },
+              {
+                "url": "https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf",
+                "title": "G5n firmware history",
+                "access": "official PDF inspected",
+                "evidence": "3.00 April 2018; 2.00 February 2017 DSP optimization; production 1.00 December 2015."
+              },
+              {
+                "url": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+                "title": "G5n v2 operation manual",
+                "access": "official PDF inspected",
+                "evidence": "200 patches; nine-effect overflow limits; built-in pedal and external second pedal-effect assignment."
+              },
+              {
+                "url": "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+                "title": "G5n/G3n/G3Xn effect parameters",
+                "access": "official support-linked PDF inspected",
+                "evidence": "PitchSHFT, mono variants, HPS and pedal pitch mappings; no generic chord-support claim."
+              },
+              {
+                "url": "https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf",
+                "title": "Effect Processing Power Chart v2",
+                "access": "official support-linked six-page PDF inspected",
+                "evidence": "G3n/G3Xn capacity 100; PitchSHFT/MonoPitch/HPS/PDL Pitch/PDL MnPit each 7, Detune 6."
+              }
+            ],
+            "duration": {
+              "minimum_days": 456,
+              "maximum_days": 850,
+              "label": "1.25–2.33 years"
+            },
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Zoom::G6": {
         "model_key": "Zoom::G6",
@@ -210610,8 +210696,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Donner::Arena2000",
-    "last_commit_parent": "f4fe818d1d85e055947f5aa4da063ec7c9f36e41",
+    "last_model": "Zoom::G5n",
+    "last_commit_parent": "2bfd2f0f768d2de7177a0de7b47520e35f415c8f",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

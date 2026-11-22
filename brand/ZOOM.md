@@ -6605,7 +6605,7 @@ Sources checked:
 - [G5n firmware history](https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf) — 3.00 April 2018; 2.00 February 2017 DSP optimization; production 1.00 December 2015. (official PDF inspected).
 - [G5n v2 operation manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) — 200 patches; nine-effect overflow limits; built-in pedal and external second pedal-effect assignment. (official PDF inspected).
 - [G5n/G3n/G3Xn effect parameters](https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf) — PitchSHFT, mono variants, HPS and pedal pitch mappings; no generic chord-support claim. (official support-linked PDF inspected).
-- [Effect Processing Power Chart v2](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf) — G3n/G3Xn capacity 100; PitchSHFT/MonoPitch/HPS/PDL Pitch/PDL MnPit each 7, Detune 6. (official support-linked six-page PDF inspected).
+- [Effect Processing Power Chart v2](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf) — Page 1 explicitly gives G5n ver.3.0 and G3n/G3Xn maximum processing capacity 100. Page 3: PitchSHFT, MonoPitch and HPS each 7, Detune 6; page 5: PDL Pitch and PDL MnPit each 7. These are published effect-budget units, not physical CPU measurements. (official support-linked six-page PDF inspected).
 
 <!-- firmware-pitch:Zoom::G5n ends -->
 
