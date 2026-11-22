@@ -1717,6 +1717,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GT-5 ends -->
 
+<!-- model-images:BOSS::GT-5 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS GT-5 — powered-on top view**
+
+[![BOSS GT-5 — powered-on top view](https://static.roland.com/assets/images/products/main/gt_5_top_main.jpg)](https://static.roland.com/assets/images/products/main/gt_5_top_main.jpg)
+
+[Image source](https://www.boss.info/us/products/gt-5/). Complete manufacturer straight-down promotional view with an active green LCD, rotary controls, effect/edit buttons, seven footswitches and full expression pedal. The original is only 600 pixels wide and small labels are soft. Powered-on appearance is visible; independent operating-state verification is unavailable.
+
+**BOSS GT-5 — rear connections**
+
+[![BOSS GT-5 — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/60822/390487/YBOSS13713002__83888.1717669889.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/60822/390487/YBOSS13713002__83888.1717669889.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/boss-gt-5-guitar-effects-processor-2nd-hand/). Actual retailer photograph of an unpowered used GT-5, viewed diagonally from behind with the complete rear connection row visible: INPUT and level control, OUTPUT R/L-MONO, PHONES, LOOP SEND/RETURN, EXP PEDAL/CONTROL1/2, MIDI IN/OUT, power switch and captive mains lead. The far-end jack labels are less readable because of perspective; this pictured unit is marked AC230V.
+
+</details>
+<!-- model-images:BOSS::GT-5 ends -->
+
+
 Checked2026-10-17;partial. Guitar multi-effects; bass/vocal suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->

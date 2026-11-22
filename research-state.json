@@ -219494,11 +219494,36 @@
             "sha256": "5ea62f2ed98e6fa84a1a78102f4ea3c8785af0474137b061af2473c4b5adf085"
           }
         }
+      },
+      "BOSS::GT-5": {
+        "model_key": "BOSS::GT-5",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/assets/images/products/main/gt_5_top_main.jpg",
+            "source_url": "https://www.boss.info/us/products/gt-5/",
+            "caption": "BOSS GT-5 — powered-on top view",
+            "note": "Complete manufacturer straight-down promotional view with an active green LCD, rotary controls, effect/edit buttons, seven footswitches and full expression pedal. The original is only 600 pixels wide and small labels are soft. Powered-on appearance is visible; independent operating-state verification is unavailable.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "b4b56037faf8dbe1ae2a28b832cb91fc25aac1df2372d8b69e82229812345d29"
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/60822/390487/YBOSS13713002__83888.1717669889.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/boss-gt-5-guitar-effects-processor-2nd-hand/",
+            "caption": "BOSS GT-5 — rear connections",
+            "note": "Actual retailer photograph of an unpowered used GT-5, viewed diagonally from behind with the complete rear connection row visible: INPUT and level control, OUTPUT R/L-MONO, PHONES, LOOP SEND/RETURN, EXP PEDAL/CONTROL1/2, MIDI IN/OUT, power switch and captive mains lead. The far-end jack labels are less readable because of perspective; this pictured unit is marked AC230V.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "39ca4d7ef21a74e0c6b441c6e0c2026cf552ce2f07e0c38b033ce345654e2134"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-50B"
+    "last_model": "BOSS::GT-5"
   }
 }
