@@ -208765,11 +208765,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Tech 21::Acoustic Fly Rig": {
+        "model_key": "Tech 21::Acoustic Fly Rig",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.tech21nyc.com/wp-content/uploads/2018/12/acoustic_flyrig-2-1024x224.png",
+            "source_url": "https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/",
+            "caption": "Near-overhead manufacturer control-face image with illuminated controls and tuner indication.",
+            "note": "Stock image shows colored illuminated knobs and tuner C/green indication; independent powered hardware is not verified. Slight perspective, not strict perpendicular overhead. Visually 14 rotary knobs, 5 footswitches and 6 small pushbuttons. Transparent cutout; not a live operating test.",
+            "visual_checked": true,
+            "sha256": "f760627672a36607506acc042c40cdbbccc6beb334193e8c1b5e46cbdb8836fb",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://www.altomusic.com/cdn/shop/files/FRACOUS_0.jpg?v=1692039658&width=1946",
+            "source_url": "https://www.altomusic.com/products/tech-21-fracous-fracous",
+            "caption": "Long connector edge: quarter-inch IN, quarter-inch OUT and center-negative DC input.",
+            "note": "Unlit stock view. IN/OUT and DC polarity are visible; voltage/current are not labeled legibly here. The balanced XLR on another edge is outside this view, so this is not a complete all-edge port inventory. No extra connector inferred from protruding top-face actuators.",
+            "visual_checked": true,
+            "sha256": "bd77eb5677585cf9be03dc11e1f534bd13c8e6143d2590d88afde6a32e86d48d",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::VoiceTone Create XT"
+    "last_model": "Tech 21::Acoustic Fly Rig"
   }
 }
