@@ -218669,11 +218669,36 @@
             "sha256": "9009588ac6ff0ef1bef2e956b9a23fc8b89b0dbca94adfc5145af1c98427f631"
           }
         }
+      },
+      "Zoom::RFX-2000": {
+        "model_key": "Zoom::RFX-2000",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_rfx2000.png",
+            "source_url": "https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000",
+            "caption": "RFX-2000 front control panel",
+            "note": "Manufacturer complete front-on photograph with red numeric display and lit bank/level indicators. Eight rotary controls, patch/edit keys, microphone jack and power switch visible. Rack control face is forward-facing, not a top-down chassis view; promotional powered display not independently verified.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "b32f7a085d9014145b144d78b23600643b3a3b63fde20fdbead56203d4ba9008"
+          },
+          "rear": {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/RFX2000_Rear.jpg",
+            "source_url": "https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000",
+            "caption": "RFX-2000 rear connections",
+            "note": "Manufacturer complete rear photograph: MIDI THRU/OUT/IN, FS01 BYPASS, coaxial RCA and optical S/PDIF outputs, R/L analog outputs, R and L/MONO inputs and 12VAC 500mA adapter socket. Wide white source margins retained.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "1d2a6f5dc69df6dabe10912d8866e8761ef69cf9439120ea9e26774e64fbf018"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::RFX-1100"
+    "last_model": "Zoom::RFX-2000"
   }
 }

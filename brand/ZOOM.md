@@ -10029,6 +10029,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::RFX-2000 ends -->
 
+<!-- model-images:Zoom::RFX-2000 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**RFX-2000 front control panel**
+
+[![RFX-2000 front control panel](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_rfx2000.png)](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_rfx2000.png)
+
+[Image source](https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000). Manufacturer complete front-on photograph with red numeric display and lit bank/level indicators. Eight rotary controls, patch/edit keys, microphone jack and power switch visible. Rack control face is forward-facing, not a top-down chassis view; promotional powered display not independently verified.
+
+**RFX-2000 rear connections**
+
+[![RFX-2000 rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/RFX2000_Rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/RFX2000_Rear.jpg)
+
+[Image source](https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000). Manufacturer complete rear photograph: MIDI THRU/OUT/IN, FS01 BYPASS, coaxial RCA and optical S/PDIF outputs, R/L analog outputs, R and L/MONO inputs and 12VAC 500mA adapter socket. Wide white source margins retained.
+
+</details>
+<!-- model-images:Zoom::RFX-2000 ends -->
+
+
 Checked2026-10-17;partial. Own manual guitar setup and dynamic-microphone vocal path establish guitar/vocal scope. Bass applicability unclassified;ownership unestablished.
 
 <!-- comparison evidence begins -->
