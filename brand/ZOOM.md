@@ -4623,6 +4623,33 @@ MOD/SFX choices share one module; they are not all concurrently available. Curre
 
 ## G2.1Nu
 
+<!-- firmware-pitch:Zoom::G2.1Nu begins -->
+### Firmware and pitch audit — Zoom G2.1Nu
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2010 (manufacturer product-history year). Manufacturer chronology lists G2.1Nu in 2010. December 2009 mass-production firmware is not an exact retail-release date. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 1.10 — Latest verified. Current exact-model Windows/Mac system 1.10 packages match October 2011 history: fixes unintended eco standby despite input audio. 1.03 November 2010 addresses VintageCE and tuner display; 1.01 December 2009 is mass production. USB subsystem 1.10, Edit&Share and ASIO releases are separate. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g21nu/g21nu/) [firmware 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G2Nu_G2.1Nu_v1.10_E.pdf) |
+| Firmware / release date | 2011-10 (month precision) |
+| Firmware / release-to-update duration | 0.75–1.83 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT and explicitly single-note MonoPitch: −12…−1, dt, +1…+12,+24 semitones. HPS follows scale/key; PDL Pitch offers nine expression mappings. Pitch algorithms share the MODULATION module. Generic PitchSHFT/PDL Pitch chord polyphony remains unverified. [pitch 1](https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf) [pitch 2](https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf) [pitch 3](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G2Nu_G21Nu.pdf) |
+| Pitch / preset recall | 100 user plus 100 preset memories; original user sounds duplicate presets. Pedal assignment and min/max require saving before patch change. Built-in treadle supports pitch control; the manual also describes external expression control. No claim of gapless recall. |
+| Pitch / DSP resources | Maximum eight simultaneous modules with fixed module categories. No exact pitch DSP percentage located. Pitch choices in MODULATION do not establish freely stackable pitch blocks; slot/module counts are not CPU measurements. |
+| Pitch / qualifications | Official full manual exceeds browser size limit; manufacturer-indexed passages inspected. No firmware installation or hardware CPU/tracking test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G2.1Nu under 2010. (official chronology inspected).
+- [G2.1Nu support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g21nu/g21nu/) — System 1.10 Windows/Mac; USB subsystem, editor and ASIO listed separately. (official current package listing inspected).
+- [G2Nu/G2.1Nu system version history](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G2Nu_G2.1Nu_v1.10_E.pdf) — 1.10 October 2011 eco standby fix; 1.03 November 2010; 1.01 December 2009 production. (official history read).
+- [G2Nu/G2.1Nu operation manual](https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf) — PitchSHFT range/detune, HPS and nine PDL Pitch mappings. (official indexed pages 43–44 inspected; full PDF exceeds browser limit).
+- [G2Nu/G2.1Nu manual official alternate copy](https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf) — Single-note MonoPitch; eight modules and 100 user/100 preset slots. (official indexed pages 44,50 inspected).
+- [G2Nu/G2.1Nu manual official legacy copy](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G2Nu_G21Nu.pdf) — Save pedal settings before changing patch; adjustable min/max. (official indexed page 28 inspected).
+
+<!-- firmware-pitch:Zoom::G2.1Nu ends -->
+
 Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [own support page][ZNU-S]. Checked2026-10-18; partial. Ownership and bass/vocal suitability unverified.
 
 <!-- comparison evidence begins -->

@@ -207710,10 +207710,92 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G2.1Nu": {
+        "model_key": "Zoom::G2.1Nu",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2010",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists G2.1Nu in 2010. December 2009 mass-production firmware is not an exact retail-release date."
+        },
+        "firmware": {
+          "version": "1.10",
+          "date": "2011-10",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g21nu/g21nu/",
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G2Nu_G2.1Nu_v1.10_E.pdf"
+          ],
+          "note": "Current exact-model Windows/Mac system 1.10 packages match October 2011 history: fixes unintended eco standby despite input audio. 1.03 November 2010 addresses VintageCE and tuner display; 1.01 December 2009 is mass production. USB subsystem 1.10, Edit&Share and ASIO releases are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT and explicitly single-note MonoPitch: −12…−1, dt, +1…+12,+24 semitones. HPS follows scale/key; PDL Pitch offers nine expression mappings. Pitch algorithms share the MODULATION module. Generic PitchSHFT/PDL Pitch chord polyphony remains unverified.",
+          "preset": "100 user plus 100 preset memories; original user sounds duplicate presets. Pedal assignment and min/max require saving before patch change. Built-in treadle supports pitch control; the manual also describes external expression control. No claim of gapless recall.",
+          "dsp": "Maximum eight simultaneous modules with fixed module categories. No exact pitch DSP percentage located. Pitch choices in MODULATION do not establish freely stackable pitch blocks; slot/module counts are not CPU measurements.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf",
+            "https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf",
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G2Nu_G21Nu.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Official full manual exceeds browser size limit; manufacturer-indexed passages inspected. No firmware installation or hardware CPU/tracking test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "G2.1Nu under 2010."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g21nu/g21nu/",
+            "title": "G2.1Nu support",
+            "access": "official current package listing inspected",
+            "evidence": "System 1.10 Windows/Mac; USB subsystem, editor and ASIO listed separately."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G2Nu_G2.1Nu_v1.10_E.pdf",
+            "title": "G2Nu/G2.1Nu system version history",
+            "access": "official history read",
+            "evidence": "1.10 October 2011 eco standby fix; 1.03 November 2010; 1.01 December 2009 production."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf",
+            "title": "G2Nu/G2.1Nu operation manual",
+            "access": "official indexed pages 43–44 inspected; full PDF exceeds browser limit",
+            "evidence": "PitchSHFT range/detune, HPS and nine PDL Pitch mappings."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf",
+            "title": "G2Nu/G2.1Nu manual official alternate copy",
+            "access": "official indexed pages 44,50 inspected",
+            "evidence": "Single-note MonoPitch; eight modules and 100 user/100 preset slots."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G2Nu_G21Nu.pdf",
+            "title": "G2Nu/G2.1Nu manual official legacy copy",
+            "access": "official indexed page 28 inspected",
+            "evidence": "Save pedal settings before changing patch; adjustable min/max."
+          }
+        ],
+        "duration": {
+          "minimum_days": 274,
+          "maximum_days": 668,
+          "label": "0.75–1.83 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G2.1Nu",
       "Zoom::G2.1u",
       "Zoom::G2Nu",
       "Zoom::G2X FOUR",
@@ -207746,12 +207828,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 371,
-    "last_model": "Zoom::G2 FOUR",
-    "last_commit_parent": "0a5bbfa214c4966c163b674c417f556178f40d74",
+    "completed_model_count": 372,
+    "last_model": "Zoom::G2.1Nu",
+    "last_commit_parent": "1a7d41e86308a857f79d5f3286b9c2cbc6071605",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G2.1Nu",
       "Zoom::G2.1u",
       "Zoom::G2Nu",
       "Zoom::G2X FOUR",
@@ -207783,7 +207864,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 371,
+    "pitch_completed_model_count": 372,
     "supplemental_model_count": 0
   },
   "model_images": {
