@@ -189228,14 +189228,15 @@
         "model_key": "Flamma::FX100",
         "checked_date": "2026-11-21",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2020",
+          "precision": "year",
+          "kind": "manufacturer public-demonstration year proxy; exact first sale unresolved",
           "source_urls": [
             "https://www.youtube.com/watch?v=zoUxSchWcig",
-            "https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100"
+            "https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100",
+            "https://www.amazon.com/dp/B08977J7HR"
           ],
-          "note": "Manufacturer demo published 2020-08-10 establishes public promotion by that date, not exact first shipment or global launch. No verified first-sale date located."
+          "note": "Flamma Innovation’s official FX100 demo is published August10,2020, establishing public promotion in2020. Use year precision rather than treating this later demo day as first shipment. A mirrored Amazon June4,2020 first-available claim is an earlier retail lead, but the retrieved exact-ASIN Amazon page did not expose that date field; it is not accepted as a verified first-sale date. Device firmware version/date remain unverified, so no duration is calculated."
         },
         "firmware": {
           "version": null,
@@ -189300,10 +189301,105 @@
             "title": "Flamma FX100 Official Demo",
             "access": "Manufacturer Flamma Innovation video; publication 2020-08-10",
             "evidence": "Primary dated public promotion; not proof of first worldwide availability."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=zoUxSchWcig",
+            "title": "Flamma FX100 Official Demo — Flamma Innovation",
+            "access": "Manufacturer video search-index metadata checked2026-11-22",
+            "evidence": "Exact FX100 official demo attributed to Flamma Innovation, published2020-08-10. Establishes public-promotion year, not exact first shipment."
+          },
+          {
+            "url": "https://www.amazon.com/dp/B08977J7HR",
+            "title": "FLAMMA FX100 exact-ASIN retail page",
+            "access": "Amazon HTML read2026-11-22; model FX100 and ASIN B08977J7HR checked",
+            "evidence": "No Date First Available or June4,2020 field found in retrieved page; mirror claim remains unverified. No specifications or launch date borrowed from the mirror."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Flamma::FX100",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.youtube.com/watch?v=zoUxSchWcig",
+                "https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100"
+              ],
+              "note": "Manufacturer demo published 2020-08-10 establishes public promotion by that date, not exact first shipment or global launch. No verified first-sale date located."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "unverified",
+              "source_urls": [
+                "https://flammainnovation.com/goods/support?goodsName=FX100",
+                "https://flammainnovation.com/download.html",
+                "https://www.flamma.shop/pages/manual",
+                "https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf"
+              ],
+              "note": "Maker lists FX100 V1.0.4 Windows/macOS editor installers and documents firmware updating, but no separately identified device-firmware version, dated changelog or release date was verified. Do not relabel editor V1.0.4 as firmware or manual V04/2025-03-27 as an update."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "MOD choices include PITCH SHIFT (whammy-style shifting), DETUNE (fine pitch adjustment) and VIBRATO. Neither mono/polyphonic input tracking nor a numerical transpose range is specified in the checked manual; a whammy description does not prove chord tracking.",
+              "preset": "200 advertised patch locations. Manual p10 saves edited presets into a selected slot and edits its name; pitch is a selectable MOD type within a patch. Protected factory versus writable-user allocation remains unverified.",
+              "dsp": "Nine category modules with one selected type per module; Pitch Shift and Detune occupy the same MOD category rather than independent duplicate blocks. Numerical DSP/CPU cost and remaining capacity are not published; nine modules is not nine freely duplicated pitch processors.",
+              "source_urls": [
+                "https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf",
+                "https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100"
+              ],
+              "measurements": [],
+              "notes": [
+                "Pitch shifting, detuning and vibrato have different purposes; chorus is not evidence of a dedicated polyphonic transpose engine. No hardware tracking, latency or resource measurement performed."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf",
+                "title": "FX100 current manufacturer V04 owner manual",
+                "access": "Direct 33-page maker PDF; SHA256 9104e60de3e38ef846dc03aacc3c863a48d308bd5bf35419d9e15daadd826632; printed pp8,10,28 visually checked",
+                "evidence": "MOD pitch algorithm list; category selection, preset save procedure. Firmware version and numerical pitch DSP cost not established."
+              },
+              {
+                "url": "https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100",
+                "title": "FLAMMA FX100 own product page",
+                "access": "Direct manufacturer store",
+                "evidence": "200 patches and nine effect categories; no pitch-polyphony guarantee or device-firmware release date."
+              },
+              {
+                "url": "https://flammainnovation.com/goods/support?goodsName=FX100",
+                "title": "FLAMMA FX100 public support record",
+                "access": "Bounded inert maker JSON; SHA256 fb28012083b0bf4ca0e40252d646c1c95b96e1b74a3c314a030aa9d872d89016",
+                "evidence": "V1.0.4 editor installers for Win/Mac, current manual and firmware-update instructions; no separately verified firmware revision/date."
+              },
+              {
+                "url": "https://flammainnovation.com/download.html",
+                "title": "FLAMMA download catalogue",
+                "access": "Current indexed maker catalogue",
+                "evidence": "FX100 V1.0.4 desktop packages and owner manual."
+              },
+              {
+                "url": "https://www.flamma.shop/pages/manual",
+                "title": "FLAMMA software and manual index",
+                "access": "Direct current maker index",
+                "evidence": "Explicitly labels FX100 V1.0.4 as Software, not a dated firmware history."
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=zoUxSchWcig",
+                "title": "Flamma FX100 Official Demo",
+                "access": "Manufacturer Flamma Innovation video; publication 2020-08-10",
+                "evidence": "Primary dated public promotion; not proof of first worldwide availability."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Flamma::FX150": {
         "model_key": "Flamma::FX150",
@@ -214834,8 +214930,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Yamaha::SPX900",
-    "last_commit_parent": "b8d6b829bef935a0a73cdf9910ec48676b6e4ddf",
+    "last_model": "Flamma::FX100",
+    "last_commit_parent": "f98ddfc3159c3e3db1e158a4e311c072b43532de",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

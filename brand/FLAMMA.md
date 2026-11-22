@@ -1000,7 +1000,7 @@ The existingNEOMUSIC158235298/52052193549Rp609.760 ask again appears with**two u
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Manufacturer demo published 2020-08-10 establishes public promotion by that date, not exact first shipment or global launch. No verified first-sale date located. [launch 1](https://www.youtube.com/watch?v=zoUxSchWcig) [launch 2](https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100) |
+| Firmware / first hardware release | 2020 (manufacturer public-demonstration year proxy; exact first sale unresolved). Flamma Innovation’s official FX100 demo is published August10,2020, establishing public promotion in2020. Use year precision rather than treating this later demo day as first shipment. A mirrored Amazon June4,2020 first-available claim is an earlier retail lead, but the retrieved exact-ASIN Amazon page did not expose that date field; it is not accepted as a verified first-sale date. Device firmware version/date remain unverified, so no duration is calculated. [launch 1](https://www.youtube.com/watch?v=zoUxSchWcig) [launch 2](https://www.flamma.shop/products/flamma-portable-multi-effects-pedal-fx100) [launch 3](https://www.amazon.com/dp/B08977J7HR) |
 | Firmware / latest verification | Not verified — Unverified. Maker lists FX100 V1.0.4 Windows/macOS editor installers and documents firmware updating, but no separately identified device-firmware version, dated changelog or release date was verified. Do not relabel editor V1.0.4 as firmware or manual V04/2025-03-27 as an update. [firmware 1](https://flammainnovation.com/goods/support?goodsName=FX100) [firmware 2](https://flammainnovation.com/download.html) [firmware 3](https://www.flamma.shop/pages/manual) [firmware 4](https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -1019,6 +1019,8 @@ Sources checked:
 - [FLAMMA download catalogue](https://flammainnovation.com/download.html) — FX100 V1.0.4 desktop packages and owner manual. (Current indexed maker catalogue).
 - [FLAMMA software and manual index](https://www.flamma.shop/pages/manual) — Explicitly labels FX100 V1.0.4 as Software, not a dated firmware history. (Direct current maker index).
 - [Flamma FX100 Official Demo](https://www.youtube.com/watch?v=zoUxSchWcig) — Primary dated public promotion; not proof of first worldwide availability. (Manufacturer Flamma Innovation video; publication 2020-08-10).
+- [Flamma FX100 Official Demo — Flamma Innovation](https://www.youtube.com/watch?v=zoUxSchWcig) — Exact FX100 official demo attributed to Flamma Innovation, published2020-08-10. Establishes public-promotion year, not exact first shipment. (Manufacturer video search-index metadata checked2026-11-22).
+- [FLAMMA FX100 exact-ASIN retail page](https://www.amazon.com/dp/B08977J7HR) — No Date First Available or June4,2020 field found in retrieved page; mirror claim remains unverified. No specifications or launch date borrowed from the mirror. (Amazon HTML read2026-11-22; model FX100 and ASIN B08977J7HR checked).
 
 <!-- firmware-pitch:Flamma::FX100 ends -->
 
