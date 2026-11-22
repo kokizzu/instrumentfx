@@ -3142,6 +3142,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::GP-200LT ends -->
 
+<!-- model-images:Valeton::GP-200LT begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Official GP-200LT control-face stock image**
+
+[![Official GP-200LT control-face stock image](https://shop.valeton.net/cdn/shop/products/GP-200LT_Front_WithScreen_Hi_V01_220909_1445x.png?v=1690878379)](https://shop.valeton.net/cdn/shop/products/GP-200LT_Front_WithScreen_Hi_V01_220909_1445x.png?v=1690878379)
+
+[Image source](https://shop.valeton.net/products/gp-200lt). Visually inspected exact GP-200LT control face: six knobs including independent PHONES, fourteen buttons, four footswitches and no built-in treadle. Stock artwork shows screen and illuminated rings; actual powered-unit photography is unverified. Rear connectors are visible beyond the case, so strict overhead powered photography remains pending.
+
+**Official GP-200LT rear connector-edge stock image**
+
+[![Official GP-200LT rear connector-edge stock image](https://shop.valeton.net/cdn/shop/products/GP-200LT_Top_Hi_V01_220808_1445x.png?v=1690878379)](https://shop.valeton.net/cdn/shop/products/GP-200LT_Top_Hi_V01_220808_1445x.png?v=1690878379)
+
+[Image source](https://shop.valeton.net/products/gp-200lt). Visually inspected LT rear: EXP/FS1 and2, INPUT, RETURN/SEND, AUX IN, PHONES, balanced OUTPUT L(MONO)/R, separate small MIDI IN/OUT-THRU, USB-C and center-negative DC9V1000mA. Two main output sockets, not separate balanced/unbalanced pairs; no XLR or MIDI DIN sockets shown. Photo verifies connector placement, not every electrical routing detail.
+
+</details>
+<!-- model-images:Valeton::GP-200LT ends -->
+
+
 Guitar/bass/acoustic-instrument multi-effects; **medium** footprint; no built-in expression. This is GP-200LT, not GP-200, JR or a color variant.
 
 | Required field | Verified value / qualification |

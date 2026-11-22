@@ -210583,11 +210583,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Valeton::GP-200LT": {
+        "model_key": "Valeton::GP-200LT",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/GP-200LT_Front_WithScreen_Hi_V01_220909_1445x.png?v=1690878379",
+            "source_url": "https://shop.valeton.net/products/gp-200lt",
+            "caption": "Official GP-200LT control-face stock image",
+            "note": "Visually inspected exact GP-200LT control face: six knobs including independent PHONES, fourteen buttons, four footswitches and no built-in treadle. Stock artwork shows screen and illuminated rings; actual powered-unit photography is unverified. Rear connectors are visible beyond the case, so strict overhead powered photography remains pending.",
+            "visual_checked": true,
+            "sha256": "59a61358590cd46c4656dc648dd7efa4a565a8d08f9ce61ea8a97f68d56d8298",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/GP-200LT_Top_Hi_V01_220808_1445x.png?v=1690878379",
+            "source_url": "https://shop.valeton.net/products/gp-200lt",
+            "caption": "Official GP-200LT rear connector-edge stock image",
+            "note": "Visually inspected LT rear: EXP/FS1 and2, INPUT, RETURN/SEND, AUX IN, PHONES, balanced OUTPUT L(MONO)/R, separate small MIDI IN/OUT-THRU, USB-C and center-negative DC9V1000mA. Two main output sockets, not separate balanced/unbalanced pairs; no XLR or MIDI DIN sockets shown. Photo verifies connector placement, not every electrical routing detail.",
+            "visual_checked": true,
+            "sha256": "9595525e18a5c9bcd2f46e96c2e817c09c46bd5921eaacdf2d74ffffd4762afc",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-200JR"
+    "last_model": "Valeton::GP-200LT"
   }
 }
