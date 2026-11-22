@@ -226106,14 +226106,14 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://i.ebayimg.com/images/g/eFAAAeSwA89pZvCU/s-l1600.jpg",
-            "source_url": "https://www.ebay.com/itm/366122847943",
-            "caption": "BOSS ME-5 — control surface",
-            "note": "Complete control surface and five footswitches visible, but photograph is rotated sideways and oblique. Display and indicators are unlit; a powered-on upright top-down replacement remains pending.",
+            "image_url": "https://img.ricardostatic.ch/images/ebba646a-259b-478a-bbb6-d6421e6597cb/t_1800x1350/boss-me-5-guitar-multiple-effects-multieffektgerat",
+            "source_url": "https://www.ricardo.ch/de/a/boss-me-5-guitar-multiple-effects-multieffektgeraet-1310449724/",
+            "caption": "BOSS ME-5 powered-on overhead user photograph",
+            "note": "Visually inspected upright overhead ME-5 photograph: full control surface and all five footswitches visible, red 11 display, red effect/footswitch indicators and green status LEDs lit. Model label is legible. Source listing describes the unit as defective; illumination establishes visible powered state only, not working audio, reliable switches, firmware version or full functionality. No pitch/DSP capability inferred. Existing rear connector photograph is retained separately.",
             "visual_checked": true,
-            "powered_on": false,
-            "exact_top_down": false,
-            "sha256": "7343785fde443ba7fef5ec132fe529f6200f2f1bdbf3a1dbe6d3da97610394e9"
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "0625e39b5ca37487bfc7e7261569c216a4433b0de44b25141ef46999d691ed93"
           },
           "rear": {
             "image_url": "https://medias.audiofanzine.com/images/normal/boss-me-5-3037219.jpg",
@@ -226124,7 +226124,16 @@
             "powered_on": false,
             "sha256": "4b67acc0a155a75289ac32951cd35ce157027e551877f12c172e3ec3ca5de371"
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://i.ebayimg.com/images/g/eFAAAeSwA89pZvCU/s-l1600.jpg",
+            "source_url": "https://www.ebay.com/itm/366122847943",
+            "sha256": "7343785fde443ba7fef5ec132fe529f6200f2f1bdbf3a1dbe6d3da97610394e9",
+            "visual_checked": true,
+            "note": "Superseded sideways oblique unlit photograph; upright powered overhead view now displayed."
+          }
+        ]
       },
       "BOSS::SE-50": {
         "model_key": "BOSS::SE-50",
@@ -227086,6 +227095,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::PERFORM-VK"
+    "last_model": "BOSS::ME-5"
   }
 }
