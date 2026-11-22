@@ -166,7 +166,7 @@ The manual’s five preset ingredients describe saved processing stages, not fiv
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Exact rack-model hardware launch not verified. Manual version1.2/December2005 is document metadata, not firmware or first shipping date. [launch 1](https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf) |
+| Firmware / first hardware release | 2003-07 (owner-reported first availability; manufacturer launch unconfirmed). TalkBass owner Justice states in post #4, dated August 22, 2010, that the rack-model Bass V-Amp Pro first came out in July 2003 and that they bought theirs then. This is retrospective owner-reported availability, not an authenticated manufacturer worldwide launch. Profile join dates are not post or release dates; December 2002/March 2003 manual revisions are earlier documentation, not confirmed shipments. [launch 1](https://www.talkbass.com/threads/behringer-bass-v-amp-pro.687422/) |
 | Firmware / latest verification | 1.09 — Located; latest status unverified. Controller manufacturer EurekaSound explicitly identifies its historical Bass V-Amp PRO1.09 replacement PROM and references older PRO1.0 looping limitations. This is third-party compatibility/ROM-supply evidence, not Behringer release certification. Exact update date, full changelog and current latest version unresolved; no ROM downloaded or hardware changed. [firmware 1](https://www.eurekasound.com/discontinued-products/eurekaprom1_1/vb) [firmware 2](https://www.eurekasound.com/eurekaprom/vb) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -182,6 +182,7 @@ Sources checked:
 - [Behringer shared BASS V-AMP/BASS V-AMP PRO manual v1.2, December2005](https://images.thomann.de/pics/atg/atgdata/document/manual/163587_manual_engl.pdf) — Explicit shared model scope; pp9–10 save/recall; pp13–15 independent dynamics, post-effect table,ULTRABASS and synth functions. Manual revision date is not a ROM date. (manufacturer_manuscript_on_public_mirror; text_only).
 - [EurekaSound historical Vb controller documentation](https://www.eurekasound.com/discontinued-products/eurekaprom1_1/vb) — Explicit Bass V-Amp PRO1.09 replacement PROM; old1.0 PRO looping caveat. No original firmware release date or Behringer latest-version certification. (opened_controller_manufacturer_documentation).
 - [EurekaSound current Vb compatibility documentation](https://www.eurekasound.com/eurekaprom/vb) — Series firmware1.09 requirement and PRO1.0 looping caveat; controller favorites are separate from sound-processor memory. (opened_controller_manufacturer_documentation).
+- [Bass V-AMP Pro owner history, post #4](https://www.talkbass.com/threads/behringer-bass-v-amp-pro.687422/) — Justice, August 22, 2010 post #4: reports owning the exact rack model since it first came out in July 2003. Retrospective owner claim, not manufacturer first-sale confirmation. (Original TalkBass post and post date read 2026-11-22).
 
 <!-- firmware-pitch:Behringer::Bass V-AMP PRO ends -->
 
