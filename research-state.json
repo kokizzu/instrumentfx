@@ -209597,11 +209597,37 @@
             "note": "Unlit delay/Tap close-up, no connector coverage."
           }
         ]
+      },
+      "Valeton::Dapper Indie": {
+        "model_key": "Valeton::Dapper Indie",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/DapperIndie_Front_Hi_V01_181004_1500x.png?v=1639984228",
+            "source_url": "https://shop.valeton.net/products/dapper-indie",
+            "caption": "Near-overhead Dapper Indie manufacturer control-face image, unlit.",
+            "note": "Visually 16 rotary controls, 5 footswitches and 3 type toggles. Single Echoes section confirms duplicate product prose is not extra hardware. Tuner/status strip unlit; slight perspective and visible edge, so powered-on strict perpendicular overhead remains pending.",
+            "visual_checked": true,
+            "sha256": "a7583e7e098f2d2a501c9d217e881feca523967fa892370d499ebf58e75ee245",
+            "powered_on": false,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/DapperIndie_Rear_Perspective_Hi_V01_181225_1500x.png?v=1639984229",
+            "source_url": "https://shop.valeton.net/products/dapper-indie",
+            "caption": "Angled Indie connector-edge stock photograph.",
+            "note": "Visible quarter-inch IN and OUT, smaller headphone socket and 9V DC center-negative input. No additional connector on this visible edge; this is not an all-edge absence audit. Current consumption not legible here. Unlit stock unit; no hardware power test.",
+            "visual_checked": true,
+            "sha256": "32c8a783e2004cb0cb41fe751c222e1a2681ae218b9a88267f0b9db4de9edd72",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Dark VES-3"
+    "last_model": "Valeton::Dapper Indie"
   }
 }

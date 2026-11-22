@@ -658,6 +658,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::Dapper Indie ends -->
 
+<!-- model-images:Valeton::Dapper Indie begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Near-overhead Dapper Indie manufacturer control-face image, unlit.**
+
+[![Near-overhead Dapper Indie manufacturer control-face image, unlit.](https://shop.valeton.net/cdn/shop/products/DapperIndie_Front_Hi_V01_181004_1500x.png?v=1639984228)](https://shop.valeton.net/cdn/shop/products/DapperIndie_Front_Hi_V01_181004_1500x.png?v=1639984228)
+
+[Image source](https://shop.valeton.net/products/dapper-indie). Visually 16 rotary controls, 5 footswitches and 3 type toggles. Single Echoes section confirms duplicate product prose is not extra hardware. Tuner/status strip unlit; slight perspective and visible edge, so powered-on strict perpendicular overhead remains pending.
+
+**Angled Indie connector-edge stock photograph.**
+
+[![Angled Indie connector-edge stock photograph.](https://shop.valeton.net/cdn/shop/products/DapperIndie_Rear_Perspective_Hi_V01_181225_1500x.png?v=1639984229)](https://shop.valeton.net/cdn/shop/products/DapperIndie_Rear_Perspective_Hi_V01_181225_1500x.png?v=1639984229)
+
+[Image source](https://shop.valeton.net/products/dapper-indie). Visible quarter-inch IN and OUT, smaller headphone socket and 9V DC center-negative input. No additional connector on this visible edge; this is not an all-edge absence audit. Current consumption not legible here. Unlit stock unit; no hardware power test.
+
+</details>
+<!-- model-images:Valeton::Dapper Indie ends -->
+
+
 Guitar multi-effects strip; distinct from other Dappers. Checked 2026-10-17; partial. Exact model code awaits primary corroboration.
 
 | Field | Finding / qualification | Evidence |
