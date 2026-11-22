@@ -483,6 +483,22 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::Dapper Dark Mini ends -->
 
+<!-- model-images:Valeton::Dapper Dark Mini begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Near-overhead Dark Mini control-face stock photograph, unlit.**
+
+[![Near-overhead Dark Mini control-face stock photograph, unlit.](https://www.musicstorelive.com/media/catalog/product/v/l/vltn-dapper-dark-mini-1.jpg?bg-color=255%2C255%2C255&fit=bounds&height=700&optimize=medium&width=700)](https://www.musicstorelive.com/media/catalog/product/v/l/vltn-dapper-dark-mini-1.jpg?bg-color=255%2C255%2C255&fit=bounds&height=700&optimize=medium&width=700)
+
+[Image source](https://www.musicstorelive.com/valeton-dapper-dark-mini-compact-tuner-boost-higain-delay-guitar-effects-pedal.html). Exact DAPPER DARK Mini panel shows 11 rotary controls and 3 footswitches; no separate small buttons visible on this face. Labels include DELAY/HIGAIN/BOOST and TAP/PHONES. Slight perspective, unlit tuner/status strip; powered-on strict overhead remains pending. Connector candidate from All Access returned404; rear-port photo remains pending rather than substituting ordinary Mini or full-size Dark.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:Valeton::Dapper Dark Mini ends -->
+
+
 Separate compact guitar multi-effects, not full-size VES-3. Manufacturer marks discontinued. Checked2026-10-17; partial. Exact model code unverified. Product page's stray Dapper Indie heading conflicts with its Dark Mini body/manual; no Indie specifications transferred.
 
 | Field | Finding / qualification | Evidence |

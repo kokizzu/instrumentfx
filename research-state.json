@@ -209420,11 +209420,27 @@
             "exact_top_down": false
           }
         }
+      },
+      "Valeton::Dapper Dark Mini": {
+        "model_key": "Valeton::Dapper Dark Mini",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.musicstorelive.com/media/catalog/product/v/l/vltn-dapper-dark-mini-1.jpg?bg-color=255%2C255%2C255&fit=bounds&height=700&optimize=medium&width=700",
+            "source_url": "https://www.musicstorelive.com/valeton-dapper-dark-mini-compact-tuner-boost-higain-delay-guitar-effects-pedal.html",
+            "caption": "Near-overhead Dark Mini control-face stock photograph, unlit.",
+            "note": "Exact DAPPER DARK Mini panel shows 11 rotary controls and 3 footswitches; no separate small buttons visible on this face. Labels include DELAY/HIGAIN/BOOST and TAP/PHONES. Slight perspective, unlit tuner/status strip; powered-on strict overhead remains pending. Connector candidate from All Access returned404; rear-port photo remains pending rather than substituting ordinary Mini or full-size Dark.",
+            "visual_checked": true,
+            "sha256": "9db929326df6a71a044ac0f9e3bd7d4ab96d287f28c627accb80a43609f4b215",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Bass VES-2"
+    "last_model": "Valeton::Dapper Dark Mini"
   }
 }
