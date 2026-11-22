@@ -867,6 +867,26 @@ Sources checked:
 
 <!-- firmware-pitch:Hotone::Ampero Mini MP-50 ends -->
 
+<!-- model-images:Hotone::Ampero Mini MP-50 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Hotone Ampero Mini MP-50 — control surface (Mustard)**
+
+[![Hotone Ampero Mini MP-50 — control surface (Mustard)](https://deathcloud.com/cdn/shop/files/HotoneAudioAmperoMiniPedalMustard.jpg?v=1727304538&width=1445)](https://deathcloud.com/cdn/shop/files/HotoneAudioAmperoMiniPedalMustard.jpg?v=1727304538&width=1445)
+
+[Image source](https://deathcloud.com/products/hotone-audio-ampero-mini-pedal). Top-down promotional image showing the powered touchscreen and illuminated footswitch rings; full display and both footswitches visible. Mustard finish; the rear photograph below uses the Vanilla finish of the same MP-50 model.
+
+**Hotone Ampero Mini MP-50 — rear connections (Vanilla)**
+
+[![Hotone Ampero Mini MP-50 — rear connections (Vanilla)](https://static.bax-shop.es/image/product/1192620/4734433/dc567cc0/169960373853000_53649_2.jpg)](https://static.bax-shop.es/image/product/1192620/4734433/dc567cc0/169960373853000_53649_2.jpg)
+
+[Image source](https://www.bax-shop.it/pedali-multieffetti/hotone-mp-50-ampero-mini-amp-modeler-effects-processor-vanilla). Complete Vanilla-finish rear connector row: EXP/CTRL (FS 3/4), input, mono/stereo output, phones, auxiliary input, volume knob, USB-C and DC 9V 500mA. White margins surround the pedal.
+
+</details>
+<!-- model-images:Hotone::Ampero Mini MP-50 ends -->
+
+
 Current comparison summary, reconciled 2026-10-28 from the exact-model sources retained below. This does not certify current stock or every technical field. Earlier observations, revision conflicts and source bodies remain unchanged below.
 
 <!-- comparison evidence begins -->
