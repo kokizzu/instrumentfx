@@ -213592,11 +213592,36 @@
             "sha256": "c776739ca3e861efa3b904c130883c827ff5543126c8c69e118e42be095c3313"
           }
         }
+      },
+      "Zoom::A1 FOUR": {
+        "model_key": "Zoom::A1 FOUR",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://frankfurt.apollo.olxcdn.com/v1/files/38cb5b1ltf4q-BG/image%3Bs%3D2268x2919",
+            "source_url": "https://www.olx.bg/d/ad/zoom-a1-four-protsesor-za-akustichna-kitara-CID618-ID9Qwmf.html",
+            "caption": "A1 FOUR powered control face",
+            "note": "Visually checked complete powered no-treadle A1 FOUR from overhead with slight perspective: backlit LCD reads17 AG Singer and effect1 button LED lit. Four rotary knobs, two footswitches and nine buttons (MEMORY,SETTING,RHYTHM,1–5,LOOPER). Patch17 is not firmware. No A1X expression pedal.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "4f4c18c69e2e13ea825b42ad541302a253ec21993576c6590775fbeeb33620bd"
+          },
+          "rear": {
+            "image_url": "https://zoomcorp.com/media/original_images/A1_FOUR_rear.jpg.0x1600_q80_crop-%2Cscale_size_canvas.jpg",
+            "source_url": "https://zoomcorp.com/en/us/multi-effects/acoustic/A1-FOUR-A1X-FOUR/",
+            "caption": "A1 FOUR rear connectors",
+            "note": "Visually checked official A1 FOUR rear: INPUT,AUX IN,DC9V center-negative symbol,micro-USB markedDC5V,security slot and OUTPUT, all visible. Security slot is not another audio port; no XLR or external EXP socket shown. MAA-1 mic adapter is separate. Image does not establish USB audio/MIDI capabilities or powered operation.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "d253937f5a83ebc23bf43993e9474f8aa80ed10ed2134fa3eb24d296e7e16752"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::708II"
+    "last_model": "Zoom::A1 FOUR"
   }
 }
