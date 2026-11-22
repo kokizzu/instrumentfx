@@ -9158,6 +9158,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::MS-70CDR ends -->
 
+<!-- model-images:Zoom::MS-70CDR begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MS-70CDR control face**
+
+[![MS-70CDR control face](https://livedoor.blogimg.jp/bemr/imgs/8/1/81da3df6.jpg)](https://livedoor.blogimg.jp/bemr/imgs/8/1/81da3df6.jpg)
+
+[Image source](https://bemr.livedoor.blog/archives/6600109.html). Actual powered original MS-70CDR, with ZNR interface and red status LED illuminated. Three knobs, central footswitch and four navigation-ring buttons are visible. The overhead view is slightly angled and crops the uppermost enclosure edge; a complete perpendicular powered replacement remains pending.
+
+**MS-70CDR rear connections**
+
+[![MS-70CDR rear connections](https://zoomcorp.com/media/original_images/MS-70CDR_rear.jpg.0x1600_q80_crop-%2Cscale_size_canvas.jpg)](https://zoomcorp.com/media/original_images/MS-70CDR_rear.jpg.0x1600_q80_crop-%2Cscale_size_canvas.jpg)
+
+[Image source](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr/). Official complete rear view shows Mini-USB and center-negative DC9V 500mA power input. Stereo L/MONO and R inputs and outputs are on the sides; their socket openings are outside this rear view.
+
+</details>
+<!-- model-images:Zoom::MS-70CDR ends -->
+
+
 Reviewed **2026-10-17**, following exact Shopee hardware discovery. **Original MS-70CDR,not MS-70CDR+**. Guitar/bass multi-effects;no ownership claim. Partial research using official HTML and indexed manufacturer manual/effect-list text;no dependencies,manual files,firmware or software downloaded to the workspace. The manufacturer marks this original model discontinued;that does not establish seller stock.
 
 | Field | Finding / qualification | Evidence |

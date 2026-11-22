@@ -218036,11 +218036,36 @@
             "sha256": "44297f2b9c4136d076bcddbbdf54d0ffc5cd7b16f7c86690d0fd1fc664004fa6"
           }
         }
+      },
+      "Zoom::MS-70CDR": {
+        "model_key": "Zoom::MS-70CDR",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://livedoor.blogimg.jp/bemr/imgs/8/1/81da3df6.jpg",
+            "source_url": "https://bemr.livedoor.blog/archives/6600109.html",
+            "caption": "MS-70CDR control face",
+            "note": "Actual powered original MS-70CDR, with ZNR interface and red status LED illuminated. Three knobs, central footswitch and four navigation-ring buttons are visible. The overhead view is slightly angled and crops the uppermost enclosure edge; a complete perpendicular powered replacement remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "c9e18e62d8dc0948470bb53948c41ebde6a0c8975e758f5d6722bc1f30117ce7"
+          },
+          "rear": {
+            "image_url": "https://zoomcorp.com/media/original_images/MS-70CDR_rear.jpg.0x1600_q80_crop-%2Cscale_size_canvas.jpg",
+            "source_url": "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr/",
+            "caption": "MS-70CDR rear connections",
+            "note": "Official complete rear view shows Mini-USB and center-negative DC9V 500mA power input. Stereo L/MONO and R inputs and outputs are on the sides; their socket openings are outside this rear view.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "4b41cdae089de69d836e441a5caa158c91dc4debae6f92457cdb1be8a2cde2ca"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::MS-60B Plus"
+    "last_model": "Zoom::MS-70CDR"
   }
 }
