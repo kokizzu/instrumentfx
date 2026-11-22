@@ -202355,10 +202355,78 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Tech 21::Acoustic Fly Rig": {
+        "model_key": "Tech 21::Acoustic Fly Rig",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2017",
+          "precision": "year",
+          "kind": "documented introduction year; first shipment unresolved",
+          "source_urls": [
+            "https://www.long-mcquade.com/promo/LM-Magazine/GearIssue2017/GearIssue2017.pdf"
+          ],
+          "note": "Manufacturer advertisement marks Acoustic Fly Rig NEW FOR 2017. This establishes introduction year, not a precise first shipment date; manual copyright alone is not used as launch evidence."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/",
+            "https://www.tech21nyc.com/support/",
+            "https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf"
+          ],
+          "note": "No numbered device firmware, release date or user updater located in checked manufacturer product/support/manual sources. Analog SansAmp and FET compression do not establish that every internal section is analog or that no embedded firmware exists. No release-to-update duration can be calculated."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Preset pitch-based chorus/detuned voice in the shared DLA/CH section; not a documented general semitone transposer. Delay-time changes also bend pitch.",
+          "preset": "DLA/CH selects delay OR chorus; TIME and REPEATS are inactive in chorus mode. No programmable pitch preset count established.",
+          "dsp": "No pitch CPU percentage, resource meter or block-cost figure published in checked sources. Shared delay/chorus selection is a routing constraint, not a CPU percentage.",
+          "source_urls": [
+            "https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/",
+            "https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Detuned unison/12-string-style descriptions do not guarantee polyphonic chord transposition or independent harmony generation.",
+            "Delay TIME adjustment changes pitch; tap-tempo changes preserve pitch. Neither establishes a selectable stable semitone range.",
+            "Manual recommends an external downstream pitch shifter; this does not negate its internal chorus pitch mechanism. No hardware/audio test performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.long-mcquade.com/promo/LM-Magazine/GearIssue2017/GearIssue2017.pdf",
+            "title": "Tech 21 manufacturer advertisement in 2017 Gear Issue",
+            "access": "web indexed manufacturer advertisement",
+            "evidence": "Acoustic Fly Rig marked NEW FOR 2017; introduction year only."
+          },
+          {
+            "url": "https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/",
+            "title": "Tech 21 Acoustic Fly Rig official product",
+            "access": "web page read",
+            "evidence": "Pitch-based chorus, all-analog SansAmp and FET compression; no numbered firmware listed."
+          },
+          {
+            "url": "https://www.tech21nyc.com/support/",
+            "title": "Tech 21 official support",
+            "access": "web page read",
+            "evidence": "Exact-model manual listed; no Acoustic Fly Rig firmware/updater identified."
+          },
+          {
+            "url": "https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf",
+            "title": "Acoustic Fly Rig official owner manual",
+            "access": "web PDF text read",
+            "evidence": "Printed pp5–6 shared delay/chorus selection, detuned voice, inactive delay controls in chorus and delay pitch behavior; pp7–8 external pitch-shifter placement guidance. No DSP percentage or input-polyphony guarantee."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Tech 21::Acoustic Fly Rig",
       "Tech 21::Bass Fly Rig v2",
       "Tech 21::Fly Rig 5 v2",
       "Valeton::Dapper Acoustic Mini",
@@ -202465,12 +202533,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 297,
-    "last_model": "TC-Helicon::VoiceTone Create XT",
-    "last_commit_parent": "6a625606734405be0135d4972005361be89bd629",
+    "completed_model_count": 298,
+    "last_model": "Tech 21::Acoustic Fly Rig",
+    "last_commit_parent": "2fcdc11d4f497f616254922cfa22185b4c9a524a",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Tech 21::Acoustic Fly Rig",
       "Tech 21::Bass Fly Rig v2",
       "Tech 21::Fly Rig 5 v2",
       "Valeton::Dapper Acoustic Mini",
@@ -202576,7 +202643,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 297,
+    "pitch_completed_model_count": 298,
     "supplemental_model_count": 0
   },
   "model_images": {

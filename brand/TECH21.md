@@ -13,6 +13,31 @@
 
 ## Acoustic Fly Rig
 
+<!-- firmware-pitch:Tech 21::Acoustic Fly Rig begins -->
+### Firmware and pitch audit — Tech 21 Acoustic Fly Rig
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017 (documented introduction year; first shipment unresolved). Manufacturer advertisement marks Acoustic Fly Rig NEW FOR 2017. This establishes introduction year, not a precise first shipment date; manual copyright alone is not used as launch evidence. [launch 1](https://www.long-mcquade.com/promo/LM-Magazine/GearIssue2017/GearIssue2017.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. No numbered device firmware, release date or user updater located in checked manufacturer product/support/manual sources. Analog SansAmp and FET compression do not establish that every internal section is analog or that no embedded firmware exists. No release-to-update duration can be calculated. [firmware 1](https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/) [firmware 2](https://www.tech21nyc.com/support/) [firmware 3](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Preset pitch-based chorus/detuned voice in the shared DLA/CH section; not a documented general semitone transposer. Delay-time changes also bend pitch. [pitch 1](https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/) [pitch 2](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf) |
+| Pitch / preset recall | DLA/CH selects delay OR chorus; TIME and REPEATS are inactive in chorus mode. No programmable pitch preset count established. |
+| Pitch / DSP resources | No pitch CPU percentage, resource meter or block-cost figure published in checked sources. Shared delay/chorus selection is a routing constraint, not a CPU percentage. |
+| Pitch / qualifications | Detuned unison/12-string-style descriptions do not guarantee polyphonic chord transposition or independent harmony generation. Delay TIME adjustment changes pitch; tap-tempo changes preserve pitch. Neither establishes a selectable stable semitone range. Manual recommends an external downstream pitch shifter; this does not negate its internal chorus pitch mechanism. No hardware/audio test performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Tech 21 manufacturer advertisement in 2017 Gear Issue](https://www.long-mcquade.com/promo/LM-Magazine/GearIssue2017/GearIssue2017.pdf) — Acoustic Fly Rig marked NEW FOR 2017; introduction year only. (web indexed manufacturer advertisement).
+- [Tech 21 Acoustic Fly Rig official product](https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/) — Pitch-based chorus, all-analog SansAmp and FET compression; no numbered firmware listed. (web page read).
+- [Tech 21 official support](https://www.tech21nyc.com/support/) — Exact-model manual listed; no Acoustic Fly Rig firmware/updater identified. (web page read).
+- [Acoustic Fly Rig official owner manual](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf) — Printed pp5–6 shared delay/chorus selection, detuned voice, inactive delay controls in chorus and delay pitch behavior; pp7–8 external pitch-shifter placement guidance. No DSP percentage or input-polyphony guarantee. (web PDF text read).
+
+<!-- firmware-pitch:Tech 21::Acoustic Fly Rig ends -->
+
 Distinct guitar/acoustic/bass multi-effects; checked 2026-10-18, partial. [Own product](https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/) explicitly supports electric guitar and bass as well as acoustic. No sibling specifications substituted.
 
 <!-- comparison evidence begins -->
