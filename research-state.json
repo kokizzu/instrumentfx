@@ -204530,13 +204530,14 @@
         "model_key": "Valeton::Dapper Amp Mini",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first release unresolved",
+          "date": "2017-10-13",
+          "precision": "day",
+          "kind": "dated catalogue-publication proxy; first shipment unconfirmed",
           "source_urls": [
-            "https://www.valeton.net/product/dapper-amp-mini/"
+            "https://www.effectsdatabase.com/model/valeton/dapper/amp/mini",
+            "https://www.youtube.com/watch?v=aam-27k4T84"
           ],
-          "note": "Manufacturer product text does not establish first release. Manual V01_200414 is not proof of April 14, 2020 shipment; later demo/review dates do not establish launch."
+          "note": "Effects Database exact MES-6 entry explicitly published October13,2017, providing a dated public catalogue reference, not independently verified retail shipping. Manufacturer demo is indexed April9/10,2018 (day differs across indexes); it corroborates later promotion, not an April launch. Manual V01_200414 is a later document revision and cannot establish April14,2020 first release. Earliest worldwide shipment remains unconfirmed."
         },
         "firmware": {
           "version": null,
@@ -204584,10 +204585,87 @@
             "title": "Dapper Amp Mini official English V01 manual",
             "access": "web two-page PDF text read",
             "evidence": "FX alternatives and controls, AMP-only automatic channel save, muted tuner; no dedicated transposer or CPU cost. Cabinet-simulation diagram/prose conflict remains separate."
+          },
+          {
+            "url": "https://www.effectsdatabase.com/model/valeton/dapper/amp/mini",
+            "title": "Effects Database MES-6 Dapper Amp Mini catalogue chronology",
+            "access": "Original publisher indexed entry and dated video list read",
+            "evidence": "Entry publication explicitly October13,2017. Manufacturer video list includes April2018; catalogue publication used only as public-mention proxy, not hardware launch proof."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=aam-27k4T84",
+            "title": "Valeton Dapper AMP Mini manufacturer demo",
+            "access": "Indexed YouTube publication metadata; creator attribution cross-checked with catalogue video list",
+            "evidence": "Published April9,2018 in YouTube index versus April10 in video catalogue. Month is consistent; corroborates public promotion before2020 manual revision, not first shipping."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Valeton::Dapper Amp Mini",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first release unresolved",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-amp-mini/"
+              ],
+              "note": "Manufacturer product text does not establish first release. Manual V01_200414 is not proof of April 14, 2020 shipment; later demo/review dates do not establish launch."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-amp-mini/",
+                "https://www.valeton.net/firmware/",
+                "https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf"
+              ],
+              "note": "No exact-model firmware number, release date or user updater identified in checked manufacturer sources. Product is marked discontinued; this does not prove it never received updates. Firmware index text may omit dynamic entries. V01 is manual version, not device firmware."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "No dedicated pitch transposer, octave divider or harmonizer documented. EFFECTS selects chorus, delay or tremolo; separate hall-like reverb and amp models. Chorus internal pitch architecture/input polyphony not specified.",
+              "preset": "AMP settings automatically save when selecting channels; this is not documented pitch preset storage or proof of FX/reverb recall. FX TYPE selects one of CH/DL/TR.",
+              "dsp": "No pitch algorithm resource percentage or DSP meter published in checked sources. 160mA electrical consumption and nine amp choices are not CPU costs.",
+              "source_urls": [
+                "https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf",
+                "https://www.valeton.net/product/dapper-amp-mini/"
+              ],
+              "measurements": [],
+              "notes": [
+                "No-pitch-documented means no dedicated transposition algorithm established, not a claim that chorus contains no internal modulation.",
+                "Tuner sharp/flat detection mutes the signal; it does not establish automatic correction or harmony.",
+                "Do not transfer octave/chorus architecture from other Dapper models. No hardware/audio test or firmware execution performed."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.valeton.net/product/dapper-amp-mini/",
+                "title": "Valeton Dapper Amp Mini official product",
+                "access": "manufacturer search-index text read; direct page timed out",
+                "evidence": "Discontinued; nine amp sounds, chorus/delay/tremolo, reverb and cabinet simulation. Manual download only, no firmware number or launch date established."
+              },
+              {
+                "url": "https://www.valeton.net/firmware/",
+                "title": "Valeton official firmware index",
+                "access": "web page text read; dynamic visibility limited",
+                "evidence": "No exact-model Amp Mini package exposed in extracted text; not proof of full historical absence."
+              },
+              {
+                "url": "https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf",
+                "title": "Dapper Amp Mini official English V01 manual",
+                "access": "web two-page PDF text read",
+                "evidence": "FX alternatives and controls, AMP-only automatic channel save, muted tuner; no dedicated transposer or CPU cost. Cabinet-simulation diagram/prose conflict remains separate."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Valeton::Dapper Bass Mini MES-2": {
         "model_key": "Valeton::Dapper Bass Mini MES-2",
@@ -212533,8 +212611,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Valeton::Dapper MDR",
-    "last_commit_parent": "e5164532e1dfca3aa62358360690a61c35e5d70b",
+    "last_model": "Valeton::Dapper Amp Mini",
+    "last_commit_parent": "c5d996617b18f78789c567013c3fe2d66cba0a0f",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
