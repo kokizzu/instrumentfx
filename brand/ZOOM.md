@@ -4327,6 +4327,33 @@ Five-block/DSP limits,olderbaseline lists,pedalendpoint evidence andallIDRqualif
 
 ## G2 FOUR
 
+<!-- firmware-pitch:Zoom::G2 FOUR begins -->
+### Firmware and pitch audit — Zoom G2 FOUR
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022-12 (manufacturer announced shipment month). Official December 6, 2022 announcement says release from early December 2022; corporate chronology agrees on 2022. Announcement day is not asserted as exact retail availability. [launch 1](https://zoomcorp.com/ja/jp/news/G2FOUR/) [launch 2](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current US/Japanese support lists Windows audio driver and documents, but no public system updater/history. Manual supports firmware updating and separates SYSTEM, PRESET and BOOT versions; illustrative 1.00 is not a verified latest release. Effect-library/app releases are separate. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2-four-g2x-four/g2four-support/) [firmware 2](https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g2-four-g2x-four/g2four-support/) [firmware 3](https://zoomcorp.com/manuals/g2four_g2xfour-en/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH SHIFT spans −12…+12,+24 semitones with ±25-cent Fine. MONO PITCH SHIFTER and PEDAL MONO PITCH explicitly target single notes; HARMONY PITCH SHIFTER follows key/scale. PEDAL PITCH offers nine mappings. Generic pitch chord polyphony remains unverified; starred additions are not assumed preinstalled. [pitch 1](https://zoomcorp.com/media/documents/E_G2FOUR_EffectsList.pdf) [pitch 2](https://zoomcorp.com/manuals/g2four_g2xfour-en/) |
+| Pitch / preset recall | 300 writable patch memories; one PEDAL-category effect per patch. G2 FOUR uses an external FP02M through CONTROL IN, with pedal parameters stored in the patch; built-in treadle/calibration belongs to G2X FOUR. OUTPUT VOLUME PEDAL retains output level across patch changes. |
+| Pitch / DSP resources | Six effects plus one pedal effect, subject to processing capacity. PROCESS OVERFLOW bypasses effects and requires changing an effect. No exact per-pitch DSP percentage located; slot count does not establish CPU allocation. |
+| Pitch / qualifications | Documentation review only; no firmware installation or hardware CPU/tracking test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom G2 FOUR launch announcement](https://zoomcorp.com/ja/jp/news/G2FOUR/) — December 6, 2022 news announces early December 2022 release. (official indexed Japanese announcement inspected; direct fetch failed).
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G2 FOUR and G2X FOUR under 2022. (official chronology inspected).
+- [G2 FOUR/G2X FOUR US support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2-four-g2x-four/g2four-support/) — Windows driver and documents; no system updater listed. (official current listing inspected).
+- [G2 FOUR/G2X FOUR Japanese support](https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g2-four-g2x-four/g2four-support/) — Windows driver and documents; no system updater listed. (official current listing inspected).
+- [G2 FOUR/G2X FOUR effect list](https://zoomcorp.com/media/documents/E_G2FOUR_EffectsList.pdf) — Pitch ranges; mono variants; nine pedal mappings; retained output volume. (official 2024 PDF inspected).
+- [G2 FOUR/G2X FOUR operation manual](https://zoomcorp.com/manuals/g2four_g2xfour-en/) — 300 memories, one pedal effect, external FP02M, six-plus-one processing and overflow bypass; separate system/preset/boot versions. (official HTML inspected).
+
+<!-- firmware-pitch:Zoom::G2 FOUR ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- ZOOM-G2-FOUR source begins -->
