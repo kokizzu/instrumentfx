@@ -675,6 +675,26 @@ Sources checked:
 
 <!-- firmware-pitch:Hotone::Ampero II Stomp MP-300 ends -->
 
+<!-- model-images:Hotone::Ampero II Stomp MP-300 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Hotone Ampero II Stomp MP-300 — control surface**
+
+[![Hotone Ampero II Stomp MP-300 — control surface](https://cdn.shopify.com/s/files/1/0589/5041/8615/products/AmperoIIStomp_Front_WithScreen_Hi_V01_211020_1512x.png?v=1636006012)](https://cdn.shopify.com/s/files/1/0589/5041/8615/products/AmperoIIStomp_Front_WithScreen_Hi_V01_211020_1512x.png?v=1636006012)
+
+[Image source](https://shop.hotoneaudio.com/products/ampero-ii-stomp). Manufacturer top-down image with powered touchscreen, blue footswitch ring and green screen-lock indicator; all five knobs and three footswitches visible.
+
+**Hotone Ampero II Stomp MP-300 — rear connections**
+
+[![Hotone Ampero II Stomp MP-300 — rear connections](https://hotmusic.jp/cdn/shop/files/AmperoIIStomp_Top_Hi_V01_210424.jpg?v=1743476130&width=1096)](https://hotmusic.jp/cdn/shop/files/AmperoIIStomp_Top_Hi_V01_210424.jpg?v=1743476130&width=1096)
+
+[Image source](https://hotmusic.jp/products/hotone-ampero2stomp). Full rear row: EXP/CTRL (FS 4/5), stereo inputs, balanced stereo outputs, power switch and DC 9–18V 800mA. Additional inspected connector photographs: [left side — stereo FX send/return, AUX IN and PHONES](https://cdn.shopify.com/s/files/1/0589/5041/8615/products/AmperoIIStomp_Left_Hi_V01_210424_1024x1024.png?v=1636006013); [right side — MIDI IN, OUT/THRU and USB-C](https://gcrockboard.com/image/cache/catalog/HOTONE/Ampero-II-Stomp_Right_Hi_V01_210424-1000x1000w.png). Right-side labels are dark; open the full image for detail.
+
+</details>
+<!-- model-images:Hotone::Ampero II Stomp MP-300 ends -->
+
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- HOTONE-AMPERO-MP300 source begins -->
