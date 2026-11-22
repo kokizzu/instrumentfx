@@ -209850,11 +209850,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Valeton::Dapper VES-1": {
+        "model_key": "Valeton::Dapper VES-1",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://res.valeton.net/Uploads/wp/2025/06/o_1e4g8n2jf1en21ent128vum81i152m-scaled.jpg",
+            "source_url": "https://www.valeton.net/product/dapper/",
+            "caption": "Near-overhead original Dapper manufacturer control-face image, unlit.",
+            "note": "Visually 10 rotary controls and 5 footswitches, including dedicated TAP and TUNER; no separate small buttons on this face. Rear cabinet slider separate. Unlit display/status LEDs and slight perspective; powered-on strict perpendicular overhead remains pending.",
+            "visual_checked": true,
+            "sha256": "c5b0c08c2d565ba1bad0a9a823aef4086827eccd54b6fc2abd3918582a932abd",
+            "powered_on": false,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://4.bp.blogspot.com/-OlLpKtQF4NE/VxsWuDWbWYI/AAAAAAAAUzE/WHj8eQcN7mA8lik2N2SZJDPfmoSRPTWOwCLcB/s1600/Valeton_3%2Bviews.jpg",
+            "source_url": "https://theguitaraddict.blogspot.com/2016/04/valeton-dapper.html",
+            "caption": "Original Dapper stock multi-view composite including full connector edge.",
+            "note": "Bottom view shows quarter-inch IN, SEND, RETURN and OUT,9V DC socket and CAB SIM ON/OFF slider. Middle view repeats this edge upside down; top view is control face. Stock composite republished by blog, not independent powered-unit evidence. Polarity/current not legible; no all-edge absence audit or live test.",
+            "visual_checked": true,
+            "sha256": "eff6d9c8fb787661f214de0dbc454d2aa45d3ab1406931b92fa6f62eb2075925",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Mini MES-1"
+    "last_model": "Valeton::Dapper VES-1"
   }
 }

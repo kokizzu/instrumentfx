@@ -946,6 +946,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::Dapper VES-1 ends -->
 
+<!-- model-images:Valeton::Dapper VES-1 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Near-overhead original Dapper manufacturer control-face image, unlit.**
+
+[![Near-overhead original Dapper manufacturer control-face image, unlit.](https://res.valeton.net/Uploads/wp/2025/06/o_1e4g8n2jf1en21ent128vum81i152m-scaled.jpg)](https://res.valeton.net/Uploads/wp/2025/06/o_1e4g8n2jf1en21ent128vum81i152m-scaled.jpg)
+
+[Image source](https://www.valeton.net/product/dapper/). Visually 10 rotary controls and 5 footswitches, including dedicated TAP and TUNER; no separate small buttons on this face. Rear cabinet slider separate. Unlit display/status LEDs and slight perspective; powered-on strict perpendicular overhead remains pending.
+
+**Original Dapper stock multi-view composite including full connector edge.**
+
+[![Original Dapper stock multi-view composite including full connector edge.](https://4.bp.blogspot.com/-OlLpKtQF4NE/VxsWuDWbWYI/AAAAAAAAUzE/WHj8eQcN7mA8lik2N2SZJDPfmoSRPTWOwCLcB/s1600/Valeton_3%2Bviews.jpg)](https://4.bp.blogspot.com/-OlLpKtQF4NE/VxsWuDWbWYI/AAAAAAAAUzE/WHj8eQcN7mA8lik2N2SZJDPfmoSRPTWOwCLcB/s1600/Valeton_3%2Bviews.jpg)
+
+[Image source](https://theguitaraddict.blogspot.com/2016/04/valeton-dapper.html). Bottom view shows quarter-inch IN, SEND, RETURN and OUT,9V DC socket and CAB SIM ON/OFF slider. Middle view repeats this edge upside down; top view is control face. Stock composite republished by blog, not independent powered-unit evidence. Polarity/current not legible; no all-edge absence audit or live test.
+
+</details>
+<!-- model-images:Valeton::Dapper VES-1 ends -->
+
+
 Checked 2026-10-17; partial. Original Dapper,discontinued on own product page; separate from Mini,Dark,Bass and Indie. Guitar multi-effects; bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->
