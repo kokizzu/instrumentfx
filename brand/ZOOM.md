@@ -8668,6 +8668,32 @@ Checked2026-10-17 against [English707-5000][GFX707-M] pp8,17 and [official Japan
 
 ## MS-50G
 
+<!-- firmware-pitch:Zoom::MS-50G begins -->
+### Firmware and pitch audit — Zoom MS-50G
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2012 (manufacturer product-history year). Official product chronology places MS-50G in 2012. Firmware 1.00 mass production is dated August 2012; exact retail day/month remains unverified. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 3.10 — Latest verified. Current official support offers 3.10; history dates it April 2019 (USB disconnection fix). 3.00 March 2017 added Effect Manager support; 2.00 July 2013 added 45 effects; 2.01 August 2013 fixed update failures. 1.00 August 2012 is production, not a retail date. [firmware 1](https://zoomcorp.com/en/jp/multi-effects/multistomp-pedals/ms-50g/ms-50g-support/) [firmware 2](https://zoomcorp.com/documents/3401/MS-50G_System_Software_Version_History_ver310_en.pdf) |
+| Firmware / release date | 2019-04 (month precision) |
+| Firmware / release-to-update duration | 6.25–7.33 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT and MonoPitch: −12…+12,+24 semitones, fine ±25 cents. MonoPitch explicitly targets single-note playing; generic PitchSHFT chord tracking unspecified. HPS follows key/scale; Octave adds −1/−2 octaves. [pitch 1](https://zoomcorp.com/media/documents/MS-50G_operationManual_English.pdf) [pitch 2](https://zoomcorp.com/media/documents/E_MS-50G_FX-list_v3.pdf) |
+| Pitch / preset recall | 50 patch memories retain effect parameters and on/off states; automatic saving is enabled by default. Footswitch can cycle assigned patches. No expression input documented. |
+| Pitch / DSP resources | Up to six effects, subject to processing capacity. DSP Full bypasses an over-capacity effect; change types or use THRU. OFF consumes the same processing as ON. No manufacturer per-pitch DSP percentage located; six slots are not a CPU fraction. |
+| Pitch / qualifications | Documentation only; no hardware tracking or CPU measurement. Effect Manager software/library versions are separate from system firmware. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — MS-50G under 2012. (official chronology inspected).
+- [MS-50G official support](https://zoomcorp.com/en/jp/multi-effects/multistomp-pedals/ms-50g/ms-50g-support/) — Current Windows/Mac firmware 3.10; separate Effect Manager. (official page inspected).
+- [MS-50G firmware history](https://zoomcorp.com/documents/3401/MS-50G_System_Software_Version_History_ver310_en.pdf) — 3.10 April 2019; 3.00 March 2017; 2.01 August 2013; 2.00 July 2013; 1.00 production August 2012. (official PDF inspected).
+- [MS-50G operation manual](https://zoomcorp.com/media/documents/MS-50G_operationManual_English.pdf) — 50 patches; six effects subject to DSP; auto-save; DSP Full bypass; OFF retains processing load. (official PDF inspected, pp2,9–11,29).
+- [MS-50G version-3 effect parameters](https://zoomcorp.com/media/documents/E_MS-50G_FX-list_v3.pdf) — PitchSHFT, single-note MonoPitch, HPS and Octave; no explicit polyphonic claim. (official PDF inspected, p15).
+
+<!-- firmware-pitch:Zoom::MS-50G ends -->
+
 Reviewed **2026-10-17** after exact original-model Shopee discovery. Original guitar MultiStomp,not MS-50G+;no ownership assertion. Partial:official product/support HTML and indexed manufacturer manual text only,no dependencies or manual/software/firmware files downloaded. Discontinued status is shown on [official regional page](https://zoomcorp.com/es/us/procesadores-multiefectos/multistomp-pedals/ms-50g/).
 
 | Field | Finding / qualification | Evidence |

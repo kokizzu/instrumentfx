@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 388/402 active models have firmware audits; 388/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 389/402 active models have firmware audits; 389/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -25,6 +25,7 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [GFI System Synesthesia](brand/GFI-SYSTEM.md#synesthesia) | 2019-12-04 (contemporary launch report proxy) | 2.5.1 — Latest verified | 2026-09-18 | 6.79 years | [launch 1](https://www.guitarristas.info/amp/noticias/synesthesia-nuevo-pedal-doble-modulacion-gfi-system/8605) [firmware 1](https://gfisystem.com/downloads/synesthesia) |
 | [Fractal Audio FM3 original](brand/FRACTAL-AUDIO.md#fm3-original) | 2020-02 (manufacturer first shipping month) | 13.0 — Latest verified | 2026-07-16 | 6.38–6.45 years | [launch 1](https://www.fractalaudio.com/about/) [firmware 1](https://www.fractalaudio.com/fm3-downloads/) |
 | [BOSS VE-500](brand/BOSS.md#ve-500) | 2018-08-29 (manufacturer announcement proxy) | 1.10 — Latest verified | 2025-01 | 6.34–6.43 years | [launch 1](https://www.roland.com/us/company/press_releases/2018/BOSS-ANNOUNCES-VE-500-VOCAL-PERFORMER-PEDAL/) [firmware 1](https://www.boss.info/global/support/by_product/ve-500/updates_drivers/9d6c0325-3ec4-438a-b4b0-13c5e0bd43ca/) |
+| [Zoom MS-50G](brand/ZOOM.md#ms-50g) | 2012 (manufacturer product-history year) | 3.10 — Latest verified | 2019-04 | 6.25–7.33 years | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/jp/multi-effects/multistomp-pedals/ms-50g/ms-50g-support/) [firmware 2](https://zoomcorp.com/documents/3401/MS-50G_System_Software_Version_History_ver310_en.pdf) |
 | [Hotone Ampero One MP-80](brand/HOTONE.md#ampero-one-mp-80) | 2020-01-03 (manufacturer announcement proxy) | 3.1 — Latest verified | 2026-03-09 | 6.18 years | [launch 1](https://www.youtube.com/watch?v=9Wy6bbSxkbw) [firmware 1](https://www.hotone.com/support/2) [firmware 2](https://www.hotone.jp/announcements/ampero-sound-clone-release) |
 | [Line 6 HX Stomp](brand/LINE6.md#hx-stomp) | 2018-10-04 (manufacturer launch and worldwide availability) | 3.80.0 — Latest verified | 2024-11-19 | 6.13 years | [launch 1](https://line6.com/data/6/0a020a40106a75bb66202631f5/application/pdf/) [firmware 1](https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set) [firmware 2](https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/) |
 | [HeadRush Gigboard](brand/HEADRUSH.md#gigboard) | 2018-10-01 (manufacturer announcement) | 2.7.0 — Latest verified | 2024-08-08 | 5.85 years | [launch 1](https://musicplayers.com/2018/10/lightning-strikes-twice-headrush-introduces-gigboard-a-compact-and-road-ready-guitar-fx-processor/) [firmware 1](https://www.headrushfx.com/downloads.html) [firmware 2](https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Gigboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Gigboard%20Firmware%20Update%20v2.7.pdf) [firmware 3](https://support.headrushfx.com/en/support/solutions/articles/69000858121-headrush-pedalboard-gigboard-and-mx5-what-s-new-in-firmware-v2-7-) |
@@ -415,4 +416,4 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 
 ## Remaining firmware checks
 
-Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
+Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.

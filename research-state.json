@@ -209024,10 +209024,85 @@
           "label": "0.50–1.58 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::MS-50G": {
+        "model_key": "Zoom::MS-50G",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2012",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Official product chronology places MS-50G in 2012. Firmware 1.00 mass production is dated August 2012; exact retail day/month remains unverified."
+        },
+        "firmware": {
+          "version": "3.10",
+          "date": "2019-04",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/jp/multi-effects/multistomp-pedals/ms-50g/ms-50g-support/",
+            "https://zoomcorp.com/documents/3401/MS-50G_System_Software_Version_History_ver310_en.pdf"
+          ],
+          "note": "Current official support offers 3.10; history dates it April 2019 (USB disconnection fix). 3.00 March 2017 added Effect Manager support; 2.00 July 2013 added 45 effects; 2.01 August 2013 fixed update failures. 1.00 August 2012 is production, not a retail date."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT and MonoPitch: −12…+12,+24 semitones, fine ±25 cents. MonoPitch explicitly targets single-note playing; generic PitchSHFT chord tracking unspecified. HPS follows key/scale; Octave adds −1/−2 octaves.",
+          "preset": "50 patch memories retain effect parameters and on/off states; automatic saving is enabled by default. Footswitch can cycle assigned patches. No expression input documented.",
+          "dsp": "Up to six effects, subject to processing capacity. DSP Full bypasses an over-capacity effect; change types or use THRU. OFF consumes the same processing as ON. No manufacturer per-pitch DSP percentage located; six slots are not a CPU fraction.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/MS-50G_operationManual_English.pdf",
+            "https://zoomcorp.com/media/documents/E_MS-50G_FX-list_v3.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no hardware tracking or CPU measurement. Effect Manager software/library versions are separate from system firmware."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "MS-50G under 2012."
+          },
+          {
+            "url": "https://zoomcorp.com/en/jp/multi-effects/multistomp-pedals/ms-50g/ms-50g-support/",
+            "title": "MS-50G official support",
+            "access": "official page inspected",
+            "evidence": "Current Windows/Mac firmware 3.10; separate Effect Manager."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3401/MS-50G_System_Software_Version_History_ver310_en.pdf",
+            "title": "MS-50G firmware history",
+            "access": "official PDF inspected",
+            "evidence": "3.10 April 2019; 3.00 March 2017; 2.01 August 2013; 2.00 July 2013; 1.00 production August 2012."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/MS-50G_operationManual_English.pdf",
+            "title": "MS-50G operation manual",
+            "access": "official PDF inspected, pp2,9–11,29",
+            "evidence": "50 patches; six effects subject to DSP; auto-save; DSP Full bypass; OFF retains processing load."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_MS-50G_FX-list_v3.pdf",
+            "title": "MS-50G version-3 effect parameters",
+            "access": "official PDF inspected, p15",
+            "evidence": "PitchSHFT, single-note MonoPitch, HPS and Octave; no explicit polyphonic claim."
+          }
+        ],
+        "duration": {
+          "minimum_days": 2282,
+          "maximum_days": 2676,
+          "label": "6.25–7.33 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::MS-50G",
       "Zoom::MS-50G Plus",
       "Zoom::MS-60B",
       "Zoom::MS-60B Plus",
@@ -209043,12 +209118,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 388,
-    "last_model": "Zoom::MS-100BT",
-    "last_commit_parent": "65665e7a84bfb4fde6eaf5006529265582418bae",
+    "completed_model_count": 389,
+    "last_model": "Zoom::MS-50G",
+    "last_commit_parent": "a123d72493b10b14dde968ee64de605e0df4e234",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::MS-50G",
       "Zoom::MS-50G Plus",
       "Zoom::MS-60B",
       "Zoom::MS-60B Plus",
@@ -209063,7 +209137,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 388,
+    "pitch_completed_model_count": 389,
     "supplemental_model_count": 0
   },
   "model_images": {
