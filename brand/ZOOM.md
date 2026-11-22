@@ -5020,6 +5020,33 @@ Original count discrepancy, qualified-offer gap and patch-saved assignments rema
 
 ## G2X FOUR
 
+<!-- firmware-pitch:Zoom::G2X FOUR begins -->
+### Firmware and pitch audit — Zoom G2X FOUR
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022-12 (manufacturer announced shipment month). Official December 6, 2022 family announcement specifies early December 2022 release; corporate history lists G2X FOUR under 2022. Exact retail day unverified. [launch 1](https://zoomcorp.com/ja/jp/news/G2FOUR/) [launch 2](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current family support lists Windows audio driver and documents, but no public system updater/history. Manual distinguishes SYSTEM, PRESET and BOOT; illustrative 1.00 does not establish latest firmware. Effect-library and Handy Guitar Lab updates are separate. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2-four-g2x-four/g2four-support/) [firmware 2](https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g2-four-g2x-four/g2four-support/) [firmware 3](https://zoomcorp.com/manuals/g2four_g2xfour-en/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Published POLYPHONIC PITCH SHIFTER explicitly supports chords, −24…+24 semitones, with independent wet/dry levels. Separate PITCH SHIFT offers −12…+12,+24 and ±25-cent Fine; MONO PITCH SHIFTER and PEDAL MONO PITCH target single notes. HARMONY follows key/scale; PEDAL PITCH has nine mappings. Library entries do not prove installation on every unit. [pitch 1](https://zoomcorp.com/media/documents/E_G2FOUR_EffectsList.pdf) [pitch 2](https://zoomcorp.com/manuals/g2four_g2xfour-en/) |
+| Pitch / preset recall | 300 writable patch memories; one PEDAL-category effect per patch. Built-in treadle controls its marked parameter; pressing the front toggles that effect. Pedal calibration is available. External FP02M socket belongs to G2 FOUR, not G2X FOUR. OUTPUT VOLUME PEDAL retains level across patches. |
+| Pitch / DSP resources | Six effects plus one pedal effect, subject to processing capacity. PROCESS OVERFLOW bypasses effects and requires changing an effect. No exact per-pitch DSP percentage located; slot count does not establish CPU allocation. |
+| Pitch / qualifications | Published chord support belongs to POLYPHONIC PITCH SHIFTER, not every pitch algorithm. No firmware installation or hardware CPU/tracking test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom G2 FOUR launch announcement](https://zoomcorp.com/ja/jp/news/G2FOUR/) — December 6, 2022 news announces early December 2022 release. (official indexed Japanese announcement inspected; direct fetch failed).
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G2 FOUR and G2X FOUR under 2022. (official chronology inspected).
+- [G2 FOUR/G2X FOUR US support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2-four-g2x-four/g2four-support/) — Windows driver and documents; no system updater listed. (official current listing inspected).
+- [G2 FOUR/G2X FOUR Japanese support](https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g2-four-g2x-four/g2four-support/) — Windows driver and documents; no system updater listed. (official current listing inspected).
+- [G2 FOUR/G2X FOUR effect list](https://zoomcorp.com/media/documents/E_G2FOUR_EffectsList.pdf) — Printed page 15: POLYPHONIC PITCH SHIFTER supports chords, ±24 semitones. Separate mono and pedal algorithms; retained output volume. (official 2024 PDF inspected).
+- [G2 FOUR/G2X FOUR operation manual](https://zoomcorp.com/manuals/g2four_g2xfour-en/) — 300 memories, one pedal effect, built-in treadle/front switch and calibration; six-plus-one processing/overflow bypass; separate system/preset/boot versions. (official HTML inspected).
+
+<!-- firmware-pitch:Zoom::G2X FOUR ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- ZOOM-G2X-FOUR source begins -->
