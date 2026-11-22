@@ -1385,11 +1385,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**DigiTech RP250 — top panel**
+**DigiTech RP250 — powered-on complete control face, angled view**
 
-[![DigiTech RP250 — top panel](https://www.imperialvintageguitars.com/cdn/shop/files/Digitech-RP250-Modeling-Multi-FX-Imperial-Vintage-Guitars-Sell_0069_1024x878.jpg?v=1767919473)](https://www.imperialvintageguitars.com/cdn/shop/files/Digitech-RP250-Modeling-Multi-FX-Imperial-Vintage-Guitars-Sell_0069_1024x878.jpg?v=1767919473)
+[![DigiTech RP250 — powered-on complete control face, angled view](https://medias.audiofanzine.com/images/normal/digitech-rp250-2449228.jpeg)](https://medias.audiofanzine.com/images/normal/digitech-rp250-2449228.jpeg)
 
-[Image source](https://www.imperialvintageguitars.com/products/digitech-rp250-modeling-guitar-processor). Retailer used-unit near-overhead photograph with slight perspective and visible wear. Master Level knob cap is missing. Green display window is unlit; powered-on status unverified. A complete powered-on exact top-down product photograph remains pending.
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP250/). Audiofanzine user photograph visually inspected: RP250 model marking, illuminated green preset display and effect-status LEDs, all four rotary knob caps, both footswitches and full expression treadle visible. Camera is tilted with perspective, so the requested straight overhead replacement remains pending. Replaces the unlit retailer image with a missing Master Level knob cap; this photographed unit has that cap. Photo establishes lit indicators, not an audio test.
 
 **DigiTech RP250 — rear connections**
 

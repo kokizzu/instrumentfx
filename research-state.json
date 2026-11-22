@@ -214223,17 +214223,17 @@
       },
       "DigiTech::RP250": {
         "model_key": "DigiTech::RP250",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.imperialvintageguitars.com/cdn/shop/files/Digitech-RP250-Modeling-Multi-FX-Imperial-Vintage-Guitars-Sell_0069_1024x878.jpg?v=1767919473",
-            "source_url": "https://www.imperialvintageguitars.com/products/digitech-rp250-modeling-guitar-processor",
-            "caption": "DigiTech RP250 — top panel",
-            "note": "Retailer used-unit near-overhead photograph with slight perspective and visible wear. Master Level knob cap is missing. Green display window is unlit; powered-on status unverified. A complete powered-on exact top-down product photograph remains pending.",
+            "image_url": "https://medias.audiofanzine.com/images/normal/digitech-rp250-2449228.jpeg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP250/",
+            "caption": "DigiTech RP250 — powered-on complete control face, angled view",
+            "note": "Audiofanzine user photograph visually inspected: RP250 model marking, illuminated green preset display and effect-status LEDs, all four rotary knob caps, both footswitches and full expression treadle visible. Camera is tilted with perspective, so the requested straight overhead replacement remains pending. Replaces the unlit retailer image with a missing Master Level knob cap; this photographed unit has that cap. Photo establishes lit indicators, not an audio test.",
             "visual_checked": true,
-            "powered_on": false,
+            "powered_on": true,
             "exact_top_down": false,
-            "sha256": "359c289d494f4167efd094ec63ab57022156128ec7ae815904d0fbd5af5a6e09"
+            "sha256": "334b90723bad1c78547d7a743e7fbe8cc5f4ef611f597ad50476dadf299edcdb"
           },
           "rear": {
             "image_url": "https://media.guitarcenter.com/is/image/MMGS7/156607000000000-01-600x600.jpg",
@@ -223112,6 +223112,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP350"
+    "last_model": "DigiTech::RP250"
   }
 }
