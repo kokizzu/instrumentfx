@@ -201704,15 +201704,16 @@
       },
       "M-VAVE::MK-20": {
         "model_key": "M-VAVE::MK-20",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unresolved first hardware release",
+          "date": "2025-01-23",
+          "precision": "day",
+          "kind": "earliest located original public preview; introduction proxy",
           "source_urls": [
-            "https://www.youtube.com/watch?v=xmJMJ_oUPYk"
+            "https://www.youtube.com/watch?v=50bi0jdgZf0",
+            "https://www.youtube.com/watch?v=09VHWWFpEwM"
           ],
-          "note": "Manufacturer New Product Release MK-20 video is indexed October 15, 2025, but earlier third-party MK-20 coverage exists. This later video is not accepted as first worldwide availability. No independently established first release date; span remains unknown."
+          "note": "Ehrosmith TV original MK-20 preview published23January2025,followed by NAMM show demonstration24January2025. Establishes public introduction by this date,not first retail shipment or final production availability. Manufacturer15October2025 video is later promotion; regional July2026 availability is not global first release."
         },
         "firmware": {
           "version": "V088 (release notes V88)",
@@ -201765,10 +201766,96 @@
             "title": "M-VAVE New Product Release MK-20 video",
             "access": "Search-indexed manufacturer title/date; direct page cache miss",
             "evidence": "October 15, 2025 later release video, not accepted as first hardware availability."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=50bi0jdgZf0",
+            "title": "Ehrosmith TV original MK-20 first-look preview",
+            "access": "Original creator indexed publication metadata and description read",
+            "evidence": "Published2025-01-23;explicit MK-20 firstlook. Used as public-preview proxy,not retail shipping date."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=09VHWWFpEwM",
+            "title": "Ehrosmith TV MK-20 NAMM2025 demonstration",
+            "access": "Original creator indexed publication metadata and description read",
+            "evidence": "Published2025-01-24;explicit live MK-20 NAMM demonstration corroborates January public showing,not first sale."
           }
         ],
-        "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "duration": {
+          "minimum_days": 663,
+          "maximum_days": 663,
+          "label": "1.82 years"
+        },
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "M-VAVE::MK-20",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unresolved first hardware release",
+              "source_urls": [
+                "https://www.youtube.com/watch?v=xmJMJ_oUPYk"
+              ],
+              "note": "Manufacturer New Product Release MK-20 video is indexed October 15, 2025, but earlier third-party MK-20 coverage exists. This later video is not accepted as first worldwide availability. No independently established first release date; span remains unknown."
+            },
+            "firmware": {
+              "version": "V088 (release notes V88)",
+              "date": "2026-11-17",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://www.m-vave.com/download",
+                "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt"
+              ],
+              "note": "Current exact-model index and decoded MK20-MK20V2 header agree on November 17, 2026 V88. Adds CC42–44 controlling CTRL1–3 under current preset mappings; improves continuous CC response, UI/EQ readability and NAN labels, and fixes model-audition refresh and host factory-global-reset persistence. Original and V2 are separate download selections, not proof of interchangeable binaries. Supersedes prior V86 and older V085 product-block observations. V83 introduced manufacturer-described native NAM A2; architecture/file restrictions remain untested."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Exact-model V81 notes introduce Gojira Whammy continuous pedal pitch shifting. V86 fixes WHAMMY Oct2 stopping when Bend reaches about 80. These establish a pitch algorithm and corrected operating mode, not numeric semitone endpoints, monophonic/polyphonic tracking or chord-transpose quality. No MK-300 algorithm list or Whammy hardware polyphony transferred.",
+              "preset": "150 editable normal presets, 75 initially factory-filled; six separate snapshot slots S1–S6 store additional configuration. Normal presets can be saved into snapshots; reverse saving is prohibited. Snapshot mode permits file import/export but not parameter editing through PC/mobile. Pitch parameters/pedal mapping live within this architecture, not 156 equivalent normal presets. V88 CC42–44 follow current preset CTRL1–3 mappings; external analog EXP connector remains disputed in original manual.",
+              "dsp": "No isolated Whammy DSP percentage or tracking-latency measurement found. Manual shows an overall CPU load meter and warns above 90% may cause noise/other problems; example screenshot loads are full presets, not isolated pitch measurements. Ten movable modules are DSP-limited. Pedal Sync/global mapping and UI rendering improvements do not establish reduced pitch resource cost.",
+              "source_urls": [
+                "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt",
+                "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-20.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Current official release-note bytes read inertly through a bounded repository Makefile target, strict GB18030 decoding: 8,405 bytes, SHA256 7777e1cd45094c456c4148037ab96b485b48bf97572f8636754f8d963649e05b, 209 lines, V71–V88. Earlier web decoding failures remain historical; current text is now recovered.",
+                "Manufacturer-authored 28-page manual text checked for memory/snapshots and overall CPU warning. No new visual/byte equivalence claim to older manual mirror.",
+                "No firmware installation, preset reset, controller test or audio benchmark."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.m-vave.com/download",
+                "title": "M-VAVE current MK20 / MK20 V2 firmware index",
+                "access": "Current manufacturer page opened as text",
+                "evidence": "Separate exact-model V088 listings dated November 17, 2026."
+              },
+              {
+                "url": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/MK20.txt",
+                "title": "Official MK20 release history decoded as GB18030",
+                "access": "Bounded repository source reader fetched 8,405 inert text bytes; strict decoding and SHA256 recorded",
+                "evidence": "V88 November 17 current changes; V81 Gojira Whammy; V86 Oct2 fix; V83 NAM A2."
+              },
+              {
+                "url": "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-20.pdf",
+                "title": "Manufacturer MK-20 owner manual",
+                "access": "Original manufacturer-authored PDF opened as text",
+                "evidence": "150 normal presets, six snapshot slots and overall CPU warning; no pitch-only percentage."
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=xmJMJ_oUPYk",
+                "title": "M-VAVE New Product Release MK-20 video",
+                "access": "Search-indexed manufacturer title/date; direct page cache miss",
+                "evidence": "October 15, 2025 later release video, not accepted as first hardware availability."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "M-VAVE::MK-300": {
         "model_key": "M-VAVE::MK-300",
@@ -216439,8 +216526,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "M-VAVE::CUBE BABY electric",
-    "last_commit_parent": "e6641ee0888363366357bd4b819949deb4fd81b5",
+    "last_model": "M-VAVE::MK-20",
+    "last_commit_parent": "b83a8e4dd8851cef2936da8e95c2253fc4766a00",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
