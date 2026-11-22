@@ -906,11 +906,11 @@ Original scans retained as links: [English][AX30-E], [Japanese][AX30-J].
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Exact first hardware release not established by checked manufacturer sources. The2015 manual upload is not a launch date. [launch 1](https://www.korg.com/us/support/download/product/1/20/) |
+| Firmware / first hardware release | 2000-07-25 (contemporaneous Summer NAMM announcement-coverage proxy). Sweetwater’s firsthand July 25, 2000 Summer NAMM report names AX100G as the latest addition to Korg Toneworks. Used as a public-show announcement-coverage proxy, not exact first customer shipment. Later December 2000 delivery coverage does not move this earlier introduction forward; the 2015 manual upload remains separate. [launch 1](https://www.sweetwater.com/insync/summer-namm-2000-report-part-3/) |
 | Firmware / latest verification | Not verified — No public firmware located. Exact AX100G support page lists only Owner’s Manual dated June1,2015; no public firmware package or device changelog located there. Does not prove service/internal firmware never existed. Update span uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/20/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
-| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
 | Pitch / note handling | Pitch present; polyphony unverified. Basic MOD PITCH spans ±24 semitones with fine adjustment; its polyphony is unverified. Intelligent harmony explicitly accepts single notes, not chords, with major/minor thirds, fourth, fifth and major-sixth options. PEDAL PITCH is also listed; no blanket polyphony claim. [pitch 1](https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX100G_EFGJ_2.pdf&response-content-type=application%2Fpdf%3B) |
 | Pitch / preset recall | 40 protected factory programs and40 editable user programs; pitch configuration can be stored in user programs. Hardware recall untested. |
 | Pitch / DSP resources | Intelligent harmony cannot coexist with PEDAL effects except VOLUME or with ROOM1–ARENA ambience; those effects are automatically disabled. This is a documented algorithm-specific resource restriction, not a CPU percentage. No measured pitch CPU cost located. |
@@ -921,6 +921,7 @@ Sources checked:
 
 - [Korg AX100G downloads](https://www.korg.com/us/support/download/product/1/20/) — Only Owner’s Manual dated2015-06-01; no public firmware listed. (Manufacturer exact-model page read).
 - [AX100G Owner’s Manual, multilingual](https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX100G_EFGJ_2.pdf&response-content-type=application%2Fpdf%3B) — Basic PITCH ±2octaves; intelligent harmony single-note restriction and PEDAL/ambience exclusions;80 programs split40preset/40user. (Manufacturer indexed original PDF text read).
+- [Sweetwater: Summer NAMM 2000 Report, Part3, July25,2000](https://www.sweetwater.com/insync/summer-namm-2000-report-part-3/) — Calls AX100G the latest Toneworks addition during Summer NAMM2000. Supports July25 announcement-coverage proxy, not first-sale/shipment date. (Original first-party trade-show report opened; publication date and exact AX100G passage read).
 
 <!-- firmware-pitch:Korg::AX100G ends -->
 
