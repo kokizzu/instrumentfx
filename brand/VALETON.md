@@ -1997,6 +1997,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::GP-150 ends -->
 
+<!-- model-images:Valeton::GP-150 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Official GP-150 control-face stock image**
+
+[![Official GP-150 control-face stock image](https://shop.valeton.net/cdn/shop/files/GP-150_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999331)](https://shop.valeton.net/cdn/shop/files/GP-150_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999331)
+
+[Image source](https://shop.valeton.net/products/gp-150). Visually inspected exact GP-150 stock control-face image: five knobs,two footswitches,six buttons and built-in treadle. Display and blue rings shown illuminated in artwork, but actual powered-unit photography is unverified. Slight case-edge perspective; strict overhead powered-on photograph remains pending.
+
+**Official GP-150 connector-edge stock image**
+
+[![Official GP-150 connector-edge stock image](https://shop.valeton.net/cdn/shop/files/GP-150_Top_Hi_V01_251202_1445x.png?v=1773999331)](https://shop.valeton.net/cdn/shop/files/GP-150_Top_Hi_V01_251202_1445x.png?v=1773999331)
+
+[Image source](https://shop.valeton.net/products/gp-150). Visually inspected exact GP-150 rear connector edge: EXP/FS MIDI IN,IN,OUT L and R(BALANCED),PHONES/MIC,PD USB,POWER and9V2A center-negative DC marking. Rear image does not prove operating power or every electrical routing detail.
+
+</details>
+<!-- model-images:Valeton::GP-150 ends -->
+
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- VALETON-GP-150 source begins -->
