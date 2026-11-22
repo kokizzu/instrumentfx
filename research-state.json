@@ -214510,19 +214510,38 @@
       },
       "Korg::AX10B": {
         "model_key": "Korg::AX10B",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "views": {
           "top": {
             "image_url": "https://www.audiotrader.co.uk/cdn/shop/files/20250820_140605.jpg?v=1755695681&width=1600",
             "source_url": "https://www.audiotrader.co.uk/products/korg-toneworks-guitar-effects-processor-amp-modeling-good-w-power-supply",
             "caption": "Korg AX10B powered-on top controls — angled view",
-            "note": "AX10B model label, illuminated program display and effect LEDs are visible; complete top controls and expression pedal shown. Camera angle has perspective, so an exact overhead photograph and rear-port photograph remain pending. Retail listing used only for photograph provenance, not its technical specifications.",
+            "note": "AX10B model label, illuminated program display and effect LEDs are visible; complete top controls and expression pedal shown. Camera angle has perspective, so an exact overhead photograph and rear-port photograph remain pending. Cream City Music gallery alternatives inspected: image333099 is an unlit angled top, image274301 is the underside; neither shows rear sockets. The 2nd Street connector candidate returned HTTP403. Retail listing used only for photograph provenance, not its technical specifications.",
             "visual_checked": true,
             "powered_on": true,
             "exact_top_down": false,
             "sha256": "e0bf3074342952a21489ff59e0c0d4a1271850ff519a64819649f944acac84d8"
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/23422/333099/753f280b-3a5c-5d1f-b1dd-2f94471a071a__73589.1715852754.jpg?c=2",
+            "source_url": "https://www.creamcitymusic.com/used-korg-toneworks-ax10b-modeling-signal-processor/",
+            "sha256": "86f108907758b2a065ceb147ba76532c780ba96678df0f85e8b6e4ba334aa1f3",
+            "result": "Visually inspected; unlit angled top, no rear connectors."
+          },
+          {
+            "image_url": "https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/23422/274301/24891def-5b6d-5451-8f51-e28435a5e5e2__94075.1715933022.jpg?c=2",
+            "source_url": "https://www.creamcitymusic.com/used-korg-toneworks-ax10b-modeling-signal-processor/",
+            "sha256": "4288b537bbfdefd770061e0a4014c0540b81ee3833b0fa425bf39f076b99de1e",
+            "result": "Visually inspected; underside with AX10B label, no rear connectors."
+          },
+          {
+            "image_url": "https://cdn2.2ndstreet.jp/img/pc/goods/232021/24/25537/2.jpg",
+            "source_url": "https://www.2ndstreet.jp/goods/detail/goodsId/2320212425537/shopsId/30685",
+            "result": "HTTP403; no pixels inspected, not approved."
+          }
+        ]
       },
       "Korg::AX3B": {
         "model_key": "Korg::AX3B",
@@ -222945,6 +222964,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX10G"
+    "last_model": "Korg::AX10B"
   }
 }

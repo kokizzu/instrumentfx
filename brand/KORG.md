@@ -610,7 +610,7 @@ Sources checked:
 
 [![Korg AX10B powered-on top controls — angled view](https://www.audiotrader.co.uk/cdn/shop/files/20250820_140605.jpg?v=1755695681&width=1600)](https://www.audiotrader.co.uk/cdn/shop/files/20250820_140605.jpg?v=1755695681&width=1600)
 
-[Image source](https://www.audiotrader.co.uk/products/korg-toneworks-guitar-effects-processor-amp-modeling-good-w-power-supply). AX10B model label, illuminated program display and effect LEDs are visible; complete top controls and expression pedal shown. Camera angle has perspective, so an exact overhead photograph and rear-port photograph remain pending. Retail listing used only for photograph provenance, not its technical specifications.
+[Image source](https://www.audiotrader.co.uk/products/korg-toneworks-guitar-effects-processor-amp-modeling-good-w-power-supply). AX10B model label, illuminated program display and effect LEDs are visible; complete top controls and expression pedal shown. Camera angle has perspective, so an exact overhead photograph and rear-port photograph remain pending. Cream City Music gallery alternatives inspected: image333099 is an unlit angled top, image274301 is the underside; neither shows rear sockets. The 2nd Street connector candidate returned HTTP403. Retail listing used only for photograph provenance, not its technical specifications.
 
 **Rear view:** not yet verified.
 
