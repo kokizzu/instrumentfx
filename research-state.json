@@ -218919,11 +218919,36 @@
             "sha256": "165aac007d7c18a361f3a3e5e6b52eff6987cae50ac587aa2de9c8e43692f677"
           }
         }
+      },
+      "Zoom::V6-SP": {
+        "model_key": "Zoom::V6-SP",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://zoomcorp.com/media/original_images/V6_Top_fixedsilkscreen.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+            "source_url": "https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/",
+            "caption": "V6-SP control face",
+            "note": "Manufacturer straight-down V6 control-face photo used in the V6-SP gallery: active 01 numeric display, lit section/harmony buttons and green power LED shown. Eight rotary controls, six footswitches and full formant pedal visible. Tight framing reaches chassis edges; promotional illumination is not independently verified.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "9d395a6ecdae0814345576209e135f2d5d34433ed3fcba59b6bd0700c3dcbbfb"
+          },
+          "rear": {
+            "image_url": "https://zoomcorp.com/media/original_images/V6_Rear.jpg.0x800_q80_crop-%2Cscale_focal_area-3170%2C829%2C2608%2C704_size_canvas.jpg",
+            "source_url": "https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/",
+            "caption": "V6-SP rear connections",
+            "note": "Manufacturer full rear image linked by V6-SP product page: XLR MIC IN, PHANTOM switch, EFFECT CONTROL, USB Micro-B DC5V, PHONES and volume, ground connect/lift, XLR OUTPUT, power switch and center-negative DC9V. Security slot also visible.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "cd9d42d83a48e7720697f837b0f0fd3c57361bc81217284eae8c93fae89dd345"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::V3"
+    "last_model": "Zoom::V6-SP"
   }
 }

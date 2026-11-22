@@ -10465,6 +10465,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::V6-SP ends -->
 
+<!-- model-images:Zoom::V6-SP begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**V6-SP control face**
+
+[![V6-SP control face](https://zoomcorp.com/media/original_images/V6_Top_fixedsilkscreen.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg)](https://zoomcorp.com/media/original_images/V6_Top_fixedsilkscreen.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg)
+
+[Image source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/). Manufacturer straight-down V6 control-face photo used in the V6-SP gallery: active 01 numeric display, lit section/harmony buttons and green power LED shown. Eight rotary controls, six footswitches and full formant pedal visible. Tight framing reaches chassis edges; promotional illumination is not independently verified.
+
+**V6-SP rear connections**
+
+[![V6-SP rear connections](https://zoomcorp.com/media/original_images/V6_Rear.jpg.0x800_q80_crop-%2Cscale_focal_area-3170%2C829%2C2608%2C704_size_canvas.jpg)](https://zoomcorp.com/media/original_images/V6_Rear.jpg.0x800_q80_crop-%2Cscale_focal_area-3170%2C829%2C2608%2C704_size_canvas.jpg)
+
+[Image source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/V6-SP/). Manufacturer full rear image linked by V6-SP product page: XLR MIC IN, PHANTOM switch, EFFECT CONTROL, USB Micro-B DC5V, PHONES and volume, ground connect/lift, XLR OUTPUT, power switch and center-negative DC9V. Security slot also visible.
+
+</details>
+<!-- model-images:Zoom::V6-SP ends -->
+
+
 Vocal multi-effects with built-in formant pedal. Consolidated/researched2026-10-16; partial verification. Earlier V6 microphone bundle is not the current SP package.
 
 ### V6-SP — preserved original comparison
