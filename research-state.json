@@ -219444,11 +219444,36 @@
             "sha256": "3251fb063776fb08ab977352a686c5685db9b1b0ee2a5d850d33b448d051877a"
           }
         }
+      },
+      "BOSS::GT-6": {
+        "model_key": "BOSS::GT-6",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/assets/images/products/main/gt6_main.jpg",
+            "source_url": "https://www.boss.info/global/products/gt-6/",
+            "caption": "BOSS GT-6 — powered-on top view",
+            "note": "Complete manufacturer straight-down promotional view with lit red bank digit, green TUBE STACK LCD, red effect/foot indicators, full rotary/button sections, seven footswitches and full expression pedal. The original is only 500 pixels wide, limiting fine-label readability. Powered-on appearance is visible; independent operating-state verification is unavailable.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "b4e018197db33b0ba6580cf4ece420e090e345f9fb526c8dfe9cb71b89c9bbad"
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/70821/513152/YBOSS14714005__29024.1742299113.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/boss-gt-6-guitar-effects-processor-power-supply-gig-bag-2nd-hand/",
+            "caption": "BOSS GT-6 — rear connections",
+            "note": "Actual retailer photograph of an unpowered used GT-6, viewed slightly diagonally from behind with the complete connector row visible: INPUT, OUTPUT LEVEL, OUTPUT R/L-MONO, PHONES, EXTERNAL SEND/RETURN, coaxial DIGITAL OUT, SUB EXP PEDAL/SUB CTL1/2, MIDI OUT/IN, power switch, AC IN 14V for BRC adaptor and cord restraint.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "b1274ff9caf4ee2ac20812ab8e76ce7c141a9d2f7b27bba3a14f1ee5d54bf0ee"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-20"
+    "last_model": "BOSS::GT-6"
   }
 }

@@ -1806,6 +1806,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GT-6 ends -->
 
+<!-- model-images:BOSS::GT-6 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS GT-6 — powered-on top view**
+
+[![BOSS GT-6 — powered-on top view](https://static.roland.com/assets/images/products/main/gt6_main.jpg)](https://static.roland.com/assets/images/products/main/gt6_main.jpg)
+
+[Image source](https://www.boss.info/global/products/gt-6/). Complete manufacturer straight-down promotional view with lit red bank digit, green TUBE STACK LCD, red effect/foot indicators, full rotary/button sections, seven footswitches and full expression pedal. The original is only 500 pixels wide, limiting fine-label readability. Powered-on appearance is visible; independent operating-state verification is unavailable.
+
+**BOSS GT-6 — rear connections**
+
+[![BOSS GT-6 — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/70821/513152/YBOSS14714005__29024.1742299113.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/70821/513152/YBOSS14714005__29024.1742299113.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/boss-gt-6-guitar-effects-processor-power-supply-gig-bag-2nd-hand/). Actual retailer photograph of an unpowered used GT-6, viewed slightly diagonally from behind with the complete connector row visible: INPUT, OUTPUT LEVEL, OUTPUT R/L-MONO, PHONES, EXTERNAL SEND/RETURN, coaxial DIGITAL OUT, SUB EXP PEDAL/SUB CTL1/2, MIDI OUT/IN, power switch, AC IN 14V for BRC adaptor and cord restraint.
+
+</details>
+<!-- model-images:BOSS::GT-6 ends -->
+
+
 Discontinued guitar multi-effects;not GT-6B. Checked2026-10-17;partial. Ownership,bass/vocal suitability unverified.
 
 | Field | Finding / qualification | Evidence |
