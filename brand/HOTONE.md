@@ -43,6 +43,26 @@ Sources checked:
 
 <!-- firmware-pitch:Hotone::Ampero II MP-350 ends -->
 
+<!-- model-images:Hotone::Ampero II MP-350 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Hotone Ampero II MP-350 — control surface**
+
+[![Hotone Ampero II MP-350 — control surface](https://www.guitarpusher.com/cdn/shop/files/HOTONEMP350AMPERO2-0W_large.jpg?v=1732093834)](https://www.guitarpusher.com/cdn/shop/files/HOTONEMP350AMPERO2-0W_large.jpg?v=1732093834)
+
+[Image source](https://www.guitarpusher.com/products/hotone-mp-350-ampero-ii-amp-modeler-multi-effects-processor). Top-down promotional image with powered A01-1 touchscreen, illuminated first footswitch and expression indicator; two knobs, screen-lock button, four footswitches and complete expression pedal visible. Small 480-pixel-wide image and retailer watermark limit fine detail.
+
+**Hotone Ampero II MP-350 — rear connections**
+
+[![Hotone Ampero II MP-350 — rear connections](https://www.melodyhousemi.com/assets/library/Hotone/MP-350-4.jpg)](https://www.melodyhousemi.com/assets/library/Hotone/MP-350-4.jpg)
+
+[Image source](https://www.melodyhousemi.com/product/buy-hotone-mp-350). Full rear row showing EXP/CTRL, stereo instrument inputs including combo socket, stereo FX send/return, unbalanced and balanced XLR stereo outputs, auxiliary input, phones, USB-C, power switch and DC input. Fine light-gray labels are small. Side-mounted MIDI sockets are not shown; dedicated side view remains pending.
+
+</details>
+<!-- model-images:Hotone::Ampero II MP-350 ends -->
+
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- HOTONE-AMPERO-MP350 source begins -->

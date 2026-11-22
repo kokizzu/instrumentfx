@@ -220011,11 +220011,36 @@
             "sha256": "a9c862fa968aff9834905b1045a8020da4cf2486161d184cc1652d865e1567c6"
           }
         }
+      },
+      "Hotone::Ampero II MP-350": {
+        "model_key": "Hotone::Ampero II MP-350",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.guitarpusher.com/cdn/shop/files/HOTONEMP350AMPERO2-0W_large.jpg?v=1732093834",
+            "source_url": "https://www.guitarpusher.com/products/hotone-mp-350-ampero-ii-amp-modeler-multi-effects-processor",
+            "caption": "Hotone Ampero II MP-350 — control surface",
+            "note": "Top-down promotional image with powered A01-1 touchscreen, illuminated first footswitch and expression indicator; two knobs, screen-lock button, four footswitches and complete expression pedal visible. Small 480-pixel-wide image and retailer watermark limit fine detail.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "a2611d406b89fa114655e5420b4ec9bb9bfbe0541c40fa27e9812910aee4c2b6"
+          },
+          "rear": {
+            "image_url": "https://www.melodyhousemi.com/assets/library/Hotone/MP-350-4.jpg",
+            "source_url": "https://www.melodyhousemi.com/product/buy-hotone-mp-350",
+            "caption": "Hotone Ampero II MP-350 — rear connections",
+            "note": "Full rear row showing EXP/CTRL, stereo instrument inputs including combo socket, stereo FX send/return, unbalanced and balanced XLR stereo outputs, auxiliary input, phones, USB-C, power switch and DC input. Fine light-gray labels are small. Side-mounted MIDI sockets are not shown; dedicated side view remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "ae0ecf5e21f8220b024614b7d9857f5c92adde8267013662c2c5e28ab2c27702"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Hotone::Ampero II Stage MP-380"
+    "last_model": "Hotone::Ampero II MP-350"
   }
 }
