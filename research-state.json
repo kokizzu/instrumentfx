@@ -222799,14 +222799,14 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://shop.valeton.net/cdn/shop/products/GP-200_Front_WithScreen_Hi_V01_211110_1445x.png?v=1669282627",
-            "source_url": "https://shop.valeton.net/products/gp-200",
-            "caption": "Official GP-200 control-face stock image",
-            "note": "Visually inspected exact black GP-200 control face:11rotaries(2main,6amp,3quick),14buttons(4general,10module),8footswitches andbuilt-in treadle. Stock image shows screen andcolored lamps butactual powered-unit photography is unverified. Slight rear-edge perspective;strict overhead powered photograph pending.",
+            "image_url": "https://m.media-amazon.com/images/I/81vmQ2sPFdL.jpg?aicid=community-reviews",
+            "source_url": "https://www.ubuy.co.id/en/product/4E72N9SYW-valeton-multi-effects-processor-multi-effects-pedal-with-expression-pedal-fx-loop-midi-i-o-guitar-bass-effects-pedal-amp-modeling-ir-cabinets",
+            "caption": "GP-200 powered-on overhead user photograph",
+            "note": "Visually inspected original black GP-200 on a patterned rug: active 01-A It’s GP-200 display, illuminated module keys, colored footswitch rings and green pedal indicator. Full enclosure, all eight footswitches, controls and complete expression pedal visible. Near-overhead photograph has slight perspective, so a strict perpendicular view remains pending. Image file is hosted on Amazon and reproduced by the linked retailer; reviewer identity is not authenticated. No firmware version, pitch polyphony or DSP percentage is inferred from the pictured patch.",
             "visual_checked": true,
-            "sha256": "9460d52f11464c8f10274637d4d6f4607ed175b4121d8152048d9cf796e1b55b",
-            "powered_on": null,
-            "exact_top_down": false
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "89692c68c68d1eb125f6c241858da4f81a729c68b4f855959150aa4ade0bba55"
           },
           "rear": {
             "image_url": "https://shop.valeton.net/cdn/shop/products/GP-200_Top_Hi_V01_210923_1445x.png?v=1669282627",
@@ -222818,7 +222818,24 @@
             "powered_on": null,
             "exact_top_down": false
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://m.media-amazon.com/images/I/71MmddIM%2BZL.jpg?aicid=community-reviews",
+            "source_url": "https://www.ubuy.co.id/en/product/4E72N9SYW-valeton-multi-effects-processor-multi-effects-pedal-with-expression-pedal-fx-loop-midi-i-o-guitar-bass-effects-pedal-amp-modeling-ir-cabinets",
+            "caption": "GP-200 candidate",
+            "note": "Powered original black GP-200 on yellow surface with active 03-A Pure Clean screen, lit rings and complete pedal; source stored sideways, oblique view.",
+            "visual_checked": true,
+            "sha256": "3ff2222f3b01d3dc94ded3c0af71ca1b602f2b80a9eb25c678417c3e26123d70"
+          },
+          {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/GP-200_Front_WithScreen_Hi_V01_211110_1445x.png?v=1669282627",
+            "source_url": "https://shop.valeton.net/products/gp-200",
+            "sha256": "9460d52f11464c8f10274637d4d6f4607ed175b4121d8152048d9cf796e1b55b",
+            "visual_checked": true,
+            "note": "Superseded official active-screen stock artwork; physical powered operation was not independently established by this image."
+          }
+        ]
       },
       "Valeton::GP-200JR": {
         "model_key": "Valeton::GP-200JR",
@@ -226996,6 +227013,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP200"
+    "last_model": "Valeton::GP-200"
   }
 }

@@ -2671,11 +2671,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Official GP-200 control-face stock image**
+**GP-200 powered-on overhead user photograph**
 
-[![Official GP-200 control-face stock image](https://shop.valeton.net/cdn/shop/products/GP-200_Front_WithScreen_Hi_V01_211110_1445x.png?v=1669282627)](https://shop.valeton.net/cdn/shop/products/GP-200_Front_WithScreen_Hi_V01_211110_1445x.png?v=1669282627)
+[![GP-200 powered-on overhead user photograph](https://m.media-amazon.com/images/I/81vmQ2sPFdL.jpg?aicid=community-reviews)](https://m.media-amazon.com/images/I/81vmQ2sPFdL.jpg?aicid=community-reviews)
 
-[Image source](https://shop.valeton.net/products/gp-200). Visually inspected exact black GP-200 control face:11rotaries(2main,6amp,3quick),14buttons(4general,10module),8footswitches andbuilt-in treadle. Stock image shows screen andcolored lamps butactual powered-unit photography is unverified. Slight rear-edge perspective;strict overhead powered photograph pending.
+[Image source](https://www.ubuy.co.id/en/product/4E72N9SYW-valeton-multi-effects-processor-multi-effects-pedal-with-expression-pedal-fx-loop-midi-i-o-guitar-bass-effects-pedal-amp-modeling-ir-cabinets). Visually inspected original black GP-200 on a patterned rug: active 01-A It’s GP-200 display, illuminated module keys, colored footswitch rings and green pedal indicator. Full enclosure, all eight footswitches, controls and complete expression pedal visible. Near-overhead photograph has slight perspective, so a strict perpendicular view remains pending. Image file is hosted on Amazon and reproduced by the linked retailer; reviewer identity is not authenticated. No firmware version, pitch polyphony or DSP percentage is inferred from the pictured patch.
 
 **Official GP-200 rear connector-edge stock image**
 
