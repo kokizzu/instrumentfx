@@ -204887,13 +204887,13 @@
         "model_key": "Valeton::Dapper Dark Mini",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first release unresolved",
+          "date": "2017-10-13",
+          "precision": "day",
+          "kind": "dated catalogue-publication proxy; first shipment unconfirmed",
           "source_urls": [
-            "https://www.valeton.net/product/dapper-dark-minidiscontinued/"
+            "https://www.effectsdatabase.com/model/valeton/dapper/dark/mini"
           ],
-          "note": "No first-release date established in manufacturer product/manual text. Manual V01_161208 is not evidence of December8,2016 shipment; full-size Dark demo dates do not apply to Mini."
+          "note": "Exact MES-3 Dapper Dark Mini catalogue entry explicitly published October13,2017 and tagged Music China2017. This is a dated public-mention reference, not independently verified first retail shipment. Manufacturer demo is listed later in April2018; full-size Dark chronology does not apply. Manual V01_161208 remains a document identifier, not proof of December8,2016 shipping."
         },
         "firmware": {
           "version": null,
@@ -204941,10 +204941,81 @@
             "title": "Dark Mini official V01_161208 owner manual",
             "access": "manufacturer PDF search-index text read; direct PDF cache miss",
             "evidence": "Boost, HiGain EQ/NR, Delay LEVEL/REGEN/TIME and1000ms maximum; tuner and headphone controls. No dedicated pitch algorithm or DSP cost."
+          },
+          {
+            "url": "https://www.effectsdatabase.com/model/valeton/dapper/dark/mini",
+            "title": "Effects Database MES-3 Dapper Dark Mini catalogue chronology",
+            "access": "Original publisher indexed entry and publication metadata read",
+            "evidence": "Explicit October13,2017 entry publication and Music China2017 tag for the exact Mini model; used only as a public-mention proxy. Later manufacturer-demo listing does not establish earliest shipment."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Valeton::Dapper Dark Mini",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first release unresolved",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-dark-minidiscontinued/"
+              ],
+              "note": "No first-release date established in manufacturer product/manual text. Manual V01_161208 is not evidence of December8,2016 shipment; full-size Dark demo dates do not apply to Mini."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-dark-minidiscontinued/",
+                "https://www.valeton.net/firmware/",
+                "https://www.valeton.net/download/179/dapper-dark-minidiscontinued/18565/dapper-dark-mini_manual_v01_161208-2.pdf"
+              ],
+              "note": "No numbered Dark Mini device firmware release/date or updater located in checked manufacturer sources. Product manual V01 is not device firmware; discontinued status does not prove no updates existed. Firmware index dynamic extraction may be incomplete."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Named modules are Boost, HiGain with EQ/noise gate and analog-voiced Delay, plus muted tuner. No dedicated pitch transposer, octave or harmonizer documented.",
+              "preset": "Physical controls; no programmable pitch-memory count documented. Delay LEVEL/REGEN/TIME and hold-to-tap operation do not establish pitch presets.",
+              "dsp": "No pitch DSP percentage or resource meter published in checked sources. Delay1000ms maximum, boost12dB and electrical110mA are not CPU cost measurements.",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-dark-minidiscontinued/",
+                "https://www.valeton.net/download/179/dapper-dark-minidiscontinued/18565/dapper-dark-mini_manual_v01_161208-2.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Analog-voiced delay describes sound, not proof that all electronics are analog or a selectable transposition interval.",
+                "Tuner sharp/flat indicators measure note accuracy; no pitch correction or polyphonic transposition established.",
+                "No full-size Dark chorus/FX-loop specifications transferred. Product stray Dapper Indie heading conflicts with exact Dark Mini body/manual; no Indie features borrowed. No hardware/audio or firmware test."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.valeton.net/product/dapper-dark-minidiscontinued/",
+                "title": "Valeton Dapper Dark Mini official product",
+                "access": "manufacturer search-index text read; direct page timed out",
+                "evidence": "Dark Mini body lists Boost/HiGain/Delay and headphones, manual download; stray Indie heading retained as conflict."
+              },
+              {
+                "url": "https://www.valeton.net/firmware/",
+                "title": "Valeton official firmware index",
+                "access": "web text read; dynamic visibility limited",
+                "evidence": "No exact Dark Mini firmware exposed in extracted text."
+              },
+              {
+                "url": "https://www.valeton.net/download/179/dapper-dark-minidiscontinued/18565/dapper-dark-mini_manual_v01_161208-2.pdf",
+                "title": "Dark Mini official V01_161208 owner manual",
+                "access": "manufacturer PDF search-index text read; direct PDF cache miss",
+                "evidence": "Boost, HiGain EQ/NR, Delay LEVEL/REGEN/TIME and1000ms maximum; tuner and headphone controls. No dedicated pitch algorithm or DSP cost."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Valeton::Dapper Dark VES-3": {
         "model_key": "Valeton::Dapper Dark VES-3",
@@ -212611,8 +212682,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Valeton::Dapper Amp Mini",
-    "last_commit_parent": "c5d996617b18f78789c567013c3fe2d66cba0a0f",
+    "last_model": "Valeton::Dapper Dark Mini",
+    "last_commit_parent": "fc820923d13603c656cf1b0400c3d3fca784a726",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

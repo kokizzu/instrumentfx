@@ -470,7 +470,7 @@ Bass use is documented; ordinary guitar suitability and direct analog EXP remain
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. No first-release date established in manufacturer product/manual text. Manual V01_161208 is not evidence of December8,2016 shipment; full-size Dark demo dates do not apply to Mini. [launch 1](https://www.valeton.net/product/dapper-dark-minidiscontinued/) |
+| Firmware / first hardware release | 2017-10-13 (dated catalogue-publication proxy; first shipment unconfirmed). Exact MES-3 Dapper Dark Mini catalogue entry explicitly published October13,2017 and tagged Music China2017. This is a dated public-mention reference, not independently verified first retail shipment. Manufacturer demo is listed later in April2018; full-size Dark chronology does not apply. Manual V01_161208 remains a document identifier, not proof of December8,2016 shipping. [launch 1](https://www.effectsdatabase.com/model/valeton/dapper/dark/mini) |
 | Firmware / latest verification | Not verified — No public firmware located. No numbered Dark Mini device firmware release/date or updater located in checked manufacturer sources. Product manual V01 is not device firmware; discontinued status does not prove no updates existed. Firmware index dynamic extraction may be incomplete. [firmware 1](https://www.valeton.net/product/dapper-dark-minidiscontinued/) [firmware 2](https://www.valeton.net/firmware/) [firmware 3](https://www.valeton.net/download/179/dapper-dark-minidiscontinued/18565/dapper-dark-mini_manual_v01_161208-2.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -486,6 +486,7 @@ Sources checked:
 - [Valeton Dapper Dark Mini official product](https://www.valeton.net/product/dapper-dark-minidiscontinued/) — Dark Mini body lists Boost/HiGain/Delay and headphones, manual download; stray Indie heading retained as conflict. (manufacturer search-index text read; direct page timed out).
 - [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact Dark Mini firmware exposed in extracted text. (web text read; dynamic visibility limited).
 - [Dark Mini official V01_161208 owner manual](https://www.valeton.net/download/179/dapper-dark-minidiscontinued/18565/dapper-dark-mini_manual_v01_161208-2.pdf) — Boost, HiGain EQ/NR, Delay LEVEL/REGEN/TIME and1000ms maximum; tuner and headphone controls. No dedicated pitch algorithm or DSP cost. (manufacturer PDF search-index text read; direct PDF cache miss).
+- [Effects Database MES-3 Dapper Dark Mini catalogue chronology](https://www.effectsdatabase.com/model/valeton/dapper/dark/mini) — Explicit October13,2017 entry publication and Music China2017 tag for the exact Mini model; used only as a public-mention proxy. Later manufacturer-demo listing does not establish earliest shipment. (Original publisher indexed entry and publication metadata read).
 
 <!-- firmware-pitch:Valeton::Dapper Dark Mini ends -->
 
