@@ -422,6 +422,31 @@ Existing164W×176Dmm chassis fails depth. UP/DOWN versus three-adjacent Performa
 
 ## Magicstomp Bass
 
+<!-- firmware-pitch:Yamaha::Magicstomp Bass begins -->
+### Firmware and pitch audit — Yamaha Magicstomp Bass
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005-02-25 (manufacturer public announcement; first shipment unresolved). Yamaha25February2005 introduces new EB Bass and plans spring2005 availability. Announcement date is not verified first retail shipment. Original Guitar2003 and Acoustic2004 coverage are different editions. [launch 1](https://usa.yamaha.com/news_events/2005/20050225_yamaha-adds-more-magic_us.html) |
+| Firmware / latest verification | 2.10 — Located; latest status unverified. Manufacturer Bass Sound Editor2.10 manual explicitly requires device firmware2.10 or greater; exact Bass effect list is labelled ver2.10. This establishes a documented firmware baseline, not proof of final/latest release. No dated exact Bass updater/changelog located. Copyright2004, PDF upload dates and editor version alone are not release dates; lifetime remains uncalculable. [firmware 1](https://usa.yamaha.com/files/download/other_assets/6/333336/magicstomp_bass_se_en.pdf) [firmware 2](https://usa.yamaha.com/files/download/other_assets/3/333333/magicstomp_bass_en3.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Exact Bass ver2.10 list: HQ.Pitch±12semitones; DualPitch two channels each±24semitones. Both offer±50cents fine, MODE1–10 precision, delay0–1000ms and mix; DualPitch has per-channel feedback/level/pan. Input polyphony/chord capability not stated. [pitch 1](https://usa.yamaha.com/files/download/other_assets/3/333333/magicstomp_bass_en3.pdf) [pitch 2](https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf) |
+| Pitch / preset recall | 99factory+99user programs; user area initially copies presets. Deep Edit selects algorithms and assigns knob parameters; edited programs save to user slots. Arbitrary concurrent pitch+BBT bass-preamp processing is not established by separate library entries. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. MODE1–10 is precision, not CPU utilization; configured delay0–1000ms is not measured algorithm latency.32-bit DSP architecture and dual output channels do not establish resource cost or polyphony. |
+| Pitch / qualifications | Exact UB99B effect-list PDF inspected; no Acoustic/Guitar firmware package or DSP value substituted. Documented ranges are not hands-on tracking/latency/chord-quality measurements. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha UB99B Magicstomp Bass Effect List ver2.10](https://usa.yamaha.com/files/download/other_assets/3/333333/magicstomp_bass_en3.pdf) — Printed17 HQ.Pitch and DualPitch ranges/precision/mix/delay; BassPreamp listed separately; no explicit input-polyphony or CPU%. (official32page exact Bass PDF read; titleUB99B_EffectList_E_web.fm).
+- [Yamaha Magicstomp Bass owner manual](https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf) — 99preset+99user, Deep Edit, patch storage;32-bit DSP is architecture, not utilization. (official35page original PDF read).
+- [Yamaha Bass Sound Editor2.10 owner manual](https://usa.yamaha.com/files/download/other_assets/6/333336/magicstomp_bass_se_en.pdf) — Explicitly supports device firmware2.10 or greater; not dated firmware release notes or proof of latest version. (official25page PDF first-page firmware requirement read).
+- [Yamaha Adds More Magic,25February2005](https://usa.yamaha.com/news_events/2005/20050225_yamaha-adds-more-magic_us.html) — Introduces new EB Bass; planned spring2005 availability distinct from actual first delivery. (official manufacturer announcement read).
+
+<!-- firmware-pitch:Yamaha::Magicstomp Bass ends -->
+
 Checked 2026-10-18; partial. Separate Bass edition. [Own Yamaha manual](https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf),35PDFpages,pp7–12,33; browser text. Acoustic/electric bass patches establish bass membership. No sibling specifications substituted.
 
 <!-- comparison evidence begins -->

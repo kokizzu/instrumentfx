@@ -204872,10 +204872,76 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Yamaha::Magicstomp Bass": {
+        "model_key": "Yamaha::Magicstomp Bass",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2005-02-25",
+          "precision": "day",
+          "kind": "manufacturer public announcement; first shipment unresolved",
+          "source_urls": [
+            "https://usa.yamaha.com/news_events/2005/20050225_yamaha-adds-more-magic_us.html"
+          ],
+          "note": "Yamaha25February2005 introduces new EB Bass and plans spring2005 availability. Announcement date is not verified first retail shipment. Original Guitar2003 and Acoustic2004 coverage are different editions."
+        },
+        "firmware": {
+          "version": "2.10",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://usa.yamaha.com/files/download/other_assets/6/333336/magicstomp_bass_se_en.pdf",
+            "https://usa.yamaha.com/files/download/other_assets/3/333333/magicstomp_bass_en3.pdf"
+          ],
+          "note": "Manufacturer Bass Sound Editor2.10 manual explicitly requires device firmware2.10 or greater; exact Bass effect list is labelled ver2.10. This establishes a documented firmware baseline, not proof of final/latest release. No dated exact Bass updater/changelog located. Copyright2004, PDF upload dates and editor version alone are not release dates; lifetime remains uncalculable."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Exact Bass ver2.10 list: HQ.Pitch±12semitones; DualPitch two channels each±24semitones. Both offer±50cents fine, MODE1–10 precision, delay0–1000ms and mix; DualPitch has per-channel feedback/level/pan. Input polyphony/chord capability not stated.",
+          "preset": "99factory+99user programs; user area initially copies presets. Deep Edit selects algorithms and assigns knob parameters; edited programs save to user slots. Arbitrary concurrent pitch+BBT bass-preamp processing is not established by separate library entries.",
+          "dsp": "No per-pitch DSP percentage published. MODE1–10 is precision, not CPU utilization; configured delay0–1000ms is not measured algorithm latency.32-bit DSP architecture and dual output channels do not establish resource cost or polyphony.",
+          "source_urls": [
+            "https://usa.yamaha.com/files/download/other_assets/3/333333/magicstomp_bass_en3.pdf",
+            "https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Exact UB99B effect-list PDF inspected; no Acoustic/Guitar firmware package or DSP value substituted.",
+            "Documented ranges are not hands-on tracking/latency/chord-quality measurements."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://usa.yamaha.com/files/download/other_assets/3/333333/magicstomp_bass_en3.pdf",
+            "title": "Yamaha UB99B Magicstomp Bass Effect List ver2.10",
+            "access": "official32page exact Bass PDF read; titleUB99B_EffectList_E_web.fm",
+            "evidence": "Printed17 HQ.Pitch and DualPitch ranges/precision/mix/delay; BassPreamp listed separately; no explicit input-polyphony or CPU%."
+          },
+          {
+            "url": "https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf",
+            "title": "Yamaha Magicstomp Bass owner manual",
+            "access": "official35page original PDF read",
+            "evidence": "99preset+99user, Deep Edit, patch storage;32-bit DSP is architecture, not utilization."
+          },
+          {
+            "url": "https://usa.yamaha.com/files/download/other_assets/6/333336/magicstomp_bass_se_en.pdf",
+            "title": "Yamaha Bass Sound Editor2.10 owner manual",
+            "access": "official25page PDF first-page firmware requirement read",
+            "evidence": "Explicitly supports device firmware2.10 or greater; not dated firmware release notes or proof of latest version."
+          },
+          {
+            "url": "https://usa.yamaha.com/news_events/2005/20050225_yamaha-adds-more-magic_us.html",
+            "title": "Yamaha Adds More Magic,25February2005",
+            "access": "official manufacturer announcement read",
+            "evidence": "Introduces new EB Bass; planned spring2005 availability distinct from actual first delivery."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Yamaha::Magicstomp Bass",
       "Yamaha::Magicstomp Guitar MK2",
       "Yamaha::Magicstomp original Guitar",
       "Yamaha::REV500",
@@ -204947,12 +205013,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 332,
-    "last_model": "Yamaha::Magicstomp Acoustic",
-    "last_commit_parent": "4224aad0301b8b4c662427cfc99338f476e3e87c",
+    "completed_model_count": 333,
+    "last_model": "Yamaha::Magicstomp Bass",
+    "last_commit_parent": "26b27d9a0a99fb83ca4bbca943d8d231639526d6",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Yamaha::Magicstomp Bass",
       "Yamaha::Magicstomp Guitar MK2",
       "Yamaha::Magicstomp original Guitar",
       "Yamaha::REV500",
@@ -205023,7 +205088,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 332,
+    "pitch_completed_model_count": 333,
     "supplemental_model_count": 0
   },
   "model_images": {
