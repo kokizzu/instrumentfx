@@ -747,6 +747,30 @@ Primary Japanese J2 manual is manufacturer-hosted. English manufacturer-authored
 
 ## ToneLab SE
 
+<!-- firmware-pitch:VOX::ToneLab SE begins -->
+### Firmware and pitch audit — VOX ToneLab SE
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2004-01 (manufacturer Winter NAMM announcement; first shipment unresolved). Manufacturer press release reproduced by Press Desk: article header19January2004; footer1January2004 conflicts, so only January2004 retained. Actual first retail delivery not established; manual copyright/patent dates are not launch. [launch 1](https://www.audiomasterclass.com/blog/tonelab-se-offers-valvetronix-modeling-in-a-pedalboard) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact SE device firmware package/version chronology located in inspected manufacturer documentation and targeted searches. J1/E1 are manual editions. Sound Editor, MIDI program dumps and factory preset restoration are separate from device firmware updates; installed version and update lifetime unresolved. [firmware 1](https://voxamps.com/wp-content/uploads/2022/03/ToneLabSE_OM_J1.pdf) [firmware 2](https://www.voxshowroom.com/ct/manuals/TonelabSE_OwnersManual.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH SHIFTER: ±24 semitones, ±50 cents fine control, tracking10–150ms and separate direct/effect levels. Separate OCTAVE is explicitly single-note only. Mono input/output describes audio routing, not note polyphony. [pitch 1](https://voxamps.com/wp-content/uploads/2022/03/ToneLabSE_OM_J1.pdf) [pitch 2](https://www.voxshowroom.com/ct/manuals/TonelabSE_OwnersManual.pdf) |
+| Pitch / preset recall | 96 writable locations,24×4;32factory programs repeated across three bank groups. Two expression pedals support per-program targets/ranges; M/PITCH pedal position does not edit the stored parameter. Factory2-1 TELEBEND and5-3 VH TREBLE BOOST use PITCH SHIFTER. |
+| Pitch / DSP resources | No per-effect DSP percentage published in inspected sources. Tracking10–150ms is a parameter, not measured end-to-end latency or CPU utilization. Simultaneous-block counts do not establish processor cost. |
+| Pitch / qualifications | Exact SE documentation used; no EX chord claim or LE firmware value inherited. No hardware playback, latency measurement or note-count benchmark performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [VOX ToneLab SE J1 owner manual](https://voxamps.com/wp-content/uploads/2022/03/ToneLabSE_OM_J1.pdf) — Printed41 PITCH range/fine/tracking; per-program target/range and save qualifications. J1 is documentation revision. (official original PDF pitch table and pedal passages read).
+- [VOX ToneLab SE E1 owner manual mirrored by VOX Showroom](https://www.voxshowroom.com/ct/manuals/TonelabSE_OwnersManual.pdf) — Printed43 PITCH; printed38 OCTAVE single-note warning; printed53–55 expression;96memories and factory pitch programs. (original PDF pitch, octave, memory and factory-program passages read).
+- [VOX ToneLab SE manufacturer announcement reproduced by Audiomasterclass Press Desk](https://www.audiomasterclass.com/blog/tonelab-se-offers-valvetronix-modeling-in-a-pedalboard) — Winter NAMM introduction, header19January2004 vs footer1January2004; month precision only. Host identifies Press Desk as manufacturer/PR releases. (manufacturer press body and conflicting page date fields read).
+
+<!-- firmware-pitch:VOX::ToneLab SE ends -->
+
 Guitar multi-effects; separate from LE/ST/EX. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->
