@@ -612,7 +612,11 @@ Sources checked:
 
 [Image source](https://www.audiotrader.co.uk/products/korg-toneworks-guitar-effects-processor-amp-modeling-good-w-power-supply). AX10B model label, illuminated program display and effect LEDs are visible; complete top controls and expression pedal shown. Camera angle has perspective, so an exact overhead photograph and rear-port photograph remain pending. Cream City Music gallery alternatives inspected: image333099 is an unlit angled top, image274301 is the underside; neither shows rear sockets. The 2nd Street connector candidate returned HTTP403. Retail listing used only for photograph provenance, not its technical specifications.
 
-**Rear view:** not yet verified.
+**Korg AX10B rear connections — original manual illustration**
+
+[![Korg AX10B rear connections — original manual illustration](images/korg-ax10b-rear.png)](images/korg-ax10b-rear.png)
+
+[Image source](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf#page=7). Cropped from Korg’s AX10B owner manual, printed page7; this is a manufacturer diagram, not a photograph. Shows cable hook(25), DC9V inlet(24), INPUT L/H switch(20), instrument INPUT(21), shared OUTPUT/headphones jack(22), and AMP/LINE switch(23). Exact AX10B label is visible. A physical rear-panel photograph remains pending.
 
 </details>
 <!-- model-images:Korg::AX10B ends -->

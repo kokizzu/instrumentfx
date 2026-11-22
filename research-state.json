@@ -218176,6 +218176,15 @@
             "powered_on": true,
             "exact_top_down": false,
             "sha256": "e0bf3074342952a21489ff59e0c0d4a1271850ff519a64819649f944acac84d8"
+          },
+          "rear": {
+            "image_url": "images/korg-ax10b-rear.png",
+            "source_url": "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf#page=7",
+            "caption": "Korg AX10B rear connections — original manual illustration",
+            "note": "Cropped from Korg’s AX10B owner manual, printed page7; this is a manufacturer diagram, not a photograph. Shows cable hook(25), DC9V inlet(24), INPUT L/H switch(20), instrument INPUT(21), shared OUTPUT/headphones jack(22), and AMP/LINE switch(23). Exact AX10B label is visible. A physical rear-panel photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "66bd0b1e22276f4a7eecc5dea3b37287a372ce6274b0a717f4f102e1d7560121",
+            "kind": "manufacturer_manual_illustration"
           }
         },
         "inspected_alternatives": [
@@ -218196,6 +218205,21 @@
             "source_url": "https://www.2ndstreet.jp/goods/detail/goodsId/2320212425537/shopsId/30685",
             "result": "HTTP403; no pixels inspected, not approved."
           }
+        ],
+        "manual_diagram": {
+          "source_url": "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf",
+          "page": 7,
+          "crop": [
+            365,
+            1980,
+            1390,
+            2265
+          ],
+          "source_sha256": "8871be4aee5f1f0ac45f407e56a64457a473e938fd89d5c8aa55ba9c1880c4b3",
+          "render_scale_to": 2400
+        },
+        "unresolved": [
+          "Exact powered overhead photograph and physical rear photograph remain pending; original manual rear illustration provided separately."
         ]
       },
       "Korg::AX3B": {
@@ -226646,6 +226670,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::Magicstomp Bass"
+    "last_model": "Korg::AX10B"
   }
 }

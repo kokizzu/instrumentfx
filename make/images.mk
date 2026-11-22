@@ -26,3 +26,8 @@ model-images-commit:
 .PHONY: model-images-test
 model-images-test:
 	python3 -B scripts/model_images.py test
+
+# Bounded extraction of an original manufacturer manual figure.
+.PHONY: model-images-diagram
+model-images-diagram:
+	python3 -B scripts/model_images.py diagram
