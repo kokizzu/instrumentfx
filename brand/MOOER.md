@@ -1359,7 +1359,7 @@ Preserved 2026-11-04 from historical Git blob `1460b41fbfc5652d07b0fbf351de3fb2a
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Manufacturer Japan news dates Plus Li regional sales to 2025-10-01, separate from standard Plus September 10. First worldwide Li launch/shipment not verified; regional date not substituted. [launch 1](https://mooer.jp/pages/news) |
+| Firmware / first hardware release | 2025-09-10 (dated distributor availability-report proxy; first worldwide Li shipment unresolved). Warwick’s September10,2025 announcement explicitly names GE150 Plus Li and describes both standard and lithium editions as available. This is a distributor availability-report proxy, not authenticated first worldwide shipment. MOOER Japan separately gives October1,2025 for local Plus Li sales, later than the distributor report; standard Plus September10 Japanese date is not transferred to Li. Exact latest Li firmware still unverified, so no duration calculated. [launch 1](https://mooer.jp/pages/news) [launch 2](https://shop.warwick.de/en/Blog/Mooer-GE150-Plus-GE150-Plus-Li) |
 | Firmware / latest verification | Not verified — Unverified. Shared Plus/Plus Li manual documents editor-based firmware updating. Current family notes name Plus 2.1.3 in August 2026 but do not explicitly name Li for that build; exact Li latest payload/version/date remain unverified. Older January notes reuse 2.1.3 before April 2.1.2, with English January 16 versus Chinese January 15. English A2 conversion also conflicts with Chinese native-A2-Lite supplement. These are family leads, not confirmed current Li support; no span calculated. [firmware 1](https://www.mooeraudio.com/Downloads_xq/6.html) [firmware 2](https://cn.mooeraudio.com/Downloads_xq/4.html) [firmware 3](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -1376,6 +1376,7 @@ Sources checked:
 - [GE150 family English firmware notes](https://www.mooeraudio.com/Downloads_xq/6.html) — Plus 2.1.3 August 2026; Li not explicitly named for latest build; reused historical label. (Manufacturer current download/changelog read).
 - [GE150 family Chinese firmware notes](https://cn.mooeraudio.com/Downloads_xq/4.html) — Matching Plus 2.1.3 lead; older date inconsistency and conversion/native contradiction. (Manufacturer current download/changelog read).
 - [GE150 Plus/Plus Li Owner’s Manual](https://manuals.plus/m/eee8845427551778f36a23471879fe2fbed7e904e105d05610102b8416c39416) — Both editions; firmware updater; MOD pitch effects; nine modules; 198 slots and per-preset expression. (Manufacturer-authored joint manual body read on mirror, generated diagram descriptions excluded).
+- [Warwick Mooer GE150 Plus & GE150 Plus Li announcement](https://shop.warwick.de/en/Blog/Mooer-GE150-Plus-GE150-Plus-Li) — September10,2025 article explicitly describes both mains-powered Plus and rechargeable Plus Li as available. Availability-report proxy; Japanese Li release remains separately October1. (Dated distributor article read2026-11-22).
 
 <!-- firmware-pitch:MOOER::GE150 Plus Li ends -->
 
