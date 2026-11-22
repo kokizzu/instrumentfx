@@ -178514,12 +178514,12 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://cdn-media.empowertribe.com/6d901a7ff28e4e899dc2ccc884459b0e/voicesupport-2-reference-manual-english.pdf",
+    "requested_url": "https://usa.yamaha.com/files/download/other_assets/3/333323/magicstomp_acoustic_en3.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 7,
+    "frame": 0,
     "text_pages": [
-      7,
-      7
+      16,
+      18
     ],
     "index_url": "https://nuxaudio.com/product/mg100/",
     "index_needle": "MG-100",
@@ -204792,10 +204792,89 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Yamaha::Magicstomp Acoustic": {
+        "model_key": "Yamaha::Magicstomp Acoustic",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2004",
+          "precision": "year",
+          "kind": "contemporaneous exact-edition launch coverage; first shipment unresolved",
+          "source_urls": [
+            "https://www.guitariste.com/articles/yamaha-magicstomp-acoustic%2C546%2C1.html",
+            "https://usa.yamaha.com/news_events/2005/20050225_yamaha-adds-more-magic_us.html"
+          ],
+          "note": "Exact Acoustic edition introduced in21September2004 coverage. Yamaha25February2005 family announcement separately mentions AG and new EB with spring2005 availability wording; regional/model scope ambiguous. Retain2004 coverage year, not a proven first shipment/day; original Guitar2003 launch is separate."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en",
+            "https://usa.yamaha.com/files/download/other_assets/6/333336/magicstomp_bass_se_en.pdf"
+          ],
+          "note": "No verified latest Acoustic-specific firmware package/date. Official Bass Sound Editor2.10 manual requires firmware2.10+, but exact Acoustic applicability/latest status not established. Editor version, PDF modification25January2005 and community UB99A filename reports are not sufficient release evidence. No update installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Exact Acoustic effect list: HQ.Pitch±12semitones; DualPitch two channels each±24semitones; both±50cents fine, MODE1–10 precision, mix and delay0–1000ms. DualPitch channel count does not establish polyphonic input/chord tracking.",
+          "preset": "99preset+99user slots; factory patches use AcousticMulti. Select HQ.Pitch/DualPitch and store in user memory; onboard Deep Edit available. Unsaved edits disappear on patch change/power loss; volume knob is not stored.",
+          "dsp": "No per-pitch DSP percentage published in inspected sources. MODE1–10 precision is a parameter, not CPU%. Explicit algorithm delay0–1000ms is not a measured minimum processing latency. No arbitrary simultaneous pitch+amp chain established.",
+          "source_urls": [
+            "https://usa.yamaha.com/files/download/other_assets/3/333323/magicstomp_acoustic_en3.pdf",
+            "https://nl.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Exact Acoustic list retrieved159835bytes, SHA256077e2df9b853daad9324d7aca3fe8f9a12926c072b7f3f9a3bf763175bcd1973; printed17 pitch table read.",
+            "Input polyphony/chord quality unverified; no sibling firmware or DSP figure substituted."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://usa.yamaha.com/files/download/other_assets/3/333323/magicstomp_acoustic_en3.pdf",
+            "title": "Yamaha Magicstomp Acoustic Effect List",
+            "access": "exact official PDF retrieved through reviewed bounded script;32pages; printed3,17 read",
+            "evidence": "HQ.Pitch and DualPitch parameter ranges/precision/mix/delay. No explicit chord capability or CPU%. File timestamps are not firmware dates."
+          },
+          {
+            "url": "https://nl.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf",
+            "title": "Yamaha Magicstomp Acoustic owner manual",
+            "access": "official35page PDF text read",
+            "evidence": "99preset+99user, AcousticMulti factory data, Deep Edit and user save behavior."
+          },
+          {
+            "url": "https://www.guitariste.com/articles/yamaha-magicstomp-acoustic%2C546%2C1.html",
+            "title": "Guitariste exact Acoustic edition introduction,21September2004",
+            "access": "contemporaneous launch coverage read; secondary chronology only",
+            "evidence": "Exact Acoustic announcement coverage establishes2004 public existence; no confirmed first shipment."
+          },
+          {
+            "url": "https://usa.yamaha.com/news_events/2005/20050225_yamaha-adds-more-magic_us.html",
+            "title": "Yamaha Adds More Magic,25February2005",
+            "access": "official manufacturer announcement read",
+            "evidence": "Separates AG Acoustic, new EB Bass and MagicstompII; spring2005 wording does not resolve earlier Acoustic launch coverage."
+          },
+          {
+            "url": "https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en",
+            "title": "Yamaha exact-edition manual catalogue",
+            "access": "official indexed results checked; direct403",
+            "evidence": "Acoustic/Bass/Guitar documents distinct; exact Acoustic firmware latest chronology not located."
+          },
+          {
+            "url": "https://usa.yamaha.com/files/download/other_assets/6/333336/magicstomp_bass_se_en.pdf",
+            "title": "Yamaha Bass Sound Editor2.10 manual — scope qualification only",
+            "access": "official indexed first-page firmware requirement read",
+            "evidence": "Firmware2.10+ explicitly documented for this Bass-hosted editor; not proof of exact Acoustic latest firmware."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Yamaha::Magicstomp Acoustic",
       "Yamaha::Magicstomp Bass",
       "Yamaha::Magicstomp Guitar MK2",
       "Yamaha::Magicstomp original Guitar",
@@ -204868,12 +204947,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 331,
-    "last_model": "Yamaha::DG-Stomp",
-    "last_commit_parent": "8ce4b66e88b45e6d9e9bc83a17d26723494dee8e",
+    "completed_model_count": 332,
+    "last_model": "Yamaha::Magicstomp Acoustic",
+    "last_commit_parent": "4224aad0301b8b4c662427cfc99338f476e3e87c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Yamaha::Magicstomp Acoustic",
       "Yamaha::Magicstomp Bass",
       "Yamaha::Magicstomp Guitar MK2",
       "Yamaha::Magicstomp original Guitar",
@@ -204945,7 +205023,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 331,
+    "pitch_completed_model_count": 332,
     "supplemental_model_count": 0
   },
   "model_images": {

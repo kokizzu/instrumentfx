@@ -305,6 +305,33 @@ Checked2026-10-18 against original Yamaha manual,printedp23. Documentation only;
 
 ## Magicstomp Acoustic
 
+<!-- firmware-pitch:Yamaha::Magicstomp Acoustic begins -->
+### Firmware and pitch audit — Yamaha Magicstomp Acoustic
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2004 (contemporaneous exact-edition launch coverage; first shipment unresolved). Exact Acoustic edition introduced in21September2004 coverage. Yamaha25February2005 family announcement separately mentions AG and new EB with spring2005 availability wording; regional/model scope ambiguous. Retain2004 coverage year, not a proven first shipment/day; original Guitar2003 launch is separate. [launch 1](https://www.guitariste.com/articles/yamaha-magicstomp-acoustic%2C546%2C1.html) [launch 2](https://usa.yamaha.com/news_events/2005/20050225_yamaha-adds-more-magic_us.html) |
+| Firmware / latest verification | Not verified — Unverified. No verified latest Acoustic-specific firmware package/date. Official Bass Sound Editor2.10 manual requires firmware2.10+, but exact Acoustic applicability/latest status not established. Editor version, PDF modification25January2005 and community UB99A filename reports are not sufficient release evidence. No update installed. [firmware 1](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) [firmware 2](https://usa.yamaha.com/files/download/other_assets/6/333336/magicstomp_bass_se_en.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Exact Acoustic effect list: HQ.Pitch±12semitones; DualPitch two channels each±24semitones; both±50cents fine, MODE1–10 precision, mix and delay0–1000ms. DualPitch channel count does not establish polyphonic input/chord tracking. [pitch 1](https://usa.yamaha.com/files/download/other_assets/3/333323/magicstomp_acoustic_en3.pdf) [pitch 2](https://nl.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf) |
+| Pitch / preset recall | 99preset+99user slots; factory patches use AcousticMulti. Select HQ.Pitch/DualPitch and store in user memory; onboard Deep Edit available. Unsaved edits disappear on patch change/power loss; volume knob is not stored. |
+| Pitch / DSP resources | No per-pitch DSP percentage published in inspected sources. MODE1–10 precision is a parameter, not CPU%. Explicit algorithm delay0–1000ms is not a measured minimum processing latency. No arbitrary simultaneous pitch+amp chain established. |
+| Pitch / qualifications | Exact Acoustic list retrieved159835bytes, SHA256077e2df9b853daad9324d7aca3fe8f9a12926c072b7f3f9a3bf763175bcd1973; printed17 pitch table read. Input polyphony/chord quality unverified; no sibling firmware or DSP figure substituted. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha Magicstomp Acoustic Effect List](https://usa.yamaha.com/files/download/other_assets/3/333323/magicstomp_acoustic_en3.pdf) — HQ.Pitch and DualPitch parameter ranges/precision/mix/delay. No explicit chord capability or CPU%. File timestamps are not firmware dates. (exact official PDF retrieved through reviewed bounded script;32pages; printed3,17 read).
+- [Yamaha Magicstomp Acoustic owner manual](https://nl.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf) — 99preset+99user, AcousticMulti factory data, Deep Edit and user save behavior. (official35page PDF text read).
+- [Guitariste exact Acoustic edition introduction,21September2004](https://www.guitariste.com/articles/yamaha-magicstomp-acoustic%2C546%2C1.html) — Exact Acoustic announcement coverage establishes2004 public existence; no confirmed first shipment. (contemporaneous launch coverage read; secondary chronology only).
+- [Yamaha Adds More Magic,25February2005](https://usa.yamaha.com/news_events/2005/20050225_yamaha-adds-more-magic_us.html) — Separates AG Acoustic, new EB Bass and MagicstompII; spring2005 wording does not resolve earlier Acoustic launch coverage. (official manufacturer announcement read).
+- [Yamaha exact-edition manual catalogue](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) — Acoustic/Bass/Guitar documents distinct; exact Acoustic firmware latest chronology not located. (official indexed results checked; direct403).
+- [Yamaha Bass Sound Editor2.10 manual — scope qualification only](https://usa.yamaha.com/files/download/other_assets/6/333336/magicstomp_bass_se_en.pdf) — Firmware2.10+ explicitly documented for this Bass-hosted editor; not proof of exact Acoustic latest firmware. (official indexed first-page firmware requirement read).
+
+<!-- firmware-pitch:Yamaha::Magicstomp Acoustic ends -->
+
 Checked 2026-10-18; partial. Separate Acoustic edition. [Own Yamaha manual](https://usa.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf), printed pp7–12,22–24,26–30,33; browser text. No sibling specifications substituted.
 
 <!-- comparison evidence begins -->
