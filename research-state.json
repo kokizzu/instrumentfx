@@ -219899,11 +219899,36 @@
             "sha256": "1807648ffb8eb3735e43a841ff22e7542883c8730b3072ae81739618b8d4b2e0"
           }
         }
+      },
+      "Hotone::Ampero MP-100": {
+        "model_key": "Hotone::Ampero MP-100",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn11.bigcommerce.com/s-31108/images/stencil/1280x1280/products/3126/21583/HOTONE_Ampero_T__81257.1619196468.jpg?c=2",
+            "source_url": "https://www.lightingelstore.com/hotone-ampero-mp-100-guitar-fx-amp-modeler-usb-interface-touchscreen-pedalboard/",
+            "caption": "Hotone Ampero MP-100 — control surface",
+            "note": "Top-down promotional photograph with powered touchscreen and four illuminated footswitch rings; five knobs, screen-lock button and expression pedal visible. Enclosure sides touch the image boundaries; controls are not cropped.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "6aee853aa08888d4afbe8d32622473483760e2c0dfa183b44c51a7143dccfa09"
+          },
+          "rear": {
+            "image_url": "https://static.bax-shop.nl/image/product/472963/1565465/f9dec19e/1539334093Hotone%20MP-100%20Ampero%20connectors.jpg",
+            "source_url": "https://www.bax-shop.nl/multi-effect-pedaal/hotone-mp-100-ampero-amp-modeler-effects-processor",
+            "caption": "Hotone Ampero MP-100 — rear connections",
+            "note": "Full rear connector row: EXP2, input with mode selector, balanced XLR outputs and ground lift, auxiliary input, phones, unbalanced stereo outputs, USB-B, power switch, MIDI IN and DC 18V 500mA. Fine labels are small; full-width image opens directly.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "df1a7d2da70e3af665eeffba936943eadd0a5718a5613a6e3900fcf4d8df5622"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Hotone::Ampero Mini MP-50"
+    "last_model": "Hotone::Ampero MP-100"
   }
 }
