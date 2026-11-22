@@ -1337,6 +1337,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::B1 FOUR ends -->
 
+<!-- model-images:Zoom::B1 FOUR begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**B1 FOUR powered overhead photograph**
+
+[![B1 FOUR powered overhead photograph](https://medias.audiofanzine.com/images/normal/zoom-b1-four-6806694.jpeg)](https://medias.audiofanzine.com/images/normal/zoom-b1-four-6806694.jpeg)
+
+[Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/b1-four/). Actual no-treadle B1 FOUR photographed nearly straight down, with full chassis, active 16 MM Clean LCD and effect-1 LED lit. Four knobs, nine push-buttons and two footswitches are visible; no B1X FOUR treadle is present.
+
+**B1 FOUR rear connections**
+
+[![B1 FOUR rear connections](https://zoomcorp.com/media/original_images/B1_FOUR_rear.jpg.800x482_q70_crop_size_canvas.jpg)](https://zoomcorp.com/media/original_images/B1_FOUR_rear.jpg.800x482_q70_crop_size_canvas.jpg)
+
+[Image source](https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b1-four-b1x-four/). Exact no-treadle B1 FOUR manufacturer rear photograph: INPUT, AUX IN, center-negative DC9V/AD-16 labeling, micro-USB/DC5V, security slot and OUTPUT. No external expression socket appears. The photo does not establish USB audio/MIDI capabilities.
+
+</details>
+<!-- model-images:Zoom::B1 FOUR ends -->
+
+
 Bass multi-effects without a built-in expression pedal; distinct from B1X FOUR and B1Xon. Consolidated2026-10-16 from the complete legacy bass comparison, retaining all15 exact model fields below. Legacy specifications and USD prices retain their2026-10-14 check date. New IDR evidence is dated separately; all fields remain partial.
 
 ### B1 FOUR — retained complete comparison fields

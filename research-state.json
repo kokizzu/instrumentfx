@@ -214055,11 +214055,36 @@
             "powered_on": false
           }
         }
+      },
+      "Zoom::B1 FOUR": {
+        "model_key": "Zoom::B1 FOUR",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-b1-four-6806694.jpeg",
+            "source_url": "https://en.audiofanzine.com/bass-multi-effect/zoom/b1-four/",
+            "caption": "B1 FOUR powered overhead photograph",
+            "note": "Actual no-treadle B1 FOUR photographed nearly straight down, with full chassis, active 16 MM Clean LCD and effect-1 LED lit. Four knobs, nine push-buttons and two footswitches are visible; no B1X FOUR treadle is present.",
+            "visual_checked": true,
+            "sha256": "0156acbfdf2e483f18585522df94c932e10df16160a91eae2feacfb11322fa39",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://zoomcorp.com/media/original_images/B1_FOUR_rear.jpg.800x482_q70_crop_size_canvas.jpg",
+            "source_url": "https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b1-four-b1x-four/",
+            "caption": "B1 FOUR rear connections",
+            "note": "Exact no-treadle B1 FOUR manufacturer rear photograph: INPUT, AUX IN, center-negative DC9V/AD-16 labeling, micro-USB/DC5V, security slot and OUTPUT. No external expression socket appears. The photo does not establish USB audio/MIDI capabilities.",
+            "visual_checked": true,
+            "sha256": "1ce1d865e975a65528a962dc13803cf70b6b14848cc956869d25c98fb0543217",
+            "powered_on": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::A3"
+    "last_model": "Zoom::B1 FOUR"
   }
 }
