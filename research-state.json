@@ -220563,11 +220563,38 @@
             "sha256": "711f71a187ac6e5c93d7abbdb8184c86dadfe3b740c8627e3476faca335945c3"
           }
         ]
+      },
+      "Audota::AME-100": {
+        "model_key": "Audota::AME-100",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.warwick.de/media/0c/fe/f1/1778719934/giug_AU_AME-100_05.webp?ts=1778719934",
+            "source_url": "https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-100-intelligent-multi-effects",
+            "caption": "Control-surface product render",
+            "note": "Distributor product render showing the complete control face, both knobs and both switching pads, with preset 19A and colored lighting depicted. This is an angled render, not evidence of a physical unit operating; an actual powered-on, exactly top-down photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "275d8377d2f22d79c0a827f8fe1424fbb016f4a98d615a9d5a174af01aaa9a1e",
+            "image_kind": "product_render"
+          },
+          "rear": {
+            "image_url": "https://en.audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/AME-100/AME-100%E5%B0%8F%E7%BB%BC%E5%90%88-%E5%90%8E.png",
+            "source_url": "https://en.audota.com/AME100EN.html",
+            "caption": "Complete rear connector render",
+            "note": "Manufacturer product render showing all rear connections and labels: ON/OFF switch, dedicated 5 V / 2 A USB-C power port, USB-C data port, INPUT and OUTPUT. The layout agrees with the manufacturer interface-panel description. A physical rear-panel photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "90c7ed6964914fba98bb15d9f9d9851038de0aeeb8b7928f7b3020e1ad5a3ff3",
+            "image_kind": "product_render"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Boin Audio::BG300"
+    "last_model": "Audota::AME-100"
   }
 }
