@@ -203916,10 +203916,70 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::Rushead Max Bass RH-101": {
+        "model_key": "Valeton::Rushead Max Bass RH-101",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first public release not verified",
+          "source_urls": [
+            "https://www.valeton.net/product/rushead-max-bass/"
+          ],
+          "note": "Undated current product page and manual filenames do not establish launch. Relative video age and mirror publication/upload dates are not promoted to exact first release."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.valeton.net/product/rushead-max-bass/",
+            "https://www.valeton.net/wp-file-download-search/"
+          ],
+          "note": "No exact RH-101 firmware/updater release located in checked manufacturer product/download sources. USB is documented for battery charging; this does not prove update or USB audio support. Manual V02 is a document revision, not firmware. No device or package run."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Checked exact-model inventory contains AMP clean/overdrive/distortion; MOD chorus/tremolo/flanger; AMBIENT echo/reverb/combined ECHOVERB. No dedicated transposer, octave shifter or intelligent harmonizer documented.",
+          "preset": "Five rotary controls and three mode selectors described. Programmable patch recall/storage and exact unrestricted simultaneous ceiling remain unverified; modes are not independent effect slots.",
+          "dsp": "No per-pitch CPU figure found, and no dedicated pitch algorithm documented to assign a cost. Modulation architecture/polyphony and overall DSP budget remain unpublished in checked sources; three modules or nine mode choices are not CPU allocations.",
+          "source_urls": [
+            "https://www.valeton.net/product/rushead-max-bass/",
+            "https://manuals.plus/valeton/rushead-max-bass-headphone-base-amplifier-manual"
+          ],
+          "measurements": [],
+          "notes": [
+            "Chorus/flanging are retained as modulation effects; their presence does not establish polyphonic musical transposition. No monophonic/polyphonic pitch claim inferred.",
+            "Negative finding is limited to inspected product/manual inventory, not hardware proof that undocumented behavior cannot exist. RH-100 and older Rushead Bass specifications are not transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.valeton.net/product/rushead-max-bass/",
+            "title": "Valeton Rushead Max Bass official product",
+            "access": "web page read",
+            "evidence": "Exact bass headphone amp; three amp voicings, MOD and AMBIENT; USB charging, no public update process or dedicated pitch described."
+          },
+          {
+            "url": "https://www.valeton.net/wp-file-download-search/",
+            "title": "Valeton public download search",
+            "access": "indexed manufacturer catalogue and exact-model firmware search",
+            "evidence": "RH-101 manual categories located; no exact-model firmware release found. Dynamic inventory does not justify impossible-to-update claim."
+          },
+          {
+            "url": "https://manuals.plus/valeton/rushead-max-bass-headphone-base-amplifier-manual",
+            "title": "Manufacturer RH-101 manual-body reproduction",
+            "access": "original module/control text read; host commentary excluded",
+            "evidence": "Five knobs, TYPE selectors, ECHO/REVERB/ECHOVERB and chorus/tremolo/flanger modes; no dedicated pitch-shifting block. OCR electrical values remain qualified."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::Rushead Max Bass RH-101",
       "Valeton::Rushead Max RH-100",
       "VING::Flybro FB-100",
       "VOX::StompLab 1B",
@@ -204005,12 +204065,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 318,
-    "last_model": "Valeton::GP-50",
-    "last_commit_parent": "0f6128e7b467f73ca67ccea267ae139c6253c633",
+    "completed_model_count": 319,
+    "last_model": "Valeton::Rushead Max Bass RH-101",
+    "last_commit_parent": "639da002dbcb05884af863188a4f2586f9535bd3",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::Rushead Max Bass RH-101",
       "Valeton::Rushead Max RH-100",
       "VING::Flybro FB-100",
       "VOX::StompLab 1B",
@@ -204095,7 +204154,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 318,
+    "pitch_completed_model_count": 319,
     "supplemental_model_count": 0
   },
   "model_images": {

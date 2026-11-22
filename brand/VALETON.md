@@ -3314,6 +3314,30 @@ Exact [Gelora Musik shop306155985/item18571942511](https://shopee.co.id/Multi-Ef
 
 ## Rushead Max Bass RH-101
 
+<!-- firmware-pitch:Valeton::Rushead Max Bass RH-101 begins -->
+### Firmware and pitch audit — Valeton Rushead Max Bass RH-101
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Undated current product page and manual filenames do not establish launch. Relative video age and mirror publication/upload dates are not promoted to exact first release. [launch 1](https://www.valeton.net/product/rushead-max-bass/) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact RH-101 firmware/updater release located in checked manufacturer product/download sources. USB is documented for battery charging; this does not prove update or USB audio support. Manual V02 is a document revision, not firmware. No device or package run. [firmware 1](https://www.valeton.net/product/rushead-max-bass/) [firmware 2](https://www.valeton.net/wp-file-download-search/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Checked exact-model inventory contains AMP clean/overdrive/distortion; MOD chorus/tremolo/flanger; AMBIENT echo/reverb/combined ECHOVERB. No dedicated transposer, octave shifter or intelligent harmonizer documented. [pitch 1](https://www.valeton.net/product/rushead-max-bass/) [pitch 2](https://manuals.plus/valeton/rushead-max-bass-headphone-base-amplifier-manual) |
+| Pitch / preset recall | Five rotary controls and three mode selectors described. Programmable patch recall/storage and exact unrestricted simultaneous ceiling remain unverified; modes are not independent effect slots. |
+| Pitch / DSP resources | No per-pitch CPU figure found, and no dedicated pitch algorithm documented to assign a cost. Modulation architecture/polyphony and overall DSP budget remain unpublished in checked sources; three modules or nine mode choices are not CPU allocations. |
+| Pitch / qualifications | Chorus/flanging are retained as modulation effects; their presence does not establish polyphonic musical transposition. No monophonic/polyphonic pitch claim inferred. Negative finding is limited to inspected product/manual inventory, not hardware proof that undocumented behavior cannot exist. RH-100 and older Rushead Bass specifications are not transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Valeton Rushead Max Bass official product](https://www.valeton.net/product/rushead-max-bass/) — Exact bass headphone amp; three amp voicings, MOD and AMBIENT; USB charging, no public update process or dedicated pitch described. (web page read).
+- [Valeton public download search](https://www.valeton.net/wp-file-download-search/) — RH-101 manual categories located; no exact-model firmware release found. Dynamic inventory does not justify impossible-to-update claim. (indexed manufacturer catalogue and exact-model firmware search).
+- [Manufacturer RH-101 manual-body reproduction](https://manuals.plus/valeton/rushead-max-bass-headphone-base-amplifier-manual) — Five knobs, TYPE selectors, ECHO/REVERB/ECHOVERB and chorus/tremolo/flanger modes; no dedicated pitch-shifting block. OCR electrical values remain qualified. (original module/control text read; host commentary excluded).
+
+<!-- firmware-pitch:Valeton::Rushead Max Bass RH-101 ends -->
+
 Checked 2026-10-18; partial. Bass multi-effects in a plug-in headphone-amp form, distinct from RH-4 and guitar Rushead Max. Ownership is not established.
 
 | Field | Evidence / qualification |
