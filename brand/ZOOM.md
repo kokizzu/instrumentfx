@@ -9806,6 +9806,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::RFX-1000 ends -->
 
+<!-- model-images:Zoom::RFX-1000 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**RFX-1000 front control panel**
+
+[![RFX-1000 front control panel](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_RFX-1000.png)](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_RFX-1000.png)
+
+[Image source](https://www.zoom.co.jp/ja/products/audio-converter/zoom-rfx-1000). Manufacturer complete front-on control-panel photograph with green power and level LEDs shown lit. Six rotary controls, bank slider, microphone input and power switch visible. Rack controls face forward rather than upward; this is not a top-down chassis photo. Promotional illumination is not independently verified.
+
+**RFX-1000 rear connections**
+
+[![RFX-1000 rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/RFX1000_Rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/RFX1000_Rear.jpg)
+
+[Image source](https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-1000). Manufacturer complete rear photograph shows FS01 BYPASS, stereo R/L outputs, R and L/MONO inputs and 12VAC 500mA power connection. Source includes wide white margins; no MIDI or USB connectors appear.
+
+</details>
+<!-- model-images:Zoom::RFX-1000 ends -->
+
+
 Checked2026-10-17; partial. [Official English manual][R1K-M],16pages,RFX-1000-5000;date/revision unverified.
 
 | Field | Evidence / gaps |
