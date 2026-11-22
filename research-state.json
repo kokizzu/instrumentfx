@@ -224304,17 +224304,17 @@
       },
       "Zoom::B2": {
         "model_key": "Zoom::B2",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_b2.png",
-            "source_url": "https://www.zoom.co.jp/products/guitar-bass-effects/bass/b2-bass-effects-pedal",
-            "caption": "Original B2 overhead product image",
-            "note": "Manufacturer full overhead image of original B2: four rotary controls, five round buttons and two footswitches. Red A0 display is depicted, but a studio product image does not independently verify actual powered operation; a real powered overhead photograph remains pending.",
+            "image_url": "https://img.olx.com.br/images/15/158568899501100.jpg",
+            "source_url": "https://rj.olx.com.br/rio-de-janeiro-e-regiao/instrumentos-musicais/pedaleira-zoom-b2-bass-effects-pedal-1412423528",
+            "caption": "Original B2 powered-on control-face photograph",
+            "note": "Physical red B2 photographed from above, with complete chassis, four rotary controls, five buttons and both footswitches visible. Bright A0 segmented display confirms illumination; small red parameter lenses are not independently established as lit. Slight perspective, not exact perpendicular top-down. No expression treadle: original B2, not B2.1u or B2 FOUR. Patch display does not identify installed firmware. [Straight overhead manufacturer layout](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_b2.png).",
             "visual_checked": true,
-            "sha256": "954fc13d2fb5288037fbf168358d8de7b82caa321a91d7c0dab40e429c6d84ce",
-            "powered_on": false,
-            "exact_top_down": true
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "6d9c6f8866b85c1437bc7eb448cb3f8b446cc7056c002d017d57dbb5c442b272"
           },
           "rear": {
             "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0205/user/d3dd46e6c7ba6ab7307043e56ca091038719aa736e662984b20fd58b23e0bedd/i-img1200x1200-17784079508088ujjgph270812.jpg",
@@ -224325,7 +224325,19 @@
             "sha256": "6a19ad1f3fcaf07b6ae69ef173377b2925f4b65c18df494edc528c9cd7da6aa0",
             "powered_on": false
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_b2.png",
+            "source_url": "https://www.zoom.co.jp/products/guitar-bass-effects/bass/b2-bass-effects-pedal",
+            "caption": "Original B2 overhead product image",
+            "note": "Manufacturer full overhead image of original B2: four rotary controls, five round buttons and two footswitches. Red A0 display is depicted, but a studio product image does not independently verify actual powered operation; a real powered overhead photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "954fc13d2fb5288037fbf168358d8de7b82caa321a91d7c0dab40e429c6d84ce",
+            "powered_on": false,
+            "exact_top_down": true
+          }
+        ]
       },
       "Zoom::B2 FOUR": {
         "model_key": "Zoom::B2 FOUR",
@@ -227370,6 +227382,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP200"
+    "last_model": "Zoom::B2"
   }
 }

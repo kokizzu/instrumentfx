@@ -2116,11 +2116,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Original B2 overhead product image**
+**Original B2 powered-on control-face photograph**
 
-[![Original B2 overhead product image](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_b2.png)](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_b2.png)
+[![Original B2 powered-on control-face photograph](https://img.olx.com.br/images/15/158568899501100.jpg)](https://img.olx.com.br/images/15/158568899501100.jpg)
 
-[Image source](https://www.zoom.co.jp/products/guitar-bass-effects/bass/b2-bass-effects-pedal). Manufacturer full overhead image of original B2: four rotary controls, five round buttons and two footswitches. Red A0 display is depicted, but a studio product image does not independently verify actual powered operation; a real powered overhead photograph remains pending.
+[Image source](https://rj.olx.com.br/rio-de-janeiro-e-regiao/instrumentos-musicais/pedaleira-zoom-b2-bass-effects-pedal-1412423528). Physical red B2 photographed from above, with complete chassis, four rotary controls, five buttons and both footswitches visible. Bright A0 segmented display confirms illumination; small red parameter lenses are not independently established as lit. Slight perspective, not exact perpendicular top-down. No expression treadle: original B2, not B2.1u or B2 FOUR. Patch display does not identify installed firmware. [Straight overhead manufacturer layout](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_b2.png).
 
 **Original B2 rear connections**
 
