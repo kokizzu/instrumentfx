@@ -220302,11 +220302,37 @@
             "sha256": "341bfe237c2c8c139f7e78f1a05cdc25670971e3391fbe2799a742021a0d84b4"
           }
         }
+      },
+      "Alesis::NanoVerb": {
+        "model_key": "Alesis::NanoVerb",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.bax-shop.es/image/product/7439/130981/6d1bd7b6/376fcea4f0b9232fd50bd429ed419d88.jpg?key=og",
+            "source_url": "https://www.bax-shop.co.uk/products-out-of-stock/alesis-nanoverb-multi-effect-processor",
+            "caption": "Powered front controls and rear connections",
+            "note": "Retailer promotional composite of the original NanoVerb (not NanoVerb 2), showing the illuminated power indicator and the entire front control surface above a complete rear view. Rear connections are 9 V AC power, bypass footswitch, LEFT/RIGHT inputs and LEFT/RIGHT outputs. Both panels are unobstructed, but the whole composite is only 500 pixels wide; a larger control and connector photograph remains pending. This compact rack-style unit has its controls on the front, not its top lid.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "5790b21dab2a2fac65f845bfc5bea6badb08b7832b385926dfd58c558fe451d7"
+          },
+          "rear": {
+            "image_url": "https://static.bax-shop.es/image/product/7439/130981/6d1bd7b6/376fcea4f0b9232fd50bd429ed419d88.jpg?key=og",
+            "source_url": "https://www.bax-shop.co.uk/products-out-of-stock/alesis-nanoverb-multi-effect-processor",
+            "caption": "Rear ports (lower panel of composite)",
+            "note": "The lower half of this verified composite shows every rear port and its label: 9 V AC power, bypass footswitch, stereo LEFT/RIGHT inputs and stereo LEFT/RIGHT outputs. The same composite is used above to retain the matching front/rear reference; a higher-resolution rear photo remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "5790b21dab2a2fac65f845bfc5bea6badb08b7832b385926dfd58c558fe451d7"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Alesis::MIDIverb III"
+    "last_model": "Alesis::NanoVerb"
   }
 }
