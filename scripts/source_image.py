@@ -25,6 +25,7 @@ HOSTS = {'flammainnovation.com', 'www.flammainnovation.com', 'downloads.eventide
 
 # Exact retailer-hosted manufacturer manual linked by the BG300 distributor.
 REVIEWED_MIRRORS = {
+    "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%2C%20Pink%2C%202020Limited_Online%C2%A0Manual_EN_Firmware%20V5.2.1773038718495.pdf",
     "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20One_Online%C2%A0Manual_EN_Firmware%20V3.1.1773037044207.pdf",
     "https://res.hotoneaudio.com/prod/support/Ampero%20One_Online%C2%A0Manual_EN_Firmware%20V3.1.1773037044207.pdf",
     "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",

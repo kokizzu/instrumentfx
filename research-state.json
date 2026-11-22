@@ -178514,15 +178514,15 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20One_Online%C2%A0Manual_EN_Firmware%20V3.1.1773037044207.pdf",
+    "requested_url": "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%2C%20Pink%2C%202020Limited_Online%C2%A0Manual_EN_Firmware%20V5.2.1773038718495.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
     "frame": 25,
     "text_pages": [
       9,
-      15
+      10
     ],
     "index_url": "https://www.hotone.com/support/1?pid=54&tid=17",
-    "index_needle": "Firmware V2.2",
+    "index_needle": "Firmware V5.2",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -180235,7 +180235,7 @@
       },
       "Hotone::Ampero MP-100": {
         "model_key": "Hotone::Ampero MP-100",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "first_release": {
           "date": "2018",
           "precision": "year",
@@ -180258,16 +180258,16 @@
         },
         "pitch": {
           "status": "documented_polyphonic",
-          "algorithms": "Manufacturer-hosted original appendix PDF p34 explicitly describes Harmony as a polyphonic pitch shifter/harmonizer, with Hi 0 to +24 and Low 0 to -24 semitones and separate dry/voice levels. Clean Octa and Dirty Octa also explicitly polyphonic. Harmony lower/higher prose conflicts with its numeric Hi/Low ranges.",
-          "preset": "Yes: original manual printed p24 saves edited effect parameters and control data; p3 distinguishes editable user patches from factory patches whose edits cannot be saved in place. Current firmware 5.2 behavior was not physically tested.",
-          "dsp": "No exact MP-100 pitch percentage located. Original manual p3 specifies nine simultaneous modules and p16 warns that effect choices/count can cause System Overload. Do not reinterpret the module ceiling as CPU cost or copy Ampero II Stomp HQ 50% onto this original processor.",
+          "algorithms": "V5.2 manual pp23–24 explicitly lists polyphonic Pitch Shift (±24 semitones), Harmony, Clean Octa and Dirty Octa; Classic PS is monophonic. Pitch Shift includes Pitch, Volume, Position and Dry with expression assignment. Harmony retains reversed higher/lower wording beside Hi 0…+24 and Low 0…−24. Do not substitute Ampero II HQ algorithms.",
+          "preset": "V5.2 SAVE p14 stores effect parameters and control information; p2 defines 99 user and 99 factory patches, with factory edits not saved in place. Unsaved control edits are lost on patch change/power-off (p9). No physical recall test.",
+          "dsp": "V5.2 p2 permits up to nine simultaneous modules; p9 warns of System Overload. No isolated MP-100 pitch-block utilization percentage established. The module ceiling is not CPU usage; Ampero II Stomp HQ 50% is not an MP-100 measurement.",
           "source_urls": [
-            "https://www.hotone.jp/manuals/hotone/AMPERO.pdf"
+            "https://www.hotone.jp/manuals/hotone/AMPERO.pdf",
+            "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%2C%20Pink%2C%202020Limited_Online%C2%A0Manual_EN_Firmware%20V5.2.1773038718495.pdf"
           ],
           "measurements": [],
           "notes": [
-            "The hosted Japanese manual includes an English effects appendix; its firmware revision is not established. These are revision-qualified documented algorithms, not a certified complete 5.2 pitch inventory.",
-            "A polyphonic Harmony description does not prove a dedicated virtual-capo algorithm, seamless full-wet transposition, tracking quality or latency."
+            "Exact current MP-100 V5.2 manual inspected, resolving the revision-uncertain appendix gap. Cover separately identifies ordinary/Silver 5.2 and Pink/2020 Limited 5.2A; these packages remain distinct. Polyphony is documented, not a measured tracking-quality or latency result."
           ]
         },
         "sources": [
@@ -180294,6 +180294,12 @@
             "title": "Original MP-100 manufacturer-hosted manual",
             "evidence": "Printed p3 patch/module definitions, p16 overload, p24 SAVE; PDF p34 English appendix polyphonic Harmony and octave rows.",
             "access": "opened_manufacturer_pdf_text"
+          },
+          {
+            "url": "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%2C%20Pink%2C%202020Limited_Online%C2%A0Manual_EN_Firmware%20V5.2.1773038718495.pdf",
+            "title": "MP-100 V5.2 official manual",
+            "access": "opened_official_pdf_text_and_render",
+            "evidence": "45,776,953-byte manufacturer PDF; title MP-100, V5.2 cover distinguishes V5.2A editions. SHA256 60bf58113640a16393a10bee9c52e8d2b970a950402931af62d06d80127a0239. Printed pp2,9,14,23–24 checked; p24 pitch table visually inspected."
           }
         ],
         "duration": {
@@ -180301,7 +180307,79 @@
           "maximum_days": 2989,
           "label": "7.19–8.18 years"
         },
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Hotone::Ampero MP-100",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": "2018",
+              "precision": "year",
+              "kind": "manufacturer_release_year",
+              "source_urls": [
+                "https://www.hotone.com/history/"
+              ],
+              "note": "Hotone corporate history explicitly places the original Ampero release in 2018, without month/day. Later NAMM/regional introductions do not establish the first release. Year bounds retained; no guessed January 1 launch."
+            },
+            "firmware": {
+              "version": "5.2",
+              "date": "2026-03-09",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://www.hotone.com/support/2",
+                "https://www.hotone.jp/announcements/ampero-sound-clone-release"
+              ],
+              "note": "Current ordinary Ampero release is 5.2, dated March 9, 2026 in exact-model release notes. Pink/2020 Limited 5.2A is a distinct hardware package. Editor 1.5.0 compatibility and later editor updates are not new device firmware."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "Manufacturer-hosted original appendix PDF p34 explicitly describes Harmony as a polyphonic pitch shifter/harmonizer, with Hi 0 to +24 and Low 0 to -24 semitones and separate dry/voice levels. Clean Octa and Dirty Octa also explicitly polyphonic. Harmony lower/higher prose conflicts with its numeric Hi/Low ranges.",
+              "preset": "Yes: original manual printed p24 saves edited effect parameters and control data; p3 distinguishes editable user patches from factory patches whose edits cannot be saved in place. Current firmware 5.2 behavior was not physically tested.",
+              "dsp": "No exact MP-100 pitch percentage located. Original manual p3 specifies nine simultaneous modules and p16 warns that effect choices/count can cause System Overload. Do not reinterpret the module ceiling as CPU cost or copy Ampero II Stomp HQ 50% onto this original processor.",
+              "source_urls": [
+                "https://www.hotone.jp/manuals/hotone/AMPERO.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "The hosted Japanese manual includes an English effects appendix; its firmware revision is not established. These are revision-qualified documented algorithms, not a certified complete 5.2 pitch inventory.",
+                "A polyphonic Harmony description does not prove a dedicated virtual-capo algorithm, seamless full-wet transposition, tracking quality or latency."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.hotone.com/history/",
+                "title": "Hotone corporate history",
+                "evidence": "Original Ampero officially released under 2018; no exact day/month supplied.",
+                "access": "opened"
+              },
+              {
+                "url": "https://www.hotone.com/support/2",
+                "title": "Hotone firmware download index",
+                "evidence": "Ordinary Ampero 5.2 remains listed, with Pink/2020 Limited 5.2A separately labelled.",
+                "access": "opened"
+              },
+              {
+                "url": "https://www.hotone.jp/announcements/ampero-sound-clone-release",
+                "title": "Hotone Japan original-series firmware release",
+                "evidence": "Original Ampero 5.2 explicitly dated March 9, 2026; Sound Clone import and Match30 Clean addition.",
+                "access": "opened"
+              },
+              {
+                "url": "https://www.hotone.jp/manuals/hotone/AMPERO.pdf",
+                "title": "Original MP-100 manufacturer-hosted manual",
+                "evidence": "Printed p3 patch/module definitions, p16 overload, p24 SAVE; PDF p34 English appendix polyphonic Harmony and octave rows.",
+                "access": "opened_manufacturer_pdf_text"
+              }
+            ],
+            "duration": {
+              "minimum_days": 2625,
+              "maximum_days": 2989,
+              "label": "7.19–8.18 years"
+            },
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Hotone::Ampero One MP-80": {
         "model_key": "Hotone::Ampero One MP-80",
@@ -210444,8 +210522,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Hotone::Ampero One MP-80",
-    "last_commit_parent": "62f22fd6e24aaf29aa89f1703b97a8bdd92d4cc0",
+    "last_model": "Hotone::Ampero MP-100",
+    "last_commit_parent": "f4ef35bfc89d300db75bad50bf1f5b4c1c177bf3",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
