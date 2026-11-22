@@ -2654,6 +2654,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::B3 ends -->
 
+<!-- model-images:Zoom::B3 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Original B3 powered control face**
+
+[![Original B3 powered control face](https://i.ebayimg.com/images/g/PEYAAeSwPuhpWISl/s-l960.png)](https://i.ebayimg.com/images/g/PEYAAeSwPuhpWISl/s-l960.png)
+
+[Image source](https://www.ebay.com/itm/157574272529). Actual powered original B3 with orange M Comp/BassDrive/D.I.+ screens and effect1 LED lit. Nine knobs,16 front keys and three footswitches visible. Photograph is oblique from above and slightly crops chassis edges; a complete true top-down powered photograph remains pending. Basschat alternative returned403 and was not used.
+
+**Original B3 rear connections**
+
+[![Original B3 rear connections](https://zoomcorp.com/media/original_images/zoom_b3_usbComputer.jpg)](https://zoomcorp.com/media/original_images/zoom_b3_usbComputer.jpg)
+
+[Image source](https://zoomcorp.com/en/jp/multi-effects/bass-effects/b3/). Exact manufacturer B3 rear-use photograph: INPUT with ACTIVE/PASSIVE, BALANCED OUT XLR with PRE/POST and GROUND, R and L/MONO OUTPUT (PHONES), CONTROL IN, USB-B, POWER/eco, security slot and center-negative DC9V500mA label are readable. Connected USB cable partly covers its socket;500mA is supply rating, not measured consumption.
+
+</details>
+<!-- model-images:Zoom::B3 ends -->
+
+
 Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Discontinued. Guitar/vocal applicability unclassified; ownership not established.
 
 <!-- comparison evidence begins -->

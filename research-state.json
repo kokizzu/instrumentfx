@@ -214844,11 +214844,36 @@
             "powered_on": false
           }
         }
+      },
+      "Zoom::B3": {
+        "model_key": "Zoom::B3",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://i.ebayimg.com/images/g/PEYAAeSwPuhpWISl/s-l960.png",
+            "source_url": "https://www.ebay.com/itm/157574272529",
+            "caption": "Original B3 powered control face",
+            "note": "Actual powered original B3 with orange M Comp/BassDrive/D.I.+ screens and effect1 LED lit. Nine knobs,16 front keys and three footswitches visible. Photograph is oblique from above and slightly crops chassis edges; a complete true top-down powered photograph remains pending. Basschat alternative returned403 and was not used.",
+            "visual_checked": true,
+            "sha256": "6ef03f92d57e2b5cec23baa208d317a35220b43fa9f21dcd453ada06dedbafde",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://zoomcorp.com/media/original_images/zoom_b3_usbComputer.jpg",
+            "source_url": "https://zoomcorp.com/en/jp/multi-effects/bass-effects/b3/",
+            "caption": "Original B3 rear connections",
+            "note": "Exact manufacturer B3 rear-use photograph: INPUT with ACTIVE/PASSIVE, BALANCED OUT XLR with PRE/POST and GROUND, R and L/MONO OUTPUT (PHONES), CONTROL IN, USB-B, POWER/eco, security slot and center-negative DC9V500mA label are readable. Connected USB cable partly covers its socket;500mA is supply rating, not measured consumption.",
+            "visual_checked": true,
+            "sha256": "2f542f7f72efdd6105d71162228a99215dccc6ac6b19072c3692854e7334c0e3",
+            "powered_on": true
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B2.1u"
+    "last_model": "Zoom::B3"
   }
 }
