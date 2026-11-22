@@ -196596,13 +196596,14 @@
         "model_key": "MOOER::PE100",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "production_release_unresolved",
+          "date": "2017-04",
+          "precision": "month",
+          "kind": "retailer availability proxy; earlier exhibition preview, exact first shipment unconfirmed",
           "source_urls": [
-            "https://www.mooeraudio.com/product/PE100-166.html"
+            "https://www.thomannmusic.com/mooer_pe_100_portable_guitar_effects.htm",
+            "https://www.bax-shop.co.uk/news/namm-2016-mooer-introduces-new-effects-pedals"
           ],
-          "note": "Exact first production announcement/shipment not established. The saved 2016 exhibition/preview lead must not be silently treated as retail release; later 2017 availability remains a separate lead."
+          "note": "Thomann lists the production PE100 as available since April 2017. This is retailer availability, not authenticated first worldwide shipment. Bax’s January 21, 2016 NAMM report already previews a PE100 among forthcoming products; that exhibition announcement is retained separately and not promoted to retail release or assumed identical final hardware. Regional Japanese 2018 coverage is later still."
         },
         "firmware": {
           "version": null,
@@ -196654,10 +196655,91 @@
             "title": "PE100 manufacturer-linked Japanese regional product",
             "access": "Exact model page read",
             "evidence": "Six simultaneous effects, 99 factory plus 99 user presets."
+          },
+          {
+            "url": "https://www.thomannmusic.com/mooer_pe_100_portable_guitar_effects.htm",
+            "title": "Thomann MOOER PE100 availability record",
+            "access": "Exact-model original retailer availability field checked 2026-11-22",
+            "evidence": "Available since April 2017; regional retailer availability, not certified global first shipment."
+          },
+          {
+            "url": "https://www.bax-shop.co.uk/news/namm-2016-mooer-introduces-new-effects-pedals",
+            "title": "NAMM 2016: Mooer Introduces New Effects Pedals",
+            "access": "Contemporaneous retailer news dated January21,2016 checked 2026-11-22",
+            "evidence": "Names PE100 among announced NAMM products. Earlier exhibition preview, not authenticated production-shipping date."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "MOOER::PE100",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "production_release_unresolved",
+              "source_urls": [
+                "https://www.mooeraudio.com/product/PE100-166.html"
+              ],
+              "note": "Exact first production announcement/shipment not established. The saved 2016 exhibition/preview lead must not be silently treated as retail release; later 2017 availability remains a separate lead."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "unverified",
+              "source_urls": [
+                "https://www.mooeraudio.com/product/PE100-166.html",
+                "https://www.mooeraudio.com/Downloads.html",
+                "https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf"
+              ],
+              "note": "No dated device firmware or user update procedure located in the checked product, manual and four-page download catalogue. This does not prove non-updatability. The product offers a manual, not a verified firmware package; no release-to-update span can be calculated."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "PITCH appears in the MOD inventory. Polyphonic/monophonic tracking, interval range and wet-only transposition are not specified.",
+              "preset": "Edited tones save to U01–U99; P01–P99 are factory-only. A–D recall four selected presets, not four extra user memories.",
+              "dsp": "Six fixed effect categories; PITCH occupies the MOD choice, excluding another MOD selection. No isolated CPU percentage, dynamic DSP meter or resource measurement located.",
+              "source_urls": [
+                "https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf",
+                "https://mooer.jp/products/mooerpe100"
+              ],
+              "notes": [
+                "No independent PE100 pitch-quality or latency measurement. The vague manual description does not establish reliable whole-chord retuning."
+              ],
+              "measurements": []
+            },
+            "sources": [
+              {
+                "url": "https://www.mooeraudio.com/product/PE100-166.html",
+                "title": "PE100 manufacturer product",
+                "access": "Opened product and connector/download text",
+                "evidence": "Six categories; analog and DC connectors; manual filename. No firmware release date shown."
+              },
+              {
+                "url": "https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf",
+                "title": "PE100 manufacturer-authored English owner manual",
+                "access": "20-page PDF text read, printed pp3–7,9–10,14–15",
+                "evidence": "PE100 identity; MOD PITCH, preset saving and fixed-category chain. System settings describe output/display/reset, without an updater."
+              },
+              {
+                "url": "https://www.mooeraudio.com/Downloads.html",
+                "title": "MOOER download catalogue",
+                "access": "All four pagination bodies checked, including /Downloads/p-8-8.html, /Downloads/p-16-8.html and /Downloads/p-24-8.html",
+                "evidence": "No PE100 firmware entry located; absence is not proof of a non-updatable device."
+              },
+              {
+                "url": "https://mooer.jp/products/mooerpe100",
+                "title": "PE100 manufacturer-linked Japanese regional product",
+                "access": "Exact model page read",
+                "evidence": "Six simultaneous effects, 99 factory plus 99 user presets."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "MOOER::Black Truck": {
         "model_key": "MOOER::Black Truck",
@@ -214204,8 +214286,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Valeton::Rushead Max RH-100",
-    "last_commit_parent": "18d52debedeb9e1049b85f7e4d4fac2dc73fa7e4",
+    "last_model": "MOOER::PE100",
+    "last_commit_parent": "fdc10cd80348e33122a23681b258c54e508d11cd",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

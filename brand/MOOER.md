@@ -3971,7 +3971,7 @@ Preset-selection screen:DelayB previous,DelayA next;Patch Control instead toggle
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Exact first production announcement/shipment not established. The saved 2016 exhibition/preview lead must not be silently treated as retail release; later 2017 availability remains a separate lead. [launch 1](https://www.mooeraudio.com/product/PE100-166.html) |
+| Firmware / first hardware release | 2017-04 (retailer availability proxy; earlier exhibition preview, exact first shipment unconfirmed). Thomann lists the production PE100 as available since April 2017. This is retailer availability, not authenticated first worldwide shipment. Bax’s January 21, 2016 NAMM report already previews a PE100 among forthcoming products; that exhibition announcement is retained separately and not promoted to retail release or assumed identical final hardware. Regional Japanese 2018 coverage is later still. [launch 1](https://www.thomannmusic.com/mooer_pe_100_portable_guitar_effects.htm) [launch 2](https://www.bax-shop.co.uk/news/namm-2016-mooer-introduces-new-effects-pedals) |
 | Firmware / latest verification | Not verified — Unverified. No dated device firmware or user update procedure located in the checked product, manual and four-page download catalogue. This does not prove non-updatability. The product offers a manual, not a verified firmware package; no release-to-update span can be calculated. [firmware 1](https://www.mooeraudio.com/product/PE100-166.html) [firmware 2](https://www.mooeraudio.com/Downloads.html) [firmware 3](https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -3988,6 +3988,8 @@ Sources checked:
 - [PE100 manufacturer-authored English owner manual](https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf) — PE100 identity; MOD PITCH, preset saving and fixed-category chain. System settings describe output/display/reset, without an updater. (20-page PDF text read, printed pp3–7,9–10,14–15).
 - [MOOER download catalogue](https://www.mooeraudio.com/Downloads.html) — No PE100 firmware entry located; absence is not proof of a non-updatable device. (All four pagination bodies checked, including /Downloads/p-8-8.html, /Downloads/p-16-8.html and /Downloads/p-24-8.html).
 - [PE100 manufacturer-linked Japanese regional product](https://mooer.jp/products/mooerpe100) — Six simultaneous effects, 99 factory plus 99 user presets. (Exact model page read).
+- [Thomann MOOER PE100 availability record](https://www.thomannmusic.com/mooer_pe_100_portable_guitar_effects.htm) — Available since April 2017; regional retailer availability, not certified global first shipment. (Exact-model original retailer availability field checked 2026-11-22).
+- [NAMM 2016: Mooer Introduces New Effects Pedals](https://www.bax-shop.co.uk/news/namm-2016-mooer-introduces-new-effects-pedals) — Names PE100 among announced NAMM products. Earlier exhibition preview, not authenticated production-shipping date. (Contemporaneous retailer news dated January21,2016 checked 2026-11-22).
 
 <!-- firmware-pitch:MOOER::PE100 ends -->
 
