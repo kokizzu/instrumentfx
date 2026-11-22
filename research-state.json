@@ -206573,15 +206573,15 @@
       },
       "ROWIN::RE-05 Looper Pro": {
         "model_key": "ROWIN::RE-05 Looper Pro",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first hardware release not verified",
+          "date": "2023-09-23",
+          "precision": "day",
+          "kind": "public_demo_availability_by_proxy",
           "source_urls": [
-            "https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243"
+            "https://www.youtube.com/watch?v=4D6SRZre8n4"
           ],
-          "note": "Manufacturer listing is undated. Seller listing dates, generic copyright and differently branded Looper Pro units do not establish the exact RE-05 launch."
+          "note": "Original exact-model demo metadata dates the RE-05 public demonstration September 23, 2023. This establishes availability by that date, not the global first-sale date; earlier distribution remains possible. Reverb seller year fields vary (2022/2023) and are not authenticated release dates. An August 2022 review syndicated on a RE-05 shop page explicitly concerns the different Nano Looper variant and is excluded."
         },
         "firmware": {
           "version": null,
@@ -206619,10 +206619,77 @@
             "title": "ROWIN manufacturer support index — RE Series manuals",
             "access": "Manufacturer indexed original list inspected; PDF not retrieved",
             "evidence": "RE-05 Manual.pdf907.95KB listed; this does not establish manual contents or a firmware version."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=4D6SRZre8n4",
+            "title": "Гитарная педаль Rowin RE-05 Looper Pro — Сергей",
+            "access": "indexed_original_video_metadata_direct_fetch_failed",
+            "evidence": "Original YouTube video metadata: published 2023-09-23, exact Rowin RE-05 Looper Pro title, uploader Сергей. Used only as public-demo availability-by proxy; not a first-sale announcement or watched hardware test."
+          },
+          {
+            "url": "https://www.shopabunda.com/products/rowin-re-05-looper-pro-guitar-multi-effect-pedals-with-looper-delay-chorus-reverb-and-tuner-on-one-pedal-true-bypass",
+            "title": "RE-05 shop page with mixed-variant customer reviews",
+            "access": "indexed_retailer_review_text",
+            "evidence": "August 20, 2022 Detman101 review explicitly marked Color: Nano Looper and describes a single-function thumb-sized looper. Excluded as evidence for four-knob multi-effect RE-05 introduction."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "ROWIN::RE-05 Looper Pro",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first hardware release not verified",
+              "source_urls": [
+                "https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243"
+              ],
+              "note": "Manufacturer listing is undated. Seller listing dates, generic copyright and differently branded Looper Pro units do not establish the exact RE-05 launch."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "unverified",
+              "source_urls": [
+                "https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243",
+                "https://www.rowinmusic.com/cn/col.jsp?id=142&m602pageno=5"
+              ],
+              "note": "No authenticated RE-05 firmware version/date or updater located. Official index names RE-05 Manual.pdf,907.95KB, but direct PDF/body not obtained. Desktop product returned502; English support route404. No release-to-update duration established; do not borrow LEF-332/Twin Looper firmware."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Manufacturer names reverb,chorus,delay,tuner and looper. No dedicated interval shifter,transpose,octave or harmonizer documented. Chorus modulation and tuner pitch detection are not proof of polyphonic pitch-shift processing.",
+              "preset": "Factory/user/total program memory and pitch-preset recall unverified. Forty-second loop recording with overdubbing is not a patch-memory count.",
+              "dsp": "No pitch-specific CPU/DSP figure located. Five named functions do not establish five freely assignable processing blocks or20% per function; no shared-DSP meter measurement made.",
+              "source_urls": [
+                "https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243"
+              ],
+              "measurements": [],
+              "notes": [
+                "Exact Looper Pro name is shared with other brands; generated ASIN manuals,VSN/M-VAVE and sibling ROWIN instructions are not exact-model firmware evidence."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243",
+                "title": "ROWIN RE-05 Looper Pro manufacturer product page",
+                "access": "Manufacturer search-indexed body inspected; direct502",
+                "evidence": "Exact RE-05 name and chorus/delay/reverb/tuner/looper list;40-second recording/overdub wording. No dated launch,pitch or firmware release."
+              },
+              {
+                "url": "https://www.rowinmusic.com/cn/col.jsp?id=142&m602pageno=5",
+                "title": "ROWIN manufacturer support index — RE Series manuals",
+                "access": "Manufacturer indexed original list inspected; PDF not retrieved",
+                "evidence": "RE-05 Manual.pdf907.95KB listed; this does not establish manual contents or a firmware version."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Soran::Dual Stomp": {
         "model_key": "Soran::Dual Stomp",
@@ -217386,8 +217453,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Hotone::Ampero II Stomp MP-300",
-    "last_commit_parent": "43e36410deba5fc6463de1a2eff8007f867a434c",
+    "last_model": "ROWIN::RE-05 Looper Pro",
+    "last_commit_parent": "aeaf2620ca6341e599123a226ec80bdf1bdd0184",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
