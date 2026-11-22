@@ -2434,6 +2434,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GT-1000CORE ends -->
 
+<!-- model-images:BOSS::GT-1000CORE begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**GT-1000CORE control face**
+
+[![GT-1000CORE control face](https://static.roland.com/products/gt-1000core/images/gt-1000core_05_gal.jpg)](https://static.roland.com/products/gt-1000core/images/gt-1000core_05_gal.jpg)
+
+[Image source](https://www.boss.info/global/products/gt-1000core/). Manufacturer complete straight-down control face showing active U001 PREMIUM DRIVE LCD and three blue footswitch bars. Seven rotary controls, six panel buttons and three footswitches visible. Promotional display/illumination is not independently verified.
+
+**GT-1000CORE rear connections**
+
+[![GT-1000CORE rear connections](https://static.roland.com/products/gt-1000core/images/gt-1000core_06_gal.jpg)](https://static.roland.com/products/gt-1000core/images/gt-1000core_06_gal.jpg)
+
+[Image source](https://www.boss.info/global/products/gt-1000core/). Manufacturer complete rear panel: INPUT R/MONO and L, SEND1/RETURN1, SEND2/RETURN2, OUTPUT R/MONO and L/PHONES, CTL2,3/EXP1 and DC IN. MIDI, USB and additional control connections are on the side panels and are not shown in this rear view.
+
+</details>
+<!-- model-images:BOSS::GT-1000CORE ends -->
+
+
 <!-- firmware-lifecycle begins -->
 ### Firmware lifecycle
 

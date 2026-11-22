@@ -218944,11 +218944,36 @@
             "sha256": "cd9d42d83a48e7720697f837b0f0fd3c57361bc81217284eae8c93fae89dd345"
           }
         }
+      },
+      "BOSS::GT-1000CORE": {
+        "model_key": "BOSS::GT-1000CORE",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/products/gt-1000core/images/gt-1000core_05_gal.jpg",
+            "source_url": "https://www.boss.info/global/products/gt-1000core/",
+            "caption": "GT-1000CORE control face",
+            "note": "Manufacturer complete straight-down control face showing active U001 PREMIUM DRIVE LCD and three blue footswitch bars. Seven rotary controls, six panel buttons and three footswitches visible. Promotional display/illumination is not independently verified.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "27a388abba16821733e1673e79aef6bcee4a30dc633cb22b3871a6587359f4a9"
+          },
+          "rear": {
+            "image_url": "https://static.roland.com/products/gt-1000core/images/gt-1000core_06_gal.jpg",
+            "source_url": "https://www.boss.info/global/products/gt-1000core/",
+            "caption": "GT-1000CORE rear connections",
+            "note": "Manufacturer complete rear panel: INPUT R/MONO and L, SEND1/RETURN1, SEND2/RETURN2, OUTPUT R/MONO and L/PHONES, CTL2,3/EXP1 and DC IN. MIDI, USB and additional control connections are on the side panels and are not shown in this rear view.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "eceaaef072b0b2646dca545a0a71f4ffb8f837bc1af25c8fb0405e4167e50233"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::V6-SP"
+    "last_model": "BOSS::GT-1000CORE"
   }
 }
