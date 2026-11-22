@@ -210389,11 +210389,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Valeton::GP-200": {
+        "model_key": "Valeton::GP-200",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/GP-200_Front_WithScreen_Hi_V01_211110_1445x.png?v=1669282627",
+            "source_url": "https://shop.valeton.net/products/gp-200",
+            "caption": "Official GP-200 control-face stock image",
+            "note": "Visually inspected exact black GP-200 control face:11rotaries(2main,6amp,3quick),14buttons(4general,10module),8footswitches andbuilt-in treadle. Stock image shows screen andcolored lamps butactual powered-unit photography is unverified. Slight rear-edge perspective;strict overhead powered photograph pending.",
+            "visual_checked": true,
+            "sha256": "9460d52f11464c8f10274637d4d6f4607ed175b4121d8152048d9cf796e1b55b",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/GP-200_Top_Hi_V01_210923_1445x.png?v=1669282627",
+            "source_url": "https://shop.valeton.net/products/gp-200",
+            "caption": "Official GP-200 rear connector-edge stock image",
+            "note": "Visually inspected full GP-200 rear:EXP/FS,INPUT,AUX IN,RETURN,SEND,unbalanced L(MONO)/R,GND/LIFT,balanced XLR L(MONO)/R,PHONES,5-pin MIDI IN/OUT-THRU,USB-C,POWER andcenter-negativeDC9V1000mA. Shows one EXP/FS socket andeight front footswitches,not the conflicting FAQ hardware description. Placement is verified;all electrical routing is not.",
+            "visual_checked": true,
+            "sha256": "0087294bff4a891c941524ca91535c51c56ecf723c0c282d07893bf210191b7e",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-180"
+    "last_model": "Valeton::GP-200"
   }
 }

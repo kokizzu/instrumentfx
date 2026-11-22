@@ -2558,6 +2558,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::GP-200 ends -->
 
+<!-- model-images:Valeton::GP-200 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Official GP-200 control-face stock image**
+
+[![Official GP-200 control-face stock image](https://shop.valeton.net/cdn/shop/products/GP-200_Front_WithScreen_Hi_V01_211110_1445x.png?v=1669282627)](https://shop.valeton.net/cdn/shop/products/GP-200_Front_WithScreen_Hi_V01_211110_1445x.png?v=1669282627)
+
+[Image source](https://shop.valeton.net/products/gp-200). Visually inspected exact black GP-200 control face:11rotaries(2main,6amp,3quick),14buttons(4general,10module),8footswitches andbuilt-in treadle. Stock image shows screen andcolored lamps butactual powered-unit photography is unverified. Slight rear-edge perspective;strict overhead powered photograph pending.
+
+**Official GP-200 rear connector-edge stock image**
+
+[![Official GP-200 rear connector-edge stock image](https://shop.valeton.net/cdn/shop/products/GP-200_Top_Hi_V01_210923_1445x.png?v=1669282627)](https://shop.valeton.net/cdn/shop/products/GP-200_Top_Hi_V01_210923_1445x.png?v=1669282627)
+
+[Image source](https://shop.valeton.net/products/gp-200). Visually inspected full GP-200 rear:EXP/FS,INPUT,AUX IN,RETURN,SEND,unbalanced L(MONO)/R,GND/LIFT,balanced XLR L(MONO)/R,PHONES,5-pin MIDI IN/OUT-THRU,USB-C,POWER andcenter-negativeDC9V1000mA. Shows one EXP/FS socket andeight front footswitches,not the conflicting FAQ hardware description. Placement is verified;all electrical routing is not.
+
+</details>
+<!-- model-images:Valeton::GP-200 ends -->
+
+
 Consolidated 2026-10-17. Historical observations below retain their 2026-10-14 date. GP-200X and GP-200R are retained as labelled variants of this existing model, not additional active counts. Technical verification remains partial.
 
 ### Complete legacy GP-200 evidence
