@@ -209038,11 +209038,45 @@
             "exact_top_down": false
           }
         }
+      },
+      "Valeton::Dapper Acoustic Mini": {
+        "model_key": "Valeton::Dapper Acoustic Mini",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Front_Hi_V01_170510_1500x.png?v=1641286562",
+            "source_url": "https://shop.valeton.net/products/dapper-acoustic-mini",
+            "caption": "Near-overhead Acoustic Mini control-face stock photograph, unlit.",
+            "note": "Visually 11 rotary controls and 3 footswitches; no separate small pushbuttons visible on this face. Tuner/status strip is unlit. Slight perspective and visible edge, so strict powered-on perpendicular overhead remains pending. Manufacturer gallery calls this Front; filenames do not establish viewing direction.",
+            "visual_checked": true,
+            "sha256": "a4397238bcd378f7520ed517c141d4d2ba89085a52f3966a13117beb1bd0244f",
+            "powered_on": false,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Top_Hi_V01_170510_2048x.png?v=1641286562",
+            "source_url": "https://shop.valeton.net/products/dapper-acoustic-mini",
+            "caption": "Straight connector-edge stock photograph: 9V DC, IN, OUT and headphone socket.",
+            "note": "Quarter-inch IN/OUT and smaller headphone socket are visible; 9V DC label visible but polarity/current not legible here. End-mounted XLR is outside this face and not claimed absent. Manufacturer filename Top actually shows the connector edge; assigned by inspected content.",
+            "visual_checked": true,
+            "sha256": "3d026a8beb4f612eff11fb8c883307b9e5f05fac9b6f10abd881d1e9bb16b2ef",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/DapperAousticMini_Rear_Perspective_Hi_V01_170510_2048x.png?v=1641286562",
+            "sha256": "9b398c950a739457e52c5b2af50631d945bde8031eeab4b49f2baad433296670",
+            "visual_checked": true,
+            "note": "Inspected unlit oblique view of same control face/connector edge; adds no powered-on evidence and does not expose XLR socket."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Tech 21::Fly Rig 5 v2"
+    "last_model": "Valeton::Dapper Acoustic Mini"
   }
 }

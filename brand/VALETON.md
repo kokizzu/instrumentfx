@@ -56,6 +56,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::Dapper Acoustic Mini ends -->
 
+<!-- model-images:Valeton::Dapper Acoustic Mini begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Near-overhead Acoustic Mini control-face stock photograph, unlit.**
+
+[![Near-overhead Acoustic Mini control-face stock photograph, unlit.](https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Front_Hi_V01_170510_1500x.png?v=1641286562)](https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Front_Hi_V01_170510_1500x.png?v=1641286562)
+
+[Image source](https://shop.valeton.net/products/dapper-acoustic-mini). Visually 11 rotary controls and 3 footswitches; no separate small pushbuttons visible on this face. Tuner/status strip is unlit. Slight perspective and visible edge, so strict powered-on perpendicular overhead remains pending. Manufacturer gallery calls this Front; filenames do not establish viewing direction.
+
+**Straight connector-edge stock photograph: 9V DC, IN, OUT and headphone socket.**
+
+[![Straight connector-edge stock photograph: 9V DC, IN, OUT and headphone socket.](https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Top_Hi_V01_170510_2048x.png?v=1641286562)](https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Top_Hi_V01_170510_2048x.png?v=1641286562)
+
+[Image source](https://shop.valeton.net/products/dapper-acoustic-mini). Quarter-inch IN/OUT and smaller headphone socket are visible; 9V DC label visible but polarity/current not legible here. End-mounted XLR is outside this face and not claimed absent. Manufacturer filename Top actually shows the connector edge; assigned by inspected content.
+
+</details>
+<!-- model-images:Valeton::Dapper Acoustic Mini ends -->
+
+
 Distinct acoustic-guitar multi-effects strip, separate from full-size Dapper Acoustic and other Minis. Checked 2026-10-17; partial. Exact model code remains unverified; no MES-4 identity inferred from third-party instructions.
 
 | Field | Finding / qualification | Evidence |
