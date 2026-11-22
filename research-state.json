@@ -224271,7 +224271,7 @@
       },
       "Zoom::B1on": {
         "model_key": "Zoom::B1on",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
             "image_url": "https://medias.audiofanzine.com/images/normal/zoom-b1on-4919968.jpg",
@@ -224292,7 +224292,26 @@
             "sha256": "3a83e8e8a63ffc5062aa775fbd4a351747b17a186eadbefa8953e6dfdb375101",
             "powered_on": false
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://cdn.basschat.co.uk/monthly_2025_12/ZoomB1on.jpg.419e168f19a1b2b278db1e2abc3d8e0c.jpg",
+            "source_url": "https://www.basschat.co.uk/topic/520786-zoom-b1on-multi-effects/",
+            "sha256": "ab43f40ce673807771dd5aa2e863ddb916874fe9fc2713e81d3787290cb60358",
+            "visual_checked": true,
+            "powered_on": false,
+            "note": "Actual complete B1on on its box has a blank, unlit LCD; rejected as powered-on evidence."
+          },
+          {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-b1on-4479660.jpg",
+            "source_url": "https://en.audiofanzine.com/bass-multi-effect/zoom/b1on/",
+            "caption": "Candidate",
+            "note": "Actual B1on in foreground is unlit. Orange A0 LCD belongs to printed packaging behind it, not a second powered unit; rejected as powered-on evidence.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "67bb6917b3dbcf024eb6254627af27d6a812d941fc23c767ac3b3a3db3e86c20"
+          }
+        ]
       },
       "Zoom::B1X FOUR": {
         "model_key": "Zoom::B1X FOUR",
@@ -227493,6 +227512,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Dark VES-3"
+    "last_model": "Zoom::B1on"
   }
 }
