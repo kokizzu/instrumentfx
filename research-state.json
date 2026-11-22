@@ -222742,7 +222742,7 @@
       },
       "Valeton::Dapper Dark VES-3": {
         "model_key": "Valeton::Dapper Dark VES-3",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
             "image_url": "https://res.valeton.net/Uploads/wp/2025/06/o_1e4im877c1u031vrls4b1b7tr2e3a-scaled.jpg",
@@ -222755,14 +222755,14 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://evolutionmusicstore.com/cdn/shop/products/xwfpysqphdgop8xpu82d_400x.jpg?v=1696006373",
+            "image_url": "https://evolutionmusicstore.com/cdn/shop/products/sgsysrdwsjju5tvvk9pk_6237d4b7-d341-47c1-9e97-cbccecb80dbe_1200x.jpg?v=1696006373",
             "source_url": "https://evolutionmusicstore.com/products/valeton-ves-3-dapper-dark-multi-effects-strip",
-            "caption": "Used full-size Dark output/loop-end connector close-up.",
-            "note": "Actual unlit unit shows RETURN, cabinet-simulation ON/OFF slider and quarter-inch OUT. SEND is only partly framed at left; input/DC end is outside this crop. This is partial rear-port coverage, not a complete connector inventory or powered-on proof.",
+            "caption": "Dapper Dark VES-3 complete connector-edge and underside photograph",
+            "note": "Actual full-size black/red Dark tipped forward: complete connector edge visible with IN,9VDC,SEND,RETURN,CAB SIM ON/OFF slider andOUT. Unplugged and unlit. Underside label reads9V DC and center-negative polarity; no current rating legible. Label is partly covered by mounting tape. This complete view replaces the earlier output-end crop. Supplement below retains its clearer RETURN/CAB SIM/OUT detail; no powered-on operation inferred.\n\n[![Dapper Dark output-end detail](https://evolutionmusicstore.com/cdn/shop/products/xwfpysqphdgop8xpu82d_400x.jpg?v=1696006373)](https://evolutionmusicstore.com/cdn/shop/products/xwfpysqphdgop8xpu82d_400x.jpg?v=1696006373)\n\n[Connector photograph source](https://evolutionmusicstore.com/products/valeton-ves-3-dapper-dark-multi-effects-strip).",
             "visual_checked": true,
-            "sha256": "190d1df7b870e57bee4b22b6fe7a279c7568991db7eb0fd9f8f93b04b3bfff5b",
             "powered_on": false,
-            "exact_top_down": false
+            "exact_top_down": false,
+            "sha256": "41ed23db364b0ea161934c05d64b55cde60ae97a17b716ff0b49de2273e80d52"
           }
         },
         "inspected_alternatives": [
@@ -222777,6 +222777,16 @@
             "sha256": "1f8c79b1a6b8dc4ddc4b024c018a17f9f5878eb9ef6deefab33e8a7f28503af4",
             "visual_checked": true,
             "note": "Unlit delay/Tap close-up, no connector coverage."
+          },
+          {
+            "image_url": "https://evolutionmusicstore.com/cdn/shop/products/xwfpysqphdgop8xpu82d_400x.jpg?v=1696006373",
+            "source_url": "https://evolutionmusicstore.com/products/valeton-ves-3-dapper-dark-multi-effects-strip",
+            "caption": "Used full-size Dark output/loop-end connector close-up.",
+            "note": "Actual unlit unit shows RETURN, cabinet-simulation ON/OFF slider and quarter-inch OUT. SEND is only partly framed at left; input/DC end is outside this crop. This is partial rear-port coverage, not a complete connector inventory or powered-on proof.",
+            "visual_checked": true,
+            "sha256": "190d1df7b870e57bee4b22b6fe7a279c7568991db7eb0fd9f8f93b04b3bfff5b",
+            "powered_on": false,
+            "exact_top_down": false
           }
         ]
       },
@@ -227483,6 +227493,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Acoustic Mini"
+    "last_model": "Valeton::Dapper Dark VES-3"
   }
 }

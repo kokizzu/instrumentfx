@@ -594,11 +594,15 @@ Sources checked:
 
 [Image source](https://www.valeton.net/product/dapper-darkdiscontinued/). Visually 12 rotary controls and 5 footswitches, including dedicated TAP. No separate small buttons on this face; rear cabinet selector is separate. Tuner/status indicators unlit. Slight perspective/visible rear jacks; powered-on strict perpendicular overhead remains pending.
 
-**Used full-size Dark output/loop-end connector close-up.**
+**Dapper Dark VES-3 complete connector-edge and underside photograph**
 
-[![Used full-size Dark output/loop-end connector close-up.](https://evolutionmusicstore.com/cdn/shop/products/xwfpysqphdgop8xpu82d_400x.jpg?v=1696006373)](https://evolutionmusicstore.com/cdn/shop/products/xwfpysqphdgop8xpu82d_400x.jpg?v=1696006373)
+[![Dapper Dark VES-3 complete connector-edge and underside photograph](https://evolutionmusicstore.com/cdn/shop/products/sgsysrdwsjju5tvvk9pk_6237d4b7-d341-47c1-9e97-cbccecb80dbe_1200x.jpg?v=1696006373)](https://evolutionmusicstore.com/cdn/shop/products/sgsysrdwsjju5tvvk9pk_6237d4b7-d341-47c1-9e97-cbccecb80dbe_1200x.jpg?v=1696006373)
 
-[Image source](https://evolutionmusicstore.com/products/valeton-ves-3-dapper-dark-multi-effects-strip). Actual unlit unit shows RETURN, cabinet-simulation ON/OFF slider and quarter-inch OUT. SEND is only partly framed at left; input/DC end is outside this crop. This is partial rear-port coverage, not a complete connector inventory or powered-on proof.
+[Image source](https://evolutionmusicstore.com/products/valeton-ves-3-dapper-dark-multi-effects-strip). Actual full-size black/red Dark tipped forward: complete connector edge visible with IN,9VDC,SEND,RETURN,CAB SIM ON/OFF slider andOUT. Unplugged and unlit. Underside label reads9V DC and center-negative polarity; no current rating legible. Label is partly covered by mounting tape. This complete view replaces the earlier output-end crop. Supplement below retains its clearer RETURN/CAB SIM/OUT detail; no powered-on operation inferred.
+
+[![Dapper Dark output-end detail](https://evolutionmusicstore.com/cdn/shop/products/xwfpysqphdgop8xpu82d_400x.jpg?v=1696006373)](https://evolutionmusicstore.com/cdn/shop/products/xwfpysqphdgop8xpu82d_400x.jpg?v=1696006373)
+
+[Connector photograph source](https://evolutionmusicstore.com/products/valeton-ves-3-dapper-dark-multi-effects-strip).
 
 </details>
 <!-- model-images:Valeton::Dapper Dark VES-3 ends -->
