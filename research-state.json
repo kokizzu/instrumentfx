@@ -208948,10 +208948,85 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::MS-100BT": {
+        "model_key": "Zoom::MS-100BT",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2012",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Official chronology places MS-100BT in 2012. Firmware 1.00 production was November 2012; production is not an exact retail release date."
+        },
+        "firmware": {
+          "version": "1.30",
+          "date": "2013-07",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/jp/multi-effects/multistomp-pedals/ms-100bt/ms-100bt/",
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/MS-100BT_ver130_en.pdf"
+          ],
+          "note": "Current official support offers 1.30; manufacturer history dates it July 2013. Fixes downloaded bass effects, rare effect disappearance on startup and rare update failures. Earlier 1.10 January 2013; 1.00 mass production November 2012."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT and MonoPitch: −12…+12,+24 semitones, fine ±25 cents. MonoPitch explicitly targets single-note playing; generic PitchSHFT chord tracking unspecified. HPS follows key/scale; PitchDly shifts repeats.",
+          "preset": "50 patch memories retain effect parameters and on/off states; automatic saving is enabled by default. Footswitch can cycle assigned patches. No expression input documented.",
+          "dsp": "Up to six effects, subject to processing capacity. DSP Full bypasses an over-capacity effect; change types or use THRU. OFF consumes the same processing as ON. No manufacturer per-pitch DSP percentage located; six slots are not a CPU fraction.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/MS-100BT_operationManual_English.pdf",
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/MS-100BT_FX-list_English.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no hardware tracking or CPU measurement. StompShare effect delivery is separate from system firmware."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "MS-100BT under 2012."
+          },
+          {
+            "url": "https://zoomcorp.com/en/jp/multi-effects/multistomp-pedals/ms-100bt/ms-100bt/",
+            "title": "MS-100BT official support",
+            "access": "official page inspected",
+            "evidence": "Windows and Mac firmware 1.30 listed."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/MS-100BT_ver130_en.pdf",
+            "title": "MS-100BT firmware version history",
+            "access": "official PDF inspected",
+            "evidence": "1.30 July 2013, 1.10 January 2013, 1.00 production November 2012."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/MS-100BT_operationManual_English.pdf",
+            "title": "MS-100BT operation manual",
+            "access": "official PDF inspected, pp2,11–15,35",
+            "evidence": "50 patches; six effects; auto-save; DSP Full bypass; OFF retains processing load."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/MS-100BT_FX-list_English.pdf",
+            "title": "MS-100BT effect parameters",
+            "access": "official PDF inspected, pp11–12",
+            "evidence": "PitchSHFT generic, MonoPitch single-note, fine tuning and HPS."
+          }
+        ],
+        "duration": {
+          "minimum_days": 182,
+          "maximum_days": 577,
+          "label": "0.50–1.58 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::MS-100BT",
       "Zoom::MS-50G",
       "Zoom::MS-50G Plus",
       "Zoom::MS-60B",
@@ -208968,12 +209043,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 387,
-    "last_model": "Zoom::GFX-707",
-    "last_commit_parent": "5e5a7906974aca5399bc8d193126f2d55c8b8908",
+    "completed_model_count": 388,
+    "last_model": "Zoom::MS-100BT",
+    "last_commit_parent": "65665e7a84bfb4fde6eaf5006529265582418bae",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::MS-100BT",
       "Zoom::MS-50G",
       "Zoom::MS-50G Plus",
       "Zoom::MS-60B",
@@ -208989,7 +209063,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 387,
+    "pitch_completed_model_count": 388,
     "supplemental_model_count": 0
   },
   "model_images": {

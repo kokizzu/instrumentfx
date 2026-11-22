@@ -9162,6 +9162,32 @@ Program Change is printed **0–80**, including True Number. An inclusive 81-num
 
 ## MS-100BT
 
+<!-- firmware-pitch:Zoom::MS-100BT begins -->
+### Firmware and pitch audit — Zoom MS-100BT
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2012 (manufacturer product-history year). Official chronology places MS-100BT in 2012. Firmware 1.00 production was November 2012; production is not an exact retail release date. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 1.30 — Latest verified. Current official support offers 1.30; manufacturer history dates it July 2013. Fixes downloaded bass effects, rare effect disappearance on startup and rare update failures. Earlier 1.10 January 2013; 1.00 mass production November 2012. [firmware 1](https://zoomcorp.com/en/jp/multi-effects/multistomp-pedals/ms-100bt/ms-100bt/) [firmware 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/MS-100BT_ver130_en.pdf) |
+| Firmware / release date | 2013-07 (month precision) |
+| Firmware / release-to-update duration | 0.50–1.58 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT and MonoPitch: −12…+12,+24 semitones, fine ±25 cents. MonoPitch explicitly targets single-note playing; generic PitchSHFT chord tracking unspecified. HPS follows key/scale; PitchDly shifts repeats. [pitch 1](https://zoomcorp.com/media/documents/MS-100BT_operationManual_English.pdf) [pitch 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/MS-100BT_FX-list_English.pdf) |
+| Pitch / preset recall | 50 patch memories retain effect parameters and on/off states; automatic saving is enabled by default. Footswitch can cycle assigned patches. No expression input documented. |
+| Pitch / DSP resources | Up to six effects, subject to processing capacity. DSP Full bypasses an over-capacity effect; change types or use THRU. OFF consumes the same processing as ON. No manufacturer per-pitch DSP percentage located; six slots are not a CPU fraction. |
+| Pitch / qualifications | Documentation only; no hardware tracking or CPU measurement. StompShare effect delivery is separate from system firmware. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — MS-100BT under 2012. (official chronology inspected).
+- [MS-100BT official support](https://zoomcorp.com/en/jp/multi-effects/multistomp-pedals/ms-100bt/ms-100bt/) — Windows and Mac firmware 1.30 listed. (official page inspected).
+- [MS-100BT firmware version history](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/MS-100BT_ver130_en.pdf) — 1.30 July 2013, 1.10 January 2013, 1.00 production November 2012. (official PDF inspected).
+- [MS-100BT operation manual](https://zoomcorp.com/media/documents/MS-100BT_operationManual_English.pdf) — 50 patches; six effects; auto-save; DSP Full bypass; OFF retains processing load. (official PDF inspected, pp2,11–15,35).
+- [MS-100BT effect parameters](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/MS-100BT_FX-list_English.pdf) — PitchSHFT generic, MonoPitch single-note, fine tuning and HPS. (official PDF inspected, pp11–12).
+
+<!-- firmware-pitch:Zoom::MS-100BT ends -->
+
 Checked2026-10-18. Discontinued guitar multi-effects;100 effects/amp models. Historical StompShare iPhone/iPad/iPod touch purchasing/loading advertised. The US App Store listing observed on 2026-10-18 specifies iOS 8+; Indonesian availability and working effect transfers remain unverified. [Product][M100BT-P]; [Zoom app listing][M100BT-A]
 
 <!-- comparison evidence begins -->
