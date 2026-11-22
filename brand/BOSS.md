@@ -2244,6 +2244,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GT-10B ends -->
 
+<!-- model-images:BOSS::GT-10B begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS GT-10B — control surface**
+
+[![BOSS GT-10B — control surface](https://static.roland.com/assets/images/products/main/gt_10b_top_main.jpg)](https://static.roland.com/assets/images/products/main/gt_10b_top_main.jpg)
+
+[Image source](https://www.boss.info/global/products/gt-10b/). Manufacturer top-down photograph with illuminated LCD, patch display and indicators; complete controls, eight footswitches and expression pedal. Small 500-pixel-wide source limits fine-label readability.
+
+**BOSS GT-10B — rear connections**
+
+[![BOSS GT-10B — rear connections](https://images.equipboard.com/uploads/item_image/image/17398/boss-gt-10b-bass-effects-processor-02-xl.jpg)](https://images.equipboard.com/uploads/item_image/image/17398/boss-gt-10b-bass-effects-processor-02-xl.jpg)
+
+[Image source](https://equipboard.com/items/boss-gt-10b-bass-effects-processor). Full rear view showing XLR sub outputs and ground lift, input, stereo output/headphones, effects loop, amp control, expression/CTL, USB, digital output, MIDI, power switch and DC IN. Fine labels are small; white margins surround the panel.
+
+</details>
+<!-- model-images:BOSS::GT-10B ends -->
+
+
 Bass-specific multi-effects; distinct from GT-10. Checked2026-10-18; partial. Manufacturer-established model; exact Indonesian hardware offer and ownership remain unverified. Discontinued status does not establish market absence.
 
 <!-- comparison evidence begins -->

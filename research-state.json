@@ -219674,11 +219674,36 @@
             "sha256": "3886fc2e7198ef1b9e1ff3954b0c5cbc08e82df79957474fe78014636e203de1"
           }
         }
+      },
+      "BOSS::GT-10B": {
+        "model_key": "BOSS::GT-10B",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/assets/images/products/main/gt_10b_top_main.jpg",
+            "source_url": "https://www.boss.info/global/products/gt-10b/",
+            "caption": "BOSS GT-10B — control surface",
+            "note": "Manufacturer top-down photograph with illuminated LCD, patch display and indicators; complete controls, eight footswitches and expression pedal. Small 500-pixel-wide source limits fine-label readability.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "894e862644d6c43d26f20691afc17a68446e14c797de57bf04aadd638e2d7dab"
+          },
+          "rear": {
+            "image_url": "https://images.equipboard.com/uploads/item_image/image/17398/boss-gt-10b-bass-effects-processor-02-xl.jpg",
+            "source_url": "https://equipboard.com/items/boss-gt-10b-bass-effects-processor",
+            "caption": "BOSS GT-10B — rear connections",
+            "note": "Full rear view showing XLR sub outputs and ground lift, input, stereo output/headphones, effects loop, amp control, expression/CTL, USB, digital output, MIDI, power switch and DC IN. Fine labels are small; white margins surround the panel.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "76b784da29d989d84444429a06f206eb39a5c03bbb0d322648cc3d1cf19d5769"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::AD-8"
+    "last_model": "BOSS::GT-10B"
   }
 }
