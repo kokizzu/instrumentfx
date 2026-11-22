@@ -1170,6 +1170,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::A2 ends -->
 
+<!-- model-images:Zoom::A2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**A2 powered control-face photograph**
+
+[![A2 powered control-face photograph](https://medias.audiofanzine.com/images/normal/zoom-a2-6287613.jpg)](https://medias.audiofanzine.com/images/normal/zoom-a2-6287613.jpg)
+
+[Image source](https://en.audiofanzine.com/acoustic-guitar-multi-effect/zoom/A2/). Actual A2 with red two-character display lit. The four rotary controls, five push-buttons and two footswitches are visible. This close, angled view crops the upper edge and is not an exact top-down photograph; a full powered overhead view remains pending.
+
+**A2 rear connections**
+
+[![A2 rear connections](https://medias.audiofanzine.com/images/normal/zoom-a2-6287612.jpg)](https://medias.audiofanzine.com/images/normal/zoom-a2-6287612.jpg)
+
+[Image source](https://en.audiofanzine.com/acoustic-guitar-multi-effect/zoom/A2/). Actual A2 rear panel: INPUT, OUTPUT [PHONES], shared CONTROL IN, POWER switch and center-negative DC9V/300mA labeling are clearly visible. No USB or MIDI connector appears in this complete rear panel.
+
+</details>
+<!-- model-images:Zoom::A2 ends -->
+
+
 Acoustic-guitar multi-effects;partial,checked2026-10-18. Distinct fromA2.1u. [Own manufacturer manual](https://zoomcorp.com/media/documents/E_A2.pdf),pp4,35.
 
 <!-- comparison evidence begins -->
