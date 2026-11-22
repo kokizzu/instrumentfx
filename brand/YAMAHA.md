@@ -986,6 +986,26 @@ Sources checked:
 
 <!-- firmware-pitch:Yamaha::SPX990 ends -->
 
+<!-- model-images:Yamaha::SPX990 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**SPX990 powered control face**
+
+[![SPX990 powered control face](https://medias.audiofanzine.com/images/normal/yamaha-spx990-6491615.jpg)](https://medias.audiofanzine.com/images/normal/yamaha-spx990-6491615.jpg)
+
+[Image source](https://en.audiofanzine.com/multi-effects-processor/yamaha/SPX990/). Visually checked actual powered SPX990 front controls and top chassis from raised front angle: bright PLATE HALL/Rev-Rev LCD, red memory digits and green/red status indicators. Concentric L/R INPUT LEVEL plus DATA ENTRY give three rotary controls; six function keys plus six PAGE/MEMORY/EDIT/STORE/BYPASS keys give12buttons. MEMORY CARD slot and separate power rocker visible; rack-ear edges slightly cropped, controls retained. This is perspective above/front, not vertical overhead. Displayed program data does not establish firmware revision or audio performance.
+
+**SPX990 rear connectors**
+
+[![SPX990 rear connectors](https://distrio-marketing.myshopify.com/cdn/shop/products/IMG_E4006_distrio_900x.jpg?v=1628775173)](https://distrio-marketing.myshopify.com/cdn/shop/products/IMG_E4006_distrio_900x.jpg?v=1628775173)
+
+[Image source](https://distrio-marketing.myshopify.com/products/yamaha-spx990-professional-multi-effect-processor-2292-used). Visually checked full rear and top chassis: captive mains lead; FOOT SW BYPASS/INC-DEC-MEMORY and TRIGGER; MIDI OUT/THRU selector plus MIDI IN; analog OUTPUT and INPUT L/R XLR/quarter-inch pairs with separate−20/+4dB selectors. No USB, dedicated digital-audio I/O, PHONES or analog EXP socket shown. Footswitch jacks are switch inputs; continuous control follows separate MIDI assignments. Marked120V25W60Hz specimen; no universal-voltage inference. Rear photograph does not reveal powered state;900px image limits fine-print inspection.
+
+</details>
+<!-- model-images:Yamaha::SPX990 ends -->
+
+
 <!-- comparison evidence begins -->
 Checked 2026-10-17. Partial original-manual verification; unknown is not No.
 

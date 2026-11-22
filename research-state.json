@@ -212832,11 +212832,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Yamaha::SPX990": {
+        "model_key": "Yamaha::SPX990",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/yamaha-spx990-6491615.jpg",
+            "source_url": "https://en.audiofanzine.com/multi-effects-processor/yamaha/SPX990/",
+            "caption": "SPX990 powered control face",
+            "note": "Visually checked actual powered SPX990 front controls and top chassis from raised front angle: bright PLATE HALL/Rev-Rev LCD, red memory digits and green/red status indicators. Concentric L/R INPUT LEVEL plus DATA ENTRY give three rotary controls; six function keys plus six PAGE/MEMORY/EDIT/STORE/BYPASS keys give12buttons. MEMORY CARD slot and separate power rocker visible; rack-ear edges slightly cropped, controls retained. This is perspective above/front, not vertical overhead. Displayed program data does not establish firmware revision or audio performance.",
+            "visual_checked": true,
+            "sha256": "aa0abceaa7719da8ab6a25c2bbfd08a60e8679f96783b67088b4e92ec579bf48",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://distrio-marketing.myshopify.com/cdn/shop/products/IMG_E4006_distrio_900x.jpg?v=1628775173",
+            "source_url": "https://distrio-marketing.myshopify.com/products/yamaha-spx990-professional-multi-effect-processor-2292-used",
+            "caption": "SPX990 rear connectors",
+            "note": "Visually checked full rear and top chassis: captive mains lead; FOOT SW BYPASS/INC-DEC-MEMORY and TRIGGER; MIDI OUT/THRU selector plus MIDI IN; analog OUTPUT and INPUT L/R XLR/quarter-inch pairs with separate−20/+4dB selectors. No USB, dedicated digital-audio I/O, PHONES or analog EXP socket shown. Footswitch jacks are switch inputs; continuous control follows separate MIDI assignments. Marked120V25W60Hz specimen; no universal-voltage inference. Rear photograph does not reveal powered state;900px image limits fine-print inspection.",
+            "visual_checked": true,
+            "sha256": "6b0854b12953413a9382e8d6f137529fa1b2c66590a4777714f345bab7fcde8d",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::SPX900"
+    "last_model": "Yamaha::SPX990"
   }
 }
