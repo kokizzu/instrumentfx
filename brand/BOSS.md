@@ -557,6 +557,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GM-800 ends -->
 
+<!-- model-images:BOSS::GM-800 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS GM-800 — powered-on top view**
+
+[![BOSS GM-800 — powered-on top view](https://www.chicagomusicexchange.com/cdn/shop/files/boss-effects-and-pedals-guitar-synths-boss-gm-800-guitar-synthesizer-effects-pedalboss-gm-800-guitar-synthesizer-effects-pedal-gm-800-30557103849607.jpg?v=1691185605)](https://www.chicagomusicexchange.com/cdn/shop/files/boss-effects-and-pedals-guitar-synths-boss-gm-800-guitar-synthesizer-effects-pedalboss-gm-800-guitar-synthesizer-effects-pedal-gm-800-30557103849607.jpg?v=1691185605)
+
+[Image source](https://www.chicagomusicexchange.com/blogs/news/boss-gm-800-synth-pedal). Retailer-hosted promotional straight-down view of the entire blue control surface, active 001 SWEEP STRINGS display, four illuminated Part buttons, colored footswitch indicators, six rotary controls, ten panel buttons and four footswitches. Powered-on appearance is visible; independent operating-state verification is unavailable.
+
+**BOSS GM-800 — rear connections**
+
+[![BOSS GM-800 — rear connections](https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/13881/50540/GM-800-Boss-GM-800-Guitar-Synthesizer-Pedal-Rear__88699.1715110266.jpg?c=1)](https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/13881/50540/GM-800-Boss-GM-800-Guitar-Synthesizer-Pedal-Rear__88699.1715110266.jpg?c=1)
+
+[Image source](https://www.andertons.co.uk/boss-gm-800-guitar-bass-synthesizer-pedal/). Complete retailer-hosted promotional rear-panel image: Serial GK IN/OUT, OUTPUT R/MONO and L/PHONES, CTL3/4/EXP1 and CTL5/6/EXP2, USB-B COMPUTER and USB-A MEMORY, MIDI OUT/IN, DC IN for PSB-1U adaptor and ground terminal.
+
+</details>
+<!-- model-images:BOSS::GM-800 ends -->
+
+
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
 
 Technical research snapshot: **2026-10-14**. All records remain partial; `?` means unverified, not No. This reclassification preserves earlier sources and uncertainties; it is not a fresh technical verification. Dimensions are W×D×H in millimetres; cables and pedal travel require additional clearance.
