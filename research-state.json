@@ -211699,11 +211699,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "VOX::ToneLab SE": {
+        "model_key": "VOX::ToneLab SE",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_top.jpg",
+            "source_url": "https://voxshowroom.com/us/misc/tonelab_se.html",
+            "caption": "ToneLab SE control face",
+            "note": "Visually checked near-overhead stock photograph: bank24 and TONE LAB display, lit status indicators and red tube area. Twelve top rotaries, nine footswitches and two treadles visible. This stock image depicts illumination; independent confirmation of an actually powered unit remains pending. Slight rear-edge perspective is not strict orthographic top-down.",
+            "visual_checked": true,
+            "sha256": "979a2c58d2a4b103ba4ed1dc9b547e0f6c30aefa0e23d80012c69a402d727afc",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_front.jpg",
+            "source_url": "https://voxshowroom.com/us/misc/tonelab_se.html",
+            "caption": "ToneLab SE rear connectors",
+            "note": "Visually checked full rear row: STANDBY, AC9V, INPUT, INSERT SEND/RETURN, OUTPUT R/L-MONO, LEVEL, HEADPHONES, MIDI OUT/IN. AC input, not DC polarity; no USB or S/PDIF shown. Small labels constrain photographic detail; connector electrical specifications remain sourced to the manual.",
+            "visual_checked": true,
+            "sha256": "9f44cee6b55a0f2b98f802a2d159ec2b6662677e82392498e596e4d40175e3d6",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::ToneLab LE"
+    "last_model": "VOX::ToneLab SE"
   }
 }

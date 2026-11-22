@@ -771,6 +771,26 @@ Sources checked:
 
 <!-- firmware-pitch:VOX::ToneLab SE ends -->
 
+<!-- model-images:VOX::ToneLab SE begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**ToneLab SE control face**
+
+[![ToneLab SE control face](https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_top.jpg)](https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_top.jpg)
+
+[Image source](https://voxshowroom.com/us/misc/tonelab_se.html). Visually checked near-overhead stock photograph: bank24 and TONE LAB display, lit status indicators and red tube area. Twelve top rotaries, nine footswitches and two treadles visible. This stock image depicts illumination; independent confirmation of an actually powered unit remains pending. Slight rear-edge perspective is not strict orthographic top-down.
+
+**ToneLab SE rear connectors**
+
+[![ToneLab SE rear connectors](https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_front.jpg)](https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_front.jpg)
+
+[Image source](https://voxshowroom.com/us/misc/tonelab_se.html). Visually checked full rear row: STANDBY, AC9V, INPUT, INSERT SEND/RETURN, OUTPUT R/L-MONO, LEVEL, HEADPHONES, MIDI OUT/IN. AC input, not DC polarity; no USB or S/PDIF shown. Small labels constrain photographic detail; connector electrical specifications remain sourced to the manual.
+
+</details>
+<!-- model-images:VOX::ToneLab SE ends -->
+
+
 Guitar multi-effects; separate from LE/ST/EX. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->
