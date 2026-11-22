@@ -200863,13 +200863,13 @@
         "model_key": "Sonicake::Black Hammer QCE-30",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2018-08",
+          "precision": "month",
+          "kind": "dated public demo proxy; exact first sale unconfirmed",
           "source_urls": [
-            "https://www.sonicake.com/products/black-hammer"
+            "https://www.youtube.com/watch?v=L1rMT_2IuS4"
           ],
-          "note": "No dated first introduction/on-sale evidence established; photo upload dates and sold-out banners are not release dates."
+          "note": "Leon Todd’s original Black Hammer demonstration was published August 29, 2018, establishing public demonstration by August 2018. Month precision is used because an earlier August 20 demo is listed by a secondary index but its original publication has not been independently checked. This is not an exact first-sale date; the November 2018 catalogue entry and 2019 manufacturer video are later evidence."
         },
         "firmware": {
           "version": null,
@@ -200908,10 +200908,72 @@
             "title": "Official regional Black Hammer product",
             "access": "Manufacturer/distributor source checked2026-11-22",
             "evidence": "ExactQCE30 fixed effects,75mA,500ms delay;no dated firmware."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=L1rMT_2IuS4",
+            "title": "Metal Flyrig for Under $100?! Sonicake Black Hammer — Leon Todd",
+            "access": "Indexed original video publication metadata checked 2026-11-22; direct page retrieval failed",
+            "evidence": "Published 2018-08-29; original-model public demonstration predates November 2018 catalogue and 2019 manufacturer demonstration. Does not prove exact first shipment."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Sonicake::Black Hammer QCE-30",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.sonicake.com/products/black-hammer"
+              ],
+              "note": "No dated first introduction/on-sale evidence established; photo upload dates and sold-out banners are not release dates."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.sonicake.com/products/black-hammer",
+                "https://www.hotone.jp/brands/sonicake/products/black-hammer"
+              ],
+              "note": "No exact-model firmware package,updater or version history located in checked global/regional product sources. Fixed-function controls do not prove the digital sections lack internal firmware. No device update performed."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Documented effect set is pre-gain boost,high-gain distortion with EQ/gate,chorus and500ms delay. No selectable transpose,octaver or harmonizer documented. Chorus modulation is not evidence of a separate pitch-shifting algorithm.",
+              "preset": "No addressable factory/user preset bank or pitch recall documented; physical controls andstage switches. Exact power-on bypass-state persistence remains unverified.",
+              "dsp": "No pitch resource cost applies to the documented effect set. Fixed effects are not freely assignable pitch slots. Manufacturer identifies analog distortion anddigitally implemented analog-voiced delay; no all-analog or pitch CPU percentage claim inferred.",
+              "source_urls": [
+                "https://www.sonicake.com/products/black-hammer",
+                "https://www.hotone.jp/brands/sonicake/products/black-hammer"
+              ],
+              "measurements": [],
+              "notes": [
+                "Manufacturer suggests downstream external IR; that does not establish an onboard IR loader or pitch processor. No physical latency,polyphony or DSP test."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.sonicake.com/products/black-hammer",
+                "title": "Black Hammer QCE-30 product",
+                "access": "Manufacturer/distributor source checked2026-11-22",
+                "evidence": "Boost,distortion/EQ/gate,chorus,digitaldelay;no pitch or updater listed."
+              },
+              {
+                "url": "https://www.hotone.jp/brands/sonicake/products/black-hammer",
+                "title": "Official regional Black Hammer product",
+                "access": "Manufacturer/distributor source checked2026-11-22",
+                "evidence": "ExactQCE30 fixed effects,75mA,500ms delay;no dated firmware."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Sonicake::RockStage QCE-10": {
         "model_key": "Sonicake::RockStage QCE-10",
@@ -213042,8 +213104,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Sonicake::Sonic Wood QCE-50",
-    "last_commit_parent": "b6e4740a0a603a74b33a8e0034c4925911e8b3e1",
+    "last_model": "Sonicake::Black Hammer QCE-30",
+    "last_commit_parent": "ba702972d8faf97e56509d7b5a2c85f330b8f495",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

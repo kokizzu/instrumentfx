@@ -188,7 +188,7 @@ Checked2026-10-28 against the [exact manufacturer page](https://www.sonicake.com
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. No dated first introduction/on-sale evidence established; photo upload dates and sold-out banners are not release dates. [launch 1](https://www.sonicake.com/products/black-hammer) |
+| Firmware / first hardware release | 2018-08 (dated public demo proxy; exact first sale unconfirmed). Leon Todd’s original Black Hammer demonstration was published August 29, 2018, establishing public demonstration by August 2018. Month precision is used because an earlier August 20 demo is listed by a secondary index but its original publication has not been independently checked. This is not an exact first-sale date; the November 2018 catalogue entry and 2019 manufacturer video are later evidence. [launch 1](https://www.youtube.com/watch?v=L1rMT_2IuS4) |
 | Firmware / latest verification | Not verified — No public firmware located. No exact-model firmware package,updater or version history located in checked global/regional product sources. Fixed-function controls do not prove the digital sections lack internal firmware. No device update performed. [firmware 1](https://www.sonicake.com/products/black-hammer) [firmware 2](https://www.hotone.jp/brands/sonicake/products/black-hammer) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -203,6 +203,7 @@ Sources checked:
 
 - [Black Hammer QCE-30 product](https://www.sonicake.com/products/black-hammer) — Boost,distortion/EQ/gate,chorus,digitaldelay;no pitch or updater listed. (Manufacturer/distributor source checked2026-11-22).
 - [Official regional Black Hammer product](https://www.hotone.jp/brands/sonicake/products/black-hammer) — ExactQCE30 fixed effects,75mA,500ms delay;no dated firmware. (Manufacturer/distributor source checked2026-11-22).
+- [Metal Flyrig for Under $100?! Sonicake Black Hammer — Leon Todd](https://www.youtube.com/watch?v=L1rMT_2IuS4) — Published 2018-08-29; original-model public demonstration predates November 2018 catalogue and 2019 manufacturer demonstration. Does not prove exact first shipment. (Indexed original video publication metadata checked 2026-11-22; direct page retrieval failed).
 
 <!-- firmware-pitch:Sonicake::Black Hammer QCE-30 ends -->
 
