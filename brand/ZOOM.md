@@ -466,6 +466,30 @@ Seller, stock, working state, authenticity/origin, bundle, adapter, warranty, sh
 
 ## 607
 
+<!-- firmware-pitch:Zoom::607 begins -->
+### Firmware and pitch audit — Zoom 607
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2001 (manufacturer product-history release year). Corporate history lists 607 BASS in 2001; exact announcement/first shipment day unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model support page lists operation manual only; no public device firmware package/changelog located. Published connector inventory contains no USB/MIDI update interface. Internal ROM revisions remain possible; latest system revision/date unknown. Patch restoration and pedal calibration are not firmware releases. [firmware 1](https://zoomcorp.com/en/jp/multi-effects/bass-effects/607/607-support/) [firmware 2](https://zoomcorp.com/media/documents/E_607.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH SHIFT: P1/P2 octave-down, P3/P4 fifth-down, P5/P6 fourth-up, P7/P8 octave-up (paired mix variants); P9 detune. PEDAL PITCH L1:0→−100 cents, L2:0→+1 octave, L3:0→+2 octaves, L4:0→−1 octave, L5:0→−2 octaves; L6–L9 add special sweeps. OCTAVER adds octave-down; OCTAVER→CHORUS combines them. Bass Synth/Defret single-note guidance does not classify pitch-shifter polyphony. [pitch 1](https://zoomcorp.com/media/documents/E_607.pdf) |
+| Pitch / preset recall | 42 factory-filled rewritable patches (7 banks ×6), not 42+42. PEDAL PITCH requires MOD/PITCH assignment via PEDAL ASSIGN, not just effect selection. Pitch/octave alternatives share MOD/PITCH; assignment and module states save per patch. No global volume-only override established. |
+| Pitch / DSP resources | No per-pitch DSP percentage documented. Eight modules/up to nine simultaneous effects describe fixed architecture, not nine freely assignable slots or pitch CPU load. |
+| Pitch / qualifications | Own 607-5000-1 English manual scope; not606. No physical chord-tracking or resource-use measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — 607 BASS appears under 2001. (official 2001 product group read).
+- [Zoom 607 support page](https://zoomcorp.com/en/jp/multi-effects/bass-effects/607/607-support/) — Operation manual only; no public firmware package/changelog found. (official Documents section read).
+- [Zoom 607 Bass operation manual 607-5000-1](https://zoomcorp.com/media/documents/E_607.pdf) — Nine fixed patterns, pedal range/assignment, octave and synth distinctions, patch memory and module ceilings. No pitch polyphony guarantee or DSP%. (official PDF printed pp32–35,38 and memory sections read).
+
+<!-- firmware-pitch:Zoom::607 ends -->
+
 Checked 2026-10-17; partial. Officially bass-focused; seller’s guitar title does not override manufacturer identity. Ownership unverified.
 
 <!-- comparison evidence begins -->

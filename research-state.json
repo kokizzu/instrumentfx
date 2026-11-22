@@ -205713,10 +205713,68 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::607": {
+        "model_key": "Zoom::607",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2001",
+          "precision": "year",
+          "kind": "manufacturer product-history release year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Corporate history lists 607 BASS in 2001; exact announcement/first shipment day unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/jp/multi-effects/bass-effects/607/607-support/",
+            "https://zoomcorp.com/media/documents/E_607.pdf"
+          ],
+          "note": "Exact-model support page lists operation manual only; no public device firmware package/changelog located. Published connector inventory contains no USB/MIDI update interface. Internal ROM revisions remain possible; latest system revision/date unknown. Patch restoration and pedal calibration are not firmware releases."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PITCH SHIFT: P1/P2 octave-down, P3/P4 fifth-down, P5/P6 fourth-up, P7/P8 octave-up (paired mix variants); P9 detune. PEDAL PITCH L1:0→−100 cents, L2:0→+1 octave, L3:0→+2 octaves, L4:0→−1 octave, L5:0→−2 octaves; L6–L9 add special sweeps. OCTAVER adds octave-down; OCTAVER→CHORUS combines them. Bass Synth/Defret single-note guidance does not classify pitch-shifter polyphony.",
+          "preset": "42 factory-filled rewritable patches (7 banks ×6), not 42+42. PEDAL PITCH requires MOD/PITCH assignment via PEDAL ASSIGN, not just effect selection. Pitch/octave alternatives share MOD/PITCH; assignment and module states save per patch. No global volume-only override established.",
+          "dsp": "No per-pitch DSP percentage documented. Eight modules/up to nine simultaneous effects describe fixed architecture, not nine freely assignable slots or pitch CPU load.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_607.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Own 607-5000-1 English manual scope; not606. No physical chord-tracking or resource-use measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official 2001 product group read",
+            "evidence": "607 BASS appears under 2001."
+          },
+          {
+            "url": "https://zoomcorp.com/en/jp/multi-effects/bass-effects/607/607-support/",
+            "title": "Zoom 607 support page",
+            "access": "official Documents section read",
+            "evidence": "Operation manual only; no public firmware package/changelog found."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_607.pdf",
+            "title": "Zoom 607 Bass operation manual 607-5000-1",
+            "access": "official PDF printed pp32–35,38 and memory sections read",
+            "evidence": "Nine fixed patterns, pedal range/assignment, octave and synth distinctions, patch memory and module ceilings. No pitch polyphony guarantee or DSP%."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::607",
       "Zoom::707II",
       "Zoom::708II",
       "Zoom::A1 FOUR",
@@ -205775,12 +205833,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 345,
-    "last_model": "Zoom::606",
-    "last_commit_parent": "496af68dec891d2b9d18dc3f534d97cc471af15b",
+    "completed_model_count": 346,
+    "last_model": "Zoom::607",
+    "last_commit_parent": "5631cf5aa2c22fc841c508c828faab0b7ab4bd33",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::607",
       "Zoom::707II",
       "Zoom::708II",
       "Zoom::A1 FOUR",
@@ -205838,7 +205895,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 345,
+    "pitch_completed_model_count": 346,
     "supplemental_model_count": 0
   },
   "model_images": {
