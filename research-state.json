@@ -218419,11 +218419,36 @@
             "sha256": "4e887c6e5f7008759a8a5b0448dc0d8eb972e7b829859e09e2a747c640257dd4"
           }
         }
+      },
+      "Zoom::NEURIG": {
+        "model_key": "Zoom::NEURIG",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://zoomcorp.com/media/original_images/NEURIG_Image-Gallery_2.png.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+            "source_url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/",
+            "caption": "NEURIG control face",
+            "note": "Manufacturer straight-down product photograph with active dual-screen rig display and blue indicators. Two rotary controls and four footswitches are fully visible. Promotional screen content is not independent proof of a photographed running unit.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "7b4f2843bd2e6583272b58084921d84be6d13cd731f0b315adaaac44f8ca623e"
+          },
+          "rear": {
+            "image_url": "https://zoomcorp.com/media/original_images/NEURIG-Back-Panel-1800x900_9.png.1600x0_q80_crop-smart_size_canvas_upscale.png",
+            "source_url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/",
+            "caption": "NEURIG rear connections",
+            "note": "Manufacturer annotated complete rear view: INPUT, CONTROL IN, 3.5 mm MIDI IN/OUT, SEND/SUB OUT, RETURN/SUB IN, PHONES, RIGHT and LEFT/MONO outputs, USB-C DC5V and power button. Blue status bar shown; the round feature beneath USB is a screw.",
+            "visual_checked": true,
+            "powered_on": true,
+            "sha256": "dd6c1061a365bd2164e4467aa6b33d4b3f9d36db514afeccb60437df0b10617b"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::MS-80IR Plus"
+    "last_model": "Zoom::NEURIG"
   }
 }

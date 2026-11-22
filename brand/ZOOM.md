@@ -9636,6 +9636,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::NEURIG ends -->
 
+<!-- model-images:Zoom::NEURIG begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**NEURIG control face**
+
+[![NEURIG control face](https://zoomcorp.com/media/original_images/NEURIG_Image-Gallery_2.png.0x800_q80_crop-%2Cscale_size_canvas.jpg)](https://zoomcorp.com/media/original_images/NEURIG_Image-Gallery_2.png.0x800_q80_crop-%2Cscale_size_canvas.jpg)
+
+[Image source](https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/). Manufacturer straight-down product photograph with active dual-screen rig display and blue indicators. Two rotary controls and four footswitches are fully visible. Promotional screen content is not independent proof of a photographed running unit.
+
+**NEURIG rear connections**
+
+[![NEURIG rear connections](https://zoomcorp.com/media/original_images/NEURIG-Back-Panel-1800x900_9.png.1600x0_q80_crop-smart_size_canvas_upscale.png)](https://zoomcorp.com/media/original_images/NEURIG-Back-Panel-1800x900_9.png.1600x0_q80_crop-smart_size_canvas_upscale.png)
+
+[Image source](https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/). Manufacturer annotated complete rear view: INPUT, CONTROL IN, 3.5 mm MIDI IN/OUT, SEND/SUB OUT, RETURN/SUB IN, PHONES, RIGHT and LEFT/MONO outputs, USB-C DC5V and power button. Blue status bar shown; the round feature beneath USB is a screw.
+
+</details>
+<!-- model-images:Zoom::NEURIG ends -->
+
+
 Checked 2026-10-18. Announced guitar multi-effects; planned early-November launch. Catalogue inclusion does not establish shipping or Indonesian availability. Partial; no device/software tested. Bass/vocal suitability unverified. [Product][NEU-P]
 
 <!-- comparison evidence begins -->
