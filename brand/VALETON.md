@@ -751,6 +751,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::Dapper MDR ends -->
 
+<!-- model-images:Valeton::Dapper MDR begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Near-overhead MDR manufacturer control-face image, unlit.**
+
+[![Near-overhead MDR manufacturer control-face image, unlit.](https://res.valeton.net/Uploads/wp/2025/06/o_1e4inqlkg17qelmin7u4v9mkt5o-scaled.jpg)](https://res.valeton.net/Uploads/wp/2025/06/o_1e4inqlkg17qelmin7u4v9mkt5o-scaled.jpg)
+
+[Image source](https://www.valeton.net/product/dapper-mdrdiscontinued/). Visually 10 rotary controls, 3 footswitches and 4 type toggles. Tuner/status strip unlit; slight perspective with edge/jacks visible. Powered-on strict perpendicular overhead remains pending. Modulation two-selector layout is one model selector system, not nine independent blocks.
+
+**Actual used MDR connector-edge photograph.**
+
+[![Actual used MDR connector-edge photograph.](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/57102/345165/YOTHER13373107__96479.1707918671.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/57102/345165/YOTHER13373107__96479.1707918671.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/valeton-dapper-mdr-multi-fx-pedal-psu-2nd-hand/). Unlit unit shows 9V DC center-negative socket, quarter-inch IN and OUT and smaller headphone socket. No additional connector visible on this edge; not a complete all-edge absence audit. Current consumption not legible here. Exact MDR panel matches manufacturer control face.
+
+</details>
+<!-- model-images:Valeton::Dapper MDR ends -->
+
+
 Checked2026-10-17;partial. Effects-only guitar multi-effects;discontinued. Bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->
