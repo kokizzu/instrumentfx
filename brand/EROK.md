@@ -17,7 +17,7 @@
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. No dated first hardware launch established. June 2026 PDF creation/index dates and earliest located VER 014 notes are not hardware release dates. [launch 1](https://erokmusic.com/product/multi-effects/MP-10) |
+| Firmware / first hardware release | Not verified. No dated first hardware launch established. June 2026 PDF creation/index dates and earliest located VER 014 notes are not hardware release dates. An exact-title MP-10 AM4 tone-update tutorial by skmlb is indexed April5,2026, earlier than June manual metadata. Video pixels, device revision and uploader relationship to EROK are unverified; public tutorial date is retained as a discovery lead, not adopted as first sale or current firmware evidence. [launch 1](https://erokmusic.com/product/multi-effects/MP-10) [launch 2](https://www.youtube.com/watch?v=yP6fwLQTaYc) |
 | Firmware / latest verification | 016 — Latest verified. Official current catalogue selects MP-10_016.fwsc; explicit VER 016 changelog dates release November 17. Download metadata says November 18, treated as file metadata, not release date. Fixes UI, CAB saving/model upload and busy-state issues; normal upgrade retains presets/models/IR. VER 016 AI Ms Gate presets require older backups for downgrade. [firmware 1](https://erokmusic.com/js/firmware-notes/en.json) [firmware 2](https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186) [firmware 3](https://erokmusic.com/js/data-download-meta.js?v=10&rev=78d5cd5bb107c29f) |
 | Firmware / release date | 2026-11-17 (day precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -35,6 +35,7 @@ Sources checked:
 - [EROK current product/download catalogue](https://erokmusic.com/js/data-core.min.js?v=13&rev=61ae222d06935186) — Exact MP-10 manual/gallery paths and current firmware 016 selection with November 17 date. (Direct manufacturer JS read as inert text, SHA256 61ae222d069351869f49a8e0c904c0a3429d834cc810039c226d1894f9a94341).
 - [EROK download file metadata](https://erokmusic.com/js/data-download-meta.js?v=10&rev=78d5cd5bb107c29f) — MP-10_016 file date November 18 differs from explicit release notes; not adopted as release date. (Direct manufacturer JS as inert text, SHA256 78d5cd5bb107c29fd0035ed016786b0e56e670e65fc54278c1a091def219a5cd).
 - [EROK MP-10 original manual](https://erokmusic.com/download/manuals/MP-10.pdf) — 120 locations, first 54 factory-filled; seven reorderable modules and 7+1 gate combination; Shimmer unison to +2 octaves; EXT volume/wah and TRS expression. Predates documented WHAMMY addition. (Direct manufacturer 14-page raster PDF; visually read printed EN01/02/05/08/09/11/12; SHA256 255db4da4d0ff61915b62eda1cf63055838b01929bd78b4aceae9ce7440eedbe).
+- [EROK MP-10 &#124; How to Update AM4 Tones — skmlb](https://www.youtube.com/watch?v=yP6fwLQTaYc) — Published April5,2026; earlier chronology lead than June manual metadata. Manufacturer authorship, actual unit revision and first sale not verified; no new firmware number inferred. (Original video search-index title/uploader/date metadata checked2026-11-22; no description, frames not inspected).
 
 <!-- firmware-pitch:EROK::MP-10 ends -->
 
