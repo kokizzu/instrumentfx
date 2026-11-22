@@ -554,9 +554,9 @@ Sources checked:
 
 **Magicstomp Guitar MK2 rear connectors**
 
-[![Magicstomp Guitar MK2 rear connectors](https://cdn.korn.eu/pictures/product/400/154254_1.jpg)](https://cdn.korn.eu/pictures/product/400/154254_1.jpg)
+[![Magicstomp Guitar MK2 rear connectors](https://cdn.korn.eu/pictures/product/1500/154254_1.jpg)](https://cdn.korn.eu/pictures/product/1500/154254_1.jpg)
 
-[Image source](https://www.musikhaus-korn.de/en/yamaha-magic-stomp-ub-99-mk-ii/pd/96456). Visually checked complete rear row in exact MKII retailer gallery: INPUT, HIGH/LOW, OUTPUT R/L-MONO, PHONES, USB-B and AC IN12V1A~; cable-retaining hook at right. Small400px image limits fine-label detail; visible headphone socket distinguishes this layout from the original no-PHONES model. No analog EXP, MIDI DIN or XLR sockets shown; AC input has no DC center polarity.
+[Image source](https://www.musikhaus-korn.de/en/yamaha-magic-stomp-ub-99-mk-ii/pd/96456). Visually checked complete rear row in the exact MKII retailer gallery: INPUT, HIGH/LOW input-level slider, OUTPUT R/L-MONO, PHONES, USB-B and AC IN12V1A~; cable-retaining hook at right. This endpoint supplies a 500-pixel image, improving the previous 400-pixel view but still limiting fine detail. The headphone socket distinguishes this layout from the original no-PHONES model. No analog EXP, MIDI DIN or XLR sockets shown; AC input has no DC center polarity.
 
 </details>
 <!-- model-images:Yamaha::Magicstomp Guitar MK2 ends -->
