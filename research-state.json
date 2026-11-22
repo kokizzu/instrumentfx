@@ -220414,11 +220414,36 @@
             "sha256": "b2ac89ae3f90e4209870b83dcb53ae8834af88b77cc99cf417aa8288f7a62c62"
           }
         }
+      },
+      "DemonFX::Dual Mod Workstation": {
+        "model_key": "DemonFX::Dual Mod Workstation",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://i.etsystatic.com/39364016/r/il/c4d56e/5983453588/il_fullxfull.5983453588_okk1.jpg",
+            "source_url": "https://www.etsy.com/listing/1729755369/demonfx-dual-mod-workstation-guitar",
+            "caption": "Top-down control surface (unpowered)",
+            "note": "Complete overhead control surface with ten knobs and three footswitches unobstructed. The three blue LED lenses are unlit; a verified powered-on top-down photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": true,
+            "sha256": "6c4e4e279c07c8ffddeadd81a7eb8dbfbe834f56c1ed39015f3b69f0e6331b5a"
+          },
+          "rear": {
+            "image_url": "https://i.etsystatic.com/39364016/r/il/4d4720/6031515139/il_1588xN.6031515139_avnw.jpg",
+            "source_url": "https://www.etsy.com/listing/1729755369/demonfx-dual-mod-workstation-guitar",
+            "caption": "Complete rear connector edge",
+            "note": "The entire connector edge is visible, with top-face labels upside down: IN, EXP, TAP, STEREO and MONO audio/control jacks plus 9 V DC power. The angled photograph shows every socket opening without cable obstruction.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "096a47b3c078934205526c87f7e9b640f277e25cdf8b5d67c5810f1ad2be4878"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Blackstar::ID:X Floor One"
+    "last_model": "DemonFX::Dual Mod Workstation"
   }
 }

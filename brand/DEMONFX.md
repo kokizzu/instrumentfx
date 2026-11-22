@@ -33,6 +33,26 @@ Sources checked:
 
 <!-- firmware-pitch:DemonFX::Dual Mod Workstation ends -->
 
+<!-- model-images:DemonFX::Dual Mod Workstation begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Top-down control surface (unpowered)**
+
+[![Top-down control surface (unpowered)](https://i.etsystatic.com/39364016/r/il/c4d56e/5983453588/il_fullxfull.5983453588_okk1.jpg)](https://i.etsystatic.com/39364016/r/il/c4d56e/5983453588/il_fullxfull.5983453588_okk1.jpg)
+
+[Image source](https://www.etsy.com/listing/1729755369/demonfx-dual-mod-workstation-guitar). Complete overhead control surface with ten knobs and three footswitches unobstructed. The three blue LED lenses are unlit; a verified powered-on top-down photograph remains pending.
+
+**Complete rear connector edge**
+
+[![Complete rear connector edge](https://i.etsystatic.com/39364016/r/il/4d4720/6031515139/il_1588xN.6031515139_avnw.jpg)](https://i.etsystatic.com/39364016/r/il/4d4720/6031515139/il_1588xN.6031515139_avnw.jpg)
+
+[Image source](https://www.etsy.com/listing/1729755369/demonfx-dual-mod-workstation-guitar). The entire connector edge is visible, with top-face labels upside down: IN, EXP, TAP, STEREO and MONO audio/control jacks plus 9 V DC power. The angled photograph shows every socket opening without cable obstruction.
+
+</details>
+<!-- model-images:DemonFX::Dual Mod Workstation ends -->
+
+
 Checked 2026-10-18; partial. Own two-page manual identifies this model and demon-fx.com. Its Keeley reference does not prove equivalence. Ownership unknown; bass/vocal suitability unclassified.
 
 <!-- comparison evidence begins -->
