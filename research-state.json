@@ -214486,7 +214486,7 @@
       },
       "Korg::AX10G": {
         "model_key": "Korg::AX10G",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "views": {
           "top": {
             "image_url": "https://medias.audiofanzine.com/images/normal/korg-ax10g-6853107.jpg",
@@ -214497,6 +214497,14 @@
             "powered_on": false,
             "exact_top_down": false,
             "sha256": "8f6ce5c2f2e6fdda62b2bec7bc97bd3cf6cd2a6d0fdde8640bcf39b87674b2c1"
+          },
+          "rear": {
+            "image_url": "https://herscheids.com/cdn/shop/files/IMG_6832_0206bdb1-be54-4dd7-9829-9fa43063f143.heic?v=1682615064&width=1200&format=jpg",
+            "source_url": "https://herscheids.com/products/korg-toneworks-ax10g-modeling-signal-processor",
+            "caption": "AX10G rear connections — angled close-up",
+            "note": "Both quarter-inch audio jacks, INPUT L/H and OUTPUT AMP/LINE selectors, and DC9V inlet are clearly visible. Photo is diagonal and crops the end of the rear model lettering and part of the cable hook; matching [front photograph](https://herscheids.com/cdn/shop/files/IMG_6823_ff90fbfa-6a9b-4649-b576-f01174d8362a.heic?v=1682615064&width=1200&format=jpg) in the same seller gallery confirms AX10G (identity image SHA-256 eb32a7d9a02467b19d605d5b9c15ed26c9fff91e037b894dd2e18de1351bceec). Rear view does not establish powered-on operation.",
+            "visual_checked": true,
+            "sha256": "e1f1bbcbf7bfaf49f74fda97ae9f729adbacb5dfc17c24ee14082f1d241c581d"
           }
         }
       },
@@ -222937,6 +222945,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Dark Mini"
+    "last_model": "Korg::AX10G"
   }
 }

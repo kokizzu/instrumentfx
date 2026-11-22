@@ -753,7 +753,11 @@ Sources checked:
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/korg/Ax10g/). Exact AX10G user photograph; model label, complete expression pedal, switches and controls visible from near overhead. Display and indicator lenses are unlit, so powered-on state is not established. Slight perspective remains; powered-on straight top-down replacement pending. Rear candidate2759862 was rejected because its panel is AX10A, not AX10G.
 
-**Rear view:** not yet verified.
+**AX10G rear connections — angled close-up**
+
+[![AX10G rear connections — angled close-up](https://herscheids.com/cdn/shop/files/IMG_6832_0206bdb1-be54-4dd7-9829-9fa43063f143.heic?v=1682615064&width=1200&format=jpg)](https://herscheids.com/cdn/shop/files/IMG_6832_0206bdb1-be54-4dd7-9829-9fa43063f143.heic?v=1682615064&width=1200&format=jpg)
+
+[Image source](https://herscheids.com/products/korg-toneworks-ax10g-modeling-signal-processor). Both quarter-inch audio jacks, INPUT L/H and OUTPUT AMP/LINE selectors, and DC9V inlet are clearly visible. Photo is diagonal and crops the end of the rear model lettering and part of the cable hook; matching [front photograph](https://herscheids.com/cdn/shop/files/IMG_6823_ff90fbfa-6a9b-4649-b576-f01174d8362a.heic?v=1682615064&width=1200&format=jpg) in the same seller gallery confirms AX10G (identity image SHA-256 eb32a7d9a02467b19d605d5b9c15ed26c9fff91e037b894dd2e18de1351bceec). Rear view does not establish powered-on operation.
 
 </details>
 <!-- model-images:Korg::AX10G ends -->
