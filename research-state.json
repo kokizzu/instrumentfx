@@ -213250,11 +213250,36 @@
             "sha256": "3a9a8d1faccda187c5cd8fa170bfbb0c0804b34af5b223002f04e4cf61168382"
           }
         }
+      },
+      "Zoom::606": {
+        "model_key": "Zoom::606",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-606-guitar-6334600.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/606-Guitar/",
+            "caption": "606 powered control face",
+            "note": "Visually checked complete powered 606 GUITAR from overhead with slight perspective: E1 display and DRIVE assignment/status LEDs lit, cables connected. Two rotary selectors, six buttons and two patch footswitches, plus built-in expression treadle. Toe-switch mechanism is not visible under the treadle. E1 is a patch, not firmware.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "2039144f6bd90dea91406c09c1484d21c52bd2df12826b45ff0db2b9b232b93f"
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/49242/258182/YZOOM12640505__83766.1686138788.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/zoom-606-guitar-pedal-2nd-hand/",
+            "caption": "606 rear connectors",
+            "note": "Visually checked angled rear of actual 606 GUITAR, all three connectors visible: INPUT, recessed DC input and shared OUTPUT/PHONES. No external CONTROL/EXP, USB or MIDI socket shown. Labels small; use own manual for electrical ratings. Unconnected and unlit in this view; different unit from powered top.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "c2796a08f03ae3c8fdc1e23a634d945de3bd93b63424526f20f80e6e6a3a3e16"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::506II"
+    "last_model": "Zoom::606"
   }
 }

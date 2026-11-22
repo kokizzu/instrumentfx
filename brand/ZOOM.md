@@ -380,6 +380,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::606 ends -->
 
+<!-- model-images:Zoom::606 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**606 powered control face**
+
+[![606 powered control face](https://medias.audiofanzine.com/images/normal/zoom-606-guitar-6334600.jpg)](https://medias.audiofanzine.com/images/normal/zoom-606-guitar-6334600.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/606-Guitar/). Visually checked complete powered 606 GUITAR from overhead with slight perspective: E1 display and DRIVE assignment/status LEDs lit, cables connected. Two rotary selectors, six buttons and two patch footswitches, plus built-in expression treadle. Toe-switch mechanism is not visible under the treadle. E1 is a patch, not firmware.
+
+**606 rear connectors**
+
+[![606 rear connectors](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/49242/258182/YZOOM12640505__83766.1686138788.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/49242/258182/YZOOM12640505__83766.1686138788.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/zoom-606-guitar-pedal-2nd-hand/). Visually checked angled rear of actual 606 GUITAR, all three connectors visible: INPUT, recessed DC input and shared OUTPUT/PHONES. No external CONTROL/EXP, USB or MIDI socket shown. Labels small; use own manual for electrical ratings. Unconnected and unlit in this view; different unit from powered top.
+
+</details>
+<!-- model-images:Zoom::606 ends -->
+
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->
