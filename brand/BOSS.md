@@ -937,6 +937,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GS-10 ends -->
 
+<!-- model-images:BOSS::GS-10 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS GS-10 — control surface**
+
+[![BOSS GS-10 — control surface](https://static.roland.com/assets/images/products/main/gs10_main.jpg)](https://static.roland.com/assets/images/products/main/gs10_main.jpg)
+
+[Image source](https://www.boss.info/global/products/gs-10/). Manufacturer top-down control-surface photograph with illuminated LCD and red indicators; both speaker grilles, knobs and buttons visible. Small 480-pixel-wide source limits fine-label detail. Front-edge headphone and guitar/bass sockets are not fully shown.
+
+**BOSS GS-10 — rear connections**
+
+[![BOSS GS-10 — rear connections](https://i.ebayimg.com/images/g/RhQAAeSwPExqsghI/s-l1600.webp)](https://i.ebayimg.com/images/g/RhQAAeSwPExqsghI/s-l1600.webp)
+
+[Image source](https://www.ebay.com/itm/188962766926). Elevated rear photograph showing the complete connector panel: XLR/TRS microphone inputs, RCA auxiliary inputs and outputs, guitar-amp output, expression/control, digital output, USB, MIDI OUT/IN, power switch and AC IN. This is the GS-10 desktop unit, not the similarly named GP-10 or GX-10.
+
+</details>
+<!-- model-images:BOSS::GS-10 ends -->
+
+
 **Active partial profile,2026-10-28; not fully verified.** Discontinued desktop guitar/bass multi-effects, supported by its [own manufacturer product page](https://www.boss.info/global/products/gs-10/), [original brochure](https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf) and exact-model manual cited below. No exact Shopee offer established. Earlier partial-lead notes remain dated provenance, superseded only in admission status.
 
 <!-- comparison evidence begins -->

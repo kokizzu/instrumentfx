@@ -219774,11 +219774,36 @@
             "sha256": "bae25caa25a2f4b5dcddd8ebd3476225f92a58b260550c3c62acd190d2d57924"
           }
         }
+      },
+      "BOSS::GS-10": {
+        "model_key": "BOSS::GS-10",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/assets/images/products/main/gs10_main.jpg",
+            "source_url": "https://www.boss.info/global/products/gs-10/",
+            "caption": "BOSS GS-10 — control surface",
+            "note": "Manufacturer top-down control-surface photograph with illuminated LCD and red indicators; both speaker grilles, knobs and buttons visible. Small 480-pixel-wide source limits fine-label detail. Front-edge headphone and guitar/bass sockets are not fully shown.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "cf9092fb375d4c6cad7c7aed486d684732071e2f6f39ac6713442e45b2584402"
+          },
+          "rear": {
+            "image_url": "https://i.ebayimg.com/images/g/RhQAAeSwPExqsghI/s-l1600.webp",
+            "source_url": "https://www.ebay.com/itm/188962766926",
+            "caption": "BOSS GS-10 — rear connections",
+            "note": "Elevated rear photograph showing the complete connector panel: XLR/TRS microphone inputs, RCA auxiliary inputs and outputs, guitar-amp output, expression/control, digital output, USB, MIDI OUT/IN, power switch and AC IN. This is the GS-10 desktop unit, not the similarly named GP-10 or GX-10.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "9f2a5e77d202c99536a13caccfe9a81aeeee5041ce17a051aff2b34bcfc2cf00"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GT-Pro"
+    "last_model": "BOSS::GS-10"
   }
 }
