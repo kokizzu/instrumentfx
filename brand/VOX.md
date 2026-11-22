@@ -39,6 +39,26 @@ Sources checked:
 
 <!-- firmware-pitch:VOX::StompLab 1B ends -->
 
+<!-- model-images:VOX::StompLab 1B begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Official VOX StompLab 1B control-face image**
+
+[![Official VOX StompLab 1B control-face image](https://voxamps.com/wp-content/uploads/2019/02/SL1B-StompLab-Bass-Multi-Effect-1.png)](https://voxamps.com/wp-content/uploads/2019/02/SL1B-StompLab-Bass-Multi-Effect-1.png)
+
+[Image source](https://voxamps.com/product/stomplab-1b/). Visually inspected red bass control face: three knobs, three small buttons and two footswitches, no treadle. Official stock image displays 50 and colored indicator artwork; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending.
+
+**VOX StompLab 1B rear-port retailer image**
+
+[![VOX StompLab 1B rear-port retailer image](https://www.beyers-bass.de/images/product_images/original_images/61-nHURMlXL-_AC_SL1500_.jpg)](https://www.beyers-bass.de/images/product_images/original_images/61-nHURMlXL-_AC_SL1500_.jpg)
+
+[Image source](https://www.beyers-bass.de/Vox-StompLab-1B.html?language=de). Visually inspected rear explicitly marked StompLab IB: INPUT, shared OUTPUT/PHONES(STEREO/MONO), POWER button and center-negative DC9V socket. Full rear row is readable; no USB/MIDI socket shown. Photo corroborates connector placement and polarity, not internal firmware or measured operation.
+
+</details>
+<!-- model-images:VOX::StompLab 1B ends -->
+
+
 <!-- comparison evidence begins -->
 
 Checked 2026-10-18. **Bass multi-effects**, also styled StompLab IB; distinct from expression-equipped IIB. Partial record; no dependencies or manuals downloaded.

@@ -211190,11 +211190,37 @@
             "note": "Speaker-grille/logo face only, without controls or readable ports; not adopted as overhead control view."
           }
         ]
+      },
+      "VOX::StompLab 1B": {
+        "model_key": "VOX::StompLab 1B",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://voxamps.com/wp-content/uploads/2019/02/SL1B-StompLab-Bass-Multi-Effect-1.png",
+            "source_url": "https://voxamps.com/product/stomplab-1b/",
+            "caption": "Official VOX StompLab 1B control-face image",
+            "note": "Visually inspected red bass control face: three knobs, three small buttons and two footswitches, no treadle. Official stock image displays 50 and colored indicator artwork; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "bbcea2f023bb916b835b910507705e8af83059dd59394eb23266b6307b02e906",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://www.beyers-bass.de/images/product_images/original_images/61-nHURMlXL-_AC_SL1500_.jpg",
+            "source_url": "https://www.beyers-bass.de/Vox-StompLab-1B.html?language=de",
+            "caption": "VOX StompLab 1B rear-port retailer image",
+            "note": "Visually inspected rear explicitly marked StompLab IB: INPUT, shared OUTPUT/PHONES(STEREO/MONO), POWER button and center-negative DC9V socket. Full rear row is readable; no USB/MIDI socket shown. Photo corroborates connector placement and polarity, not internal firmware or measured operation.",
+            "visual_checked": true,
+            "sha256": "d8f5a024ee433a2ccd6605285639c2602d9e5eda4832d9d4bdc8fa3723e5319e",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VING::Flybro FB-100"
+    "last_model": "VOX::StompLab 1B"
   }
 }
