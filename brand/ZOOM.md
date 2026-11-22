@@ -9609,6 +9609,33 @@ Original manufacturer manual©2012. Text audit only;no device/software execution
 
 ## NEURIG
 
+<!-- firmware-pitch:Zoom::NEURIG begins -->
+### Firmware and pitch audit — Zoom NEURIG
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2026-11 (manufacturer announced retail month (Japan)). Zoom release dated October 9 announces early November 2026 availability. Exact shipping day unverified; announcement date is not retail release. [launch 1](https://prtimes.jp/main/html/rd/p/000000018.000122390.html) |
+| Firmware / latest verification | 1.32 — Latest verified. Current support offers 1.32. November 2026 history adds SessionZ Pedal and SUB IN tuning, reduces DNA-model processing load and fixes Bluetooth noise. Initial 1.00 production is also November 2026; exact sequence dates unresolved. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/neurig_support/) [firmware 2](https://zoomcorp.com/documents/4005/NEURIG_VersionHistory_132_en.pdf) |
+| Firmware / release date | 2026-11 (month precision) |
+| Firmware / release-to-update duration | -0.08–0.08 years (date ranges overlap; order unresolved); observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Poly Pitch Shifter explicitly supports chords. Separate Mono Pitch Shifter targets single-note playing; Pitch Shifter, Harmony Pitch Shifter and Octaver are also listed. Parameter ranges not established by the short effect list. [pitch 1](https://zoomcorp.com/manuals/neurig-en/) [pitch 2](https://zoomcorp.com/manuals/neurig-fx-list-en/) [pitch 3](https://zoomcorp.com/documents/4005/NEURIG_VersionHistory_132_en.pdf) |
+| Pitch / preset recall | 200 user Rigs; Program mode offers four Programs per Rig and up to three parameter settings per effect, recalled with Programs. Stomp mode stores one setting per effect. Auto Save defaults ON; manual saving available. External expression control supported. |
+| Pitch / DSP resources | Up to 14 effects, subject to a 100% processing budget. Unavailable choices are grayed out; Process Overflow shows individual effect loads. No numeric Poly Pitch Shifter cost established in reviewed text. Firmware 1.32 reduces DNA-model load, so overall capacity depends on firmware and chain. |
+| Pitch / qualifications | Documentation only; no hardware load measurement. December 2026 capture/store features are advertised future additions, not assumed available on the audit date. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom NEURIG launch release](https://prtimes.jp/main/html/rd/p/000000018.000122390.html) — October 9, 2026 release announces early November 2026 Japanese retail. (manufacturer press release inspected).
+- [NEURIG support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/neurig_support/) — Windows and Mac firmware 1.32 offered separately from driver and IR content. (official page inspected).
+- [NEURIG firmware history](https://zoomcorp.com/documents/4005/NEURIG_VersionHistory_132_en.pdf) — 1.32 November 2026: SessionZ, SUB IN tuner, reduced DNA load, Bluetooth fix. 1.00 production November 2026. (official PDF inspected).
+- [NEURIG operation manual](https://zoomcorp.com/manuals/neurig-en/) — 200 Rigs; four Programs, three effect parameter slots; auto-save. 14 effects subject to 100% budget, per-effect load display; expression control. (official HTML inspected).
+- [NEURIG effect list](https://zoomcorp.com/manuals/neurig-fx-list-en/) — Poly Pitch Shifter supports chords; separate Mono Pitch Shifter, generic Pitch Shifter, Harmony Pitch Shifter and Octaver. (official HTML inspected).
+- [NEURIG product features](https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/) — Capture and store expansion advertised for December 2026, after this audit date. (official page inspected).
+
+<!-- firmware-pitch:Zoom::NEURIG ends -->
+
 Checked 2026-10-18. Announced guitar multi-effects; planned early-November launch. Catalogue inclusion does not establish shipping or Indonesian availability. Partial; no device/software tested. Bass/vocal suitability unverified. [Product][NEU-P]
 
 <!-- comparison evidence begins -->
