@@ -3338,7 +3338,7 @@ Exact [Gelora Musik shop306155985/item18571942511](https://shopee.co.id/Multi-Ef
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Undated current product page and manual filenames do not establish launch. Relative video age and mirror publication/upload dates are not promoted to exact first release. [launch 1](https://www.valeton.net/product/rushead-max-bass/) |
+| Firmware / first hardware release | 2021-10-22 (manufacturer new-product video proxy; exact first sale unconfirmed). Valeton published The NEW Valeton Rushead Max Bass on October 22, 2021. This is a dated manufacturer public introduction, not authentication of exact first shipment. It concerns the RH-101 bass edition; earlier RH-100 guitar or RH-4 bass model dates are not transferred. [launch 1](https://www.youtube.com/watch?v=LDAwZ13jeIA) |
 | Firmware / latest verification | Not verified — No public firmware located. No exact RH-101 firmware/updater release located in checked manufacturer product/download sources. USB is documented for battery charging; this does not prove update or USB audio support. Manual V02 is a document revision, not firmware. No device or package run. [firmware 1](https://www.valeton.net/product/rushead-max-bass/) [firmware 2](https://www.valeton.net/wp-file-download-search/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -3354,6 +3354,7 @@ Sources checked:
 - [Valeton Rushead Max Bass official product](https://www.valeton.net/product/rushead-max-bass/) — Exact bass headphone amp; three amp voicings, MOD and AMBIENT; USB charging, no public update process or dedicated pitch described. (web page read).
 - [Valeton public download search](https://www.valeton.net/wp-file-download-search/) — RH-101 manual categories located; no exact-model firmware release found. Dynamic inventory does not justify impossible-to-update claim. (indexed manufacturer catalogue and exact-model firmware search).
 - [Manufacturer RH-101 manual-body reproduction](https://manuals.plus/valeton/rushead-max-bass-headphone-base-amplifier-manual) — Five knobs, TYPE selectors, ECHO/REVERB/ECHOVERB and chorus/tremolo/flanger modes; no dedicated pitch-shifting block. OCR electrical values remain qualified. (original module/control text read; host commentary excluded).
+- [The NEW Valeton Rushead Max Bass](https://www.youtube.com/watch?v=LDAwZ13jeIA) — By Valeton, published 2021-10-22; exact bass-edition new-product introduction. Does not prove exact first sale. (Original manufacturer video publication metadata indexed and checked 2026-11-22).
 
 <!-- firmware-pitch:Valeton::Rushead Max Bass RH-101 ends -->
 
