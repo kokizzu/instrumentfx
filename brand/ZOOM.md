@@ -8214,6 +8214,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::GFX-4 ends -->
 
+<!-- model-images:Zoom::GFX-4 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**GFX-4 control face**
+
+[![GFX-4 control face](https://www.njuskalo.hr/image-w920x690/miksete/guitar-effects-processor-zoom-gfx-4-gitarska-mikseta-slika-116958550.jpg)](https://www.njuskalo.hr/image-w920x690/miksete/guitar-effects-processor-zoom-gfx-4-gitarska-mikseta-slika-116958550.jpg)
+
+[Image source](https://www.njuskalo.hr/miksete/guitar-effects-processor-zoom-gfx-4-gitarska-mikseta-oglas-28879188). Actual powered GFX-4 viewed from above: red A0 bank display, amber effect LCD and module LEDs are lit. The full treadle and control layout are visible, but a hand partly covers the left footswitch and the view is slightly angled. An unobstructed perpendicular powered photograph remains pending.
+
+**GFX-4 rear connections**
+
+[![GFX-4 rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/GFX-4_rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/GFX-4_rear.jpg)
+
+[Image source](https://www.zoom.co.jp/products/guitar-bass-effects/guitar/gfx-4-guitar-effects-processor). Official complete rear photograph shows the pickup selector, three audio sockets, output-level knob, power connection and switches. Labels face upward and are difficult to read in this view; the manual identifies INPUT, MONO output, STEREO/PHONES output and 12VAC 500mA supply. Use the manual for connector functions; this is not a separate L/R plus headphone arrangement.
+
+</details>
+<!-- model-images:Zoom::GFX-4 ends -->
+
+
 Guitar multi-effects;distinct fromGFX-3/GFX-5. Checked2026-10-17;partial. Manufacturer confirms discontinued. Bass/vocal applicability and ownership unresolved.
 
 | Field | Finding / qualification | Evidence |
