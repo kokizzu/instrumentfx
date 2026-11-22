@@ -214675,11 +214675,36 @@
             "powered_on": false
           }
         }
+      },
+      "Zoom::B2 FOUR": {
+        "model_key": "Zoom::B2 FOUR",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn.basschat.co.uk/monthly_2024_08/17236289954342097205021630085147.jpg.b2c8f47b05a08b22191175970284c314.jpg",
+            "source_url": "https://www.basschat.co.uk/topic/498891-zoom-b2-four-sold/",
+            "caption": "B2 FOUR control face",
+            "note": "Actual powered B2 FOUR photographed from above with slight perspective; full control face, blue LCD at288:General, tube3 and effect1–3 LEDs lit. Four rotary controls, six metal switches (navigation center, DI MODEL,1–3,ALL BYPASS) and four navigation pads are visible. This distinguishes switch hardware from multiple hold functions.",
+            "visual_checked": true,
+            "sha256": "9908076b6355075d84eb823e5110aea90b37ac4f1e08d70da52a72621a015d50",
+            "powered_on": true,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://zoomcorp.com/media/original_images/Outputs_1_GKRRolE.jpg.1400x800_q80_crop_focal_area-1599%2C900%2C3201%2C1800_size_canvas_upscale_zoom-50.jpg",
+            "source_url": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/",
+            "caption": "B2 FOUR rear connections",
+            "note": "Manufacturer photograph of actual powered B2 FOUR rear. Ground lift, balanced XLR, input impedance switch, INPUT, AUX INPUT, stereo OUTPUT, EXPRESSION PEDAL, security slot, POWER and DC9V are visible; connected cables partly obscure labels. PHONES and USB-C are side connections, not visible here.",
+            "visual_checked": true,
+            "sha256": "f96eb62c1d77c178be6a2314106276cf8cf5a7b83e3f30cedef3b18c36e52631",
+            "powered_on": true
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B2"
+    "last_model": "Zoom::B2 FOUR"
   }
 }
