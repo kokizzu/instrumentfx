@@ -220328,11 +220328,47 @@
             "sha256": "5790b21dab2a2fac65f845bfc5bea6badb08b7832b385926dfd58c558fe451d7"
           }
         }
+      },
+      "Korg::AX30G": {
+        "model_key": "Korg::AX30G",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://i.ebayimg.com/images/g/WTEAAOSwO1VnTvGM/s-l1600.webp",
+            "source_url": "https://www.ebay.com/itm/205143199414",
+            "caption": "Angled control surface (unpowered)",
+            "note": "The full control surface and foot controls are visible at an oblique angle. The LCD is blank and the LEDs are unlit; a verified powered-on, exactly top-down photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "1b22f300ee07c97ba95433b34b3898d69244d07b063ba0ee5ae807067eacec86"
+          },
+          "rear": {
+            "image_url": "https://i.ebayimg.com/images/g/SLwAAOSwsrpnTvGK/s-l1600.webp",
+            "source_url": "https://www.ebay.com/itm/205143199414",
+            "caption": "Rear audio connections",
+            "note": "This close-up shows instrument input, L/MONO and R outputs, headphones and AUX IN sockets, with top-face labels visible upside down. The complementary [power and external-pedal connector photograph](https://i.ebayimg.com/images/g/NfkAAOSwLh9nTvGK/s-l1600.webp) shows the other end of the same rear edge. Both photographs were visually checked; together they cover the connection groups.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "c083366987ff9d47da61c1c4279450b8ab03a6f4c44b72846d43b1300d7e9092"
+          }
+        },
+        "side_references": [
+          {
+            "image_url": "https://i.ebayimg.com/images/g/NfkAAOSwLh9nTvGK/s-l1600.webp",
+            "source_url": "https://www.ebay.com/itm/205143199414",
+            "caption": "Rear connections",
+            "note": "Pending inspection.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "0f93cef92b0d814503cb68ac414d9d8e73d4b654b8faecafd6e727c233e1e3fb"
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Alesis::NanoVerb"
+    "last_model": "Korg::AX30G"
   }
 }

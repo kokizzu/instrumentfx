@@ -823,6 +823,26 @@ Sources checked:
 
 <!-- firmware-pitch:Korg::AX30G ends -->
 
+<!-- model-images:Korg::AX30G begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Angled control surface (unpowered)**
+
+[![Angled control surface (unpowered)](https://i.ebayimg.com/images/g/WTEAAOSwO1VnTvGM/s-l1600.webp)](https://i.ebayimg.com/images/g/WTEAAOSwO1VnTvGM/s-l1600.webp)
+
+[Image source](https://www.ebay.com/itm/205143199414). The full control surface and foot controls are visible at an oblique angle. The LCD is blank and the LEDs are unlit; a verified powered-on, exactly top-down photograph remains pending.
+
+**Rear audio connections**
+
+[![Rear audio connections](https://i.ebayimg.com/images/g/SLwAAOSwsrpnTvGK/s-l1600.webp)](https://i.ebayimg.com/images/g/SLwAAOSwsrpnTvGK/s-l1600.webp)
+
+[Image source](https://www.ebay.com/itm/205143199414). This close-up shows instrument input, L/MONO and R outputs, headphones and AUX IN sockets, with top-face labels visible upside down. The complementary [power and external-pedal connector photograph](https://i.ebayimg.com/images/g/NfkAAOSwLh9nTvGK/s-l1600.webp) shows the other end of the same rear edge. Both photographs were visually checked; together they cover the connection groups.
+
+</details>
+<!-- model-images:Korg::AX30G ends -->
+
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**, partial. Guitar multi-effects, distinct from AX300G/AX3000G. Manufacturer-authored manual text on a mirror supplements the unreadable official scan.
 
