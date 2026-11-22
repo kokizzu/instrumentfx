@@ -831,7 +831,7 @@ REVERB hold toggles the documented effect-trail setting; four LED pulses confirm
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. No first-release date established in checked manufacturer product/manual. Manual170227 and image161213 identifiers do not establish first retail shipment. [launch 1](https://www.valeton.net/product/dapper-mini/) |
+| Firmware / first hardware release | 2017-03 (official public demonstration month; first shipment unresolved). Valeton’s exact Dapper Mini official demo was publicly published in March2017. April9,2017 contemporary Musikmesse coverage describes the new Mini and projects May availability in that market. March is public-demonstration timing only; the May forecast is not confirmed first shipment. Original VES-1 and Dark Mini dates are separate; manual170227 and image161213 are not launch evidence. [launch 1](https://www.youtube.com/watch?v=8vMh6qYAgss) [launch 2](https://www.guitarristas.info/noticias/dapper-mini-version-compacta-pedal-multiefectos-valeton/6966) |
 | Firmware / latest verification | Not verified — No public firmware located. No numbered MES-1 device firmware release/date or user updater located in checked sources. Official manual V03 is document revision, not device firmware3. Firmware index dynamic text may be incomplete; no historical-absence claim. [firmware 1](https://www.valeton.net/product/dapper-mini/) [firmware 2](https://www.valeton.net/firmware/) [firmware 3](https://manualmachine.com/valeton/dappermini/2574559-user-manual/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -847,6 +847,8 @@ Sources checked:
 - [Valeton Dapper Mini official product](https://www.valeton.net/product/dapper-mini/) — Drive/Chorus/Delay inventory,110mA and V03 manual link; no device firmware version/launch date. (web page read).
 - [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact MES-1 package exposed in extracted text. (web text read; dynamic visibility limited).
 - [Manufacturer Dapper Mini owner manual mirrored at ManualMachine](https://manualmachine.com/valeton/dappermini/2574559-user-manual/) — Drive, chorus rate/depth/level, delay1000ms and hold-to-tap, muted tuner; no dedicated pitch transposer or DSP cost. Mirror revision/byte identity with V03 not established. (original two-page manual body read, not generated summary).
+- [Valeton: Dapper Mini Effects Strip official demo, March2017](https://www.youtube.com/watch?v=8vMh6qYAgss) — Exact Dapper Mini official public demonstration in March2017. Publication is not first retail shipment. (Exact official-video title/URL and indexed publication metadata inspected; month precision retained).
+- [Micky Vega: Dapper Mini Musikmesse introduction, April9,2017](https://www.guitarristas.info/noticias/dapper-mini-version-compacta-pedal-multiefectos-valeton/6966) — Introduces smaller Mini with Drive/Chorus/Delay, explicitly projects May2017 availability rather than confirming shipment. Distinct from prior-year original Dapper. (Contemporaneous original article opened; model distinction and projected availability read).
 
 <!-- firmware-pitch:Valeton::Dapper Mini MES-1 ends -->
 

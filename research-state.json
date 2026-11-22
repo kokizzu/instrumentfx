@@ -204828,13 +204828,14 @@
         "model_key": "Valeton::Dapper Mini MES-1",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first release unresolved",
+          "date": "2017-03",
+          "precision": "month",
+          "kind": "official public demonstration month; first shipment unresolved",
           "source_urls": [
-            "https://www.valeton.net/product/dapper-mini/"
+            "https://www.youtube.com/watch?v=8vMh6qYAgss",
+            "https://www.guitarristas.info/noticias/dapper-mini-version-compacta-pedal-multiefectos-valeton/6966"
           ],
-          "note": "No first-release date established in checked manufacturer product/manual. Manual170227 and image161213 identifiers do not establish first retail shipment."
+          "note": "Valeton’s exact Dapper Mini official demo was publicly published in March2017. April9,2017 contemporary Musikmesse coverage describes the new Mini and projects May availability in that market. March is public-demonstration timing only; the May forecast is not confirmed first shipment. Original VES-1 and Dark Mini dates are separate; manual170227 and image161213 are not launch evidence."
         },
         "firmware": {
           "version": null,
@@ -204882,10 +204883,87 @@
             "title": "Manufacturer Dapper Mini owner manual mirrored at ManualMachine",
             "access": "original two-page manual body read, not generated summary",
             "evidence": "Drive, chorus rate/depth/level, delay1000ms and hold-to-tap, muted tuner; no dedicated pitch transposer or DSP cost. Mirror revision/byte identity with V03 not established."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=8vMh6qYAgss",
+            "title": "Valeton: Dapper Mini Effects Strip official demo, March2017",
+            "access": "Exact official-video title/URL and indexed publication metadata inspected; month precision retained",
+            "evidence": "Exact Dapper Mini official public demonstration in March2017. Publication is not first retail shipment."
+          },
+          {
+            "url": "https://www.guitarristas.info/noticias/dapper-mini-version-compacta-pedal-multiefectos-valeton/6966",
+            "title": "Micky Vega: Dapper Mini Musikmesse introduction, April9,2017",
+            "access": "Contemporaneous original article opened; model distinction and projected availability read",
+            "evidence": "Introduces smaller Mini with Drive/Chorus/Delay, explicitly projects May2017 availability rather than confirming shipment. Distinct from prior-year original Dapper."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Valeton::Dapper Mini MES-1",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first release unresolved",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-mini/"
+              ],
+              "note": "No first-release date established in checked manufacturer product/manual. Manual170227 and image161213 identifiers do not establish first retail shipment."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-mini/",
+                "https://www.valeton.net/firmware/",
+                "https://manualmachine.com/valeton/dappermini/2574559-user-manual/"
+              ],
+              "note": "No numbered MES-1 device firmware release/date or user updater located in checked sources. Official manual V03 is document revision, not device firmware3. Firmware index dynamic text may be incomplete; no historical-absence claim."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Drive OD/distortion, Chorus and analog-voiced Delay are documented; no dedicated transposer, octave divider or harmonizer. Chorus internal pitch architecture/input polyphony unspecified.",
+              "preset": "Physical controls and OD/DIST toggle; no programmable pitch-memory count or semitone range documented. Hold/tap changes delay tempo, not pitch preset selection.",
+              "dsp": "No pitch DSP percentage, processing meter or per-algorithm cost published in checked sources. Delay1000ms maximum,110mA electrical draw and control counts do not establish CPU usage.",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-mini/",
+                "https://manualmachine.com/valeton/dappermini/2574559-user-manual/"
+              ],
+              "measurements": [],
+              "notes": [
+                "No-pitch-documented refers to dedicated transposition, not proof chorus contains no internal modulation.",
+                "Tuner mutes audio and detects note accuracy; no automatic correction established.",
+                "Manufacturer headphone paragraph contains external-effects copy; do not infer an FX loop or transfer full-size Dapper features. No hardware/audio or firmware test."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.valeton.net/product/dapper-mini/",
+                "title": "Valeton Dapper Mini official product",
+                "access": "web page read",
+                "evidence": "Drive/Chorus/Delay inventory,110mA and V03 manual link; no device firmware version/launch date."
+              },
+              {
+                "url": "https://www.valeton.net/firmware/",
+                "title": "Valeton official firmware index",
+                "access": "web text read; dynamic visibility limited",
+                "evidence": "No exact MES-1 package exposed in extracted text."
+              },
+              {
+                "url": "https://manualmachine.com/valeton/dappermini/2574559-user-manual/",
+                "title": "Manufacturer Dapper Mini owner manual mirrored at ManualMachine",
+                "access": "original two-page manual body read, not generated summary",
+                "evidence": "Drive, chorus rate/depth/level, delay1000ms and hold-to-tap, muted tuner; no dedicated pitch transposer or DSP cost. Mirror revision/byte identity with V03 not established."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Valeton::Dapper VES-1": {
         "model_key": "Valeton::Dapper VES-1",
@@ -211998,8 +212076,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Valeton::Dapper VES-1",
-    "last_commit_parent": "aa180572d618c34dd79c1e9b04966b3c7c287971",
+    "last_model": "Valeton::Dapper Mini MES-1",
+    "last_commit_parent": "063353b8fef2d4c227a57a1adf14bed0336c14e4",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
