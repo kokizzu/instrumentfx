@@ -209133,11 +209133,37 @@
             "note": "Inspected unlit oblique view of same control face/connector edge; adds no powered-on evidence and does not expose XLR socket."
           }
         ]
+      },
+      "Valeton::Dapper Amp Mini": {
+        "model_key": "Valeton::Dapper Amp Mini",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.pitbullaudio.com/media/catalog/product/v/l/vltn-dapper-amp-mini-1.jpg?bg-color=255%2C255%2C255&fit=bounds&height=&optimize=medium&width=800",
+            "source_url": "https://www.pitbullaudio.com/valeton-dapper-amp-mini-tuner-amp-modulation-reverb-guitar-effects-pedal.html",
+            "caption": "Near-overhead Amp Mini control-face stock photograph, unlit.",
+            "note": "Exact DAPPER AMP Mini labeling, amplifier channel/type toggles and FX CH/DL/TR selector distinguish this from ordinary Dapper Mini. Visually 10 rotary controls, 3 footswitches and 4 small toggle switches; no separate pushbuttons visible. Tuner strip unlit. Slight perspective; powered-on strict overhead remains pending.",
+            "visual_checked": true,
+            "sha256": "3f44fcf451f98e5d5e2356343b78e822f15324cecdbddf7b924e6b451ea07b89",
+            "powered_on": false,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://r2.gear4music.com/media/40/409464/1200/preview.jpg",
+            "source_url": "https://www.gear4music.com/Guitar-and-Bass/Valeton-Dapper-Mini-Preamp-and-FX/2C03",
+            "caption": "Angled Amp Mini connector-edge stock photograph.",
+            "note": "Panel explicitly reads DAPPER AMP Mini despite shortened retailer title. Visible 9V DC, quarter-inch IN, smaller headphone socket and quarter-inch OUT. Polarity/current not legible here. No XLR, USB or EXP inferred from this face; no all-edge absence audit or live power test.",
+            "visual_checked": true,
+            "sha256": "c253ce782d556bb7af28baed27c2a073bf2e73f4ed7048c89abcb26c1dc10aed",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Acoustic Mini"
+    "last_model": "Valeton::Dapper Amp Mini"
   }
 }
