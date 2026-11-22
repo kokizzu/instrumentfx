@@ -190836,13 +190836,13 @@
         "model_key": "JOYO::GEM BOX original",
         "checked_date": "2026-11-21",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2011-09-16",
+          "precision": "day",
+          "kind": "catalogue publication proxy; exact first sale unconfirmed",
           "source_urls": [
-            "https://www.joyoaudio.com/product/83.html?productCateId=76"
+            "https://www.effectsdatabase.com/model/joyo/gembox"
           ],
-          "note": "Exact manufacturer launch date not established. Manual upload dates 2019/2020 are not hardware release dates; third-party 2011 listings are only chronology leads."
+          "note": "The exact original GEM BoX catalogue entry is dated September 16, 2011; its September 19 weekly overview also lists the model. This dates public catalogue documentation, not authenticated first worldwide shipment. Later GEM BOX II/III videos embedded on the same catalogue page are different models and do not date the original hardware. Manual upload years2019/2020 are not launch dates."
         },
         "firmware": {
           "version": null,
@@ -190888,10 +190888,79 @@
             "title": "JOYO GEM Box English owner manual",
             "access": "Manufacturer-authored original manual mirrored by Forte; JOYO cover and final company contacts match exact original model; original body read",
             "evidence": "Effects pp18–21 confirm Pitch Shift, -12 to +12 pitch parameter and module exclusivity; no input-polyphony or numeric DSP claim."
+          },
+          {
+            "url": "https://www.effectsdatabase.com/model/joyo/gembox",
+            "title": "JOYO original GEM BoX catalogue record",
+            "access": "Exact-model publication header checked2026-11-22",
+            "evidence": "Published September16,2011; original model entry. Embedded sibling-model videos are not original-model launch evidence."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "JOYO::GEM BOX original",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.joyoaudio.com/product/83.html?productCateId=76"
+              ],
+              "note": "Exact manufacturer launch date not established. Manual upload dates 2019/2020 are not hardware release dates; third-party 2011 listings are only chronology leads."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.joyoaudio.com/product/83.html?productCateId=76",
+                "https://www.joyochina.cn/product/83.html",
+                "https://www.forte.hu/uploads/2137_gem-box-i--manual.pdf"
+              ],
+              "note": "Checked exact original-model pages and own manual: manual downloads found, no public original GEM BOX firmware package or updater/version history located. This does not prove factory firmware is absent or can never be serviced. II/III/K8 updates are separate models."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "JOYO-branded English original GEM BOX manual confirms Pitch Shift in MODULATION, blending shifted and original notes; Pitch parameter spans -12 to +12, with H1–H9 mix display. Input-note polyphony and tracking quality unspecified. This original manual corroborates the earlier translated lead.",
+              "preset": "40 factory and 40 user patches; settings can be saved to user memory. Pitch is a modulation choice within the patch, not a separate preset bank.",
+              "dsp": "Pitch Shift occupies the MODULATION choice; only one type per module at a time, so it replaces that module’s chorus/flanger and other alternatives. Up to eight modules documented; no numeric per-pitch CPU/DSP percentage or meter published. Eight modules is an architecture limit, not an 8% or equal-share cost.",
+              "source_urls": [
+                "https://www.forte.hu/uploads/2137_gem-box-i--manual.pdf",
+                "https://www.joyochina.cn/product/83.html"
+              ],
+              "measurements": [],
+              "notes": [
+                "English original-manual cover and final JOYO contact page establish manufacturer document identity, distinct from the earlier DeepL translation and rejected MOOER-labelled manual. Firmware revision remains unspecified. No measured latency, chord tracking or resource test."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.joyoaudio.com/product/83.html?productCateId=76",
+                "title": "JOYO original GEM BOX English product/download page",
+                "access": "Exact product page retrieved with category query",
+                "evidence": "Original GEM BOX identity and GEM BOX I manual entry; no original-model firmware package located."
+              },
+              {
+                "url": "https://www.joyochina.cn/product/83.html",
+                "title": "JOYO original GEM BOX Chinese specifications",
+                "access": "Manufacturer page read",
+                "evidence": "Eight modules, 60 effect types, 40+40 patches and exact original-model power/audio specifications."
+              },
+              {
+                "url": "https://www.forte.hu/uploads/2137_gem-box-i--manual.pdf",
+                "title": "JOYO GEM Box English owner manual",
+                "access": "Manufacturer-authored original manual mirrored by Forte; JOYO cover and final company contacts match exact original model; original body read",
+                "evidence": "Effects pp18–21 confirm Pitch Shift, -12 to +12 pitch parameter and module exclusivity; no input-polyphony or numeric DSP claim."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "JOYO::GEM BOX II": {
         "model_key": "JOYO::GEM BOX II",
@@ -214443,8 +214512,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "CUVAVE::H8",
-    "last_commit_parent": "5bf806f3e33826f79a359439288ea621344f5b12",
+    "last_model": "JOYO::GEM BOX original",
+    "last_commit_parent": "a875c8c9e3e69edcfa8569983a8c2c9589cb0011",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

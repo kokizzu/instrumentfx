@@ -323,7 +323,7 @@ An exact Indonesian Shopee K8 hardware item and readable complete K8 specificati
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Exact manufacturer launch date not established. Manual upload dates 2019/2020 are not hardware release dates; third-party 2011 listings are only chronology leads. [launch 1](https://www.joyoaudio.com/product/83.html?productCateId=76) |
+| Firmware / first hardware release | 2011-09-16 (catalogue publication proxy; exact first sale unconfirmed). The exact original GEM BoX catalogue entry is dated September 16, 2011; its September 19 weekly overview also lists the model. This dates public catalogue documentation, not authenticated first worldwide shipment. Later GEM BOX II/III videos embedded on the same catalogue page are different models and do not date the original hardware. Manual upload years2019/2020 are not launch dates. [launch 1](https://www.effectsdatabase.com/model/joyo/gembox) |
 | Firmware / latest verification | Not verified — No public firmware located. Checked exact original-model pages and own manual: manual downloads found, no public original GEM BOX firmware package or updater/version history located. This does not prove factory firmware is absent or can never be serviced. II/III/K8 updates are separate models. [firmware 1](https://www.joyoaudio.com/product/83.html?productCateId=76) [firmware 2](https://www.joyochina.cn/product/83.html) [firmware 3](https://www.forte.hu/uploads/2137_gem-box-i--manual.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -339,6 +339,7 @@ Sources checked:
 - [JOYO original GEM BOX English product/download page](https://www.joyoaudio.com/product/83.html?productCateId=76) — Original GEM BOX identity and GEM BOX I manual entry; no original-model firmware package located. (Exact product page retrieved with category query).
 - [JOYO original GEM BOX Chinese specifications](https://www.joyochina.cn/product/83.html) — Eight modules, 60 effect types, 40+40 patches and exact original-model power/audio specifications. (Manufacturer page read).
 - [JOYO GEM Box English owner manual](https://www.forte.hu/uploads/2137_gem-box-i--manual.pdf) — Effects pp18–21 confirm Pitch Shift, -12 to +12 pitch parameter and module exclusivity; no input-polyphony or numeric DSP claim. (Manufacturer-authored original manual mirrored by Forte; JOYO cover and final company contacts match exact original model; original body read).
+- [JOYO original GEM BoX catalogue record](https://www.effectsdatabase.com/model/joyo/gembox) — Published September16,2011; original model entry. Embedded sibling-model videos are not original-model launch evidence. (Exact-model publication header checked2026-11-22).
 
 <!-- firmware-pitch:JOYO::GEM BOX original ends -->
 
