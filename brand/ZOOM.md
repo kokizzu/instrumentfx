@@ -572,6 +572,31 @@ Remaining: qualified single-model offer/variant mapping, remaining loop/card beh
 
 ## 1201
 
+<!-- firmware-pitch:Zoom::1201 begins -->
+### Firmware and pitch audit — Zoom 1201
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1997 (manufacturer product-history release year). Corporate history lists 1201 under 1997; exact announcement and first shipment dates unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current support page lists only the operation manual; no public device updater or firmware changelog located. Published connectors contain no USB/MIDI update interface. Internal ROM revisions are not excluded; manual print codes and web crawl dates are not firmware versions or dates. [firmware 1](https://zoomcorp.com/en/gb/digital-mixer-multi-track-recorders/multi-track-recorders/1201/1201-support/) [firmware 2](https://zoomcorp.com/media/documents/E_1201.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. C-1 PITCH is stereo, up/down one octave; VARIATION intervals are 7,20,100,200,300,400,500,700,900,1100,1200 cents and ADJUST selects direction. C-4 PIT-DLY places a continuously controlled ±1-octave shifter in delay feedback, maximum delay 743ms. Stereo channels do not prove polyphonic-input tracking. [pitch 1](https://www.2btech.co.uk/download/SOS/Zoom1201-EffectsList.pdf) [pitch 2](https://zoomcorp.com/media/documents/E_1201.pdf) |
+| Pitch / preset recall | 363 selector patterns (3 banks ×11 types ×11 variations), with effect-dependent ADJUST. Pitch is selected in bank C; not a freely stacked pitch block or verified writable user-preset memory. No analog expression input; FS01 switches effects on/off. |
+| Pitch / DSP resources | No per-pitch DSP percentage or user resource meter documented. Selecting PITCH/PIT-DLY occupies the selected bank-C effect program; 363 patterns count choices, not simultaneous blocks or CPU headroom. |
+| Pitch / qualifications | Manufacturer-authored effects-sheet scan on third-party mirror; text/table inspection, no hardware tracking test. Original 1201 scope, not 1202/1204. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — 1201 listed under 1997. (official 1997 timeline group read).
+- [Zoom 1201 current support/download page](https://zoomcorp.com/en/gb/digital-mixer-multi-track-recorders/multi-track-recorders/1201/1201-support/) — Documents list operation manual only; no public firmware package listed. (official page read).
+- [Zoom 1201 operation manual 1201-5000](https://zoomcorp.com/media/documents/E_1201.pdf) — Bank/variation/adjust selection, FS01 switching and connector inventory; no DSP percentage or updater documented. (official PDF controls and connector sections read).
+- [Zoom Studio 1201 manufacturer effects list](https://www.2btech.co.uk/download/SOS/Zoom1201-EffectsList.pdf) — Stereo PITCH interval table and pitch-delay feedback/743ms range; no polyphonic-input guarantee or pitch DSP%. No document date treated as firmware. (manufacturer-authored scan on 2btech mirror, C-1/C-4 tables read).
+
+<!-- firmware-pitch:Zoom::1201 ends -->
+
 Checked2026-10-17;partial. Zoom Studio1201 rack multi-effects,not1202/1204. [Manufacturer product][Z1201-P] identifies discontinued reverb/multi-effects. Ownership unverified.
 
 | Field | Finding / qualification |

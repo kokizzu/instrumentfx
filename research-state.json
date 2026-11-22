@@ -205470,10 +205470,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::1201": {
+        "model_key": "Zoom::1201",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "1997",
+          "precision": "year",
+          "kind": "manufacturer product-history release year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Corporate history lists 1201 under 1997; exact announcement and first shipment dates unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/gb/digital-mixer-multi-track-recorders/multi-track-recorders/1201/1201-support/",
+            "https://zoomcorp.com/media/documents/E_1201.pdf"
+          ],
+          "note": "Current support page lists only the operation manual; no public device updater or firmware changelog located. Published connectors contain no USB/MIDI update interface. Internal ROM revisions are not excluded; manual print codes and web crawl dates are not firmware versions or dates."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "C-1 PITCH is stereo, up/down one octave; VARIATION intervals are 7,20,100,200,300,400,500,700,900,1100,1200 cents and ADJUST selects direction. C-4 PIT-DLY places a continuously controlled ±1-octave shifter in delay feedback, maximum delay 743ms. Stereo channels do not prove polyphonic-input tracking.",
+          "preset": "363 selector patterns (3 banks ×11 types ×11 variations), with effect-dependent ADJUST. Pitch is selected in bank C; not a freely stacked pitch block or verified writable user-preset memory. No analog expression input; FS01 switches effects on/off.",
+          "dsp": "No per-pitch DSP percentage or user resource meter documented. Selecting PITCH/PIT-DLY occupies the selected bank-C effect program; 363 patterns count choices, not simultaneous blocks or CPU headroom.",
+          "source_urls": [
+            "https://www.2btech.co.uk/download/SOS/Zoom1201-EffectsList.pdf",
+            "https://zoomcorp.com/media/documents/E_1201.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer-authored effects-sheet scan on third-party mirror; text/table inspection, no hardware tracking test. Original 1201 scope, not 1202/1204."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official 1997 timeline group read",
+            "evidence": "1201 listed under 1997."
+          },
+          {
+            "url": "https://zoomcorp.com/en/gb/digital-mixer-multi-track-recorders/multi-track-recorders/1201/1201-support/",
+            "title": "Zoom 1201 current support/download page",
+            "access": "official page read",
+            "evidence": "Documents list operation manual only; no public firmware package listed."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_1201.pdf",
+            "title": "Zoom 1201 operation manual 1201-5000",
+            "access": "official PDF controls and connector sections read",
+            "evidence": "Bank/variation/adjust selection, FS01 switching and connector inventory; no DSP percentage or updater documented."
+          },
+          {
+            "url": "https://www.2btech.co.uk/download/SOS/Zoom1201-EffectsList.pdf",
+            "title": "Zoom Studio 1201 manufacturer effects list",
+            "access": "manufacturer-authored scan on 2btech mirror, C-1/C-4 tables read",
+            "evidence": "Stereo PITCH interval table and pitch-delay feedback/743ms range; no polyphonic-input guarantee or pitch DSP%. No document date treated as firmware."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::1201",
       "Zoom::505II",
       "Zoom::506II",
       "Zoom::606",
@@ -205536,12 +205601,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 341,
-    "last_model": "Zoom::505 original",
-    "last_commit_parent": "ca1593d8713f71bb45fec7f48b6ea9ebd9bcaf95",
+    "completed_model_count": 342,
+    "last_model": "Zoom::1201",
+    "last_commit_parent": "ce923f024317575edac369b99348912ba005f527",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::1201",
       "Zoom::505II",
       "Zoom::506II",
       "Zoom::606",
@@ -205603,7 +205667,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 341,
+    "pitch_completed_model_count": 342,
     "supplemental_model_count": 0
   },
   "model_images": {
