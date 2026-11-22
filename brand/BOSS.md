@@ -5643,7 +5643,7 @@ Sources checked:
 
 [![BOSS ME-50 — powered-on top view](https://static.roland.com/assets/images/products/main/me50_main.jpg)](https://static.roland.com/assets/images/products/main/me50_main.jpg)
 
-[Image source](https://www.boss.info/global/products/me-50/). Manufacturer straight-down promotional image with the full control surface, red 5 display, tuner/effect indicators, rotary sections, panel buttons, three footswitches and complete expression pedal. The original image is only 500 pixels wide, so small labels have limited readability. Powered-on appearance is visible; independent operating-state verification is unavailable.
+[Image source](https://www.boss.info/global/products/me-50/). Manufacturer straight-down promotional image with the full control surface, red 5 display, tuner/effect indicators, rotary sections, panel buttons, three footswitches and complete expression pedal. The original image is only 500 pixels wide, so small labels have limited readability. Powered-on appearance is visible; independent operating-state verification is unavailable. A [1600-pixel overhead physical layout photograph](https://medias.audiofanzine.com/images/normal/boss-me-50-2014857.jpg) provides readable control labels and the complete expression pedal; that reference is unpowered and does not verify operation.
 
 **BOSS ME-50 — rear connections**
 
