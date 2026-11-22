@@ -202342,15 +202342,15 @@
       },
       "M-VAVE::CUBE BABY electric": {
         "model_key": "M-VAVE::CUBE BABY electric",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first hardware release unverified",
+          "date": "2020-09-18",
+          "precision": "day",
+          "kind": "documented consumer ordering availability; first-sale proxy",
           "source_urls": [
-            "https://device.report/manual/2644279"
+            "https://www.guitarristas.info/foros/comunidad-cube-baby/318302"
           ],
-          "note": "Manufacturer-filed manual reproduction links a December 12, 2020 document; mirror entry April 7, 2022 is a separate publication/update date. Neither establishes exact first worldwide hardware introduction or sale. AC/BASS release dates not transferred."
+          "note": "Original dated forum posts on18September2020 report ordering the CUVAVE/Muslady Cube Baby; one reports seller dispatch, not receipt. The described three-memory electric preamp/modulation/delay/reverb/IR unit identifies the original electric model. Establishes availability by that date,not exact worldwide first sale or manufacturer announcement. December2020 manual is later documentation; AC/BASS dates remain separate."
         },
         "firmware": {
           "version": null,
@@ -202397,10 +202397,80 @@
             "title": "Sinco CUBE-BABY manufacturer-filed operating manual reproduction",
             "access": "Previously identified exact-model numbered text read on mirror",
             "evidence": "Electric library, three overwriteable memories, grouped LIVE controls; original document/mirror dates not launch proof."
+          },
+          {
+            "url": "https://www.guitarristas.info/foros/comunidad-cube-baby/318302",
+            "title": "Original CUBE BABY consumer order reports, September18 2020",
+            "access": "Original dated forum posts1,3,4,6 read directly",
+            "evidence": "First-hand ordering reports and seller-dispatch report on2020-09-18 identify CUVAVE/Muslady electric Cube Baby,three presets and electric preamp library. Used only as availability-by date; shipping receipt,first worldwide sale and technical claims not independently verified."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "M-VAVE::CUBE BABY electric",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first hardware release unverified",
+              "source_urls": [
+                "https://device.report/manual/2644279"
+              ],
+              "note": "Manufacturer-filed manual reproduction links a December 12, 2020 document; mirror entry April 7, 2022 is a separate publication/update date. Neither establishes exact first worldwide hardware introduction or sale. AC/BASS release dates not transferred."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.m-vave.com/download",
+                "https://www.cuvave.com/product?id=cube-baby"
+              ],
+              "note": "Current manufacturer index and exact-model product download block list desktop CubeSuite but no separately dated CUBE BABY electric device-firmware release. No public version/date located. Editor/IR loading and generic software-and-firmware headings are not a device changelog; this does not establish absence of internal firmware or permanent lack of update capability."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Exact electric-model manufacturer-filed manual identifies preamp, Chorus/Phaser modulation, delay, reverb and cabinet IR. No dedicated octave, harmonizer, detune or transpose algorithm documented. Chorus modulation and tuner pitch indication do not establish a pitch-shift capability or polyphonic tracking. AC/BASS libraries and later ANN-model features not transferred.",
+              "preset": "Three overwriteable memories A/B/C total, initially factory-filled. Saving edited settings replaces the selected factory tone; not three factory plus three user. In LIVE, A controls reverb/IR, B modulation/delay and C preamp/tone; grouped switches do not establish freely assignable effect slots. No pitch preset or preset-change spillover guarantee documented.",
+              "dsp": "No per-effect DSP percentage or tracking-latency measurement found. Five fixed sound stages and three switch groups are not a resource allocation meter. No polyphonic pitch cost can be assigned when no dedicated pitch processor is established. No sibling performance percentages transferred.",
+              "source_urls": [
+                "https://device.report/manual/2644279",
+                "https://www.cuvave.com/product?id=cube-baby"
+              ],
+              "measurements": [],
+              "notes": [
+                "Sinco-filed CUBE-BABY operating body and exact manufacturer indexed product text checked. Historical translated bass wording in the old introduction conflicts with the actual electric library and is not used to adopt the separate BASS model specification.",
+                "Earlier 600mAh/162×61×23mm versus later 780mAh/161×57×17.5mm source conflict remains. No new original-PDF visual equivalence, hardware test, firmware/app execution or IR import.",
+                "Eight cabinet responses plus Off; Off is not a ninth importable IR slot. Current desktop CubeSuite support does not establish mobile editing or NAM loading."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.m-vave.com/download",
+                "title": "Current M-VAVE download index",
+                "access": "Complete manufacturer index read as text",
+                "evidence": "Desktop CubeSuite names CubeBaby; no separately versioned/datestamped electric-device firmware entry found."
+              },
+              {
+                "url": "https://www.cuvave.com/product?id=cube-baby",
+                "title": "Exact manufacturer CUBE BABY product record",
+                "access": "Indexed manufacturer body read; direct page historically shell-limited",
+                "evidence": "Electric amp/MOD/delay/reverb/IR chain, three operating modes and desktop CubeSuite; eight IRs plus Off."
+              },
+              {
+                "url": "https://device.report/manual/2644279",
+                "title": "Sinco CUBE-BABY manufacturer-filed operating manual reproduction",
+                "access": "Previously identified exact-model numbered text read on mirror",
+                "evidence": "Electric library, three overwriteable memories, grouped LIVE controls; original document/mirror dates not launch proof."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "M-VAVE::CUBE BABY AC": {
         "model_key": "M-VAVE::CUBE BABY AC",
@@ -216369,8 +216439,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "M-VAVE::TANK-B",
-    "last_commit_parent": "f26ca7e145e9f2bf2426b755eb2abab86ab3c5eb",
+    "last_model": "M-VAVE::CUBE BABY electric",
+    "last_commit_parent": "e6641ee0888363366357bd4b819949deb4fd81b5",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
