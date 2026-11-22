@@ -2791,6 +2791,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::GP-200JR ends -->
 
+<!-- model-images:Valeton::GP-200JR begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Official GP-200JR control-face stock image**
+
+[![Official GP-200JR control-face stock image](https://shop.valeton.net/cdn/shop/files/GP-200JR_Front_WithScreen_Hi_V01_230320_1445x.png?v=1683710969)](https://shop.valeton.net/cdn/shop/files/GP-200JR_Front_WithScreen_Hi_V01_230320_1445x.png?v=1683710969)
+
+[Image source](https://shop.valeton.net/products/gp200jr). Visually inspected exact GP-200JR control face: five knobs, fourteen buttons, three footswitches and built-in treadle. Stock image displays screen and illuminated rings; actual powered-unit photography is unverified. Rear connectors remain visible beyond the case, so strict overhead powered photography remains pending.
+
+**Official GP-200JR rear connector-edge stock image**
+
+[![Official GP-200JR rear connector-edge stock image](https://shop.valeton.net/cdn/shop/files/GP-200JR_Top_Hi_V01_230320555_1445x.jpg?v=1683710968)](https://shop.valeton.net/cdn/shop/files/GP-200JR_Top_Hi_V01_230320555_1445x.jpg?v=1683710968)
+
+[Image source](https://shop.valeton.net/products/gp200jr). Visually inspected exact JR rear: EXP/FS, INPUT, RETURN/SEND, AUX IN, balanced XLR L(MONO)/R, GND/LIFT, unbalanced quarter-inch L(MONO)/R, PHONES, USB-C and center-negative DC9V1000mA. No separate physical MIDI DIN ports shown. Photograph corroborates the unbalanced quarter-inch output labels; conflicting product prose is retained as a source error.
+
+</details>
+<!-- model-images:Valeton::GP-200JR ends -->
+
+
 Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200LT and full-size GP-200. Primary manual diagrams were rendered and visually inspected; the firmware 1.8.0 manual contains substantial model-copy errors, retained below.
 
 <!-- comparison evidence begins -->
