@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 362/402 active models have firmware audits; 362/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 363/402 active models have firmware audits; 363/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -386,7 +386,8 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [Zoom B2 FOUR](brand/ZOOM.md#b2-four) | 2023 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/b2four-support/) [firmware 2](https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b2-four/b2four-support/) [firmware 3](https://zoomcorp.com/manuals/b2four-en/) |
 | [Zoom B2.1u](brand/ZOOM.md#b21u) | 2005 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/jp/multi-effects/bass-effects/b21u/b21u-support/) |
 | [Zoom B3](brand/ZOOM.md#b3) | 2011 (manufacturer product-history year) | 1.20 — Latest verified | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/) [firmware 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/B3_v1.20_E.pdf) |
+| [Zoom B6](brand/ZOOM.md#b6) | 2021 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b6/b6-support/) [firmware 2](https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b6/b6-support/) [firmware 3](https://zoomcorp.com/manuals/b6-en/) |
 
 ## Remaining firmware checks
 
-Zoom B6; Zoom G1 FOUR; Zoom G1 original; Zoom G11; Zoom G1on; Zoom G1X FOUR; Zoom G1Xnext; Zoom G1Xon; Zoom G2 FOUR; Zoom G2.1Nu; Zoom G2.1u; Zoom G2Nu; Zoom G2X FOUR; Zoom G3; Zoom G3n; Zoom G3X; Zoom G3Xn; Zoom G5; Zoom G5n; Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
+Zoom G1 FOUR; Zoom G1 original; Zoom G11; Zoom G1on; Zoom G1X FOUR; Zoom G1Xnext; Zoom G1Xon; Zoom G2 FOUR; Zoom G2.1Nu; Zoom G2.1u; Zoom G2Nu; Zoom G2X FOUR; Zoom G3; Zoom G3n; Zoom G3X; Zoom G3Xn; Zoom G5; Zoom G5n; Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.

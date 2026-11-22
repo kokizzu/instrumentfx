@@ -3266,6 +3266,32 @@ The creative index now links this existing active bass record;no inventory admis
 
 ## B6
 
+<!-- firmware-pitch:Zoom::B6 begins -->
+### Firmware and pitch audit — Zoom B6
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2021 (manufacturer product-history year). Manufacturer chronology lists B6 in2021; exact first retail shipment date unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current US/Japanese support pages list drivers, Guitar Lab, IR data and manuals, with no system firmware package located. Manual documents update capability; its1.00 illustration is not latest-version proof. Latest version/date and elapsed update duration unresolved; driver/editor/IR updates excluded. [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b6/b6-support/) [firmware 2](https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b6/b6-support/) [firmware 3](https://zoomcorp.com/manuals/b6-en/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. BaPlShift explicitly supports chords:−24…+12 semitones. PitchSHFT spans−12…+12,+24 with±25-cent Fine; BaMnPitch and Ba PDLMnP are single-note. HPS is key/scale-based. Ba PDLPit has selectable sweeps; chord support is not transferred from BaPlShift. [pitch 1](https://zoomcorp.com/media/documents/E_B6_FX-list_2.pdf) [pitch 2](https://zoomcorp.com/manuals/b6-en/) |
+| Pitch / preset recall | 240 user patch memories store effects/settings. External FP02M operates PEDAL-category effects. Output VP retains output volume across patch changes; this does not prove a simultaneous global volume override while expression controls pitch. |
+| Pitch / DSP resources | No exact per-pitch percentage located. Manual provides a100% load meter on category/effect selection screens and permits up to six effects. An effect that would exceed100% cannot be selected; change/delete another effect. B3n allocation percentages must not be transferred. |
+| Pitch / qualifications | No hardware tracking or DSP measurement; no firmware or software installed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — B6 listed in2021. (official chronology inspected).
+- [B6 US support](https://zoomcorp.com/en/us/multi-effects/bass-effects/b6/b6-support/) — ASIO,Guitar Lab,IR data and documents;no system updater located. (current official package list inspected).
+- [B6 Japanese support](https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b6/b6-support/) — No system firmware package located. (official exact-model support checked).
+- [B6 effects and parameters](https://zoomcorp.com/media/documents/E_B6_FX-list_2.pdf) — Chord-capable BaPlShift−24…+12;single-note alternatives;Output VP retained volume. (official PDF pp13–15,19 inspected).
+- [B6 operation manual](https://zoomcorp.com/manuals/b6-en/) — 240patches,six effects,100% meter and rejected overflow selection;FP02M pedal effects;firmware update capability. (official HTML processing,pedal,firmware and specifications sections inspected).
+
+<!-- firmware-pitch:Zoom::B6 ends -->
+
 Bass multi-effects; large body, external-only expression. Consolidated and refreshed 2026-10-16; partial. All 15 legacy model fields below retain the original 2026-10-14 observation date. New manual details and IDR evidence are dated separately.
 
 ### B6 — complete retained legacy fields
