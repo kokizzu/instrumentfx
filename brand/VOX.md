@@ -779,11 +779,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**ToneLab SE control face**
+**VOX ToneLab SE — powered-on overhead control surface**
 
-[![ToneLab SE control face](https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_top.jpg)](https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_top.jpg)
+[![VOX ToneLab SE — powered-on overhead control surface](https://medias.audiofanzine.com/images/normal/vox-tonelab-se-5611582.jpg)](https://medias.audiofanzine.com/images/normal/vox-tonelab-se-5611582.jpg)
 
-[Image source](https://voxshowroom.com/us/misc/tonelab_se.html). Visually checked near-overhead stock photograph: bank24 and TONE LAB display, lit status indicators and red tube area. Twelve top rotaries, nine footswitches and two treadles visible. This stock image depicts illumination; independent confirmation of an actually powered unit remains pending. Slight rear-edge perspective is not strict orthographic top-down.
+[Image source](https://en.audiofanzine.com/guitar-amp-simulation-pedal/vox/tonelab-se/). Actual user photograph shows the complete ToneLab SE on a wooden surface, including all nine footswitches and both full expression treadles. The amber CLAIR name display, red bank 1 display and multiple effect/program/expression indicators are visibly illuminated. Nearly overhead with slight perspective; not a strictly perpendicular photograph. Some fine labels are soft. The [previous stock layout image](https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_top.jpg) remains available for comparison.
 
 **ToneLab SE rear connectors**
 

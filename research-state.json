@@ -223302,14 +223302,14 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_top.jpg",
-            "source_url": "https://voxshowroom.com/us/misc/tonelab_se.html",
-            "caption": "ToneLab SE control face",
-            "note": "Visually checked near-overhead stock photograph: bank24 and TONE LAB display, lit status indicators and red tube area. Twelve top rotaries, nine footswitches and two treadles visible. This stock image depicts illumination; independent confirmation of an actually powered unit remains pending. Slight rear-edge perspective is not strict orthographic top-down.",
+            "image_url": "https://medias.audiofanzine.com/images/normal/vox-tonelab-se-5611582.jpg",
+            "source_url": "https://en.audiofanzine.com/guitar-amp-simulation-pedal/vox/tonelab-se/",
+            "caption": "VOX ToneLab SE — powered-on overhead control surface",
+            "note": "Actual user photograph shows the complete ToneLab SE on a wooden surface, including all nine footswitches and both full expression treadles. The amber CLAIR name display, red bank 1 display and multiple effect/program/expression indicators are visibly illuminated. Nearly overhead with slight perspective; not a strictly perpendicular photograph. Some fine labels are soft. The [previous stock layout image](https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_top.jpg) remains available for comparison.",
             "visual_checked": true,
-            "sha256": "979a2c58d2a4b103ba4ed1dc9b547e0f6c30aefa0e23d80012c69a402d727afc",
-            "powered_on": null,
-            "exact_top_down": false
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "9384ec55f16a261424ff4ce02f81aa1e6eb12a4f3860b4d73cbb8ce2a5122660"
           },
           "rear": {
             "image_url": "https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_front.jpg",
@@ -223321,7 +223321,19 @@
             "powered_on": null,
             "exact_top_down": false
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_top.jpg",
+            "source_url": "https://voxshowroom.com/us/misc/tonelab_se.html",
+            "caption": "ToneLab SE control face",
+            "note": "Visually checked near-overhead stock photograph: bank24 and TONE LAB display, lit status indicators and red tube area. Twelve top rotaries, nine footswitches and two treadles visible. This stock image depicts illumination; independent confirmation of an actually powered unit remains pending. Slight rear-edge perspective is not strict orthographic top-down.",
+            "visual_checked": true,
+            "sha256": "979a2c58d2a4b103ba4ed1dc9b547e0f6c30aefa0e23d80012c69a402d727afc",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        ]
       },
       "VOX::ToneLab ST": {
         "model_key": "VOX::ToneLab ST",
@@ -227188,6 +227200,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::ToneLab EX"
+    "last_model": "VOX::ToneLab SE"
   }
 }
