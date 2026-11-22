@@ -2104,6 +2104,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::B2 ends -->
 
+<!-- model-images:Zoom::B2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Original B2 overhead product image**
+
+[![Original B2 overhead product image](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_b2.png)](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_b2.png)
+
+[Image source](https://www.zoom.co.jp/products/guitar-bass-effects/bass/b2-bass-effects-pedal). Manufacturer full overhead image of original B2: four rotary controls, five round buttons and two footswitches. Red A0 display is depicted, but a studio product image does not independently verify actual powered operation; a real powered overhead photograph remains pending.
+
+**Original B2 rear connections**
+
+[![Original B2 rear connections](https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0205/user/d3dd46e6c7ba6ab7307043e56ca091038719aa736e662984b20fd58b23e0bedd/i-img1200x1200-17784079508088ujjgph270812.jpg)](https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0205/user/d3dd46e6c7ba6ab7307043e56ca091038719aa736e662984b20fd58b23e0bedd/i-img1200x1200-17784079508088ujjgph270812.jpg)
+
+[Image source](https://auctions.yahoo.co.jp/jp/auction/s1229438211). Actual original B2 rear/front composite. Upper frame clearly shows INPUT, OUTPUT (PHONES), CONTROL IN, POWER switch and DC9V center-negative 300mA supply label. No USB socket appears. Lower frame is the front edge, not another connection panel; supply rating is not measured consumption.
+
+</details>
+<!-- model-images:Zoom::B2 ends -->
+
+
 Original bass multi-effects; partial, checked2026-10-18. Distinct fromB2.1u/B2 FOUR. [Manufacturer manual](https://zoomcorp.com/media/documents/E_B2.pdf),pp6–7,16,25–26,31.
 
 <!-- comparison evidence begins -->

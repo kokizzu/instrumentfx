@@ -214504,11 +214504,36 @@
             "powered_on": false
           }
         }
+      },
+      "Zoom::B2": {
+        "model_key": "Zoom::B2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_b2.png",
+            "source_url": "https://www.zoom.co.jp/products/guitar-bass-effects/bass/b2-bass-effects-pedal",
+            "caption": "Original B2 overhead product image",
+            "note": "Manufacturer full overhead image of original B2: four rotary controls, five round buttons and two footswitches. Red A0 display is depicted, but a studio product image does not independently verify actual powered operation; a real powered overhead photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "954fc13d2fb5288037fbf168358d8de7b82caa321a91d7c0dab40e429c6d84ce",
+            "powered_on": false,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0205/user/d3dd46e6c7ba6ab7307043e56ca091038719aa736e662984b20fd58b23e0bedd/i-img1200x1200-17784079508088ujjgph270812.jpg",
+            "source_url": "https://auctions.yahoo.co.jp/jp/auction/s1229438211",
+            "caption": "Original B2 rear connections",
+            "note": "Actual original B2 rear/front composite. Upper frame clearly shows INPUT, OUTPUT (PHONES), CONTROL IN, POWER switch and DC9V center-negative 300mA supply label. No USB socket appears. Lower frame is the front edge, not another connection panel; supply rating is not measured consumption.",
+            "visual_checked": true,
+            "sha256": "6a19ad1f3fcaf07b6ae69ef173377b2925f4b65c18df494edc528c9cd7da6aa0",
+            "powered_on": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B1Xon"
+    "last_model": "Zoom::B2"
   }
 }
