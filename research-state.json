@@ -206883,10 +206883,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::B3": {
+        "model_key": "Zoom::B3",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2011",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology places original B3 under2011, before2012 G5/G3X. Exact initial retail date unresolved."
+        },
+        "firmware": {
+          "version": "1.20",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/",
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/B3_v1.20_E.pdf"
+          ],
+          "note": "Current support lists Windows1.2 and Mac1.20. Manufacturer history is indexed as1.20 September2014, but extracted PDF body omits its version/date heading and exposes a May2013 older section. Date remains unverified pending a readable full-page check; driver/editor versions excluded."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT spans−12…+12,+24 semitones with±25-cent fine adjustment. MonoPitch and PDL MnPit explicitly target single notes; PDL Pitch provides nine sweep colors. HPS uses key/scale. General pitch polyphony remains unspecified.",
+          "preset": "100 editable patches save effect on/off and parameters. TOTAL pedal target and min/max are per patch; INPUT VOL, OUTPUT VOL, balance or an effect parameter can be assigned. OUTPUT VOL excludes rhythm/looper. CONTROL IN accepts FP01/FP02 or FS01, not both simultaneously.",
+          "dsp": "No per-pitch percentage published. Up to three freely ordered effects; DSP overflow shows THRU and bypasses an effect. OFF effects consume the same processing as ON. Do not transfer the G3 six-effect firmware limit or B3n DSP chart to B3.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_B3.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No installation or hardware CPU/tracking measurements. Latest package verified; release-to-update duration unresolved."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "B3 listed in2011, distinct from later B3n."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/",
+            "title": "Original Zoom B3 support",
+            "access": "current official package list read",
+            "evidence": "Windows System1.2,Mac1.20;Edit&Share and ASIO separately listed."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/B3_v1.20_E.pdf",
+            "title": "B3 system software history",
+            "access": "official indexed heading and incomplete PDF text compared",
+            "evidence": "Index identifies1.20 September2014; extracted text shows older May2013 section but omits heading. Exact latest date not assigned."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B3.pdf",
+            "title": "Zoom B3 operation manual",
+            "access": "official PDF printed pp9,14–16,43,49,51 inspected",
+            "evidence": "Three-effect THRU overflow;OFF consumes sameDSP;100patches,patch pedal settings,mono pitch and nine-color pedal shifts."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::B3",
       "Zoom::B3n",
       "Zoom::B6",
       "Zoom::G1 FOUR",
@@ -206930,12 +206994,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 360,
-    "last_model": "Zoom::B2.1u",
-    "last_commit_parent": "44c10623c4a30d39043a613448650e01030ecb35",
+    "completed_model_count": 361,
+    "last_model": "Zoom::B3",
+    "last_commit_parent": "e427cea08a3db21eb1bb9edaa9cb6fd5c6c67fda",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::B3",
       "Zoom::B3n",
       "Zoom::B6",
       "Zoom::G1 FOUR",
@@ -206978,7 +207041,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 360,
+    "pitch_completed_model_count": 361,
     "supplemental_model_count": 0
   },
   "model_images": {

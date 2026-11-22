@@ -2629,6 +2629,31 @@ The built-in pedal can control the selected marked effect parameter;the separate
 
 ## B3
 
+<!-- firmware-pitch:Zoom::B3 begins -->
+### Firmware and pitch audit — Zoom B3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2011 (manufacturer product-history year). Manufacturer chronology places original B3 under2011, before2012 G5/G3X. Exact initial retail date unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 1.20 — Latest verified. Current support lists Windows1.2 and Mac1.20. Manufacturer history is indexed as1.20 September2014, but extracted PDF body omits its version/date heading and exposes a May2013 older section. Date remains unverified pending a readable full-page check; driver/editor versions excluded. [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/) [firmware 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/B3_v1.20_E.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT spans−12…+12,+24 semitones with±25-cent fine adjustment. MonoPitch and PDL MnPit explicitly target single notes; PDL Pitch provides nine sweep colors. HPS uses key/scale. General pitch polyphony remains unspecified. [pitch 1](https://zoomcorp.com/media/documents/E_B3.pdf) |
+| Pitch / preset recall | 100 editable patches save effect on/off and parameters. TOTAL pedal target and min/max are per patch; INPUT VOL, OUTPUT VOL, balance or an effect parameter can be assigned. OUTPUT VOL excludes rhythm/looper. CONTROL IN accepts FP01/FP02 or FS01, not both simultaneously. |
+| Pitch / DSP resources | No per-pitch percentage published. Up to three freely ordered effects; DSP overflow shows THRU and bypasses an effect. OFF effects consume the same processing as ON. Do not transfer the G3 six-effect firmware limit or B3n DSP chart to B3. |
+| Pitch / qualifications | No installation or hardware CPU/tracking measurements. Latest package verified; release-to-update duration unresolved. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — B3 listed in2011, distinct from later B3n. (official chronology inspected).
+- [Original Zoom B3 support](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/) — Windows System1.2,Mac1.20;Edit&Share and ASIO separately listed. (current official package list read).
+- [B3 system software history](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/B3_v1.20_E.pdf) — Index identifies1.20 September2014; extracted text shows older May2013 section but omits heading. Exact latest date not assigned. (official indexed heading and incomplete PDF text compared).
+- [Zoom B3 operation manual](https://zoomcorp.com/media/documents/E_B3.pdf) — Three-effect THRU overflow;OFF consumes sameDSP;100patches,patch pedal settings,mono pitch and nine-color pedal shifts. (official PDF printed pp9,14–16,43,49,51 inspected).
+
+<!-- firmware-pitch:Zoom::B3 ends -->
+
 Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Discontinued. Guitar/vocal applicability unclassified; ownership not established.
 
 <!-- comparison evidence begins -->
