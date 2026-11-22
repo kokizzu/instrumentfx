@@ -324,7 +324,7 @@ The existing exact Shopee item703046367/49152335867 remains a cachedRp1.386.000 
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Own V01 manual dated2021-06-18 establishes documentation age, not first shipment. No authenticated launch dateline located; retailer August2021 availability is regional. [launch 1](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV02_Manual_EN_V01_2021.06.18_A.pdf?v=1671178993) [launch 2](https://www.flammainnovation.com/single.html?id=59) |
+| Firmware / first hardware release | 2021-08 (retailer regional availability proxy; worldwide first sale unconfirmed). Thomann’s exact FV02 listing states available since August 2021. This dates availability at that retailer, not authenticated first worldwide launch or shipment. The manufacturer manual’s June 18, 2021 revision is earlier documentation, not a confirmed on-sale date. FV01/FV03/FV04 availability is not transferred to FV02. [launch 1](https://www.thomannmusic.com/flamma_fv02_vocal_guitar_fx.htm) |
 | Firmware / latest verification | Not verified — No public firmware located. No FV02 firmware download, numbered release history or user-update route found in maker indices/manual. V02/2024-01-08 is a manual revision, not firmware. No USB or MIDI in complete connector inventory; this does not prove internal firmware is absent or never service-updated. [firmware 1](https://flammainnovation.com/download.html) [firmware 2](https://www.flamma.shop/pages/manual) [firmware 3](https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -342,6 +342,7 @@ Sources checked:
 - [FLAMMA FV02 own product page](https://www.flammainnovation.com/single.html?id=59) — Five vocal chorus effects, three reverbs and tone modes; guitar-reverb path; no dated launch. (Indexed manufacturer product and own model identity).
 - [FLAMMA manufacturer download catalogue](https://flammainnovation.com/download.html) — Only own V02 manual listed; no FV02 firmware/updater. (Indexed current maker catalogue, FV02 entry).
 - [FLAMMA manual and software index](https://www.flamma.shop/pages/manual) — FV02 manual link; other models have explicit software/update sections; none located for FV02. (Direct/indexed current maker support index).
+- [Thomann FV02 Vocal & Guitar FX availability record](https://www.thomannmusic.com/flamma_fv02_vocal_guitar_fx.htm) — Available since August 2021, item523425; regional availability proxy only. (Exact-model original retailer availability field checked 2026-11-22).
 
 <!-- firmware-pitch:Flamma::FV02 Doubling ends -->
 
