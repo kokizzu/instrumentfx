@@ -1351,6 +1351,31 @@ For both: working state,condition grade,variant,bundle/adapter,regional warranty
 
 ## GP-50
 
+<!-- firmware-pitch:Valeton::GP-50 begins -->
+### Firmware and pitch audit — Valeton GP-50
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025-12-10 (official public launch; earlier trade-show preview distinct). Official introduction says GP-50 has arrived, published 10 December 2025. Earlier Shanghai trade-show preview is distinct; first shipment not independently verified. [launch 1](https://www.youtube.com/watch?v=ctW1-go0z_I) |
+| Firmware / latest verification | 1.1.0 — Located; latest status unverified. Highest numbered exact-model official package located, 1.19 MB, paired with desktop/mobile 2.1.0. Created/Updated 25 August 2026 are repository fields, not independently verified firmware release dates. Manual/PDF metadata are separate. Dynamic catalogue prevents exhaustive latest guarantee; package not run. [firmware 1](https://www.valeton.net/wpfd_file/gp-50-firmware-v1-1-0-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Own firmware 1.1.0 effects list explicitly labels OCTA and Pitch polyphonic; Detune spans ±50 cents. OCTA mixes down/up octaves and dry; Pitch offers upper/lower semitone shifts and separate dry/shifted levels. Complete numeric endpoints and scale-intelligent harmony are not specified. [pitch 1](https://res.diversitone.com/Uploads/wp/download/1787706039757.GP-50_Effect%20List_EN_Firmware%20V1.1.0.pdf) [pitch 2](https://res.diversitone.com/Uploads/wp/download/1787705999178.GP-50_Online%C2%A0Manual_EN_Firmware%20V1.1.0.pdf) |
+| Pitch / preset recall | 100 patch locations, 55 factory-filled (00–54); nine simultaneous modules maximum. PRE menu alternatives are not independently duplicated pitch instances. SnapTone disables AMP/CAB rather than proving simultaneous capture/amp/cab processing. |
+| Pitch / DSP resources | No per-pitch CPU percentage published in inspected sources. Nine-module maximum and SnapTone AMP/CAB exclusion are structural constraints, not a measured allocation. Effect counts, capture storage and current draw do not establish pitch DSP cost. |
+| Pitch / qualifications | Exact GP-50 1.1.0 manufacturer documents were previously completely read and selected pages visually checked; no GP-5 pitch claim transferred. No hardware chord-tracking, latency or DSP measurement. Patch-specific expression settings do not establish global volume assignment or universal bypass/headphone/USB/looper attenuation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Official GP-50 firmware 1.1.0 package listing](https://www.valeton.net/wpfd_file/gp-50-firmware-v1-1-0-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/) — 1.19 MB; desktop/mobile 2.1.0 pairing; repository timestamps do not prove firmware release date. (web page read).
+- [Valeton GP-50 official introduction](https://www.youtube.com/watch?v=ctW1-go0z_I) — Published 10 December 2025; announces arrival, not independently verified earliest shipment. (indexed official video metadata and description).
+- [Manufacturer GP-50 firmware 1.1.0 effects list](https://res.diversitone.com/Uploads/wp/download/1787706039757.GP-50_Effect%20List_EN_Firmware%20V1.1.0.pdf) — SHA256 37cd5336f8b857f5cf79a1aa5e4d5ed86446bc95f0b32fae843dd7b015031559; OCTA/Pitch polyphonic, Detune ±50 cents. PDF creation metadata not release date. (retained prior complete 23-page PDF read and selected visual inspection).
+- [Manufacturer GP-50 firmware 1.1.0 operating manual](https://res.diversitone.com/Uploads/wp/download/1787705999178.GP-50_Online%C2%A0Manual_EN_Firmware%20V1.1.0.pdf) — SHA256 f305a25b359bfa60bad56aa7b199591d1d8d1b53893b1f37abd9fafb282f7cea; nine simultaneous maximum,100 slots/55 factory; SnapTone disables AMP/CAB; no pitch CPU percentage. (retained prior complete 31-page PDF read and selected visual inspection).
+
+<!-- firmware-pitch:Valeton::GP-50 ends -->
+
 Current comparison summary, reconciled2026-10-28 andupdated2026-11-06 after recovery ofthe manufacturer firmware1.1.0 manual. Selected1.1.0 control/global/hardware findings andthe separate1.1.0 effect-list census are checked directly;older1.0.5 evidence remains revision-qualified. All original bodies, prices, URLs and historical unknowns remain below this selected summary.
 
 <!-- comparison evidence begins -->
