@@ -1300,6 +1300,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GT-001 ends -->
 
+<!-- model-images:BOSS::GT-001 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS GT-001 — control surface**
+
+[![BOSS GT-001 — control surface](https://static.roland.com/products/gt-001/features/images/gallery01.jpg)](https://static.roland.com/products/gt-001/features/images/gallery01.jpg)
+
+[Image source](https://www.boss.info/global/products/gt-001/). Manufacturer photograph with illuminated display and indicator; oblique control-surface view rather than exact top-down. Left-side audio sockets are partly visible; a full view of both audio-connector sides remains pending.
+
+**BOSS GT-001 — rear connections**
+
+[![BOSS GT-001 — rear connections](https://static.roland.com/products/gt-001/features/images/gallery04.jpg)](https://static.roland.com/products/gt-001/features/images/gallery04.jpg)
+
+[Image source](https://www.boss.info/global/products/gt-001/). Manufacturer rear view showing USB and DC IN. Audio and control sockets are on the sides, so this rear photograph alone does not document all connections.
+
+</details>
+<!-- model-images:BOSS::GT-001 ends -->
+
+
 Desktop guitar/vocal processor; distinct from GT-1/GT-100. Checked 2026-10-17; partial. [BOSS product/specifications][GT001-P].
 
 <!-- comparison evidence begins -->
