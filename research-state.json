@@ -223005,16 +223005,16 @@
       },
       "Valeton::GP-180": {
         "model_key": "Valeton::GP-180",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://shop.valeton.net/cdn/shop/files/GP-180_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999403",
-            "source_url": "https://shop.valeton.net/products/gp-180",
-            "caption": "Official GP-180 control-face stock image",
-            "note": "Visually inspected exact GP-180 control face:five knobs,three footswitches,six general buttons andten module shortcut buttons. Stock artwork displays illuminated screen,rings andselected shortcuts;actual powered-unit photography remains unverified. Slight case-edge perspective;strict overhead powered photograph pending.",
+            "image_url": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_63/636408/21121507_800.jpg",
+            "source_url": "https://www.thomannmusic.com/valeton_gp_180.htm",
+            "caption": "GP-180 powered control-face photograph",
+            "note": "Complete physical GP-180 photographed close to overhead with slight perspective: five knobs, six general buttons, ten module shortcuts and three footswitches are visible. Active screen reads 013 Love of Lord with DLY/DST blocks; NR/DST/AMP/CAB/DLY/RVB shortcuts and red/green/red footswitch rings are illuminated. This is a powered control-face view, not strict perpendicular top-down. Patch values and lit modules do not measure pitch DSP usage or establish firmware version. Previous [manufacturer stock layout](https://shop.valeton.net/cdn/shop/files/GP-180_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999403) remains available; rear-port photograph retained.",
             "visual_checked": true,
-            "sha256": "8a3136138ccafc73c483df293429f60144e093850f9912c7a7b997c25a35ef7c",
-            "powered_on": null,
+            "sha256": "1f6091894a4d7ad886be9d9014a052a20222aa486b31d0bb0b6ce2c74c807f46",
+            "powered_on": true,
             "exact_top_down": false
           },
           "rear": {
@@ -227524,6 +227524,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::StompLab 2B"
+    "last_model": "Valeton::GP-180"
   }
 }

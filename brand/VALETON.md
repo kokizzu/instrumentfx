@@ -2374,11 +2374,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Official GP-180 control-face stock image**
+**GP-180 powered control-face photograph**
 
-[![Official GP-180 control-face stock image](https://shop.valeton.net/cdn/shop/files/GP-180_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999403)](https://shop.valeton.net/cdn/shop/files/GP-180_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999403)
+[![GP-180 powered control-face photograph](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_63/636408/21121507_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_63/636408/21121507_800.jpg)
 
-[Image source](https://shop.valeton.net/products/gp-180). Visually inspected exact GP-180 control face:five knobs,three footswitches,six general buttons andten module shortcut buttons. Stock artwork displays illuminated screen,rings andselected shortcuts;actual powered-unit photography remains unverified. Slight case-edge perspective;strict overhead powered photograph pending.
+[Image source](https://www.thomannmusic.com/valeton_gp_180.htm). Complete physical GP-180 photographed close to overhead with slight perspective: five knobs, six general buttons, ten module shortcuts and three footswitches are visible. Active screen reads 013 Love of Lord with DLY/DST blocks; NR/DST/AMP/CAB/DLY/RVB shortcuts and red/green/red footswitch rings are illuminated. This is a powered control-face view, not strict perpendicular top-down. Patch values and lit modules do not measure pitch DSP usage or establish firmware version. Previous [manufacturer stock layout](https://shop.valeton.net/cdn/shop/files/GP-180_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999403) remains available; rear-port photograph retained.
 
 **Official GP-180 rear connector-edge stock image**
 
