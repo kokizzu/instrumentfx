@@ -647,7 +647,7 @@ Indexed original text identifies SEND/RETURN as an audio loop between Chorus and
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. No first-release date established by current manufacturer page/manual. Manual181229 and stock-image181004/181225 filenames are not first-shipment dates. [launch 1](https://www.valeton.net/product/dapper-indie/) |
+| Firmware / first hardware release | 2019-03-07 (manufacturer demo publication proxy; first shipment unconfirmed). Valeton Dapper INDIE manufacturer demo is indexed with publication March7,2019; records a dated public introduction reference, not earliest worldwide shipment. A January8,2019 contemporary forum post reports a sales-executive Facebook announcement for a soon-to-be-released unit, but the underlying announcement and shipping date are not independently recovered. Earlier manual/image filenames remain excluded as shipment evidence. [launch 1](https://www.youtube.com/watch?v=btG_VNIXHJ8) [launch 2](https://www.talkbass.com/threads/new-valeton-dapper-indie.1382238/) |
 | Firmware / latest verification | Not verified — No public firmware located. No numbered Indie device firmware release/date or updater located in checked manufacturer sources. V01 is owner-manual revision, not device firmware. Firmware index text may omit dynamic entries; no assertion that embedded firmware or historical updates never existed. [firmware 1](https://www.valeton.net/product/dapper-indie/) [firmware 2](https://www.valeton.net/firmware/) [firmware 3](https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -663,6 +663,8 @@ Sources checked:
 - [Valeton Dapper Indie official product](https://www.valeton.net/product/dapper-indie/) — Drive/Fuzz/Liquid FX/Echoes/Ambient inventory; duplicated Echoes heading. No firmware or first-release date. (web page read).
 - [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact Indie firmware exposed in extracted text. (web text read; dynamic visibility limited).
 - [Dapper Indie official English V01_181229 owner manual](https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf) — Exact modulation/delay/reverb alternatives, physical controls, trails and tuner; no dedicated pitch transposer or DSP cost. (web two-page PDF text read).
+- [Valeton Dapper INDIE manufacturer demo](https://www.youtube.com/watch?v=btG_VNIXHJ8) — Explicit March7,2019 publication date; manufacturer demonstration/publicity proxy only, not a retail shipment date. (Indexed YouTube publication metadata; direct video page retrieval failed. Valeton creator attribution corroborated by Effects Database video index.).
+- [Contemporary Dapper Indie pre-release discussion](https://www.talkbass.com/threads/new-valeton-dapper-indie.1382238/) — January8,2019 author reports an executive Facebook announcement and calls the Indie soon to be released. Indirect announcement lead, not independently authenticated shipment evidence. (Original dated forum post read).
 
 <!-- firmware-pitch:Valeton::Dapper Indie ends -->
 

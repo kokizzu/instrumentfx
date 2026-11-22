@@ -204934,13 +204934,14 @@
         "model_key": "Valeton::Dapper Indie",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first release unresolved",
+          "date": "2019-03-07",
+          "precision": "day",
+          "kind": "manufacturer demo publication proxy; first shipment unconfirmed",
           "source_urls": [
-            "https://www.valeton.net/product/dapper-indie/"
+            "https://www.youtube.com/watch?v=btG_VNIXHJ8",
+            "https://www.talkbass.com/threads/new-valeton-dapper-indie.1382238/"
           ],
-          "note": "No first-release date established by current manufacturer page/manual. Manual181229 and stock-image181004/181225 filenames are not first-shipment dates."
+          "note": "Valeton Dapper INDIE manufacturer demo is indexed with publication March7,2019; records a dated public introduction reference, not earliest worldwide shipment. A January8,2019 contemporary forum post reports a sales-executive Facebook announcement for a soon-to-be-released unit, but the underlying announcement and shipping date are not independently recovered. Earlier manual/image filenames remain excluded as shipment evidence."
         },
         "firmware": {
           "version": null,
@@ -204988,10 +204989,87 @@
             "title": "Dapper Indie official English V01_181229 owner manual",
             "access": "web two-page PDF text read",
             "evidence": "Exact modulation/delay/reverb alternatives, physical controls, trails and tuner; no dedicated pitch transposer or DSP cost."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=btG_VNIXHJ8",
+            "title": "Valeton Dapper INDIE manufacturer demo",
+            "access": "Indexed YouTube publication metadata; direct video page retrieval failed. Valeton creator attribution corroborated by Effects Database video index.",
+            "evidence": "Explicit March7,2019 publication date; manufacturer demonstration/publicity proxy only, not a retail shipment date."
+          },
+          {
+            "url": "https://www.talkbass.com/threads/new-valeton-dapper-indie.1382238/",
+            "title": "Contemporary Dapper Indie pre-release discussion",
+            "access": "Original dated forum post read",
+            "evidence": "January8,2019 author reports an executive Facebook announcement and calls the Indie soon to be released. Indirect announcement lead, not independently authenticated shipment evidence."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Valeton::Dapper Indie",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first release unresolved",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-indie/"
+              ],
+              "note": "No first-release date established by current manufacturer page/manual. Manual181229 and stock-image181004/181225 filenames are not first-shipment dates."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-indie/",
+                "https://www.valeton.net/firmware/",
+                "https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf"
+              ],
+              "note": "No numbered Indie device firmware release/date or updater located in checked manufacturer sources. V01 is owner-manual revision, not device firmware. Firmware index text may omit dynamic entries; no assertion that embedded firmware or historical updates never existed."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "No dedicated transposer, octave divider or harmonizer documented. Liquid FX chooses chorus/phaser/tremolo; Echoes chooses analog/tape/reverse delay; Ambient chooses room/hall/plate. Chorus pitch architecture/input polyphony is unspecified.",
+              "preset": "Physical controls and three type toggles; no programmable pitch preset count established. Tap tempo and reverb trails do not establish stored pitch patches.",
+              "dsp": "No pitch CPU percentage, DSP meter or per-algorithm resource cost published. Delay25–2000ms,150mA electrical draw and three-way choices are not CPU usage.",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-indie/",
+                "https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "No-pitch-documented refers to dedicated transposition, not proof that chorus contains no internal modulation. Reverse delay does not establish a pitch interval.",
+                "Duplicated Echoes product heading is not a second delay block. Tuner mutes audio rather than correcting it.",
+                "No shimmer/pitch-shifted reverb inferred from ambient branding; no hardware/audio or updater test."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.valeton.net/product/dapper-indie/",
+                "title": "Valeton Dapper Indie official product",
+                "access": "web page read",
+                "evidence": "Drive/Fuzz/Liquid FX/Echoes/Ambient inventory; duplicated Echoes heading. No firmware or first-release date."
+              },
+              {
+                "url": "https://www.valeton.net/firmware/",
+                "title": "Valeton official firmware index",
+                "access": "web text read; dynamic visibility limited",
+                "evidence": "No exact Indie firmware exposed in extracted text."
+              },
+              {
+                "url": "https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf",
+                "title": "Dapper Indie official English V01_181229 owner manual",
+                "access": "web two-page PDF text read",
+                "evidence": "Exact modulation/delay/reverb alternatives, physical controls, trails and tuner; no dedicated pitch transposer or DSP cost."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Valeton::Dapper MDR": {
         "model_key": "Valeton::Dapper MDR",
@@ -212377,8 +212455,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Valeton::Dapper Acoustic Mini",
-    "last_commit_parent": "228a718b5903a7085052351a056e277b63d369a5",
+    "last_model": "Valeton::Dapper Indie",
+    "last_commit_parent": "f783b275c30ed1b2521c6bb359ac87a186b85adf",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
