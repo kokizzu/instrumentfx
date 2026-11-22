@@ -207105,7 +207105,7 @@
       },
       "Soran::Tiny Stomp": {
         "model_key": "Soran::Tiny Stomp",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "first_release": {
           "date": null,
           "precision": "unknown",
@@ -207123,9 +207123,10 @@
           "source_urls": [
             "https://soranaudio.com/article/127.html",
             "https://www.soranaudio.com/Download.html",
-            "https://www.soranaudio.com/category/9.html"
+            "https://www.soranaudio.com/category/9.html",
+            "https://soranaudio.com/cn/article/161.html"
           ],
-          "note": "Latest located official device release; exact Tiny support section lists DFU1.1.1. Same-date Learn video heading says1.1.0,while release title and startup version instruction explicitly say1.1.1. Includes Tiny external dual-footswitch fix. No first launch date,so span remains unknown. No update installed."
+          "note": "Latest located official device release; exact Tiny support section lists DFU1.1.1. Same-date Learn video heading says1.1.0,while release title and startup version instruction explicitly say1.1.1. Includes Tiny external dual-footswitch fix. No first launch date,so span remains unknown. No update installed. The August 25, 2026 NAM A2 announcement explicitly requires no device firmware update: Stomp Manager 1.0.2.1 converts A2 files during import. That announcement date and editor version are not a later device firmware release or proof of native A2 execution."
         },
         "pitch": {
           "status": "pitch_present_polyphony_unverified",
@@ -207173,10 +207174,93 @@
             "title": "Soran Learn index",
             "access": "Manufacturer indexed heading inspected",
             "evidence": "Same-date video heading says1.1.0;explicit release-note title/startup instruction says1.1.1."
+          },
+          {
+            "url": "https://soranaudio.com/cn/article/161.html",
+            "title": "Soran NAM A2 support — official Chinese announcement",
+            "access": "opened_manufacturer_article",
+            "evidence": "Dated August 25, 2026; names Tiny Stomp, Dual Stomp and Dual Stomp Lite. Explicitly no device firmware update needed; Windows/macOS Stomp Manager 1.0.2.1 performs A2 format conversion on import. Does not establish a new device firmware or native A2 runtime."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Soran::Tiny Stomp",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first hardware release not verified",
+              "source_urls": [
+                "https://soranaudio.com/products/34.html"
+              ],
+              "note": "Undated product page; manual upload date and later color-variant announcements do not establish original hardware launch."
+            },
+            "firmware": {
+              "version": "1.1.1",
+              "date": "2026-05-27",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://soranaudio.com/article/127.html",
+                "https://www.soranaudio.com/Download.html",
+                "https://www.soranaudio.com/category/9.html"
+              ],
+              "note": "Latest located official device release; exact Tiny support section lists DFU1.1.1. Same-date Learn video heading says1.1.0,while release title and startup version instruction explicitly say1.1.1. Includes Tiny external dual-footswitch fix. No first launch date,so span remains unknown. No update installed."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "MOD offers Harmony (shifted note above/below input) and Detune; REV offers Shimmer (pitched reverb tail). Major/Minor Harmony fix documented in1.1.1. Input-note polyphony,interval limits and standalone transpose behavior remain unverified.",
+              "preset": "99 editable preset locations;not99 factory plus99 user slots. Exact firmware-matched Harmony parameter recall not device-tested. Updates retain presets but erase importedNAM/IR;factory reset deletes user data.",
+              "dsp": "No numerical pitch DSP/CPU cost or meter measurement located. Harmony and Detune are alternatives within MOD;Shimmer belongs to REV. Eight tone modules plus looper/drums do not establish10% DSP per module or simultaneous independent Harmony+Detune blocks.",
+              "source_urls": [
+                "https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf",
+                "https://soranaudio.com/article/127.html",
+                "https://soranaudio.com/products/34.html"
+              ],
+              "measurements": [],
+              "notes": [
+                "Manual Tiny-specific update entry uses Left+Right hand buttons;shared release-note wording about two footswitches is not transferred to this desktop hardware.",
+                "USB MIDI requires an external USB-host controller;the device is a peripheral. No hardware performance test."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://soranaudio.com/products/34.html",
+                "title": "Soran Tiny Stomp manufacturer product",
+                "access": "Exact-model manufacturer indexed text inspected",
+                "evidence": "99 locations,ten modules,DFU1.1.1 listed separately from editor/driver versions;no launch date."
+              },
+              {
+                "url": "https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf",
+                "title": "Soran Tiny Stomp original JME-03A manual",
+                "access": "Manufacturer PDF original text inspected,printedpp25–26 and update section",
+                "evidence": "Harmony/Detune inMOD;Shimmer inREV;Tiny DFU entry uses Left+Right buttons. No explicit input polyphony or numeric DSP utilization."
+              },
+              {
+                "url": "https://soranaudio.com/article/127.html",
+                "title": "Soran Stomp family V1.1.1 release notes",
+                "access": "Manufacturer dated release text inspected",
+                "evidence": "May27,2026;Harmony Major/Minor and Tiny TRS dual-switch fixes;retains presets,erases imported models/IR;reset deletes data."
+              },
+              {
+                "url": "https://www.soranaudio.com/Download.html",
+                "title": "Soran official download index — Tiny Stomp",
+                "access": "Current exact-model indexed section inspected",
+                "evidence": "Tiny DFU1.1.1;manual/editor/driver are separately versioned."
+              },
+              {
+                "url": "https://www.soranaudio.com/category/9.html",
+                "title": "Soran Learn index",
+                "access": "Manufacturer indexed heading inspected",
+                "evidence": "Same-date video heading says1.1.0;explicit release-note title/startup instruction says1.1.1."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "TC Electronic::M-One XL": {
         "model_key": "TC Electronic::M-One XL",
@@ -217607,8 +217691,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Boin Audio::BG300",
-    "last_commit_parent": "82db5193469affa2961b0a8aa122844842056bf6",
+    "last_model": "Soran::Tiny Stomp",
+    "last_commit_parent": "ba58f7baec47ee23ce907f0d3efe2632e5c06588",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
