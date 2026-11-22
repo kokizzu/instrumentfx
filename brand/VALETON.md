@@ -3411,6 +3411,30 @@ The Chinese page says up to five hours; retain the English over-five-hours prose
 
 ## Rushead Max RH-100
 
+<!-- firmware-pitch:Valeton::Rushead Max RH-100 begins -->
+### Firmware and pitch audit — Valeton Rushead Max RH-100
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Current product is undated. Manual revision and stock-image filename dates do not establish first public release or shipment. [launch 1](https://www.valeton.net/product/rushead-max/) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact RH-100 public firmware/updater release located in checked manufacturer sources. USB charging is documented, not an update interface or USB audio guarantee. Manual V02 is document revision, not firmware. No software or device operated. [firmware 1](https://www.valeton.net/product/rushead-max/) [firmware 2](https://www.valeton.net/wp-file-download-search/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Exact-model inventory lists AMP clean/overdrive/distortion; MOD chorus/tremolo/flanger; AMBIENT delay/reverb/combined delay+reverb. No dedicated octave transposer, pitch shifter or intelligent harmonizer documented. [pitch 1](https://www.valeton.net/product/rushead-max/) [pitch 2](https://www.scribd.com/document/702238767/RH-100-Rushead-Max-Manual-en-V02-211025) |
+| Pitch / preset recall | Five manual rotary controls and three mode selectors; programmable patch storage and unrestricted simultaneous ceiling remain unverified. Combined ambience is a selected mode, not an extra independent block. |
+| Pitch / DSP resources | No per-pitch CPU cost found and no dedicated pitch algorithm documented. Modulation architecture/polyphony and total DSP budget remain unpublished in checked sources; module/mode counts are not CPU allocations. |
+| Pitch / qualifications | Chorus/flanger presence does not establish polyphonic musical transposition. Negative finding is limited to inspected inventory, not proof no undocumented capability exists. RH-101 bass specifications are not transferred. Preserve garbled original-manual electrical extraction and manufacturer dimension-axis conflict. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Valeton Rushead Max official product](https://www.valeton.net/product/rushead-max/) — Guitar headphone amp; named amp/MOD/AMBIENT families, USB charging; no dedicated pitch block or update procedure described. (web page read).
+- [Valeton public download catalogue](https://www.valeton.net/wp-file-download-search/) — RH-100 manuals located; no public exact-model firmware package found. Dynamic catalogue limits absence claim. (indexed manufacturer catalogue and exact-model firmware search).
+- [Manufacturer RH-100 V02 manual reproduction](https://www.scribd.com/document/702238767/RH-100-Rushead-Max-Manual-en-V02-211025) — Separate MOD/AMBIENT controls; delay/reverb/combined mode and three modulation modes. No dedicated pitch algorithm; electrical OCR remains qualified. (original two-page document-body text read; uploader/AI/related content excluded).
+
+<!-- firmware-pitch:Valeton::Rushead Max RH-100 ends -->
+
 Checked 2026-10-18; partial. Guitar multi-effects headphone amplifier, distinct from bass RH-101 and older Rushead variants. Ownership unconfirmed.
 
 | Field | Evidence / qualification |
