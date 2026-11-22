@@ -207859,13 +207859,14 @@
         "model_key": "Valeton::Rushead Max RH-100",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first public release not verified",
+          "date": "2019-04-14",
+          "precision": "day",
+          "kind": "public demonstration publication proxy; exact first sale unconfirmed",
           "source_urls": [
-            "https://www.valeton.net/product/rushead-max/"
+            "https://www.youtube.com/watch?v=jRzZjdzPp1U",
+            "https://www.schoolmusic.co.kr/Shop/index.php3?Good_no=45592&var=Good&version=pc"
           ],
-          "note": "Current product is undated. Manual revision and stock-image filename dates do not establish first public release or shipment."
+          "note": "Original Rushead Max Pocket Guitar AMP video is indexed as published April 14, 2019. This establishes dated public demonstration, not exact first shipment; channel authorship is not used to certify a manufacturer launch here. SchoolMusic reports May 6, 2019 for RH-100, a later regional retailer date; other retailer dates differ. Do not substitute the RH-101 bass edition’s 2021 introduction or mislabeled marketplace bass titles."
         },
         "firmware": {
           "version": null,
@@ -207911,10 +207912,85 @@
             "title": "Manufacturer RH-100 V02 manual reproduction",
             "access": "original two-page document-body text read; uploader/AI/related content excluded",
             "evidence": "Separate MOD/AMBIENT controls; delay/reverb/combined mode and three modulation modes. No dedicated pitch algorithm; electrical OCR remains qualified."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=jRzZjdzPp1U",
+            "title": "Valeton RUSHEAD Max - Pocket Guitar AMP",
+            "access": "Original video title and publication metadata indexed and checked 2026-11-22",
+            "evidence": "Published 2019-04-14; public demonstration proxy, not confirmed first shipment or manufacturer-launch certification."
+          },
+          {
+            "url": "https://www.schoolmusic.co.kr/Shop/index.php3?Good_no=45592&var=Good&version=pc",
+            "title": "SchoolMusic Valeton RH-100 Rushead Max listing",
+            "access": "Exact-model regional retailer release field checked 2026-11-22",
+            "evidence": "Reports May 6, 2019; later regional date, not adopted as global first sale."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Valeton::Rushead Max RH-100",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first public release not verified",
+              "source_urls": [
+                "https://www.valeton.net/product/rushead-max/"
+              ],
+              "note": "Current product is undated. Manual revision and stock-image filename dates do not establish first public release or shipment."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.valeton.net/product/rushead-max/",
+                "https://www.valeton.net/wp-file-download-search/"
+              ],
+              "note": "No exact RH-100 public firmware/updater release located in checked manufacturer sources. USB charging is documented, not an update interface or USB audio guarantee. Manual V02 is document revision, not firmware. No software or device operated."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Exact-model inventory lists AMP clean/overdrive/distortion; MOD chorus/tremolo/flanger; AMBIENT delay/reverb/combined delay+reverb. No dedicated octave transposer, pitch shifter or intelligent harmonizer documented.",
+              "preset": "Five manual rotary controls and three mode selectors; programmable patch storage and unrestricted simultaneous ceiling remain unverified. Combined ambience is a selected mode, not an extra independent block.",
+              "dsp": "No per-pitch CPU cost found and no dedicated pitch algorithm documented. Modulation architecture/polyphony and total DSP budget remain unpublished in checked sources; module/mode counts are not CPU allocations.",
+              "source_urls": [
+                "https://www.valeton.net/product/rushead-max/",
+                "https://www.scribd.com/document/702238767/RH-100-Rushead-Max-Manual-en-V02-211025"
+              ],
+              "measurements": [],
+              "notes": [
+                "Chorus/flanger presence does not establish polyphonic musical transposition. Negative finding is limited to inspected inventory, not proof no undocumented capability exists.",
+                "RH-101 bass specifications are not transferred. Preserve garbled original-manual electrical extraction and manufacturer dimension-axis conflict."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.valeton.net/product/rushead-max/",
+                "title": "Valeton Rushead Max official product",
+                "access": "web page read",
+                "evidence": "Guitar headphone amp; named amp/MOD/AMBIENT families, USB charging; no dedicated pitch block or update procedure described."
+              },
+              {
+                "url": "https://www.valeton.net/wp-file-download-search/",
+                "title": "Valeton public download catalogue",
+                "access": "indexed manufacturer catalogue and exact-model firmware search",
+                "evidence": "RH-100 manuals located; no public exact-model firmware package found. Dynamic catalogue limits absence claim."
+              },
+              {
+                "url": "https://www.scribd.com/document/702238767/RH-100-Rushead-Max-Manual-en-V02-211025",
+                "title": "Manufacturer RH-100 V02 manual reproduction",
+                "access": "original two-page document-body text read; uploader/AI/related content excluded",
+                "evidence": "Separate MOD/AMBIENT controls; delay/reverb/combined mode and three modulation modes. No dedicated pitch algorithm; electrical OCR remains qualified."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "VING::Flybro FB-100": {
         "model_key": "VING::Flybro FB-100",
@@ -214128,8 +214204,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Valeton::Rushead Max Bass RH-101",
-    "last_commit_parent": "ee81c68ee18a1282bef21473a855691ed75e8276",
+    "last_model": "Valeton::Rushead Max RH-100",
+    "last_commit_parent": "18d52debedeb9e1049b85f7e4d4fac2dc73fa7e4",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

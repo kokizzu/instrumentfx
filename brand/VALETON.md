@@ -3436,7 +3436,7 @@ The Chinese page says up to five hours; retain the English over-five-hours prose
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Current product is undated. Manual revision and stock-image filename dates do not establish first public release or shipment. [launch 1](https://www.valeton.net/product/rushead-max/) |
+| Firmware / first hardware release | 2019-04-14 (public demonstration publication proxy; exact first sale unconfirmed). Original Rushead Max Pocket Guitar AMP video is indexed as published April 14, 2019. This establishes dated public demonstration, not exact first shipment; channel authorship is not used to certify a manufacturer launch here. SchoolMusic reports May 6, 2019 for RH-100, a later regional retailer date; other retailer dates differ. Do not substitute the RH-101 bass edition’s 2021 introduction or mislabeled marketplace bass titles. [launch 1](https://www.youtube.com/watch?v=jRzZjdzPp1U) [launch 2](https://www.schoolmusic.co.kr/Shop/index.php3?Good_no=45592&var=Good&version=pc) |
 | Firmware / latest verification | Not verified — No public firmware located. No exact RH-100 public firmware/updater release located in checked manufacturer sources. USB charging is documented, not an update interface or USB audio guarantee. Manual V02 is document revision, not firmware. No software or device operated. [firmware 1](https://www.valeton.net/product/rushead-max/) [firmware 2](https://www.valeton.net/wp-file-download-search/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -3452,6 +3452,8 @@ Sources checked:
 - [Valeton Rushead Max official product](https://www.valeton.net/product/rushead-max/) — Guitar headphone amp; named amp/MOD/AMBIENT families, USB charging; no dedicated pitch block or update procedure described. (web page read).
 - [Valeton public download catalogue](https://www.valeton.net/wp-file-download-search/) — RH-100 manuals located; no public exact-model firmware package found. Dynamic catalogue limits absence claim. (indexed manufacturer catalogue and exact-model firmware search).
 - [Manufacturer RH-100 V02 manual reproduction](https://www.scribd.com/document/702238767/RH-100-Rushead-Max-Manual-en-V02-211025) — Separate MOD/AMBIENT controls; delay/reverb/combined mode and three modulation modes. No dedicated pitch algorithm; electrical OCR remains qualified. (original two-page document-body text read; uploader/AI/related content excluded).
+- [Valeton RUSHEAD Max - Pocket Guitar AMP](https://www.youtube.com/watch?v=jRzZjdzPp1U) — Published 2019-04-14; public demonstration proxy, not confirmed first shipment or manufacturer-launch certification. (Original video title and publication metadata indexed and checked 2026-11-22).
+- [SchoolMusic Valeton RH-100 Rushead Max listing](https://www.schoolmusic.co.kr/Shop/index.php3?Good_no=45592&var=Good&version=pc) — Reports May 6, 2019; later regional date, not adopted as global first sale. (Exact-model regional retailer release field checked 2026-11-22).
 
 <!-- firmware-pitch:Valeton::Rushead Max RH-100 ends -->
 
