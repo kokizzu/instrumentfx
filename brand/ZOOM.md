@@ -1528,6 +1528,32 @@ MEMORY mode provides lower/higher patch switching; BANK HOLD and PRESELECT quali
 
 ## B1on
 
+<!-- firmware-pitch:Zoom::B1on begins -->
+### Firmware and pitch audit — Zoom B1on
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2014 (manufacturer product-history year). Manufacturer chronology lists B1on separately under2014. December2013 mass-production firmware is not a retail release date; exact first shipment remains unverified. [launch 1](https://ir.zoom.co.jp/corporate/history/) |
+| Firmware / latest verification | 1.30 — Latest verified. Current exact B1on Windows/Mac packages are v1.30. Its release date remains unverified from primary evidence; the older official history covers1.21 in March2014 and1.11 mass production in December2013, not1.30. No date inferred from updater copyright or archive metadata. [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b1on/b1on-support/) [firmware 2](https://zoom.co.jp/sites/default/files/products/downloads/pdfs/B1on_B1Xon_ver121_en.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT: −12…+12,+24 semitones and±25-cent Fine, Tone, wet/dry balance and Level. Ba Pitch explicitly targets single-note bass. HPS follows scale/key; its harmony voice does not prove chord tracking. Polyphony of the general PitchSHFT is unspecified. [pitch 1](https://zoomcorp.com/media/documents/E_B1on_B1Xon_FX-list_100.pdf) [pitch 2](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf) |
+| Pitch / preset recall | 100 patch memories in10banks. Effect ON/OFF states and parameters are stored per patch. B1on has no built-in treadle; B1Xon-only pedal features are not transferred. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Up to five ordered effects; heavy combinations trigger PROCESSING LIMIT and bypass an effect. Change effect types to resolve capacity; five slots are not a guarantee for five heavy algorithms. |
+| Pitch / qualifications | No hardware tracking/CPU test or firmware installation. Latest version verified; latest date and elapsed release-to-update duration unresolved. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/corporate/history/) — B1on/B1Xon grouped in2014. (official chronology inspected).
+- [Zoom B1on support](https://zoomcorp.com/en/us/multi-effects/bass-effects/b1on/b1on-support/) — B1on_v1.30_Win_E.zip and B1on_v1.30_Mac_E.zip; no release date shown. (official exact-model package list read).
+- [B1on/B1Xon older system-software history](https://zoom.co.jp/sites/default/files/products/downloads/pdfs/B1on_B1Xon_ver121_en.pdf) — 1.21 March2014 adds25effects;1.11 December2013 mass production. Does not date1.30. (official indexed history text read).
+- [B1on/B1Xon 100-effect list](https://zoomcorp.com/media/documents/E_B1on_B1Xon_FX-list_100.pdf) — PitchSHFT,BaPitchsingle-note,HPS; no general-polyphony guarantee or DSP percentage. (official PDF pitch section inspected).
+- [B1on/B1Xon operation manual](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf) — 100patches,fiveeffects,PROCESSING LIMITbypass;pedalfunctionsB1Xononly. (official PDF pp7,10,26 inspected).
+
+<!-- firmware-pitch:Zoom::B1on ends -->
+
 Reviewed **2026-10-17**,after exact Shopee hardware discovery. **B1on**,not B1Xon,B1 FOUR orB1X FOUR. Bass-focused multi-effects;no ownership assertion. Partial:manufacturer HTML andindexed original manual/effects text;no dependencies,manual files,software orfirmware downloaded to the workspace. The official shared manual explicitly distinguishes the two on-series models.
 
 | Field | Finding / qualification | Evidence |

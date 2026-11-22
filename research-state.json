@@ -206334,10 +206334,81 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "Zoom::B1on": {
+        "model_key": "Zoom::B1on",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2014",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists B1on separately under2014. December2013 mass-production firmware is not a retail release date; exact first shipment remains unverified."
+        },
+        "firmware": {
+          "version": "1.30",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/bass-effects/b1on/b1on-support/",
+            "https://zoom.co.jp/sites/default/files/products/downloads/pdfs/B1on_B1Xon_ver121_en.pdf"
+          ],
+          "note": "Current exact B1on Windows/Mac packages are v1.30. Its release date remains unverified from primary evidence; the older official history covers1.21 in March2014 and1.11 mass production in December2013, not1.30. No date inferred from updater copyright or archive metadata."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT: −12…+12,+24 semitones and±25-cent Fine, Tone, wet/dry balance and Level. Ba Pitch explicitly targets single-note bass. HPS follows scale/key; its harmony voice does not prove chord tracking. Polyphony of the general PitchSHFT is unspecified.",
+          "preset": "100 patch memories in10banks. Effect ON/OFF states and parameters are stored per patch. B1on has no built-in treadle; B1Xon-only pedal features are not transferred.",
+          "dsp": "No per-pitch DSP percentage published. Up to five ordered effects; heavy combinations trigger PROCESSING LIMIT and bypass an effect. Change effect types to resolve capacity; five slots are not a guarantee for five heavy algorithms.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_B1on_B1Xon_FX-list_100.pdf",
+            "https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No hardware tracking/CPU test or firmware installation. Latest version verified; latest date and elapsed release-to-update duration unresolved."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "B1on/B1Xon grouped in2014."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b1on/b1on-support/",
+            "title": "Zoom B1on support",
+            "access": "official exact-model package list read",
+            "evidence": "B1on_v1.30_Win_E.zip and B1on_v1.30_Mac_E.zip; no release date shown."
+          },
+          {
+            "url": "https://zoom.co.jp/sites/default/files/products/downloads/pdfs/B1on_B1Xon_ver121_en.pdf",
+            "title": "B1on/B1Xon older system-software history",
+            "access": "official indexed history text read",
+            "evidence": "1.21 March2014 adds25effects;1.11 December2013 mass production. Does not date1.30."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B1on_B1Xon_FX-list_100.pdf",
+            "title": "B1on/B1Xon 100-effect list",
+            "access": "official PDF pitch section inspected",
+            "evidence": "PitchSHFT,BaPitchsingle-note,HPS; no general-polyphony guarantee or DSP percentage."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf",
+            "title": "B1on/B1Xon operation manual",
+            "access": "official PDF pp7,10,26 inspected",
+            "evidence": "100patches,fiveeffects,PROCESSING LIMITbypass;pedalfunctionsB1Xononly."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::B1on",
       "Zoom::B1X FOUR",
       "Zoom::B1X original",
       "Zoom::B1Xon",
@@ -206388,12 +206459,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 353,
-    "last_model": "Zoom::B1 FOUR",
-    "last_commit_parent": "7ea4c0db775e6e08ffaa370622fbaecf11f56aa1",
+    "completed_model_count": 354,
+    "last_model": "Zoom::B1on",
+    "last_commit_parent": "ada624a3986edf654073a5aaf949bbff21c9baad",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::B1on",
       "Zoom::B1X FOUR",
       "Zoom::B1X original",
       "Zoom::B1Xon",
@@ -206443,7 +206513,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 353,
+    "pitch_completed_model_count": 354,
     "supplemental_model_count": 0
   },
   "model_images": {
