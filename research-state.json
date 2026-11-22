@@ -213299,20 +213299,30 @@
       },
       "DK::iE-350": {
         "model_key": "DK::iE-350",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "views": {
           "top": {
             "image_url": "https://etone.shop/cdn/shop/files/DKIE350GuitarMulti-EffectsPedalboardMainFront_2000x.png?v=1755586382",
             "source_url": "https://etone.shop/products/dk-ie350-guitar-multi-effects-pedalboard-with-built-in-rechargeable-battery",
             "caption": "iE-350 top-down product render with active screen",
-            "note": "Visually inspected retailer product render: P01 Lead 350 screen and blue switch rings depicted active. Not a verified photograph of powered hardware. Rear-port image remains pending.",
+            "note": "Visually inspected retailer product render: P01 Lead 350 screen and blue switch rings depicted active. Not a verified photograph of powered hardware. Rear connector-panel product render is provided below; real hardware photographs remain pending.",
             "visual_checked": true,
             "powered_on": null,
             "exact_top_down": true,
             "sha256": "2b1617d1d2a4f785d8dee2570fc29a43fa00fce9d259e18d9a4c8515abb39c4b"
+          },
+          "rear": {
+            "image_url": "https://etone.shop/cdn/shop/files/DKIE350GuitarMulti-EffectsPedalboardConnects_5000x.png?v=1755589355",
+            "source_url": "https://etone.shop/products/dk-ie350-guitar-multi-effects-pedalboard-with-built-in-rechargeable-battery",
+            "caption": "iE-350 rear connector-panel product render",
+            "note": "Visually inspected retailer render clearly shows EXP, IN, OUT /PHONES, USB OTG Type-C and POWER OFF/ON controls. White chassis matches the exact iE-350 listing. This is a product render, not a verified photograph of physical hardware or proof of electrical operation.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "04e0f0f42e4021e4ae0e1ea2f9b66abcb8205af26e57e3787bfeac115defead2"
           }
         },
-        "pending": "Powered-on real photograph and rear-port view required; right-side candidate lacked sockets."
+        "pending": "Powered-on real top-down photograph and real rear-port photograph still required; current top/rear illustrations are explicitly labelled product renders."
       },
       "DK::iE-550": {
         "model_key": "DK::iE-550",
@@ -224008,6 +224018,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::Stageman Floor NAP-5"
+    "last_model": "DK::iE-350"
   }
 }
