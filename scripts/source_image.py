@@ -25,6 +25,7 @@ HOSTS = {'flammainnovation.com', 'www.flammainnovation.com', 'downloads.eventide
 
 # Exact retailer-hosted manufacturer manual linked by the BG300 distributor.
 REVIEWED_MIRRORS = {
+    "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
     "https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stage_Effect%20List_EN_Firmware%20V1.7.0.1784703146951.pdf",
     "https://res.hotoneaudio.com/prod/support/Ampero%20II_Effect%20List_EN_Firmware%20V1.4.0.1785406941890.pdf",
     "https://data.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf",

@@ -912,11 +912,11 @@ Direct-pedal all-output,tail/looper coverage and global-volume precedence remain
 | Firmware / latest verification | 2.2 — Latest verified. Current global index lists Mini 2.2; Japanese distributor release notes explicitly date 2.2 March 9, 2026. Adds Sound Clone import, Precise Attack and Match30 Clean. Editor versions and NAM conversion software are separate from device firmware. [firmware 1](https://www.hotone.com/support/2) [firmware 2](https://www.hotone.jp/announcements/ampero-sound-clone-release) |
 | Firmware / release date | 2026-03-09 (day precision) |
 | Firmware / release-to-update duration | 2.77 years; observed release span, not continuous support or promised future updates. |
-| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
-| Pitch / note handling | Documented polyphonic. Original V1.0 manufacturer manuscript explicitly calls Pitch Shift polyphonic, range -24 to +24 semitones, with Position, Dry and output controls. Clean Octa and Harmony separately have polyphonic descriptions; Harmony Hi/Low prose is reversed relative to its numeric ranges. [pitch 1](https://manuals.plus/m/4298f527284abd8ec4de6aac1f3033aa0c853eb5c48ae9ed6cd22868cb40627e) [pitch 2](https://shop.hotoneaudio.com/products/ampero-mini) |
-| Pitch / preset recall | Yes: original SAVE section stores effect parameters and control settings. Use an editable user patch; this does not make factory banks writable. Current 2.2 pitch recall has not been physically tested. |
-| Pitch / DSP resources | No exact Mini pitch-block percentage found in checked sources. Manufacturer shop specifies up to nine simultaneous modules; original manual warns of system overload. Nine slots are not a CPU percentage or a guarantee for arbitrary high-cost combinations. Stomp HQ 50% cannot be assigned to Mini Pitch Shift. |
-| Pitch / qualifications | V2.2 official PDF retrieval timed out; the reopened V1.0 manufacturer manuscript is the revision basis for this pitch classification. Existing later-revision evidence in the canonical section remains retained. Polyphonic design is not a measured quality or latency result; harmony voices and octave effects are not substitutes for checking whole-chord transposition. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. V2.2 manual pp29–30: Pitch Shift is polyphonic, ±24 semitones, with external-expression Position, Dry and Volume controls; Classic PS is monophonic. Clean Octa and Harmony are explicitly polyphonic. Harmony retains reversed higher/lower prose beside Hi 0…+24 and Low 0…−24 ranges. [pitch 1](https://manuals.plus/m/4298f527284abd8ec4de6aac1f3033aa0c853eb5c48ae9ed6cd22868cb40627e) [pitch 2](https://shop.hotoneaudio.com/products/ampero-mini) [pitch 3](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf) |
+| Pitch / preset recall | V2.2 p19 saves effect parameters and control settings; p3 defines 99 writable user patches plus 99 factory patches. Unsaved control edits are lost on patch change/power-off (p14). No physical recall test. |
+| Pitch / DSP resources | V2.2 p3 permits up to nine modules; p14 warns of processor overload. No isolated Mini pitch-block utilization percentage established. Slot count does not specify CPU cost; Stomp HQ 50% is not a Mini measurement. |
+| Pitch / qualifications | Current official V2.2 manual retrieved and pitch table visually inspected, resolving the earlier timeout and original-manual-only gap. Polyphonic design is documented; audio quality and latency remain unmeasured. |
 | Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
 
 Sources checked:
@@ -926,6 +926,7 @@ Sources checked:
 - [Hotone Japan Sound Clone release](https://www.hotone.jp/announcements/ampero-sound-clone-release) — Exact Mini 2.2 section dated March 9, 2026; do not substitute MP-100 5.2 or One 3.1. (opened).
 - [Ampero Mini V1.0 manufacturer manual reproduction](https://manuals.plus/m/4298f527284abd8ec4de6aac1f3033aa0c853eb5c48ae9ed6cd22868cb40627e) — Original Pitch Shift row, Clean Octa/Harmony rows, SAVE and overload warning inspected; generated FAQs excluded. (manufacturer_manuscript_on_mirror).
 - [Hotone Ampero Mini official shop](https://shop.hotoneaudio.com/products/ampero-mini) — Exact Mini product lists up to nine simultaneous effect modules. (opened).
+- [Ampero Mini V2.2 official manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf) — 4,444,983 bytes; SHA256 4f1622c7728c0c17496353e1a3fdee0961945e9be156a69a5c53289a765c3249. Printed pp3,14,19,29–30 checked; p30 pitch table visually inspected. (opened_official_pdf_text_and_render).
 
 <!-- firmware-pitch:Hotone::Ampero Mini MP-50 ends -->
 
