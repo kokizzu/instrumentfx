@@ -5476,6 +5476,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::ME-50B ends -->
 
+<!-- model-images:BOSS::ME-50B begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS ME-50B — powered-on top view**
+
+[![BOSS ME-50B — powered-on top view](https://static.roland.com/assets/images/products/main/me50b_main.jpg)](https://static.roland.com/assets/images/products/main/me50b_main.jpg)
+
+[Image source](https://www.boss.info/global/products/me-50b/). Complete manufacturer straight-down promotional image with lit red bank display, tuner/effect/foot indicators, all rotary sections and panel buttons, three footswitches and full expression pedal. The original is only 500 pixels wide, limiting fine-label readability. Powered-on appearance is visible; independent operating-state verification is unavailable.
+
+**BOSS ME-50B — rear connections**
+
+[![BOSS ME-50B — rear connections](https://www.chicagomusicexchange.com/cdn/shop/products/boss-effects-and-pedals-multi-effect-unit-boss-me-50b-bass-multiple-effects-w-cosm-me50b-28186370310279.jpg?v=1652395075)](https://www.chicagomusicexchange.com/cdn/shop/products/boss-effects-and-pedals-multi-effect-unit-boss-me-50b-bass-multiple-effects-w-cosm-me50b-28186370310279.jpg?v=1652395075)
+
+[Image source](https://www.chicagomusicexchange.com/products/boss-me-50b-bass-multiple-effects-w-cosm-9665). Retailer photograph showing the complete rear panel: INPUT, OUTPUT R/L-MONO, PHONES, miniature AUX IN, COMP ON/OFF/TEMPO footswitch jack (BANK UP/DOWN), NOISE SUPPRESSOR knob, power switch, DC IN for PSA adaptor, cord restraint and security slot. Large white margins do not crop any connector.
+
+</details>
+<!-- model-images:BOSS::ME-50B ends -->
+
+
 Bass-focused multi-effects, distinct from ME-50 guitar and ME-20B. Checked 2026-10-17; partial. Ownership unestablished. Discontinued manufacturer status does not establish seller availability.
 
 <!-- comparison evidence begins -->
