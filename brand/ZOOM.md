@@ -8131,6 +8131,8 @@ Sources checked:
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/GFX-3/). Actual GFX-3 with complete control face and treadle visible from an angled overhead view. Powered operation is unverified: segment outlines are visible but no clearly active patch indication or footswitch LED. A powered perpendicular photograph remains pending.
 
+Supplemental near-overhead layout reference (unlit; lower resolution): [![GFX-3 complete near-overhead owner photograph](https://medias.audiofanzine.com/images/normal/zoom-gfx-3-433598.jpg)](https://medias.audiofanzine.com/images/normal/zoom-gfx-3-433598.jpg). [Photo source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/GFX-3/). Complete GFX-3 control face, three footswitches and full treadle are visible on a dark tabletop. Display shows inactive segment outlines, not a clearly active patch; this is an unlit near-overhead layout reference. Image is only 720 pixels wide and somewhat soft, so the clearer existing angled image is retained as primary.
+
 **GFX-3 rear connections**
 
 [![GFX-3 rear connections](https://i.ebayimg.com/images/g/sXQAAOSwGnVoUldi/s-l1200.png)](https://i.ebayimg.com/images/g/sXQAAOSwGnVoUldi/s-l1200.png)

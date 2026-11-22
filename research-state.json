@@ -225132,13 +225132,13 @@
       },
       "Zoom::GFX-3": {
         "model_key": "Zoom::GFX-3",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
             "image_url": "https://medias.audiofanzine.com/images/normal/zoom-gfx-3-404547.jpg",
             "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/GFX-3/",
             "caption": "GFX-3 control face",
-            "note": "Actual GFX-3 with complete control face and treadle visible from an angled overhead view. Powered operation is unverified: segment outlines are visible but no clearly active patch indication or footswitch LED. A powered perpendicular photograph remains pending.",
+            "note": "Actual GFX-3 with complete control face and treadle visible from an angled overhead view. Powered operation is unverified: segment outlines are visible but no clearly active patch indication or footswitch LED. A powered perpendicular photograph remains pending.\n\nSupplemental near-overhead layout reference (unlit; lower resolution): [![GFX-3 complete near-overhead owner photograph](https://medias.audiofanzine.com/images/normal/zoom-gfx-3-433598.jpg)](https://medias.audiofanzine.com/images/normal/zoom-gfx-3-433598.jpg). [Photo source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/GFX-3/). Complete GFX-3 control face, three footswitches and full treadle are visible on a dark tabletop. Display shows inactive segment outlines, not a clearly active patch; this is an unlit near-overhead layout reference. Image is only 720 pixels wide and somewhat soft, so the clearer existing angled image is retained as primary.",
             "visual_checked": true,
             "powered_on": false,
             "exact_top_down": false,
@@ -225153,7 +225153,27 @@
             "powered_on": false,
             "sha256": "928d48c6f97f2266b1df47253e2d31787fe87b9a5891645f9b012a6cfe6201b5"
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-gfx-3-433598.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/GFX-3/",
+            "caption": "GFX-3 complete near-overhead owner photograph — unlit",
+            "note": "Complete GFX-3 control face, three footswitches and full treadle are visible on a dark tabletop. Display shows inactive segment outlines, not a clearly active patch; this is an unlit near-overhead layout reference. Image is only 720 pixels wide and somewhat soft, so the clearer existing angled image is retained as primary.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "825f114e7bc4b910eea94de6dcd1e283469c8b62b7aa94678ce1d29b13583a85"
+          },
+          {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-gfx-3-330646.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/GFX-3/",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "8a38fa2ec48db7d0e0b67d572ce7be81e4e9514d247dd4b3c98bfdf437ebc4c7",
+            "note": "High-resolution oblique studio photograph shows dark inactive 88 segments and unlit indicators; rejected as powered-on evidence."
+          }
+        ]
       },
       "Zoom::GFX-4": {
         "model_key": "Zoom::GFX-4",
@@ -227524,6 +227544,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Bass Mini MES-2"
+    "last_model": "Zoom::GFX-3"
   }
 }
