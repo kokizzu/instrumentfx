@@ -220510,11 +220510,27 @@
             "sha256": "1b5725aaee521af89a84e57355b6b6ec4c863b0a777ee5ffdfde3be64bb83ceb"
           }
         ]
+      },
+      "CUVAVE::H8": {
+        "model_key": "CUVAVE::H8",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://jollymusic.com.ph/cdn/shop/products/CUVH8.jpg?v=1626669615&width=1946",
+            "source_url": "https://jollymusic.com.ph/products/cuvave-h8-multi-effects-headphone-guitar-amplifier",
+            "caption": "Top-down control face (unpowered)",
+            "note": "Complete control face and integrated guitar input plug are shown without obstruction. The effect and preset indicator lenses are unlit; a verified powered-on control photograph remains pending. A connector-edge photograph showing the USB and headphone/recording sockets has not yet been verified.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": true,
+            "sha256": "a7621921553d60947ca16243c2e676234ce63adfdd4e015bfc32cae4e36b5028"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "JOYO::GEM BOX original"
+    "last_model": "CUVAVE::H8"
   }
 }

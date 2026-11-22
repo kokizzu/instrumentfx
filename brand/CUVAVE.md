@@ -33,6 +33,22 @@ Sources checked:
 
 <!-- firmware-pitch:CUVAVE::H8 ends -->
 
+<!-- model-images:CUVAVE::H8 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Top-down control face (unpowered)**
+
+[![Top-down control face (unpowered)](https://jollymusic.com.ph/cdn/shop/products/CUVH8.jpg?v=1626669615&width=1946)](https://jollymusic.com.ph/cdn/shop/products/CUVH8.jpg?v=1626669615&width=1946)
+
+[Image source](https://jollymusic.com.ph/products/cuvave-h8-multi-effects-headphone-guitar-amplifier). Complete control face and integrated guitar input plug are shown without obstruction. The effect and preset indicator lenses are unlit; a verified powered-on control photograph remains pending. A connector-edge photograph showing the USB and headphone/recording sockets has not yet been verified.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:CUVAVE::H8 ends -->
+
+
 CUVAVE/M-VAVE H8 headphone-format guitar multi-effects, not MINI-X or Pocket Amp. Consolidated **2026-10-17**; existing ownership retained without private receipts or another unique record.
 
 <!-- CUVAVE-H8 source begins -->
