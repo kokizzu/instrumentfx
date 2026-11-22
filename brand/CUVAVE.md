@@ -13,7 +13,7 @@
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. No dated manufacturer retail launch located. FCC original-equipment grant dated March 5, 2022 is certification evidence, not first shipment; seller year claims not promoted to a release date. [launch 1](https://www.cuvave.com/product?id=h8) [launch 2](https://fccid.io/2ARCPH8) |
+| Firmware / first hardware release | Not verified. No dated manufacturer retail launch located. FCC original-equipment grant dated March 5, 2022 is certification evidence, not first shipment; seller year claims not promoted to a release date. A newly checked original review index lists sinn’s Cuvave H8 owner-review title on July 2, 2021, before the FCC grant; the linked original body could not be retrieved (HTTP403). Retained as an earlier public-existence lead only, not accepted as authenticated first launch or revision equivalence. [launch 1](https://www.cuvave.com/product?id=h8) [launch 2](https://fccid.io/2ARCPH8) |
 | Firmware / latest verification | Not verified — No public firmware located. Manufacturer download center lists H8 under CubeSuite PC support, not its device-firmware entries. No H8-specific public version or release date located. CubeSuite and generic updater versions are not H8 firmware; update span unknown. [firmware 1](https://www.cuvave.com/download) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -30,6 +30,7 @@ Sources checked:
 - [M-VAVE download center](https://www.cuvave.com/download) — H8 in CubeSuite PC support; no H8-specific device firmware among listed releases. (Manufacturer current download index web text).
 - [Sinco H8 original numbered manual transcription](https://manuals.plus/sinco-intelligent-technology/h8-multi-effects-headphone-guitar-amplifier-manual) — Fixed chain, chorus/phaser MOD alternatives, 10 memories and same-location overwrite rule. No interval-shifting effect enumerated. (Manufacturer-authored manual mirrored by Manuals+; original numbered instructions, not generated FAQ/reformatted manual).
 - [Sinco H8 certification exhibits](https://fccid.io/2ARCPH8) — 2ARCP-H8 original-equipment grant March 5, 2022; certification date not retail launch. (FCC grant and manufacturer filing index mirrored by FCCID.io).
+- [Mule owner-review index: Cuvave H8, sinn, July2,2021](https://www.mule.co.kr/bbs/userguide/guide?category=&ct1=&ct2=&ct3=&dong=&end_price=&gugun=&idx=3447668&isAdmin=false&isPartner=false&map=list&od=desc&of=wdate&options=&page=141&period=6&qf=title&qs=&region=&sido=&start_price=&store=&userid=) — Exact Cuvave H8 review title listed July2,2021, earlier than2022FCC grant; original review body and hardware revision not inspected. Discovery lead only, no first-sale date inferred. (Original site index search extract checked2026-11-22; direct retrieval HTTP403).
 
 <!-- firmware-pitch:CUVAVE::H8 ends -->
 

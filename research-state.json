@@ -185961,7 +185961,7 @@
             "https://www.cuvave.com/product?id=h8",
             "https://fccid.io/2ARCPH8"
           ],
-          "note": "No dated manufacturer retail launch located. FCC original-equipment grant dated March 5, 2022 is certification evidence, not first shipment; seller year claims not promoted to a release date."
+          "note": "No dated manufacturer retail launch located. FCC original-equipment grant dated March 5, 2022 is certification evidence, not first shipment; seller year claims not promoted to a release date. A newly checked original review index lists sinn’s Cuvave H8 owner-review title on July 2, 2021, before the FCC grant; the linked original body could not be retrieved (HTTP403). Retained as an earlier public-existence lead only, not accepted as authenticated first launch or revision equivalence."
         },
         "firmware": {
           "version": null,
@@ -186011,10 +186011,84 @@
             "title": "Sinco H8 certification exhibits",
             "access": "FCC grant and manufacturer filing index mirrored by FCCID.io",
             "evidence": "2ARCP-H8 original-equipment grant March 5, 2022; certification date not retail launch."
+          },
+          {
+            "url": "https://www.mule.co.kr/bbs/userguide/guide?category=&ct1=&ct2=&ct3=&dong=&end_price=&gugun=&idx=3447668&isAdmin=false&isPartner=false&map=list&od=desc&of=wdate&options=&page=141&period=6&qf=title&qs=&region=&sido=&start_price=&store=&userid=",
+            "title": "Mule owner-review index: Cuvave H8, sinn, July2,2021",
+            "access": "Original site index search extract checked2026-11-22; direct retrieval HTTP403",
+            "evidence": "Exact Cuvave H8 review title listed July2,2021, earlier than2022FCC grant; original review body and hardware revision not inspected. Discovery lead only, no first-sale date inferred."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "CUVAVE::H8",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.cuvave.com/product?id=h8",
+                "https://fccid.io/2ARCPH8"
+              ],
+              "note": "No dated manufacturer retail launch located. FCC original-equipment grant dated March 5, 2022 is certification evidence, not first shipment; seller year claims not promoted to a release date."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.cuvave.com/download"
+              ],
+              "note": "Manufacturer download center lists H8 under CubeSuite PC support, not its device-firmware entries. No H8-specific public version or release date located. CubeSuite and generic updater versions are not H8 firmware; update span unknown."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "No interval pitch shifter, octave or harmonizer in the enumerated H8 library: 10 amps, chorus/phaser, delay, hall reverb and cabinet IRs. Chorus modulation and tuner pitch detection do not establish transposition.",
+              "preset": "10 factory-filled overwriteable memories total. Edited sound saves back to the selected location; not ten factory plus ten user slots.",
+              "dsp": "Fixed amp → chorus/phaser → delay → reverb → cabinet chain. Chorus and phaser are alternatives in one MOD stage. No freely allocated pitch slots or published DSP percentage in checked sources.",
+              "measurements": [],
+              "source_urls": [
+                "https://www.cuvave.com/product?id=h8",
+                "https://manuals.plus/sinco-intelligent-technology/h8-multi-effects-headphone-guitar-amplifier-manual"
+              ],
+              "notes": [
+                "No pitch algorithm documented; polyphonic/monophonic interval-shifting classification not applicable to the listed effects. Do not import Zoom H8 recorder firmware or M-VAVE Pocket Amp features."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.cuvave.com/product?id=h8",
+                "title": "Manufacturer H8 product",
+                "access": "Manufacturer search-indexed product text; direct live reader returned page shell",
+                "evidence": "H8-specific effect inventory and ten editable/overwriteable presets; generic software/firmware heading is not an H8 release record."
+              },
+              {
+                "url": "https://www.cuvave.com/download",
+                "title": "M-VAVE download center",
+                "access": "Manufacturer current download index web text",
+                "evidence": "H8 in CubeSuite PC support; no H8-specific device firmware among listed releases."
+              },
+              {
+                "url": "https://manuals.plus/sinco-intelligent-technology/h8-multi-effects-headphone-guitar-amplifier-manual",
+                "title": "Sinco H8 original numbered manual transcription",
+                "access": "Manufacturer-authored manual mirrored by Manuals+; original numbered instructions, not generated FAQ/reformatted manual",
+                "evidence": "Fixed chain, chorus/phaser MOD alternatives, 10 memories and same-location overwrite rule. No interval-shifting effect enumerated."
+              },
+              {
+                "url": "https://fccid.io/2ARCPH8",
+                "title": "Sinco H8 certification exhibits",
+                "access": "FCC grant and manufacturer filing index mirrored by FCCID.io",
+                "evidence": "2ARCP-H8 original-equipment grant March 5, 2022; certification date not retail launch."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Darkglass::Anagram": {
         "model_key": "Darkglass::Anagram",
@@ -214369,8 +214443,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "NUX::MG-50Li",
-    "last_commit_parent": "f72bd13b0dc5a5a19142f600751cbbc4120f6c34",
+    "last_model": "CUVAVE::H8",
+    "last_commit_parent": "5bf806f3e33826f79a359439288ea621344f5b12",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
