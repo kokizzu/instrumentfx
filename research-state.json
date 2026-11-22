@@ -178514,15 +178514,15 @@
     "inventory_changed": false
   },
   "source_image_inspection": {
-    "requested_url": "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%2C%20Pink%2C%202020Limited_Online%C2%A0Manual_EN_Firmware%20V5.2.1773038718495.pdf",
+    "requested_url": "https://29525994.s21i.faiusr.com/61/ABUIABA9GAAgz9fIygYo0K3G1AY.pdf",
     "cache_policy": "One rolling bounded visual source,one rendered page/frame andreceipt in /tmp; URLs andhashes retained with model findings. Retrieval alone isnot visual verification.",
-    "frame": 25,
+    "frame": 0,
     "text_pages": [
-      9,
-      10
+      0,
+      3
     ],
-    "index_url": "https://www.hotone.com/support/1?pid=54&tid=17",
-    "index_needle": "Firmware V5.2",
+    "index_url": "https://dk-music.cn/col.jsp?id=110",
+    "index_needle": "550",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -187480,7 +187480,7 @@
       },
       "DK::iE-550": {
         "model_key": "DK::iE-550",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "first_release": {
           "date": null,
           "precision": "unknown",
@@ -187508,11 +187508,13 @@
           "dsp": "Manufacturer specifies up to eight modules and five customizable modules; pitch-slot placement, concurrent pitch instances and per-algorithm DSP percentage unverified.",
           "source_urls": [
             "https://www.dk-music.cn/pd.jsp?id=79",
-            "https://device.report/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf"
+            "https://device.report/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf",
+            "https://29525994.s21i.faiusr.com/61/ABUIABA9GAAgz9fIygYo0K3G1AY.pdf"
           ],
           "measurements": [],
           "notes": [
-            "Built-in treadle controls effects/volume and toe action switches A/B status. This does not establish a verified pitch-bend algorithm or polyphonic tracking. Generated third-party manuals excluded."
+            "Built-in treadle controls effects/volume and toe action switches A/B status. This does not establish a verified pitch-bend algorithm or polyphonic tracking. Generated third-party manuals excluded.",
+            "Direct manufacturer-hosted six-page multilingual quick guide inspected (623000062; SHA-256 3ba5dc106edbe927cc8a9b8d28879a2808fbc7523964378dd838fa7b481e2199). It confirms eight simultaneous modules and 100 presets/50 factory, but contains no pitch algorithm or DSP-percentage table. Document metadata is not firmware-release or hardware-launch evidence. Two decoded QR symbols point to the DK English homepage; the detailed-instructions QR was not decoded."
           ]
         },
         "sources": [
@@ -187539,10 +187541,84 @@
             "title": "iE-550 original quick guide 623000062",
             "access": "Manufacturer one-sheet bilingual PDF mirrored at device.report",
             "evidence": "Eight simultaneous effects, 100 slots/50 factory, expression A/B action; no pitch algorithm details."
+          },
+          {
+            "url": "https://29525994.s21i.faiusr.com/61/ABUIABA9GAAgz9fIygYo0K3G1AY.pdf",
+            "title": "DK iE-550 manufacturer-hosted multilingual quick guide 623000062",
+            "access": "Downloaded PDF and visually inspected; English/Chinese text extracted. Manufacturer support-page retrieval failed certificate hostname verification on both www and bare hosts.",
+            "evidence": "Six-page multilingual quick-guide layout, not the separately listed full user manual. Confirms eight simultaneous effects, 100 presets/50 factory; no pitch-polyphony or DSP-cost specification."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "DK::iE-550",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unknown",
+              "source_urls": [
+                "https://www.dk-music.cn/pd.jsp?id=79"
+              ],
+              "note": "Exact manufacturer product identified; no dated hardware launch established. Quick-guide filename, compliance and app dates not adopted as launch."
+            },
+            "firmware": {
+              "version": "1.0.9",
+              "date": null,
+              "precision": "unknown",
+              "status": "latest_located",
+              "source_urls": [
+                "https://dk-music.cn/cn/col.jsp?id=109",
+                "https://www.dk-music.cn/col.jsp?id=110"
+              ],
+              "note": "Manufacturer Chinese index explicitly lists iE-550 V1.0.9 macOS/Windows update packages; English index omits version. No dated changelog or proof of current-latest status located. Direct routes fail; indexed text available. DKit app version is separate."
+            },
+            "pitch": {
+              "status": "unverified",
+              "algorithms": "Retailer leads name Whammy/Octave, but checked original quick guide and indexed manufacturer product do not specify pitch algorithms, intervals or input polyphony. Full manual confirmation pending.",
+              "preset": "Original guide specifies 100 preset slots with 50 factory presets; writable/protected partition and initial user fill unverified.",
+              "dsp": "Manufacturer specifies up to eight modules and five customizable modules; pitch-slot placement, concurrent pitch instances and per-algorithm DSP percentage unverified.",
+              "source_urls": [
+                "https://www.dk-music.cn/pd.jsp?id=79",
+                "https://device.report/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Built-in treadle controls effects/volume and toe action switches A/B status. This does not establish a verified pitch-bend algorithm or polyphonic tracking. Generated third-party manuals excluded."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.dk-music.cn/pd.jsp?id=79",
+                "title": "DK iE-550 manufacturer product",
+                "access": "Manufacturer indexed product text; direct timeout",
+                "evidence": "70 effects, eight modules, five customizable modules; no exact pitch algorithm list."
+              },
+              {
+                "url": "https://dk-music.cn/cn/col.jsp?id=109",
+                "title": "DK Chinese technical support",
+                "access": "Manufacturer indexed text; direct 502",
+                "evidence": "Explicit iE-550 V1.0.9 macOS and Windows update-package listings; no date."
+              },
+              {
+                "url": "https://www.dk-music.cn/col.jsp?id=110",
+                "title": "DK English technical support",
+                "access": "Manufacturer indexed text",
+                "evidence": "Unversioned iE550 update resources; DKit app separate."
+              },
+              {
+                "url": "https://device.report/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf",
+                "title": "iE-550 original quick guide 623000062",
+                "access": "Manufacturer one-sheet bilingual PDF mirrored at device.report",
+                "evidence": "Eight simultaneous effects, 100 slots/50 factory, expression A/B action; no pitch algorithm details."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Donner::Arena2000": {
         "model_key": "Donner::Arena2000",
@@ -212076,8 +212152,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Valeton::Dapper Mini MES-1",
-    "last_commit_parent": "063353b8fef2d4c227a57a1adf14bed0336c14e4",
+    "last_model": "DK::iE-550",
+    "last_commit_parent": "693541b5abfc492c0f86eeda067bf5e9c474bbc5",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

@@ -25,6 +25,7 @@ HOSTS = {'flammainnovation.com', 'www.flammainnovation.com', 'downloads.eventide
 
 # Exact retailer-hosted manufacturer manual linked by the BG300 distributor.
 REVIEWED_MIRRORS = {
+    "https://29525994.s21i.faiusr.com/61/ABUIABA9GAAgz9fIygYo0K3G1AY.pdf",
     "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%2C%20Pink%2C%202020Limited_Online%C2%A0Manual_EN_Firmware%20V5.2.1773038718495.pdf",
     "https://hotoneaudio.oss-accelerate.aliyuncs.com/prod/support/Ampero%20One_Online%C2%A0Manual_EN_Firmware%20V3.1.1773037044207.pdf",
     "https://res.hotoneaudio.com/prod/support/Ampero%20One_Online%C2%A0Manual_EN_Firmware%20V3.1.1773037044207.pdf",
@@ -197,16 +198,17 @@ def apply():
     print(json.dumps(receipt, indent=2))
 
 
-def render_pdf(source, output, page):
+def render_pdf(source, output, page, scale=1600):
     import subprocess
     assert isinstance(page, int) and 0 <= page < 128
     assert output.suffix == '.png'
+    assert scale in (1600, 2800), 'Unsupported PDF render size'
     subprocess.run(['pdftoppm', '-f', str(page + 1), '-l', str(page + 1),
-                    '-singlefile', '-scale-to', '1600', '-png', str(source),
+                    '-singlefile', '-scale-to', str(scale), '-png', str(source),
                     str(output.with_suffix(''))], check=True, timeout=30)
 
 
-def render():
+def render(scale=1600):
     """Decode a reviewed source into one bounded frame; never execute its content."""
     from PIL import Image
     identity()
@@ -222,7 +224,7 @@ def render():
     Image.MAX_IMAGE_PIXELS = 8 * 1024 * 1024
     if data.startswith(b'%PDF-'):
         output = Path('/tmp/instrumentfx-source-image-view.png')
-        render_pdf(working, output, frame)
+        render_pdf(working, output, frame, scale)
         with Image.open(output) as rendered:
             assert rendered.width * rendered.height <= Image.MAX_IMAGE_PIXELS
             print(json.dumps({'url': receipt['url'], 'sha256': receipt['sha256'],
@@ -252,7 +254,7 @@ def render():
 def inspect_qr():
     """Read QR link text from the already reviewed rendered PDF page."""
     import cv2
-    render()
+    render(scale=2800)
     path = Path('/tmp/instrumentfx-source-image-view.png')
     picture = cv2.imread(str(path))
     assert picture is not None
@@ -302,7 +304,7 @@ def decode_release_note(data):
 
 def check_index_url(url):
     parsed = urllib.parse.urlsplit(url)
-    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com', 'cn.mooeraudio.com', 'erokmusic.com', 'www.eventideaudio.com', 'flammainnovation.com', 'www.flammainnovation.com') or url in RELEASE_NOTE_URLS or (parsed.hostname == 'www.hotone.com' and parsed.path == '/support/1') or (parsed.hostname == 'line6.com' and parsed.path in ('/software/index.html', '/company/images/', '/effects-pedals/resources/')))
+    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com', 'cn.mooeraudio.com', 'erokmusic.com', 'www.eventideaudio.com', 'flammainnovation.com', 'www.flammainnovation.com') or url in RELEASE_NOTE_URLS or url in ('https://www.dk-music.cn/col.jsp?id=110', 'https://dk-music.cn/col.jsp?id=110') or (parsed.hostname == 'www.hotone.com' and parsed.path == '/support/1') or (parsed.hostname == 'line6.com' and parsed.path in ('/software/index.html', '/company/images/', '/effects-pedals/resources/')))
     assert not parsed.username and not parsed.password and parsed.port in (None, 443)
     if parsed.path == '/wp-admin/admin-ajax.php':
         assert parsed.hostname == 'www.valeton.net'
@@ -373,6 +375,12 @@ def inspect_index():
 
 
 def test():
+    try:
+        render_pdf(Path('/tmp/source.pdf'), Path('/tmp/source.png'), 0, 5000)
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('Unbounded PDF render size accepted')
     import signal
     import time
     previous_handler = signal.signal(signal.SIGALRM, source_deadline)
