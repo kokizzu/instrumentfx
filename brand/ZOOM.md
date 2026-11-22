@@ -2884,6 +2884,33 @@ Checked **2026-11-04**, [original manufacturer manual,printedp43](https://zoomco
 
 ## B3n
 
+<!-- firmware-pitch:Zoom::B3n begins -->
+### Firmware and pitch audit — Zoom B3n
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017 (manufacturer product-history year). Manufacturer chronology lists B3n in2017. January2017 mass-production firmware is not independently a retail shipment date; exact first retail date unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 2.20 — Latest verified. Current Windows/Mac packages2.20 match manufacturer history: May2019 fixes Guitar Lab EDITOR availability and USB disconnection. April2018 v2.00 adds Guitar Lab3 support, encoder improvements, OutputVP and previously online effects. Editor/effect-library updates and third-party2020 catalog dates are not system firmware release dates. [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/b3n-support/) [firmware 2](https://zoomcorp.com/documents/3474/B3n_System_Firmware_Version_History_ver220_jp.pdf) |
+| Firmware / release date | 2019-05 (month precision) |
+| Firmware / release-to-update duration | 1.33–2.41 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT:−12…+12,+24 semitones,±25-cent Fine. BaMnPitch and BaPDLMnP explicitly single-note; BaPDLPit offers nine sweep colors. HPS uses key/scale. General polyphonic tracking is not stated. [pitch 1](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf) [pitch 2](https://zoomcorp.com/media/documents/E_B3n.pdf) [pitch 3](https://zoomcorp.com/media/documents/E_B3n_FX-power-chart.pdf) [pitch 4](https://zoomcorp.com/documents/3474/B3n_System_Firmware_Version_History_ver220_jp.pdf) |
+| Pitch / preset recall | 150 patch memories save settings and on/off states. External expression operates pedal effects with EXT PEDAL enabled. Firmware2.00 adds OutputVP, retaining volume when changing patches; this does not establish a simultaneous global volume override with pedal pitch. |
+| Pitch / DSP resources | Manufacturer chart uses100-point total budget: PitchSHFT7/100 (7%),HPS7/100 (7%),BaMnPitch10/100 (10%),BaPDLPit6/100 (6%),BaPDLMnP6/100 (6%). These are published allocation values, not measured CPU. Seven-effect/unit ceiling also applies; PROCESS OVERFLOW bypasses effects. Chart is ©2017 and does not certify later-added algorithms or changed allocations. |
+| Pitch / qualifications | Original B3 limits do not transfer. No hardware tracking/CPU test or installation performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — B3n listed under2017. (official chronology inspected).
+- [Zoom B3n support](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/b3n-support/) — Windows/Mac system2.20;Guitar Lab separately listed. (current official package list inspected).
+- [B3n system firmware history](https://zoomcorp.com/documents/3474/B3n_System_Firmware_Version_History_ver220_jp.pdf) — 2.20 May2019 bugfixes;2.00 April2018 adds OutputVP and Guitar Lab3;1.00 January2017 mass production. (official Japanese PDF read).
+- [B3n effect list](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf) — PitchSHFT,HPS,BaMnPitch,BaPDLPit,BaPDLMnP;single-note qualifications and nine pedal colors. (official PDF pitch/pedal sections inspected).
+- [B3n operation manual](https://zoomcorp.com/media/documents/E_B3n.pdf) — 150patches,seven-effect/unit/DSP limits,PROCESS OVERFLOW,EXT PEDAL setting. (official PDF pp3,9,41 inspected).
+- [B3n effect processing power chart](https://zoomcorp.com/media/documents/E_B3n_FX-power-chart.pdf) — Total100;PitchSHFT7,HPS7,BaMnPitch10,BaPDLPit6,BaPDLMnP6;©2017. (official English PDF pp1,3–4 read; Japanese chart cross-check).
+
+<!-- firmware-pitch:Zoom::B3n ends -->
+
 Reviewed **2026-10-17** following fresh exact Shopee hardware discovery. Bass-focused multi-effects;separate from B3 and guitar G3n,no ownership assertion. US manufacturer page marks discontinued. Partial:indexed primary manual text and ordinary page text only;no dependency,software,firmware or manual file downloaded.
 
 <!-- comparison evidence begins -->

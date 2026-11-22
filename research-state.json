@@ -206948,10 +206948,93 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::B3n": {
+        "model_key": "Zoom::B3n",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2017",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists B3n in2017. January2017 mass-production firmware is not independently a retail shipment date; exact first retail date unresolved."
+        },
+        "firmware": {
+          "version": "2.20",
+          "date": "2019-05",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/b3n-support/",
+            "https://zoomcorp.com/documents/3474/B3n_System_Firmware_Version_History_ver220_jp.pdf"
+          ],
+          "note": "Current Windows/Mac packages2.20 match manufacturer history: May2019 fixes Guitar Lab EDITOR availability and USB disconnection. April2018 v2.00 adds Guitar Lab3 support, encoder improvements, OutputVP and previously online effects. Editor/effect-library updates and third-party2020 catalog dates are not system firmware release dates."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT:−12…+12,+24 semitones,±25-cent Fine. BaMnPitch and BaPDLMnP explicitly single-note; BaPDLPit offers nine sweep colors. HPS uses key/scale. General polyphonic tracking is not stated.",
+          "preset": "150 patch memories save settings and on/off states. External expression operates pedal effects with EXT PEDAL enabled. Firmware2.00 adds OutputVP, retaining volume when changing patches; this does not establish a simultaneous global volume override with pedal pitch.",
+          "dsp": "Manufacturer chart uses100-point total budget: PitchSHFT7/100 (7%),HPS7/100 (7%),BaMnPitch10/100 (10%),BaPDLPit6/100 (6%),BaPDLMnP6/100 (6%). These are published allocation values, not measured CPU. Seven-effect/unit ceiling also applies; PROCESS OVERFLOW bypasses effects. Chart is ©2017 and does not certify later-added algorithms or changed allocations.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf",
+            "https://zoomcorp.com/media/documents/E_B3n.pdf",
+            "https://zoomcorp.com/media/documents/E_B3n_FX-power-chart.pdf",
+            "https://zoomcorp.com/documents/3474/B3n_System_Firmware_Version_History_ver220_jp.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original B3 limits do not transfer. No hardware tracking/CPU test or installation performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "B3n listed under2017."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/b3n-support/",
+            "title": "Zoom B3n support",
+            "access": "current official package list inspected",
+            "evidence": "Windows/Mac system2.20;Guitar Lab separately listed."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3474/B3n_System_Firmware_Version_History_ver220_jp.pdf",
+            "title": "B3n system firmware history",
+            "access": "official Japanese PDF read",
+            "evidence": "2.20 May2019 bugfixes;2.00 April2018 adds OutputVP and Guitar Lab3;1.00 January2017 mass production."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf",
+            "title": "B3n effect list",
+            "access": "official PDF pitch/pedal sections inspected",
+            "evidence": "PitchSHFT,HPS,BaMnPitch,BaPDLPit,BaPDLMnP;single-note qualifications and nine pedal colors."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B3n.pdf",
+            "title": "B3n operation manual",
+            "access": "official PDF pp3,9,41 inspected",
+            "evidence": "150patches,seven-effect/unit/DSP limits,PROCESS OVERFLOW,EXT PEDAL setting."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B3n_FX-power-chart.pdf",
+            "title": "B3n effect processing power chart",
+            "access": "official English PDF pp1,3–4 read; Japanese chart cross-check",
+            "evidence": "Total100;PitchSHFT7,HPS7,BaMnPitch10,BaPDLPit6,BaPDLMnP6;©2017."
+          }
+        ],
+        "duration": {
+          "minimum_days": 486,
+          "maximum_days": 880,
+          "label": "1.33–2.41 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::B3n",
       "Zoom::B6",
       "Zoom::G1 FOUR",
       "Zoom::G1 original",
@@ -206994,12 +207077,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 361,
-    "last_model": "Zoom::B3",
-    "last_commit_parent": "e427cea08a3db21eb1bb9edaa9cb6fd5c6c67fda",
+    "completed_model_count": 362,
+    "last_model": "Zoom::B3n",
+    "last_commit_parent": "9f7d4150b769f45fb933c3b7d41ec1da9d75fb8b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::B3n",
       "Zoom::B6",
       "Zoom::G1 FOUR",
       "Zoom::G1 original",
@@ -207041,7 +207123,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 361,
+    "pitch_completed_model_count": 362,
     "supplemental_model_count": 0
   },
   "model_images": {
