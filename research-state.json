@@ -218527,11 +218527,19 @@
             "image_url": "https://www.musicstorelive.com/media/catalog/product/v/l/vltn-dapper-dark-mini-1.jpg?bg-color=255%2C255%2C255&fit=bounds&height=700&optimize=medium&width=700",
             "source_url": "https://www.musicstorelive.com/valeton-dapper-dark-mini-compact-tuner-boost-higain-delay-guitar-effects-pedal.html",
             "caption": "Near-overhead Dark Mini control-face stock photograph, unlit.",
-            "note": "Exact DAPPER DARK Mini panel shows 11 rotary controls and 3 footswitches; no separate small buttons visible on this face. Labels include DELAY/HIGAIN/BOOST and TAP/PHONES. Slight perspective, unlit tuner/status strip; powered-on strict overhead remains pending. Connector candidate from All Access returned404; rear-port photo remains pending rather than substituting ordinary Mini or full-size Dark.",
+            "note": "Exact DAPPER DARK Mini panel shows 11 rotary controls and 3 footswitches; no separate small buttons visible on this face. Labels include DELAY/HIGAIN/BOOST and TAP/PHONES. Slight perspective, unlit tuner/status strip; powered-on strict overhead remains pending. Rear connector photograph verified separately from Hotone Japan.",
             "visual_checked": true,
             "sha256": "9db929326df6a71a044ac0f9e3bd7d4ab96d287f28c627accb80a43609f4b215",
             "powered_on": false,
             "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://www.hotone.jp/images/brands/valeton/dapperdarkmini/control_02.png",
+            "source_url": "https://www.hotone.jp/brands/valeton/products/dapperdarkmini",
+            "caption": "Complete rear connection panel of the Dapper Dark Mini.",
+            "note": "Distributor photograph visually inspected: exact DAPPER DARK Mini rear branding, 9V DC inlet, IN and OUT quarter-inch jacks, and headphone mini-jack all visible. This is the three-switch Dark Mini, not the ordinary Mini or full-size Dark. No powered-on claim from this rear photograph.",
+            "visual_checked": true,
+            "sha256": "40bd83a1f76672e759f9ed23dcde0e2ba2ba3b80bbf11a799e3a751d463804af"
           }
         }
       },
@@ -222929,6 +222937,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B1X original"
+    "last_model": "Valeton::Dapper Dark Mini"
   }
 }

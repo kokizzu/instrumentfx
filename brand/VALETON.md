@@ -491,9 +491,13 @@ Sources checked:
 
 [![Near-overhead Dark Mini control-face stock photograph, unlit.](https://www.musicstorelive.com/media/catalog/product/v/l/vltn-dapper-dark-mini-1.jpg?bg-color=255%2C255%2C255&fit=bounds&height=700&optimize=medium&width=700)](https://www.musicstorelive.com/media/catalog/product/v/l/vltn-dapper-dark-mini-1.jpg?bg-color=255%2C255%2C255&fit=bounds&height=700&optimize=medium&width=700)
 
-[Image source](https://www.musicstorelive.com/valeton-dapper-dark-mini-compact-tuner-boost-higain-delay-guitar-effects-pedal.html). Exact DAPPER DARK Mini panel shows 11 rotary controls and 3 footswitches; no separate small buttons visible on this face. Labels include DELAY/HIGAIN/BOOST and TAP/PHONES. Slight perspective, unlit tuner/status strip; powered-on strict overhead remains pending. Connector candidate from All Access returned404; rear-port photo remains pending rather than substituting ordinary Mini or full-size Dark.
+[Image source](https://www.musicstorelive.com/valeton-dapper-dark-mini-compact-tuner-boost-higain-delay-guitar-effects-pedal.html). Exact DAPPER DARK Mini panel shows 11 rotary controls and 3 footswitches; no separate small buttons visible on this face. Labels include DELAY/HIGAIN/BOOST and TAP/PHONES. Slight perspective, unlit tuner/status strip; powered-on strict overhead remains pending. Rear connector photograph verified separately from Hotone Japan.
 
-**Rear view:** not yet verified.
+**Complete rear connection panel of the Dapper Dark Mini.**
+
+[![Complete rear connection panel of the Dapper Dark Mini.](https://www.hotone.jp/images/brands/valeton/dapperdarkmini/control_02.png)](https://www.hotone.jp/images/brands/valeton/dapperdarkmini/control_02.png)
+
+[Image source](https://www.hotone.jp/brands/valeton/products/dapperdarkmini). Distributor photograph visually inspected: exact DAPPER DARK Mini rear branding, 9V DC inlet, IN and OUT quarter-inch jacks, and headphone mini-jack all visible. This is the three-switch Dark Mini, not the ordinary Mini or full-size Dark. No powered-on claim from this rear photograph.
 
 </details>
 <!-- model-images:Valeton::Dapper Dark Mini ends -->
