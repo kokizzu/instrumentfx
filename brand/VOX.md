@@ -234,6 +234,30 @@ Lo/Hi controls belong toAMP/DR andstop with that block. ACOUSTIC distortion trou
 
 ## StompLab 2B
 
+<!-- firmware-pitch:VOX::StompLab 2B begins -->
+### Firmware and pitch audit — VOX StompLab 2B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2012-09-04 (official series public introduction; first shipment unresolved). Dated official StompLab series overview is linked by exact 2B product page. Public introduction, not independently verified earliest retail shipment. [launch 1](https://www.youtube.com/watch?v=JGBdMXx3Jo8) [launch 2](https://voxamps.com/product/stomplab-2b/) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact-model public firmware package/updater located in checked VOX sources. Documented rear inventory has no USB/MIDI update port. EFGSJ1 is manual identifier, not firmware; no public package does not prove absence of internal firmware. No update performed. [firmware 1](https://voxamps.com/product/stomplab-2b/) [firmware 2](https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD Pitch Shift offers PITCH −12…0, dt, 1…12 and BALANCE 0…10; pitch is pedal-assignable. PDL Brn Octave also documented. Input polyphony/monophony is not established. [pitch 1](https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf) [pitch 2](https://voxamps.com/product/stomplab-2b/) |
+| Pitch / preset recall | 100 read-only presets plus 20 writable user programs. Pedal ranges require saving; current pitch-shift pitch value is among the exceptions not stored after pedal operation. Unsaved ranges revert on program change/power-off. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Eight simultaneous including noise reduction/volume is a structural limit, not 1/8 CPU allocation. No hardware tracking or latency measurements performed. |
+| Pitch / qualifications | Use exact IIB manual; no IG/IB or ToneLab tracking claim transferred. Preserve separate pedal-range and current-parameter save behavior. Effect names, shifted voice counts, current draw and concurrency do not establish polyphonic chord tracking or pitch CPU cost. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [VOX StompLab IIB EFGSJ1 owner manual](https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf) — Pitch controls and assignability; save exceptions; eight simultaneous maximum; polyphony and CPU% not specified. (official PDF original pitch table and pedal/save passages read).
+- [VOX official StompLab 2B product](https://voxamps.com/product/stomplab-2b/) — Exact bass model,61 choices including volume;100preset/20user;official series overview linked. (web page read).
+- [VOX official StompLab series overview](https://www.youtube.com/watch?v=JGBdMXx3Jo8) — Published4September2012;public series introduction,first shipment unverified. (retained indexed original video date and exact product-page link).
+
+<!-- firmware-pitch:VOX::StompLab 2B ends -->
+
 Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-18;partial. Ownership unestablished.
 
 <!-- comparison evidence begins -->

@@ -204292,10 +204292,71 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "VOX::StompLab 2B": {
+        "model_key": "VOX::StompLab 2B",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2012-09-04",
+          "precision": "day",
+          "kind": "official series public introduction; first shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=JGBdMXx3Jo8",
+            "https://voxamps.com/product/stomplab-2b/"
+          ],
+          "note": "Dated official StompLab series overview is linked by exact 2B product page. Public introduction, not independently verified earliest retail shipment."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://voxamps.com/product/stomplab-2b/",
+            "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf"
+          ],
+          "note": "No exact-model public firmware package/updater located in checked VOX sources. Documented rear inventory has no USB/MIDI update port. EFGSJ1 is manual identifier, not firmware; no public package does not prove absence of internal firmware. No update performed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD Pitch Shift offers PITCH −12…0, dt, 1…12 and BALANCE 0…10; pitch is pedal-assignable. PDL Brn Octave also documented. Input polyphony/monophony is not established.",
+          "preset": "100 read-only presets plus 20 writable user programs. Pedal ranges require saving; current pitch-shift pitch value is among the exceptions not stored after pedal operation. Unsaved ranges revert on program change/power-off.",
+          "dsp": "No per-pitch DSP percentage published. Eight simultaneous including noise reduction/volume is a structural limit, not 1/8 CPU allocation. No hardware tracking or latency measurements performed.",
+          "source_urls": [
+            "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf",
+            "https://voxamps.com/product/stomplab-2b/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Use exact IIB manual; no IG/IB or ToneLab tracking claim transferred. Preserve separate pedal-range and current-parameter save behavior.",
+            "Effect names, shifted voice counts, current draw and concurrency do not establish polyphonic chord tracking or pitch CPU cost."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf",
+            "title": "VOX StompLab IIB EFGSJ1 owner manual",
+            "access": "official PDF original pitch table and pedal/save passages read",
+            "evidence": "Pitch controls and assignability; save exceptions; eight simultaneous maximum; polyphony and CPU% not specified."
+          },
+          {
+            "url": "https://voxamps.com/product/stomplab-2b/",
+            "title": "VOX official StompLab 2B product",
+            "access": "web page read",
+            "evidence": "Exact bass model,61 choices including volume;100preset/20user;official series overview linked."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=JGBdMXx3Jo8",
+            "title": "VOX official StompLab series overview",
+            "access": "retained indexed original video date and exact product-page link",
+            "evidence": "Published4September2012;public series introduction,first shipment unverified."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "VOX::StompLab 2B",
       "VOX::StompLab 2G",
       "VOX::ToneLab EX",
       "VOX::ToneLab LE",
@@ -204376,12 +204437,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 323,
-    "last_model": "VOX::StompLab 1G",
-    "last_commit_parent": "f1e2253dd9a6697de8296a8dbea796f844314b3b",
+    "completed_model_count": 324,
+    "last_model": "VOX::StompLab 2B",
+    "last_commit_parent": "16ca7909a6c84cfa2cdab017dca623e4e768edd8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "VOX::StompLab 2B",
       "VOX::StompLab 2G",
       "VOX::ToneLab EX",
       "VOX::ToneLab LE",
@@ -204461,7 +204521,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 323,
+    "pitch_completed_model_count": 324,
     "supplemental_model_count": 0
   },
   "model_images": {
