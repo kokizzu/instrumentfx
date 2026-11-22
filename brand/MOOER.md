@@ -4309,11 +4309,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**MOOER Prime P1 top view**
+**MOOER Prime P1 — physical powered-on control surface**
 
-[![MOOER Prime P1 top view](https://mooer.jp/cdn/shop/products/P1-BK-01.jpg?v=1663834044&width=1445)](https://mooer.jp/cdn/shop/products/P1-BK-01.jpg?v=1663834044&width=1445)
+[![MOOER Prime P1 — physical powered-on control surface](https://pics.mercatinomusicale.com/p_hr/08/98/7799808_1710970796.jpg)](https://pics.mercatinomusicale.com/p_hr/08/98/7799808_1710970796.jpg)
 
-[Image source](https://mooer.jp/products/mooerprimep1). Visually inspected exact black P1 overhead. Powered-on status is not established: the multicoloured control ring alone is insufficient evidence of active illumination. A clearly powered-on overhead photograph remains pending.
+[Image source](https://www.mercatinomusicale.com/mm/a_mooer-prime-p1-e-footswich-gwf4_id7799808.html). Actual private-seller photograph shows the complete gray Prime P1 on a dark surface with its central green control ring visibly illuminated. Nearly overhead, with slight perspective; not a strictly perpendicular image. The GWF4 underneath is a separate wireless foot controller: its four switches and red 16 display are not built into the P1, which has no display or onboard footswitches. The [previous manufacturer overhead image](https://mooer.jp/cdn/shop/products/P1-BK-01.jpg?v=1663834044&width=1445) remains available for the black colorway layout.
 
 **MOOER Prime P1 connector view**
 
