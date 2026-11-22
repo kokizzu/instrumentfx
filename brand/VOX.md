@@ -497,11 +497,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Official VOX ToneLab EX product image**
+**VOX ToneLab EX — powered-on control surface**
 
-[![Official VOX ToneLab EX product image](https://voxamps.com/wp-content/uploads/2019/01/TONELABEX.png)](https://voxamps.com/wp-content/uploads/2019/01/TONELABEX.png)
+[![VOX ToneLab EX — powered-on control surface](https://cs8.pikabu.ru/post_img/big/2017/09/20/10/1505923270142785738.jpg)](https://cs8.pikabu.ru/post_img/big/2017/09/20/10/1505923270142785738.jpg)
 
-[Image source](https://voxamps.com/product/tonelab-ex/). Visually inspected exact ToneLab EX control face: thirteen top rotaries, six footswitches, twelve panel buttons, expression treadle and two speaker grilles. Official stock image displays 88 and illuminated indicators/tube area; actual powered-unit photography is unverified. Rear controls project beyond the case; strict overhead powered photograph pending.
+[Image source](https://pikabu.ru/story/vox_tonelab_ex_5353916). Actual user photograph shows the complete ToneLab EX on a tiled floor, including all six footswitches, both speaker grilles and the full expression treadle. The red preset 50 display, effect indicators, tuner bar and expression indicator are visibly illuminated. The tube area also glows red, which alone would not establish operation. Angled overhead photograph, not strictly perpendicular; dim lighting softens fine control labels. The [previous official stock image](https://voxamps.com/wp-content/uploads/2019/01/TONELABEX.png) remains available for layout detail.
 
 **ToneLab EX rear-port archive photograph**
 
