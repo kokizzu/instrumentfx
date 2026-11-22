@@ -202688,10 +202688,84 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::Dapper Bass Mini MES-2": {
+        "model_key": "Valeton::Dapper Bass Mini MES-2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2024-05-23",
+          "precision": "day",
+          "kind": "official public introduction; first shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=-4JeOcq2sUA"
+          ],
+          "note": "Official Valeton Introducing the Valeton Dapper Bass Mini video published May23,2024. Public introduction, not independently verified first retail shipment; manual231219 is not a launch date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-bass-mini/",
+            "https://www.valeton.net/firmware/",
+            "https://www.valeton.net/download/111/dapper/16852/dapper-bass-mini_manual_en_v01_231219.pdf"
+          ],
+          "note": "No numbered MES-2 firmware package, release date or user updater identified in checked manufacturer sources. V01_231219 is manual identification, not device firmware. Firmware index extraction may omit dynamic entries; no historical-absence claim."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No dedicated transposer, octave divider or harmonizer documented. MES-2 provides Boost/Comp, Bass Amp and Chorus; chorus internal pitch architecture and input-polyphony specification are not supplied.",
+          "preset": "Physical Boost/Comp, Bass Amp and Chorus controls; no programmable pitch preset count documented.",
+          "dsp": "No pitch algorithm resource percentage or DSP meter published. Existing manufacturer current-draw conflicts describe electricity, not CPU cost.",
+          "source_urls": [
+            "https://www.valeton.net/download/111/dapper/16852/dapper-bass-mini_manual_en_v01_231219.pdf",
+            "https://www.valeton.net/product/dapper-bass-mini/"
+          ],
+          "measurements": [],
+          "notes": [
+            "No-pitch-documented refers to dedicated transposition, not proof that chorus contains no internal modulation.",
+            "Full-size VES-2 octave/filter specifications must not be transferred to MES-2. Tuner note detection mutes audio and does not correct pitch.",
+            "Manual120mA, shop100mA and product1500mA conflict remains; none establishes pitch DSP usage. No hardware/audio or updater test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=-4JeOcq2sUA",
+            "title": "Valeton official Introducing the Dapper Bass Mini",
+            "access": "web indexed official video metadata",
+            "evidence": "Official Valeton publication May23,2024; public introduction only."
+          },
+          {
+            "url": "https://www.valeton.net/product/dapper-bass-mini/",
+            "title": "Valeton Dapper Bass Mini official product",
+            "access": "web page read",
+            "evidence": "Boost/Comp, Bass Amp and Chorus; no firmware version. Existing malformed current/connector fields retained as conflicts."
+          },
+          {
+            "url": "https://www.valeton.net/firmware/",
+            "title": "Valeton official firmware index",
+            "access": "web text read; dynamic visibility limited",
+            "evidence": "No exact MES-2 package exposed in extracted text."
+          },
+          {
+            "url": "https://www.valeton.net/download/111/dapper/16852/dapper-bass-mini_manual_en_v01_231219.pdf",
+            "title": "MES-2 official English V01_231219 owner manual",
+            "access": "web two-page PDF text read",
+            "evidence": "Chorus rate/depth, Boost/Comp and Bass Amp; muted tuner. No dedicated transposer or DSP percentage."
+          },
+          {
+            "url": "https://shop.valeton.net/products/dapper-bass-mini",
+            "title": "Valeton official Bass Mini shop",
+            "access": "web page read",
+            "evidence": "100mA shop differs from manual120mA and product1500mA; electrical fields do not establish CPU cost."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::Dapper Bass Mini MES-2",
       "Valeton::Dapper Bass VES-2",
       "Valeton::Dapper Dark Mini",
       "Valeton::Dapper Dark VES-3",
@@ -202793,12 +202867,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 302,
-    "last_model": "Valeton::Dapper Amp Mini",
-    "last_commit_parent": "499eb562a7bc2f60d79280b97f9b06ce5962ca80",
+    "completed_model_count": 303,
+    "last_model": "Valeton::Dapper Bass Mini MES-2",
+    "last_commit_parent": "408699e8b12456caadc3a7832d92e925e5c7c107",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::Dapper Bass Mini MES-2",
       "Valeton::Dapper Bass VES-2",
       "Valeton::Dapper Dark Mini",
       "Valeton::Dapper Dark VES-3",
@@ -202899,7 +202972,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 302,
+    "pitch_completed_model_count": 303,
     "supplemental_model_count": 0
   },
   "model_images": {

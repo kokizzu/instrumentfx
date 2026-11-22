@@ -250,6 +250,32 @@ AMP footswitch advances channels; backward channel selection uses the hand CHANN
 
 ## Dapper Bass Mini MES-2
 
+<!-- firmware-pitch:Valeton::Dapper Bass Mini MES-2 begins -->
+### Firmware and pitch audit — Valeton Dapper Bass Mini MES-2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-05-23 (official public introduction; first shipment unresolved). Official Valeton Introducing the Valeton Dapper Bass Mini video published May23,2024. Public introduction, not independently verified first retail shipment; manual231219 is not a launch date. [launch 1](https://www.youtube.com/watch?v=-4JeOcq2sUA) |
+| Firmware / latest verification | Not verified — No public firmware located. No numbered MES-2 firmware package, release date or user updater identified in checked manufacturer sources. V01_231219 is manual identification, not device firmware. Firmware index extraction may omit dynamic entries; no historical-absence claim. [firmware 1](https://www.valeton.net/product/dapper-bass-mini/) [firmware 2](https://www.valeton.net/firmware/) [firmware 3](https://www.valeton.net/download/111/dapper/16852/dapper-bass-mini_manual_en_v01_231219.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No dedicated transposer, octave divider or harmonizer documented. MES-2 provides Boost/Comp, Bass Amp and Chorus; chorus internal pitch architecture and input-polyphony specification are not supplied. [pitch 1](https://www.valeton.net/download/111/dapper/16852/dapper-bass-mini_manual_en_v01_231219.pdf) [pitch 2](https://www.valeton.net/product/dapper-bass-mini/) |
+| Pitch / preset recall | Physical Boost/Comp, Bass Amp and Chorus controls; no programmable pitch preset count documented. |
+| Pitch / DSP resources | No pitch algorithm resource percentage or DSP meter published. Existing manufacturer current-draw conflicts describe electricity, not CPU cost. |
+| Pitch / qualifications | No-pitch-documented refers to dedicated transposition, not proof that chorus contains no internal modulation. Full-size VES-2 octave/filter specifications must not be transferred to MES-2. Tuner note detection mutes audio and does not correct pitch. Manual120mA, shop100mA and product1500mA conflict remains; none establishes pitch DSP usage. No hardware/audio or updater test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Valeton official Introducing the Dapper Bass Mini](https://www.youtube.com/watch?v=-4JeOcq2sUA) — Official Valeton publication May23,2024; public introduction only. (web indexed official video metadata).
+- [Valeton Dapper Bass Mini official product](https://www.valeton.net/product/dapper-bass-mini/) — Boost/Comp, Bass Amp and Chorus; no firmware version. Existing malformed current/connector fields retained as conflicts. (web page read).
+- [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact MES-2 package exposed in extracted text. (web text read; dynamic visibility limited).
+- [MES-2 official English V01_231219 owner manual](https://www.valeton.net/download/111/dapper/16852/dapper-bass-mini_manual_en_v01_231219.pdf) — Chorus rate/depth, Boost/Comp and Bass Amp; muted tuner. No dedicated transposer or DSP percentage. (web two-page PDF text read).
+- [Valeton official Bass Mini shop](https://shop.valeton.net/products/dapper-bass-mini) — 100mA shop differs from manual120mA and product1500mA; electrical fields do not establish CPU cost. (web page read).
+
+<!-- firmware-pitch:Valeton::Dapper Bass Mini MES-2 ends -->
+
 A compact bass multi-effects strip, separate from the full-size VES-2. Checked 2026-10-17; partial. Official manual metadata identifies MES-2, V01_231219.
 
 | Field | Finding / qualification | Evidence |
