@@ -6193,6 +6193,32 @@ Seller display names,selected hardware/bundle contents,working state,adapter,war
 
 ## G5
 
+<!-- firmware-pitch:Zoom::G5 begins -->
+### Firmware and pitch audit — Zoom G5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2012 (manufacturer product-history year). Manufacturer chronology lists original G5 in 2012. Production firmware dates are not exact retail dates. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 1.20 — Latest verified. Current Windows/Mac 1.20 matches May 2013 history: hi-hat/tempo fix and Windows 8/USB 3.0 host support. 1.10 June 2012 adds auto-save toggle and fixes Edit&Share bank changes. Support also links an older 1.10 history; that is not the latest package. Japanese history gives a conflicting 2011 production year; English says February 2012. Neither establishes retail launch. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g5/g5-support/) [firmware 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G5_v1.20_E.pdf) |
+| Firmware / release date | 2013-05 (month precision) |
+| Firmware / release-to-update duration | 0.33–1.41 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT: −12…+12,+24 semitones with ±25-cent Fine. MonoPitch explicitly targets single notes; HPS uses key/scale. Generic chord polyphony remains unverified. [pitch 1](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G5_0.pdf) |
+| Pitch / preset recall | 297 patches save effect states/parameters. Z-Pedal supports vertical/left/right assignments, custom endpoints and a pedal switch; ordinary pedal effects assign vertical control automatically. |
+| Pitch / DSP resources | Eight regular effects plus one Z-Pedal effect within capacity. No exact pitch DSP percentage located. DSP FULL: p10 says all effects bypass; troubleshooting p62 says the affected effect bypasses. Preserve this wording conflict. OFF costs the same DSP as ON; changing types or THRU resolves overload. G5n processing percentages do not apply. |
+| Pitch / qualifications | Documentation only; no hardware tracking/CPU test or firmware installation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G5 under 2012. (official chronology inspected).
+- [G5 support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g5/g5-support/) — 1.20 Windows/Mac; older 1.10 history is separately linked. (current exact-model package list inspected).
+- [G5 firmware history 1.20](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G5_v1.20_E.pdf) — 1.20 May 2013; 1.10 June 2012; English production 1.00 February 2012. (official indexed PDF inspected).
+- [G5 Japanese firmware history](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G5_v1.20_J_0.pdf) — Latest May 2013 agrees; production year 2011 conflicts with English. (official indexed PDF inspected).
+- [G5 operation manual](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G5_0.pdf) — 297 patches; 8+1 effects; Z-Pedal assignments; pitch/mono distinction; equal ON/OFF DSP and contradictory overload bypass scope. (official PDF inspected, printed pages 3,10–13,51–52,62).
+
+<!-- firmware-pitch:Zoom::G5 ends -->
+
 Original guitar multi-effects; distinct from G5n. Manufacturer marks discontinued. Checked2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
 
 | Field | Finding / qualification | Evidence |
