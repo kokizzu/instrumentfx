@@ -223248,17 +223248,17 @@
       },
       "VOX::StompLab 1B": {
         "model_key": "VOX::StompLab 1B",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://voxamps.com/wp-content/uploads/2019/02/SL1B-StompLab-Bass-Multi-Effect-1.png",
-            "source_url": "https://voxamps.com/product/stomplab-1b/",
-            "caption": "Official VOX StompLab 1B control-face image",
-            "note": "Visually inspected red bass control face: three knobs, three small buttons and two footswitches, no treadle. Official stock image displays 50 and colored indicator artwork; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending.",
+            "image_url": "https://img.ricardostatic.ch/images/9444cd52-6246-4024-a159-f632853b2d1b/t_1000x750/vox-stomplab-sl1b-bass-multieffektgerat-fur-e-bass",
+            "source_url": "https://www.ricardo.ch/de/a/vox-stomplab-sl1b-bass-%C2%B7-multieffektgeraet-fuer-e-bass-1249896578/",
+            "caption": "StompLab 1B powered-on owner photograph",
+            "note": "Complete physical red bass StompLab on graph paper, with three knobs, three buttons and both footswitches visible. Red segmented display reads67 and both outer tuner indicators are illuminated; center green lens is dark. Nearly overhead with slight perspective, not exact perpendicular top-down. Connected cables do not establish cable pinout or power-adapter specification. No treadle:1B, not2B; preset number does not identify firmware. [Official product layout image](https://voxamps.com/wp-content/uploads/2019/02/SL1B-StompLab-Bass-Multi-Effect-1.png).",
             "visual_checked": true,
-            "sha256": "bbcea2f023bb916b835b910507705e8af83059dd59394eb23266b6307b02e906",
-            "powered_on": null,
-            "exact_top_down": false
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "fdb365d341b2e0cf5969440eb69ef2ff8283a029537936bd9a40adf58add9e59"
           },
           "rear": {
             "image_url": "https://www.beyers-bass.de/images/product_images/original_images/61-nHURMlXL-_AC_SL1500_.jpg",
@@ -223270,7 +223270,19 @@
             "powered_on": null,
             "exact_top_down": false
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://voxamps.com/wp-content/uploads/2019/02/SL1B-StompLab-Bass-Multi-Effect-1.png",
+            "source_url": "https://voxamps.com/product/stomplab-1b/",
+            "caption": "Official VOX StompLab 1B control-face image",
+            "note": "Visually inspected red bass control face: three knobs, three small buttons and two footswitches, no treadle. Official stock image displays 50 and colored indicator artwork; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "bbcea2f023bb916b835b910507705e8af83059dd59394eb23266b6307b02e906",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        ]
       },
       "VOX::StompLab 1G": {
         "model_key": "VOX::StompLab 1G",
@@ -227382,6 +227394,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B2"
+    "last_model": "VOX::StompLab 1B"
   }
 }

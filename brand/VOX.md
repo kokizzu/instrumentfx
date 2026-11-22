@@ -43,11 +43,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Official VOX StompLab 1B control-face image**
+**StompLab 1B powered-on owner photograph**
 
-[![Official VOX StompLab 1B control-face image](https://voxamps.com/wp-content/uploads/2019/02/SL1B-StompLab-Bass-Multi-Effect-1.png)](https://voxamps.com/wp-content/uploads/2019/02/SL1B-StompLab-Bass-Multi-Effect-1.png)
+[![StompLab 1B powered-on owner photograph](https://img.ricardostatic.ch/images/9444cd52-6246-4024-a159-f632853b2d1b/t_1000x750/vox-stomplab-sl1b-bass-multieffektgerat-fur-e-bass)](https://img.ricardostatic.ch/images/9444cd52-6246-4024-a159-f632853b2d1b/t_1000x750/vox-stomplab-sl1b-bass-multieffektgerat-fur-e-bass)
 
-[Image source](https://voxamps.com/product/stomplab-1b/). Visually inspected red bass control face: three knobs, three small buttons and two footswitches, no treadle. Official stock image displays 50 and colored indicator artwork; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending.
+[Image source](https://www.ricardo.ch/de/a/vox-stomplab-sl1b-bass-%C2%B7-multieffektgeraet-fuer-e-bass-1249896578/). Complete physical red bass StompLab on graph paper, with three knobs, three buttons and both footswitches visible. Red segmented display reads67 and both outer tuner indicators are illuminated; center green lens is dark. Nearly overhead with slight perspective, not exact perpendicular top-down. Connected cables do not establish cable pinout or power-adapter specification. No treadle:1B, not2B; preset number does not identify firmware. [Official product layout image](https://voxamps.com/wp-content/uploads/2019/02/SL1B-StompLab-Bass-Multi-Effect-1.png).
 
 **VOX StompLab 1B rear-port retailer image**
 
