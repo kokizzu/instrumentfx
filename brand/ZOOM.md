@@ -2533,6 +2533,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::B2.1u ends -->
 
+<!-- model-images:Zoom::B2.1u begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**B2.1u control face**
+
+[![B2.1u control face](https://medias.audiofanzine.com/images/normal/zoom-b2-1u-6603299.jpg)](https://medias.audiofanzine.com/images/normal/zoom-b2-1u-6603299.jpg)
+
+[Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/b2-1u/). Actual overhead photograph of exact B2.1u including treadle; four rotary controls, six top buttons and two main footswitches visible. Display segments are dark and no status LED is clearly lit, so powered operation is not verified. A powered overhead photograph remains pending.
+
+**B2.1u rear connections**
+
+[![B2.1u rear connections](https://medias.audiofanzine.com/images/normal/zoom-b2-1u-4531707.jpg)](https://medias.audiofanzine.com/images/normal/zoom-b2-1u-4531707.jpg)
+
+[Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/b2-1u/). Actual exact-model rear photograph: USB-B, BALANCED OUT XLR with PRE/POST and GROUND switches, INPUT, OUTPUT (PHONES), CONTROL IN, POWER and center-negative DC9V 300mA label are readable. USB BUS POWERED is printed beneath POWER. The300mA label is the supply rating, not measured current draw.
+
+</details>
+<!-- model-images:Zoom::B2.1u ends -->
+
+
 Bass-only multi-effects record, checked 2026-10-17. Partial verification; not B2 FOUR or B2.
 
 | Field | Evidence / qualification |

@@ -214756,11 +214756,36 @@
             "powered_on": true
           }
         }
+      },
+      "Zoom::B2.1u": {
+        "model_key": "Zoom::B2.1u",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-b2-1u-6603299.jpg",
+            "source_url": "https://en.audiofanzine.com/bass-multi-effect/zoom/b2-1u/",
+            "caption": "B2.1u control face",
+            "note": "Actual overhead photograph of exact B2.1u including treadle; four rotary controls, six top buttons and two main footswitches visible. Display segments are dark and no status LED is clearly lit, so powered operation is not verified. A powered overhead photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "a673c40fa9f49ac4bcadf668c6a2c9cc9e469c457dee030daac696c29a0b5b5d",
+            "powered_on": false,
+            "exact_top_down": true
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-b2-1u-4531707.jpg",
+            "source_url": "https://en.audiofanzine.com/bass-multi-effect/zoom/b2-1u/",
+            "caption": "B2.1u rear connections",
+            "note": "Actual exact-model rear photograph: USB-B, BALANCED OUT XLR with PRE/POST and GROUND switches, INPUT, OUTPUT (PHONES), CONTROL IN, POWER and center-negative DC9V 300mA label are readable. USB BUS POWERED is printed beneath POWER. The300mA label is the supply rating, not measured current draw.",
+            "visual_checked": true,
+            "sha256": "73e15230bf1ec33ea061d7ffa5013be400323df55038ce4354279741ca4c0857",
+            "powered_on": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B2 FOUR"
+    "last_model": "Zoom::B2.1u"
   }
 }
