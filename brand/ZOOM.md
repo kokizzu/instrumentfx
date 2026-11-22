@@ -979,6 +979,32 @@ Chord handling remains unverified. Partial lead stays outside active counts; no 
 
 ## A1 FOUR
 
+<!-- firmware-pitch:Zoom::A1 FOUR begins -->
+### Firmware and pitch audit — Zoom A1 FOUR
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2019-08 (manufacturer announced Japanese availability month). Announcement dated2019-08-14 specifies mid-August2019 availability in Japan. Exact shipment day unresolved; regional October availability is later, not first worldwide release. [launch 1](https://www.zoom.co.jp/sites/default/files/press-release-pdfs/A1FOUR_NewsRelease.pdf) |
+| Firmware / latest verification | Not verified — No public firmware located. Support lists Guitar Lab7.3 and documents; version-history index links Guitar Lab histories only for this model pair. No public device firmware package/date located. USB update capability and manual example SYSTEM1.01/PRESET1.00/BOOT1.00 do not establish latest firmware or release date; editor/effect updates are separate. [firmware 1](https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/a1-four-a1x-four-support/) [firmware 2](https://zoomcorp.com/en/jp/support/version-history/) [firmware 3](https://zoomcorp.com/media/documents/E_A1FOUR.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. PolyOctUp/PolyOctDw explicitly accept chords, adding upper/lower octaves. PitchSHFT: −12…+12,+24 semitones, fine±25cents. MonoPitch is explicitly single-note; HPS uses scale/key; starred entries are Guitar Lab additions. DualPitch combines two shifters but does not itself prove chord tracking. Polyphonic claim is limited to named octave effects, not all transposition. [pitch 1](https://zoomcorp.com/media/documents/E_A1FOUR_FX-list.pdf) [pitch 2](https://zoomcorp.com/media/documents/E_A1FOUR.pdf) |
+| Pitch / preset recall | 50 shared factory/user patch locations, five effects per patch. No built-in treadle on A1 FOUR; shared PEDAL-category real-time controls belong to A1X FOUR. Save effect selections/settings per patch; no separate additional preset bank. |
+| Pitch / DSP resources | No per-pitch DSP percentage located. Five-effect limit is not guaranteed for every combination: PROCESS OVERFLOW bypasses an effect when processing capacity is exceeded. Algorithm/configuration determine available capacity; no50% estimate borrowed from another processor. |
+| Pitch / qualifications | Exact no-treadle A1 FOUR scope. Factory/install availability distinguishes unstarred from Guitar Lab additions; no hardware latency/tracking or CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom A1 FOUR/A1X FOUR Japanese launch release](https://www.zoom.co.jp/sites/default/files/press-release-pdfs/A1FOUR_NewsRelease.pdf) — Dated2019-08-14; mid-August2019 launch, A1 FOUR82effects and separate A1X pedal. (official two-page release read).
+- [Zoom A1 FOUR/A1X FOUR support](https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/a1-four-a1x-four-support/) — Guitar Lab7.3 and documents; no device firmware package listed. (official current software/document list read).
+- [Zoom version-history index](https://zoomcorp.com/en/jp/support/version-history/) — Only Guitar Lab Windows/Mac histories linked in this group. (official A1 FOUR/A1X FOUR group inspected).
+- [Zoom A1 FOUR/A1X FOUR operation manual](https://zoomcorp.com/media/documents/E_A1FOUR.pdf) — 50patches,five effects, processing overflow bypass; version screen example not release history. (official PDF memory/overflow/firmware sections inspected).
+- [Zoom A1 FOUR/A1X FOUR effects list](https://zoomcorp.com/media/documents/E_A1FOUR_FX-list.pdf) — Chord-capable PolyOctUp/Down, single-note MonoPitch, PitchSHFT/HPS and Guitar Lab star legend; no DSP%. (official PDF printed pp2,14,17 andPEDAL distinction read).
+
+<!-- firmware-pitch:Zoom::A1 FOUR ends -->
+
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.
 
 | Field | Finding / qualification | Evidence |

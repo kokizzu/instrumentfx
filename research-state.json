@@ -205890,10 +205890,82 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::A1 FOUR": {
+        "model_key": "Zoom::A1 FOUR",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2019-08",
+          "precision": "month",
+          "kind": "manufacturer announced Japanese availability month",
+          "source_urls": [
+            "https://www.zoom.co.jp/sites/default/files/press-release-pdfs/A1FOUR_NewsRelease.pdf"
+          ],
+          "note": "Announcement dated2019-08-14 specifies mid-August2019 availability in Japan. Exact shipment day unresolved; regional October availability is later, not first worldwide release."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/a1-four-a1x-four-support/",
+            "https://zoomcorp.com/en/jp/support/version-history/",
+            "https://zoomcorp.com/media/documents/E_A1FOUR.pdf"
+          ],
+          "note": "Support lists Guitar Lab7.3 and documents; version-history index links Guitar Lab histories only for this model pair. No public device firmware package/date located. USB update capability and manual example SYSTEM1.01/PRESET1.00/BOOT1.00 do not establish latest firmware or release date; editor/effect updates are separate."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "PolyOctUp/PolyOctDw explicitly accept chords, adding upper/lower octaves. PitchSHFT: −12…+12,+24 semitones, fine±25cents. MonoPitch is explicitly single-note; HPS uses scale/key; starred entries are Guitar Lab additions. DualPitch combines two shifters but does not itself prove chord tracking. Polyphonic claim is limited to named octave effects, not all transposition.",
+          "preset": "50 shared factory/user patch locations, five effects per patch. No built-in treadle on A1 FOUR; shared PEDAL-category real-time controls belong to A1X FOUR. Save effect selections/settings per patch; no separate additional preset bank.",
+          "dsp": "No per-pitch DSP percentage located. Five-effect limit is not guaranteed for every combination: PROCESS OVERFLOW bypasses an effect when processing capacity is exceeded. Algorithm/configuration determine available capacity; no50% estimate borrowed from another processor.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_A1FOUR_FX-list.pdf",
+            "https://zoomcorp.com/media/documents/E_A1FOUR.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Exact no-treadle A1 FOUR scope. Factory/install availability distinguishes unstarred from Guitar Lab additions; no hardware latency/tracking or CPU measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/press-release-pdfs/A1FOUR_NewsRelease.pdf",
+            "title": "Zoom A1 FOUR/A1X FOUR Japanese launch release",
+            "access": "official two-page release read",
+            "evidence": "Dated2019-08-14; mid-August2019 launch, A1 FOUR82effects and separate A1X pedal."
+          },
+          {
+            "url": "https://zoomcorp.com/en/gb/multi-effects/acoustic/A1-FOUR-A1X-FOUR/a1-four-a1x-four-support/",
+            "title": "Zoom A1 FOUR/A1X FOUR support",
+            "access": "official current software/document list read",
+            "evidence": "Guitar Lab7.3 and documents; no device firmware package listed."
+          },
+          {
+            "url": "https://zoomcorp.com/en/jp/support/version-history/",
+            "title": "Zoom version-history index",
+            "access": "official A1 FOUR/A1X FOUR group inspected",
+            "evidence": "Only Guitar Lab Windows/Mac histories linked in this group."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_A1FOUR.pdf",
+            "title": "Zoom A1 FOUR/A1X FOUR operation manual",
+            "access": "official PDF memory/overflow/firmware sections inspected",
+            "evidence": "50patches,five effects, processing overflow bypass; version screen example not release history."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_A1FOUR_FX-list.pdf",
+            "title": "Zoom A1 FOUR/A1X FOUR effects list",
+            "access": "official PDF printed pp2,14,17 andPEDAL distinction read",
+            "evidence": "Chord-capable PolyOctUp/Down, single-note MonoPitch, PitchSHFT/HPS and Guitar Lab star legend; no DSP%."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::A1 FOUR",
       "Zoom::A1X FOUR",
       "Zoom::A2",
       "Zoom::A3",
@@ -205949,12 +206021,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 348,
-    "last_model": "Zoom::708II",
-    "last_commit_parent": "5ea860c19d48a6017481523161b94d7da4c75508",
+    "completed_model_count": 349,
+    "last_model": "Zoom::A1 FOUR",
+    "last_commit_parent": "5d1a1857712a610572260e98a12188d425ee5900",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::A1 FOUR",
       "Zoom::A1X FOUR",
       "Zoom::A2",
       "Zoom::A3",
@@ -206009,7 +206080,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 348,
+    "pitch_completed_model_count": 349,
     "supplemental_model_count": 0
   },
   "model_images": {
