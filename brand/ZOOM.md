@@ -10004,6 +10004,31 @@ Complete connectors establish no analog EXP,USB,MIDI ordedicated phones path. FS
 
 ## RFX-2000
 
+<!-- firmware-pitch:Zoom::RFX-2000 begins -->
+### Firmware and pitch audit — Zoom RFX-2000
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1999 (manufacturer product-history year). Manufacturer history lists RFX-2000 under 1999; exact retail month/day unverified. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current archived support lists a manual only. Legacy downloads also offer RFX-2000ED editor/librarian, which is not device firmware. No public device update version/date found; internal revisions remain unknown. [firmware 1](https://zoomcorp.com/en/ca/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-2000/rfx-2000-support/) [firmware 2](https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH stereo shifter: 0–24 semitones with separate up/down direction, fine adjustment −10…+10 (unit not specified in table). PIT-DLY places shifting in the delay feedback loop, with Pitch Goal −12…+12 semitones. Neither description establishes polyphonic input tracking. [pitch 1](https://zoomcorp.com/media/documents/E_RFX2000.pdf) |
+| Pitch / preset recall | 100 writable patches store effect settings and mix. STORE is required; switching patches without saving loses edits. MIDI program changes recall patches; control changes and bulk dump support editing and backups. |
+| Pitch / DSP resources | Selects fixed single or combined effect programs, rather than allocating arbitrary blocks. No pitch CPU percentage or user DSP-budget meter documented. Eight EXTRA-bank effects are accessed with supplied software; editor availability does not establish firmware updates. |
+| Pitch / qualifications | Stereo and feedback pitch effects do not prove chord tracking; documentation only. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom product history](https://ir.zoom.co.jp/en/corporate/history/) — RFX-2000 appears under 1999. (manufacturer history inspected).
+- [RFX-2000 archived support](https://zoomcorp.com/en/ca/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-2000/rfx-2000-support/) — Operation manual only; no device firmware offered. (official page inspected).
+- [Legacy RFX-2000 downloads](https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000) — RFX-2000ED Windows95/98 and Mac editor packages, not firmware. (official page inspected).
+- [RFX-2000 operation manual](https://zoomcorp.com/media/documents/E_RFX2000.pdf) — PITCH and PIT-DLY ranges; 100 patches, STORE, MIDI recall/edit/bulk dump. Fixed programs and EXTRA editor bank; no polyphony claim or DSP cost. (official 28-page PDF inspected).
+
+<!-- firmware-pitch:Zoom::RFX-2000 ends -->
+
 Checked2026-10-17;partial. Own manual guitar setup and dynamic-microphone vocal path establish guitar/vocal scope. Bass applicability unclassified;ownership unestablished.
 
 <!-- comparison evidence begins -->

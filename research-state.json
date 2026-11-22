@@ -209834,26 +209834,89 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::RFX-2000": {
+        "model_key": "Zoom::RFX-2000",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "1999",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer history lists RFX-2000 under 1999; exact retail month/day unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/ca/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-2000/rfx-2000-support/",
+            "https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000"
+          ],
+          "note": "Current archived support lists a manual only. Legacy downloads also offer RFX-2000ED editor/librarian, which is not device firmware. No public device update version/date found; internal revisions remain unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PITCH stereo shifter: 0–24 semitones with separate up/down direction, fine adjustment −10…+10 (unit not specified in table). PIT-DLY places shifting in the delay feedback loop, with Pitch Goal −12…+12 semitones. Neither description establishes polyphonic input tracking.",
+          "preset": "100 writable patches store effect settings and mix. STORE is required; switching patches without saving loses edits. MIDI program changes recall patches; control changes and bulk dump support editing and backups.",
+          "dsp": "Selects fixed single or combined effect programs, rather than allocating arbitrary blocks. No pitch CPU percentage or user DSP-budget meter documented. Eight EXTRA-bank effects are accessed with supplied software; editor availability does not establish firmware updates.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_RFX2000.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Stereo and feedback pitch effects do not prove chord tracking; documentation only."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom product history",
+            "access": "manufacturer history inspected",
+            "evidence": "RFX-2000 appears under 1999."
+          },
+          {
+            "url": "https://zoomcorp.com/en/ca/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-2000/rfx-2000-support/",
+            "title": "RFX-2000 archived support",
+            "access": "official page inspected",
+            "evidence": "Operation manual only; no device firmware offered."
+          },
+          {
+            "url": "https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000",
+            "title": "Legacy RFX-2000 downloads",
+            "access": "official page inspected",
+            "evidence": "RFX-2000ED Windows95/98 and Mac editor packages, not firmware."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_RFX2000.pdf",
+            "title": "RFX-2000 operation manual",
+            "access": "official 28-page PDF inspected",
+            "evidence": "PITCH and PIT-DLY ranges; 100 patches, STORE, MIDI recall/edit/bulk dump. Fixed programs and EXTRA editor bank; no polyphony claim or DSP cost."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::RFX-2000",
       "Zoom::RFX-2200",
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 398,
-    "last_model": "Zoom::RFX-1100",
-    "last_commit_parent": "30917321e4dc18a60df2970a1a6dd845782aa528",
+    "completed_model_count": 399,
+    "last_model": "Zoom::RFX-2000",
+    "last_commit_parent": "5ed2761aa5f978876e28303767fef260b0dbe651",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::RFX-2000",
       "Zoom::RFX-2200",
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 398,
+    "pitch_completed_model_count": 399,
     "supplemental_model_count": 0
   },
   "model_images": {

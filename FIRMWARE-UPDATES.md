@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 398/402 active models have firmware audits; 398/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 399/402 active models have firmware audits; 399/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -422,7 +422,8 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [Zoom NEURIG](brand/ZOOM.md#neurig) | 2026-11 (manufacturer announced retail month (Japan)) | 1.32 — Latest verified | 2026-11 | -0.08–0.08 years (date ranges overlap; order unresolved) | [launch 1](https://prtimes.jp/main/html/rd/p/000000018.000122390.html) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/neurig_support/) [firmware 2](https://zoomcorp.com/documents/4005/NEURIG_VersionHistory_132_en.pdf) |
 | [Zoom RFX-1000](brand/ZOOM.md#rfx-1000) | 1999 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-1000/rfx-1000/) |
 | [Zoom RFX-1100](brand/ZOOM.md#rfx-1100) | 2004 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-1100/rfx-1100-support/) |
+| [Zoom RFX-2000](brand/ZOOM.md#rfx-2000) | 1999 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/ca/digital-mixer-multi-track-recorders/multi-track-recorders/rfx-2000/rfx-2000-support/) [firmware 2](https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000) |
 
 ## Remaining firmware checks
 
-Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
+Zoom RFX-2200; Zoom V3; Zoom V6-SP.
