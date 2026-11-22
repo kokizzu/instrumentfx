@@ -188641,14 +188641,15 @@
         "model_key": "Flamma::FB200",
         "checked_date": "2026-11-21",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2025-09",
+          "precision": "month",
+          "kind": "Thomann regional availability proxy; first worldwide shipment unresolved",
           "source_urls": [
             "https://flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf",
-            "https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal"
+            "https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal",
+            "https://www.thomannmusic.com/flamma_fb200_effect_strip.htm"
           ],
-          "note": "ManualV01 is dated2025-05-22, but a manual revision is not a hardware launch. No authenticated first-release date established; retailer availability and listing dates not substituted."
+          "note": "Thomann item617320 explicitly lists FB200 available since September2025. This establishes store-specific availability, not first worldwide launch. An August5,2025 Peter K. Lee demonstration predates that regional date; mirrored Amazon April21 first-available metadata is an unverified earlier retail lead. ManualV01 May22,2025 is a document revision, not launch proof. Exact device firmware version/date remain unverified, so no duration calculated."
         },
         "firmware": {
           "version": null,
@@ -188699,10 +188700,91 @@
             "title": "FLAMMA FB200 manufacturer product",
             "access": "Direct/indexed maker product page",
             "evidence": "Bass-specific device;40memories,19effects,20combined amp/cab models; no dated launch."
+          },
+          {
+            "url": "https://www.thomannmusic.com/flamma_fb200_effect_strip.htm",
+            "title": "Thomann Flamma FB200 item617320 availability",
+            "access": "Exact bass-model retailer availability field read2026-11-22",
+            "evidence": "Available since September2025; regional/store proxy only, with earlier demonstrations possible. No current stock/price or retailer technical specifications adopted."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=CX7GOx-aGj0",
+            "title": "Peter K. Lee Flamma FB200 demonstration",
+            "access": "Creator’s dated video metadata indexed2026-11-22",
+            "evidence": "Published August5,2025, earlier than Thomann availability. Demonstration date is not an authenticated first shipment or manufacturer launch."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Flamma::FB200",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf",
+                "https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal"
+              ],
+              "note": "ManualV01 is dated2025-05-22, but a manual revision is not a hardware launch. No authenticated first-release date established; retailer availability and listing dates not substituted."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "unverified",
+              "source_urls": [
+                "https://www.flamma.shop/pages/manual",
+                "https://flammainnovation.com/download.html"
+              ],
+              "note": "Maker documents automatic device-update prompts through computer software but publishes no FB200 device version/date in the checked index. FB2001.0.1 EXE/DMG labels identify desktop software; not authenticated pedal firmware. Nearby1.2.5/2025-07-28 notes belong to FG200, not FB200."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Complete own modulation/reverb tables have no dedicated transposer, harmonizer, octave shifter or selectable polyphonic retuning. Vibrato varies pitch cyclically; Chorus, Ring Modulator and Filter do not establish note-tracked pitch shifting.",
+              "preset": "40 writable preset locations; exact factory-filled subset not established. Preset mode recalls stored settings; Live mode follows physical controls. No extra40factory bank inferred.",
+              "dsp": "Named fixed Gate/Comp/Amp/Cab/Mod/Reverb modules and Master control; no freely insertable pitch block or numeric CPU/DSP cost documented.19effects and20combined amp/cab choices are library counts, not simultaneous resource allocation.",
+              "source_urls": [
+                "https://flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf",
+                "https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal"
+              ],
+              "measurements": [],
+              "notes": [
+                "Bass FB200 remains separate from guitar FG200. Firmware update capability does not establish a public release number, support span or upgrade adding pitch."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.flamma.shop/pages/manual",
+                "title": "FLAMMA manual/software and device-update index",
+                "access": "Direct maker page; FB200 heading distinguished from following FG200 heading",
+                "evidence": "FB200desktop1.0.1; automatic update prompt; dated1.2.5 notes under FG200 only."
+              },
+              {
+                "url": "https://flammainnovation.com/download.html",
+                "title": "FLAMMA manufacturer download catalogue",
+                "access": "Indexed current manufacturer downloads",
+                "evidence": "FB2001.0.1 Win/Mac application filenames and own manual; no authenticated device version/date."
+              },
+              {
+                "url": "https://flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf",
+                "title": "FB200 own English manual V01",
+                "access": "Direct25-page manufacturer PDF, V01/2025-05-22; printed10–13/17–21",
+                "evidence": "40presets, Live/Preset modes, fixed modules; modulation/reverb inventory without dedicated pitch transposition."
+              },
+              {
+                "url": "https://www.flamma.shop/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal",
+                "title": "FLAMMA FB200 manufacturer product",
+                "access": "Direct/indexed maker product page",
+                "evidence": "Bass-specific device;40memories,19effects,20combined amp/cab models; no dated launch."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Flamma::FG200": {
         "model_key": "Flamma::FG200",
@@ -215365,8 +215447,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "MOOER::GE100 Pro Li",
-    "last_commit_parent": "128bf3199d4be79121c6be06a55587936a2f7593",
+    "last_model": "Flamma::FB200",
+    "last_commit_parent": "e86948061c62358cc337b5d954eb8a1e061c590d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
