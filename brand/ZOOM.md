@@ -4763,6 +4763,30 @@ Manufacturer-hosted manual identity/contents and printed pp27,50 were returned b
 
 ## G2.1u
 
+<!-- firmware-pitch:Zoom::G2.1u begins -->
+### Firmware and pitch audit — Zoom G2.1u
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005 (manufacturer product-history year). Manufacturer chronology lists G2.1u in 2005; not G2.1Nu or signature variants. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model support lists the Windows ASIO driver and manual, but no system updater/history. Driver 2.0.0 is not device firmware; latest system version/date and support duration remain unverified. [firmware 1](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g21u/g21u-support/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PITCH SHIFTER and single-note MONO PITCH SHIFTER offer −12…−1, dt, +1…+12,+24. PEDAL PITCH and key/scale HARMONIZED PITCH SHIFTER share MOD/SFX. Generic chord polyphony remains unverified. [pitch 1](https://zoomcorp.com/media/documents/E_G21u_0.pdf) |
+| Pitch / preset recall | 40 user and 40 read-only slots. Built-in pedal assignment is patch-stored; bypass makes it volume. External pedal is volume-only in operating instructions, but the parameter table describes effect targeting: conflict retained. |
+| Pitch / DSP resources | Nine serial modules, one choice per module. Pitch occupies MOD/SFX. No per-pitch DSP percentage located; nine modules do not establish arbitrary pitch stacking or CPU share. |
+| Pitch / qualifications | Documentation only; no installation or hardware measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G2.1u under 2005. (official chronology inspected).
+- [G2.1u support](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g21u/g21u-support/) — ASIO driver and operation manual; no system updater listed. (official listing inspected).
+- [G2.1u operation manual](https://zoomcorp.com/media/documents/E_G21u_0.pdf) — Pitch, monophonic pitch, pedal pitch/harmony; serial modules and patch memories; external-expression wording conflict. (official PDF inspected).
+
+<!-- firmware-pitch:Zoom::G2.1u ends -->
+
 Original guitar multi-effects; distinct from G2.1Nu. Discontinued. Checked2026-10-17; partial. Ownership and bass/vocal suitability unestablished.
 
 | Field | Finding / qualification | Evidence |

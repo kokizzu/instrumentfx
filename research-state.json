@@ -207793,10 +207793,67 @@
           "label": "0.75–1.83 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G2.1u": {
+        "model_key": "Zoom::G2.1u",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2005",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists G2.1u in 2005; not G2.1Nu or signature variants."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g21u/g21u-support/"
+          ],
+          "note": "Exact-model support lists the Windows ASIO driver and manual, but no system updater/history. Driver 2.0.0 is not device firmware; latest system version/date and support duration remain unverified."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PITCH SHIFTER and single-note MONO PITCH SHIFTER offer −12…−1, dt, +1…+12,+24. PEDAL PITCH and key/scale HARMONIZED PITCH SHIFTER share MOD/SFX. Generic chord polyphony remains unverified.",
+          "preset": "40 user and 40 read-only slots. Built-in pedal assignment is patch-stored; bypass makes it volume. External pedal is volume-only in operating instructions, but the parameter table describes effect targeting: conflict retained.",
+          "dsp": "Nine serial modules, one choice per module. Pitch occupies MOD/SFX. No per-pitch DSP percentage located; nine modules do not establish arbitrary pitch stacking or CPU share.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_G21u_0.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no installation or hardware measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "G2.1u under 2005."
+          },
+          {
+            "url": "https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g21u/g21u-support/",
+            "title": "G2.1u support",
+            "access": "official listing inspected",
+            "evidence": "ASIO driver and operation manual; no system updater listed."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_G21u_0.pdf",
+            "title": "G2.1u operation manual",
+            "access": "official PDF inspected",
+            "evidence": "Pitch, monophonic pitch, pedal pitch/harmony; serial modules and patch memories; external-expression wording conflict."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G2.1u",
       "Zoom::G2Nu",
       "Zoom::G2X FOUR",
       "Zoom::G3",
@@ -207828,12 +207885,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 372,
-    "last_model": "Zoom::G2.1Nu",
-    "last_commit_parent": "1a7d41e86308a857f79d5f3286b9c2cbc6071605",
+    "completed_model_count": 373,
+    "last_model": "Zoom::G2.1u",
+    "last_commit_parent": "137b4f4d515c15e4840dabf13c745addbebde60c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G2.1u",
       "Zoom::G2Nu",
       "Zoom::G2X FOUR",
       "Zoom::G3",
@@ -207864,7 +207920,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 372,
+    "pitch_completed_model_count": 373,
     "supplemental_model_count": 0
   },
   "model_images": {
