@@ -222159,14 +222159,14 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://cdn-media.empowertribe.com/4e94d8a79d3a4702baf1788d13469c5f/Image_TH_0726-ABR_PERFORM-VG_Top_XL.png",
-            "source_url": "https://www.tchelicon.com/en/products/0726-ABR",
-            "caption": "PERFORM-VG top control face — manufacturer stock image",
-            "note": "Straight-on manufacturer stock image with illuminated-looking pads and cyan LED ring. Independent powered-on overhead evidence remains pending. Visually confirms 1 knob, 0 footswitches and 14 button pads: SET, Tone, Anti-Feedback, BodyRez, 48V, three voice effects, three guitar effects, headphones, TAP and MIX. Window beside SET and LED segments are not extra buttons.",
+            "image_url": "https://medias.audiofanzine.com/images/normal/tc-helicon-perform-vg-6000059.jpg",
+            "source_url": "https://en.audiofanzine.com/vocal-processor/tc-helicon/perform-vg/",
+            "caption": "PERFORM-VG powered-on overhead user photograph",
+            "note": "Visually inspected physical burgundy PERFORM-VG on carpet with backlit effect pads and illuminated cyan ring segments. BodyRez, separate VOICE/GUITAR effects, TAP and MIX match the VG layout, not PERFORM-V. Full control face, one knob and fourteen hand-button pads are visible; no onboard footswitches. Slight perspective and stand-clip projection remain, so strict perpendicular view is pending. Illumination does not establish firmware version, tracking polyphony or DSP utilization. Official rear-port view retained separately.",
             "visual_checked": true,
-            "sha256": "33c509a6a4af1de7478ab3a316d704dcedc7d55c61489869a992172d3accfd00",
-            "powered_on": null,
-            "exact_top_down": true
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "e77fa0beddf9213c2155c109e05c392354d0cca63e0bae9b09a9fa49f29df9ef"
           },
           "rear": {
             "image_url": "https://cdn-media.empowertribe.com/84f083f26bd04cc4ac0719e0afa15587/Image_TH_0726-ABR_PERFORM-VG_Rear_XL.png",
@@ -222178,7 +222178,16 @@
             "powered_on": null,
             "exact_top_down": false
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://cdn-media.empowertribe.com/4e94d8a79d3a4702baf1788d13469c5f/Image_TH_0726-ABR_PERFORM-VG_Top_XL.png",
+            "source_url": "https://www.tchelicon.com/en/products/0726-ABR",
+            "sha256": "33c509a6a4af1de7478ab3a316d704dcedc7d55c61489869a992172d3accfd00",
+            "visual_checked": true,
+            "note": "Superseded manufacturer stock image; independent physical powered-on operation was not established by that artwork."
+          }
+        ]
       },
       "TC-Helicon::PERFORM-VK": {
         "model_key": "TC-Helicon::PERFORM-VK",
@@ -227061,6 +227070,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-50"
+    "last_model": "TC-Helicon::PERFORM-VG"
   }
 }

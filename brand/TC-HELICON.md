@@ -798,11 +798,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**PERFORM-VG top control face — manufacturer stock image**
+**PERFORM-VG powered-on overhead user photograph**
 
-[![PERFORM-VG top control face — manufacturer stock image](https://cdn-media.empowertribe.com/4e94d8a79d3a4702baf1788d13469c5f/Image_TH_0726-ABR_PERFORM-VG_Top_XL.png)](https://cdn-media.empowertribe.com/4e94d8a79d3a4702baf1788d13469c5f/Image_TH_0726-ABR_PERFORM-VG_Top_XL.png)
+[![PERFORM-VG powered-on overhead user photograph](https://medias.audiofanzine.com/images/normal/tc-helicon-perform-vg-6000059.jpg)](https://medias.audiofanzine.com/images/normal/tc-helicon-perform-vg-6000059.jpg)
 
-[Image source](https://www.tchelicon.com/en/products/0726-ABR). Straight-on manufacturer stock image with illuminated-looking pads and cyan LED ring. Independent powered-on overhead evidence remains pending. Visually confirms 1 knob, 0 footswitches and 14 button pads: SET, Tone, Anti-Feedback, BodyRez, 48V, three voice effects, three guitar effects, headphones, TAP and MIX. Window beside SET and LED segments are not extra buttons.
+[Image source](https://en.audiofanzine.com/vocal-processor/tc-helicon/perform-vg/). Visually inspected physical burgundy PERFORM-VG on carpet with backlit effect pads and illuminated cyan ring segments. BodyRez, separate VOICE/GUITAR effects, TAP and MIX match the VG layout, not PERFORM-V. Full control face, one knob and fourteen hand-button pads are visible; no onboard footswitches. Slight perspective and stand-clip projection remain, so strict perpendicular view is pending. Illumination does not establish firmware version, tracking polyphony or DSP utilization. Official rear-port view retained separately.
 
 **PERFORM-VG rear ports — manufacturer stock image**
 
