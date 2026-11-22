@@ -845,11 +845,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Angled control surface (unpowered)**
+**Korg AX30G — overhead control surface, unpowered**
 
-[![Angled control surface (unpowered)](https://i.ebayimg.com/images/g/WTEAAOSwO1VnTvGM/s-l1600.webp)](https://i.ebayimg.com/images/g/WTEAAOSwO1VnTvGM/s-l1600.webp)
+[![Korg AX30G — overhead control surface, unpowered](https://media.musicshop360.com/9166/KORG_TONEWORKS_AX30G_GUITAR_MULTI_EFFECTS_PROCESSOR_W_POWER-669040e7c8292.jpg)](https://media.musicshop360.com/9166/KORG_TONEWORKS_AX30G_GUITAR_MULTI_EFFECTS_PROCESSOR_W_POWER-669040e7c8292.jpg)
 
-[Image source](https://www.ebay.com/itm/205143199414). The full control surface and foot controls are visible at an oblique angle. The LCD is blank and the LEDs are unlit; a verified powered-on, exactly top-down photograph remains pending.
+[Image source](https://www.loudandclearmusic.com/shop/Pedals--Guitar-Rack-Effects.htm). Actual shop photograph shows the complete AX30G from overhead: PRESSURE and BANK foot controls plus four numbered patch switches, the large PARAM/VALUE encoder, INPUT/OUTPUT level controls and panel buttons. Labels are substantially clearer than in the previous oblique photograph. The LCD is blank and indicators are unlit; powered-on evidence remains pending. Slight enclosure perspective remains, so this is not claimed as a strictly perpendicular photograph.
 
 **Rear audio connections**
 

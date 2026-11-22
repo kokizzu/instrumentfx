@@ -226792,14 +226792,14 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://i.ebayimg.com/images/g/WTEAAOSwO1VnTvGM/s-l1600.webp",
-            "source_url": "https://www.ebay.com/itm/205143199414",
-            "caption": "Angled control surface (unpowered)",
-            "note": "The full control surface and foot controls are visible at an oblique angle. The LCD is blank and the LEDs are unlit; a verified powered-on, exactly top-down photograph remains pending.",
+            "image_url": "https://media.musicshop360.com/9166/KORG_TONEWORKS_AX30G_GUITAR_MULTI_EFFECTS_PROCESSOR_W_POWER-669040e7c8292.jpg",
+            "source_url": "https://www.loudandclearmusic.com/shop/Pedals--Guitar-Rack-Effects.htm",
+            "caption": "Korg AX30G — overhead control surface, unpowered",
+            "note": "Actual shop photograph shows the complete AX30G from overhead: PRESSURE and BANK foot controls plus four numbered patch switches, the large PARAM/VALUE encoder, INPUT/OUTPUT level controls and panel buttons. Labels are substantially clearer than in the previous oblique photograph. The LCD is blank and indicators are unlit; powered-on evidence remains pending. Slight enclosure perspective remains, so this is not claimed as a strictly perpendicular photograph.",
             "visual_checked": true,
             "powered_on": false,
             "exact_top_down": false,
-            "sha256": "1b22f300ee07c97ba95433b34b3898d69244d07b063ba0ee5ae807067eacec86"
+            "sha256": "6d1d2a22a045bb131031fb77d72f704ef40e415b53d898fccbde4e788beb83ea"
           },
           "rear": {
             "image_url": "https://i.ebayimg.com/images/g/SLwAAOSwsrpnTvGK/s-l1600.webp",
@@ -226820,6 +226820,18 @@
             "visual_checked": true,
             "powered_on": false,
             "sha256": "0f93cef92b0d814503cb68ac414d9d8e73d4b654b8faecafd6e727c233e1e3fb"
+          }
+        ],
+        "inspected_alternatives": [
+          {
+            "image_url": "https://i.ebayimg.com/images/g/WTEAAOSwO1VnTvGM/s-l1600.webp",
+            "source_url": "https://www.ebay.com/itm/205143199414",
+            "caption": "Angled control surface (unpowered)",
+            "note": "The full control surface and foot controls are visible at an oblique angle. The LCD is blank and the LEDs are unlit; a verified powered-on, exactly top-down photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "1b22f300ee07c97ba95433b34b3898d69244d07b063ba0ee5ae807067eacec86"
           }
         ]
       },
@@ -227200,6 +227212,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::ToneLab SE"
+    "last_model": "Korg::AX30G"
   }
 }
