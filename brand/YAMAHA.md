@@ -21,6 +21,31 @@ Partial manufacturer-backed records. Unknown is not No.
 
 ## AG-Stomp
 
+<!-- firmware-pitch:Yamaha::AG-Stomp begins -->
+### Firmware and pitch audit — Yamaha AG-Stomp
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2001 (manufacturer historical product year; first shipment unresolved). Yamaha museum dates AG-Stomp2001. Manufacturer announcement reproduced29June2001 planned September availability; actual first delivery/day not established. MIDI chart1May2001 version1.0 describes the chart, not a firmware launch. [launch 1](https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/3013/) [launch 2](https://www.harmonycentral.com/news/uncategorized/acoustic-preamp-with-mic-modeling-from-yamaha-r27629/) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact AG-Stomp device firmware release/package located in checked official documentation and targeted searches. MIDI bulk patch transfer, factory reset and implementation-chart version1.0 are not firmware releases. English PDF URL currently403; official French manual read instead. Update duration remains unverified. [firmware 1](https://usa.yamaha.com/products/contents/guitars_basses/downloads/manuals/index.html?c=guitars_basses&k=&l=en&p=1) [firmware 2](https://uk.yamaha.com/files/download/other_assets/5/332135/agstomp_fr.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No dedicated pitch shifter, harmonizer or octave effect in the complete documented effect list: limiter, chorus or delay, Hall/Room/Plate reverb; microphone simulation and feedback filters are separate. Chorus modulation and chromatic tuning do not establish transposition/polyphonic pitch capability. [pitch 1](https://uk.yamaha.com/files/download/other_assets/5/332135/agstomp_fr.pdf) [pitch 2](https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/3013/) |
+| Pitch / preset recall | 30preset+30user programs. Pitch-specific preset recall is not applicable to the documented effect set; general external control includes pedal/MIDI mappings. |
+| Pitch / DSP resources | No pitch DSP allocation or percentage applicable to a documented algorithm; none documented. Three effect blocks and five feedback filters are not processor-utilization measurements. |
+| Pitch / qualifications | No-pitch classification is limited to documented functions, not a claim of physical impossibility or absence of internal firmware. Exact AG-Stomp documentation used; DG-Stomp/Magicstomp pitch engines and update values not inherited. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha AG-Stomp French owner manual](https://uk.yamaha.com/files/download/other_assets/5/332135/agstomp_fr.pdf) — Printed14 three effect blocks; printed21 limiter/chorus/delay/Hall/Room/Plate; no dedicated pitch parameter. Original English URL403 this audit. (official original PDF effect list and parameter passages read).
+- [Yamaha Innovation Road AG-Stomp collection](https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/3013/) — Acoustic guitar pre-amplifier2001; mic simulation, feedback reduction and four effect types. (official manufacturer history page read).
+- [Yamaha AG-Stomp manufacturer announcement reproduced by Harmony Central](https://www.harmonycentral.com/news/uncategorized/acoustic-preamp-with-mic-modeling-from-yamaha-r27629/) — Plans September availability;60programs30preset/30user and documented effects. First actual delivery unresolved. (manufacturer press body and29June2001 publication read).
+- [Yamaha guitar/bass manual download catalogue](https://usa.yamaha.com/products/contents/guitars_basses/downloads/manuals/index.html?c=guitars_basses&k=&l=en&p=1) — Owner manuals, quick start and patch list entries; no exact device firmware package located in this check. (official indexed catalogue inspected; exact AG-Stomp entries identified).
+
+<!-- firmware-pitch:Yamaha::AG-Stomp ends -->
+
 Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufacturer manual](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf), printed pp6–11,21,29. Bass/vocal membership unclassified; microphone simulation does not establish a live microphone input.
 
 <!-- comparison evidence begins -->

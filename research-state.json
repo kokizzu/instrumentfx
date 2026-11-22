@@ -204663,10 +204663,77 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Yamaha::AG-Stomp": {
+        "model_key": "Yamaha::AG-Stomp",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2001",
+          "precision": "year",
+          "kind": "manufacturer historical product year; first shipment unresolved",
+          "source_urls": [
+            "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/3013/",
+            "https://www.harmonycentral.com/news/uncategorized/acoustic-preamp-with-mic-modeling-from-yamaha-r27629/"
+          ],
+          "note": "Yamaha museum dates AG-Stomp2001. Manufacturer announcement reproduced29June2001 planned September availability; actual first delivery/day not established. MIDI chart1May2001 version1.0 describes the chart, not a firmware launch."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://usa.yamaha.com/products/contents/guitars_basses/downloads/manuals/index.html?c=guitars_basses&k=&l=en&p=1",
+            "https://uk.yamaha.com/files/download/other_assets/5/332135/agstomp_fr.pdf"
+          ],
+          "note": "No exact AG-Stomp device firmware release/package located in checked official documentation and targeted searches. MIDI bulk patch transfer, factory reset and implementation-chart version1.0 are not firmware releases. English PDF URL currently403; official French manual read instead. Update duration remains unverified."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No dedicated pitch shifter, harmonizer or octave effect in the complete documented effect list: limiter, chorus or delay, Hall/Room/Plate reverb; microphone simulation and feedback filters are separate. Chorus modulation and chromatic tuning do not establish transposition/polyphonic pitch capability.",
+          "preset": "30preset+30user programs. Pitch-specific preset recall is not applicable to the documented effect set; general external control includes pedal/MIDI mappings.",
+          "dsp": "No pitch DSP allocation or percentage applicable to a documented algorithm; none documented. Three effect blocks and five feedback filters are not processor-utilization measurements.",
+          "source_urls": [
+            "https://uk.yamaha.com/files/download/other_assets/5/332135/agstomp_fr.pdf",
+            "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/3013/"
+          ],
+          "measurements": [],
+          "notes": [
+            "No-pitch classification is limited to documented functions, not a claim of physical impossibility or absence of internal firmware.",
+            "Exact AG-Stomp documentation used; DG-Stomp/Magicstomp pitch engines and update values not inherited."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://uk.yamaha.com/files/download/other_assets/5/332135/agstomp_fr.pdf",
+            "title": "Yamaha AG-Stomp French owner manual",
+            "access": "official original PDF effect list and parameter passages read",
+            "evidence": "Printed14 three effect blocks; printed21 limiter/chorus/delay/Hall/Room/Plate; no dedicated pitch parameter. Original English URL403 this audit."
+          },
+          {
+            "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/3013/",
+            "title": "Yamaha Innovation Road AG-Stomp collection",
+            "access": "official manufacturer history page read",
+            "evidence": "Acoustic guitar pre-amplifier2001; mic simulation, feedback reduction and four effect types."
+          },
+          {
+            "url": "https://www.harmonycentral.com/news/uncategorized/acoustic-preamp-with-mic-modeling-from-yamaha-r27629/",
+            "title": "Yamaha AG-Stomp manufacturer announcement reproduced by Harmony Central",
+            "access": "manufacturer press body and29June2001 publication read",
+            "evidence": "Plans September availability;60programs30preset/30user and documented effects. First actual delivery unresolved."
+          },
+          {
+            "url": "https://usa.yamaha.com/products/contents/guitars_basses/downloads/manuals/index.html?c=guitars_basses&k=&l=en&p=1",
+            "title": "Yamaha guitar/bass manual download catalogue",
+            "access": "official indexed catalogue inspected; exact AG-Stomp entries identified",
+            "evidence": "Owner manuals, quick start and patch list entries; no exact device firmware package located in this check."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Yamaha::AG-Stomp",
       "Yamaha::DG-Stomp",
       "Yamaha::Magicstomp Acoustic",
       "Yamaha::Magicstomp Bass",
@@ -204741,12 +204808,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 329,
-    "last_model": "VOX::ToneLab ST",
-    "last_commit_parent": "8edfbca682a374c5b1e79c69aab9f4f33b7e5724",
+    "completed_model_count": 330,
+    "last_model": "Yamaha::AG-Stomp",
+    "last_commit_parent": "2415e295e2781d873609eed8b00b863c1f33f7eb",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Yamaha::AG-Stomp",
       "Yamaha::DG-Stomp",
       "Yamaha::Magicstomp Acoustic",
       "Yamaha::Magicstomp Bass",
@@ -204820,7 +204886,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 329,
+    "pitch_completed_model_count": 330,
     "supplemental_model_count": 0
   },
   "model_images": {
