@@ -1340,7 +1340,11 @@ Sources checked:
 
 [Image source](https://en.audiofanzine.com/bass-multi-effect/korg/Ax3000b/). Exact AX3000B label, illuminated orange display, bank display and effect/pedal indicators are visible. Complete controls, footswitches and expression pedal shown with slight perspective; exact perpendicular top-down view remains pending. Rear-port photo remains pending: zZounds lists an exact-model rear image, but retrieval returned HTTP 403; the DJMania candidate proved to be another top view. Additional rear candidate from Bass Workshop’s two-image Reverb listing could not be inspected: gallery-image retrieval returned HTTP500 and direct asset retrieval HTTP401. No rear-photo claim is made from listing text or image count.
 
-**Rear view:** not yet verified.
+**Korg AX3000B rear connections — original manual illustration**
+
+[![Korg AX3000B rear connections — original manual illustration](images/korg-ax3000b-rear.png)](images/korg-ax3000b-rear.png)
+
+[Image source](https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf#page=16). Cropped from Korg’s AX3000B English owner manual, printed page10 (PDF page16); manufacturer illustration, not a photograph. Exact AX3000B label and rear DC9V, INPUT, AUX IN, SEND/DIRECT and RETURN insert, OUTPUT R/L-MONO, LEVEL, HEADPHONES, MIDI OUT/IN and optical S/P DIF OUT are visible. Physical rear-panel photo remains pending; AX3000G connectors are not substituted.
 
 </details>
 <!-- model-images:Korg::AX3000B ends -->

@@ -20,6 +20,7 @@ def diagram():
  sources={
   'https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf':'Korg::AX10B',
   'https://data.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf':'Yamaha::Magicstomp Bass',
+  'https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf':'Korg::AX3000B',
  }
  assert sources.get(d['source_url'])==r['model_key'], 'Manual must match reviewed exact model'
  page=d['page']; assert isinstance(page,int) and 1<=page<=128

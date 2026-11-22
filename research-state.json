@@ -218364,6 +218364,15 @@
             "powered_on": true,
             "exact_top_down": false,
             "sha256": "bbba93d4ee05e8ef5731974b3d60a89d63fbeacb8614416604cf7946fa951ddd"
+          },
+          "rear": {
+            "image_url": "images/korg-ax3000b-rear.png",
+            "source_url": "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf#page=16",
+            "caption": "Korg AX3000B rear connections — original manual illustration",
+            "note": "Cropped from Korg’s AX3000B English owner manual, printed page10 (PDF page16); manufacturer illustration, not a photograph. Exact AX3000B label and rear DC9V, INPUT, AUX IN, SEND/DIRECT and RETURN insert, OUTPUT R/L-MONO, LEVEL, HEADPHONES, MIDI OUT/IN and optical S/P DIF OUT are visible. Physical rear-panel photo remains pending; AX3000G connectors are not substituted.",
+            "visual_checked": true,
+            "sha256": "a691f80617f91ca7a62b03d330aaacb2386c2d83e7234bcfcda7e4873c4193bb",
+            "kind": "manufacturer_manual_illustration"
           }
         },
         "unretrieved_candidates": [
@@ -218380,6 +218389,21 @@
             "visual_checked": false,
             "result": "Ten images listed, but extracted gallery links resolve to item/number rather than image assets; in-app browser unavailable. No new gallery pixels inspected."
           }
+        ],
+        "manual_diagram": {
+          "source_url": "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf",
+          "page": 16,
+          "crop": [
+            280,
+            275,
+            1410,
+            570
+          ],
+          "source_sha256": "7cc99a0a1c65e41189e2cf302111b6767d6366d83fa572325ce1488a47b18d67",
+          "render_scale_to": 2400
+        },
+        "unresolved": [
+          "Exact perpendicular powered overhead photo and physical rear photo remain pending; original AX3000B manual rear illustration now included."
         ]
       },
       "Korg::AX3000G": {
@@ -226692,6 +226716,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::Magicstomp Bass"
+    "last_model": "Korg::AX3000B"
   }
 }
