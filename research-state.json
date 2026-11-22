@@ -182294,15 +182294,15 @@
       },
       "Behringer::X V-AMP LX1-X": {
         "model_key": "Behringer::X V-AMP LX1-X",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2003-08-10",
+          "precision": "day",
+          "kind": "contemporaneous NAMM announcement-coverage proxy",
           "source_urls": [
-            "https://www.fullcompass.com/common/files/22449-BehringerXVAmpLX1XUserManual.pdf"
+            "https://www.guitariste.com/articles/Berhinger-X-V-amp,160,1.html"
           ],
-          "note": "First hardware release date not established. Manual revision/copyright dates are not launch dates."
+          "note": "Original Guitariste.com article dated August 10, 2003 reports that Behringer had presented the X V-AMP at NAMM and projected arrival in France for late 2003. The article date is a public-announcement coverage proxy, not the earlier NAMM presentation day or confirmed first shipment. Its projected arrival is not recorded as an actual sale. Manual revisions remain separate from launch and firmware dates."
         },
         "firmware": {
           "version": null,
@@ -182341,10 +182341,72 @@
             "title": "Behringer X V-AMP manufacturer manual, pitch effect section (ManualsLib mirror)",
             "access": "opened; manufacturer manuscript; text_only",
             "evidence": "Four pitch models, discrete semitone intervals and fractional-semitone detune; no note-polyphony specification."
+          },
+          {
+            "url": "https://www.guitariste.com/articles/Berhinger-X-V-amp,160,1.html",
+            "title": "Guitariste.com: Behringer met le V-amp à la sauce pédale, August 10, 2003",
+            "access": "Contemporaneous original news article opened; body date and projected availability read",
+            "evidence": "Reports X V-AMP NAMM presentation and late-2003 expected French arrival. Actual article body says August10; neighboring archive/index dates are not substituted. Supports announcement-coverage proxy only."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Behringer::X V-AMP LX1-X",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.fullcompass.com/common/files/22449-BehringerXVAmpLX1XUserManual.pdf"
+              ],
+              "note": "First hardware release date not established. Manual revision/copyright dates are not launch dates."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.fullcompass.com/common/files/22449-BehringerXVAmpLX1XUserManual.pdf"
+              ],
+              "note": "No public device firmware package or dated release history located in the checked manufacturer-manual and exact-model searches. This does not establish that firmware updates never existed; manual revisions are not firmware versions."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Four PITCH BEND models: fixed-interval PS-5-style shift, momentary T-Arm, expression-pedal Whammy and detune. Models 1–3 select −12/−7/−5/−3/+3/+4/+5/+7/+12 semitones; detune is ±20 cents. Note polyphony is not specified.",
+              "preset": "100 rewritable locations (00–99). Brief STORE selects a destination using UP/DOWN; hold STORE longer than 2 seconds to save.",
+              "dsp": "No per-algorithm CPU percentage or DSP meter documented. Pitch bend occupies the single modulation selection and excludes Wah Wah; T-Arm/Whammy take the expression pedal assignment. These are routing/control limits, not a measured DSP percentage.",
+              "source_urls": [
+                "https://www.fullcompass.com/common/files/22449-BehringerXVAmpLX1XUserManual.pdf",
+                "https://www.manualslib.com/manual/912093/Behringer-X-V-Amp.html?page=10"
+              ],
+              "measurements": [],
+              "notes": [
+                "The detune specification of ±20% of a semitone describes pitch range, not DSP use.",
+                "No polyphonic claim inferred from the modeled pedal names or stereo outputs."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.fullcompass.com/common/files/22449-BehringerXVAmpLX1XUserManual.pdf",
+                "title": "Behringer X V-AMP LX1-X manufacturer user manual (Full Compass mirror)",
+                "access": "opened; manufacturer manuscript; text_only",
+                "evidence": "Sections 2, 4 and 6 document preset saving and pitch/wah exclusion; inspected manual has no dated device firmware history or per-algorithm DSP percentage."
+              },
+              {
+                "url": "https://www.manualslib.com/manual/912093/Behringer-X-V-Amp.html?page=10",
+                "title": "Behringer X V-AMP manufacturer manual, pitch effect section (ManualsLib mirror)",
+                "access": "opened; manufacturer manuscript; text_only",
+                "evidence": "Four pitch models, discrete semitone intervals and fractional-semitone detune; no note-polyphony specification."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Blackstar::ID:X Floor One": {
         "model_key": "Blackstar::ID:X Floor One",
@@ -211372,8 +211434,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Behringer::V-AMP 3",
-    "last_commit_parent": "452d2e0935a41715c691f67f702d6b2ad0d2f2ae",
+    "last_model": "Behringer::X V-AMP LX1-X",
+    "last_commit_parent": "d2057c928eab698415058b0a882b823bc6a39fb9",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
