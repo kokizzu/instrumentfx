@@ -719,11 +719,11 @@ Checked2026-10-18 against the [own EFG1 manual](https://cdn.korg.com/us/support/
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. First hardware release not established in checked manufacturer sources; June2015 manual upload is not launch evidence. [launch 1](https://www.korg.com/us/support/download/product/1/23/) |
+| Firmware / first hardware release | 2004 (regional Korg historical introduction year corroborated by contemporary coverage). Regional Korg history explicitly places AX10G/AX10A/AX10B debut in 2004. Sweetwater’s January 18, 2004 Winter NAMM bulletin and Synthtopia’s April 2, 2004 exact AX10G announcement corroborate that introduction year. Exact first customer shipment remains unknown. A 2003 date beside the Synthtopia archive belonged to a neighboring entry; manual copyright2003 and June2015 upload are not launch dates. [launch 1](https://w.korgmusic.ru/news/kratkaya-istoriya-50ti-letnego-razvitiya-kompanii-korg/) [launch 2](https://www.sweetwater.com/insync/winter-namm-2004-korg-ax10g-processing-floor-modeler/) [launch 3](https://www.synthtopia.com/content/2004/04/02/korg-ax10g-toneworks-guitar-modeling-signal-processor/) |
 | Firmware / latest verification | Not verified — No public firmware located. Exact support page lists Owner’s Manual and Easy Start Guide, both uploaded June1,2015; no public firmware package or dated device changelog located. Internal/service firmware absence is not proven; span uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/23/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
-| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
 | Pitch / note handling | Pitch present; polyphony unverified. PITCH1 mixes shifted and direct sound; PITCH2 is fully wet and supports expression-controlled shift. Both offer settings reaching two octaves down/up; PITCH1 also lists detune options. Chord handling/polyphony and tracking latency are not specified in the checked descriptions. [pitch 1](https://cdn.korg.com/us/support/download/files/ec016fd8dfff2e0172346b5a0cf60470.pdf) |
 | Pitch / preset recall | 40 factory presets plus40 user programs; user slots initially duplicate factory settings. Pitch and expression configuration belongs to the stored program; hardware recall untested. |
 | Pitch / DSP resources | PITCH1/PITCH2 occupy the single MODULATION selection, replacing chorus/flanger and other modulation choices. Pedal controls a selected effect parameter rather than establishing an extra independent pitch engine. No numerical CPU cost located; AX100G harmony exclusions are not transferred. |
@@ -734,6 +734,9 @@ Sources checked:
 
 - [Korg AX10G support downloads](https://www.korg.com/us/support/download/product/1/23/) — Two manuals dated2015-06-01; no firmware listed. (Manufacturer exact-model page read).
 - [AX10G Owner’s Manual](https://cdn.korg.com/us/support/download/files/ec016fd8dfff2e0172346b5a0cf60470.pdf) — PITCH1 dry/shift mix and PITCH2 wet shift in MODULATION; expression control,40preset+40user programs. Polyphony and CPU cost unestablished. (Manufacturer original PDF text read, pp3,5,10–12).
+- [Regional Korg site: 50-year company history, ToneWorks section](https://w.korgmusic.ru/news/kratkaya-istoriya-50ti-letnego-razvitiya-kompanii-korg/) — Explicitly says AX10 series debuted in2004 and individually names AX10G,AX10A,AX10B. Regional retrospective, not exact shipment record. (Regional brand-site historical article opened; original Russian AX10 paragraph read).
+- [Sweetwater: Winter NAMM2004 Korg AX10G, January18,2004](https://www.sweetwater.com/insync/winter-namm-2004-korg-ax10g-processing-floor-modeler/) — Introduces new AX10G at Winter NAMM2004; corroborates introduction year, not exact shipment. (Contemporary first-party show bulletin indexed text).
+- [Synthtopia: Korg AX10G announcement, April2,2004](https://www.synthtopia.com/content/2004/04/02/korg-ax10g-toneworks-guitar-modeling-signal-processor/) — Reports newly introduced AX10G and distinguishes AX10B bass version; exact dated article resolves misleading neighboring archive date. (Exact dated original article text inspected).
 
 <!-- firmware-pitch:Korg::AX10G ends -->
 

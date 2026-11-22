@@ -193185,15 +193185,17 @@
       },
       "Korg::AX10G": {
         "model_key": "Korg::AX10G",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2004",
+          "precision": "year",
+          "kind": "regional Korg historical introduction year corroborated by contemporary coverage",
           "source_urls": [
-            "https://www.korg.com/us/support/download/product/1/23/"
+            "https://w.korgmusic.ru/news/kratkaya-istoriya-50ti-letnego-razvitiya-kompanii-korg/",
+            "https://www.sweetwater.com/insync/winter-namm-2004-korg-ax10g-processing-floor-modeler/",
+            "https://www.synthtopia.com/content/2004/04/02/korg-ax10g-toneworks-guitar-modeling-signal-processor/"
           ],
-          "note": "First hardware release not established in checked manufacturer sources; June2015 manual upload is not launch evidence."
+          "note": "Regional Korg history explicitly places AX10G/AX10A/AX10B debut in 2004. Sweetwater’s January 18, 2004 Winter NAMM bulletin and Synthtopia’s April 2, 2004 exact AX10G announcement corroborate that introduction year. Exact first customer shipment remains unknown. A 2003 date beside the Synthtopia archive belonged to a neighboring entry; manual copyright2003 and June2015 upload are not launch dates."
         },
         "firmware": {
           "version": null,
@@ -193230,10 +193232,82 @@
             "title": "AX10G Owner’s Manual",
             "access": "Manufacturer original PDF text read, pp3,5,10–12",
             "evidence": "PITCH1 dry/shift mix and PITCH2 wet shift in MODULATION; expression control,40preset+40user programs. Polyphony and CPU cost unestablished."
+          },
+          {
+            "url": "https://w.korgmusic.ru/news/kratkaya-istoriya-50ti-letnego-razvitiya-kompanii-korg/",
+            "title": "Regional Korg site: 50-year company history, ToneWorks section",
+            "access": "Regional brand-site historical article opened; original Russian AX10 paragraph read",
+            "evidence": "Explicitly says AX10 series debuted in2004 and individually names AX10G,AX10A,AX10B. Regional retrospective, not exact shipment record."
+          },
+          {
+            "url": "https://www.sweetwater.com/insync/winter-namm-2004-korg-ax10g-processing-floor-modeler/",
+            "title": "Sweetwater: Winter NAMM2004 Korg AX10G, January18,2004",
+            "access": "Contemporary first-party show bulletin indexed text",
+            "evidence": "Introduces new AX10G at Winter NAMM2004; corroborates introduction year, not exact shipment."
+          },
+          {
+            "url": "https://www.synthtopia.com/content/2004/04/02/korg-ax10g-toneworks-guitar-modeling-signal-processor/",
+            "title": "Synthtopia: Korg AX10G announcement, April2,2004",
+            "access": "Exact dated original article text inspected",
+            "evidence": "Reports newly introduced AX10G and distinguishes AX10B bass version; exact dated article resolves misleading neighboring archive date."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Korg::AX10G",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.korg.com/us/support/download/product/1/23/"
+              ],
+              "note": "First hardware release not established in checked manufacturer sources; June2015 manual upload is not launch evidence."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.korg.com/us/support/download/product/1/23/"
+              ],
+              "note": "Exact support page lists Owner’s Manual and Easy Start Guide, both uploaded June1,2015; no public firmware package or dated device changelog located. Internal/service firmware absence is not proven; span uncalculable."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "PITCH1 mixes shifted and direct sound; PITCH2 is fully wet and supports expression-controlled shift. Both offer settings reaching two octaves down/up; PITCH1 also lists detune options. Chord handling/polyphony and tracking latency are not specified in the checked descriptions.",
+              "preset": "40 factory presets plus40 user programs; user slots initially duplicate factory settings. Pitch and expression configuration belongs to the stored program; hardware recall untested.",
+              "dsp": "PITCH1/PITCH2 occupy the single MODULATION selection, replacing chorus/flanger and other modulation choices. Pedal controls a selected effect parameter rather than establishing an extra independent pitch engine. No numerical CPU cost located; AX100G harmony exclusions are not transferred.",
+              "source_urls": [
+                "https://cdn.korg.com/us/support/download/files/ec016fd8dfff2e0172346b5a0cf60470.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "No device, tracking or CPU measurement. Tuner instruction to play one string is not a pitch-shifter polyphony specification."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.korg.com/us/support/download/product/1/23/",
+                "title": "Korg AX10G support downloads",
+                "access": "Manufacturer exact-model page read",
+                "evidence": "Two manuals dated2015-06-01; no firmware listed."
+              },
+              {
+                "url": "https://cdn.korg.com/us/support/download/files/ec016fd8dfff2e0172346b5a0cf60470.pdf",
+                "title": "AX10G Owner’s Manual",
+                "access": "Manufacturer original PDF text read, pp3,5,10–12",
+                "evidence": "PITCH1 dry/shift mix and PITCH2 wet shift in MODULATION; expression control,40preset+40user programs. Polyphony and CPU cost unestablished."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Korg::AX10B": {
         "model_key": "Korg::AX10B",
@@ -211623,8 +211697,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Korg::AX100G",
-    "last_commit_parent": "bfa165eca9e9c794b42dfc30c4e477c4156789be",
+    "last_model": "Korg::AX10G",
+    "last_commit_parent": "34b385d01561f9acf031ccd39faf88e0821116e2",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
