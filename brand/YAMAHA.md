@@ -891,6 +891,26 @@ Sources checked:
 
 <!-- firmware-pitch:Yamaha::SPX900 ends -->
 
+<!-- model-images:Yamaha::SPX900 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**SPX900 powered control face**
+
+[![SPX900 powered control face](https://retrosonicproaudio.com/images/products/yamaha-spx-900-digital-effects-processor-120v-1.jpg?v=1559712359)](https://retrosonicproaudio.com/images/products/yamaha-spx-900-digital-effects-processor-120v-1.jpg?v=1559712359)
+
+[Image source](https://retrosonicproaudio.com/product/yamaha-spx-900-digital-effects-processor-120v). Visually checked complete actual SPX900 front and top chassis from raised front angle: illuminated REV1 HALL/REV TIME2.6s LCD, red1 memory display and PARAM indicator. One INPUT knob,15 control buttons, separate power rocker and two EXT CTRL/FOOT VOL sockets visible. These two front sockets are controller inputs. Raised rack-unit perspective, not vertical overhead; program1/reverb time are not firmware revision evidence. Cosmetic wear and watermark retained in original source.
+
+**SPX900 rear connectors**
+
+[![SPX900 rear connectors](https://medias.audiofanzine.com/images/normal/yamaha-spx900-5905192.jpg)](https://medias.audiofanzine.com/images/normal/yamaha-spx900-5905192.jpg)
+
+[Image source](https://en.audiofanzine.com/multi-effects-processor/yamaha/SPX900/). Visually checked full rear: three FOOT SW jacks BYPASS/INC-DEC/TRIGGER; separate round multi-pin REMOTE; MIDI OUT/THRU with selector and MIDI IN; OUTPUT R/L pair with−20/+4dB switch; one mono INPUT jack with its own−20/+4dB switch; captive mains lead. No dedicated digital-audio I/O, XLR, USB or PHONES sockets shown. REMOTE pinout/protocol remains unverified; no SPX1000 digital connection substituted. Rear specimen marked220–240V20W50/60Hz, distinct from front-photo seller120V specimen. Powered state unavailable from rear.
+
+</details>
+<!-- model-images:Yamaha::SPX900 ends -->
+
+
 <!-- comparison evidence begins -->
 Rack multi-effects; checked 2026-10-17. Guitar/vocal processing requires suitable preamp/mixer routing, not a direct microphone-input claim. Bass suitability remains unclassified.
 

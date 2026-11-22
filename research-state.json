@@ -212742,11 +212742,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Yamaha::SPX900": {
+        "model_key": "Yamaha::SPX900",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://retrosonicproaudio.com/images/products/yamaha-spx-900-digital-effects-processor-120v-1.jpg?v=1559712359",
+            "source_url": "https://retrosonicproaudio.com/product/yamaha-spx-900-digital-effects-processor-120v",
+            "caption": "SPX900 powered control face",
+            "note": "Visually checked complete actual SPX900 front and top chassis from raised front angle: illuminated REV1 HALL/REV TIME2.6s LCD, red1 memory display and PARAM indicator. One INPUT knob,15 control buttons, separate power rocker and two EXT CTRL/FOOT VOL sockets visible. These two front sockets are controller inputs. Raised rack-unit perspective, not vertical overhead; program1/reverb time are not firmware revision evidence. Cosmetic wear and watermark retained in original source.",
+            "visual_checked": true,
+            "sha256": "4d269135f18a081d8d74a7b29d64c8367c6067f74933c2a0178a85b3f3550652",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/yamaha-spx900-5905192.jpg",
+            "source_url": "https://en.audiofanzine.com/multi-effects-processor/yamaha/SPX900/",
+            "caption": "SPX900 rear connectors",
+            "note": "Visually checked full rear: three FOOT SW jacks BYPASS/INC-DEC/TRIGGER; separate round multi-pin REMOTE; MIDI OUT/THRU with selector and MIDI IN; OUTPUT R/L pair with−20/+4dB switch; one mono INPUT jack with its own−20/+4dB switch; captive mains lead. No dedicated digital-audio I/O, XLR, USB or PHONES sockets shown. REMOTE pinout/protocol remains unverified; no SPX1000 digital connection substituted. Rear specimen marked220–240V20W50/60Hz, distinct from front-photo seller120V specimen. Powered state unavailable from rear.",
+            "visual_checked": true,
+            "sha256": "c41a868910eb2be75668385437a3d0e5c3a80053636801d4b165e2c870b3ade7",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::SPX2000"
+    "last_model": "Yamaha::SPX900"
   }
 }
