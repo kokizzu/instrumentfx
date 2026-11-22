@@ -791,7 +791,11 @@ Sources checked:
 
 [![FX20 face and controls — angled product view](https://www.flammainnovation.com/file/img?url=group1%2FM00%2F00%2F0C%2FwKgA0GW6-QiANqFHAA-GMGq-4Jw627.png)](https://www.flammainnovation.com/file/img?url=group1%2FM00%2F00%2F0C%2FwKgA0GW6-QiANqFHAA-GMGq-4Jw627.png)
 
-[Image source](https://www.flammainnovation.com/single.html?id=129). Manufacturer angled cutout shows the FX20 branding, folding instrument plug and side buttons. Indicators are not visibly illuminated; powered-on state and an exact top-down view remain unverified. The logo panel is not a display screen.
+[Image source](https://www.flammainnovation.com/single.html?id=129). Manufacturer angled cutout shows the FX20 branding, folding instrument plug and side buttons. Indicators are not visibly illuminated; powered-on state and an exact top-down view remain unverified. The logo panel is not a display screen. A supplemental manufacturer handheld control-side photograph below depicts a blue PRESET indicator illuminated. The hand obscures some middle buttons; this staged promotional image is oblique and does not independently establish device operation or exclude retouching. A verified powered-on overhead photograph remains pending.
+
+[![FX20 handheld control-side promotional photograph](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/Preset_2.png?v=1706943078)](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/Preset_2.png?v=1706943078)
+
+[Control-side photograph source](https://www.flamma.shop/products/flamma-fx20-portable-intelligent-headphone-modeling-headphone-amps-with-app-control).
 
 **FX20 end-panel headphone and USB-C connections**
 
