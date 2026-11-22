@@ -215327,11 +215327,36 @@
             "powered_on": false
           }
         }
+      },
+      "Zoom::G11": {
+        "model_key": "Zoom::G11",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.lensrentals.com/blog/media-variant/2022/04/Zoom-G11-Review-1-1-fallback.jpg",
+            "source_url": "https://www.lensrentals.com/blog/2022/04/reviewing-the-zoom-g11-multi-effects-processor-guitar-pedal/",
+            "caption": "G11 powered control face",
+            "note": "Actual powered G11 photographed obliquely from above,including full treadle and control face. Main color screen,amp/effect LCDs and colored switch strips are lit. This is an angled overview,not a perpendicular top-down shot;that view remains pending. Review prose incorrectly calls USB-C and is not used for connector specifications.",
+            "visual_checked": true,
+            "sha256": "f7b92377fa04feb1c9ef10a42fbb51a37ffb1cbc75bbbc429040f2411449770e",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://r2.gear4music.com/media/115/1154430/1200/preview.jpg",
+            "source_url": "https://www.gear4music.com/us/en/Guitar-and-Bass/Zoom-G11-Multi-Effects-Processor-Secondhand/6U7V",
+            "caption": "G11 rear connections",
+            "note": "Actual full G11 rear photo:INPUT,AUX IN,two SEND/RETURN pairs,RIGHT/LEFT-MONO outputs,PHONES,MASTER knob,CONTROL IN,MIDI OUT/IN,REMOTE cover,USB DEVICE micro-B and HOST Type-A,DC12V,POWER and security slot. REMOTE is covered;USB is not USB-C. B&H candidate returned403 and was not used.",
+            "visual_checked": true,
+            "sha256": "55ef1a58d4bb29901d6360ae7f2071f0833ca8842b64bb88f48cee4266cf09fc",
+            "powered_on": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G1 original"
+    "last_model": "Zoom::G11"
   }
 }

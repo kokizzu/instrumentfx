@@ -6591,6 +6591,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G11 ends -->
 
+<!-- model-images:Zoom::G11 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G11 powered control face**
+
+[![G11 powered control face](https://www.lensrentals.com/blog/media-variant/2022/04/Zoom-G11-Review-1-1-fallback.jpg)](https://www.lensrentals.com/blog/media-variant/2022/04/Zoom-G11-Review-1-1-fallback.jpg)
+
+[Image source](https://www.lensrentals.com/blog/2022/04/reviewing-the-zoom-g11-multi-effects-processor-guitar-pedal/). Actual powered G11 photographed obliquely from above,including full treadle and control face. Main color screen,amp/effect LCDs and colored switch strips are lit. This is an angled overview,not a perpendicular top-down shot;that view remains pending. Review prose incorrectly calls USB-C and is not used for connector specifications.
+
+**G11 rear connections**
+
+[![G11 rear connections](https://r2.gear4music.com/media/115/1154430/1200/preview.jpg)](https://r2.gear4music.com/media/115/1154430/1200/preview.jpg)
+
+[Image source](https://www.gear4music.com/us/en/Guitar-and-Bass/Zoom-G11-Multi-Effects-Processor-Secondhand/6U7V). Actual full G11 rear photo:INPUT,AUX IN,two SEND/RETURN pairs,RIGHT/LEFT-MONO outputs,PHONES,MASTER knob,CONTROL IN,MIDI OUT/IN,REMOTE cover,USB DEVICE micro-B and HOST Type-A,DC12V,POWER and security slot. REMOTE is covered;USB is not USB-C. B&H candidate returned403 and was not used.
+
+</details>
+<!-- model-images:Zoom::G11 ends -->
+
+
 Guitar and bass multi-effects; large; built-in expression. Specifications below use ZOOM's own V2 operation/effect documents and current support page. A first-pass record with unresolved fields is not fully verified.
 
 <!-- comparison evidence begins -->
