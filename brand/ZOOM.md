@@ -1860,7 +1860,11 @@ Sources checked:
 
 [![Original B1X overhead product image](https://zoom.co.jp/sites/default/files/products/downloads/images/B1X_top.jpg)](https://zoom.co.jp/sites/default/files/products/downloads/images/B1X_top.jpg)
 
-[Image source](https://zoom.co.jp/ja/products/bass/b1x-bass-effects-pedal). Manufacturer overhead image of the original red B1X: two rotary controls, four push-buttons, two circular footswitches and built-in treadle. A0 and the WAH/EFX indicator are shown illuminated, but this studio product image does not independently verify an actual powered photograph. A real powered overhead photograph remains pending; newer FOUR/on images were excluded.
+[Image source](https://zoom.co.jp/ja/products/bass/b1x-bass-effects-pedal). Manufacturer overhead image of the original red B1X: two rotary controls, four push-buttons, two circular footswitches and built-in treadle. A0 and the WAH/EFX indicator are shown illuminated, but this studio product image does not independently verify an actual powered photograph. A real powered overhead photograph remains pending; newer FOUR/on images were excluded. A supplemental physical-unit photograph below verifies the complete original B1X layout, including both circular footswitches and full treadle. Its dark 88 display segments and unlit assignment indicators do not establish power.
+
+[![Original Zoom B1X actual unpowered overhead photograph](https://img.ricardostatic.ch/images/2f82fb79-deaa-4a7d-bc40-d51fb6a0686f/t_1000x750/zoom-bass-effects-pedal-b1x)](https://img.ricardostatic.ch/images/2f82fb79-deaa-4a7d-bc40-d51fb6a0686f/t_1000x750/zoom-bass-effects-pedal-b1x)
+
+[Actual-unit photograph source](https://www.ricardo.ch/de/a/zoom-bass-effects-pedal-b1x-1205010970/).
 
 **Original B1X rear connectors**
 

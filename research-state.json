@@ -224102,7 +224102,7 @@
             "image_url": "https://zoom.co.jp/sites/default/files/products/downloads/images/B1X_top.jpg",
             "source_url": "https://zoom.co.jp/ja/products/bass/b1x-bass-effects-pedal",
             "caption": "Original B1X overhead product image",
-            "note": "Manufacturer overhead image of the original red B1X: two rotary controls, four push-buttons, two circular footswitches and built-in treadle. A0 and the WAH/EFX indicator are shown illuminated, but this studio product image does not independently verify an actual powered photograph. A real powered overhead photograph remains pending; newer FOUR/on images were excluded.",
+            "note": "Manufacturer overhead image of the original red B1X: two rotary controls, four push-buttons, two circular footswitches and built-in treadle. A0 and the WAH/EFX indicator are shown illuminated, but this studio product image does not independently verify an actual powered photograph. A real powered overhead photograph remains pending; newer FOUR/on images were excluded. A supplemental physical-unit photograph below verifies the complete original B1X layout, including both circular footswitches and full treadle. Its dark 88 display segments and unlit assignment indicators do not establish power.\n\n[![Original Zoom B1X actual unpowered overhead photograph](https://img.ricardostatic.ch/images/2f82fb79-deaa-4a7d-bc40-d51fb6a0686f/t_1000x750/zoom-bass-effects-pedal-b1x)](https://img.ricardostatic.ch/images/2f82fb79-deaa-4a7d-bc40-d51fb6a0686f/t_1000x750/zoom-bass-effects-pedal-b1x)\n\n[Actual-unit photograph source](https://www.ricardo.ch/de/a/zoom-bass-effects-pedal-b1x-1205010970/).",
             "visual_checked": true,
             "sha256": "b4d49d72de860126184d48acb14f6266799bba1bba7176e4502130320a370674",
             "powered_on": false,
@@ -224124,6 +224124,18 @@
             "sha256": "60f6eb9ed520d7aeb58d21d06b4c18cb62df5424b5402a166514d0377449ff11",
             "visual_checked": true,
             "note": "Matching used-listing underside visibly identifies original model B1X."
+          }
+        ],
+        "inspected_alternatives": [
+          {
+            "image_url": "https://img.ricardostatic.ch/images/2f82fb79-deaa-4a7d-bc40-d51fb6a0686f/t_1000x750/zoom-bass-effects-pedal-b1x",
+            "source_url": "https://www.ricardo.ch/de/a/zoom-bass-effects-pedal-b1x-1205010970/",
+            "caption": "Original B1X — actual unpowered overhead photograph",
+            "note": "Complete original red B1X photographed overhead on a wooden surface. Both rotary controls, four buttons, two circular footswitches and full treadle are visible. Dark 88 display segments and unlit assignment LEDs do not establish powered operation.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": true,
+            "sha256": "3727e575fdac67991b5a9a0fd79c71c9b3bac0989063d058bbb6ab3a9b86ae1a"
           }
         ]
       },
@@ -227212,6 +227224,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX30G"
+    "last_model": "Zoom::B1X original"
   }
 }
