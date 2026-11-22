@@ -202889,10 +202889,71 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::Dapper Dark VES-3": {
+        "model_key": "Valeton::Dapper Dark VES-3",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2017-02-07",
+          "precision": "day",
+          "kind": "official public demonstration; first shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=QYQmGX8H1jc"
+          ],
+          "note": "Official Valeton full-size Dapper Dark demo published February7,2017; public product evidence, not independently verified first retail shipment. Manual160825 does not establish launch."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-darkdiscontinued/",
+            "https://www.valeton.net/firmware/"
+          ],
+          "note": "No numbered full-size Dapper Dark firmware package/date or user updater located in checked manufacturer sources. Discontinued status does not prove no updates existed. Firmware index extraction may omit dynamic entries; VES-3 is hardware identification, not firmware3."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Manufacturer names Boost, HiGain with EQ/noise gate, Chorus and Delay plus tuner, FX loop and cabinet simulation. No dedicated semitone transposer, octave divider or harmony algorithm documented; chorus internal pitch architecture/polyphony unspecified.",
+          "preset": "Physical controls and dedicated tap; no programmable pitch-memory count established.",
+          "dsp": "No pitch CPU percentage, resource meter or block cost published in checked sources. Maximum delay1000ms, boost12dB and electrical112mA are not DSP resource measurements.",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-darkdiscontinued/",
+            "https://www.youtube.com/watch?v=QYQmGX8H1jc"
+          ],
+          "measurements": [],
+          "notes": [
+            "No-pitch-documented refers to dedicated transposition; no assertion that chorus lacks internal modulation.",
+            "Tuning detects pitch but does not establish correction or audio transposition. No Mini headphone specification transferred.",
+            "Current full manual retrieval timed out and older download path returns incorrect URL; retained indexed manual evidence is not promoted to a fresh full-PDF inspection. No hardware/audio or firmware execution."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=QYQmGX8H1jc",
+            "title": "Valeton official Dapper Dark Higain Effects Strip demo",
+            "access": "web indexed official video metadata/description read",
+            "evidence": "February7,2017 publication and full-size module inventory."
+          },
+          {
+            "url": "https://www.valeton.net/product/dapper-darkdiscontinued/",
+            "title": "Valeton full-size Dapper Dark official product",
+            "access": "web page read",
+            "evidence": "Boost/HiGain/Chorus/Delay/FX loop/cab sim; discontinued. No firmware version/date or dedicated pitch transposer."
+          },
+          {
+            "url": "https://www.valeton.net/firmware/",
+            "title": "Valeton official firmware index",
+            "access": "web text read; dynamic visibility limited",
+            "evidence": "No exact full-size Dark firmware package exposed."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::Dapper Dark VES-3",
       "Valeton::Dapper Indie",
       "Valeton::Dapper MDR",
       "Valeton::Dapper Mini MES-1",
@@ -202991,12 +203052,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 305,
-    "last_model": "Valeton::Dapper Dark Mini",
-    "last_commit_parent": "e07a4c6bdee49a54ec79f6ac848b50da0579e760",
+    "completed_model_count": 306,
+    "last_model": "Valeton::Dapper Dark VES-3",
+    "last_commit_parent": "2ba248ca1d9aa4ea84bd86ee745c7ace6a384db4",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::Dapper Dark VES-3",
       "Valeton::Dapper Indie",
       "Valeton::Dapper MDR",
       "Valeton::Dapper Mini MES-1",
@@ -203094,7 +203154,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 305,
+    "pitch_completed_model_count": 306,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -541,6 +541,30 @@ Analog EXP support, global volume, placement/endpoints/recall and bypass/tail/re
 
 ## Dapper Dark VES-3
 
+<!-- firmware-pitch:Valeton::Dapper Dark VES-3 begins -->
+### Firmware and pitch audit — Valeton Dapper Dark VES-3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2017-02-07 (official public demonstration; first shipment unresolved). Official Valeton full-size Dapper Dark demo published February7,2017; public product evidence, not independently verified first retail shipment. Manual160825 does not establish launch. [launch 1](https://www.youtube.com/watch?v=QYQmGX8H1jc) |
+| Firmware / latest verification | Not verified — No public firmware located. No numbered full-size Dapper Dark firmware package/date or user updater located in checked manufacturer sources. Discontinued status does not prove no updates existed. Firmware index extraction may omit dynamic entries; VES-3 is hardware identification, not firmware3. [firmware 1](https://www.valeton.net/product/dapper-darkdiscontinued/) [firmware 2](https://www.valeton.net/firmware/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Manufacturer names Boost, HiGain with EQ/noise gate, Chorus and Delay plus tuner, FX loop and cabinet simulation. No dedicated semitone transposer, octave divider or harmony algorithm documented; chorus internal pitch architecture/polyphony unspecified. [pitch 1](https://www.valeton.net/product/dapper-darkdiscontinued/) [pitch 2](https://www.youtube.com/watch?v=QYQmGX8H1jc) |
+| Pitch / preset recall | Physical controls and dedicated tap; no programmable pitch-memory count established. |
+| Pitch / DSP resources | No pitch CPU percentage, resource meter or block cost published in checked sources. Maximum delay1000ms, boost12dB and electrical112mA are not DSP resource measurements. |
+| Pitch / qualifications | No-pitch-documented refers to dedicated transposition; no assertion that chorus lacks internal modulation. Tuning detects pitch but does not establish correction or audio transposition. No Mini headphone specification transferred. Current full manual retrieval timed out and older download path returns incorrect URL; retained indexed manual evidence is not promoted to a fresh full-PDF inspection. No hardware/audio or firmware execution. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Valeton official Dapper Dark Higain Effects Strip demo](https://www.youtube.com/watch?v=QYQmGX8H1jc) — February7,2017 publication and full-size module inventory. (web indexed official video metadata/description read).
+- [Valeton full-size Dapper Dark official product](https://www.valeton.net/product/dapper-darkdiscontinued/) — Boost/HiGain/Chorus/Delay/FX loop/cab sim; discontinued. No firmware version/date or dedicated pitch transposer. (web page read).
+- [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact full-size Dark firmware package exposed. (web text read; dynamic visibility limited).
+
+<!-- firmware-pitch:Valeton::Dapper Dark VES-3 ends -->
+
 Full-size guitar multi-effects strip, separate from Dark Mini. Manufacturer marks it **discontinued**. Checked 2026-10-17; partial. VES-3 is seller code pending manual corroboration.
 
 | Field | Finding / qualification | Evidence |
