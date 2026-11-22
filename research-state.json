@@ -202070,10 +202070,82 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC-Helicon::VoiceLive 3 Extreme": {
+        "model_key": "TC-Helicon::VoiceLive 3 Extreme",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2015-04-14",
+          "precision": "day",
+          "kind": "official public introduction; first shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=6wl9B6Rg5f4"
+          ],
+          "note": "Official VL3X introduction published April 14, 2015. Announcement date, not verified first retail shipment; standard VoiceLive 3 launch is not substituted."
+        },
+        "firmware": {
+          "version": "2.3.07 build 379",
+          "date": null,
+          "precision": "unknown",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://www.tchelicon.com/en/products/0726-AAY",
+            "https://cdn-media.empowertribe.com/3bc657905f9b4d88a0baa90582242385/VoiceLive3%202.3.07%20Build379.syx",
+            "https://www.electori.co.jp/tc-helicon/resources.php"
+          ],
+          "note": "Current exact-model manufacturer download page lists Firmware v2.3.7; linked filename identifies 2.3.07 Build379. This is the currently offered global release, not an installed-unit test. Regional Electori still lists older 2.2.00 Build366; preserve the discrepancy. No manufacturer release date located, so no release-to-update duration calculated. Manual 2.1.00 Build346 and VoiceSupport2 1.1.02_build139 are older device context and separate host software respectively."
+        },
+        "pitch": {
+          "status": "documented_monophonic",
+          "algorithms": "Guitar Octaver explicitly requires monophonic single-note lines. Vocal Synth separately supports polyphonic chord carriers; this does not make the Octaver polyphonic. HardTune includes Shift/Gender and µMod provides micro-pitch effects. Vocal harmony generation is distinct from polyphonic guitar transposition.",
+          "preset": "Preset effect states, HIT and Steps are documented; global parameter sourcing is separate. No gapless pitch recall or current-build tracking test performed.",
+          "dsp": "No pitch-specific processor percentage, DSP allocation meter or measured algorithm cost located. Eleven vocal/nine guitar named blocks and harmony/carrier voice counts are not numerical DSP shares or proof of all twenty operating simultaneously.",
+          "source_urls": [
+            "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual"
+          ],
+          "measurements": [],
+          "notes": [
+            "Algorithm classification is explicit for guitar Octaver; polyphonic Synth remains a separate vocal carrier process. Firmware 379 download listing does not establish changed pitch algorithms versus the reviewed older manual.",
+            "Older indexed product copy claimed eight harmony voices, six independent loop tracks, 500 loop arrangements and an SD backup slot. Current direct page has different prose; those earlier copy claims are not adopted over the detailed manual/panel evidence. No firmware downloaded or installed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=6wl9B6Rg5f4",
+            "title": "TC Helicon official VoiceLive 3 Extreme introduction",
+            "access": "Official indexed video publication/title read",
+            "evidence": "April 14, 2015 public introduction; shipment unresolved."
+          },
+          {
+            "url": "https://www.tchelicon.com/en/products/0726-AAY",
+            "title": "TC Helicon current exact VoiceLive 3 Extreme downloads",
+            "access": "Direct manufacturer page read; direct body differs from older indexed overview",
+            "evidence": "Current Firmware v2.3.7 link and separate VoiceSupport2 host software. No release date shown."
+          },
+          {
+            "url": "https://cdn-media.empowertribe.com/3bc657905f9b4d88a0baa90582242385/VoiceLive3%202.3.07%20Build379.syx",
+            "title": "Manufacturer-linked VoiceLive3 2.3.07 Build379 SysEx",
+            "access": "Exact firmware link/filename inspected; web reader rejects octet-stream; payload not downloaded or executed",
+            "evidence": "Filename identifies version/build for the exact-model download listing, not release date."
+          },
+          {
+            "url": "https://www.electori.co.jp/tc-helicon/resources.php",
+            "title": "TC Helicon regional distributor resource centre",
+            "access": "Direct current resource table read",
+            "evidence": "VL3 Extreme still lists 2.2.00 Build366, older than the global current listing."
+          },
+          {
+            "url": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+            "title": "Manufacturer-authored VL3X reference manual, October 20, 2015",
+            "access": "Original document body read, firmware2.1.00 Build346, Octaver/Synth/HardTune sections; generated mirror summaries excluded",
+            "evidence": "Guitar Octaver monophonic; vocal Synth polyphonic carrier; no pitch DSP percentage."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC-Helicon::VoiceLive 3 Extreme",
       "TC-Helicon::VoiceLive Play",
       "TC-Helicon::VoiceLive Touch 2",
       "TC-Helicon::VoiceTone Create XT",
@@ -202184,12 +202256,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 293,
-    "last_model": "TC-Helicon::Play Acoustic",
-    "last_commit_parent": "7457e5f77cf3f5faa4988dc457587a49f41b063a",
+    "completed_model_count": 294,
+    "last_model": "TC-Helicon::VoiceLive 3 Extreme",
+    "last_commit_parent": "f58de31eef77e204cd97d868925f5d283a00d406",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC-Helicon::VoiceLive 3 Extreme",
       "TC-Helicon::VoiceLive Play",
       "TC-Helicon::VoiceLive Touch 2",
       "TC-Helicon::VoiceTone Create XT",
@@ -202299,7 +202370,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 293,
+    "pitch_completed_model_count": 294,
     "supplemental_model_count": 0
   },
   "model_images": {

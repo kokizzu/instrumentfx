@@ -1290,6 +1290,32 @@ Normal preset operation has **DOWN/UP previous/next**,withhold-to-scroll. Loop/k
 
 ## VoiceLive 3 Extreme
 
+<!-- firmware-pitch:TC-Helicon::VoiceLive 3 Extreme begins -->
+### Firmware and pitch audit — TC-Helicon VoiceLive 3 Extreme
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2015-04-14 (official public introduction; first shipment unresolved). Official VL3X introduction published April 14, 2015. Announcement date, not verified first retail shipment; standard VoiceLive 3 launch is not substituted. [launch 1](https://www.youtube.com/watch?v=6wl9B6Rg5f4) |
+| Firmware / latest verification | 2.3.07 build 379 — Latest verified. Current exact-model manufacturer download page lists Firmware v2.3.7; linked filename identifies 2.3.07 Build379. This is the currently offered global release, not an installed-unit test. Regional Electori still lists older 2.2.00 Build366; preserve the discrepancy. No manufacturer release date located, so no release-to-update duration calculated. Manual 2.1.00 Build346 and VoiceSupport2 1.1.02_build139 are older device context and separate host software respectively. [firmware 1](https://www.tchelicon.com/en/products/0726-AAY) [firmware 2](https://cdn-media.empowertribe.com/3bc657905f9b4d88a0baa90582242385/VoiceLive3%202.3.07%20Build379.syx) [firmware 3](https://www.electori.co.jp/tc-helicon/resources.php) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented monophonic. Guitar Octaver explicitly requires monophonic single-note lines. Vocal Synth separately supports polyphonic chord carriers; this does not make the Octaver polyphonic. HardTune includes Shift/Gender and µMod provides micro-pitch effects. Vocal harmony generation is distinct from polyphonic guitar transposition. [pitch 1](https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual) |
+| Pitch / preset recall | Preset effect states, HIT and Steps are documented; global parameter sourcing is separate. No gapless pitch recall or current-build tracking test performed. |
+| Pitch / DSP resources | No pitch-specific processor percentage, DSP allocation meter or measured algorithm cost located. Eleven vocal/nine guitar named blocks and harmony/carrier voice counts are not numerical DSP shares or proof of all twenty operating simultaneously. |
+| Pitch / qualifications | Algorithm classification is explicit for guitar Octaver; polyphonic Synth remains a separate vocal carrier process. Firmware 379 download listing does not establish changed pitch algorithms versus the reviewed older manual. Older indexed product copy claimed eight harmony voices, six independent loop tracks, 500 loop arrangements and an SD backup slot. Current direct page has different prose; those earlier copy claims are not adopted over the detailed manual/panel evidence. No firmware downloaded or installed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Helicon official VoiceLive 3 Extreme introduction](https://www.youtube.com/watch?v=6wl9B6Rg5f4) — April 14, 2015 public introduction; shipment unresolved. (Official indexed video publication/title read).
+- [TC Helicon current exact VoiceLive 3 Extreme downloads](https://www.tchelicon.com/en/products/0726-AAY) — Current Firmware v2.3.7 link and separate VoiceSupport2 host software. No release date shown. (Direct manufacturer page read; direct body differs from older indexed overview).
+- [Manufacturer-linked VoiceLive3 2.3.07 Build379 SysEx](https://cdn-media.empowertribe.com/3bc657905f9b4d88a0baa90582242385/VoiceLive3%202.3.07%20Build379.syx) — Filename identifies version/build for the exact-model download listing, not release date. (Exact firmware link/filename inspected; web reader rejects octet-stream; payload not downloaded or executed).
+- [TC Helicon regional distributor resource centre](https://www.electori.co.jp/tc-helicon/resources.php) — VL3 Extreme still lists 2.2.00 Build366, older than the global current listing. (Direct current resource table read).
+- [Manufacturer-authored VL3X reference manual, October 20, 2015](https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual) — Guitar Octaver monophonic; vocal Synth polyphonic carrier; no pitch DSP percentage. (Original document body read, firmware2.1.00 Build346, Octaver/Synth/HardTune sections; generated mirror summaries excluded).
+
+<!-- firmware-pitch:TC-Helicon::VoiceLive 3 Extreme ends -->
+
 Guitar/vocal multi-effects; distinct from standard VoiceLive3. Checked2026-10-17, partial. Manufacturer PDF endpoints failed. Manufacturer-authored mirror identifies VL3X, firmware2.1.00 build346, reference manual2015-10-20; model/title/section identity checked against official indexed Extreme manual. Current firmware/revision equivalence unverified; generated mirror FAQs excluded.
 
 <!-- comparison evidence begins -->
