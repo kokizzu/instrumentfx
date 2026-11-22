@@ -202294,10 +202294,70 @@
           "label": "1.99 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC-Helicon::VoiceTone Create XT": {
+        "model_key": "TC-Helicon::VoiceTone Create XT",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2010-01-12",
+          "precision": "day",
+          "kind": "official public introduction; first shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=CnoCR8aVUFE"
+          ],
+          "note": "Official TC Helicon xtending your style video published January 12, 2010. Public introduction, not verified first retail shipment; distinct from original Create."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://manualzz.com/doc/13841739/tc-helicon-voicetone-create.xt-product-manual",
+            "https://cdn.mediavalet.com/aunsw/musictribe/wY3JMrohCUqPcboc-3YGlA/lQH0L6ee_kqAufSJhiXvgw/Original/User-Manual_VoiceSupport-1_2020-10-16_Rev.pdf"
+          ],
+          "note": "No numbered Create XT device release/date located in checked sources. Manual documents VoiceSupport update/SysEx and preset backup paths, not proof that no updates existed. VoiceSupport1.1.00 is a host version; its screenshot of VoiceLive2 firmware does not become Create XT firmware merely because Create XT appears in the device selector. Manual revisions1.0/1.1 and 2020 filename timestamps are not device firmware releases."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "HardTune vocal tuning is part of the FX block; µMod includes detune/chorus/flange. HardTune key and major/minor selection are documented. No input-note polyphony guarantee, measured chordal transposition or general semitone-shift range established.",
+          "preset": "Ten writable presets each with A/B settings; factory style library separate. A/B selection and stored changes do not establish gapless pitch recall. Keep older preset-cycle conflict qualified rather than inferring added memory.",
+          "dsp": "No pitch-specific DSP percentage, resource meter or measured algorithm cost located. Four effect blocks plus Tone do not imply 25% pitch cost; linked Tweak controls do not quantify processor allocation.",
+          "source_urls": [
+            "https://manualzz.com/doc/13841739/tc-helicon-voicetone-create.xt-product-manual",
+            "https://www.youtube.com/watch?v=CnoCR8aVUFE"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer-authored mirror identifies manual revision1.1 while the previously retained source identifies1.0; these are document revisions, not a verified firmware transition. Generated mirror summaries excluded.",
+            "Mic-input vocal unit; no sibling guitar/pitch capabilities transferred. No software, SysEx or device firmware executed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=CnoCR8aVUFE",
+            "title": "TC Helicon VoiceTone Create XT official introduction",
+            "access": "Official indexed channel/title/January12,2010 publication read",
+            "evidence": "Public introduction and added HardTune; first shipment unresolved."
+          },
+          {
+            "url": "https://manualzz.com/doc/13841739/tc-helicon-voicetone-create.xt-product-manual",
+            "title": "Manufacturer-authored VoiceTone Create XT revision1.1 product manual",
+            "access": "Original document body read, HardTune and VoiceSupport sections; generated summary excluded",
+            "evidence": "FX/HardTune, key/major-minor selection and updater/backup paths; no numbered latest firmware or DSP percentage."
+          },
+          {
+            "url": "https://cdn.mediavalet.com/aunsw/musictribe/wY3JMrohCUqPcboc-3YGlA/lQH0L6ee_kqAufSJhiXvgw/Original/User-Manual_VoiceSupport-1_2020-10-16_Rev.pdf",
+            "title": "TC Helicon VoiceSupport1.1.00 historical reference",
+            "access": "Official indexed screenshot description read; no updater installed",
+            "evidence": "Create XT preset-management/update context; screenshot VoiceLive2 releases are not Create XT releases."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC-Helicon::VoiceTone Create XT",
       "Tech 21::Acoustic Fly Rig",
       "Tech 21::Bass Fly Rig v2",
       "Tech 21::Fly Rig 5 v2",
@@ -202405,12 +202465,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 296,
-    "last_model": "TC-Helicon::VoiceLive Touch 2",
-    "last_commit_parent": "1ef7d1dd7c5aff505026e06d350892c647c562e8",
+    "completed_model_count": 297,
+    "last_model": "TC-Helicon::VoiceTone Create XT",
+    "last_commit_parent": "6a625606734405be0135d4972005361be89bd629",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC-Helicon::VoiceTone Create XT",
       "Tech 21::Acoustic Fly Rig",
       "Tech 21::Bass Fly Rig v2",
       "Tech 21::Fly Rig 5 v2",
@@ -202517,7 +202576,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 296,
+    "pitch_completed_model_count": 297,
     "supplemental_model_count": 0
   },
   "model_images": {

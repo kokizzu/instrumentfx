@@ -1903,6 +1903,30 @@ Global guitar EQ/compression/modulation/reverb remains documented,not pedal-targ
 
 ## VoiceTone Create XT
 
+<!-- firmware-pitch:TC-Helicon::VoiceTone Create XT begins -->
+### Firmware and pitch audit — TC-Helicon VoiceTone Create XT
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2010-01-12 (official public introduction; first shipment unresolved). Official TC Helicon xtending your style video published January 12, 2010. Public introduction, not verified first retail shipment; distinct from original Create. [launch 1](https://www.youtube.com/watch?v=CnoCR8aVUFE) |
+| Firmware / latest verification | Not verified — No public firmware located. No numbered Create XT device release/date located in checked sources. Manual documents VoiceSupport update/SysEx and preset backup paths, not proof that no updates existed. VoiceSupport1.1.00 is a host version; its screenshot of VoiceLive2 firmware does not become Create XT firmware merely because Create XT appears in the device selector. Manual revisions1.0/1.1 and 2020 filename timestamps are not device firmware releases. [firmware 1](https://manualzz.com/doc/13841739/tc-helicon-voicetone-create.xt-product-manual) [firmware 2](https://cdn.mediavalet.com/aunsw/musictribe/wY3JMrohCUqPcboc-3YGlA/lQH0L6ee_kqAufSJhiXvgw/Original/User-Manual_VoiceSupport-1_2020-10-16_Rev.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. HardTune vocal tuning is part of the FX block; µMod includes detune/chorus/flange. HardTune key and major/minor selection are documented. No input-note polyphony guarantee, measured chordal transposition or general semitone-shift range established. [pitch 1](https://manualzz.com/doc/13841739/tc-helicon-voicetone-create.xt-product-manual) [pitch 2](https://www.youtube.com/watch?v=CnoCR8aVUFE) |
+| Pitch / preset recall | Ten writable presets each with A/B settings; factory style library separate. A/B selection and stored changes do not establish gapless pitch recall. Keep older preset-cycle conflict qualified rather than inferring added memory. |
+| Pitch / DSP resources | No pitch-specific DSP percentage, resource meter or measured algorithm cost located. Four effect blocks plus Tone do not imply 25% pitch cost; linked Tweak controls do not quantify processor allocation. |
+| Pitch / qualifications | Manufacturer-authored mirror identifies manual revision1.1 while the previously retained source identifies1.0; these are document revisions, not a verified firmware transition. Generated mirror summaries excluded. Mic-input vocal unit; no sibling guitar/pitch capabilities transferred. No software, SysEx or device firmware executed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Helicon VoiceTone Create XT official introduction](https://www.youtube.com/watch?v=CnoCR8aVUFE) — Public introduction and added HardTune; first shipment unresolved. (Official indexed channel/title/January12,2010 publication read).
+- [Manufacturer-authored VoiceTone Create XT revision1.1 product manual](https://manualzz.com/doc/13841739/tc-helicon-voicetone-create.xt-product-manual) — FX/HardTune, key/major-minor selection and updater/backup paths; no numbered latest firmware or DSP percentage. (Original document body read, HardTune and VoiceSupport sections; generated summary excluded).
+- [TC Helicon VoiceSupport1.1.00 historical reference](https://cdn.mediavalet.com/aunsw/musictribe/wY3JMrohCUqPcboc-3YGlA/lQH0L6ee_kqAufSJhiXvgw/Original/User-Manual_VoiceSupport-1_2020-10-16_Rev.pdf) — Create XT preset-management/update context; screenshot VoiceLive2 releases are not Create XT releases. (Official indexed screenshot description read; no updater installed).
+
+<!-- firmware-pitch:TC-Helicon::VoiceTone Create XT ends -->
+
 Vocal multi-effects; partial, checked2026-10-18. Distinct from original Create. [Manufacturer-authored English manual on Music Tribe CDN](https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf),pp10–13,16–19,25–29. Older mediadl endpoint returned502.
 
 <!-- comparison evidence begins -->
