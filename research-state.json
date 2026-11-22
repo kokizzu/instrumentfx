@@ -179608,7 +179608,7 @@
       },
       "Hotone::Ampero II Stomp MP-300": {
         "model_key": "Hotone::Ampero II Stomp MP-300",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-23",
         "first_release": {
           "date": "2021-11-11",
           "precision": "day",
@@ -179633,13 +179633,14 @@
           "status": "documented_polyphonic",
           "algorithms": "V2.5.0 list: Pitch Shift HQ and Pitch Shift polyphonic, +/-24 semitones; String Shifter polyphonic virtual capo, +/-12; Dual/Quad Pitch polyphonic; Classic PS monophonic. HQ introduced in2.4.0. HQ is mono I/O: mono signal format does not mean monophonic note tracking.",
           "preset": "Yes. Save Patch stores effect parameters, control assignments and scene settings (V2.5.0 manual, printed p56). Pitch parameters belong to the selected effect in that saved chain.",
-          "dsp": "Firsthand displayed-meter observation on firmware 2.5.0/editor 1.5.1: Pitch Shift HQ alone 50%; with SoundClone 54%; with SoundClone and Tube Spring 74%; with native NAM A2 Lite 78%, and Tube Spring could not then be added. Same tester reports HQ 22% on firmware 2.4.0. These readings are non-additive and firmware/chain-dependent; no manufacturer fixed pitch-block percentage or universal four-effect ceiling was found.",
+          "dsp": "Firsthand displayed-meter observation on firmware 2.5.0/editor 1.5.1: Pitch Shift HQ alone 50%; with SoundClone 54%; with SoundClone and Tube Spring 74%; with native NAM A2 Lite 78%, and Tube Spring could not then be added. Same tester reports HQ 22% on firmware 2.4.0. These readings are non-additive and firmware/chain-dependent; no manufacturer fixed pitch-block percentage or universal four-effect ceiling was found. Manufacturer firmware 2.3.1 notes (March 17, 2025) document introduction of the on-device DSP utilization display at Stomp Mode > FX Chain View. This identifies the supported meter location and introduction version, but does not independently validate the owner readings or establish a fixed algorithm cost.",
           "source_urls": [
             "https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81",
             "https://payhip.com/MisakiChaTones/blog/news/ampero-2-stomp-dsp",
             "https://www.hotone.com/products/multi-effects/new/ampero-ii-stomp",
             "https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Effect%20List_EN_Firmware%20V2.5.0.1785406068293.pdf",
-            "https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Online%20Manual_EN_Firmware%20V2.5.0.1785405982280.pdf"
+            "https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Online%20Manual_EN_Firmware%20V2.5.0.1785405982280.pdf",
+            "https://www.hotone.com/news/Sound-Clone%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81Ampero%20%E4%BA%8C%E4%BB%A3%E6%8A%A2%E5%85%88%E4%BD%93%E9%AA%8C"
           ],
           "notes": [
             "Polyphonic processing establishes chord-capable design, not measured sound quality or latency at -6/+6 semitones.",
@@ -179709,6 +179710,12 @@
             "title": "Official MP-300 V2.5.0 manual",
             "access": "manufacturer_text_mirror_and_official_url_identified",
             "evidence": "Save Patch printed p56 retains effects/control/scene data; printed pp43-44 explain DSP overload and unavailable effect selections."
+          },
+          {
+            "url": "https://www.hotone.com/news/Sound-Clone%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81Ampero%20%E4%BA%8C%E4%BB%A3%E6%8A%A2%E5%85%88%E4%BD%93%E9%AA%8C",
+            "title": "Hotone Ampero II Stomp 2.3.1 release notes",
+            "access": "indexed_manufacturer_release_notes",
+            "evidence": "Exact Stomp section dates firmware 2.3.1 March 17, 2025 and adds DSP utilization display at Stomp Mode > FX Chain View. Separate Stage and MP-350 sections have different firmware numbers. No per-algorithm DSP percentage."
           }
         ],
         "notes": [
@@ -179719,7 +179726,124 @@
           "maximum_days": 1722,
           "label": "4.71 years"
         },
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Hotone::Ampero II Stomp MP-300",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": "2021-11-11",
+              "precision": "day",
+              "kind": "distributor_announcement_proxy",
+              "source_urls": [
+                "https://www.rock-distribution.com/news/hotone-ampero-ii-stomp"
+              ],
+              "note": "Dated Rock Distribution product announcement; exact first global customer shipment remains unverified. This date is an explicit announcement proxy, not a claimed universal retail launch."
+            },
+            "firmware": {
+              "version": "2.5.0",
+              "date": "2026-07-30",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://www.hotone.com/support/2",
+                "https://www.hotone.com/news/NAM%20A2%20Now%20Supported%20Across%20the%20Entire%20Ampero%20II%20Series!"
+              ],
+              "note": "Current manufacturer index lists device firmware 2.5.0; dated notes add native NAM A2 Lite. Editor 1.5.1 and USB Audio Firmware 2.01 are separate products/versions."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "V2.5.0 list: Pitch Shift HQ and Pitch Shift polyphonic, +/-24 semitones; String Shifter polyphonic virtual capo, +/-12; Dual/Quad Pitch polyphonic; Classic PS monophonic. HQ introduced in2.4.0. HQ is mono I/O: mono signal format does not mean monophonic note tracking.",
+              "preset": "Yes. Save Patch stores effect parameters, control assignments and scene settings (V2.5.0 manual, printed p56). Pitch parameters belong to the selected effect in that saved chain.",
+              "dsp": "Firsthand displayed-meter observation on firmware 2.5.0/editor 1.5.1: Pitch Shift HQ alone 50%; with SoundClone 54%; with SoundClone and Tube Spring 74%; with native NAM A2 Lite 78%, and Tube Spring could not then be added. Same tester reports HQ 22% on firmware 2.4.0. These readings are non-additive and firmware/chain-dependent; no manufacturer fixed pitch-block percentage or universal four-effect ceiling was found.",
+              "source_urls": [
+                "https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81",
+                "https://payhip.com/MisakiChaTones/blog/news/ampero-2-stomp-dsp",
+                "https://www.hotone.com/products/multi-effects/new/ampero-ii-stomp",
+                "https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Effect%20List_EN_Firmware%20V2.5.0.1785406068293.pdf",
+                "https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Online%20Manual_EN_Firmware%20V2.5.0.1785405982280.pdf"
+              ],
+              "notes": [
+                "Polyphonic processing establishes chord-capable design, not measured sound quality or latency at -6/+6 semitones.",
+                "DSP percentages are displayed meter readings from an independent owner test, not our measurements or a cross-device capacity benchmark."
+              ],
+              "measurements": [
+                {
+                  "algorithm": "Pitch Shift HQ",
+                  "firmware": "2.5.0",
+                  "software": "1.5.1",
+                  "value": 50,
+                  "unit": "percent",
+                  "denominator": "displayed_DSP_meter",
+                  "basis": "owner_measurement",
+                  "configuration": "Blank patch containing Pitch Shift HQ alone; exact audio mode/settings not fully specified",
+                  "source_urls": [
+                    "https://payhip.com/MisakiChaTones/blog/news/ampero-2-stomp-dsp"
+                  ]
+                }
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.hotone.com/support/2",
+                "title": "Hotone firmware download index",
+                "access": "opened",
+                "evidence": "Exact MP-300 device firmware currently listed as 2.5.0; editor and USB audio firmware are separately labelled."
+              },
+              {
+                "url": "https://www.hotone.com/news/NAM%20A2%20Now%20Supported%20Across%20the%20Entire%20Ampero%20II%20Series!",
+                "title": "Hotone NAM A2 firmware release notes",
+                "access": "opened",
+                "evidence": "MP-300 version 2.5.0 dated July 30, 2026 adds native NAM A2 Lite; heavy processing warning."
+              },
+              {
+                "url": "https://www.rock-distribution.com/news/hotone-ampero-ii-stomp",
+                "title": "Rock Distribution Ampero II Stomp announcement",
+                "access": "opened",
+                "evidence": "Product announcement dated November 11, 2021; launch proxy only, no global first-shipment confirmation."
+              },
+              {
+                "url": "https://www.hotone.com/news/Ampero-II-%26Ampero-II-Stage-%26Ampero-II-Stomp%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81",
+                "title": "Hotone Ampero II family firmware announcement",
+                "access": "opened",
+                "evidence": "MP-300 2.4.0 section dated June 1, 2026 explicitly adds polyphonic Pitch Shift HQ."
+              },
+              {
+                "url": "https://payhip.com/MisakiChaTones/blog/news/ampero-2-stomp-dsp",
+                "title": "MisakiChaTones firsthand Ampero II Stomp DSP observations",
+                "access": "opened",
+                "evidence": "Owner compares displayed DSP readings on 2.5.0/editor1.5.1 and earlier2.4.0; pitch50%, combined54/74/78%, non-additive behavior."
+              },
+              {
+                "url": "https://www.hotone.com/products/multi-effects/new/ampero-ii-stomp",
+                "title": "Hotone MP-300 official product page",
+                "access": "opened",
+                "evidence": "Up to12 simultaneous effect slots and editable serial/parallel chains, subject to DSP."
+              },
+              {
+                "url": "https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Effect%20List_EN_Firmware%20V2.5.0.1785406068293.pdf",
+                "title": "Official MP-300 V2.5.0 effect list",
+                "access": "downloaded_official_pdf",
+                "evidence": "Printed p11 and adjacent FREQ pages identify pitch polyphony, +/-24 HQ range, +/-12 String Shifter range and monophonic Classic PS."
+              },
+              {
+                "url": "https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Online%20Manual_EN_Firmware%20V2.5.0.1785405982280.pdf",
+                "title": "Official MP-300 V2.5.0 manual",
+                "access": "manufacturer_text_mirror_and_official_url_identified",
+                "evidence": "Save Patch printed p56 retains effects/control/scene data; printed pp43-44 explain DSP overload and unavailable effect selections."
+              }
+            ],
+            "notes": [
+              "Firmware update span is measured from a dated distributor announcement proxy; it does not establish uninterrupted support or a global shipment date."
+            ],
+            "duration": {
+              "minimum_days": 1722,
+              "maximum_days": 1722,
+              "label": "4.71 years"
+            },
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Hotone::Ampero II MP-350": {
         "model_key": "Hotone::Ampero II MP-350",
@@ -217262,8 +217386,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Hotone::Ampero II MP-350",
-    "last_commit_parent": "55b395ac814c1ce9d8f04e6859e3f107bb2ea408",
+    "last_model": "Hotone::Ampero II Stomp MP-300",
+    "last_commit_parent": "43e36410deba5fc6463de1a2eff8007f867a434c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
