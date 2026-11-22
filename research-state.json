@@ -219986,11 +219986,36 @@
             ]
           }
         }
+      },
+      "Hotone::Ampero II Stage MP-380": {
+        "model_key": "Hotone::Ampero II Stage MP-380",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://vietmusic.vn/cdn/shop/files/pedal-guitar-hotone-ampero-ii-stage-mp-380-viet-music.jpg?v=1705663638&width=1946",
+            "source_url": "https://vietmusic.vn/products/pedal-guitar-hotone-ampero-ii-stage-mp-380",
+            "caption": "Hotone Ampero II Stage MP-380 — control surface",
+            "note": "Top-down promotional photograph with powered touchscreen, illuminated orange status bar and footswitch rings; all five knobs, screen-lock button and eight footswitches visible.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "9335d0cfae1e83f8d8acb758d314016c684b5f1ef1275ab7e857376c42385ef0"
+          },
+          "rear": {
+            "image_url": "https://hotmusic.jp/cdn/shop/files/AmperoIIStage_Top_Hi_V01_230919.jpg?v=1743393487&width=1096",
+            "source_url": "https://hotmusic.jp/products/hotone-ampero-ii-stage",
+            "caption": "Hotone Ampero II Stage MP-380 — rear connections",
+            "note": "Full rear panel showing two EXP/CTRL sockets, stereo instrument inputs including the combo socket, stereo FX loop, unbalanced and XLR balanced outputs, ground lift, AUX IN, PHONES, MIDI IN/OUT-THRU, USB-C, power switch and DC input. White margins and small light-gray labels limit fine-print readability; open full image for detail.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "a9c862fa968aff9834905b1045a8020da4cf2486161d184cc1652d865e1567c6"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Hotone::Ampero II Stomp MP-300"
+    "last_model": "Hotone::Ampero II Stage MP-380"
   }
 }
