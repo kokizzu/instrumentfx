@@ -8074,6 +8074,31 @@ Exact Indonesian hardware condition, stock and bundle remain unresolved. This pa
 
 ## GFX-3
 
+<!-- firmware-pitch:Zoom::GFX-3 begins -->
+### Firmware and pitch audit — Zoom GFX-3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005 (manufacturer product-history year). Zoom chronology lists GFX-3 in 2005. Manual publication/index timestamps are not exact hardware retail dates. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Reviewed official regional support pages list the operation manual only; no public system updater or firmware history located. Installed firmware version and release-to-update duration remain unknown. [firmware 1](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/gfx-3/gfx-3-support/) [firmware 2](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-3/gfx-3-support/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD type 7 PITCH provides −12…−1, detune, +1…+12,+24 shifts, plus delay, tone and mix. Chord/polyphonic tracking is not specified; do not infer it from generic pitch-shifter wording. [pitch 1](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX3.pdf) |
+| Pitch / preset recall | 60 editable user plus 60 preset patches. STORE retains edits and per-patch pedal target. Built-in pedal controls a selected module and full-down movement toggles it. |
+| Pitch / DSP resources | Fixed module architecture; PITCH occupies the MOD choice, so it replaces another MOD effect. No exact pitch DSP percentage or CPU meter found in the reviewed manual. Module occupancy is not a CPU percentage. |
+| Pitch / qualifications | Documentation only; no hardware tracking/CPU test or firmware installation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — GFX-3 under 2005. (official chronology inspected).
+- [GFX-3 UK support](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/gfx-3/gfx-3-support/) — Manual listed; no firmware package. (official indexed support inspected).
+- [GFX-3 Japan support](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-3/gfx-3-support/) — Manual listed; no firmware package. (official indexed support inspected).
+- [GFX-3 operation manual](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX3.pdf) — 120 patches, STORE and pedal target recall; MOD PITCH parameters with no chord claim. (official PDF inspected, pp3,12–15,20).
+
+<!-- firmware-pitch:Zoom::GFX-3 ends -->
+
 Guitar multi-effects;distinct from GFX-5/G3. Checked2026-10-17;partial. Manufacturer discontinued. Bass/vocal suitability and ownership unverified.
 
 | Field | Finding / qualification | Evidence |

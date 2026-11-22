@@ -208695,10 +208695,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::GFX-3": {
+        "model_key": "Zoom::GFX-3",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2005",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Zoom chronology lists GFX-3 in 2005. Manual publication/index timestamps are not exact hardware retail dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/gb/multi-effects/guitar-effects/gfx-3/gfx-3-support/",
+            "https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-3/gfx-3-support/"
+          ],
+          "note": "Reviewed official regional support pages list the operation manual only; no public system updater or firmware history located. Installed firmware version and release-to-update duration remain unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD type 7 PITCH provides −12…−1, detune, +1…+12,+24 shifts, plus delay, tone and mix. Chord/polyphonic tracking is not specified; do not infer it from generic pitch-shifter wording.",
+          "preset": "60 editable user plus 60 preset patches. STORE retains edits and per-patch pedal target. Built-in pedal controls a selected module and full-down movement toggles it.",
+          "dsp": "Fixed module architecture; PITCH occupies the MOD choice, so it replaces another MOD effect. No exact pitch DSP percentage or CPU meter found in the reviewed manual. Module occupancy is not a CPU percentage.",
+          "source_urls": [
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX3.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no hardware tracking/CPU test or firmware installation."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "GFX-3 under 2005."
+          },
+          {
+            "url": "https://zoomcorp.com/en/gb/multi-effects/guitar-effects/gfx-3/gfx-3-support/",
+            "title": "GFX-3 UK support",
+            "access": "official indexed support inspected",
+            "evidence": "Manual listed; no firmware package."
+          },
+          {
+            "url": "https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-3/gfx-3-support/",
+            "title": "GFX-3 Japan support",
+            "access": "official indexed support inspected",
+            "evidence": "Manual listed; no firmware package."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX3.pdf",
+            "title": "GFX-3 operation manual",
+            "access": "official PDF inspected, pp3,12–15,20",
+            "evidence": "120 patches, STORE and pedal target recall; MOD PITCH parameters with no chord claim."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::GFX-3",
       "Zoom::GFX-4",
       "Zoom::GFX-5",
       "Zoom::GFX-707",
@@ -208719,12 +208783,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 383,
-    "last_model": "Zoom::G7.1ut",
-    "last_commit_parent": "44b1df2102da7e9e7d902ae94effbe21c4d84eaf",
+    "completed_model_count": 384,
+    "last_model": "Zoom::GFX-3",
+    "last_commit_parent": "100479ce6c9f32ab67b184595790a1902fd976be",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::GFX-3",
       "Zoom::GFX-4",
       "Zoom::GFX-5",
       "Zoom::GFX-707",
@@ -208744,7 +208807,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 383,
+    "pitch_completed_model_count": 384,
     "supplemental_model_count": 0
   },
   "model_images": {
