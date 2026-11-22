@@ -510,11 +510,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**MX400 front control face and rear photograph — displays dark**
+**MX400 complete physical front-panel photograph — unlit**
 
-[![MX400 front control face and rear photograph — displays dark](https://medias.audiofanzine.com/images/normal/lexicon-mx400-372599.jpg)](https://medias.audiofanzine.com/images/normal/lexicon-mx400-372599.jpg)
+[![MX400 complete physical front-panel photograph — unlit](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/41838/178943/YOTHER12015501__80124.1666612252.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/41838/178943/YOTHER12015501__80124.1666612252.jpg?c=1)
 
-[Image source](https://en.audiofanzine.com/multi-effects-processor/lexicon/MX400/). Visually inspected real-unit composite: seven rotary controls, six function buttons and separate power rocker; LCD and program display are dark. Elevated front perspective, not literal top-down. Lower photograph shows the TRS-port rear of a 230–240V unit. Powered-on operating photograph and literal overhead view remain pending; colored LED lenses do not prove operation.
+[Image source](https://richtonemusic.co.uk/lexicon-mx400-2nd-hand/). Complete physical MX400, including both rack ears, seven rotary controls, six function buttons and power rocker. LCD and numeric program display are dark; elevated front perspective, not literal top-down. Replaces a combined front/rear image with a single unobstructed front view; powered-on and literal overhead photographs remain pending. [Previous front/rear composite](https://medias.audiofanzine.com/images/normal/lexicon-mx400-372599.jpg).
 
 **MX400 straight rear-port photograph — quarter-inch analog variant**
 

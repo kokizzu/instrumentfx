@@ -221433,17 +221433,17 @@
       },
       "Lexicon::MX400": {
         "model_key": "Lexicon::MX400",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/lexicon-mx400-372599.jpg",
-            "source_url": "https://en.audiofanzine.com/multi-effects-processor/lexicon/MX400/",
-            "caption": "MX400 front control face and rear photograph — displays dark",
-            "note": "Visually inspected real-unit composite: seven rotary controls, six function buttons and separate power rocker; LCD and program display are dark. Elevated front perspective, not literal top-down. Lower photograph shows the TRS-port rear of a 230–240V unit. Powered-on operating photograph and literal overhead view remain pending; colored LED lenses do not prove operation.",
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/41838/178943/YOTHER12015501__80124.1666612252.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/lexicon-mx400-2nd-hand/",
+            "caption": "MX400 complete physical front-panel photograph — unlit",
+            "note": "Complete physical MX400, including both rack ears, seven rotary controls, six function buttons and power rocker. LCD and numeric program display are dark; elevated front perspective, not literal top-down. Replaces a combined front/rear image with a single unobstructed front view; powered-on and literal overhead photographs remain pending. [Previous front/rear composite](https://medias.audiofanzine.com/images/normal/lexicon-mx400-372599.jpg).",
             "visual_checked": true,
-            "sha256": "31bfdde75b043dbfaf532260f98539940d59514c72c37b101cae4f0f778d6b72",
             "powered_on": false,
-            "exact_top_down": false
+            "exact_top_down": false,
+            "sha256": "077926efdfbc612f90703a1bd83b3382e3b815ba8082246c715f36199e3345ca"
           },
           "rear": {
             "image_url": "https://r2.gear4music.com/media/51/519054/1200/preview.jpg",
@@ -221474,6 +221474,15 @@
             "sha256": "ad87bf82bd99611b3599c9ea681d1a78a48dbcb9cc9231850a1cbdceb79b4144",
             "visual_checked": true,
             "note": "Rejected: image shows a different silver/black processor with orange 96kHz I/O display; not the MX400 front panel."
+          },
+          {
+            "image_url": "https://medias.audiofanzine.com/images/normal/lexicon-mx400-6529594.jpg",
+            "source_url": "https://en.audiofanzine.com/multi-effects-processor/lexicon/MX400/",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "804a7441037ad14c518023b665ebcbd0ee8f89780e9643b16685e11e3a7eb4ce",
+            "note": "Physical unit above is unlit; illuminated LCD and88numeric display beneath belong to printed packaging, not a second operating unit. Excluded as powered-on evidence."
           }
         ]
       },
@@ -227338,6 +227347,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Lexicon::MX200"
+    "last_model": "Lexicon::MX400"
   }
 }
