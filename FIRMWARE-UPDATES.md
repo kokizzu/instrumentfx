@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 380/402 active models have firmware audits; 380/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 381/402 active models have firmware audits; 381/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -82,6 +82,7 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [Zoom G3](brand/ZOOM.md#g3) | 2011 (manufacturer product-history year) | 2.10 — Latest verified | 2013-05 | 1.33–2.41 years | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/g3-support/) [firmware 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E.pdf) |
 | [Zoom B3n](brand/ZOOM.md#b3n) | 2017 (manufacturer product-history year) | 2.20 — Latest verified | 2019-05 | 1.33–2.41 years | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/b3n-support/) [firmware 2](https://zoomcorp.com/documents/3474/B3n_System_Firmware_Version_History_ver220_jp.pdf) |
 | [Line 6 M9](brand/LINE6.md#m9) | 2009-10-02 (manufacturer public introduction) | 2.04.00 — Latest verified | 2011-01-26 | 1.32 years | [launch 1](https://www.youtube.com/watch?v=tpOwSGAZawA) [firmware 1](https://line6.com/software/index.html?hardware=M9&name=Flash+Memory&submit_form=set) |
+| [Zoom G5n](brand/ZOOM.md#g5n) | 2016 (manufacturer product-history year) | 3.00 — Latest verified | 2018-04 | 1.25–2.33 years | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/zoom-g5n/g5n-support/) [firmware 2](https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf) |
 | [NUX TRIDENT NME-5](brand/NUX.md#trident-nme-5) | 2023-04 (NAMM public introduction month proxy) | 2.0.1 — Latest verified | 2024-07-05 | 1.18–1.26 years | [launch 1](https://www.guitarworld.com/news/nux-trident-multi-effects-pedal) [firmware 1](https://nuxaudio.com/product/trident/) [firmware 2](https://cn.nuxaudio.com/product/trident/) [firmware 3](https://www.ariaguitars.com/jp/nux-trident-fw.html) |
 | [BOSS ME-90B](brand/BOSS.md#me-90b) | 2024-04-18 (manufacturer announcement and availability) | 1.04 — Latest verified | 2025-05 | 1.03–1.12 years | [launch 1](https://www.roland.com/us/company/press_releases/2024/BOSS-Announces-ME-90B-Bass-Multiple-Effects/) [firmware 1](https://www.boss.info/global/support/by_product/me-90b/updates_drivers/14808c74-0eb6-4444-a829-c49b73e75e1c/) |
 | [M-VAVE TANK-PRO](brand/M-VAVE.md#tank-pro) | 2025-10 (manufacturer trade-show debut proxy; first retail sale unknown) | V40 — Latest verified | 2026-11-09 | 1.02–1.11 years | [launch 1](https://www.m-vave.com/news) [launch 2](https://www.m-vave.com/news-article?id=sh-2025) [firmware 1](https://www.m-vave.com/download) [firmware 2](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK%20PRO.txt) |
@@ -407,4 +408,4 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 
 ## Remaining firmware checks
 
-Zoom G5n; Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
+Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.

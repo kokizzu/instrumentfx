@@ -6582,6 +6582,33 @@ Calibration follow-up **2026-11-06**: original printed38 was rendered and visual
 
 ## G5n
 
+<!-- firmware-pitch:Zoom::G5n begins -->
+### Firmware and pitch audit — Zoom G5n
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2016 (manufacturer product-history year). Zoom chronology places G5n in 2016. December 2015 production firmware is not an exact retail launch date. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 3.00 — Latest verified. Current exact G5n Windows/Mac 3.0 matches April 2018 history: Guitar Lab 3 support, tuner/encoder improvements, OutputVP and previously downloadable effects. 2.00 February 2017 optimized amp DSP to reduce overflow, added two-unit looper and fixed looper/rhythm issues. 1.00 December 2015 is production firmware. Guitar Lab updates are separate. [firmware 1](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/zoom-g5n/g5n-support/) [firmware 2](https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf) |
+| Firmware / release date | 2018-04 (month precision) |
+| Firmware / release-to-update duration | 1.25–2.33 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT: −12…+12,+24 semitones, ±25-cent fine tuning and wet/dry balance. MonoPitch and PDL MnPit explicitly target single notes; HPS is key/scale-based. PDL Pitch offers nine pedal mappings. Generic PitchSHFT/PDL Pitch chord support is unverified in the official list. [pitch 1](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) [pitch 2](https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf) [pitch 3](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf) [pitch 4](https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf) |
+| Pitch / preset recall | 200 patches retain parameters and states. Built-in expression pedal and toe switch; pedal-category effects support control. EXT PDL enables a second pedal effect assigned to external FP01/FP02 via CONTROL IN. OutputVP (3.00+) carries volume across patch changes. Toe-switch toggling does not change the saved ON/OFF state; the effect footswitch does. |
+| Pitch / DSP resources | Official chart for G5n ver.3.0: total capacity 100; PitchSHFT, MonoPitch, HPS, PDL Pitch and PDL MnPit each 7/100 (7%); Detune 6/100. Up to nine effects subject to processing/unit limits; PROCESS OVERFLOW bypasses effects. Firmware 2.00 optimized amp DSP. Published budget figures are not hardware CPU measurements. |
+| Pitch / qualifications | Documentation only; no firmware installation, unofficial cross-model effect imports or hardware tracking test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate history](https://ir.zoom.co.jp/en/corporate/history/) — G5n under 2016. (official chronology inspected).
+- [G5n support](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/zoom-g5n/g5n-support/) — G5n 3.0 Windows/Mac, separate Guitar Lab and ASIO. (official indexed exact-model support inspected).
+- [G5n firmware history](https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf) — 3.00 April 2018; 2.00 February 2017 DSP optimization; production 1.00 December 2015. (official PDF inspected).
+- [G5n v2 operation manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) — 200 patches; nine-effect overflow limits; built-in pedal and external second pedal-effect assignment. (official PDF inspected).
+- [G5n/G3n/G3Xn effect parameters](https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf) — PitchSHFT, mono variants, HPS and pedal pitch mappings; no generic chord-support claim. (official support-linked PDF inspected).
+- [Effect Processing Power Chart v2](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf) — G3n/G3Xn capacity 100; PitchSHFT/MonoPitch/HPS/PDL Pitch/PDL MnPit each 7, Detune 6. (official support-linked six-page PDF inspected).
+
+<!-- firmware-pitch:Zoom::G5n ends -->
+
 Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalogue record, no ownership assertion. Discontinued according to Zoom; reseller offers can remain historical. Partial: no software, firmware, manual file or dependency downloaded or installed. Official manual evidence below is search-indexed text, not a fresh PDF/image inspection.
 
 | Field | Finding / qualification | Evidence |
