@@ -542,6 +542,26 @@ Sources checked:
 
 <!-- firmware-pitch:Yamaha::Magicstomp Guitar MK2 ends -->
 
+<!-- model-images:Yamaha::Magicstomp Guitar MK2 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Magicstomp Guitar MK2 control face**
+
+[![Magicstomp Guitar MK2 control face](https://medias.audiofanzine.com/images/normal/yamaha-magicstomp-ii-2251267.jpg)](https://medias.audiofanzine.com/images/normal/yamaha-magicstomp-ii-2251267.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/yamaha/MagicStomp-II/). Visually checked powered actual Guitar MK2 from above: connected AC cable, green P03 Drivin Verb display and illuminated center indicator. Four knobs, three footswitches and STORE/EXIT button; PHONES top-edge label corroborates MK2 hardware. Perspective view of the full control face; no firmware-version inference from the preset name or hardware-function test.
+
+**Magicstomp Guitar MK2 rear connectors**
+
+[![Magicstomp Guitar MK2 rear connectors](https://cdn.korn.eu/pictures/product/400/154254_1.jpg)](https://cdn.korn.eu/pictures/product/400/154254_1.jpg)
+
+[Image source](https://www.musikhaus-korn.de/en/yamaha-magic-stomp-ub-99-mk-ii/pd/96456). Visually checked complete rear row in exact MKII retailer gallery: INPUT, HIGH/LOW, OUTPUT R/L-MONO, PHONES, USB-B and AC IN12V1A~; cable-retaining hook at right. Small400px image limits fine-label detail; visible headphone socket distinguishes this layout from the original no-PHONES model. No analog EXP, MIDI DIN or XLR sockets shown; AC input has no DC center polarity.
+
+</details>
+<!-- model-images:Yamaha::Magicstomp Guitar MK2 ends -->
+
+
 Checked 2026-10-18; partial. Yamaha's MK2 library link supplies a [base owner manual](https://usa.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf),31 PDF pages,pp7–12,29, retaining original-style controls and omitting headphones. The [official MK2 supplement](https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf),English pp1–5 within36 multilingual PDF pages, explicitly replaces those details. Browser text inspected; no cross-edition substitution.
 
 <!-- comparison evidence begins -->

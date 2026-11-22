@@ -212262,11 +212262,37 @@
           "Powered-on exact overhead photograph not independently verified; current Bass-labelled stock view depicts illumination.",
           "Exact UB99B rear photo pending: linked Reverb image jhfbf8tpofyiyjoujcd2 thumbnail returned500, original endpoint401; sibling Acoustic/Guitar rear not substituted."
         ]
+      },
+      "Yamaha::Magicstomp Guitar MK2": {
+        "model_key": "Yamaha::Magicstomp Guitar MK2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/yamaha-magicstomp-ii-2251267.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/yamaha/MagicStomp-II/",
+            "caption": "Magicstomp Guitar MK2 control face",
+            "note": "Visually checked powered actual Guitar MK2 from above: connected AC cable, green P03 Drivin Verb display and illuminated center indicator. Four knobs, three footswitches and STORE/EXIT button; PHONES top-edge label corroborates MK2 hardware. Perspective view of the full control face; no firmware-version inference from the preset name or hardware-function test.",
+            "visual_checked": true,
+            "sha256": "d39f08ece80979795f2d66fed7e8465cfeada9c31485f71cfb9e8112aff37ba0",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://cdn.korn.eu/pictures/product/400/154254_1.jpg",
+            "source_url": "https://www.musikhaus-korn.de/en/yamaha-magic-stomp-ub-99-mk-ii/pd/96456",
+            "caption": "Magicstomp Guitar MK2 rear connectors",
+            "note": "Visually checked complete rear row in exact MKII retailer gallery: INPUT, HIGH/LOW, OUTPUT R/L-MONO, PHONES, USB-B and AC IN12V1A~; cable-retaining hook at right. Small400px image limits fine-label detail; visible headphone socket distinguishes this layout from the original no-PHONES model. No analog EXP, MIDI DIN or XLR sockets shown; AC input has no DC center polarity.",
+            "visual_checked": true,
+            "sha256": "ce20740dc9c9d27186b76f4b63a70de56e97b4f45ecd5492bb8317cb84fb6479",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::Magicstomp Bass"
+    "last_model": "Yamaha::Magicstomp Guitar MK2"
   }
 }
