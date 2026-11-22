@@ -219519,11 +219519,36 @@
             "sha256": "39ca4d7ef21a74e0c6b441c6e0c2026cf552ce2f07e0c38b033ce345654e2134"
           }
         }
+      },
+      "BOSS::ME-30": {
+        "model_key": "BOSS::ME-30",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/boss-me-30-5662762.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-30/",
+            "caption": "BOSS ME-30 — powered-on overhead view",
+            "note": "Actual user photograph with active bank digit 1, FILLED patch LCD, effect-chain graphics and red OD/DS indicator. The complete control surface, five footswitches and expression pedal are visible. The original is rotated 90 degrees and photographed slightly obliquely; an upright exact top-down replacement remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "abfa3df91176e5a5b080efd6dd4f5f635035f999e8f13944a5459947cd81ff49"
+          },
+          "rear": {
+            "image_url": "https://i.ebayimg.com/images/g/qH0AAOSw4HhmBtlq/s-l1200.jpg",
+            "source_url": "https://www.ebay.com/itm/156144543604",
+            "caption": "BOSS ME-30 — rear connections",
+            "note": "Actual seller photograph of an unpowered ME-30 viewed from behind, showing the whole rear panel: INPUT, miniature AUX IN, stereo OUTPUT jacks, PHONES, power switch and DC IN. All connectors are visible, but dark low-contrast molded labels have limited readability.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "06e2b7aff2547fffc7081db349c25b571c0e1876533c0370b8dbca4b7cf0c2ba"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GT-5"
+    "last_model": "BOSS::ME-30"
   }
 }
