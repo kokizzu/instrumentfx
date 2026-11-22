@@ -2080,6 +2080,30 @@ Checked 2026-10-18 against the explicitly shared [effects list pp17–18](https:
 
 ## B2
 
+<!-- firmware-pitch:Zoom::B2 begins -->
+### Firmware and pitch audit — Zoom B2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005 (manufacturer product-history year). Original B2 listed in2005 separately from B2.1u; exact shipment date unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Legacy exact-model download page lists the manual, with no firmware package located. Current Japanese support URL failed to load. This does not prove that no firmware or service update ever existed; no version/date or elapsed update duration assigned. [firmware 1](https://zoom.co.jp/ja/products/guitar-bass-effects/bass/b2-bass-effects-pedal) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shifter: −12…−1, dt detune, +1…+12,+24 semitones; Pedal Pitch offers eight sweep colors. Harmonized Pitch Shifter follows a selected key/scale. No explicit chord/polyphonic tracking claim located. [pitch 1](https://zoomcorp.com/media/documents/E_B2.pdf) |
+| Pitch / preset recall | 40 user and40 read-only patches. External FP01/FP02 through CONTROL IN; function saved per patch. MOD/SFX is an assignable target. In bypass the pedal always controls volume; this is not a universal volume override while effects are active. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Nine fixed serial modules, up to nine simultaneous effects. Pitch, pedal pitch and harmony share MOD/SFX with chorus/flanger/vibrato/step/delay alternatives, so those module algorithms are mutually exclusive. |
+| Pitch / qualifications | Original no-treadle B2, not B2.1u or B2 FOUR. No hardware measurement or installation performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — 2005 lists B2 separately from B2.1u. (official chronology inspected).
+- [Original Zoom B2 legacy downloads](https://zoom.co.jp/ja/products/guitar-bass-effects/bass/b2-bass-effects-pedal) — Documents section lists operation manual; no firmware package shown. Current support page failed to load. (official exact-model page read).
+- [Zoom B2 operation manual](https://zoomcorp.com/media/documents/E_B2.pdf) — Printed pp19,28–29: patch pedal functions, Pitch Shifter/Pedal Pitch/Harmonized Pitch Shifter; nine-module architecture and80 memories. (official PDF pitch, expression and specification sections inspected).
+
+<!-- firmware-pitch:Zoom::B2 ends -->
+
 Original bass multi-effects; partial, checked2026-10-18. Distinct fromB2.1u/B2 FOUR. [Manufacturer manual](https://zoomcorp.com/media/documents/E_B2.pdf),pp6–7,16,25–26,31.
 
 <!-- comparison evidence begins -->

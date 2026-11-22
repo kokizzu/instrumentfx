@@ -206619,10 +206619,67 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::B2": {
+        "model_key": "Zoom::B2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2005",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Original B2 listed in2005 separately from B2.1u; exact shipment date unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoom.co.jp/ja/products/guitar-bass-effects/bass/b2-bass-effects-pedal"
+          ],
+          "note": "Legacy exact-model download page lists the manual, with no firmware package located. Current Japanese support URL failed to load. This does not prove that no firmware or service update ever existed; no version/date or elapsed update duration assigned."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shifter: −12…−1, dt detune, +1…+12,+24 semitones; Pedal Pitch offers eight sweep colors. Harmonized Pitch Shifter follows a selected key/scale. No explicit chord/polyphonic tracking claim located.",
+          "preset": "40 user and40 read-only patches. External FP01/FP02 through CONTROL IN; function saved per patch. MOD/SFX is an assignable target. In bypass the pedal always controls volume; this is not a universal volume override while effects are active.",
+          "dsp": "No per-pitch DSP percentage published. Nine fixed serial modules, up to nine simultaneous effects. Pitch, pedal pitch and harmony share MOD/SFX with chorus/flanger/vibrato/step/delay alternatives, so those module algorithms are mutually exclusive.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_B2.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original no-treadle B2, not B2.1u or B2 FOUR. No hardware measurement or installation performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "2005 lists B2 separately from B2.1u."
+          },
+          {
+            "url": "https://zoom.co.jp/ja/products/guitar-bass-effects/bass/b2-bass-effects-pedal",
+            "title": "Original Zoom B2 legacy downloads",
+            "access": "official exact-model page read",
+            "evidence": "Documents section lists operation manual; no firmware package shown. Current support page failed to load."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B2.pdf",
+            "title": "Zoom B2 operation manual",
+            "access": "official PDF pitch, expression and specification sections inspected",
+            "evidence": "Printed pp19,28–29: patch pedal functions, Pitch Shifter/Pedal Pitch/Harmonized Pitch Shifter; nine-module architecture and80 memories."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::B2",
       "Zoom::B2 FOUR",
       "Zoom::B2.1u",
       "Zoom::B3",
@@ -206669,12 +206726,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 357,
-    "last_model": "Zoom::B1Xon",
-    "last_commit_parent": "902a8a13fba17bb16c1f695176a051ab119a8a81",
+    "completed_model_count": 358,
+    "last_model": "Zoom::B2",
+    "last_commit_parent": "1358a861495d2d13e451d2910649a6326f100ed1",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::B2",
       "Zoom::B2 FOUR",
       "Zoom::B2.1u",
       "Zoom::B3",
@@ -206720,7 +206776,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 357,
+    "pitch_completed_model_count": 358,
     "supplemental_model_count": 0
   },
   "model_images": {
