@@ -15,11 +15,11 @@
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. No dated manufacturer launch located. Site copyright2017 and seller model years are not launch evidence. [launch 1](https://www.ammoon.com/p-i2717dgy-us.html) |
+| Firmware / first hardware release | 2017 (documented public review year; introduction proxy). Original Ammoon PockRock review is published13October2017,establishing public demonstration in2017. Exact manufacturer launch and first sale remain unresolved; other early review material has no independently verified exact date here. Seller model years and site copyright dates are not used as launch evidence. [launch 1](https://www.youtube.com/watch?v=pW3Hyaw4kMA) |
 | Firmware / latest verification | Not verified — No public firmware located. Product downloads name only I2717PockRock_Manual_EN_V01.pdf; V01 is a manual revision, not firmware. Support fetch returned502. No public updater/history located; latest installed ROM and updateability remain unverified. [firmware 1](https://www.ammoon.com/p-i2717dgy-us.html) [firmware 2](https://www.ammoon.com/support) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
-| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Firmware / audit date | 2026-11-23; [firmware recap](../FIRMWARE-UPDATES.md). |
 | Pitch / note handling | No pitch algorithm documented in checked sources. Manufacturer inventory lists drive,chorus,flanger,phaser,tremolo,delay,echo,room,hall anddrums; no dedicated interval transposer,harmonizer or octave shifter documented. Tuner pitch detection is not audio transposition. [pitch 1](https://www.ammoon.com/p-i2717dgy-us.html) [pitch 2](https://www.manualslib.com/manual/2585157/Ammoon-Pockrock.html?page=2) |
 | Pitch / preset recall | Manual documents16 factory and16 user patches;Patch mode recalls values andSTORE twice saves to selected destination. No dedicated pitch preset established. |
 | Pitch / DSP resources | No pitch-block resource figure published in inspected sources. Five-module/15-type marketing is not CPU percentage; preserve earlier manual eight-module conflict. No polyphonic-transposition claim or comparable50% measurement. |
@@ -31,6 +31,7 @@ Sources checked:
 - [Ammoon PockRock exact manufacturer product page](https://www.ammoon.com/p-i2717dgy-us.html) — Effect inventory,manual-only download listing;no dated launch or firmware history. Copyright is site-wide. (opened).
 - [Ammoon POCKROCK owner manual page2](https://www.manualslib.com/manual/2585157/Ammoon-Pockrock.html?page=2) — Patch recall,user storage,tuner and documented connections;revision undated. (manufacturer_manuscript_on_public_mirror; text_only).
 - [Ammoon manufacturer support](https://www.ammoon.com/support) — Support unavailable during check;not evidence firmware never existed. (fetch_failed_502).
+- [Original Ammoon PockRock quick review](https://www.youtube.com/watch?v=pW3Hyaw4kMA) — Published2017-10-13;title explicitly identifies Ammoon PockRock. Establishes documented public-review year,not exact first hardware release. (Original review indexed title and exact publication metadata inspected).
 
 <!-- firmware-pitch:Ammoon::PockRock ends -->
 
