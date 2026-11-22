@@ -183250,15 +183250,15 @@
       },
       "Boin Audio::BG300": {
         "model_key": "Boin Audio::BG300",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-23",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2025-08-26",
+          "precision": "day",
+          "kind": "regional_public_demo_availability_by_proxy",
           "source_urls": [
-            "https://www.boinaudio.com/en/"
+            "https://www.youtube.com/watch?v=Pn1WNWHUTGI"
           ],
-          "note": "Manufacturer names BG200/300/400 but does not date their introduction. Manual creation/filename dates do not prove hardware launch."
+          "note": "Nafiri Music Jakarta original BG300 review metadata dates publication August 26, 2025. This documents Indonesian public product presentation by that date, not the worldwide first-sale date; earlier release remains possible. January 6, 2026 Malaysian retailer arrival is a later regional event. Manual filename/creation dates and mobile-app updates do not establish hardware introduction."
         },
         "firmware": {
           "version": "1.1.0 manual profile; 1.1.1 USB-bin filename lead",
@@ -183310,13 +183310,91 @@
             "title": "Manufacturer-indexed BG300 firmware1.1.0 manual URL",
             "access": "indexed manufacturer PDF text; direct open returned404",
             "evidence": "Search index corroborates firmware1.1.0 manual identity; inaccessible direct file is not current firmware-release proof."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Pn1WNWHUTGI",
+            "title": "Nafiri Music Jakarta — BOIN AUDIO BG300 REVIEW PART 1",
+            "access": "indexed_original_retailer_video_metadata",
+            "evidence": "Original exact BG300 review video published August 26, 2025 by Nafiri Music Jakarta. Used as regional public-demo availability-by proxy, not global launch or measured pitch test."
           }
         ],
         "notes": [
           "All pitch and preset findings remain the linked manual profile; no revision equivalence is asserted for every BG300-labelled unit."
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Boin Audio::BG300",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.boinaudio.com/en/"
+              ],
+              "note": "Manufacturer names BG200/300/400 but does not date their introduction. Manual creation/filename dates do not prove hardware launch."
+            },
+            "firmware": {
+              "version": "1.1.0 manual profile; 1.1.1 USB-bin filename lead",
+              "date": null,
+              "precision": "unknown",
+              "status": "unverified",
+              "source_urls": [
+                "https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191",
+                "https://boinindonesia.com/products/boin-audio-bg-300",
+                "https://www.boinaudio.com/download/Manual/BG-300_Online%C2%A0Manual_EN_Firmware%20V1.1.0_250804.pdf"
+              ],
+              "note": "Cover expressly identifies firmware 1.1.0. Regional BG300 page links PC Updater Bin named BG-300_USB_V1.1.1_0516.bin; main-processor versus USB-component scope, compatibility and current latest status are unverified. Neither the PDF creation date/250804 filename nor the binary filename/query timestamp establishes a firmware release date. No firmware binary downloaded or installed."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Firmware-1.1.0 linked-manual profile: FX Detune (cents adjustment and Wet/Dry levels), FX Octa (lower/upper octave and dry levels), plus MOD Vibrato. Note polyphony and numeric detune range are unspecified.",
+              "preset": "50 factory F01–50 plus 50 user P01–50 in the linked manual. Hold VALUE to enter save, select location/name/volume, then hold VALUE again to confirm.",
+              "dsp": "Eight fixed-category modules can run together; Detune and Octa are alternatives in the single FX module, so this profile does not document running both together. No pitch CPU/DSP percentage or meter is documented. Pedal targets Detune amount for Detune, dry level for Octa.",
+              "source_urls": [
+                "https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191"
+              ],
+              "measurements": [],
+              "notes": [
+                "Manual-to-BG300 attribution follows the exact regional product link; the generic Dual-FS Multi-Effects-P cover and existing retailer-versus-manual hardware conflicts remain unresolved.",
+                "Octa pedal control changes dry level; it is not evidence of a Whammy pitch sweep."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.boinaudio.com/en/",
+                "title": "Boin Audio manufacturer: BG-series and download center",
+                "access": "opened",
+                "evidence": "Names BG200/300/400; rendered download section does not expose a dated device release history."
+              },
+              {
+                "url": "https://cdn.shopify.com/s/files/1/0684/6929/3275/files/BG-300_Online_Manual_EN_Firmware_V1.1.0_250804.pdf?v=1755764191",
+                "title": "BG300-linked Dual-FS Multi-Effects-P manual for firmware 1.1.0",
+                "access": "downloaded; text read and cover/effect/specification pages visually inspected",
+                "evidence": "Cover expressly says firmware1.1.0; p11 Detune/Octa pedal targets, p16 eight simultaneous modules and 50+50 presets; saving pp5–6. SHA256 c0da9dfc450fdde26f05964a09a0f960df47037ea76a68b10889ef3477ce5ebc."
+              },
+              {
+                "url": "https://boinindonesia.com/products/boin-audio-bg-300",
+                "title": "Boin Indonesia exact BG300 product/download listing",
+                "access": "opened; regional product publisher, not an independently verified firmware authority",
+                "evidence": "SKU BG300 directly links the reviewed manual and PC Updater Bin filename BG-300_USB_V1.1.1_0516.bin; no firmware release date or changelog is given."
+              },
+              {
+                "url": "https://www.boinaudio.com/download/Manual/BG-300_Online%C2%A0Manual_EN_Firmware%20V1.1.0_250804.pdf",
+                "title": "Manufacturer-indexed BG300 firmware1.1.0 manual URL",
+                "access": "indexed manufacturer PDF text; direct open returned404",
+                "evidence": "Search index corroborates firmware1.1.0 manual identity; inaccessible direct file is not current firmware-release proof."
+              }
+            ],
+            "notes": [
+              "All pitch and preset findings remain the linked manual profile; no revision equivalence is asserted for every BG300-labelled unit."
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "BOSS::AD-10": {
         "model_key": "BOSS::AD-10",
@@ -217529,8 +217607,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "LEKATO::ME-01",
-    "last_commit_parent": "7e0130f9eaa4cd843151fb38de31965cf6b1c086",
+    "last_model": "Boin Audio::BG300",
+    "last_commit_parent": "82db5193469affa2961b0a8aa122844842056bf6",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
