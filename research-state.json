@@ -212353,11 +212353,57 @@
             "exact_top_down": false
           }
         }
+      },
+      "Yamaha::Magicstomp original Guitar": {
+        "model_key": "Yamaha::Magicstomp original Guitar",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://img.tradera.net/images/282/626015282_695c3412-bc4f-419d-9fef-5b4e08f11ca3.jpg",
+            "source_url": "https://www.tradera.com/item/301973/707607696/yamaha-magicstomp-guitar-effects-processor",
+            "caption": "Original Magicstomp Guitar control face",
+            "note": "Visually checked whole original Guitar unit from above in perspective: AC cable connected, bright U57 PingPongDly LCD and illuminated center indicator. Four knobs, three footswitches and STORE button; no PHONES top-edge label. Includes adapter/manuals in the frame. Indexed original Tradera listing now redirects to a category, but its image remains accessible. Photograph verifies visible powered state, not firmware revision or audio performance.",
+            "visual_checked": true,
+            "sha256": "0b4b5f97cbe0230bd8287162cd2143abd06d54a7326573b27c3208046d899840",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/36808/604920/d2485a99-b2e2-523d-8e37-51d052036ad9__67893.1763269151.jpg?c=2",
+            "source_url": "https://www.creamcitymusic.com/used-yamaha-magicstomp-multi-effects-pedal/",
+            "caption": "Original Magicstomp Guitar rear connectors",
+            "note": "Visually checked complete original rear: INPUT, separate HIGH/LOW input-level slider, OUTPUT R and L/MONO, USB-B, AC IN and cable-retaining hook. HIGH/LOW are switch positions, not two inputs. No dedicated PHONES, analog EXP, MIDI DIN or XLR in this row; no connected cables. AC voltage/current follow own manual, not a guessed DC center polarity.",
+            "visual_checked": true,
+            "sha256": "aeec4a1a68a682584f28dad68e0796896eb3bbb350be08c370d956feddd9d880",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.truetonemusic.com/cdn/shop/files/1-Img25313_1200x1200.jpg?v=1750122434",
+            "sha256": "5755fcab552ca5513292c0a6f442ca0799557f8f7a47702294be5e473d36dffd",
+            "visual_checked": true,
+            "note": "Clear top-down original STORE/no-PHONES hardware, but blank LCD and no connected power; cannot satisfy powered-on preference."
+          },
+          {
+            "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0409/users/65ab43e29d236c45dc7aa268c644a6bfb1e63d54/i-img1200x1200-16937940813vvirl144072.jpg",
+            "sha256": "ad91a0b60320cf37e8a471a2dd09ccd98ae9a688a625b297e40901270d7534f5",
+            "visual_checked": true,
+            "note": "Original top photographed overhead, but blank display; green screen material alone does not prove powered operation."
+          },
+          {
+            "image_url": "https://img.tradera.net/large-fit/282/626015282_a3394da3-5da5-4b00-a473-26e8e9b9b505.jpg",
+            "sha256": "32760f17b5a92ebb76045528a72833931117e62c890dfca5b66a58e4584d7ab5",
+            "visual_checked": true,
+            "note": "Actual original powered on, connected AC, bright U57 PingPongDly LCD and center LED. Left footswitch/chassis cropped; same gallery full-unit view preferred if readable."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::Magicstomp Guitar MK2"
+    "last_model": "Yamaha::Magicstomp original Guitar"
   }
 }
