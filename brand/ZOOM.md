@@ -4354,6 +4354,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G2 FOUR ends -->
 
+<!-- model-images:Zoom::G2 FOUR begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G2 FOUR powered control face**
+
+[![G2 FOUR powered control face](https://medias.audiofanzine.com/images/normal/zoom-g2-four-6803696.jpeg)](https://medias.audiofanzine.com/images/normal/zoom-g2-four-6803696.jpeg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/g2-four/). Actual powered G2 FOUR photographed near vertically from above, with the entire control face visible. Backlit LCD shows 224:Get Back1969 and three effect graphics; red switch LEDs are lit. Four rotary knobs, four metal footswitches (including the navigation-center switch) and four directional pads are visible. No built-in treadle.
+
+**G2 FOUR rear connections**
+
+[![G2 FOUR rear connections](https://medias.audiofanzine.com/images/normal/zoom-g2-four-6803702.jpeg)](https://medias.audiofanzine.com/images/normal/zoom-g2-four-6803702.jpeg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/g2-four/). Actual G2 FOUR rear photograph shows INPUT, AUX IN, RIGHT and LEFT/MONO outputs, CONTROL IN, security slot, POWER and DC9V with adapter connected. External pedal socket confirms non-X model. Side-panel USB-C and PHONES are outside this rear view; their specifications come from the manual. Full Compass candidate returned 403 and was not used.
+
+</details>
+<!-- model-images:Zoom::G2 FOUR ends -->
+
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- ZOOM-G2-FOUR source begins -->
