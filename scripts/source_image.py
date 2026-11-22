@@ -304,7 +304,7 @@ def decode_release_note(data):
 
 def check_index_url(url):
     parsed = urllib.parse.urlsplit(url)
-    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com', 'cn.mooeraudio.com', 'erokmusic.com', 'www.eventideaudio.com', 'flammainnovation.com', 'www.flammainnovation.com') or url in RELEASE_NOTE_URLS or url in ('https://www.dk-music.cn/col.jsp?id=110', 'https://dk-music.cn/col.jsp?id=110') or (parsed.hostname == 'www.hotone.com' and parsed.path == '/support/1') or (parsed.hostname == 'line6.com' and parsed.path in ('/software/index.html', '/company/images/', '/effects-pedals/resources/')))
+    assert parsed.scheme == 'https' and (parsed.hostname in ('www.valeton.net', 'www.mooeraudio.com', 'cn.mooeraudio.com', 'erokmusic.com', 'www.eventideaudio.com', 'flammainnovation.com', 'www.flammainnovation.com') or url in RELEASE_NOTE_URLS or url in ('https://www.dk-music.cn/col.jsp?id=110', 'https://dk-music.cn/col.jsp?id=110', 'https://www.joyoaudio.com/product/85.html?productCateId=76') or (parsed.hostname == 'www.hotone.com' and parsed.path == '/support/1') or (parsed.hostname == 'line6.com' and parsed.path in ('/software/index.html', '/company/images/', '/effects-pedals/resources/')))
     assert not parsed.username and not parsed.password and parsed.port in (None, 443)
     if parsed.path == '/wp-admin/admin-ajax.php':
         assert parsed.hostname == 'www.valeton.net'
@@ -409,6 +409,7 @@ def test():
         assert decode_release_note(fixture_text.encode(codec))[0] == fixture_text
     check_index_url('https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/')
     check_index_url('https://flammainnovation.com/download.html')
+    check_index_url('https://www.joyoaudio.com/product/85.html?productCateId=76')
     check_index_url('https://erokmusic.com/js/firmware-notes/en.json')
     check_url('https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1/M00/00/0B/wKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf')
     check_url('https://erokmusic.com/download/manuals/MP-10.pdf')

@@ -178521,8 +178521,8 @@
       0,
       3
     ],
-    "index_url": "https://dk-music.cn/col.jsp?id=110",
-    "index_needle": "550",
+    "index_url": "https://www.joyoaudio.com/product/85.html?productCateId=76",
+    "index_needle": "src=",
     "index_skip": 0
   },
   "portable_transposition_20261120": {
@@ -191150,8 +191150,8 @@
           {
             "url": "https://www.joyoaudio.com/product/85.html?productCateId=76",
             "title": "JOYO GEM BOX III global product/download index",
-            "access": "Indexed exact-model manufacturer download text read; direct page retrieval timed out",
-            "evidence": "Windows V1.1 archive listing dated June 15, 2026; manual November 22, 2019 and Mac package April 14, 2020 are upload labels, not verified hardware firmware releases."
+            "access": "Manufacturer HTML retrieved directly 2026-11-22; 96,913 bytes; SHA256 294aae474da7cac1c977ab8bd76ba6b424aed5fa310648eced5b3c77b0e06fa5",
+            "evidence": "Exact Windows filename JOYO GEM BOX III V1.1 FOR WIN.rar, listed size 2,596,562 bytes, file ID 240, upload timestamp 2026-06-15 11:17:09. Download is a JavaScript-handled anchor, not an archive URL in the retrieved listing. Archive contents not retrieved or executed; V1.1 remains an ambiguous software-package label, not established device firmware. Manual November22,2019 and Mac April14,2020 are upload labels, not hardware release dates."
           },
           {
             "url": "https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor",
@@ -191264,6 +191264,94 @@
                 "title": "JOYO GEM BOX III owner manual VERSION 1.0.0",
                 "access": "Original 36-page JOYO manual mirrored by LTM; SHA256 82a46802bcc5da444de8ddea8f3bf728f483c23d33edddfbed778f63838552d4; cover and printed page 31 visually inspected",
                 "evidence": "Exact III/JOYO cover, MOD 9 Pitch Shift and MOD 10 Detune descriptions. Manual version is historical, not current firmware proof."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          },
+          {
+            "model_key": "JOYO::GEM BOX III",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": "2019-04-26",
+              "precision": "day",
+              "kind": "contemporaneous retail-availability report proxy; exact first shipment unconfirmed",
+              "source_urls": [
+                "https://www.guitarworld.com/gear/joyo-announces-new-gem-box-iii-multi-effects-pedal",
+                "https://www.guitarristas.info/noticias/joyo-gem-box-iii-asoma-nuevo-competidor-multiefectos-mooer-hotone/8139"
+              ],
+              "note": "Guitar World’s April26,2019 announcement explicitly says GEM BOX III is available now. This establishes reported retail availability by that date, not authenticated exact first worldwide shipment. Guitarristas’s February5 NAMM report explicitly says it was still a prototype with no availability date; that preview is not adopted as production release. Manual/software upload timestamps are not launch dates."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "unverified",
+              "source_urls": [
+                "https://www.joyoaudio.com/product/85.html?productCateId=76",
+                "https://www.joyoaudio.co.uk/support/Gem-Box-3-III--Software",
+                "https://ltm-music.ru/upload/files/joyo_gem_box_iii.pdf",
+                "https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor"
+              ],
+              "note": "Updating is supported, but current device firmware/version history not verified. Global index labels a Windows archive JOYO GEM BOX III V1.1 FOR WIN.rar with June 15, 2026 upload date; the listing does not identify V1.1 as device firmware. Original manual is VERSION 1.0.0 and contains historical system-screen examples, not evidence of latest firmware. No duration calculated from software/upload labels."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "MOD 9 Pitch Shift: dry-signal pitch shifter, described as simulating classic whammy; MOD 10 Detune: fine pitch adjustment. Neither own manual nor exact-model effect list states polyphonic input tracking.",
+              "preset": "300 editable patch slots; nine rearrangeable effect modules. Patch storage count is not simultaneous pitch-algorithm capacity.",
+              "dsp": "Pitch Shift and Detune are alternative choices in the single MOD module among nine modules (FX/COMP, DS/OD, AMP, CAB, NS, EQ, MOD, DELAY, REVERB). No per-algorithm CPU percentage or DSP-load meter documented. Module occupancy is not 1/9 processor usage.",
+              "source_urls": [
+                "https://ltm-music.ru/upload/files/joyo_gem_box_iii.pdf",
+                "https://www.joyoaudio.co.uk/support/Product-Manuals?journal_blog_post_id=113",
+                "https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor"
+              ],
+              "measurements": [],
+              "notes": [
+                "No hardware tracking/latency measurement; no pitch interval range or polyphonic drop-tune performance inferred from original GEM BOX, II or K8."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.joyoaudio.com/product/85.html?productCateId=76",
+                "title": "JOYO GEM BOX III global product/download index",
+                "access": "Indexed exact-model manufacturer download text read; direct page retrieval timed out",
+                "evidence": "Windows V1.1 archive listing dated June 15, 2026; manual November 22, 2019 and Mac package April 14, 2020 are upload labels, not verified hardware firmware releases."
+              },
+              {
+                "url": "https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor",
+                "title": "JOYO UK GEM BOX III product page",
+                "access": "Exact-model regional product page read",
+                "evidence": "Nine rearrangeable modules, 157 types, 300 patches; USB editing/audio and firmware updating support, without current device firmware identifier."
+              },
+              {
+                "url": "https://www.joyoaudio.co.uk/support/Gem-Box-3-III--Software",
+                "title": "JOYO UK GEM BOX III software and presets",
+                "access": "Regional support page read",
+                "evidence": "Windows/Mac software and presets; no explicit device firmware release history established."
+              },
+              {
+                "url": "https://www.joyoaudio.co.uk/support/Product-Manuals?journal_blog_post_id=113",
+                "title": "JOYO GEM BOX III master effect list",
+                "access": "Exact-model regional effect table read",
+                "evidence": "Modulation section names Pitch Shift and Detune; no polyphony or percentage specification."
+              },
+              {
+                "url": "https://ltm-music.ru/upload/files/joyo_gem_box_iii.pdf",
+                "title": "JOYO GEM BOX III owner manual VERSION 1.0.0",
+                "access": "Original 36-page JOYO manual mirrored by LTM; SHA256 82a46802bcc5da444de8ddea8f3bf728f483c23d33edddfbed778f63838552d4; cover and printed page 31 visually inspected",
+                "evidence": "Exact III/JOYO cover, MOD 9 Pitch Shift and MOD 10 Detune descriptions. Manual version is historical, not current firmware proof."
+              },
+              {
+                "url": "https://www.guitarworld.com/gear/joyo-announces-new-gem-box-iii-multi-effects-pedal",
+                "title": "Joyo Announces New Gem Box III Multi-Effects Pedal",
+                "access": "Contemporaneous dated announcement text checked2026-11-22",
+                "evidence": "Published April26,2019; states product available now. Retail-availability report proxy, not exact first shipment."
+              },
+              {
+                "url": "https://www.guitarristas.info/noticias/joyo-gem-box-iii-asoma-nuevo-competidor-multiefectos-mooer-hotone/8139",
+                "title": "Joyo Gem Box III NAMM prototype preview",
+                "access": "Original February5,2019 report checked2026-11-22",
+                "evidence": "Explicit prototype status and no availability date; prevents treating NAMM preview as retail release."
               }
             ],
             "duration": null,
@@ -214678,7 +214766,7 @@
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
     "last_model": "JOYO::GEM BOX III",
-    "last_commit_parent": "5e52bf4764a7c40c2066e191d6f8867dbd6f5e3a",
+    "last_commit_parent": "054996882e9961e1f4a3e98275b2e1512fb2273b",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
