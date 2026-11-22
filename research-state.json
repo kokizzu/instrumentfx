@@ -220590,11 +220590,51 @@
             "image_kind": "product_render"
           }
         }
+      },
+      "Audota::ACE-100": {
+        "model_key": "Audota::ACE-100",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.warwick.de/media/1b/f6/2e/1775089786/gfaf_ACE_100_03.jpg?ts=1775089786",
+            "source_url": "https://shop.warwick.de/de/effektpedale-multieffekt-prozessorenaudota-ace-100-intelligent-combined-effects-pedal",
+            "caption": "Overhead control-layout render",
+            "note": "Distributor render showing the complete control surface with four footswitches, all parameter controls, LED strips and display depicted active. This does not verify a physical powered unit. A [physical unpowered unit beside its box](https://www.shop2rock.de/shop/images/products/main/audota_ace100_1.jpg) was also visually inspected. An actual powered-on, exactly top-down photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": true,
+            "sha256": "4c60570452d768672fe6c905f7f6bde7c3625c3aa0dc79b4c91e9521925fdbeb",
+            "image_kind": "product_render"
+          },
+          "rear": {
+            "image_url": "https://audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/ACE-100/ACE100%E5%90%8E%E8%A7%86%E5%9B%BE.png",
+            "source_url": "https://www.audota.com/ACE100EN.html",
+            "caption": "Complete rear connector render",
+            "note": "Manufacturer render showing the entire connector panel with readable labels: In, Out, Phone, OTG USB-C, power switch and Power In USB-C. A physical rear-panel photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "image_kind": "product_render",
+            "sha256": "65e3415dd00d374fcbef7babe320eb79af1ab2f0e644fb009fb6acfdf5edec5d"
+          }
+        },
+        "side_references": [
+          {
+            "image_url": "https://www.shop2rock.de/shop/images/products/main/audota_ace100_1.jpg",
+            "source_url": "https://www.shop2rock.de/gitarre-bass/audota-ace-100-intelligent-combined-effects-pedal-multi-effektpedal.html",
+            "caption": "Control surface",
+            "note": "Pending inspection.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "a01c90724461da582151599766151318246ee00fd9d7cb9f978cda7ee09176c1",
+            "image_kind": "photograph"
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Audota::AME-100"
+    "last_model": "Audota::ACE-100"
   }
 }
