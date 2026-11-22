@@ -4887,6 +4887,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G2Nu ends -->
 
+<!-- model-images:Zoom::G2Nu begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G2Nu powered control face**
+
+[![G2Nu powered control face](https://cdn.mos.cms.futurecdn.net/a2e1626df481750172e08f6911261b9d.jpg)](https://cdn.mos.cms.futurecdn.net/a2e1626df481750172e08f6911261b9d.jpg)
+
+[Image source](https://www.musicradar.com/reviews/guitars/zoom-g2nu-g2-1nu-279134). Review photograph of an actual powered G2Nu, full near-overhead control face. Amber LCD shows H9:ACOSIM, DIRECT LED is lit and DC cable is connected. Four rotary controls, two footswitches and seven pushbuttons are visible. No built-in treadle; the G2.1Nu photograph is not substituted.
+
+**G2Nu rear connections**
+
+[![G2Nu rear connections](https://dcdn-us.mitiendanube.com/stores/003/379/714/products/whatsapp-image-2024-08-09-at-16-46-28-2-35b37d817a756193dc17238197335300-1024-1024.webp)](https://dcdn-us.mitiendanube.com/stores/003/379/714/products/whatsapp-image-2024-08-09-at-16-46-28-2-35b37d817a756193dc17238197335300-1024-1024.webp)
+
+[Image source](https://ghostinstrumentosmusicais.com.br/produtos/pedaleira-zoom-g2-nu/). Actual compact G2Nu rear photographed from above, upside down in the source. All sockets are visible: INPUT, shared OUTPUT/PHONES, CONTROL IN, full-size USB Type-B, POWER with USB-bus-powered OFF marking, and center-negative DC9V 500mA. No separate headphone jack. Musicland candidate returned 403 and was not used.
+
+</details>
+<!-- model-images:Zoom::G2Nu ends -->
+
+
 Checked 2026-10-19; partial. Separate from G2.1Nu and G2.1u. [Exact manufacturer support](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g2nu/g2nu-support/) and [own family manual](https://zoomcorp.com/media/documents/E_G2Nu_G21Nu_0.pdf), pp.4–5,50; text inspection. [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2nu/) marks discontinued. Ownership and bass/vocal suitability unverified.
 
 Current summary reconciled **2026-11-04** against the dated findings below, primarily checked **2026-10-19**. This is a summary correction, not a new full hardware/firmware audit. Original sources, counts, qualifications and contradictions remain in the following sections.
