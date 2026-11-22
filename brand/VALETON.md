@@ -1971,6 +1971,32 @@ These findings remain labelled VT within the existing GP-100 variant record;no n
 
 ## GP-150
 
+<!-- firmware-pitch:Valeton::GP-150 begins -->
+### Firmware and pitch audit — Valeton GP-150
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2026-03-26 (official public introduction; first shipment unresolved). Dated official dual-model introduction; not independently verified earliest shipment. [launch 1](https://www.youtube.com/watch?v=G3fLXbJH67A) |
+| Firmware / latest verification | 1.1.1 — Located; latest status unverified. Highest numbered exact-model official package located;4.08MB,compatible desktop/mobile2.1.0. Created/Updated25-08-2026 are download-repository fields, not verified firmware release dates. No package executed; dynamic catalogue prevents exhaustive latest guarantee. [firmware 1](https://www.valeton.net/wpfd_file/gp-150-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Own firmware1.1.1 effects list explicitly labels OCTA,Pitch and P-Bend polyphonic; Hammy explicitly monophonic in PRE and WAH. Detune spans±50cents. Scale-aware harmony and exact transposition endpoints not established. [pitch 1](https://res.diversitone.com/Uploads/wp/download/1787706245581.GP-150_Effect%20list_EN_Firmware%20V1.1.1.pdf) [pitch 2](https://res.diversitone.com/Uploads/wp/download/1787706206018.GP-150_Online%C2%A0Manual_EN_Firmware%20V1.1.1.pdf) [pitch 3](https://shop.valeton.net/products/gp-150) |
+| Pitch / preset recall | 200 patch slots,100 factory-filled;12 reorderable effect slots subject to DSP. PRE menu alternatives do not guarantee all pitch choices concurrently. |
+| Pitch / DSP resources | No per-pitch CPU percentage published in inspected documentation. Operating manual says resource exhaustion can gray out choices and disable a module; setting unused modules to None frees resources. Twelve slots does not imply1/12 CPU per block. |
+| Pitch / qualifications | Based on previously fully read exact-model1.1.1 manufacturer PDFs, not sibling algorithms or a hands-on tracking test. Direct effects URL currently inaccessible via web reader; retained hashed local-document evidence remains in canonical model section. No latency/chord-quality measurement or pitch DSP percentage inferred from polyphonic marketing, slot count or current draw. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Official GP-150 Firmware V1.1.1 package listing](https://www.valeton.net/wpfd_file/gp-150-firmware-v1-1-1-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/) — 1.1.1 package,4.08MB;25August2026 repository metadata only. (web page read).
+- [Valeton official GP-150 and GP-180 introduction](https://www.youtube.com/watch?v=G3fLXbJH67A) — Published26March2026; public introduction,shipment unknown. (indexed official video metadata; direct reader cache miss).
+- [Manufacturer GP-150 firmware1.1.1 effects list](https://res.diversitone.com/Uploads/wp/download/1787706245581.GP-150_Effect%20list_EN_Firmware%20V1.1.1.pdf) — 42pages;SHA256a893232c2ba5eae2a436886a4994714b3716cb715a47b73e9dcd3993ed4b94c0;OCTA/Pitch/P-Bend polyphonic,Hammy monophonic. (retained prior complete PDF read and hashed evidence; current direct web route inaccessible).
+- [Manufacturer GP-150 firmware1.1.1 operating manual](https://res.diversitone.com/Uploads/wp/download/1787706206018.GP-150_Online%C2%A0Manual_EN_Firmware%20V1.1.1.pdf) — 40pages;SHA25625e6585a5994c455ddd9f121c6d0a5b4f5c040f88c4116fb70cd04eef59abdbc;DSP constraints and None bypass resource release. (retained prior full PDF read and hashed evidence).
+- [Valeton official GP-150 shop](https://shop.valeton.net/products/gp-150) — 200patches/100factory,12reorderable modules;not CPU allocation. (web page read).
+
+<!-- firmware-pitch:Valeton::GP-150 ends -->
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- VALETON-GP-150 source begins -->
