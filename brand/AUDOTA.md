@@ -417,6 +417,26 @@ Sources checked:
 
 <!-- firmware-pitch:Audota::AME-200 ends -->
 
+<!-- model-images:Audota::AME-200 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Powered control surface — angled photograph**
+
+[![Powered control surface — angled photograph](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_64/641808/21328119_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_64/641808/21328119_800.jpg)
+
+[Image source](https://www.thomann.de/de/audota_ame_200_amp_modeler.htm). Retailer photograph of the standard AME-200 with its display and switch indicators illuminated. The complete control surface is visible at a steep angle on a 600-pixel canvas. A larger [straight overhead control-layout render](https://shop.warwick.de/media/a7/de/bb/1775089762/5cl1_AME-200_03.jpg?ts=1775089762) shows the labels clearly. A powered exactly top-down physical photograph remains pending.
+
+**Complete connector edge — product render**
+
+[![Complete connector edge — product render](https://cdn.shopaccino.com/procraftindia/products/8-1375495211179143_l.jpg?v=704)](https://cdn.shopaccino.com/procraftindia/products/8-1375495211179143_l.jpg?v=704)
+
+[Image source](https://www.procraftindia.com/products/audota-ame-200-multi-effects-processor). Angled render of the complete connector edge: expression pedal, input, OUTPUT L/R, headphones, USB-C and 9 V DC. Labels are on the top lip and are upside down in this view. The powered physical photograph above also shows this edge; a dedicated physical rear photograph with upright labels remains pending.
+
+</details>
+<!-- model-images:Audota::AME-200 ends -->
+
+
 Standard model, not Pro. Consolidated **2026-10-17**, preserving the complete dated finding and all supporting model fields. Historical next-model notes are provenance; current task is in research-state.json.
 
 <!-- AUDOTA-AME-200 source begins -->

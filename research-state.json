@@ -220670,11 +220670,51 @@
             "image_kind": "product_render"
           }
         ]
+      },
+      "Audota::AME-200": {
+        "model_key": "Audota::AME-200",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_64/641808/21328119_800.jpg",
+            "source_url": "https://www.thomann.de/de/audota_ame_200_amp_modeler.htm",
+            "caption": "Powered control surface — angled photograph",
+            "note": "Retailer photograph of the standard AME-200 with its display and switch indicators illuminated. The complete control surface is visible at a steep angle on a 600-pixel canvas. A larger [straight overhead control-layout render](https://shop.warwick.de/media/a7/de/bb/1775089762/5cl1_AME-200_03.jpg?ts=1775089762) shows the labels clearly. A powered exactly top-down physical photograph remains pending.",
+            "sha256": "20d197b50e38c00236110be25e9b2725848ac2da11aaf81eb49779b229e9bcbf",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "image_kind": "photograph"
+          },
+          "rear": {
+            "image_url": "https://cdn.shopaccino.com/procraftindia/products/8-1375495211179143_l.jpg?v=704",
+            "source_url": "https://www.procraftindia.com/products/audota-ame-200-multi-effects-processor",
+            "caption": "Complete connector edge — product render",
+            "note": "Angled render of the complete connector edge: expression pedal, input, OUTPUT L/R, headphones, USB-C and 9 V DC. Labels are on the top lip and are upside down in this view. The powered physical photograph above also shows this edge; a dedicated physical rear photograph with upright labels remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "image_kind": "product_render",
+            "sha256": "b388efdbcaa31585f12f8c5fca424d7f66ea69f75793ac54641fe6aa375dab02"
+          }
+        },
+        "side_references": [
+          {
+            "image_url": "https://shop.warwick.de/media/a7/de/bb/1775089762/5cl1_AME-200_03.jpg?ts=1775089762",
+            "source_url": "https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-200-amp-modeler-multi-effects",
+            "caption": "Control surface",
+            "note": "Straight overhead product render; depicted illumination does not establish physical operation.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": true,
+            "image_kind": "product_render",
+            "sha256": "762ff5ee961d0de24e2be683fcfbbb2591ec21d90796a23b6e2b2a72720c34fe"
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Audota::AVE-100"
+    "last_model": "Audota::AME-200"
   }
 }
