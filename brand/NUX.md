@@ -2448,7 +2448,7 @@ Mirror body identifies MP-3/MIGHTY PLUG PRO and ©2022 Cherub, matching product 
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Original manufacturer manual carries copyright 2013. Copyright does not establish first retail availability, and no dated manufacturer launch notice was located. Exact first-release date remains unknown. [launch 1](https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf) |
+| Firmware / first hardware release | 2013-05 (public demonstration proxy; exact first sale unconfirmed). Ashbass’s original PG-2 demonstration is indexed May 26, 2013 (secondary catalogue video index lists May 27). May 2013 establishes public demonstration before the January 2014 catalogue entry; it is not an authenticated first retail launch. Month precision avoids the one-day indexing discrepancy. Manual copyright 2013 alone is not used as a release date. [launch 1](https://www.youtube.com/watch?v=3OgV-b4_038) |
 | Firmware / latest verification | Not verified — No public firmware located. Current exact-model legacy support lists the English manual only; no public firmware binary, version history or updater found. Complete original connector inventory has audio input/output, headphones, AUX and DC, with no USB/update connector documented. This does not prove no service-only firmware ever existed. V1 is a manual revision, not a device firmware version; latest update date and span remain unknown. [firmware 1](https://nuxaudio.com/product/pg2/) [firmware 2](https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -2463,6 +2463,7 @@ Sources checked:
 
 - [NUX PG-2 current manufacturer legacy support](https://nuxaudio.com/product/pg2/) — Legacy Product; English manual only, no firmware version/date or update package exposed. (Manufacturer page opened 2026-11-22).
 - [NUX PG-2 V1 English owner manual](https://nux.cherubtechnology.com/download/Manual/Effects/Portable_Series_Stompboxes/PG2/NUX_PG2_UserManualV1_English.pdf) — 2013 copyright; named amp/modulation/ambience library lacks dedicated pitch effect; nine factory and nine user memories, save/preset behavior, tuner-only flat/reference settings and complete connector inventory. V1 is document revision. (Manufacturer PDF retrieved and complete single-page sheet visually inspected 2026-11-22; SHA256 85e48cd903451340df245c012b7999a76c27249c5502c667c4452c3b627b9e35).
+- [NU-X NUX PG-2 Portable Guitar Effects Headphone Amp — ashbass](https://www.youtube.com/watch?v=3OgV-b4_038) — By ashbass, published 2013-05-26. Public original-model demonstration; exact first shipment is not established. (Original video publication metadata indexed and checked 2026-11-22).
 
 <!-- firmware-pitch:NUX::PG-2 ends -->
 
