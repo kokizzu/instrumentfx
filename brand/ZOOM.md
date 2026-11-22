@@ -490,6 +490,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::607 ends -->
 
+<!-- model-images:Zoom::607 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**607 control face**
+
+[![607 control face](https://medias.audiofanzine.com/images/normal/zoom-607-bass-2726452.jpg)](https://medias.audiofanzine.com/images/normal/zoom-607-bass-2726452.jpg)
+
+[Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/607-Bass/). Visually checked complete 607 BASS overhead view with slight perspective; display and assignment LEDs unlit. Powered overhead photo remains pending. Two rotary selectors, six buttons and two patch footswitches plus built-in expression treadle. Toe-switch mechanism not visible beneath treadle.
+
+**607 rear connectors**
+
+[![607 rear connectors](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/55728/330809/YZOOM13238306__46907.1704887434.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/55728/330809/YZOOM13238306__46907.1704887434.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/zoom-607-bass-multi-fx-unit-2nd-hand/). Visually checked angled actual607 BASS rear, all three connectors clearly visible: INPUT, recessed DC9V and shared OUTPUT(PHONES). No separate headphone, external CONTROL/EXP, USB or MIDI socket shown. No cables attached/display unlit; different unit from top view. 300mA marking is supply rating, not measured consumption.
+
+</details>
+<!-- model-images:Zoom::607 ends -->
+
+
 Checked 2026-10-17; partial. Officially bass-focused; seller’s guitar title does not override manufacturer identity. Ownership unverified.
 
 <!-- comparison evidence begins -->

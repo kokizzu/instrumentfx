@@ -213332,11 +213332,36 @@
             "sha256": "c2796a08f03ae3c8fdc1e23a634d945de3bd93b63424526f20f80e6e6a3a3e16"
           }
         }
+      },
+      "Zoom::607": {
+        "model_key": "Zoom::607",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-607-bass-2726452.jpg",
+            "source_url": "https://en.audiofanzine.com/bass-multi-effect/zoom/607-Bass/",
+            "caption": "607 control face",
+            "note": "Visually checked complete 607 BASS overhead view with slight perspective; display and assignment LEDs unlit. Powered overhead photo remains pending. Two rotary selectors, six buttons and two patch footswitches plus built-in expression treadle. Toe-switch mechanism not visible beneath treadle.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": true,
+            "sha256": "26263998c38524c553f91333ff6e02dbd2463b44597b7061287a3fa0f1c095df"
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/55728/330809/YZOOM13238306__46907.1704887434.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/zoom-607-bass-multi-fx-unit-2nd-hand/",
+            "caption": "607 rear connectors",
+            "note": "Visually checked angled actual607 BASS rear, all three connectors clearly visible: INPUT, recessed DC9V and shared OUTPUT(PHONES). No separate headphone, external CONTROL/EXP, USB or MIDI socket shown. No cables attached/display unlit; different unit from top view. 300mA marking is supply rating, not measured consumption.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "28106262693aa564f0aefaeea1a21b06b2c26eab7c184b461f05ba83e7b99999"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::606"
+    "last_model": "Zoom::607"
   }
 }
