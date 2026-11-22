@@ -4149,6 +4149,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GX-100 ends -->
 
+<!-- model-images:BOSS::GX-100 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS GX-100 — powered-on top view**
+
+[![BOSS GX-100 — powered-on top view](https://static.roland.com/products/gx-100/images/gx-100_main_gal.jpg)](https://static.roland.com/products/gx-100/images/gx-100_main_gal.jpg)
+
+[Image source](https://www.boss.info/global/products/gx-100/). Manufacturer straight-down product image with the complete control surface and expression pedal, active color effects-chain display, blue footswitch indicators and EXP1 indicator. Powered-on appearance is visible in this promotional image; independent operating-state verification is unavailable.
+
+**BOSS GX-100 — rear connections**
+
+[![BOSS GX-100 — rear connections](https://static.roland.com/products/gx-100/images/gx-100_rear_gal.jpg)](https://static.roland.com/products/gx-100/images/gx-100_rear_gal.jpg)
+
+[Image source](https://www.boss.info/global/products/gx-100/). Complete manufacturer rear-panel image: INPUT, OUTPUT R and L/MONO, PHONES, SEND/RETURN and ground lift, AMP CTL1/2, CTL3/4/EXP2, MIDI OUT/IN, covered optional BT-DUAL connector, USB-B, power switch, DC IN, ground terminal, cord restraint and security slot.
+
+</details>
+<!-- model-images:BOSS::GX-100 ends -->
+
+
 Consolidated and refreshed **2026-10-16**; partial verification. Full original observations, dates and qualifications remain below. Historical next-model notes are provenance; current queue is in research-state.json.
 
 <!-- BOSS-GX-100 source begins -->
