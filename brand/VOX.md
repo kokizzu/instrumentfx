@@ -135,6 +135,30 @@ Its documented global hand master and7.0 startup reset are not global pedal assi
 
 ## StompLab 1G
 
+<!-- firmware-pitch:VOX::StompLab 1G begins -->
+### Firmware and pitch audit — VOX StompLab 1G
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2012-09-04 (official series public introduction; earliest shipment unresolved). Dated official StompLab series overview establishes public introduction context, not independently verified earliest retail shipment. [launch 1](https://www.youtube.com/watch?v=JGBdMXx3Jo8) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact 1G public firmware package/updater located in checked VOX sources. Complete documented rear row lacks USB/MIDI. EFGSJ2 is manual revision, not device firmware; no public update found does not establish absence of internal firmware. No update performed. [firmware 1](https://voxamps.com/en-gb/product/stomplab-1g/) [firmware 2](https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Own IG EFGSJ2 appendix lists MOD Pitch Shift with PITCH −12…0, dt, 1…12 and BALANCE 0…10; PDL Brn Octave has DIRECT/EFFECT 0…10. Polyphonic versus monophonic input tracking is not established by these controls or names. [pitch 1](https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf) [pitch 2](https://voxamps.com/en-gb/product/stomplab-1g/) |
+| Pitch / preset recall | 100 read-only factory presets plus 20 writable user programs; WRITE stores destination and unsaved edits are lost on program change/power-off. Seven simultaneous including noise reduction; AMP/DRIVE shares one category. |
+| Pitch / DSP resources | No pitch-specific DSP percentage published in checked sources. Seven category effects is a structural ceiling, not 1/7 CPU per algorithm. PDL octave and MOD pitch are separate category selections, without measured simultaneous tracking or latency. |
+| Pitch / qualifications | Exact-IG documentation used; no bass-model, expression-model or ToneLab polyphony inferred. No chord-tracking, preset-transition, latency or DSP measurement. Adapter current, 103-choice catalogue and seven-category ceiling are not CPU cost. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [VOX StompLab IG EFGSJ2 owner manual](https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf) — Exact IG appendix Pitch Shift and Brn Octave; 100 preset/20 user, seven simultaneous including NR. No input-note polyphony or pitch CPU% specified. (official PDF original text and pitch/octave parameter tables read).
+- [VOX official StompLab 1G product](https://voxamps.com/en-gb/product/stomplab-1g/) — 103-choice guitar library includes Pitch Shift and Brn Octave; physical inventory no USB/MIDI. (web page and indexed exact-model effect inventory read).
+- [VOX official StompLab series overview](https://www.youtube.com/watch?v=JGBdMXx3Jo8) — Published 4 September 2012; public introduction, not verified first shipment. (retained indexed original video date and series context).
+
+<!-- firmware-pitch:VOX::StompLab 1G ends -->
+
 Guitar multi-effects;distinct from2G,1B,2B. Checked2026-10-17;partial. Bass suitability andownership unestablished.
 
 <!-- comparison evidence begins -->
