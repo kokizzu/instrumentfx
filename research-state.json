@@ -208825,10 +208825,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::GFX-5": {
+        "model_key": "Zoom::GFX-5",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2003",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Official chronology places GFX-5 under 2003. Exact retail day/month remains unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-5/gfx-5-support/",
+            "https://www.zoom.co.jp/ja/products/guitar-bass-effects/guitar/gfx-5-guitar-effects-processor"
+          ],
+          "note": "Reviewed official regional support pages list the operation manual only; no public system updater or firmware history located. Installed firmware version and release-to-update duration remain unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD PITCH table lists −12…−1, detune, +1…+12,+24 with tone/balance. Its prose says one octave up/two down, conflicting with that table; range requires this qualification. P-PIT provides sixteen pedal mappings. Chord/polyphonic tracking is unspecified.",
+          "preset": "60 editable user plus 60 read-only preset patches. Store/swap retains edits and patch-specific control settings. Built-in pedal, ARRM or combined ARRM+PEDAL can control P-PIT pitch.",
+          "dsp": "Eight fixed effect modules. PITCH and P-PIT are alternatives in MOD, sharing that slot with modulation effects. No exact pitch DSP percentage or CPU meter documented; module count is not a CPU fraction.",
+          "source_urls": [
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX5.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no hardware tracking/CPU test or firmware installation."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "GFX-5 under 2003."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-5/gfx-5-support/",
+            "title": "GFX-5 support",
+            "access": "official indexed downloads inspected",
+            "evidence": "Manual listed; no public firmware updater/history located."
+          },
+          {
+            "url": "https://www.zoom.co.jp/ja/products/guitar-bass-effects/guitar/gfx-5-guitar-effects-processor",
+            "title": "GFX-5 support",
+            "access": "official indexed downloads inspected",
+            "evidence": "Manual listed; no public firmware updater/history located."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX5.pdf",
+            "title": "GFX-5 operation manual",
+            "access": "official PDF inspected, pp3,19–21,32,35",
+            "evidence": "120 patches; eight modules; sixteen pedal pitch types and ARRM; PITCH prose/table range conflict."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::GFX-5",
       "Zoom::GFX-707",
       "Zoom::MS-100BT",
       "Zoom::MS-50G",
@@ -208847,12 +208911,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 385,
-    "last_model": "Zoom::GFX-4",
-    "last_commit_parent": "c30a263aecdc33dfa2668551899378faffb11613",
+    "completed_model_count": 386,
+    "last_model": "Zoom::GFX-5",
+    "last_commit_parent": "3e93a3e9dafea5e3eb1cdfdebcf1b5c66ec8903c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::GFX-5",
       "Zoom::GFX-707",
       "Zoom::MS-100BT",
       "Zoom::MS-50G",
@@ -208870,7 +208933,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 385,
+    "pitch_completed_model_count": 386,
     "supplemental_model_count": 0
   },
   "model_images": {
