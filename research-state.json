@@ -208089,10 +208089,78 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G3": {
+        "model_key": "Zoom::G3",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2011",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists original G3 under 2011. May 2011 production firmware is not an exact retail-release date."
+        },
+        "firmware": {
+          "version": "2.10",
+          "date": "2013-05",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/g3-support/",
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E.pdf"
+          ],
+          "note": "Current G3 Windows/Mac 2.10 matches May 2013 history: rhythm hi-hat/tempo fix and Windows 8/USB 3.0 host support. 2.00 June 2012 adds six-effect operation, auto-save toggle and amp models; 1.12 December 2011 fixes pedal initialization/adds contrast. USB host compatibility is not USB3 transfer speed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT spans −12…+12,+24 semitones with ±25-cent Fine. MonoPitch and PDL MnPit explicitly target single notes; HPS follows key/scale. PDL Pitch offers nine mappings. Generic pitch chord polyphony remains unverified.",
+          "preset": "100 patch memories save effect states/parameters. External FP01/FP02 uses CONTROL IN; patch-specific pedal settings support endpoints and AUTO ASSIGN of multiple compatible effects. Built-in treadle belongs to G3X.",
+          "dsp": "Firmware 2.00+ allows six effects within DSP capacity. DSP Full bypasses an overloaded effect; replace effects or use THRU. Off effects consume the same DSP as on. No exact per-pitch percentage located; six slots are not fixed CPU shares.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no firmware installation or hardware CPU/tracking test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "Original G3 under 2011."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/g3-support/",
+            "title": "G3 support",
+            "access": "official current package list inspected",
+            "evidence": "G3/G3X 2.10 Windows/Mac; separate editor and ASIO."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E.pdf",
+            "title": "G3/G3X system firmware history",
+            "access": "official PDF read",
+            "evidence": "2.10 May 2013; 2.00 June 2012; 1.12 December 2011; 1.00 May 2011 mass production."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+            "title": "G3/G3X operation manual",
+            "access": "official PDF pages 3,10,16–19,51,55 inspected",
+            "evidence": "100 patches; pitch algorithms and mono variants; six effects, DSP Full, THRU remedy and equal on/off DSP consumption."
+          }
+        ],
+        "duration": {
+          "minimum_days": 487,
+          "maximum_days": 881,
+          "label": "1.33–2.41 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G3",
       "Zoom::G3n",
       "Zoom::G3X",
       "Zoom::G3Xn",
@@ -208121,12 +208189,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 375,
-    "last_model": "Zoom::G2X FOUR",
-    "last_commit_parent": "d2218c397f1945f514c8a159fa994872119d4d16",
+    "completed_model_count": 376,
+    "last_model": "Zoom::G3",
+    "last_commit_parent": "228f6fe746a25b2e9fe5893d45bf90d1a9cf5189",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G3",
       "Zoom::G3n",
       "Zoom::G3X",
       "Zoom::G3Xn",
@@ -208154,7 +208221,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 375,
+    "pitch_completed_model_count": 376,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -5190,6 +5190,31 @@ Distinct from G2 FOUR item23178862782 and all older G2X sellers. No verified new
 
 ## G3
 
+<!-- firmware-pitch:Zoom::G3 begins -->
+### Firmware and pitch audit — Zoom G3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2011 (manufacturer product-history year). Manufacturer chronology lists original G3 under 2011. May 2011 production firmware is not an exact retail-release date. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 2.10 — Latest verified. Current G3 Windows/Mac 2.10 matches May 2013 history: rhythm hi-hat/tempo fix and Windows 8/USB 3.0 host support. 2.00 June 2012 adds six-effect operation, auto-save toggle and amp models; 1.12 December 2011 fixes pedal initialization/adds contrast. USB host compatibility is not USB3 transfer speed. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/g3-support/) [firmware 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E.pdf) |
+| Firmware / release date | 2013-05 (month precision) |
+| Firmware / release-to-update duration | 1.33–2.41 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT spans −12…+12,+24 semitones with ±25-cent Fine. MonoPitch and PDL MnPit explicitly target single notes; HPS follows key/scale. PDL Pitch offers nine mappings. Generic pitch chord polyphony remains unverified. [pitch 1](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf) |
+| Pitch / preset recall | 100 patch memories save effect states/parameters. External FP01/FP02 uses CONTROL IN; patch-specific pedal settings support endpoints and AUTO ASSIGN of multiple compatible effects. Built-in treadle belongs to G3X. |
+| Pitch / DSP resources | Firmware 2.00+ allows six effects within DSP capacity. DSP Full bypasses an overloaded effect; replace effects or use THRU. Off effects consume the same DSP as on. No exact per-pitch percentage located; six slots are not fixed CPU shares. |
+| Pitch / qualifications | Documentation only; no firmware installation or hardware CPU/tracking test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — Original G3 under 2011. (official chronology inspected).
+- [G3 support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/g3-support/) — G3/G3X 2.10 Windows/Mac; separate editor and ASIO. (official current package list inspected).
+- [G3/G3X system firmware history](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E.pdf) — 2.10 May 2013; 2.00 June 2012; 1.12 December 2011; 1.00 May 2011 mass production. (official PDF read).
+- [G3/G3X operation manual](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf) — 100 patches; pitch algorithms and mono variants; six effects, DSP Full, THRU remedy and equal on/off DSP consumption. (official PDF pages 3,10,16–19,51,55 inspected).
+
+<!-- firmware-pitch:Zoom::G3 ends -->
+
 Original guitar multi-effects, distinct from G3X and G3n. Checked 2026-10-17; partial. Discontinued. Bass/vocal suitability unclassified. Later shared-manual evidence below is not proof of the offered unit’s installed firmware.
 
 <!-- comparison evidence begins -->
