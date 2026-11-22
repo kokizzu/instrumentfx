@@ -581,11 +581,11 @@ The new search again found Henry’s existing **Rp1,250,000 secondhand,Habis** a
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Exact first hardware release not established by checked manufacturer sources;2015 manual upload is not launch evidence. [launch 1](https://www.korg.com/us/support/download/product/1/22/) |
+| Firmware / first hardware release | 2004 (regional Korg historical introduction year corroborated by contemporary coverage). Regional Korg history explicitly places the AX10G/AX10A/AX10B series debut in 2004. July 30, 2004 contemporary US launch coverage names the exact bass AX10B; Sweetwater’s August 10, 2004 retailer bulletin offers AX10B at a reduced price. These corroborate the introduction year without establishing an exact first-shipment day. The 2015 manual upload is separate. [launch 1](https://w.korgmusic.ru/news/kratkaya-istoriya-50ti-letnego-razvitiya-kompanii-korg/) [launch 2](https://sonicstate.com/news/2004/07/30/namm-multi-effects-for-guitar-and-bass/) [launch 3](https://www.sweetwater.com/insync/sweetwater-price-reduction-korg-ax10g-ax10b/) |
 | Firmware / latest verification | Not verified — No public firmware located. Exact support page lists Owner’s Manual and Easy Start Guide, both June1,2015; no public firmware package or dated device changelog located. This does not prove absence of internal/service firmware. Update span uncalculable. [firmware 1](https://www.korg.com/us/support/download/product/1/22/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
-| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
 | Pitch / note handling | Pitch present; polyphony unverified. PITCH1 mixes shifted/direct sound; PITCH2 is fully wet with pedal shift control. Listed settings reach ±12 semitones; PITCH1 includes detune and PITCH2 stair-step upward option. Polyphony unverified. Separate PRE FX OCTAVE warns of incorrect operation with multiple strings or low notes. [pitch 1](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf) |
 | Pitch / preset recall | 40 factory presets plus40 user programs, initially duplicating factory contents. Pitch/pedal settings stored in programs; hardware recall untested. |
 | Pitch / DSP resources | PITCH1/PITCH2 share the single MODULATION selection with chorus/flanger and other choices. OCTAVE uses PRE FX instead. No numerical pitch CPU budget located; AX10G range and AX100G harmony exclusions are not transferred. |
@@ -596,6 +596,9 @@ Sources checked:
 
 - [Korg AX10B support downloads](https://www.korg.com/us/support/download/product/1/22/) — Only manuals dated2015-06-01; no firmware listed. (Manufacturer exact-model page read).
 - [AX10B Owner’s Manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf) — PITCH1/PITCH2 ±12semitone settings, octave caveat, MODULATION/PRE FX allocation and40preset+40user memory. (Manufacturer original PDF text and indexed effect table read).
+- [Regional Korg site: 50-year company history, ToneWorks section](https://w.korgmusic.ru/news/kratkaya-istoriya-50ti-letnego-razvitiya-kompanii-korg/) — Explicitly places AX10 series debut in2004 and individually names bass AX10B. Regional chronology, not exact shipment date. (Regional brand-site historical article opened; AX10 paragraph read).
+- [Sonicstate: NAMM Multi-Effects For Guitar And Bass, July30,2004](https://sonicstate.com/news/2004/07/30/namm-multi-effects-for-guitar-and-bass/) — Korg Toneworks introduction expressly includes AX10G,AX10A and bass AX10B; corroborates2004 introduction, not exact first shipment. (Contemporaneous original product-introduction coverage opened).
+- [Sweetwater: AX10G and AX10B retailer price bulletin, August10,2004](https://www.sweetwater.com/insync/sweetwater-price-reduction-korg-ax10g-ax10b/) — Offers exact AX10B bass model at new lower retailer price; establishes retail availability by then, not introduction date itself. (Contemporaneous first-party retailer bulletin indexed text).
 
 <!-- firmware-pitch:Korg::AX10B ends -->
 

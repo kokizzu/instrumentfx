@@ -193311,15 +193311,17 @@
       },
       "Korg::AX10B": {
         "model_key": "Korg::AX10B",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2004",
+          "precision": "year",
+          "kind": "regional Korg historical introduction year corroborated by contemporary coverage",
           "source_urls": [
-            "https://www.korg.com/us/support/download/product/1/22/"
+            "https://w.korgmusic.ru/news/kratkaya-istoriya-50ti-letnego-razvitiya-kompanii-korg/",
+            "https://sonicstate.com/news/2004/07/30/namm-multi-effects-for-guitar-and-bass/",
+            "https://www.sweetwater.com/insync/sweetwater-price-reduction-korg-ax10g-ax10b/"
           ],
-          "note": "Exact first hardware release not established by checked manufacturer sources;2015 manual upload is not launch evidence."
+          "note": "Regional Korg history explicitly places the AX10G/AX10A/AX10B series debut in 2004. July 30, 2004 contemporary US launch coverage names the exact bass AX10B; Sweetwater’s August 10, 2004 retailer bulletin offers AX10B at a reduced price. These corroborate the introduction year without establishing an exact first-shipment day. The 2015 manual upload is separate."
         },
         "firmware": {
           "version": null,
@@ -193356,10 +193358,82 @@
             "title": "AX10B Owner’s Manual",
             "access": "Manufacturer original PDF text and indexed effect table read",
             "evidence": "PITCH1/PITCH2 ±12semitone settings, octave caveat, MODULATION/PRE FX allocation and40preset+40user memory."
+          },
+          {
+            "url": "https://w.korgmusic.ru/news/kratkaya-istoriya-50ti-letnego-razvitiya-kompanii-korg/",
+            "title": "Regional Korg site: 50-year company history, ToneWorks section",
+            "access": "Regional brand-site historical article opened; AX10 paragraph read",
+            "evidence": "Explicitly places AX10 series debut in2004 and individually names bass AX10B. Regional chronology, not exact shipment date."
+          },
+          {
+            "url": "https://sonicstate.com/news/2004/07/30/namm-multi-effects-for-guitar-and-bass/",
+            "title": "Sonicstate: NAMM Multi-Effects For Guitar And Bass, July30,2004",
+            "access": "Contemporaneous original product-introduction coverage opened",
+            "evidence": "Korg Toneworks introduction expressly includes AX10G,AX10A and bass AX10B; corroborates2004 introduction, not exact first shipment."
+          },
+          {
+            "url": "https://www.sweetwater.com/insync/sweetwater-price-reduction-korg-ax10g-ax10b/",
+            "title": "Sweetwater: AX10G and AX10B retailer price bulletin, August10,2004",
+            "access": "Contemporaneous first-party retailer bulletin indexed text",
+            "evidence": "Offers exact AX10B bass model at new lower retailer price; establishes retail availability by then, not introduction date itself."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Korg::AX10B",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.korg.com/us/support/download/product/1/22/"
+              ],
+              "note": "Exact first hardware release not established by checked manufacturer sources;2015 manual upload is not launch evidence."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.korg.com/us/support/download/product/1/22/"
+              ],
+              "note": "Exact support page lists Owner’s Manual and Easy Start Guide, both June1,2015; no public firmware package or dated device changelog located. This does not prove absence of internal/service firmware. Update span uncalculable."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "PITCH1 mixes shifted/direct sound; PITCH2 is fully wet with pedal shift control. Listed settings reach ±12 semitones; PITCH1 includes detune and PITCH2 stair-step upward option. Polyphony unverified. Separate PRE FX OCTAVE warns of incorrect operation with multiple strings or low notes.",
+              "preset": "40 factory presets plus40 user programs, initially duplicating factory contents. Pitch/pedal settings stored in programs; hardware recall untested.",
+              "dsp": "PITCH1/PITCH2 share the single MODULATION selection with chorus/flanger and other choices. OCTAVE uses PRE FX instead. No numerical pitch CPU budget located; AX10G range and AX100G harmony exclusions are not transferred.",
+              "source_urls": [
+                "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "No bass tracking, latency or CPU measurement. OCTAVE warning does not establish main-shifter polyphony."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.korg.com/us/support/download/product/1/22/",
+                "title": "Korg AX10B support downloads",
+                "access": "Manufacturer exact-model page read",
+                "evidence": "Only manuals dated2015-06-01; no firmware listed."
+              },
+              {
+                "url": "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf",
+                "title": "AX10B Owner’s Manual",
+                "access": "Manufacturer original PDF text and indexed effect table read",
+                "evidence": "PITCH1/PITCH2 ±12semitone settings, octave caveat, MODULATION/PRE FX allocation and40preset+40user memory."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Korg::AX3B": {
         "model_key": "Korg::AX3B",
@@ -211697,8 +211771,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Korg::AX10G",
-    "last_commit_parent": "34b385d01561f9acf031ccd39faf88e0821116e2",
+    "last_model": "Korg::AX10B",
+    "last_commit_parent": "d0462af3feda2390ba0fa9a507dcd3212d84056c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
