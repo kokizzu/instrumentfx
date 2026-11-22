@@ -204590,13 +204590,14 @@
         "model_key": "Valeton::Dapper Bass VES-2",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first release unresolved",
+          "date": "2017-03-19",
+          "precision": "day",
+          "kind": "dated owner resale availability proxy",
           "source_urls": [
-            "https://www.valeton.net/product/dapper-bass/"
+            "https://www.talkbass.com/classifieds/valeton-dapper-bass.1275206/",
+            "https://www.thomann.co.uk/valeton_dapper_bass_effect_strip.htm"
           ],
-          "note": "Current manufacturer product has no first-release date. V01_170103 manual identifier and stock-image170206/170207 filenames are not shipment evidence. Demo publication is not first retail release."
+          "note": "Earliest dated availability evidence located in this pass: March 19, 2017 owner classified offers the full-size Dapper Bass in mint condition with its box/manual, described as among the first locally. This establishes a contemporaneous ownership/resale report, not an independently verified first shipment or global launch. Thomann lists available since May 2017; that is later retailer-specific availability. Manual identifiers and demo dates are not promoted to shipment dates."
         },
         "firmware": {
           "version": null,
@@ -204644,10 +204645,87 @@
             "title": "Manufacturer Dapper Bass owner manual mirrored at ManualMachine",
             "access": "original manual body text read; not generated summaries",
             "evidence": "Printed second page dry/-1/-2 octave levels and monophonic description, chorus depth and post-Bass-Amp/pre-Octave loop; no DSP cost or firmware release."
+          },
+          {
+            "url": "https://www.talkbass.com/classifieds/valeton-dapper-bass.1275206/",
+            "title": "Dapper Bass owner classified, created March 19, 2017",
+            "access": "Original dated owner advertisement read; public portion includes condition, box/manual and model-specific feature list",
+            "evidence": "Contemporaneous reported possession/resale of full-size Dapper Bass; no proof of worldwide launch day."
+          },
+          {
+            "url": "https://www.thomann.co.uk/valeton_dapper_bass_effect_strip.htm",
+            "title": "Thomann Dapper Bass retailer availability record",
+            "access": "Retailer indexed product text read",
+            "evidence": "Available since May 2017; regional retailer date, later than March owner listing. Not adopted as worldwide launch."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Valeton::Dapper Bass VES-2",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first release unresolved",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-bass/"
+              ],
+              "note": "Current manufacturer product has no first-release date. V01_170103 manual identifier and stock-image170206/170207 filenames are not shipment evidence. Demo publication is not first retail release."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-bass/",
+                "https://www.valeton.net/firmware/",
+                "https://manualmachine.com/valeton/dapperbass/2574560-user-manual/"
+              ],
+              "note": "No numbered full-size Dapper Bass firmware release, date or updater identified in checked manufacturer sources/manual body. V01 is manual revision; VES-2 identifies hardware rather than firmware2. Firmware index dynamic listing may be incomplete; no claim that no embedded firmware ever existed."
+            },
+            "pitch": {
+              "status": "documented_monophonic",
+              "algorithms": "Manufacturer explicitly calls OCTAVE all-analog monophonic. Manual provides DRY, OCT1 (one octave lower) and OCT2 (two octaves lower) levels; separate analog chorus has depth control.",
+              "preset": "Independent dry/-1/-2 octave level knobs; no programmable pitch preset count or general chromatic interval selector documented.",
+              "dsp": "Octave is documented as analog, so no digital pitch-block CPU percentage is established. No published DSP resource meter/cost; 85mA device current is electrical draw, not processing percentage.",
+              "source_urls": [
+                "https://www.valeton.net/product/dapper-bass/",
+                "https://manualmachine.com/valeton/dapperbass/2574560-user-manual/"
+              ],
+              "measurements": [],
+              "notes": [
+                "Monophonic applies to OCTAVE; do not extend it to every circuit or infer polyphonic chorus tracking.",
+                "Synth-like tones describe octave timbre, not a separate sampled-synth or polyphonic transposer.",
+                "FX loop sits between Bass Amp and Octave. No hardware/audio tracking measurement or firmware execution performed."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.valeton.net/product/dapper-bass/",
+                "title": "Valeton full-size Dapper Bass official product",
+                "access": "web page read",
+                "evidence": "Explicit all-analog monophonic octave; separate chorus, FX loop and outputs. No launch or firmware date."
+              },
+              {
+                "url": "https://www.valeton.net/firmware/",
+                "title": "Valeton official firmware index",
+                "access": "web text read; dynamic visibility limited",
+                "evidence": "No exact full-size Dapper Bass package exposed in extracted text."
+              },
+              {
+                "url": "https://manualmachine.com/valeton/dapperbass/2574560-user-manual/",
+                "title": "Manufacturer Dapper Bass owner manual mirrored at ManualMachine",
+                "access": "original manual body text read; not generated summaries",
+                "evidence": "Printed second page dry/-1/-2 octave levels and monophonic description, chorus depth and post-Bass-Amp/pre-Octave loop; no DSP cost or firmware release."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Valeton::Dapper Dark Mini": {
         "model_key": "Valeton::Dapper Dark Mini",
@@ -212152,8 +212230,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "DK::iE-550",
-    "last_commit_parent": "693541b5abfc492c0f86eeda067bf5e9c474bbc5",
+    "last_model": "Valeton::Dapper Bass VES-2",
+    "last_commit_parent": "c45fbda426a499e612fc39f09299cb87a295eb95",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

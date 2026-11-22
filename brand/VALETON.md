@@ -355,7 +355,7 @@ Headphones are dedicated1/8inchTRS in shop specifications. Module/tuner foot act
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Current manufacturer product has no first-release date. V01_170103 manual identifier and stock-image170206/170207 filenames are not shipment evidence. Demo publication is not first retail release. [launch 1](https://www.valeton.net/product/dapper-bass/) |
+| Firmware / first hardware release | 2017-03-19 (dated owner resale availability proxy). Earliest dated availability evidence located in this pass: March 19, 2017 owner classified offers the full-size Dapper Bass in mint condition with its box/manual, described as among the first locally. This establishes a contemporaneous ownership/resale report, not an independently verified first shipment or global launch. Thomann lists available since May 2017; that is later retailer-specific availability. Manual identifiers and demo dates are not promoted to shipment dates. [launch 1](https://www.talkbass.com/classifieds/valeton-dapper-bass.1275206/) [launch 2](https://www.thomann.co.uk/valeton_dapper_bass_effect_strip.htm) |
 | Firmware / latest verification | Not verified — No public firmware located. No numbered full-size Dapper Bass firmware release, date or updater identified in checked manufacturer sources/manual body. V01 is manual revision; VES-2 identifies hardware rather than firmware2. Firmware index dynamic listing may be incomplete; no claim that no embedded firmware ever existed. [firmware 1](https://www.valeton.net/product/dapper-bass/) [firmware 2](https://www.valeton.net/firmware/) [firmware 3](https://manualmachine.com/valeton/dapperbass/2574560-user-manual/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -371,6 +371,8 @@ Sources checked:
 - [Valeton full-size Dapper Bass official product](https://www.valeton.net/product/dapper-bass/) — Explicit all-analog monophonic octave; separate chorus, FX loop and outputs. No launch or firmware date. (web page read).
 - [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact full-size Dapper Bass package exposed in extracted text. (web text read; dynamic visibility limited).
 - [Manufacturer Dapper Bass owner manual mirrored at ManualMachine](https://manualmachine.com/valeton/dapperbass/2574560-user-manual/) — Printed second page dry/-1/-2 octave levels and monophonic description, chorus depth and post-Bass-Amp/pre-Octave loop; no DSP cost or firmware release. (original manual body text read; not generated summaries).
+- [Dapper Bass owner classified, created March 19, 2017](https://www.talkbass.com/classifieds/valeton-dapper-bass.1275206/) — Contemporaneous reported possession/resale of full-size Dapper Bass; no proof of worldwide launch day. (Original dated owner advertisement read; public portion includes condition, box/manual and model-specific feature list).
+- [Thomann Dapper Bass retailer availability record](https://www.thomann.co.uk/valeton_dapper_bass_effect_strip.htm) — Available since May 2017; regional retailer date, later than March owner listing. Not adopted as worldwide launch. (Retailer indexed product text read).
 
 <!-- firmware-pitch:Valeton::Dapper Bass VES-2 ends -->
 
