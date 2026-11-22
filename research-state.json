@@ -208158,10 +208158,93 @@
           "label": "1.33–2.41 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G3n": {
+        "model_key": "Zoom::G3n",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2016",
+          "precision": "year",
+          "kind": "manufacturer launch year",
+          "source_urls": [
+            "https://www.zoom.co.jp/node/750"
+          ],
+          "note": "Official international announcement dated October 17, 2016. Year precision retained: regional availability differs; production firmware date is not a retail date."
+        },
+        "firmware": {
+          "version": "2.20",
+          "date": "2019-05",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/",
+            "https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf"
+          ],
+          "note": "Current G3n Windows/Mac packages match May 2019 history (Guitar Lab editor and intermittent USB connection fixes). 2.00 April 2018 adds Guitar Lab 3 support, encoder improvements, OutputVP and previously downloadable effects. 1.10 November 2016 fixes looper/rhythm recording; 1.00 October 2016 is production firmware. Later Guitar Lab/effect releases are not system firmware."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT: −12…+12,+24 semitones, ±25-cent fine tuning and wet/dry balance. MonoPitch and PDL MnPit explicitly target single notes; HPS is key/scale-based. PDL Pitch offers nine pedal mappings. Generic PitchSHFT/PDL Pitch chord support is unverified in the official list.",
+          "preset": "150 patches retain effect parameters and states, with auto-save or manual confirmation. G3n supports external FP02 via CONTROL IN with EXT PEDAL enabled and a pedal-category effect. Built-in treadle/toe switch belongs to G3Xn. OutputVP (firmware 2.00+) carries volume across patch changes.",
+          "dsp": "Official chart: PitchSHFT, MonoPitch, HPS, PDL Pitch and PDL MnPit each cost 7/100 processing units (7% of documented capacity); Detune 6/100. Up to seven effects subject to resource limits; PROCESS OVERFLOW bypasses effects. These are published budget figures, not measured hardware CPU utilization.",
+          "source_urls": [
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G3n_G3Xn.pdf",
+            "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+            "https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf",
+            "https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no firmware installation, unofficial cross-model effect imports or hardware tracking test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.zoom.co.jp/node/750",
+            "title": "G3n/G3Xn official launch announcement",
+            "access": "official announcement inspected",
+            "evidence": "October 17, 2016 announcement; up to seven chained effects."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/",
+            "title": "G3n/G3Xn support",
+            "access": "current official package list inspected",
+            "evidence": "Separate G3n 2.20 Windows/Mac packages and Guitar Lab 7.3."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf",
+            "title": "G3n/G3Xn firmware history",
+            "access": "official indexed PDF text inspected",
+            "evidence": "2.20 May 2019; 2.00 April 2018; 1.10 November 2016; production 1.00 October 2016."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G3n_G3Xn.pdf",
+            "title": "G3n/G3Xn operation manual",
+            "access": "official indexed manual text inspected; alternate current PDF exceeds fetch size",
+            "evidence": "150 patches; save options; G3n external FP02 and EXT PEDAL; seven effects and overflow bypass."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+            "title": "G5n/G3n/G3Xn effect parameters",
+            "access": "official support-linked PDF inspected",
+            "evidence": "PitchSHFT, mono variants, HPS and pedal pitch mappings; no generic chord-support claim."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf",
+            "title": "Effect Processing Power Chart v2",
+            "access": "official support-linked six-page PDF inspected",
+            "evidence": "G3n/G3Xn capacity 100; PitchSHFT/MonoPitch/HPS/PDL Pitch/PDL MnPit each 7, Detune 6."
+          }
+        ],
+        "duration": {
+          "minimum_days": 851,
+          "maximum_days": 1246,
+          "label": "2.33–3.41 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G3n",
       "Zoom::G3X",
       "Zoom::G3Xn",
       "Zoom::G5",
@@ -208189,12 +208272,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 376,
-    "last_model": "Zoom::G3",
-    "last_commit_parent": "228f6fe746a25b2e9fe5893d45bf90d1a9cf5189",
+    "completed_model_count": 377,
+    "last_model": "Zoom::G3n",
+    "last_commit_parent": "1b93a3617cac7f97bcabcb0493b4485da275e5fc",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G3n",
       "Zoom::G3X",
       "Zoom::G3Xn",
       "Zoom::G5",
@@ -208221,7 +208303,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 376,
+    "pitch_completed_model_count": 377,
     "supplemental_model_count": 0
   },
   "model_images": {

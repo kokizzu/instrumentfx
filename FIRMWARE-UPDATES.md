@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 376/402 active models have firmware audits; 376/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 377/402 active models have firmware audits; 377/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -59,6 +59,7 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [Hotone Ampero II Stage MP-380](brand/HOTONE.md#ampero-ii-stage-mp-380) | 2023-10 (manufacturer announcement month) | 1.7.0 — Latest verified | 2026-07-22 | 2.72–2.81 years | [launch 1](https://www.youtube.com/watch?v=minuTXDdaTg) [launch 2](https://prtimes.jp/main/html/rd/p/000000009.000072397.html) [firmware 1](https://www.hotone.com/support/2) [firmware 2](https://www.hotone.com/news/NAM%20A2%20Now%20Supported%EF%BC%81) |
 | [Line 6 POD X3 Live](brand/LINE6.md#pod-x3-live) | 2007-09-29 (manufacturer announcement proxy) | 2.01.0 — Latest verified | 2010-06-10 | 2.70 years | [launch 1](https://www.musicgearreview.com/article-display/2380.html) [firmware 1](https://line6.com/software/index.html?hardware=POD+X3+Live&name=Flash+Memory&submit_form=set) |
 | [NUX Mighty Plug Pro MP-3](brand/NUX.md#mighty-plug-pro-mp-3) | 2022-07 (manufacturer public-introduction month proxy) | 3.0.5 — Latest verified | 2025-01-22 | 2.48–2.56 years | [launch 1](https://www.youtube.com/watch?v=vVLBDfZbtXc) [firmware 1](https://nuxaudio.com/product/mightyplugpro/) [firmware 2](https://www.ariaguitars.com/jp/nux-mp3-fw.html) |
+| [Zoom G3n](brand/ZOOM.md#g3n) | 2016 (manufacturer launch year) | 2.20 — Latest verified | 2019-05 | 2.33–3.41 years | [launch 1](https://www.zoom.co.jp/node/750) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/) [firmware 2](https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf) |
 | [Neural DSP Nano Cortex](brand/NEURAL-DSP.md#nano-cortex) | 2024-09-18 (manufacturer launch announcement) | NanOS 2.3.0 — Latest verified | 2026-11-11 | 2.15 years | [launch 1](https://neuraldsp.com/nano-cortex-updates/neural-dsp-technologies-introduces-nano-cortex) [firmware 1](https://neuraldsp.com/nano-cortex-updates/nanos-2-3-0-is-now-available) [firmware 2](https://neuraldsp.com/nano-cortex-updates) |
 | [BOSS Pocket GT](brand/BOSS.md#pocket-gt) | 2020-09-17 (manufacturer announcement proxy) | 1.30 — Latest verified | 2022-11 | 2.12–2.20 years | [launch 1](https://www.roland.com/us/company/press_releases/2020/BOSS_Introduces_Pocket_GT_Guitar_Effects_Processor/) [firmware 1](https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/af1be664-80a3-453c-bbad-877c5b631882/) |
 | [Line 6 HX One](brand/LINE6.md#hx-one) | 2023-10-25 (manufacturer announcement) | 3.83 — Latest verified | 2025-10-28 | 2.01 years | [launch 1](https://www.yamaha.com/ja/news_release/2023/23102501/) [firmware 1](https://line6.com/software/index.html?hardware=HX+One&name=Firmware&submit_form=set) |
@@ -403,4 +404,4 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 
 ## Remaining firmware checks
 
-Zoom G3n; Zoom G3X; Zoom G3Xn; Zoom G5; Zoom G5n; Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
+Zoom G3X; Zoom G3Xn; Zoom G5; Zoom G5n; Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
