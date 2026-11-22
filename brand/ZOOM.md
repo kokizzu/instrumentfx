@@ -9188,6 +9188,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::MS-100BT ends -->
 
+<!-- model-images:Zoom::MS-100BT begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MS-100BT control face**
+
+[![MS-100BT control face](https://cdn-ak.f.st-hatena.com/images/fotolife/t/torayamusic/20181101/20181101221033.jpg)](https://cdn-ak.f.st-hatena.com/images/fotolife/t/torayamusic/20181101/20181101221033.jpg)
+
+[Image source](https://torayamusic.hatenablog.com/entry/2018/11/01/ZOOM_MS-100BT). Actual powered MS-100BT viewed from above: LCD shows MS CRUNCH and the red status LED is lit. Three knobs and footswitch are visible, but the bottom edge/navigation ring is cropped and perspective is slightly angled. A complete perpendicular powered replacement remains pending.
+
+**MS-100BT rear power connection**
+
+[![MS-100BT rear power connection](https://www.zoom.co.jp/sites/default/files/products/downloads/images/MS-100BT_rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/MS-100BT_rear.jpg)
+
+[Image source](https://www.zoom.co.jp/products/multistomp/zoom-ms-100bt-multistomp-guitar-pedal-bluetooth). Official complete rear photograph clearly shows the center-negative DC9V 500mA socket and Bluetooth marking. Stereo audio inputs and outputs are on the sides, not this rear face; their sockets are not fully shown here.
+
+</details>
+<!-- model-images:Zoom::MS-100BT ends -->
+
+
 Checked2026-10-18. Discontinued guitar multi-effects;100 effects/amp models. Historical StompShare iPhone/iPad/iPod touch purchasing/loading advertised. The US App Store listing observed on 2026-10-18 specifies iOS 8+; Indonesian availability and working effect transfers remain unverified. [Product][M100BT-P]; [Zoom app listing][M100BT-A]
 
 <!-- comparison evidence begins -->
