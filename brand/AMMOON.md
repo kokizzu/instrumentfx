@@ -34,6 +34,26 @@ Sources checked:
 
 <!-- firmware-pitch:Ammoon::PockRock ends -->
 
+<!-- model-images:Ammoon::PockRock begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Powered control surface (angled)**
+
+[![Powered control surface (angled)](https://i5.walmartimages.com/seo/ammoon-PockRock-Guitar-Multi-effects-Pedal-Portable-Processor-with-15-Effect-Types-40-Drum-Rhythms-Tuning-Function-and-Power-Adapter-Included_e3eb87a6-c514-467d-982e-b80c28199534.df43c3288a90d392ca751df280c62bd2.jpeg)](https://i5.walmartimages.com/seo/ammoon-PockRock-Guitar-Multi-effects-Pedal-Portable-Processor-with-15-Effect-Types-40-Drum-Rhythms-Tuning-Function-and-Power-Adapter-Included_e3eb87a6-c514-467d-982e-b80c28199534.df43c3288a90d392ca751df280c62bd2.jpeg)
+
+[Image source](https://www.walmart.com/ip/5216629432). Retailer promotional image showing the complete red PockRock with display 05 active, at an oblique angle. A [near-overhead unpowered photograph](https://gearupmusic.co.uk/cdn/shop/files/a1c17a79-8a09-4047-b79b-7d3c47c6d615_155180cc-4d3c-4e14-82b7-035fffd8cc55.jpg?v=1716814213) was also visually checked. A powered, exactly top-down photo remains pending.
+
+**Both connection edges**
+
+[![Both connection edges](https://images.nexusapp.co/assets/0e/0e/2b/13501830.jpg)](https://images.nexusapp.co/assets/0e/0e/2b/13501830.jpg)
+
+[Image source](https://uk.vicedeal.com/products/ammoon-pockrock-portable-guitar-effect-pedal-guitar-multi-effect-processor-pedal-guitar-pedal-effect-electric-guitar-accessories?variant=UHJvZHVjdFZhcmlhbnQ6MTIyNDM0MjU1). Retailer promotional composite of the dark-gray color variant, showing both sides: instrument input and AUX IN above; mono output, headphones and DC power socket below. The lower view also shows the edge switches and volume wheel. Socket callouts are legible; the power socket is visible without a callout. All connection groups are shown.
+
+</details>
+<!-- model-images:Ammoon::PockRock ends -->
+
+
 Portable guitar multi-effects. Checked 2026-10-18; partial. Ownership and bass/vocal suitability unverified. Not interchangeable with POCKVERB, POCKAMP or other brands using similar names.
 
 ### Source identity
