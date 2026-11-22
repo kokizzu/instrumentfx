@@ -225851,6 +225851,27 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
+            "image_url": "https://lofimusic.com.au/cdn/shop/files/DSC00745_1200x1200.jpg?v=1716530635",
+            "source_url": "https://lofimusic.com.au/products/boss-me-8-guitar-multiple-effects-processor-pedal",
+            "caption": "BOSS ME-8 — powered-on control surface",
+            "note": "Actual seller photograph shows the complete unit from nearly overhead, with the red 1-1 display, effect indicators and footswitch 1 indicator illuminated. Slight perspective remains; this is not a strictly perpendicular top-down photograph. All six footswitches and the BANK control are visible. The [previous unpowered top-down photograph](https://medias.audiofanzine.com/images/normal/boss-me-8-1615917.jpg) remains available for the perpendicular layout view.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "caa6c62ce896265cd7b001fdc962f802382a5e95852074daa2aa12dae2062247"
+          },
+          "rear": {
+            "image_url": "https://dkyjapan.com/cdn/shop/files/img004_b1eb1e5c-2684-4d3e-b86a-8fa02848c788.jpg?v=1718672952&width=1946",
+            "source_url": "https://dkyjapan.com/products/2406180002",
+            "caption": "BOSS ME-8 — rear connections",
+            "note": "Actual seller photograph with the complete rear connector row visible: INPUT, OUTPUT R/L-MONO, miniature PHONES, SEND/RETURN, external control jacks and power-adaptor input with cord restraint. Molded black labels have low contrast and limited readability. This rear view shows an unpowered unit.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "b1d350e6f064d15c281860023c961c9c407cb5b46af1b10ae2e84111240f1bdf"
+          }
+        },
+        "inspected_alternatives": [
+          {
             "image_url": "https://medias.audiofanzine.com/images/normal/boss-me-8-1615917.jpg",
             "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-8/",
             "caption": "BOSS ME-8 — top-down control surface",
@@ -225864,17 +225885,8 @@
               "sha256": "328a128261a1390dbc6f4ef36e1aee103e44c9820ff7a6b6412fb92d5e16ce20",
               "visual_checked": true
             }
-          },
-          "rear": {
-            "image_url": "https://dkyjapan.com/cdn/shop/files/img004_b1eb1e5c-2684-4d3e-b86a-8fa02848c788.jpg?v=1718672952&width=1946",
-            "source_url": "https://dkyjapan.com/products/2406180002",
-            "caption": "BOSS ME-8 — rear connections",
-            "note": "Actual seller photograph with the complete rear connector row visible: INPUT, OUTPUT R/L-MONO, miniature PHONES, SEND/RETURN, external control jacks and power-adaptor input with cord restraint. Molded black labels have low contrast and limited readability. This rear view shows an unpowered unit.",
-            "visual_checked": true,
-            "powered_on": false,
-            "sha256": "b1d350e6f064d15c281860023c961c9c407cb5b46af1b10ae2e84111240f1bdf"
           }
-        }
+        ]
       },
       "BOSS::GT-3": {
         "model_key": "BOSS::GT-3",
@@ -227095,6 +227107,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-5"
+    "last_model": "BOSS::ME-8"
   }
 }

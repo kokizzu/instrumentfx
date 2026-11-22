@@ -5092,11 +5092,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**BOSS ME-8 — top-down control surface**
+**BOSS ME-8 — powered-on control surface**
 
-[![BOSS ME-8 — top-down control surface](https://medias.audiofanzine.com/images/normal/boss-me-8-1615917.jpg)](https://medias.audiofanzine.com/images/normal/boss-me-8-1615917.jpg)
+[![BOSS ME-8 — powered-on control surface](https://lofimusic.com.au/cdn/shop/files/DSC00745_1200x1200.jpg?v=1716530635)](https://lofimusic.com.au/cdn/shop/files/DSC00745_1200x1200.jpg?v=1716530635)
 
-[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-8/). Actual top-down user photograph with all ME-8 controls and six footswitches visible; the display is off. The adjacent expression pedal and two CBV24 switches are external accessories. A [separate powered-on photograph](https://medias.audiofanzine.com/images/normal/boss-me-8-6705799.jpeg) shows the active red display but is rotated, strongly oblique and clips a corner. A complete powered-on top-down replacement remains pending.
+[Image source](https://lofimusic.com.au/products/boss-me-8-guitar-multiple-effects-processor-pedal). Actual seller photograph shows the complete unit from nearly overhead, with the red 1-1 display, effect indicators and footswitch 1 indicator illuminated. Slight perspective remains; this is not a strictly perpendicular top-down photograph. All six footswitches and the BANK control are visible. The [previous unpowered top-down photograph](https://medias.audiofanzine.com/images/normal/boss-me-8-1615917.jpg) remains available for the perpendicular layout view.
 
 **BOSS ME-8 — rear connections**
 
