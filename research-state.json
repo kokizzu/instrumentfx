@@ -206847,7 +206847,7 @@
       },
       "Soran::Dual Stomp": {
         "model_key": "Soran::Dual Stomp",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "first_release": {
           "date": null,
           "precision": "unknown",
@@ -206865,9 +206865,10 @@
           "source_urls": [
             "https://soranaudio.com/article/127.html",
             "https://www.soranaudio.com/Download.html",
-            "https://www.soranaudio.com/category/9.html"
+            "https://www.soranaudio.com/category/9.html",
+            "https://soranaudio.com/cn/article/161.html"
           ],
-          "note": "Latest located official device release. Current download section lists DFU1.1.1. Learn-index video heading says1.1.0 on the same date; release-note title and startup-verification instruction explicitly say1.1.1. No hardware-release date, so duration remains unknown. No update installed."
+          "note": "Latest located official device release. Current download section lists DFU1.1.1. Learn-index video heading says1.1.0 on the same date; release-note title and startup-verification instruction explicitly say1.1.1. No hardware-release date, so duration remains unknown. No update installed. The August 25, 2026 NAM A2 announcement explicitly requires no device firmware update: Windows/macOS Stomp Manager 1.0.2.1 converts A2 files during import. Its announcement date and editor version are separate from device firmware; native A2 execution is not established."
         },
         "pitch": {
           "status": "pitch_present_polyphony_unverified",
@@ -206908,10 +206909,86 @@
             "title": "Soran Learn index",
             "access": "Manufacturer indexed heading inspected",
             "evidence": "Same-date video heading saysV1.1.0,conflicting with explicitV1.1.1 release-note/startup text."
+          },
+          {
+            "url": "https://soranaudio.com/cn/article/161.html",
+            "title": "Soran NAM A2 support — official Chinese announcement",
+            "access": "opened_manufacturer_article",
+            "evidence": "August 25, 2026 article explicitly includes Dual Stomp, says no device firmware update needed and names Stomp Manager 1.0.2.1 for A2 format conversion during import. No new device firmware version or native A2 runtime stated."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Soran::Dual Stomp",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first hardware release not verified",
+              "source_urls": [
+                "https://soranaudio.com/products/28.html"
+              ],
+              "note": "Undated product page; manual-upload paths and regional retailer availability do not establish first hardware release."
+            },
+            "firmware": {
+              "version": "1.1.1",
+              "date": "2026-05-27",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://soranaudio.com/article/127.html",
+                "https://www.soranaudio.com/Download.html",
+                "https://www.soranaudio.com/category/9.html"
+              ],
+              "note": "Latest located official device release. Current download section lists DFU1.1.1. Learn-index video heading says1.1.0 on the same date; release-note title and startup-verification instruction explicitly say1.1.1. No hardware-release date, so duration remains unknown. No update installed."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Harmony in MOD: Major and Minor modes explicitly fixed inV1.1.1. Polyphonic input,interval limits and independent transpose modes unverified.",
+              "preset": "99 user locations,01–80 guitar/81–99 bass. Exact harmony parameter recall not verified. Firmware retains presets but erases imported NAM/IR; reset deletes user data.",
+              "dsp": "No numerical pitch-specific DSP/CPU cost or meter measurement located. Advertised10/11-module conflict does not establish a percentage per block.",
+              "source_urls": [
+                "https://soranaudio.com/article/127.html",
+                "https://soranaudio.com/products/28.html"
+              ],
+              "measurements": [],
+              "notes": [
+                "USB MIDI requires an external controller with USB HOST; the pedal is described as a USB peripheral. Tiny-only TRS footswitch fix is not transferred to Dual Stomp.",
+                "Exact-model manufacturer manual mirror has no readable web text; operating details remain pending."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://soranaudio.com/products/28.html",
+                "title": "Soran Dual Stomp manufacturer product",
+                "access": "Manufacturer text inspected",
+                "evidence": "Exact Dual Stomp,99 locations;125/126 effects and10/11 modules conflict. No launch date or quantitative pitch DSP cost."
+              },
+              {
+                "url": "https://soranaudio.com/article/127.html",
+                "title": "Soran Stomp family V1.1.1 release notes",
+                "access": "Manufacturer release text inspected",
+                "evidence": "May27,2026;Major/Minor Harmony fix;presets retained,NAM/IR erased;reset deletes user data;startup version1.1.1."
+              },
+              {
+                "url": "https://www.soranaudio.com/Download.html",
+                "title": "Soran official downloads",
+                "access": "Indexed current exact-model list inspected",
+                "evidence": "Separate Dual Stomp section lists DFU1.1.1,editor and driver versions;these are distinct version families."
+              },
+              {
+                "url": "https://www.soranaudio.com/category/9.html",
+                "title": "Soran Learn index",
+                "access": "Manufacturer indexed heading inspected",
+                "evidence": "Same-date video heading saysV1.1.0,conflicting with explicitV1.1.1 release-note/startup text."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Soran::Dual Stomp Lite": {
         "model_key": "Soran::Dual Stomp Lite",
@@ -217691,8 +217768,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Soran::Tiny Stomp",
-    "last_commit_parent": "ba58f7baec47ee23ce907f0d3efe2632e5c06588",
+    "last_model": "Soran::Dual Stomp",
+    "last_commit_parent": "df40c6d8abfcfdf363a39eaf797a02c6daf88a92",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
