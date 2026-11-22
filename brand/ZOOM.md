@@ -1828,6 +1828,30 @@ Checked 2026-10-18 against the [own B1 FOUR/B1X FOUR operation manual Z2I-3612-0
 
 ## B1X original
 
+<!-- firmware-pitch:Zoom::B1X original begins -->
+### Firmware and pitch audit — Zoom B1X original
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2006 (manufacturer product-history year). Original B1X is in the manufacturer’s2006 group, distinct from later B1Xon and FOUR. Month/day unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. No public original-B1X firmware version/package/date located. Exact old product page returned502 during this check, so its live download list was not verified. Manual does not document a user firmware updater; factory reset restores patches, not evidence of a firmware release. Later B1Xon/FOUR firmware does not apply. [firmware 1](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf) [firmware 2](https://www.zoom.co.jp/products/guitar-bass-effects/bass/b1x-bass-effects-pedal) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Mono Pitch explicitly targets single-note playing. HPS follows a selected major-scale key. Pitch Bend uses the treadle with nine sweep types; Detune and Octave are also listed. The manual does not establish chord-safe polyphony for HPS or Pitch Bend. [pitch 1](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf) |
+| Pitch / preset recall | 40 user plus40 preset patches. Built-in pedal assignment is stored per patch; in bypass the pedal always controls volume. Full-down press toggles the assigned module. External CONTROL IN belongs to B1 only. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Eight fixed serial modules can operate together. Mono Pitch, HPS, Pitch Bend, Detune and modulation delays share MODULATION/DELAY, so only one of those choices operates in that module at once. |
+| Pitch / qualifications | Original B1X-specific audit. No hardware tracking/CPU measurement; no firmware installed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — Original B1X listed in2006. (official original B1X grouping inspected).
+- [Zoom B1/B1X original operation manual](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf) — Single-note MonoPitch,HPS,pedalPitchBend;fixedmodules,80patches,pedalassignmentandbypassvolume. (official PDF printed pp17–18,22–23,26–27 inspected).
+- [Zoom original B1X legacy product page](https://www.zoom.co.jp/products/guitar-bass-effects/bass/b1x-bass-effects-pedal) — Exact B1X English manual link indexed; live firmware list not verified. (search-indexed exact-model identity; direct page returned502 twice).
+
+<!-- firmware-pitch:Zoom::B1X original ends -->
+
 Checked 2026-10-17; partial. Bass-focused processor; ownership and guitar/vocal suitability unverified. Original B1X,not B1Xon or FOUR; seller “Next” alias unresolved.
 
 <!-- comparison evidence begins -->

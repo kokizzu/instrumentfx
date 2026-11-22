@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 355/402 active models have firmware audits; 355/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 356/402 active models have firmware audits; 356/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -379,7 +379,8 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [Zoom A2](brand/ZOOM.md#a2) | 2005 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/jp/multi-effects/acoustic/a2/a2-operation-manual/) [firmware 2](https://zoomcorp.com/en/jp/multi-effects/acoustic/a2/) |
 | [Zoom A3](brand/ZOOM.md#a3) | 2013 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/acoustic/a3/a3-operation-manual/) [firmware 2](https://zoomcorp.com/en/jp/support/version-history/) [firmware 3](https://zoomcorp.com/media/documents/J_A3_0.pdf) |
 | [Zoom B1on](brand/ZOOM.md#b1on) | 2014 (manufacturer product-history year) | 1.30 — Latest verified | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b1on/b1on-support/) [firmware 2](https://zoom.co.jp/sites/default/files/products/downloads/pdfs/B1on_B1Xon_ver121_en.pdf) |
+| [Zoom B1X original](brand/ZOOM.md#b1x-original) | 2006 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf) [firmware 2](https://www.zoom.co.jp/products/guitar-bass-effects/bass/b1x-bass-effects-pedal) |
 
 ## Remaining firmware checks
 
-Zoom B1X original; Zoom B1Xon; Zoom B2; Zoom B2 FOUR; Zoom B2.1u; Zoom B3; Zoom B3n; Zoom B6; Zoom G1 FOUR; Zoom G1 original; Zoom G11; Zoom G1on; Zoom G1X FOUR; Zoom G1Xnext; Zoom G1Xon; Zoom G2 FOUR; Zoom G2.1Nu; Zoom G2.1u; Zoom G2Nu; Zoom G2X FOUR; Zoom G3; Zoom G3n; Zoom G3X; Zoom G3Xn; Zoom G5; Zoom G5n; Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
+Zoom B1Xon; Zoom B2; Zoom B2 FOUR; Zoom B2.1u; Zoom B3; Zoom B3n; Zoom B6; Zoom G1 FOUR; Zoom G1 original; Zoom G11; Zoom G1on; Zoom G1X FOUR; Zoom G1Xnext; Zoom G1Xon; Zoom G2 FOUR; Zoom G2.1Nu; Zoom G2.1u; Zoom G2Nu; Zoom G2X FOUR; Zoom G3; Zoom G3n; Zoom G3X; Zoom G3Xn; Zoom G5; Zoom G5n; Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.

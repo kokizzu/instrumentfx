@@ -206488,10 +206488,68 @@
           "label": "0.51–0.67 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::B1X original": {
+        "model_key": "Zoom::B1X original",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2006",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Original B1X is in the manufacturer’s2006 group, distinct from later B1Xon and FOUR. Month/day unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf",
+            "https://www.zoom.co.jp/products/guitar-bass-effects/bass/b1x-bass-effects-pedal"
+          ],
+          "note": "No public original-B1X firmware version/package/date located. Exact old product page returned502 during this check, so its live download list was not verified. Manual does not document a user firmware updater; factory reset restores patches, not evidence of a firmware release. Later B1Xon/FOUR firmware does not apply."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Mono Pitch explicitly targets single-note playing. HPS follows a selected major-scale key. Pitch Bend uses the treadle with nine sweep types; Detune and Octave are also listed. The manual does not establish chord-safe polyphony for HPS or Pitch Bend.",
+          "preset": "40 user plus40 preset patches. Built-in pedal assignment is stored per patch; in bypass the pedal always controls volume. Full-down press toggles the assigned module. External CONTROL IN belongs to B1 only.",
+          "dsp": "No per-pitch DSP percentage published. Eight fixed serial modules can operate together. Mono Pitch, HPS, Pitch Bend, Detune and modulation delays share MODULATION/DELAY, so only one of those choices operates in that module at once.",
+          "source_urls": [
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Original B1X-specific audit. No hardware tracking/CPU measurement; no firmware installed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official original B1X grouping inspected",
+            "evidence": "Original B1X listed in2006."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_B1_B1X_0.pdf",
+            "title": "Zoom B1/B1X original operation manual",
+            "access": "official PDF printed pp17–18,22–23,26–27 inspected",
+            "evidence": "Single-note MonoPitch,HPS,pedalPitchBend;fixedmodules,80patches,pedalassignmentandbypassvolume."
+          },
+          {
+            "url": "https://www.zoom.co.jp/products/guitar-bass-effects/bass/b1x-bass-effects-pedal",
+            "title": "Zoom original B1X legacy product page",
+            "access": "search-indexed exact-model identity; direct page returned502 twice",
+            "evidence": "Exact B1X English manual link indexed; live firmware list not verified."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::B1X original",
       "Zoom::B1Xon",
       "Zoom::B2",
       "Zoom::B2 FOUR",
@@ -206540,12 +206598,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 355,
-    "last_model": "Zoom::B1X FOUR",
-    "last_commit_parent": "d7df48cf4efe7571ca435991a2c681f96fc1dffe",
+    "completed_model_count": 356,
+    "last_model": "Zoom::B1X original",
+    "last_commit_parent": "be173abfb0364720c5117b0dfe8dd88e04a7fafb",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::B1X original",
       "Zoom::B1Xon",
       "Zoom::B2",
       "Zoom::B2 FOUR",
@@ -206593,7 +206650,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 355,
+    "pitch_completed_model_count": 356,
     "supplemental_model_count": 0
   },
   "model_images": {
