@@ -233,11 +233,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**DigiTech GNX3 — top panel**
+**DigiTech GNX3 — powered-on full control face**
 
-[![DigiTech GNX3 — top panel](https://medias.audiofanzine.com/images/normal/digitech-gnx3-6111093.jpg)](https://medias.audiofanzine.com/images/normal/digitech-gnx3-6111093.jpg)
+[![DigiTech GNX3 — powered-on full control face](https://evolutionmusicstore.com/cdn/shop/products/jix0xpb4x5kxcnydcqvs_bac4af6b-ddec-4d01-b6c2-33d76e558cb7_800x.jpg?v=1652231786)](https://evolutionmusicstore.com/cdn/shop/products/jix0xpb4x5kxcnydcqvs_bac4af6b-ddec-4d01-b6c2-33d76e558cb7_800x.jpg?v=1652231786)
 
-[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/GNX3/). User-gallery straight top-down photograph of worn GNX3 hardware. Green/red display windows have no illuminated characters and status LEDs are unlit; powered-on state unverified. Confirmed powered-on replacement remains pending.
+[Image source](https://evolutionmusicstore.com/products/digitech-gnx3-guitar-workstation-pedal). Retailer photograph visually inspected: exact GNX3 marking, illuminated green preset display, red preset number, recorder counter and multiple status LEDs. Complete recorder controls, six rotary controls, two bank switches, five effect footswitches and full expression treadle visible. Near-overhead camera retains perspective, so strict powered-on top-down remains pending. [Previous unlit straight-overhead reference](https://medias.audiofanzine.com/images/normal/digitech-gnx3-6111093.jpg) remains available for layout inspection. Photo is not a hardware/audio performance test.
 
 **DigiTech GNX3 — rear connections**
 

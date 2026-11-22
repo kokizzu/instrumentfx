@@ -214346,17 +214346,21 @@
       },
       "DigiTech::GNX3": {
         "model_key": "DigiTech::GNX3",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/digitech-gnx3-6111093.jpg",
-            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/GNX3/",
-            "caption": "DigiTech GNX3 — top panel",
-            "note": "User-gallery straight top-down photograph of worn GNX3 hardware. Green/red display windows have no illuminated characters and status LEDs are unlit; powered-on state unverified. Confirmed powered-on replacement remains pending.",
+            "image_url": "https://evolutionmusicstore.com/cdn/shop/products/jix0xpb4x5kxcnydcqvs_bac4af6b-ddec-4d01-b6c2-33d76e558cb7_800x.jpg?v=1652231786",
+            "source_url": "https://evolutionmusicstore.com/products/digitech-gnx3-guitar-workstation-pedal",
+            "caption": "DigiTech GNX3 — powered-on full control face",
+            "note": "Retailer photograph visually inspected: exact GNX3 marking, illuminated green preset display, red preset number, recorder counter and multiple status LEDs. Complete recorder controls, six rotary controls, two bank switches, five effect footswitches and full expression treadle visible. Near-overhead camera retains perspective, so strict powered-on top-down remains pending. [Previous unlit straight-overhead reference](https://medias.audiofanzine.com/images/normal/digitech-gnx3-6111093.jpg) remains available for layout inspection. Photo is not a hardware/audio performance test.",
             "visual_checked": true,
-            "powered_on": false,
-            "exact_top_down": true,
-            "sha256": "341fb7e88e37839e9c094ee937f99056bf228945a12a2d4422f770918c46e9fd"
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "4c02da176a634ce89baf3e48e780a5d36958b82501d98fe123dafd9af86e449b",
+            "unlit_overhead_reference": {
+              "image_url": "https://medias.audiofanzine.com/images/normal/digitech-gnx3-6111093.jpg",
+              "sha256": "341fb7e88e37839e9c094ee937f99056bf228945a12a2d4422f770918c46e9fd"
+            }
           },
           "rear": {
             "image_url": "https://evolutionmusicstore.com/cdn/shop/products/zjhoizpvvceefdpieyiy_05a3d425-3b47-4884-acdb-4ec0527ec78c_2000x.jpg?v=1652231786",
@@ -223112,6 +223116,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP250"
+    "last_model": "DigiTech::GNX3"
   }
 }
