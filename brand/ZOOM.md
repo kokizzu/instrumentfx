@@ -3954,6 +3954,34 @@ Current 1.20 changes, TRS electrical pinout, USB current, IR/NAM import support 
 
 ## G1X FOUR
 
+<!-- firmware-pitch:Zoom::G1X FOUR begins -->
+### Firmware and pitch audit — Zoom G1X FOUR
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2019 (manufacturer product-history year). Manufacturer chronology lists G1X FOUR in 2019. December 2018 mass-production firmware is not an exact retail-release date; year precision leaves an overlapping duration interval. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 2.00 — Latest verified. Current exact G1X FOUR Windows/Mac 2.00 packages match November 2019 history: selectable Pre/Post looper and revised rhythm screen. 1.10 April 2019 fixes USB disconnection; 1.00 December 2018 is mass production. Guitar Lab and effect-library updates are separate. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/) [firmware 2](https://zoomcorp.com/documents/3430/G1FOUR_G1XFOUR_System_Software_Version_History_200_en.pdf) |
+| Firmware / release date | 2019-11 (month precision) |
+| Firmware / release-to-update duration | -0.16–0.91 years (date ranges overlap; order unresolved); observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT spans −12…+12,+24 semitones with ±25-cent Fine. MonoPitch and pedal PDL MnPit explicitly target single notes and are starred Guitar Lab additions. PDL Pitch provides nine pedal mappings; HPS follows key/scale. Chord polyphony remains unverified. [pitch 1](https://zoomcorp.com/media/documents/E_G1FOUR_FX-list.pdf) [pitch 2](https://zoomcorp.com/documents/26/E_G1FOUR.pdf) [pitch 3](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1FOUR.pdf) [pitch 4](https://zoomcorp.com/media/documents/J_G1FOUR.pdf) |
+| Pitch / preset recall | 50 writable patches. Only one PEDAL-category effect per patch; built-in treadle controls it. Toe press toggles its effect without saving that on/off change. Output VP retains output volume across patch changes; do not conflate it with pitch-preset recall. |
+| Pitch / DSP resources | Five simultaneous effects subject to processing capacity. PROCESS OVERFLOW bypasses an over-budget effect; changing effect types resolves the overload. No exact per-pitch DSP percentage located; five slots do not mean 20% each. |
+| Pitch / qualifications | Official English manual full fetch exceeds browser size limit; indexed manufacturer passages establish memory and pedal behavior, cross-checked against Japanese overflow text. No installation or hardware CPU/tracking measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G1X FOUR under 2019. (official chronology inspected).
+- [G1 FOUR / G1X FOUR support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/) — Separate G1X FOUR 2.00 Windows and Mac downloads. (current official package list inspected).
+- [G1 FOUR / G1X FOUR system history](https://zoomcorp.com/documents/3430/G1FOUR_G1XFOUR_System_Software_Version_History_200_en.pdf) — 2.00 November 2019; 1.10 April 2019; 1.00 December 2018 production. (official PDF read).
+- [G1 FOUR / G1X FOUR effects list](https://zoomcorp.com/media/documents/E_G1FOUR_FX-list.pdf) — PitchSHFT, explicitly monophonic MonoPitch/PDL MnPit; nine pedal mappings; Output VP retains volume. (official PDF inspected).
+- [G1 FOUR / G1X FOUR operation manual](https://zoomcorp.com/documents/26/E_G1FOUR.pdf) — 50 writable patches and patch-save management. (official indexed passages; full PDF exceeds browser limit).
+- [G1 FOUR / G1X FOUR operation manual legacy official copy](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1FOUR.pdf) — One PEDAL effect per patch; toe toggle is not saved. (official indexed page 53 read).
+- [G1 FOUR / G1X FOUR Japanese manual](https://zoomcorp.com/media/documents/J_G1FOUR.pdf) — Five effects; PROCESS OVERFLOW bypass and effect-type remedy. (official indexed page 20 read; full PDF exceeds browser limit).
+
+<!-- firmware-pitch:Zoom::G1X FOUR ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- ZOOM-G1X-FOUR source begins -->

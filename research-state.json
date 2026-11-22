@@ -207392,10 +207392,99 @@
           "label": "0.16–1.24 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G1X FOUR": {
+        "model_key": "Zoom::G1X FOUR",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2019",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists G1X FOUR in 2019. December 2018 mass-production firmware is not an exact retail-release date; year precision leaves an overlapping duration interval."
+        },
+        "firmware": {
+          "version": "2.00",
+          "date": "2019-11",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/",
+            "https://zoomcorp.com/documents/3430/G1FOUR_G1XFOUR_System_Software_Version_History_200_en.pdf"
+          ],
+          "note": "Current exact G1X FOUR Windows/Mac 2.00 packages match November 2019 history: selectable Pre/Post looper and revised rhythm screen. 1.10 April 2019 fixes USB disconnection; 1.00 December 2018 is mass production. Guitar Lab and effect-library updates are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT spans −12…+12,+24 semitones with ±25-cent Fine. MonoPitch and pedal PDL MnPit explicitly target single notes and are starred Guitar Lab additions. PDL Pitch provides nine pedal mappings; HPS follows key/scale. Chord polyphony remains unverified.",
+          "preset": "50 writable patches. Only one PEDAL-category effect per patch; built-in treadle controls it. Toe press toggles its effect without saving that on/off change. Output VP retains output volume across patch changes; do not conflate it with pitch-preset recall.",
+          "dsp": "Five simultaneous effects subject to processing capacity. PROCESS OVERFLOW bypasses an over-budget effect; changing effect types resolves the overload. No exact per-pitch DSP percentage located; five slots do not mean 20% each.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_G1FOUR_FX-list.pdf",
+            "https://zoomcorp.com/documents/26/E_G1FOUR.pdf",
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1FOUR.pdf",
+            "https://zoomcorp.com/media/documents/J_G1FOUR.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Official English manual full fetch exceeds browser size limit; indexed manufacturer passages establish memory and pedal behavior, cross-checked against Japanese overflow text. No installation or hardware CPU/tracking measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "G1X FOUR under 2019."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/",
+            "title": "G1 FOUR / G1X FOUR support",
+            "access": "current official package list inspected",
+            "evidence": "Separate G1X FOUR 2.00 Windows and Mac downloads."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3430/G1FOUR_G1XFOUR_System_Software_Version_History_200_en.pdf",
+            "title": "G1 FOUR / G1X FOUR system history",
+            "access": "official PDF read",
+            "evidence": "2.00 November 2019; 1.10 April 2019; 1.00 December 2018 production."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_G1FOUR_FX-list.pdf",
+            "title": "G1 FOUR / G1X FOUR effects list",
+            "access": "official PDF inspected",
+            "evidence": "PitchSHFT, explicitly monophonic MonoPitch/PDL MnPit; nine pedal mappings; Output VP retains volume."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/26/E_G1FOUR.pdf",
+            "title": "G1 FOUR / G1X FOUR operation manual",
+            "access": "official indexed passages; full PDF exceeds browser limit",
+            "evidence": "50 writable patches and patch-save management."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1FOUR.pdf",
+            "title": "G1 FOUR / G1X FOUR operation manual legacy official copy",
+            "access": "official indexed page 53 read",
+            "evidence": "One PEDAL effect per patch; toe toggle is not saved."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/J_G1FOUR.pdf",
+            "title": "G1 FOUR / G1X FOUR Japanese manual",
+            "access": "official indexed page 20 read; full PDF exceeds browser limit",
+            "evidence": "Five effects; PROCESS OVERFLOW bypass and effect-type remedy."
+          }
+        ],
+        "duration": {
+          "minimum_days": -60,
+          "maximum_days": 333,
+          "label": "-0.16–0.91 years (date ranges overlap; order unresolved)"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G1X FOUR",
       "Zoom::G1Xnext",
       "Zoom::G1Xon",
       "Zoom::G2 FOUR",
@@ -207432,12 +207521,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 367,
-    "last_model": "Zoom::G1on",
-    "last_commit_parent": "d7c71147680bce3044aaa3f96998d4abd3032533",
+    "completed_model_count": 368,
+    "last_model": "Zoom::G1X FOUR",
+    "last_commit_parent": "78f0fd1224cbb7d22977561640934b9ec2dad32d",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G1X FOUR",
       "Zoom::G1Xnext",
       "Zoom::G1Xon",
       "Zoom::G2 FOUR",
@@ -207473,7 +207561,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 367,
+    "pitch_completed_model_count": 368,
     "supplemental_model_count": 0
   },
   "model_images": {

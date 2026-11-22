@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 367/402 active models have firmware audits; 367/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 368/402 active models have firmware audits; 368/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -391,7 +391,8 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [Zoom B6](brand/ZOOM.md#b6) | 2021 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b6/b6-support/) [firmware 2](https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b6/b6-support/) [firmware 3](https://zoomcorp.com/manuals/b6-en/) |
 | [Zoom G1 FOUR](brand/ZOOM.md#g1-four) | 2019 (manufacturer product-history year) | 2.00 — Latest verified | 2019-11 | -0.16–0.91 years (date ranges overlap; order unresolved) | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/) [firmware 2](https://zoomcorp.com/documents/3430/G1FOUR_G1XFOUR_System_Software_Version_History_200_en.pdf) |
 | [Zoom G1 original](brand/ZOOM.md#g1-original) | 2006 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1/g1-support/) |
+| [Zoom G1X FOUR](brand/ZOOM.md#g1x-four) | 2019 (manufacturer product-history year) | 2.00 — Latest verified | 2019-11 | -0.16–0.91 years (date ranges overlap; order unresolved) | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/) [firmware 2](https://zoomcorp.com/documents/3430/G1FOUR_G1XFOUR_System_Software_Version_History_200_en.pdf) |
 
 ## Remaining firmware checks
 
-Zoom G1X FOUR; Zoom G1Xnext; Zoom G1Xon; Zoom G2 FOUR; Zoom G2.1Nu; Zoom G2.1u; Zoom G2Nu; Zoom G2X FOUR; Zoom G3; Zoom G3n; Zoom G3X; Zoom G3Xn; Zoom G5; Zoom G5n; Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
+Zoom G1Xnext; Zoom G1Xon; Zoom G2 FOUR; Zoom G2.1Nu; Zoom G2.1u; Zoom G2Nu; Zoom G2X FOUR; Zoom G3; Zoom G3n; Zoom G3X; Zoom G3Xn; Zoom G5; Zoom G5n; Zoom G6; Zoom G7.1ut; Zoom GFX-3; Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
