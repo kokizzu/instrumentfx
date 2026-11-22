@@ -1078,6 +1078,31 @@ No exact Shopee item recovered. The recovered historical manufacturer URL, [GP-1
 
 ## GP-5
 
+<!-- firmware-pitch:Valeton::GP-5 begins -->
+### Firmware and pitch audit — Valeton GP-5
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2025-05-26 (official public introduction; earliest shipment unresolved). Valeton Introducing the GP-5 video published 26 May 2025; not independently verified first retail shipment. [launch 1](https://www.youtube.com/watch?v=t_R4j0kO81E) |
+| Firmware / latest verification | 1.0.6 — Located; latest status unverified. Highest numbered exact-model official package located, 1.05 MB, paired with mobile software 1.0.4. Created 11 July 2025 / Updated 27 November 2025 are repository metadata, not independently verified firmware release dates. App 2.1.0 NAM-A2 support is a separate version track. Dynamic catalogue prevents exhaustive latest guarantee; package not run. [firmware 1](https://www.valeton.net/wpfd_file/gp-5-firmware-v1-0-6-zip%EF%BC%88compatible-with-mobile-phone-software-v1-0-4%EF%BC%89/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Exact GP-5 firmware 1.0.3 manual labels OCTA and Pitch polyphonic. OCTA mixes dry and octave-up/down; Pitch has high/low semitone shifts, dry level and separate voice levels. Detune spans ±50 cents. Complete pitch endpoints and scale-aware harmony are not established. [pitch 1](https://www.hotone.jp/manuals/valeton/GP-5.pdf) [pitch 2](https://shop.valeton.net/products/gp-5) |
+| Pitch / preset recall | 100 patch slots, 50 factory-filled; up to nine modules, with some order customization. PRE alternatives do not establish simultaneous independent OCTA and Pitch blocks. Firmware 1.0.3 manual describes mobile-app patch editing. |
+| Pitch / DSP resources | No per-pitch CPU percentage published in inspected sources. Nine-module concurrency is a structural limit, not 1/9 CPU per algorithm. SnapTone storage and effect-menu counts are not DSP measurements. |
+| Pitch / qualifications | Polyphony and parameters are explicitly firmware 1.0.3 documentation, not a newly inspected 1.0.6 algorithm library or hardware chord-tracking test. Manual analog bypass is mono with no right-channel output; USB audio also bypassed. Desktop editing scope conflicts between regional and global descriptions remain preserved. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Official GP-5 firmware 1.0.6 listing](https://www.valeton.net/wpfd_file/gp-5-firmware-v1-0-6-zip%EF%BC%88compatible-with-mobile-phone-software-v1-0-4%EF%BC%89/) — 1.05 MB; mobile software 1.0.4 pairing. Repository timestamps are not verified release dates. (web page read).
+- [Valeton GP-5 official introduction](https://www.youtube.com/watch?v=t_R4j0kO81E) — Published 26 May 2025; public introduction, first shipment unknown. (indexed official video metadata and description).
+- [Manufacturer GP-5 firmware 1.0.3 Japanese manual](https://www.hotone.jp/manuals/valeton/GP-5.pdf) — Printed21 OCTA/Pitch explicitly polyphonic, separate low/high/dry controls and Detune ±50 cents; printed10 mono analog bypass and USB bypass restriction. (original PDF pitch table and cover read; retained prior complete algorithm audit).
+- [Valeton official GP-5 shop](https://shop.valeton.net/products/gp-5) — 100 slots/50 factory, nine modules with limited order changes, 80 converted capture slots; not per-pitch CPU cost. (web page read).
+
+<!-- firmware-pitch:Valeton::GP-5 ends -->
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- VALETON-GP-5 source begins -->

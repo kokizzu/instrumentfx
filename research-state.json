@@ -203784,10 +203784,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::GP-5": {
+        "model_key": "Valeton::GP-5",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2025-05-26",
+          "precision": "day",
+          "kind": "official public introduction; earliest shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=t_R4j0kO81E"
+          ],
+          "note": "Valeton Introducing the GP-5 video published 26 May 2025; not independently verified first retail shipment."
+        },
+        "firmware": {
+          "version": "1.0.6",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.valeton.net/wpfd_file/gp-5-firmware-v1-0-6-zip%EF%BC%88compatible-with-mobile-phone-software-v1-0-4%EF%BC%89/"
+          ],
+          "note": "Highest numbered exact-model official package located, 1.05 MB, paired with mobile software 1.0.4. Created 11 July 2025 / Updated 27 November 2025 are repository metadata, not independently verified firmware release dates. App 2.1.0 NAM-A2 support is a separate version track. Dynamic catalogue prevents exhaustive latest guarantee; package not run."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Exact GP-5 firmware 1.0.3 manual labels OCTA and Pitch polyphonic. OCTA mixes dry and octave-up/down; Pitch has high/low semitone shifts, dry level and separate voice levels. Detune spans ±50 cents. Complete pitch endpoints and scale-aware harmony are not established.",
+          "preset": "100 patch slots, 50 factory-filled; up to nine modules, with some order customization. PRE alternatives do not establish simultaneous independent OCTA and Pitch blocks. Firmware 1.0.3 manual describes mobile-app patch editing.",
+          "dsp": "No per-pitch CPU percentage published in inspected sources. Nine-module concurrency is a structural limit, not 1/9 CPU per algorithm. SnapTone storage and effect-menu counts are not DSP measurements.",
+          "source_urls": [
+            "https://www.hotone.jp/manuals/valeton/GP-5.pdf",
+            "https://shop.valeton.net/products/gp-5"
+          ],
+          "measurements": [],
+          "notes": [
+            "Polyphony and parameters are explicitly firmware 1.0.3 documentation, not a newly inspected 1.0.6 algorithm library or hardware chord-tracking test.",
+            "Manual analog bypass is mono with no right-channel output; USB audio also bypassed. Desktop editing scope conflicts between regional and global descriptions remain preserved."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.valeton.net/wpfd_file/gp-5-firmware-v1-0-6-zip%EF%BC%88compatible-with-mobile-phone-software-v1-0-4%EF%BC%89/",
+            "title": "Official GP-5 firmware 1.0.6 listing",
+            "access": "web page read",
+            "evidence": "1.05 MB; mobile software 1.0.4 pairing. Repository timestamps are not verified release dates."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=t_R4j0kO81E",
+            "title": "Valeton GP-5 official introduction",
+            "access": "indexed official video metadata and description",
+            "evidence": "Published 26 May 2025; public introduction, first shipment unknown."
+          },
+          {
+            "url": "https://www.hotone.jp/manuals/valeton/GP-5.pdf",
+            "title": "Manufacturer GP-5 firmware 1.0.3 Japanese manual",
+            "access": "original PDF pitch table and cover read; retained prior complete algorithm audit",
+            "evidence": "Printed21 OCTA/Pitch explicitly polyphonic, separate low/high/dry controls and Detune ±50 cents; printed10 mono analog bypass and USB bypass restriction."
+          },
+          {
+            "url": "https://shop.valeton.net/products/gp-5",
+            "title": "Valeton official GP-5 shop",
+            "access": "web page read",
+            "evidence": "100 slots/50 factory, nine modules with limited order changes, 80 converted capture slots; not per-pitch CPU cost."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::GP-5",
       "Valeton::GP-50",
       "Valeton::Rushead Max Bass RH-101",
       "Valeton::Rushead Max RH-100",
@@ -203875,12 +203940,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 316,
-    "last_model": "Valeton::GP-200LT",
-    "last_commit_parent": "68b1a5ad7121e1686c9bf3357d2aa0f9c9c86b66",
+    "completed_model_count": 317,
+    "last_model": "Valeton::GP-5",
+    "last_commit_parent": "d3d372df5f6bb29537ee0532b5528c7f1ae812e9",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::GP-5",
       "Valeton::GP-50",
       "Valeton::Rushead Max Bass RH-101",
       "Valeton::Rushead Max RH-100",
@@ -203967,7 +204031,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 316,
+    "pitch_completed_model_count": 317,
     "supplemental_model_count": 0
   },
   "model_images": {
