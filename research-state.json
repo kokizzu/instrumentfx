@@ -222772,7 +222772,7 @@
       },
       "Valeton::Dapper Indie": {
         "model_key": "Valeton::Dapper Indie",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
             "image_url": "https://shop.valeton.net/cdn/shop/products/DapperIndie_Front_Hi_V01_181004_1500x.png?v=1639984228",
@@ -222785,6 +222785,18 @@
             "exact_top_down": false
           },
           "rear": {
+            "image_url": "https://hotmusic.jp/cdn/shop/files/DapperIndie_Top_Hi_V01_181225.jpg?v=1759306726&width=1440",
+            "source_url": "https://hotmusic.jp/products/valeton-dapper-indie",
+            "caption": "Dapper Indie straight connector-panel photograph",
+            "note": "Full straight-on connector edge: quarter-inch IN at left,9VDC barrel input with center-negative polarity, smaller headphone socket with headphone symbol and quarter-inch OUT at right. All four sockets visible and unplugged. The source filename says Top, but actual pixels show the connector panel, not an overhead control face. No current-draw figure legible; polarity and port positions do not establish measured consumption. [Previous angled connector view](https://shop.valeton.net/cdn/shop/products/DapperIndie_Rear_Perspective_Hi_V01_181225_1500x.png?v=1639984229).",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "9675ad83565f5ab31fe8b949014e6d7a48b0c0dd02602d50437199a46bb7b359"
+          }
+        },
+        "inspected_alternatives": [
+          {
             "image_url": "https://shop.valeton.net/cdn/shop/products/DapperIndie_Rear_Perspective_Hi_V01_181225_1500x.png?v=1639984229",
             "source_url": "https://shop.valeton.net/products/dapper-indie",
             "caption": "Angled Indie connector-edge stock photograph.",
@@ -222794,7 +222806,7 @@
             "powered_on": false,
             "exact_top_down": false
           }
-        }
+        ]
       },
       "Valeton::Dapper MDR": {
         "model_key": "Valeton::Dapper MDR",
@@ -227413,6 +227425,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::Mic Mechanic 2"
+    "last_model": "Valeton::Dapper Indie"
   }
 }
