@@ -342,6 +342,26 @@ Sources checked:
 
 <!-- firmware-pitch:JOYO::GEM BOX original ends -->
 
+<!-- model-images:JOYO::GEM BOX original begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Powered control surface**
+
+[![Powered control surface](https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/85/MTA-61232422/joyo_effect-guitar-joyo-multi-effect-processor-gem-box_full01.jpg)](https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/85/MTA-61232422/joyo_effect-guitar-joyo-multi-effect-processor-gem-box_full01.jpg)
+
+[Image source](https://www.blibli.com/p/effect-guitar-joyo-multi-effect-processor-gem-box/ps--HAA-70267-00253). The display is visibly illuminated at preset P2, and both knobs, footswitches and expression pedal are shown. This is a slightly oblique close-up with soft fine print and tight enclosure framing. A [clean overhead unpowered reference](https://www.mitrosmusic.com/media/inlineimage/upload_41862_1.jpg) was also visually checked. A powered, exactly top-down photograph remains pending.
+
+**Complete rear connector edge**
+
+[![Complete rear connector edge](https://stratusmusicstore.com.mx/cdn/shop/products/PEDALJOYOGEMBOXC2SWITCH2CONTROLES_2dd0ca16-2fc8-47f8-93bb-25bb690c00e0_800x.jpg?v=1607616512)](https://stratusmusicstore.com.mx/cdn/shop/products/PEDALJOYOGEMBOXC2SWITCH2CONTROLES_2dd0ca16-2fc8-47f8-93bb-25bb690c00e0_800x.jpg?v=1607616512)
+
+[Image source](https://stratusmusicstore.com.mx/products/gembox). Retailer photograph showing the original GEM BOX rear edge and an enlarged inset of all three sockets: 9 V DC power, INPUT and OUTPUT. No connector is hidden; the inset callouts identify the otherwise low-contrast molded labels.
+
+</details>
+<!-- model-images:JOYO::GEM BOX original ends -->
+
+
 Also called GEM BOX I / Gembox 1. **Technical/price review: 2026-10-15. Partial.** Ever-owned status comes from the previously recovered owner statements and delivery evidence, not a new purchase check. No private receipt or order information is published.
 
 JOYO's [Chinese product page](https://www.joyochina.cn/product/83.html) explicitly identifies GEM BOX, its technical table and GEM BOX I manual. The [matching English page](https://www.joyoaudio.com/product/83.html) identifies the original product and English manual. This resolves manufacturer identity without using the previously rejected MOOER-labelled document.
