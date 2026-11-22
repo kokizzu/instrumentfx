@@ -4861,6 +4861,32 @@ Checked2026-10-18 against the [original manual pp22–23][ZG21-M]; no software o
 
 ## G2Nu
 
+<!-- firmware-pitch:Zoom::G2Nu begins -->
+### Firmware and pitch audit — Zoom G2Nu
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2010 (manufacturer product-history year). Manufacturer chronology lists G2Nu under 2010; December 2009 mass production is not an exact retail-release date. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 1.10 — Latest verified. Current exact G2Nu Windows/Mac system 1.10 matches October 2011 eco-standby fix. Earlier 1.03 November 2010 addresses VintageCE and tuner display; 1.01 December 2009 is mass production. Editor, ASIO and USB-subsystem versions are separate. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2nu/g2nu-support/) [firmware 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G2Nu_G2.1Nu_v1.10_E.pdf) |
+| Firmware / release date | 2011-10 (month precision) |
+| Firmware / release-to-update duration | 0.75–1.83 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT, explicitly single-note MonoPitch, key/scale HPS and PDL Pitch share MODULATION. MonoPitch offers −12…−1, dt, +1…+12,+24 semitones. Generic pitch and pedal-pitch chord polyphony remain unverified. [pitch 1](https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf) [pitch 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G2Nu_G21Nu.pdf) |
+| Pitch / preset recall | 100 user plus 100 read-only memories; factory user sounds duplicate presets. No built-in treadle. External expression uses CONTROL IN; TOTAL/RTM destination and min/max save with the patch. G2.1Nu toe/calibration behavior is not transferred. |
+| Pitch / DSP resources | Maximum eight simultaneous modules with fixed categories. No exact per-pitch DSP percentage located. MODULATION alternatives are not freely stackable pitch blocks, and module count is not CPU cost. |
+| Pitch / qualifications | Official full manual exceeds browser size limit; indexed manufacturer passages inspected. No installation or hardware measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G2Nu under 2010. (official chronology inspected).
+- [G2Nu support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2nu/g2nu-support/) — Exact G2Nu system 1.10 Windows/Mac, separate Edit&Share. (official current listing inspected).
+- [G2Nu/G2.1Nu system version history](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G2Nu_G2.1Nu_v1.10_E.pdf) — 1.10 October 2011 eco standby fix; 1.03 November 2010; 1.01 December 2009 mass production. (official PDF read).
+- [G2Nu/G2.1Nu operation manual](https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf) — MonoPitch single-note, HPS, eight modules and memory limits. (official indexed effect and specification passages inspected).
+- [G2Nu/G2.1Nu manual official legacy copy](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G2Nu_G21Nu.pdf) — Expression destination/min/max settings; save before patch change. (official indexed RTM and pedal passages inspected).
+
+<!-- firmware-pitch:Zoom::G2Nu ends -->
+
 Checked 2026-10-19; partial. Separate from G2.1Nu and G2.1u. [Exact manufacturer support](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g2nu/g2nu-support/) and [own family manual](https://zoomcorp.com/media/documents/E_G2Nu_G21Nu_0.pdf), pp.4–5,50; text inspection. [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2nu/) marks discontinued. Ownership and bass/vocal suitability unverified.
 
 Current summary reconciled **2026-11-04** against the dated findings below, primarily checked **2026-10-19**. This is a summary correction, not a new full hardware/firmware audit. Original sources, counts, qualifications and contradictions remain in the following sections.

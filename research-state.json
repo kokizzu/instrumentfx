@@ -207851,10 +207851,85 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G2Nu": {
+        "model_key": "Zoom::G2Nu",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2010",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists G2Nu under 2010; December 2009 mass production is not an exact retail-release date."
+        },
+        "firmware": {
+          "version": "1.10",
+          "date": "2011-10",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2nu/g2nu-support/",
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G2Nu_G2.1Nu_v1.10_E.pdf"
+          ],
+          "note": "Current exact G2Nu Windows/Mac system 1.10 matches October 2011 eco-standby fix. Earlier 1.03 November 2010 addresses VintageCE and tuner display; 1.01 December 2009 is mass production. Editor, ASIO and USB-subsystem versions are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT, explicitly single-note MonoPitch, key/scale HPS and PDL Pitch share MODULATION. MonoPitch offers −12…−1, dt, +1…+12,+24 semitones. Generic pitch and pedal-pitch chord polyphony remain unverified.",
+          "preset": "100 user plus 100 read-only memories; factory user sounds duplicate presets. No built-in treadle. External expression uses CONTROL IN; TOTAL/RTM destination and min/max save with the patch. G2.1Nu toe/calibration behavior is not transferred.",
+          "dsp": "Maximum eight simultaneous modules with fixed categories. No exact per-pitch DSP percentage located. MODULATION alternatives are not freely stackable pitch blocks, and module count is not CPU cost.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf",
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G2Nu_G21Nu.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Official full manual exceeds browser size limit; indexed manufacturer passages inspected. No installation or hardware measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "G2Nu under 2010."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2nu/g2nu-support/",
+            "title": "G2Nu support",
+            "access": "official current listing inspected",
+            "evidence": "Exact G2Nu system 1.10 Windows/Mac, separate Edit&Share."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G2Nu_G2.1Nu_v1.10_E.pdf",
+            "title": "G2Nu/G2.1Nu system version history",
+            "access": "official PDF read",
+            "evidence": "1.10 October 2011 eco standby fix; 1.03 November 2010; 1.01 December 2009 mass production."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf",
+            "title": "G2Nu/G2.1Nu operation manual",
+            "access": "official indexed effect and specification passages inspected",
+            "evidence": "MonoPitch single-note, HPS, eight modules and memory limits."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G2Nu_G21Nu.pdf",
+            "title": "G2Nu/G2.1Nu manual official legacy copy",
+            "access": "official indexed RTM and pedal passages inspected",
+            "evidence": "Expression destination/min/max settings; save before patch change."
+          }
+        ],
+        "duration": {
+          "minimum_days": 274,
+          "maximum_days": 668,
+          "label": "0.75–1.83 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G2Nu",
       "Zoom::G2X FOUR",
       "Zoom::G3",
       "Zoom::G3n",
@@ -207885,12 +207960,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 373,
-    "last_model": "Zoom::G2.1u",
-    "last_commit_parent": "137b4f4d515c15e4840dabf13c745addbebde60c",
+    "completed_model_count": 374,
+    "last_model": "Zoom::G2Nu",
+    "last_commit_parent": "ec138fbe36e3e02cc0dd099c1b8a258273bdf16e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G2Nu",
       "Zoom::G2X FOUR",
       "Zoom::G3",
       "Zoom::G3n",
@@ -207920,7 +207994,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 373,
+    "pitch_completed_model_count": 374,
     "supplemental_model_count": 0
   },
   "model_images": {
