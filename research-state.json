@@ -212561,11 +212561,37 @@
             "note": "Whole front controls readable, but LCD blank. Green display material does not establish powered-on state."
           }
         ]
+      },
+      "Yamaha::SPX1000": {
+        "model_key": "Yamaha::SPX1000",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://i.ebayimg.com/images/g/EpgAAOSwdLZnvQrm/s-l1200.png",
+            "source_url": "https://www.ebay.com/itm/235975161352",
+            "caption": "SPX1000 powered control face",
+            "note": "Visually checked complete front control face and top chassis from a raised front angle: illuminated green CHORUS display, red15 memory display and green meters/status LEDs. Concentric L/R input controls,15 rectangular control buttons, separate power rocker and two EXT CTRL/FOOT VOL jacks visible. This is powered rack hardware seen from above/front, not a vertical overhead view. Preset15 is not a firmware version; no audio or controller test inferred.",
+            "visual_checked": true,
+            "sha256": "5c0112a05cce990236929b6f3c2fd1bfce539128dbb739307f121a412574e6da",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://shop.soundart.com/cdn/shop/products/SPX1000_2_1024x1024.jpg?v=1642724662",
+            "source_url": "https://shop.soundart.com/products/used-yamaha-spx1000-processing",
+            "caption": "SPX1000 rear connectors",
+            "note": "Visually checked entire rear and top chassis: BYPASS and INC/DEC footswitch jacks; TRIGGER1 SW and TRIGGER2 ANALOG with MIC/LINE selector; switchable MIDI OUT/THRU plus MIDI IN; proprietary8pin DIGITAL I/O OUT/IN; quarter-inch OUTPUT R/L and INPUT R/L-MONO with separate+4/−20dB selectors; captive mains lead. Marked120V22W60Hz, not2A or universal voltage. No rear XLR, USB, PHONES or extra expression jack shown. Digital format follows own manual, not an S/PDIF assumption from connector presence; front expression inputs recorded separately. Powered state unavailable from rear.",
+            "visual_checked": true,
+            "sha256": "d8d7c3ab35908ec65386742606a72b7054937b2c6033bc0058ba0ff977978e5d",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::REV500"
+    "last_model": "Yamaha::SPX1000"
   }
 }
