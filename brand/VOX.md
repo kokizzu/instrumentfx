@@ -465,6 +465,30 @@ Both checked2026-10-17. Rp10,000 late-arrival compensation is not a purchase dis
 
 ## ToneLab EX
 
+<!-- firmware-pitch:VOX::ToneLab EX begins -->
+### Firmware and pitch audit — VOX ToneLab EX
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2011-01-13 (manufacturer NAMM public announcement reproduced by archive; shipment unresolved). VOX-authored announcement dateline says Winter NAMM,13January2011; archive published14January. Announcement is distinct from first retail shipment; manual copyright2010 is not launch date. [launch 1](https://www.effectsdatabase.com/model/vox/valvetronix/tonelab/ex) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact EX device firmware package/release chronology located in checked official sources. Product-page VOX2ch2.0.0 notes describe a Windows host audio driver, not device firmware. Sound Librarian and generic drivers are separate tracks; legacy production status does not prove no internal firmware. Nothing installed or run. [firmware 1](https://voxamps.com/product/tonelab-ex/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Own E1 manual explicitly says PITCH allows chords, establishing documented chord-capable shifting rather than a hands-on quality test. Range −12…+12 semitones plus DT; direct/effect balance and pedal pitch control documented. [pitch 1](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf) [pitch 2](https://voxamps.com/product/tonelab-ex/) |
+| Pitch / preset recall | 200 locations:100 factory+100 user. Pedal assignment/ranges save per program; instantaneous PITCH pitch is a save exception. On initial pitch assignment, minimum is0 and maximum is current pitch value. |
+| Pitch / DSP resources | No per-pitch DSP percentage published in inspected sources. MOD effect selection, 45-choice library and host-driver latency claims do not establish pitch CPU cost or processing latency. |
+| Pitch / qualifications | Chord capability is directly manufacturer-documented; no maximum note count, latency, artifact quality or tracking benchmark established. Exact EX evidence used; no ToneLab LE/SE/ST algorithm, firmware or DSP value inherited. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [VOX ToneLab EX E1 owner manual](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf) — Printed27 PITCH supports chords, ±12semitones/DT; expression/save qualifications. No pitch CPU percentage. (official PDF original PITCH and expression passages read).
+- [VOX ToneLab EX legacy product](https://voxamps.com/product/tonelab-ex/) — Legacy status;200locations, host VOX2ch driver release notes distinct from device firmware. (web page read).
+- [VOX-authored ToneLab EX NAMM announcement reproduced by Effects Database](https://www.effectsdatabase.com/model/vox/valvetronix/tonelab/ex) — Dateline13January2011; archive publication14January is separate. First shipment unresolved. (manufacturer announcement body read on archive host).
+
+<!-- firmware-pitch:VOX::ToneLab EX ends -->
+
 Checked 2026-10-17. Partial guitar multi-effects record; distinct from LE/ST/SE. [VOX manual E1](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf),44pages,©2010;web text read,no download orvisual audit.
 
 | Field | Evidence / gaps |

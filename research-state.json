@@ -204415,10 +204415,69 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "VOX::ToneLab EX": {
+        "model_key": "VOX::ToneLab EX",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2011-01-13",
+          "precision": "day",
+          "kind": "manufacturer NAMM public announcement reproduced by archive; shipment unresolved",
+          "source_urls": [
+            "https://www.effectsdatabase.com/model/vox/valvetronix/tonelab/ex"
+          ],
+          "note": "VOX-authored announcement dateline says Winter NAMM,13January2011; archive published14January. Announcement is distinct from first retail shipment; manual copyright2010 is not launch date."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://voxamps.com/product/tonelab-ex/"
+          ],
+          "note": "No exact EX device firmware package/release chronology located in checked official sources. Product-page VOX2ch2.0.0 notes describe a Windows host audio driver, not device firmware. Sound Librarian and generic drivers are separate tracks; legacy production status does not prove no internal firmware. Nothing installed or run."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Own E1 manual explicitly says PITCH allows chords, establishing documented chord-capable shifting rather than a hands-on quality test. Range −12…+12 semitones plus DT; direct/effect balance and pedal pitch control documented.",
+          "preset": "200 locations:100 factory+100 user. Pedal assignment/ranges save per program; instantaneous PITCH pitch is a save exception. On initial pitch assignment, minimum is0 and maximum is current pitch value.",
+          "dsp": "No per-pitch DSP percentage published in inspected sources. MOD effect selection, 45-choice library and host-driver latency claims do not establish pitch CPU cost or processing latency.",
+          "source_urls": [
+            "https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf",
+            "https://voxamps.com/product/tonelab-ex/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Chord capability is directly manufacturer-documented; no maximum note count, latency, artifact quality or tracking benchmark established.",
+            "Exact EX evidence used; no ToneLab LE/SE/ST algorithm, firmware or DSP value inherited."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf",
+            "title": "VOX ToneLab EX E1 owner manual",
+            "access": "official PDF original PITCH and expression passages read",
+            "evidence": "Printed27 PITCH supports chords, ±12semitones/DT; expression/save qualifications. No pitch CPU percentage."
+          },
+          {
+            "url": "https://voxamps.com/product/tonelab-ex/",
+            "title": "VOX ToneLab EX legacy product",
+            "access": "web page read",
+            "evidence": "Legacy status;200locations, host VOX2ch driver release notes distinct from device firmware."
+          },
+          {
+            "url": "https://www.effectsdatabase.com/model/vox/valvetronix/tonelab/ex",
+            "title": "VOX-authored ToneLab EX NAMM announcement reproduced by Effects Database",
+            "access": "manufacturer announcement body read on archive host",
+            "evidence": "Dateline13January2011; archive publication14January is separate. First shipment unresolved."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "VOX::ToneLab EX",
       "VOX::ToneLab LE",
       "VOX::ToneLab SE",
       "VOX::ToneLab ST",
@@ -204497,12 +204556,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 325,
-    "last_model": "VOX::StompLab 2G",
-    "last_commit_parent": "d9dc83e35206c1346329c37fde74d5b1bdc839c2",
+    "completed_model_count": 326,
+    "last_model": "VOX::ToneLab EX",
+    "last_commit_parent": "4a4968f86a53470c529c65186c5c1171d581d19e",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "VOX::ToneLab EX",
       "VOX::ToneLab LE",
       "VOX::ToneLab SE",
       "VOX::ToneLab ST",
@@ -204580,7 +204638,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 325,
+    "pitch_completed_model_count": 326,
     "supplemental_model_count": 0
   },
   "model_images": {
