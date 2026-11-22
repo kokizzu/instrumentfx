@@ -248,6 +248,31 @@ This existing bass record isnow linked fromthe creative index;no guitar membersh
 
 ## Fly Rig 5 v2
 
+<!-- firmware-pitch:Tech 21::Fly Rig 5 v2 begins -->
+### Firmware and pitch audit — Tech 21 Fly Rig 5 v2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2019-01-16 (dated manufacturer announcement republication; first shipment unresolved). Manufacturer announcement text republished January 16, 2019. This is public introduction, not verified first shipment; the original Fly Rig 2014 date is not transferred to v2. [launch 1](https://jazzguitartoday.com/2019/01/tech-21-introduces-three-new-fly-rigs/) |
+| Firmware / latest verification | Not verified — No public firmware located. No numbered device firmware release, release date or user updater located in checked manufacturer sources. Current product links OM4 rev10/24, an owner-manual revision rather than firmware 4 or an October 2024 device update. v2 is hardware model naming; all-analog SansAmp does not establish absence of embedded firmware elsewhere. [firmware 1](https://www.tech21nyc.com/products/flyrig/flyrig5/) [firmware 2](https://www.tech21nyc.com/support/) [firmware 3](https://www.tech21nyc.com/wp-content/uploads/2024/10/FlyRig5_v2_OM4.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Delay TIME adjustment changes pitch; DRIFT adds random tape-style modulation. No dedicated stable semitone transposer, octave divider or harmonizer documented in checked exact-model sources. [pitch 1](https://www.tech21nyc.com/wp-content/uploads/2024/10/FlyRig5_v2_OM4.pdf) [pitch 2](https://www.tech21nyc.com/products/flyrig/flyrig5/) |
+| Pitch / preset recall | Delay TIME, REPEATS and LEVEL plus DRIFT/8TH switches; no programmable pitch-memory count or stable semitone range documented. |
+| Pitch / DSP resources | No pitch CPU percentage, DSP meter or per-algorithm resource figure published in checked sources. Delay timing, active EQ and analog SansAmp specifications are not CPU costs. |
+| Pitch / qualifications | Pitch-present classification covers documented variable-delay pitch behavior; it is not proof of polyphonic drop tuning or note-tracked harmonies. Tap-tempo changes preserve pitch whereas turning TIME changes it. DRIFT modulation is not a separate pitch-shifter slot. Do not transfer the Bass Fly Rig octave divider or Acoustic Fly Rig chorus to this model. No hardware/audio tests performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Tech 21 manufacturer announcement republished by Jazz Guitar Today](https://jazzguitartoday.com/2019/01/tech-21-introduces-three-new-fly-rigs/) — January 16, 2019 dated introduction of Fly Rig 5 v2, distinct from original 2014 Fly Rig. (web announcement text read).
+- [Tech 21 Fly Rig 5 v2 official product](https://www.tech21nyc.com/products/flyrig/flyrig5/) — Exact v2 product with delay DRIFT; current manual link is OM4. No numbered firmware listed. (web page read).
+- [Tech 21 official support](https://www.tech21nyc.com/support/) — Exact v2 manual listed; no v2 updater/release identified. (web page read).
+- [Fly Rig 5 v2 official OM4 owner manual rev10/24](https://www.tech21nyc.com/wp-content/uploads/2024/10/FlyRig5_v2_OM4.pdf) — Manual revision10/24, not firmware. Printed pp5–8 delay pitch behavior, DRIFT and controls; no dedicated chromatic shifter or DSP cost documented. (web PDF text read).
+
+<!-- firmware-pitch:Tech 21::Fly Rig 5 v2 ends -->
+
 Version 2 only; original Fly Rig 5 and RK5 are distinct. Checked 2026-10-17; partial. Manufacturer manual OM3, ©2019, revision12/20.
 
 | Field | Finding / qualification | Evidence |
