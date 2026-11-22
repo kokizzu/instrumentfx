@@ -2168,6 +2168,32 @@ Tracking quality and latency remain unmeasured. Existing expression,hardware and
 
 ## B2 FOUR
 
+<!-- firmware-pitch:Zoom::B2 FOUR begins -->
+### Firmware and pitch audit — Zoom B2 FOUR
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2023 (manufacturer product-history year). Manufacturer chronology lists B2 FOUR in2023. Exact initial retail date not verified; app announcements are not treated as hardware shipment dates. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Current US and Japanese support lists show a Windows driver and documents, with no system firmware package located. Manual documents update capability, but illustrative SYSTEM1.00 screen is not latest-version evidence. Latest firmware and date unresolved; driver/app updates excluded. [firmware 1](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/b2four-support/) [firmware 2](https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b2-four/b2four-support/) [firmware 3](https://zoomcorp.com/manuals/b2four-en/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Bass Polyphonic Pitch Shifter explicitly supports chords, SHIFT−24…+12 semitones. Separate Pitchshift spans−12…+12,+24; Bass Mono Pitch Shifter is single-note, and Harmony Pitch Shifter is key/scale-based. Bass Pedal Pitch has selectable sweeps; its chord handling is not established by the separate polyphonic algorithm. [pitch 1](https://zoomcorp.com/manuals/b2four-en/) [pitch 2](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf) |
+| Pitch / preset recall | 300 patch memories save effect types, on/off states and parameters. External FP02M controls the selected pedal effect; only one PEDAL-category effect per patch. Output Volume Pedal retains level across patch changes, but does not establish a simultaneous global expression override with pedal pitch. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Up to five effects; PROCESS OVERFLOW bypasses effects when capacity is exceeded. Replace an effect to resolve it. Rhythm and looper are selectable effects; five slots do not guarantee five heavy algorithms. |
+| Pitch / qualifications | Published capability only; no tracking/latency measurement, firmware installation or DSP benchmarking. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — B2 FOUR listed in2023. (official chronology inspected).
+- [B2 FOUR US support](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/b2four-support/) — Windows driver and documents; no system updater listed. (current official package list inspected).
+- [B2 FOUR Japanese support](https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b2-four/b2four-support/) — Windows driver and documents; no system updater located. (current official package list inspected).
+- [B2 FOUR operation manual](https://zoomcorp.com/manuals/b2four-en/) — 300 patches,five effects,PROCESS OVERFLOW,one pedal effect per patch;firmware update capability with illustrative1.00 screenshot. (official HTML manual inspected).
+- [B2 FOUR effects and parameters](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf) — Chord-capable Bass Polyphonic Pitch Shifter−24…+12;separate mono/pedal/harmony algorithms;Output Volume Pedal retains level. (official PDF pp12–13,17 inspected).
+
+<!-- firmware-pitch:Zoom::B2 FOUR ends -->
+
 Bass multi-effects; external-only expression. Consolidated and expanded2026-10-16; partial. All15 model fields from the complete legacy bass comparison are preserved below with their original2026-10-14 dates and USD qualifications. New primary checks and IDR observations are separate.
 
 ### B2 FOUR — complete retained model fields

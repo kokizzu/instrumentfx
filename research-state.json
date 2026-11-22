@@ -206677,10 +206677,157 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::B2 FOUR": {
+        "model_key": "Zoom::B2 FOUR",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2023",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists B2 FOUR in2023. Exact initial retail date not verified; app announcements are not treated as hardware shipment dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/b2four-support/",
+            "https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b2-four/b2four-support/",
+            "https://zoomcorp.com/manuals/b2four-en/"
+          ],
+          "note": "Current US and Japanese support lists show a Windows driver and documents, with no system firmware package located. Manual documents update capability, but illustrative SYSTEM1.00 screen is not latest-version evidence. Latest firmware and date unresolved; driver/app updates excluded."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Bass Polyphonic Pitch Shifter explicitly supports chords, SHIFT−24…+12 semitones. Separate Pitchshift spans−12…+12,+24; Bass Mono Pitch Shifter is single-note, and Harmony Pitch Shifter is key/scale-based. Bass Pedal Pitch has selectable sweeps; its chord handling is not established by the separate polyphonic algorithm.",
+          "preset": "300 patch memories save effect types, on/off states and parameters. External FP02M controls the selected pedal effect; only one PEDAL-category effect per patch. Output Volume Pedal retains level across patch changes, but does not establish a simultaneous global expression override with pedal pitch.",
+          "dsp": "No per-pitch DSP percentage published. Up to five effects; PROCESS OVERFLOW bypasses effects when capacity is exceeded. Replace an effect to resolve it. Rhythm and looper are selectable effects; five slots do not guarantee five heavy algorithms.",
+          "source_urls": [
+            "https://zoomcorp.com/manuals/b2four-en/",
+            "https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Published capability only; no tracking/latency measurement, firmware installation or DSP benchmarking."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "B2 FOUR listed in2023."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/b2four-support/",
+            "title": "B2 FOUR US support",
+            "access": "current official package list inspected",
+            "evidence": "Windows driver and documents; no system updater listed."
+          },
+          {
+            "url": "https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b2-four/b2four-support/",
+            "title": "B2 FOUR Japanese support",
+            "access": "current official package list inspected",
+            "evidence": "Windows driver and documents; no system updater located."
+          },
+          {
+            "url": "https://zoomcorp.com/manuals/b2four-en/",
+            "title": "B2 FOUR operation manual",
+            "access": "official HTML manual inspected",
+            "evidence": "300 patches,five effects,PROCESS OVERFLOW,one pedal effect per patch;firmware update capability with illustrative1.00 screenshot."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf",
+            "title": "B2 FOUR effects and parameters",
+            "access": "official PDF pp12–13,17 inspected",
+            "evidence": "Chord-capable Bass Polyphonic Pitch Shifter−24…+12;separate mono/pedal/harmony algorithms;Output Volume Pedal retains level."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Zoom::B2 FOUR",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2023",
+              "precision": "year",
+              "kind": "manufacturer product-history year",
+              "source_urls": [
+                "https://ir.zoom.co.jp/en/corporate/history/"
+              ],
+              "note": "Manufacturer chronology lists B2 FOUR in2023. Exact initial retail date not verified; app announcements are not treated as hardware shipment dates."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/b2four-support/",
+                "https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b2-four/b2four-support/",
+                "https://zoomcorp.com/manuals/b2four-en/"
+              ],
+              "note": "Current US and Japanese support lists show a Windows driver and documents, with no system firmware package located. Manual documents update capability, but illustrative SYSTEM1.00 screen is not latest-version evidence. Latest firmware and date unresolved; driver/app updates excluded."
+            },
+            "pitch": {
+              "status": "documented_polyphonic",
+              "algorithms": "Bass Polyphonic Pitch Shifter explicitly supports chords, SHIFT−24…+12 semitones. Separate Pitchshift spans−12…+12,+24; Bass Mono Pitch is single-note, and Harmony Pitch Shift is key/scale-based. Bass Pedal Pitch has selectable sweeps; its chord handling is not established by the separate polyphonic algorithm.",
+              "preset": "300 patch memories save effect types, on/off states and parameters. External FP02M controls the selected pedal effect; only one PEDAL-category effect per patch. Output Volume Pedal retains level across patch changes, but does not establish a simultaneous global expression override with pedal pitch.",
+              "dsp": "No per-pitch DSP percentage published. Up to five effects; PROCESS OVERFLOW bypasses effects when capacity is exceeded. Replace an effect to resolve it. Rhythm and looper are selectable effects; five slots do not guarantee five heavy algorithms.",
+              "source_urls": [
+                "https://zoomcorp.com/manuals/b2four-en/",
+                "https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Published capability only; no tracking/latency measurement, firmware installation or DSP benchmarking."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://ir.zoom.co.jp/en/corporate/history/",
+                "title": "Zoom corporate product history",
+                "access": "official chronology inspected",
+                "evidence": "B2 FOUR listed in2023."
+              },
+              {
+                "url": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/b2four-support/",
+                "title": "B2 FOUR US support",
+                "access": "current official package list inspected",
+                "evidence": "Windows driver and documents; no system updater listed."
+              },
+              {
+                "url": "https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b2-four/b2four-support/",
+                "title": "B2 FOUR Japanese support",
+                "access": "current official package list inspected",
+                "evidence": "Windows driver and documents; no system updater located."
+              },
+              {
+                "url": "https://zoomcorp.com/manuals/b2four-en/",
+                "title": "B2 FOUR operation manual",
+                "access": "official HTML manual inspected",
+                "evidence": "300 patches,five effects,PROCESS OVERFLOW,one pedal effect per patch;firmware update capability with illustrative1.00 screenshot."
+              },
+              {
+                "url": "https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf",
+                "title": "B2 FOUR effects and parameters",
+                "access": "official PDF pp12–13,17 inspected",
+                "evidence": "Chord-capable Bass Polyphonic Pitch Shifter−24…+12;separate mono/pedal/harmony algorithms;Output Volume Pedal retains level."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       }
     },
     "next_models": [
-      "Zoom::B2 FOUR",
       "Zoom::B2.1u",
       "Zoom::B3",
       "Zoom::B3n",
@@ -206726,12 +206873,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 358,
-    "last_model": "Zoom::B2",
-    "last_commit_parent": "1358a861495d2d13e451d2910649a6326f100ed1",
+    "completed_model_count": 359,
+    "last_model": "Zoom::B2 FOUR",
+    "last_commit_parent": "0519b357ee6835b223a0444a7552e4458bc208bb",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::B2 FOUR",
       "Zoom::B2.1u",
       "Zoom::B3",
       "Zoom::B3n",
@@ -206776,7 +206922,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 358,
+    "pitch_completed_model_count": 359,
     "supplemental_model_count": 0
   },
   "model_images": {
