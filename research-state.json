@@ -214337,11 +214337,27 @@
             "powered_on": false
           }
         }
+      },
+      "Zoom::B1X original": {
+        "model_key": "Zoom::B1X original",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://zoom.co.jp/sites/default/files/products/downloads/images/B1X_top.jpg",
+            "source_url": "https://zoom.co.jp/ja/products/bass/b1x-bass-effects-pedal",
+            "caption": "Original B1X overhead product image",
+            "note": "Manufacturer overhead image of the original red B1X: two rotary controls, four push-buttons, two circular footswitches and built-in treadle. A0 and the WAH/EFX indicator are shown illuminated, but this studio product image does not independently verify an actual powered photograph. Real powered overhead and exact original-model rear photographs remain pending; newer FOUR/on images were excluded.",
+            "visual_checked": true,
+            "sha256": "b4d49d72de860126184d48acb14f6266799bba1bba7176e4502130320a370674",
+            "powered_on": false,
+            "exact_top_down": true
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B1X FOUR"
+    "last_model": "Zoom::B1X original"
   }
 }

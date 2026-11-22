@@ -1852,6 +1852,22 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::B1X original ends -->
 
+<!-- model-images:Zoom::B1X original begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Original B1X overhead product image**
+
+[![Original B1X overhead product image](https://zoom.co.jp/sites/default/files/products/downloads/images/B1X_top.jpg)](https://zoom.co.jp/sites/default/files/products/downloads/images/B1X_top.jpg)
+
+[Image source](https://zoom.co.jp/ja/products/bass/b1x-bass-effects-pedal). Manufacturer overhead image of the original red B1X: two rotary controls, four push-buttons, two circular footswitches and built-in treadle. A0 and the WAH/EFX indicator are shown illuminated, but this studio product image does not independently verify an actual powered photograph. Real powered overhead and exact original-model rear photographs remain pending; newer FOUR/on images were excluded.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:Zoom::B1X original ends -->
+
+
 Checked 2026-10-17; partial. Bass-focused processor; ownership and guitar/vocal suitability unverified. Original B1X,not B1Xon or FOUR; seller “Next” alias unresolved.
 
 <!-- comparison evidence begins -->
