@@ -220710,11 +220710,38 @@
             "sha256": "762ff5ee961d0de24e2be683fcfbbb2591ec21d90796a23b6e2b2a72720c34fe"
           }
         ]
+      },
+      "Audota::AME-200 Pro": {
+        "model_key": "Audota::AME-200 Pro",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/AME-200Pro/AME-200%20Pro%E6%AD%A3%E8%A7%86%E5%9B%BE.png",
+            "source_url": "https://www.audota.com/AME200ProEN.html",
+            "caption": "Straight overhead control-layout render",
+            "note": "Manufacturer product render showing the entire Pro control surface, five footswitches including Ctrl, two rotary knobs, four buttons and the built-in expression pedal. The displayed preset and colored indicators are rendered; this is not evidence of a physically powered unit. A powered exactly top-down physical photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": true,
+            "image_kind": "product_render",
+            "sha256": "3c176de68125b0002b67af51376c0550a499b35e6e6659d92f2ee641938269de"
+          },
+          "rear": {
+            "image_url": "https://audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/AME-200Pro/AME-200%20Pro%E7%AB%8B%E4%BD%93%E5%9B%BE%EF%BC%88%E5%8F%8D%EF%BC%89.png",
+            "source_url": "https://www.audota.com/AME200ProEN.html",
+            "caption": "Rear connector edge — angled product render",
+            "note": "Manufacturer render showing INPUT, OUTPUT L/R, headphones, USB-C, power switch and 9 V DC. The connector group is visible, although the image is rotated, the labels are dark and the near chassis corner is cropped. This Pro has a built-in expression pedal; the standard AME-200 external EXP jack must not be inferred here. A dedicated physical rear photograph with upright labels remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "image_kind": "product_render",
+            "sha256": "f1b3979d0f54a139150b73aaafb899d749faf164e1f19b49350b3a227537279d"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Audota::AME-200"
+    "last_model": "Audota::AME-200 Pro"
   }
 }
