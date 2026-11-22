@@ -7195,6 +7195,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G7.1ut ends -->
 
+<!-- model-images:Zoom::G7.1ut begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G7.1ut control face**
+
+[![G7.1ut control face](https://img.ricardostatic.ch/images/4f848782-0d04-49a8-aafa-3ea1f8ec4b31/t_1000x750/zoom-g71ut-guitar-effects-console)](https://img.ricardostatic.ch/images/4f848782-0d04-49a8-aafa-3ea1f8ec4b31/t_1000x750/zoom-g71ut-guitar-effects-console)
+
+[Image source](https://www.ricardo.ch/fr/a/zoom-g71ut-guitar-effects-console-1260911010/). Complete near-overhead G7.1ut control-face photograph with full expression treadle. Powered operation is not verified: LCD text is absent and the segment display is not clearly active. A verified powered photograph remains pending.
+
+**G7.1ut rear connections**
+
+[![G7.1ut rear connections](https://i.ebayimg.com/images/g/noAAAOSw8Nhm1xcL/s-l1600.jpg)](https://i.ebayimg.com/images/g/noAAAOSw8Nhm1xcL/s-l1600.jpg)
+
+[Image source](https://www.ebay.com/itm/145999834980). Actual complete rear: INPUT; −10dBm/+4dBm GAIN SW; OUTPUT R and L/MONO; separate PHONES; LEVEL knob; AUX IN; USB Type-B; CONTROL IN; MIDI OUT/IN; power inlet visibly labelled 15VAC 1.5A; cable restraint and ON/OFF switch. The physical AC label conflicts with the manual safety paragraph saying DC; do not treat this as a generic 9V pedal input.
+
+</details>
+<!-- model-images:Zoom::G7.1ut ends -->
+
+
 Guitar multi-effects;distinct fromG9.2tt/G5. Checked2026-10-17;partial. Discontinued;ownership andbass/vocal applicability unresolved.
 
 | Field | Finding / qualification | Evidence |
