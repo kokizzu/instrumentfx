@@ -1316,6 +1316,26 @@ Sources checked:
 
 <!-- firmware-pitch:TC-Helicon::VoiceLive 3 Extreme ends -->
 
+<!-- model-images:TC-Helicon::VoiceLive 3 Extreme begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**VoiceLive 3 Extreme powered-on owner photograph**
+
+[![VoiceLive 3 Extreme powered-on owner photograph](https://4.bp.blogspot.com/-6t_tcXm9fqA/V4XeBmBc56I/AAAAAAAABW4/5U9oA3sttc4YjOvIAEbgwW1p9LEXYcqCgCLcB/s1600/%25E5%2586%2599%25E7%259C%259F.JPG)](https://4.bp.blogspot.com/-6t_tcXm9fqA/V4XeBmBc56I/AAAAAAAABW4/5U9oA3sttc4YjOvIAEbgwW1p9LEXYcqCgCLcB/s1600/%25E5%2586%2599%25E7%259C%259F.JPG)
+
+[Image source](https://takahironakajima.blogspot.com/2016/07/tc-helicon-voicelive-3-extreme.html). Actual Extreme owner unit with connected cables, lit blue footswitch rings and readable MID REVERB preset 2 LCD. Five rotary controls, ten footswitches and nine separate face buttons visible; alternate Comp/Drive labels are shared switches. Photograph looks down on the full control face but has trapezoidal perspective, not strict perpendicular top-down. This verifies an operating display, not audio quality or firmware build.
+
+**VoiceLive 3 Extreme rear ports — manufacturer stock image**
+
+[![VoiceLive 3 Extreme rear ports — manufacturer stock image](https://cdn-media.empowertribe.com/ef1d6580281843de8721bc3d8ecf3550/Image_TH_0726-AAY_VOICELIVE-3-EXTREME_Rear_XL.png)](https://cdn-media.empowertribe.com/ef1d6580281843de8721bc3d8ecf3550/Image_TH_0726-AAY_VOICELIVE-3-EXTREME_Rear_XL.png)
+
+[Image source](https://www.tchelicon.com/en/products/0726-AAY). Manufacturer exact-model rear inspected: combo MIC/LINE, quarter-inch GUITAR IN/THRU, AUX stereo minijack, XLR MONITOR IN/THRU, headphone minijack, XLR VOICE L(MONO)/R(DRY), GND LIFT, quarter-inch GUITAR L/R, separate FOOTSWITCH and EXPRESSION sockets, five-pin MIDI IN/OUT, USB-A and Mini-B, center-negative DC input, power button and security slot. No external SD backup slot is visible. Voltage/current not read from this unlabeled power socket; no USB power or audio-routing claims inferred from connector presence.
+
+</details>
+<!-- model-images:TC-Helicon::VoiceLive 3 Extreme ends -->
+
+
 Guitar/vocal multi-effects; distinct from standard VoiceLive3. Checked2026-10-17, partial. Manufacturer PDF endpoints failed. Manufacturer-authored mirror identifies VL3X, firmware2.1.00 build346, reference manual2015-10-20; model/title/section identity checked against official indexed Extreme manual. Current firmware/revision equivalence unverified; generated mirror FAQs excluded.
 
 <!-- comparison evidence begins -->

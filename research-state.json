@@ -208380,11 +208380,45 @@
             "exact_top_down": false
           }
         }
+      },
+      "TC-Helicon::VoiceLive 3 Extreme": {
+        "model_key": "TC-Helicon::VoiceLive 3 Extreme",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://4.bp.blogspot.com/-6t_tcXm9fqA/V4XeBmBc56I/AAAAAAAABW4/5U9oA3sttc4YjOvIAEbgwW1p9LEXYcqCgCLcB/s1600/%25E5%2586%2599%25E7%259C%259F.JPG",
+            "source_url": "https://takahironakajima.blogspot.com/2016/07/tc-helicon-voicelive-3-extreme.html",
+            "caption": "VoiceLive 3 Extreme powered-on owner photograph",
+            "note": "Actual Extreme owner unit with connected cables, lit blue footswitch rings and readable MID REVERB preset 2 LCD. Five rotary controls, ten footswitches and nine separate face buttons visible; alternate Comp/Drive labels are shared switches. Photograph looks down on the full control face but has trapezoidal perspective, not strict perpendicular top-down. This verifies an operating display, not audio quality or firmware build.",
+            "visual_checked": true,
+            "sha256": "f6ffca3df2b9202e04e49018ecdd60cab5511f97cbbae514e6be5ab61ba3341c",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://cdn-media.empowertribe.com/ef1d6580281843de8721bc3d8ecf3550/Image_TH_0726-AAY_VOICELIVE-3-EXTREME_Rear_XL.png",
+            "source_url": "https://www.tchelicon.com/en/products/0726-AAY",
+            "caption": "VoiceLive 3 Extreme rear ports — manufacturer stock image",
+            "note": "Manufacturer exact-model rear inspected: combo MIC/LINE, quarter-inch GUITAR IN/THRU, AUX stereo minijack, XLR MONITOR IN/THRU, headphone minijack, XLR VOICE L(MONO)/R(DRY), GND LIFT, quarter-inch GUITAR L/R, separate FOOTSWITCH and EXPRESSION sockets, five-pin MIDI IN/OUT, USB-A and Mini-B, center-negative DC input, power button and security slot. No external SD backup slot is visible. Voltage/current not read from this unlabeled power socket; no USB power or audio-routing claims inferred from connector presence.",
+            "visual_checked": true,
+            "sha256": "18c4a8eaa2410e05fd2d736a1cafe2b14e780c618dedd2392baf290ba53bf3fa",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://nafiriguitar.com/cdn/shop/files/01EC91FF-B643-4257-B124-F9F6B682AFD2.jpg?v=1727952620",
+            "sha256": "da4843023353c03a0f23bb6373602841c2c6312b0bb1e23ee8eab1614e81a73c",
+            "visual_checked": true,
+            "note": "Actual exact Extreme overhead unit, but blue screen is blank under protective film and no operating indicators/readable preset. Not accepted as independent powered-on proof."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::Play Acoustic"
+    "last_model": "TC-Helicon::VoiceLive 3 Extreme"
   }
 }
