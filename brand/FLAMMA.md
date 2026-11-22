@@ -519,7 +519,7 @@ Remaining: actual unit revision/power label,current requirement,barrel/phantom d
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. V01/2021-08-25 is documentation age, not a verified first sale. Regional retailer October2021 availability does not authenticate the global hardware launch. No maker datelined launch located. [launch 1](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV04_Manual_EN_V01_2021.08.25.pdf?v=1671179027) [launch 2](https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer) |
+| Firmware / first hardware release | 2021-10 (retailer regional availability proxy; worldwide first sale unconfirmed). Thomann’s exact FV04 Harmony listing states available since October 2021. This is that retailer’s availability month, not authenticated first worldwide launch or shipment. The manufacturer manual’s August 25, 2021 revision predates it as documentation only. No exact maker launch day has been established. [launch 1](https://www.thomannmusic.com/flamma_fv04_harmony.htm) |
 | Firmware / latest verification | Not verified — No public firmware located. Maker support metadata returns manualV02/2024-01-08 and an empty attachments list; no FV04 numbered firmware history, device image or public updater found. Manual revision is not firmware. No USB/MIDI in connector inventory; service/internal firmware is not ruled out. [firmware 1](https://flammainnovation.com/download.html) [firmware 2](https://flammainnovation.com/goods/support?goodsName=FV04) [firmware 3](https://flammainnovation.com/file/pdf?fileName=FV04_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj-aAGdjkAAbzlyE83co547.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -537,6 +537,7 @@ Sources checked:
 - [FLAMMA public FV04 support metadata](https://flammainnovation.com/goods/support?goodsName=FV04) — ExactFV04 record links currentV02 PDF; attachments[]; no firmware entry. (Bounded inert makerJSON from catalogue GET request;SHA25694eb30b38d01da16f36fa4fbb5ca9cd643d36d78c6552886a5a086dc926bd184).
 - [FLAMMA FV04 own product page](https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer) — 12pitches/11harmony modes; independent guitar reverb; own model identity. (Direct maker product page).
 - [FLAMMA download catalogue](https://flammainnovation.com/download.html) — FV04 manual only; no public firmware/updater found. (Indexed current maker catalogue and public application script request inspected).
+- [Thomann FV04 Harmony availability record](https://www.thomannmusic.com/flamma_fv04_harmony.htm) — Available since October 2021; regional retailer availability, not global manufacturer launch confirmation. (Exact-model original retailer availability field checked 2026-11-22).
 
 <!-- firmware-pitch:Flamma::FV04 Harmony ends -->
 
