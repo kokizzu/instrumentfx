@@ -3767,6 +3767,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G1on ends -->
 
+<!-- model-images:Zoom::G1on begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G1on powered control face**
+
+[![G1on powered control face](https://img.olx.com.br/images/77/778511779845335.jpg)](https://img.olx.com.br/images/77/778511779845335.jpg)
+
+[Image source](https://pr.olx.com.br/regiao-de-curitiba-e-paranagua/instrumentos-musicais/pedaleira-zoom-g1on-multi-efeitos-guitarra-1414218884). Actual powered G1on photographed near vertically from above, with full control face and both footswitches visible. Orange backlit LCD shows G3 Chorus. One parameter knob, four round buttons and four cursor directions corroborate the manual; no expression treadle.
+
+**G1on rear connections**
+
+[![G1on rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1on_rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1on_rear.jpg)
+
+[Image source](https://www.zoom.co.jp/node/52). Manufacturer full rear photograph: INPUT, AUX IN, shared OUTPUT/PHONES, mini-B USB marked DC5V, center-negative DC9V IN and security slot. No external expression socket. Large white image margins are retained from the source.
+
+</details>
+<!-- model-images:Zoom::G1on ends -->
+
+
 Guitar multi-effects, distinct from G1Xon and G1 FOUR. Checked 2026-10-17; partial. Ownership and bass suitability unestablished.
 
 <!-- comparison evidence begins -->
