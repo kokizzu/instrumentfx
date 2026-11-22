@@ -212463,11 +212463,45 @@
             "note": "Actual original powered on, connected AC, bright U57 PingPongDly LCD and center LED. Left footswitch/chassis cropped; same gallery full-unit view preferred if readable."
           }
         ]
+      },
+      "Yamaha::REV500": {
+        "model_key": "Yamaha::REV500",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.avgear.com/cdn/shop/files/Yamaha_20REV500_20Digital_20Reverberator_20-_201_de207d97-f4f7-4493-8ab7-5aec73d04110.jpg?v=1737395641&width=1214",
+            "source_url": "https://www.avgear.com/products/yamaha-rev500-digital-reverberator",
+            "caption": "REV500 powered front control face",
+            "note": "Visually checked actual REV500 mounted in a rack: illuminated LCD shows Basic Plate, with all five knobs, eight program/utility buttons and separate power rocker visible. This rack processor has front-facing controls; photo is a slight-angle front view, not an overhead chassis shot. Other rack units and large blank area remain in the source image. No firmware revision or audio-performance claim from the screen.",
+            "visual_checked": true,
+            "sha256": "543780c3ce21ad6b0d1a976a4874b71edb7c0597f1bc580d9093ad5ce172cf46",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://cuesale.com/wp-content/uploads/2020/05/Yamaha-Digital-Reverberator-REV-500-2.jpg",
+            "source_url": "https://cuesale.com/product/yamaha-rev500-digital-reverberator/",
+            "caption": "REV500 rear connectors",
+            "note": "Visually checked full rear and top chassis from above: captive mains lead at left; FOOT SW; MIDI OUT/IN; L/R output XLR and quarter-inch pairs with level selector; L/R input quarter-inch and XLR pairs with separate level selector. No USB, PHONES, analog EXP or MIDI THRU socket shown. Pictured mains variant marked230V15W50Hz; not universal-voltage proof. Front/display is not visible here, so powered state unknown.",
+            "visual_checked": true,
+            "sha256": "20a1bd8ef9789e29a522fcaba2805a16feb46d306f5f25f297567640942a7dc2",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://studiocare.com/cdn/shop/files/Front_88dd2093-8b47-4bcf-bc95-f075f148f6ae_1024x1024.jpg?v=1710863847",
+            "sha256": "cb2c05796ebee63060ff55b17d88c21ce6c9a07c33aa10364541e5ff1d49283c",
+            "visual_checked": true,
+            "note": "Whole front controls readable, but LCD blank. Green display material does not establish powered-on state."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::Magicstomp original Guitar"
+    "last_model": "Yamaha::REV500"
   }
 }

@@ -760,6 +760,26 @@ Sources checked:
 
 <!-- firmware-pitch:Yamaha::REV500 ends -->
 
+<!-- model-images:Yamaha::REV500 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**REV500 powered front control face**
+
+[![REV500 powered front control face](https://www.avgear.com/cdn/shop/files/Yamaha_20REV500_20Digital_20Reverberator_20-_201_de207d97-f4f7-4493-8ab7-5aec73d04110.jpg?v=1737395641&width=1214)](https://www.avgear.com/cdn/shop/files/Yamaha_20REV500_20Digital_20Reverberator_20-_201_de207d97-f4f7-4493-8ab7-5aec73d04110.jpg?v=1737395641&width=1214)
+
+[Image source](https://www.avgear.com/products/yamaha-rev500-digital-reverberator). Visually checked actual REV500 mounted in a rack: illuminated LCD shows Basic Plate, with all five knobs, eight program/utility buttons and separate power rocker visible. This rack processor has front-facing controls; photo is a slight-angle front view, not an overhead chassis shot. Other rack units and large blank area remain in the source image. No firmware revision or audio-performance claim from the screen.
+
+**REV500 rear connectors**
+
+[![REV500 rear connectors](https://cuesale.com/wp-content/uploads/2020/05/Yamaha-Digital-Reverberator-REV-500-2.jpg)](https://cuesale.com/wp-content/uploads/2020/05/Yamaha-Digital-Reverberator-REV-500-2.jpg)
+
+[Image source](https://cuesale.com/product/yamaha-rev500-digital-reverberator/). Visually checked full rear and top chassis from above: captive mains lead at left; FOOT SW; MIDI OUT/IN; L/R output XLR and quarter-inch pairs with level selector; L/R input quarter-inch and XLR pairs with separate level selector. No USB, PHONES, analog EXP or MIDI THRU socket shown. Pictured mains variant marked230V15W50Hz; not universal-voltage proof. Front/display is not visible here, so powered state unknown.
+
+</details>
+<!-- model-images:Yamaha::REV500 ends -->
+
+
 <!-- comparison evidence begins -->
 Checked2026-10-17; partial. [Official English operation manual][R5-M],28PDFpages including MIDI additions; revision/date unverified.
 
