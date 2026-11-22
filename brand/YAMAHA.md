@@ -134,6 +134,30 @@ Original Yamaha-hosted PDF read as browser text; no file downloaded, device oper
 
 ## DG-Stomp
 
+<!-- firmware-pitch:Yamaha::DG-Stomp begins -->
+### Firmware and pitch audit — Yamaha DG-Stomp
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2000 (manufacturer historical product year; exact launch/shipment day unresolved). Yamaha Innovation Road identifies DG-Stomp as2000. Owner-manual MIDI chart30June2000/version1.0 is document metadata, not a firmware release date or confirmed first delivery. [launch 1](https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/3011/) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact DG-Stomp device firmware package/release chronology located in checked official documentation and targeted searches. MIDI patch bulk transfer/reset and MIDI-chart version1.0 are not device updates. Service-manual ROM-version-check references do not identify the latest public release. Duration remains unresolved. [firmware 1](https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf) [firmware 2](https://usa.yamaha.com/products/contents/guitars_basses/downloads/manuals/index.html?c=guitars_basses&k=&l=en&p=2) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No dedicated pitch shifter, octave or harmonizer in the complete documented effects: compressor; chorus/flanger/phaser/rotary/tremolo; delay/tape echo; Spring/Hall/Plate reverb; separate wah. Chorus/flanger pitch modulation and chromatic tuning do not establish semitone transposition or polyphonic pitch shifting. [pitch 1](https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf) [pitch 2](https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/3011/) |
+| Pitch / preset recall | 90read-only presets+90writable user locations. Pitch-specific recall is not applicable to the documented effect set; general external EXP/MIDI control supports per-patch/global assignments. |
+| Pitch / DSP resources | No documented pitch algorithm with a published DSP percentage. Four effect-section blocks, amp/cabinet options and sample rate do not establish per-effect CPU cost. |
+| Pitch / qualifications | Classification concerns documented functions, not physical impossibility or absence of internal firmware. Exact DG-Stomp evidence used; no AG-Stomp or Magicstomp pitch/update values inherited. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha DG-Stomp owner manual](https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf) — Printed19–20 complete modulation/delay/reverb list; separate wah and tuner. No dedicated pitch-shift parameter; MIDI chart version1.0 is not firmware. (official original PDF complete effect list and parameter passages read).
+- [Yamaha Innovation Road DG-Stomp collection](https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/3011/) — Guitar pre-amplifier with effects2000; eight amp models and listed built-in effects. (official manufacturer history read).
+- [Yamaha guitar/bass manual catalogue, page2](https://usa.yamaha.com/products/contents/guitars_basses/downloads/manuals/index.html?c=guitars_basses&k=&l=en&p=2) — DG-Stomp manual listings; no exact device updater/release chronology located. (official indexed catalogue checked; exact DG-Stomp documentation located).
+
+<!-- firmware-pitch:Yamaha::DG-Stomp ends -->
+
 <!-- comparison evidence begins -->
 
 Checked2026-10-18. Guitar preamplifier with multi-effects; separate from AG-Stomp/UD-Stomp. Partial record. [Own Yamaha manual][DGS-M],32PDFpages, printed29/MIDI chart dated2000-06-30. Browser text only; no download or operation.
