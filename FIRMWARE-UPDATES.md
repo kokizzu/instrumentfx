@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 400/402 active models have firmware audits; 400/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 401/402 active models have firmware audits; 401/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -61,6 +61,7 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [Sonicake Matribox II QME-100](brand/SONICAKE.md#matribox-ii-qme-100) | 2023-08 (documented introduction month; exact first sale unverified) | 1.3.0 — Latest verified | 2026-06-03 | 2.76–2.84 years | [launch 1](https://www.musicradar.com/news/sonicake-releases-new-affordable-guitar-multi-effects-pedal-matribox-ii) [launch 2](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705) [firmware 1](https://www.sonicake.com/products/matribox-ii) [firmware 2](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_II_Firmware_Release_Note_2e13013e-a013-40e8-a338-6410995081f2.pdf?v=1780541705) |
 | [Hotone Ampero II Stage MP-380](brand/HOTONE.md#ampero-ii-stage-mp-380) | 2023-10 (manufacturer announcement month) | 1.7.0 — Latest verified | 2026-07-22 | 2.72–2.81 years | [launch 1](https://www.youtube.com/watch?v=minuTXDdaTg) [launch 2](https://prtimes.jp/main/html/rd/p/000000009.000072397.html) [firmware 1](https://www.hotone.com/support/2) [firmware 2](https://www.hotone.com/news/NAM%20A2%20Now%20Supported%EF%BC%81) |
 | [Line 6 POD X3 Live](brand/LINE6.md#pod-x3-live) | 2007-09-29 (manufacturer announcement proxy) | 2.01.0 — Latest verified | 2010-06-10 | 2.70 years | [launch 1](https://www.musicgearreview.com/article-display/2380.html) [firmware 1](https://line6.com/software/index.html?hardware=POD+X3+Live&name=Flash+Memory&submit_form=set) |
+| [Zoom V3](brand/ZOOM.md#v3) | 2020-08 (manufacturer announced retail month (Japan)) | 1.30 — Latest verified | 2023-03 | 2.50–2.66 years | [launch 1](https://www.zoom.co.jp/sites/default/files/press-release-pdfs/V3_NewsRelease_0.pdf) [firmware 1](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/v3-support/) [firmware 2](https://zoomcorp.com/documents/3205/V3_System_Software_Version_History_130_en.pdf) |
 | [NUX Mighty Plug Pro MP-3](brand/NUX.md#mighty-plug-pro-mp-3) | 2022-07 (manufacturer public-introduction month proxy) | 3.0.5 — Latest verified | 2025-01-22 | 2.48–2.56 years | [launch 1](https://www.youtube.com/watch?v=vVLBDfZbtXc) [firmware 1](https://nuxaudio.com/product/mightyplugpro/) [firmware 2](https://www.ariaguitars.com/jp/nux-mp3-fw.html) |
 | [Zoom G3n](brand/ZOOM.md#g3n) | 2016 (manufacturer launch year) | 2.20 — Latest verified | 2019-05 | 2.33–3.41 years | [launch 1](https://www.zoom.co.jp/node/750) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/) [firmware 2](https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf) |
 | [Zoom G3Xn](brand/ZOOM.md#g3xn) | 2016 (manufacturer launch year) | 2.20 — Latest verified | 2019-05 | 2.33–3.41 years | [launch 1](https://www.zoom.co.jp/node/750) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/) [firmware 2](https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf) |
@@ -427,4 +428,4 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 
 ## Remaining firmware checks
 
-Zoom V3; Zoom V6-SP.
+Zoom V6-SP.

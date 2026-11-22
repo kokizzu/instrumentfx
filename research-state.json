@@ -209957,22 +209957,89 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::V3": {
+        "model_key": "Zoom::V3",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2020-08",
+          "precision": "month",
+          "kind": "manufacturer announced retail month (Japan)",
+          "source_urls": [
+            "https://www.zoom.co.jp/sites/default/files/press-release-pdfs/V3_NewsRelease_0.pdf"
+          ],
+          "note": "July 20, 2020 manufacturer release announces early August 2020 retail; exact day unverified."
+        },
+        "firmware": {
+          "version": "1.30",
+          "date": "2023-03",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/v3-support/",
+            "https://zoomcorp.com/documents/3205/V3_System_Software_Version_History_130_en.pdf"
+          ],
+          "note": "Current support offers 1.30, dated March 2023: host-side USB volume adjustment. 1.20 June 2022 fixes freezes after prolonged use of several pitch/harmony effects; 1.10 July 2021 fixes audio stops. ASIO driver versions are separate."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Vocal key/chromatic pitch correction, up/down OCTAVE, two generated HARMONY voices, UNISON and DEEP/CHILD voice shifting. FORMANT CHARACTER changes character without pitch. No general chord-input/polyphonic transpose claim found; multiple generated voices do not establish it.",
+          "preset": "Manual states each effect state is saved individually after adjustment. Direct effect buttons and knobs, with no documented user patch bank or scene-save workflow. External expression controls EFFECT ADJUST; FS01 switches selected effect off.",
+          "dsp": "Fixed signal flow: compressor/enhance, one selected voice effect, delay and reverb. Delay/reverb can run alongside the selected effect. No per-algorithm CPU percentage or assignable DSP budget documented.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_V3_2.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Designed for a vocal microphone; chord tracking remains unverified. Documentation only."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/press-release-pdfs/V3_NewsRelease_0.pdf",
+            "title": "V3 launch release",
+            "access": "manufacturer PDF inspected",
+            "evidence": "July20 announcement; early August2020 Japanese retail."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/v3-support/",
+            "title": "V3 support",
+            "access": "official page inspected",
+            "evidence": "Device firmware1.30 for Windows/Mac, separate ASIO driver."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3205/V3_System_Software_Version_History_130_en.pdf",
+            "title": "V3 firmware history",
+            "access": "official PDF inspected",
+            "evidence": "1.30 March2023 USB volume; 1.20 June2022 pitch/harmony freeze fix; 1.10 July2021 audio fix; 1.00 production August2020."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_V3_2.pdf",
+            "title": "V3 operation manual",
+            "access": "official 16-page PDF inspected",
+            "evidence": "Vocal pitch/harmony types; individual effect state saving, no patch-bank workflow; expression/FS01. Fixed signal chain and simultaneous delay/reverb; no chord-input or CPU-cost claim."
+          }
+        ],
+        "duration": {
+          "minimum_days": 912,
+          "maximum_days": 972,
+          "label": "2.50–2.66 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::V3",
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 400,
-    "last_model": "Zoom::RFX-2200",
-    "last_commit_parent": "895ff3f819b83d12997417fa3c0f802a92e678d1",
+    "completed_model_count": 401,
+    "last_model": "Zoom::V3",
+    "last_commit_parent": "2fc8ccbf8f57fc0b7cad90cfda4437c785fc0853",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 400,
+    "pitch_completed_model_count": 401,
     "supplemental_model_count": 0
   },
   "model_images": {

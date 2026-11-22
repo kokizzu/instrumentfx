@@ -10256,6 +10256,31 @@ The current summary also incorporates the already recorded complete bank invento
 
 ## V3
 
+<!-- firmware-pitch:Zoom::V3 begins -->
+### Firmware and pitch audit — Zoom V3
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2020-08 (manufacturer announced retail month (Japan)). July 20, 2020 manufacturer release announces early August 2020 retail; exact day unverified. [launch 1](https://www.zoom.co.jp/sites/default/files/press-release-pdfs/V3_NewsRelease_0.pdf) |
+| Firmware / latest verification | 1.30 — Latest verified. Current support offers 1.30, dated March 2023: host-side USB volume adjustment. 1.20 June 2022 fixes freezes after prolonged use of several pitch/harmony effects; 1.10 July 2021 fixes audio stops. ASIO driver versions are separate. [firmware 1](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/v3-support/) [firmware 2](https://zoomcorp.com/documents/3205/V3_System_Software_Version_History_130_en.pdf) |
+| Firmware / release date | 2023-03 (month precision) |
+| Firmware / release-to-update duration | 2.50–2.66 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Vocal key/chromatic pitch correction, up/down OCTAVE, two generated HARMONY voices, UNISON and DEEP/CHILD voice shifting. FORMANT CHARACTER changes character without pitch. No general chord-input/polyphonic transpose claim found; multiple generated voices do not establish it. [pitch 1](https://zoomcorp.com/media/documents/E_V3_2.pdf) |
+| Pitch / preset recall | Manual states each effect state is saved individually after adjustment. Direct effect buttons and knobs, with no documented user patch bank or scene-save workflow. External expression controls EFFECT ADJUST; FS01 switches selected effect off. |
+| Pitch / DSP resources | Fixed signal flow: compressor/enhance, one selected voice effect, delay and reverb. Delay/reverb can run alongside the selected effect. No per-algorithm CPU percentage or assignable DSP budget documented. |
+| Pitch / qualifications | Designed for a vocal microphone; chord tracking remains unverified. Documentation only. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [V3 launch release](https://www.zoom.co.jp/sites/default/files/press-release-pdfs/V3_NewsRelease_0.pdf) — July20 announcement; early August2020 Japanese retail. (manufacturer PDF inspected).
+- [V3 support](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/v3-support/) — Device firmware1.30 for Windows/Mac, separate ASIO driver. (official page inspected).
+- [V3 firmware history](https://zoomcorp.com/documents/3205/V3_System_Software_Version_History_130_en.pdf) — 1.30 March2023 USB volume; 1.20 June2022 pitch/harmony freeze fix; 1.10 July2021 audio fix; 1.00 production August2020. (official PDF inspected).
+- [V3 operation manual](https://zoomcorp.com/media/documents/E_V3_2.pdf) — Vocal pitch/harmony types; individual effect state saving, no patch-bank workflow; expression/FS01. Fixed signal chain and simultaneous delay/reverb; no chord-input or CPU-cost claim. (official 16-page PDF inspected).
+
+<!-- firmware-pitch:Zoom::V3 ends -->
+
 Vocal multi-effects; hand-operated desktop/mic-stand unit. Consolidated and researched 2026-10-16; partial verification. No guitar processing membership inferred from vocal effects.
 
 ### V3 — preserved original comparison
