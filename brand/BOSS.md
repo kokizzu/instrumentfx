@@ -4888,6 +4888,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::ME-8 ends -->
 
+<!-- model-images:BOSS::ME-8 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS ME-8 — top-down control surface**
+
+[![BOSS ME-8 — top-down control surface](https://medias.audiofanzine.com/images/normal/boss-me-8-1615917.jpg)](https://medias.audiofanzine.com/images/normal/boss-me-8-1615917.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-8/). Actual top-down user photograph with all ME-8 controls and six footswitches visible; the display is off. The adjacent expression pedal and two CBV24 switches are external accessories. A [separate powered-on photograph](https://medias.audiofanzine.com/images/normal/boss-me-8-6705799.jpeg) shows the active red display but is rotated, strongly oblique and clips a corner. A complete powered-on top-down replacement remains pending.
+
+**BOSS ME-8 — rear connections**
+
+[![BOSS ME-8 — rear connections](https://dkyjapan.com/cdn/shop/files/img004_b1eb1e5c-2684-4d3e-b86a-8fa02848c788.jpg?v=1718672952&width=1946)](https://dkyjapan.com/cdn/shop/files/img004_b1eb1e5c-2684-4d3e-b86a-8fa02848c788.jpg?v=1718672952&width=1946)
+
+[Image source](https://dkyjapan.com/products/2406180002). Actual seller photograph with the complete rear connector row visible: INPUT, OUTPUT R/L-MONO, miniature PHONES, SEND/RETURN, external control jacks and power-adaptor input with cord restraint. Molded black labels have low contrast and limited readability. This rear view shows an unpowered unit.
+
+</details>
+<!-- model-images:BOSS::ME-8 ends -->
+
+
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified. Distinct from ME-8B.
 
 <!-- comparison evidence begins -->
