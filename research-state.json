@@ -189276,16 +189276,17 @@
       },
       "Flamma::FV03 Character": {
         "model_key": "Flamma::FV03 Character",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2021-08-22",
+          "precision": "day",
+          "kind": "firsthand_demo_publication_proxy",
           "source_urls": [
+            "https://www.youtube.com/watch?v=Zsg1jA2c5X0",
             "https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV03_Manual_EN_V01_2021.06.18_A.pdf?v=1671179013",
             "https://flammainnovation.com/single.html?id=60"
           ],
-          "note": "V01 filename dates documentation to2021-06-18, while its metadata references2020-11-12; neither establishes hardware first sale. No authenticated launch dateline located."
+          "note": "Sean Daniel’s exact-model FV03 demo is dated August 22, 2021 in indexed original YouTube metadata; its description reports using the FV-03 with Katie Lowe. Used as a public-demo publication proxy, not a manufacturer launch or verified first sale. Video frames were not retrieved. Original V01 documentation filename/metadata date differences remain document dates and do not establish release."
         },
         "firmware": {
           "version": null,
@@ -189336,10 +189337,88 @@
             "title": "FLAMMA download catalogue FV03 entry",
             "access": "Indexed current manufacturer catalogue",
             "evidence": "FV03 manualV03 only; no public firmware/updater entry located."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Zsg1jA2c5X0",
+            "title": "Sean Daniel — Flamma FV03 Vocal Character Demo",
+            "access": "indexed_original_video_metadata_and_author_description; direct_page_fetch_failed; frames_not_inspected",
+            "evidence": "Original video metadata gives August 22, 2021; author description reports using the exact FV-03 with Katie Lowe. Public-demo publication proxy only, not first hardware shipment."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "notes": [
+          "A dated firsthand demo now supplies an explicit public-demo availability proxy. Latest device firmware remains unknown, so no release-to-update duration can be calculated."
+        ],
+        "prior_audits": [
+          {
+            "model_key": "Flamma::FV03 Character",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV03_Manual_EN_V01_2021.06.18_A.pdf?v=1671179013",
+                "https://flammainnovation.com/single.html?id=60"
+              ],
+              "note": "V01 filename dates documentation to2021-06-18, while its metadata references2020-11-12; neither establishes hardware first sale. No authenticated launch dateline located."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://flammainnovation.com/download.html",
+                "https://flammainnovation.com/file/pdf?fileName=FV03_Manual_EN_V03_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj8KAXiq5AAckMBBCgMY607.pdf"
+              ],
+              "note": "Maker catalogue lists only FV03 manualV03/2024-01-08; no public device firmware version/date or updater located. Manual revision is not firmware. Complete connector inventory has no USB/MIDI user-update port; internal/service firmware existence is not ruled out."
+            },
+            "pitch": {
+              "status": "unverified",
+              "algorithms": "Six voice-character modes: Male,Female,Baby,Robot1–3. Maker describes voice alteration and dry/effect Mix, but does not specify transposition intervals, pitch-versus-formant processing, note tracking or mono/polyphonic input. These names do not prove a clean pitch shifter, harmonizer or chord retuner. Guitar path is documented for reverb, not character shifting.",
+              "preset": "Physical Mode/Reverb/Mix/Tone controls; no stored-user preset bank or factory/user memory allocation established. Six mode positions are algorithm choices, not six preset memories.",
+              "dsp": "Fixed voice-change and reverb/tone processing; footswitch can bypass voice alteration while retaining reverb. Guitar reverb adjusted separately. No numerical CPU/DSP percentage or per-mode resource allocation published; generated-character names cannot quantify DSP or synthesis architecture.",
+              "source_urls": [
+                "https://flammainnovation.com/file/pdf?fileName=FV03_Manual_EN_V03_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj8KAXiq5AAckMBBCgMY607.pdf",
+                "https://flammainnovation.com/single.html?id=60"
+              ],
+              "measurements": [],
+              "notes": [
+                "Voice alteration is documented; its pitch implementation and polyphony remain unverified. No FV02 octave or FV04 key/harmony behavior inherited. Existing manual delay mention remains unsupported by its detailed effect/control inventory."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV03_Manual_EN_V01_2021.06.18_A.pdf?v=1671179013",
+                "title": "FV03 original V01 manual reference",
+                "access": "Manufacturer-hosted historical manual reference retained from prior inspection",
+                "evidence": "Filename/metadata revision dates differ; neither authenticates first hardware release."
+              },
+              {
+                "url": "https://flammainnovation.com/file/pdf?fileName=FV03_Manual_EN_V03_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj8KAXiq5AAckMBBCgMY607.pdf",
+                "title": "FV03 own English manual V03",
+                "access": "Direct11-page manufacturer PDF, V03/2024-01-08, printed3–7",
+                "evidence": "Six character modes, dry/voice Mix and footswitch/reverb behavior; no interval/polyphony/DSP benchmark or user-update route."
+              },
+              {
+                "url": "https://flammainnovation.com/single.html?id=60",
+                "title": "FLAMMA FV03 own product description",
+                "access": "Indexed manufacturer product text",
+                "evidence": "Male/Female/Baby/Robot1–3; voice alteration plus reverb; no quantified pitch implementation."
+              },
+              {
+                "url": "https://flammainnovation.com/download.html",
+                "title": "FLAMMA download catalogue FV03 entry",
+                "access": "Indexed current manufacturer catalogue",
+                "evidence": "FV03 manualV03 only; no public firmware/updater entry located."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Flamma::FV04 Harmony": {
         "model_key": "Flamma::FV04 Harmony",
@@ -215880,8 +215959,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "NUX::Amp Academy Stomp",
-    "last_commit_parent": "7db26dfa152bf5196681716476fc143734bce496",
+    "last_model": "Flamma::FV03 Character",
+    "last_commit_parent": "21bc12fccfb0255cf1452dab33ab978b953ea863",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
