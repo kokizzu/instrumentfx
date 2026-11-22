@@ -2533,6 +2533,31 @@ No GP-150 specification or parameter was inherited. Twelve movable modules remai
 
 ## GP-200
 
+<!-- firmware-pitch:Valeton::GP-200 begins -->
+### Firmware and pitch audit — Valeton GP-200
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2022-01-10 (official public introduction; exact first shipment unresolved). Official GP-200 introduction indexed10January2022;public introduction rather than independently verified earliest retail shipment. [launch 1](https://www.youtube.com/watch?v=HUcgJUpp2Lk) |
+| Firmware / latest verification | 1.8.2 — Located; latest status unverified. Highest numbered exact-model official package located,paired with editor1.8.1. Created/Updated08-09-2026 are repository timestamps,not independently verified release dates. Listed238B size is anomalous;download redirects to manufacturer ZIP inaccessible via web reader. Package contents/release note not inspected and no firmware executed;latest status not exhaustive. [firmware 1](https://www.valeton.net/wpfd_file/gp-200-firmware-v1-8-2-zip%EF%BC%88compatible-software-v1-8-1%EF%BC%89/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. Exact firmware1.8.0 manual explicitly labels OCTA,Pitch and P-Bend polyphonic;Hammy and single/dual-voice Harmonizer1/2 monophonic. Pitch offers low/high semitone voices with independent Dry/voice levels;complete numerical endpoints not printed in inspected passage. [pitch 1](https://res.valeton.net/Uploads/wp/download/1768360642746.GP-200_Online%C2%A0Manual_EN_Firmware%20V1.8.0.pdf) [pitch 2](https://shop.valeton.net/products/gp-200) |
+| Pitch / preset recall | 256 patch locations,100 factory+156 user. SAVE retains effect parameters. A derived fully wet+2 recipe is Hi Pitch+2,Dry0,Low Volume0,High Volume as required;not a hardware audition. |
+| Pitch / DSP resources | No pitch-specific DSP percentage published in inspected sources. Eleven movable modules is a structural limit,not1/11 CPU. Manual warns Global EQ can overload patches using many modules/resource-heavy effects such as reverb;all-combination capacity unverified. |
+| Pitch / qualifications | Pitch claims are explicitly from1.8.0 manufacturer documentation;not a newly inspected1.8.2 algorithm library or tracking/latency test. Polyphony is algorithm-specific;monophonic Harmonizers and Hammy do not inherit Pitch chord handling. No current draw/storage/module-count conversion to DSP percentage. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Official GP-200 firmware1.8.2 listing](https://www.valeton.net/wpfd_file/gp-200-firmware-v1-8-2-zip%EF%BC%88compatible-software-v1-8-1%EF%BC%89/) — Version1.8.2,editor1.8.1;08September2026 repository fields only.238B listed size anomaly retained. (web page read;ZIP endpoint inaccessible).
+- [Valeton official GP-200 introduction](https://www.youtube.com/watch?v=HUcgJUpp2Lk) — Published10January2022;public introduction,first shipment unverified. (indexed original video metadata).
+- [Manufacturer GP-200 firmware1.8.0 operating manual](https://res.valeton.net/Uploads/wp/download/1768360642746.GP-200_Online%C2%A0Manual_EN_Firmware%20V1.8.0.pdf) — Printed28–29:OCTA/Pitch/P-Bend polyphonic;Hammy/Harmonizer1/2 monophonic. Printed12SAVE;19GlobalEQ resource warning;no pitch CPU%. Prior full manual evidence retained. (retained prior original manual read;official PDF focused pitch passage checked20November2026).
+- [Valeton official GP-200 shop](https://shop.valeton.net/products/gp-200) — Eleven freely movable simultaneous modules;eight footswitches;not unrestricted DSP capacity. (web page read).
+
+<!-- firmware-pitch:Valeton::GP-200 ends -->
+
 Consolidated 2026-10-17. Historical observations below retain their 2026-10-14 date. GP-200X and GP-200R are retained as labelled variants of this existing model, not additional active counts. Technical verification remains partial.
 
 ### Complete legacy GP-200 evidence

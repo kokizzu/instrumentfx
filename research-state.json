@@ -203572,10 +203572,75 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "Valeton::GP-200": {
+        "model_key": "Valeton::GP-200",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2022-01-10",
+          "precision": "day",
+          "kind": "official public introduction; exact first shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=HUcgJUpp2Lk"
+          ],
+          "note": "Official GP-200 introduction indexed10January2022;public introduction rather than independently verified earliest retail shipment."
+        },
+        "firmware": {
+          "version": "1.8.2",
+          "date": null,
+          "precision": "unknown",
+          "status": "latest_located",
+          "source_urls": [
+            "https://www.valeton.net/wpfd_file/gp-200-firmware-v1-8-2-zip%EF%BC%88compatible-software-v1-8-1%EF%BC%89/"
+          ],
+          "note": "Highest numbered exact-model official package located,paired with editor1.8.1. Created/Updated08-09-2026 are repository timestamps,not independently verified release dates. Listed238B size is anomalous;download redirects to manufacturer ZIP inaccessible via web reader. Package contents/release note not inspected and no firmware executed;latest status not exhaustive."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "Exact firmware1.8.0 manual explicitly labels OCTA,Pitch and P-Bend polyphonic;Hammy and single/dual-voice Harmonizer1/2 monophonic. Pitch offers low/high semitone voices with independent Dry/voice levels;complete numerical endpoints not printed in inspected passage.",
+          "preset": "256 patch locations,100 factory+156 user. SAVE retains effect parameters. A derived fully wet+2 recipe is Hi Pitch+2,Dry0,Low Volume0,High Volume as required;not a hardware audition.",
+          "dsp": "No pitch-specific DSP percentage published in inspected sources. Eleven movable modules is a structural limit,not1/11 CPU. Manual warns Global EQ can overload patches using many modules/resource-heavy effects such as reverb;all-combination capacity unverified.",
+          "source_urls": [
+            "https://res.valeton.net/Uploads/wp/download/1768360642746.GP-200_Online%C2%A0Manual_EN_Firmware%20V1.8.0.pdf",
+            "https://shop.valeton.net/products/gp-200"
+          ],
+          "measurements": [],
+          "notes": [
+            "Pitch claims are explicitly from1.8.0 manufacturer documentation;not a newly inspected1.8.2 algorithm library or tracking/latency test.",
+            "Polyphony is algorithm-specific;monophonic Harmonizers and Hammy do not inherit Pitch chord handling. No current draw/storage/module-count conversion to DSP percentage."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.valeton.net/wpfd_file/gp-200-firmware-v1-8-2-zip%EF%BC%88compatible-software-v1-8-1%EF%BC%89/",
+            "title": "Official GP-200 firmware1.8.2 listing",
+            "access": "web page read;ZIP endpoint inaccessible",
+            "evidence": "Version1.8.2,editor1.8.1;08September2026 repository fields only.238B listed size anomaly retained."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=HUcgJUpp2Lk",
+            "title": "Valeton official GP-200 introduction",
+            "access": "indexed original video metadata",
+            "evidence": "Published10January2022;public introduction,first shipment unverified."
+          },
+          {
+            "url": "https://res.valeton.net/Uploads/wp/download/1768360642746.GP-200_Online%C2%A0Manual_EN_Firmware%20V1.8.0.pdf",
+            "title": "Manufacturer GP-200 firmware1.8.0 operating manual",
+            "access": "retained prior original manual read;official PDF focused pitch passage checked20November2026",
+            "evidence": "Printed28–29:OCTA/Pitch/P-Bend polyphonic;Hammy/Harmonizer1/2 monophonic. Printed12SAVE;19GlobalEQ resource warning;no pitch CPU%. Prior full manual evidence retained."
+          },
+          {
+            "url": "https://shop.valeton.net/products/gp-200",
+            "title": "Valeton official GP-200 shop",
+            "access": "web page read",
+            "evidence": "Eleven freely movable simultaneous modules;eight footswitches;not unrestricted DSP capacity."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::GP-200",
       "Valeton::GP-200JR",
       "Valeton::GP-200LT",
       "Valeton::GP-5",
@@ -203666,12 +203731,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 313,
-    "last_model": "Valeton::GP-150",
-    "last_commit_parent": "cb3dbc81e11ed11d42d5bf41dfa426bef9c34b95",
+    "completed_model_count": 314,
+    "last_model": "Valeton::GP-200",
+    "last_commit_parent": "4e6f9709e3daab5b2c679dac60af2ff08404b5bf",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::GP-200",
       "Valeton::GP-200JR",
       "Valeton::GP-200LT",
       "Valeton::GP-5",
@@ -203761,7 +203825,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 313,
+    "pitch_completed_model_count": 314,
     "supplemental_model_count": 0
   },
   "model_images": {
