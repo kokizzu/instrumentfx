@@ -213871,11 +213871,36 @@
             "powered_on": false
           }
         }
+      },
+      "Zoom::A3": {
+        "model_key": "Zoom::A3",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://images.equipboard.com/uploads/source/image/166486/big_6_DSC09571.jpg",
+            "source_url": "https://equipboard.com/items/zoom-a3",
+            "caption": "A3 powered control-face photograph",
+            "note": "Actual A3 with blue-backlit tuner display lit, whole chassis and three footswitches visible. The photograph looks down at a slight angle and is small/dark; it verifies powered operation but is not an exact overhead control-layout image. A sharper powered top-down replacement remains pending.",
+            "visual_checked": true,
+            "sha256": "a22178c476845a08fe91400b24c532483f0d9b12d549ffffddd6525cbc3a2be3",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/A3_rear.jpg",
+            "source_url": "https://www.zoom.co.jp/products/acoustic/zoom-a3-pre-amp-effects-acoustic-guitar",
+            "caption": "A3 rear connections",
+            "note": "Manufacturer rear photograph clearly shows combo MIC IN, center-negative DC9V IN, POWER eco/ON/OFF/USB-bus-power labeling, GROUND CONNECT/LIFT and three-pin BALANCED OUT. Side-mounted pickup/output/USB sockets are outside this rear view; USB BUS POWERED labels a power-switch position, not a rear USB socket.",
+            "visual_checked": true,
+            "sha256": "3a1309d1fb0f2382e4f8430698933c888f9b0e824f514c4f54e9bff5ef3ef32c",
+            "powered_on": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::A2"
+    "last_model": "Zoom::A3"
   }
 }

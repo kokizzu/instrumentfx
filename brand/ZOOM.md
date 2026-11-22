@@ -1251,6 +1251,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::A3 ends -->
 
+<!-- model-images:Zoom::A3 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**A3 powered control-face photograph**
+
+[![A3 powered control-face photograph](https://images.equipboard.com/uploads/source/image/166486/big_6_DSC09571.jpg)](https://images.equipboard.com/uploads/source/image/166486/big_6_DSC09571.jpg)
+
+[Image source](https://equipboard.com/items/zoom-a3). Actual A3 with blue-backlit tuner display lit, whole chassis and three footswitches visible. The photograph looks down at a slight angle and is small/dark; it verifies powered operation but is not an exact overhead control-layout image. A sharper powered top-down replacement remains pending.
+
+**A3 rear connections**
+
+[![A3 rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/A3_rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/A3_rear.jpg)
+
+[Image source](https://www.zoom.co.jp/products/acoustic/zoom-a3-pre-amp-effects-acoustic-guitar). Manufacturer rear photograph clearly shows combo MIC IN, center-negative DC9V IN, POWER eco/ON/OFF/USB-bus-power labeling, GROUND CONNECT/LIFT and three-pin BALANCED OUT. Side-mounted pickup/output/USB sockets are outside this rear view; USB BUS POWERED labels a power-switch position, not a rear USB socket.
+
+</details>
+<!-- model-images:Zoom::A3 ends -->
+
+
 Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](https://zoomcorp.com/en/us/multi-effects/acoustic/a3/) marks discontinued;absence ofcurrentstock isnot absence ofeligibility. Shared bass membership is supported by its documented upright-bass model; electric-bass voicing is not inferred. Shared live-microphone processing is documented below; this does not establish vocal harmony or pitch correction.
 
 <!-- comparison evidence begins -->
