@@ -220192,13 +220192,56 @@
             "image_url": "https://api.tone3000.com/storage/v1/object/public/images/7n33a0yhnc8.jpg",
             "source_url": "https://www.tone3000.com/tones/behringer-bass-v-amp-63008",
             "caption": "Behringer Bass V-AMP — control surface",
-            "note": "Powered overhead photograph with red 1 display and illuminated knob indicators; complete control surface visible. Slightly oblique rather than exact top-down. Dedicated connector photographs remain pending: gallery candidates inspected were accessories, not the unit’s ports.",
+            "note": "Powered overhead photograph with red 1 display and illuminated knob indicators; complete control surface visible. Slightly oblique rather than exact top-down.",
             "visual_checked": true,
             "powered_on": true,
             "exact_top_down": false,
             "sha256": "fc11223d95fe7e3bb41e63c720d52e9f6af8a05000a62d66ddb63156107828ea"
+          },
+          "rear": {
+            "image_url": "https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_4_20260120121706_858df3679834.jpeg",
+            "source_url": "https://www.jarbasinstrumentos.com.br/efeitos/pedaleira-behringer-bass-v-amp",
+            "caption": "Line-output and AUX connector edge",
+            "note": "Physical desktop Bass V-AMP photograph showing AUX IN, the AUX LEVEL thumbwheel and L/AMP–R/DI line outputs along the curved edge. Additional [power, MIDI IN/OUT-THRU and footswitch edge photograph](https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_3_20260120121706_e89aa0445aff.jpeg) and [instrument INPUT / PHONES photograph](https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_6_20260120121706_b98ee405c604.jpeg) cover the remaining sockets. Labels are printed on top and can be cross-checked in the [unpowered overhead layout photograph](https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_7_20260120121706_eb5281c25e63.jpeg). The photographs are angled; fine labels on the far edge are soft.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "b6c39634ed71e57ff525a2d53e225a5cb729f38247ae43e97a46611129628dfb",
+            "image_kind": "photograph"
           }
-        }
+        },
+        "side_references": [
+          {
+            "image_url": "https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_3_20260120121706_e89aa0445aff.jpeg",
+            "source_url": "https://www.jarbasinstrumentos.com.br/efeitos/pedaleira-behringer-bass-v-amp",
+            "caption": "Power, MIDI and footswitch connector edge",
+            "note": "Physical photograph of the power and MIDI group; the curved footswitch edge is also visible obliquely.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "49da895cf6caa3a367ae2635fc83927a58b036a7cefac921c4df89548643cbaa",
+            "image_kind": "photograph"
+          },
+          {
+            "image_url": "https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_6_20260120121706_b98ee405c604.jpeg",
+            "source_url": "https://www.jarbasinstrumentos.com.br/efeitos/pedaleira-behringer-bass-v-amp",
+            "caption": "Instrument input and headphone side",
+            "note": "Physical photograph showing the instrument INPUT and PHONES sockets.",
+            "sha256": "77ed24cc05c952fcb198db260568eb6479c08efebacbce229fecbdd0f3516f3c",
+            "visual_checked": true,
+            "powered_on": false,
+            "image_kind": "photograph"
+          },
+          {
+            "image_url": "https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_7_20260120121706_eb5281c25e63.jpeg",
+            "source_url": "https://www.jarbasinstrumentos.com.br/efeitos/pedaleira-behringer-bass-v-amp",
+            "caption": "Unpowered overhead control-layout reference",
+            "note": "Nearly overhead unpowered physical unit; top connector labels are readable.",
+            "sha256": "154a31efa5f5657fcdf71949e3cfb11c40324b621b63fd883451becf705b29ee",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "image_kind": "photograph"
+          }
+        ]
       },
       "Behringer::X V-AMP LX1-X": {
         "model_key": "Behringer::X V-AMP LX1-X",
@@ -220764,6 +220807,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::RFX-2200"
+    "last_model": "Behringer::Bass V-AMP"
   }
 }

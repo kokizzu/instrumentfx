@@ -51,9 +51,13 @@ Sources checked:
 
 [![Behringer Bass V-AMP — control surface](https://api.tone3000.com/storage/v1/object/public/images/7n33a0yhnc8.jpg)](https://api.tone3000.com/storage/v1/object/public/images/7n33a0yhnc8.jpg)
 
-[Image source](https://www.tone3000.com/tones/behringer-bass-v-amp-63008). Powered overhead photograph with red 1 display and illuminated knob indicators; complete control surface visible. Slightly oblique rather than exact top-down. Dedicated connector photographs remain pending: gallery candidates inspected were accessories, not the unit’s ports.
+[Image source](https://www.tone3000.com/tones/behringer-bass-v-amp-63008). Powered overhead photograph with red 1 display and illuminated knob indicators; complete control surface visible. Slightly oblique rather than exact top-down.
 
-**Rear view:** not yet verified.
+**Line-output and AUX connector edge**
+
+[![Line-output and AUX connector edge](https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_4_20260120121706_858df3679834.jpeg)](https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_4_20260120121706_858df3679834.jpeg)
+
+[Image source](https://www.jarbasinstrumentos.com.br/efeitos/pedaleira-behringer-bass-v-amp). Physical desktop Bass V-AMP photograph showing AUX IN, the AUX LEVEL thumbwheel and L/AMP–R/DI line outputs along the curved edge. Additional [power, MIDI IN/OUT-THRU and footswitch edge photograph](https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_3_20260120121706_e89aa0445aff.jpeg) and [instrument INPUT / PHONES photograph](https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_6_20260120121706_b98ee405c604.jpeg) cover the remaining sockets. Labels are printed on top and can be cross-checked in the [unpowered overhead layout photograph](https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_7_20260120121706_eb5281c25e63.jpeg). The photographs are angled; fine labels on the far edge are soft.
 
 </details>
 <!-- model-images:Behringer::Bass V-AMP ends -->
