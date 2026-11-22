@@ -928,7 +928,7 @@ Fit is **axis-qualified**:product197W×65Dmm fits;manual65W×197Dmm exceeds pref
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Current manufacturer page supplies no first-release date. Manual160111 is not first-shipment evidence; demo publication dates do not establish first retail release. [launch 1](https://www.valeton.net/product/dapper/) |
+| Firmware / first hardware release | 2016-01-28 (contemporaneous regional retailer launch-coverage proxy). Shimamura’s original Dapper product-introduction article was first published January 28, 2016; its later August2026 update is separate. Contemporary Bax NAMM2016 coverage explicitly identifies VES-1 Dapper Effect Strip, corroborating model/year. Used as a dated regional launch-coverage proxy, not exact global first shipment. Original full-size VES-1 only; manual160111 and later Mini/Dark introductions are separate. [launch 1](https://www.shimamura.co.jp/update/amp-effector/2016/01/gs-valeton-dapper/) [launch 2](https://www.bax-shop.co.uk/news/namm-2016-valeton-expands-the-loft-series-and-issues-a-multi-effect) |
 | Firmware / latest verification | Not verified — No public firmware located. No numbered original Dapper device firmware release/date or user updater located in checked manufacturer sources. V01 manual naming and VES-1 hardware naming are not firmware1. Firmware index text may omit dynamic entries; discontinued status does not prove no updates existed. [firmware 1](https://www.valeton.net/product/dapper/) [firmware 2](https://www.valeton.net/firmware/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -943,6 +943,8 @@ Sources checked:
 
 - [Valeton original Dapper official product](https://www.valeton.net/product/dapper/) — Exact OD/DIST/DELAY inventory plus tuner/loop/cab simulation; no firmware or launch date. (web page read).
 - [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact original Dapper package exposed in extracted text. (web text read; dynamic visibility limited).
+- [Shimamura: original Valeton Dapper introduction, January28,2016](https://www.shimamura.co.jp/update/amp-effector/2016/01/gs-valeton-dapper/) — Original publication2016/01/28; introduces full-size Dapper with drive/distortion/delay and loop. Supports regional launch coverage, not exact first shipment; current price not treated as historical launch price. (First-party retailer article opened; original-publication and later-update dates distinguished).
+- [Bax Music: NAMM2016 Valeton VES-1 Dapper introduction](https://www.bax-shop.co.uk/news/namm-2016-valeton-expands-the-loft-series-and-issues-a-multi-effect) — Explicitly identifies newly introduced VES-1 Dapper Effect Strip at NAMM2016; corroborates exact model/introduction year. (Contemporary first-party retailer show report indexed text; direct page cache miss).
 
 <!-- firmware-pitch:Valeton::Dapper VES-1 ends -->
 
