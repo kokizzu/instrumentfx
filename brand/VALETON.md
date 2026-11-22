@@ -977,7 +977,11 @@ Sources checked:
 
 [![Near-overhead original Dapper manufacturer control-face image, unlit.](https://res.valeton.net/Uploads/wp/2025/06/o_1e4g8n2jf1en21ent128vum81i152m-scaled.jpg)](https://res.valeton.net/Uploads/wp/2025/06/o_1e4g8n2jf1en21ent128vum81i152m-scaled.jpg)
 
-[Image source](https://www.valeton.net/product/dapper/). Visually 10 rotary controls and 5 footswitches, including dedicated TAP and TUNER; no separate small buttons on this face. Rear cabinet slider separate. Unlit display/status LEDs and slight perspective; powered-on strict perpendicular overhead remains pending.
+[Image source](https://www.valeton.net/product/dapper/). Visually 10 rotary controls and 5 footswitches, including dedicated TAP and TUNER; no separate small buttons on this face. Rear cabinet slider separate. Unlit display/status LEDs and slight perspective; powered-on strict perpendicular overhead remains pending. A supplemental physical demonstration photograph below shows all ten knob lights, red E tuner display and green tuning indicator illuminated. The unit is propped upright on a stand with its far left chassis edge slightly clipped; it does not replace the complete layout image or satisfy perpendicular overhead coverage.
+
+[![Original Dapper powered-on demonstration photograph](https://www.guitarthai.com/picpost/gtpicpost/A3260115.jpg)](https://www.guitarthai.com/picpost/gtpicpost/A3260115.jpg)
+
+[Demonstration photograph source](https://www.guitarthai.com/webboard/question.asp?QID=413412).
 
 **Original Dapper stock multi-view composite including full connector edge.**
 

@@ -222874,13 +222874,13 @@
       },
       "Valeton::Dapper VES-1": {
         "model_key": "Valeton::Dapper VES-1",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
             "image_url": "https://res.valeton.net/Uploads/wp/2025/06/o_1e4g8n2jf1en21ent128vum81i152m-scaled.jpg",
             "source_url": "https://www.valeton.net/product/dapper/",
             "caption": "Near-overhead original Dapper manufacturer control-face image, unlit.",
-            "note": "Visually 10 rotary controls and 5 footswitches, including dedicated TAP and TUNER; no separate small buttons on this face. Rear cabinet slider separate. Unlit display/status LEDs and slight perspective; powered-on strict perpendicular overhead remains pending.",
+            "note": "Visually 10 rotary controls and 5 footswitches, including dedicated TAP and TUNER; no separate small buttons on this face. Rear cabinet slider separate. Unlit display/status LEDs and slight perspective; powered-on strict perpendicular overhead remains pending. A supplemental physical demonstration photograph below shows all ten knob lights, red E tuner display and green tuning indicator illuminated. The unit is propped upright on a stand with its far left chassis edge slightly clipped; it does not replace the complete layout image or satisfy perpendicular overhead coverage.\n\n[![Original Dapper powered-on demonstration photograph](https://www.guitarthai.com/picpost/gtpicpost/A3260115.jpg)](https://www.guitarthai.com/picpost/gtpicpost/A3260115.jpg)\n\n[Demonstration photograph source](https://www.guitarthai.com/webboard/question.asp?QID=413412).",
             "visual_checked": true,
             "sha256": "c5b0c08c2d565ba1bad0a9a823aef4086827eccd54b6fc2abd3918582a932abd",
             "powered_on": false,
@@ -222896,7 +222896,19 @@
             "powered_on": false,
             "exact_top_down": false
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.guitarthai.com/picpost/gtpicpost/A3260115.jpg",
+            "source_url": "https://www.guitarthai.com/webboard/question.asp?QID=413412",
+            "caption": "Original Dapper powered-on demonstration photograph",
+            "note": "Physical silver original Dapper propped upright on a stand, with blue Delay, red Dist and green OD knob lights, red E tuner display and green tuning indicator illuminated. All ten knobs and five footswitches visible; far left chassis edge slightly clipped. Upright oblique view, not overhead; connected cables do not establish specifications.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "48e5c91f768cc675182a5fbad7aa6c99a342a7e984060b8a90e7a9b82650b533"
+          }
+        ]
       },
       "Valeton::GP-100": {
         "model_key": "Valeton::GP-100",
@@ -227461,6 +227473,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G1 original"
+    "last_model": "Valeton::Dapper VES-1"
   }
 }
