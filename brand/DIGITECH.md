@@ -575,7 +575,7 @@ Exact current Shopee hardware listing, used condition and new/used IDR offers **
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. January 15, 2009 NAMM report calls RP55 new, but manufacturer German manual contains August 15, 2006 compliance date. Compliance is not launch evidence; exact first release unresolved. [launch 1](https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/) [launch 2](https://images.thomann.de/pics/prod/rp55_deutsch_manual.pdf) |
+| Firmware / first hardware release | 2009-01-15 (contemporaneous NAMM new-model report proxy; exact first shipment unconfirmed). Sweetwater’s January 15, 2009 Winter NAMM report explicitly includes RP55 among five new RP processors. This dates the contemporaneous introduction report, not authenticated first worldwide retail shipment. The German manual’s August 15, 2006 compliance date remains earlier document evidence and is not itself a hardware launch date; exact original shipment chronology remains unconfirmed. [launch 1](https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/) [launch 2](https://images.thomann.de/pics/prod/rp55_deutsch_manual.pdf) |
 | Firmware / latest verification | Not verified — No public firmware located. No RP55 device firmware release found in checked official product/downloads. This does not prove firmware never existed; latest version/date and span unknown. [firmware 1](https://digitech.com/dp/rp55/) [firmware 2](https://digitech.com/software-downloads/) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -588,7 +588,7 @@ Exact current Shopee hardware listing, used condition and new/used IDR offers **
 
 Sources checked:
 
-- [Winter NAMM 2009: DigiTech RP Series](https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/) — January 15 introduction report includes RP55; earlier compliance date prevents treating this as settled first launch. (Contemporaneous Sweetwater report).
+- [Winter NAMM 2009: DigiTech RP Series](https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/) — January 15, 2009 report explicitly lists RP55 among five new RP series models; supports a dated introduction-report proxy, not exact first shipment. (Original dated Sweetwater NAMM report body rechecked 2026-11-22).
 - [RP55 German manufacturer manual](https://images.thomann.de/pics/prod/rp55_deutsch_manual.pdf) — August 15, 2006 declaration date, not a release date. (Manufacturer manual mirrored by Thomann; indexed text).
 - [DigiTech RP55 product](https://digitech.com/dp/rp55/) — 40 user/40 factory memories and eight simultaneous effects; no firmware release link. (Manufacturer web text).
 - [DigiTech software downloads](https://digitech.com/software-downloads/) — No RP55 device firmware located. (Manufacturer web text and targeted search).

@@ -187101,14 +187101,14 @@
         "model_key": "DigiTech::RP55",
         "checked_date": "2026-11-21",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "conflicting_introduction_evidence",
+          "date": "2009-01-15",
+          "precision": "day",
+          "kind": "contemporaneous NAMM new-model report proxy; exact first shipment unconfirmed",
           "source_urls": [
             "https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/",
             "https://images.thomann.de/pics/prod/rp55_deutsch_manual.pdf"
           ],
-          "note": "January 15, 2009 NAMM report calls RP55 new, but manufacturer German manual contains August 15, 2006 compliance date. Compliance is not launch evidence; exact first release unresolved."
+          "note": "Sweetwater’s January 15, 2009 Winter NAMM report explicitly includes RP55 among five new RP processors. This dates the contemporaneous introduction report, not authenticated first worldwide retail shipment. The German manual’s August 15, 2006 compliance date remains earlier document evidence and is not itself a hardware launch date; exact original shipment chronology remains unconfirmed."
         },
         "firmware": {
           "version": null,
@@ -187139,8 +187139,8 @@
           {
             "url": "https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/",
             "title": "Winter NAMM 2009: DigiTech RP Series",
-            "access": "Contemporaneous Sweetwater report",
-            "evidence": "January 15 introduction report includes RP55; earlier compliance date prevents treating this as settled first launch."
+            "access": "Original dated Sweetwater NAMM report body rechecked 2026-11-22",
+            "evidence": "January 15, 2009 report explicitly lists RP55 among five new RP series models; supports a dated introduction-report proxy, not exact first shipment."
           },
           {
             "url": "https://images.thomann.de/pics/prod/rp55_deutsch_manual.pdf",
@@ -187168,7 +187168,82 @@
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "DigiTech::RP55",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "conflicting_introduction_evidence",
+              "source_urls": [
+                "https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/",
+                "https://images.thomann.de/pics/prod/rp55_deutsch_manual.pdf"
+              ],
+              "note": "January 15, 2009 NAMM report calls RP55 new, but manufacturer German manual contains August 15, 2006 compliance date. Compliance is not launch evidence; exact first release unresolved."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://digitech.com/dp/rp55/",
+                "https://digitech.com/software-downloads/"
+              ],
+              "note": "No RP55 device firmware release found in checked official product/downloads. This does not prove firmware never existed; latest version/date and span unknown."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Nine fixed intervals: −12, −7, −5, −4, +3, +4, +5, +7, +12 semitones. Nine Detune settings with no cent amounts given. Nine Whammy settings including ±1/±2 octaves and harmony bends. Input polyphony unverified.",
+              "preset": "40 writable user and 40 factory presets.",
+              "dsp": "Pitch Shift, Detune and Whammy share one Chorus/Mod slot. Eight simultaneous effects overall are not eight pitch instances. No pitch CPU percentage published in checked sources.",
+              "source_urls": [
+                "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf",
+                "https://digitech.com/dp/rp55/"
+              ],
+              "measurements": [],
+              "notes": [
+                "External passive mono volume/TS expression pedal controls Whammy; TRS expression pedals unsupported. No built-in treadle or key/scale harmony established."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.sweetwater.com/insync/winter-namm-2009-digitech-rp-series/",
+                "title": "Winter NAMM 2009: DigiTech RP Series",
+                "access": "Contemporaneous Sweetwater report",
+                "evidence": "January 15 introduction report includes RP55; earlier compliance date prevents treating this as settled first launch."
+              },
+              {
+                "url": "https://images.thomann.de/pics/prod/rp55_deutsch_manual.pdf",
+                "title": "RP55 German manufacturer manual",
+                "access": "Manufacturer manual mirrored by Thomann; indexed text",
+                "evidence": "August 15, 2006 declaration date, not a release date."
+              },
+              {
+                "url": "https://digitech.com/dp/rp55/",
+                "title": "DigiTech RP55 product",
+                "access": "Manufacturer web text",
+                "evidence": "40 user/40 factory memories and eight simultaneous effects; no firmware release link."
+              },
+              {
+                "url": "https://digitech.com/software-downloads/",
+                "title": "DigiTech software downloads",
+                "access": "Manufacturer web text and targeted search",
+                "evidence": "No RP55 device firmware located."
+              },
+              {
+                "url": "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf",
+                "title": "RP55 Owner’s Manual 18-0838V-A",
+                "access": "Manufacturer 28-page PDF web text",
+                "evidence": "Printed pp15–17 shared Chorus/Mod, detune settings and fixed intervals/Whammy; p19 TS expression restrictions."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "DigiTech::RP70": {
         "model_key": "DigiTech::RP70",
@@ -213822,8 +213897,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Flamma::FX50",
-    "last_commit_parent": "982e2788555352960a314d0e4d9b4596a01126c4",
+    "last_model": "DigiTech::RP55",
+    "last_commit_parent": "c4ebd1c77ad4f029dd7f05348d82ad9300fa8a84",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
