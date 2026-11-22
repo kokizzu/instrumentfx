@@ -208630,10 +208630,74 @@
           "label": "0.92–2.00 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G7.1ut": {
+        "model_key": "Zoom::G7.1ut",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2005",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Official chronology lists G7.1ut under 2005, separately from G9.2tt in 2006."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g71ut/g71ut-support/",
+            "https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g71ut-guitar-effects-console"
+          ],
+          "note": "Reviewed current and legacy support lists provide editor/librarian, ASIO drivers and manuals; no public system-firmware updater/history located. ASIO 2.0.0 and editor versions are not device firmware. No release-to-update duration can be established."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift spans −12…+12,+24 semitones with ±25-cent Fine. Pedal Pitch has eight mappings; H.P.S generates key/scale harmonies. Pdl Mono Pitch explicitly targets single notes. Generic pitch chord support remains unverified.",
+          "preset": "80 user plus 80 read-only preset patches. Effect states/parameters, expression settings and tempo are stored per patch. Built-in expression controls effects; external FP01/FP02 is a dedicated volume pedal.",
+          "dsp": "Nine simultaneous modules including ZNR; one effect type per module. Pitch effects share MOD/EFX2 with other modulation choices. No exact pitch DSP percentage or general-purpose CPU meter documented in the reviewed sources; module count is not a CPU fraction.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_G71ut.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no hardware tracking/CPU test or firmware installation."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "G7.1ut under 2005."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g71ut/g71ut-support/",
+            "title": "G7.1ut support",
+            "access": "official indexed package list inspected",
+            "evidence": "Editor/librarian and ASIO packages; no system firmware listed."
+          },
+          {
+            "url": "https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g71ut-guitar-effects-console",
+            "title": "Legacy G7.1ut support",
+            "access": "official indexed downloads inspected",
+            "evidence": "Editor, ASIO and manuals; no firmware updater located."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_G71ut.pdf",
+            "title": "G7.1ut operation manual",
+            "access": "official PDF inspected, pp4–5,61–63",
+            "evidence": "160 patches; nine modules; patch-specific expression; pitch, mono pedal pitch and harmony parameters."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G7.1ut",
       "Zoom::GFX-3",
       "Zoom::GFX-4",
       "Zoom::GFX-5",
@@ -208655,12 +208719,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 382,
-    "last_model": "Zoom::G6",
-    "last_commit_parent": "bc9f37eda9857885fed2895c9332735ec6a28565",
+    "completed_model_count": 383,
+    "last_model": "Zoom::G7.1ut",
+    "last_commit_parent": "44b1df2102da7e9e7d902ae94effbe21c4d84eaf",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G7.1ut",
       "Zoom::GFX-3",
       "Zoom::GFX-4",
       "Zoom::GFX-5",
@@ -208681,7 +208744,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 382,
+    "pitch_completed_model_count": 383,
     "supplemental_model_count": 0
   },
   "model_images": {

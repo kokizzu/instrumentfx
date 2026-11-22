@@ -7170,6 +7170,31 @@ The two Rp3.5m asks are **34.7% cheaper**, or **65.3% of** the Rp5.36m new refer
 
 ## G7.1ut
 
+<!-- firmware-pitch:Zoom::G7.1ut begins -->
+### Firmware and pitch audit — Zoom G7.1ut
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005 (manufacturer product-history year). Official chronology lists G7.1ut under 2005, separately from G9.2tt in 2006. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Reviewed current and legacy support lists provide editor/librarian, ASIO drivers and manuals; no public system-firmware updater/history located. ASIO 2.0.0 and editor versions are not device firmware. No release-to-update duration can be established. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g71ut/g71ut-support/) [firmware 2](https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g71ut-guitar-effects-console) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift spans −12…+12,+24 semitones with ±25-cent Fine. Pedal Pitch has eight mappings; H.P.S generates key/scale harmonies. Pdl Mono Pitch explicitly targets single notes. Generic pitch chord support remains unverified. [pitch 1](https://zoomcorp.com/media/documents/E_G71ut.pdf) |
+| Pitch / preset recall | 80 user plus 80 read-only preset patches. Effect states/parameters, expression settings and tempo are stored per patch. Built-in expression controls effects; external FP01/FP02 is a dedicated volume pedal. |
+| Pitch / DSP resources | Nine simultaneous modules including ZNR; one effect type per module. Pitch effects share MOD/EFX2 with other modulation choices. No exact pitch DSP percentage or general-purpose CPU meter documented in the reviewed sources; module count is not a CPU fraction. |
+| Pitch / qualifications | Documentation only; no hardware tracking/CPU test or firmware installation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G7.1ut under 2005. (official chronology inspected).
+- [G7.1ut support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g71ut/g71ut-support/) — Editor/librarian and ASIO packages; no system firmware listed. (official indexed package list inspected).
+- [Legacy G7.1ut support](https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g71ut-guitar-effects-console) — Editor, ASIO and manuals; no firmware updater located. (official indexed downloads inspected).
+- [G7.1ut operation manual](https://zoomcorp.com/media/documents/E_G71ut.pdf) — 160 patches; nine modules; patch-specific expression; pitch, mono pedal pitch and harmony parameters. (official PDF inspected, pp4–5,61–63).
+
+<!-- firmware-pitch:Zoom::G7.1ut ends -->
+
 Guitar multi-effects;distinct fromG9.2tt/G5. Checked2026-10-17;partial. Discontinued;ownership andbass/vocal applicability unresolved.
 
 | Field | Finding / qualification | Evidence |
