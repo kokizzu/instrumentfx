@@ -220177,11 +220177,36 @@
             "sha256": "fc11223d95fe7e3bb41e63c720d52e9f6af8a05000a62d66ddb63156107828ea"
           }
         }
+      },
+      "Behringer::X V-AMP LX1-X": {
+        "model_key": "Behringer::X V-AMP LX1-X",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://i.ebayimg.com/images/g/jNAAAOSwRvZnUqMx/s-l1600.webp",
+            "source_url": "https://www.ebay.com/itm/335713971526",
+            "caption": "Near-top-down control surface (power not demonstrated)",
+            "note": "The complete control surface and expression pedal are visible at a slight angle. The red display segments are visible but illumination is not demonstrated; a verified powered-on, exactly top-down photograph remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "13757bb3935d5ff36197f6f8177862e4868c83c89d73e440ba36310c79ee63ae"
+          },
+          "rear": {
+            "image_url": "https://i.ebayimg.com/images/g/n0gAAOSwhUdnUqMz/s-l1600.webp",
+            "source_url": "https://www.ebay.com/itm/335713971526",
+            "caption": "Rear connection edge",
+            "note": "The complete connector edge is visible, upside down in the photograph: AC input, instrument input, mono amplifier output and stereo headphones output. The photograph is slightly angled.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "d52c187e828a4d44c6bb502db8717410b2464ad2907958891997c3d4cbf89e5b"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Behringer::Bass V-AMP"
+    "last_model": "Behringer::X V-AMP LX1-X"
   }
 }

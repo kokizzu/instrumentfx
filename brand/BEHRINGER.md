@@ -907,6 +907,26 @@ Sources checked:
 
 <!-- firmware-pitch:Behringer::X V-AMP LX1-X ends -->
 
+<!-- model-images:Behringer::X V-AMP LX1-X begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Near-top-down control surface (power not demonstrated)**
+
+[![Near-top-down control surface (power not demonstrated)](https://i.ebayimg.com/images/g/jNAAAOSwRvZnUqMx/s-l1600.webp)](https://i.ebayimg.com/images/g/jNAAAOSwRvZnUqMx/s-l1600.webp)
+
+[Image source](https://www.ebay.com/itm/335713971526). The complete control surface and expression pedal are visible at a slight angle. The red display segments are visible but illumination is not demonstrated; a verified powered-on, exactly top-down photograph remains pending.
+
+**Rear connection edge**
+
+[![Rear connection edge](https://i.ebayimg.com/images/g/n0gAAOSwhUdnUqMz/s-l1600.webp)](https://i.ebayimg.com/images/g/n0gAAOSwhUdnUqMz/s-l1600.webp)
+
+[Image source](https://www.ebay.com/itm/335713971526). The complete connector edge is visible, upside down in the photograph: AC input, instrument input, mono amplifier output and stereo headphones output. The photograph is slightly angled.
+
+</details>
+<!-- model-images:Behringer::X V-AMP LX1-X ends -->
+
+
 Checked2026-10-18;partial guitar multi-effects. Bass/vocal suitability andownership unverified;no sibling specifications transferred.
 
 <!-- comparison evidence begins -->
