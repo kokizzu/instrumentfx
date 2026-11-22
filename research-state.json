@@ -208858,11 +208858,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Tech 21::Bass Fly Rig v2": {
+        "model_key": "Tech 21::Bass Fly Rig v2",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.tech21nyc.com/wp-content/uploads/2021/05/bass_flyrig_2021_front-1-1024x227.png",
+            "source_url": "https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/",
+            "caption": "Near-overhead v2 stock control-face image with illuminated controls and tuner.",
+            "note": "Visually 13 rotary controls, 5 footswitches and 7 small pushbuttons, including speaker simulation and ground connect. Manufacturer stock image shows colored knob illumination and tuner indication; independent powered hardware is unverified. Slight perspective, not strict perpendicular overhead.",
+            "visual_checked": true,
+            "sha256": "366878b8094f27b40bba9c1efc15e4363bb80f7988706033a1bc0c9f1145b5ee",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://r2.gear4music.com/media/117/1174486/1200/preview.jpg",
+            "source_url": "https://www.gear4music.es/es/Guitarra-y-bajo/Tech-21-Bass-Fly-Rig-V2-Secondhand/6XZG",
+            "caption": "Used v2 long connector edge: IN, SEND, RETURN, OUT and center-negative DC.",
+            "note": "Actual used unit photographed unlit from an angle. Four quarter-inch sockets and DC polarity are visible. XLR output on the end is outside the visible connector face; no full all-edge absence audit claimed. Voltage/current not legible in this photo.",
+            "visual_checked": true,
+            "sha256": "913cbcb546f8d614f9cd2b7ff9501b55f959bd4726096a2f474f1f9f118d406a",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Tech 21::Acoustic Fly Rig"
+    "last_model": "Tech 21::Bass Fly Rig v2"
   }
 }
