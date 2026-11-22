@@ -7207,11 +7207,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**G7.1ut control face**
+**G7.1ut — powered-on control face**
 
-[![G7.1ut control face](https://img.ricardostatic.ch/images/4f848782-0d04-49a8-aafa-3ea1f8ec4b31/t_1000x750/zoom-g71ut-guitar-effects-console)](https://img.ricardostatic.ch/images/4f848782-0d04-49a8-aafa-3ea1f8ec4b31/t_1000x750/zoom-g71ut-guitar-effects-console)
+[![G7.1ut — powered-on control face](https://pics.mercatinomusicale.com/p_hr/81/66/8036681_1736806631.jpg)](https://pics.mercatinomusicale.com/p_hr/81/66/8036681_1736806631.jpg)
 
-[Image source](https://www.ricardo.ch/fr/a/zoom-g71ut-guitar-effects-console-1260911010/). Complete near-overhead G7.1ut control-face photograph with full expression treadle. Powered operation is not verified: LCD text is absent and the segment display is not clearly active. A verified powered photograph remains pending.
+[Image source](https://www.mercatinomusicale.com/mm/a_pedaliera-multieffetto-zoom-g7-1ut_id8036681.html). Actual seller photograph of the complete G7.1ut, including all seven footswitches and the full expression treadle. The red 07 segment display, green text LCD, CHANNEL A, effect-module and footswitch indicators are visibly illuminated. Nearly overhead with slight perspective; not a strictly perpendicular top-down photograph. The [previous unpowered overhead view](https://img.ricardostatic.ch/images/4f848782-0d04-49a8-aafa-3ea1f8ec4b31/t_1000x750/zoom-g71ut-guitar-effects-console) remains available for layout comparison.
 
 **G7.1ut rear connections**
 
