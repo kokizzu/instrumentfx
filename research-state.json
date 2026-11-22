@@ -200733,13 +200733,13 @@
         "model_key": "Sonicake::Sonic Wood QCE-50",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2020-12-24",
+          "precision": "day",
+          "kind": "manufacturer demonstration publication proxy; exact first sale unconfirmed",
           "source_urls": [
-            "https://www.sonicake.com/products/sonic-wood"
+            "https://www.youtube.com/watch?v=NqYdRfU9yeM"
           ],
-          "note": "No dated first introduction or on-sale evidence established in checked exact-model sources. Product-image timestamps are not hardware release dates."
+          "note": "SONICAKE published its Sonic Wood acoustic-effects demonstration on December 24, 2020. This is a dated public demonstration, not proof of the first shipment or exact retail launch. No earlier independently authenticated launch date established in the checked sources."
         },
         "firmware": {
           "version": null,
@@ -200785,10 +200785,79 @@
             "title": "Sonicake download index",
             "access": "Manufacturer/distributor source checked2026-11-22",
             "evidence": "NoSonicWood firmware entry among listed download families."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NqYdRfU9yeM",
+            "title": "Acoustic Guitar Multi Effects Pedal Preamp DI Box Chorus Delay Reverb with XLR (Sonicake Sonic Wood)",
+            "access": "Manufacturer video publication metadata checked 2026-11-22",
+            "evidence": "By SONICAKE; published 2020-12-24. Original Sonic Wood demonstration provides dated introduction proxy, not a confirmed on-sale date."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Sonicake::Sonic Wood QCE-50",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://www.sonicake.com/products/sonic-wood"
+              ],
+              "note": "No dated first introduction or on-sale evidence established in checked exact-model sources. Product-image timestamps are not hardware release dates."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.sonicake.com/products/sonic-wood",
+                "https://www.hotone.jp/brands/sonicake/products/sonic-wood",
+                "https://www.sonicake.com/pages/download"
+              ],
+              "note": "No QCE-50 firmware package,updater or version history found on checked global/regional product and download pages. Fixed-function design does not establish that internal digital processing has no firmware; no hardware update performed."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Official complete four-stage description names preamp,chorus,delay andreverb,with taptempo/tails. No transpose,octaver,harmonizer or other selectable pitch-shifting algorithm documented. Chorus modulation is not evidence of a separately configurable pitch shifter.",
+              "preset": "No addressable preset bank documented; physical knobs and separate stage footswitches. Pitch preset recall is not applicable to the documented effect set. Do not invent a factory/user memory split.",
+              "dsp": "No pitch DSP percentage or resource measurement applies to the documented effect set. Fixed four-stage design is not a four-slot configurable pitch host. Manufacturer explicitly describes digitally implemented analog-voiced delay; all-analog claims are unsupported.",
+              "source_urls": [
+                "https://www.sonicake.com/products/sonic-wood",
+                "https://www.hotone.jp/brands/sonicake/products/sonic-wood"
+              ],
+              "measurements": [],
+              "notes": [
+                "Unknown firmware accessibility remains distinct from no public firmware located. Existing dimension-axis/height conflicts and headphone-use prohibition retained."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.sonicake.com/products/sonic-wood",
+                "title": "Sonic Wood global product/FAQ",
+                "access": "Manufacturer/distributor source checked2026-11-22",
+                "evidence": "Four fixed stages,digitaldelay,tap/tails;no pitch or updater listed."
+              },
+              {
+                "url": "https://www.hotone.jp/brands/sonicake/products/sonic-wood",
+                "title": "Sonic Wood regional product",
+                "access": "Manufacturer/distributor source checked2026-11-22",
+                "evidence": "MatchingQCE50 fourstage architecture;no dated firmware or launch listing."
+              },
+              {
+                "url": "https://www.sonicake.com/pages/download",
+                "title": "Sonicake download index",
+                "access": "Manufacturer/distributor source checked2026-11-22",
+                "evidence": "NoSonicWood firmware entry among listed download families."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Sonicake::Black Hammer QCE-30": {
         "model_key": "Sonicake::Black Hammer QCE-30",
@@ -212973,8 +213042,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Sonicake::RockStage QCE-10",
-    "last_commit_parent": "36d0d730e7ba73ce5a607f8b87f9301dcbc20a7c",
+    "last_model": "Sonicake::Sonic Wood QCE-50",
+    "last_commit_parent": "b6e4740a0a603a74b33a8e0034c4925911e8b3e1",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

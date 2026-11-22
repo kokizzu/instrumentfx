@@ -1360,7 +1360,7 @@ Explicit touch capability, retailer condition/stock confirmation, dependable use
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. No dated first introduction or on-sale evidence established in checked exact-model sources. Product-image timestamps are not hardware release dates. [launch 1](https://www.sonicake.com/products/sonic-wood) |
+| Firmware / first hardware release | 2020-12-24 (manufacturer demonstration publication proxy; exact first sale unconfirmed). SONICAKE published its Sonic Wood acoustic-effects demonstration on December 24, 2020. This is a dated public demonstration, not proof of the first shipment or exact retail launch. No earlier independently authenticated launch date established in the checked sources. [launch 1](https://www.youtube.com/watch?v=NqYdRfU9yeM) |
 | Firmware / latest verification | Not verified — No public firmware located. No QCE-50 firmware package,updater or version history found on checked global/regional product and download pages. Fixed-function design does not establish that internal digital processing has no firmware; no hardware update performed. [firmware 1](https://www.sonicake.com/products/sonic-wood) [firmware 2](https://www.hotone.jp/brands/sonicake/products/sonic-wood) [firmware 3](https://www.sonicake.com/pages/download) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -1376,6 +1376,7 @@ Sources checked:
 - [Sonic Wood global product/FAQ](https://www.sonicake.com/products/sonic-wood) — Four fixed stages,digitaldelay,tap/tails;no pitch or updater listed. (Manufacturer/distributor source checked2026-11-22).
 - [Sonic Wood regional product](https://www.hotone.jp/brands/sonicake/products/sonic-wood) — MatchingQCE50 fourstage architecture;no dated firmware or launch listing. (Manufacturer/distributor source checked2026-11-22).
 - [Sonicake download index](https://www.sonicake.com/pages/download) — NoSonicWood firmware entry among listed download families. (Manufacturer/distributor source checked2026-11-22).
+- [Acoustic Guitar Multi Effects Pedal Preamp DI Box Chorus Delay Reverb with XLR (Sonicake Sonic Wood)](https://www.youtube.com/watch?v=NqYdRfU9yeM) — By SONICAKE; published 2020-12-24. Original Sonic Wood demonstration provides dated introduction proxy, not a confirmed on-sale date. (Manufacturer video publication metadata checked 2026-11-22).
 
 <!-- firmware-pitch:Sonicake::Sonic Wood QCE-50 ends -->
 
