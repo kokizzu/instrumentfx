@@ -207482,10 +207482,81 @@
           "label": "-0.16–0.91 years (date ranges overlap; order unresolved)"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G1Xnext": {
+        "model_key": "Zoom::G1Xnext",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2009",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists G1XN under 2009. G1XN/G1Xnext is distinct from the original G1X and later G1Xon."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g1xn/g1xn-support/"
+          ],
+          "note": "Exact-model support lists the operation manual but no public system updater or release history. No latest version/date or support-duration claim is established; absence of a download does not prove firmware never changed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Pitch Shift, explicitly single-note Mono Pitch, major-scale HPS and treadle Pitch Bend share the MODULATION module. Only one module effect type can be selected at once. Generic Pitch Shift/Pitch Bend chord polyphony is unverified.",
+          "preset": "40 user plus 40 read-only patches. PEDAL ASSIGN selects volume or a controllable module; store the patch to retain the assignment. A strong full-down treadle press toggles its assigned module. External CONTROL IN belongs to G1N, not G1XN.",
+          "dsp": "Maximum eight simultaneous modules, with fixed module architecture. No per-pitch DSP percentage or dynamic CPU meter documented in the inspected passages. Eight modules are not eight arbitrary pitch blocks or a measured 12.5% cost.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_G1N_G1XN.pdf",
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1N_G1XN.pdf",
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1N_G1XN_0.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Official full PDF exceeds browser size limit; indexed manufacturer manual passages inspected. No hardware test or firmware installation."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "G1XN listed under 2009."
+          },
+          {
+            "url": "https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g1xn/g1xn-support/",
+            "title": "Zoom G1Xn support",
+            "access": "official support listing inspected",
+            "evidence": "Documents only: operation manual; no system updater listed."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_G1N_G1XN.pdf",
+            "title": "G1N/G1XN operation manual",
+            "access": "official indexed effect table; full PDF exceeds browser limit",
+            "evidence": "Pitch Shift, monophonic Mono Pitch, HPS and Pitch Bend in MODULATION."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1N_G1XN.pdf",
+            "title": "G1N/G1XN operation manual official legacy copy",
+            "access": "official indexed pages 3,27 inspected",
+            "evidence": "One type per module; eight simultaneous modules; 40 user and 40 preset patches."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1N_G1XN_0.pdf",
+            "title": "G1N/G1XN operation manual official alternate copy",
+            "access": "official indexed pages 19–20 inspected",
+            "evidence": "Patch-stored expression assignment, PEDAL ASSIGN and full-down assigned-module toggle; G1N-only external control."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G1Xnext",
       "Zoom::G1Xon",
       "Zoom::G2 FOUR",
       "Zoom::G2.1Nu",
@@ -207521,12 +207592,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 368,
-    "last_model": "Zoom::G1X FOUR",
-    "last_commit_parent": "78f0fd1224cbb7d22977561640934b9ec2dad32d",
+    "completed_model_count": 369,
+    "last_model": "Zoom::G1Xnext",
+    "last_commit_parent": "306d9d6d051ecd2578713d44c022ab9aa0acb0e1",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G1Xnext",
       "Zoom::G1Xon",
       "Zoom::G2 FOUR",
       "Zoom::G2.1Nu",
@@ -207561,7 +207631,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 368,
+    "pitch_completed_model_count": 369,
     "supplemental_model_count": 0
   },
   "model_images": {

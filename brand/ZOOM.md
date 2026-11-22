@@ -4092,6 +4092,32 @@ Checked 2026-10-18 against the shared ©2019 effect sheet; published choices are
 
 ## G1Xnext
 
+<!-- firmware-pitch:Zoom::G1Xnext begins -->
+### Firmware and pitch audit — Zoom G1Xnext
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2009 (manufacturer product-history year). Manufacturer chronology lists G1XN under 2009. G1XN/G1Xnext is distinct from the original G1X and later G1Xon. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model support lists the operation manual but no public system updater or release history. No latest version/date or support-duration claim is established; absence of a download does not prove firmware never changed. [firmware 1](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g1xn/g1xn-support/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Pitch Shift, explicitly single-note Mono Pitch, major-scale HPS and treadle Pitch Bend share the MODULATION module. Only one module effect type can be selected at once. Generic Pitch Shift/Pitch Bend chord polyphony is unverified. [pitch 1](https://zoomcorp.com/media/documents/E_G1N_G1XN.pdf) [pitch 2](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1N_G1XN.pdf) [pitch 3](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1N_G1XN_0.pdf) |
+| Pitch / preset recall | 40 user plus 40 read-only patches. PEDAL ASSIGN selects volume or a controllable module; store the patch to retain the assignment. A strong full-down treadle press toggles its assigned module. External CONTROL IN belongs to G1N, not G1XN. |
+| Pitch / DSP resources | Maximum eight simultaneous modules, with fixed module architecture. No per-pitch DSP percentage or dynamic CPU meter documented in the inspected passages. Eight modules are not eight arbitrary pitch blocks or a measured 12.5% cost. |
+| Pitch / qualifications | Official full PDF exceeds browser size limit; indexed manufacturer manual passages inspected. No hardware test or firmware installation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G1XN listed under 2009. (official chronology inspected).
+- [Zoom G1Xn support](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g1xn/g1xn-support/) — Documents only: operation manual; no system updater listed. (official support listing inspected).
+- [G1N/G1XN operation manual](https://zoomcorp.com/media/documents/E_G1N_G1XN.pdf) — Pitch Shift, monophonic Mono Pitch, HPS and Pitch Bend in MODULATION. (official indexed effect table; full PDF exceeds browser limit).
+- [G1N/G1XN operation manual official legacy copy](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1N_G1XN.pdf) — One type per module; eight simultaneous modules; 40 user and 40 preset patches. (official indexed pages 3,27 inspected).
+- [G1N/G1XN operation manual official alternate copy](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1N_G1XN_0.pdf) — Patch-stored expression assignment, PEDAL ASSIGN and full-down assigned-module toggle; G1N-only external control. (official indexed pages 19–20 inspected).
+
+<!-- firmware-pitch:Zoom::G1Xnext ends -->
+
 G1XN / G1XNext; guitar multi-effects, checked2026-10-17; partial. Not G1Xon or G1X FOUR. The [official manual][G1XN-O] indexes the next-family cover and G1N/G1XN body. Direct PDF reading exceeded the tool limit. [Manufacturer manual text on Manualzz][G1XN-M] has matching contents, G1XN-specific panels and footer **G1N/G1XN-5000-1**; publication date unestablished. Generated overview claims of100effects/68presets are disregarded.
 
 | Field | Evidence / gaps |
