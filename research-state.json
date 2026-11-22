@@ -224658,13 +224658,13 @@
       },
       "Zoom::G1Xnext": {
         "model_key": "Zoom::G1Xnext",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
             "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1XN_top.jpg",
             "source_url": "https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g1xn-guitar-effects-pedal",
             "caption": "G1XN Next top control layout",
-            "note": "Official full overhead G1XN Next photograph shows the built-in treadle, two rotary controls, four pushbuttons and two footswitches. Red display reads A0 and the WAH/EFX indicator is lit, but this is promotional photography; an independently documented actual powered top-down photograph remains pending.",
+            "note": "Official full overhead G1XN Next photograph shows the built-in treadle, two rotary controls, four pushbuttons and two footswitches. Red display reads A0 and the WAH/EFX indicator is lit, but this is promotional photography; an independently documented actual powered top-down photograph remains pending. A supplemental physical owner photograph below confirms red A1 display illumination, but clips the right edge of the expression treadle. It supplements this complete layout image; a complete powered-on perpendicular photograph remains pending.\n\n[![G1Xnext powered-on owner close-up](https://img.olx.com.br/images/11/117609507785169.jpg)](https://img.olx.com.br/images/11/117609507785169.jpg)\n\n[Powered-on photograph source](https://am.olx.com.br/regiao-de-manaus/instrumentos-musicais/pedaleira-zoom-g1xnext-com-pedal-de-expressao-1483286355).",
             "visual_checked": true,
             "powered_on": false,
             "exact_top_down": true,
@@ -224679,7 +224679,19 @@
             "powered_on": false,
             "sha256": "0410ce232eb993da2298ccb6aab855049dc032df7c50171450d22b5178e989c9"
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://img.olx.com.br/images/11/117609507785169.jpg",
+            "source_url": "https://am.olx.com.br/regiao-de-manaus/instrumentos-musicais/pedaleira-zoom-g1xnext-com-pedal-de-expressao-1483286355",
+            "caption": "G1Xnext powered-on owner close-up",
+            "note": "Physical G1XN NEXT with red A1 display illuminated. Two rotary controls, four pushbuttons and both footswitches visible, but right edge of expression treadle clipped. Near-overhead with perspective; not a complete overhead photograph.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "2f1224fa1cd0784efd828d19f1b6d1012108e0baed1de5e66de1db701b073f26"
+          }
+        ]
       },
       "Zoom::G1Xon": {
         "model_key": "Zoom::G1Xon",
@@ -227437,6 +227449,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Mini MES-1"
+    "last_model": "Zoom::G1Xnext"
   }
 }

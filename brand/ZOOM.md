@@ -4138,7 +4138,11 @@ Sources checked:
 
 [![G1XN Next top control layout](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1XN_top.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1XN_top.jpg)
 
-[Image source](https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g1xn-guitar-effects-pedal). Official full overhead G1XN Next photograph shows the built-in treadle, two rotary controls, four pushbuttons and two footswitches. Red display reads A0 and the WAH/EFX indicator is lit, but this is promotional photography; an independently documented actual powered top-down photograph remains pending.
+[Image source](https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g1xn-guitar-effects-pedal). Official full overhead G1XN Next photograph shows the built-in treadle, two rotary controls, four pushbuttons and two footswitches. Red display reads A0 and the WAH/EFX indicator is lit, but this is promotional photography; an independently documented actual powered top-down photograph remains pending. A supplemental physical owner photograph below confirms red A1 display illumination, but clips the right edge of the expression treadle. It supplements this complete layout image; a complete powered-on perpendicular photograph remains pending.
+
+[![G1Xnext powered-on owner close-up](https://img.olx.com.br/images/11/117609507785169.jpg)](https://img.olx.com.br/images/11/117609507785169.jpg)
+
+[Powered-on photograph source](https://am.olx.com.br/regiao-de-manaus/instrumentos-musicais/pedaleira-zoom-g1xnext-com-pedal-de-expressao-1483286355).
 
 **G1XN Next rear connections**
 
