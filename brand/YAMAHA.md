@@ -1118,6 +1118,31 @@ No built-in treadle,onboard footswitch orheadphone socket in complete panel inve
 
 ## SPX2000
 
+<!-- firmware-pitch:Yamaha::SPX2000 begins -->
+### Firmware and pitch audit — Yamaha SPX2000
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2003 (manufacturer historical model year). Yamaha Innovation Road dates SPX2000 to2003. Exact first shipment day unresolved;2004 US press coverage is not substituted for the earlier model year. [launch 1](https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/8028/) |
+| Firmware / latest verification | Not verified — Unverified. Device update capability documented: manufacturer service manual printed49 describes USB-MIDI/VerUp.exe writing SPX2K.pgm via OS UPDATE, with main-program version check. Exact latest package/version/release date not verified. Resource page is now a dynamic no-results shell; indexed editor/USB-MIDI-driver releases are host software. MIDI chart1.0/12May2003 is not firmware. No update downloaded or installed. [firmware 1](https://www.opweb.de/pdf/yamaha--spx2000--service--ID9731.pdf) [firmware 2](https://usa.yamaha.com/business/audio/products/processors/spx2000/resources.html) [firmware 3](https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. HQ.Pitch±12semitones; DualPitch two voices each±24. CLASSIC Pitch Change A/D single voice and B/C two voices,each±12. Fine±50cents. Multiple voices and stereo I/O do not establish polyphonic audio input. [pitch 1](https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf) |
+| Pitch / preset recall | 97PRESET+25CLASSIC+99USER=221locations. Nine pitch-group PRESET programs are preset choices, not nine distinct algorithms. CLASSIC A/D MIDI base-key control changes interval; no chord-tracking guarantee. |
+| Pitch / DSP resources | Per-pitch DSP percentage not published. HQ/Dual MODE1–10 trades pitch accuracy against delay error, without quantified latency/CPU cost. Configured0–1000ms delay is separate from measured processing latency. |
+| Pitch / qualifications | Freeze sample-playback transposition is separate from live pitch algorithms; no performance test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha Innovation Road SPX2000 collection record](https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/8028/) — Manufacturer model year2003, REV-X/24bit96kHz generation. (official historical page read).
+- [Yamaha SPX2000 Owner Manual](https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf) — HQ/Dual and four CLASSIC pitch variants, MODE delay-error tradeoff; no input-polyphony or DSP% guarantee. (official108page PDF text read; pitch printed61–65, memory12/25–26, MIDI chart107).
+- [Yamaha SPX2000 Service Manual,Writing Program,p49](https://www.opweb.de/pdf/yamaha--spx2000--service--ID9731.pdf) — Main-program version check and USB-MIDI update procedure using VerUp.exe/SPX2K.pgm; no latest revision/date established. (manufacturer-authored mirrored indexed section read; full PDF exceeds web size limit).
+- [Yamaha SPX2000 Resources](https://usa.yamaha.com/business/audio/products/processors/spx2000/resources.html) — Firmware & Software category label does not itself identify a device update; indexed editors/drivers remain separate. (official redirected current page read; dynamic tables contain no loaded results).
+
+<!-- firmware-pitch:Yamaha::SPX2000 ends -->
+
 Checked 2026-10-17; partial. Guitar amp/distortion and vocal effects documented in own manual; use suitable line-level preamp/mixer routing. Bass applicability remains unclassified. Ownership unestablished.
 
 <!-- comparison evidence begins -->

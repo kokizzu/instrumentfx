@@ -205212,10 +205212,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Yamaha::SPX2000": {
+        "model_key": "Yamaha::SPX2000",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2003",
+          "precision": "year",
+          "kind": "manufacturer historical model year",
+          "source_urls": [
+            "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/8028/"
+          ],
+          "note": "Yamaha Innovation Road dates SPX2000 to2003. Exact first shipment day unresolved;2004 US press coverage is not substituted for the earlier model year."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.opweb.de/pdf/yamaha--spx2000--service--ID9731.pdf",
+            "https://usa.yamaha.com/business/audio/products/processors/spx2000/resources.html",
+            "https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf"
+          ],
+          "note": "Device update capability documented: manufacturer service manual printed49 describes USB-MIDI/VerUp.exe writing SPX2K.pgm via OS UPDATE, with main-program version check. Exact latest package/version/release date not verified. Resource page is now a dynamic no-results shell; indexed editor/USB-MIDI-driver releases are host software. MIDI chart1.0/12May2003 is not firmware. No update downloaded or installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "HQ.Pitch±12semitones; DualPitch two voices each±24. CLASSIC Pitch Change A/D single voice and B/C two voices,each±12. Fine±50cents. Multiple voices and stereo I/O do not establish polyphonic audio input.",
+          "preset": "97PRESET+25CLASSIC+99USER=221locations. Nine pitch-group PRESET programs are preset choices, not nine distinct algorithms. CLASSIC A/D MIDI base-key control changes interval; no chord-tracking guarantee.",
+          "dsp": "Per-pitch DSP percentage not published. HQ/Dual MODE1–10 trades pitch accuracy against delay error, without quantified latency/CPU cost. Configured0–1000ms delay is separate from measured processing latency.",
+          "source_urls": [
+            "https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Freeze sample-playback transposition is separate from live pitch algorithms; no performance test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/8028/",
+            "title": "Yamaha Innovation Road SPX2000 collection record",
+            "access": "official historical page read",
+            "evidence": "Manufacturer model year2003, REV-X/24bit96kHz generation."
+          },
+          {
+            "url": "https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf",
+            "title": "Yamaha SPX2000 Owner Manual",
+            "access": "official108page PDF text read; pitch printed61–65, memory12/25–26, MIDI chart107",
+            "evidence": "HQ/Dual and four CLASSIC pitch variants, MODE delay-error tradeoff; no input-polyphony or DSP% guarantee."
+          },
+          {
+            "url": "https://www.opweb.de/pdf/yamaha--spx2000--service--ID9731.pdf",
+            "title": "Yamaha SPX2000 Service Manual,Writing Program,p49",
+            "access": "manufacturer-authored mirrored indexed section read; full PDF exceeds web size limit",
+            "evidence": "Main-program version check and USB-MIDI update procedure using VerUp.exe/SPX2K.pgm; no latest revision/date established."
+          },
+          {
+            "url": "https://usa.yamaha.com/business/audio/products/processors/spx2000/resources.html",
+            "title": "Yamaha SPX2000 Resources",
+            "access": "official redirected current page read; dynamic tables contain no loaded results",
+            "evidence": "Firmware & Software category label does not itself identify a device update; indexed editors/drivers remain separate."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Yamaha::SPX2000",
       "Yamaha::SPX900",
       "Yamaha::SPX990",
       "Zoom::1201",
@@ -205282,12 +205347,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 337,
-    "last_model": "Yamaha::SPX1000",
-    "last_commit_parent": "1a482c1a13c767e37283bd962257c4a9c3c0355f",
+    "completed_model_count": 338,
+    "last_model": "Yamaha::SPX2000",
+    "last_commit_parent": "80e7d9c8af285243f43324bbad20120873f35802",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Yamaha::SPX2000",
       "Yamaha::SPX900",
       "Yamaha::SPX990",
       "Zoom::1201",
@@ -205353,7 +205417,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 337,
+    "pitch_completed_model_count": 338,
     "supplemental_model_count": 0
   },
   "model_images": {
