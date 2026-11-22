@@ -207105,10 +207105,85 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G1 FOUR": {
+        "model_key": "Zoom::G1 FOUR",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2019",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Manufacturer chronology lists G1 FOUR in2019. December2018 mass-production firmware is not the retail release date; exact first shipment unresolved."
+        },
+        "firmware": {
+          "version": "2.00",
+          "date": "2019-11",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/",
+            "https://zoomcorp.com/documents/3430/G1FOUR_G1XFOUR_System_Software_Version_History_200_en.pdf"
+          ],
+          "note": "Current exact G1 FOUR Windows/Mac packages2.00 match shared history: November2019 adds looper Pre/Post position and changes rhythm screen.1.10 April2019 fixes USB disconnection;1.00 December2018 is mass production. G1X FOUR packages are separately listed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT spans−12…+12,+24 semitones with±25-cent Fine; general chord handling unspecified. MonoPitch explicitly targets single notes and is starred as a Guitar Lab addition. HPS uses selected key/scale and does not alone prove polyphony.",
+          "preset": "50 editable patch slots save effect types/settings. This no-treadle G1 FOUR has no documented external expression input; G1X FOUR PEDAL effects and live treadle pitch control must not be transferred to this model.",
+          "dsp": "No exact per-pitch DSP percentage published in checked sources. Five effects maximum; PROCESS OVERFLOW bypasses effects when capacity is exceeded. Change an effect to resolve it. No inference of20% per effect or borrowing B3n allocations.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_G1FOUR_FX-list.pdf",
+            "https://zoomcorp.com/documents/26/E_G1FOUR.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manual full-file fetch exceeded browser size limit; official indexed manual sections supplied memory/overflow evidence. No software installation or hardware test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "G1 FOUR and G1X FOUR separately listed in2019."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/",
+            "title": "G1 FOUR/G1X FOUR support",
+            "access": "current official exact-package list read",
+            "evidence": "G1 FOUR Windows/Mac2.00, separate G1X FOUR packages."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3430/G1FOUR_G1XFOUR_System_Software_Version_History_200_en.pdf",
+            "title": "G1 FOUR/G1X FOUR system history",
+            "access": "official PDF read",
+            "evidence": "2.00 November2019;1.10 April2019;1.00 December2018 mass production."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_G1FOUR_FX-list.pdf",
+            "title": "G1 FOUR/G1X FOUR effects list",
+            "access": "official PDF pp2,15–16 inspected",
+            "evidence": "PitchSHFT,starred monophonic MonoPitch,HPS;star means Guitar Lab addition."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/26/E_G1FOUR.pdf",
+            "title": "G1 FOUR/G1X FOUR operation manual",
+            "access": "official indexed memory and p20 sections read; full fetch size-limited",
+            "evidence": "50 patches,five effects,PROCESS OVERFLOW;PEDAL controls specified for G1X FOUR."
+          }
+        ],
+        "duration": {
+          "minimum_days": -60,
+          "maximum_days": 333,
+          "label": "-0.16–0.91 years (date ranges overlap; order unresolved)"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G1 FOUR",
       "Zoom::G1 original",
       "Zoom::G11",
       "Zoom::G1on",
@@ -207149,12 +207224,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 363,
-    "last_model": "Zoom::B6",
-    "last_commit_parent": "2b125391c488e201fcc3b6e480370232a44c4f1e",
+    "completed_model_count": 364,
+    "last_model": "Zoom::G1 FOUR",
+    "last_commit_parent": "e83e0fd8a708bc5b828ee4717a7e71323cbd1d36",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G1 FOUR",
       "Zoom::G1 original",
       "Zoom::G11",
       "Zoom::G1on",
@@ -207194,7 +207268,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 363,
+    "pitch_completed_model_count": 364,
     "supplemental_model_count": 0
   },
   "model_images": {

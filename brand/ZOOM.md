@@ -3459,6 +3459,32 @@ The existing V3 andV6-SP records must be merged completely into this brand docum
 
 ## G1 FOUR
 
+<!-- firmware-pitch:Zoom::G1 FOUR begins -->
+### Firmware and pitch audit — Zoom G1 FOUR
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2019 (manufacturer product-history year). Manufacturer chronology lists G1 FOUR in2019. December2018 mass-production firmware is not the retail release date; exact first shipment unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | 2.00 — Latest verified. Current exact G1 FOUR Windows/Mac packages2.00 match shared history: November2019 adds looper Pre/Post position and changes rhythm screen.1.10 April2019 fixes USB disconnection;1.00 December2018 is mass production. G1X FOUR packages are separately listed. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/) [firmware 2](https://zoomcorp.com/documents/3430/G1FOUR_G1XFOUR_System_Software_Version_History_200_en.pdf) |
+| Firmware / release date | 2019-11 (month precision) |
+| Firmware / release-to-update duration | -0.16–0.91 years (date ranges overlap; order unresolved); observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. PitchSHFT spans−12…+12,+24 semitones with±25-cent Fine; general chord handling unspecified. MonoPitch explicitly targets single notes and is starred as a Guitar Lab addition. HPS uses selected key/scale and does not alone prove polyphony. [pitch 1](https://zoomcorp.com/media/documents/E_G1FOUR_FX-list.pdf) [pitch 2](https://zoomcorp.com/documents/26/E_G1FOUR.pdf) |
+| Pitch / preset recall | 50 editable patch slots save effect types/settings. This no-treadle G1 FOUR has no documented external expression input; G1X FOUR PEDAL effects and live treadle pitch control must not be transferred to this model. |
+| Pitch / DSP resources | No exact per-pitch DSP percentage published in checked sources. Five effects maximum; PROCESS OVERFLOW bypasses effects when capacity is exceeded. Change an effect to resolve it. No inference of20% per effect or borrowing B3n allocations. |
+| Pitch / qualifications | Manual full-file fetch exceeded browser size limit; official indexed manual sections supplied memory/overflow evidence. No software installation or hardware test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — G1 FOUR and G1X FOUR separately listed in2019. (official chronology inspected).
+- [G1 FOUR/G1X FOUR support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1-four-g1x-four/g1g1x-four/) — G1 FOUR Windows/Mac2.00, separate G1X FOUR packages. (current official exact-package list read).
+- [G1 FOUR/G1X FOUR system history](https://zoomcorp.com/documents/3430/G1FOUR_G1XFOUR_System_Software_Version_History_200_en.pdf) — 2.00 November2019;1.10 April2019;1.00 December2018 mass production. (official PDF read).
+- [G1 FOUR/G1X FOUR effects list](https://zoomcorp.com/media/documents/E_G1FOUR_FX-list.pdf) — PitchSHFT,starred monophonic MonoPitch,HPS;star means Guitar Lab addition. (official PDF pp2,15–16 inspected).
+- [G1 FOUR/G1X FOUR operation manual](https://zoomcorp.com/documents/26/E_G1FOUR.pdf) — 50 patches,five effects,PROCESS OVERFLOW;PEDAL controls specified for G1X FOUR. (official indexed memory and p20 sections read; full fetch size-limited).
+
+<!-- firmware-pitch:Zoom::G1 FOUR ends -->
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- ZOOM-G1-FOUR source begins -->
