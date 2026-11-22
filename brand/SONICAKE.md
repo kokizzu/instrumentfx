@@ -678,7 +678,7 @@ New prices are individual official-store observations checked **2026-10-14**, no
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Exact first on-sale date not established by the checked original-model product/support sources. Do not use Matribox II launch dates or manual upload timestamps. [launch 1](https://www.sonicake.com/products/matribox) |
+| Firmware / first hardware release | 2023-03 (manufacturer introduction video proxy; exact first sale unconfirmed). Original QME-50 manufacturer introduction is indexed in March 2023 (YouTube publication March 21; catalogue video listing March 22). Month precision avoids that one-day indexing discrepancy. This establishes public introduction, not exact first shipment; do not substitute Matribox II dates or manual-upload timestamps. [launch 1](https://www.youtube.com/watch?v=Ub0sYNtfPMw) |
 | Firmware / latest verification | 1.1.0 — Latest verified. Latest manufacturer-listed firmware is 1.1.0; latest desktop software is 1.1.1 (NAM A2 supported), not a newer firmware. Firmware notes are undated; December 2025 blog announces availability but does not establish exact first release. Adds five Clone slots in AMP; using Clone disables CAB. Support specifies software 1.0.2 for firmware updating, then latest editor for normal use. [firmware 1](https://www.sonicake.com/pages/matribox-software-firmware-download) [firmware 2](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Firmware_Release_Note.pdf?v=1763427698) [firmware 3](https://www.sonicake.com/blogs/news/matribox-v1-1-0-firmware-update) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -696,6 +696,7 @@ Sources checked:
 - [Matribox 1.1.0 announcement](https://www.sonicake.com/blogs/news/matribox-v1-1-0-firmware-update) — December2025 availability announcement, five Clone slots; not exact firmware date. (Manufacturer source checked 2026-11-22).
 - [Matribox manual firmware 1.1.0](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433) — Printed p15 polyphonic Octaver/Dual Melody/Pitch; pp16-17 voice controls and expression settings. (Manufacturer source checked 2026-11-22).
 - [Matribox QME-50 product](https://www.sonicake.com/products/matribox) — Exact original model; nine blocks,198 presets99factory99user; no first sale date. (Manufacturer source checked 2026-11-22).
+- [Introducing the NEW Sonicake Matribox Multi-Effects Processor QME-50](https://www.youtube.com/watch?v=Ub0sYNtfPMw) — Original QME-50 introduction indexed 2023-03-21; establishes March 2023 public introduction, not exact first on-sale date. (Indexed manufacturer video metadata checked 2026-11-22; direct video-page retrieval failed).
 
 <!-- firmware-pitch:Sonicake::Matribox QME-50 ends -->
 
