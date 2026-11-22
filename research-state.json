@@ -211975,11 +211975,37 @@
             "note": "Full rear connector row inspected; upside-down original photo. Seek upright alternative for clearer Markdown presentation."
           }
         ]
+      },
+      "Yamaha::DG-Stomp": {
+        "model_key": "Yamaha::DG-Stomp",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/2/2001-03-yamahadg-1-uC2Y7sd7LR9TO6LrCH85cQXT5M7Pv_e7.jpg",
+            "source_url": "https://www.soundonsound.com/reviews/yamaha-dg-stomp",
+            "caption": "Yamaha DG-Stomp control face",
+            "note": "Visually checked review photograph of an illuminated actual unit: red0.13 display, green MANUAL/COMP/PHASER/TAPE ECHO/HALL/SP.SIM and red footswitch3 indicators. Fifteen rotaries, seventeen panel buttons and four footswitches visible. This is a front/raised control-face angle, not the requested overhead view; a powered-on top-down replacement remains pending. No hardware-function test inferred.",
+            "visual_checked": true,
+            "sha256": "1c8ba48ff4fa07587a7b6c6bc61de5db34e15993a00c55f077d76951d964e28c",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/2/2001-03-yamahadg-2-I3IlE0oSyUP1vPMVB_eHurRf5iwQAUb..jpg",
+            "source_url": "https://www.soundonsound.com/reviews/yamaha-dg-stomp",
+            "caption": "Yamaha DG-Stomp rear connectors",
+            "note": "Visually checked full rear row: STAND-BY, AC IN12V700mA~, MIDI OUT/IN, coaxial DIGITAL OUT, EXP PEDAL, PHONES, OUTPUT R/L-MONO, INPUT LOW/HIGH and INPUT. Photo700mA input marking differs from the manual included AC-10 adapter1000mA output rating; preserve both as different labels, not measured current draw. No DC polarity, USB or XLR connector shown. Source article access403; its image files were retrieved and inspected.",
+            "visual_checked": true,
+            "sha256": "15d817da42d5f2863bb29a6dae5cab202883e4434fedd5e83a9ebeadbf20d0c3",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::AG-Stomp"
+    "last_model": "Yamaha::DG-Stomp"
   }
 }

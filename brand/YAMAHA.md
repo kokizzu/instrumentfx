@@ -158,6 +158,26 @@ Sources checked:
 
 <!-- firmware-pitch:Yamaha::DG-Stomp ends -->
 
+<!-- model-images:Yamaha::DG-Stomp begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Yamaha DG-Stomp control face**
+
+[![Yamaha DG-Stomp control face](https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/2/2001-03-yamahadg-1-uC2Y7sd7LR9TO6LrCH85cQXT5M7Pv_e7.jpg)](https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/2/2001-03-yamahadg-1-uC2Y7sd7LR9TO6LrCH85cQXT5M7Pv_e7.jpg)
+
+[Image source](https://www.soundonsound.com/reviews/yamaha-dg-stomp). Visually checked review photograph of an illuminated actual unit: red0.13 display, green MANUAL/COMP/PHASER/TAPE ECHO/HALL/SP.SIM and red footswitch3 indicators. Fifteen rotaries, seventeen panel buttons and four footswitches visible. This is a front/raised control-face angle, not the requested overhead view; a powered-on top-down replacement remains pending. No hardware-function test inferred.
+
+**Yamaha DG-Stomp rear connectors**
+
+[![Yamaha DG-Stomp rear connectors](https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/2/2001-03-yamahadg-2-I3IlE0oSyUP1vPMVB_eHurRf5iwQAUb..jpg)](https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/2/2001-03-yamahadg-2-I3IlE0oSyUP1vPMVB_eHurRf5iwQAUb..jpg)
+
+[Image source](https://www.soundonsound.com/reviews/yamaha-dg-stomp). Visually checked full rear row: STAND-BY, AC IN12V700mA~, MIDI OUT/IN, coaxial DIGITAL OUT, EXP PEDAL, PHONES, OUTPUT R/L-MONO, INPUT LOW/HIGH and INPUT. Photo700mA input marking differs from the manual included AC-10 adapter1000mA output rating; preserve both as different labels, not measured current draw. No DC polarity, USB or XLR connector shown. Source article access403; its image files were retrieved and inspected.
+
+</details>
+<!-- model-images:Yamaha::DG-Stomp ends -->
+
+
 <!-- comparison evidence begins -->
 
 Checked2026-10-18. Guitar preamplifier with multi-effects; separate from AG-Stomp/UD-Stomp. Partial record. [Own Yamaha manual][DGS-M],32PDFpages, printed29/MIDI chart dated2000-06-30. Browser text only; no download or operation.
