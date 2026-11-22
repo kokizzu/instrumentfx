@@ -209252,10 +209252,85 @@
           "label": "5.75–6.83 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::MS-60B Plus": {
+        "model_key": "Zoom::MS-60B Plus",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2024-05",
+          "precision": "month",
+          "kind": "manufacturer announced retail release month",
+          "source_urls": [
+            "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240418/20240418572737.pdf"
+          ],
+          "note": "Zoom disclosure dated April 18, 2024 announces Japanese sales from early May 2024. Exact day and other regional retail dates unverified."
+        },
+        "firmware": {
+          "version": "1.20",
+          "date": "2025-01",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b-plus/ms-60b-support/",
+            "https://zoomcorp.com/documents/3533/MS-60Bplus_VersionHistory_120_jp.pdf"
+          ],
+          "note": "Current support offers 1.20; official Japanese history dates it January 2025, fixing M-VAVE CHOCOLATE PLUS control. 1.10 May 2024 fixed freezing on patch changes; 1.00 May 2024 is initial production. Effect/app versions are separate."
+        },
+        "pitch": {
+          "status": "documented_polyphonic",
+          "algorithms": "POLYPHONIC PITCH SHIFTER explicitly supports chords, −24…+24 semitones, separate wet/dry. POLYPHONIC OCTAVER also supports chords. BASS MONO PITCH SHIFTER is single-note, −12…+12,+24 with fine ±25 cents; HARMONY PITCH SHIFTER follows key/scale.",
+          "preset": "100 patch memories retain effect order, parameters and on/off states. AUTO SAVE defaults ON; manual save/copy available. Cross-key switches select patches/effects; no expression input documented.",
+          "dsp": "Up to six effects subject to processing limits. PROCESS OVERFLOW bypasses effects; replace an effect to resolve it. ADD refuses another effect at capacity. Only one BASS AMP, LINE SELECTOR and BPM module each per patch. No exact pitch CPU percentage or slot multiplier published in reviewed documents.",
+          "source_urls": [
+            "https://zoomcorp.com/manuals/ms-60bplus-en/",
+            "https://zoomcorp.com/media/documents/E_MS-60Bplus_FX-list.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Manufacturer documentation only; no hardware chord-tracking or CPU measurement."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240418/20240418572737.pdf",
+            "title": "Zoom MS-60B+ launch disclosure",
+            "access": "manufacturer news-release PDF inspected",
+            "evidence": "April 18, 2024 announcement: Japanese retail from early May 2024."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b-plus/ms-60b-support/",
+            "title": "MS-60B+ official support",
+            "access": "official page inspected",
+            "evidence": "Current Windows/Mac firmware 1.20."
+          },
+          {
+            "url": "https://zoomcorp.com/documents/3533/MS-60Bplus_VersionHistory_120_jp.pdf",
+            "title": "MS-60B+ firmware history",
+            "access": "official Japanese PDF inspected",
+            "evidence": "1.20 January 2025; 1.10 May 2024; 1.00 production May 2024."
+          },
+          {
+            "url": "https://zoomcorp.com/manuals/ms-60bplus-en/",
+            "title": "MS-60B+ operation manual",
+            "access": "official HTML inspected",
+            "evidence": "100 patches; default auto-save; six effects, PROCESS OVERFLOW, ADD capacity rejection and category restrictions."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_MS-60Bplus_FX-list.pdf",
+            "title": "MS-60B+ effect list",
+            "access": "official PDF inspected, pp15–16",
+            "evidence": "Explicit polyphonic pitch/octave chord support; separate bass mono pitch and harmony algorithms."
+          }
+        ],
+        "duration": {
+          "minimum_days": 215,
+          "maximum_days": 275,
+          "label": "0.59–0.75 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::MS-60B Plus",
       "Zoom::MS-70CDR",
       "Zoom::MS-70CDR Plus",
       "Zoom::MS-80IR Plus",
@@ -209268,12 +209343,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 391,
-    "last_model": "Zoom::MS-60B",
-    "last_commit_parent": "0fe50ff020a3b0082e0c0768fa6fde31144c9e64",
+    "completed_model_count": 392,
+    "last_model": "Zoom::MS-60B Plus",
+    "last_commit_parent": "aa220ac1bb682124e3ceb4288d319057b922a69a",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::MS-60B Plus",
       "Zoom::MS-70CDR",
       "Zoom::MS-70CDR Plus",
       "Zoom::MS-80IR Plus",
@@ -209285,7 +209359,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 391,
+    "pitch_completed_model_count": 392,
     "supplemental_model_count": 0
   },
   "model_images": {

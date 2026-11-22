@@ -9002,6 +9002,32 @@ History supplies no per-algorithm introduction mapping orinstalled-version check
 
 ## MS-60B Plus
 
+<!-- firmware-pitch:Zoom::MS-60B Plus begins -->
+### Firmware and pitch audit — Zoom MS-60B Plus
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2024-05 (manufacturer announced retail release month). Zoom disclosure dated April 18, 2024 announces Japanese sales from early May 2024. Exact day and other regional retail dates unverified. [launch 1](https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240418/20240418572737.pdf) |
+| Firmware / latest verification | 1.20 — Latest verified. Current support offers 1.20; official Japanese history dates it January 2025, fixing M-VAVE CHOCOLATE PLUS control. 1.10 May 2024 fixed freezing on patch changes; 1.00 May 2024 is initial production. Effect/app versions are separate. [firmware 1](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b-plus/ms-60b-support/) [firmware 2](https://zoomcorp.com/documents/3533/MS-60Bplus_VersionHistory_120_jp.pdf) |
+| Firmware / release date | 2025-01 (month precision) |
+| Firmware / release-to-update duration | 0.59–0.75 years; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Documented polyphonic. POLYPHONIC PITCH SHIFTER explicitly supports chords, −24…+24 semitones, separate wet/dry. POLYPHONIC OCTAVER also supports chords. BASS MONO PITCH SHIFTER is single-note, −12…+12,+24 with fine ±25 cents; HARMONY PITCH SHIFTER follows key/scale. [pitch 1](https://zoomcorp.com/manuals/ms-60bplus-en/) [pitch 2](https://zoomcorp.com/media/documents/E_MS-60Bplus_FX-list.pdf) |
+| Pitch / preset recall | 100 patch memories retain effect order, parameters and on/off states. AUTO SAVE defaults ON; manual save/copy available. Cross-key switches select patches/effects; no expression input documented. |
+| Pitch / DSP resources | Up to six effects subject to processing limits. PROCESS OVERFLOW bypasses effects; replace an effect to resolve it. ADD refuses another effect at capacity. Only one BASS AMP, LINE SELECTOR and BPM module each per patch. No exact pitch CPU percentage or slot multiplier published in reviewed documents. |
+| Pitch / qualifications | Manufacturer documentation only; no hardware chord-tracking or CPU measurement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom MS-60B+ launch disclosure](https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20240418/20240418572737.pdf) — April 18, 2024 announcement: Japanese retail from early May 2024. (manufacturer news-release PDF inspected).
+- [MS-60B+ official support](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b-plus/ms-60b-support/) — Current Windows/Mac firmware 1.20. (official page inspected).
+- [MS-60B+ firmware history](https://zoomcorp.com/documents/3533/MS-60Bplus_VersionHistory_120_jp.pdf) — 1.20 January 2025; 1.10 May 2024; 1.00 production May 2024. (official Japanese PDF inspected).
+- [MS-60B+ operation manual](https://zoomcorp.com/manuals/ms-60bplus-en/) — 100 patches; default auto-save; six effects, PROCESS OVERFLOW, ADD capacity rejection and category restrictions. (official HTML inspected).
+- [MS-60B+ effect list](https://zoomcorp.com/media/documents/E_MS-60Bplus_FX-list.pdf) — Explicit polyphonic pitch/octave chord support; separate bass mono pitch and harmony algorithms. (official PDF inspected, pp15–16).
+
+<!-- firmware-pitch:Zoom::MS-60B Plus ends -->
+
 Manufacturer model **MS-60B+**,catalogued with the word Plus to distinguish it from the original MS-60B. Reviewed **2026-10-17** following exact Shopee discovery. Bass-focused multi-effects;not classified as guitar/vocal from a seller title. No ownership assertion. Partial research using official HTML andindexed manufacturer text;no dependencies,manual files,software orfirmware downloaded to the workspace.
 
 | Field | Finding / qualification | Evidence |
