@@ -210848,11 +210848,45 @@
             "exact_top_down": false
           }
         }
+      },
+      "Valeton::Rushead Max Bass RH-101": {
+        "model_key": "Valeton::Rushead Max Bass RH-101",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/RusheadMaxBass_Front_With_Light_Hi_V01_210818_1445x.png?v=1638856006",
+            "source_url": "https://shop.valeton.net/products/rushead-max-bass",
+            "caption": "Official Rushead Max Bass control-face stock image",
+            "note": "Visually inspected exact BASS control-face stock image: five edge knobs, three TYPE sliders and four blue lights, plus attached instrument plug. No separate footswitch or screen visible. Illuminated stock artwork does not establish an actual powered-unit photograph; strict overhead powered photography remains pending.",
+            "visual_checked": true,
+            "sha256": "de09a10b2c3f924cc12427efd2b190477776a583d9ef24e12ff0a23650aefdf7",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/RusheadMaxBass_Right_Hi_V01_210903_1445x.png?v=1638856112",
+            "source_url": "https://shop.valeton.net/products/rushead-max-bass",
+            "caption": "Official Rushead Max Bass connector-side stock image",
+            "note": "Visually inspected connector side, not back shell: AUX IN and headphone sockets with attached instrument plug visible. Opposite charging edge is outside this view, so complete connector coverage remains pending. The separately inspected Rear image contains no readable port row.",
+            "visual_checked": true,
+            "sha256": "50188844bb293a9453b0e8ef909dc18db044b94f786e73e24f9cd63c1aa2e009",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/RusheadMaxBass_Rear_Hi_V01_210903_1445x.png?v=1638856112",
+            "sha256": "4924f3010111591bcfb905d5fd25332daa3f107a6fb6c91fa53ea4f8cb63717b",
+            "visual_checked": true,
+            "note": "Visually inspected back shell and plug hinge; no readable connector row. Not substituted for a port photograph."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-50"
+    "last_model": "Valeton::Rushead Max Bass RH-101"
   }
 }
