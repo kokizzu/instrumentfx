@@ -1489,6 +1489,26 @@ Sources checked:
 
 <!-- firmware-pitch:TC-Helicon::VoiceLive Play ends -->
 
+<!-- model-images:TC-Helicon::VoiceLive Play begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**VoiceLive Play powered-on control face — actual unit**
+
+[![VoiceLive Play powered-on control face — actual unit](https://medias.audiofanzine.com/images/normal/tc-helicon-voicelive-play-2925501.jpg)](https://medias.audiofanzine.com/images/normal/tc-helicon-voicelive-play-2925501.jpg)
+
+[Image source](https://fr.audiofanzine.com/processeur-vocal/tc-helicon/voicelive-play/). Actual original blue VoiceLive Play with connected power and readable RAYMOND CIG / 3 LCD. Full face shows central encoder, three footswitches and ten buttons (six soft keys, BACK/STORE and two arrows); separate mic-gain knob is documented by the manual and rear profile. Near-overhead view has slight perspective rather than a strict perpendicular camera position. Operating display does not establish audio quality or firmware version.
+
+**VoiceLive Play rear ports — manufacturer stock image**
+
+[![VoiceLive Play rear ports — manufacturer stock image](https://cdn-media.empowertribe.com/9049db6c7b5c40b3b30b2c9ddd273d05/Image_TH_0726-AAZ_VOICELIVE-PLAY_Rear_XL.png)](https://cdn-media.empowertribe.com/9049db6c7b5c40b3b30b2c9ddd273d05/Image_TH_0726-AAZ_VOICELIVE-PLAY_Rear_XL.png)
+
+[Image source](https://www.tchelicon.com/en/products/0726-AAZ). Manufacturer original-blue rear inspected: center-negative DC power labeled 12V/400mA, Mini-B USB, headphone minijack, male XLR LEFT/RIGHT outputs, quarter-inch PEDAL, AUX minijack, female XLR MIC and security slot. Resolves earlier pictured-hardware polarity gap; label is not measured draw and later >400mA guide remains separately qualified. No guitar input, DIN MIDI or FX-loop sockets shown. PEDAL does not prove continuous expression; USB presence does not prove bus-powered operation.
+
+</details>
+<!-- model-images:TC-Helicon::VoiceLive Play ends -->
+
+
 Blue VoiceLive Play vocal processor, not GTX or Play Acoustic. Consolidated **2026-10-17**; complete original findings and supporting facts retain their original technical dates. Current firmware remains unverified.
 
 <!-- SCORPION-VoiceLive Play source begins -->
