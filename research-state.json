@@ -209496,11 +209496,51 @@
             "exact_top_down": false
           }
         }
+      },
+      "Valeton::Dapper Dark VES-3": {
+        "model_key": "Valeton::Dapper Dark VES-3",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://res.valeton.net/Uploads/wp/2025/06/o_1e4im877c1u031vrls4b1b7tr2e3a-scaled.jpg",
+            "source_url": "https://www.valeton.net/product/dapper-darkdiscontinued/",
+            "caption": "Near-overhead full-size Dapper Dark manufacturer image, unlit.",
+            "note": "Visually 12 rotary controls and 5 footswitches, including dedicated TAP. No separate small buttons on this face; rear cabinet selector is separate. Tuner/status indicators unlit. Slight perspective/visible rear jacks; powered-on strict perpendicular overhead remains pending.",
+            "visual_checked": true,
+            "sha256": "fb36ecb79aa63c00e3ae8c05f88968a0af3faf11e76e91e14962bbbd2588e92a",
+            "powered_on": false,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://evolutionmusicstore.com/cdn/shop/products/xwfpysqphdgop8xpu82d_400x.jpg?v=1696006373",
+            "source_url": "https://evolutionmusicstore.com/products/valeton-ves-3-dapper-dark-multi-effects-strip",
+            "caption": "Used full-size Dark output/loop-end connector close-up.",
+            "note": "Actual unlit unit shows RETURN, cabinet-simulation ON/OFF slider and quarter-inch OUT. SEND is only partly framed at left; input/DC end is outside this crop. This is partial rear-port coverage, not a complete connector inventory or powered-on proof.",
+            "visual_checked": true,
+            "sha256": "190d1df7b870e57bee4b22b6fe7a279c7568991db7eb0fd9f8f93b04b3bfff5b",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://evolutionmusicstore.com/cdn/shop/products/rfazygmikbce0urpk5bc_400x.jpg?v=1696006373",
+            "sha256": "c36fec8dbc169d8b153a7bcb40a45bd4c5e01c6425527384cfd77162c4f81e04",
+            "visual_checked": true,
+            "note": "Unlit HiGain control close-up, no connector coverage."
+          },
+          {
+            "image_url": "https://evolutionmusicstore.com/cdn/shop/products/jt2trw8j2zrvyev5anrh_400x.jpg?v=1696006373",
+            "sha256": "1f8c79b1a6b8dc4ddc4b024c018a17f9f5878eb9ef6deefab33e8a7f28503af4",
+            "visual_checked": true,
+            "note": "Unlit delay/Tap close-up, no connector coverage."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Dark Mini"
+    "last_model": "Valeton::Dapper Dark VES-3"
   }
 }

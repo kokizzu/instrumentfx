@@ -565,6 +565,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::Dapper Dark VES-3 ends -->
 
+<!-- model-images:Valeton::Dapper Dark VES-3 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Near-overhead full-size Dapper Dark manufacturer image, unlit.**
+
+[![Near-overhead full-size Dapper Dark manufacturer image, unlit.](https://res.valeton.net/Uploads/wp/2025/06/o_1e4im877c1u031vrls4b1b7tr2e3a-scaled.jpg)](https://res.valeton.net/Uploads/wp/2025/06/o_1e4im877c1u031vrls4b1b7tr2e3a-scaled.jpg)
+
+[Image source](https://www.valeton.net/product/dapper-darkdiscontinued/). Visually 12 rotary controls and 5 footswitches, including dedicated TAP. No separate small buttons on this face; rear cabinet selector is separate. Tuner/status indicators unlit. Slight perspective/visible rear jacks; powered-on strict perpendicular overhead remains pending.
+
+**Used full-size Dark output/loop-end connector close-up.**
+
+[![Used full-size Dark output/loop-end connector close-up.](https://evolutionmusicstore.com/cdn/shop/products/xwfpysqphdgop8xpu82d_400x.jpg?v=1696006373)](https://evolutionmusicstore.com/cdn/shop/products/xwfpysqphdgop8xpu82d_400x.jpg?v=1696006373)
+
+[Image source](https://evolutionmusicstore.com/products/valeton-ves-3-dapper-dark-multi-effects-strip). Actual unlit unit shows RETURN, cabinet-simulation ON/OFF slider and quarter-inch OUT. SEND is only partly framed at left; input/DC end is outside this crop. This is partial rear-port coverage, not a complete connector inventory or powered-on proof.
+
+</details>
+<!-- model-images:Valeton::Dapper Dark VES-3 ends -->
+
+
 Full-size guitar multi-effects strip, separate from Dark Mini. Manufacturer marks it **discontinued**. Checked 2026-10-17; partial. VES-3 is seller code pending manual corroboration.
 
 | Field | Finding / qualification | Evidence |
