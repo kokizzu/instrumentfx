@@ -617,6 +617,31 @@ Existing hardware, headphone and edition qualifications remain. No device operat
 
 ## Magicstomp original Guitar
 
+<!-- firmware-pitch:Yamaha::Magicstomp original Guitar begins -->
+### Firmware and pitch audit — Yamaha Magicstomp original Guitar
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2003-09-26 (manufacturer US public announcement; first shipment unresolved). Yamaha US announcement26September2003 plans November availability; not first confirmed shipment or earliest worldwide announcement. Earlier regional coverage does not establish retail delivery. [launch 1](https://usa.yamaha.com/news_events/2003/20030926_guitar-effects-pedal-is-magic_us.html) |
+| Firmware / latest verification | Not verified — Unverified. Latest original-Guitar device firmware and release date not verified from an exact manufacturer updater/changelog. Community2.10 upgrade reports and separate Bass editor2.10 documents do not establish original package compatibility or final release. PDF modification timestamps and editor versions are not device release dates; no update installed. [firmware 1](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) [firmware 2](https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Exact Guitar effect list printed17: HQ.Pitch±12semitones; DualPitch two channels each±24; fine±50cents, precision MODE1–10, configurable delay0–1000ms and mix. Two output voices do not prove chord/polyphonic input. [pitch 1](https://usa.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf) [pitch 2](https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf) |
+| Pitch / preset recall | 99preset+99user; original manual uses computer Sound Editor for full parameters and knob assignments, with three assigned parameters available on the unit. Edited patches save to user memory; arbitrary independent pitch+amp stacking not established. |
+| Pitch / DSP resources | Per-pitch DSP percentage not published in inspected tables. MODE precision and delay controls are not CPU usage or measured processing latency.32bit DSP architecture does not quantify remaining effect capacity. |
+| Pitch / qualifications | Official Guitar effect list retrieved153638bytes, SHA25603bd3eaf838d11730b176d77c8a456d77d0b143a4a49f304a70fca55d4331f67. Pitch tables directly read; no separate v2.10 BassPreamp imported. Original hardware lacks MK2 PHONES addition; no onboard Deep Edit upgrade assumed from sibling supplement. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha Guitar Effects Pedal is Magic,26September2003](https://usa.yamaha.com/news_events/2003/20030926_guitar-effects-pedal-is-magic_us.html) — Introduces original Magicstomp; planned November availability, not actual shipment confirmation. Launch power/output wording conflicts with own manual; retain manual electrical specifications. (official announcement full text read).
+- [Yamaha original Guitar Effects Processor owner manual](https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf) — 32bitDSP,99preset+99user; original full editing via Sound Editor and three assigned hardware parameters. STORE/no PHONES hardware distinguishes edition. (official31page PDF text read, printed7,15–17,29).
+- [Yamaha Guitar Effects Processor Effect List](https://usa.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf) — HQ.Pitch and DualPitch parameter ranges; no explicit input polyphony or DSP percentage. No v2.10 BassPreamp transfer. (official31page PDF cached original; printed17 read via bounded Make target; web403).
+- [Yamaha exact-edition manual catalogue](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) — Original Guitar and MK2/Acoustic/Bass documents distinct. No exact original updater/date verified in this pass. (official indexed catalogue; retained original effect-list association).
+
+<!-- firmware-pitch:Yamaha::Magicstomp original Guitar ends -->
+
 Checked 2026-10-18; partial. Original Guitar edition only. [Own Yamaha manual](https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf), pp7–12,24,26,29. Multi-effects eligibility follows its amp/effects architecture; p10 explicitly supports guitar, bass and line-level instruments. Price gaps do not exclude eligible hardware.
 
 <!-- comparison evidence begins -->
