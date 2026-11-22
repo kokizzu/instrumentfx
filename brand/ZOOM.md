@@ -8920,6 +8920,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::MS-60B ends -->
 
+<!-- model-images:Zoom::MS-60B begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**MS-60B control face**
+
+[![MS-60B control face](https://assets.st-note.com/img/1706680334797-OjO1huuERu.jpg?width=1200)](https://assets.st-note.com/img/1706680334797-OjO1huuERu.jpg?width=1200)
+
+[Image source](https://note.com/jhhsshnsk/n/ne4d6c3ede887). Actual powered original MS-60B with illuminated RackComp display and red status LED. Complete control layout shows three knobs, central footswitch and four navigation-ring buttons. This photograph is oblique, not perpendicular top-down; a straight-down powered replacement remains pending.
+
+**MS-60B rear connections**
+
+[![MS-60B rear connections](https://zoomcorp.com/media/original_images/MS-60B_rear.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg)](https://zoomcorp.com/media/original_images/MS-60B_rear.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg)
+
+[Image source](https://zoomcorp.com/ja/jp/multi-effects/multistomp-pedals/ms-60b/). Official complete rear view shows Mini-USB and the center-negative DC9V 500mA power input. Mono bass input and L/MONO/R outputs are on the sides; socket openings are outside this rear view.
+
+</details>
+<!-- model-images:Zoom::MS-60B ends -->
+
+
 Checked **2026-10-17**. Original discontinued bass multi-effects,distinct from MS-60B+. No ownership assertion. Primary page/indexed manual text only;no files or dependencies downloaded. Partial record.
 
 | Field | Finding / qualification | Evidence |
