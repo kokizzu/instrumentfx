@@ -211096,11 +211096,45 @@
             "exact_top_down": false
           }
         }
+      },
+      "VING::Flybro FB-100": {
+        "model_key": "VING::Flybro FB-100",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://img.shoplineapp.com/media/image_clips/68a859a2a2ab230018785367/original.png?1755863458=&owner_id=606fd6bd4ddc9f000993e309",
+            "source_url": "https://www.bignose-guitar.com.tw/en/products/ving-fb100",
+            "caption": "Flybro FB-100 control-face retailer image",
+            "note": "Visually inspected black VING FB-100 labelled control face, speaker grille, two knobs and four hand buttons. Display is dark; this does not meet the powered-on request. Slight perspective rather than certified strict overhead; powered-on overhead photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "508d541acd26886d0d2f440cd15a1848bccd36fe6c7b4de84ffa55690fa5361d",
+            "powered_on": false,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://down-id.img.susercontent.com/file/id-11134207-81ztg-mekztwgjzw1tf7",
+            "source_url": "https://shopee.co.id/Ving-FB100-FP-100-Portable-Multi-Effects-Processor-Ving-Flybro-FB-100-with-8-Effect-Modules-with-Bluetooth-i.16879370.42318023709",
+            "caption": "Flybro FB-100 connector-side retailer photograph",
+            "note": "Visually inspected actual retailer connector-side photograph: FS/EXP and IN sockets, matching the original FB-100 guide panel and housing. Seller title also contains FP-100 typo; no new model inferred. Model marking is outside crop. Opposite USB/OUT/phones/reset side is not shown, so connector coverage is incomplete. This is a side view, not rear row.",
+            "visual_checked": true,
+            "sha256": "f71106c02427aad56c5341dbd414467e89631d64757d7a715a5defe96ad27cf4",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://www.kurniamusik.com/image-product/img560-1757747412.JPG",
+            "sha256": "4ca9f82a33c0b0e6f21e55ac13f98452ba55a4694802be03f9cb1535dd792aab",
+            "visual_checked": true,
+            "note": "Speaker-grille/logo face only, without controls or readable ports; not adopted as overhead control view."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Rushead Max RH-100"
+    "last_model": "VING::Flybro FB-100"
   }
 }
