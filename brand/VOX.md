@@ -163,11 +163,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Official VOX StompLab 1G control-face image**
+**StompLab 1G unlit overhead review photograph**
 
-[![Official VOX StompLab 1G control-face image](https://voxamps.com/wp-content/uploads/2019/02/SL1G-Stomplab-Guitar-Multi-Effect-1.png)](https://voxamps.com/wp-content/uploads/2019/02/SL1G-Stomplab-Guitar-Multi-Effect-1.png)
+[![StompLab 1G unlit overhead review photograph](https://cdn.mos.cms.futurecdn.net/91b0a40b6b6d40c795a34cdc09c21b48.jpg)](https://cdn.mos.cms.futurecdn.net/91b0a40b6b6d40c795a34cdc09c21b48.jpg)
 
-[Image source](https://voxamps.com/en-gb/product/stomplab-1g/). Visually inspected black guitar control face: three knobs, three small buttons and two footswitches, no treadle. Official stock image displays 50 and colored indicators; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending.
+[Image source](https://www.musicradar.com/reviews/guitars/vox-stomplab-ig-570612). Complete near-perpendicular control face; display and indicators dark. Three knobs, three small buttons and both footswitches visible. Review photograph provides layout evidence, not powered operation. Guitar-category labels and absence of treadle distinguish1G from red1B and treadle-equipped2G. Powered-on whole-unit overhead photograph remains pending. [Previous official active-display product graphic](https://voxamps.com/wp-content/uploads/2019/02/SL1G-Stomplab-Guitar-Multi-Effect-1.png).
 
 **Official VOX StompLab 1G rear-port shop image**
 
