@@ -3261,11 +3261,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Official GP-200LT control-face stock image**
+**GP-200LT powered-on overhead pedalboard photograph**
 
-[![Official GP-200LT control-face stock image](https://shop.valeton.net/cdn/shop/products/GP-200LT_Front_WithScreen_Hi_V01_220909_1445x.png?v=1690878379)](https://shop.valeton.net/cdn/shop/products/GP-200LT_Front_WithScreen_Hi_V01_220909_1445x.png?v=1690878379)
+[![GP-200LT powered-on overhead pedalboard photograph](https://santoclemenzi.com/wp-content/uploads/2023/03/IMG_20230311_151621-scaled.jpg)](https://santoclemenzi.com/wp-content/uploads/2023/03/IMG_20230311_151621-scaled.jpg)
 
-[Image source](https://shop.valeton.net/products/gp-200lt). Visually inspected exact GP-200LT control face: six knobs including independent PHONES, fourteen buttons, four footswitches and no built-in treadle. Stock artwork shows screen and illuminated rings; actual powered-unit photography is unverified. Rear connectors are visible beyond the case, so strict overhead powered photography remains pending.
+[Image source](https://santoclemenzi.com/en/valeton-gp-200lt/). Visually inspected exact black GP-200LT in a pedalboard case: lit color display, illuminated first/second/CTRL footswitch rings, all four footswitches, six knobs and full enclosure visible. No built-in expression treadle. Slight perspective remains, so strict perpendicular elevation is pending. Screen patch text is washed out; no firmware, patch identity or DSP cost inferred. Other devices in the case are external accessories, not part of the GP-200LT.
 
 **Official GP-200LT rear connector-edge stock image**
 
