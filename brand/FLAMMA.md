@@ -630,11 +630,11 @@ Remaining: actual unit revision/current/polarity label and phantom direction,vis
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. No datelined manufacturer launch located. The 2024-01-08 manual revision is documentation age, not a first-sale date. [launch 1](https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal) [launch 2](https://flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf) |
+| Firmware / first hardware release | 2023-08-13 (earliest located original public demonstration; introduction proxy). Sean Daniel original video Finally a Pedal for Singer-Songwriters is dated13August2023 and explicitly introduces the new FV05 Recorder. Establishes public demonstration by that date, not manufacturer launch or first regional shipment. The2024-01-08 manual revision is later documentation,not hardware introduction. [launch 1](https://www.youtube.com/watch?v=BTi8w6cvcMk) |
 | Firmware / latest verification | Not verified — No public firmware located. Exact maker support record has attachments[] and a V02 manual; both download indexes provide no FV05 device firmware or updater. Manual V02/2024-01-08 is not firmware. Undocumented service/internal firmware is not ruled out. [firmware 1](https://flammainnovation.com/goods/support?goodsName=FV05) [firmware 2](https://flammainnovation.com/download.html) [firmware 3](https://www.flamma.shop/pages/manual) [firmware 4](https://flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
-| Firmware / audit date | 2026-11-21; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Firmware / audit date | 2026-11-23; [firmware recap](../FIRMWARE-UPDATES.md). |
 | Pitch / note handling | No pitch algorithm documented in checked sources. No pitch shift, harmony, transpose or pitch-correction algorithm documented in the current owner manual or own product description. Mono/polyphonic pitch tracking is therefore not established; recording chords is not pitch processing. [pitch 1](https://flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf) [pitch 2](https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal) |
 | Pitch / preset recall | Eleven slots save audio recordings, not effect presets. Factory/user tone-memory allocation is unverified. |
 | Pitch / DSP resources | Fixed vocal EQ/compressor, noise gate and reverb; separate guitar reverb. No numerical CPU/DSP percentage, resource reserve or per-effect cost published. Unlimited overdubbing is a recording feature, not a DSP-load measurement. |
@@ -648,6 +648,7 @@ Sources checked:
 - [FLAMMA FV05 public support metadata](https://flammainnovation.com/goods/support?goodsName=FV05) — Exact FV05 record links V02 English manual and empty attachments list. (Bounded inert maker JSON; SHA256 d4ecdb728ffa58cc7501d69dfa7e6db15799d3ceed824fd6cee2a299bf4d5948).
 - [FLAMMA download catalogue](https://flammainnovation.com/download.html) — FV05 manual entry; no FV05 firmware download found. (Current indexed manufacturer catalogue).
 - [FLAMMA manuals and software index](https://www.flamma.shop/pages/manual) — FV05 owner manual only; firmware/software entries for other models are not FV05 firmware. (Direct current maker index).
+- [Sean Daniel original FV05 Recorder demonstration](https://www.youtube.com/watch?v=BTi8w6cvcMk) — Verified creator Sean Daniel; published2023-08-13; description explicitly checks out new FlammaFV05 Recorder pedal. Used only as public-introduction proxy,not global first sale. (Original creator indexed title, publication metadata and description inspected; direct player fetch unavailable).
 
 <!-- firmware-pitch:Flamma::FV05 Recorder ends -->
 
