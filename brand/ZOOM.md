@@ -3982,6 +3982,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G1X FOUR ends -->
 
+<!-- model-images:Zoom::G1X FOUR begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G1X FOUR powered control face**
+
+[![G1X FOUR powered control face](https://medias.audiofanzine.com/images/normal/zoom-g1x-four-6466823.jpg)](https://medias.audiofanzine.com/images/normal/zoom-g1x-four-6466823.jpg)
+
+[Image source](https://fr.audiofanzine.com/multieffet-guitare-electrique/zoom/g1x-four/). Actual powered G1X FOUR in a full near-overhead view, with illuminated patch 13 Del+Vol LCD and red bank LED. Four rotary knobs, two footswitches, built-in treadle and nine pushbuttons are visible (mode, setting, rhythm, five numbered buttons and looper). Earlier preserved 11-button wording counts two nonexistent separate arrow buttons; these arrows are on the main footswitches.
+
+**G1X FOUR rear connections**
+
+[![G1X FOUR rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1X-FOUR_rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1X-FOUR_rear.jpg)
+
+[Image source](https://avstore.co.nz/product/zoom-g1x-four-multi-effects-processor-with-expression-pedal/). Exact G1X FOUR manufacturer rear photograph, including full expression-pedal chassis. INPUT, AUX IN, center-negative DC9V, micro-B USB marked DC5V, security slot and shared OUTPUT are visible. Output stereo/headphone function comes from the manual, not the socket shape. No external expression jack.
+
+</details>
+<!-- model-images:Zoom::G1X FOUR ends -->
+
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- ZOOM-G1X-FOUR source begins -->
