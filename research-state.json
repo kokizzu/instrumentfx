@@ -206673,15 +206673,15 @@
       },
       "Mosky::SOL918": {
         "model_key": "Mosky::SOL918",
-        "checked_date": "2026-11-22",
+        "checked_date": "2026-11-23",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first hardware release not verified",
+          "date": "2021-09-10",
+          "precision": "day",
+          "kind": "retailer_declared_regional_release_proxy",
           "source_urls": [
-            "https://www.moskyaudio.com/multi-effects/130.html"
+            "https://bestguitar.co.kr/product/%EB%AA%A8%EC%8A%A4%ED%82%A4-%EB%A9%80%ED%8B%B0%EC%9D%B4%ED%8E%99%ED%84%B0-mosky-multi-effect-sol918-%EC%96%B4%EB%8C%91%ED%84%B0-%EB%AF%B8%ED%8F%AC%ED%95%A8/1806/"
           ],
-          "note": "Manufacturer page is undated; seller year fields and image migration/upload dates do not verify first shipment."
+          "note": "Korean retailer Best Guitar explicitly labels September 10, 2021 as the same-model release date, distinguishing it from manufacture date, on its exact SOL918 product disclosure. Retained as retailer-declared Korean-market proxy; manufacturer corroboration and first worldwide shipment remain unverified. Not inferred from a listing upload timestamp or generic year field."
         },
         "firmware": {
           "version": null,
@@ -206720,10 +206720,72 @@
             "title": "Mosky manufacturer manual index",
             "access": "Manufacturer body inspected",
             "evidence": "No manual entries exposed; no exact SOL918 updater found. Lack of listings does not prove lack of internal firmware."
+          },
+          {
+            "url": "https://bestguitar.co.kr/product/%EB%AA%A8%EC%8A%A4%ED%82%A4-%EB%A9%80%ED%8B%B0%EC%9D%B4%ED%8E%99%ED%84%B0-mosky-multi-effect-sol918-%EC%96%B4%EB%8C%91%ED%84%B0-%EB%AF%B8%ED%8F%AC%ED%95%A8/1806/",
+            "title": "Best Guitar Korea — Mosky SOL918 product disclosure",
+            "access": "opened_retailer_original_product_disclosure",
+            "evidence": "Exact SOL918 product disclosure names MOSKY AUDIO/China and local importer Music Paradigm. Field 동일모델의 출시년월 (제조일자 아님) explicitly gives 2021년 09월 10일. Used as regional retailer-declared release proxy, not authenticated global launch."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Mosky::SOL918",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first hardware release not verified",
+              "source_urls": [
+                "https://www.moskyaudio.com/multi-effects/130.html"
+              ],
+              "note": "Manufacturer page is undated; seller year fields and image migration/upload dates do not verify first shipment."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.moskyaudio.com/multi-effects/130.html",
+                "https://www.moskyaudio.com/mosky.html"
+              ],
+              "note": "No exact SOL918 firmware release, updater or changelog located on checked manufacturer routes or searches. Manual index exposes no documents. This does not prove absent internal firmware/non-updatability; release-to-update duration unknown. Old product URL now404, current manufacturer route retained."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Manufacturer lists reverb, delay, FX loop, overdrive and distortion. No dedicated pitch-shift, transpose, octave or harmonizer documented. External effects-loop insertion does not establish built-in pitch or polyphony.",
+              "preset": "Factory/user preset capacity, electronic program recall and stored pitch parameters unverified. Physical switches/knobs do not establish programmable memories.",
+              "dsp": "No pitch-specific resource figure found. Manufacturer includes an external FX loop among five advertised functions; this is not five internal DSP blocks or a 20% cost per function.",
+              "source_urls": [
+                "https://www.moskyaudio.com/multi-effects/130.html"
+              ],
+              "measurements": [],
+              "notes": [
+                "FX loop is an external audio insert, not evidence of a phrase recording looper.",
+                "Keep SOL918 distinct from Mosky RC5/DC5/RD5; do not inherit sibling firmware or effects."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.moskyaudio.com/multi-effects/130.html",
+                "title": "Mosky SOL918 current manufacturer product page",
+                "access": "Manufacturer body and gallery links inspected; old products-1-98 route404",
+                "evidence": "Undated five-functions listing reverb/delay/FX loop/overdrive/distortion. No dedicated pitch or firmware release documented."
+              },
+              {
+                "url": "https://www.moskyaudio.com/mosky.html",
+                "title": "Mosky manufacturer manual index",
+                "access": "Manufacturer body inspected",
+                "evidence": "No manual entries exposed; no exact SOL918 updater found. Lack of listings does not prove lack of internal firmware."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "ROWIN::RE-05 Looper Pro": {
         "model_key": "ROWIN::RE-05 Looper Pro",
@@ -217845,8 +217907,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Soran::Dual Stomp Lite",
-    "last_commit_parent": "5a0ac8c6fc7ac933f6ca79047409b9094d8264ba",
+    "last_model": "Mosky::SOL918",
+    "last_commit_parent": "5ad411c29260a7b3270e068dc738ed9acce4bae5",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

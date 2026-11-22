@@ -245,11 +245,11 @@ A five-month [shop index](https://shopee.co.id/smile.pedal87) names RD5 at Rp430
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Manufacturer page is undated; seller year fields and image migration/upload dates do not verify first shipment. [launch 1](https://www.moskyaudio.com/multi-effects/130.html) |
+| Firmware / first hardware release | 2021-09-10 (retailer declared regional release proxy). Korean retailer Best Guitar explicitly labels September 10, 2021 as the same-model release date, distinguishing it from manufacture date, on its exact SOL918 product disclosure. Retained as retailer-declared Korean-market proxy; manufacturer corroboration and first worldwide shipment remain unverified. Not inferred from a listing upload timestamp or generic year field. [launch 1](https://bestguitar.co.kr/product/%EB%AA%A8%EC%8A%A4%ED%82%A4-%EB%A9%80%ED%8B%B0%EC%9D%B4%ED%8E%99%ED%84%B0-mosky-multi-effect-sol918-%EC%96%B4%EB%8C%91%ED%84%B0-%EB%AF%B8%ED%8F%AC%ED%95%A8/1806/) |
 | Firmware / latest verification | Not verified — No public firmware located. No exact SOL918 firmware release, updater or changelog located on checked manufacturer routes or searches. Manual index exposes no documents. This does not prove absent internal firmware/non-updatability; release-to-update duration unknown. Old product URL now404, current manufacturer route retained. [firmware 1](https://www.moskyaudio.com/multi-effects/130.html) [firmware 2](https://www.moskyaudio.com/mosky.html) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
-| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Firmware / audit date | 2026-11-23; [firmware recap](../FIRMWARE-UPDATES.md). |
 | Pitch / note handling | No pitch algorithm documented in checked sources. Manufacturer lists reverb, delay, FX loop, overdrive and distortion. No dedicated pitch-shift, transpose, octave or harmonizer documented. External effects-loop insertion does not establish built-in pitch or polyphony. [pitch 1](https://www.moskyaudio.com/multi-effects/130.html) |
 | Pitch / preset recall | Factory/user preset capacity, electronic program recall and stored pitch parameters unverified. Physical switches/knobs do not establish programmable memories. |
 | Pitch / DSP resources | No pitch-specific resource figure found. Manufacturer includes an external FX loop among five advertised functions; this is not five internal DSP blocks or a 20% cost per function. |
@@ -260,6 +260,7 @@ Sources checked:
 
 - [Mosky SOL918 current manufacturer product page](https://www.moskyaudio.com/multi-effects/130.html) — Undated five-functions listing reverb/delay/FX loop/overdrive/distortion. No dedicated pitch or firmware release documented. (Manufacturer body and gallery links inspected; old products-1-98 route404).
 - [Mosky manufacturer manual index](https://www.moskyaudio.com/mosky.html) — No manual entries exposed; no exact SOL918 updater found. Lack of listings does not prove lack of internal firmware. (Manufacturer body inspected).
+- [Best Guitar Korea — Mosky SOL918 product disclosure](https://bestguitar.co.kr/product/%EB%AA%A8%EC%8A%A4%ED%82%A4-%EB%A9%80%ED%8B%B0%EC%9D%B4%ED%8E%99%ED%84%B0-mosky-multi-effect-sol918-%EC%96%B4%EB%8C%91%ED%84%B0-%EB%AF%B8%ED%8F%AC%ED%95%A8/1806/) — Exact SOL918 product disclosure names MOSKY AUDIO/China and local importer Music Paradigm. Field 동일모델의 출시년월 (제조일자 아님) explicitly gives 2021년 09월 10일. Used as regional retailer-declared release proxy, not authenticated global launch. (opened_retailer_original_product_disclosure).
 
 <!-- firmware-pitch:Mosky::SOL918 ends -->
 
