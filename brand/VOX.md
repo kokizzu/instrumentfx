@@ -400,15 +400,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Official VOX StompLab 2G control-face image**
+**StompLab 2G complete near-overhead owner photograph**
 
-[![Official VOX StompLab 2G control-face image](https://voxamps.com/wp-content/uploads/2019/02/SL2G-Stomplab-Guitar-Multi-Effect-1.png)](https://voxamps.com/wp-content/uploads/2019/02/SL2G-Stomplab-Guitar-Multi-Effect-1.png)
+[![StompLab 2G complete near-overhead owner photograph](https://img.ricardostatic.ch/images/76ef86c5-10e6-4831-9b66-eb975ab6637c/t_1000x750/vox-stomplab-sl2g-gitarrenpedal-effektgerat)](https://img.ricardostatic.ch/images/76ef86c5-10e6-4831-9b66-eb975ab6637c/t_1000x750/vox-stomplab-sl2g-gitarrenpedal-effektgerat)
 
-[Image source](https://voxamps.com/product/stomplab-2g/). Visually inspected black guitar control face: three knobs, four small buttons, two footswitches and built-in expression treadle. Official stock image displays 50 and colored indicators; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending. A supplemental actual-unit photograph below shows the whole chassis and treadle, with wear visible, but is oblique and unpowered: the purple 88 segments are dark, and the indicator lenses show reflections rather than verified illumination.
-
-[![VOX StompLab IIG actual unpowered unit](https://www.guitarcollectors.ru/items_photos/W8YqQy1le9UYkv_MFWL4z89hICX09PKd6XdwJc4Aydl5IaoopL4nyzpU9XF_yWp2mlViFc4VzmXe6FMSQV5_kBY9.webp)](https://www.guitarcollectors.ru/items_photos/W8YqQy1le9UYkv_MFWL4z89hICX09PKd6XdwJc4Aydl5IaoopL4nyzpU9XF_yWp2mlViFc4VzmXe6FMSQV5_kBY9.webp)
-
-[Actual-unit photograph source](https://guitarcollectors.ru/items/12418306/).
+[Image source](https://www.ricardo.ch/de/a/vox-stomplab-sl2g-gitarrenpedal-effektgeraet-1266928512/). Actual black guitar model photographed on a gray wooden surface: all three knobs, four small buttons, both metal footswitches and the full VOX treadle are visible. Slight perspective prevents a strict perpendicular claim. Display shows all 88 segment outlines, with reflections on colored indicator lenses; powered operation is not established. A powered overhead photograph remains pending. Previous [official stock layout](https://voxamps.com/wp-content/uploads/2019/02/SL2G-Stomplab-Guitar-Multi-Effect-1.png) and [additional worn-unit photograph](https://www.guitarcollectors.ru/items_photos/W8YqQy1le9UYkv_MFWL4z89hICX09PKd6XdwJc4Aydl5IaoopL4nyzpU9XF_yWp2mlViFc4VzmXe6FMSQV5_kBY9.webp) remain available. Rear-port image retained.
 
 **Official VOX StompLab 2G rear-port shop image**
 
