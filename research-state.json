@@ -203077,10 +203077,72 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::Dapper Mini MES-1": {
+        "model_key": "Valeton::Dapper Mini MES-1",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first release unresolved",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-mini/"
+          ],
+          "note": "No first-release date established in checked manufacturer product/manual. Manual170227 and image161213 identifiers do not establish first retail shipment."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-mini/",
+            "https://www.valeton.net/firmware/",
+            "https://manualmachine.com/valeton/dappermini/2574559-user-manual/"
+          ],
+          "note": "No numbered MES-1 device firmware release/date or user updater located in checked sources. Official manual V03 is document revision, not device firmware3. Firmware index dynamic text may be incomplete; no historical-absence claim."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Drive OD/distortion, Chorus and analog-voiced Delay are documented; no dedicated transposer, octave divider or harmonizer. Chorus internal pitch architecture/input polyphony unspecified.",
+          "preset": "Physical controls and OD/DIST toggle; no programmable pitch-memory count or semitone range documented. Hold/tap changes delay tempo, not pitch preset selection.",
+          "dsp": "No pitch DSP percentage, processing meter or per-algorithm cost published in checked sources. Delay1000ms maximum,110mA electrical draw and control counts do not establish CPU usage.",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-mini/",
+            "https://manualmachine.com/valeton/dappermini/2574559-user-manual/"
+          ],
+          "measurements": [],
+          "notes": [
+            "No-pitch-documented refers to dedicated transposition, not proof chorus contains no internal modulation.",
+            "Tuner mutes audio and detects note accuracy; no automatic correction established.",
+            "Manufacturer headphone paragraph contains external-effects copy; do not infer an FX loop or transfer full-size Dapper features. No hardware/audio or firmware test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.valeton.net/product/dapper-mini/",
+            "title": "Valeton Dapper Mini official product",
+            "access": "web page read",
+            "evidence": "Drive/Chorus/Delay inventory,110mA and V03 manual link; no device firmware version/launch date."
+          },
+          {
+            "url": "https://www.valeton.net/firmware/",
+            "title": "Valeton official firmware index",
+            "access": "web text read; dynamic visibility limited",
+            "evidence": "No exact MES-1 package exposed in extracted text."
+          },
+          {
+            "url": "https://manualmachine.com/valeton/dappermini/2574559-user-manual/",
+            "title": "Manufacturer Dapper Mini owner manual mirrored at ManualMachine",
+            "access": "original two-page manual body read, not generated summary",
+            "evidence": "Drive, chorus rate/depth/level, delay1000ms and hold-to-tap, muted tuner; no dedicated pitch transposer or DSP cost. Mirror revision/byte identity with V03 not established."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::Dapper Mini MES-1",
       "Valeton::Dapper VES-1",
       "Valeton::GP-100",
       "Valeton::GP-150",
@@ -203176,12 +203238,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 308,
-    "last_model": "Valeton::Dapper MDR",
-    "last_commit_parent": "dfa6edd511d31db2b1270693c366997c47a80269",
+    "completed_model_count": 309,
+    "last_model": "Valeton::Dapper Mini MES-1",
+    "last_commit_parent": "018f14ce4ada1fec5fc60c810a41f7cb6e205dc8",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::Dapper Mini MES-1",
       "Valeton::Dapper VES-1",
       "Valeton::GP-100",
       "Valeton::GP-150",
@@ -203276,7 +203337,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 308,
+    "pitch_completed_model_count": 309,
     "supplemental_model_count": 0
   },
   "model_images": {

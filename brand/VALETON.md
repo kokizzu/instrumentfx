@@ -826,6 +826,30 @@ REVERB hold toggles the documented effect-trail setting; four LED pulses confirm
 
 ## Dapper Mini MES-1
 
+<!-- firmware-pitch:Valeton::Dapper Mini MES-1 begins -->
+### Firmware and pitch audit — Valeton Dapper Mini MES-1
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. No first-release date established in checked manufacturer product/manual. Manual170227 and image161213 identifiers do not establish first retail shipment. [launch 1](https://www.valeton.net/product/dapper-mini/) |
+| Firmware / latest verification | Not verified — No public firmware located. No numbered MES-1 device firmware release/date or user updater located in checked sources. Official manual V03 is document revision, not device firmware3. Firmware index dynamic text may be incomplete; no historical-absence claim. [firmware 1](https://www.valeton.net/product/dapper-mini/) [firmware 2](https://www.valeton.net/firmware/) [firmware 3](https://manualmachine.com/valeton/dappermini/2574559-user-manual/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Drive OD/distortion, Chorus and analog-voiced Delay are documented; no dedicated transposer, octave divider or harmonizer. Chorus internal pitch architecture/input polyphony unspecified. [pitch 1](https://www.valeton.net/product/dapper-mini/) [pitch 2](https://manualmachine.com/valeton/dappermini/2574559-user-manual/) |
+| Pitch / preset recall | Physical controls and OD/DIST toggle; no programmable pitch-memory count or semitone range documented. Hold/tap changes delay tempo, not pitch preset selection. |
+| Pitch / DSP resources | No pitch DSP percentage, processing meter or per-algorithm cost published in checked sources. Delay1000ms maximum,110mA electrical draw and control counts do not establish CPU usage. |
+| Pitch / qualifications | No-pitch-documented refers to dedicated transposition, not proof chorus contains no internal modulation. Tuner mutes audio and detects note accuracy; no automatic correction established. Manufacturer headphone paragraph contains external-effects copy; do not infer an FX loop or transfer full-size Dapper features. No hardware/audio or firmware test. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Valeton Dapper Mini official product](https://www.valeton.net/product/dapper-mini/) — Drive/Chorus/Delay inventory,110mA and V03 manual link; no device firmware version/launch date. (web page read).
+- [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact MES-1 package exposed in extracted text. (web text read; dynamic visibility limited).
+- [Manufacturer Dapper Mini owner manual mirrored at ManualMachine](https://manualmachine.com/valeton/dappermini/2574559-user-manual/) — Drive, chorus rate/depth/level, delay1000ms and hold-to-tap, muted tuner; no dedicated pitch transposer or DSP cost. Mirror revision/byte identity with V03 not established. (original two-page manual body read, not generated summary).
+
+<!-- firmware-pitch:Valeton::Dapper Mini MES-1 ends -->
+
 Guitar multi-effects strip, separate from Bass Mini MES-2 and Acoustic Mini. Checked 2026-10-17; partial. MES-1 code is seller identification pending readable manual corroboration.
 
 | Field | Finding / qualification | Evidence |
