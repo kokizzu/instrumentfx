@@ -197181,14 +197181,16 @@
         "model_key": "MOOER::GE100 Pro Li",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first_li_release_unresolved",
+          "date": "2026-05-26",
+          "precision": "day",
+          "kind": "dated regional distributor availability-report proxy; first worldwide Li shipment unresolved",
           "source_urls": [
             "https://www.mooeraudio.com/products/244.html",
-            "https://www.effectsdatabase.com/model/mooer/ge100/pro"
+            "https://www.effectsdatabase.com/model/mooer/ge100/pro",
+            "https://www.adagiodistribucion.es/ge100pro/",
+            "https://www.w-distribution.de/en/news/2026-05-13/Mooer-GE100-Pro"
           ],
-          "note": "Joint manufacturer product confirms the battery edition. Exact first Li announcement/shipment not established. May/June 2026 indexed Li review dates and standard-family presentation dates are evidence leads, not verified Li first release."
+          "note": "Adagio’s May26,2026 announcement explicitly names GE100 PRO Li and describes the range as available in standard and rechargeable versions. This is a regional distributor availability-report proxy, not exact first worldwide shipment. Warwick’s May13 news URL/index is an earlier Li lead but its opened page returned no readable body; it is not accepted as a verified first sale. Later June overview/reviews and standard GE100 Pro presentation dates are not transferred to Li. Latest exact Li firmware remains unresolved, so no duration calculated."
         },
         "firmware": {
           "version": null,
@@ -197246,10 +197248,98 @@
             "title": "GE100 Pro/Pro Li Owner’s Manual V02 September 9, 2026",
             "access": "Original joint PDF retrieved; selected processing/SAVE/pitch pages rendered and visually read",
             "evidence": "Nine categories, ten positions, SAVE and pitch inventory; text extraction garbled."
+          },
+          {
+            "url": "https://www.adagiodistribucion.es/ge100pro/",
+            "title": "Adagio GE100 PRO y GE100 PRO Li announcement",
+            "access": "Distributor-authored dated May26,2026 article read2026-11-22",
+            "evidence": "Explicit Li section and available-in-two-versions statement establish a regional availability-report proxy, not first worldwide shipment."
+          },
+          {
+            "url": "https://www.w-distribution.de/en/news/2026-05-13/Mooer-GE100-Pro",
+            "title": "Warwick GE100 Pro distributor news lead",
+            "access": "Indexed Li text found; opened page returned no readable lines2026-11-22",
+            "evidence": "May13 date appears in news URL and index names Li. Earlier announcement lead only; full body and first-sale assertion unverified."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "MOOER::GE100 Pro Li",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first_li_release_unresolved",
+              "source_urls": [
+                "https://www.mooeraudio.com/products/244.html",
+                "https://www.effectsdatabase.com/model/mooer/ge100/pro"
+              ],
+              "note": "Joint manufacturer product confirms the battery edition. Exact first Li announcement/shipment not established. May/June 2026 indexed Li review dates and standard-family presentation dates are evidence leads, not verified Li first release."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "unverified",
+              "source_urls": [
+                "https://www.mooeraudio.com/Downloads_xq/12.html",
+                "https://cn.mooeraudio.com/Downloads_xq/10.html",
+                "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf"
+              ],
+              "note": "Current support package MS_For_GE100_Pro 1.3.3 is associated with 2026-08-20, but current support page names GE100 Pro, not explicitly Li. Exact Li device payload/version/date remain unverified. Joint manual documents firmware updates, not current package interchangeability. English expression-off default-return differs in emphasis from Chinese sensitivity/smoothing note; Chinese specifies NAM A2 conversion. These are package/family leads. Cloud 1.7.0 stem transposition and September upload timestamps are separate; no first-release span calculated."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Shared manufacturer V02 manual printed pp75–76 lists MODULATION Pitch Shift, Detune and Octave. No explicit simultaneous-note/polyphonic classification, interval endpoints or fully wet control specification located.",
+              "preset": "150 editable slots; SAVE stores edited parameters to the chosen slot/name. Factory-filled subset and held-pedal recall unverified. Standard GE100 Pro user listening report is not an independent Li hardware test.",
+              "dsp": "Rendered V02 printed p18 distinguishes nine effect categories from ten available chain positions. Exact repeated-module/overload limits and isolated Pitch Shift DSP percentage remain unverified. Category count is not CPU usage.",
+              "source_urls": [
+                "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf",
+                "https://www.mooeraudio.com/products/244.html"
+              ],
+              "measurements": [],
+              "notes": [
+                "Shared V02 PDF SHA256 83e40742d0f19002b94c7bd9c676f707445270926faecf655af53672b1d5fb5d; processing, SAVE and pitch pages visually inspected after garbled text extraction. No independent Li quality/latency/DSP measurement."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.mooeraudio.com/products/244.html",
+                "title": "GE100 Pro/Pro Li manufacturer product",
+                "access": "Manufacturer joint product/specification body read",
+                "evidence": "Explicit Li battery edition; 150 presets and separate power/mass."
+              },
+              {
+                "url": "https://www.effectsdatabase.com/model/mooer/ge100/pro",
+                "title": "GE100 Pro family video index",
+                "access": "Dated official and Li review rows read",
+                "evidence": "Earlier teasers and May/June Li reviews distinguished from September index publication; exact Li launch unresolved."
+              },
+              {
+                "url": "https://www.mooeraudio.com/Downloads_xq/12.html",
+                "title": "GE100 Pro English support downloads",
+                "access": "Manufacturer current package list and changelog read",
+                "evidence": "1.3.3 package associated August 20; exact Li payload compatibility not explicit."
+              },
+              {
+                "url": "https://cn.mooeraudio.com/Downloads_xq/10.html",
+                "title": "GE100 Pro Chinese support downloads",
+                "access": "Manufacturer current package list and changelog read",
+                "evidence": "1.3.3 August 20 package entry, expression changes and A2 conversion."
+              },
+              {
+                "url": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_100_Pro___Pro_Li_Manual_EN.pdf",
+                "title": "GE100 Pro/Pro Li Owner’s Manual V02 September 9, 2026",
+                "access": "Original joint PDF retrieved; selected processing/SAVE/pitch pages rendered and visually read",
+                "evidence": "Nine categories, ten positions, SAVE and pitch inventory; text extraction garbled."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "MOOER::PE100": {
         "model_key": "MOOER::PE100",
@@ -215275,8 +215365,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "MOOER::Prime M2",
-    "last_commit_parent": "da6b824674369d22a4099f7494a0d6876ab0be31",
+    "last_model": "MOOER::GE100 Pro Li",
+    "last_commit_parent": "128bf3199d4be79121c6be06a55587936a2f7593",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
