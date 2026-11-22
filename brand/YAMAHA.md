@@ -988,6 +988,31 @@ Normalized0–100% describes each target’s range,not necessarily output volume
 
 ## SPX1000
 
+<!-- firmware-pitch:Yamaha::SPX1000 begins -->
+### Firmware and pitch audit — Yamaha SPX1000
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1988 (contemporaneous introduction report; first shipment unresolved). November1988 Sound & Communications p9 reports Yamaha has introduced SPX1000. Manufacturer AfterTouch April/May1989 separately introduces SPX1000/SPX900; later issue date is not first launch. Exact announcement/retail day unknown; MIDI chart date5August1988 is not substituted. [launch 1](https://www.worldradiohistory.com/Archive-All-Audio/Sound-and-Communication/80s/Sound-%26-Communications-1988-11.pdf) [launch 2](https://device.report/m/106c23ff82c0ac1141d9f4c1f6aa36de42bc37b8b0e02e144a4855775906a40f) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact manufacturer updater/changelog located. MIDI chart Version1.0 dated5August1988 is document metadata; MIDI program dumps are not system firmware. Latest ROM revision and update release date unresolved; no claim that service revisions never existed. [firmware 1](https://at.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf) [firmware 2](https://usa.yamaha.com/support/manuals/index.html?l=en&p=189) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Programs20/21 create two shifted voices centered or L/R;22 creates three;39 Stereo Pitch links L/R settings. Each±24semitones, fine±100cents. Delay0.1–2300ms for20/21/39, up to4600ms for22. Output-voice count does not prove polyphonic input. [pitch 1](https://at.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf) |
+| Pitch / preset recall | 40preset+59user=99. Edited pitch programs store in41–99. MIDI BASE KEY controls shift intervals; two held keys select two voices for applicable programs, while Stereo Pitch uses last-note priority. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Configurable delay is not measured total latency. Four pitch-program choices do not establish four simultaneous freely assignable blocks. |
+| Pitch / qualifications | Freeze playback transposition is separate from live pitch shifting. MIDI POLY/MONO chart legend does not establish chordal audio tracking. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha SPX1000 Operation Manual](https://at.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf) — Four pitch programs, shift/fine/delay and MIDI voice controls; no input-polyphony guarantee or DSP%. (official79page PDF read, pitch printed19–21 and MIDI chartAdd-28).
+- [Sound & Communications,November1988,p9](https://www.worldradiohistory.com/Archive-All-Audio/Sound-and-Communication/80s/Sound-%26-Communications-1988-11.pdf) — Reports Yamaha has introduced SPX1000; year evidence, not exact retail shipment date. (contemporaneous indexed PDF introduction item read; direct reopen403).
+- [Yamaha AfterTouch April/May1989](https://device.report/m/106c23ff82c0ac1141d9f4c1f6aa36de42bc37b8b0e02e144a4855775906a40f) — Introduces SPX900/SPX1000 together by this issue; does not supersede earlier1988 introduction evidence. (manufacturer users-group publication mirrored full text read).
+- [Yamaha Manual Library SPX1000 entry](https://usa.yamaha.com/support/manuals/index.html?l=en&p=189) — SPX1000 own manual entry; no exact device firmware updater/changelog verified in this search. (official indexed manual catalogue read).
+
+<!-- firmware-pitch:Yamaha::SPX1000 ends -->
+
 Checked2026-10-17;partial. Own compressor description includes electric guitar and vocalist applications. Use suitable preamp/mixer routing; bass applicability unclassified. Ownership unestablished.
 
 <!-- comparison evidence begins -->

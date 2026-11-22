@@ -205146,10 +205146,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Yamaha::SPX1000": {
+        "model_key": "Yamaha::SPX1000",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "1988",
+          "precision": "year",
+          "kind": "contemporaneous introduction report; first shipment unresolved",
+          "source_urls": [
+            "https://www.worldradiohistory.com/Archive-All-Audio/Sound-and-Communication/80s/Sound-%26-Communications-1988-11.pdf",
+            "https://device.report/m/106c23ff82c0ac1141d9f4c1f6aa36de42bc37b8b0e02e144a4855775906a40f"
+          ],
+          "note": "November1988 Sound & Communications p9 reports Yamaha has introduced SPX1000. Manufacturer AfterTouch April/May1989 separately introduces SPX1000/SPX900; later issue date is not first launch. Exact announcement/retail day unknown; MIDI chart date5August1988 is not substituted."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://at.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf",
+            "https://usa.yamaha.com/support/manuals/index.html?l=en&p=189"
+          ],
+          "note": "No exact manufacturer updater/changelog located. MIDI chart Version1.0 dated5August1988 is document metadata; MIDI program dumps are not system firmware. Latest ROM revision and update release date unresolved; no claim that service revisions never existed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Programs20/21 create two shifted voices centered or L/R;22 creates three;39 Stereo Pitch links L/R settings. Each±24semitones, fine±100cents. Delay0.1–2300ms for20/21/39, up to4600ms for22. Output-voice count does not prove polyphonic input.",
+          "preset": "40preset+59user=99. Edited pitch programs store in41–99. MIDI BASE KEY controls shift intervals; two held keys select two voices for applicable programs, while Stereo Pitch uses last-note priority.",
+          "dsp": "No per-pitch DSP percentage published. Configurable delay is not measured total latency. Four pitch-program choices do not establish four simultaneous freely assignable blocks.",
+          "source_urls": [
+            "https://at.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Freeze playback transposition is separate from live pitch shifting. MIDI POLY/MONO chart legend does not establish chordal audio tracking."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://at.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf",
+            "title": "Yamaha SPX1000 Operation Manual",
+            "access": "official79page PDF read, pitch printed19–21 and MIDI chartAdd-28",
+            "evidence": "Four pitch programs, shift/fine/delay and MIDI voice controls; no input-polyphony guarantee or DSP%."
+          },
+          {
+            "url": "https://www.worldradiohistory.com/Archive-All-Audio/Sound-and-Communication/80s/Sound-%26-Communications-1988-11.pdf",
+            "title": "Sound & Communications,November1988,p9",
+            "access": "contemporaneous indexed PDF introduction item read; direct reopen403",
+            "evidence": "Reports Yamaha has introduced SPX1000; year evidence, not exact retail shipment date."
+          },
+          {
+            "url": "https://device.report/m/106c23ff82c0ac1141d9f4c1f6aa36de42bc37b8b0e02e144a4855775906a40f",
+            "title": "Yamaha AfterTouch April/May1989",
+            "access": "manufacturer users-group publication mirrored full text read",
+            "evidence": "Introduces SPX900/SPX1000 together by this issue; does not supersede earlier1988 introduction evidence."
+          },
+          {
+            "url": "https://usa.yamaha.com/support/manuals/index.html?l=en&p=189",
+            "title": "Yamaha Manual Library SPX1000 entry",
+            "access": "official indexed manual catalogue read",
+            "evidence": "SPX1000 own manual entry; no exact device firmware updater/changelog verified in this search."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Yamaha::SPX1000",
       "Yamaha::SPX2000",
       "Yamaha::SPX900",
       "Yamaha::SPX990",
@@ -205217,12 +205282,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 336,
-    "last_model": "Yamaha::REV500",
-    "last_commit_parent": "47639631d38c58ce5d238a3e70d8acd71196320c",
+    "completed_model_count": 337,
+    "last_model": "Yamaha::SPX1000",
+    "last_commit_parent": "1a482c1a13c767e37283bd962257c4a9c3c0355f",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Yamaha::SPX1000",
       "Yamaha::SPX2000",
       "Yamaha::SPX900",
       "Yamaha::SPX990",
@@ -205289,7 +205353,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 336,
+    "pitch_completed_model_count": 337,
     "supplemental_model_count": 0
   },
   "model_images": {
