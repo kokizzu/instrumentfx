@@ -4957,6 +4957,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::ME-5 ends -->
 
+<!-- model-images:BOSS::ME-5 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS ME-5 — control surface**
+
+[![BOSS ME-5 — control surface](https://i.ebayimg.com/images/g/eFAAAeSwA89pZvCU/s-l1600.jpg)](https://i.ebayimg.com/images/g/eFAAAeSwA89pZvCU/s-l1600.jpg)
+
+[Image source](https://www.ebay.com/itm/366122847943). Complete control surface and five footswitches visible, but photograph is rotated sideways and oblique. Display and indicators are unlit; a powered-on upright top-down replacement remains pending.
+
+**BOSS ME-5 — rear connections**
+
+[![BOSS ME-5 — rear connections](https://medias.audiofanzine.com/images/normal/boss-me-5-3037219.jpg)](https://medias.audiofanzine.com/images/normal/boss-me-5-3037219.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-5/). Full connector row visible from an elevated rear angle: power switch and captive AC lead, MIDI OUT/IN, group/manual/expression controls, send/return, phones, tuner out, stereo outputs and input. Left enclosure edge touches the photograph boundary; no connector is missing.
+
+</details>
+<!-- model-images:BOSS::ME-5 ends -->
+
+
 Guitar multiple effects,1988–1992;checked2026-10-17;partial. [Own Roland specifications][ME5-P],updated2024-06-26. Bass/vocal capability andownership unverified.
 
 | Field | Verified evidence / gaps |

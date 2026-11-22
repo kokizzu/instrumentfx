@@ -219799,11 +219799,36 @@
             "sha256": "9f2a5e77d202c99536a13caccfe9a81aeeee5041ce17a051aff2b34bcfc2cf00"
           }
         }
+      },
+      "BOSS::ME-5": {
+        "model_key": "BOSS::ME-5",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://i.ebayimg.com/images/g/eFAAAeSwA89pZvCU/s-l1600.jpg",
+            "source_url": "https://www.ebay.com/itm/366122847943",
+            "caption": "BOSS ME-5 — control surface",
+            "note": "Complete control surface and five footswitches visible, but photograph is rotated sideways and oblique. Display and indicators are unlit; a powered-on upright top-down replacement remains pending.",
+            "visual_checked": true,
+            "powered_on": false,
+            "exact_top_down": false,
+            "sha256": "7343785fde443ba7fef5ec132fe529f6200f2f1bdbf3a1dbe6d3da97610394e9"
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/boss-me-5-3037219.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-5/",
+            "caption": "BOSS ME-5 — rear connections",
+            "note": "Full connector row visible from an elevated rear angle: power switch and captive AC lead, MIDI OUT/IN, group/manual/expression controls, send/return, phones, tuner out, stereo outputs and input. Left enclosure edge touches the photograph boundary; no connector is missing.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "4b67acc0a155a75289ac32951cd35ce157027e551877f12c172e3ec3ca5de371"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GS-10"
+    "last_model": "BOSS::ME-5"
   }
 }
