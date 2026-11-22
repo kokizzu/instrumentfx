@@ -216910,11 +216910,36 @@
             "sha256": "e9ec90b4dd0312a5afcd19d8e3434679fea7ab75bd4d6ac92aee3c0e3cb1e9df"
           }
         }
+      },
+      "Zoom::G5n": {
+        "model_key": "Zoom::G5n",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://media.sweetwater.com/m/products/image/df0d5379afudhjVWUyKcjkqm4ZJ9fsZyXqoMf8A4.jpg?ha=df0d5379af665e6eb971d610b87d61a34f3ce562&height=1800&quality=85",
+            "source_url": "https://www.sweetwater.com/store/detail/G5N--zoom-g5n-multi-effects-processor",
+            "caption": "G5n powered control face",
+            "note": "Actual powered G5n, complete near-overhead control face: overview LCD and four effect LCDs are active, with four footswitch LEDs and TAP LED lit. Twenty rotary controls, eight TYPE keys, MENU key, nine foot-operated switches and the full expression treadle are visible.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "4707f3b5248da6993f8b2ec99570fa608e471ad7863fe2c11ed0654f593a8c6f"
+          },
+          "rear": {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/Zoom_G5n_rear1.jpg",
+            "source_url": "https://www.zoom.co.jp/node/637",
+            "caption": "G5n rear connections",
+            "note": "Official complete rear photograph: INPUT, AUX IN, OUTPUT R and L/MONO, separate PHONES mini-jack, CONTROL IN, USB Type-B, ON/OFF power switch, center-negative DC 9V input and security slot. No XLR connector or effects-loop send/return sockets are present.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "ac8fe78282f150fdca2ab80222b7ec8e8334ee420179c698eee0178a6cbd9aea"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G5"
+    "last_model": "Zoom::G5n"
   }
 }

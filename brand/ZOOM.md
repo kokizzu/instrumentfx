@@ -6609,6 +6609,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G5n ends -->
 
+<!-- model-images:Zoom::G5n begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G5n powered control face**
+
+[![G5n powered control face](https://media.sweetwater.com/m/products/image/df0d5379afudhjVWUyKcjkqm4ZJ9fsZyXqoMf8A4.jpg?ha=df0d5379af665e6eb971d610b87d61a34f3ce562&height=1800&quality=85)](https://media.sweetwater.com/m/products/image/df0d5379afudhjVWUyKcjkqm4ZJ9fsZyXqoMf8A4.jpg?ha=df0d5379af665e6eb971d610b87d61a34f3ce562&height=1800&quality=85)
+
+[Image source](https://www.sweetwater.com/store/detail/G5N--zoom-g5n-multi-effects-processor). Actual powered G5n, complete near-overhead control face: overview LCD and four effect LCDs are active, with four footswitch LEDs and TAP LED lit. Twenty rotary controls, eight TYPE keys, MENU key, nine foot-operated switches and the full expression treadle are visible.
+
+**G5n rear connections**
+
+[![G5n rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/Zoom_G5n_rear1.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/Zoom_G5n_rear1.jpg)
+
+[Image source](https://www.zoom.co.jp/node/637). Official complete rear photograph: INPUT, AUX IN, OUTPUT R and L/MONO, separate PHONES mini-jack, CONTROL IN, USB Type-B, ON/OFF power switch, center-negative DC 9V input and security slot. No XLR connector or effects-loop send/return sockets are present.
+
+</details>
+<!-- model-images:Zoom::G5n ends -->
+
+
 Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalogue record, no ownership assertion. Discontinued according to Zoom; reseller offers can remain historical. Partial: no software, firmware, manual file or dependency downloaded or installed. Official manual evidence below is search-indexed text, not a fresh PDF/image inspection.
 
 | Field | Finding / qualification | Evidence |
