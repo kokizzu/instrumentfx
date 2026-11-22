@@ -200848,14 +200848,14 @@
         "model_key": "Sonicake::RockStage QCE-10",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "First hardware release unresolved",
+          "date": "2017-12-17",
+          "precision": "day",
+          "kind": "catalogue publication proxy; exact first sale unconfirmed",
           "source_urls": [
-            "https://www.sonicake.com/products/rockstage",
-            "https://www.hotone.jp/brands/sonicake/products/rockstage"
+            "https://www.effectsdatabase.com/model/sonicake/sonicbar/rockstage",
+            "https://www.youtube.com/watch?v=2wCdh8xV9FI"
           ],
-          "note": "Neither official product page supplies an original hardware release date; page/image upload dates are not launch evidence."
+          "note": "Effects Database published its original Rockstage catalogue entry on December 17, 2017, corroborated by SONICAKE’s December 21 manufacturer demonstration. The catalogue date establishes public documentation, not exact first shipment. A retailer first-available date reproduced by a manual aggregator is not independently authenticated here."
         },
         "firmware": {
           "version": null,
@@ -200895,10 +200895,141 @@
             "title": "Hotone Japan RockStage official regional product",
             "access": "readable official regional page",
             "evidence": "Chorus, amp, delay and reverb; 130 mA, 9 V centre-negative; no hardware introduction date, firmware version or pitch algorithm stated."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2wCdh8xV9FI",
+            "title": "SONICAKE Sonicbar Rockstage Multi Guitar Effects Pedal For Arena Rock Fans",
+            "access": "Manufacturer video publication metadata checked 2026-11-22",
+            "evidence": "By SONICAKE, published 2017-12-21; original four-effect Rockstage strip with cabinet simulation. Public demonstration date, not exact first sale."
+          },
+          {
+            "url": "https://www.effectsdatabase.com/model/sonicake/sonicbar/rockstage",
+            "title": "Sonicake SonicBar Rockstage catalogue entry",
+            "access": "Catalogue publication header checked 2026-11-22",
+            "evidence": "Published on December 17, 2017; dated catalogue record, not a manufacturer shipment announcement."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Sonicake::RockStage QCE-10",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "First hardware release unresolved",
+              "source_urls": [
+                "https://www.sonicake.com/products/rockstage",
+                "https://www.hotone.jp/brands/sonicake/products/rockstage"
+              ],
+              "note": "Neither official product page supplies an original hardware release date; page/image upload dates are not launch evidence."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.sonicake.com/products/rockstage",
+                "https://www.hotone.jp/brands/sonicake/products/rockstage"
+              ],
+              "note": "No downloadable user firmware, version or release history located on the exact-model official pages. Digital delay/reverb do not establish a user-updateable architecture."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Four fixed effects: chorus, Plexi-style distortion/amp, digital delay and digital reverb. No transposition, octave or harmony algorithm documented. Chorus modulation is not evidence of a polyphonic pitch shifter.",
+              "preset": "Dedicated physical effect controls; addressable preset storage or pitch-preset recall not documented.",
+              "dsp": "No pitch DSP percentage or allocatable processing budget documented. Four effect sections and 130 mA electrical consumption are not DSP utilization measurements.",
+              "source_urls": [
+                "https://www.sonicake.com/products/rockstage",
+                "https://www.hotone.jp/brands/sonicake/products/rockstage"
+              ],
+              "measurements": [],
+              "notes": [
+                "Digital delay/reverb are explicitly described as analog-voiced digital algorithms; do not call the complete strip analog.",
+                "No public firmware found is an evidence limitation, not proof that the hardware contains no firmware."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.sonicake.com/products/rockstage",
+                "title": "SONICAKE RockStage QCE-10 official product",
+                "access": "readable official product page",
+                "evidence": "Exact QCE-10; four classic-rock effects, 500 ms digital delay and digital reverb, analog Plexi-style distortion, BBD-style chorus and cab simulation; no pitch or user firmware documented."
+              },
+              {
+                "url": "https://www.hotone.jp/brands/sonicake/products/rockstage",
+                "title": "Hotone Japan RockStage official regional product",
+                "access": "readable official regional page",
+                "evidence": "Chorus, amp, delay and reverb; 130 mA, 9 V centre-negative; no hardware introduction date, firmware version or pitch algorithm stated."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          },
+          {
+            "model_key": "Sonicake::RockStage QCE-10",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": "2017-12-21",
+              "precision": "day",
+              "kind": "manufacturer demonstration publication proxy; exact first sale unconfirmed",
+              "source_urls": [
+                "https://www.youtube.com/watch?v=2wCdh8xV9FI"
+              ],
+              "note": "SONICAKE published its original Sonicbar Rockstage demonstration on December 21, 2017. This is a public demonstration proxy, not the exact first shipment or first retail availability date. Earlier catalogue/retailer dates may exist; this does not claim the demo was the product launch."
+            },
+            "firmware": {
+              "version": null,
+              "date": null,
+              "precision": "unknown",
+              "status": "no_public_firmware_found",
+              "source_urls": [
+                "https://www.sonicake.com/products/rockstage",
+                "https://www.hotone.jp/brands/sonicake/products/rockstage"
+              ],
+              "note": "No downloadable user firmware, version or release history located on the exact-model official pages. Digital delay/reverb do not establish a user-updateable architecture."
+            },
+            "pitch": {
+              "status": "no_pitch_documented",
+              "algorithms": "Four fixed effects: chorus, Plexi-style distortion/amp, digital delay and digital reverb. No transposition, octave or harmony algorithm documented. Chorus modulation is not evidence of a polyphonic pitch shifter.",
+              "preset": "Dedicated physical effect controls; addressable preset storage or pitch-preset recall not documented.",
+              "dsp": "No pitch DSP percentage or allocatable processing budget documented. Four effect sections and 130 mA electrical consumption are not DSP utilization measurements.",
+              "source_urls": [
+                "https://www.sonicake.com/products/rockstage",
+                "https://www.hotone.jp/brands/sonicake/products/rockstage"
+              ],
+              "measurements": [],
+              "notes": [
+                "Digital delay/reverb are explicitly described as analog-voiced digital algorithms; do not call the complete strip analog.",
+                "No public firmware found is an evidence limitation, not proof that the hardware contains no firmware."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.sonicake.com/products/rockstage",
+                "title": "SONICAKE RockStage QCE-10 official product",
+                "access": "readable official product page",
+                "evidence": "Exact QCE-10; four classic-rock effects, 500 ms digital delay and digital reverb, analog Plexi-style distortion, BBD-style chorus and cab simulation; no pitch or user firmware documented."
+              },
+              {
+                "url": "https://www.hotone.jp/brands/sonicake/products/rockstage",
+                "title": "Hotone Japan RockStage official regional product",
+                "access": "readable official regional page",
+                "evidence": "Chorus, amp, delay and reverb; 130 mA, 9 V centre-negative; no hardware introduction date, firmware version or pitch algorithm stated."
+              },
+              {
+                "url": "https://www.youtube.com/watch?v=2wCdh8xV9FI",
+                "title": "SONICAKE Sonicbar Rockstage Multi Guitar Effects Pedal For Arena Rock Fans",
+                "access": "Manufacturer video publication metadata checked 2026-11-22",
+                "evidence": "By SONICAKE, published 2017-12-21; original four-effect Rockstage strip with cabinet simulation. Public demonstration date, not exact first sale."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Sonicake::Levitate QDS-02": {
         "model_key": "Sonicake::Levitate QDS-02",
@@ -212842,8 +212973,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Sonicake::Matribox QME-50",
-    "last_commit_parent": "f2f33698209ad5ff25e23d59196151c285c79692",
+    "last_model": "Sonicake::RockStage QCE-10",
+    "last_commit_parent": "36d0d730e7ba73ce5a607f8b87f9301dcbc20a7c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,

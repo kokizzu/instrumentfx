@@ -1069,7 +1069,7 @@ The current summary now reflects the already-established p5 connector finding: *
 
 | Field | Sourced finding |
 |---|---|
-| Firmware / first hardware release | Not verified. Neither official product page supplies an original hardware release date; page/image upload dates are not launch evidence. [launch 1](https://www.sonicake.com/products/rockstage) [launch 2](https://www.hotone.jp/brands/sonicake/products/rockstage) |
+| Firmware / first hardware release | 2017-12-17 (catalogue publication proxy; exact first sale unconfirmed). Effects Database published its original Rockstage catalogue entry on December 17, 2017, corroborated by SONICAKE’s December 21 manufacturer demonstration. The catalogue date establishes public documentation, not exact first shipment. A retailer first-available date reproduced by a manual aggregator is not independently authenticated here. [launch 1](https://www.effectsdatabase.com/model/sonicake/sonicbar/rockstage) [launch 2](https://www.youtube.com/watch?v=2wCdh8xV9FI) |
 | Firmware / latest verification | Not verified — No public firmware located. No downloadable user firmware, version or release history located on the exact-model official pages. Digital delay/reverb do not establish a user-updateable architecture. [firmware 1](https://www.sonicake.com/products/rockstage) [firmware 2](https://www.hotone.jp/brands/sonicake/products/rockstage) |
 | Firmware / release date | Not verified (unknown precision) |
 | Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
@@ -1084,6 +1084,8 @@ Sources checked:
 
 - [SONICAKE RockStage QCE-10 official product](https://www.sonicake.com/products/rockstage) — Exact QCE-10; four classic-rock effects, 500 ms digital delay and digital reverb, analog Plexi-style distortion, BBD-style chorus and cab simulation; no pitch or user firmware documented. (readable official product page).
 - [Hotone Japan RockStage official regional product](https://www.hotone.jp/brands/sonicake/products/rockstage) — Chorus, amp, delay and reverb; 130 mA, 9 V centre-negative; no hardware introduction date, firmware version or pitch algorithm stated. (readable official regional page).
+- [SONICAKE Sonicbar Rockstage Multi Guitar Effects Pedal For Arena Rock Fans](https://www.youtube.com/watch?v=2wCdh8xV9FI) — By SONICAKE, published 2017-12-21; original four-effect Rockstage strip with cabinet simulation. Public demonstration date, not exact first sale. (Manufacturer video publication metadata checked 2026-11-22).
+- [Sonicake SonicBar Rockstage catalogue entry](https://www.effectsdatabase.com/model/sonicake/sonicbar/rockstage) — Published on December 17, 2017; dated catalogue record, not a manufacturer shipment announcement. (Catalogue publication header checked 2026-11-22).
 
 <!-- firmware-pitch:Sonicake::RockStage QCE-10 ends -->
 
