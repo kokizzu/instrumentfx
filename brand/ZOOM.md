@@ -721,6 +721,30 @@ Earlier mixed HopeMusic707ii/708ii/GFX-3 shop ask is not assigned to this exact 
 
 ## 708II
 
+<!-- firmware-pitch:Zoom::708II begins -->
+### Firmware and pitch audit — Zoom 708II
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2002 (manufacturer product-history release year). Zoom corporate timeline groups 708II BASS under 2002; exact announcement/first shipment day unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model support page lists operation manual only; no public firmware package/changelog located. SmartMedia patch/sample handling does not establish firmware updating. No USB/MIDI update interface in published inventory. Internal ROM revisions remain possible; latest version/date unknown. [firmware 1](https://zoomcorp.com/en/gb/multi-effects/bass-effects/708ii/708ii-support/) [firmware 2](https://zoomcorp.com/media/documents/E_708II.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD type10 PITCH: −12…−1, detune, +1…+12,+24 semitones; TONE0–10 and dry/effect BAL0–30. Type11 P-PIT offers16 pedal types. PITCH pedal assignment temporarily substitutes P-PIT for another MOD type. DEFRET single-note restriction does not establish pitch-shifter polyphony. [pitch 1](https://zoomcorp.com/media/documents/E_708II.pdf) |
+| Pitch / preset recall | 60 USER +60 PRESET onboard; SmartMedia holds five60-patch groups separately. Pedal range stores per patch. Pitch shares MOD with other modulation alternatives; card storage adds no simultaneous blocks. |
+| Pitch / DSP resources | No pitch DSP percentage documented. Seven modules are fixed architecture, not CPU usage. Sampler forces MOD/REV off, so MOD pitch is unavailable during sampling. BASS SYNTH separately forces EQ/ZNR/CABINET off; no percentage inferred from either restriction. |
+| Pitch / qualifications | 708II-specific manual, not707II ororiginal708. No hardware chord-tracking/resource measurement. Sample playback tempo/pitch modes are separate from live MOD pitch. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — 708II BASS appears under 2002. (official 2002 timeline group read).
+- [Zoom 708II support page](https://zoomcorp.com/en/gb/multi-effects/bass-effects/708ii/708ii-support/) — Operation manual only; no public firmware package/changelog found. (official Documents section read).
+- [Zoom 708II Bass operation manual](https://zoomcorp.com/media/documents/E_708II.pdf) — PITCH/P-PIT parameters, assignment substitution, patch/card storage, sampler and synth module exclusions; no pitch polyphony guarantee or DSP%. (official PDF printed pp15,23–24,29,35–39 inspected).
+
+<!-- firmware-pitch:Zoom::708II ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**, partial. Bass-specific processor; separate from707II guitar and original708. Evidence from its own manufacturer Operation Manual.
 
