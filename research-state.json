@@ -208672,11 +208672,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "TC-Helicon::VoiceTone Create XT": {
+        "model_key": "TC-Helicon::VoiceTone Create XT",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/tc-helicon-create-xt-6715151.jpeg",
+            "source_url": "https://en.audiofanzine.com/vocal-processor/tc-helicon/voicetone-create-xt/",
+            "caption": "VoiceTone Create XT powered-on control face — actual unit",
+            "note": "Actual exact Create XT with connected power/audio, lit numeric 1 display and red status LEDs. Four rotary controls (Input, Mix, Style, Tweak), two footswitches and seven buttons visible. Tone is a button, not a fifth knob; FX/µMod/Delay/Reverb/Tweak pads are not footswitches. Overhead-facing image has perspective and a tightly framed lower edge, not strict perpendicular top-down. No firmware version or audio tracking inferred.",
+            "visual_checked": true,
+            "sha256": "73f6cb0b05361cdec2e5aa0986c3404f860f96d90bfc81f11d250e3e3cca2206",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62331/406375/YTCHELICON13864303__38329.1721303049.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/tc-helicon-create-xt-voicetone-pedal-2nd-hand/",
+            "caption": "VoiceTone Create XT rear ports — actual used unit",
+            "note": "Actual Create XT rear at an oblique angle: female XLR MIC INPUT, quarter-inch PEDAL, two male XLR outputs, Mini-B USB and DC POWER inlet with center-negative symbol. Top labels identify Left(mono)/Right(dry). No audio/power cables or lit indicators in this second unit. No guitar, AUX or headphone sockets shown; PEDAL does not establish continuous expression. DC voltage/current not legible here; USB connector does not prove USB audio or bus power.",
+            "visual_checked": true,
+            "sha256": "54438950fabb44e72fbaba157fea48f7aa5ac2fd9fbf579df9dc06f16057b4aa",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::VoiceLive Touch 2"
+    "last_model": "TC-Helicon::VoiceTone Create XT"
   }
 }
