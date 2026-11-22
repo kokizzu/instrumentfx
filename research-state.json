@@ -211275,11 +211275,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "VOX::StompLab 1G": {
+        "model_key": "VOX::StompLab 1G",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://voxamps.com/wp-content/uploads/2019/02/SL1G-Stomplab-Guitar-Multi-Effect-1.png",
+            "source_url": "https://voxamps.com/en-gb/product/stomplab-1g/",
+            "caption": "Official VOX StompLab 1G control-face image",
+            "note": "Visually inspected black guitar control face: three knobs, three small buttons and two footswitches, no treadle. Official stock image displays 50 and colored indicators; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "d99a79498b1328ca908f4a5bb31869af93cdb1f16cbfb8673a18bed2d1159485",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://voxampshop.com/cdn/shop/files/Stomplab-1G-Guitar-Effect-Processor-Vox-Amp-Shop-846_1200x.jpg?v=1687380184",
+            "source_url": "https://voxampshop.com/products/sl1g",
+            "caption": "Official VOX StompLab 1G rear-port shop image",
+            "note": "Visually inspected exact rear marked StompLab IG: INPUT, shared OUTPUT/PHONES(STEREO/MONO), POWER button and center-negative DC9V socket. Complete rear row readable; no USB/MIDI or EXP socket shown. This verifies physical placement and polarity, not internal firmware or measured operation.",
+            "visual_checked": true,
+            "sha256": "7732ba148f7ce78c99167fb1cab9ff62b08f4ab45bbddeba4df45a74c9976698",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::StompLab 1B"
+    "last_model": "VOX::StompLab 1G"
   }
 }
