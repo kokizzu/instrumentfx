@@ -8189,6 +8189,31 @@ Checked **2026-11-05**, [original English manual, pp17–22][GFX3-M]; firmware u
 
 ## GFX-4
 
+<!-- firmware-pitch:Zoom::GFX-4 begins -->
+### Firmware and pitch audit — Zoom GFX-4
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2000 (manufacturer product-history year). Official Zoom chronology places GFX-4 under 2000. Exact retail day/month remains unverified. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Reviewed official regional support pages list the operation manual only; no public system updater or firmware history located. Installed firmware version and release-to-update duration remain unknown. [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-4/gfx-4-support/) [firmware 2](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-4/gfx-4-support/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MODULATION PITCH shifts −12…−1,+1…+12,+24 semitones with tone/balance; DETUNE is separate. PDLPIT has ten pedal mappings and before-drive/after-EQ positioning. Chord/polyphonic tracking is not specified. [pitch 1](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX4.pdf) |
+| Pitch / preset recall | 60 editable user plus 60 read-only preset patches. Store/swap saves patches. Built-in optical expression pedal supports RTM control and an assignable switch; PEDAL WAH/PEDAL PITCH shortcuts select pedal effects. |
+| Pitch / DSP resources | Manual specifies six modules plus ZNR and amp simulator, up to eight effects. PITCH/DETUNE/PDLPIT are MODULATION alternatives. No exact pitch DSP percentage or CPU meter documented; module count is not a CPU fraction. |
+| Pitch / qualifications | Documentation only; no hardware tracking/CPU test or firmware installation. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — GFX-4 under 2000. (official chronology inspected).
+- [GFX-4 regional support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-4/gfx-4-support/) — Manual only; no system firmware updater located. (official indexed package list inspected).
+- [GFX-4 regional support](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-4/gfx-4-support/) — Manual only; no system firmware updater located. (official indexed package list inspected).
+- [GFX-4 operation manual](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX4.pdf) — 120 patches; eight-effect architecture; PITCH/DETUNE/PDLPIT and RTM pedal control; no chord-support or DSP-percentage claim. (official PDF inspected, pp3–4,19–20,25–26,29).
+
+<!-- firmware-pitch:Zoom::GFX-4 ends -->
+
 Guitar multi-effects;distinct fromGFX-3/GFX-5. Checked2026-10-17;partial. Manufacturer confirms discontinued. Bass/vocal applicability and ownership unresolved.
 
 | Field | Finding / qualification | Evidence |

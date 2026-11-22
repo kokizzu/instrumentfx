@@ -208760,10 +208760,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::GFX-4": {
+        "model_key": "Zoom::GFX-4",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2000",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Official Zoom chronology places GFX-4 under 2000. Exact retail day/month remains unverified."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-4/gfx-4-support/",
+            "https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-4/gfx-4-support/"
+          ],
+          "note": "Reviewed official regional support pages list the operation manual only; no public system updater or firmware history located. Installed firmware version and release-to-update duration remain unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MODULATION PITCH shifts −12…−1,+1…+12,+24 semitones with tone/balance; DETUNE is separate. PDLPIT has ten pedal mappings and before-drive/after-EQ positioning. Chord/polyphonic tracking is not specified.",
+          "preset": "60 editable user plus 60 read-only preset patches. Store/swap saves patches. Built-in optical expression pedal supports RTM control and an assignable switch; PEDAL WAH/PEDAL PITCH shortcuts select pedal effects.",
+          "dsp": "Manual specifies six modules plus ZNR and amp simulator, up to eight effects. PITCH/DETUNE/PDLPIT are MODULATION alternatives. No exact pitch DSP percentage or CPU meter documented; module count is not a CPU fraction.",
+          "source_urls": [
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX4.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no hardware tracking/CPU test or firmware installation."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "GFX-4 under 2000."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-4/gfx-4-support/",
+            "title": "GFX-4 regional support",
+            "access": "official indexed package list inspected",
+            "evidence": "Manual only; no system firmware updater located."
+          },
+          {
+            "url": "https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-4/gfx-4-support/",
+            "title": "GFX-4 regional support",
+            "access": "official indexed package list inspected",
+            "evidence": "Manual only; no system firmware updater located."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_GFX4.pdf",
+            "title": "GFX-4 operation manual",
+            "access": "official PDF inspected, pp3–4,19–20,25–26,29",
+            "evidence": "120 patches; eight-effect architecture; PITCH/DETUNE/PDLPIT and RTM pedal control; no chord-support or DSP-percentage claim."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::GFX-4",
       "Zoom::GFX-5",
       "Zoom::GFX-707",
       "Zoom::MS-100BT",
@@ -208783,12 +208847,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 384,
-    "last_model": "Zoom::GFX-3",
-    "last_commit_parent": "100479ce6c9f32ab67b184595790a1902fd976be",
+    "completed_model_count": 385,
+    "last_model": "Zoom::GFX-4",
+    "last_commit_parent": "c30a263aecdc33dfa2668551899378faffb11613",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::GFX-4",
       "Zoom::GFX-5",
       "Zoom::GFX-707",
       "Zoom::MS-100BT",
@@ -208807,7 +208870,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 384,
+    "pitch_completed_model_count": 385,
     "supplemental_model_count": 0
   },
   "model_images": {

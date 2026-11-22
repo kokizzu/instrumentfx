@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Firmware](FIRMWARE-UPDATES.md) · [Pitch shifting](PITCH-SHIFTING.md)
 
-**Checked through 2026-11-22. 384/402 active models have firmware audits; 384/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
+**Checked through 2026-11-22. 385/402 active models have firmware audits; 385/402 have pitch audits; 0 supplemental/archival records are separate from active counts.** Each model is updated individually. Audited records can retain unresolved fields; this is not a claim that every specification is verified.
 
 ## Reading the ranking
 
@@ -408,7 +408,8 @@ Exact elapsed days are divided by 365.2425. Month/year precision produces minimu
 | [Zoom G2X FOUR](brand/ZOOM.md#g2x-four) | 2022-12 (manufacturer announced shipment month) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://zoomcorp.com/ja/jp/news/G2FOUR/) [launch 2](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2-four-g2x-four/g2four-support/) [firmware 2](https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g2-four-g2x-four/g2four-support/) [firmware 3](https://zoomcorp.com/manuals/g2four_g2xfour-en/) |
 | [Zoom G7.1ut](brand/ZOOM.md#g71ut) | 2005 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g71ut/g71ut-support/) [firmware 2](https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g71ut-guitar-effects-console) |
 | [Zoom GFX-3](brand/ZOOM.md#gfx-3) | 2005 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/gfx-3/gfx-3-support/) [firmware 2](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-3/gfx-3-support/) |
+| [Zoom GFX-4](brand/ZOOM.md#gfx-4) | 2000 (manufacturer product-history year) | Not verified — No public firmware located | Not verified | Not calculable | [launch 1](https://ir.zoom.co.jp/en/corporate/history/) [firmware 1](https://zoomcorp.com/en/us/multi-effects/guitar-effects/gfx-4/gfx-4-support/) [firmware 2](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/gfx-4/gfx-4-support/) |
 
 ## Remaining firmware checks
 
-Zoom GFX-4; Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
+Zoom GFX-5; Zoom GFX-707; Zoom MS-100BT; Zoom MS-50G; Zoom MS-50G Plus; Zoom MS-60B; Zoom MS-60B Plus; Zoom MS-70CDR; Zoom MS-70CDR Plus; Zoom MS-80IR Plus; Zoom NEURIG; Zoom RFX-1000; Zoom RFX-1100; Zoom RFX-2000; Zoom RFX-2200; Zoom V3; Zoom V6-SP.
