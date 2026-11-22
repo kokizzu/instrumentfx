@@ -866,6 +866,31 @@ Guitar use remains qualified to suitable line-level preamp/mixer routing,not dir
 
 ## SPX900
 
+<!-- firmware-pitch:Yamaha::SPX900 begins -->
+### Firmware and pitch audit — Yamaha SPX900
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Yamaha AfterTouch April/May1989 introduces SPX900/SPX1000. This establishes availability of manufacturer introduction evidence by that issue, not first retail date.1988 MIDI chart date and later1988 launch claims do not independently establish the first shipment year/day. [launch 1](https://device.report/m/106c23ff82c0ac1141d9f4c1f6aa36de42bc37b8b0e02e144a4855775906a40f) [launch 2](https://www.dalvivoservice.it/wp-content/uploads/2020/05/SPX900.pdf) |
+| Firmware / latest verification | Not verified — Unverified. Third-party MTG EPROM archive indexes SPX900 VERSION1.05+ and SPX900 v1_05 XF530 27C301.bin+. Indexed labels are revision leads, not an inspected manufacturer package/changelog or final-version proof; direct archive reopen timed out. Latest ROM/date unresolved. MIDI chart1.0 dated4November1988 and patch dumps are not firmware release evidence. No ROM downloaded or installed. [firmware 1](https://www.musictechnologiesgroup.com/mtg_eproms.htm) [firmware 2](https://jp.yamaha.com/products/contents/proaudio/downloads/manuals/index.html?c=proaudio&k=spx900&l=ja) [firmware 3](https://www.dalvivoservice.it/wp-content/uploads/2020/05/SPX900.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Programs28/29 produce two shifted voices centered or L/R;30 produces three;31 MonoPitch produces one with smooth live interval variation. Each±24semitones,fine±100cents. MonoPitch name describes output count, not proven monophonic input tracking. [pitch 1](https://www.dalvivoservice.it/wp-content/uploads/2020/05/SPX900.pdf) |
+| Pitch / preset recall | 50preset+49user=99; edited programs store51–99. MIDI base key changes pitch intervals for documented voices. Multiple output harmonies and MIDI notes do not establish chordal audio tracking. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Program29 delay0.1–650ms;30/31 delay0.1–1400ms. Delay settings are not measured end-to-end latency or CPU budget; four choices are not four freely stacked blocks. |
+| Pitch / qualifications | Freeze sampling transposition and MIDI POLY/MONO chart legend remain separate from live input-polyphony capability. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha SPX900 Operation Manual reproduction](https://www.dalvivoservice.it/wp-content/uploads/2020/05/SPX900.pdf) — Four pitch algorithms/ranges and voice distinction; no polyphonic-input guarantee or DSP%. (manufacturer-authored79page PDF read; exact cover/50program catalogue,printed17–18).
+- [Yamaha AfterTouch April/May1989 SPX introduction](https://device.report/m/106c23ff82c0ac1141d9f4c1f6aa36de42bc37b8b0e02e144a4855775906a40f) — Introduces SPX900/SPX1000 by this issue; first shipment date not established. (manufacturer users-group publication mirrored text read).
+- [MTG EPROM archive SPX900 indexed entry](https://www.musictechnologiesgroup.com/mtg_eproms.htm) — Reports VERSION1.05+ and v1_05 XF53027C301 filename; release date and latest-manufacturer status unverified. (indexed entry read; direct page timed out; binary not inspected).
+- [Yamaha SPX900 manual index](https://jp.yamaha.com/products/contents/proaudio/downloads/manuals/index.html?c=proaudio&k=spx900&l=ja) — Exact manual listing; no current manufacturer updater/changelog located in search. (official indexed SPX900 image-manual entry read).
+
+<!-- firmware-pitch:Yamaha::SPX900 ends -->
+
 <!-- comparison evidence begins -->
 Rack multi-effects; checked 2026-10-17. Guitar/vocal processing requires suitable preamp/mixer routing, not a direct microphone-input claim. Bass suitability remains unclassified.
 

@@ -205278,10 +205278,76 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Yamaha::SPX900": {
+        "model_key": "Yamaha::SPX900",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first release unresolved; manufacturer introduction documented by April/May1989",
+          "source_urls": [
+            "https://device.report/m/106c23ff82c0ac1141d9f4c1f6aa36de42bc37b8b0e02e144a4855775906a40f",
+            "https://www.dalvivoservice.it/wp-content/uploads/2020/05/SPX900.pdf"
+          ],
+          "note": "Yamaha AfterTouch April/May1989 introduces SPX900/SPX1000. This establishes availability of manufacturer introduction evidence by that issue, not first retail date.1988 MIDI chart date and later1988 launch claims do not independently establish the first shipment year/day."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.musictechnologiesgroup.com/mtg_eproms.htm",
+            "https://jp.yamaha.com/products/contents/proaudio/downloads/manuals/index.html?c=proaudio&k=spx900&l=ja",
+            "https://www.dalvivoservice.it/wp-content/uploads/2020/05/SPX900.pdf"
+          ],
+          "note": "Third-party MTG EPROM archive indexes SPX900 VERSION1.05+ and SPX900 v1_05 XF530 27C301.bin+. Indexed labels are revision leads, not an inspected manufacturer package/changelog or final-version proof; direct archive reopen timed out. Latest ROM/date unresolved. MIDI chart1.0 dated4November1988 and patch dumps are not firmware release evidence. No ROM downloaded or installed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Programs28/29 produce two shifted voices centered or L/R;30 produces three;31 MonoPitch produces one with smooth live interval variation. Each±24semitones,fine±100cents. MonoPitch name describes output count, not proven monophonic input tracking.",
+          "preset": "50preset+49user=99; edited programs store51–99. MIDI base key changes pitch intervals for documented voices. Multiple output harmonies and MIDI notes do not establish chordal audio tracking.",
+          "dsp": "No per-pitch DSP percentage published. Program29 delay0.1–650ms;30/31 delay0.1–1400ms. Delay settings are not measured end-to-end latency or CPU budget; four choices are not four freely stacked blocks.",
+          "source_urls": [
+            "https://www.dalvivoservice.it/wp-content/uploads/2020/05/SPX900.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Freeze sampling transposition and MIDI POLY/MONO chart legend remain separate from live input-polyphony capability."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.dalvivoservice.it/wp-content/uploads/2020/05/SPX900.pdf",
+            "title": "Yamaha SPX900 Operation Manual reproduction",
+            "access": "manufacturer-authored79page PDF read; exact cover/50program catalogue,printed17–18",
+            "evidence": "Four pitch algorithms/ranges and voice distinction; no polyphonic-input guarantee or DSP%."
+          },
+          {
+            "url": "https://device.report/m/106c23ff82c0ac1141d9f4c1f6aa36de42bc37b8b0e02e144a4855775906a40f",
+            "title": "Yamaha AfterTouch April/May1989 SPX introduction",
+            "access": "manufacturer users-group publication mirrored text read",
+            "evidence": "Introduces SPX900/SPX1000 by this issue; first shipment date not established."
+          },
+          {
+            "url": "https://www.musictechnologiesgroup.com/mtg_eproms.htm",
+            "title": "MTG EPROM archive SPX900 indexed entry",
+            "access": "indexed entry read; direct page timed out; binary not inspected",
+            "evidence": "Reports VERSION1.05+ and v1_05 XF53027C301 filename; release date and latest-manufacturer status unverified."
+          },
+          {
+            "url": "https://jp.yamaha.com/products/contents/proaudio/downloads/manuals/index.html?c=proaudio&k=spx900&l=ja",
+            "title": "Yamaha SPX900 manual index",
+            "access": "official indexed SPX900 image-manual entry read",
+            "evidence": "Exact manual listing; no current manufacturer updater/changelog located in search."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Yamaha::SPX900",
       "Yamaha::SPX990",
       "Zoom::1201",
       "Zoom::505 original",
@@ -205347,12 +205413,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 338,
-    "last_model": "Yamaha::SPX2000",
-    "last_commit_parent": "80e7d9c8af285243f43324bbad20120873f35802",
+    "completed_model_count": 339,
+    "last_model": "Yamaha::SPX900",
+    "last_commit_parent": "62646496a6ac76faa2c96bab3e2de80a4f4ea2fd",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Yamaha::SPX900",
       "Yamaha::SPX990",
       "Zoom::1201",
       "Zoom::505 original",
@@ -205417,7 +205482,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 338,
+    "pitch_completed_model_count": 339,
     "supplemental_model_count": 0
   },
   "model_images": {
