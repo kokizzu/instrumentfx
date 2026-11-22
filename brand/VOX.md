@@ -15,6 +15,30 @@
 
 ## StompLab 1B
 
+<!-- firmware-pitch:VOX::StompLab 1B begins -->
+### Firmware and pitch audit — VOX StompLab 1B
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2012-09-04 (official series public introduction; first shipment unresolved). Official StompLab series overview linked by exact 1B product page is indexed 4 September 2012; not independently verified first retail shipment. [launch 1](https://www.youtube.com/watch?v=JGBdMXx3Jo8) [launch 2](https://voxamps.com/product/stomplab-1b/) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact-model public firmware package/updater located in checked VOX sources. Complete rear inventory is INPUT,OUTPUT/PHONES,DC9V,POWER, with no USB/MIDI update connection documented. Manual EFGSJ1 is a document identifier, not firmware; absence of a public package does not prove no internal firmware. No update or device operation. [firmware 1](https://voxamps.com/product/stomplab-1b/) [firmware 2](https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD includes Pitch Shift; appendix value table gives PITCH −12…0, dt, 1…12 and BALANCE 0…10. PDL Brn Octave has DIRECT/EFFECT 0…10. Polyphonic versus monophonic input handling is not established in inspected exact-IB documentation. [pitch 1](https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf) [pitch 2](https://voxamps.com/product/stomplab-1b/) |
+| Pitch / preset recall | 100 read-only presets plus 20 writable user programs; WRITE overwrites selected destination. Own IB manual allows seven simultaneous effects including noise reduction, not eight transferred from another StompLab variant. |
+| Pitch / DSP resources | No per-pitch DSP percentage published in checked documentation. Seven simultaneous category effects is a structural limit, not 1/7 CPU per effect. Brn Octave and MOD Pitch Shift occupy different categories; no measured simultaneous tracking quality claimed. |
+| Pitch / qualifications | Do not label Pitch Shift polyphonic from a generic pitch name, or transfer tracking behavior from ToneLab, StompLab guitar or expression variants. No chord-tracking, latency, DSP or preset-transition hardware measurement. AC adapter current is not algorithm CPU cost. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [VOX StompLab IB original EFGSJ1 owner manual](https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf) — Appendix Pitch Shift and Brn Octave parameter tables; 100 preset/20 user; seven simultaneous including NR. No input polyphony or pitch CPU% established. (official PDF original text read; prior exact-model control/rear inventory retained).
+- [VOX official StompLab 1B product](https://voxamps.com/product/stomplab-1b/) — Bass-specific60-choice inventory names Pitch Shift and Brn Octave; exact-page series video link and documented connections. (web page read).
+- [VOX official StompLab series product overview](https://www.youtube.com/watch?v=JGBdMXx3Jo8) — Published4September2012; public series introduction, not verified first shipment. (indexed original video metadata; linked by exact-model product page).
+
+<!-- firmware-pitch:VOX::StompLab 1B ends -->
+
 <!-- comparison evidence begins -->
 
 Checked 2026-10-18. **Bass multi-effects**, also styled StompLab IB; distinct from expression-equipped IIB. Partial record; no dependencies or manuals downloaded.

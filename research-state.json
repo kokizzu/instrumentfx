@@ -204169,10 +204169,71 @@
             "audit_format": "firmware-pitch-v1"
           }
         ]
+      },
+      "VOX::StompLab 1B": {
+        "model_key": "VOX::StompLab 1B",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2012-09-04",
+          "precision": "day",
+          "kind": "official series public introduction; first shipment unresolved",
+          "source_urls": [
+            "https://www.youtube.com/watch?v=JGBdMXx3Jo8",
+            "https://voxamps.com/product/stomplab-1b/"
+          ],
+          "note": "Official StompLab series overview linked by exact 1B product page is indexed 4 September 2012; not independently verified first retail shipment."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://voxamps.com/product/stomplab-1b/",
+            "https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf"
+          ],
+          "note": "No exact-model public firmware package/updater located in checked VOX sources. Complete rear inventory is INPUT,OUTPUT/PHONES,DC9V,POWER, with no USB/MIDI update connection documented. Manual EFGSJ1 is a document identifier, not firmware; absence of a public package does not prove no internal firmware. No update or device operation."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD includes Pitch Shift; appendix value table gives PITCH −12…0, dt, 1…12 and BALANCE 0…10. PDL Brn Octave has DIRECT/EFFECT 0…10. Polyphonic versus monophonic input handling is not established in inspected exact-IB documentation.",
+          "preset": "100 read-only presets plus 20 writable user programs; WRITE overwrites selected destination. Own IB manual allows seven simultaneous effects including noise reduction, not eight transferred from another StompLab variant.",
+          "dsp": "No per-pitch DSP percentage published in checked documentation. Seven simultaneous category effects is a structural limit, not 1/7 CPU per effect. Brn Octave and MOD Pitch Shift occupy different categories; no measured simultaneous tracking quality claimed.",
+          "source_urls": [
+            "https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf",
+            "https://voxamps.com/product/stomplab-1b/"
+          ],
+          "measurements": [],
+          "notes": [
+            "Do not label Pitch Shift polyphonic from a generic pitch name, or transfer tracking behavior from ToneLab, StompLab guitar or expression variants.",
+            "No chord-tracking, latency, DSP or preset-transition hardware measurement. AC adapter current is not algorithm CPU cost."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf",
+            "title": "VOX StompLab IB original EFGSJ1 owner manual",
+            "access": "official PDF original text read; prior exact-model control/rear inventory retained",
+            "evidence": "Appendix Pitch Shift and Brn Octave parameter tables; 100 preset/20 user; seven simultaneous including NR. No input polyphony or pitch CPU% established."
+          },
+          {
+            "url": "https://voxamps.com/product/stomplab-1b/",
+            "title": "VOX official StompLab 1B product",
+            "access": "web page read",
+            "evidence": "Bass-specific60-choice inventory names Pitch Shift and Brn Octave; exact-page series video link and documented connections."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=JGBdMXx3Jo8",
+            "title": "VOX official StompLab series product overview",
+            "access": "indexed original video metadata; linked by exact-model product page",
+            "evidence": "Published4September2012; public series introduction, not verified first shipment."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "VOX::StompLab 1B",
       "VOX::StompLab 1G",
       "VOX::StompLab 2B",
       "VOX::StompLab 2G",
@@ -204255,12 +204316,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 321,
-    "last_model": "VING::Flybro FB-100",
-    "last_commit_parent": "43c5afda22ce9fc2faf756b5707f127de28e284b",
+    "completed_model_count": 322,
+    "last_model": "VOX::StompLab 1B",
+    "last_commit_parent": "4070f75e4edcedc79cdfce00cc4eadd8b871c348",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "VOX::StompLab 1B",
       "VOX::StompLab 1G",
       "VOX::StompLab 2B",
       "VOX::StompLab 2G",
@@ -204342,7 +204402,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 321,
+    "pitch_completed_model_count": 322,
     "supplemental_model_count": 0
   },
   "model_images": {
