@@ -1434,6 +1434,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::GT-1B ends -->
 
+<!-- model-images:BOSS::GT-1B begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS GT-1B — powered-on top view**
+
+[![BOSS GT-1B — powered-on top view](https://img-zuhalmuzik.mncdn.com/mnresize/2000/2000/kcfinder/upload/images/gt-1b_top_gal.jpg)](https://img-zuhalmuzik.mncdn.com/mnresize/2000/2000/kcfinder/upload/images/gt-1b_top_gal.jpg)
+
+[Image source](https://www.zuhalmuzik.com/boss-gt-1b-bass-efekt-prosesoru-78387). Retailer-hosted promotional straight-down view of the complete panel and expression pedal: lit U01 BOSS GT-1B display, red effect indicators and blue footswitch surrounds, three rotary controls, twelve panel buttons and three footswitches. Powered-on appearance is visible; independent operating-state verification is unavailable.
+
+**BOSS GT-1B — rear connections**
+
+[![BOSS GT-1B — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/51222/280049/YBOSS12836406__59324.1692113724.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/51222/280049/YBOSS12836406__59324.1692113724.jpg?c=1)
+
+[Image source](https://richtonemusic.co.uk/boss-gt-1b-bass-effect-processor-box-psu-2nd-hand/). Actual used-unit retailer photograph, angled from behind but showing the complete rear connector panel and labels: INPUT with POWER ON marking, AUX IN, PHONES, OUTPUT R/L-MONO, CTL2/3/EXP2, USB-B COMPUTER, DC IN and security slot. This rear photograph shows an unpowered unit.
+
+</details>
+<!-- model-images:BOSS::GT-1B ends -->
+
+
 Bass multi-effects with built-in expression/toe switch. Consolidated and checked2026-10-16. Current manufacturer page marks discontinued; this does not prove all seller stock unavailable.
 
 ### GT-1B — preserved original comparison

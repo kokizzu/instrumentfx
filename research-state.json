@@ -219119,11 +219119,36 @@
             "sha256": "555bc44662b21c512aa4b8ce2e3e7b09b88eac4ce63793180133b0bc57591109"
           }
         }
+      },
+      "BOSS::GT-1B": {
+        "model_key": "BOSS::GT-1B",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://img-zuhalmuzik.mncdn.com/mnresize/2000/2000/kcfinder/upload/images/gt-1b_top_gal.jpg",
+            "source_url": "https://www.zuhalmuzik.com/boss-gt-1b-bass-efekt-prosesoru-78387",
+            "caption": "BOSS GT-1B — powered-on top view",
+            "note": "Retailer-hosted promotional straight-down view of the complete panel and expression pedal: lit U01 BOSS GT-1B display, red effect indicators and blue footswitch surrounds, three rotary controls, twelve panel buttons and three footswitches. Powered-on appearance is visible; independent operating-state verification is unavailable.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "b64d61e02db7098f1381d9b161891bf2918746363b1334de84d105252bdfe686"
+          },
+          "rear": {
+            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/51222/280049/YBOSS12836406__59324.1692113724.jpg?c=1",
+            "source_url": "https://richtonemusic.co.uk/boss-gt-1b-bass-effect-processor-box-psu-2nd-hand/",
+            "caption": "BOSS GT-1B — rear connections",
+            "note": "Actual used-unit retailer photograph, angled from behind but showing the complete rear connector panel and labels: INPUT with POWER ON marking, AUX IN, PHONES, OUTPUT R/L-MONO, CTL2/3/EXP2, USB-B COMPUTER, DC IN and security slot. This rear photograph shows an unpowered unit.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "b0137be69a0f54a2bf7b3a4504b92513031d633a4909231c1d0f0b29bc501d49"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GT-1000"
+    "last_model": "BOSS::GT-1B"
   }
 }
