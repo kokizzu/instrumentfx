@@ -213168,11 +213168,36 @@
             "sha256": "535807d83919bcfe8cbf1b4f9cb055a6627da9a95cbfd543c77115302a46536e"
           }
         }
+      },
+      "Zoom::506II": {
+        "model_key": "Zoom::506II",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/506II_TOP.jpg",
+            "source_url": "https://www.zoom.co.jp/products/guitar-bass-effects/bass/zoom-506ii",
+            "caption": "506II manufacturer overhead product image",
+            "note": "Visually checked complete dark-finish 506II BASS overhead product image, displaying red A1. Promotional image may be composited; actual powered operation is not established, so a real powered overhead photograph remains pending. One rotary selector, paired +/− keys, STORE and two footswitches; no built-in treadle. A1 is a patch, not firmware. Rear photo is a different unit.",
+            "visual_checked": true,
+            "exact_top_down": true,
+            "powered_on": false,
+            "sha256": "28b442483cc537504aa26f47c41cb36a5f2e681ecce0a2ef723f8e5d0456771a"
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-506ii-bass-4418612.jpg",
+            "source_url": "https://en.audiofanzine.com/bass-multi-effect/zoom/506-II-Bass/",
+            "caption": "506II rear connectors",
+            "note": "Visually inspected upside-down rear photo: all four sockets visible, INPUT, DC9V, CONTROL IN and shared OUTPUT(PHONES). Image orientation is inverted; not separate headphone and line outputs. No cables attached; power not established. Exact identity follows the 506II gallery, not connector shape alone.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "3a9a8d1faccda187c5cd8fa170bfbb0c0804b34af5b223002f04e4cf61168382"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::505II"
+    "last_model": "Zoom::506II"
   }
 }

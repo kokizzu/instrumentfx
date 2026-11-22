@@ -289,6 +289,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::506II ends -->
 
+<!-- model-images:Zoom::506II begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**506II manufacturer overhead product image**
+
+[![506II manufacturer overhead product image](https://www.zoom.co.jp/sites/default/files/products/downloads/images/506II_TOP.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/506II_TOP.jpg)
+
+[Image source](https://www.zoom.co.jp/products/guitar-bass-effects/bass/zoom-506ii). Visually checked complete dark-finish 506II BASS overhead product image, displaying red A1. Promotional image may be composited; actual powered operation is not established, so a real powered overhead photograph remains pending. One rotary selector, paired +/− keys, STORE and two footswitches; no built-in treadle. A1 is a patch, not firmware. Rear photo is a different unit.
+
+**506II rear connectors**
+
+[![506II rear connectors](https://medias.audiofanzine.com/images/normal/zoom-506ii-bass-4418612.jpg)](https://medias.audiofanzine.com/images/normal/zoom-506ii-bass-4418612.jpg)
+
+[Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/506-II-Bass/). Visually inspected upside-down rear photo: all four sockets visible, INPUT, DC9V, CONTROL IN and shared OUTPUT(PHONES). Image orientation is inverted; not separate headphone and line outputs. No cables attached; power not established. Exact identity follows the 506II gallery, not connector shape alone.
+
+</details>
+<!-- model-images:Zoom::506II ends -->
+
+
 Bass multi-effects; partial, checked2026-10-18. Distinct from506 and505II. [Manufacturer manual](https://zoomcorp.com/media/documents/E_506II.pdf), printed pp6–7,28–31.
 
 <!-- comparison evidence begins -->
