@@ -211361,11 +211361,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "VOX::StompLab 2B": {
+        "model_key": "VOX::StompLab 2B",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://voxamps.com/wp-content/uploads/2019/02/SL2B-StompLab-Bass-Multi-Effect-1.png",
+            "source_url": "https://voxamps.com/product/stomplab-2b/",
+            "caption": "Official VOX StompLab 2B control-face image",
+            "note": "Visually inspected red bass control face: three knobs, four small buttons, two footswitches and built-in expression treadle. Official stock image displays 50 and colored indicators; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending.",
+            "visual_checked": true,
+            "sha256": "2a5fed86e6a9cb8c81614d45d43c4556fd960ad708683a9cd45163dd902c8f13",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://voxampshop.com/cdn/shop/files/Stomplab-IIB-Bass-Effect-Processor-Vox-Amp-Shop-489_1200x.jpg?v=1687380731",
+            "source_url": "https://voxampshop.com/products/sl2b",
+            "caption": "Official VOX StompLab 2B rear-port shop image",
+            "note": "Visually inspected rear explicitly marked StompLab IIB: INPUT, shared OUTPUT/PHONES(STEREO/MONO), POWER button and center-negative DC9V socket. Complete rear row readable, with no USB/MIDI or external EXP socket. Inlet polarity now visually corroborated rather than only inferred through the optional adapter.",
+            "visual_checked": true,
+            "sha256": "0e74ef8468a1dbd8c86fa12a3987ec069dac171a9418160b7bbd122f432dd64e",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::StompLab 1G"
+    "last_model": "VOX::StompLab 2B"
   }
 }
