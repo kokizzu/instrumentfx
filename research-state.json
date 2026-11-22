@@ -205080,10 +205080,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Yamaha::REV500": {
+        "model_key": "Yamaha::REV500",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "1996",
+          "precision": "year",
+          "kind": "manufacturer historical model year",
+          "source_urls": [
+            "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/8024/"
+          ],
+          "note": "Yamaha Innovation Road dates REV500 to1996. Exact announcement/first shipment day not established;26August1996 is the MIDI chart date, not a verified launch day."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://usa.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf",
+            "https://usa.yamaha.com/support/manuals/index.html?l=en&p=164",
+            "https://sourceforge.net/projects/yamaha-rev500/files/"
+          ],
+          "note": "No exact public device updater/changelog located in this pass. MIDI chart1.0 dated26August1996 is a document version. Independent zaniah editor2.0/8March2025 is host software, not REV500 firmware. No inference of never updated or impossible service ROM revision; latest installed/system version and update span unresolved."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "Complete manual effect-type/parameter inventory documents reverb, gate, resonator, dynamic filter, chorus, flanger, symphonic, tremolo and echo combinations; no dedicated semitone pitch-shift or harmonizer algorithm found. Chorus/symphonic modulation is not documented pitch transposition.",
+          "preset": "100factory+100user programs. Fixed effect types and their editable parameters; patch recall/bulk dump is not firmware installation. No pitch preset identified.",
+          "dsp": "No per-algorithm DSP percentage published. Ten documented effect topologies are library architectures, not ten simultaneous freely assignable blocks; dedicated pitch resource use is inapplicable to the documented inventory.",
+          "source_urls": [
+            "https://usa.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Scope is the own manual and inspected published catalogue, not a hardware proof of every possible undocumented behavior. MIDI POLY/MONO mode legend is not audio-input polyphony."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/8024/",
+            "title": "Yamaha Innovation Road REV500 collection record",
+            "access": "official historical page read",
+            "evidence": "Manufacturer model year1996; stereo reverb/modulation description."
+          },
+          {
+            "url": "https://usa.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf",
+            "title": "Yamaha REV500 Operation Manual",
+            "access": "official28page PDF text read; printed10–13 and MIDI additions",
+            "evidence": "Complete effect-type parameter list lacks dedicated pitch shifter.100preset+100user; MIDI chart date/version not firmware release."
+          },
+          {
+            "url": "https://usa.yamaha.com/support/manuals/index.html?l=en&p=164",
+            "title": "Yamaha Manual Library REV500 entries",
+            "access": "official indexed catalogue read; exact keyword route inaccessible",
+            "evidence": "REV500 owner manual and text-version entries; no exact updater/changelog located in this search."
+          },
+          {
+            "url": "https://sourceforge.net/projects/yamaha-rev500/files/",
+            "title": "zaniah REV500 editor project files and changelog",
+            "access": "project-author README/changelog indexed text read; no executable downloaded",
+            "evidence": "Independent editor2.0 dated8March2025; host tools and JSON patch files, not manufacturer device firmware."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Yamaha::REV500",
       "Yamaha::SPX1000",
       "Yamaha::SPX2000",
       "Yamaha::SPX900",
@@ -205152,12 +205217,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 335,
-    "last_model": "Yamaha::Magicstomp original Guitar",
-    "last_commit_parent": "6e6c6aec53083e1d6c1b320a02387b9658783e99",
+    "completed_model_count": 336,
+    "last_model": "Yamaha::REV500",
+    "last_commit_parent": "47639631d38c58ce5d238a3e70d8acd71196320c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Yamaha::REV500",
       "Yamaha::SPX1000",
       "Yamaha::SPX2000",
       "Yamaha::SPX900",
@@ -205225,7 +205289,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 335,
+    "pitch_completed_model_count": 336,
     "supplemental_model_count": 0
   },
   "model_images": {

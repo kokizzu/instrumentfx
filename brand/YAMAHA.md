@@ -735,6 +735,31 @@ Next:seek readableexactofficiallist ormanufacturer-authoredcopy withmatchingrevi
 
 ## REV500
 
+<!-- firmware-pitch:Yamaha::REV500 begins -->
+### Firmware and pitch audit — Yamaha REV500
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1996 (manufacturer historical model year). Yamaha Innovation Road dates REV500 to1996. Exact announcement/first shipment day not established;26August1996 is the MIDI chart date, not a verified launch day. [launch 1](https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/8024/) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact public device updater/changelog located in this pass. MIDI chart1.0 dated26August1996 is a document version. Independent zaniah editor2.0/8March2025 is host software, not REV500 firmware. No inference of never updated or impossible service ROM revision; latest installed/system version and update span unresolved. [firmware 1](https://usa.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf) [firmware 2](https://usa.yamaha.com/support/manuals/index.html?l=en&p=164) [firmware 3](https://sourceforge.net/projects/yamaha-rev500/files/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. Complete manual effect-type/parameter inventory documents reverb, gate, resonator, dynamic filter, chorus, flanger, symphonic, tremolo and echo combinations; no dedicated semitone pitch-shift or harmonizer algorithm found. Chorus/symphonic modulation is not documented pitch transposition. [pitch 1](https://usa.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf) |
+| Pitch / preset recall | 100factory+100user programs. Fixed effect types and their editable parameters; patch recall/bulk dump is not firmware installation. No pitch preset identified. |
+| Pitch / DSP resources | No per-algorithm DSP percentage published. Ten documented effect topologies are library architectures, not ten simultaneous freely assignable blocks; dedicated pitch resource use is inapplicable to the documented inventory. |
+| Pitch / qualifications | Scope is the own manual and inspected published catalogue, not a hardware proof of every possible undocumented behavior. MIDI POLY/MONO mode legend is not audio-input polyphony. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Yamaha Innovation Road REV500 collection record](https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/8024/) — Manufacturer model year1996; stereo reverb/modulation description. (official historical page read).
+- [Yamaha REV500 Operation Manual](https://usa.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf) — Complete effect-type parameter list lacks dedicated pitch shifter.100preset+100user; MIDI chart date/version not firmware release. (official28page PDF text read; printed10–13 and MIDI additions).
+- [Yamaha Manual Library REV500 entries](https://usa.yamaha.com/support/manuals/index.html?l=en&p=164) — REV500 owner manual and text-version entries; no exact updater/changelog located in this search. (official indexed catalogue read; exact keyword route inaccessible).
+- [zaniah REV500 editor project files and changelog](https://sourceforge.net/projects/yamaha-rev500/files/) — Independent editor2.0 dated8March2025; host tools and JSON patch files, not manufacturer device firmware. (project-author README/changelog indexed text read; no executable downloaded).
+
+<!-- firmware-pitch:Yamaha::REV500 ends -->
+
 <!-- comparison evidence begins -->
 Checked2026-10-17; partial. [Official English operation manual][R5-M],28PDFpages including MIDI additions; revision/date unverified.
 
