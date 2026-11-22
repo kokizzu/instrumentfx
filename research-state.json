@@ -212669,17 +212669,26 @@
       },
       "DigiTech::RP150": {
         "model_key": "DigiTech::RP150",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "views": {
           "top": {
             "image_url": "https://media.guitarcenter.com/is/image/MMGS7/156606000000000-00-600x600.jpg",
             "source_url": "https://www.guitarcenter.com/Restock/DigiTech/RP150-Guitar-Multi-Effects-Pedal-1273887997450.gc",
             "caption": "DigiTech RP150 — top panel",
-            "note": "Retailer straight top-down promotional photograph with illuminated green RP display and status indicators. Source is 600 × 600 pixels with broad white margins, limiting small-label detail. Rear photograph remains pending because the selected Bolha image connection timed out. No independent device operation.",
+            "note": "Retailer straight top-down promotional photograph with illuminated green RP display and status indicators. Source is 600 × 600 pixels with broad white margins, limiting small-label detail. No independent device operation.",
             "visual_checked": true,
             "powered_on": true,
             "exact_top_down": true,
             "sha256": "46dbf39fbde26b5551b6958c99e33b4ef78c164a023aaa6dfbf6f630603392ed"
+          },
+          "rear": {
+            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/156606000000000-01-1200x1200.jpg",
+            "source_url": "https://www.guitarcenter.com/Restock/DigiTech/RP150-Guitar-Multi-Effects-Pedal-1273887997450.gc",
+            "caption": "RP150 rear connector panel",
+            "note": "Complete straight rear photograph from the exact RP150 retailer gallery. INPUT, AMP/MIXER selector, LEFT / RIGHT OUTPUT, headphone socket, CONTROL IN, USB-B and 9 VAC 1.3 A power inlet are visible. The 1200 × 1200 source has broad white margins, so small-label detail is limited. Resolves the earlier unavailable rear-view source; AC power has no DC center-polarity specification.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "d7e4bfd12354d2df2be129a0013e7507ef67929a216305f98510d40bbcd7eefb"
           }
         }
       },
@@ -221430,6 +221439,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP155"
+    "last_model": "DigiTech::RP150"
   }
 }

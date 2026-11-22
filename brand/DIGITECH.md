@@ -1088,9 +1088,13 @@ Sources checked:
 
 [![DigiTech RP150 — top panel](https://media.guitarcenter.com/is/image/MMGS7/156606000000000-00-600x600.jpg)](https://media.guitarcenter.com/is/image/MMGS7/156606000000000-00-600x600.jpg)
 
-[Image source](https://www.guitarcenter.com/Restock/DigiTech/RP150-Guitar-Multi-Effects-Pedal-1273887997450.gc). Retailer straight top-down promotional photograph with illuminated green RP display and status indicators. Source is 600 × 600 pixels with broad white margins, limiting small-label detail. Rear photograph remains pending because the selected Bolha image connection timed out. No independent device operation.
+[Image source](https://www.guitarcenter.com/Restock/DigiTech/RP150-Guitar-Multi-Effects-Pedal-1273887997450.gc). Retailer straight top-down promotional photograph with illuminated green RP display and status indicators. Source is 600 × 600 pixels with broad white margins, limiting small-label detail. No independent device operation.
 
-**Rear view:** not yet verified.
+**RP150 rear connector panel**
+
+[![RP150 rear connector panel](https://media.guitarcenter.com/is/image/MMGS7/156606000000000-01-1200x1200.jpg)](https://media.guitarcenter.com/is/image/MMGS7/156606000000000-01-1200x1200.jpg)
+
+[Image source](https://www.guitarcenter.com/Restock/DigiTech/RP150-Guitar-Multi-Effects-Pedal-1273887997450.gc). Complete straight rear photograph from the exact RP150 retailer gallery. INPUT, AMP/MIXER selector, LEFT / RIGHT OUTPUT, headphone socket, CONTROL IN, USB-B and 9 VAC 1.3 A power inlet are visible. The 1200 × 1200 source has broad white margins, so small-label detail is limited. Resolves the earlier unavailable rear-view source; AC power has no DC center-polarity specification.
 
 </details>
 <!-- model-images:DigiTech::RP150 ends -->
