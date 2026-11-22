@@ -205772,10 +205772,68 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::707II": {
+        "model_key": "Zoom::707II",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2002",
+          "precision": "year",
+          "kind": "manufacturer product-history release year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Corporate timeline places 707II GUITAR in 2002; exact announcement/first shipment day unresolved."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/gb/multi-effects/guitar-effects/707ii/707ii-support/",
+            "https://zoomcorp.com/media/documents/E_707II.pdf"
+          ],
+          "note": "Own support page lists operation manual only; no public device updater/changelog located. SmartMedia patch/sample storage is not documented firmware-update support. No USB/MIDI update interface in published connector inventory. Internal ROM revisions remain possible; latest revision/date unknown."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD type10 PITCH: −12…−1, detune, +1…+12,+24 semitones; TONE0–10 and dry/effect BAL0–30. Type11 P-PIT offers16 pedal-pitch modes. The PITCH pedal assignment temporarily selects P-PIT even when another MOD type was selected. No explicit polyphonic-input guarantee found.",
+          "preset": "60 USER +60 PRESET onboard; SmartMedia stores up to five60-patch groups separately. Pedal range saves per patch. Pitch and other modulation alternatives share MOD, not independent simultaneous pitch blocks.",
+          "dsp": "No pitch DSP percentage documented. Six effect modules plus amp simulator/ZNR describe architecture, not CPU usage. Sampler operation disables MOD and REV, making MOD pitch unavailable then; sample playback tempo/pitch modes are a separate function.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_707II.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Exact707II scope, notGFX-707 or708II. No hardware chord-tracking or CPU measurement; no percent extrapolated from module counts."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official 2002 product group read",
+            "evidence": "707II GUITAR listed under 2002."
+          },
+          {
+            "url": "https://zoomcorp.com/en/gb/multi-effects/guitar-effects/707ii/707ii-support/",
+            "title": "Zoom 707II support page",
+            "access": "official Documents section read",
+            "evidence": "Operation manual listed; no public firmware package/changelog found."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_707II.pdf",
+            "title": "Zoom 707II Guitar operation manual",
+            "access": "official PDF printed pp14,23–24,28–29,36 pitch/storage sections inspected",
+            "evidence": "PITCH semitone range,16P-PIT modes, pedal assignment substitution, patch/card capacities and sampler MOD/REV exclusion; no pitch polyphony guarantee or DSP%."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::707II",
       "Zoom::708II",
       "Zoom::A1 FOUR",
       "Zoom::A1X FOUR",
@@ -205833,12 +205891,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 346,
-    "last_model": "Zoom::607",
-    "last_commit_parent": "5631cf5aa2c22fc841c508c828faab0b7ab4bd33",
+    "completed_model_count": 347,
+    "last_model": "Zoom::707II",
+    "last_commit_parent": "e7eab3ffc0dadaa0b8f28275c22234c3efdd5e13",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::707II",
       "Zoom::708II",
       "Zoom::A1 FOUR",
       "Zoom::A1X FOUR",
@@ -205895,7 +205952,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 346,
+    "pitch_completed_model_count": 347,
     "supplemental_model_count": 0
   },
   "model_images": {

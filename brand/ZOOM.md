@@ -610,6 +610,30 @@ Seller, stock, authenticity/origin, working state, bundle, adapter, warranty, sh
 
 ## 707II
 
+<!-- firmware-pitch:Zoom::707II begins -->
+### Firmware and pitch audit — Zoom 707II
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2002 (manufacturer product-history release year). Corporate timeline places 707II GUITAR in 2002; exact announcement/first shipment day unresolved. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Own support page lists operation manual only; no public device updater/changelog located. SmartMedia patch/sample storage is not documented firmware-update support. No USB/MIDI update interface in published connector inventory. Internal ROM revisions remain possible; latest revision/date unknown. [firmware 1](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/707ii/707ii-support/) [firmware 2](https://zoomcorp.com/media/documents/E_707II.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD type10 PITCH: −12…−1, detune, +1…+12,+24 semitones; TONE0–10 and dry/effect BAL0–30. Type11 P-PIT offers16 pedal-pitch modes. The PITCH pedal assignment temporarily selects P-PIT even when another MOD type was selected. No explicit polyphonic-input guarantee found. [pitch 1](https://zoomcorp.com/media/documents/E_707II.pdf) |
+| Pitch / preset recall | 60 USER +60 PRESET onboard; SmartMedia stores up to five60-patch groups separately. Pedal range saves per patch. Pitch and other modulation alternatives share MOD, not independent simultaneous pitch blocks. |
+| Pitch / DSP resources | No pitch DSP percentage documented. Six effect modules plus amp simulator/ZNR describe architecture, not CPU usage. Sampler operation disables MOD and REV, making MOD pitch unavailable then; sample playback tempo/pitch modes are a separate function. |
+| Pitch / qualifications | Exact707II scope, notGFX-707 or708II. No hardware chord-tracking or CPU measurement; no percent extrapolated from module counts. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — 707II GUITAR listed under 2002. (official 2002 product group read).
+- [Zoom 707II support page](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/707ii/707ii-support/) — Operation manual listed; no public firmware package/changelog found. (official Documents section read).
+- [Zoom 707II Guitar operation manual](https://zoomcorp.com/media/documents/E_707II.pdf) — PITCH semitone range,16P-PIT modes, pedal assignment substitution, patch/card capacities and sampler MOD/REV exclusion; no pitch polyphony guarantee or DSP%. (official PDF printed pp14,23–24,28–29,36 pitch/storage sections inspected).
+
+<!-- firmware-pitch:Zoom::707II ends -->
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**, partial. Separate guitar model from GFX-707 and bass708II. Manufacturer’s own Operation Manual, selected sections inspected; complete algorithm audit pending.
 
