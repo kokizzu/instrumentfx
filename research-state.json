@@ -216049,14 +216049,18 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_01.jpg?v=1756897653&width=2560",
-            "source_url": "https://www.nux.us/products/stageman-floor",
-            "caption": "NUX Stageman Floor — top controls",
+            "image_url": "https://medias.audiofanzine.com/images/normal/nux-stageman-floor-nap-5-6319146.jpg",
+            "source_url": "https://en.audiofanzine.com/solid-state-guitar-preamp/nux/stageman-floor-acoustic-pre-amp-di/",
+            "caption": "NUX Stageman Floor — powered-on near-overhead control photograph",
             "visual_checked": true,
-            "note": "Official overhead photograph clearly shows all seven knobs and both footswitches. The green Chorus lens is visible, but illumination is not clear enough to verify powered-on state; a confirmed powered-on overhead photo remains a gap.",
-            "powered_on": null,
-            "exact_top_down": true,
-            "sha256": "c398d8030eda441ad53b5ac635cee5e18b205dff59da51f32d14f40f99770210"
+            "note": "Audiofanzine user photograph visually inspected: green Chorus and orange/red Preamp indicators visibly illuminated, with corresponding glow on the metal switches; complete seven-knob face, two toggles and both footswitches unobstructed. Power cable connected. Camera has slight perspective, so exact straight overhead remains pending. [Official unlit/uncertain-power overhead reference](https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_01.jpg?v=1756897653&width=2560) retained for layout comparison. No audio-performance test implied.",
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "b125a3fca06496d996bb4d6105d3bc3f827dfef2871ef168d88b55a195609ce8",
+            "previous_overhead_reference": {
+              "image_url": "https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_01.jpg?v=1756897653&width=2560",
+              "sha256": "c398d8030eda441ad53b5ac635cee5e18b205dff59da51f32d14f40f99770210"
+            }
           },
           "rear": {
             "image_url": "https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_02.jpg?v=1756897653&width=2560",
@@ -223117,6 +223121,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX100G"
+    "last_model": "NUX::Stageman Floor NAP-5"
   }
 }
