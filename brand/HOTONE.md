@@ -1516,6 +1516,26 @@ Sources checked:
 
 <!-- firmware-pitch:Hotone::Ampero One MP-80 ends -->
 
+<!-- model-images:Hotone::Ampero One MP-80 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Hotone Ampero One MP-80 — control surface**
+
+[![Hotone Ampero One MP-80 — control surface](https://muztorg.ua/image/catalog/99993/%202021_news/06.12.2021/230206_hotone_ampero_one.jpg)](https://muztorg.ua/image/catalog/99993/%202021_news/06.12.2021/230206_hotone_ampero_one.jpg)
+
+[Image source](https://muztorg.ua/all-news/hotone_ampero-ii-stomp/). Top-down promotional photograph with powered touchscreen, three illuminated footswitch rings, two knobs and complete expression pedal. Dark chassis and screen labels have modest contrast.
+
+**Hotone Ampero One MP-80 — rear connections**
+
+[![Hotone Ampero One MP-80 — rear connections](https://deathcloud.com/cdn/shop/files/HotoneAudioAmperoOnePedalBack.jpg?v=1727483063&width=1445)](https://deathcloud.com/cdn/shop/files/HotoneAudioAmperoOnePedalBack.jpg?v=1727483063&width=1445)
+
+[Image source](https://deathcloud.com/products/hotone-audio-ampero-one-pedal). Full rear row showing EXP2/CTRL (FS 4/5), instrument input, auxiliary input, headphones, stereo outputs, USB-B and DC 9V 500mA. Large white margins surround the connector panel; fine labels are small.
+
+</details>
+<!-- model-images:Hotone::Ampero One MP-80 ends -->
+
+
 Guitar, bass and acoustic-instrument multi-effects; **medium** footprint; built-in expression. This is not original Ampero MP-100, Mini MP-50, Ampero II Stomp MP-300, Ampero II MP-350 or Stage MP-380. Some regional/retailer copy appears to reuse original Ampero controls; the model-specific manual takes precedence. The record remains partial.
 
 | Required field | Source-backed specification / unresolved detail |

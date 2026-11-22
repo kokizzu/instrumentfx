@@ -219924,11 +219924,36 @@
             "sha256": "df1a7d2da70e3af665eeffba936943eadd0a5718a5613a6e3900fcf4d8df5622"
           }
         }
+      },
+      "Hotone::Ampero One MP-80": {
+        "model_key": "Hotone::Ampero One MP-80",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://muztorg.ua/image/catalog/99993/%202021_news/06.12.2021/230206_hotone_ampero_one.jpg",
+            "source_url": "https://muztorg.ua/all-news/hotone_ampero-ii-stomp/",
+            "caption": "Hotone Ampero One MP-80 — control surface",
+            "note": "Top-down promotional photograph with powered touchscreen, three illuminated footswitch rings, two knobs and complete expression pedal. Dark chassis and screen labels have modest contrast.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "3f30c62cf84f7a197831bab05bfce09715aab4fd9190e19a079c85e61d2e3832"
+          },
+          "rear": {
+            "image_url": "https://deathcloud.com/cdn/shop/files/HotoneAudioAmperoOnePedalBack.jpg?v=1727483063&width=1445",
+            "source_url": "https://deathcloud.com/products/hotone-audio-ampero-one-pedal",
+            "caption": "Hotone Ampero One MP-80 — rear connections",
+            "note": "Full rear row showing EXP2/CTRL (FS 4/5), instrument input, auxiliary input, headphones, stereo outputs, USB-B and DC 9V 500mA. Large white margins surround the connector panel; fine labels are small.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "9011f4243506e942029f95d546c9c7f33792ed27a142e59cbf788ac499e22528"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Hotone::Ampero MP-100"
+    "last_model": "Hotone::Ampero One MP-80"
   }
 }
