@@ -205345,10 +205345,75 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Yamaha::SPX990": {
+        "model_key": "Yamaha::SPX990",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "1993-05",
+          "precision": "month",
+          "kind": "manufacturer-supplied contemporary product-directory introduction date",
+          "source_urls": [
+            "https://www.worldradiohistory.com/Archive-All-Audio/Mix-Magazine/90s/93/Mix-1993-10.pdf"
+          ],
+          "note": "Mix October1993 Yamaha entry explicitly gives Date Product Introduced5/93. This is US introduction-month evidence, not exact first shipment day/worldwide launch. MIDI chart26January1993 is not substituted."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://dbwbp.com/index.php/9-misc/37-synth-eprom-dumps",
+            "https://usa.yamaha.com/support/manuals/index.html?l=en&p=189",
+            "https://tcfurlong.com/wp-content/uploads/Yamaha-SPX990-Rental-Manual.pdf"
+          ],
+          "note": "Exact latest manufacturer firmware/ROM revision and release date unresolved. Third-party archive lists an unversioned Yamaha SPX990.zip; archive upload timestamp is not firmware release date and binary was not inspected. No official updater/changelog verified. MIDI chart1.0 and patch bulk dumps are separate from system firmware; no update performed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MonoPit,DualPit,TripPit provide one,two,three shifted voices with intelligent key/scale harmony or chromatic operation. StPitch processes stereo with linked settings. Fine tuning±100cents. Output voices and stereo channels do not prove chordal audio-input support.",
+          "preset": "80ROM+100user; optional100card. Main algorithm is selected through starting preset; pre/post processing is separate. Intelligent harmony supports signal or MIDI interval control; this is not proof of a polyphonic pitch tracker.",
+          "dsp": "No per-pitch DSP percentage published. Configured delay: MonoPit0.1–1200ms,DualPit/StPitch0.1–650ms; not measured minimum processing latency. Pre/main/post architecture does not quantify pitch CPU cost or arbitrary algorithm stacking.",
+          "source_urls": [
+            "https://tcfurlong.com/wp-content/uploads/Yamaha-SPX990-Rental-Manual.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Freeze sample transposition and MIDI POLY/MONO legend are separate. No physical chord/latency tests; source OCR omits coarse-pitch musical glyphs, so no guessed semitone range added."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.worldradiohistory.com/Archive-All-Audio/Mix-Magazine/90s/93/Mix-1993-10.pdf",
+            "title": "Mix October1993 manufacturer product directory,Yamaha SPX990",
+            "access": "indexed contemporary Yamaha entry read; direct full PDF reopen403",
+            "evidence": "Date Product Introduced5/93; supplier explicitly Yamaha Corporation of America."
+          },
+          {
+            "url": "https://tcfurlong.com/wp-content/uploads/Yamaha-SPX990-Rental-Manual.pdf",
+            "title": "Yamaha SPX990 Operation Manual reproduction",
+            "access": "manufacturer-authored76page PDF read,printed39–42 and own system/memory chapters",
+            "evidence": "Four pitch algorithms,intelligent/chromatic modes,fine/delay controls; no audio-input polyphony or DSP% guarantee."
+          },
+          {
+            "url": "https://dbwbp.com/index.php/9-misc/37-synth-eprom-dumps",
+            "title": "DBWBP synthesizer ROM archive SPX990 entry",
+            "access": "archive-curator indexed listing read; ROM binary not retrieved",
+            "evidence": "Unversioned Yamaha SPX990.zip exists in third-party archive; upload metadata does not establish release date/final version."
+          },
+          {
+            "url": "https://usa.yamaha.com/support/manuals/index.html?l=en&p=189",
+            "title": "Yamaha manual library SPX990 entry",
+            "access": "official indexed exact-model image-manual entry read",
+            "evidence": "Own SPX990 manual listing; no exact manufacturer firmware release verified."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Yamaha::SPX990",
       "Zoom::1201",
       "Zoom::505 original",
       "Zoom::505II",
@@ -205413,12 +205478,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 339,
-    "last_model": "Yamaha::SPX900",
-    "last_commit_parent": "62646496a6ac76faa2c96bab3e2de80a4f4ea2fd",
+    "completed_model_count": 340,
+    "last_model": "Yamaha::SPX990",
+    "last_commit_parent": "e7b897dd713877e669f0cafa4980fe6ea2fcf449",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Yamaha::SPX990",
       "Zoom::1201",
       "Zoom::505 original",
       "Zoom::505II",
@@ -205482,7 +205546,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 339,
+    "pitch_completed_model_count": 340,
     "supplemental_model_count": 0
   },
   "model_images": {

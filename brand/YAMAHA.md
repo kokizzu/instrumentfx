@@ -961,6 +961,31 @@ No built-in treadle/onboard footswitches orheadphone socket in complete panels. 
 
 ## SPX990
 
+<!-- firmware-pitch:Yamaha::SPX990 begins -->
+### Firmware and pitch audit — Yamaha SPX990
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1993-05 (manufacturer-supplied contemporary product-directory introduction date). Mix October1993 Yamaha entry explicitly gives Date Product Introduced5/93. This is US introduction-month evidence, not exact first shipment day/worldwide launch. MIDI chart26January1993 is not substituted. [launch 1](https://www.worldradiohistory.com/Archive-All-Audio/Mix-Magazine/90s/93/Mix-1993-10.pdf) |
+| Firmware / latest verification | Not verified — Unverified. Exact latest manufacturer firmware/ROM revision and release date unresolved. Third-party archive lists an unversioned Yamaha SPX990.zip; archive upload timestamp is not firmware release date and binary was not inspected. No official updater/changelog verified. MIDI chart1.0 and patch bulk dumps are separate from system firmware; no update performed. [firmware 1](https://dbwbp.com/index.php/9-misc/37-synth-eprom-dumps) [firmware 2](https://usa.yamaha.com/support/manuals/index.html?l=en&p=189) [firmware 3](https://tcfurlong.com/wp-content/uploads/Yamaha-SPX990-Rental-Manual.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MonoPit,DualPit,TripPit provide one,two,three shifted voices with intelligent key/scale harmony or chromatic operation. StPitch processes stereo with linked settings. Fine tuning±100cents. Output voices and stereo channels do not prove chordal audio-input support. [pitch 1](https://tcfurlong.com/wp-content/uploads/Yamaha-SPX990-Rental-Manual.pdf) |
+| Pitch / preset recall | 80ROM+100user; optional100card. Main algorithm is selected through starting preset; pre/post processing is separate. Intelligent harmony supports signal or MIDI interval control; this is not proof of a polyphonic pitch tracker. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Configured delay: MonoPit0.1–1200ms,DualPit/StPitch0.1–650ms; not measured minimum processing latency. Pre/main/post architecture does not quantify pitch CPU cost or arbitrary algorithm stacking. |
+| Pitch / qualifications | Freeze sample transposition and MIDI POLY/MONO legend are separate. No physical chord/latency tests; source OCR omits coarse-pitch musical glyphs, so no guessed semitone range added. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Mix October1993 manufacturer product directory,Yamaha SPX990](https://www.worldradiohistory.com/Archive-All-Audio/Mix-Magazine/90s/93/Mix-1993-10.pdf) — Date Product Introduced5/93; supplier explicitly Yamaha Corporation of America. (indexed contemporary Yamaha entry read; direct full PDF reopen403).
+- [Yamaha SPX990 Operation Manual reproduction](https://tcfurlong.com/wp-content/uploads/Yamaha-SPX990-Rental-Manual.pdf) — Four pitch algorithms,intelligent/chromatic modes,fine/delay controls; no audio-input polyphony or DSP% guarantee. (manufacturer-authored76page PDF read,printed39–42 and own system/memory chapters).
+- [DBWBP synthesizer ROM archive SPX990 entry](https://dbwbp.com/index.php/9-misc/37-synth-eprom-dumps) — Unversioned Yamaha SPX990.zip exists in third-party archive; upload metadata does not establish release date/final version. (archive-curator indexed listing read; ROM binary not retrieved).
+- [Yamaha manual library SPX990 entry](https://usa.yamaha.com/support/manuals/index.html?l=en&p=189) — Own SPX990 manual listing; no exact manufacturer firmware release verified. (official indexed exact-model image-manual entry read).
+
+<!-- firmware-pitch:Yamaha::SPX990 ends -->
+
 <!-- comparison evidence begins -->
 Checked 2026-10-17. Partial original-manual verification; unknown is not No.
 
