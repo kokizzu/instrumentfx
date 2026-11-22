@@ -212170,11 +212170,31 @@
             "exact_top_down": false
           }
         }
+      },
+      "Yamaha::Magicstomp Bass": {
+        "model_key": "Yamaha::Magicstomp Bass",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://media.musiciansfriend.com/is/image/MMGS7/Magicstomp-EB/151561000000000-00-1600x1600.jpg",
+            "source_url": "https://www.musiciansfriend.com/amplifiers-effects/yamaha-magicstomp-eb",
+            "caption": "Magicstomp Bass control face",
+            "note": "Visually checked black BASS EFFECTS PROCESSOR-labelled stock image, green U99 MAGICSTOMP display and red indicators depicted. Four knobs, three footswitches, one STORE/EXIT button; no treadle. Near-overhead control-face view with rear edge visible; exact top-down and independent actual powered-unit confirmation remain pending. Screen text is not a firmware-version readout.",
+            "visual_checked": true,
+            "sha256": "1389bdfa74a2dd5cdc8599a2666cfce13f728e8b0de77a68459dc7553ad008c9",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        },
+        "unresolved": [
+          "Powered-on exact overhead photograph not independently verified; current Bass-labelled stock view depicts illumination.",
+          "Exact UB99B rear photo pending: linked Reverb image jhfbf8tpofyiyjoujcd2 thumbnail returned500, original endpoint401; sibling Acoustic/Guitar rear not substituted."
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::Magicstomp Acoustic"
+    "last_model": "Yamaha::Magicstomp Bass"
   }
 }

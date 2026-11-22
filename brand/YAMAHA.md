@@ -447,6 +447,22 @@ Sources checked:
 
 <!-- firmware-pitch:Yamaha::Magicstomp Bass ends -->
 
+<!-- model-images:Yamaha::Magicstomp Bass begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Magicstomp Bass control face**
+
+[![Magicstomp Bass control face](https://media.musiciansfriend.com/is/image/MMGS7/Magicstomp-EB/151561000000000-00-1600x1600.jpg)](https://media.musiciansfriend.com/is/image/MMGS7/Magicstomp-EB/151561000000000-00-1600x1600.jpg)
+
+[Image source](https://www.musiciansfriend.com/amplifiers-effects/yamaha-magicstomp-eb). Visually checked black BASS EFFECTS PROCESSOR-labelled stock image, green U99 MAGICSTOMP display and red indicators depicted. Four knobs, three footswitches, one STORE/EXIT button; no treadle. Near-overhead control-face view with rear edge visible; exact top-down and independent actual powered-unit confirmation remain pending. Screen text is not a firmware-version readout.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:Yamaha::Magicstomp Bass ends -->
+
+
 Checked 2026-10-18; partial. Separate Bass edition. [Own Yamaha manual](https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf),35PDFpages,pp7–12,33; browser text. Acoustic/electric bass patches establish bass membership. No sibling specifications substituted.
 
 <!-- comparison evidence begins -->
