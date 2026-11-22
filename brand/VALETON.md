@@ -157,6 +157,30 @@ All outputs may operate together, but that does not prove a common volume-contro
 
 ## Dapper Amp Mini
 
+<!-- firmware-pitch:Valeton::Dapper Amp Mini begins -->
+### Firmware and pitch audit — Valeton Dapper Amp Mini
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | Not verified. Manufacturer product text does not establish first release. Manual V01_200414 is not proof of April 14, 2020 shipment; later demo/review dates do not establish launch. [launch 1](https://www.valeton.net/product/dapper-amp-mini/) |
+| Firmware / latest verification | Not verified — No public firmware located. No exact-model firmware number, release date or user updater identified in checked manufacturer sources. Product is marked discontinued; this does not prove it never received updates. Firmware index text may omit dynamic entries. V01 is manual version, not device firmware. [firmware 1](https://www.valeton.net/product/dapper-amp-mini/) [firmware 2](https://www.valeton.net/firmware/) [firmware 3](https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | No pitch algorithm documented in checked sources. No dedicated pitch transposer, octave divider or harmonizer documented. EFFECTS selects chorus, delay or tremolo; separate hall-like reverb and amp models. Chorus internal pitch architecture/input polyphony not specified. [pitch 1](https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf) [pitch 2](https://www.valeton.net/product/dapper-amp-mini/) |
+| Pitch / preset recall | AMP settings automatically save when selecting channels; this is not documented pitch preset storage or proof of FX/reverb recall. FX TYPE selects one of CH/DL/TR. |
+| Pitch / DSP resources | No pitch algorithm resource percentage or DSP meter published in checked sources. 160mA electrical consumption and nine amp choices are not CPU costs. |
+| Pitch / qualifications | No-pitch-documented means no dedicated transposition algorithm established, not a claim that chorus contains no internal modulation. Tuner sharp/flat detection mutes the signal; it does not establish automatic correction or harmony. Do not transfer octave/chorus architecture from other Dapper models. No hardware/audio test or firmware execution performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Valeton Dapper Amp Mini official product](https://www.valeton.net/product/dapper-amp-mini/) — Discontinued; nine amp sounds, chorus/delay/tremolo, reverb and cabinet simulation. Manual download only, no firmware number or launch date established. (manufacturer search-index text read; direct page timed out).
+- [Valeton official firmware index](https://www.valeton.net/firmware/) — No exact-model Amp Mini package exposed in extracted text; not proof of full historical absence. (web page text read; dynamic visibility limited).
+- [Dapper Amp Mini official English V01 manual](https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf) — FX alternatives and controls, AMP-only automatic channel save, muted tuner; no dedicated transposer or CPU cost. Cabinet-simulation diagram/prose conflict remains separate. (web two-page PDF text read).
+
+<!-- firmware-pitch:Valeton::Dapper Amp Mini ends -->
+
 Checked2026-10-17;partial. Guitar multi-effects;discontinued. Bass/vocal suitability and ownership unverified.
 
 <!-- comparison evidence begins -->

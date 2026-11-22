@@ -202625,10 +202625,72 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Valeton::Dapper Amp Mini": {
+        "model_key": "Valeton::Dapper Amp Mini",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": null,
+          "precision": "unknown",
+          "kind": "first release unresolved",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-amp-mini/"
+          ],
+          "note": "Manufacturer product text does not establish first release. Manual V01_200414 is not proof of April 14, 2020 shipment; later demo/review dates do not establish launch."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.valeton.net/product/dapper-amp-mini/",
+            "https://www.valeton.net/firmware/",
+            "https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf"
+          ],
+          "note": "No exact-model firmware number, release date or user updater identified in checked manufacturer sources. Product is marked discontinued; this does not prove it never received updates. Firmware index text may omit dynamic entries. V01 is manual version, not device firmware."
+        },
+        "pitch": {
+          "status": "no_pitch_documented",
+          "algorithms": "No dedicated pitch transposer, octave divider or harmonizer documented. EFFECTS selects chorus, delay or tremolo; separate hall-like reverb and amp models. Chorus internal pitch architecture/input polyphony not specified.",
+          "preset": "AMP settings automatically save when selecting channels; this is not documented pitch preset storage or proof of FX/reverb recall. FX TYPE selects one of CH/DL/TR.",
+          "dsp": "No pitch algorithm resource percentage or DSP meter published in checked sources. 160mA electrical consumption and nine amp choices are not CPU costs.",
+          "source_urls": [
+            "https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf",
+            "https://www.valeton.net/product/dapper-amp-mini/"
+          ],
+          "measurements": [],
+          "notes": [
+            "No-pitch-documented means no dedicated transposition algorithm established, not a claim that chorus contains no internal modulation.",
+            "Tuner sharp/flat detection mutes the signal; it does not establish automatic correction or harmony.",
+            "Do not transfer octave/chorus architecture from other Dapper models. No hardware/audio test or firmware execution performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://www.valeton.net/product/dapper-amp-mini/",
+            "title": "Valeton Dapper Amp Mini official product",
+            "access": "manufacturer search-index text read; direct page timed out",
+            "evidence": "Discontinued; nine amp sounds, chorus/delay/tremolo, reverb and cabinet simulation. Manual download only, no firmware number or launch date established."
+          },
+          {
+            "url": "https://www.valeton.net/firmware/",
+            "title": "Valeton official firmware index",
+            "access": "web page text read; dynamic visibility limited",
+            "evidence": "No exact-model Amp Mini package exposed in extracted text; not proof of full historical absence."
+          },
+          {
+            "url": "https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf",
+            "title": "Dapper Amp Mini official English V01 manual",
+            "access": "web two-page PDF text read",
+            "evidence": "FX alternatives and controls, AMP-only automatic channel save, muted tuner; no dedicated transposer or CPU cost. Cabinet-simulation diagram/prose conflict remains separate."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Valeton::Dapper Amp Mini",
       "Valeton::Dapper Bass Mini MES-2",
       "Valeton::Dapper Bass VES-2",
       "Valeton::Dapper Dark Mini",
@@ -202731,12 +202793,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 301,
-    "last_model": "Valeton::Dapper Acoustic Mini",
-    "last_commit_parent": "24b4e66d01c16b3ea70faf622df07ec97aeffdb8",
+    "completed_model_count": 302,
+    "last_model": "Valeton::Dapper Amp Mini",
+    "last_commit_parent": "499eb562a7bc2f60d79280b97f9b06ce5962ca80",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Valeton::Dapper Amp Mini",
       "Valeton::Dapper Bass Mini MES-2",
       "Valeton::Dapper Bass VES-2",
       "Valeton::Dapper Dark Mini",
@@ -202838,7 +202899,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 301,
+    "pitch_completed_model_count": 302,
     "supplemental_model_count": 0
   },
   "model_images": {
