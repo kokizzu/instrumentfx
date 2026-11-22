@@ -274,6 +274,26 @@ Sources checked:
 
 <!-- firmware-pitch:Behringer::DSP2024P ends -->
 
+<!-- model-images:Behringer::DSP2024P begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Behringer DSP2024P — front control panel**
+
+[![Behringer DSP2024P — front control panel](https://i.ebayimg.com/images/g/hVYAAOSwsEVmlFNP/s-l1200.jpg)](https://i.ebayimg.com/images/g/hVYAAOSwsEVmlFNP/s-l1200.jpg)
+
+[Image source](https://www.ebay.com/itm/387199301846). Powered elevated front view with red preset display visible. Rack controls face forward; this is not an exact top-down control-panel view. Both front edges are cropped and the rightmost power switch is not shown; an uncropped powered front replacement remains pending.
+
+**Behringer DSP2024P — rear connections**
+
+[![Behringer DSP2024P — rear connections](https://medias.audiofanzine.com/images/normal/behringer-virtualizer-pro-dsp2024p-6628621.jpeg)](https://medias.audiofanzine.com/images/normal/behringer-virtualizer-pro-dsp2024p-6628621.jpeg)
+
+[Image source](https://fr.audiofanzine.com/multieffet/behringer/virtualizer-pro-dsp2024p/). Elevated full rear view with IEC power/fuse inlet, MIDI OUT/THRU/IN and both channels of balanced XLR and quarter-inch inputs/outputs with operating-level switches. All connectors and their labels are visible.
+
+</details>
+<!-- model-images:Behringer::DSP2024P ends -->
+
+
 VIRTUALIZER PRO rack multi-effects; distinct from FX2000/DSP1024P. Checked2026-10-18; partial. [Manufacturer legacy identity](https://www.behringer.com/en/products/0828-AAB). Own manual Version1.2,September2004 identifies DSP2024P; mirror body used because the PDF text extraction was garbled. Generated summaries/FAQ excluded. Ownership unverified.
 
 <!-- comparison evidence begins -->
