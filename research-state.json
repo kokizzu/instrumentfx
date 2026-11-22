@@ -219849,11 +219849,36 @@
             "sha256": "9a5ed83642b0591ca22fee35cb05ecfcacec8c2cfc094b024545ec181ef23a93"
           }
         }
+      },
+      "BOSS::KATANA:GO": {
+        "model_key": "BOSS::KATANA:GO",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/products/katana-go/image/katana-go_gal_top.jpg",
+            "source_url": "https://www.boss.info/global/products/katana-go/",
+            "caption": "BOSS KATANA:GO — control surface",
+            "note": "Manufacturer top-down view with powered OLED reading 1-A BROWN LEAD and unfolded instrument plug. Side controls are documented in the [A/B/C and tuner side view](https://static.roland.com/products/katana-go/image/katana-go_gal_03.jpg) and [power, volume, Bluetooth and Stage Feel side view](https://static.roland.com/products/katana-go/image/katana-go_gal_04.jpg). Both linked images visually checked. Current manufacturer gallery shows the revised enclosure.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "1a032e0f6949c25f82f6be8e1297d6c3dc7cd1966fe5c9c92603c77eea86a4f1"
+          },
+          "rear": {
+            "image_url": "https://static.roland.com/products/katana-go/image/katana-go_gal_05.jpg",
+            "source_url": "https://www.boss.info/global/products/katana-go/",
+            "caption": "BOSS KATANA:GO — connections",
+            "note": "Manufacturer end-panel close-up clearly showing the headphone socket and USB-C port. Instrument input is the integrated folding plug shown above; this pocket unit does not have a floorboard-style rear connector row.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "f59fa4b986675b63d82413c292468156059adc77def9649cc4151dcd1164afb7"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::SE-50"
+    "last_model": "BOSS::KATANA:GO"
   }
 }

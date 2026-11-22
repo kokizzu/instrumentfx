@@ -4832,6 +4832,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::KATANA:GO ends -->
 
+<!-- model-images:BOSS::KATANA:GO begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS KATANA:GO — control surface**
+
+[![BOSS KATANA:GO — control surface](https://static.roland.com/products/katana-go/image/katana-go_gal_top.jpg)](https://static.roland.com/products/katana-go/image/katana-go_gal_top.jpg)
+
+[Image source](https://www.boss.info/global/products/katana-go/). Manufacturer top-down view with powered OLED reading 1-A BROWN LEAD and unfolded instrument plug. Side controls are documented in the [A/B/C and tuner side view](https://static.roland.com/products/katana-go/image/katana-go_gal_03.jpg) and [power, volume, Bluetooth and Stage Feel side view](https://static.roland.com/products/katana-go/image/katana-go_gal_04.jpg). Both linked images visually checked. Current manufacturer gallery shows the revised enclosure.
+
+**BOSS KATANA:GO — connections**
+
+[![BOSS KATANA:GO — connections](https://static.roland.com/products/katana-go/image/katana-go_gal_05.jpg)](https://static.roland.com/products/katana-go/image/katana-go_gal_05.jpg)
+
+[Image source](https://www.boss.info/global/products/katana-go/). Manufacturer end-panel close-up clearly showing the headphone socket and USB-C port. Instrument input is the integrated folding plug shown above; this pocket unit does not have a floorboard-style rear connector row.
+
+</details>
+<!-- model-images:BOSS::KATANA:GO ends -->
+
+
 Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Current product evidence below;BOSS says latest and earlier models have same sounds/features. Physical revision and seller “GO2” identity need corroboration.
 
 <!-- comparison evidence begins -->
