@@ -3485,6 +3485,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::G1 FOUR ends -->
 
+<!-- model-images:Zoom::G1 FOUR begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**G1 FOUR powered control face**
+
+[![G1 FOUR powered control face](https://cdn-ak.f.st-hatena.com/images/fotolife/j/jundrive3/20221119/20221119150930.jpg)](https://cdn-ak.f.st-hatena.com/images/fotolife/j/jundrive3/20221119/20221119150930.jpg)
+
+[Image source](https://www.effectornote.com/entry/2022/11/20/124155). Actual powered no-treadle G1 FOUR, complete chassis photographed obliquely from above. LCD backlight and bank/effect1 LED are visibly lit; screen text is overexposed. Four rotary controls,nine pushbuttons and two footswitch pads are visible. A perpendicular top-down powered image remains pending; cropped closeups were rejected as full overviews.
+
+**G1 FOUR rear connections**
+
+[![G1 FOUR rear connections](https://cdn-ak.f.st-hatena.com/images/fotolife/j/jundrive3/20221119/20221119151413.jpg)](https://cdn-ak.f.st-hatena.com/images/fotolife/j/jundrive3/20221119/20221119151413.jpg)
+
+[Image source](https://www.effectornote.com/entry/2022/11/20/124155). Actual full rear photograph of exact no-treadle G1 FOUR: INPUT,AUX IN,center-negative DC9V,micro-USB/DC5V,security slot and OUTPUT. No CONTROL IN or external expression connector is present in this panel. Full rear replaces the rejected manufacturer crop that omitted INPUT.
+
+</details>
+<!-- model-images:Zoom::G1 FOUR ends -->
+
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- ZOOM-G1-FOUR source begins -->

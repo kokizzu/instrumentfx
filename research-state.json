@@ -215146,11 +215146,36 @@
             "powered_on": false
           }
         }
+      },
+      "Zoom::G1 FOUR": {
+        "model_key": "Zoom::G1 FOUR",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://cdn-ak.f.st-hatena.com/images/fotolife/j/jundrive3/20221119/20221119150930.jpg",
+            "source_url": "https://www.effectornote.com/entry/2022/11/20/124155",
+            "caption": "G1 FOUR powered control face",
+            "note": "Actual powered no-treadle G1 FOUR, complete chassis photographed obliquely from above. LCD backlight and bank/effect1 LED are visibly lit; screen text is overexposed. Four rotary controls,nine pushbuttons and two footswitch pads are visible. A perpendicular top-down powered image remains pending; cropped closeups were rejected as full overviews.",
+            "visual_checked": true,
+            "sha256": "37773331e7061d076d059502b9a0a40bc5d8df187004249eb08f191257064ea4",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://cdn-ak.f.st-hatena.com/images/fotolife/j/jundrive3/20221119/20221119151413.jpg",
+            "source_url": "https://www.effectornote.com/entry/2022/11/20/124155",
+            "caption": "G1 FOUR rear connections",
+            "note": "Actual full rear photograph of exact no-treadle G1 FOUR: INPUT,AUX IN,center-negative DC9V,micro-USB/DC5V,security slot and OUTPUT. No CONTROL IN or external expression connector is present in this panel. Full rear replaces the rejected manufacturer crop that omitted INPUT.",
+            "visual_checked": true,
+            "sha256": "29b2e94b96c70ccdd300e7a488ff2faf897670946dd06b93f99d0a45bcad903c",
+            "powered_on": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B6"
+    "last_model": "Zoom::G1 FOUR"
   }
 }
