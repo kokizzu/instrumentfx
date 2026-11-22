@@ -6381,6 +6381,26 @@ Sources checked:
 
 <!-- firmware-pitch:BOSS::MS-3 ends -->
 
+<!-- model-images:BOSS::MS-3 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**BOSS MS-3 — control surface**
+
+[![BOSS MS-3 — control surface](https://static.roland.com/assets/images/products/main/ms-3_main.jpg)](https://static.roland.com/assets/images/products/main/ms-3_main.jpg)
+
+[Image source](https://www.boss.info/global/products/ms-3/). Manufacturer top-down view with illuminated display, effect indicators and blue footswitch indicators; complete three knobs, panel buttons and five footswitches. Small 600-pixel-wide source limits fine-label readability.
+
+**BOSS MS-3 — rear connections**
+
+[![BOSS MS-3 — rear connections](https://medias.audiofanzine.com/images/normal/boss-ms-3-switcher-multi-effets-6785706.jpg)](https://medias.audiofanzine.com/images/normal/boss-ms-3-switcher-multi-effets-6785706.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/boss/ms-3-switcher-multi-effets/). Slightly elevated rear photograph with all sockets and labels visible: input, three send/return loops, stereo outputs, control out, two expression/control inputs, USB, MIDI OUT, power switch and DC IN. The box behind the unit repeats the connector artwork.
+
+</details>
+<!-- model-images:BOSS::MS-3 ends -->
+
+
 Effects-only guitar/bass multi-effects with loop switching, checked2026-10-18; partial. Ownership unverified. [MS3-P]
 
 Summary reconciled **2026-11-04** with the retained dated findings below. Earlier sources, prices, contradictions and unresolved limits remain intact; this is not a complete fresh model audit.
