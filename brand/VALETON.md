@@ -881,11 +881,11 @@ Sources checked:
 
 [Image source](https://shop.valeton.net/products/dapper-mini). Visually 10 rotary controls, 3 footswitches and one OD/DIST toggle. DELAY/CHORUS/DRIVE labels distinguish MES-1 layout. Unlit tuner/status strip; slight perspective, so powered-on strict perpendicular overhead remains pending.
 
-**Angled Dapper Mini connector-edge stock photograph.**
+**Dapper Mini MES-1 straight connector-panel photograph**
 
-[![Angled Dapper Mini connector-edge stock photograph.](https://shop.valeton.net/cdn/shop/products/DapperMini_Rear_Perspective_Hi_V01_161213_1500x.png?v=1641360454)](https://shop.valeton.net/cdn/shop/products/DapperMini_Rear_Perspective_Hi_V01_161213_1500x.png?v=1641360454)
+[![Dapper Mini MES-1 straight connector-panel photograph](https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/20041/69541/494590-Valeton-MES-1-Dapper-Mini-Effect-Strip-Top__45223.1716303269.jpg?c=1)](https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/20041/69541/494590-Valeton-MES-1-Dapper-Mini-Effect-Strip-Top__45223.1716303269.jpg?c=1)
 
-[Image source](https://shop.valeton.net/products/dapper-mini). Visible 9V DC input, quarter-inch IN and OUT and smaller PHONES socket. DC polarity/current not legible here. No other connector visible on this edge; not a complete all-edge absence audit. Unlit exact-model stock unit, no live operating test.
+[Image source](https://www.andertons.co.uk/valeton-dapper-mini-multi-fx-pedal-strip/). Complete straight connector panel with legible9VDC,IN,PHONES andOUT labels. Barrel power socket, two quarter-inch audio sockets and smaller headphone socket are unplugged. Three footswitches and ten knob caps visible above confirm Mini layout. No polarity or current rating readable in this view; no numerical power requirement inferred. [Previous angled rear view](https://shop.valeton.net/cdn/shop/products/DapperMini_Rear_Perspective_Hi_V01_161213_1500x.png?v=1641360454).
 
 </details>
 <!-- model-images:Valeton::Dapper Mini MES-1 ends -->
