@@ -205411,11 +205411,69 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::505 original": {
+        "model_key": "Zoom::505 original",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "1996",
+          "precision": "year",
+          "kind": "manufacturer product-history release year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Zoom corporate history lists original505GUITAR under1996. Exact announcement/first shipment day unresolved;505II is a separate model."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://www.zoom.co.jp/products/effects-preamps/guitar/505-guitar-compact-multi-series",
+            "https://zoomcorp.com/media/documents/E_505.pdf"
+          ],
+          "note": "Original505 archived product/manual sources inspected; no public device updater/changelog found. No USB/MIDI update interface in complete published connectors. This is not proof of no internal ROM revisions; latest system revision/date unknown. Patch restoration and manual505-5000 print code are not firmware releases."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "MOD PitchShift P1–P9 offers octave-down/up,fifth-down,fourth-up,detune,dual-voice and pitch+chorus patterns. Optional FP01 provides pedal pitch down to two octaves below or harmony up to one octave above. Dual output voices do not establish polyphonic audio input.",
+          "preset": "24factory-filled editable patch locations,six banks×four; not24+24. Pitch type/settings stored per patch. Pedal-pitch selection overrides FP01 volume function; no global volume-only override established.",
+          "dsp": "No per-pitch DSP percentage published. Seven fixed modules/up to nine simultaneous effects are architecture limits, not a pitch CPU percentage or freely assignable block count. ZFx-2 processor branding does not quantify unused resources.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_505.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Exact original505 English505-5000 scope; no505II algorithm/firmware transfer. Existing language-manual battery/converter discrepancies remain unresolved."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official timeline read,1996 product group",
+            "evidence": "Original505GUITAR appears under1996, distinct from later505II."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_505.pdf",
+            "title": "Zoom505Guitar Operation Manual505-5000",
+            "access": "official six-sheet PDF read,PitchShift/control and storage sections",
+            "evidence": "Fixed/pedal pitch patterns,24editable patches and module limits; no polyphonic-input guarantee or pitchDSP%."
+          },
+          {
+            "url": "https://www.zoom.co.jp/products/effects-preamps/guitar/505-guitar-compact-multi-series",
+            "title": "Zoom archived original505 product/download page",
+            "access": "official archived page and indexed download entry inspected",
+            "evidence": "Own505 English manual listing; no exact public device updater/changelog located."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
       "Zoom::1201",
-      "Zoom::505 original",
       "Zoom::505II",
       "Zoom::506II",
       "Zoom::606",
@@ -205478,13 +205536,12 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 340,
-    "last_model": "Yamaha::SPX990",
-    "last_commit_parent": "e7b897dd713877e669f0cafa4980fe6ea2fcf449",
+    "completed_model_count": 341,
+    "last_model": "Zoom::505 original",
+    "last_commit_parent": "ca1593d8713f71bb45fec7f48b6ea9ebd9bcaf95",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
       "Zoom::1201",
-      "Zoom::505 original",
       "Zoom::505II",
       "Zoom::506II",
       "Zoom::606",
@@ -205546,7 +205603,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 340,
+    "pitch_completed_model_count": 341,
     "supplemental_model_count": 0
   },
   "model_images": {

@@ -80,6 +80,30 @@ Canonical root-level brand document. New research is added here, not to dated fi
 
 ## 505 original
 
+<!-- firmware-pitch:Zoom::505 original begins -->
+### Firmware and pitch audit — Zoom 505 original
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 1996 (manufacturer product-history release year). Zoom corporate history lists original505GUITAR under1996. Exact announcement/first shipment day unresolved;505II is a separate model. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Original505 archived product/manual sources inspected; no public device updater/changelog found. No USB/MIDI update interface in complete published connectors. This is not proof of no internal ROM revisions; latest system revision/date unknown. Patch restoration and manual505-5000 print code are not firmware releases. [firmware 1](https://www.zoom.co.jp/products/effects-preamps/guitar/505-guitar-compact-multi-series) [firmware 2](https://zoomcorp.com/media/documents/E_505.pdf) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. MOD PitchShift P1–P9 offers octave-down/up,fifth-down,fourth-up,detune,dual-voice and pitch+chorus patterns. Optional FP01 provides pedal pitch down to two octaves below or harmony up to one octave above. Dual output voices do not establish polyphonic audio input. [pitch 1](https://zoomcorp.com/media/documents/E_505.pdf) |
+| Pitch / preset recall | 24factory-filled editable patch locations,six banks×four; not24+24. Pitch type/settings stored per patch. Pedal-pitch selection overrides FP01 volume function; no global volume-only override established. |
+| Pitch / DSP resources | No per-pitch DSP percentage published. Seven fixed modules/up to nine simultaneous effects are architecture limits, not a pitch CPU percentage or freely assignable block count. ZFx-2 processor branding does not quantify unused resources. |
+| Pitch / qualifications | Exact original505 English505-5000 scope; no505II algorithm/firmware transfer. Existing language-manual battery/converter discrepancies remain unresolved. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — Original505GUITAR appears under1996, distinct from later505II. (official timeline read,1996 product group).
+- [Zoom505Guitar Operation Manual505-5000](https://zoomcorp.com/media/documents/E_505.pdf) — Fixed/pedal pitch patterns,24editable patches and module limits; no polyphonic-input guarantee or pitchDSP%. (official six-sheet PDF read,PitchShift/control and storage sections).
+- [Zoom archived original505 product/download page](https://www.zoom.co.jp/products/effects-preamps/guitar/505-guitar-compact-multi-series) — Own505 English manual listing; no exact public device updater/changelog located. (official archived page and indexed download entry inspected).
+
+<!-- firmware-pitch:Zoom::505 original ends -->
+
 Partial record, checked 2026-10-18. Original 505 GUITAR; separate from 505II and 505A. Ownership and exact seller-unit revision unverified.
 
 | Field | Evidence / qualification |
