@@ -218750,11 +218750,27 @@
             "sha256": "1d2a6f5dc69df6dabe10912d8866e8761ef69cf9439120ea9e26774e64fbf018"
           }
         }
+      },
+      "Zoom::RFX-2200": {
+        "model_key": "Zoom::RFX-2200",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://zoomcorp.com/media/original_images/RFX2200_front_web.jpg.1600x900_q65_crop_size_canvas.jpg",
+            "source_url": "https://zoomcorp.com/en/us/digital-mixer-multi-track-recorders/multi-track-recorders/rxf-2200/",
+            "caption": "RFX-2200 front control panel",
+            "note": "Manufacturer complete front-on control face with lit red numeric display and status LEDs. Eight rotary controls, patch/edit keys, microphone combo input, mic switch and power switch visible. Rack controls face forward; not a top-down chassis view. Promotional illumination is not independently verified. Rear photograph remains pending: the eBay candidate showed the top cover, and Reverb photographs could not be retrieved (HTTP 401).",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "252d972d4e4fab46a0894814705919ef8c9d1102fb4d66630541209d692070be"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::RFX-2000"
+    "last_model": "Zoom::RFX-2200"
   }
 }

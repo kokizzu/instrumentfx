@@ -10137,6 +10137,22 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::RFX-2200 ends -->
 
+<!-- model-images:Zoom::RFX-2200 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**RFX-2200 front control panel**
+
+[![RFX-2200 front control panel](https://zoomcorp.com/media/original_images/RFX2200_front_web.jpg.1600x900_q65_crop_size_canvas.jpg)](https://zoomcorp.com/media/original_images/RFX2200_front_web.jpg.1600x900_q65_crop_size_canvas.jpg)
+
+[Image source](https://zoomcorp.com/en/us/digital-mixer-multi-track-recorders/multi-track-recorders/rxf-2200/). Manufacturer complete front-on control face with lit red numeric display and status LEDs. Eight rotary controls, patch/edit keys, microphone combo input, mic switch and power switch visible. Rack controls face forward; not a top-down chassis view. Promotional illumination is not independently verified. Rear photograph remains pending: the eBay candidate showed the top cover, and Reverb photographs could not be retrieved (HTTP 401).
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:Zoom::RFX-2200 ends -->
+
+
 Checked2026-10-17;partial. Separate discontinued rack multi-effects,notRFX-2000. [Manufacturer][R2200-P]. Ownership unverified;guitar/vocal classification from ownmanual,not marketplace title. Bass suitability unresolved.
 
 | Field | Evidence / qualification |
