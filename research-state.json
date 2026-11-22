@@ -208242,10 +208242,78 @@
           "label": "2.33–3.41 years"
         },
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::G3X": {
+        "model_key": "Zoom::G3X",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2012",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Official chronology lists G3X under 2012, separately from original G3 (2011). Shared firmware history includes older G3-only production dates; those do not date G3X hardware."
+        },
+        "firmware": {
+          "version": "2.10",
+          "date": "2013-05",
+          "precision": "month",
+          "status": "verified_latest",
+          "source_urls": [
+            "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3x/g3x-support/",
+            "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E_0.pdf"
+          ],
+          "note": "Current exact G3X Windows/Mac 2.10 matches shared May 2013 history: rhythm hi-hat/tempo fix and Windows 8/USB 3.0 host support. Earlier 2.00 June 2012 adds six-effect operation, auto-save toggle and amp models. Earlier 2011 entries predate G3X hardware and concern the shared G3 lineage. USB host compatibility does not mean USB3 transfer speed."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "PitchSHFT spans −12…+12,+24 semitones with ±25-cent Fine. MonoPitch and PDL MnPit explicitly target single notes; HPS follows key/scale. PDL Pitch offers nine mappings. Generic pitch chord polyphony remains unverified.",
+          "preset": "100 patch memories retain effect parameters and states. G3X built-in expression pedal supports patch-specific destination/endpoints and AUTO ASSIGN for multiple compatible effects; the toe switch toggles the assigned effect. External FP01/FP02 via CONTROL IN can control volume. G3X is distinct from the pedal-less G3 and newer G3Xn.",
+          "dsp": "Firmware 2.00+ allows six effects within DSP capacity. DSP Full bypasses an overloaded effect; replace effects or use THRU. Off effects consume the same DSP as on. No exact per-pitch percentage located; six slots are not fixed CPU shares.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "Documentation only; no firmware installation or hardware CPU/tracking test."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official chronology inspected",
+            "evidence": "G3X listed under 2012, distinct from G3 under 2011."
+          },
+          {
+            "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3x/g3x-support/",
+            "title": "G3X support",
+            "access": "official current exact-model package list inspected",
+            "evidence": "G3/G3X 2.10 Windows/Mac; separate Edit&Share and ASIO driver."
+          },
+          {
+            "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E_0.pdf",
+            "title": "G3/G3X system firmware history",
+            "access": "official PDF read",
+            "evidence": "2.10 May 2013; 2.00 June 2012; 1.12 December 2011; 1.00 May 2011 mass production."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+            "title": "G3/G3X operation manual",
+            "access": "official PDF pages 3,10,16–19,51,55 inspected",
+            "evidence": "100 patches; G3X built-in expression and toe switch, patch-specific destinations/endpoints and AUTO ASSIGN; external pedal volume; pitch algorithms and DSP restrictions."
+          }
+        ],
+        "duration": {
+          "minimum_days": 121,
+          "maximum_days": 516,
+          "label": "0.33–1.41 years"
+        },
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::G3X",
       "Zoom::G3Xn",
       "Zoom::G5",
       "Zoom::G5n",
@@ -208272,12 +208340,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 377,
-    "last_model": "Zoom::G3n",
-    "last_commit_parent": "1b93a3617cac7f97bcabcb0493b4485da275e5fc",
+    "completed_model_count": 378,
+    "last_model": "Zoom::G3X",
+    "last_commit_parent": "7b8f58786e5127ea1aa5f53274ae5075b6b5a31c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::G3X",
       "Zoom::G3Xn",
       "Zoom::G5",
       "Zoom::G5n",
@@ -208303,7 +208370,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 377,
+    "pitch_completed_model_count": 378,
     "supplemental_model_count": 0
   },
   "model_images": {
