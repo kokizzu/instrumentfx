@@ -1773,6 +1773,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::GP-100 ends -->
 
+<!-- model-images:Valeton::GP-100 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Near-overhead GP-100 manufacturer image with displayed preset screen.**
+
+[![Near-overhead GP-100 manufacturer image with displayed preset screen.](https://shop.valeton.net/cdn/shop/products/GP-100_Front_WithScreen_Hi_V02_200603_1500x.png?v=1641369696)](https://shop.valeton.net/cdn/shop/products/GP-100_Front_WithScreen_Hi_V02_200603_1500x.png?v=1641369696)
+
+[Image source](https://shop.valeton.net/products/gp-100). Stock cutout displays P01 It is GP-100 screen artwork; independent powered hardware is not verified. Slight perspective/rear jacks visible, so strict powered-on overhead remains pending. Visually4 rotary controls,2 footswitches,5 separate buttons and built-in expression treadle. No firmware version inferred from preset screen.
+
+**GP-100 rear connector stock photograph.**
+
+[![GP-100 rear connector stock photograph.](https://shop.valeton.net/cdn/shop/products/GP-100_Top_Hi_V01_191106_1500x.png?v=1641369704)](https://shop.valeton.net/cdn/shop/products/GP-100_Top_Hi_V01_191106_1500x.png?v=1641369704)
+
+[Image source](https://shop.valeton.net/products/gp-100). Visible quarter-inch INPUT,R OUTPUT,L(MONO),smaller AUX IN and PHONES,USB Type-B and center-negative DC9V500mA socket. DC label is supply requirement,not measured current or USB bus-power evidence. No extra connection on this photographed edge; no all-edge absence or operating test.
+
+</details>
+<!-- model-images:Valeton::GP-100 ends -->
+
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- VALETON-GP-100 source begins -->

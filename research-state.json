@@ -209941,11 +209941,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Valeton::GP-100": {
+        "model_key": "Valeton::GP-100",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/GP-100_Front_WithScreen_Hi_V02_200603_1500x.png?v=1641369696",
+            "source_url": "https://shop.valeton.net/products/gp-100",
+            "caption": "Near-overhead GP-100 manufacturer image with displayed preset screen.",
+            "note": "Stock cutout displays P01 It is GP-100 screen artwork; independent powered hardware is not verified. Slight perspective/rear jacks visible, so strict powered-on overhead remains pending. Visually4 rotary controls,2 footswitches,5 separate buttons and built-in expression treadle. No firmware version inferred from preset screen.",
+            "visual_checked": true,
+            "sha256": "1028b26847d4c2dffa2e09fe6277cb2c07717deb8d90aeea6a0a4f52ff5b97db",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://shop.valeton.net/cdn/shop/products/GP-100_Top_Hi_V01_191106_1500x.png?v=1641369704",
+            "source_url": "https://shop.valeton.net/products/gp-100",
+            "caption": "GP-100 rear connector stock photograph.",
+            "note": "Visible quarter-inch INPUT,R OUTPUT,L(MONO),smaller AUX IN and PHONES,USB Type-B and center-negative DC9V500mA socket. DC label is supply requirement,not measured current or USB bus-power evidence. No extra connection on this photographed edge; no all-edge absence or operating test.",
+            "visual_checked": true,
+            "sha256": "61975398a4b20ca1ba07ce26df996f737731b274b245640910006771c1a2da1b",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper VES-1"
+    "last_model": "Valeton::GP-100"
   }
 }
