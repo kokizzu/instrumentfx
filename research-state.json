@@ -202143,10 +202143,90 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "TC-Helicon::VoiceLive Play": {
+        "model_key": "TC-Helicon::VoiceLive Play",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2012-01",
+          "precision": "month",
+          "kind": "manufacturer retrospective release month",
+          "source_urls": [
+            "https://hexus.net/ce/items/audio-visual/47901-tc-helicon-releases-free-update-voicelive-play-offering-more-presets-more-control/",
+            "https://www.youtube.com/watch?v=ymxVGiz_ttU"
+          ],
+          "note": "Manufacturer November 2012 press release explicitly says released in January 2012; official introduction video published January 17. Month retained rather than assuming exact first shipment day."
+        },
+        "firmware": {
+          "version": "1.5 / build 74 (independent developer compatibility claim)",
+          "date": null,
+          "precision": "unknown",
+          "status": "unverified",
+          "source_urls": [
+            "https://www.vlplay.link/",
+            "https://www.tchelicon.com/en/products/0726-AAZ",
+            "https://www.youtube.com/watch?v=m6j19MT5E90"
+          ],
+          "note": "VoiceLive Play Inspector developer distinguishes 1.4 B70 from 1.5 B74 for the original blue pedal. This is independent compatibility evidence, not manufacturer latest-release certification; app changelog dates are not firmware dates. Current manufacturer downloads list VoiceSupport host packages without numbered device firmware. Official November 2, 2012 More Play video confirms an earlier update, not the release date of B74."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "Vocal Harmony/Double, global auto-chromatic correction and HardTune. Original v1.0 manual specifies HardTune Shift ±12 semitones and Gender; seven tuning styles. No documented input-audio polyphony guarantee found. RoomSense/AUX chord guidance determines musical key, not chordal audio transposition.",
+          "preset": "Editable stored vocal presets and HIT effect states; Global Key can override per-preset key. No gapless pitch recall or current-build tracking test performed.",
+          "dsp": "No pitch-specific CPU percentage, resource meter or measured DSP allocation located. Pitch Cor Amt 50%/100% controls correction strength, not processor use. Seven named FX blocks plus Tone are not equal CPU shares.",
+          "source_urls": [
+            "https://www.fullcompass.com/common/files/16302-TCHeliconVoiceLivePlayUserManual.pdf",
+            "https://www.tchelicon.com/en/products/0726-AAZ"
+          ],
+          "measurements": [],
+          "notes": [
+            "Official More Play video specifies 60-second looping only in mono output mode with undo off; its 500 new presets are a downloadable pack, not proof of 500 onboard slots. Guitar Boost applies to GTX only.",
+            "Current direct manufacturer page lists 28 harmony/10 double/7 HardTune styles, agreeing with the later manual counts retained below. Earlier indexed MIDI-keyboard wording is not used as proof of DIN or note-input support. No hardware/firmware operation performed."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://hexus.net/ce/items/audio-visual/47901-tc-helicon-releases-free-update-voicelive-play-offering-more-presets-more-control/",
+            "title": "TC Helicon November 8, 2012 manufacturer press release",
+            "access": "Manufacturer-authored press release body read on original press-release host",
+            "evidence": "Explicit January 2012 release month and More Play update; downloadable pack separate from device capacity."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ymxVGiz_ttU",
+            "title": "TC Helicon official VoiceLive Play introduction",
+            "access": "Official indexed January 17, 2012 publication read",
+            "evidence": "Public introduction corroborates January release context, not precise first shipment."
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=m6j19MT5E90",
+            "title": "TC Helicon official More Play update demonstration",
+            "access": "Official indexed November 2, 2012 video description read",
+            "evidence": "60 seconds mono output/undo off; 500 downloadable presets; Switch-3 control; GTX-only guitar boost."
+          },
+          {
+            "url": "https://www.vlplay.link/",
+            "title": "Independent original-blue VoiceLive Play Inspector developer site",
+            "access": "Developer current page and indexed changelog read",
+            "evidence": "Firmware 1.4 B70 versus 1.5 B74 compatibility; independent claims, no manufacturer firmware release date."
+          },
+          {
+            "url": "https://www.tchelicon.com/en/products/0726-AAZ",
+            "title": "TC Helicon exact original VoiceLive Play product/downloads",
+            "access": "Direct current manufacturer page read; current body differs from older indexed overview",
+            "evidence": "28 harmony/10 doubling/7 HardTune styles; host utility downloads, no numbered device firmware."
+          },
+          {
+            "url": "https://www.fullcompass.com/common/files/16302-TCHeliconVoiceLivePlayUserManual.pdf",
+            "title": "Manufacturer-authored original VoiceLive Play v1.0 manual",
+            "access": "30-page original PDF read, printed pages 13 and 26",
+            "evidence": "Correction amount is effect strength; HardTune Shift ±12 semitones; no quantified DSP percentage or input-polyphony certification."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "TC-Helicon::VoiceLive Play",
       "TC-Helicon::VoiceLive Touch 2",
       "TC-Helicon::VoiceTone Create XT",
       "Tech 21::Acoustic Fly Rig",
@@ -202256,12 +202336,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 294,
-    "last_model": "TC-Helicon::VoiceLive 3 Extreme",
-    "last_commit_parent": "f58de31eef77e204cd97d868925f5d283a00d406",
+    "completed_model_count": 295,
+    "last_model": "TC-Helicon::VoiceLive Play",
+    "last_commit_parent": "f1c7d67f7dccbbee07cefaa69ba4512c3e28194c",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "TC-Helicon::VoiceLive Play",
       "TC-Helicon::VoiceLive Touch 2",
       "TC-Helicon::VoiceTone Create XT",
       "Tech 21::Acoustic Fly Rig",
@@ -202370,7 +202449,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 294,
+    "pitch_completed_model_count": 295,
     "supplemental_model_count": 0
   },
   "model_images": {

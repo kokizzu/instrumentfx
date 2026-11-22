@@ -1462,6 +1462,33 @@ Quick-guide provenance: manufacturer-authored multilingual VoiceLive3 Extreme qu
 
 ## VoiceLive Play
 
+<!-- firmware-pitch:TC-Helicon::VoiceLive Play begins -->
+### Firmware and pitch audit — TC-Helicon VoiceLive Play
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2012-01 (manufacturer retrospective release month). Manufacturer November 2012 press release explicitly says released in January 2012; official introduction video published January 17. Month retained rather than assuming exact first shipment day. [launch 1](https://hexus.net/ce/items/audio-visual/47901-tc-helicon-releases-free-update-voicelive-play-offering-more-presets-more-control/) [launch 2](https://www.youtube.com/watch?v=ymxVGiz_ttU) |
+| Firmware / latest verification | 1.5 / build 74 (independent developer compatibility claim) — Unverified. VoiceLive Play Inspector developer distinguishes 1.4 B70 from 1.5 B74 for the original blue pedal. This is independent compatibility evidence, not manufacturer latest-release certification; app changelog dates are not firmware dates. Current manufacturer downloads list VoiceSupport host packages without numbered device firmware. Official November 2, 2012 More Play video confirms an earlier update, not the release date of B74. [firmware 1](https://www.vlplay.link/) [firmware 2](https://www.tchelicon.com/en/products/0726-AAZ) [firmware 3](https://www.youtube.com/watch?v=m6j19MT5E90) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. Vocal Harmony/Double, global auto-chromatic correction and HardTune. Original v1.0 manual specifies HardTune Shift ±12 semitones and Gender; seven tuning styles. No documented input-audio polyphony guarantee found. RoomSense/AUX chord guidance determines musical key, not chordal audio transposition. [pitch 1](https://www.fullcompass.com/common/files/16302-TCHeliconVoiceLivePlayUserManual.pdf) [pitch 2](https://www.tchelicon.com/en/products/0726-AAZ) |
+| Pitch / preset recall | Editable stored vocal presets and HIT effect states; Global Key can override per-preset key. No gapless pitch recall or current-build tracking test performed. |
+| Pitch / DSP resources | No pitch-specific CPU percentage, resource meter or measured DSP allocation located. Pitch Cor Amt 50%/100% controls correction strength, not processor use. Seven named FX blocks plus Tone are not equal CPU shares. |
+| Pitch / qualifications | Official More Play video specifies 60-second looping only in mono output mode with undo off; its 500 new presets are a downloadable pack, not proof of 500 onboard slots. Guitar Boost applies to GTX only. Current direct manufacturer page lists 28 harmony/10 double/7 HardTune styles, agreeing with the later manual counts retained below. Earlier indexed MIDI-keyboard wording is not used as proof of DIN or note-input support. No hardware/firmware operation performed. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [TC Helicon November 8, 2012 manufacturer press release](https://hexus.net/ce/items/audio-visual/47901-tc-helicon-releases-free-update-voicelive-play-offering-more-presets-more-control/) — Explicit January 2012 release month and More Play update; downloadable pack separate from device capacity. (Manufacturer-authored press release body read on original press-release host).
+- [TC Helicon official VoiceLive Play introduction](https://www.youtube.com/watch?v=ymxVGiz_ttU) — Public introduction corroborates January release context, not precise first shipment. (Official indexed January 17, 2012 publication read).
+- [TC Helicon official More Play update demonstration](https://www.youtube.com/watch?v=m6j19MT5E90) — 60 seconds mono output/undo off; 500 downloadable presets; Switch-3 control; GTX-only guitar boost. (Official indexed November 2, 2012 video description read).
+- [Independent original-blue VoiceLive Play Inspector developer site](https://www.vlplay.link/) — Firmware 1.4 B70 versus 1.5 B74 compatibility; independent claims, no manufacturer firmware release date. (Developer current page and indexed changelog read).
+- [TC Helicon exact original VoiceLive Play product/downloads](https://www.tchelicon.com/en/products/0726-AAZ) — 28 harmony/10 doubling/7 HardTune styles; host utility downloads, no numbered device firmware. (Direct current manufacturer page read; current body differs from older indexed overview).
+- [Manufacturer-authored original VoiceLive Play v1.0 manual](https://www.fullcompass.com/common/files/16302-TCHeliconVoiceLivePlayUserManual.pdf) — Correction amount is effect strength; HardTune Shift ±12 semitones; no quantified DSP percentage or input-polyphony certification. (30-page original PDF read, printed pages 13 and 26).
+
+<!-- firmware-pitch:TC-Helicon::VoiceLive Play ends -->
+
 Blue VoiceLive Play vocal processor, not GTX or Play Acoustic. Consolidated **2026-10-17**; complete original findings and supporting facts retain their original technical dates. Current firmware remains unverified.
 
 <!-- SCORPION-VoiceLive Play source begins -->
