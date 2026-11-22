@@ -217739,11 +217739,36 @@
             "sha256": "86313580cd0b42e43ae3cd082a8f6ed8e65381c2caa977e00c4bd92cf5d0a3e2"
           }
         }
+      },
+      "Zoom::MS-50G Plus": {
+        "model_key": "Zoom::MS-50G Plus",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://www.gitarrebass.de/app/uploads/2025/04/Zoom-MultiStomp_MS-50-G_.jpg",
+            "source_url": "https://www.gitarrebass.de/equipment/volle-breitseite-zoom-multistomp-pedale-im-test/",
+            "caption": "MS-50G+ control face",
+            "note": "Actual complete powered MS-50G+ photographed for a magazine review: green VINTAGE FLANGER LCD and illuminated red status LED. Four encoder knobs, four cross-key switches and central footswitch are unobstructed. This is an angled overhead view; a perpendicular top-down replacement remains pending.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "604f20e2ababa780e843025f253423b36d0a882879b58dcf1d52d2f312b66e7a"
+          },
+          "rear": {
+            "image_url": "https://zoomcorp.com/media/images/powerUp_inset_1.width-800.png",
+            "source_url": "https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-50gplus/",
+            "caption": "MS-50G+ rear connections",
+            "note": "Official complete rear view shows the center-negative DC9V adapter socket and USB Type-C socket marked DC5V. The small round feature below USB is not an additional power socket. Audio input and L/MONO/R outputs are on the side panels, outside this rear view.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "a3602340c33611af7e3d6a5759bc9ff4acce1cc6af507dfabb3e19c9e1c4425c"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::MS-50G"
+    "last_model": "Zoom::MS-50G Plus"
   }
 }
