@@ -1145,6 +1145,31 @@ No automatic vocal membership from acoustic-instrument mic support. Resolve exte
 
 ## A2
 
+<!-- firmware-pitch:Zoom::A2 begins -->
+### Firmware and pitch audit — Zoom A2
+
+| Field | Sourced finding |
+|---|---|
+| Firmware / first hardware release | 2005 (manufacturer product-history year). Zoom lists A2 under 2005 separately from A2.1u; month/day not established. Manual production dates are not shipment dates. [launch 1](https://ir.zoom.co.jp/en/corporate/history/) |
+| Firmware / latest verification | Not verified — No public firmware located. Exact-model support page lists the operation manual only; no public firmware version, package or release date located. Discontinued status is not a firmware date. A2.1u and AC-2 updates do not apply. [firmware 1](https://zoomcorp.com/en/jp/multi-effects/acoustic/a2/a2-operation-manual/) [firmware 2](https://zoomcorp.com/en/jp/multi-effects/acoustic/a2/) |
+| Firmware / release date | Not verified (unknown precision) |
+| Firmware / release-to-update duration | Not calculable from verified dates; observed release span, not continuous support or promised future updates. |
+| Firmware / audit date | 2026-11-22; [firmware recap](../FIRMWARE-UPDATES.md). |
+| Pitch / note handling | Pitch present; polyphony unverified. DETUNE mixes a shifted component with dry audio; DEPTH −15…+15, TONE and MIX. DEPTH is not documented as semitones. Chorus variants also use pitch modulation. No selectable semitone transposer, octave or harmony algorithm is listed; polyphonic tracking is not specified. [pitch 1](https://zoomcorp.com/media/documents/E_A2.pdf) |
+| Pitch / preset recall | 40 user plus 40 read-only preset patches. FP01/FP02 expression assignment is saved per patch; in bypass it always controls volume. |
+| Pitch / DSP resources | No per-effect DSP percentage published. Detune occupies the MOD/EFX module, excluding its other effect choices. Up to eight fixed serial modules can operate together; this is not eight freely assignable detuners. |
+| Pitch / qualifications | No hardware tracking or CPU measurement; no A2.1u features transferred. |
+| Pitch / comparison | [Polyphony, presets and DSP recap](../PITCH-SHIFTING.md). |
+
+Sources checked:
+
+- [Zoom corporate product history](https://ir.zoom.co.jp/en/corporate/history/) — A2 and A2.1u separately grouped under 2005. (official product chronology inspected).
+- [Zoom A2 support and downloads](https://zoomcorp.com/en/jp/multi-effects/acoustic/a2/a2-operation-manual/) — Operation manual only; no public firmware package listed. (official exact-model list read).
+- [Zoom A2 product page](https://zoomcorp.com/en/jp/multi-effects/acoustic/a2/) — A2 acoustic effects pedal, discontinued, exact-model support link. (official page read).
+- [Zoom A2 operation manual](https://zoomcorp.com/media/documents/E_A2.pdf) — Detune and chorus pitch modulation; no general transposer listed. Fixed modules and patch/expression rules; no CPU percentage. (official PDF pp22–25,29–31,35 inspected).
+
+<!-- firmware-pitch:Zoom::A2 ends -->
+
 Acoustic-guitar multi-effects;partial,checked2026-10-18. Distinct fromA2.1u. [Own manufacturer manual](https://zoomcorp.com/media/documents/E_A2.pdf),pp4,35.
 
 <!-- comparison evidence begins -->

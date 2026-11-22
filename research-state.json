@@ -206036,10 +206036,74 @@
         ],
         "duration": null,
         "audit_format": "firmware-pitch-v1"
+      },
+      "Zoom::A2": {
+        "model_key": "Zoom::A2",
+        "checked_date": "2026-11-22",
+        "first_release": {
+          "date": "2005",
+          "precision": "year",
+          "kind": "manufacturer product-history year",
+          "source_urls": [
+            "https://ir.zoom.co.jp/en/corporate/history/"
+          ],
+          "note": "Zoom lists A2 under 2005 separately from A2.1u; month/day not established. Manual production dates are not shipment dates."
+        },
+        "firmware": {
+          "version": null,
+          "date": null,
+          "precision": "unknown",
+          "status": "no_public_firmware_found",
+          "source_urls": [
+            "https://zoomcorp.com/en/jp/multi-effects/acoustic/a2/a2-operation-manual/",
+            "https://zoomcorp.com/en/jp/multi-effects/acoustic/a2/"
+          ],
+          "note": "Exact-model support page lists the operation manual only; no public firmware version, package or release date located. Discontinued status is not a firmware date. A2.1u and AC-2 updates do not apply."
+        },
+        "pitch": {
+          "status": "pitch_present_polyphony_unverified",
+          "algorithms": "DETUNE mixes a shifted component with dry audio; DEPTH −15…+15, TONE and MIX. DEPTH is not documented as semitones. Chorus variants also use pitch modulation. No selectable semitone transposer, octave or harmony algorithm is listed; polyphonic tracking is not specified.",
+          "preset": "40 user plus 40 read-only preset patches. FP01/FP02 expression assignment is saved per patch; in bypass it always controls volume.",
+          "dsp": "No per-effect DSP percentage published. Detune occupies the MOD/EFX module, excluding its other effect choices. Up to eight fixed serial modules can operate together; this is not eight freely assignable detuners.",
+          "source_urls": [
+            "https://zoomcorp.com/media/documents/E_A2.pdf"
+          ],
+          "measurements": [],
+          "notes": [
+            "No hardware tracking or CPU measurement; no A2.1u features transferred."
+          ]
+        },
+        "sources": [
+          {
+            "url": "https://ir.zoom.co.jp/en/corporate/history/",
+            "title": "Zoom corporate product history",
+            "access": "official product chronology inspected",
+            "evidence": "A2 and A2.1u separately grouped under 2005."
+          },
+          {
+            "url": "https://zoomcorp.com/en/jp/multi-effects/acoustic/a2/a2-operation-manual/",
+            "title": "Zoom A2 support and downloads",
+            "access": "official exact-model list read",
+            "evidence": "Operation manual only; no public firmware package listed."
+          },
+          {
+            "url": "https://zoomcorp.com/en/jp/multi-effects/acoustic/a2/",
+            "title": "Zoom A2 product page",
+            "access": "official page read",
+            "evidence": "A2 acoustic effects pedal, discontinued, exact-model support link."
+          },
+          {
+            "url": "https://zoomcorp.com/media/documents/E_A2.pdf",
+            "title": "Zoom A2 operation manual",
+            "access": "official PDF pp22–25,29–31,35 inspected",
+            "evidence": "Detune and chorus pitch modulation; no general transposer listed. Fixed modules and patch/expression rules; no CPU percentage."
+          }
+        ],
+        "duration": null,
+        "audit_format": "firmware-pitch-v1"
       }
     },
     "next_models": [
-      "Zoom::A2",
       "Zoom::A3",
       "Zoom::B1 FOUR",
       "Zoom::B1on",
@@ -206093,12 +206157,11 @@
       "Zoom::V6-SP"
     ],
     "status": "in_progress",
-    "completed_model_count": 350,
-    "last_model": "Zoom::A1X FOUR",
-    "last_commit_parent": "827f9a3e73fa3923dd69266b1c76c2b6c5edc414",
+    "completed_model_count": 351,
+    "last_model": "Zoom::A2",
+    "last_commit_parent": "239fa408dc6fee79edd6ee89fddffd268a4ed3bc",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [
-      "Zoom::A2",
       "Zoom::A3",
       "Zoom::B1 FOUR",
       "Zoom::B1on",
@@ -206151,7 +206214,7 @@
       "Zoom::V3",
       "Zoom::V6-SP"
     ],
-    "pitch_completed_model_count": 350,
+    "pitch_completed_model_count": 351,
     "supplemental_model_count": 0
   },
   "model_images": {
