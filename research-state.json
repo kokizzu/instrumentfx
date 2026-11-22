@@ -214174,25 +214174,26 @@
       },
       "DigiTech::RP350": {
         "model_key": "DigiTech::RP350",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/39774/156322/YDIGITECH11828106__55074.1660735847.jpg?c=1",
-            "source_url": "https://richtonemusic.co.uk/digitech-rp350-modeling-guitar-processor-box-psu-2nd-hand/",
-            "caption": "DigiTech RP350 — top panel",
-            "note": "Retailer second-hand RP350 photograph, three-quarter overhead angle. Green/red display windows show no illuminated characters; powered-on state is not established. A confirmed powered-on straight top-down replacement remains pending.",
+            "image_url": "https://medias.audiofanzine.com/images/normal/digitech-rp350-2825263.jpg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP350/",
+            "caption": "DigiTech RP350 — powered-on overhead control view",
+            "note": "Audiofanzine user photograph visually inspected: exact RP350 marking, green preset name and red program number illuminated, multiple effect-status LEDs lit, all six knobs, three footswitches and complete expression treadle unobstructed. Camera is nearly overhead with slight residual perspective; a geometrically straight top-down replacement remains desirable. Connected cables do not obscure top controls. Photograph is not an audio-performance test.",
             "visual_checked": true,
-            "powered_on": false,
+            "powered_on": true,
             "exact_top_down": false,
-            "sha256": "67c0f766e94c0e842619fe3a0a9af82c85be28531ed39efd30b8bfcc042ddfd2"
+            "sha256": "c0baa309381553f3a161136ce888a6c3135e99599d62a4185f7f282c1624f744"
           },
           "rear": {
             "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/39774/156323/YDIGITECH11828107__17168.1660735847.jpg?c=1",
             "source_url": "https://richtonemusic.co.uk/digitech-rp350-modeling-guitar-processor-box-psu-2nd-hand/",
             "caption": "DigiTech RP350 — rear connections",
-            "note": "Angled rear photograph of the same listing shows INPUT, both AMP/MIXER switches, LEFT (Mono)/RIGHT jack outputs, headphones, AUX IN, LEFT OUT/RIGHT OUT XLR, USB Type-B and power. Chassis label reads 9VAC 1.3A. All sockets visible and labels readable; rear photo does not establish operating power state.",
+            "note": "Angled rear photograph of the same listing shows INPUT, both AMP/MIXER switches, LEFT (Mono)/RIGHT jack outputs, headphones, AUX IN, LEFT OUT/RIGHT OUT XLR, USB Type-B and power. Chassis label reads 9VAC 1.3A. All sockets visible and labels readable; rear photo does not establish operating power state. Re-fetched bytes changed; rear photograph re-inspected on 2026-11-22 and all listed sockets and the 9VAC1.3A marking remain visible.",
             "visual_checked": true,
-            "sha256": "c83143ab1b45c97e1c06fdaa3dffb15a3e232d739cd88b14f1e8c71d7e5f11f1"
+            "sha256": "6b1b6f4344c526f14d0c23f1898ba9f5ef82cd4df4b8fd154a8334761cbcf7a1",
+            "previous_sha256": "c83143ab1b45c97e1c06fdaa3dffb15a3e232d739cd88b14f1e8c71d7e5f11f1"
           }
         }
       },
@@ -223111,6 +223112,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP355"
+    "last_model": "DigiTech::RP350"
   }
 }
