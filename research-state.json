@@ -211882,11 +211882,45 @@
             "exact_top_down": false
           }
         }
+      },
+      "Yamaha::AG-Stomp": {
+        "model_key": "Yamaha::AG-Stomp",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://img.ricardostatic.ch/images/9cd7d693-82e1-425a-868c-dc4ee81d17ee/t_1000x750/yamaha-ag-stomp-gitarren-pre-amplifier",
+            "source_url": "https://www.ricardo.ch/de/a/yamaha-ag-stomp-gitarren-pre-amplifier-1262707494/",
+            "caption": "Yamaha AG-Stomp control face",
+            "note": "Visually checked actual unit with connected cable, redU02 display, lit green PLATE and red footswitch2 indicators. All fifteen top rotaries, seventeen panel buttons and four footswitches visible; no built-in treadle. Near-overhead view has slight perspective, so strict orthographic top-down remains pending. Power indication is photographic evidence, not a hardware-function test.",
+            "visual_checked": true,
+            "sha256": "88e1d42793aa75018d098b9b3dfda0cd68f13bba1a376f85c76f264fa4bba571",
+            "powered_on": true,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://item-shopping.c.yimg.jp/i/n/grun-sound_z344k230626_4_d_20230629211530",
+            "source_url": "https://store.shopping.yahoo.co.jp/grun-sound/z344k230626.html",
+            "caption": "Yamaha AG-Stomp rear connectors",
+            "note": "Visually checked upright full rear row: STAND-BY, AC IN12V1A~, +9V SUPPLY switch, MIDI OUT/IN, coaxial DIGITAL OUT, EXP PEDAL, PHONES, OUTPUT R/L-MONO, MUTE and INPUT MONO/TRS guitar-supply socket. AC power is distinct from the special9V guitar-supply feature; no DC center-polarity claim. No USB or XLR sockets shown. Fine labels also corroborated using the separately inspected higher-resolution upside-down photo.",
+            "visual_checked": true,
+            "sha256": "f37299f240e12991b91e77933658b8a1d336bedec2ec9ae01a759a74adb910a7",
+            "powered_on": false,
+            "exact_top_down": false
+          }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://medias.audiofanzine.com/images/normal/yamaha-ag-stomp-5904414.jpg",
+            "sha256": "870da2274927169f1fb2ab64ea3453bb24df84e9e62f7dd3bbe32a243695d4b5",
+            "visual_checked": true,
+            "note": "Full rear connector row inspected; upside-down original photo. Seek upright alternative for clearer Markdown presentation."
+          }
+        ]
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::ToneLab ST"
+    "last_model": "Yamaha::AG-Stomp"
   }
 }
