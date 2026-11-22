@@ -210673,11 +210673,37 @@
             "exact_top_down": false
           }
         }
+      },
+      "Valeton::GP-5": {
+        "model_key": "Valeton::GP-5",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://shop.valeton.net/cdn/shop/files/GP-5_Front_WithScreen_Hi_V01_250425_1445x.png?v=1747797183",
+            "source_url": "https://shop.valeton.net/products/gp-5",
+            "caption": "Official GP-5 control-face stock image",
+            "note": "Visually inspected exact GP-5 control face: two knobs, one footswitch, color display and no separate buttons. IN and OUT/PHONES labels flank the side sockets. Stock artwork shows screen and blue ring; actual powered-unit photography is unverified. Slight case-edge perspective; strict overhead powered photography pending.",
+            "visual_checked": true,
+            "sha256": "3ee60e33419e40cc07e01067e7fbbe106bf31824e6a7d050789883d279056bee",
+            "powered_on": null,
+            "exact_top_down": false
+          },
+          "rear": {
+            "image_url": "https://shop.valeton.net/cdn/shop/files/GP-5_Top_Hi_V01_250425_1445x.png?v=1747797182",
+            "source_url": "https://shop.valeton.net/products/gp-5",
+            "caption": "Official GP-5 rear connector-edge stock image",
+            "note": "Visually inspected GP-5 rear narrow edge: USB-C above DC barrel socket. The audio jacks are on the side edges, not this rear face; their electrical stereo/mono behavior is established by the manual, not this photograph. Actual operation and powered status unverified.",
+            "visual_checked": true,
+            "sha256": "a573413f79ca15eb290e9ed53f5f81485916a32af9d396e60ddb8e4db089a3a3",
+            "powered_on": null,
+            "exact_top_down": false
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-200LT"
+    "last_model": "Valeton::GP-5"
   }
 }

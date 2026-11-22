@@ -1103,6 +1103,26 @@ Sources checked:
 
 <!-- firmware-pitch:Valeton::GP-5 ends -->
 
+<!-- model-images:Valeton::GP-5 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Official GP-5 control-face stock image**
+
+[![Official GP-5 control-face stock image](https://shop.valeton.net/cdn/shop/files/GP-5_Front_WithScreen_Hi_V01_250425_1445x.png?v=1747797183)](https://shop.valeton.net/cdn/shop/files/GP-5_Front_WithScreen_Hi_V01_250425_1445x.png?v=1747797183)
+
+[Image source](https://shop.valeton.net/products/gp-5). Visually inspected exact GP-5 control face: two knobs, one footswitch, color display and no separate buttons. IN and OUT/PHONES labels flank the side sockets. Stock artwork shows screen and blue ring; actual powered-unit photography is unverified. Slight case-edge perspective; strict overhead powered photography pending.
+
+**Official GP-5 rear connector-edge stock image**
+
+[![Official GP-5 rear connector-edge stock image](https://shop.valeton.net/cdn/shop/files/GP-5_Top_Hi_V01_250425_1445x.png?v=1747797182)](https://shop.valeton.net/cdn/shop/files/GP-5_Top_Hi_V01_250425_1445x.png?v=1747797182)
+
+[Image source](https://shop.valeton.net/products/gp-5). Visually inspected GP-5 rear narrow edge: USB-C above DC barrel socket. The audio jacks are on the side edges, not this rear face; their electrical stereo/mono behavior is established by the manual, not this photograph. Actual operation and powered status unverified.
+
+</details>
+<!-- model-images:Valeton::GP-5 ends -->
+
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- VALETON-GP-5 source begins -->
