@@ -219749,11 +219749,36 @@
             "sha256": "6d8a13e7f5f9b58002075214793a0bb8d3f3be7fb0a4873808f601294fe186f8"
           }
         }
+      },
+      "BOSS::GT-Pro": {
+        "model_key": "BOSS::GT-Pro",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/assets/images/products/main/gtpro_main.jpg",
+            "source_url": "https://www.boss.info/global/products/gt-pro/",
+            "caption": "BOSS GT-Pro — front control panel",
+            "note": "Manufacturer powered front-panel view with illuminated patch display, LCD and effect indicators. Rack unit controls face forward; this shows its control surface rather than a top-down chassis view. Small 600-pixel-wide source limits fine-label readability.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "33f514ec48f87e75328350bf31d0a7eb5822b59a4a742488d19200cdd30f988b"
+          },
+          "rear": {
+            "image_url": "https://medias.audiofanzine.com/images/normal/boss-gt-pro-6768089.jpeg",
+            "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/boss/gt-pro/",
+            "caption": "BOSS GT-Pro — rear connections",
+            "note": "Elevated rear view showing the full connector panel: captive AC lead, amp and pedal controls, MIDI THRU/OUT/IN, USB, digital out, loop 1/2 sends and returns, main and sub outputs including XLR and ground lift, pre-loop, direct/tuner out and input.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "bae25caa25a2f4b5dcddd8ebd3476225f92a58b260550c3c62acd190d2d57924"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::AD-2"
+    "last_model": "BOSS::GT-Pro"
   }
 }
