@@ -36,6 +36,26 @@ Sources checked:
 
 <!-- firmware-pitch:Alesis::MicroVerb 4 ends -->
 
+<!-- model-images:Alesis::MicroVerb 4 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Powered front control panel**
+
+[![Powered front control panel](https://media.sweetwater.com/m/products/image/ee8d158044doxuMdf4qOz6SaWLQ1UPZ3XPBQz3q4.jpg?ha=ee8d15804493ab99aa0082ed4e1ddd31a96afbec&height=1800&quality=85)](https://media.sweetwater.com/m/products/image/ee8d158044doxuMdf4qOz6SaWLQ1UPZ3XPBQz3q4.jpg?ha=ee8d15804493ab99aa0082ed4e1ddd31a96afbec&height=1800&quality=85)
+
+[Image source](https://www.sweetwater.com/store/detail/MicroVerb4--alesis-microverb-4). Retailer promotional photograph showing the complete rack front panel, preset 101 and illuminated level meters. This is the control surface of the rack unit, rather than a photograph of its top lid; the program-reference fine print is soft.
+
+**Front and rear connection panels**
+
+[![Front and rear connection panels](https://www.jbmusic.com.ph/__resources/webdata/images/product-gallery/10296_305.jpg)](https://www.jbmusic.com.ph/__resources/webdata/images/product-gallery/10296_305.jpg)
+
+[Image source](https://www.jbmusic.com.ph/shop/product/e-2-413/). The lower panel shows the complete rear connections: 9 V AC power, footswitch, MIDI IN and OUT/THRU, left/mono and right inputs, and left/right outputs. The upper panel repeats the powered front controls; rear labels are small but visible.
+
+</details>
+<!-- model-images:Alesis::MicroVerb 4 ends -->
+
+
 <!-- comparison evidence begins -->
 Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P]. Original chart explicitly includes vocal andguitar programs [MV-C]. Offered-unit authenticity is not certified.
 
