@@ -262,11 +262,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**Official VOX StompLab 2B control-face image**
+**StompLab 2B actual overhead control-face photograph — unlit**
 
-[![Official VOX StompLab 2B control-face image](https://voxamps.com/wp-content/uploads/2019/02/SL2B-StompLab-Bass-Multi-Effect-1.png)](https://voxamps.com/wp-content/uploads/2019/02/SL2B-StompLab-Bass-Multi-Effect-1.png)
+[![StompLab 2B actual overhead control-face photograph — unlit](https://images.blocketcdn.se/dynamic/1280w/item/17671869/f483b9f1-54ce-4fcc-9418-d8b6e1ae8f24)](https://images.blocketcdn.se/dynamic/1280w/item/17671869/f483b9f1-54ce-4fcc-9418-d8b6e1ae8f24)
 
-[Image source](https://voxamps.com/product/stomplab-2b/). Visually inspected red bass control face: three knobs, four small buttons, two footswitches and built-in expression treadle. Official stock image displays 50 and colored indicators; actual powered-unit photography is unverified. Rear edge/connectors visible, so strict overhead powered photograph remains pending.
+[Image source](https://www.blocket.se/recommerce/forsale/item/17671869). Complete red bass unit photographed nearly overhead: all three knobs, four small buttons, two metal footswitches and full VOX treadle are visible. Dark display shows only inactive segment outlines and no illuminated patch; indicator lenses do not establish power. This improves actual control-layout coverage, but a powered overhead photograph remains pending. Previous [official product image](https://voxamps.com/wp-content/uploads/2019/02/SL2B-StompLab-Bass-Multi-Effect-1.png) retained as a reference; its depicted 50 display does not independently establish powered photography.
 
 **Official VOX StompLab 2B rear-port shop image**
 
