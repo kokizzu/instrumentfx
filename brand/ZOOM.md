@@ -8595,6 +8595,26 @@ Sources checked:
 
 <!-- firmware-pitch:Zoom::GFX-707 ends -->
 
+<!-- model-images:Zoom::GFX-707 begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**GFX-707 control face**
+
+[![GFX-707 control face](https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0501/users/1ab6a1d23cc9a9936bbdb12263f87588c035da51/i-img1200x891-1705742597ap4q1s62205.jpg)](https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0501/users/1ab6a1d23cc9a9936bbdb12263f87588c035da51/i-img1200x891-1705742597ap4q1s62205.jpg)
+
+[Image source](https://auctions.yahoo.co.jp/jp/auction/p1121979098). Actual powered GFX-707 with illuminated red A1 bank/patch display and MOD indicator. All five knobs, eight buttons, two footswitches and the expression treadle are visible. The overhead view is angled rather than perpendicular; a straight-down replacement remains pending.
+
+**GFX-707 rear connections**
+
+[![GFX-707 rear connections](https://medias.audiofanzine.com/images/normal/zoom-gfx-707-2996508.jpg)](https://medias.audiofanzine.com/images/normal/zoom-gfx-707-2996508.jpg)
+
+[Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/GFX-707/). Actual rear connection panel with readable INPUT (AUX IN), DC9V 300mA center-negative supply, power switch, cable restraint and combined OUTPUT (PHONES). Both audio sockets are visible; this model has no separate headphone socket.
+
+</details>
+<!-- model-images:Zoom::GFX-707 ends -->
+
+
 Original guitar multi-effects,not707II;checked2026-10-17;partial. [Official manual][GFX707-M],24pages,707-5000,pp2–7,17,22–24.
 
 | Field | Evidence / gaps |
