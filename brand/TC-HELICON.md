@@ -940,11 +940,11 @@ Sources checked:
 <details>
 <summary>Product pictures — top and rear ports</summary>
 
-**PERFORM-VK top control face — manufacturer stock image**
+**PERFORM-VK powered-on user photograph — angled overhead**
 
-[![PERFORM-VK top control face — manufacturer stock image](https://cdn-media.empowertribe.com/05690466ba3c499a8dd9b87eac58aba5/Image_TH_0726-AAH_PERFORM-VK_Top_XL.png)](https://cdn-media.empowertribe.com/05690466ba3c499a8dd9b87eac58aba5/Image_TH_0726-AAH_PERFORM-VK_Top_XL.png)
+[![PERFORM-VK powered-on user photograph — angled overhead](https://media.sweetwater.com/m/gx/4f5fff8a037280837d4a5eda717be502509d6f4a.jpg?auto=webp&bg-color=f2f1f0&canvas=2000%2C2000&fit=bounds&height=2000&quality=75&width=2000)](https://media.sweetwater.com/m/gx/4f5fff8a037280837d4a5eda717be502509d6f4a.jpg?auto=webp&bg-color=f2f1f0&canvas=2000%2C2000&fit=bounds&height=2000&quality=75&width=2000)
 
-[Image source](https://www.tchelicon.com/ja/products/0726-AAH). Straight-on manufacturer stock control image, illuminated-looking pads/ring; independent powered-on overhead evidence remains pending. Visually confirms one knob, zero footswitches and fourteen button pads: SET, Tone, Anti-Feedback, Pitch, 48V, Harmony/Reverb/Echo, presets 1–3, headphones, TAP and TALK. Window beside SET and ring segments are indicators, not separate buttons.
+[Image source](https://www.sweetwater.com/used/listings/294464-used-tc-helicon-perform-vk-keyboard-controllable-vocal-processor). Visually inspected white PERFORM-VK with front model label, Harmony and three preset pads visible. Backlit effect pads and red encoder-ring segments establish visible powered operation. Full control face, central knob and fourteen hand-button pads are shown; no onboard footswitches. Oblique angle and red ambient lighting affect appearance, so strict perpendicular overhead remains pending. No firmware version, active algorithm configuration, pitch polyphony or DSP percentage inferred from pad colors. Official rear connector view retained separately.
 
 **PERFORM-VK rear ports — manufacturer stock image**
 
