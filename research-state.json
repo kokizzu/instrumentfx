@@ -181185,16 +181185,15 @@
       },
       "Audota::AME-100": {
         "model_key": "Audota::AME-100",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-23",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "unverified",
+          "date": "2026-07",
+          "precision": "month",
+          "kind": "documented retailer availability month; regional release proxy",
           "source_urls": [
-            "https://en.audota.com/AME100EN.html",
-            "https://en.audota.com/AUDOTA/%E5%BF%AB%E9%80%9F%E6%89%8B%E5%86%8C/AME-100_Manual_EN_V03_2026.05.18.pdf"
+            "https://www.thomann.de/be/audota_ame_100_multi_effects.htm"
           ],
-          "note": "Exact hardware launch not verified. Manual artwork date 2026-05-18 and PDF creation 2026-05-19 are document dates, not hardware release dates."
+          "note": "Thomann exact AME-100 listing explicitly states Available since July2026. This is regional retailer availability,not authenticated worldwide first sale or manufacturer announcement. May2026 manual artwork/PDF creation dates remain documentation dates. Earlier availability elsewhere is not excluded."
         },
         "firmware": {
           "version": "1.2.3",
@@ -181259,10 +181258,99 @@
             "title": "Official importer AME-100 finishes and current features, 2026-09-11",
             "access": "indexed_primary_announcement; direct_page_no_readable_lines",
             "evidence": "200 onboard locations and recent NAM A2 support; new finishes do not alter hardware specification. Does not establish minimum build for memory expansion."
+          },
+          {
+            "url": "https://www.thomann.de/be/audota_ame_100_multi_effects.htm",
+            "title": "Thomann AME-100 regional availability history",
+            "access": "Exact-model retailer indexed availability field inspected",
+            "evidence": "Available since July2026;used as regional retail proxy only,not global first launch. Current stock,pricing and unrelated retailer specifications not adopted."
           }
         ],
         "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "Audota::AME-100",
+            "checked_date": "2026-11-21",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "unverified",
+              "source_urls": [
+                "https://en.audota.com/AME100EN.html",
+                "https://en.audota.com/AUDOTA/%E5%BF%AB%E9%80%9F%E6%89%8B%E5%86%8C/AME-100_Manual_EN_V03_2026.05.18.pdf"
+              ],
+              "note": "Exact hardware launch not verified. Manual artwork date 2026-05-18 and PDF creation 2026-05-19 are document dates, not hardware release dates."
+            },
+            "firmware": {
+              "version": "1.2.3",
+              "date": null,
+              "precision": "unknown",
+              "status": "latest_located",
+              "source_urls": [
+                "https://shop.warwick.de/en/Blog/AUDOTA-AME-100",
+                "https://en.audota.com/EN_software.html",
+                "https://en.audota.com/EN_firmware.html"
+              ],
+              "note": "Official importer announcement dated 2026-09-02 explicitly identifies firmware 1.2.3, adding NAM A2 conversion/import and fixing A1 import. This is an announcement-by date, not a verified original release date. Manufacturer software index lists Studio 1.2.3; its Firmware index still lists 0.6.6 packages. Exact ROM release date and later-build availability unresolved; no installation performed."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Manual p45 lists PITCH SHIFT in Modulation, plus DETUNE and VIBRATO. Note polyphony, interval range, wet-only drop-tuning and whole-chord transposition are not specified; do not classify from mono input or stereo-compatible output.",
+              "preset": "Manual pp14–17: footswitches scroll presets; EDIT adds, deletes and reorders modules; Save menu selects destination/name and SAVE commits settings. Older manual/product page say 80 locations; later importer evidence reports 200. No pitch-specific retention exception documented.",
+              "dsp": "PITCH SHIFT is a Modulation choice within a dynamically editable chain. No per-algorithm CPU percentage, duplicate-pitch ceiling or pitch-specific incompatibility table located. Nine advertised categories do not establish nine simultaneous pitch blocks or measured resource usage.",
+              "source_urls": [
+                "https://en.audota.com/AUDOTA/%E5%BF%AB%E9%80%9F%E6%89%8B%E5%86%8C/AME-100_Manual_EN_V03_2026.05.18.pdf",
+                "https://en.audota.com/AME100EN.html",
+                "https://www.w-distribution.de/en/news/2026-09-11/Audota-AME-100-Intelligent-Multi-Effects"
+              ],
+              "measurements": [],
+              "notes": [
+                "Documented pitch existence is established; polyphony and DSP percentage remain unknown. No Hotone measurement or AME-200 behavior transferred."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://en.audota.com/AUDOTA/%E5%BF%AB%E9%80%9F%E6%89%8B%E5%86%8C/AME-100_Manual_EN_V03_2026.05.18.pdf",
+                "title": "Audota AME-100 User Manual V03, 2026-05-18 artwork",
+                "access": "manufacturer_pdf_retrieved; text_extracted; p45_visually_verified",
+                "evidence": "52-page official PDF; printed p45 PITCH SHIFT/DETUNE/VIBRATO; pp14–17 preset selection, editing and explicit saving. SHA256 eb93ecd8c0aa8f77b1a8f0dc47f9edd223adc419b8eca18db136436ab06dd9c2."
+              },
+              {
+                "url": "https://en.audota.com/AME100EN.html",
+                "title": "Audota AME-100 manufacturer product page",
+                "access": "opened",
+                "evidence": "Body identifies AME-100 despite ACE100 browser title; 80-preset older specification and dynamic module loading."
+              },
+              {
+                "url": "https://shop.warwick.de/en/Blog/AUDOTA-AME-100",
+                "title": "Official importer AME-100 firmware 1.2.3 announcement",
+                "access": "opened",
+                "evidence": "Dated 2026-09-02; explicitly firmware, NAM A2 conversion/import and A1 fix. Publication date not asserted as original firmware release day."
+              },
+              {
+                "url": "https://en.audota.com/EN_software.html",
+                "title": "Audota current software index",
+                "access": "opened",
+                "evidence": "AME-100 Studio Windows/Mac 1.2.3; software package label corroborates located version but does not date ROM."
+              },
+              {
+                "url": "https://en.audota.com/EN_firmware.html",
+                "title": "Audota Firmware index",
+                "access": "opened",
+                "evidence": "Still displays AME-100 Studio 0.6.6; stale/version-role discrepancy retained."
+              },
+              {
+                "url": "https://www.w-distribution.de/en/news/2026-09-11/Audota-AME-100-Intelligent-Multi-Effects",
+                "title": "Official importer AME-100 finishes and current features, 2026-09-11",
+                "access": "indexed_primary_announcement; direct_page_no_readable_lines",
+                "evidence": "200 onboard locations and recent NAM A2 support; new finishes do not alter hardware specification. Does not establish minimum build for memory expansion."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "Audota::AME-200": {
         "model_key": "Audota::AME-200",
@@ -216688,8 +216776,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "Ammoon::PockRock",
-    "last_commit_parent": "ceaf3e469a3488af03cff286e6d9c49c47f18ff2",
+    "last_model": "Audota::AME-100",
+    "last_commit_parent": "075ba65030e64374cdc2a0c1bd3445d4bab6e722",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
