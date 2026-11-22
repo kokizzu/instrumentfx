@@ -43,6 +43,22 @@ Sources checked:
 
 <!-- firmware-pitch:Behringer::Bass V-AMP ends -->
 
+<!-- model-images:Behringer::Bass V-AMP begins -->
+<details>
+<summary>Product pictures — top and rear ports</summary>
+
+**Behringer Bass V-AMP — control surface**
+
+[![Behringer Bass V-AMP — control surface](https://api.tone3000.com/storage/v1/object/public/images/7n33a0yhnc8.jpg)](https://api.tone3000.com/storage/v1/object/public/images/7n33a0yhnc8.jpg)
+
+[Image source](https://www.tone3000.com/tones/behringer-bass-v-amp-63008). Powered overhead photograph with red 1 display and illuminated knob indicators; complete control surface visible. Slightly oblique rather than exact top-down. Dedicated connector photographs remain pending: gallery candidates inspected were accessories, not the unit’s ports.
+
+**Rear view:** not yet verified.
+
+</details>
+<!-- model-images:Behringer::Bass V-AMP ends -->
+
+
 <!-- comparison evidence begins -->
 Checked **2026-10-17**. Desktop model; rack PRO remains separate. Manufacturer product page and manufacturer-authored manual v1.2 / December 2005 (Rev C filename), hosted by Thomann. Partial verification.
 

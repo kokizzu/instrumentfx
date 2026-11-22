@@ -220161,11 +220161,27 @@
             "sha256": "4b304435fc8d4d0b71236884ad7fc48c596e1d7a9b6e42f5b7b6dc19959d3368"
           }
         }
+      },
+      "Behringer::Bass V-AMP": {
+        "model_key": "Behringer::Bass V-AMP",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://api.tone3000.com/storage/v1/object/public/images/7n33a0yhnc8.jpg",
+            "source_url": "https://www.tone3000.com/tones/behringer-bass-v-amp-63008",
+            "caption": "Behringer Bass V-AMP — control surface",
+            "note": "Powered overhead photograph with red 1 display and illuminated knob indicators; complete control surface visible. Slightly oblique rather than exact top-down. Dedicated connector photographs remain pending: gallery candidates inspected were accessories, not the unit’s ports.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": false,
+            "sha256": "fc11223d95fe7e3bb41e63c720d52e9f6af8a05000a62d66ddb63156107828ea"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Behringer::Bass V-AMP PRO"
+    "last_model": "Behringer::Bass V-AMP"
   }
 }
