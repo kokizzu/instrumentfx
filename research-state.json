@@ -219094,11 +219094,36 @@
             "sha256": "f080a233cd1b03be1690d2df687c94a6c9de90eda3d43d0931913d97ca64ba85"
           }
         }
+      },
+      "BOSS::GT-1000": {
+        "model_key": "BOSS::GT-1000",
+        "checked_date": "2026-11-22",
+        "views": {
+          "top": {
+            "image_url": "https://static.roland.com/products/gt-1000/images/gt-1000_front_10_clolors_gal.jpg",
+            "source_url": "https://www.boss.info/global/products/gt-1000/",
+            "caption": "BOSS GT-1000 — powered-on top view",
+            "note": "Complete manufacturer straight-down image with U01-1 PREMIUM DRIVE on the lit display, ten colored footswitch indicators, blue EXP1 indicator, seven rotary controls, six panel buttons and the full expression pedal. Powered-on appearance is visible in this promotional image; independent operating-state verification is unavailable.",
+            "visual_checked": true,
+            "powered_on": true,
+            "exact_top_down": true,
+            "sha256": "e390c8f5f85cb3bd514270e4b2939e5cde57ca9e12b732cdc548262f09e5c8f8"
+          },
+          "rear": {
+            "image_url": "https://static.roland.com/products/gt-1000/images/gt-1000_back_gal.jpg",
+            "source_url": "https://www.boss.info/global/products/gt-1000/",
+            "caption": "BOSS GT-1000 — rear connections",
+            "note": "Complete manufacturer rear image: INPUT, MAIN OUTPUT R/L-MONO, PHONES, two SEND/RETURN loops, XLR SUB OUTPUT R/L, CTL4/5/EXP2 and CTL6/7/EXP3, AMP CTL1/2, USB-B COMPUTER, MIDI OUT/IN, power switch, DC IN, ground terminal, cord restraint and security slot.",
+            "visual_checked": true,
+            "powered_on": false,
+            "sha256": "555bc44662b21c512aa4b8ce2e3e7b09b88eac4ce63793180133b0bc57591109"
+          }
+        }
       }
     },
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GX-100"
+    "last_model": "BOSS::GT-1000"
   }
 }
