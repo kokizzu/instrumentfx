@@ -216536,13 +216536,13 @@
       },
       "Flamma::FV05 Recorder": {
         "model_key": "Flamma::FV05 Recorder",
-        "checked_date": "2026-11-21",
+        "checked_date": "2026-11-23",
         "views": {
           "top": {
             "image_url": "https://www.flamma.shop/cdn/shop/files/1_c24a9b55-39d8-4d5c-9b6f-23ac224f8670.png?v=1691574593&width=1946",
             "source_url": "https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal",
             "caption": "FV05 top-down product view",
-            "note": "Straight top-down manufacturer product cutout. TONE button appears red, but the footswitch light segments are dark and powered-on state is not independently established; a verified powered-on view remains pending. No display screen.",
+            "note": "Straight top-down manufacturer product cutout. TONE button appears red, but the footswitch light segments are dark and powered-on state is not independently established; a verified powered-on view remains pending. No display screen. A supplemental manufacturer scene below shows a cabled FV05 propped upright in front of a mixer, with an amber-looking TONE indicator and green/white footswitch light segments. This staged promotional photograph depicts illumination but does not independently verify operation or exclude retouching; a confirmed powered-on overhead photograph remains pending.\n\n[![FV05 manufacturer staged connected-unit photograph](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV05-rar_1200x.png?v=1706509984)](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV05-rar_1200x.png?v=1706509984)\n\n[Promotional photograph source](https://www.flamma.shop/).",
             "visual_checked": true,
             "powered_on": null,
             "exact_top_down": true,
@@ -216556,7 +216556,19 @@
             "visual_checked": true,
             "sha256": "f52d4667403ba208a700240cd8766c16c9df668819dbf507697e317efa8d733a"
           }
-        }
+        },
+        "inspected_alternatives": [
+          {
+            "image_url": "https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV05-rar_1200x.png?v=1706509984",
+            "source_url": "https://www.flamma.shop/",
+            "caption": "FV05 — manufacturer staged connected-unit photograph",
+            "note": "Manufacturer promotional scene shows white FV05 connected to audio and power cables in front of a mixer. TONE appears amber and footswitch light segments green/white. Propped upright, not top-down; independent operation and possible promotional retouching are not verified.",
+            "visual_checked": true,
+            "powered_on": null,
+            "exact_top_down": false,
+            "sha256": "19b146aeac3ea50c55d7d7b8cdc46ee2f69f5d51104917333513308cc46014c4"
+          }
+        ]
       },
       "Flamma::FX100": {
         "model_key": "Flamma::FX100",
@@ -227284,6 +227296,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Bass VES-2"
+    "last_model": "Flamma::FV05 Recorder"
   }
 }

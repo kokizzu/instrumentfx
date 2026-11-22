@@ -654,7 +654,11 @@ Sources checked:
 
 [![FV05 top-down product view](https://www.flamma.shop/cdn/shop/files/1_c24a9b55-39d8-4d5c-9b6f-23ac224f8670.png?v=1691574593&width=1946)](https://www.flamma.shop/cdn/shop/files/1_c24a9b55-39d8-4d5c-9b6f-23ac224f8670.png?v=1691574593&width=1946)
 
-[Image source](https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal). Straight top-down manufacturer product cutout. TONE button appears red, but the footswitch light segments are dark and powered-on state is not independently established; a verified powered-on view remains pending. No display screen.
+[Image source](https://www.flamma.shop/products/flamma-fv05-recorder-vocal-effects-pedal). Straight top-down manufacturer product cutout. TONE button appears red, but the footswitch light segments are dark and powered-on state is not independently established; a verified powered-on view remains pending. No display screen. A supplemental manufacturer scene below shows a cabled FV05 propped upright in front of a mixer, with an amber-looking TONE indicator and green/white footswitch light segments. This staged promotional photograph depicts illumination but does not independently verify operation or exclude retouching; a confirmed powered-on overhead photograph remains pending.
+
+[![FV05 manufacturer staged connected-unit photograph](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV05-rar_1200x.png?v=1706509984)](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FV05-rar_1200x.png?v=1706509984)
+
+[Promotional photograph source](https://www.flamma.shop/).
 
 **FV05 rear connections**
 
