@@ -197682,14 +197682,16 @@
         "model_key": "MOOER::Prime M2",
         "checked_date": "2026-11-22",
         "first_release": {
-          "date": null,
-          "precision": "unknown",
-          "kind": "first_hardware_release_unresolved",
+          "date": "2025-03-27",
+          "precision": "day",
+          "kind": "verified Japanese sales-start proxy; first worldwide shipment unresolved",
           "source_urls": [
             "https://www.mooeraudio.com/products/221.html",
-            "https://www.mooeraudio.com/Downloads_xq/2.html"
+            "https://www.mooeraudio.com/Downloads_xq/2.html",
+            "https://mooer.jp/pages/news",
+            "https://note.com/lepintl/n/nbd9f73e3bb9d"
           ],
-          "note": "Global introduction says M2 kicks off 2025; December 29, 2024 app/support notes already add M2. Software availability is not first hardware shipment. Exact initial announcement/shipping date unresolved; Japanese March 2025 availability is regional, not necessarily global first."
+          "note": "MOOER Japan explicitly dates original Prime M2 sales start March27,2025 and separately dates Space Gray June12,2025. LEP International’s April2,2025 announcement corroborates regional release. This is a Japanese availability proxy, not a verified first worldwide shipment. Global introduction says it kicks off2025; December29,2024 app support is software evidence, not proof of hardware sale. Recap interval uses the qualified Japanese date, with worldwide first release still unresolved."
         },
         "firmware": {
           "version": "1.5.0",
@@ -197746,10 +197748,101 @@
             "title": "Manufacturer M2 manual on RockBoard, V2.0 filename",
             "access": "Exact M2 PDF editing/SAVE and tempo passages read",
             "evidence": "Module editing/reordering and saving; Pitch excluded from tempo-rate control. Not equated with newer August 2025 manual."
+          },
+          {
+            "url": "https://mooer.jp/pages/news",
+            "title": "MOOER Japan Prime M2 release entries",
+            "access": "Exact original and Space Gray dated entries read2026-11-22",
+            "evidence": "Original Prime M2 sales March27,2025; Space Gray June12,2025 separately. Regional date, not global first shipment."
+          },
+          {
+            "url": "https://note.com/lepintl/n/nbd9f73e3bb9d",
+            "title": "LEP International Prime M2 regional release announcement",
+            "access": "Distributor-authored April2,2025 article read2026-11-22",
+            "evidence": "Reports new Prime M2 released and links the Japanese brand product; corroborates regional availability, not earlier global debut."
           }
         ],
-        "duration": null,
-        "audit_format": "firmware-pitch-v1"
+        "duration": {
+          "minimum_days": 544,
+          "maximum_days": 544,
+          "label": "1.49 years"
+        },
+        "audit_format": "firmware-pitch-v1",
+        "prior_audits": [
+          {
+            "model_key": "MOOER::Prime M2",
+            "checked_date": "2026-11-22",
+            "first_release": {
+              "date": null,
+              "precision": "unknown",
+              "kind": "first_hardware_release_unresolved",
+              "source_urls": [
+                "https://www.mooeraudio.com/products/221.html",
+                "https://www.mooeraudio.com/Downloads_xq/2.html"
+              ],
+              "note": "Global introduction says M2 kicks off 2025; December 29, 2024 app/support notes already add M2. Software availability is not first hardware shipment. Exact initial announcement/shipping date unresolved; Japanese March 2025 availability is regional, not necessarily global first."
+            },
+            "firmware": {
+              "version": "1.5.0",
+              "date": "2026-09-22",
+              "precision": "day",
+              "status": "verified_latest",
+              "source_urls": [
+                "https://www.mooeraudio.com/Downloads_xq/2.html",
+                "https://cn.mooeraudio.com/Downloads_xq/1.html"
+              ],
+              "note": "Both current manufacturer changelogs explicitly name M2 V1.5.0 firmware with NAM A2 loading. Android 4.0.0 stem separation/A2 Lite mobile import is separate. Payload not installed or independently examined. September 2025 English M2 1.2.0/date versus Chinese 1.2.9/date discrepancy retained in source trail, not used as latest."
+            },
+            "pitch": {
+              "status": "pitch_present_polyphony_unverified",
+              "algorithms": "Regional M2 1.1.9 list names MO Pitch Shift, Crystal (shimmer/modulation delay), Rainbow (modulated pitch delay), and RE Shimmer. Neither ambience names nor generic Pitch Shift establish polyphonic/monophonic tracking, shift interval or wet-only transposition.",
+              "preset": "80 stored tone slots; manual SAVE stores edited parameters/name to a chosen location. Pitch recall follows general tone saving; no independent test or separate extra factory bank established.",
+              "dsp": "Regional 1.1.9 table reports nine effect blocks and repeated-type support. Manual allows adding/removing/reordering modules. Current pitch DSP percentage, repeat/overload limits and impact of pitched delays/reverb are unpublished in checked sources; nine blocks is not CPU usage.",
+              "source_urls": [
+                "https://mooer.jp/pages/mooer-prime-s1-m1-m2",
+                "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf"
+              ],
+              "measurements": [],
+              "notes": [
+                "Manual excludes Pitch from modulation tempo-rate control; this does not establish pitch range. Historical regional inventory is not a verified current firmware 1.5.0 census. No quality/latency/DSP measurement."
+              ]
+            },
+            "sources": [
+              {
+                "url": "https://www.mooeraudio.com/products/221.html",
+                "title": "Prime M2 global manufacturer product",
+                "access": "Exact product introduction and manual filenames read",
+                "evidence": "2025 introduction context; newer August 2025 manual filename differs from inspected mirror."
+              },
+              {
+                "url": "https://www.mooeraudio.com/Downloads_xq/2.html",
+                "title": "Prime English support changelog",
+                "access": "Current explicit firmware and historical app sections read",
+                "evidence": "M2 1.5.0 September 22, 2026; Android separate; December 2024 M2 app support."
+              },
+              {
+                "url": "https://cn.mooeraudio.com/Downloads_xq/1.html",
+                "title": "Prime Chinese support changelog",
+                "access": "Current explicit firmware and historical sections read",
+                "evidence": "Confirms 1.5.0 date; older September 2025 package/date wording differs from English."
+              },
+              {
+                "url": "https://mooer.jp/pages/mooer-prime-s1-m1-m2",
+                "title": "Japanese Prime model comparison",
+                "access": "Exact M2 1.1.9 column and effect-name rows read",
+                "evidence": "Pitch Shift, Crystal, Rainbow, Shimmer; nine blocks/repeated types, 80 presets. Historical revision."
+              },
+              {
+                "url": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf",
+                "title": "Manufacturer M2 manual on RockBoard, V2.0 filename",
+                "access": "Exact M2 PDF editing/SAVE and tempo passages read",
+                "evidence": "Module editing/reordering and saving; Pitch excluded from tempo-rate control. Not equated with newer August 2025 manual."
+              }
+            ],
+            "duration": null,
+            "audit_format": "firmware-pitch-v1"
+          }
+        ]
       },
       "MOOER::Prime S1": {
         "model_key": "MOOER::Prime S1",
@@ -215182,8 +215275,8 @@
     "next_models": [],
     "status": "all_models_checked_with_explicit_gaps",
     "completed_model_count": 402,
-    "last_model": "MOOER::GE150 Plus Li",
-    "last_commit_parent": "cfdd1739414bbf1da3e82a25c341fbb03891f015",
+    "last_model": "MOOER::Prime M2",
+    "last_commit_parent": "da6b824674369d22a4099f7494a0d6876ab0be31",
     "format_version": "firmware-pitch-v1",
     "pitch_next_models": [],
     "pitch_completed_model_count": 402,
