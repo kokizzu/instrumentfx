@@ -3873,13 +3873,13 @@ Sources checked:
 
 **GX-1 control face**
 
-[![GX-1 control face](https://static.roland.com/products/gx-1/images/gallery/gx-1_main_gal.jpg)](https://static.roland.com/products/gx-1/images/gallery/gx-1_main_gal.jpg)
+[![GX-1 control face](images/boss-gx-1-top-182d453e94e3.jpg)](images/boss-gx-1-top-182d453e94e3.jpg)
 
 [Image source](https://www.boss.info/global/products/gx-1/). Manufacturer complete straight-down control face with active U01 color display, nine illuminated hexagonal buttons and blue footswitch bars. Three rotary controls, five other panel buttons, three footswitches and full expression pedal visible. Promotional display and illumination are not independently verified.
 
 **GX-1 rear connections**
 
-[![GX-1 rear connections](https://static.roland.com/products/gx-1/images/gallery/gx-1_gal_rear.jpg)](https://static.roland.com/products/gx-1/images/gallery/gx-1_gal_rear.jpg)
+[![GX-1 rear connections](images/boss-gx-1-rear-2c10e67c7518.jpg)](images/boss-gx-1-rear-2c10e67c7518.jpg)
 
 [Image source](https://www.boss.info/global/products/gx-1/). Manufacturer complete rear view: INPUT, OUTPUT R and L/MONO, miniature PHONES, CTL2,3/EXP2, USB-C and DC IN for BOSS PSA-S adapter. Ground terminal and security slot visible; power-on marking points to the input jack.
 

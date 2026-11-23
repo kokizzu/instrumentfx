@@ -227861,7 +227861,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/products/gx-1/images/gallery/gx-1_main_gal.jpg",
+            "image_url": "images/boss-gx-1-top-182d453e94e3.jpg",
             "source_url": "https://www.boss.info/global/products/gx-1/",
             "caption": "GX-1 control face",
             "note": "Manufacturer complete straight-down control face with active U01 color display, nine illuminated hexagonal buttons and blue footswitch bars. Three rotary controls, five other panel buttons, three footswitches and full expression pedal visible. Promotional display and illumination are not independently verified.",
@@ -227871,7 +227871,7 @@
             "sha256": "182d453e94e352d104bcfd3f60507ee6ce2570108fa2b7e0db5d1be46a0320dd"
           },
           "rear": {
-            "image_url": "https://static.roland.com/products/gx-1/images/gallery/gx-1_gal_rear.jpg",
+            "image_url": "images/boss-gx-1-rear-2c10e67c7518.jpg",
             "source_url": "https://www.boss.info/global/products/gx-1/",
             "caption": "GX-1 rear connections",
             "note": "Manufacturer complete rear view: INPUT, OUTPUT R and L/MONO, miniature PHONES, CTL2,3/EXP2, USB-C and DC IN for BOSS PSA-S adapter. Ground terminal and security slot visible; power-on marking points to the input jack.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GT-1"
+    "last_model": "BOSS::GX-1"
   }
 }
