@@ -2172,13 +2172,13 @@ Sources checked:
 
 **RP500 powered-on near-top view and rear panel composite**
 
-[![RP500 powered-on near-top view and rear panel composite](https://images.equipboard.com/blog_content/digitech-rp500-review.jpg)](https://images.equipboard.com/blog_content/digitech-rp500-review.jpg)
+[![RP500 powered-on near-top view and rear panel composite](images/digitech-rp500-top-263040d83c09.jpg)](images/digitech-rp500-top-263040d83c09.jpg)
 
 [Image source](https://equipboard.com/posts/best-multi-effect-guitar-pedal). Visually inspected: illuminated red display and switch LEDs; near-overhead product view, not a perfectly orthographic top-down photograph. Exact top-down replacement remains pending.
 
 **RP500 rear ports**
 
-[![RP500 rear ports](https://static.bax-shop.es/image/product/30243/19672/ecfa8c4a/URRP500_1.jpg)](https://static.bax-shop.es/image/product/30243/19672/ecfa8c4a/URRP500_1.jpg)
+[![RP500 rear ports](images/digitech-rp500-rear-c35224ce10d9.jpg)](images/digitech-rp500-rear-c35224ce10d9.jpg)
 
 [Image source](https://www.bax-shop.fr/pedale-multi-effets/digitech-rp500-pedale-d-effet-processeur-pour-guitare-electrique). Visually inspected RP500 rear sockets and labels; separate rear-panel photograph.
 
