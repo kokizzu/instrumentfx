@@ -3507,13 +3507,13 @@ Sources checked:
 
 **MOOER GS1000 powered-on top view**
 
-[![MOOER GS1000 powered-on top view](https://mooer.jp/cdn/shop/files/GS1000-01.png?v=1740539575&width=1946)](https://mooer.jp/cdn/shop/files/GS1000-01.png?v=1740539575&width=1946)
+[![MOOER GS1000 powered-on top view](images/mooer-gs1000-top-62916855bc21.png)](images/mooer-gs1000-top-62916855bc21.png)
 
 [Image source](https://mooer.jp/products/mooer-gs1000). Straight overhead standard white GS1000 with illuminated power, HOME indicator, light strip and 50 A display. Screen shows a complete preset DSP reading of 15%; this is not an isolated pitch-shifter cost.
 
 **MOOER GS1000 rear connections**
 
-[![MOOER GS1000 rear connections](https://mooer.jp/cdn/shop/files/GS1000-02.png?v=1740539575&width=1946)](https://mooer.jp/cdn/shop/files/GS1000-02.png?v=1740539575&width=1946)
+[![MOOER GS1000 rear connections](images/mooer-gs1000-rear-a5b4883bb978.jpg)](images/mooer-gs1000-rear-a5b4883bb978.jpg)
 
 [Image source](https://mooer.jp/products/mooer-gs1000). Straight full rear panel: EXP, guitar input, combo MIC input, MIC GAIN and 48V switch, stereo FX LOOP SEND/RETURN, balanced L/R outputs, phones, USB-C, MIDI IN/OUT and DC inlet. No separate XLR output pair; the combo XLR is an input. Connector functions follow the labeled panel and manual, not connector shape alone.
 
