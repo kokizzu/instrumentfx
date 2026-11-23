@@ -195,13 +195,13 @@ Sources checked:
 
 **Near-overhead Amp Mini control-face stock photograph, unlit.**
 
-[![Near-overhead Amp Mini control-face stock photograph, unlit.](https://www.pitbullaudio.com/media/catalog/product/v/l/vltn-dapper-amp-mini-1.jpg?bg-color=255%2C255%2C255&fit=bounds&height=&optimize=medium&width=800)](https://www.pitbullaudio.com/media/catalog/product/v/l/vltn-dapper-amp-mini-1.jpg?bg-color=255%2C255%2C255&fit=bounds&height=&optimize=medium&width=800)
+[![Near-overhead Amp Mini control-face stock photograph, unlit.](images/valeton-dapper-amp-mini-top-3f44fcf451f9.jpg)](images/valeton-dapper-amp-mini-top-3f44fcf451f9.jpg)
 
 [Image source](https://www.pitbullaudio.com/valeton-dapper-amp-mini-tuner-amp-modulation-reverb-guitar-effects-pedal.html). Exact DAPPER AMP Mini labeling, amplifier channel/type toggles and FX CH/DL/TR selector distinguish this from ordinary Dapper Mini. Visually 10 rotary controls, 3 footswitches and 4 small toggle switches; no separate pushbuttons visible. Tuner strip unlit. Slight perspective; powered-on strict overhead remains pending.
 
 **Angled Amp Mini connector-edge stock photograph.**
 
-[![Angled Amp Mini connector-edge stock photograph.](https://r2.gear4music.com/media/40/409464/1200/preview.jpg)](https://r2.gear4music.com/media/40/409464/1200/preview.jpg)
+[![Angled Amp Mini connector-edge stock photograph.](images/valeton-dapper-amp-mini-rear-c253ce782d55.jpg)](images/valeton-dapper-amp-mini-rear-c253ce782d55.jpg)
 
 [Image source](https://www.gear4music.com/Guitar-and-Bass/Valeton-Dapper-Mini-Preamp-and-FX/2C03). Panel explicitly reads DAPPER AMP Mini despite shortened retailer title. Visible 9V DC, quarter-inch IN, smaller headphone socket and quarter-inch OUT. Polarity/current not legible here. No XLR, USB or EXP inferred from this face; no all-edge absence audit or live power test.
 
