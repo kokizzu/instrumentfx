@@ -218911,7 +218911,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://www.headrushfx.com/assets/images/pdp/flexprime/flex-prime-gallery-01.png",
+            "image_url": "images/headrush-flex-prime-top-7caf2bf7ba2a.png",
             "source_url": "https://www.headrushfx.com/products/flex-prime/index.html",
             "caption": "HeadRush Flex Prime powered-on top-down product view",
             "note": "Manufacturer view from above with slight perspective; active 01-GTR-6505 Fat Drive rig and three illuminated orange/purple/green footswitch bars. Screen CPU value describes the whole pictured rig, not isolated pitch-shifter load. Product imagery may be composited.",
@@ -218921,7 +218921,7 @@
             "sha256": "7caf2bf7ba2a44a3cb2dbb6bb116f4f12af8c6add9a6c631586ae105618e8fe3"
           },
           "rear": {
-            "image_url": "https://www.headrushfx.com/assets/images/pdp/flexprime/flex-prime-gallery-09.png",
+            "image_url": "images/headrush-flex-prime-rear-a94476bc3717.png",
             "source_url": "https://www.headrushfx.com/products/flex-prime/index.html",
             "caption": "HeadRush Flex Prime rear connections",
             "note": "Manufacturer rear view clearly labels GUITAR IN, EXPR, FX SEND/RETURN, RIGHT and LEFT(MONO) outputs, PHONES, AUX, MIDI OUT/IN, USB-B, DC IN and POWER. DC input is marked 12V 3.0A center-positive. No XLR microphone input or USB-A port appears on this exact model; do not import Core/Prime connections.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "HeadRush::Core"
+    "last_model": "HeadRush::Flex Prime"
   }
 }
