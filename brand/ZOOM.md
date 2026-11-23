@@ -295,7 +295,7 @@ Sources checked:
 
 **506II manufacturer overhead product image**
 
-[![506II manufacturer overhead product image](https://www.zoom.co.jp/sites/default/files/products/downloads/images/506II_TOP.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/506II_TOP.jpg)
+[![506II manufacturer overhead product image](images/zoom-506ii-top-28b442483cc5.jpg)](images/zoom-506ii-top-28b442483cc5.jpg)
 
 [Image source](https://www.zoom.co.jp/products/guitar-bass-effects/bass/zoom-506ii). Visually checked complete dark-finish 506II BASS overhead product image, displaying red A1. Promotional image may be composited; actual powered operation is not established, so a real powered overhead photograph remains pending. One rotary selector, paired +/− keys, STORE and two footswitches; no built-in treadle. A1 is a patch, not firmware. Rear photo is a different unit.
 
