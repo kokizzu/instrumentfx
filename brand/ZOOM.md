@@ -4678,7 +4678,7 @@ Sources checked:
 
 **G2.1Nu powered control face**
 
-[![G2.1Nu powered control face](https://cdn.mos.cms.futurecdn.net/f0f08d4d97ddb02749db7181f0684040.jpg)](https://cdn.mos.cms.futurecdn.net/f0f08d4d97ddb02749db7181f0684040.jpg)
+[![G2.1Nu powered control face](images/zoom-g2-1nu-top-d4fb1c022741.jpg)](images/zoom-g2-1nu-top-d4fb1c022741.jpg)
 
 [Image source](https://www.musicradar.com/reviews/guitars/zoom-g2nu-g2-1nu-279134). Review photograph of an actual powered G2.1Nu, full near-overhead control face with complete treadle. Amber LCD shows 14:JF Riff, DIRECT and VOLUME LEDs are lit, and a DC cable is connected. Four rotary controls, two footswitches and eight pushbuttons are visible; not the older G2.1u.
 
