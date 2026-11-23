@@ -9188,13 +9188,13 @@ Sources checked:
 
 **MS-70CDR control face**
 
-[![MS-70CDR control face](https://livedoor.blogimg.jp/bemr/imgs/8/1/81da3df6.jpg)](https://livedoor.blogimg.jp/bemr/imgs/8/1/81da3df6.jpg)
+[![MS-70CDR control face](images/zoom-ms-70cdr-top-c9e18e62d8dc.jpg)](images/zoom-ms-70cdr-top-c9e18e62d8dc.jpg)
 
 [Image source](https://bemr.livedoor.blog/archives/6600109.html). Actual powered original MS-70CDR, with ZNR interface and red status LED illuminated. Three knobs, central footswitch and four navigation-ring buttons are visible. The overhead view is slightly angled and crops the uppermost enclosure edge; a complete perpendicular powered replacement remains pending.
 
 **MS-70CDR rear connections**
 
-[![MS-70CDR rear connections](https://zoomcorp.com/media/original_images/MS-70CDR_rear.jpg.0x1600_q80_crop-%2Cscale_size_canvas.jpg)](https://zoomcorp.com/media/original_images/MS-70CDR_rear.jpg.0x1600_q80_crop-%2Cscale_size_canvas.jpg)
+[![MS-70CDR rear connections](images/zoom-ms-70cdr-rear-4b41cdae089d.jpg)](images/zoom-ms-70cdr-rear-4b41cdae089d.jpg)
 
 [Image source](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr/). Official complete rear view shows Mini-USB and center-negative DC9V 500mA power input. Stereo L/MONO and R inputs and outputs are on the sides; their socket openings are outside this rear view.
 
