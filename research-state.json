@@ -223125,7 +223125,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.sonicake.com/cdn/shop/files/QDS-05-1.jpg?v=1709263314&width=1096",
+            "image_url": "images/sonicake-b-factory-qds-05-top-5c81aa15749a.jpg",
             "source_url": "https://www.sonicake.com/products/b-factory",
             "caption": "B Factory QDS-05 powered-on front/top perspective: seven rotary controls, two footswitches and both green indicators lit; no display.",
             "note": "Powered-on exact model confirmed, but this is angled rather than perpendicular overhead. An inspected [unlit overhead picture](https://www.sonicake.com/cdn/shop/files/QDS-05_9d7aa949-6979-4581-aac9-72f833ad7e42.jpg?v=1709263313&width=1096) shows the full control layout. Powered-on perpendicular overhead remains a gap.",
@@ -223135,7 +223135,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-05ManuelJP.png",
+            "image_url": "images/sonicake-b-factory-qds-05-rear-b987b6551b24.png",
             "source_url": "https://www.hotone.jp/brands/sonicake/products/b-factory",
             "caption": "B Factory official connector diagram: instrument input, main output, DC 9 V, EQ PRE/POST selector, ground-lift selector and side XLR output.",
             "note": "Readable manufacturer regional leaflet diagram, not a rear photograph. It confirms seven rotaries, two footswitches and two selectors. The printed 92 mA conflicts with current official product-page 70 mA; both remain qualified. An inspected [XLR-side photograph](https://www.sonicake.com/cdn/shop/files/QDS-05-2.jpg?v=1709263314&width=1096) supplements this diagram; clear rear-edge socket photography remains a gap.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::Levitate QDS-02"
+    "last_model": "Sonicake::B Factory QDS-05"
   }
 }

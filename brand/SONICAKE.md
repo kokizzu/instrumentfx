@@ -129,13 +129,13 @@ Sources checked:
 
 **B Factory QDS-05 powered-on front/top perspective: seven rotary controls, two footswitches and both green indicators lit; no display.**
 
-[![B Factory QDS-05 powered-on front/top perspective: seven rotary controls, two footswitches and both green indicators lit; no display.](https://www.sonicake.com/cdn/shop/files/QDS-05-1.jpg?v=1709263314&width=1096)](https://www.sonicake.com/cdn/shop/files/QDS-05-1.jpg?v=1709263314&width=1096)
+[![B Factory QDS-05 powered-on front/top perspective: seven rotary controls, two footswitches and both green indicators lit; no display.](images/sonicake-b-factory-qds-05-top-5c81aa15749a.jpg)](images/sonicake-b-factory-qds-05-top-5c81aa15749a.jpg)
 
 [Image source](https://www.sonicake.com/products/b-factory). Powered-on exact model confirmed, but this is angled rather than perpendicular overhead. An inspected [unlit overhead picture](https://www.sonicake.com/cdn/shop/files/QDS-05_9d7aa949-6979-4581-aac9-72f833ad7e42.jpg?v=1709263313&width=1096) shows the full control layout. Powered-on perpendicular overhead remains a gap.
 
 **B Factory official connector diagram: instrument input, main output, DC 9 V, EQ PRE/POST selector, ground-lift selector and side XLR output.**
 
-[![B Factory official connector diagram: instrument input, main output, DC 9 V, EQ PRE/POST selector, ground-lift selector and side XLR output.](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-05ManuelJP.png)](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-05ManuelJP.png)
+[![B Factory official connector diagram: instrument input, main output, DC 9 V, EQ PRE/POST selector, ground-lift selector and side XLR output.](images/sonicake-b-factory-qds-05-rear-b987b6551b24.png)](images/sonicake-b-factory-qds-05-rear-b987b6551b24.png)
 
 [Image source](https://www.hotone.jp/brands/sonicake/products/b-factory). Readable manufacturer regional leaflet diagram, not a rear photograph. It confirms seven rotaries, two footswitches and two selectors. The printed 92 mA conflicts with current official product-page 70 mA; both remain qualified. An inspected [XLR-side photograph](https://www.sonicake.com/cdn/shop/files/QDS-05-2.jpg?v=1709263314&width=1096) supplements this diagram; clear rear-edge socket photography remains a gap.
 
