@@ -47,7 +47,7 @@ Sources checked:
 
 **GR-55 rear ports**
 
-[![GR-55 rear ports](https://img.kytary.com/eshop_cz/velky_v2/na/637199766186270000/0c46a068/64734091/roland-gr-55gk-bk.jpg)](https://img.kytary.com/eshop_cz/velky_v2/na/637199766186270000/0c46a068/64734091/roland-gr-55gk-bk.jpg)
+[![GR-55 rear ports](images/roland-gr-55-rear-da933956222d.jpg)](images/roland-gr-55-rear-da933956222d.jpg)
 
 [Image source](https://kytary.cz/roland-gr-55gk-bk/HN133049/). Visually inspected rear black GR-55: 13-pin GK IN, GUITAR OUT (not input), OUTPUT R/L-MONO, PHONES, MIDI OUT marked V-LINK and MIDI IN, COMPUTER USB, power switch, DC IN and cable restraint. V-LINK is a MIDI function label, not an extra port. Side USB MEMORY is outside this rear view; rear screen appears unlit.
 
