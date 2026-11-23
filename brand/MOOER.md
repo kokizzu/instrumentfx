@@ -72,13 +72,13 @@ Sources checked:
 
 **MOOER Black Truck powered-on top view**
 
-[![MOOER Black Truck powered-on top view](https://mooer.jp/cdn/shop/products/imgrc0075340456.jpg?v=1648211002&width=1445)](https://mooer.jp/cdn/shop/products/imgrc0075340456.jpg?v=1648211002&width=1445)
+[![MOOER Black Truck powered-on top view](images/mooer-black-truck-top-d50524ba25bf.jpg)](images/mooer-black-truck-top-d50524ba25bf.jpg)
 
 [Image source](https://mooer.jp/products/blacktruck). Visually inspected powered-on face view, with illuminated tuner, rotary indicators and six footswitch rings. Slightly oblique near-overhead photograph; a strictly perpendicular overhead view remains pending.
 
 **MOOER Black Truck rear ports**
 
-[![MOOER Black Truck rear ports](https://mooer.jp/cdn/shop/products/Black-Truck-02.jpg?v=1666333630&width=1445)](https://mooer.jp/cdn/shop/products/Black-Truck-02.jpg?v=1666333630&width=1445)
+[![MOOER Black Truck rear ports](images/mooer-black-truck-rear-e844f71a3554.jpg)](images/mooer-black-truck-rear-e844f71a3554.jpg)
 
 [Image source](https://mooer.jp/products/blacktruck). Visually inspected complete rear: INPUT, FX LOOP SEND/RETURN, OUTPUT L(MONO)/R, PHONE with independent MIN/MAX level, DC IN 9V 1A and cable restraint. The existing manufacturer PHONES diameter conflict remains unresolved; connector appearance is not a calibrated measurement.
 

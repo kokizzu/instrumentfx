@@ -221503,7 +221503,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://mooer.jp/cdn/shop/products/imgrc0075340456.jpg?v=1648211002&width=1445",
+            "image_url": "images/mooer-black-truck-top-d50524ba25bf.jpg",
             "source_url": "https://mooer.jp/products/blacktruck",
             "caption": "MOOER Black Truck powered-on top view",
             "note": "Visually inspected powered-on face view, with illuminated tuner, rotary indicators and six footswitch rings. Slightly oblique near-overhead photograph; a strictly perpendicular overhead view remains pending.",
@@ -221513,7 +221513,7 @@
             "sha256": "d50524ba25bf1e42822ba97141aac96e709465aaabfc7d6e76d4b3285ce2582e"
           },
           "rear": {
-            "image_url": "https://mooer.jp/cdn/shop/products/Black-Truck-02.jpg?v=1666333630&width=1445",
+            "image_url": "images/mooer-black-truck-rear-e844f71a3554.jpg",
             "source_url": "https://mooer.jp/products/blacktruck",
             "caption": "MOOER Black Truck rear ports",
             "note": "Visually inspected complete rear: INPUT, FX LOOP SEND/RETURN, OUTPUT L(MONO)/R, PHONE with independent MIN/MAX level, DC IN 9V 1A and cable restraint. The existing manufacturer PHONES diameter conflict remains unresolved; connector appearance is not a calibrated measurement.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::PE100"
+    "last_model": "MOOER::Black Truck"
   }
 }
