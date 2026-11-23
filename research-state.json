@@ -220879,7 +220879,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/korg-ax3000g-6051642.jpg",
+            "image_url": "images/korg-ax3000g-top-f39875f161dd.jpg",
             "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/korg/Ax3000g/",
             "caption": "Korg AX3000G top controls",
             "note": "Visually checked: exact AX3000G, complete powered-on control surface with illuminated LCD, numeric display and LEDs; near-overhead photograph with slight perspective, not a perfectly orthographic top-down view.",
@@ -220889,7 +220889,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://cdn.mos.cms.futurecdn.net/d6e5f0232affd9bda962d33ecd033927.jpg",
+            "image_url": "images/korg-ax3000g-rear-e2205ae2a721.jpg",
             "source_url": "https://www.musicradar.com/reviews/guitars/korg-ax3000g-24723",
             "caption": "Korg AX3000G rear ports",
             "note": "Visually checked: exact AX3000G rear panel with readable input, aux, insert send/return, stereo output, headphone, MIDI and optical S/PDIF connections.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX3000B"
+    "last_model": "Korg::AX3000G"
   }
 }
