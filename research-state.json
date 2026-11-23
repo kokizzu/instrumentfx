@@ -221957,7 +221957,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG20.jpg",
+            "image_url": "images/nux-mg-20-top-f2138560b649.jpg",
             "source_url": "https://nuxaudio.com/product/mg20/",
             "caption": "NUX MG-20 — top controls",
             "visual_checked": true,
@@ -221967,7 +221967,7 @@
             "sha256": "f2138560b649e91308b2b51474b7b63c7f8fb0471877434b8a473e5dd26752a1"
           },
           "rear": {
-            "image_url": "https://stompbox.in/cdn/shop/files/Untitleddesign_1_42e08835-75aa-42a6-95bf-b8eea222e132.jpg?v=1703232938&width=1500",
+            "image_url": "images/nux-mg-20-rear-a838b12acb1c.jpg",
             "source_url": "https://stompbox.in/products/nux-mg-20-guitar-modeling-processor",
             "caption": "NUX MG-20 — rear ports",
             "visual_checked": true,
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MG-200"
+    "last_model": "NUX::MG-20"
   }
 }

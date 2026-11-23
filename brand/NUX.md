@@ -723,13 +723,13 @@ Sources checked:
 
 **NUX MG-20 — top controls**
 
-[![NUX MG-20 — top controls](https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG20.jpg)](https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG20.jpg)
+[![NUX MG-20 — top controls](images/nux-mg-20-top-f2138560b649.jpg)](images/nux-mg-20-top-f2138560b649.jpg)
 
 [Image source](https://nuxaudio.com/product/mg20/). Manufacturer overhead product image shows the MG-20 with its color display illuminated on the Classic Lead amp editing page, built-in expression pedal and three footswitches.
 
 **NUX MG-20 — rear ports**
 
-[![NUX MG-20 — rear ports](https://stompbox.in/cdn/shop/files/Untitleddesign_1_42e08835-75aa-42a6-95bf-b8eea222e132.jpg?v=1703232938&width=1500)](https://stompbox.in/cdn/shop/files/Untitleddesign_1_42e08835-75aa-42a6-95bf-b8eea222e132.jpg?v=1703232938&width=1500)
+[![NUX MG-20 — rear ports](images/nux-mg-20-rear-a838b12acb1c.jpg)](images/nux-mg-20-rear-a838b12acb1c.jpg)
 
 [Image source](https://stompbox.in/products/nux-mg-20-guitar-modeling-processor). Retailer straight rear view shows input, AUX, stereo R/L-mono outputs, headphone socket, EXT.PEDAL, SD card slot, USB-B, DC input and power switch. Display is hidden, so powered-on status cannot be established from this rear photograph. USB audio/editor capability is not inferred from the socket.
 
