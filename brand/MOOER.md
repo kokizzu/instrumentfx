@@ -190,13 +190,13 @@ Sources checked:
 
 **MOOER original GE100 powered controls**
 
-[![MOOER original GE100 powered controls](https://karesusuki1991.up.seesaa.net/image/Mooer20GE100.jpg)](https://karesusuki1991.up.seesaa.net/image/Mooer20GE100.jpg)
+[![MOOER original GE100 powered controls](images/mooer-ge100-original-top-211ae38c92ec.jpg)](images/mooer-ge100-original-top-211ae38c92ec.jpg)
 
 [Image source](https://karesusuki1991.seesaa.net/article/MOOER-GE200.html). Visually checked: original GE100, complete powered-on control surface with orange P80 ELE DIST display and illuminated indicators. Near-overhead view has slight perspective; exact orthographic top-down photograph remains pending. Source article discusses GE200 but this pictured unit is visibly GE100.
 
 **MOOER original GE100 rear connections**
 
-[![MOOER original GE100 rear connections](https://r2.gear4music.com/media/46/469856/1200/preview.jpg)](https://r2.gear4music.com/media/46/469856/1200/preview.jpg)
+[![MOOER original GE100 rear connections](images/mooer-ge100-original-rear-00a87ee989e3.jpg)](images/mooer-ge100-original-rear-00a87ee989e3.jpg)
 
 [Image source](https://www.gear4music.com/Guitar-and-Bass/Mooer-GE100-Multi-Effects-Processor/2A79). Visually checked: original GE100 complete rear connection panel, showing INPUT, shared OUTPUT/PHONES, AUX IN and DC9V 300mA inlet. Recessed dark labels have low contrast but are readable; no separate headphone socket shown.
 
