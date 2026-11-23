@@ -227473,7 +227473,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://assets.st-note.com/img/1706680334797-OjO1huuERu.jpg?width=1200",
+            "image_url": "images/zoom-ms-60b-top-1f5c37f65112.jpg",
             "source_url": "https://note.com/jhhsshnsk/n/ne4d6c3ede887",
             "caption": "MS-60B control face",
             "note": "Actual powered original MS-60B with illuminated RackComp display and red status LED. Complete control layout shows three knobs, central footswitch and four navigation-ring buttons. This photograph is oblique, not perpendicular top-down; a straight-down powered replacement remains pending.",
@@ -227483,7 +227483,7 @@
             "sha256": "1f5c37f6511279bb8cf3281f7dcb54eebcf76f026f622039879d9b16957ac615"
           },
           "rear": {
-            "image_url": "https://zoomcorp.com/media/original_images/MS-60B_rear.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+            "image_url": "images/zoom-ms-60b-rear-c91ead2763fd.jpg",
             "source_url": "https://zoomcorp.com/ja/jp/multi-effects/multistomp-pedals/ms-60b/",
             "caption": "MS-60B rear connections",
             "note": "Official complete rear view shows Mini-USB and the center-negative DC9V 500mA power input. Mono bass input and L/MONO/R outputs are on the sides; socket openings are outside this rear view.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::MS-50G Plus"
+    "last_model": "Zoom::MS-60B"
   }
 }
