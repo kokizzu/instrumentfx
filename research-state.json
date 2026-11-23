@@ -224105,7 +224105,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.njuskalo.hr/image-w920x690/studijska-oprema/prodajem-tc-electronic-m350-dual-engine-effect-processor-slika-171969771.jpg",
+            "image_url": "images/tc-electronic-m350-top-d30468f53c51.jpg",
             "source_url": "https://www.njuskalo.hr/studijska-oprema/prodajem-tc-electronic-m350-dual-engine-effect-processor-oglas-37316858",
             "caption": "M350 — powered control face and top chassis photograph",
             "note": "Seller hardware photograph shows exact M350 face,illuminated01 display and connected mains lead. Camera looks down at the top chassis and vertical front controls at an angle;strict overhead remains pending. Ten rotary controls visible;small button labels are too soft for a new complete census. Rack handles are accessories,not footswitches.",
@@ -224115,7 +224115,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/tc-electronic-m350-6596664.jpeg",
+            "image_url": "images/tc-electronic-m350-rear-f760802ef5c0.jpg",
             "source_url": "https://en.audiofanzine.com/multi-effects-processor/tc-electronic/M350/",
             "caption": "M350 — exact-model rear connection photograph",
             "note": "TYPE:M350 label readable. Two inputs,two outputs,routing switch,RCA S/PDIF DI/DO,MIDI IN/OUT,pedal IN andIEC mains. Printed send/return diagrams are routing examples,not extra sockets. No optical S/PDIF,USB or XLR audio connectors visible. Label100–240VAC50–60Hz15W;pedal is momentary bypass/tap per manual,not proven continuous EXP.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC Electronic::M100"
+    "last_model": "TC Electronic::M350"
   }
 }

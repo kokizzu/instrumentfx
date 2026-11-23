@@ -233,13 +233,13 @@ Sources checked:
 
 **M350 — powered control face and top chassis photograph**
 
-[![M350 — powered control face and top chassis photograph](https://www.njuskalo.hr/image-w920x690/studijska-oprema/prodajem-tc-electronic-m350-dual-engine-effect-processor-slika-171969771.jpg)](https://www.njuskalo.hr/image-w920x690/studijska-oprema/prodajem-tc-electronic-m350-dual-engine-effect-processor-slika-171969771.jpg)
+[![M350 — powered control face and top chassis photograph](images/tc-electronic-m350-top-d30468f53c51.jpg)](images/tc-electronic-m350-top-d30468f53c51.jpg)
 
 [Image source](https://www.njuskalo.hr/studijska-oprema/prodajem-tc-electronic-m350-dual-engine-effect-processor-oglas-37316858). Seller hardware photograph shows exact M350 face,illuminated01 display and connected mains lead. Camera looks down at the top chassis and vertical front controls at an angle;strict overhead remains pending. Ten rotary controls visible;small button labels are too soft for a new complete census. Rack handles are accessories,not footswitches.
 
 **M350 — exact-model rear connection photograph**
 
-[![M350 — exact-model rear connection photograph](https://medias.audiofanzine.com/images/normal/tc-electronic-m350-6596664.jpeg)](https://medias.audiofanzine.com/images/normal/tc-electronic-m350-6596664.jpeg)
+[![M350 — exact-model rear connection photograph](images/tc-electronic-m350-rear-f760802ef5c0.jpg)](images/tc-electronic-m350-rear-f760802ef5c0.jpg)
 
 [Image source](https://en.audiofanzine.com/multi-effects-processor/tc-electronic/M350/). TYPE:M350 label readable. Two inputs,two outputs,routing switch,RCA S/PDIF DI/DO,MIDI IN/OUT,pedal IN andIEC mains. Printed send/return diagrams are routing examples,not extra sockets. No optical S/PDIF,USB or XLR audio connectors visible. Label100–240VAC50–60Hz15W;pedal is momentary bypass/tap per manual,not proven continuous EXP.
 
