@@ -219706,7 +219706,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://line6.com/data/l/0a060072211146f7f2b3c6aab/image/jpeg/PODsupsup%20X3%20Live%20(Top%20Down)%20-%20Lo%20Rez.jpeg",
+            "image_url": "images/line-6-pod-x3-live-top-b92e94d1735b.jpg",
             "source_url": "https://line6.com/company/images/?families=57",
             "caption": "POD X3 Live powered-on top-down view",
             "note": "Manufacturer Top Down image; LCD text/backlight and multiple footswitch LEDs visibly lit. Full control surface and treadle shown.",
@@ -219716,7 +219716,7 @@
             "sha256": "b92e94d1735b699da228962189fa6b8ddd522378be0ed11d7aebd41ad9bdca7a"
           },
           "rear": {
-            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/49165/257487/YLINE612627306__01390.1685961715.jpg?c=1",
+            "image_url": "images/line-6-pod-x3-live-rear-82328f71cf1e.jpg",
             "source_url": "https://richtonemusic.co.uk/line-6-pod-x3-live-with-psu-2nd-hand/",
             "caption": "POD X3 Live rear connections",
             "note": "Rich Tone exact X3 Live specimen. Full rear connection edge shown at an angle, including Pedal 2, guitar/CD-MP3, Live/Direct outs, phones, aux/mic, FX loop, Variax, MIDI, USB and power; some small labels require zoom.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD HD400"
+    "last_model": "Line 6::POD X3 Live"
   }
 }

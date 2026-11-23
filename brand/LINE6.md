@@ -4306,13 +4306,13 @@ Sources checked:
 
 **POD X3 Live powered-on top-down view**
 
-[![POD X3 Live powered-on top-down view](https://line6.com/data/l/0a060072211146f7f2b3c6aab/image/jpeg/PODsupsup%20X3%20Live%20(Top%20Down)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a060072211146f7f2b3c6aab/image/jpeg/PODsupsup%20X3%20Live%20(Top%20Down)%20-%20Lo%20Rez.jpeg)
+[![POD X3 Live powered-on top-down view](images/line-6-pod-x3-live-top-b92e94d1735b.jpg)](images/line-6-pod-x3-live-top-b92e94d1735b.jpg)
 
 [Image source](https://line6.com/company/images/?families=57). Manufacturer Top Down image; LCD text/backlight and multiple footswitch LEDs visibly lit. Full control surface and treadle shown.
 
 **POD X3 Live rear connections**
 
-[![POD X3 Live rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/49165/257487/YLINE612627306__01390.1685961715.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/49165/257487/YLINE612627306__01390.1685961715.jpg?c=1)
+[![POD X3 Live rear connections](images/line-6-pod-x3-live-rear-82328f71cf1e.jpg)](images/line-6-pod-x3-live-rear-82328f71cf1e.jpg)
 
 [Image source](https://richtonemusic.co.uk/line-6-pod-x3-live-with-psu-2nd-hand/). Rich Tone exact X3 Live specimen. Full rear connection edge shown at an angle, including Pedal 2, guitar/CD-MP3, Live/Direct outs, phones, aux/mic, FX loop, Variax, MIDI, USB and power; some small labels require zoom.
 
