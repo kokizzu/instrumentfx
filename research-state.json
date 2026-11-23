@@ -221479,7 +221479,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://mooer.jp/cdn/shop/products/imgrc0075139607.jpg?v=1648210819&width=1445",
+            "image_url": "images/mooer-pe100-top-6bc774e4b2fb.jpg",
             "source_url": "https://mooer.jp/products/mooerpe100",
             "caption": "MOOER PE100 powered-on top view",
             "note": "Visually inspected powered-on face view: illuminated PREAMP OD display, effect-chain labels and touch controls. This is a slightly oblique near-overhead product photograph; a strictly perpendicular overhead photograph remains pending.",
@@ -221489,7 +221489,7 @@
             "sha256": "6bc774e4b2fb60df0f9331332f0c7823e9c750d8e4569169b41edf44af14f9e3"
           },
           "rear": {
-            "image_url": "https://mooer.jp/cdn/shop/products/PE100_4.jpg?v=1667197601&width=1445",
+            "image_url": "images/mooer-pe100-rear-b1625709b2c3.jpg",
             "source_url": "https://mooer.jp/products/mooerpe100",
             "caption": "MOOER PE100 rear ports",
             "note": "Visually inspected complete rear connector view: INPUT, OUTPUT, AUX IN, PHONES and DC9V 300mA labels. No USB, MIDI or external expression connector is shown.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE100 Pro Li"
+    "last_model": "MOOER::PE100"
   }
 }

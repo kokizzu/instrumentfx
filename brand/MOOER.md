@@ -4003,13 +4003,13 @@ Sources checked:
 
 **MOOER PE100 powered-on top view**
 
-[![MOOER PE100 powered-on top view](https://mooer.jp/cdn/shop/products/imgrc0075139607.jpg?v=1648210819&width=1445)](https://mooer.jp/cdn/shop/products/imgrc0075139607.jpg?v=1648210819&width=1445)
+[![MOOER PE100 powered-on top view](images/mooer-pe100-top-6bc774e4b2fb.jpg)](images/mooer-pe100-top-6bc774e4b2fb.jpg)
 
 [Image source](https://mooer.jp/products/mooerpe100). Visually inspected powered-on face view: illuminated PREAMP OD display, effect-chain labels and touch controls. This is a slightly oblique near-overhead product photograph; a strictly perpendicular overhead photograph remains pending.
 
 **MOOER PE100 rear ports**
 
-[![MOOER PE100 rear ports](https://mooer.jp/cdn/shop/products/PE100_4.jpg?v=1667197601&width=1445)](https://mooer.jp/cdn/shop/products/PE100_4.jpg?v=1667197601&width=1445)
+[![MOOER PE100 rear ports](images/mooer-pe100-rear-b1625709b2c3.jpg)](images/mooer-pe100-rear-b1625709b2c3.jpg)
 
 [Image source](https://mooer.jp/products/mooerpe100). Visually inspected complete rear connector view: INPUT, OUTPUT, AUX IN, PHONES and DC9V 300mA labels. No USB, MIDI or external expression connector is shown.
 
