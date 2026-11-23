@@ -502,7 +502,7 @@ Sources checked:
 
 **607 rear connectors**
 
-[![607 rear connectors](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/55728/330809/YZOOM13238306__46907.1704887434.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/55728/330809/YZOOM13238306__46907.1704887434.jpg?c=1)
+[![607 rear connectors](images/zoom-607-rear-28106262693a.jpg)](images/zoom-607-rear-28106262693a.jpg)
 
 [Image source](https://richtonemusic.co.uk/zoom-607-bass-multi-fx-unit-2nd-hand/). Visually checked angled actual607 BASS rear, all three connectors clearly visible: INPUT, recessed DC9V and shared OUTPUT(PHONES). No separate headphone, external CONTROL/EXP, USB or MIDI socket shown. No cables attached/display unlit; different unit from top view. 300mA marking is supply rating, not measured consumption.
 
