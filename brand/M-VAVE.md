@@ -337,13 +337,13 @@ Sources checked:
 
 **CUBE BABY AC powered-on overhead and rear composite**
 
-[![CUBE BABY AC powered-on overhead and rear composite](https://www.m-vave.com/images/productInfo/cube-baby-ac-4.webp)](https://www.m-vave.com/images/productInfo/cube-baby-ac-4.webp)
+[![CUBE BABY AC powered-on overhead and rear composite](images/m-vave-cube-baby-ac-rear-e367199569be.webp)](images/m-vave-cube-baby-ac-rear-e367199569be.webp)
 
 [Image source](https://www.m-vave.com/product?id=cube-baby-ac). Manufacturer gold AC composite: lower overhead panel shows illuminated knobs, TREB/MID/BASS, COMP, ANTI FB, MOD, SPACE, TIME, IR CAB and VOLUME with A/B/C footswitches. Upper panel shows the complete connector face. AC identity checked from its unique controls; marketed imagery is not a hardware test or evidence of every retail revision.
 
 **CUBE BABY AC rear ports — upper panel of composite**
 
-[![CUBE BABY AC rear ports — upper panel of composite](https://www.m-vave.com/images/productInfo/cube-baby-ac-4.webp)](https://www.m-vave.com/images/productInfo/cube-baby-ac-4.webp)
+[![CUBE BABY AC rear ports — upper panel of composite](images/m-vave-cube-baby-ac-rear-e367199569be.webp)](images/m-vave-cube-baby-ac-rear-e367199569be.webp)
 
 [Image source](https://www.m-vave.com/product?id=cube-baby-ac). Upper manufacturer panel shows IN, power slide, USB, separate phone-icon socket, headphones and OUT. The USB and phone sockets look USB-C-shaped in this picture; older AC annotated rear image below has narrower micro-USB-shaped connectors. Preserve physical revision uncertainty; phone recording is not a second USB audio interface merely because its connector resembles USB. No EXP/XLR/MIDI/effects loop visible. [Older annotated AC rear image](https://acdn-us.mitiendanube.com/stores/283/003/products/cube-baby-9-nv1-e6f0d07d1eac3f6c9016715473072839-1024-1024.webp).
 

@@ -222571,7 +222571,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.m-vave.com/images/productInfo/cube-baby-ac-4.webp",
+            "image_url": "images/m-vave-cube-baby-ac-rear-e367199569be.webp",
             "source_url": "https://www.m-vave.com/product?id=cube-baby-ac",
             "caption": "CUBE BABY AC powered-on overhead and rear composite",
             "note": "Manufacturer gold AC composite: lower overhead panel shows illuminated knobs, TREB/MID/BASS, COMP, ANTI FB, MOD, SPACE, TIME, IR CAB and VOLUME with A/B/C footswitches. Upper panel shows the complete connector face. AC identity checked from its unique controls; marketed imagery is not a hardware test or evidence of every retail revision.",
@@ -222581,7 +222581,7 @@
             "sha256": "e367199569bed30bf1f663836deb261bc4a6cc44cd130b6fd0526d9135b0b592"
           },
           "rear": {
-            "image_url": "https://www.m-vave.com/images/productInfo/cube-baby-ac-4.webp",
+            "image_url": "images/m-vave-cube-baby-ac-rear-e367199569be.webp",
             "source_url": "https://www.m-vave.com/product?id=cube-baby-ac",
             "caption": "CUBE BABY AC rear ports — upper panel of composite",
             "note": "Upper manufacturer panel shows IN, power slide, USB, separate phone-icon socket, headphones and OUT. The USB and phone sockets look USB-C-shaped in this picture; older AC annotated rear image below has narrower micro-USB-shaped connectors. Preserve physical revision uncertainty; phone recording is not a second USB audio interface merely because its connector resembles USB. No EXP/XLR/MIDI/effects loop visible. [Older annotated AC rear image](https://acdn-us.mitiendanube.com/stores/283/003/products/cube-baby-9-nv1-e6f0d07d1eac3f6c9016715473072839-1024-1024.webp).",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::CUBE BABY electric"
+    "last_model": "M-VAVE::CUBE BABY AC"
   }
 }
