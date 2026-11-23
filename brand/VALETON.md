@@ -1419,13 +1419,13 @@ Sources checked:
 
 **GP-50 powered-on retailer photograph — angled overhead**
 
-[![GP-50 powered-on retailer photograph — angled overhead](https://nafiriguitar.com/cdn/shop/files/0467108A-E9C8-4458-9803-85B1C57AEA36.jpg?v=1768317568&width=1946)](https://nafiriguitar.com/cdn/shop/files/0467108A-E9C8-4458-9803-85B1C57AEA36.jpg?v=1768317568&width=1946)
+[![GP-50 powered-on retailer photograph — angled overhead](images/valeton-gp-50-top-436482084aad.jpg)](images/valeton-gp-50-top-436482084aad.jpg)
 
 [Image source](https://nafiriguitar.com/products/valeton-gp-50-multi-effects-processor). Visually inspected physical GP-50 on textured carpet: active 01 Neo Soul display, both illuminated blue footswitch rings, four knobs, four buttons and full enclosure visible. The GP-50 model marking is legible. Photograph is oblique, not a perpendicular top-down view; strict overhead replacement remains pending. Screen patch and battery icon do not establish installed firmware, pitch polyphony, battery runtime or DSP utilization. Official rear connector image retained separately.
 
 **Official GP-50 rear connector-edge stock image**
 
-[![Official GP-50 rear connector-edge stock image](https://shop.valeton.net/cdn/shop/files/GP-50_Top_Hi_V01_251027_1445x.png?v=1764741938)](https://shop.valeton.net/cdn/shop/files/GP-50_Top_Hi_V01_251027_1445x.png?v=1764741938)
+[![Official GP-50 rear connector-edge stock image](images/valeton-gp-50-rear-6f24eb95ef36.png)](images/valeton-gp-50-rear-6f24eb95ef36.png)
 
 [Image source](https://shop.valeton.net/products/gp-50). Visually inspected exact GP-50 rear: PHONES, MIDI IN, MIDI THRU, USB-C and DC9V500mA center-negative marking. Side-mounted quarter-inch connections are only partly visible here; this is the rear row, not a complete readable side-port inventory. TRS MIDI wiring and electrical behavior require manual evidence.
 
