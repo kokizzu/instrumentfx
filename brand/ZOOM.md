@@ -9291,13 +9291,13 @@ Sources checked:
 
 **MS-70CDR+ control face**
 
-[![MS-70CDR+ control face](https://www.gitarrebass.de/app/uploads/2025/04/Zoom-MultiStomp_MS-70-CDR_.jpg)](https://www.gitarrebass.de/app/uploads/2025/04/Zoom-MultiStomp_MS-70-CDR_.jpg)
+[![MS-70CDR+ control face](images/zoom-ms-70cdr-plus-top-adcf42a5a33d.jpg)](images/zoom-ms-70cdr-plus-top-adcf42a5a33d.jpg)
 
 [Image source](https://www.gitarrebass.de/equipment/volle-breitseite-zoom-multistomp-pedale-im-test/). Actual powered MS-70CDR+ photographed for a magazine review, with ANALOG DELAY LCD and illuminated red status LED. Four encoder knobs, four cross-key switches and central footswitch are fully visible and unobstructed. The photograph is angled overhead rather than perpendicular top-down; a straight-down replacement remains pending.
 
 **MS-70CDR+ rear connections**
 
-[![MS-70CDR+ rear connections](https://media.sound-service.eu/Artikelbilder/Shopsystem/1200x837/02_MS70CDRplus_Product.jpg)](https://media.sound-service.eu/Artikelbilder/Shopsystem/1200x837/02_MS70CDRplus_Product.jpg)
+[![MS-70CDR+ rear connections](images/zoom-ms-70cdr-plus-rear-fed6f80d5024.jpg)](images/zoom-ms-70cdr-plus-rear-fed6f80d5024.jpg)
 
 [Image source](https://www.sound-service.eu/zoom-ms-70cdr). Distributor complete rear photograph shows center-negative DC9V adapter socket and USB Type-C marked DC5V. The round feature below USB is a screw. Stereo L/MONO/R audio inputs and outputs are on the side panels and are not fully shown here.
 
