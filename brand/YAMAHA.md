@@ -1113,13 +1113,13 @@ Sources checked:
 
 **SPX1000 powered control face**
 
-[![SPX1000 powered control face](https://i.ebayimg.com/images/g/EpgAAOSwdLZnvQrm/s-l1200.png)](https://i.ebayimg.com/images/g/EpgAAOSwdLZnvQrm/s-l1200.png)
+[![SPX1000 powered control face](images/yamaha-spx1000-top-5c0112a05cce.png)](images/yamaha-spx1000-top-5c0112a05cce.png)
 
 [Image source](https://www.ebay.com/itm/235975161352). Visually checked complete front control face and top chassis from a raised front angle: illuminated green CHORUS display, red15 memory display and green meters/status LEDs. Concentric L/R input controls,15 rectangular control buttons, separate power rocker and two EXT CTRL/FOOT VOL jacks visible. This is powered rack hardware seen from above/front, not a vertical overhead view. Preset15 is not a firmware version; no audio or controller test inferred.
 
 **SPX1000 rear connectors**
 
-[![SPX1000 rear connectors](https://shop.soundart.com/cdn/shop/products/SPX1000_2_1024x1024.jpg?v=1642724662)](https://shop.soundart.com/cdn/shop/products/SPX1000_2_1024x1024.jpg?v=1642724662)
+[![SPX1000 rear connectors](images/yamaha-spx1000-rear-d8d7c3ab3590.jpg)](images/yamaha-spx1000-rear-d8d7c3ab3590.jpg)
 
 [Image source](https://shop.soundart.com/products/used-yamaha-spx1000-processing). Visually checked entire rear and top chassis: BYPASS and INC/DEC footswitch jacks; TRIGGER1 SW and TRIGGER2 ANALOG with MIC/LINE selector; switchable MIDI OUT/THRU plus MIDI IN; proprietary8pin DIGITAL I/O OUT/IN; quarter-inch OUTPUT R/L and INPUT R/L-MONO with separate+4/−20dB selectors; captive mains lead. Marked120V22W60Hz, not2A or universal voltage. No rear XLR, USB, PHONES or extra expression jack shown. Digital format follows own manual, not an S/PDIF assumption from connector presence; front expression inputs recorded separately. Powered state unavailable from rear.
 
