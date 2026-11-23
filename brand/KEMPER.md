@@ -272,13 +272,13 @@ Sources checked:
 
 **PowerHead MK2 review-unit front/control-face perspective with active LCD showing a Rig.**
 
-[![PowerHead MK2 review-unit front/control-face perspective with active LCD showing a Rig.](https://cdn-image.bonedo.de/wp-media-folder-bonedoapp/uploads/2026/03/Kemper_Profiler_PowerHead_MK2_008_FIN-1024x614.jpg)](https://cdn-image.bonedo.de/wp-media-folder-bonedoapp/uploads/2026/03/Kemper_Profiler_PowerHead_MK2_008_FIN-1024x614.jpg)
+[![PowerHead MK2 review-unit front/control-face perspective with active LCD showing a Rig.](images/kemper-profiler-powerhead-mk2-top-eeb3d69c4ef9.jpg)](images/kemper-profiler-powerhead-mk2-top-eeb3d69c4ef9.jpg)
 
 [Image source](https://www.bonedo.de/artikel/test-kemper-profiler-powerhead-mk-2-ist-profiling-2-0-der-grosse-wurf/). Actual photographed unit in an exact-model MK2 review; LCD visibly displays AC Normal Drive. This upright Head has front-facing controls, so this is a powered control-face view rather than perpendicular overhead. The official listing reused a less revision-specific Head image, retained only as inspected alternative evidence.
 
 **PowerHead MK2 review-unit rear panel with red SPEAKER OUTPUT, amplifier ventilation and full connector bank.**
 
-[![PowerHead MK2 review-unit rear panel with red SPEAKER OUTPUT, amplifier ventilation and full connector bank.](https://cdn-image.bonedo.de/wp-media-folder-bonedoapp/uploads/2026/03/Kemper_Profiler_PowerHead_MK2_036_FIN-1024x614.jpg)](https://cdn-image.bonedo.de/wp-media-folder-bonedoapp/uploads/2026/03/Kemper_Profiler_PowerHead_MK2_036_FIN-1024x614.jpg)
+[![PowerHead MK2 review-unit rear panel with red SPEAKER OUTPUT, amplifier ventilation and full connector bank.](images/kemper-profiler-powerhead-mk2-rear-985b768c8f8e.jpg)](images/kemper-profiler-powerhead-mk2-rear-985b768c8f8e.jpg)
 
 [Image source](https://www.bonedo.de/artikel/test-kemper-profiler-powerhead-mk-2-ist-profiling-2-0-der-grosse-wurf/). Visible RETURN XLR/quarter-inch, ALTERNATIVE INPUT, DIRECT/SEND, MONITOR, stereo MAIN XLR/quarter-inch, S/PDIF RCA, MIDI thru/out/in, two pedal sockets, NETWORK, USB-A/B and IEC mains. Speaker label says8–16ohm,600W at8ohm/300W at16ohm; manual13.0 additionally permits4ohm with600W limiting, so label/manual scope difference remains explicit. Mains label100–125V or190–245V,max10A. Photographed unit is PowerHead, not unpowered Head; installed OS is not established.
 
