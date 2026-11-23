@@ -1198,13 +1198,13 @@ Sources checked:
 
 **Korg AX1500G powered-on top controls — angled view**
 
-[![Korg AX1500G powered-on top controls — angled view](https://medias.audiofanzine.com/images/normal/korg-ax1500g-6339102.jpg)](https://medias.audiofanzine.com/images/normal/korg-ax1500g-6339102.jpg)
+[![Korg AX1500G powered-on top controls — angled view](images/korg-ax1500g-top-2b024db56de6.jpg)](images/korg-ax1500g-top-2b024db56de6.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/korg/Ax1500g/). Exact AX1500G label, illuminated display/LEDs, complete controls and rubber-tread expression pedal are visible. Camera is oblique and rotated; straight top-down view remains pending. Selected instead of a powered near-overhead candidate whose pedal tread was removed.
 
 **Korg AX1500G rear ports**
 
-[![Korg AX1500G rear ports](https://musicvault.co.uk/cdn/shop/files/IMG_6123.jpg?v=1757830871&width=1214)](https://musicvault.co.uk/cdn/shop/files/IMG_6123.jpg?v=1757830871&width=1214)
+[![Korg AX1500G rear ports](images/korg-ax1500g-rear-2624a91baa2b.jpg)](images/korg-ax1500g-rear-2624a91baa2b.jpg)
 
 [Image source](https://musicvault.co.uk/products/korg-ax1500g-guitar-multi-effects-pedal-pre-owned). Complete rear panel shows INPUT, AUX IN, OUTPUT R/L-MONO, headphones, DC9V and cable hook. Exact AX1500G label is also visible on the upper surface. Labels and socket layout agree with the own-model manual; retailer effect-count claims are not adopted.
 
