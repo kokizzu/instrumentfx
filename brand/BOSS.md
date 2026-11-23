@@ -4497,13 +4497,13 @@ Sources checked:
 
 **BOSS GX-100 — powered-on top view**
 
-[![BOSS GX-100 — powered-on top view](https://static.roland.com/products/gx-100/images/gx-100_main_gal.jpg)](https://static.roland.com/products/gx-100/images/gx-100_main_gal.jpg)
+[![BOSS GX-100 — powered-on top view](images/boss-gx-100-top-7ca6f82955c7.jpg)](images/boss-gx-100-top-7ca6f82955c7.jpg)
 
 [Image source](https://www.boss.info/global/products/gx-100/). Manufacturer straight-down product image with the complete control surface and expression pedal, active color effects-chain display, blue footswitch indicators and EXP1 indicator. Powered-on appearance is visible in this promotional image; independent operating-state verification is unavailable.
 
 **BOSS GX-100 — rear connections**
 
-[![BOSS GX-100 — rear connections](https://static.roland.com/products/gx-100/images/gx-100_rear_gal.jpg)](https://static.roland.com/products/gx-100/images/gx-100_rear_gal.jpg)
+[![BOSS GX-100 — rear connections](images/boss-gx-100-rear-f080a233cd1b.jpg)](images/boss-gx-100-rear-f080a233cd1b.jpg)
 
 [Image source](https://www.boss.info/global/products/gx-100/). Complete manufacturer rear-panel image: INPUT, OUTPUT R and L/MONO, PHONES, SEND/RETURN and ground lift, AMP CTL1/2, CTL3/4/EXP2, MIDI OUT/IN, covered optional BT-DUAL connector, USB-B, power switch, DC IN, ground terminal, cord restraint and security slot.
 

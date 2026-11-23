@@ -227911,7 +227911,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/products/gx-100/images/gx-100_main_gal.jpg",
+            "image_url": "images/boss-gx-100-top-7ca6f82955c7.jpg",
             "source_url": "https://www.boss.info/global/products/gx-100/",
             "caption": "BOSS GX-100 — powered-on top view",
             "note": "Manufacturer straight-down product image with the complete control surface and expression pedal, active color effects-chain display, blue footswitch indicators and EXP1 indicator. Powered-on appearance is visible in this promotional image; independent operating-state verification is unavailable.",
@@ -227921,7 +227921,7 @@
             "sha256": "7ca6f82955c750a44ddf515fec76530c978d26d32eeea2e2767ba80055b6b153"
           },
           "rear": {
-            "image_url": "https://static.roland.com/products/gx-100/images/gx-100_rear_gal.jpg",
+            "image_url": "images/boss-gx-100-rear-f080a233cd1b.jpg",
             "source_url": "https://www.boss.info/global/products/gx-100/",
             "caption": "BOSS GX-100 — rear connections",
             "note": "Complete manufacturer rear-panel image: INPUT, OUTPUT R and L/MONO, PHONES, SEND/RETURN and ground lift, AMP CTL1/2, CTL3/4/EXP2, MIDI OUT/IN, covered optional BT-DUAL connector, USB-B, power switch, DC IN, ground terminal, cord restraint and security slot.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-90"
+    "last_model": "BOSS::GX-100"
   }
 }
