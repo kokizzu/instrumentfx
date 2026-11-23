@@ -223,13 +223,13 @@ Sources checked:
 
 **TONEX ONE powered-on top-down product view**
 
-[![TONEX ONE powered-on top-down product view](https://ikmultimedia.com/cdn/shop/files/TONEX-One-Leds-A1211668.jpg?v=1783342228&width=1100)](https://ikmultimedia.com/cdn/shop/files/TONEX-One-Leds-A1211668.jpg?v=1783342228&width=1100)
+[![TONEX ONE powered-on top-down product view](images/ik-multimedia-tonex-one-top-51992ad18004.jpg)](images/ik-multimedia-tonex-one-top-51992ad18004.jpg)
 
 [Image source](https://ikmultimedia.com/products/tonexone). Manufacturer overhead product rendering with three orange illuminated micro-knobs and green ALT indicator. Four knobs, one ALT button and one footswitch visible; lit rendering is not a physical hardware test. No graphical display or built-in expression treadle.
 
 **TONEX ONE rear, front-edge and side connection diagram**
 
-[![TONEX ONE rear, front-edge and side connection diagram](https://ikmultimedia.com/cdn/shop/files/tonex_one_points_a50bc6d9-3424-425b-99d6-b8eece7d2cd2.png?v=1783607452&width=2200)](https://ikmultimedia.com/cdn/shop/files/tonex_one_points_a50bc6d9-3424-425b-99d6-b8eece7d2cd2.png?v=1783607452&width=2200)
+[![TONEX ONE rear, front-edge and side connection diagram](images/ik-multimedia-tonex-one-rear-62e1458fdba2.png)](images/ik-multimedia-tonex-one-rear-62e1458fdba2.png)
 
 [Image source](https://ikmultimedia.com/products/tonexone). Manufacturer multi-view rendering explicitly shows rear-edge 9V DC barrel input, opposite/front-edge USB-C and side mono instrument input plus shared TRS mono/stereo/headphone output. Connections are distributed around the enclosure, not all on a rear panel. Annotated rendering, not a hardware photograph; power polarity/current are not visible here and remain sourced to the manual.
 
