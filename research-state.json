@@ -222775,7 +222775,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://instation.co.kr/web/product/big/202506/eecc71b224e358f773a3e9b5befe554a.jpg",
+            "image_url": "images/sonicake-matribox-qme-50-top-c8c119e75529.jpg",
             "source_url": "https://instation.co.kr/product/sonicake-%EC%86%8C%EB%8B%88%EC%BC%80%EC%9D%B4%ED%81%AC-matribox-qme-50/15118/",
             "caption": "Original Matribox powered top view",
             "note": "Visually inspected original two-footswitch Matribox with lit color screen, five rotaries, four buttons and built-in expression. Near-overhead marketing image has slight perspective; exact perpendicular overhead remains unverified. Not Matribox II or II Pro; firmware cannot be identified from image.",
@@ -222785,7 +222785,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://sonicake.com.br/cdn/shop/products/image_1deda1a2-ddfa-4d02-bd52-e74e9c062139_900x.jpg?v=1703538525",
+            "image_url": "images/sonicake-matribox-qme-50-rear-cf833b927d22.jpg",
             "source_url": "https://sonicake.com.br/products/lancamento-sonicake-matribox_pedaleira-de-guitarra-baixo-com-pedal-de-expressao_looper_ir_usb_aux-qme-50",
             "caption": "Original Matribox rear ports",
             "note": "Visually inspected rear diagram/photo: INPUT, OUTPUT R and L(MONO), AUX IN, separate PHONES, USB-C-shaped connector and DC9V500mA center-negative marking. L(MONO) is an output label, not a physical mono switch. No dedicated EXP, MIDI DIN or effects-loop sockets shown; USB capabilities are separately documented by the manual.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Scorpion::KMF-10"
+    "last_model": "Sonicake::Matribox QME-50"
   }
 }
