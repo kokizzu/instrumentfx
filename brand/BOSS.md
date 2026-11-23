@@ -4985,7 +4985,7 @@ Sources checked:
 
 **BOSS ME-5 powered-on overhead user photograph**
 
-[![BOSS ME-5 powered-on overhead user photograph](https://img.ricardostatic.ch/images/ebba646a-259b-478a-bbb6-d6421e6597cb/t_1800x1350/boss-me-5-guitar-multiple-effects-multieffektgerat)](https://img.ricardostatic.ch/images/ebba646a-259b-478a-bbb6-d6421e6597cb/t_1800x1350/boss-me-5-guitar-multiple-effects-multieffektgerat)
+[![BOSS ME-5 powered-on overhead user photograph](images/boss-me-5-top-0625e39b5ca3.jpg)](images/boss-me-5-top-0625e39b5ca3.jpg)
 
 [Image source](https://www.ricardo.ch/de/a/boss-me-5-guitar-multiple-effects-multieffektgeraet-1310449724/). Visually inspected upright overhead ME-5 photograph: full control surface and all five footswitches visible, red 11 display, red effect/footswitch indicators and green status LEDs lit. Model label is legible. Source listing describes the unit as defective; illumination establishes visible powered state only, not working audio, reliable switches, firmware version or full functionality. No pitch/DSP capability inferred. Existing rear connector photograph is retained separately.
 
