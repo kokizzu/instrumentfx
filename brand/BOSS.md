@@ -2563,13 +2563,13 @@ Sources checked:
 
 **BOSS GT-1000 — powered-on top view**
 
-[![BOSS GT-1000 — powered-on top view](https://static.roland.com/products/gt-1000/images/gt-1000_front_10_clolors_gal.jpg)](https://static.roland.com/products/gt-1000/images/gt-1000_front_10_clolors_gal.jpg)
+[![BOSS GT-1000 — powered-on top view](images/boss-gt-1000-top-e390c8f5f85c.jpg)](images/boss-gt-1000-top-e390c8f5f85c.jpg)
 
 [Image source](https://www.boss.info/global/products/gt-1000/). Complete manufacturer straight-down image with U01-1 PREMIUM DRIVE on the lit display, ten colored footswitch indicators, blue EXP1 indicator, seven rotary controls, six panel buttons and the full expression pedal. Powered-on appearance is visible in this promotional image; independent operating-state verification is unavailable.
 
 **BOSS GT-1000 — rear connections**
 
-[![BOSS GT-1000 — rear connections](https://static.roland.com/products/gt-1000/images/gt-1000_back_gal.jpg)](https://static.roland.com/products/gt-1000/images/gt-1000_back_gal.jpg)
+[![BOSS GT-1000 — rear connections](images/boss-gt-1000-rear-555bc44662b2.jpg)](images/boss-gt-1000-rear-555bc44662b2.jpg)
 
 [Image source](https://www.boss.info/global/products/gt-1000/). Complete manufacturer rear image: INPUT, MAIN OUTPUT R/L-MONO, PHONES, two SEND/RETURN loops, XLR SUB OUTPUT R/L, CTL4/5/EXP2 and CTL6/7/EXP3, AMP CTL1/2, USB-B COMPUTER, MIDI OUT/IN, power switch, DC IN, ground terminal, cord restraint and security slot.
 
