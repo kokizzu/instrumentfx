@@ -3267,13 +3267,13 @@ Sources checked:
 
 **POD Express Guitar — powered-on overhead view**
 
-[![POD Express Guitar — powered-on overhead view](https://line6.com/data/6/0a020a416bc365aae735799cd/image/png)](https://line6.com/data/6/0a020a416bc365aae735799cd/image/png)
+[![POD Express Guitar — powered-on overhead view](images/line-6-pod-express-guitar-top-6cb584437698.png)](images/line-6-pod-express-guitar-top-6cb584437698.png)
 
 [Image source](https://line6.com/podexpress/guitar-effects). Exact red Guitar enclosure, photographed from overhead with red AMP segment and ON/TAP indicators lit. Manufacturer product image; no graphical screen is present.
 
 **POD Express Guitar — rear connections**
 
-[![POD Express Guitar — rear connections](https://line6.com/data/6/0a020a3fc1bb65aae7504b72b/image/png)](https://line6.com/data/6/0a020a3fc1bb65aae7504b72b/image/png)
+[![POD Express Guitar — rear connections](images/line-6-pod-express-guitar-rear-d4935d5c48ba.png)](images/line-6-pod-express-guitar-rear-d4935d5c48ba.png)
 
 [Image source](https://line6.com/podexpress/guitar-effects). Exact red Guitar enclosure. Labels visible: IN, OUT L/MONO and RIGHT, VOLUME / FS 3/4, USB-C and DC IN. Side-mounted headphone jack and volume wheel are outside this rear view.
 
