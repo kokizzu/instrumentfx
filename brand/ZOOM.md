@@ -8837,13 +8837,13 @@ Sources checked:
 
 **MS-50G+ control face**
 
-[![MS-50G+ control face](https://www.gitarrebass.de/app/uploads/2025/04/Zoom-MultiStomp_MS-50-G_.jpg)](https://www.gitarrebass.de/app/uploads/2025/04/Zoom-MultiStomp_MS-50-G_.jpg)
+[![MS-50G+ control face](images/zoom-ms-50g-plus-top-604f20e2abab.jpg)](images/zoom-ms-50g-plus-top-604f20e2abab.jpg)
 
 [Image source](https://www.gitarrebass.de/equipment/volle-breitseite-zoom-multistomp-pedale-im-test/). Actual complete powered MS-50G+ photographed for a magazine review: green VINTAGE FLANGER LCD and illuminated red status LED. Four encoder knobs, four cross-key switches and central footswitch are unobstructed. This is an angled overhead view; a perpendicular top-down replacement remains pending.
 
 **MS-50G+ rear connections**
 
-[![MS-50G+ rear connections](https://zoomcorp.com/media/images/powerUp_inset_1.width-800.png)](https://zoomcorp.com/media/images/powerUp_inset_1.width-800.png)
+[![MS-50G+ rear connections](images/zoom-ms-50g-plus-rear-a3602340c336.png)](images/zoom-ms-50g-plus-rear-a3602340c336.png)
 
 [Image source](https://zoomcorp.com/en/gb/multi-effects/multistomp-pedals/ms-50gplus/). Official complete rear view shows the center-negative DC9V adapter socket and USB Type-C socket marked DC5V. The small round feature below USB is not an additional power socket. Audio input and L/MONO/R outputs are on the side panels, outside this rear view.
 
