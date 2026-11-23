@@ -751,13 +751,13 @@ Sources checked:
 
 **708II control face**
 
-[![708II control face](https://medias.audiofanzine.com/images/normal/zoom-708ii-bass-2707206.jpeg)](https://medias.audiofanzine.com/images/normal/zoom-708ii-bass-2707206.jpeg)
+[![708II control face](images/zoom-708ii-top-5bc344a53369.jpg)](images/zoom-708ii-top-5bc344a53369.jpg)
 
 [Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/708-II-Bass/). Visually checked complete708II BASS overhead with slight perspective; displays/LEDs unlit. Four front rotary controls, fifteen front keys and two footswitches, plus expression treadle. Rear OUTPUT knob separate. A real powered overhead photo remains pending; visible unlit segments are not an active patch or firmware reading.
 
 **708II rear connectors**
 
-[![708II rear connectors](https://medias.audiofanzine.com/images/normal/zoom-708ii-bass-2707211.jpeg)](https://medias.audiofanzine.com/images/normal/zoom-708ii-bass-2707211.jpeg)
+[![708II rear connectors](images/zoom-708ii-rear-c776739ca3e8.jpg)](images/zoom-708ii-rear-c776739ca3e8.jpg)
 
 [Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/708-II-Bass/). Visually checked matching708II BASS tilted view exposing rear: AUX IN, INPUT, recessed DC9V, card-slot cover, POWER switch, shared OUTPUT(PHONES), OUTPUT rotary. All audio/power connectors visible from above; socket labels low contrast, card contacts hidden. No separate headphones/USB/MIDI shown. Unconnected and unlit.
 
