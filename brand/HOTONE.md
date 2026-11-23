@@ -572,13 +572,13 @@ Sources checked:
 
 **Hotone Ampero II Stage MP-380 — control surface**
 
-[![Hotone Ampero II Stage MP-380 — control surface](https://vietmusic.vn/cdn/shop/files/pedal-guitar-hotone-ampero-ii-stage-mp-380-viet-music.jpg?v=1705663638&width=1946)](https://vietmusic.vn/cdn/shop/files/pedal-guitar-hotone-ampero-ii-stage-mp-380-viet-music.jpg?v=1705663638&width=1946)
+[![Hotone Ampero II Stage MP-380 — control surface](images/hotone-ampero-ii-stage-mp-380-top-9335d0cfae1e.jpg)](images/hotone-ampero-ii-stage-mp-380-top-9335d0cfae1e.jpg)
 
 [Image source](https://vietmusic.vn/products/pedal-guitar-hotone-ampero-ii-stage-mp-380). Top-down promotional photograph with powered touchscreen, illuminated orange status bar and footswitch rings; all five knobs, screen-lock button and eight footswitches visible.
 
 **Hotone Ampero II Stage MP-380 — rear connections**
 
-[![Hotone Ampero II Stage MP-380 — rear connections](https://hotmusic.jp/cdn/shop/files/AmperoIIStage_Top_Hi_V01_230919.jpg?v=1743393487&width=1096)](https://hotmusic.jp/cdn/shop/files/AmperoIIStage_Top_Hi_V01_230919.jpg?v=1743393487&width=1096)
+[![Hotone Ampero II Stage MP-380 — rear connections](images/hotone-ampero-ii-stage-mp-380-rear-a9c862fa968a.jpg)](images/hotone-ampero-ii-stage-mp-380-rear-a9c862fa968a.jpg)
 
 [Image source](https://hotmusic.jp/products/hotone-ampero-ii-stage). Full rear panel showing two EXP/CTRL sockets, stereo instrument inputs including the combo socket, stereo FX loop, unbalanced and XLR balanced outputs, ground lift, AUX IN, PHONES, MIDI IN/OUT-THRU, USB-C, power switch and DC input. White margins and small light-gray labels limit fine-print readability; open full image for detail.
 
