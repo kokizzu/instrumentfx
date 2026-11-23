@@ -10168,13 +10168,13 @@ Sources checked:
 
 **RFX-2200 front control panel**
 
-[![RFX-2200 front control panel](https://zoomcorp.com/media/original_images/RFX2200_front_web.jpg.1600x900_q65_crop_size_canvas.jpg)](https://zoomcorp.com/media/original_images/RFX2200_front_web.jpg.1600x900_q65_crop_size_canvas.jpg)
+[![RFX-2200 front control panel](images/zoom-rfx-2200-top-252d972d4e4f.jpg)](images/zoom-rfx-2200-top-252d972d4e4f.jpg)
 
 [Image source](https://zoomcorp.com/en/us/digital-mixer-multi-track-recorders/multi-track-recorders/rxf-2200/). Manufacturer complete front-on control face with lit red numeric display and status LEDs. Eight rotary controls, patch/edit keys, microphone combo input, mic switch and power switch visible. Rack controls face forward; not a top-down chassis view. Promotional illumination is not independently verified.
 
 **Rear audio, digital and MIDI connectors**
 
-[![Rear audio, digital and MIDI connectors](https://i.ebayimg.com/images/g/KnAAAeSwft1ot9lu/s-l1600.webp)](https://i.ebayimg.com/images/g/KnAAAeSwft1ot9lu/s-l1600.webp)
+[![Rear audio, digital and MIDI connectors](images/zoom-rfx-2200-rear-2602aed9ccbe.webp)](images/zoom-rfx-2200-rear-2602aed9ccbe.webp)
 
 [Image source](https://www.ebay.co.uk/itm/405954970858). Physical RFX-2200 rear photograph with readable model marking: stereo INPUT (L/MONO and R), stereo OUTPUT (L/R), coaxial and optical DIGITAL OUT, FS01 BYPASS, and MIDI IN/OUT/THRU. The left power section is outside this frame; the [matching power-and-MIDI photograph](https://i.ebayimg.com/images/g/QxcAAeSwrVxot9lo/s-l1600.webp) shows the complete IEC inlet/fuse and MIDI group. Together the two photographs cover the rear connector set; a single full-width rear photograph remains pending.
 
