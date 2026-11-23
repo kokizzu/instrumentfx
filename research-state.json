@@ -221931,7 +221931,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG200.jpg",
+            "image_url": "images/nux-mg-200-top-26b028e5e3c2.jpg",
             "source_url": "https://nuxaudio.com/product/mg200/",
             "caption": "NUX MG-200 — top controls",
             "visual_checked": true,
@@ -221941,7 +221941,7 @@
             "sha256": "26b028e5e3c285696eeb4b3a5954867302aa5701adff4c2650a16546e91f1d34"
           },
           "rear": {
-            "image_url": "https://d1aeri3ty3izns.cloudfront.net/media/20/204130/1200/preview.jpg",
+            "image_url": "images/nux-mg-200-rear-1efd6a235837.jpg",
             "source_url": "https://www.gear4music.fr/fr/Guitare-and-Basse/DISC-NUX-MG-200-Multi-Effects-Pedal/1KLH",
             "caption": "NUX MG-200 — rear ports",
             "visual_checked": true,
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MG-100"
+    "last_model": "NUX::MG-200"
   }
 }

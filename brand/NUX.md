@@ -1596,13 +1596,13 @@ Sources checked:
 
 **NUX MG-200 — top controls**
 
-[![NUX MG-200 — top controls](https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG200.jpg)](https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/11/MG200.jpg)
+[![NUX MG-200 — top controls](images/nux-mg-200-top-26b028e5e3c2.jpg)](images/nux-mg-200-top-26b028e5e3c2.jpg)
 
 [Image source](https://nuxaudio.com/product/mg200/). Manufacturer image shows the MG-200 top controls and illuminated color display (9A, 70’s hard solo). Near-overhead elevated view with slight front perspective, not a strict perpendicular top-down photograph; exact overhead powered-on coverage remains a gap.
 
 **NUX MG-200 — rear ports**
 
-[![NUX MG-200 — rear ports](https://d1aeri3ty3izns.cloudfront.net/media/20/204130/1200/preview.jpg)](https://d1aeri3ty3izns.cloudfront.net/media/20/204130/1200/preview.jpg)
+[![NUX MG-200 — rear ports](images/nux-mg-200-rear-1efd6a235837.jpg)](images/nux-mg-200-rear-1efd6a235837.jpg)
 
 [Image source](https://www.gear4music.fr/fr/Guitare-and-Basse/DISC-NUX-MG-200-Multi-Effects-Pedal/1KLH). Retailer rear-panel photograph clearly shows INPUT, AUX IN, R and L/MONO OUTPUT, PHONES, CTRL2, USB-B and center-negative DC9V. Display visible above the rear panel is unlit. USB audio is not established by the photograph.
 
