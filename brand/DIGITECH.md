@@ -608,7 +608,7 @@ Sources checked:
 
 **RP55 rear ports**
 
-[![RP55 rear ports](https://static.sonovente.com/img/library/zoom/59/450/59665_3.jpg)](https://static.sonovente.com/img/library/zoom/59/450/59665_3.jpg)
+[![RP55 rear ports](images/digitech-rp55-rear-83e2c0448f55.jpg)](images/digitech-rp55-rear-83e2c0448f55.jpg)
 
 [Image source](https://www.sonovente.com/en-gb/digitech-rp55-p59665.html). Visually inspected: RP55 rear INPUT, OUTPUT, CONTROL IN and 9VDC sockets; powered-on top-down photograph remains pending.
 
