@@ -227598,7 +227598,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://zoomcorp.com/media/original_images/NEURIG_Image-Gallery_2.png.0x800_q80_crop-%2Cscale_size_canvas.jpg",
+            "image_url": "images/zoom-neurig-top-7b4f2843bd2e.jpg",
             "source_url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/",
             "caption": "NEURIG control face",
             "note": "Manufacturer straight-down product photograph with active dual-screen rig display and blue indicators. Two rotary controls and four footswitches are fully visible. Promotional screen content is not independent proof of a photographed running unit.",
@@ -227608,7 +227608,7 @@
             "sha256": "7b4f2843bd2e6583272b58084921d84be6d13cd731f0b315adaaac44f8ca623e"
           },
           "rear": {
-            "image_url": "https://zoomcorp.com/media/original_images/NEURIG-Back-Panel-1800x900_9.png.1600x0_q80_crop-smart_size_canvas_upscale.png",
+            "image_url": "images/zoom-neurig-rear-dd6c1061a365.png",
             "source_url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/",
             "caption": "NEURIG rear connections",
             "note": "Manufacturer annotated complete rear view: INPUT, CONTROL IN, 3.5 mm MIDI IN/OUT, SEND/SUB OUT, RETURN/SUB IN, PHONES, RIGHT and LEFT/MONO outputs, USB-C DC5V and power button. Blue status bar shown; the round feature beneath USB is a screw.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::MS-80IR Plus"
+    "last_model": "Zoom::NEURIG"
   }
 }

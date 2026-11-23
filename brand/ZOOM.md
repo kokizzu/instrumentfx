@@ -9667,13 +9667,13 @@ Sources checked:
 
 **NEURIG control face**
 
-[![NEURIG control face](https://zoomcorp.com/media/original_images/NEURIG_Image-Gallery_2.png.0x800_q80_crop-%2Cscale_size_canvas.jpg)](https://zoomcorp.com/media/original_images/NEURIG_Image-Gallery_2.png.0x800_q80_crop-%2Cscale_size_canvas.jpg)
+[![NEURIG control face](images/zoom-neurig-top-7b4f2843bd2e.jpg)](images/zoom-neurig-top-7b4f2843bd2e.jpg)
 
 [Image source](https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/). Manufacturer straight-down product photograph with active dual-screen rig display and blue indicators. Two rotary controls and four footswitches are fully visible. Promotional screen content is not independent proof of a photographed running unit.
 
 **NEURIG rear connections**
 
-[![NEURIG rear connections](https://zoomcorp.com/media/original_images/NEURIG-Back-Panel-1800x900_9.png.1600x0_q80_crop-smart_size_canvas_upscale.png)](https://zoomcorp.com/media/original_images/NEURIG-Back-Panel-1800x900_9.png.1600x0_q80_crop-smart_size_canvas_upscale.png)
+[![NEURIG rear connections](images/zoom-neurig-rear-dd6c1061a365.png)](images/zoom-neurig-rear-dd6c1061a365.png)
 
 [Image source](https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/). Manufacturer annotated complete rear view: INPUT, CONTROL IN, 3.5 mm MIDI IN/OUT, SEND/SUB OUT, RETURN/SUB IN, PHONES, RIGHT and LEFT/MONO outputs, USB-C DC5V and power button. Blue status bar shown; the round feature beneath USB is a screw.
 
