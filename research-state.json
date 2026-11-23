@@ -218211,7 +218211,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "rear": {
-            "image_url": "https://www.kombik.com/resources/img/000/000/941/img_94148.jpg",
+            "image_url": "images/digitech-rp90-rear-ae140445587a.jpg",
             "source_url": "https://www.kombik.com/catalog/view/digitech-rp90/",
             "caption": "RP90 rear ports",
             "note": "Visually inspected angled RP90 rear-port photo: input, amp/mixer switch, stereo outputs, headphones and DC power. Dark labels; straight-on replacement preferred. Powered-on top-down view remains pending.",
@@ -218219,7 +218219,7 @@
             "sha256": "ae140445587a7b04da0e8044b523c4b9c697dc5cb03bcdedc6fab7b83a1ceaea"
           },
           "top": {
-            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/153571000000000-03-2000x2000.jpg",
+            "image_url": "images/digitech-rp90-top-12d21b8a7292.jpg",
             "source_url": "https://www.guitarcenter.com/DigiTech/RP90-Guitar-Multi-Effects-Pedal-1273887997503.gc",
             "caption": "RP90 powered-on angled top view",
             "note": "Visually inspected exact RP90 product photograph: bright red 48 display and lit status indicators, four labeled controls, both footswitches and integrated expression treadle. This is an oblique view, not a perpendicular top-down photograph; a straight overhead replacement remains pending. Rear connections are shown separately below.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP80"
+    "last_model": "DigiTech::RP90"
   }
 }
