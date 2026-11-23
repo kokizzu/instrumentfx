@@ -459,13 +459,13 @@ Sources checked:
 
 **FM3 MKII Turbo — powered-on top view**
 
-[![FM3 MKII Turbo — powered-on top view](https://www.fractalaudio.com/wp-content/uploads/2023/07/FM3-Mk-II-Turbo-Front-1024.webp)](https://www.fractalaudio.com/wp-content/uploads/2023/07/FM3-Mk-II-Turbo-Front-1024.webp)
+[![FM3 MKII Turbo — powered-on top view](images/fractal-audio-fm3-mkii-turbo-top-37ea13ff8c97.webp)](images/fractal-audio-fm3-mkii-turbo-top-37ea13ff8c97.webp)
 
 [Image source](https://www.fractalaudio.com/fm3). Exact-variant manufacturer photograph. Mark II panel label, Turbo screen, three larger illuminated footswitch displays and colored switch rings are visible in a straight top view. This is not the smaller-display original FM3.
 
 **FM3 MKII Turbo — manufacturer-reused FM3 rear view**
 
-[![FM3 MKII Turbo — manufacturer-reused FM3 rear view](https://www.fractalaudio.com/wp-content/uploads/2020/01/FM3-800-rear.webp)](https://www.fractalaudio.com/wp-content/uploads/2020/01/FM3-800-rear.webp)
+[![FM3 MKII Turbo — manufacturer-reused FM3 rear view](images/fractal-audio-fm3-mkii-turbo-rear-f80585e2743b.webp)](images/fractal-audio-fm3-mkii-turbo-rear-f80585e2743b.webp)
 
 [Image source](https://www.fractalaudio.com/fm3). Manufacturer currently reuses this older FM3 rear image on its MKII Turbo product page; the asset path dates to 2020 and the pictured rear does not independently identify MKII. Visible: phones, instrument input, XLR main outputs/ground lift, stereo input2 and output2, two pedal jacks, FASLINK II, USB-A/B, S/PDIF out, MIDI in/out-thru and AC inlet/switch. Fine electrical labels are small; no ratings inferred. A separately identified MKII rear photograph remains pending.
 
