@@ -462,7 +462,7 @@ Sources checked:
 
 **PROFILER Rack MK2 listing powered front/control face: active LCD, effect LEDs and rack mounting ears.**
 
-[![PROFILER Rack MK2 listing powered front/control face: active LCD, effect LEDs and rack mounting ears.](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_front_800w.jpg)](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_front_800w.jpg)
+[![PROFILER Rack MK2 listing powered front/control face: active LCD, effect LEDs and rack mounting ears.](images/kemper-profiler-rack-mk2-top-ce58bc58ad1d.jpg)](images/kemper-profiler-rack-mk2-top-ce58bc58ad1d.jpg)
 
 [Image source](https://www.kemper-amps.com/store/en/profiler-rack-b.html). Exact SKU17300000 listing supplies this shared Rack-front picture. Four direct delay/reverb knobs, front USB-A, headphones and instrument input visible. Upright rack controls face forward; this is not perpendicular overhead. No visible MK2 badge or rear power-stage identity can be established from the front alone.
 
