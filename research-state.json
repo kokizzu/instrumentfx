@@ -221723,7 +221723,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.tammerpianojasoitin.fi/WebRoot/Capnova/Shops/17042015-9511/5A00/68F8/D731/6ECA/F39B/0A28/1017/BF14/ocean_machine.jpg",
+            "image_url": "images/mooer-ocean-machine-original-top-36c194bc8f2a.jpg",
             "source_url": "https://www.tammerpianojasoitin.fi/MOOER-Ocean-Machine",
             "caption": "Original Ocean Machine — top controls",
             "note": "Visually inspected original blue Ocean Machine overhead product image; active LCD effect screen and illuminated footswitch rings are visible. Retailer-hosted promotional photo, not independent device testing; 500px image limits small-label detail.",
@@ -221733,7 +221733,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.tammerpianojasoitin.fi/WebRoot/Capnova/Shops/17042015-9511/5A00/68F8/D731/6ECA/F39B/0A28/1017/BF14/ocean3.jpg",
+            "image_url": "images/mooer-ocean-machine-original-rear-cc6ddadadb28.jpg",
             "source_url": "https://www.tammerpianojasoitin.fi/MOOER-Ocean-Machine",
             "caption": "Original Ocean Machine — rear ports",
             "note": "Visually inspected original blue model rear: EXP, stereo input/output, MIDI Thru/In and DC9V500mA connectors. No USB-C socket; original firmware updates require an external USB-MIDI interface.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::Ocean Machine II"
+    "last_model": "MOOER::Ocean Machine original"
   }
 }

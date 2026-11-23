@@ -3893,13 +3893,13 @@ Sources checked:
 
 **Original Ocean Machine — top controls**
 
-[![Original Ocean Machine — top controls](https://www.tammerpianojasoitin.fi/WebRoot/Capnova/Shops/17042015-9511/5A00/68F8/D731/6ECA/F39B/0A28/1017/BF14/ocean_machine.jpg)](https://www.tammerpianojasoitin.fi/WebRoot/Capnova/Shops/17042015-9511/5A00/68F8/D731/6ECA/F39B/0A28/1017/BF14/ocean_machine.jpg)
+[![Original Ocean Machine — top controls](images/mooer-ocean-machine-original-top-36c194bc8f2a.jpg)](images/mooer-ocean-machine-original-top-36c194bc8f2a.jpg)
 
 [Image source](https://www.tammerpianojasoitin.fi/MOOER-Ocean-Machine). Visually inspected original blue Ocean Machine overhead product image; active LCD effect screen and illuminated footswitch rings are visible. Retailer-hosted promotional photo, not independent device testing; 500px image limits small-label detail.
 
 **Original Ocean Machine — rear ports**
 
-[![Original Ocean Machine — rear ports](https://www.tammerpianojasoitin.fi/WebRoot/Capnova/Shops/17042015-9511/5A00/68F8/D731/6ECA/F39B/0A28/1017/BF14/ocean3.jpg)](https://www.tammerpianojasoitin.fi/WebRoot/Capnova/Shops/17042015-9511/5A00/68F8/D731/6ECA/F39B/0A28/1017/BF14/ocean3.jpg)
+[![Original Ocean Machine — rear ports](images/mooer-ocean-machine-original-rear-cc6ddadadb28.jpg)](images/mooer-ocean-machine-original-rear-cc6ddadadb28.jpg)
 
 [Image source](https://www.tammerpianojasoitin.fi/MOOER-Ocean-Machine). Visually inspected original blue model rear: EXP, stereo input/output, MIDI Thru/In and DC9V500mA connectors. No USB-C socket; original firmware updates require an external USB-MIDI interface.
 
