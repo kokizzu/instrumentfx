@@ -64,13 +64,13 @@ Sources checked:
 
 **Near-overhead Acoustic Mini control-face stock photograph, unlit.**
 
-[![Near-overhead Acoustic Mini control-face stock photograph, unlit.](https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Front_Hi_V01_170510_1500x.png?v=1641286562)](https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Front_Hi_V01_170510_1500x.png?v=1641286562)
+[![Near-overhead Acoustic Mini control-face stock photograph, unlit.](images/valeton-dapper-acoustic-mini-top-a4397238bcd3.png)](images/valeton-dapper-acoustic-mini-top-a4397238bcd3.png)
 
 [Image source](https://shop.valeton.net/products/dapper-acoustic-mini). Visually 11 rotary controls and 3 footswitches; no separate small pushbuttons visible on this face. Tuner/status strip is unlit. Slight perspective and visible edge, so strict powered-on perpendicular overhead remains pending. Manufacturer gallery calls this Front; filenames do not establish viewing direction.
 
 **Straight connector-edge stock photograph: 9V DC, IN, OUT and headphone socket.**
 
-[![Straight connector-edge stock photograph: 9V DC, IN, OUT and headphone socket.](https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Top_Hi_V01_170510_2048x.png?v=1641286562)](https://shop.valeton.net/cdn/shop/products/DapperAcousticMini_Top_Hi_V01_170510_2048x.png?v=1641286562)
+[![Straight connector-edge stock photograph: 9V DC, IN, OUT and headphone socket.](images/valeton-dapper-acoustic-mini-rear-3d026a8beb4f.png)](images/valeton-dapper-acoustic-mini-rear-3d026a8beb4f.png)
 
 [Image source](https://shop.valeton.net/products/dapper-acoustic-mini). Quarter-inch IN/OUT and smaller headphone socket are visible; 9V DC label visible but polarity/current not legible here. End-mounted XLR is outside this face and not claimed absent. Manufacturer filename Top actually shows the connector edge; assigned by inspected content. The supplemental physical shop photograph below exposes the end-mounted male three-pin XLR OUT socket omitted by this straight connector-edge view. Both views are unlit; electrical balancing and output level are not inferred from socket appearance.
 
