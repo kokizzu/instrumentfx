@@ -372,7 +372,7 @@ Sources checked:
 
 **PowerRack MK2 rear photograph: red SPEAKER OUTPUT and amplifier vent distinguish it from unpowered Rack.**
 
-[![PowerRack MK2 rear photograph: red SPEAKER OUTPUT and amplifier vent distinguish it from unpowered Rack.](https://assets-sb.thomann.de/f/49568/3238x3238/cb493d3b61/tps_1524_619137_1_61913706979_rc.jpg/m/1600x0/filters%3Aquality%2890%29)](https://assets-sb.thomann.de/f/49568/3238x3238/cb493d3b61/tps_1524_619137_1_61913706979_rc.jpg/m/1600x0/filters%3Aquality%2890%29)
+[![PowerRack MK2 rear photograph: red SPEAKER OUTPUT and amplifier vent distinguish it from unpowered Rack.](images/kemper-profiler-powerrack-mk2-rear-1dde0c3559e7.jpg)](images/kemper-profiler-powerrack-mk2-rear-1dde0c3559e7.jpg)
 
 [Image source](https://www.thomann.de/de/kemper_profiler_powerrack_mk_2.htm). Exact MK2 retailer page supplies this photograph. Visible RETURN XLR/quarter-inch,ALTERNATIVE INPUT,DIRECT/SEND,MONITOR,stereo MAIN XLR/quarter-inch,S/PDIF RCA,MIDI thru/out/in,two pedal sockets,NETWORK,USB-B and IEC mains. USB-A is on front. Speaker label8–16ohm,600W at8ohm/300W at16ohm; manual13.0 also allows4ohm with600W limiting,retained as separate qualification. Mains100–125V or190–245V,max10A. No visible MK2 badge independently proves internal revision.
 
