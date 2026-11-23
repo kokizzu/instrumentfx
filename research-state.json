@@ -220824,7 +220824,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/korg-ax3000b-5655044.jpg",
+            "image_url": "images/korg-ax3000b-top-bbba93d4ee05.jpg",
             "source_url": "https://en.audiofanzine.com/bass-multi-effect/korg/Ax3000b/",
             "caption": "Korg AX3000B powered-on top controls — near-overhead view",
             "note": "Exact AX3000B label, illuminated orange display, bank display and effect/pedal indicators are visible. Complete controls, footswitches and expression pedal shown with slight perspective; exact perpendicular top-down view remains pending. Rear-port photo remains pending: zZounds lists an exact-model rear image, but retrieval returned HTTP 403; the DJMania candidate proved to be another top view. Additional rear candidate from Bass Workshop’s two-image Reverb listing could not be inspected: gallery-image retrieval returned HTTP500 and direct asset retrieval HTTP401. No rear-photo claim is made from listing text or image count.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX1500G"
+    "last_model": "Korg::AX3000B"
   }
 }
