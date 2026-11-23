@@ -985,7 +985,7 @@ Sources checked:
 
 **Near-overhead original Dapper manufacturer control-face image, unlit.**
 
-[![Near-overhead original Dapper manufacturer control-face image, unlit.](https://res.valeton.net/Uploads/wp/2025/06/o_1e4g8n2jf1en21ent128vum81i152m-scaled.jpg)](https://res.valeton.net/Uploads/wp/2025/06/o_1e4g8n2jf1en21ent128vum81i152m-scaled.jpg)
+[![Near-overhead original Dapper manufacturer control-face image, unlit.](images/valeton-dapper-ves-1-top-c5b0c08c2d56.jpg)](images/valeton-dapper-ves-1-top-c5b0c08c2d56.jpg)
 
 [Image source](https://www.valeton.net/product/dapper/). Visually 10 rotary controls and 5 footswitches, including dedicated TAP and TUNER; no separate small buttons on this face. Rear cabinet slider separate. Unlit display/status LEDs and slight perspective; powered-on strict perpendicular overhead remains pending. A supplemental physical demonstration photograph below shows all ten knob lights, red E tuner display and green tuning indicator illuminated. The unit is propped upright on a stand with its far left chassis edge slightly clipped; it does not replace the complete layout image or satisfy perpendicular overhead coverage.
 
@@ -995,7 +995,7 @@ Sources checked:
 
 **Original Dapper stock multi-view composite including full connector edge.**
 
-[![Original Dapper stock multi-view composite including full connector edge.](https://4.bp.blogspot.com/-OlLpKtQF4NE/VxsWuDWbWYI/AAAAAAAAUzE/WHj8eQcN7mA8lik2N2SZJDPfmoSRPTWOwCLcB/s1600/Valeton_3%2Bviews.jpg)](https://4.bp.blogspot.com/-OlLpKtQF4NE/VxsWuDWbWYI/AAAAAAAAUzE/WHj8eQcN7mA8lik2N2SZJDPfmoSRPTWOwCLcB/s1600/Valeton_3%2Bviews.jpg)
+[![Original Dapper stock multi-view composite including full connector edge.](images/valeton-dapper-ves-1-rear-eff6d9c8fb78.jpg)](images/valeton-dapper-ves-1-rear-eff6d9c8fb78.jpg)
 
 [Image source](https://theguitaraddict.blogspot.com/2016/04/valeton-dapper.html). Bottom view shows quarter-inch IN, SEND, RETURN and OUT,9V DC socket and CAB SIM ON/OFF slider. Middle view repeats this edge upside down; top view is control face. Stock composite republished by blog, not independent powered-unit evidence. Polarity/current not legible; no all-edge absence audit or live test.
 

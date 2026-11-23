@@ -225040,7 +225040,7 @@
         "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://res.valeton.net/Uploads/wp/2025/06/o_1e4g8n2jf1en21ent128vum81i152m-scaled.jpg",
+            "image_url": "images/valeton-dapper-ves-1-top-c5b0c08c2d56.jpg",
             "source_url": "https://www.valeton.net/product/dapper/",
             "caption": "Near-overhead original Dapper manufacturer control-face image, unlit.",
             "note": "Visually 10 rotary controls and 5 footswitches, including dedicated TAP and TUNER; no separate small buttons on this face. Rear cabinet slider separate. Unlit display/status LEDs and slight perspective; powered-on strict perpendicular overhead remains pending. A supplemental physical demonstration photograph below shows all ten knob lights, red E tuner display and green tuning indicator illuminated. The unit is propped upright on a stand with its far left chassis edge slightly clipped; it does not replace the complete layout image or satisfy perpendicular overhead coverage.\n\n[![Original Dapper powered-on demonstration photograph](https://www.guitarthai.com/picpost/gtpicpost/A3260115.jpg)](https://www.guitarthai.com/picpost/gtpicpost/A3260115.jpg)\n\n[Demonstration photograph source](https://www.guitarthai.com/webboard/question.asp?QID=413412).",
@@ -225050,7 +225050,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://4.bp.blogspot.com/-OlLpKtQF4NE/VxsWuDWbWYI/AAAAAAAAUzE/WHj8eQcN7mA8lik2N2SZJDPfmoSRPTWOwCLcB/s1600/Valeton_3%2Bviews.jpg",
+            "image_url": "images/valeton-dapper-ves-1-rear-eff6d9c8fb78.jpg",
             "source_url": "https://theguitaraddict.blogspot.com/2016/04/valeton-dapper.html",
             "caption": "Original Dapper stock multi-view composite including full connector edge.",
             "note": "Bottom view shows quarter-inch IN, SEND, RETURN and OUT,9V DC socket and CAB SIM ON/OFF slider. Middle view repeats this edge upside down; top view is control face. Stock composite republished by blog, not independent powered-unit evidence. Polarity/current not legible; no all-edge absence audit or live test.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Mini MES-1"
+    "last_model": "Valeton::Dapper VES-1"
   }
 }
