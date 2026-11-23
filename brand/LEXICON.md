@@ -215,13 +215,13 @@ Sources checked:
 
 **MX200 powered-on full control-face photograph**
 
-[![MX200 powered-on full control-face photograph](https://i.ebayimg.com/images/g/rmkAAeSwd6NpyoMm/s-l1200.webp)](https://i.ebayimg.com/images/g/rmkAAeSwd6NpyoMm/s-l1200.webp)
+[![MX200 powered-on full control-face photograph](images/lexicon-mx200-top-e07043e0d678.webp)](images/lexicon-mx200-top-e07043e0d678.webp)
 
 [Image source](https://pa.ebay.com/b/Chorus-Active-Signal-Processors-Rack-Effects/23791/bn_3123638). Physical rack unit photographed on a wooden surface with complete front panel and rack ears visible. Green program display reads35; green routing/effect/parameter indicators and red indicators visibly illuminated. Elevated oblique front view, not literal top-down. Program number does not establish firmware revision. Source is a marketplace category page and its image may outlive the listing. [Previous product layout composite](https://medias.audiofanzine.com/images/normal/lexicon-mx200-2045153.jpg).
 
 **MX200 straight rear-port photograph**
 
-[![MX200 straight rear-port photograph](https://r2.gear4music.com/media/21/215066/1200/preview.jpg)](https://r2.gear4music.com/media/21/215066/1200/preview.jpg)
+[![MX200 straight rear-port photograph](images/lexicon-mx200-rear-8174fd90c2e5.jpg)](images/lexicon-mx200-rear-8174fd90c2e5.jpg)
 
 [Image source](https://www.gear4music.no/no/Opptak-og-datamaskiner/Lexicon-MX200-Dual-Reverb-FX-Processor/6JC). Visually inspected full unplugged rear panel: power label 9VAC~ 1.3A 50–60Hz, one TRS footswitch jack (tip bypass 2/ring bypass 1/sleeve ground), two MIDI DIN sockets (IN and OUT/THRU), USB-B, S/PDIF RCA IN/OUT, and paired quarter-inch analog outputs/inputs with LEFT (MONO) markings. No XLR, separate headphone or analog expression socket is visible. This pictured AC label does not resolve every hardware revision or override the retained DC-manual conflict; do not select replacement power solely from another unit’s photograph.
 
