@@ -229453,7 +229453,7 @@
         "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://jollymusic.com.ph/cdn/shop/products/CUVH8.jpg?v=1626669615&width=1946",
+            "image_url": "images/cuvave-h8-top-a7621921553d.jpg",
             "source_url": "https://jollymusic.com.ph/products/cuvave-h8-multi-effects-headphone-guitar-amplifier",
             "caption": "Top-down control face (unpowered)",
             "note": "Complete control face and integrated guitar input plug are shown without obstruction. The effect and preset indicator lenses are unlit; a verified powered-on control photograph remains pending. The connector layout is documented below by a retailer-hosted manual diagram; a physical connector-edge photograph remains pending.",
@@ -229463,7 +229463,7 @@
             "sha256": "a7621921553d60947ca16243c2e676234ce63adfdd4e015bfc32cae4e36b5028"
           },
           "rear": {
-            "image_url": "https://www.hazeguitar.com.au/cdn/shop/products/medium_41991856-5479-4e98-a559-e802b45a8c29.jpg?v=1671714143&width=523",
+            "image_url": "images/cuvave-h8-rear-5be6b64ae97d.jpg",
             "source_url": "https://www.hazeguitar.com.au/products/cuvave-portable-electric-guitar-amplifier-h8-mini-headphone-amp-built-in-delay-tuner-phaser-reverb-effect-ir-cabinet-guitar-plug",
             "caption": "H8 connector layout — manual diagram, not a photograph",
             "note": "Retailer-hosted English manual scan, page05, shows the connector edge and integrated plug. Callouts identify USB2.0 data/charging socket, mobile-phone recording socket,1/8-inch headphone output and1/4-inch audio plug. Drawing labels do not establish USB connector subtype, recording-cable pinout or operation. A physical connector-edge photograph remains pending.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "JOYO::GEM BOX original"
+    "last_model": "CUVAVE::H8"
   }
 }

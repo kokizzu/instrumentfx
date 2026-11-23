@@ -40,13 +40,13 @@ Sources checked:
 
 **Top-down control face (unpowered)**
 
-[![Top-down control face (unpowered)](https://jollymusic.com.ph/cdn/shop/products/CUVH8.jpg?v=1626669615&width=1946)](https://jollymusic.com.ph/cdn/shop/products/CUVH8.jpg?v=1626669615&width=1946)
+[![Top-down control face (unpowered)](images/cuvave-h8-top-a7621921553d.jpg)](images/cuvave-h8-top-a7621921553d.jpg)
 
 [Image source](https://jollymusic.com.ph/products/cuvave-h8-multi-effects-headphone-guitar-amplifier). Complete control face and integrated guitar input plug are shown without obstruction. The effect and preset indicator lenses are unlit; a verified powered-on control photograph remains pending. The connector layout is documented below by a retailer-hosted manual diagram; a physical connector-edge photograph remains pending.
 
 **H8 connector layout — manual diagram, not a photograph**
 
-[![H8 connector layout — manual diagram, not a photograph](https://www.hazeguitar.com.au/cdn/shop/products/medium_41991856-5479-4e98-a559-e802b45a8c29.jpg?v=1671714143&width=523)](https://www.hazeguitar.com.au/cdn/shop/products/medium_41991856-5479-4e98-a559-e802b45a8c29.jpg?v=1671714143&width=523)
+[![H8 connector layout — manual diagram, not a photograph](images/cuvave-h8-rear-5be6b64ae97d.jpg)](images/cuvave-h8-rear-5be6b64ae97d.jpg)
 
 [Image source](https://www.hazeguitar.com.au/products/cuvave-portable-electric-guitar-amplifier-h8-mini-headphone-amp-built-in-delay-tuner-phaser-reverb-effect-ir-cabinet-guitar-plug). Retailer-hosted English manual scan, page05, shows the connector edge and integrated plug. Callouts identify USB2.0 data/charging socket, mobile-phone recording socket,1/8-inch headphone output and1/4-inch audio plug. Drawing labels do not establish USB connector subtype, recording-cable pinout or operation. A physical connector-edge photograph remains pending.
 
