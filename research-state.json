@@ -225113,7 +225113,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://rockcityguitarshop.nl/cdn/shop/files/DDDAD6ED-6418-4F90-BB2A-8039578D4494.jpg?v=1779359543",
+            "image_url": "images/valeton-gp-150-top-c4650e30500a.jpg",
             "source_url": "https://rockcityguitarshop.nl/nl/products/valeton-gp-150-multi-effect",
             "caption": "Valeton GP-150 — physical powered-on control surface",
             "note": "Actual shop photograph shows the complete GP-150 propped upright against patterned wallpaper. The 001 New GEN. color screen and both blue footswitch rings are illuminated; five knobs, six buttons, two footswitches and the full treadle are visible. This is a near-front-on view of the upright control surface, not an overhead photograph of a unit lying flat. The [previous manufacturer layout image](https://shop.valeton.net/cdn/shop/files/GP-150_Front_WithScreen_Hi_V01_251217_1445x.png?v=1773999331) remains available for detail.",
@@ -225123,7 +225123,7 @@
             "sha256": "c4650e30500aa6ae4552ea7595d0852f73411615f15014788a8cca22e1dfabd4"
           },
           "rear": {
-            "image_url": "https://shop.valeton.net/cdn/shop/files/GP-150_Top_Hi_V01_251202_1445x.png?v=1773999331",
+            "image_url": "images/valeton-gp-150-rear-6b071f22b14b.png",
             "source_url": "https://shop.valeton.net/products/gp-150",
             "caption": "Official GP-150 connector-edge stock image",
             "note": "Visually inspected exact GP-150 rear connector edge: EXP/FS MIDI IN,IN,OUT L and R(BALANCED),PHONES/MIC,PD USB,POWER and9V2A center-negative DC marking. Rear image does not prove operating power or every electrical routing detail.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-100"
+    "last_model": "Valeton::GP-150"
   }
 }
