@@ -290,13 +290,13 @@ Sources checked:
 
 **Near-overhead MES-2 control-face stock image, unlit.**
 
-[![Near-overhead MES-2 control-face stock image, unlit.](https://shop.valeton.net/cdn/shop/files/DapperBassMini_Front_Hi_V01_240517_1500x.png?v=1716192393)](https://shop.valeton.net/cdn/shop/files/DapperBassMini_Front_Hi_V01_240517_1500x.png?v=1716192393)
+[![Near-overhead MES-2 control-face stock image, unlit.](images/valeton-dapper-bass-mini-mes-2-top-59530175b142.png)](images/valeton-dapper-bass-mini-mes-2-top-59530175b142.png)
 
 [Image source](https://shop.valeton.net/products/dapper-bass-mini). Visually 10 rotary controls, 3 footswitches and no separate small buttons visible on this face. CHORUS/BASS AMP/BOOST COMP labeling establishes exact Mini layout. Slight perspective with rear edge visible; strict powered-on overhead remains pending.
 
 **Dapper Bass Mini MES-2 full straight rear connector edge**
 
-[![Dapper Bass Mini MES-2 full straight rear connector edge](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_60/604412/19624559_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_60/604412/19624559_800.jpg)
+[![Dapper Bass Mini MES-2 full straight rear connector edge](images/valeton-dapper-bass-mini-mes-2-rear-72a8e8b9f71e.jpg)](images/valeton-dapper-bass-mini-mes-2-rear-72a8e8b9f71e.jpg)
 
 [Image source](https://www.thomannmusic.com/valeton_dapper_bass_mini.htm). Complete long connector edge shown straight on, including both outer corners: 9V DC, quarter-inch IN and OUT, smaller AUX input and headphone socket. It is an unlit product photograph, not powered-operation evidence. Center-negative symbol and current draw are not readable at this resolution. The male three-pin XLR is on the separate end shown below, outside this long-edge view. Previous [closer rear detail](https://static.bax-shop.es/image/product/1273487/5190231/5c261a67/171576851056000_56167_5.jpg) retained for the polarity marking.
 

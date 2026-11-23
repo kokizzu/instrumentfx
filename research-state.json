@@ -224786,7 +224786,7 @@
         "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://shop.valeton.net/cdn/shop/files/DapperBassMini_Front_Hi_V01_240517_1500x.png?v=1716192393",
+            "image_url": "images/valeton-dapper-bass-mini-mes-2-top-59530175b142.png",
             "source_url": "https://shop.valeton.net/products/dapper-bass-mini",
             "caption": "Near-overhead MES-2 control-face stock image, unlit.",
             "note": "Visually 10 rotary controls, 3 footswitches and no separate small buttons visible on this face. CHORUS/BASS AMP/BOOST COMP labeling establishes exact Mini layout. Slight perspective with rear edge visible; strict powered-on overhead remains pending.",
@@ -224796,7 +224796,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_60/604412/19624559_800.jpg",
+            "image_url": "images/valeton-dapper-bass-mini-mes-2-rear-72a8e8b9f71e.jpg",
             "source_url": "https://www.thomannmusic.com/valeton_dapper_bass_mini.htm",
             "caption": "Dapper Bass Mini MES-2 full straight rear connector edge",
             "note": "Complete long connector edge shown straight on, including both outer corners: 9V DC, quarter-inch IN and OUT, smaller AUX input and headphone socket. It is an unlit product photograph, not powered-operation evidence. Center-negative symbol and current draw are not readable at this resolution. The male three-pin XLR is on the separate end shown below, outside this long-edge view. Previous [closer rear detail](https://static.bax-shop.es/image/product/1273487/5190231/5c261a67/171576851056000_56167_5.jpg) retained for the polarity marking.\n\n[![Dapper Bass Mini separate male XLR end](https://shop.valeton.net/cdn/shop/files/DapperBassMini_Left_Hi_V01_240517_1500x.png?v=1716168980)](https://shop.valeton.net/cdn/shop/files/DapperBassMini_Left_Hi_V01_240517_1500x.png?v=1716168980). [Manufacturer source](https://shop.valeton.net/products/dapper-bass-mini). This inspected end view shows the male XLR connector; it does not establish electrical balancing by appearance alone.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Amp Mini"
+    "last_model": "Valeton::Dapper Bass Mini MES-2"
   }
 }
