@@ -222094,7 +222094,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/nux-stageman-floor-nap-5-6319146.jpg",
+            "image_url": "images/nux-stageman-floor-nap-5-top-b125a3fca064.jpg",
             "source_url": "https://en.audiofanzine.com/solid-state-guitar-preamp/nux/stageman-floor-acoustic-pre-amp-di/",
             "caption": "NUX Stageman Floor — powered-on near-overhead control photograph",
             "visual_checked": true,
@@ -222108,7 +222108,7 @@
             }
           },
           "rear": {
-            "image_url": "https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_02.jpg?v=1756897653&width=2560",
+            "image_url": "images/nux-stageman-floor-nap-5-rear-e98684e8d509.jpg",
             "source_url": "https://www.nux.us/products/stageman-floor",
             "caption": "NUX Stageman Floor — rear ports",
             "visual_checked": true,
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::Atlantic NDR-5"
+    "last_model": "NUX::Stageman Floor NAP-5"
   }
 }

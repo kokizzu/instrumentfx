@@ -2582,13 +2582,13 @@ Sources checked:
 
 **NUX Stageman Floor — powered-on near-overhead control photograph**
 
-[![NUX Stageman Floor — powered-on near-overhead control photograph](https://medias.audiofanzine.com/images/normal/nux-stageman-floor-nap-5-6319146.jpg)](https://medias.audiofanzine.com/images/normal/nux-stageman-floor-nap-5-6319146.jpg)
+[![NUX Stageman Floor — powered-on near-overhead control photograph](images/nux-stageman-floor-nap-5-top-b125a3fca064.jpg)](images/nux-stageman-floor-nap-5-top-b125a3fca064.jpg)
 
 [Image source](https://en.audiofanzine.com/solid-state-guitar-preamp/nux/stageman-floor-acoustic-pre-amp-di/). Audiofanzine user photograph visually inspected: green Chorus and orange/red Preamp indicators visibly illuminated, with corresponding glow on the metal switches; complete seven-knob face, two toggles and both footswitches unobstructed. Power cable connected. Camera has slight perspective, so exact straight overhead remains pending. [Official unlit/uncertain-power overhead reference](https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_01.jpg?v=1756897653&width=2560) retained for layout comparison. No audio-performance test implied.
 
 **NUX Stageman Floor — rear ports**
 
-[![NUX Stageman Floor — rear ports](https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_02.jpg?v=1756897653&width=2560)](https://www.nux.us/cdn/shop/files/StagemanFloor_NAP-5__W_02.jpg?v=1756897653&width=2560)
+[![NUX Stageman Floor — rear ports](images/nux-stageman-floor-nap-5-rear-e98684e8d509.jpg)](images/nux-stageman-floor-nap-5-rear-e98684e8d509.jpg)
 
 [Image source](https://www.nux.us/products/stageman-floor). Official rear photograph shows INPUT, pickup Piezo/Magnetic switch, DI ground lift, OUTPUT, TRS INSERT explicitly labeled tip-send/ring-return, micro-USB and center-negative DC9V. Side-panel XLR DI, AUX and headphones are not visible in this rear view. No operating status is visible.
 
