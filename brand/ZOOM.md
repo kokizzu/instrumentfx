@@ -1343,13 +1343,13 @@ Sources checked:
 
 **B1 FOUR powered overhead photograph**
 
-[![B1 FOUR powered overhead photograph](https://medias.audiofanzine.com/images/normal/zoom-b1-four-6806694.jpeg)](https://medias.audiofanzine.com/images/normal/zoom-b1-four-6806694.jpeg)
+[![B1 FOUR powered overhead photograph](images/zoom-b1-four-top-0156acbfdf2e.jpg)](images/zoom-b1-four-top-0156acbfdf2e.jpg)
 
 [Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/b1-four/). Actual no-treadle B1 FOUR photographed nearly straight down, with full chassis, active 16 MM Clean LCD and effect-1 LED lit. Four knobs, nine push-buttons and two footswitches are visible; no B1X FOUR treadle is present.
 
 **B1 FOUR rear connections**
 
-[![B1 FOUR rear connections](https://zoomcorp.com/media/original_images/B1_FOUR_rear.jpg.800x482_q70_crop_size_canvas.jpg)](https://zoomcorp.com/media/original_images/B1_FOUR_rear.jpg.800x482_q70_crop_size_canvas.jpg)
+[![B1 FOUR rear connections](images/zoom-b1-four-rear-1ce1d865e975.jpg)](images/zoom-b1-four-rear-1ce1d865e975.jpg)
 
 [Image source](https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b1-four-b1x-four/). Exact no-treadle B1 FOUR manufacturer rear photograph: INPUT, AUX IN, center-negative DC9V/AD-16 labeling, micro-USB/DC5V, security slot and OUTPUT. No external expression socket appears. The photo does not establish USB audio/MIDI capabilities.
 
