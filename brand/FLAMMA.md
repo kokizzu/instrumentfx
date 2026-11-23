@@ -559,13 +559,13 @@ Sources checked:
 
 **FV04 powered-on top-down view**
 
-[![FV04 powered-on top-down view](https://www.flamma.shop/cdn/shop/products/1_a6002bba-3354-45f6-927b-98fdae5212cd.png?v=1631173237&width=1946)](https://www.flamma.shop/cdn/shop/products/1_a6002bba-3354-45f6-927b-98fdae5212cd.png?v=1631173237&width=1946)
+[![FV04 powered-on top-down view](images/flamma-fv04-harmony-top-9007d0acf1e8.png)](images/flamma-fv04-harmony-top-9007d0acf1e8.png)
 
 [Image source](https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer). Manufacturer product cutout viewed straight down; blue Sharp light and green footswitch indicators are visibly illuminated. No display screen.
 
 **FV04 rear connections**
 
-[![FV04 rear connections](https://www.flamma.shop/cdn/shop/products/8.png?v=1631173239&width=1946)](https://www.flamma.shop/cdn/shop/products/8.png?v=1631173239&width=1946)
+[![FV04 rear connections](images/flamma-fv04-harmony-rear-1ab7696ace77.jpg)](images/flamma-fv04-harmony-rear-1ab7696ace77.jpg)
 
 [Image source](https://www.flamma.shop/products/flamma-fv04-harmony-vocal-pedal-with-reverb-effects-for-professional-singer). Straight rear product view shows MIC XLR input, XLR OUT, LINE IN selector, GAIN, 48V switch, LIFT/GND switch and DC IN marked 9V 500mA center-negative. This photographed marking does not resolve the different current requirement in newer documentation; retain the manual qualification.
 
