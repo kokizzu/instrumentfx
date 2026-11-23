@@ -2354,13 +2354,13 @@ Sources checked:
 
 **MOOER GE200 Pro Li — powered-on top-down view**
 
-[![MOOER GE200 Pro Li — powered-on top-down view](https://mooer.jp/cdn/shop/files/GE200-Pro-Li-01.png?v=1722310526&width=1445)](https://mooer.jp/cdn/shop/files/GE200-Pro-Li-01.png?v=1722310526&width=1445)
+[![MOOER GE200 Pro Li — powered-on top-down view](images/mooer-ge200-pro-li-top-2e0ddd9c6e82.jpg)](images/mooer-ge200-pro-li-top-2e0ddd9c6e82.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ge200pro-li). Complete top-down product image from the exact Pro Li regional page. Purple chassis, GE200Pro Li badge, multicolour expression pedal and illuminated ambient strip distinguish this variant. LCD depicts 04A ToneQueen Clean with lit footswitch rings; total preset DSP shown is not isolated pitch cost.
 
 **MOOER GE200 Pro Li — rear connections**
 
-[![MOOER GE200 Pro Li — rear connections](https://mooer.jp/cdn/shop/files/GE200-Pro-Li-2.png?v=1722310525&width=1445)](https://mooer.jp/cdn/shop/files/GE200-Pro-Li-2.png?v=1722310525&width=1445)
+[![MOOER GE200 Pro Li — rear connections](images/mooer-ge200-pro-li-rear-41db07b9cf72.jpg)](images/mooer-ge200-pro-li-rear-41db07b9cf72.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ge200pro-li). Complete straight rear panel of the purple Pro Li: EXP2, instrument IN, FX-loop send/return, stereo XLR, ground lift, stereo jack outputs, headphones, shared MIDI IN/OUT, USB Type-C, power switch and DC 9 V input. Connector legends readable; internal battery is not visible.
 
