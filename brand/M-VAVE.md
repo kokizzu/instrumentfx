@@ -1526,13 +1526,13 @@ Sources checked:
 
 **TANK MINI control view**
 
-[![TANK MINI control view](https://m.media-amazon.com/images/I/71sbXYnoMgL._AC_SL1500_.jpg)](https://m.media-amazon.com/images/I/71sbXYnoMgL._AC_SL1500_.jpg)
+[![TANK MINI control view](images/m-vave-tank-mini-top-522cb225cb26.jpg)](images/m-vave-tank-mini-top-522cb225cb26.jpg)
 
 [Image source](https://manuals.plus/asin/B0DWL9H3ZF). Exact pink TANK MINI composite shows the control face with three green illuminated switch rings and a separate rear view. Control-face camera angle is elevated rather than exactly overhead; a powered-on exact-top-down photograph remains unverified. No firmware identity inferred from LED color.
 
 **TANK MINI rear connections**
 
-[![TANK MINI rear connections](https://m.media-amazon.com/images/I/71YKw95ehyL._AC_SL1500_.jpg)](https://m.media-amazon.com/images/I/71YKw95ehyL._AC_SL1500_.jpg)
+[![TANK MINI rear connections](images/m-vave-tank-mini-rear-41feda428808.jpg)](images/m-vave-tank-mini-rear-41feda428808.jpg)
 
 [Image source](https://manuals.plus/asin/B0DWL9H3ZF). Rear photograph labels power switch, instrument IN, volume wheel, charge indicator, USB-C, headphones and OUT. This is an annotated product photograph, not a physical routing test. The pictured volume note excludes Bluetooth and USB input volume; no status light is visibly on.
 
