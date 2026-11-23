@@ -220903,7 +220903,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://cdn.korg.com/us/products/upload/a83a9ffc6e5f9ecd1a7848e46e2bb14e_pc.jpg",
+            "image_url": "images/korg-pandora-stomp-top-fc40725f8dec.jpg",
             "source_url": "https://www.korg.com/us/products/effects/pandora_stomp/page_1.php",
             "caption": "Korg PANDORA stomp top controls",
             "note": "Visually checked: official black PANDORA stomp promotional image shows illuminated LCD, note display and tuner meter, with all top controls visible. Angled top view; exact overhead photograph remains pending. Promotional illumination is not an independent operating test.",
@@ -220913,7 +220913,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/korg-pandora-stomp-2353032.jpg",
+            "image_url": "images/korg-pandora-stomp-rear-e99745bdcf01.jpg",
             "source_url": "https://fr.audiofanzine.com/multieffet-guitare-electrique/korg/pandora-stomp-black/",
             "caption": "Korg PANDORA stomp connector side",
             "note": "Visually checked: output-side connector photograph shows OUTPUT, AUX IN, USB and ON/STANDBY switch. Connectors occupy multiple sides; this is not a complete all-port rear view. Opposite-side INPUT, headphone and DC connector photographs remain pending.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX3000G"
+    "last_model": "Korg::PANDORA stomp"
   }
 }
