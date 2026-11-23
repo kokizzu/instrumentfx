@@ -2466,13 +2466,13 @@ Sources checked:
 
 **BOSS GT-100 — powered-on top view**
 
-[![BOSS GT-100 — powered-on top view](https://static.roland.com/assets/images/products/gallery/gt-100_top_gal.jpg)](https://static.roland.com/assets/images/products/gallery/gt-100_top_gal.jpg)
+[![BOSS GT-100 — powered-on top view](images/boss-gt-100-top-be74dcdeee00.jpg)](images/boss-gt-100-top-be74dcdeee00.jpg)
 
 [Image source](https://www.boss.info/global/products/gt-100/). Complete manufacturer straight-down view with lit orange U01-1 / Hi GAIN STACK displays, red footswitch and EXP PEDAL indicators, nine rotary controls, eight panel buttons, eight footswitches and full expression pedal. Powered-on appearance is visible in this promotional image; independent operating-state verification is unavailable.
 
 **BOSS GT-100 — rear connections**
 
-[![BOSS GT-100 — rear connections](https://giggear.2dimg.com/original/1547732696_8575.jpg)](https://giggear.2dimg.com/original/1547732696_8575.jpg)
+[![BOSS GT-100 — rear connections](images/boss-gt-100-rear-aa4d53d05270.jpg)](images/boss-gt-100-rear-aa4d53d05270.jpg)
 
 [Image source](https://www.giggear.co.uk/guitars/effects/guitar-effects-pedals/guitar-multi-effects-pedals/boss-gt-100-multi-effects-and-amp-modelling-pedal-version-2-0.htm). Complete retailer-hosted rear-panel image: INPUT, miniature AUX IN, OUTPUT R/L-MONO, PHONES, ground lift, EXT LOOP SEND/RETURN, AMP CTL, SUB CTL1/2/SUB EXP, USB-B COMPUTER, MIDI OUT/IN, power switch, DC IN for PSB-1U adaptor, cord restraint, ground terminal and security slot.
 
