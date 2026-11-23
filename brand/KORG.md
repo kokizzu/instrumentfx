@@ -93,13 +93,13 @@ Sources checked:
 
 **Korg AX3B powered-on top controls — near-overhead view**
 
-[![Korg AX3B powered-on top controls — near-overhead view](https://medias.audiofanzine.com/images/normal/korg-ax3b-4073310.jpg)](https://medias.audiofanzine.com/images/normal/korg-ax3b-4073310.jpg)
+[![Korg AX3B powered-on top controls — near-overhead view](images/korg-ax3b-top-204ccdd9e6b5.jpg)](images/korg-ax3b-top-204ccdd9e6b5.jpg)
 
 [Image source](https://en.audiofanzine.com/bass-multi-effect/korg/ax3b/). Exact AX3B label, illuminated 01 display and both footswitch indicators are visible. Complete unit shown from near overhead with slight perspective; a perfectly perpendicular top-down photograph remains pending.
 
 **Korg AX3B rear ports — photographed upside down**
 
-[![Korg AX3B rear ports — photographed upside down](https://medias.audiofanzine.com/images/normal/korg-ax3b-4777236.jpg)](https://medias.audiofanzine.com/images/normal/korg-ax3b-4777236.jpg)
+[![Korg AX3B rear ports — photographed upside down](images/korg-ax3b-rear-691820c98c5d.jpg)](images/korg-ax3b-rear-691820c98c5d.jpg)
 
 [Image source](https://en.audiofanzine.com/bass-multi-effect/korg/ax3b/). Complete rear panel is visible with readable PEDAL, OUTPUT, INPUT and DC9V labels, plus cable hook. Unit is held upside down; AX3B manual appears behind it. Port inventory agrees with the exact-model manufacturer manual. Photo provenance only; community technical descriptions are not adopted.
 
