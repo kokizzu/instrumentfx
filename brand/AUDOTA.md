@@ -48,13 +48,13 @@ Sources checked:
 
 **Overhead control-layout render**
 
-[![Overhead control-layout render](https://shop.warwick.de/media/1b/f6/2e/1775089786/gfaf_ACE_100_03.jpg?ts=1775089786)](https://shop.warwick.de/media/1b/f6/2e/1775089786/gfaf_ACE_100_03.jpg?ts=1775089786)
+[![Overhead control-layout render](images/audota-ace-100-top-4c60570452d7.jpg)](images/audota-ace-100-top-4c60570452d7.jpg)
 
 [Image source](https://shop.warwick.de/de/effektpedale-multieffekt-prozessorenaudota-ace-100-intelligent-combined-effects-pedal). Distributor render showing the complete control surface with four footswitches, all parameter controls, LED strips and display depicted active. This does not verify a physical powered unit. A [physical unpowered unit beside its box](https://www.shop2rock.de/shop/images/products/main/audota_ace100_1.jpg) was also visually inspected. An actual powered-on, exactly top-down photograph remains pending.
 
 **Complete rear connector render**
 
-[![Complete rear connector render](https://audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/ACE-100/ACE100%E5%90%8E%E8%A7%86%E5%9B%BE.png)](https://audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/ACE-100/ACE100%E5%90%8E%E8%A7%86%E5%9B%BE.png)
+[![Complete rear connector render](images/audota-ace-100-rear-65e3415dd00d.png)](images/audota-ace-100-rear-65e3415dd00d.png)
 
 [Image source](https://www.audota.com/ACE100EN.html). Manufacturer render showing the entire connector panel with readable labels: In, Out, Phone, OTG USB-C, power switch and Power In USB-C. A physical rear-panel photograph remains pending.
 
