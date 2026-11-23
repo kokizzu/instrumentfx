@@ -492,13 +492,13 @@ Sources checked:
 
 **Powered front controls and rear connections**
 
-[![Powered front controls and rear connections](https://static.bax-shop.es/image/product/7439/130981/6d1bd7b6/376fcea4f0b9232fd50bd429ed419d88.jpg?key=og)](https://static.bax-shop.es/image/product/7439/130981/6d1bd7b6/376fcea4f0b9232fd50bd429ed419d88.jpg?key=og)
+[![Powered front controls and rear connections](images/alesis-nanoverb-rear-5790b21dab2a.jpg)](images/alesis-nanoverb-rear-5790b21dab2a.jpg)
 
 [Image source](https://www.bax-shop.co.uk/products-out-of-stock/alesis-nanoverb-multi-effect-processor). Retailer promotional composite of the original NanoVerb (not NanoVerb 2), showing the illuminated power indicator and the entire front control surface above a complete rear view. Rear connections are 9 V AC power, bypass footswitch, LEFT/RIGHT inputs and LEFT/RIGHT outputs. Both panels are unobstructed, but the whole composite is only 500 pixels wide; a larger control and connector photograph remains pending. This compact rack-style unit has its controls on the front, not its top lid.
 
 **Rear ports (lower panel of composite)**
 
-[![Rear ports (lower panel of composite)](https://static.bax-shop.es/image/product/7439/130981/6d1bd7b6/376fcea4f0b9232fd50bd429ed419d88.jpg?key=og)](https://static.bax-shop.es/image/product/7439/130981/6d1bd7b6/376fcea4f0b9232fd50bd429ed419d88.jpg?key=og)
+[![Rear ports (lower panel of composite)](images/alesis-nanoverb-rear-5790b21dab2a.jpg)](images/alesis-nanoverb-rear-5790b21dab2a.jpg)
 
 [Image source](https://www.bax-shop.co.uk/products-out-of-stock/alesis-nanoverb-multi-effect-processor). The lower half of this verified composite shows every rear port and its label: 9 V AC power, bypass footswitch, stereo LEFT/RIGHT inputs and stereo LEFT/RIGHT outputs. The same composite is used above to retain the matching front/rear reference; a higher-resolution rear photo remains pending.
 

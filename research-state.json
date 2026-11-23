@@ -229233,7 +229233,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.bax-shop.es/image/product/7439/130981/6d1bd7b6/376fcea4f0b9232fd50bd429ed419d88.jpg?key=og",
+            "image_url": "images/alesis-nanoverb-rear-5790b21dab2a.jpg",
             "source_url": "https://www.bax-shop.co.uk/products-out-of-stock/alesis-nanoverb-multi-effect-processor",
             "caption": "Powered front controls and rear connections",
             "note": "Retailer promotional composite of the original NanoVerb (not NanoVerb 2), showing the illuminated power indicator and the entire front control surface above a complete rear view. Rear connections are 9 V AC power, bypass footswitch, LEFT/RIGHT inputs and LEFT/RIGHT outputs. Both panels are unobstructed, but the whole composite is only 500 pixels wide; a larger control and connector photograph remains pending. This compact rack-style unit has its controls on the front, not its top lid.",
@@ -229243,7 +229243,7 @@
             "sha256": "5790b21dab2a2fac65f845bfc5bea6badb08b7832b385926dfd58c558fe451d7"
           },
           "rear": {
-            "image_url": "https://static.bax-shop.es/image/product/7439/130981/6d1bd7b6/376fcea4f0b9232fd50bd429ed419d88.jpg?key=og",
+            "image_url": "images/alesis-nanoverb-rear-5790b21dab2a.jpg",
             "source_url": "https://www.bax-shop.co.uk/products-out-of-stock/alesis-nanoverb-multi-effect-processor",
             "caption": "Rear ports (lower panel of composite)",
             "note": "The lower half of this verified composite shows every rear port and its label: 9 V AC power, bypass footswitch, stereo LEFT/RIGHT inputs and stereo LEFT/RIGHT outputs. The same composite is used above to retain the matching front/rear reference; a higher-resolution rear photo remains pending.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Alesis::MIDIverb III"
+    "last_model": "Alesis::NanoVerb"
   }
 }
