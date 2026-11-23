@@ -1952,7 +1952,7 @@ Sources checked:
 
 **BOSS GT-6 — powered-on top view**
 
-[![BOSS GT-6 — powered-on top view](https://static.roland.com/assets/images/products/main/gt6_main.jpg)](https://static.roland.com/assets/images/products/main/gt6_main.jpg)
+[![BOSS GT-6 — powered-on top view](images/boss-gt-6-top-b4e018197db3.jpg)](images/boss-gt-6-top-b4e018197db3.jpg)
 
 [Image source](https://www.boss.info/global/products/gt-6/). Complete manufacturer straight-down promotional view with lit red bank digit, green TUBE STACK LCD, red effect/foot indicators, full rotary/button sections, seven footswitches and full expression pedal. The original is only 500 pixels wide, limiting fine-label readability. Powered-on appearance is visible; independent operating-state verification is unavailable.
 

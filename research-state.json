@@ -228299,7 +228299,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/assets/images/products/main/gt6_main.jpg",
+            "image_url": "images/boss-gt-6-top-b4e018197db3.jpg",
             "source_url": "https://www.boss.info/global/products/gt-6/",
             "caption": "BOSS GT-6 — powered-on top view",
             "note": "Complete manufacturer straight-down promotional view with lit red bank digit, green TUBE STACK LCD, red effect/foot indicators, full rotary/button sections, seven footswitches and full expression pedal. The original is only 500 pixels wide, limiting fine-label readability. Powered-on appearance is visible; independent operating-state verification is unavailable.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-20"
+    "last_model": "BOSS::GT-6"
   }
 }
