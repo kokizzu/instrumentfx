@@ -4473,13 +4473,13 @@ Sources checked:
 
 **MOOER Prime S1 powered-on top view**
 
-[![MOOER Prime S1 powered-on top view](https://mooer.jp/cdn/shop/files/Prime-S1-05.png?v=1711508221&width=1445)](https://mooer.jp/cdn/shop/files/Prime-S1-05.png?v=1711508221&width=1445)
+[![MOOER Prime S1 powered-on top view](images/mooer-prime-s1-top-c03457cf473b.jpg)](images/mooer-prime-s1-top-c03457cf473b.jpg)
 
 [Image source](https://mooer.jp/products/mooer-prime-s1). Visually inspected exact gradient Prime S1 overhead, illuminated 2-A display, four switch LEDs and battery/Bluetooth/wireless indicators. Display artwork is not a measured runtime or current-firmware claim.
 
 **MOOER Prime S1 rear ports**
 
-[![MOOER Prime S1 rear ports](https://mooer.jp/cdn/shop/files/Prime-S1-02.png?v=1711508221&width=1445)](https://mooer.jp/cdn/shop/files/Prime-S1-02.png?v=1711508221&width=1445)
+[![MOOER Prime S1 rear ports](images/mooer-prime-s1-rear-9d9e398877f8.jpg)](images/mooer-prime-s1-rear-9d9e398877f8.jpg)
 
 [Image source](https://mooer.jp/products/mooer-prime-s1). Visually inspected complete rear: INPUT, separate OUTPUT L/R, recessed MASTER thumbwheel, PHONES, USB-C and ON/OFF POWER slider. No barrel-power, dedicated MIDI, external EXP or effects-loop connector shown; USB functions follow the exact model documentation.
 
