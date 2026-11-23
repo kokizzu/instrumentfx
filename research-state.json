@@ -227836,7 +227836,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://guitarsele.com/article/img/uploads/shimastaff06/2017/05/bo-m.jpg",
+            "image_url": "images/boss-gt-1-top-d3fd355325ca.jpg",
             "source_url": "https://guitarsele.com/article/feature/zoom-g3n-boss-gt1-review/",
             "caption": "GT-1 control face",
             "note": "Actual powered GT-1 in a hands-on comparison review, photographed near-overhead with slight perspective. Three knobs, twelve panel buttons, three illuminated footswitches and full expression pedal visible. LCD is lit but overexposed and unreadable; a perpendicular photograph with legible display remains pending.",
@@ -227846,7 +227846,7 @@
             "sha256": "d3fd355325ca6544db0f01443459fb54732f7c619bb4f83503c04220e5c2c38d"
           },
           "rear": {
-            "image_url": "https://images.guitarguitar.co.uk/cdn/large/150/160907302105008b.jpg?bg=ffffff&h=500&maxwidth=770&quality=70&scale=canvas",
+            "image_url": "images/boss-gt-1-rear-41d6d268b9a3.jpg",
             "source_url": "https://www.guitarguitar.co.uk/product/160907302105008--boss-gt-1-guitar-amp-modeller-and-multi-effects-processor-pedal",
             "caption": "GT-1 rear connections",
             "note": "Retailer complete rear product view: INPUT, AUX IN, PHONES, OUTPUT R and L/MONO, CTL2,3/EXP2, USB Type-B COMPUTER and DC IN for BOSS PSA adapter. Security slot also visible; no separate rear power switch appears.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GX-10"
+    "last_model": "BOSS::GT-1"
   }
 }

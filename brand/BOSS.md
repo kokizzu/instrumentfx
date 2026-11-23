@@ -1167,13 +1167,13 @@ Sources checked:
 
 **GT-1 control face**
 
-[![GT-1 control face](https://guitarsele.com/article/img/uploads/shimastaff06/2017/05/bo-m.jpg)](https://guitarsele.com/article/img/uploads/shimastaff06/2017/05/bo-m.jpg)
+[![GT-1 control face](images/boss-gt-1-top-d3fd355325ca.jpg)](images/boss-gt-1-top-d3fd355325ca.jpg)
 
 [Image source](https://guitarsele.com/article/feature/zoom-g3n-boss-gt1-review/). Actual powered GT-1 in a hands-on comparison review, photographed near-overhead with slight perspective. Three knobs, twelve panel buttons, three illuminated footswitches and full expression pedal visible. LCD is lit but overexposed and unreadable; a perpendicular photograph with legible display remains pending.
 
 **GT-1 rear connections**
 
-[![GT-1 rear connections](https://images.guitarguitar.co.uk/cdn/large/150/160907302105008b.jpg?bg=ffffff&h=500&maxwidth=770&quality=70&scale=canvas)](https://images.guitarguitar.co.uk/cdn/large/150/160907302105008b.jpg?bg=ffffff&h=500&maxwidth=770&quality=70&scale=canvas)
+[![GT-1 rear connections](images/boss-gt-1-rear-41d6d268b9a3.jpg)](images/boss-gt-1-rear-41d6d268b9a3.jpg)
 
 [Image source](https://www.guitarguitar.co.uk/product/160907302105008--boss-gt-1-guitar-amp-modeller-and-multi-effects-processor-pedal). Retailer complete rear product view: INPUT, AUX IN, PHONES, OUTPUT R and L/MONO, CTL2,3/EXP2, USB Type-B COMPUTER and DC IN for BOSS PSA adapter. Security slot also visible; no separate rear power switch appears.
 
