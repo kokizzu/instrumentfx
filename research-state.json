@@ -222042,7 +222042,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.nux.us/cdn/shop/files/TRIDENT_W_01.jpg?v=1756899596&width=1920",
+            "image_url": "images/nux-trident-nme-5-top-648b631eb31f.jpg",
             "source_url": "https://www.nux.us/products/trident",
             "caption": "NUX TRIDENT — top controls",
             "visual_checked": true,
@@ -222052,7 +222052,7 @@
             "sha256": "648b631eb31faea8957eedb6432713d137f2ace253eb26468504622e08a38a38"
           },
           "rear": {
-            "image_url": "https://www.nux.us/cdn/shop/files/TRIDENT_W_03.jpg?v=1756899596&width=1920",
+            "image_url": "images/nux-trident-nme-5-rear-01c58bd6916f.jpg",
             "source_url": "https://www.nux.us/products/trident",
             "caption": "NUX TRIDENT — rear ports",
             "visual_checked": true,
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::Cerberus NME-3"
+    "last_model": "NUX::TRIDENT NME-5"
   }
 }
