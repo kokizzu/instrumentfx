@@ -227573,7 +227573,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.gitarrebass.de/app/uploads/2025/04/Zoom-MultiStomp_MS-80-IR.jpg",
+            "image_url": "images/zoom-ms-80ir-plus-top-49643656e54a.jpg",
             "source_url": "https://www.gitarrebass.de/equipment/volle-breitseite-zoom-multistomp-pedale-im-test/",
             "caption": "MS-80IR+ control face",
             "note": "Actual powered MS-80IR+ photographed for a magazine review, with illuminated MS1959 amp-model LCD. Four encoder knobs, four cross-key switches and central footswitch are fully visible. The photograph is angled overhead rather than perpendicular top-down; a straight-down replacement remains pending.",
@@ -227583,7 +227583,7 @@
             "sha256": "49643656e54aad47ce2e79080a1a8aa5e18758e1455fa62ef59a017e9b512978"
           },
           "rear": {
-            "image_url": "https://zoomcorp.com/media/images/USB-C_Inset_1800x900.width-800.png",
+            "image_url": "images/zoom-ms-80ir-plus-rear-4e887c6e5f70.png",
             "source_url": "https://zoomcorp.com/ja/jp/multi-effects/multistomp-pedals/ms-80ir/",
             "caption": "MS-80IR+ rear connections",
             "note": "Manufacturer rear photograph shows center-negative DC9V adapter socket and USB Type-C marked DC5V. The round feature below USB is a screw. Mono INPUT and L/MONO headphone/line and R outputs are on the side panels and are not fully shown here.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::MS-70CDR Plus"
+    "last_model": "Zoom::MS-80IR Plus"
   }
 }
