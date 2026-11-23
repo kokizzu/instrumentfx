@@ -218887,7 +218887,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://www.headrushfx.com/assets/images/pdp/core/carousel-02.webp",
+            "image_url": "images/headrush-core-top-028bdfe30adc.webp",
             "source_url": "https://www.headrushfx.com/products/core/index.html",
             "caption": "HeadRush Core powered-on top-down product view",
             "note": "Manufacturer product view from above; active Get a Record Deal rig display and five colored illuminated footswitch bars visible. Screen CPU reading covers the pictured rig, not isolated Drop Tune DSP cost. Despite the page’s erroneous Flex Prime Gallery alt text, the pictured chassis is labeled CORE.",
@@ -218897,7 +218897,7 @@
             "sha256": "028bdfe30adc3cdefc0ff055a2bd55cb9c18b9d75053ce37acd7bea8e1cbe218"
           },
           "rear": {
-            "image_url": "https://www.headrushfx.com/assets/images/pdp/core/carousel-03.webp",
+            "image_url": "images/headrush-core-rear-e7c206588d6b.webp",
             "source_url": "https://www.headrushfx.com/products/core/index.html",
             "caption": "HeadRush Core rear connections",
             "note": "Clear manufacturer rear view: MIC GAIN/combo MIC INPUT,AUX,GUITAR IN,EXT AMP,EXPR,TOE,FX SEND/RETURN,PHONES,paired jack/XLR outputs,separate MIDI IN and OUT/THRU,USB-B/USB-A,DC IN and POWER. DC label shows12V3.0A center-positive barrel input, not IEC mains; this confirms the photographed hardware while preserving the contradictory FAQ as a source error. The visible USB cable retainer is not another data connector.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Flamma::FX50"
+    "last_model": "HeadRush::Core"
   }
 }
