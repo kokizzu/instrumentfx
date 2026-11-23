@@ -51,13 +51,13 @@ Sources checked:
 
 **Critical Mass — overhead photograph, unlit**
 
-[![Critical Mass — overhead photograph, unlit](https://img.ricardostatic.ch/images/4c116f4c-7b61-4e65-93ad-f2e732f96851/t_1000x750/tc-helicon-critical-mass-large-group-sound-effects)](https://img.ricardostatic.ch/images/4c116f4c-7b61-4e65-93ad-f2e732f96851/t_1000x750/tc-helicon-critical-mass-large-group-sound-effects)
+[![Critical Mass — overhead photograph, unlit](images/tc-helicon-critical-mass-top-c9a3d0939803.jpg)](images/tc-helicon-critical-mass-top-c9a3d0939803.jpg)
 
 [Image source](https://www.ricardo.ch/de/a/tc-helicon-critical-mass-large-group-sound-effects-1246001640/). Actual used unit: three rotaries (STYLE/MIX/REVERB), one TONE button and one footswitch; no treadle. Printed eight STYLE positions: Melodic 1–4 and Gang 5–8, each Unison/Oct Up/Oct Dn/Up&Dn. Reverb labels OFF/RM/CLUB/HALL resolve the earlier unnamed middle type as Club. No numeric screen visible, only status indicators. LEDs are unlit; a verified powered-on overhead photo remains pending.
 
 **Critical Mass — rear connector artwork**
 
-[![Critical Mass — rear connector artwork](https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/1677/5884/145307-tmp4990__51057.1714735862.jpg?c=1)](https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/1677/5884/145307-tmp4990__51057.1714735862.jpg?c=1)
+[![Critical Mass — rear connector artwork](images/tc-helicon-critical-mass-rear-c9c54eea4166.webp)](images/tc-helicon-critical-mass-rear-c9c54eea4166.webp)
 
 [Image source](https://www.andertons.co.uk/tc-helicon-critical-mass-vocal-stompbox/). Stock rear artwork shows USB (manual specifies micro-USB), ON/OFF slide switch, center-negative DC polarity symbol, male XLR OUT and female XLR MIC. No headphone or analog expression socket pictured. This is polished catalogue artwork, not independent powered-unit proof; the green detail above the rear lip does not establish a hardware test. Artwork does not prove USB audio/power or resolve 24V-versus-48V phantom claims.
 
