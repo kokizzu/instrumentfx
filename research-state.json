@@ -222016,7 +222016,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.nux.us/cdn/shop/files/Cerberus_NME-3__W_01.jpg?v=1756899725&width=2560",
+            "image_url": "images/nux-cerberus-nme-3-top-18b1c272be24.jpg",
             "source_url": "https://www.nux.us/products/cerberus-nme-3",
             "caption": "NUX Cerberus — top controls",
             "visual_checked": true,
@@ -222026,7 +222026,7 @@
             "sha256": "18b1c272be244146f5c225ee86a99b6e6395e44e6c272f586bd2e5c2e9a4d0ba"
           },
           "rear": {
-            "image_url": "https://www.nux.us/cdn/shop/files/Cerberus_NME-3__W_05.jpg?v=1756899725&width=2560",
+            "image_url": "images/nux-cerberus-nme-3-rear-4f3cef7ff3a3.jpg",
             "source_url": "https://www.nux.us/products/cerberus-nme-3",
             "caption": "NUX Cerberus — rear ports",
             "visual_checked": true,
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MFX-10"
+    "last_model": "NUX::Cerberus NME-3"
   }
 }
