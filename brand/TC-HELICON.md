@@ -942,13 +942,13 @@ Sources checked:
 
 **PERFORM-VK powered-on user photograph — angled overhead**
 
-[![PERFORM-VK powered-on user photograph — angled overhead](https://media.sweetwater.com/m/gx/4f5fff8a037280837d4a5eda717be502509d6f4a.jpg?auto=webp&bg-color=f2f1f0&canvas=2000%2C2000&fit=bounds&height=2000&quality=75&width=2000)](https://media.sweetwater.com/m/gx/4f5fff8a037280837d4a5eda717be502509d6f4a.jpg?auto=webp&bg-color=f2f1f0&canvas=2000%2C2000&fit=bounds&height=2000&quality=75&width=2000)
+[![PERFORM-VK powered-on user photograph — angled overhead](images/tc-helicon-perform-vk-top-beaebf2d07de.jpg)](images/tc-helicon-perform-vk-top-beaebf2d07de.jpg)
 
 [Image source](https://www.sweetwater.com/used/listings/294464-used-tc-helicon-perform-vk-keyboard-controllable-vocal-processor). Visually inspected white PERFORM-VK with front model label, Harmony and three preset pads visible. Backlit effect pads and red encoder-ring segments establish visible powered operation. Full control face, central knob and fourteen hand-button pads are shown; no onboard footswitches. Oblique angle and red ambient lighting affect appearance, so strict perpendicular overhead remains pending. No firmware version, active algorithm configuration, pitch polyphony or DSP percentage inferred from pad colors. Official rear connector view retained separately.
 
 **PERFORM-VK rear ports — manufacturer stock image**
 
-[![PERFORM-VK rear ports — manufacturer stock image](https://cdn-media.empowertribe.com/a5b527d288e64324ba1360c84d022976/Image_TH_0726-AAH_PERFORM-VK_Rear_XL.png)](https://cdn-media.empowertribe.com/a5b527d288e64324ba1360c84d022976/Image_TH_0726-AAH_PERFORM-VK_Rear_XL.png)
+[![PERFORM-VK rear ports — manufacturer stock image](images/tc-helicon-perform-vk-rear-da4bce3c677a.png)](images/tc-helicon-perform-vk-rear-da4bce3c677a.png)
 
 [Image source](https://www.tchelicon.com/ja/products/0726-AAH). Exact white PERFORM-VK rear inspected: center-negative DC power, Mini-B USB, five-pin MIDI IN, quarter-inch PEDAL, AUX minijack, stereo quarter-inch OUT L/R, stereo quarter-inch INST IN L/R, female XLR MIDAS MIC IN and security slot. No XLR MIC OUT or separately labeled keyboard THRU is present in this panel image, contrary to current product prose. PEDAL does not establish continuous expression; MIDI CC11 harmony-level control remains distinct.
 
