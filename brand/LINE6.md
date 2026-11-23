@@ -2926,13 +2926,13 @@ Sources checked:
 
 **Pocket POD — powered-on top-down view**
 
-[![Pocket POD — powered-on top-down view](https://line6.com/data/l/0a06007297c54672c3a641918/image/jpeg/Pocket%20PODsupsup%20(Top%20Down%20on%20White%20-)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06007297c54672c3a641918/image/jpeg/Pocket%20PODsupsup%20(Top%20Down%20on%20White%20-)%20-%20Lo%20Rez.jpeg)
+[![Pocket POD — powered-on top-down view](images/line-6-pocket-pod-top-4449244399bc.jpg)](images/line-6-pocket-pod-top-4449244399bc.jpg)
 
 [Image source](https://line6.com/company/images/?families=1). Exact red Pocket POD with four parameter knobs, illuminated orange LCD and red TAP indicator; manufacturer archive explicitly identifies Top Down on White. Not Pocket POD Express.
 
 **Pocket POD — rear audio and power ports**
 
-[![Pocket POD — rear audio and power ports](https://l6c-acdn2.line6.net/data/6/0a020a3f14b8059837287c9200/image/png/file.png)](https://l6c-acdn2.line6.net/data/6/0a020a3f14b8059837287c9200/image/png/file.png)
+[![Pocket POD — rear audio and power ports](images/line-6-pocket-pod-rear-f81578daa307.png)](images/line-6-pocket-pod-rear-f81578daa307.png)
 
 [Image source](https://line6.com/pocket-pod/). Exact Pocket POD rear shows CD/MP3 IN, AMP OUT, DIRECT OUT/PHONES,9VDC and GUITAR IN. USB mini connector is outside this rear view. This photograph labels9VDC; older manual DC-1 adapter9.6V rating remains a separately qualified source.
 
