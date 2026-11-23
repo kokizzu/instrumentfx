@@ -2099,13 +2099,13 @@ Sources checked:
 
 **NUX MG-400 — top controls**
 
-[![NUX MG-400 — top controls](https://www.nux.us/cdn/shop/files/MG-400_W_01.jpg?v=1756899623&width=2400)](https://www.nux.us/cdn/shop/files/MG-400_W_01.jpg?v=1756899623&width=2400)
+[![NUX MG-400 — top controls](images/nux-mg-400-top-dcacd40d187c.jpg)](images/nux-mg-400-top-dcacd40d187c.jpg)
 
 [Image source](https://www.nux.us/products/mg-400). Visually inspected official overhead MG-400 image with active color LCD (patch3D), four footswitches, Master knob and treadle. Orange accessory footswitch cap is shown. Promotional image, not independent powered device testing.
 
 **NUX MG-400 — rear ports**
 
-[![NUX MG-400 — rear ports](https://www.nux.us/cdn/shop/files/MG-400_W_02.jpg?v=1756899623&width=2400)](https://www.nux.us/cdn/shop/files/MG-400_W_02.jpg?v=1756899623&width=2400)
+[![NUX MG-400 — rear ports](images/nux-mg-400-rear-4e28c555d525.jpg)](images/nux-mg-400-rear-4e28c555d525.jpg)
 
 [Image source](https://www.nux.us/products/mg-400). Visually inspected straight rear view: Input, AUX In, Output L/Mono and R, Phones, USB, Power switch and center-negative DC9V labels. No send/return sockets pictured; the launch press-release FX-loop wording is not adopted. USB connector subtype/powering is not established here.
 
