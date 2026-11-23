@@ -1381,13 +1381,13 @@ Sources checked:
 
 **Hotone Ampero MP-100 — control surface**
 
-[![Hotone Ampero MP-100 — control surface](https://cdn11.bigcommerce.com/s-31108/images/stencil/1280x1280/products/3126/21583/HOTONE_Ampero_T__81257.1619196468.jpg?c=2)](https://cdn11.bigcommerce.com/s-31108/images/stencil/1280x1280/products/3126/21583/HOTONE_Ampero_T__81257.1619196468.jpg?c=2)
+[![Hotone Ampero MP-100 — control surface](images/hotone-ampero-mp-100-top-6aee853aa088.webp)](images/hotone-ampero-mp-100-top-6aee853aa088.webp)
 
 [Image source](https://www.lightingelstore.com/hotone-ampero-mp-100-guitar-fx-amp-modeler-usb-interface-touchscreen-pedalboard/). Top-down promotional photograph with powered touchscreen and four illuminated footswitch rings; five knobs, screen-lock button and expression pedal visible. Enclosure sides touch the image boundaries; controls are not cropped.
 
 **Hotone Ampero MP-100 — rear connections**
 
-[![Hotone Ampero MP-100 — rear connections](https://static.bax-shop.nl/image/product/472963/1565465/f9dec19e/1539334093Hotone%20MP-100%20Ampero%20connectors.jpg)](https://static.bax-shop.nl/image/product/472963/1565465/f9dec19e/1539334093Hotone%20MP-100%20Ampero%20connectors.jpg)
+[![Hotone Ampero MP-100 — rear connections](images/hotone-ampero-mp-100-rear-df1a7d2da70e.jpg)](images/hotone-ampero-mp-100-rear-df1a7d2da70e.jpg)
 
 [Image source](https://www.bax-shop.nl/multi-effect-pedaal/hotone-mp-100-ampero-amp-modeler-effects-processor). Full rear connector row: EXP2, input with mode selector, balanced XLR outputs and ground lift, auxiliary input, phones, unbalanced stereo outputs, USB-B, power switch, MIDI IN and DC 18V 500mA. Fine labels are small; full-width image opens directly.
 
