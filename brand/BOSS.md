@@ -2067,13 +2067,13 @@ Sources checked:
 
 **BOSS GT-8 — powered-on top view**
 
-[![BOSS GT-8 — powered-on top view](https://static.roland.com/assets/images/products/main/gt_8_top_main.jpg)](https://static.roland.com/assets/images/products/main/gt_8_top_main.jpg)
+[![BOSS GT-8 — powered-on top view](images/boss-gt-8-top-6393d1ea727c.jpg)](images/boss-gt-8-top-6393d1ea727c.jpg)
 
 [Image source](https://www.boss.info/global/products/gt-8/). Complete manufacturer straight-down promotional view with green HiGAIN STACK LCD, red bank digit and effect/foot indicators, full rotary/button sections, seven footswitches and complete expression pedal. The original is only 500 pixels wide, limiting fine-label readability. Powered-on appearance is visible; independent operating-state verification is unavailable.
 
 **BOSS GT-8 — rear connections**
 
-[![BOSS GT-8 — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/55606/329540/YBOSS13209107__07163.1704715805.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/55606/329540/YBOSS13209107__07163.1704715805.jpg?c=1)
+[![BOSS GT-8 — rear connections](images/boss-gt-8-rear-ad3dec38a8f5.jpg)](images/boss-gt-8-rear-ad3dec38a8f5.jpg)
 
 [Image source](https://richtonemusic.co.uk/boss-gt-8-guitar-effects-processor-box-psu-2nd-hand/). Actual retailer photograph of an unpowered used GT-8, showing the complete rear panel: INPUT, OUTPUT LEVEL control, OUTPUT R/L-MONO, PHONES, EXT LOOP SEND/RETURN, AMP CONTROL, SUB EXP PEDAL/SUB CTL1/2, coaxial DIGITAL OUT, MIDI OUT/IN, power switch, AC IN for BRC adaptor and cord restraint.
 
