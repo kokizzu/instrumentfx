@@ -3485,13 +3485,13 @@ Sources checked:
 
 **Standard POD Go powered-on top-down product image**
 
-[![Standard POD Go powered-on top-down product image](https://line6.com/data/6/0a020a412510634dd998e32d5/image/jpeg)](https://line6.com/data/6/0a020a412510634dd998e32d5/image/jpeg)
+[![Standard POD Go powered-on top-down product image](images/line-6-pod-go-top-ae7c13127ce2.jpg)](images/line-6-pod-go-top-ae7c13127ce2.jpg)
 
 [Image source](https://line6.com/podgo/). Manufacturer standard-model overview shows active 16D Two-Plus Decades screen, colored switch rings and built-in treadle. Eight rotaries, eight main footswitches and four buttons visible; toe switch is additional. This is POD Go without Wireless branding/antenna markings, not the Wireless image in the same page interactive panel. Published product image is not evidence of installed firmware or measured chord tracking.
 
 **Standard POD Go complete rear photograph**
 
-[![Standard POD Go complete rear photograph](https://assets-sb.thomann.de/f/49568/4983x1321/58462e97f3/tps_1335_483547_june07569-483547n.jpg/m/1600x0/filters%3Aquality%2890%29)](https://assets-sb.thomann.de/f/49568/4983x1321/58462e97f3/tps_1335_483547_june07569-483547n.jpg/m/1600x0/filters%3Aquality%2890%29)
+[![Standard POD Go complete rear photograph](images/line-6-pod-go-rear-57a0f76abb85.jpg)](images/line-6-pod-go-rear-57a0f76abb85.jpg)
 
 [Image source](https://www.thomannmusic.com/line6_pod_go.htm). Retailer photograph clearly shows GUITAR IN, shared EXP2/FS7/8, stereo RETURN/AUX and SEND, balanced/unbalanced L/MONO/RIGHT MAIN OUT, AMP OUT, PHONES, USB-B, DC IN and power rocker. Rear label is 9VDC 2.5A Min, center-negative; minimum supply marking is not measured draw and does not contradict a supplied 3A-rated adapter. No Wireless transmitter-storage well, DIN MIDI or XLR port shown. Connection evidence comes from the photograph/manual, not retailer menu-control prose.
 
