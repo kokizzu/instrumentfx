@@ -4098,13 +4098,13 @@ Sources checked:
 
 **MOOER Prime M1 powered-on top view**
 
-[![MOOER Prime M1 powered-on top view](https://mooer.jp/cdn/shop/files/M1-01.png?v=1733372737&width=1445)](https://mooer.jp/cdn/shop/files/M1-01.png?v=1733372737&width=1445)
+[![MOOER Prime M1 powered-on top view](images/mooer-prime-m1-top-57e97070c21f.jpg)](images/mooer-prime-m1-top-57e97070c21f.jpg)
 
 [Image source](https://mooer.jp/products/mooer-prime-m1). Visually inspected exact gradient-finish Prime M1, overhead with illuminated 2-A preset, battery/Bluetooth indicators and switch/status LEDs. Battery artwork is not a runtime measurement.
 
 **MOOER Prime M1 rear ports**
 
-[![MOOER Prime M1 rear ports](https://mooer.jp/cdn/shop/files/M1-02.png?v=1733372737&width=1445)](https://mooer.jp/cdn/shop/files/M1-02.png?v=1733372737&width=1445)
+[![MOOER Prime M1 rear ports](images/mooer-prime-m1-rear-c2b9517bab6f.jpg)](images/mooer-prime-m1-rear-c2b9517bab6f.jpg)
 
 [Image source](https://mooer.jp/products/mooer-prime-m1). Visually inspected complete rear: INPUT, OUTPUT, recessed MASTER thumbwheel, PHONES, USB-C and reset pinhole. No barrel-power, MIDI, external EXP or FX-loop connector is shown; USB functions and power requirements follow the model manual.
 
