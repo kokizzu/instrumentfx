@@ -945,13 +945,13 @@ Sources checked:
 
 **Behringer X V-AMP — powered-on overhead control surface**
 
-[![Behringer X V-AMP — powered-on overhead control surface](https://medias.audiofanzine.com/images/normal/behringer-x-v-amp-5725831.jpg)](https://medias.audiofanzine.com/images/normal/behringer-x-v-amp-5725831.jpg)
+[![Behringer X V-AMP — powered-on overhead control surface](images/behringer-x-v-amp-lx1-x-top-2a128cff3190.jpg)](images/behringer-x-v-amp-lx1-x-top-2a128cff3190.jpg)
 
 [Image source](https://en.audiofanzine.com/guitar-amp-simulation-pedal/behringer/X-V-Amp/). Actual user photograph shows the complete blue X V-AMP, both footswitch pads and the full expression treadle. The red preset 20 display, green configuration/pedal-assignment indicators and red rotary-control LEDs are visibly illuminated. Nearly overhead with slight perspective; a strictly perpendicular view is not claimed. Connected cables and minor surface wear are visible.
 
 **Rear connection edge**
 
-[![Rear connection edge](https://i.ebayimg.com/images/g/n0gAAOSwhUdnUqMz/s-l1600.webp)](https://i.ebayimg.com/images/g/n0gAAOSwhUdnUqMz/s-l1600.webp)
+[![Rear connection edge](images/behringer-x-v-amp-lx1-x-rear-d52c187e828a.webp)](images/behringer-x-v-amp-lx1-x-rear-d52c187e828a.webp)
 
 [Image source](https://www.ebay.com/itm/335713971526). The complete connector edge is visible, upside down in the photograph: AC input, instrument input, mono amplifier output and stereo headphones output. The photograph is slightly angled.
 
