@@ -391,13 +391,13 @@ Sources checked:
 
 **HeadRush Gigboard powered-on top-down product view**
 
-[![HeadRush Gigboard powered-on top-down product view](https://www.headrushfx.com/assets/images/pdp/gigboard/gigboard-front-0321b.png)](https://www.headrushfx.com/assets/images/pdp/gigboard/gigboard-front-0321b.png)
+[![HeadRush Gigboard powered-on top-down product view](images/headrush-gigboard-top-cf6ec3f73770.png)](images/headrush-gigboard-top-cf6ec3f73770.png)
 
 [Image source](https://www.headrushfx.com/products/gigboard/index.html). Manufacturer view from above, with active WARM AND FUZZY rig and four illuminated footswitch bars. Detune and Octaves Up appear in the pictured multi-effect chain; this is not an isolated DSP measurement. Two knobs and four switches visible; no built-in expression treadle. Product screen imagery may be composited.
 
 **HeadRush Gigboard rear connections**
 
-[![HeadRush Gigboard rear connections](https://www.headrushfx.com/assets/images/pdp/gigboard/Headrush-img-GigboardRear.png)](https://www.headrushfx.com/assets/images/pdp/gigboard/Headrush-img-GigboardRear.png)
+[![HeadRush Gigboard rear connections](images/headrush-gigboard-rear-a029fb2e2968.png)](images/headrush-gigboard-rear-a029fb2e2968.png)
 
 [Image source](https://www.headrushfx.com/products/gigboard/index.html). Clear exact-model rear view labels INPUT, AUX IN, EXPR and separate TOE, L(MONO)/R outputs, EXT AMP, PHONES, FX SEND/RETURN, DIN MIDI IN/OUT-THRU, USB-B, DC IN and POWER. Label specifies 19V 3.42A center-positive barrel input; there is no IEC mains socket. This visually confirms the manual power specification and identifies its IEC connector-list entry as an error. Supply rating is not measured draw.
 
