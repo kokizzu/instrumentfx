@@ -45,13 +45,13 @@ Sources checked:
 
 **Powered top-down control surface**
 
-[![Powered top-down control surface](https://blackstaramps.us/cdn/shop/files/IDX-FLOOR-ONE-Whiteshot-Top.jpg?v=1767121714&width=2813)](https://blackstaramps.us/cdn/shop/files/IDX-FLOOR-ONE-Whiteshot-Top.jpg?v=1767121714&width=2813)
+[![Powered top-down control surface](images/blackstar-id-x-floor-one-top-dc7fc7596d8a.jpg)](images/blackstar-id-x-floor-one-top-dc7fc7596d8a.jpg)
 
 [Image source](https://blackstaramps.us/products/id-x-floor). Manufacturer overhead promotional photograph showing the complete enclosure, every control and all three footswitches. The OLED and status indicators are illuminated; no controls are obscured.
 
 **Complete rear connection panel**
 
-[![Complete rear connection panel](https://blackstaramps.us/cdn/shop/files/IDX-FLOOR-ONE-Whiteshot-Rear.jpg?v=1767122237&width=3479)](https://blackstaramps.us/cdn/shop/files/IDX-FLOOR-ONE-Whiteshot-Rear.jpg?v=1767122237&width=3479)
+[![Complete rear connection panel](images/blackstar-id-x-floor-one-rear-b2ac89ae3f90.jpg)](images/blackstar-id-x-floor-one-rear-b2ac89ae3f90.jpg)
 
 [Image source](https://blackstaramps.us/products/id-x-floor). Manufacturer photograph showing all rear connections and readable labels: INPUT, TO AMP, USB-C, line out/phones, L/MONO and R XLR outputs, line in/streaming, MIDI IN mini-jack and 9 V DC power. The full connector panel is unobstructed.
 
