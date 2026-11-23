@@ -2267,13 +2267,13 @@ Sources checked:
 
 **HX Stomp XL powered-on top-down product image**
 
-[![HX Stomp XL powered-on top-down product image](https://l6c-acdn2.line6.net/data/6/0a020a3fdbdb5fce39c5260a7/image/png/r17673_r17673_front.png)](https://l6c-acdn2.line6.net/data/6/0a020a3fdbdb5fce39c5260a7/image/png/r17673_r17673_front.png)
+[![HX Stomp XL powered-on top-down product image](images/line-6-hx-stomp-xl-top-330f1a9c039e.png)](images/line-6-hx-stomp-xl-top-330f1a9c039e.png)
 
 [Image source](https://line6.com/hx-stomp-xl/). Exact XL overhead image shows active 06B Seismic Matters color display and illuminated switch rings. Eight footswitches, five front rotaries and four buttons are visible; sixth rotary is recessed Volume on rear. No integrated expression treadle. Manufacturer product image, not proof of installed 3.80 firmware or measured tracking quality.
 
 **HX Stomp XL complete rear panel**
 
-[![HX Stomp XL complete rear panel](https://l6c-acdn2.line6.net/data/6/0a020a41271a5fce3ad35c4f1/image/png/r17673_r17673_back.png)](https://l6c-acdn2.line6.net/data/6/0a020a41271a5fce3ad35c4f1/image/png/r17673_r17673_back.png)
+[![HX Stomp XL complete rear panel](images/line-6-hx-stomp-xl-rear-310a16fcbbb2.png)](images/line-6-hx-stomp-xl-rear-310a16fcbbb2.png)
 
 [Image source](https://line6.com/hx-stomp-xl/). Rear view labels recessed VOLUME, shared EXP1/2–FS7/8, stereo SEND, L/MONO/RIGHT RETURN/AUX IN, L/MONO/RIGHT inputs, balanced/unbalanced L/MONO/RIGHT outputs, headphones, DIN MIDI IN/OUT-THRU, USB-B, DC IN and power switch. All shown on the rear, unlike original Stomp side-port layout. DC label specifies 9VDC 3A center-negative; supply marking is not measured current draw. No XLR or dedicated 3.5mm AUX socket shown.
 
