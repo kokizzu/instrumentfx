@@ -1669,13 +1669,13 @@ Sources checked:
 
 **FM9 MKII Turbo — powered-on top view**
 
-[![FM9 MKII Turbo — powered-on top view](https://shop.fractalaudio.com/cdn/shop/files/fm9-1920x1280.png?v=1759262164&width=3840)](https://shop.fractalaudio.com/cdn/shop/files/fm9-1920x1280.png?v=1759262164&width=3840)
+[![FM9 MKII Turbo — powered-on top view](images/fractal-audio-fm9-mkii-turbo-top-cd9d946608dc.png)](images/fractal-audio-fm9-mkii-turbo-top-cd9d946608dc.png)
 
 [Image source](https://shop.fractalaudio.com/products/fm9-mark-ii-turbo-amp-modeler-multi-fx-floor-unit). Official exact-model product photograph. Straight top view shows Mark II panel marking, Turbo main display, nine larger illuminated mini-displays and colored footswitch rings. Promotional display content is not evidence of installed firmware or factory-preset contents.
 
 **FM9 MKII Turbo — rear connections**
 
-[![FM9 MKII Turbo — rear connections](https://shop.fractalaudio.com/cdn/shop/files/fm9-rear.png?v=1759935088&width=3840)](https://shop.fractalaudio.com/cdn/shop/files/fm9-rear.png?v=1759935088&width=3840)
+[![FM9 MKII Turbo — rear connections](images/fractal-audio-fm9-mkii-turbo-rear-efa7dc5ad105.png)](images/fractal-audio-fm9-mkii-turbo-rear-efa7dc5ad105.png)
 
 [Image source](https://shop.fractalaudio.com/products/fm9-mark-ii-turbo-amp-modeler-multi-fx-floor-unit). Official rear photograph supplied on the exact MKII Turbo listing; rear label itself says FM9 and does not independently identify revision. Readable: instrument IN1, balanced stereo IN2/IN3, OUT1 XLR and quarter-inch, OUT2 XLR, OUT3 quarter-inch, ground lifts, phones, PDL1–3, FASLINK II, S/PDIF in/out, USB-B, MIDI in/out-thru and AC inlet/switch. No USB channel count or electrical pinout inferred from the photo.
 
