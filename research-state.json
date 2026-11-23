@@ -228036,7 +228036,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.chicagomusicexchange.com/cdn/shop/files/boss-effects-and-pedals-guitar-synths-boss-gm-800-guitar-synthesizer-effects-pedalboss-gm-800-guitar-synthesizer-effects-pedal-gm-800-30557103849607.jpg?v=1691185605",
+            "image_url": "images/boss-gm-800-top-04dba3051348.jpg",
             "source_url": "https://www.chicagomusicexchange.com/blogs/news/boss-gm-800-synth-pedal",
             "caption": "BOSS GM-800 — powered-on top view",
             "note": "Retailer-hosted promotional straight-down view of the entire blue control surface, active 001 SWEEP STRINGS display, four illuminated Part buttons, colored footswitch indicators, six rotary controls, ten panel buttons and four footswitches. Powered-on appearance is visible; independent operating-state verification is unavailable.",
@@ -228046,7 +228046,7 @@
             "sha256": "04dba30513489ca964f8ba2f4a28ea11de011b8696acaedf93afa601b11d353e"
           },
           "rear": {
-            "image_url": "https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/13881/50540/GM-800-Boss-GM-800-Guitar-Synthesizer-Pedal-Rear__88699.1715110266.jpg?c=1",
+            "image_url": "images/boss-gm-800-rear-ba5b563d61f1.webp",
             "source_url": "https://www.andertons.co.uk/boss-gm-800-guitar-bass-synthesizer-pedal/",
             "caption": "BOSS GM-800 — rear connections",
             "note": "Complete retailer-hosted promotional rear-panel image: Serial GK IN/OUT, OUTPUT R/MONO and L/PHONES, CTL3/4/EXP1 and CTL5/6/EXP2, USB-B COMPUTER and USB-A MEMORY, MIDI OUT/IN, DC IN for PSB-1U adaptor and ground terminal.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-90B"
+    "last_model": "BOSS::GM-800"
   }
 }
