@@ -558,13 +558,13 @@ Sources checked:
 
 **MOOER GE100 Pro Li powered-on top view**
 
-[![MOOER GE100 Pro Li powered-on top view](https://deathcloud.com/cdn/shop/files/MOOERGE100ProLiPedal_379438ad-75e1-4298-9e6b-f6eeb6de9796.jpg?v=1778228467&width=1946)](https://deathcloud.com/cdn/shop/files/MOOERGE100ProLiPedal_379438ad-75e1-4298-9e6b-f6eeb6de9796.jpg?v=1778228467&width=1946)
+[![MOOER GE100 Pro Li powered-on top view](images/mooer-ge100-pro-li-top-2bef20c4114c.jpg)](images/mooer-ge100-pro-li-top-2bef20c4114c.jpg)
 
 [Image source](https://deathcloud.com/products/mooer-ge100-pro). Visually inspected exact black GE100 Pro Li variant, straight overhead with illuminated preset screen and RGB strip. The displayed battery icon is illustrative, not a measured runtime claim.
 
 **MOOER GE100 Pro Li rear ports**
 
-[![MOOER GE100 Pro Li rear ports](https://deathcloud.com/cdn/shop/files/MOOERGE100ProLiPedalTop.jpg?v=1778228467&width=1946)](https://deathcloud.com/cdn/shop/files/MOOERGE100ProLiPedalTop.jpg?v=1778228467&width=1946)
+[![MOOER GE100 Pro Li rear ports](images/mooer-ge100-pro-li-rear-badc7bc0321b.jpg)](images/mooer-ge100-pro-li-rear-badc7bc0321b.jpg)
 
 [Image source](https://deathcloud.com/products/mooer-ge100-pro). Visually inspected angled rear view of the Li variant: INPUT, OUTPUT L/R, PHONES, USB data/audio, separate USB-C 5V 2A power and ON/OFF switch are readable. No dedicated physical MIDI, XLR or effects-loop connectors are shown.
 
