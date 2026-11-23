@@ -10060,13 +10060,13 @@ Sources checked:
 
 **RFX-2000 front control panel**
 
-[![RFX-2000 front control panel](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_rfx2000.png)](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_rfx2000.png)
+[![RFX-2000 front control panel](images/zoom-rfx-2000-top-b32f7a085d90.png)](images/zoom-rfx-2000-top-b32f7a085d90.png)
 
 [Image source](https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000). Manufacturer complete front-on photograph with red numeric display and lit bank/level indicators. Eight rotary controls, patch/edit keys, microphone jack and power switch visible. Rack control face is forward-facing, not a top-down chassis view; promotional powered display not independently verified.
 
 **RFX-2000 rear connections**
 
-[![RFX-2000 rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/RFX2000_Rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/RFX2000_Rear.jpg)
+[![RFX-2000 rear connections](images/zoom-rfx-2000-rear-1d2a6f5dc69d.jpg)](images/zoom-rfx-2000-rear-1d2a6f5dc69d.jpg)
 
 [Image source](https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000). Manufacturer complete rear photograph: MIDI THRU/OUT/IN, FS01 BYPASS, coaxial RCA and optical S/PDIF outputs, R/L analog outputs, R and L/MONO inputs and 12VAC 500mA adapter socket. Wide white source margins retained.
 

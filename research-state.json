@@ -227673,7 +227673,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_rfx2000.png",
+            "image_url": "images/zoom-rfx-2000-top-b32f7a085d90.png",
             "source_url": "https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000",
             "caption": "RFX-2000 front control panel",
             "note": "Manufacturer complete front-on photograph with red numeric display and lit bank/level indicators. Eight rotary controls, patch/edit keys, microphone jack and power switch visible. Rack control face is forward-facing, not a top-down chassis view; promotional powered display not independently verified.",
@@ -227683,7 +227683,7 @@
             "sha256": "b32f7a085d9014145b144d78b23600643b3a3b63fde20fdbead56203d4ba9008"
           },
           "rear": {
-            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/RFX2000_Rear.jpg",
+            "image_url": "images/zoom-rfx-2000-rear-1d2a6f5dc69d.jpg",
             "source_url": "https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-2000",
             "caption": "RFX-2000 rear connections",
             "note": "Manufacturer complete rear photograph: MIDI THRU/OUT/IN, FS01 BYPASS, coaxial RCA and optical S/PDIF outputs, R/L analog outputs, R and L/MONO inputs and 12VAC 500mA adapter socket. Wide white source margins retained.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::RFX-1100"
+    "last_model": "Zoom::RFX-2000"
   }
 }
