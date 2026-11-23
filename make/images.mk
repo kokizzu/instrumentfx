@@ -44,3 +44,10 @@ model-images-archive:
 .PHONY: model-images-archive-recover
 model-images-archive-recover:
 	python3 -B scripts/model_images.py archive-recover
+
+.PHONY: model-images-archive-code-review model-images-archive-code-commit
+model-images-archive-code-review:
+	python3 -B scripts/model_images.py archive-code-review
+
+model-images-archive-code-commit:
+	python3 -B scripts/model_images.py archive-code-commit

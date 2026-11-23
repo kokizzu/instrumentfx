@@ -9,6 +9,7 @@ INPUT=Path('/tmp/instrumentfx-images.json')
 PLAN=Path('/tmp/instrumentfx-images-plan.json')
 RECEIPT=Path('/tmp/instrumentfx-images-review.json')
 ARCHIVE_PLAN=Path('/tmp/instrumentfx-image-archive-plan.json')
+ARCHIVE_CODE_RECEIPT=Path('/tmp/instrumentfx-image-archive-code-review.json')
 def local_asset(value):
  assert re.fullmatch(r'images/[a-z0-9][a-z0-9-]{1,140}\.(?:png|jpe?g|webp|gif|bmp|avif)', value), 'Invalid local image path'
  return ROOT/'brand'/value
@@ -27,10 +28,11 @@ def image_extension(body, content_type):
  if len(body)>=12 and body[4:8]==b'ftyp' and body[8:12] in (b'avif',b'avis'): return 'avif'
  return {'image/jpeg':'jpg','image/png':'png','image/webp':'webp','image/gif':'gif','image/bmp':'bmp','image/avif':'avif'}.get(content_type)
 
-def checked_worktree():
+def checked_worktree(allowed_untracked=()):
  assert not publish.git('diff','--cached','--name-only'),'Staged work must be preserved'
  assert not publish.git('diff','--name-only'),'Working-tree changes must be preserved'
- assert not publish.git('ls-files','--others','--exclude-standard'),'Untracked work must be preserved'
+ untracked=set(publish.git('ls-files','--others','--exclude-standard').splitlines())
+ assert untracked==set(allowed_untracked),('Untracked work must be preserved',sorted(untracked-set(allowed_untracked)),sorted(set(allowed_untracked)-untracked))
 
 def archive_plan(limit):
  publish.identity();checked_worktree()
@@ -54,6 +56,28 @@ def image_download(url):
   body=response.read(8000001)
  assert len(body)<=8000000,'Source image exceeds 8 MB cap'
  return body,content_type
+
+def archive_pending_assets(item):
+ """Accept only untracked assets matching this plan item and its reviewed hashes."""
+ untracked=set(publish.git('ls-files','--others','--exclude-standard').splitlines())
+ slug=re.sub(r'[^a-z0-9]+','-',item['key'].lower()).strip('-')[:78].strip('-')
+ pending={}
+ for view,expected in item['views'].items():
+  prefix=f"{slug}-{view}-{expected['sha256'][:12]}."
+  matches=[]
+  for path in (ROOT/'brand/images').glob(prefix+'*'):
+   repo_path=path.relative_to(ROOT).as_posix()
+   if repo_path not in untracked: continue
+   body=path.read_bytes();digest=hashlib.sha256(body).hexdigest()
+   assert digest==expected['sha256'],('Pending archive asset hash mismatch',repo_path,digest,expected['sha256'])
+   ext=image_extension(body,None)
+   assert ext and path.suffix=='.'+ext,('Pending archive asset encoding mismatch',repo_path)
+   matches.append('images/'+path.name)
+  assert len(matches)<=1,('Multiple pending assets for one view',item['key'],view,matches)
+  if matches: pending[view]=matches[0]
+ allowed={'brand/'+rel for rel in pending.values()}
+ assert untracked==allowed,('Unexpected untracked work during image archive',sorted(untracked-allowed),sorted(allowed-untracked))
+ return pending
 
 def archive_commit(key, record, created_assets):
  publish.identity()
@@ -95,7 +119,8 @@ def archive(limit):
  attempted=0
  for position,item in enumerate(plan['models']):
   if position<plan['cursor']: continue
-  checked_worktree();publish.identity()
+  pending=archive_pending_assets(item)
+  checked_worktree({'brand/'+rel for rel in pending.values()});publish.identity()
   state=json.loads((ROOT/'research-state.json').read_text());key=item['key'];record=json.loads(json.dumps(state['model_images']['models'][key]))
   created=[];success=0
   for view,expected in item['views'].items():
@@ -104,6 +129,13 @@ def archive(limit):
     if current and not current['image_url'].startswith('https://'): continue
     raise AssertionError(('Image source changed since plan',key,view))
    url=expected['url'];host=urllib.parse.urlsplit(url).netloc.lower()
+   if view in pending:
+    rel=pending[view]
+    assert hashlib.sha256(local_asset(rel).read_bytes()).hexdigest()==expected['sha256']
+    record['views'][view]['image_url']=rel;created.append('brand/'+rel)
+    local_by_hash[expected['sha256']]=rel;success+=1
+    print('REUSED_VERIFIED_PENDING',key,view,rel,flush=True)
+    continue
    if host in host_blocks:
     plan['failures'].append({'model':key,'view':view,'status':'host blocked earlier','host':host});continue
    try:
@@ -144,12 +176,27 @@ def archive(limit):
  print('ARCHIVE_RESULT',json.dumps({'models_processed':plan['cursor'],'models_localized':plan['localized_models'],'views_localized':plan['localized_views'],'remaining_remote':sum(1 for r in json.loads((ROOT/'research-state.json').read_text())['model_images']['models'].values() for v in r.get('views',{}).values() if v['image_url'].startswith('https://')),'blocked_hosts':plan['blocked_hosts'],'failures':len(plan['failures'])},ensure_ascii=False))
 
 def archive_recover():
- publish.identity();checked_worktree();plan=json.loads(ARCHIVE_PLAN.read_text())
+ publish.identity();plan=json.loads(ARCHIVE_PLAN.read_text())
  assert plan['format']=='instrumentfx-image-archive-v1'
  assert plan['cursor']<len(plan['models'])
  item=plan['models'][plan['cursor']];key=item['key']
- subject='docs(images): archive '+key.replace('::',' ')+' source images'
  commits=publish.git('rev-list','--reverse',plan['head']+'..HEAD').splitlines()
+ if commits:
+  assert len(commits)==1,('Unexpected commits after archive checkpoint',commits)
+  rev=commits[0]
+  changed=set(publish.git('diff-tree','--no-commit-id','--name-only','-r',rev).splitlines())
+  subject=publish.git('log','-1','--format=%s',rev)
+  if subject=='fix(images): resume verified pending photo downloads':
+   assert publish.git('rev-parse',rev+'^')==plan['head']
+   assert changed=={'scripts/model_images.py','make/images.mk'}
+   pending=archive_pending_assets(item)
+   assert pending,('No verified pending files for checkpoint item',key)
+   plan['head']=publish.git('rev-parse','HEAD')
+   atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
+   print('RECOVERED_PENDING',key,'views',len(pending),'head',plan['head'],'cursor',plan['cursor'],'preserved_failures',len(plan['failures']))
+   return
+ checked_worktree()
+ subject='docs(images): archive '+key.replace('::',' ')+' source images'
  subjects={rev:publish.git('log','-1','--format=%s',rev) for rev in commits}
  matching=[rev for rev,value in subjects.items() if value==subject]
  assert len(matching)==1 and commits.index(matching[0])==0,('Expected one completed image commit after checkpoint',key,subjects)
@@ -169,6 +216,36 @@ def archive_recover():
  plan['localized_models']+=1;plan['localized_views']+=recovered_views
  atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
  print('RECOVERED',key,'views',recovered_views,'head',plan['head'],'cursor',plan['cursor'],'preserved_failures',len(plan['failures']))
+
+def archive_code_review():
+ publish.identity();plan=json.loads(ARCHIVE_PLAN.read_text())
+ assert plan['format']=='instrumentfx-image-archive-v1' and plan['cursor']<len(plan['models'])
+ item=plan['models'][plan['cursor']];pending=archive_pending_assets(item)
+ assert pending,('No verified pending assets for archive checkpoint',item['key'])
+ paths={'scripts/model_images.py','make/images.mk'}
+ assert not publish.git('diff','--cached','--name-only'),'Staged work must be preserved'
+ assert set(publish.git('diff','--name-only').splitlines())==paths,'Only archive recovery code may change'
+ subprocess.run(['git','add','--',*sorted(paths)],cwd=ROOT,check=True)
+ subprocess.run(['git','diff','--cached','--check'],cwd=ROOT,check=True)
+ diff=publish.git('diff','--cached');assert diff
+ receipt={'head':publish.git('rev-parse','HEAD'),'paths':sorted(publish.git('diff','--cached','--name-only').splitlines()),'sha256':hashlib.sha256(diff.encode()).hexdigest(),'pending':sorted('brand/'+rel for rel in pending.values())}
+ atomic_write(ARCHIVE_CODE_RECEIPT,json.dumps(receipt,sort_keys=True).encode())
+ print('STAGED_DIFF_BEGIN');print(diff);print('STAGED_DIFF_END');print('ARCHIVE_CODE_REVIEW',receipt)
+
+def archive_code_commit():
+ publish.identity();receipt=json.loads(ARCHIVE_CODE_RECEIPT.read_text())
+ assert receipt['head']==publish.git('rev-parse','HEAD')
+ assert receipt['paths']==sorted(publish.git('diff','--cached','--name-only').splitlines())
+ assert receipt['sha256']==hashlib.sha256(publish.git('diff','--cached').encode()).hexdigest()
+ assert not publish.git('diff','--name-only')
+ plan=json.loads(ARCHIVE_PLAN.read_text());item=plan['models'][plan['cursor']]
+ pending=archive_pending_assets(item)
+ assert receipt['pending']==sorted('brand/'+rel for rel in pending.values())
+ subprocess.run(['git','commit','-m','fix(images): resume verified pending photo downloads'],cwd=ROOT,check=True)
+ subprocess.run(['git','push','origin','main:main'],cwd=ROOT,check=True)
+ head=publish.git('rev-parse','HEAD')
+ assert publish.git('ls-remote','origin','refs/heads/main').split()[0]==head
+ print('PUSH_VERIFIED',publish.git('rev-parse','--short','HEAD'))
 
 def diagram():
  """Render a bounded, explicitly selected source-manual figure; never install firmware."""
@@ -330,4 +407,4 @@ def commit():
  assert publish.git('ls-remote','origin','refs/heads/main').split()[0]==publish.git('rev-parse','HEAD')
  print('PUSH_VERIFIED',publish.git('rev-parse','--short','HEAD'))
 if __name__=='__main__':
- {'diagram':diagram,'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit,'archive-plan':lambda:archive_plan(int(sys.argv[2])),'archive':lambda:archive(int(sys.argv[2])),'archive-recover':archive_recover}[sys.argv[1]]()
+ {'diagram':diagram,'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit,'archive-plan':lambda:archive_plan(int(sys.argv[2])),'archive':lambda:archive(int(sys.argv[2])),'archive-recover':archive_recover,'archive-code-review':archive_code_review,'archive-code-commit':archive_code_commit}[sys.argv[1]]()
