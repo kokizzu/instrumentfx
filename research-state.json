@@ -229158,7 +229158,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://media.sweetwater.com/m/products/image/ee8d158044doxuMdf4qOz6SaWLQ1UPZ3XPBQz3q4.jpg?ha=ee8d15804493ab99aa0082ed4e1ddd31a96afbec&height=1800&quality=85",
+            "image_url": "images/alesis-microverb-4-top-1fb27f61ca69.jpg",
             "source_url": "https://www.sweetwater.com/store/detail/MicroVerb4--alesis-microverb-4",
             "caption": "Powered front control panel",
             "note": "Retailer promotional photograph showing the complete rack front panel, preset 101 and illuminated level meters. This is the control surface of the rack unit, rather than a photograph of its top lid; the program-reference fine print is soft.",
@@ -229168,7 +229168,7 @@
             "sha256": "1fb27f61ca6918b6dcebfee0bb8630b9b0cb2e34227039154393d4b4091bbb7e"
           },
           "rear": {
-            "image_url": "https://www.jbmusic.com.ph/__resources/webdata/images/product-gallery/10296_305.jpg",
+            "image_url": "images/alesis-microverb-4-rear-e543f6092d6c.jpg",
             "source_url": "https://www.jbmusic.com.ph/shop/product/e-2-413/",
             "caption": "Front and rear connection panels",
             "note": "The lower panel shows the complete rear connections: 9 V AC power, footswitch, MIDI IN and OUT/THRU, left/mono and right inputs, and left/right outputs. The upper panel repeats the powered front controls; rear labels are small but visible.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Behringer::V-AMP 3"
+    "last_model": "Alesis::MicroVerb 4"
   }
 }
