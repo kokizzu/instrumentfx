@@ -1011,13 +1011,13 @@ Sources checked:
 
 **A1 FOUR powered control face**
 
-[![A1 FOUR powered control face](https://frankfurt.apollo.olxcdn.com/v1/files/38cb5b1ltf4q-BG/image%3Bs%3D2268x2919)](https://frankfurt.apollo.olxcdn.com/v1/files/38cb5b1ltf4q-BG/image%3Bs%3D2268x2919)
+[![A1 FOUR powered control face](images/zoom-a1-four-top-4f4c18c69e2e.jpg)](images/zoom-a1-four-top-4f4c18c69e2e.jpg)
 
 [Image source](https://www.olx.bg/d/ad/zoom-a1-four-protsesor-za-akustichna-kitara-CID618-ID9Qwmf.html). Visually checked complete powered no-treadle A1 FOUR from overhead with slight perspective: backlit LCD reads17 AG Singer and effect1 button LED lit. Four rotary knobs, two footswitches and nine buttons (MEMORY,SETTING,RHYTHM,1–5,LOOPER). Patch17 is not firmware. No A1X expression pedal.
 
 **A1 FOUR rear connectors**
 
-[![A1 FOUR rear connectors](https://zoomcorp.com/media/original_images/A1_FOUR_rear.jpg.0x1600_q80_crop-%2Cscale_size_canvas.jpg)](https://zoomcorp.com/media/original_images/A1_FOUR_rear.jpg.0x1600_q80_crop-%2Cscale_size_canvas.jpg)
+[![A1 FOUR rear connectors](images/zoom-a1-four-rear-d253937f5a83.jpg)](images/zoom-a1-four-rear-d253937f5a83.jpg)
 
 [Image source](https://zoomcorp.com/en/us/multi-effects/acoustic/A1-FOUR-A1X-FOUR/). Visually checked official A1 FOUR rear: INPUT,AUX IN,DC9V center-negative symbol,micro-USB markedDC5V,security slot and OUTPUT, all visible. Security slot is not another audio port; no XLR or external EXP socket shown. MAA-1 mic adapter is separate. Image does not establish USB audio/MIDI capabilities or powered operation.
 
