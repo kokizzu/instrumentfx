@@ -271,13 +271,13 @@ Sources checked:
 
 **Go Rig B — overhead control-face product image**
 
-[![Go Rig B — overhead control-face product image](https://www.soranaudio.com/upload/images/product/20260111/17681160702281083.png)](https://www.soranaudio.com/upload/images/product/20260111/17681160702281083.png)
+[![Go Rig B — overhead control-face product image](images/soran-go-rig-b-top-63299e85848b.png)](images/soran-go-rig-b-top-63299e85848b.png)
 
 [Image source](https://www.soranaudio.com/products/25.html). Manufacturer overhead image depicts a green B tuner indication. Product imagery may be composited; independent powered-on hardware verification remains pending. Visible14 rotary knobs,3 footswitches,4 mode toggles and no built-in treadle. Tuner/tap symbols are printed between switches,not extra footswitches.
 
 **Go Rig B — rear connection panel**
 
-[![Go Rig B — rear connection panel](https://www.soranaudio.com/upload/images/product/20260111/17681160705203593.jpg)](https://www.soranaudio.com/upload/images/product/20260111/17681160705203593.jpg)
+[![Go Rig B — rear connection panel](images/soran-go-rig-b-rear-101c08902990.jpg)](images/soran-go-rig-b-rear-101c08902990.jpg)
 
 [Image source](https://www.soranaudio.com/products/25.html). Exact manufacturer rear image shows INPUT,AUX IN,HEADPHONE,ground/lift toggle,XLR D.I.OUT,OUTPUT,USB-C AUDIO/OTG charging port,power slide switch and indicator. No barrel-power socket or EXP jack visible on this panel. Ground lift is not a headphone control. Connector appearance does not verify USB format or headphone routing.
 

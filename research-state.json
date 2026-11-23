@@ -223915,7 +223915,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.soranaudio.com/upload/images/product/20260111/17681160702281083.png",
+            "image_url": "images/soran-go-rig-b-top-63299e85848b.png",
             "source_url": "https://www.soranaudio.com/products/25.html",
             "caption": "Go Rig B — overhead control-face product image",
             "note": "Manufacturer overhead image depicts a green B tuner indication. Product imagery may be composited; independent powered-on hardware verification remains pending. Visible14 rotary knobs,3 footswitches,4 mode toggles and no built-in treadle. Tuner/tap symbols are printed between switches,not extra footswitches.",
@@ -223925,7 +223925,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.soranaudio.com/upload/images/product/20260111/17681160705203593.jpg",
+            "image_url": "images/soran-go-rig-b-rear-101c08902990.jpg",
             "source_url": "https://www.soranaudio.com/products/25.html",
             "caption": "Go Rig B — rear connection panel",
             "note": "Exact manufacturer rear image shows INPUT,AUX IN,HEADPHONE,ground/lift toggle,XLR D.I.OUT,OUTPUT,USB-C AUDIO/OTG charging port,power slide switch and indicator. No barrel-power socket or EXP jack visible on this panel. Ground lift is not a headphone control. Connector appearance does not verify USB format or headphone routing.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Soran::Dual Stomp Lite"
+    "last_model": "Soran::Go Rig B"
   }
 }
