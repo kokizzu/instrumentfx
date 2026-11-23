@@ -222339,7 +222339,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://cdn.store-assets.com/s/887148/i/94808551.jpg",
+            "image_url": "images/m-vave-mk-20-top-557acced2467.jpg",
             "source_url": "https://www.mingtinghuang.com/products/綜合效果器-m-vave-mk-20-電吉他-貝斯綜合效果器-帶鼓機功能-柚子樂器",
             "caption": "MK-20 powered-on control view",
             "note": "Dealer collage of the exact MK-20 shows a complete near-overhead powered-on view, a lit LCD/button/switch close-up and a rear view. Display reads FUNK DIO; visible CPU 39.1 is whole-preset load, not Whammy cost. Camera perspective is slightly elevated, so a single exact-overhead photograph remains unverified. Firmware and original/V2 revision are not established by appearance.",
@@ -222349,7 +222349,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://www.m-vave.com/images/productInfo/mk-20-6.webp",
+            "image_url": "images/m-vave-mk-20-rear-06245592edcd.webp",
             "source_url": "https://www.m-vave.com/product?id=mk-20",
             "caption": "MK-20 rear connections",
             "note": "Manufacturer rear photograph clearly identifies MK-20 and shows INPUT, MIDI, headphone socket, L(MONO)/R OUTPUT, USB-C, charge indicator and power switch. No analog EXP socket appears in this pictured panel; this corroborates that panel only and does not resolve the contradictory manual specification or other revisions. No visibly lit status indicator.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::TANK MINI"
+    "last_model": "M-VAVE::MK-20"
   }
 }
