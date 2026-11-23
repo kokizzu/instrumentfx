@@ -1741,13 +1741,13 @@ Sources checked:
 
 **NUX MG-300 MKII — top controls**
 
-[![NUX MG-300 MKII — top controls](https://www.nux.us/cdn/shop/files/MG-300-01.jpg?v=1771972826&width=2400)](https://www.nux.us/cdn/shop/files/MG-300-01.jpg?v=1771972826&width=2400)
+[![NUX MG-300 MKII — top controls](images/nux-mg-300-mkii-top-ceb427d7e8c3.jpg)](images/nux-mg-300-mkii-top-ceb427d7e8c3.jpg)
 
 [Image source](https://www.nux.us/products/mg-300-mkii). Visually inspected exact MKII overhead product image: active color LCD shows patch1A, sceneS1 and ten-block strip; MKII body label visible. Promotional image, not independent powered hardware testing.
 
 **NUX MG-300 MKII — rear ports**
 
-[![NUX MG-300 MKII — rear ports](https://www.nux.us/cdn/shop/files/MG-300-08.jpg?v=1771972831&width=2400)](https://www.nux.us/cdn/shop/files/MG-300-08.jpg?v=1771972831&width=2400)
+[![NUX MG-300 MKII — rear ports](images/nux-mg-300-mkii-rear-3ab49e969077.jpg)](images/nux-mg-300-mkii-rear-3ab49e969077.jpg)
 
 [Image source](https://www.nux.us/products/mg-300-mkii). Visually inspected MKII rear: Input, stereo Output, AUX In, separate Phones(TRRS), USB-C, Power switch and DC9V center-negative label. Unlike original MG-300, this model has separate phones and USB-C; USB power is not inferred.
 
