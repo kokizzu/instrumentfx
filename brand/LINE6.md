@@ -1988,13 +1988,13 @@ Sources checked:
 
 **HX One — powered-on top-down view**
 
-[![HX One — powered-on top-down view](https://line6.com/data/6/0a020a3fc26c65122bab5d51d/image/jpeg)](https://line6.com/data/6/0a020a3fc26c65122bab5d51d/image/jpeg)
+[![HX One — powered-on top-down view](images/line-6-hx-one-top-2bd1dbfb94c6.jpg)](images/line-6-hx-one-top-2bd1dbfb94c6.jpg)
 
 [Image source](https://line6.com/hx-one/). Exact HX One manufacturer overhead image shows Adriatic Delay on OLED, three parameter knobs and effect encoder, HOME/PAGE buttons, two footswitches and lit ON/TAP indicators.
 
 **HX One — rear audio, DC and USB ports**
 
-[![HX One — rear audio, DC and USB ports](https://line6.com/data/6/0a020a3fc2b565122d8385ce6/image/jpeg)](https://line6.com/data/6/0a020a3fc2b565122d8385ce6/image/jpeg)
+[![HX One — rear audio, DC and USB ports](images/line-6-hx-one-rear-2c0bdefe00b8.jpg)](images/line-6-hx-one-rear-2c0bdefe00b8.jpg)
 
 [Image source](https://line6.com/hx-one/). Rear labels show IN L/MONO and RIGHT(RETURN), OUT L/MONO and RIGHT(SEND),9V500mA center-negative DC and USB-C. Return/send labels share right-channel sockets; side MIDI and expression ports are outside this view.
 
