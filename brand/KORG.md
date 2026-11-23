@@ -1075,13 +1075,13 @@ Sources checked:
 
 **AX1000G — powered-on overhead panel detail**
 
-[![AX1000G — powered-on overhead panel detail](https://medias.audiofanzine.com/images/normal/korg-ax1000g-6363688.jpeg)](https://medias.audiofanzine.com/images/normal/korg-ax1000g-6363688.jpeg)
+[![AX1000G — powered-on overhead panel detail](images/korg-ax1000g-top-3871f1536c71.jpg)](images/korg-ax1000g-top-3871f1536c71.jpg)
 
 [Image source](https://fr.audiofanzine.com/multieffet-guitare-electrique/korg/Ax1000g/). Audiofanzine user photograph shows the AX1000G label, illuminated DIST LO LCD, bank display and LEDs from overhead. Right edge crops most of the expression pedal; a complete uncropped top-down photograph remains pending. Display contents do not establish firmware version.
 
 **AX1000G — rear connections**
 
-[![AX1000G — rear connections](https://guitars.gbase.com/aza/user/gear/korg-ax1000g-silver-6.jpg)](https://guitars.gbase.com/aza/user/gear/korg-ax1000g-silver-6.jpg)
+[![AX1000G — rear connections](images/korg-ax1000g-rear-c6d0401b4d53.jpg)](images/korg-ax1000g-rear-c6d0401b4d53.jpg)
 
 [Image source](https://www.gbase.com/gear/korg-ax1000g-silver). Gbase seller photograph of exact AX1000G, angled rear view. Readable labels show INPUT, AUX IN, OUTPUT R and L/MONO, headphone symbol and DC9V socket beside cable restraint. Small polarity marking is not transcribed. The boxed product in the background is not used as evidence of this unit being powered on.
 
