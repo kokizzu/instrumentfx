@@ -39,13 +39,13 @@ Sources checked:
 
 **Flybro FB-100 control-face retailer image**
 
-[![Flybro FB-100 control-face retailer image](https://img.shoplineapp.com/media/image_clips/68a859a2a2ab230018785367/original.png?1755863458=&owner_id=606fd6bd4ddc9f000993e309)](https://img.shoplineapp.com/media/image_clips/68a859a2a2ab230018785367/original.png?1755863458=&owner_id=606fd6bd4ddc9f000993e309)
+[![Flybro FB-100 control-face retailer image](images/ving-flybro-fb-100-top-508d541acd26.png)](images/ving-flybro-fb-100-top-508d541acd26.png)
 
 [Image source](https://www.bignose-guitar.com.tw/en/products/ving-fb100). Visually inspected black VING FB-100 labelled control face, speaker grille, two knobs and four hand buttons. Display is dark; this does not meet the powered-on request. Slight perspective rather than certified strict overhead; powered-on overhead photograph remains pending.
 
 **Flybro FB-100 connector-side retailer photograph**
 
-[![Flybro FB-100 connector-side retailer photograph](https://down-id.img.susercontent.com/file/id-11134207-81ztg-mekztwgjzw1tf7)](https://down-id.img.susercontent.com/file/id-11134207-81ztg-mekztwgjzw1tf7)
+[![Flybro FB-100 connector-side retailer photograph](images/ving-flybro-fb-100-rear-f71106c02427.jpg)](images/ving-flybro-fb-100-rear-f71106c02427.jpg)
 
 [Image source](https://shopee.co.id/Ving-FB100-FP-100-Portable-Multi-Effects-Processor-Ving-Flybro-FB-100-with-8-Effect-Modules-with-Bluetooth-i.16879370.42318023709). Visually inspected actual retailer connector-side photograph: FS/EXP and IN sockets, matching the original FB-100 guide panel and housing. Seller title also contains FP-100 typo; no new model inferred. Model marking is outside crop. Opposite USB/OUT/phones/reset side is not shown, so connector coverage is incomplete. This is a side view, not rear row.
 

@@ -225423,7 +225423,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://img.shoplineapp.com/media/image_clips/68a859a2a2ab230018785367/original.png?1755863458=&owner_id=606fd6bd4ddc9f000993e309",
+            "image_url": "images/ving-flybro-fb-100-top-508d541acd26.png",
             "source_url": "https://www.bignose-guitar.com.tw/en/products/ving-fb100",
             "caption": "Flybro FB-100 control-face retailer image",
             "note": "Visually inspected black VING FB-100 labelled control face, speaker grille, two knobs and four hand buttons. Display is dark; this does not meet the powered-on request. Slight perspective rather than certified strict overhead; powered-on overhead photograph remains pending.",
@@ -225433,7 +225433,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://down-id.img.susercontent.com/file/id-11134207-81ztg-mekztwgjzw1tf7",
+            "image_url": "images/ving-flybro-fb-100-rear-f71106c02427.jpg",
             "source_url": "https://shopee.co.id/Ving-FB100-FP-100-Portable-Multi-Effects-Processor-Ving-Flybro-FB-100-with-8-Effect-Modules-with-Bluetooth-i.16879370.42318023709",
             "caption": "Flybro FB-100 connector-side retailer photograph",
             "note": "Visually inspected actual retailer connector-side photograph: FS/EXP and IN sockets, matching the original FB-100 guide panel and housing. Seller title also contains FP-100 typo; no new model inferred. Model marking is outside crop. Opposite USB/OUT/phones/reset side is not shown, so connector coverage is incomplete. This is a side view, not rear row.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Rushead Max RH-100"
+    "last_model": "VING::Flybro FB-100"
   }
 }
