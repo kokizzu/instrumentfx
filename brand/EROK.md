@@ -45,13 +45,13 @@ Sources checked:
 
 **MP-10 near-top manufacturer product image with active display**
 
-[![MP-10 near-top manufacturer product image with active display](https://erokmusic.com/img/products/MP-10-1.webp?v=936e3222fbe0ba88)](https://erokmusic.com/img/products/MP-10-1.webp?v=936e3222fbe0ba88)
+[![MP-10 near-top manufacturer product image with active display](images/erok-mp-10-top-936e3222fbe0.webp)](images/erok-mp-10-top-936e3222fbe0.webp)
 
 [Image source](https://erokmusic.com/product/multi-effects/MP-10). Exact EROK MP-10 branding and 01A screen visible. Slight perspective; powered-on state versus composited display is not independently authenticated.
 
 **MP-10 angled rear connection view**
 
-[![MP-10 angled rear connection view](https://erokmusic.com/img/products/MP-10-3.webp?v=1ff46eaae9d4d721)](https://erokmusic.com/img/products/MP-10-3.webp?v=1ff46eaae9d4d721)
+[![MP-10 angled rear connection view](images/erok-mp-10-rear-1ff46eaae9d4.webp)](images/erok-mp-10-rear-1ff46eaae9d4.webp)
 
 [Image source](https://erokmusic.com/product/multi-effects/MP-10). Exact manufacturer gallery image shows rear audio/USB/phones/expression connections and side XLR. Perspective and small port labels limit readability; no model-family connector equivalence inferred.
 
