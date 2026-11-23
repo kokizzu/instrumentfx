@@ -208,13 +208,13 @@ Sources checked:
 
 **Synesthesia powered-on top-down view**
 
-[![Synesthesia powered-on top-down view](https://cms.gfisystem.com/uploads/Front_158fdb07cb.webp)](https://cms.gfisystem.com/uploads/Front_158fdb07cb.webp)
+[![Synesthesia powered-on top-down view](images/gfi-system-synesthesia-top-2b4560a42102.webp)](images/gfi-system-synesthesia-top-2b4560a42102.webp)
 
 [Image source](https://gfisystem.com/pedals/synesthesia). Official grey Synesthesia product photograph. LCD text, blue tempo LED and red engine LEDs visibly lit; full control surface shown.
 
 **Synesthesia rear/top-edge connections**
 
-[![Synesthesia rear/top-edge connections](https://cms.gfisystem.com/uploads/Head_2_9589ce4224.webp)](https://cms.gfisystem.com/uploads/Head_2_9589ce4224.webp)
+[![Synesthesia rear/top-edge connections](images/gfi-system-synesthesia-rear-fd0d5b8e8a03.webp)](images/gfi-system-synesthesia-rear-fd0d5b8e8a03.webp)
 
 [Image source](https://gfisystem.com/pedals/synesthesia). Official rear/top edge: Input, ACE expression/CV/aux, USB-B, 9VDC, Out-L, Out-R/Send and Stereo Out/Pre-Post switch visible. MIDI side sockets are outside this view; official side photo: https://cms.gfisystem.com/uploads/Left_side_1_fb225486b5.webp .
 
