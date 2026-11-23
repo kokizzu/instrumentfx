@@ -4311,13 +4311,13 @@ Sources checked:
 
 **MOOER Prime P1 — physical powered-on control surface**
 
-[![MOOER Prime P1 — physical powered-on control surface](https://pics.mercatinomusicale.com/p_hr/08/98/7799808_1710970796.jpg)](https://pics.mercatinomusicale.com/p_hr/08/98/7799808_1710970796.jpg)
+[![MOOER Prime P1 — physical powered-on control surface](images/mooer-prime-p1-top-0d225cc35e72.jpg)](images/mooer-prime-p1-top-0d225cc35e72.jpg)
 
 [Image source](https://www.mercatinomusicale.com/mm/a_mooer-prime-p1-e-footswich-gwf4_id7799808.html). Actual private-seller photograph shows the complete gray Prime P1 on a dark surface with its central green control ring visibly illuminated. Nearly overhead, with slight perspective; not a strictly perpendicular image. The GWF4 underneath is a separate wireless foot controller: its four switches and red 16 display are not built into the P1, which has no display or onboard footswitches. The [previous manufacturer overhead image](https://mooer.jp/cdn/shop/products/P1-BK-01.jpg?v=1663834044&width=1445) remains available for the black colorway layout.
 
 **MOOER Prime P1 connector view**
 
-[![MOOER Prime P1 connector view](https://mooer.jp/cdn/shop/products/P1-BK-06.jpg?v=1663834044&width=1445)](https://mooer.jp/cdn/shop/products/P1-BK-06.jpg?v=1663834044&width=1445)
+[![MOOER Prime P1 connector view](images/mooer-prime-p1-rear-d362bd8851ab.jpg)](images/mooer-prime-p1-rear-d362bd8851ab.jpg)
 
 [Image source](https://mooer.jp/products/mooerprimep1). Visually inspected angled view showing both quarter-inch audio sockets, central phones socket and side USB-C/charge indicator. Also checked the [straight audio-end photograph](https://mooer.jp/cdn/shop/products/P1-BK-05.jpg?v=1663834044&width=1445). Socket roles follow the exact P1 manual; no dedicated MIDI, external EXP, effects-loop or barrel-power connector shown.
 
