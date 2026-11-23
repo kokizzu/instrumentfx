@@ -143,6 +143,33 @@ def archive(limit):
   time.sleep(.2)
  print('ARCHIVE_RESULT',json.dumps({'models_processed':plan['cursor'],'models_localized':plan['localized_models'],'views_localized':plan['localized_views'],'remaining_remote':sum(1 for r in json.loads((ROOT/'research-state.json').read_text())['model_images']['models'].values() for v in r.get('views',{}).values() if v['image_url'].startswith('https://')),'blocked_hosts':plan['blocked_hosts'],'failures':len(plan['failures'])},ensure_ascii=False))
 
+def archive_recover():
+ publish.identity();checked_worktree();plan=json.loads(ARCHIVE_PLAN.read_text())
+ assert plan['format']=='instrumentfx-image-archive-v1'
+ assert plan['cursor']<len(plan['models'])
+ item=plan['models'][plan['cursor']];key=item['key']
+ subject='docs(images): archive '+key.replace('::',' ')+' source images'
+ commits=publish.git('rev-list','--reverse',plan['head']+'..HEAD').splitlines()
+ subjects={rev:publish.git('log','-1','--format=%s',rev) for rev in commits}
+ matching=[rev for rev,value in subjects.items() if value==subject]
+ assert len(matching)==1 and commits.index(matching[0])==0,('Expected one completed image commit after checkpoint',key,subjects)
+ image_commit=matching[0]
+ assert publish.git('rev-parse',image_commit+'^')==plan['head'],'Unexpected image commit parent'
+ for rev in commits[1:]:
+  changed=set(publish.git('diff-tree','--no-commit-id','--name-only','-r',rev).splitlines())
+  assert changed<={'scripts/model_images.py','make/images.mk'},('Unexpected recovery commits',rev,sorted(changed))
+ state=json.loads((ROOT/'research-state.json').read_text());record=state['model_images']['models'][key]
+ recovered_views=0
+ for name,expected in item['views'].items():
+  view=record['views'][name]
+  assert not view['image_url'].startswith('https://') and view['sha256']==expected['sha256']
+  assert hashlib.sha256(local_asset(view['image_url']).read_bytes()).hexdigest()==expected['sha256']
+  recovered_views+=1
+ plan['head']=publish.git('rev-parse','HEAD');plan['cursor']+=1
+ plan['localized_models']+=1;plan['localized_views']+=recovered_views
+ atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
+ print('RECOVERED',key,'views',recovered_views,'head',plan['head'],'cursor',plan['cursor'],'preserved_failures',len(plan['failures']))
+
 def diagram():
  """Render a bounded, explicitly selected source-manual figure; never install firmware."""
  publish.identity()
@@ -295,7 +322,7 @@ def commit():
  assert r['sha256']==hashlib.sha256(publish.git('diff','--cached').encode()).hexdigest()
  assert not publish.git('diff','--name-only')
  if any(path.startswith('brand/images/') for path in r['paths']): message='docs(images): archive '+r['model'].replace('::',' ')+' source images'
- elif 'scripts/model_images.py' in r['paths'] and 'make/images.mk' in r['paths']: message='feat(images): archive verified product photos locally'
+ elif 'scripts/model_images.py' in r['paths'] and 'make/images.mk' in r['paths']: message='feat(images): make photo archive resumable'
  elif 'make/images.mk' in r['paths']: message='feat(images): default archive target to full catalogue'
  else: message='docs(images): update '+r['model'].replace('::',' ')+' pictures'
  subprocess.run(['git','commit','-m',message],cwd=ROOT,check=True)
@@ -303,4 +330,4 @@ def commit():
  assert publish.git('ls-remote','origin','refs/heads/main').split()[0]==publish.git('rev-parse','HEAD')
  print('PUSH_VERIFIED',publish.git('rev-parse','--short','HEAD'))
 if __name__=='__main__':
- {'diagram':diagram,'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit,'archive-plan':lambda:archive_plan(int(sys.argv[2])),'archive':lambda:archive(int(sys.argv[2]))}[sys.argv[1]]()
+ {'diagram':diagram,'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit,'archive-plan':lambda:archive_plan(int(sys.argv[2])),'archive':lambda:archive(int(sys.argv[2])),'archive-recover':archive_recover}[sys.argv[1]]()
