@@ -226829,7 +226829,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://img.olx.com.br/images/77/778511779845335.jpg",
+            "image_url": "images/zoom-g1on-top-8e574828cfcb.jpg",
             "source_url": "https://pr.olx.com.br/regiao-de-curitiba-e-paranagua/instrumentos-musicais/pedaleira-zoom-g1on-multi-efeitos-guitarra-1414218884",
             "caption": "G1on powered control face",
             "note": "Actual powered G1on photographed near vertically from above, with full control face and both footswitches visible. Orange backlit LCD shows G3 Chorus. One parameter knob, four round buttons and four cursor directions corroborate the manual; no expression treadle.",
@@ -226839,7 +226839,7 @@
             "sha256": "8e574828cfcb28b3d23ac92376ba8b92b4e200736fdd339f823d462fdd1cc5ec"
           },
           "rear": {
-            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1on_rear.jpg",
+            "image_url": "images/zoom-g1on-rear-b3bf8f34427c.jpg",
             "source_url": "https://www.zoom.co.jp/node/52",
             "caption": "G1on rear connections",
             "note": "Manufacturer full rear photograph: INPUT, AUX IN, shared OUTPUT/PHONES, mini-B USB marked DC5V, center-negative DC9V IN and security slot. No external expression socket. Large white image margins are retained from the source.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G11"
+    "last_model": "Zoom::G1on"
   }
 }
