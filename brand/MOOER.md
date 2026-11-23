@@ -1388,13 +1388,13 @@ Sources checked:
 
 **MOOER GE150 Plus Li powered-on top view**
 
-[![MOOER GE150 Plus Li powered-on top view](https://mooer.jp/cdn/shop/files/GEI50_Plus_Li-01.png?v=1759292017&width=1946)](https://mooer.jp/cdn/shop/files/GEI50_Plus_Li-01.png?v=1759292017&width=1946)
+[![MOOER GE150 Plus Li powered-on top view](images/mooer-ge150-plus-li-top-0267d37b10af.jpg)](images/mooer-ge150-plus-li-top-0267d37b10af.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ge150plus-li). Straight overhead black GE150 Plus Li with explicit Li badge, multicolour expression tread, lit 02A US Blues Clean display, module/button indicators and blue A ring. Exact battery edition, three footswitches.
 
 **MOOER GE150 Plus Li rear ports**
 
-[![MOOER GE150 Plus Li rear ports](https://mooer.jp/cdn/shop/files/GEI50_Plus_Li-02.png?v=1759292016&width=1946)](https://mooer.jp/cdn/shop/files/GEI50_Plus_Li-02.png?v=1759292016&width=1946)
+[![MOOER GE150 Plus Li rear ports](images/mooer-ge150-plus-li-rear-d57a736d6f42.png)](images/mooer-ge150-plus-li-rear-d57a736d6f42.png)
 
 [Image source](https://mooer.jp/products/mooer-ge150plus-li). Full straight rear panel: AUX IN, INPUT, OUTPUT L (MONO)/R, PHONES, USB-C marked OTG, rocker power and DC 9V 1.5A center-negative marking. Standard Plus 300mA marking does not apply. No FX loop, XLR, dedicated physical MIDI or external EXP jack shown.
 
