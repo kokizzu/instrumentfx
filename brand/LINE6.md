@@ -786,13 +786,13 @@ Sources checked:
 
 **Helix LT — powered-on overhead view**
 
-[![Helix LT — powered-on overhead view](https://line6.com/data/6/0a020a3f16ff260b70ccdc387e/image/png)](https://line6.com/data/6/0a020a3f16ff260b70ccdc387e/image/png)
+[![Helix LT — powered-on overhead view](images/line-6-helix-lt-top-fedc696a4411.png)](images/line-6-helix-lt-top-fedc696a4411.png)
 
 [Image source](https://line6.com/helix/helix-lt.html). Exact LT enclosure, no scribble strips, onboard treadle. Overhead manufacturer photograph shows the LCD signal chain, colored footswitch rings and EXP indicator illuminated.
 
 **Helix LT — rear connections**
 
-[![Helix LT — rear connections](https://line6.com/data/6/0a020a3f16fbc60b70c7ecf40a/image/png)](https://line6.com/data/6/0a020a3f16fbc60b70c7ecf40a/image/png)
+[![Helix LT — rear connections](images/line-6-helix-lt-rear-14d2cfff7877.png)](images/line-6-helix-lt-rear-14d2cfff7877.png)
 
 [Image source](https://line6.com/helix/helix-lt.html). Full-size exact LT photograph: shared EXP2/EXT AMP, Guitar In, two Returns and Sends, ground lift, XLR and quarter-inch outputs, Phones, Variax, AES/EBU/L6 LINK, MIDI, USB, IEC AC and power switch. Rack/Floor extra sockets are not pictured.
 
