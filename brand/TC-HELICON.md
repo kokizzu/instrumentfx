@@ -1750,13 +1750,13 @@ Sources checked:
 
 **VoiceLive Touch 2 powered-on control face — actual unit**
 
-[![VoiceLive Touch 2 powered-on control face — actual unit](https://medias.audiofanzine.com/images/normal/tc-helicon-voicelive-touch-2-6610598.jpeg)](https://medias.audiofanzine.com/images/normal/tc-helicon-voicelive-touch-2-6610598.jpeg)
+[![VoiceLive Touch 2 powered-on control face — actual unit](images/tc-helicon-voicelive-touch-2-top-2de30cd2cc5f.jpg)](images/tc-helicon-voicelive-touch-2-top-2de30cd2cc5f.jpg)
 
 [Image source](https://en.audiofanzine.com/vocal-processor/tc-helicon/voicelive-touch-2/). Actual Touch 2 powered on with blue status LEDs and readable GALAXIES OWL CT / 18 display. Full control face, nine-cell Matrix, surrounding touch controls and Slider FX are visible, with side input-gain knob. Matches documented 1 rotary/0 onboard footswitches/23 touch buttons, Slider FX separate. This is a face-on view of a normally stand-mounted control surface with slight perspective, not strict overhead photography of a horizontal pedal. Touch controls do not establish a touchscreen LCD; firmware version/audio behavior not tested.
 
 **VoiceLive Touch 2 rear ports**
 
-[![VoiceLive Touch 2 rear ports](https://smartopenlab.com/storage/2020/11/tc_helicon_tras.jpg)](https://smartopenlab.com/storage/2020/11/tc_helicon_tras.jpg)
+[![VoiceLive Touch 2 rear ports](images/tc-helicon-voicelive-touch-2-rear-f800caa57fd1.jpg)](images/tc-helicon-voicelive-touch-2-rear-f800caa57fd1.jpg)
 
 [Image source](https://smartopenlab.com/maquina/tc-helicon-voicelive-touch-2-vocal-effects-processor/). Exact Touch 2 stock rear inspected: female XLR MIC IN, male XLR OUT, GRND control, quarter-inch TRS OUT L/R, GUITAR IN/THRU, AUX minijack, single five-pin MIDI connector, USB-B, center-negative DC input, FOOTSWITCH socket and security slot. THRU labels the guitar socket, not a second MIDI port. Side gain knob visible; headphone socket is outside this rear view, retained from manual evidence. No voltage/current inferred from the unlabeled DC socket, and FOOTSWITCH does not prove continuous expression.
 
