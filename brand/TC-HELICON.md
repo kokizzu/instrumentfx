@@ -412,13 +412,13 @@ Sources checked:
 
 **Mic Mechanic 2 — manufacturer overhead artwork**
 
-[![Mic Mechanic 2 — manufacturer overhead artwork](https://cdn-media.empowertribe.com/168d080958b84556a80b6fab3eb76bc3/Image_TH_0726-AAE_MIC-MECHANIC-2_Top_XL.png)](https://cdn-media.empowertribe.com/168d080958b84556a80b6fab3eb76bc3/Image_TH_0726-AAE_MIC-MECHANIC-2_Top_XL.png)
+[![Mic Mechanic 2 — manufacturer overhead artwork](images/tc-helicon-mic-mechanic-2-top-882dc963dbc0.png)](images/tc-helicon-mic-mechanic-2-top-882dc963dbc0.png)
 
 [Image source](https://www.tchelicon.com/en/products/0726-AAE). Exact 0726-AAE asset, full control face: ECHO (Tape/Digi/Slap), REVERB (RM/Club/Hall), CORRECTION (Off–100), one TONE button and one footswitch. No screen or treadle shown. Printed100 is the correction-control endpoint, not100 cents or100% DSP. This catalogue artwork depicts lit LEDs; it does not independently verify powered hardware. Powered-on overhead photograph remains pending; actual unboxing alternative has unlit indicators and an obstructing cable. A further gallery candidate was rejected because its combined effect selector and central Dry/Wet control identify the original Mic Mechanic, not model2.
 
 **Mic Mechanic 2 — actual rear photograph**
 
-[![Mic Mechanic 2 — actual rear photograph](https://medias.audiofanzine.com/images/normal/tc-helicon-mic-mechanic-2-5670487.jpg)](https://medias.audiofanzine.com/images/normal/tc-helicon-mic-mechanic-2-5670487.jpg)
+[![Mic Mechanic 2 — actual rear photograph](images/tc-helicon-mic-mechanic-2-rear-74213a6fe925.jpg)](images/tc-helicon-mic-mechanic-2-rear-74213a6fe925.jpg)
 
 [Image source](https://fr.audiofanzine.com/processeur-vocal/tc-helicon/mic-mechanic-2/). Actual red unit with micro-USB, ON/OFF slide switch, center-negative DC polarity, male XLR OUT and female XLR MIC. Complete rear row has no EXP, headphones or MIDI sockets; no quarter-inch guitar connector shown. Image does not establish USB audio/power, phantom voltage, installed firmware or actual current draw. Distinct unit from the inspected unboxing top alternative.
 
