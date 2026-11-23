@@ -219802,7 +219802,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/products/ve-22/image/ve-22_gal_01.jpg",
+            "image_url": "images/boss-ve-22-top-0a20ceaa5677.jpg",
             "source_url": "https://www.boss.info/global/products/ve-22/",
             "caption": "BOSS VE-22 — top panel",
             "note": "Official straight top-down product photograph: color LCD shows U01 HARMONY; all three control rings and footswitch indicators are illuminated. Manufacturer promotional image, not an independently operated unit.",
@@ -219812,7 +219812,7 @@
             "sha256": "0a20ceaa56774ff8024161fcf08974a2caada4c4c8d85fb30bdf9d2b7691f8d0"
           },
           "rear": {
-            "image_url": "https://static.roland.com/products/ve-22/image/ve-22_gal_03.jpg",
+            "image_url": "images/boss-ve-22-rear-eec48ffe8d42.jpg",
             "source_url": "https://www.boss.info/global/products/ve-22/",
             "caption": "BOSS VE-22 — rear connections",
             "note": "Official unobstructed rear photograph shows MIC input, MIC SENS and PHANTOM controls, OUTPUT R and L/MONO, PHONES/LINE OUT, AUX IN, CTL1,2/EXP, USB-C, DC IN and POWER switch. Rear photograph alone does not establish operating power state.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "GFI System::Solis Ventus"
+    "last_model": "BOSS::VE-22"
   }
 }
