@@ -227323,7 +227323,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.njuskalo.hr/image-w920x690/miksete/guitar-effects-processor-zoom-gfx-4-gitarska-mikseta-slika-116958550.jpg",
+            "image_url": "images/zoom-gfx-4-top-235ae1954061.jpg",
             "source_url": "https://www.njuskalo.hr/miksete/guitar-effects-processor-zoom-gfx-4-gitarska-mikseta-oglas-28879188",
             "caption": "GFX-4 control face",
             "note": "Actual powered GFX-4 viewed from above: red A0 bank display, amber effect LCD and module LEDs are lit. The full treadle and control layout are visible, but a hand partly covers the left footswitch and the view is slightly angled. An unobstructed perpendicular powered photograph remains pending.",
@@ -227333,7 +227333,7 @@
             "sha256": "235ae195406172c3b64460992695f5c47f49d88c46cc2f009e38dfcb5af90dbb"
           },
           "rear": {
-            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/GFX-4_rear.jpg",
+            "image_url": "images/zoom-gfx-4-rear-a153e7eb9ad1.jpg",
             "source_url": "https://www.zoom.co.jp/products/guitar-bass-effects/guitar/gfx-4-guitar-effects-processor",
             "caption": "GFX-4 rear connections",
             "note": "Official complete rear photograph shows the pickup selector, three audio sockets, output-level knob, power connection and switches. Labels face upward and are difficult to read in this view; the manual identifies INPUT, MONO output, STEREO/PHONES output and 12VAC 500mA supply. Use the manual for connector functions; this is not a separate L/R plus headphone arrangement.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::GFX-3"
+    "last_model": "Zoom::GFX-4"
   }
 }
