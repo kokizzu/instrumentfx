@@ -221749,7 +221749,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.nux.us/cdn/shop/files/MG-101.01.jpg?v=1771628910&width=2400",
+            "image_url": "images/nux-mg-101-top-c5b48d9175a6.jpg",
             "source_url": "https://www.nux.us/products/mg-101",
             "caption": "NUX MG-101 — top controls",
             "note": "Visually inspected official MG-101 overhead product image: color LCD displays patch 8D, 70’s Hard Rock, and the ten-block strip. Promotional image shows an active screen; no independent powered device test.",
@@ -221759,7 +221759,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.nux.us/cdn/shop/files/MG-101.05.jpg?v=1771628910&width=2400",
+            "image_url": "images/nux-mg-101-rear-64649b0424d7.jpg",
             "source_url": "https://www.nux.us/products/mg-101",
             "caption": "NUX MG-101 — rear ports",
             "note": "Visually inspected rear view: Input, Output, AUX In, Phones (TRRS), USB-C and center-negative DC9V labels are clear. Connector appearance alone does not establish USB powering.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::Ocean Machine original"
+    "last_model": "NUX::MG-101"
   }
 }
