@@ -224976,7 +224976,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://res.valeton.net/Uploads/wp/2025/06/o_1e4inqlkg17qelmin7u4v9mkt5o-scaled.jpg",
+            "image_url": "images/valeton-dapper-mdr-top-11ffb5c27869.jpg",
             "source_url": "https://www.valeton.net/product/dapper-mdrdiscontinued/",
             "caption": "Near-overhead MDR manufacturer control-face image, unlit.",
             "note": "Visually 10 rotary controls, 3 footswitches and 4 type toggles. Tuner/status strip unlit; slight perspective with edge/jacks visible. Powered-on strict perpendicular overhead remains pending. Modulation two-selector layout is one model selector system, not nine independent blocks.",
@@ -224986,7 +224986,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/57102/345165/YOTHER13373107__96479.1707918671.jpg?c=1",
+            "image_url": "images/valeton-dapper-mdr-rear-8b54cb1db29c.webp",
             "source_url": "https://richtonemusic.co.uk/valeton-dapper-mdr-multi-fx-pedal-psu-2nd-hand/",
             "caption": "Actual used MDR connector-edge photograph.",
             "note": "Unlit unit shows 9V DC center-negative socket, quarter-inch IN and OUT and smaller headphone socket. No additional connector visible on this edge; not a complete all-edge absence audit. Current consumption not legible here. Exact MDR panel matches manufacturer control face.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Indie"
+    "last_model": "Valeton::Dapper MDR"
   }
 }
