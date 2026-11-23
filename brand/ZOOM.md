@@ -9540,13 +9540,13 @@ Sources checked:
 
 **MS-100BT control face**
 
-[![MS-100BT control face](https://cdn-ak.f.st-hatena.com/images/fotolife/t/torayamusic/20181101/20181101221033.jpg)](https://cdn-ak.f.st-hatena.com/images/fotolife/t/torayamusic/20181101/20181101221033.jpg)
+[![MS-100BT control face](images/zoom-ms-100bt-top-637e9c3dd30b.jpg)](images/zoom-ms-100bt-top-637e9c3dd30b.jpg)
 
 [Image source](https://torayamusic.hatenablog.com/entry/2018/11/01/ZOOM_MS-100BT). Actual powered MS-100BT viewed from above: LCD shows MS CRUNCH and the red status LED is lit. Three knobs and footswitch are visible, but the bottom edge/navigation ring is cropped and perspective is slightly angled. A complete perpendicular powered replacement remains pending.
 
 **MS-100BT rear power connection**
 
-[![MS-100BT rear power connection](https://www.zoom.co.jp/sites/default/files/products/downloads/images/MS-100BT_rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/MS-100BT_rear.jpg)
+[![MS-100BT rear power connection](images/zoom-ms-100bt-rear-5c5e262ebd89.jpg)](images/zoom-ms-100bt-rear-5c5e262ebd89.jpg)
 
 [Image source](https://www.zoom.co.jp/products/multistomp/zoom-ms-100bt-multistomp-guitar-pedal-bluetooth). Official complete rear photograph clearly shows the center-negative DC9V 500mA socket and Bluetooth marking. Stereo audio inputs and outputs are on the sides, not this rear face; their sockets are not fully shown here.
 
