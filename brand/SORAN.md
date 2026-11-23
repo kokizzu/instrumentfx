@@ -469,13 +469,13 @@ Sources checked:
 
 **Tiny Stomp — overhead control-face product image**
 
-[![Tiny Stomp — overhead control-face product image](https://www.soranaudio.com/upload/images/product/20251021/17610241951778186.webp)](https://www.soranaudio.com/upload/images/product/20251021/17610241951778186.webp)
+[![Tiny Stomp — overhead control-face product image](images/soran-tiny-stomp-top-26bdbb1d9fe8.webp)](images/soran-tiny-stomp-top-26bdbb1d9fe8.webp)
 
 [Image source](https://soranaudio.com/products/34.html). Manufacturer overhead product image depicts active P01 Boutique Guitar screen. It appears rendered/composited;independent powered-on hardware photograph remains pending. Two rotary controls and two arrow hand buttons visible,no treadle. Arrow buttons are not promoted to onboard footswitches against the manual.
 
 **Tiny Stomp — rear-port product render**
 
-[![Tiny Stomp — rear-port product render](https://www.soranaudio.com/upload/images/product/20251015/17605079934758829.png)](https://www.soranaudio.com/upload/images/product/20251015/17605079934758829.png)
+[![Tiny Stomp — rear-port product render](images/soran-tiny-stomp-rear-603cb47d7a44.png)](images/soran-tiny-stomp-rear-603cb47d7a44.png)
 
 [Image source](https://soranaudio.com/products/34.html). Manufacturer render shows power slide switch,USB-C,IN,shared OUT/PHONES and EXP/CTRL. Distinguish shared stereo output from separate headphone socket. Port labels do not prove USB host mode or expression attenuation coverage. Rear hardware photograph remains pending.
 
