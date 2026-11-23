@@ -644,13 +644,13 @@ Sources checked:
 
 **HeadRush Pedalboard powered-on top-down product view**
 
-[![HeadRush Pedalboard powered-on top-down product view](https://www.headrushfx.com/assets/images/pdp/pedalboard/pedalboard-front-0321.png)](https://www.headrushfx.com/assets/images/pdp/pedalboard/pedalboard-front-0321.png)
+[![HeadRush Pedalboard powered-on top-down product view](images/headrush-pedalboard-top-a276dea7ea6b.png)](images/headrush-pedalboard-top-a276dea7ea6b.png)
 
 [Image source](https://www.headrushfx.com/products/pedalboard/index.html). Manufacturer overhead view shows active TANGERINE DREAM rig, twelve illuminated footswitch bars and individual assignment displays, seven knobs and built-in treadle. Gain/Bass/Middle percentages on screen are effect parameters, not DSP utilization. Product screen imagery may be composited.
 
 **HeadRush Pedalboard rear connections**
 
-[![HeadRush Pedalboard rear connections](https://www.headrushfx.com/assets/images/pdp/pedalboard/Headrush-img-PedalboardRearK.png)](https://www.headrushfx.com/assets/images/pdp/pedalboard/Headrush-img-PedalboardRearK.png)
+[![HeadRush Pedalboard rear connections](images/headrush-pedalboard-rear-385308a69c3e.png)](images/headrush-pedalboard-rear-385308a69c3e.png)
 
 [Image source](https://www.headrushfx.com/products/pedalboard/index.html). Exact original Pedalboard rear view labels INPUT, EXPR 2, AUX IN, paired XLR and jack outputs with GND LIFT and AMP/LINE controls, PHONES, separate right/left SEND and RETURN with RACK/STOMP control, DIN MIDI IN/OUT-THRU, USB-B and POWER. IEC mains inlet is marked AC100–240V 50/60Hz 1.2A. Do not import Prime microphone/USB-A/amp-switch ports or Gigboard barrel-DC supply.
 
