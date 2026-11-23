@@ -220114,7 +220114,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/digitech-rp350-2825263.jpg",
+            "image_url": "images/digitech-rp350-top-c0baa3093815.jpg",
             "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP350/",
             "caption": "DigiTech RP350 — powered-on overhead control view",
             "note": "Audiofanzine user photograph visually inspected: exact RP350 marking, green preset name and red program number illuminated, multiple effect-status LEDs lit, all six knobs, three footswitches and complete expression treadle unobstructed. Camera is nearly overhead with slight residual perspective; a geometrically straight top-down replacement remains desirable. Connected cables do not obscure top controls. Photograph is not an audio-performance test.",
@@ -220124,7 +220124,7 @@
             "sha256": "c0baa309381553f3a161136ce888a6c3135e99599d62a4185f7f282c1624f744"
           },
           "rear": {
-            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/39774/156323/YDIGITECH11828107__17168.1660735847.jpg?c=1",
+            "image_url": "images/digitech-rp350-rear-6b1b6f4344c5.jpg",
             "source_url": "https://richtonemusic.co.uk/digitech-rp350-modeling-guitar-processor-box-psu-2nd-hand/",
             "caption": "DigiTech RP350 — rear connections",
             "note": "Angled rear photograph of the same listing shows INPUT, both AMP/MIXER switches, LEFT (Mono)/RIGHT jack outputs, headphones, AUX IN, LEFT OUT/RIGHT OUT XLR, USB Type-B and power. Chassis label reads 9VAC 1.3A. All sockets visible and labels readable; rear photo does not establish operating power state. Re-fetched bytes changed; rear photograph re-inspected on 2026-11-22 and all listed sockets and the 9VAC1.3A marking remain visible.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP355"
+    "last_model": "DigiTech::RP350"
   }
 }

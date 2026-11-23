@@ -1628,13 +1628,13 @@ Sources checked:
 
 **DigiTech RP350 — powered-on overhead control view**
 
-[![DigiTech RP350 — powered-on overhead control view](https://medias.audiofanzine.com/images/normal/digitech-rp350-2825263.jpg)](https://medias.audiofanzine.com/images/normal/digitech-rp350-2825263.jpg)
+[![DigiTech RP350 — powered-on overhead control view](images/digitech-rp350-top-c0baa3093815.jpg)](images/digitech-rp350-top-c0baa3093815.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP350/). Audiofanzine user photograph visually inspected: exact RP350 marking, green preset name and red program number illuminated, multiple effect-status LEDs lit, all six knobs, three footswitches and complete expression treadle unobstructed. Camera is nearly overhead with slight residual perspective; a geometrically straight top-down replacement remains desirable. Connected cables do not obscure top controls. Photograph is not an audio-performance test.
 
 **DigiTech RP350 — rear connections**
 
-[![DigiTech RP350 — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/39774/156323/YDIGITECH11828107__17168.1660735847.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/39774/156323/YDIGITECH11828107__17168.1660735847.jpg?c=1)
+[![DigiTech RP350 — rear connections](images/digitech-rp350-rear-6b1b6f4344c5.jpg)](images/digitech-rp350-rear-6b1b6f4344c5.jpg)
 
 [Image source](https://richtonemusic.co.uk/digitech-rp350-modeling-guitar-processor-box-psu-2nd-hand/). Angled rear photograph of the same listing shows INPUT, both AMP/MIXER switches, LEFT (Mono)/RIGHT jack outputs, headphones, AUX IN, LEFT OUT/RIGHT OUT XLR, USB Type-B and power. Chassis label reads 9VAC 1.3A. All sockets visible and labels readable; rear photo does not establish operating power state. Re-fetched bytes changed; rear photograph re-inspected on 2026-11-22 and all listed sockets and the 9VAC1.3A marking remain visible.
 
