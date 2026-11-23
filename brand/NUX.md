@@ -2253,13 +2253,13 @@ Sources checked:
 
 **Mighty Plug MP-2 overhead control view**
 
-[![Mighty Plug MP-2 overhead control view](https://www.nux.us/cdn/shop/files/MightyPlug_W_01.jpg?v=1756900317&width=1920)](https://www.nux.us/cdn/shop/files/MightyPlug_W_01.jpg?v=1756900317&width=1920)
+[![Mighty Plug MP-2 overhead control view](images/nux-mighty-plug-mp-2-top-c62fdea4d6e6.jpg)](images/nux-mighty-plug-mp-2-top-c62fdea4d6e6.jpg)
 
 [Image source](https://www.nux.us/products/mighty-plug). Manufacturer exact overhead image, with the Adjust-button ring unlit; power-on state is not demonstrated. A separately inspected [powered-on photograph](https://img07.shop-pro.jp/PA01348/005/product/174779271.jpg?cmsp_timestamp=20230520122817) from [Geek IN Box](https://shop.geekinbox.jp/?pid=174779271) shows the green ring lit while connected to a bass, but is oblique. A single powered-on exact-overhead photograph remains unverified.
 
 **Mighty Plug MP-2 rear and connector side**
 
-[![Mighty Plug MP-2 rear and connector side](https://www.nux.us/cdn/shop/files/MightyPlug_W_05.jpg?v=1756900317&width=1920)](https://www.nux.us/cdn/shop/files/MightyPlug_W_05.jpg?v=1756900317&width=1920)
+[![Mighty Plug MP-2 rear and connector side](images/nux-mighty-plug-mp-2-rear-497c466ab34a.jpg)](images/nux-mighty-plug-mp-2-rear-497c466ab34a.jpg)
 
 [Image source](https://www.nux.us/products/mighty-plug). Manufacturer composite identifies MP-2 on the underside and shows both side edges: Power/MUTE and recessed Reset on one, Micro-B USB and status indicators on the other, plus the headphone jack and folding instrument plug. This handheld unit has distributed edge connectors rather than a conventional rear pedalboard strip; no lit power indicator in this stock view.
 
