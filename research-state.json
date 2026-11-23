@@ -222709,7 +222709,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/products/vt-4/images/img_products_01.jpg",
+            "image_url": "images/roland-vt-4-top-687711348a17.jpg",
             "source_url": "https://www.roland.com/global/products/vt-4/",
             "caption": "VT-4 powered-on overhead",
             "note": "Visually inspected manufacturer overhead image: illuminated effect and scene buttons, four rotary controls, four sliders and ten buttons; no screen. Image is marketing evidence, not an installed-firmware or hardware test.",
@@ -222719,7 +222719,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://static.roland.com/products/vt-4/images/img_products_04.jpg",
+            "image_url": "images/roland-vt-4-rear-ff7e1d20d67f.jpg",
             "source_url": "https://www.roland.com/global/products/vt-4/",
             "caption": "VT-4 rear ports",
             "note": "Visually inspected manufacturer rear image: power switch, USB-B, MIDI IN, combo MIC IN, R/BYPASS and L/MONO line outputs, security slot. Front PHONES/mini MIC IN and line/phantom switches are visible in the separately inspected angled alternative, outside this rear view; no barrel DC connector shown.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Roland::GR-55"
+    "last_model": "Roland::VT-4"
   }
 }

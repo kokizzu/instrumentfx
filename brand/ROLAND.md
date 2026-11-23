@@ -307,13 +307,13 @@ Sources checked:
 
 **VT-4 powered-on overhead**
 
-[![VT-4 powered-on overhead](https://static.roland.com/products/vt-4/images/img_products_01.jpg)](https://static.roland.com/products/vt-4/images/img_products_01.jpg)
+[![VT-4 powered-on overhead](images/roland-vt-4-top-687711348a17.jpg)](images/roland-vt-4-top-687711348a17.jpg)
 
 [Image source](https://www.roland.com/global/products/vt-4/). Visually inspected manufacturer overhead image: illuminated effect and scene buttons, four rotary controls, four sliders and ten buttons; no screen. Image is marketing evidence, not an installed-firmware or hardware test.
 
 **VT-4 rear ports**
 
-[![VT-4 rear ports](https://static.roland.com/products/vt-4/images/img_products_04.jpg)](https://static.roland.com/products/vt-4/images/img_products_04.jpg)
+[![VT-4 rear ports](images/roland-vt-4-rear-ff7e1d20d67f.jpg)](images/roland-vt-4-rear-ff7e1d20d67f.jpg)
 
 [Image source](https://www.roland.com/global/products/vt-4/). Visually inspected manufacturer rear image: power switch, USB-B, MIDI IN, combo MIC IN, R/BYPASS and L/MONO line outputs, security slot. Front PHONES/mini MIC IN and line/phantom switches are visible in the separately inspected angled alternative, outside this rear view; no barrel DC connector shown.
 
