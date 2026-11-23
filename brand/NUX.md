@@ -2478,13 +2478,13 @@ Sources checked:
 
 **PG-2 overhead control view**
 
-[![PG-2 overhead control view](https://static.bax-shop.nl/image/product/314323/955047/cb25d15f/1488462541NUX%20PG-2%20Portable%20Guitar%20Effects%20front.JPG?key=og)](https://static.bax-shop.nl/image/product/314323/955047/cb25d15f/1488462541NUX%20PG-2%20Portable%20Guitar%20Effects%20front.JPG?key=og)
+[![PG-2 overhead control view](images/nux-pg-2-top-04a1f7474ec4.jpg)](images/nux-pg-2-top-04a1f7474ec4.jpg)
 
 [Image source](https://www.bax-shop.nl/multi-effect-pedaal/nux-pg-2-portable-guitar-effects). Exact overhead PG-2 photograph with an active LCD showing G and A4=440. The LCD is readable without backlighting; no illumination claim is made.
 
 **PG-2 connector-side view**
 
-[![PG-2 connector-side view](https://beachmusic.be/shops/beachmusic/13944628-3.jpg)](https://beachmusic.be/shops/beachmusic/13944628-3.jpg)
+[![PG-2 connector-side view](images/nux-pg-2-rear-fa6cccbd8ab6.jpg)](images/nux-pg-2-rear-fa6cccbd8ab6.jpg)
 
 [Image source](https://beachmusic.be/multi-effecten/nux-pg-2). Connector edge shows labeled instrument INPUT and OUTPUT plus the headphone jack. Side AUX and DC sockets are not visible in this view; their locations are documented in the original manual. This is the connector edge, not the belt-clip underside.
 

@@ -222124,7 +222124,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.bax-shop.nl/image/product/314323/955047/cb25d15f/1488462541NUX%20PG-2%20Portable%20Guitar%20Effects%20front.JPG?key=og",
+            "image_url": "images/nux-pg-2-top-04a1f7474ec4.jpg",
             "source_url": "https://www.bax-shop.nl/multi-effect-pedaal/nux-pg-2-portable-guitar-effects",
             "caption": "PG-2 overhead control view",
             "note": "Exact overhead PG-2 photograph with an active LCD showing G and A4=440. The LCD is readable without backlighting; no illumination claim is made.",
@@ -222134,7 +222134,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://beachmusic.be/shops/beachmusic/13944628-3.jpg",
+            "image_url": "images/nux-pg-2-rear-fa6cccbd8ab6.jpg",
             "source_url": "https://beachmusic.be/multi-effecten/nux-pg-2",
             "caption": "PG-2 connector-side view",
             "note": "Connector edge shows labeled instrument INPUT and OUTPUT plus the headphone jack. Side AUX and DC sockets are not visible in this view; their locations are documented in the original manual. This is the connector edge, not the belt-clip underside.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::Stageman Floor NAP-5"
+    "last_model": "NUX::PG-2"
   }
 }
