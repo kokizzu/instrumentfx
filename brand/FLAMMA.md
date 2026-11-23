@@ -936,13 +936,13 @@ Sources checked:
 
 **FX50 powered-on top-down color composite**
 
-[![FX50 powered-on top-down color composite](https://www.flamma.shop/cdn/shop/files/FX50.png?v=1715584566&width=1946)](https://www.flamma.shop/cdn/shop/files/FX50.png?v=1715584566&width=1946)
+[![FX50 powered-on top-down color composite](images/flamma-fx50-top-0bf9fb8bdefe.png)](images/flamma-fx50-top-0bf9fb8bdefe.png)
 
 [Image source](https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects). Manufacturer composite of orange and green FX50 units seen straight down; red segmented displays depict PL. Green unit is rotated within the source image. This is a promotional composite, not an operated-unit measurement.
 
 **FX50 perimeter audio-jack view**
 
-[![FX50 perimeter audio-jack view](https://www.flamma.shop/cdn/shop/files/FX50_-4.png?v=1715582708&width=1946)](https://www.flamma.shop/cdn/shop/files/FX50_-4.png?v=1715582708&width=1946)
+[![FX50 perimeter audio-jack view](images/flamma-fx50-rear-cbb96715a664.png)](images/flamma-fx50-rear-cbb96715a664.png)
 
 [Image source](https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects). Orange-model edge-on product photograph shows the two quarter-inch instrument input/output sockets at the ends and the smaller AUX socket along the near edge, identified using the top-panel labels. FX50 distributes connectors around its perimeter; this is not a single conventional rear panel. Opposite-edge DC input/headphone socket are not fully shown here and remain pending as a separate clear view.
 
