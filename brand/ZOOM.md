@@ -5249,7 +5249,7 @@ Sources checked:
 
 **G3 rear connections**
 
-[![G3 rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G3_rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G3_rear.jpg)
+[![G3 rear connections](images/zoom-g3-rear-b02bf9dc39e4.jpg)](images/zoom-g3-rear-b02bf9dc39e4.jpg)
 
 [Image source](https://www.zoom.co.jp/ja/products/guitar/g3-guitar-effects-amp-simulator-pedal). Official complete rear photograph: INPUT with PASSIVE/ACTIVE selector; balanced XLR with PRE/POST and CONNECT/LIFT ground selectors; R and shared L/MONO/PHONES outputs; CONTROL IN; USB Type-B; ON/eco/OFF power switch; DC 9V input and security slot. Headphones share the L/MONO output; there is no separate headphone jack.
 

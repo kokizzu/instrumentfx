@@ -227076,7 +227076,7 @@
             "sha256": "7e72718b9a808ab56fad9744d4f524c87ed7f6be908616e7e8b14a3bbc8d3ebd"
           },
           "rear": {
-            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/G3_rear.jpg",
+            "image_url": "images/zoom-g3-rear-b02bf9dc39e4.jpg",
             "source_url": "https://www.zoom.co.jp/ja/products/guitar/g3-guitar-effects-amp-simulator-pedal",
             "caption": "G3 rear connections",
             "note": "Official complete rear photograph: INPUT with PASSIVE/ACTIVE selector; balanced XLR with PRE/POST and CONNECT/LIFT ground selectors; R and shared L/MONO/PHONES outputs; CONTROL IN; USB Type-B; ON/eco/OFF power switch; DC 9V input and security slot. Headphones share the L/MONO output; there is no separate headphone jack.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G2X FOUR"
+    "last_model": "Zoom::G3"
   }
 }
