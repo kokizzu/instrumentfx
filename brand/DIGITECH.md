@@ -1726,13 +1726,13 @@ Sources checked:
 
 **DigiTech RP355 — powered-on full control face, near overhead**
 
-[![DigiTech RP355 — powered-on full control face, near overhead](https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Ib8AAeSwsq1oiZNU/%24_57.JPG?set_id=880000500F)](https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/Ib8AAeSwsq1oiZNU/%24_57.JPG?set_id=880000500F)
+[![DigiTech RP355 — powered-on full control face, near overhead](images/digitech-rp355-top-236510aeb464.jpg)](images/digitech-rp355-top-236510aeb464.jpg)
 
 [Image source](https://www.ebay.com/itm/336097695620). Seller photograph visually inspected: RP355 model marking, illuminated red program display, all three footswitches and the complete expression treadle are visible. Camera retains perspective, so a strict straight top-down view remains pending. This used unit is missing the Tone Library knob cap; its shaft and label remain visible. Photograph establishes a lit display, not an audio/function test. Replaces the previously unlit top reference; rear connection photograph retained.
 
 **DigiTech RP355 — rear connections**
 
-[![DigiTech RP355 — rear connections](https://medias.audiofanzine.com/images/normal/digitech-rp355-4083603.jpg)](https://medias.audiofanzine.com/images/normal/digitech-rp355-4083603.jpg)
+[![DigiTech RP355 — rear connections](images/digitech-rp355-rear-db21a66596f6.jpg)](images/digitech-rp355-rear-db21a66596f6.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP355/). Clear user-gallery rear photograph shows INPUT, two AMP/MIXER switches, LEFT (Mono)/RIGHT jack outputs, headphones, AUX IN, LEFT OUT/RIGHT OUT XLR, USB Type-B and power. Chassis label explicitly reads 9VAC 1.3A, not 9V DC. Sockets and labels unobstructed; rear photograph does not establish operating power state.
 
