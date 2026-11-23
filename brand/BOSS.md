@@ -7416,13 +7416,13 @@ Sources checked:
 
 **BOSS VE-2 — top panel**
 
-[![BOSS VE-2 — top panel](https://static.roland.com/assets/images/products/main/ve-2_top_main.jpg)](https://static.roland.com/assets/images/products/main/ve-2_top_main.jpg)
+[![BOSS VE-2 — top panel](images/boss-ve-2-top-f2fec7d6c9e2.jpg)](images/boss-ve-2-top-f2fec7d6c9e2.jpg)
 
 [Image source](https://www.boss.info/global/products/ve-2/). Official straight top-down product photograph with illuminated harmony, Auto Harmonist, Enhance, Variation and blue status indicators. This model has no numeric/LCD screen. Source is 459 × 330 pixels; small labels are limited by resolution. Promotional image, not independent device operation.
 
 **BOSS VE-2 — rear connections**
 
-[![BOSS VE-2 — rear connections](https://media.mydukkan.com/image/25554/OBJE/VE-2_Rear-Panel25554.jpg)](https://media.mydukkan.com/image/25554/OBJE/VE-2_Rear-Panel25554.jpg)
+[![BOSS VE-2 — rear connections](images/boss-ve-2-rear-09140d4516bc.jpg)](images/boss-ve-2-rear-09140d4516bc.jpg)
 
 [Image source](https://www.mydukkan.com/boss-ve-2-vocal-harmonist-vokal-prosesor-u-37099). Unobstructed retailer rear photograph shows GUITAR IN/THRU, MIC IN, MIC SENS, PHANTOM, PHONES/LINE OUT, GND, XLR OUT, USB Type-B, VARIATION/MEMORY, DC IN and POWER. Rear view alone does not establish operating power state.
 
