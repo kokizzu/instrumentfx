@@ -5796,7 +5796,7 @@ Sources checked:
 
 **G3X powered control face**
 
-[![G3X powered control face](https://frankfurt.apollo.olxcdn.com/v1/files/zbuyle6e67uc1-RO/image%3Bs%3D4000x3000)](https://frankfurt.apollo.olxcdn.com/v1/files/zbuyle6e67uc1-RO/image%3Bs%3D4000x3000)
+[![G3X powered control face](images/zoom-g3x-top-e01139d2b0a2.jpg)](images/zoom-g3x-top-e01139d2b0a2.jpg)
 
 [Image source](https://www.olx.ro/d/oferta/pedala-multiefect-procesor-de-chitara-zoom-g3x-IDieWiL.html). Actual powered G3X in a complete near-overhead view: all three amber LCDs display DLY+REV, TANGERINE and AIR; all three footswitch LEDs are lit. Nine knobs, sixteen front keys, three footswitches and the built-in expression treadle are visible.
 

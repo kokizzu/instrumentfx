@@ -227116,7 +227116,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://frankfurt.apollo.olxcdn.com/v1/files/zbuyle6e67uc1-RO/image%3Bs%3D4000x3000",
+            "image_url": "images/zoom-g3x-top-e01139d2b0a2.jpg",
             "source_url": "https://www.olx.ro/d/oferta/pedala-multiefect-procesor-de-chitara-zoom-g3x-IDieWiL.html",
             "caption": "G3X powered control face",
             "note": "Actual powered G3X in a complete near-overhead view: all three amber LCDs display DLY+REV, TANGERINE and AIR; all three footswitch LEDs are lit. Nine knobs, sixteen front keys, three footswitches and the built-in expression treadle are visible.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G3n"
+    "last_model": "Zoom::G3X"
   }
 }
