@@ -228825,7 +228825,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://cdn.shopify.com/s/files/1/0589/5041/8615/products/AmperoIIStomp_Front_WithScreen_Hi_V01_211020_1512x.png?v=1636006012",
+            "image_url": "images/hotone-ampero-ii-stomp-mp-300-top-c0b4fe515653.png",
             "source_url": "https://shop.hotoneaudio.com/products/ampero-ii-stomp",
             "caption": "Hotone Ampero II Stomp MP-300 — control surface",
             "note": "Manufacturer top-down image with powered touchscreen, blue footswitch ring and green screen-lock indicator; all five knobs and three footswitches visible.",
@@ -228835,7 +228835,7 @@
             "sha256": "c0b4fe51565314af317b19b22ec949de4a7b3a754d5bc1e46923e8e06ef26992"
           },
           "rear": {
-            "image_url": "https://hotmusic.jp/cdn/shop/files/AmperoIIStomp_Top_Hi_V01_210424.jpg?v=1743476130&width=1096",
+            "image_url": "images/hotone-ampero-ii-stomp-mp-300-rear-63044773eb14.jpg",
             "source_url": "https://hotmusic.jp/products/hotone-ampero2stomp",
             "caption": "Hotone Ampero II Stomp MP-300 — rear connections",
             "note": "Full rear row: EXP/CTRL (FS 4/5), stereo inputs, balanced stereo outputs, power switch and DC 9–18V 800mA. Additional inspected connector photographs: [left side — stereo FX send/return, AUX IN and PHONES](https://cdn.shopify.com/s/files/1/0589/5041/8615/products/AmperoIIStomp_Left_Hi_V01_210424_1024x1024.png?v=1636006013); [right side — MIDI IN, OUT/THRU and USB-C](https://gcrockboard.com/image/cache/catalog/HOTONE/Ampero-II-Stomp_Right_Hi_V01_210424-1000x1000w.png). Right-side labels are dark; open the full image for detail.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Hotone::Ampero One MP-80"
+    "last_model": "Hotone::Ampero II Stomp MP-300"
   }
 }
