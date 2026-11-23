@@ -620,13 +620,13 @@ Sources checked:
 
 **Behringer FX2000 — front control panel**
 
-[![Behringer FX2000 — front control panel](https://www.electori.co.jp/behringer/assets/images/products/signal_processors/FX2000_img_02.png)](https://www.electori.co.jp/behringer/assets/images/products/signal_processors/FX2000_img_02.png)
+[![Behringer FX2000 — front control panel](images/behringer-fx2000-top-ced2fab64a6e.png)](images/behringer-fx2000-top-ced2fab64a6e.png)
 
 [Image source](https://www.electori.co.jp/behringer/product.php?genre=signal_processors&product=fx2000). Powered promotional front-panel view with red preset display, green level meters and status indicators; all six knobs and panel buttons visible. Rack controls face forward; this is a slightly elevated front view, not a top-down chassis photograph. Large white margins surround the unit.
 
 **Behringer FX2000 — rear connections**
 
-[![Behringer FX2000 — rear connections](https://www.soundseasy.com.au/cdn/shop/products/behringer-FX2000-Rear_1200x.png?v=1614746060)](https://www.soundseasy.com.au/cdn/shop/products/behringer-FX2000-Rear_1200x.png?v=1614746060)
+[![Behringer FX2000 — rear connections](images/behringer-fx2000-rear-acff3ab77664.jpg)](images/behringer-fx2000-rear-acff3ab77664.jpg)
 
 [Image source](https://www.soundseasy.com.au/products/behringer). Full rear view showing IEC power/fuse inlet, MIDI OUT/THRU/IN and both channels of balanced XLR and quarter-inch inputs/outputs with operating-level switches. Fine labels are small and dark; large white margins surround the panel.
 

@@ -228937,7 +228937,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.electori.co.jp/behringer/assets/images/products/signal_processors/FX2000_img_02.png",
+            "image_url": "images/behringer-fx2000-top-ced2fab64a6e.png",
             "source_url": "https://www.electori.co.jp/behringer/product.php?genre=signal_processors&product=fx2000",
             "caption": "Behringer FX2000 — front control panel",
             "note": "Powered promotional front-panel view with red preset display, green level meters and status indicators; all six knobs and panel buttons visible. Rack controls face forward; this is a slightly elevated front view, not a top-down chassis photograph. Large white margins surround the unit.",
@@ -228947,7 +228947,7 @@
             "sha256": "ced2fab64a6ef791ca7b87041e065c4d790e86c8e3227cbfdc98fbe052104a0e"
           },
           "rear": {
-            "image_url": "https://www.soundseasy.com.au/cdn/shop/products/behringer-FX2000-Rear_1200x.png?v=1614746060",
+            "image_url": "images/behringer-fx2000-rear-acff3ab77664.jpg",
             "source_url": "https://www.soundseasy.com.au/products/behringer",
             "caption": "Behringer FX2000 — rear connections",
             "note": "Full rear view showing IEC power/fuse inlet, MIDI OUT/THRU/IN and both channels of balanced XLR and quarter-inch inputs/outputs with operating-level switches. Fine labels are small and dark; large white margins surround the panel.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Behringer::V-AMP 2"
+    "last_model": "Behringer::FX2000"
   }
 }
