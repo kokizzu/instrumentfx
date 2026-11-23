@@ -5978,13 +5978,13 @@ Sources checked:
 
 **G3Xn powered control face**
 
-[![G3Xn powered control face](https://medias.audiofanzine.com/images/normal/zoom-g3xn-3124293.jpg)](https://medias.audiofanzine.com/images/normal/zoom-g3xn-3124293.jpg)
+[![G3Xn powered control face](images/zoom-g3xn-top-0aaad942257b.jpg)](images/zoom-g3xn-top-0aaad942257b.jpg)
 
 [Image source](https://fr.audiofanzine.com/multieffet-guitare-electrique/zoom/g3xn/). Actual powered G3Xn, full control face and treadle visible from a slightly oblique overhead angle; a strictly perpendicular photograph remains pending. Three LCDs show 001 Lead BGN, 002 Phazed and 003 UFO; the pedal LED and center footswitch LED are lit. Thirteen rotary controls, six TYPE keys, MENU and six foot-operated switches are visible.
 
 **G3Xn rear connections**
 
-[![G3Xn rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/Zoom_G3Xn_Rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/Zoom_G3Xn_Rear.jpg)
+[![G3Xn rear connections](images/zoom-g3xn-rear-6373d639a185.jpg)](images/zoom-g3xn-rear-6373d639a185.jpg)
 
 [Image source](https://www.zoom.co.jp/node/748). Official complete rear: INPUT, AUX IN, OUTPUT R and shared L/MONO/PHONES, USB Micro-B, ON/OFF power switch, center-negative DC 9V input and security slot. G3Xn has no CONTROL IN jack; headphones share L/MONO rather than a separate socket.
 
