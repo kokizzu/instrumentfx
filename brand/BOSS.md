@@ -8094,13 +8094,13 @@ Sources checked:
 
 **BOSS VE-500 — top panel**
 
-[![BOSS VE-500 — top panel](https://www.clynemedia.com/BOSS/VE_500/ve-500_F.jpg)](https://www.clynemedia.com/BOSS/VE_500/ve-500_F.jpg)
+[![BOSS VE-500 — top panel](images/boss-ve-500-top-055263f957b2.jpg)](images/boss-ve-500-top-055263f957b2.jpg)
 
 [Image source](https://www.clynemedia.com/BOSS/VE_500/BOSS_VE-500.html). BOSS launch press photograph distributed by Clyne Media. Near-overhead top-panel view with slight perspective; not classified as exact top-down. Backlit LCD shows BOSS and three blue footswitch indicators are illuminated. Promotional photograph, not an independently operated unit.
 
 **BOSS VE-500 — rear connections**
 
-[![BOSS VE-500 — rear connections](https://www.clynemedia.com/BOSS/VE_500/ve-500_R.jpg)](https://www.clynemedia.com/BOSS/VE_500/ve-500_R.jpg)
+[![BOSS VE-500 — rear connections](images/boss-ve-500-rear-4b64f19567dc.jpg)](images/boss-ve-500-rear-4b64f19567dc.jpg)
 
 [Image source](https://www.clynemedia.com/BOSS/VE_500/BOSS_VE-500.html). BOSS launch press photograph distributed by Clyne Media. Unobstructed rear panel shows INST INPUT/THRU, MIC IN, OUTPUT R/L, GND LIFT, MIDI IN, USB Micro-B, CTL1,2/EXP and DC IN. Rear view alone does not establish operating power state.
 

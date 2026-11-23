@@ -219826,7 +219826,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://www.clynemedia.com/BOSS/VE_500/ve-500_F.jpg",
+            "image_url": "images/boss-ve-500-top-055263f957b2.jpg",
             "source_url": "https://www.clynemedia.com/BOSS/VE_500/BOSS_VE-500.html",
             "caption": "BOSS VE-500 — top panel",
             "note": "BOSS launch press photograph distributed by Clyne Media. Near-overhead top-panel view with slight perspective; not classified as exact top-down. Backlit LCD shows BOSS and three blue footswitch indicators are illuminated. Promotional photograph, not an independently operated unit.",
@@ -219836,7 +219836,7 @@
             "sha256": "055263f957b2ff2a0229c516339f0d081ae9f5311cea632efc18738fa9eb33e4"
           },
           "rear": {
-            "image_url": "https://www.clynemedia.com/BOSS/VE_500/ve-500_R.jpg",
+            "image_url": "images/boss-ve-500-rear-4b64f19567dc.jpg",
             "source_url": "https://www.clynemedia.com/BOSS/VE_500/BOSS_VE-500.html",
             "caption": "BOSS VE-500 — rear connections",
             "note": "BOSS launch press photograph distributed by Clyne Media. Unobstructed rear panel shows INST INPUT/THRU, MIC IN, OUTPUT R/L, GND LIFT, MIDI IN, USB Micro-B, CTL1,2/EXP and DC IN. Rear view alone does not establish operating power state.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::VE-22"
+    "last_model": "BOSS::VE-500"
   }
 }
