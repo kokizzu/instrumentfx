@@ -1807,13 +1807,13 @@ Sources checked:
 
 **MOOER original GE200 illuminated top controls**
 
-[![MOOER original GE200 illuminated top controls](https://medias.audiofanzine.com/images/normal/mooer-ge200-5709669.jpg)](https://medias.audiofanzine.com/images/normal/mooer-ge200-5709669.jpg)
+[![MOOER original GE200 illuminated top controls](images/mooer-ge200-original-top-d9b1c4c9d461.jpg)](images/mooer-ge200-original-top-d9b1c4c9d461.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/mooer/ge200/). Visually checked: original GE200 powered on, complete controls and expression pedal, illuminated P194 display and all three footswitch rings. Near-overhead view has slight perspective; exact orthographic top-down view remains pending.
 
 **MOOER original GE200 rear ports**
 
-[![MOOER original GE200 rear ports](https://medias.audiofanzine.com/images/normal/mooer-ge200-2967052.jpg)](https://medias.audiofanzine.com/images/normal/mooer-ge200-2967052.jpg)
+[![MOOER original GE200 rear ports](images/mooer-ge200-original-rear-fc68658aceb8.jpg)](images/mooer-ge200-original-rear-fc68658aceb8.jpg)
 
 [Image source](https://fr.audiofanzine.com/multieffet-guitare-electrique/mooer/ge200/). Visually checked: complete original GE200 rear panel with AUX IN, EXP2, IN, L(MONO)/R outputs, headphone socket, USB Type-B and DC9V 600mA inlet. Labels are clearly readable.
 
