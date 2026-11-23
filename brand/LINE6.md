@@ -3106,13 +3106,13 @@ Sources checked:
 
 **POD Express Bass — powered-on overhead view**
 
-[![POD Express Bass — powered-on overhead view](https://line6.com/data/6/0a020a3fcb5465aafb7751667/image/png)](https://line6.com/data/6/0a020a3fcb5465aafb7751667/image/png)
+[![POD Express Bass — powered-on overhead view](images/line-6-pod-express-bass-top-f2615b21b136.png)](images/line-6-pod-express-bass-top-f2615b21b136.png)
 
 [Image source](https://line6.com/podexpress/bass-effects). Exact Bass-labelled enclosure and COMP/SYNTH/DIST/MOD DELAY controls viewed from overhead; red AMP segment and TAP indicator visible. Manufacturer product image.
 
 **POD Express Bass — rear connections**
 
-[![POD Express Bass — rear connections](https://line6.com/data/6/0a020a41706465aafbac26c6c/image/png)](https://line6.com/data/6/0a020a41706465aafbac26c6c/image/png)
+[![POD Express Bass — rear connections](images/line-6-pod-express-bass-rear-b74df914841c.png)](images/line-6-pod-express-bass-rear-b74df914841c.png)
 
 [Image source](https://line6.com/podexpress/bass-effects). Bass-specific manufacturer gallery image. IN, OUT L/MONO and RIGHT, VOLUME / FS 3/4, USB-C and DC IN labels visible. Side headphone socket and thumbwheel are outside this view.
 
