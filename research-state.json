@@ -221983,7 +221983,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://action-music.eu/cdn/shop/products/mfx-10-1-klein.jpg?v=1712840348&width=1946",
+            "image_url": "images/nux-mfx-10-top-34769c7b24fb.jpg",
             "source_url": "https://action-music.eu/products/gitarren-effektpedal-mfx-10",
             "caption": "NUX MFX-10 — top controls",
             "visual_checked": true,
@@ -221993,7 +221993,7 @@
             "sha256": "34769c7b24fb080522c17cffd5945c63e61e09317f671a61ced79ffa9c1cd55c"
           },
           "rear": {
-            "image_url": "https://guitarlicious-online.com/cdn/shop/files/NUX_MFX-10_2.jpg?v=1735378566&width=1946",
+            "image_url": "images/nux-mfx-10-rear-77559f9795bf.jpg",
             "source_url": "https://guitarlicious-online.com/products/nux-mfx-10-multi-effects-processor-pedal",
             "caption": "NUX MFX-10 — rear ports",
             "visual_checked": true,
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MG-20"
+    "last_model": "NUX::MFX-10"
   }
 }
