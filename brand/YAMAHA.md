@@ -552,13 +552,13 @@ Sources checked:
 
 **Magicstomp Guitar MK2 control face**
 
-[![Magicstomp Guitar MK2 control face](https://medias.audiofanzine.com/images/normal/yamaha-magicstomp-ii-2251267.jpg)](https://medias.audiofanzine.com/images/normal/yamaha-magicstomp-ii-2251267.jpg)
+[![Magicstomp Guitar MK2 control face](images/yamaha-magicstomp-guitar-mk2-top-d39f08ece809.jpg)](images/yamaha-magicstomp-guitar-mk2-top-d39f08ece809.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/yamaha/MagicStomp-II/). Visually checked powered actual Guitar MK2 from above: connected AC cable, green P03 Drivin Verb display and illuminated center indicator. Four knobs, three footswitches and STORE/EXIT button; PHONES top-edge label corroborates MK2 hardware. Perspective view of the full control face; no firmware-version inference from the preset name or hardware-function test.
 
 **Magicstomp Guitar MK2 rear connectors**
 
-[![Magicstomp Guitar MK2 rear connectors](https://cdn.korn.eu/pictures/product/1500/154254_1.jpg)](https://cdn.korn.eu/pictures/product/1500/154254_1.jpg)
+[![Magicstomp Guitar MK2 rear connectors](images/yamaha-magicstomp-guitar-mk2-rear-c2934407f0d8.jpg)](images/yamaha-magicstomp-guitar-mk2-rear-c2934407f0d8.jpg)
 
 [Image source](https://www.musikhaus-korn.de/en/yamaha-magic-stomp-ub-99-mk-ii/pd/96456). Visually checked complete rear row in the exact MKII retailer gallery: INPUT, HIGH/LOW input-level slider, OUTPUT R/L-MONO, PHONES, USB-B and AC IN12V1A~; cable-retaining hook at right. This endpoint supplies a 500-pixel image, improving the previous 400-pixel view but still limiting fine detail. The headphone socket distinguishes this layout from the original no-PHONES model. No analog EXP, MIDI DIN or XLR sockets shown; AC input has no DC center polarity.
 
