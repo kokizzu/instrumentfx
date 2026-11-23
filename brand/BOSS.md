@@ -6118,13 +6118,13 @@ Sources checked:
 
 **ME-90 control face**
 
-[![ME-90 control face](https://static.roland.com/products/me-90/image/me-90_gal_01.jpg)](https://static.roland.com/products/me-90/image/me-90_gal_01.jpg)
+[![ME-90 control face](images/boss-me-90-top-32bf7fdca030.jpg)](images/boss-me-90-top-32bf7fdca030.jpg)
 
 [Image source](https://www.boss.info/global/products/me-90/). Manufacturer complete straight-down ME-90 control panel with red numeric display and colored section/footswitch LEDs shown lit. All rotary sections, four panel buttons, eight footswitches and full expression pedal visible. Promotional display and illumination are not independently verified.
 
 **ME-90 rear connections**
 
-[![ME-90 rear connections](https://static.roland.com/products/me-90/image/me-90_gal_09.jpg)](https://static.roland.com/products/me-90/image/me-90_gal_09.jpg)
+[![ME-90 rear connections](images/boss-me-90-rear-50279e8c9ea9.jpg)](images/boss-me-90-rear-50279e8c9ea9.jpg)
 
 [Image source](https://www.boss.info/global/products/me-90/). Manufacturer complete rear view: INPUT, OUTPUT R and L/MONO, Gt. AMP/LINE switch, PHONES, SEND, RETURN, covered optional BT-DUAL connector, USB-C, power switch and DC IN for BOSS PSA-S adapter. Ground terminal, cord restraint and security slot visible.
 
