@@ -131,13 +131,13 @@ Sources checked:
 
 **MP-20 top-down manufacturer image with active display and light rings**
 
-[![MP-20 top-down manufacturer image with active display and light rings](https://erokmusic.com/img/products/MP-20-1.webp?v=1d0e068e17648151)](https://erokmusic.com/img/products/MP-20-1.webp?v=1d0e068e17648151)
+[![MP-20 top-down manufacturer image with active display and light rings](images/erok-mp-20-top-1d0e068e1764.webp)](images/erok-mp-20-top-1d0e068e1764.webp)
 
 [Image source](https://erokmusic.com/product/multi-effects/MP-20). Official exact-model gallery. Display and teal footswitch rings appear active, but promotional compositing versus a photographed powered-on unit is not independently established. Screen CPU 80 is illustration, not a measured pitch cost.
 
 **MP-20 straight-on rear connection panel**
 
-[![MP-20 straight-on rear connection panel](https://erokmusic.com/img/products/MP-20-4.webp?v=c5bb39fd9e3a94b7)](https://erokmusic.com/img/products/MP-20-4.webp?v=c5bb39fd9e3a94b7)
+[![MP-20 straight-on rear connection panel](images/erok-mp-20-rear-c5bb39fd9e3a.webp)](images/erok-mp-20-rear-c5bb39fd9e3a.webp)
 
 [Image source](https://erokmusic.com/product/multi-effects/MP-20). Manufacturer gallery clearly labels MP-20, INPUT, MIDI, phones, L(MONO)/R OUTPUT, USB and power. This exact model view is separate from MK-20 regulatory photographs.
 
