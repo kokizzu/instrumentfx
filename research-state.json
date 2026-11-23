@@ -228161,7 +228161,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/assets/images/products/main/me50_main.jpg",
+            "image_url": "images/boss-me-50-top-2aa76619e040.jpg",
             "source_url": "https://www.boss.info/global/products/me-50/",
             "caption": "BOSS ME-50 — powered-on top view",
             "note": "Manufacturer straight-down promotional image with the full control surface, red 5 display, tuner/effect indicators, rotary sections, panel buttons, three footswitches and complete expression pedal. The original image is only 500 pixels wide, so small labels have limited readability. Powered-on appearance is visible; independent operating-state verification is unavailable. A [1600-pixel overhead physical layout photograph](https://medias.audiofanzine.com/images/normal/boss-me-50-2014857.jpg) provides readable control labels and the complete expression pedal; that reference is unpowered and does not verify operation.",
@@ -228171,7 +228171,7 @@
             "sha256": "2aa76619e040fdc92fc73d71730842c940df463a473262c140065edb1dee2695"
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/boss-me-50-6686427.jpg",
+            "image_url": "images/boss-me-50-rear-295b26ce3c55.jpg",
             "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-50/",
             "caption": "BOSS ME-50 — rear connections",
             "note": "Actual user photograph, tilted but showing every rear connector and label: INPUT, GUITAR AMP R/L-MONO, LINE/PHONES, miniature AUX IN, TONE MODIFY/COMP ON/OFF (FS-5U x2; BANK UP/DOWN), power switch, DC IN for PSA adaptor, cord restraint and security slot.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-25"
+    "last_model": "BOSS::ME-50"
   }
 }
