@@ -852,13 +852,13 @@ Sources checked:
 
 **NUX MG-30 — top controls**
 
-[![NUX MG-30 — top controls](https://www.nux.us/cdn/shop/files/MG-30.01.jpg?v=1770943696&width=2400)](https://www.nux.us/cdn/shop/files/MG-30.01.jpg?v=1770943696&width=2400)
+[![NUX MG-30 — top controls](images/nux-mg-30-top-da21a9bd9133.jpg)](images/nux-mg-30-top-da21a9bd9133.jpg)
 
 [Image source](https://www.nux.us/products/mg-30). Visually inspected official MG-30 overhead product image: active color LCD shows patch32D and eleven-block signal strip; three footswitches, controls and treadle visible. Promotional image, not independent powered device testing.
 
 **NUX MG-30 — rear ports**
 
-[![NUX MG-30 — rear ports](https://www.nux.us/cdn/shop/files/MG-30.07.jpg?v=1770943769&width=2400)](https://www.nux.us/cdn/shop/files/MG-30.07.jpg?v=1770943769&width=2400)
+[![NUX MG-30 — rear ports](images/nux-mg-30-rear-52caf857c1fa.jpg)](images/nux-mg-30-rear-52caf857c1fa.jpg)
 
 [Image source](https://www.nux.us/products/mg-30). Visually inspected exact-model rear: Input, AUX In, headphones, Send, Return, Output L/Mono and R, EXP1, USB, center-negative DC9V and power rocker. Connector presence alone does not establish USB power or audio format.
 
