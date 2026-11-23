@@ -8,6 +8,43 @@ ROOT = audit.ROOT
 RECEIPT = Path('/tmp/instrumentfx-coverage-review.json')
 NAV = '[Photo galleries](PHOTOS.md) · [Verification gaps](RESEARCH-GAPS.md)'
 
+def footswitch_thumbnails(state, source):
+    """Add checked top-view thumbnails below active processor names in the display tables."""
+    by_link = {record['link']: key for key, record in state['comparison_model_sources'].items()}
+    image_records = state.get('model_images', {}).get('models', {})
+    marker = re.compile(r'<span class="model-thumbnail" data-model-key="[^"]+">.*?</span>')
+    rows = []
+    for line in source.splitlines():
+        if line.startswith('|') and not line.startswith('|---'):
+            line = marker.sub('', line)
+            cells = line.split('|')
+            if len(cells) >= 4:
+                hrefs = re.findall(r'\]\(([^)]+)\)', line)
+                keys = list(dict.fromkeys(by_link[href] for href in hrefs if href in by_link))
+                thumbnails = []
+                for key in keys:
+                    if not image_records.get(key, {}).get('views', {}).get('top', {}).get('image_url', '').startswith('https://'):
+                        continue
+                    picture = cv.model_picture(state, key)
+                    thumbnails.append('<span class="model-thumbnail" data-model-key="' + html.escape(key, quote=True) + '">' + picture + '</span>')
+                if thumbnails:
+                    cells[1] += ''.join(thumbnails)
+                    line = '|'.join(cells)
+        rows.append(line)
+    return '\n'.join(rows) + '\n'
+
+def footswitch_thumbnail_count(state, source):
+    by_link = {record['link']: key for key, record in state['comparison_model_sources'].items()}
+    image_records = state.get('model_images', {}).get('models', {})
+    count = 0
+    for line in source.splitlines():
+        if not line.startswith('|') or line.startswith('|---'):
+            continue
+        hrefs = re.findall(r'\]\(([^)]+)\)', line)
+        keys = set(by_link[href] for href in hrefs if href in by_link)
+        count += sum(image_records.get(key, {}).get('views', {}).get('top', {}).get('image_url', '').startswith('https://') for key in keys)
+    return count
+
 def esc(value):
     return str(value or 'Unverified').replace('|', '&#124;').replace('\n', ' ')
 
@@ -84,6 +121,7 @@ def outputs(state):
         first, rest = readme.split('\n', 1)
         readme = first + '\n\n' + NAV + '\n' + rest
     pages.update(cv.make_plan(persist=False)['outputs'])
+    pages['FOOTSWITCH-DISPLAYS.md'] = footswitch_thumbnails(state, (ROOT/'FOOTSWITCH-DISPLAYS.md').read_text())
     pages['README.md'] = readme
     return pages
 
@@ -108,6 +146,19 @@ def verify():
     assert '&amp;' in sample and '&quot;' in sample and 'width="160"' in sample
     assert 'pending' in cv.model_picture({}, 'Missing::One')
     current = state()
+    footswitch = pages['FOOTSWITCH-DISPLAYS.md']
+    footswitch_source = (ROOT/'FOOTSWITCH-DISPLAYS.md').read_text()
+    assert footswitch.count('class="model-thumbnail"') == footswitch_thumbnail_count(current, footswitch_source), 'Footswitch display table thumbnails changed; inspect model-link mapping'
+    for key, record in current['comparison_model_sources'].items():
+        link = record['link']
+        if key not in current.get('model_images', {}).get('models', {}):
+            continue
+        view = current['model_images']['models'][key].get('views', {}).get('top', {})
+        if not view.get('image_url', '').startswith('https://'):
+            continue
+        # Only require thumbnails for rows that link to this exact canonical model record.
+        matching_rows = [line for line in footswitch.splitlines() if line.startswith('|') and link in re.findall(r'\]\(([^)]+)\)', line)]
+        assert all('data-model-key="' + html.escape(key, quote=True) + '"' in line.split('|')[1] for line in matching_rows), ('Footswitch thumbnail not under model name', key)
     for filename, ids in current['comparison_membership'].items():
         text = pages[filename]
         assert text.count('<img src=') == 4 * len(ids), ('Missing table thumbnails', filename)
