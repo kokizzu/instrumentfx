@@ -6489,13 +6489,13 @@ Sources checked:
 
 **BOSS MS-3 — control surface**
 
-[![BOSS MS-3 — control surface](https://static.roland.com/assets/images/products/main/ms-3_main.jpg)](https://static.roland.com/assets/images/products/main/ms-3_main.jpg)
+[![BOSS MS-3 — control surface](images/boss-ms-3-top-e0db147b211e.jpg)](images/boss-ms-3-top-e0db147b211e.jpg)
 
 [Image source](https://www.boss.info/global/products/ms-3/). Manufacturer top-down view with illuminated display, effect indicators and blue footswitch indicators; complete three knobs, panel buttons and five footswitches. Small 600-pixel-wide source limits fine-label readability.
 
 **BOSS MS-3 — rear connections**
 
-[![BOSS MS-3 — rear connections](https://medias.audiofanzine.com/images/normal/boss-ms-3-switcher-multi-effets-6785706.jpg)](https://medias.audiofanzine.com/images/normal/boss-ms-3-switcher-multi-effets-6785706.jpg)
+[![BOSS MS-3 — rear connections](images/boss-ms-3-rear-eb6a25ef1f50.jpg)](images/boss-ms-3-rear-eb6a25ef1f50.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/boss/ms-3-switcher-multi-effets/). Slightly elevated rear photograph with all sockets and labels visible: input, three send/return loops, stereo outputs, control out, two expression/control inputs, USB, MIDI OUT, power switch and DC IN. The box behind the unit repeats the connector artwork.
 

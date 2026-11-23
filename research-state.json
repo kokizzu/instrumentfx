@@ -228566,7 +228566,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/assets/images/products/main/ms-3_main.jpg",
+            "image_url": "images/boss-ms-3-top-e0db147b211e.jpg",
             "source_url": "https://www.boss.info/global/products/ms-3/",
             "caption": "BOSS MS-3 — control surface",
             "note": "Manufacturer top-down view with illuminated display, effect indicators and blue footswitch indicators; complete three knobs, panel buttons and five footswitches. Small 600-pixel-wide source limits fine-label readability.",
@@ -228576,7 +228576,7 @@
             "sha256": "e0db147b211e413972871799efde29146da1c73849685062d8b16441caee1107"
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/boss-ms-3-switcher-multi-effets-6785706.jpg",
+            "image_url": "images/boss-ms-3-rear-eb6a25ef1f50.jpg",
             "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/boss/ms-3-switcher-multi-effets/",
             "caption": "BOSS MS-3 — rear connections",
             "note": "Slightly elevated rear photograph with all sockets and labels visible: input, three send/return loops, stereo outputs, control out, two expression/control inputs, USB, MIDI OUT, power switch and DC IN. The box behind the unit repeats the connector artwork.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GT-10B"
+    "last_model": "BOSS::MS-3"
   }
 }
