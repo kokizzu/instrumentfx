@@ -224679,7 +224679,7 @@
         "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://www.tech21nyc.com/wp-content/uploads/2019/04/flyrig5_v2-1024x230.png",
+            "image_url": "images/tech-21-fly-rig-5-v2-top-1cc543494488.png",
             "source_url": "https://www.tech21nyc.com/products/flyrig/flyrig5/",
             "caption": "Near-overhead v2 manufacturer control-face image with lit knobs and tuner indication.",
             "note": "Visually 13 rotary controls, 5 footswitches and 7 small pushbuttons. Stock cutout shows illuminated controls and tuner C/green indication; independently powered hardware is unverified. Slight perspective, not strict perpendicular overhead. No bass octave-divider or acoustic chorus controls inferred.",
@@ -224689,7 +224689,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://stangguitars.com/cdn/shop/products/Tech21-FlyRig5-V2-2_1024x1024.jpg?v=1570475393",
+            "image_url": "images/tech-21-fly-rig-5-v2-rear-5b3762c81c4e.jpg",
             "source_url": "https://stangguitars.com/products/tech-21-fly-rig-5-v2",
             "caption": "Angled v2 connector and XLR-end view.",
             "note": "Unlit stock photograph shows quarter-inch IN at far left, SEND, RETURN, OUT, 9V DC center-negative socket and male XLR on adjacent end. Current draw is not printed legibly here. This combined view covers more than the long edge alone; no hidden USB/EXP absence claim or hardware test.\n\nSupplemental physical-unit rear/underside detail: [![Fly Rig 5 v2 complete long connector edge and model label](https://www.chicagomusicexchange.com/cdn/shop/files/tech-21-effects-and-pedals-amp-simulators-tech-21-fly-rig-5-v2-tech-21-fly-rig-5-v2-u7505801901-1229481657.jpg?v=1774566801&width=1946)](https://www.chicagomusicexchange.com/cdn/shop/files/tech-21-effects-and-pedals-amp-simulators-tech-21-fly-rig-5-v2-tech-21-fly-rig-5-v2-u7505801901-1229481657.jpg?v=1774566801&width=1946). [Used-unit source](https://www.chicagomusicexchange.com/products/tech-21-fly-rig-5-v2-2523434). Actual used unit tipped upside down: complete long edge shows IN, SEND, RETURN, OUT and 9V DC with center-negative symbol. Underside label explicitly reads FLY RIG 5 v2, corroborating model identity. XLR end is outside this angle; original combined rear/end view remains primary. Unpowered photograph; adapter consumption is not DSP usage.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Tech 21::Bass Fly Rig v2"
+    "last_model": "Tech 21::Fly Rig 5 v2"
   }
 }
