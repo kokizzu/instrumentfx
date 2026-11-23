@@ -143,13 +143,13 @@ Sources checked:
 
 **PROFILER Player powered-on overhead control panel: eight knobs, three footswitches and illuminated status indicators; no screen.**
 
-[![PROFILER Player powered-on overhead control panel: eight knobs, three footswitches and illuminated status indicators; no screen.](https://www.kemper-amps.com/images/products/profiler-player_gallery_top_800_bl.jpg?v5=)](https://www.kemper-amps.com/images/products/profiler-player_gallery_top_800_bl.jpg?v5=)
+[![PROFILER Player powered-on overhead control panel: eight knobs, three footswitches and illuminated status indicators; no screen.](images/kemper-profiler-player-top-5f3cb28cdbab.jpg)](images/kemper-profiler-player-top-5f3cb28cdbab.jpg)
 
 [Image source](https://www.kemper-amps.com/store/en/profiler-player.html). Exact Player hardware from official SKU24000000 listing. Gain-ring, bank/rig, wireless and Kone indicators visibly lit. Photo does not establish installed OS or paid upgrade Level.
 
 **PROFILER Player rear connectors: instrument input, L/R monitor outputs, headphones, pedal socket, XLR main, USB-A/B and DC input.**
 
-[![PROFILER Player rear connectors: instrument input, L/R monitor outputs, headphones, pedal socket, XLR main, USB-A/B and DC input.](https://www.kemper-amps.com/images/products/profiler-player_gallery_back_800_bl.jpg?v5=)](https://www.kemper-amps.com/images/products/profiler-player_gallery_back_800_bl.jpg?v5=)
+[![PROFILER Player rear connectors: instrument input, L/R monitor outputs, headphones, pedal socket, XLR main, USB-A/B and DC input.](images/kemper-profiler-player-rear-3369c60ff219.jpg)](images/kemper-profiler-player-rear-3369c60ff219.jpg)
 
 [Image source](https://www.kemper-amps.com/store/en/profiler-player.html). Readable inlet label:9–12 V DC,24 W,centre-negative. This is a hardware power rating, not measured consumption or DSP utilization. No DIN MIDI, S/PDIF or dedicated external audio-loop send/return visible. Kensington slot above DC/USB area is not an audio connector; USB socket presence alone does not establish bus powering.
 

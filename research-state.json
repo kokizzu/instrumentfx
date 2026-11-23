@@ -223267,7 +223267,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.kemper-amps.com/images/products/profiler-player_gallery_top_800_bl.jpg?v5=",
+            "image_url": "images/kemper-profiler-player-top-5f3cb28cdbab.jpg",
             "source_url": "https://www.kemper-amps.com/store/en/profiler-player.html",
             "caption": "PROFILER Player powered-on overhead control panel: eight knobs, three footswitches and illuminated status indicators; no screen.",
             "note": "Exact Player hardware from official SKU24000000 listing. Gain-ring, bank/rig, wireless and Kone indicators visibly lit. Photo does not establish installed OS or paid upgrade Level.",
@@ -223277,7 +223277,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.kemper-amps.com/images/products/profiler-player_gallery_back_800_bl.jpg?v5=",
+            "image_url": "images/kemper-profiler-player-rear-3369c60ff219.jpg",
             "source_url": "https://www.kemper-amps.com/store/en/profiler-player.html",
             "caption": "PROFILER Player rear connectors: instrument input, L/R monitor outputs, headphones, pedal socket, XLR main, USB-A/B and DC input.",
             "note": "Readable inlet label:9–12 V DC,24 W,centre-negative. This is a hardware power rating, not measured consumption or DSP utilization. No DIN MIDI, S/PDIF or dedicated external audio-loop send/return visible. Kensington slot above DC/USB area is not an audio connector; USB socket presence alone does not establish bus powering.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::A Factory QDS-04"
+    "last_model": "Kemper::PROFILER Player"
   }
 }
