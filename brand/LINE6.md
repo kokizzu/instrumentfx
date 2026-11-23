@@ -294,13 +294,13 @@ Sources checked:
 
 **Floor POD Plus powered-on top-down view**
 
-[![Floor POD Plus powered-on top-down view](https://line6.com/data/l/0a06000fff7845d4de27f2466/image/jpeg/Floor%20PODsupsup%20Plus%20(Top%20Down)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06000fff7845d4de27f2466/image/jpeg/Floor%20PODsupsup%20Plus%20(Top%20Down)%20-%20Lo%20Rez.jpeg)
+[![Floor POD Plus powered-on top-down view](images/line-6-floor-pod-plus-top-d0a5e807b93e.jpg)](images/line-6-floor-pod-plus-top-d0a5e807b93e.jpg)
 
 [Image source](https://line6.com/company/images/?families=1&locale=en_US). Official archive top-down photograph. Red 6A display and A/Tap LEDs visibly illuminated; full control surface and treadle shown.
 
 **Floor POD Plus connection panel**
 
-[![Floor POD Plus connection panel](https://i.ebayimg.com/images/g/GJAAAOSwF-9kvx-W/s-l1600.jpg)](https://i.ebayimg.com/images/g/GJAAAOSwF-9kvx-W/s-l1600.jpg)
+[![Floor POD Plus connection panel](images/line-6-floor-pod-plus-rear-154cefebf9ea.jpg)](images/line-6-floor-pod-plus-rear-154cefebf9ea.jpg)
 
 [Image source](https://www.ebay.com/itm/115869629601). Seller specimen photograph of connection edge: Amp/Direct switch, stereo outputs, phones, MIDI in/out and power visible. Output-level knob and guitar/Aux input end cropped; not a complete port inventory. Own manual documents omitted inputs.
 
