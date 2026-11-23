@@ -219682,7 +219682,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://line6.com/data/l/0a06434d123054caa21ea42afa/image/jpeg/POD%20HD400%20(Top%20Down)%20-%20Lo%20Rez.jpeg",
+            "image_url": "images/line-6-pod-hd400-top-e920b64640fa.jpg",
             "source_url": "https://line6.com/company/images/?families=64",
             "caption": "POD HD400 powered-on overhead view",
             "note": "Official Top Down archive photo. Bank 06C, LCD and several LEDs illuminated; slight perspective remains, not strictly perpendicular.",
@@ -219692,7 +219692,7 @@
             "sha256": "e920b64640faae71451bb814463784ec323c2f376c73bbe186344a47bbe36447"
           },
           "rear": {
-            "image_url": "https://line6.com/data/l/0a06434d123044caa21cd5a359/image/jpeg/POD%20HD400%20(Rear%20View)%20-%20Lo%20Rez.jpeg",
+            "image_url": "images/line-6-pod-hd400-rear-a3e51b3d63a7.jpg",
             "source_url": "https://line6.com/company/images/?families=64",
             "caption": "POD HD400 rear connections",
             "note": "Exact HD400 official rear photograph. Pedal 2, guitar/CD-MP3 inputs, outputs, phones, stereo FX return/send, L6 LINK, USB and power visible; these extra ports must not be transferred to HD300.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD HD300"
+    "last_model": "Line 6::POD HD400"
   }
 }

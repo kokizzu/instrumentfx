@@ -3951,13 +3951,13 @@ Sources checked:
 
 **POD HD400 powered-on overhead view**
 
-[![POD HD400 powered-on overhead view](https://line6.com/data/l/0a06434d123054caa21ea42afa/image/jpeg/POD%20HD400%20(Top%20Down)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06434d123054caa21ea42afa/image/jpeg/POD%20HD400%20(Top%20Down)%20-%20Lo%20Rez.jpeg)
+[![POD HD400 powered-on overhead view](images/line-6-pod-hd400-top-e920b64640fa.jpg)](images/line-6-pod-hd400-top-e920b64640fa.jpg)
 
 [Image source](https://line6.com/company/images/?families=64). Official Top Down archive photo. Bank 06C, LCD and several LEDs illuminated; slight perspective remains, not strictly perpendicular.
 
 **POD HD400 rear connections**
 
-[![POD HD400 rear connections](https://line6.com/data/l/0a06434d123044caa21cd5a359/image/jpeg/POD%20HD400%20(Rear%20View)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06434d123044caa21cd5a359/image/jpeg/POD%20HD400%20(Rear%20View)%20-%20Lo%20Rez.jpeg)
+[![POD HD400 rear connections](images/line-6-pod-hd400-rear-a3e51b3d63a7.jpg)](images/line-6-pod-hd400-rear-a3e51b3d63a7.jpg)
 
 [Image source](https://line6.com/company/images/?families=64). Exact HD400 official rear photograph. Pedal 2, guitar/CD-MP3 inputs, outputs, phones, stereo FX return/send, L6 LINK, USB and power visible; these extra ports must not be transferred to HD300.
 
