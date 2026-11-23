@@ -1175,13 +1175,13 @@ Sources checked:
 
 **MOOER GE150 Plus powered-on top view**
 
-[![MOOER GE150 Plus powered-on top view](https://mooer.jp/cdn/shop/files/GE150_Plus-01.png?v=1757474665&width=1946)](https://mooer.jp/cdn/shop/files/GE150_Plus-01.png?v=1757474665&width=1946)
+[![MOOER GE150 Plus powered-on top view](images/mooer-ge150-plus-top-42a4c45d1522.jpg)](images/mooer-ge150-plus-top-42a4c45d1522.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ge150plus). Straight overhead white standard GE150 Plus, three footswitches, full built-in expression pedal and illuminated 02A US Blues Clean screen, module/button indicators and A ring. Exact Plus branding; not Pro or Plus Li.
 
 **MOOER GE150 Plus rear ports**
 
-[![MOOER GE150 Plus rear ports](https://mooer.jp/cdn/shop/files/GE150_Plus-02.png?v=1757474665&width=1946)](https://mooer.jp/cdn/shop/files/GE150_Plus-02.png?v=1757474665&width=1946)
+[![MOOER GE150 Plus rear ports](images/mooer-ge150-plus-rear-2f9dd851f96c.jpg)](images/mooer-ge150-plus-rear-2f9dd851f96c.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ge150plus). Full straight rear panel: AUX IN, INPUT, OUTPUT L (MONO)/R, PHONES, USB-C labeled OTG, rocker power and DC 9V 300mA center-negative marking. No FX loop, XLR, dedicated physical MIDI or external EXP in this panel; USB functions follow the manual.
 
