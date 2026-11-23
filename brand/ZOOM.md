@@ -6637,13 +6637,13 @@ Sources checked:
 
 **G5n powered control face**
 
-[![G5n powered control face](https://media.sweetwater.com/m/products/image/df0d5379afudhjVWUyKcjkqm4ZJ9fsZyXqoMf8A4.jpg?ha=df0d5379af665e6eb971d610b87d61a34f3ce562&height=1800&quality=85)](https://media.sweetwater.com/m/products/image/df0d5379afudhjVWUyKcjkqm4ZJ9fsZyXqoMf8A4.jpg?ha=df0d5379af665e6eb971d610b87d61a34f3ce562&height=1800&quality=85)
+[![G5n powered control face](images/zoom-g5n-top-4707f3b5248d.jpg)](images/zoom-g5n-top-4707f3b5248d.jpg)
 
 [Image source](https://www.sweetwater.com/store/detail/G5N--zoom-g5n-multi-effects-processor). Actual powered G5n, complete near-overhead control face: overview LCD and four effect LCDs are active, with four footswitch LEDs and TAP LED lit. Twenty rotary controls, eight TYPE keys, MENU key, nine foot-operated switches and the full expression treadle are visible.
 
 **G5n rear connections**
 
-[![G5n rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/Zoom_G5n_rear1.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/Zoom_G5n_rear1.jpg)
+[![G5n rear connections](images/zoom-g5n-rear-ac8fe78282f1.jpg)](images/zoom-g5n-rear-ac8fe78282f1.jpg)
 
 [Image source](https://www.zoom.co.jp/node/637). Official complete rear photograph: INPUT, AUX IN, OUTPUT R and L/MONO, separate PHONES mini-jack, CONTROL IN, USB Type-B, ON/OFF power switch, center-negative DC 9V input and security slot. No XLR connector or effects-loop send/return sockets are present.
 
