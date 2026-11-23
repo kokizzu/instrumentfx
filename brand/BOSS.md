@@ -6812,13 +6812,13 @@ Sources checked:
 
 **BOSS SE-50 — front control panel**
 
-[![BOSS SE-50 — front control panel](https://medias.audiofanzine.com/images/normal/boss-se-50-stereo-effects-processor-6020729.jpg)](https://medias.audiofanzine.com/images/normal/boss-se-50-stereo-effects-processor-6020729.jpg)
+[![BOSS SE-50 — front control panel](images/boss-se-50-top-0f150fda7479.jpg)](images/boss-se-50-top-0f150fda7479.jpg)
 
 [Image source](https://en.audiofanzine.com/multi-effects-processor/boss/se-50/). Powered front control-panel photograph with readable 121 Guitar Multi LCD and illuminated effect indicator; input knob, all editing buttons and power switch visible. Controls face forward on this half-rack unit; this is not a top-down chassis photograph.
 
 **BOSS SE-50 — rear connections**
 
-[![BOSS SE-50 — rear connections](https://medias.audiofanzine.com/images/normal/boss-se-50-stereo-effects-processor-6800135.jpeg)](https://medias.audiofanzine.com/images/normal/boss-se-50-stereo-effects-processor-6800135.jpeg)
+[![BOSS SE-50 — rear connections](images/boss-se-50-rear-9a5ed83642b0.jpg)](images/boss-se-50-rear-9a5ed83642b0.jpg)
 
 [Image source](https://fr.audiofanzine.com/multieffet/boss/se-50/). Clear full rear view showing AC 12V 1A adaptor input, MIDI OUT/IN, EFFECT REMOTE and NUMBER SHIFT jacks, stereo outputs, -20/+4 dBm level selector and stereo inputs.
 
