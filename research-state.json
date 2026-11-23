@@ -222993,7 +222993,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://hotmusic.jp/cdn/shop/files/QCE-30-3_c5c2cb74-3409-4c1c-aca9-3ad67da17b8d.jpg?v=1747901078&width=1096",
+            "image_url": "images/sonicake-black-hammer-qce-30-top-8c7fdc87b1e0.jpg",
             "source_url": "https://hotmusic.jp/products/sonicake-black-hammer",
             "caption": "Black Hammer powered overhead product graphic",
             "note": "Visually inspected retailer/distributor graphic with full overhead panel,thirteen illuminated rotary controls andfour footswitches;no screen,treadle orseparate buttons. The graphic labels fixed Boost→Distortion→Chorus→Delay;it does not establish internal firmware.",
@@ -223003,7 +223003,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Black_Hammer-User_Manual_JP.png",
+            "image_url": "images/sonicake-black-hammer-qce-30-rear-4ceca23c5871.png",
             "source_url": "https://www.hotone.jp/brands/sonicake/products/black-hammer",
             "caption": "Black Hammer official connector diagram (photo gap)",
             "note": "Official Japanese manual image inspected: IN,OUT andDC9V labelled on long connector edge;13rotaries (delay3,chorus3,hi-gain6,boost1) and4effect switches. This is a diagram fallback,not a rear photograph;clear rear connector photo remains unresolved. No extra EXP,USB,headphone orMIDI connector is documented by this diagram.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::Sonic Wood QCE-50"
+    "last_model": "Sonicake::Black Hammer QCE-30"
   }
 }
