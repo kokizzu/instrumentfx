@@ -235,13 +235,13 @@ Sources checked:
 
 **DigiTech GNX3 — powered-on full control face**
 
-[![DigiTech GNX3 — powered-on full control face](https://evolutionmusicstore.com/cdn/shop/products/jix0xpb4x5kxcnydcqvs_bac4af6b-ddec-4d01-b6c2-33d76e558cb7_800x.jpg?v=1652231786)](https://evolutionmusicstore.com/cdn/shop/products/jix0xpb4x5kxcnydcqvs_bac4af6b-ddec-4d01-b6c2-33d76e558cb7_800x.jpg?v=1652231786)
+[![DigiTech GNX3 — powered-on full control face](images/digitech-gnx3-top-4c02da176a63.jpg)](images/digitech-gnx3-top-4c02da176a63.jpg)
 
 [Image source](https://evolutionmusicstore.com/products/digitech-gnx3-guitar-workstation-pedal). Retailer photograph visually inspected: exact GNX3 marking, illuminated green preset display, red preset number, recorder counter and multiple status LEDs. Complete recorder controls, six rotary controls, two bank switches, five effect footswitches and full expression treadle visible. Near-overhead camera retains perspective, so strict powered-on top-down remains pending. [Previous unlit straight-overhead reference](https://medias.audiofanzine.com/images/normal/digitech-gnx3-6111093.jpg) remains available for layout inspection. Photo is not a hardware/audio performance test.
 
 **DigiTech GNX3 — rear connections**
 
-[![DigiTech GNX3 — rear connections](https://evolutionmusicstore.com/cdn/shop/products/zjhoizpvvceefdpieyiy_05a3d425-3b47-4884-acdb-4ec0527ec78c_2000x.jpg?v=1652231786)](https://evolutionmusicstore.com/cdn/shop/products/zjhoizpvvceefdpieyiy_05a3d425-3b47-4884-acdb-4ec0527ec78c_2000x.jpg?v=1652231786)
+[![DigiTech GNX3 — rear connections](images/digitech-gnx3-rear-6bb146fd8762.jpg)](images/digitech-gnx3-rear-6bb146fd8762.jpg)
 
 [Image source](https://evolutionmusicstore.com/products/digitech-gnx3-guitar-workstation-pedal). Retailer rear photograph shows MIC OUTPUT, MIC/XLR INPUT and level, guitar INPUT, JAM-A-LONG/CD, headphones, LEFT/RIGHT OUT, output level, ON/OFF, FOOTSWITCH, S/PDIF OUT, MIDI IN/OUT-THRU and memory-card slot. Power cable occupies socket labeled 9VAC 2.1A; socket interior is obscured. Photo alone does not establish operating power state.
 
