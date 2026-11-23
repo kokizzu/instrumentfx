@@ -1933,13 +1933,13 @@ Sources checked:
 
 **VoiceTone Create XT powered-on control face — actual unit**
 
-[![VoiceTone Create XT powered-on control face — actual unit](https://medias.audiofanzine.com/images/normal/tc-helicon-create-xt-6715151.jpeg)](https://medias.audiofanzine.com/images/normal/tc-helicon-create-xt-6715151.jpeg)
+[![VoiceTone Create XT powered-on control face — actual unit](images/tc-helicon-voicetone-create-xt-top-73f6cb0b0536.jpg)](images/tc-helicon-voicetone-create-xt-top-73f6cb0b0536.jpg)
 
 [Image source](https://en.audiofanzine.com/vocal-processor/tc-helicon/voicetone-create-xt/). Actual exact Create XT with connected power/audio, lit numeric 1 display and red status LEDs. Four rotary controls (Input, Mix, Style, Tweak), two footswitches and seven buttons visible. Tone is a button, not a fifth knob; FX/µMod/Delay/Reverb/Tweak pads are not footswitches. Overhead-facing image has perspective and a tightly framed lower edge, not strict perpendicular top-down. No firmware version or audio tracking inferred.
 
 **VoiceTone Create XT rear ports — actual used unit**
 
-[![VoiceTone Create XT rear ports — actual used unit](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62331/406375/YTCHELICON13864303__38329.1721303049.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62331/406375/YTCHELICON13864303__38329.1721303049.jpg?c=1)
+[![VoiceTone Create XT rear ports — actual used unit](images/tc-helicon-voicetone-create-xt-rear-54438950fabb.jpg)](images/tc-helicon-voicetone-create-xt-rear-54438950fabb.jpg)
 
 [Image source](https://richtonemusic.co.uk/tc-helicon-create-xt-voicetone-pedal-2nd-hand/). Actual Create XT rear at an oblique angle: female XLR MIC INPUT, quarter-inch PEDAL, two male XLR outputs, Mini-B USB and DC POWER inlet with center-negative symbol. Top labels identify Left(mono)/Right(dry). No audio/power cables or lit indicators in this second unit. No guitar, AUX or headphone sockets shown; PEDAL does not establish continuous expression. DC voltage/current not legible here; USB connector does not prove USB audio or bus power.
 
