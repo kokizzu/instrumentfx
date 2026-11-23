@@ -4057,13 +4057,13 @@ Sources checked:
 
 **POD HD500 — powered-on overhead product view**
 
-[![POD HD500 — powered-on overhead product view](https://line6.com/data/l/0a06434d123044caa22838b892/image/jpeg/POD%20HD500%20(Top%20Down)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06434d123044caa22838b892/image/jpeg/POD%20HD500%20(Top%20Down)%20-%20Lo%20Rez.jpeg)
+[![POD HD500 — powered-on overhead product view](images/line-6-pod-hd500-top-be1c84c26f22.jpg)](images/line-6-pod-hd500-top-be1c84c26f22.jpg)
 
 [Image source](https://line6.com/company/images/?families=64). Official archive labels Top Down; exact original HD500 with illuminated LCD and switch/expression indicators. Some perspective and front edge remain visible, so a perfectly perpendicular view is still unverified. Not HD500X.
 
 **POD HD500 — rear connections**
 
-[![POD HD500 — rear connections](https://line6.com/data/l/0a06434d125754caa22696020d/image/jpeg/POD%20HD500%20(Rear%20View)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/0a06434d125754caa22696020d/image/jpeg/POD%20HD500%20(Rear%20View)%20-%20Lo%20Rez.jpeg)
+[![POD HD500 — rear connections](images/line-6-pod-hd500-rear-7182f064e259.jpg)](images/line-6-pod-hd500-rear-7182f064e259.jpg)
 
 [Image source](https://line6.com/company/images/?families=64). Exact original HD500 archive photograph shows Pedal2,Guitar/CD-MP3 inputs,unbalanced and balanced outputs,Phones,Aux,Mic and trim,FX return/send,Variax,S/PDIF,MIDI,USB,L6 LINK and power. Full labels can be inspected through the direct image link.
 
