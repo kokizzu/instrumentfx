@@ -227811,7 +227811,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/products/gx-10/image/gx-10_gal_01.jpg",
+            "image_url": "images/boss-gx-10-top-a0dcf01c82f4.jpg",
             "source_url": "https://www.boss.info/global/products/gx-10/",
             "caption": "GX-10 control face",
             "note": "Manufacturer complete straight-down control face with active color effects-chain screen, blue footswitch indicators and EXP1 status shown. Six rotary controls, six panel buttons, three footswitches and full expression pedal visible. Promotional screen/illumination is not independently verified.",
@@ -227821,7 +227821,7 @@
             "sha256": "a0dcf01c82f434b59acca6c704c461a16811c73a679a3b05081fe7e3b76613f7"
           },
           "rear": {
-            "image_url": "https://static.roland.com/products/gx-10/image/gx-10_gal_03.jpg",
+            "image_url": "images/boss-gx-10-rear-b7598f3fcbd5.jpg",
             "source_url": "https://www.boss.info/global/products/gx-10/",
             "caption": "GX-10 rear connections",
             "note": "Manufacturer complete rear panel: INPUT, OUTPUT R and L/MONO, PHONES, SEND, RETURN, CTL2,3/EXP2, covered optional BT-DUAL connector, USB-C, power switch and DC IN. Ground terminal and security slot visible. Bluetooth adapter is optional, not a built-in exposed USB socket.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GT-1000CORE"
+    "last_model": "BOSS::GX-10"
   }
 }
