@@ -2186,13 +2186,13 @@ Sources checked:
 
 **MOOER GE200 Pro — powered-on top-down view**
 
-[![MOOER GE200 Pro — powered-on top-down view](https://mooer.jp/cdn/shop/files/GE200_Pro-01.png?v=1722309283&width=1445)](https://mooer.jp/cdn/shop/files/GE200_Pro-01.png?v=1722309283&width=1445)
+[![MOOER GE200 Pro — powered-on top-down view](images/mooer-ge200-pro-top-ea929ef2d0a0.jpg)](images/mooer-ge200-pro-top-ea929ef2d0a0.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ge200pro). Complete top-down product image from the standard GE200 Pro page, with GE200Pro chassis marking, unlit expression-pedal surface and no Pro Li ambient strip. Display depicts 04A ToneQueen Clean with illuminated switches. Its battery icon is shared screen artwork and does not establish battery hardware in the standard model; displayed DSP total is not pitch cost.
 
 **MOOER GE200 Pro — rear connections**
 
-[![MOOER GE200 Pro — rear connections](https://mooer.jp/cdn/shop/files/GE200_Pro-02.png?v=1722309283&width=1445)](https://mooer.jp/cdn/shop/files/GE200_Pro-02.png?v=1722309283&width=1445)
+[![MOOER GE200 Pro — rear connections](images/mooer-ge200-pro-rear-415349ae16d5.jpg)](images/mooer-ge200-pro-rear-415349ae16d5.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ge200pro). Full straight-on rear panel from the exact standard Pro page: EXP2, instrument IN, FX-loop send/return, stereo XLR, ground lift, stereo jack outputs, headphones, shared MIDI IN/OUT, USB Type-C, power switch and DC9V input. Legends readable; the regional description contains copied Li wording, so battery claims are not taken from this page.
 
