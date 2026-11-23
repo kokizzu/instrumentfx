@@ -692,13 +692,13 @@ Sources checked:
 
 **PERFORM-VE control face — retailer-hosted manufacturer stock image**
 
-[![PERFORM-VE control face — retailer-hosted manufacturer stock image](https://www.behngiepseng.com/cdn/shop/files/Image_TH_P0DEC_PERFORM-VE_Top_XL_1024x.jpg?v=1701152525)](https://www.behngiepseng.com/cdn/shop/files/Image_TH_P0DEC_PERFORM-VE_Top_XL_1024x.jpg?v=1701152525)
+[![PERFORM-VE control face — retailer-hosted manufacturer stock image](images/tc-helicon-perform-ve-top-4aa44562d0af.jpg)](images/tc-helicon-perform-ve-top-4aa44562d0af.jpg)
 
 [Image source](https://www.behngiepseng.com/products/tc-helicon-perform-ve). Straight-on stock control-face image with illuminated-looking pads and ring; no connected power or independently photographed operating unit. Powered-on evidence remains pending. One rotary knob, zero footswitches, fourteen button pads: SET, three presets, TAP, six effects, LOOPER, SAMPLE and headphones. Small window beside SET and ring segments are indicators, not counted as separate buttons.
 
 **PERFORM-VE rear ports — physical user photograph**
 
-[![PERFORM-VE rear ports — physical user photograph](https://medias.audiofanzine.com/images/normal/tc-helicon-perform-ve-6062271.jpg)](https://medias.audiofanzine.com/images/normal/tc-helicon-perform-ve-6062271.jpg)
+[![PERFORM-VE rear ports — physical user photograph](images/tc-helicon-perform-ve-rear-f18fb7cd723f.jpg)](images/tc-helicon-perform-ve-rear-f18fb7cd723f.jpg)
 
 [Image source](https://en.audiofanzine.com/vocal-processor/tc-helicon/perform-ve/). Visually inspected physical yellow PERFORM-VE with model marking legible. Rear panel shows center-negative DC POWER, Mini-B USB, five-pin MIDI IN, quarter-inch PEDAL, AUX minijack, stacked quarter-inch OUT L/R, female XLR MIC IN with MIDAS marking, and security slot. Whole connector panel visible with slight perspective. No connected power or operating state established. PEDAL label does not prove continuous expression support; USB shape does not prove USB power. Top view above remains stock artwork, with independently powered overhead evidence still pending.
 
