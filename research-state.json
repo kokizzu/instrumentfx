@@ -225806,7 +225806,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://cdn.aukro.cz/images/sk1744147921652/vintage-yamaha-magicstomp-ub99-stereo-multi-effect-pedal-225437113.jpeg",
+            "image_url": "images/yamaha-magicstomp-acoustic-top-a01686c4ea37.jpg",
             "source_url": "https://aukro.cz/vintage-yamaha-magicstomp-ub99-stereo-multi-effect-pedal-7086192984",
             "caption": "Magicstomp Acoustic control face",
             "note": "Visually checked gold ACOUSTIC-labelled actual unit and Acoustic box, connected AC cable, green backlit U01 HeavyHiGain screen and illuminated central indicator. Four knobs, three footswitches and one STORE/EXIT button; no treadle. Near-overhead front perspective, not strict orthographic top-down. HeavyHiGain is displayed user-patch content, not factory configuration or firmware-version evidence.",
@@ -225816,7 +225816,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/yamaha-magicstomp-acoustic-780673.jpg",
+            "image_url": "images/yamaha-magicstomp-acoustic-rear-4b46c8122087.jpg",
             "source_url": "https://en.audiofanzine.com/acoustic-guitar-multi-effect/yamaha/Magicstomp-Acoustic/",
             "caption": "Magicstomp Acoustic rear connectors",
             "note": "Visually checked readable complete connector row: INPUT, HIGH/LOW input-level switch, OUTPUT R/L-MONO, PHONES, USB-B and AC IN12V1A~. AC symbol directly contradicts generated image-search DC descriptions; DC center polarity does not apply. No analog EXP, MIDI DIN or XLR sockets shown. Exact Acoustic gallery supplies model context; rear crop itself does not print the edition name.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::DG-Stomp"
+    "last_model": "Yamaha::Magicstomp Acoustic"
   }
 }

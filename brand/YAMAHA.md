@@ -338,13 +338,13 @@ Sources checked:
 
 **Magicstomp Acoustic control face**
 
-[![Magicstomp Acoustic control face](https://cdn.aukro.cz/images/sk1744147921652/vintage-yamaha-magicstomp-ub99-stereo-multi-effect-pedal-225437113.jpeg)](https://cdn.aukro.cz/images/sk1744147921652/vintage-yamaha-magicstomp-ub99-stereo-multi-effect-pedal-225437113.jpeg)
+[![Magicstomp Acoustic control face](images/yamaha-magicstomp-acoustic-top-a01686c4ea37.jpg)](images/yamaha-magicstomp-acoustic-top-a01686c4ea37.jpg)
 
 [Image source](https://aukro.cz/vintage-yamaha-magicstomp-ub99-stereo-multi-effect-pedal-7086192984). Visually checked gold ACOUSTIC-labelled actual unit and Acoustic box, connected AC cable, green backlit U01 HeavyHiGain screen and illuminated central indicator. Four knobs, three footswitches and one STORE/EXIT button; no treadle. Near-overhead front perspective, not strict orthographic top-down. HeavyHiGain is displayed user-patch content, not factory configuration or firmware-version evidence.
 
 **Magicstomp Acoustic rear connectors**
 
-[![Magicstomp Acoustic rear connectors](https://medias.audiofanzine.com/images/normal/yamaha-magicstomp-acoustic-780673.jpg)](https://medias.audiofanzine.com/images/normal/yamaha-magicstomp-acoustic-780673.jpg)
+[![Magicstomp Acoustic rear connectors](images/yamaha-magicstomp-acoustic-rear-4b46c8122087.jpg)](images/yamaha-magicstomp-acoustic-rear-4b46c8122087.jpg)
 
 [Image source](https://en.audiofanzine.com/acoustic-guitar-multi-effect/yamaha/Magicstomp-Acoustic/). Visually checked readable complete connector row: INPUT, HIGH/LOW input-level switch, OUTPUT R/L-MONO, PHONES, USB-B and AC IN12V1A~. AC symbol directly contradicts generated image-search DC descriptions; DC center polarity does not apply. No analog EXP, MIDI DIN or XLR sockets shown. Exact Acoustic gallery supplies model context; rear crop itself does not print the edition name.
 
