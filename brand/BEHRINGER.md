@@ -730,13 +730,13 @@ Sources checked:
 
 **Behringer V-AMP 2 — control surface**
 
-[![Behringer V-AMP 2 — control surface](https://m.media-amazon.com/images/I/81dqE1R8hWS._AC_SL2048_.jpg)](https://m.media-amazon.com/images/I/81dqE1R8hWS._AC_SL2048_.jpg)
+[![Behringer V-AMP 2 — control surface](images/behringer-v-amp-2-top-b3d287f55860.jpg)](images/behringer-v-amp-2-top-b3d287f55860.jpg)
 
 [Image source](https://www.desertcart.in/products/384557816-behringer-v-amp-2-virtual-guitar-amplifier-with-tube-simulation). Powered promotional control-surface image with red 25 display and illuminated knob indicators; all nine knobs and panel buttons visible. Rotated oblique overhead view rather than exact upright top-down.
 
 **Behringer V-AMP 2 — audio connections**
 
-[![Behringer V-AMP 2 — audio connections](https://www.audiotrader.co.uk/cdn/shop/files/20250611_154833.jpg?v=1749653450&width=800)](https://www.audiotrader.co.uk/cdn/shop/files/20250611_154833.jpg?v=1749653450&width=800)
+[![Behringer V-AMP 2 — audio connections](images/behringer-v-amp-2-rear-2f35d5b44e95.jpg)](images/behringer-v-amp-2-rear-2f35d5b44e95.jpg)
 
 [Image source](https://www.audiotrader.co.uk/products/behringer-v-amp-2-virtual-guitar-amplifier-w-soft-bag). Close-up of the curved connector edge showing stereo LINE OUT sockets, AUX LEVEL wheel and AUX IN socket. This is a partial connector view: AC power, MIDI, footswitch, instrument input and headphones are elsewhere around the enclosure and still need dedicated close-ups.
 
