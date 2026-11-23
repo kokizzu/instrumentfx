@@ -223411,7 +223411,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal1.jpg?v=1747982296&width=1200",
+            "image_url": "images/lekato-me-01-top-4fe9b0186e5b.jpg",
             "source_url": "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
             "caption": "LEKATO ME-01 overhead product graphic depicting an active color preset display, two knobs, two footswitches and seven top buttons.",
             "note": "Brand/model ME-01 visibly match SKU M03397. Screen depicts P01 and six effect modules. This is a manufacturer product graphic depicting operation, not an independent hardware power-on test; display diagonal and touch capability are not inferred.",
@@ -223421,7 +223421,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://lekatodeal.com/cdn/shop/files/M03397LEKATOME-01MultiEffectsProcessorGuitarPedal4.jpg?v=1747982338&width=1200",
+            "image_url": "images/lekato-me-01-rear-4dfcf864eaaa.jpg",
             "source_url": "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
             "caption": "ME-01 rear-edge lifestyle product graphic: headphone socket, OUT, USB connection, IN and power toggle visible.",
             "note": "Rear-edge view shows headphone and OUT sockets unplugged, USB and instrument input occupied by cables, and ON/OFF toggle. Top labels map the connectors; the USB plug obscures its socket opening and charging-indicator detail is not resolved. A clean unplugged straight rear photograph remains a gap. No dedicated EXP or DC barrel connector is shown. Graphic is not proof of recording software or installed firmware.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Kemper::PROFILER Rack MK2"
+    "last_model": "LEKATO::ME-01"
   }
 }
