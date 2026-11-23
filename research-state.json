@@ -228591,7 +228591,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/assets/images/products/main/ad-2_main.jpg",
+            "image_url": "images/boss-ad-2-top-174857c4c83b.jpg",
             "source_url": "https://www.boss.info/global/products/ad-2/",
             "caption": "BOSS AD-2 — control surface",
             "note": "Manufacturer top-down view with illuminated red CHECK indicator, three knobs and pedal switch. Small 182-pixel-wide source limits label detail. Audio jacks are on the sides; dedicated side-connector photographs remain pending.",
@@ -228601,7 +228601,7 @@
             "sha256": "174857c4c83b837f4899081124da11a69c7a1646db4d32a89eec4035cf97cace"
           },
           "rear": {
-            "image_url": "https://static.bax-shop.es/image/product/303406/956961/7f78e78c/450x450/1488784912Boss%20AD-2%20Acoustic%20Preamp%20pedaal%20side%203.JPG",
+            "image_url": "images/boss-ad-2-rear-6d8a13e7f5f9.jpg",
             "source_url": "https://www.bax-shop.es/efectos-para-guitarra-acustica/boss-ad-2-acoustic-preamp-pedal",
             "caption": "BOSS AD-2 — rear power connection",
             "note": "Rear view clearly showing the DC socket and BOSS PSA 9V adaptor label. This is the power connection only: INPUT, OUTPUT and balanced LINE OUT are side-mounted and are not documented by this rear view.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::MS-3"
+    "last_model": "BOSS::AD-2"
   }
 }

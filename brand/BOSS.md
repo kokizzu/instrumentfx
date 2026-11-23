@@ -94,13 +94,13 @@ Sources checked:
 
 **BOSS AD-2 — control surface**
 
-[![BOSS AD-2 — control surface](https://static.roland.com/assets/images/products/main/ad-2_main.jpg)](https://static.roland.com/assets/images/products/main/ad-2_main.jpg)
+[![BOSS AD-2 — control surface](images/boss-ad-2-top-174857c4c83b.jpg)](images/boss-ad-2-top-174857c4c83b.jpg)
 
 [Image source](https://www.boss.info/global/products/ad-2/). Manufacturer top-down view with illuminated red CHECK indicator, three knobs and pedal switch. Small 182-pixel-wide source limits label detail. Audio jacks are on the sides; dedicated side-connector photographs remain pending.
 
 **BOSS AD-2 — rear power connection**
 
-[![BOSS AD-2 — rear power connection](https://static.bax-shop.es/image/product/303406/956961/7f78e78c/450x450/1488784912Boss%20AD-2%20Acoustic%20Preamp%20pedaal%20side%203.JPG)](https://static.bax-shop.es/image/product/303406/956961/7f78e78c/450x450/1488784912Boss%20AD-2%20Acoustic%20Preamp%20pedaal%20side%203.JPG)
+[![BOSS AD-2 — rear power connection](images/boss-ad-2-rear-6d8a13e7f5f9.jpg)](images/boss-ad-2-rear-6d8a13e7f5f9.jpg)
 
 [Image source](https://www.bax-shop.es/efectos-para-guitarra-acustica/boss-ad-2-acoustic-preamp-pedal). Rear view clearly showing the DC socket and BOSS PSA 9V adaptor label. This is the power connection only: INPUT, OUTPUT and balanced LINE OUT are side-mounted and are not documented by this rear view.
 
