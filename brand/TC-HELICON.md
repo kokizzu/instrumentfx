@@ -1322,13 +1322,13 @@ Sources checked:
 
 **VoiceLive 3 Extreme powered-on owner photograph**
 
-[![VoiceLive 3 Extreme powered-on owner photograph](https://4.bp.blogspot.com/-6t_tcXm9fqA/V4XeBmBc56I/AAAAAAAABW4/5U9oA3sttc4YjOvIAEbgwW1p9LEXYcqCgCLcB/s1600/%25E5%2586%2599%25E7%259C%259F.JPG)](https://4.bp.blogspot.com/-6t_tcXm9fqA/V4XeBmBc56I/AAAAAAAABW4/5U9oA3sttc4YjOvIAEbgwW1p9LEXYcqCgCLcB/s1600/%25E5%2586%2599%25E7%259C%259F.JPG)
+[![VoiceLive 3 Extreme powered-on owner photograph](images/tc-helicon-voicelive-3-extreme-top-f6ffca3df2b9.jpg)](images/tc-helicon-voicelive-3-extreme-top-f6ffca3df2b9.jpg)
 
 [Image source](https://takahironakajima.blogspot.com/2016/07/tc-helicon-voicelive-3-extreme.html). Actual Extreme owner unit with connected cables, lit blue footswitch rings and readable MID REVERB preset 2 LCD. Five rotary controls, ten footswitches and nine separate face buttons visible; alternate Comp/Drive labels are shared switches. Photograph looks down on the full control face but has trapezoidal perspective, not strict perpendicular top-down. This verifies an operating display, not audio quality or firmware build.
 
 **VoiceLive 3 Extreme rear ports — manufacturer stock image**
 
-[![VoiceLive 3 Extreme rear ports — manufacturer stock image](https://cdn-media.empowertribe.com/ef1d6580281843de8721bc3d8ecf3550/Image_TH_0726-AAY_VOICELIVE-3-EXTREME_Rear_XL.png)](https://cdn-media.empowertribe.com/ef1d6580281843de8721bc3d8ecf3550/Image_TH_0726-AAY_VOICELIVE-3-EXTREME_Rear_XL.png)
+[![VoiceLive 3 Extreme rear ports — manufacturer stock image](images/tc-helicon-voicelive-3-extreme-rear-18c4a8eaa241.png)](images/tc-helicon-voicelive-3-extreme-rear-18c4a8eaa241.png)
 
 [Image source](https://www.tchelicon.com/en/products/0726-AAY). Manufacturer exact-model rear inspected: combo MIC/LINE, quarter-inch GUITAR IN/THRU, AUX stereo minijack, XLR MONITOR IN/THRU, headphone minijack, XLR VOICE L(MONO)/R(DRY), GND LIFT, quarter-inch GUITAR L/R, separate FOOTSWITCH and EXPRESSION sockets, five-pin MIDI IN/OUT, USB-A and Mini-B, center-negative DC input, power button and security slot. No external SD backup slot is visible. Voltage/current not read from this unlabeled power socket; no USB power or audio-routing claims inferred from connector presence.
 
