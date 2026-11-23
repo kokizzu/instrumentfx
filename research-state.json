@@ -228349,7 +228349,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/assets/images/products/main/gt_5_top_main.jpg",
+            "image_url": "images/boss-gt-5-top-b4b56037faf8.jpg",
             "source_url": "https://www.boss.info/us/products/gt-5/",
             "caption": "BOSS GT-5 — powered-on top view",
             "note": "Complete manufacturer straight-down promotional view with an active green LCD, rotary controls, effect/edit buttons, seven footswitches and full expression pedal. The original is only 600 pixels wide and small labels are soft. Powered-on appearance is visible; independent operating-state verification is unavailable.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-50B"
+    "last_model": "BOSS::GT-5"
   }
 }

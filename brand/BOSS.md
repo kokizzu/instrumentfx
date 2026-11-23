@@ -1843,7 +1843,7 @@ Sources checked:
 
 **BOSS GT-5 — powered-on top view**
 
-[![BOSS GT-5 — powered-on top view](https://static.roland.com/assets/images/products/main/gt_5_top_main.jpg)](https://static.roland.com/assets/images/products/main/gt_5_top_main.jpg)
+[![BOSS GT-5 — powered-on top view](images/boss-gt-5-top-b4b56037faf8.jpg)](images/boss-gt-5-top-b4b56037faf8.jpg)
 
 [Image source](https://www.boss.info/us/products/gt-5/). Complete manufacturer straight-down promotional view with an active green LCD, rotary controls, effect/edit buttons, seven footswitches and full expression pedal. The original is only 600 pixels wide and small labels are soft. Powered-on appearance is visible; independent operating-state verification is unavailable.
 
