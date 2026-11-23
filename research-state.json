@@ -228887,7 +228887,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.guitarpusher.com/cdn/shop/files/HOTONEMP350AMPERO2-0W_large.jpg?v=1732093834",
+            "image_url": "images/hotone-ampero-ii-mp-350-top-a2611d406b89.jpg",
             "source_url": "https://www.guitarpusher.com/products/hotone-mp-350-ampero-ii-amp-modeler-multi-effects-processor",
             "caption": "Hotone Ampero II MP-350 — control surface",
             "note": "Top-down promotional image with powered A01-1 touchscreen, illuminated first footswitch and expression indicator; two knobs, screen-lock button, four footswitches and complete expression pedal visible. Small 480-pixel-wide image and retailer watermark limit fine detail.",
@@ -228897,7 +228897,7 @@
             "sha256": "a2611d406b89fa114655e5420b4ec9bb9bfbe0541c40fa27e9812910aee4c2b6"
           },
           "rear": {
-            "image_url": "https://www.melodyhousemi.com/assets/library/Hotone/MP-350-4.jpg",
+            "image_url": "images/hotone-ampero-ii-mp-350-rear-ae0ecf5e21f8.jpg",
             "source_url": "https://www.melodyhousemi.com/product/buy-hotone-mp-350",
             "caption": "Hotone Ampero II MP-350 — rear connections",
             "note": "Full rear row showing EXP/CTRL, stereo instrument inputs including combo socket, stereo FX send/return, unbalanced and balanced XLR stereo outputs, auxiliary input, phones, USB-C, power switch and DC input. Fine light-gray labels are small. Side-mounted MIDI sockets are not shown; dedicated side view remains pending.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Hotone::Ampero II Stage MP-380"
+    "last_model": "Hotone::Ampero II MP-350"
   }
 }
