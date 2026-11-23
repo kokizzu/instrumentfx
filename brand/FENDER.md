@@ -149,13 +149,13 @@ Sources checked:
 
 **Mustang Micro Plus powered-display top-down photograph**
 
-[![Mustang Micro Plus powered-display top-down photograph](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_59/594228/19434662_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_59/594228/19434662_800.jpg)
+[![Mustang Micro Plus powered-display top-down photograph](images/fender-mustang-micro-plus-top-cb122ddc537a.jpg)](images/fender-mustang-micro-plus-top-cb122ddc537a.jpg)
 
 [Image source](https://www.thomann.de/de/fender_mustang_micro_plus.htm). Straight face view with OLED visibly displaying preset1 Driven Deluxe; rotating input extended. Retail product photograph, not a hardware operation test; original non-Plus Micro is a different unit.
 
 **Mustang Micro Plus headphone and USB-C end ports**
 
-[![Mustang Micro Plus headphone and USB-C end ports](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_59/594228/19434651_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_59/594228/19434651_800.jpg)
+[![Mustang Micro Plus headphone and USB-C end ports](images/fender-mustang-micro-plus-rear-a6dfc05948c9.jpg)](images/fender-mustang-micro-plus-rear-a6dfc05948c9.jpg)
 
 [Image source](https://www.thomann.de/de/fender_mustang_micro_plus.htm). End-on product photograph shows the 3.5mm headphone socket and USB-C. Ports are on the body end rather than a pedal-style rear panel; extended input plug visible behind.
 
