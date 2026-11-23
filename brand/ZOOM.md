@@ -2120,13 +2120,13 @@ Sources checked:
 
 **Original B2 powered-on control-face photograph**
 
-[![Original B2 powered-on control-face photograph](https://img.olx.com.br/images/15/158568899501100.jpg)](https://img.olx.com.br/images/15/158568899501100.jpg)
+[![Original B2 powered-on control-face photograph](images/zoom-b2-top-6d9c6f8866b8.jpg)](images/zoom-b2-top-6d9c6f8866b8.jpg)
 
 [Image source](https://rj.olx.com.br/rio-de-janeiro-e-regiao/instrumentos-musicais/pedaleira-zoom-b2-bass-effects-pedal-1412423528). Physical red B2 photographed from above, with complete chassis, four rotary controls, five buttons and both footswitches visible. Bright A0 segmented display confirms illumination; small red parameter lenses are not independently established as lit. Slight perspective, not exact perpendicular top-down. No expression treadle: original B2, not B2.1u or B2 FOUR. Patch display does not identify installed firmware. [Straight overhead manufacturer layout](https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_b2.png).
 
 **Original B2 rear connections**
 
-[![Original B2 rear connections](https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0205/user/d3dd46e6c7ba6ab7307043e56ca091038719aa736e662984b20fd58b23e0bedd/i-img1200x1200-17784079508088ujjgph270812.jpg)](https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0205/user/d3dd46e6c7ba6ab7307043e56ca091038719aa736e662984b20fd58b23e0bedd/i-img1200x1200-17784079508088ujjgph270812.jpg)
+[![Original B2 rear connections](images/zoom-b2-rear-6a19ad1f3fca.jpg)](images/zoom-b2-rear-6a19ad1f3fca.jpg)
 
 [Image source](https://auctions.yahoo.co.jp/jp/auction/s1229438211). Actual original B2 rear/front composite. Upper frame clearly shows INPUT, OUTPUT (PHONES), CONTROL IN, POWER switch and DC9V center-negative 300mA supply label. No USB socket appears. Lower frame is the front edge, not another connection panel; supply rating is not measured consumption.
 
