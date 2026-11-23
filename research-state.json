@@ -222443,7 +222443,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.mvshow.com.br/cdn/shop/files/minix_01_7f3c0a8b-6308-45a5-a19c-8d115da3be85.webp?v=1748145234&width=1946",
+            "image_url": "images/m-vave-mini-x-top-dfbf389cc401.png",
             "source_url": "https://www.mvshow.com.br/products/amplificador-de-fone-de-ouvido-mini-x-mvave",
             "caption": "MINI-X powered-on overhead product image",
             "note": "Straight overhead MINI-X retailer product image, with blue status indicator shown lit; six labeled knobs and power switch visible. Marketed image is not a hardware test or proof of Bluetooth transmission. Physical rear/end-port photo remains pending; importer manual connector-location drawing is shown separately. Previously inspected gallery views show folding plug, underside, dimensions and lifestyle use but do not expose USB/headphone sockets. No hidden port inferred from these images.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::ANN Blackbox"
+    "last_model": "M-VAVE::MINI-X"
   }
 }
