@@ -1505,13 +1505,13 @@ Sources checked:
 
 **DigiTech RP255 — top panel**
 
-[![DigiTech RP255 — top panel](https://adn.harmanpro.com/product_attachments/product_attachments/13_1396032122/RP255_Top_original.jpg)](https://adn.harmanpro.com/product_attachments/product_attachments/13_1396032122/RP255_Top_original.jpg)
+[![DigiTech RP255 — top panel](images/digitech-rp255-top-6497fa622137.jpg)](images/digitech-rp255-top-6497fa622137.jpg)
 
 [Image source](https://adn.harmanpro.com/product_attachments/product_attachments/13_1396032122/RP255_Top_original.jpg). Manufacturer Harman asset, discovered via indexed image link and retrieved directly. Straight top-down promotional image shows illuminated RP255 red display and status LEDs. No independent device operation.
 
 **DigiTech RP255 — rear connections**
 
-[![DigiTech RP255 — rear connections](https://media.guitarcenter.com/is/image/MMGS7/580863000000000-02-2000x2000.jpg)](https://media.guitarcenter.com/is/image/MMGS7/580863000000000-02-2000x2000.jpg)
+[![DigiTech RP255 — rear connections](images/digitech-rp255-rear-1fc5b7f4c543.webp)](images/digitech-rp255-rear-1fc5b7f4c543.webp)
 
 [Image source](https://www.guitarcenter.com/Restock/DigiTech/RP255-Guitar-Multi-Effects-Pedal-1340031077150.gc). Clear retailer rear photograph shows INPUT, AMP/MIXER switch, LEFT (Mono)/RIGHT outputs, headphone socket, AUX IN, USB Type-B and power labeled 9VAC 1.3A. Every socket and label visible. Rear photograph alone does not establish operating power state.
 
