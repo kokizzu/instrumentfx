@@ -218935,7 +218935,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://www.headrushfx.com/assets/images/pdp/mx5/MX5-front-crop-v2.png",
+            "image_url": "images/headrush-mx5-top-97f58c66ea41.png",
             "source_url": "https://www.headrushfx.com/products/mx5/index.html",
             "caption": "HeadRush MX5 powered-on top-down product view",
             "note": "Manufacturer view from above with slight perspective; active SEARING LEAD rig and three illuminated green/purple/cyan footswitch bars. The screen shows a Drop Tune block within a complete rig, without an isolated pitch DSP reading. Product screen imagery may be composited.",
@@ -218945,7 +218945,7 @@
             "sha256": "97f58c66ea414a5f775da4d85c706c4412e2ec4563c3c11f65456c01bc038513"
           },
           "rear": {
-            "image_url": "https://www.headrushfx.com/assets/images/pdp/mx5/MX5-rear-crop-v2.png",
+            "image_url": "images/headrush-mx5-rear-c7a15cd286b2.png",
             "source_url": "https://www.headrushfx.com/products/mx5/index.html",
             "caption": "HeadRush MX5 rear connections",
             "note": "Exact-model manufacturer rear view labels GUITAR IN, EXPR, FX SEND, FX RETURN, RIGHT and LEFT(MONO) outputs, PHONES, AUX, MIDI OUT/IN, USB-B, DC IN and POWER. Supply label specifies 12V 3.0A center-positive; this is an adapter specification, not measured consumption. Exhaust vent is labeled; no XLR microphone socket or USB-A port shown.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "HeadRush::Flex Prime"
+    "last_model": "HeadRush::MX5"
   }
 }
