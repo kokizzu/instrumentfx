@@ -92,13 +92,13 @@ Sources checked:
 
 **Nano Cortex powered-on overhead product image**
 
-[![Nano Cortex powered-on overhead product image](https://www.altomusic.com/cdn/shop/files/NanoCortexretailphotos-Transparentbackground_1.png?v=1726681263)](https://www.altomusic.com/cdn/shop/files/NanoCortexretailphotos-Transparentbackground_1.png?v=1726681263)
+[![Nano Cortex powered-on overhead product image](images/neural-dsp-nano-cortex-top-7499bdd31c87.png)](images/neural-dsp-nano-cortex-top-7499bdd31c87.png)
 
 [Image source](https://www.altomusic.com/products/neural-dsp-nano-cortex-pedal-modeler). Straight overhead Nano Cortex product photograph shows illuminated control/footswitch-status LEDs, seven rotary controls including rear-edge headphone level, five small buttons and two rotary footswitches. Exact NANOCORTEX identity checked; lit imagery does not prove current NanOS version or pitch processing state.
 
 **Nano Cortex rear ports**
 
-[![Nano Cortex rear ports](https://www.stars-music.fr/medias/neural-dsp/nano-cortex-hd-5-214715.jpg)](https://www.stars-music.fr/medias/neural-dsp/nano-cortex-hd-5-214715.jpg)
+[![Nano Cortex rear ports](images/neural-dsp-nano-cortex-rear-7d022110953f.jpg)](images/neural-dsp-nano-cortex-rear-7d022110953f.jpg)
 
 [Image source](https://www.stars-music.fr/neural-dsp-nano-cortex_214715.html). Full rear plus left-side view checked: ordinary INPUT, OUTPUT1L, OUTPUT2R/CAPTURE OUT, GND lift, shared EXP/MIDI, headphones with separate level knob, USB-C and center-negative9–12V600mA labeling. Side combo CAPTURE INPUT and BOOST visible and separate from instrument INPUT. Picture does not establish live vocal processing, expression assignment or USB specifications beyond manufacturer manual. Rear powered state unknown.
 
