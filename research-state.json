@@ -225708,7 +225708,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://http2.mlstatic.com/D_NQ_NP_622845-MLM92516717263_092025-O.webp",
+            "image_url": "images/vox-tonelab-st-top-d91c4f1eb58c.webp",
             "source_url": "https://www.mercadolibre.com.mx/vox-tonelab-st-pedalera-multiefectos-de-guitarra-electrica/up/MLMU3419565287",
             "caption": "VOX ToneLab ST — powered-on overhead control surface",
             "note": "Actual seller photograph shows the complete ToneLab ST on a tiled floor, including both footswitches and the full expression treadle. The red preset 11 display, EXP indicator, effect/amp and tuner indicators are visibly lit. Nearly overhead with slight perspective; not a strictly perpendicular image. Resolution limits fine-label readability; the [previous stock layout image](https://voxshowroom.com/ct/misc/Tonelab/ST/ToneLab%20ST_Top24.jpg) remains available for detail.",
@@ -225718,7 +225718,7 @@
             "sha256": "d91c4f1eb58cdeab050bccb9c261ba70a74de9145d9f058c6c234f543c18f66d"
           },
           "rear": {
-            "image_url": "https://voxshowroom.com/ct/misc/Tonelab/ST/ToneLab%20ST_Rear_24.jpg",
+            "image_url": "images/vox-tonelab-st-rear-92b3eab6a11b.jpg",
             "source_url": "https://voxshowroom.com/us/misc/tonelab_st.html",
             "caption": "ToneLab ST rear connectors",
             "note": "Visually checked readable full rear row: USB-B, cable hook, DC12V with center-positive symbol, ON/STANDBY, INPUT, AUX IN, shared OUTPUT/PHONES stereo/mono, LEVEL and VOX/F/M/LINE output selector. No MIDI DIN or insert loop shown. Image is model-marked ToneLab ST; no hardware operation performed.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::ToneLab SE"
+    "last_model": "VOX::ToneLab ST"
   }
 }

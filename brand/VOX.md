@@ -884,13 +884,13 @@ Sources checked:
 
 **VOX ToneLab ST — powered-on overhead control surface**
 
-[![VOX ToneLab ST — powered-on overhead control surface](https://http2.mlstatic.com/D_NQ_NP_622845-MLM92516717263_092025-O.webp)](https://http2.mlstatic.com/D_NQ_NP_622845-MLM92516717263_092025-O.webp)
+[![VOX ToneLab ST — powered-on overhead control surface](images/vox-tonelab-st-top-d91c4f1eb58c.webp)](images/vox-tonelab-st-top-d91c4f1eb58c.webp)
 
 [Image source](https://www.mercadolibre.com.mx/vox-tonelab-st-pedalera-multiefectos-de-guitarra-electrica/up/MLMU3419565287). Actual seller photograph shows the complete ToneLab ST on a tiled floor, including both footswitches and the full expression treadle. The red preset 11 display, EXP indicator, effect/amp and tuner indicators are visibly lit. Nearly overhead with slight perspective; not a strictly perpendicular image. Resolution limits fine-label readability; the [previous stock layout image](https://voxshowroom.com/ct/misc/Tonelab/ST/ToneLab%20ST_Top24.jpg) remains available for detail.
 
 **ToneLab ST rear connectors**
 
-[![ToneLab ST rear connectors](https://voxshowroom.com/ct/misc/Tonelab/ST/ToneLab%20ST_Rear_24.jpg)](https://voxshowroom.com/ct/misc/Tonelab/ST/ToneLab%20ST_Rear_24.jpg)
+[![ToneLab ST rear connectors](images/vox-tonelab-st-rear-92b3eab6a11b.jpg)](images/vox-tonelab-st-rear-92b3eab6a11b.jpg)
 
 [Image source](https://voxshowroom.com/us/misc/tonelab_st.html). Visually checked readable full rear row: USB-B, cable hook, DC12V with center-positive symbol, ON/STANDBY, INPUT, AUX IN, shared OUTPUT/PHONES stereo/mono, LEVEL and VOX/F/M/LINE output selector. No MIDI DIN or insert loop shown. Image is model-marked ToneLab ST; no hardware operation performed.
 
