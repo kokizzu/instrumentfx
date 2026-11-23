@@ -3287,7 +3287,7 @@ Sources checked:
 
 **Official GP-200LT rear connector-edge stock image**
 
-[![Official GP-200LT rear connector-edge stock image](https://shop.valeton.net/cdn/shop/products/GP-200LT_Top_Hi_V01_220808_1445x.png?v=1690878379)](https://shop.valeton.net/cdn/shop/products/GP-200LT_Top_Hi_V01_220808_1445x.png?v=1690878379)
+[![Official GP-200LT rear connector-edge stock image](images/valeton-gp-200lt-rear-9595525e18a5.png)](images/valeton-gp-200lt-rear-9595525e18a5.png)
 
 [Image source](https://shop.valeton.net/products/gp-200lt). Visually inspected LT rear: EXP/FS1 and2, INPUT, RETURN/SEND, AUX IN, PHONES, balanced OUTPUT L(MONO)/R, separate small MIDI IN/OUT-THRU, USB-C and center-negative DC9V1000mA. Two main output sockets, not separate balanced/unbalanced pairs; no XLR or MIDI DIN sockets shown. Photo verifies connector placement, not every electrical routing detail.
 

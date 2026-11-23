@@ -225268,7 +225268,7 @@
             "sha256": "685211e81c8bef2a91c961cc85f2b3e76c81bb926d8620c4a1d95b946997141b"
           },
           "rear": {
-            "image_url": "https://shop.valeton.net/cdn/shop/products/GP-200LT_Top_Hi_V01_220808_1445x.png?v=1690878379",
+            "image_url": "images/valeton-gp-200lt-rear-9595525e18a5.png",
             "source_url": "https://shop.valeton.net/products/gp-200lt",
             "caption": "Official GP-200LT rear connector-edge stock image",
             "note": "Visually inspected LT rear: EXP/FS1 and2, INPUT, RETURN/SEND, AUX IN, PHONES, balanced OUTPUT L(MONO)/R, separate small MIDI IN/OUT-THRU, USB-C and center-negative DC9V1000mA. Two main output sockets, not separate balanced/unbalanced pairs; no XLR or MIDI DIN sockets shown. Photo verifies connector placement, not every electrical routing detail.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-200JR"
+    "last_model": "Valeton::GP-200LT"
   }
 }
