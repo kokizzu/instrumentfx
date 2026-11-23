@@ -122,13 +122,13 @@ Sources checked:
 
 **Mosky RC5 control-face photograph — power state unverified**
 
-[![Mosky RC5 control-face photograph — power state unverified](https://moskyaudio.com/uploadfile//20261024/5db00fbedd0e5.jpg)](https://moskyaudio.com/uploadfile//20261024/5db00fbedd0e5.jpg)
+[![Mosky RC5 control-face photograph — power state unverified](images/mosky-rc5-top-36f6cf9006ce.jpg)](images/mosky-rc5-top-36f6cf9006ce.jpg)
 
 [Image source](https://moskyaudio.com/multi-effects/128.html). Visually inspected manufacturer purple RC5: eleven knobs (reverb3,chorus2,distortion2,overdrive3,buffer/boost1), three footswitches and one OFF/ON toggle. No display/treadle visible. Nearly overhead with slight perspective; no lit indicator or connected power proves operation, so powered-on photo remains pending. Manufacturer [embedded owner manual](https://moskyaudio.com/uploadfile//20261024/20191211031110_85439.jpg) labels the switches reverb/chorus/overdrive and toggle distortion; buffer at0/boost above0. It documents input→buffer/boost→overdrive→distortion→chorus→reverb→output and all-off true bypass. Manual230L×65W×35Dmm/510g conflicts with product230L×65W×36Hmm/490g; revision/measurement basis unresolved.
 
 **Mosky RC5 straight rear-edge connection photograph**
 
-[![Mosky RC5 straight rear-edge connection photograph](https://images.nexusapp.co/assets/0f/a1/1f/146352681.jpg)](https://images.nexusapp.co/assets/0f/a1/1f/146352681.jpg)
+[![Mosky RC5 straight rear-edge connection photograph](images/mosky-rc5-rear-b428164920fd.jpg)](images/mosky-rc5-rear-b428164920fd.jpg)
 
 [Image source](https://irl.grandado.com/products/mosky-rc5-6-in-1-guitar-multi-effects-pedal-reverb-chorus-distortion-overdrive-booster-buffer-with-true-bypass-effect?variant=UHJvZHVjdFZhcmlhbnQ6NzM5MDQwMjY5). Visually inspected purple strip matches the RC5 control layout: two quarter-inch audio sockets plus barrel power, all unplugged. Manufacturer face/manual identify INPUT/OUTPUT and9VDCcenter-negative; the rear edge itself is unlabeled. No USB, MIDI, separate headphone or analog EXP socket visible on this edge. This is not an exhaustive all-face/internal inventory or proof of update capability; no DC5 rear photograph substituted.
 
