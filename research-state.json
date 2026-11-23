@@ -227498,7 +227498,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://bassmagazine.jp/wp-content/uploads/509A0853.jpg",
+            "image_url": "images/zoom-ms-60b-plus-top-cda1b313cbee.jpg",
             "source_url": "https://bassmagazine.jp/gear/202409-zoom-ms60bplus/",
             "caption": "MS-60B+ control face",
             "note": "Actual powered MS-60B+ in a magazine review, with illuminated startup display showing v1.10 and a lit status LED. The complete control face includes four encoder knobs, four cross-key switches and central footswitch. This is an angled overhead view; a perpendicular top-down replacement remains pending. The photographed revision is not the current firmware claim.",
@@ -227508,7 +227508,7 @@
             "sha256": "cda1b313cbee46893e1fdf7c252c2d3753f663f95346a97e3e7d81a0ba0d0f75"
           },
           "rear": {
-            "image_url": "https://bassmagazine.jp/wp-content/uploads/rear-1.jpg",
+            "image_url": "images/zoom-ms-60b-plus-rear-44297f2b9c41.jpg",
             "source_url": "https://bassmagazine.jp/gear/202409-zoom-ms60bplus/",
             "caption": "MS-60B+ rear connections",
             "note": "Actual complete rear connection panel from the same review, with clear center-negative DC9V / USE AD-16 ONLY marking and USB Type-C socket labeled DC5V. The round feature beneath USB is a screw. Audio input and L/MONO/R outputs are on the side panels.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::MS-60B"
+    "last_model": "Zoom::MS-60B Plus"
   }
 }

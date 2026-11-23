@@ -9058,13 +9058,13 @@ Sources checked:
 
 **MS-60B+ control face**
 
-[![MS-60B+ control face](https://bassmagazine.jp/wp-content/uploads/509A0853.jpg)](https://bassmagazine.jp/wp-content/uploads/509A0853.jpg)
+[![MS-60B+ control face](images/zoom-ms-60b-plus-top-cda1b313cbee.jpg)](images/zoom-ms-60b-plus-top-cda1b313cbee.jpg)
 
 [Image source](https://bassmagazine.jp/gear/202409-zoom-ms60bplus/). Actual powered MS-60B+ in a magazine review, with illuminated startup display showing v1.10 and a lit status LED. The complete control face includes four encoder knobs, four cross-key switches and central footswitch. This is an angled overhead view; a perpendicular top-down replacement remains pending. The photographed revision is not the current firmware claim.
 
 **MS-60B+ rear connections**
 
-[![MS-60B+ rear connections](https://bassmagazine.jp/wp-content/uploads/rear-1.jpg)](https://bassmagazine.jp/wp-content/uploads/rear-1.jpg)
+[![MS-60B+ rear connections](images/zoom-ms-60b-plus-rear-44297f2b9c41.jpg)](images/zoom-ms-60b-plus-rear-44297f2b9c41.jpg)
 
 [Image source](https://bassmagazine.jp/gear/202409-zoom-ms60bplus/). Actual complete rear connection panel from the same review, with clear center-negative DC9V / USE AD-16 ONLY marking and USB Type-C socket labeled DC5V. The round feature beneath USB is a screw. Audio input and L/MONO/R outputs are on the side panels.
 
