@@ -770,7 +770,7 @@ Sources checked:
 
 **REV500 powered front control face**
 
-[![REV500 powered front control face](https://www.avgear.com/cdn/shop/files/Yamaha_20REV500_20Digital_20Reverberator_20-_201_de207d97-f4f7-4493-8ab7-5aec73d04110.jpg?v=1737395641&width=1214)](https://www.avgear.com/cdn/shop/files/Yamaha_20REV500_20Digital_20Reverberator_20-_201_de207d97-f4f7-4493-8ab7-5aec73d04110.jpg?v=1737395641&width=1214)
+[![REV500 powered front control face](images/yamaha-rev500-top-543780c3ce21.jpg)](images/yamaha-rev500-top-543780c3ce21.jpg)
 
 [Image source](https://www.avgear.com/products/yamaha-rev500-digital-reverberator). Visually checked actual REV500 mounted in a rack: illuminated LCD shows Basic Plate, with all five knobs, eight program/utility buttons and separate power rocker visible. This rack processor has front-facing controls; photo is a slight-angle front view, not an overhead chassis shot. Other rack units and large blank area remain in the source image. No firmware revision or audio-performance claim from the screen.
 
