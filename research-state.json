@@ -226991,7 +226991,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://cdn-ak.f.st-hatena.com/images/fotolife/G/G_KWSM/20230122/20230122231417.jpg",
+            "image_url": "images/zoom-g2-1u-top-86ddc4903a2d.jpg",
             "source_url": "https://g-kwsm.hateblo.jp/entry/2023/05/31/191000",
             "caption": "G2.1u powered control face",
             "note": "Actual powered G2.1u photographed obliquely from above with the full treadle and control face visible. Red seven-segment display and parameter LEDs are lit. Four rotary controls, two main footswitches and six pushbuttons corroborate the manual. This is an angled overview; a perpendicular top-down image remains pending.",
@@ -227001,7 +227001,7 @@
             "sha256": "86ddc4903a2d74a9ff34da21e5d98c69f07711e7fa4befe9c5f2290e7b19066c"
           },
           "rear": {
-            "image_url": "https://rockcitymusicco.com/cdn/shop/files/ZoomG2-1uMulti-EffectsUnit-Used_4of6_1600x.jpg?v=1712789297",
+            "image_url": "images/zoom-g2-1u-rear-c6faa0c0902e.jpg",
             "source_url": "https://rockcitymusicco.com/products/used-zoom-g2-1u-multi-effects-guitar-pedal",
             "caption": "G2.1u rear connections",
             "note": "Actual full G2.1u rear photograph shows full-size USB Type-B at the left, INPUT, shared OUTPUT/PHONES, CONTROL IN, POWER with USB-bus-powered OFF marking, and center-negative DC9V 300mA socket. PHONES shares OUTPUT. USB placement and 300mA supply distinguish this view from G2.1Nu.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G2.1Nu"
+    "last_model": "Zoom::G2.1u"
   }
 }
