@@ -2931,13 +2931,13 @@ Sources checked:
 
 **B3n powered control face**
 
-[![B3n powered control face](https://img.ricardostatic.ch/images/714185b4-c1cb-408d-9f21-a9c9dc4cc486/t_1000x750/zoom-b3n-looper-und-multieffektgerat)](https://img.ricardostatic.ch/images/714185b4-c1cb-408d-9f21-a9c9dc4cc486/t_1000x750/zoom-b3n-looper-und-multieffektgerat)
+[![B3n powered control face](images/zoom-b3n-top-cdca84aeeda1.jpg)](images/zoom-b3n-top-cdca84aeeda1.jpg)
 
 [Image source](https://www.ricardo.ch/de/a/zoom-b3n-looper-und-multieffektgeraet-1267840438/). Actual powered B3n photographed overhead with slight perspective and complete control face. Three illuminated LCDs show stereo looper and BaPDLMnP;FS3 red LED is lit. Twelve effect knobs plus one control/enter encoder, six TYPE keys, MENU, three metal footswitches and three lower bank/scroll/mode pads are visible.
 
 **B3n rear connections**
 
-[![B3n rear connections](https://zoomcorp.com/media/original_images/B3nREAR1.png.0x800_q80_crop-%2Cscale_size_canvas.png)](https://zoomcorp.com/media/original_images/B3nREAR1.png.0x800_q80_crop-%2Cscale_size_canvas.png)
+[![B3n rear connections](images/zoom-b3n-rear-40abd4a010bd.png)](images/zoom-b3n-rear-40abd4a010bd.png)
 
 [Image source](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/). Exact manufacturer rear image: INPUT,AUX IN,R and L/MONO OUTPUT (PHONES label beneath L/MONO),CONTROL IN,micro-USB,POWER,center-negative9V DC IN and security slot. This photograph does not show a separate headphone socket; connector presence alone does not establish USB audio or bus power.
 
