@@ -4012,7 +4012,7 @@ Sources checked:
 
 **G1X FOUR rear connections**
 
-[![G1X FOUR rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1X-FOUR_rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1X-FOUR_rear.jpg)
+[![G1X FOUR rear connections](images/zoom-g1x-four-rear-0c228e82c80d.jpg)](images/zoom-g1x-four-rear-0c228e82c80d.jpg)
 
 [Image source](https://avstore.co.nz/product/zoom-g1x-four-multi-effects-processor-with-expression-pedal/). Exact G1X FOUR manufacturer rear photograph, including full expression-pedal chassis. INPUT, AUX IN, center-negative DC9V, micro-B USB marked DC5V, security slot and shared OUTPUT are visible. Output stereo/headphone function comes from the manual, not the socket shape. No external expression jack.
 

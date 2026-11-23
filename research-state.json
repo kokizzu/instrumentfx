@@ -226864,7 +226864,7 @@
             "sha256": "f8f1099f359f59c66bac02ded19dcaac7e711be9423f1fb4131b3253cc0be9c0"
           },
           "rear": {
-            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1X-FOUR_rear.jpg",
+            "image_url": "images/zoom-g1x-four-rear-0c228e82c80d.jpg",
             "source_url": "https://avstore.co.nz/product/zoom-g1x-four-multi-effects-processor-with-expression-pedal/",
             "caption": "G1X FOUR rear connections",
             "note": "Exact G1X FOUR manufacturer rear photograph, including full expression-pedal chassis. INPUT, AUX IN, center-negative DC9V, micro-B USB marked DC5V, security slot and shared OUTPUT are visible. Output stereo/headphone function comes from the manual, not the socket shape. No external expression jack.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G1on"
+    "last_model": "Zoom::G1X FOUR"
   }
 }
