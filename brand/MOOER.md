@@ -4389,13 +4389,13 @@ Sources checked:
 
 **MOOER Prime P2 powered-on top view**
 
-[![MOOER Prime P2 powered-on top view](https://mooer.jp/cdn/shop/files/Prime-P2-Black-01.png?v=1698731645&width=1445)](https://mooer.jp/cdn/shop/files/Prime-P2-Black-01.png?v=1698731645&width=1445)
+[![MOOER Prime P2 powered-on top view](images/mooer-prime-p2-top-e0081a201f48.png)](images/mooer-prime-p2-top-e0081a201f48.png)
 
 [Image source](https://mooer.jp/products/mooer-prime-p2). Visually inspected exact black P2 powered-on face view with illuminated 1A Modern Hi gain preset, A–D selection and green strip. Slightly oblique near-overhead view; strictly perpendicular overhead photograph remains pending.
 
 **MOOER Prime P2 connector views**
 
-[![MOOER Prime P2 connector views](https://mooer.jp/cdn/shop/files/Prime-P2-Black-05.png?v=1698731645&width=1445)](https://mooer.jp/cdn/shop/files/Prime-P2-Black-05.png?v=1698731645&width=1445)
+[![MOOER Prime P2 connector views](images/mooer-prime-p2-rear-ef2cf4436344.png)](images/mooer-prime-p2-rear-ef2cf4436344.png)
 
 [Image source](https://mooer.jp/products/mooer-prime-p2). Visually inspected angled connector view showing audio input/output and phones at one end, plus side MIDI IN, USB-C, power/lock button and reset pinhole. Also inspected the [straight audio-end view](https://mooer.jp/cdn/shop/files/Prime-P2-Black-02.png?v=1698731645&width=1445); both views are exact black P2. Connector functions follow the model manual, not shape alone.
 
