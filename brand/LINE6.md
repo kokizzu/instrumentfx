@@ -70,13 +70,13 @@ Sources checked:
 
 **AMPLIFi FX100 powered-on top/front view**
 
-[![AMPLIFi FX100 powered-on top/front view](https://r2.gear4music.com/media/42/429035/1200/preview.jpg)](https://r2.gear4music.com/media/42/429035/1200/preview.jpg)
+[![AMPLIFi FX100 powered-on top/front view](images/line-6-amplifi-fx100-top-ab79241089fb.jpg)](images/line-6-amplifi-fx100-top-ab79241089fb.jpg)
 
 [Image source](https://www.gear4music.com/us/en/Guitar-and-Bass/Line-6-AMPLIFi-FX100-Multi-Effects-Pedal/ZPE). Bank 01 and footswitch/volume LEDs visibly illuminated. Elevated front perspective, not perpendicular top-down; whole control surface and expression pedal visible.
 
 **AMPLIFi FX100 rear connections**
 
-[![AMPLIFi FX100 rear connections](https://line6.jp/products/amplifi/images/fx100-img3.png)](https://line6.jp/products/amplifi/images/fx100-img3.png)
+[![AMPLIFi FX100 rear connections](images/line-6-amplifi-fx100-rear-823c5345eb9b.png)](images/line-6-amplifi-fx100-rear-823c5345eb9b.png)
 
 [Image source](https://line6.jp/products/amplifi/amplifi-fx100.html). Manufacturer rear product image: guitar in, stereo main out, amp out, phones, USB, 9VDC and power switch visible. Black accessory attached near USB/power obscures part of panel; exact model established by own page and front branding.
 
