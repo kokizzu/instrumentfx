@@ -5350,13 +5350,13 @@ Sources checked:
 
 **BOSS ME-20B — powered-on top view**
 
-[![BOSS ME-20B — powered-on top view](https://static.roland.com/assets/images/products/main/me_20b_top_main.jpg)](https://static.roland.com/assets/images/products/main/me_20b_top_main.jpg)
+[![BOSS ME-20B — powered-on top view](images/boss-me-20b-top-63a7fc47755a.jpg)](images/boss-me-20b-top-63a7fc47755a.jpg)
 
 [Image source](https://www.boss.info/global/products/me-20b/). Complete manufacturer straight-down promotional image with lit red 20 display, effect and footswitch indicators, five rotary controls, panel buttons, three footswitches and full expression pedal. This original is only 500 pixels wide; small labels have limited readability. Powered-on appearance is visible; independent operating-state verification is unavailable.
 
 **BOSS ME-20B — rear connections**
 
-[![BOSS ME-20B — rear connections](https://stompbox.in/cdn/shop/files/Untitleddesign_1_58f2d9ac-4c5b-4fdc-a258-d6f34e9cada2.jpg?v=1698004400&width=3840)](https://stompbox.in/cdn/shop/files/Untitleddesign_1_58f2d9ac-4c5b-4fdc-a258-d6f34e9cada2.jpg?v=1698004400&width=3840)
+[![BOSS ME-20B — rear connections](images/boss-me-20b-rear-199d34b53c0d.jpg)](images/boss-me-20b-rear-199d34b53c0d.jpg)
 
 [Image source](https://stompbox.in/products/boss-me-20b-bass-processor). Retailer-hosted image of the complete rear panel: INPUT, miniature AUX IN, OUTPUT R/L-MONO, PHONES, ENHANCE/TUNER ON/OFF and BANK UP/DOWN footswitch jack, DC IN for PSA adaptor, cord restraint and security slot. The product occupies a small area inside large white margins; fine-label readability is limited.
 
