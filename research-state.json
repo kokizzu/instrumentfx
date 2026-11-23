@@ -228491,7 +228491,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/products/gt-001/features/images/gallery01.jpg",
+            "image_url": "images/boss-gt-001-top-e93447299ee8.jpg",
             "source_url": "https://www.boss.info/global/products/gt-001/",
             "caption": "BOSS GT-001 — control surface",
             "note": "Manufacturer photograph with illuminated display and indicator; oblique control-surface view rather than exact top-down. Left-side audio sockets are partly visible; a full view of both audio-connector sides remains pending.",
@@ -228501,7 +228501,7 @@
             "sha256": "e93447299ee8f319ba11024841dd1590e57203bbde5c260a301f427ec7f009e7"
           },
           "rear": {
-            "image_url": "https://static.roland.com/products/gt-001/features/images/gallery04.jpg",
+            "image_url": "images/boss-gt-001-rear-c373e9aa8463.jpg",
             "source_url": "https://www.boss.info/global/products/gt-001/",
             "caption": "BOSS GT-001 — rear connections",
             "note": "Manufacturer rear view showing USB and DC IN. Audio and control sockets are on the sides, so this rear photograph alone does not document all connections.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::AD-10"
+    "last_model": "BOSS::GT-001"
   }
 }
