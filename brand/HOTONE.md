@@ -1590,13 +1590,13 @@ Sources checked:
 
 **Hotone Ampero One MP-80 — control surface**
 
-[![Hotone Ampero One MP-80 — control surface](https://muztorg.ua/image/catalog/99993/%202021_news/06.12.2021/230206_hotone_ampero_one.jpg)](https://muztorg.ua/image/catalog/99993/%202021_news/06.12.2021/230206_hotone_ampero_one.jpg)
+[![Hotone Ampero One MP-80 — control surface](images/hotone-ampero-one-mp-80-top-3f30c62cf84f.jpg)](images/hotone-ampero-one-mp-80-top-3f30c62cf84f.jpg)
 
 [Image source](https://muztorg.ua/all-news/hotone_ampero-ii-stomp/). Top-down promotional photograph with powered touchscreen, three illuminated footswitch rings, two knobs and complete expression pedal. Dark chassis and screen labels have modest contrast.
 
 **Hotone Ampero One MP-80 — rear connections**
 
-[![Hotone Ampero One MP-80 — rear connections](https://deathcloud.com/cdn/shop/files/HotoneAudioAmperoOnePedalBack.jpg?v=1727483063&width=1445)](https://deathcloud.com/cdn/shop/files/HotoneAudioAmperoOnePedalBack.jpg?v=1727483063&width=1445)
+[![Hotone Ampero One MP-80 — rear connections](images/hotone-ampero-one-mp-80-rear-9011f4243506.jpg)](images/hotone-ampero-one-mp-80-rear-9011f4243506.jpg)
 
 [Image source](https://deathcloud.com/products/hotone-audio-ampero-one-pedal). Full rear row showing EXP2/CTRL (FS 4/5), instrument input, auxiliary input, headphones, stereo outputs, USB-B and DC 9V 500mA. Large white margins surround the connector panel; fine labels are small.
 
