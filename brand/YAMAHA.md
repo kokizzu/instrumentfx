@@ -901,7 +901,7 @@ Sources checked:
 
 **SPX900 powered control face**
 
-[![SPX900 powered control face](https://retrosonicproaudio.com/images/products/yamaha-spx-900-digital-effects-processor-120v-1.jpg?v=1559712359)](https://retrosonicproaudio.com/images/products/yamaha-spx-900-digital-effects-processor-120v-1.jpg?v=1559712359)
+[![SPX900 powered control face](images/yamaha-spx900-top-4d269135f18a.jpg)](images/yamaha-spx900-top-4d269135f18a.jpg)
 
 [Image source](https://retrosonicproaudio.com/product/yamaha-spx-900-digital-effects-processor-120v). Visually checked complete actual SPX900 front and top chassis from raised front angle: illuminated REV1 HALL/REV TIME2.6s LCD, red1 memory display and PARAM indicator. One INPUT knob,15 control buttons, separate power rocker and two EXT CTRL/FOOT VOL sockets visible. These two front sockets are controller inputs. Raised rack-unit perspective, not vertical overhead; program1/reverb time are not firmware revision evidence. Cosmetic wear and watermark retained in original source.
 
