@@ -4840,13 +4840,13 @@ Sources checked:
 
 **BOSS KATANA:GO — control surface**
 
-[![BOSS KATANA:GO — control surface](https://static.roland.com/products/katana-go/image/katana-go_gal_top.jpg)](https://static.roland.com/products/katana-go/image/katana-go_gal_top.jpg)
+[![BOSS KATANA:GO — control surface](images/boss-katana-go-top-1a032e0f6949.jpg)](images/boss-katana-go-top-1a032e0f6949.jpg)
 
 [Image source](https://www.boss.info/global/products/katana-go/). Manufacturer top-down view with powered OLED reading 1-A BROWN LEAD and unfolded instrument plug. Side controls are documented in the [A/B/C and tuner side view](https://static.roland.com/products/katana-go/image/katana-go_gal_03.jpg) and [power, volume, Bluetooth and Stage Feel side view](https://static.roland.com/products/katana-go/image/katana-go_gal_04.jpg). Both linked images visually checked. Current manufacturer gallery shows the revised enclosure.
 
 **BOSS KATANA:GO — connections**
 
-[![BOSS KATANA:GO — connections](https://static.roland.com/products/katana-go/image/katana-go_gal_05.jpg)](https://static.roland.com/products/katana-go/image/katana-go_gal_05.jpg)
+[![BOSS KATANA:GO — connections](images/boss-katana-go-rear-f59fa4b98667.jpg)](images/boss-katana-go-rear-f59fa4b98667.jpg)
 
 [Image source](https://www.boss.info/global/products/katana-go/). Manufacturer end-panel close-up clearly showing the headphone socket and USB-C port. Instrument input is the integrated folding plug shown above; this pocket unit does not have a floorboard-style rear connector row.
 
