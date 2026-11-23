@@ -783,7 +783,7 @@ Sources checked:
 
 **ToneLab SE rear connectors**
 
-[![ToneLab SE rear connectors](https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_front.jpg)](https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_front.jpg)
+[![ToneLab SE rear connectors](images/vox-tonelab-se-rear-9f44cee6b55a.jpg)](images/vox-tonelab-se-rear-9f44cee6b55a.jpg)
 
 [Image source](https://voxshowroom.com/us/misc/tonelab_se.html). Visually checked full rear row: STANDBY, AC9V, INPUT, INSERT SEND/RETURN, OUTPUT R/L-MONO, LEVEL, HEADPHONES, MIDI OUT/IN. AC input, not DC polarity; no USB or S/PDIF shown. Small labels constrain photographic detail; connector electrical specifications remain sourced to the manual.
 
