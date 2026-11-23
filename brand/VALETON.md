@@ -392,7 +392,7 @@ Sources checked:
 
 **Near-overhead full-size Dapper Bass control-face stock image, unlit.**
 
-[![Near-overhead full-size Dapper Bass control-face stock image, unlit.](https://shop.valeton.net/cdn/shop/products/DapperBass_Front_Hi_V01_170206_1500x.png?v=1641351898)](https://shop.valeton.net/cdn/shop/products/DapperBass_Front_Hi_V01_170206_1500x.png?v=1641351898)
+[![Near-overhead full-size Dapper Bass control-face stock image, unlit.](images/valeton-dapper-bass-ves-2-top-e80022adcf47.png)](images/valeton-dapper-bass-ves-2-top-e80022adcf47.png)
 
 [Image source](https://shop.valeton.net/products/dapper-bass). Visually 13 rotary knobs, 5 footswitches and one FUZZ toggle on this face. The separate rear GROUND slider is not included in that face count. Display/status LEDs unlit; powered-on strict perpendicular overhead remains pending. Five modules and large tuner distinguish VES-2 from MES-2 Mini. A supplemental actual-unit photograph below shows connected power and brightly illuminated colored control knobs. All five footswitches are visible, but the tuner display is dark. The oblique view clips a small part of the left chassis edge, so it supplements this complete stock layout; a complete powered-on perpendicular overhead image remains pending.
 
@@ -402,7 +402,7 @@ Sources checked:
 
 **Full-size Dapper Bass long connector edge with FX loop and ground slider.**
 
-[![Full-size Dapper Bass long connector edge with FX loop and ground slider.](https://shop.valeton.net/cdn/shop/products/DapperBass_Top_Hi_V01_170207_1500x.jpg?v=1641351898)](https://shop.valeton.net/cdn/shop/products/DapperBass_Top_Hi_V01_170207_1500x.jpg?v=1641351898)
+[![Full-size Dapper Bass long connector edge with FX loop and ground slider.](images/valeton-dapper-bass-ves-2-rear-b1f152b9bfed.jpg)](images/valeton-dapper-bass-ves-2-rear-b1f152b9bfed.jpg)
 
 [Image source](https://shop.valeton.net/products/dapper-bass). Visible quarter-inch IN, THRU, SEND, RETURN and OUT; 9V DC socket and GROUND GND/LIFT slider. End-mounted XLR is outside this view, not claimed absent. DC polarity/current not legible here; no live power or all-edge absence test.
 
