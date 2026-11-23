@@ -229416,7 +229416,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/85/MTA-61232422/joyo_effect-guitar-joyo-multi-effect-processor-gem-box_full01.jpg",
+            "image_url": "images/joyo-gem-box-original-top-a245c93eedf1.jpg",
             "source_url": "https://www.blibli.com/p/effect-guitar-joyo-multi-effect-processor-gem-box/ps--HAA-70267-00253",
             "caption": "Powered control surface",
             "note": "The display is visibly illuminated at preset P2, and both knobs, footswitches and expression pedal are shown. This is a slightly oblique close-up with soft fine print and tight enclosure framing. A [clean overhead unpowered reference](https://www.mitrosmusic.com/media/inlineimage/upload_41862_1.jpg) was also visually checked. A powered, exactly top-down photograph remains pending.",
@@ -229426,7 +229426,7 @@
             "sha256": "a245c93eedf13c3744ca6ca8490d9acb9f0fb6bd0012f7e7f462d88f5a04a9ae"
           },
           "rear": {
-            "image_url": "https://stratusmusicstore.com.mx/cdn/shop/products/PEDALJOYOGEMBOXC2SWITCH2CONTROLES_2dd0ca16-2fc8-47f8-93bb-25bb690c00e0_800x.jpg?v=1607616512",
+            "image_url": "images/joyo-gem-box-original-rear-3394485a9f05.jpg",
             "source_url": "https://stratusmusicstore.com.mx/products/gembox",
             "caption": "Complete rear connector edge",
             "note": "Retailer photograph showing the original GEM BOX rear edge and an enlarged inset of all three sockets: 9 V DC power, INPUT and OUTPUT. No connector is hidden; the inset callouts identify the otherwise low-contrast molded labels.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Ammoon::PockRock"
+    "last_model": "JOYO::GEM BOX original"
   }
 }

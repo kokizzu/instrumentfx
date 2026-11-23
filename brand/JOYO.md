@@ -362,13 +362,13 @@ Sources checked:
 
 **Powered control surface**
 
-[![Powered control surface](https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/85/MTA-61232422/joyo_effect-guitar-joyo-multi-effect-processor-gem-box_full01.jpg)](https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/85/MTA-61232422/joyo_effect-guitar-joyo-multi-effect-processor-gem-box_full01.jpg)
+[![Powered control surface](images/joyo-gem-box-original-top-a245c93eedf1.jpg)](images/joyo-gem-box-original-top-a245c93eedf1.jpg)
 
 [Image source](https://www.blibli.com/p/effect-guitar-joyo-multi-effect-processor-gem-box/ps--HAA-70267-00253). The display is visibly illuminated at preset P2, and both knobs, footswitches and expression pedal are shown. This is a slightly oblique close-up with soft fine print and tight enclosure framing. A [clean overhead unpowered reference](https://www.mitrosmusic.com/media/inlineimage/upload_41862_1.jpg) was also visually checked. A powered, exactly top-down photograph remains pending.
 
 **Complete rear connector edge**
 
-[![Complete rear connector edge](https://stratusmusicstore.com.mx/cdn/shop/products/PEDALJOYOGEMBOXC2SWITCH2CONTROLES_2dd0ca16-2fc8-47f8-93bb-25bb690c00e0_800x.jpg?v=1607616512)](https://stratusmusicstore.com.mx/cdn/shop/products/PEDALJOYOGEMBOXC2SWITCH2CONTROLES_2dd0ca16-2fc8-47f8-93bb-25bb690c00e0_800x.jpg?v=1607616512)
+[![Complete rear connector edge](images/joyo-gem-box-original-rear-3394485a9f05.jpg)](images/joyo-gem-box-original-rear-3394485a9f05.jpg)
 
 [Image source](https://stratusmusicstore.com.mx/products/gembox). Retailer photograph showing the original GEM BOX rear edge and an enlarged inset of all three sockets: 9 V DC power, INPUT and OUTPUT. No connector is hidden; the inset callouts identify the otherwise low-contrast molded labels.
 
