@@ -41,7 +41,7 @@ Sources checked:
 
 **ROWIN RE-05 Looper Pro overhead product image — powered-on state unverified**
 
-[![ROWIN RE-05 Looper Pro overhead product image — powered-on state unverified](https://acdn-us.mitiendanube.com/stores/283/003/products/lp-1-nv1-6327eb8d8830f5d09e16938468955644-1024-1024.webp)](https://acdn-us.mitiendanube.com/stores/283/003/products/lp-1-nv1-6327eb8d8830f5d09e16938468955644-1024-1024.webp)
+[![ROWIN RE-05 Looper Pro overhead product image — powered-on state unverified](images/rowin-re-05-looper-pro-top-4dbe3b9adf4a.webp)](images/rowin-re-05-looper-pro-top-4dbe3b9adf4a.webp)
 
 [Image source](https://www.phmusicstore.com.br/produtos/pedal-de-loop-e-afinador-rowin-re-05-loop-pro-c-efeitos-pd1193/). Visually inspected ROWIN-branded purple Looper Pro image on exact RE-05 retailer listing: four knobs (Delay,Level,Chorus,Reverb), one footswitch, one separate tuner ON/OFF button and a mode toggle marked EFFECT/LOOPER/E+L. One seven-segment-style tuner digit plus separate indicator lenses depicted; not an LCD/touchscreen claim. This is a straight overhead product graphic with all digit segments visible, not independent proof of powered-on operation or installed revision. Side audio sockets partly visible; rear power socket not fully shown. Panel saysDC9V with center-negative symbol, but current/plug size are not inferred. Powered-on hardware photo and complete rear-port view remain pending. Seller dimensions/runtime and generated mirror manual claims are not adopted; manufacturer40-second wording retained.
 
