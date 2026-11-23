@@ -4445,7 +4445,7 @@ Sources checked:
 
 **PODxt Live powered-on top-down view**
 
-[![PODxt Live powered-on top-down view](https://line6.com/data/l/c0a8090bb23641926c0db8e6a/image/jpeg/PODsupsup%20xt%20Live%20(PODxt%20live)%20-%20Lo%20Rez.jpeg)](https://line6.com/data/l/c0a8090bb23641926c0db8e6a/image/jpeg/PODsupsup%20xt%20Live%20(PODxt%20live)%20-%20Lo%20Rez.jpeg)
+[![PODxt Live powered-on top-down view](images/line-6-pod-xt-live-top-ee17366edda1.jpg)](images/line-6-pod-xt-live-top-ee17366edda1.jpg)
 
 [Image source](https://line6.com/company/images/?families=1). Official low-resolution archive photo, 360×240. Amber LCD/bank display and red LEDs visibly lit; whole control surface/treadle shown. Small labels are not legible at this resolution.
 

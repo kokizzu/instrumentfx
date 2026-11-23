@@ -219730,7 +219730,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://line6.com/data/l/c0a8090bb23641926c0db8e6a/image/jpeg/PODsupsup%20xt%20Live%20(PODxt%20live)%20-%20Lo%20Rez.jpeg",
+            "image_url": "images/line-6-pod-xt-live-top-ee17366edda1.jpg",
             "source_url": "https://line6.com/company/images/?families=1",
             "caption": "PODxt Live powered-on top-down view",
             "note": "Official low-resolution archive photo, 360×240. Amber LCD/bank display and red LEDs visibly lit; whole control surface/treadle shown. Small labels are not legible at this resolution.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD X3 Live"
+    "last_model": "Line 6::POD XT Live"
   }
 }
