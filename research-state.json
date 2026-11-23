@@ -223889,7 +223889,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://jollymusic.com.ph/cdn/shop/files/SORAN-JME02-DUALSTOMPLITE-0W_69a7dbed-3b6c-4d6f-ac63-88a69c67a975.jpg?v=1773816696",
+            "image_url": "images/soran-dual-stomp-lite-top-f090aacff98b.jpg",
             "source_url": "https://jollymusic.com.ph/products/soran-jme-02-dual-stomp-lite-multi-effects-processor",
             "caption": "Dual Stomp Lite — overhead control-face product image",
             "note": "Overhead product image depicts P01 Blackface CL and yellow footswitch rings; independent powered-on hardware verification remains pending because retail imagery may be composited. Exact Lite badge visible. Panel has2 knobs,2 footswitches and12 separate buttons (4 system+8 effect); no built-in treadle. Tuner mark is a graphic,not a third footswitch. External EXP is not established by this view.",
@@ -223899,7 +223899,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://sterlingmusic.in/cdn/shop/files/DUALSTOMPLITEJME-02.6.jpg?v=1775730631",
+            "image_url": "images/soran-dual-stomp-lite-rear-9969ed1d3bef.jpg",
             "source_url": "https://sterlingmusic.in/products/soran-dual-stomp-lite-multi-effect-processor",
             "caption": "Dual Stomp Lite — rear connection panel",
             "note": "Inspected Lite rear image shows power slide switch,USB-C audio/charge,TRRS AUX IN/POD OUT,headphones,INPUT,and OUTPUT R/L(MONO). POD OUT belongs to the shared TRRS AUX socket; it is not a separate effects-loop jack. No barrel-power or EXP socket visible on this panel. Labels alone do not establish balancing or USB host capability.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Soran::Dual Stomp"
+    "last_model": "Soran::Dual Stomp Lite"
   }
 }
