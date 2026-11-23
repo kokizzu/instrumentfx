@@ -3505,13 +3505,13 @@ Sources checked:
 
 **G1 FOUR powered control face**
 
-[![G1 FOUR powered control face](https://cdn-ak.f.st-hatena.com/images/fotolife/j/jundrive3/20221119/20221119150930.jpg)](https://cdn-ak.f.st-hatena.com/images/fotolife/j/jundrive3/20221119/20221119150930.jpg)
+[![G1 FOUR powered control face](images/zoom-g1-four-top-37773331e706.jpg)](images/zoom-g1-four-top-37773331e706.jpg)
 
 [Image source](https://www.effectornote.com/entry/2022/11/20/124155). Actual powered no-treadle G1 FOUR, complete chassis photographed obliquely from above. LCD backlight and bank/effect1 LED are visibly lit; screen text is overexposed. Four rotary controls,nine pushbuttons and two footswitch pads are visible. A perpendicular top-down powered image remains pending; cropped closeups were rejected as full overviews.
 
 **G1 FOUR rear connections**
 
-[![G1 FOUR rear connections](https://cdn-ak.f.st-hatena.com/images/fotolife/j/jundrive3/20221119/20221119151413.jpg)](https://cdn-ak.f.st-hatena.com/images/fotolife/j/jundrive3/20221119/20221119151413.jpg)
+[![G1 FOUR rear connections](images/zoom-g1-four-rear-29b2e94b96c7.jpg)](images/zoom-g1-four-rear-29b2e94b96c7.jpg)
 
 [Image source](https://www.effectornote.com/entry/2022/11/20/124155). Actual full rear photograph of exact no-treadle G1 FOUR: INPUT,AUX IN,center-negative DC9V,micro-USB/DC5V,security slot and OUTPUT. No CONTROL IN or external expression connector is present in this panel. Full rear replaces the rejected manufacturer crop that omitted INPUT.
 
