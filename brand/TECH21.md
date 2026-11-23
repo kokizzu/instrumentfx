@@ -140,13 +140,13 @@ Sources checked:
 
 **Near-overhead v2 stock control-face image with illuminated controls and tuner.**
 
-[![Near-overhead v2 stock control-face image with illuminated controls and tuner.](https://www.tech21nyc.com/wp-content/uploads/2021/05/bass_flyrig_2021_front-1-1024x227.png)](https://www.tech21nyc.com/wp-content/uploads/2021/05/bass_flyrig_2021_front-1-1024x227.png)
+[![Near-overhead v2 stock control-face image with illuminated controls and tuner.](images/tech-21-bass-fly-rig-v2-top-366878b8094f.png)](images/tech-21-bass-fly-rig-v2-top-366878b8094f.png)
 
 [Image source](https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/). Visually 13 rotary controls, 5 footswitches and 7 small pushbuttons, including speaker simulation and ground connect. Manufacturer stock image shows colored knob illumination and tuner indication; independent powered hardware is unverified. Slight perspective, not strict perpendicular overhead.
 
 **Used v2 long connector edge: IN, SEND, RETURN, OUT and center-negative DC.**
 
-[![Used v2 long connector edge: IN, SEND, RETURN, OUT and center-negative DC.](https://r2.gear4music.com/media/117/1174486/1200/preview.jpg)](https://r2.gear4music.com/media/117/1174486/1200/preview.jpg)
+[![Used v2 long connector edge: IN, SEND, RETURN, OUT and center-negative DC.](images/tech-21-bass-fly-rig-v2-rear-913cbcb546f8.jpg)](images/tech-21-bass-fly-rig-v2-rear-913cbcb546f8.jpg)
 
 [Image source](https://www.gear4music.es/es/Guitarra-y-bajo/Tech-21-Bass-Fly-Rig-V2-Secondhand/6XZG). Actual used unit photographed unlit from an angle. Four quarter-inch sockets and DC polarity are visible. XLR output on the end is outside the visible connector face; no full all-edge absence audit claimed. Voltage/current not legible in this photo.
 
