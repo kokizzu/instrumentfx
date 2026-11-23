@@ -519,13 +519,13 @@ Sources checked:
 
 **JOYO R-16 powered-on top photograph — slight angle**
 
-[![JOYO R-16 powered-on top photograph — slight angle](https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/IMG_0280-500x500.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/IMG_0280-500x500.jpg)
+[![JOYO R-16 powered-on top photograph — slight angle](images/joyo-r-16-vocal-lab-top-e0f02a14ec17.jpg)](images/joyo-r-16-vocal-lab-top-e0f02a14ec17.jpg)
 
 [Image source](https://www.joyoaudio.co.uk/VocalLab-Harmoniser). Photograph shows red key display, illuminated harmony/reverb status LEDs and green ambient strips, with all five rotaries and two footswitches visible. Slight overhead perspective rather than exact orthographic top-down. Microphone and cables are part of the scene; this photograph is not a tracking or DSP test.
 
 **JOYO R-16 rear ports and microphone-output side**
 
-[![JOYO R-16 rear ports and microphone-output side](https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/IMG_0265-500x500.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/IMG_0265-500x500.jpg)
+[![JOYO R-16 rear ports and microphone-output side](images/joyo-r-16-vocal-lab-rear-1879876e2788.jpg)](images/joyo-r-16-vocal-lab-rear-1879876e2788.jpg)
 
 [Image source](https://www.joyoaudio.co.uk/VocalLab-Harmoniser). Rear-angle photograph clearly labels INST.IN, Micro USB, AUX IN, DC9V, PHONES and CENTER SILENCER switch. Left side of this rear view shows the XLR MIC OUT and nearby ground-lift control; MIC IN and phantom switch are on the opposite side, shown in the [manufacturer panel diagram](https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/vocal%20lab%20layout%202-500x500.png). USB firmware-only purpose comes from the manual, not the socket shape. Unit is unlit in this connection photograph.
 

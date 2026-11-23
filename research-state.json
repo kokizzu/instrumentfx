@@ -219178,7 +219178,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/IMG_0280-500x500.jpg",
+            "image_url": "images/joyo-r-16-vocal-lab-top-e0f02a14ec17.jpg",
             "source_url": "https://www.joyoaudio.co.uk/VocalLab-Harmoniser",
             "caption": "JOYO R-16 powered-on top photograph — slight angle",
             "note": "Photograph shows red key display, illuminated harmony/reverb status LEDs and green ambient strips, with all five rotaries and two footswitches visible. Slight overhead perspective rather than exact orthographic top-down. Microphone and cables are part of the scene; this photograph is not a tracking or DSP test.",
@@ -219188,7 +219188,7 @@
             "sha256": "e0f02a14ec179b98217eb73f7fb0192ec62994bcd7ec516997a5364dd985d68d"
           },
           "rear": {
-            "image_url": "https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/IMG_0265-500x500.jpg",
+            "image_url": "images/joyo-r-16-vocal-lab-rear-1879876e2788.jpg",
             "source_url": "https://www.joyoaudio.co.uk/VocalLab-Harmoniser",
             "caption": "JOYO R-16 rear ports and microphone-output side",
             "note": "Rear-angle photograph clearly labels INST.IN, Micro USB, AUX IN, DC9V, PHONES and CENTER SILENCER switch. Left side of this rear view shows the XLR MIC OUT and nearby ground-lift control; MIC IN and phantom switch are on the opposite side, shown in the [manufacturer panel diagram](https://www.joyoaudio.co.uk/image/cache/catalog/vocallab/vocal%20lab%20layout%202-500x500.png). USB firmware-only purpose comes from the manual, not the socket shape. Unit is unlit in this connection photograph.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "JOYO::GEM BOX III"
+    "last_model": "JOYO::R-16 Vocal Lab"
   }
 }
