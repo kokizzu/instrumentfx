@@ -3080,13 +3080,13 @@ Sources checked:
 
 **BOSS GT-Pro — front control panel**
 
-[![BOSS GT-Pro — front control panel](https://static.roland.com/assets/images/products/main/gtpro_main.jpg)](https://static.roland.com/assets/images/products/main/gtpro_main.jpg)
+[![BOSS GT-Pro — front control panel](images/boss-gt-pro-top-33f514ec48f8.jpg)](images/boss-gt-pro-top-33f514ec48f8.jpg)
 
 [Image source](https://www.boss.info/global/products/gt-pro/). Manufacturer powered front-panel view with illuminated patch display, LCD and effect indicators. Rack unit controls face forward; this shows its control surface rather than a top-down chassis view. Small 600-pixel-wide source limits fine-label readability.
 
 **BOSS GT-Pro — rear connections**
 
-[![BOSS GT-Pro — rear connections](https://medias.audiofanzine.com/images/normal/boss-gt-pro-6768089.jpeg)](https://medias.audiofanzine.com/images/normal/boss-gt-pro-6768089.jpeg)
+[![BOSS GT-Pro — rear connections](images/boss-gt-pro-rear-bae25caa25a2.jpg)](images/boss-gt-pro-rear-bae25caa25a2.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/boss/gt-pro/). Elevated rear view showing the full connector panel: captive AC lead, amp and pedal controls, MIDI THRU/OUT/IN, USB, digital out, loop 1/2 sends and returns, main and sub outputs including XLR and ground lift, pre-loop, direct/tuner out and input.
 
