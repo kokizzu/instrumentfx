@@ -1723,13 +1723,13 @@ Sources checked:
 
 **BOSS GT-3 — powered-on top view**
 
-[![BOSS GT-3 — powered-on top view](https://static.roland.com/assets/images/products/main/gt3_main.jpg)](https://static.roland.com/assets/images/products/main/gt3_main.jpg)
+[![BOSS GT-3 — powered-on top view](images/boss-gt-3-top-a2dcd530a81f.jpg)](images/boss-gt-3-top-a2dcd530a81f.jpg)
 
 [Image source](https://www.boss.info/global/products/gt-3/). Complete manufacturer straight-down promotional view with active green GT-3 / BOSS Corporation LCD, red effect and footswitch indicators, rotary value control, panel buttons, seven footswitches and full expression pedal. The original is only 500 pixels wide, limiting fine-label readability. Powered-on appearance is visible; independent operating-state verification is unavailable.
 
 **BOSS GT-3 — rear connections**
 
-[![BOSS GT-3 — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/72879/537757/YBOSS14922906__81182.1747217112.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/72879/537757/YBOSS14922906__81182.1747217112.jpg?c=1)
+[![BOSS GT-3 — rear connections](images/boss-gt-3-rear-29024a8ddf09.jpg)](images/boss-gt-3-rear-29024a8ddf09.jpg)
 
 [Image source](https://richtonemusic.co.uk/boss-gt-3-guitar-effect-processor-2nd-hand/). Actual retailer photograph of an unpowered used GT-3 with the entire rear connector row and labels visible: INPUT, OUTPUT LEVEL, OUTPUT R/L-MONO, PHONES, EXT OD/DS SEND/RETURN, SUB EXP PEDAL/SUB CTL1/2, MIDI IN/OUT, power switch, AC IN14V for BRC adaptor and cord restraint.
 
