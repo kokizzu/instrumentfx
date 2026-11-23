@@ -212,13 +212,13 @@ Sources checked:
 
 **Control-surface product render**
 
-[![Control-surface product render](https://shop.warwick.de/media/0c/fe/f1/1778719934/giug_AU_AME-100_05.webp?ts=1778719934)](https://shop.warwick.de/media/0c/fe/f1/1778719934/giug_AU_AME-100_05.webp?ts=1778719934)
+[![Control-surface product render](images/audota-ame-100-top-275d8377d2f2.webp)](images/audota-ame-100-top-275d8377d2f2.webp)
 
 [Image source](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsaudota-ame-100-intelligent-multi-effects). Distributor product render showing the complete control face, both knobs and both switching pads, with preset 19A and colored lighting depicted. This is an angled render, not evidence of a physical unit operating; an actual powered-on, exactly top-down photograph remains pending.
 
 **Complete rear connector render**
 
-[![Complete rear connector render](https://en.audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/AME-100/AME-100%E5%B0%8F%E7%BB%BC%E5%90%88-%E5%90%8E.png)](https://en.audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/AME-100/AME-100%E5%B0%8F%E7%BB%BC%E5%90%88-%E5%90%8E.png)
+[![Complete rear connector render](images/audota-ame-100-rear-90c7ed696491.png)](images/audota-ame-100-rear-90c7ed696491.png)
 
 [Image source](https://en.audota.com/AME100EN.html). Manufacturer product render showing all rear connections and labels: ON/OFF switch, dedicated 5 V / 2 A USB-C power port, USB-C data port, INPUT and OUTPUT. The layout agrees with the manufacturer interface-panel description. A physical rear-panel photograph remains pending.
 
