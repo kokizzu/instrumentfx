@@ -5096,13 +5096,13 @@ Sources checked:
 
 **BOSS ME-8 — powered-on control surface**
 
-[![BOSS ME-8 — powered-on control surface](https://lofimusic.com.au/cdn/shop/files/DSC00745_1200x1200.jpg?v=1716530635)](https://lofimusic.com.au/cdn/shop/files/DSC00745_1200x1200.jpg?v=1716530635)
+[![BOSS ME-8 — powered-on control surface](images/boss-me-8-top-caa6c62ce896.jpg)](images/boss-me-8-top-caa6c62ce896.jpg)
 
 [Image source](https://lofimusic.com.au/products/boss-me-8-guitar-multiple-effects-processor-pedal). Actual seller photograph shows the complete unit from nearly overhead, with the red 1-1 display, effect indicators and footswitch 1 indicator illuminated. Slight perspective remains; this is not a strictly perpendicular top-down photograph. All six footswitches and the BANK control are visible. The [previous unpowered top-down photograph](https://medias.audiofanzine.com/images/normal/boss-me-8-1615917.jpg) remains available for the perpendicular layout view.
 
 **BOSS ME-8 — rear connections**
 
-[![BOSS ME-8 — rear connections](https://dkyjapan.com/cdn/shop/files/img004_b1eb1e5c-2684-4d3e-b86a-8fa02848c788.jpg?v=1718672952&width=1946)](https://dkyjapan.com/cdn/shop/files/img004_b1eb1e5c-2684-4d3e-b86a-8fa02848c788.jpg?v=1718672952&width=1946)
+[![BOSS ME-8 — rear connections](images/boss-me-8-rear-b1d350e6f064.jpg)](images/boss-me-8-rear-b1d350e6f064.jpg)
 
 [Image source](https://dkyjapan.com/products/2406180002). Actual seller photograph with the complete rear connector row visible: INPUT, OUTPUT R/L-MONO, miniature PHONES, SEND/RETURN, external control jacks and power-adaptor input with cord restraint. Molded black labels have low contrast and limited readability. This rear view shows an unpowered unit.
 
