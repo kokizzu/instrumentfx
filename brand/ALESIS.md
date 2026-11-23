@@ -397,13 +397,13 @@ Sources checked:
 
 **Powered front control panel**
 
-[![Powered front control panel](https://tonetweakers.com/cdn/shop/products/alesis-midiverb-iii-4370x-1_1024x1024.jpg?v=1561322219)](https://tonetweakers.com/cdn/shop/products/alesis-midiverb-iii-4370x-1_1024x1024.jpg?v=1561322219)
+[![Powered front control panel](images/alesis-midiverb-iii-top-49e3b068ed4c.jpg)](images/alesis-midiverb-iii-top-49e3b068ed4c.jpg)
 
 [Image source](https://tonetweakers.com/products/alesis-midiverb-iii). Complete front control panel with illuminated red program display and status indicators. The view is slightly elevated, showing the top lid as well as the controls; fine labels remain small at this resolution. A larger straight-on control photograph remains pending. For this rack unit the front panel is the control surface.
 
 **Rear connections**
 
-[![Rear connections](https://medias.audiofanzine.com/images/normal/alesis-midiverb-iii-4222169.jpg)](https://medias.audiofanzine.com/images/normal/alesis-midiverb-iii-4222169.jpg)
+[![Rear connections](images/alesis-midiverb-iii-rear-341bfe237c2c.jpg)](images/alesis-midiverb-iii-rear-341bfe237c2c.jpg)
 
 [Image source](https://fr.audiofanzine.com/reverb/alesis/MidiVerb-3/). All rear connectors and their labels are visible: bypass footswitch, 9 V AC power, MIDI OUT/THRU and IN, stereo L/R outputs, and stereo L/R inputs. The photograph is angled from above but no connection is hidden.
 

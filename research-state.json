@@ -229208,7 +229208,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://tonetweakers.com/cdn/shop/products/alesis-midiverb-iii-4370x-1_1024x1024.jpg?v=1561322219",
+            "image_url": "images/alesis-midiverb-iii-top-49e3b068ed4c.jpg",
             "source_url": "https://tonetweakers.com/products/alesis-midiverb-iii",
             "caption": "Powered front control panel",
             "note": "Complete front control panel with illuminated red program display and status indicators. The view is slightly elevated, showing the top lid as well as the controls; fine labels remain small at this resolution. A larger straight-on control photograph remains pending. For this rack unit the front panel is the control surface.",
@@ -229218,7 +229218,7 @@
             "sha256": "49e3b068ed4c1c30b5447e8015bb033cfb567a4eb46eb5562f13d62a6ed13071"
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/alesis-midiverb-iii-4222169.jpg",
+            "image_url": "images/alesis-midiverb-iii-rear-341bfe237c2c.jpg",
             "source_url": "https://fr.audiofanzine.com/reverb/alesis/MidiVerb-3/",
             "caption": "Rear connections",
             "note": "All rear connectors and their labels are visible: bypass footswitch, 9 V AC power, MIDI OUT/THRU and IN, stereo L/R outputs, and stereo L/R inputs. The photograph is angled from above but no connection is hidden.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Alesis::MIDIverb 4"
+    "last_model": "Alesis::MIDIverb III"
   }
 }
