@@ -7676,13 +7676,13 @@ Sources checked:
 
 **BOSS VE-8 — top panel**
 
-[![BOSS VE-8 — top panel](https://static.roland.com/assets/images/products/main/ve-8_top_main.jpg)](https://static.roland.com/assets/images/products/main/ve-8_top_main.jpg)
+[![BOSS VE-8 — top panel](images/boss-ve-8-top-e1bb096eb482.jpg)](images/boss-ve-8-top-e1bb096eb482.jpg)
 
 [Image source](https://www.boss.info/global/products/ve-8/). Official top-down product photograph with illuminated red numeric display and colored status LEDs. Source is only 446 × 330 pixels, suitable for an overview rather than small-label inspection. Promotional photograph, not independent device operation.
 
 **BOSS VE-8 — rear connections**
 
-[![BOSS VE-8 — rear connections](https://pusatsoundsystem.com/wp-content/uploads/BOSS-VE-8-rear.jpg)](https://pusatsoundsystem.com/wp-content/uploads/BOSS-VE-8-rear.jpg)
+[![BOSS VE-8 — rear connections](images/boss-ve-8-rear-f79cc56d22ac.jpg)](images/boss-ve-8-rear-f79cc56d22ac.jpg)
 
 [Image source](https://pusatsoundsystem.com/boss-ve-8/). Retailer rear product photograph with a faint watermark; connectors remain visible: GUITAR, MIC, AUX, LINE L/MONO and R, PHONES, XLR R/L, MEMORY, USB Type-B and DC IN, plus MIC SENS, PHANTOM, GND and POWER controls. Rear view alone does not establish operating power state.
 
