@@ -1906,13 +1906,13 @@ Sources checked:
 
 **GP-100 powered-on overhead user photograph**
 
-[![GP-100 powered-on overhead user photograph](https://cdn.mule.co.kr/data/thumb/2021/03/01/0c64b130-7a50-11eb-9d70-15fe4bc4d1d4.jpg)](https://cdn.mule.co.kr/data/thumb/2021/03/01/0c64b130-7a50-11eb-9d70-15fe4bc4d1d4.jpg)
+[![GP-100 powered-on overhead user photograph](images/valeton-gp-100-top-cb2a2427fdb3.jpg)](images/valeton-gp-100-top-cb2a2427fdb3.jpg)
 
 [Image source](https://www.mule.co.kr/bbs/info/sell?idx=56126165&v=v). Visually inspected original black GP-100 on a light floor: illuminated blue/white display, four rotary controls, five buttons, both footswitches and complete expression treadle visible. Cables are connected at the rear. Near-overhead angle retains slight perspective, so strict perpendicular elevation remains pending. Screen text is overexposed; no preset name, firmware version or effect capability is inferred. Official rear-port photograph retained separately.
 
 **GP-100 rear connector stock photograph.**
 
-[![GP-100 rear connector stock photograph.](https://shop.valeton.net/cdn/shop/products/GP-100_Top_Hi_V01_191106_1500x.png?v=1641369704)](https://shop.valeton.net/cdn/shop/products/GP-100_Top_Hi_V01_191106_1500x.png?v=1641369704)
+[![GP-100 rear connector stock photograph.](images/valeton-gp-100-rear-61975398a4b2.png)](images/valeton-gp-100-rear-61975398a4b2.png)
 
 [Image source](https://shop.valeton.net/products/gp-100). Visible quarter-inch INPUT,R OUTPUT,L(MONO),smaller AUX IN and PHONES,USB Type-B and center-negative DC9V500mA socket. DC label is supply requirement,not measured current or USB bus-power evidence. No extra connection on this photographed edge; no all-edge absence or operating test.
 
