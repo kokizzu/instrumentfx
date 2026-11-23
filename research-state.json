@@ -222605,7 +222605,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://kzmusicstore.com/cdn/shop/files/S09e702e7c622485b8d0a923c02554ab41.webp?v=1756923517&width=1600",
+            "image_url": "images/m-vave-cube-baby-bass-top-9fd54707a343.jpg",
             "source_url": "https://kzmusicstore.com/products/m-vave-cube-baby-multi-effects-pedal",
             "caption": "CUBE BABY BASS top/rear/underside reference — unlit",
             "note": "Retailer composite visually checked: exact CUBE BABY BASS underside label and BOOST/EQ/COMP controls distinguish it from electric/AC. Middle panel shows all ten knobs and A/B/C, but slight perspective remains and indicators appear unlit. Powered-on exact-overhead photo still pending. Retailer 160×60×30mm diagram is not substituted for manual dimensions/revision.",
@@ -222615,7 +222615,7 @@
             "sha256": "9fd54707a343f3393bdfeb57626b8aaf7b31e097ef4b3672b89d798af3558a00"
           },
           "rear": {
-            "image_url": "https://www.m-vave.com/images/productInfo/cube-baby-bass-2.webp",
+            "image_url": "images/m-vave-cube-baby-bass-rear-885c00b48477.webp",
             "source_url": "https://www.m-vave.com/product?id=cube-baby-bass",
             "caption": "CUBE BABY BASS rear ports",
             "note": "Manufacturer blue BASS full rear-panel image shows IN, power slide, USB-marked USB-C-shaped connector, separate phone-icon USB-C-shaped socket, headphone output and OUT. Manual distinguishes mobile recording from USB; shape does not prove two USB audio interfaces or pinout. No EXP/XLR/MIDI/FX loop visible. Rear alone does not establish power state. Large white margins belong to source asset.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::CUBE BABY AC"
+    "last_model": "M-VAVE::CUBE BABY BASS"
   }
 }
