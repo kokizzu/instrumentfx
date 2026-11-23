@@ -800,13 +800,13 @@ Sources checked:
 
 **PERFORM-VG powered-on overhead user photograph**
 
-[![PERFORM-VG powered-on overhead user photograph](https://medias.audiofanzine.com/images/normal/tc-helicon-perform-vg-6000059.jpg)](https://medias.audiofanzine.com/images/normal/tc-helicon-perform-vg-6000059.jpg)
+[![PERFORM-VG powered-on overhead user photograph](images/tc-helicon-perform-vg-top-e77fa0beddf9.jpg)](images/tc-helicon-perform-vg-top-e77fa0beddf9.jpg)
 
 [Image source](https://en.audiofanzine.com/vocal-processor/tc-helicon/perform-vg/). Visually inspected physical burgundy PERFORM-VG on carpet with backlit effect pads and illuminated cyan ring segments. BodyRez, separate VOICE/GUITAR effects, TAP and MIX match the VG layout, not PERFORM-V. Full control face, one knob and fourteen hand-button pads are visible; no onboard footswitches. Slight perspective and stand-clip projection remain, so strict perpendicular view is pending. Illumination does not establish firmware version, tracking polyphony or DSP utilization. Official rear-port view retained separately.
 
 **PERFORM-VG rear ports — manufacturer stock image**
 
-[![PERFORM-VG rear ports — manufacturer stock image](https://cdn-media.empowertribe.com/84f083f26bd04cc4ac0719e0afa15587/Image_TH_0726-ABR_PERFORM-VG_Rear_XL.png)](https://cdn-media.empowertribe.com/84f083f26bd04cc4ac0719e0afa15587/Image_TH_0726-ABR_PERFORM-VG_Rear_XL.png)
+[![PERFORM-VG rear ports — manufacturer stock image](images/tc-helicon-perform-vg-rear-3d95eb0432e3.png)](images/tc-helicon-perform-vg-rear-3d95eb0432e3.png)
 
 [Image source](https://www.tchelicon.com/en/products/0726-ABR). Exact burgundy VG rear inspected: center-negative DC power, Mini-B USB, AUX minijack, quarter-inch PEDAL, GUITAR input and THRU, male XLR MIC OUT, female XLR MIC IN, GND button and security slot. THRU is not a separately processed guitar output. PEDAL does not prove continuous expression and USB connector does not prove audio streaming or USB power.
 

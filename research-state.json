@@ -224419,7 +224419,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/tc-helicon-perform-vg-6000059.jpg",
+            "image_url": "images/tc-helicon-perform-vg-top-e77fa0beddf9.jpg",
             "source_url": "https://en.audiofanzine.com/vocal-processor/tc-helicon/perform-vg/",
             "caption": "PERFORM-VG powered-on overhead user photograph",
             "note": "Visually inspected physical burgundy PERFORM-VG on carpet with backlit effect pads and illuminated cyan ring segments. BodyRez, separate VOICE/GUITAR effects, TAP and MIX match the VG layout, not PERFORM-V. Full control face, one knob and fourteen hand-button pads are visible; no onboard footswitches. Slight perspective and stand-clip projection remain, so strict perpendicular view is pending. Illumination does not establish firmware version, tracking polyphony or DSP utilization. Official rear-port view retained separately.",
@@ -224429,7 +224429,7 @@
             "sha256": "e77fa0beddf9213c2155c109e05c392354d0cca63e0bae9b09a9fa49f29df9ef"
           },
           "rear": {
-            "image_url": "https://cdn-media.empowertribe.com/84f083f26bd04cc4ac0719e0afa15587/Image_TH_0726-ABR_PERFORM-VG_Rear_XL.png",
+            "image_url": "images/tc-helicon-perform-vg-rear-3d95eb0432e3.png",
             "source_url": "https://www.tchelicon.com/en/products/0726-ABR",
             "caption": "PERFORM-VG rear ports — manufacturer stock image",
             "note": "Exact burgundy VG rear inspected: center-negative DC power, Mini-B USB, AUX minijack, quarter-inch PEDAL, GUITAR input and THRU, male XLR MIC OUT, female XLR MIC IN, GND button and security slot. THRU is not a separately processed guitar output. PEDAL does not prove continuous expression and USB connector does not prove audio streaming or USB power.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::PERFORM-VE"
+    "last_model": "TC-Helicon::PERFORM-VG"
   }
 }
