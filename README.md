@@ -1,5 +1,7 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
+[Photo galleries](PHOTOS.md) · [Verification gaps](RESEARCH-GAPS.md)
+
 **402 active model records · 49 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
 
 Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.

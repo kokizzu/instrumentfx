@@ -1,6 +1,7 @@
 """Build complete instrument comparison views from retained evidence, without research/network."""
 from collections import defaultdict
 import hashlib
+import html
 import json
 from pathlib import Path
 import re
@@ -830,13 +831,26 @@ def price_cells(record):
                     used.append(excerpt)
     return ('<br>'.join(dict.fromkeys(used)) or '? — no qualified used IDR amount established'), ('<br>'.join(dict.fromkeys(other)) or '? — no qualified retail/new IDR amount established; foreign prices are not converted')
 
-def table(records, ids, headers, groups):
+def model_picture(state, key):
+    view = state.get('model_images', {}).get('models', {}).get(key, {}).get('views', {}).get('top')
+    if not view:
+        return '<br>Top image pending'
+    url = view['image_url']
+    if not url.startswith('https://'):
+        url = 'brand/' + url
+    escaped = html.escape(url, quote=True)
+    caption = html.escape(view['caption'], quote=True)
+    return '<br><a href="' + escaped + '"><img src="' + escaped + '" alt="' + caption + '" title="' + caption + '" width="160" loading="lazy"></a>'
+
+
+def table(records, ids, headers, groups, state=None):
     result=['| Model / complete evidence | '+' | '.join(headers)+' |','|'+'---|'*(len(headers)+1)]
     for key in ids:
         record=records[key]
         name=record['brand']+' '+record['model']
         cells=price_cells(record) if groups==['prices'] else [cell(record,g) for g in groups]
-        result.append('| ['+name+']('+record['link']+') | '+' | '.join(cells)+' |')
+        picture = model_picture(state, key) if state is not None else ''
+        result.append('| ['+name+']('+record['link']+')'+picture+' | '+' | '.join(cells)+' |')
     return '\n'.join(result)+'\n'
 
 def render(records,state,write_preview=True):
@@ -856,10 +870,11 @@ def render(records,state,write_preview=True):
         text='# '+title+'\n\n[Guitar](all-guitar.md) · [Bass](all-bass.md) · [Vocal](all-vocal.md) · [Category](MULTI-EFFECTS.md) · [Repository](README.md)\n\n'+descriptions[filename]+'\n\n'
         text+='These are **comparisons of the recorded catalogue**, not exhaustive market coverage or fresh stock certification. Organized 2026-10-16 from the linked source records; their original technical/price dates, firmware, revision and access limits still apply. Every model remains partial. **? means unverified, not No.** Read the complete linked record for sources and conflicting evidence; this view does not silently resolve those conflicts.\n\n'
         text+='K/F/B = independently adjustable rotary controls / footswitches / separate buttons; toe and power switches are additional unless explicitly stated. Body axes and mass qualifications are retained. Color does not prove touch; USB audio does not prove bus power; IRs, native NAM, converted NAM and proprietary captures differ.\n\n'
-        text+='## Hardware and expression\n\n'+table(records,model_ids,['Built-in / external / toe expression','Knobs / footswitches / buttons','Display diagonal / color / touch','Dimensions / mass / size'],['expression','controls','display','body'])
-        text+='\n## Processing and memory\n\n'+table(records,model_ids,['Simultaneous blocks / category choices','Factory / user / total memory','Synth / acoustic or vocal functions','IR / NAM / proprietary captures'],['processing','memory','sound','loading'])
-        text+='\n## Connections, power and practical use\n\n'+table(records,model_ids,['Audio / control I/O','Voltage / polarity / current / battery / USB power','Editors / recording / platform distinctions','Looper / drums / scenes / routing'],['io','power','editor','live'])
-        text+='\n## Separate IDR asking-price evidence\n\nAll amounts are dated asking observations, **not a verified used-to-new range, completed sale or checkout stock**. Sold-out, voucher, region, bundle, condition and cached-access qualifications belong to the offer and remain visible. Missing IDR is not estimated from USD. A retail-labelled offer is not independently confirmed new condition.\n\n'+table(records,model_ids,['Used IDR evidence / limitations','Retail, new, conditional or historical IDR evidence / limitations'],['prices'])
+        text+='Model thumbnails appear below each name; click for the full source image. Stock, unlit and angled views retain their source qualifications; a thumbnail is not proof of powered operation. [Small galleries by brand](PHOTOS.md) · [Verification gaps](RESEARCH-GAPS.md).\n\n'
+        text+='## Hardware and expression\n\n'+table(records,model_ids,['Built-in / external / toe expression','Knobs / footswitches / buttons','Display diagonal / color / touch','Dimensions / mass / size'],['expression','controls','display','body'], state=state)
+        text+='\n## Processing and memory\n\n'+table(records,model_ids,['Simultaneous blocks / category choices','Factory / user / total memory','Synth / acoustic or vocal functions','IR / NAM / proprietary captures'],['processing','memory','sound','loading'], state=state)
+        text+='\n## Connections, power and practical use\n\n'+table(records,model_ids,['Audio / control I/O','Voltage / polarity / current / battery / USB power','Editors / recording / platform distinctions','Looper / drums / scenes / routing'],['io','power','editor','live'], state=state)
+        text+='\n## Separate IDR asking-price evidence\n\nAll amounts are dated asking observations, **not a verified used-to-new range, completed sale or checkout stock**. Sold-out, voucher, region, bundle, condition and cached-access qualifications belong to the offer and remain visible. Missing IDR is not estimated from USD. A retail-labelled offer is not independently confirmed new condition.\n\n'+table(records,model_ids,['Used IDR evidence / limitations','Retail, new, conditional or historical IDR evidence / limitations'],['prices'], state=state)
         if filename=='all-bass.md':
             text+='\n## Why shared models are included\n\n| Shared model | Retained bass evidence |\n|---|---|\n'
             text+='\n'.join('| ['+records[k]['brand']+' '+records[k]['model']+']('+records[k]['link']+') | '+basis+' |' for k,basis in BASS_SHARED.items())+'\n'

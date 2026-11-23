@@ -11,6 +11,7 @@ include make/retirement.mk
 include make/publication.mk
 include make/firmware.mk
 include make/images.mk
+include make/coverage.mk
 
 .PHONY: make-modules-plan
 make-modules-plan:
