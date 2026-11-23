@@ -8127,7 +8127,7 @@ Sources checked:
 
 **GFX-3 control face**
 
-[![GFX-3 control face](https://medias.audiofanzine.com/images/normal/zoom-gfx-3-404547.jpg)](https://medias.audiofanzine.com/images/normal/zoom-gfx-3-404547.jpg)
+[![GFX-3 control face](images/zoom-gfx-3-top-3c597380b4fa.jpg)](images/zoom-gfx-3-top-3c597380b4fa.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/GFX-3/). Actual GFX-3 with complete control face and treadle visible from an angled overhead view. Powered operation is unverified: segment outlines are visible but no clearly active patch indication or footswitch LED. A powered perpendicular photograph remains pending.
 
@@ -8135,7 +8135,7 @@ Supplemental near-overhead layout reference (unlit; lower resolution): [![GFX-3 
 
 **GFX-3 rear connections**
 
-[![GFX-3 rear connections](https://i.ebayimg.com/images/g/sXQAAOSwGnVoUldi/s-l1200.png)](https://i.ebayimg.com/images/g/sXQAAOSwGnVoUldi/s-l1200.png)
+[![GFX-3 rear connections](images/zoom-gfx-3-rear-928d48c6f97f.png)](images/zoom-gfx-3-rear-928d48c6f97f.png)
 
 [Image source](https://www.ebay.com/itm/125369232221). Actual complete rear: INPUT, shared OUTPUT [PHONES], POWER ON/OFF switch, center-negative DC 9V 300mA inlet and cable restraint. No separate headphone jack, USB or MIDI ports are shown.
 

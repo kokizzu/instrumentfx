@@ -227278,7 +227278,7 @@
         "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-gfx-3-404547.jpg",
+            "image_url": "images/zoom-gfx-3-top-3c597380b4fa.jpg",
             "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/GFX-3/",
             "caption": "GFX-3 control face",
             "note": "Actual GFX-3 with complete control face and treadle visible from an angled overhead view. Powered operation is unverified: segment outlines are visible but no clearly active patch indication or footswitch LED. A powered perpendicular photograph remains pending.\n\nSupplemental near-overhead layout reference (unlit; lower resolution): [![GFX-3 complete near-overhead owner photograph](https://medias.audiofanzine.com/images/normal/zoom-gfx-3-433598.jpg)](https://medias.audiofanzine.com/images/normal/zoom-gfx-3-433598.jpg). [Photo source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/GFX-3/). Complete GFX-3 control face, three footswitches and full treadle are visible on a dark tabletop. Display shows inactive segment outlines, not a clearly active patch; this is an unlit near-overhead layout reference. Image is only 720 pixels wide and somewhat soft, so the clearer existing angled image is retained as primary.",
@@ -227288,7 +227288,7 @@
             "sha256": "3c597380b4fac1358a3dae7e37723d3ab810ae5d6a4023b20c7ff07217c2d00e"
           },
           "rear": {
-            "image_url": "https://i.ebayimg.com/images/g/sXQAAOSwGnVoUldi/s-l1200.png",
+            "image_url": "images/zoom-gfx-3-rear-928d48c6f97f.png",
             "source_url": "https://www.ebay.com/itm/125369232221",
             "caption": "GFX-3 rear connections",
             "note": "Actual complete rear: INPUT, shared OUTPUT [PHONES], POWER ON/OFF switch, center-negative DC 9V 300mA inlet and cable restraint. No separate headphone jack, USB or MIDI ports are shown.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G7.1ut"
+    "last_model": "Zoom::GFX-3"
   }
 }
