@@ -370,13 +370,13 @@ Sources checked:
 
 **Go Rig II — overhead control-face photograph**
 
-[![Go Rig II — overhead control-face photograph](https://www.soranaudio.com/upload/images/product/20260109/17679305414406151.png)](https://www.soranaudio.com/upload/images/product/20260109/17679305414406151.png)
+[![Go Rig II — overhead control-face photograph](images/soran-go-rig-ii-top-478b22ad288a.png)](images/soran-go-rig-ii-top-478b22ad288a.png)
 
 [Image source](https://www.soranaudio.com/products/31.html). Exact blue Go Rig II photographed overhead:9 knobs,3 footswitches,3 type toggles,no built-in treadle or display. Footswitch rings are unlit;powered-on overhead photograph remains pending. This hardware photo replaces the earlier inspected design render as the displayed reference.
 
 **Go Rig II — rear connection panel**
 
-[![Go Rig II — rear connection panel](https://www.soranaudio.com/upload/images/product/20260109/17679305559297669.jpg)](https://www.soranaudio.com/upload/images/product/20260109/17679305559297669.jpg)
+[![Go Rig II — rear connection panel](images/soran-go-rig-ii-rear-4cefc1cdb620.jpg)](images/soran-go-rig-ii-rear-4cefc1cdb620.jpg)
 
 [Image source](https://www.soranaudio.com/products/31.html). Exact Go Rig II label visible. INPUT,Tempo Sync toggle,OUTPUT R/L(MONO),USB-C charging port,power indicator and power slide switch. No dedicated headphone,EXP or barrel-power socket visible on this panel. USB-C charging label is not proof of USB audio,MIDI or firmware update support.
 

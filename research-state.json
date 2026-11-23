@@ -223967,7 +223967,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.soranaudio.com/upload/images/product/20260109/17679305414406151.png",
+            "image_url": "images/soran-go-rig-ii-top-478b22ad288a.png",
             "source_url": "https://www.soranaudio.com/products/31.html",
             "caption": "Go Rig II — overhead control-face photograph",
             "note": "Exact blue Go Rig II photographed overhead:9 knobs,3 footswitches,3 type toggles,no built-in treadle or display. Footswitch rings are unlit;powered-on overhead photograph remains pending. This hardware photo replaces the earlier inspected design render as the displayed reference.",
@@ -223977,7 +223977,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.soranaudio.com/upload/images/product/20260109/17679305559297669.jpg",
+            "image_url": "images/soran-go-rig-ii-rear-4cefc1cdb620.jpg",
             "source_url": "https://www.soranaudio.com/products/31.html",
             "caption": "Go Rig II — rear connection panel",
             "note": "Exact Go Rig II label visible. INPUT,Tempo Sync toggle,OUTPUT R/L(MONO),USB-C charging port,power indicator and power slide switch. No dedicated headphone,EXP or barrel-power socket visible on this panel. USB-C charging label is not proof of USB audio,MIDI or firmware update support.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Soran::Go Rig B"
+    "last_model": "Soran::Go Rig II"
   }
 }
