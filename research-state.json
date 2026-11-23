@@ -226916,7 +226916,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://img.olx.com.br/images/95/953637362948751.jpg",
+            "image_url": "images/zoom-g1xon-top-948885e4fe45.jpg",
             "source_url": "https://pr.olx.com.br/regiao-de-curitiba-e-paranagua/instrumentos-musicais/pedaleira-zoom-g1xon-1472244679",
             "caption": "G1Xon powered control face",
             "note": "Actual powered G1Xon photographed from above at a slight angle, sideways in the original image. Orange LCD shows A1 and the control face, two footswitches and full treadle are visible; a small outer case edge is cropped. This is not a perpendicular uncropped top-down view, which remains pending. One knob, four round buttons and four cursor directions agree with the manual.",
@@ -226926,7 +226926,7 @@
             "sha256": "948885e4fe45546b3b4e8b809099fc683ca3b6b97a059fe8964a2f8c94df4480"
           },
           "rear": {
-            "image_url": "https://cdn.shopaccino.com/johns-music/products/g1xonrear-665649_l.jpg?v=652",
+            "image_url": "images/zoom-g1xon-rear-b5947a93a167.jpg",
             "source_url": "https://www.johnsmusic.in/products/zoom-g1xon-multi-effects-guitar-processor",
             "caption": "G1Xon rear connections",
             "note": "Full G1Xon rear photograph includes expression-pedal chassis and all sockets: INPUT, AUX IN, shared OUTPUT/PHONES, mini-B USB marked DC5V, center-negative DC9V IN and security slot. No external expression socket. Shared headphone output is one socket, not separate stereo output jacks.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G1Xnext"
+    "last_model": "Zoom::G1Xon"
   }
 }
