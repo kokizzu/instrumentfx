@@ -40,13 +40,13 @@ Sources checked:
 
 **Keeley Delay Workstation — top panel**
 
-[![Keeley Delay Workstation — top panel](https://r2.gear4music.com/media/19/195713/1200/preview.jpg)](https://r2.gear4music.com/media/19/195713/1200/preview.jpg)
+[![Keeley Delay Workstation — top panel](images/keeley-delay-workstation-top-f2e727bf8dbd.jpg)](images/keeley-delay-workstation-top-f2e727bf8dbd.jpg)
 
 [Image source](https://www.gear4music.com/Guitar-and-Bass/Keeley-Delay-Workstation-Pedal/1J4M). Retailer straight top-down product photograph shows both five-knob rows and Reverb/Delay/Tap footswitches. Blue LED lenses are visible but illumination is not established; powered-on status is unverified and a confirmed powered-on replacement remains pending.
 
 **Keeley Delay Workstation — connection edge**
 
-[![Keeley Delay Workstation — connection edge](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/75594/569973/YKEELEY15212402__33267.1754300232.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/75594/569973/YKEELEY15212402__33267.1754300232.jpg?c=1)
+[![Keeley Delay Workstation — connection edge](images/keeley-delay-workstation-rear-7e50d2246b56.jpg)](images/keeley-delay-workstation-rear-7e50d2246b56.jpg)
 
 [Image source](https://richtonemusic.co.uk/keeley-delay-workstation-pedal-2nd-hand/). Angled rear-edge photograph of a second-hand exact-model unit. Five jack sockets and recessed DC input are visible; top labels identify MONO, STEREO, TAP, EXP and IN. Perspective and shallow focus limit far-end label detail. Operating power state is not established.
 
