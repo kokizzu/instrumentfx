@@ -2486,13 +2486,13 @@ Sources checked:
 
 **MOOER GE250 — powered-on top view**
 
-[![MOOER GE250 — powered-on top view](https://r2.gear4music.com/media/53/530971/1200/preview_2.jpg)](https://r2.gear4music.com/media/53/530971/1200/preview_2.jpg)
+[![MOOER GE250 — powered-on top view](images/mooer-ge250-top-81a44cff79ca.jpg)](images/mooer-ge250-top-81a44cff79ca.jpg)
 
 [Image source](https://www.gear4music.com/us/en/Guitar-and-Bass/Mooer-GE250-Multi-Effects-Pedal/39O1). Complete original GE250 photographed from near overhead with a slight perspective; illuminated LCD shows the GE250 boot splash and Beta 1.1.2. Historical product photograph, not evidence of the latest firmware. All five footswitches and expression pedal visible.
 
 **MOOER GE250 — rear connections**
 
-[![MOOER GE250 — rear connections](https://r2.gear4music.com/media/53/530972/1200/preview_2.jpg)](https://r2.gear4music.com/media/53/530972/1200/preview_2.jpg)
+[![MOOER GE250 — rear connections](images/mooer-ge250-rear-21948a613481.jpg)](images/mooer-ge250-rear-21948a613481.jpg)
 
 [Image source](https://www.gear4music.com/us/en/Guitar-and-Bass/Mooer-GE250-Multi-Effects-Pedal/39O1). Complete rear panel with readable AUX IN, EXP 2, instrument IN, FX-loop send/return, stereo XLR and ground lift, stereo jack outputs, headphones, MIDI IN/OUT, USB Type-B, power switch and DC 9 V 1 A input. Exact original GE250 chassis.
 
