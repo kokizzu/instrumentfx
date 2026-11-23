@@ -37,13 +37,13 @@ Sources checked:
 
 **KMF-10 powered-on overhead**
 
-[![KMF-10 powered-on overhead](https://scorpionguitar.com/cdn/shop/files/tumb_pot_kmf10.png?v=1789096910&width=1122)](https://scorpionguitar.com/cdn/shop/files/tumb_pot_kmf10.png?v=1789096910&width=1122)
+[![KMF-10 powered-on overhead](images/scorpion-kmf-10-top-cee8ddd774f6.jpg)](images/scorpion-kmf-10-top-cee8ddd774f6.jpg)
 
 [Image source](https://scorpionguitar.com/products/scorpion-kmf10-multi-effect-guitar-pedal). Visually inspected brand image: illuminated color display and block buttons, four rotaries, two footswitches, nine buttons and built-in expression pedal. Exact model branding visible; image does not identify firmware or resolve preset capacity.
 
 **KMF-10 rear ports**
 
-[![KMF-10 rear ports](https://scorpionguitar.com/cdn/shop/files/prod_kmf10_06.jpg?v=1789096902&width=1080)](https://scorpionguitar.com/cdn/shop/files/prod_kmf10_06.jpg?v=1789096902&width=1080)
+[![KMF-10 rear ports](images/scorpion-kmf-10-rear-8f2b80a06e3b.jpg)](images/scorpion-kmf-10-rear-8f2b80a06e3b.jpg)
 
 [Image source](https://scorpionguitar.com/products/scorpion-kmf10-multi-effect-guitar-pedal). Visually inspected brand rear angle: AUX IN, INPUT, shared OUTPUT/HEADPHONE, USB-C-shaped connector and DC 9V 500mA center-negative marking. Retain conflict with prior 300mA specification; connector shape alone does not establish USB power/audio/editor support. No dedicated EXP or MIDI socket visible.
 

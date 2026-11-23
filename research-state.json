@@ -222749,7 +222749,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://scorpionguitar.com/cdn/shop/files/tumb_pot_kmf10.png?v=1789096910&width=1122",
+            "image_url": "images/scorpion-kmf-10-top-cee8ddd774f6.jpg",
             "source_url": "https://scorpionguitar.com/products/scorpion-kmf10-multi-effect-guitar-pedal",
             "caption": "KMF-10 powered-on overhead",
             "note": "Visually inspected brand image: illuminated color display and block buttons, four rotaries, two footswitches, nine buttons and built-in expression pedal. Exact model branding visible; image does not identify firmware or resolve preset capacity.",
@@ -222759,7 +222759,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://scorpionguitar.com/cdn/shop/files/prod_kmf10_06.jpg?v=1789096902&width=1080",
+            "image_url": "images/scorpion-kmf-10-rear-8f2b80a06e3b.jpg",
             "source_url": "https://scorpionguitar.com/products/scorpion-kmf10-multi-effect-guitar-pedal",
             "caption": "KMF-10 rear ports",
             "note": "Visually inspected brand rear angle: AUX IN, INPUT, shared OUTPUT/HEADPHONE, USB-C-shaped connector and DC 9V 500mA center-negative marking. Retain conflict with prior 300mA specification; connector shape alone does not establish USB power/audio/editor support. No dedicated EXP or MIDI socket visible.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Roland::VT-4"
+    "last_model": "Scorpion::KMF-10"
   }
 }
