@@ -219,13 +219,13 @@ Sources checked:
 
 **Pocket Sonic top-down manufacturer image with active P08 display**
 
-[![Pocket Sonic top-down manufacturer image with active P08 display](https://erokmusic.com/img/products/POCKET-SONIC-1.webp?v=4ce396f7e12a5a5c)](https://erokmusic.com/img/products/POCKET-SONIC-1.webp?v=4ce396f7e12a5a5c)
+[![Pocket Sonic top-down manufacturer image with active P08 display](images/erok-pocket-sonic-top-4ce396f7e12a.webp)](images/erok-pocket-sonic-top-4ce396f7e12a.webp)
 
 [Image source](https://erokmusic.com/product/multi-effects/POCKET-SONIC). Official exact-model gallery shows EROK branding, P08 screen and six module indicators. A physically powered-on photo versus composited promotional display is not independently established.
 
 **Pocket Sonic angled rear connection view**
 
-[![Pocket Sonic angled rear connection view](https://erokmusic.com/img/products/POCKET-SONIC-3.webp?v=a50284ef1f37eefb)](https://erokmusic.com/img/products/POCKET-SONIC-3.webp?v=a50284ef1f37eefb)
+[![Pocket Sonic angled rear connection view](images/erok-pocket-sonic-rear-a50284ef1f37.webp)](images/erok-pocket-sonic-rear-a50284ef1f37.webp)
 
 [Image source](https://erokmusic.com/product/multi-effects/POCKET-SONIC). Exact manufacturer gallery clearly shows power, USB, phones, IN and OUT labels. Angled view includes the active display; it is not substituted with Pocket Amp regulatory images.
 
