@@ -219562,7 +219562,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://line6.com/data/6/0a020a3f98e8643c76d5cc35d/image/jpeg",
+            "image_url": "images/line-6-helix-floor-top-ef5a1640c667.jpg",
             "source_url": "https://line6.com/helix/helix-guitar-processor.html",
             "caption": "Helix Floor — powered-on overhead view",
             "note": "Exact original Floor with illuminated color LCD,12 switch scribble strips and separate EXP readout,onboard treadle,and lit switch rings. Manufacturer overhead product photograph; not LT or Stadium.",
@@ -219572,7 +219572,7 @@
             "sha256": "ef5a1640c667c31d0c878a3a483ee9c8028762542b193ae5299935109b3fdf6f"
           },
           "rear": {
-            "image_url": "https://line6.com/data/6/0a020a3f1216c624b34ac7399e/image/jpeg",
+            "image_url": "images/line-6-helix-floor-rear-793d27f4585f.jpg",
             "source_url": "https://line6.com/helix/helix-guitar-processor.html",
             "caption": "Helix Floor — rear connections",
             "note": "Original Floor rear includes EXP2/3,external amp/CV,guitar/Aux/Mic,four sends/returns,XLR and quarter-inch outs,Phones,Variax,MIDI,S/PDIF,AES/EBU-L6 LINK,USB and IEC mains. These extra Floor connections are distinct from LT.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD HD500"
+    "last_model": "Line 6::Helix Floor"
   }
 }

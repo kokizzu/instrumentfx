@@ -455,13 +455,13 @@ Sources checked:
 
 **Helix Floor — powered-on overhead view**
 
-[![Helix Floor — powered-on overhead view](https://line6.com/data/6/0a020a3f98e8643c76d5cc35d/image/jpeg)](https://line6.com/data/6/0a020a3f98e8643c76d5cc35d/image/jpeg)
+[![Helix Floor — powered-on overhead view](images/line-6-helix-floor-top-ef5a1640c667.jpg)](images/line-6-helix-floor-top-ef5a1640c667.jpg)
 
 [Image source](https://line6.com/helix/helix-guitar-processor.html). Exact original Floor with illuminated color LCD,12 switch scribble strips and separate EXP readout,onboard treadle,and lit switch rings. Manufacturer overhead product photograph; not LT or Stadium.
 
 **Helix Floor — rear connections**
 
-[![Helix Floor — rear connections](https://line6.com/data/6/0a020a3f1216c624b34ac7399e/image/jpeg)](https://line6.com/data/6/0a020a3f1216c624b34ac7399e/image/jpeg)
+[![Helix Floor — rear connections](images/line-6-helix-floor-rear-793d27f4585f.jpg)](images/line-6-helix-floor-rear-793d27f4585f.jpg)
 
 [Image source](https://line6.com/helix/helix-guitar-processor.html). Original Floor rear includes EXP2/3,external amp/CV,guitar/Aux/Mic,four sends/returns,XLR and quarter-inch outs,Phones,Variax,MIDI,S/PDIF,AES/EBU-L6 LINK,USB and IEC mains. These extra Floor connections are distinct from LT.
 
