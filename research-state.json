@@ -219466,7 +219466,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://line6.com/data/l/0a06007287b84ae084dbcbf0b/image/jpeg/M9%20Stompbox%20Modeler%20(Top%20Down)%20-%20Lo%20Rez.jpeg",
+            "image_url": "images/line-6-m9-top-f7e694734e50.jpg",
             "source_url": "https://line6.com/company/images/?families=12",
             "caption": "M9 — powered-on overhead product view",
             "note": "Manufacturer archive labels this Top Down. Exact M9, green LCD and colored switch indicators visible. Slight perspective remains; perfectly perpendicular top-down geometry is not certified.",
@@ -219476,7 +219476,7 @@
             "sha256": "f7e694734e50b79a9f101dc47a44a6d6b668534d9cb155c3ee8075705e7725ca"
           },
           "rear": {
-            "image_url": "https://line6.com/data/l/0a06007287bc4ae084c05a95b/image/jpeg/M9%20Stompbox%20Modeler%20(Rear)%20-%20Lo%20Rez.jpeg",
+            "image_url": "images/line-6-m9-rear-8af8c95a2387.jpg",
             "source_url": "https://line6.com/company/images/?families=12",
             "caption": "M9 — rear ports",
             "note": "Exact M9 rear view visibly shows POWER, MIDI IN/OUT, EXPRESSION PEDAL 1/2 and stereo INPUT/OUTPUT L(MONO)/RIGHT. These are the M9 ports, not the M13 FX-loop panel.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::M5"
+    "last_model": "Line 6::M9"
   }
 }
