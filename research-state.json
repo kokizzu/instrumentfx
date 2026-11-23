@@ -228111,7 +228111,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.bajaao.com/cdn/shop/files/roland-guitar-processors-boss-me-70-guitar-multi-effects-processor-1176356238.jpg?v=1768275532",
+            "image_url": "images/boss-me-70-top-a1fe875e33b4.jpg",
             "source_url": "https://www.bajaao.com/products/boss-me-70-guitar-multi-effects-processor",
             "caption": "BOSS ME-70 — powered-on top view",
             "note": "Retailer-hosted straight-down promotional image with active red 70 display, section and footswitch indicators, full rotary sections, five panel buttons, four footswitches and complete expression pedal. The left enclosure edge touches the image boundary, but controls remain visible. Powered-on appearance is visible; independent operating-state verification is unavailable.",
@@ -228121,7 +228121,7 @@
             "sha256": "a1fe875e33b43880ebc9569569e32840739a52cac46c385463e47094a4fa5216"
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/boss-me-70-6640596.jpeg",
+            "image_url": "images/boss-me-70-rear-01e4ab4a0aec.jpg",
             "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-70/",
             "caption": "BOSS ME-70 — rear connections",
             "note": "Actual user photograph showing the complete rear panel and labels: GUITAR INPUT with POWER ON marking, Gt. AMP OUTPUT R/L-MONO, REC OUT/PHONES, miniature AUX IN, PREAMP/REVERB ON/OFF and BANK UP/DOWN footswitch jack, DC IN for PSA adaptor, cord restraint and security slot.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-80"
+    "last_model": "BOSS::ME-70"
   }
 }
