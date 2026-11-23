@@ -7223,13 +7223,13 @@ Sources checked:
 
 **G7.1ut — powered-on control face**
 
-[![G7.1ut — powered-on control face](https://pics.mercatinomusicale.com/p_hr/81/66/8036681_1736806631.jpg)](https://pics.mercatinomusicale.com/p_hr/81/66/8036681_1736806631.jpg)
+[![G7.1ut — powered-on control face](images/zoom-g7-1ut-top-8c0426f3d8df.jpg)](images/zoom-g7-1ut-top-8c0426f3d8df.jpg)
 
 [Image source](https://www.mercatinomusicale.com/mm/a_pedaliera-multieffetto-zoom-g7-1ut_id8036681.html). Actual seller photograph of the complete G7.1ut, including all seven footswitches and the full expression treadle. The red 07 segment display, green text LCD, CHANNEL A, effect-module and footswitch indicators are visibly illuminated. Nearly overhead with slight perspective; not a strictly perpendicular top-down photograph. The [previous unpowered overhead view](https://img.ricardostatic.ch/images/4f848782-0d04-49a8-aafa-3ea1f8ec4b31/t_1000x750/zoom-g71ut-guitar-effects-console) remains available for layout comparison.
 
 **G7.1ut rear connections**
 
-[![G7.1ut rear connections](https://i.ebayimg.com/images/g/noAAAOSw8Nhm1xcL/s-l1600.jpg)](https://i.ebayimg.com/images/g/noAAAOSw8Nhm1xcL/s-l1600.jpg)
+[![G7.1ut rear connections](images/zoom-g7-1ut-rear-a86a2e93a1d2.jpg)](images/zoom-g7-1ut-rear-a86a2e93a1d2.jpg)
 
 [Image source](https://www.ebay.com/itm/145999834980). Actual complete rear: INPUT; −10dBm/+4dBm GAIN SW; OUTPUT R and L/MONO; separate PHONES; LEVEL knob; AUX IN; USB Type-B; CONTROL IN; MIDI OUT/IN; power inlet visibly labelled 15VAC 1.5A; cable restraint and ON/OFF switch. The physical AC label conflicts with the manual safety paragraph saying DC; do not treat this as a generic 9V pedal input.
 
