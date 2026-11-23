@@ -222947,7 +222947,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/sonic-wood/gallery/20260915-100138-7uvcm5-sonic-wood_front_hi_v02_250307.webp",
+            "image_url": "images/sonicake-sonic-wood-qce-50-top-f70af66e0ff6.webp",
             "source_url": "https://www.hotone.jp/brands/sonicake/products/sonic-wood",
             "caption": "Sonic Wood powered overhead",
             "note": "Visually inspected distributor overhead image with ten illuminated rotary knobs and four footswitches; no screen, expression treadle or separate panel buttons. Exact Sonicbar Sonic Wood branding; marketing image does not establish firmware.",
@@ -222957,7 +222957,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Sonic_Wood-User_Manual_JP.png",
+            "image_url": "images/sonicake-sonic-wood-qce-50-rear-9d1853163f05.png",
             "source_url": "https://www.hotone.jp/brands/sonicake/products/sonic-wood",
             "caption": "Sonic Wood official connector diagram (photo gap)",
             "note": "Official Japanese manual image inspected: labelled IN,OUT,DC9V on long connector edge andXLR OUT at short side, with arrows explaining instrument input, amp/pedal output,power andbalanced audio output. This is a diagram fallback,not a rear photograph; clear rear/side connector photos remain unresolved. Diagram supports PREAMP→CHORUS→DELAY→REVERB order andfour physical effect switches.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::Matribox II Pro QME-200"
+    "last_model": "Sonicake::Sonic Wood QCE-50"
   }
 }

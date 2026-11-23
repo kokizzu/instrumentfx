@@ -1390,13 +1390,13 @@ Sources checked:
 
 **Sonic Wood powered overhead**
 
-[![Sonic Wood powered overhead](https://www.hotone.jp/images/brands/sonicake/products/sonic-wood/gallery/20260915-100138-7uvcm5-sonic-wood_front_hi_v02_250307.webp)](https://www.hotone.jp/images/brands/sonicake/products/sonic-wood/gallery/20260915-100138-7uvcm5-sonic-wood_front_hi_v02_250307.webp)
+[![Sonic Wood powered overhead](images/sonicake-sonic-wood-qce-50-top-f70af66e0ff6.webp)](images/sonicake-sonic-wood-qce-50-top-f70af66e0ff6.webp)
 
 [Image source](https://www.hotone.jp/brands/sonicake/products/sonic-wood). Visually inspected distributor overhead image with ten illuminated rotary knobs and four footswitches; no screen, expression treadle or separate panel buttons. Exact Sonicbar Sonic Wood branding; marketing image does not establish firmware.
 
 **Sonic Wood official connector diagram (photo gap)**
 
-[![Sonic Wood official connector diagram (photo gap)](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Sonic_Wood-User_Manual_JP.png)](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Sonic_Wood-User_Manual_JP.png)
+[![Sonic Wood official connector diagram (photo gap)](images/sonicake-sonic-wood-qce-50-rear-9d1853163f05.png)](images/sonicake-sonic-wood-qce-50-rear-9d1853163f05.png)
 
 [Image source](https://www.hotone.jp/brands/sonicake/products/sonic-wood). Official Japanese manual image inspected: labelled IN,OUT,DC9V on long connector edge andXLR OUT at short side, with arrows explaining instrument input, amp/pedal output,power andbalanced audio output. This is a diagram fallback,not a rear photograph; clear rear/side connector photos remain unresolved. Diagram supports PREAMP→CHORUS→DELAY→REVERB order andfour physical effect switches.
 
