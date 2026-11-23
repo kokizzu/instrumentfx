@@ -212,13 +212,13 @@ Sources checked:
 
 **JOYO GEM BOX III powered-on product angle**
 
-[![JOYO GEM BOX III powered-on product angle](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox-III/JOYO-Gem-Box-III-3%20%2810%29-500x500h.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox-III/JOYO-Gem-Box-III-3%20%2810%29-500x500h.jpg)
+[![JOYO GEM BOX III powered-on product angle](images/joyo-gem-box-iii-top-8ba586ca283c.jpg)](images/joyo-gem-box-iii-top-8ba586ca283c.jpg)
 
 [Image source](https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor). Manufacturer-linked regional gallery shows illuminated GEM BOX III screen, module buttons and footswitch LEDs. Angled product view with some enclosure edges cropped; not a true whole-unit top-down photo. Powered-on exact overhead remains pending. This is a published product image, not a hardware test.
 
 **JOYO GEM BOX III rear connections — panel edges cropped**
 
-[![JOYO GEM BOX III rear connections — panel edges cropped](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox-III/JOYO-Gem-Box-III-3%20%289%29-500x500h.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/GemBox-III/JOYO-Gem-Box-III-3%20%289%29-500x500h.jpg)
+[![JOYO GEM BOX III rear connections — panel edges cropped](images/joyo-gem-box-iii-rear-1f118b22d986.jpg)](images/joyo-gem-box-iii-rear-1f118b22d986.jpg)
 
 [Image source](https://www.joyoaudio.co.uk/guitar-effect-types-JOYO/Multi-Effectors/JOYO-Gem-Box-III-Multi-Guitar-Effect-Processor). Readable rear view shows EXP2, AUX IN, instrument IN, ground-lift switch, L/R XLR outputs, L(MONO)/R jack outputs, headphones, USB-B and power rocker. Extreme panel edges are cropped, including the DC inlet at the right; this image alone is not a complete power-connector inventory. Manual supplies the separate 9V DC specification. No MIDI or FX-loop sockets shown in the documented panel.
 
