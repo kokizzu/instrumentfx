@@ -229133,7 +229133,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://musicmajlis.co/cdn/shop/products/behringer-v-amp-3-virtual-guitar-amp-with-usb-interface-musicmajlis-1.webp?v=1738772724&width=2000",
+            "image_url": "images/behringer-v-amp-3-top-ed6ff3c49040.jpg",
             "source_url": "https://musicmajlis.co/products/behringer-v-amp-3-virtual-guitar-amp-with-usb-interface",
             "caption": "Powered control surface",
             "note": "Retailer promotional photograph showing the complete control surface, preset 25 and illuminated knob LEDs. The view is nearly overhead with slight enclosure perspective; an exactly top-down photograph remains pending.",
@@ -229143,7 +229143,7 @@
             "sha256": "ed6ff3c49040d924f1e3e11f2994f318e26ec0e8c26dc542cfc9fc221d49399a"
           },
           "rear": {
-            "image_url": "https://musicmajlis.co/cdn/shop/products/behringer-v-amp-3-virtual-guitar-amp-with-usb-interface-musicmajlis-2.webp?v=1738772726&width=2000",
+            "image_url": "images/behringer-v-amp-3-rear-25d13a09d685.jpg",
             "source_url": "https://musicmajlis.co/products/behringer-v-amp-3-virtual-guitar-amp-with-usb-interface",
             "caption": "Connector edge",
             "note": "Rear/side promotional photograph showing the auxiliary socket and level wheel, paired line-output sockets and the rounded MIDI/footswitch connection area. Port labels are on the top face and hidden from this angle; the far curved edge is foreshortened. A complementary photograph with readable labels and all end connections remains pending.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Behringer::X V-AMP LX1-X"
+    "last_model": "Behringer::V-AMP 3"
   }
 }

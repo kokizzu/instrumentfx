@@ -825,13 +825,13 @@ Sources checked:
 
 **Powered control surface**
 
-[![Powered control surface](https://musicmajlis.co/cdn/shop/products/behringer-v-amp-3-virtual-guitar-amp-with-usb-interface-musicmajlis-1.webp?v=1738772724&width=2000)](https://musicmajlis.co/cdn/shop/products/behringer-v-amp-3-virtual-guitar-amp-with-usb-interface-musicmajlis-1.webp?v=1738772724&width=2000)
+[![Powered control surface](images/behringer-v-amp-3-top-ed6ff3c49040.jpg)](images/behringer-v-amp-3-top-ed6ff3c49040.jpg)
 
 [Image source](https://musicmajlis.co/products/behringer-v-amp-3-virtual-guitar-amp-with-usb-interface). Retailer promotional photograph showing the complete control surface, preset 25 and illuminated knob LEDs. The view is nearly overhead with slight enclosure perspective; an exactly top-down photograph remains pending.
 
 **Connector edge**
 
-[![Connector edge](https://musicmajlis.co/cdn/shop/products/behringer-v-amp-3-virtual-guitar-amp-with-usb-interface-musicmajlis-2.webp?v=1738772726&width=2000)](https://musicmajlis.co/cdn/shop/products/behringer-v-amp-3-virtual-guitar-amp-with-usb-interface-musicmajlis-2.webp?v=1738772726&width=2000)
+[![Connector edge](images/behringer-v-amp-3-rear-25d13a09d685.jpg)](images/behringer-v-amp-3-rear-25d13a09d685.jpg)
 
 [Image source](https://musicmajlis.co/products/behringer-v-amp-3-virtual-guitar-amp-with-usb-interface). Rear/side promotional photograph showing the auxiliary socket and level wheel, paired line-output sockets and the rounded MIDI/footswitch connection area. Port labels are on the top face and hidden from this angle; the far curved edge is foreshortened. A complementary photograph with readable labels and all end connections remains pending.
 
