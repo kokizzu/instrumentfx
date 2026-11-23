@@ -3388,13 +3388,13 @@ Sources checked:
 
 **Official Rushead Max Bass control-face stock image**
 
-[![Official Rushead Max Bass control-face stock image](https://shop.valeton.net/cdn/shop/products/RusheadMaxBass_Front_With_Light_Hi_V01_210818_1445x.png?v=1638856006)](https://shop.valeton.net/cdn/shop/products/RusheadMaxBass_Front_With_Light_Hi_V01_210818_1445x.png?v=1638856006)
+[![Official Rushead Max Bass control-face stock image](images/valeton-rushead-max-bass-rh-101-top-de09a10b2c3f.png)](images/valeton-rushead-max-bass-rh-101-top-de09a10b2c3f.png)
 
 [Image source](https://shop.valeton.net/products/rushead-max-bass). Visually inspected exact BASS control-face stock image: five edge knobs, three TYPE sliders and four blue lights, plus attached instrument plug. No separate footswitch or screen visible. Illuminated stock artwork does not establish an actual powered-unit photograph; strict overhead powered photography remains pending.
 
 **Official Rushead Max Bass connector-side stock image**
 
-[![Official Rushead Max Bass connector-side stock image](https://shop.valeton.net/cdn/shop/products/RusheadMaxBass_Right_Hi_V01_210903_1445x.png?v=1638856112)](https://shop.valeton.net/cdn/shop/products/RusheadMaxBass_Right_Hi_V01_210903_1445x.png?v=1638856112)
+[![Official Rushead Max Bass connector-side stock image](images/valeton-rushead-max-bass-rh-101-rear-50188844bb29.png)](images/valeton-rushead-max-bass-rh-101-rear-50188844bb29.png)
 
 [Image source](https://shop.valeton.net/products/rushead-max-bass). Visually inspected connector side, not back shell: AUX IN and headphone sockets with attached instrument plug visible. Opposite charging edge is outside this view, so complete connector coverage remains pending. The separately inspected Rear image contains no readable port row.
 
