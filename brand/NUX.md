@@ -2364,13 +2364,13 @@ Sources checked:
 
 **Mighty Plug Pro MP-3 top control view**
 
-[![Mighty Plug Pro MP-3 top control view](https://www.nux.us/cdn/shop/files/MP-P.01.jpg?v=1760460610&width=2400)](https://www.nux.us/cdn/shop/files/MP-P.01.jpg?v=1760460610&width=2400)
+[![Mighty Plug Pro MP-3 top control view](images/nux-mighty-plug-pro-mp-3-top-0e67c4991042.jpg)](images/nux-mighty-plug-pro-mp-3-top-0e67c4991042.jpg)
 
 [Image source](https://www.nux.us/products/mighty-plug-pro). Manufacturer exact overhead MP-3 image with blue PRESET ring and AUDIO indicator illuminated. The complete control face and extended instrument plug are visible; status lights do not identify installed firmware.
 
 **Mighty Plug Pro MP-3 connector edge**
 
-[![Mighty Plug Pro MP-3 connector edge](https://www.nux.us/cdn/shop/files/MP-P.05.jpg?v=1760460794&width=2400)](https://www.nux.us/cdn/shop/files/MP-P.05.jpg?v=1760460794&width=2400)
+[![Mighty Plug Pro MP-3 connector edge](images/nux-mighty-plug-pro-mp-3-rear-a0d61df4ae6c.jpg)](images/nux-mighty-plug-pro-mp-3-rear-a0d61df4ae6c.jpg)
 
 [Image source](https://www.nux.us/products/mighty-plug-pro). Manufacturer angled connector-edge image clearly shows the headphone socket and USB-C, plus side volume +/− and Power/MUTE controls. Instrument plug is folded; blue indicators are lit. Reset pinhole is on the opposite side and not shown. This handheld unit has edge connections rather than a conventional rear strip.
 
