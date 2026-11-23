@@ -418,13 +418,13 @@ Sources checked:
 
 **M-One XL — powered control face, rear and chassis photographs**
 
-[![M-One XL — powered control face, rear and chassis photographs](https://medias.audiofanzine.com/images/normal/tc-electronic-m-one-xl-6754063.jpg)](https://medias.audiofanzine.com/images/normal/tc-electronic-m-one-xl-6754063.jpg)
+[![M-One XL — powered control face, rear and chassis photographs](images/tc-electronic-m-one-xl-top-bbb3fecaf3e5.jpg)](images/tc-electronic-m-one-xl-top-bbb3fecaf3e5.jpg)
 
 [Image source](https://fr.audiofanzine.com/multieffet/tc-electronic/M-One-XL/). User-photo composite shows exact M-One XL badge and active LCD reading M-oneXL Ver.2.07<,plus Vocal Ensemble preset16. This is a photographed historical unit,not proof of current latest firmware. Rack controls are on the vertical front face;lower photograph shows top chassis at an angle,not strict overhead. Visible4 rotaries and14 rectangular controls,with power separate. Strict overhead remains pending.
 
 **M-One XL — rear connection panel**
 
-[![M-One XL — rear connection panel](https://media.guitarcenter.com/is/image/MMGS7/183024000000000-01-2000x2000.jpg)](https://media.guitarcenter.com/is/image/MMGS7/183024000000000-01-2000x2000.jpg)
+[![M-One XL — rear connection panel](images/tc-electronic-m-one-xl-rear-bbb0d05876e7.jpg)](images/tc-electronic-m-one-xl-rear-bbb0d05876e7.jpg)
 
 [Image source](https://www.guitarcenter.com/Restock/TC-Electronic/M-One-XL-Effects-Processor-1274115028613.gc). Exact MAN001XL rear label. Balanced XLR L/R inputs andoutputs,RCA S/PDIF DI/DO,MIDI IN/THRU/OUT,pedal input and IEC mains. Label100–240VAC50–60Hz15W;retain manual less-than15W separately. DI/DO label refers to digital input/output,not additional DI-box sockets. Pedal jack accepts momentary switches per manual,not continuous expression.
 
