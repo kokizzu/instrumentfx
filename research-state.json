@@ -225002,7 +225002,7 @@
         "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://shop.valeton.net/cdn/shop/products/DapperMini_Front_Hi_V01_161213_07094f0e-662f-48af-9fef-78e95e017e67_1500x.png?v=1641360454",
+            "image_url": "images/valeton-dapper-mini-mes-1-top-c362364eeffc.png",
             "source_url": "https://shop.valeton.net/products/dapper-mini",
             "caption": "Near-overhead Dapper Mini control-face stock image, unlit.",
             "note": "Visually 10 rotary controls, 3 footswitches and one OD/DIST toggle. DELAY/CHORUS/DRIVE labels distinguish MES-1 layout. Unlit tuner/status strip; slight perspective, so powered-on strict perpendicular overhead remains pending.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper MDR"
+    "last_model": "Valeton::Dapper Mini MES-1"
   }
 }

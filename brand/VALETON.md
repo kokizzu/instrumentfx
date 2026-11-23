@@ -887,7 +887,7 @@ Sources checked:
 
 **Near-overhead Dapper Mini control-face stock image, unlit.**
 
-[![Near-overhead Dapper Mini control-face stock image, unlit.](https://shop.valeton.net/cdn/shop/products/DapperMini_Front_Hi_V01_161213_07094f0e-662f-48af-9fef-78e95e017e67_1500x.png?v=1641360454)](https://shop.valeton.net/cdn/shop/products/DapperMini_Front_Hi_V01_161213_07094f0e-662f-48af-9fef-78e95e017e67_1500x.png?v=1641360454)
+[![Near-overhead Dapper Mini control-face stock image, unlit.](images/valeton-dapper-mini-mes-1-top-c362364eeffc.png)](images/valeton-dapper-mini-mes-1-top-c362364eeffc.png)
 
 [Image source](https://shop.valeton.net/products/dapper-mini). Visually 10 rotary controls, 3 footswitches and one OD/DIST toggle. DELAY/CHORUS/DRIVE labels distinguish MES-1 layout. Unlit tuner/status strip; slight perspective, so powered-on strict perpendicular overhead remains pending.
 
