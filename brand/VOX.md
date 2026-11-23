@@ -264,13 +264,13 @@ Sources checked:
 
 **StompLab 2B actual overhead control-face photograph — unlit**
 
-[![StompLab 2B actual overhead control-face photograph — unlit](https://images.blocketcdn.se/dynamic/1280w/item/17671869/f483b9f1-54ce-4fcc-9418-d8b6e1ae8f24)](https://images.blocketcdn.se/dynamic/1280w/item/17671869/f483b9f1-54ce-4fcc-9418-d8b6e1ae8f24)
+[![StompLab 2B actual overhead control-face photograph — unlit](images/vox-stomplab-2b-top-5324b12e7b8d.jpg)](images/vox-stomplab-2b-top-5324b12e7b8d.jpg)
 
 [Image source](https://www.blocket.se/recommerce/forsale/item/17671869). Complete red bass unit photographed nearly overhead: all three knobs, four small buttons, two metal footswitches and full VOX treadle are visible. Dark display shows only inactive segment outlines and no illuminated patch; indicator lenses do not establish power. This improves actual control-layout coverage, but a powered overhead photograph remains pending. Previous [official product image](https://voxamps.com/wp-content/uploads/2019/02/SL2B-StompLab-Bass-Multi-Effect-1.png) retained as a reference; its depicted 50 display does not independently establish powered photography.
 
 **Official VOX StompLab 2B rear-port shop image**
 
-[![Official VOX StompLab 2B rear-port shop image](https://voxampshop.com/cdn/shop/files/Stomplab-IIB-Bass-Effect-Processor-Vox-Amp-Shop-489_1200x.jpg?v=1687380731)](https://voxampshop.com/cdn/shop/files/Stomplab-IIB-Bass-Effect-Processor-Vox-Amp-Shop-489_1200x.jpg?v=1687380731)
+[![Official VOX StompLab 2B rear-port shop image](images/vox-stomplab-2b-rear-0e74ef8468a1.jpg)](images/vox-stomplab-2b-rear-0e74ef8468a1.jpg)
 
 [Image source](https://voxampshop.com/products/sl2b). Visually inspected rear explicitly marked StompLab IIB: INPUT, shared OUTPUT/PHONES(STEREO/MONO), POWER button and center-negative DC9V socket. Complete rear row readable, with no USB/MIDI or external EXP socket. Inlet polarity now visually corroborated rather than only inferred through the optional adapter.
 
