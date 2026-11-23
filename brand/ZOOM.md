@@ -1958,7 +1958,7 @@ Sources checked:
 
 **B1Xon overhead product image**
 
-[![B1Xon overhead product image](https://zoomcorp.com/media/original_images/b1xon_topView.png.0x800_q80_crop-%2Cscale_size_canvas.png)](https://zoomcorp.com/media/original_images/b1xon_topView.png.0x800_q80_crop-%2Cscale_size_canvas.png)
+[![B1Xon overhead product image](images/zoom-b1xon-top-8085fb2932c3.png)](images/zoom-b1xon-top-8085fb2932c3.png)
 
 [Image source](https://zoomcorp.com/en/jp/multi-effects/bass-effects/b1xon/). Exact B1Xon manufacturer overhead product image: full treadle, one rotary knob, four round function buttons, four cursor directions and two footswitch pads. Orange A0 display is depicted, but this studio product image does not independently verify an actual powered photograph. A real powered overhead image remains pending.
 
@@ -1966,7 +1966,7 @@ Supplemental owner-screen detail (source attributes it to B1Xon; model badge and
 
 **B1Xon rear connections**
 
-[![B1Xon rear connections](https://www.zoom.co.jp/sites/default/files/styles/product_feature/public/products/product-features/b1xon_rearView.png?itok=pJO7jZNb)](https://www.zoom.co.jp/sites/default/files/styles/product_feature/public/products/product-features/b1xon_rearView.png?itok=pJO7jZNb)
+[![B1Xon rear connections](images/zoom-b1xon-rear-5d77da7917b9.jpg)](images/zoom-b1xon-rear-5d77da7917b9.jpg)
 
 [Image source](https://www.zoom.co.jp/ja/products/bass/zoom-b1xon-bass-effects-pedal-expression-pedal). Exact manufacturer B1Xon rear photograph includes the treadle section. INPUT, AUX IN, OUTPUT [PHONES], mini-USB/DC5V, center-negative DC9V IN and security slot are visible. This full-width image replaces the rejected narrower B1on-style retailer candidate; USB labeling alone does not establish audio or general MIDI capability.
 

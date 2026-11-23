@@ -226531,7 +226531,7 @@
         "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://zoomcorp.com/media/original_images/b1xon_topView.png.0x800_q80_crop-%2Cscale_size_canvas.png",
+            "image_url": "images/zoom-b1xon-top-8085fb2932c3.png",
             "source_url": "https://zoomcorp.com/en/jp/multi-effects/bass-effects/b1xon/",
             "caption": "B1Xon overhead product image",
             "note": "Exact B1Xon manufacturer overhead product image: full treadle, one rotary knob, four round function buttons, four cursor directions and two footswitch pads. Orange A0 display is depicted, but this studio product image does not independently verify an actual powered photograph. A real powered overhead image remains pending.\n\nSupplemental owner-screen detail (source attributes it to B1Xon; model badge and treadle are outside the crop): [![Orange-backlit BassPitch parameter screens](https://cdn.basschat.co.uk/monthly_2021_11/2.jpg.30b37fd97bc6c165cf74815a962fe2ff.jpg)](https://cdn.basschat.co.uk/monthly_2021_11/2.jpg.30b37fd97bc6c165cf74815a962fe2ff.jpg). [Owner thread](https://www.basschat.co.uk/topic/456244-for-those-of-you-who-still-uses-a-zoom-b1xon-pronounced-lush-and-aggressive-wah-pedal-patch/). Composite of three actual orange-backlit LCD close-ups shows BassPitch Shift 12, Tone 10, Bal 16 and Fine 1 / Level 98. The owner-thread title attributes these to B1Xon; the crop excludes the model badge, treadle, full controls and ports, so it is not independent exact-model or full powered-overhead evidence. Values are patch parameters, not DSP percentages, firmware versions or proof of polyphonic tracking.",
@@ -226541,7 +226541,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.zoom.co.jp/sites/default/files/styles/product_feature/public/products/product-features/b1xon_rearView.png?itok=pJO7jZNb",
+            "image_url": "images/zoom-b1xon-rear-5d77da7917b9.jpg",
             "source_url": "https://www.zoom.co.jp/ja/products/bass/zoom-b1xon-bass-effects-pedal-expression-pedal",
             "caption": "B1Xon rear connections",
             "note": "Exact manufacturer B1Xon rear photograph includes the treadle section. INPUT, AUX IN, OUTPUT [PHONES], mini-USB/DC5V, center-negative DC9V IN and security slot are visible. This full-width image replaces the rejected narrower B1on-style retailer candidate; USB labeling alone does not establish audio or general MIDI capability.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B1X original"
+    "last_model": "Zoom::B1Xon"
   }
 }
