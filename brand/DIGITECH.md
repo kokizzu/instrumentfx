@@ -1172,13 +1172,13 @@ Sources checked:
 
 **DigiTech RP155 — top panel**
 
-[![DigiTech RP155 — top panel](https://r2.gear4music.com/media/1/16669/1200/preview.jpg)](https://r2.gear4music.com/media/1/16669/1200/preview.jpg)
+[![DigiTech RP155 — top panel](images/digitech-rp155-top-bd73197840ce.jpg)](images/digitech-rp155-top-bd73197840ce.jpg)
 
 [Image source](https://www.gear4music.com/Guitar-and-Bass/DISC-Digitech-RP155-Guitar-Processor-and-USB-Recording-Interface/ATY). Retailer promotional photograph shows illuminated red two-character display and status LEDs. Angled overhead view, not exact top-down; straight top-down replacement remains pending. No independent device operation.
 
 **RP155 rear connector panel**
 
-[![RP155 rear connector panel](https://media.guitarcenter.com/is/image/MMGS7/580862000000000-02-2000x2000.jpg)](https://media.guitarcenter.com/is/image/MMGS7/580862000000000-02-2000x2000.jpg)
+[![RP155 rear connector panel](images/digitech-rp155-rear-2816ab92fad7.webp)](images/digitech-rp155-rear-2816ab92fad7.webp)
 
 [Image source](https://www.guitarcenter.com/Restock/DigiTech/RP155-Guitar-Multi-Effects-Pedal-1340031077146.gc). Clear complete rear view from the exact RP155 retailer listing. INPUT, AMP/MIXER selector, LEFT (Mono) / RIGHT OUTPUT, miniature headphone socket, CONTROL IN, USB-B and 9 VAC 1.3 A power inlet are visible and unobstructed. The power label is AC; do not substitute a DC adapter/polarity claim. This resolves the earlier rear-source retrieval gap.
 
