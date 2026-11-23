@@ -273,13 +273,13 @@ Sources checked:
 
 **Mosky SOL918 nearly overhead control-face photograph — unpowered**
 
-[![Mosky SOL918 nearly overhead control-face photograph — unpowered](https://www.moskyaudio.com/uploadfile//20261024/60da9377a8597.jpg)](https://www.moskyaudio.com/uploadfile//20261024/60da9377a8597.jpg)
+[![Mosky SOL918 nearly overhead control-face photograph — unpowered](images/mosky-sol918-top-7348a1768360.jpg)](images/mosky-sol918-top-7348a1768360.jpg)
 
 [Image source](https://www.moskyaudio.com/multi-effects/130.html). Visually inspected manufacturer SOL918: eleven rotary controls (reverb2,delay3,OD3,distortion3), four footswitches and one FX-loop toggle. Central clear ribbed indicator lens is not counted as a rotary control. No display/treadle visible. Slight perspective, not exact orthographic top-down; no power cable or illuminated indicator. Powered-on overhead photograph remains pending. Reverb,delay,OD,DS markings identify the four footswitch sections; they do not establish program-memory slots.
 
 **Mosky SOL918 rear-edge sockets and labels — angled manufacturer photograph**
 
-[![Mosky SOL918 rear-edge sockets and labels — angled manufacturer photograph](https://www.moskyaudio.com/uploadfile//20261024/60da9377a7d6c.jpg)](https://www.moskyaudio.com/uploadfile//20261024/60da9377a7d6c.jpg)
+[![Mosky SOL918 rear-edge sockets and labels — angled manufacturer photograph](images/mosky-sol918-rear-4a3098a333f3.jpg)](images/mosky-sol918-rear-4a3098a333f3.jpg)
 
 [Image source](https://www.moskyaudio.com/multi-effects/130.html). Visually inspected manufacturer view shows four quarter-inch audio sockets labeled OUTPUT,RETURN,SEND,INPUT plus9VDC barrel power; polarity symbol shows center-negative. All sockets unplugged. This confirms the external send/return insert, not a recording looper or built-in pitch processor. No USB,MIDI,phones or analog EXP socket visible on this edge; other-face/internal interfaces and electrical audio levels remain unverified. Image is angled, not a straight rear elevation.
 
