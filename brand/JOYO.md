@@ -621,13 +621,13 @@ Sources checked:
 
 **JOYO TC-1 whole-unit top/front view — unlit**
 
-[![JOYO TC-1 whole-unit top/front view — unlit](https://www.joyoaudio.co.uk/image/cache/catalog/TC-1/JOYO-Tonechain-1%20%281%29-500x500.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/TC-1/JOYO-Tonechain-1%20%281%29-500x500.jpg)
+[![JOYO TC-1 whole-unit top/front view — unlit](images/joyo-tone-chain-tc-1-top-2419d914e0a6.jpg)](images/joyo-tone-chain-tc-1-top-2419d914e0a6.jpg)
 
 [Image source](https://www.joyoaudio.co.uk/Tonechain-TC-1). Whole white TC-1 with nine rotaries, DS LO/HI toggle and four footswitches. Screen and switch indicators are unlit; slight front-facing perspective rather than exact overhead. Powered-on top-down photograph remains pending. The manual contains an illuminated panel illustration, which is not a powered hardware photograph.
 
 **JOYO TC-1 rear connections and XLR side edge**
 
-[![JOYO TC-1 rear connections and XLR side edge](https://www.joyoaudio.co.uk/image/cache/catalog/TC-1/JOYO-Tonechain-1%20%282%29-500x500h.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/TC-1/JOYO-Tonechain-1%20%282%29-500x500h.jpg)
+[![JOYO TC-1 rear connections and XLR side edge](images/joyo-tone-chain-tc-1-rear-2ec0135410c1.jpg)](images/joyo-tone-chain-tc-1-rear-2ec0135410c1.jpg)
 
 [Image source](https://www.joyoaudio.co.uk/Tonechain-TC-1). Rear-angle photo labels SEND, RETURN, OUTPUT R, L/MONO, CAB SIM pushbutton, AUX IN and DC9V polarity. One XLR is visible at the side edge; the manual documents both L/R XLR outputs on that side and the instrument input on the opposite side. No USB, MIDI or EXP connector in the complete manual panel. This image is a rear-port photograph, not proof of an internal firmware version.
 
