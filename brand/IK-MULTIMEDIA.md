@@ -352,13 +352,13 @@ Sources checked:
 
 **TONEX Pedal powered-on top-down product view**
 
-[![TONEX Pedal powered-on top-down product view](https://ikmultimedia.com/cdn/shop/files/TONEX-Pedal---ToneX---Front7097.jpg?v=1783508148&width=1100)](https://ikmultimedia.com/cdn/shop/files/TONEX-Pedal---ToneX---Front7097.jpg?v=1783508148&width=1100)
+[![TONEX Pedal powered-on top-down product view](images/ik-multimedia-tonex-pedal-top-2084aa297c44.jpg)](images/ik-multimedia-tonex-pedal-top-2084aa297c44.jpg)
 
 [Image source](https://ikmultimedia.com/products/tonexpedal). Manufacturer overhead product rendering with active TONEX display, AMP/ALT/CAB indicators and green A-switch LED. Eight rotaries are visible: MODEL, PRESET, PARAMETER, GAIN, BASS, MID, TREBLE and VOLUME; this contradicts the older seven-knob profile count, which remains historical. Three footswitches and no built-in treadle. Lit rendering is not a physical hardware test.
 
 **TONEX Pedal rear connections**
 
-[![TONEX Pedal rear connections](https://ikmultimedia.com/cdn/shop/files/TONEX-Pedal--Back.jpg?v=1783508147&width=1100)](https://ikmultimedia.com/cdn/shop/files/TONEX-Pedal--Back.jpg?v=1783508147&width=1100)
+[![TONEX Pedal rear connections](images/ik-multimedia-tonex-pedal-rear-268cfcd3f15b.jpg)](images/ik-multimedia-tonex-pedal-rear-268cfcd3f15b.jpg)
 
 [Image source](https://ikmultimedia.com/products/tonexpedal). Manufacturer standard black Pedal rear rendering clearly labels INPUT, L(MONO)/R OUTPUT, HEADPHONES, full-size MIDI IN/OUT, EXT.CONTROL, USB-B and POWER 9V DC. Headphones are a separate full-size jack; the ONE shared-output arrangement is not inherited. No XLR mic input, FX loop or USB-C port shown. The rear voltage marking does not establish measured power consumption.
 
