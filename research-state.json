@@ -223646,7 +223646,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://mod.audio/wp-content/uploads/2023/06/MOD-Duo-Banner-.jpg",
+            "image_url": "images/mod-audio-duo-top-f793e15c271a.jpg",
             "source_url": "https://mod.audio/mod-duo/",
             "caption": "Original MOD Duo powered-on overhead control-face photograph",
             "note": "Visually inspected manufacturer scene: both LCDs show active DRONE GAIN/DRONE and BLUR/PREFREAK assignments, with green/red footswitch LEDs, two push knobs and two footswitches. Shot from above with slight perspective and connected audio/power cables, not an orthographic isolated product view. Audio input/output markings are on the side edges; rear connectors are shown separately below. Image does not prove installed OS version, exact screen diagonal, touch or monochrome-only technology.",
@@ -223656,7 +223656,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://r2.gear4music.com/media/84/844701/1200/preview.jpg",
+            "image_url": "images/mod-audio-duo-rear-0c1c38876a5f.jpg",
             "source_url": "https://www.gear4music.com/us/en/Guitar-and-Bass/MOD-Devices-MOD-Duo-Multi-Effects-Pedal/2NP1",
             "caption": "Original MOD Duo straight rear-port photograph",
             "note": "Visually inspected original Duo rear: 12V DC 2A center-positive barrel input, RJ45-shaped CONTROL CHAIN socket, USB-A and USB-B, MIDI DIN IN and OUT; all unplugged. Control Chain is not Ethernet networking. Rear does not contain the audio jacks, which are on the side edges; do not infer missing audio I/O from this photograph. No Duo X CV/SPDIF or direct analog EXP socket is shown. A small unlabeled rear hole is visible; its function/button status remains unverified rather than inventing a control.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Lexicon::MX400"
+    "last_model": "MOD Audio::Duo"
   }
 }
