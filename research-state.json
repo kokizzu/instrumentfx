@@ -224938,7 +224938,7 @@
         "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://shop.valeton.net/cdn/shop/products/DapperIndie_Front_Hi_V01_181004_1500x.png?v=1639984228",
+            "image_url": "images/valeton-dapper-indie-top-a7583e7e098f.png",
             "source_url": "https://shop.valeton.net/products/dapper-indie",
             "caption": "Near-overhead Dapper Indie manufacturer control-face image, unlit.",
             "note": "Visually 16 rotary controls, 5 footswitches and 3 type toggles. Single Echoes section confirms duplicate product prose is not extra hardware. Tuner/status strip unlit; slight perspective and visible edge, so powered-on strict perpendicular overhead remains pending.",
@@ -224948,7 +224948,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://hotmusic.jp/cdn/shop/files/DapperIndie_Top_Hi_V01_181225.jpg?v=1759306726&width=1440",
+            "image_url": "images/valeton-dapper-indie-rear-9675ad83565f.jpg",
             "source_url": "https://hotmusic.jp/products/valeton-dapper-indie",
             "caption": "Dapper Indie straight connector-panel photograph",
             "note": "Full straight-on connector edge: quarter-inch IN at left,9VDC barrel input with center-negative polarity, smaller headphone socket with headphone symbol and quarter-inch OUT at right. All four sockets visible and unplugged. The source filename says Top, but actual pixels show the connector panel, not an overhead control face. No current-draw figure legible; polarity and port positions do not establish measured consumption. [Previous angled connector view](https://shop.valeton.net/cdn/shop/products/DapperIndie_Rear_Perspective_Hi_V01_181225_1500x.png?v=1639984229).",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Dark VES-3"
+    "last_model": "Valeton::Dapper Indie"
   }
 }

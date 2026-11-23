@@ -691,13 +691,13 @@ Sources checked:
 
 **Near-overhead Dapper Indie manufacturer control-face image, unlit.**
 
-[![Near-overhead Dapper Indie manufacturer control-face image, unlit.](https://shop.valeton.net/cdn/shop/products/DapperIndie_Front_Hi_V01_181004_1500x.png?v=1639984228)](https://shop.valeton.net/cdn/shop/products/DapperIndie_Front_Hi_V01_181004_1500x.png?v=1639984228)
+[![Near-overhead Dapper Indie manufacturer control-face image, unlit.](images/valeton-dapper-indie-top-a7583e7e098f.png)](images/valeton-dapper-indie-top-a7583e7e098f.png)
 
 [Image source](https://shop.valeton.net/products/dapper-indie). Visually 16 rotary controls, 5 footswitches and 3 type toggles. Single Echoes section confirms duplicate product prose is not extra hardware. Tuner/status strip unlit; slight perspective and visible edge, so powered-on strict perpendicular overhead remains pending.
 
 **Dapper Indie straight connector-panel photograph**
 
-[![Dapper Indie straight connector-panel photograph](https://hotmusic.jp/cdn/shop/files/DapperIndie_Top_Hi_V01_181225.jpg?v=1759306726&width=1440)](https://hotmusic.jp/cdn/shop/files/DapperIndie_Top_Hi_V01_181225.jpg?v=1759306726&width=1440)
+[![Dapper Indie straight connector-panel photograph](images/valeton-dapper-indie-rear-9675ad83565f.jpg)](images/valeton-dapper-indie-rear-9675ad83565f.jpg)
 
 [Image source](https://hotmusic.jp/products/valeton-dapper-indie). Full straight-on connector edge: quarter-inch IN at left,9VDC barrel input with center-negative polarity, smaller headphone socket with headphone symbol and quarter-inch OUT at right. All four sockets visible and unplugged. The source filename says Top, but actual pixels show the connector panel, not an overhead control face. No current-draw figure legible; polarity and port positions do not establish measured consumption. [Previous angled connector view](https://shop.valeton.net/cdn/shop/products/DapperIndie_Rear_Perspective_Hi_V01_181225_1500x.png?v=1639984229).
 
