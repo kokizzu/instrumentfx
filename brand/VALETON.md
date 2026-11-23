@@ -2691,13 +2691,13 @@ Sources checked:
 
 **GP-200 powered-on overhead user photograph**
 
-[![GP-200 powered-on overhead user photograph](https://m.media-amazon.com/images/I/81vmQ2sPFdL.jpg?aicid=community-reviews)](https://m.media-amazon.com/images/I/81vmQ2sPFdL.jpg?aicid=community-reviews)
+[![GP-200 powered-on overhead user photograph](images/valeton-gp-200-top-89692c68c68d.jpg)](images/valeton-gp-200-top-89692c68c68d.jpg)
 
 [Image source](https://www.ubuy.co.id/en/product/4E72N9SYW-valeton-multi-effects-processor-multi-effects-pedal-with-expression-pedal-fx-loop-midi-i-o-guitar-bass-effects-pedal-amp-modeling-ir-cabinets). Visually inspected original black GP-200 on a patterned rug: active 01-A It’s GP-200 display, illuminated module keys, colored footswitch rings and green pedal indicator. Full enclosure, all eight footswitches, controls and complete expression pedal visible. Near-overhead photograph has slight perspective, so a strict perpendicular view remains pending. Image file is hosted on Amazon and reproduced by the linked retailer; reviewer identity is not authenticated. No firmware version, pitch polyphony or DSP percentage is inferred from the pictured patch.
 
 **Official GP-200 rear connector-edge stock image**
 
-[![Official GP-200 rear connector-edge stock image](https://shop.valeton.net/cdn/shop/products/GP-200_Top_Hi_V01_210923_1445x.png?v=1669282627)](https://shop.valeton.net/cdn/shop/products/GP-200_Top_Hi_V01_210923_1445x.png?v=1669282627)
+[![Official GP-200 rear connector-edge stock image](images/valeton-gp-200-rear-0087294bff4a.png)](images/valeton-gp-200-rear-0087294bff4a.png)
 
 [Image source](https://shop.valeton.net/products/gp-200). Visually inspected full GP-200 rear:EXP/FS,INPUT,AUX IN,RETURN,SEND,unbalanced L(MONO)/R,GND/LIFT,balanced XLR L(MONO)/R,PHONES,5-pin MIDI IN/OUT-THRU,USB-C,POWER andcenter-negativeDC9V1000mA. Shows one EXP/FS socket andeight front footswitches,not the conflicting FAQ hardware description. Placement is verified;all electrical routing is not.
 

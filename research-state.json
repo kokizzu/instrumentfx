@@ -225177,7 +225177,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://m.media-amazon.com/images/I/81vmQ2sPFdL.jpg?aicid=community-reviews",
+            "image_url": "images/valeton-gp-200-top-89692c68c68d.jpg",
             "source_url": "https://www.ubuy.co.id/en/product/4E72N9SYW-valeton-multi-effects-processor-multi-effects-pedal-with-expression-pedal-fx-loop-midi-i-o-guitar-bass-effects-pedal-amp-modeling-ir-cabinets",
             "caption": "GP-200 powered-on overhead user photograph",
             "note": "Visually inspected original black GP-200 on a patterned rug: active 01-A It’s GP-200 display, illuminated module keys, colored footswitch rings and green pedal indicator. Full enclosure, all eight footswitches, controls and complete expression pedal visible. Near-overhead photograph has slight perspective, so a strict perpendicular view remains pending. Image file is hosted on Amazon and reproduced by the linked retailer; reviewer identity is not authenticated. No firmware version, pitch polyphony or DSP percentage is inferred from the pictured patch.",
@@ -225187,7 +225187,7 @@
             "sha256": "89692c68c68d1eb125f6c241858da4f81a729c68b4f855959150aa4ade0bba55"
           },
           "rear": {
-            "image_url": "https://shop.valeton.net/cdn/shop/products/GP-200_Top_Hi_V01_210923_1445x.png?v=1669282627",
+            "image_url": "images/valeton-gp-200-rear-0087294bff4a.png",
             "source_url": "https://shop.valeton.net/products/gp-200",
             "caption": "Official GP-200 rear connector-edge stock image",
             "note": "Visually inspected full GP-200 rear:EXP/FS,INPUT,AUX IN,RETURN,SEND,unbalanced L(MONO)/R,GND/LIFT,balanced XLR L(MONO)/R,PHONES,5-pin MIDI IN/OUT-THRU,USB-C,POWER andcenter-negativeDC9V1000mA. Shows one EXP/FS socket andeight front footswitches,not the conflicting FAQ hardware description. Placement is verified;all electrical routing is not.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-180"
+    "last_model": "Valeton::GP-200"
   }
 }
