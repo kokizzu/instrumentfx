@@ -197,13 +197,13 @@ Sources checked:
 
 **Mosky RD5 control-face photograph — power state unverified**
 
-[![Mosky RD5 control-face photograph — power state unverified](https://www.moskyaudio.com/uploadfile//20261024/5db010840207b.jpg)](https://www.moskyaudio.com/uploadfile//20261024/5db010840207b.jpg)
+[![Mosky RD5 control-face photograph — power state unverified](images/mosky-rd5-top-e39b78598e4f.jpg)](images/mosky-rd5-top-e39b78598e4f.jpg)
 
 [Image source](https://www.moskyaudio.com/multi-effects/129.html). Visually inspected blue RD5 manufacturer image: ten knobs (reverb3,delay3,overdrive3,boost1), three footswitches and separate booster/buffer toggles. No display/treadle visible. Nearly overhead with slight perspective; no connected power or lit indicator establishes operation. Powered-on photo remains pending. Own [embedded manual](https://www.moskyaudio.com/uploadfile//20261024/20191211030829_23799.jpg) documents input→buffer→overdrive→booster→delay→reverb→output and all-off true bypass. Its230L×65W×35Dmm/510g differs from product230L×65W×36Hmm/490g; revision/measurement basis unresolved.
 
 **Mosky RD5 straight rear-edge port photograph**
 
-[![Mosky RD5 straight rear-edge port photograph](https://img.joomcdn.net/bb451c3c37a1f120154e6bbe8558850669ab9284_1024_1024.jpeg)](https://img.joomcdn.net/bb451c3c37a1f120154e6bbe8558850669ab9284_1024_1024.jpeg)
+[![Mosky RD5 straight rear-edge port photograph](images/mosky-rd5-rear-36dbe3559ceb.jpg)](images/mosky-rd5-rear-36dbe3559ceb.jpg)
 
 [Image source](https://www.joom.com/pt-br/products/5fc44b9b8905e30107293393). Visually inspected blue strip with the RD5 ten-knob/three-footswitch/two-toggle layout: two quarter-inch audio sockets and one barrel power input, all unplugged. Manufacturer face/manual identify INPUT/OUTPUT and9VDCcenter-negative; rear edge itself is unlabeled. No USB, MIDI, separate phones or analog EXP socket visible on this edge. This does not establish every face/internal interface, input levels, stereo processing or update capability. No RC5/DC5 photo substituted.
 
