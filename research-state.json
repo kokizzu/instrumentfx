@@ -219898,7 +219898,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/assets/images/products/main/ve-1_top_main.jpg",
+            "image_url": "images/boss-ve-1-top-059ca56dea11.jpg",
             "source_url": "https://www.boss.info/global/products/ve-1/",
             "caption": "BOSS VE-1 — top panel",
             "note": "Official straight top-down promotional photograph with illuminated echo-type, Double, Enhance and blue status indicators. No numeric/LCD display. Source is only 457 × 330 pixels, limiting small-label detail; no independent device operation.",
@@ -219908,7 +219908,7 @@
             "sha256": "059ca56dea119a2bb15470b9b89080d594cdb310e0ce3e38fa16cbebf91883be"
           },
           "rear": {
-            "image_url": "https://www.bananas.com/cdn/shop/products/ve-1_back_gal_2048x.jpg?v=1540494755",
+            "image_url": "images/boss-ve-1-rear-1876d21e14ec.jpg",
             "source_url": "https://www.bananas.com/products/boss-ve-1-vocal-echo-voice-effects-pedal",
             "caption": "BOSS VE-1 — rear connections",
             "note": "Retailer rear photograph shows MIC IN, MIC SENS, PHANTOM, PHONES/LINE OUT, XLR OUT, USB Type-B, FOOT SW, DC IN and POWER. Black-on-black molded labels have low contrast, although sockets are unobstructed. Rear photograph alone does not establish operating power state.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::VE-2"
+    "last_model": "BOSS::VE-1"
   }
 }
