@@ -3693,7 +3693,7 @@ Sources checked:
 
 **Original G1 control face**
 
-[![Original G1 control face](https://www.frimusica.com/cdn/shop/files/4c04ca63f26d75e0e60cc462ffb2a322.jpg?v=1720101134)](https://www.frimusica.com/cdn/shop/files/4c04ca63f26d75e0e60cc462ffb2a322.jpg?v=1720101134)
+[![Original G1 control face](images/zoom-g1-original-top-28d9589b5df2.jpg)](images/zoom-g1-original-top-28d9589b5df2.jpg)
 
 [Image source](https://www.frimusica.com/products/pedaleira-zoom-g1-efeitos-para-guitarra-usada). Full overhead stock image of original no-treadle G1: two rotary controls,three buttons and two footswitch pads. Red A0 display is depicted, but retailer stock artwork does not independently establish an actual powered photograph. Actual powered overhead evidence remains pending. A complete physical owner photograph below confirms display illumination, but most upper control labels are worn away. This supplements the clear labelled layout image; perspective is slight rather than strictly perpendicular. Display characters are not interpreted as a firmware version or hardware diagnosis.
 
@@ -3703,7 +3703,7 @@ Sources checked:
 
 **Original G1 rear connections**
 
-[![Original G1 rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1_rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1_rear.jpg)
+[![Original G1 rear connections](images/zoom-g1-original-rear-b936120d9193.jpg)](images/zoom-g1-original-rear-b936120d9193.jpg)
 
 [Image source](https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g1-guitar-effects-pedal). Manufacturer original G1 rear-use photograph, viewed from above the connector edge. INPUT,OUTPUT(PHONES),CONTROL IN and center-negative DC9V300mA label are visible. No USB socket is present. This exact G1 CONTROL IN must not be confused with original G1X,which omits it;300mA is supply rating,not measured consumption.
 

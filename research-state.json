@@ -226767,7 +226767,7 @@
         "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://www.frimusica.com/cdn/shop/files/4c04ca63f26d75e0e60cc462ffb2a322.jpg?v=1720101134",
+            "image_url": "images/zoom-g1-original-top-28d9589b5df2.jpg",
             "source_url": "https://www.frimusica.com/products/pedaleira-zoom-g1-efeitos-para-guitarra-usada",
             "caption": "Original G1 control face",
             "note": "Full overhead stock image of original no-treadle G1: two rotary controls,three buttons and two footswitch pads. Red A0 display is depicted, but retailer stock artwork does not independently establish an actual powered photograph. Actual powered overhead evidence remains pending. A complete physical owner photograph below confirms display illumination, but most upper control labels are worn away. This supplements the clear labelled layout image; perspective is slight rather than strictly perpendicular. Display characters are not interpreted as a firmware version or hardware diagnosis.\n\n[![Original G1 powered-on owner photograph](https://img.olx.com.br/images/11/119636240404309.jpg)](https://img.olx.com.br/images/11/119636240404309.jpg)\n\n[Powered-on photograph source](https://sp.olx.com.br/sao-paulo-e-regiao/instrumentos-musicais/pedaleira-zoom-g1-1467569555).",
@@ -226777,7 +226777,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/G1_rear.jpg",
+            "image_url": "images/zoom-g1-original-rear-b936120d9193.jpg",
             "source_url": "https://www.zoom.co.jp/products/guitar-bass-effects/guitar/g1-guitar-effects-pedal",
             "caption": "Original G1 rear connections",
             "note": "Manufacturer original G1 rear-use photograph, viewed from above the connector edge. INPUT,OUTPUT(PHONES),CONTROL IN and center-negative DC9V300mA label are visible. No USB socket is present. This exact G1 CONTROL IN must not be confused with original G1X,which omits it;300mA is supply rating,not measured consumption.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G1 FOUR"
+    "last_model": "Zoom::G1 original"
   }
 }
