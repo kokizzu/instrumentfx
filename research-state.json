@@ -229037,7 +229037,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://api.tone3000.com/storage/v1/object/public/images/7n33a0yhnc8.jpg",
+            "image_url": "images/behringer-bass-v-amp-top-fc11223d95fe.jpg",
             "source_url": "https://www.tone3000.com/tones/behringer-bass-v-amp-63008",
             "caption": "Behringer Bass V-AMP — control surface",
             "note": "Powered overhead photograph with red 1 display and illuminated knob indicators; complete control surface visible. Slightly oblique rather than exact top-down.",
@@ -229047,7 +229047,7 @@
             "sha256": "fc11223d95fe7e3bb41e63c720d52e9f6af8a05000a62d66ddb63156107828ea"
           },
           "rear": {
-            "image_url": "https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_4_20260120121706_858df3679834.jpeg",
+            "image_url": "images/behringer-bass-v-amp-rear-b6c39634ed71.jpg",
             "source_url": "https://www.jarbasinstrumentos.com.br/efeitos/pedaleira-behringer-bass-v-amp",
             "caption": "Line-output and AUX connector edge",
             "note": "Physical desktop Bass V-AMP photograph showing AUX IN, the AUX LEVEL thumbwheel and L/AMP–R/DI line outputs along the curved edge. Additional [power, MIDI IN/OUT-THRU and footswitch edge photograph](https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_3_20260120121706_e89aa0445aff.jpeg) and [instrument INPUT / PHONES photograph](https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_6_20260120121706_b98ee405c604.jpeg) cover the remaining sockets. Labels are printed on top and can be cross-checked in the [unpowered overhead layout photograph](https://images.tcdn.com.br/img/img_prod/1451947/pedaleira_behringer_bass_v_amp_7_20260120121706_eb5281c25e63.jpeg). The photographs are angled; fine labels on the far edge are soft.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Behringer::Bass V-AMP PRO"
+    "last_model": "Behringer::Bass V-AMP"
   }
 }
