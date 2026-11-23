@@ -222537,7 +222537,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://m.media-amazon.com/images/I/71c-ZjEMxrL._AC_SL1500_.jpg",
+            "image_url": "images/m-vave-cube-baby-electric-rear-24271da6b0b0.jpg",
             "source_url": "https://manuals.plus/asin/B0DP5FHK6S",
             "caption": "Electric CUBE BABY powered-on overhead and rear composite",
             "note": "Visually checked electric-model controls: TYPE/GAIN/TONE, Chorus/Phaser MOD, delay, reverb and IR; A/B/C grouped switches. Lower panel is straight overhead with colored knob illumination and BT/C indicators lit; upper panel shows the full connector face. Retailer product composite is not a hardware operation test or confirmation of every retail revision. Manual-mirror summary is not specification evidence.",
@@ -222547,7 +222547,7 @@
             "sha256": "24271da6b0b0653765744e0173673a0999ae9f58acda13fc9aa12bdeddd690ca"
           },
           "rear": {
-            "image_url": "https://m.media-amazon.com/images/I/71c-ZjEMxrL._AC_SL1500_.jpg",
+            "image_url": "images/m-vave-cube-baby-electric-rear-24271da6b0b0.jpg",
             "source_url": "https://manuals.plus/asin/B0DP5FHK6S",
             "caption": "Electric CUBE BABY rear ports — upper panel of composite",
             "note": "Upper panel clearly shows IN, power slide, USB-marked connector, separate phone-icon connector, headphone socket and OUT. The two narrow USB-shaped sockets must not be equated with two USB audio interfaces: manual distinguishes USB from mobile-phone recording. Pictured connectors are micro-USB-shaped, not USB-C; exact revision/electrical wiring remains unverified. No EXP/XLR/effects loop shown. Same inspected composite reused so no extra unverified rear image.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::Pocket Amp"
+    "last_model": "M-VAVE::CUBE BABY electric"
   }
 }

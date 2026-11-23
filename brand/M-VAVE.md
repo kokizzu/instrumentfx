@@ -672,13 +672,13 @@ Sources checked:
 
 **Electric CUBE BABY powered-on overhead and rear composite**
 
-[![Electric CUBE BABY powered-on overhead and rear composite](https://m.media-amazon.com/images/I/71c-ZjEMxrL._AC_SL1500_.jpg)](https://m.media-amazon.com/images/I/71c-ZjEMxrL._AC_SL1500_.jpg)
+[![Electric CUBE BABY powered-on overhead and rear composite](images/m-vave-cube-baby-electric-rear-24271da6b0b0.jpg)](images/m-vave-cube-baby-electric-rear-24271da6b0b0.jpg)
 
 [Image source](https://manuals.plus/asin/B0DP5FHK6S). Visually checked electric-model controls: TYPE/GAIN/TONE, Chorus/Phaser MOD, delay, reverb and IR; A/B/C grouped switches. Lower panel is straight overhead with colored knob illumination and BT/C indicators lit; upper panel shows the full connector face. Retailer product composite is not a hardware operation test or confirmation of every retail revision. Manual-mirror summary is not specification evidence.
 
 **Electric CUBE BABY rear ports — upper panel of composite**
 
-[![Electric CUBE BABY rear ports — upper panel of composite](https://m.media-amazon.com/images/I/71c-ZjEMxrL._AC_SL1500_.jpg)](https://m.media-amazon.com/images/I/71c-ZjEMxrL._AC_SL1500_.jpg)
+[![Electric CUBE BABY rear ports — upper panel of composite](images/m-vave-cube-baby-electric-rear-24271da6b0b0.jpg)](images/m-vave-cube-baby-electric-rear-24271da6b0b0.jpg)
 
 [Image source](https://manuals.plus/asin/B0DP5FHK6S). Upper panel clearly shows IN, power slide, USB-marked connector, separate phone-icon connector, headphone socket and OUT. The two narrow USB-shaped sockets must not be equated with two USB audio interfaces: manual distinguishes USB from mobile-phone recording. Pictured connectors are micro-USB-shaped, not USB-C; exact revision/electrical wiring remains unverified. No EXP/XLR/effects loop shown. Same inspected composite reused so no extra unverified rear image.
 
