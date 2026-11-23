@@ -56,13 +56,13 @@ Sources checked:
 
 **A Factory QDS-04 powered-on front/top perspective: eight rotary controls, two footswitches and both green indicators lit; no display.**
 
-[![A Factory QDS-04 powered-on front/top perspective: eight rotary controls, two footswitches and both green indicators lit; no display.](https://www.sonicake.com/cdn/shop/files/QDS-04-1.jpg?v=1702957588&width=1096)](https://www.sonicake.com/cdn/shop/files/QDS-04-1.jpg?v=1702957588&width=1096)
+[![A Factory QDS-04 powered-on front/top perspective: eight rotary controls, two footswitches and both green indicators lit; no display.](images/sonicake-a-factory-qds-04-top-83a1ae18e549.jpg)](images/sonicake-a-factory-qds-04-top-83a1ae18e549.jpg)
 
 [Image source](https://www.sonicake.com/products/a-factory). Exact A Factory confirmed. This is angled, not perpendicular overhead. The separately inspected [unlit overhead image](https://www.sonicake.com/cdn/shop/files/QDS-04_065eb2dc-da6c-4621-8478-dc7d8869c993.jpg?v=1702957588&width=1096) shows the complete top layout. Powered-on perpendicular overhead remains a gap.
 
 **A Factory official connector diagram: instrument input, main output, DC 9 V, ground-lift selector and left-side XLR output.**
 
-[![A Factory official connector diagram: instrument input, main output, DC 9 V, ground-lift selector and left-side XLR output.](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-04ManuelJP.png)](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-04ManuelJP.png)
+[![A Factory official connector diagram: instrument input, main output, DC 9 V, ground-lift selector and left-side XLR output.](images/sonicake-a-factory-qds-04-rear-1fa273cb1af3.png)](images/sonicake-a-factory-qds-04-rear-1fa273cb1af3.png)
 
 [Image source](https://www.hotone.jp/brands/sonicake/products/a-factory). Readable manufacturer regional leaflet, not a rear photograph. Eight knobs, two footswitches and one ground-lift selector confirmed; the leaflet agrees with current product-page 60 mA. A [photographic socket-detail montage](https://www.sonicake.com/cdn/shop/files/QDS-04-6.jpg?v=1702957588&width=1096) shows one audio socket and power jack. Clear complete rear/side connector photography remains a gap.
 
