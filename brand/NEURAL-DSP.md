@@ -466,13 +466,13 @@ Sources checked:
 
 **Quad Cortex powered top panel**
 
-[![Quad Cortex powered top panel](https://motorcityguitar.com/cdn/shop/files/Neural_QuadCortex_01_1400x.jpg?v=1721169826)](https://motorcityguitar.com/cdn/shop/files/Neural_QuadCortex_01_1400x.jpg?v=1721169826)
+[![Quad Cortex powered top panel](images/neural-dsp-quad-cortex-top-eb954c758247.jpg)](images/neural-dsp-quad-cortex-top-eb954c758247.jpg)
 
 [Image source](https://motorcityguitar.com/products/neural-dsp-quad-cortex-quad-core-digital-multi-effects-modeler-profiling-pedalboard). Visually inspected exact overhead retail image: illuminated touchscreen and footswitch LEDs; eleven rotary footswitches, separate master-volume knob and power control. Marketing image, not a hardware test.
 
 **Quad Cortex rear connectors**
 
-[![Quad Cortex rear connectors](https://www.gearmusic.com/gearImages/QUAD-CORTEX/10000_back.jpg)](https://www.gearmusic.com/gearImages/QUAD-CORTEX/10000_back.jpg)
+[![Quad Cortex rear connectors](images/neural-dsp-quad-cortex-rear-fc9c9da0721a.jpg)](images/neural-dsp-quad-cortex-rear-fc9c9da0721a.jpg)
 
 [Image source](https://www.gearmusic.com/store/product/neural-dsp-quad-cortex-quad-core-digital-effects-modeler-profiling-floorboard?sku=QUAD-CORTEX). Visually inspected rear angle: two combo inputs; sends/returns 1/2, OUT3/L and OUT4/R, separate capture out and headphones, XLR OUT1/L and OUT2/R, MIDI IN and THRU/OUT, EXP1/2, USB-B and 12V DC. Full Quad Cortex, not Nano or mini. Retail rendering does not establish hardware revision or test operation.
 
