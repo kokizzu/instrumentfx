@@ -6247,13 +6247,13 @@ Sources checked:
 
 **G5 powered control face**
 
-[![G5 powered control face](https://cdn.mos.cms.futurecdn.net/1355e5a9d0c6b80567bbb9e756ee7d19.jpg)](https://cdn.mos.cms.futurecdn.net/1355e5a9d0c6b80567bbb9e756ee7d19.jpg)
+[![G5 powered control face](images/zoom-g5-top-9d0b259d46ee.jpg)](images/zoom-g5-top-9d0b259d46ee.jpg)
 
 [Image source](https://www.musicradar.com/reviews/guitars/zoom-g5-549897). Powered G5 review photograph, complete near-overhead control face: four LCDs show effect graphics and the four numbered footswitch LEDs are lit. Fourteen knobs, twenty-one front keys, five footswitches and the Z-Pedal treadle are visible.
 
 **G5 rear connections**
 
-[![G5 rear connections](https://d1aeri3ty3izns.cloudfront.net/media/5/54596/1200/preview.jpg)](https://d1aeri3ty3izns.cloudfront.net/media/5/54596/1200/preview.jpg)
+[![G5 rear connections](images/zoom-g5-rear-e9ec90b4dd03.jpg)](images/zoom-g5-rear-e9ec90b4dd03.jpg)
 
 [Image source](https://www.gear4music.fr/fr/Guitare-and-Basse/Zoom-G5-Multi-Effets-pour-Guitare-et-Simulateur-dAmpli/IPR). Complete rear product photograph: INPUT with pickup selector; OUTPUT R and L/MONO; separate PHONES socket; balanced XLR with PRE/POST and ground selectors; CONTROL IN; USB Type-B; power switch; DC input and security slot. Labels are small in this image; use the linked manual for exact power and control functions.
 
