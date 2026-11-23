@@ -296,6 +296,7 @@ def commit():
  assert not publish.git('diff','--name-only')
  if any(path.startswith('brand/images/') for path in r['paths']): message='docs(images): archive '+r['model'].replace('::',' ')+' source images'
  elif 'scripts/model_images.py' in r['paths'] and 'make/images.mk' in r['paths']: message='feat(images): archive verified product photos locally'
+ elif 'make/images.mk' in r['paths']: message='feat(images): default archive target to full catalogue'
  else: message='docs(images): update '+r['model'].replace('::',' ')+' pictures'
  subprocess.run(['git','commit','-m',message],cwd=ROOT,check=True)
  subprocess.run(['git','push','origin','main:main'],cwd=ROOT,check=True)
