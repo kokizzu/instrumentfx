@@ -4204,13 +4204,13 @@ Sources checked:
 
 **MOOER Prime M2 powered-on top view**
 
-[![MOOER Prime M2 powered-on top view](https://mooer.jp/cdn/shop/files/PrimeM2SS-01.png?v=1749709834&width=1445)](https://mooer.jp/cdn/shop/files/PrimeM2SS-01.png?v=1749709834&width=1445)
+[![MOOER Prime M2 powered-on top view](images/mooer-prime-m2-top-b63834c0cb57.jpg)](images/mooer-prime-m2-top-b63834c0cb57.jpg)
 
 [Image source](https://mooer.jp/products/mooer-prime-m2). Visually inspected exact satin-silver Prime M2 overhead with illuminated tools screen and RGB strip, both footswitches and power button. The 100% battery graphic is illustrative, not a runtime measurement.
 
 **MOOER Prime M2 rear ports**
 
-[![MOOER Prime M2 rear ports](https://mooer.jp/cdn/shop/files/PrimeM2SS-02.png?v=1749709834&width=1445)](https://mooer.jp/cdn/shop/files/PrimeM2SS-02.png?v=1749709834&width=1445)
+[![MOOER Prime M2 rear ports](images/mooer-prime-m2-rear-ce00463ca295.jpg)](images/mooer-prime-m2-rear-ce00463ca295.jpg)
 
 [Image source](https://mooer.jp/products/mooer-prime-m2). Visually inspected satin-silver rear panel: MIDI, PHONES, USB-C and reset pinhole. Instrument input and separate L/R outputs are on the sides and are not shown in this rear photograph; their functions remain documented in the manual. No barrel-power or dedicated external EXP connector shown.
 
