@@ -1342,13 +1342,13 @@ Sources checked:
 
 **Pocket Amp powered-on overhead product image**
 
-[![Pocket Amp powered-on overhead product image](https://www.m-vave.com/images/productInfo/pocket-amp-1.webp)](https://www.m-vave.com/images/productInfo/pocket-amp-1.webp)
+[![Pocket Amp powered-on overhead product image](images/m-vave-pocket-amp-top-1c5d46992333.webp)](images/m-vave-pocket-amp-top-1c5d46992333.webp)
 
 [Image source](https://www.m-vave.com/product?id=pocket-amp). Manufacturer straight overhead gray Pocket Amp product image: P08 color display lit, MASTER/PARA knobs and five hand buttons clearly visible. No footswitches. Product imagery is not a hardware test or proof of touch capability/current firmware.
 
 **Pocket Amp rear ports**
 
-[![Pocket Amp rear ports](https://www.m-vave.com/images/productInfo/pocket-amp-5.webp)](https://www.m-vave.com/images/productInfo/pocket-amp-5.webp)
+[![Pocket Amp rear ports](images/m-vave-pocket-amp-rear-e37b302412dc.webp)](images/m-vave-pocket-amp-rear-e37b302412dc.webp)
 
 [Image source](https://www.m-vave.com/product?id=pocket-amp). Manufacturer full connector panel visually checked: power slide, USB-C, charge indicator, headphone socket, IN and OUT. No separate AUX/EXP/DIN MIDI or effects loop visible on pictured gray unit. This supports the manual panel inventory while retaining the manufacturer webpage AUX conflict; exact retail revision equivalence unresolved. Connector appearance alone does not establish USB functions or stereo main output. Power state unknown from rear.
 
