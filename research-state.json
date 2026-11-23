@@ -218187,7 +218187,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://i.ebayimg.com/images/g/pwYAAOSwvFdnRMHI/s-l1600.jpg",
+            "image_url": "images/digitech-rp80-top-d6f9feeef8ed.jpg",
             "source_url": "https://www.ebay.com/itm/395938223356",
             "caption": "RP80 powered-on top view",
             "note": "Visually inspected: red display reads 32 with effect LEDs illuminated. Near-overhead photograph with slight perspective.",
@@ -218197,7 +218197,7 @@
             "sha256": "d6f9feeef8ed6c8e273d9f556fed6afca669bac2b87ad8d0f36d4e3732d5fd04"
           },
           "rear": {
-            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/150846000000000-02-600x600.jpg",
+            "image_url": "images/digitech-rp80-rear-9b82bd8db1c6.jpg",
             "source_url": "https://www.guitarcenter.com/DigiTech/RP80-Modeling-Guitar-Processor-1273887997533.gc",
             "caption": "RP80 rear ports",
             "note": "Visually inspected RP80 rear: input, left/right outputs, headphones and DC power; integrated expression hinge at left.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP70"
+    "last_model": "DigiTech::RP80"
   }
 }

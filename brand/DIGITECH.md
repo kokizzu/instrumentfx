@@ -837,13 +837,13 @@ Sources checked:
 
 **RP80 powered-on top view**
 
-[![RP80 powered-on top view](https://i.ebayimg.com/images/g/pwYAAOSwvFdnRMHI/s-l1600.jpg)](https://i.ebayimg.com/images/g/pwYAAOSwvFdnRMHI/s-l1600.jpg)
+[![RP80 powered-on top view](images/digitech-rp80-top-d6f9feeef8ed.jpg)](images/digitech-rp80-top-d6f9feeef8ed.jpg)
 
 [Image source](https://www.ebay.com/itm/395938223356). Visually inspected: red display reads 32 with effect LEDs illuminated. Near-overhead photograph with slight perspective.
 
 **RP80 rear ports**
 
-[![RP80 rear ports](https://media.guitarcenter.com/is/image/MMGS7/150846000000000-02-600x600.jpg)](https://media.guitarcenter.com/is/image/MMGS7/150846000000000-02-600x600.jpg)
+[![RP80 rear ports](images/digitech-rp80-rear-9b82bd8db1c6.jpg)](images/digitech-rp80-rear-9b82bd8db1c6.jpg)
 
 [Image source](https://www.guitarcenter.com/DigiTech/RP80-Modeling-Guitar-Processor-1273887997533.gc). Visually inspected RP80 rear: input, left/right outputs, headphones and DC power; integrated expression hinge at left.
 
