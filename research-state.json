@@ -225495,7 +225495,7 @@
         "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://cdn.mos.cms.futurecdn.net/91b0a40b6b6d40c795a34cdc09c21b48.jpg",
+            "image_url": "images/vox-stomplab-1g-top-fdd69a386695.jpg",
             "source_url": "https://www.musicradar.com/reviews/guitars/vox-stomplab-ig-570612",
             "caption": "StompLab 1G unlit overhead review photograph",
             "note": "Complete near-perpendicular control face; display and indicators dark. Three knobs, three small buttons and both footswitches visible. Review photograph provides layout evidence, not powered operation. Guitar-category labels and absence of treadle distinguish1G from red1B and treadle-equipped2G. Powered-on whole-unit overhead photograph remains pending. [Previous official active-display product graphic](https://voxamps.com/wp-content/uploads/2019/02/SL1G-Stomplab-Guitar-Multi-Effect-1.png).",
@@ -225505,7 +225505,7 @@
             "sha256": "fdd69a386695c142ad81dd4a08d7621f11ad8d5f2f3cdb03262ef1f49db4a7b8"
           },
           "rear": {
-            "image_url": "https://voxampshop.com/cdn/shop/files/Stomplab-1G-Guitar-Effect-Processor-Vox-Amp-Shop-846_1200x.jpg?v=1687380184",
+            "image_url": "images/vox-stomplab-1g-rear-7732ba148f7c.jpg",
             "source_url": "https://voxampshop.com/products/sl1g",
             "caption": "Official VOX StompLab 1G rear-port shop image",
             "note": "Visually inspected exact rear marked StompLab IG: INPUT, shared OUTPUT/PHONES(STEREO/MONO), POWER button and center-negative DC9V socket. Complete rear row readable; no USB/MIDI or EXP socket shown. This verifies physical placement and polarity, not internal firmware or measured operation.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::StompLab 1B"
+    "last_model": "VOX::StompLab 1G"
   }
 }
