@@ -224165,7 +224165,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/tc-electronic-plethora-x3-5819442.jpg",
+            "image_url": "images/tc-electronic-plethora-x3-top-0279c3cd4c3a.jpg",
             "source_url": "https://fr.audiofanzine.com/multieffet-guitare-electrique/tc-electronic/plethora-x3/",
             "caption": "PLETHORA X3 — powered-on overhead photograph",
             "note": "Actual white X3 with lit Hall of Fame 2, Flashback 2 and Sub N Up displays and slot LED. Complete near-perpendicular top view corroborates five rotary controls, three MASH footswitches and two selector toggles; no built-in treadle. Image does not identify installed firmware or prove octave input polyphony.",
@@ -224175,7 +224175,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://r2.gear4music.com/media/117/1177913/1200/preview.jpg",
+            "image_url": "images/tc-electronic-plethora-x3-rear-6fea881724cd.jpg",
             "source_url": "https://www.gear4music.com/Guitar-and-Bass/TC-Electronic-PLETHORA-X3-TonePrint-Pedalboard-Secondhand/6YWW",
             "caption": "PLETHORA X3 — actual rear and top photograph",
             "note": "Unpowered secondhand white X3, angled from behind: MONO/STEREO input pair, MONO/STEREO output pair, 9V600mA center-negative DC IN, Mini-B USB, five-pin MIDI IN and THRU. No analog EXP, headphones or insert loop in this complete rear row, consistent with the exact-model guide. These are two audio channels per pair, not a dedicated stereo headphone socket. No functional or current-draw test; top powered photo is a different unit.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC Electronic::NOVA System"
+    "last_model": "TC Electronic::PLETHORA X3"
   }
 }
