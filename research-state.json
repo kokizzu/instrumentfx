@@ -225832,7 +225832,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://media.musiciansfriend.com/is/image/MMGS7/Magicstomp-EB/151561000000000-00-1600x1600.jpg",
+            "image_url": "images/yamaha-magicstomp-bass-top-1389bdfa74a2.webp",
             "source_url": "https://www.musiciansfriend.com/amplifiers-effects/yamaha-magicstomp-eb",
             "caption": "Magicstomp Bass control face",
             "note": "Visually checked black BASS EFFECTS PROCESSOR-labelled stock image, green U99 MAGICSTOMP display and red indicators depicted. Four knobs, three footswitches, one STORE/EXIT button; no treadle. Near-overhead control-face view with rear edge visible; exact top-down and independent actual powered-unit confirmation remain pending. Screen text is not a firmware-version readout.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::Magicstomp Acoustic"
+    "last_model": "Yamaha::Magicstomp Bass"
   }
 }
