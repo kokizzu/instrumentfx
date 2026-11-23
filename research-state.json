@@ -228136,7 +228136,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/assets/images/products/gallery/me-25_top_gal.jpg",
+            "image_url": "images/boss-me-25-top-324a17991ae0.jpg",
             "source_url": "https://www.boss.info/global/products/me-25/",
             "caption": "BOSS ME-25 — powered-on top view",
             "note": "Complete manufacturer straight-down promotional view with lit red 25 display, blue Super Stack indicator, red Pedal FX and Solo indicators, four rotary controls, nine panel buttons, three footswitches and full expression pedal. Powered-on appearance is visible; independent operating-state verification is unavailable.",
@@ -228146,7 +228146,7 @@
             "sha256": "324a17991ae0b54368ee698a53b9a594edd02b79ade0a457d94ffb566b4f7114"
           },
           "rear": {
-            "image_url": "https://static.roland.com/assets/images/products/gallery/me-25_back_gal.jpg",
+            "image_url": "images/boss-me-25-rear-54447af7d8f4.jpg",
             "source_url": "https://www.boss.info/global/products/me-25/",
             "caption": "BOSS ME-25 — rear connections",
             "note": "Complete manufacturer rear-panel image: INPUT with POWER ON marking, miniature AUX IN, OUTPUT R/L-MONO, quarter-inch PHONES, USB-B AUDIO, DC IN for PSA adaptor and security slot.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::ME-70"
+    "last_model": "BOSS::ME-25"
   }
 }

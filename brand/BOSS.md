@@ -5455,13 +5455,13 @@ Sources checked:
 
 **BOSS ME-25 — powered-on top view**
 
-[![BOSS ME-25 — powered-on top view](https://static.roland.com/assets/images/products/gallery/me-25_top_gal.jpg)](https://static.roland.com/assets/images/products/gallery/me-25_top_gal.jpg)
+[![BOSS ME-25 — powered-on top view](images/boss-me-25-top-324a17991ae0.jpg)](images/boss-me-25-top-324a17991ae0.jpg)
 
 [Image source](https://www.boss.info/global/products/me-25/). Complete manufacturer straight-down promotional view with lit red 25 display, blue Super Stack indicator, red Pedal FX and Solo indicators, four rotary controls, nine panel buttons, three footswitches and full expression pedal. Powered-on appearance is visible; independent operating-state verification is unavailable.
 
 **BOSS ME-25 — rear connections**
 
-[![BOSS ME-25 — rear connections](https://static.roland.com/assets/images/products/gallery/me-25_back_gal.jpg)](https://static.roland.com/assets/images/products/gallery/me-25_back_gal.jpg)
+[![BOSS ME-25 — rear connections](images/boss-me-25-rear-54447af7d8f4.jpg)](images/boss-me-25-rear-54447af7d8f4.jpg)
 
 [Image source](https://www.boss.info/global/products/me-25/). Complete manufacturer rear-panel image: INPUT with POWER ON marking, miniature AUX IN, OUTPUT R/L-MONO, quarter-inch PHONES, USB-B AUDIO, DC IN for PSA adaptor and security slot.
 
