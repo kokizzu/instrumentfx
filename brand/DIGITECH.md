@@ -1395,13 +1395,13 @@ Sources checked:
 
 **DigiTech RP250 — powered-on complete control face, angled view**
 
-[![DigiTech RP250 — powered-on complete control face, angled view](https://medias.audiofanzine.com/images/normal/digitech-rp250-2449228.jpeg)](https://medias.audiofanzine.com/images/normal/digitech-rp250-2449228.jpeg)
+[![DigiTech RP250 — powered-on complete control face, angled view](images/digitech-rp250-top-334b90723bad.jpg)](images/digitech-rp250-top-334b90723bad.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP250/). Audiofanzine user photograph visually inspected: RP250 model marking, illuminated green preset display and effect-status LEDs, all four rotary knob caps, both footswitches and full expression treadle visible. Camera is tilted with perspective, so the requested straight overhead replacement remains pending. Replaces the unlit retailer image with a missing Master Level knob cap; this photographed unit has that cap. Photo establishes lit indicators, not an audio test.
 
 **DigiTech RP250 — rear connections**
 
-[![DigiTech RP250 — rear connections](https://media.guitarcenter.com/is/image/MMGS7/156607000000000-01-600x600.jpg)](https://media.guitarcenter.com/is/image/MMGS7/156607000000000-01-600x600.jpg)
+[![DigiTech RP250 — rear connections](images/digitech-rp250-rear-37310966f3ac.webp)](images/digitech-rp250-rear-37310966f3ac.webp)
 
 [Image source](https://www.guitarcenter.com/Open-Box/DigiTech/RP250-Guitar-Multi-Effects-Pedal-Level-1-156607004000000.gc). Retailer rear product photograph shows INPUT, AMP/MIXER switch, LEFT (Mono)/RIGHT outputs, headphones, AUX IN, USB Type-B and power. Chassis label reads 9VAC 1.3A. Source is 600 × 600 pixels with broad margins; small-label detail is limited. Separate photographed unit from top view; operating power state unverified.
 

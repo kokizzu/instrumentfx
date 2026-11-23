@@ -220163,7 +220163,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/digitech-rp250-2449228.jpeg",
+            "image_url": "images/digitech-rp250-top-334b90723bad.jpg",
             "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/digitech/RP250/",
             "caption": "DigiTech RP250 — powered-on complete control face, angled view",
             "note": "Audiofanzine user photograph visually inspected: RP250 model marking, illuminated green preset display and effect-status LEDs, all four rotary knob caps, both footswitches and full expression treadle visible. Camera is tilted with perspective, so the requested straight overhead replacement remains pending. Replaces the unlit retailer image with a missing Master Level knob cap; this photographed unit has that cap. Photo establishes lit indicators, not an audio test.",
@@ -220173,7 +220173,7 @@
             "sha256": "334b90723bad1c78547d7a743e7fbe8cc5f4ef611f597ad50476dadf299edcdb"
           },
           "rear": {
-            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/156607000000000-01-600x600.jpg",
+            "image_url": "images/digitech-rp250-rear-37310966f3ac.webp",
             "source_url": "https://www.guitarcenter.com/Open-Box/DigiTech/RP250-Guitar-Multi-Effects-Pedal-Level-1-156607004000000.gc",
             "caption": "DigiTech RP250 — rear connections",
             "note": "Retailer rear product photograph shows INPUT, AMP/MIXER switch, LEFT (Mono)/RIGHT outputs, headphones, AUX IN, USB Type-B and power. Chassis label reads 9VAC 1.3A. Source is 600 × 600 pixels with broad margins; small-label detail is limited. Separate photographed unit from top view; operating power state unverified.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP255"
+    "last_model": "DigiTech::RP250"
   }
 }
