@@ -46,13 +46,13 @@ Sources checked:
 
 **iE-350 top-down product render with active screen**
 
-[![iE-350 top-down product render with active screen](https://etone.shop/cdn/shop/files/DKIE350GuitarMulti-EffectsPedalboardMainFront_2000x.png?v=1755586382)](https://etone.shop/cdn/shop/files/DKIE350GuitarMulti-EffectsPedalboardMainFront_2000x.png?v=1755586382)
+[![iE-350 top-down product render with active screen](images/dk-ie-350-top-2b1617d1d2a4.jpg)](images/dk-ie-350-top-2b1617d1d2a4.jpg)
 
 [Image source](https://etone.shop/products/dk-ie350-guitar-multi-effects-pedalboard-with-built-in-rechargeable-battery). Visually inspected retailer product render: P01 Lead 350 screen and blue switch rings depicted active. Not a verified photograph of powered hardware. Rear connector-panel product render is provided below; real hardware photographs remain pending.
 
 **iE-350 rear connector-panel product render**
 
-[![iE-350 rear connector-panel product render](https://etone.shop/cdn/shop/files/DKIE350GuitarMulti-EffectsPedalboardConnects_5000x.png?v=1755589355)](https://etone.shop/cdn/shop/files/DKIE350GuitarMulti-EffectsPedalboardConnects_5000x.png?v=1755589355)
+[![iE-350 rear connector-panel product render](images/dk-ie-350-rear-04e0f0f42e40.jpg)](images/dk-ie-350-rear-04e0f0f42e40.jpg)
 
 [Image source](https://etone.shop/products/dk-ie350-guitar-multi-effects-pedalboard-with-built-in-rechargeable-battery). Visually inspected retailer render clearly shows EXP, IN, OUT /PHONES, USB OTG Type-C and POWER OFF/ON controls. White chassis matches the exact iE-350 listing. This is a product render, not a verified photograph of physical hardware or proof of electrical operation.
 
