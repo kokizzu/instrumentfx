@@ -44,13 +44,13 @@ Sources checked:
 
 **Near-overhead manufacturer control-face image with illuminated controls and tuner indication.**
 
-[![Near-overhead manufacturer control-face image with illuminated controls and tuner indication.](https://www.tech21nyc.com/wp-content/uploads/2018/12/acoustic_flyrig-2-1024x224.png)](https://www.tech21nyc.com/wp-content/uploads/2018/12/acoustic_flyrig-2-1024x224.png)
+[![Near-overhead manufacturer control-face image with illuminated controls and tuner indication.](images/tech-21-acoustic-fly-rig-top-f760627672a3.png)](images/tech-21-acoustic-fly-rig-top-f760627672a3.png)
 
 [Image source](https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/). Stock image shows colored illuminated knobs and tuner C/green indication; independent powered hardware is not verified. Slight perspective, not strict perpendicular overhead. Visually 14 rotary knobs, 5 footswitches and 6 small pushbuttons. Transparent cutout; not a live operating test.
 
 **Long connector edge: quarter-inch IN, quarter-inch OUT and center-negative DC input.**
 
-[![Long connector edge: quarter-inch IN, quarter-inch OUT and center-negative DC input.](https://www.altomusic.com/cdn/shop/files/FRACOUS_0.jpg?v=1692039658&width=1946)](https://www.altomusic.com/cdn/shop/files/FRACOUS_0.jpg?v=1692039658&width=1946)
+[![Long connector edge: quarter-inch IN, quarter-inch OUT and center-negative DC input.](images/tech-21-acoustic-fly-rig-rear-bd77eb567758.jpg)](images/tech-21-acoustic-fly-rig-rear-bd77eb567758.jpg)
 
 [Image source](https://www.altomusic.com/products/tech-21-fracous-fracous). Unlit stock view. IN/OUT and DC polarity are visible; voltage/current are not labeled legibly here. The balanced XLR on another edge is outside this view, so this is not a complete all-edge port inventory. No extra connector inferred from protruding top-face actuators.
 
