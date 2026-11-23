@@ -1270,13 +1270,13 @@ Sources checked:
 
 **DigiTech RP200 overhead product image — active display shown**
 
-[![DigiTech RP200 overhead product image — active display shown](https://static.wixstatic.com/media/862cbd_1a252297d2aa4d05bde3f62577a76db9~mv2.jpg/v1/fit/w_500%2Ch_500%2Cq_90/file.jpg)](https://static.wixstatic.com/media/862cbd_1a252297d2aa4d05bde3f62577a76db9~mv2.jpg/v1/fit/w_500%2Ch_500%2Cq_90/file.jpg)
+[![DigiTech RP200 overhead product image — active display shown](images/digitech-rp200-top-081686fce116.jpg)](images/digitech-rp200-top-081686fce116.jpg)
 
 [Image source](https://www.musicsoundcyprus.com/product-page/digitech-rp200-bass-multi-effect-processor). Visually inspected original RP200 layout, blue footswitches, three controls and complete expression pedal; display shows ROCKIN. No Artist marking is present. Near-straight overhead studio product image, with a narrow rear edge visible; physical powered operation cannot be independently authenticated from this artwork. A confirmed powered-on hardware photograph remains pending. The earlier [unlit used-unit photograph](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409595/YDIGITECH13888604__84328.1722248341.jpg?c=1) remains available for physical appearance comparison. Seller URL says bass, but panel identity is RP200; no bass-specific specification is adopted. Powered-on gallery and marketplace candidates were rejected after their panels revealed red Artist script and a DRUMS row; neither is evidence for this original RP200 variant.
 
 **DigiTech RP200 — rear connections**
 
-[![DigiTech RP200 — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409594/YDIGITECH13888603__16435.1722248341.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/62650/409594/YDIGITECH13888603__16435.1722248341.jpg?c=1)
+[![DigiTech RP200 — rear connections](images/digitech-rp200-rear-5221c5e35d20.jpg)](images/digitech-rp200-rear-5221c5e35d20.jpg)
 
 [Image source](https://richtonemusic.co.uk/digitech-rp200-multi-fx-pedal-psu-2nd-hand/). Angled rear-edge photograph from the same original-RP200 listing shows INPUT, JAM-A-LONG, OUTPUT, headphone socket and power input. All sockets visible; perspective limits small power-label readability, so no rating is inferred from this image. Operating power state unverified.
 
