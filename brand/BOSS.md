@@ -2177,13 +2177,13 @@ Sources checked:
 
 **BOSS GT-10 — powered-on top view**
 
-[![BOSS GT-10 — powered-on top view](https://static.roland.com/assets/images/products/main/gt_10_top_main.jpg)](https://static.roland.com/assets/images/products/main/gt_10_top_main.jpg)
+[![BOSS GT-10 — powered-on top view](images/boss-gt-10-top-ce862fed3e80.jpg)](images/boss-gt-10-top-ce862fed3e80.jpg)
 
 [Image source](https://www.boss.info/global/products/gt-10/). Complete manufacturer straight-down promotional image with active red U01 bank display, blue LCD, effect/foot controls illuminated and full expression pedal. All controls are visible, but the original is only 500 pixels wide, limiting small-label readability. Powered-on appearance is visible; independent operating-state verification is unavailable.
 
 **BOSS GT-10 — rear connections**
 
-[![BOSS GT-10 — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/48073/246615/YBOSS12536403__34172.1682334186.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/48073/246615/YBOSS12536403__34172.1682334186.jpg?c=1)
+[![BOSS GT-10 — rear connections](images/boss-gt-10-rear-54c93cfe94c8.jpg)](images/boss-gt-10-rear-54c93cfe94c8.jpg)
 
 [Image source](https://richtonemusic.co.uk/boss-gt-10-guitar-effects-processor-2nd-hand/). Actual retailer photograph of an unpowered used unit, viewed diagonally from behind. The entire connector row is visible: INPUT, OUTPUT R/L-MONO, PHONES, EXT LOOP SEND/RETURN, AMP CONTROL, EXP PEDAL2/CTL3/4, USB-B, coaxial DIGITAL OUT, MIDI OUT/IN, power switch, DC IN for PSB-1U adaptor, cord restraint, ground terminal and security slot. Fine labels at the far end are less readable because of perspective.
 
