@@ -208,13 +208,13 @@ Sources checked:
 
 **505II powered control face**
 
-[![505II powered control face](https://i.ebayimg.com/images/g/h2IAAeSwCpRouhU3/s-l960.jpg)](https://i.ebayimg.com/images/g/h2IAAeSwCpRouhU3/s-l960.jpg)
+[![505II powered control face](images/zoom-505ii-top-f70e4bcdc10e.jpg)](images/zoom-505ii-top-f70e4bcdc10e.jpg)
 
 [Image source](https://www.ebay.com/itm/317242193977). Visually checked full powered 505II GUITAR overhead, slight perspective; red A1 patch display illuminated. One rotary PLAY/EDIT selector, two rocker footswitches, STORE and two +/− keys (the round-looking right control is a paired key assembly, not another rotary). No built-in expression treadle. A1 is a patch, not firmware.
 
 **505II rear connectors**
 
-[![505II rear connectors](https://i.ebayimg.com/images/g/FTEAAeSwLWdo~HAF/s-l1200.jpg)](https://i.ebayimg.com/images/g/FTEAAeSwLWdo~HAF/s-l1200.jpg)
+[![505II rear connectors](images/zoom-505ii-rear-535807d83919.jpg)](images/zoom-505ii-rear-535807d83919.jpg)
 
 [Image source](https://www.ebay.com/itm/376710468681). Visually checked 505II GUITAR rear: INPUT, DC9V, CONTROL IN and shared OUTPUT (PHONES), all four sockets visible. Embossed 300mA label is supply specification, not measured draw. No separate headphone socket. Display unlit and no cables in this rear view; different photographed unit from powered top.
 
