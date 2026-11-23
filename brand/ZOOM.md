@@ -10316,13 +10316,13 @@ Sources checked:
 
 **V3 control face**
 
-[![V3 control face](https://zoomcorp.com/media/original_images/V3_top_0.jpg.0x800_q80_crop-%2Cscale_focal_area-1880%2C1640%2C3485%2C2868_size_canvas.jpg)](https://zoomcorp.com/media/original_images/V3_top_0.jpg.0x800_q80_crop-%2Cscale_focal_area-1880%2C1640%2C3485%2C2868_size_canvas.jpg)
+[![V3 control face](images/zoom-v3-top-6e0065be55c4.jpg)](images/zoom-v3-top-6e0065be55c4.jpg)
 
 [Image source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/). Manufacturer complete straight-down control face with illuminated HARMONY, ENHANCE, harmony buttons and green CLIP/power indicator. Five top rotary controls, 16 effect pads, ENHANCE/EFFECT OFF and five harmony buttons visible. Promotional illumination is not independently verified.
 
 **V3 rear connections**
 
-[![V3 rear connections](https://zoomcorp.com/media/original_images/V3_Rear_0.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg)](https://zoomcorp.com/media/original_images/V3_Rear_0.jpg.0x800_q80_crop-%2Cscale_size_canvas.jpg)
+[![V3 rear connections](images/zoom-v3-rear-165aac007d7c.jpg)](images/zoom-v3-rear-165aac007d7c.jpg)
 
 [Image source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/). Manufacturer complete rear view: XLR MIC IN, PHANTOM switch, mic VOLUME, AUX IN, OUTPUT R/L, USB Micro-B DC5V, PHONES and its VOLUME, power switch, center-negative DC9V and CONTROL IN. Threaded mounting point and security slot also visible.
 
