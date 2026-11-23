@@ -228086,7 +228086,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://static.roland.com/assets/images/products/gallery/me-80_top_gal.jpg",
+            "image_url": "images/boss-me-80-top-3c28d0a9d6ed.jpg",
             "source_url": "https://www.boss.info/global/products/me-80/",
             "caption": "BOSS ME-80 — powered-on top view",
             "note": "Complete manufacturer straight-down promotional view with lit red 80 display, section and footswitch LEDs, green Manual indicator, all rotary sections, four panel buttons, eight footswitches and full expression pedal. Powered-on appearance is visible; independent operating-state verification is unavailable.",
@@ -228096,7 +228096,7 @@
             "sha256": "3c28d0a9d6edeec70ce4854383bcc1fb1fbf85ff50246aca925eb51c561d1fc2"
           },
           "rear": {
-            "image_url": "https://www.chicagomusicexchange.com/cdn/shop/products/boss-effects-and-pedals-multi-effect-unit-boss-me-80-multiple-guitar-effects-looper-me80-17181782179975.jpg?v=1649435342&width=1946",
+            "image_url": "images/boss-me-80-rear-f78d6f6a2b35.jpg",
             "source_url": "https://www.chicagomusicexchange.com/products/boss-me-80-multiple-guitar-effects-looper-9667",
             "caption": "BOSS ME-80 — rear connections",
             "note": "Retailer photograph showing the complete rear panel: GUITAR INPUT, Gt. AMP OUTPUT R/L-MONO, miniature REC OUT/PHONES and AUX IN, USB-B COMPUTER, power switch, DC IN for PSA adaptor, cord restraint and security slot. Large white margins do not crop any connector.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GT-100"
+    "last_model": "BOSS::ME-80"
   }
 }
