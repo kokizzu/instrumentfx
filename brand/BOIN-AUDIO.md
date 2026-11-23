@@ -42,13 +42,13 @@ Sources checked:
 
 **Powered top-down control surface — rose-gold finish**
 
-[![Powered top-down control surface — rose-gold finish](https://taodangmusic.com/71476-thickbox_default/boin-audio-bg-300-multi-effects-processor-guitar-effect.jpg)](https://taodangmusic.com/71476-thickbox_default/boin-audio-bg-300-multi-effects-processor-guitar-effect.jpg)
+[![Powered top-down control surface — rose-gold finish](images/boin-audio-bg300-top-45beace15891.jpg)](images/boin-audio-bg300-top-45beace15891.jpg)
 
 [Image source](https://taodangmusic.com/en/multi-effect/10078-boin-audio-bg-300-multi-effects-processor-guitar-effect.html). Retailer overhead photograph showing the complete BG300 enclosure, expression pedal and both illuminated footswitch rings, with the display active at P01 BG Sound. The rose-gold finish differs from the black rear-view unit. The fine footswitch legends have low contrast; a [larger powered black-unit close-up](https://nafiriguitar.com/cdn/shop/files/45A0F41C-AF89-48D2-9F88-5D485B501851.jpg?v=1755354778&width=2048) was also visually checked.
 
 **Rear connector edge — black finish**
 
-[![Rear connector edge — black finish](https://nafiriguitar.com/cdn/shop/files/9B0829A9-F409-4EC3-9E62-5EDDCE2F4A11.jpg?v=1755354778&width=2048)](https://nafiriguitar.com/cdn/shop/files/9B0829A9-F409-4EC3-9E62-5EDDCE2F4A11.jpg?v=1755354778&width=2048)
+[![Rear connector edge — black finish](images/boin-audio-bg300-rear-e5df38dbfc39.jpg)](images/boin-audio-bg300-rear-e5df38dbfc39.jpg)
 
 [Image source](https://nafiriguitar.com/products/boin-audio-bg300-guitar-multi-effects-processor). All rear connectors and the power switch are visible with readable labels: IN, OUT/PHONES, USB-C and POWER OFF/ON. The view is angled and rotated, but no socket is hidden.
 
