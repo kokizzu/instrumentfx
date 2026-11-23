@@ -652,13 +652,13 @@ Sources checked:
 
 **Original Magicstomp Guitar control face**
 
-[![Original Magicstomp Guitar control face](https://img.tradera.net/images/282/626015282_695c3412-bc4f-419d-9fef-5b4e08f11ca3.jpg)](https://img.tradera.net/images/282/626015282_695c3412-bc4f-419d-9fef-5b4e08f11ca3.jpg)
+[![Original Magicstomp Guitar control face](images/yamaha-magicstomp-original-guitar-top-0b4b5f97cbe0.jpg)](images/yamaha-magicstomp-original-guitar-top-0b4b5f97cbe0.jpg)
 
 [Image source](https://www.tradera.com/item/301973/707607696/yamaha-magicstomp-guitar-effects-processor). Visually checked whole original Guitar unit from above in perspective: AC cable connected, bright U57 PingPongDly LCD and illuminated center indicator. Four knobs, three footswitches and STORE button; no PHONES top-edge label. Includes adapter/manuals in the frame. Indexed original Tradera listing now redirects to a category, but its image remains accessible. Photograph verifies visible powered state, not firmware revision or audio performance.
 
 **Original Magicstomp Guitar rear connectors**
 
-[![Original Magicstomp Guitar rear connectors](https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/36808/604920/d2485a99-b2e2-523d-8e37-51d052036ad9__67893.1763269151.jpg?c=2)](https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/36808/604920/d2485a99-b2e2-523d-8e37-51d052036ad9__67893.1763269151.jpg?c=2)
+[![Original Magicstomp Guitar rear connectors](images/yamaha-magicstomp-original-guitar-rear-aeec4a1a68a6.jpg)](images/yamaha-magicstomp-original-guitar-rear-aeec4a1a68a6.jpg)
 
 [Image source](https://www.creamcitymusic.com/used-yamaha-magicstomp-multi-effects-pedal/). Visually checked complete original rear: INPUT, separate HIGH/LOW input-level slider, OUTPUT R and L/MONO, USB-B, AC IN and cable-retaining hook. HIGH/LOW are switch positions, not two inputs. No dedicated PHONES, analog EXP, MIDI DIN or XLR in this row; no connected cables. AC voltage/current follow own manual, not a guessed DC center polarity.
 
