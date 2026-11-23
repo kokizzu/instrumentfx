@@ -1002,7 +1002,7 @@ Sources checked:
 
 **SPX990 rear connectors**
 
-[![SPX990 rear connectors](https://distrio-marketing.myshopify.com/cdn/shop/products/IMG_E4006_distrio_900x.jpg?v=1628775173)](https://distrio-marketing.myshopify.com/cdn/shop/products/IMG_E4006_distrio_900x.jpg?v=1628775173)
+[![SPX990 rear connectors](images/yamaha-spx990-rear-6b0854b12953.jpg)](images/yamaha-spx990-rear-6b0854b12953.jpg)
 
 [Image source](https://distrio-marketing.myshopify.com/products/yamaha-spx990-professional-multi-effect-processor-2292-used). Visually checked full rear and top chassis: captive mains lead; FOOT SW BYPASS/INC-DEC-MEMORY and TRIGGER; MIDI OUT/THRU selector plus MIDI IN; analog OUTPUT and INPUT L/R XLR/quarter-inch pairs with separate−20/+4dB selectors. No USB, dedicated digital-audio I/O, PHONES or analog EXP socket shown. Footswitch jacks are switch inputs; continuous control follows separate MIDI assignments. Marked120V25W60Hz specimen; no universal-voltage inference. Rear photograph does not reveal powered state;900px image limits fine-print inspection.
 
