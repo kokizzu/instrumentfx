@@ -739,13 +739,13 @@ Sources checked:
 
 **Powered control surface and rear edge**
 
-[![Powered control surface and rear edge](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_64/641920/21204685_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_64/641920/21204685_800.jpg)
+[![Powered control surface and rear edge](images/audota-ave-100-top-4cf96cfd9140.jpg)](images/audota-ave-100-top-4cf96cfd9140.jpg)
 
 [Image source](https://www.thomannmusic.com/audota_ave_100_vocal_multi_effects.htm). Retailer photograph showing illuminated knob rings and both switching pads, with the complete control face visible. The unit is upside down in the image and viewed obliquely; its 600-pixel canvas makes fine labels small. The [manufacturer control-layout render](https://audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/AVE-100/AVE-100%E6%AD%A3%E8%A7%86%E5%9B%BE.png) provides a larger upright reference. A larger powered exactly top-down photograph remains pending.
 
 **Complete rear connector render**
 
-[![Complete rear connector render](https://audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/AVE-100/AVE-100%E5%90%8E%E8%A7%86%E5%9B%BE.png)](https://audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/AVE-100/AVE-100%E5%90%8E%E8%A7%86%E5%9B%BE.png)
+[![Complete rear connector render](images/audota-ave-100-rear-d6855d618e95.png)](images/audota-ave-100-rear-d6855d618e95.png)
 
 [Image source](https://www.audota.com/AVE100EN.html). Manufacturer render showing LEFT/RIGHT outputs, headphone socket, MIC/LINE combo input, 48 V phantom switch, AUX IN, OTG USB-C, 9 V DC power and rocker power switch. Every connector and label is unobstructed. The powered physical photograph above independently shows this rear edge, but a larger dedicated physical rear photograph remains pending.
 
