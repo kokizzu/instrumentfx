@@ -2210,13 +2210,13 @@ Sources checked:
 
 **B2 FOUR control face**
 
-[![B2 FOUR control face](https://cdn.basschat.co.uk/monthly_2024_08/17236289954342097205021630085147.jpg.b2c8f47b05a08b22191175970284c314.jpg)](https://cdn.basschat.co.uk/monthly_2024_08/17236289954342097205021630085147.jpg.b2c8f47b05a08b22191175970284c314.jpg)
+[![B2 FOUR control face](images/zoom-b2-four-top-9908076b6355.jpg)](images/zoom-b2-four-top-9908076b6355.jpg)
 
 [Image source](https://www.basschat.co.uk/topic/498891-zoom-b2-four-sold/). Actual powered B2 FOUR photographed from above with slight perspective; full control face, blue LCD at288:General, tube3 and effect1–3 LEDs lit. Four rotary controls, six metal switches (navigation center, DI MODEL,1–3,ALL BYPASS) and four navigation pads are visible. This distinguishes switch hardware from multiple hold functions.
 
 **B2 FOUR rear connections**
 
-[![B2 FOUR rear connections](https://zoomcorp.com/media/original_images/Outputs_1_GKRRolE.jpg.1400x800_q80_crop_focal_area-1599%2C900%2C3201%2C1800_size_canvas_upscale_zoom-50.jpg)](https://zoomcorp.com/media/original_images/Outputs_1_GKRRolE.jpg.1400x800_q80_crop_focal_area-1599%2C900%2C3201%2C1800_size_canvas_upscale_zoom-50.jpg)
+[![B2 FOUR rear connections](images/zoom-b2-four-rear-f96eb62c1d77.jpg)](images/zoom-b2-four-rear-f96eb62c1d77.jpg)
 
 [Image source](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/). Manufacturer photograph of actual powered B2 FOUR rear. Ground lift, balanced XLR, input impedance switch, INPUT, AUX INPUT, stereo OUTPUT, EXPRESSION PEDAL, security slot, POWER and DC9V are visible; connected cables partly obscure labels. PHONES and USB-C are side connections, not visible here.
 
