@@ -479,13 +479,13 @@ Sources checked:
 
 **Korg AX5G powered-on top controls — near-overhead view**
 
-[![Korg AX5G powered-on top controls — near-overhead view](https://i.ebayimg.com/images/g/TtEAAeSwOZ9pPYY1/s-l1200.jpg)](https://i.ebayimg.com/images/g/TtEAAeSwOZ9pPYY1/s-l1200.jpg)
+[![Korg AX5G powered-on top controls — near-overhead view](images/korg-ax5g-top-6208deed2abc.jpg)](images/korg-ax5g-top-6208deed2abc.jpg)
 
 [Image source](https://www.ebay.com/p/78745270?iid=396389095624). Exact AX5G label, illuminated 77 display, footswitch indicators and volume-pedal LED are visible. Complete top surface and expression pedal shown with slight perspective; an exactly perpendicular powered-on view remains pending. A red AX5-family rear image returned under an AX5G listing was excluded because exact guitar-model identity was not established.
 
 **AX5G rear connector panel**
 
-[![AX5G rear connector panel](https://guitar-saloon.ru/uploaded/images/shop/goods/15355-3.jpg)](https://guitar-saloon.ru/uploaded/images/shop/goods/15355-3.jpg)
+[![AX5G rear connector panel](images/korg-ax5g-rear-2bf0e803acbf.jpg)](images/korg-ax5g-rear-2bf0e803acbf.jpg)
 
 [Image source](https://guitar-saloon.ru/shop/goods/Korg_AX5G_gitarnyiy_protsessor_USED-15355). Complete rear connector group visible in an angled photograph: cable hook, DC9V power socket, INPUT and OUTPUT. Exact guitar-model identity is cross-checked against the same retailer gallery’s [front photograph](https://guitar-saloon.ru/uploaded/images/shop/goods/15355-1.jpg), which clearly reads AX5G; the shared rear molding reads AX5. All connectors are unobstructed, although the angle softens small print. Output also serves headphones as documented in the [manufacturer manual](https://cdn.korg.com/us/support/download/files/fbe8655e2b64942cfb5073f5a39aa69f.pdf).
 

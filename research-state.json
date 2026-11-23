@@ -220767,7 +220767,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://i.ebayimg.com/images/g/TtEAAeSwOZ9pPYY1/s-l1200.jpg",
+            "image_url": "images/korg-ax5g-top-6208deed2abc.jpg",
             "source_url": "https://www.ebay.com/p/78745270?iid=396389095624",
             "caption": "Korg AX5G powered-on top controls — near-overhead view",
             "note": "Exact AX5G label, illuminated 77 display, footswitch indicators and volume-pedal LED are visible. Complete top surface and expression pedal shown with slight perspective; an exactly perpendicular powered-on view remains pending. A red AX5-family rear image returned under an AX5G listing was excluded because exact guitar-model identity was not established.",
@@ -220777,7 +220777,7 @@
             "sha256": "6208deed2abcd1d12035b65c55bf0b42ee690d451eb37acc2e886e0b709b5f3d"
           },
           "rear": {
-            "image_url": "https://guitar-saloon.ru/uploaded/images/shop/goods/15355-3.jpg",
+            "image_url": "images/korg-ax5g-rear-2bf0e803acbf.jpg",
             "source_url": "https://guitar-saloon.ru/shop/goods/Korg_AX5G_gitarnyiy_protsessor_USED-15355",
             "caption": "AX5G rear connector panel",
             "note": "Complete rear connector group visible in an angled photograph: cable hook, DC9V power socket, INPUT and OUTPUT. Exact guitar-model identity is cross-checked against the same retailer gallery’s [front photograph](https://guitar-saloon.ru/uploaded/images/shop/goods/15355-1.jpg), which clearly reads AX5G; the shared rear molding reads AX5. All connectors are unobstructed, although the angle softens small print. Output also serves headphones as documented in the [manufacturer manual](https://cdn.korg.com/us/support/download/files/fbe8655e2b64942cfb5073f5a39aa69f.pdf).",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Korg::AX5B"
+    "last_model": "Korg::AX5G"
   }
 }
