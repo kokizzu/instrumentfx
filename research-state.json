@@ -224549,7 +224549,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/tc-helicon-voicelive-play-2925501.jpg",
+            "image_url": "images/tc-helicon-voicelive-play-top-b70d61bd02ef.jpg",
             "source_url": "https://fr.audiofanzine.com/processeur-vocal/tc-helicon/voicelive-play/",
             "caption": "VoiceLive Play powered-on control face — actual unit",
             "note": "Actual original blue VoiceLive Play with connected power and readable RAYMOND CIG / 3 LCD. Full face shows central encoder, three footswitches and ten buttons (six soft keys, BACK/STORE and two arrows); separate mic-gain knob is documented by the manual and rear profile. Near-overhead view has slight perspective rather than a strict perpendicular camera position. Operating display does not establish audio quality or firmware version.",
@@ -224559,7 +224559,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://cdn-media.empowertribe.com/9049db6c7b5c40b3b30b2c9ddd273d05/Image_TH_0726-AAZ_VOICELIVE-PLAY_Rear_XL.png",
+            "image_url": "images/tc-helicon-voicelive-play-rear-54148d5236a7.png",
             "source_url": "https://www.tchelicon.com/en/products/0726-AAZ",
             "caption": "VoiceLive Play rear ports — manufacturer stock image",
             "note": "Manufacturer original-blue rear inspected: center-negative DC power labeled 12V/400mA, Mini-B USB, headphone minijack, male XLR LEFT/RIGHT outputs, quarter-inch PEDAL, AUX minijack, female XLR MIC and security slot. Resolves earlier pictured-hardware polarity gap; label is not measured draw and later >400mA guide remains separately qualified. No guitar input, DIN MIDI or FX-loop sockets shown. PEDAL does not prove continuous expression; USB presence does not prove bus-powered operation.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "TC-Helicon::VoiceLive 3 Extreme"
+    "last_model": "TC-Helicon::VoiceLive Play"
   }
 }
