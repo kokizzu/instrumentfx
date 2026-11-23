@@ -3804,13 +3804,13 @@ Sources checked:
 
 **Ocean Machine II — top controls**
 
-[![Ocean Machine II — top controls](https://mooer.jp/cdn/shop/files/Ocean-Machine-II-01.png?v=1725880295&width=1445)](https://mooer.jp/cdn/shop/files/Ocean-Machine-II-01.png?v=1725880295&width=1445)
+[![Ocean Machine II — top controls](images/mooer-ocean-machine-ii-top-0c2534c32abd.jpg)](images/mooer-ocean-machine-ii-top-0c2534c32abd.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ocean-machine-ii). Visually inspected exact-II overhead product image: LCD shows the Ocean Machine II startup logo and three illuminated footswitch rings. Manufacturer-linked promotional image; physical powered operation is not independently tested.
 
 **Ocean Machine II — rear connections**
 
-[![Ocean Machine II — rear connections](https://mooer.jp/cdn/shop/files/Ocean-Machine-II-02.png?v=1725880295&width=1445)](https://mooer.jp/cdn/shop/files/Ocean-Machine-II-02.png?v=1725880295&width=1445)
+[![Ocean Machine II — rear connections](images/mooer-ocean-machine-ii-rear-dd8fb893f622.jpg)](images/mooer-ocean-machine-ii-rear-dd8fb893f622.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ocean-machine-ii). Visually inspected straight rear view: EXP, stereo input/output, MIDI Thru/In, USB-C and 9V 500mA center-negative DC labels are visible.
 

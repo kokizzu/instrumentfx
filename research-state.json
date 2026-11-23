@@ -221697,7 +221697,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://mooer.jp/cdn/shop/files/Ocean-Machine-II-01.png?v=1725880295&width=1445",
+            "image_url": "images/mooer-ocean-machine-ii-top-0c2534c32abd.jpg",
             "source_url": "https://mooer.jp/products/mooer-ocean-machine-ii",
             "caption": "Ocean Machine II — top controls",
             "note": "Visually inspected exact-II overhead product image: LCD shows the Ocean Machine II startup logo and three illuminated footswitch rings. Manufacturer-linked promotional image; physical powered operation is not independently tested.",
@@ -221707,7 +221707,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://mooer.jp/cdn/shop/files/Ocean-Machine-II-02.png?v=1725880295&width=1445",
+            "image_url": "images/mooer-ocean-machine-ii-rear-dd8fb893f622.jpg",
             "source_url": "https://mooer.jp/products/mooer-ocean-machine-ii",
             "caption": "Ocean Machine II — rear connections",
             "note": "Visually inspected straight rear view: EXP, stereo input/output, MIDI Thru/In, USB-C and 9V 500mA center-negative DC labels are visible.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::Prime P1"
+    "last_model": "MOOER::Ocean Machine II"
   }
 }
