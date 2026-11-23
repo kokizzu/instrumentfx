@@ -6306,13 +6306,13 @@ Sources checked:
 
 **BOSS ME-90B — powered-on top view**
 
-[![BOSS ME-90B — powered-on top view](https://static.roland.com/products/me-90b/image/me-90b_gal_01.jpg)](https://static.roland.com/products/me-90b/image/me-90b_gal_01.jpg)
+[![BOSS ME-90B — powered-on top view](images/boss-me-90b-top-af4e27d1c00a.jpg)](images/boss-me-90b-top-af4e27d1c00a.jpg)
 
 [Image source](https://www.boss.info/global/products/me-90b/). Complete manufacturer straight-down product view with active red 90 display, colored section and footswitch indicators, all rotary sections, four panel buttons, eight footswitches and full expression pedal. Powered-on appearance is visible in this promotional image; independent operating-state verification is unavailable.
 
 **BOSS ME-90B — rear connections**
 
-[![BOSS ME-90B — rear connections](https://static.roland.com/products/me-90b/image/me-90b_gal_03.jpg)](https://static.roland.com/products/me-90b/image/me-90b_gal_03.jpg)
+[![BOSS ME-90B — rear connections](images/boss-me-90b-rear-1abadc6c753d.jpg)](images/boss-me-90b-rear-1abadc6c753d.jpg)
 
 [Image source](https://www.boss.info/global/products/me-90b/). Complete manufacturer rear-panel image: XLR BALANCED OUTPUT and ground lift, INPUT, OUTPUT R/L-MONO, AMP/LINE switch, miniature PHONES, SEND/RETURN, covered optional BT-DUAL connector, USB-C, power switch, DC IN for PSA-S adaptor, ground terminal, cord restraint and security slot.
 
