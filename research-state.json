@@ -223487,7 +223487,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/lexicon-mpx-100-6503443.jpeg",
+            "image_url": "images/lexicon-mpx100-top-14aca55a1543.jpg",
             "source_url": "https://en.audiofanzine.com/multi-effects-processor/lexicon/MPX-100/",
             "caption": "Lexicon MPX100 complete control-face photograph: seven rotary controls, Bypass, Store and Tap buttons; no screen.",
             "note": "Exact MPX100 wordmark and panel layout visually match the manual. Colored indicator lenses are visible, but illumination is not established, so powered-on remains a gap. Upright rack front view is not perpendicular overhead. No firmware version is shown.",
@@ -223497,7 +223497,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/lexicon-mpx-100-5681196.jpg",
+            "image_url": "images/lexicon-mpx100-rear-fb44cfa09393.jpg",
             "source_url": "https://en.audiofanzine.com/multi-effects-processor/lexicon/MPX-100/",
             "caption": "MPX100 rear connectors: external AC power, tap/bypass footswitch, MIDI OUT/THRU and IN, S/PDIF output, L/R analog outputs and inputs.",
             "note": "All connector groups visible and unplugged. Power label reads9VAC,1A,50–60Hz; this is the photographed hardware label, alongside previously retained service-document1.9A supply guidance. Left output marked PHONES and right output/input MONO; there is no separate headphone socket,USB,XLR or analog continuous-expression jack. Rear photo has substantial background and slightly soft text, but actual socket inventory is visible.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "LEKATO::ME-01"
+    "last_model": "Lexicon::MPX100"
   }
 }
