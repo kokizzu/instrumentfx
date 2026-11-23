@@ -3305,13 +3305,13 @@ Sources checked:
 
 **VP4 — powered-on top view**
 
-[![VP4 — powered-on top view](https://shop.fractalaudio.com/cdn/shop/files/vp4-1920x1280.png?v=1759261981&width=3840)](https://shop.fractalaudio.com/cdn/shop/files/vp4-1920x1280.png?v=1759261981&width=3840)
+[![VP4 — powered-on top view](images/fractal-audio-vp4-top-9fc7b3ade05e.png)](images/fractal-audio-vp4-top-9fc7b3ade05e.png)
 
 [Image source](https://shop.fractalaudio.com/products/vp4-virtual-pedalboard-effects-modeler). Official manufacturer photograph. Straight top view shows the illuminated preset display and four blue footswitch indicators, A–D and SELECT knobs, and six navigation buttons. The pictured CPU reading describes the illustrated preset, not a measured Virtual Capo cost.
 
 **VP4 — rear connections**
 
-[![VP4 — rear connections](https://shop.fractalaudio.com/cdn/shop/files/vp4-rear.png?v=1759935040&width=3840)](https://shop.fractalaudio.com/cdn/shop/files/vp4-rear.png?v=1759935040&width=3840)
+[![VP4 — rear connections](images/fractal-audio-vp4-rear-044545e3f41e.png)](images/fractal-audio-vp4-rear-044545e3f41e.png)
 
 [Image source](https://shop.fractalaudio.com/products/vp4-virtual-pedalboard-effects-modeler). Official manufacturer rear photograph. Labels show L/Mono and R inputs, L/Mono and R outputs, two pedal inputs, S/PDIF in/out, USB-C, MIDI in/out, and 9V DC 1.3A power. No separate headphone socket is visible in this complete rear view; USB channel counts, connector electrical wiring and power polarity are not inferred from this photograph.
 
