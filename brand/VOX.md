@@ -402,13 +402,13 @@ Sources checked:
 
 **StompLab 2G complete near-overhead owner photograph**
 
-[![StompLab 2G complete near-overhead owner photograph](https://img.ricardostatic.ch/images/76ef86c5-10e6-4831-9b66-eb975ab6637c/t_1000x750/vox-stomplab-sl2g-gitarrenpedal-effektgerat)](https://img.ricardostatic.ch/images/76ef86c5-10e6-4831-9b66-eb975ab6637c/t_1000x750/vox-stomplab-sl2g-gitarrenpedal-effektgerat)
+[![StompLab 2G complete near-overhead owner photograph](images/vox-stomplab-2g-top-55770cd4887a.jpg)](images/vox-stomplab-2g-top-55770cd4887a.jpg)
 
 [Image source](https://www.ricardo.ch/de/a/vox-stomplab-sl2g-gitarrenpedal-effektgeraet-1266928512/). Actual black guitar model photographed on a gray wooden surface: all three knobs, four small buttons, both metal footswitches and the full VOX treadle are visible. Slight perspective prevents a strict perpendicular claim. Display shows all 88 segment outlines, with reflections on colored indicator lenses; powered operation is not established. A powered overhead photograph remains pending. Previous [official stock layout](https://voxamps.com/wp-content/uploads/2019/02/SL2G-Stomplab-Guitar-Multi-Effect-1.png) and [additional worn-unit photograph](https://www.guitarcollectors.ru/items_photos/W8YqQy1le9UYkv_MFWL4z89hICX09PKd6XdwJc4Aydl5IaoopL4nyzpU9XF_yWp2mlViFc4VzmXe6FMSQV5_kBY9.webp) remain available. Rear-port image retained.
 
 **Official VOX StompLab 2G rear-port shop image**
 
-[![Official VOX StompLab 2G rear-port shop image](https://voxampshop.com/cdn/shop/files/Stomplab-IIG-Guitar-Effect-Processor-Vox-Amp-Shop-498_1200x.jpg?v=1687380851)](https://voxampshop.com/cdn/shop/files/Stomplab-IIG-Guitar-Effect-Processor-Vox-Amp-Shop-498_1200x.jpg?v=1687380851)
+[![Official VOX StompLab 2G rear-port shop image](images/vox-stomplab-2g-rear-9a2a5aac0354.jpg)](images/vox-stomplab-2g-rear-9a2a5aac0354.jpg)
 
 [Image source](https://voxampshop.com/products/sl2g). Visually inspected exact rear marked StompLab IIG: INPUT, shared OUTPUT/PHONES(STEREO/MONO), POWER button and center-negative DC9V socket. Complete rear row readable, with no USB/MIDI or external EXP socket. Photo verifies connector placement and polarity, not internal firmware or measured operation.
 
