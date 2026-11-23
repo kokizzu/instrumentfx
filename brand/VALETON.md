@@ -592,13 +592,13 @@ Sources checked:
 
 **Near-overhead full-size Dapper Dark manufacturer image, unlit.**
 
-[![Near-overhead full-size Dapper Dark manufacturer image, unlit.](https://res.valeton.net/Uploads/wp/2025/06/o_1e4im877c1u031vrls4b1b7tr2e3a-scaled.jpg)](https://res.valeton.net/Uploads/wp/2025/06/o_1e4im877c1u031vrls4b1b7tr2e3a-scaled.jpg)
+[![Near-overhead full-size Dapper Dark manufacturer image, unlit.](images/valeton-dapper-dark-ves-3-top-fb36ecb79aa6.jpg)](images/valeton-dapper-dark-ves-3-top-fb36ecb79aa6.jpg)
 
 [Image source](https://www.valeton.net/product/dapper-darkdiscontinued/). Visually 12 rotary controls and 5 footswitches, including dedicated TAP. No separate small buttons on this face; rear cabinet selector is separate. Tuner/status indicators unlit. Slight perspective/visible rear jacks; powered-on strict perpendicular overhead remains pending.
 
 **Dapper Dark VES-3 complete connector-edge and underside photograph**
 
-[![Dapper Dark VES-3 complete connector-edge and underside photograph](https://evolutionmusicstore.com/cdn/shop/products/sgsysrdwsjju5tvvk9pk_6237d4b7-d341-47c1-9e97-cbccecb80dbe_1200x.jpg?v=1696006373)](https://evolutionmusicstore.com/cdn/shop/products/sgsysrdwsjju5tvvk9pk_6237d4b7-d341-47c1-9e97-cbccecb80dbe_1200x.jpg?v=1696006373)
+[![Dapper Dark VES-3 complete connector-edge and underside photograph](images/valeton-dapper-dark-ves-3-rear-41ed23db364b.jpg)](images/valeton-dapper-dark-ves-3-rear-41ed23db364b.jpg)
 
 [Image source](https://evolutionmusicstore.com/products/valeton-ves-3-dapper-dark-multi-effects-strip). Actual full-size black/red Dark tipped forward: complete connector edge visible with IN,9VDC,SEND,RETURN,CAB SIM ON/OFF slider andOUT. Unplugged and unlit. Underside label reads9V DC and center-negative polarity; no current rating legible. Label is partly covered by mounting tape. This complete view replaces the earlier output-end crop. Supplement below retains its clearer RETURN/CAB SIM/OUT detail; no powered-on operation inferred.
 
