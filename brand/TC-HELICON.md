@@ -528,13 +528,13 @@ Sources checked:
 
 **PERFORM-V — angled control-face catalogue picture**
 
-[![PERFORM-V — angled control-face catalogue picture](https://media.guitarcenter.com/is/image/MMGS7/J30665000000000-01-2000x2000.jpg)](https://media.guitarcenter.com/is/image/MMGS7/J30665000000000-01-2000x2000.jpg)
+[![PERFORM-V — angled control-face catalogue picture](images/tc-helicon-perform-v-top-194afa2d02a9.jpg)](images/tc-helicon-perform-v-top-194afa2d02a9.jpg)
 
 [Image source](https://www.guitarcenter.com/TC-Helicon/PERFORM-V-Vocal-Effects-Processor-1500000002647.gc). One central rotary, zero onboard footswitches and14 separate hand buttons visible: SET/Tone/Anti-Feedback/Pitch/48V, Double/Reverb/Echo, presets1–3, Headphone/Tap/Talk. SET-adjacent small window and LED-ring segments are not extra buttons. Front headphone socket and mic-stand clip visible. This directly contradicts current three-knobs/three-buttons copy for this pictured layout; no new revision inferred. Catalogue-lit controls are not independent powered hardware proof, and angle is not strict top-down. Powered-on overhead photograph remains pending.
 
 **PERFORM-V — actual rear-port photograph**
 
-[![PERFORM-V — actual rear-port photograph](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/64184/430009/YOTHER13988705__45522.1725973398.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/64184/430009/YOTHER13988705__45522.1725973398.jpg?c=1)
+[![PERFORM-V — actual rear-port photograph](images/tc-helicon-perform-v-rear-b4393aa6968a.jpg)](images/tc-helicon-perform-v-rear-b4393aa6968a.jpg)
 
 [Image source](https://richtonemusic.co.uk/tc-helicon-perform-v-vocal-processor-box-psu-2nd-hand/). Actual secondhand exact PERFORM-V rear: DC POWER/polarity mark, Mini-B USB, AUX mini-jack, quarter-inch PEDAL, male XLR MIC OUT and female XLR MIC IN, plus security slot. PEDAL label does not prove continuous expression; manual specifies Switch-3/6. AUX is not a guitar input proof and USB shape does not prove audio-interface support. Front headphones appear in the separate top view. No firmware/version/current-draw test; sources depict different units.
 
