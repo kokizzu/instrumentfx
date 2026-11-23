@@ -381,13 +381,13 @@ Sources checked:
 
 **DigiTech GNX4 — top panel**
 
-[![DigiTech GNX4 — top panel](https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/d/digitech1-lk0FpsFhdGl7zfBfOA_x2nk16ZgtMRVe.jpg)](https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/d/digitech1-lk0FpsFhdGl7zfBfOA_x2nk16ZgtMRVe.jpg)
+[![DigiTech GNX4 — top panel](images/digitech-gnx4-top-e9f546cc1791.jpg)](images/digitech-gnx4-top-e9f546cc1791.jpg)
 
 [Image source](https://www.soundonsound.com/reviews/digitech-gnx4). Sound On Sound review photograph with illuminated green HYBRID display and status indicators. Angled top-panel view, not exact top-down; straight overhead replacement remains pending. Source is 700 × 470 pixels; no independent device operation by this audit.
 
 **DigiTech GNX4 — rear connections**
 
-[![DigiTech GNX4 — rear connections](https://media.guitarcenter.com/is/image/MMGS7/150848000000000-01-2000x2000.jpg)](https://media.guitarcenter.com/is/image/MMGS7/150848000000000-01-2000x2000.jpg)
+[![DigiTech GNX4 — rear connections](images/digitech-gnx4-rear-18ff8ad16e02.webp)](images/digitech-gnx4-rear-18ff8ad16e02.webp)
 
 [Image source](https://www.guitarcenter.com/Open-Box/DigiTech/GNX4-Guitar-Multi-Effects-Pedal-Level-1-150848004000000.gc). Clear retailer rear photograph shows guitar input, microphone input/level/pad/phantom, stereo line inputs, jack and XLR output sections with levels/compensation, ground lift, headphones, FOOTSWITCH, USB Type-B, card slot, MIDI IN/OUT, ON/OFF and power labeled 9VAC 2.1A. All sockets visible. Rear view alone does not establish operating power state.
 
