@@ -303,13 +303,13 @@ Sources checked:
 
 **Levitate QDS-02 powered-on oblique top view: both green effect indicators lit, six knobs and two footswitches; no display.**
 
-[![Levitate QDS-02 powered-on oblique top view: both green effect indicators lit, six knobs and two footswitches; no display.](https://www.sonicake.com/cdn/shop/products/QDS-02-7.jpg?v=1676950587&width=1096)](https://www.sonicake.com/cdn/shop/products/QDS-02-7.jpg?v=1676950587&width=1096)
+[![Levitate QDS-02 powered-on oblique top view: both green effect indicators lit, six knobs and two footswitches; no display.](images/sonicake-levitate-qds-02-top-3add5dd4f792.jpg)](images/sonicake-levitate-qds-02-top-3add5dd4f792.jpg)
 
 [Image source](https://www.sonicake.com/products/levitate). Exact Levitate branding and live connections confirmed. This is an angled photograph, not perpendicular overhead. A separate inspected unlit overhead view is available [here](https://www.hotone.jp/images/brands/sonicake/products/levitate/gallery/20260907-082812-wftr7t-levitate_front_hi_v01_250219.webp); a powered-on perpendicular overhead photograph remains a gap.
 
 **Levitate connector-detail montage: one audio jack and the DC socket shown in photographic close-ups.**
 
-[![Levitate connector-detail montage: one audio jack and the DC socket shown in photographic close-ups.](https://www.sonicake.com/cdn/shop/products/QDS-02-6.jpg?v=1676950587&width=1096)](https://www.sonicake.com/cdn/shop/products/QDS-02-6.jpg?v=1676950587&width=1096)
+[![Levitate connector-detail montage: one audio jack and the DC socket shown in photographic close-ups.](images/sonicake-levitate-qds-02-rear-98b8a297bb53.jpg)](images/sonicake-levitate-qds-02-rear-98b8a297bb53.jpg)
 
 [Image source](https://www.sonicake.com/products/levitate). This montage is not a complete rear-panel photograph: input/output are on opposing side edges and power is at the back. The inspected [official manual diagram](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Levitate_Manuel_JP.png) identifies instrument input, output to amp/next pedal and DC 9 V; six rotaries, two footswitches and no separate top pushbuttons. A photograph showing all sockets clearly remains a gap.
 
