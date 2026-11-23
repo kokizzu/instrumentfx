@@ -1150,13 +1150,13 @@ Sources checked:
 
 **MK-300 powered-on overhead product image**
 
-[![MK-300 powered-on overhead product image](https://m.media-amazon.com/images/I/71t5idhwIPL._AC_SL1500_.jpg)](https://m.media-amazon.com/images/I/71t5idhwIPL._AC_SL1500_.jpg)
+[![MK-300 powered-on overhead product image](images/m-vave-mk-300-top-27d9ca0a666a.jpg)](images/m-vave-mk-300-top-27d9ca0a666a.jpg)
 
 [Image source](https://manuals.plus/asin/B0F6NPFMTB). Straight overhead silver MK-300 product image shows USER PRESET 156 display and blue footswitch rings. This is marketed imagery, not an independently observed hardware test. Display CPU 1.8 belongs to the pictured preset, not measured pitch DSP. Mirror used only to locate the image; generated summaries are not specification evidence.
 
 **MK-300 rear ports**
 
-[![MK-300 rear ports](https://nafiriguitar.com/cdn/shop/files/0BA62855-09C4-41FE-B46F-E6FC8EB913C8.jpg?v=1754977080&width=1946)](https://nafiriguitar.com/cdn/shop/files/0BA62855-09C4-41FE-B46F-E6FC8EB913C8.jpg?v=1754977080&width=1946)
+[![MK-300 rear ports](images/m-vave-mk-300-rear-2033960d1c2c.jpg)](images/m-vave-mk-300-rear-2033960d1c2c.jpg)
 
 [Image source](https://nafiriguitar.com/products/m-vave-mk300-guitar-multi-effect-processor). Visually checked physical silver MK-300 rear panel on labeled packaging: PEDAL2, INPUT, MIDI DIN, L/R XLR with LIFT/GND, separate phone-recording and headphone sockets, L(MONO)/R outputs, USB-C and power switch. No extra effects loop inferred. Rear photograph does not establish powered state or connector protocols beyond labels; manual retains technical authority.
 
