@@ -1176,13 +1176,13 @@ Sources checked:
 
 **A2 powered control-face photograph**
 
-[![A2 powered control-face photograph](https://medias.audiofanzine.com/images/normal/zoom-a2-6287613.jpg)](https://medias.audiofanzine.com/images/normal/zoom-a2-6287613.jpg)
+[![A2 powered control-face photograph](images/zoom-a2-top-d0ca3bcb6b08.jpg)](images/zoom-a2-top-d0ca3bcb6b08.jpg)
 
 [Image source](https://en.audiofanzine.com/acoustic-guitar-multi-effect/zoom/A2/). Actual A2 with red two-character display lit. The four rotary controls, five push-buttons and two footswitches are visible. This close, angled view crops the upper edge and is not an exact top-down photograph; a full powered overhead view remains pending.
 
 **A2 rear connections**
 
-[![A2 rear connections](https://medias.audiofanzine.com/images/normal/zoom-a2-6287612.jpg)](https://medias.audiofanzine.com/images/normal/zoom-a2-6287612.jpg)
+[![A2 rear connections](images/zoom-a2-rear-6be4dffc73c2.jpg)](images/zoom-a2-rear-6be4dffc73c2.jpg)
 
 [Image source](https://en.audiofanzine.com/acoustic-guitar-multi-effect/zoom/A2/). Actual A2 rear panel: INPUT, OUTPUT [PHONES], shared CONTROL IN, POWER switch and center-negative DC9V/300mA labeling are clearly visible. No USB or MIDI connector appears in this complete rear panel.
 

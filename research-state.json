@@ -226342,7 +226342,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-a2-6287613.jpg",
+            "image_url": "images/zoom-a2-top-d0ca3bcb6b08.jpg",
             "source_url": "https://en.audiofanzine.com/acoustic-guitar-multi-effect/zoom/A2/",
             "caption": "A2 powered control-face photograph",
             "note": "Actual A2 with red two-character display lit. The four rotary controls, five push-buttons and two footswitches are visible. This close, angled view crops the upper edge and is not an exact top-down photograph; a full powered overhead view remains pending.",
@@ -226352,7 +226352,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-a2-6287612.jpg",
+            "image_url": "images/zoom-a2-rear-6be4dffc73c2.jpg",
             "source_url": "https://en.audiofanzine.com/acoustic-guitar-multi-effect/zoom/A2/",
             "caption": "A2 rear connections",
             "note": "Actual A2 rear panel: INPUT, OUTPUT [PHONES], shared CONTROL IN, POWER switch and center-negative DC9V/300mA labeling are clearly visible. No USB or MIDI connector appears in this complete rear panel.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::A1X FOUR"
+    "last_model": "Zoom::A2"
   }
 }
