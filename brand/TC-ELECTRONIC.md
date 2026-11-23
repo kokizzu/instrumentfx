@@ -128,13 +128,13 @@ Sources checked:
 
 **M100 — front control-face product image**
 
-[![M100 — front control-face product image](https://cdn-media.empowertribe.com/302d00ea197147d99cf449b94cc006bb/Image_TE_0828-AAH_M100_Front_XL.png)](https://cdn-media.empowertribe.com/302d00ea197147d99cf449b94cc006bb/Image_TE_0828-AAH_M100_Front_XL.png)
+[![M100 — front control-face product image](images/tc-electronic-m100-top-d5917fef0531.png)](images/tc-electronic-m100-top-d5917fef0531.png)
 
 [Image source](https://www.tcelectronic.com/en/products/0828-AAH). Official front graphic depicts green signal,red bypass/power and yellow tap LEDs;not independent powered-hardware verification. Five knobs and two buttons,no integrated footswitches or screen. Controls are on the vertical front;strict overhead picture remains pending.
 
 **M100 — official rear image without MIDI socket**
 
-[![M100 — official rear image without MIDI socket](https://cdn-media.empowertribe.com/a85f20c8cfb54baf890b344dde30e83c/Image_TE_0828-AAH_M100_Rear_XL.png)](https://cdn-media.empowertribe.com/a85f20c8cfb54baf890b344dde30e83c/Image_TE_0828-AAH_M100_Rear_XL.png)
+[![M100 — official rear image without MIDI socket](images/tc-electronic-m100-rear-c16308f6bb94.png)](images/tc-electronic-m100-rear-c16308f6bb94.png)
 
 [Image source](https://www.tcelectronic.com/en/products/0828-AAH). Official gallery graphic shows DC IN with center-positive symbol,FOOTSW bypass,OUTPUT R/L and INPUT2R/1L(MONO). No MIDI DIN is visible:conflicts with current product text describing MIDI CC/firmware updates. Treat this as a different/older pictured revision;do not apply MIDI instructions to it without matching hardware. No headphone or USB socket visible. Graphic is not a hardware test.
 
