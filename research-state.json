@@ -222907,7 +222907,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/matribox-ii-pro/gallery/20260804-031103-s4d7ku-qme-200-1.webp",
+            "image_url": "images/sonicake-matribox-ii-pro-qme-200-top-6fdcb1a5b832.webp",
             "source_url": "https://www.hotone.jp/brands/sonicake/products/matribox-ii-pro",
             "caption": "Matribox II Pro powered overhead",
             "note": "Visually inspected distributor overhead: illuminated color display, six footswitches (A-D plus bank pair), five rotaries, seven separate panel buttons and built-in expression. Pro differs from three-switch Matribox II; firmware not established by screen image.",
@@ -222917,7 +222917,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.hotone.jp/images/brands/sonicake/products/matribox-ii-pro/gallery/20260804-031056-7sdjy8-qme-200-10.webp",
+            "image_url": "images/sonicake-matribox-ii-pro-qme-200-rear-cbfb73285ffe.webp",
             "source_url": "https://www.hotone.jp/brands/sonicake/products/matribox-ii-pro",
             "caption": "Matribox II Pro complete rear ports",
             "note": "Visually inspected EXP2/FS,INPUT,FXLOOP RETURN/SEND,two XLR OUTs,GND/LIFT,two quarter-inch OUTPUTs,AUX,PHONES,mini MIDI IN/OUT,USB-C,POWER switch andDC9V1000mA center-negative. One send/return pair shown; no second loop inferred from stereo marketing. Port presence does not resolve disputed MIDI transmission or quarter-inch TS/TRS wording.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::Matribox II QME-100"
+    "last_model": "Sonicake::Matribox II Pro QME-200"
   }
 }
