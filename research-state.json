@@ -218163,7 +218163,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://obrazki.elektroda.pl/9752947500_1448045182.jpg",
+            "image_url": "images/digitech-rp70-top-112c170e0fba.jpg",
             "source_url": "https://www.elektroda.pl/rtvforum/topic3115944.html",
             "caption": "RP70 powered-on top view",
             "note": "Visually inspected: display reads 43 and LEDs are lit. Near-overhead photograph with slight perspective.",
@@ -218173,7 +218173,7 @@
             "sha256": "112c170e0fba8e5d8e9e3846fd6fe672b3af47a84be67dfb51fed82e7630f37e"
           },
           "rear": {
-            "image_url": "https://media.guitarcenter.com/is/image/MMGS7/153570000000000-01-2000x2000.jpg",
+            "image_url": "images/digitech-rp70-rear-3e409f29aad8.webp",
             "source_url": "https://www.guitarcenter.com/Open-Box/DigiTech/RP70-Guitar-Multi-Effect-Pedal-Level-1-153570004000000.gc",
             "caption": "RP70 rear ports",
             "note": "Visually inspected RP70 rear panel: input, amp/mixer selector, left/right outputs, control input, headphones and DC power.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP55"
+    "last_model": "DigiTech::RP70"
   }
 }
