@@ -5075,13 +5075,13 @@ Sources checked:
 
 **G2X FOUR powered control face**
 
-[![G2X FOUR powered control face](https://dennistons.ie/cdn/shop/files/G2-4X-5.png?v=1759398292&width=1445)](https://dennistons.ie/cdn/shop/files/G2-4X-5.png?v=1759398292&width=1445)
+[![G2X FOUR powered control face](images/zoom-g2x-four-top-487b50e3d259.png)](images/zoom-g2x-four-top-487b50e3d259.png)
 
 [Image source](https://dennistons.ie/products/zoom-g2x-four-guitar-multi-effects-unit-with-expression-pedal). Actual powered G2X FOUR on a wooden floor in a full near-vertical overhead view. Backlit LCD shows PLEASE SELECT OUTPUT; three effect-switch LEDs and PEDAL LED are lit, with cables attached. Complete treadle, four knobs, four metal footswitches including navigation center, and four directional pads are visible.
 
 **G2X FOUR rear connections**
 
-[![G2X FOUR rear connections](https://store.miroc.co.jp/client_info/ROCKON/itemimage/1094287/1094287_3.jpg)](https://store.miroc.co.jp/client_info/ROCKON/itemimage/1094287/1094287_3.jpg)
+[![G2X FOUR rear connections](images/zoom-g2x-four-rear-ae3d1a02a49d.jpg)](images/zoom-g2x-four-rear-ae3d1a02a49d.jpg)
 
 [Image source](https://store.miroc.co.jp/category/CAT20_1/1094287.html). Full exact-model rear photograph includes treadle chassis, INPUT, AUX IN, RIGHT and LEFT/MONO outputs, security slot, POWER and center-negative DC9V with AD-16 marking. No CONTROL IN, unlike G2 FOUR. Side USB-C and PHONES are outside this rear view; their functions are documented in the manual.
 
