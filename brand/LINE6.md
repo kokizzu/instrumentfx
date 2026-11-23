@@ -4167,13 +4167,13 @@ Sources checked:
 
 **POD HD500X — powered-on overhead review photograph**
 
-[![POD HD500X — powered-on overhead review photograph](https://medias.audiofanzine.com/images/normal/679720.jpg)](https://medias.audiofanzine.com/images/normal/679720.jpg)
+[![POD HD500X — powered-on overhead review photograph](images/line-6-pod-hd500x-top-284d34f36f52.jpg)](images/line-6-pod-hd500x-top-284d34f36f52.jpg)
 
 [Image source](https://en.audiofanzine.com/guitar-amp-simulation-pedal/line-6/pod-hd500x/editorial/reviews/are-you-pod-to-date.html). Audiofanzine review photograph shows exact HD500X badge,lit LCD and switch rings from above. Low light,glare obscures screen text and slight perspective remains; a clean perpendicular top-down product image remains pending. This is documentation imagery,not a local device test.
 
 **POD HD500X — rear connections**
 
-[![POD HD500X — rear connections](https://www.musicarms.net/wp-content/uploads/2014/02/pod-hd500x-1024x682.jpg)](https://www.musicarms.net/wp-content/uploads/2014/02/pod-hd500x-1024x682.jpg)
+[![POD HD500X — rear connections](images/line-6-pod-hd500x-rear-d21e8bc288ca.jpg)](images/line-6-pod-hd500x-rear-d21e8bc288ca.jpg)
 
 [Image source](https://www.musicarms.net/line6-pod-hd500-x/). Music Arms retailer photograph visibly identifies HD500X and its rear sockets:Pedal2,Guitar/CD-MP3,unbalanced/balanced outs,Phones,Aux,Mic,FX return/send,Variax,S/PDIF,MIDI,USB,L6 LINK and power. Retailer-hosted image; no stock or condition claim.
 
