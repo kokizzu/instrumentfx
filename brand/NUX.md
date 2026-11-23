@@ -320,13 +320,13 @@ Sources checked:
 
 **NUX Atlantic — top controls**
 
-[![NUX Atlantic — top controls](https://www.nux.us/cdn/shop/files/Atlantic_NDR-5__W_01.jpg?v=1756946297&width=2560)](https://www.nux.us/cdn/shop/files/Atlantic_NDR-5__W_01.jpg?v=1756946297&width=2560)
+[![NUX Atlantic — top controls](images/nux-atlantic-ndr-5-top-dcd111f81f15.jpg)](images/nux-atlantic-ndr-5-top-dcd111f81f15.jpg)
 
 [Image source](https://www.nux.us/products/atlantic). Official overhead photograph shows Atlantic with green Delay status light illuminated, five red rotary controls and two footswitches. There is no numeric preset display in this photo.
 
 **NUX Atlantic — rear ports**
 
-[![NUX Atlantic — rear ports](https://www.nux.us/cdn/shop/files/Atlantic_NDR-5__W_03.jpg?v=1756946297&width=2560)](https://www.nux.us/cdn/shop/files/Atlantic_NDR-5__W_03.jpg?v=1756946297&width=2560)
+[![NUX Atlantic — rear ports](images/nux-atlantic-ndr-5-rear-449abac7577f.jpg)](images/nux-atlantic-ndr-5-rear-449abac7577f.jpg)
 
 [Image source](https://www.nux.us/products/atlantic). Official elevated rear three-quarter photograph shows the input, input-level and serial/parallel toggles, mono/stereo outputs, micro-USB and DC9V input; the green Delay light is visible on top. All rear connections are visible, but this is an angled view rather than a straight rear photograph. TRS input labeling does not resolve the preserved stereo/insert behavior ambiguity.
 

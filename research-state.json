@@ -222068,7 +222068,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.nux.us/cdn/shop/files/Atlantic_NDR-5__W_01.jpg?v=1756946297&width=2560",
+            "image_url": "images/nux-atlantic-ndr-5-top-dcd111f81f15.jpg",
             "source_url": "https://www.nux.us/products/atlantic",
             "caption": "NUX Atlantic — top controls",
             "visual_checked": true,
@@ -222078,7 +222078,7 @@
             "sha256": "dcd111f81f155bb2bb1f4d90c85cfc1cf896dca42d9baddeb2869680c7fa9c4f"
           },
           "rear": {
-            "image_url": "https://www.nux.us/cdn/shop/files/Atlantic_NDR-5__W_03.jpg?v=1756946297&width=2560",
+            "image_url": "images/nux-atlantic-ndr-5-rear-449abac7577f.jpg",
             "source_url": "https://www.nux.us/products/atlantic",
             "caption": "NUX Atlantic — rear ports",
             "visual_checked": true,
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::TRIDENT NME-5"
+    "last_model": "NUX::Atlantic NDR-5"
   }
 }
