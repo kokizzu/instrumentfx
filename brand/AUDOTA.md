@@ -586,13 +586,13 @@ Sources checked:
 
 **Straight overhead control-layout render**
 
-[![Straight overhead control-layout render](https://audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/AME-200Pro/AME-200%20Pro%E6%AD%A3%E8%A7%86%E5%9B%BE.png)](https://audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/AME-200Pro/AME-200%20Pro%E6%AD%A3%E8%A7%86%E5%9B%BE.png)
+[![Straight overhead control-layout render](images/audota-ame-200-pro-top-3c176de68125.png)](images/audota-ame-200-pro-top-3c176de68125.png)
 
 [Image source](https://www.audota.com/AME200ProEN.html). Manufacturer product render showing the entire Pro control surface, five footswitches including Ctrl, two rotary knobs, four buttons and the built-in expression pedal. The displayed preset and colored indicators are rendered; this is not evidence of a physically powered unit. A powered exactly top-down physical photograph remains pending.
 
 **Rear connector edge — angled product render**
 
-[![Rear connector edge — angled product render](https://audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/AME-200Pro/AME-200%20Pro%E7%AB%8B%E4%BD%93%E5%9B%BE%EF%BC%88%E5%8F%8D%EF%BC%89.png)](https://audota.com/AUDOTA/%E6%B8%B2%E6%9F%93%E5%AE%9E%E6%8B%8D%E5%9B%BE/AME-200Pro/AME-200%20Pro%E7%AB%8B%E4%BD%93%E5%9B%BE%EF%BC%88%E5%8F%8D%EF%BC%89.png)
+[![Rear connector edge — angled product render](images/audota-ame-200-pro-rear-f1b3979d0f54.png)](images/audota-ame-200-pro-rear-f1b3979d0f54.png)
 
 [Image source](https://www.audota.com/AME200ProEN.html). Manufacturer render showing INPUT, OUTPUT L/R, headphones, USB-C, power switch and 9 V DC. The connector group is visible, although the image is rotated, the labels are dark and the near chassis corner is cropped. This Pro has a built-in expression pedal; the standard AME-200 external EXP jack must not be inferred here. A dedicated physical rear photograph with upright labels remains pending.
 
