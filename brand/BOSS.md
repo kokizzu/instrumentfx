@@ -943,13 +943,13 @@ Sources checked:
 
 **BOSS GS-10 — control surface**
 
-[![BOSS GS-10 — control surface](https://static.roland.com/assets/images/products/main/gs10_main.jpg)](https://static.roland.com/assets/images/products/main/gs10_main.jpg)
+[![BOSS GS-10 — control surface](images/boss-gs-10-top-cf9092fb375d.jpg)](images/boss-gs-10-top-cf9092fb375d.jpg)
 
 [Image source](https://www.boss.info/global/products/gs-10/). Manufacturer top-down control-surface photograph with illuminated LCD and red indicators; both speaker grilles, knobs and buttons visible. Small 480-pixel-wide source limits fine-label detail. Front-edge headphone and guitar/bass sockets are not fully shown.
 
 **BOSS GS-10 — rear connections**
 
-[![BOSS GS-10 — rear connections](https://i.ebayimg.com/images/g/RhQAAeSwPExqsghI/s-l1600.webp)](https://i.ebayimg.com/images/g/RhQAAeSwPExqsghI/s-l1600.webp)
+[![BOSS GS-10 — rear connections](images/boss-gs-10-rear-9f2a5e77d202.webp)](images/boss-gs-10-rear-9f2a5e77d202.webp)
 
 [Image source](https://www.ebay.com/itm/188962766926). Elevated rear photograph showing the complete connector panel: XLR/TRS microphone inputs, RCA auxiliary inputs and outputs, guitar-amp output, expression/control, digital output, USB, MIDI OUT/IN, power switch and AC IN. This is the GS-10 desktop unit, not the similarly named GP-10 or GX-10.
 
