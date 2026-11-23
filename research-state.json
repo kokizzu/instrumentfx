@@ -227091,7 +227091,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://media.sweetwater.com/m/products/image/8221b1de86nKhuuAej5szqR7DUKQOqgSDbKQrZQ0.jpg?v=8221b1de8645b089",
+            "image_url": "images/zoom-g3n-top-bc18cebb9187.jpg",
             "source_url": "https://www.sweetwater.com/store/detail/G3n--zoom-g3n-multi-effects-processor/reviews",
             "caption": "G3n powered control face",
             "note": "Actual powered G3n in a complete near-overhead view: three active LCDs show TS Drive and Xtasy parameters, and all three red footswitch LEDs are lit. All thirteen rotary controls, six TYPE keys, MENU key and six foot-operated switches are visible.",
@@ -227101,7 +227101,7 @@
             "sha256": "bc18cebb9187a9d44caac6f67c7954bafc4bbbd57521bfe1255121b30021fcd4"
           },
           "rear": {
-            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/Zoom_G3n_Rear.jpg",
+            "image_url": "images/zoom-g3n-rear-3654e3085c57.jpg",
             "source_url": "https://www.zoom.co.jp/node/747",
             "caption": "G3n rear connections",
             "note": "Official complete G3n rear: INPUT, AUX IN, OUTPUT R and shared L/MONO/PHONES, CONTROL IN, USB Micro-B, POWER switch, center-negative DC 9V input and security slot. Headphones use L/MONO/PHONES; there is no separate headphone jack. CONTROL IN distinguishes this pedal-less model from G3Xn.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G3"
+    "last_model": "Zoom::G3n"
   }
 }
