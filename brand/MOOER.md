@@ -3387,13 +3387,13 @@ Sources checked:
 
 **MOOER GE1000 Li — powered-on top-down view**
 
-[![MOOER GE1000 Li — powered-on top-down view](https://mooer.jp/cdn/shop/files/GE1000Li-01.png?v=1710386315&width=1445)](https://mooer.jp/cdn/shop/files/GE1000Li-01.png?v=1710386315&width=1445)
+[![MOOER GE1000 Li — powered-on top-down view](images/mooer-ge1000-li-top-c02f96360f71.jpg)](images/mooer-ge1000-li-top-c02f96360f71.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ge1000li). Complete top-down product view from the exact GE1000 Li regional page, with its multicolour expression pedal. Illuminated LCD shows the GE SERIES boot screen; lit footswitch rings and HOME indicator visible. All five footswitches and panel controls shown; boot artwork does not establish installed firmware version.
 
 **MOOER GE1000 Li — straight rear connections**
 
-[![MOOER GE1000 Li — straight rear connections](https://mooer.jp/cdn/shop/files/GE1000Li-02.png?v=1710386315&width=1445)](https://mooer.jp/cdn/shop/files/GE1000Li-02.png?v=1710386315&width=1445)
+[![MOOER GE1000 Li — straight rear connections](images/mooer-ge1000-li-rear-5f5db3f6f302.jpg)](images/mooer-ge1000-li-rear-5f5db3f6f302.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ge1000li). Full rear edge photographed straight on from the exact Li product page: instrument input, FX-loop send/return, stereo XLR, ground lift, headphones, stereo jack outputs, shared MIDI IN/OUT, USB Type-C and DC input. Connector legends readable; battery itself is internal and not visible in this view.
 
