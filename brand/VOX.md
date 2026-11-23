@@ -495,13 +495,13 @@ Sources checked:
 
 **VOX ToneLab EX — powered-on control surface**
 
-[![VOX ToneLab EX — powered-on control surface](https://cs8.pikabu.ru/post_img/big/2017/09/20/10/1505923270142785738.jpg)](https://cs8.pikabu.ru/post_img/big/2017/09/20/10/1505923270142785738.jpg)
+[![VOX ToneLab EX — powered-on control surface](images/vox-tonelab-ex-top-db0069a5a31d.jpg)](images/vox-tonelab-ex-top-db0069a5a31d.jpg)
 
 [Image source](https://pikabu.ru/story/vox_tonelab_ex_5353916). Actual user photograph shows the complete ToneLab EX on a tiled floor, including all six footswitches, both speaker grilles and the full expression treadle. The red preset 50 display, effect indicators, tuner bar and expression indicator are visibly illuminated. The tube area also glows red, which alone would not establish operation. Angled overhead photograph, not strictly perpendicular; dim lighting softens fine control labels. The [previous official stock image](https://voxamps.com/wp-content/uploads/2019/01/TONELABEX.png) remains available for layout detail.
 
 **ToneLab EX rear-port archive photograph**
 
-[![ToneLab EX rear-port archive photograph](https://voxshowroom.com/ct/misc/Tonelab/EX/Tonelab_Ex_rear.jpg)](https://voxshowroom.com/ct/misc/Tonelab/EX/Tonelab_Ex_rear.jpg)
+[![ToneLab EX rear-port archive photograph](images/vox-tonelab-ex-rear-cf20d25f7ae4.jpg)](images/vox-tonelab-ex-rear-cf20d25f7ae4.jpg)
 
 [Image source](https://voxshowroom.com/us/misc/tonelab_ex.html). Visually inspected exact EX rear: SPEAKER LEVEL, USB-B, cable holder, DC12V with center-positive symbol, ON/STANDBY rocker, INPUT, AUX IN, shared OUTPUT/PHONES(STEREO/MONO), LEVEL and AMP VOX/F/M/LINE selector. Full connector/control row readable; no separate MIDI DIN or external EXP socket shown. Not a hardware routing or firmware test.
 

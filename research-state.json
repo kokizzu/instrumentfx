@@ -225606,7 +225606,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://cs8.pikabu.ru/post_img/big/2017/09/20/10/1505923270142785738.jpg",
+            "image_url": "images/vox-tonelab-ex-top-db0069a5a31d.jpg",
             "source_url": "https://pikabu.ru/story/vox_tonelab_ex_5353916",
             "caption": "VOX ToneLab EX — powered-on control surface",
             "note": "Actual user photograph shows the complete ToneLab EX on a tiled floor, including all six footswitches, both speaker grilles and the full expression treadle. The red preset 50 display, effect indicators, tuner bar and expression indicator are visibly illuminated. The tube area also glows red, which alone would not establish operation. Angled overhead photograph, not strictly perpendicular; dim lighting softens fine control labels. The [previous official stock image](https://voxamps.com/wp-content/uploads/2019/01/TONELABEX.png) remains available for layout detail.",
@@ -225616,7 +225616,7 @@
             "sha256": "db0069a5a31d7711a9477aaa968103be6d2b8d1d25d755d4b069f07288d18852"
           },
           "rear": {
-            "image_url": "https://voxshowroom.com/ct/misc/Tonelab/EX/Tonelab_Ex_rear.jpg",
+            "image_url": "images/vox-tonelab-ex-rear-cf20d25f7ae4.jpg",
             "source_url": "https://voxshowroom.com/us/misc/tonelab_ex.html",
             "caption": "ToneLab EX rear-port archive photograph",
             "note": "Visually inspected exact EX rear: SPEAKER LEVEL, USB-B, cable holder, DC12V with center-positive symbol, ON/STANDBY rocker, INPUT, AUX IN, shared OUTPUT/PHONES(STEREO/MONO), LEVEL and AMP VOX/F/M/LINE selector. Full connector/control row readable; no separate MIDI DIN or external EXP socket shown. Not a hardware routing or firmware test.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::StompLab 2G"
+    "last_model": "VOX::ToneLab EX"
   }
 }
