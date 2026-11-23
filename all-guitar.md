@@ -8,7 +8,7 @@ These are **comparisons of the recorded catalogue**, not exhaustive market cover
 
 K/F/B = independently adjustable rotary controls / footswitches / separate buttons; toe and power switches are additional unless explicitly stated. Body axes and mass qualifications are retained. Color does not prove touch; USB audio does not prove bus power; IRs, native NAM, converted NAM and proprietary captures differ.
 
-Model thumbnails appear below each name; click for the full source image. Stock, unlit and angled views retain their source qualifications; a thumbnail is not proof of powered operation. [Small galleries by brand](PHOTOS.md) · [Verification gaps](RESEARCH-GAPS.md).
+Model thumbnails appear below each name; click for the full image. The linked record preserves original source links and inspection notes. Stock, unlit and angled views retain their qualifications; a thumbnail is not proof of powered operation. [Small galleries by brand](PHOTOS.md) · [Verification gaps](RESEARCH-GAPS.md).
 
 ## Hardware and expression
 

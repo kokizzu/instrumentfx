@@ -2,7 +2,7 @@
 
 [All photo galleries](../PHOTOS.md) · [Verification gaps](../RESEARCH-GAPS.md)
 
-Click a thumbnail for the full image. Read the linked canonical record for inspection notes; powered status and camera angle are separate requirements.
+Click a thumbnail for the full archived image when available. Read the linked canonical record for source and inspection notes; powered status and camera angle are separate requirements.
 
 | Model / evidence | Control face | Rear / connector edge |
 |---|---|---|

@@ -31,3 +31,12 @@ model-images-test:
 .PHONY: model-images-diagram
 model-images-diagram:
 	python3 -B scripts/model_images.py diagram
+
+# Archive the exact SHA-verified source image bytes under brand/images.
+IMAGE_ARCHIVE_LIMIT ?= 1
+.PHONY: model-images-archive-plan model-images-archive
+model-images-archive-plan:
+	python3 -B scripts/model_images.py archive-plan $(IMAGE_ARCHIVE_LIMIT)
+
+model-images-archive:
+	python3 -B scripts/model_images.py archive $(IMAGE_ARCHIVE_LIMIT)

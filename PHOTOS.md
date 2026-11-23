@@ -4,7 +4,7 @@
 
 Thumbnails are also displayed below effect names in the instrument comparison tables. These smaller brand galleries avoid loading the entire catalogue at once. Canonical brand files retain detailed image captions and source qualifications inside expandable Product pictures sections.
 
-All pictures are source links, not locally archived copies; a host can block or remove them. Counts mean recorded evidence, not a live HTTP availability check. Stock illumination is not independently verified powered hardware.
+Verified image bytes are archived under brand/images when available; original image and source URLs remain in the canonical records. Views still linked to source hosts can be blocked or removed. Counts mean recorded evidence, not a live HTTP availability check. Stock illumination is not independently verified powered hardware.
 
 | Brand | Models | Powered primary top | Strict powered top-down | Rear records |
 |---|---|---|---|---|

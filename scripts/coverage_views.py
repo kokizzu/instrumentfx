@@ -74,14 +74,14 @@ def outputs(state):
         '|---|---|---|---|---|---|']
     photo_index = ['# Product photos', '', '[Repository](README.md) · [Comparison tables](all-guitar.md) · [Verification gaps](RESEARCH-GAPS.md)', '',
         'Thumbnails are also displayed below effect names in the instrument comparison tables. These smaller brand galleries avoid loading the entire catalogue at once. Canonical brand files retain detailed image captions and source qualifications inside expandable Product pictures sections.', '',
-        'All pictures are source links, not locally archived copies; a host can block or remove them. Counts mean recorded evidence, not a live HTTP availability check. Stock illumination is not independently verified powered hardware.', '',
+        'Verified image bytes are archived under brand/images when available; original image and source URLs remain in the canonical records. Views still linked to source hosts can be blocked or removed. Counts mean recorded evidence, not a live HTTP availability check. Stock illumination is not independently verified powered hardware.', '',
         '| Brand | Models | Powered primary top | Strict powered top-down | Rear records |', '|---|---|---|---|---|']
     for brand in sorted(state['inventory_by_brand'], key=cv.natural_key):
         bkeys = [k for k in keys if k.split('::')[0] == brand]
         canonical = state['comparison_model_sources'][bkeys[0]]['link'].split('#')[0]
         filename = 'photos/' + Path(canonical).stem.lower() + '.md'
         page = ['# ' + brand + ' product photos', '', '[All photo galleries](../PHOTOS.md) · [Verification gaps](../RESEARCH-GAPS.md)', '',
-            'Click a thumbnail for the full image. Read the linked canonical record for inspection notes; powered status and camera angle are separate requirements.', '',
+            'Click a thumbnail for the full archived image when available. Read the linked canonical record for source and inspection notes; powered status and camera angle are separate requirements.', '',
             '| Model / evidence | Control face | Rear / connector edge |', '|---|---|---|']
         for key in bkeys:
             r = models[key]; im = images.get(key, {}); views = im.get('views', {})
