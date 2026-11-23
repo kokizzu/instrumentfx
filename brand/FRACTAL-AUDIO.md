@@ -1157,13 +1157,13 @@ Sources checked:
 
 **Original FM3 — powered-on top and rear composite**
 
-[![Original FM3 — powered-on top and rear composite](https://www.fractalaudio.com/wp-content/uploads/2019/05/FM3-fractal-audio-768x872.jpg)](https://www.fractalaudio.com/wp-content/uploads/2019/05/FM3-fractal-audio-768x872.jpg)
+[![Original FM3 — powered-on top and rear composite](images/fractal-audio-fm3-original-top-6bb696650ac8.jpg)](images/fractal-audio-fm3-original-top-6bb696650ac8.jpg)
 
 [Image source](https://www.fractalaudio.com/fm3-old/). Manufacturer announcement image shows the original FM3 label, smaller illuminated footswitch displays and colored rings. Upper panel is nearly overhead but slightly angled, not a strict straight-down view; that remains pending. The composite also includes its rear panel. It is an early promotional image, not evidence of current firmware or factory contents.
 
 **Original FM3 — rear connections**
 
-[![Original FM3 — rear connections](https://www.fractalaudio.com/wp-content/uploads/2020/01/FM3-800-rear.webp)](https://www.fractalaudio.com/wp-content/uploads/2020/01/FM3-800-rear.webp)
+[![Original FM3 — rear connections](images/fractal-audio-fm3-mkii-turbo-rear-f80585e2743b.webp)](images/fractal-audio-fm3-mkii-turbo-rear-f80585e2743b.webp)
 
 [Image source](https://www.fractalaudio.com/fm3). Manufacturer FM3 rear image, matching the rear in the original announcement composite; currently also reused on the MKII page. Visible: phones, instrument input, XLR main outputs/ground lift, stereo input2 and output2, two pedal jacks, FASLINK II, USB-A/B, S/PDIF out, MIDI in/out-thru and AC inlet/switch. Small print limits electrical-label detail; no fine ratings inferred.
 
