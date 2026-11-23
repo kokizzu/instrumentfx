@@ -797,13 +797,13 @@ Sources checked:
 
 **HeadRush Prime powered-on top-down product view**
 
-[![HeadRush Prime powered-on top-down product view](https://www.headrushfx.com/assets/images/pdp/prime/headrush-prime-carousel-01.png)](https://www.headrushfx.com/assets/images/pdp/prime/headrush-prime-carousel-01.png)
+[![HeadRush Prime powered-on top-down product view](images/headrush-prime-top-5f64ae9f5e44.png)](images/headrush-prime-top-5f64ae9f5e44.png)
 
 [Image source](https://www.headrushfx.com/products/prime/index.html). Manufacturer overhead product image with active Firmware v5.2 rig, twelve colored footswitch bars, scribble-strip displays and expression-bank display. The pictured CPU reading is for the complete displayed rig, not an isolated pitch effect. Product screen imagery may be composited; this does not verify installed firmware on a physical device.
 
 **HeadRush Prime rear connections**
 
-[![HeadRush Prime rear connections](https://www.headrushfx.com/assets/images/pdp/prime/carousel-03.webp)](https://www.headrushfx.com/assets/images/pdp/prime/carousel-03.webp)
+[![HeadRush Prime rear connections](images/headrush-prime-rear-12de495a748c.webp)](images/headrush-prime-rear-12de495a748c.webp)
 
 [Image source](https://www.headrushfx.com/products/prime/index.html). Manufacturer rear view shows mic gain/combo MIC INPUT, GUITAR IN, AUX, EXT AMP OUT, EXPR and TOE, stereo FX SEND/RETURN, headphones, jack and XLR outputs, full-size MIDI IN/OUT-THRU, USB-B/USB-A and POWER. Prime uses an IEC mains inlet marked AC100–240V 50/60Hz; do not substitute Core/Flex Prime barrel-DC specifications. USB-A is visibly a separate port, not another audio jack.
 
