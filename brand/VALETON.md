@@ -1146,13 +1146,13 @@ Sources checked:
 
 **GP-5 powered-on user photograph — angled overhead**
 
-[![GP-5 powered-on user photograph — angled overhead](https://cdn.basschat.co.uk/monthly_2025_08/IMG20250825141539.jpg.44786d61c66909a25e61d2e38e1c98dd.jpg)](https://cdn.basschat.co.uk/monthly_2025_08/IMG20250825141539.jpg.44786d61c66909a25e61d2e38e1c98dd.jpg)
+[![GP-5 powered-on user photograph — angled overhead](images/valeton-gp-5-top-fcc0807e4520.jpg)](images/valeton-gp-5-top-fcc0807e4520.jpg)
 
 [Image source](https://www.basschat.co.uk/topic/512624-valeton-gp-5-gp-50/). Visually inspected complete GP-5 on a light textured surface: active preset44 display, illuminated blue footswitch ring, both VOL/PARA knobs and side audio connections visible. The near end face is visible, so this is angled overhead rather than a perpendicular top-down view. A strict top-down replacement remains pending. No firmware version, bass-specific hardware variant, pitch polyphony or DSP measurement inferred from the patch shown. Official rear connector view retained separately.
 
 **Official GP-5 rear connector-edge stock image**
 
-[![Official GP-5 rear connector-edge stock image](https://shop.valeton.net/cdn/shop/files/GP-5_Top_Hi_V01_250425_1445x.png?v=1747797182)](https://shop.valeton.net/cdn/shop/files/GP-5_Top_Hi_V01_250425_1445x.png?v=1747797182)
+[![Official GP-5 rear connector-edge stock image](images/valeton-gp-5-rear-a573413f79ca.png)](images/valeton-gp-5-rear-a573413f79ca.png)
 
 [Image source](https://shop.valeton.net/products/gp-5). Visually inspected GP-5 rear narrow edge: USB-C above DC barrel socket. The audio jacks are on the side edges, not this rear face; their electrical stereo/mono behavior is established by the manual, not this photograph. Actual operation and powered status unverified.
 

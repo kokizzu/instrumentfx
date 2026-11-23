@@ -225293,7 +225293,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://cdn.basschat.co.uk/monthly_2025_08/IMG20250825141539.jpg.44786d61c66909a25e61d2e38e1c98dd.jpg",
+            "image_url": "images/valeton-gp-5-top-fcc0807e4520.jpg",
             "source_url": "https://www.basschat.co.uk/topic/512624-valeton-gp-5-gp-50/",
             "caption": "GP-5 powered-on user photograph — angled overhead",
             "note": "Visually inspected complete GP-5 on a light textured surface: active preset44 display, illuminated blue footswitch ring, both VOL/PARA knobs and side audio connections visible. The near end face is visible, so this is angled overhead rather than a perpendicular top-down view. A strict top-down replacement remains pending. No firmware version, bass-specific hardware variant, pitch polyphony or DSP measurement inferred from the patch shown. Official rear connector view retained separately.",
@@ -225303,7 +225303,7 @@
             "sha256": "fcc0807e45202997fc658eb2b4756d419db96ecd27fd10f407f1bc428dc05d96"
           },
           "rear": {
-            "image_url": "https://shop.valeton.net/cdn/shop/files/GP-5_Top_Hi_V01_250425_1445x.png?v=1747797182",
+            "image_url": "images/valeton-gp-5-rear-a573413f79ca.png",
             "source_url": "https://shop.valeton.net/products/gp-5",
             "caption": "Official GP-5 rear connector-edge stock image",
             "note": "Visually inspected GP-5 rear narrow edge: USB-C above DC barrel socket. The audio jacks are on the side edges, not this rear face; their electrical stereo/mono behavior is established by the manual, not this photograph. Actual operation and powered status unverified.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-200LT"
+    "last_model": "Valeton::GP-5"
   }
 }
