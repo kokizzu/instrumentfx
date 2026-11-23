@@ -867,7 +867,7 @@ Sources checked:
 
 **1201 front control face**
 
-[![1201 front control face](https://i.ebayimg.com/images/g/q8oAAeSwjZxpg4lT/s-l1200.webp)](https://i.ebayimg.com/images/g/q8oAAeSwjZxpg4lT/s-l1200.webp)
+[![1201 front control face](images/zoom-1201-top-857d443d2881.webp)](images/zoom-1201-top-857d443d2881.webp)
 
 [Image source](https://www.ebay.co.uk/b/bn_7030484451). Visually checked actual 1201, green indicator visibly illuminated. Front control face viewed from above, not a vertical overhead view: six rotary controls and one BANK selector, no onboard footswitches/treadle. Rack front is the control surface; top lid has no controls. Outer right rack-ear edge is at the photo boundary.
 
