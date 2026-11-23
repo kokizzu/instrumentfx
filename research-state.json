@@ -220975,7 +220975,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://cdn.mos.cms.futurecdn.net/8d33ptkCYXxaWxmZooHv9b.jpg",
+            "image_url": "images/mooer-ge150-original-top-cdc063e3256d.jpg",
             "source_url": "https://www.musicradar.com/reviews/ge150-amp-modeller-and-multi-fx",
             "caption": "MOOER original GE150 powered controls",
             "note": "Visually checked: original two-switch GE150, complete illuminated control surface with P013 PowerBell Dist display and active indicators. Near-overhead view has slight perspective; exact orthographic top-down view remains pending.",
@@ -220985,7 +220985,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://d1aeri3ty3izns.cloudfront.net/media/83/835951/1200/preview.jpg",
+            "image_url": "images/mooer-ge150-original-rear-f3bfe5c66ef8.jpg",
             "source_url": "https://www.gear4music.com/Guitar-and-Bass/Mooer-GE150-Multi-Effects-Pedal/34P9",
             "caption": "MOOER original GE150 rear ports",
             "note": "Visually checked: complete original GE150 rear connector row: AUX IN, INPUT, LEFT/MONO and RIGHT outputs, PHONES, square USB Type-B, separate micro-USB OTG and DC inlet. Labels have low contrast but remain readable.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE100 original"
+    "last_model": "MOOER::GE150 original"
   }
 }

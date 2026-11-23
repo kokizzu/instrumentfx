@@ -1062,13 +1062,13 @@ Sources checked:
 
 **MOOER original GE150 powered controls**
 
-[![MOOER original GE150 powered controls](https://cdn.mos.cms.futurecdn.net/8d33ptkCYXxaWxmZooHv9b.jpg)](https://cdn.mos.cms.futurecdn.net/8d33ptkCYXxaWxmZooHv9b.jpg)
+[![MOOER original GE150 powered controls](images/mooer-ge150-original-top-cdc063e3256d.jpg)](images/mooer-ge150-original-top-cdc063e3256d.jpg)
 
 [Image source](https://www.musicradar.com/reviews/ge150-amp-modeller-and-multi-fx). Visually checked: original two-switch GE150, complete illuminated control surface with P013 PowerBell Dist display and active indicators. Near-overhead view has slight perspective; exact orthographic top-down view remains pending.
 
 **MOOER original GE150 rear ports**
 
-[![MOOER original GE150 rear ports](https://d1aeri3ty3izns.cloudfront.net/media/83/835951/1200/preview.jpg)](https://d1aeri3ty3izns.cloudfront.net/media/83/835951/1200/preview.jpg)
+[![MOOER original GE150 rear ports](images/mooer-ge150-original-rear-f3bfe5c66ef8.jpg)](images/mooer-ge150-original-rear-f3bfe5c66ef8.jpg)
 
 [Image source](https://www.gear4music.com/Guitar-and-Bass/Mooer-GE150-Multi-Effects-Pedal/34P9). Visually checked: complete original GE150 rear connector row: AUX IN, INPUT, LEFT/MONO and RIGHT outputs, PHONES, square USB Type-B, separate micro-USB OTG and DC inlet. Labels have low contrast but remain readable.
 
