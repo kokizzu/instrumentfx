@@ -139,13 +139,13 @@ Sources checked:
 
 **Powered top-down control surface**
 
-[![Powered top-down control surface](https://blackstaramps.us/cdn/shop/files/IDX-FLOOR-THREE-Whiteshot-Top.jpg?v=1767122291&width=4480)](https://blackstaramps.us/cdn/shop/files/IDX-FLOOR-THREE-Whiteshot-Top.jpg?v=1767122291&width=4480)
+[![Powered top-down control surface](images/blackstar-id-x-floor-three-top-89f5d2471ba8.jpg)](images/blackstar-id-x-floor-three-top-89f5d2471ba8.jpg)
 
 [Image source](https://blackstaramps.us/products/id-x-floor). Manufacturer promotional overhead photograph showing the complete enclosure, all controls, eight footswitches and expression pedal. The OLED and status LEDs are illuminated; no controls are obscured.
 
 **Complete rear connection panel**
 
-[![Complete rear connection panel](https://blackstaramps.us/cdn/shop/files/IDX-FLOOR-THREE-Whiteshot-Rear.jpg?v=1767121982&width=4000)](https://blackstaramps.us/cdn/shop/files/IDX-FLOOR-THREE-Whiteshot-Rear.jpg?v=1767121982&width=4000)
+[![Complete rear connection panel](images/blackstar-id-x-floor-three-rear-7102787555bb.jpg)](images/blackstar-id-x-floor-three-rear-7102787555bb.jpg)
 
 [Image source](https://blackstaramps.us/products/id-x-floor). Manufacturer photograph showing every rear connector and readable labels: input, FX-loop send/return, TO AMP, USB-C, line out/phones, L/MONO and R XLR outputs, MIDI IN/THRU, line in/streaming and 9 V DC power. The entire panel is unobstructed.
 
