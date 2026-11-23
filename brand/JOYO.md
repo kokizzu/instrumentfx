@@ -705,13 +705,13 @@ Sources checked:
 
 **JOYO TC-2 powered-on angled view — left edge cropped**
 
-[![JOYO TC-2 powered-on angled view — left edge cropped](https://www.joyoaudio.co.uk/image/cache/catalog/TC-2/JOYO-Tonechain-2%20%285%29-500x500h.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/TC-2/JOYO-Tonechain-2%20%285%29-500x500h.jpg)
+[![JOYO TC-2 powered-on angled view — left edge cropped](images/joyo-tone-chain-tc-2-top-ce74f81b9de9.jpg)](images/joyo-tone-chain-tc-2-top-ce74f81b9de9.jpg)
 
 [Image source](https://www.joyoaudio.co.uk/Tonechain-TC-2). Published photograph shows blue TAP/DELAY, red DS and yellow OD footswitch-ring illumination. Angled view with the left enclosure edge cropped; tuner screen is dark, so illumination is established by the switch rings. Not exact whole-unit overhead. The [whole-unit unlit top/front view](https://www.joyoaudio.co.uk/image/cache/catalog/TC-2/JOYO-Tonechain-2-Metal%20%282%29-500x500.jpg) shows all twelve rotaries and four footswitches. Powered-on exact overhead remains pending.
 
 **JOYO TC-2 rear and dual-XLR side connections**
 
-[![JOYO TC-2 rear and dual-XLR side connections](https://www.joyoaudio.co.uk/image/cache/catalog/TC-2/JOYO-Tonechain-2%20%282%29-500x500.jpg)](https://www.joyoaudio.co.uk/image/cache/catalog/TC-2/JOYO-Tonechain-2%20%282%29-500x500.jpg)
+[![JOYO TC-2 rear and dual-XLR side connections](images/joyo-tone-chain-tc-2-rear-1f832c571ed6.jpg)](images/joyo-tone-chain-tc-2-rear-1f832c571ed6.jpg)
 
 [Image source](https://www.joyoaudio.co.uk/Tonechain-TC-2). Rear-angle photograph labels SEND/RETURN, R and L/MONO jack outputs, CAB SIM pushbutton, AUX IN and DC9V; both XLR outputs appear on the side. Far-left INPUT is outside this crop and appears in the separately inspected [rear-left view](https://www.joyoaudio.co.uk/image/cache/catalog/TC-2/JOYO-Tonechain-2%20%287%29-500x500.jpg). Own manual supplies complete connector inventory; no USB/MIDI/EXP port shown. Not a firmware-version or powered-operation test.
 
