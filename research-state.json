@@ -222391,7 +222391,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.cuvave.com/images/productInfo/tank-pro-1.webp",
+            "image_url": "images/m-vave-tank-pro-top-3776aacd74b2.webp",
             "source_url": "https://www.cuvave.com/products",
             "caption": "TANK-PRO powered-on overhead product image",
             "note": "Manufacturer silver TANK PRO overhead product image; color display shows 01A CT-LightCln and all four footswitch rings are illuminated. Visually checked model name, five knobs and twelve buttons. Marketed image is not a hardware operation or pitch DSP test.",
@@ -222401,7 +222401,7 @@
             "sha256": "3776aacd74b2cca047302a639503ceeb354f7c28ee6a1438e346b80c32eb3577"
           },
           "rear": {
-            "image_url": "https://www.cuvave.com/images/productInfo/tank-pro-6.webp",
+            "image_url": "images/m-vave-tank-pro-rear-06bc8e474202.webp",
             "source_url": "https://www.cuvave.com/product?id=tank-pro",
             "caption": "TANK-PRO rear ports",
             "note": "Manufacturer full rear-panel image: EXP, INPUT, 3.5mm MIDI and headphone sockets, LIFT/GND, L/R XLR, L(MONO)/R quarter-inch outs, USB-C, charge indicator and power switch. MIDI socket presence does not establish MIDI OUT or its TRS wiring. No barrel DC input or effects loop shown. Powered state cannot be established from rear alone.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "M-VAVE::MK-300"
+    "last_model": "M-VAVE::TANK-PRO"
   }
 }
