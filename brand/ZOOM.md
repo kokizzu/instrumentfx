@@ -4915,13 +4915,13 @@ Sources checked:
 
 **G2Nu powered control face**
 
-[![G2Nu powered control face](https://cdn.mos.cms.futurecdn.net/a2e1626df481750172e08f6911261b9d.jpg)](https://cdn.mos.cms.futurecdn.net/a2e1626df481750172e08f6911261b9d.jpg)
+[![G2Nu powered control face](images/zoom-g2nu-top-85f83ad1f5fb.jpg)](images/zoom-g2nu-top-85f83ad1f5fb.jpg)
 
 [Image source](https://www.musicradar.com/reviews/guitars/zoom-g2nu-g2-1nu-279134). Review photograph of an actual powered G2Nu, full near-overhead control face. Amber LCD shows H9:ACOSIM, DIRECT LED is lit and DC cable is connected. Four rotary controls, two footswitches and seven pushbuttons are visible. No built-in treadle; the G2.1Nu photograph is not substituted.
 
 **G2Nu rear connections**
 
-[![G2Nu rear connections](https://dcdn-us.mitiendanube.com/stores/003/379/714/products/whatsapp-image-2024-08-09-at-16-46-28-2-35b37d817a756193dc17238197335300-1024-1024.webp)](https://dcdn-us.mitiendanube.com/stores/003/379/714/products/whatsapp-image-2024-08-09-at-16-46-28-2-35b37d817a756193dc17238197335300-1024-1024.webp)
+[![G2Nu rear connections](images/zoom-g2nu-rear-83c1354397a7.webp)](images/zoom-g2nu-rear-83c1354397a7.webp)
 
 [Image source](https://ghostinstrumentosmusicais.com.br/produtos/pedaleira-zoom-g2-nu/). Actual compact G2Nu rear photographed from above, upside down in the source. All sockets are visible: INPUT, shared OUTPUT/PHONES, CONTROL IN, full-size USB Type-B, POWER with USB-bus-powered OFF marking, and center-negative DC9V 500mA. No separate headphone jack. Musicland candidate returned 403 and was not used.
 
