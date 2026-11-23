@@ -1551,13 +1551,13 @@ Sources checked:
 
 **HX Effects powered-on top-down product image**
 
-[![HX Effects powered-on top-down product image](https://line6.com/data/6/0a020a41ea065fff3561292af/image/png)](https://line6.com/data/6/0a020a41ea065fff3561292af/image/png)
+[![HX Effects powered-on top-down product image](images/line-6-hx-effects-top-1a7585cb7458.png)](images/line-6-hx-effects-top-1a7585cb7458.png)
 
 [Image source](https://line6.com/hx-effects/). Exact overhead manufacturer image shows six active LCD scribble strips and eight footswitches with illuminated colored rings, four rotaries and six separate buttons. The six strips belong to assignable switches 1–6; MODE and TAP do not add two more LCDs. No built-in treadle or large central touchscreen. Published product image is not proof of installed firmware or a physical tracking test.
 
 **HX Effects complete rear connections**
 
-[![HX Effects complete rear connections](https://line6.com/data/6/0a020a402ad45fff4fbb29d2c/image/png)](https://line6.com/data/6/0a020a402ad45fff4fbb29d2c/image/png)
+[![HX Effects complete rear connections](images/line-6-hx-effects-rear-ab40b8a8dad6.png)](images/line-6-hx-effects-rear-ab40b8a8dad6.png)
 
 [Image source](https://line6.com/hx-effects/). Manufacturer rear view labels two PEDAL/EXT AMP sockets, SEND1/2 and RETURN1/2, L/MONO/RIGHT inputs and outputs, MIDI IN/OUT-THRU, USB-B, DC IN and power rocker. No separate headphone socket, XLR input/output or integrated expression treadle; the PEDAL sockets share expression and amp-control roles. Voltage/current are not readable here and are not inferred from the barrel connector. USB presence alone does not establish audio-interface support.
 
