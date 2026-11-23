@@ -112,13 +112,13 @@ Sources checked:
 
 **DNAfx GiT Core — illuminated top panel, angled view**
 
-[![DNAfx GiT Core — illuminated top panel, angled view](https://cdn.mos.cms.futurecdn.net/CuAZsPYT4RzTtpTbB5uJQi.jpg)](https://cdn.mos.cms.futurecdn.net/CuAZsPYT4RzTtpTbB5uJQi.jpg)
+[![DNAfx GiT Core — illuminated top panel, angled view](images/harley-benton-dnafx-git-core-top-f684ea2d34d4.jpg)](images/harley-benton-dnafx-git-core-top-f684ea2d34d4.jpg)
 
 [Image source](https://www.musicradar.com/guitars/endless-creative-possibilities-with-just-a-flick-of-a-switch-harley-bentons-dnafx-git-core-packs-55-amp-models-151-effects-and-an-80-second-looper-into-a-compact-format-all-for-under-dollar99). Manufacturer-credited photograph reproduced by MusicRadar. The P004 UK Clean display and effect/button lights are illuminated. All top controls are visible, but this is an angled view; a straight top-down photograph remains pending.
 
 **DNAfx GiT Core — rear connections**
 
-[![DNAfx GiT Core — rear connections](https://cdn.mos.cms.futurecdn.net/ESUSvjTggttEHqdQ3V5V5i.jpg)](https://cdn.mos.cms.futurecdn.net/ESUSvjTggttEHqdQ3V5V5i.jpg)
+[![DNAfx GiT Core — rear connections](images/harley-benton-dnafx-git-core-rear-3ad5de6a8c98.jpg)](images/harley-benton-dnafx-git-core-rear-3ad5de6a8c98.jpg)
 
 [Image source](https://www.musicradar.com/guitars/endless-creative-possibilities-with-just-a-flick-of-a-switch-harley-bentons-dnafx-git-core-packs-55-amp-models-151-effects-and-an-80-second-looper-into-a-compact-format-all-for-under-dollar99). Manufacturer-credited rear photograph reproduced by MusicRadar. Labels show EXP, AUX IN, INPUT, OUTPUT, PHONES, USB, OTG and 9V DC 300mA centre-negative power. The computer USB socket is Type-B and OTG is Type-C in this pictured unit, matching the manual rather than the conflicting product-page connector wording; no hardware revision equivalence is inferred.
 

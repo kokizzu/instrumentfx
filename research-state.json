@@ -220362,7 +220362,7 @@
         "checked_date": "2026-11-21",
         "views": {
           "top": {
-            "image_url": "https://cdn.mos.cms.futurecdn.net/CuAZsPYT4RzTtpTbB5uJQi.jpg",
+            "image_url": "images/harley-benton-dnafx-git-core-top-f684ea2d34d4.jpg",
             "source_url": "https://www.musicradar.com/guitars/endless-creative-possibilities-with-just-a-flick-of-a-switch-harley-bentons-dnafx-git-core-packs-55-amp-models-151-effects-and-an-80-second-looper-into-a-compact-format-all-for-under-dollar99",
             "caption": "DNAfx GiT Core — illuminated top panel, angled view",
             "note": "Manufacturer-credited photograph reproduced by MusicRadar. The P004 UK Clean display and effect/button lights are illuminated. All top controls are visible, but this is an angled view; a straight top-down photograph remains pending.",
@@ -220372,7 +220372,7 @@
             "sha256": "f684ea2d34d44f2eff12419e56106f64804a6d96ceec6a6d076cfa7b1b2b88d7"
           },
           "rear": {
-            "image_url": "https://cdn.mos.cms.futurecdn.net/ESUSvjTggttEHqdQ3V5V5i.jpg",
+            "image_url": "images/harley-benton-dnafx-git-core-rear-3ad5de6a8c98.jpg",
             "source_url": "https://www.musicradar.com/guitars/endless-creative-possibilities-with-just-a-flick-of-a-switch-harley-bentons-dnafx-git-core-packs-55-amp-models-151-effects-and-an-80-second-looper-into-a-compact-format-all-for-under-dollar99",
             "caption": "DNAfx GiT Core — rear connections",
             "note": "Manufacturer-credited rear photograph reproduced by MusicRadar. Labels show EXP, AUX IN, INPUT, OUTPUT, PHONES, USB, OTG and 9V DC 300mA centre-negative power. The computer USB socket is Type-B and OTG is Type-C in this pictured unit, matching the manual rather than the conflicting product-page connector wording; no hardware revision equivalence is inferred.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP200"
+    "last_model": "Harley Benton::DNAfx GiT Core"
   }
 }
