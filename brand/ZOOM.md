@@ -2674,7 +2674,7 @@ Sources checked:
 
 **Original B3 powered control face**
 
-[![Original B3 powered control face](https://i.ebayimg.com/images/g/PEYAAeSwPuhpWISl/s-l960.png)](https://i.ebayimg.com/images/g/PEYAAeSwPuhpWISl/s-l960.png)
+[![Original B3 powered control face](images/zoom-b3-top-6ef03f92d57e.png)](images/zoom-b3-top-6ef03f92d57e.png)
 
 [Image source](https://www.ebay.com/itm/157574272529). Actual powered original B3 with orange M Comp/BassDrive/D.I.+ screens and effect1 LED lit. Nine knobs,16 front keys and three footswitches visible. Photograph is oblique from above and slightly crops chassis edges; a complete true top-down powered photograph remains pending. Basschat alternative returned403 and was not used.
 

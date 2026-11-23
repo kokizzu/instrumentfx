@@ -226667,7 +226667,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://i.ebayimg.com/images/g/PEYAAeSwPuhpWISl/s-l960.png",
+            "image_url": "images/zoom-b3-top-6ef03f92d57e.png",
             "source_url": "https://www.ebay.com/itm/157574272529",
             "caption": "Original B3 powered control face",
             "note": "Actual powered original B3 with orange M Comp/BassDrive/D.I.+ screens and effect1 LED lit. Nine knobs,16 front keys and three footswitches visible. Photograph is oblique from above and slightly crops chassis edges; a complete true top-down powered photograph remains pending. Basschat alternative returned403 and was not used.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B2 FOUR"
+    "last_model": "Zoom::B3"
   }
 }
