@@ -221407,7 +221407,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://mooer.jp/cdn/shop/files/GE150_Max_Li-01.png?v=1761187396&width=1946",
+            "image_url": "images/mooer-ge150-max-li-top-8d4f550f2892.jpg",
             "source_url": "https://mooer.jp/products/mooer-ge150max-li",
             "caption": "MOOER GE150 Max Li powered-on top view",
             "note": "Straight overhead black GE150 Max Li, explicit Li badge, colourful expression tread, all eight footswitches, lit 02A US Blues Clean screen and illuminated controls/rings. Battery icon is illustrative, not a runtime measurement.",
@@ -221417,7 +221417,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://mooer.jp/cdn/shop/files/GE150_Max_Li-02.png?v=1761187396&width=1946",
+            "image_url": "images/mooer-ge150-max-li-rear-2009ae840b82.jpg",
             "source_url": "https://mooer.jp/products/mooer-ge150max-li",
             "caption": "MOOER GE150 Max Li rear ports",
             "note": "Full straight rear: AUX IN, INPUT, quarter-inch OUTPUT L (MONO)/R, XLR OUT L/R, LIFT/GND switch, PHONES, USB-C marked OTG, rocker power and DC 9V 1.5A center-negative marking. Standard Max 300mA marking does not apply. XLRs are outputs, not mic inputs; no FX loop, external EXP or dedicated physical MIDI shown.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::GE150 Max"
+    "last_model": "MOOER::GE150 Max Li"
   }
 }

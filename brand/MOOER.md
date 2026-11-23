@@ -935,13 +935,13 @@ Sources checked:
 
 **MOOER GE150 Max Li powered-on top view**
 
-[![MOOER GE150 Max Li powered-on top view](https://mooer.jp/cdn/shop/files/GE150_Max_Li-01.png?v=1761187396&width=1946)](https://mooer.jp/cdn/shop/files/GE150_Max_Li-01.png?v=1761187396&width=1946)
+[![MOOER GE150 Max Li powered-on top view](images/mooer-ge150-max-li-top-8d4f550f2892.jpg)](images/mooer-ge150-max-li-top-8d4f550f2892.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ge150max-li). Straight overhead black GE150 Max Li, explicit Li badge, colourful expression tread, all eight footswitches, lit 02A US Blues Clean screen and illuminated controls/rings. Battery icon is illustrative, not a runtime measurement.
 
 **MOOER GE150 Max Li rear ports**
 
-[![MOOER GE150 Max Li rear ports](https://mooer.jp/cdn/shop/files/GE150_Max_Li-02.png?v=1761187396&width=1946)](https://mooer.jp/cdn/shop/files/GE150_Max_Li-02.png?v=1761187396&width=1946)
+[![MOOER GE150 Max Li rear ports](images/mooer-ge150-max-li-rear-2009ae840b82.jpg)](images/mooer-ge150-max-li-rear-2009ae840b82.jpg)
 
 [Image source](https://mooer.jp/products/mooer-ge150max-li). Full straight rear: AUX IN, INPUT, quarter-inch OUTPUT L (MONO)/R, XLR OUT L/R, LIFT/GND switch, PHONES, USB-C marked OTG, rocker power and DC 9V 1.5A center-negative marking. Standard Max 300mA marking does not apply. XLRs are outputs, not mic inputs; no FX loop, external EXP or dedicated physical MIDI shown.
 
