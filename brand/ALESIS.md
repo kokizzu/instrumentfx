@@ -225,7 +225,7 @@ Sources checked:
 
 **Rear connections**
 
-[![Rear connections](https://www.drugansdrums.com/cdn/shop/files/IMG_5725.jpg?v=1685996276&width=1946)](https://www.drugansdrums.com/cdn/shop/files/IMG_5725.jpg?v=1685996276&width=1946)
+[![Rear connections](images/alesis-midiverb-4-rear-af5854cdce7e.jpg)](images/alesis-midiverb-4-rear-af5854cdce7e.jpg)
 
 [Image source](https://www.drugansdrums.com/products/alesis-midiverb-4-rackmount-reverb-effects-processor). Complete rear panel with readable labels: 9 V AC power, footswitch, MIDI IN and OUT/THRU, LEFT/CH 1 and RIGHT/CH 2 inputs, and LEFT/CH 1 and RIGHT/CH 2 outputs. The photograph is slightly elevated but no connector is hidden.
 
