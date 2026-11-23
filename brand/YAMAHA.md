@@ -52,13 +52,13 @@ Sources checked:
 
 **Yamaha AG-Stomp control face**
 
-[![Yamaha AG-Stomp control face](https://img.ricardostatic.ch/images/9cd7d693-82e1-425a-868c-dc4ee81d17ee/t_1000x750/yamaha-ag-stomp-gitarren-pre-amplifier)](https://img.ricardostatic.ch/images/9cd7d693-82e1-425a-868c-dc4ee81d17ee/t_1000x750/yamaha-ag-stomp-gitarren-pre-amplifier)
+[![Yamaha AG-Stomp control face](images/yamaha-ag-stomp-top-88e1d42793aa.jpg)](images/yamaha-ag-stomp-top-88e1d42793aa.jpg)
 
 [Image source](https://www.ricardo.ch/de/a/yamaha-ag-stomp-gitarren-pre-amplifier-1262707494/). Visually checked actual unit with connected cable, redU02 display, lit green PLATE and red footswitch2 indicators. All fifteen top rotaries, seventeen panel buttons and four footswitches visible; no built-in treadle. Near-overhead view has slight perspective, so strict orthographic top-down remains pending. Power indication is photographic evidence, not a hardware-function test.
 
 **Yamaha AG-Stomp rear connectors**
 
-[![Yamaha AG-Stomp rear connectors](https://item-shopping.c.yimg.jp/i/n/grun-sound_z344k230626_4_d_20230629211530)](https://item-shopping.c.yimg.jp/i/n/grun-sound_z344k230626_4_d_20230629211530)
+[![Yamaha AG-Stomp rear connectors](images/yamaha-ag-stomp-rear-f37299f240e1.jpg)](images/yamaha-ag-stomp-rear-f37299f240e1.jpg)
 
 [Image source](https://store.shopping.yahoo.co.jp/grun-sound/z344k230626.html). Visually checked upright full rear row: STAND-BY, AC IN12V1A~, +9V SUPPLY switch, MIDI OUT/IN, coaxial DIGITAL OUT, EXP PEDAL, PHONES, OUTPUT R/L-MONO, MUTE and INPUT MONO/TRS guitar-supply socket. AC power is distinct from the special9V guitar-supply feature; no DC center-polarity claim. No USB or XLR sockets shown. Fine labels also corroborated using the separately inspected higher-resolution upside-down photo.
 
