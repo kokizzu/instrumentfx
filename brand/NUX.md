@@ -1939,13 +1939,13 @@ Sources checked:
 
 **Original NUX MG-300 — top controls**
 
-[![Original NUX MG-300 — top controls](https://www.recordcase.de/media/0d/1d/29/1700635742/nux-mg-300-3-scaled.jpg)](https://www.recordcase.de/media/0d/1d/29/1700635742/nux-mg-300-3-scaled.jpg)
+[![Original NUX MG-300 — top controls](images/nux-mg-300-original-top-fd2a35e9fad7.jpg)](images/nux-mg-300-original-top-fd2a35e9fad7.jpg)
 
 [Image source](https://www.recordcase.de/en/nux-mg-300). Visually inspected exact original MG-300 overhead product image: active color LCD shows patch 9A and a pedalboard; GAIN/LEVEL/MASTER labels and original metal footswitches distinguish it from MKII. Retailer-hosted promotional image, not independent device testing.
 
 **Original NUX MG-300 — rear ports**
 
-[![Original NUX MG-300 — rear ports](https://www.recordcase.de/media/b8/40/be/1700594705/nux-mg-300-6-scaled.jpg)](https://www.recordcase.de/media/b8/40/be/1700594705/nux-mg-300-6-scaled.jpg)
+[![Original NUX MG-300 — rear ports](images/nux-mg-300-original-rear-c9d61fd83cba.jpg)](images/nux-mg-300-original-rear-c9d61fd83cba.jpg)
 
 [Image source](https://www.recordcase.de/en/nux-mg-300). Visually inspected original rear: Input, combined Output/Phones, AUX In, micro-USB and center-negative DC9V. No separate phones socket or USB-C; do not substitute the MKII rear layout.
 

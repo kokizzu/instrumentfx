@@ -221775,7 +221775,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.recordcase.de/media/0d/1d/29/1700635742/nux-mg-300-3-scaled.jpg",
+            "image_url": "images/nux-mg-300-original-top-fd2a35e9fad7.jpg",
             "source_url": "https://www.recordcase.de/en/nux-mg-300",
             "caption": "Original NUX MG-300 — top controls",
             "note": "Visually inspected exact original MG-300 overhead product image: active color LCD shows patch 9A and a pedalboard; GAIN/LEVEL/MASTER labels and original metal footswitches distinguish it from MKII. Retailer-hosted promotional image, not independent device testing.",
@@ -221785,7 +221785,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.recordcase.de/media/b8/40/be/1700594705/nux-mg-300-6-scaled.jpg",
+            "image_url": "images/nux-mg-300-original-rear-c9d61fd83cba.jpg",
             "source_url": "https://www.recordcase.de/en/nux-mg-300",
             "caption": "Original NUX MG-300 — rear ports",
             "note": "Visually inspected original rear: Input, combined Output/Phones, AUX In, micro-USB and center-negative DC9V. No separate phones socket or USB-C; do not substitute the MKII rear layout.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MG-101"
+    "last_model": "NUX::MG-300 original"
   }
 }
