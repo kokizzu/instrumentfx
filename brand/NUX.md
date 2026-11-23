@@ -181,13 +181,13 @@ Sources checked:
 
 **Amp Academy Stomp control-panel view**
 
-[![Amp Academy Stomp control-panel view](https://www.nux.us/cdn/shop/files/NUXNMA3AAP.01.jpg?v=1761762235&width=2400)](https://www.nux.us/cdn/shop/files/NUXNMA3AAP.01.jpg?v=1761762235&width=2400)
+[![Amp Academy Stomp control-panel view](images/nux-amp-academy-stomp-top-004fb9d6ab40.jpg)](images/nux-amp-academy-stomp-top-004fb9d6ab40.jpg)
 
 [Image source](https://www.nux.us/products/amp-academy-stomp). Manufacturer overhead product image with illuminated color LCD showing F9C / Super Lead 1959. Complete top panel visible. This stock image depicts the older nine-block interface, not proof of firmware 2.0.5 operation.
 
 **Amp Academy Stomp rear connections**
 
-[![Amp Academy Stomp rear connections](https://www.monkcustom.com/cdn/shop/files/3_ba79dd08-2173-4151-b131-3481e1883ab4.jpg?v=1753246969&width=1500)](https://www.monkcustom.com/cdn/shop/files/3_ba79dd08-2173-4151-b131-3481e1883ab4.jpg?v=1753246969&width=1500)
+[![Amp Academy Stomp rear connections](images/nux-amp-academy-stomp-rear-f4bbfc51f7cd.jpg)](images/nux-amp-academy-stomp-rear-f4bbfc51f7cd.jpg)
 
 [Image source](https://monkcustom.com/products/nux-amp-academy-stomp-tutorial). Elevated rear view identifies model NMA-3AAP and shows INPUT, SEND, RETURN, balanced L/R outputs, AUX IN, PHONES, MIDI IN/OUT, EXP/CTRL FS and DC 9V. The USB-C connector is on the side and is outside this view. Screen is lit; pictured older interface does not establish installed current firmware.
 
