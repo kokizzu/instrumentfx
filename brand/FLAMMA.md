@@ -360,13 +360,13 @@ Sources checked:
 
 **FV02 Doubling powered-on top-down photograph**
 
-[![FV02 Doubling powered-on top-down photograph](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_52/523425/16611291_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_52/523425/16611291_800.jpg)
+[![FV02 Doubling powered-on top-down photograph](images/flamma-fv02-doubling-top-5eb5250afdf9.jpg)](images/flamma-fv02-doubling-top-5eb5250afdf9.jpg)
 
 [Image source](https://www.thomann.nl/flamma_fv02_vocal_guitar_fx.htm). Green FV02 with blue Tone indicator and green footswitch lighting visibly on. Straight view shows Reverb,Mode,Level,Tone and one footswitch; not FV03 Character or FV04 Harmony.
 
 **FV02 Doubling rear mic, XLR, DC and switches**
 
-[![FV02 Doubling rear mic, XLR, DC and switches](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_52/523425/16611381_800.jpg)](https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_52/523425/16611381_800.jpg)
+[![FV02 Doubling rear mic, XLR, DC and switches](images/flamma-fv02-doubling-rear-f0648133333d.jpg)](images/flamma-fv02-doubling-rear-f0648133333d.jpg)
 
 [Image source](https://www.thomann.nl/flamma_fv02_vocal_guitar_fx.htm). Photographed unit is marked9V500mA,centre-negative; Mic input,XLR Out,Gain,Line In,48V andLift/Gnd are visible. This supports the older hardware marking but does not resolve the newer manual1.5A discrepancy or phantom-power direction. Side guitar jacks are outside this rear view.
 
