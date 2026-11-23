@@ -165,13 +165,13 @@ Sources checked:
 
 **iE-550 top-down product render with active-display artwork**
 
-[![iE-550 top-down product render with active-display artwork](https://hariharimusik.id/wp-content/uploads/2025/12/555.jpeg)](https://hariharimusik.id/wp-content/uploads/2025/12/555.jpeg)
+[![iE-550 top-down product render with active-display artwork](images/dk-ie-550-top-427bed2ceb98.jpg)](images/dk-ie-550-top-427bed2ceb98.jpg)
 
 [Image source](https://hariharimusik.id/shop/digital-effects/dk-ie-550/). Retailer product render shows P01 display and blue switch rings. This is not verified as a photograph of a physically powered-on unit. Rear connector-panel composite illustration is supplied below; real powered-on top photograph remains pending.
 
 **iE-550 rear connector-panel composite illustration**
 
-[![iE-550 rear connector-panel composite illustration](https://etone.shop/cdn/shop/files/DK_IE550_SPECS_1600x.jpg?v=1746785993)](https://etone.shop/cdn/shop/files/DK_IE550_SPECS_1600x.jpg?v=1746785993)
+[![iE-550 rear connector-panel composite illustration](images/dk-ie-550-rear-efaa94649992.jpg)](images/dk-ie-550-rear-efaa94649992.jpg)
 
 [Image source](https://etone.shop/products/dk-ie-550-multi-effects-guitar-processor-with-bluetooth-app). Visually inspected exact-model retailer composite: lower rear panel exposes INPUT, STEREO OUTPUT /PHONES, USB and DC 9V sockets. Upper portion is a labelled active-screen product render. Rear portion has photographic appearance but original capture provenance is unverified; do not treat this composite as proof of powered hardware or use its generic interface captions to infer electrical specifications.
 
