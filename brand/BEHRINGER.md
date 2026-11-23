@@ -323,13 +323,13 @@ Sources checked:
 
 **Behringer DSP2024P — front control panel**
 
-[![Behringer DSP2024P — front control panel](https://i.ebayimg.com/images/g/hVYAAOSwsEVmlFNP/s-l1200.jpg)](https://i.ebayimg.com/images/g/hVYAAOSwsEVmlFNP/s-l1200.jpg)
+[![Behringer DSP2024P — front control panel](images/behringer-dsp2024p-top-1c743e02f238.jpg)](images/behringer-dsp2024p-top-1c743e02f238.jpg)
 
 [Image source](https://www.ebay.com/itm/387199301846). Powered elevated front view with red preset display visible. Rack controls face forward; this is not an exact top-down control-panel view. Both front edges are cropped and the rightmost power switch is not shown; an uncropped powered front replacement remains pending.
 
 **Behringer DSP2024P — rear connections**
 
-[![Behringer DSP2024P — rear connections](https://medias.audiofanzine.com/images/normal/behringer-virtualizer-pro-dsp2024p-6628621.jpeg)](https://medias.audiofanzine.com/images/normal/behringer-virtualizer-pro-dsp2024p-6628621.jpeg)
+[![Behringer DSP2024P — rear connections](images/behringer-dsp2024p-rear-bf2735e02cd8.jpg)](images/behringer-dsp2024p-rear-bf2735e02cd8.jpg)
 
 [Image source](https://fr.audiofanzine.com/multieffet/behringer/virtualizer-pro-dsp2024p/). Elevated full rear view with IEC power/fuse inlet, MIDI OUT/THRU/IN and both channels of balanced XLR and quarter-inch inputs/outputs with operating-level switches. All connectors and their labels are visible.
 

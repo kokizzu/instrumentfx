@@ -228987,7 +228987,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://i.ebayimg.com/images/g/hVYAAOSwsEVmlFNP/s-l1200.jpg",
+            "image_url": "images/behringer-dsp2024p-top-1c743e02f238.jpg",
             "source_url": "https://www.ebay.com/itm/387199301846",
             "caption": "Behringer DSP2024P — front control panel",
             "note": "Powered elevated front view with red preset display visible. Rack controls face forward; this is not an exact top-down control-panel view. Both front edges are cropped and the rightmost power switch is not shown; an uncropped powered front replacement remains pending.",
@@ -228997,7 +228997,7 @@
             "sha256": "1c743e02f238b653786a8b74477a52eb28413021c6fa93b3e57dfaebf26cd9fa"
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/behringer-virtualizer-pro-dsp2024p-6628621.jpeg",
+            "image_url": "images/behringer-dsp2024p-rear-bf2735e02cd8.jpg",
             "source_url": "https://fr.audiofanzine.com/multieffet/behringer/virtualizer-pro-dsp2024p/",
             "caption": "Behringer DSP2024P — rear connections",
             "note": "Elevated full rear view with IEC power/fuse inlet, MIDI OUT/THRU/IN and both channels of balanced XLR and quarter-inch inputs/outputs with operating-level switches. All connectors and their labels are visible.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Behringer::FX600"
+    "last_model": "Behringer::DSP2024P"
   }
 }
