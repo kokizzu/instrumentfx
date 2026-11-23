@@ -5550,13 +5550,13 @@ Sources checked:
 
 **BOSS ME-30 — powered-on overhead view**
 
-[![BOSS ME-30 — powered-on overhead view](https://medias.audiofanzine.com/images/normal/boss-me-30-5662762.jpg)](https://medias.audiofanzine.com/images/normal/boss-me-30-5662762.jpg)
+[![BOSS ME-30 — powered-on overhead view](images/boss-me-30-top-abfa3df91176.jpg)](images/boss-me-30-top-abfa3df91176.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-30/). Actual user photograph with active bank digit 1, FILLED patch LCD, effect-chain graphics and red OD/DS indicator. The complete control surface, five footswitches and expression pedal are visible. The original is rotated 90 degrees and photographed slightly obliquely; an upright exact top-down replacement remains pending.
 
 **BOSS ME-30 — rear connections**
 
-[![BOSS ME-30 — rear connections](https://i.ebayimg.com/images/g/qH0AAOSw4HhmBtlq/s-l1200.jpg)](https://i.ebayimg.com/images/g/qH0AAOSw4HhmBtlq/s-l1200.jpg)
+[![BOSS ME-30 — rear connections](images/boss-me-30-rear-06e2b7aff254.jpg)](images/boss-me-30-rear-06e2b7aff254.jpg)
 
 [Image source](https://www.ebay.com/itm/156144543604). Actual seller photograph of an unpowered ME-30 viewed from behind, showing the whole rear panel: INPUT, miniature AUX IN, stereo OUTPUT jacks, PHONES, power switch and DC IN. All connectors are visible, but dark low-contrast molded labels have limited readability.
 
