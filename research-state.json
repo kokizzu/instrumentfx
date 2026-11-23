@@ -225644,7 +225644,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.voxshowroom.com/ct/misc/Tonelab/LE/ToneLabLe_Top_24.jpg",
+            "image_url": "images/vox-tonelab-le-top-09b5fbf5837b.jpg",
             "source_url": "https://www.voxshowroom.com/us/misc/tonelab_le.html",
             "caption": "ToneLab LE control face",
             "note": "Visually checked near-overhead photograph: lit30 bank display, amber TONE LAB name display, green EXP/CONTROL and red program/effect indicators; power cable visible. Eleven top rotaries, seven footswitches and one treadle. Slight rear-edge perspective means strict orthographic top-down remains pending; photograph shows powered-on indications, not a hardware test.",
@@ -225654,7 +225654,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://www.voxshowroom.com/ct/misc/Tonelab/LE/front_16.jpg",
+            "image_url": "images/vox-tonelab-le-rear-230aeb917d5d.jpg",
             "source_url": "https://www.voxshowroom.com/us/misc/tonelab_le.html",
             "caption": "ToneLab LE rear connectors",
             "note": "Visually checked full rear row: STANDBY, AC9V input (AC, not DC polarity), INPUT, INSERT SEND/RETURN, OUTPUT R/L-MONO, LEVEL, HEADPHONES, MIDI OUT/IN and optical S/PDIF OUT. No USB connector shown; exact electrical ratings remain governed by the manual.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::ToneLab EX"
+    "last_model": "VOX::ToneLab LE"
   }
 }

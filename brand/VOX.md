@@ -676,13 +676,13 @@ Sources checked:
 
 **ToneLab LE control face**
 
-[![ToneLab LE control face](https://www.voxshowroom.com/ct/misc/Tonelab/LE/ToneLabLe_Top_24.jpg)](https://www.voxshowroom.com/ct/misc/Tonelab/LE/ToneLabLe_Top_24.jpg)
+[![ToneLab LE control face](images/vox-tonelab-le-top-09b5fbf5837b.jpg)](images/vox-tonelab-le-top-09b5fbf5837b.jpg)
 
 [Image source](https://www.voxshowroom.com/us/misc/tonelab_le.html). Visually checked near-overhead photograph: lit30 bank display, amber TONE LAB name display, green EXP/CONTROL and red program/effect indicators; power cable visible. Eleven top rotaries, seven footswitches and one treadle. Slight rear-edge perspective means strict orthographic top-down remains pending; photograph shows powered-on indications, not a hardware test.
 
 **ToneLab LE rear connectors**
 
-[![ToneLab LE rear connectors](https://www.voxshowroom.com/ct/misc/Tonelab/LE/front_16.jpg)](https://www.voxshowroom.com/ct/misc/Tonelab/LE/front_16.jpg)
+[![ToneLab LE rear connectors](images/vox-tonelab-le-rear-230aeb917d5d.jpg)](images/vox-tonelab-le-rear-230aeb917d5d.jpg)
 
 [Image source](https://www.voxshowroom.com/us/misc/tonelab_le.html). Visually checked full rear row: STANDBY, AC9V input (AC, not DC polarity), INPUT, INSERT SEND/RETURN, OUTPUT R/L-MONO, LEVEL, HEADPHONES, MIDI OUT/IN and optical S/PDIF OUT. No USB connector shown; exact electrical ratings remain governed by the manual.
 
