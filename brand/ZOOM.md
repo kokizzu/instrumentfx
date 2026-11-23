@@ -1257,13 +1257,13 @@ Sources checked:
 
 **A3 powered control-face photograph**
 
-[![A3 powered control-face photograph](https://images.equipboard.com/uploads/source/image/166486/big_6_DSC09571.jpg)](https://images.equipboard.com/uploads/source/image/166486/big_6_DSC09571.jpg)
+[![A3 powered control-face photograph](images/zoom-a3-top-a22178c47684.jpg)](images/zoom-a3-top-a22178c47684.jpg)
 
 [Image source](https://equipboard.com/items/zoom-a3). Actual A3 with blue-backlit tuner display lit, whole chassis and three footswitches visible. The photograph looks down at a slight angle and is small/dark; it verifies powered operation but is not an exact overhead control-layout image. A sharper powered top-down replacement remains pending.
 
 **A3 rear connections**
 
-[![A3 rear connections](https://www.zoom.co.jp/sites/default/files/products/downloads/images/A3_rear.jpg)](https://www.zoom.co.jp/sites/default/files/products/downloads/images/A3_rear.jpg)
+[![A3 rear connections](images/zoom-a3-rear-3a1309d1fb0f.jpg)](images/zoom-a3-rear-3a1309d1fb0f.jpg)
 
 [Image source](https://www.zoom.co.jp/products/acoustic/zoom-a3-pre-amp-effects-acoustic-guitar). Manufacturer rear photograph clearly shows combo MIC IN, center-negative DC9V IN, POWER eco/ON/OFF/USB-bus-power labeling, GROUND CONNECT/LIFT and three-pin BALANCED OUT. Side-mounted pickup/output/USB sockets are outside this rear view; USB BUS POWERED labels a power-switch position, not a rear USB socket.
 
