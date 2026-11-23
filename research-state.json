@@ -221905,7 +221905,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.lamusic.com/cdn/shop/products/MG-100_hqw_2144x1424.jpg?v=1596207622",
+            "image_url": "images/nux-mg-100-top-aa8ca9af2964.jpg",
             "source_url": "https://www.lamusic.com/products/mg-100",
             "caption": "NUX MG-100 — top controls",
             "visual_checked": true,
@@ -221915,7 +221915,7 @@
             "sha256": "aa8ca9af29643a31ad1f1e7ac4ba5a48efc5e9261e0b7bbf1cf76d0d0fa747b4"
           },
           "rear": {
-            "image_url": "https://stompbox.in/cdn/shop/files/Untitleddesign_2_e5cd8f59-8bf6-4f5b-889c-9b50e5151158.jpg?v=1703233171&width=1500",
+            "image_url": "images/nux-mg-100-rear-68f94eb403b5.jpg",
             "source_url": "https://stompbox.in/products/nux-mg-100-multi-effects-processor",
             "caption": "NUX MG-100 — rear ports",
             "visual_checked": true,
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "NUX::MG-50Li"
+    "last_model": "NUX::MG-100"
   }
 }

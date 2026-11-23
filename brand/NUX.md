@@ -1341,13 +1341,13 @@ Sources checked:
 
 **NUX MG-100 — top controls**
 
-[![NUX MG-100 — top controls](https://www.lamusic.com/cdn/shop/products/MG-100_hqw_2144x1424.jpg?v=1596207622)](https://www.lamusic.com/cdn/shop/products/MG-100_hqw_2144x1424.jpg?v=1596207622)
+[![NUX MG-100 — top controls](images/nux-mg-100-top-aa8ca9af2964.jpg)](images/nux-mg-100-top-aa8ca9af2964.jpg)
 
 [Image source](https://www.lamusic.com/products/mg-100). Retailer-hosted overhead product image shows the original MG-100 with illuminated color screen (1A Ultra Clean) and Mixer/Tap lights. This is not the MG-101.
 
 **NUX MG-100 — rear ports**
 
-[![NUX MG-100 — rear ports](https://stompbox.in/cdn/shop/files/Untitleddesign_2_e5cd8f59-8bf6-4f5b-889c-9b50e5151158.jpg?v=1703233171&width=1500)](https://stompbox.in/cdn/shop/files/Untitleddesign_2_e5cd8f59-8bf6-4f5b-889c-9b50e5151158.jpg?v=1703233171&width=1500)
+[![NUX MG-100 — rear ports](images/nux-mg-100-rear-68f94eb403b5.jpg)](images/nux-mg-100-rear-68f94eb403b5.jpg)
 
 [Image source](https://stompbox.in/products/nux-mg-100-multi-effects-processor). Retailer rear-panel photograph shows the two large audio sockets, smaller auxiliary socket and connected DC adapter. Screen is not visible, so operating power cannot be confirmed from this rear image; labels are not readable. Connector functions are documented separately in the manufacturer manual.
 
