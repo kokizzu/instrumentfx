@@ -221527,7 +221527,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://mooer.jp/cdn/shop/products/20180724-Red-Truck-03.jpg?v=1667199628&width=1445",
+            "image_url": "images/mooer-red-truck-top-b4385d761987.jpg",
             "source_url": "https://mooer.jp/products/redrtuck",
             "caption": "MOOER Red Truck powered-on top view",
             "note": "Visually inspected exact Red Truck powered on, with illuminated tuner, knob indicators and footswitch rings. Slightly oblique near-overhead face view; a strictly perpendicular overhead photograph remains pending.",
@@ -221537,7 +221537,7 @@
             "sha256": "b4385d7619877f8ad083287e683338d3b14db807e0c84e290854f8343886ce5d"
           },
           "rear": {
-            "image_url": "https://mooer.jp/cdn/shop/products/image-asset_51b7a47c-6ac9-49bd-9b5b-30d9ef7ec1d0.jpg?v=1667199625&width=1445",
+            "image_url": "images/mooer-red-truck-rear-083e1d7416f4.jpg",
             "source_url": "https://mooer.jp/products/redrtuck",
             "caption": "MOOER Red Truck rear ports",
             "note": "Visually inspected complete rear connector row: INPUT, FX LOOP RETURN/SEND, headphone-symbol cabinet-simulated output, OUTPUT L(MONO)/R, DC IN 9V 1A and cable restraint. The photo’s 1A marking supports the current product guidance; the older manual’s 300mA supply minimum remains recorded separately.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "MOOER::Black Truck"
+    "last_model": "MOOER::Red Truck"
   }
 }
