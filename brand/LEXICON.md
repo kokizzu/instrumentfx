@@ -518,7 +518,7 @@ Sources checked:
 
 **MX400 straight rear-port photograph — quarter-inch analog variant**
 
-[![MX400 straight rear-port photograph — quarter-inch analog variant](https://r2.gear4music.com/media/51/519054/1200/preview.jpg)](https://r2.gear4music.com/media/51/519054/1200/preview.jpg)
+[![MX400 straight rear-port photograph — quarter-inch analog variant](images/lexicon-mx400-rear-b8ec9f0607a8.jpg)](images/lexicon-mx400-rear-b8ec9f0607a8.jpg)
 
 [Image source](https://www.gear4music.com/Recording-and-Computers/DISC-Lexicon-MX400-Dual-Reverb-Processor-Nearly-New/2MTL). Visually inspected complete unplugged rear: IEC mains/fuse inlet, USB-B, one footswitch jack, two MIDI DIN sockets labeled IN/THRU, four RCA S/PDIF sockets (A/B IN/OUT), four quarter-inch analog outputs and four inputs grouped A front/stereo and B rear. No XLR analog sockets: this is MX400, not MX400XL. Fuse ratings list separate voltage versions; they do not establish universal-input operation. Rear THRU label is retained alongside the manual specification OUT conflict; no independent MIDI output capability inferred.
 

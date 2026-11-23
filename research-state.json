@@ -223601,7 +223601,7 @@
             "sha256": "077926efdfbc612f90703a1bd83b3382e3b815ba8082246c715f36199e3345ca"
           },
           "rear": {
-            "image_url": "https://r2.gear4music.com/media/51/519054/1200/preview.jpg",
+            "image_url": "images/lexicon-mx400-rear-b8ec9f0607a8.jpg",
             "source_url": "https://www.gear4music.com/Recording-and-Computers/DISC-Lexicon-MX400-Dual-Reverb-Processor-Nearly-New/2MTL",
             "caption": "MX400 straight rear-port photograph — quarter-inch analog variant",
             "note": "Visually inspected complete unplugged rear: IEC mains/fuse inlet, USB-B, one footswitch jack, two MIDI DIN sockets labeled IN/THRU, four RCA S/PDIF sockets (A/B IN/OUT), four quarter-inch analog outputs and four inputs grouped A front/stereo and B rear. No XLR analog sockets: this is MX400, not MX400XL. Fuse ratings list separate voltage versions; they do not establish universal-input operation. Rear THRU label is retained alongside the manual specification OUT conflict; no independent MIDI output capability inferred.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Lexicon::MX300"
+    "last_model": "Lexicon::MX400"
   }
 }
