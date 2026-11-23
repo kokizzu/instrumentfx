@@ -222801,7 +222801,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.sonicake.com/cdn/shop/files/QME-20-1.jpg?v=1767506736&width=1096",
+            "image_url": "images/sonicake-smart-box-qme-20-top-54c2c5f08cc1.jpg",
             "source_url": "https://www.sonicake.com/products/smart-box",
             "caption": "Smart Box QME-20 powered overhead",
             "note": "Visually inspected manufacturer exact overhead with lit color screen, module buttons and footswitch rings. One rotary, two footswitches and thirteen separate panel buttons; no built-in expression. Marketing image does not identify installed firmware.",
@@ -222811,7 +222811,7 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.hotone.jp/images/brands/sonicake/smartbox/control_02.webp",
+            "image_url": "images/sonicake-smart-box-qme-20-rear-c81bf3e0cbca.webp",
             "source_url": "https://www.hotone.jp/brands/sonicake/products/smartbox",
             "caption": "Smart Box QME-20 complete rear ports",
             "note": "Visually inspected distributor rear image: EXP/FS, IN, single OUT marked STEREO, PHONES, USB-C, power button and9V center-negative DC inlet. The stereo output is one TRS jack, not two main output sockets; no dedicated AUX/MIDI-DIN/loop ports shown. USB audio/MIDI/power support comes from separate manual evidence.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Sonicake::Matribox QME-50"
+    "last_model": "Sonicake::Smart Box QME-20"
   }
 }
