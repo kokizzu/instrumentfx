@@ -227623,7 +227623,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.zoom.co.jp/sites/default/files/products/product-shots/zoom_RFX-1000.png",
+            "image_url": "images/zoom-rfx-1000-top-7c551fad7234.png",
             "source_url": "https://www.zoom.co.jp/ja/products/audio-converter/zoom-rfx-1000",
             "caption": "RFX-1000 front control panel",
             "note": "Manufacturer complete front-on control-panel photograph with green power and level LEDs shown lit. Six rotary controls, bank slider, microphone input and power switch visible. Rack controls face forward rather than upward; this is not a top-down chassis photo. Promotional illumination is not independently verified.",
@@ -227633,7 +227633,7 @@
             "sha256": "7c551fad72342607fda80ec063d3316f35cd7f0cc90a94c4f8a9d3a6ce96ecab"
           },
           "rear": {
-            "image_url": "https://www.zoom.co.jp/sites/default/files/products/downloads/images/RFX1000_Rear.jpg",
+            "image_url": "images/zoom-rfx-1000-rear-e27f4216504f.jpg",
             "source_url": "https://www.zoom.co.jp/products/production-recording/live-sound-recording/zoom-rfx-1000",
             "caption": "RFX-1000 rear connections",
             "note": "Manufacturer complete rear photograph shows FS01 BYPASS, stereo R/L outputs, R and L/MONO inputs and 12VAC 500mA power connection. Source includes wide white margins; no MIDI or USB connectors appear.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::NEURIG"
+    "last_model": "Zoom::RFX-1000"
   }
 }
