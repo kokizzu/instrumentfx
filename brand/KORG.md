@@ -314,13 +314,13 @@ Sources checked:
 
 **Korg AX5B promotional top view — illuminated display, angled**
 
-[![Korg AX5B promotional top view — illuminated display, angled](https://r2.gear4music.com/media/4/4589/1200/preview.jpg)](https://r2.gear4music.com/media/4/4589/1200/preview.jpg)
+[![Korg AX5B promotional top view — illuminated display, angled](images/korg-ax5b-top-01dd34f0986a.jpg)](images/korg-ax5b-top-01dd34f0986a.jpg)
 
 [Image source](https://www.gear4music.pt/pt/Guitarra-e-Baixo/Korg-AX5B-Bass-Effects-Processor/4W6). AX5B label, complete top controls and expression pedal are visible. Display and indicators are shown illuminated in this promotional product image; no hardware operation or firmware version verified. Perspective view rather than exact overhead; straight powered-on top-down photograph remains pending.
 
 **Korg AX5B rear ports**
 
-[![Korg AX5B rear ports](https://img07.shop-pro.jp/PA01348/005/product/184677664_o3.jpg?cmsp_timestamp=20250130144224)](https://img07.shop-pro.jp/PA01348/005/product/184677664_o3.jpg?cmsp_timestamp=20250130144224)
+[![Korg AX5B rear ports](images/korg-ax5b-rear-5863d5ec0097.jpg)](images/korg-ax5b-rear-5863d5ec0097.jpg)
 
 [Image source](https://shop.geekinbox.jp/?pid=184677664). Rear panel shows INPUT, OUTPUT and DC9V sockets, cable hook and molded AX5 family marking. Exact bass-model provenance is the AX5B seller gallery; its underside photograph also identifies AX5B. Labels are dark red on red but legible at full resolution. Port inventory agrees with the own-model manual.
 
