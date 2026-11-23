@@ -502,13 +502,13 @@ Sources checked:
 
 **Behringer FX600 — control surface**
 
-[![Behringer FX600 — control surface](https://cdn.store-assets.com/s/828136/i/84951831.jpeg)](https://cdn.store-assets.com/s/828136/i/84951831.jpeg)
+[![Behringer FX600 — control surface](images/behringer-fx600-top-c245111a07db.webp)](images/behringer-fx600-top-c245111a07db.webp)
 
 [Image source](https://www.citymusicmelaka.com/products/behringer-fx600-digital-multi-fx-guitar-effects-pedal). Retailer promotional image with illuminated orange ON/BATT indicator, all four knobs and pedal switch visible. Oblique view with retailer branding rather than exact top-down; a clean upright top-down replacement remains pending. Output-side sockets are also visible.
 
 **Behringer FX600 — side connections**
 
-[![Behringer FX600 — side connections](https://images.tcdn.com.br/img/img_prod/996132/pedal_para_guitarra_digital_multi_efeitos_fx600_behringer_955_5_614d52b606b3c7c267af12cdea6b4cdd.jpg)](https://images.tcdn.com.br/img/img_prod/996132/pedal_para_guitarra_digital_multi_efeitos_fx600_behringer_955_5_614d52b606b3c7c267af12cdea6b4cdd.jpg)
+[![Behringer FX600 — side connections](images/behringer-fx600-rear-bc0442976c6a.jpg)](images/behringer-fx600-rear-bc0442976c6a.jpg)
 
 [Image source](https://www.guaranimusical.com.br/acessorios/para-instrumentos-de-corda/pedais-de-efeito-modulacao-loopers/pedal-para-guitarra-digital-multi-efeitos-fx600-behringer). Input-side photograph clearly showing two audio sockets and the DC power socket. FX600 uses side connections rather than a rear connector row; the opposite output-side sockets appear in the control-surface image above. Dedicated straight-on output-side photograph remains pending.
 
