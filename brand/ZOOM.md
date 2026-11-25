@@ -4684,7 +4684,7 @@ Sources checked:
 
 **G2.1Nu rear connections**
 
-[![G2.1Nu rear connections](https://medias.audiofanzine.com/images/normal/zoom-g2-1nu-6466832.jpg)](https://medias.audiofanzine.com/images/normal/zoom-g2-1nu-6466832.jpg)
+[![G2.1Nu rear connections](images/zoom-g2-1nu-rear-1b5da8698639.jpg)](images/zoom-g2-1nu-rear-1b5da8698639.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/g2-1nu/). Actual complete G2.1Nu rear photograph shows INPUT, shared OUTPUT/PHONES, CONTROL IN, full-size USB Type-B, POWER switch with USB-bus-powered OFF marking, and center-negative DC9V 500mA input. PHONES shares OUTPUT; there is no separate headphone jack. Connector type is visually established, not borrowed from G2.1u.
 
