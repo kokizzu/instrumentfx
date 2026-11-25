@@ -226677,12 +226677,12 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://zoomcorp.com/media/original_images/zoom_b3_usbComputer.jpg",
+            "image_url": "images/zoom-b3-rear-087b278c57d1.jpg",
             "source_url": "https://zoomcorp.com/en/jp/multi-effects/bass-effects/b3/",
             "caption": "Original B3 rear connections",
             "note": "Exact manufacturer B3 rear-use photograph: INPUT with ACTIVE/PASSIVE, BALANCED OUT XLR with PRE/POST and GROUND, R and L/MONO OUTPUT (PHONES), CONTROL IN, USB-B, POWER/eco, security slot and center-negative DC9V500mA label are readable. Connected USB cable partly covers its socket;500mA is supply rating, not measured consumption.",
             "visual_checked": true,
-            "sha256": "2f542f7f72efdd6105d71162228a99215dccc6ac6b19072c3692854e7334c0e3",
+            "sha256": "087b278c57d12ffb72956adfea79bc5d36a377f0ccc3aea47359d3c96b3af6d1",
             "powered_on": true
           }
         }
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::606"
+    "last_model": "Zoom::B3"
   }
 }

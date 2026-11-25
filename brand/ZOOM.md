@@ -2680,7 +2680,7 @@ Sources checked:
 
 **Original B3 rear connections**
 
-[![Original B3 rear connections](https://zoomcorp.com/media/original_images/zoom_b3_usbComputer.jpg)](https://zoomcorp.com/media/original_images/zoom_b3_usbComputer.jpg)
+[![Original B3 rear connections](images/zoom-b3-rear-087b278c57d1.jpg)](images/zoom-b3-rear-087b278c57d1.jpg)
 
 [Image source](https://zoomcorp.com/en/jp/multi-effects/bass-effects/b3/). Exact manufacturer B3 rear-use photograph: INPUT with ACTIVE/PASSIVE, BALANCED OUT XLR with PRE/POST and GROUND, R and L/MONO OUTPUT (PHONES), CONTROL IN, USB-B, POWER/eco, security slot and center-negative DC9V500mA label are readable. Connected USB cable partly covers its socket;500mA is supply rating, not measured consumption.
 
