@@ -561,7 +561,7 @@ Sources checked:
 
 **Stage rear panel: input, four returns, two sends, stereo main and monitor outputs, headphones, S/PDIF, four pedal inputs, MIDI in/out, USB-A/B and IEC mains.**
 
-[![Stage rear panel: input, four returns, two sends, stereo main and monitor outputs, headphones, S/PDIF, four pedal inputs, MIDI in/out, USB-A/B and IEC mains.](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-stage_back_800w.jpg)](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-stage_back_800w.jpg)
+[![Stage rear panel: input, four returns, two sends, stereo main and monitor outputs, headphones, S/PDIF, four pedal inputs, MIDI in/out, USB-A/B and IEC mains.](images/kemper-profiler-stage-mk2-rear-94df8647f903.jpg)](images/kemper-profiler-stage-mk2-rear-94df8647f903.jpg)
 
 [Image source](https://www.kemper-amps.com/store/us/profiler-stage-b.html). Stage-specific routing differs from Head/Rack: two sends and four return sockets, four pedal connections and MIDI IN/OUT rather than three DIN sockets. Main outputs are XLR plus quarter-inch; monitor outputs are quarter-inch. No speaker power-amplifier output. Exact MK2 listing provenance is retained; no internal revision is inferred from the unbadged exterior.
 

@@ -223395,12 +223395,12 @@
             "exact_top_down": true
           },
           "rear": {
-            "image_url": "https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-stage_back_800w.jpg",
+            "image_url": "images/kemper-profiler-stage-mk2-rear-94df8647f903.jpg",
             "source_url": "https://www.kemper-amps.com/store/us/profiler-stage-b.html",
             "caption": "Stage rear panel: input, four returns, two sends, stereo main and monitor outputs, headphones, S/PDIF, four pedal inputs, MIDI in/out, USB-A/B and IEC mains.",
             "note": "Stage-specific routing differs from Head/Rack: two sends and four return sockets, four pedal connections and MIDI IN/OUT rather than three DIN sockets. Main outputs are XLR plus quarter-inch; monitor outputs are quarter-inch. No speaker power-amplifier output. Exact MK2 listing provenance is retained; no internal revision is inferred from the unbadged exterior.",
             "visual_checked": true,
-            "sha256": "57cfcb3dcad428302891df550ef4460966064d0c316c9e41db2a7fea3b7feb99",
+            "sha256": "94df8647f903c299cbb432885c05ba472f9098cbed660226ce02b4cf96e0016b",
             "powered_on": null,
             "exact_top_down": false
           }
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DemonFX::Dual Mod Workstation"
+    "last_model": "Kemper::PROFILER Stage MK2"
   }
 }
