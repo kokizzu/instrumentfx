@@ -223333,7 +223333,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_front_800w.jpg",
+            "image_url": "images/kemper-profiler-powerrack-mk2-top-a39ac7c6cc05.jpg",
             "source_url": "https://www.kemper-amps.com/store/en/profiler-powerrack-b.html",
             "caption": "PowerRack MK2 listing powered control-face picture: active LCD, effect LEDs and rack-ear mounting holes.",
             "note": "Manufacturer supplies this shared Rack-front image on PowerRack MK2 SKU19300000 page. Front alone does not distinguish powered versus unpowered Rack or prove internal MK2 revision. Four direct-effect knobs differ from six on Head; front USB-A, headphones and input visible. Upright rack control face, not perpendicular overhead.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Kemper::PROFILER Head MK2"
+    "last_model": "Kemper::PROFILER PowerRack MK2"
   }
 }

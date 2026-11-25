@@ -366,7 +366,7 @@ Sources checked:
 
 **PowerRack MK2 listing powered control-face picture: active LCD, effect LEDs and rack-ear mounting holes.**
 
-[![PowerRack MK2 listing powered control-face picture: active LCD, effect LEDs and rack-ear mounting holes.](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_front_800w.jpg)](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_front_800w.jpg)
+[![PowerRack MK2 listing powered control-face picture: active LCD, effect LEDs and rack-ear mounting holes.](images/kemper-profiler-powerrack-mk2-top-a39ac7c6cc05.jpg)](images/kemper-profiler-powerrack-mk2-top-a39ac7c6cc05.jpg)
 
 [Image source](https://www.kemper-amps.com/store/en/profiler-powerrack-b.html). Manufacturer supplies this shared Rack-front image on PowerRack MK2 SKU19300000 page. Front alone does not distinguish powered versus unpowered Rack or prove internal MK2 revision. Four direct-effect knobs differ from six on Head; front USB-A, headphones and input visible. Upright rack control face, not perpendicular overhead.
 
