@@ -386,7 +386,7 @@ Sources checked:
 
 **606 powered control face**
 
-[![606 powered control face](https://medias.audiofanzine.com/images/normal/zoom-606-guitar-6334600.jpg)](https://medias.audiofanzine.com/images/normal/zoom-606-guitar-6334600.jpg)
+[![606 powered control face](images/zoom-606-top-2039144f6bd9.jpg)](images/zoom-606-top-2039144f6bd9.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/606-Guitar/). Visually checked complete powered 606 GUITAR from overhead with slight perspective: E1 display and DRIVE assignment/status LEDs lit, cables connected. Two rotary selectors, six buttons and two patch footswitches, plus built-in expression treadle. Toe-switch mechanism is not visible under the treadle. E1 is a patch, not firmware.
 
