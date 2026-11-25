@@ -222683,7 +222683,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://cdn11.bigcommerce.com/s-xbuyp6l32e/images/stencil/2048x2048/products/126630/12291/gr-55-bk_top_gal__82565.1741465080.jpg?c=1",
+            "image_url": "images/roland-gr-55-top-3ef46a0f27a8.jpg",
             "source_url": "https://haightashburymusic.com/roland-gr-55s-bk-guitar-synthesizer-black-without-pick-up-or-gk-cable/",
             "caption": "GR-55 powered overhead, black finish",
             "note": "Visually inspected powered-on exact overhead black-finish GR-55: backlit Metal Synth Lead LCD, four footswitches, built-in expression pedal, output-level knob and data wheel. Retail image does not establish installed firmware.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Line 6::POD XT Live"
+    "last_model": "Roland::GR-55"
   }
 }

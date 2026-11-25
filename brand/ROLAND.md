@@ -41,7 +41,7 @@ Sources checked:
 
 **GR-55 powered overhead, black finish**
 
-[![GR-55 powered overhead, black finish](https://cdn11.bigcommerce.com/s-xbuyp6l32e/images/stencil/2048x2048/products/126630/12291/gr-55-bk_top_gal__82565.1741465080.jpg?c=1)](https://cdn11.bigcommerce.com/s-xbuyp6l32e/images/stencil/2048x2048/products/126630/12291/gr-55-bk_top_gal__82565.1741465080.jpg?c=1)
+[![GR-55 powered overhead, black finish](images/roland-gr-55-top-3ef46a0f27a8.jpg)](images/roland-gr-55-top-3ef46a0f27a8.jpg)
 
 [Image source](https://haightashburymusic.com/roland-gr-55s-bk-guitar-synthesizer-black-without-pick-up-or-gk-cable/). Visually inspected powered-on exact overhead black-finish GR-55: backlit Metal Synth Lead LCD, four footswitches, built-in expression pedal, output-level knob and data wheel. Retail image does not establish installed firmware.
 
