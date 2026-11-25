@@ -221,6 +221,86 @@ def archive_retry(limit):
  plan=json.loads(ARCHIVE_PLAN.read_text())
  if plan.get('retry_mode') and plan['cursor']==len(plan['models']): finish_archive_retry(plan)
 
+def archive_adopt_previews(selection):
+ ids=selection.split(',');assert ids and all(ids) and len(ids)==len(set(ids)),'Provide unique model-view IDs separated by commas'
+ publish.identity();plan=json.loads(ARCHIVE_PLAN.read_text())
+ assert plan['format']=='instrumentfx-image-archive-v1' and plan['cursor']==len(plan['models']) and not plan.get('retry_mode')
+ if not plan.get('adopt_pending'): assert plan['head']==publish.git('rev-parse','HEAD')
+ models={item['key']:item for item in plan['models']}
+ def preview_id(key,view): return re.sub(r'[^a-z0-9]+','-',key.lower()).strip('-')[:78].strip('-')+'-'+view
+ def totals():
+  state=json.loads((ROOT/'research-state.json').read_text())
+  plan['localized_models']=sum(any(not v.get('image_url','').startswith('https://') for v in r.get('views',{}).values()) for r in state['model_images']['models'].values())
+  plan['localized_views']=sum(not v.get('image_url','').startswith('https://') for r in state['model_images']['models'].values() for v in r.get('views',{}).values())
+  return state
+ def finish(pending,head):
+  failure_id=preview_id(pending['model'],pending['view'])
+  plan['failures']=[f for f in plan['failures'] if preview_id(f['model'],f['view'])!=failure_id]
+  plan.setdefault('adopted_previews',[]).append({'id':failure_id,'model':pending['model'],'view':pending['view'],'previous_sha256':pending['previous_sha256'],'sha256':pending['sha256'],'path':pending['rel']})
+  plan.pop('adopt_pending');plan['head']=head;state=totals()
+  atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
+  print('ADOPTED_REVIEWED_PREVIEW',failure_id,pending['rel'],'localized_views',plan['localized_views'],'remaining_remote',sum(v.get('image_url','').startswith('https://') for r in state['model_images']['models'].values() for v in r.get('views',{}).values()),flush=True)
+ def recover_commit(pending):
+  commits=publish.git('rev-list','--reverse',plan['head']+'..HEAD').splitlines()
+  assert len(commits)==1,('Unexpected commits after preview checkpoint',commits)
+  rev=commits[0];assert publish.git('rev-parse',rev+'^')==plan['head']
+  assert publish.git('log','-1','--format=%s',rev)=='docs(images): archive '+pending['model'].replace('::',' ')+' source images'
+  changed=set(publish.git('diff-tree','--no-commit-id','--name-only','-r',rev).splitlines())
+  state=json.loads((ROOT/'research-state.json').read_text());record=state['model_images']['models'][pending['model']]
+  view=record['views'][pending['view']]
+  assert view['image_url']==pending['rel'] and view['sha256']==pending['sha256']
+  assert hashlib.sha256(local_asset(pending['rel']).read_bytes()).hexdigest()==pending['sha256']
+  page=state['comparison_model_sources'][pending['model']]['link'].split('#')[0]
+  assert block(record) in (ROOT/page).read_text()
+  import coverage_views as coverage
+  expected=coverage.outputs(state)
+  for rel,body in expected.items(): assert (ROOT/rel).read_text()==body,('Stale generated view',rel)
+  allowed=set(expected)|{page,'research-state.json','brand/'+pending['rel']}
+  assert changed<=allowed and {'research-state.json',page,'brand/'+pending['rel']}<=changed
+  subprocess.run(['git','push','origin','main:main'],cwd=ROOT,check=True)
+  head=publish.git('rev-parse','HEAD');assert publish.git('ls-remote','origin','refs/heads/main').split()[0]==head
+  return head
+ def resume(pending):
+  key=pending['model'];view_name=pending['view'];state=json.loads((ROOT/'research-state.json').read_text())
+  record=json.loads(json.dumps(state['model_images']['models'][key]));view=record['views'][view_name]
+  body=Path(pending['preview']).read_bytes();digest=hashlib.sha256(body).hexdigest()
+  assert digest==pending['sha256'] and image_extension(body,None)==pending['ext']
+  dest=local_asset(pending['rel'])
+  if dest.exists(): assert hashlib.sha256(dest.read_bytes()).hexdigest()==digest
+  else: atomic_write(dest,body)
+  if view['image_url'].startswith('https://'):
+   assert view['sha256']==pending['previous_sha256']
+   view['image_url']=pending['rel'];view['sha256']=digest
+   atomic_write(INPUT,json.dumps(record,ensure_ascii=False).encode())
+   globals()['plan']();globals()['apply']()
+  else:
+   assert view['image_url']==pending['rel'] and view['sha256']==digest
+  return archive_commit(key,record,['brand/'+pending['rel']])
+ if plan.get('adopt_pending'):
+  pending=plan['adopt_pending'];assert preview_id(pending['model'],pending['view']) in ids
+  if plan['head']!=publish.git('rev-parse','HEAD'): head=recover_commit(pending)
+  else: head=resume(pending)
+  finish(pending,head);ids=[item for item in ids if item!=preview_id(pending['model'],pending['view'])]
+ failures={preview_id(f['model'],f['view']):f for f in plan['failures'] if f.get('status')=='source hash changed' and f.get('preview')}
+ assert set(ids)<=set(failures),('Selected previews are not available for review',sorted(set(ids)-set(failures)))
+ for failure_id in ids:
+  failure=failures[failure_id];key=failure['model'];view_name=failure['view']
+  assert not publish.git('diff','--cached','--name-only'),'Staged work must be preserved'
+  checked_worktree()
+  assert key in models and view_name in models[key]['views']
+  expected=models[key]['views'][view_name];state=json.loads((ROOT/'research-state.json').read_text())
+  record=json.loads(json.dumps(state['model_images']['models'][key]));view=record['views'][view_name]
+  assert view['image_url']==expected['url'] and view['sha256']==expected['sha256']
+  preview=Path(failure['preview']);assert preview.parent==Path('/tmp') and preview.name.startswith('instrumentfx-image-review-')
+  body=preview.read_bytes();digest=hashlib.sha256(body).hexdigest();ext=image_extension(body,None)
+  assert digest==failure['actual'] and ext,('Reviewed preview does not match recorded download',failure_id)
+  slug=re.sub(r'[^a-z0-9]+','-',key.lower()).strip('-')[:78].strip('-')
+  rel=f'images/{slug}-{view_name}-{digest[:12]}.{ext}'
+  pending={'model':key,'view':view_name,'previous_sha256':expected['sha256'],'sha256':digest,'preview':str(preview),'ext':ext,'rel':rel}
+  plan['adopt_pending']=pending;atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
+  head=resume(pending);finish(pending,head)
+ print('ARCHIVE_PREVIEW_ADOPTION_RESULT',json.dumps({'adopted':plan.get('adopted_previews',[]),'remaining_failures':len(plan['failures']),'head':plan['head']},ensure_ascii=False))
+
 def archive_recover():
  publish.identity();plan=json.loads(ARCHIVE_PLAN.read_text())
  assert plan['format']=='instrumentfx-image-archive-v1'
@@ -523,4 +603,4 @@ def commit():
  assert publish.git('ls-remote','origin','refs/heads/main').split()[0]==publish.git('rev-parse','HEAD')
  print('PUSH_VERIFIED',publish.git('rev-parse','--short','HEAD'))
 if __name__=='__main__':
- {'diagram':diagram,'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit,'archive-plan':lambda:archive_plan(int(sys.argv[2])),'archive':lambda:archive(int(sys.argv[2])),'archive-retry':lambda:archive_retry(int(sys.argv[2])),'archive-recover':archive_recover,'archive-code-review':archive_code_review,'archive-code-commit':archive_code_commit}[sys.argv[1]]()
+ {'diagram':diagram,'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit,'archive-plan':lambda:archive_plan(int(sys.argv[2])),'archive':lambda:archive(int(sys.argv[2])),'archive-retry':lambda:archive_retry(int(sys.argv[2])),'archive-adopt-previews':lambda:archive_adopt_previews(sys.argv[2]),'archive-recover':archive_recover,'archive-code-review':archive_code_review,'archive-code-commit':archive_code_commit}[sys.argv[1]]()

@@ -45,6 +45,11 @@ model-images-archive:
 model-images-archive-retry:
 	python3 -B scripts/model_images.py archive-retry $(IMAGE_ARCHIVE_LIMIT)
 
+IMAGE_ARCHIVE_ADOPT ?=
+.PHONY: model-images-archive-adopt-previews
+model-images-archive-adopt-previews:
+	python3 -B scripts/model_images.py archive-adopt-previews $(IMAGE_ARCHIVE_ADOPT)
+
 model-images-archive-recover:
 	python3 -B scripts/model_images.py archive-recover
 
