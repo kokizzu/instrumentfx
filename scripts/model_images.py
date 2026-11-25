@@ -314,7 +314,8 @@ def archive_recover():
    assert len(commits)==1,('Unexpected commits after archive checkpoint',commits)
    rev=commits[0];changed=set(publish.git('diff-tree','--no-commit-id','--name-only','-r',rev).splitlines())
    subject=publish.git('log','-1','--format=%s',rev)
-   assert subject=='feat(images): retry remaining source images' and changed and changed<={'scripts/model_images.py','make/images.mk'}
+   code_paths={'scripts/model_images.py','make/images.mk','FOOTSWITCH-DISPLAYS.md'}
+   assert (subject=='feat(images): retry remaining source images' and changed and changed<={'scripts/model_images.py','make/images.mk'}) or (subject=='docs(images): show product photos in footswitch tables' and 'FOOTSWITCH-DISPLAYS.md' in changed and changed<=code_paths)
    assert publish.git('rev-parse',rev+'^')==plan['head']
    plan['head']=publish.git('rev-parse','HEAD');atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
    print('RECOVERED_RETRY_CODE',plan['head']);return
@@ -410,10 +411,13 @@ def archive_code_review():
  else:
   assert not publish.git('ls-files','--others','--exclude-standard'),'Unexpected untracked files must be preserved'
   pending={};mode='retry-maintenance'
- paths={'scripts/model_images.py','make/images.mk'}
- assert not publish.git('diff','--cached','--name-only'),'Staged work must be preserved'
+ paths={'scripts/model_images.py','make/images.mk','FOOTSWITCH-DISPLAYS.md'}
+ staged=set(publish.git('diff','--cached','--name-only').splitlines())
  changed=set(publish.git('diff','--name-only').splitlines())
+ assert staged<=paths,'Unrelated staged work must be preserved'
  assert changed and changed<=paths,'Only archive recovery code may change'
+ changed |= staged
+ if 'FOOTSWITCH-DISPLAYS.md' in changed: mode='table-sync'
  subprocess.run(['git','add','--',*sorted(changed)],cwd=ROOT,check=True)
  subprocess.run(['git','diff','--cached','--check'],cwd=ROOT,check=True)
  diff=publish.git('diff','--cached');assert diff
@@ -433,6 +437,10 @@ def archive_code_commit():
   pending=archive_pending_assets(plan['models'][plan['cursor']])
   assert receipt['pending']==sorted('brand/'+rel for rel in pending.values())
   message='fix(images): resume verified pending photo downloads'
+ elif receipt.get('mode')=='table-sync':
+  assert plan['cursor']==len(plan['models']) and 'FOOTSWITCH-DISPLAYS.md' in receipt['paths']
+  assert receipt['pending']==[] and not publish.git('ls-files','--others','--exclude-standard')
+  message='docs(images): show product photos in footswitch tables'
  else:
   assert receipt.get('mode')=='retry-maintenance'
   if plan['cursor']<len(plan['models']):
@@ -443,7 +451,7 @@ def archive_code_commit():
  subprocess.run(['git','push','origin','main:main'],cwd=ROOT,check=True)
  head=publish.git('rev-parse','HEAD')
  assert publish.git('ls-remote','origin','refs/heads/main').split()[0]==head
- if receipt.get('mode')=='retry-maintenance':
+ if receipt.get('mode') in ('retry-maintenance','table-sync'):
   plan['head']=head;atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
  print('PUSH_VERIFIED',publish.git('rev-parse','--short','HEAD'))
 
@@ -517,6 +525,77 @@ def block(r):
   out += [f"**{v['caption']}**",'',f"[![{v['caption']}]({v['image_url']})]({v['image_url']})",'',f"[Image source]({v['source_url']}). {v['note']}",'']
  out += ['</details>',f'<!-- model-images:{key} ends -->','']
  return '\n'.join(out)
+
+def footswitch_table_images(text,state):
+ by_link={value['link']:key for key,value in state['comparison_model_sources'].items()}
+ def normalized(value): return re.sub(r'[^a-z0-9]+',' ',value.lower()).strip()
+ aliases={'Fractal Audio':['fractal audio','fractal'],'Line 6':['line 6','line6'],'MOD Audio':['mod audio','mod'],'RJM Music':['rjm music','rjm'],'TC Electronic':['tc electronic','tc']}
+ variants={'original','mkii','mk2','turbo','pro','plus','mini','xl','neo','v2'}
+ def belongs(key,label):
+  brand,model=key.split('::',1);label_norm=normalized(label)
+  brand_options=aliases.get(brand,[brand]);brand_ok=any(re.search(r'(?<![a-z0-9])'+re.escape(normalized(option))+r'(?![a-z0-9])',label_norm) for option in brand_options)
+  if not brand_ok: return False
+  model_norm=normalized(model);tokens=model_norm.split();label_word_list=label_norm.split();label_tokens=set(label_word_list)
+  for index,word in enumerate(label_word_list[:-1]):
+   if word=='pre' and label_word_list[index+1] in variants: label_tokens.discard(label_word_list[index+1])
+  if 'variants' not in label_tokens and (label_tokens & variants)-set(tokens): return False
+  while len(tokens)>1 and tokens[-1] in variants: tokens.pop()
+  return any(re.search(r'(?<![a-z0-9])'+re.escape(candidate)+r'(?![a-z0-9])',label_norm) for candidate in {model_norm,' '.join(tokens)})
+ lines=text.splitlines();rows=0;images=0;start='<!-- product-images:begin -->';end='<!-- product-images:end -->'
+ for i,line in enumerate(lines):
+  if not line.startswith('|') or i+1>=len(lines) or not re.match(r'^\|?\s*:?-{3,}',lines[i+1]): continue
+  for j in range(i+2,len(lines)):
+   row=lines[j]
+   if not row.startswith('|'): break
+   split=row.find('|',1)
+   if split<0: continue
+   cell=row[1:split]
+   label=re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1',cell)
+   label=re.sub(r'<[^>]*>|[*`]', ' ',label)
+   links=re.findall(r'\]\((brand/[^)#]+#[^)]+)\)',row)
+   cell_links=re.findall(r'\]\((brand/[^)#]+#[^)]+)\)',cell)
+   direct_models=[by_link[link] for link in cell_links if link in by_link and by_link[link] in state['model_images']['models'] and belongs(by_link[link],label)]
+   candidate_links=cell_links if direct_models else links
+   keys=[]
+   for link in candidate_links:
+    key=by_link.get(link)
+    if key and key not in keys and key in state['model_images']['models'] and belongs(key,label):
+     view=state['model_images']['models'][key].get('views',{}).get('top',{})
+     if view.get('image_url') and not view['image_url'].startswith('https://'): keys.append(key)
+   if not keys and not direct_models:
+    for key,record in state['model_images']['models'].items():
+     view=record.get('views',{}).get('top',{})
+     if belongs(key,label) and view.get('image_url') and not view['image_url'].startswith('https://'):
+      keys.append(key)
+   markup=[]
+   for key in keys:
+    view=state['model_images']['models'][key]['views']['top'];src='brand/'+view['image_url']
+    caption=view.get('caption',key+' top view')
+    alt=html.escape(key+' — '+caption,quote=True);safe_src=html.escape(src,quote=True);title=html.escape(caption,quote=True)
+    markup.append(f'<a href="{safe_src}" title="{title}"><img src="{safe_src}" alt="{alt}" title="{title}" width="180"></a>')
+   if not markup and start not in cell: continue
+   rows+=bool(markup);images+=len(markup)
+   image_html='&nbsp;'.join(markup)
+   if start in cell:
+    a=cell.index(start);b=cell.find(end,a+len(start));assert b>=0,'Unclosed product image marker in table'
+    prefix=cell[:a];suffix=cell[b+len(end):]
+    if image_html:
+     if not prefix.endswith('<br>'): prefix += '<br>'
+     cell=prefix+start+image_html+end+suffix
+    else:
+     if prefix.endswith('<br>'): prefix=prefix[:-4]
+     cell=prefix+suffix
+   else:
+    cell=cell.rstrip()+'<br>'+start+image_html+end
+   lines[j]=row[:1]+cell+row[split:]
+ return '\n'.join(lines)+'\n',rows,images
+
+def table_sync():
+ publish.identity();state=json.loads((ROOT/'research-state.json').read_text());path=ROOT/'FOOTSWITCH-DISPLAYS.md';before=path.read_text()
+ after,rows,images=footswitch_table_images(before,state)
+ if after!=before: atomic_write(path,after.encode())
+ print('FOOTSWITCH_TABLE_IMAGES',json.dumps({'rows_with_images':rows,'image_links':images,'changed':after!=before},ensure_ascii=False))
+
 def replace_gallery(text,old,new):
  before=block(old);after=block(new)
  assert old['model_key']==new['model_key'], 'Cannot replace a different model'
@@ -577,9 +656,11 @@ def verify():
   for v in r['views'].values():
    if not v['image_url'].startswith('https://'):
     assert hashlib.sha256(local_asset(v['image_url']).read_bytes()).hexdigest()==v['sha256']
+ table,rows,images=footswitch_table_images((ROOT/'FOOTSWITCH-DISPLAYS.md').read_text(),s)
+ assert table==(ROOT/'FOOTSWITCH-DISPLAYS.md').read_text(),'Footswitch table product thumbnails are stale'
  subprocess.run(['make','coverage-verify'],cwd=ROOT,check=True)
  subprocess.run(['git','diff','--check'],cwd=ROOT,check=True)
- print('PASS image records and existing catalogue comparisons')
+ print('PASS image records, footswitch table thumbnails, and catalogue comparisons',rows,'rows /',images,'images')
 def review():
  verify();p=json.loads(PLAN.read_text());s=json.loads((ROOT/'research-state.json').read_text());paths=[p['path'],'research-state.json','Makefile','make/images.mk','scripts/model_images.py']
  paths += ['scripts/coverage_views.py','scripts/comparison_views.py']
@@ -607,4 +688,4 @@ def commit():
  assert publish.git('ls-remote','origin','refs/heads/main').split()[0]==publish.git('rev-parse','HEAD')
  print('PUSH_VERIFIED',publish.git('rev-parse','--short','HEAD'))
 if __name__=='__main__':
- {'diagram':diagram,'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit,'archive-plan':lambda:archive_plan(int(sys.argv[2])),'archive':lambda:archive(int(sys.argv[2])),'archive-retry':lambda:archive_retry(int(sys.argv[2])),'archive-adopt-previews':lambda:archive_adopt_previews(sys.argv[2] if len(sys.argv)>2 else ''),'archive-recover':archive_recover,'archive-code-review':archive_code_review,'archive-code-commit':archive_code_commit}[sys.argv[1]]()
+ {'diagram':diagram,'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit,'table-sync':table_sync,'archive-plan':lambda:archive_plan(int(sys.argv[2])),'archive':lambda:archive(int(sys.argv[2])),'archive-retry':lambda:archive_retry(int(sys.argv[2])),'archive-adopt-previews':lambda:archive_adopt_previews(sys.argv[2] if len(sys.argv)>2 else ''),'archive-recover':archive_recover,'archive-code-review':archive_code_review,'archive-code-commit':archive_code_commit}[sys.argv[1]]()

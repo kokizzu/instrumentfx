@@ -19,6 +19,10 @@ model-images-verify:
 model-images-review:
 	python3 -B scripts/model_images.py review
 
+.PHONY: model-images-table-sync
+model-images-table-sync:
+	python3 -B scripts/model_images.py table-sync
+
 .PHONY: model-images-commit
 model-images-commit:
 	python3 -B scripts/model_images.py commit
