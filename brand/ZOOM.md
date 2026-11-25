@@ -5802,7 +5802,7 @@ Sources checked:
 
 **G3X rear connections**
 
-[![G3X rear connections](https://medias.audiofanzine.com/images/normal/zoom-g3x-6127965.jpg)](https://medias.audiofanzine.com/images/normal/zoom-g3x-6127965.jpg)
+[![G3X rear connections](images/zoom-g3x-rear-d1aed26cf51f.jpg)](images/zoom-g3x-rear-d1aed26cf51f.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/g3x/). Actual complete rear photograph: INPUT with PASSIVE/ACTIVE selector; balanced XLR with PRE/POST and CONNECT/LIFT ground selectors; OUTPUT R and shared L/MONO/PHONES; CONTROL IN; USB Type-B; ON/eco/OFF power switch; center-negative DC 9V 500mA input and security slot. Headphones share L/MONO; no separate headphone jack.
 
