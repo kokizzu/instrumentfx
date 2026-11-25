@@ -223591,7 +223591,7 @@
         "checked_date": "2026-11-23",
         "views": {
           "top": {
-            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/41838/178943/YOTHER12015501__80124.1666612252.jpg?c=1",
+            "image_url": "images/lexicon-mx400-top-077926efdfbc.jpg",
             "source_url": "https://richtonemusic.co.uk/lexicon-mx400-2nd-hand/",
             "caption": "MX400 complete physical front-panel photograph — unlit",
             "note": "Complete physical MX400, including both rack ears, seven rotary controls, six function buttons and power rocker. LCD and numeric program display are dark; elevated front perspective, not literal top-down. Replaces a combined front/rear image with a single unobstructed front view; powered-on and literal overhead photographs remain pending. [Previous front/rear composite](https://medias.audiofanzine.com/images/normal/lexicon-mx400-372599.jpg).",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Kemper::PROFILER Stage MK2"
+    "last_model": "Lexicon::MX400"
   }
 }

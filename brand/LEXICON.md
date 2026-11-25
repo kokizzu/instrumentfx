@@ -512,7 +512,7 @@ Sources checked:
 
 **MX400 complete physical front-panel photograph — unlit**
 
-[![MX400 complete physical front-panel photograph — unlit](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/41838/178943/YOTHER12015501__80124.1666612252.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/41838/178943/YOTHER12015501__80124.1666612252.jpg?c=1)
+[![MX400 complete physical front-panel photograph — unlit](images/lexicon-mx400-top-077926efdfbc.jpg)](images/lexicon-mx400-top-077926efdfbc.jpg)
 
 [Image source](https://richtonemusic.co.uk/lexicon-mx400-2nd-hand/). Complete physical MX400, including both rack ears, seven rotary controls, six function buttons and power rocker. LCD and numeric program display are dark; elevated front perspective, not literal top-down. Replaces a combined front/rear image with a single unobstructed front view; powered-on and literal overhead photographs remain pending. [Previous front/rear composite](https://medias.audiofanzine.com/images/normal/lexicon-mx400-372599.jpg).
 
