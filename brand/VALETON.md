@@ -893,7 +893,7 @@ Sources checked:
 
 **Dapper Mini MES-1 straight connector-panel photograph**
 
-[![Dapper Mini MES-1 straight connector-panel photograph](https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/20041/69541/494590-Valeton-MES-1-Dapper-Mini-Effect-Strip-Top__45223.1716303269.jpg?c=1)](https://cdn11.bigcommerce.com/s-4hc0jwsnnq/images/stencil/original/products/20041/69541/494590-Valeton-MES-1-Dapper-Mini-Effect-Strip-Top__45223.1716303269.jpg?c=1)
+[![Dapper Mini MES-1 straight connector-panel photograph](images/valeton-dapper-mini-mes-1-rear-cc25b3836144.jpg)](images/valeton-dapper-mini-mes-1-rear-cc25b3836144.jpg)
 
 [Image source](https://www.andertons.co.uk/valeton-dapper-mini-multi-fx-pedal-strip/). Complete straight connector panel with legible9VDC,IN,PHONES andOUT labels. Barrel power socket, two quarter-inch audio sockets and smaller headphone socket are unplugged. Three footswitches and ten knob caps visible above confirm Mini layout. No polarity or current rating readable in this view; no numerical power requirement inferred. [Previous angled rear view](https://shop.valeton.net/cdn/shop/products/DapperMini_Rear_Perspective_Hi_V01_161213_1500x.png?v=1641360454).
 
