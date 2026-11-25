@@ -602,7 +602,7 @@ Sources checked:
 
 **RP55 overhead product photograph — display unlit**
 
-[![RP55 overhead product photograph — display unlit](https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/26091/262962/68202001-88f2-566e-b032-285e7d864ed4__24960.1718087810.jpg?c=2)](https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/26091/262962/68202001-88f2-566e-b032-285e7d864ed4__24960.1718087810.jpg?c=2)
+[![RP55 overhead product photograph — display unlit](images/digitech-rp55-top-d2717eef96e7.jpg)](images/digitech-rp55-top-d2717eef96e7.jpg)
 
 [Image source](https://www.creamcitymusic.com/used-digitech-rp55-multi-effects-pedal/). Visually inspected: exact RP55 control face, two footswitches and full enclosure, photographed from slightly above rather than a strict perpendicular elevation. Display segments and status indicators are unlit; a powered-on top-down photograph remains pending. Rear connectors are documented separately below.
 

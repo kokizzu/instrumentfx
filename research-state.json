@@ -218137,7 +218137,7 @@
             "sha256": "83e2c0448f551d904dac3edfff18662f9c378592ae40dcb33fb196e1e5127cd4"
           },
           "top": {
-            "image_url": "https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/26091/262962/68202001-88f2-566e-b032-285e7d864ed4__24960.1718087810.jpg?c=2",
+            "image_url": "images/digitech-rp55-top-d2717eef96e7.jpg",
             "source_url": "https://www.creamcitymusic.com/used-digitech-rp55-multi-effects-pedal/",
             "caption": "RP55 overhead product photograph — display unlit",
             "note": "Visually inspected: exact RP55 control face, two footswitches and full enclosure, photographed from slightly above rather than a strict perpendicular elevation. Display segments and status indicators are unlit; a powered-on top-down photograph remains pending. Rear connectors are documented separately below.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Audota::AME-200 Pro"
+    "last_model": "DigiTech::RP55"
   }
 }
