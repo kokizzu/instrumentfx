@@ -1849,7 +1849,7 @@ Sources checked:
 
 **BOSS GT-5 — rear connections**
 
-[![BOSS GT-5 — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/60822/390487/YBOSS13713002__83888.1717669889.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/60822/390487/YBOSS13713002__83888.1717669889.jpg?c=1)
+[![BOSS GT-5 — rear connections](images/boss-gt-5-rear-39ca4d7ef21a.jpg)](images/boss-gt-5-rear-39ca4d7ef21a.jpg)
 
 [Image source](https://richtonemusic.co.uk/boss-gt-5-guitar-effects-processor-2nd-hand/). Actual retailer photograph of an unpowered used GT-5, viewed diagonally from behind with the complete rear connection row visible: INPUT and level control, OUTPUT R/L-MONO, PHONES, LOOP SEND/RETURN, EXP PEDAL/CONTROL1/2, MIDI IN/OUT, power switch and captive mains lead. The far-end jack labels are less readable because of perspective; this pictured unit is marked AC230V.
 
