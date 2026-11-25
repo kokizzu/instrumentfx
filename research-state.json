@@ -225670,7 +225670,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/vox-tonelab-se-5611582.jpg",
+            "image_url": "images/vox-tonelab-se-top-9384ec55f16a.jpg",
             "source_url": "https://en.audiofanzine.com/guitar-amp-simulation-pedal/vox/tonelab-se/",
             "caption": "VOX ToneLab SE — powered-on overhead control surface",
             "note": "Actual user photograph shows the complete ToneLab SE on a wooden surface, including all nine footswitches and both full expression treadles. The amber CLAIR name display, red bank 1 display and multiple effect/program/expression indicators are visibly illuminated. Nearly overhead with slight perspective; not a strictly perpendicular photograph. Some fine labels are soft. The [previous stock layout image](https://voxshowroom.com/ct/misc/Tonelab/SE/Tonelab_SE_top.jpg) remains available for comparison.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::GP-200LT"
+    "last_model": "VOX::ToneLab SE"
   }
 }
