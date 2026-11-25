@@ -1958,7 +1958,7 @@ Sources checked:
 
 **BOSS GT-6 — rear connections**
 
-[![BOSS GT-6 — rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/70821/513152/YBOSS14714005__29024.1742299113.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/70821/513152/YBOSS14714005__29024.1742299113.jpg?c=1)
+[![BOSS GT-6 — rear connections](images/boss-gt-6-rear-b1274ff9caf4.jpg)](images/boss-gt-6-rear-b1274ff9caf4.jpg)
 
 [Image source](https://richtonemusic.co.uk/boss-gt-6-guitar-effects-processor-power-supply-gig-bag-2nd-hand/). Actual retailer photograph of an unpowered used GT-6, viewed slightly diagonally from behind with the complete connector row visible: INPUT, OUTPUT LEVEL, OUTPUT R/L-MONO, PHONES, EXTERNAL SEND/RETURN, coaxial DIGITAL OUT, SUB EXP PEDAL/SUB CTL1/2, MIDI OUT/IN, power switch, AC IN 14V for BRC adaptor and cord restraint.
 

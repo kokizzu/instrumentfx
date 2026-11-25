@@ -228309,7 +228309,7 @@
             "sha256": "b4e018197db33b0ba6580cf4ece420e090e345f9fb526c8dfe9cb71b89c9bbad"
           },
           "rear": {
-            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/70821/513152/YBOSS14714005__29024.1742299113.jpg?c=1",
+            "image_url": "images/boss-gt-6-rear-b1274ff9caf4.jpg",
             "source_url": "https://richtonemusic.co.uk/boss-gt-6-guitar-effects-processor-power-supply-gig-bag-2nd-hand/",
             "caption": "BOSS GT-6 — rear connections",
             "note": "Actual retailer photograph of an unpowered used GT-6, viewed slightly diagonally from behind with the complete connector row visible: INPUT, OUTPUT LEVEL, OUTPUT R/L-MONO, PHONES, EXTERNAL SEND/RETURN, coaxial DIGITAL OUT, SUB EXP PEDAL/SUB CTL1/2, MIDI OUT/IN, power switch, AC IN 14V for BRC adaptor and cord restraint.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::G3X"
+    "last_model": "BOSS::GT-6"
   }
 }
