@@ -230,7 +230,7 @@ def archive_recover():
    assert len(commits)==1,('Unexpected commits after archive checkpoint',commits)
    rev=commits[0];changed=set(publish.git('diff-tree','--no-commit-id','--name-only','-r',rev).splitlines())
    subject=publish.git('log','-1','--format=%s',rev)
-   assert subject=='feat(images): retry remaining source images' and changed=={'scripts/model_images.py','make/images.mk'}
+   assert subject=='feat(images): retry remaining source images' and changed and changed<={'scripts/model_images.py','make/images.mk'}
    assert publish.git('rev-parse',rev+'^')==plan['head']
    plan['head']=publish.git('rev-parse','HEAD');atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
    print('RECOVERED_RETRY_CODE',plan['head']);return
@@ -253,6 +253,46 @@ def archive_recover():
    atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
    print('RECOVERED_PENDING',key,'views',len(pending),'head',plan['head'],'cursor',plan['cursor'],'preserved_failures',len(plan['failures']))
    return
+ if not commits:
+  assert publish.git('rev-parse','HEAD')==plan['head'],'Archive checkpoint head changed without a recoverable commit'
+  pending=archive_pending_assets(item)
+  if pending:
+   assert not publish.git('diff','--cached','--name-only'),'Staged work must be preserved'
+   state=json.loads((ROOT/'research-state.json').read_text());record=state['model_images']['models'][key]
+   before_state=json.loads(publish.git('show','HEAD:research-state.json'))
+   before_record=before_state['model_images']['models'][key]
+   for name,rel in pending.items():
+    view=record['views'][name]
+    assert view['image_url']==rel and view['sha256']==item['views'][name]['sha256']
+   before_state['model_images']['models'][key]=record
+   before_state['model_images']['last_model']=key
+   assert before_state==state,'Interrupted image application changed unrelated research-state data'
+   page=state['comparison_model_sources'][key]['link'].split('#')[0]
+   old_page=publish.git('show','HEAD:'+page);old_block=block(before_record);new_block=block(record)
+   assert old_page.count(old_block)==1 and (ROOT/page).read_text().rstrip()==old_page.replace(old_block,new_block,1).rstrip(),'Interrupted image application changed unrelated catalogue text'
+   import coverage_views as coverage
+   expected=coverage.outputs(state)
+   for rel,body in expected.items(): assert (ROOT/rel).read_text()==body,('Stale generated view',rel)
+   allowed=set(expected)|{page,'research-state.json'}|{'brand/'+rel for rel in pending.values()}
+   code_paths={'scripts/model_images.py','make/images.mk'}
+   changed=set(publish.git('diff','--name-only').splitlines())|set(publish.git('ls-files','--others','--exclude-standard').splitlines())
+   assert changed<=allowed|code_paths,('Unrelated changes must be preserved',sorted(changed-(allowed|code_paths)))
+   selected=sorted(changed&allowed)
+   assert 'research-state.json' in selected and page in selected and set('brand/'+rel for rel in pending.values())<=set(selected)
+   subprocess.run(['git','add','--',*selected],cwd=ROOT,check=True)
+   subprocess.run(['git','diff','--cached','--check'],cwd=ROOT,check=True)
+   diff=publish.git('diff','--cached');assert diff
+   subprocess.run(['git','commit','-m','docs(images): archive '+key.replace('::',' ')+' source images'],cwd=ROOT,check=True)
+   subprocess.run(['git','push','origin','main:main'],cwd=ROOT,check=True)
+   head=publish.git('rev-parse','HEAD')
+   assert publish.git('ls-remote','origin','refs/heads/main').split()[0]==head
+   plan['head']=head;plan['cursor']+=1;plan['localized_models']+=1;plan['localized_views']+=len(pending)
+   atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
+   print('RECOVERED_APPLIED',key,'views',len(pending),'head',head,'cursor',plan['cursor'],'staged',selected)
+   return
+  checked_worktree()
+  print('NO_PENDING_ARCHIVE_RECOVERY',key,plan['cursor'])
+  return
  checked_worktree()
  subject='docs(images): archive '+key.replace('::',' ')+' source images'
  subjects={rev:publish.git('log','-1','--format=%s',rev) for rev in commits}
@@ -282,15 +322,15 @@ def archive_code_review():
  assert plan['format']=='instrumentfx-image-archive-v1'
  if plan['cursor']<len(plan['models']):
   item=plan['models'][plan['cursor']];pending=archive_pending_assets(item)
-  assert pending,('No verified pending assets for archive checkpoint',item['key'])
-  mode='pending-recovery'
+  mode='pending-recovery' if pending else 'retry-maintenance'
  else:
   assert not publish.git('ls-files','--others','--exclude-standard'),'Unexpected untracked files must be preserved'
   pending={};mode='retry-maintenance'
  paths={'scripts/model_images.py','make/images.mk'}
  assert not publish.git('diff','--cached','--name-only'),'Staged work must be preserved'
- assert set(publish.git('diff','--name-only').splitlines())==paths,'Only archive recovery code may change'
- subprocess.run(['git','add','--',*sorted(paths)],cwd=ROOT,check=True)
+ changed=set(publish.git('diff','--name-only').splitlines())
+ assert changed and changed<=paths,'Only archive recovery code may change'
+ subprocess.run(['git','add','--',*sorted(changed)],cwd=ROOT,check=True)
  subprocess.run(['git','diff','--cached','--check'],cwd=ROOT,check=True)
  diff=publish.git('diff','--cached');assert diff
  receipt={'head':publish.git('rev-parse','HEAD'),'paths':sorted(publish.git('diff','--cached','--name-only').splitlines()),'sha256':hashlib.sha256(diff.encode()).hexdigest(),'pending':sorted('brand/'+rel for rel in pending.values()),'mode':mode}
@@ -310,7 +350,9 @@ def archive_code_commit():
   assert receipt['pending']==sorted('brand/'+rel for rel in pending.values())
   message='fix(images): resume verified pending photo downloads'
  else:
-  assert receipt.get('mode')=='retry-maintenance' and plan['cursor']==len(plan['models'])
+  assert receipt.get('mode')=='retry-maintenance'
+  if plan['cursor']<len(plan['models']):
+   assert not archive_pending_assets(plan['models'][plan['cursor']]),'Pending image assets require the pending-recovery commit path'
   assert receipt['pending']==[] and not publish.git('ls-files','--others','--exclude-standard')
   message='feat(images): retry remaining source images'
  subprocess.run(['git','commit','-m',message],cwd=ROOT,check=True)
