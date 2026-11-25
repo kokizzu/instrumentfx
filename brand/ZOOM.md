@@ -496,7 +496,7 @@ Sources checked:
 
 **607 control face**
 
-[![607 control face](https://medias.audiofanzine.com/images/normal/zoom-607-bass-2726452.jpg)](https://medias.audiofanzine.com/images/normal/zoom-607-bass-2726452.jpg)
+[![607 control face](images/zoom-607-top-26263998c385.jpg)](images/zoom-607-top-26263998c385.jpg)
 
 [Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/607-Bass/). Visually checked complete 607 BASS overhead view with slight perspective; display and assignment LEDs unlit. Powered overhead photo remains pending. Two rotary selectors, six buttons and two patch footswitches plus built-in expression treadle. Toe-switch mechanism not visible beneath treadle.
 

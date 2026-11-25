@@ -226217,7 +226217,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-607-bass-2726452.jpg",
+            "image_url": "images/zoom-607-top-26263998c385.jpg",
             "source_url": "https://en.audiofanzine.com/bass-multi-effect/zoom/607-Bass/",
             "caption": "607 control face",
             "note": "Visually checked complete 607 BASS overhead view with slight perspective; display and assignment LEDs unlit. Powered overhead photo remains pending. Two rotary selectors, six buttons and two patch footswitches plus built-in expression treadle. Toe-switch mechanism not visible beneath treadle.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::606"
+    "last_model": "Zoom::607"
   }
 }
