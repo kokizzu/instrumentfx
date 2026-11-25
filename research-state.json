@@ -225258,7 +225258,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://santoclemenzi.com/wp-content/uploads/2023/03/IMG_20230311_151621-scaled.jpg",
+            "image_url": "images/valeton-gp-200lt-top-685211e81c8b.jpg",
             "source_url": "https://santoclemenzi.com/en/valeton-gp-200lt/",
             "caption": "GP-200LT powered-on overhead pedalboard photograph",
             "note": "Visually inspected exact black GP-200LT in a pedalboard case: lit color display, illuminated first/second/CTRL footswitch rings, all four footswitches, six knobs and full enclosure visible. No built-in expression treadle. Slight perspective remains, so strict perpendicular elevation is pending. Screen patch text is washed out; no firmware, patch identity or DSP cost inferred. Other devices in the case are external accessories, not part of the GP-200LT.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Valeton::Dapper Mini MES-1"
+    "last_model": "Valeton::GP-200LT"
   }
 }

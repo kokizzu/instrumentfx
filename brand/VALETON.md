@@ -3281,7 +3281,7 @@ Sources checked:
 
 **GP-200LT powered-on overhead pedalboard photograph**
 
-[![GP-200LT powered-on overhead pedalboard photograph](https://santoclemenzi.com/wp-content/uploads/2023/03/IMG_20230311_151621-scaled.jpg)](https://santoclemenzi.com/wp-content/uploads/2023/03/IMG_20230311_151621-scaled.jpg)
+[![GP-200LT powered-on overhead pedalboard photograph](images/valeton-gp-200lt-top-685211e81c8b.jpg)](images/valeton-gp-200lt-top-685211e81c8b.jpg)
 
 [Image source](https://santoclemenzi.com/en/valeton-gp-200lt/). Visually inspected exact black GP-200LT in a pedalboard case: lit color display, illuminated first/second/CTRL footswitch rings, all four footswitches, six knobs and full enclosure visible. No built-in expression treadle. Slight perspective remains, so strict perpendicular elevation is pending. Screen patch text is washed out; no firmware, patch identity or DSP cost inferred. Other devices in the case are external accessories, not part of the GP-200LT.
 
