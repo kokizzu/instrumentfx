@@ -225964,12 +225964,12 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://cuesale.com/wp-content/uploads/2020/05/Yamaha-Digital-Reverberator-REV-500-2.jpg",
+            "image_url": "images/yamaha-rev500-rear-5373694bcf57.webp",
             "source_url": "https://cuesale.com/product/yamaha-rev500-digital-reverberator/",
             "caption": "REV500 rear connectors",
             "note": "Visually checked full rear and top chassis from above: captive mains lead at left; FOOT SW; MIDI OUT/IN; L/R output XLR and quarter-inch pairs with level selector; L/R input quarter-inch and XLR pairs with separate level selector. No USB, PHONES, analog EXP or MIDI THRU socket shown. Pictured mains variant marked230V15W50Hz; not universal-voltage proof. Front/display is not visible here, so powered state unknown.",
             "visual_checked": true,
-            "sha256": "20a1bd8ef9789e29a522fcaba2805a16feb46d306f5f25f297567640942a7dc2",
+            "sha256": "5373694bcf577d281813bc0d49c053b04f39dd555f648f2f327cdc6afe5ce352",
             "powered_on": null,
             "exact_top_down": false
           }
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Kemper::PROFILER Stage MK2"
+    "last_model": "Yamaha::REV500"
   }
 }

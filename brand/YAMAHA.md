@@ -776,7 +776,7 @@ Sources checked:
 
 **REV500 rear connectors**
 
-[![REV500 rear connectors](https://cuesale.com/wp-content/uploads/2020/05/Yamaha-Digital-Reverberator-REV-500-2.jpg)](https://cuesale.com/wp-content/uploads/2020/05/Yamaha-Digital-Reverberator-REV-500-2.jpg)
+[![REV500 rear connectors](images/yamaha-rev500-rear-5373694bcf57.webp)](images/yamaha-rev500-rear-5373694bcf57.webp)
 
 [Image source](https://cuesale.com/product/yamaha-rev500-digital-reverberator/). Visually checked full rear and top chassis from above: captive mains lead at left; FOOT SW; MIDI OUT/IN; L/R output XLR and quarter-inch pairs with level selector; L/R input quarter-inch and XLR pairs with separate level selector. No USB, PHONES, analog EXP or MIDI THRU socket shown. Pictured mains variant marked230V15W50Hz; not universal-voltage proof. Front/display is not visible here, so powered state unknown.
 
