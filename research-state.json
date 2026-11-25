@@ -229183,14 +229183,14 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://cdn11.bigcommerce.com/s-mivyx18b6b/images/stencil/1280x1280/products/18519/1253557/Alesis-Midiverb-4-front-rear__27695.1733993225.jpg?c=1%3Fimbypass%3Don",
+            "image_url": "images/alesis-midiverb-4-top-99c00dcb0272.jpg",
             "source_url": "https://www.aallyandsons.com/reverb-alesis-midiverb-4-md4-dual-ch-proces/",
             "caption": "Powered front control panel and rear overview",
             "note": "Retailer promotional photograph showing the full front control panel with its green LCD illuminated and a second rear overview below. For this rack unit the controls face forward, rather than occupying the top lid. The front panel is only about 920 pixels wide within the composite; a higher-resolution control photograph remains pending.",
             "visual_checked": true,
             "powered_on": true,
             "exact_top_down": false,
-            "sha256": "48a2533061774b43623daac53b70c0122c8b0a324b7b7da176c569caacfcc20c"
+            "sha256": "99c00dcb027232e4cf5de89ac89267638d5214586ac642b2e56ecdc3a9208ddb"
           },
           "rear": {
             "image_url": "images/alesis-midiverb-4-rear-af5854cdce7e.jpg",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B3"
+    "last_model": "Alesis::MIDIverb 4"
   }
 }

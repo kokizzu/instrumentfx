@@ -219,7 +219,7 @@ Sources checked:
 
 **Powered front control panel and rear overview**
 
-[![Powered front control panel and rear overview](https://cdn11.bigcommerce.com/s-mivyx18b6b/images/stencil/1280x1280/products/18519/1253557/Alesis-Midiverb-4-front-rear__27695.1733993225.jpg?c=1%3Fimbypass%3Don)](https://cdn11.bigcommerce.com/s-mivyx18b6b/images/stencil/1280x1280/products/18519/1253557/Alesis-Midiverb-4-front-rear__27695.1733993225.jpg?c=1%3Fimbypass%3Don)
+[![Powered front control panel and rear overview](images/alesis-midiverb-4-top-99c00dcb0272.jpg)](images/alesis-midiverb-4-top-99c00dcb0272.jpg)
 
 [Image source](https://www.aallyandsons.com/reverb-alesis-midiverb-4-md4-dual-ch-proces/). Retailer promotional photograph showing the full front control panel with its green LCD illuminated and a second rear overview below. For this rack unit the controls face forward, rather than occupying the top lid. The front panel is only about 920 pixels wide within the composite; a higher-resolution control photograph remains pending.
 
