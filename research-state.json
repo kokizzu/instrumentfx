@@ -226127,7 +226127,7 @@
             "sha256": "857d443d2881bd75888aa4ee4499b179c5fbf75378fbdc319dc0af3f174de3ab"
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-1201-5592348.jpg",
+            "image_url": "images/zoom-1201-rear-d062245f6cca.jpg",
             "source_url": "https://en.audiofanzine.com/multi-effects-processor/zoom/studio-1201/",
             "caption": "1201 rear connectors",
             "note": "Visually checked real 1201 rear from above: DC power, FS01 EFFECT ON/OFF, OUTPUT R/L and INPUT R/L-MONO, all six sockets visible. Low-contrast lettering; use the manual for electrical specifications. No USB/MIDI or headphone socket shown. Unconnected rear photograph does not establish powered operation.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::SPX990"
+    "last_model": "Zoom::1201"
   }
 }

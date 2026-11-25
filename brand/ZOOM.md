@@ -873,7 +873,7 @@ Sources checked:
 
 **1201 rear connectors**
 
-[![1201 rear connectors](https://medias.audiofanzine.com/images/normal/zoom-1201-5592348.jpg)](https://medias.audiofanzine.com/images/normal/zoom-1201-5592348.jpg)
+[![1201 rear connectors](images/zoom-1201-rear-d062245f6cca.jpg)](images/zoom-1201-rear-d062245f6cca.jpg)
 
 [Image source](https://en.audiofanzine.com/multi-effects-processor/zoom/studio-1201/). Visually checked real 1201 rear from above: DC power, FS01 EFFECT ON/OFF, OUTPUT R/L and INPUT R/L-MONO, all six sockets visible. Low-contrast lettering; use the manual for electrical specifications. No USB/MIDI or headphone socket shown. Unconnected rear photograph does not establish powered operation.
 
