@@ -226177,7 +226177,7 @@
             "sha256": "28b442483cc537504aa26f47c41cb36a5f2e681ecce0a2ef723f8e5d0456771a"
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-506ii-bass-4418612.jpg",
+            "image_url": "images/zoom-506ii-rear-3a9a8d1faccd.jpg",
             "source_url": "https://en.audiofanzine.com/bass-multi-effect/zoom/506-II-Bass/",
             "caption": "506II rear connectors",
             "note": "Visually inspected upside-down rear photo: all four sockets visible, INPUT, DC9V, CONTROL IN and shared OUTPUT(PHONES). Image orientation is inverted; not separate headphone and line outputs. No cables attached; power not established. Exact identity follows the 506II gallery, not connector shape alone.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::1201"
+    "last_model": "Zoom::506II"
   }
 }

@@ -301,7 +301,7 @@ Sources checked:
 
 **506II rear connectors**
 
-[![506II rear connectors](https://medias.audiofanzine.com/images/normal/zoom-506ii-bass-4418612.jpg)](https://medias.audiofanzine.com/images/normal/zoom-506ii-bass-4418612.jpg)
+[![506II rear connectors](images/zoom-506ii-rear-3a9a8d1faccd.jpg)](images/zoom-506ii-rear-3a9a8d1faccd.jpg)
 
 [Image source](https://en.audiofanzine.com/bass-multi-effect/zoom/506-II-Bass/). Visually inspected upside-down rear photo: all four sockets visible, INPUT, DC9V, CONTROL IN and shared OUTPUT(PHONES). Image orientation is inverted; not separate headphone and line outputs. No cables attached; power not established. Exact identity follows the 506II gallery, not connector shape alone.
 
