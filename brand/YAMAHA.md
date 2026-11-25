@@ -907,7 +907,7 @@ Sources checked:
 
 **SPX900 rear connectors**
 
-[![SPX900 rear connectors](https://medias.audiofanzine.com/images/normal/yamaha-spx900-5905192.jpg)](https://medias.audiofanzine.com/images/normal/yamaha-spx900-5905192.jpg)
+[![SPX900 rear connectors](images/yamaha-spx900-rear-c41a868910eb.jpg)](images/yamaha-spx900-rear-c41a868910eb.jpg)
 
 [Image source](https://en.audiofanzine.com/multi-effects-processor/yamaha/SPX900/). Visually checked full rear: three FOOT SW jacks BYPASS/INC-DEC/TRIGGER; separate round multi-pin REMOTE; MIDI OUT/THRU with selector and MIDI IN; OUTPUT R/L pair with−20/+4dB switch; one mono INPUT jack with its own−20/+4dB switch; captive mains lead. No dedicated digital-audio I/O, XLR, USB or PHONES sockets shown. REMOTE pinout/protocol remains unverified; no SPX1000 digital connection substituted. Rear specimen marked220–240V20W50/60Hz, distinct from front-photo seller120V specimen. Powered state unavailable from rear.
 

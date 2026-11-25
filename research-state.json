@@ -226050,7 +226050,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/yamaha-spx900-5905192.jpg",
+            "image_url": "images/yamaha-spx900-rear-c41a868910eb.jpg",
             "source_url": "https://en.audiofanzine.com/multi-effects-processor/yamaha/SPX900/",
             "caption": "SPX900 rear connectors",
             "note": "Visually checked full rear: three FOOT SW jacks BYPASS/INC-DEC/TRIGGER; separate round multi-pin REMOTE; MIDI OUT/THRU with selector and MIDI IN; OUTPUT R/L pair with−20/+4dB switch; one mono INPUT jack with its own−20/+4dB switch; captive mains lead. No dedicated digital-audio I/O, XLR, USB or PHONES sockets shown. REMOTE pinout/protocol remains unverified; no SPX1000 digital connection substituted. Rear specimen marked220–240V20W50/60Hz, distinct from front-photo seller120V specimen. Powered state unavailable from rear.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "VOX::ToneLab SE"
+    "last_model": "Yamaha::SPX900"
   }
 }
