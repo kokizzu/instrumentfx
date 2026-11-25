@@ -5243,7 +5243,7 @@ Sources checked:
 
 **G3 powered control face**
 
-[![G3 powered control face](https://medias.audiofanzine.com/images/normal/zoom-g3-2867808.jpg)](https://medias.audiofanzine.com/images/normal/zoom-g3-2867808.jpg)
+[![G3 powered control face](images/zoom-g3-top-7e72718b9a80.jpg)](images/zoom-g3-top-7e72718b9a80.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/zoom/g3/). Actual powered G3, complete near-overhead control face (photograph rotated sideways): all three amber LCDs are active and the third footswitch LED is lit. Nine knobs, three footswitches and sixteen front-panel keys are visible.
 
