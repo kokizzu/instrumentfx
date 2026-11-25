@@ -223369,7 +223369,7 @@
             "exact_top_down": false
           },
           "rear": {
-            "image_url": "https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_back_800w.jpg",
+            "image_url": "images/kemper-profiler-rack-mk2-rear-0416d59b7d70.jpg",
             "source_url": "https://www.kemper-amps.com/store/en/profiler-rack-b.html",
             "caption": "Unpowered PROFILER Rack rear panel supplied by the Rack MK2 listing; no speaker power-amplifier socket.",
             "note": "Visible RETURN XLR/quarter-inch, ALTERNATIVE INPUT, DIRECT/SEND, MONITOR, stereo MAIN XLR/quarter-inch, S/PDIF RCA, MIDI thru/out/in, two pedal sockets, NETWORK, USB-B and IEC mains. USB-A is on the front. Large blank right-side area has no red speaker output, unlike PowerRack. The small printed mains range differs from current generic unpowered specifications; no revision reconciliation is inferred. Listing provenance does not independently establish internal MK2 revision or installed firmware.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Alesis::MIDIverb 4"
+    "last_model": "Kemper::PROFILER Rack MK2"
   }
 }

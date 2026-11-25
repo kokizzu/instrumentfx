@@ -468,7 +468,7 @@ Sources checked:
 
 **Unpowered PROFILER Rack rear panel supplied by the Rack MK2 listing; no speaker power-amplifier socket.**
 
-[![Unpowered PROFILER Rack rear panel supplied by the Rack MK2 listing; no speaker power-amplifier socket.](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_back_800w.jpg)](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-rack_back_800w.jpg)
+[![Unpowered PROFILER Rack rear panel supplied by the Rack MK2 listing; no speaker power-amplifier socket.](images/kemper-profiler-rack-mk2-rear-0416d59b7d70.jpg)](images/kemper-profiler-rack-mk2-rear-0416d59b7d70.jpg)
 
 [Image source](https://www.kemper-amps.com/store/en/profiler-rack-b.html). Visible RETURN XLR/quarter-inch, ALTERNATIVE INPUT, DIRECT/SEND, MONITOR, stereo MAIN XLR/quarter-inch, S/PDIF RCA, MIDI thru/out/in, two pedal sockets, NETWORK, USB-B and IEC mains. USB-A is on the front. Large blank right-side area has no red speaker output, unlike PowerRack. The small printed mains range differs from current generic unpowered specifications; no revision reconciliation is inferred. Listing provenance does not independently establish internal MK2 revision or installed firmware.
 
