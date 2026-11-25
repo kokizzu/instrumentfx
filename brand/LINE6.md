@@ -4451,7 +4451,7 @@ Sources checked:
 
 **PODxt Live rear connections**
 
-[![PODxt Live rear connections](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/60053/380933/YLINE613634305__13199.1715681839.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/60053/380933/YLINE613634305__13199.1715681839.jpg?c=1)
+[![PODxt Live rear connections](images/line-6-pod-xt-live-rear-07e1a9c8a787.jpg)](images/line-6-pod-xt-live-rear-07e1a9c8a787.jpg)
 
 [Image source](https://richtonemusic.co.uk/line-6-pod-xt-live-psu-ethernet-cable-2nd-hand/). Rich Tone guitar PODxt Live specimen, not Bass PODxt Live. Entire rear edge visible: Pedal2, input/pad, aux, amp/line outs/level, phones, MIDI, Variax, USB and power. Slight oblique angle.
 

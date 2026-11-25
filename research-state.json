@@ -219740,7 +219740,7 @@
             "sha256": "ee17366edda1e8b6cd4a8d22d7c2d98c89994df631ebc6fea8ad2b5afd0372d3"
           },
           "rear": {
-            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/60053/380933/YLINE613634305__13199.1715681839.jpg?c=1",
+            "image_url": "images/line-6-pod-xt-live-rear-07e1a9c8a787.jpg",
             "source_url": "https://richtonemusic.co.uk/line-6-pod-xt-live-psu-ethernet-cable-2nd-hand/",
             "caption": "PODxt Live rear connections",
             "note": "Rich Tone guitar PODxt Live specimen, not Bass PODxt Live. Entire rear edge visible: Pedal2, input/pad, aux, amp/line outs/level, phones, MIDI, Variax, USB and power. Slight oblique angle.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "DigiTech::RP55"
+    "last_model": "Line 6::POD XT Live"
   }
 }
