@@ -226066,7 +226066,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/yamaha-spx990-6491615.jpg",
+            "image_url": "images/yamaha-spx990-top-aa0abceaa771.jpg",
             "source_url": "https://en.audiofanzine.com/multi-effects-processor/yamaha/SPX990/",
             "caption": "SPX990 powered control face",
             "note": "Visually checked actual powered SPX990 front controls and top chassis from raised front angle: bright PLATE HALL/Rev-Rev LCD, red memory digits and green/red status indicators. Concentric L/R INPUT LEVEL plus DATA ENTRY give three rotary controls; six function keys plus six PAGE/MEMORY/EDIT/STORE/BYPASS keys give12buttons. MEMORY CARD slot and separate power rocker visible; rack-ear edges slightly cropped, controls retained. This is perspective above/front, not vertical overhead. Displayed program data does not establish firmware revision or audio performance.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::SPX900"
+    "last_model": "Yamaha::SPX990"
   }
 }
