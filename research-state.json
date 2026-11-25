@@ -226854,7 +226854,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/zoom-g1x-four-6466823.jpg",
+            "image_url": "images/zoom-g1x-four-top-f8f1099f359f.jpg",
             "source_url": "https://fr.audiofanzine.com/multieffet-guitare-electrique/zoom/g1x-four/",
             "caption": "G1X FOUR powered control face",
             "note": "Actual powered G1X FOUR in a full near-overhead view, with illuminated patch 13 Del+Vol LCD and red bank LED. Four rotary knobs, two footswitches, built-in treadle and nine pushbuttons are visible (mode, setting, rhythm, five numbered buttons and looper). Earlier preserved 11-button wording counts two nonexistent separate arrow buttons; these arrows are on the main footswitches.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Zoom::B2.1u"
+    "last_model": "Zoom::G1X FOUR"
   }
 }

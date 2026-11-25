@@ -4006,7 +4006,7 @@ Sources checked:
 
 **G1X FOUR powered control face**
 
-[![G1X FOUR powered control face](https://medias.audiofanzine.com/images/normal/zoom-g1x-four-6466823.jpg)](https://medias.audiofanzine.com/images/normal/zoom-g1x-four-6466823.jpg)
+[![G1X FOUR powered control face](images/zoom-g1x-four-top-f8f1099f359f.jpg)](images/zoom-g1x-four-top-f8f1099f359f.jpg)
 
 [Image source](https://fr.audiofanzine.com/multieffet-guitare-electrique/zoom/g1x-four/). Actual powered G1X FOUR in a full near-overhead view, with illuminated patch 13 Del+Vol LCD and red bank LED. Four rotary knobs, two footswitches, built-in treadle and nine pushbuttons are visible (mode, setting, rhythm, five numbered buttons and looper). Earlier preserved 11-button wording counts two nonexistent separate arrow buttons; these arrows are on the main footswitches.
 
