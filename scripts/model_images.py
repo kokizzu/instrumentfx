@@ -146,7 +146,16 @@ def archive(limit):
     body,content_type=image_download(url)
     digest=hashlib.sha256(body).hexdigest()
     if digest!=expected['sha256']:
-     plan['failures'].append({'model':key,'view':view,'status':'source hash changed','host':host,'expected':expected['sha256'],'actual':digest});continue
+     ext=image_extension(body,content_type);preview=None
+     if ext:
+      slug=re.sub(r'[^a-z0-9]+','-',key.lower()).strip('-')[:78].strip('-')
+      preview_path=Path('/tmp')/f'instrumentfx-image-review-{slug}-{view}-{digest[:12]}.{ext}'
+      atomic_write(preview_path,body);preview=str(preview_path)
+     failure={'model':key,'view':view,'status':'source hash changed','host':host,'expected':expected['sha256'],'actual':digest}
+     if preview: failure['preview']=preview
+     plan['failures'].append(failure)
+     print('SOURCE_HASH_CHANGED',key,view,'preview',preview or 'unavailable',flush=True)
+     continue
     ext=image_extension(body,content_type)
     if not ext:
      plan['failures'].append({'model':key,'view':view,'status':'unsupported image encoding','host':host,'content_type':content_type});continue
@@ -175,9 +184,58 @@ def archive(limit):
   time.sleep(.2)
  print('ARCHIVE_RESULT',json.dumps({'models_processed':plan['cursor'],'models_localized':plan['localized_models'],'views_localized':plan['localized_views'],'remaining_remote':sum(1 for r in json.loads((ROOT/'research-state.json').read_text())['model_images']['models'].values() for v in r.get('views',{}).values() if v['image_url'].startswith('https://')),'blocked_hosts':plan['blocked_hosts'],'failures':len(plan['failures'])},ensure_ascii=False))
 
+def finish_archive_retry(plan):
+ assert plan.get('retry_mode') and plan['cursor']==len(plan['models'])
+ failures=plan['failures'];original_models=plan['retry_original_models']
+ plan['models']=original_models;plan['cursor']=len(original_models);plan['failures']=failures
+ plan.pop('retry_original_models');plan.pop('retry_mode')
+ state=json.loads((ROOT/'research-state.json').read_text())
+ records=state['model_images']['models'].values()
+ plan['localized_models']=sum(any(not v.get('image_url','').startswith('https://') for v in r.get('views',{}).values()) for r in records)
+ plan['localized_views']=sum(not v.get('image_url','').startswith('https://') for r in state['model_images']['models'].values() for v in r.get('views',{}).values())
+ plan['head']=publish.git('rev-parse','HEAD')
+ atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
+ remaining=sum(v.get('image_url','').startswith('https://') for r in state['model_images']['models'].values() for v in r.get('views',{}).values())
+ print('ARCHIVE_RETRY_RESULT',json.dumps({'models_localized':plan['localized_models'],'views_localized':plan['localized_views'],'remaining_remote':remaining,'failures':len(failures),'failure_details':failures},ensure_ascii=False))
+
+def archive_retry(limit):
+ plan=json.loads(ARCHIVE_PLAN.read_text())
+ assert plan['format']=='instrumentfx-image-archive-v1' and plan['limit']==limit
+ assert plan['head']==publish.git('rev-parse','HEAD')
+ if not plan.get('retry_mode'):
+  assert plan['cursor']==len(plan['models']),'Finish or recover the current archive checkpoint first'
+  state=json.loads((ROOT/'research-state.json').read_text());original_models=plan['models'];by_key={item['key']:item for item in original_models};retry_by_key={}
+  for failure in plan['failures']:
+   key=failure.get('model');view=failure.get('view');item=by_key.get(key);expected=item and item['views'].get(view)
+   current=state['model_images']['models'].get(key,{}).get('views',{}).get(view,{})
+   if expected and current.get('image_url')==expected['url'] and current.get('sha256')==expected['sha256']:
+    retry_by_key.setdefault(key,{})[view]=expected
+  retry_models=[{'key':item['key'],'views':{view:retry_by_key[item['key']][view] for view in item['views'] if view in retry_by_key[item['key']]}} for item in original_models if item['key'] in retry_by_key]
+  plan['retry_original_models']=original_models;plan['retry_mode']=True;plan['models']=retry_models
+  plan['cursor']=0;plan['blocked_hosts']=[];plan['failures']=[];plan['localized_models']=0;plan['localized_views']=0
+  atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
+  print('RETRY_PLAN',len(retry_models),'models /',sum(len(item['views']) for item in retry_models),'remote views',flush=True)
+ if not plan['models']:
+  finish_archive_retry(plan);return
+ if plan['cursor']<len(plan['models']): archive(limit)
+ plan=json.loads(ARCHIVE_PLAN.read_text())
+ if plan.get('retry_mode') and plan['cursor']==len(plan['models']): finish_archive_retry(plan)
+
 def archive_recover():
  publish.identity();plan=json.loads(ARCHIVE_PLAN.read_text())
  assert plan['format']=='instrumentfx-image-archive-v1'
+ if plan['cursor']==len(plan['models']):
+  commits=publish.git('rev-list','--reverse',plan['head']+'..HEAD').splitlines()
+  if commits:
+   assert len(commits)==1,('Unexpected commits after archive checkpoint',commits)
+   rev=commits[0];changed=set(publish.git('diff-tree','--no-commit-id','--name-only','-r',rev).splitlines())
+   subject=publish.git('log','-1','--format=%s',rev)
+   assert subject=='feat(images): retry remaining source images' and changed=={'scripts/model_images.py','make/images.mk'}
+   assert publish.git('rev-parse',rev+'^')==plan['head']
+   plan['head']=publish.git('rev-parse','HEAD');atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
+   print('RECOVERED_RETRY_CODE',plan['head']);return
+  assert plan['head']==publish.git('rev-parse','HEAD'),'Archive checkpoint head differs; inspect repository history before recovery'
+  print('NO_ARCHIVE_RECOVERY_NEEDED',plan['head']);return
  assert plan['cursor']<len(plan['models'])
  item=plan['models'][plan['cursor']];key=item['key']
  commits=publish.git('rev-list','--reverse',plan['head']+'..HEAD').splitlines()
@@ -209,9 +267,11 @@ def archive_recover():
  recovered_views=0
  for name,expected in item['views'].items():
   view=record['views'][name]
-  assert not view['image_url'].startswith('https://') and view['sha256']==expected['sha256']
+  if view['image_url'].startswith('https://'): continue
+  assert view['sha256']==expected['sha256']
   assert hashlib.sha256(local_asset(view['image_url']).read_bytes()).hexdigest()==expected['sha256']
   recovered_views+=1
+ assert recovered_views>0,'No verified archived views were found in the committed image update'
  plan['head']=publish.git('rev-parse','HEAD');plan['cursor']+=1
  plan['localized_models']+=1;plan['localized_views']+=recovered_views
  atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
@@ -219,16 +279,21 @@ def archive_recover():
 
 def archive_code_review():
  publish.identity();plan=json.loads(ARCHIVE_PLAN.read_text())
- assert plan['format']=='instrumentfx-image-archive-v1' and plan['cursor']<len(plan['models'])
- item=plan['models'][plan['cursor']];pending=archive_pending_assets(item)
- assert pending,('No verified pending assets for archive checkpoint',item['key'])
+ assert plan['format']=='instrumentfx-image-archive-v1'
+ if plan['cursor']<len(plan['models']):
+  item=plan['models'][plan['cursor']];pending=archive_pending_assets(item)
+  assert pending,('No verified pending assets for archive checkpoint',item['key'])
+  mode='pending-recovery'
+ else:
+  assert not publish.git('ls-files','--others','--exclude-standard'),'Unexpected untracked files must be preserved'
+  pending={};mode='retry-maintenance'
  paths={'scripts/model_images.py','make/images.mk'}
  assert not publish.git('diff','--cached','--name-only'),'Staged work must be preserved'
  assert set(publish.git('diff','--name-only').splitlines())==paths,'Only archive recovery code may change'
  subprocess.run(['git','add','--',*sorted(paths)],cwd=ROOT,check=True)
  subprocess.run(['git','diff','--cached','--check'],cwd=ROOT,check=True)
  diff=publish.git('diff','--cached');assert diff
- receipt={'head':publish.git('rev-parse','HEAD'),'paths':sorted(publish.git('diff','--cached','--name-only').splitlines()),'sha256':hashlib.sha256(diff.encode()).hexdigest(),'pending':sorted('brand/'+rel for rel in pending.values())}
+ receipt={'head':publish.git('rev-parse','HEAD'),'paths':sorted(publish.git('diff','--cached','--name-only').splitlines()),'sha256':hashlib.sha256(diff.encode()).hexdigest(),'pending':sorted('brand/'+rel for rel in pending.values()),'mode':mode}
  atomic_write(ARCHIVE_CODE_RECEIPT,json.dumps(receipt,sort_keys=True).encode())
  print('STAGED_DIFF_BEGIN');print(diff);print('STAGED_DIFF_END');print('ARCHIVE_CODE_REVIEW',receipt)
 
@@ -238,13 +303,22 @@ def archive_code_commit():
  assert receipt['paths']==sorted(publish.git('diff','--cached','--name-only').splitlines())
  assert receipt['sha256']==hashlib.sha256(publish.git('diff','--cached').encode()).hexdigest()
  assert not publish.git('diff','--name-only')
- plan=json.loads(ARCHIVE_PLAN.read_text());item=plan['models'][plan['cursor']]
- pending=archive_pending_assets(item)
- assert receipt['pending']==sorted('brand/'+rel for rel in pending.values())
- subprocess.run(['git','commit','-m','fix(images): resume verified pending photo downloads'],cwd=ROOT,check=True)
+ plan=json.loads(ARCHIVE_PLAN.read_text())
+ if receipt.get('mode')=='pending-recovery':
+  assert plan['cursor']<len(plan['models'])
+  pending=archive_pending_assets(plan['models'][plan['cursor']])
+  assert receipt['pending']==sorted('brand/'+rel for rel in pending.values())
+  message='fix(images): resume verified pending photo downloads'
+ else:
+  assert receipt.get('mode')=='retry-maintenance' and plan['cursor']==len(plan['models'])
+  assert receipt['pending']==[] and not publish.git('ls-files','--others','--exclude-standard')
+  message='feat(images): retry remaining source images'
+ subprocess.run(['git','commit','-m',message],cwd=ROOT,check=True)
  subprocess.run(['git','push','origin','main:main'],cwd=ROOT,check=True)
  head=publish.git('rev-parse','HEAD')
  assert publish.git('ls-remote','origin','refs/heads/main').split()[0]==head
+ if receipt.get('mode')=='retry-maintenance':
+  plan['head']=head;atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
  print('PUSH_VERIFIED',publish.git('rev-parse','--short','HEAD'))
 
 def diagram():
@@ -407,4 +481,4 @@ def commit():
  assert publish.git('ls-remote','origin','refs/heads/main').split()[0]==publish.git('rev-parse','HEAD')
  print('PUSH_VERIFIED',publish.git('rev-parse','--short','HEAD'))
 if __name__=='__main__':
- {'diagram':diagram,'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit,'archive-plan':lambda:archive_plan(int(sys.argv[2])),'archive':lambda:archive(int(sys.argv[2])),'archive-recover':archive_recover,'archive-code-review':archive_code_review,'archive-code-commit':archive_code_commit}[sys.argv[1]]()
+ {'diagram':diagram,'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit,'archive-plan':lambda:archive_plan(int(sys.argv[2])),'archive':lambda:archive(int(sys.argv[2])),'archive-retry':lambda:archive_retry(int(sys.argv[2])),'archive-recover':archive_recover,'archive-code-review':archive_code_review,'archive-code-commit':archive_code_commit}[sys.argv[1]]()

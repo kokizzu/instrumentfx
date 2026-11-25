@@ -41,7 +41,10 @@ model-images-archive-plan:
 model-images-archive:
 	python3 -B scripts/model_images.py archive $(IMAGE_ARCHIVE_LIMIT)
 
-.PHONY: model-images-archive-recover
+.PHONY: model-images-archive-retry model-images-archive-recover
+model-images-archive-retry:
+	python3 -B scripts/model_images.py archive-retry $(IMAGE_ARCHIVE_LIMIT)
+
 model-images-archive-recover:
 	python3 -B scripts/model_images.py archive-recover
 
