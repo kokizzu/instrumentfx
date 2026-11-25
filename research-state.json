@@ -228676,7 +228676,7 @@
             "sha256": "0625e39b5ca37487bfc7e7261569c216a4433b0de44b25141ef46999d691ed93"
           },
           "rear": {
-            "image_url": "https://medias.audiofanzine.com/images/normal/boss-me-5-3037219.jpg",
+            "image_url": "images/boss-me-5-rear-4b67acc0a155.jpg",
             "source_url": "https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-5/",
             "caption": "BOSS ME-5 — rear connections",
             "note": "Full connector row visible from an elevated rear angle: power switch and captive AC lead, MIDI OUT/IN, group/manual/expression controls, send/return, phones, tuner out, stereo outputs and input. Left enclosure edge touches the photograph boundary; no connector is missing.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "BOSS::GT-5"
+    "last_model": "BOSS::ME-5"
   }
 }

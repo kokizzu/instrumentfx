@@ -4991,7 +4991,7 @@ Sources checked:
 
 **BOSS ME-5 — rear connections**
 
-[![BOSS ME-5 — rear connections](https://medias.audiofanzine.com/images/normal/boss-me-5-3037219.jpg)](https://medias.audiofanzine.com/images/normal/boss-me-5-3037219.jpg)
+[![BOSS ME-5 — rear connections](images/boss-me-5-rear-4b67acc0a155.jpg)](images/boss-me-5-rear-4b67acc0a155.jpg)
 
 [Image source](https://en.audiofanzine.com/electric-guitar-multi-effects/boss/me-5/). Full connector row visible from an elevated rear angle: power switch and captive AC lead, MIDI OUT/IN, group/manual/expression controls, send/return, phones, tuner out, stereo outputs and input. Left enclosure edge touches the photograph boundary; no connector is missing.
 
