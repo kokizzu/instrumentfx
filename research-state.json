@@ -223385,7 +223385,7 @@
         "checked_date": "2026-11-22",
         "views": {
           "top": {
-            "image_url": "https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-stage_front_800w.jpg",
+            "image_url": "images/kemper-profiler-stage-mk2-top-d0dab70433d3.jpg",
             "source_url": "https://www.kemper-amps.com/store/us/profiler-stage-b.html",
             "caption": "PROFILER Stage powered-on overhead control panel from the Stage MK2 listing: active LCD and status LEDs, eight rotary controls and fourteen footswitches.",
             "note": "Exact MK2 SKU23000001 page supplies this overhead gallery image. No built-in treadle; complete footswitch layout visible. Picture does not establish installed OS, internal revision or factory-content count; no MK2 badge is visible.",
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Kemper::PROFILER PowerRack MK2"
+    "last_model": "Kemper::PROFILER Stage MK2"
   }
 }

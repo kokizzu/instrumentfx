@@ -555,7 +555,7 @@ Sources checked:
 
 **PROFILER Stage powered-on overhead control panel from the Stage MK2 listing: active LCD and status LEDs, eight rotary controls and fourteen footswitches.**
 
-[![PROFILER Stage powered-on overhead control panel from the Stage MK2 listing: active LCD and status LEDs, eight rotary controls and fourteen footswitches.](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-stage_front_800w.jpg)](https://www.kemper-amps.com/images/products/profiler-b/4x3/profiler-stage_front_800w.jpg)
+[![PROFILER Stage powered-on overhead control panel from the Stage MK2 listing: active LCD and status LEDs, eight rotary controls and fourteen footswitches.](images/kemper-profiler-stage-mk2-top-d0dab70433d3.jpg)](images/kemper-profiler-stage-mk2-top-d0dab70433d3.jpg)
 
 [Image source](https://www.kemper-amps.com/store/us/profiler-stage-b.html). Exact MK2 SKU23000001 page supplies this overhead gallery image. No built-in treadle; complete footswitch layout visible. Picture does not establish installed OS, internal revision or factory-content count; no MK2 badge is visible.
 
