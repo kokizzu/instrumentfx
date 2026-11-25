@@ -392,7 +392,7 @@ Sources checked:
 
 **606 rear connectors**
 
-[![606 rear connectors](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/49242/258182/YZOOM12640505__83766.1686138788.jpg?c=1)](https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/49242/258182/YZOOM12640505__83766.1686138788.jpg?c=1)
+[![606 rear connectors](images/zoom-606-rear-a3af59a21fae.jpg)](images/zoom-606-rear-a3af59a21fae.jpg)
 
 [Image source](https://richtonemusic.co.uk/zoom-606-guitar-pedal-2nd-hand/). Visually checked angled rear of actual 606 GUITAR, all three connectors visible: INPUT, recessed DC input and shared OUTPUT/PHONES. No external CONTROL/EXP, USB or MIDI socket shown. Labels small; use own manual for electrical ratings. Unconnected and unlit in this view; different unit from powered top.
 

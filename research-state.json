@@ -226202,13 +226202,13 @@
             "sha256": "2039144f6bd90dea91406c09c1484d21c52bd2df12826b45ff0db2b9b232b93f"
           },
           "rear": {
-            "image_url": "https://cdn11.bigcommerce.com/s-qzsvj0y9o3/images/stencil/1280x1280/products/49242/258182/YZOOM12640505__83766.1686138788.jpg?c=1",
+            "image_url": "images/zoom-606-rear-a3af59a21fae.jpg",
             "source_url": "https://richtonemusic.co.uk/zoom-606-guitar-pedal-2nd-hand/",
             "caption": "606 rear connectors",
             "note": "Visually checked angled rear of actual 606 GUITAR, all three connectors visible: INPUT, recessed DC input and shared OUTPUT/PHONES. No external CONTROL/EXP, USB or MIDI socket shown. Labels small; use own manual for electrical ratings. Unconnected and unlit in this view; different unit from powered top.",
             "visual_checked": true,
             "powered_on": false,
-            "sha256": "c2796a08f03ae3c8fdc1e23a634d945de3bd93b63424526f20f80e6e6a3a3e16"
+            "sha256": "a3af59a21fae8f24becfa4416177ff81a68acd5c0d561dfdbd4ea63d68e8fb53"
           }
         }
       },
@@ -229687,6 +229687,6 @@
     "scope": "All active models; powered-on top and rear-port photographs; absent views explicitly pending",
     "hover": "GitHub strips CSS/JS; use expandable pictures and direct image links",
     "hover_source": "https://github.com/github/markup#github-markup",
-    "last_model": "Yamaha::REV500"
+    "last_model": "Zoom::606"
   }
 }
