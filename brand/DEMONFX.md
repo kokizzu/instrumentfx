@@ -39,13 +39,13 @@ Sources checked:
 
 **Top-down control surface (unpowered)**
 
-[![Top-down control surface (unpowered)](https://i.etsystatic.com/39364016/r/il/c4d56e/5983453588/il_fullxfull.5983453588_okk1.jpg)](https://i.etsystatic.com/39364016/r/il/c4d56e/5983453588/il_fullxfull.5983453588_okk1.jpg)
+[![Top-down control surface (unpowered)](images/demonfx-dual-mod-workstation-top-6c4e4e279c07.jpg)](images/demonfx-dual-mod-workstation-top-6c4e4e279c07.jpg)
 
 [Image source](https://www.etsy.com/listing/1729755369/demonfx-dual-mod-workstation-guitar). Complete overhead control surface with ten knobs and three footswitches unobstructed. The three blue LED lenses are unlit; a verified powered-on top-down photograph remains pending.
 
 **Complete rear connector edge**
 
-[![Complete rear connector edge](https://i.etsystatic.com/39364016/r/il/4d4720/6031515139/il_1588xN.6031515139_avnw.jpg)](https://i.etsystatic.com/39364016/r/il/4d4720/6031515139/il_1588xN.6031515139_avnw.jpg)
+[![Complete rear connector edge](images/demonfx-dual-mod-workstation-rear-096a47b3c078.jpg)](images/demonfx-dual-mod-workstation-rear-096a47b3c078.jpg)
 
 [Image source](https://www.etsy.com/listing/1729755369/demonfx-dual-mod-workstation-guitar). The entire connector edge is visible, with top-face labels upside down: IN, EXP, TAP, STEREO and MONO audio/control jacks plus 9 V DC power. The angled photograph shows every socket opening without cable obstruction.
 
