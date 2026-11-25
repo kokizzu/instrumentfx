@@ -222,8 +222,9 @@ def archive_retry(limit):
  if plan.get('retry_mode') and plan['cursor']==len(plan['models']): finish_archive_retry(plan)
 
 def archive_adopt_previews(selection):
- ids=selection.split(',');assert ids and all(ids) and len(ids)==len(set(ids)),'Provide unique model-view IDs separated by commas'
  publish.identity();plan=json.loads(ARCHIVE_PLAN.read_text())
+ ids=selection.split(',') if selection else plan.get('approved_previews',[])
+ assert ids and all(ids) and len(ids)==len(set(ids)),'Record the visually reviewed model-view IDs in the archive checkpoint first'
  assert plan['format']=='instrumentfx-image-archive-v1' and plan['cursor']==len(plan['models']) and not plan.get('retry_mode')
  if not plan.get('adopt_pending'): assert plan['head']==publish.git('rev-parse','HEAD')
  models={item['key']:item for item in plan['models']}
@@ -236,6 +237,7 @@ def archive_adopt_previews(selection):
  def finish(pending,head):
   failure_id=preview_id(pending['model'],pending['view'])
   plan['failures']=[f for f in plan['failures'] if preview_id(f['model'],f['view'])!=failure_id]
+  if 'approved_previews' in plan: plan['approved_previews']=[item for item in plan['approved_previews'] if item!=failure_id]
   plan.setdefault('adopted_previews',[]).append({'id':failure_id,'model':pending['model'],'view':pending['view'],'previous_sha256':pending['previous_sha256'],'sha256':pending['sha256'],'path':pending['rel']})
   plan.pop('adopt_pending');plan['head']=head;state=totals()
   atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
@@ -299,6 +301,8 @@ def archive_adopt_previews(selection):
   pending={'model':key,'view':view_name,'previous_sha256':expected['sha256'],'sha256':digest,'preview':str(preview),'ext':ext,'rel':rel}
   plan['adopt_pending']=pending;atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
   head=resume(pending);finish(pending,head)
+ plan.pop('approved_previews',None)
+ atomic_write(ARCHIVE_PLAN,json.dumps(plan,ensure_ascii=False,sort_keys=True).encode())
  print('ARCHIVE_PREVIEW_ADOPTION_RESULT',json.dumps({'adopted':plan.get('adopted_previews',[]),'remaining_failures':len(plan['failures']),'head':plan['head']},ensure_ascii=False))
 
 def archive_recover():
@@ -603,4 +607,4 @@ def commit():
  assert publish.git('ls-remote','origin','refs/heads/main').split()[0]==publish.git('rev-parse','HEAD')
  print('PUSH_VERIFIED',publish.git('rev-parse','--short','HEAD'))
 if __name__=='__main__':
- {'diagram':diagram,'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit,'archive-plan':lambda:archive_plan(int(sys.argv[2])),'archive':lambda:archive(int(sys.argv[2])),'archive-retry':lambda:archive_retry(int(sys.argv[2])),'archive-adopt-previews':lambda:archive_adopt_previews(sys.argv[2]),'archive-recover':archive_recover,'archive-code-review':archive_code_review,'archive-code-commit':archive_code_commit}[sys.argv[1]]()
+ {'diagram':diagram,'test':test,'plan':plan,'fetch':fetch,'apply':apply,'verify':verify,'review':review,'commit':commit,'archive-plan':lambda:archive_plan(int(sys.argv[2])),'archive':lambda:archive(int(sys.argv[2])),'archive-retry':lambda:archive_retry(int(sys.argv[2])),'archive-adopt-previews':lambda:archive_adopt_previews(sys.argv[2] if len(sys.argv)>2 else ''),'archive-recover':archive_recover,'archive-code-review':archive_code_review,'archive-code-commit':archive_code_commit}[sys.argv[1]]()
